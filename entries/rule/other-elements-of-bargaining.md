@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "other_elements_of_bargaining", path = "json/rules_subsystems01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "139"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 139
 
 ### Using Magic to Bargain
 

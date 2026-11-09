@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/deathless", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "113"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 113\
 If you expend one use of mythic power when you cast the spell, you become an anchor for the souls of
 you and your cohorts. The range increases to 30 feet, and instead of affecting one creature, it
 affects all allies within a 30-foot-radius emanation centered on you.

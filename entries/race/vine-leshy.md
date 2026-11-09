@@ -6,12 +6,14 @@ source_ids = ["ultimate-wilderness", "wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vine_leshy", path = "json/races4.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "20"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Ultimate Wilderness pg 20\
 Vine leshys are born by ritual, called forth when a druid channels a nature spirit into a plant's
 form. The nature spirit that answers the call for a vine leshy creation ritual is always one that
 has keenly felt the influence of mortal beings. Compared to other leshys, vine

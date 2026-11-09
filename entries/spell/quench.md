@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quench", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "329"
 
 [fields]
 kind = "spell"
@@ -37,8 +40,6 @@ Saving throw: none or Will negates (object)
 Spell resistance: no or yes (object)
 Area or Target: one 20-ft. cube/level (S) or one fire-based magic item
 :::
-
-**Sources:** PRPG Core Rulebook pg 329
 
 Quench is often used to put out forest fires and other conflagrations. It extinguishes all
 nonmagical fires in its area. The spell also dispels any fire spells in its area, though you must

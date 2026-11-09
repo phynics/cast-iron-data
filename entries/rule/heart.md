@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heart", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "196"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 196
 
 A called shot to the heart represents an attempt at a killing blow. If the hit isn't either a
 critical hit or a debilitating blow, the attempt fails and is just a normal hit. A called shot to

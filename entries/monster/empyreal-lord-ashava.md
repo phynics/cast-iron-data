@@ -6,6 +6,9 @@ source_ids = ["pathfinder-134-it-came-from-hollow-mountain"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "empyreal_lord_ashava", path = "json/monsters_unique4.json" },
 ]
+[[sources]]
+publication = "pathfinder-134-it-came-from-hollow-mountain"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -49,7 +52,6 @@ _This graceful humanoid woman wears a flowing gown of sparkling starlight and a 
 **Senses:** Darkvision 60 ft., Detect evil, Detect law, Low-light vision, See in darkness, True
 seeing
 
-**Sources:** Pathfinder \#134: It Came from Hollow Mountain pg 84\
 **Subtype:** Azata, Chaotic, Extraplanar, Good
 
 **Experience points:** 4,915,200

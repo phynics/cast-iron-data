@@ -6,6 +6,9 @@ source_ids = ["pathfinder-society-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "agate_ellipsoid", path = "json/magic_ioun_stones.json" },
 ]
+[[sources]]
+publication = "pathfinder-society-primer"
+page = "22-23"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong divination"
 caster_level = "12th"
 +++
 
-**Sources:** Pathfinder Society Primer pg. 22-23\
 **Aura** strong divination; **CL** 12th\
 **Slot** none; **Price** 1,000 gp; **Weight** —
 

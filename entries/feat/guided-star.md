@@ -6,6 +6,9 @@ source_ids = ["paths-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guided_star", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "paths-of-the-righteous"
+page = "29"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You can empower a starknife with magical power once per day per chara
 +++
 
 ## Guided Star (Combat)
-
-**Sources:** Paths of the Righteous pg 29
 
 The grace of Desna guides your starknife to its target and back to your hand.\
 **Prerequisites:** [Starry Grace](ref/feat/starry-grace), worshiper of [Desna](ref/faith/desna).\

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spawn_of_rovagug_volnagur_the_end_singer", path = "json/monsters_unique3.json" },
 ]
+[[sources]]
+publication = "inner-sea-bestiary"
+page = "48"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ dozen different wings._
 
 **Senses:** All-around vision, Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Inner Sea Bestiary pg 48\
 **Experience points:** 614,400
 
 **Armor class:** 39/9/32

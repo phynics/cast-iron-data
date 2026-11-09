@@ -6,6 +6,9 @@ source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guerrilla_bandanna", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "59"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment and illusion"
 caster_level = "10th"
 +++
 
-**Sources:** Inner Sea Combat pg 59\
 **Aura** moderate enchantment and illusion; **CL** 10th\
 **Slot** headband; **Price** 18,000 gp; **Weight** 1 lb.
 

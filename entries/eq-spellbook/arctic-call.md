@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arctic_call", path = "json/equipment_spellbooks.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "124"
 
 [fields]
 kind = "item"
@@ -18,8 +21,6 @@ _Fine vellum sheets fill these two well-worn books. Beautiful illustrations depi
 each spell, many with a distinctly arctic theme. Though the pages and their wintry illustrations are
 of high quality, the protective leather case that encloses both books smells and feels greasy, as if
 the hide has been crudely waterproofed with animal fat._
-
-**Sources:** Ultimate Magic pg 124
 
 **Opposition** Illusion, necromancy\
 **Protection** fire trap modified to inflict cold damage (Reflex DC 17)\

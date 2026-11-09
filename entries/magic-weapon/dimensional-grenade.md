@@ -6,6 +6,9 @@ source_ids = ["pathfinder-71-rasputin-must-die"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dimensional_grenade", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "pathfinder-71-rasputin-must-die"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Sources:** Pathfinder \#71: Rasputin Must Die! pg 60\
 **Aura** moderate conjuration; **CL** 7th\
 **Slot** none; **Price** 1,450 gp; **Weight** 1 lb.
 

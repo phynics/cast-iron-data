@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "manananggal", path = "json/monsters16.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "190"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ mask._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 3 pg 190\
 **Type:** undead
 
 **Experience points:** 3,200

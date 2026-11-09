@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vital_strike", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "136"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When you use the attack action, you can make one attack at your highe
 +++
 
 ## Vital Strike (Combat)
-
-**Sources:** PRPG Core Rulebook pg 136
 
 You make a single attack that deals significantly more damage than normal.\
 **Prerequisites:** Base attack bonus +6.\

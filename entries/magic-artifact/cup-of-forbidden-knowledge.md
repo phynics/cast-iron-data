@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cup_of_forbidden_knowledge", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "226"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong divination"
 caster_level = "20th"
 +++
 
-**Sources:** Horror Adventures pg 226\
 **Aura** strong divination; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 2 lbs.
 

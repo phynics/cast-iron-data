@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "legendary_teamwork", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "68"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Any fixed numeric bonuses you gain from teamwork feats are increased 
 +++
 
 ## Legendary Teamwork (Mythic)
-
-**Sources:** Mythic Adventures pg 68
 
 You and your allies fight with great coordination.\
 **Prerequisites:** Any two teamwork feats.\

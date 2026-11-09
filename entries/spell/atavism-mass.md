@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/atavism" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "207"
 
 [fields]
 kind = "spell"
@@ -41,7 +44,5 @@ Spell resistance: yes
 :::
 
 ### Mass Atavism
-
-**Sources:** Ultimate Magic pg 207
 
 This spell functions as [atavism](ref/spell/atavism), except that it affects multiple creatures.

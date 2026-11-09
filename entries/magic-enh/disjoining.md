@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disjoining", path = "json/magic_enhancements.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "143"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Sources:** Mythic Adventures pg 143\
 **Aura** moderate necromancy; **CL** 7th\
 **Slot** none; **Price** +1 bonus; **Weight** -
 

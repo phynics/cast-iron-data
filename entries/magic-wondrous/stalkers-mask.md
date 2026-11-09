@@ -6,6 +6,15 @@ source_ids = ["ultimate-equipment", "pathfinder-2-the-skinsaw-murders", "rise-of
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stalkers_mask", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "247"
+[[sources]]
+publication = "pathfinder-2-the-skinsaw-murders"
+page = "40"
+[[sources]]
+publication = "rise-of-the-runelords-anniversary-edition"
+page = "427"
 
 [fields]
 kind = "item"
@@ -17,8 +26,6 @@ aura = "faint illusion"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Equipment pg 247, Pathfinder \#2: The Skinsaw Murders pg 40, Rise of the
-Runelords Anniversary Edition pg 427\
 **Aura** faint illusion; **CL** 5th\
 **Slot** head; **Price** 3,500 gp; **Weight** 1 lb.
 

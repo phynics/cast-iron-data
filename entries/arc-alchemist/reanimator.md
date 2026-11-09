@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "20"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["7th-level bomb damage increase", "13th-level bomb damage increase",
 alters = ["Bombs"]
 +++
 
-**Sources:** Ultimate Magic pg 20\
 A reanimator is an alchemist who has discovered how to infuse a corpse with a semblance of life.
 Many work in tandem with necromancers to explore the fine border between the worlds of the living
 and the dead. A reanimator has the following class features.

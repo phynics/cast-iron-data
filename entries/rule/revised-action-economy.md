@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "revised_action_economy", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "102"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 102
 
 The default action economy of the Pathfinder Roleplaying Game is intricate - full of exceptions,
 non-actions, and strange actions. This revised action economy streamlines the process of combat

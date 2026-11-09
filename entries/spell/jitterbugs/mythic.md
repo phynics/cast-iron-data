@@ -6,11 +6,13 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/jitterbugs", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "99"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 99\
 Starting on the second round of the spell, the affected target must succeed at a Fortitude save on
 your turn or be nauseated for 1 round, as if distracted by an actual swarm.

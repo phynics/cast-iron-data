@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/fighter" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "50"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["The fighter feat gained at 1st level"]
 alters = ["Armor proficiency", "Weapon training"]
 +++
 
-**Sources:** Ultimate Wilderness pg 50\
 A tribal fighter knows that it is not the weapon that matters but the hand that wields it. Instead
 of encasing himself in metal armor like the soldiers fighting and dying for the so-called civilized
 lands do, he prefers to wear something he or his ancestors have killed. These relics and trophies

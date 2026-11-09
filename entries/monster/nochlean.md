@@ -6,6 +6,9 @@ source_ids = ["pathfinder-133-secrets-of-roderics-cove"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nochlean", path = "json/monsters18.json" },
 ]
+[[sources]]
+publication = "pathfinder-133-secrets-of-roderics-cove"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ oversized ears stick out from the sides of its head, and it wears its long earlo
 
 **Senses:** Child-scent, Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#133: Secrets of Roderic's Cove pg 84\
 **Experience points:** 800
 
 **Armor class:** 15/14/11

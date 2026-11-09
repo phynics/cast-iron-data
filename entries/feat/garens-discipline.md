@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "garens_discipline", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "26"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever you use Combat Expertise, fight defensively, or take the tot
 +++
 
 ## Garen's Discipline (Combat)
-
-**Sources:** Adventurer's Guide pg 26
 
 You've learned to defend yourself against spell and storm with dazzling flourishes of your weapon.\
 **Prerequisites:** [Alertness](ref/feat/alertness),

@@ -6,6 +6,9 @@ source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gravity_control", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-origins"
+page = "7"
 
 [fields]
 kind = "class_option"
@@ -21,7 +24,5 @@ group = "kineticist-wild-talent"
 **Level:** 3
 
 **Burn:** 0
-
-**Source:** Occult Origins/7
 
 You use your gravitic abilities to move yourself, as per [flame jet](ref/kinetic/flame-jet).

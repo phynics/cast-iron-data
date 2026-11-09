@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/dimension-door" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "173"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Target: you (teleportation) and creatures within a 10-foot-radius burst (burst o
 Subschool: Teleportation
 Descriptors: fire
 :::
-
-**Sources:** Advanced Race Guide pg 173
 
 > _[Tieflings](ref/race/tiefling) have access to the following spell._
 

@@ -6,6 +6,9 @@ source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "protection_from_natural_attacks", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "monster-hunters-handbook"
+page = "30"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
 :::
-
-**Sources:** Monster Hunter's Handbook pg 30
 
 Upon casting this spell, select one type of natural attack from the following: bite, claw, gore,
 hoof, pincers, slam, sting, swarm, tail slap, talon, tentacle, or wing. For the duration of the

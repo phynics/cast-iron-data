@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "culling", path = "json/magic_enhancements2.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "26"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "8th"
 +++
 
-**Sources:** Melee Tactics Toolbox pg 26\
 **Aura** moderate evocation; **CL** 8th\
 **Slot** none; **Price** +2 bonus; **Weight** -
 

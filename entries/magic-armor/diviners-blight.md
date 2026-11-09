@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "diviners_blight", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "237"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong illusion"
 caster_level = "13th"
 +++
 
-**Sources:** Ultimate Intrigue pg 237\
 **Aura** strong illusion; **CL** 13th\
 **Slot** armor; **Price** 31,160 gp; **Weight** 15 lbs.
 

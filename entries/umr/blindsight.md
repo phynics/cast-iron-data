@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blindsight", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "290"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Blindsight (Ex)
 
-**Sources:** Bestiary 5 pg 290\
 Using nonvisual senses, such as sensitivity to vibrations, keen smell, acute hearing, or
 echolocation, a creature with blindsight can maneuver and fight as well as a sighted creature.
 Invisibility, darkness, and most kinds of [concealment](ref/rule/concealment) are irrelevant, though

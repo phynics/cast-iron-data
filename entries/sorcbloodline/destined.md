@@ -6,13 +6,15 @@ source_ids = ["core-rulebook", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "destined", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "74"
 
 [fields]
 kind = "class_option"
 group = "sorcerer-bloodline"
 +++
 
-**Sources:** PRPG Core Rulebook pg 74\
 Your family is destined for greatness in some way. Your birth could have been foretold in prophecy,
 or perhaps it occurred during an especially auspicious event, such as a solar eclipse. Regardless of
 your bloodline's origin, you have a great future ahead.

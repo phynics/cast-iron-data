@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planar_refuge", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-wild"
+page = "31"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: no
 Effect: 50-ft.-radius area of safe environment
 Subschool: Creation
 :::
-
-**Sources:** Heroes of the Wild pg 31
 
 This spell enforces the rules of the Material Plane on other planes of existence. Upon casting this
 spell on another plane, a spherical pocket of wilderness terrain forms around the designated point.

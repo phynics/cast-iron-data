@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unicorn", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "269"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ horn on its brow._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 269\
 **Experience points:** 800
 
 **Armor class:** 15/12/12

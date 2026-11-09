@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_scourge", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "243"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: Will negates
 Spell resistance: yes
 Target: one creature
 :::
-
-**Sources:** Inner Sea Gods pg 243
 
 A whip of cracking magical might appears in your hand, allowing you lash spells from the mind of
 enemy spellcasters. With a lash of bluish-purple energy, you strip many protective spells and

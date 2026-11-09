@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "32"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Proficiency with the rapier and whip", "Suggestion", "mass suggesti
 alters = ["Bardic performance"]
 +++
 
-**Sources:** Ultimate Combat pg 32\
 Not all bards inspire others with their performances. Dervish dancers enter a near-mystical trance
 that allows them to push their bodies beyond normal limits.
 

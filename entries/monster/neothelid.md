@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "neothelid", path = "json/monsters17.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "214"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ head rises like a snake's._
 
 **Senses:** Trace teleport 60 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 214\
 **Experience points:** 51,200
 
 **Armor class:** 30/4/30

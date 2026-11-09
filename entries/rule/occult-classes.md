@@ -6,12 +6,14 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "occult_classes", path = "json/rules_basics01.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "10"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Occult Adventures pg 10\
 Beyond the worship of the divine and the studies of arcane scholars lies the mysterious terrain of
 the mind, accessed through psychic magic. Classes that draw upon psychic magic do so via innate
 mental abilities, whether they directly cast spells, create elemental effects, or focus psychic

@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shoddy_item", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "116"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "varies"
 weight = "varies"
 +++
 
-**Sources:** Villain Codex pg 116\
 **Price** varies; **Weight** varies\
 **Category** Adventuring Gear
 

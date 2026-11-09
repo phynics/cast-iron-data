@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "proteans", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "110"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 110
 
 Slithering creatures of pure chaos, proteans claim they were the masters of the multiverse before
 the first gods created the other planes from the pure chaos of the primeval beginnings. They seek to

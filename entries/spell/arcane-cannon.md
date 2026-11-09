@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcane_cannon", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "223"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: none
 Spell resistance: no
 Effect: one magically animated cannon
 :::
-
-**Sources:** Ultimate Combat pg 223
 
 Your focus becomes a Medium arcane cannon that appears in an unoccupied square within the spell's
 range. If no unoccupied square is within range, the spell fails. The cannon comes into existence

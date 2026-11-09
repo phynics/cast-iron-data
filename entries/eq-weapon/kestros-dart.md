@@ -6,14 +6,15 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kestros_dart", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "22"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "0.5 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 22
 
 This dart, meant to be thrown using a [kestros](ref/eq-weapon/kestros), consists of a heavy metal
 point about 9 inches long attached to a shaft of wood about 12 inches long, fletched with feathers

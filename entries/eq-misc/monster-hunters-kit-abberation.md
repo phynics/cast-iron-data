@@ -6,6 +6,9 @@ source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monster_hunters_kit_abberation", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "monster-hunters-handbook"
+page = "27"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "15 1/2 lbs. (abberation), 15 1/2 lbs. (fey), 17 lbs. (ooze), 15 lbs. (
 
 ## Monster hunter's kit
 
-**Sources:** Monster Hunter's Handbook pg 27\
 **Price** 257 gp (abberation), 224 gp (fey), 232 gp (ooze), 202 gp (regular); **Weight** 15 1/2 lbs.
 (abberation), 15 1/2 lbs. (fey), 17 lbs. (ooze), 15 lbs. (regular)
 

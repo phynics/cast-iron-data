@@ -6,6 +6,12 @@ source_ids = ["book-of-the-damned", "book-of-the-damned-volume-2-lords-of-chaos"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "amulet_of_the_abyss", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "195"
+[[sources]]
+publication = "book-of-the-damned-volume-2-lords-of-chaos"
+page = "49"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint conjuration [chaotic, evil]"
 caster_level = "5th"
 +++
 
-**Sources:** Book of the Damned pg 195, Book of the Damned - Volume 2: Lords of Chaos pg 49\
 **Aura** faint conjuration \[chaotic, evil\]; **CL** 5th\
 **Slot** neck; **Price** 15,000 gp; **Weight** -
 

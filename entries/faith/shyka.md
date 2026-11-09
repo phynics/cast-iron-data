@@ -6,6 +6,9 @@ source_ids = ["the-first-world-realm-of-the-fey", "legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shyka", path = "json/faiths8.json" },
 ]
+[[sources]]
+publication = "the-first-world-realm-of-the-fey"
+page = "34"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Shyka**
 
 **Sub:** The Many
-
-**Sources:** The First World, Realm of the Fey pg 34
 
 ### Details
 

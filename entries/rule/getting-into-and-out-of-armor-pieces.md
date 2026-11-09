@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "getting_into_and_out_of_armor_pieces", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "200"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 200
 
 The time required to don an armor piece is based on its type and the area it protects; see Table
 5-6.

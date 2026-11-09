@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "herd_animal_aurochs", path = "json/monsters13.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "174"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ sharp._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 174\
 **Experience points:** 600
 
 **Armor class:** 13/9/13

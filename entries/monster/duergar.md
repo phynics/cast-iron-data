@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "duergar", path = "json/monsters08.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "117"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ rather than reflect the light._
 
 **Senses:** Darkvision 120 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 117\
 **Subtype:** Dwarf
 
 **Experience points:** 135

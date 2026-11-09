@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aeon_lipika", path = "json/monsters01.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "8"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ elbow, and an eye on each of its eight palms._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 5 pg 8\
 **Subtype:** Aeon, Extraplanar
 
 **Experience points:** 153,600

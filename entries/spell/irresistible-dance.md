@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "irresistible_dance", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "303"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Target: living creature touched
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 303
 
 The subject feels an undeniable urge to dance and begins doing so, complete with foot shuffling and
 tapping. The spell effect makes it impossible for the subject to do anything other than caper and

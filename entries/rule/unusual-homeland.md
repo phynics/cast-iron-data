@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unusual_homeland", path = "json/rules_basics03.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "20"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 20
 
 You grew up in a region not typically associated with the lands that your people call home. Roll on
 the Unusual Homeland table to determine the homeland of your family. If the result is one that is

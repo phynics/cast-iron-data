@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/summon-swarm" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "233"
 
 [fields]
 kind = "spell"
@@ -53,8 +56,6 @@ Subschool: Summoning
 :::
 
 ### Rain of Frogs
-
-**Sources:** Ultimate Magic pg 233
 
 This spell functions as [summon swarm](ref/spell/summon-swarm), except you summon a swarm of
 poisonous frogs. This swarm has the statistics of a

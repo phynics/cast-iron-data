@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "amoeba_giant_amoeba", path = "json/monsters26.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "23"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ nucleus to be seen within._
 
 **Size:** small
 
-**Sources:** Bestiary 2 pg 23\
 **Subtype:** Aquatic
 
 **Experience points:** 400

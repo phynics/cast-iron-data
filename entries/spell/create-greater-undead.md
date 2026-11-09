@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/create-undead" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "261"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: no
 Target: one corpse
 Descriptors: evil
 :::
-
-**Sources:** PRPG Core Rulebook pg 261
 
 This spell functions like [create undead](ref/spell/create-undead), except that you can create more
 powerful and intelligent sorts of undead: shadows, wraiths, spectres, and devourers. The type or

@@ -6,6 +6,12 @@ source_ids = ["bestiary-2", "pathfinder-4-fortress-of-the-stone-giants"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "redcap", path = "json/monsters20.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "233"
+[[sources]]
+publication = "pathfinder-4-fortress-of-the-stone-giants"
+page = "80"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ blood-red pointed cap._
 
 **Size:** small
 
-**Sources:** Bestiary 2 pg 233, Pathfinder \#4: Fortress of the Stone Giants pg 80\
 **Experience points:** 2,400
 
 **Armor class:** 20/15/16

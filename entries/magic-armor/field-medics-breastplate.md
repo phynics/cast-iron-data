@@ -6,6 +6,9 @@ source_ids = ["champions-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "field_medics_breastplate", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "champions-of-purity"
+page = "31"
 
 [fields]
 kind = "item"
@@ -16,8 +19,6 @@ slot = "armor"
 aura = "moderate abjuration, faint conjuration"
 caster_level = "7th"
 +++
-
-**Sources:** Champions of Purity pg 31
 
 **Aura** moderate abjuration, faint conjuration; **CL** 7th\
 **Slot** armor; **Price** 52,900 gp; **Weight** 30 lbs.

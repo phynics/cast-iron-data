@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/audiovisual-hallucination" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "227"
 
 [fields]
 kind = "spell"
@@ -54,8 +57,6 @@ Descriptors: mind-affecting
 :::
 
 ### Triggered Hallucination
-
-**Sources:** Ultimate Intrigue pg 227
 
 This spell functions as [audiovisual hallucination](ref/spell/audiovisual-hallucination), except
 that this spell's phantasm has no apparent effect until a specific condition occurs. You must

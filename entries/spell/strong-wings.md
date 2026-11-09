@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "strong_wings", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "201"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
 :::
-
-**Sources:** Advanced Race Guide pg 201
 
 > _[Strix](ref/race/strix) have access to the following spell._
 

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "44"
 
 [fields]
 kind = "archetype"
 replaces = ["Mutagen", "The 2nd-level discovery"]
 +++
 
-**Sources:** Advanced Race Guide pg 44\
 Some half-elven alchemists merge human curiosity with their elven link to nature. Such alchemists
 can manipulate the forces of alchemy to create bombs that reshape terrain and defoliate swaths of
 vegetation or to create mutagens that bestow the resilience of oak or the tenacity of bamboo. A

@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "diagnose_disease", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "216"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Saving throw: none
 Spell resistance: no
 Target or Area: one creature, one object, or a 5-ft. cube
 :::
-
-**Sources:** Ultimate Magic pg 216
 
 You determine whether a creature, object, or area carries any sort of disease or infestation
 (including molds, slimes, and similar hazards), or any exceptional or supernatural effects causing

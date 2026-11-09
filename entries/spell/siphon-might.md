@@ -6,6 +6,9 @@ source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "siphon_might", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "giant-hunters-handbook"
+page = "27"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: Fortitude half
 Spell resistance: yes
 Target: one creature
 :::
-
-**Sources:** Giant Hunter's Handbook pg 27
 
 You drain the might of the target and transfer that power to another creature. The subject takes a
 penalty to Strength equal to 1d6 + 1 per 2 caster levels (maximum 1d6 + 5). This effect can't cause

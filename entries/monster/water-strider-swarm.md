@@ -6,6 +6,9 @@ source_ids = ["pathfinder-49-the-brinewall-legacy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "water_strider_swarm", path = "json/monsters25.json" },
 ]
+[[sources]]
+publication = "pathfinder-49-the-brinewall-legacy"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ skimming over it in a wave of twitching bodies._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#49: The Brinewall Legacy pg 82\
 **Subtype:** Swarm
 
 **tremorsense:** 30

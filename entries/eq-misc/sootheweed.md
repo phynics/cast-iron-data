@@ -6,6 +6,9 @@ source_ids = ["elves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sootheweed", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "elves-of-golarion"
+page = "6"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "35 gp"
 weight = "-"
 +++
 
-**Sources:** Elves of Golarion pg 6\
 **Price** 35 gp; **Weight** -\
 **Category** Elven Herbs
 

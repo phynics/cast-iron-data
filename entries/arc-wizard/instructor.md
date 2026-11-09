@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/wizard" },
 ]
+[[sources]]
+publication = "cohorts-and-companions"
+page = "31"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Arcane bond"]
 alters = ["5th-, 10th-, 15th-, and 20th-level bonus feats"]
 +++
 
-**Sources:** Cohorts and Companions pg 31\
 Whether serving as staff at a formal school of magic or simply acting as a wandering teacher, an
 instructor has an apprentice who trades service to the instructor for lessons in magic.
 

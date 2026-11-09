@@ -6,13 +6,14 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ascetic", path = "json/class_ability_mysteries.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "104"
 
 [fields]
 kind = "class_option"
 group = "oracle-mystery"
 +++
-
-**Sources:** Villain Codex pg 104
 
 **Deities**
 

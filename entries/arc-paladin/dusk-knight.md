@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/paladin" },
 ]
+[[sources]]
+publication = "blood-of-shadows"
+page = "18"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Channel positive energy", "Divine bond", "Aura of resolve", "Aura o
 alters = ["Smite evil"]
 +++
 
-**Sources:** Blood of Shadows pg 18\
 Some paladins focus their training to combat the shadows and use darkness to their advantage. Known
 as dusk knights, these paladins are primarily worshipers of [Abadar](ref/faith/abadar), but dusk
 knights who serve [Iomedae](ref/faith/iomedae) and [Irori](ref/faith/irori), though rare, do exist.

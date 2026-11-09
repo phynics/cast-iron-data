@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "maximize_spell", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "130"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "All variable, numeric effects of a spell modified by this feat are ma
 +++
 
 ## Maximize Spell (Metamagic)
-
-**Sources:** PRPG Core Rulebook pg 130
 
 Your spells have the maximum possible effect.\
 **Benefit:** All variable, numeric effects of a spell modified by this feat are maximized. Saving

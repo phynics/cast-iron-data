@@ -6,6 +6,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "linked_legacy", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "9"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Saving throw: none
 Spell resistance: yes
 Targets: two willing creatures plus another creature per 6 levels, no two of which can be more than 30 feet apart
 :::
-
-**Sources:** Arcane Anthology pg 9
 
 This spell helps build community and ensure a shared vision for the future. When any of the affected
 creatures succeeds at a Knowledge check to answer a question within its field of study or identify a

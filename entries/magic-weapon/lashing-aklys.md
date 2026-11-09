@@ -6,6 +6,9 @@ source_ids = ["pathfinder-64-beyond-the-doomsday-door"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lashing_aklys", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "pathfinder-64-beyond-the-doomsday-door"
+page = "61"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Pathfinder \#64: Beyond the Doomsday Door pg 61\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** none; **Price** 4,305 gp; **Weight** 2 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "loudshot_pistol", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "magical-marketplace"
+page = "23"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Sources:** Magical Marketplace pg 23\
 **Aura** faint necromancy; **CL** 3rd\
 **Slot** none; **Price** 10,530 gp; **Weight** 4 lbs.
 

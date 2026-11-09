@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "razormouth", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "256"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ large, serrated, bright red fangs._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 6 pg 256\
 **Type:** vermin
 
 **Experience points:** 12,800

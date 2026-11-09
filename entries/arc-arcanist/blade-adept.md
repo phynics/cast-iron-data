@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/arcanist" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "76"
 
 [fields]
 kind = "archetype"
 replaces = ["The arcanist exploits gained at 1st and 9th levels", "The arcanist exploit gained at 3rd level"]
 +++
 
-**Sources:** Advanced Class Guide pg 76\
 A small number of arcanists learn to use blades as part of their spellcasting and in combat. While
 these blade adepts are not as capable with a sword as a true master duelist, their combination of
 swordplay and arcane power makes them quite deadly.

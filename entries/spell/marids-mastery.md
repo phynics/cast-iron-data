@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "marids_mastery", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "178"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Spell resistance: yes (harmless)
 Target: willing creature touched
 Descriptors: water
 :::
-
-**Sources:** Advanced Race Guide pg 178
 
 > _[Undines](ref/race/undine) have access to the following spell._
 

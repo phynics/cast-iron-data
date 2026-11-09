@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "25"
 
 [fields]
 kind = "archetype"
 replaces = ["Swift alchemy", "Swift poisoning", "Poison resistance +2, +4, and +6", "poison immunity", "Persistent mutagen"]
 +++
 
-**Sources:** Ultimate Combat pg 25\
 Beastmorphs study the anatomy of monsters, learning how they achieve their strange powers. They use
 their knowledge to duplicate these abilities, but at the cost of taking on inhuman shapes when they
 use mutagens.

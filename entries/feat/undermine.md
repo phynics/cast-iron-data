@@ -6,6 +6,9 @@ source_ids = ["people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "undermine", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "people-of-the-sands"
+page = "9"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "When you use a combat maneuver to move a creature into or through a s
 +++
 
 ## Undermine (Teamwork)
-
-**Sources:** People of the Sands pg 9
 
 You and your allies take advantage of shifting terrain to unbalance enemies.\
 **Benefit:** When you use a combat maneuver to move a creature into or through a square adjacent to

@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sard", path = "json/monsters21.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "237"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ dance in the cracks of its bark._
 
 **Type:** plant
 
-**Sources:** Bestiary 2 pg 237\
 **tremorsense:** 30
 
 **Experience points:** 204,800

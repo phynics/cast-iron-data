@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_shimmerwing_dragonfly", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "206"
 
 [fields]
 kind = "creature"
@@ -36,7 +39,6 @@ _This sizable insect has a slender body and two pairs of long, elegant, iridesce
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Ultimate Wilderness pg 206\
 **Size:** tiny
 
 **Type:** vermin

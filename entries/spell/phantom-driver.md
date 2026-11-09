@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phantom_driver", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "239"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: no
 Effect: one quasi-real, human-like creature
 Subschool: Creation
 :::
-
-**Sources:** Ultimate Combat pg 239
 
 You conjure a Small or Medium, quasi-real, human-like creature (the exact physical features can be
 customized as you wish). This creation can drive any vehicle you command it to. This phantom

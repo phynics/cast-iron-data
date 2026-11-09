@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thunderbird", path = "json/monsters23.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "264"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ that dances over its body._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Stormsight
 
-**Sources:** Bestiary 2 pg 264\
 **Experience points:** 12,800
 
 **Armor class:** 25/10/21

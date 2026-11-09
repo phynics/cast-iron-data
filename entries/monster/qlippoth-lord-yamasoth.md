@@ -6,6 +6,9 @@ source_ids = ["pathfinder-64-beyond-the-doomsday-door"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "qlippoth_lord_yamasoth", path = "json/monsters_unique3.json" },
 ]
+[[sources]]
+publication = "pathfinder-64-beyond-the-doomsday-door"
+page = "66"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ maw with a red eye in its throat._
 
 **Senses:** All-around vision, Darkvision 60 ft., Detect good, Detect law, True seeing
 
-**Sources:** Pathfinder \#64: Beyond the Doomsday Door pg 66\
 **Subtype:** Chaotic, Evil, Extraplanar, Qlippoth
 
 **Experience points:** 1,228,800

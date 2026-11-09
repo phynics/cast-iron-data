@@ -6,12 +6,14 @@ source_ids = ["pathfinder-unchained"]
 relations = [
   { kind = "addon", target = "ref/feat/whip-mastery", label = "stamina" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "135"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder Unchained pg 135\
 When using a whip to deal nonlethal damage, as long as you have at least 1 stamina point in your
 stamina pool, the whip deals 1d8 points of nonlethal damage (1d6 for a Small whip). At the start of
 your turn, you can spend 2 stamina points to increase the damage die of the whip as if it were

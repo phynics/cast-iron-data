@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/skald" },
 ]
+[[sources]]
+publication = "blood-of-the-beast"
+page = "26"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Bardic knowledge", "Versatile performance selections normally gaine
 alters = ["Raging song", "versatile performance"]
 +++
 
-**Sources:** Blood of the Beast pg 26\
 In the young tengu nation of Kwanlai, politicos argue endlessly over how best to rule and guide a
 people who have been parasites and vassals to other nations for millennia. The tengu tendency toward
 dramatic flourishes and rhetoric only complicates this debate, creating an environment in which

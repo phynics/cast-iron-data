@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "terrain_striding", path = "json/magic_enhancements.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "27"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong enchantment"
 caster_level = "13th"
 +++
 
-**Sources:** Armor Master's Handbook pg 27\
 **Aura** strong enchantment; **CL** 13th\
 **Slot** armor quality; **Price** +1 bonus; **Weight** -
 

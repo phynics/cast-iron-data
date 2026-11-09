@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "orc_orc_warlord", path = "json/monsters18.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "170"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ abilities = ["23", "14", "18", "8", "6", "10"]
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Monster Codex pg 170\
 **Subtype:** Orc
 
 **Experience points:** 2,400

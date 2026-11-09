@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/memory-lapse", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "100"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 100\
 The target forgets an additional round, back to the beginning of the turn before its last turn.
 
 _Augmented (3rd):_ If you expend two uses of mythic power, you can spend 1 round implanting a false

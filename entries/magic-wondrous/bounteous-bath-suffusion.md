@@ -6,6 +6,9 @@ source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bounteous_bath_suffusion", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "merchants-manifest"
+page = "19"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration"
 caster_level = "12th"
 +++
 
-**Sources:** Merchant's Manifest pg 19\
 **Aura** strong conjuration; **CL** 12th\
 **Slot** none; **Price** 1,200 gp; **Weight** -
 

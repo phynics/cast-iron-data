@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burst_bonds", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "208"
 
 [fields]
 kind = "spell"
@@ -36,8 +39,6 @@ Saving throw: Fortitude half (object)
 Spell resistance: yes
 Target: one object or creature restraining you
 :::
-
-**Sources:** Advanced Player's Guide pg 208
 
 You blast your restraints with divine wrath, dealing 1d6 points of damage per caster level to the
 target object (maximum 5d6), ignoring [hardness](ref/umr/hardness) of 10 or less. A Fortitude save

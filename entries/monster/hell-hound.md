@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hell_hound", path = "json/monsters13.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "173"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ red eyes._
 
 **Senses:** Darkvision 60 ft., Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 173\
 **Subtype:** Evil, Extraplanar, Fire, Lawful
 
 **Experience points:** 800

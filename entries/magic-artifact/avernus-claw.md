@@ -6,6 +6,9 @@ source_ids = ["hell-unleashed"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "avernus_claw", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "hell-unleashed"
+page = "39"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "overwhelming varied"
 caster_level = "28th"
 +++
 
-**Sources:** Hell Unleashed pg 39\
 **Aura** overwhelming varied; **CL** 28th\
 **Slot** none; **Price** -; **Weight** 24 lbs.
 

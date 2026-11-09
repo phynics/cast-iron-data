@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "transfering_resources", path = "json/rules_campaign_types05.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "242"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 242
 
 You may take a purchased resource from one army and give it to an army of equal or smaller size so
 long as the creatures in the recipient armies can use the resource (for example, improved weapons

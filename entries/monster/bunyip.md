@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bunyip", path = "json/monsters04.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "50"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ razor-sharp teeth._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 2 pg 50\
 **Subtype:** Aquatic
 
 **Experience points:** 800

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/apport-object" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "157"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Spell resistance: yes (object)
 Target: one touched animal of Tiny or smaller size
 Subschool: Teleportation
 :::
-
-**Sources:** Occult Adventures pg 157
 
 This spell functions like [apport object](ref/spell/apport-object) except the target is an animal.
 Only normal, nonmagical creatures of the animal type can be teleported.

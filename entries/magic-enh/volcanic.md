@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "volcanic", path = "json/magic_enhancements.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "26"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong evocation"
 caster_level = "14th"
 +++
 
-**Sources:** Melee Tactics Toolbox pg 26\
 **Aura** strong evocation; **CL** 14th\
 **Slot** none; **Price** +2 bonus; **Weight** -
 

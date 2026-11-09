@@ -6,6 +6,12 @@ source_ids = ["rise-of-the-runelords-anniversary-edition", "pathfinder-6-spires-
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lamia_kin_kuchrima", path = "json/monsters34.json" },
 ]
+[[sources]]
+publication = "rise-of-the-runelords-anniversary-edition"
+page = "411"
+[[sources]]
+publication = "pathfinder-6-spires-of-xin-shalast"
+page = "80"
 
 [fields]
 kind = "creature"
@@ -44,8 +50,6 @@ in its taloned feet._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Rise of the Runelords Anniversary Edition pg 411, Pathfinder \#6: Spires of Xin-Shalast
-pg 80\
 **Experience points:** 4,800
 
 **Armor class:** 22/16/16

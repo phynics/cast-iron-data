@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ranger" },
 ]
+[[sources]]
+publication = "legacy-of-dragons"
+page = "24"
 
 [fields]
 kind = "archetype"
 replaces = ["Hunter's bond, 2nd favored enemy", "swift tracker"]
 +++
 
-**Sources:** Legacy of Dragons pg 24\
 Some rangers specialize in dealing with rambunctious younger drakes, protecting them and teaching
 them to tolerate, and even trust, humanoid creatures. These drake wardens follow and pass along
 secret techniques for raising drakes effectively, and thanks to their methods, their drakes are both

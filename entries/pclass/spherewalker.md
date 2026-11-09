@@ -6,14 +6,15 @@ source_ids = ["pathfinder-2-the-skinsaw-murders"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spherewalker", path = "json/prestige_classes3.json" },
 ]
+[[sources]]
+publication = "pathfinder-2-the-skinsaw-murders"
+page = "73"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d8."
 +++
-
-**Sources:** Pathfinder \#2: The Skinsaw Murders pg 73
 
 A spherewalker is one who embraces the philosophy of Desna: travel far and wide, fight for your
 dreams, and indulge your desires. Spherewalkers explore extreme locales, dream fantastic dreams, and

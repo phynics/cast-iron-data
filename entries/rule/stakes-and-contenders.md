@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stakes_and_contenders", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "167"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 167
 
 Once the pacing of the adventure has been chosen, the next step is to determine the stakes and the
 contenders of the social conflict, or at least those at the opening of the conflict. The stakes are

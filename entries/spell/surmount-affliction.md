@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "surmount_affliction", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "241"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Ultimate Magic pg 241
 
 You temporarily overcome one harmful condition. This does not end the effect causing the condition;
 it just suspends that condition's effect for the duration of the spell. You can surmount any one of

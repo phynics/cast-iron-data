@@ -6,6 +6,9 @@ source_ids = ["curse-of-the-crimson-throne"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ukwar", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "curse-of-the-crimson-throne"
+page = "437"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "8th"
 +++
 
-**Sources:** Curse of the Crimson Throne pg 437\
 **Aura** moderate necromancy; **CL** 8th\
 **Slot** none; **Price** 23,335 gp; **Weight** 6 lbs.
 

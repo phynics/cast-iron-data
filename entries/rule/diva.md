@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "diva", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "72"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 72
 
 The diva is the center of attention, the focus of all roleplaying interactions that occur in the
 campaign world. Every conversation, introduction, and event is another opportunity for her to shine,

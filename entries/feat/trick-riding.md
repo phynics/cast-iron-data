@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trick_riding", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "173"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While wearing light or no armor, you do not need to make Ride skill c
 +++
 
 ## Trick Riding (Combat)
-
-**Sources:** Advanced Player's Guide pg 173
 
 You are not only skilled at controlling a horse in combat; you can make it look like art.\
 **Prerequisites:** Ride 9 ranks, [Mounted Combat](ref/feat/mounted-combat).\

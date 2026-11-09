@@ -6,12 +6,14 @@ source_ids = ["occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reborn_samsaran", path = "json/races4.json" },
 ]
+[[sources]]
+publication = "occult-bestiary"
+page = "50"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Occult Bestiary pg 50\
 Sometimes a [samsaran](ref/race/samsaran) perishes under especially dramatic emotional
 circumstances, causing its soul to wander the Ethereal Plane before finally reincarnating. This
 spirit journey frays the samsaran's connection to his past lives but strengthens his ability to read

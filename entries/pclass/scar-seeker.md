@@ -6,14 +6,15 @@ source_ids = ["paths-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scar_seeker", path = "json/prestige_classes3.json" },
 ]
+[[sources]]
+publication = "paths-of-the-righteous"
+page = "26"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d10."
 +++
-
-**Sources:** Paths of the Righteous pg 26
 
 The empyreal lord Vildeis doesn't demand acts of self-mortification. Nonetheless, some devoted turn
 their own skins into scarred manuscripts of noteworthy deeds and unforgettable failures. Those who

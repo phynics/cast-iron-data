@@ -6,12 +6,14 @@ source_ids = ["pathfinder-30-the-twice-damned-prince"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burning_buildings", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "pathfinder-30-the-twice-damned-prince"
+page = "59"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder \#30: The Twice-Damned Prince pg 59\
 Buildings that catch fire are quickly engulfed and are often a complete loss. If there are no
 characters or NPCs attempting to put a fire out, a building becomes unsalvageable in a space of time
 dependent on the size of the building. Ultimately how fast a building burns is left up to the GM to

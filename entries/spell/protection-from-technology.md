@@ -6,6 +6,9 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "protection_from_technology", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "10"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: Will negates (harmless), see text
 Spell resistance: no, see text
 Target: creature touched
 :::
-
-**Sources:** Technology Guide pg 10
 
 This spell wards a creature from attacks by technological objects and creatures of the robot
 subtype, and protects against mental control from technological sources. It creates a magical

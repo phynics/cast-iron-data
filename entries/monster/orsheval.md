@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "orsheval", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "277"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ glitters in its metallic golden eyes._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Inner Sea Gods pg 277\
 **Subtype:** Extraplanar, Lawful
 
 **Experience points:** 1,200

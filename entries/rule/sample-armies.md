@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sample_armies", path = "json/rules_campaign_types05.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "247"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 247
 
 This section details sample armies of various humanoid and monster types. The GM can allow players
 to recruit some of these armies, or might reserve most of them as unusual foes for mass battles.

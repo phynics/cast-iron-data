@@ -6,6 +6,9 @@ source_ids = ["pathfinder-34-blood-for-blood"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chadas_harpoon", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "pathfinder-34-blood-for-blood"
+page = "66"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Sources:** Pathfinder \#34: Blood for Blood pg 66\
 **Aura** moderate transmutation; **CL** 11th\
 **Slot** none; **Price** 50,302 gp; **Weight** 2 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eclipsed_spell", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "blood-of-shadows"
+page = "25"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "Only spells that create areas of light or darkness can be eclipsed sp
 +++
 
 ## Eclipsed Spell (Metamagic)
-
-**Sources:** Blood of Shadows pg 25
 
 You alter how your spells affect illumination.\
 **Benefit:** Only spells that create areas of light or darkness can be eclipsed spells. If the

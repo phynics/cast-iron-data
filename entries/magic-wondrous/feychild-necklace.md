@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "feychild_necklace", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "258"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "8th"
 +++
 
-**Sources:** Ultimate Equipment pg 258\
 **Aura** moderate divination; **CL** 8th\
 **Slot** neck; **Price** 6,000 gp; **Weight** 1/2 lb.
 

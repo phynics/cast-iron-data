@@ -6,12 +6,12 @@ source_ids = ["pathfinder-117-assault-on-longshadow"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bore_worm", path = "json/monster_families.json" },
 ]
+[[sources]]
+publication = "pathfinder-117-assault-on-longshadow"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder \#117: Assault on Longshadow
 
 Bore worms are a vile breed of subterranean burrowing worm, attacking prey both in their Darklands
 home and, more rarely, on the planet's surface. Three major variants of the worms exist, each

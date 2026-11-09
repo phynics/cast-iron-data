@@ -6,6 +6,9 @@ source_ids = ["the-emerald-spire-superdungeon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bone_priest", path = "json/monsters27.json" },
 ]
+[[sources]]
+publication = "the-emerald-spire-superdungeon"
+page = "152"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ blue light dances in its empty eye sockets._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** The Emerald Spire Superdungeon pg 152\
 **Type:** undead
 
 **Experience points:** 1,200

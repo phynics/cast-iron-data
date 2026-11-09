@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chalkost", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "311"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ stylized boar tusks._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Inner Sea Gods pg 311\
 **Subtype:** Extraplanar, Good, Lawful, Shapechanger
 
 **Experience points:** 1,200

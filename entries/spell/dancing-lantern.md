@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dancing_lantern", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "214"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Spell resistance: no
 Effect: animates one lantern
 Descriptors: fire, light
 :::
-
-**Sources:** Advanced Player's Guide pg 214
 
 You can animate a lantern and order it to follow you. The lantern floats at shoulder height and
 remains within 5 feet of you, no matter how fast you move. The lantern cannot support any additional

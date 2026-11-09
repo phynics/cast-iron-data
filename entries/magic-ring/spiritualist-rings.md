@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spiritualist_rings", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "177"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong necromancy"
 caster_level = "12th"
 +++
 
-**Sources:** Ultimate Equipment pg 177\
 **Aura** strong necromancy; **CL** 12th\
 **Slot** ring; **Price** 70,000 gp; **Weight** -
 

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-111-dreams-of-the-yellow-king"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ib_shade", path = "json/monsters14.json" },
 ]
+[[sources]]
+publication = "pathfinder-111-dreams-of-the-yellow-king"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ frog-like face, yet only empty sockets stare from where its eyes should be._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#111: Dreams of the Yellow King pg 86\
 **Subtype:** Incorporeal
 
 **Type:** undead

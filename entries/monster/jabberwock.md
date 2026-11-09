@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jabberwock", path = "json/monsters34.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "168"
 
 [fields]
 kind = "creature"
@@ -49,7 +52,6 @@ and wings in a violent manner._
 
 **Senses:** Darkvision 120 ft., Low-light vision, Scent, True seeing
 
-**Sources:** Bestiary 2 pg 168\
 **Subtype:** Air, Fire
 
 **Experience points:** 819,200

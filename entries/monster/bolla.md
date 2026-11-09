@@ -6,6 +6,9 @@ source_ids = ["pathfinder-136-temple-of-the-peacock-spirit"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bolla", path = "json/monsters27.json" },
 ]
+[[sources]]
+publication = "pathfinder-136-temple-of-the-peacock-spirit"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ don't quite touch the ground._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#136: Temple of the Peacock Spirit pg 88\
 **Experience points:** 38,400
 
 **Armor class:** 29/11/26

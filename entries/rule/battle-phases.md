@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "battle_phases", path = "json/rules_campaign_types05.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "236"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 236
 
 Mass combat takes place over the course of three battle phases: the Tactics Phase, the Ranged Phase,
 and the Melee Phase. A phase doesn't denote a specific passage of time, leaving the GM latitude to

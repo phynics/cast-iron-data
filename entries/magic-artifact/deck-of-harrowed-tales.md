@@ -6,6 +6,12 @@ source_ids = ["artifacts-and-legends", "the-harrowing"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deck_of_harrowed_tales", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "artifacts-and-legends"
+page = "58"
+[[sources]]
+publication = "the-harrowing"
+page = "4"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong conjuration"
 caster_level = "20th"
 +++
 
-**Sources:** Artifacts and Legends pg 58, The Harrowing pg 4\
 **Aura** strong conjuration; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 1 lb.
 

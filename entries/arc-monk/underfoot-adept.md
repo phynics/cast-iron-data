@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/monk" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "65"
 
 [fields]
 kind = "archetype"
 replaces = ["Bonus feat gained at 1st level", "Stunning fist", "High jump"]
 +++
 
-**Sources:** Advanced Race Guide pg 65\
 An underfoot adept turns his diminutive stature and unorthodox footwork into a powerful weapon.
 Effortlessly moving across the battlefield, he ducks under the legs of larger creatures and then
 topples them with surprising attacks. An underfoot adept has the following class features.

@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cyclops", path = "json/monsters06.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "52"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ even larger mouth gapes like a cave._
 
 **Senses:** Low-light vision
 
-**Sources:** Pathfinder RPG Bestiary pg 52\
 **Subtype:** Giant
 
 **Experience points:** 1,600

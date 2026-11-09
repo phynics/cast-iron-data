@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crafters_fortune", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "213"
 
 [fields]
 kind = "spell"
@@ -42,7 +45,5 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: one creature
 :::
-
-**Sources:** Advanced Player's Guide pg 213
 
 The target is struck by inspiration and gains a +5 luck bonus on its next Craft skill check.

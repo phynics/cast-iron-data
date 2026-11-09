@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demoralize", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "59"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 59
 
 You can cause an opponent to become shaken. The DC equals 10 + the target's Hit Dice + the target's
 Wisdom modifier. If you succeed, the target is shaken for 1 round, plus 1 round for every 5 by which

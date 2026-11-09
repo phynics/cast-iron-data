@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/tailwind" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "236"
 
 [fields]
 kind = "spell"
@@ -57,8 +60,6 @@ Descriptors: air
 :::
 
 ### Tail Current
-
-**Sources:** Ultimate Wilderness pg 236
 
 This spell functions as [tailwind](ref/spell/tailwind) except it creates a helpful current in water
 instead of in the air. It grants free movement while swimming rather than while flying and functions

@@ -6,12 +6,13 @@ source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wyrm_pesh", path = "json/drugs.json" },
 ]
+[[sources]]
+publication = "dragonslayers-handbook"
+page = "19"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Dragonslayer's Handbook pg 19
 
 **Type:** Ingested or inhaled
 

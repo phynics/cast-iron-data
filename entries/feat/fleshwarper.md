@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fleshwarper", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "87"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can create fleshwarped creatures and [fleshcraft](ref/rule/fleshc
 +++
 
 ## Fleshwarper (Item Creation)
-
-**Sources:** Horror Adventures pg 87
 
 You can create creatures through an abominable alchemical process.\
 **Prerequisites:** Craft (alchemy) 5 ranks, Heal 5 ranks, evil alignment.\

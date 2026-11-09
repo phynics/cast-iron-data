@@ -6,6 +6,9 @@ source_ids = ["pathfinder-79-the-half-dead-city"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mummified_guardian", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "pathfinder-79-the-half-dead-city"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Sources:** Pathfinder \#79: The Half-Dead City pg 60\
 **Aura** faint necromancy; **CL** 3rd\
 **Slot** none; **Price** 3,500 gp; **Weight** 3 lbs.
 

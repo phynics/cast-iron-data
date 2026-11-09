@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/polymorph-greater" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "323"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: yes (object)
 Target: one creature, or one nonmagical object of up to 100 cu. ft./level
 Subschool: Polymorph
 :::
-
-**Sources:** PRPG Core Rulebook pg 323
 
 This spell functions like [greater polymorph](ref/spell/polymorph-greater), except that it changes
 one object or creature into another. You can use this spell to transform all manner of objects and

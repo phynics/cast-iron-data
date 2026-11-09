@@ -6,13 +6,15 @@ source_ids = ["core-rulebook", "people-of-the-river", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fey", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "76"
 
 [fields]
 kind = "class_option"
 group = "sorcerer-bloodline"
 +++
 
-**Sources:** PRPG Core Rulebook pg 76\
 The capricious nature of the fey runs in your family due to some intermingling of fey blood or
 magic. You are more emotional than most, prone to bouts of joy and rage.
 

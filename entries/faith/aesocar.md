@@ -6,6 +6,9 @@ source_ids = ["pathfinder-123-the-flooded-cathedral"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aesocar", path = "json/faiths.json" },
 ]
+[[sources]]
+publication = "pathfinder-123-the-flooded-cathedral"
+page = "67"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Aesocar**
 
 **Sub:** The Healing Touch
-
-**Sources:** Pathfinder \#123: The Flooded Cathedral pg 67
 
 ### Details
 

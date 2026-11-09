@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "combat_reflexes", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "119"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "The Combat Reflexes feat does not allow a rogue to use her opportunis
 +++
 
 ## Combat Reflexes (Combat)
-
-**Sources:** PRPG Core Rulebook pg 119
 
 You can make additional attacks of opportunity.\
 **Benefit:** You may make a number of additional attacks of opportunity per round equal to your

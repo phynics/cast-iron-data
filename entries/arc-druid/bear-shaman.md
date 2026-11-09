@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "102"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Woodland stride", "A thousand faces", "Wild shape", "Venom immunity
 alters = ["Nature bond", "Wild empathy"]
 +++
 
-**Sources:** Advanced Player's Guide pg 102\
 A shaman with this focus calls upon the mighty bear, titan of the woodlands and mountains, a paragon
 of strength and ferocity, and yet also a quiet protector rich in wisdom.
 

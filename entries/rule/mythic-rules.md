@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mythic_rules", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "4"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 4
 
 Legend speaks of the coming of great heroes. As the darkness gathers and the forces of the
 underworld rise to swallow the land of the living, a few brave souls will hear the call to

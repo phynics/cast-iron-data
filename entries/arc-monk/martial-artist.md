@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/monk" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "59"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Still mind", "Slow fall", "Ki pool", "Purity of body", "diamond bod
 alters = ["Quivering palm"]
 +++
 
-**Sources:** Ultimate Combat pg 59\
 The martial artist pursues a mastery of pure martial arts without the monastic traditions. He is a
 master of form, but lacks the ability to harness his ki.
 

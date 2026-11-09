@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/investigator" },
 ]
+[[sources]]
+publication = "heroes-of-the-streets"
+page = "17"
 
 [fields]
 kind = "archetype"
 replaces = ["Poison lore", "poison resistance", "poison immunity", "Keen recollection", "trap sense"]
 +++
 
-**Sources:** Heroes of the Streets pg 17\
 Lamplighters are investigators tasked with keeping the night streets safe and lit, and securing
 darkened areas against whatever dangers lurk in the shadows. They also investigate those who seek to
 hide their crimes from the light of day.

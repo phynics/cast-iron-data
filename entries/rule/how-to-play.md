@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "how_to_play", path = "json/rules_basics01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "8"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 8
 
 The Pathfinder Roleplaying Game is a tabletop fantasy game in which the players take on the roles of
 heroes who form a group (or party) to set out on dangerous adventures. Helping them tell this story

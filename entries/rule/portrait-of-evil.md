@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "portrait_of_evil", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "225"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 225
 
 The PCs are tasked with looking into a series of disappearances in a major city. During their
 investigation, they accidentally come across evidence that implicates a local noble. While the

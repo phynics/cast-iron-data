@@ -6,12 +6,13 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trophy_weight", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "163"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Wilderness pg 163
 
 In most cases, the weight of trophy components recovered from a creature depend on the creature's
 size. This weight is doubled for bones, hides, and skins, and halved for feathers, hair, and small

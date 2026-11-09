@@ -6,12 +6,13 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "high_level_play_level_13", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "161"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Wilderness pg 161
 
 The most powerful of wilderness spells are few but incredibly varied. Some allow for the creation of
 powerful allies, while others have drastic effects over vast swaths of land.

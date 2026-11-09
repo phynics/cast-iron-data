@@ -6,12 +6,20 @@ source_ids = ["mythic-adventures", "mythic-origins", "heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "champion_3", path = "json/rules_campaign_types07.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "23"
+[[sources]]
+publication = "mythic-origins"
+page = "22"
+[[sources]]
+publication = "heroes-of-golarion"
+page = "30"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 23, Mythic Origins pg 22, Heroes of Golarion pg 30\
 You must be at least 3rd tier to select these path abilities.
 
 **Destroyer (Ex):** Whenever you attack an object, including a held or worn item, you ignore any

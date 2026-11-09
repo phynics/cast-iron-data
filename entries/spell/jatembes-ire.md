@@ -6,6 +6,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jatembes_ire", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "13"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: no
 Area: 120-ft.-radius spread
 Descriptors: good
 :::
-
-**Sources:** Arcane Anthology pg 13
 
 The scholars of the [Magaambya](ref/rule/aff-i-school) claim that Old-Mage Jatembe developed this
 spell to help eradicate the lost city of Ird, although such claims have never been confirmed. This

@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spending_limits", path = "json/rules_subsystems02.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "80"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 80
 
 The population of a settlement limits how much help you can get on a given day. The following
 numbers represent the limit of how much Goods, Influence, and Labor you can utilize in settlement

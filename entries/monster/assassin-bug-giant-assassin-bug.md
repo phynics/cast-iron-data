@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "pathfinder-81-shifting-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "assassin_bug_giant_assassin_bug", path = "json/monsters02.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "36"
+[[sources]]
+publication = "pathfinder-81-shifting-sands"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -39,7 +45,6 @@ _This goat-sized insect stands on long, spindly legs. Its mouthparts glisten wit
 
 **Size:** small
 
-**Sources:** Bestiary 5 pg 36, Pathfinder \#81: Shifting Sands pg 82\
 **Type:** vermin
 
 **Experience points:** 800

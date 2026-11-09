@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "got_your_back", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "10"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "You can use aid another to grant an ally a +2 bonus to AC against the 
 +++
 
 ## Got Your Back (Combat, Teamwork)
-
-**Sources:** Melee Tactics Toolbox pg 10
 
 You protect an ally from attacks he doesn't see coming.\
 **Prerequisites:** Int 13, [Combat Expertise](ref/feat/combat-expertise).\

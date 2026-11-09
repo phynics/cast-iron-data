@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "using_followers", path = "json/rules_subsystems02.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "80"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 80
 
 The [Leadership](ref/feat/leadership) feat can grant you followers - people loyal to you who assist
 you if they are able. In the downtime system, followers provide additional Influence or Labor to

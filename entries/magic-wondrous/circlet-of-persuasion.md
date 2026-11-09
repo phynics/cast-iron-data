@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "circlet_of_persuasion", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "241"
+[[sources]]
+publication = "core-rulebook"
+page = "506"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Equipment pg 241, PRPG Core Rulebook pg 506\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** head; **Price** 4,500 gp; **Weight** -
 

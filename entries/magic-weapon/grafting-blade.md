@@ -6,6 +6,9 @@ source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grafting_blade", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "spymasters-handbook"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Spymaster's Handbook pg 30\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** none; **Price** 4,370 gp; **Weight** 1 lb.
 

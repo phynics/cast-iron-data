@@ -6,6 +6,12 @@ source_ids = ["divine-anthology", "weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divine_fighting_technique", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "divine-anthology"
+page = "28"
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "10"
 
 [fields]
 kind = "feat"
@@ -16,8 +22,6 @@ special = "A cleric, inquisitor, or warpriest who worships a deity can choose to
 +++
 
 ## Divine Fighting Technique (Combat)
-
-**Sources:** Divine Anthology pg 28, Weapon Master's Handbook pg 10
 
 You have trained in the divine fighting technique of a specific deity.\
 **Prerequisites:** Must worship a single patron deity that has an established divine fighting

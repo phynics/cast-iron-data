@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "manasaputra_maharishi_manu", path = "json/monsters16.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "164"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _This elderly figure looks out with heavy-lidded eyes, and seems lost in its own
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 5 pg 164\
 **Subtype:** Extraplanar, Good, Lawful, Manasaputra
 
 **Experience points:** 76,800

@@ -6,6 +6,9 @@ source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grim_stalker", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "haunted-heroes-handbook"
+page = "27"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Spell resistance: yes (object)
 Target: one object touched
 Descriptors: emotion, fear, haunted, mind-affecting
 :::
-
-**Sources:** Haunted Heroes Handbook pg 27
 
 You bind spirits of ill fate to an object, focusing their wrath onto the next creature that touches
 the object. When a creature touches the target object, it can attempt a Will save to negate the

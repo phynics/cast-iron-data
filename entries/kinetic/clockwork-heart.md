@@ -6,6 +6,9 @@ source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clockwork_heart", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "heroes-of-golarion"
+page = "27"
 
 [fields]
 kind = "class_option"
@@ -23,8 +26,6 @@ group = "kineticist-wild-talent"
 **Burn:** 0
 
 **Prerequisite:** [metal blast](ref/kinetic/metal-blast)
-
-**Source:** Heroes of Golarion/27
 
 You have used your power over metal to add clockwork components to your own body. So long as these
 clockwork components are kept wound (per the

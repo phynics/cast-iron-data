@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dazing_spell", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "157"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "You can modify a spell to daze a creature damaged by the spell. When 
 +++
 
 ## Dazing Spell (Metamagic)
-
-**Sources:** Advanced Player's Guide pg 157
 
 You can daze creatures with the power of your spells.\
 **Benefit:** You can modify a spell to daze a creature damaged by the spell. When a creature takes

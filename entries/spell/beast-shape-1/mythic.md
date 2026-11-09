@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/beast-shape-1", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "85"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 85
 
 Each mythic beast shape spell must be learned individually, and you must know the respective
 non-mythic beast shape spell to learn its mythic version. You don't have to learn them in order and

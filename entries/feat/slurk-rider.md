@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slurk_rider", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "129"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You are able to control, guide, and communicate with slurks, as if th
 +++
 
 ## Slurk Rider (Combat)
-
-**Sources:** Monster Codex pg 129
 
 You are skilled at riding slurks into battle.\
 **Prerequisites:** [Kobold](ref/race/kobold).\

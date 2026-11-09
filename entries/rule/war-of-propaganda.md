@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "war_of_propaganda", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "101"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 101
 
 A campaign that features wars of propaganda and public opinion centers on The Importance of
 Appearance, flavored with the Bargains and Compromise and The Power of Secrets elements. In a game

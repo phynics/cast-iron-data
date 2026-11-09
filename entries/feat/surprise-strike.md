@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "surprise_strike", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "67"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Once per day, when fighting defensively or making an attack of opport
 +++
 
 ## Surprise Strike (Combat)
-
-**Sources:** Advanced Race Guide pg 67
 
 You actually seem to do more damage when frantically trying to avoid your enemies.\
 **Prerequisites:** [Cautious Fighter](ref/feat/cautious-fighter),

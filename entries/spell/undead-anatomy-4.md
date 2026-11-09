@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/undead-anatomy-3" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "245"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Subschool: Polymorph
 :::
 
 ### Undead Anatomy IV
-
-**Sources:** Ultimate Magic pg 245
 
 This spell functions as [undead anatomy III](ref/spell/undead-anatomy-3), except it allows you to
 use more abilities. If the form you assume has any of the following abilities, you gain the listed

@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "qlippoth_lord_isph_aun_vuln", path = "json/monsters_unique3.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "234"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ fanged mouth._
 
 **Senses:** Darkvision 60 ft., Detect good, Detect law, True seeing
 
-**Sources:** Bestiary 6 pg 234\
 **Subtype:** Chaotic, Evil, Extraplanar, Incorporeal, Qlippoth
 
 **Experience points:** 1,638,400

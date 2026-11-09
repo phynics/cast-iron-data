@@ -6,13 +6,15 @@ source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nanite", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
+[[sources]]
+publication = "people-of-the-river"
+page = "19"
 
 [fields]
 kind = "class_option"
 group = "sorcerer-bloodline"
 +++
 
-**Sources:** People of the River pg 19\
 Your conception was marked by the alien influence of Numeria. Either you were born from one of the
 forgewombs scattered throughout the wastelands, or you were infected by nanites, which now course
 through your blood.

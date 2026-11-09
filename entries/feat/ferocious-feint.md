@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ferocious_feint", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "218"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "The animal companion uses half its master's class level (minimum 1) i
 +++
 
 ## Ferocious Feint (Combat)
-
-**Sources:** Ultimate Wilderness pg 218
 
 Through training or inborn ability, the animal is naturally skilled at feinting against its foes.\
 **Prerequisites:** Bluff 1 rank, [animal companion](ref/sidekick/animal-companion).\

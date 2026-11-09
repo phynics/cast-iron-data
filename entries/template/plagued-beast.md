@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plagued_beast", path = "json/monster_template3.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "194"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +1
-
-**Source:** Bestiary 5/194
 
 When animals are stricken with demon plague, they may arise as undead and further spread the
 disease. Some demons and cultists are fond of using plagued horses as mounts.

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-141-last-watch"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crackling_skull_swarm", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "pathfinder-141-last-watch"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -39,7 +42,6 @@ emanates from the dreadful mass._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#141: Last Watch pg 90\
 **Subtype:** Swarm
 
 **Size:** tiny

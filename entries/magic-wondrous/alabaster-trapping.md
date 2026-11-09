@@ -6,6 +6,9 @@ source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alabaster_trapping", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "merchants-manifest"
+page = "18"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Sources:** Merchant's Manifest pg 18\
 **Aura** faint evocation; **CL** 5th\
 **Slot** body; **Price** 3,500 gp; **Weight** 1 lb.
 

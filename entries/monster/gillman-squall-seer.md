@@ -6,6 +6,9 @@ source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gillman_squall_seer", path = "json/monsters12.json" },
 ]
+[[sources]]
+publication = "inner-sea-monster-codex"
+page = "32"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ _The tricorne hat this gillwoman wears is encrusted with salt, suggesting years 
 
 **Perception:** +10
 
-**Sources:** Inner Sea Monster Codex pg 32\
 **Subtype:** Aquatic
 
 **Experience points:** 6,400

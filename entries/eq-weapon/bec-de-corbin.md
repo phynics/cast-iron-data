@@ -6,14 +6,21 @@ source_ids = ["ultimate-equipment", "adventurers-armory", "advanced-players-guid
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bec_de_corbin", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "18"
+[[sources]]
+publication = "adventurers-armory"
+page = "2"
+[[sources]]
+publication = "advanced-players-guide"
+page = "176"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "12 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 18, Adventurer's Armory pg 2, Advanced Player's Guide pg 176
 
 The bec de corbin is a polearm very similar to the [lucerne hammer](ref/eq-weapon/lucerne-hammer),
 but the hammer head is slightly blunter and the spike is stouter and more hooked. You primarily

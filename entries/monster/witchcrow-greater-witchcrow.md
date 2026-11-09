@@ -6,6 +6,9 @@ source_ids = ["pathfinder-67-the-snows-of-summer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "witchcrow_greater_witchcrow", path = "json/monsters25.json" },
 ]
+[[sources]]
+publication = "pathfinder-67-the-snows-of-summer"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ abilities = ["12", "17", "12", "17", "16", "13"]
 
 **Size:** small
 
-**Sources:** Pathfinder \#67: The Snows of Summer pg 88\
 **Experience points:** 800
 
 **Armor class:** 15/15/11

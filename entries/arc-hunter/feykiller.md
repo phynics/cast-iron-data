@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/hunter" },
 ]
+[[sources]]
+publication = "legacy-of-the-first-world"
+page = "13"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Wild empathy", "speak with master", "Improved empathic link", "One 
 alters = ["Animal focus"]
 +++
 
-**Sources:** Legacy of the First World pg 13\
 Some hunters in fey-plagued regions are dedicated to tracking down and eradicating these threats.
 They use their connection to the natural world to ground their senses and fight corrupted First
 World intrusions.

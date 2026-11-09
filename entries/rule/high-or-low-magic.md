@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "high_or_low_magic", path = "json/rules_gm03.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "105"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 105
 
 Fantasy game fans often speak of high- or low-magic settings. High-magic settings feature powerful
 and commonly available spells and magic items. Low-magic settings make magic rarer and less

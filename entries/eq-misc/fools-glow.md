@@ -6,6 +6,9 @@ source_ids = ["pathfinder-106-for-queen-and-empire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fools_glow", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "pathfinder-106-for-queen-and-empire"
+page = "75"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "45 gp"
 weight = "1 lb."
 +++
 
-**Sources:** Pathfinder \#106: For Queen and Empire pg 75\
 **Price** 45 gp; **Weight** 1 lb.\
 **Category** Alchemical Tools
 

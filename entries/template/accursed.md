@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "accursed", path = "json/monster_template1.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "248"
 
 [fields]
 kind = "none"
@@ -18,8 +21,6 @@ kind = "none"
 **Challenge rating:** +1
 
 **Simple:** present
-
-**Source:** Horror Adventures/248
 
 An accursed creature suffers under a powerful curse and can spread a spiteful curse of its own to
 others. Choose a thematic curse that you can convey to the players, but don't change the creature's

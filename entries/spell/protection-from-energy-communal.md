@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/protection-from-energy" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "240"
 
 [fields]
 kind = "spell"
@@ -60,8 +63,6 @@ Target: creature touched
 :::
 
 ### Communal Protection from Energy
-
-**Sources:** Ultimate Combat pg 240
 
 This spell functions like [protection from energy](ref/spell/protection-from-energy), except you
 divide the duration in 10-minute intervals among the creatures touched. Once the spell absorbs 12

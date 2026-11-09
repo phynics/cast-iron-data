@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rejuvenate_eidolon_lesser", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "238"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: none
 Spell resistance: no
 Subschool: Healing
 :::
-
-**Sources:** Advanced Player's Guide pg 238
 
 By laying your hand upon an eidolon, you cause its wounds to close and its form to solidify. This
 spell cures 1d10 points of damage +1 point per caster level (maximum +5).

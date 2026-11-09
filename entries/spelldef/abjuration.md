@@ -6,14 +6,15 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "abjuration", path = "json/spell_definitions.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "209"
 
 [fields]
 kind = "none"
 +++
 
 ## Abjuration (school of magic)
-
-**Sources:** PRPG Core Rulebook pg 209
 
 Abjurations are protective spells. They create physical or magical barriers, negate magical or
 physical abilities, harm trespassers, or even banish the subject of the spell to another plane of

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-51-the-hungry-storm"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "terra_cotta_talisman_horse", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "pathfinder-51-the-hungry-storm"
+page = "63"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "6th"
 
 ## Terra-Cotta Talisman
 
-**Sources:** Pathfinder \#51: The Hungry Storm pg 63\
 **Aura** moderate evocation; **CL** 6th\
 **Slot** none; **Price** 13,000 gp (Horse), 16,000 gp (Warrior), 22,000 gp (Hound); **Weight** 1 lb.
 

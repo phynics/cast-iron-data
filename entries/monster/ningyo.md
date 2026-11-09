@@ -6,6 +6,12 @@ source_ids = ["pathfinder-37-souls-for-smugglers-shiv", "bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ningyo", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "pathfinder-37-souls-for-smugglers-shiv"
+page = "80"
+[[sources]]
+publication = "bestiary-4"
+page = "206"
 
 [fields]
 kind = "creature"
@@ -44,7 +50,6 @@ webbed claws._
 
 **Size:** small
 
-**Sources:** Pathfinder \#37: Souls for Smuggler's Shiv pg 80, Bestiary 4 pg 206\
 **Subtype:** Aquatic
 
 **Experience points:** 400

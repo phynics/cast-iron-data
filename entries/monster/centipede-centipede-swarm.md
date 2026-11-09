@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "centipede_centipede_swarm", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "43"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ wave._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 43\
 **Subtype:** Swarm
 
 **tremorsense:** 30

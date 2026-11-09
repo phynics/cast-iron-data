@@ -6,6 +6,9 @@ source_ids = ["disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloak_of_good_fortune", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "disciples-doctrine"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "9th"
 +++
 
-**Sources:** Disciple's Doctrine pg 28\
 **Aura** moderate evocation; **CL** 9th\
 **Slot** shoulders; **Price** 12,500 gp; **Weight** 1 lb.
 

@@ -6,13 +6,15 @@ source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "salamander", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
+page = "6"
 
 [fields]
 kind = "class_option"
 group = "sorcerer-bloodline"
 +++
 
-**Sources:** Elemental Master's Handbook pg 6\
 You are descended from the elemental outsiders known as [salamanders](ref/monster/salamander). You
 wield flame as a weapon and a tool, and your smithing skills are unrivaled.
 

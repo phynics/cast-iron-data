@@ -6,6 +6,9 @@ source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "salamander", path = "json/class_ability_bloodrager_bloodlines.json" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
+page = "5"
 
 [fields]
 kind = "class_option"
@@ -13,8 +16,6 @@ group = "bloodrager-bloodline"
 +++
 
 ## Salamander Bloodline
-
-**Sources:** Elemental Master's Handbook pg 5
 
 Salamanders are fierce warriors and master smiths, and you wield their might and mastery of metal by
 birthright.

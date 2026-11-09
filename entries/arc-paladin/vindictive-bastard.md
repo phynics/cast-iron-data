@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/paladin" },
 ]
+[[sources]]
+publication = "antiheros-handbook"
+page = "14"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Detect evil", "Smite evil", "Divine grace", "Lay on hands", "Divine
 alters = ["Aura"]
 +++
 
-**Sources:** Antihero's Handbook pg 14\
 While paladins often collaborate with less righteous adventurers in order to further their causes,
 those who spend too much time around companions with particularly loose morals run the risk of
 adopting those same unscrupulous ideologies and methods. Such a vindictive bastard, as these fallen

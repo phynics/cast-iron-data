@@ -6,12 +6,14 @@ source_ids = ["isles-of-the-shackles"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kuru", path = "json/races2.json" },
 ]
+[[sources]]
+publication = "isles-of-the-shackles"
+page = "51"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Isles of the Shackles pg 51\
 Kuru are savage natives of the Shackles, dreadfully transformed by their loathsome "goddess," the
 Blood Queen. While most kuru live in small tribal villages in or around Ghol-Gan ruins, some choose
 to abandon their cultic faith and seek adventure beyond the islands from which they hail, though

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/touch-of-mercy" },
 ]
+[[sources]]
+publication = "champions-of-purity"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -52,7 +55,5 @@ Descriptors: good, mind-affecting
 :::
 
 ### Hymn of Mercy
-
-**Sources:** Champions of Purity pg 29
 
 This spell functions like [touch of mercy](ref/spell/touch-of-mercy), except as noted above.

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-61-shards-of-sin"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fleshdreg_swarm", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "pathfinder-61-shards-of-sin"
+page = "83"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ and claws._
 
 **Senses:** Darkvision 60 ft., Sin-scent
 
-**Sources:** Pathfinder \#61: Shards of Sin pg 83\
 **Subtype:** Swarm
 
 **Size:** tiny

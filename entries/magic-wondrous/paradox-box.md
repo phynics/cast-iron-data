@@ -6,6 +6,9 @@ source_ids = ["pathfinder-61-shards-of-sin"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "paradox_box", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "pathfinder-61-shards-of-sin"
+page = "64"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration and conjuration"
 caster_level = "9th"
 +++
 
-**Sources:** Pathfinder \#61: Shards of Sin pg 64\
 **Aura** moderate abjuration and conjuration; **CL** 9th\
 **Slot** none; **Price** 5,000 gp; **Weight** 30 lbs.
 

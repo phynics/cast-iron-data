@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sample_diseases", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "140"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 140
 
 Examples of diseases that use the various tracks are given below. If a disease does not specify an
 effect, it imposes only the effects for the victim's state on the pertinent track.

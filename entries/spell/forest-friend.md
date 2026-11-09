@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "forest_friend", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "230"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: none
 Spell resistance: no
 Targets: one willing living creature per three levels, no two of which may be more than 30 ft. apart.
 :::
-
-**Sources:** Ultimate Combat pg 230
 
 While subject to this spell, the targets find that forested areas become helpful instead of
 hindering. The targets suffer no hindrances to movement and suffer no penalties on Acrobatics and

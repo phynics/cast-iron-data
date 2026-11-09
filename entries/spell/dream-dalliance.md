@@ -6,6 +6,9 @@ source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dream_dalliance", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "agents-of-evil"
+page = "30"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Target: one creature
 Subschool: Phantasm
 Descriptors: mind-affecting
 :::
-
-**Sources:** Agents of Evil pg 30
 
 You create a comforting phantasm, which leeches onto the psyche of a nearby target. The creature can
 attempt a Will saving throw to prevent the phantasm from entering its psyche, but otherwise it takes

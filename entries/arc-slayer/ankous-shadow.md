@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/slayer" },
 ]
+[[sources]]
+publication = "legacy-of-the-first-world"
+page = "14"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Studied target", "Stalker"]
 alters = ["Quarry", "improved quarry"]
 +++
 
-**Sources:** Legacy of the First World pg 14\
 Ankous are terrifying, winged fey assassins dispatched by the greatest lords of the First World to
 eliminate rivals. Some mortals emulate ankous to become the perfect assassins; others believe
 themselves to be ankous incarnated in mortal shells on a deep cover mission. In either case, an

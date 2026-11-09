@@ -6,13 +6,15 @@ source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psomeira", path = "json/class_ability_spirits.json" },
 ]
+[[sources]]
+publication = "heroes-of-golarion"
+page = "14"
 
 [fields]
 kind = "class_option"
 group = "medium-spirit"
 +++
 
-**Sources:** Heroes of Golarion pg 14\
 Psomeira was a prodigy captain in the Liachoran guard. It was her spear that forced the beast
 Ousmariku back into the sea, though not before it laid the city to ruin. Psomeira went missing
 following the battle and was presumed dead, but she returned a decade later in Aelyosos, and quickly

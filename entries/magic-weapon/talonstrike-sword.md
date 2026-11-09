@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "talonstrike_sword", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "77"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "8th"
 +++
 
-**Sources:** Adventurer's Guide pg 77\
 **Aura** moderate abjuration; **CL** 8th\
 **Slot** none; **Price** 33,835 gp; **Weight** 3 lbs.
 

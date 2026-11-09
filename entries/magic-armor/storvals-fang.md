@@ -6,6 +6,9 @@ source_ids = ["disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "storvals_fang", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "disciples-doctrine"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "6th"
 +++
 
-**Sources:** Disciple's Doctrine pg 30\
 **Aura** moderate transmutation; **CL** 6th\
 **Slot** none; **Price** 38,312 gp; **Weight** 6 lbs.
 

@@ -6,6 +6,15 @@ source_ids = ["artifacts-and-legends", "gods-and-magic", "inner-sea-world-guide"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_of_aroden", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "artifacts-and-legends"
+page = "47"
+[[sources]]
+publication = "gods-and-magic"
+page = "61"
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "300"
 
 [fields]
 kind = "item"
@@ -17,7 +26,6 @@ aura = "strong abjuration"
 caster_level = "20th"
 +++
 
-**Sources:** Artifacts and Legends pg 47, Gods and Magic pg 61, Inner Sea World Guide pg 300\
 **Aura** strong abjuration; **CL** 20th\
 **Slot** shield; **Price** -; **Weight** 10 lbs.
 

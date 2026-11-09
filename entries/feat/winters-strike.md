@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/nature-magic", label = "or" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "159"
 
 [fields]
 kind = "feat"
@@ -19,8 +22,6 @@ benefit = "A number of times per day equal to your Wisdom modifier (minimum 1), 
 +++
 
 ## Winter's Strike (Combat)
-
-**Sources:** Advanced Class Guide pg 159
 
 Your attacks afflict your foes with the relentless fatigue of a winter storm.\
 **Prerequisites:** [Nature Magic](ref/feat/nature-magic) or the ability to cast druid or ranger

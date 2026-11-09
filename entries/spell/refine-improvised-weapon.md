@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "refine_improvised_weapon", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "190"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Saving throw: Will negates (harmless) (object)
 Spell resistance: yes (harmless) (object)
 Target: one improvised weapon
 :::
-
-**Sources:** Advanced Class Guide pg 190
 
 You transform an improvised weapon into an equivalent simple or martial weapon of masterwork
 quality. This effect does not alter the weapon's shape or appearance in any way. For example, if

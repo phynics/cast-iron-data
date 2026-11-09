@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mercenary_healer", path = "json/npcs.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "44"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "1/2"
 
 **Challenge rating:** 1/2
 
-**Sources:** NPC Codex pg 44\
 **XP** 200\
 Human [cleric](ref/class/cleric) of [Abadar](ref/faith/abadar) 1\
 LE Medium humanoid (human)\

@@ -9,13 +9,18 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/magus" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "55"
+[[sources]]
+publication = "adventurers-armory-2"
+page = "11"
 
 [fields]
 kind = "archetype"
 replaces = ["Spell recall", "Knowledge pool", "Medium armor", "Magus arcana gained at 9th level", "Improved spell recall", "Heavy armor", "Greater spell access", "True magus"]
 +++
 
-**Sources:** Ultimate Combat pg 55, Adventurer's Armory 2 pg 11\
 A kensai spends his life focusing his training and meditation into a rapturous perfection of the use
 of a single weapon, which is usually but not always a sword, channeling his arcane might through it
 in a dizzying and deadly dance beyond the abilities of even the greatest of mundane warriors.

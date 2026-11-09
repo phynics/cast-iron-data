@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sweat_poison", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "blood-of-the-beast"
+page = "11"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: no
 Target: you
 Descriptors: poison
 :::
-
-**Sources:** Blood of the Beast pg 11
 
 > _Drawing on aspects of their amphibious animal counterparts, the following spell is more common
 > among [grippli](ref/race/grippli) spellcasters than among those of other races._

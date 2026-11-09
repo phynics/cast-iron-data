@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "temporary_resurrection", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "243"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: none
 Spell resistance: no
 Target: dead creature touched
 :::
-
-**Sources:** Ultimate Magic pg 243
 
 You restore temporary life to a body that has been dead for less than 48 hours. The spell lasts for
 24 hours, after which the target dies again. The target gains 1 permanent negative level while under

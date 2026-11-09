@@ -6,6 +6,9 @@ source_ids = ["revenge-of-the-kobold-king"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "azlanti_sealstone", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "revenge-of-the-kobold-king"
+page = "14"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration and transmutation"
 caster_level = "17th"
 +++
 
-**Sources:** Revenge of the Kobold King pg 14\
 **Aura** strong abjuration and transmutation; **CL** 17th\
 **Slot** none; **Price** -; **Weight** -
 

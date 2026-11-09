@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disable_construct", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "179"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: Will negates
 Spell resistance: no
 Target: construct touched
 :::
-
-**Sources:** Advanced Class Guide pg 179
 
 You can make a melee touch attack to send a pulse into the target, interfering with the magic that
 endows it with life. If the construct fails its saving throw, it becomes helpless, but it receives a

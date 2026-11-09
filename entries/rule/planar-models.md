@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planar_models", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "166"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 166
 
 The Pathfinder Roleplaying Game presumes a multiverse in which each alignment has its own plane.
 After death, individual souls travel via disparate means to the plane that most closely matches

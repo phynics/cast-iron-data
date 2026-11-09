@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "defense", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "191"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 191
 
 In this alternative system, a creature does not have an Armor Class (AC); it instead has a Defense
 score. Defense is similar to touch AC in the standard Pathfinder Roleplaying Game rules, but it also

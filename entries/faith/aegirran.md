@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "giants-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aegirran", path = "json/faiths.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "324"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Aegirran**
 
 **Sub:** The Sea Dreamer
-
-**Sources:** Inner Sea Gods pg 324
 
 ### Details
 

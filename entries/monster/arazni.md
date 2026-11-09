@@ -6,6 +6,9 @@ source_ids = ["mythic-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arazni", path = "json/monsters_unique.json" },
 ]
+[[sources]]
+publication = "mythic-realms"
+page = "50"
 
 [fields]
 kind = "creature"
@@ -49,7 +52,6 @@ middle of her chest._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Mythic Realms pg 50\
 **Subtype:** Human
 
 **Type:** undead

@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "telekinetic_storm", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "188"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Spell resistance: yes
 Area: 40-ft.-radius burst centered on you
 Descriptors: force
 :::
-
-**Sources:** Occult Adventures pg 188
 
 You generate a storm of telekinetic energy that emanates from you, ripping through the spell's area
 of effect with devastating force. Any creature caught in the spell's radius takes 1d6 points of

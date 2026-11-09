@@ -6,14 +6,18 @@ source_ids = ["pirates-of-the-inner-sea", "skull-and-shackles-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grappling_hook", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "pirates-of-the-inner-sea"
+page = "19"
+[[sources]]
+publication = "skull-and-shackles-players-guide"
+page = "6"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "14 lbs."
 +++
-
-**Sources:** Pirates of the Inner Sea pg 19, Skull and Shackles Player's Guide pg 6
 
 A grappling hook is usually thought of as a climbing instrument, but is also used to grapple enemy
 ships and draw them close before a boarding action.

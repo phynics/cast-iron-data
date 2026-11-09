@@ -6,12 +6,14 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "night_terrors", path = "json/madness.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "185"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Adventures pg 185\
 **Type** lesser madness; **Save DC** 16\
 **Onset** 1 day\
 **Effect** Each night when the afflicted character sleeps, she must succeed at a saving throw or

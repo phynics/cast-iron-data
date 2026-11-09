@@ -6,6 +6,9 @@ source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "splitting_bolt", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "25"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Sources:** Ranged Tactics Toolbox pg 25\
 **Aura** faint evocation; **CL** 5th\
 **Slot** none; **Price** 346 gp; **Weight** -
 

@@ -6,6 +6,9 @@ source_ids = ["magnimar-city-of-monuments"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "angelic_guardian", path = "json/monsters26.json" },
 ]
+[[sources]]
+publication = "magnimar-city-of-monuments"
+page = "52"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ form of a burning crown._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Magnimar, City of Monuments pg 52\
 **Experience points:** 1,600
 
 **Armor class:** 18/12/16

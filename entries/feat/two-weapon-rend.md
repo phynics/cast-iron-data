@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "two_weapon_rend", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "136"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "If you hit an opponent with both your primary hand and your off-hand 
 +++
 
 ## Two-Weapon Rend (Combat)
-
-**Sources:** PRPG Core Rulebook pg 136
 
 Striking with both of your weapons simultaneously, you can use them to deliver devastating wounds.\
 **Prerequisites:** Dex 17, [Double Slice](ref/feat/double-slice), base attack bonus +11.\

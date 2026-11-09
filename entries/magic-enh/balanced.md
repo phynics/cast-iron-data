@@ -6,6 +6,12 @@ source_ids = ["armor-masters-handbook", "ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "balanced", path = "json/magic_enhancements.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "26"
+[[sources]]
+publication = "ultimate-equipment"
+page = "115"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint evocation"
 caster_level = "3rd"
 +++
 
-**Sources:** Armor Master's Handbook pg 26, Ultimate Equipment pg 115\
 **Aura** faint evocation; **CL** 3rd\
 **Slot** armor quality; **Price** +1 bonus; **Weight** -
 

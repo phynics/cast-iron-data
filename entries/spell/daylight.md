@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "adventurers-guide", "inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daylight", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "264"
 
 [fields]
 kind = "spell"
@@ -53,8 +56,6 @@ Spell resistance: no
 Target: object touched
 Descriptors: light
 :::
-
-**Sources:** PRPG Core Rulebook pg 264
 
 You touch an object when you cast this spell, causing the object to shed bright light in a 60-foot
 radius. This illumination increases the light level for an additional 60 feet by one step (darkness

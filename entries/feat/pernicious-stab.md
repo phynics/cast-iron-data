@@ -6,6 +6,9 @@ source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pernicious_stab", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "giant-hunters-handbook"
+page = "23"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When you hit an opponent with a poisoned weapon and would deal sneak 
 +++
 
 ## Pernicious Stab (Combat)
-
-**Sources:** Giant Hunter's Handbook pg 23
 
 Your deep strikes allow you to deliver poison efficiently when your opponent is off guard.\
 **Prerequisites:** [Sneak attack](ref/ability/sneak-attack) +2d6.\

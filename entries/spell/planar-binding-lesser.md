@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planar_binding_lesser", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "321"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Subschool: Calling
 :::
 
 ### Lesser Planar Binding
-
-**Sources:** PRPG Core Rulebook pg 321
 
 _Casting this spell attempts a dangerous act:_ to lure a creature from another plane to a
 specifically prepared trap, which must lie within the spell's range. The called creature is held in

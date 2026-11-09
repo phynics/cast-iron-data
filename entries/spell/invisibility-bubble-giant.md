@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/invisibility-bubble" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
+page = "60"
 
 [fields]
 kind = "spell"
@@ -61,8 +64,6 @@ Descriptors: glamer
 :::
 
 ### Giant Invisibility Bubble
-
-**Sources:** Aquatic Adventures pg 60
 
 This functions as per [invisibility bubble](ref/spell/invisibility-bubble), but the bubble is
 larger, which allows you to target a creature of up to size Gargantuan, or allows more creatures

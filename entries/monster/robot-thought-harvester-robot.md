@@ -6,6 +6,9 @@ source_ids = ["pathfinder-87-the-choking-tower"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "robot_thought_harvester_robot", path = "json/monsters20.json" },
 ]
+[[sources]]
+publication = "pathfinder-87-the-choking-tower"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ middle of its head._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#87: The Choking Tower pg 86\
 **Subtype:** Robot
 
 **Experience points:** 9,600

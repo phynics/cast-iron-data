@@ -6,14 +6,15 @@ source_ids = ["pathfinder-139-the-dead-road"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nosois_spiritsense", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "pathfinder-139-the-dead-road"
+page = "71"
 
 [fields]
 kind = "feat"
 prerequisites = "Duskwalker."
 benefit = "You can cast detect undead as a spell-like ability at will. Your caster level for the purpose of this effect is equal to your character level."
 +++
-
-**Sources:** Pathfinder \#139: The Dead Road pg 71
 
 Even the lowliest psychopomp can sniff out the undead. A whippoorwill in a papier-mâché mask taught
 you how to do it.\

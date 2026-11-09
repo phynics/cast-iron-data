@@ -6,6 +6,9 @@ source_ids = ["book-of-the-damned-volume-2-lords-of-chaos"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_senses", path = "json/magic_demonic_implants.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned-volume-2-lords-of-chaos"
+page = "44"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration [evil]"
 caster_level = "15th"
 +++
 
-**Sources:** Book of the Damned - Volume 2: Lords of Chaos pg 44\
 **Aura** strong conjuration \[evil\]; **CL** 15th\
 **Slot** none; **Price** 20,000 gp; **Weight** 1 lbs.
 

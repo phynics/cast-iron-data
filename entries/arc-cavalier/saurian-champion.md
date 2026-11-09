@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cavalier" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "45"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Order", "Tactician", "greater tactician", "master tactician", "Bann
 alters = ["Weapon and armor proficiencies", "Challenge", "Mount"]
 +++
 
-**Sources:** Ultimate Wilderness pg 45\
 These primeval cavaliers idolize dinosaurs as apex predators and value them as powerful, oversized
 mounts.
 

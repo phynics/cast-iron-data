@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "location_and_travel", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "167"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 167
 
 Once you've decided what sorts of planes your setting needs - whether a thousand tiny fiefdoms, two
 massive planes where souls roam before birth and after death, or something else entirely - it's time

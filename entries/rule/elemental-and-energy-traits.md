@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_and_energy_traits", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "186"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 186
 
 Four basic elements and two types of energy combine to make up everything. The elements are earth,
 air, fire, and water; the types of energy are positive and negative. The Material Plane reflects a

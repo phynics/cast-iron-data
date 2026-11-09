@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/magus" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "49"
 
 [fields]
 kind = "archetype"
 replaces = ["Weapon and armor proficiencies", "Medium armor", "heavy armor", "Fighter training"]
 +++
 
-**Sources:** Ultimate Magic pg 49\
 While most magi use a one-handed weapon as their melee implement of choice, one group of magi uses
 the quarterstaff instead. These lightly armored magi use staves for both defense and inflicting
 their spells upon enemies. Skilled in manipulating these weapons with one hand or two, they

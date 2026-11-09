@@ -6,6 +6,9 @@ source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scales_of_deflection", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "legacy-of-dragons"
+page = "31"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Spell resistance: no
 Target: you
 Descriptors: draconic
 :::
-
-**Sources:** Legacy of Dragons pg 31
 
 Brilliant draconic iconography matching your draconic heritage (or a kind of dragon whose alignment
 matches your own) surrounds you. Any touch attack attempted against you resolves against your normal

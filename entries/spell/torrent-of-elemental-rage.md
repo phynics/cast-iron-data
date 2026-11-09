@@ -6,6 +6,9 @@ source_ids = ["pathfinder-24-the-final-wish"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "torrent_of_elemental_rage", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "pathfinder-24-the-final-wish"
+page = "60"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: yes
 Effect: persistent line of elements 30 ft. long
 Descriptors: air, earth, fire, water
 :::
-
-**Sources:** Pathfinder \#24: The Final Wish pg 60
 
 A shimmering torrent of raw elemental power springs into existence, originating from your
 outstretched palms. The blast resembles a horizontal whirlwind of howling winds, searing flame, and

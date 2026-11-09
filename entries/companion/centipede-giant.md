@@ -6,13 +6,14 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "centipede_giant", path = "json/class_ability_druid_companions.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "36"
 
 [fields]
 kind = "class_option"
 group = "animal-companion"
 +++
-
-**Sources:** Ultimate Magic pg 36
 
 **Companion Type**
 

@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "condensed_ether", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "162"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: none
 Spell resistance: no
 Target: 20-ft.-radius spread
 :::
-
-**Sources:** Occult Adventures pg 162
 
 You condense the substance of the Ethereal Plane as it interpenetrates the Material Plane. This
 thickened planar conjunction slows movement through the area to a crawl. Creatures moving through

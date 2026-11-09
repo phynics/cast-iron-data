@@ -6,6 +6,9 @@ source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golden_guise", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "agents-of-evil"
+page = "31"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes
 Target: one object weighing no more than 5 lbs./level
 :::
-
-**Sources:** Agents of Evil pg 31
 
 You cause an object to briefly transform into gold. Affected items gain the properties of gold until
 the spell expires. Weapons reduce their [hardness](ref/umr/hardness) by half and gain the

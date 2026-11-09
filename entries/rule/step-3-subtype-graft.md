@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "step_3_subtype_graft", path = "json/rules_adv_gm02.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "214"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 214
 
 Find the monster's subtype (if any) in the list below and apply all abilities listed there. For
 monsters that replicate common PC races (such as humans or elves), the subtype includes the

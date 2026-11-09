@@ -6,6 +6,12 @@ source_ids = ["undead-unleashed", "lands-of-the-linnorm-kings"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rixbrand", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "undead-unleashed"
+page = "6"
+[[sources]]
+publication = "lands-of-the-linnorm-kings"
+page = "51"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate conjuration and evocation"
 caster_level = "10th"
 +++
 
-**Sources:** Undead Unleashed pg 6, Lands of the Linnorm Kings pg 51\
 **Aura** moderate conjuration and evocation; **CL** 10th\
 **Slot** none; **Price** 90,000 gp; **Weight** 8 lbs.
 

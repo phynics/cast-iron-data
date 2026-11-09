@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ranger" },
 ]
+[[sources]]
+publication = "people-of-the-wastes"
+page = "17"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Wild empathy", "1st favored terrain", "Endurance"]
 alters = ["Favored enemy", "Favored terrain"]
 +++
 
-**Sources:** People of the Wastes pg 17\
 Some rangers feel so closely connected to their homelands that they stand as guardians against
 pervasive corruptions that pervert those lands beyond the point of recognition.
 

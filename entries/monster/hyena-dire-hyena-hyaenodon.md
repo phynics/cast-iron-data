@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hyena_dire_hyena_hyaenodon", path = "json/monsters14.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "179"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ _This large hyena has a thick head, rheumy red eyes, and a mouth filled with sha
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 179\
 **Experience points:** 800
 
 **Armor class:** 15/11/13

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-132-the-six-legend-soul"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "usurpers_guard", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "pathfinder-132-the-six-legend-soul"
+page = "73"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When an adjacent ally with this feat attempts a concentration check t
 +++
 
 ## Usurper's Guard (Teamwork)
-
-**Sources:** Pathfinder \#132: The Six-Legend Soul pg 73
 
 You work with your allies to create a defensive guard to facilitate spellcasting.\
 **Prerequisites:** Base attack bonus +3 or ability to cast 2nd-level spells.\

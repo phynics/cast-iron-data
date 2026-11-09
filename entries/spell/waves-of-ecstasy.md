@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "waves_of_ecstasy", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "249"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Area: cone-shaped burst
 Subschool: Compulsion
 Descriptors: emotion, mind-affecting
 :::
-
-**Sources:** Ultimate Magic pg 249
 
 You emanate waves of intense pleasure that cause all targets within range to falter. Affected
 creatures are stunned for 1 round and are staggered for the remainder of the spell. A creature that

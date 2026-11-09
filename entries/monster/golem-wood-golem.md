@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_wood_golem", path = "json/monsters33.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "164"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ _This human-sized automaton resembles a crude humanoid figure made of cast-off p
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder RPG Bestiary pg 164\
 **Experience points:** 2,400
 
 **Armor class:** 19/13/16

@@ -6,6 +6,9 @@ source_ids = ["distant-shores"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "exceptional_aid", path = "json/feat06.json" },
 ]
+[[sources]]
+publication = "distant-shores"
+page = "63"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you successfully use the Aid Another action to assist an ally's 
 +++
 
 ## Exceptional Aid (Teamwork)
-
-**Sources:** Distant Shores pg 63
 
 You're always ready to lend your partner a hand.\
 **Prerequisites:** [Bonded Mind](ref/feat/bonded-mind).\

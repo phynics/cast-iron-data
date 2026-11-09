@@ -6,12 +6,12 @@ source_ids = ["pathfinder-137-the-city-outside-of-time"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_planar_apocalypse", path = "json/monster_families.json" },
 ]
+[[sources]]
+publication = "pathfinder-137-the-city-outside-of-time"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder \#137: The City Outside of Time
 
 These planar dragons ravage places of growth, life, and fecundity.
 

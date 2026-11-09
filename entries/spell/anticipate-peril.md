@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "anticipate_peril", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "206"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Saving throw: Will negates
 Spell resistance: yes
 Target: creature touched
 :::
-
-**Sources:** Ultimate Magic pg 206
 
 A creature affected by anticipate peril gains a preternatural sense of danger. The first time during
 this spell's duration that the target has to make an initiative check, the creature adds an insight

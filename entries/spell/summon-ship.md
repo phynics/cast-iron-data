@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summon_ship", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "blood-of-the-ancients"
+page = "19"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Spell resistance: no
 Effect: One conjured ship
 Subschool: Creation
 :::
-
-**Sources:** Blood of the Ancients pg 19
 
 When you cast this spell, you must hold out a miniature model of the ship you intend to create. The
 spell assembles a ship from raw materials conjured from other planes, taking a shape similar to the

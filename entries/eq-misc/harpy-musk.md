@@ -6,6 +6,15 @@ source_ids = ["varisia-birthplace-of-legends", "mythical-monsters-revisited", "r
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "harpy_musk", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "varisia-birthplace-of-legends"
+page = "15"
+[[sources]]
+publication = "mythical-monsters-revisited"
+page = "24"
+[[sources]]
+publication = "rise-of-the-runelords-players-guide"
+page = "11"
 
 [fields]
 kind = "item"
@@ -14,8 +23,6 @@ price = "20 gp"
 weight = "1 lb."
 +++
 
-**Sources:** Varisia, Birthplace of Legends pg 15, Mythical Monsters Revisited pg 24, Rise of the
-Runelords Player's Guide pg 11\
 **Price** 20 gp; **Weight** 1 lb.\
 **Category** Alchemical Tools
 

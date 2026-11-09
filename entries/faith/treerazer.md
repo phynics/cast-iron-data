@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "treerazer", path = "json/faiths8.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "328"
 
 [fields]
 kind = "none"
@@ -15,7 +18,6 @@ kind = "none"
 
 **Sub:** Lord of the Blasted Tarn
 
-**Sources:** Inner Sea Gods pg 328\
 **Monster Link** [Treerazer](ref/monster/treerazer)
 
 ### Details

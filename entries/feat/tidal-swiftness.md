@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tidal_swiftness", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "33"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "As a standard action, you can call forth a tide of water that flows a
 +++
 
 ## Tidal Swiftness (Conduit)
-
-**Sources:** Planar Adventures pg 33
 
 A surge of churning, rushing water from the Plane of Water drives you swiftly across the ground,
 even in the most arid or frigid of regions. This magically conjured water does not last long once it

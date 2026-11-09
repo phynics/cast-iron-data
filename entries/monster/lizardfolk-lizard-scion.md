@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lizardfolk_lizard_scion", path = "json/monsters16.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "148"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ elaborate designs._
 
 **Perception:** +5
 
-**Sources:** Monster Codex pg 148\
 **Subtype:** Reptilian
 
 **Experience points:** 1,600

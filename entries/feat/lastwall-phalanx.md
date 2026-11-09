@@ -6,6 +6,9 @@ source_ids = ["champions-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lastwall_phalanx", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "champions-of-purity"
+page = "23"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You gain a sacred bonus to your AC against the attacks of evil creatu
 +++
 
 ## Lastwall Phalanx (Teamwork)
-
-**Sources:** Champions of Purity pg 23
 
 When battling the terrifying hordes of Belkzen, you find strength in your shield brothers and
 sisters.\

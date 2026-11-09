@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "complicated_and_dysfunctional_families", path = "json/rules_adv_pc01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "166"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 166
 
 Of course, not all families get along. Past trauma, such as abuse or neglect, can shatter bonds,
 poisoning what should be healthy relationships. Politics and religion also drive wedges between

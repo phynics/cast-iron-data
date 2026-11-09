@@ -6,14 +6,26 @@ source_ids = ["book-of-the-damned", "gods-and-magic", "horror-adventures", "best
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "void", path = "json/class_ability_domains3.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "182"
+[[sources]]
+publication = "gods-and-magic"
+page = "53"
+[[sources]]
+publication = "horror-adventures"
+page = "49"
+[[sources]]
+publication = "bestiary-4"
+page = "134"
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "217"
 
 [fields]
 kind = "class_option"
 group = "cleric-domain"
 +++
-
-**Sources:** Book of the Damned pg 182, Gods and Magic pg 53, Horror Adventures pg 49, Bestiary 4 pg
-134, Inner Sea World Guide pg 217
 
 **Granted Powers:** You can call upon the cold darkness between the stars to gain flight, travel to
 other worlds, or summon monsters from beyond to do your bidding.

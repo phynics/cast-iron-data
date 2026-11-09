@@ -6,12 +6,13 @@ source_ids = ["lands-of-conflict"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "treasury_mt", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "lands-of-conflict"
+page = "50"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Lands of Conflict pg 50
 
 **Treasury:** The PCs' militia starts with 10 gp in its treasury. The militia requires gold to
 perform certain actions, to recruit or upgrade its teams, or occasionally because a special event

@@ -6,6 +6,9 @@ source_ids = ["demon-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "interrogation_tools", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "demon-hunters-handbook"
+page = "7"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "30 gp"
 weight = "1 lb."
 +++
 
-**Sources:** Demon Hunter's Handbook pg 7\
 **Price** 30 gp; **Weight** 1 lb.\
 **Category** Kits
 

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "npc_traps", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "87"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 87
 
 As NPCs make up one of the most pervasive and important parts of any campaign, they also present an
 opportunity for some of the greatest problems. Where faulty rules can make challenges unbalanced, a

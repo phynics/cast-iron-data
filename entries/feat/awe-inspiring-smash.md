@@ -6,6 +6,9 @@ source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "awe_inspiring_smash", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "12"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You can apply your Strength modifier instead of your Charisma modifie
 +++
 
 ## Awe-Inspiring Smash (Combat, Performance)
-
-**Sources:** Inner Sea Combat pg 12
 
 Your fury in combat translates into crowd-pleasing displays.\
 **Prerequisites:** Str 15, [Power Attack](ref/feat/power-attack), base attack bonus +3.\

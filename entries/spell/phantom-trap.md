@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phantom_trap", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "320"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Target: object touched
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** PRPG Core Rulebook pg 320
 
 This spell makes a lock or other small mechanism seem to be trapped to anyone who can detect traps.
 You place the spell upon any small mechanism or device, such as a lock, hinge, hasp, cork, cap, or

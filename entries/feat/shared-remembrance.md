@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shared_remembrance", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "209"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Whenever you make a Knowledge check to identify a monster, you gain a
 +++
 
 ## Shared Remembrance (Teamwork)
-
-**Sources:** Inner Sea Races pg 209
 
 You can combine fragments of monster myths into a coherent story.\
 **Prerequisites:** Knowledge (any) 1 rank, [elf](ref/race/elf).\

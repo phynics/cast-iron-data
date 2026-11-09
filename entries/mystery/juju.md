@@ -6,13 +6,17 @@ source_ids = ["faiths-and-philosophies", "pathfinder-39-the-city-of-seven-spears
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "juju", path = "json/class_ability_mysteries.json" },
 ]
+[[sources]]
+publication = "faiths-and-philosophies"
+page = "14"
+[[sources]]
+publication = "pathfinder-39-the-city-of-seven-spears"
+page = "68"
 
 [fields]
 kind = "class_option"
 group = "oracle-mystery"
 +++
-
-**Sources:** Faiths and Philosophies pg 14, Pathfinder \#39: The City of Seven Spears pg 68
 
 **Deities**
 

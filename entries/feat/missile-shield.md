@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "missile_shield", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "165"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You must be using a light, heavy, or tower shield to use this feat. O
 +++
 
 ## Missile Shield (Combat)
-
-**Sources:** Advanced Player's Guide pg 165
 
 You are skilled at deflecting ranged attacks with your shield.\
 **Prerequisites:** Dex 13, [Shield Focus](ref/feat/shield-focus).\

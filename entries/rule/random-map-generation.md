@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "random_map_generation", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "158"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 158
 
 Not everyone has the time to create a detailed map to use in-game. An example map has been provided
 \[in the physical book\] to photocopy and easily drop into play, but you and your players can also

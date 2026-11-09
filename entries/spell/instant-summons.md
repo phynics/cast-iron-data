@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "instant_summons", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "301"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: no
 Target: one object weighing 10 lbs. or less whose longest dimension is 6 ft. or less
 Subschool: Summoning
 :::
-
-**Sources:** PRPG Core Rulebook pg 301
 
 You call some nonliving item directly to your hand from virtually any location.
 

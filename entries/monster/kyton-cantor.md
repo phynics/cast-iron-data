@@ -6,6 +6,9 @@ source_ids = ["occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kyton_cantor", path = "json/monsters15.json" },
 ]
+[[sources]]
+publication = "occult-bestiary"
+page = "30"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ musculature. Its eyes burn with a red glow._
 
 **Size:** small
 
-**Sources:** Occult Bestiary pg 30\
 **Subtype:** Evil, Extraplanar, Kyton, Lawful
 
 **Experience points:** 6,400

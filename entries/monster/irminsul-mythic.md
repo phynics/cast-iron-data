@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "irminsul_mythic", path = "json/monsters_mythic2.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "158"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ destination._
 
 **Type:** plant
 
-**Sources:** Bestiary 4 pg 158\
 **Subtype:** Extraplanar, Mythic
 
 **tremorsense:** 100

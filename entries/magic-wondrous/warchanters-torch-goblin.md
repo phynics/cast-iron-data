@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "warchanters_torch_goblin", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "235"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong illusion"
 caster_level = "13th"
 +++
 
-**Sources:** Inner Sea Races pg 235\
 **Aura** strong illusion; **CL** 13th\
 **Slot** none; **Price** 30,000 gp; **Weight** 1 lb.
 

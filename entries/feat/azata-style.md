@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "azata_style", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "26"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using this style, during any round in which you move at least 1
 +++
 
 ## Azata Style (Combat, Style)
-
-**Sources:** Planar Adventures pg 26
 
 Your quickness and grace keep you alive.\
 **Prerequisites:** [Dodge](ref/feat/dodge), [Mobility](ref/feat/mobility), base attack bonus +2.\

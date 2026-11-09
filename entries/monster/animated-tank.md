@@ -6,6 +6,9 @@ source_ids = ["pathfinder-71-rasputin-must-die"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animated_tank", path = "json/monsters02.json" },
 ]
+[[sources]]
+publication = "pathfinder-71-rasputin-must-die"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ dominates the battlefield, spitting hot lead and artillery - seemingly without a
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#71: Rasputin Must Die! pg 84\
 **Experience points:** 19,200
 
 **Armor class:** 29/9/28

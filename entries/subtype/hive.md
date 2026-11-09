@@ -6,14 +6,14 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hive", path = "json/monster_subtypes.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
 
 [fields]
 kind = "none"
 +++
 
 ## Subtype: Hive
-
-**Sources:** Horror Adventures
 
 The hive are an invasive species of [aberrations](ref/type/aberration) that consume worlds like
 locusts. Hive creatures have the following traits (unless otherwise noted in a creature's entry).

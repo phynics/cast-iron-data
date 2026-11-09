@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/slayer" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "119"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Slayer talent gained at 2nd level", "Slayer talent gained at 6th le
 alters = ["Weapon and armor proficiency"]
 +++
 
-**Sources:** Advanced Class Guide pg 119\
 Also known as a divine assassin, god's blade, or wrath-bringer, a deliverer is a weapon chosen by a
 god to punish those who have committed an affront to that deity. Evil deities are more likely to use
 assassins than deliverers, but some good deities use deliverers to deal with problems of a subtler

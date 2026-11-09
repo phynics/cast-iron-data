@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "pathfinder-2-the-skinsaw-murders"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dream_feast", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "232"
+[[sources]]
+publication = "pathfinder-2-the-skinsaw-murders"
+page = "72"
 
 [fields]
 kind = "spell"
@@ -44,8 +50,6 @@ Spell resistance: yes (harmless)
 Target: creature touched
 Subschool: Creation
 :::
-
-**Sources:** Inner Sea Gods pg 232, Pathfinder \#2: The Skinsaw Murders pg 72
 
 The next time the target sleeps (within the next 8 hours), she dreams of a rich feast with her
 favorite foods and drinks. When she awakens, she is sated as if she had eaten a nutritious meal,

@@ -6,6 +6,9 @@ source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mortal_terror", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "legacy-of-the-first-world"
+page = "13"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: fear, mind-affecting
 :::
-
-**Sources:** Legacy of the First World pg 13
 
 You imbue the target with an exaggerated sense of its own mortality and a drive for
 self-preservation. The target is shaken, and the first time each round the target takes damage

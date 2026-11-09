@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "leshy_flytrap_leshy", path = "json/monsters34.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "156"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ glare menacingly._
 
 **Size:** small
 
-**Sources:** Bestiary 5 pg 156\
 **Subtype:** Leshy, Shapechanger
 
 **Experience points:** 1,200

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "light", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "304"
 
 [fields]
 kind = "spell"
@@ -59,8 +62,6 @@ Spell resistance: no
 Target: object touched
 Descriptors: light
 :::
-
-**Sources:** PRPG Core Rulebook pg 304
 
 This spell causes a touched object to glow like a torch, shedding normal light in a 20-foot radius,
 and increasing the light level for an additional 20 feet by one step, up to normal light (darkness

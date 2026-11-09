@@ -6,6 +6,9 @@ source_ids = ["pathfinder-143-borne-by-the-suns-grace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cihua_couatl", path = "json/faiths2.json" },
 ]
+[[sources]]
+publication = "pathfinder-143-borne-by-the-suns-grace"
+page = "66"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Cihua Couatl**
 
 **Sub:** The War Children
-
-**Sources:** Pathfinder \#143: Borne by the Sun's Grace pg 66
 
 ### Details
 

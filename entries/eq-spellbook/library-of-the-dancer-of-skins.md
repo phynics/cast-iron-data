@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "library_of_the_dancer_of_skins", path = "json/equipment_spellbooks.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "126"
 
 [fields]
 kind = "item"
@@ -18,8 +21,6 @@ _This quartet of books is held together by a shining silver strand wound around 
 tied in an intricate knot. Inside, the writing is expansive and sloppy, filled with marginalia; the
 author's notes indicate clear excitement about her discoveries, and while the thinker is obviously
 brilliant, she is also apparently undisciplined._
-
-**Sources:** Ultimate Magic pg 126
 
 **Value** 16,435 gp (20,710 gp with the preparation ritual)
 

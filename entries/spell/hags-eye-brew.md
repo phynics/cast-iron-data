@@ -6,12 +6,14 @@ source_ids = ["blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hags_eye_brew", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "blood-of-the-coven"
+page = "25"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Blood of the Coven pg 25\
 **School** transmutation (creation); **Level** 4\
 **Casting Time** 2 weeks, plus 4 hours; see text\
 **Components** V, S, M (a hag or witch eye), SC (up to 6)\

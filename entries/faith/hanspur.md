@@ -6,6 +6,9 @@ source_ids = ["inner-sea-faiths"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hanspur", path = "json/faiths4.json" },
 ]
+[[sources]]
+publication = "inner-sea-faiths"
+page = "59"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Hanspur**
 
 **Sub:** The Water Rat
-
-**Sources:** Inner Sea Faiths pg 59
 
 ### Details
 

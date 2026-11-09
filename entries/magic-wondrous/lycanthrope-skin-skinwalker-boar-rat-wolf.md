@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lycanthrope_skin_skinwalker_boar_rat_wolf", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "233"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "9th"
 
 ## Lycanthrope Skin (Skinwalker)
 
-**Sources:** Inner Sea Races pg 233\
 **Aura** moderate transmutation; **CL** 9th\
 **Slot** shoulders; **Price** 24,000 gp (boar, rat, wolf), 40,000 gp (brown bear, bat, crocodile,
 shark, tiger); **Weight** 2 lbs.

@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "faun", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "114"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ and curling horns on his head._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 3 pg 114\
 **Experience points:** 400
 
 **Armor class:** 16/13/13

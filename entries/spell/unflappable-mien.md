@@ -6,6 +6,9 @@ source_ids = ["disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unflappable_mien", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "disciples-doctrine"
+page = "19"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: no
 Target: you
 Descriptors: force
 :::
-
-**Sources:** Disciple's Doctrine pg 19
 
 When a creature attempts to touch you with an attack (such as a touch attack, an unarmed strike, an
 attack with a natural weapon, or a grapple), it feels a field of force blocking its way. It can

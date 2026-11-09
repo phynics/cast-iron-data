@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "merrow_saltwater_merrow", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "189"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ abilities = ["25", "16", "23", "6", "10", "7"]
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 2 pg 189\
 **Subtype:** Aquatic, Giant
 
 **Experience points:** 2,400

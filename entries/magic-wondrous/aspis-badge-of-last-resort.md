@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aspis_badge_of_last_resort", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "36"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Adventurer's Guide pg 36\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** none; **Price** 750 gp; **Weight** -
 

@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skulking_brute", path = "json/npcs.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "144"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "1"
 
 **Challenge rating:** 1
 
-**Sources:** NPC Codex pg 144\
 **XP** 400\
 Half-orc [rogue](ref/class/rogue) 2\
 CE Medium humanoid (human, orc)\

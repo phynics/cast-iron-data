@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "group_composition", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "58"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 58
 
 The traditional fantasy adventuring party includes four characters: a fighter, a cleric, a rogue,
 and a wizard. Such a party allows for a balance of abilities, complimentary class features, and

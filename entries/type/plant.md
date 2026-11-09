@@ -6,14 +6,15 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plant", path = "json/monster_types.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "309"
 
 [fields]
 kind = "none"
 +++
 
 ## Type: Plant
-
-**Sources:** Pathfinder RPG Bestiary pg 309
 
 This type comprises vegetable creatures. Note that regular plants, such as one finds growing in
 gardens and fields, lack Intelligence, Wisdom, and Charisma scores; even though plants are alive,

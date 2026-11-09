@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rod_of_grasping_hexes", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "220"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong (no school)"
 caster_level = "17th"
 +++
 
-**Sources:** Advanced Class Guide pg 220\
 **Aura** strong (no school); **CL** 17th\
 **Slot** none; **Price** 11,000 gp; **Weight** 5 lbs.
 

@@ -6,12 +6,13 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "troops", path = "json/monster_families2.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Bestiary 6\
 Wherever there are battles to be fought or spoils to be claimed, [troops](ref/subtype/troop) march
 forward to do the dirty work of war. Whether they are hungry brigands eager to raid merchant
 caravans, frantic goblins scrambling to put a local settlement to the torch, or a cabal of drow

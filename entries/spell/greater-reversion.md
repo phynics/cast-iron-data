@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/minor-reversion" },
 ]
+[[sources]]
+publication = "plane-hoppers-handbook"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Subschool: Healing
 :::
 
 ### Greater Reversion
-
-**Sources:** Plane-Hopper's Handbook pg 28
 
 You create a fine-tuned replica of yourself within the [Akashic Record](ref/rule/akashic-record) at
 the time the spell is cast. You must currently have a number of hit points equal to or greater than

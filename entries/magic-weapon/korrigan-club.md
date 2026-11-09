@@ -6,6 +6,9 @@ source_ids = ["pathfinder-116-fangs-of-war"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "korrigan_club", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "pathfinder-116-fangs-of-war"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Sources:** Pathfinder \#116: Fangs of War pg 29\
 **Aura** moderate transmutation; **CL** 8th\
 **Slot** none; **Price** 13,400 gp; **Weight** 3 lbs.
 

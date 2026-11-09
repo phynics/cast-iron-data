@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "insect_spies", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "217"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: none
 Spell resistance: no
 Effect: up to one insect spy/4 levels
 :::
-
-**Sources:** Ultimate Intrigue pg 217
 
 You summon one or more glossy black beetles, which have a measure of intelligence and make for
 excellent spies. When they are in your presence, the insects obey your mental commands, and you can

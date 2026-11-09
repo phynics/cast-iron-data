@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crushing_cage_tarp", path = "json/traps.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "161"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 161
 
 **Crushing Cage Tarp**
 

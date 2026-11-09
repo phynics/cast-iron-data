@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blain_bane", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-wild"
+page = "9"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "10 gp"
 weight = "-"
 +++
 
-**Sources:** Heroes of the Wild pg 9\
 **Price** 10 gp; **Weight** -\
 **Category** Alchemical Remedies
 

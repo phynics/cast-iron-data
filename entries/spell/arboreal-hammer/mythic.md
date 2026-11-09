@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/arboreal-hammer", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "84"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 84\
 You animate two branches instead of one, allowing the tree to attack twice per round. Add your tier
 to your caster level when determining the tree's Strength score. A creature struck by both slam
 attacks in the same round must succeed at a Fortitude save against the spell's DC or be staggered

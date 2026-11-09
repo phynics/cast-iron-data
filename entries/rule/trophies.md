@@ -6,12 +6,13 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trophies", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "162"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Wilderness pg 162
 
 Monetary treasure can be a rarity in the wild, but canny scavengers and survivalists know how to
 reap nature's bounty. Eggs, furs, and ivory of exotic beasts are well-known commodities, but some

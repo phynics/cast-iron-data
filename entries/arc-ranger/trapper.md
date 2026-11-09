@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ranger" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "65"
 
 [fields]
 kind = "archetype"
 replaces = ["Spellcasting ability"]
 +++
 
-**Sources:** Ultimate Magic pg 65\
 A trapper is a ranger who focuses exclusively on traps, rather than learning conventional magic. A
 trapper has the following class features.
 

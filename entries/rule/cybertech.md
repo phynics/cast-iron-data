@@ -6,12 +6,14 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cybertech", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "35"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Technology Guide pg 35\
 Cybertech is a form of technology that must be surgically implanted into a host body before it
 functions. Cybertech takes up a special set of slots that correspond to a creature's body. Most
 cybertech is designed for a creature with a humanoid shape - installing cybertech in a

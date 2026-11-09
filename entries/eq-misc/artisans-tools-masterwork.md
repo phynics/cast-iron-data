@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "artisans_tools_masterwork", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "77"
+[[sources]]
+publication = "core-rulebook"
+page = "158"
 
 [fields]
 kind = "item"
@@ -16,7 +22,6 @@ weight = "5 lbs. (common), 5 lbs. (masterwork)"
 
 ## Artisan's tools
 
-**Sources:** Ultimate Equipment pg 77, PRPG Core Rulebook pg 158\
 **Price** 5 gp (common), 55 gp (masterwork); **Weight** 5 lbs. (common), 5 lbs. (masterwork)
 
 These special tools include the items needed to pursue any single craft. Without them, you have to

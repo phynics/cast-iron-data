@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "silver_maiden", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "167"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "overwhelming abjuration and transmutation"
 caster_level = "30th"
 +++
 
-**Sources:** Mythic Adventures pg 167\
 **Aura** overwhelming abjuration and transmutation; **CL** 30th\
 **Slot** none; **Price** -; **Weight** 500 tons
 

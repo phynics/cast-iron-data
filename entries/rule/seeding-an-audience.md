@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seeding_an_audience", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "176"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 176
 
 Once she knows one or more of the crowd's biases, a character can attempt to seed the crowd and gain
 benefits for her side of the verbal duel. A GM may rule that seeding a crowd is impossible or very

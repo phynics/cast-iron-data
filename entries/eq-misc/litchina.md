@@ -6,6 +6,9 @@ source_ids = ["distant-shores"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "litchina", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "distant-shores"
+page = "63"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "100 gp"
 weight = "2 lbs."
 +++
 
-**Sources:** Distant Shores pg 63\
 **Price** 100 gp; **Weight** 2 lbs.\
 **Category** Clothing
 

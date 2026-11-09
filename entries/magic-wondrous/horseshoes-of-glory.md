@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horseshoes_of_glory", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "231"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration and transmutation"
 caster_level = "11th"
 +++
 
-**Sources:** Ultimate Equipment pg 231\
 **Aura** moderate abjuration and transmutation; **CL** 11th\
 **Slot** feet; **Price** 39,600 gp; **Weight** 12 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "curse_of_befouled_fortune", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "blood-of-the-beast"
+page = "7"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Spell resistance: yes
 Target: creature touched
 Descriptors: curse
 :::
-
-**Sources:** Blood of the Beast pg 7
 
 > _The following spell was created by [catfolk](ref/race/catfolk) and make use of their inherent
 > luck._

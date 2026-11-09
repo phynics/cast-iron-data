@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "astral_leviathan", path = "json/monsters02.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "14"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ peer out in different directions._
 
 **Senses:** Astral locating, Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 4 pg 14\
 **Subtype:** Extraplanar
 
 **Experience points:** 153,600

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_mouth", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "310"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Target: one creature or object
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** PRPG Core Rulebook pg 310
 
 This spell imbues the chosen object or creature with an enchanted mouth that suddenly appears and
 speaks its message the next time a specified event occurs. The message, which must be 25 or fewer

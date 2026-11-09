@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_power_of_secrets", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "100"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 100
 
 Secrets are powerful in any Pathfinder game, even ones entirely focused on combat, since discovering
 secrets enables characters to learn an enemy's strengths and weaknesses and plan accordingly.

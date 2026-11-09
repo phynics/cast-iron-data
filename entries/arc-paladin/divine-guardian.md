@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/paladin" },
 ]
+[[sources]]
+publication = "cohorts-and-companions"
+page = "23"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Detect evil"]
 alters = ["Lay on hands", "Aura of courage"]
 +++
 
-**Sources:** Cohorts and Companions pg 23\
 The divine guardian devotes herself to the protection and guardianship of one creature at a time, be
 that her liege lord, an allied cleric, or an innocent facing overwhelming danger at the hands of
 evil.

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/witch" },
 ]
+[[sources]]
+publication = "potions-and-poisons"
+page = "10"
 
 [fields]
 kind = "archetype"
 replaces = ["1st-level hex", "the familiar's alertness special ability", "2nd-level hex", "6th-level hex"]
 +++
 
-**Sources:** Potions and Poisons pg 10\
 Witches are no strangers to [poisons](ref/rule/poisons), using them alongside their various brews,
 curses, spells, and other tools of the trade. A number of witches are masters of poison, receiving
 toxic gifts that allow them and their familiars to use poison in unparalleled manners.

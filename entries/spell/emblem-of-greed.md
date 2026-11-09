@@ -6,6 +6,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "emblem_of_greed", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "20"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Spell resistance: no
 Target: 1 masterwork melee weapon touched
 Subschool: Polymorph
 :::
-
-**Sources:** Arcane Anthology pg 20
 
 You transform one melee weapon into a burning [glaive](ref/eq-weapon/glaive) similar to the ones
 wielded by the runelords of old. The target of your spell must be a masterwork or magical melee

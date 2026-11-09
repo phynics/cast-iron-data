@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "litany_of_thunder", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "235"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: language-dependant, sonic
 :::
-
-**Sources:** Ultimate Combat pg 235
 
 You call down a thunderous boom upon your enemy. The target becomes deafened until the condition is
 removed, and is confused for 1 round.

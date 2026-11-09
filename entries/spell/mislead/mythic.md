@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/mislead", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "101"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 101\
 You create one illusory double per 5 caster levels, each of which appears in your square or in an
 unoccupied square adjacent to yours. When you cast the spell, you can give each of these doubles a
 simple programmed task as a telepathic command, such a "walk south," "beg for mercy," or "walk

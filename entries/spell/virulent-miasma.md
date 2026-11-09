@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "virulent_miasma", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "69"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: Fortitude negates (see text)
 Spell resistance: see text
 Effect: cloud spreads in 20-ft. radius, 20 ft. high
 :::
-
-**Sources:** Villain Codex pg 69
 
 Virulent miasma creates fog like fog cloud, except that the vapors carry the taint of disease.
 Living creatures take a -4 penalty on saving throws against disease effects as long as they remain

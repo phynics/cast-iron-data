@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "telepathic_bond", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "358"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: none
 Spell resistance: no
 Targets: you plus one willing creature per three levels, no two of which can be more than 30 ft. apart
 :::
-
-**Sources:** PRPG Core Rulebook pg 358
 
 You forge a telepathic bond among yourself and a number of willing creatures, each of which must
 have an Intelligence score of 3 or higher. Each creature included in the link is linked to all the

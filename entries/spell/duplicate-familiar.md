@@ -6,6 +6,9 @@ source_ids = ["familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "duplicate_familiar", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "familiar-folio"
+page = "22"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: no
 Effect: temporary duplicate of familiar touched
 Subschool: Creation
 :::
-
-**Sources:** Familiar Folio pg 22
 
 You create a duplicate of a familiar. The familiar's master can use the duplicate as if it were his
 familiar in all respects, though he doesn't gain the bonus special ability from more than one

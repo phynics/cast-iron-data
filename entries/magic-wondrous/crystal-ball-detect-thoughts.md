@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crystal_ball_detect_thoughts", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "289"
+[[sources]]
+publication = "core-rulebook"
+page = "507"
 
 [fields]
 kind = "item"
@@ -19,7 +25,6 @@ caster_level = "10th"
 
 ## Crystal Ball
 
-**Sources:** Ultimate Equipment pg 289, PRPG Core Rulebook pg 507\
 **Aura** moderate divination; **CL** 10th\
 **Slot** none; **Price** 42,000 gp (Normal), 50,000 gp (See Invisibility), 51,000 gp (Detect
 Thoughts), 70,000 gp (Telepathy), 80,000 gp (True Seeing); **Weight** 7 lbs.

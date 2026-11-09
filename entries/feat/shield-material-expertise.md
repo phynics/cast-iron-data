@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_material_expertise", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "19"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When wielding a shield made of one of the materials listed below, you
 +++
 
 ## Shield Material Expertise (Combat, Shield Mastery)
-
-**Sources:** Armor Master's Handbook pg 19
 
 You emphasize and exploit the potential of the special material from which your shield is made.\
 **Prerequisites:** [Shield Focus](ref/feat/shield-focus), base attack bonus +6 or fighter level 4th.\

@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vest_of_escape", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "223"
+[[sources]]
+publication = "core-rulebook"
+page = "532"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint conjuration and transmutation"
 caster_level = "4th"
 +++
 
-**Sources:** Ultimate Equipment pg 223, PRPG Core Rulebook pg 532\
 **Aura** faint conjuration and transmutation; **CL** 4th\
 **Slot** chest; **Price** 5,200 gp; **Weight** -
 

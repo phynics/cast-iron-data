@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enfilading_fire", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "100"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You receive a +2 bonus on ranged attacks made against a foe flanked b
 +++
 
 ## Enfilading Fire (Combat, Teamwork)
-
-**Sources:** Ultimate Combat pg 100
 
 Your ranged attacks take advantage of the [flanking](ref/rule/flanking) maneuvers of allies.\
 **Prerequisites:** [Point-Blank Shot](ref/feat/point-blank-shot),

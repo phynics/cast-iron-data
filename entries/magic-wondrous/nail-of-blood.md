@@ -6,6 +6,9 @@ source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nail_of_blood", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "people-of-the-wastes"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Sources:** People of the Wastes pg 31\
 **Aura** moderate necromancy; **CL** 7th\
 **Slot** special (see below); **Price** 25,000 gp; **Weight** -
 

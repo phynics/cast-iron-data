@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "without_accessories", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "36"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 36
 
 Of course, sometimes you don't want or need accessories at all - perhaps you're gaming in a car, at
 a campsite, or somewhere else with limited space or materials. Many campaigns don't use miniatures

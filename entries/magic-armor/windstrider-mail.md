@@ -6,6 +6,9 @@ source_ids = ["down-the-blighted-path"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "windstrider_mail", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "down-the-blighted-path"
+page = "63"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint evocation and transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Down the Blighted Path pg 63\
 **Aura** faint evocation and transmutation; **CL** 5th\
 **Slot** armor; **Price** 10,100 gp; **Weight** 10 lbs.
 

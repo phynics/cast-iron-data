@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_role_of_cohorts_and_followers", path = "json/rules_rulesets01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "131"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 131
 
 Cohorts traditionally function as fellow adventurers, and followers function as background
 characters who perform tasks to help the PCs behind the scenes. There are plenty of other things for

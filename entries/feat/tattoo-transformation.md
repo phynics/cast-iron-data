@@ -10,6 +10,9 @@ relations = [
   { kind = "prerequisite", target = "ref/feat/inscribe-magical-tattoo", label = "or" },
   { kind = "prerequisite", target = "ref/feat/varisian-tattoo", label = "or" },
 ]
+[[sources]]
+publication = "monster-summoners-handbook"
+page = "15"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ prerequisites = "Inscribe Magical Tattoo or Varisian Tattoo; Tattoo Attunement; 
 prerequisite_feats = ["ref/feat/inscribe-magical-tattoo", "ref/feat/tattoo-attunement", "ref/feat/varisian-tattoo"]
 benefit = "When you use Tattoo Attunement on a creature you've summoned, you can gain that creature's elemental resistance as long as it is in tattoo form. If the creature has resistance to multiple elemental types, you gain only one of them. If the creature is immune to an elemental type, you gain resistance 20 to that type. For example, if the creature has resistance 10 to both fire and cold and immunity to electricity, you can gain resistance 10 to either fire or cold or resistance 20 to electricity as long as the creature is in tattoo form."
 +++
-
-**Sources:** Monster Summoner's Handbook pg 15
 
 You've learned to take on some of the resistance of a summoned creature when you absorb it as a
 tattoo.\

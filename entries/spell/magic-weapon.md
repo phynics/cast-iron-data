@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_weapon", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "310"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Saving throw: Will negates (harmless) (object)
 Spell resistance: yes (harmless) (object)
 Target: weapon touched
 :::
-
-**Sources:** PRPG Core Rulebook pg 310
 
 Magic weapon gives a weapon a +1 enhancement bonus on attack and damage rolls. An enhancement bonus
 does not stack with a masterwork weapon's +1 bonus on attack rolls.

@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "djinni_style", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "97"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You gain one additional Elemental Fist attempt per day. While you are
 +++
 
 ## Djinni Style (Combat, Style)
-
-**Sources:** Ultimate Combat pg 97
 
 Your hands sheathed in an auras of lightning, you move like the wind.\
 **Prerequisites:** Con 13, Wis 15, [Elemental Fist](ref/feat/elemental-fist),

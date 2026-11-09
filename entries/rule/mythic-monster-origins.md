@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mythic_monster_origins", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "176"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 176
 
 Depending on your campaign, a mythic monster might be unique - the only one of a kind in the entire
 world or on all the planes - rare, or even relatively common. The following are some examples of how

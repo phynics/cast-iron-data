@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/barbarian" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "44"
 
 [fields]
 kind = "archetype"
 replaces = ["Fast movement", "Uncanny dodge", "Trap sense", "4th, 8th, 12th, and 16th level rage powers", "Improved uncanny dodge"]
 +++
 
-**Sources:** Inner Sea Combat pg 44\
 The Shoanti tribes who live in the Cinderlands have turned the deadly emberstorms that plague the
 region into a rite of passage. A few who survive the experience begin to embrace the adrenaline and
 surge of joy that comes from dancing along the edge of a whirling firestorm. These thrill-seekers

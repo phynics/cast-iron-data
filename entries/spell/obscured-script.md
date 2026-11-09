@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "obscured_script", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "37"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: no
 Target: one touched page, scroll, inscription, book, or other document no more than 3 feet in any dimension
 Subschool: Phantasm
 :::
-
-**Sources:** Adventurer's Guide pg 37
 
 You create a latent illusion that clouds the judgment and reading ability of any creature that
 examines a targeted text. While casting the spell, you can designate up to one creature other than

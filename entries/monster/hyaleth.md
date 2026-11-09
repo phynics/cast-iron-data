@@ -6,6 +6,9 @@ source_ids = ["pathfinder-130-city-in-the-lions-eye"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hyaleth", path = "json/monsters14.json" },
 ]
+[[sources]]
+publication = "pathfinder-130-city-in-the-lions-eye"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ stinger on the other._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#130: City in the Lion's Eye pg 84\
 **Subtype:** Aquatic
 
 **thoughtsense:** 60

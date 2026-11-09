@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "choosing_monster_options", path = "json/rules_adv_gm03.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "228"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 228
 
 Look at the number of monster options you're supposed to choose based on the monster's array and
 grafts. You should have a list saying how many to pick of each category. When you pick an option,

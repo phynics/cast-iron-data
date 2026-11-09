@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "esoteric_material_components", path = "json/rules_opt_magic01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "150"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 150
 
 A handful of hard-to-find, naturally occurring substances contain magical potency and can be used as
 special material components. Some spellcasters are trained to use these esoteric material components

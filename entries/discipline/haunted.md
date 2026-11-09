@@ -6,13 +6,15 @@ source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "haunted", path = "json/class_ability_disciplines.json" },
 ]
+[[sources]]
+publication = "haunted-heroes-handbook"
+page = "18"
 
 [fields]
 kind = "class_option"
 group = "psychic-discipline"
 +++
 
-**Sources:** Haunted Heroes Handbook pg 18\
 You attract the attention of spirits as naturally as a lodestone attracts iron filings. Testing your
 power leads you to develop some control over undead forces, despite the inherent defenses such
 creatures have against psychic abilities. Meanwhile, those spirits clinging to your life essence

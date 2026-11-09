@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/silent-image" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "314"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Spell resistance: no
 Effect: visual figment that cannot extend beyond four 10 ft. cubes + one 10 ft. cube/level (S)
 Subschool: Figment
 :::
-
-**Sources:** PRPG Core Rulebook pg 314
 
 This spell functions like [silent image](ref/spell/silent-image), except that minor image includes
 some minor sounds but not understandable speech.

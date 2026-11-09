@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gamblers_kit_cheating", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "56"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "5 lbs. (cheating), 5 lbs. (common)"
 
 ## Gambler's kit
 
-**Sources:** Ultimate Equipment pg 56\
 **Price** 300 gp (cheating), 75 gp (common); **Weight** 5 lbs. (cheating), 5 lbs. (common)
 
 Particularly useful for travelers moving through areas too small or remote to support a full-time

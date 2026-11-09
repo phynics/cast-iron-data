@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "change_words", path = "json/rules_opt_magic03.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "171"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 171
 
 Words from this family change the target's form, granting special attacks and powers.
 

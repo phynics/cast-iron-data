@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "punishing_kick", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "167"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "A hungry ghost monk receives Punishing Kick as a bonus feat at 1st le
 +++
 
 ## Punishing Kick (Combat)
-
-**Sources:** Advanced Player's Guide pg 167
 
 Your kicks are so powerful you use them to push or knock back your foes.\
 **Prerequisites:** Con 13, Wis 13, [Improved Unarmed Strike](ref/feat/improved-unarmed-strike), base

@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stench_spray_amulet", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "213"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration"
 caster_level = "3rd"
 +++
 
-**Sources:** Monster Codex pg 213\
 **Aura** faint conjuration; **CL** 3rd\
 **Slot** neck; **Price** 1,600 gp; **Weight** -
 

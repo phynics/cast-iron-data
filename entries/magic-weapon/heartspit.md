@@ -6,6 +6,9 @@ source_ids = ["pathfinder-93-forge-of-the-giant-god"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heartspit", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "pathfinder-93-forge-of-the-giant-god"
+page = "12"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "8th"
 +++
 
-**Sources:** Pathfinder \#93: Forge of the Giant God pg 12\
 **Aura** moderate evocation; **CL** 8th\
 **Slot** none; **Price** 10,310 gp; **Weight** 18 lbs.
 

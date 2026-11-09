@@ -6,6 +6,9 @@ source_ids = ["pathfinder-119-prisoners-of-the-blight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heartrot_tree", path = "json/monsters13.json" },
 ]
+[[sources]]
+publication = "pathfinder-119-prisoners-of-the-blight"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ _Fungus drips from this grotesque tree's ridged bark as its branches wave like b
 
 **Type:** plant
 
-**Sources:** Pathfinder \#119: Prisoners of the Blight pg 86\
 **Experience points:** 25,600
 
 **Armor class:** 28/8/28

@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ice_elemental", path = "json/monsters09.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "114"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ slithering tail._
 
 **Size:** small
 
-**Sources:** Bestiary 2 pg 114\
 **Subtype:** Air, Cold, Elemental, Extraplanar, Water
 
 **Experience points:** 400

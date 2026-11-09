@@ -6,6 +6,9 @@ source_ids = ["rival-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hag_spit", path = "json/equipment_poisons.json" },
 ]
+[[sources]]
+publication = "rival-guide"
+page = "53"
 
 [fields]
 kind = "item"
@@ -13,8 +16,6 @@ category = "Poisons"
 price = "1,500 gp"
 weight = "&mdash;"
 +++
-
-**Sources:** Rival Guide pg 53
 
 **Price** 1,500 gp; **Weight** —
 

@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deep_sea_serpent", path = "json/monsters08.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "240"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ jagged teeth._
 
 **Senses:** Darkvision 120 ft., Low-light vision
 
-**Sources:** Bestiary 3 pg 240\
 **Subtype:** Aquatic
 
 **Experience points:** 204,800

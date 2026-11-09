@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "attack_roll", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "178"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 178
 
 An attack roll represents your attempt to strike your opponent on your turn in a round. When you
 make an attack roll, you roll a d20 and add your attack bonus. (Other modifiers may also apply to

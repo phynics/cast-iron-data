@@ -6,6 +6,9 @@ source_ids = ["pathfinder-92-the-hill-giants-pledge"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "glory_medallion", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "pathfinder-92-the-hill-giants-pledge"
+page = "48"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration and necromancy"
 caster_level = "5th"
 +++
 
-**Sources:** Pathfinder \#92: The Hill Giant's Pledge pg 48\
 **Aura** faint conjuration and necromancy; **CL** 5th\
 **Slot** none; **Price** 5,000 gp; **Weight** 1 lb.
 

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/psychic-sensitivity", label = "or" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "141"
 
 [fields]
 kind = "feat"
@@ -18,8 +21,6 @@ benefit = "Once per day as a standard action, you can open a spiritual third eye
 normal = "Without this feat, you must spend 10 minutes in intense concentration to read one of a creature or item's four auras, and you can do so only once per day."
 special = "You can take this feat multiple times. Its effects don't stack. Each time you take the feat, you increase the number of times per day you can open your third eye (and read an aura) by one."
 +++
-
-**Sources:** Occult Adventures pg 141
 
 You possess and can open a third eye that permits you to see things as they really are and gain
 greater insight into auras.\

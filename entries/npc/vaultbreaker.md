@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vaultbreaker", path = "json/npcs4.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "206"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "16"
 
 **Challenge rating:** 16
 
-**Sources:** NPC Codex pg 206\
 **XP** 76,800\
 Human [rogue](ref/class/rogue) 6/transmuter 4/arcane trickster 7\
 NE Medium humanoid (human)\

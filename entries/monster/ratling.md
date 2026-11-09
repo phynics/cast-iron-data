@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "pathfinder-49-the-brinewall-legacy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ratling", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "226"
+[[sources]]
+publication = "pathfinder-49-the-brinewall-legacy"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -40,7 +46,6 @@ with a toothy mouth._
 
 **Senses:** Darkvision 60 ft., Detect magic, Low-light vision
 
-**Sources:** Bestiary 4 pg 226, Pathfinder \#49: The Brinewall Legacy pg 86\
 **Size:** tiny
 
 **Experience points:** 600

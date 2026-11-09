@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness", "occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "autumn_blast", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "58~Occult Origins/8"
 
 [fields]
 kind = "class_option"
@@ -27,7 +30,5 @@ group = "kineticist-wild-talent"
 **Damage:** any two of bludgeoning, piercing, and slashing (half each)
 
 **Prerequisite:** [earth blast](ref/kinetic/earth-blast), [wood blast](ref/kinetic/wood-blast)
-
-**Source:** Ultimate Wilderness/58\~Occult Origins/8
 
 A burst of fallen leaves and earthy decay batters a single foe.

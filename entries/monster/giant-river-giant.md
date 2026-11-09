@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_river_giant", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "128"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _This slender giant dresses in simple clothes and has swirling patterns on her g
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 4 pg 128\
 **Subtype:** Giant
 
 **Experience points:** 2,400

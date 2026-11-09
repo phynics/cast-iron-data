@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/giant-vermin", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "96"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 96\
 The vermin you transform with this spell gain DR 5/magic and either the advanced creature template
 or the giant creature template.
 

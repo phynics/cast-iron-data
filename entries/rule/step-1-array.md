@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "step_1_array", path = "json/rules_adv_gm02.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "196"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 196
 
 The arrays presented in this section allow you to quickly derive the statistics for three broad
 types of monsters. Each one allows for a fair amount of customization - especially through monster

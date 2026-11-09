@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "pathfinder-79-the-half-dead-city"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ahkhat", path = "json/monsters01.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "14"
+[[sources]]
+publication = "pathfinder-79-the-half-dead-city"
+page = "80"
 
 [fields]
 kind = "creature"
@@ -44,7 +50,6 @@ humanoid with thick stony arms._
 
 **Size:** small
 
-**Sources:** Bestiary 5 pg 14, Pathfinder \#79: The Half-Dead City pg 80\
 **Subtype:** Earth, Elemental, Native
 
 **tremorsense:** 30

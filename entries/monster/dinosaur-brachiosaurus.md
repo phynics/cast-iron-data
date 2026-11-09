@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dinosaur_brachiosaurus", path = "json/monsters08.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "83"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ small head pulls food from the treetop._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 83\
 **Experience points:** 9,600
 
 **Armor class:** 18/6/18

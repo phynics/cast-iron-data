@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "retirement", path = "json/rules_adv_pc01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "186"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 186
 
 Every hero's journey comes to an end. Ideally this happens at the conclusion of the campaign, but
 not every hero makes it that far. Some are crippled in battle, killed without the possibility of

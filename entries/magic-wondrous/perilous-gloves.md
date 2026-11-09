@@ -6,6 +6,9 @@ source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "perilous_gloves", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "dragonslayers-handbook"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation and necromancy"
 caster_level = "1st"
 +++
 
-**Sources:** Dragonslayer's Handbook pg 31\
 **Aura** faint transmutation and necromancy; **CL** 1st\
 **Slot** hands; **Price** 10,000 gp; **Weight** 1 lb.
 

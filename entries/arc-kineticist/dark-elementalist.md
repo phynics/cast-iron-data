@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/kineticist" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "56"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Internal buffer"]
 alters = ["Base saving throws", "the key ability score of wild talents", "Burn", "elemental overflow"]
 +++
 
-**Sources:** Horror Adventures pg 56\
 Some kineticists who are loathe to suffer the consequences of channeling their power study the
 darkest esoteric energies of the planes and use souls to fuel their occult might. The spiritual
 tortures these dark elementalists inflict upon their victims' souls are horrifically selfish acts on

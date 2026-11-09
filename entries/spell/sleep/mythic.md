@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/sleep", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "108"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 108\
 The spell affects up to 8 Hit Dice of creatures, and you can choose the order in which creatures are
 affected by the spell. Any effect that would automatically awaken a sleeping creature instead allows
 it to attempt a new Will saving throw to awaken.

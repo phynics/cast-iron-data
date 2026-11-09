@@ -6,12 +6,13 @@ source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "adyton", path = "json/drugs.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "183"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Book of the Damned pg 183
 
 **Type:** contact
 

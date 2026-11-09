@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/shaman" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "23"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Spirit magic spells gained from the shaman's spirit"]
 alters = ["Deliver touch spells spirit animal ability"]
 +++
 
-**Sources:** Magic Tactics Toolbox pg 23\
 While all shamans use their connection to the spirits of the world to draw upon otherworldly magic
 powers, the shamans of the Lands of the Linnorm Kings have a unique tradition in which they use the
 power of patron spirits to directly control their enemies. Such overseers may assume roles as

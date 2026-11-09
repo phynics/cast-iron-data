@@ -6,6 +6,9 @@ source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fleeting_memory", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "24"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Black Markets pg 24
 
 You create a gap in the target's memory, preventing the target from remembering anything that
 happens from the moment you cast this spell until the moment its complete duration ends. Fleeting

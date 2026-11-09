@@ -6,12 +6,13 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deific_realms", path = "json/rules_campaign_types09.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "72"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Planar Adventures pg 72
 
 A divinity gains authority over a portion of a plane in one of two ways. The first is via simple
 conquest. Such conflicts may involve vast armies, clever traps, devious espionage, political

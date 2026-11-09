@@ -6,12 +6,14 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rougarou", path = "json/races3.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "242"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Bestiary 6 pg 242\
 Rougarous are wolf-headed humanoids who can transform into wolves. While this sometimes confuses
 others into mistaking a rougarou for a werewolf, these humanoids are not
 [lycanthropes](ref/family/lycanthrope). In fact, most detest werewolves and hunt them mercilessly.

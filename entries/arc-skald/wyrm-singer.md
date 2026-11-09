@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/skald" },
 ]
+[[sources]]
+publication = "legacy-of-dragons"
+page = "14"
 
 [fields]
 kind = "archetype"
 replaces = ["Inspired rage", "Song of the fallen", "Rage power gained at 12th level"]
 +++
 
-**Sources:** Legacy of Dragons pg 14\
 Wyrm singers spin fragments of the story of the ongoing struggle between noble Apsu and wicked
 Dahak.
 

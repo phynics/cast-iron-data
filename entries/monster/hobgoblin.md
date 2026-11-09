@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hobgoblin", path = "json/monsters13.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "175"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ eyes._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 175\
 **Subtype:** Goblinoid
 
 **Experience points:** 200

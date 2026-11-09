@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hidden_spring", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "231"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: no
 Effect: a spring of fresh water
 Descriptors: water
 :::
-
-**Sources:** Ultimate Wilderness pg 231
 
 You spend 1 hour in quiet meditation, holding the focus component in both hands and walking around a
 natural area. You are simultaneously drawn to areas of natural moisture while drawing that moisture

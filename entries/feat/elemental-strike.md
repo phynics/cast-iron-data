@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_strike", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "205"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "You can use this feat instead of Arcane Strike to qualify for or atta
 +++
 
 ## Elemental Strike (Combat)
-
-**Sources:** Inner Sea Races pg 205
 
 You draw upon your extraplanar heritage to imbue your weapons with elemental energies.\
 **Prerequisites:** [Ifrit](ref/race/ifrit), [oread](ref/race/oread), [sylph](ref/race/sylph), or

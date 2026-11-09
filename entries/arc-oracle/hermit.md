@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/oracle" },
 ]
+[[sources]]
+publication = "legacy-of-the-first-world"
+page = "22"
 
 [fields]
 kind = "archetype"
 replaces = ["The bonus spells gained at 4th, 8th, 12th, and 16th levels from the oracle's mystery"]
 +++
 
-**Sources:** Legacy of the First World pg 22\
 A hermit is a recluse who gained her oracular powers from isolation in a deep desert, on a mountain
 peak, or in another secluded location. A connection to untraveled places gives the hermit powers to
 evade his enemies.

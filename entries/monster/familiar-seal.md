@@ -6,6 +6,15 @@ source_ids = ["ultimate-wilderness", "pathfinder-55-the-wormwood-mutiny", "besti
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_seal", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "206"
+[[sources]]
+publication = "pathfinder-55-the-wormwood-mutiny"
+page = "89"
+[[sources]]
+publication = "bestiary-5"
+page = "113"
 
 [fields]
 kind = "creature"
@@ -42,8 +51,6 @@ sharp teeth._
 
 **Size:** small
 
-**Sources:** Ultimate Wilderness pg 206, Pathfinder \#55: The Wormwood Mutiny pg 89, Bestiary 5 pg
-113\
 **Experience points:** 135
 
 **Armor class:** 13/12/12

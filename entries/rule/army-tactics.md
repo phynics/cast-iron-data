@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "army_tactics", path = "json/rules_campaign_types05.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "237"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 237
 
 Tactics are options an army can use to influence aspects of a battle. A newly recruited army doesn't
 know any of these tactics unless specified by the GM. An army learns new tactics by being victorious

@@ -6,6 +6,9 @@ source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_hammer_throw", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "heroes-from-the-fringe"
+page = "9"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You can use the Hammer Throw feat against targets at any range and of
 +++
 
 ## Improved Hammer Throw (Combat)
-
-**Sources:** Heroes from the Fringe pg 9
 
 Your ability to knock down your foes with ranged attacks is impressive.\
 **Prerequisites:** Int 13, [Combat Expertise](ref/feat/combat-expertise),

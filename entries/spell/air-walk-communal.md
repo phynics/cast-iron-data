@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/air-walk" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "222"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Descriptors: air
 :::
 
 ### Communal Air Walk
-
-**Sources:** Ultimate Combat pg 222
 
 This spell functions like [air walk](ref/spell/air-walk), except divide the duration in 10-minute
 intervals among the creatures touched.

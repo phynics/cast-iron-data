@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fire_trap", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "282"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes
 Target: object touched
 Descriptors: fire
 :::
-
-**Sources:** PRPG Core Rulebook pg 282
 
 Fire trap creates a fiery explosion when an intruder opens the item that the trap protects. A fire
 trap spell can ward any object that can be opened and closed.

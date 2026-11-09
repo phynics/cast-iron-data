@@ -6,6 +6,9 @@ source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_absorption", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "61"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Inner Sea Magic pg 61
 
 If you successfully counterspell a 3rd-level or lower level spell (through either
 [dispel magic](ref/spell/dispel-magic) or normal means) while spell absorption is in effect, you

@@ -6,6 +6,9 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "veemod_white", path = "json/equipment_tech_misc.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "53"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ slot = "veemod goggles"
 
 ## Veemod
 
-**Sources:** Technology Guide pg 53\
 **Price** 400 gp (black), 20,000 gp (blue), 200 gp (brown), 6,000 gp (gray), 10,000 gp (green),
 30,000 gp (orange), 50,000 gp (prismatic), 12,000 gp (red), 2,500 gp (white)\
 **Slot** veemod goggles; **Weight** — (all)\

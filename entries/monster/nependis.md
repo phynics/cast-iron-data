@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nependis", path = "json/monsters17.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "202"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ despite its cloven hooves._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Bestiary 4 pg 202\
 **Experience points:** 6,400
 
 **Armor class:** 21/11/19

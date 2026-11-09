@@ -6,13 +6,15 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flame", path = "json/class_ability_shaman_spirits.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "39"
 
 [fields]
 kind = "class_option"
 group = "shaman-spirit"
 +++
 
-**Sources:** Advanced Class Guide pg 39\
 A shaman who selects the flame spirit has a radiant light behind her eyes and the faint smell of
 smoke about her. When she calls upon one of this spirit's abilities, a hungry spectral flame dances
 around her body.

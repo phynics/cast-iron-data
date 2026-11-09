@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bleeding_walls", path = "json/haunts.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "243"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 243
 
 **Bleeding Walls**
 

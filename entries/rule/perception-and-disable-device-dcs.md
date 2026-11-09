@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "perception_and_disable_device_dcs", path = "json/rules_gm08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "417"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 417
 
 The builder sets the Perception and Disable Device DCs for a mechanical trap. For a magic trap, the
 values depend on the highest-level spell used.

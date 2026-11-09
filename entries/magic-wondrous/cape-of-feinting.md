@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cape_of_feinting", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "228"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment"
 caster_level = "8th"
 +++
 
-**Sources:** Advanced Class Guide pg 228\
 **Aura** moderate enchantment; **CL** 8th\
 **Slot** shoulders; **Price** 14,000 gp; **Weight** 1 lb.
 

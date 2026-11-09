@@ -6,13 +6,15 @@ source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bleaching", path = "json/class_ability_disciplines.json" },
 ]
+[[sources]]
+publication = "heroes-from-the-fringe"
+page = "18"
 
 [fields]
 kind = "class_option"
 group = "psychic-discipline"
 +++
 
-**Sources:** Heroes from the Fringe pg 18\
 You draw power from a void in your emotions, a yawning and empty chasm where your hopes and dreams
 and fears should be. It is very rare for any creature besides a [gnome](ref/race/gnome) to have this
 psychic discipline - usually a bleachling or a gnome with a particularly strong fear of the

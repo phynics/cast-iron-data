@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quaking", path = "json/magic_enhancements2.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "30"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ aura = "faint evocation"
 caster_level = "6th"
 +++
 
-**Sources:** Weapon Master's Handbook pg 30\
 **Aura** faint evocation; **CL** 6th\
 **Price** +2 bonus; **Weight** -
 

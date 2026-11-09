@@ -6,12 +6,13 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "step_7_other_statistics", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "292"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder RPG Bestiary pg 292
 
 Using Tables [1-1](ref/rule/step-2-target-statistics), [1-4](ref/rule/step-6-skills-and-feats), and
 1-6, you can now determine many of the creature's other statistics.

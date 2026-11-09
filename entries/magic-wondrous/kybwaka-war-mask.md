@@ -6,6 +6,9 @@ source_ids = ["pathfinder-27-what-lies-in-dust"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kybwaka_war_mask", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "pathfinder-27-what-lies-in-dust"
+page = "57"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint necromancy"
 caster_level = "4th"
 +++
 
-**Sources:** Pathfinder \#27: What Lies in Dust pg 57\
 **Aura** faint necromancy; **CL** 4th\
 **Slot** head; **Price** 3,700 gp; **Weight** 5 lbs.
 

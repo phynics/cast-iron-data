@@ -6,6 +6,9 @@ source_ids = ["pathfinder-77-herald-of-the-ivory-labyrinth"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chalice_of_ozem", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "pathfinder-77-herald-of-the-ivory-labyrinth"
+page = "62"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration and evocation [force]"
 caster_level = "20th"
 +++
 
-**Sources:** Pathfinder \#77: Herald of the Ivory Labyrinth pg 62\
 **Aura** strong abjuration and evocation \[force\]; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 1 lb.
 

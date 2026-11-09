@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_spring_attack", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "113"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "A monk of at least 18th level can select this feat as a monk bonus fe
 +++
 
 ## Greater Spring Attack (Combat)
-
-**Sources:** Ultimate Wilderness pg 113
 
 You are a scything wind cutting through the battlefield as you topple your foes.\
 **Prerequisites:** Dex 17, [Acrobatic Steps](ref/feat/acrobatic-steps), [Dodge](ref/feat/dodge),

@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gloves_of_arrow_snaring", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "236"
+[[sources]]
+publication = "core-rulebook"
+page = "514"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Sources:** Ultimate Equipment pg 236, PRPG Core Rulebook pg 514\
 **Aura** faint abjuration; **CL** 3rd\
 **Slot** hands; **Price** 4,000 gp; **Weight** -
 

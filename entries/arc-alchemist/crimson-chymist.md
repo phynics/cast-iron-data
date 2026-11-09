@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "156"
 
 [fields]
 kind = "archetype"
 alters = ["Mutagen", "Discovery"]
 +++
 
-**Sources:** Adventurer's Guide pg 156\
 [Red Mantis](ref/rule/aff-assassins) agents are easily identifiable by their iconic equipment. Yet
 some assassins believe even subtler killing methods can be employed while still honoring
 [Achaekek](ref/faith/achaekek). These crimson chymists turn to the alchemical arts, infusing their

@@ -6,6 +6,9 @@ source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trollblood_elixir", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "giant-hunters-handbook"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration"
 caster_level = "13th"
 +++
 
-**Sources:** Giant Hunter's Handbook pg 29\
 **Aura** strong conjuration; **CL** 13th\
 **Slot** none; **Price** 4,550 gp; **Weight** -
 

@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shade_bow", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "25"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate illusion"
 caster_level = "6th"
 +++
 
-**Sources:** Dirty Tactics Toolbox pg 25\
 **Aura** moderate illusion; **CL** 6th\
 **Slot** none; **Price** 41,535 gp; **Weight** 4 lbs.
 

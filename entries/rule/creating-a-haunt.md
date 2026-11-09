@@ -6,12 +6,19 @@ source_ids = ["game-mastery-guide", "occult-adventures", "horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "creating_a_haunt", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "243"
+[[sources]]
+publication = "occult-adventures"
+page = "228"
+[[sources]]
+publication = "horror-adventures"
+page = "172"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 243, Occult Adventures pg 228, Horror Adventures pg 172
 
 To make a haunt like the example below, follow these steps.
 

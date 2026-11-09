@@ -6,13 +6,15 @@ source_ids = ["core-rulebook", "legacy-of-dragons", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "draconic", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "75"
 
 [fields]
 kind = "class_option"
 group = "sorcerer-bloodline"
 +++
 
-**Sources:** PRPG Core Rulebook pg 75\
 At some point in your family's history, a dragon interbred with your bloodline, and now its ancient
 power flows through your veins.
 

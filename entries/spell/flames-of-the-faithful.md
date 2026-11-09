@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flames_of_the_faithful", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "222"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Spell resistance: yes (object)
 Target: weapon touched
 Descriptors: fire
 :::
-
-**Sources:** Advanced Player's Guide pg 222
 
 With a touch, you cause a glowing rune to appear on a single weapon, granting that weapon the
 flaming property (and allowing it to cause an extra 1d6 points of fire damage on a successful hit).

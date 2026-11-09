@@ -6,6 +6,9 @@ source_ids = ["chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "conquerors_breastplate", path = "json/magic_legacy_items.json" },
 ]
+[[sources]]
+publication = "chronicle-of-legends"
+page = "20"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ aura = "moderate enchantment"
 caster_level = "10th"
 +++
 
-**Sources:** Chronicle of Legends pg 20\
 **Slot** armor; **CL** 10th; **Weight** 15 lbs.\
 **Aura** moderate enchantment
 

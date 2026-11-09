@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "screaming_blade", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "216"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation [evil]"
 caster_level = "10th"
 +++
 
-**Sources:** Horror Adventures pg 216\
 **Aura** moderate evocation \[evil\]; **CL** 10th\
 **Slot** none; **Price** 25,315 gp; **Weight** 4 lbs.
 

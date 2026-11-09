@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "whirling_hold", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "23"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you succeed at a combat maneuver check to maintain a grapple, in
 +++
 
 ## Whirling Hold (Combat)
-
-**Sources:** Martial Arts Handbook pg 23
 
 You lift your grappled foe from the ground and violently spin and disorient him.\
 **Prerequisites:** [Improved Grapple](ref/feat/improved-grapple),

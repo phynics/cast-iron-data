@@ -6,6 +6,9 @@ source_ids = ["animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fury_drops", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "animal-archive"
+page = "13"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "50 gp"
 weight = "-"
 +++
 
-**Sources:** Animal Archive pg 13\
 **Price** 50 gp; **Weight** -\
 **Category** Alchemical Remedies
 

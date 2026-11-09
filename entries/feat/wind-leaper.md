@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wind_leaper", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "33"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "As a swift action, you can wrap your body in airy energies. This redu
 +++
 
 ## Wind Leaper (Conduit)
-
-**Sources:** Planar Adventures pg 33
 
 Energies from the Plane of Air ease your movements and let you make mighty leaps.\
 **Prerequisites:** Knowledge (planes) 3 ranks.\

@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "robe_of_scintillating_colors", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "218"
+[[sources]]
+publication = "core-rulebook"
+page = "528"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate illusion"
 caster_level = "11th"
 +++
 
-**Sources:** Ultimate Equipment pg 218, PRPG Core Rulebook pg 528\
 **Aura** moderate illusion; **CL** 11th\
 **Slot** body; **Price** 27,000 gp; **Weight** 1 lb.
 

@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "settlement_sizes", path = "json/rules_campaign_types05.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "232"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 232
 
 The GM may want to adjust settlement modifiers based on the kingdom's Size and how that corresponds
 to the standard settlement size categories in the Core Rulebook.

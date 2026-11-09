@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hard_headed", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "18"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You gain a +1 bonus on attack rolls and combat maneuver checks made u
 +++
 
 ## Hard-Headed (Combat)
-
-**Sources:** Advanced Race Guide pg 18
 
 Your thick skull is almost a weapon unto itself.\
 **Prerequisites:** Base attack bonus +1, [dwarf](ref/race/dwarf).\

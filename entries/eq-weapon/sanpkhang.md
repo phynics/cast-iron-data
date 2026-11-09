@@ -6,14 +6,15 @@ source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sanpkhang", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "9"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "1 lb."
 +++
-
-**Sources:** Adventurer's Armory 2 pg 9
 
 This elaborate knife is carved with special barbs and grooves, meant to channel toxins into the
 bloodstream. Any injury poison delivered with a sanpkhang has its DC increased by 1, or by 2 if

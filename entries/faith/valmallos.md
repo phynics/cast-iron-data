@@ -6,6 +6,9 @@ source_ids = ["concordance-of-rivals"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "valmallos", path = "json/faiths9.json" },
 ]
+[[sources]]
+publication = "concordance-of-rivals"
+page = "19"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Valmallos**
 
 **Sub:** The Answering Rite
-
-**Sources:** Concordance of Rivals pg 19
 
 ### Details
 

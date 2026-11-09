@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mythic_trials", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "129"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 129
 
 The saga of mythic heroes is filled with wild adventures, deadly foes, and mysterious forces. For
 most, their journey is defined by such moments. These trials are the peaks of the story, turning

@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dark_folk_dark_slayer", path = "json/monsters29.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "75"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ hands are visible._
 
 **Size:** small
 
-**Sources:** Bestiary 2 pg 75\
 **Subtype:** Dark folk
 
 **Experience points:** 800

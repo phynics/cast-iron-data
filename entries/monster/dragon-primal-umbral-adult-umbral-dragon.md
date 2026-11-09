@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_primal_umbral_adult_umbral_dragon", path = "json/monsters30.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "102"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ abilities = ["27", "10", "21", "20", "21", "20"]
 
 **Senses:** Dragon senses
 
-**Sources:** Bestiary 2 pg 102\
 **Subtype:** Extraplanar
 
 **Experience points:** 38,400

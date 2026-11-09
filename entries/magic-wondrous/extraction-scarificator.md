@@ -6,6 +6,9 @@ source_ids = ["pathfinder-61-shards-of-sin"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extraction_scarificator", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "pathfinder-61-shards-of-sin"
+page = "64"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration and transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Pathfinder \#61: Shards of Sin pg 64\
 **Aura** faint conjuration and transmutation; **CL** 3rd\
 **Slot** none; **Price** 2,500 gp; **Weight** 1 lb.
 

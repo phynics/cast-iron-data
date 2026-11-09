@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prayer", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "324"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Area: all allies and foes within a 40-ft.-radius burst centered on you
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 324
 
 You bring special favor upon yourself and your allies while bringing disfavor to your enemies. You
 and each of your allies gain a +1 luck bonus on attack rolls, weapon damage rolls, saves, and skill

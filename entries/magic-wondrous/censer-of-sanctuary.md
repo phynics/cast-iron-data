@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "censer_of_sanctuary", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "149"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Sources:** Mythic Adventures pg 149\
 **Aura** faint abjuration; **CL** 3rd\
 **Slot** none; **Price** 18,000 gp; **Weight** 2 lbs.
 

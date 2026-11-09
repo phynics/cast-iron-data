@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soulbound_mannequin", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "248"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ _This strange construct is shaped like a masked humanoid made of wood and porcel
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 4 pg 248\
 **Experience points:** 3,200
 
 **Armor class:** 19/13/16

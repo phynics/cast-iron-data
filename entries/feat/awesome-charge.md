@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "awesome_charge", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "68"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you hit your opponent with a charge attack, you can attempt an a
 +++
 
 ## Awesome Charge (Combat)
-
-**Sources:** Monster Codex pg 68
 
 When you charge, you can send your opponent flying.\
 **Prerequisites:** Str 25, [Awesome Blow](ref/feat/awesome-blow),

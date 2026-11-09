@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "headband_of_seduction", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "251"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint enchantment and transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Equipment pg 251\
 **Aura** faint enchantment and transmutation; **CL** 5th\
 **Slot** headband; **Price** 40,000 gp; **Weight** 1 lb.
 

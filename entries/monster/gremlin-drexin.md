@@ -6,6 +6,9 @@ source_ids = ["pathfinder-109-in-search-of-sanity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gremlin_drexin", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "pathfinder-109-in-search-of-sanity"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ darkness._
 
 **Size:** small
 
-**Sources:** Pathfinder \#109: In Search of Sanity pg 84\
 **Experience points:** 600
 
 **Armor class:** 16/15/12

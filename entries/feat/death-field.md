@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "death_field", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "27"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "As a move action, you can exude deadly energy from your body. While t
 +++
 
 ## Death Field (Conduit)
-
-**Sources:** Planar Adventures pg 27
 
 The deadly power of the Negative Energy Plane creates a field that snuffs out life forces at the
 cost of your own vitality.\

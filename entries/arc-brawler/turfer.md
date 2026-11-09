@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/brawler" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "42"
 
 [fields]
 kind = "archetype"
 replaces = ["Maneuver training", "Knockout"]
 +++
 
-**Sources:** Ultimate Wilderness pg 42\
 A turfer has a mastery over particular types of terrain.
 
 **Favored Turf (Ex)**

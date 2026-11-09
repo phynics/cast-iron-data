@@ -6,14 +6,15 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "focused_inspiration", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "148"
 
 [fields]
 kind = "feat"
 prerequisites = "Inspiration class feature, keen recollection class feature."
 benefit = "Choose two skills that you either are trained in or can otherwise use untrained. You must be able to use inspiration on these skills. When you use inspiration with those skills, roll a d8 instead of a d6, or a d10 if you would normally roll a d8. If you have the true inspiration class feature, you roll twice as many such dice (2d8 or 2d10) as normal."
 +++
-
-**Sources:** Advanced Class Guide pg 148
 
 Two of your skills gain a bit more from your inspiration than others.\
 **Prerequisites:** Inspiration class feature, keen recollection class feature.\

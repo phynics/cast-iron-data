@@ -6,6 +6,9 @@ source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "visage_of_the_bound", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "monster-summoners-handbook"
+page = "21"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration and evocation"
 caster_level = "9th"
 +++
 
-**Sources:** Monster Summoner's Handbook pg 21\
 **Aura** moderate conjuration and evocation; **CL** 9th\
 **Slot** head; **Price** 22,900 gp; **Weight** 2 lbs.
 

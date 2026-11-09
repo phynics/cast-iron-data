@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cerynitis", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "53"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ _This sleek and graceful doe possesses long, metallic antlers and a shiny, golde
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent, See invisibility
 
-**Sources:** Bestiary 5 pg 53\
 **Experience points:** 3,200
 
 **Armor class:** 25/24/14

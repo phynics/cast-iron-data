@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "acid_fog", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "239"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Effect: fog spreads in 20-ft. radius, 20 ft. high
 Subschool: Creation
 Descriptors: acid
 :::
-
-**Sources:** PRPG Core Rulebook pg 239
 
 Acid fog creates a billowing mass of misty vapors like the solid fog spell. In addition to slowing
 down creatures and obscuring sight, this spell's vapors are highly acidic. Each round on your turn,

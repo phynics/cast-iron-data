@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_evocation", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "340"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Effect: see text
 Subschool: Shadow
 Descriptors: shadow
 :::
-
-**Sources:** PRPG Core Rulebook pg 340
 
 You tap energy from the Plane of Shadow to cast a quasi-real, illusory version of a sorcerer or
 wizard evocation spell of 4th level or lower. Spells that deal damage have normal effects unless an

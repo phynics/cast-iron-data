@@ -6,6 +6,9 @@ source_ids = ["inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "moxix", path = "json/monsters_unique3.json" },
 ]
+[[sources]]
+publication = "inner-sea-bestiary"
+page = "32"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ stains its body._
 
 **Senses:** Darkvision 60 ft., See invisibility
 
-**Sources:** Inner Sea Bestiary pg 32\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 307,200

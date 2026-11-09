@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "silt_sphere", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "blood-of-the-sea"
+page = "21"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Effect: 20-ft.-radius centered on you
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** Blood of the Sea pg 21
 
 This spell generates an illusory silt cloud that drifts around you and moves with you. The cloud
 provides total [concealment](ref/rule/concealment) to creatures within it (including you) when the

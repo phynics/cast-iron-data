@@ -6,6 +6,9 @@ source_ids = ["pathfinder-99-dance-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reprisal", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "pathfinder-99-dance-of-the-damned"
+page = "48"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation"
 caster_level = "15th"
 +++
 
-**Sources:** Pathfinder \#99: Dance of the Damned pg 48\
 **Aura** strong transmutation; **CL** 15th\
 **Slot** weapon; **Price** -; **Weight** 1 lb.
 

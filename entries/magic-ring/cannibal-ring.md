@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cannibal_ring", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "344"
+[[sources]]
+publication = "advanced-players-guide"
+page = "310"
 
 [fields]
 kind = "item"
@@ -15,8 +21,6 @@ slot = "ring"
 aura = "strong transmutation"
 caster_level = "16th"
 +++
-
-**Sources:** Ultimate Equipment pg 344, Advanced Player's Guide pg 310
 
 **Aura** strong transmutation; **CL** 16th\
 **Slot** ring; **Weight** -

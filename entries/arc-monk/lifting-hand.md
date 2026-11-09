@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/monk" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "23"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Stunning fist", "Bonus feat gained at 10th level", "Abundant step"]
 alters = ["Bonus feats"]
 +++
 
-**Sources:** Martial Arts Handbook pg 23\
 Those studied in the art of grappling know that using their opponents' own weight and momentum to
 lift, disable, or throw them is impressive and effective. When facing a master of the lifting hand,
 an enemy is likely to find itself sailing through the air or locked in a tortuous compliance hold.

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/beast-shape-3" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "246"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Spell resistance: yes
 Target: one creature
 Subschool: Polymorph
 :::
-
-**Sources:** PRPG Core Rulebook pg 246
 
 As [beast shape III](ref/spell/beast-shape-3), except that you change the subject into a Small or
 smaller animal of no more than 1 HD. If the new form would prove fatal to the creature, such as an

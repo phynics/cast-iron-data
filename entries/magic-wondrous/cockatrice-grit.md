@@ -6,6 +6,9 @@ source_ids = ["rival-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cockatrice_grit", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "rival-guide"
+page = "17"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Sources:** Rival Guide pg 17\
 **Aura** moderate transmutation; **CL** 11th\
 **Slot** none; **Price** 2,000 gp; **Weight** -
 

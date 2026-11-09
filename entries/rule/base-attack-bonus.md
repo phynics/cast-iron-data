@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "base_attack_bonus", path = "json/rules_opt_pc_adv01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "40"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 40
 
 There are three base attack bonus progressions. For classes with a d6 Hit Die, their BAB increases
 by 1/2 per level. For classes with a d8 Hit Die, their BAB increases by 3/4 per level. For classes

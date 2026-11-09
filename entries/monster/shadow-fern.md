@@ -6,6 +6,9 @@ source_ids = ["nidal-land-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_fern", path = "json/monsters21.json" },
 ]
+[[sources]]
+publication = "nidal-land-of-shadows"
+page = "62"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ _The thick stalks of this dark-veined, gray plant are covered in a fine black fu
 
 **Type:** plant
 
-**Sources:** Nidal, Land of Shadows pg 62\
 **Experience points:** 1,200
 
 **Armor class:** 17/11/16

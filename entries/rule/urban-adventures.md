@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "urban_adventures", path = "json/rules_gm08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "433"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 433
 
 At first glance, a city is much like a dungeon, made up of walls, doors, rooms, and corridors.
 Adventures that take place in cities have two salient differences from their dungeon counterparts,

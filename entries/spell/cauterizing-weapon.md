@@ -6,6 +6,9 @@ source_ids = ["pathfinder-society-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cauterizing_weapon", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "pathfinder-society-primer"
+page = "14"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: Will negates (harmless) (object)
 Spell resistance: yes (harmless) (object)
 Target: one weapon or 50 projectiles, all of which must be together at the time of casting
 :::
-
-**Sources:** Pathfinder Society Primer pg 14
 
 You infuse a weapon with faint but pernicious energy that stymies accelerated healing. Damage dealt
 by the weapon or ammunition is treated as acid, cold, electricity, and fire, but only for the

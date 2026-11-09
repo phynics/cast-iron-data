@@ -6,13 +6,15 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "augmented_companion", path = "json/archetypes_COMPANION.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "186"
 
 [fields]
 kind = "archetype"
 replaces = ["Share Spells", "Devotion"]
 +++
 
-**Sources:** Ultimate Wilderness pg 186\
 Augmented companions have suffered an injury, such as the loss of a wing, and parts of their bodies
 have been replaced by a master construct crafter. This procedure grants them unusual abilities.
 

@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "telepathy", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "300"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Telepathy (Su)
 
-**Sources:** Bestiary 5 pg 300\
 A creature with this ability can mentally communicate with any other creature within a certain range
 (specified in the creature's entry, usually 100 feet) that has a language. It is possible to address
 multiple creatures at once telepathically, although maintaining a telepathic conversation with more

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "22"
 
 [fields]
 kind = "archetype"
@@ -17,7 +20,6 @@ replaces = ["Inspire greatness", "Bardic knowledge", "well-versed", "Lore master
 
 ## Plant Speaker (Vine Leshy only)
 
-**Sources:** Ultimate Wilderness pg 22\
 Plant speakers build upon their racial _plantspeech_ ability and their storytelling tendencies to
 create an art form full of deep metaphors and allegory rather than specific details and facts.
 

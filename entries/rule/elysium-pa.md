@@ -6,12 +6,13 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elysium_pa", path = "json/rules_campaign_types09.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "166"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Planar Adventures pg 166
 
 **Elysium**
 

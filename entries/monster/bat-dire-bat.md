@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bat_dire_bat", path = "json/monsters03.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "30"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ two men with arms outstretched._
 
 **Perception:** +12
 
-**Sources:** Pathfinder RPG Bestiary pg 30\
 **Experience points:** 600
 
 **Armor class:** 14/11/12

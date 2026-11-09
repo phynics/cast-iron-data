@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_cleaver_elf", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "227"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint evocation"
 caster_level = "3rd"
 +++
 
-**Sources:** Inner Sea Races pg 227\
 **Aura** faint evocation; **CL** 3rd\
 **Slot** none; **Price** 8,310 gp; **Weight** 2 lbs.
 

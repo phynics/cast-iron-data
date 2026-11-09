@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "qlippoth_iathavos", path = "json/monsters37.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "222"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ and two huge claws dangle below._
 
 **Senses:** All-around vision, Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 2 pg 222\
 **Subtype:** Chaotic, Evil, Extraplanar, Qlippoth
 
 **Experience points:** 307,200

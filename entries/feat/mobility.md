@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mobility", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "130"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You get a +4 dodge bonus to Armor Class against attacks of opportunit
 +++
 
 ## Mobility (Combat)
-
-**Sources:** PRPG Core Rulebook pg 130
 
 You can easily move through a dangerous melee.\
 **Prerequisites:** Dex 13, [Dodge](ref/feat/dodge).\

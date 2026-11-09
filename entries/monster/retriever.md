@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "retriever", path = "json/monsters20.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "234"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ shimmering with magical energy._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder RPG Bestiary pg 234\
 **Subtype:** Extraplanar
 
 **Experience points:** 12,800

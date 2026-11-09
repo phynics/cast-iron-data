@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "time_in_your_game", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "162"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 162
 
 In most fantasy settings, time is a linear construct, a series of dates on a line. This is the
 standard construct, but it can also be tweaked. Do the people of your world think of time as a

@@ -6,6 +6,15 @@ source_ids = ["pathfinder-102-breaking-the-bones-of-hell", "pathfinder-2-the-ski
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reapers_mask", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "pathfinder-102-breaking-the-bones-of-hell"
+page = "13"
+[[sources]]
+publication = "pathfinder-2-the-skinsaw-murders"
+page = "47"
+[[sources]]
+publication = "rise-of-the-runelords-anniversary-edition"
+page = "422"
 
 [fields]
 kind = "item"
@@ -17,8 +26,6 @@ aura = "moderate enchantment [evil]"
 caster_level = "7th"
 +++
 
-**Sources:** Pathfinder \#102: Breaking the Bones of Hell pg 13, Pathfinder \#2: The Skinsaw Murders
-pg 47, Rise of the Runelords Anniversary Edition pg 422\
 **Aura** moderate enchantment \[evil\]; **CL** 7th\
 **Slot** head; **Price** 12,000 gp; **Weight** 1 lb.
 

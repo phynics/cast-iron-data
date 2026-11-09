@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lightning_arc", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "227"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: yes (see text)
 Targets: two creatures or objects which must be no more than 60 ft. apart
 Descriptors: electricity
 :::
-
-**Sources:** Ultimate Magic pg 227
 
 You generate an arc of lightning between two targets. The lightning deals 1d6 points of electricity
 damage per caster level (maximum 15d6) to both targets and any creatures in a line connecting them.

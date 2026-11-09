@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heikegani", path = "json/monsters13.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "141"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ _The carapace of this large crab resembles a scowling face, its eyes seething wi
 
 **Size:** small
 
-**Sources:** Bestiary 5 pg 141\
 **Subtype:** Aquatic
 
 **Experience points:** 1,200

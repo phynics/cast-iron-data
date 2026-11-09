@@ -6,12 +6,13 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "traits", path = "json/rules_basics01.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "326"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Advanced Player's Guide pg 326
 
 Character traits are abilities that are not tied to your character's race or class. They can enhance
 your character's skills, racial abilities, class abilities, or other statistics, enabling you to

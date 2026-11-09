@@ -6,6 +6,9 @@ source_ids = ["pathfinder-120-vault-of-the-onyx-citadel"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spear_of_shards", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "pathfinder-120-vault-of-the-onyx-citadel"
+page = "81"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong divination"
 caster_level = "18th"
 +++
 
-**Sources:** Pathfinder \#120: Vault of the Onyx Citadel pg 81\
 **Aura** strong divination; **CL** 18th\
 **Slot** none; **Price** -; **Weight** 10 lbs.
 

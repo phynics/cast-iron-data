@@ -6,6 +6,9 @@ source_ids = ["familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pseudosphinx", path = "json/monsters37.json" },
 ]
+[[sources]]
+publication = "familiar-folio"
+page = "29"
 
 [fields]
 kind = "creature"
@@ -39,7 +42,6 @@ _This small creature has the body of a housecat, the wings of a falcon, and the 
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Familiar Folio pg 29\
 **Size:** tiny
 
 **Experience points:** 600

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "running_a_mystery", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "246"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 246
 
 Running a mystery can also prove very different from a more linear, site-based adventure, as
 investigative adventures typically grant the PCs greater freedom to pursue their theories to

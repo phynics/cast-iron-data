@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/glyph-of-warding" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "291"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: no (object) and yes; see text
 :::
 
 ### Greater Glyph of Warding
-
-**Sources:** PRPG Core Rulebook pg 291
 
 This spell functions like [glyph of warding](ref/spell/glyph-of-warding), except that a greater
 blast glyph deals up to 10d8 points of damage, and a greater spell glyph can store a spell of 6th

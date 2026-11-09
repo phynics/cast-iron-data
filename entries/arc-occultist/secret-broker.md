@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/occultist" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "68"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Magic item skill", "Shift focus", "Magic circles", "Binding circles
 alters = ["Implements", "implement mastery"]
 +++
 
-**Sources:** Ultimate Intrigue pg 68\
 Whether as spymasters, extortionists, political fixers, or puppet masters, secret brokers use their
 talents with objects to gain information, then leverage that information for their own purposes.
 

@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hollow_heeled_boot", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-streets"
+page = "13"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "10 gp"
 weight = "1 lb."
 +++
 
-**Sources:** Heroes of the Streets pg 13\
 **Price** 10 gp; **Weight** 1 lb.\
 **Category** Clothing
 

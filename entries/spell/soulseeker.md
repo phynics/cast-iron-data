@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soulseeker", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "44"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: Will negates
 Spell resistance: no
 Target: one soul
 :::
-
-**Sources:** Planar Adventures pg 44
 
 You identify the stage of a given soul's judgment, or determine its fate post-judgment. You must
 either unambiguously identify the soul you seek or use the skull of the body the soul vacated as a

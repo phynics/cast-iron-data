@@ -6,6 +6,9 @@ source_ids = ["pathfinder-120-vault-of-the-onyx-citadel"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "zarxorin", path = "json/monsters41.json" },
 ]
+[[sources]]
+publication = "pathfinder-120-vault-of-the-onyx-citadel"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ hump of its back bears a ring of standing stones that crackle faintly with energ
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#120: Vault of the Onyx Citadel pg 90\
 **Subtype:** Earth, Elemental, Extraplanar
 
 **Experience points:** 204,800

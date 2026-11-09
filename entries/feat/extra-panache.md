@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/amateur-swashbuckler", label = "or" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "147"
 
 [fields]
 kind = "feat"
@@ -20,8 +23,6 @@ special = "If you have levels in the swashbuckler class, you can take this feat 
 +++
 
 ## Extra Panache (Panache)
-
-**Sources:** Advanced Class Guide pg 147
 
 You have more panache than the ordinary swashbuckler.\
 **Prerequisites:** [Amateur Swashbuckler](ref/feat/amateur-swashbuckler) or panache class feature.\

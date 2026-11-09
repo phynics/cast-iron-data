@@ -6,6 +6,9 @@ source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "erode_defenses", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "dragonslayers-handbook"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: Fortitude negates (see below)
 Spell resistance: yes
 Target: one creature
 :::
-
-**Sources:** Dragonslayer's Handbook pg 29
 
 Your spell slowly begins to eat away at the defenses of your target. If the target fails its saving
 throw, it loses 1 point from any [damage reduction](ref/rule/damage-reduction) and natural armor

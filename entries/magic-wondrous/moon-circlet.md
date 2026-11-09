@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "moon_circlet", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "308"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong evocation"
 caster_level = "15th"
 +++
 
-**Sources:** Advanced Player's Guide pg 308\
 **Aura** strong evocation; **CL** 15th\
 **Slot** headband; **Price** 20,000 gp; **Weight** -
 

@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "feral_combat_training", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "101"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "If you are a monk, you can use the selected natural weapon with your 
 +++
 
 ## Feral Combat Training (Combat)
-
-**Sources:** Ultimate Combat pg 101
 
 You were taught a style of martial arts that relies on the natural weapons from your racial ability
 or class feature.\

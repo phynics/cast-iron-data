@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragonfly_style", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "14"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You add your Wisdom modifier to Acrobatics checks in addition to your
 +++
 
 ## Dragonfly Style (Combat, Style)
-
-**Sources:** Martial Arts Handbook pg 14
 
 You can leap off walls and objects to strike from above.\
 **Prerequisites:** Wis 13, [Improved Unarmed Strike](ref/feat/improved-unarmed-strike), Acrobatics 2

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-79-the-half-dead-city"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spear_of_the_watchful_guardian", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "pathfinder-79-the-half-dead-city"
+page = "61"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Pathfinder \#79: The Half-Dead City pg 61\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** weapon; **Price** 8,462 gp; **Weight** 6 lbs.
 

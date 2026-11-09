@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stampede_drum_kellid", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "234"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint enchantment"
 caster_level = "3rd"
 +++
 
-**Sources:** Inner Sea Races pg 234\
 **Aura** faint enchantment; **CL** 3rd\
 **Slot** none; **Price** 27,000 gp; **Weight** 2 lbs.
 

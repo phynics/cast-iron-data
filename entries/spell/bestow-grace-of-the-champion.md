@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bestow_grace_of_the_champion", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "208"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: yes
 Target: lawful good creature touched
 Descriptors: good, lawful
 :::
-
-**Sources:** Ultimate Magic pg 208
 
 You channel the power of good and law into the target, temporarily giving it powers similar to those
 of a paladin. The target gains the ability to use [detect evil](ref/spell/detect-evil) at will as a

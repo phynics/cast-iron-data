@@ -6,6 +6,9 @@ source_ids = ["dragon-empires-gazetteer", "legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nalinivati", path = "json/faiths6.json" },
 ]
+[[sources]]
+publication = "dragon-empires-gazetteer"
+page = "58"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Nalinivati**
 
 **Sub:** The Serpent's Kiss
-
-**Sources:** Dragon Empires Gazetteer pg 58
 
 ### Details
 

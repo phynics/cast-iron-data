@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gothic_horror", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "195"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 195
 
 Gothic horrors exude atmosphere and portent. This is the subgenre of The Castle of Otranto, The
 Raven, and Dracula. Lightning-illuminated castles, baroque cathedrals, tortured minds, and unquiet

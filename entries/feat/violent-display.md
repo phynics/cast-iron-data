@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "violent_display", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "blood-of-the-moon"
+page = "23"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you land a successful sneak attack or confirm a critical hit aga
 +++
 
 ## Violent Display (Combat)
-
-**Sources:** Blood of the Moon pg 23
 
 You never miss an opportunity to cow foes.\
 **Prerequisites:** [Dazzling Display](ref/feat/dazzling-display),

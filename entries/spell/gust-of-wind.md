@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gust_of_wind", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "293"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: yes
 Effect: line-shaped gust of severe wind emanating out from you to the extreme of the range
 Descriptors: air
 :::
-
-**Sources:** PRPG Core Rulebook pg 293
 
 This spell creates a severe blast of air (approximately 50 mph) that originates from you, affecting
 all creatures in its path. All flying creatures in this area take a -4 penalty on Fly skill checks.

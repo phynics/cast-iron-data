@@ -6,6 +6,9 @@ source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "free_swim", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
+page = "59"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
 :::
-
-**Sources:** Aquatic Adventures pg 59
 
 The target can move and attack underwater normally without the usual penalties involved with
 underwater combat, as if under the effects of freedom of movement. However, the target doesn't gain

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-112-the-whisper-out-of-time"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lightning_trap_spheres", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "pathfinder-112-the-whisper-out-of-time"
+page = "73"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong evocation [electricity]"
 caster_level = "13th"
 +++
 
-**Sources:** Pathfinder \#112: The Whisper Out of Time pg 73\
 **Aura** strong evocation \[electricity\]; **CL** 13th\
 **Slot** none; **Price** 2,000 gp; **Weight** 1 lb.
 

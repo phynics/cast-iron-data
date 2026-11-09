@@ -6,6 +6,9 @@ source_ids = ["irrisen-land-of-eternal-winter"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "baba_yagas_rider_black_rider", path = "json/monsters_unique.json" },
 ]
+[[sources]]
+publication = "irrisen-land-of-eternal-winter"
+page = "53"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ battle-worn spear._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Irrisen - Land of Eternal Winter pg 53\
 **Experience points:** 25,600
 
 **Armor class:** 29/15/24

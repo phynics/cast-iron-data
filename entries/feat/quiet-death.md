@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quiet_death", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "89"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When you ambush an enemy or enemies that are unaware of your presence
 +++
 
 ## Quiet Death (Combat)
-
-**Sources:** Ultimate Intrigue pg 89
 
 You have learned to dispatch your enemies with the silence and grace of an accomplished assassin.\
 **Prerequisites:** Dex 19, Stealth 10 ranks, rogue level 10th.\

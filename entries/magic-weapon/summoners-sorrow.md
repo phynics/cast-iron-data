@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summoners_sorrow", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "161"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "9th"
 +++
 
-**Sources:** Ultimate Equipment pg 161\
 **Aura** moderate abjuration; **CL** 9th\
 **Slot** none; **Price** 42,816 gp; **Weight** 10 lbs.
 

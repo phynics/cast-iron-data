@@ -6,6 +6,9 @@ source_ids = ["people-of-the-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cosmic_ray", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "people-of-the-stars"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: Fortitude partial
 Spell resistance: yes
 Effect: ray
 :::
-
-**Sources:** People of the Stars pg 28
 
 You fling a ray of deadly cosmic energy at the target creature. If you succeed at a ranged touch
 attack with the ray, the target takes 1d6 points of damage per caster level (maximum 20d6) and must

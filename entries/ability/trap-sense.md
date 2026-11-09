@@ -6,12 +6,15 @@ source_ids = ["core-rulebook", "advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trap_sense", path = "json/class_abilities6.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+[[sources]]
+publication = "advanced-class-guide"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** PRPG Core Rulebook, Advanced Class Guide\
 This is an intuitive sense that alerts a character to danger from traps, giving her a bonus on
 Reflex saves made to avoid traps and a dodge bonus to AC against attacks made by traps. This bonus
 is equal to one-third of her class level.

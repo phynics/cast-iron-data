@@ -6,13 +6,14 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alarm_trap", path = "json/class_ability_ranger_traps.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "64"
 
 [fields]
 kind = "class_option"
 group = "ranger-trap"
 +++
-
-**Sources:** Ultimate Magic pg 64
 
 ### Alarm Trap (Ex or Su)
 

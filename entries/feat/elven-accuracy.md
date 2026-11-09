@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elven_accuracy", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "159"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "If you miss due to concealment when making a ranged attack with a lon
 +++
 
 ## Elven Accuracy (Combat)
-
-**Sources:** Advanced Player's Guide pg 159
 
 Your sharp eyesight makes difficult shots easier.\
 **Prerequisites:** [Elf](ref/race/elf).\

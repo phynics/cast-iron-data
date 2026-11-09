@@ -6,6 +6,9 @@ source_ids = ["goblins-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ankle_biter", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "goblins-of-golarion"
+page = "24"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "You cannot make this bite attack when you are the aggressor, includin
 +++
 
 ## Ankle Biter (Combat)
-
-**Sources:** Goblins of Golarion pg 24
 
 You know how take a mouthful out of anyone who tries to overpower you.\
 **Prerequisites:** [Goblin](ref/race/goblin), Escape Artist 1 rank.\

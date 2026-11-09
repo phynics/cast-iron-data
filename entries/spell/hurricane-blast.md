@@ -6,6 +6,9 @@ source_ids = ["pathfinder-24-the-final-wish"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hurricane_blast", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "pathfinder-24-the-final-wish"
+page = "60"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 Area: 5-ft.-radius burst/2 levels (maximum 25-ft.-radius burst) centered on you
 Descriptors: air
 :::
-
-**Sources:** Pathfinder \#24: The Final Wish pg 60
 
 This spell creates a severe blast of air (approximately 50 mph) that originates from you, affecting
 all creatures in the burst.

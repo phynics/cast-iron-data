@@ -6,6 +6,9 @@ source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scrap_collectors_strap", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "23"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Adventurer's Armory 2 pg 23\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** none; **Price** 500 gp; **Weight** -
 

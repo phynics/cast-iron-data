@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "organizations", path = "json/rules_subsystems03.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "113"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 113
 
 This section details several standard organizations, the cost of creating them, and which teams from
 the downtime system you can recruit to form them. Unless you own a building where these people can

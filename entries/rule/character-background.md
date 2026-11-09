@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "character_background", path = "json/rules_basics03.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "8"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 8
 
 A character background details the significant events, people, and life experiences that make up the
 origin story of a character prior to his or her role in the saga of a campaign. Some characters are

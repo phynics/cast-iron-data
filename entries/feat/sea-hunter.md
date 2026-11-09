@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sea_hunter", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "195"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you make a successful melee attack against a swimming target, as
 +++
 
 ## Sea Hunter (Combat)
-
-**Sources:** Advanced Race Guide pg 195
 
 Your blows knock swimming opponents off balance.\
 **Prerequisites:** [Combat Expertise](ref/feat/combat-expertise), merfolk.\

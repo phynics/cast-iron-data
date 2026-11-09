@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/witch" },
 ]
+[[sources]]
+publication = "undead-slayers-handbook"
+page = "20"
 
 [fields]
 kind = "archetype"
@@ -18,7 +21,6 @@ replaces = ["2nd-level hex", "6th-level hex", "20th-level hex"]
 > _**Note:** This is a witch archetype, and has no relation to the [medium](ref/class/medium) occult
 > class._
 
-**Sources:** Undead Slayer's Handbook pg 20\
 Mediums tap into the spiritual power of those who have yet to find their final rest. Their ability
 to interact with these souls allows mediums to learn about the physical world through the
 experiences of those who came before them. Eventually, mediums of immeasurable power learn to walk

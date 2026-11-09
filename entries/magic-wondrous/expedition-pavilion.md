@@ -6,6 +6,9 @@ source_ids = ["sargava-the-lost-colony"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "expedition_pavilion", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "sargava-the-lost-colony"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Sources:** Sargava, the Lost Colony pg 28\
 **Aura** faint evocation; **CL** 5th\
 **Slot** none; **Price** 6,400 gp; **Weight** 10 lbs.
 

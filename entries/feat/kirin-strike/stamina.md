@@ -6,12 +6,14 @@ source_ids = ["pathfinder-unchained"]
 relations = [
   { kind = "addon", target = "ref/feat/kirin-strike", label = "stamina" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "125"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder Unchained pg 125\
 As long as you have at least 1 stamina point in your stamina pool, when you hit a creature you have
 identified with Kirin Style, you add your Intelligence modifier to melee and ranged attack damage
 rolls against that creature for the next 24 hours. You still can take a swift action to add twice

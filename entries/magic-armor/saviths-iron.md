@@ -6,6 +6,9 @@ source_ids = ["lost-treasures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "saviths_iron", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "lost-treasures"
+page = "51"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration and transmutation"
 caster_level = "13th"
 +++
 
-**Sources:** Lost Treasures pg 51\
 **Aura** strong abjuration and transmutation; **CL** 13th\
 **Slot** none; **Price** 59,170 gp; **Weight** 15 lbs.
 

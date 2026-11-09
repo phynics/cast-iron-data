@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aspect_mask", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "225"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Advanced Class Guide pg 225\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** head; **Price** 6,500 gp; **Weight** 2 lbs.
 

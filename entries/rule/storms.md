@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "storms", path = "json/rules_gm08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "438"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 438
 
 The combined effects of precipitation (or dust) and wind that accompany all storms reduce visibility
 ranges by three-quarters, imposing a -8 penalty on Perception checks. Storms make ranged weapon

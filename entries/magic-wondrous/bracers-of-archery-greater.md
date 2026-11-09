@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bracers_of_archery_greater", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "271"
+[[sources]]
+publication = "core-rulebook"
+page = "504"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint (lesser) or moderate (greater) transmutation"
 caster_level = "4th (lesser), 8th (greater)"
 +++
 
-**Sources:** Ultimate Equipment pg 271, PRPG Core Rulebook pg 504\
 **Aura** faint (lesser) or moderate (greater) transmutation; **CL** 4th (lesser), 8th (greater)\
 **Slot** wrists; **Price** 5,000 gp (lesser), 25,000 gp (greater); **Weight** 1 lb.
 

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/vigilante" },
 ]
+[[sources]]
+publication = "spymasters-handbook"
+page = "26"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Weapon and armor proficiencies", "Vigilante talent gained at 2nd le
 alters = ["Vigilante specialization", "Vigilante talents"]
 +++
 
-**Sources:** Spymaster's Handbook pg 26\
 Teisatsu are specialized vigilantes who focus on infiltrating social scenes and high-society
 gatherings on behalf of the feuding lords of Minkai. Trained as assassins and spies, they cultivate
 a suite of personalities and study secret arts that hone their bodies into deadly weapons.

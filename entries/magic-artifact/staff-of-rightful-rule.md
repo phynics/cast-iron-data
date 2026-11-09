@@ -6,6 +6,12 @@ source_ids = ["pathfinder-83-the-slave-trenches-of-hakotep", "crucible-of-chaos"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_rightful_rule", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "pathfinder-83-the-slave-trenches-of-hakotep"
+page = "69"
+[[sources]]
+publication = "crucible-of-chaos"
+page = "15"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong abjuration"
 caster_level = "15th"
 +++
 
-**Sources:** Pathfinder \#83: The Slave Trenches of Hakotep pg 69, Crucible of Chaos pg 15\
 **Aura** strong abjuration; **CL** 15th\
 **Slot** none; **Price** -; **Weight** 5 lbs.
 

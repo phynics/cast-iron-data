@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "touch_of_idiocy", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "360"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Target: living creature touched
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 360
 
 With a touch, you reduce the target's mental faculties. Your successful melee touch attack applies a
 1d6 penalty to the target's Intelligence, Wisdom, and Charisma scores. This penalty can't reduce any

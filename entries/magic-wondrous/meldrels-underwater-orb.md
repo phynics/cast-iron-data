@@ -6,6 +6,9 @@ source_ids = ["occult-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "meldrels_underwater_orb", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "occult-realms"
+page = "7"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Sources:** Occult Realms pg 7\
 **Aura** moderate transmutation; **CL** 7th\
 **Slot** none; **Price** 32,000 gp; **Weight** 3 lbs.
 

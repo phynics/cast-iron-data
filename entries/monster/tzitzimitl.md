@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tzitzimitl", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "276"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ clinging to its nightmarish form._
 
 **Senses:** Arcane sight, Darkvision 60 ft., True seeing
 
-**Sources:** Bestiary 3 pg 276\
 **Type:** undead
 
 **Experience points:** 204,800

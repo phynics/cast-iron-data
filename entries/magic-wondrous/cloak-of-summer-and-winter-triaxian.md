@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloak_of_summer_and_winter_triaxian", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "230"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Sources:** Inner Sea Races pg 230\
 **Aura** moderate evocation; **CL** 7th\
 **Slot** shoulders; **Price** 30,000 gp; **Weight** 1 lb.
 

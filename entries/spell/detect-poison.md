@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "detect_poison", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "268"
 
 [fields]
 kind = "spell"
@@ -53,8 +56,6 @@ Saving throw: none
 Spell resistance: no
 Target or Area: one creature, one object, or a 5-ft. cube
 :::
-
-**Sources:** PRPG Core Rulebook pg 268
 
 You determine whether a creature, object, or area has been poisoned or is poisonous. You can
 determine the exact type of poison with a DC 20 Wisdom check. A character with the Craft (alchemy)

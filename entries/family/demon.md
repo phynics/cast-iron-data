@@ -6,12 +6,12 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon", path = "json/monster_families.json" },
 ]
+[[sources]]
+publication = "bestiary"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder RPG Bestiary
 
 [Demons](ref/subtype/demon) exist for one reason - to destroy. Where their more lawful counterparts,
 the [devils](ref/family/devil) of [Hell](ref/rule/hell), seek to twist mortal minds and values to

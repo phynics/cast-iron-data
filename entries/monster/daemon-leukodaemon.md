@@ -6,6 +6,12 @@ source_ids = ["bestiary-2", "pathfinder-8-seven-days-to-the-grave"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daemon_leukodaemon", path = "json/monsters06.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "68"
+[[sources]]
+publication = "pathfinder-8-seven-days-to-the-grave"
+page = "80"
 
 [fields]
 kind = "creature"
@@ -46,7 +52,6 @@ rotting wings of a carrion bird._
 
 **Senses:** Darkvision 60 ft., Deathwatch, Detect good
 
-**Sources:** Bestiary 2 pg 68, Pathfinder \#8: Seven Days to the Grave pg 80\
 **Subtype:** Daemon, Evil, Extraplanar
 
 **Experience points:** 6,400

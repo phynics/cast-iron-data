@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dancing_dervish", path = "json/npcs3.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "149"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "9"
 
 **Challenge rating:** 9
 
-**Sources:** NPC Codex pg 149\
 **XP** 6,400\
 Human [rogue](ref/class/rogue) 10\
 N Medium humanoid (human)\

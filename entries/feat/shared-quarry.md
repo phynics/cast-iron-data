@@ -6,6 +6,9 @@ source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shared_quarry", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "monster-hunters-handbook"
+page = "5"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Allies sharing your favored enemy bonuses from hunter's bond gain an 
 +++
 
 ## Shared Quarry (Combat)
-
-**Sources:** Monster Hunter's Handbook pg 5
 
 When working together, you and your companions are skilled at taking down particular targets.\
 **Prerequisites:** Hunter's bond class feature, quarry class feature.\

@@ -6,6 +6,21 @@ source_ids = ["ultimate-equipment", "curse-of-the-crimson-throne-players-guide",
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "harrow_deck", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "57"
+[[sources]]
+publication = "curse-of-the-crimson-throne-players-guide"
+page = "12"
+[[sources]]
+publication = "pathfinder-campaign-setting"
+page = "213"
+[[sources]]
+publication = "adventurers-armory"
+page = "19"
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "293"
 
 [fields]
 kind = "item"
@@ -14,8 +29,6 @@ price = "100 gp"
 weight = "-"
 +++
 
-**Sources:** Ultimate Equipment pg 57, Curse of the Crimson Throne Player's Guide pg 12, Pathfinder
-Campaign Setting pg 213, Adventurer's Armory pg 19, Inner Sea World Guide pg 293\
 **Price** 100 gp; **Weight** -\
 **Category** Entertainment
 

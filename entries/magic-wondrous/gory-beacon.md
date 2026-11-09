@@ -6,6 +6,9 @@ source_ids = ["heaven-unleashed", "ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gory_beacon", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "heaven-unleashed"
+page = "55"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint evocation, strong evil"
 caster_level = "5th"
 +++
 
-**Sources:** Heaven Unleashed pg 55\
 **Aura** faint evocation, strong evil; **CL** 5th\
 **Slot** none; **Price** 5,800 gp; **Weight** 2 lbs.
 

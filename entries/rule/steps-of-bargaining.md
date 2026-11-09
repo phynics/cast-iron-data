@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "steps_of_bargaining", path = "json/rules_subsystems01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "138"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 138
 
 ### Step 1: Seller Sets the Asking Price
 

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/magus" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "27"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Knowledge pool", "greater spell access", "Spellstrike", "fighter tr
 alters = ["Skills", "Arcane pool", "Spell combat", "improved spell combat", "greater spell combat"]
 +++
 
-**Sources:** Arcane Anthology pg 27\
 Puppetmasters focus on using charm and illusion spells to control the senses of those for whom they
 perform.
 

@@ -6,12 +6,12 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nightshade", path = "json/monster_families2.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Bestiary 2
 
 The malevolent nightshades are a mysterious form of necrotic abominations composed of equal parts
 darkness and ineffable evil. They are living wells of hatred and death, their mere presence sapping

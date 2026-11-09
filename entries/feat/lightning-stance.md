@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lightning_stance", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "130"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "If you take two actions to move or use a withdraw action in a turn, y
 +++
 
 ## Lightning Stance (Combat)
-
-**Sources:** PRPG Core Rulebook pg 130
 
 The speed at which you move makes it nearly impossible for opponents to strike you.\
 **Prerequisites:** Dex 17, [Dodge](ref/feat/dodge), [Wind Stance](ref/feat/wind-stance), base attack

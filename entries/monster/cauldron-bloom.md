@@ -6,6 +6,9 @@ source_ids = ["pathfinder-142-gardens-of-gallowspire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cauldron_bloom", path = "json/monsters04.json" },
 ]
+[[sources]]
+publication = "pathfinder-142-gardens-of-gallowspire"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ its sloping armored sides, and it exudes a palpable aura of magic._
 
 **Senses:** Low-light vision, True seeing
 
-**Sources:** Pathfinder \#142: Gardens of Gallowspire pg 86\
 **tremorParens:** 1 mile
 
 **tremorsense:** 5280

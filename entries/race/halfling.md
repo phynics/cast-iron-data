@@ -6,12 +6,20 @@ source_ids = ["inner-sea-races", "core-rulebook", "advanced-race-guide", "heroes
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "halfling", path = "json/races2.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "238"
+[[sources]]
+publication = "core-rulebook"
+page = "26"
+[[sources]]
+publication = "advanced-race-guide"
+page = "60"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Inner Sea Races pg 238, PRPG Core Rulebook pg 26, Advanced Race Guide pg 60\
 Optimistic and cheerful by nature, blessed with uncanny luck, and driven by a powerful wanderlust,
 halflings make up for their short stature with an abundance of bravado and curiosity. At once
 excitable and easy-going, halflings like to keep an even temper and a steady eye on opportunity, and

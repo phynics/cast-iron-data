@@ -6,13 +6,17 @@ source_ids = ["pathfinder-61-shards-of-sin", "pathfinder-14-children-of-the-void
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "noqual", path = "json/equipment_special_materials.json" },
 ]
+[[sources]]
+publication = "pathfinder-61-shards-of-sin"
+page = "71"
+[[sources]]
+publication = "pathfinder-14-children-of-the-void"
+page = "19"
 
 [fields]
 kind = "item"
 category = "Special Materials"
 +++
-
-**Sources:** Pathfinder \#61: Shards of Sin pg 71, Pathfinder \#14: Children of the Void pg 19
 
 Noqual looks almost like a pale green crystal to the untrained eye, but can be worked as iron
 despite its appearance. It is associated with abjuration magic, charity, and envy. Noqual is light:

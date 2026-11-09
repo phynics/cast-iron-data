@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/named-bullet", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "102"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 102
 
 Increase the critical multiplier of the target weapon by 1 (maximum ×4).
 

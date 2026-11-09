@@ -6,6 +6,9 @@ source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "authenticating_gaze", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "30"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: none
 Spell resistance: no
 Effect: see text
 :::
-
-**Sources:** Black Markets pg 30
 
 Your understanding of the written word becomes analytical and discerning. You gain an insight bonus
 equal to your caster level (maximum +10) on Appraise checks to determine the value of books and

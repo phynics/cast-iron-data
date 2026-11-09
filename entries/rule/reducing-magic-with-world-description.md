@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reducing_magic_with_world_description", path = "json/rules_gm03.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "106"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 106
 
 As an alternative to altering the rules, you can do what fantasy authors do - establish magic as
 rare and remarkable, then portray the protagonists (the PCs) and their opponents as the few people

@@ -6,6 +6,9 @@ source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "masters_escape", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "monster-summoners-handbook"
+page = "22"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Spell resistance: no
 Target: you and one summoned creature you control
 Subschool: Teleportation
 :::
-
-**Sources:** Monster Summoner's Handbook pg 22
 
 You create an extradimensional link between yourself and one summoned creature you control that
 allows you to switch places. After casting master's escape, you can teleport to your summoned

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scabbard_of_the_lost_kiss", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "inner-sea-temples"
+page = "52"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint evocation"
 caster_level = "4th"
 +++
 
-**Sources:** Inner Sea Temples pg 52\
 **Aura** faint evocation; **CL** 4th\
 **Slot** none; **Price** 8,600 gp; **Weight** 1 lb.
 

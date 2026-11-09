@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "druid_words", path = "json/rules_opt_magic03.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "190"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 190
 
 **0-Level Druid Words:** Acid Burn (Acid), Beacon (Divination), Cold Snap (Cold), Decipher
 (Language), Flame Jet (Fire), Sense Magic (Detection), Soothing Touch (Healing), Spark (Electricity)

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/slayer" },
 ]
+[[sources]]
+publication = "heroes-of-the-darklands"
+page = "17"
 
 [fields]
 kind = "archetype"
 replaces = ["Track", "Stalker", "Quarry", "improved quarry"]
 +++
 
-**Sources:** Heroes of the Darklands pg 17\
 In Sekamina, betraying others before they have the chance to betray you can be a necessary survival
 technique. While not all adventurers have the heart for such underhanded dealings, others have
 developed a knack for it. The turncoat's natural talents for deception and treachery are fitting

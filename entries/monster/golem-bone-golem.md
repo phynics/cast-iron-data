@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_bone_golem", path = "json/monsters33.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "133"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ sinew._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 3 pg 133\
 **Experience points:** 4,800
 
 **Armor class:** 21/11/19

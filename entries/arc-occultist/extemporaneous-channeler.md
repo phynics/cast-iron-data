@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/occultist" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "8"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Magic circles", "outside contact", "binding circles", "fast circles
 alters = ["Weapon proficiencies", "Mental focus", "Shift focus"]
 +++
 
-**Sources:** Martial Arts Handbook pg 8\
 Extemporaneous channelers study the power of transformation and use items in unintended ways to
 awaken their potential.
 

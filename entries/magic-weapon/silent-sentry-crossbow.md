@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "silent_sentry_crossbow", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "241"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Sources:** Ultimate Intrigue pg 241\
 **Aura** moderate conjuration; **CL** 9th\
 **Slot** none; **Price** 38,335 gp; **Weight** 2 lbs
 

@@ -6,6 +6,9 @@ source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wall_of_split_illumination", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "blood-of-shadows"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Spell resistance: no
 Effect: 10-ft.-high vertical sheet of illumination up to 5 ft. long/level
 Descriptors: darkness, light
 :::
-
-**Sources:** Blood of Shadows pg 29
 
 An immobile curtain of illumination springs into existence. When created, one side of the wall
 (designated by you) radiates bright light to a range of 60 feet away from that side while the other

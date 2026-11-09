@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "discern_next_of_kin", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "179"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: mind-affecting
 :::
-
-**Sources:** Advanced Class Guide pg 179
 
 You can scan the thoughts of one individual and learn the names and locations of the target's living
 relatives, as well as the attitude of the target toward those relatives (and vice versa). You learn

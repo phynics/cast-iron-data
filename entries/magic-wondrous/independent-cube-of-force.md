@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook", "classic-treasures-revisite
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "independent_cube_of_force", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "290"
+[[sources]]
+publication = "core-rulebook"
+page = "508"
 
 [fields]
 kind = "item"
@@ -19,7 +25,6 @@ caster_level = "10th"
 
 ## Cube of Force
 
-**Sources:** Ultimate Equipment pg 290, PRPG Core Rulebook pg 508\
 **Aura** moderate evocation; **CL** 10th\
 **Slot** none; **Price** 40,000 gp (discriminating cube), 56,000 gp (cube of varied force walls),
 62,000 gp (cube of force), 70,000 gp (independent cube of force, rechargeable cube of force, remote

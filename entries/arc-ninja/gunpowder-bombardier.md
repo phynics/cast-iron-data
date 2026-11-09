@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ninja" },
 ]
+[[sources]]
+publication = "heroes-from-the-fringe"
+page = "30"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Ninja trick gained at 2nd level", "Uncanny dodge", "Improved uncann
 alters = ["Ki pool"]
 +++
 
-**Sources:** Heroes from the Fringe pg 30\
 [Ratfolk](ref/race/ratfolk) assassins and other ninjas with an affinity for gunpowder demonstrate
 masterful control of bombs, using the explosives to inflict major damage or impair their foes.
 

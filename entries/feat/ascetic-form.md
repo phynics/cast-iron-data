@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ascetic_form", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "16"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You can use the chosen melee weapon with any class ability that can b
 +++
 
 ## Ascetic Form (Combat)
-
-**Sources:** Weapon Master's Handbook pg 16
 
 You have mastered the ability to blend the use of arms with martial arts.\
 **Prerequisites:** [Ascetic Style](ref/feat/ascetic-style); [Weapon Focus](ref/feat/weapon-focus)

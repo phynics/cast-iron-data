@@ -6,6 +6,9 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "feral_heart", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "69"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Whenever you receive a morale bonus on Strength or attack rolls (such
 +++
 
 ## Feral Heart (Story)
-
-**Sources:** Ultimate Campaign pg 69
 
 In your chest beasts the heart of a wild beast.\
 **Prerequisites:** You must have reverted to savage behavior through a traumatic event or extended

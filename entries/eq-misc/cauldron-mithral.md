@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cauldron_mithral", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "56"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "5 lbs., 2-1/2 lbs. (mithral)"
 
 ## Cauldron
 
-**Sources:** Ultimate Equipment pg 56\
 **Price** 1 gp, 2,501 gp (mithral); **Weight** 5 lbs., 2-1/2 lbs. (mithral)
 
 This larger version of an iron pot holds approximately 1 gallon - enough to fill the bellies of four

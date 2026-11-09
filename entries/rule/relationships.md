@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "relationships", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "176"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 176
 
 No villain ever seems to understand that when he threatens a hero's family, things go south for him.
 After all, nothing gives the beleaguered champion one last surge of strength like the sight of a

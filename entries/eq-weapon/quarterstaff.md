@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quarterstaff", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "17"
+[[sources]]
+publication = "core-rulebook"
+page = "142"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "4 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 17, PRPG Core Rulebook pg 142
 
 A quarterstaff is a simple piece of wood, about 5 feet in length. In battle, it's held with one hand
 at the butt and the other a quarter of the way up the staff, allowing it to block blows and make

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "form_of_the_dragon_1", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "286"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 Target: you
 Subschool: Polymorph
 :::
-
-**Sources:** PRPG Core Rulebook pg 286
 
 You become a Medium chromatic or metallic dragon. You gain a +4 size bonus to Strength, a +2 size
 bonus to Constitution, a +4 natural armor bonus, fly 60 feet (poor),

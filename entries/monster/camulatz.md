@@ -6,6 +6,9 @@ source_ids = ["pathfinder-39-the-city-of-seven-spears"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "camulatz", path = "json/monsters04.json" },
 ]
+[[sources]]
+publication = "pathfinder-39-the-city-of-seven-spears"
+page = "80"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ beak and powerful talons are instead adorned with dried blood and gore._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#39: The City of Seven Spears pg 80\
 **Experience points:** 6,400
 
 **Armor class:** 22/12/19

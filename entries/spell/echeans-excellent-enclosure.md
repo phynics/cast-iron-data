@@ -6,6 +6,9 @@ source_ids = ["rival-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "echeans_excellent_enclosure", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "rival-guide"
+page = "11"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: see text
 Area: immobile 10-ft.-radius emanation
 Descriptors: force
 :::
-
-**Sources:** Rival Guide pg 11
 
 You call into being around you an invisible barrier of force within which magic cannot persist.
 Within the area of the spell, effects are suppressed and creatures are affected as by antimagic

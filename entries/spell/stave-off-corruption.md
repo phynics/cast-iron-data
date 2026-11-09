@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stave_off_corruption", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "128"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: one creature
 :::
-
-**Sources:** Horror Adventures pg 128
 
 You ward the target to slow the advancement of its corruption. The target receives a +2 circumstance
 bonus on saving throws against the advancement of its corruption, as described in the catalyst

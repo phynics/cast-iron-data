@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kama", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "20"
+[[sources]]
+publication = "core-rulebook"
+page = "143"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "2 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 20, PRPG Core Rulebook pg 143
 
 Similar to a [sickle](ref/eq-weapon/sickle) - and in some regions still used to reap grain - a kama
 is a short, curved blade attached to a simple handle, usually made of wood. It is sometimes also

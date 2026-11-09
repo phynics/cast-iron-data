@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pirate_lords_patch", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "189"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Sources:** Villain Codex pg 189\
 **Aura** faint divination; **CL** 3rd\
 **Slot** eyes; **Price** 8,500 gp; **Weight** -
 

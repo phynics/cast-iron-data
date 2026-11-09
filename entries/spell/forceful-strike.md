@@ -6,6 +6,9 @@ source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "forceful_strike", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "55"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: yes
 Target: 1 creature
 Descriptors: force
 :::
-
-**Sources:** Inner Sea Magic pg 55
 
 You cast this spell as you strike a creature with a melee weapon, unarmed strike, or natural attack
 to unleash a concussive blast of force. You deal normal weapon damage from the blow, but also deal

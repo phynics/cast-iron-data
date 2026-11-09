@@ -6,16 +6,30 @@ source_ids = ["varisia-birthplace-of-legends", "rise-of-the-runelords-players-gu
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bladed_scarf", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "varisia-birthplace-of-legends"
+page = "14"
+[[sources]]
+publication = "rise-of-the-runelords-players-guide"
+page = "11"
+[[sources]]
+publication = "curse-of-the-crimson-throne-players-guide"
+page = "13"
+[[sources]]
+publication = "pathfinder-campaign-setting"
+page = "209"
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "290"
+[[sources]]
+publication = "adventurers-armory"
+page = "33"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "2 lbs."
 +++
-
-**Sources:** Varisia, Birthplace of Legends pg 14, Rise of the Runelords Player's Guide pg 11, Curse
-of the Crimson Throne Player's Guide pg 13, Pathfinder Campaign Setting pg 209, Inner Sea World
-Guide pg 290, Adventurer's Armory pg 33
 
 Knowing that seductive performances can bring out the worst in watchers, some Varisians craft rows
 of razor-sharp blades into their scarves. The skill required in using such scarves effectively and

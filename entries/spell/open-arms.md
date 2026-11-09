@@ -6,6 +6,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "open_arms", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "21"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: none
 Spell resistance: no
 Target: melee weapon touched
 :::
-
-**Sources:** Arcane Anthology pg 21
 
 You cast this spell in response to a specific cavalier's challenge, inquisitor's judgment, or smite
 (such as a paladin's smite evil) declared against you by an enemy creature. It can also be cast if a

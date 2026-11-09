@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/warpriest" },
 ]
+[[sources]]
+publication = "distant-realms"
+page = "32"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Focus weapon", "Sacred weapon", "Bonus feat gained at 6th level", "
 alters = ["Weapon and armor proficiencies", "Sacred armor"]
 +++
 
-**Sources:** Distant Realms pg 32\
 Many are the followers of Ragathiel who lead in battle. Far fewer, but no less crucial to a
 successful campaign, are those who hold the line and defend against the incursion of evil forces.
 The Sixth Wing bulwark trains to do just that: fortifying herself and her allies to stand strong in

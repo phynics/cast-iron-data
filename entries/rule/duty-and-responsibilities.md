@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "duty_and_responsibilities", path = "json/rules_basics03.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "13"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 13
 
 As you grew from a child into someone more physically capable and psychologically aware, your family
 may have requested more of your help. What duties and responsibilities did you gain? Were these

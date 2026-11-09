@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "buildings_in_the_kingdom", path = "json/rules_campaign_types04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "213"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 213
 
 You improve settlements by constructing buildings, which provide bonuses to the kingdom in general
 and the settlement in particular. Pgs. 224 and 225 \[of the physical book\] present icons for these

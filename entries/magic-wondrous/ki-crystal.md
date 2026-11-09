@@ -6,6 +6,9 @@ source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ki_crystal", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "faction-guide"
+page = "59"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Sources:** Faction Guide pg 59\
 **Aura** moderate transmutation; **CL** 10th\
 **Slot** none; **Price** 2,000 gp; **Weight** -
 

@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "earth_glide", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "292"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Earth Glide (Ex)
 
-**Sources:** Bestiary 5 pg 292\
 When the creature burrows, it can pass through stone, dirt, or almost any other nonmetal earth as
 easily as a fish swims through water. If protected against fire damage, it can even glide through
 lava. Its burrowing leaves behind no tunnel or hole, nor does it create any ripple or other sign of

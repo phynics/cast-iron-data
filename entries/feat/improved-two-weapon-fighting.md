@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_two_weapon_fighting", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "128"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "Without this feat, you can only get a single extra attack with an off-
 +++
 
 ## Improved Two-Weapon Fighting (Combat)
-
-**Sources:** PRPG Core Rulebook pg 128
 
 You are skilled at fighting with two weapons.\
 **Prerequisites:** Dex 17, [Two-Weapon Fighting](ref/feat/two-weapon-fighting), base attack bonus

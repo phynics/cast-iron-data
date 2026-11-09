@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/vigilante" },
 ]
+[[sources]]
+publication = "path-of-the-hellknight"
+page = "50"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Vigilante talent gained at 2nd level", "Social talents gained at 5t
 alters = ["Weapon and armor proficiencies", "Dual identity"]
 +++
 
-**Sources:** Path of the Hellknight pg 50\
 Unyielding warriors, faceless enforcers lock their identities behind implacable helms. While their
 infamous reputations spread far, striking fear in their foes, the individual behind the mask remains
 a complete mystery.

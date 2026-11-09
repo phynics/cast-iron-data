@@ -6,6 +6,9 @@ source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "zurapadyn", path = "json/faiths9.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "110"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Zurapadyn**
 
 **Sub:** Beast Who Waits in Smoke
-
-**Sources:** Book of the Damned pg 110
 
 ### Details
 

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "familiar-folio"
+page = "6"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Bardic knowledge", "Lore master", "Dirge of doom", "Frightening tun
 alters = ["Versatile performance"]
 +++
 
-**Sources:** Familiar Folio pg 6\
 Whether singing a delicate duo with a nightingale or slipping coins from purses while a trained
 monkey distracts the crowd, the duettist blends his bond to his familiar with his natural talent for
 performance to create amazing effects.

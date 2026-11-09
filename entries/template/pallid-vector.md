@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pallid_vector", path = "json/monster_template3.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "68"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +2
-
-**Source:** Villain Codex/68
 
 Followers of [Urgathoa](ref/faith/urgathoa) revere all sicknesses as worldly expressions of her
 divine will, but none more so than the pallid gift, which opens its victims' fevered minds to the

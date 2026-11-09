@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "benefits_of_influence", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "105"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 105
 
 In a single encounter, the goal is often to convince an NPC to perform a specific favor. In
 longer-term social engagements, the PCs may need to build toward larger goals. Each time the PCs

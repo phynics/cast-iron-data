@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/amateur-gunslinger", label = "or" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "116"
 
 [fields]
 kind = "feat"
@@ -19,8 +22,6 @@ benefit = "You can fire a shot at a wall or piece of solid terrain, and have it 
 +++
 
 ## Ricochet Shot Deed (Grit)
-
-**Sources:** Ultimate Combat pg 116
 
 You can ricochet a firearm shot off the wall and still hit your target.\
 **Prerequisites:** Grit class feature or [Amateur Gunslinger](ref/feat/amateur-gunslinger) feat,

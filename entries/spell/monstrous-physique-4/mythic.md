@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/monstrous-physique-4", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "102"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 102
 
 Each mythic monstrous physique spell must be learned individually, and you must know the respective
 non-mythic monstrous physique spell to learn its mythic version. You don't have to learn them in

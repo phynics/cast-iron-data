@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wishes", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "116"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 116
 
 _The monstrous four-armed demon spoke in a surprisingly pleasant tenor voice. "And what, pray tell,
 is it you so desire"? Seltyiel paused, steeling his resolve. "I wish suffering for my family,

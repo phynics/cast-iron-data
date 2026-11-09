@@ -6,6 +6,9 @@ source_ids = ["pathfinder-65-into-the-nightmare-rift"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nightmare_rod", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "pathfinder-65-into-the-nightmare-rift"
+page = "63"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong illusion"
 caster_level = "13th"
 +++
 
-**Sources:** Pathfinder \#65: Into the Nightmare Rift pg 63\
 **Aura** strong illusion; **CL** 13th\
 **Slot** none; **Price** 80,000 gp; **Weight** 5 lbs.
 

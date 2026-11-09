@@ -6,12 +6,13 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "abjuration_uw", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "159"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Wilderness pg 159
 
 Spells that protect against or repel all sorts of wilderness threats appear in this range.
 

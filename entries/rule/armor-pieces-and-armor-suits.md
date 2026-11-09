@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "armor_pieces_and_armor_suits", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "198"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 198
 
 The piecemeal armor system splits up armor into three general types of armor pieces. An armor piece
 is a small group of armor parts, rather than simply being any discrete part of the armor. A single

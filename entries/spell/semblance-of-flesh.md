@@ -6,6 +6,9 @@ source_ids = ["pathfinder-86-lords-of-rust"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "semblance_of_flesh", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "pathfinder-86-lords-of-rust"
+page = "75"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Target: construct touched
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** Pathfinder \#86: Lords of Rust pg 75
 
 > _Clerics of [Brigh](ref/faith/brigh) have access to the following spell._
 

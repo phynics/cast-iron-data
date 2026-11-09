@@ -6,6 +6,12 @@ source_ids = ["adventurers-guide", "inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "perfect_style", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "106"
+[[sources]]
+publication = "inner-sea-combat"
+page = "13"
 
 [fields]
 kind = "feat"
@@ -16,8 +22,6 @@ special = "You can select Perfect Style multiple times. Each time you do so, you
 +++
 
 ## Perfect Style (Combat, Style)
-
-**Sources:** Adventurer's Guide pg 106, Inner Sea Combat pg 13
 
 You have trained at one of the [Houses of Perfection](ref/rule/aff-monasteries).\
 **Prerequisites:** Wis 13; base attack bonus +5 or monk level 5th.\

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-80-empty-graves"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nephthys", path = "json/faiths6.json" },
 ]
+[[sources]]
+publication = "pathfinder-80-empty-graves"
+page = "71"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Nephthys**
 
 **Sub:** Mistress of the Mansion
-
-**Sources:** Pathfinder \#80: Empty Graves pg 71
 
 ### Details
 

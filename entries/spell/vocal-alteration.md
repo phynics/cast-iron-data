@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vocal_alteration", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "248"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Saving throw: Fortitude negates
 Spell resistance: yes
 Target: one humanoid creature
 :::
-
-**Sources:** Ultimate Magic pg 248
 
 You alter the target's voice to something else. For example, you could make the target's voice
 high-pitched, husky, or nasal, or change its accent to an accent you are familiar with. If this

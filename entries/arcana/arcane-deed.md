@@ -6,13 +6,14 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcane_deed", path = "json/class_ability_magus_arcana.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "104"
 
 [fields]
 kind = "class_option"
 group = "magus-arcana"
 +++
-
-**Sources:** Advanced Class Guide pg 104
 
 **Arcane Deed (Ex):**
 

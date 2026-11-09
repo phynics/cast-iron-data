@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/spiritualist" },
 ]
+[[sources]]
+publication = "blood-of-the-coven"
+page = "23"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Shared consciousness", "fused consciousness", "Spiritual interferen
 alters = ["Phantom"]
 +++
 
-**Sources:** Blood of the Coven pg 23\
 [Hags](ref/family/hag) - those of flesh and blood, at any rate - die like any other mortals, and
 their souls normally depart to the Outer Planes for judgment. A hag who dies with a curse on her
 breath is often anchored to the Ethereal Plane by the power of her hatred - similar to vile and

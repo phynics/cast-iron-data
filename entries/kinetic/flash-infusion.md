@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flash_infusion", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "19"
 
 [fields]
 kind = "class_option"
@@ -24,8 +27,6 @@ group = "kineticist-wild-talent"
 [Fire Blast](ref/kinetic/fire-blast), [Plasma Blast](ref/kinetic/plasma-blast)
 
 **Saving throw:** Will negates
-
-**Source:** Occult Adventures/19
 
 Your kinetic blast is so bright that it blinds your foes.
 

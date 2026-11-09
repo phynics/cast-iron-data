@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "naturally_occurring_nightmares", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "162"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 162
 
 Most commonly, nightmares come not from an outside source, but solely from the dreamer's mind.
 Whenever a creature sleeps, if it experienced any of the following events since the last time it

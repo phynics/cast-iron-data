@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dog_riding_dog", path = "json/monsters41.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "87"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ _This burly dog is fitted with a small saddle. A low, menacing growl rumbles up 
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 87\
 **Experience points:** 400
 
 **Armor class:** 13/12/11

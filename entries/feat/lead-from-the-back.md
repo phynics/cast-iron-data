@@ -6,6 +6,9 @@ source_ids = ["goblins-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lead_from_the_back", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "goblins-of-golarion"
+page = "24"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "During any round in which you gain the benefit of cover or concealmen
 +++
 
 ## Lead from the Back (Combat)
-
-**Sources:** Goblins of Golarion pg 24
 
 You allies depend far too much on your leadership and encouraging words for you to actually put
 yourself in harms' way.\

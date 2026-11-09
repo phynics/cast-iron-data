@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/guards-and-wards", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "97"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 97\
 You are alerted whenever any creature enters the warded area as if by a mental alarm spell as long
 as you're on the same plane as the warded area. At will, you can concentrate to observe the warded
 area as if using arcane eye. When you start concentrating, the sensor always appears at a point you

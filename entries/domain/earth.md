@@ -6,13 +6,14 @@ source_ids = ["core-rulebook", "advanced-players-guide", "divine-anthology", "ko
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "earth", path = "json/class_ability_domains.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "43"
 
 [fields]
 kind = "class_option"
 group = "cleric-domain"
 +++
-
-**Sources:** PRPG Core Rulebook pg 43
 
 **Granted Powers:** You have mastery over earth, metal, and stone, can fire darts of acid, and
 command earth creatures.

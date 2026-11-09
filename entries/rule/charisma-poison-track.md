@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charisma_poison_track", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "140"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 140
 
 1. Healthy
 1. Weakened

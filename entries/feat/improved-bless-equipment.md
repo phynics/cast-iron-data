@@ -6,6 +6,9 @@ source_ids = ["undead-slayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_bless_equipment", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "undead-slayers-handbook"
+page = "7"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Bless Equipment, caster level 9th, channel energy class feature
 prerequisite_feats = ["ref/feat/bless-equipment"]
 benefit = "The number of uses of channeled energy you must expend to bless a piece of equipment using Bless Equipment and Align Equipment decreases by one (to a minimum of one use of channel energy per blessing)."
 +++
-
-**Sources:** Undead Slayer's Handbook pg 7
 
 You can channel even more energy into weapons and armor to grant them several divine powers at once.\
 **Prerequisites:** [Bless Equipment](ref/feat/bless-equipment), caster level 9th,

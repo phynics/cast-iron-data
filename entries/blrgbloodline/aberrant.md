@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aberrant", path = "json/class_ability_bloodrager_bloodlines.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "17"
 
 [fields]
 kind = "class_option"
@@ -13,8 +16,6 @@ group = "bloodrager-bloodline"
 +++
 
 ## Aberrant Bloodline
-
-**Sources:** Advanced Class Guide pg 17
 
 There is a taint in your blood that is both alien and bizarre. When you _bloodrage,_ this manifests
 in peculiar and terrifying ways.

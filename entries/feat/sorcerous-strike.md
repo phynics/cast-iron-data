@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sorcerous_strike", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "120"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "You can take this feat multiple times. Each time you take it, you app
 +++
 
 ## Sorcerous Strike (Combat)
-
-**Sources:** Ultimate Combat pg 120
 
 The power flowing through your veins also flows through your unarmed strike.\
 **Prerequisites:** Sorcerer bloodline class feature,

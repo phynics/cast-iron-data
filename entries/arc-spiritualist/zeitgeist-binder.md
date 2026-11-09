@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/spiritualist" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "51"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Detect undead", "calm spirit", "see invisibility", "call spirit", "
 alters = ["Phantom"]
 +++
 
-**Sources:** Ultimate Intrigue pg 51\
 Not all spiritualists deal in the souls of creatures that refuse to pass into death. Zeitgeist
 binders channel the emotional connections of a group of people into a unique phantom that
 personifies a community.

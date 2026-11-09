@@ -6,6 +6,9 @@ source_ids = ["qadira-gateway-to-the-east"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "zhyen", path = "json/monsters41.json" },
 ]
+[[sources]]
+publication = "qadira-gateway-to-the-east"
+page = "30"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ to serve._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Qadira, Gateway to the East pg 30\
 **Subtype:** [air](ref/subtype/air), [earth](ref/subtype/earth), [fire](ref/subtype/fire), or
 [water](ref/subtype/water)
 

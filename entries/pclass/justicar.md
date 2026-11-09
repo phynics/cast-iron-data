@@ -6,14 +6,15 @@ source_ids = ["pathfinder-8-seven-days-to-the-grave"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "justicar", path = "json/prestige_classes2.json" },
 ]
+[[sources]]
+publication = "pathfinder-8-seven-days-to-the-grave"
+page = "69"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d8."
 +++
-
-**Sources:** Pathfinder \#8: Seven Days to the Grave pg 69
 
 Justiciars embody law and civilization wherever they go, from the most corrupt depths of a city slum
 to the wildest frontier lands. They arbitrate disputes, deal with criminals, and establish law where

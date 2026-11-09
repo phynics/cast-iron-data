@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/gunslinger" },
 ]
+[[sources]]
+publication = "antiheros-handbook"
+page = "9"
 
 [fields]
 kind = "archetype"
 replaces = ["Gunslinger's dodge deed", "Gunslinger initiative deed", "Pistol-whip deed", "Startling shot deed"]
 +++
 
-**Sources:** Antihero's Handbook pg 9\
 A blatherskite talks big and feels powerful when holding a loaded gun, but when the gun jams or the
 situation gets too intense, he's the first to run for cover. He has an extraordinary talent for
 retreating from harm's way and fooling his enemies into thinking he is weaker than he is.

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mirror_kin", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "207"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Whenever you're adjacent to any gnome allies who also have this feat,
 +++
 
 ## Mirror Kin (Teamwork)
-
-**Sources:** Inner Sea Races pg 207
 
 Combining your cunning with illusion magic makes you and your allies nearly indistinguishable.\
 **Prerequisites:** Bluff 8 ranks, [gnome](ref/race/gnome), gnome magic racial trait.\

@@ -6,13 +6,15 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deinonychus", path = "json/class_ability_aspects.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "29"
 
 [fields]
 kind = "class_option"
 group = "shifter-aspect"
 +++
 
-**Sources:** Ultimate Wilderness pg 29\
 The deinonychus is adept at racing from ambush to deliver grievous wounds with its talons. This
 aspect infuses the shifter with an enhanced ability to surprise foes and strike first in battle.
 

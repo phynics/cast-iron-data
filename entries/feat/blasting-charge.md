@@ -6,14 +6,15 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blasting_charge", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "143"
 
 [fields]
 kind = "feat"
 prerequisites = "Base attack bonus +7, ability to cast 2nd-level bloodrager spells, bloodrage class feature."
 benefit = "While you are bloodraging, at the end of a charge you can expend a bloodrager spell slot as a swift action to imbue your charge attack with extra power. You deal an additional 1d6 points of damage per level of the spell slot expended. This extra damage is force damage, and it's not multiplied in the case of a critical hit."
 +++
-
-**Sources:** Advanced Class Guide pg 143
 
 You funnel the power of your bloodrage into a strike capable of erupting with arcane power.\
 **Prerequisites:** Base attack bonus +7, ability to cast 2nd-level bloodrager spells, bloodrage

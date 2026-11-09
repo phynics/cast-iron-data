@@ -6,6 +6,9 @@ source_ids = ["pathfinder-34-blood-for-blood"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bog_strider", path = "json/monsters27.json" },
 ]
+[[sources]]
+publication = "pathfinder-34-blood-for-blood"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ the reed-thin antennae waving upon its head as if testing the air for the scent 
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#34: Blood for Blood pg 82\
 **tremorParens:** in water
 
 **tremorsense:** 120

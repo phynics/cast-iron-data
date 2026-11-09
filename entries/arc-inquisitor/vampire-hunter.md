@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/inquisitor" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "41"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Detect alignment"]
 alters = ["Purity and Smiting judgments", "Bane"]
 +++
 
-**Sources:** Inner Sea Magic pg 41\
 Undead are a scourge upon the living. The vampire hunter believes that the worst of the undead are
 the ones with unnatural appetites for flesh and blood - things that should persist without feeding,
 but consume anyway. [Vampires](ref/template/vampire) and [ghouls](ref/monster/ghoul) are especially

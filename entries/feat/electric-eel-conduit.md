@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "electric_eel_conduit", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "blood-of-the-sea"
+page = "10"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You gain one additional Elemental Fist attempt per day. When you succ
 +++
 
 ## Electric Eel Conduit (Combat)
-
-**Sources:** Blood of the Sea pg 10
 
 You can establish an ongoing electrical charge between you and a target you have grabbed.\
 **Prerequisites:** Wis 17, [Electric Eel Shock](ref/feat/electric-eel-shock),

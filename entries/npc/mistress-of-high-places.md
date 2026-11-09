@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mistress_of_high_places", path = "json/npcs3.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "70"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "10"
 
 **Challenge rating:** 10
 
-**Sources:** NPC Codex pg 70\
 **XP** 9,600\
 Half-elf [druid](ref/class/druid) 11\
 CN Medium humanoid (elf, human)\

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ranger" },
 ]
+[[sources]]
+publication = "undead-slayers-handbook"
+page = "24"
 
 [fields]
 kind = "archetype"
 replaces = ["Woodland stride", "Swift tracker"]
 +++
 
-**Sources:** Undead Slayer's Handbook pg 24\
 Many rangers count the undead among their _favored enemies,_ but some make a full-time job out of
 hunting down and destroying these walking corpses. A corpse hunter has the following class features.
 

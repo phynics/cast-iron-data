@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "37"
 
 [fields]
 kind = "archetype"
 replaces = ["Poison use", "Swift alchemy"]
 +++
 
-**Sources:** Inner Sea Magic pg 37\
 Nex is known for its advanced magical lore, and the alchemists of Oenopion are incredibly skilled at
 making potions, elixirs, and other materials crucial to the country's economy and its
 monster-creating fleshforges. A Oenopion researcher has the following class features.

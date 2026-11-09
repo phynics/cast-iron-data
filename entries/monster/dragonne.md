@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "bonus-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragonne", path = "json/monsters31.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "104"
+[[sources]]
+publication = "bonus-bestiary"
+page = "10"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ mane matching its scales._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Bestiary 3 pg 104, Bonus Bestiary pg 10\
 **Experience points:** 3,200
 
 **Armor class:** 20/12/17

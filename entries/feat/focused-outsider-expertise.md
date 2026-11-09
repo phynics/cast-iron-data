@@ -6,6 +6,9 @@ source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "focused_outsider_expertise", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "monster-hunters-handbook"
+page = "23"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Your weapon attacks ignore a number of points of damage reduction equ
 +++
 
 ## Focused Outsider Expertise (Combat)
-
-**Sources:** Monster Hunter's Handbook pg 23
 
 You've learned to attack in a way that stymies the natural resistances common in outsiders.\
 **Prerequisites:** [Favored enemy](ref/ability/favored-enemy) (outsider) class feature.\

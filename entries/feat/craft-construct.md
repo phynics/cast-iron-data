@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "craft_construct", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "314"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You can create any construct whose prerequisites you meet. The act of
 +++
 
 ## Craft Construct (Item Creation)
-
-**Sources:** Pathfinder RPG Bestiary pg 314
 
 You can create construct creatures like golems.\
 **Prerequisites:** Caster level 5th,

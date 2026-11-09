@@ -6,6 +6,9 @@ source_ids = ["occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "xulgath", path = "json/monsters41.json" },
 ]
+[[sources]]
+publication = "occult-bestiary"
+page = "61"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ glistens on its scales._
 
 **Senses:** Darkvision 90 ft.
 
-**Sources:** Occult Bestiary pg 61\
 **Subtype:** Reptilian
 
 **Experience points:** 1,200

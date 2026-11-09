@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "recoil_fire", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "241"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: Will negates (object)
 Spell resistance: yes (object)
 Target: 1 firearm
 :::
-
-**Sources:** Ultimate Combat pg 241
 
 The target firearm suddenly fires of its own volition, even if it is unloaded, generating a recoil
 so great that the wielder or carrier of the firearm must scramble to hold onto it and becomes

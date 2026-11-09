@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "defensive_shock", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "216"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: no
 Target: you
 Descriptors: electricity
 :::
-
-**Sources:** Ultimate Magic pg 216
 
 Electrical energy floods your body, shocking the next creature that touches you. Any creature
 striking you with its body or a handheld weapon takes 1d6 points of electricity damage per two

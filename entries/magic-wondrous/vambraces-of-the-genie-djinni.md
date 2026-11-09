@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vambraces_of_the_genie_djinni", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "275"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "5th"
 
 ## Vambraces of the Genie
 
-**Sources:** Ultimate Equipment pg 275\
 **Aura** faint evocation; **CL** 5th\
 **Slot** wrists; **Price** 14,400 gp (Efreeti), 18,900 gp (Djinni), 18,900 gp (Marid), 18,900 gp
 (Shaitan); **Weight** 3 lbs.

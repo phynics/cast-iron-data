@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stunning_barrier", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "194"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: none and Will negates (see text)
 Spell resistance: no and yes (see text)
 Target: you
 :::
-
-**Sources:** Advanced Class Guide pg 194
 
 You are closely surrounded by a barely visible magical field. The field provides a +1 deflection
 bonus to AC and a +1 resistance bonus on saves. Any creature that strikes you with a melee attack is

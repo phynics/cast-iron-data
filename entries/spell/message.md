@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "message", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "313"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Spell resistance: no
 Targets: one creature/level
 Descriptors: language-dependant
 :::
-
-**Sources:** PRPG Core Rulebook pg 313
 
 You can whisper messages and receive whispered replies. Those nearby can hear these messages with a
 DC 25 Perception check. You point your finger at each creature you want to receive the message. When

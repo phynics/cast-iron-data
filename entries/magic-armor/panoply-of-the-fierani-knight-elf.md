@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "panoply_of_the_fierani_knight_elf", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "225"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "7th"
 +++
 
-**Sources:** Inner Sea Races pg 225\
 **Aura** moderate abjuration; **CL** 7th\
 **Slot** armor; **Price** 26,500 gp; **Weight** 25 lbs.
 

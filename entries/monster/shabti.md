@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "pathfinder-84-pyramid-of-the-sky-pharaoh"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shabti", path = "json/monsters21.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "227"
+[[sources]]
+publication = "pathfinder-84-pyramid-of-the-sky-pharaoh"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -44,7 +50,6 @@ _Light shimmers across this humanoid figure's bare golden skin, illuminating reg
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 5 pg 227, Pathfinder \#84: Pyramid of the Sky Pharaoh pg 90\
 **Subtype:** Native
 
 **Experience points:** 200

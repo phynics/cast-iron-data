@@ -6,6 +6,9 @@ source_ids = ["irrisen-land-of-eternal-winter"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guardian_doll", path = "json/monsters13.json" },
 ]
+[[sources]]
+publication = "irrisen-land-of-eternal-winter"
+page = "58"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ disturbing curiosity._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Irrisen - Land of Eternal Winter pg 58\
 **Subtype:** Cold
 
 **Size:** tiny

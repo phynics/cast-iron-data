@@ -6,12 +6,13 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "role_of_the_divine", path = "json/rules_campaign_types09.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "70"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Planar Adventures pg 70
 
 The concept of free will hangs at the fundamental core of all living beings, even the choice to have
 faith in the gods or not. Whenever deities meddle directly in mortal affairs, they damage this

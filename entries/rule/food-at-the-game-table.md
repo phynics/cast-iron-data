@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "food_at_the_game_table", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "14"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 14
 
 While it's possible to insist that players not eat or drink at the game table, it's hard to enforce
 such a rule. Roleplaying sessions take a long time, and people get hungry and thirsty. You can set

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-108-hell-comes-to-westcrown"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "troops_hound_archon_troop", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "pathfinder-108-hell-comes-to-westcrown"
+page = "91"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ abilities = ["23", "20", "23", "18", "21", "18"]
 
 **Senses:** Darkvision 60 ft., Detect evil, Low-light vision, Scent
 
-**Sources:** Pathfinder \#108: Hell Comes to Westcrown pg 91\
 **Subtype:** Archon, Extraplanar, Good, Lawful, Troop
 
 **Experience points:** 76,800

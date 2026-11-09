@@ -6,14 +6,15 @@ source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "expanded_studies", path = "json/feat06.json" },
 ]
+[[sources]]
+publication = "advanced-class-origins"
+page = "26"
 
 [fields]
 kind = "feat"
 prerequisites = "Wis 17, hunter or warpriest level 16th."
 benefit = "You add 7th-level spells to your spell list for purposes of using spell completion and spell trigger magic items. If you're a hunter, you add 7th-level druid spells to your list. If you're a warpriest, you add 7th-level cleric spells to your list. This doesn't give you the ability to cast spells of this level, only to act as though your spell list included them when using appropriate magic items."
 +++
-
-**Sources:** Advanced Class Origins pg 26
 
 You're part of a group or organization with access to greater magical mysteries than you understand
 yourself, and you have learned from your colleagues' eldritch expertise.\

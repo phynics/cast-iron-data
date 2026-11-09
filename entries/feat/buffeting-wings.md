@@ -6,6 +6,9 @@ source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "buffeting_wings", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "inner-sea-monster-codex"
+page = "53"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "While this feat is primarily taken by strix, other creatures with nat
 +++
 
 ## Buffeting Wings (Combat)
-
-**Sources:** Inner Sea Monster Codex pg 53
 
 You can create a gust of wind with your wings.\
 **Prerequisites:** [Hover](ref/feat/hover), [Powerful Wings](ref/feat/powerful-wings).\

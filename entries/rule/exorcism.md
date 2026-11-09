@@ -6,12 +6,13 @@ source_ids = ["pathfinder-28-the-infernal-syndrome"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "exorcism", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "pathfinder-28-the-infernal-syndrome"
+page = "61"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder \#28: The Infernal Syndrome pg 61
 
 Combating possession ranks among the most unusual and dangerous acts heroes might ever have to
 perform.

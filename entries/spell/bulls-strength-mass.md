@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/bulls-strength" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "251"
 
 [fields]
 kind = "spell"
@@ -54,8 +57,6 @@ Spell resistance: yes (harmless)
 :::
 
 ### Mass Bull's Strength
-
-**Sources:** PRPG Core Rulebook pg 251
 
 This spell functions like [bull's strength](ref/spell/bulls-strength), except that it affects
 multiple creatures.

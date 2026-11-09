@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "temporary_graft", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "129"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Horror Adventures pg 129
 
 You temporarily graft a dismembered body part onto yourself. You must have the body part in your
 possession or the spell has no effect. The graft must come from a creature the same size category as

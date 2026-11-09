@@ -6,6 +6,9 @@ source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rain_of_arrows", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "31"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: no
 Effect: 15-ft.-radius cloud of arrows
 Subschool: Creation
 :::
-
-**Sources:** Ranged Tactics Toolbox pg 31
 
 You point your finger and conjure a cloud of magical arrows that rain down on any creatures and
 objects in the indicated area. You must have line of sight to the intended area. The arrows deal 1d6

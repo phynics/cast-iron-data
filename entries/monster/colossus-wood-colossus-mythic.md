@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "colossus_wood_colossus_mythic", path = "json/monsters_mythic.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "59"
 
 [fields]
 kind = "creature"
@@ -48,7 +51,6 @@ rooms._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 5 pg 59\
 **Subtype:** Colossus, Mythic
 
 **Experience points:** 102,400

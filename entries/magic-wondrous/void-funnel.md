@@ -6,6 +6,9 @@ source_ids = ["undead-unleashed"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "void_funnel", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "undead-unleashed"
+page = "23"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration"
 caster_level = "18th"
 +++
 
-**Sources:** Undead Unleashed pg 23\
 **Aura** strong conjuration; **CL** 18th\
 **Slot** none; **Price** 46,000 gp; **Weight** 10 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "biofilter", path = "json/equipment_tech_cybertech.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "35"
 
 [fields]
 kind = "item"
@@ -15,7 +18,6 @@ weight = "2 lbs."
 slot = "body"
 +++
 
-**Sources:** Technology Guide pg 35\
 **Price** 16,000 gp\
 **Slot** body; **Weight** 2 lbs.\
 **Install** DC 25; **Implantation** 3

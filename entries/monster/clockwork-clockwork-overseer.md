@@ -6,6 +6,9 @@ source_ids = ["pathfinder-123-the-flooded-cathedral"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clockwork_clockwork_overseer", path = "json/monsters05.json" },
 ]
+[[sources]]
+publication = "pathfinder-123-the-flooded-cathedral"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ articulated metal lash._
 
 **Senses:** All-around vision, Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#123: The Flooded Cathedral pg 86\
 **Subtype:** Clockwork
 
 **Experience points:** 3,200

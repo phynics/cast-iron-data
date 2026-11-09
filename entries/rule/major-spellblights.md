@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "major_spellblights", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "96"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 96
 
 The following list details some of the most common major spellblights.
 

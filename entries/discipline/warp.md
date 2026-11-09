@@ -6,13 +6,15 @@ source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "warp", path = "json/class_ability_disciplines.json" },
 ]
+[[sources]]
+publication = "blood-of-the-beast"
+page = "24"
 
 [fields]
 kind = "class_option"
 group = "psychic-discipline"
 +++
 
-**Sources:** Blood of the Beast pg 24\
 Ratfolk mythology claims they were appointed by the gods to sniff out the ragged edges of creation.
 Whether the art of ranatagi descended from this glorious role or formed the source of such myths,
 this psychic tradition among the ratfolk of Vudra and eastern Casmaron unlocks the psychic potential

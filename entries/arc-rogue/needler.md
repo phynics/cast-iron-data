@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "potions-and-poisons"
+page = "12"
 
 [fields]
 kind = "archetype"
 replaces = ["Evasion", "Uncanny dodge", "Rogue talent gained at 6th level", "Improved uncanny dodge"]
 +++
 
-**Sources:** Potions and Poisons pg 12\
 While some assassins and killers prefer to be up front with their poison use, others favor a covert
 approach. Needlers use subtlety and misdirection to deliver deadly poisons to unsuspecting victims
 in creative and unorthodox ways. This archetype is appropriate for rogues built using the rules from

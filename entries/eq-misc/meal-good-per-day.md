@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "meal_good_per_day", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "95"
+[[sources]]
+publication = "core-rulebook"
+page = "159"
 
 [fields]
 kind = "item"
@@ -16,7 +22,6 @@ weight = "- (common, per day), - (good, per day), - (poor, per day)"
 
 ## Meal
 
-**Sources:** Ultimate Equipment pg 95, PRPG Core Rulebook pg 159\
 **Price** 3 sp (common, per day), 5 sp (good, per day), 1 sp (poor, per day); **Weight** - (common,
 per day), - (good, per day), - (poor, per day)
 

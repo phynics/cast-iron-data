@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planar_infusion", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "31"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "You can take this feat multiple times. Each time you do, you must sel
 +++
 
 ## Planar Infusion (Conduit)
-
-**Sources:** Planar Adventures pg 31
 
 After enduring hardship on another plane, your body, mind, and soul have become infused with that
 plane's power.\

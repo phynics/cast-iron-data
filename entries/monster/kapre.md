@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "pathfinder-58-island-of-empty-eyes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kapre", path = "json/monsters15.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "172"
+[[sources]]
+publication = "pathfinder-58-island-of-empty-eyes"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -45,7 +51,6 @@ burn like embers._
 
 **Type:** plant
 
-**Sources:** Bestiary 4 pg 172, Pathfinder \#58: Island of Empty Eyes pg 86\
 **Experience points:** 9,600
 
 **Armor class:** 24/10/22

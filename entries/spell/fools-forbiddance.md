@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fools_forbiddance", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "224"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: yes
 Area: 10-ft.-radius spherical emanation centered on you
 Descriptors: mind-affecting
 :::
-
-**Sources:** Advanced Player's Guide pg 224
 
 Through your antics and performance, you create an area of warding that adversely affects all
 enemies that dare enter it. When an enemy creature enters the area it must make an immediate Will

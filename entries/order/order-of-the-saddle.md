@@ -6,13 +6,14 @@ source_ids = ["qadira-jewel-of-the-east"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "order_of_the_saddle", path = "json/class_ability_orders.json" },
 ]
+[[sources]]
+publication = "qadira-jewel-of-the-east"
+page = "43"
 
 [fields]
 kind = "class_option"
 group = "order"
 +++
-
-**Sources:** Qadira, Jewel of the East pg 43
 
 **Prerequisites:** Has a [horse](ref/companion/horse) as a mount
 

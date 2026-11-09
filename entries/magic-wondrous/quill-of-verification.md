@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quill_of_verification", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "45"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination"
 caster_level = "1st"
 +++
 
-**Sources:** Villain Codex pg 45\
 **Aura** faint divination; **CL** 1st\
 **Slot** none; **Price** 1,000 gp; **Weight** -
 

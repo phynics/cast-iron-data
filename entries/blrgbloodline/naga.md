@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "naga", path = "json/class_ability_bloodrager_bloodlines.json" },
 ]
+[[sources]]
+publication = "blood-of-the-beast"
+page = "16"
 
 [fields]
 kind = "class_option"
@@ -13,8 +16,6 @@ group = "bloodrager-bloodline"
 +++
 
 ## Naga Bloodline
-
-**Sources:** Blood of the Beast pg 16
 
 The blood of the powerful, serpentine aberrations known as nagas runs through your veins, fueling
 your _bloodrage._

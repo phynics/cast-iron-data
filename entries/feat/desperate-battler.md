@@ -6,6 +6,12 @@ source_ids = ["inner-sea-world-guide", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "desperate_battler", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "286"
+[[sources]]
+publication = "pathfinder-campaign-setting"
+page = "130"
 
 [fields]
 kind = "feat"
@@ -14,8 +20,6 @@ benefit = "When no ally is within 10 feet of you and you are not receiving benef
 +++
 
 ## Desperate Battler (Combat)
-
-**Sources:** Inner Sea World Guide pg 286, Pathfinder Campaign Setting pg 130
 
 Your experiences fighting against numerous foes that have already overwhelmed your allies, friends,
 and family have forced you to excel at fighting on your own.\

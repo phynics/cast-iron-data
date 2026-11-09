@@ -6,6 +6,9 @@ source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_peoples_council", path = "json/class_ability_oaths.json" },
 ]
+[[sources]]
+publication = "divine-anthology"
+page = "20"
 
 [fields]
 kind = "class_option"
@@ -14,7 +17,6 @@ replaces = ["Smite evil", "Aura of justice"]
 alters = ["Holy champion"]
 +++
 
-**Sources:** Divine Anthology pg 20\
 The [Eagle Knights](ref/rule/aff-vangard) and the people of Andoran hold their elected officials to
 extremely high standards of conduct. Paladins swearing the oath of the People's Council serve the
 common good by finding and thwarting those who abuse their authority. Many seek specifically to

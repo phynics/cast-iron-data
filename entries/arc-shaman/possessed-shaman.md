@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/shaman" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "111"
 
 [fields]
 kind = "archetype"
 replaces = ["Spirit magic", "Hex gained at 2nd level", "Wandering hex gained at 6th level"]
 +++
 
-**Sources:** Advanced Class Guide pg 111\
 For a possessed shaman, merely communing with the spirit world is insufficient. Instead, she invites
 the spirits to share her body, granting them the chance to experience corporeal existence. In
 return, they grant her their skills and protect her from otherworldly influence.

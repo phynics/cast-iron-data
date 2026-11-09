@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/amateur-gunslinger", label = "or" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "112"
 
 [fields]
 kind = "feat"
@@ -19,8 +22,6 @@ benefit = "You often rely on surprise and misdirection in your social dealings. 
 +++
 
 ## No Name (Grit)
-
-**Sources:** Ultimate Combat pg 112
 
 You don't need an elaborate disguise to keep your identity under wraps.\
 **Prerequisites:** Grit class feature or [Amateur Gunslinger](ref/feat/amateur-gunslinger) feat,

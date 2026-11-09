@@ -6,6 +6,12 @@ source_ids = ["bestiary-6", "book-of-the-damned-volume-3-horsemen-of-the-apocaly
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daemon_lacridaemon", path = "json/monsters06.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "71"
+[[sources]]
+publication = "book-of-the-damned-volume-3-horsemen-of-the-apocalypse"
+page = "48"
 
 [fields]
 kind = "creature"
@@ -45,7 +51,6 @@ tears. Frost crusts its flesh._
 
 **Senses:** Darkvision 60 ft., Detect good, Detect magic
 
-**Sources:** Bestiary 6 pg 71, Book of the Damned - Volume 3: Horsemen of the Apocalypse pg 48\
 **Subtype:** Daemon, Evil, Extraplanar
 
 **Experience points:** 800

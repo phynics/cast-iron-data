@@ -6,6 +6,9 @@ source_ids = ["the-emerald-spire-superdungeon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heart_of_nhur_athemon", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "the-emerald-spire-superdungeon"
+page = "130"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation"
 caster_level = "20th"
 +++
 
-**Sources:** The Emerald Spire Superdungeon pg 130\
 **Aura** strong transmutation; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 15 lbs.
 

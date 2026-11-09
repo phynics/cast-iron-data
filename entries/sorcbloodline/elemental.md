@@ -6,13 +6,15 @@ source_ids = ["core-rulebook", "ultimate-magic", "blood-of-the-elements"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "75"
 
 [fields]
 kind = "class_option"
 group = "sorcerer-bloodline"
 +++
 
-**Sources:** PRPG Core Rulebook pg 75\
 The power of the elements resides in you, and at times you can hardly control its fury. This
 influence comes from an elemental outsider in your family history or a time when you or your
 relatives were exposed to a powerful elemental force.

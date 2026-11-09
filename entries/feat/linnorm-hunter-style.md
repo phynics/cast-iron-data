@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "linnorm_hunter_style", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "14"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "Animal companions with an Intelligence score of 1 or 2 can take this 
 +++
 
 ## Linnorm Hunter Style (Combat, Style, Teamwork)
-
-**Sources:** Martial Arts Handbook pg 14
 
 You and your animal companion work together to make coordinated strikes against your enemies.\
 **Prerequisites:** Cha 13, must have or be an [animal companion](ref/sidekick/animal-companion).\

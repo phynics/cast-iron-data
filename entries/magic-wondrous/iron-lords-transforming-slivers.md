@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "iron_lords_transforming_slivers", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "266"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Sources:** Inner Sea Gods pg 266\
 **Aura** moderate transmutation; **CL** 9th\
 **Slot** none; **Price** 1,000 gp; **Weight** 2 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "moonlight_stalker_feint", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "110"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "Feinting is a standard action."
 +++
 
 ## Moonlight Stalker Feint (Combat)
-
-**Sources:** Ultimate Combat pg 110
 
 You strike through the shadows so quickly that your opponent can barely react to your attacks.\
 **Prerequisites:** 13, [Blind-Fight](ref/feat/blind-fight),

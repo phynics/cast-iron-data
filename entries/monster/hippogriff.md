@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hippogriff", path = "json/monsters13.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "156"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ _This large, brown, horse-like creature has a hawk's wings, talons, and hooked b
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Bestiary 2 pg 156\
 **Experience points:** 600
 
 **Armor class:** 14/12/11

@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kineticists_diadem_normal", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "259"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "10th"
 
 ## Kineticist's Diadem
 
-**Sources:** Occult Adventures pg 259\
 **Aura** moderate evocation; **CL** 10th\
 **Slot** headband; **Price** 18,000 gp (Lesser), 50,000 gp (Normal), 98,000 gp (Greater);
 **Weight** -

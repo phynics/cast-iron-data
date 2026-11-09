@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fame_55", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "184"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 184
 
 At this Fame level and higher, the character is idolized and easily recognized for his or her
 achievements.

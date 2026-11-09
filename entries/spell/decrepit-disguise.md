@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "decrepit_disguise", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "163"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Target: one object of no more than 10 cu. ft./level
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** Occult Adventures pg 163
 
 You make an object seem like a worthless version of itself. A masterwork or magic sword could seem
 to be a useless, rusting, discarded blade, and a luxurious throne could appear to be a decrepit

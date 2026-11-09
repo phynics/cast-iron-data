@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/project-image" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "181"
 
 [fields]
 kind = "spell"
@@ -53,8 +56,6 @@ Descriptors: shadow
 :::
 
 ### Familiar Double
-
-**Sources:** Advanced Class Guide pg 181
 
 This spell functions as [project image](ref/spell/project-image), except the image appears in your
 familiar's square and moves when your familiar moves.

@@ -6,6 +6,9 @@ source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snoutgrip", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "dragonslayers-handbook"
+page = "25"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "As an immediate action, whenever an opponent up to one size category 
 +++
 
 ## Snoutgrip (Combat)
-
-**Sources:** Dragonslayer's Handbook pg 25
 
 You can hold an opponent's mouth shut.\
 **Prerequisites:** [Combat Expertise](ref/feat/combat-expertise),

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_shield_bash", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "128"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "Without this feat, a character that performs a shield bash loses the s
 +++
 
 ## Improved Shield Bash (Combat)
-
-**Sources:** PRPG Core Rulebook pg 128
 
 You can protect yourself with your shield, even if you use it to attack.\
 **Prerequisites:** [Shield Proficiency](ref/feat/shield-proficiency).\

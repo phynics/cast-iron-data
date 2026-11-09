@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mother_of_beasts", path = "json/npcs3.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "51"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "9"
 
 **Challenge rating:** 9
 
-**Sources:** NPC Codex pg 51\
 **XP** 6,400\
 Human [cleric](ref/class/cleric) of [Lamashtu](ref/faith/lamashtu) 10\
 CE Medium humanoid (human)\

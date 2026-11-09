@@ -6,6 +6,9 @@ source_ids = ["undead-slayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_protected_life", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "undead-slayers-handbook"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Sources:** Undead Slayer's Handbook pg 29\
 **Aura** moderate conjuration; **CL** 7th\
 **Slot** ring; **Price** 9,000 gp; **Weight** 1 lb.
 

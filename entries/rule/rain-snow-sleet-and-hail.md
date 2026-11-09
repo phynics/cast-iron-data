@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rain_snow_sleet_and_hail", path = "json/rules_gm08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "438"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 438
 
 Bad weather frequently slows or halts travel and makes it virtually impossible to navigate from one
 spot to another. Torrential downpours and blizzards obscure vision as effectively as a dense fog.

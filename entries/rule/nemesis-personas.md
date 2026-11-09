@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nemesis_personas", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "141"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 141
 
 Because having a nemesis is more personal than just having an adversary, it's important to consider
 what makes the nemesis tick. Certain archetypical nemesis personas, such as those in the following

@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lesser_fear_and_greater_fear", path = "json/rules_campaign_types02.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "10"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 10
 
 ### Lesser Fear
 

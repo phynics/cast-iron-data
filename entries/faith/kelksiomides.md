@@ -6,6 +6,9 @@ source_ids = ["distant-shores"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kelksiomides", path = "json/faiths5.json" },
 ]
+[[sources]]
+publication = "distant-shores"
+page = "13"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Kelksiomides**
 
 **Sub:** The Green Warden
-
-**Sources:** Distant Shores pg 13
 
 ### Details
 

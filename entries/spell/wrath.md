@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wrath", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "257"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Target: you
 Subschool: Compulsion
 Descriptors: emotion, mind-affecting
 :::
-
-**Sources:** Advanced Player's Guide pg 257
 
 You focus your anger against an enemy. Choose one enemy creature that you can see. You gain a +1
 morale bonus on attack rolls and weapon damage rolls against that designated creature for every

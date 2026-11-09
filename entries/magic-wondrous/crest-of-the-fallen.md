@@ -6,6 +6,9 @@ source_ids = ["daughters-of-fury"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crest_of_the_fallen", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "daughters-of-fury"
+page = "58"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Sources:** Daughters of Fury pg 58\
 **Aura** faint conjuration; **CL** 5th\
 **Slot** neck; **Price** 12,000 gp; **Weight** -
 

@@ -6,6 +6,9 @@ source_ids = ["heart-of-the-jungle"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spidervine_poison", path = "json/equipment_poisons.json" },
 ]
+[[sources]]
+publication = "heart-of-the-jungle"
+page = "6"
 
 [fields]
 kind = "item"
@@ -13,8 +16,6 @@ category = "Poisons"
 price = "N/A"
 weight = "&mdash;"
 +++
-
-**Sources:** Heart of the Jungle pg 6
 
 **Price** N/A; **Weight** —
 

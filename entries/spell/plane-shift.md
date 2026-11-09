@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "planes-of-power"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plane_shift", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "322"
 
 [fields]
 kind = "spell"
@@ -53,8 +56,6 @@ Spell resistance: yes
 Target: creature touched, or up to eight willing creatures joining hands
 Subschool: Teleportation
 :::
-
-**Sources:** PRPG Core Rulebook pg 322
 
 You move yourself or some other creature to another plane of existence or alternate dimension. If
 several willing persons link hands in a circle, as many as eight can be affected by the plane shift

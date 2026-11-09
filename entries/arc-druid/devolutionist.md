@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "50"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Resist nature's lure", "Venom immunity"]
 alters = ["Nature bond"]
 +++
 
-**Sources:** Horror Adventures pg 50\
 Full of simmering hatred toward civilization and those who dwell within it, devolutionists believe
 that the world would be better off without any sentient life at all. They transform intelligent
 creatures and domesticated animals into throwbacks to their feral ancestors.

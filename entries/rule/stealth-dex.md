@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stealth_dex", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "65"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 65
 
 ### Stealth (Dex; Armor Check Penalty)
 

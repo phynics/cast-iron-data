@@ -6,6 +6,9 @@ source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mages_paraphernalia", path = "json/class_ability_implements.json" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "26"
 
 [fields]
 kind = "class_option"
@@ -14,7 +17,6 @@ group = "occultist-implement"
 
 ## Mage's Paraphernalia
 
-**Sources:** Psychic Anthology pg 26\
 This panoply is associated with the arcane arts and the masters of manipulating magic.
 
 **Implements**

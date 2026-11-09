@@ -6,6 +6,9 @@ source_ids = ["pathfinder-42-sanctum-of-the-serpent-god"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snakescale_armor", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "pathfinder-42-sanctum-of-the-serpent-god"
+page = "39"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint illusion"
 caster_level = "5th"
 +++
 
-**Sources:** Pathfinder \#42: Sanctum of the Serpent God pg 39\
 **Aura** faint illusion; **CL** 5th\
 **Slot** armor; **Price** 8,900 gp; **Weight** 20 lbs.
 

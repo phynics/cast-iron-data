@@ -6,6 +6,9 @@ source_ids = ["pathfinder-society-field-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trapwarding", path = "json/magic_enhancements.json" },
 ]
+[[sources]]
+publication = "pathfinder-society-field-guide"
+page = "50"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Pathfinder Society Field Guide pg 50\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** armor quality; **Price** +1 bonus; **Weight** -
 

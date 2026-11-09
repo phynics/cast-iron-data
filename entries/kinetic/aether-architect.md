@@ -6,6 +6,9 @@ source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aether_architect", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "22"
 
 [fields]
 kind = "class_option"
@@ -21,8 +24,6 @@ group = "kineticist-wild-talent"
 **Level:** 9
 
 **Burn:** 0
-
-**Source:** Psychic Anthology/22
 
 You can spin a small building, bridge, or other edifice out of aether, and even use aether to tether
 a building to a flat surface other than the ground.

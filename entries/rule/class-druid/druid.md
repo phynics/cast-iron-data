@@ -8,12 +8,13 @@ parent = "ref/class/druid"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "json/classes5.json#druid|section:druid", path = "json/classes5.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "48"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 48
 
 Within the purity of the elements and the order of the wilds lingers a power beyond the marvels of
 civilization. Furtive yet undeniable, these primal magics are guarded over by servants of

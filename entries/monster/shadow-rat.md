@@ -6,6 +6,12 @@ source_ids = ["pathfinder-91-battle-of-bloodmarch-hills", "tome-of-horrors-compl
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_rat", path = "json/monsters09.json" },
 ]
+[[sources]]
+publication = "pathfinder-91-battle-of-bloodmarch-hills"
+page = "31"
+[[sources]]
+publication = "tome-of-horrors-complete-pf"
+page = "504"
 
 [fields]
 kind = "creature"
@@ -37,7 +43,6 @@ Its semi-translucent skin shows discolored bones and muscles._
 
 **Senses:** Darkvision 60 ft., Scent
 
-**Sources:** Pathfinder \#91: Battle of Bloodmarch Hills pg 31, Tome of Horrors Complete (PF) pg 504\
 **Size:** tiny
 
 **Type:** undead

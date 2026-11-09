@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/create-pit" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "204"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Subschool: Creation
 :::
 
 ### Acid Pit
-
-**Sources:** Advanced Player's Guide pg 204
 
 This spell functions as [create pit](ref/spell/create-pit), except that it places a 5-foot-deep pool
 of acid at the bottom of the pit. The pit has a maximum depth of 100 feet. Creatures who fall into

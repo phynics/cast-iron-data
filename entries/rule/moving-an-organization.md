@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "moving_an_organization", path = "json/rules_subsystems02.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "93"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 93
 
 You can move an organization to a different settlement by paying half the price of recruiting it.
 This price accounts for paying relocation expenses for your teams, hiring replacements for people

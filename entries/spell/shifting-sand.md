@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shifting_sand", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "243"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 Area: 20-ft. spread
 Descriptors: earth
 :::
-
-**Sources:** Advanced Player's Guide pg 243
 
 You cause an earthen or sandy surface to shift and churn within the area. The shifting sand
 obliterates tracks and is considered difficult terrain. Acrobatics checks in the area take a penalty

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/magus" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "121"
 
 [fields]
 kind = "archetype"
 replaces = ["Spellcasting", "Arcane pool", "Spell recall", "knowledge pool", "improved spell recall", "greater spell combat", "greater spell access", "Medium armor", "Improved spell combat", "Heavy armor"]
 +++
 
-**Sources:** Occult Adventures pg 121\
 A mindblade blends psychic talent and martial skill to lethal effect. By forming weapons with her
 mind, she always has the right tool for any situation.
 

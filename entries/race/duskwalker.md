@@ -6,12 +6,14 @@ source_ids = ["planar-adventures", "plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "duskwalker", path = "json/races.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "230"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Planar Adventures pg 230\
 Duskwalkers are tall, bipedal, gray-skinned beings with a connection to Pharasma's Boneyard. They
 manifest directly on the Material Plane, incarnating from souls that have earned the honor of a
 second life. The souls that become duskwalkers have often distinguished themselves in the eyes of

@@ -6,6 +6,9 @@ source_ids = ["tears-at-bitter-manor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "caliban", path = "json/monsters04.json" },
 ]
+[[sources]]
+publication = "tears-at-bitter-manor"
+page = "57"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ erupt over its sloping brow._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Tears at Bitter Manor pg 57\
 **Experience points:** 600
 
 **Armor class:** 14/12/12

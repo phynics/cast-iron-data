@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/sanctify-armor" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "215"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: yes (harmless) (object)
 Target: armor touched
 Descriptors: evil
 :::
-
-**Sources:** Advanced Player's Guide pg 215
 
 As [sanctify armor](ref/spell/sanctify-armor), except you gain DR 5/good when using your judgment or
 smite ability.

@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scouring_winds", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "236"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: yes (see text)
 Effect: sandstorm in 20-ft. radius, 20 ft. high
 Descriptors: air, earth
 :::
-
-**Sources:** Ultimate Magic pg 236
 
 This spell brings forth a windstorm of stinging sand that blocks all vision. You can move the storm
 up to 30 feet each round as a move action.

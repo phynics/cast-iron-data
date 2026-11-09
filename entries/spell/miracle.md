@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "miracle", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "314"
 
 [fields]
 kind = "spell"
@@ -37,8 +40,6 @@ Saving throw: see text
 Spell resistance: yes
 Effect: see text
 :::
-
-**Sources:** PRPG Core Rulebook pg 314
 
 You don't so much cast a miracle as request one. You state what you would like to have happen and
 request that your deity (or the power you pray to for spells) intercede.

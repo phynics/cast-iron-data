@@ -6,14 +6,15 @@ source_ids = ["adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bullets_groaning", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "adventurers-armory"
+page = "3"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "0.5 lbs."
 +++
-
-**Sources:** Adventurer's Armory pg 3
 
 These [sling bullets](ref/eq-weapon/sling-bullets) are honeycombed with overlapping perforations
 that cause them to emit an eerie moan audible within 500 feet of their flight path.

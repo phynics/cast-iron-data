@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grandfathers_legacy", path = "json/equipment_spellbooks.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "124"
 
 [fields]
 kind = "item"
@@ -18,8 +21,6 @@ _This pair of lexicons is covered in excellently preserved human skin, with an i
 fingerbones forming the locks on the cover. A family seal has been embossed on the lower center of
 the cover, but flecks of gold leaf have begun to peel away, revealing that the embossed pattern in
 fact follows a faded tattoo on the skin itself._
-
-**Sources:** Ultimate Magic pg 124
 
 **Opposition** Enchantment, illusion\
 **Protection** A series of three [superior locks](ref/eq-misc/lock-superior) each augmented with

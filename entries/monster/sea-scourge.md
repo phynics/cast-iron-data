@@ -6,6 +6,9 @@ source_ids = ["isles-of-the-shackles"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sea_scourge", path = "json/monsters21.json" },
 ]
+[[sources]]
+publication = "isles-of-the-shackles"
+page = "58"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ inexorably against the current._
 
 **Perception:** -5
 
-**Sources:** Isles of the Shackles pg 58\
 **Subtype:** Aquatic
 
 **Experience points:** 2,400

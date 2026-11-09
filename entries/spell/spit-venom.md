@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spit_venom", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "240"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: no
 Effect: one stream of venom
 Descriptors: poison
 :::
-
-**Sources:** Ultimate Magic pg 240
 
 You spit a stream of venom at a target using a ranged touch attack. If the venom hits, it causes
 blindness for 1 round. The target must also save or be poisoned by black adder venom; the DC in

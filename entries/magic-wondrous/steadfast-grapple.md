@@ -6,6 +6,9 @@ source_ids = ["pathfinder-55-the-wormwood-mutiny"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "steadfast_grapple", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "pathfinder-55-the-wormwood-mutiny"
+page = "59"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Pathfinder \#55: The Wormwood Mutiny pg 59\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** none; **Price** 5,000 gp; **Weight** 9 lbs.
 

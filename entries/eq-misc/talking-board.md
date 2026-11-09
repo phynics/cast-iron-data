@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "talking_board", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "251"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "15 gp"
 weight = "2 lbs."
 +++
 
-**Sources:** Occult Adventures pg 251\
 **Price** 15 gp; **Weight** 2 lbs.\
 **Category** Adventuring Gear
 

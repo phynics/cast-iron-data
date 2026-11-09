@@ -6,6 +6,9 @@ source_ids = ["chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "uncanny_reminder", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "chronicle-of-legends"
+page = "14"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: Will negates
 Spell resistance: yes
 Target: one living creature
 :::
-
-**Sources:** Chronicle of Legends pg 14
 
 This spell creates an animated replica of the target drawn from the target's subconscious. This
 living memory is an animated form of the target's negative thoughts and emotions and is intent on

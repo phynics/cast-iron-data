@@ -6,13 +6,15 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "imperious", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "75"
 
 [fields]
 kind = "class_option"
 group = "sorcerer-bloodline"
 +++
 
-**Sources:** Advanced Race Guide pg 75\
 A scion of forgotten kings, with a lineage rich with the dust of ancient empires spanning every
 golden age of humanity's history, an imperious embodies the apex of human potential, as well as
 human temerity and uninhibited hubris.

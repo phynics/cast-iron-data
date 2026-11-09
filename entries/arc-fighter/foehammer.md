@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/fighter" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "14"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Armor training 1", "Armor training 2 and 4", "Weapon training 2", "
 alters = ["Weapon mastery"]
 +++
 
-**Sources:** Advanced Race Guide pg 14\
 While the axe is the most famous dwarven weapon, the hammer is at the heart of dwarves' heritage as
 forgemasters and warriors alike.
 

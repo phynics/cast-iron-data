@@ -6,6 +6,9 @@ source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "antidote", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "50"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "varies"
 weight = "-"
 +++
 
-**Sources:** Inner Sea Intrigue pg 50\
 **Price** varies; **Weight** -\
 **Category** Alchemical Remedies
 

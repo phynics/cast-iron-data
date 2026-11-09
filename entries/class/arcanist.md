@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide", "advanced-players-guide", "chronicle-of-le
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcanist", path = "json/classes.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "8"
 
 [fields]
 kind = "class"
@@ -13,8 +16,6 @@ class_type = "hybrid"
 hit_die = "d6"
 skill_ranks = "2 + Int modifier"
 +++
-
-**Sources:** Advanced Class Guide pg 8
 
 Some spellcasters seek the secrets of magic, pursuing the power to make the impossible possible.
 Others are born with magic in their blood, commanding unbelievable forces as effortlessly as they

@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "talisman_of_ultimate_evil", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "334"
+[[sources]]
+publication = "core-rulebook"
+page = "547"
 
 [fields]
 kind = "item"
@@ -16,8 +22,6 @@ slot = "none"
 aura = "strong evocation"
 caster_level = "18th"
 +++
-
-**Sources:** Ultimate Equipment pg 334, PRPG Core Rulebook pg 547
 
 **Aura** strong evocation; **CL** 18th\
 **Slot** none; **Price** -; **Weight** -

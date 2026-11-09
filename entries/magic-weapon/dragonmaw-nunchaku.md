@@ -6,6 +6,9 @@ source_ids = ["pathfinder-53-tide-of-honor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragonmaw_nunchaku", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "pathfinder-53-tide-of-honor"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong evocation"
 caster_level = "12th"
 +++
 
-**Sources:** Pathfinder \#53: Tide of Honor pg 60\
 **Aura** strong evocation; **CL** 12th\
 **Slot** none; **Price** 29,902 gp; **Weight** 2 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "searing_flame", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "26"
 
 [fields]
 kind = "class_option"
@@ -23,8 +26,6 @@ group = "kineticist-wild-talent"
 **Burn:** 0
 
 **Prerequisite:** [burning infusion](ref/kinetic/burning-infusion)
-
-**Source:** Occult Adventures/26
 
 Over time, your _burning infusion_ sears away your foe's fire resistance. When you roll burn damage
 from _burning infusion_ against a foe, decrease the foe's fire resistance by an amount equal to the

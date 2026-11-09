@@ -6,6 +6,9 @@ source_ids = ["dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ancestral_gift", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "dwarves-of-golarion"
+page = "24"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: no
 Effect: magical weapon
 Subschool: Summoning
 :::
-
-**Sources:** Dwarves of Golarion pg 24
 
 A ghostly manifestation of one of your ancestors appears before you bearing a weapon of your choice
 in its hands. The weapon may be any simple, martial, or dwarven weapon. It has a +1 enhancement

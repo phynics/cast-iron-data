@@ -6,12 +6,13 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "temperature_variations_and_precipitation", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "166"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Wilderness pg 166
 
 Once you have established weather baselines for a region and adjust them to match the elevation and
 season, the next step is to breathe life into the weather by determining the temperature's variation

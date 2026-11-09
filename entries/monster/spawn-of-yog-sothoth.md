@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "carrion-hill"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spawn_of_yog_sothoth", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "251"
+[[sources]]
+publication = "carrion-hill"
+page = "30"
 
 [fields]
 kind = "creature"
@@ -47,7 +53,6 @@ monstrous stench._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 4 pg 251, Carrion Hill pg 30\
 **Subtype:** Extraplanar
 
 **Experience points:** 9,600

@@ -6,6 +6,9 @@ source_ids = ["concordance-of-rivals"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "protean_ibshaunet", path = "json/monsters19.json" },
 ]
+[[sources]]
+publication = "concordance-of-rivals"
+page = "58"
 
 [fields]
 kind = "creature"
@@ -48,7 +51,6 @@ insubstantial fire._
 
 **Senses:** Darkvision 60 ft., Detect law
 
-**Sources:** Concordance of Rivals pg 58\
 **Subtype:** Chaotic, Extraplanar, Protean, Shapechanger
 
 **Experience points:** 12,800

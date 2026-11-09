@@ -6,13 +6,14 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eel_hide", path = "json/equipment_special_materials.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "50"
 
 [fields]
 kind = "item"
 category = "Special Materials"
 +++
-
-**Sources:** Ultimate Equipment pg 50
 
 This supple material offers as much protection as leather, but is more flexible and resistant to
 electricity. [Leather](ref/eq-armor/leather), [hide](ref/eq-armor/hide), or

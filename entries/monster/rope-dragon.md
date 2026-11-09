@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rope_dragon", path = "json/monsters20.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "211"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ _This small dragon, which appears to be composed of coils of rope, bristles with
 
 **Size:** small
 
-**Sources:** Bestiary 5 pg 211\
 **Subtype:** Shapechanger
 
 **Experience points:** 1,600

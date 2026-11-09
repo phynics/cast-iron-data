@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kirrix", path = "json/monsters15.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "184"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ _This sleek, weasel-like rodent has exaggerated whiskers and six short but stout
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Monster Codex pg 184\
 **Experience points:** 800
 
 **Armor class:** 14/11/12

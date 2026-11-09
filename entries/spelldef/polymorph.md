@@ -6,14 +6,15 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "polymorph", path = "json/spell_definitions.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "211"
 
 [fields]
 kind = "none"
 +++
 
 ## Polymorph (subschool of magic)
-
-**Sources:** PRPG Core Rulebook pg 211
 
 A polymorph spell transforms your physical body to take on the shape of another creature. While
 these spells make you appear to be the creature, granting you a +10 bonus on Disguise skill checks,

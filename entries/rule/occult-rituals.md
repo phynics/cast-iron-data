@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "occult_rituals", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "208"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 208
 
 It's a common belief that only those initiated in the rites and practices of arcane, divine, or
 psychic magic can cast spells, but this is not strictly true. Hidden within dusty libraries and amid

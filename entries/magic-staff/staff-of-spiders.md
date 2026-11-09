@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_spiders", path = "json/magic_staff.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "201"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuratio and transmutation"
 caster_level = "8th"
 +++
 
-**Sources:** Ultimate Equipment pg 201\
 **Aura** moderate conjuratio and transmutation; **CL** 8th\
 **Slot** none; **Price** 30,200 gp; **Weight** 5 lbs.
 

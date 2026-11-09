@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jellyfish_sapphire_jellyfish", path = "json/monsters34.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "155"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ bell vibrates with an electrical charge._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 3 pg 155\
 **Subtype:** Aquatic
 
 **Type:** vermin

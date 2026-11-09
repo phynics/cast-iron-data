@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ki_leech", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "225"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: no
 Target: you
 Descriptors: evil
 :::
-
-**Sources:** Ultimate Magic pg 225
 
 You place your spirit in a receptive state so when you confirm a critical hit against a living enemy
 or reduce a living enemy to 0 or fewer hit points, you can steal some of that creature's ki. This

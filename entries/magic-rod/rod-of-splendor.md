@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rod_of_splendor", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "184"
+[[sources]]
+publication = "core-rulebook"
+page = "485"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong conjuration and transmutation"
 caster_level = "12th"
 +++
 
-**Sources:** Ultimate Equipment pg 184, PRPG Core Rulebook pg 485\
 **Aura** strong conjuration and transmutation; **CL** 12th\
 **Slot** none; **Price** 25,000 gp; **Weight** 5 lbs.
 

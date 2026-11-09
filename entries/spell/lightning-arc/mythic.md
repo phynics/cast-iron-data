@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/lightning-arc", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "99"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 99\
 The damage dealt increases to 1d8 points of electricity damage per caster level (maximum 15d8). A
 target that fails its save is blinded by the flash for 1 round and deafened by thunder for 1d4
 rounds.

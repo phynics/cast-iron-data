@@ -6,14 +6,15 @@ source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "barbed_arrow", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "19"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "0.15 lbs."
 +++
-
-**Sources:** Ranged Tactics Toolbox pg 19
 
 The head of a barbed arrow resembles that of a [harpoon](ref/eq-weapon/harpoon). When a barbed arrow
 is attached to a length of silk rope and fired from a bow, the arrow's range increment is reduced to

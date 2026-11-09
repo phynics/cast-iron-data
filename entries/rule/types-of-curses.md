@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "types_of_curses", path = "json/rules_campaign_types02.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "140"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 140
 
 Curses can have a wide range of effects, which is something to keep in mind when designing a new
 curse. They may trigger only intermittently, apply a constant penalty, or grow worse with time. In

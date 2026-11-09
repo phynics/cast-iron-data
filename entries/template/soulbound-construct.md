@@ -6,6 +6,9 @@ source_ids = ["construct-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soulbound_construct", path = "json/monster_template4.json" },
 ]
+[[sources]]
+publication = "construct-handbook"
+page = "60"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +1 or +2
-
-**Source:** Construct Handbook/60
 
 A soulbound construct is a once-living creature that has had its soul bound to a construct host that
 serves as its new body.

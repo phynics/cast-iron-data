@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/amateur-gunslinger", label = "or" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "9"
 
 [fields]
 kind = "feat"
@@ -19,8 +22,6 @@ benefit = "You can spend 1 grit point to load your firearm with 1 dose of inhale
 +++
 
 ## Poison Shot Deed (Grit)
-
-**Sources:** Dirty Tactics Toolbox pg 9
 
 You can specially prepare bullets to deliver poisons that are normally used more subtly.\
 **Prerequisites:** [Amateur Gunslinger](ref/feat/amateur-gunslinger) or grit class feature.\

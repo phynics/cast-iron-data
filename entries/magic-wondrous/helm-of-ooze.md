@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "helm_of_ooze", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-darklands"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment"
 caster_level = "10th"
 +++
 
-**Sources:** Heroes of the Darklands pg 31\
 **Aura** moderate enchantment; **CL** 10th\
 **Slot** head; **Price** 21,500 gp; **Weight** 3 lbs.
 

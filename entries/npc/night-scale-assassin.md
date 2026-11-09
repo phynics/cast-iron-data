@@ -6,6 +6,9 @@ source_ids = ["magnimar-city-of-monuments"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "night_scale_assassin", path = "json/npcs2.json" },
 ]
+[[sources]]
+publication = "magnimar-city-of-monuments"
+page = "56"
 
 [fields]
 kind = "creature"
@@ -19,7 +22,6 @@ with the shadows._
 
 **Challenge rating:** 5
 
-**Sources:** Magnimar, City of Monuments pg 56\
 **XP** 1,600\
 Female half-elf [rogue](ref/class/rogue) 5/assassin 1\
 NE Medium humanoid (elf, human)\

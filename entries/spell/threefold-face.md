@@ -6,6 +6,9 @@ source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "threefold_face", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "legacy-of-the-first-world"
+page = "25"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Legacy of the First World pg 25
 
 You grow two additional faces set equidistantly around your head, each embodying a different aspect
 of your personality that you choose (such as kindliness, joy, or wrath). You gain all-around vision

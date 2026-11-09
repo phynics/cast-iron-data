@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "47"
 
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Rogue talents gained at 2nd, 6th, and 8th levels", "Trap sense", "Rogue talents gained at 4th, 10th, and 16th levels"]
 +++
 
-**Sources:** Ultimate Intrigue pg 47\
 Sharpers use trickery and deception to part an owner from his valuables. Pathological risk-takers,
 they distinguish themselves from con artists and burglars by virtue of the simplicity and boldness
 of their schemes, which are usually impromptu, rather than carefully orchestrated. Many sharpers

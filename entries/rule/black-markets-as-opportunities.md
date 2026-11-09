@@ -6,12 +6,13 @@ source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "black_markets_as_opportunities", path = "json/rules_rulesets01.json" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "5"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Black Markets pg 5
 
 Adventurers can get involved with black markets in many ways. Each of these risky operations
 requires protection from whatever authority keeps it illegal. Most also feel the constant pressure

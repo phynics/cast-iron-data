@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "martial_versatility", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "78"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "You may take this feat more than once. Each time it applies to a diff
 +++
 
 ## Martial Versatility (Combat)
-
-**Sources:** Advanced Race Guide pg 78
 
 You further broaden your study of weapons to encompass multiple similar weapons.\
 **Prerequisites:** Fighter level 4th, [human](ref/race/human).\

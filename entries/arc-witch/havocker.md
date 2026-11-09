@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/witch" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "11"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["1st-level hex", "All 2nd-level and higher hexes", "major hex", "gra
 alters = ["Familiar"]
 +++
 
-**Sources:** Magic Tactics Toolbox pg 11\
 Although most witches are guided to subtle curses and debilitating hexes by their mysterious
 patrons, some are instead taught the secrets of harnessing raw, destructive elemental power.
 

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "abaddon", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "191"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 191
 
 A realm of vast wastelands under a rotten sky, Abaddon is perpetually cloaked in a cloying black
 mist and the oppressive twilight of an endless solar eclipse. The poisoned River Styx has its source

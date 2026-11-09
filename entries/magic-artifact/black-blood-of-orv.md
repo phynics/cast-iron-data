@@ -6,6 +6,12 @@ source_ids = ["pathfinder-18-descent-into-midnight", "inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "black_blood_of_orv", path = "json/magic_artifact3.json" },
 ]
+[[sources]]
+publication = "pathfinder-18-descent-into-midnight"
+page = "49"
+[[sources]]
+publication = "inner-sea-magic"
+page = "33"
 
 [fields]
 kind = "item"
@@ -16,8 +22,6 @@ slot = "none"
 aura = "none"
 caster_level = "-"
 +++
-
-**Sources:** Pathfinder \#18: Descent into Midnight pg 49, Inner Sea Magic pg 33
 
 **Aura** none; **CL** -\
 **Slot** none; **Price** -; **Weight** -

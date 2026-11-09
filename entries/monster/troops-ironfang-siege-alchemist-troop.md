@@ -6,6 +6,9 @@ source_ids = ["pathfinder-120-vault-of-the-onyx-citadel"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "troops_ironfang_siege_alchemist_troop", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "pathfinder-120-vault-of-the-onyx-citadel"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ reservoirs brimming with strange fluids._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#120: Vault of the Onyx Citadel pg 88\
 **Subtype:** Goblinoid, Troop
 
 **Experience points:** 76,800

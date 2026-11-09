@@ -6,6 +6,9 @@ source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_prying_eye", path = "json/equipment_spellbooks.json" },
 ]
+[[sources]]
+publication = "divine-anthology"
+page = "5"
 
 [fields]
 kind = "item"
@@ -16,8 +19,6 @@ category = "Spellbooks"
 
 _The front cover of this tome is as black as night, while the back cover is ivory white. An
 eye-shaped symbol graces both covers._
-
-**Sources:** Divine Anthology pg 5
 
 **Value** 1,940 gp (2,200 gp with the preparation ritual)
 

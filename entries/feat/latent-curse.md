@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "latent_curse", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "blood-of-the-coven"
+page = "20"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "You can alter a spell with the curse descriptor to target an object r
 +++
 
 ## Latent Curse (Metamagic)
-
-**Sources:** Blood of the Coven pg 20
 
 You can imbue curse magic into objects.\
 **Benefit:** You can alter a spell with the curse descriptor to target an object rather than a

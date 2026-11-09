@@ -6,6 +6,9 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jetpack", path = "json/equipment_tech_misc.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "48"
 
 [fields]
 kind = "item"
@@ -15,7 +18,6 @@ weight = "10 lbs."
 slot = "shoulders"
 +++
 
-**Sources:** Technology Guide pg 48\
 **Price** 18,000 gp\
 **Slot** shoulders; **Weight** 10 lbs.\
 **Capacity** 100; **Usage** 1 charge/round

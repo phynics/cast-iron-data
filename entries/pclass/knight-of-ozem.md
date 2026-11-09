@@ -6,14 +6,15 @@ source_ids = ["paths-of-prestige"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "knight_of_ozem", path = "json/prestige_classes2.json" },
 ]
+[[sources]]
+publication = "paths-of-prestige"
+page = "30"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d10."
 +++
-
-**Sources:** Paths of Prestige pg 30
 
 Guardians of a sacred trust, the Knights of Ozem are a chivalrous order based out of Lastwall and
 dedicated to guarding against the return of Tar-Baphon, the dreaded Whispering Tyrant. They also

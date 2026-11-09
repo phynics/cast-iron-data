@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drink_is_life", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "63"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You never take penalties for consuming nonmagical alcohol, and you ca
 +++
 
 ## Drink Is Life (Mythic)
-
-**Sources:** Mythic Adventures pg 63
 
 Strong drink fuels the mythic fires within you.\
 **Prerequisites:** Con 19, 3rd mythic tier.\

@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blindsight_and_blindsense", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "560"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 560
 
 Some creatures possess **blindsight,** the extraordinary ability to use a nonvisual sense (or a
 combination of senses) to operate effectively without vision. Such senses may include sensitivity to

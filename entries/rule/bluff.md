@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bluff", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "182"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 182
 
 The Bluff skill is an extremely versatile, though sometimes misunderstood, social skill. Unlike
 Diplomacy and Intimidate, which can directly push their target toward a course of action, Bluff

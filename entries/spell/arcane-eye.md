@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcane_eye", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "243"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: no
 Effect: magical sensor
 Subschool: Scrying
 :::
-
-**Sources:** PRPG Core Rulebook pg 243
 
 You create an invisible magical sensor that sends you visual information. You can create the arcane
 eye at any point you can see, but it can then travel outside your line of sight without hindrance.

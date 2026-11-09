@@ -6,6 +6,9 @@ source_ids = ["pathfinder-108-hell-comes-to-westcrown"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "archon_swarm_mote_archon_swarm", path = "json/monsters02.json" },
 ]
+[[sources]]
+publication = "pathfinder-108-hell-comes-to-westcrown"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ cloud is a glowing rune no bigger than a thumbnail._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#108: Hell Comes to Westcrown pg 88\
 **Subtype:** Archon, Extraplanar, Good, Lawful, Swarm
 
 **Experience points:** 51,200

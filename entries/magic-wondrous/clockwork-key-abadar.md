@@ -6,6 +6,9 @@ source_ids = ["faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clockwork_key_abadar", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "faiths-of-balance"
+page = "26"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Sources:** Faiths of Balance pg 26\
 **Aura** faint abjuration; **CL** 5th\
 **Slot** none; **Price** 500 gp; **Weight** 1 lb.
 

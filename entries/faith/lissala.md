@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "pathfinder-65-into-the-nightmare-rift", "inner-
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lissala", path = "json/faiths5.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "316"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Lissala**
 
 **Sub:** The Sihedron Scion
-
-**Sources:** Inner Sea Gods pg 316
 
 ### Details
 

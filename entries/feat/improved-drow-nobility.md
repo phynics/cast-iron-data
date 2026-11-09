@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_drow_nobility", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "105"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Cha 13, Drow Nobility, able to use drow spell-like abilities, d
 prerequisite_feats = ["ref/feat/drow-nobility"]
 benefit = "You may use your dancing lights, faerie fire, feather fall, and levitate spell-like abilities twice per day. Your darkness spell-like ability instead becomes deeper darkness, which you may use twice per day."
 +++
-
-**Sources:** Advanced Race Guide pg 105
 
 Your magical heritage is more potent than that of your peers, as demonstrated by your superior
 [spell-like abilities](ref/umr/spell-like-abilities).\

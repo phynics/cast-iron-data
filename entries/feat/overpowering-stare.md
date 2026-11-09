@@ -6,6 +6,9 @@ source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "overpowering_stare", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "heroes-of-golarion"
+page = "9"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Whenever you use your painful stare, the target must succeed at a Wil
 +++
 
 ## Overpowering Stare (Stare)
-
-**Sources:** Heroes of Golarion pg 9
 
 Your painful stare overwhelms your foe's mind.\
 **Prerequisites:** [Mesmerist](ref/class/mesmerist) level 11th, painful stare class feature.\

@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "path_of_the_winds", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "160"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: yes
 Effect: 40-ft.-high downdraft of wind in a 100-foot line
 Descriptors: air
 :::
-
-**Sources:** Advanced Race Guide pg 160
 
 > _[Sylphs](ref/race/sylph) have access to the following spell._
 

@@ -6,12 +6,13 @@ source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mythic_mesmerists", path = "json/rules_campaign_types07.json" },
 ]
+[[sources]]
+publication = "heroes-of-golarion"
+page = "28"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Heroes of Golarion pg 28
 
 Mythic mesmerists acquire their powers because their inherent mythic potential already gives them a
 knack for manipulating others. Many mythic mesmerists are believed to be godlings descended from the

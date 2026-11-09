@@ -6,6 +6,9 @@ source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oni_najikai", path = "json/monsters18.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "250"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _This scaly-skinned humanoid has long venomous fangs, claws, and unblinking rept
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Book of the Damned pg 250\
 **Subtype:** Native, Oni, Reptilian, Shapechanger
 
 **Experience points:** 4,800

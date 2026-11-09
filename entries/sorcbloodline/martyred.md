@@ -6,13 +6,15 @@ source_ids = ["blood-of-angels", "people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "martyred", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
+[[sources]]
+publication = "blood-of-angels"
+page = "29"
 
 [fields]
 kind = "class_option"
 group = "sorcerer-bloodline"
 +++
 
-**Sources:** Blood of Angels pg 29\
 One of your ancestors paid the ultimate price for her beliefs. This distant relative martyred
 herself out of her devout belief in a cause, and that sacrifice echoed down to her descendants,
 infusing them with arcane power. Your bloodline confers abilities that allow you to endure pain,

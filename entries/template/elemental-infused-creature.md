@@ -6,6 +6,9 @@ source_ids = ["planes-of-power"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_infused_creature", path = "json/monster_template1.json" },
 ]
+[[sources]]
+publication = "planes-of-power"
+page = "56"
 
 [fields]
 kind = "none"
@@ -18,8 +21,6 @@ kind = "none"
 **Challenge rating:** +1 or +2
 
 **Inherited:** present
-
-**Source:** Planes of Power/56
 
 Sometimes unpredictable elemental events cause planar energies to infuse mundane creatures with
 otherworldly power, transforming them into element-infused creatures.

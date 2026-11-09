@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ranger" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "108"
 
 [fields]
 kind = "archetype"
 replaces = ["Favored enemy", "Woodland stride", "swift tracker"]
 +++
 
-**Sources:** Advanced Class Guide pg 108\
 A wild hunter seeks to emulate the animals around him to keep him safe while he tracks his prey.
 Instead of studying the traits and behaviors of a _favored enemy,_ a wild hunter studies those of
 various animals, incorporating those attributes into his hunting strategy.

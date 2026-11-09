@@ -6,6 +6,9 @@ source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spiteful_shield", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "197"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate illusion"
 caster_level = "8th"
 +++
 
-**Sources:** Book of the Damned pg 197\
 **Aura** moderate illusion; **CL** 8th\
 **Slot** shield; **Price** 14,170 gp; **Weight** 15 lbs.
 

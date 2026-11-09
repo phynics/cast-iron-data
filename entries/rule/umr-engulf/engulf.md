@@ -8,12 +8,14 @@ parent = "ref/umr/engulf"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "json/umr.json#engulf|section:engulf", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "293"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Bestiary 4 pg 293\
 The creature can engulf creatures in its path as part of a standard action. It cannot make other
 attacks during a round in which it engulfs. The creature merely has to move over its opponents,
 affecting as many as it can cover. Targeted creatures can make attacks of opportunity against the

@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "saving_finale", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "241"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Spell resistance: yes (harmless)
 Target: one living creature
 Descriptors: mind-affecting
 :::
-
-**Sources:** Advanced Player's Guide pg 241
 
 You must have a bardic performance in effect to cast this spell. With a flourish, you can
 immediately end your bardic performance when a creature within range affected by your bardic

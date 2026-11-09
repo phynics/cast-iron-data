@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "events_beneficial_kingdom", path = "json/rules_campaign_types05.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "221"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 221
 
 **Archaeological Find:** A well-preserved ruin is found in your kingdom, with historical artifacts
 connected to the people who lived in your land long ago. Lore increases by 1. If you have a Museum,

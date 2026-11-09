@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/paladin" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "116"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Channel positive energy", "Aura of justice"]
 alters = ["Smite evil"]
 +++
 
-**Sources:** Advanced Player's Guide pg 116\
 Paladins are known for their charity and for tending to the sick. The hospitaler takes to this
 calling above all others, spending much of her time healing the poor, and giving aid and succor to
 those in need. The hospitaler has the following class features.

@@ -6,6 +6,9 @@ source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "equipment_trick_musical_instrument", path = "json/feat06.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "19"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "You can gain Equipment Trick multiple times. Each time you take the f
 +++
 
 ## Equipment Trick (Musical Instrument) (Combat)
-
-**Sources:** Adventurer's Armory 2 pg 19
 
 Choose a piece of equipment, such as an boots, a cloak, rope, a shield, or a heavy blade scabbard.
 You understand how to use that piece of equipment in combat.\

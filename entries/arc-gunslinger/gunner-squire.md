@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/gunslinger" },
 ]
+[[sources]]
+publication = "knights-of-the-inner-sea"
+page = "20"
 
 [fields]
 kind = "archetype"
 replaces = ["Gunslinger's dodge deed", "Gunslinger initiative", "Nimble +1"]
 +++
 
-**Sources:** Knights of the Inner Sea pg 20\
 Prepared to reload or repair her lord's firearms at a moment's notice, the gunner squire is an
 indispensable aid for knights skilled in the use of pistols and rifles.
 

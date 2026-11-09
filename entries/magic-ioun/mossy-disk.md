@@ -6,6 +6,12 @@ source_ids = ["pathfinder-122-into-the-shattered-continent", "seekers-of-secrets
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mossy_disk", path = "json/magic_ioun_stones.json" },
 ]
+[[sources]]
+publication = "pathfinder-122-into-the-shattered-continent"
+page = "20"
+[[sources]]
+publication = "seekers-of-secrets"
+page = "45-47"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong divination and evocation"
 caster_level = "12th"
 +++
 
-**Sources:** Pathfinder \#122: Into the Shattered Continent pg 20, Seekers of Secrets pg. 45-47\
 **Aura** strong divination and evocation; **CL** 12th\
 **Slot** none; **Price** 5,000 gp; **Weight** —
 

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/interrogation" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "225"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Descriptors: evil, pain
 :::
 
 ### Greater Interrogation
-
-**Sources:** Ultimate Magic pg 225
 
 This spell functions as [interrogation](ref/spell/interrogation), except you may ask one question
 per caster level and the spell deals damage equal to 1d8 points plus your Wisdom bonus if the target

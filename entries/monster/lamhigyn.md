@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "pathfinder-76-the-midnight-isles"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lamhigyn", path = "json/monsters34.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "154"
+[[sources]]
+publication = "pathfinder-76-the-midnight-isles"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ _This small, three-eyed creature has ragged, red-streaked wings and a menacingly
 
 **Size:** small
 
-**Sources:** Bestiary 5 pg 154, Pathfinder \#76: The Midnight Isles pg 88\
 **Subtype:** Chaotic, Evil, Extraplanar
 
 **Experience points:** 800

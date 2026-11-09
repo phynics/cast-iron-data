@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "faiths-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bestow_hope", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "207"
+[[sources]]
+publication = "faiths-of-purity"
+page = "25"
 
 [fields]
 kind = "feat"
@@ -13,8 +19,6 @@ prerequisites = "Improved Channel, channel energy class feature, worshiper of Sa
 prerequisite_feats = ["ref/feat/improved-channel"]
 benefit = "When you heal a creature by channeling positive energy, you also relieve its fear. If a creature you heal is shaken, that condition ends. If the creature is frightened, it becomes shaken instead. If the creature is panicked, it becomes frightened instead."
 +++
-
-**Sources:** Inner Sea Gods pg 207, Faiths of Purity pg 25
 
 You instill hope in the creatures you heal.\
 **Prerequisites:** [Improved Channel](ref/feat/improved-channel),

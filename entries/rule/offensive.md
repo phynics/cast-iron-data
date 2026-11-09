@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "offensive", path = "json/rules_adv_gm03.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "236"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 236
 
 These magic options are most useful for aggressive monsters that use their spells to deal damage.
 

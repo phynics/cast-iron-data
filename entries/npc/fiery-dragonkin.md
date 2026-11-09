@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fiery_dragonkin", path = "json/npcs4.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "174"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "16"
 
 **Challenge rating:** 16
 
-**Sources:** NPC Codex pg 174\
 **XP** 76,800\
 Dwarf [sorcerer](ref/class/sorcerer) 17\
 CE Medium humanoid (dwarf)\

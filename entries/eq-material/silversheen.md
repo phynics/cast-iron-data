@@ -6,13 +6,14 @@ source_ids = ["qadira-gateway-to-the-east"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "silversheen", path = "json/equipment_special_materials.json" },
 ]
+[[sources]]
+publication = "qadira-gateway-to-the-east"
+page = "25"
 
 [fields]
 kind = "item"
 category = "Special Materials"
 +++
-
-**Sources:** Qadira, Gateway to the East pg 25
 
 Blades made of this special metal count as alchemical silver weapons and are immune to rust,
 including that of [rust monsters](ref/monster/rust-monster), the

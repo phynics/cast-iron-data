@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "special_terrain", path = "json/rules_campaign_types04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "211"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 211
 
 Some hexes contain features or resources that impact a kingdom's Economy, Loyalty, Stability, and
 other game statistics. These terrain resources are placed by the GM - not by player characters - for

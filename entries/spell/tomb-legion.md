@@ -9,6 +9,12 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/shambler" },
 ]
+[[sources]]
+publication = "faction-guide"
+page = "61"
+[[sources]]
+publication = "osirion-land-of-the-pharaohs"
+page = "27"
 
 [fields]
 kind = "spell"
@@ -45,8 +51,6 @@ Spell resistance: no
 Effect: three or more advanced mummies, no two of which can be more than 30 ft. apart; see text
 Descriptors: evil
 :::
-
-**Sources:** Faction Guide pg 61, Osirion, Land of the Pharaohs pg 27
 
 This spell functions like [shambler](ref/spell/shambler), except that it calls into existence 1d4+2
 advanced mummies rather than shambling mounds.

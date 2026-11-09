@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "simplified_spellcasting_rules", path = "json/rules_opt_magic01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "144"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 144
 
 To use simplified spellcasting, find the appropriate progression table for your class (or the table
 for a class that normally has the same spell progression as your class) and consult the row for your

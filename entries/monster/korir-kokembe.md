@@ -6,6 +6,9 @@ source_ids = ["inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "korir_kokembe", path = "json/monsters15.json" },
 ]
+[[sources]]
+publication = "inner-sea-bestiary"
+page = "23"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ bulges in its throat._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Inner Sea Bestiary pg 23\
 **Experience points:** 9,600
 
 **Armor class:** 24/10/22

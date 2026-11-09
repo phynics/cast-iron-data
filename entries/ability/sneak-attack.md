@@ -6,12 +6,15 @@ source_ids = ["core-rulebook", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sneak_attack", path = "json/class_abilities6.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+[[sources]]
+publication = "ultimate-combat"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** PRPG Core Rulebook, Ultimate Combat\
 Sneak Attack is a signature ability of the [rogue](ref/class/rogue) (and
 [unchained rogue](ref/class/unchained-rogue)).
 

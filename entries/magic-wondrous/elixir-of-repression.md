@@ -6,6 +6,9 @@ source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elixir_of_repression", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "champions-of-corruption"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint enchantment"
 caster_level = "3rd"
 +++
 
-**Sources:** Champions of Corruption pg 31\
 **Aura** faint enchantment; **CL** 3rd\
 **Slot** none; **Price** 150 gp; **Weight** -
 

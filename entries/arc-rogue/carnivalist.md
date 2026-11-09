@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "animal-archive"
+page = "6"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Rogue talents gained at 2nd, 4th, and 6th level", "Trap sense"]
 alters = ["Sneak attack"]
 +++
 
-**Sources:** Animal Archive pg 6\
 Carnivalists train their miniature minions to perform acts of larceny and often hide their true
 talents behind theatrical sideshows.
 

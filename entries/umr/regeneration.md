@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "regeneration", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "298"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Regeneration (Ex)
 
-**Sources:** Bestiary 5 pg 298\
 A creature with this ability is difficult to kill. Creatures with regeneration heal damage to
 themselves at a fixed rate, as with [fast healing](ref/umr/fast-healing), but they can't die as long
 as their regeneration is still functioning (although creatures with regeneration still fall

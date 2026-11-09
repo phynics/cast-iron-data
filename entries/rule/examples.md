@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "examples", path = "json/rules_opt_magic03.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "165"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 165
 
 To help explain these rules, the following section includes a number of sample wordspells that could
 be created using the words of power system.

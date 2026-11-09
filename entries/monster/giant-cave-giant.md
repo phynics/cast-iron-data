@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_cave_giant", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "127"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ from the bones of past victims._
 
 **Senses:** Darkvision 120 ft., Low-light vision
 
-**Sources:** Bestiary 3 pg 127\
 **Subtype:** Giant
 
 **Experience points:** 2,400

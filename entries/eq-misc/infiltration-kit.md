@@ -6,6 +6,9 @@ source_ids = ["pathfinder-society-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "infiltration_kit", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "pathfinder-society-primer"
+page = "7"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "140 gp"
 weight = "15 lbs."
 +++
 
-**Sources:** Pathfinder Society Primer pg 7\
 **Price** 140 gp; **Weight** 15 lbs.\
 **Category** Kits
 

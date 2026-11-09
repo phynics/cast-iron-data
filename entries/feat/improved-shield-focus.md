@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_shield_focus", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "18"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You reduce the armor check penalty of any shield you are using by 1. 
 +++
 
 ## Improved Shield Focus (Combat)
-
-**Sources:** Armor Master's Handbook pg 18
 
 Your mastery makes the most of your shield.\
 **Prerequisites:** [Shield Focus](ref/feat/shield-focus), base attack bonus +6.\

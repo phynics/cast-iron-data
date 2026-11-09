@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloak_of_eternal_mist", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "blood-of-the-sea"
+page = "20"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration"
 caster_level = "3rd"
 +++
 
-**Sources:** Blood of the Sea pg 20\
 **Aura** faint conjuration; **CL** 3rd\
 **Slot** shoulders; **Price** 3,600 gp; **Weight** 1 lb.
 

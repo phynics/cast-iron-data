@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/false-resurrection" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "214"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Subschool: Healing
 :::
 
 ### Greater False Resurrection
-
-**Sources:** Ultimate Intrigue pg 214
 
 This spell functions as [false resurrection](ref/spell/false-resurrection) except that it calls a
 belier devil with the young simple template to possess the body and all parts of false resurrection

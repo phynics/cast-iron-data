@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/oracle" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "59"
 
 [fields]
 kind = "archetype"
 replaces = ["The bonus spells gained at 1st, 4th, 6th, 8th, 10th, 12th, and 16th levels from the oracle's mystery"]
 +++
 
-**Sources:** Ultimate Magic pg 59\
 Some oracles are possessed by spirits, demons, or similar beings. Instead of the possessed oracle
 drawing her powers from deities, these otherworldly forces work their magic through her.
 

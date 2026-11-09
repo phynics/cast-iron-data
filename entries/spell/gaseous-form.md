@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gaseous_form", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "287"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Saving throw: none
 Spell resistance: no
 Target: willing corporeal creature touched
 :::
-
-**Sources:** PRPG Core Rulebook pg 287
 
 The subject and all its gear become insubstantial, misty, and translucent. Its material armor
 (including natural armor) becomes worthless, though its size, Dexterity, deflection bonuses, and

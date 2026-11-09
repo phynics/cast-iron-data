@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mask_of_ugliness", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "347"
 
 [fields]
 kind = "item"
@@ -15,8 +18,6 @@ slot = "head"
 aura = "moderate transmutation"
 caster_level = "8th"
 +++
-
-**Sources:** Ultimate Equipment pg 347
 
 **Aura** moderate transmutation; **CL** 8th\
 **Slot** head; **Weight** 1 lb.

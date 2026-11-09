@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "zuvembie", path = "json/monsters41.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "289"
 
 [fields]
 kind = "creature"
@@ -39,7 +42,6 @@ hands._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 3 pg 289\
 **Type:** undead
 
 **Experience points:** 1,200

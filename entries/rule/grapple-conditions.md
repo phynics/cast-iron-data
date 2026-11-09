@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grapple_conditions", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "567"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 567
 
 **Grappled:** A grappled creature is restrained by a creature, trap, or effect. Grappled creatures
 cannot move and take a -4 penalty to Dexterity. A grappled creature takes a -2 penalty on all attack

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "angel_dapsara", path = "json/monsters26.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "309"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ motions of her physical arms._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Inner Sea Gods pg 309\
 **Subtype:** Angel, Extraplanar, Good
 
 **Experience points:** 1,200

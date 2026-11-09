@@ -6,6 +6,9 @@ source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cyclops_cyclops_grand_eye", path = "json/monsters06.json" },
 ]
+[[sources]]
+publication = "inner-sea-monster-codex"
+page = "20"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ belt that encircles her chiton._
 
 **Senses:** Low-light vision
 
-**Sources:** Inner Sea Monster Codex pg 20\
 **Subtype:** Giant
 
 **Experience points:** 9,600

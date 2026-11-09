@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/force-punch", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "96"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 96\
 The damage dealt increases to 1d6 points of force damage per caster level (maximum 10d6). If moving
 the target would push it into another creature's space and it has at least 10 feet of distance
 remaining, you can attempt to overrun the other creature, adding your tier on the combat maneuver

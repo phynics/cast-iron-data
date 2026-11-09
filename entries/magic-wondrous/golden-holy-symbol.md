@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golden_holy_symbol", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "152"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "10th"
 +++
 
-**Sources:** Mythic Adventures pg 152\
 **Aura** moderate conjuration; **CL** 10th\
 **Slot** neck; **Price** 10,000 gp; **Weight** 1 lb.
 

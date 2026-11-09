@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fires_friend", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "220"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: no
 Target: you
 Descriptors: fire
 :::
-
-**Sources:** Inner Sea Races pg 220
 
 > _The following spell is available to the indicated race or ethnicity: [Goblin](ref/race/goblin)_
 

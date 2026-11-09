@@ -6,6 +6,9 @@ source_ids = ["pathfinder-74-sword-of-valor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "maw_of_chaos", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "pathfinder-74-sword-of-valor"
+page = "74"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Area: 5-foot-radius spread
 Subschool: Teleportation
 Descriptors: chaotic
 :::
-
-**Sources:** Pathfinder \#74: Sword of Valor pg 74
 
 This spell creates a rip in reality that plunges into the interspatial vortices that constantly
 churn with the raw destructive chaos of the Abyss. Each round at the beginning of your turn, the maw

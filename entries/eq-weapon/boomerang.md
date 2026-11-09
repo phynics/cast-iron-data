@@ -6,15 +6,24 @@ source_ids = ["ranged-tactics-toolbox", "adventurers-armory", "advanced-players-
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boomerang", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "33"
+[[sources]]
+publication = "adventurers-armory"
+page = "2"
+[[sources]]
+publication = "advanced-players-guide"
+page = "176"
+[[sources]]
+publication = "ultimate-equipment"
+page = "21"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "3 lbs."
 +++
-
-**Sources:** Ranged Tactics Toolbox pg 33, Adventurer's Armory pg 2, Advanced Player's Guide pg 176,
-Ultimate Equipment pg 21
 
 The boomerang is primarily a hunting tool, but it is not uncommon for these versatile thrown weapons
 to be carried into battle. A boomerang is made of wood and is flat, with a long haft, a pronounced

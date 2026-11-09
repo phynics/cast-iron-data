@@ -6,6 +6,9 @@ source_ids = ["wardens-of-the-reborn-forge"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "amulet_of_primal_mastery", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "wardens-of-the-reborn-forge"
+page = "38"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong evocation"
 caster_level = "17th"
 +++
 
-**Sources:** Wardens of the Reborn Forge pg 38\
 **Aura** strong evocation; **CL** 17th\
 **Slot** neck; **Price** 24,200 gp; **Weight** -
 

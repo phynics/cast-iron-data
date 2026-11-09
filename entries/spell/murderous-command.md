@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "murderous_command", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "230"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Target: one living creature
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Ultimate Magic pg 230
 
 You give the target a mental urge to kill its nearest ally, which it obeys to the best of its
 ability. The target attacks its nearest ally on its next turn with a melee weapon or natural weapon.

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-71-rasputin-must-die"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daemon_genthodaemon", path = "json/monsters06.json" },
 ]
+[[sources]]
+publication = "pathfinder-71-rasputin-must-die"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ _Jagged bits of metal, armor, and sharp pieces of wire embed the flesh of this t
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#71: Rasputin Must Die! pg 86\
 **Subtype:** Daemon, Evil, Extraplanar
 
 **Experience points:** 1,600

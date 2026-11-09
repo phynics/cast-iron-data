@@ -6,6 +6,9 @@ source_ids = ["seers-of-the-drowned-city"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crow_brothers_cloak", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "seers-of-the-drowned-city"
+page = "53"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Sources:** Seers of the Drowned City pg 53\
 **Aura** moderate transmutation; **CL** 7th\
 **Slot** shoulders; **Price** 8,000 gp; **Weight** 1 lb.
 

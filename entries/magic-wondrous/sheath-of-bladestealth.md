@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sheath_of_bladestealth", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "319"
+[[sources]]
+publication = "advanced-players-guide"
+page = "309"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint illusion"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Equipment pg 319, Advanced Player's Guide pg 309\
 **Aura** faint illusion; **CL** 5th\
 **Slot** none; **Price** 5,000 gp; **Weight** 2 lbs.
 

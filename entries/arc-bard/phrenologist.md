@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "114"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Bardic knowledge", "Well-versed", "Jack-of-all-trades", "Inspire co
 alters = ["Fascinate"]
 +++
 
-**Sources:** Occult Adventures pg 114\
 The phrenologist is an expert at reading creatures' skulls, and he learns to use this knowledge to
 his benefit.
 

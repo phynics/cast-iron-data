@@ -6,6 +6,9 @@ source_ids = ["pirates-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skeleton_crew", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "pirates-of-the-inner-sea"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: none
 Spell resistance: no
 Targets: one or more humanoid corpses touched
 :::
-
-**Sources:** Pirates of the Inner Sea pg 29
 
 This spell turns corpses into skeletons that act as crew and obey your commands to the extent of
 their abilities.

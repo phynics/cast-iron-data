@@ -6,14 +6,15 @@ source_ids = ["paths-of-prestige"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gray_gardener", path = "json/prestige_classes2.json" },
 ]
+[[sources]]
+publication = "paths-of-prestige"
+page = "24"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d8."
 +++
-
-**Sources:** Paths of Prestige pg 24
 
 A secretive society brought into being during the early days of the Red Revolution in Galt, the Gray
 Gardeners are unswerving executioners who maintain their anonymity behind hoods and veils made from

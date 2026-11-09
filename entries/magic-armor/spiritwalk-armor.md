@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spiritwalk_armor", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "142"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong illusion and transmutation"
 caster_level = "11th"
 +++
 
-**Sources:** Mythic Adventures pg 142\
 **Aura** strong illusion and transmutation; **CL** 11th\
 **Slot** armor; **Price** 25,160 gp; **Weight** 15 lbs.
 

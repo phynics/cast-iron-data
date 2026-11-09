@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_spring_attack", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "114"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "A monk of at least 14th level can select this feat as a monk bonus fe
 +++
 
 ## Improved Spring Attack (Combat)
-
-**Sources:** Ultimate Wilderness pg 114
 
 You dart through the press of battle like a breeze, assaulting foes as you pass.\
 **Prerequisites:** Dex 15, [Dodge](ref/feat/dodge), [Mobility](ref/feat/mobility),

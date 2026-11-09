@@ -6,6 +6,9 @@ source_ids = ["undead-slayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "possession_trap", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "undead-slayers-handbook"
+page = "19"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Undead Slayer's Handbook pg 19
 
 You place a protective ward over your spirit that ensnares creatures attempting to possess you.
 Should a creature attempt to possess you (such as via magic jar or a similar effect) while you are

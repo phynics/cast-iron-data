@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "talismanic_components", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "173"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 173
 
 Fantasy and myth are rife with exotic materials used to create magic items: meteoric iron, unicorn
 horn, dragon blood, vampire ichor, and so on. The item creation system in the Core Rulebook is very

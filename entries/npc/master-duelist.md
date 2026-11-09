@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "master_duelist", path = "json/npcs6.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "219"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "19"
 
 **Challenge rating:** 19
 
-**Sources:** NPC Codex pg 219\
 **XP** 204,800\
 Human [fighter](ref/class/fighter) 10/duelist 10\
 N Medium humanoid (human)\

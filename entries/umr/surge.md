@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "surge", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "228"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Surge (Su) \[Mythic\]
 
-**Sources:** Mythic Adventures pg 228\
 The monster can call upon its mythic power to overcome difficult challenges. It can expend one use
 of mythic power to increase any d20 roll it just made by rolling 1d6 and adding the result to the
 d20 roll. Using this ability is an immediate action taken after the original roll is made and the

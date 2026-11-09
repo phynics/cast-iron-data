@@ -6,14 +6,15 @@ source_ids = ["paths-of-prestige"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arclord_of_nex", path = "json/prestige_classes.json" },
 ]
+[[sources]]
+publication = "paths-of-prestige"
+page = "6"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d6."
 +++
-
-**Sources:** Paths of Prestige pg 6
 
 The Arclords of Nex trace their lineage to the personal retinue of the archmage Nex, and though the
 demiurge has been missing for over four millennia, the Arclords still seek to enact his will.

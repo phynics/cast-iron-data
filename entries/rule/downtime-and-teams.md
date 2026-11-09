@@ -6,12 +6,13 @@ source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "downtime_and_teams", path = "json/rules_rulesets01.json" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "10"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Black Markets pg 10
 
 The downtime activities listed in this section can also be performed by your teams. You cannot use a
 team to earn capital on the same day it is engaged in another downtime activity. When a team

@@ -6,12 +6,13 @@ source_ids = ["pathfinder-128-songbird-scion-saboteur"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "relics_in_your_own_campaign", path = "json/rules_opt_magic01.json" },
 ]
+[[sources]]
+publication = "pathfinder-128-songbird-scion-saboteur"
+page = "77"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder \#128: Songbird, Scion, Saboteur pg 77
 
 To implement relics in your own game, you can use the Taldan items presented here, adjusting their
 themes and details as necessary. Alternatively, you can adapt

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/vigilante" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "55"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["4th-, 8th-, 10th-, 14th-, and 16th-level vigilante talents", "Vigil
 alters = ["Skill ranks per level", "Armor and weapon proficiencies", "Vigilante talents"]
 +++
 
-**Sources:** Ultimate Intrigue pg 55\
 Appearing to be an upstanding member of society, the cabalist clandestinely follows the tenets of a
 secret society. Practice with blood sacrifices, necromancy, and shadow magic gives a cabalist a
 reputation as a sinister and dangerous vigilante.

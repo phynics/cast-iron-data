@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/knock", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "99"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 99
 
 The spell unlocks up to three means of closure instead of two. The spell automatically opens locks
 of simple or average quality, without requiring a caster level check to do so). If used on a door

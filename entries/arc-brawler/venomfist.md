@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/brawler" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "43"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Knockout", "close weapon mastery"]
 alters = ["Unarmed strike"]
 +++
 
-**Sources:** Ultimate Wilderness pg 43\
 Thanks to alchemical experiments and rigorous study of venomous creatures, a venomfist has toxic
 unarmed strikes.
 

@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic", "pathfinder-43-haunting-of-harrowstone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animated_objects", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "111"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 111
 
 Not all constructs are built with the [Craft Construct](ref/feat/craft-construct) feat. Spells like
 [animate objects](ref/spell/animate-objects) allow a caster to temporarily animate an existing

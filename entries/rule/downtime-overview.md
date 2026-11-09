@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "downtime_overview", path = "json/rules_subsystems02.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "76"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 76
 
 The key parts of the downtime rules that you'll be referencing often are the following:
 

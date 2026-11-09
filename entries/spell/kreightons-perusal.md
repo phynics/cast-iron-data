@@ -6,6 +6,9 @@ source_ids = ["pathfinder-society-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kreightons_perusal", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "pathfinder-society-primer"
+page = "10"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: Will negates (harmless) (object)
 Spell resistance: yes (harmless) (object)
 Target: book touched
 :::
-
-**Sources:** Pathfinder Society Primer pg 10
 
 You gain a brief but incomplete understanding of one book's contents, equivalent to having skimmed
 its pages for 1 hour. This insight is not sufficient to translate unknown languages, decipher codes,

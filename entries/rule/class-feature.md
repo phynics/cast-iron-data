@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "class_feature", path = "json/rules_adv_pc01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "189"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 189
 
 Many choices you make about your class features can be retrained. It takes 5 days to retrain one
 class feature. Training requires spending time with a character of your class whose class level is

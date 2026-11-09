@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "curing_madness", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "182"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 182
 
 Each madness has a DC representing its strength. Among other things, that DC specifies the saving
 throw the afflicted character must succeed at to recover from the madness. Recovering from a madness

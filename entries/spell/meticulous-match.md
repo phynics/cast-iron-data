@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "meticulous_match", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "220"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Saving throw: Fortitude negates (object)
 Spell resistance: yes (object)
 Target: two objects touched
 :::
-
-**Sources:** Ultimate Intrigue pg 220
 
 You compare two similar items and know if they are identical to one another or not. The spell can
 indicate an identical match, a categorical match, or no match. For instance, blood samples are

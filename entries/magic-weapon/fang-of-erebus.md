@@ -6,6 +6,9 @@ source_ids = ["pathfinder-30-the-twice-damned-prince"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fang_of_erebus", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "pathfinder-30-the-twice-damned-prince"
+page = "64"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Sources:** Pathfinder \#30: The Twice-Damned Prince pg 64\
 **Aura** faint evocation; **CL** 5th\
 **Slot** none; **Price** 9,501 gp; **Weight** 2 lbs.
 

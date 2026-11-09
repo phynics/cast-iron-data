@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lenses_of_darkness", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "100"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Advanced Race Guide pg 100\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** eyes; **Price** 12,000 gp; **Weight** -
 

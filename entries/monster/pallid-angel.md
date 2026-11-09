@@ -6,6 +6,9 @@ source_ids = ["pathfinder-141-last-watch"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pallid_angel", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "pathfinder-141-last-watch"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ soaked and splattered with blood, wine, and other fluids._
 
 **Senses:** Darkvision 60 ft., Detect good, Detect magic, Low-light vision
 
-**Sources:** Pathfinder \#141: Last Watch pg 82\
 **Subtype:** Evil, Extraplanar
 
 **Experience points:** 19,200

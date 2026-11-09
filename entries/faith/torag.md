@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "planar-adventures", "divine-anthology", "pathfi
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "torag", path = "json/faiths8.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "148"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Torag**
 
 **Sub:** Father of Creation
-
-**Sources:** Inner Sea Gods pg 148
 
 ### Details
 

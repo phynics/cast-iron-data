@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ethereal_plane_oa", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "240"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 240
 
 The Ethereal Plane is the seat of emotional forces, the mist-shrouded home of haunts and horrors,
 and the ever-present doorway between the worlds of the Inner Sphere. The Ethereal Plane coexists

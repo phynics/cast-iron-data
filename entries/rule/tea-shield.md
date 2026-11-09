@@ -6,12 +6,13 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tea_shield", path = "json/rules_adv_gm05.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "131"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Equipment pg 131
 
 ### Table 3-6: Specific Shields
 

@@ -6,6 +6,9 @@ source_ids = ["champions-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "counterpoised", path = "json/monster_template1.json" },
 ]
+[[sources]]
+publication = "champions-of-balance"
+page = "33"
 
 [fields]
 kind = "none"
@@ -20,8 +23,6 @@ kind = "none"
 **Maybesummon:** present
 
 **Simple:** present
-
-**Source:** Champions of Balance/33
 
 Applying this template to a summoned creature requires the feat
 [Summon Neutral Monster](ref/feat/summon-neutral-monster).

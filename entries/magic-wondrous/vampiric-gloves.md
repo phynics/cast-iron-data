@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vampiric_gloves", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "239"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Equipment pg 239\
 **Aura** moderate necromancy; **CL** 5th\
 **Slot** hands; **Price** 18,000 gp; **Weight** -
 

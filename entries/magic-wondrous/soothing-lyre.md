@@ -6,6 +6,9 @@ source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soothing_lyre", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "healers-handbook"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration and enchantment"
 caster_level = "13th"
 +++
 
-**Sources:** Healer's Handbook pg 31\
 **Aura** strong conjuration and enchantment; **CL** 13th\
 **Slot** none; **Price** 45,000 gp; **Weight** 3 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ecorche", path = "json/monsters09.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "109"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ pulsing of its massive, exposed muscles._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 3 pg 109\
 **Type:** undead
 
 **Experience points:** 76,800

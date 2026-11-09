@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "angel_movanic_deva", path = "json/monsters26.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "28"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ greatsword._
 
 **Senses:** Darkvision 60 ft., Detect evil, Low-light vision
 
-**Sources:** Bestiary 2 pg 28\
 **Subtype:** Angel, Extraplanar, Good
 
 **Experience points:** 9,600

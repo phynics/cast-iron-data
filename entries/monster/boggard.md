@@ -6,6 +6,12 @@ source_ids = ["bestiary", "pathfinder-2-the-skinsaw-murders"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boggard", path = "json/monsters27.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "37"
+[[sources]]
+publication = "pathfinder-2-the-skinsaw-murders"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -44,7 +50,6 @@ decorate its greenish skin._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder RPG Bestiary pg 37, Pathfinder \#2: The Skinsaw Murders pg 84\
 **Subtype:** Boggard\
 **Experience points:** 600
 

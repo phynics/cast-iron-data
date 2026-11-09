@@ -6,6 +6,9 @@ source_ids = ["pathfinder-66-the-dead-heart-of-xin"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flamma_horacalcum", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "pathfinder-66-the-dead-heart-of-xin"
+page = "58"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "20th"
 +++
 
-**Sources:** Pathfinder \#66: The Dead Heart of Xin pg 58\
 **Aura** moderate evocation; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 7 lbs.
 

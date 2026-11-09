@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/planar-binding-lesser" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "321"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Subschool: Calling
 :::
 
 ### Greater Planar Binding
-
-**Sources:** PRPG Core Rulebook pg 321
 
 This spell functions like [lesser planar binding](ref/spell/planar-binding-lesser), except that you
 may call a single creature of 18 HD or less, or up to three creatures of the same kind whose Hit

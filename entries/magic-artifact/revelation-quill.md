@@ -6,6 +6,12 @@ source_ids = ["rise-of-the-runelords-anniversary-edition", "pathfinder-5-sins-of
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "revelation_quill", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "rise-of-the-runelords-anniversary-edition"
+page = "422"
+[[sources]]
+publication = "pathfinder-5-sins-of-the-saviors"
+page = "17"
 
 [fields]
 kind = "item"
@@ -17,8 +23,6 @@ aura = "strong divination"
 caster_level = "20th"
 +++
 
-**Sources:** Rise of the Runelords Anniversary Edition pg 422, Pathfinder \#5: Sins of the Saviors
-pg 17\
 **Aura** strong divination; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 3 lbs.
 

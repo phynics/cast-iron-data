@@ -6,6 +6,9 @@ source_ids = ["classic-treasures-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jorngarls_harm", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "classic-treasures-revisited"
+page = "57"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong necromancy [evil] and transmutation"
 caster_level = "18th"
 +++
 
-**Sources:** Classic Treasures Revisited pg 57\
 **Aura** strong necromancy \[evil\] and transmutation; **CL** 18th\
 **Slot** none; **Price** 150,320 gp; **Weight** 24 lbs.
 

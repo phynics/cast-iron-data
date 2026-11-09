@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "pathfinder-47-ashes-at-dawn"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "living_topiary", path = "json/monsters16.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "181"
+[[sources]]
+publication = "pathfinder-47-ashes-at-dawn"
+page = "80"
 
 [fields]
 kind = "creature"
@@ -41,7 +47,6 @@ _This lumbering topiary has the rough shape of an elephant, complete with brambl
 
 **Type:** plant
 
-**Sources:** Bestiary 4 pg 181, Pathfinder \#47: Ashes at Dawn pg 80\
 **Experience points:** 1,200
 
 **Armor class:** 16/12/14

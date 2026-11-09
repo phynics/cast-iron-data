@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "natural_invisibility", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "297"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Natural Invisibility (Ex or Su)
 
-**Sources:** Bestiary 4 pg 297\
 This ability is constant - the creature remains invisible at all times, even when attacking. As this
 ability is inherent, it is not subject to the [invisibility purge](ref/spell/invisibility-purge)
 spell.

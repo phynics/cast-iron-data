@@ -6,6 +6,9 @@ source_ids = ["pathfinder-135-runeplague"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ardoc_moilant", path = "json/monsters02.json" },
 ]
+[[sources]]
+publication = "pathfinder-135-runeplague"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ head, and iron pincers at the ends of its powerful arms snap open and shut._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#135: Runeplague pg 84\
 **Experience points:** 9,600
 
 **Armor class:** 24/8/24

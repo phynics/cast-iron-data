@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "everwake_amulet", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "257"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration"
 caster_level = "2nd"
 +++
 
-**Sources:** Ultimate Equipment pg 257\
 **Aura** faint conjuration; **CL** 2nd\
 **Slot** neck; **Price** 8,000 gp; **Weight** 1 lb.
 

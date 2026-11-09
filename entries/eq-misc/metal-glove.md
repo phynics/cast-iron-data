@@ -6,6 +6,9 @@ source_ids = ["dungeoneers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "metal_glove", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "dungeoneers-handbook"
+page = "24"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "120 gp"
 weight = "10 lbs."
 +++
 
-**Sources:** Dungeoneer's Handbook pg 24\
 **Price** 120 gp; **Weight** 10 lbs.\
 **Category** Clothing
 

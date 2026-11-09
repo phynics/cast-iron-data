@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_bull_rush", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "126"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ normal = "You provoke an attack of opportunity when performing a bull rush comba
 +++
 
 ## Improved Bull Rush (Combat)
-
-**Sources:** PRPG Core Rulebook pg 126
 
 You are skilled at pushing your foes around.\
 **Prerequisites:** Str 13, [Power Attack](ref/feat/power-attack), base attack bonus +1.\

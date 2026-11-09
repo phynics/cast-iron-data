@@ -6,6 +6,9 @@ source_ids = ["pathfinder-56-raiders-of-the-fever-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "canopy_creeper", path = "json/monsters04.json" },
 ]
+[[sources]]
+publication = "pathfinder-56-raiders-of-the-fever-sea"
+page = "80"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ air._
 
 **Type:** plant
 
-**Sources:** Pathfinder \#56: Raiders of the Fever Sea pg 80\
 **Experience points:** 4,800
 
 **Armor class:** 23/11/20

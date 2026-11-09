@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alpha_instinct", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "227"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Target: you
 Subschool: Charm
 Descriptors: mind-affecting
 :::
-
-**Sources:** Ultimate Wilderness pg 227
 
 Animals perceive you as a social superior. The starting attitude of animals you interact with
 improves by one step, and you gain a +2 morale bonus on Handle Animal checks. Helpful animals

@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "focused_spell", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "161"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "When casting a spell that affects or targets more than one creature, 
 +++
 
 ## Focused Spell (Metamagic)
-
-**Sources:** Advanced Player's Guide pg 161
 
 When you cast a spell that affects more than one creature, one opponent finds it more difficult to
 resist.\

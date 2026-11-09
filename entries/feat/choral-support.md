@@ -6,6 +6,9 @@ source_ids = ["distant-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "choral_support", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "distant-realms"
+page = "32"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "As a standard action, you can attempt a DC 10 Perform (sing) check to
 +++
 
 ## Choral Support (Teamwork)
-
-**Sources:** Distant Realms pg 32
 
 Raising your voice together with your allies', you wield sound itself as a weapon.\
 **Prerequisites:** Perform (sing) 3 ranks.\

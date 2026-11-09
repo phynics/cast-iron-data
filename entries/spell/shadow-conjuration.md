@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_conjuration", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "340"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Effect: see text
 Subschool: Shadow
 Descriptors: shadow
 :::
-
-**Sources:** PRPG Core Rulebook pg 340
 
 You use material from the Plane of Shadow to shape quasi-real illusions of one or more creatures,
 objects, or forces. Shadow conjuration can mimic any sorcerer or wizard conjuration (summoning) or

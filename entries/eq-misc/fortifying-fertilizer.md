@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fortifying_fertilizer", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "24"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "120 gp"
 weight = "2 lbs."
 +++
 
-**Sources:** Ultimate Wilderness pg 24\
 **Price** 120 gp; **Weight** 2 lbs.\
 **Category** Alchemical Remedies
 

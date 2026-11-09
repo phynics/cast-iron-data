@@ -6,13 +6,17 @@ source_ids = ["ultimate-equipment", "advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wyroot", path = "json/equipment_special_materials.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "52"
+[[sources]]
+publication = "advanced-race-guide"
+page = "27"
 
 [fields]
 kind = "item"
 category = "Special Materials"
 +++
-
-**Sources:** Ultimate Equipment pg 52, Advanced Race Guide pg 27
 
 The root of the wyrwood tree has a peculiar quality. When a weapon constructed of wyroot confirms a
 critical hit, it absorbs some of the life force of the creature hit. The creature hit is unharmed

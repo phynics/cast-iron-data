@@ -6,6 +6,9 @@ source_ids = ["demon-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "anti_summoning_shield", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "demon-hunters-handbook"
+page = "26"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: Will negates
 Spell resistance: yes
 Area: 50-ft.-radius
 :::
-
-**Sources:** Demon Hunter's Handbook pg 26
 
 Within the area of effect, this spell impedes the use of spells of the summoning subschool and other
 effects that summon creatures. Any such spells,

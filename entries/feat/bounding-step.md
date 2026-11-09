@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bounding_step", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-wild"
+page = "22"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You gain a +2 bonus on Acrobatics checks to keep your balance and Ref
 normal = "Nimble Moves allows you to move through 5 feet of difficult terrain each round as if it were normal terrain."
 special = "If you have the favored terrain class feature, you do not select a terrain with this feat. Instead, this feat's increased movement through difficult terrain applies to all of your favored terrains."
 +++
-
-**Sources:** Heroes of the Wild pg 22
 
 You can leap through difficult terrain like a deer or elk.\
 **Prerequisites:** Dex 15, [Nimble Moves](ref/feat/nimble-moves).\

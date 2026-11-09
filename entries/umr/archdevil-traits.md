@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "archdevil_traits", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "290"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Archdevil Traits (Ex, Sp, or Su)
 
-**Sources:** Bestiary 6 pg 290\
 An archdevil rules a domain in Hell. Archdevils are lawful evil outsiders with a minimum CR of 26.
 Archdevils share the following traits and have the devil subtype (unless otherwise noted in a
 creature's entry).

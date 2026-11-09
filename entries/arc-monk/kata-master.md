@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/monk" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "105"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Stunning fist", "Still mind", "Wholeness of body", "Quivering palm"
 alters = ["Ki pool"]
 +++
 
-**Sources:** Advanced Class Guide pg 105\
 The kata master takes the visual aspect of his martial art to its logical extreme, harnessing her
 flowing movements and skilled maneuvers as a psychological weapon against her enemies. A kata master
 forsakes the mental discipline of her more contemplative brethren in favor of these flamboyant

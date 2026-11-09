@@ -6,12 +6,14 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aff_i_tradition", path = "json/rules_subsystems01.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "54"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Adventurer's Guide pg 54\
 **Pathfinder Name:** Cyphermages\
 **Scope:** national\
 **Alignment:** N\

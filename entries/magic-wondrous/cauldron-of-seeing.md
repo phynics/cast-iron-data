@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cauldron_of_seeing", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "287"
+[[sources]]
+publication = "advanced-players-guide"
+page = "303"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate divination"
 caster_level = "10th"
 +++
 
-**Sources:** Ultimate Equipment pg 287, Advanced Player's Guide pg 303\
 **Aura** moderate divination; **CL** 10th\
 **Slot** none; **Price** 42,000 gp; **Weight** 5 lbs.
 

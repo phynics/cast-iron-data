@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "illusive_gnome_style", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "12"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While feinting with a melee weapon that has \"gnome\" in its name, yo
 +++
 
 ## Illusive Gnome Style (Combat, Style)
-
-**Sources:** Weapon Master's Handbook pg 12
 
 The chaotic, somewhat random design of your racial weapons makes it easy to combine them with
 illusions.\

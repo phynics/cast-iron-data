@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tunche", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "265"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ one deadly predator._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Bestiary 4 pg 265\
 **Experience points:** 102,400
 
 **Armor class:** 31/13/26

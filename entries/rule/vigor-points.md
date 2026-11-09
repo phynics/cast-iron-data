@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vigor_points", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "206"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 206
 
 Vigor represents a creature's ability to avoid the majority of actual physical damage it might take
 from an attack. When a creature takes damage, the damage typically reduces its vigor points first.

@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "anderos_salve_and_mulibrous_tincture", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "168"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "5 gp"
 weight = "-"
 +++
 
-**Sources:** Adventurer's Guide pg 168\
 **Price** 5 gp; **Weight** -\
 **Category** Alchemical Remedies
 

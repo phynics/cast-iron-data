@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "expanded_craft", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "51"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 51
 
 An understanding of the properties and quality of an object comes part and parcel with the ability
 to craft it. Some of these checks could take extended periods of time, especially involved tasks

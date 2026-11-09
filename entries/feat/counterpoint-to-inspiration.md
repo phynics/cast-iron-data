@@ -6,6 +6,9 @@ source_ids = ["cohorts-and-companions"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "counterpoint_to_inspiration", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "cohorts-and-companions"
+page = "7"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When an ally with this feat is within 60 feet and uses a bardic perfo
 +++
 
 ## Counterpoint to Inspiration (Teamwork)
-
-**Sources:** Cohorts and Companions pg 7
 
 As your allies' morale swells, your enemies falter.\
 **Prerequisites:** [Basic Harmony](ref/feat/basic-harmony),

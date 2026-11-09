@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "provoking_a_nemesis", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "136"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 136
 
 The tale of a character and her nemesis is a back-and-forth exchange in which both always try to
 gain the upper hand. This leads to the nemesis plotting stratagems of escalating severity until one

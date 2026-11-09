@@ -6,15 +6,24 @@ source_ids = ["ultimate-equipment", "pathfinder-campaign-setting", "adventurers-
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "khopesh", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "20"
+[[sources]]
+publication = "pathfinder-campaign-setting"
+page = "209"
+[[sources]]
+publication = "adventurers-armory"
+page = "33"
+[[sources]]
+publication = "advanced-players-guide"
+page = "178"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "8 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 20, Pathfinder Campaign Setting pg 209, Adventurer's Armory pg
-33, Advanced Player's Guide pg 178
 
 This heavy blade has a convex curve near the end, making its overall shape similar to that of a
 [battleaxe](ref/eq-weapon/battleaxe). A typical khopesh is 20 to 24 inches in length. Its curved

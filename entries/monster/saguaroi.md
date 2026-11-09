@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "saguaroi", path = "json/monsters37.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "229"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ sprout from its flesh._
 
 **Type:** plant
 
-**Sources:** Bestiary 4 pg 229\
 **Experience points:** 1,600
 
 **Armor class:** 18/14/14

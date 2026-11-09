@@ -6,6 +6,9 @@ source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "poison_vial_of_distance", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "magical-marketplace"
+page = "25"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Sources:** Magical Marketplace pg 25\
 **Aura** faint necromancy; **CL** 3rd\
 **Slot** none; **Price** 3,000 gp; **Weight** 1 lb.
 

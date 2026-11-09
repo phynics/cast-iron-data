@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/levitate", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "99"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 99\
 Instead of affecting one creature, you can affect a number of targets up to your caster level, but
 the total weight supported can be no more than 100 pounds per caster level. You can spend a move
 action to mentally direct all targets, but you must move all of them identically.

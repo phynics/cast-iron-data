@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sirens_bed_anemone", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "248"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ darts from the center._
 
 **Perception:** +1
 
-**Sources:** Bestiary 6 pg 248\
 **Subtype:** Aquatic
 
 **Type:** vermin

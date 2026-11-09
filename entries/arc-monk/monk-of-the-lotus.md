@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/monk" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "114"
 
 [fields]
 kind = "archetype"
 replaces = ["Stunning Fist", "Abundant step", "Quivering palm", "Tongue of the sun and the moon"]
 +++
 
-**Sources:** Advanced Player's Guide pg 114\
 Monks are warriors who hone their bodies into deadly weapons, but some monks eschew violence in
 favor of a more peaceful philosophy. While a monk of the lotus realizes that combat cannot always be
 avoided - and is more than capable in a fight - he understands that all creatures are connected, and

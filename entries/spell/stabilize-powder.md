@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stabilize_powder", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "245"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: Will negates (harmless) (object)
 Spell resistance: yes (harmless) (object)
 Target: 1 loaded firearm
 :::
-
-**Sources:** Ultimate Combat pg 245
 
 Ammunition currently loaded in the target firearm is less prone to misfire. Decrease the misfire
 range by 1 + 1 per five caster levels (maximum +5, minimum misfire 0) for the ammunition currently

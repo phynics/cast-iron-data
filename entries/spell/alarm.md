@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "villain-codex", "ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alarm", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "240"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Saving throw: none
 Spell resistance: no
 Area: 20-ft.-radius emanation centered on a point in space
 :::
-
-**Sources:** PRPG Core Rulebook pg 240
 
 Alarm creates a subtle ward on an area you select. Once the spell effect is in place, it thereafter
 sounds a mental or audible alarm each time a creature of Tiny or larger size enters the warded area

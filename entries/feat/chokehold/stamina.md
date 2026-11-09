@@ -6,10 +6,12 @@ source_ids = ["pathfinder-unchained"]
 relations = [
   { kind = "addon", target = "ref/feat/chokehold", label = "stamina" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "115"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder Unchained pg 115\
 When you attempt a chokehold, you can spend 2 stamina points to reduce the penalty to -1.

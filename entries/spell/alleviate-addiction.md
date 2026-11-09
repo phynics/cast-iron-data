@@ -6,6 +6,9 @@ source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alleviate_addiction", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "19"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Spell resistance: yes (harmless)
 Target: creature touched
 Subschool: Healing
 :::
-
-**Sources:** Black Markets pg 19
 
 The subject ignores the effects of addictions. The subject can naturally recover from damage dealt
 by the drug if she is under the effects of this spell for the entire duration of her rest.

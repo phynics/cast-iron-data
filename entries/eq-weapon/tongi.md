@@ -6,14 +6,15 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tongi", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "19"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "4 lbs."
 +++
-
-**Sources:** Melee Tactics Toolbox pg 19
 
 This rare weapon resembles a battleaxe with wedges cut out of the head, presenting four sharp points
 that splay from the handle rather than a single convex blade.

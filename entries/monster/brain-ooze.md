@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brain_ooze", path = "json/monsters04.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "43"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ _Two slimy tentacles protrude from the sides of this brain-shaped mass of quiver
 
 **Perception:** +11
 
-**Sources:** Bestiary 3 pg 43\
 **Size:** tiny
 
 **Experience points:** 3,200

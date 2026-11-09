@@ -6,6 +6,9 @@ source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "imbue_hex", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "advanced-class-origins"
+page = "31"
 
 [fields]
 kind = "spell"
@@ -37,8 +40,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes
 Target: creature touched; see text
 :::
-
-**Sources:** Advanced Class Origins pg 31
 
 You transfer a single hex you know to the target, and give that target the ability to use the hex.
 The transferred hex's variable characteristics function according to your level, not the level of

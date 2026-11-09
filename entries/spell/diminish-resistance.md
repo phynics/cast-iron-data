@@ -6,6 +6,12 @@ source_ids = ["planar-adventures", "monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "diminish_resistance", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "40"
+[[sources]]
+publication = "monster-hunters-handbook"
+page = "30"
 
 [fields]
 kind = "spell"
@@ -48,8 +54,6 @@ Saving throw: Fortitude negates
 Spell resistance: yes
 Target: one creature
 :::
-
-**Sources:** Planar Adventures pg 40, Monster Hunter's Handbook pg 30
 
 You weaken a creature's resistance against one energy type you select: acid, cold, electricity,
 fire, or sonic. The creature's resistance to that energy type decreases by 5 (minimum 0), plus an

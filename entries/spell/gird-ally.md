@@ -6,6 +6,9 @@ source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gird_ally", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "monster-summoners-handbook"
+page = "22"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: none
 Spell resistance: no
 Target: one summoned creature you control/level, no two of which can be more than 30 ft. apart
 :::
-
-**Sources:** Monster Summoner's Handbook pg 22
 
 You create a magical field around summoned creatures you control that deflects attacks made against
 them. The targets gain a deflection bonus to their AC equal to 1 + 1 for every 6 caster levels you

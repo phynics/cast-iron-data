@@ -6,6 +6,9 @@ source_ids = ["undead-unleashed"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hemneteps_chariot", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "undead-unleashed"
+page = "43"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Sources:** Undead Unleashed pg 43\
 **Aura** moderate transmutation; **CL** 9th\
 **Slot** none; **Price** 45,000 gp; **Weight** 1/2 lb.
 

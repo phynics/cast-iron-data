@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wt_5", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "227"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 227
 
 ### Table 7-64: Sky
 

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/shifter" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "80"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Wild shape", "shifter aspect", "Defensive instinct", "Chimeric aspe
 alters = ["Alignment", "Shifter claws"]
 +++
 
-**Sources:** Ultimate Wilderness pg 80\
 By forging dark pacts with extraplanar forces, fiendflesh shifters invoke sinister powers to assume
 the strengths of daemons, demons, or devils. Fiendflesh shifters care nothing for the natural world
 and are instead consumed by an ever-growing lust for power at any price. To other shifters, the

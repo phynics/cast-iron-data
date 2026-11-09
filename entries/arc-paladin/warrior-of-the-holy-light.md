@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/paladin" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "118"
 
 [fields]
 kind = "archetype"
 replaces = ["Spells", "Aura of faith"]
 +++
 
-**Sources:** Advanced Player's Guide pg 118\
 Some paladins use their gifts to focus on the holy light that shines within their souls. With the
 gifts of purity and redemption, these paladins spend much of their lives helping others find the
 true path. Unleashing this power takes patience and comes at a steep price. Warriors of the holy

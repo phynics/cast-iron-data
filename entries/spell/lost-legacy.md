@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lost_legacy", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "22"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Spell resistance: yes
 Target: creature touched
 Descriptors: curse, mind-affecting
 :::
-
-**Sources:** Magic Tactics Toolbox pg 22
 
 You inflict a powerful curse on a touched creature that causes others to quickly forget positive
 aspects of their interactions with the target. The target cannot attempt a Diplomacy (or

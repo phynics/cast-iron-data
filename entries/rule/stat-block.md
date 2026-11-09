@@ -6,12 +6,13 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stat_block", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "5"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder RPG Bestiary pg 5
 
 This is where you'll find all of the information you need to run the monster in an encounter. A stat
 block is organized as follows. Note that in cases where a line in a stat block has no value, that

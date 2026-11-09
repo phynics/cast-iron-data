@@ -6,12 +6,13 @@ source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sample_contracts", path = "json/rules_rulesets01.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "205"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Book of the Damned pg 205
 
 Though the denizens of Hell share many goals, their schemes are far from uniform. The infernal
 contracts they create vary widely in cost, effect, terms, and methods of escape. The following are

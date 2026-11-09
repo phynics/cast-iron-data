@@ -6,6 +6,9 @@ source_ids = ["pathfinder-104-wrath-of-thrune"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "honors_panoply", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "pathfinder-104-wrath-of-thrune"
+page = "59"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Sources:** Pathfinder \#104: Wrath of Thrune pg 59\
 **Aura** faint abjuration; **CL** 5th\
 **Slot** armor; **Price** 12,550 gp; **Weight** 50 lbs.
 

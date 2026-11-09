@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gaining_experience_for_leadership", path = "json/rules_campaign_types05.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "215"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 215
 
 As the kingdom grows, the party gains experience points the first time it reaches each of the
 following milestones.

@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "infusion_wild_talents", path = "json/class_abilities2.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "17"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Infusion Wild Talents
 
-**Sources:** Occult Adventures pg 17\
 Infusion wild talents change the way kineticists use their kinetic blasts.
 
 |Infusion|Type|Elements|Level|Burn|Prerequisites|Associated Blasts|

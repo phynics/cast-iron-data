@@ -6,6 +6,9 @@ source_ids = ["pathfinder-95-anvil-of-fire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "zursvaater", path = "json/faiths9.json" },
 ]
+[[sources]]
+publication = "pathfinder-95-anvil-of-fire"
+page = "66"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Zursvaater**
 
 **Sub:** Prince of Steel
-
-**Sources:** Pathfinder \#95: Anvil of Fire pg 66
 
 ### Details
 

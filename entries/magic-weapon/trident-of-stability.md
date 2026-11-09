@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trident_of_stability", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "163"
+[[sources]]
+publication = "advanced-players-guide"
+page = "291"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Ultimate Equipment pg 163, Advanced Player's Guide pg 291\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** none; **Price** 9,815 gp; **Weight** 4 lbs.
 

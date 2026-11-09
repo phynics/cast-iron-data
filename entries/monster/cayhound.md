@@ -6,6 +6,9 @@ source_ids = ["inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cayhound", path = "json/monsters04.json" },
 ]
+[[sources]]
+publication = "inner-sea-bestiary"
+page = "8"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ the distant sound of thunder._
 
 **Senses:** Darkvision 60 ft., Scent
 
-**Sources:** Inner Sea Bestiary pg 8\
 **Experience points:** 1,600
 
 **Armor class:** 18/12/16

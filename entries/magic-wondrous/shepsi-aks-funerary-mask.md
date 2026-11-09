@@ -6,6 +6,9 @@ source_ids = ["undead-unleashed"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shepsi_aks_funerary_mask", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "undead-unleashed"
+page = "43"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate varied"
 caster_level = "9th"
 +++
 
-**Sources:** Undead Unleashed pg 43\
 **Aura** moderate varied; **CL** 9th\
 **Slot** head; **Price** 9,000 gp; **Weight** 1 lb.
 

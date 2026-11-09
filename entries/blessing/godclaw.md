@@ -6,13 +6,15 @@ source_ids = ["disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "godclaw", path = "json/class_ability_blessings.json" },
 ]
+[[sources]]
+publication = "disciples-doctrine"
+page = "14"
 
 [fields]
 kind = "class_option"
 group = "warpriest-blessing"
 +++
 
-**Sources:** Disciple's Doctrine pg 14\
 **Deities:** [Abadar](ref/faith/abadar), [Asmodeus](ref/faith/asmodeus),
 [Iomedae](ref/faith/iomedae), [Irori](ref/faith/irori), [Torag](ref/faith/torag)
 

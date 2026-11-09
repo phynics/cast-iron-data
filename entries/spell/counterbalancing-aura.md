@@ -6,6 +6,12 @@ source_ids = ["planar-adventures", "champions-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "counterbalancing_aura", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "40"
+[[sources]]
+publication = "champions-of-balance"
+page = "26"
 
 [fields]
 kind = "spell"
@@ -37,8 +43,6 @@ Saving throw: see text
 Spell resistance: yes
 Target: one creature/level in a 20-ft.-radius burst centered on you
 :::
-
-**Sources:** Planar Adventures pg 40, Champions of Balance pg 26
 
 An oscillating bronze glow surrounds the targets, protecting them from attacks, granting them
 resistance to spells cast by neutral creatures, and sickening or nauseating neutral creatures that

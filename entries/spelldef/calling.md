@@ -6,14 +6,15 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "calling", path = "json/spell_definitions.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "209"
 
 [fields]
 kind = "none"
 +++
 
 ## Calling (subschool of magic)
-
-**Sources:** PRPG Core Rulebook pg 209
 
 A calling spell transports a creature from another plane to the plane you are on. The spell grants
 the creature the one-time ability to return to its plane of origin, although the spell may limit the

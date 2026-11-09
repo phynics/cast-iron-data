@@ -6,12 +6,14 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "caligni", path = "json/races.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "66"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Bestiary 5 pg 66\
 The name "caligni" is an ancient term for the races now collectively known as dark folk, sometimes
 still used by dark folk communities to refer to themselves. Untold generations ago, these
 subterranean dwellers aspired to grand destinies, and might have achieved them if not for the

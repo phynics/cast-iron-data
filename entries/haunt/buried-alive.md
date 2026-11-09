@@ -6,12 +6,14 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "buried_alive", path = "json/haunts.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "175"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Adventures pg 175\
 The spirits of those unfortunate souls who are buried alive sometimes clamber to force others to
 share their fate.
 

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-72-the-witch-queens-revenge"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "winters_reach", path = "json/magic_staff.json" },
 ]
+[[sources]]
+publication = "pathfinder-72-the-witch-queens-revenge"
+page = "63"
 
 [fields]
 kind = "item"
@@ -16,8 +19,6 @@ slot = "none"
 aura = "strong evocation and transmutation"
 caster_level = "19th"
 +++
-
-**Sources:** Pathfinder \#72: The Witch Queen's Revenge pg 63
 
 **Aura** strong evocation and transmutation; **CL** 19th\
 **Slot** none; **Price** 228,000 gp; **Weight** 5 lbs.

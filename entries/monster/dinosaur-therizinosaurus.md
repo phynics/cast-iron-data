@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dinosaur_therizinosaurus", path = "json/monsters08.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ _This feathered bipedal saurian looks somewhat comical - save for its outlandish
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Bestiary 5 pg 84\
 **Experience points:** 9,600
 
 **Armor class:** 24/9/21

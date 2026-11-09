@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weapon_types", path = "json/rules_basics02.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "140"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 140
 
 **Simple, Martial, and Exotic Weapons:** Anybody but a druid, monk, or wizard is proficient with all
 simple weapons. Barbarians, fighters, paladins, and rangers are proficient with all simple and all

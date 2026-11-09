@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "geist", path = "json/monsters11.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "124"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ _This disembodied phantom wears black robes that swirl around a maw of sharp tee
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 4 pg 124\
 **Subtype:** Incorporeal
 
 **Type:** undead

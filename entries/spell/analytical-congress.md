@@ -6,12 +6,14 @@ source_ids = ["occult-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "analytical_congress", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "occult-realms"
+page = "54"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Occult Realms pg 54\
 **School** transmutation; **Level** 4\
 **Casting Time** 40 minutes\
 **Components** V, S, M (a spool of copper wire and incense worth 500 gp), SC (at least 2, up to 8)\

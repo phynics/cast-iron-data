@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "companion_life_link", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "177"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
 Target: one of your animal companions or your familiar
 :::
-
-**Sources:** Advanced Class Guide pg 177
 
 You create a life link between yourself and the target. You sense whenever the target is wounded and
 are made immediately aware if the target is slain. If you are wounded or slain, the target is made

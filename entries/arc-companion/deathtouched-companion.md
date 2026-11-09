@@ -6,13 +6,15 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deathtouched_companion", path = "json/archetypes_COMPANION.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "187"
 
 [fields]
 kind = "archetype"
 replaces = ["Share Spells", "Devotion"]
 +++
 
-**Sources:** Ultimate Wilderness pg 187\
 Whether the result of a partially successful attempt at revival, a strange blight, or repeated
 exposure to undead, deathtouched companions are living animals with a trace of the undead, somewhat
 like [dhampirs](ref/race/dhampir).

@@ -6,12 +6,13 @@ source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heist", path = "json/rules_rulesets01.json" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "11"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Black Markets pg 11
 
 One or more of your loyal teams [infiltrate](ref/rule/infiltrate) (see next topic) an organization
 or property to steal valuables or information. You must spend 1 day of downtime and succeed at an

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_illusion_of_free_choice", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "28"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 28
 
 This is the finest of techniques when it works, though it can be overplayed. The illusion of free
 choice is really a matter of the GM convincing the PCs to do exactly what he wants while making them

@@ -6,12 +6,12 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fleshwarp", path = "json/monster_families2.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Bestiary 4
 
 The most fearsome drow aren't satisfied with the mere defeat and death of their foes, preferring to
 defile their enemies in horrific ways. The most gruesome form of transformation assaults their

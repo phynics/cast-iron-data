@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "probe_history", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "222"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: Will negates
 Spell resistance: yes
 Targets: one creature
 :::
-
-**Sources:** Inner Sea Races pg 222
 
 > _The following spell is available to the indicated race or ethnicity:
 > [Half-Elf](ref/race/half-elf)_

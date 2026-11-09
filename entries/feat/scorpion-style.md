@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scorpion_style", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "132"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "To use this feat, you must make a single unarmed attack as a standard
 +++
 
 ## Scorpion Style (Combat)
-
-**Sources:** PRPG Core Rulebook pg 132
 
 You can perform an unarmed strike that greatly hampers your target's movement.\
 **Prerequisites:** [Improved Unarmed Strike](ref/feat/improved-unarmed-strike).\

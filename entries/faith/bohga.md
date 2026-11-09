@@ -6,6 +6,9 @@ source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bohga", path = "json/faiths2.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "110"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Bohga**
 
 **Sub:** The Treasurer
-
-**Sources:** Book of the Damned pg 110
 
 ### Details
 

@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "withdraw_affliction", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "191"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: none
 Spell resistance: yes
 Target: one afflicted creature
 :::
-
-**Sources:** Occult Adventures pg 191
 
 You push your hand into the subject, then withdraw an affliction from the body of the sufferer as a
 tangible object. This extraction appears as a slimy mass of flesh. The target creature is cured as

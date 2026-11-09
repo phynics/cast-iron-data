@@ -6,6 +6,9 @@ source_ids = ["taldor-echoes-of-glory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_speech", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "taldor-echoes-of-glory"
+page = "25"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: you and one other creature
 :::
-
-**Sources:** Taldor, Echoes of Glory pg 25
 
 You can securely communicate with one creature within range. So long as your target remains within
 10 feet of you, you and it can speak freely to each other without fear of being overheard.

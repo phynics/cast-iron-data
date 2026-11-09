@@ -6,6 +6,9 @@ source_ids = ["animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "llama", path = "json/monsters16.json" },
 ]
+[[sources]]
+publication = "animal-archive"
+page = "28"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ _This shaggy, hoofed quadruped sports an elongated neck and large, crooked teeth
 
 **Senses:** Low-light vision
 
-**Sources:** Animal Archive pg 28\
 **Experience points:** 200
 
 **Armor class:** 11/11/10

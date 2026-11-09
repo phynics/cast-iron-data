@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wasp_wasp_swarm", path = "json/monsters25.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "275"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ _A low, ominous buzz announces the arrival of a mass of many thousands of angry,
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 275\
 **Subtype:** Swarm
 
 **Type:** vermin

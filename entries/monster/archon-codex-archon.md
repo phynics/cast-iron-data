@@ -6,6 +6,9 @@ source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "archon_codex_archon", path = "json/monsters02.json" },
 ]
+[[sources]]
+publication = "monster-summoners-handbook"
+page = "24"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ watchfully as though alive._
 
 **Senses:** Darkvision 60 ft., Detect evil, Detect magic, Low-light vision
 
-**Sources:** Monster Summoner's Handbook pg 24\
 **Subtype:** Archon, Extraplanar, Good, Lawful
 
 **Experience points:** 1,600

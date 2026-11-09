@@ -6,6 +6,9 @@ source_ids = ["pathfinder-society-field-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sharesister", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "pathfinder-society-field-guide"
+page = "58"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: you and one creature of your gender
 :::
-
-**Sources:** Pathfinder Society Field Guide pg 58
 
 Ithuna Vardsdottir claims to have unearthed this ancient prayer in a ruined temple of Desna, though
 Pathfinders have reported the use of similar magic in Irrisen among the White Witches. While the

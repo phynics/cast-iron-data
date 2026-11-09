@@ -6,6 +6,9 @@ source_ids = ["seers-of-the-drowned-city"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sorrow_stitcher", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "seers-of-the-drowned-city"
+page = "61"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ what appear to be the shadowy silhouettes of scissors and a sewing needle._
 
 **Senses:** Low-light vision
 
-**Sources:** Seers of the Drowned City pg 61\
 **Experience points:** 4,800
 
 **Armor class:** 22/16/16

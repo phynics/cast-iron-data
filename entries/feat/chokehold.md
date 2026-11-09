@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chokehold", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "92"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While you have an opponent up to one size category larger than you gr
 +++
 
 ## Chokehold (Combat)
-
-**Sources:** Ultimate Combat pg 92
 
 While grappling, you can cut off an opponent's air and blood supply.\
 **Prerequisites:** [Improved Grapple](ref/feat/improved-grapple),

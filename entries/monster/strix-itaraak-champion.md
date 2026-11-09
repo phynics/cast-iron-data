@@ -6,6 +6,9 @@ source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "strix_itaraak_champion", path = "json/monsters39.json" },
 ]
+[[sources]]
+publication = "inner-sea-monster-codex"
+page = "56"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ keeps his bow at the ready._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Inner Sea Monster Codex pg 56\
 **Subtype:** Strix\
 **Experience points:** 6,400
 

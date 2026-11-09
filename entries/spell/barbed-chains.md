@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "barbed_chains", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "109"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Effect: a chain sharpened at one end
 Subschool: Summoning
 Descriptors: emotion, fear, mind-affecting
 :::
-
-**Sources:** Horror Adventures pg 109
 
 You summon a chain from another realm, causing it to burst out from the ground and strike a target
 within the spell's range. You can have the chain either make a melee attack (dealing 1d6 points of

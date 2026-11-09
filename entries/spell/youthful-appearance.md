@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "youthful_appearance", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "249"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Spell resistance: no
 Target: creature touched
 Subschool: Polymorph
 :::
-
-**Sources:** Ultimate Magic pg 249
 
 You make your target look like a younger version of itself. You select how much younger it looks
 (for example, "-10 years" or "as a young adult"). You cannot otherwise change details of the

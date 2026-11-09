@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bulette_rampage", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "10"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While you're using Bulette Charge Style, whenever you succeed at an o
 +++
 
 ## Bulette Rampage (Combat)
-
-**Sources:** Armor Master's Handbook pg 10
 
 You are able to channel your enhanced momentum to deal incredible damage to multiple foes.\
 **Prerequisites:** Str 15, [Bulette Charge Style](ref/feat/bulette-charge-style),

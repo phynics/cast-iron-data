@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spend_capital_to_boost_checks", path = "json/rules_subsystems02.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "81"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 81
 
 At the GM's discretion, you may affect any activity you have in the settlement (downtime or
 otherwise) by spending Goods, Influence, Labor, or Magic. This gives you a lot of leeway in terms of

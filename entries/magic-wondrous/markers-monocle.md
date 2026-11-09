@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "markers_monocle", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-streets"
+page = "15"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Sources:** Heroes of the Streets pg 15\
 **Aura** faint divination; **CL** 3rd\
 **Slot** eyes; **Price** 5,600 gp; **Weight** -
 

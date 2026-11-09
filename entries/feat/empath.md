@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/psychic-sensitivity", label = "or" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "132"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ prerequisites = "Psychic Sensitivity or ability to cast psychic spells, Percepti
 prerequisite_feats = ["ref/feat/psychic-sensitivity"]
 benefit = "You can use either Perception or Sense Motive when reading an emotion aura with the read aura occult skill unlock. Reading a creature's emotion aura takes you only a full-round action instead of 10 minutes, and if you succeed at your check, you also determine whether that creature is currently affected by a fear or mind-affecting effect and the relative strength of that effect (minor, moderate, strong, as defined in detect magic). You don't learn the source of the effect or the actual effect."
 +++
-
-**Sources:** Occult Adventures pg 132
 
 You have learned how to psychically sense an individual's mood or altered mental state.\
 **Prerequisites:** [Psychic Sensitivity](ref/feat/psychic-sensitivity) or ability to cast psychic

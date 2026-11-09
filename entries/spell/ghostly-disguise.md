@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghostly_disguise", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "222"
 
 [fields]
 kind = "spell"
@@ -53,8 +56,6 @@ Target: you
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** Ultimate Magic pg 222
 
 You make yourself - including clothing, armor, weapons, and equipment - appear translucent like a
 ghost. Any mundane or magical disguise on you is affected by this illusion as well; for example, if

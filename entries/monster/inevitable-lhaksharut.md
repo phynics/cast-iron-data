@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inevitable_lhaksharut", path = "json/monsters14.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "164"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ rings of metal._
 
 **Senses:** Darkvision 60 ft., Detect chaos, Detect magic, Low-light vision, True seeing
 
-**Sources:** Bestiary 2 pg 164\
 **Subtype:** Extraplanar, Inevitable, Lawful
 
 **Experience points:** 307,200

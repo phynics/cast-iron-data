@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shooting_starknife", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "257"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint illusion and transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Inner Sea Gods pg 257\
 **Aura** faint illusion and transmutation; **CL** 5th\
 **Slot** none; **Price** 7,724 gp; **Weight** 3 lbs.
 

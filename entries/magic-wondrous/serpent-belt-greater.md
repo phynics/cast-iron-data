@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "serpent_belt_greater", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "213"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "5th"
 
 ## Serpent Belt
 
-**Sources:** Ultimate Equipment pg 213\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** belt; **Price** 9,000 gp (normal), 20,000 gp (greater); **Weight** 1 lb.
 

@@ -6,6 +6,9 @@ source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "strand_of_the_tangled_knot", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "legacy-of-the-first-world"
+page = "17"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Legacy of the First World pg 17
 
 You mimic tugging at the Green Mother's legendary Tangled Knot to subtly alter your fate. The next
 single attack made against you takes a -10 penalty. If that attack is a critical hit, it is instead

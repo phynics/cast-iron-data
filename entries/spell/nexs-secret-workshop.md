@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/nondetection" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "60"
 
 [fields]
 kind = "spell"
@@ -58,8 +61,6 @@ Target: creature or object touched
 :::
 
 ### Nex's Secret Workshop
-
-**Sources:** Inner Sea Intrigue pg 60
 
 Designed to protect a large number of items from rivals of the Arclords of Nex, this spell functions
 as [nondetection](ref/spell/nondetection) except as noted above. You can exclude any creatures or

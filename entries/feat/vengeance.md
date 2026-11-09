@@ -6,6 +6,9 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vengeance", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "73"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You gain a +1 bonus on saving throws, attack rolls, and weapon damage
 +++
 
 ## Vengeance (Story)
-
-**Sources:** Ultimate Campaign pg 73
 
 The need to avenge those you loved drives you to great deeds.\
 **Prerequisites:** You must have a close family member or other loved one slain by a specific

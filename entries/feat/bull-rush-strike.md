@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bull_rush_strike", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "151"
 
 [fields]
 kind = "feat"
@@ -18,8 +21,6 @@ special = "You can only apply the effects of one of the following feats to a giv
 +++
 
 ## Bull Rush Strike (Combat)
-
-**Sources:** Advanced Player's Guide pg 151
 
 Your critical hits can push back your foes.\
 **Prerequisites:** Str 13, [Improved Bull Rush](ref/feat/improved-bull-rush),

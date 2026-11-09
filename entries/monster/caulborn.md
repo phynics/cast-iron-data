@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "city-of-strangers"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "caulborn", path = "json/monsters04.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "48"
+[[sources]]
+publication = "city-of-strangers"
+page = "62"
 
 [fields]
 kind = "creature"
@@ -46,7 +52,6 @@ fingers on each hand._
 
 **Senses:** Darkvision 60 ft., Thoughtsense
 
-**Sources:** Bestiary 3 pg 48, City of Strangers pg 62\
 **Subtype:** Extraplanar
 
 **Experience points:** 3,200

@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "creating_actions_and_goals", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "170"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 170
 
 Each freeform event you create should have a number of actions the PCs can take to achieve their
 goals. It's always better to create more actions and goals than you might need, and to have a

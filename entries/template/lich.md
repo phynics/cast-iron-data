@@ -6,6 +6,9 @@ source_ids = ["bestiary", "horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lich", path = "json/monster_template2.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "188"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +2
-
-**Source:** Pathfinder RPG Bestiary/188
 
 "Lich" is an acquired template that can be added to any living creature (referred to hereafter as
 the base creature), provided it can create the required phylactery. A lich retains all the base

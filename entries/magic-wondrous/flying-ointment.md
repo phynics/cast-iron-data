@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flying_ointment", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "299"
+[[sources]]
+publication = "advanced-players-guide"
+page = "305"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Sources:** Ultimate Equipment pg 299, Advanced Player's Guide pg 305\
 **Aura** moderate transmutation; **CL** 9th\
 **Slot** none; **Price** 2,250 gp; **Weight** -
 

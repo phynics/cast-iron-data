@@ -6,6 +6,9 @@ source_ids = ["occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seugathi_seugathi_savant", path = "json/monsters21.json" },
 ]
+[[sources]]
+publication = "occult-bestiary"
+page = "52"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ _Hundreds of legs support this hulking, bruise-colored worm._
 
 **Senses:** Darkvision 120 ft.
 
-**Sources:** Occult Bestiary pg 52\
 **tremorsense:** 30
 
 **Experience points:** 9,600

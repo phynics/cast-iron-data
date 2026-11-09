@@ -6,6 +6,9 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monument_builder", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "71"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When you supervise a construction project or do the construction your
 +++
 
 ## Monument Builder (Story)
-
-**Sources:** Ultimate Campaign pg 71
 
 Your inspired architecture shall make your name immortal.\
 **Prerequisites:** Knowledge (engineering) 1 rank, and you must have built a structure worth at

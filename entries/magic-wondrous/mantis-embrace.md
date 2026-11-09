@@ -6,6 +6,12 @@ source_ids = ["adventurers-guide", "agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mantis_embrace", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "159"
+[[sources]]
+publication = "agents-of-evil"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong evocation and necromancy"
 caster_level = "13th"
 +++
 
-**Sources:** Adventurer's Guide pg 159, Agents of Evil pg 29\
 **Aura** strong evocation and necromancy; **CL** 13th\
 **Slot** hands; **Price** 50,000 gp; **Weight** 1 lb.
 

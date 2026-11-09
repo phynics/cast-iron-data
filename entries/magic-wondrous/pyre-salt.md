@@ -6,6 +6,9 @@ source_ids = ["path-of-the-hellknight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pyre_salt", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "path-of-the-hellknight"
+page = "39"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Sources:** Path of the Hellknight pg 39\
 **Aura** moderate transmutation; **CL** 7th\
 **Slot** none; **Price** 700 gp; **Weight** -
 

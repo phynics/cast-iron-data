@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_feudal_hierarchy", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "153"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 153
 
 A sample feudal hierarchy, from top to bottom, is as follows. Note that the nobility holds the land
 in trust for the crown and does not own it outright. Certain exceptions, called allodial holdings,

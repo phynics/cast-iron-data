@@ -6,12 +6,14 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "breach_the_veil_of_dreams", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "209"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Occult Adventures pg 209\
 **School** conjuration (creation); **Level** 6\
 **Casting Time** 60 minutes\
 **Components** V, S, M (incenses burned in a bowl filled with grave earth, a bottle of wormwood wine

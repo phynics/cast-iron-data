@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phase_spider", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "226"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ _This large spider-like monster has an eerie, humanoid face surrounded by a shag
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder RPG Bestiary pg 226\
 **Experience points:** 1,600
 
 **Armor class:** 17/12/14

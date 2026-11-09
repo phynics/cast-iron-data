@@ -6,6 +6,9 @@ source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hands_autonomy", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "haunted-heroes-handbook"
+page = "24"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Possessed Hand."
 prerequisite_feats = ["ref/feat/possessed-hand"]
 benefit = "You reduce the penalties for fighting with two weapons (including fighting with double weapons or when throwing weapons from each hand) by 2, to a minimum penalty of -1. This benefit stacks with the Two-Weapon Fighting feat. When you are unconscious, paralyzed, asleep, or stunned, your possessed hand can still act on your behalf in a limited fashion. The hand uses your statistics when performing any action in this manner. The hand can't take attacks of opportunity, but can draw attacks of opportunity from actions it takes. The hand can perform the following actions each turn on your initiative count."
 +++
-
-**Sources:** Haunted Heroes Handbook pg 24
 
 Your possessed hand can act independently.\
 **Prerequisites:** [Possessed Hand](ref/feat/possessed-hand).\

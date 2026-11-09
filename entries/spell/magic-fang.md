@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_fang", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "308"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: living creature touched
 :::
-
-**Sources:** PRPG Core Rulebook pg 308
 
 Magic fang gives one natural weapon or unarmed strike of the subject a +1 enhancement bonus on
 attack and damage rolls. The spell can affect a slam attack, fist, bite, or other natural weapon.

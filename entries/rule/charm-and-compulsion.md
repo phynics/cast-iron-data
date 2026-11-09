@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charm_and_compulsion", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "561"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 561
 
 Many abilities and spells can cloud the minds of characters and monsters, leaving them unable to
 tell friend from foe - or worse yet, deceiving them into thinking that their former friends are now

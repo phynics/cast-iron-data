@@ -6,6 +6,9 @@ source_ids = ["heart-of-the-jungle"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "botfly_botfly_swarm", path = "json/monsters04.json" },
 ]
+[[sources]]
+publication = "heart-of-the-jungle"
+page = "59"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ low, droning buzz of thousands of tiny flies._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Heart of the Jungle pg 59\
 **Subtype:** Swarm
 
 **Type:** vermin

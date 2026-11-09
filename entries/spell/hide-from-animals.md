@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hide_from_animals", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "296"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes
 Targets: one creature touched/level
 :::
-
-**Sources:** PRPG Core Rulebook pg 296
 
 Animals cannot sense the warded creatures. Even extraordinary or supernatural sensory capabilities,
 such as [blindsense](ref/rule/blindsight-and-blindsense), blindsight, scent, and

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/inquisitor" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "31"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Justice judgment", "Stern gaze"]
 alters = ["Domain", "Exploit weakness"]
 +++
 
-**Sources:** Ultimate Intrigue pg 31\
 As a consummate lurker in the shadows, an umbral stalker observes the enemies of her faith and
 strikes before the unfortunate victims even know she is skulking nearby.
 

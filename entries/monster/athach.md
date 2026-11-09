@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "athach", path = "json/monsters26.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "33"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ appearance truly bizarre._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 2 pg 33\
 **Subtype:** Giant
 
 **Experience points:** 19,200

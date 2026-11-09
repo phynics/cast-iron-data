@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "maddening_style", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "90"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "If you are using the sanity system, when you successfully stun an opp
 +++
 
 ## Maddening Style (Combat, Style)
-
-**Sources:** Horror Adventures pg 90
 
 When you clobber an opponent with your fists, you inundate its mind with visions of madness and
 horror.\

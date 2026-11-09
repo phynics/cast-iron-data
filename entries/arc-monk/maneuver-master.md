@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/monk" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "58"
 
 [fields]
 kind = "archetype"
 replaces = ["Flurry of blows", "Still mind", "Slow fall", "Purity of body", "Diamond body", "Quivering palm"]
 +++
 
-**Sources:** Ultimate Combat pg 58\
 The maneuver master specializes in more complicated moves than simple damage-dealing strikes.
 
 **Bonus Feat**

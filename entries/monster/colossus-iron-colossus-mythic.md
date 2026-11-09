@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "colossus_iron_colossus_mythic", path = "json/monsters_mythic.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "36"
 
 [fields]
 kind = "creature"
@@ -48,7 +51,6 @@ _A siege engineer's nightmare, this giant machine emits noxious fumes from its g
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 4 pg 36\
 **Subtype:** Colossus, Mythic
 
 **Experience points:** 409,600

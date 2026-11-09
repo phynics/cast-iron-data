@@ -6,6 +6,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "winged_sword", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "10"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: Will negates (harmless) (object)
 Spell resistance: yes (harmless) (object)
 Target: one melee weapon
 :::
-
-**Sources:** Arcane Anthology pg 10
 
 The weapon targeted by this spell grows small feathered wings. For the duration of the spell, the
 weapon acts as if it had the throwing weapon special ability. This spell can be used in place of

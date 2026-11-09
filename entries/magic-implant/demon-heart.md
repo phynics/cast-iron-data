@@ -6,6 +6,9 @@ source_ids = ["pathfinder-74-sword-of-valor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_heart", path = "json/magic_demonic_implants.json" },
 ]
+[[sources]]
+publication = "pathfinder-74-sword-of-valor"
+page = "73"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration [chaotic, evil]"
 caster_level = "13th"
 +++
 
-**Sources:** Pathfinder \#74: Sword of Valor pg 73\
 **Aura** strong abjuration \[chaotic, evil\]; **CL** 13th\
 **Slot** none; **Price** 6,000 gp; **Weight** 1 lb.
 

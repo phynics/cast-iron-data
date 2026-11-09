@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/warpriest" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "7"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Focus weapon"]
 alters = ["Sacred weapon", "sacred armor"]
 +++
 
-**Sources:** Armor Master's Handbook pg 7\
 Shieldbearers are divine warriors who stand on the front lines of battle, shoulder to shoulder with
 the soldiers of their people. The shieldbearer tradition has long been a strong legacy among the
 dwarves of the Five Kings Mountains, while many young women throughout the Lands of the Linnorm

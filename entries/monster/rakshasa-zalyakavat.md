@@ -6,6 +6,9 @@ source_ids = ["pathfinder-130-city-in-the-lions-eye"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rakshasa_zalyakavat", path = "json/monsters20.json" },
 ]
+[[sources]]
+publication = "pathfinder-130-city-in-the-lions-eye"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ than a colorful silk sarong and a thin, flexible blade worn as a belt._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#130: City in the Lion's Eye pg 90\
 **Subtype:** Native, Rakshasa, Shapechanger
 
 **Experience points:** 25,600

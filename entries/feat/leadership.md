@@ -6,14 +6,15 @@ source_ids = ["core-rulebook", "ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "leadership", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "129"
 
 [fields]
 kind = "feat"
 prerequisites = "Character level 7th."
 benefit = "This feat enables you to attract a loyal cohort and a number of devoted subordinates who assist you. A cohort is generally an NPC with class levels, while followers are typically lower level NPCs. See the table below for what level of cohort and how many followers you can recruit."
 +++
-
-**Sources:** PRPG Core Rulebook pg 129
 
 You attract followers to your cause and a companion to join you on your adventures.\
 **Prerequisites:** Character level 7th.\

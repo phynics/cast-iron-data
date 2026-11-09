@@ -6,6 +6,9 @@ source_ids = ["pathfinder-54-the-empty-throne"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seishinru_spirit_elixir", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "pathfinder-54-the-empty-throne"
+page = "61"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Sources:** Pathfinder \#54: The Empty Throne pg 61\
 **Aura** moderate evocation; **CL** 10th\
 **Slot** none; **Price** 5,500 gp; **Weight** -
 

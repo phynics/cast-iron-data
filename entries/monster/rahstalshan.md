@@ -6,6 +6,9 @@ source_ids = ["giants-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rahstalshan", path = "json/monsters_unique3.json" },
 ]
+[[sources]]
+publication = "giants-revisited"
+page = "50"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ with crystals._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Giants Revisited pg 50\
 **Subtype:** Giant
 
 **tremorsense:** 30

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "urdefhan_skaveling_rider", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "inner-sea-monster-codex"
+page = "61"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ of the rotting, flapping undead monstrosity he rides._
 
 **Senses:** Darkvision 120 ft.
 
-**Sources:** Inner Sea Monster Codex pg 61\
 **Subtype:** Native
 
 **Experience points:** 9,600

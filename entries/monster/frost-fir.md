@@ -6,6 +6,9 @@ source_ids = ["pathfinder-67-the-snows-of-summer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "frost_fir", path = "json/monsters42.json" },
 ]
+[[sources]]
+publication = "pathfinder-67-the-snows-of-summer"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ towering trunk-like legs. Its arms resemble the branches of a snow-laden conifer
 
 **Type:** plant
 
-**Sources:** Pathfinder \#67: The Snows of Summer pg 84\
 **Subtype:** Cold
 
 **Experience points:** 400

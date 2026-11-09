@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tiyanak", path = "json/monsters23.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "248"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ jagged teeth._
 
 **Size:** small
 
-**Sources:** Bestiary 5 pg 248\
 **Type:** undead
 
 **Experience points:** 2,400

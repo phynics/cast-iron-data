@@ -6,6 +6,12 @@ source_ids = ["inner-sea-world-guide", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shade_of_the_uskwood", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "288"
+[[sources]]
+publication = "pathfinder-campaign-setting"
+page = "111"
 
 [fields]
 kind = "feat"
@@ -13,8 +19,6 @@ prerequisites = "Neutral evil, patron deity Zon-Kuthon."
 benefit = "Add the following spells to your druid spell list. 0-disrupt undead, ray of frost; 1st-ghost sound, touch of fatigue; 2nd-chill touch, spectral hand; 3rd-ghoul touch, invisibility; 4th-displacement, ray of exhaustion; 5th-animate dead, phantasmal killer; 6th-nightmare, waves of fatigue; 7th-circle of death, shadow walk; 8th-mass invisibility, waves of exhaustion; 9th-horrid wilting, weird."
 special = "As part of this feat, you create a personal Umbrae-Token that ties your soul and your doings to the fell power of the Uskwood. This potent object is treated as a wooden unholy symbol that radiates faint necromancy magic. If your Umbrae-Token is ever destroyed, your connection to the shadowy heart of the Uskwood is severed and all benefits of this feat are lost until another is created. This process requires a journey to the Uskwood and an atonement spell cast by a fellow worshiper of Zon-Kuthon."
 +++
-
-**Sources:** Inner Sea World Guide pg 288, Pathfinder Campaign Setting pg 111
 
 Ordained as one of the sinister albino [druids](ref/class/druid) who dwell within the heart of the
 Uskwood, you carry with you into the wider world a powerful effigy of hair, twigs, and blood that

@@ -6,6 +6,8 @@ source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ragadahns_spiraling_ascent", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "legacy-of-the-first-world"
 
 [fields]
 kind = "class_option"
@@ -13,8 +15,6 @@ group = "bardic-masterpiece"
 +++
 
 ## Ragadahn's Spiraling Ascent (Act, Dance)
-
-**Sources:** Legacy of the First World
 
 You can hurl your allies into battle by directing swift winds.
 

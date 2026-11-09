@@ -6,6 +6,9 @@ source_ids = ["pathfinder-119-prisoners-of-the-blight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "copsewight_poison", path = "json/equipment_poisons.json" },
 ]
+[[sources]]
+publication = "pathfinder-119-prisoners-of-the-blight"
+page = "80"
 
 [fields]
 kind = "item"
@@ -13,8 +16,6 @@ category = "Poisons"
 price = "500 gp"
 weight = "&mdash;"
 +++
-
-**Sources:** Pathfinder \#119: Prisoners of the Blight pg 80
 
 **Price** 500 gp; **Weight** —
 

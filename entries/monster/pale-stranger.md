@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pale_stranger", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "214"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ smells of old decay._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 3 pg 214\
 **Type:** undead
 
 **Experience points:** 9,600

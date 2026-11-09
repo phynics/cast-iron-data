@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/gunslinger" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "152"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["The ability to regain grit from a critical hit with a firearm", "De
 alters = ["Grit"]
 +++
 
-**Sources:** Advanced Race Guide pg 152\
 Ratfolk warfare often occurs in cramped, claustrophobic spaces such as the ratfolk's own underground
 warrens and heavily trapped gulch fortresses, or the subterranean tunnels of goblins and similar
 foes. Since these battlegrounds often have tight corners and few areas with long lines of sight,

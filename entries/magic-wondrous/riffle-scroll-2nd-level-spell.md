@@ -6,6 +6,9 @@ source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "riffle_scroll_2nd_level_spell", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "14"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "varies"
 
 ## Riffle Scroll
 
-**Sources:** Inner Sea Magic pg 14\
 **Aura** varies; **CL** varies\
 **Slot** none; **Price** 25 gp (Cantrip), 150 gp (1st-level Spell), 375 gp (2nd-Level Spell), 700 gp
 (3rd-Level Spell), 1,125 gp (4th-Level Spell), 1,650 gp (5th-Level Spell), 2,275 gp (6th-Level

@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "belt_of_superior_maneuvers_1", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "226"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "5th"
 
 ## Belt of Superior Maneuvers
 
-**Sources:** Advanced Class Guide pg 226\
 **Aura** faint evocation; **CL** 5th\
 **Slot** belt; **Price** 2,000 gp (+1), 8,000 gp (+2), 18,000 gp (+3), 32,000 gp (+4), 50,000 gp
 (+5); **Weight** -

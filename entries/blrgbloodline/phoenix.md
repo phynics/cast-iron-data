@@ -6,6 +6,9 @@ source_ids = ["pathfinder-144-midwives-to-death"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phoenix", path = "json/class_ability_bloodrager_bloodlines.json" },
 ]
+[[sources]]
+publication = "pathfinder-144-midwives-to-death"
+page = "82"
 
 [fields]
 kind = "class_option"
@@ -13,8 +16,6 @@ group = "bloodrager-bloodline"
 +++
 
 ## Phoenix Bloodline
-
-**Sources:** Pathfinder \#144: Midwives to Death pg 82
 
 One of your ancestors may have witnessed the fiery resurrection of a [phoenix](ref/monster/phoenix)
 or been healed by the grace of this legendary bird. Whatever the case, the flames of the phoenix

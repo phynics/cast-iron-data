@@ -6,6 +6,9 @@ source_ids = ["inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kakuen_taka", path = "json/monsters34.json" },
 ]
+[[sources]]
+publication = "inner-sea-bestiary"
+page = "20"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ _Within a towering structure of bone and rotting flesh lurk hundreds of flitteri
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Inner Sea Bestiary pg 20\
 **Subtype:** Chaotic, Evil, Extraplanar, Swarm
 
 **Experience points:** 38,400

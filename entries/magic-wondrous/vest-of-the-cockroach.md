@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vest_of_the_cockroach", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "223"
+[[sources]]
+publication = "advanced-players-guide"
+page = "310"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Sources:** Ultimate Equipment pg 223, Advanced Player's Guide pg 310\
 **Aura** faint necromancy; **CL** 3rd\
 **Slot** chest; **Price** 16,000 gp; **Weight** 2 lbs.
 

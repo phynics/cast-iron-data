@@ -6,13 +6,14 @@ source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "execution", path = "json/class_ability_inquisitions.json" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "30"
 
 [fields]
 kind = "class_option"
 group = "inquisition"
 +++
-
-**Sources:** Inner Sea Intrigue pg 30
 
 **Associated Deities**
 

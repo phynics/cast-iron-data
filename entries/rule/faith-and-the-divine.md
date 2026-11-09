@@ -6,12 +6,13 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "faith_and_the_divine", path = "json/rules_campaign_types09.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "71"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Planar Adventures pg 71
 
 Divinities have immense power and can intervene in the lives of mortal worshipers to grant
 miraculous boons. They can raise up realms and create life on a whim. What use, therefore, do

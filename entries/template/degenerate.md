@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "degenerate", path = "json/monster_template1.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "288"
 
 [fields]
 kind = "none"
@@ -18,8 +21,6 @@ kind = "none"
 **Challenge rating:** -1
 
 **Simple:** present
-
-**Source:** Bestiary 5/288
 
 Degenerate creatures are weaker than their ordinary cousins.
 

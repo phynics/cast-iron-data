@@ -6,6 +6,9 @@ source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blinding_flash", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "dragon-empires-primer"
+page = "24"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "As a move action, you can expertly angle the blade of your weapon or 
 +++
 
 ## Blinding Flash (Combat)
-
-**Sources:** Dragon Empires Primer pg 24
 
 You can temporarily blind your opponent by using your weapon or shield to flash sunlight into its
 eyes.\

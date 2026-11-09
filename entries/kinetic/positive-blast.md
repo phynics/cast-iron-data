@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "positive_blast", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "60"
+[[sources]]
+publication = "psychic-anthology"
+page = "21"
 
 [fields]
 kind = "class_option"
@@ -25,8 +31,6 @@ group = "kineticist-wild-talent"
 **Damage type:** energy
 
 **Damage:** positive energy
-
-**Source:** Ultimate Wilderness/60, Psychic Anthology/21
 
 You blast your foe with positive energy. The positive energy damage from positive blast and its
 composites harms only undead and other creatures harmed by positive energy. It never heals

@@ -6,6 +6,15 @@ source_ids = ["ultimate-equipment", "pathfinder-3-the-hook-mountain-massacre", "
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boots_of_the_mire", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "229"
+[[sources]]
+publication = "pathfinder-3-the-hook-mountain-massacre"
+page = "33"
+[[sources]]
+publication = "rise-of-the-runelords-anniversary-edition"
+page = "420"
 
 [fields]
 kind = "item"
@@ -17,8 +26,6 @@ aura = "faint abjuration and transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Equipment pg 229, Pathfinder \#3: The Hook Mountain Massacre pg 33, Rise of
-the Runelords Anniversary Edition pg 420\
 **Aura** faint abjuration and transmutation; **CL** 5th\
 **Slot** feet; **Price** 3,500 gp; **Weight** 1 lb.
 

@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pinpoint_jab", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "26"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "A monk can substitute his class level for his base attack bonus for t
 +++
 
 ## Pinpoint Jab (Combat)
-
-**Sources:** Martial Arts Handbook pg 26
 
 You strikes land exactly where you mean them to.\
 **Prerequisites:** [Improved Unarmed Strike](ref/feat/improved-unarmed-strike), and either a ki pool

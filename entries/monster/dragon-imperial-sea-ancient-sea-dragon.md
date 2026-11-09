@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_imperial_sea_ancient_sea_dragon", path = "json/monsters31.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "97"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ abilities = ["35", "8", "25", "24", "25", "24"]
 
 **Senses:** Dragon senses
 
-**Sources:** Bestiary 3 pg 97\
 **Subtype:** Water
 
 **Experience points:** 102,400

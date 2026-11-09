@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "azata_bralani", path = "json/monsters27.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "24"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ swirling with vibrant colors._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder RPG Bestiary pg 24\
 **Subtype:** Azata, Chaotic, Extraplanar, Good, Shapechanger
 
 **Experience points:** 2,400

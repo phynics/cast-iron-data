@@ -6,6 +6,9 @@ source_ids = ["misfit-monsters-redeemed"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "delver", path = "json/monsters08.json" },
 ]
+[[sources]]
+publication = "misfit-monsters-redeemed"
+page = "15"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ and its whole body sizzles with acidic slime as it slides forward through meltin
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Misfit Monsters Redeemed pg 15\
 **Subtype:** Earth
 
 **tremorsense:** 60

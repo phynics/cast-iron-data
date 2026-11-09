@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "breath_weapon", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "290"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Breath Weapon (Su)
 
-**Sources:** Bestiary 5 pg 290\
 Some creatures can exhale a cloud, cone, or line of magical effects. A breath weapon usually deals
 damage and is often based on some type of energy. Breath weapons allow a Reflex save for half damage
 (DC = 10 + 1/2 breathing creature's racial HD + breathing creature's Constitution modifier; the

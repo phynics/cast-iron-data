@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "feats_ucp", path = "json/rules_opt_magic01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "154"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 154
 
 In a campaign that uses the esoteric material component system, characters have access to Esoteric
 feats. Any time a character would gain a bonus metamagic feat, he can choose to take an esoteric

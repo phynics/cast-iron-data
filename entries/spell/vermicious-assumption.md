@@ -6,6 +6,9 @@ source_ids = ["pathfinder-74-sword-of-valor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vermicious_assumption", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "pathfinder-74-sword-of-valor"
+page = "75"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Target: one Medium humanoid corpse
 Subschool: Calling
 Descriptors: chaotic, evil
 :::
-
-**Sources:** Pathfinder \#74: Sword of Valor pg 75
 
 You call a single vermlek demon to invade and inhabit the body of the target corpse, taking on its
 likeness. The vermlek can remain on the Material Plane indefinitely as long as it has a body to

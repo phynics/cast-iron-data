@@ -6,12 +6,12 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kaiju", path = "json/monster_families2.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Bestiary 4
 
 In the furthest reaches of the globe, where civilization itself is a legend and mapmakers can only
 make guesses about lands and denizens, immense creatures that are worshiped as gods walk the world.

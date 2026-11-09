@@ -6,6 +6,9 @@ source_ids = ["people-of-the-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "astrologers_telescope", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "people-of-the-stars"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "10th"
 +++
 
-**Sources:** People of the Stars pg 30\
 **Aura** moderate divination; **CL** 10th\
 **Slot** none; **Price** 54,000 gp; **Weight** 30 lbs.
 

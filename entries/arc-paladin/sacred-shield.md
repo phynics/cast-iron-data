@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/paladin" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "65"
 
 [fields]
 kind = "archetype"
 replaces = ["Smite evil", "Channel positive energy", "Aura of justice", "Holy champion"]
 +++
 
-**Sources:** Ultimate Combat pg 65\
 When faced by evil, the sacred shield reaches first not for a weapon, but for her trusty shield.
 With her faith, she can ward others from harm.
 

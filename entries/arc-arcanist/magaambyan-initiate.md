@@ -9,13 +9,18 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/arcanist" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "122"
+[[sources]]
+publication = "arcane-anthology"
+page = "16"
 
 [fields]
 kind = "archetype"
 replaces = ["The arcanist exploits gained at 1st, 9th, and 17th levels", "The arcanist exploit gained at 5th level"]
 +++
 
-**Sources:** Adventurer's Guide pg 122, Arcane Anthology pg 16\
 Aspiring students of the [Magaambya](ref/rule/aff-i-school) often spend decades researching arcane
 magic while learning to follow in the footsteps of the academy's founder, Old-Mage Jatembe. Those
 particularly gifted in the art of sculpting spells are sometimes schooled privately in the art of

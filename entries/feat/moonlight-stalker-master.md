@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "moonlight_stalker_master", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "110"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While you have concealment, your opponents' miss chance against you i
 +++
 
 ## Moonlight Stalker Master (Combat)
-
-**Sources:** Ultimate Combat pg 110
 
 You leave your opponents swinging at shadows while you slide elusively through the darkness.\
 **Prerequisites:** Int 13, [Blind-Fight](ref/feat/blind-fight)

@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mantle_of_spell_resistance", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "221"
+[[sources]]
+publication = "core-rulebook"
+page = "522"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate abjuration"
 caster_level = "9th"
 +++
 
-**Sources:** Ultimate Equipment pg 221, PRPG Core Rulebook pg 522\
 **Aura** moderate abjuration; **CL** 9th\
 **Slot** chest; **Price** 90,000 gp; **Weight** -
 

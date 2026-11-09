@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadowform_belt", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "213"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation"
 caster_level = "17th"
 +++
 
-**Sources:** Ultimate Equipment pg 213\
 **Aura** strong transmutation; **CL** 17th\
 **Slot** belt; **Price** 110,000 gp; **Weight** -
 

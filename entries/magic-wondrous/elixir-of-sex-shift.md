@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elixir_of_sex_shift", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "229"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Sources:** Advanced Class Guide pg 229\
 **Aura** moderate transmutation; **CL** 9th\
 **Slot** none; **Price** 2,250 gp; **Weight** -
 

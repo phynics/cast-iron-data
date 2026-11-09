@@ -6,6 +6,9 @@ source_ids = ["pathfinder-124-city-in-the-deep"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oni_kigyo", path = "json/monsters18.json" },
 ]
+[[sources]]
+publication = "pathfinder-124-city-in-the-deep"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ staring eyes and hideous fangs._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#124: City in the Deep pg 90\
 **Subtype:** Aquatic, Native, Oni, Shapechanger
 
 **Experience points:** 2,400

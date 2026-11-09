@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guru", path = "json/npcs5.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "246"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "4"
 
 **Challenge rating:** 4
 
-**Sources:** NPC Codex pg 246\
 **XP** 1,200\
 Dwarf [adept](ref/npcclass/adept) 6\
 LN Medium humanoid (dwarf)\

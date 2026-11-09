@@ -6,6 +6,9 @@ source_ids = ["pathfinder-113-what-grows-within"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "yithian_thought_ring", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "pathfinder-113-what-grows-within"
+page = "50"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong divination"
 caster_level = "15th"
 +++
 
-**Sources:** Pathfinder \#113: What Grows Within pg 50\
 **Aura** strong divination; **CL** 15th\
 **Slot** head; **Price** 35,000 gp; **Weight** 1 lb.
 

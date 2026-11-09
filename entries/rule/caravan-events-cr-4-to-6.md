@@ -6,12 +6,12 @@ source_ids = ["pathfinder-50-night-of-frozen-shadows", "pathfinder-51-the-hungry
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "caravan_events_cr_4_to_6", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "pathfinder-50-night-of-frozen-shadows"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder \#50: Night of Frozen Shadows
 
 **Flooded Bridge:** While maps clearly show a bridge here, all that's visible now is a raging river
 and a few wooden posts. There's no better ford within a week's travel, so if the caravan doesn't

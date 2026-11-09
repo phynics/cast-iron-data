@@ -6,6 +6,15 @@ source_ids = ["demon-hunters-handbook", "adventurers-armory", "ultimate-equipmen
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "portable_altar", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "demon-hunters-handbook"
+page = "18"
+[[sources]]
+publication = "adventurers-armory"
+page = "19"
+[[sources]]
+publication = "ultimate-equipment"
+page = "77"
 
 [fields]
 kind = "item"
@@ -14,7 +23,6 @@ price = "250 gp"
 weight = "40 lbs."
 +++
 
-**Sources:** Demon Hunter's Handbook pg 18, Adventurer's Armory pg 19, Ultimate Equipment pg 77\
 **Price** 250 gp; **Weight** 40 lbs.\
 **Category** Tools
 

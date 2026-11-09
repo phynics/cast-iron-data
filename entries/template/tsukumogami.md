@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tsukumogami", path = "json/monster_template4.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "253"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +2
-
-**Source:** Bestiary 5/253
 
 When an object reaches the 100-year anniversary of its crafting, sometimes it forms an amalgam with
 a [kami](ref/subtype/kami), creating a creature known as a tsukumogami. Tsukumogami run the gamut in

@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "holy_symbol_platinum_compartment", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "57"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "-"
 
 ## Holy symbol (compartment)
 
-**Sources:** Ultimate Equipment pg 57\
 **Price** +5 gp; **Weight** -\
 **Category** Adventuring Gear
 

@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "class", path = "json/misc.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "11"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 11
 
 Classes represent chosen professions taken by characters and some other creatures. Classes give a
 host of bonuses and allow characters to take actions that they otherwise could not, such as casting

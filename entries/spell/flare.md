@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flare", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "284"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Spell resistance: yes
 Effect: burst of light
 Descriptors: light
 :::
-
-**Sources:** PRPG Core Rulebook pg 284
 
 This cantrip creates a burst of light. If you cause the light to burst in front of a single
 creature, that creature is dazzled for 1 minute unless it makes a successful Fortitude save.

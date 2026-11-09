@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dress_corpse", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "212"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: none
 Spell resistance: no
 Target: corpse touched
 :::
-
-**Sources:** Ultimate Intrigue pg 212
 
 You cause the flesh and bones of a corpse to shift themselves to suit a narrative of your choosing.
 This spell can hide or create telltale wounds, bruising, and other subtle clues as to the nature of

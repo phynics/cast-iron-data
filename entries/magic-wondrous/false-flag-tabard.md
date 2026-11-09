@@ -6,6 +6,9 @@ source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "false_flag_tabard", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "23"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Sources:** Black Markets pg 23\
 **Aura** faint abjuration; **CL** 5th\
 **Slot** body; **Price** 5,500 gp; **Weight** 1 lb.
 

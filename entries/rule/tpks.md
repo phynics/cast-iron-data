@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tpks", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "49"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 49
 
 It's a constant threat, but every so often it happens for real: every single PC is dead, petrified,
 or possessed by demon lords.

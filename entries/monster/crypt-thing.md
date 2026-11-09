@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crypt_thing", path = "json/monsters06.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "60"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ deep in its eye sockets._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 2 pg 60\
 **Type:** undead
 
 **Experience points:** 1,600

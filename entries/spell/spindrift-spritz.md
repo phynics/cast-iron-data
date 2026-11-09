@@ -6,6 +6,9 @@ source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spindrift_spritz", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
+page = "14"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Target: one creature
 Subschool: Healing
 Descriptors: water
 :::
-
-**Sources:** Elemental Master's Handbook pg 14
 
 You can cast this spell only as a response to a target attempting a saving throw against an effect
 that would cause the fatigued, shaken, sickened, or staggered conditions. The target can roll its

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-83-the-slave-trenches-of-hakotep"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_stony_flesh", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "pathfinder-83-the-slave-trenches-of-hakotep"
+page = "63"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "11th"
 +++
 
-**Sources:** Pathfinder \#83: The Slave Trenches of Hakotep pg 63\
 **Aura** moderate abjuration; **CL** 11th\
 **Slot** ring; **Price** 18,000 gp; **Weight** -
 

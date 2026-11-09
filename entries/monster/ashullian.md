@@ -6,6 +6,9 @@ source_ids = ["pathfinder-135-runeplague"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ashullian", path = "json/monsters02.json" },
 ]
+[[sources]]
+publication = "pathfinder-135-runeplague"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ within, and embedded with strange objects._
 
 **Senses:** Scent
 
-**Sources:** Pathfinder \#135: Runeplague pg 86\
 **Subtype:** Native, Water
 
 **Experience points:** 12,800

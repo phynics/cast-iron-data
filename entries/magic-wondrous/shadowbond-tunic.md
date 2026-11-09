@@ -6,6 +6,9 @@ source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadowbond_tunic", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "blood-of-shadows"
+page = "26"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Sources:** Blood of Shadows pg 26\
 **Aura** faint abjuration; **CL** 3rd\
 **Slot** chest; **Price** 12,000 gp; **Weight** 5 lbs.
 

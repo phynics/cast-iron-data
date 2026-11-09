@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_hunters_bond", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "113"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ normal = "Your allies receive half your favored enemy bonus against a single tar
 +++
 
 ## Improved Hunter's Bond (Combat)
-
-**Sources:** Ultimate Wilderness pg 113
 
 You deepen your connection to your allies, granting them higher bonuses.\
 **Prerequisites:** Hunter's bond (hunting companions) class feature, [ranger](ref/class/ranger)

@@ -6,6 +6,12 @@ source_ids = ["curse-of-the-crimson-throne", "pathfinder-11-skeletons-of-scarwal
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_immolation", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "curse-of-the-crimson-throne"
+page = "435"
+[[sources]]
+publication = "pathfinder-11-skeletons-of-scarwall"
+page = "42"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate evocation (fire)"
 caster_level = "10th"
 +++
 
-**Sources:** Curse of the Crimson Throne pg 435, Pathfinder \#11: Skeletons of Scarwall pg 42\
 **Aura** moderate evocation (fire); **CL** 10th\
 **Slot** ring; **Price** 12,000 gp; **Weight** -
 

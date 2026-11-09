@@ -6,12 +6,13 @@ source_ids = ["heart-of-the-jungle"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "green_haze", path = "json/diseases.json" },
 ]
+[[sources]]
+publication = "heart-of-the-jungle"
+page = "7"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Heart of the Jungle pg 7
 
 **Type:** Disease (Contact)
 

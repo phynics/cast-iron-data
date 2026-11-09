@@ -6,6 +6,9 @@ source_ids = ["the-first-world-realm-of-the-fey"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bulabar", path = "json/monsters04.json" },
 ]
+[[sources]]
+publication = "the-first-world-realm-of-the-fey"
+page = "58"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ pouches._
 
 **Senses:** Low-light vision
 
-**Sources:** The First World, Realm of the Fey pg 58\
 **Size:** tiny
 
 **Experience points:** 400

@@ -6,12 +6,12 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "azata", path = "json/monster_families.json" },
 ]
+[[sources]]
+publication = "bestiary"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder RPG Bestiary
 
 [Azatas](ref/subtype/azata) are a race of celestials native to the plane of
 [Elysium](ref/rule/elysium), where the pursuit of freedom and goodness is paramount. Azatas are

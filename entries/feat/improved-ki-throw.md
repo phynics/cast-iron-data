@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_ki_throw", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "163"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "A monk may take this as a bonus feat at 14th level."
 +++
 
 ## Improved Ki Throw (Combat)
-
-**Sources:** Advanced Player's Guide pg 163
 
 Your enemies are living weapons in your hands.\
 **Prerequisites:** [Improved Bull Rush](ref/feat/improved-bull-rush), [Ki Throw](ref/feat/ki-throw).\

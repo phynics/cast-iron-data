@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unfetter", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "253"
 
 [fields]
 kind = "spell"
@@ -37,8 +40,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: no
 Target: your eidolon
 :::
-
-**Sources:** Advanced Player's Guide pg 253
 
 This spell breaks the life link between you and your eidolon. This spell allows your eidolon to
 venture more than 100 feet away from you without penalty. It can travel any distance while this

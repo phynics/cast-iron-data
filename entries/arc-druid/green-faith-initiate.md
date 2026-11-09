@@ -9,13 +9,18 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "141"
+[[sources]]
+publication = "faiths-and-philosophies"
+page = "10"
 
 [fields]
 kind = "archetype"
 replaces = ["Trackless step", "Daily use of wild shape gained at 6th level", "Venom immunity", "Daily use of wild shape gained at 10th level", "A thousand faces"]
 +++
 
-**Sources:** Ultimate Wilderness pg 141, Faiths and Philosophies pg 10\
 Druids who are initiated into the magic of nature as strict students of the
 [Green Faith's](ref/faith/green-faith) traditions sometimes demonstrate abilities unique to their
 organization.

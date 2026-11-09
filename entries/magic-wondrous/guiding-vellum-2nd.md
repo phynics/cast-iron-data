@@ -6,6 +6,9 @@ source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guiding_vellum_2nd", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "faction-guide"
+page = "59"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "7th"
 
 ## Guiding Vellum
 
-**Sources:** Faction Guide pg 59\
 **Aura** moderate divination; **CL** 7th\
 **Slot** none; **Price** 500 gp (1st), 2,000 gp (2nd), 4,500 gp (3rd), 8,000 gp (4th), 12,500 gp
 (5th), 18,000 gp (6th), 24,500 gp (7th), 32,000 gp (8th), 40,500 gp (9th); **Weight** 1/2 lb.

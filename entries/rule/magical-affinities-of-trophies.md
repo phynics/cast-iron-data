@@ -6,12 +6,13 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magical_affinities_of_trophies", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "163"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Wilderness pg 163
 
 Certain creatures provide trophy components that, once processed into actual trophies, are
 exceptionally useful for the construction of alchemical or magic items. When used as raw materials

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "99"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Woodland stride", "Trackless step", "Resist nature's lure", "Venom 
 alters = ["Wild shape"]
 +++
 
-**Sources:** Advanced Player's Guide pg 99\
 Not all climates are verdant paradises, but even in the sere deserts there is life - though often
 hidden from the sun and rarely friendly - and raw, desolate beauty. Here desert druids come to pay
 homage, protect and maintain the few habitable locales, and witness nature's majesty in all its

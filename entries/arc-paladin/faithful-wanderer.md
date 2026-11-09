@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/paladin" },
 ]
+[[sources]]
+publication = "people-of-the-wastes"
+page = "18"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Detect evil", "Aura of good", "aura of justice", "Smite evil", "Hol
 alters = ["Skills per level", "Aura of courage", "aura of resolve", "aura of faith", "aura of righteousness", "Divine bond"]
 +++
 
-**Sources:** People of the Wastes pg 18\
 While most paladins stride brazenly forth to battle evil in gleaming armor, faithful wanderers
 understand that to accomplish real change in Abyssal environments, a paladin must learn to be
 self-sufficient and unobtrusive and that she must pick her battles carefully, lest her mission end

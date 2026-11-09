@@ -6,6 +6,9 @@ source_ids = ["pathfinder-88-valley-of-the-brain-collectors"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "optical_turrets", path = "json/equipment_tech_cybertech.json" },
 ]
+[[sources]]
+publication = "pathfinder-88-valley-of-the-brain-collectors"
+page = "75"
 
 [fields]
 kind = "item"
@@ -15,7 +18,6 @@ weight = "&mdash;"
 slot = "eyes"
 +++
 
-**Sources:** Pathfinder \#88: Valley of the Brain Collectors pg 75\
 **Price** 6,000 gp\
 **Slot** eyes; **Weight** —\
 **Install** DC 30; **Implantation** 2

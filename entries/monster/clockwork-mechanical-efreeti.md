@@ -6,6 +6,9 @@ source_ids = ["tombs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clockwork_mechanical_efreeti", path = "json/monsters05.json" },
 ]
+[[sources]]
+publication = "tombs-of-golarion"
+page = "22"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ _This crimson-skinned genie has an artificial, sculpted appearance._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Tombs of Golarion pg 22\
 **Subtype:** Clockwork
 
 **Size:** tiny

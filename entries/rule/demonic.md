@@ -6,12 +6,14 @@ source_ids = ["horror-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demonic", path = "json/rules_campaign_types02.json" },
 ]
+[[sources]]
+publication = "horror-realms"
+page = "56-57"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Realms pg. 56-57\
 Close contact with the Abyss or demons clouds your mind and twists your body.
 
 ### Catalyst

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-137-the-city-outside-of-time"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "robes_of_xin_edasseril", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "pathfinder-137-the-city-outside-of-time"
+page = "56"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration and conjuration"
 caster_level = "16th"
 +++
 
-**Sources:** Pathfinder \#137: The City Outside of Time pg 56\
 **Aura** strong abjuration and conjuration; **CL** 16th\
 **Slot** body; **Price** 164,000 gp; **Weight** 1 lb.
 

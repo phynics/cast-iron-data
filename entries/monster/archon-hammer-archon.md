@@ -6,6 +6,9 @@ source_ids = ["pathfinder-107-scourge-of-the-godclaw"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "archon_hammer_archon", path = "json/monsters02.json" },
 ]
+[[sources]]
+publication = "pathfinder-107-scourge-of-the-godclaw"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ hammer-headed polearm with a wicked spike on its reverse side._
 
 **Senses:** Darkvision 60 ft., Detect evil, Low-light vision
 
-**Sources:** Pathfinder \#107: Scourge of the Godclaw pg 82\
 **Subtype:** Archon, Extraplanar, Good, Lawful
 
 **Experience points:** 153,600

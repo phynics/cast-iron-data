@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/skald" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "49"
 
 [fields]
 kind = "archetype"
 replaces = ["Scribe Scroll feat", "Well-versed", "Spell kenning", "Lore master", "Improved uncanny dodge"]
 +++
 
-**Sources:** Ultimate Intrigue pg 49\
 The warlord wields his force of personality like a weapon, intimidating his allies and ensuring that
 his followers heed his commands. The warlord doesn't inspire his followers so much as instill fear
 in them. Always watching his foes for moments of vulnerability, the warlord seeks to exploit his

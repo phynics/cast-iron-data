@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "archon_shield_archon", path = "json/monsters02.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "31"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ other in a massive shield._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 2 pg 31\
 **Subtype:** Archon, Extraplanar, Good, Lawful
 
 **Experience points:** 9,600

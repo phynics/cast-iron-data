@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mundane_and_magical_fortune_telling", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "239"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 239
 
 One of the first things PCs are likely to wonder before or after having their fates revealed is
 whether or not their fortune-teller's words are true. Some fortune-tellers are complete con artists,

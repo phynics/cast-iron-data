@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/barbarian" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "78"
 
 [fields]
 kind = "archetype"
 replaces = ["Fast movement"]
 +++
 
-**Sources:** Advanced Player's Guide pg 78\
 Barbarians are known for their ability to consume potent drink, but drunken brutes turn drinking
 into a combat tactic, using the potent liquor to fuel their rage and grant them additional powers. A
 drunken brute has the following class feature.

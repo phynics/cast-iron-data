@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monstrous", path = "json/rules_adv_gm03.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "232"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 232
 
 These abilities are typically supernatural or inhuman in nature. If a monster is meant to be more
 like an NPC - and especially if it uses a PC race - avoid choosing monstrous combat options.

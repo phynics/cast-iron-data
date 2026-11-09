@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "pathfinder-76-the-midnight-isles"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "putrid_ooze", path = "json/monsters19.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "199"
+[[sources]]
+publication = "pathfinder-76-the-midnight-isles"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ _Masses of carrion and debris break the inky surface of this enormous, undulatin
 
 **Perception:** -5
 
-**Sources:** Bestiary 5 pg 199, Pathfinder \#76: The Midnight Isles pg 90\
 **Experience points:** 12,800
 
 **Armor class:** 7/7/7

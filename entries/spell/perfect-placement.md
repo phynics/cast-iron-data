@@ -6,6 +6,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "perfect_placement", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "24"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: one creature/level, no two of which can be more than 30 ft. apart
 :::
-
-**Sources:** Arcane Anthology pg 24
 
 Affected creatures gain tactical knowledge and maximize their efficiency on the field of battle.
 Each gains a +1 insight bonus to AC and Reflex saves. Against attacks of opportunity, the insight

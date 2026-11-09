@@ -6,6 +6,9 @@ source_ids = ["druma-profit-and-prophecy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bacallia", path = "json/monsters03.json" },
 ]
+[[sources]]
+publication = "druma-profit-and-prophecy"
+page = "62"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _This animal resembles an alpaca with voluminous, shiny wool._
 
 **Senses:** Low-light vision
 
-**Sources:** Druma, Profit and Prophecy pg 62\
 **Experience points:** 400
 
 **Armor class:** 12/12/11

@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spear_dancing_spiral", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "17"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using Spear Dancing Style, you gain the benefit of Weapon Fines
 +++
 
 ## Spear Dancing Spiral (Combat)
-
-**Sources:** Weapon Master's Handbook pg 17
 
 You wield spears with poise and grace.\
 **Prerequisites:** Dex 15, [Spear Dancing Style](ref/feat/spear-dancing-style),

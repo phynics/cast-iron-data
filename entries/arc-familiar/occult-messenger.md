@@ -6,13 +6,15 @@ source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "occult_messenger", path = "json/archetypes_FAMILIAR.json" },
 ]
+[[sources]]
+publication = "wilderness-origins"
+page = "21"
 
 [fields]
 kind = "archetype"
 replaces = ["Alertness", "Deliver touch spells"]
 +++
 
-**Sources:** Wilderness Origins pg 21\
 Some familiars are messengers of greater powers than themselves. The witch's familiar comes from her
 patron and the emissary is the servant of a god, but the occult messenger is envoy of an odder power
 still.

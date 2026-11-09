@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brooch_of_shielding", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "257"
+[[sources]]
+publication = "core-rulebook"
+page = "505"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint abjuration"
 caster_level = "1st"
 +++
 
-**Sources:** Ultimate Equipment pg 257, PRPG Core Rulebook pg 505\
 **Aura** faint abjuration; **CL** 1st\
 **Slot** neck; **Price** 1,500 gp; **Weight** -
 

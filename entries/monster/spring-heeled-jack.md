@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "pathfinder-43-haunting-of-harrowstone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spring_heeled_jack", path = "json/monsters38.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "253"
+[[sources]]
+publication = "pathfinder-43-haunting-of-harrowstone"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ bloody knife and a wicked grin._
 
 **Size:** small
 
-**Sources:** Bestiary 4 pg 253, Pathfinder \#43: Haunting of Harrowstone pg 88\
 **Experience points:** 800
 
 **Armor class:** 16/16/11

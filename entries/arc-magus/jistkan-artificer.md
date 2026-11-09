@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/magus" },
 ]
+[[sources]]
+publication = "blood-of-the-ancients"
+page = "17"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["The magus arcana gained at 3rd level"]
 alters = ["Spellcasting", "Arcane pool", "Cantrips", "Spellstrike"]
 +++
 
-**Sources:** Blood of the Ancients pg 17\
 As part of studying the secret methods the original Jistkan artificers used to build golems, these
 magi graft construct parts onto their own arms.
 

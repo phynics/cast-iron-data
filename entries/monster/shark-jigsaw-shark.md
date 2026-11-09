@@ -6,6 +6,9 @@ source_ids = ["pathfinder-57-tempest-rising"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shark_jigsaw_shark", path = "json/monsters38.json" },
 ]
+[[sources]]
+publication = "pathfinder-57-tempest-rising"
+page = "85"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ teeth tell of the frequency and ferocity with which it uses its bite._
 
 **Perception:** +6
 
-**Sources:** Pathfinder \#57: Tempest Rising pg 85\
 **Subtype:** Aquatic
 
 **Experience points:** 400

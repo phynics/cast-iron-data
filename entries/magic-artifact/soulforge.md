@@ -6,6 +6,9 @@ source_ids = ["tombs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soulforge", path = "json/magic_artifact3.json" },
 ]
+[[sources]]
+publication = "tombs-of-golarion"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong evocation"
 caster_level = "20th"
 +++
 
-**Sources:** Tombs of Golarion pg 31\
 **Aura** strong evocation; **CL** 20th\
 **Slot** none; **Price** -; **Weight** -
 

@@ -6,6 +6,12 @@ source_ids = ["adventurers-guide", "inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unblinking_flame_feint", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "106"
+[[sources]]
+publication = "inner-sea-combat"
+page = "13"
 
 [fields]
 kind = "feat"
@@ -16,8 +22,6 @@ benefit = "While using Perfect Style, you can use your Wisdom modifier in place 
 +++
 
 ## Unblinking Flame Feint (Combat)
-
-**Sources:** Adventurer's Guide pg 106, Inner Sea Combat pg 13
 
 You move as swiftly and unpredictably as a flickering flame.\
 **Prerequisites:** Int 13; Wis 13; [Combat Expertise](ref/feat/combat-expertise);

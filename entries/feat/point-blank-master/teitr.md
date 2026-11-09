@@ -6,6 +6,8 @@ source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/point-blank-master" },
 ]
+[[sources]]
+publication = "the-elephant-in-the-room-feat-taxes-in-pathfinder"
 
 [fields]
 kind = "feat"
@@ -16,7 +18,6 @@ benefit = "Choose the bows, crossbows, or thrown group listed under the fighter'
 normal = "Using a ranged weapon while you are threatened provokes attacks of opportunity."
 +++
 
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 You are adept at firing ranged weapons in close quarters.\
 **Prerequisites:** [Weapon Specialization](ref/feat/weapon-specialization) with selected weapon
 group.\

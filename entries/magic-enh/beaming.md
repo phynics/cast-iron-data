@@ -6,6 +6,9 @@ source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beaming", path = "json/magic_enhancements2.json" },
 ]
+[[sources]]
+publication = "blood-of-shadows"
+page = "21"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ aura = "faint evocation"
 caster_level = "10th"
 +++
 
-**Sources:** Blood of Shadows pg 21\
 **Aura** faint evocation; **CL** 10th\
 **Price** +1 bonus; **Weight** -
 

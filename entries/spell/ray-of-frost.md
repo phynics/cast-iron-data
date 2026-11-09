@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ray_of_frost", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "330"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: yes
 Effect: ray
 Descriptors: cold
 :::
-
-**Sources:** PRPG Core Rulebook pg 330
 
 A ray of freezing air and ice projects from your pointing finger. You must succeed on a ranged touch
 attack with the ray to deal damage to a target. The ray deals 1d3 points of cold damage.

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-91-battle-of-bloodmarch-hills"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blackwisp_egret", path = "json/monsters03.json" },
 ]
+[[sources]]
+publication = "pathfinder-91-battle-of-bloodmarch-hills"
+page = "83"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ them, making them appear to glow ominously._
 
 **Size:** small
 
-**Sources:** Pathfinder \#91: Battle of Bloodmarch Hills pg 83\
 **Experience points:** 135
 
 **Armor class:** 13/13/11

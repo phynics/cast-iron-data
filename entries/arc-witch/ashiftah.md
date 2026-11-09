@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/witch" },
 ]
+[[sources]]
+publication = "qadira-jewel-of-the-east"
+page = "14"
 
 [fields]
 kind = "archetype"
 replaces = ["Familiar", "2nd-level hex", "6th-level hex"]
 +++
 
-**Sources:** Qadira, Jewel of the East pg 14\
 Qadira's armies strike terror into foes, but tales of something even more terrible than desert
 dervishes or charging cavalry haunt foot soldiers serving Qadira's neighbors. Known in Taldane as a
 "battle witch," an ashiftah drifts like a phantom among the enemy armies, calling down disaster upon

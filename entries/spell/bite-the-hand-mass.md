@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/bite-the-hand" },
 ]
+[[sources]]
+publication = "pathfinder-society-field-guide"
+page = "57"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Subschool: Compulsion
 :::
 
 ### Mass Bite the Hand
-
-**Sources:** Pathfinder Society Field Guide pg 57
 
 This spell functions like [bite the hand](ref/spell/bite-the-hand), except as noted above. The
 target creatures do not need to have all been summoned by the same being.

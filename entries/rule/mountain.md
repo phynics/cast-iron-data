@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mountain", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "157"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 157
 
 [Mountains](ref/rule/mountain-terrain) form long barriers across the landscape that greatly impede
 the movement of travelers.

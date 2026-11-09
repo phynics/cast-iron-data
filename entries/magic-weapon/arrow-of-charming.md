@@ -6,6 +6,9 @@ source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arrow_of_charming", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "24"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment"
 caster_level = "8th"
 +++
 
-**Sources:** Ranged Tactics Toolbox pg 24\
 **Aura** moderate enchantment; **CL** 8th\
 **Slot** none; **Price** 2,886 gp; **Weight** 1/20 lb.
 

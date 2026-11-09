@@ -6,6 +6,9 @@ source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_whispering_way", path = "json/class_ability_oaths.json" },
 ]
+[[sources]]
+publication = "divine-anthology"
+page = "20"
 
 [fields]
 kind = "class_option"
@@ -13,7 +16,6 @@ group = "paladin-oath"
 replaces = ["Detect evil", "3rd-level and 9th-level mercies", "Aura of resolve", "Aura of justice"]
 +++
 
-**Sources:** Divine Anthology pg 20\
 The [Whispering Way](ref/rule/f-gravepath) is an enemy to all life in the world, and as a result
 many paladins feel called to contain its evil. (This oath is identical to the
 [oath against undeath](ref/oath/undeath) except for the _aura against necromancy_ below.)

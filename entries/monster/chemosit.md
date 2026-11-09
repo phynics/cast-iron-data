@@ -6,6 +6,9 @@ source_ids = ["pathfinder-38-racing-to-ruin"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chemosit", path = "json/monsters05.json" },
 ]
+[[sources]]
+publication = "pathfinder-38-racing-to-ruin"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ savagery._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Pathfinder \#38: Racing to Ruin pg 86\
 **Experience points:** 1,200
 
 **Armor class:** 18/12/15

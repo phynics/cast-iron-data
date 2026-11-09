@@ -6,12 +6,13 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "type_f", path = "json/rules_adv_gm07.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "365"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Equipment pg 365
 
 Treasure of this type represents the typical gear that might be carried by a creature that
 frequently finds itself in combat without the aid of spells or magic. These rewards include coins

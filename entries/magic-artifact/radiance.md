@@ -6,6 +6,9 @@ source_ids = ["pathfinder-73-the-worldwound-incursion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "radiance", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "pathfinder-73-the-worldwound-incursion"
+page = "64"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration"
 caster_level = "20th"
 +++
 
-**Sources:** Pathfinder \#73: The Worldwound Incursion pg 64\
 **Aura** strong abjuration; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 4 lbs.
 

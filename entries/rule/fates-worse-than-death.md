@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fates_worse_than_death", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "220"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 220
 
 When death is final and unknown, it is as mysterious to living beings as it is terrifying.
 Characters accustomed to communicating with spirits, however, know that death is not the end. In

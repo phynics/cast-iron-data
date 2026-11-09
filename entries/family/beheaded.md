@@ -6,12 +6,13 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beheaded", path = "json/monster_families.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "17"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Bestiary 4 pg 17
 
 A beheaded is a severed head or skull animated as a mindless undead sentinel that silently floats at
 eye level as it lies in wait for living prey or is sent out into the lands of the living to

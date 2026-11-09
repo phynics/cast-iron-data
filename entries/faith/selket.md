@@ -6,6 +6,9 @@ source_ids = ["pathfinder-80-empty-graves"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "selket", path = "json/faiths7.json" },
 ]
+[[sources]]
+publication = "pathfinder-80-empty-graves"
+page = "71"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Selket**
 
 **Sub:** Mistress of the Beautiful House
-
-**Sources:** Pathfinder \#80: Empty Graves pg 71
 
 ### Details
 

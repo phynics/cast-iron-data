@@ -6,6 +6,9 @@ source_ids = ["occult-bestiary", "blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hag_dreamthief_hag", path = "json/monsters33.json" },
 ]
+[[sources]]
+publication = "occult-bestiary"
+page = "22"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ with green light._
 
 **Senses:** Darkvision 60 ft., See alignment
 
-**Sources:** Occult Bestiary pg 22\
 **Subtype:** Evil, Extraplanar
 
 **Experience points:** 12,800

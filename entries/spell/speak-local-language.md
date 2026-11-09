@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/tongues" },
 ]
+[[sources]]
+publication = "heroes-of-the-streets"
+page = "31"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: no
 Target: creature touched
 :::
-
-**Sources:** Heroes of the Streets pg 31
 
 This spell functions as [tongues](ref/spell/tongues), except the creature touched gains only the
 ability to speak and understand a regional human language, such as Varisian or Common (Taldane in

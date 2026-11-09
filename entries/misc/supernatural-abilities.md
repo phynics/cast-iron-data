@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "supernatural_abilities", path = "json/misc.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "13"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 13
 
 Supernatural abilities are magical attacks, defenses, and qualities. These abilities can be always
 active or they can require a specific action to utilize. The supernatural ability's description

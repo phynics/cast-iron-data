@@ -6,6 +6,9 @@ source_ids = ["the-harrowing", "blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hag_mute_hag", path = "json/monsters33.json" },
 ]
+[[sources]]
+publication = "the-harrowing"
+page = "31"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ gray-skinned crone._
 
 **Senses:** Scent
 
-**Sources:** The Harrowing pg 31\
 **Subtype:** Cold
 
 **Experience points:** 12,800

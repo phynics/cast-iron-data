@@ -6,6 +6,9 @@ source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "venombane_lozenges", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "potions-and-poisons"
+page = "31"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "35 gp"
 weight = "-"
 +++
 
-**Sources:** Potions and Poisons pg 31\
 **Price** 35 gp; **Weight** -\
 **Category** Alchemical Remedies
 

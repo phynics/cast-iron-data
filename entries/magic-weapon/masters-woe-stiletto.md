@@ -6,6 +6,9 @@ source_ids = ["undead-slayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "masters_woe_stiletto", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "undead-slayers-handbook"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Sources:** Undead Slayer's Handbook pg 29\
 **Aura** faint necromancy; **CL** 3rd\
 **Slot** none; **Price** 10,002 gp; **Weight** 1 lb.
 

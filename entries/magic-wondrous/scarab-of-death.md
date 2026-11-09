@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scarab_of_death", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "350"
+[[sources]]
+publication = "core-rulebook"
+page = "542"
 
 [fields]
 kind = "item"
@@ -16,7 +22,6 @@ aura = "strong abjuration"
 caster_level = "19th"
 +++
 
-**Sources:** Ultimate Equipment pg 350, PRPG Core Rulebook pg 542\
 **Aura** strong abjuration; **CL** 19th\
 **Slot** neck; **Weight** -
 

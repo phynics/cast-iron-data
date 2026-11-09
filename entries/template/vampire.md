@@ -6,6 +6,9 @@ source_ids = ["bestiary", "classic-horrors-revisited", "monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vampire", path = "json/monster_template4.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "270"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +2
-
-**Source:** Pathfinder RPG Bestiary/270
 
 ### Creating a Vampire
 

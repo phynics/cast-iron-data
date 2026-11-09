@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ancestral_regression", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "107"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Spell resistance: yes (harmless)
 Target: willing drow touched
 Subschool: Polymorph
 :::
-
-**Sources:** Advanced Race Guide pg 107
 
 > _[Drow](ref/race/drow) have access to the following spell._
 

@@ -6,14 +6,15 @@ source_ids = ["pathfinder-86-lords-of-rust"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mind_burner", path = "json/equipment_tech_weapons.json" },
 ]
+[[sources]]
+publication = "pathfinder-86-lords-of-rust"
+page = "63"
 
 [fields]
 kind = "item"
 category = "Technological Weapons"
 weight = "2 lbs."
 +++
-
-**Sources:** Pathfinder \#86: Lords of Rust pg 63
 
 **Cost** 8,000 gp\
 **Type** one-handed ranged; **Proficiency** exotic (firearms); **Weight** 2 lbs.\

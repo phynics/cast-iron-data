@@ -6,6 +6,9 @@ source_ids = ["pathfinder-129-the-twilight-child"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sishkanset", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "pathfinder-129-the-twilight-child"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ body._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#129: The Twilight Child pg 88\
 **Subtype:** Extraplanar, Incorporeal
 
 **Experience points:** 4,800

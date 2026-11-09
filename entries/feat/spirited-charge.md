@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spirited_charge", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "134"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When mounted and using the charge action, you deal double damage with
 +++
 
 ## Spirited Charge (Combat)
-
-**Sources:** PRPG Core Rulebook pg 134
 
 Your mounted charge attacks deal a tremendous amount of damage.\
 **Prerequisites:** Ride 1 rank, [Mounted Combat](ref/feat/mounted-combat).\

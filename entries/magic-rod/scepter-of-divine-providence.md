@@ -6,6 +6,9 @@ source_ids = ["pathfinder-94-ice-tomb-of-the-giant-queen"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scepter_of_divine_providence", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "pathfinder-94-ice-tomb-of-the-giant-queen"
+page = "38"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong (no school)"
 caster_level = "17th"
 +++
 
-**Sources:** Pathfinder \#94: Ice Tomb of the Giant Queen pg 38\
 **Aura** strong (no school); **CL** 17th\
 **Slot** none; **Price** 17,312 gp; **Weight** 5 lbs.
 

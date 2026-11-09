@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "character_creation_gg", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "59"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 59
 
 When it finally comes time to create characters, players face several big decisions, and it's the
 GM's job to help guide them. When designing their characters, players and GMs should consider not

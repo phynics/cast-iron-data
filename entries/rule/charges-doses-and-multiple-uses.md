@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charges_doses_and_multiple_uses", path = "json/rules_basics02.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "459"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 459
 
 Many items, particularly wands and staves, are limited in power by the number of charges they hold.
 Normally, charged items have 50 charges at most (10 for staves). If such an item is found as a

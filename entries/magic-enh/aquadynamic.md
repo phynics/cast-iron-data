@@ -6,6 +6,9 @@ source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aquadynamic", path = "json/magic_enhancements.json" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
+page = "62"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "varies"
 caster_level = "5th"
 +++
 
-**Sources:** Aquatic Adventures pg 62\
 **Aura** varies; **CL** 5th\
 **Slot** none; **Price** (+3,750 gp), Improved (+15,000 gp), Greater (+33,750 gp); **Weight** -
 

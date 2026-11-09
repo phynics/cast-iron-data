@@ -6,14 +6,15 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phantasm", path = "json/spell_definitions.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "210"
 
 [fields]
 kind = "none"
 +++
 
 ## Phantasm (subschool of magic)
-
-**Sources:** PRPG Core Rulebook pg 210
 
 A phantasm spell creates a mental image that usually only the caster and the subject (or subjects)
 of the spell can perceive. This impression is totally in the minds of the subjects. It is a

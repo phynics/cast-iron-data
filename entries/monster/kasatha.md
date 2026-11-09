@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kasatha", path = "json/monsters15.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "174"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _This strange, four-armed humanoid is sleek and muscled, with two spiked blades 
 
 **Perception:** +3
 
-**Sources:** Bestiary 4 pg 174\
 **Subtype:** Kasatha
 
 **Experience points:** 200

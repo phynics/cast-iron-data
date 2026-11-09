@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thoughtsense", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "190"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: no
 Target: you
 Descriptors: mind-affecting
 :::
-
-**Sources:** Occult Adventures pg 190
 
 You automatically detect and locate conscious creatures within 60 feet, as if you possessed the
 [blindsight](ref/rule/blindsight-and-blindsense) ability. Nondetection, mind blank, and similar

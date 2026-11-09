@@ -6,6 +6,9 @@ source_ids = ["chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trailblazers_boots", path = "json/magic_legacy_items.json" },
 ]
+[[sources]]
+publication = "chronicle-of-legends"
+page = "22"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Sources:** Chronicle of Legends pg 22\
 **Slot** feet; **CL** 11th; **Weight** 1 lb.\
 **Aura** moderate transmutation
 

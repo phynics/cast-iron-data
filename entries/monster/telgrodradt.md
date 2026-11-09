@@ -6,6 +6,9 @@ source_ids = ["pathfinder-100-a-song-of-silver"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "telgrodradt", path = "json/monsters23.json" },
 ]
+[[sources]]
+publication = "pathfinder-100-a-song-of-silver"
+page = "120"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ has four elongated tentacles and a toothy maw._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#100: A Song of Silver pg 120\
 **Experience points:** 2,400
 
 **Armor class:** 19/11/17

@@ -6,6 +6,12 @@ source_ids = ["inner-sea-world-guide", "pathfinder-29-mother-of-flies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "calikang", path = "json/monsters04.json" },
 ]
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "307"
+[[sources]]
+publication = "pathfinder-29-mother-of-flies"
+page = "80"
 
 [fields]
 kind = "creature"
@@ -41,7 +47,6 @@ jewels._
 
 **Senses:** Darkvision 60 ft., True seeing
 
-**Sources:** Inner Sea World Guide pg 307, Pathfinder \#29: Mother of Flies pg 80\
 **Experience points:** 19,200
 
 **Armor class:** 27/11/25

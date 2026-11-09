@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dedicated_powers", path = "json/rules_basics02.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "535"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 535
 
 A dedicated power operates only when an intelligent item is in pursuit of its special purpose. This
 determination is always made by the item. It should always be easy and straightforward to see how

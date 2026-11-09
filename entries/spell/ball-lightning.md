@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ball_lightning", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "204"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: yes
 Effect: two or more 5-ft.-diameter spheres
 Descriptors: air, electricity
 :::
-
-**Sources:** Advanced Player's Guide pg 204
 
 You create two globes of lightning that fly in whichever direction you indicate. For every 4 caster
 levels above 7th, you create an additional globe of lightning (3 globes at 11th, 4 globes at 15th,

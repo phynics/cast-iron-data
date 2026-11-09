@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tree_of_woe", path = "json/magic_plant.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "250"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong enchantment"
 caster_level = "11th"
 +++
 
-**Sources:** Ultimate Wilderness pg 250\
 **Aura** strong enchantment; **CL** 11th\
 **Slot** none; **Price** 20,000 gp; **Weight** 500 lbs.
 

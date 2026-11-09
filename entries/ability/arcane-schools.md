@@ -6,12 +6,14 @@ source_ids = ["core-rulebook", "advanced-players-guide", "adventurers-guide", "i
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcane_schools", path = "json/class_abilities.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "79"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** PRPG Core Rulebook pg 79\
 The following descriptions detail each arcane school and its corresponding powers.
 
 ### Focused Arcane Schools

@@ -6,12 +6,14 @@ source_ids = ["horror-adventures", "game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "schizophrenia", path = "json/madness.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "187"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Adventures pg 187\
 **Type** greater madness; **Save DC** 22\
 **Onset** 1d6 days\
 **Effect** -4 penalty on Wisdom- and Charisma-based checks; cannot take 10 or take 20 on any check;

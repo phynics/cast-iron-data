@@ -6,6 +6,9 @@ source_ids = ["pathfinder-55-the-wormwood-mutiny"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kelpies_wrath", path = "json/monsters15.json" },
 ]
+[[sources]]
+publication = "pathfinder-55-the-wormwood-mutiny"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ made all the more disturbing by its apparent lack of a crew._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#55: The Wormwood Mutiny pg 86\
 **Subtype:** Chaotic, Extraplanar, Water
 
 **tremorsense:** 60

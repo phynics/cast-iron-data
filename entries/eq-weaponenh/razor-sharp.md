@@ -6,6 +6,9 @@ source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "razor_sharp", path = "json/equipment_weapon_enhancements.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "10"
 
 [fields]
 kind = "item"
@@ -13,7 +16,6 @@ category = "Weapon Modifications"
 weight = "-"
 +++
 
-**Sources:** Adventurer's Armory 2 pg 10\
 **Cost** +1,000 gp **Weight** -\
 **Category** Modification; **Proficiency** Modification
 

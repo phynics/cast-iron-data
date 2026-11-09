@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "player_characters_in_battles", path = "json/rules_campaign_types05.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "245"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 245
 
 In addition to the option of your PCs being commanders in your armies, the GM may have you fight
 smaller groups of enemies before or even during a battle in which your armies clash with the enemy.

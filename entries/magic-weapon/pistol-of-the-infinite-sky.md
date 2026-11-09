@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pistol_of_the_infinite_sky", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "158"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration"
 caster_level = "15th"
 +++
 
-**Sources:** Ultimate Equipment pg 158\
 **Aura** strong conjuration; **CL** 15th\
 **Slot** none; **Price** 73,300 gp; **Weight** 4 lbs.
 

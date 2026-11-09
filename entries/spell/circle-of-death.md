@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "circle_of_death", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "255"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: yes
 Area: several living creatures within a 40-ft.-radius burst
 Descriptors: death
 :::
-
-**Sources:** PRPG Core Rulebook pg 255
 
 Circle of death snuffs out the life force of living creatures, killing them instantly. The spell
 slays 1d4 HD worth of living creatures per caster level (maximum 20d4). Creatures with the fewest HD

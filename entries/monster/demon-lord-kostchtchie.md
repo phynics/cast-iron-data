@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_lord_kostchtchie", path = "json/monsters_unique.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "48"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ warhammer._
 
 **Senses:** Darkvision 60 ft., Detect good, Detect law, True seeing
 
-**Sources:** Bestiary 4 pg 48\
 **Subtype:** Chaotic, Cold, Demon, Evil, Extraplanar
 
 **Experience points:** 2,457,600

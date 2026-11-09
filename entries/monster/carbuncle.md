@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "pathfinder-31-stolen-land"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "carbuncle", path = "json/monsters04.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "44"
+[[sources]]
+publication = "pathfinder-31-stolen-land"
+page = "76"
 
 [fields]
 kind = "creature"
@@ -40,7 +46,6 @@ both surprised and perplexed._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 3 pg 44, Pathfinder \#31: Stolen Land pg 76\
 **Size:** tiny
 
 **Experience points:** 400

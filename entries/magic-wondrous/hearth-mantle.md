@@ -6,6 +6,9 @@ source_ids = ["pathfinder-87-the-choking-tower"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hearth_mantle", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "pathfinder-87-the-choking-tower"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration and evocation"
 caster_level = "5th"
 +++
 
-**Sources:** Pathfinder \#87: The Choking Tower pg 60\
 **Aura** faint abjuration and evocation; **CL** 5th\
 **Slot** neck; **Price** 3,600 gp; **Weight** 2 lbs.
 

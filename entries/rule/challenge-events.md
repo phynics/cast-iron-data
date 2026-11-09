@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "challenge_events", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "169"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 169
 
 Challenge events allow the PCs a chance to affect or even disrupt the balance of power in social
 conflicts. Unlike in discovery encounters, where the goal is often to reconnoiter the particulars of

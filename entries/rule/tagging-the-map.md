@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tagging_the_map", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "176"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 176
 
 Once your map is inked and colored, it's essentially ready for play. All that's left is to tag it
 with number locations that key the map to the encounter descriptions in your notes. Using a number

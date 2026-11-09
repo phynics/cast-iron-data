@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fire_shield", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "282"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** PRPG Core Rulebook pg 282
 
 This spell wreathes you in flame and causes damage to each creature that attacks you in melee. The
 flames also protect you from either cold-based or fire-based attacks, depending on if you choose

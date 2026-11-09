@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/amateur-swashbuckler", label = "or" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "145"
 
 [fields]
 kind = "feat"
@@ -19,8 +22,6 @@ benefit = "As a move action, you can wrap a cape that you're wearing around your
 +++
 
 ## Dueling Cape (Combat, Panache)
-
-**Sources:** Advanced Class Guide pg 145
 
 You can use a simple cape to guard yourself and confound your foes.\
 **Prerequisites:** [Amateur Swashbuckler](ref/feat/amateur-swashbuckler) or panache class feature;

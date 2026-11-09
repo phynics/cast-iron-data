@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "artful_dodge", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "7"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "The Artful Dodge feat acts as the Dodge feat for the purpose of satis
 +++
 
 ## Artful Dodge (Combat)
-
-**Sources:** Melee Tactics Toolbox pg 7
 
 You are practiced at avoiding attacks when outnumbered.\
 **Prerequisites:** Int 13.\

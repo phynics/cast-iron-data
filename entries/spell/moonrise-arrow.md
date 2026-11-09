@@ -6,6 +6,9 @@ source_ids = ["pathfinder-134-it-came-from-hollow-mountain"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "moonrise_arrow", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "pathfinder-134-it-came-from-hollow-mountain"
+page = "72"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes (object)
 Target: up to 50 pieces of ammunition, all of which must be together at the time of casting
 Descriptors: light
 :::
-
-**Sources:** Pathfinder \#134: It Came from Hollow Mountain pg 72
 
 You cause ammunition, including shuriken, to glow with faint silvery light. The ammunition counts as
 magic and silver for the purpose of overcoming [damage reduction](ref/rule/damage-reduction), in

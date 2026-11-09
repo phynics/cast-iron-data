@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dueling_resolve", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "152"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 152
 
 Once per duel, a character can use a special action called dueling resolve. This special action
 allows a duelist to keep on fighting despite a crippling spell or terrible injury.

@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crown_of_conquest", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "241"
+[[sources]]
+publication = "advanced-race-guide"
+page = "78"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Sources:** Ultimate Equipment pg 241, Advanced Race Guide pg 78\
 **Aura** moderate enchantment; **CL** 7th\
 **Slot** head; **Price** 24,600 gp; **Weight** 3 lbs.
 

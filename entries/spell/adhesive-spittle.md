@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "adhesive_spittle", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "172"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: no
 Target: one creature
 Subschool: Creation
 :::
-
-**Sources:** Advanced Class Guide pg 172
 
 Once during this spell's duration, you can spit a viscous liquid as a standard action. This liquid
 functions as a [tanglefoot bag](ref/eq-weapon/tanglefoot-bag), except you do not have to make a

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "confusion", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "258"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Targets: all creatures in a 15-ft.-radius burst
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 258
 
 This spell causes confusion in the targets, making them unable to determine their actions. Roll on
 the following table at the start of each subject's turn each round to see what it does in that

@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unguent_of_aging", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "351"
 
 [fields]
 kind = "item"
@@ -15,8 +18,6 @@ slot = "none"
 aura = "moderate transmutation"
 caster_level = "6th"
 +++
-
-**Sources:** Ultimate Equipment pg 351
 
 **Aura** moderate transmutation; **CL** 6th\
 **Slot** none; **Weight** -

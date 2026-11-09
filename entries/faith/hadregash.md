@@ -6,6 +6,9 @@ source_ids = ["pathfinder-117-assault-on-longshadow"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hadregash", path = "json/faiths4.json" },
 ]
+[[sources]]
+publication = "pathfinder-117-assault-on-longshadow"
+page = "77"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Hadregash**
 
 **Sub:** Greatest Supreme Chieftain Boss
-
-**Sources:** Pathfinder \#117: Assault on Longshadow pg 77
 
 ### Details
 

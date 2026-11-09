@@ -6,6 +6,9 @@ source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "transfiguring_touch", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "63"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: none
 Spell resistance: no
 Target: object touched, up to 1 cubic foot per level
 :::
-
-**Sources:** Inner Sea Intrigue pg 63
 
 You create an alchemical residue on your hands that gradually converts a touched, unattended,
 nonmagical object into iron, paper, or wood (your choice). The spell converts at most 1 cubic foot

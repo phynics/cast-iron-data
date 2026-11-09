@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "azata_sprint", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "26"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using Azata Style, your base speed increases by 10 feet and you
 +++
 
 ## Azata Sprint (Combat)
-
-**Sources:** Planar Adventures pg 26
 
 You move across the battlefield in a blur.\
 **Prerequisites:** [Agile Maneuvers](ref/feat/agile-maneuvers),

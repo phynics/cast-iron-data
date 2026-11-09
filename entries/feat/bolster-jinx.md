@@ -11,6 +11,9 @@ relations = [
   { kind = "prerequisite", target = "ref/feat/iron-will", label = "or" },
   { kind = "prerequisite", target = "ref/feat/lightning-reflexes", label = "or" },
 ]
+[[sources]]
+publication = "halflings-of-golarion"
+page = "26"
 
 [fields]
 kind = "feat"
@@ -18,8 +21,6 @@ prerequisites = "Great Fortitude, Iron Will, or Lightning Reflexes; Halfling Jin
 prerequisite_feats = ["ref/feat/great-fortitude", "ref/feat/iron-will", "ref/feat/lightning-reflexes"]
 benefit = "A jinxed target's penalty on Fortitude, Reflex, or Will saves increases by 2 if you have the Great Fortitude, Lightning Reflexes, or Iron Will feat, respectively. If you have more than one of these feats, the additional penalties apply to all of the corresponding saves."
 +++
-
-**Sources:** Halflings of Golarion pg 26
 
 Your ability to resist certain effects somehow makes it even harder for creatures you jinx to do the
 same.\

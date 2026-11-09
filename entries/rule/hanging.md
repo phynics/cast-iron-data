@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hanging", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "209"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 209
 
 Whether by the snapping of a neck or lengthy strangulation, hanging is a time-tested form of
 execution, and stories abound of heroes rescuing a victim in the nick of time.

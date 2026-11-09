@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "orders_wrath", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "317"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: yes
 Area: nonlawful creatures within a burst that fills a 30-ft. cube
 Descriptors: lawful
 :::
-
-**Sources:** PRPG Core Rulebook pg 317
 
 You channel lawful power to smite enemies. The power takes the form of a three-dimensional grid of
 energy. Only chaotic and neutral (not lawful) creatures are harmed by the spell.

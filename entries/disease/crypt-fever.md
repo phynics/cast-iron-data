@@ -6,12 +6,13 @@ source_ids = ["tomb-of-the-iron-medusa"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crypt_fever", path = "json/diseases.json" },
 ]
+[[sources]]
+publication = "tomb-of-the-iron-medusa"
+page = "13"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Tomb of the Iron Medusa pg 13
 
 **Type:** Disease (Contact or inhaled)
 

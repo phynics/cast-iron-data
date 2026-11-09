@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "essentials_of_good_campaigns", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "19"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 19
 
 Your campaign need not have an overarching storyline, but having one (or more) continuing plots can
 help tie your adventures together into a continuous narrative, and inspire new ones.

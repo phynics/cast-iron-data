@@ -6,13 +6,14 @@ source_ids = ["core-rulebook", "advanced-players-guide", "heroes-of-the-streets"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "war", path = "json/class_ability_domains3.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "48"
 
 [fields]
 kind = "class_option"
 group = "cleric-domain"
 +++
-
-**Sources:** PRPG Core Rulebook pg 48
 
 **Granted Powers:** You are a crusader for your god, always ready and willing to fight to defend
 your faith.

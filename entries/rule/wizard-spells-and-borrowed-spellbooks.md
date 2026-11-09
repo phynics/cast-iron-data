@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wizard_spells_and_borrowed_spellbooks", path = "json/rules_basics04.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "219"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 219
 
 A wizard can use a borrowed spellbook to prepare a spell he already knows and has recorded in his
 own spellbook, but preparation success is not assured. First, the wizard must decipher the writing

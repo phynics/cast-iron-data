@@ -6,6 +6,9 @@ source_ids = ["occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_other_prism_dragon", path = "json/monsters42.json" },
 ]
+[[sources]]
+publication = "occult-bestiary"
+page = "42"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ _The facets of this crystalline dragon's body reflect fascinating and sparkling 
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Occult Bestiary pg 42\
 **Subtype:** Extraplanar
 
 **Experience points:** 102,400

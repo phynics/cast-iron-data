@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "surprising_combatant", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "blood-of-the-moon"
+page = "23"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "At the beginning of combat, after initiative is rolled but before the
 +++
 
 ## Surprising Combatant (Combat)
-
-**Sources:** Blood of the Moon pg 23
 
 You can briefly trick your foes into discounting you as a combatant.\
 **Prerequisites:** [Improved Initiative](ref/feat/improved-initiative), Bluff 3 ranks.\

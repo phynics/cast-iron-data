@@ -6,6 +6,9 @@ source_ids = ["distant-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scintillating_wall", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "distant-realms"
+page = "42"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Effect: wall with an area of up to one 10-ft. square/level
 Subschool: Pattern
 Descriptors: mind-affecting
 :::
-
-**Sources:** Distant Realms pg 42
 
 You create a vibrant wall of hypnotic light and color. The wall does not impede movement or line of
 sight in any way. Creatures moving through the wall must succeed at a Will save or become

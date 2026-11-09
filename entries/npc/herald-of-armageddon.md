@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "herald_of_armageddon", path = "json/npcs4.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "58"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "16"
 
 **Challenge rating:** 16
 
-**Sources:** NPC Codex pg 58\
 **XP** 76,800\
 Human [cleric](ref/class/cleric) of [Rovagug](ref/faith/rovagug) 17\
 CE Medium humanoid (human)\

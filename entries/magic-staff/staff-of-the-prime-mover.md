@@ -6,6 +6,9 @@ source_ids = ["down-the-blighted-path"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_the_prime_mover", path = "json/magic_staff.json" },
 ]
+[[sources]]
+publication = "down-the-blighted-path"
+page = "63"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Sources:** Down the Blighted Path pg 63\
 **Aura** moderate evocation; **CL** 10th\
 **Slot** none; **Price** 38,300 gp; **Weight** 2 lbs.
 

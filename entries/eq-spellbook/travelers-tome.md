@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "travelers_tome", path = "json/equipment_spellbooks.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "121"
 
 [fields]
 kind = "item"
@@ -17,8 +20,6 @@ category = "Spellbooks"
 _This small book, no larger than a pocket notebook, is bound between wooden covers, and is clearly a
 copy meant to withstand the rigors of adventuring. The arrowhead lodged in the cover can't be
 removed without magic._
-
-**Sources:** Ultimate Magic pg 121
 
 **Opposition** Conjuration, enchantment\
 **Protection** [Simple lock](ref/eq-misc/lock-simple) (DC 20)\

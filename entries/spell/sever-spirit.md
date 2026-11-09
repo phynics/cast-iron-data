@@ -6,12 +6,14 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sever_spirit", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "239"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Ultimate Wilderness pg 239\
 **School** abjuration \[curse, evil\]; **Level** 6\
 **Casting Time** 60 minutes\
 **Components** V, S, M (salt mixed with the cremated remains of a family member or former friend), F

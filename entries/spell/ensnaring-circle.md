@@ -6,12 +6,14 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ensnaring_circle", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "211"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Occult Adventures pg 211\
 **School** abjuration \[variable; see text\]; **Level** 4\
 **Casting Time** 40 minutes\
 **Components** V, S, M (powdered silver), F (a stylus made of mithral and diamond worth 5,000 gp),

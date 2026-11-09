@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "expanded_perform", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "52"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 52
 
 In addition to being able to put on a show, a performer knows the prominent works of her chosen type
 of performance.

@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wilderness_soldiers", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "249"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: none
 Spell resistance: no
 Area: 30-ft.-radius emanation, centered on you
 :::
-
-**Sources:** Ultimate Combat pg 249
 
 You call on the plants nearby to aid you in combat. This spell is ineffective if no plants you can
 direct are within the area. You can spend a swift action and/or a standard action on each of your

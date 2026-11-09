@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mind_swap", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "176"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Occult Adventures pg 176
 
 This spell is similar to [possession](ref/spell/possession), except you switch minds with the
 target, so instead of the target's soul sharing its body with yours and being unable to act, the

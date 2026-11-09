@@ -6,6 +6,9 @@ source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elixir_of_countless_eyes", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "potions-and-poisons"
+page = "20"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Potions and Poisons pg 20\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** none; **Price** 1,200 gp; **Weight** -
 

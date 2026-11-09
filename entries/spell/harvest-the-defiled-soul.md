@@ -6,12 +6,14 @@ source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "harvest_the_defiled_soul", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "haunted-heroes-handbook"
+page = "17"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Haunted Heroes Handbook pg 17\
 **School** necromancy \[evil\]; **Level** 5\
 **Casting Time** 5 hours; see text\
 **Components** V, S, M (one candle worth 10 gp per 5 feet of the area's perimeter), F (special

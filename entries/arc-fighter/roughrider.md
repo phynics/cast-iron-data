@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/fighter" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "106"
 
 [fields]
 kind = "archetype"
 replaces = ["Bravery", "Armor training 1", "Weapon training 1, 2, 3, and 4", "Armor training 2", "Armor training 3", "Armor training 4", "Armor training 4", "Armor mastery"]
 +++
 
-**Sources:** Advanced Player's Guide pg 106\
 Roughriders study and practice the fine points of mounted combat, drilling endlessly with
 warbeasts - from noble thoroughbreds to trained monsters - to form a perfect synergy between rider
 and steed.

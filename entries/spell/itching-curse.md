@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "itching_curse", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "22"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Spell resistance: yes
 Target: one living creature with 5 HD or fewer
 Descriptors: curse
 :::
-
-**Sources:** Magic Tactics Toolbox pg 22
 
 You curse the target with a distracting, unbearable itch. Unless the target scratches as a move
 action, it takes a -1 penalty on attack rolls, saving throws, skill checks, and ability checks.

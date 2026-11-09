@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloodbath", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "110"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Saving throw: Fortitude negates
 Spell resistance: yes
 Target: up to one living creature/level, no two of which can be more than 30 feet apart
 :::
-
-**Sources:** Horror Adventures pg 110
 
 You cut yourself with the dagger, dealing yourself 1d6 points of bleed damage. So long as you keep
 taking this bleed damage, your targets each bleed for 1d6 points of damage at the beginning of their

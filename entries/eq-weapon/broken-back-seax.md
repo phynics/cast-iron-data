@@ -6,14 +6,15 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "broken_back_seax", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "30"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "4 lbs"
 +++
-
-**Sources:** Martial Arts Handbook pg 30
 
 Used in Avistan since before Earthfall, seaxes are straight, single-edged blades. The broken-back
 seax is the size of a short sword, and has a broad blade with a distinctive trapezoidal shape. If

@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_criminal_underworld", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "100"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 100
 
 Though it can benefit from the use of other elements, a campaign set in the criminal underworld is
 fundamentally built around the tensions from the Relationships and Loyalty, Measures and

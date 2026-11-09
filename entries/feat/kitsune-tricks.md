@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kitsune_tricks", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "15"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While you are using the Kitsune Style feat, you can apply two differe
 +++
 
 ## Kitsune Tricks (Combat)
-
-**Sources:** Dirty Tactics Toolbox pg 15
 
 Your quick wit and even quicker maneuvers leave your opponents reeling.\
 **Prerequisites:** Int 13; [Combat Expertise](ref/feat/combat-expertise);

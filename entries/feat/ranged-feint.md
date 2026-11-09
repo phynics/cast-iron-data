@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ranged_feint", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "89"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ normal = "You can feint only with a melee weapon, and only against a creature yo
 +++
 
 ## Ranged Feint (Combat)
-
-**Sources:** Ultimate Intrigue pg 89
 
 You can mislead foes about your aim with ranged attacks.\
 **Prerequisites:** Base attack bonus +2, Bluff 3 ranks.\

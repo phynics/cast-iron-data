@@ -9,6 +9,12 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "47"
+[[sources]]
+publication = "familiar-folio"
+page = "7"
 
 [fields]
 kind = "archetype"
@@ -16,7 +22,6 @@ replaces = ["Nature bond", "Wild empathy", "Resist nature's lure", "A thousand f
 alters = ["Spontaneous casting", "Wild shape"]
 +++
 
-**Sources:** Ultimate Wilderness pg 47, Familiar Folio pg 7\
 The natural world is full of bodiless nature spirits connected to the forces of glades, springs, and
 individual plants. Some druids hear their call keenly and are able to effortlessly incarnate them as
 the miniature creatures known as leshys. The leshy warden serves as these spirits' ally, defender,

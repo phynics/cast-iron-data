@@ -6,6 +6,9 @@ source_ids = ["andoran-birthplace-of-freedom"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lumber_consortium_enforcer", path = "json/npcs5.json" },
 ]
+[[sources]]
+publication = "andoran-birthplace-of-freedom"
+page = "57"
 
 [fields]
 kind = "creature"
@@ -18,7 +21,6 @@ _This beefy human brawler has the bearing of a thug._
 
 **Challenge rating:** 3
 
-**Sources:** Andoran, Birthplace of Freedom pg 57\
 **XP** 800\
 Human [brawler](ref/class/brawler) 4\
 NE Medium humanoid (human)\

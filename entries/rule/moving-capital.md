@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "moving_capital", path = "json/rules_subsystems02.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "80"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 80
 
 Some types of capital - in particular Influence - might be specific to a particular settlement or
 region. Other types may be used at any settlement, though the GM might rule that there is a delay in

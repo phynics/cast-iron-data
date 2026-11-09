@@ -6,6 +6,9 @@ source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thoqqua_snake", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "magical-marketplace"
+page = "21"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Sources:** Magical Marketplace pg 21\
 **Aura** faint conjuration; **CL** 5th\
 **Slot** none; **Price** 750 gp; **Weight** -
 

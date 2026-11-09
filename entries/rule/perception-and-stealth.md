@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "perception_and_stealth", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "187"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 187
 
 Since Perception is the skill that determines what a character sees, hears, and senses in the game
 world, it is no wonder that it's often considered the most important skill in the game. Stealth and

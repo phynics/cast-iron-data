@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oni_void_yai", path = "json/monsters18.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "210"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ champion of countless wars._
 
 **Senses:** Darkvision 60 ft., Low-light vision, True seeing
 
-**Sources:** Bestiary 3 pg 210\
 **Subtype:** Giant, Native, Oni, Shapechanger
 
 **Experience points:** 307,200

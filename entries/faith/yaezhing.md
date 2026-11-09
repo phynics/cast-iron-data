@@ -6,6 +6,9 @@ source_ids = ["dragon-empires-gazetteer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "yaezhing", path = "json/faiths9.json" },
 ]
+[[sources]]
+publication = "dragon-empires-gazetteer"
+page = "58"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Yaezhing**
 
 **Sub:** Minister of Blood
-
-**Sources:** Dragon Empires Gazetteer pg 58
 
 ### Details
 

@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "merciful_takedown", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "26"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "When you perform a coup de grace and deal only nonlethal damage, inst
 +++
 
 ## Merciful Takedown (Combat)
-
-**Sources:** Martial Arts Handbook pg 26
 
 You are adept at removing your defeated opponents from the fight while avoiding their deaths.\
 **Benefit:** When you perform a [coup de grace](ref/misc/helpless) and deal only nonlethal damage,

@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chaotic_neutral", path = "json/rules_basics01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "136"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 136
 
 A rolling stone gathers no moss. There is only today. Be like the wind and be taken wherever fate
 sees fit. He who fights fate courts folly. You only live once. Power to those who do not wish for

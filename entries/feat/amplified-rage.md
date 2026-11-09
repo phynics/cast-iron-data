@@ -6,6 +6,9 @@ source_ids = ["orcs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "amplified_rage", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "orcs-of-golarion"
+page = "24"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Whenever you are raging and adjacent to a raging ally who also has th
 +++
 
 ## Amplified Rage (Teamwork)
-
-**Sources:** Orcs of Golarion pg 24
 
 When adjacent to other raging allies, your rages become even more powerful.\
 **Prerequisites:** [Half-orc](ref/race/half-orc) or [orc](ref/race/orc), rage class feature.\

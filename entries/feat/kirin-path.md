@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kirin_path", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "107"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever you make a Knowledge check to identify a creature, even when
 +++
 
 ## Kirin Path (Combat)
-
-**Sources:** Ultimate Combat pg 107
 
 You turn knowledge of your enemy into a flawless defense.\
 **Prerequisites:** Int 13, [Kirin Strike](ref/feat/kirin-strike),

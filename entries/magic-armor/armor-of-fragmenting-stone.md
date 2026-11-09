@@ -6,6 +6,9 @@ source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "armor_of_fragmenting_stone", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "monster-summoners-handbook"
+page = "20"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Sources:** Monster Summoner's Handbook pg 20\
 **Aura** moderate conjuration; **CL** 7th\
 **Slot** armor; **Price** 21,650 gp; **Weight** 60 lbs.
 

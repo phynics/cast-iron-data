@@ -6,6 +6,9 @@ source_ids = ["planar-adventures", "blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hag_moon_hag", path = "json/monsters33.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "242"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ fat in its socket._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Planar Adventures pg 242\
 **Subtype:** Extraplanar
 
 **Experience points:** 3,200

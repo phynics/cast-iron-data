@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "19"
 
 [fields]
 kind = "archetype"
 replaces = ["Poison use", "Poison resistance +4", "Poison resistance +6", "Poison immunity", "Persistent mutagen", "18th-level discovery"]
 +++
 
-**Sources:** Ultimate Magic pg 19\
 Some alchemists are obsessed with collecting and preserving exotic creatures. These preservationists
 may use bottled animals and monsters as teaching tools, but some learn how to reanimate them for
 short periods to battle on the alchemist's behalf. A preservationist has the following class

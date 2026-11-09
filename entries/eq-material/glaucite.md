@@ -6,13 +6,14 @@ source_ids = ["pathfinder-85-fires-of-creation"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "glaucite", path = "json/equipment_special_materials.json" },
 ]
+[[sources]]
+publication = "pathfinder-85-fires-of-creation"
+page = "18"
 
 [fields]
 kind = "item"
 category = "Special Materials"
 +++
-
-**Sources:** Pathfinder \#85: Fires of Creation pg 18
 
 When the phrase "Numerian Steel" is used, the speaker is usually, knowingly or not, referring to an
 iron/adamantine alloy called glaucite. This dark gray metal is the material of choice for hulls and

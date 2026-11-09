@@ -6,6 +6,9 @@ source_ids = ["occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychoplasmic", path = "json/monster_template3.json" },
 ]
+[[sources]]
+publication = "occult-bestiary"
+page = "47"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +1
-
-**Source:** Occult Bestiary/47
 
 While nearly all spirits experience the [Astral Plane](ref/rule/astral-plane) at some point in their
 cosmic journeys, it is still one of the least understood planes in the multiverse. Some say it is

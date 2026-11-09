@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/antipaladin" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "43"
 
 [fields]
 kind = "archetype"
 replaces = ["Aura of cowardice", "Fiendish boon", "Aura of despair", "Aura of vengeance"]
 +++
 
-**Sources:** Inner Sea Combat pg 43\
 Seal-breakers are dedicated to [the Whispering Tyrant](ref/monster/the-whispering-tyrant) and have
 tasked themselves with finding and destroying the seals that bind him within Gallowspire. Their ties
 to the Whispering Tyrant give them power over undead creatures and other dark forces.

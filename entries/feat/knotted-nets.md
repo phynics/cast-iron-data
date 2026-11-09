@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "knotted_nets", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "blood-of-the-beast"
+page = "11"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "A net is useful against only creatures within one size category of you
 +++
 
 ## Knotted Nets (Combat, Teamwork)
-
-**Sources:** Blood of the Beast pg 11
 
 You are capable of entangling far greater prey with the help of your allies.\
 **Prerequisites:** [Exotic Weapon Proficiency](ref/feat/exotic-weapon-proficiency) (net), base

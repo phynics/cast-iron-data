@@ -6,6 +6,9 @@ source_ids = ["inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spirit_share", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "inner-sea-temples"
+page = "23"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Inner Sea Temples pg 23
 
 This spell was first created as a minor parlor trick, but adventuring Caydenites have repurposed and
 improved on it for use on their travels. For the duration of the spell, as a standard action you can

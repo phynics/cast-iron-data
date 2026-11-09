@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jyoti", path = "json/monsters34.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "171"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ carved crystal blade._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 2 pg 171\
 **Subtype:** Extraplanar
 
 **Experience points:** 6,400

@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "synesthesia", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "187"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Targets: one living creature
 Subschool: Phantasm
 Descriptors: mind-affecting
 :::
-
-**Sources:** Occult Adventures pg 187
 
 You overstimulate the senses of the affected creature, causing its senses to interfere with another.
 While a creature is under the effects of this spell, sensory input is processed by the wrong senses,

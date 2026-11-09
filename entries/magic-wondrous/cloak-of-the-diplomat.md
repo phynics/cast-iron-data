@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloak_of_the_diplomat", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "264"
+[[sources]]
+publication = "advanced-race-guide"
+page = "48"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Sources:** Ultimate Equipment pg 264, Advanced Race Guide pg 48\
 **Aura** moderate enchantment; **CL** 7th\
 **Slot** shoulders; **Price** 20,000 gp; **Weight** 1 lb.
 

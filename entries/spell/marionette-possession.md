@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "marionette_possession", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "228"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: Will negates (see text)
 Spell resistance: yes
 Target: one willing creature
 :::
-
-**Sources:** Ultimate Magic pg 228
 
 You project your soul out of your body and into the body of a willing creature. This possession is
 blocked by [protection from evil](ref/spell/protection-from-evil) or a similar ward. The target's

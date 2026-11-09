@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/samurai" },
 ]
+[[sources]]
+publication = "dragon-empires-primer"
+page = "22"
 
 [fields]
 kind = "archetype"
 replaces = ["Mount", "Mounted charge", "Banner", "Greater banner"]
 +++
 
-**Sources:** Dragon Empires Primer pg 22\
 Sword saints hail from lands where samurai are prevalent, and are often [ronin](ref/order/ronin) who
 wander the world seeking new challenges to perfect their intricate style of swordplay called
 iaijutsu. The following benefits apply only when a sword saint is using a sword and carrying nothing

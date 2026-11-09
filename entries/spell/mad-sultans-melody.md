@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mad_sultans_melody", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "122"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Target: one creature/2 levels, no two of which can be more than 30 ft. apart (se
 Subschool: Compulsion
 Descriptors: mind-affecting, sonic
 :::
-
-**Sources:** Horror Adventures pg 122
 
 You imitate the mad cacophony created by the awful beings associated with the Outer God, Azathoth.
 This spell targets only creatures with the ooze type, creatures with the amorphous special ability,

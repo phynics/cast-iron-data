@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inescapable_gloves", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "153"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "7th"
 +++
 
-**Sources:** Mythic Adventures pg 153\
 **Aura** moderate abjuration; **CL** 7th\
 **Slot** hands; **Price** 9,000 gp; **Weight** 1 lb.
 

@@ -6,6 +6,9 @@ source_ids = ["mythic-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "winters_heart", path = "json/magic_artifact3.json" },
 ]
+[[sources]]
+publication = "mythic-realms"
+page = "52"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong evocation"
 caster_level = "20th"
 +++
 
-**Sources:** Mythic Realms pg 52\
 **Aura** strong evocation; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 12 lbs.
 

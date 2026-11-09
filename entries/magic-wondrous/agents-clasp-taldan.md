@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "agents_clasp_taldan", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "228"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "9th"
 +++
 
-**Sources:** Inner Sea Races pg 228\
 **Aura** moderate evocation; **CL** 9th\
 **Slot** neck; **Price** 60,000 gp; **Weight** -
 

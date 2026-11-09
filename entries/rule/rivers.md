@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rivers", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "147"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 147
 
 Once you have the elevations of your region marked, you'll be able to place rivers. Start near the
 centerline of a mountain range and wind downward on whatever curving course you want as you approach

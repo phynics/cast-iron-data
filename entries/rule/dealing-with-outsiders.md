@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dealing_with_outsiders", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "102"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 102
 
 All outsiders love that which makes them strong. They seek to promote those qualities that offer
 them the greatest power, and covet their own survival. As beings - some might even call them

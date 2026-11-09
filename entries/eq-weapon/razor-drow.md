@@ -6,14 +6,15 @@ source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "razor_drow", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "9"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "2 lbs."
 +++
-
-**Sources:** Adventurer's Armory 2 pg 9
 
 Meant for quick strikes and slashes, this long, slender knife is incredibly sharp along one edge.
 Drow swashbucklers and assassins are particularly fond of these weapons. A confirmed critical hit or

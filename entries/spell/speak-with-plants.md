@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "speak_with_plants", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "346"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** PRPG Core Rulebook pg 346
 
 You can communicate with normal plants and plant creatures, and can ask questions of and receive
 answers from them. A normal plant's sense of its surroundings is limited, so it won't be able to

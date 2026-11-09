@@ -6,6 +6,9 @@ source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "urdefhan_orvian_necromancer", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "inner-sea-monster-codex"
+page = "62"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ transparent flesh._
 
 **Senses:** Darkvision 120 ft.
 
-**Sources:** Inner Sea Monster Codex pg 62\
 **Subtype:** Native
 
 **Experience points:** 19,200

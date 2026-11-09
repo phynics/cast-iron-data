@@ -10,6 +10,9 @@ relations = [
   { kind = "prerequisite", target = "ref/feat/heavy-gravity-acclimation", label = "or" },
   { kind = "prerequisite", target = "ref/feat/light-gravity-acclimation", label = "or" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "28"
 
 [fields]
 kind = "feat"
@@ -20,8 +23,6 @@ benefit = "When using any Vital Strike feat in an area of light or heavy gravity
 +++
 
 ## Gravitational Vital Strike (Combat)
-
-**Sources:** Planar Adventures pg 28
 
 You use unusual gravities to adjust your vital strikes.\
 **Prerequisites:** [Vital Strike](ref/feat/vital-strike);

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-faiths", "pathfinder-89-palace-of-fallen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "zyphus", path = "json/faiths9.json" },
 ]
+[[sources]]
+publication = "inner-sea-faiths"
+page = "89"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Zyphus**
 
 **Sub:** The Grim Harvestman
-
-**Sources:** Inner Sea Faiths pg 89
 
 ### Details
 

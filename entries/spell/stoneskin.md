@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "potions-and-poisons", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stoneskin", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "350"
 
 [fields]
 kind = "spell"
@@ -53,8 +56,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
 :::
-
-**Sources:** PRPG Core Rulebook pg 350
 
 The warded creature gains resistance to blows, cuts, stabs, and slashes. The subject gains DR
 10/adamantine. It ignores the first 10 points of damage each time it takes damage from a weapon,

@@ -6,6 +6,9 @@ source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tactical_insight", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "quests-and-campaigns"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: none
 Spell resistance: no
 Targets: one army
 :::
-
-**Sources:** Quests and Campaigns pg 29
 
 Choose a single army tactic. You grant mastery of this tactic to the target army for the spell's
 duration. This tactic may bring an army's total known tactics to a number greater than normally

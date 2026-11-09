@@ -6,6 +6,9 @@ source_ids = ["pathfinder-60-from-hells-heart"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hurricane_crown", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "pathfinder-60-from-hells-heart"
+page = "54"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration and evocation"
 caster_level = "17th"
 +++
 
-**Sources:** Pathfinder \#60: From Hell's Heart pg 54\
 **Aura** strong conjuration and evocation; **CL** 17th\
 **Slot** head; **Price** 125,000 gp; **Weight** 2 lbs.
 

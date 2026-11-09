@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "irii", path = "json/monsters14.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "238"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ and shimmering gossamer wings._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Planar Adventures pg 238\
 **Subtype:** Extraplanar, Shapechanger
 
 **Experience points:** 204,800

@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_horned_lizard", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "197"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ spines._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Ultimate Wilderness pg 197\
 **Experience points:** 65
 
 **Armor class:** 16/15/15

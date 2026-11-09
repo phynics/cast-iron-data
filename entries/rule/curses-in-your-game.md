@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "curses_in_your_game", path = "json/rules_campaign_types02.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "138"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 138
 
 Curses can afflict characters in a variety of ways, but because they are perniciously difficult to
 remove, the tone of the game can shift if they appear often. Most curses - especially those that

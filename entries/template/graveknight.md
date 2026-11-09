@@ -6,6 +6,9 @@ source_ids = ["bestiary-3", "undead-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "graveknight", path = "json/monster_template2.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "138"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +2
-
-**Source:** Bestiary 3/138
 
 Undying tyrants and eternal champions of the undead, graveknights arise from the corpses of the most
 nefarious warlords and disgraced heroes - villains too merciless to submit to the shackles of death.

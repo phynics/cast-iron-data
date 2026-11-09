@@ -6,6 +6,9 @@ source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trick_shooter", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "9"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You gain a +2 bonus on ranged combat maneuvers. When you attempt to p
 +++
 
 ## Trick Shooter (Combat)
-
-**Sources:** Ranged Tactics Toolbox pg 9
 
 Your uncanny aim allows you to disable your opponents without harming them.\
 **Prerequisites:** Dex 13, [Deadly Aim](ref/feat/deadly-aim), base attack bonus +1.\

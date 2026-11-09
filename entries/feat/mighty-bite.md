@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mighty_bite", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "224"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "If you deal damage to a creature with your rend ability, the critical
 +++
 
 ## Mighty Bite (Combat)
-
-**Sources:** Monster Codex pg 224
 
 Your rending claws expose your opponent's vital organs to your teeth.\
 **Prerequisites:** Base attack bonus +6, bite attack, [rend](ref/umr/rend),

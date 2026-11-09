@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "touch_of_serenity", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "172"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "A monk of the lotus receives Touch of Serenity as a bonus feat at 1st
 +++
 
 ## Touch of Serenity (Combat)
-
-**Sources:** Advanced Player's Guide pg 172
 
 With a single touch you can reduce the threat of even the most savage of foes.\
 **Prerequisites:** Wis 18, [Improved Unarmed Strike](ref/feat/improved-unarmed-strike), base attack

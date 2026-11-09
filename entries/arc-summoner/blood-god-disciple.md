@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/summoner" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "53"
 
 [fields]
 kind = "archetype"
 replaces = ["Summon monster I", "III", "V", "VII", "and IX", "Summon monster II", "Summon monster IV", "Summon monster VI and VIII spell-like abilities"]
 +++
 
-**Sources:** Advanced Race Guide pg 53\
 A half-orc summoner who devotes himself to one of the bloody orc gods may believe his eidolon is an
 avatar of that god rather than a mere supernatural creature. A blood god disciple generally fights
 by the avatar's side and offers it blood sacrifices in exchange for martial prowess. A blood god

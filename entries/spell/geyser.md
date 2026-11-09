@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "geyser", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "225"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Effect: spout of boiling water filling a 5 ft. square and spraying upward 10 ft.
 Subschool: Creation
 Descriptors: fire, water
 :::
-
-**Sources:** Advanced Player's Guide pg 225
 
 You cause a column of boiling water to spring forth from any horizontal surface, knocking over
 creatures directly over it and exposing nearby creatures to searing droplets as its spray falls back

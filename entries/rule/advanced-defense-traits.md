@@ -6,12 +6,13 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "advanced_defense_traits", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "224"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Advanced Race Guide pg 224
 
 **Fey Damage Resistance (3 RP):** **Prerequisite:** Fey type; **Benefit:** Members of this race gain
 DR 5/cold iron.

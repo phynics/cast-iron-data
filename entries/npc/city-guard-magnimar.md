@@ -6,6 +6,9 @@ source_ids = ["magnimar-city-of-monuments"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "city_guard_magnimar", path = "json/npcs.json" },
 ]
+[[sources]]
+publication = "magnimar-city-of-monuments"
+page = "54"
 
 [fields]
 kind = "creature"
@@ -19,7 +22,6 @@ eye._
 
 **Challenge rating:** 1/2
 
-**Sources:** Magnimar, City of Monuments pg 54\
 **XP** 200\
 Male human [warrior](ref/npcclass/warrior) 2\
 N Medium humanoid (human)\

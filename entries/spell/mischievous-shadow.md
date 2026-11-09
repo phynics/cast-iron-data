@@ -6,6 +6,9 @@ source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mischievous_shadow", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "haunted-heroes-handbook"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Spell resistance: yes
 Area: one 5-ft. cube/level
 Descriptors: emotion, fear, haunted, mind-affecting
 :::
-
-**Sources:** Haunted Heroes Handbook pg 28
 
 You direct spirits into the shadows of creatures. The shadows of creatures that fail their Will
 saving throws appear slightly different for the duration of the spell, bearing small horns,

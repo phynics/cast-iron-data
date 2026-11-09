@@ -6,6 +6,9 @@ source_ids = ["disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charlatans_cope", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "disciples-doctrine"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint illusion"
 caster_level = "3rd"
 +++
 
-**Sources:** Disciple's Doctrine pg 28\
 **Aura** faint illusion; **CL** 3rd\
 **Slot** body; **Price** 4,800 gp; **Weight** 2 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grisly_ornament", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "monster-hunters-handbook"
+page = "24"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You can attempt a Craft or Heal check to craft a special type of trop
 +++
 
 ## Grisly Ornament (Item Creation)
-
-**Sources:** Monster Hunter's Handbook pg 24
 
 You adorn your gear with mementos from your foes.\
 **Prerequisites:** [Harvest Parts](ref/feat/harvest-parts).\

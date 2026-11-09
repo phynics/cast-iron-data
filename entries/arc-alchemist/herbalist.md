@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "22"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Throw Anything", "Bombs", "poison use", "poison resistance", "poiso
 alters = ["Alchemy", "the alchemist's key ability score"]
 +++
 
-**Sources:** Ultimate Wilderness pg 22\
 Vine leshys who study the physical and spiritual composition of their own bodies have discovered a
 strange herbal alchemy all their own.
 

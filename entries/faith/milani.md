@@ -6,6 +6,9 @@ source_ids = ["inner-sea-faiths", "pathfinder-68-the-shackled-hut"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "milani", path = "json/faiths6.json" },
 ]
+[[sources]]
+publication = "inner-sea-faiths"
+page = "71"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Milani**
 
 **Sub:** The Everbloom
-
-**Sources:** Inner Sea Faiths pg 71
 
 ### Details
 

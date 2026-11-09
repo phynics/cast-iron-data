@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_and_patrons", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "199"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 199
 
 Once you've determined the services of a tavern or inn, you need to populate it. Usually it's not
 necessary to create game statistics for the staff or patrons. If your players have a penchant for

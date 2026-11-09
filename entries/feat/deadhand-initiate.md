@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deadhand_initiate", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "84"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using Deadhand Style, as long as you have at least 1 point in y
 +++
 
 ## Deadhand Initiate (Combat)
-
-**Sources:** Horror Adventures pg 84
 
 Your adulation of death not only shields you from your fears, it allows you to feed on them.\
 **Prerequisites:** Wis 19, [Deadhand Style](ref/feat/deadhand-style),

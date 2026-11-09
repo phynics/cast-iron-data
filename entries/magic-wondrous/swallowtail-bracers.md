@@ -6,6 +6,9 @@ source_ids = ["pathfinder-75-demons-heresy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swallowtail_bracers", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "pathfinder-75-demons-heresy"
+page = "63"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "9th"
 +++
 
-**Sources:** Pathfinder \#75: Demon's Heresy pg 63\
 **Aura** moderate abjuration; **CL** 9th\
 **Slot** wrists; **Price** 27,000 gp; **Weight** 1 lb.
 

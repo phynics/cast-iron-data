@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sword_cane", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "18"
+[[sources]]
+publication = "advanced-players-guide"
+page = "179"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "4 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 18, Advanced Player's Guide pg 179
 
 This slender light blade lies within a wooden container that serves as both its scabbard and hiding
 place. You can draw the blade as a swift action (or a free action if you have the

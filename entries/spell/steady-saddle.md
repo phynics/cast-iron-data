@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "steady_saddle", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "177"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: Will negates (harmless) (object)
 Spell resistance: yes (harmless) (object)
 Target: saddle touched
 :::
-
-**Sources:** Villain Codex pg 177
 
 A saddle affected by this spell becomes more comfortable to sit in, and the magic stabilizes any
 shaking motion caused by riding at a high speed. For the duration of the spell, the penalty to use

@@ -6,13 +6,14 @@ source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heatstone_plating", path = "json/equipment_special_materials.json" },
 ]
+[[sources]]
+publication = "merchants-manifest"
+page = "17"
 
 [fields]
 kind = "item"
 category = "Special Materials"
 +++
-
-**Sources:** Merchant's Manifest pg 17
 
 Heatstone plating involves placing [heatstones](ref/eq-misc/heatstone) at strategic points within
 clothing or armor. A character wearing armor that has heatstone plating is constantly protected from

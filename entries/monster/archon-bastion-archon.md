@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "archon_bastion_archon", path = "json/monsters02.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "226"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ shimmering, pulsating globe of holy light._
 
 **Senses:** Darkvision 60 ft., Detect magic, Low-light vision, True seeing
 
-**Sources:** Planar Adventures pg 226\
 **Subtype:** Archon, Extraplanar, Good, Lawful
 
 **Experience points:** 307,200

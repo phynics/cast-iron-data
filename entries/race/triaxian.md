@@ -6,13 +6,20 @@ source_ids = ["inner-sea-races", "pathfinder-70-the-frozen-stars", "people-of-th
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "triaxian", path = "json/races4.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "252"
+[[sources]]
+publication = "pathfinder-70-the-frozen-stars"
+page = "86"
+[[sources]]
+publication = "people-of-the-stars"
+page = "12"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Inner Sea Races pg 252, Pathfinder \#70: The Frozen Stars pg 86, People of the Stars pg
-12\
 Triaxians, the race of humanoids native to Triaxus, have developed an amazing physiological
 adaptation to their planet's centuries-long seasons. The average Triaxian lives for only 80 years,
 so entire generations experience nothing but endless summer or winter throughout their lifetimes.

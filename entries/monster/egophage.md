@@ -6,6 +6,9 @@ source_ids = ["occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "egophage", path = "json/monsters09.json" },
 ]
+[[sources]]
+publication = "occult-bestiary"
+page = "26"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ _Eight tentacles ending in claws grow from the base of this glistening and grues
 
 **Size:** small
 
-**Sources:** Occult Bestiary pg 26\
 **Experience points:** 9,600
 
 **Armor class:** 25/19/17

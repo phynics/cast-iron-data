@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychemental", path = "json/monsters37.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "197"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ distorted, ephemeral images and reflections._
 
 **Size:** small
 
-**Sources:** Bestiary 5 pg 197\
 **Subtype:** Extraplanar, Incorporeal
 
 **thoughtsense:** 60

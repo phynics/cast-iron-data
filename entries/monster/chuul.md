@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chuul", path = "json/monsters05.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "46"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ of writhing tentacles._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 46\
 **Subtype:** Aquatic
 
 **Experience points:** 3,200

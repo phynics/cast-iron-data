@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "creeping_death", path = "json/npcs4.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "74"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "14"
 
 **Challenge rating:** 14
 
-**Sources:** NPC Codex pg 74\
 **XP** 38,400\
 Elf [druid](ref/class/druid) 15\
 NE Medium humanoid (elf)\

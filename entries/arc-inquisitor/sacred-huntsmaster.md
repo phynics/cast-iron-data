@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/inquisitor" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "99"
 
 [fields]
 kind = "archetype"
 replaces = ["Judgment 1/day", "Solo tactics", "Later iterations of the judgment ability", "Second judgment", "Third judgment", "Slayer", "True judgment"]
 +++
 
-**Sources:** Advanced Class Guide pg 99\
 Some inquisitors create a strong bond with an animal companion, and they hunt and punish threats to
 the faith as an awe-inspiring duo. When they work together as one, there are few that dare to stand
 in their way.

@@ -6,6 +6,9 @@ source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dancing_darkness", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "blood-of-shadows"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Spell resistance: no
 Effect: Up to four spheres, all within a 10-ft.-radius area
 Descriptors: darkness, shadow
 :::
-
-**Sources:** Blood of Shadows pg 28
 
 You create either up to four spheres of darkness that each reduce the illumination level by one step
 within a 20-foot-radius, or one dimly lit, vaguely humanoid shape. Each sphere of dancing darkness

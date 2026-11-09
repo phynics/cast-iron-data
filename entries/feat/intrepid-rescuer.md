@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "intrepid_rescuer", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "213"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever an opponent you threaten makes an attack against a helpless,
 +++
 
 ## Intrepid Rescuer (Combat)
-
-**Sources:** Inner Sea Gods pg 213
 
 You instinctively react to interfere with foes that attack your allies or innocents.\
 **Prerequisites:** [Combat Reflexes](ref/feat/combat-reflexes), worshiper of

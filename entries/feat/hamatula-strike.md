@@ -6,6 +6,9 @@ source_ids = ["cheliax-empire-of-devils"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hamatula_strike", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "cheliax-empire-of-devils"
+page = "27"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "You can only attack with an unarmed strike, natural weapon, or light w
 +++
 
 ## Hamatula Strike (Combat)
-
-**Sources:** Cheliax, Empire of Devils pg 27
 
 You can catch your opponents on your weapon and hold them in place.\
 **Prerequisites:** [Improved Grapple](ref/feat/improved-grapple), Strength 13, Base Attack Bonus +7.\

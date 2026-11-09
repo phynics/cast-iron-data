@@ -6,6 +6,9 @@ source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "earth_breaker_of_righted_injustice", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "54"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Sources:** Inner Sea Combat pg 54\
 **Aura** moderate evocation; **CL** 10th\
 **Slot** none; **Price** 61,340 gp; **Weight** 14 lbs.
 

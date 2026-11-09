@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_bolstering", path = "json/magic_staff.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "195"
+[[sources]]
+publication = "advanced-players-guide"
+page = "296"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Sources:** Ultimate Equipment pg 195, Advanced Player's Guide pg 296\
 **Aura** moderate transmutation; **CL** 8th\
 **Slot** none; **Price** 41,600 gp; **Weight** 5 lbs.
 

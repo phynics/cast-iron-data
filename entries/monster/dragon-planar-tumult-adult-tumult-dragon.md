@@ -6,6 +6,9 @@ source_ids = ["pathfinder-138-rise-of-new-thassilon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_planar_tumult_adult_tumult_dragon", path = "json/monsters30.json" },
 ]
+[[sources]]
+publication = "pathfinder-138-rise-of-new-thassilon"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ _This dragon seems to be made of parts from different creatures._
 
 **Senses:** Dragon senses
 
-**Sources:** Pathfinder \#138: Rise of New Thassilon pg 90\
 **Subtype:** Chaotic, Extraplanar
 
 **Experience points:** 76,800

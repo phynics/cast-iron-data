@@ -6,14 +6,15 @@ source_ids = ["chronicle-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "celestial_obedience", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "chronicle-of-the-righteous"
+page = "5"
 
 [fields]
 kind = "feat"
 prerequisites = "Knowledge (planes) 3 ranks, must worship an empyreal lord."
 benefit = "Each empyreal lord requires a different obedience, but all obediences take only 1 hour to perform."
 +++
-
-**Sources:** Chronicle of the Righteous pg 5
 
 Your reverence for an empyreal lord is so great that daily prayer and minor sacrifices grant you
 special boons.\

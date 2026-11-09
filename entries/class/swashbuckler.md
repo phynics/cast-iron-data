@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide", "advanced-players-guide", "chronicle-of-le
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swashbuckler", path = "json/classes4.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "56"
 
 [fields]
 kind = "class"
@@ -13,8 +16,6 @@ class_type = "hybrid"
 hit_die = "d10"
 skill_ranks = "4 + Int modifier"
 +++
-
-**Sources:** Advanced Class Guide pg 56
 
 Whereas many warriors brave battle encased in suits of armor and wielding large and powerful
 weapons, swashbucklers rely on speed, agility, and panache. Swashbucklers dart in and out of the

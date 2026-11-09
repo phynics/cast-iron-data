@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staggering_blow", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "20"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you attack a foe using Vital Strike, you can choose to take a -2
 +++
 
 ## Staggering Blow (Combat)
-
-**Sources:** Monster Codex pg 20
 
 You know just where to strike to temporarily stagger a foe.\
 **Prerequisites:** Str 13, [Power Attack](ref/feat/power-attack),

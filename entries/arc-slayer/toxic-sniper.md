@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/slayer" },
 ]
+[[sources]]
+publication = "people-of-the-wastes"
+page = "27"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Track", "Slayer talent gained at 2nd level", "Slayer talent gained 
 alters = ["Weapon and armor proficiency", "Studied target"]
 +++
 
-**Sources:** People of the Wastes pg 27\
 Followers of the daemonic harbinger [Cixyron](ref/faith/cixyron) hide throughout the Mana Wastes,
 scavenging for guns. With significant firepower in hand, the Furious Thunder's snipers bring
 poisonous death to the wastes.

@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "pathfinder-society-field-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eyes_of_the_owl", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "225"
+[[sources]]
+publication = "pathfinder-society-field-guide"
+page = "52"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Equipment pg 225, Pathfinder Society Field Guide pg 52\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** eyes; **Price** 4,000 gp; **Weight** -
 

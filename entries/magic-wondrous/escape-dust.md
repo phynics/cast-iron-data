@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "escape_dust", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "67"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration"
 caster_level = "3rd"
 +++
 
-**Sources:** Advanced Race Guide pg 67\
 **Aura** faint conjuration; **CL** 3rd\
 **Slot** none; **Price** 300 gp; **Weight** -
 

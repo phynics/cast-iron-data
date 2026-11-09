@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "redirect_attack", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "7"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Once per turn, when an opponent only you threaten fails an attack aga
 +++
 
 ## Redirect Attack (Combat)
-
-**Sources:** Melee Tactics Toolbox pg 7
 
 When you dodge an attack, you can deflect it toward another opponent.\
 **Prerequisites:** Dex 15, Int 15, [Dodge](ref/feat/dodge).\

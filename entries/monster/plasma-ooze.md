@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plasma_ooze", path = "json/monsters19.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "220"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ lashes out with tendrils of blue light._
 
 **Perception:** -5
 
-**Sources:** Bestiary 3 pg 220\
 **Experience points:** 76,800
 
 **Armor class:** 6/6/6

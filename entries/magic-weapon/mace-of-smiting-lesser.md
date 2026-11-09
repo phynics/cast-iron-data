@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mace_of_smiting_lesser", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "157"
+[[sources]]
+publication = "core-rulebook"
+page = "471"
 
 [fields]
 kind = "item"
@@ -19,7 +25,6 @@ caster_level = "7th (lesser), 11th (normal)"
 
 ## Mace of Smiting
 
-**Sources:** Ultimate Equipment pg 157, PRPG Core Rulebook pg 471\
 **Aura** moderate transmutation; **CL** 7th (lesser), 11th (normal)\
 **Slot** none; **Price** lesser (16,012 gp), normal (75,312 gp); **Weight** 8 lbs.
 

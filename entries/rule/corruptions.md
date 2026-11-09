@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "corruptions", path = "json/rules_campaign_types02.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "14"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 14
 
 Each corruption features a general description, followed by its catalysts and manifestations. The
 catalyst section explains how a creature might contract the corruption, how it progresses, and how

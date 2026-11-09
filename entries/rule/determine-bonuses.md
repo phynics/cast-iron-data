@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "determine_bonuses", path = "json/rules_basics01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "15"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 15
 
 Each ability, after changes made because of race, has a modifier ranging from -5 to +5. Table 1-3
 shows the modifier for each score. The modifier is the number you apply to the die roll when your

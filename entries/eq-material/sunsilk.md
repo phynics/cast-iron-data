@@ -6,13 +6,14 @@ source_ids = ["qadira-jewel-of-the-east"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sunsilk", path = "json/equipment_special_materials.json" },
 ]
+[[sources]]
+publication = "qadira-jewel-of-the-east"
+page = "33"
 
 [fields]
 kind = "item"
 category = "Special Materials"
 +++
-
-**Sources:** Qadira, Jewel of the East pg 33
 
 Sunsilk, produced by a silkworm species native to central Kelesh and closely guarded by the Sarenite
 church, takes on a golden glitter after it has been left to cure in the sun. Though it is light and

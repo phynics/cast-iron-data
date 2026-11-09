@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "potions-and-poisons"
+page = "8"
 
 [fields]
 kind = "archetype"
 replaces = ["The discoveries gained at 2nd and 4th levels", "Swift poisoning", "the discovery gained at 6th level"]
 +++
 
-**Sources:** Potions and Poisons pg 8\
 Experts at combining sets of chemicals to create unique effects, concocters specialize in blending
 extracts, mutagens, and potions to create concoctions that give them exhilarating powers. Concocters
 seem reckless to those who aren't familiar with their ways, but those who know them understand that

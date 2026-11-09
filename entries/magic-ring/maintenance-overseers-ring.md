@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "maintenance_overseers_ring", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-streets"
+page = "15"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination"
 caster_level = "4th"
 +++
 
-**Sources:** Heroes of the Streets pg 15\
 **Aura** faint divination; **CL** 4th\
 **Slot** ring; **Price** 8,000 gp; **Weight** -
 

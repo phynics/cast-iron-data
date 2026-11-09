@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thought_shield_1", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "189"
 
 [fields]
 kind = "spell"
@@ -36,8 +39,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Occult Adventures pg 189
 
 Sensing an intrusion, you throw up a defense to protect your mind from attack or analysis. This
 grants you a +4 circumstance bonus on Will saving throws against mind-affecting effects. As long as

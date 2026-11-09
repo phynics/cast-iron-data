@@ -6,6 +6,9 @@ source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "impart_mind", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "57"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: none
 Spell resistance: no
 Target: permanent nonintelligent magic item touched
 :::
-
-**Sources:** Inner Sea Magic pg 57
 
 This spell grants the target magic item temporary intelligence by siphoning off a tiny portion of
 your own mind to infuse the object. Only permanent magic items may be enhanced by this spell-one-use

@@ -6,6 +6,9 @@ source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pantheistic_clasp", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "faiths-and-philosophies"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Sources:** Faiths and Philosophies pg 30\
 **Aura** faint abjuration; **CL** 3rd\
 **Slot** neck; **Price** 3,000 gp; **Weight** 1 lb.
 

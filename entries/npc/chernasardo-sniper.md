@@ -6,6 +6,9 @@ source_ids = ["inner-sea-npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chernasardo_sniper", path = "json/npcs7.json" },
 ]
+[[sources]]
+publication = "inner-sea-npc-codex"
+page = "15"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "3"
 
 **Challenge rating:** 3
 
-**Sources:** Inner Sea NPC Codex pg 15\
 **XP** 800\
 Human [ranger](ref/class/ranger) 2/[rogue](ref/class/rogue) ([sniper](ref/arc-rogue/sniper)) 2\
 CG Medium humanoid (human)\

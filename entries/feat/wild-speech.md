@@ -6,14 +6,15 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wild_speech", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "159"
 
 [fields]
 kind = "feat"
 prerequisites = "Druid level 6th, wild shape class feature."
 benefit = "When using wild shape to take the form in which you cannot speak (such as an animal), you are able to speak normally in any language you know. This allows you to cast spells with verbal components, speak command words, and activate spell completion and spell trigger items. However, it does not give you the ability to cast spells requiring somatic components unless you also have the Natural Spell feat, or cast spells with material components merged into your form."
 +++
-
-**Sources:** Ultimate Magic pg 159
 
 You speak with the tongue of men and beasts.\
 **Prerequisites:** Druid level 6th, wild shape class feature.\

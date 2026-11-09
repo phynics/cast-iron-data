@@ -6,12 +6,20 @@ source_ids = ["mythic-adventures", "mythic-origins", "heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "archmage_3", path = "json/rules_campaign_types07.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "18"
+[[sources]]
+publication = "mythic-origins"
+page = "20"
+[[sources]]
+publication = "heroes-of-golarion"
+page = "29"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 18, Mythic Origins pg 20, Heroes of Golarion pg 29\
 You must be at least 3rd tier to select these path abilities.
 
 **Arcane Metamastery (Su):** As a swift action, you can expend one use of mythic power and pick any

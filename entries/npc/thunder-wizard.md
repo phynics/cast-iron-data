@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thunder_wizard", path = "json/npcs2.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "182"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "6"
 
 **Challenge rating:** 6
 
-**Sources:** NPC Codex pg 182\
 **XP** 2,400\
 Halfling evoker 7\
 LN Small humanoid (halfling)\

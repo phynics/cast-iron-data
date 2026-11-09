@@ -6,6 +6,9 @@ source_ids = ["pathfinder-48-shadows-of-gallowspire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reaper_minor_reaper", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "pathfinder-48-shadows-of-gallowspire"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -39,7 +42,6 @@ abilities = ["14", "19", "-", "8", "11", "17"]
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#48: Shadows of Gallowspire pg 86\
 **Subtype:** Evil, Extraplanar
 
 **Type:** undead

@@ -6,12 +6,14 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spells", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "299"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Bestiary 5 pg 299\
 The creature is able to cast spells like a member of a spellcasting class. The creature counts as a
 member of that class for the purpose of any effect or ability relating to casting spells as that
 class. For example, it can use spell completion and spell trigger items usable by that class or use

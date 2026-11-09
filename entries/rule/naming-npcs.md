@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "naming_npcs", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "84"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 84
 
 Creating interesting and authentic-sounding fantasy names is a constant challenge for GMs. Even if
 monsters and NPC extras can remain anonymous, the slightest amount of non-combat interaction

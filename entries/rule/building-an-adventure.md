@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "building_an_adventure", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "396"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 396
 
 There are countless ways to build an adventure. The classic method is to simply write everything out
 beforehand. While this does get everything you need to know about the adventure down on paper, it's

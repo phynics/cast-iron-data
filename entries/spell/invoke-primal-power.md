@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "invoke_primal_power", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "134"
 
 [fields]
 kind = "spell"
@@ -37,8 +40,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Adventurer's Guide pg 134
 
 This spell must be cast as you activate wild shape to assume the form of an animal of at least Large
 size. When you assume the animal form, it takes on many of the primal characteristics of the savage,

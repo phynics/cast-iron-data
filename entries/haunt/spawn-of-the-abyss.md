@@ -6,12 +6,14 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spawn_of_the_abyss", path = "json/haunts.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "172"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Adventures pg 172\
 Dimensional instabilities are areas where the boundary between the Material Plane and another plane
 is thin and rifts between the planes frequently open. They take damage from effects that oppose the
 connected plane's fundamental nature. For example, a dimensional instability associated with the

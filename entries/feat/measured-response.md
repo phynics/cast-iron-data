@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "measured_response", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "213"
+[[sources]]
+publication = "faiths-of-balance"
+page = "24"
 
 [fields]
 kind = "feat"
@@ -15,8 +21,6 @@ benefit = "When you hit an opponent with a melee or ranged weapon attack, you ma
 +++
 
 ## Measured Response (Combat)
-
-**Sources:** Inner Sea Gods pg 213, Faiths of Balance pg 24
 
 You believe that a conservative but consistent response guarantees success.\
 **Prerequisites:** Base attack bonus +1, worshiper of [Abadar](ref/faith/abadar).\

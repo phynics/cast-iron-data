@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "touch_of_fatigue", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "360"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: Fortitude negates
 Spell resistance: yes
 Target: creature touched
 :::
-
-**Sources:** PRPG Core Rulebook pg 360
 
 You channel negative energy through your touch, fatiguing the target. You must succeed on a touch
 attack to strike a target. The subject is immediately fatigued for the spell's duration.

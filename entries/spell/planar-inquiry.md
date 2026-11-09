@@ -9,6 +9,12 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/planar-ally-lesser" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "125"
+[[sources]]
+publication = "arcane-anthology"
+page = "14"
 
 [fields]
 kind = "spell"
@@ -49,8 +55,6 @@ Subschool: Calling
 :::
 
 ### Planar Inquiry
-
-**Sources:** Adventurer's Guide pg 125, Arcane Anthology pg 14
 
 Although he was hardly the first to turn to the Outer Planes for answers, Jatembe's dealings with
 outsiders in his pursuit of enlightenment are legendary, and the Magaambya credits the Old-Mage with

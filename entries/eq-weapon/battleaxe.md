@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "battleaxe", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "18"
+[[sources]]
+publication = "core-rulebook"
+page = "142"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "6 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 18, PRPG Core Rulebook pg 142
 
 The handle of this axe is long enough that you can wield it one-handed or two-handed. The head may
 have one blade or two, with blade shapes ranging from half-moons to squared edges like narrower

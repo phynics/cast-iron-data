@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "toilsome_chant", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "19"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Target: one living creature
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Advanced Race Guide pg 19
 
 > _[Dwarven](ref/race/dwarf) spellcasters are renowned for shaping the ground beneath them, molding
 > metal, and using magic to aid their craft. This spell one of several samples of such magics._

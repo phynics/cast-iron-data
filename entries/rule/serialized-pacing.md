@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "serialized_pacing", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "166"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 166
 
 With serialized pacing, a large number of events quickly flow into one another. Sometimes the
 structure of events is immediately altered due to the consequences of previous events. Other times,

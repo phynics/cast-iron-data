@@ -6,6 +6,9 @@ source_ids = ["demons-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ayandamahla", path = "json/monsters_unique.json" },
 ]
+[[sources]]
+publication = "demons-revisited"
+page = "56"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ weapons and fangs drip with blood._
 
 **Senses:** Darkvision 60 ft., Detect good
 
-**Sources:** Demons Revisited pg 56\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 1,228,800

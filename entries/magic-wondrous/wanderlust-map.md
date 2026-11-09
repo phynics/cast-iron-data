@@ -6,6 +6,9 @@ source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wanderlust_map", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "heroes-from-the-fringe"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination and transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Heroes from the Fringe pg 29\
 **Aura** faint divination and transmutation; **CL** 3rd\
 **Slot** none; **Price** 600 gp; **Weight** -
 

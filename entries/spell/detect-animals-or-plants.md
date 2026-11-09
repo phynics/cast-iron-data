@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "detect_animals_or_plants", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "266"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: none
 Spell resistance: no
 Area: cone-shaped emanation
 :::
-
-**Sources:** PRPG Core Rulebook pg 266
 
 You can detect a particular kind of animal or plant in a cone emanating out from you in whatever
 direction you face. You must think of a kind of animal or plant when using the spell, but you can

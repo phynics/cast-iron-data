@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "adder_strike", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "89"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "Applying poison to a weapon or single piece of ammunition is a standar
 +++
 
 ## Adder Strike (Combat)
-
-**Sources:** Ultimate Combat pg 89
 
 You can quickly apply poison to gloved hands, protected feet, or other protected body parts,
 delivering the poison with your unarmed strikes.\

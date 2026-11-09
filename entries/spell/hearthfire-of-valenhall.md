@@ -6,12 +6,14 @@ source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hearthfire_of_valenhall", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "occult-origins"
+page = "26"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Occult Origins pg 26\
 **School** abjuration; **Level** 4\
 **Casting Time** 4 hours\
 **Components** V, S, F (a cold iron and silver lantern worth 5,000 gp), SC (up to 12)\

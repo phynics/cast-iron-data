@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "musketeers_daring", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "56"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ normal = "You can roll further derring-do d6s only if you roll a natural 6 on th
 +++
 
 ## Musketeer's Daring (Combat, Panache)
-
-**Sources:** Villain Codex pg 56
 
 The more you dare, the greater the results of your deeds.\
 **Prerequisites:** Dex 15, [derring-do](ref/swashdeed/derring-do) deed,

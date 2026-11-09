@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "recall_knowledge_society", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "63"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 63
 
 Society can be used to recall knowledge on the inhabitants of a region, important personalities,
 royalty, noble lineages, historical events, customs, legends, and laws. See

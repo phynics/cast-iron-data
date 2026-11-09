@@ -6,6 +6,8 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "legato_piece_on_the_infernal_bargain", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
 
 [fields]
 kind = "class_option"
@@ -13,8 +15,6 @@ group = "bardic-masterpiece"
 +++
 
 ## Legato Piece on the Infernal Bargain (String)
-
-**Sources:** Ultimate Magic
 
 Your skilled playing can conjure up supernatural servants.
 

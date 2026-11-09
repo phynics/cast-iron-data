@@ -6,13 +6,15 @@ source_ids = ["advanced-players-guide", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aquatic", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "136"
 
 [fields]
 kind = "class_option"
 group = "sorcerer-bloodline"
 +++
 
-**Sources:** Advanced Player's Guide pg 136\
 Your family traces its heritage back to the ocean depths, whether scions of undersea empires left in
 the wake of nomadic sea-tribes, or the spawn of creeping ichthyic infiltrators into remote seaside
 villages. The song of the sea hums in your blood, calling the waves and all those within to your

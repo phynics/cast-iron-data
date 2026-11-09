@@ -6,12 +6,13 @@ source_ids = ["wardens-of-the-reborn-forge"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eidite_sickness", path = "json/diseases.json" },
 ]
+[[sources]]
+publication = "wardens-of-the-reborn-forge"
+page = "19"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Wardens of the Reborn Forge pg 19
 
 **Type:** Disease (Ingested, injury, or touch)
 

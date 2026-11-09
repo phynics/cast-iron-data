@@ -6,6 +6,9 @@ source_ids = ["lost-treasures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lorestone", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "lost-treasures"
+page = "40"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "9th"
 +++
 
-**Sources:** Lost Treasures pg 40\
 **Aura** moderate divination; **CL** 9th\
 **Slot** none; **Price** varies; **Weight** 15 lbs.
 

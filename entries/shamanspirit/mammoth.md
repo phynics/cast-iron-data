@@ -6,13 +6,18 @@ source_ids = ["adventurers-guide", "advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mammoth", path = "json/class_ability_shaman_spirits.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "132"
+[[sources]]
+publication = "advanced-class-origins"
+page = "16"
 
 [fields]
 kind = "class_option"
 group = "shaman-spirit"
 +++
 
-**Sources:** Adventurer's Guide pg 132, Advanced Class Origins pg 16\
 A shaman who selects the mammoth spirit is abnormally tall and stocky, with thick shaggy hair. When
 she uses a special ability of this spirit, her muscles ripple and flex, and her stature seems even
 greater than before. At times, particularly when she uses her most powerful abilities, a ghostly

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ride_by_attack", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "132"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When you are mounted and use the charge action, you may move and atta
 +++
 
 ## Ride-By Attack (Combat)
-
-**Sources:** PRPG Core Rulebook pg 132
 
 While mounted and charging, you can move, strike at a foe, and then continue moving.\
 **Prerequisites:** Ride 1 rank, [Mounted Combat](ref/feat/mounted-combat).\

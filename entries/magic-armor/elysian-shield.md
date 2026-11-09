@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elysian_shield", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "132"
+[[sources]]
+publication = "advanced-race-guide"
+page = "89"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong conjuration"
 caster_level = "13th"
 +++
 
-**Sources:** Ultimate Equipment pg 132, Advanced Race Guide pg 89\
 **Aura** strong conjuration; **CL** 13th\
 **Slot** shield; **Price** 52,620 gp; **Weight** 45 lbs.
 

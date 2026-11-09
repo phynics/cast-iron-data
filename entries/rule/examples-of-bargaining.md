@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "examples_of_bargaining", path = "json/rules_subsystems01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "139"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 139
 
 Orshok has a jeweled idol worth 1,800 gp he mistakenly appraised at 2,000 gp. He tries to sell it to
 an art collector at an _Asking Price_ of 2,200 gp, knowing the collector will counter with a lower

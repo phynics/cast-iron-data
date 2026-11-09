@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "forests_jungles", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "222"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 222
 
 Forests and jungles are, in the broadest possible terms, places where a significant number of trees
 grow and where a wide variety of other plants and animals live and thrive. The type of forest

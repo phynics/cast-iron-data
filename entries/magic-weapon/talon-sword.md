@@ -6,6 +6,9 @@ source_ids = ["andoran-spirit-of-liberty"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "talon_sword", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "andoran-spirit-of-liberty"
+page = "26"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "8th"
 +++
 
-**Sources:** Andoran, Spirit of Liberty pg 26\
 **Aura** moderate abjuration; **CL** 8th\
 **Slot** none; **Price** (19,515 gp); **Weight** 6 lbs.
 

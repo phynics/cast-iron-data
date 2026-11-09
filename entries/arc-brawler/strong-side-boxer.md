@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/brawler" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "16"
 
 [fields]
 kind = "archetype"
 replaces = ["The brawler's AC bonus", "Maneuver training", "Close weapon mastery"]
 +++
 
-**Sources:** Martial Arts Handbook pg 16\
 A strong-side boxer employs a unique fighting style that incorporates a rope or cord wound around
 her hand. The wrapped hand is known as the strong side. The other hand is kept free to deflect
 blows, and is known as the shield. The Zenj people of the Mwangi Expanse, who gather for large

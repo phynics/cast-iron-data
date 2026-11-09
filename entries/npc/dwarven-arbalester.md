@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dwarven_arbalester", path = "json/npcs4.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "91"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "15"
 
 **Challenge rating:** 15
 
-**Sources:** NPC Codex pg 91\
 **XP** 51,200\
 Dwarf [fighter](ref/class/fighter) 16\
 NE Medium humanoid (dwarf)\

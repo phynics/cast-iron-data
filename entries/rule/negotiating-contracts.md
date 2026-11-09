@@ -6,12 +6,13 @@ source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "negotiating_contracts", path = "json/rules_rulesets01.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "203"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Book of the Damned pg 203
 
 Not every devil is interested in entering into a contract. Most devils focus their energies on
 fulfilling orders from diabolical superiors, and others simply prefer not to waste time negotiating

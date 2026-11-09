@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_viridium_golem", path = "json/monsters33.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "143"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ formidable shield._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 6 pg 143\
 **Experience points:** 153,600
 
 **Armor class:** 33/13/28

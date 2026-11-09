@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_imperial_sky_ancient_sky_dragon", path = "json/monsters31.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "99"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ abilities = ["35", "8", "25", "24", "25", "24"]
 
 **Senses:** Cloud sight, Dragon senses
 
-**Sources:** Bestiary 3 pg 99\
 **Subtype:** Air
 
 **Experience points:** 153,600

@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "roiling_oil", path = "json/monsters20.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "210"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ odor permeates the air around it._
 
 **Perception:** -5
 
-**Sources:** Bestiary 5 pg 210\
 **Experience points:** 2,400
 
 **Armor class:** 4/4/4

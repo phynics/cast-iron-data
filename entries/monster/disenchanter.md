@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "misfit-monsters-redeemed"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disenchanter", path = "json/monsters08.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "81"
+[[sources]]
+publication = "misfit-monsters-redeemed"
+page = "27"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ shimmer with magical energy._
 
 **Senses:** Darkvision 60 ft., Detect magic, Low-light vision
 
-**Sources:** Bestiary 3 pg 81, Misfit Monsters Redeemed pg 27\
 **Experience points:** 800
 
 **Armor class:** 15/12/12

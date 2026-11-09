@@ -6,13 +6,15 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lich", path = "json/class_ability_spirits.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "59"
 
 [fields]
 kind = "class_option"
 group = "medium-spirit"
 +++
 
-**Sources:** Horror Adventures pg 59\
 The Lich is a spirit of power over death and the undead.
 
 **Base Legend**

@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_djinni_calling", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "169"
+[[sources]]
+publication = "core-rulebook"
+page = "479"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong conjuration"
 caster_level = "17th"
 +++
 
-**Sources:** Ultimate Equipment pg 169, PRPG Core Rulebook pg 479\
 **Aura** strong conjuration; **CL** 17th\
 **Slot** ring; **Price** 125,000 gp; **Weight** -
 

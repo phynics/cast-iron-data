@@ -6,12 +6,12 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plague_of_flies", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures
 
 **Plague of Flies (CR 2):** Often harbingers of famine and decay, these swarms of flies spread
 disease and pestilence wherever their buzzing wings carry them. These insects typically form a cloud

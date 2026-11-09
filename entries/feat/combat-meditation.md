@@ -6,6 +6,9 @@ source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "combat_meditation", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "faiths-and-philosophies"
+page = "19"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You can meditate as a full-round action. If you do, you gain all the 
 +++
 
 ## Combat Meditation (Combat, Meditation)
-
-**Sources:** Faiths and Philosophies pg 19
 
 Quick momentary meditation allows you to gain insight in combat.\
 **Prerequisites:** Wis 13, [Meditation Master](ref/feat/meditation-master), character level 5th.\

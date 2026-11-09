@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vampire_slayers_kit", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "99"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "500 gp"
 weight = "8 lbs."
 +++
 
-**Sources:** Advanced Race Guide pg 99\
 **Price** 500 gp; **Weight** 8 lbs.\
 **Category** Kits
 

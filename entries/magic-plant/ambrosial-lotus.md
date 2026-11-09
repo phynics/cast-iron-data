@@ -6,6 +6,9 @@ source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ambrosial_lotus", path = "json/magic_plant.json" },
 ]
+[[sources]]
+publication = "wilderness-origins"
+page = "16"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong enchantment"
 caster_level = "12th"
 +++
 
-**Sources:** Wilderness Origins pg 16\
 **Aura** strong enchantment; **CL** 12th\
 **Slot** none; **Price** 25,000 gp; **Weight** 50 lbs.
 

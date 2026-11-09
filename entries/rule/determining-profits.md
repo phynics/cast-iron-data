@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "determining_profits", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "79"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 79
 
 To calculate the income you receive from your business, attempt a skill check in the associated
 Profession skill, taking the appropriate Labor Factor listed on Table 2-7 as a penalty. If you

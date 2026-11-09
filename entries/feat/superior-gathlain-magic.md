@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "superior_gathlain_magic", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "13"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Cha 17, Advanced Gathlain Magic, Greater Gathlain Magic, charac
 prerequisite_feats = ["ref/feat/advanced-gathlain-magic", "ref/feat/greater-gathlain-magic"]
 benefit = "You gain the following spells as spell-like abilities, each usable 1/day: liveoak, tree stride."
 +++
-
-**Sources:** Ultimate Wilderness pg 13
 
 Your experience has enabled you to dramatically develop your innate magical abilities.\
 **Prerequisites:** Cha 17, [Advanced Gathlain Magic](ref/feat/advanced-gathlain-magic),

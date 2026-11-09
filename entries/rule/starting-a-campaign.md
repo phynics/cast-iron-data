@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "starting_a_campaign", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "396"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 396
 
 Before you run a game, you need to know what kind of game you'll be running. Whether you write out
 the plans for the coming session in a dozen notebooks, scribble down ideas and key NPC stat blocks

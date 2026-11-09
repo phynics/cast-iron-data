@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "restful_sleep", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "239"
 
 [fields]
 kind = "spell"
@@ -37,8 +40,6 @@ Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
 Target: one creature/level, no two of which can be more than 30 ft. apart
 :::
-
-**Sources:** Advanced Player's Guide pg 239
 
 You cast this spell immediately prior to resting. While under the effects of this spell, you and
 your allies enjoy a restful night's sleep. If a subject completes a full night's rest, it regains

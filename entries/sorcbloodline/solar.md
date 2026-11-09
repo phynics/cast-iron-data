@@ -6,13 +6,15 @@ source_ids = ["qadira-jewel-of-the-east"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "solar", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
+[[sources]]
+publication = "qadira-jewel-of-the-east"
+page = "19"
 
 [fields]
 kind = "class_option"
 group = "sorcerer-bloodline"
 +++
 
-**Sources:** Qadira, Jewel of the East pg 19\
 Sorcerers who serve in the sun goddess's court display powers infused with the glory of the sun
 itself.
 

@@ -10,6 +10,9 @@ relations = [
   { kind = "prerequisite", target = "ref/feat/catch-off-guard", label = "or" },
   { kind = "prerequisite", target = "ref/feat/throw-anything", label = "or" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "8"
 
 [fields]
 kind = "feat"
@@ -20,8 +23,6 @@ benefit = "As a free action, you can pick up an unattended item as part of a mov
 +++
 
 ## Grab and Go (Combat)
-
-**Sources:** Martial Arts Handbook pg 8
 
 You can snatch up an item to use as a weapon in the blink of an eye.\
 **Prerequisites:** [Catch Off-Guard](ref/feat/catch-off-guard) or

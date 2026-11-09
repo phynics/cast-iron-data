@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pearl_of_the_sirines", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "315"
+[[sources]]
+publication = "core-rulebook"
+page = "525"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate abjuration and transmutation"
 caster_level = "8th"
 +++
 
-**Sources:** Ultimate Equipment pg 315, PRPG Core Rulebook pg 525\
 **Aura** moderate abjuration and transmutation; **CL** 8th\
 **Slot** none; **Price** 15,300 gp; **Weight** -
 

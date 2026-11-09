@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/psychic-sensitivity", label = "or" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "138"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ prerequisites = "Cha 11, Psychic Sensitivity or the ability to cast psychic spel
 prerequisite_feats = ["ref/feat/psychic-sensitivity"]
 benefit = "As an additional use of the faith healing skill unlock, you can attempt to manipulate a creature's psychic form to heal damage to its physical form. This works as the treat deadly wounds use of the Heal skill, but also grants the creature a number of temporary hit points equal to the amount of damage healed. These temporary hit points last for 1 hour. Psychic healing doesn't require a healer's kit. A creature can benefit from psychic healing only once per day, and can't benefit from both this ability and treat deadly wounds in the same day."
 +++
-
-**Sources:** Occult Adventures pg 138
 
 The spirit finds ways to heal the body, guided by your faith.\
 **Prerequisites:** Cha 11, [Psychic Sensitivity](ref/feat/psychic-sensitivity) or the ability to

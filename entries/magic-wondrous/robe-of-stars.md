@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "robe_of_stars", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "218"
+[[sources]]
+publication = "core-rulebook"
+page = "528"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong varied"
 caster_level = "15th"
 +++
 
-**Sources:** Ultimate Equipment pg 218, PRPG Core Rulebook pg 528\
 **Aura** strong varied; **CL** 15th\
 **Slot** body; **Price** 58,000 gp; **Weight** 1 lb.
 

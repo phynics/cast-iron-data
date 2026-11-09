@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "158"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Woodland stride", "Resist nature's lure", "Trackless step", "Wild s
 alters = ["Nature bond"]
 +++
 
-**Sources:** Advanced Race Guide pg 158\
 Some druids develop ties not to a particular landscape, but instead to the endless blue expanse of
 the skies. Such are the sky druids, who are more at home soaring through air than standing on the
 ground. A sky druid has the following class features.

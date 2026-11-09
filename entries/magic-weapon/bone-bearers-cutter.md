@@ -6,6 +6,9 @@ source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bone_bearers_cutter", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "monster-hunters-handbook"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy and transmutation"
 caster_level = "10th"
 +++
 
-**Sources:** Monster Hunter's Handbook pg 28\
 **Aura** moderate necromancy and transmutation; **CL** 10th\
 **Slot** none; **Price** 21,802 gp; **Weight** 1 lb.
 

@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/ear-piercing-scream", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "92"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 92\
 The damage dealt increases to 1d8 points of sonic damage per 2 caster levels (maximum 5d8) and the
 duration that creatures in the area are dazed is a number of rounds equal to your tier.
 

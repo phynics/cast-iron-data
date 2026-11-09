@@ -6,6 +6,9 @@ source_ids = ["pathfinder-126-beyond-the-veiled-past"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "synchrony_device", path = "json/magic_artifact3.json" },
 ]
+[[sources]]
+publication = "pathfinder-126-beyond-the-veiled-past"
+page = "66"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "overwhelming conjuration"
 caster_level = "21st"
 +++
 
-**Sources:** Pathfinder \#126: Beyond the Veiled Past pg 66\
 **Aura** overwhelming conjuration; **CL** 21st\
 **Slot** none; **Price** -; **Weight** 16,800 lbs.
 

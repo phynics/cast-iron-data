@@ -6,6 +6,9 @@ source_ids = ["artifacts-and-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "apollyon_ring", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "artifacts-and-legends"
+page = "10"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong divination and necromancy [evil]"
 caster_level = "20th"
 +++
 
-**Sources:** Artifacts and Legends pg 10\
 **Aura** strong divination and necromancy \[evil\]; **CL** 20th\
 **Slot** ring; **Price** -; **Weight** -
 

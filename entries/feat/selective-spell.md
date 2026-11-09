@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "selective_spell", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "168"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When casting a selective spell with an area effect and a duration of 
 +++
 
 ## Selective Spell (Metamagic)
-
-**Sources:** Advanced Player's Guide pg 168
 
 Your allies need not fear friendly fire.\
 **Prerequisites:** Spellcraft 10 ranks.\

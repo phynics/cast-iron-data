@@ -6,12 +6,20 @@ source_ids = ["ultimate-wilderness", "inner-sea-races", "bestiary-4", "legacy-of
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gathlain", path = "json/races3.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "9"
+[[sources]]
+publication = "inner-sea-races"
+page = "243"
+[[sources]]
+publication = "bestiary-4"
+page = "122"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Ultimate Wilderness pg 9, Inner Sea Races pg 243, Bestiary 4 pg 122\
 According to some fey ballads, gathlains were one of the first peoples awakened in the First World,
 the primal realm of the fey. Gathlains grow from the seeds of an enormous magical tree-seeds that
 often drift for hundreds of miles before developing into adolescent gathlains, with the tree's

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-50-night-of-frozen-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "earthfire_shuriken", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "pathfinder-50-night-of-frozen-shadows"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong evocation [fire]"
 caster_level = "12th"
 +++
 
-**Sources:** Pathfinder \#50: Night of Frozen Shadows pg 60\
 **Aura** strong evocation \[fire\]; **CL** 12th\
 **Slot** none; **Price** 400 gp; **Weight** 1/2 lb.
 

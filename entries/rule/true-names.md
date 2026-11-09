@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "true_names", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "101"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 101
 
 There is one method of outsider coercion that helps guarantee that a binder can bargain from a
 position of relative security. Many spellcasters believe that a **true name** is inscribed on the

@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "compulsion_mastery", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "26"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can cast suggestion as per the spell by using an item that has an
 +++
 
 ## Compulsion Mastery (Item Mastery)
-
-**Sources:** Weapon Master's Handbook pg 26
 
 You can gain influence over the minds of others using enchantment magic items.\
 **Prerequisites:** Use Magic Device 3 ranks, base Fortitude save bonus +6.\

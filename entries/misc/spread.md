@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "pathfinder-91-battle-of-bloodmarch-hills"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spread", path = "json/misc.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "214"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ### Burst, Emanation, Spread
 
-**Sources:** PRPG Core Rulebook pg 214\
 Most spells that affect an area function as a burst, an emanation, or a spread. In each case, you
 select the spell's point of origin (this is always a grid intersection) and measure its effect from
 that point.

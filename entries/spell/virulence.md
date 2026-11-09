@@ -6,6 +6,9 @@ source_ids = ["pathfinder-81-shifting-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "virulence", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "pathfinder-81-shifting-sands"
+page = "73"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: yes
 Area: all living creatures within a 40-ft.-radius burst centered on you
 Descriptors: evil
 :::
-
-**Sources:** Pathfinder \#81: Shifting Sands pg 73
 
 All living creatures within the area of effect, including yourself, must immediately attempt a
 saving throw with a -2 penalty against any and all diseases they have contracted, even if the onset

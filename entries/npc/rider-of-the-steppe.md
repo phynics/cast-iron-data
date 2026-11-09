@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rider_of_the_steppe", path = "json/npcs6.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "121"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "13"
 
 **Challenge rating:** 13
 
-**Sources:** NPC Codex pg 121\
 **XP** 25,600\
 Half-elf [paladin](ref/class/paladin) 14\
 LG Medium humanoid (elf, human)\

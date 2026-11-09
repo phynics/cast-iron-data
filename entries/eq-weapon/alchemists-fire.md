@@ -6,6 +6,15 @@ source_ids = ["alchemy-manual", "ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alchemists_fire", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "alchemy-manual"
+page = "30"
+[[sources]]
+publication = "ultimate-equipment"
+page = "107"
+[[sources]]
+publication = "core-rulebook"
+page = "158"
 
 [fields]
 kind = "item"
@@ -14,7 +23,6 @@ price = "20 gp"
 weight = "1 lb."
 +++
 
-**Sources:** Alchemy Manual pg 30, Ultimate Equipment pg 107, PRPG Core Rulebook pg 158\
 **Price** 20 gp; **Weight** 1 lb.\
 **Category** Alchemical Weapons
 

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/barbarian" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "78"
 
 [fields]
 kind = "archetype"
 replaces = ["Trap sense"]
 +++
 
-**Sources:** Advanced Player's Guide pg 78\
 Some barbarian tribes have strong ties to the elemental forces of nature. Their shamans anoint the
 warriors at birth, tying them to the patron element of the tribe and granting them lasting boons
 against such forces. An elemental kin has the following class feature.

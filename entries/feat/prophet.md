@@ -6,6 +6,12 @@ source_ids = ["quests-and-campaigns", "ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prophet", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "quests-and-campaigns"
+page = "12"
+[[sources]]
+publication = "ultimate-campaign"
+page = "71"
 
 [fields]
 kind = "feat"
@@ -15,8 +21,6 @@ benefit = "If you are nonevil and worship a nonevil deity, whenever you cast a b
 +++
 
 ## Prophet (Story)
-
-**Sources:** Quests and Campaigns pg 12, Ultimate Campaign pg 71
 
 The truth has been revealed, and you have been chosen to deliver it.\
 **Prerequisites:** Ability to cast divine spells, and you must either have received a vision from

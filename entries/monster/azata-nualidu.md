@@ -6,6 +6,9 @@ source_ids = ["pathfinder-105-the-inferno-gate"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "azata_nualidu", path = "json/monsters27.json" },
 ]
+[[sources]]
+publication = "pathfinder-105-the-inferno-gate"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ _Clear, flowing water forms the arms and the lower half of this angelic, elf-lik
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#105: The Inferno Gate pg 82\
 **Subtype:** Azata, Chaotic, Extraplanar, Good, Water
 
 **Experience points:** 1,600

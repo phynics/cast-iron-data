@@ -6,6 +6,9 @@ source_ids = ["heart-of-the-jungle"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "botfly_giant_botfly", path = "json/monsters04.json" },
 ]
+[[sources]]
+publication = "heart-of-the-jungle"
+page = "59"
 
 [fields]
 kind = "creature"
@@ -38,7 +41,6 @@ oversized head and bulbous eyes._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Heart of the Jungle pg 59\
 **Size:** tiny
 
 **Type:** vermin

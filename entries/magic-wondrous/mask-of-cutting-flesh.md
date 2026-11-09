@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mask_of_cutting_flesh", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "266"
+[[sources]]
+publication = "gods-and-magic"
+page = "58"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Sources:** Inner Sea Gods pg 266, Gods and Magic pg 58\
 **Aura** faint abjuration; **CL** 3rd\
 **Slot** head; **Price** 3,000 gp; **Weight** 1 lb.
 

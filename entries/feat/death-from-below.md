@@ -6,6 +6,9 @@ source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "death_from_below", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "dragonslayers-handbook"
+page = "25"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You gain a +2 circumstance bonus against flying opponents when you ha
 +++
 
 ## Death from Below (Combat)
-
-**Sources:** Dragonslayer's Handbook pg 25
 
 You have been trained to fight flying creatures.\
 **Prerequisites:** Base attack bonus +1.\

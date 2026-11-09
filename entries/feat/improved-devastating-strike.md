@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_devastating_strike", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "105"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever you use Vital Strike, Improved Vital Strike, or Greater Vita
 +++
 
 ## Improved Devastating Strike (Combat)
-
-**Sources:** Ultimate Combat pg 105
 
 The fury and power channeled through your attack is enough to kill a lesser being outright.\
 **Prerequisites:** [Devastating Strike](ref/feat/devastating-strike),

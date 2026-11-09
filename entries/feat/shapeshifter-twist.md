@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shapeshifter_twist", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "19"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "A character with the wild shape class feature counts as having the ch
 +++
 
 ## Shapeshifter Twist (Combat)
-
-**Sources:** Martial Arts Handbook pg 19
 
 Your form flexes and contorts in unexpected ways, making it difficult for enemies to move you
 against your will.\

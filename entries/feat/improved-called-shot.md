@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_called_shot", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "195"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "You can make one called shot per round as a full-round action."
 +++
 
 ## Improved Called Shot (Called Shot)
-
-**Sources:** Ultimate Combat pg 195
 
 You are skilled at landing blows right where you want to.\
 **Prerequisites:** Int 13, [Combat Expertise](ref/feat/combat-expertise).\

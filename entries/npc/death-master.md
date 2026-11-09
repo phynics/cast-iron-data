@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "death_master", path = "json/npcs4.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "230"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "16"
 
 **Challenge rating:** 16
 
-**Sources:** NPC Codex pg 230\
 **XP** 76,800\
 Half-elf [cleric](ref/class/cleric) of [Urgathoa](ref/faith/urgathoa) 5/evoker 5/mystic theurge 7\
 NE Medium humanoid (elf, human)\

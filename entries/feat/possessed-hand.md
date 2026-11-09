@@ -6,13 +6,14 @@ source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "possessed_hand", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "haunted-heroes-handbook"
+page = "25"
 
 [fields]
 kind = "feat"
 benefit = "You attract a ghost, spirit, or outsider with personal motivations to possess your hand. This usually involves some sort of mutually beneficial pact or agreement. Your possessed hand helps you in numerous ways, but its periodic, uncontrolled antics are distracting; you take a permanent -2 penalty on concentration checks once you gain this feat."
 +++
-
-**Sources:** Haunted Heroes Handbook pg 25
 
 You've made a peaceful and permanent bargain with a ghost, spirit, or outsider. It possesses your
 hand, guiding and aiding you in exchange for help in return.\

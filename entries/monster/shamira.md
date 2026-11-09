@@ -6,6 +6,9 @@ source_ids = ["pathfinder-76-the-midnight-isles"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shamira", path = "json/monsters_unique3.json" },
 ]
+[[sources]]
+publication = "pathfinder-76-the-midnight-isles"
+page = "74"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ _This crimson-haired demonic woman has wings of fire. She carries a slender bow 
 
 **Senses:** Darkvision 60 ft., Detect good, Detect law, True seeing
 
-**Sources:** Pathfinder \#76: The Midnight Isles pg 74\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar, Fire
 
 **Experience points:** 1,638,400

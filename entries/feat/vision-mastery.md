@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vision_mastery", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "27"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can cause an item that has a divination spell of 1st level or hig
 +++
 
 ## Vision Mastery (Item Mastery)
-
-**Sources:** Weapon Master's Handbook pg 27
 
 You can pierce invisibility with divination magic items.\
 **Prerequisites:** Use Magic Device 2 ranks, base Fortitude save bonus +4.\

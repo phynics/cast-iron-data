@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "the-first-world-realm-of-the-fey"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hold_person", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "296"
 
 [fields]
 kind = "spell"
@@ -57,8 +60,6 @@ Target: one humanoid creature
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 296
 
 The subject becomes paralyzed and freezes in place. It is aware and breathes normally but cannot
 take any actions, even speech. Each round on its turn, the subject may attempt a new saving throw to

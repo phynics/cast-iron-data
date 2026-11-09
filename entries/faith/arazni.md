@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "pathfinder-140-eulogy-for-roslars-coffer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arazni", path = "json/faiths.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "316"
 
 [fields]
 kind = "none"
@@ -15,7 +18,6 @@ kind = "none"
 
 **Sub:** The Harlot Queen
 
-**Sources:** Inner Sea Gods pg 316\
 **Monster Link** [Arazni](ref/monster/arazni)
 
 ### Details

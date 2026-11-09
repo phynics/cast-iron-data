@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/occultist" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "102"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Shift focus, 6th-level implement", "magic circles", "outside contac
 alters = ["Implements", "mental focus", "spellcasting", "implement mastery"]
 +++
 
-**Sources:** Occult Adventures pg 102\
 Tome eaters have learned how to tap into the latent psychic energy of the written word by physically
 devouring books and scrolls to create magical effects and gain mystical insights. They use their
 bonded tomes to gain access to all sorts of magic, and as they grow in power, they gain an innate

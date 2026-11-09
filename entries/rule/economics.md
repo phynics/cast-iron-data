@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "economics", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "149"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 149
 
 Every civilization that rises does so via the use of resources: goods that have both utility and
 scarcity. As noted above, people require shelter, food, clothing, and other goods simply to survive.

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "176"
 
 [fields]
 kind = "archetype"
 replaces = ["Woodland stride", "Trackless step", "Resist nature's lure", "Wild shape", "Venom immunity"]
 +++
 
-**Sources:** Advanced Race Guide pg 176\
 An undine adept dedicates herself to preserving the knowledge of the first undines and ensuring her
 people's ancient connections to the natural world remain undisturbed. They serve as the keepers of
 the roots of the undine people and as their protectors. An undine adept has the following class

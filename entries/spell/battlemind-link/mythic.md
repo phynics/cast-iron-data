@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/battlemind-link", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "85"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 85\
 When you cast this spell, if your linked ally uses a mythic path ability against a creature, you can
 use the same path ability against that creature as if you had it yourself, and your linked ally can
 likewise use any path abilities you use against a creature (even if that ally isn't mythic). For

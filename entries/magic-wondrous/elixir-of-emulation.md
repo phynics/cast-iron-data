@@ -6,6 +6,9 @@ source_ids = ["inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elixir_of_emulation", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "inner-sea-temples"
+page = "62"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Sources:** Inner Sea Temples pg 62\
 **Aura** moderate transmutation; **CL** 9th\
 **Slot** none; **Price** 4,000 gp; **Weight** -
 

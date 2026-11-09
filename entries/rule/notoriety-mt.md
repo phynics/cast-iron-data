@@ -6,12 +6,13 @@ source_ids = ["lands-of-conflict"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "notoriety_mt", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "lands-of-conflict"
+page = "50"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Lands of Conflict pg 50
 
 **Notoriety:** The militia's Notoriety score is a measure of how well it and its actions are known
 throughout the cities and regions in which it operates. The militia's Notoriety score can range from

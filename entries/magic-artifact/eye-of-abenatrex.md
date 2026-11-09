@@ -6,6 +6,9 @@ source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eye_of_abenatrex", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "dragonslayers-handbook"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "N/A"
 caster_level = "N/A"
 +++
 
-**Sources:** Dragonslayer's Handbook pg 29\
 **Aura** N/A; **CL** N/A\
 **Slot** none; **Price** -; **Weight** -
 

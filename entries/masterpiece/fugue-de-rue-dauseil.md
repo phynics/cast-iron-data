@@ -6,13 +6,13 @@ source_ids = ["pathfinder-114-black-stars-beckon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fugue_de_rue_dauseil", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "pathfinder-114-black-stars-beckon"
 
 [fields]
 kind = "class_option"
 group = "bardic-masterpiece"
 +++
-
-**Sources:** Pathfinder \#114: Black Stars Beckon
 
 Your music provides a bastion that hedges out horrors and fiends.
 

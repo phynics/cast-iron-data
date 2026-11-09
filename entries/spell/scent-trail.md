@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scent_trail", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "241"
 
 [fields]
 kind = "spell"
@@ -37,8 +40,6 @@ Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
 Targets: one creature/level, no two of which can be more than 30 ft. apart
 :::
-
-**Sources:** Advanced Player's Guide pg 241
 
 You, or a willing creature you touch, lay down a trail of scents that only the creatures you
 designate at the time of casting can detect. These creatures find it very easy to follow this trail.

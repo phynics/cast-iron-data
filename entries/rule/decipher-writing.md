@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "decipher_writing", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "63"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 63
 
 A Society check can allow you to decipher writing in an unfamiliar language or a message written in
 an incomplete or archaic form. If you succeed at your check, you understand the general content of

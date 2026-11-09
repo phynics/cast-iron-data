@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skill_checks", path = "json/rules_basics01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "86"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 86
 
 When your character uses a skill, he isn't guaranteed success. In order to determine success,
 whenever you attempt to use a skill, you must make a **Skill Check.**

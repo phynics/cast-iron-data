@@ -6,14 +6,15 @@ source_ids = ["chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadows_embrace", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "chronicle-of-legends"
+page = "9"
 
 [fields]
 kind = "feat"
 prerequisites = "Shadow illusion class feature."
 benefit = "Your *shadow illusion* ability can encase you in shadows as the darkness spell, using your shadowdancer level as the caster level. As a standard action, you can raise or lower the illumination level of the effect, from darkness up to normal light."
 +++
-
-**Sources:** Chronicle of Legends pg 9
 
 Shadows rise and fall at your whim.\
 **Prerequisites:** Shadow illusion class feature.\

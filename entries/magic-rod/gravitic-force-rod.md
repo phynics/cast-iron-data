@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gravitic_force_rod", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "13"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation"
 caster_level = "15th"
 +++
 
-**Sources:** Magic Tactics Toolbox pg 13\
 **Aura** strong transmutation; **CL** 15th\
 **Slot** none; **Price** 60,000 gp; **Weight** 4 lbs.
 

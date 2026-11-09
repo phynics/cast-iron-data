@@ -6,14 +6,16 @@ source_ids = ["bestiary-5", "inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "robot", path = "json/monster_subtypes.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+[[sources]]
+publication = "inner-sea-bestiary"
 
 [fields]
 kind = "none"
 +++
 
 ## Subtype: Robot
-
-**Sources:** Bestiary 5, Inner Sea Bestiary
 
 "Robot" is a special subtype that can be applied to any [construct](ref/type/construct) without
 changing its CR. Robots share some features with [clockwork](ref/subtype/clockwork) constructs, and

@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "driving_vehicles", path = "json/rules_rulesets02.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "173"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 173
 
 Controlling a vehicle takes common sense, awareness, intuition, and often some amount of skill in
 its method of propulsion. In the case of muscle propulsion, it is about guiding the creatures to

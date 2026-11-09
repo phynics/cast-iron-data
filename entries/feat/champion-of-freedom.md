@@ -6,6 +6,9 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "champion_of_freedom", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "99"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can store a number of affirmations up to your Charisma bonus (min
 +++
 
 ## Champion of Freedom (Alignment)
-
-**Sources:** Pathfinder Unchained pg 99
 
 You believe that beings can thrive only when free.\
 **Prerequisites:** 10 Hit Dice, chaotic good alignment.\

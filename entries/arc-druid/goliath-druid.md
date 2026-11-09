@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "giant-hunters-handbook"
+page = "20"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Nature sense", "Resist nature's lure"]
 alters = ["Nature bond", "Wild empathy", "Wild shape"]
 +++
 
-**Sources:** Giant Hunter's Handbook pg 20\
 Goliath druids hone their spiritual and magical connections to nature's largest creatures,
 especially dinosaurs, giants, and megafauna, revering these massive creatures as living relics of a
 primeval time when all creatures were more in harmony with nature. Despite this respect, a goliath

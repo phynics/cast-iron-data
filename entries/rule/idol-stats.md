@@ -6,12 +6,13 @@ source_ids = ["occult-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "idol_stats", path = "json/rules_rulesets01.json" },
 ]
+[[sources]]
+publication = "occult-realms"
+page = "60"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Realms pg 60
 
 ### Ability Scores
 

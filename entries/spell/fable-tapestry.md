@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/shadow-conjuration" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "219"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Effect: 1 legendary character/4 caster levels
 Subschool: Shadow
 Descriptors: shadow
 :::
-
-**Sources:** Inner Sea Races pg 219
 
 > _The following spell is available to the indicated race or ethnicity: Varisian_
 

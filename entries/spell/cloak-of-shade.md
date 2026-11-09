@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloak_of_shade", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "211"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: one creature per level
 :::
-
-**Sources:** Advanced Player's Guide pg 211
 
 This spell provides the subject with some degree of protection from the harmful effects of the sun.
 The cloaked subject treats environmental heat due to sun exposure as one level less: severe heat is

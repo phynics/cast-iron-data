@@ -6,14 +6,18 @@ source_ids = ["pathfinder-61-shards-of-sin", "classic-horrors-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "injection_spear", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "pathfinder-61-shards-of-sin"
+page = "64"
+[[sources]]
+publication = "classic-horrors-revisited"
+page = "8"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "8 lbs."
 +++
-
-**Sources:** Pathfinder \#61: Shards of Sin pg 64, Classic Horrors Revisited pg 8
 
 This exotic two-handed weapon allows the user to inject targets with liquid on a hit. The spear's
 reservoir can hold up to 5 doses of a single fluid - a single dose is automatically injected when

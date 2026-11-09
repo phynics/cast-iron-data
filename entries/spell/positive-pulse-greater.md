@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/positive-pulse" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "43"
 
 [fields]
 kind = "spell"
@@ -53,8 +56,6 @@ Spell resistance: yes
 :::
 
 ### Greater Positive Pulse
-
-**Sources:** Planar Adventures pg 43
 
 This spell functions like [positive pulse](ref/spell/positive-pulse), except that the damage dealt
 increases to 3d6 plus your caster level, and the bonus on saving throws increases to +8.

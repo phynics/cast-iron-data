@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "coins_gg", path = "json/rules_gm03.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "112"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 112
 
 Most of the time, a coin should be a coin: a background object the PCs quest for, but that warrants
 little attention. Occasionally, though, you can add a sense of reality and nuance to your world by

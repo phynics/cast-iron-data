@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "pathfinder-41-the-thousand-fangs-below"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lukwata", path = "json/monsters16.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "187"
+[[sources]]
+publication = "pathfinder-41-the-thousand-fangs-below"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ _A long, spiny fin runs down the length of the dolphin-like body of this eel-hea
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Bestiary 3 pg 187, Pathfinder \#41: The Thousand Fangs Below pg 86\
 **Subtype:** Aquatic
 
 **Experience points:** 12,800

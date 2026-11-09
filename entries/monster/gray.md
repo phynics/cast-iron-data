@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gray", path = "json/monsters12.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "129"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ _This gray-skinned humanoid has long, willowy limbs and a bulbous head with over
 
 **Size:** small
 
-**Sources:** Bestiary 5 pg 129\
 **Subtype:** Gray
 
 **Experience points:** 1,200

@@ -6,6 +6,9 @@ source_ids = ["daughters-of-fury"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "amulet_of_reverse_incantation", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "daughters-of-fury"
+page = "56"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "8th"
 +++
 
-**Sources:** Daughters of Fury pg 56\
 **Aura** moderate abjuration; **CL** 8th\
 **Slot** head; **Price** 20,000 gp; **Weight** -
 

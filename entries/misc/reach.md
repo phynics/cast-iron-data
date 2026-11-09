@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reach", path = "json/misc.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "145"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 145
 
 Some weapons have special features in addition to those noted in their descriptions.
 

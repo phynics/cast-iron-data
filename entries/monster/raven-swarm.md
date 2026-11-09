@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "raven_swarm", path = "json/monsters19.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "240"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ of beady eyes._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 6 pg 240\
 **Subtype:** Swarm
 
 **Size:** tiny

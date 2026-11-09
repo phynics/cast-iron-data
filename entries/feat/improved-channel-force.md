@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_channel_force", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "88"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Channel Force, aasimar, channel energy 4d6."
 prerequisite_feats = ["ref/feat/channel-force"]
 benefit = "When using Channel Force, you can affect all creatures in a 60-foot line or a 30-foot cone-shaped burst. You must choose to either push or pull all creatures within the affected area that fail their saves."
 +++
-
-**Sources:** Advanced Race Guide pg 88
 
 You move your enemies within a beam of righteous energy.\
 **Prerequisites:** [Channel Force](ref/feat/channel-force), [aasimar](ref/race/aasimar),

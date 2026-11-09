@@ -6,14 +6,15 @@ source_ids = ["occult-adventures", "psychic-anthology", "occult-origins", "heroe
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "emotional_conduit", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "132"
 
 [fields]
 kind = "feat"
 prerequisites = "Shared consciousness class feature."
 benefit = "You gain familiarity with a number of additional spells based on the emotional focus of your phantom. These spells are added to both your class spell list (if not already on that list) and your list of spells known; they are in addition to the normal number of spells known for your level. The spells you gain are as follows:"
 +++
-
-**Sources:** Occult Adventures pg 132
 
 The deep emotional resonance you share with your phantom enables you to master the emotions of
 others.\

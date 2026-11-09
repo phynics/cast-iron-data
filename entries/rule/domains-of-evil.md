@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "domains_of_evil", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "159"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 159
 
 Some powerful creatures are so corrupted that their malignancy creeps into the land around them,
 establishing dangerous domains of evil over which they rule. And though some vile lords find

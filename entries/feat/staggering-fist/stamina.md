@@ -6,11 +6,13 @@ source_ids = ["pathfinder-unchained"]
 relations = [
   { kind = "addon", target = "ref/feat/staggering-fist", label = "stamina" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "132"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder Unchained pg 132\
 You can spend 5 stamina points to declare that you are using this feat after you've hit with an
 unarmed strike.

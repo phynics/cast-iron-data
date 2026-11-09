@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_termite", path = "json/monsters11.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "242"
 
 [fields]
 kind = "creature"
@@ -39,7 +42,6 @@ _This pony-sized insect has long black mandibles and a banded abdomen of white._
 
 **Senses:** Darkvision 60 ft., Scent
 
-**Sources:** Bestiary 5 pg 242\
 **tremorsense:** 60
 
 **Type:** vermin

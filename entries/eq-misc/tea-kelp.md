@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tea_kelp", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "blood-of-the-sea"
+page = "19"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "3 sp"
 weight = "-"
 +++
 
-**Sources:** Blood of the Sea pg 19\
 **Price** 3 sp; **Weight** -\
 **Category** Food/Drink
 

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "contingency", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "259"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** PRPG Core Rulebook pg 259
 
 You can place another spell upon your person so that it comes into effect under some condition you
 dictate when casting contingency. The contingency spell and the companion spell are cast at the same

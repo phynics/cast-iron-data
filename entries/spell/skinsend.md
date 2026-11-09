@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skinsend", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "238"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Ultimate Magic pg 238
 
 You cause your own skin to peel off your body and animate as a magical creature you control. You may
 project your consciousness to your animated skin or return it to your actual body as a standard

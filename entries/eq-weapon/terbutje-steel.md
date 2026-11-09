@@ -6,14 +6,15 @@ source_ids = ["adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "terbutje_steel", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "adventurers-armory"
+page = "5"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "4 lbs."
 +++
-
-**Sources:** Adventurer's Armory pg 5
 
 This is a forged weapon built to look much like a common [terbutje](ref/eq-weapon/terbutje). It
 lacks the fragility of its non-metallic counterpart.

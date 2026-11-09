@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skilled_rager", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "156"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Rage class feature."
 benefit = "Choose one Charisma-, Dexterity-, or Intelligence-based skill. While you are raging, you can use this skill."
 special = "You can take this feat multiple times. Each time you do, it applies to a different skill."
 +++
-
-**Sources:** Advanced Class Guide pg 156
 
 With practice, you've mastered your rage to allow yourself more versatility.\
 **Prerequisites:** Rage class feature.\

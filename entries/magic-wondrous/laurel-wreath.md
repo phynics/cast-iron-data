@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "laurel_wreath", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "153"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint enchantment"
 caster_level = "5th"
 +++
 
-**Sources:** Mythic Adventures pg 153\
 **Aura** faint enchantment; **CL** 5th\
 **Slot** head; **Price** 19,000 gp; **Weight** 1 lb.
 

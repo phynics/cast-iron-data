@@ -6,6 +6,9 @@ source_ids = ["pathfinder-94-ice-tomb-of-the-giant-queen"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "living_effigy", path = "json/monsters16.json" },
 ]
+[[sources]]
+publication = "pathfinder-94-ice-tomb-of-the-giant-queen"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ _Carved from gray stone, this enormous figure is shaped like the head of some pr
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#94: Ice Tomb of the Giant Queen pg 88\
 **Experience points:** 4,800
 
 **Armor class:** 20/6/20

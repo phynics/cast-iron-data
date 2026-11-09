@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/create-pit" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "246"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Subschool: Creation
 :::
 
 ### Spiked Pit
-
-**Sources:** Advanced Player's Guide pg 246
 
 This spell functions as [create pit](ref/spell/create-pit), except that the pit is lined with
 wickedly sharp spikes along its bottom and walls and has a maximum depth of 50 feet. Creatures who

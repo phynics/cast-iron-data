@@ -6,6 +6,9 @@ source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "decoy_trigger_decoy_tripwire", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "kobolds-of-golarion"
+page = "28"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "- (decoy pressure switch), - (decoy trap door), - (decoy tripwire)"
 
 ## Decoy trigger
 
-**Sources:** Kobolds of Golarion pg 28\
 **Price** 60 gp (decoy pressure switch), 120 gp (decoy trap door), 25 gp (decoy tripwire);
 **Weight** - (decoy pressure switch), - (decoy trap door), - (decoy tripwire)
 

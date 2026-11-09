@@ -6,6 +6,9 @@ source_ids = ["undead-slayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "infiltrators_onyx", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "undead-slayers-handbook"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination and none (see text)"
 caster_level = "5th"
 +++
 
-**Sources:** Undead Slayer's Handbook pg 28\
 **Aura** faint divination and none (see text); **CL** 5th\
 **Slot** none; **Price** 800 gp; **Weight** -
 

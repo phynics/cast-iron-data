@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_sabotaging_sunder", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "85"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You do not provoke an attack of opportunity when performing the speci
 +++
 
 ## Improved Sabotaging Sunder (Combat)
-
-**Sources:** Ultimate Intrigue pg 85
 
 You become further adept at sabotaging your foes' items.\
 **Prerequisites:** Str 13, [Improved Sunder](ref/feat/improved-sunder),

@@ -6,6 +6,9 @@ source_ids = ["lost-kingdoms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rotcarver", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "lost-kingdoms"
+page = "51"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration and necromancy"
 caster_level = "13th"
 +++
 
-**Sources:** Lost Kingdoms pg 51\
 **Aura** strong conjuration and necromancy; **CL** 13th\
 **Slot** none; **Price** 52,118 gp; **Weight** 10 lbs.
 

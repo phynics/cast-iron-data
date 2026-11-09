@@ -6,6 +6,9 @@ source_ids = ["occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rakshasa_avatarana", path = "json/monsters20.json" },
 ]
+[[sources]]
+publication = "occult-bestiary"
+page = "49"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ leathery flap covering its face._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Occult Bestiary pg 49\
 **Subtype:** Native, Rakshasa, Shapechanger
 
 **Experience points:** 19,200

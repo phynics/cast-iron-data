@@ -8,12 +8,14 @@ parent = "ref/umr/natural-invisibility"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "json/umr.json#natural_invisibility|section:natural-invisibility", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "297"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Bestiary 4 pg 297\
 This ability is constant - the creature remains invisible at all times, even when attacking. As this
 ability is inherent, it is not subject to the [invisibility purge](ref/spell/invisibility-purge)
 spell.

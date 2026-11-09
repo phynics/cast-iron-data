@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scorching_ray", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "337"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: yes
 Effect: one or more rays
 Descriptors: fire
 :::
-
-**Sources:** PRPG Core Rulebook pg 337
 
 You blast your enemies with a searing beam of fire. You may fire one ray, plus one additional ray
 for every four levels beyond 3rd (to a maximum of three rays at 11th level). Each ray requires a

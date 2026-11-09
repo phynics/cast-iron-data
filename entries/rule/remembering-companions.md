@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "remembering_companions", path = "json/rules_adv_pc01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "143"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 143
 
 ### Remembering Companions
 

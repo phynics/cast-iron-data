@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "archdevil_baalzebul", path = "json/monsters_unique.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "16"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ _This swarm of droning black flies teems in the semblance of a winged angel with
 
 **Senses:** Darkvision 60 ft., Detect chaos, Detect good, See in darkness, True seeing
 
-**Sources:** Bestiary 6 pg 16\
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **Experience points:** 9,830,400

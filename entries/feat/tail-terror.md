@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tail_terror", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "137"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can make a tail slap attack with your tail. This is a secondary n
 +++
 
 ## Tail Terror (Combat)
-
-**Sources:** Advanced Race Guide pg 137
 
 You have strengthened your tail enough to make slap attacks with it.\
 **Prerequisites:** Base attack bonus +1, [kobold](ref/race/kobold).\

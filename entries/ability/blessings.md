@@ -6,12 +6,13 @@ source_ids = ["advanced-class-guide", "healers-handbook", "ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blessings", path = "json/class_abilities.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Advanced Class Guide\
 A warpriest can select any two blessings granted by his deity. Deities grant blessings of the same
 name as the [domains](ref/ability/domains) they grant. Unless otherwise noted, using a blessing is a
 standard action. A warpriest without a deity can select any two blessings (subject to GM approval).

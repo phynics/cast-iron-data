@@ -6,6 +6,9 @@ source_ids = ["pathfinder-90-the-divinity-drive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arms_of_the_iron_god", path = "json/equipment_tech_artifacts.json" },
 ]
+[[sources]]
+publication = "pathfinder-90-the-divinity-drive"
+page = "60"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ weight = "28 lbs."
 slot = "arms (cybernetic)"
 +++
 
-**Sources:** Pathfinder \#90: The Divinity Drive pg 60\
 **Slot** arms (cybernetic); **Weight** 28 lbs.\
 **Capacity** -; **Usage** -\
 **Install** DC 38; **Implantation** 4

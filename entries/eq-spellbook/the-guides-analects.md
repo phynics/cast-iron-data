@@ -6,6 +6,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_guides_analects", path = "json/equipment_spellbooks.json" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "6"
 
 [fields]
 kind = "item"
@@ -16,8 +19,6 @@ category = "Spellbooks"
 
 _This book's worn leather cover is emblazoned with a simplified winged eye superimposed on a map of
 Avistan._
-
-**Sources:** Arcane Anthology pg 6
 
 **Value** 690 gp (990 gp with the preparation ritual)
 

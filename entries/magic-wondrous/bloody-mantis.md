@@ -6,6 +6,9 @@ source_ids = ["lost-treasures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloody_mantis", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "lost-treasures"
+page = "21"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination, enchantment, and illusion"
 caster_level = "11th"
 +++
 
-**Sources:** Lost Treasures pg 21\
 **Aura** moderate divination, enchantment, and illusion; **CL** 11th\
 **Slot** head; **Price** 52,500 gp; **Weight** 1 lb.
 

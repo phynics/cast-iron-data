@@ -6,6 +6,9 @@ source_ids = ["pathfinder-129-the-twilight-child"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloodplate_burster", path = "json/monsters27.json" },
 ]
+[[sources]]
+publication = "pathfinder-129-the-twilight-child"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ skin._
 
 **Type:** plant
 
-**Sources:** Pathfinder \#129: The Twilight Child pg 84\
 **tremorsense:** 120
 
 **Experience points:** 6,400

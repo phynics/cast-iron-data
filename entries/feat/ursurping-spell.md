@@ -6,6 +6,9 @@ source_ids = ["pathfinder-132-the-six-legend-soul"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ursurping_spell", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "pathfinder-132-the-six-legend-soul"
+page = "73"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "A creature that fails its saving throw against a usurping spell count
 +++
 
 ## Ursurping Spell (Metamagic)
-
-**Sources:** Pathfinder \#132: The Six-Legend Soul pg 73
 
 Like Daronlyr the Overthrower, you lay such brazen claim to power that you force targets of your
 spells to act as though they were your allies.\

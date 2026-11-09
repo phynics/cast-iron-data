@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "coordinated_effort", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "212"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: none
 Spell resistance: no
 Targets: you plus one willing creature per 3 levels, no two of which can be more than 30 ft. part
 :::
-
-**Sources:** Advanced Player's Guide pg 212
 
 Choose a single teamwork feat that you possess. You forge a link with your allies, allowing them to
 gain the benefits of the chosen feat even if they do not have it themselves. You must be a part of

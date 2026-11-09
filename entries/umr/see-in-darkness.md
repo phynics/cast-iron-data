@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "see_in_darkness", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "299"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## See in Darkness (Su)
 
-**Sources:** Bestiary 5 pg 299\
 The creature can see perfectly in darkness of any kind, including that created by
 [deeper darkness](ref/spell/deeper-darkness).
 

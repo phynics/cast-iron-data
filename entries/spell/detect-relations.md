@@ -6,6 +6,9 @@ source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "detect_relations", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "quests-and-campaigns"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: Will negates, see text
 Spell resistance: no
 Targets: one creature per level, no two of which can be more than 30 ft. apart
 :::
-
-**Sources:** Quests and Campaigns pg 28
 
 You can determine whether or not two or more creatures are related by blood. The amount of
 information gleaned depends on how long you study a particular area or set of subjects.

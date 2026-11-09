@@ -6,6 +6,9 @@ source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "knights_kit", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "dragonslayers-handbook"
+page = "7"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "751 gp"
 weight = "17 lbs."
 +++
 
-**Sources:** Dragonslayer's Handbook pg 7\
 **Price** 751 gp; **Weight** 17 lbs.\
 **Category** Kits
 

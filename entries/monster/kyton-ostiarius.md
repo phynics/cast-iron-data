@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "pathfinder-64-beyond-the-doomsday-door"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kyton_ostiarius", path = "json/monsters15.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "176"
+[[sources]]
+publication = "pathfinder-64-beyond-the-doomsday-door"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -44,7 +50,6 @@ pleasure or titillating torture._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 4 pg 176, Pathfinder \#64: Beyond the Doomsday Door pg 86\
 **Subtype:** Evil, Extraplanar, Kyton, Lawful
 
 **Experience points:** 1,600

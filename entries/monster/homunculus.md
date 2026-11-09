@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "homunculus", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "176"
 
 [fields]
 kind = "creature"
@@ -39,7 +42,6 @@ devil._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder RPG Bestiary pg 176\
 **Size:** tiny
 
 **Experience points:** 400

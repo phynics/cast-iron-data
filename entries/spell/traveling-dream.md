@@ -9,6 +9,12 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/arcane-eye" },
 ]
+[[sources]]
+publication = "gods-and-magic"
+page = "13"
+[[sources]]
+publication = "pathfinder-2-the-skinsaw-murders"
+page = "72"
 
 [fields]
 kind = "spell"
@@ -45,8 +51,6 @@ Spell resistance: no
 Effect: magical sensor
 Subschool: Scrying
 :::
-
-**Sources:** Gods and Magic pg 13, Pathfinder \#2: The Skinsaw Murders pg 72
 
 This spell functions like [arcane eye](ref/spell/arcane-eye), except as noted above. Upon casting
 this spell, you fall asleep for its duration, creating an invisible magic sensor (called a

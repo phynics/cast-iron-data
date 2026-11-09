@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eruption", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "19"
 
 [fields]
 kind = "class_option"
@@ -27,8 +30,6 @@ group = "kineticist-wild-talent"
 [Steam Blast](ref/kinetic/steam-blast)
 
 **Saving throw:** Reflex half
-
-**Source:** Occult Adventures/19
 
 Your kinetic blast erupts from the ground in a pillar centered anywhere within 120 feet of you. The
 pillar affects all creatures and objects in a 10-foot-radius cylinder that extends 40 feet above the

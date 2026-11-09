@@ -6,6 +6,9 @@ source_ids = ["bestiary", "classic-horrors-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skeleton", path = "json/monster_template4.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "250"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** Varies
-
-**Source:** Pathfinder RPG Bestiary/250
 
 Skeletons are the animated bones of the dead, brought to unlife through foul magic. While most
 skeletons are mindless automatons, they still possess an evil cunning imparted to them by their

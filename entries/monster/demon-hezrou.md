@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_hezrou", path = "json/monsters29.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "62"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ hungry, reptilian eyes._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 62\
 **Subtype:** Aquatic, Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 12,800

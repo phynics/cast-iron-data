@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skirmishing_crusader", path = "json/npcs5.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "113"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "3"
 
 **Challenge rating:** 3
 
-**Sources:** NPC Codex pg 113\
 **XP** 800\
 Gnome [paladin](ref/class/paladin) of [Erastil](ref/faith/erastil) 4\
 LG Small humanoid (gnome)\

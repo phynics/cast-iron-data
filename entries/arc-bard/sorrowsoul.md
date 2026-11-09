@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "22"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Soothing performance", "versatile performance", "Well-versed", "Lor
 alters = ["Bardic performance"]
 +++
 
-**Sources:** Ultimate Intrigue pg 22\
 It isn't uncommon for a bard to, on occasion, sing mournful tunes or craft elegies that depict the
 deepest sadness or the most profound suffering. But while most bards who do so create such
 performances for fame or wealth, the sorrowsoul has known tragedy and loss on a level so intimate,

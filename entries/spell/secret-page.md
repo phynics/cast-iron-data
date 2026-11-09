@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "secret_page", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "338"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: none
 Spell resistance: no
 Target: page touched, up to 3 sq. ft. in size
 :::
-
-**Sources:** PRPG Core Rulebook pg 338
 
 Secret page alters the contents of a page so that it appears to be something entirely different. The
 text of a spell can be changed to show another spell of equal or lower level known by the caster.

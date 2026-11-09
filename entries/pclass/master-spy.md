@@ -6,14 +6,15 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "master_spy", path = "json/prestige_classes2.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "270"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d8."
 +++
-
-**Sources:** Advanced Player's Guide pg 270
 
 Unparalleled practitioners of deception, master spies rely on deceit and trickery over brawn and
 spells. A master spy is an expert at both magical and nonmagical means of evading detection, and

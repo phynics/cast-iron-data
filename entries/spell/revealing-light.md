@@ -6,6 +6,9 @@ source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "revealing_light", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "monster-hunters-handbook"
+page = "31"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Spell resistance: no
 Target: object touched
 Descriptors: light
 :::
-
-**Sources:** Monster Hunter's Handbook pg 31
 
 The touched object emits a shimmering light (as per light) that causes shadows to shift constantly
 in a 20-foot radius. Creatures lose any racial bonus on Stealth checks while in the area, and the

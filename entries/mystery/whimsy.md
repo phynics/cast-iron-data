@@ -6,13 +6,14 @@ source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "whimsy", path = "json/class_ability_mysteries.json" },
 ]
+[[sources]]
+publication = "legacy-of-the-first-world"
+page = "10"
 
 [fields]
 kind = "class_option"
 group = "oracle-mystery"
 +++
-
-**Sources:** Legacy of the First World pg 10
 
 Whimsy oracles gain powers from capricious fey tricksters.
 

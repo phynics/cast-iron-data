@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "calm_emotions", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "252"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Area: creatures in a 20-ft.-radius spread
 Subschool: Compulsion
 Descriptors: emotion, mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 252
 
 This spell calms agitated creatures. You have no control over the affected creatures, but calm
 emotions can stop raging creatures from fighting or joyous ones from reveling. Creatures so affected

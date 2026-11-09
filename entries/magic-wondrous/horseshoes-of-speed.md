@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horseshoes_of_speed", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "232"
+[[sources]]
+publication = "core-rulebook"
+page = "519"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Ultimate Equipment pg 232, PRPG Core Rulebook pg 519\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** feet; **Price** 3,000 gp; **Weight** 12 lbs.
 

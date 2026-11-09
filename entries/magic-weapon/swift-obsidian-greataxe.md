@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swift_obsidian_greataxe", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "161"
+[[sources]]
+publication = "advanced-race-guide"
+page = "58"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Sources:** Ultimate Equipment pg 161, Advanced Race Guide pg 58\
 **Aura** moderate transmutation; **CL** 10th\
 **Slot** none; **Price** 11,320 gp; **Weight** 12 lbs.
 

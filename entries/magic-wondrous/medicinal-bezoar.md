@@ -6,6 +6,9 @@ source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "medicinal_bezoar", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "55"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "8th"
 +++
 
-**Sources:** Inner Sea Intrigue pg 55\
 **Aura** moderate conjuration; **CL** 8th\
 **Slot** none; **Price** 1,600 gp; **Weight** 1/2 lb.
 

@@ -6,14 +6,15 @@ source_ids = ["pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "profits_of_kalistrade", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "pathfinder-campaign-setting"
+page = "73"
 
 [fields]
 kind = "feat"
 prerequisites = "Diplomacy 1 rank, lives or works in Druma."
 benefit = "By utilizing your mercantile connections, when you gain this feat you acquire a resource pool worth 100 gp. You may add to this resource pool with gold you acquire through adventuring, but once you put it in, it remains a part of your resource pool thereafter. Your resource pool increases by 100 gp at levels 2-5, 500 gp at levels 6-10, 1,000 gp at levels 11-15, and 5,000 gp at levels 16 and up."
 +++
-
-**Sources:** Pathfinder Campaign Setting pg 73
 
 Your careful investments provide you with liquid assets with which you may gain the use of various
 items on a temporary basis.\

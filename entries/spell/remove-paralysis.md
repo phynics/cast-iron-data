@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "remove_paralysis", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "332"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes (harmless)
 Targets: up to four creatures, no two of which can be more than 30 ft. apart
 Subschool: Healing
 :::
-
-**Sources:** PRPG Core Rulebook pg 332
 
 You can free one or more creatures from the effects of temporary paralysis or related magic,
 including spells and effects that cause a creature to gain the staggered condition. If the spell is

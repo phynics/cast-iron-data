@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_rending_fury", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "103"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever you rend an opponent, you deal 1d6 bleed damage to that oppo
 +++
 
 ## Greater Rending Fury (Combat)
-
-**Sources:** Ultimate Combat pg 103
 
 When your claws latch on to an opponent, the effect is bloody and horrific.\
 **Prerequisites:** [Improved Rending Fury](ref/feat/improved-rending-fury),

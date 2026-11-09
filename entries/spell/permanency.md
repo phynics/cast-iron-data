@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "permanency", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "318"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: none
 Spell resistance: no
 Target: see text
 :::
-
-**Sources:** PRPG Core Rulebook pg 318
 
 This spell makes the duration of certain other spells permanent. You first cast the desired spell
 and then follow it with the permanency spell.

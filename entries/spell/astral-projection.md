@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "astral_projection", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "244"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: none
 Spell resistance: yes
 Targets: you plus one additional willing creature touched per two caster levels
 :::
-
-**Sources:** PRPG Core Rulebook pg 244
 
 By freeing your spirit from your physical body, this spell allows you to project an astral body onto
 another plane altogether. You can bring the astral forms of other willing creatures with you,

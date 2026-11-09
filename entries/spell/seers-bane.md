@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/nondetection" },
 ]
+[[sources]]
+publication = "pathfinder-102-breaking-the-bones-of-hell"
+page = "75"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: Will negates (harmless) (object)
 Spell resistance: yes (harmless) (object)
 Target: creature or object touched
 :::
-
-**Sources:** Pathfinder \#102: Breaking the Bones of Hell pg 75
 
 > _Priests of [Mephistopheles](ref/faith/mephistopheles) have access to the following spell._
 

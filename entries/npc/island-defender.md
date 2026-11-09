@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "island_defender", path = "json/npcs2.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "66"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "6"
 
 **Challenge rating:** 6
 
-**Sources:** NPC Codex pg 66\
 **XP** 2,400\
 Elf [druid](ref/class/druid) 7\
 LN Medium humanoid (elf)\

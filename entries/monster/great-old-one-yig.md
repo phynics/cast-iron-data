@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "great_old_one_yig", path = "json/monsters_unique2.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "150"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ distinctive crescent shape._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Bestiary 6 pg 150\
 **Subtype:** Chaotic, Great Old One, Shapechanger
 
 **Experience points:** 3,276,800

@@ -6,6 +6,9 @@ source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gemcarvers_tools", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
+page = "10"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuratino and transmutation"
 caster_level = "11th"
 +++
 
-**Sources:** Elemental Master's Handbook pg 10\
 **Aura** moderate conjuratino and transmutation; **CL** 11th\
 **Slot** none; **Price** 9,000 gp; **Weight** 5 lbs.
 

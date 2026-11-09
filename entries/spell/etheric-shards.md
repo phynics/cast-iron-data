@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "etheric_shards", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "171"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: no
 Area: one 10-ft. cube/level
 Descriptors: force
 :::
-
-**Sources:** Occult Adventures pg 171
 
 You harden interpenetrated ethereal substance into deadly transdimensional razors that are invisible
 to normal sight. Movement through an area of etheric shards is halved, even for incorporeal

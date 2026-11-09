@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-magic", "dark-markets-a-guide-to-katape
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ray_of_exhaustion", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "330"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: Fortitude partial; see text
 Spell resistance: yes
 Effect: ray
 :::
-
-**Sources:** PRPG Core Rulebook pg 330
 
 A black ray projects from your pointing finger. You must succeed on a ranged touch attack with the
 ray to strike a target.

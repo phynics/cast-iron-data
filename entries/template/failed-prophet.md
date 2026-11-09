@@ -6,6 +6,9 @@ source_ids = ["druma-profit-and-prophecy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "failed_prophet", path = "json/monster_template1.json" },
 ]
+[[sources]]
+publication = "druma-profit-and-prophecy"
+page = "60"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +2
-
-**Source:** Druma, Profit and Prophecy/60
 
 When a Kalistocrat performs the final rites to create her idealized afterlife, the likelihood of
 success depends on how stringently she adhered to Kalistrade's teachings and how much wealth she

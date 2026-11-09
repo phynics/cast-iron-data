@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "starry_grace", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "92"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When wielding a starknife, you can add your Dexterity modifier instea
 +++
 
 ## Starry Grace (Combat)
-
-**Sources:** Ultimate Intrigue pg 92
 
 Your quick and free starknife motions allow you to make deadly dexterous attacks.\
 **Prerequisites:** Dex 13, [Weapon Finesse](ref/feat/weapon-finesse).\

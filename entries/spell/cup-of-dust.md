@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cup_of_dust", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "214"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: curse
 :::
-
-**Sources:** Advanced Player's Guide pg 214
 
 You curse the target with a thirst no drink can quench. On a failed saving throw, the target begins
 to dehydrate. The effects of this spell cannot inflict more nonlethal damage than the target has hit

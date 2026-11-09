@@ -6,6 +6,9 @@ source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ragespittle", path = "json/equipment_poisons.json" },
 ]
+[[sources]]
+publication = "agents-of-evil"
+page = "22"
 
 [fields]
 kind = "item"
@@ -13,8 +16,6 @@ category = "Poisons"
 price = "1,000 gp"
 weight = "&mdash;"
 +++
-
-**Sources:** Agents of Evil pg 22
 
 **Price** 1,000 gp; **Weight** —
 

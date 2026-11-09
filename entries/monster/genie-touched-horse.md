@@ -6,6 +6,9 @@ source_ids = ["qadira-jewel-of-the-east"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "genie_touched_horse", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "qadira-jewel-of-the-east"
+page = "60"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ origins._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Qadira, Jewel of the East pg 60\
 **Experience points:** 2,400
 
 **Armor class:** 19/11/17

@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "know_the_enemy", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "226"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Ultimate Magic pg 226
 
 You commune with the divine, reflecting on one type of creature you encountered in the last day. You
 may make a Knowledge check regarding that creature type with a +10 insight bonus.

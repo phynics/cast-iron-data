@@ -6,6 +6,9 @@ source_ids = ["pathfinder-134-it-came-from-hollow-mountain"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "choking_shade", path = "json/monsters05.json" },
 ]
+[[sources]]
+publication = "pathfinder-134-it-came-from-hollow-mountain"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ _A vague humanoid shape composed of whirling dust and shards of bone hovers mena
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#134: It Came from Hollow Mountain pg 82\
 **Subtype:** Incorporeal
 
 **Type:** undead

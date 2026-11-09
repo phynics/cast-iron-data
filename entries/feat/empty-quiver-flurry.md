@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "empty_quiver_flurry", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "14"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "If you have the Rapid Reload feat in addition to this feat, your chos
 +++
 
 ## Empty Quiver Flurry (Combat)
-
-**Sources:** Weapon Master's Handbook pg 14
 
 You can use your ranged weapons to make melee attacks that keep foes at bay as you shoot them.\
 **Prerequisites:** [Empty Quiver Flexibility](ref/feat/empty-quiver-flexibility),

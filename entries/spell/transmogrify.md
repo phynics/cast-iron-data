@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "transmogrify", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "250"
 
 [fields]
 kind = "spell"
@@ -37,8 +40,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: no
 Target: your eidolon
 :::
-
-**Sources:** Advanced Player's Guide pg 250
 
 Your eidolon's form shifts and transforms. This spell allows you to change any of the eidolon's
 evolutions by allocating its evolution pool on new evolutions. If you have the aspect or greater

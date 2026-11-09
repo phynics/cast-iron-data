@@ -6,6 +6,9 @@ source_ids = ["pathfinder-31-stolen-land"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thylacine_brush_thylacine", path = "json/monsters23.json" },
 ]
+[[sources]]
+publication = "pathfinder-31-stolen-land"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ path._
 
 **Senses:** Low-light vision
 
-**Sources:** Pathfinder \#31: Stolen Land pg 86\
 **Experience points:** 600
 
 **Armor class:** 14/12/12

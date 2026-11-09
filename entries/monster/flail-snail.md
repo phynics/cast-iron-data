@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "misfit-monsters-redeemed"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flail_snail", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "118"
+[[sources]]
+publication = "misfit-monsters-redeemed"
+page = "33"
 
 [fields]
 kind = "creature"
@@ -44,7 +50,6 @@ mace-like club._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Bestiary 3 pg 118, Misfit Monsters Redeemed pg 33\
 **tremorsense:** 60
 
 **Experience points:** 1,200

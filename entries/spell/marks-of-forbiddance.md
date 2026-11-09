@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "marks_of_forbiddance", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "232"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Spell resistance: yes
 Targets: one enemy and one ally
 Descriptors: mind-affecting
 :::
-
-**Sources:** Advanced Player's Guide pg 232
 
 Marks of Forbiddance magically brand two creatures, preventing them from committing violence against
 one another. When you cast this spell choose one enemy and one ally within range. Both targets

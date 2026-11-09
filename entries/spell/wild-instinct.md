@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wild_instinct", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-wild"
+page = "31"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Heroes of the Wild pg 31
 
 This spell sharpens your senses, allowing you to perceive threats you would otherwise miss. You
 become aware of sounds and smells you would normally overlook, and even retain the ability to detect

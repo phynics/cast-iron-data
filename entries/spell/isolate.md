@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "isolate", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "21"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Target: creature touched
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** Monster Codex pg 21
 
 You cause the target to become invisible and silent, but only to his allies. Any creature with an
 attitude of indifferent or worse toward the target, and any creature that wishes the target harm,

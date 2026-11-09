@@ -6,12 +6,14 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pharmaceuticals", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "33"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Technology Guide pg 33\
 A pharmaceutical takes a standard action to consume, or a move action if administered by a
 [medlance](ref/tech-misc/medlance). A single dose of any pharmaceutical weighs only a tenth of a
 pound - no entry for weight is given for the following item descriptions. Individual doses of

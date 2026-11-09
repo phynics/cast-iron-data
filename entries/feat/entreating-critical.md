@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "entreating_critical", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "82"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever you confirm a critical hit, the shock of the attack momentar
 +++
 
 ## Entreating Critical (Combat, Critical)
-
-**Sources:** Ultimate Intrigue pg 82
 
 Your critical hit allows you a chance to make your foes briefly see reason.\
 **Prerequisites:** Cha 15, [Call Truce](ref/feat/call-truce),

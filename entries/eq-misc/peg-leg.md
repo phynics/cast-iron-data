@@ -6,6 +6,9 @@ source_ids = ["pirates-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "peg_leg", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "pirates-of-the-inner-sea"
+page = "21"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "10 gp"
 weight = "5 lbs."
 +++
 
-**Sources:** Pirates of the Inner Sea pg 21\
 **Price** 10 gp; **Weight** 5 lbs.\
 **Category** Adventuring Gear
 

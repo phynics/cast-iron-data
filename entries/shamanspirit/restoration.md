@@ -6,6 +6,12 @@ source_ids = ["advanced-class-guide", "healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "restoration", path = "json/class_ability_shaman_spirits.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "41"
+[[sources]]
+publication = "healers-handbook"
+page = "27"
 
 [fields]
 kind = "class_option"
@@ -13,8 +19,6 @@ group = "shaman-spirit"
 +++
 
 ## Restoration (Life)
-
-**Sources:** Advanced Class Guide pg 41, Healer's Handbook pg 27
 
 **Associated Spirit:** [Life](ref/shamanspirit/life)
 

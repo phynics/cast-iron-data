@@ -6,6 +6,9 @@ source_ids = ["pathfinder-83-the-slave-trenches-of-hakotep"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "axe_of_the_imperative", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "pathfinder-83-the-slave-trenches-of-hakotep"
+page = "62"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "9th"
 +++
 
-**Sources:** Pathfinder \#83: The Slave Trenches of Hakotep pg 62\
 **Aura** moderate necromancy; **CL** 9th\
 **Slot** none; **Price** 5,310 gp; **Weight** 6 lbs.
 

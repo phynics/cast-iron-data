@@ -6,6 +6,9 @@ source_ids = ["pathfinder-120-vault-of-the-onyx-citadel"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snake_charmers_flute", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "pathfinder-120-vault-of-the-onyx-citadel"
+page = "19"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration and enchantment"
 caster_level = "17th"
 +++
 
-**Sources:** Pathfinder \#120: Vault of the Onyx Citadel pg 19\
 **Aura** strong conjuration and enchantment; **CL** 17th\
 **Slot** none; **Price** 26,000 gp; **Weight** 3 lbs.
 

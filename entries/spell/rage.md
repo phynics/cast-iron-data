@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rage", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "329"
 
 [fields]
 kind = "spell"
@@ -53,8 +56,6 @@ Targets: one willing living creature per three levels, no two of which may be mo
 Subschool: Compulsion
 Descriptors: emotion, mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 329
 
 Each affected creature gains a +2 morale bonus to Strength and Constitution, a +1 morale bonus on
 Will saves, and a -2 penalty to AC. The effect is otherwise identical with a

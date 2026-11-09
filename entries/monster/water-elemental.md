@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "water_elemental", path = "json/monsters09.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "126"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ _This translucent creature's shape shifts between a spinning column of water and
 
 **Size:** small
 
-**Sources:** Pathfinder RPG Bestiary pg 126\
 **Subtype:** Elemental, Extraplanar, Water
 
 **Experience points:** 400

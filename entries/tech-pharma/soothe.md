@@ -6,6 +6,9 @@ source_ids = ["pathfinder-86-lords-of-rust"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soothe", path = "json/equipment_tech_pharmaceuticals.json" },
 ]
+[[sources]]
+publication = "pathfinder-86-lords-of-rust"
+page = "63"
 
 [fields]
 kind = "item"
@@ -13,7 +16,6 @@ category = "Pharmaceuticals"
 price = "200 gp"
 +++
 
-**Sources:** Pathfinder \#86: Lords of Rust pg 63\
 **Price** 200 gp
 
 ### Construction

@@ -6,12 +6,12 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_moon", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures
 
 **Blood Moon (CR 3):** Two situations give rise to the infamous occurrences known as blood moons:
 astronomical alignments that result in a calendar month having a second full moon, and atmospheric

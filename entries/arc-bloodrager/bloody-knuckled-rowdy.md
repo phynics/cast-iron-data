@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bloodrager" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "13"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Fast movement", "Uncanny dodge", "improved uncanny dodge"]
 alters = ["Spellcasting"]
 +++
 
-**Sources:** Melee Tactics Toolbox pg 13\
 Bloodragers are frequently rough-and-ready, untrained scrappers who learn to exploit any advantage
 to gain the upper hand in a fight. The bloody-knuckled rowdy focuses on tricks and maneuvers that
 are quick and effective, duplicating combat styles from professional brawlers, street thugs, and

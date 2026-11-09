@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "master_of_undeath", path = "json/npcs4.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "56"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "14"
 
 **Challenge rating:** 14
 
-**Sources:** NPC Codex pg 56\
 **XP** 38,400\
 Human [cleric](ref/class/cleric) of [Urgathoa](ref/faith/urgathoa) 15\
 NE Medium humanoid (human)\

@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "faiths-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lose_the_trail", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "236"
+[[sources]]
+publication = "faiths-of-corruption"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -47,8 +53,6 @@ Targets: one creature/level
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** Inner Sea Gods pg 236, Faiths of Corruption pg 28
 
 The target or targets of this spell can obscure their tracks when fleeing from a pursuer. This
 increases the DC of any Survival checks made to track the spell's targets by 2 per level of the

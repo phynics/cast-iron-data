@@ -6,12 +6,13 @@ source_ids = ["occult-mysteries"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "astrology_on_golarion", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-mysteries"
+page = "38"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Mysteries pg 38
 
 In some cultures, celestial divination is an esoteric discipline, while for others it's a major
 cultural institution. The following are several cultures that hold astrology as a foundational

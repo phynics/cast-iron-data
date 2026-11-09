@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/beast-shape-3" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "247"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Subschool: Polymorph
 :::
 
 ### Beast Shape IV
-
-**Sources:** PRPG Core Rulebook pg 247
 
 This spell functions as [beast shape III](ref/spell/beast-shape-3) except that it also allows you to
 assume the form of a Tiny or Large creature of the magical beast type. If the form you assume has

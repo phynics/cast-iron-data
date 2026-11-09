@@ -6,12 +6,13 @@ source_ids = ["numeria-land-of-fallen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bluespit", path = "json/diseases.json" },
 ]
+[[sources]]
+publication = "numeria-land-of-fallen-stars"
+page = "23"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Numeria, Land of Fallen Stars pg 23
 
 **Type:** Disease (Inhaled)
 

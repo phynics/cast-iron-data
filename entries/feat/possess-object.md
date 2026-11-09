@@ -6,6 +6,9 @@ source_ids = ["pathfinder-28-the-infernal-syndrome"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "possess_object", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "pathfinder-28-the-infernal-syndrome"
+page = "58"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ prerequisites = "Cha 18, any evil outsider with 9 or more Hit Dice."
 +++
 
 ## Possess Object (Monster)
-
-**Sources:** Pathfinder \#28: The Infernal Syndrome pg 58
 
 A fiend gains the power to bind its malign essence to a single object, corrupting it into a relic of
 undeniable evil.\

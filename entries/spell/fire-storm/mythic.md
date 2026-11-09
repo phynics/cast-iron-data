@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/fire-storm", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "94"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 94\
 The damage dealt increases to 1d8 points of damage per caster level (maximum 20d8). Half of this
 damage is fire damage, and the other half is divine energy that bypasses fire resistance and fire
 immunity. You can exclude any number of animals from damage just as you can plant creatures.

@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_eclipse_giant", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "121"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ massive giant._
 
 **Senses:** Low-light vision, See in darkness
 
-**Sources:** Bestiary 5 pg 121\
 **Subtype:** Giant
 
 **Experience points:** 204,800

@@ -6,6 +6,15 @@ source_ids = ["rise-of-the-runelords-anniversary-edition", "artifacts-and-legend
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sword_of_greed_chellan", path = "json/magic_artifact3.json" },
 ]
+[[sources]]
+publication = "rise-of-the-runelords-anniversary-edition"
+page = "420"
+[[sources]]
+publication = "artifacts-and-legends"
+page = "51"
+[[sources]]
+publication = "pathfinder-6-spires-of-xin-shalast"
+page = "52"
 
 [fields]
 kind = "item"
@@ -17,8 +26,6 @@ aura = "strong transmutation"
 caster_level = "16th"
 +++
 
-**Sources:** Rise of the Runelords Anniversary Edition pg 420, Artifacts and Legends pg 51,
-Pathfinder \#6: Spires of Xin-Shalast pg 52\
 **Aura** strong transmutation; **CL** 16th\
 **Slot** none; **Price** -; **Weight** 25 lbs.
 

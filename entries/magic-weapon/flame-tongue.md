@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flame_tongue", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "155"
+[[sources]]
+publication = "core-rulebook"
+page = "471"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong evocation"
 caster_level = "12th"
 +++
 
-**Sources:** Ultimate Equipment pg 155, PRPG Core Rulebook pg 471\
 **Aura** strong evocation; **CL** 12th\
 **Slot** none; **Price** 20,715 gp; **Weight** 4 lbs.
 

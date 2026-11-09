@@ -6,12 +6,14 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ethereal_rip", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "211"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Occult Adventures pg 211\
 **School** evocation; **Level** 5\
 **Casting Time** 50 minutes\
 **Components** V, S, M (a dollop of ectoplasm and paste extracted from ground lotus root worth 500

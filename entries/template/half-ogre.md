@@ -6,6 +6,9 @@ source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "half_ogre", path = "json/monster_template2.json" },
 ]
+[[sources]]
+publication = "inner-sea-monster-codex"
+page = "47"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Challenge rating:** +0 or -1
 
 **Inherited:** present
-
-**Source:** Inner Sea Monster Codex/47
 
 While most ogrekin are the result of an ogre mating with a Medium humanoid, some ogres breed with
 other giants, especially [ash giants](ref/monster/giant-ash-giant),

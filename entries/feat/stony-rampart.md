@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stony_rampart", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "32"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "As a standard action, you can call forth a low wall of unworked stone
 +++
 
 ## Stony Rampart (Combat, Conduit)
-
-**Sources:** Planar Adventures pg 32
 
 Stone rises up at your command, offering cover to allies.\
 **Prerequisites:** Knowledge (planes) 3 ranks.\

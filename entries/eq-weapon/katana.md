@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "katana", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "20"
+[[sources]]
+publication = "ultimate-combat"
+page = "131"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "6 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 20, Ultimate Combat pg 131
 
 Specifically constructed for [samurai](ref/class/samurai), katanas employ multiple types of steel
 combined in a distinctive forging process. The result are swords noted for their wickedly sharp yet

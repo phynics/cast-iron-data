@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "pathfinder-40-vaults-of-madness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sabosan", path = "json/monsters37.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "233"
+[[sources]]
+publication = "pathfinder-40-vaults-of-madness"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ _This bat-like humanoid has a lean, muscular body covered with fur and two large
 
 **Senses:** Darkvision 60 ft., Scent
 
-**Sources:** Bestiary 3 pg 233, Pathfinder \#40: Vaults of Madness pg 86\
 **Experience points:** 1,600
 
 **Armor class:** 18/14/14

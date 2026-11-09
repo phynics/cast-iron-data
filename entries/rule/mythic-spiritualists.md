@@ -6,12 +6,13 @@ source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mythic_spiritualists", path = "json/rules_campaign_types07.json" },
 ]
+[[sources]]
+publication = "heroes-of-golarion"
+page = "29"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Heroes of Golarion pg 29
 
 Mythic spiritualists almost always travel in the company of the phantoms of legendary heroes and
 villains, although it is unclear whether it is the phantom that gives the spiritualist mythic power

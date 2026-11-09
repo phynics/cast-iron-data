@@ -6,6 +6,12 @@ source_ids = ["pathfinder-67-the-snows-of-summer", "people-of-the-north"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flurry_of_snowballs", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "pathfinder-67-the-snows-of-summer"
+page = "72"
+[[sources]]
+publication = "people-of-the-north"
+page = "26"
 
 [fields]
 kind = "spell"
@@ -44,8 +50,6 @@ Spell resistance: no
 Area: cone-shaped burst
 Descriptors: cold, water
 :::
-
-**Sources:** Pathfinder \#67: The Snows of Summer pg 72, People of the North pg 26
 
 You send a flurry of snowballs hurtling at your foes. Any creature in the area takes 4d6 points of
 cold damage from being pelted with the icy spheres.

@@ -6,12 +6,14 @@ source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "servants_of_the_book", path = "json/haunts.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "167"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Book of the Damned pg 167\
 The Book of the Damned was never meant for mortal eyes. Even so, over ages of wandering, the elusive
 tome has granted countless reckless scholars a glimpse of reality's deepest evils. Those who aren't
 driven to ruin by the book's secrets typically face the knives of covetous thieves, which ensures

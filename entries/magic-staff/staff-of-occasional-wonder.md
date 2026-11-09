@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_occasional_wonder", path = "json/magic_staff.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "351"
 
 [fields]
 kind = "item"
@@ -15,8 +18,6 @@ slot = "none"
 aura = "varies"
 caster_level = "varies"
 +++
-
-**Sources:** Ultimate Equipment pg 351
 
 **Aura** varies; **CL** varies\
 **Slot** none; **Weight** 4 lbs.

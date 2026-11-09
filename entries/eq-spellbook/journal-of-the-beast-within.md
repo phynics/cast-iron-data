@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "journal_of_the_beast_within", path = "json/equipment_spellbooks.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "123"
 
 [fields]
 kind = "item"
@@ -17,8 +20,6 @@ category = "Spellbooks"
 _This ragged collection of scorched and stained notes is tied with cheap twine between wooden
 covers. A few formulae appear to have been deliberately obliterated, scratched through so thoroughly
 that the paper is torn in places._
-
-**Sources:** Ultimate Magic pg 123
 
 **Value** 915 gp (2,165 gp with the preparation ritual)
 

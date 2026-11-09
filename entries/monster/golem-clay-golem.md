@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_clay_golem", path = "json/monsters33.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "159"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ face is only vaguely humanoid._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder RPG Bestiary pg 159\
 **Experience points:** 9,600
 
 **Armor class:** 24/8/24

@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mounted_skirmisher", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "165"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "If your mount moves more than 5 feet, you can only take an attack acti
 +++
 
 ## Mounted Skirmisher (Combat)
-
-**Sources:** Advanced Player's Guide pg 165
 
 You are adept at attacking from upon a swift moving steed.\
 **Prerequisites:** Ride rank 14, [Mounted Combat](ref/feat/mounted-combat),

@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fatiguing_stare", path = "json/feat06.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "134"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When a target takes damage from your painful stare, it must succeed a
 +++
 
 ## Fatiguing Stare (Combat, Stare)
-
-**Sources:** Occult Adventures pg 134
 
 Your painful stare fatigues your opponent.\
 **Prerequisites:** Mesmerist level 7th, painful stare class feature.\

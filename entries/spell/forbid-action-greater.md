@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/forbid-action" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "220"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Descriptors: language-dependant, mind-affecting
 :::
 
 ### Greater Forbid Action
-
-**Sources:** Ultimate Magic pg 220
 
 This spell functions as [forbid action](ref/spell/forbid-action), except up to one creature per
 level may be affected. Each creature must receive the same forbidden action.

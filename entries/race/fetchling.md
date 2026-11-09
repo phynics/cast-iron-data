@@ -6,12 +6,20 @@ source_ids = ["inner-sea-races", "bestiary-2", "advanced-race-guide", "blood-of-
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fetchling", path = "json/races3.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "242"
+[[sources]]
+publication = "bestiary-2"
+page = "123"
+[[sources]]
+publication = "advanced-race-guide"
+page = "108"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Inner Sea Races pg 242, Bestiary 2 pg 123, Advanced Race Guide pg 108\
 Descended from humans trapped on the Shadow Plane, fetchlings are creatures of darkness and light
 intertwined. Generations of contact with that strange plane and its denizens have made fetchlings a
 race apart from humanity. While fetchlings acknowledge their origins, they exhibit little physical

@@ -6,6 +6,9 @@ source_ids = ["undead-unleashed"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "void_crystal", path = "json/magic_artifact3.json" },
 ]
+[[sources]]
+publication = "undead-unleashed"
+page = "4"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong necromancy"
 caster_level = "15th"
 +++
 
-**Sources:** Undead Unleashed pg 4\
 **Aura** strong necromancy; **CL** 15th\
 **Slot** none; **Price** -; **Weight** 160 lbs.
 

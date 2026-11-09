@@ -6,6 +6,9 @@ source_ids = ["halflings-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "whip_slinger", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "halflings-of-golarion"
+page = "23"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ normal = "Slings and double slings are ranged weapons, do not threaten areas, an
 +++
 
 ## Whip-Slinger (Combat)
-
-**Sources:** Halflings of Golarion pg 23
 
 You can use your sling as a sap to make attacks of opportunity.\
 **Prerequisites:** Proficient with [sling](ref/eq-weapon/sling).\

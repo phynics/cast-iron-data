@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/monk" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "40"
 
 [fields]
 kind = "archetype"
 replaces = ["Stunning fist", "Maneuver training", "Abundant step", "quivering palm"]
 +++
 
-**Sources:** Inner Sea Combat pg 40\
 When Tian monks founded the Monastery of the Seven Forms near the present border between Qadira and
 Taldor, they did so as a challenge to prospective students to travel great distances and prove their
 devotion before training within the monastery's walls. Over the centuries, the monastery has fallen

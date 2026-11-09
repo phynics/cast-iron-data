@@ -6,6 +6,9 @@ source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crusaders_edge", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "53"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: no
 Target: melee weapon touched
 Descriptors: good
 :::
-
-**Sources:** Inner Sea Magic pg 53
 
 This spell was created by the paladins of the Mendevian Crusades, and co-opted by inquisitors and
 rangers dedicated to tracking and fighting demons, devils, and other evil extraplanar creatures.

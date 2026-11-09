@@ -6,14 +6,18 @@ source_ids = ["pirates-of-the-inner-sea", "skull-and-shackles-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boarding_pike", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "pirates-of-the-inner-sea"
+page = "19"
+[[sources]]
+publication = "skull-and-shackles-players-guide"
+page = "6"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "9 lbs."
 +++
-
-**Sources:** Pirates of the Inner Sea pg 19, Skull and Shackles Player's Guide pg 6
 
 A boarding pike is an 8-foot-long pole topped with a foot-long tapered metal tip. Boarding pikes
 look much like [longspears](ref/eq-weapon/longspear), but the metal pike is designed to flow into

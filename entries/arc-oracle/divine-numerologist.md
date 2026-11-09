@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/oracle" },
 ]
+[[sources]]
+publication = "disciples-doctrine"
+page = "17"
 
 [fields]
 kind = "archetype"
 replaces = ["The bonus spells gained at 10th, 12th, 14th, 16th, and 18th levels from the oracle's mystery", "1st- and 7th-level revelations"]
 +++
 
-**Sources:** Disciple's Doctrine pg 17\
 The Oracular Council of Po Li and those trained in their sacred methods often include divine
 numerologists, who use esoteric mathematics and numbers traditions to peer into the past and future
 and extract meaningful portents. The divine numerologist's ultimate goal is to learn and understand

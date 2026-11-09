@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "throw_anything", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "135"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ normal = "You take a -4 penalty on attack rolls made with an improvised weapon."
 +++
 
 ## Throw Anything (Combat)
-
-**Sources:** PRPG Core Rulebook pg 135
 
 You are used to throwing things you have on hand.\
 **Benefit:** You do not suffer any penalties for using an improvised ranged weapon. You receive a +1

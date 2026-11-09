@@ -6,6 +6,9 @@ source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blight_kickers", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "potions-and-poisons"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Sources:** Potions and Poisons pg 28\
 **Aura** moderate transmutation; **CL** 7th\
 **Slot** feet; **Price** 13,500 gp; **Weight** 1 lb.
 

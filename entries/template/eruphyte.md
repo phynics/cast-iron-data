@@ -6,6 +6,9 @@ source_ids = ["pathfinder-142-gardens-of-gallowspire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eruphyte", path = "json/monster_template1.json" },
 ]
+[[sources]]
+publication = "pathfinder-142-gardens-of-gallowspire"
+page = "66"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +1
-
-**Source:** Pathfinder \#142: Gardens of Gallowspire/66
 
 The [Astral Plane](ref/rule/astral-plane), the realm of thought and higher consciousness, hosts two
 vulnerable sources of information: astral bodies connected to spellcasters' physical forms by

@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "balor_whip", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "80"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "Balor Whip counts as Improved Drag for the purpose of qualifying for 
 +++
 
 ## Balor Whip (Combat)
-
-**Sources:** Villain Codex pg 80
 
 You can drag distant foes toward you with your whip.\
 **Prerequisites:** [Weapon Focus](ref/feat/weapon-focus) (whip),

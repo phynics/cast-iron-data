@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cyanide", path = "json/equipment_poisons.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-darklands"
+page = "29"
 
 [fields]
 kind = "item"
@@ -13,8 +16,6 @@ category = "Poisons"
 price = "4,000 gp"
 weight = "&mdash;"
 +++
-
-**Sources:** Heroes of the Darklands pg 29
 
 **Price** 4,000 gp; **Weight** —
 

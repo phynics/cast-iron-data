@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snapping_turtle_clutch", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "120"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While you are using the Snapping Turtle Style feat, the shield bonus 
 +++
 
 ## Snapping Turtle Clutch (Combat)
-
-**Sources:** Ultimate Combat pg 120
 
 Your unarmed style allows you to turn your opponent's attack into an opportunity.\
 **Prerequisites:** [Snapping Turtle Style](ref/feat/snapping-turtle-style),

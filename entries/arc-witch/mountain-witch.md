@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/witch" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "132"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["2nd-level hex"]
 alters = ["Hex"]
 +++
 
-**Sources:** Advanced Class Guide pg 132\
 Mountains can be sanctuaries for witches hunted by society. Here they form bonds with the spirits of
 the lofty reaches.
 

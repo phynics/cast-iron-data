@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vomit_twin", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "119"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: no
 Effect: creates one ooze duplicate of the caster
 Subschool: Creation, Teleportation
 :::
-
-**Sources:** Advanced Race Guide pg 119
 
 > _[Goblins](ref/race/goblin) have access to the following spell._
 

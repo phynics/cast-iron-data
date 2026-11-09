@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "20"
 
 [fields]
 kind = "archetype"
 replaces = ["Bardic knowledge", "Countersong", "Inspire competence", "Suggestion", "Mass suggestion", "Versatile performance", "Lore master"]
 +++
 
-**Sources:** Ultimate Intrigue pg 20\
 Not merely an entertainer in a disguise, the masked performer takes on the persona represented by
 the likeness she wears. Her alter ego might be a theatrical archetype, a legendary hero, or a
 revered spirit. Masked performers are often the stars of religious plays and festivals, and

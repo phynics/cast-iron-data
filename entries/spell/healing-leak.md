@@ -6,6 +6,9 @@ source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "healing_leak", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "plane-hoppers-handbook"
+page = "13"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: Will negates
 Spell resistance: yes
 Target: creature touched
 :::
-
-**Sources:** Plane-Hopper's Handbook pg 13
 
 Whenever the target is affected by a spell or effect that heals hit point damage through the use of
 positive or negative energy, it regains only half the number of hit points it normally would

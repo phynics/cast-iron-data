@@ -8,12 +8,13 @@ parent = "ref/npcclass/commoner"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "json/npc_classes.json#commoner|section:commoner", path = "json/npc_classes.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "449"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 449
 
 **Hit Die:** d6.
 

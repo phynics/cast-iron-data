@@ -6,6 +6,9 @@ source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shark_leap", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
+page = "58"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While in Shark Style, when you're underwater with neutral, rising, or
 +++
 
 ## Shark Leap (Combat)
-
-**Sources:** Aquatic Adventures pg 58
 
 Like a deadly predator, you bolt at unsuspecting foes from below.\
 **Prerequisites:** [Improved Unarmed Strike](ref/feat/improved-unarmed-strike),

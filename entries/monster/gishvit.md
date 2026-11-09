@@ -6,6 +6,9 @@ source_ids = ["pathfinder-127-crownfall"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gishvit", path = "json/monsters12.json" },
 ]
+[[sources]]
+publication = "pathfinder-127-crownfall"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ bookmark protrudes menacingly from its open pages._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#127: Crownfall pg 84\
 **Subtype:** Extraplanar, Lawful
 
 **Size:** tiny

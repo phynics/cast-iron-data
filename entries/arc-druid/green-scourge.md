@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "monster-hunters-handbook"
+page = "7"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Nature sense", "Trackless step", "Resist nature's lure"]
 alters = ["Spontaneous casting"]
 +++
 
-**Sources:** Monster Hunter's Handbook pg 7\
 Green scourges are militant druids sworn to restore natural order. They're less concerned with
 nurturing the natural world than most druids, instead focusing their efforts on slaying corrupted
 creatures.

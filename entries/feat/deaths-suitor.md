@@ -6,6 +6,9 @@ source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deaths_suitor", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "faction-guide"
+page = "56"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Once per day, you may reroll a save or skill check if failure has a c
 +++
 
 ## Death's Suitor (Faction)
-
-**Sources:** Faction Guide pg 56
 
 You have died and returned so often that even Pharasma now deems it part of your fate.\
 **Prerequisites:** [Risen Guard](ref/rule/f-second-life) 20 TPA.\

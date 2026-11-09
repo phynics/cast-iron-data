@@ -6,6 +6,9 @@ source_ids = ["pathfinder-43-haunting-of-harrowstone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spirit_planchette_silver", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "pathfinder-43-haunting-of-harrowstone"
+page = "19"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "9th"
 
 ## Spirit Planchette
 
-**Sources:** Pathfinder \#43: Haunting of Harrowstone pg 19\
 **Aura** moderate divination; **CL** 9th\
 **Slot** none; **Price** 4,000 gp (Brass), 10,000 gp (Cold Iron), 18,000 gp (Silver); **Weight** 5
 lbs.

@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_healing", path = "json/magic_staff.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "197"
+[[sources]]
+publication = "core-rulebook"
+page = "494"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate conjuration"
 caster_level = "8th"
 +++
 
-**Sources:** Ultimate Equipment pg 197, PRPG Core Rulebook pg 494\
 **Aura** moderate conjuration; **CL** 8th\
 **Slot** none; **Price** 29,600 gp; **Weight** 5 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hand_wraps_of_blinding_ki", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "faiths-and-philosophies"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Faiths and Philosophies pg 30\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** hands; **Price** 10,000 gp; **Weight** 1 lb.
 

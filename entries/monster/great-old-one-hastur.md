@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "great_old_one_hastur", path = "json/monsters_unique2.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "140"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ with unsettling, inhuman grace._
 
 **Senses:** Darkvision 60 ft., True seeing
 
-**Sources:** Bestiary 4 pg 140\
 **Subtype:** Chaotic, Evil, Great Old One
 
 **Experience points:** 6,553,600

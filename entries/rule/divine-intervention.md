@@ -6,12 +6,13 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divine_intervention", path = "json/rules_campaign_types09.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "70"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Planar Adventures pg 70
 
 In the Pathfinder Roleplaying Game, elements of divine intervention occur when the GM steps in to
 change the flow of play, be it by arbitrarily assigning die roll results, reversing entire events,

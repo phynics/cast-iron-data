@@ -6,6 +6,12 @@ source_ids = ["book-of-the-damned", "book-of-the-damned-volume-3-horsemen-of-the
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "awaken_the_devoured", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "183"
+[[sources]]
+publication = "book-of-the-damned-volume-3-horsemen-of-the-apocalypse"
+page = "38"
 
 [fields]
 kind = "spell"
@@ -49,9 +55,6 @@ Spell resistance: yes
 Target: one daemon per 4 caster levels
 Descriptors: pain
 :::
-
-**Sources:** Book of the Damned pg 183, Book of the Damned - Volume 3: Horsemen of the Apocalypse pg
-38
 
 This spell is often used by conjurers as a method to torment daemons and force compliance, for it
 awakens the broken, anguished memories of the countless souls that the target daemons have consumed.

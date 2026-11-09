@@ -6,12 +6,13 @@ source_ids = ["lands-of-conflict"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "upkeep_phase_m", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "lands-of-conflict"
+page = "54"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Lands of Conflict pg 54
 
 The key to the militia's growth is to constantly run drills and regimens to increase its training
 score. To do this, the PCs must perform the [Drill Militia](ref/rule/drill-militia) action during

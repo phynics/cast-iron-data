@@ -6,6 +6,9 @@ source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spectrum_sight", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "occult-origins"
+page = "25"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ prerequisite_feats = ["ref/feat/alertness"]
 benefit = "You can perform the read aura occult skill unlock even if you can't use psychic magic. If you can cast psychic spells or have the Psychic Sensitivity feat, you can use read aura one additional time per day."
 special = "If you have a ki pool, you can expend 1 point from your ki pool as a swift action to gain one additional daily use of the read aura occult skill unlock."
 +++
-
-**Sources:** Occult Origins pg 25
 
 Your pursuit of dispassionate perfection gives you unmatched insight into the condition of others.\
 **Prerequisites:** [Alertness](ref/feat/alertness), Perception 5 ranks.\

@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wolf_style", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "121"
+[[sources]]
+publication = "blood-of-the-moon"
+page = "25"
 
 [fields]
 kind = "feat"
@@ -16,8 +22,6 @@ benefit = "While using this style, whenever you deal at least 10 points of damag
 +++
 
 ## Wolf Style (Combat, Style)
-
-**Sources:** Ultimate Wilderness pg 121, Blood of the Moon pg 25
 
 While in this style, you hamper foes that turn their backs on you.\
 **Prerequisites:** Wis 13, [Improved Unarmed Strike](ref/feat/improved-unarmed-strike), Knowledge

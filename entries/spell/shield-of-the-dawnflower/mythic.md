@@ -6,12 +6,13 @@ source_ids = ["mythic-origins"]
 relations = [
   { kind = "addon", target = "ref/spell/shield-of-the-dawnflower", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-origins"
+page = "13"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Origins pg 13
 
 The disk of sunlight protects you as a buckler with a +1 enhancement bonus per 4 caster levels
 (maximum +5).

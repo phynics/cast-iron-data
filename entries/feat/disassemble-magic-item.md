@@ -6,6 +6,9 @@ source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disassemble_magic_item", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "faction-guide"
+page = "56"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can break a magic item down into component pieces. These pieces a
 +++
 
 ## Disassemble Magic Item (Faction)
-
-**Sources:** Faction Guide pg 56
 
 You can take apart and reassemble magic items.\
 **Prerequisites:** Any item creation feat, [Aspis Consortium](ref/rule/f-profiteers) 20 TPA.\

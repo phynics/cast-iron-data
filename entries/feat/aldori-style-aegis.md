@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aldori_style_aegis", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "24"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using Aldori Style, at the beginning of your turn, you can desi
 +++
 
 ## Aldori Style Aegis (Combat)
-
-**Sources:** Adventurer's Guide pg 24
 
 Baron Aldori's dueling style is at its strongest when employed in one-on-one duels. Adjusting to a
 reverse grip and keeping your blade in motion, you parry your rival's strikes with ease.\

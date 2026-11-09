@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "invoke_deity", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "41"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Planar Adventures pg 41
 
 By holding aloft a holy symbol and calling your deity's name, you take on an aspect of that
 divinity. When you cast this spell, choose a domain offered by your deity. You gain that domain's

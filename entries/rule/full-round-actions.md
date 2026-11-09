@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "full_round_actions", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "187"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 187
 
 A full-round action requires an entire round to complete. Thus, it can't be coupled with a standard
 or a move action, though if it does not involve moving any distance, you can take a 5-foot step.

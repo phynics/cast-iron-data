@@ -6,6 +6,9 @@ source_ids = ["pathfinder-144-midwives-to-death"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nocticula_redeemed", path = "json/faiths6.json" },
 ]
+[[sources]]
+publication = "pathfinder-144-midwives-to-death"
+page = "78"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Nocticula (Redeemed)**
 
 **Sub:** The Redeemer Queen
-
-**Sources:** Pathfinder \#144: Midwives to Death pg 78
 
 ### Details
 

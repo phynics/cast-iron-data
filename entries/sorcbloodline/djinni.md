@@ -6,13 +6,15 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "djinni", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "66"
 
 [fields]
 kind = "class_option"
 group = "sorcerer-bloodline"
 +++
 
-**Sources:** Ultimate Magic pg 66\
 You were born with the power of air genies, and the magic of the [djinn](ref/monster/genie-djinni)
 is strong in you.
 

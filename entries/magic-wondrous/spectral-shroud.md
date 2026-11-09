@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spectral_shroud", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "222"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Equipment pg 222\
 **Aura** moderate necromancy; **CL** 5th\
 **Slot** chest; **Price** 26,000 gp; **Weight** -
 

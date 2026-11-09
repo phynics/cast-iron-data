@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aldori_style", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "24"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using Aldori Style and wielding only a single Aldori dueling sw
 +++
 
 ## Aldori Style (Combat, Style)
-
-**Sources:** Adventurer's Guide pg 24
 
 You have learned the classic Aldori dueling stance.\
 **Prerequisites:** [Alertness](ref/feat/alertness),

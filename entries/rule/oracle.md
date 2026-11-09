@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oracle", path = "json/rules_opt_pc_adv01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "91"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 91
 
 A character who chooses [oracle](ref/class/oracle) as her secondary class gains the following
 secondary class features.

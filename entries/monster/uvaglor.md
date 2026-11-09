@@ -6,6 +6,9 @@ source_ids = ["demons-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "uvaglor", path = "json/monsters_unique4.json" },
 ]
+[[sources]]
+publication = "demons-revisited"
+page = "62"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ sphere of violet crystal in the other._
 
 **Senses:** Darkvision 60 ft., True seeing
 
-**Sources:** Demons Revisited pg 62\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 307,200

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spellbreaker", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "134"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ normal = "Enemies that fail to cast spells defensively do not provoke attacks of
 +++
 
 ## Spellbreaker (Combat)
-
-**Sources:** PRPG Core Rulebook pg 134
 
 You can strike at enemy spellcasters who fail to cast defensively when you threaten them.\
 **Prerequisites:** [Disruptive](ref/feat/disruptive), 10th-level fighter.\

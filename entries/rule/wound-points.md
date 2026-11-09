@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wound_points", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "206"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 206
 
 Typically a creature has a number of wound points equal to twice its Constitution score. It also has
 a wound threshold equal to its Constitution score.

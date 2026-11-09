@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/dimensional-lock", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "91"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 91\
 The spell doesn't interfere with your extradimensional travel spells and effects.
 
 _Augmented (4th):_ You can augment mythic dimensional lock to redirect teleporting creatures to

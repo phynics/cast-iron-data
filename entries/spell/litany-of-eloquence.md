@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "litany_of_eloquence", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "234"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Target: one creature
 Subschool: Charm
 Descriptors: language-dependant, mind-affecting
 :::
-
-**Sources:** Ultimate Combat pg 234
 
 Your litany is a fascinating diatribe of grace, causing your target to do nothing but listen. The
 target is fascinated. As usual, obvious danger prevents fascination and potential danger grants a

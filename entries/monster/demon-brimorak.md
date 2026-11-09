@@ -6,6 +6,12 @@ source_ids = ["bestiary-6", "book-of-the-damned-volume-2-lords-of-chaos"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_brimorak", path = "json/monsters29.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "83"
+[[sources]]
+publication = "book-of-the-damned-volume-2-lords-of-chaos"
+page = "56"
 
 [fields]
 kind = "creature"
@@ -46,7 +52,6 @@ hooves._
 
 **Size:** small
 
-**Sources:** Bestiary 6 pg 83, Book of the Damned - Volume 2: Lords of Chaos pg 56\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 1,600

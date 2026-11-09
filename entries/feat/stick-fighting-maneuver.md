@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stick_fighting_maneuver", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "12"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When making a full attack using only clubs, a quarterstaff, dan bongs
 +++
 
 ## Stick-Fighting Maneuver (Combat)
-
-**Sources:** Martial Arts Handbook pg 12
 
 Your attacks with sticks have become blindingly fast, and you can throw in a combat maneuver between
 your attacks.\

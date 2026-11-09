@@ -6,6 +6,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wisdom_of_jatembe_three_warriors_edition", path = "json/equipment_spellbooks.json" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "12"
 
 [fields]
 kind = "item"
@@ -20,8 +23,6 @@ bolted to the front cover. A foreword filling the first several pages of this bo
 consequences of using spells without careful consideration. The rest of the book contains spells,
 each proceeded and followed by one or more stories discussing situations with thematic links to the
 spell._
-
-**Sources:** Arcane Anthology pg 12
 
 **Value** 375 gp (875 gp with the preparation ritual)
 

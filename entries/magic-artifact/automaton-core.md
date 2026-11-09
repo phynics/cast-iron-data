@@ -6,6 +6,9 @@ source_ids = ["construct-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "automaton_core", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "construct-handbook"
+page = "16"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation"
 caster_level = "20th"
 +++
 
-**Sources:** Construct Handbook pg 16\
 **Aura** strong transmutation; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 1 lb.
 

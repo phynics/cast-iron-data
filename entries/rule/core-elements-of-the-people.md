@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "core_elements_of_the_people", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "148"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 148
 
 The GM can place each of the following elements on a spectrum; religion, for instance, can produce
 both fanatics and agnostics, and trade can consist of simple barter or complex financial instruments

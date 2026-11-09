@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brutal_coup_de_grace", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "83"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you deliver a coup de grace with the selected weapon and kill th
 +++
 
 ## Brutal Coup de Grace (Combat)
-
-**Sources:** Horror Adventures pg 83
 
 Your killing blows are so brutal that they scare other foes.\
 **Prerequisites:** [Dazzling Display](ref/feat/dazzling-display),

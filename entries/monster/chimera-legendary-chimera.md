@@ -6,6 +6,9 @@ source_ids = ["mythical-monsters-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chimera_legendary_chimera", path = "json/monsters05.json" },
 ]
+[[sources]]
+publication = "mythical-monsters-revisited"
+page = "9"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ a ram, and a red dragon's head sprouting from its tail._
 
 **Senses:** All-around vision, Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Mythical Monsters Revisited pg 9\
 **Experience points:** 25,600
 
 **Armor class:** 26/8/26

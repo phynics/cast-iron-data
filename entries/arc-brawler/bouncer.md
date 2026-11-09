@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/brawler" },
 ]
+[[sources]]
+publication = "inner-sea-taverns"
+page = "58"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["The bonus feat gained at 2nd level"]
 alters = ["Martial flexibility", "Close weapon mastery"]
 +++
 
-**Sources:** Inner Sea Taverns pg 58\
 Some taverns employ bouncers to keep out undesirables or for when their customers get too rowdy.
 
 > **Note:** This archetype extensively uses the optional [Bar Fights](ref/rule/bar-fights) rules.

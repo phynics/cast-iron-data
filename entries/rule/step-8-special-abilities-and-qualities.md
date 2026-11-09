@@ -6,12 +6,13 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "step_8_special_abilities_and_qualities", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "292"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder RPG Bestiary pg 292
 
 Monsters are different from characters in that they can have all sorts of different special
 abilities and qualities. Each of these is tied closely to the creature's concept, allowing it to

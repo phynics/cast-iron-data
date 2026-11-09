@@ -6,14 +6,15 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aura_flare", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "82"
 
 [fields]
 kind = "feat"
 prerequisites = "Cha 13; aura, aura of good, or aura of evil class feature; channel energy 4d6; strong or overwhelming good or evil aura."
 benefit = "Once per day, when you channel energy, you are also able to cause your divine aura to flare in a display of overwhelming force, affecting all good creatures within the aura (if you channel negative energy) or all evil creatures in the aura (if you channel positive energy). This effect is in addition to the normal effects of channeling energy. When you flare your aura, select from one of the following options based on the strength of your alignment aura. You can select a lower-strength effect."
 +++
-
-**Sources:** Horror Adventures pg 82
 
 You are able to flare your alignment aura to debilitate your foes.\
 **Prerequisites:** Cha 13; aura, aura of good, or aura of evil class feature;

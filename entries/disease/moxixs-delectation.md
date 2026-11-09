@@ -6,12 +6,13 @@ source_ids = ["pathfinder-58-island-of-empty-eyes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "moxixs_delectation", path = "json/diseases.json" },
 ]
+[[sources]]
+publication = "pathfinder-58-island-of-empty-eyes"
+page = "67"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder \#58: Island of Empty Eyes pg 67
 
 **Type:** Disease (Injury)
 

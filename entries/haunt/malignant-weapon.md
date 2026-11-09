@@ -6,12 +6,14 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "malignant_weapon", path = "json/haunts.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "231"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Occult Adventures pg 231\
 Sometimes a weapon that slays a powerful [witch](ref/class/witch) or [hag](ref/family/hag) becomes
 tainted by the victim's malignant hatred. Although haunted weapons often still bear holy marks from
 the original owners or relics like bones from a revered saint, these are never sufficient to contain

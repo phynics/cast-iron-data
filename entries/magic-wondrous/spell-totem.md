@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_totem", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "blood-of-the-moon"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "13th"
 +++
 
-**Sources:** Blood of the Moon pg 31\
 **Aura** moderate evocation; **CL** 13th\
 **Slot** none; **Price** 12,000 gp; **Weight** -
 

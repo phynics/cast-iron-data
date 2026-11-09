@@ -6,6 +6,12 @@ source_ids = ["ultimate-intrigue", "taldor-echoes-of-glory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "raucous_canard", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "251"
+[[sources]]
+publication = "taldor-echoes-of-glory"
+page = "27"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint transmutation"
 caster_level = "1st"
 +++
 
-**Sources:** Ultimate Intrigue pg 251, Taldor, Echoes of Glory pg 27\
 **Aura** faint transmutation; **CL** 1st\
 **Slot** none; **Price** 100 gp; **Weight** -
 

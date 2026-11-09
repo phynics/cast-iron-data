@@ -6,12 +6,14 @@ source_ids = ["distant-shores"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "waning_light_festival", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "distant-shores"
+page = "53"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Distant Shores pg 53\
 **School** divination; **Level** 8\
 **Casting Time** 9 hours\
 **Components** V, S, F (each caster must wear a ceremonial costume worth 500 gp), SC (up to 12)\

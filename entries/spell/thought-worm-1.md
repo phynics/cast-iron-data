@@ -6,6 +6,9 @@ source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thought_worm_1", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "11"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Psychic Anthology pg 11
 
 You implant a minor suggestion within the target creature's psyche that makes it less inclined to
 resist mental intrusion. The target creature takes a -2 penalty on Will saves against all

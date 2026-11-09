@@ -6,14 +6,15 @@ source_ids = ["belkzen-hold-of-the-orc-hordes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "harvester", path = "json/equipment_siege_engines.json" },
 ]
+[[sources]]
+publication = "belkzen-hold-of-the-orc-hordes"
+page = "39"
 
 [fields]
 kind = "item"
 category = "Siege Engines"
 weight = "-"
 +++
-
-**Sources:** Belkzen, Hold of the Orc Hordes pg 39
 
 A variety of scythe-like blades extend from two sides of this wheeled machine. When it's pulled -
 typically by an aurochs or enslaved giants - the wheels' rotation causes the blades to slash

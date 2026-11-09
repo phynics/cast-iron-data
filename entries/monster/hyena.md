@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hyena", path = "json/monsters14.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "179"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ _This hyena is covered in shaggy, tan-colored fur with black and brown stripes._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 179\
 **Experience points:** 400
 
 **Armor class:** 14/12/12

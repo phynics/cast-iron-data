@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "simple_weapon_proficiency", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "133"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "All characters except for commoners, druids, monks, unchained monks, 
 +++
 
 ## Simple Weapon Proficiency (Combat)
-
-**Sources:** PRPG Core Rulebook pg 133
 
 You are trained in the use of basic weapons.\
 **Benefit:** You make attack rolls with simple weapons without penalty.\

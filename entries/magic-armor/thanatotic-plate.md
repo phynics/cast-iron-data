@@ -6,6 +6,9 @@ source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thanatotic_plate", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "197"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration [evil]"
 caster_level = "15th"
 +++
 
-**Sources:** Book of the Damned pg 197\
 **Aura** strong abjuration \[evil\]; **CL** 15th\
 **Slot** armor; **Price** 141,240 gp; **Weight** 50 lbs.
 

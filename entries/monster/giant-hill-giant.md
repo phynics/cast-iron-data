@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_hill_giant", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "150"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ brutish and backwoods lifestyle._
 
 **Senses:** Low-light vision
 
-**Sources:** Pathfinder RPG Bestiary pg 150\
 **Subtype:** Giant
 
 **Experience points:** 3,200

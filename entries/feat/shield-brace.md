@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/shield-focus", label = "or" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "19"
 
 [fields]
 kind = "feat"
@@ -19,8 +22,6 @@ benefit = "You can use a two-handed weapon sized appropriately for you from the 
 +++
 
 ## Shield Brace (Combat, Shield Mastery)
-
-**Sources:** Armor Master's Handbook pg 19
 
 You've mastered the art of balancing a polearm's weight against a shield's stability.\
 **Prerequisites:** [Shield Focus](ref/feat/shield-focus); base attack bonus +3 or fighter level 1st;

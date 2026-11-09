@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wisdom", path = "json/rules_basics01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "16"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 16
 
 Wisdom describes a character's willpower, common sense, awareness, and intuition. Wisdom is the most
 important ability for clerics and druids, and it is also important for paladins and rangers. If you

@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "recharge_innate_magic", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "39"
 
 [fields]
 kind = "spell"
@@ -53,8 +56,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Advanced Race Guide pg 39
 
 > _[Gnomes](ref/race/gnome) have access to the following spell._
 

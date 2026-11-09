@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "puzzles_and_riddles", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "248"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 248
 
 While ancient ciphers and cunning sphinxes fill the pages of great fantasy tales, crafting a
 workable and believable puzzle that adds an air of mystery can be a challenge. What makes a great

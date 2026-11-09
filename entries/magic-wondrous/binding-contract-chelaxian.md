@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "binding_contract_chelaxian", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "229"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong enchantment"
 caster_level = "14th"
 +++
 
-**Sources:** Inner Sea Races pg 229\
 **Aura** strong enchantment; **CL** 14th\
 **Slot** none; **Price** 7,500 gp; **Weight** 1/2 lb.
 

@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "metamagic", path = "json/rules_opt_magic01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "145"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 145
 
 When using a metamagic feat to modify a spell cast from a spell pool, the caster is treated as if he
 were a spontaneous caster (increasing the casting time to a full-round action if applicable). The

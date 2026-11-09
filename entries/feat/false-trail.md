@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "false_trail", path = "json/feat06.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "111"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Survival 3 ranks."
 benefit = "You can create a false trail in the wilderness via a combination of misleading footprints, discarded items, torn scraps of clothing, and other signs. When you create a false trail, you determine the direction it leads. A creature tracking you must succeed at a Perception or Survival check (DC = 10 + half your character level + your Wisdom modifier) to determine the trail is fake when first encountering it. On a success, the creature can continue to track you as normal. The effect of a failure to identify the trail as false depends on the time and effort spent making it."
 normal = "A normal false trail takes 1 hour to complete. A creature that fails to identify the trail as false follows it for 1d4 miles."
 +++
-
-**Sources:** Ultimate Wilderness pg 111
 
 You create a false trail to throw off pursuers, enabling you to increase your lead on those
 following you or make them lose your trail entirely.\

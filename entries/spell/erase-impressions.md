@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "erase_impressions", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "170"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: Will negates (object)
 Spell resistance: yes (object)
 Target: object touched
 :::
-
-**Sources:** Occult Adventures pg 170
 
 You banish psychic impressions from the object touched, rendering it devoid of recent history. You
 choose how much time to erase, up to a maximum of 1 day per caster level. You must erase impressions

@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lighting_ha", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "204"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 204
 
 Dimming the lights can go a long way in creating a moodier environment. Shadows add an air of the
 unknown, and cause everyday distractions to fade away. Make sure that the players can see, though -

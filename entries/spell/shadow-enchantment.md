@@ -6,6 +6,9 @@ source_ids = ["occult-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_enchantment", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "occult-realms"
+page = "17"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Effect: see text
 Subschool: Shadow
 Descriptors: shadow
 :::
-
-**Sources:** Occult Realms pg 17
 
 You use material from the Shadow Plane to cast a quasi-real, illusory version of a psychic,
 sorcerer, or wizard enchantment spell of 2nd level or lower. Spells that deal damage or have other

@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "killing_flourish", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "152"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you reduce your target to below 0 hit points with a melee attack
 +++
 
 ## Killing Flourish (Combat)
-
-**Sources:** Advanced Class Guide pg 152
 
 You inspire dread in other foes when you slay an enemy.\
 **Prerequisites:** [Intimidating Prowess](ref/feat/intimidating-prowess), Intimidate 4 ranks, slayer

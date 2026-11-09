@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "description_um", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "134"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 134
 
 The description is the meat of the spell, and what you put here is the most important information of
 all.

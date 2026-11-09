@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "leadership", path = "json/rules_rulesets01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "130"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 130
 
 Social interactions and the bonds between people are some of the most important elements in any
 story. One of the best ways to portray those ties and bring a supporting cast of NPCs to life is

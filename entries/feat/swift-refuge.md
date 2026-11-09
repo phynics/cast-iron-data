@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swift_refuge", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "11"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Once per day when using Swift Iron Style, when you're hit by a weapon
 +++
 
 ## Swift Refuge (Combat)
-
-**Sources:** Armor Master's Handbook pg 11
 
 You quickly turn, forcing devastating blows to be blunted by the thickest part of your armor.\
 **Prerequisites:** Str 13, Dex 13, [Swift Iron Style](ref/feat/swift-iron-style), proficiency with

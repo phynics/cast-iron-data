@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/reverse-gravity", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "105"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 105\
 Creatures in the area or that enter the area must succeed at a Fortitude save or be nauseated.
 
 _Augmented (8th):_ If you expend three uses of mythic power, once per round as a move action you may

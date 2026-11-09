@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "megafauna_titanoboa", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "185"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ eagerly for the scent of prey._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Bestiary 6 pg 185\
 **Experience points:** 25,600
 
 **Armor class:** 28/4/26

@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "silversheen", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "319"
+[[sources]]
+publication = "core-rulebook"
+page = "529"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Equipment pg 319, PRPG Core Rulebook pg 529\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** none; **Price** 250 gp; **Weight** -
 

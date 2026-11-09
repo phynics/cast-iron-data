@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brute_stomp", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "83"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using Brute Style, when you make a full attack with a prone opp
 +++
 
 ## Brute Stomp (Combat)
-
-**Sources:** Horror Adventures pg 83
 
 Few can avoid the brutal violence of your bone-crushing kicks and stomps.\
 **Prerequisites:** Str 19, Int 13, [Brute Style](ref/feat/brute-style),

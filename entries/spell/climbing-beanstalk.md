@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "climbing_beanstalk", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "177"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: no
 Effect: 5-ft. square of climbable beanstalks
 Subschool: Creation
 :::
-
-**Sources:** Advanced Class Guide pg 177
 
 You cause a thick, sturdy beanstalk to sprout from the ground and grow upward to a height of 10
 feet + 5 feet per 2 caster levels. The growing stalk anchors itself to sturdy objects such as walls

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/endure-elements" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "228"
 
 [fields]
 kind = "spell"
@@ -59,8 +62,6 @@ Target: creature touched
 :::
 
 ### Communal Endure Elements
-
-**Sources:** Ultimate Combat pg 228
 
 This spell functions like [endure elements](ref/spell/endure-elements), except you divide the
 duration in 1-hour increments among the creatures touched.

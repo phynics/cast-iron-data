@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "victory_rout_or_defeat", path = "json/rules_campaign_types05.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "239"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 239
 
 An army is victorious if all of its enemy armies flee the battlefield or are defeated. The aftermath
 of the battle can be different for each army, and depends on whether it was defeated, routed, or

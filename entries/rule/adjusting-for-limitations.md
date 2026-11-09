@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "adjusting_for_limitations", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "66"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 66
 
 Before a game even begins, players have the opportunity to work with the GM to create the characters
 that they want to play and that best serve the game. Occasionally, though, a group's particular mix

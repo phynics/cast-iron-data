@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nightmare", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "216"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ and its hooves spray sparks._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 216\
 **Subtype:** Evil, Extraplanar
 
 **Experience points:** 1,600

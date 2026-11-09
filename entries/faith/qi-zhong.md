@@ -6,6 +6,9 @@ source_ids = ["dragon-empires-gazetteer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "qi_zhong", path = "json/faiths7.json" },
 ]
+[[sources]]
+publication = "dragon-empires-gazetteer"
+page = "58"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Qi Zhong**
 
 **Sub:** Master of Medicine
-
-**Sources:** Dragon Empires Gazetteer pg 58
 
 ### Details
 

@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clear_grove", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-wild"
+page = "30"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: none
 Spell resistance: no
 Effect: 20-ft.-radius clearing
 :::
-
-**Sources:** Heroes of the Wild pg 30
 
 Trees, shrubs, and other thick vegetation move out of the spell's area. The affected area is cleared
 of all vegetation thick enough to provide cover or concealment. This also creates a hole in any tree

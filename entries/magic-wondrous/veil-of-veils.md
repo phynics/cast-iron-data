@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "veil_of_veils", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "271"
+[[sources]]
+publication = "gods-and-magic"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint illusion"
 caster_level = "3rd"
 +++
 
-**Sources:** Inner Sea Gods pg 271, Gods and Magic pg 60\
 **Aura** faint illusion; **CL** 3rd\
 **Slot** head; **Price** 3,300 gp; **Weight** -
 

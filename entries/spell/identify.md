@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/detect-magic" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "299"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Saving throw: none
 Spell resistance: no
 Area: cone-shaped emanation
 :::
-
-**Sources:** PRPG Core Rulebook pg 299
 
 This spell functions as [detect magic](ref/spell/detect-magic), except that it gives you a +10
 enhancement bonus on Spellcraft checks made to identify the properties and command words of magic

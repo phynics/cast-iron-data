@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horn_of_blasting_greater", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "302"
+[[sources]]
+publication = "core-rulebook"
+page = "519"
 
 [fields]
 kind = "item"
@@ -19,7 +25,6 @@ caster_level = "7th (normal), 16th (greater)"
 
 ## Horn of Blasting
 
-**Sources:** Ultimate Equipment pg 302, PRPG Core Rulebook pg 519\
 **Aura** moderate (normal) or string (greater) evocation; **CL** 7th (normal), 16th (greater)\
 **Slot** none; **Price** 20,000 gp (normal), 70,000 gp (greater); **Weight** 1 lb.
 

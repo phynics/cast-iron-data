@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "helm_of_the_valkyrie", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "230"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration"
 caster_level = "14th"
 +++
 
-**Sources:** Advanced Class Guide pg 230\
 **Aura** strong conjuration; **CL** 14th\
 **Slot** head; **Price** 16,000 gp; **Weight** 3 lbs.
 

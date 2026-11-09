@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/oracle" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "63"
 
 [fields]
 kind = "archetype"
 replaces = ["Bonus skills from the oracle's mystery", "The bonus spells gained at 2nd, 4th, 6th, 10th, and 12th levels from the oracle's mystery"]
 +++
 
-**Sources:** Advanced Race Guide pg 63\
 The community guardian is chosen to protect and succor the weak and innocent within her community.
 Her calling also allows her to draw upon and focus the collective will in order to achieve those
 goals. A community guardian has the following class features.

@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jutte", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "18"
+[[sources]]
+publication = "ultimate-combat"
+page = "131"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "1 lb."
 +++
-
-**Sources:** Ultimate Equipment pg 18, Ultimate Combat pg 131
 
 This baton-like weapon is fitted with a metal hook that can be used to block and pin an opponent's
 weapon. Some variations are tipped with a sharpened metal spike or blade.

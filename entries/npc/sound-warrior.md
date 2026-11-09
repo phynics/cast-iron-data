@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sound_warrior", path = "json/npcs8.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "229"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "12"
 
 **Challenge rating:** 12
 
-**Sources:** NPC Codex pg 229\
 **XP** 19,200\
 Halfling [bard](ref/class/bard) 5/[druid](ref/class/druid) 4/mystic theurge 4\
 N Small humanoid (halfling)\

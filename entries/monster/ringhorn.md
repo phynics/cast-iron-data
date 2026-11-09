@@ -6,6 +6,9 @@ source_ids = ["pathfinder-115-trail-of-the-hunted"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ringhorn", path = "json/monsters20.json" },
 ]
+[[sources]]
+publication = "pathfinder-115-trail-of-the-hunted"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ atop its head._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Pathfinder \#115: Trail of the Hunted pg 82\
 **Experience points:** 400
 
 **Armor class:** 13/13/10

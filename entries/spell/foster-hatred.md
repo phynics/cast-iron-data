@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "foster_hatred", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "172"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Target: any number of living creatures, no two of which can be more than 30 ft. 
 Subschool: Compulsion
 Descriptors: emotion
 :::
-
-**Sources:** Occult Adventures pg 172
 
 You build upon your targets' innate prejudice, stoking it from a simmer to the full flame of hatred.
 Choose a creature type (if you choose humanoid or outsider, you must also choose a subtype). Targets

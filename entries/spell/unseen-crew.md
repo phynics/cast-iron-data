@@ -6,6 +6,9 @@ source_ids = ["pirates-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unseen_crew", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "pirates-of-the-inner-sea"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: no
 Effect: one invisible sailor per level
 Subschool: Creation
 :::
-
-**Sources:** Pirates of the Inner Sea pg 29
 
 An unseen crew member is an invisible, shapeless force that performs the duties of one crew member.
 It can tie off ropes, hoist sails, swab decks, and other such duties. An unseen crew member

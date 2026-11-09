@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mesmerizing_feint", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "137"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ normal = "When feinting against a non-humanoid, you take a -4 penalty. Against a
 +++
 
 ## Mesmerizing Feint (Combat)
-
-**Sources:** Occult Adventures pg 137
 
 You're adept at feinting against even the least imaginative of creatures.\
 **Prerequisites:** Hypnotic stare class feature.\

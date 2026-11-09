@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/dance-of-a-hundred-cuts" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "216"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Target: you
 :::
 
 ### Dance of a Thousand Cuts
-
-**Sources:** Ultimate Magic pg 216
 
 This spell functions as [dance of a hundred cuts](ref/spell/dance-of-a-hundred-cuts), except you
 also gain the benefits of haste.

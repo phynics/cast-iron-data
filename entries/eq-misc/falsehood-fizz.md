@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "falsehood_fizz", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "236"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "190 gp"
 weight = "-"
 +++
 
-**Sources:** Ultimate Intrigue pg 236\
 **Price** 190 gp; **Weight** -\
 **Category** Alchemical Tools
 

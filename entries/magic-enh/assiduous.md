@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "assiduous", path = "json/magic_enhancements.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint enchantment and conjuration"
 caster_level = "1st"
 +++
 
-**Sources:** Armor Master's Handbook pg 30\
 **Aura** faint enchantment and conjuration; **CL** 1st\
 **Slot** shield quality; **Price** +1 bonus; **Weight** -
 

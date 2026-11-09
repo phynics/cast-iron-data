@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_fox", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "112"
+[[sources]]
+publication = "ultimate-magic"
+page = "117"
 
 [fields]
 kind = "creature"
@@ -36,7 +42,6 @@ abilities = ["9", "15", "13", "2", "12", "6"]
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Bestiary 3 pg 112, Ultimate Magic pg 117\
 **Size:** tiny
 
 **Experience points:** 100

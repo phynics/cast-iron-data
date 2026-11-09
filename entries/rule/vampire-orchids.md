@@ -6,12 +6,13 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vampire_orchids", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "150"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Wilderness pg 150
 
 **CR 3**
 

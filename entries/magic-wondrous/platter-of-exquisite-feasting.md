@@ -6,6 +6,9 @@ source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "platter_of_exquisite_feasting", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "55"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "1st"
 +++
 
-**Sources:** Inner Sea Intrigue pg 55\
 **Aura** faint transmutation; **CL** 1st\
 **Slot** none; **Price** 250 gp; **Weight** 1 lb.
 

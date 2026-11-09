@@ -6,6 +6,9 @@ source_ids = ["halflings-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jinxed_spell", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "halflings-of-golarion"
+page = "27"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Any creature that fails its saving throw against a jinxed spell also 
 +++
 
 ## Jinxed Spell (Metamagic)
-
-**Sources:** Halflings of Golarion pg 27
 
 You can make a creature that fails its spell save suffer your jinx as well.\
 **Prerequisites:** Any two metamagic feats, Halfling Jinx trait.\

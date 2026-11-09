@@ -6,14 +6,21 @@ source_ids = ["ranged-tactics-toolbox", "core-rulebook", "ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dart", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "0"
+[[sources]]
+publication = "core-rulebook"
+page = "142"
+[[sources]]
+publication = "ultimate-equipment"
+page = "17"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "0.5 lb."
 +++
-
-**Sources:** Ranged Tactics Toolbox pg 0, PRPG Core Rulebook pg 142, Ultimate Equipment pg 17
 
 This thrown weapon is larger than an arrow and shorter than a javelin, with a weighted tip and a
 shorter range than a javelin. Most darts are wooden shafts with a thick metal point.

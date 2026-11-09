@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/shaman" },
 ]
+[[sources]]
+publication = "heroes-of-the-darklands"
+page = "22"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Shaman hex gained at 8th level", "Manifestation"]
 alters = ["Spirit animal", "Wandering spirit"]
 +++
 
-**Sources:** Heroes of the Darklands pg 22\
 Crystal tenders are most often found among subterranean races and races bearing a strong connection
 to the earth. A crystal tender focuses on the spirits of metal and stone, using crystals as a means
 to focus the power of the spirits she venerates. Many crystal tenders take it upon themselves to

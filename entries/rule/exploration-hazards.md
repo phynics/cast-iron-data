@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "exploration_hazards", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "158"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 158
 
 Hazards are dangerous obstacles or events relevant to a hex's terrain type. They represent the
 natural disasters, harsh weather, and bad luck that can befall an expedition, and are included to

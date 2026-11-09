@@ -6,6 +6,9 @@ source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "khains_army", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "57"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: no
 Effect: 1d4+1 ghouls and 1 ghast
 Descriptors: evil
 :::
-
-**Sources:** Inner Sea Magic pg 57
 
 Originally created by the priest-king of Nemret Noktoria, the ghoul Kortash Khain, for use by his
 minions to bolster their forces in battles against their enemies, Khain's army has become a favorite

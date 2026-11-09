@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soultether_ring", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "49"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong necromancy"
 caster_level = "17th"
 +++
 
-**Sources:** Planar Adventures pg 49\
 **Aura** strong necromancy; **CL** 17th\
 **Slot** ring; **Price** 8,000 gp; **Weight** -
 

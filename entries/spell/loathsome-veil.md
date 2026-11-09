@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "loathsome_veil", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "227"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Effect: transparent pattern 40 ft. long, 20 ft. high
 Subschool: Pattern
 Descriptors: mind-affecting
 :::
-
-**Sources:** Ultimate Magic pg 227
 
 This spell creates a transparent veil of shifting, multicolored strands of light that form into
 endlessly varied and alien patterns. One side of the veil, chosen by you at the time of casting, is

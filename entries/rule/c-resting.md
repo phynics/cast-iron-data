@@ -6,12 +6,14 @@ source_ids = ["jade-regent-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "c_resting", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "jade-regent-players-guide"
+page = "24"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Jade Regent Player's Guide pg 24\
 A caravan must rest for 12 hours after 12 hours of travel to avoid becoming fatigued. In order to
 gain the restorative effects of resting, the caravan must consume a total number of provisions equal
 to the caravan's consumption score; otherwise, no benefits are gained from rest. A caravan that

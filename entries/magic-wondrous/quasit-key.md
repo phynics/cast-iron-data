@@ -6,6 +6,9 @@ source_ids = ["pathfinder-78-city-of-locusts"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quasit_key", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "pathfinder-78-city-of-locusts"
+page = "63"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration (teleportation)"
 caster_level = "13th"
 +++
 
-**Sources:** Pathfinder \#78: City of Locusts pg 63\
 **Aura** strong conjuration (teleportation); **CL** 13th\
 **Slot** none; **Price** 70,000 gp; **Weight** 12 lbs.
 

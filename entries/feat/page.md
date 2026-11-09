@@ -6,14 +6,15 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "page", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "134"
 
 [fields]
 kind = "feat"
 prerequisites = "Character level 4th, proficiency with martial weapons."
 benefit = "This feat is similar to the Leadership feat, with several exceptions. You can attract only a 1st-level cohort (referred to hereafter as a page) with this feat, and can't recruit followers. You determine your Leadership score according to the rules presented in the Leadership feat, but your page is always at least 3 levels lower than your level."
 +++
-
-**Sources:** Ultimate Intrigue pg 134
 
 You recruit a page who heralds your approach and has the ability to smooth the path of your
 diplomatic missions.\

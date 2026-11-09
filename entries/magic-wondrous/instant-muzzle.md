@@ -6,6 +6,9 @@ source_ids = ["animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "instant_muzzle", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "animal-archive"
+page = "27"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment and transmutation"
 caster_level = "9th"
 +++
 
-**Sources:** Animal Archive pg 27\
 **Aura** moderate enchantment and transmutation; **CL** 9th\
 **Slot** none; **Price** 6,500 gp; **Weight** 4 lbs.
 

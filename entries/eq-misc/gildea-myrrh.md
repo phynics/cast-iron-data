@@ -6,6 +6,9 @@ source_ids = ["qadira-jewel-of-the-east"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gildea_myrrh", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "qadira-jewel-of-the-east"
+page = "33"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "50 gp"
 weight = "-"
 +++
 
-**Sources:** Qadira, Jewel of the East pg 33\
 **Price** 50 gp; **Weight** -\
 **Category** Alchemical Remedies
 

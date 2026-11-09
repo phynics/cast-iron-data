@@ -6,6 +6,9 @@ source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blight_siphoner", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "merchants-manifest"
+page = "20"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Sources:** Merchant's Manifest pg 20\
 **Aura** faint conjuration; **CL** 5th\
 **Slot** none; **Price** 2,200 gp; **Weight** -
 

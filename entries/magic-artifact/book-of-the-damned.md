@@ -6,6 +6,12 @@ source_ids = ["book-of-the-damned", "artifacts-and-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "book_of_the_damned", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "4"
+[[sources]]
+publication = "artifacts-and-legends"
+page = "14"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "overwhelming all schools [chaotic, evil, lawful]"
 caster_level = "25th"
 +++
 
-**Sources:** Book of the Damned pg 4, Artifacts and Legends pg 14\
 **Aura** overwhelming all schools \[chaotic, evil, lawful\]; **CL** 25th\
 **Slot** none; **Price** -; **Weight** 40 lbs.
 

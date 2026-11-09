@@ -6,6 +6,9 @@ source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "casters_tattoo_greater", path = "json/magic_tattoo.json" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "16"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "5th"
 
 ## Caster's Tattoo
 
-**Sources:** Inner Sea Magic pg 16\
 **Aura** faint evocation; **CL** 5th\
 **Slot** none; **Price** 6,000 gp (Lesser), 21,000 gp (Normal), 48,000 gp (Greater); **Weight** -
 

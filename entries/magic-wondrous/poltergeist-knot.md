@@ -6,6 +6,9 @@ source_ids = ["daughters-of-fury"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "poltergeist_knot", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "daughters-of-fury"
+page = "62"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Daughters of Fury pg 62\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** none; **Price** 650 gp; **Weight** 1/2 lb.
 

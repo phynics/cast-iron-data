@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hollow_rod", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "254"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong (no school)"
 caster_level = "15th"
 +++
 
-**Sources:** Occult Adventures pg 254\
 **Aura** strong (no school); **CL** 15th\
 **Slot** none; **Price** 121,500 gp; **Weight** 5 lbs.
 

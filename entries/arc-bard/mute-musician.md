@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "horror-realms"
+page = "9"
 
 [fields]
 kind = "archetype"
 replaces = ["Bardic knowledge", "Inspire competence", "Frightening tune", "Inspire heroics", "Mass suggestion", "Versatile performance", "Well-versed", "Jack-of-all-trades"]
 +++
 
-**Sources:** Horror Realms pg 9\
 A mute musician forswears speech for the unnatural songs and thunderous silences of the depths of
 space. She learns to blend light and sound in seemingly impossible ways. Some mute musicians look to
 the darker aspects of [Desna](ref/faith/desna) as their inspiration for these performances, but most

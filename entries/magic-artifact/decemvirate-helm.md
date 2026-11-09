@@ -6,6 +6,12 @@ source_ids = ["artifacts-and-legends", "pathfinder-society-field-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "decemvirate_helm", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "artifacts-and-legends"
+page = "58"
+[[sources]]
+publication = "pathfinder-society-field-guide"
+page = "51"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong abjuration"
 caster_level = "20th"
 +++
 
-**Sources:** Artifacts and Legends pg 58, Pathfinder Society Field Guide pg 51\
 **Aura** strong abjuration; **CL** 20th\
 **Slot** head; **Price** -; **Weight** 3 lbs.
 

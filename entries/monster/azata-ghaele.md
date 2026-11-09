@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "azata_ghaele", path = "json/monsters27.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "25"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ crackling with power._
 
 **Senses:** Darkvision 60 ft., Detect evil, Low-light vision, See invisibility
 
-**Sources:** Pathfinder RPG Bestiary pg 25\
 **Subtype:** Azata, Chaotic, Extraplanar, Good, Shapechanger
 
 **Experience points:** 25,600

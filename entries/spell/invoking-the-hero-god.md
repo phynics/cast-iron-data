@@ -6,12 +6,14 @@ source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "invoking_the_hero_god", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "occult-origins"
+page = "26"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Occult Origins pg 26\
 **School** transmutation; **Level** 7\
 **Casting Time** 70 minutes\
 **Components** V, S, M (mixture of wine, outsider's blood, and cedar ash worth 5,000 gp total), F

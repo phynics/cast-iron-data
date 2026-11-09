@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "qlippoth_thognorok", path = "json/monsters37.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "305"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ hairy, wriggling legs._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Inner Sea Gods pg 305\
 **Subtype:** Aquatic, Chaotic, Evil, Extraplanar, Qlippoth
 
 **Experience points:** 1,200

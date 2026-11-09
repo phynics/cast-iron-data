@@ -6,6 +6,9 @@ source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_vendetta", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "giant-hunters-handbook"
+page = "13"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Choose one kind of giant (such as hill or stone); you must choose a k
 +++
 
 ## Giant Vendetta (Story)
-
-**Sources:** Giant Hunter's Handbook pg 13
 
 Your life has been shaped by an encounter with giants.\
 **Prerequisites:** You must have been knocked unconscious in an encounter with a challenging giant

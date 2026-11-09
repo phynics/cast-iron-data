@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elephant", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "81"
+[[sources]]
+publication = "adventurers-armory"
+page = "19"
 
 [fields]
 kind = "item"
@@ -14,7 +20,6 @@ price = "1,000 gp"
 weight = "5 tons"
 +++
 
-**Sources:** Ultimate Equipment pg 81, Adventurer's Armory pg 19\
 **Price** 1,000 gp; **Weight** 5 tons\
 **Category** Mounts/Pets
 

@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "akashic_communion", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "16"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Saving throw: none
 Spell resistance: no
 Effect: see text
 :::
-
-**Sources:** Magic Tactics Toolbox pg 16
 
 You attempt to obtain a glimpse of some specific event from the Akashic Record, the extraplanar
 repository of all experiences that have ever occurred. This allows you to attempt one Knowledge

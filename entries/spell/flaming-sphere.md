@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flaming_sphere", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "283"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: yes
 Effect: 5-ft.-diameter sphere
 Descriptors: fire
 :::
-
-**Sources:** PRPG Core Rulebook pg 283
 
 A burning globe of fire rolls in whichever direction you point and burns those it strikes. It moves
 30 feet per round. As part of this movement, it can ascend or jump up to 30 feet to strike a target.

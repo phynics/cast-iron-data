@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "haunted_gnome_assault", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "104"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You gain one use of your gnome magic that is independent of your gnom
 +++
 
 ## Haunted Gnome Assault (Combat)
-
-**Sources:** Ultimate Combat pg 104
 
 Discharging your disturbing glamer as you strike a telling blow, you haunt a foe with lingering
 fear.\

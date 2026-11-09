@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "other_societies", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "158"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 158
 
 The cultures presented in the preceding sections are broad categories, and certainly not the only
 ones available to a fantasy world. Others have flowered from similar beginnings and taken

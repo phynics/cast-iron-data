@@ -6,6 +6,9 @@ source_ids = ["heaven-unleashed"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "helicyon", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "heaven-unleashed"
+page = "18"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "overwhelming varied"
 caster_level = "28"
 +++
 
-**Sources:** Heaven Unleashed pg 18\
 **Aura** overwhelming varied; **CL** 28\
 **Slot** none; **Price** -; **Weight** 4
 

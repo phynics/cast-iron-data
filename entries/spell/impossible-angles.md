@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "impossible_angles", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "121"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: yes
 Area: contiguous area up to one 5-foot cube/caster level (S)
 Subschool: Figment
 :::
-
-**Sources:** Horror Adventures pg 121
 
 You cause the surrounding area to appear to distort. The angles and corners of the area subtly twist
 and contort, creating unnatural and impossible shapes. Any creature entering the area must succeed

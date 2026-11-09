@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "settlements_in_play", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "203"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 203
 
 The best way to handle a settlement in your game, of course, is to plan it out, placing every shop
 and every home, naming every NPC, and mapping every building. Yet settlements are the most

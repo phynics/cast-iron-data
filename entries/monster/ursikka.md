@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "pathfinder-70-the-frozen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ursikka", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "261"
+[[sources]]
+publication = "pathfinder-70-the-frozen-stars"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ mouth that drips viscous fluid._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Bestiary 5 pg 261, Pathfinder \#70: The Frozen Stars pg 88\
 **tremorsense:** 30
 
 **Experience points:** 9,600

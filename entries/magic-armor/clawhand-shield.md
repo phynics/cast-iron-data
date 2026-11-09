@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clawhand_shield", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "211"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "9th"
 +++
 
-**Sources:** Advanced Class Guide pg 211\
 **Aura** moderate necromancy; **CL** 9th\
 **Slot** shield; **Price** 8,158 gp; **Weight** 8 lbs.
 

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/fighter" },
 ]
+[[sources]]
+publication = "blood-of-the-ancients"
+page = "27"
 
 [fields]
 kind = "archetype"
 replaces = ["Bravery", "Bonus feats gained at 2nd and 12th level", "Armor mastery", "Weapon mastery"]
 +++
 
-**Sources:** Blood of the Ancients pg 27\
 As staunch believers in the value of higher ground, the Shory developed special fighting styles that
 capitalize on fighting from above. While many dismiss such techniques as a niche tactic, aerial
 assaulters leap to great heights and create higher ground where there is none.

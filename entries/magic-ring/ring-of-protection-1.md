@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_protection_1", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "172"
+[[sources]]
+publication = "core-rulebook"
+page = "479"
 
 [fields]
 kind = "item"
@@ -19,7 +25,6 @@ caster_level = "5th"
 
 ## Ring of Protection
 
-**Sources:** Ultimate Equipment pg 172, PRPG Core Rulebook pg 479\
 **Aura** faint abjuration; **CL** 5th\
 **Slot** ring; **Price** 2,000 gp (+1), 8,000 gp (+2), 18,000 gp (+3), 32,000 gp (+4), 50,000 gp
 (+5); **Weight** -

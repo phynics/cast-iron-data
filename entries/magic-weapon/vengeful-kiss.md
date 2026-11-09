@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vengeful_kiss", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "257"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint illusion, necromancy, and transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Inner Sea Gods pg 257\
 **Aura** faint illusion, necromancy, and transmutation; **CL** 5th\
 **Slot** none; **Price** 11,501 gp; **Weight** 2 lbs.
 

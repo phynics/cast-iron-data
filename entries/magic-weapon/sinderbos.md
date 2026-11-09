@@ -6,6 +6,9 @@ source_ids = ["pathfinder-104-wrath-of-thrune"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sinderbos", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "pathfinder-104-wrath-of-thrune"
+page = "42"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ slot = "none"
 aura = "moderate conjuration and evocation"
 +++
 
-**Sources:** Pathfinder \#104: Wrath of Thrune pg 42\
 **Aura** moderate conjuration and evocation; **CL**\
 **Slot** none; **Price** 12,312 gp; **Weight** 5 lbs.
 

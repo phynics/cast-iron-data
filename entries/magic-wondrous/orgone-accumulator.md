@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "orgone_accumulator", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "261"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Sources:** Occult Adventures pg 261\
 **Aura** moderate conjuration; **CL** 7th\
 **Slot** none; **Price** 48,000 gp; **Weight** 150 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disengaging_feint", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "96"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "As a standard action, use Bluff to feint against an opponent. Instead
 +++
 
 ## Disengaging Feint (Combat)
-
-**Sources:** Ultimate Combat pg 96
 
 You can feint to disengage from combat.\
 **Prerequisites:** Int 13, [Combat Expertise](ref/feat/combat-expertise),

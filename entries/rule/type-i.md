@@ -6,12 +6,13 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "type_i", path = "json/rules_adv_gm07.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "368"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Equipment pg 368
 
 Rewards from this type of treasure represent the kinds of items that might be found in the vault of
 an entire community of creatures or in the hoard of a mighty beast such as a dragon. While this

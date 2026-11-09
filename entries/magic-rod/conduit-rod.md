@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "conduit_rod", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "178"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "12th"
 +++
 
-**Sources:** Ultimate Equipment pg 178\
 **Aura** moderate abjuration; **CL** 12th\
 **Slot** none; **Price** 12,000 gp; **Weight** 5 lbs.
 

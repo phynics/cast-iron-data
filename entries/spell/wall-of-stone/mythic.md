@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/wall-of-stone", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "112"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 112\
 The wall is 1 inch thick per 2 caster levels. The wall's [hardness](ref/umr/hardness) increases
 to 12.
 

@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blink_dog", path = "json/monsters27.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "47"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ to dance upon its fur._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Bestiary 2 pg 47\
 **Experience points:** 600
 
 **Armor class:** 14/12/12

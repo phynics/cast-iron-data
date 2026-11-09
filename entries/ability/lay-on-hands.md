@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lay_on_hands", path = "json/class_abilities6.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** PRPG Core Rulebook\
 Beginning at 2nd level, a [paladin](ref/class/paladin) can heal wounds (her own or those of others)
 by touch. Each day she can use this ability a number of times equal to 1/2 her paladin level plus
 her Charisma modifier. With one use of this ability, a paladin can heal 1d6 hit points of damage for

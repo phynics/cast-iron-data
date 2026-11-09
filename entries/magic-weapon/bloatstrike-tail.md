@@ -6,6 +6,9 @@ source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloatstrike_tail", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "kobolds-of-golarion"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Kobolds of Golarion pg 30\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** none; **Price** 5,901 gp; **Weight** 4 lbs.
 

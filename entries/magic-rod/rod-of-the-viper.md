@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rod_of_the_viper", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "184"
+[[sources]]
+publication = "core-rulebook"
+page = "485"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate necromancy"
 caster_level = "10th"
 +++
 
-**Sources:** Ultimate Equipment pg 184, PRPG Core Rulebook pg 485\
 **Aura** moderate necromancy; **CL** 10th\
 **Slot** none; **Price** 19,000 gp; **Weight** 5 lbs.
 

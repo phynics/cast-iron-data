@@ -6,12 +6,20 @@ source_ids = ["bestiary-6", "occult-bestiary", "darklands-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "munavri", path = "json/races2.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "197"
+[[sources]]
+publication = "occult-bestiary"
+page = "34"
+[[sources]]
+publication = "darklands-revisited"
+page = "37"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Bestiary 6 pg 197, Occult Bestiary pg 34, Darklands Revisited pg 37\
 These pale humanoids, who hail from the distant shores of strange subterranean oceans, have long
 warred against the encroaching [urdefhans](ref/monster/urdefhan). Munavris pilot violet-sailed,
 intricately carved ivory ships across the inky black depths of underground oceans and are adept at

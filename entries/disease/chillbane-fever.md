@@ -6,12 +6,13 @@ source_ids = ["irrisen-land-of-eternal-winter"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chillbane_fever", path = "json/diseases.json" },
 ]
+[[sources]]
+publication = "irrisen-land-of-eternal-winter"
+page = "48"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Irrisen - Land of Eternal Winter pg 48
 
 **Type:** Disease (Inhaled, injury)
 

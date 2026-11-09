@@ -6,6 +6,15 @@ source_ids = ["ultimate-equipment", "core-rulebook", "curse-of-the-riven-sky"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_hat_of_disguise", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "243"
+[[sources]]
+publication = "core-rulebook"
+page = "516"
+[[sources]]
+publication = "curse-of-the-riven-sky"
+page = "30"
 
 [fields]
 kind = "item"
@@ -19,7 +28,6 @@ caster_level = "1st (normal), 3rd (greater)"
 
 ## Hat of Disguise
 
-**Sources:** Ultimate Equipment pg 243, PRPG Core Rulebook pg 516, Curse of the Riven Sky pg 30\
 **Aura** faint illusion; **CL** 1st (normal), 3rd (greater)\
 **Slot** head; **Price** 1,800 gp (normal), 12,000 gp (greater); **Weight** -
 

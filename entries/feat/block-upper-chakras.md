@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "block_upper_chakras", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "28"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Block Chakras, Psychic Sensitivity, ki pool, character level 8t
 prerequisite_feats = ["ref/feat/block-chakras", "ref/feat/psychic-sensitivity"]
 benefit = "When you use Block Chakras, you can also select from the heart, throat, brow, and crown chakras, as long as you can open the chosen chakra yourself, with the following effects."
 +++
-
-**Sources:** Martial Arts Handbook pg 28
 
 You can block additional chakras.\
 **Prerequisites:** [Block Chakras](ref/feat/block-chakras),

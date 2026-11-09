@@ -6,6 +6,9 @@ source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mursha", path = "json/faiths6.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "130"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Mursha**
 
 **Sub:** Beastmaster
-
-**Sources:** Book of the Damned pg 130
 
 ### Details
 

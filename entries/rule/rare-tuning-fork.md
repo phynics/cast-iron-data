@@ -6,12 +6,13 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rare_tuning_fork", path = "json/rules_campaign_types09.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "86"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Planar Adventures pg 86
 
 A rare tuning fork is one attuned to an obscure demiplane, a demiplane that is simply difficult to
 travel to due to its nature, or a demiplane that is particularly small and insignificant. Planes

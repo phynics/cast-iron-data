@@ -6,6 +6,9 @@ source_ids = ["occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tenebrous_blight", path = "json/monsters23.json" },
 ]
+[[sources]]
+publication = "occult-bestiary"
+page = "55"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ around its enormous cap._
 
 **Type:** plant
 
-**Sources:** Occult Bestiary pg 55\
 **Experience points:** 2,400
 
 **Armor class:** 20/8/20

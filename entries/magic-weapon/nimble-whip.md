@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nimble_whip", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "25"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Dirty Tactics Toolbox pg 25\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** none; **Price** 5,005 gp; **Weight** 2 lbs.
 

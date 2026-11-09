@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "downtime_activities", path = "json/rules_subsystems02.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "84"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 84
 
 This section provides many examples of activities you can undertake during downtime. Some of these
 are new, and others expand on options from the Core Rulebook or other sourcebooks to explain how

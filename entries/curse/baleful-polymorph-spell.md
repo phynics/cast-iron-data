@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "baleful_polymorph_spell", path = "json/curses.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "556"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 556
 
 **Type:** Curse (Curse, spell)
 

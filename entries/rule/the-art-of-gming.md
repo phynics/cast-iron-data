@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_art_of_gming", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "28"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 28
 
 As a Game Master, you already know what's expected. You have some players, you've designed an
 adventure full of cunning threats, wild terrain, and a big clever twist, and you're ready to

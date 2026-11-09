@@ -6,6 +6,9 @@ source_ids = ["pathfinder-60-from-hells-heart"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enervating_pistol", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "pathfinder-60-from-hells-heart"
+page = "54"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong necromancy [death]"
 caster_level = "13th"
 +++
 
-**Sources:** Pathfinder \#60: From Hell's Heart pg 54\
 **Aura** strong necromancy \[death\]; **CL** 13th\
 **Slot** none; **Price** 51,300 gp; **Weight** 4 lbs.
 

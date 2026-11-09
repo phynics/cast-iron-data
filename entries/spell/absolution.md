@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "absolution", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "203"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: none
 Spell resistance: no
 Target: living creature touched
 :::
-
-**Sources:** Ultimate Intrigue pg 203
 
 You purge impure thoughts from the target's mind and fill him with exultant relief at the
 forgiveness of his sins. Absolution ends all charm or compulsion effects affecting the target

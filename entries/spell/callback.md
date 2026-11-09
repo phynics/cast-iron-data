@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "callback", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "228"
+[[sources]]
+publication = "familiar-folio"
+page = "22"
 
 [fields]
 kind = "spell"
@@ -42,8 +48,6 @@ Spell resistance: yes (harmless)
 Target: your familiar or spirit animal
 Subschool: Teleportation
 :::
-
-**Sources:** Ultimate Wilderness pg 228, Familiar Folio pg 22
 
 If the target takes hit point damage while within range of this spell, it immediately teleports to
 your space (or adjacent to your space) after the damage is applied. If the target is killed, its

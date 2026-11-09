@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "optional_ways_to_acquire_spellblights", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "94"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 94
 
 GMs may choose to include the following methods of acquiring spellblights.
 

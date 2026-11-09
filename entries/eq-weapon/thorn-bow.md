@@ -6,15 +6,21 @@ source_ids = ["adventurers-armory", "pathfinder-campaign-setting", "conquest-of-
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thorn_bow", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "adventurers-armory"
+page = "18"
+[[sources]]
+publication = "pathfinder-campaign-setting"
+page = "209"
+[[sources]]
+publication = "conquest-of-bloodsworn-vale"
+page = "31"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "2 lbs."
 +++
-
-**Sources:** Adventurer's Armory pg 18, Pathfinder Campaign Setting pg 209, Conquest of Bloodsworn
-Vale pg 31
 
 This polished rosewood bow is studded with thorns and tiny flowers; treat it as a
 [shortbow](ref/eq-weapon/shortbow).

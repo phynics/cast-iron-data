@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/investigator" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "34"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Trapfinding, 3rd-level trap sense boost", "investigator talents gai
 alters = ["Studied combat"]
 +++
 
-**Sources:** Ultimate Intrigue pg 34\
 A hallucinist imbibes magical drugs to expand his mind into the psychedelic world, extending his
 awareness to things he could not normally perceive. While a hallucinist's body sways oddly under the
 effects of his hallucinogen, it grants him strange insights that reveal things to him that others

@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "binding_outsiders", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "101"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 101
 
 One of the most potent tools a spellcasters can wield is the command of summoned creatures; the most
 powerful of these spells call forth allies mightier than mere flesh, reaching from the depths of

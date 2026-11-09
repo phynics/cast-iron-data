@@ -6,12 +6,14 @@ source_ids = ["construct-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "isolation_haunt", path = "json/haunts.json" },
 ]
+[[sources]]
+publication = "construct-handbook"
+page = "49"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Construct Handbook pg 49\
 See the [Haunted Construct](ref/template/haunted-construct) monster template.
 
 **Isolation Haunt**

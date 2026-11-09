@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "entangled", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "567"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 567
 
 **Entangled:** The character is ensnared. Being entangled impedes movement, but does not entirely
 prevent it unless the bonds are anchored to an immobile object or tethered by an opposing force. An

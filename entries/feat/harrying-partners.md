@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "harrying_partners", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "10"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ normal = "The bonus granted by aid another either grants your ally a +2 bonus on
 +++
 
 ## Harrying Partners (Combat, Teamwork)
-
-**Sources:** Melee Tactics Toolbox pg 10
 
 Your movements perfectly synchronize with your ally's to greater effect.\
 **Prerequisites:** Any teamwork feat, base attack bonus +6.\

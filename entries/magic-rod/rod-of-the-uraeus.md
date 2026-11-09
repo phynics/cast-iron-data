@@ -6,6 +6,12 @@ source_ids = ["pathfinder-81-shifting-sands", "osirion-land-of-the-pharaohs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rod_of_the_uraeus", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "pathfinder-81-shifting-sands"
+page = "59"
+[[sources]]
+publication = "osirion-land-of-the-pharaohs"
+page = "25"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate necromancy"
 caster_level = "8th"
 +++
 
-**Sources:** Pathfinder \#81: Shifting Sands pg 59, Osirion, Land of the Pharaohs pg 25\
 **Aura** moderate necromancy; **CL** 8th\
 **Slot** rod; **Price** 14,400 gp; **Weight** 4 lbs.
 

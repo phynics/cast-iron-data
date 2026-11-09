@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pliant_gloves", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "238"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation"
 caster_level = "9th"
 +++
 
-**Sources:** Ultimate Equipment pg 238\
 **Aura** strong transmutation; **CL** 9th\
 **Slot** hands; **Price** 10,000 gp; **Weight** -
 

@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_ash_giant", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "126"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ bulbous tumors._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 3 pg 126\
 **Subtype:** Giant
 
 **Experience points:** 12,800

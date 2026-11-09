@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "zone_of_silence", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "371"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Area: 5-ft.-radius emanation centered on you
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** PRPG Core Rulebook pg 371
 
 By casting zone of silence, you manipulate sound waves in your immediate vicinity so that you and
 those within the spell's area can converse normally, yet no one outside can hear your voices or any

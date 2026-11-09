@@ -6,12 +6,14 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "belated_arrival", path = "json/haunts.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "176"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Adventures pg 176\
 The regret of those who arrived too late to spare others a terrible fate can manifest as a haunt. A
 belated arrival haunt often arises near another haunt or undead, representing the fate that these
 regretful spirits were not fast enough to stop. A belated arrival haunt is often chained to a

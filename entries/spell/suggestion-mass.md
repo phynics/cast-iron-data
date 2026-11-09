@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/suggestion" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "350"
 
 [fields]
 kind = "spell"
@@ -54,8 +57,6 @@ Descriptors: language-dependant, mind-affecting
 :::
 
 ### Mass Suggestion
-
-**Sources:** PRPG Core Rulebook pg 350
 
 This spell functions like [suggestion](ref/spell/suggestion), except that it can affect more
 creatures. The same suggestion applies to all these creatures.

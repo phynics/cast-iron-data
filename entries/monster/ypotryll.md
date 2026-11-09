@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ypotryll", path = "json/monsters41.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "285"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ raw power._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Bestiary 4 pg 285\
 **Experience points:** 51,200
 
 **Armor class:** 29/7/29

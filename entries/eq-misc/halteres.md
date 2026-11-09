@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "halteres", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "30"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "8 gp"
 weight = "24 lbs."
 +++
 
-**Sources:** Martial Arts Handbook pg 30\
 **Price** 8 gp; **Weight** 24 lbs.\
 **Category** Tools
 

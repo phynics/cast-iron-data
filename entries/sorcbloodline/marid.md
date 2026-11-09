@@ -6,13 +6,15 @@ source_ids = ["ultimate-magic", "blood-of-the-elements"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "marid", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "68"
 
 [fields]
 kind = "class_option"
 group = "sorcerer-bloodline"
 +++
 
-**Sources:** Ultimate Magic pg 68\
 You were born with the power of water genies, and the magic of the [marids](ref/monster/genie-marid)
 is strong in you.
 

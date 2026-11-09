@@ -6,6 +6,12 @@ source_ids = ["bestiary-6", "occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychic_stalker", path = "json/monsters37.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "216"
+[[sources]]
+publication = "occult-bestiary"
+page = "45"
 
 [fields]
 kind = "creature"
@@ -44,7 +50,6 @@ visible through bone._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 6 pg 216, Occult Bestiary pg 45\
 **Subtype:** Incorporeal
 
 **thoughtsense:** 60

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "incessant_buzzing", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "inner-sea-temples"
+page = "62"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: yes
 Effect: 10-ft.-diameter sphere
 Subschool: Figment
 :::
-
-**Sources:** Inner Sea Temples pg 62
 
 You summon an illusory swarm of angry wasps that fills a 10-foot-diameter sphere. You can summon it
 so that it shares an area with other creatures, and you can move it up to 40 feet each round as a

@@ -6,6 +6,9 @@ source_ids = ["the-worldwound"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "warped_one", path = "json/monsters25.json" },
 ]
+[[sources]]
+publication = "the-worldwound"
+page = "62"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ too eager to wreak havoc._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** The Worldwound pg 62\
 **Subtype:** Chaotic, Evil, Extraplanar
 
 **Experience points:** 4,800

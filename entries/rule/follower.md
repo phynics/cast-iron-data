@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "follower", path = "json/rules_adv_pc01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "146"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 146
 
 A follower should be more than an acquaintance or an employee. A follower is devoted to you in the
 same way a cohort is, but has fewer resources at his disposal and in most cases isn't an adventurer.

@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/nightmare", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "102"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 102\
 The spell's damage increases to 4d6 points of damage, and the target is also shaken for 24 hours.
 
 _Augmented (6th):_ You can deliver a mind-affecting spell through a mythic nightmare. The maximum

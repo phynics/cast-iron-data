@@ -6,6 +6,9 @@ source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eroding_ray", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "plane-hoppers-handbook"
+page = "30"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: none
 Spell resistance: no
 Effect: ray
 :::
-
-**Sources:** Plane-Hopper's Handbook pg 30
 
 You channel a fraction of the tumultuous ecosystem of the Hao Jin Tapestry and redirect it through
 your hands as a beam of deteriorating energy. You can fire one ray, plus one additional ray for

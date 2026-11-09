@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/monk" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "6"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Weapon proficiency", "Bonus feats gained at 6th and 10th levels", "
 alters = ["Unarmed strike", "Wholeness of body", "Quivering palm"]
 +++
 
-**Sources:** Martial Arts Handbook pg 6\
 The practices of softstrike monks date back to the peaceful eras of Imperial Lung Wa. Still common
 among warriors today, softstrike monks employ a nonlethal but effective form of combat.
 

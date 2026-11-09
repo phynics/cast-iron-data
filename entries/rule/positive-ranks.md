@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "positive_ranks", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "109"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 109
 
 At these ranks, an organization either doesn't care about the PCs or considers them allies.
 

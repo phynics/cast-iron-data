@@ -6,6 +6,8 @@ source_ids = ["pathfinder-128-songbird-scion-saboteur"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ovetrians_plate", path = "json/magic_relics.json" },
 ]
+[[sources]]
+publication = "pathfinder-128-songbird-scion-saboteur"
 
 [fields]
 kind = "item"
@@ -16,7 +18,6 @@ aura = "strong enchantment"
 caster_level = "15th"
 +++
 
-**Sources:** Pathfinder \#128: Songbird, Scion, Saboteur\
 **Suitable For** PCs of 10th-12th level\
 **Aura** strong enchantment\
 **Slot** armor; **CL** 15th\

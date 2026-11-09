@@ -6,12 +6,14 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_hungering_of_shadows", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "132"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Adventures pg 132\
 **School** evocation; **Level** 9\
 **Casting Time** 1 day\
 **Components** V, S, M ([lavender and green ioun stone](ref/magic-ioun/lavender-and-green-ellipsoid)

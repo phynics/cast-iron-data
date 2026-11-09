@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "damage_reduction", path = "json/misc.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "12"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 12
 
 Creatures that are resistant to harm typically have [damage reduction](ref/rule/damage-reduction).
 This amount is subtracted from any damage dealt to them from a physical source. Most types of DR can

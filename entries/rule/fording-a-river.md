@@ -6,12 +6,13 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fording_a_river", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "148"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Wilderness pg 148
 
 **CR 2**
 

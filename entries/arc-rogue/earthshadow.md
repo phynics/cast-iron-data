@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
+page = "8"
 
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Evasion", "rogue talents gained at 4th, 8th, 12th, and 16th levels"]
 +++
 
-**Sources:** Elemental Master's Handbook pg 8\
 When the dwarves began their Quest for Sky millennia ago to reach the world's surface, they already
 had a deep understanding of the earth's secrets. In the centuries since, the mystic lore the dwarves
 call earthcraft has been passed down through the generations, and its practitioners are called

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/imbue-with-spell-ability" },
 ]
+[[sources]]
+publication = "pathfinder-29-mother-of-flies"
+page = "67"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Duration: permanent until discharged (D)
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 :::
-
-**Sources:** Pathfinder \#29: Mother of Flies pg 67
 
 > _These three spells are associated with [Asmodeus](ref/faith/asmodeus), but there are no
 > restrictions on its use by others._

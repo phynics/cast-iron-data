@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stake_of_the_righteous", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "blood-of-the-night"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation [good]"
 caster_level = "9th"
 +++
 
-**Sources:** Blood of the Night pg 31\
 **Aura** moderate evocation \[good\]; **CL** 9th\
 **Slot** none; **Price** 3,520 gp; **Weight** 2 lbs.
 

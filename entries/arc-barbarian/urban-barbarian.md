@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/barbarian" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "31"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Fast movement"]
 alters = ["Rage"]
 +++
 
-**Sources:** Ultimate Combat pg 31\
 Every barbarian knows that city life can soften the spirit and the body, but some barbarians take on
 the trappings and ways of their adoptive homes and bend their savage powers to its challenges. While
 these urban barbarians' rough edges are smoothed into civility, they can use their primal nature and

@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "necrocraft", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "200"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ predator._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 4 pg 200\
 **Type:** undead
 
 **Experience points:** 800

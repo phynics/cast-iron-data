@@ -6,6 +6,9 @@ source_ids = ["mystery-monsters-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vitreous_goggles", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "mystery-monsters-revisited"
+page = "19"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination and evocation"
 caster_level = "7th"
 +++
 
-**Sources:** Mystery Monsters Revisited pg 19\
 **Aura** moderate divination and evocation; **CL** 7th\
 **Slot** eyes; **Price** 11,200 gp; **Weight** -
 

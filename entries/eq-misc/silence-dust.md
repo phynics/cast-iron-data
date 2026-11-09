@@ -6,6 +6,9 @@ source_ids = ["alchemy-manual"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "silence_dust", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "alchemy-manual"
+page = "15"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "60 gp"
 weight = "1 lb."
 +++
 
-**Sources:** Alchemy Manual pg 15\
 **Price** 60 gp; **Weight** 1 lb.\
 **Category** Alchemical Tools
 

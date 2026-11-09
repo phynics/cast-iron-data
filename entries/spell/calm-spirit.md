@@ -6,6 +6,12 @@ source_ids = ["occult-adventures", "occult-mysteries"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "calm_spirit", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "160"
+[[sources]]
+publication = "occult-mysteries"
+page = "55"
 
 [fields]
 kind = "spell"
@@ -42,8 +48,6 @@ Saving throw: Will negates or none, see text
 Spell resistance: yes
 Target: one incorporeal undead creature or haunt
 :::
-
-**Sources:** Occult Adventures pg 160, Occult Mysteries pg 55
 
 This spell temporarily calms agitated haunts and incorporeal undead such as ghosts. You have no
 control over the affected creatures, but calm spirit postpones hostile action by the affected

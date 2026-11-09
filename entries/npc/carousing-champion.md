@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "carousing_champion", path = "json/npcs2.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "47"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "5"
 
 **Challenge rating:** 5
 
-**Sources:** NPC Codex pg 47\
 **XP** 1,600\
 Halfling [cleric](ref/class/cleric) of [Cayden Cailean](ref/faith/cayden-cailean) 6\
 CN Small humanoid (halfling)\

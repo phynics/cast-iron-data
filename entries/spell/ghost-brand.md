@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghost_brand", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "215"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 Target: one willing creature and one object touched
 Descriptors: shadow
 :::
-
-**Sources:** Ultimate Intrigue pg 215
 
 You alter the fundamental substance of a single object up to 2 cubic feet per level in size and at
 least one size category smaller than the target creature, causing it to become shadowy and

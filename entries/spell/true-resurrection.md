@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/raise-dead" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "362"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: yes
 Target: dead creature touched
 Subschool: Healing
 :::
-
-**Sources:** PRPG Core Rulebook pg 362
 
 This spell functions like [raise dead](ref/spell/raise-dead), except that you can resurrect a
 creature that has been dead for as long as 10 years per caster level. This spell can even bring back

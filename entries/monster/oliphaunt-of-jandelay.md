@@ -6,6 +6,9 @@ source_ids = ["mythic-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oliphaunt_of_jandelay", path = "json/monsters_unique3.json" },
 ]
+[[sources]]
+publication = "mythic-realms"
+page = "58"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ its canyon of a mouth._
 
 **Senses:** Darkvision 60 ft., True seeing
 
-**Sources:** Mythic Realms pg 58\
 **Subtype:** Chaotic, Extraplanar
 
 **Experience points:** 9,830,400

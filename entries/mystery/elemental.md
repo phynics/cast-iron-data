@@ -6,13 +6,14 @@ source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental", path = "json/class_ability_mysteries.json" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
+page = "28"
 
 [fields]
 kind = "class_option"
 group = "oracle-mystery"
 +++
-
-**Sources:** Elemental Master's Handbook pg 28
 
 Elemental oracles gain their powers from forces that balance or blend elements together.
 

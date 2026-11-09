@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chime_of_interruption", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "288"
+[[sources]]
+publication = "core-rulebook"
+page = "506"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Sources:** Ultimate Equipment pg 288, PRPG Core Rulebook pg 506\
 **Aura** moderate evocation; **CL** 7th\
 **Slot** none; **Price** 16,800 gp; **Weight** 1 lb.
 

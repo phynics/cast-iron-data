@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flurry_of_blasts", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "19"
 
 [fields]
 kind = "class_option"
@@ -25,8 +28,6 @@ group = "kineticist-wild-talent"
 **Associated:** any
 
 **Saving throw:** none
-
-**Source:** Occult Adventures/19
 
 Instead of a single kinetic blast, you shoot two kinetic blasts at targets within 120 feet that each
 deal damage as if your kineticist level were 1st (effects or abilities that increase your kinetic

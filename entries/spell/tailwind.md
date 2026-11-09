@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tailwind", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "236"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Spell resistance: yes (harmless)
 Targets: one or more creatures, no two of which can be more than 120 feet apart
 Descriptors: air
 :::
-
-**Sources:** Ultimate Wilderness pg 236
 
 You compel the wind to push the targets in a direction of your choice. The subjects can hustle
 during local and overland movement without risk of fatigue. If the subjects are flying, the first 20

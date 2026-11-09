@@ -6,12 +6,13 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monster_rules", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "5"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder RPG Bestiary pg 5
 
 The creatures in the Pathfinder RPG have been drawn from a wide range of sources, from real-world
 legends and myths (where we get our dragons and [demons](ref/rule/demons), our

@@ -6,6 +6,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "painful_blow", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "31"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you use Vital Strike (or Improved Vital Strike or Greater Vital 
 +++
 
 ## Painful Blow (Combat)
-
-**Sources:** Arcane Anthology pg 31
 
 You have learned how to land blows so painful it is difficult for struck spellcasters to
 concentrate.\

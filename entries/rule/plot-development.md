@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plot_development", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "61"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 61
 
 In real life, players might be justifiably suspicious if a stranger approached them at a bar and
 offered them money to perform a dangerous task. In a game, however, players who scrutinize plot

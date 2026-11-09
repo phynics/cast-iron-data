@@ -6,14 +6,15 @@ source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chain_hammer", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "8"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "8 lbs."
 +++
-
-**Sources:** Adventurer's Armory 2 pg 8
 
 This pair of hammers is linked by a loose chain. While the two hammers are balanced to wield in
 melee together, the chain is long enough that you can throw one hammer a short distance and then

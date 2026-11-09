@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "pathfinder-91-battle-of-bloodmarch-hills"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "megafauna_chalicotherium", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "170"
+[[sources]]
+publication = "pathfinder-91-battle-of-bloodmarch-hills"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -41,7 +47,6 @@ legs._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Bestiary 5 pg 170, Pathfinder \#91: Battle of Bloodmarch Hills pg 86\
 **Experience points:** 2,400
 
 **Armor class:** 18/9/18

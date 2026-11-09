@@ -6,6 +6,9 @@ source_ids = ["the-harrow-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "merciless_beating", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "the-harrow-handbook"
+page = "19"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever you and two or more allies threaten an opponent, you can cho
 +++
 
 ## Merciless Beating (Combat)
-
-**Sources:** The Harrow Handbook pg 19
 
 When you have the numbers on your side, you can lend your strength to the group to give your shared
 enemy a savage pummeling.\

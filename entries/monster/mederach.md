@@ -6,6 +6,9 @@ source_ids = ["pathfinder-105-the-inferno-gate"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mederach", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "pathfinder-105-the-inferno-gate"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ and massive mandibles._
 
 **Senses:** Darkvision 60 ft., Detect evil
 
-**Sources:** Pathfinder \#105: The Inferno Gate pg 88\
 **Subtype:** Chaotic, Extraplanar, Good
 
 **Experience points:** 6,400

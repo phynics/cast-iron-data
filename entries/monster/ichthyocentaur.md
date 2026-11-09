@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ichthyocentaur", path = "json/monsters14.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "146"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ hoofed forelegs trailing into a finned tail._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 5 pg 146\
 **Subtype:** Aquatic
 
 **Experience points:** 1,600

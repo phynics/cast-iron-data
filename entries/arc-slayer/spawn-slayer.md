@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/slayer" },
 ]
+[[sources]]
+publication = "blood-of-the-ancients"
+page = "24"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["The ability to study an opponent as a swift action at 7th level", "
 alters = ["Studied target"]
 +++
 
-**Sources:** Blood of the Ancients pg 24\
 Generations of Ninshaburian warriors fought the Spawn of Rovagug, holding the line against
 impossible odds. Some of their ancient techniques persist to this day.
 

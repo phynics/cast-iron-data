@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jellyfish_jellyfish_swarm", path = "json/monsters34.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "170"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ virtual wall of stinging tentacles._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 2 pg 170\
 **Subtype:** Aquatic, Swarm
 
 **Type:** vermin

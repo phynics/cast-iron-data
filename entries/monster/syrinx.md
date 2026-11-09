@@ -6,6 +6,9 @@ source_ids = ["inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "syrinx", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "inner-sea-bestiary"
+page = "51"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ detachment of the owl it resembles._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Inner Sea Bestiary pg 51\
 **Subtype:** Syrinx\
 **Experience points:** 135
 

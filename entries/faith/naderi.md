@@ -6,6 +6,9 @@ source_ids = ["inner-sea-faiths"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "naderi", path = "json/faiths6.json" },
 ]
+[[sources]]
+publication = "inner-sea-faiths"
+page = "77"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Naderi**
 
 **Sub:** The Lost Maiden
-
-**Sources:** Inner Sea Faiths pg 77
 
 ### Details
 

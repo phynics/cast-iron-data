@@ -6,6 +6,9 @@ source_ids = ["alchemy-manual"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vivifying_moxibustion_needles", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "alchemy-manual"
+page = "25"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "85 gp"
 weight = "-"
 +++
 
-**Sources:** Alchemy Manual pg 25\
 **Price** 85 gp; **Weight** -\
 **Category** Alchemical Remedies
 

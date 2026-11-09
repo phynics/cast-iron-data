@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "illusion_of_calm", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "231"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: no
 Target: you
 Subschool: Figment
 :::
-
-**Sources:** Ultimate Combat pg 231
 
 When casting this spell, you create an illusory double that takes the same space of you. That double
 makes it look like you are standing still, even when you are not. While under the effects of this

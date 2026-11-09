@@ -6,12 +6,12 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lycanthrope", path = "json/monster_families2.json" },
 ]
+[[sources]]
+publication = "bestiary"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder RPG Bestiary
 
 See the [lycanthrope](ref/template/lycanthrope),
 [lycanthropic creature](ref/template/lycanthropic-creature), and

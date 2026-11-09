@@ -6,12 +6,14 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oaths", path = "json/class_abilities5.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "60"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Ultimate Magic pg 60\
 While all paladins have their own codes of conduct, either taught by an order, handed down from the
 gods, or inspired by personal conviction, an oathbound paladin devotes herself to a singular cause,
 which grants her additional powers but also gives further edicts she must follow. An oathbound

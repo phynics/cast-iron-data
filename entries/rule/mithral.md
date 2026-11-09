@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mithral", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "199"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 199
 
 Armor pieces made of mithral are lighter than steel, but are just as hard. Mithral armor pieces are
 less cumbersome to move in. Medium armor pieces that feature a reduced movement do not have a

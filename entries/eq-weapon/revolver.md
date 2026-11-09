@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "revolver", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "43"
+[[sources]]
+publication = "ultimate-combat"
+page = "139"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "4 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 43, Ultimate Combat pg 139
 
 A revolver is a [pistol](ref/eq-weapon/pistol) with a revolving cylinder containing six chambers.
 Each chamber can hold a metal cartridge, and when one cartridge is fired, the cylinder automatically

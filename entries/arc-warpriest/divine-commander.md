@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/warpriest" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "129"
 
 [fields]
 kind = "archetype"
 replaces = ["Blessings", "Bonus feat gained at 3rd level", "Bonus feat gained at 6th level", "Bonus feat gained at 12th level", "Bonus feat gained at 15th level"]
 +++
 
-**Sources:** Advanced Class Guide pg 129\
 Some warpriests are called to lead great armies and face legions of foes. These divine commanders
 live for war and fight for glory. Their hearts quicken at battle cries, and they charge forth with
 their deity's symbol held high. These leaders of armies do so to promote the agenda of their faith,

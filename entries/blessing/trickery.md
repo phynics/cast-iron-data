@@ -6,13 +6,15 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trickery", path = "json/class_ability_blessings.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "68"
 
 [fields]
 kind = "class_option"
 group = "warpriest-blessing"
 +++
 
-**Sources:** Advanced Class Guide pg 68\
 **Deities:** [Asmodeus](ref/faith/asmodeus), [Calistria](ref/faith/calistria),
 [Lamashtu](ref/faith/lamashtu), [Norgorber](ref/faith/norgorber)
 

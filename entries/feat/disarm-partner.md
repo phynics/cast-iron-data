@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disarm_partner", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "93"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When an ally with this feat fails a disarm combat maneuver check made
 +++
 
 ## Disarm Partner (Combat, Teamwork)
-
-**Sources:** Monster Codex pg 93
 
 When your ally fails to disarm an opponent within your reach, you can try to disarm that same foe.\
 **Prerequisites:** Base attack bonus +1.\

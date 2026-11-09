@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beetle_slicer_beetle", path = "json/monsters03.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "44"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ to be remarkably sharp._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 2 pg 44\
 **Type:** vermin
 
 **Experience points:** 1,200

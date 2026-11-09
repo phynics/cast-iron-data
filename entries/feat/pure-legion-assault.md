@@ -6,6 +6,9 @@ source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pure_legion_assault", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "spymasters-handbook"
+page = "23"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You gain a +2 bonus on saving throws against divine spells and effect
 +++
 
 ## Pure Legion Assault (Combat)
-
-**Sources:** Spymaster's Handbook pg 23
 
 The Pure Legion trained you to apply your knowledge of religions to predicting and defeating divine
 servitors.\

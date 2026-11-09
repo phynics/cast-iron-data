@@ -6,6 +6,12 @@ source_ids = ["bestiary-6", "feast-of-dust"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "goezspall", path = "json/monsters12.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "139"
+[[sources]]
+publication = "feast-of-dust"
+page = "62"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ end of each of its stumpy legs._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 6 pg 139, Feast of Dust pg 62\
 **Experience points:** 38,400
 
 **Armor class:** 30/12/27

@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_specialization", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "169"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "You can gain this feat multiple times. Its effects do not stack. Each
 +++
 
 ## Shield Specialization (Combat)
-
-**Sources:** Advanced Player's Guide pg 169
 
 You have mastered the use of one type of shield.\
 **Prerequisites:** Proficiency with selected shield, [Shield Focus](ref/feat/shield-focus), fighter

@@ -6,6 +6,9 @@ source_ids = ["construct-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "suppression_gem", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "construct-handbook"
+page = "19"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment"
 caster_level = "12th"
 +++
 
-**Sources:** Construct Handbook pg 19\
 **Aura** moderate enchantment; **CL** 12th\
 **Slot** none; **Price** 65,000 gp; **Weight** -
 

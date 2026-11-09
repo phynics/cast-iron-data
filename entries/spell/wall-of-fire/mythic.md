@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/wall-of-fire", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "111"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 111\
 The wall's damage increases to 2d6 points of fire damage to creatures within 10 feet, 1d6 points of
 fire damage to those past 10 feet but within 20 feet, and 2d8 points of fire damage + 1 point of
 fire damage per caster level (maximum +20) to any creature passing through it. Any creature that

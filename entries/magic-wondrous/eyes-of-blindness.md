@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eyes_of_blindness", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "345"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ aura = "faint necromancy"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Equipment pg 345\
 **Aura** faint necromancy; **CL** 5th\
 **Slot** eyes; **Weight** -
 

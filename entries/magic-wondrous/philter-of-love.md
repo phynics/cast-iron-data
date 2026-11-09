@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "philter_of_love", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "315"
+[[sources]]
+publication = "advanced-players-guide"
+page = "308"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong enchantment"
 caster_level = "15th"
 +++
 
-**Sources:** Ultimate Equipment pg 315, Advanced Player's Guide pg 308\
 **Aura** strong enchantment; **CL** 15th\
 **Slot** none; **Price** 3,000 gp; **Weight** -
 

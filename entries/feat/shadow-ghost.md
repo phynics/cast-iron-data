@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_ghost", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "112"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Fetchling, shadow walk spell-like ability."
 benefit = "You gain the ability to use *shadow walk* an additional time each day."
 special = "You may select this feat multiple times. Its effects stack."
 +++
-
-**Sources:** Advanced Race Guide pg 112
 
 You can move between the Shadow Plane and the Material Plane more often.\
 **Prerequisites:** [Fetchling](ref/race/fetchling), shadow walk

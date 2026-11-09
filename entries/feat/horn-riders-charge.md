@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horn_riders_charge", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "164"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever you're lashed into a horn harness and you ready an action to
 +++
 
 ## Horn Rider's Charge (Combat)
-
-**Sources:** Monster Codex pg 164
 
 When the animal you're lashed to charges, you use its momentum in your own attack.\
 **Prerequisites:** [Horn Rider](ref/feat/horn-rider), base attack bonus +1.\

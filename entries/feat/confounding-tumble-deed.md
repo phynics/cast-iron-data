@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/amateur-swashbuckler", label = "or" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "143"
 
 [fields]
 kind = "feat"
@@ -19,8 +22,6 @@ benefit = "When you use Acrobatics to move through an opponent's threatened area
 +++
 
 ## Confounding Tumble Deed (Panache)
-
-**Sources:** Advanced Class Guide pg 143
 
 You can befuddle a foe by striking a blow after tumbling.\
 **Prerequisites:** [Amateur Swashbuckler](ref/feat/amateur-swashbuckler) feat or panache class

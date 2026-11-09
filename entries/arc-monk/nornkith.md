@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/monk" },
 ]
+[[sources]]
+publication = "legacy-of-the-first-world"
+page = "24"
 
 [fields]
 kind = "archetype"
 replaces = ["Stunning fist", "Bonus feat gained at 1st level", "Purity of body", "bonus feat gained at 10th level", "Diamond soul", "Quivering palm", "Empty body", "Perfect self"]
 +++
 
-**Sources:** Legacy of the First World pg 24\
 Nornkith hone their bodies and minds to follow the branching threefold paths of fate. Nornkith seek
 to emulate the fey masters of fate called [norns](ref/monster/norn) and eventually ascend to become
 norns in their own right.

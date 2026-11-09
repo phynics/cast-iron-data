@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "squeeze", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "56"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 56
 
 A successful DC 30 Acrobatics check allows you to squeeze through a gap through which your head fits
 but your shoulders don't. You can't fit through spaces smaller than your head.

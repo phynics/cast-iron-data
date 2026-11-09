@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/wizard" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "11"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Arcane school", "bonus school spell slots", "10th-level bonus feat"
 alters = ["Arcane bond"]
 +++
 
-**Sources:** Arcane Anthology pg 11\
 Sword binders follow a tradition of martial wizards who often worked with the Church of Aroden and
 the crowns of Taldor and then Cheliax. Once common in Absalom, Cheliax, and Taldor, where they were
 frequently battlefield commanders, historians, and expedition leaders, they have become much rarer

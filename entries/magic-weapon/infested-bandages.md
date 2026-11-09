@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "infested_bandages", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "10th"
 +++
 
-**Sources:** Martial Arts Handbook pg 31\
 **Aura** moderate conjuration; **CL** 10th\
 **Slot** none; **Price** 13,500 gp; **Weight** -
 

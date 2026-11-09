@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vivisectionist_cleric", path = "json/npcs2.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "48"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "6"
 
 **Challenge rating:** 6
 
-**Sources:** NPC Codex pg 48\
 **XP** 2,400\
 Human [cleric](ref/class/cleric) of [Zon-Kuthon](ref/faith/zon-kuthon) 7\
 LE Medium humanoid (human)\

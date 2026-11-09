@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/summon-monster-1" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "352"
 
 [fields]
 kind = "spell"
@@ -57,8 +60,6 @@ Subschool: Summoning
 :::
 
 ### Summon Monster V
-
-**Sources:** PRPG Core Rulebook pg 352
 
 This spell functions like [summon monster I](ref/spell/summon-monster-1), except that you can summon
 one creature from the 5th-level list, 1d3 creatures of the same kind from the 4th-level list, or

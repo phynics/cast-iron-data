@@ -6,6 +6,9 @@ source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "claw_wrench", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "monster-hunters-handbook"
+page = "9"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "As a standard action, you can attempt a grapple combat maneuver with 
 +++
 
 ## Claw Wrench (Combat)
-
-**Sources:** Monster Hunter's Handbook pg 9
 
 You can pry open a mighty beast's grasp or snapping jaws.\
 **Prerequisites:** Dex 13, [Improved Grapple](ref/feat/improved-grapple),

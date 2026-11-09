@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lamentation_of_the_faithless", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "165"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "overwhelming all"
 caster_level = "28th"
 +++
 
-**Sources:** Bestiary 6 pg 165\
 **Aura** overwhelming all; **CL** 28th\
 **Slot** none; **Price** -; **Weight** 8 lbs.
 

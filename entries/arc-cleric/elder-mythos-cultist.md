@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cleric" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "48"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Spontaneous casting", "Increases to channel energy gained at 5th, 1
 alters = ["Alignment", "Domains", "Channel energy"]
 +++
 
-**Sources:** Horror Adventures pg 48\
 Typically grasping, secretive, and thoroughly mad, Elder Mythos cultists open their bodies and minds
 to horrifying realities not meant for the sane as they strive to prepare the world for the eventual
 return of their alien masters.

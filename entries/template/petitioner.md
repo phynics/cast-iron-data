@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "petitioner", path = "json/monster_template3.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "208"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** 1
-
-**Source:** Bestiary 2/208
 
 Petitioners are the souls of mortals brought to the Outer Planes after death in order to experience
 their ultimate punishment, reward, or fate. A petitioner retains fragments of its memories from

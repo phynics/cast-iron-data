@@ -6,6 +6,15 @@ source_ids = ["advanced-players-guide", "curse-of-the-crimson-throne-players-gui
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crossbow_mastery", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "157"
+[[sources]]
+publication = "curse-of-the-crimson-throne-players-guide"
+page = "10"
+[[sources]]
+publication = "pathfinder-campaign-setting"
+page = "218"
 
 [fields]
 kind = "feat"
@@ -17,9 +26,6 @@ special = "Starting at 6th level, a ranger with the archery combat style may sel
 +++
 
 ## Crossbow Mastery (Combat)
-
-**Sources:** Advanced Player's Guide pg 157, Curse of the Crimson Throne Player's Guide pg 10,
-Pathfinder Campaign Setting pg 218
 
 You can load crossbows with blinding speed and even fire them in melee with little fear of reprisal.\
 **Prerequisites:** Dex 15, [Point-Blank Shot](ref/feat/point-blank-shot),

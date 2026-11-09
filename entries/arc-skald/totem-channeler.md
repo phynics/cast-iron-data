@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/skald" },
 ]
+[[sources]]
+publication = "disciples-doctrine"
+page = "24"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Bardic knowledge", "Spell kenning", "Damage reduction"]
 alters = ["Rage powers"]
 +++
 
-**Sources:** Disciple's Doctrine pg 24\
 Some Shoanti skalds discover deeper truths in their tribes' totems. These skalds, known as totem
 channelers, learn how to share the totems' gifts with their allies in the heat of battle.
 

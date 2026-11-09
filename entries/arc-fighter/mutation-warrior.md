@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/fighter" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "93"
 
 [fields]
 kind = "archetype"
 replaces = ["Armor training 1", "Armor training 2, 3, 4", "armor mastery"]
 +++
 
-**Sources:** Advanced Class Guide pg 93\
 While most fighters rely on physical fitness and rigorous training to achieve martial superiority, a
 few prefer to create and imbibe dangerous concoctions that mutate them into fearsome creatures.
 

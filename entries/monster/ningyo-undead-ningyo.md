@@ -6,6 +6,9 @@ source_ids = ["pathfinder-37-souls-for-smugglers-shiv"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ningyo_undead_ningyo", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "pathfinder-37-souls-for-smugglers-shiv"
+page = "80"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ as the snarling miniature mummy drags its shriveled corpse forward._
 
 **Size:** small
 
-**Sources:** Pathfinder \#37: Souls for Smuggler's Shiv pg 80\
 **Subtype:** Aquatic
 
 **Type:** undead

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "74"
 
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Trap sense"]
 +++
 
-**Sources:** Ultimate Combat pg 74\
 A specialized urban acrobat, the roof runner makes her home high atop the spires and gables of great
 cities. She is skilled at traveling these uneven surfaces at full speed, performing daring leaps and
 deftly balancing upon narrow and precarious ledges.

@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "resurgent_transformation", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "239"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Spell resistance: no
 Target: you
 Subschool: Healing
 :::
-
-**Sources:** Advanced Player's Guide pg 239
 
 Resurgent transformation grants you the ability to recover from deadly wounds with restored vitality
 and a will to fight, but at a price. Once cast, resurgent transformation lies dormant for up to 1

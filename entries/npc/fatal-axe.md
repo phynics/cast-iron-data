@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fatal_axe", path = "json/npcs6.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "211"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "19"
 
 **Challenge rating:** 19
 
-**Sources:** NPC Codex pg 211\
 **XP** 204,800\
 Dwarf [rogue](ref/class/rogue) 10/assassin 10\
 NE Medium humanoid (dwarf)\

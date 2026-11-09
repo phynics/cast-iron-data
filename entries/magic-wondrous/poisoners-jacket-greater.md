@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "poisoners_jacket_greater", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "221, 222"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "5th (lesser), 15th (greater)"
 
 ## Poisoner's Jacket (Lesser)
 
-**Sources:** Ultimate Equipment pg. 221, 222\
 **Aura** faint conjuration and necromancy (lesser), strong conjuration and necromancy (greater);
 **CL** 5th (lesser), 15th (greater)\
 **Slot** chest; **Price** 12,000 gp (lesser), 58,000 gp (greater); **Weight** 3 lbs. (lesser) 4 lbs.

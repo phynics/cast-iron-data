@@ -6,6 +6,9 @@ source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inscribe_magical_tattoo", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "16"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can create magical tattoos, magic items inked directly into the f
 +++
 
 ## Inscribe Magical Tattoo (Item Creation)
-
-**Sources:** Inner Sea Magic pg 16
 
 You can craft magical tattoos.\
 **Prerequisites:** Craft (calligraphy, paintings, or tattoos) 5 ranks, caster level 5th\

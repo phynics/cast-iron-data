@@ -6,6 +6,9 @@ source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "corrosenze", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
+page = "31"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "90 gp"
 weight = "1 lb."
 +++
 
-**Sources:** Elemental Master's Handbook pg 31\
 **Price** 90 gp; **Weight** 1 lb.\
 **Category** Alchemical Weapons
 

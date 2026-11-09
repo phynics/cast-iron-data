@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "open_book", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "220"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: curse
 :::
-
-**Sources:** Ultimate Intrigue pg 220
 
 You lay bare not only the mind of a target, but the target's history as well. The target takes a -2
 penalty on saving throws against divinations, and Diplomacy checks to gather information about the

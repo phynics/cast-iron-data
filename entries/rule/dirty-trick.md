@@ -6,12 +6,13 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dirty_trick", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "321"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Advanced Player's Guide pg 321
 
 You can attempt to hinder a foe in melee as a standard action. This maneuver covers any sort of
 situational attack that imposes a penalty on a foe for a short period of time. Examples include

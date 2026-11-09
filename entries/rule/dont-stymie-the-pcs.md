@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dont_stymie_the_pcs", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "42"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 42
 
 This is another way of saying "play to the PCs strengths," but is worth reiterating. Part of the fun
 of playing is leveling a character and gaining new abilities. If you create encounters that

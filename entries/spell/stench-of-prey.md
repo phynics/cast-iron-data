@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stench_of_prey", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "194"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: Fortitude negates (see text)
 Spell resistance: yes
 Target: one creature (see text)
 :::
-
-**Sources:** Advanced Class Guide pg 194
 
 The target exudes a strong odor that most predators recognize as the scent of helpless prey. The
 closest 1d4+1 predatory creatures within 30 feet must succeed at a Will save or start attacking the

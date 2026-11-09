@@ -6,6 +6,9 @@ source_ids = ["pathfinder-91-battle-of-bloodmarch-hills"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gauntlets_of_catching", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "pathfinder-91-battle-of-bloodmarch-hills"
+page = "73"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration"
 caster_level = "4th"
 +++
 
-**Sources:** Pathfinder \#91: Battle of Bloodmarch Hills pg 73\
 **Aura** faint abjuration; **CL** 4th\
 **Slot** hands; **Price** 6,000 gp; **Weight** 20 lbs.
 

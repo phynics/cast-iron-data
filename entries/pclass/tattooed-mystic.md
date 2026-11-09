@@ -6,14 +6,15 @@ source_ids = ["paths-of-prestige"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tattooed_mystic", path = "json/prestige_classes3.json" },
 ]
+[[sources]]
+publication = "paths-of-prestige"
+page = "56"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d6."
 +++
-
-**Sources:** Paths of Prestige pg 56
 
 The tattooed mystics of Varisia are renowned throughout Avistan for both the artistry with which
 they adorn their bodies and the powerful magic they summon from these markings. Many learn the ways

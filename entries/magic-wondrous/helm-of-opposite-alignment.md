@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "helm_of_opposite_alignment", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "347"
+[[sources]]
+publication = "core-rulebook"
+page = "540"
 
 [fields]
 kind = "item"
@@ -15,8 +21,6 @@ slot = "head"
 aura = "strong transmutation"
 caster_level = "12th"
 +++
-
-**Sources:** Ultimate Equipment pg 347, PRPG Core Rulebook pg 540
 
 **Aura** strong transmutation; **CL** 12th\
 **Slot** head; **Weight** 3 lbs.

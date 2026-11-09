@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wyvern", path = "json/monsters41.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "282"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ taloned feet and roars a challenge._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 282\
 **Experience points:** 2,400
 
 **Armor class:** 19/10/18

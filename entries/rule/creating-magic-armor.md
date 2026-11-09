@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "creating_magic_armor", path = "json/rules_basics04.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "550"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 550
 
 To create magic armor, a character needs a heat source and some iron, wood, or leatherworking tools.
 He also needs a supply of materials, the most obvious being the armor or the pieces of the armor to

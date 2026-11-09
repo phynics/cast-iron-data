@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadowfade", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-darklands"
+page = "9"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: yes (harmless)
 Target: creature touched
 Subschool: Shadow
 :::
-
-**Sources:** Heroes of the Darklands pg 9
 
 In areas of darkness, the target of shadowfade is invisible to creatures using
 [darkvision](ref/rule/darkvision) to see. In areas of dim light, the target gains

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-society-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "contingent_wayfinder", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "pathfinder-society-primer"
+page = "20"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "11th"
 +++
 
-**Sources:** Pathfinder Society Primer pg 20\
 **Aura** moderate evocation; **CL** 11th\
 **Slot** none; **Price** 132,000 gp; **Weight** 1 lb.
 

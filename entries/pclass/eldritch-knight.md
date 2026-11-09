@@ -6,14 +6,15 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eldritch_knight", path = "json/prestige_classes4.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "384"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d10."
 +++
-
-**Sources:** PRPG Core Rulebook pg 384
 
 Fearsome warriors and spellcasters, eldritch knights are rare among magic-users in their ability to
 wade into battle alongside fighters, barbarians, and other martial classes. Those who must face

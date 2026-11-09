@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/protection-from-energy" },
 ]
+[[sources]]
+publication = "seekers-of-secrets"
+page = "17"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Saving throw: Will negates (harmless) (object)
 Spell resistance: yes (harmless) (object)
 Target: one touched object of up to 10 pounds/level
 :::
-
-**Sources:** Seekers of Secrets pg 17
 
 As [protection from energy](ref/spell/protection-from-energy), except as noted above and that the
 spell only protects against acid and fire damage. While the energy protection remains, the item is

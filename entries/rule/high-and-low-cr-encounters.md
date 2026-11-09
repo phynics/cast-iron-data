@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "high__and_low_cr_encounters", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "41"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 41
 
 The game expects that for about half of the encounters the PCs face, the CR of the encounter is
 equal to the average party level (APL). Obviously the rest of the encounters are higher or lower

@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "high_level_play_13", path = "json/rules_adv_gm03.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "162"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 162
 
 The most reliable spells for finding out information arrive at higher levels, and are 7th level or
 higher.

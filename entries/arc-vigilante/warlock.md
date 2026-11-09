@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/vigilante" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "60"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["4th-, 8th-, 10th-, 14th-, and 16th-level vigilante talents", "Vigil
 alters = ["Skill ranks per level", "Armor proficiencies", "Vigilante talents"]
 +++
 
-**Sources:** Ultimate Intrigue pg 60\
 Practicing magic in secret, the warlock obscures her arcane scholarship from public view. Her study
 of these arts allows her to hide her dual nature and enchant her enemies - or simply blast them with
 furious magical attacks.

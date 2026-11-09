@@ -6,14 +6,14 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "troop", path = "json/monster_subtypes.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
 
 [fields]
 kind = "none"
 +++
 
 ## Subtype: Troop
-
-**Sources:** Bestiary 6
 
 A troop is a collection of creatures that acts as a single creature, similar to a
 [swarm](ref/subtype/swarm), but as part of a military unit. A troop has the characteristics of its

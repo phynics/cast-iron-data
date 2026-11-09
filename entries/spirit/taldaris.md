@@ -6,13 +6,15 @@ source_ids = ["pathfinder-132-the-six-legend-soul"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "taldaris", path = "json/class_ability_spirits.json" },
 ]
+[[sources]]
+publication = "pathfinder-132-the-six-legend-soul"
+page = "71"
 
 [fields]
 kind = "class_option"
 group = "medium-spirit"
 +++
 
-**Sources:** Pathfinder \#132: The Six-Legend Soul pg 71\
 Never since the days of Taldor's founding has there been any leader so capable of unification as the
 one who brought together the disparate city-states vying for power along the northeastern coast of
 the Inner Sea. Already legendary when crowned Grand Prince of Oppara, Taldaris nevertheless went on

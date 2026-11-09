@@ -6,6 +6,9 @@ source_ids = ["osirion-legacy-of-the-pharaohs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crocodile_hetkoshu", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "osirion-legacy-of-the-pharaohs"
+page = "54"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ whole._
 
 **Senses:** Low-light vision
 
-**Sources:** Osirion, Legacy of the Pharaohs pg 54\
 **Experience points:** 19,200
 
 **Armor class:** 25/6/25

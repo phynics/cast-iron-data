@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hags_seasoning", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "blood-of-the-coven"
+page = "21"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: curse
 :::
-
-**Sources:** Blood of the Coven pg 21
 
 You render the affected creature supernaturally delicious, making it the preferred target for
 animalistic monsters, as well as biting insects, stray animals, and vermin. A creature that makes a

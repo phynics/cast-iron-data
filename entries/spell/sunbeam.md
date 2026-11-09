@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sunbeam", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "354"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Spell resistance: yes
 Area: line from your hand
 Descriptors: light
 :::
-
-**Sources:** PRPG Core Rulebook pg 354
 
 For the duration of this spell, you can use a standard action to evoke a dazzling beam of intense
 light each round. You can call forth one beam per three caster levels (maximum six beams at 18th

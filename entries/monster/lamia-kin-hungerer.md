@@ -6,6 +6,12 @@ source_ids = ["rise-of-the-runelords-anniversary-edition", "pathfinder-6-spires-
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lamia_kin_hungerer", path = "json/monsters34.json" },
 ]
+[[sources]]
+publication = "rise-of-the-runelords-anniversary-edition"
+page = "410"
+[[sources]]
+publication = "pathfinder-6-spires-of-xin-shalast"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -44,8 +50,6 @@ filled with terrible teeth._
 
 **Senses:** Darkvision 90 ft., Low-light vision
 
-**Sources:** Rise of the Runelords Anniversary Edition pg 410, Pathfinder \#6: Spires of Xin-Shalast
-pg 84\
 **Experience points:** 51,200
 
 **Armor class:** 31/10/29

@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "research_by_expertise", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "148"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 148
 
 A successful Research check reduces a library's knowledge points by a certain amount, just as a
 successful attack roll in combat reduces a creature's hit points, and this amount depends on the

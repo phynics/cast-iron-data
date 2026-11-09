@@ -9,6 +9,12 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/hunter" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "55"
+[[sources]]
+publication = "advanced-class-origins"
+page = "13"
 
 [fields]
 kind = "archetype"
@@ -16,7 +22,6 @@ replaces = ["Woodland stride"]
 alters = ["Animal focus"]
 +++
 
-**Sources:** Ultimate Wilderness pg 55, Advanced Class Origins pg 13\
 The forgotten ruins in the desert sands have given rise to a breed of hunters who call upon the
 powers of the pyramids to protect and explore the ancient sites of their people. These hunters form
 sacred bonds with desert-dwelling denizens.

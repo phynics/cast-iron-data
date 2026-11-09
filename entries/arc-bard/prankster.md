@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "35"
 
 [fields]
 kind = "archetype"
 replaces = ["Fascinate", "Suggestion", "Mass suggestion", "Lore master"]
 +++
 
-**Sources:** Advanced Race Guide pg 35\
 The prankster sees humor as the highest form or art, and pranks as the highest form of humor. In
 addition to setting friends up for light-hearted pranks, the prankster can use his quick wit and
 cruel sense of humor to enrage foes before incapacitating them with a clever turn of phrase.

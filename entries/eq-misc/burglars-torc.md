@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burglars_torc", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "20"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "2,102 gp"
 weight = "5 lbs."
 +++
 
-**Sources:** Dirty Tactics Toolbox pg 20\
 **Price** 2,102 gp; **Weight** 5 lbs.\
 **Category** Black Market
 

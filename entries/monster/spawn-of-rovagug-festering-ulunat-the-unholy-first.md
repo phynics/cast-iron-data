@@ -6,6 +6,9 @@ source_ids = ["pathfinder-84-pyramid-of-the-sky-pharaoh"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spawn_of_rovagug_festering_ulunat_the_unholy_first", path = "json/monsters_unique3.json" },
 ]
+[[sources]]
+publication = "pathfinder-84-pyramid-of-the-sky-pharaoh"
+page = "64"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ abilities = ["38", "21", "35", "3", "30", "20"]
 
 **Senses:** Darkvision 600 ft., Low-light vision
 
-**Sources:** Pathfinder \#84: Pyramid of the Sky Pharaoh pg 64\
 **tremorsense:** 600
 
 **Experience points:** 1,228,800

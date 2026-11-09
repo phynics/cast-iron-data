@@ -6,12 +6,13 @@ source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "red_silk_route", path = "json/rules_rulesets01.json" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "9"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Black Markets pg 9
 
 **Associated Trait:** [Red Silk Frankness](ref/trait/red-silk-frankness)
 

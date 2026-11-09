@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wt_4", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "226"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 226
 
 ### Table 7-62: Oasis
 

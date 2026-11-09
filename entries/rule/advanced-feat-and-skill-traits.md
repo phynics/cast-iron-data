@@ -6,12 +6,13 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "advanced_feat_and_skill_traits", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "227"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Advanced Race Guide pg 227
 
 **Nimble Attacks (2 RP):** **Prerequisites:** None; **Benefit:** Members of this race receive
 [Weapon Finesse](ref/feat/weapon-finesse) as a bonus feat.

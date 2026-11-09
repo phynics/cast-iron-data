@@ -6,6 +6,9 @@ source_ids = ["inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reveal_secrets", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "inner-sea-temples"
+page = "63"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Target: creature touched
 Subschool: Compulsion
 Descriptors: language-dependant, mind-affecting
 :::
-
-**Sources:** Inner Sea Temples pg 63
 
 When you cast this spell, you ask the target whether it has a secret about a specific topic that can
 be described in 10 words or fewer. This can concern a person, place, or thing (such as a town's

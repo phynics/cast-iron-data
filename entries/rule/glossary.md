@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "glossary", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "7"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 7
 
 Mythic Adventures uses several terms that are new to the Pathfinder Roleplaying Game, or that
 previously existed but were rarely used. These terms are worth reviewing before continuing on with

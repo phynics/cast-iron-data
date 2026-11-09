@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/summon-natures-ally-6" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "223"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: no
 Effect: one or more giants
 Subschool: Summoning
 :::
-
-**Sources:** Inner Sea Races pg 223
 
 > _The following spells are available to the indicated race or ethnicity: Kellid_
 

@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "panther_parry", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "112"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using Panther Style, your retaliatory unarmed strikes are resol
 +++
 
 ## Panther Parry (Combat)
-
-**Sources:** Ultimate Combat pg 112
 
 Your vicious strikes impair your foe's ability to attack you when you move.\
 **Prerequisites:** Wis 15, [Combat Reflexes](ref/feat/combat-reflexes),

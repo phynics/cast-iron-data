@@ -6,6 +6,9 @@ source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wretched_curator", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "agents-of-evil"
+page = "9"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can always purchase potions and scrolls of spells with the evil d
 +++
 
 ## Wretched Curator (Story)
-
-**Sources:** Agents of Evil pg 9
 
 Some fools fear the written word, but you that understand knowledge all knowledge is a valuable
 tool, and restricting it out of superstition is abominable in your eyes.\

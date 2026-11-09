@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "acute_senses", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "205"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes
 Target: creature touched
 :::
-
-**Sources:** Ultimate Magic pg 205
 
 The target gains a +10 enhancement bonus on Perception checks. The bonus increases to +20 at caster
 level 8th, and +30 (the maximum) at caster level 16th.

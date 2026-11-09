@@ -6,6 +6,9 @@ source_ids = ["pathfinder-72-the-witch-queens-revenge"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "baba_yaga", path = "json/monsters_unique.json" },
 ]
+[[sources]]
+publication = "pathfinder-72-the-witch-queens-revenge"
+page = "74"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ abilities = ["17", "20", "26", "46", "24", "32"]
 
 **Senses:** Arcane sight, Darkvision 60 ft., See invisibility
 
-**Sources:** Pathfinder \#72: The Witch Queen's Revenge pg 74\
 **Subtype:** Human, Mythic
 
 **Experience points:** 9,830,400

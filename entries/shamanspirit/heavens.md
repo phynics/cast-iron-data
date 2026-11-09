@@ -6,13 +6,15 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heavens", path = "json/class_ability_shaman_spirits.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "40"
 
 [fields]
 kind = "class_option"
 group = "shaman-spirit"
 +++
 
-**Sources:** Advanced Class Guide pg 40\
 A shaman who selects the heavens spirit has eyes that sparkle like starlight, exuding an aura of
 otherworldliness to those she is around. When she calls upon one of this spirit's abilities, her
 eyes turn pitch black and the colors around her drain for a brief moment.

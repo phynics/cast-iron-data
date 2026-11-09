@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/hunter" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "131"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Animal focus"]
 alters = ["Animal companion"]
 +++
 
-**Sources:** Adventurer's Guide pg 131\
 The [Mammoth Lords](ref/rule/aff-beast-riders) coexist with the great primeval beasts that roam
 their lands, surviving with the help of the animals' meat, hides, milk, bones, and more. These
 fearsome and wondrous animals have made their way into Kellid culture and tradition. Tribes are

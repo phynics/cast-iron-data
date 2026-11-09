@@ -6,12 +6,14 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "armor_glitches", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "1"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Technology Guide pg 1\
 Glitching armor that loses its ability to function still provides the normal armor bonus to AC, but
 any charged abilities are suppressed.
 

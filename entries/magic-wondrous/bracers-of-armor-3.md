@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bracers_of_armor_3", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "271"
+[[sources]]
+publication = "core-rulebook"
+page = "504"
 
 [fields]
 kind = "item"
@@ -19,7 +25,6 @@ caster_level = "7th"
 
 ## Bracers of Armor
 
-**Sources:** Ultimate Equipment pg 271, PRPG Core Rulebook pg 504\
 **Aura** moderate conjuration; **CL** 7th\
 **Slot** wrists; **Price** 1,000 gp (+1), 4,000 gp (+2), 9,000 gp (+3), 16,000 gp (+4), 25,000 gp
 (+5), 36,000 gp (+6), 49,000 gp (+7), 64,000 gp (+8); **Weight** 1 lb.

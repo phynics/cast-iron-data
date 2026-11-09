@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "book_of_infinite_spells", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "328"
+[[sources]]
+publication = "core-rulebook"
+page = "543"
 
 [fields]
 kind = "item"
@@ -16,8 +22,6 @@ slot = "none"
 aura = "strong (all schools)"
 caster_level = "18th"
 +++
-
-**Sources:** Ultimate Equipment pg 328, PRPG Core Rulebook pg 543
 
 **Aura** strong (all schools); **CL** 18th\
 **Slot** none; **Price** -; **Weight** 3 lbs.

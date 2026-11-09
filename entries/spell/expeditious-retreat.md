@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "expeditious_retreat", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "279"
 
 [fields]
 kind = "spell"
@@ -53,8 +56,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** PRPG Core Rulebook pg 279
 
 This spell increases your base land speed by 30 feet. This adjustment is treated as an enhancement
 bonus. There is no effect on other modes of movement, such as burrow, climb, fly, or swim. As with

@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_imp", path = "json/monsters07.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "78"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ nuisance._
 
 **Senses:** Darkvision 60 ft., Detect good, Detect magic, See in darkness
 
-**Sources:** Pathfinder RPG Bestiary pg 78\
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **Size:** tiny

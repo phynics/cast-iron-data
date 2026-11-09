@@ -6,6 +6,9 @@ source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "midsummer_sickle", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "faction-guide"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "12th"
 +++
 
-**Sources:** Faction Guide pg 60\
 **Aura** moderate evocation; **CL** 12th\
 **Slot** none; **Price** 7,806 gp; **Weight** 1 lb.
 

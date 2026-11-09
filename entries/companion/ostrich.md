@@ -6,13 +6,14 @@ source_ids = ["osirion-legacy-of-the-pharaohs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ostrich", path = "json/class_ability_druid_companions.json" },
 ]
+[[sources]]
+publication = "osirion-legacy-of-the-pharaohs"
+page = "55"
 
 [fields]
 kind = "class_option"
 group = "animal-companion"
 +++
-
-**Sources:** Osirion, Legacy of the Pharaohs pg 55
 
 **Companion Type**
 

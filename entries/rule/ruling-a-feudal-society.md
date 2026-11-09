@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ruling_a_feudal_society", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "152"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 152
 
 The primary responsibility of a feudal lord is protection for his or her vassals. This protection is
 both physical and legal, including aid if a vassal comes under attack as well as swift justice under

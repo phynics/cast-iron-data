@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/shaman" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "112"
 
 [fields]
 kind = "archetype"
 replaces = ["Wandering spirit gained at 4th level", "Spirit magic spells gained from the shaman's wandering spirit", "Wandering hex gained at 6th level", "Greater version of wandering spirit gained at 12th level", "true version of wandering spirit gained at 20th level"]
 +++
 
-**Sources:** Advanced Class Guide pg 112\
 The visionary is a master at divination, drawing upon her intimate relationship with the spirit
 world to ferret out all manner of secrets and insights about the world around her and beyond.
 

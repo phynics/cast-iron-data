@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "titan_strike", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "75"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Your unarmed strike deals damage as if you were one size category lar
 +++
 
 ## Titan Strike (Mythic)
-
-**Sources:** Mythic Adventures pg 75
 
 Your fists can fell titanic foes.\
 **Prerequisites:** [Mythic Improved Unarmed Strike](ref/feat/improved-unarmed-strike).\

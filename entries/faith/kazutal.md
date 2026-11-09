@@ -6,6 +6,9 @@ source_ids = ["faiths-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kazutal", path = "json/faiths5.json" },
 ]
+[[sources]]
+publication = "faiths-of-golarion"
+page = "29"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Kazutal**
 
 **Sub:** Mother Jaguar
-
-**Sources:** Faiths of Golarion pg 29
 
 ### Details
 

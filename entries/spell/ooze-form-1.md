@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ooze_form_1", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "232"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 Target: you
 Subschool: Polymorph
 :::
-
-**Sources:** Ultimate Wilderness pg 232
 
 You assume the form of a Small or Medium ooze. Regardless of the type of ooze you transform into,
 you gain base speed 10 feet, climb speed 10 feet, swim speed 20 feet, and

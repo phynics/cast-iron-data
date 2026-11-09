@@ -6,13 +6,15 @@ source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "possessed", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
+[[sources]]
+publication = "haunted-heroes-handbook"
+page = "19"
 
 [fields]
 kind = "class_option"
 group = "sorcerer-bloodline"
 +++
 
-**Sources:** Haunted Heroes Handbook pg 19\
 Possessed sorcerers channel their magic potential through a unique bond with a possessing spirit
 rather than through blood alone. These spirits take numerous forms, but such is their tenaciousness
 that they bond in a way that prevents their banishment from the host. Instead, both possessor and

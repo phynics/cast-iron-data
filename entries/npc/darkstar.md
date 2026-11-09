@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "darkstar", path = "json/npcs6.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "239"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "19"
 
 **Challenge rating:** 19
 
-**Sources:** NPC Codex pg 239\
 **XP** 204,800\
 Halfling [rogue](ref/class/rogue) 10/shadowdancer 10\
 N Small humanoid (halfling)\

@@ -6,6 +6,9 @@ source_ids = ["the-harrow-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "harrow_mat", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "the-harrow-handbook"
+page = "30"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "80 gp"
 weight = "1 lb."
 +++
 
-**Sources:** The Harrow Handbook pg 30\
 **Price** 80 gp; **Weight** 1 lb.\
 **Category** Entertainment
 

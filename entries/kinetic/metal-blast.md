@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "metal_blast", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "16"
 
 [fields]
 kind = "class_option"
@@ -27,7 +30,5 @@ group = "kineticist-wild-talent"
 **Damage:** bludgeoning, piercing, or slashing
 
 **Prerequisite:** primary element (earth), expanded element (earth)
-
-**Source:** Occult Adventures/16
 
 You shape metal into clumps, shards, or blades and send them flying.

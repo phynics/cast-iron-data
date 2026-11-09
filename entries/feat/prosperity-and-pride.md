@@ -6,6 +6,9 @@ source_ids = ["pathfinder-131-the-reapers-right-hand"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prosperity_and_pride", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "pathfinder-131-the-reapers-right-hand"
+page = "76"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When in a settlement the size of a large city or smaller, you receive
 +++
 
 ## Prosperity and Pride (Story)
-
-**Sources:** Pathfinder \#131: The Reaper's Right Hand pg 76
 
 Your family has raised cities and mastered trade, and you seek to do the same.\
 **Prerequisites:** Be a member of House Corcina, or have the Inheritance

@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "evaluating_monster_statistics", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "228"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 228
 
 Table 6-8: Monster Statistics by CR is an expansion of
 [the table of the same name](ref/rule/step-2-target-statistics), listing approximate statistics for

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/possession" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "185"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Saving throw: Will negates
 Spell resistance: yes
 Target: one creature
 :::
-
-**Sources:** Occult Adventures pg 185
 
 You stealthily project your soul into the host's body as an observer, with limited ability to
 influence the target. This functions as [possession](ref/spell/possession), except the host is still

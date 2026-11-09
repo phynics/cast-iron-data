@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_esoteric_etheric_young_etheric_dragon", path = "json/monsters31.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "92"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _This silent dragon seems to gather shadows and gloom around its tattered-appear
 
 **Senses:** Dragon senses, See in darkness
 
-**Sources:** Bestiary 5 pg 92\
 **Subtype:** Extraplanar
 
 **Experience points:** 3,200

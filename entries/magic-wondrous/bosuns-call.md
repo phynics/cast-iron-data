@@ -6,6 +6,9 @@ source_ids = ["daughters-of-fury"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bosuns_call", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "daughters-of-fury"
+page = "57"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "8th"
 +++
 
-**Sources:** Daughters of Fury pg 57\
 **Aura** moderate abjuration; **CL** 8th\
 **Slot** none; **Price** 12,000 gp; **Weight** 1 lb.
 

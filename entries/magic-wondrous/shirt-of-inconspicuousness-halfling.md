@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shirt_of_inconspicuousness_halfling", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "234"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Sources:** Inner Sea Races pg 234\
 **Aura** moderate enchantment; **CL** 7th\
 **Slot** chest; **Price** 8,000 gp; **Weight** 1/2 lb.
 

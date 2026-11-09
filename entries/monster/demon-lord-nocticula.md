@@ -6,6 +6,9 @@ source_ids = ["pathfinder-76-the-midnight-isles"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_lord_nocticula", path = "json/monsters_unique.json" },
 ]
+[[sources]]
+publication = "pathfinder-76-the-midnight-isles"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ hooves, and her three tails are studded with barbs._
 
 **Senses:** Darkvision 60 ft., Detect good, Detect law, See in darkness, True seeing
 
-**Sources:** Pathfinder \#76: The Midnight Isles pg 86\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 9,830,400

@@ -9,6 +9,12 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/planar-adaptation" },
 ]
+[[sources]]
+publication = "people-of-the-stars"
+page = "29"
+[[sources]]
+publication = "distant-worlds"
+page = "55"
 
 [fields]
 kind = "spell"
@@ -49,8 +55,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** People of the Stars pg 29, Distant Worlds pg 55
 
 This spell functions as [planar adaptation](ref/spell/planar-adaptation), except that it works only
 on worlds of the Material Plane. The cold void of space is considered a single world for the purpose

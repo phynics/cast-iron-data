@@ -6,6 +6,9 @@ source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "apparatus_of_the_octopus", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
+page = "61"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong evocation and transmutation"
 caster_level = "19th"
 +++
 
-**Sources:** Aquatic Adventures pg 61\
 **Aura** strong evocation and transmutation; **CL** 19th\
 **Slot** none; **Price** 20,000 gp; **Weight** 400 lbs.
 

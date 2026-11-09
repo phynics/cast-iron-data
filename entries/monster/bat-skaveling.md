@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bat_skaveling", path = "json/monsters03.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "42"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ green glow._
 
 **Perception:** +14
 
-**Sources:** Bestiary 2 pg 42\
 **Type:** undead
 
 **Experience points:** 1,600

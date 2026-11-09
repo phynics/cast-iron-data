@@ -6,6 +6,9 @@ source_ids = ["gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greatcube_of_jayalakshmi", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "gods-and-magic"
+page = "62"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "powerful (all schools)"
 caster_level = "20th"
 +++
 
-**Sources:** Gods and Magic pg 62\
 **Aura** powerful (all schools); **CL** 20th\
 **Slot** none; **Price** -; **Weight** 4,000 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_boil", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "magical-marketplace"
+page = "24"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: Fortitude negates (see text)
 Spell resistance: yes
 Target: one living creature
 :::
-
-**Sources:** Magical Marketplace pg 24
 
 The temperature of the target creature's blood (or other similar body fluid) begins to rise over the
 next 3 rounds during the caster's turn. Each round starting with the first, the target creature

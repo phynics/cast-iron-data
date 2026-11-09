@@ -6,6 +6,9 @@ source_ids = ["inner-sea-world-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ancestral_memory", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "294"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Inner Sea World Guide pg 294
 
 When you cast this spell, you open your mind to the vast experiences of your ancestors in the hope
 of learning something pertinent about your current situation. The chance of successfully finding an

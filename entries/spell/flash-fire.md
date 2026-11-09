@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flash_fire", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "230"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: Will negates (object), see text
 Spell resistance: yes (object)
 Target: 1 firearm
 :::
-
-**Sources:** Ultimate Combat pg 230
 
 The firearm fires with a blinding flash, even if the firearm is not currently loaded. Every creature
 within 15 feet of the creature carrying the weapon must succeed at a Fortitude save or be blinded

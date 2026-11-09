@@ -6,12 +6,13 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "base_speed_quality", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "218"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Advanced Race Guide pg 218
 
 The next step is to pick the base speed quality for your race. Some racial traits can increase speed
 or grant other movement types, but these traits usually require the normal speed quality as a

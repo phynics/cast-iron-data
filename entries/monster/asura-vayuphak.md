@@ -6,6 +6,9 @@ source_ids = ["occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "asura_vayuphak", path = "json/monsters02.json" },
 ]
+[[sources]]
+publication = "occult-bestiary"
+page = "8"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ grace its hands._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Occult Bestiary pg 8\
 **Subtype:** Asura, Evil, Extraplanar, Lawful
 
 **Experience points:** 1,600

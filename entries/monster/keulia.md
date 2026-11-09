@@ -6,6 +6,9 @@ source_ids = ["druma-profit-and-prophecy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "keulia", path = "json/monsters15.json" },
 ]
+[[sources]]
+publication = "druma-profit-and-prophecy"
+page = "62"
 
 [fields]
 kind = "creature"
@@ -39,7 +42,6 @@ _This small, frilled reptile has a squat body with smooth scales._
 
 **Senses:** Low-light vision
 
-**Sources:** Druma, Profit and Prophecy pg 62\
 **Size:** tiny
 
 **Experience points:** 100

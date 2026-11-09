@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "viper_vine", path = "json/monsters40.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "279"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ serpent ready to strike._
 
 **Type:** plant
 
-**Sources:** Bestiary 2 pg 279\
 **tremorsense:** 60
 
 **Experience points:** 25,600

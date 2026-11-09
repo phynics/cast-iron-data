@@ -6,12 +6,13 @@ source_ids = ["lands-of-conflict"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "calm_before_the_storm_turncoat_cache_discovered", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "lands-of-conflict"
+page = "58"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Lands of Conflict pg 58
 
 **Calm Before the Storm:** No event occurs, but the GM must roll on the event table next week, and
 that event happens; ignore a result of Roll Twice. After that, the GM rolls to determine whether an

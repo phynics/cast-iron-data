@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "craft_wondrous_item", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "120"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can create a wide variety of magic wondrous items. Crafting a won
 +++
 
 ## Craft Wondrous Item (Item Creation)
-
-**Sources:** PRPG Core Rulebook pg 120
 
 You can create wondrous items, a type of magic item.\
 **Prerequisites:** Caster level 3rd.\

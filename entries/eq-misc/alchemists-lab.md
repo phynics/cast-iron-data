@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alchemists_lab", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "77"
+[[sources]]
+publication = "core-rulebook"
+page = "158"
 
 [fields]
 kind = "item"
@@ -14,7 +20,6 @@ price = "200 gp"
 weight = "40 lbs."
 +++
 
-**Sources:** Ultimate Equipment pg 77, PRPG Core Rulebook pg 158\
 **Price** 200 gp; **Weight** 40 lbs.\
 **Category** Tools
 

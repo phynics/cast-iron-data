@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quieting_weapons", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "223"
 
 [fields]
 kind = "spell"
@@ -55,8 +58,6 @@ Target: up to one natural or manufactured weapon per 3 caster levels
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** Ultimate Intrigue pg 223
 
 The target weapons and any ammunition they fire make no sound as part of their normal functions as a
 weapon. For instance, a firearm's firing would not make an explosive sound, but if you cast this

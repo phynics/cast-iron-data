@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "titan_hekatonkheires", path = "json/monsters23.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "268"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ wielding a different weapon._
 
 **Senses:** All-around vision, Darkvision 120 ft., True seeing
 
-**Sources:** Bestiary 3 pg 268\
 **Subtype:** Chaotic, Evil, Extraplanar
 
 **Experience points:** 1,228,800

@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "benevolent_armor", path = "json/magic_enhancements.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "115"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "5th"
 
 ## Benevolent
 
-**Sources:** Ultimate Equipment pg 115\
 **Aura** faint enchantment; **CL** 5th\
 **Slot** armor quality; **Price** +1 bonus; **Weight** -
 

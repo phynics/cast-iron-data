@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ironclad_reactions", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "17"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Once per round when a foe successfully hits you with an attack of opp
 +++
 
 ## Ironclad Reactions (Armor Mastery, Combat)
-
-**Sources:** Armor Master's Handbook pg 17
 
 You are able to quickly react to attacks.\
 **Prerequisites:** Base attack bonus +6 or fighter level 4th, armor training class feature,

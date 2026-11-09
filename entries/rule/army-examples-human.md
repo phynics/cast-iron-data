@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "army_examples_human", path = "json/rules_campaign_types05.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "247"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 247
 
 ### Army (Colossal) (XP 6,400)
 

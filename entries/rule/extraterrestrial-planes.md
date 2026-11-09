@@ -6,12 +6,13 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extraterrestrial_planes", path = "json/rules_campaign_types09.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "88"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Planar Adventures pg 88
 
 Rather than arriving through portals from other planes, outsiders hail from the depths of space,
 their homes far-flung planets. These outsiders are diverse, strange alien races that are genuinely

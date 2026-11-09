@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/fighter" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "47"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["The bonus fighter combat feat gained at 1st level", "Bravery", "Wea
 alters = ["Armor proficiencies"]
 +++
 
-**Sources:** Ultimate Combat pg 47\
 While many fighters focus on the fundamentals of melee and ranged combat, there are those who are
 trained to view the bigger picture on the battlefield. These fighters use their training and
 tactical acumen to overcome challenges that would overwhelm mere brute strength and skill at arms.

@@ -6,6 +6,9 @@ source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "directed_disarm", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "6"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever you successfully use a combat maneuver to disarm an opponent
 +++
 
 ## Directed Disarm (Combat)
-
-**Sources:** Ranged Tactics Toolbox pg 6
 
 A weapon you pull from one enemy's grip flies toward another enemy.\
 **Prerequisites:** Int 13, [Combat Expertise](ref/feat/combat-expertise),

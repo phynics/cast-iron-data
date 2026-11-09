@@ -6,6 +6,9 @@ source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wyvern_wing", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "legacy-of-dragons"
+page = "21"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using the Wyvern Style feat, if you use flurry of blows or braw
 +++
 
 ## Wyvern Wing (Combat)
-
-**Sources:** Legacy of Dragons pg 21
 
 Like a wyvern on the wing, you command a fluid style that enables you to make attacks while moving.\
 **Prerequisites:** [Exotic Weapon Proficiency](ref/feat/exotic-weapon-proficiency) (whip),

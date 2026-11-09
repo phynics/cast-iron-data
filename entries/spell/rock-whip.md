@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rock_whip", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-darklands"
+page = "9"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Spell resistance: no
 Effect: whip of earth and stone
 Subschool: Creation
 :::
-
-**Sources:** Heroes of the Darklands pg 9
 
 A 15-foot-long lash of crumbling crystal and earth emerges from the palm of your hand. This weapon
 is treated as a nonmagical whip that deals 1d8 points of bludgeoning damage. You can wield this

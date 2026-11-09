@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rending_fury", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "116"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You deal rend damage if you hit with half the normal natural attacks 
 +++
 
 ## Rending Fury (Combat)
-
-**Sources:** Ultimate Combat pg 116
 
 You easily tear your enemies limb from limb with your natural attacks.\
 **Prerequisites:** Base attack bonus +6, [rend](ref/umr/rend) special attack.\

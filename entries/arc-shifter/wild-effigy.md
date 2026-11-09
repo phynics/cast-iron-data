@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/shifter" },
 ]
+[[sources]]
+publication = "construct-handbook"
+page = "15"
 
 [fields]
 kind = "archetype"
 replaces = ["Wild empathy", "track", "woodland stride", "trackless step", "Defensive instinct"]
 +++
 
-**Sources:** Construct Handbook pg 15\
 A wild effigy still takes on the shapes of natural animals, but rather than transforming her body
 into flesh and muscle, she transforms into constructed effigies of her chosen aspects.
 

@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drake_river_drake", path = "json/monsters31.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "107"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ sea and sky._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Bestiary 3 pg 107\
 **Subtype:** Aquatic, Water
 
 **Experience points:** 800

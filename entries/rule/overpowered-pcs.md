@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "overpowered_pcs", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "50"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 50
 
 Characters naturally accumulate power over time. And in a game that relies on random resolutions of
 complex interactions, that power accumulation isn't always smooth. If one PC - or all the PCs - at

@@ -6,6 +6,9 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dermal_plating_mark_iii", path = "json/equipment_tech_cybertech.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "37"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ slot = "body"
 
 ## Dermal Plating (Mark I)
 
-**Sources:** Technology Guide pg 37\
 **Price** 4,000 gp (Mark I), 16,000 gp (Mark II), 36,000 gp (Mark III), 64,000 gp (Mark IV), 100,000
 gp (Mark V)\
 **Slot** body; **Weight** 5 lbs. (Mark I), 5 lbs. (Mark II), 5 lbs. (Mark III), 5 lbs. (Mark IV), 5

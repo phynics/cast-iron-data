@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "book-of-the-damned", "pathfinder-78-city-of-loc
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deskari", path = "json/faiths3.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "320"
 
 [fields]
 kind = "none"
@@ -15,7 +18,6 @@ kind = "none"
 
 **Sub:** Lord of the Locust Host
 
-**Sources:** Inner Sea Gods pg 320\
 **Monster Link** [Deskari](ref/monster/demon-lord-deskari)
 
 ### Details

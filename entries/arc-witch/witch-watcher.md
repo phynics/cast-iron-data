@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/witch" },
 ]
+[[sources]]
+publication = "heroes-of-the-high-court"
+page = "9"
 
 [fields]
 kind = "archetype"
 alters = ["Spellcasting"]
 +++
 
-**Sources:** Heroes of the High Court pg 9\
 For reasons known only to them, witch-watchers offer protection to nobles across Golarion. While
 they serve openly in Irrisen and Varisia, they watch from the shadows in courts in Brevoy, Mendev,
 the River Kingdoms, and Ustalav, where their presence is barely tolerated.

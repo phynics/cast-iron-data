@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "goblin_skull_bomb", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "300"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "6th"
 +++
 
-**Sources:** Ultimate Equipment pg 300\
 **Aura** moderate evocation; **CL** 6th\
 **Slot** none; **Price** 1,200 gp; **Weight** 1 lb.
 

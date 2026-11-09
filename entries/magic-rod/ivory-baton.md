@@ -6,6 +6,9 @@ source_ids = ["lost-kingdoms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ivory_baton", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "lost-kingdoms"
+page = "42"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong enchantment"
 caster_level = "18th"
 +++
 
-**Sources:** Lost Kingdoms pg 42\
 **Aura** strong enchantment; **CL** 18th\
 **Slot** none; **Price** 40,000 gp; **Weight** 6 lbs.
 

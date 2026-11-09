@@ -6,12 +6,14 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rc_distracting_visitor", path = "json/rules_opt_magic01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "182"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder Unchained pg 182\
 An unwanted interloper shows up while you're trying to work, making it challenging to concentrate.
 
 ### Tasks

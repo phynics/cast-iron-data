@@ -6,6 +6,9 @@ source_ids = ["darklands-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "captain_ignisco", path = "json/monsters_unique.json" },
 ]
+[[sources]]
+publication = "darklands-revisited"
+page = "39"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ of the same material._
 
 **Senses:** Darkvision 120 ft.
 
-**Sources:** Darklands Revisited pg 39\
 **Subtype:** Munavri
 
 **Experience points:** 2,400

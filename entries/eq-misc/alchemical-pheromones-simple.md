@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alchemical_pheromones_simple", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "245"
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "20"
 
 [fields]
 kind = "item"
@@ -16,7 +22,6 @@ weight = "- (aggression), - (arousal), - (simple), - (susceptibility)"
 
 ## Alchemical pheromones
 
-**Sources:** Ultimate Wilderness pg 245, Dirty Tactics Toolbox pg 20\
 **Price** 150 gp (aggression), 300 gp (arousal), 1 gp (simple), 300 gp (susceptibility);
 **Weight** - (aggression), - (arousal), - (simple), - (susceptibility)
 

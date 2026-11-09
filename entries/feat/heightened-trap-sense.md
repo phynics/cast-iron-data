@@ -6,6 +6,9 @@ source_ids = ["osirion-land-of-the-pharaohs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heightened_trap_sense", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "osirion-land-of-the-pharaohs"
+page = "29"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Perception 6 ranks,[^P] trap sense +1."
 benefit = "When you pass within 5 feet of a trap, you are entitled to an automatic Perception check to notice the trap. This check is made at a -10 penalty, or -5 if you are moving at half speed and taking no actions other than moving."
 normal = "You must take an action to actively search."
 +++
-
-**Sources:** Osirion, Land of the Pharaohs pg 29
 
 You are acutely attentive to the subtleties of traps and how they are hidden.\
 **Prerequisites:** Perception 6 ranks,^[1](ref/feat/heightened-trap-sense#footnote-p)^

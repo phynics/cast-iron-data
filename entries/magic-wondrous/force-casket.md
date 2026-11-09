@@ -6,6 +6,9 @@ source_ids = ["tombs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "force_casket", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "tombs-of-golarion"
+page = "49"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation, necromancy, and universal"
 caster_level = "10th"
 +++
 
-**Sources:** Tombs of Golarion pg 49\
 **Aura** moderate evocation, necromancy, and universal; **CL** 10th\
 **Slot** none; **Price** 8,000 gp; **Weight** -
 

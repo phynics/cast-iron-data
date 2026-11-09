@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alchemical_allocation", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "201"
 
 [fields]
 kind = "spell"
@@ -37,8 +40,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Advanced Player's Guide pg 201
 
 This extract causes a pale aura to emanate from your mouth. If you consume a potion or elixir on the
 round following the consumption of this extract, you can spit it back into its container as a free

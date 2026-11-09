@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animal_companion", path = "json/rules_adv_pc01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "144"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 144
 
 Unless you raised your animal companion from birth, it has its own history and secrets that are
 likely important and could surprise you. A druid's wolf companion might have been saved by a famous

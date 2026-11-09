@@ -6,6 +6,9 @@ source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "puzzle_box", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "inner-sea-monster-codex"
+page = "41"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Target: one creature or one object up to 5 lbs./level
 Subschool: Compulsion
 Descriptors: curse, mind-affecting
 :::
-
-**Sources:** Inner Sea Monster Codex pg 41
 
 This spell causes even commonly used objects to become conundrums. When cast on a creature, the
 target loses all weapon and shield proficiencies. The target also forgets how to use all

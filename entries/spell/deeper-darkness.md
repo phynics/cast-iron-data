@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/darkness" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "265"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Spell resistance: no
 Target: object touched
 Descriptors: darkness
 :::
-
-**Sources:** PRPG Core Rulebook pg 265
 
 This spell functions as [darkness](ref/spell/darkness), except that objects radiate darkness in a
 60-foot radius and the light level is lowered by two steps. Bright light becomes dim light and

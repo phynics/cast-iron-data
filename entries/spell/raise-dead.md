@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "raise_dead", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "329"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: yes
 Target: dead creature touched
 Subschool: Healing
 :::
-
-**Sources:** PRPG Core Rulebook pg 329
 
 You restore life to a deceased creature. You can raise a creature that has been dead for no longer
 than 1 day per caster level. In addition, the subject's soul must be free and willing to return. If

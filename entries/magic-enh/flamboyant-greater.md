@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flamboyant_greater", path = "json/magic_enhancements2.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "214"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Advanced Class Guide pg 214\
 **Aura** moderate transmutation; **CL** 5th\
 **Slot** none; **Price** +3 bonus; **Weight** -
 

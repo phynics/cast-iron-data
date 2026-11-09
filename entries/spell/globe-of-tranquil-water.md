@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "globe_of_tranquil_water", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-wild"
+page = "30"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Saving throw: none
 Spell resistance: no
 Area: 20-ft.-radius emanation, centered on you
 :::
-
-**Sources:** Heroes of the Wild pg 30
 
 Upon casting this spell, a rippling bubble of calm water extends outward from you to a radius of 20
 feet and remains centered on you when you move. The bubble blocks all natural and magical

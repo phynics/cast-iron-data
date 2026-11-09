@@ -6,13 +6,15 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hatred", path = "json/class_ability_emotional_focus.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "82"
 
 [fields]
 kind = "class_option"
 group = "emotional-focus"
 +++
 
-**Sources:** Occult Adventures pg 82\
 Few things draw a spirit toward the Negative Material Plane like the emotion of hatred. Phantoms
 with this focus often are blinded by - and blind others with - this powerful emotion. These phantoms
 are frequently darker and more foreboding than all but those phantoms with the fear emotional focus.

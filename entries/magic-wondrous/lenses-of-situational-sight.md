@@ -6,6 +6,9 @@ source_ids = ["pathfinder-society-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lenses_of_situational_sight", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "pathfinder-society-primer"
+page = "25"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination and transmutation"
 caster_level = "10th"
 +++
 
-**Sources:** Pathfinder Society Primer pg 25\
 **Aura** moderate divination and transmutation; **CL** 10th\
 **Slot** eyes; **Price** 5,000 gp; **Weight** 1 lb.
 

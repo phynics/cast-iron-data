@@ -6,6 +6,9 @@ source_ids = ["inner-sea-npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "knight_of_ozem", path = "json/npcs7.json" },
 ]
+[[sources]]
+publication = "inner-sea-npc-codex"
+page = "34"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "7"
 
 **Challenge rating:** 7
 
-**Sources:** Inner Sea NPC Codex pg 34\
 **XP** 3,200\
 Human [paladin](ref/class/paladin) of [Iomedae](ref/faith/iomedae) 5/Knight of Ozem 3\
 LG Medium humanoid (human)\

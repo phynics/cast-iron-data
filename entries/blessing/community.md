@@ -6,13 +6,15 @@ source_ids = ["advanced-class-guide", "healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "community", path = "json/class_ability_blessings.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "65"
 
 [fields]
 kind = "class_option"
 group = "warpriest-blessing"
 +++
 
-**Sources:** Advanced Class Guide pg 65\
 **Deities:** [Erastil](ref/faith/erastil)
 
 **Communal Aid (minor)**

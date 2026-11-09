@@ -6,6 +6,9 @@ source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tandem_evasion", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "dragonslayers-handbook"
+page = "21"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When adjacent to an ally who also has this feat, you gain evasion aga
 +++
 
 ## Tandem Evasion (Combat, Teamwork)
-
-**Sources:** Dragonslayer's Handbook pg 21
 
 You and your allies help each other evade deadly attacks.\
 **Prerequisites:** Dex 13, [Dodge](ref/feat/dodge).\

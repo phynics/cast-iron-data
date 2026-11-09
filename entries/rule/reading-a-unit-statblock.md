@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reading_a_unit_statblock", path = "json/rules_subsystems02.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "92"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 92
 
 The unit stat blocks are essentially the same for rooms and teams, and are organized as follows.
 Where an entry in a stat block would have no value (for example, a room that can't be upgraded from

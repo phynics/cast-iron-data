@@ -6,12 +6,13 @@ source_ids = ["lands-of-conflict"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rescue_character", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "lands-of-conflict"
+page = "56"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Lands of Conflict pg 56
 
 **Rescue Character** **(Guardians, Infiltrators, or Specialists):** This team breaks into a prison
 or another secure site to rescue a captured character (either a PC or an NPC). To do so, the PCs

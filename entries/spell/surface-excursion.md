@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "surface_excursion", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-darklands"
+page = "21"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Spell resistance: no
 Targets: you plus up to one willing creature per 3 levels
 Subschool: Teleportation
 :::
-
-**Sources:** Heroes of the Darklands pg 21
 
 You instantly transport yourself and touched allies onto the nearest sky-facing surface directly
 above you. The destination surface may be solid ground or the surface of a body of water (or other

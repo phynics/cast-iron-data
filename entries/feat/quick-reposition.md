@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quick_reposition", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "114"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "A reposition combat maneuver is a standard action."
 +++
 
 ## Quick Reposition (Combat)
-
-**Sources:** Ultimate Combat pg 114
 
 Your opponent becomes an unwitting dance partner, following your lead while you fight.\
 **Prerequisites:** Int 13, [Combat Expertise](ref/feat/combat-expertise),

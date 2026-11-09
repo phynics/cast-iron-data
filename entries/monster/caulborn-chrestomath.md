@@ -6,6 +6,9 @@ source_ids = ["pathfinder-63-the-asylum-stone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "caulborn_chrestomath", path = "json/monsters04.json" },
 ]
+[[sources]]
+publication = "pathfinder-63-the-asylum-stone"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ interrupted by transparent membranes showing dark fluid within._
 
 **Senses:** Thoughtsense
 
-**Sources:** Pathfinder \#63: The Asylum Stone pg 84\
 **Subtype:** Extraplanar
 
 **Experience points:** 2,400

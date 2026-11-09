@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/weapon-focus", label = "or" },
 ]
+[[sources]]
+publication = "kobolds-of-golarion"
+page = "25"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ prerequisites = "Weapon Focus or natural weapon, Small size or smaller."
 prerequisite_feats = ["ref/feat/weapon-focus"]
 benefit = "You ignore your Strength penalty to damage when making attacks with your racial natural weapons and weapons for which you have the Weapon Focus feat."
 +++
-
-**Sources:** Kobolds of Golarion pg 25
 
 You have learned to make the most of certain weapons, despite your physical weakness.\
 **Prerequisites:** [Weapon Focus](ref/feat/weapon-focus) or natural weapon, Small size or smaller.\

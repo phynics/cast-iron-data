@@ -6,6 +6,9 @@ source_ids = ["pathfinder-75-demons-heresy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spherewalkers_staff", path = "json/magic_staff.json" },
 ]
+[[sources]]
+publication = "pathfinder-75-demons-heresy"
+page = "63"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Sources:** Pathfinder \#75: Demon's Heresy pg 63\
 **Aura** moderate conjuration; **CL** 9th\
 **Slot** none; **Price** 43,400 gp; **Weight** 3 lbs.
 

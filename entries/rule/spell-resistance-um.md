@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_resistance_um", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "132"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 132
 
 Whether or not spell resistance applies to a spell depends mostly on whether or not it is an
 instantaneous or ongoing magical effect. Spell resistance applies to instantaneous magical effects

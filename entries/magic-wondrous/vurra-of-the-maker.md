@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vurra_of_the_maker", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "271"
+[[sources]]
+publication = "gods-and-magic"
+page = "61"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Inner Sea Gods pg 271, Gods and Magic pg 61\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** neck; **Price** 3,300 gp; **Weight** 5 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clockwork_bug", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "magical-marketplace"
+page = "27"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint illusion"
 caster_level = "4th"
 +++
 
-**Sources:** Magical Marketplace pg 27\
 **Aura** faint illusion; **CL** 4th\
 **Slot** none; **Price** 1,100 gp; **Weight** 1/2 lb.
 

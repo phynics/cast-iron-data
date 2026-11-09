@@ -6,13 +6,14 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ronin", path = "json/class_ability_orders.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "21"
 
 [fields]
 kind = "class_option"
 group = "order"
 +++
-
-**Sources:** Ultimate Combat pg 21
 
 While most [samurai](ref/class/samurai) belong to the order of the warrior, dedicating their
 considerable skills to the service of a lord, land, and people, some find themselves without a

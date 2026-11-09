@@ -6,6 +6,9 @@ source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadde_quah_spirit_bolas", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "56"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Sources:** Inner Sea Combat pg 56\
 **Aura** faint conjuration; **CL** 5th\
 **Slot** weapon; **Price** 13,715 gp; **Weight** 2 lbs.
 

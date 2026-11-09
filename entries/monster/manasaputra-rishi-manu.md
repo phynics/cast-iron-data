@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "manasaputra_rishi_manu", path = "json/monsters16.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "165"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ given form._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 5 pg 165\
 **Subtype:** Extraplanar, Good, Lawful, Manasaputra
 
 **Experience points:** 38,400

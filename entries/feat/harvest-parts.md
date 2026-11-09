@@ -6,6 +6,9 @@ source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "harvest_parts", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "monster-hunters-handbook"
+page = "24"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can attempt a Craft or Heal check, as though making a trophy, to 
 +++
 
 ## Harvest Parts (Item Creation)
-
-**Sources:** Monster Hunter's Handbook pg 24
 
 You can extract the choicest parts from a monster's carcass to use as resources when crafting items.\
 **Prerequisites:** Craft (any) 1 rank or Heal 1 rank.\

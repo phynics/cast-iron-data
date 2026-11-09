@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "evolution_surge_lesser", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "220"
 
 [fields]
 kind = "spell"
@@ -37,8 +40,6 @@ Duration: 1 minute/level
 Saving throw: Will negates (harmless)
 Spell resistance: no
 :::
-
-**Sources:** Advanced Player's Guide pg 220
 
 This spell causes your eidolon to take on new characteristics. You can grant the eidolon any
 evolution whose total cost does not exceed 2 evolution points. You may only grant one evolution with

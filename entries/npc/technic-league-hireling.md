@@ -6,6 +6,9 @@ source_ids = ["numeria-land-of-fallen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "technic_league_hireling", path = "json/npcs5.json" },
 ]
+[[sources]]
+publication = "numeria-land-of-fallen-stars"
+page = "61"
 
 [fields]
 kind = "creature"
@@ -19,7 +22,6 @@ gear is carefully maintained._
 
 **Challenge rating:** 3
 
-**Sources:** Numeria, Land of Fallen Stars pg 61\
 **XP** 800\
 Human [rogue](ref/class/rogue) 4\
 CN Medium humanoid (human)\

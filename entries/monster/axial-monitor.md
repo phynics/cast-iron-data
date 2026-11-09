@@ -6,6 +6,9 @@ source_ids = ["pathfinder-131-the-reapers-right-hand"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "axial_monitor", path = "json/monsters26.json" },
 ]
+[[sources]]
+publication = "pathfinder-131-the-reapers-right-hand"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ torsos are topped with a single head bearing three faces, each set in a bland, s
 
 **Senses:** Darkvision 90 ft., True seeing
 
-**Sources:** Pathfinder \#131: The Reaper's Right Hand pg 82\
 **Subtype:** Extraplanar, Lawful
 
 **Experience points:** 51,200

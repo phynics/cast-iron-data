@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/investigator" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "57"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Trapfinding", "trap sense", "Swift alchemy"]
 alters = ["Weapon and armor proficiency", "Alchemy", "Investigator talents"]
 +++
 
-**Sources:** Ultimate Wilderness pg 57\
 Star watchers study the movements and positions of the sun, the moon, and the stars, searching for
 secrets written in the sky. They use a combination of scientific study and esoteric arts to measure,
 record, and predict astronomical cycles and their effects on nature, such as the moon's influence on

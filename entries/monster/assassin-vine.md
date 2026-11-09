@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "assassin_vine", path = "json/monsters02.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "22"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ ground in an unnatural slither._
 
 **Type:** plant
 
-**Sources:** Pathfinder RPG Bestiary pg 22\
 **Experience points:** 800
 
 **Armor class:** 15/9/15

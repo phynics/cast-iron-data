@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloody_claws", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "206"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
 Target: living creature touched
 :::
-
-**Sources:** Advanced Player's Guide pg 206
 
 You give a creature the ability to deal bleed damage when making natural attacks so long as the
 attack deals slashing or piercing damage. This bleed damage for each attack is equal to one-half

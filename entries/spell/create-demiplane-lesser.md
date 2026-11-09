@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "create_demiplane_lesser", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "214"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Saving throw: none
 Spell resistance: no
 Subschool: Creation
 :::
-
-**Sources:** Ultimate Magic pg 214
 
 You create a small, finite demiplane. You must be on the Astral or Ethereal Plane or on a plane that
 has access to one of those planes (such as the Material Plane) to cast this spell.

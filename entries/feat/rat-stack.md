@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rat_stack", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "blood-of-the-beast"
+page = "23"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can occupy the same square with up to two other creatures that al
 +++
 
 ## Rat Stack (Combat, Teamwork)
-
-**Sources:** Blood of the Beast pg 23
 
 You coordinate efficiently in tight spaces.\
 **Prerequisites:** Dex 13, swarming racial trait.\

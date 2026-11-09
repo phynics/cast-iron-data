@@ -6,6 +6,9 @@ source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_skyseeker", path = "json/class_ability_oaths.json" },
 ]
+[[sources]]
+publication = "divine-anthology"
+page = "21"
 
 [fields]
 kind = "class_option"
@@ -14,7 +17,6 @@ replaces = ["Aura of justice", "Aura of faith"]
 alters = ["Smite evil", "Divine bond"]
 +++
 
-**Sources:** Divine Anthology pg 21\
 The dwarven people look to the legendary Sky Citadels as beacons of dwarven culture. Paladins with
 the oath of the skyseeker swear to defend those citadels their people retain and to help reclaim
 those the dwarves have lost, hoping to one day rebuild them on the greatest, most honorable ideals

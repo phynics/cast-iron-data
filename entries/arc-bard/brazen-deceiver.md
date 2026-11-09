@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "50"
 
 [fields]
 kind = "archetype"
 replaces = ["Countersong", "distraction", "Bardic knowledge", "Well-versed", "Versatile performance", "Lore master"]
 +++
 
-**Sources:** Adventurer's Guide pg 50\
 Where other thieves use stealth or intimidation to achieve their goals, the brazen deceiver depends
 on lies. The [Council of Thieves](ref/rule/aff-thieves) often sends brazen deceivers to acquire
 blackmail materials, arrange the release of incarcerated agents, or otherwise manipulate events in

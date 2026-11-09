@@ -6,6 +6,9 @@ source_ids = ["inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spellscar_fext", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "inner-sea-bestiary"
+page = "49"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ electric-blue tendrils._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Inner Sea Bestiary pg 49\
 **Type:** undead
 
 **Experience points:** 3,200

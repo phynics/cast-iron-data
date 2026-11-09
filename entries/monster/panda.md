@@ -6,6 +6,9 @@ source_ids = ["animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "panda", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "animal-archive"
+page = "29"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ rounder._
 
 **Senses:** Low-light vision
 
-**Sources:** Animal Archive pg 29\
 **Experience points:** 600
 
 **Armor class:** 13/10/13

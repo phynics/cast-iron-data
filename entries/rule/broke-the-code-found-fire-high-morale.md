@@ -6,12 +6,13 @@ source_ids = ["lands-of-conflict"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "broke_the_code_found_fire_high_morale", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "lands-of-conflict"
+page = "58"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Lands of Conflict pg 58
 
 **Broke the Code:** Militia intelligence breaks a code and discovered interesting information. The
 PCs can identify one magic item of any caster level and they each gain a +2 bonus on all

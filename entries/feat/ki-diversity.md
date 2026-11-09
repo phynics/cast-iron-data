@@ -6,6 +6,9 @@ source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ki_diversity", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "faction-guide"
+page = "56"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "You can gain this feat multiple times. Its effects do not stack. Each
 +++
 
 ## Ki Diversity (Combat, Faction)
-
-**Sources:** Faction Guide pg 56
 
 You have trained at the feet of the masters of the Kusari-Gama, a secret society of monk warriors.
 With their secrets you have mastered new ways to apply your ki.\

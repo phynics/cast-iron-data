@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "voluminous_vocabulary", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "229"
 
 [fields]
 kind = "spell"
@@ -55,8 +58,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
 :::
-
-**Sources:** Ultimate Intrigue pg 229
 
 You choose any language (except for secret languages, such as Druidic). The target gains the ability
 to speak, understand, read, and write that language. When you cast this spell, you can attempt a DC

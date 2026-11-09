@@ -6,14 +6,15 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "poison", path = "json/spell_definitions.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "138"
 
 [fields]
 kind = "none"
 +++
 
 ## Poison (spell discriptor)
-
-**Sources:** Ultimate Magic pg 138
 
 Poison effects use poison, venom, [drugs](ref/rule/drugs), or similar toxic substances to disrupt
 and damage living creatures through chemical reactions. Technically, acids and poisons are both

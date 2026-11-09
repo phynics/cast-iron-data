@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/contingency", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "89"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 89
 
 You can cast this spell on yourself or another willing creature as if the spell had a range of
 touch. A companion spell placed on another creature must be a spell from you, not from the creature,

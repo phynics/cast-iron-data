@@ -9,6 +9,12 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ranger" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "113"
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "42"
 
 [fields]
 kind = "archetype"
@@ -16,7 +22,6 @@ replaces = ["Wild empathy", "Endurance", "Woodland stride", "8th-level favored t
 alters = ["Spells", "Favored terrain"]
 +++
 
-**Sources:** Adventurer's Guide pg 113, Inner Sea Intrigue pg 42\
 Lantern lighters were originally entrusted with secretly eliminating the drow and quarantining any
 knowledge of their existence, but in the new [Lantern Bearer](ref/rule/aff-lights) era, the lantern
 lighters have refocused their efforts on helping to rescue those imprisoned by the drow, or even to

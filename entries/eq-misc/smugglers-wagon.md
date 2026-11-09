@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "smugglers_wagon", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "116"
 
 [fields]
 kind = "item"
@@ -13,7 +16,6 @@ category = "Miscellaneous Equipment"
 price = "varies"
 +++
 
-**Sources:** Villain Codex pg 116\
 **Price** varies; **Price of Passage** (per mile) varies\
 **Category** Transport, Land
 

@@ -6,12 +6,13 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "step_3_generate_treasure", path = "json/rules_adv_gm05.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "362"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Equipment pg 362
 
 Once the total approximate value has been determined and the treasure types selected, all that
 remains is to select the actual treasures. Each treasure type has a wide variety of rewards, each

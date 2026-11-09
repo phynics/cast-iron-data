@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gauntlets_of_fumbling", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "346"
+[[sources]]
+publication = "core-rulebook"
+page = "540"
 
 [fields]
 kind = "item"
@@ -16,7 +22,6 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Sources:** Ultimate Equipment pg 346, PRPG Core Rulebook pg 540\
 **Aura** moderate transmutation; **CL** 7th\
 **Slot** hands; **Weight** 2 lbs.
 

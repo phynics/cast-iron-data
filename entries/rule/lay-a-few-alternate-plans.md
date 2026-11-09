@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lay_a_few_alternate_plans", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "17"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 17
 
 There's an adage in military circles: no plan survives contact with the enemy. Sometimes players
 head off in directions you didn't anticipate, defeat your primary villain with a few rolls, miss an

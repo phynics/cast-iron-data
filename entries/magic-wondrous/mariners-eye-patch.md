@@ -6,6 +6,9 @@ source_ids = ["pathfinder-59-the-price-of-infamy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mariners_eye_patch", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "pathfinder-59-the-price-of-infamy"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint evocation and divination"
 caster_level = "5th"
 +++
 
-**Sources:** Pathfinder \#59: The Price of Infamy pg 60\
 **Aura** faint evocation and divination; **CL** 5th\
 **Slot** eyes; **Price** 12,000 gp; **Weight** -
 

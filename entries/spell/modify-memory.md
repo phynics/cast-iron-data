@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "modify_memory", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "315"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Target: one living creature
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 315
 
 You reach into the subject's mind and modify as many as 5 minutes of its memories in one of the
 following ways.

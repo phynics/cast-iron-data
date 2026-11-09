@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boots_of_the_enduring_march", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "229"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration"
 caster_level = "2nd"
 +++
 
-**Sources:** Ultimate Equipment pg 229\
 **Aura** faint conjuration; **CL** 2nd\
 **Slot** feet; **Price** 1,500 gp; **Weight** 2 lbs.
 

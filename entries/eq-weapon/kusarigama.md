@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kusarigama", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "20"
+[[sources]]
+publication = "ultimate-combat"
+page = "132"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "3 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 20, Ultimate Combat pg 132
 
 This weapon has a single [kama](ref/eq-weapon/kama) or [sickle](ref/eq-weapon/sickle) held in the
 off hand, attached by 10 feet of fine chain to a weighted metal ball. The sickle can be used to make

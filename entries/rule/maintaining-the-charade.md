@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "maintaining_the_charade", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "129"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 129
 
 When carrying out a long-term infiltration, characters should strive to keep their personas as easy
 to maintain as possible, and shouldn't rely on disguises or magic to alter their appearance, instead

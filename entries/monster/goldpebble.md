@@ -6,6 +6,9 @@ source_ids = ["pathfinder-128-songbird-scion-saboteur"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "goldpebble", path = "json/monsters12.json" },
 ]
+[[sources]]
+publication = "pathfinder-128-songbird-scion-saboteur"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ stones, a few of which glint with traces of gold._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#128: Songbird, Scion, Saboteur pg 88\
 **Subtype:** Aquatic
 
 **Tremorsense:** present

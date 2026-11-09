@@ -6,12 +6,13 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "antiheroes", path = "json/rules_subsystems01.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "324"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Advanced Player's Guide pg 324
 
 A PC can elect not to use the hero point system, instead relying more on his skills and abilities.
 Such characters do not receive hero points, regardless of the source, and can never benefit from

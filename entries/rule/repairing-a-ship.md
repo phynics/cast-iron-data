@@ -6,12 +6,14 @@ source_ids = ["skull-and-shackles-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "repairing_a_ship", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "skull-and-shackles-players-guide"
+page = "16"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Skull and Shackles Player's Guide pg 16\
 The fastest and easiest way to repair a ship is with spells. [Mending](ref/spell/mending) is not
 powerful enough to meaningfully affect an object as large as a ship, but
 [make whole](ref/spell/make-whole) affects a ship as if it were a construct, repairing 1d6 points of

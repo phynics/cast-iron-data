@@ -6,6 +6,9 @@ source_ids = ["disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "numerology_cylinder", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "disciples-doctrine"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Sources:** Disciple's Doctrine pg 30\
 **Aura** faint abjuration; **CL** 5th\
 **Slot** none; **Price** 5,000 gp; **Weight** 1 lb.
 

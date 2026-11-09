@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staggered_advancement", path = "json/rules_opt_pc_adv01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "42"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 42
 
 When increasing in level, characters often gain new abilities and powers seemingly overnight. The
 following advancement variant allows you to add some verisimilitude to the way in which your

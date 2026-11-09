@@ -6,6 +6,9 @@ source_ids = ["construct-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "commando_construct", path = "json/monster_template1.json" },
 ]
+[[sources]]
+publication = "construct-handbook"
+page = "36"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +1 or +2
-
-**Source:** Construct Handbook/36
 
 Commando constructs are elite fighting machines that often operate alone or in small squads.
 Although they are skilled combatants, these [constructs](ref/type/construct) can handle a variety of

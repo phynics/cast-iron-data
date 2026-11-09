@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_resistance", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "347"
 
 [fields]
 kind = "spell"
@@ -44,7 +47,5 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
 :::
-
-**Sources:** PRPG Core Rulebook pg 347
 
 The target gains spell resistance equal to 12 + your caster level.

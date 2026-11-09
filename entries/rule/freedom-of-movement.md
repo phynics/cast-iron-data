@@ -6,12 +6,13 @@ source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "freedom_of_movement", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Aquatic Adventures\
 In addition to preventing a character from being grappled and several other nasty conditions,
 [freedom of movement](ref/spell/freedom-of-movement) enables the target to move and attack normally
 while underwater. Thus, a creature benefitting from freedom of movement can swing weapons without

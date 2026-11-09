@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cavalier" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "83"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Mount", "Cavalier's charge", "Expert trainer", "Mighty charge", "su
 alters = ["Challenge", "Order"]
 +++
 
-**Sources:** Adventurer's Guide pg 83\
 Some of the most charismatic [Gray Maidens](ref/rule/aff-scarred-ladies) combine their devotion to
 their sisters with the intense tactical training they received, learning to perfectly direct their
 companions and inspiring them to survive and emerge victorious. Known as sisters-in-arms, these

@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "glamered", path = "json/magic_enhancements.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "119"
+[[sources]]
+publication = "core-rulebook"
+page = "463"
 
 [fields]
 kind = "item"
@@ -19,7 +25,6 @@ caster_level = "10th"
 
 ## Glamered
 
-**Sources:** Ultimate Equipment pg 119, PRPG Core Rulebook pg 463\
 **Aura** moderate illusion; **CL** 10th\
 **Slot** armor quality; **Price** +2,700 gp; **Weight** -
 

@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "solifugid_albino_cave_solifugid", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "253"
 
 [fields]
 kind = "creature"
@@ -39,7 +42,6 @@ huge vertical mandibles._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 2 pg 253\
 **Type:** vermin
 
 **Experience points:** 1,200

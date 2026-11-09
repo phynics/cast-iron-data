@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alchemists_kindness", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "101"
+[[sources]]
+publication = "advanced-players-guide"
+page = "183"
 
 [fields]
 kind = "item"
@@ -14,7 +20,6 @@ price = "1 gp"
 weight = "-"
 +++
 
-**Sources:** Ultimate Equipment pg 101, Advanced Player's Guide pg 183\
 **Price** 1 gp; **Weight** -\
 **Category** Alchemical Remedies
 

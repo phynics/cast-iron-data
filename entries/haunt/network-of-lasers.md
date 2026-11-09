@@ -6,12 +6,14 @@ source_ids = ["horror-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "network_of_lasers", path = "json/haunts.json" },
 ]
+[[sources]]
+publication = "horror-realms"
+page = "63"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Realms pg 63\
 The wards guarding priceless artifacts can persist long after the treasures they protect have faded
 into obscurity. Whatever safety measures once kept these ancient wards in check are long forgotten,
 and those foolhardy enough to explore the ruins of technologically advanced civilizations face the

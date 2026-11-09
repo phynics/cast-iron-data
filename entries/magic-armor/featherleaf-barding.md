@@ -6,6 +6,9 @@ source_ids = ["familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "featherleaf_barding", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "familiar-folio"
+page = "21"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "9th"
 +++
 
-**Sources:** Familiar Folio pg 21\
 **Aura** faint transmutation; **CL** 9th\
 **Slot** armor; **Price** 7,310 gp; **Weight** 1 lb.
 

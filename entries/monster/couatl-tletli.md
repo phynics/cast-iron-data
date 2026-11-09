@@ -6,6 +6,9 @@ source_ids = ["pathfinder-143-borne-by-the-suns-grace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "couatl_tletli", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "pathfinder-143-borne-by-the-suns-grace"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ along the feathers of its burning wings._
 
 **Senses:** Darkvision 120 ft., Detect chaos/evil/good/law
 
-**Sources:** Pathfinder \#143: Borne by the Sun's Grace pg 84\
 **Subtype:** Native
 
 **Experience points:** 38,400

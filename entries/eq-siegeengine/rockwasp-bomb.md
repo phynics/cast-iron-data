@@ -6,14 +6,15 @@ source_ids = ["belkzen-hold-of-the-orc-hordes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rockwasp_bomb", path = "json/equipment_siege_engines.json" },
 ]
+[[sources]]
+publication = "belkzen-hold-of-the-orc-hordes"
+page = "39"
 
 [fields]
 kind = "item"
 category = "Siege Engines"
 weight = "100 lbs."
 +++
-
-**Sources:** Belkzen, Hold of the Orc Hordes pg 39
 
 Usable in catapults and trebuchets, this ammunition consists of a wooden crate packed with wax
 globes, from which a faint buzzing sound emanates. Visible as a dark shape at the center of each

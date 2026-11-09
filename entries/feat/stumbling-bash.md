@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stumbling_bash", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "19"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Creatures struck by your shield bash take a -2 penalty to their AC un
 +++
 
 ## Stumbling Bash (Combat, Shield Mastery)
-
-**Sources:** Armor Master's Handbook pg 19
 
 Your shield bash causes your enemies to falter.\
 **Prerequisites:** [Improved Shield Bash](ref/feat/improved-shield-bash),

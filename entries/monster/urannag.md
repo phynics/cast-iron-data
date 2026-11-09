@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "the-worldwound"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "urannag", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "260"
+[[sources]]
+publication = "the-worldwound"
+page = "60"
 
 [fields]
 kind = "creature"
@@ -41,7 +47,6 @@ articulated arms._
 
 **Perception:** +18
 
-**Sources:** Bestiary 5 pg 260, The Worldwound pg 60\
 **Subtype:** Extraplanar
 
 **tremorsense:** 60

@@ -6,6 +6,9 @@ source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "concilator", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "spymasters-handbook"
+page = "15"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can attempt a Diplomacy check to make a request of an enemy even 
 +++
 
 ## Concilator (Story)
-
-**Sources:** Spymaster's Handbook pg 15
 
 You have witnessed terrible violence and prefer a better way\
 **Prerequisites:** Must have successfully requested that the opposing sides of a violent encounter

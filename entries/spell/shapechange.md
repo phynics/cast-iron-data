@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shapechange", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "341"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: no
 Target: you
 Subschool: Polymorph
 :::
-
-**Sources:** PRPG Core Rulebook pg 341
 
 This spell allows you to take the form of a wide variety of creatures. This spell can function as
 alter self, beast shape IV, elemental body IV, form of the dragon III, giant form II, and plant

@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mindful_meditation", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "blood-of-the-beast"
+page = "28"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "For 24 hours after you meditate, you gain a +1 bonus on Will saving t
 +++
 
 ## Mindful Meditation (Meditation)
-
-**Sources:** Blood of the Beast pg 28
 
 You clear your mind of stress and emotion by focusing on calming breathing exercises.\
 **Prerequisites:** Wis 11, [Meditation Master](ref/feat/meditation-master).\

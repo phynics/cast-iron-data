@@ -6,6 +6,9 @@ source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "absorbing_barrier", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "people-of-the-wastes"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: none
 Spell resistance: no (harmless)
 Area: 40-ft.-radius sphere; see text (S)
 :::
-
-**Sources:** People of the Wastes pg 28
 
 You ward all creatures and objects in the area from ranged weapons. The spell's area of effect is
 often a sphere, although you can shape it to be smaller than the maximum area or to exclude certain

@@ -6,6 +6,12 @@ source_ids = ["ultimate-intrigue", "pathfinder-society-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "polish_of_inconspicuous_armor", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "250"
+[[sources]]
+publication = "pathfinder-society-primer"
+page = "25"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Intrigue pg 250, Pathfinder Society Primer pg 25\
 **Aura** faint conjuration; **CL** 5th\
 **Slot** none; **Price** 750 gp; **Weight** 1/2 lb.
 

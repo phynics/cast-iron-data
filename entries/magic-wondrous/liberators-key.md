@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "liberators_key", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "45"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Adventurer's Guide pg 45\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** none; **Price** 2,000 gp; **Weight** -
 

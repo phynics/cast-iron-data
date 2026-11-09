@@ -6,14 +6,15 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "light_bearer", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "134"
 
 [fields]
 kind = "feat"
 prerequisites = "Character level 4th."
 benefit = "This feat is similar to the Leadership feat, with several exceptions. You can attract only a 1st-level cohort (referred to hereafter as a light bearer) with this feat, and can't recruit followers. You determine your Leadership score according to the rules presented in the Leadership feat, but your light bearer is always at least 3 levels lower than your level. A light bearer can take levels in alchemist, fighter, or rogue. The light bearer cannot multiclass, though he can take any archetype for which he qualifies."
 +++
-
-**Sources:** Ultimate Intrigue pg 134
 
 You recruit a torchbearer who joins you on your adventures to help illuminate even the darkest
 dungeons.\

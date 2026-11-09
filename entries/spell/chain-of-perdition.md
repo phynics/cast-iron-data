@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chain_of_perdition", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "225"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: yes
 Effect: 10-ft. chain
 Descriptors: force
 :::
-
-**Sources:** Ultimate Combat pg 225
 
 A floating chain of force with hooks at each end appears within an unoccupied space of your choosing
 within range. This chain is a Medium object that has a 10-foot reach. Physical attacks cannot hit or

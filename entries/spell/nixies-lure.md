@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nixies_lure", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "179"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Target: all creatures within a 300-ft.-radius burst centered on you
 Subschool: Charm
 Descriptors: mind-affecting, sonic
 :::
-
-**Sources:** Advanced Race Guide pg 179
 
 > _[Undines](ref/race/undine) have access to the following spell._
 

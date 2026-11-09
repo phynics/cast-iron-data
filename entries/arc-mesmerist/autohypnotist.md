@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/mesmerist" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "17"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Mental potency"]
 alters = ["Hypnotic stare"]
 +++
 
-**Sources:** Psychic Anthology pg 17\
 An autohypnotist has incredibly powerful psychic abilities that he can't entirely control. As a
 result, maintaining his powers against an opponent hinders him as much as his target.
 

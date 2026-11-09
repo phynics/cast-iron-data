@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animate_dream", path = "json/monsters02.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "29"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ _This indistinct figure suddenly takes on a nightmarish shape, not quite human o
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 2 pg 29\
 **Subtype:** Extraplanar, Incorporeal
 
 **Experience points:** 4,800

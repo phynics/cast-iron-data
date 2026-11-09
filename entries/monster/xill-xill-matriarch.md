@@ -6,6 +6,9 @@ source_ids = ["occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "xill_xill_matriarch", path = "json/monsters41.json" },
 ]
+[[sources]]
+publication = "occult-bestiary"
+page = "60"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ from its head._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Occult Bestiary pg 60\
 **Subtype:** Evil, Extraplanar
 
 **Experience points:** 6,400

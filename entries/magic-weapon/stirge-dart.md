@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stirge_dart", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "25"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong necromancy and transmutation"
 caster_level = "15th"
 +++
 
-**Sources:** Dirty Tactics Toolbox pg 25\
 **Aura** strong necromancy and transmutation; **CL** 15th\
 **Slot** none; **Price** 4,501 gp; **Weight** 1/2 lb.
 

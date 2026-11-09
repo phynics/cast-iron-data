@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unstoppable", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "301"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Unstoppable (Ex) \[Mythic\]
 
-**Sources:** Bestiary 4 pg 301\
 The creature can expend one use of mythic power as a free action to immediately end any one of the
 following conditions currently affecting it: bleed, blind, confused, cowering, dazed, dazzled,
 deafened, entangled, exhausted, fascinated, fatigued, frightened, nauseated, panicked, paralyzed,

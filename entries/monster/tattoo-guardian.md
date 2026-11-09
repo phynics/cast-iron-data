@@ -6,6 +6,9 @@ source_ids = ["occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tattoo_guardian", path = "json/monsters23.json" },
 ]
+[[sources]]
+publication = "occult-bestiary"
+page = "54"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ _This beautiful, impossibly intricate tattoo appears to swirl and move along its
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Occult Bestiary pg 54\
 **Experience points:** 800
 
 **Armor class:** 15/13/12

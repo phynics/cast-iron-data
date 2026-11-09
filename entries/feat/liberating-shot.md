@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "liberating_shot", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "21"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you hit an opponent with a ranged attack as part of an attack ac
 +++
 
 ## Liberating Shot (Weapon Mastery)
-
-**Sources:** Weapon Master's Handbook pg 21
 
 You can use ranged weapons to help grappled allies escape their captors' clutches.\
 **Prerequisites:** Dex 13, [Deadly Aim](ref/feat/deadly-aim), base attack bonus +7, weapon training

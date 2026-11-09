@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aqueous_orb", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "202"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Effect: 10-ft.-diameter sphere
 Subschool: Creation
 Descriptors: water
 :::
-
-**Sources:** Advanced Player's Guide pg 202
 
 You create a rolling sphere of churning water that can engulf those it strikes. The aqueous orb can
 move up to 30 feet per round, rolling over barriers less than 10 feet tall. It automatically

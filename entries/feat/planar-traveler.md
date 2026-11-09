@@ -6,6 +6,9 @@ source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planar_traveler", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "quests-and-campaigns"
+page = "12"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You gain a +2 bonus on Survival checks when outside your home plane. 
 +++
 
 ## Planar Traveler (Story)
-
-**Sources:** Quests and Campaigns pg 12
 
 The confines of the Material Plane cannot sate your wanderlust, and you walk between alternate
 spheres of reality unhindered.\

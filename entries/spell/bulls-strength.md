@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bulls_strength", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "251"
 
 [fields]
 kind = "spell"
@@ -56,8 +59,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
 :::
-
-**Sources:** PRPG Core Rulebook pg 251
 
 The subject becomes stronger. The spell grants a +4 enhancement bonus to Strength, adding the usual
 benefits to melee attack rolls, melee damage rolls, and other uses of the Strength modifier.

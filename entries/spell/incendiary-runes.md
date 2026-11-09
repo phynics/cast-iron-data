@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/explosive-runes" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "31"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: yes
 Target: one touched object weighing no more than 10 lbs.
 Descriptors: fire
 :::
-
-**Sources:** Black Markets pg 31
 
 This spell functions as [explosive runes](ref/spell/explosive-runes), except it creates a small
 surge of flames rather than an explosion of force. The runes automatically deal 1d6 points of fire

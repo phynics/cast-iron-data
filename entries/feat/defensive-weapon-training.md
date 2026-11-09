@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "defensive_weapon_training", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "95"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "You can select this feat more than once. Its effects do not stack. Ea
 +++
 
 ## Defensive Weapon Training (Combat)
-
-**Sources:** Ultimate Combat pg 95
 
 You know how to defend yourself against a certain class of weaponry.\
 **Prerequisites:** Int 13, base attack bonus +5.\

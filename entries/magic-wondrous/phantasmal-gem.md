@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phantasmal_gem", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "38"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint illusion"
 caster_level = "3rd"
 +++
 
-**Sources:** Advanced Race Guide pg 38\
 **Aura** faint illusion; **CL** 3rd\
 **Slot** none; **Price** 4,000 gp; **Weight** 1 lb.
 

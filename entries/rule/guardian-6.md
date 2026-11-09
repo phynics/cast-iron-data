@@ -6,12 +6,20 @@ source_ids = ["mythic-adventures", "mythic-origins", "heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guardian_6", path = "json/rules_campaign_types07.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "31"
+[[sources]]
+publication = "mythic-origins"
+page = "25"
+[[sources]]
+publication = "heroes-of-golarion"
+page = "30"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 31, Mythic Origins pg 25, Heroes of Golarion pg 30\
 You must be at least 6th tier to select these path abilities.
 
 **Cling to Life (Su):** When you die, as long as your body remains, you can be healed by any spell

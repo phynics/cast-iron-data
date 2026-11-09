@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "toad_giant_toad", path = "json/monsters23.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "268"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ about to croak._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Bestiary 2 pg 268\
 **Experience points:** 600
 
 **Armor class:** 14/10/13

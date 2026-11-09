@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swashbucklers_kit", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "206"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "9 gp"
 weight = "42 lbs."
 +++
 
-**Sources:** Advanced Class Guide pg 206\
 **Price** 9 gp; **Weight** 42 lbs.\
 **Category** Kits
 

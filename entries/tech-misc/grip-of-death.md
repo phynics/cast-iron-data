@@ -6,6 +6,9 @@ source_ids = ["pathfinder-88-valley-of-the-brain-collectors"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grip_of_death", path = "json/equipment_tech_misc.json" },
 ]
+[[sources]]
+publication = "pathfinder-88-valley-of-the-brain-collectors"
+page = "72"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ slot = "none"
 aura = "moderate necromancy and transmutation"
 +++
 
-**Sources:** Pathfinder \#88: Valley of the Brain Collectors pg 72\
 **Price** 90,000 gp\
 **Slot** none; **Weight** 1 lb.\
 **Capacity** 10; **Usage** 1 charge/round

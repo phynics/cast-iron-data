@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "xill", path = "json/monsters41.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "283"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ twitching, fanged mandibles._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 283\
 **Subtype:** Evil, Extraplanar
 
 **Experience points:** 2,400

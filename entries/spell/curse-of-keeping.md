@@ -6,6 +6,9 @@ source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "curse_of_keeping", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "30"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: curse
 :::
-
-**Sources:** Black Markets pg 30
 
 You curse the target with the inability to sell, barter, or give away any item it owns, other than
 ordinary currency, for as long as the spell remains in effect. The target cannot sell, trade, drop,

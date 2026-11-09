@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "piercing_shriek", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "231"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: pain, sonic
 :::
-
-**Sources:** Ultimate Magic pg 231
 
 You emit an ear-splitting shriek which can be heard only by the target of this spell; all other
 observers merely see you screaming silently. The target suffers wracking pain from the scream,

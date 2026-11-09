@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/monstrous-physique-3" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "229"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Subschool: Polymorph
 :::
 
 ### Monstrous Physique IV
-
-**Sources:** Ultimate Magic pg 229
 
 This spell functions as [monstrous physique III](ref/spell/monstrous-physique-3) except it allows
 you to use more abilities. If the form you assume has any of the following abilities, you gain the

@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phylactery_of_negative_channeling", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "252"
+[[sources]]
+publication = "core-rulebook"
+page = "525"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate necromancy"
 caster_level = "10th"
 +++
 
-**Sources:** Ultimate Equipment pg 252, PRPG Core Rulebook pg 525\
 **Aura** moderate necromancy; **CL** 10th\
 **Slot** headband; **Price** 11,000 gp; **Weight** -
 

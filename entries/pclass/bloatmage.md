@@ -6,14 +6,15 @@ source_ids = ["city-of-strangers"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloatmage", path = "json/prestige_classes.json" },
 ]
+[[sources]]
+publication = "city-of-strangers"
+page = "60"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d6."
 +++
-
-**Sources:** City of Strangers pg 60
 
 Hemotheurges - more commonly and derogatorily referred to as bloatmages - are arcanists who believe
 there's literal truth to the old aphorism that "magic runs in the blood." By magically overriding

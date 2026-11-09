@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/align-weapon" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "173"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Target: weapon touched or 50 projectiles (all of which must be together at the t
 :::
 
 ### Communal Align Weapon
-
-**Sources:** Advanced Class Guide pg 173
 
 This spell functions as [align weapon](ref/spell/align-weapon), except you divide the duration in
 1-minute increments between any number of touched weapons. Every group of up to 50 projectiles

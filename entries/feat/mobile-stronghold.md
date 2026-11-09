@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mobile_stronghold", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "12"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using a tower shield, you do not suffer a penalty on attack rol
 +++
 
 ## Mobile Stronghold (Combat)
-
-**Sources:** Armor Master's Handbook pg 12
 
 You can use your tower shield to block magical attacks.\
 **Prerequisites:** Str 17, [Mobile Bulwark Style](ref/feat/mobile-bulwark-style),

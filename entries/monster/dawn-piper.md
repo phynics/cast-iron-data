@@ -6,6 +6,9 @@ source_ids = ["pathfinder-68-the-shackled-hut"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dawn_piper", path = "json/monsters08.json" },
 ]
+[[sources]]
+publication = "pathfinder-68-the-shackled-hut"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ long, graceful fingers._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#68: The Shackled Hut pg 86\
 **Subtype:** Extraplanar
 
 **Experience points:** 1,600

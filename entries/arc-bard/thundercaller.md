@@ -9,13 +9,18 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "41"
+[[sources]]
+publication = "varisia-birthplace-of-legends"
+page = "11"
 
 [fields]
 kind = "archetype"
 replaces = ["Bardic knowledge", "Inspire competence", "Suggestion", "mass suggestion", "Dirge of doom", "Frightening tune"]
 +++
 
-**Sources:** Ultimate Wilderness pg 41, Varisia, Birthplace of Legends pg 11\
 Thundercallers bear the knowledge of the ancients, wielding it like a weapon to protect the land for
 which they care so deeply. Their voices ring like thunder, calling the sky's wrath down upon their
 enemies and summoning furious rage to bolster their allies.

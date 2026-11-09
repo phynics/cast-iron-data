@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "suffocation", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "248"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: Fortitude partial
 Spell resistance: yes
 Target: one living creature
 :::
-
-**Sources:** Advanced Player's Guide pg 248
 
 This spell extracts the air from the target's lungs, causing swift suffocation. The target can
 attempt to resist this spell's effects with a Fortitude save - if he succeeds, he is merely

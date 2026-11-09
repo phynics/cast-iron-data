@@ -6,6 +6,8 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "minuet_of_the_midnight_ivy", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
 
 [fields]
 kind = "class_option"
@@ -13,8 +15,6 @@ group = "bardic-masterpiece"
 +++
 
 ## Minuet of the Midnight Ivy (Dance)
-
-**Sources:** Ultimate Magic
 
 Your winding, twisting dance is helpful in dodging obstacles and climbing.
 

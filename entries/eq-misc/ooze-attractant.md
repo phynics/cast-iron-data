@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ooze_attractant", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-darklands"
+page = "29"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "100 gp"
 weight = "1 lb."
 +++
 
-**Sources:** Heroes of the Darklands pg 29\
 **Price** 100 gp; **Weight** 1 lb.\
 **Category** Alchemical Tools
 

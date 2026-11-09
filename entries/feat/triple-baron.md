@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/fey-obedience", label = "or" },
 ]
+[[sources]]
+publication = "plane-hoppers-handbook"
+page = "22"
 
 [fields]
 kind = "feat"
@@ -19,8 +22,6 @@ benefit = "Three times per day as an immediate action, when you are about to rol
 +++
 
 ## Triple-Baron (Gathlain Court Title)
-
-**Sources:** Plane-Hopper's Handbook pg 22
 
 [The Three](ref/faith/magdh) have seen your offerings and proclaimed them satisfactory, even before
 you actually had the chance to show those offerings to them.\

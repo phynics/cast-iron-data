@@ -6,6 +6,9 @@ source_ids = ["chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "surprising_strategy", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "chronicle-of-legends"
+page = "9"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "In addition to the attack of opportunity you can make when you succes
 +++
 
 ## Surprising Strategy (Combat)
-
-**Sources:** Chronicle of Legends pg 9
 
 Your quick swordsmanship leaves your opponents struggling to predict your moves.\
 **Prerequisites:** Riposte class feature.\

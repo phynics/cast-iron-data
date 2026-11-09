@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "maximize", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "189"
+[[sources]]
+publication = "core-rulebook"
+page = "485"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong (no school)"
 caster_level = "17th"
 +++
 
-**Sources:** Ultimate Equipment pg 189, PRPG Core Rulebook pg 485\
 **Aura** strong (no school); **CL** 17th\
 **Slot** none; **Price** 14,000 gp (lesser \[up to 3rd-level spells\]), 54,000 gp (normal \[up to
 6th-level spells\]), 121,500 gp (greater \[all spells\]); **Weight** 5 lbs.

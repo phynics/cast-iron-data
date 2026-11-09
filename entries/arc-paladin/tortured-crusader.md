@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/paladin" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "65"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Detect evil", "divine grace", "Aura of justice"]
 alters = ["Spellcasting", "smite evil", "lay on hands", "Class skills", "skill ranks per level", "Smite evil", "Lay on hands", "channel energy", "divine bond", "aura of courage", "aura of resolve", "aura of faith", "aura of righteousness", "Lay on hands", "mercy"]
 +++
 
-**Sources:** Horror Adventures pg 65\
 Though tortured crusaders may be beaten and battered, body, mind, and soul, they still somehow
 continue through torment and hardship. Despite setbacks and impossible odds, they shine like candles
 even in the darkest times. Somewhere in their minds, they realize that they can't win in the end,

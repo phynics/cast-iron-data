@@ -6,6 +6,9 @@ source_ids = ["pathfinder-79-the-half-dead-city"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kohl_of_uncanny_discernment", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "pathfinder-79-the-half-dead-city"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "1st"
 +++
 
-**Sources:** Pathfinder \#79: The Half-Dead City pg 60\
 **Aura** faint transmutation; **CL** 1st\
 **Slot** none; **Price** 1,500 gp; **Weight** -
 

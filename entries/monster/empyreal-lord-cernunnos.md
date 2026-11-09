@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "empyreal_lord_cernunnos", path = "json/monsters_unique4.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -50,7 +53,6 @@ stare._
 **Senses:** Darkvision 60 ft., Detect evil, Detect poison, Discern lies, Low-light vision, True
 seeing
 
-**Sources:** Bestiary 4 pg 88\
 **Subtype:** Azata, Chaotic, Extraplanar, Good
 
 **Experience points:** 9,830,400

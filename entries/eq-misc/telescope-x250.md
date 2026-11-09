@@ -6,6 +6,9 @@ source_ids = ["people-of-the-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "telescope_x250", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "people-of-the-stars"
+page = "27"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "12 lbs. (&times;10), 44 lbs. (&times;250), 23 lbs. (&times;50)"
 
 ## Telescope
 
-**Sources:** People of the Stars pg 27\
 **Price** 2,000 gp (×10), 8,000 gp (×250), 4,000 gp (×50); **Weight** 12 lbs. (×10), 44 lbs. (×250),
 23 lbs. (×50)
 

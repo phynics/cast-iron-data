@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/legend-lore" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "365"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** PRPG Core Rulebook pg 365
 
 This spell functions like [legend lore](ref/spell/legend-lore), except that it works more quickly
 and produces some strain on you. You pose a question about some person, place, or object, then cast

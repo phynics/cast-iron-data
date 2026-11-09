@@ -6,6 +6,12 @@ source_ids = ["pathfinder-37-souls-for-smugglers-shiv", "bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sea_urchin_giant_hunter_urchin", path = "json/monsters21.json" },
 ]
+[[sources]]
+publication = "pathfinder-37-souls-for-smugglers-shiv"
+page = "84"
+[[sources]]
+publication = "bestiary-5"
+page = "223"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ two-foot-long bright purple spines that darken to ominous black tips._
 
 **Senses:** All-around vision, Low-light vision, Scent
 
-**Sources:** Pathfinder \#37: Souls for Smuggler's Shiv pg 84, Bestiary 5 pg 223\
 **Subtype:** Aquatic
 
 **tremorsense:** 30

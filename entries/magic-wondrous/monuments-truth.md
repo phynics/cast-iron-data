@@ -6,6 +6,9 @@ source_ids = ["pathfinder-139-the-dead-road"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monuments_truth", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "pathfinder-139-the-dead-road"
+page = "65"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong divination and necromancy"
 caster_level = "12th"
 +++
 
-**Sources:** Pathfinder \#139: The Dead Road pg 65\
 **Aura** strong divination and necromancy; **CL** 12th\
 **Slot** none; **Price** 3,600 gp; **Weight** 1/2 lb.
 

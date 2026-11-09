@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "leashed_shackles", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "226"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: force
 :::
-
-**Sources:** Ultimate Magic pg 226
 
 You create shackles of force that attach to the target's limbs. You designate an object or location
 within 30 feet of the target for the shackles to anchor themselves to; this must be the ground, a

@@ -6,6 +6,9 @@ source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kraggodans_stance", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
+page = "11"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "As a move action when wearing heavy armor and using a heavy shield or
 +++
 
 ## Kraggodan's Stance (Combat)
-
-**Sources:** Elemental Master's Handbook pg 11
 
 You have learned one of the secrets of Kraggodan's defenders and can lock your armor and shield into
 an impenetrable barrier.\

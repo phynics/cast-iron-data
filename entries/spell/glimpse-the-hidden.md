@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/see-invisibility" },
 ]
+[[sources]]
+publication = "potions-and-poisons"
+page = "17"
 
 [fields]
 kind = "spell"
@@ -58,8 +61,6 @@ Target: you
 :::
 
 ### Glimpse the Hidden
-
-**Sources:** Potions and Poisons pg 17
 
 This spell functions as [see invisibility](ref/spell/see-invisibility), except as noted here. This
 spell cannot be made permanent.

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-74-sword-of-valor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "apparent_treachery", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "pathfinder-74-sword-of-valor"
+page = "74"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Targets: one creature/level, no two of which can be more than 30 ft. apart
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Pathfinder \#74: Sword of Valor pg 74
 
 You shroud a number of creatures in an aura of suspicion and fill them with extreme paranoia
 regarding their allies. Affected targets believe their companions are behaving erratically,

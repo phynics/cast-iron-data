@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magnificent_map", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "248"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate illusion"
 caster_level = "11th"
 +++
 
-**Sources:** Ultimate Intrigue pg 248\
 **Aura** moderate illusion; **CL** 11th\
 **Slot** none; **Price** 7,800 gp; **Weight** -
 

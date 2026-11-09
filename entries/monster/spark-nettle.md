@@ -6,6 +6,9 @@ source_ids = ["pathfinder-36-sound-of-a-thousand-screams"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spark_nettle", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "pathfinder-36-sound-of-a-thousand-screams"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ making a different note in an eerie harmony._
 
 **Perception:** +12
 
-**Sources:** Pathfinder \#36: Sound of a Thousand Screams pg 86\
 **Subtype:** Extraplanar
 
 **Experience points:** 2,400

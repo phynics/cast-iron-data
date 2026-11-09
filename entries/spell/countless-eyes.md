@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "countless_eyes", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "213"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
 :::
-
-**Sources:** Ultimate Magic pg 213
 
 The target sprouts extra eyes all over its body, including on the back of its head. It gains
 all-around vision and cannot be flanked.

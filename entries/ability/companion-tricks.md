@@ -6,12 +6,14 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "companion_tricks", path = "json/class_abilities6.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "214"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Ultimate Wilderness pg 214\
 Certain [animal tricks](ref/ability/animal-tricks) can only be taught to
 [animal companions](ref/sidekick/animal-companion), and often require the animal to have specific
 characteristics. They otherwise follow the rules for [teaching tricks](ref/skill/handle-animal).

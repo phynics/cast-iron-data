@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "adoration", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "222"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: emotion, mind-affecting
 :::
-
-**Sources:** Ultimate Combat pg 222
 
 The target of this spell is the subject of adoration by those whom it tries to affect with Diplomacy
 or during performance combat. If the target is out of combat, it receives a +2 morale bonus on all

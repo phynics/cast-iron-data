@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "whale_great_white_whale", path = "json/monsters25.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "282"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ hide is laced with scars._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 2 pg 282\
 **Experience points:** 38,400
 
 **Armor class:** 28/0/28

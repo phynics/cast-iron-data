@@ -6,6 +6,9 @@ source_ids = ["people-of-the-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "starsight", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "people-of-the-stars"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** People of the Stars pg 29
 
 You can observe the night sky and all of its celestial bodies as if it were a clear night,
 regardless of weather conditions that would otherwise block your view. Your vision penetrates any

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_barbs", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "59"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Effect: spiked chain-like shadowy weapon
 Subschool: Shadow
 Descriptors: darkness
 :::
-
-**Sources:** Inner Sea Magic pg 59
 
 This spell, developed originally by priests of Zon-Kuthon in Nidal's early years, has recently
 crossed the boundary between divine and arcane magic. Although it still bears some of the stigma of

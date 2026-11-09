@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/fighter" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "105"
 
 [fields]
 kind = "archetype"
 replaces = ["Bravery", "Weapon training 1, 2, 3, and 4", "Armor training 3", "Armor training 4", "Weapon mastery"]
 +++
 
-**Sources:** Advanced Player's Guide pg 105\
 Where some fighters focus on strength and raw power, the mobile fighter relies on swiftness and
 mobility, gliding across the battlefield like a steel whirlwind and leaving destruction in his wake.
 

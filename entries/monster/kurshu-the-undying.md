@@ -6,6 +6,9 @@ source_ids = ["pathfinder-65-into-the-nightmare-rift"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kurshu_the_undying", path = "json/monsters_unique4.json" },
 ]
+[[sources]]
+publication = "pathfinder-65-into-the-nightmare-rift"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ withered, like a preserved corpse._
 
 **Senses:** Darkvision 120 ft., Low-light vision, Scent
 
-**Sources:** Pathfinder \#65: Into the Nightmare Rift pg 88\
 **Subtype:** Evil, Extraplanar, Lawful
 
 **Experience points:** 51,200

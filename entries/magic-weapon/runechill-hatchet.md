@@ -6,6 +6,12 @@ source_ids = ["rise-of-the-runelords-anniversary-edition", "pathfinder-4-fortres
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "runechill_hatchet", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "rise-of-the-runelords-anniversary-edition"
+page = "423"
+[[sources]]
+publication = "pathfinder-4-fortress-of-the-stone-giants"
+page = "46"
 
 [fields]
 kind = "item"
@@ -17,8 +23,6 @@ aura = "moderate necromancy"
 caster_level = "5th"
 +++
 
-**Sources:** Rise of the Runelords Anniversary Edition pg 423, Pathfinder \#4: Fortress of the Stone
-Giants pg 46\
 **Aura** moderate necromancy; **CL** 5th\
 **Slot** none; **Price** 5,312 gp; **Weight** 6 lbs.
 

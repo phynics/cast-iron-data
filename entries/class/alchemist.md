@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide", "chronicle-of-legends", "plane-hoppers-h
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alchemist", path = "json/classes.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "26"
 
 [fields]
 kind = "class"
@@ -13,8 +16,6 @@ class_type = "base"
 hit_die = "d8"
 skill_ranks = "4 + Int modifier"
 +++
-
-**Sources:** Advanced Player's Guide pg 26
 
 Whether secreted away in a smoky basement laboratory or gleefully experimenting in a well-respected
 school of magic, the alchemist is often regarded as being just as unstable, unpredictable, and

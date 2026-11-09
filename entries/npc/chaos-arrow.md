@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chaos_arrow", path = "json/npcs6.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "203"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "19"
 
 **Challenge rating:** 19
 
-**Sources:** NPC Codex pg 203\
 **XP** 204,800\
 Gnome [rogue](ref/class/rogue) 6/[sorcerer](ref/class/sorcerer) 4/arcane archer 10\
 CE Small humanoid (gnome)\

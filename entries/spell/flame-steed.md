@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/phantom-steed" },
 ]
+[[sources]]
+publication = "wilderness-origins"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -54,8 +57,6 @@ Subschool: Creation
 :::
 
 ### Flame Steed
-
-**Sources:** Wilderness Origins pg 28
 
 You conjure a Large, quasi-real creature made of flame. It functions like
 [phantom steed](ref/spell/phantom-steed), except as follows.

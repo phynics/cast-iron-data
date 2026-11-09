@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blissful_spell", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "26"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "You can alter any spell that targets a single creature to become a bl
 +++
 
 ## Blissful Spell (Metamagic)
-
-**Sources:** Planar Adventures pg 26
 
 The absolute peace of Nirvana infuses your spells, giving pause to foes and granting boldness to
 allies.\

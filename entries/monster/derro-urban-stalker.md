@@ -6,6 +6,9 @@ source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "derro_urban_stalker", path = "json/monsters07.json" },
 ]
+[[sources]]
+publication = "inner-sea-monster-codex"
+page = "25"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ weapon glistens with poison._
 
 **Size:** small
 
-**Sources:** Inner Sea Monster Codex pg 25\
 **Subtype:** Derro
 
 **Experience points:** 3,200

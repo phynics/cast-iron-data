@@ -6,6 +6,9 @@ source_ids = ["mythic-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blackblot", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "mythic-origins"
+page = "18"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Sources:** Mythic Origins pg 18\
 **Aura** moderate necromancy; **CL** 7th\
 **Slot** none; **Price** 4,200 gp; **Weight** 1/2 lb.
 

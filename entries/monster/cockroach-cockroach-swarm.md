@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cockroach_cockroach_swarm", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "58"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ over everything in its path._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 2 pg 58\
 **Subtype:** Swarm
 
 **tremorsense:** 30

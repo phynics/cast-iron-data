@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/monk" },
 ]
+[[sources]]
+publication = "the-harrow-handbook"
+page = "7"
 
 [fields]
 kind = "archetype"
 replaces = ["Stunning fist", "Improved evasion", "Diamond body", "Quivering palm"]
 +++
 
-**Sources:** The Harrow Handbook pg 7\
 Some who study the mysteries of the harrow do so to restore lost knowledge and pride to the Varisian
 people. The harrow warden fulfills this role as she seeks to bring her mind and body into alignment,
 and she protects her people by invoking the folklore that has guided them for so long. In mastering

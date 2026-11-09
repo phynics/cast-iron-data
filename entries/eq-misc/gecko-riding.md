@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gecko_riding", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "81"
+[[sources]]
+publication = "advanced-race-guide"
+page = "105"
 
 [fields]
 kind = "item"
@@ -16,7 +22,6 @@ weight = "1,200 lbs. (riding), 1,500 lbs. (riding, combat trained)"
 
 ## Gecko
 
-**Sources:** Ultimate Equipment pg 81, Advanced Race Guide pg 105\
 **Price** 300 gp (riding), 400 gp (riding, combat trained); **Weight** 1,200 lbs. (riding), 1,500
 lbs. (riding, combat trained)
 

@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aboleths_lung", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "189"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: Will negates
 Spell resistance: yes
 Target: living creatures touched
 :::
-
-**Sources:** Advanced Race Guide pg 189
 
 > _The following spell is available to the indicated race or ethnicity: [Gillman](ref/race/gillman)_
 

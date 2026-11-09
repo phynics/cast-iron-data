@@ -6,12 +6,13 @@ source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swimming_and_aquatic_adventures", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Aquatic Adventures\
 Barring the use of magic, swimming is the main way to travel in an aquatic adventure. However, the
 Swim skill was written from the perspective of a primarily land-based campaign.
 

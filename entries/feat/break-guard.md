@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "break_guard", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "91"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While wielding two weapons, whenever you successfully use one weapon 
 +++
 
 ## Break Guard (Combat)
-
-**Sources:** Ultimate Combat pg 91
 
 You can use one of your two weapons to occupy your opponent's defenses while attacking with the
 other.\

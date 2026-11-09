@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "catching_on_fire", path = "json/rules_gm08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "444"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 444
 
 Characters exposed to burning oil, bonfires, and non-instantaneous magic fires might find their
 clothes, hair, or equipment on fire. Spells with an instantaneous duration don't normally set a

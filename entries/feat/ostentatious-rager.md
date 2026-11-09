@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ostentatious_rager", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "87"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can earn money with Intimidate by performing feats of strength an
 +++
 
 ## Ostentatious Rager (Combat)
-
-**Sources:** Ultimate Intrigue pg 87
 
 You can enthrall onlookers with a show of ferocious might or compel enemies to regard you as a
 crucial threat.\

@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mongrel_giant", path = "json/monster_template3.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "192"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Challenge rating:** +1
 
 **Inherited:** present
-
-**Source:** Bestiary 6/192
 
 While most [giants](ref/subtype/giant) have the physical features of the type of giant of their
 immediate ancestors, occasionally a giant gives birth to a child who has physical traits associated

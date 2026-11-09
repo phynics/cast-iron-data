@@ -6,6 +6,9 @@ source_ids = ["orcs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_rage", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "orcs-of-golarion"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Target: one willing living creature per 2 levels, no two of which may be more th
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Orcs of Golarion pg 28
 
 The targets of this spell become angrier as they fight, the pain of their wounds fueling their
 strength. An affected creature gains a cumulative +2 morale bonus to Strength and a cumulative -1

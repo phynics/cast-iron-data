@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "breastplate_of_command", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "124"
+[[sources]]
+publication = "core-rulebook"
+page = "464"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong enchantment"
 caster_level = "15th"
 +++
 
-**Sources:** Ultimate Equipment pg 124, PRPG Core Rulebook pg 464\
 **Aura** strong enchantment; **CL** 15th\
 **Slot** armor; **Price** 25,400 gp; **Weight** 30 lbs.
 

@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "using_a_library", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "148"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 148
 
 Every library has two primary statistics: a Complexity rating, which reflects the intricacy or
 confusing nature of the library's contents, and knowledge points (abbreviated kp), which are an

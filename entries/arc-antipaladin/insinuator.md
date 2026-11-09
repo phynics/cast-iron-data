@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/antipaladin" },
 ]
+[[sources]]
+publication = "agents-of-evil"
+page = "20"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Aura of evil", "Smite good", "Touch of corruption", "Aura of coward
 alters = ["Detect good", "Channel negative energy"]
 +++
 
-**Sources:** Agents of Evil pg 20\
 Between the selfless nobility of paladins and the chaotic menace of antipaladins, there exists a
 path of dedicated self-interest. Shunning the ties that bind them to a single deity, insinuators
 embrace whatever forces help them achieve their own agenda and glory, borrowing power to emulate

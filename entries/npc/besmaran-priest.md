@@ -6,6 +6,9 @@ source_ids = ["isles-of-the-shackles"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "besmaran_priest", path = "json/npcs5.json" },
 ]
+[[sources]]
+publication = "isles-of-the-shackles"
+page = "43"
 
 [fields]
 kind = "creature"
@@ -19,7 +22,6 @@ crafted rapier; the tricorne hat atop her head depicts a skull and crossbones._
 
 **Challenge rating:** 4
 
-**Sources:** Isles of the Shackles pg 43\
 **XP** 1,200\
 Female [cleric](ref/class/cleric) of [Besmara](ref/faith/besmara) 5\
 CN Medium humanoid (human)\

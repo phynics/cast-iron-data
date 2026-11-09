@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kraken", path = "json/monsters34.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "184"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ unsettling to look upon._
 
 **Senses:** Darkvision 120 ft., Low-light vision
 
-**Sources:** Pathfinder RPG Bestiary pg 184\
 **Subtype:** Aquatic
 
 **Experience points:** 153,600

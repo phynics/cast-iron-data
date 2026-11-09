@@ -6,13 +6,14 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "order_of_the_whip", path = "json/class_ability_orders.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "20"
 
 [fields]
 kind = "class_option"
 group = "order"
 +++
-
-**Sources:** Villain Codex pg 20
 
 A cavalier who belongs to this order has pledged himself to cruelty and malice, serving only those
 who grant him free rein to cause suffering. Cavaliers of this order inflict pain upon those they

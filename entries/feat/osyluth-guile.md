@@ -6,6 +6,9 @@ source_ids = ["cheliax-empire-of-devils"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "osyluth_guile", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "cheliax-empire-of-devils"
+page = "27"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While you are fighting defensively or using the total defense action,
 +++
 
 ## Osyluth Guile (Combat)
-
-**Sources:** Cheliax, Empire of Devils pg 27
 
 You are skilled at misdirecting an opponent's attacks.\
 **Prerequisites:** Bluff 8 ranks, [Dodge](ref/feat/dodge).\

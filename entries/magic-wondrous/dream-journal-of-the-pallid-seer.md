@@ -6,6 +6,9 @@ source_ids = ["pathfinder-27-what-lies-in-dust"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dream_journal_of_the_pallid_seer", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "pathfinder-27-what-lies-in-dust"
+page = "57"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "no aura (or faint divination)"
 caster_level = "3rd"
 +++
 
-**Sources:** Pathfinder \#27: What Lies in Dust pg 57\
 **Aura** no aura (or faint divination); **CL** 3rd\
 **Slot** none; **Price** 600 gp; **Weight** 2 lbs.
 

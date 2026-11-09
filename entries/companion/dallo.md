@@ -6,13 +6,14 @@ source_ids = ["pathfinder-118-siege-of-stone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dallo", path = "json/class_ability_druid_companions.json" },
 ]
+[[sources]]
+publication = "pathfinder-118-siege-of-stone"
+page = "82"
 
 [fields]
 kind = "class_option"
 group = "animal-companion"
 +++
-
-**Sources:** Pathfinder \#118: Siege of Stone pg 82
 
 **Companion Type**
 

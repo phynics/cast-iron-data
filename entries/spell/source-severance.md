@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/antimagic-field" },
 ]
+[[sources]]
+publication = "faiths-and-philosophies"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Area: 10-ft.-radius emanation, centered on you
 :::
 
 ### Source Severance
-
-**Sources:** Faiths and Philosophies pg 29
 
 You create an invisible barrier that surrounds you and moves with you, inhibiting one category of
 magic. When you cast this spell, choose either arcane or divine magic. This spell functions like

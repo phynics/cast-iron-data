@@ -6,6 +6,9 @@ source_ids = ["irrisen-land-of-eternal-winter"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sentinel_hut", path = "json/monsters21.json" },
 ]
+[[sources]]
+publication = "irrisen-land-of-eternal-winter"
+page = "60"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ an enormous pair of knobby legs._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Irrisen - Land of Eternal Winter pg 60\
 **Experience points:** 4,800
 
 **Armor class:** 21/11/18

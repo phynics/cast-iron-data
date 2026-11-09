@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/magic-jar" },
 ]
+[[sources]]
+publication = "blood-of-the-moon"
+page = "11"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: none
 Spell resistance: no
 Target: one animal touched
 :::
-
-**Sources:** Blood of the Moon pg 11
 
 > _The following spells are common among [werebears](ref/template/lycanthrope) coldborn
 > [skinwalkers](ref/race/skinwalker), and those who associate with them._

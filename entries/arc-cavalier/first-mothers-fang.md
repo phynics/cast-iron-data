@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cavalier" },
 ]
+[[sources]]
+publication = "blood-of-the-beast"
+page = "17"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Order"]
 alters = ["The cavalier's weapon proficiencies", "Mount"]
 +++
 
-**Sources:** Blood of the Beast pg 17\
 Nagajor legend states that when [Nalinivati](ref/faith/nalinivati) created the first
 [nagaji](ref/race/nagaji), she chose a paragon of their kind to instruct in the use of exotic
 weapons, lore, and words so the creature could best serve her as a bodyguard and emissary: the

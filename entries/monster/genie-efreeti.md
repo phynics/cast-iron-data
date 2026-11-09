@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "genie_efreeti", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "140"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ from its flesh._
 
 **Senses:** Darkvision 60 ft., Detect magic
 
-**Sources:** Pathfinder RPG Bestiary pg 140\
 **Subtype:** Extraplanar, Fire
 
 **Experience points:** 4,800

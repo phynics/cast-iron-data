@@ -6,6 +6,9 @@ source_ids = ["undead-unleashed"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mark_of_the_devoted", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "undead-unleashed"
+page = "59"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "1st-level character, human of Mwangi ethnicity, Walkena worship
 benefit = "Dedicated to ridding your land of colonialist invaders, you have pledged your eternal soul to the purging of their presence from Mzali. Upon completion of the ritual, you gain fire resistance 2 and a +1 morale bonus on Will saves."
 special = "If you are a juju zombie at the time when Mzali is entirely purged of foreigners, your duty to Mzali is fulfilled and you are immediately destroyed."
 +++
-
-**Sources:** Undead Unleashed pg 59
 
 You have pledged your life to defend Mzali against invaders, and will continue to do so even after
 your death.\

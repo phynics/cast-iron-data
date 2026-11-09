@@ -6,12 +6,13 @@ source_ids = ["occult-mysteries"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "harrowing_plot_twists", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-mysteries"
+page = "40"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Mysteries pg 40
 
 The harrow deck can be used as an alternative deck of _Pathfinder Cards: Plot Twist
 Cards.^[1](ref/rule/harrowing-plot-twists#footnote-p)^_ Plot Twist Cards provide minor

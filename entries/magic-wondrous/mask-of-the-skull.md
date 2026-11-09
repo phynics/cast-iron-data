@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mask_of_the_skull", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "246"
+[[sources]]
+publication = "core-rulebook"
+page = "523"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong necromancy and transmutation"
 caster_level = "13th"
 +++
 
-**Sources:** Ultimate Equipment pg 246, PRPG Core Rulebook pg 523\
 **Aura** strong necromancy and transmutation; **CL** 13th\
 **Slot** head; **Price** 22,000 gp; **Weight** 3 lbs.
 

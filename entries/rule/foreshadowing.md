@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "foreshadowing", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "33"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 33
 
 The best payoff is sometimes the one that takes a long time to set up. The henchman hired at 4th
 level who betrays the party at 7th level is a long con, but it can have a huge impact if you've

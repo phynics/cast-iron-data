@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rod_of_steadfast_resolve", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "184"
+[[sources]]
+publication = "advanced-race-guide"
+page = "78"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate abjuration"
 caster_level = "9th"
 +++
 
-**Sources:** Ultimate Equipment pg 184, Advanced Race Guide pg 78\
 **Aura** moderate abjuration; **CL** 9th\
 **Slot** none; **Price** 38,305 gp; **Weight** 5 lbs.
 

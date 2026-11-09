@@ -6,6 +6,9 @@ source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gravity_blast", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-origins"
+page = "7"
 
 [fields]
 kind = "class_option"
@@ -25,7 +28,5 @@ group = "kineticist-wild-talent"
 **Damage type:** physical
 
 **Damage:** bludgeoning
-
-**Source:** Occult Origins/7
 
 You manipulate gravity to distort and buffet your foe's body.

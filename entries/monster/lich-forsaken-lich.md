@@ -6,6 +6,9 @@ source_ids = ["pathfinder-48-shadows-of-gallowspire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lich_forsaken_lich", path = "json/monsters16.json" },
 ]
+[[sources]]
+publication = "pathfinder-48-shadows-of-gallowspire"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -48,7 +51,6 @@ dry, stretched skin._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#48: Shadows of Gallowspire pg 82\
 **Type:** undead
 
 **Experience points:** 19,200

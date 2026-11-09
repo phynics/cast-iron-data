@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golems_revenge", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "223"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 223
 
 Years ago, a vicious purge sought to wipe the poor and wretched from their homes in the city's
 slums, until a mysterious creature came to their salvation. Now, a generation later, the bodies of

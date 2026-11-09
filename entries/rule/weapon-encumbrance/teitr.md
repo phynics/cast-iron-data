@@ -6,12 +6,13 @@ source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "addon", target = "ref/rule/weapon-encumbrance", label = "changes" },
 ]
+[[sources]]
+publication = "the-elephant-in-the-room-feat-taxes-in-pathfinder"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 The Light weapon designation is renamed to Finesse.
 
 **Finesse:** A finesse weapon is used in one hand. It is easier to use in one's off hand than a

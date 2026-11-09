@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "192"
 
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Trap sense"]
 +++
 
-**Sources:** Advanced Race Guide pg 192\
 The kitsune trickster combines her sharpened wit with minor arcane powers of charm and persuasion.
 She uses her talents to spin convincing lies, riddles, and stories. A trickster has the following
 class features.

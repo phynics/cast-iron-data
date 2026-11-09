@@ -6,13 +6,14 @@ source_ids = ["druma-profit-and-prophecy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bacallia", path = "json/class_ability_druid_companions.json" },
 ]
+[[sources]]
+publication = "druma-profit-and-prophecy"
+page = "62"
 
 [fields]
 kind = "class_option"
 group = "animal-companion"
 +++
-
-**Sources:** Druma, Profit and Prophecy pg 62
 
 **Companion Type**
 

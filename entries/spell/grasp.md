@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grasp", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-darklands"
+page = "9"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Heroes of the Darklands pg 9
 
 You can cast this spell as an immediate action when you fail a Climb check and would fall. You can
 immediately attempt another Climb check as a free action at a -2 penalty. Each successive use of

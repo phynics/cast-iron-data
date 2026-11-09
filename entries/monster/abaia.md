@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "abaia", path = "json/monsters01.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "7"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _This multi-eyed eel's brightly colored markings shift in complex, ever-changing
 
 **Senses:** Arcane sight, Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 4 pg 7\
 **Subtype:** Aquatic
 
 **Experience points:** 9,600

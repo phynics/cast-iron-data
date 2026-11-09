@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "parasol_umbrella", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "77"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "2 lbs. (common), 3 lbs. (umbrella)"
 
 ## Parasol
 
-**Sources:** Ultimate Equipment pg 77\
 **Price** 1 gp (common), 2 gp (umbrella); **Weight** 2 lbs. (common), 3 lbs. (umbrella)
 
 This folding umbrella is translucent and not waterproof. It cuts down on the heat from direct

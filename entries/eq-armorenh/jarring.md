@@ -6,6 +6,12 @@ source_ids = ["adventurers-armory-2", "faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jarring", path = "json/equipment_armor_enhancements.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "7"
+[[sources]]
+publication = "faction-guide"
+page = "55"
 
 [fields]
 kind = "item"
@@ -13,7 +19,6 @@ category = "Armor Modifications"
 weight = "+20 lbs."
 +++
 
-**Sources:** Adventurer's Armory 2 pg 7, Faction Guide pg 55\
 **Cost** +1,000 gp **Weight** +20 lbs.
 
 Opponents who swing too hard at targets wearing this armor often regret it - striking jarring armor

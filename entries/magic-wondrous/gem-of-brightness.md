@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gem_of_brightness", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "299"
+[[sources]]
+publication = "core-rulebook"
+page = "514"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate evocation"
 caster_level = "6th"
 +++
 
-**Sources:** Ultimate Equipment pg 299, PRPG Core Rulebook pg 514\
 **Aura** moderate evocation; **CL** 6th\
 **Slot** none; **Price** 13,000 gp; **Weight** -
 

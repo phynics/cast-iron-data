@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/instant-summons" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "217"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Subschool: Summoning
 :::
 
 ### Greater Instant Summons
-
-**Sources:** Ultimate Intrigue pg 217
 
 This spell functions as [instant summons](ref/spell/instant-summons), except that you can target
 multiple objects. You must use a separate sapphire worth 1,000 gp for each one. For each item you

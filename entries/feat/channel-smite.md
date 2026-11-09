@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "channel_smite", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "119"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Before you make a melee attack roll, you can choose to spend one use 
 +++
 
 ## Channel Smite (Combat)
-
-**Sources:** PRPG Core Rulebook pg 119
 
 You can channel your divine energy through a melee weapon you wield.\
 **Prerequisites:** [Channel energy](ref/ability/channel-energy) class feature.\

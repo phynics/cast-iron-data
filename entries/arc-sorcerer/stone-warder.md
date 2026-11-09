@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/sorcerer" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "29"
 
 [fields]
 kind = "archetype"
 replaces = ["Eschew Materials, 3rd-level bloodline spell, 7th-level bloodline feat"]
 +++
 
-**Sources:** Arcane Anthology pg 29\
 Stone warders have an innate ability to create runes that allow them to ward areas with magic traps
 built from their spells. These sorcerers are most common among dwarves, but have been known to
 appear among other races who have strong ties to earth, rock, stone, mountains, and the Darklands.

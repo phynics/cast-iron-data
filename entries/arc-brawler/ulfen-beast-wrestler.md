@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/brawler" },
 ]
+[[sources]]
+publication = "advanced-class-origins"
+page = "10"
 
 [fields]
 kind = "archetype"
 replaces = ["Maneuver training", "AC bonus"]
 +++
 
-**Sources:** Advanced Class Origins pg 10\
 For these mighty grapplers, wrestling normal opponents has lost its challenge - they seek greater
 targets for glory. Ulfen beast-wrestlers challenge trolls to unarmed combat, and the greatest seek
 out the great linnorm their lands are known for and wrestle these primeval dragons into submission.

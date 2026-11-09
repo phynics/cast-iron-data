@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flame_arrow", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "283"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: no
 Target: fifty projectiles, all of which must be together at the time of casting
 Descriptors: fire
 :::
-
-**Sources:** PRPG Core Rulebook pg 283
 
 This spell allows you to turn ammunition (such as arrows, crossbow bolts, shuriken, and sling
 stones) into fiery projectiles. Each piece of ammunition deals an extra 1d6 points of fire damage to

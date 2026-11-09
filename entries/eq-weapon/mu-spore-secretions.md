@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mu_spore_secretions", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-darklands"
+page = "19"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "25 gp"
 weight = "-"
 +++
 
-**Sources:** Heroes of the Darklands pg 19\
 **Price** 25 gp; **Weight** -\
 **Category** Alchemical Weapons
 

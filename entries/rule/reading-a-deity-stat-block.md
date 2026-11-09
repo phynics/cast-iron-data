@@ -6,12 +6,13 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reading_a_deity_stat_block", path = "json/rules_campaign_types09.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "73"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Planar Adventures pg 73
 
 Each of the core pantheon's deities are presented in stat block format for ease of reference.
 

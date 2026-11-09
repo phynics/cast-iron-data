@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/draconic-reservoir", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "92"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 92\
 The amount of energy damage the spell absorbs increases to 10 points per caster level (maximum 100
 points). The energy damage from the weapons improves as if using a corrosive burst, flaming burst,
 icy burst, or shocking burst weapon.

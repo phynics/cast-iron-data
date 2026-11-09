@@ -6,6 +6,9 @@ source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "serpentine_tattoo", path = "json/magic_tattoo.json" },
 ]
+[[sources]]
+publication = "magical-marketplace"
+page = "5"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration"
 caster_level = "1st"
 +++
 
-**Sources:** Magical Marketplace pg 5\
 **Aura** faint conjuration; **CL** 1st\
 **Slot** none; **Price** 2,000 gp; **Weight** -
 

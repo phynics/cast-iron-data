@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/confusion" },
 ]
+[[sources]]
+publication = "people-of-the-river"
+page = "27"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Saving throw: Will partial
 Spell resistance: yes
 Targets: all constructs in a 15-ft.-radius burst
 :::
-
-**Sources:** People of the River pg 27
 
 This spell functions as [confusion](ref/spell/confusion), except that it affects only constructs.
 When you are rolling for a confused construct's behavior, a result of 26-50 indicates the construct

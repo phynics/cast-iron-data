@@ -6,6 +6,9 @@ source_ids = ["cheliax-the-infernal-empire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "zealot_wraith", path = "json/monsters41.json" },
 ]
+[[sources]]
+publication = "cheliax-the-infernal-empire"
+page = "63"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ black pits for eyes and an expression of sorrow and horror._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Cheliax, the Infernal Empire pg 63\
 **Subtype:** Incorporeal
 
 **Type:** undead

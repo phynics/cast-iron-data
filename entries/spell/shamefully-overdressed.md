@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shamefully_overdressed", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "225"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Target: creature touched
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Ultimate Intrigue pg 225
 
 The target sees its own attire as hopelessly out of fashion, ostentatious, and embarrassing, and is
 filled with a compulsion to strip off all clothing. Each round, the target must spend a move action

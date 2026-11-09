@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "calling_outsiders", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "101"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 101
 
 The first step in calling extraplanar assistance is to determine the method of bringing the outsider
 to the Material Plane. If the caster is a cleric, the spell of choice is

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bane", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "246"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Area: 50-ft.-radius burst, centered on you
 Subschool: Compulsion
 Descriptors: emotion, fear, mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 246
 
 Bane fills your enemies with fear and doubt. Each affected creature takes a -1 penalty on attack
 rolls and a -1 penalty on saving throws against fear effects. Bane counters and dispels

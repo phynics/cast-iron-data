@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aeon", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "103"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 103
 
 Alien, unemotional, and distant, aeons are difficult to deal with because of their strange form of
 communication, known as envisaging, in which they employ mental imagery and sounds instead of the

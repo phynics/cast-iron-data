@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "encounter_archetypes", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "176"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 176
 
 Most dungeons feature a variety of encounter archetypes. By including encounters from as many of
 these archetypes as possible, you can keep your dungeon from feeling repetitive and give different

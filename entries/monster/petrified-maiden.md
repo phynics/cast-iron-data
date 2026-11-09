@@ -6,6 +6,9 @@ source_ids = ["inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "petrified_maiden", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "inner-sea-bestiary"
+page = "37"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ warrior woman._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Inner Sea Bestiary pg 37\
 **Type:** undead
 
 **Experience points:** 2,400

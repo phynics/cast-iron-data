@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brilliant_infusion", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "17"
 
 [fields]
 kind = "class_option"
@@ -26,8 +29,6 @@ group = "kineticist-wild-talent"
 [Fire Blast](ref/kinetic/fire-blast), [Plasma Blast](ref/kinetic/plasma-blast)
 
 **Saving throw:** none
-
-**Source:** Occult Adventures/17
 
 Your kinetic blast leaves an afterglow that banishes the darkness. Treat each square of the path of
 your ranged attack kinetic blast, the target square of your melee attack kinetic blast, or the area

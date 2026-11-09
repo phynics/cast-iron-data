@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "feed_per_day", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "81"
+[[sources]]
+publication = "core-rulebook"
+page = "159"
 
 [fields]
 kind = "item"
@@ -14,7 +20,6 @@ price = "5 cp"
 weight = "10 lbs."
 +++
 
-**Sources:** Ultimate Equipment pg 81, PRPG Core Rulebook pg 159\
 **Price** 5 cp; **Weight** 10 lbs.\
 **Category** Animal Gear
 

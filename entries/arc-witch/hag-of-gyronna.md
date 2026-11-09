@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/witch" },
 ]
+[[sources]]
+publication = "people-of-the-river"
+page = "23"
 
 [fields]
 kind = "archetype"
 replaces = ["2nd-level hex", "8th-level hex", "12th-level hex"]
 +++
 
-**Sources:** People of the River pg 23\
 Only female witches dare dedicate themselves to the [Angry Hag](ref/faith/gyronna), and those who do
 so are feared for their ability to bend minds and sow discord. Some say these witches can watch
 their enemies from afar and can even corrupt the minds of the most innocent or loyal, including

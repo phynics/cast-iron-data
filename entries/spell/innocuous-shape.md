@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "innocuous_shape", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "25"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: yes (harmless)
 Target: living creature touched
 Subschool: Polymorph
 :::
-
-**Sources:** Magic Tactics Toolbox pg 25
 
 This spell transforms a creature into a Medium or smaller animal or humanoid of no more than 1 Hit
 Die. If you use this spell to cause the target to take on the form of an animal, the spell functions

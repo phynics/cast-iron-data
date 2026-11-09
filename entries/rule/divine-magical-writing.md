@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divine_magical_writing", path = "json/rules_basics04.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "221"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 221
 
 Divine spells can be written and deciphered like arcane spells (see
 [Arcane Magical Writing](ref/rule/arcane-magical-writing)). A Spellcraft check can decipher divine

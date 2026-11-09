@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "building_a_heist", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "118"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 118
 
 Build your heist encounters using the following four steps.
 

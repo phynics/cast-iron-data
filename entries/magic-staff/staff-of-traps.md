@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_traps", path = "json/magic_staff.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "203"
+[[sources]]
+publication = "advanced-players-guide"
+page = "299"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate abjuration"
 caster_level = "8th"
 +++
 
-**Sources:** Ultimate Equipment pg 203, Advanced Player's Guide pg 299\
 **Aura** moderate abjuration; **CL** 8th\
 **Slot** none; **Price** 56,925 gp; **Weight** 5 lbs.
 

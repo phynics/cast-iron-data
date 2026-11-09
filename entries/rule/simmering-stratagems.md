@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "simmering_stratagems", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "137"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 137
 
 These stratagems tend to be simple, as well as less costly and vicious. They are perfect for
 fledgling nemeses who simply don't yet have enough reason to expend vast resources against PCs or to

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-41-the-thousand-fangs-below"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloodwine", path = "json/equipment_poisons.json" },
 ]
+[[sources]]
+publication = "pathfinder-41-the-thousand-fangs-below"
+page = "42"
 
 [fields]
 kind = "item"
@@ -13,8 +16,6 @@ category = "Poisons"
 price = "100 gp"
 weight = "&mdash;"
 +++
-
-**Sources:** Pathfinder \#41: The Thousand Fangs Below pg 42
 
 **Price** 100 gp; **Weight** —
 

@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thaumaturgic_circle", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "189"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: no
 Area: 10-ft.-radius emanation from touched creature
 :::
-
-**Sources:** Occult Adventures pg 189
 
 This spell functions as [magic circle against chaos](ref/spell/magic-circle-against-chaos), evil,
 good, or law, but rather than stipulating an alignment descriptor, you can designate any one

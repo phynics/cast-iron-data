@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "the-dragons-demand"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "yangethe", path = "json/monsters41.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "285"
+[[sources]]
+publication = "the-dragons-demand"
+page = "63"
 
 [fields]
 kind = "creature"
@@ -45,7 +51,6 @@ spidery legs._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 5 pg 285, The Dragon's Demand pg 63\
 **Experience points:** 6,400
 
 **Armor class:** 23/13/19

@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "running_psychic_duels", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "201"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 201
 
 Each combatant in a psychic duel attacks her opponent and defends herself with the power of her
 imagination and force of her personality. Such combatants appear in the binary mindscape much as

@@ -6,6 +6,9 @@ source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "secret_sign", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "25"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Target: one creature or object
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** Black Markets pg 25
 
 You invisibly inscribe a small mark or short message (no more than 25 words) on a creature or
 object, similar to the way arcane mark works. The sign can be no more than 6 inches across, and if

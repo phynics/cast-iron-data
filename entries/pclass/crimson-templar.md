@@ -6,14 +6,15 @@ source_ids = ["paths-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crimson_templar", path = "json/prestige_classes.json" },
 ]
+[[sources]]
+publication = "paths-of-the-righteous"
+page = "8"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d10."
 +++
-
-**Sources:** Paths of the Righteous pg 8
 
 Even the most devout followers of good can recognize the need for ruthlessness when opposing true
 evil. The crimson templars of Ragathiel are taught that mercy is a virtue reserved for only those

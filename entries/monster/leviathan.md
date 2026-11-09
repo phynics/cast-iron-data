@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "leviathan", path = "json/monsters16.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "240"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ lined with rows of sharp teeth._
 
 **Senses:** Low-light vision, Scent, See in darkness, True seeing
 
-**Sources:** Planar Adventures pg 240\
 **Subtype:** Water
 
 **Experience points:** 9,830,400

@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "masterwork_transformation", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "228"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Saving throw: none
 Spell resistance: no
 Target: one weapon, suit of armor, shield, tool, or skill kit touched
 :::
-
-**Sources:** Ultimate Magic pg 228
 
 You convert a non-masterwork item into its masterwork equivalent. A normal sword becomes a
 masterwork sword, a suit of leather armor becomes a masterwork suit of leather armor, a set of

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_components", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "115"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 115
 
 The Pathfinder Roleplaying Game handles most spell components in a fairly abstract fashion: the
 components are purchased as part of a spell component pouch, which is assumed to contain the

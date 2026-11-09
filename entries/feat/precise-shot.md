@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "precise_shot", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "131"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You can shoot or throw ranged weapons at an opponent engaged in melee
 +++
 
 ## Precise Shot (Combat)
-
-**Sources:** PRPG Core Rulebook pg 131
 
 You are adept at firing ranged attacks into melee.\
 **Prerequisites:** [Point-Blank Shot](ref/feat/point-blank-shot).\

@@ -6,6 +6,15 @@ source_ids = ["ultimate-equipment", "ultimate-combat", "inner-sea-world-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "powder_horn", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "57"
+[[sources]]
+publication = "ultimate-combat"
+page = "141"
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "293"
 
 [fields]
 kind = "item"
@@ -14,7 +23,6 @@ price = "3 gp"
 weight = "1 lb."
 +++
 
-**Sources:** Ultimate Equipment pg 57, Ultimate Combat pg 141, Inner Sea World Guide pg 293\
 **Price** 3 gp; **Weight** 1 lb.\
 **Category** Adventuring Gear
 

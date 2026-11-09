@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blessing_of_liberty", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-streets"
+page = "22"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Heroes of the Streets pg 22
 
 You imbue yourself with the blessings of liberty. You gain a +1 luck bonus per 6 caster levels
 (minimum +1, maximum +3) to your CMD and on saving throws against spells and traps that would move

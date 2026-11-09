@@ -6,12 +6,13 @@ source_ids = ["core-rulebook", "ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "common_cursed_item_effects", path = "json/rules_basics02.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "536"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 536
 
 The following are some of the most common cursed item effects. GMs should feel free to invent new
 cursed item effects to fit specific items.

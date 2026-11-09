@@ -6,13 +6,15 @@ source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nex", path = "json/class_ability_spirits.json" },
 ]
+[[sources]]
+publication = "occult-origins"
+page = "11"
 
 [fields]
 kind = "class_option"
 group = "medium-spirit"
 +++
 
-**Sources:** Occult Origins pg 11\
 Nex's legendary spirit offers the power of one of the greatest archmages in Golarion's history.
 Unlike normal archmage spirits, Nex's legendary spirit grants strange abilities shaped by the lost
 wizard's unique experiments. Mediums channeling Nex's legendary spirit eventually realize that the

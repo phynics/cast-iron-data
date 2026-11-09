@@ -6,6 +6,9 @@ source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "earth_tongue", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "22"
 
 [fields]
 kind = "class_option"
@@ -24,8 +27,6 @@ group = "kineticist-wild-talent"
 
 **Prerequisite:** [greater tremorsense](ref/kinetic/greater-tremorsense),
 [tremorsense](ref/kinetic/tremorsense)
-
-**Source:** Psychic Anthology/22
 
 You are constantly capable of speaking to rocks and stones, including natural and worked stone, as
 per [stone tell](ref/spell/stone-tell). This ability is always active, and rocks and stones might

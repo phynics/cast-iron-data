@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mantis_style", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "108"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You gain one additional Stunning Fist attempt per day. While using th
 +++
 
 ## Mantis Style (Combat, Style)
-
-**Sources:** Ultimate Combat pg 108
 
 You have learned to target vital areas with crippling accuracy.\
 **Prerequisites:** [Improved Unarmed Strike](ref/feat/improved-unarmed-strike),

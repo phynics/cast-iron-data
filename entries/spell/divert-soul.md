@@ -6,12 +6,14 @@ source_ids = ["concordance-of-rivals"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divert_soul", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "concordance-of-rivals"
+page = "46"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Concordance of Rivals pg 46\
 **School** necromancy; **Level** 9\
 **Casting Time** 9 hours\
 **Components** V, S, M (black diamond worth 25,000 gp), F (a forked metal rod attuned to the

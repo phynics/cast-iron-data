@@ -6,12 +6,20 @@ source_ids = ["inner-sea-races", "people-of-the-stars", "inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lashunta", path = "json/races2.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "246"
+[[sources]]
+publication = "people-of-the-stars"
+page = "10"
+[[sources]]
+publication = "inner-sea-bestiary"
+page = "25"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Inner Sea Races pg 246, People of the Stars pg 10, Inner Sea Bestiary pg 25\
 The lashunta are race of humanoids native to Castrovel that exhibit a curious sexual dimorphism. The
 most obvious similarity the two sexes have is a pair of thin, twitching antennae that sprout from
 just below their hairlines. Beyond that, male lashunta are compact, muscular, and hirsute, whereas

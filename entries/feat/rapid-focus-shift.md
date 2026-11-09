@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rapid_focus_shift", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "138"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "Once per day, you can take a full-round action to shift mental focus 
 normal = "Shifting focus between two implements takes 1 minute of quiet contemplation."
 special = "You can take this feat multiple times. Each time you do, you gain an additional daily use of Rapid Focus Shift."
 +++
-
-**Sources:** Occult Adventures pg 138
 
 You can move mental focus from one implement to another more quickly than usual.\
 **Prerequisites:** Caster level 5th, mental focus class ability.\

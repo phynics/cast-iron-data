@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_bull_rush", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "125"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ normal = "Creatures moved by bull rush do not provoke attacks of opportunity."
 +++
 
 ## Greater Bull Rush (Combat)
-
-**Sources:** PRPG Core Rulebook pg 125
 
 Your bull rush attacks throw enemies off balance.\
 **Prerequisites:** [Improved Bull Rush](ref/feat/improved-bull-rush),

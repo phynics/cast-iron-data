@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "for_players", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "191"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 191
 
 The Pathfinder RPG is a storytelling game, and as with stories in any medium, sometimes the tale
 ventures into dark places. If you are a participant in a game that makes you feel uncomfortable or

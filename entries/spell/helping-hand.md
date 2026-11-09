@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "helping_hand", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "295"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: none
 Spell resistance: no
 Effect: ghostly hand
 :::
-
-**Sources:** PRPG Core Rulebook pg 295
 
 You create the ghostly image of a hand, which you can send to find a creature within 5 miles. The
 hand then beckons to that creature and leads it to you if the creature is willing to follow.

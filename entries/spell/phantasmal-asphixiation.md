@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phantasmal_asphixiation", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "123"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Target: one living creature
 Subschool: Phantasm
 Descriptors: mind-affecting
 :::
-
-**Sources:** Horror Adventures pg 123
 
 Your target must succeed at a Will save or believe it can no longer breathe. An affected target must
 attempt a Fortitude save each round at the beginning of its turn. The first time it fails the

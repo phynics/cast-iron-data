@@ -6,6 +6,9 @@ source_ids = ["pathfinder-119-prisoners-of-the-blight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sebaceous_twin", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "pathfinder-119-prisoners-of-the-blight"
+page = "70"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: none (see text)
 Spell resistance: yes
 Target: living creature touched
 :::
-
-**Sources:** Pathfinder \#119: Prisoners of the Blight pg 70
 
 > _Worshippers of [Cyth-V'sug](ref/faith/cyth-vsug) have access to the following spell._
 

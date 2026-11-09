@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fleshwarp_drider", path = "json/monsters31.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "113"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ centaurian fusion of drow and spider._
 
 **Senses:** Darkvision 120 ft., Detect good, Detect law, Detect magic
 
-**Sources:** Pathfinder RPG Bestiary pg 113\
 **Experience points:** 3,200
 
 **Armor class:** 20/12/17

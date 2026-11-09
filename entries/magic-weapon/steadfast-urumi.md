@@ -6,6 +6,9 @@ source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "steadfast_urumi", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "57"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration and evocation"
 caster_level = "8th"
 +++
 
-**Sources:** Inner Sea Combat pg 57\
 **Aura** moderate abjuration and evocation; **CL** 8th\
 **Slot** none; **Price** 18,830 gp; **Weight** 6 lbs.
 

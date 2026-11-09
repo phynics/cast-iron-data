@@ -6,12 +6,14 @@ source_ids = ["horror-adventures", "game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "amnesia", path = "json/madness.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "186"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Adventures pg 186\
 **Type** greater madness; **Save DC** 22\
 **Onset** immediate\
 **Effect** -4 penalty on Will saving throws and skill checks, and loss of memory (see below)\

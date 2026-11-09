@@ -6,15 +6,27 @@ source_ids = ["ultimate-equipment", "pathfinder-9-escape-from-old-korvosa", "pat
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "temple_sword", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "20"
+[[sources]]
+publication = "pathfinder-9-escape-from-old-korvosa"
+page = "83"
+[[sources]]
+publication = "pathfinder-campaign-setting"
+page = "209"
+[[sources]]
+publication = "adventurers-armory"
+page = "33"
+[[sources]]
+publication = "advanced-players-guide"
+page = "179"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "3 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 20, Pathfinder \#9: Escape from Old Korvosa pg 83, Pathfinder
-Campaign Setting pg 209, Adventurer's Armory pg 33, Advanced Player's Guide pg 179
 
 Heavy blades typically used by guardians of religious sites, temple swords have distinctive
 crescent-shaped blades, which appear to be an amalgam of sickle and sword. Many have holes drilled

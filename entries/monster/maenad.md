@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "maenad", path = "json/monsters16.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "191"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ eyes suggest insanity._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 4 pg 191\
 **Experience points:** 4,800
 
 **Armor class:** 20/15/15

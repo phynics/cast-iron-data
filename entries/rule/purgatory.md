@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "purgatory", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "193"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 193
 
 Every soul passes through Purgatory to be judged before being sent on to its final destination in
 the Great Beyond. Vast graveyards and wastelands fill its gloomy expanses, along with dusty, echoing

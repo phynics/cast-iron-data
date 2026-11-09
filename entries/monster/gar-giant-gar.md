@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gar_giant_gar", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "128"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ _This fish is enormous - a sleek predator with bony scales and a long set of too
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 2 pg 128\
 **Subtype:** Aquatic
 
 **Experience points:** 2,400

@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_shooting_stars", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "173"
+[[sources]]
+publication = "core-rulebook"
+page = "479"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong evocation"
 caster_level = "12th"
 +++
 
-**Sources:** Ultimate Equipment pg 173, PRPG Core Rulebook pg 479\
 **Aura** strong evocation; **CL** 12th\
 **Slot** ring; **Price** 50,000 gp; **Weight** -
 

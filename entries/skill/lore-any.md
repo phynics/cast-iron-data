@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lore_any", path = "json/skills.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "50"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 50
 
 **Associated Skill**
 

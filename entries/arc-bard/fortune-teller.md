@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "32"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Countersong", "distraction", "Well-versed", "Dirge of doom"]
 alters = ["Spell list", "Bardic performance"]
 +++
 
-**Sources:** Villain Codex pg 32\
 Instead of using song and dance, a fortune-teller influences people by divining their fate. Though
 he learns a great deal about the paths of destiny, his true skill is in making others think he knows
 more than he truly does.

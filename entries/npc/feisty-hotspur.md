@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "feisty_hotspur", path = "json/npcs7.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "217"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "12"
 
 **Challenge rating:** 12
 
-**Sources:** NPC Codex pg 217\
 **XP** 19,200\
 Halfling [rogue](ref/class/rogue) 9/duelist 4\
 NE Small humanoid (halfling)\

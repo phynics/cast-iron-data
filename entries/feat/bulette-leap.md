@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bulette_leap", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "10"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using Bulette Charge Style, you gain a bonus on Acrobatics chec
 +++
 
 ## Bulette Leap (Combat)
-
-**Sources:** Armor Master's Handbook pg 10
 
 You can shove aside multiple opponents while leaping into the air.\
 **Prerequisites:** Str 15, [Bulette Charge Style](ref/feat/bulette-charge-style),

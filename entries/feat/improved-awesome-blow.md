@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/awesome-blow", label = "or" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "150"
 
 [fields]
 kind = "feat"
@@ -20,8 +23,6 @@ normal = "Creatures moved by awesome blow do not provoke attacks of opportunity.
 +++
 
 ## Improved Awesome Blow (Combat)
-
-**Sources:** Advanced Class Guide pg 150
 
 You are skilled at sending your opponents flying.\
 **Prerequisites:** Str 13; [Awesome Blow](ref/feat/awesome-blow) or awesome blow class feature;

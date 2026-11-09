@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burn", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "291"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Burn (Ex)
 
-**Sources:** Bestiary 5 pg 291\
 The creature deals fire damage in addition to damage dealt on a successful hit in melee. A creature
 affected by the burn ability must also succeed at a Reflex save or catch fire, taking the listed
 damage for an additional 1d4 rounds at the start of its turn (DC = 10 + 1/2 burning creature's

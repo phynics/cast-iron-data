@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "commune_with_birds", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "167"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Advanced Race Guide pg 167
 
 > _[Tengus](ref/race/tengu) have access to the following spell._
 

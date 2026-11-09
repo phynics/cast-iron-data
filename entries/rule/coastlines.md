@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "coastlines", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "147"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 147
 
 The first step is to divide land from water; draw in the region's coastlines, remembering to add
 bays and harbors here and there (these make great locations for major cities). Scatter islands,

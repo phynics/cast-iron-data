@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stolen_might", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "127"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 127
 
 The PCs gain mythic power by taking it from another mythic creature, either by force, happenstance,
 or through some more elaborate ritual or ceremony. In this theme, the amount of mythic power is

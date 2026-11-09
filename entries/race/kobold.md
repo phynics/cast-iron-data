@@ -6,13 +6,23 @@ source_ids = ["inner-sea-races", "advanced-race-guide", "bestiary", "kobolds-of-
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kobold", path = "json/races2.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "245"
+[[sources]]
+publication = "advanced-race-guide"
+page = "132"
+[[sources]]
+publication = "bestiary"
+page = "183"
+[[sources]]
+publication = "kobolds-of-golarion"
+page = "0"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Inner Sea Races pg 245, Advanced Race Guide pg 132, Pathfinder RPG Bestiary pg 183,
-Kobolds of Golarion pg 0\
 Because kobolds identify so passionately with dragons, they strive to reinforce their connection
 through names that reflect their draconic heritage. Kobold birth names are relatively short, usually
 consisting of two syllables, and are almost always faintly reminiscent of dragons' names.

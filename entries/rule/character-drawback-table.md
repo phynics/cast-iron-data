@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "character_drawback_table", path = "json/rules_basics03.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "49"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 49
 
 Character drawbacks are emotional weak points - chinks your armor. A drawback gives you a small
 mechanical penalty and a roleplaying hook. Drawbacks also serve as loopholes in the alignment

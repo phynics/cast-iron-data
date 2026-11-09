@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/resurrection" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "214"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Subschool: Healing
 :::
 
 ### False Resurrection
-
-**Sources:** Ultimate Intrigue pg 214
 
 This spell functions as [resurrection](ref/spell/resurrection) except that instead of recalling the
 dead soul to life, the spell calls a shadow demon with the advanced simple template to possess the

@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prediction_of_failure", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "232"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: curse, fear, mind-affecting
 :::
-
-**Sources:** Ultimate Magic pg 232
 
 You wrack the target's body and mind with the anguish and suffering of every bitter failure it will
 ever experience, rendering it permanently shaken and sickened. A successful Will save reduces the

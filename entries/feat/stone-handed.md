@@ -6,6 +6,9 @@ source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stone_handed", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
+page = "10"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Before making a melee attack with an unarmed strike, you can expend o
 +++
 
 ## Stone-Handed (Combat)
-
-**Sources:** Elemental Master's Handbook pg 10
 
 Drawing upon techniques to combat animated creatures, you bring a strike like an avalanche of stone.\
 **Prerequisites:** Str 13, [Stunning Fist](ref/feat/stunning-fist).\

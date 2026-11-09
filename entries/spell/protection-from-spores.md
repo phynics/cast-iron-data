@@ -6,6 +6,9 @@ source_ids = ["pathfinder-113-what-grows-within"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "protection_from_spores", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "pathfinder-113-what-grows-within"
+page = "66"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Saving throw: Fortitude negates (harmless)
 Spell resistance: no
 Target: creature touched
 :::
-
-**Sources:** Pathfinder \#113: What Grows Within pg 66
 
 > _This spell is associated with [Xhamen-Dor](ref/faith/xhamen-dor), but there are no restrictions
 > on its use by others._

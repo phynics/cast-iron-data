@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_primal_magma_young_magma_dragon", path = "json/monsters30.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "100"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ shine in the membranes of its wings._
 
 **Senses:** Dragon senses
 
-**Sources:** Bestiary 2 pg 100\
 **Subtype:** Extraplanar, Fire
 
 **Experience points:** 4,800

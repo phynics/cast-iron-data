@@ -6,6 +6,9 @@ source_ids = ["giants-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mardahamman", path = "json/monsters_unique3.json" },
 ]
+[[sources]]
+publication = "giants-revisited"
+page = "14"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ one-eyed humanoid wields an equally massive flat club._
 
 **Senses:** Low-light vision
 
-**Sources:** Giants Revisited pg 14\
 **Subtype:** Giant
 
 **Experience points:** 51,200

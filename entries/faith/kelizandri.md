@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "planes-of-power"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kelizandri", path = "json/faiths5.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "322"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Kelizandri**
 
 **Sub:** Brackish Emperor
-
-**Sources:** Inner Sea Gods pg 322
 
 ### Details
 

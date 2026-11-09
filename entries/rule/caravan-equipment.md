@@ -6,12 +6,14 @@ source_ids = ["jade-regent-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "caravan_equipment", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "jade-regent-players-guide"
+page = "21"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Jade Regent Player's Guide pg 21\
 Not only can caravans be used to transport large amounts of gear (including treasure the PCs may
 have found in the course of play), but some equipment can actually enhance a caravan's statistics,
 making it easier to defend or repair or enhancing its speed. Both types of equipment are detailed

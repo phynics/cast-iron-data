@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "king", path = "json/npcs8.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "255"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "8"
 
 **Challenge rating:** 8
 
-**Sources:** NPC Codex pg 255\
 **XP** 4,800\
 Human [aristocrat](ref/npcclass/aristocrat) 10\
 N Medium humanoid (human)\

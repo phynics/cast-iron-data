@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/suggestion" },
 ]
+[[sources]]
+publication = "blood-of-the-beast"
+page = "14"
 
 [fields]
 kind = "spell"
@@ -55,8 +58,6 @@ Descriptors: language-dependant, mind-affecting
 :::
 
 ### Contagious Suggestion
-
-**Sources:** Blood of the Beast pg 14
 
 This spell functions as per [suggestion](ref/spell/suggestion), except the target can pass on the
 enchantment to other targets. The target is compelled to communicate your suggestion to another

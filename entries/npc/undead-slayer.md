@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "undead_slayer", path = "json/npcs4.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "139"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "15"
 
 **Challenge rating:** 15
 
-**Sources:** NPC Codex pg 139\
 **XP** 51,200\
 Human [ranger](ref/class/ranger) 16\
 LG Medium humanoid (human)\

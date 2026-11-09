@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bracers_of_defenselessness", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "344"
+[[sources]]
+publication = "core-rulebook"
+page = "540"
 
 [fields]
 kind = "item"
@@ -15,8 +21,6 @@ slot = "wrists"
 aura = "strong conjuration"
 caster_level = "16th"
 +++
-
-**Sources:** Ultimate Equipment pg 344, PRPG Core Rulebook pg 540
 
 **Aura** strong conjuration; **CL** 16th\
 **Slot** wrists; **Weight** 1 lb.

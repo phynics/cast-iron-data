@@ -6,14 +6,15 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "legendary_influence", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "86"
 
 [fields]
 kind = "feat"
 prerequisites = "Lesser spirit power class feature."
 benefit = "Immediately select one feat (other than an item creation feat) for each spirit you can channel. Whenever you perform a seance to channel a spirit, you can allow the spirit to gain 1 point of influence over you to gain access to that spirit's Legendary Influence feat for as long as you channel that spirit. You can use this bonus feat as a prerequisite for any feats granted by a spirit power (such as the champion's legendary champion ability), but not for any other feats."
 +++
-
-**Sources:** Ultimate Intrigue pg 86
 
 Each legend grants you more of its power in return for greater influence.\
 **Prerequisites:** Lesser spirit power class feature.\

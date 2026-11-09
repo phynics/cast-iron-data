@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/fireball" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "265"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: yes
 Area: 20-ft.-radius spread
 Descriptors: fire
 :::
-
-**Sources:** PRPG Core Rulebook pg 265
 
 This spell functions like [fireball](ref/spell/fireball), except that it is more powerful and can
 detonate up to 5 rounds after the spell is cast. The burst of flame deals 1d6 points of fire damage

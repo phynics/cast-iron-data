@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sample_libraries", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "152"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 152
 
 Libraries can exist in a wide variety of forms, from actual collections of printed books,
 handwritten scrolls, and indexed volumes to single, encyclopedic tomes of abstruse wisdom or

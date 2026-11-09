@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sanctuary", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "336"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: Will negates
 Spell resistance: no
 Target: creature touched
 :::
-
-**Sources:** PRPG Core Rulebook pg 336
 
 Any opponent attempting to directly attack the warded creature, even with a targeted spell, must
 attempt a Will save. If the save succeeds, the opponent can attack normally and is unaffected by

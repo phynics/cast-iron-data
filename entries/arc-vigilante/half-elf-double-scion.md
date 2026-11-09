@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/vigilante" },
 ]
+[[sources]]
+publication = "heroes-from-the-fringe"
+page = "22"
 
 [fields]
 kind = "archetype"
 alters = ["Dual identity"]
 +++
 
-**Sources:** Heroes from the Fringe pg 22\
 Many half-elves who live in human or elven societies try to blend in, hiding their true ancestry.
 But deception takes a toll, and some half-elves form alternate identities to let the suppressed side
 of their heritage be known. This other identity can be either a force for good, enabling the

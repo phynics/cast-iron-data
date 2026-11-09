@@ -6,6 +6,9 @@ source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unsettling_presence", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "haunted-heroes-handbook"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Spell resistance: yes
 Area: one 5-ft. cube/level (S)
 Descriptors: emotion, fear, haunted, mind-affecting
 :::
-
-**Sources:** Haunted Heroes Handbook pg 29
 
 Those in this spell's area who fail their Will saving throws harbor a faint sense of paranoia and
 evoke the same feeling in others for the duration of the spell. Domesticated animals (not including

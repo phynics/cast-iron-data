@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "blood-of-shadows"
+page = "9"
 
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Rogue talent gained at 2nd level", "trap sense", "Uncanny dodge", "improved uncanny dodge"]
 +++
 
-**Sources:** Blood of Shadows pg 9\
 Shadow walkers are comfortable in light, darkness, and the shadows in between. Fetchling rogues
 naturally gravitate toward becoming shadow walkers, but shadow walkers exist among other creatures
 both above and below the surface.

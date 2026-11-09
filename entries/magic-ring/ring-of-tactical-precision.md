@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_tactical_precision", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "175"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Ultimate Equipment pg 175\
 **Aura** moderate transmutation; **CL** 3rd\
 **Slot** ring; **Price** 11,000 gp; **Weight** -
 

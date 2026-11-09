@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/kineticist" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "25"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Metakinesis", "metakinetic master", "3rd-level infusion", "supercha
 alters = ["Kinetic blast", "infusions", "Elemental defense"]
 +++
 
-**Sources:** Psychic Anthology pg 25\
 A kinetic knight dons armor and wields a blade of elemental energy. The Phoenix Kindred counted many
 of these resolute warriors among their number, combining the Recursion Tablets' secrets with a
 warrior's ways. Today, most remaining Tian kinetic knights follow the philosophy of ichimeiyo.

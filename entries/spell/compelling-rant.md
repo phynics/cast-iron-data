@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "compelling_rant", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "111"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: no
 Target: any number of creatures
 Subschool: Charm
 :::
-
-**Sources:** Horror Adventures pg 111
 
 You deliver a confusing but fascinating monologue, relaying conspiracies or metaphysical revelations
 that confound your audience, throughout the spell's casting time and as long as you concentrate. You

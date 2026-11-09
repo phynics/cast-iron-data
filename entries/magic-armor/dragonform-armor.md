@@ -6,6 +6,9 @@ source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragonform_armor", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "dragonslayers-handbook"
+page = "30"
 
 [fields]
 kind = "item"
@@ -16,8 +19,6 @@ slot = "armor"
 aura = "moderate transmutation"
 caster_level = "11th"
 +++
-
-**Sources:** Dragonslayer's Handbook pg 30
 
 **Aura** moderate transmutation; **CL** 11th\
 **Slot** armor; **Price** 24,120 gp; **Weight** 15 lbs.

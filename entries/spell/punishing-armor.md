@@ -6,6 +6,9 @@ source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "punishing_armor", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "agents-of-evil"
+page = "19"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: Fortitude negates, see below
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Agents of Evil pg 19
 
 You coat yourself with a thin layer of shimmering energy. Any creature dealing nonlethal damage to
 you immediately takes half the amount of nonlethal damage dealt. A successful Fortitude save made by

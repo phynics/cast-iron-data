@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sprightly_armor", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "17"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You add your armor's enhancement bonus as a bonus on your initiative 
 +++
 
 ## Sprightly Armor (Armor Mastery, Combat)
-
-**Sources:** Armor Master's Handbook pg 17
 
 You make the most of your armor's magical capabilities.\
 **Prerequisites:** Dex 13, base attack bonus +11 or fighter level 8th, armor training class feature,

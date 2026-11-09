@@ -6,12 +6,14 @@ source_ids = ["horror-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shifting_seasons", path = "json/haunts.json" },
 ]
+[[sources]]
+publication = "horror-realms"
+page = "61"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Realms pg 61\
 The most powerful beings in [the First World](ref/rule/the-first-world) are the
 [Eldest](ref/rule/the-eldest), divine creatures who can transform large swaths of the plane to suit
 their interests. Mortal scholars know little about the Eldest, with [Ng the Hooded](ref/faith/ng),

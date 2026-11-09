@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dhampir", path = "json/monsters07.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "89"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ blade he effortlessly wields._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 2 pg 89\
 **Subtype:** Dhampir\
 **Experience points:** 200
 

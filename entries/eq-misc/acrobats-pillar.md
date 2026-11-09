@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "acrobats_pillar", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "20"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "50 gp"
 weight = "40 lbs."
 +++
 
-**Sources:** Melee Tactics Toolbox pg 20\
 **Price** 50 gp; **Weight** 40 lbs.\
 **Category** Tools
 

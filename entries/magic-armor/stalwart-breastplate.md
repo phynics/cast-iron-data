@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stalwart_breastplate", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "143"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration"
 caster_level = "13th"
 +++
 
-**Sources:** Mythic Adventures pg 143\
 **Aura** strong abjuration; **CL** 13th\
 **Slot** armor; **Price** 22,350 gp; **Weight** 40 lbs.
 

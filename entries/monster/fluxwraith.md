@@ -6,6 +6,9 @@ source_ids = ["pathfinder-126-beyond-the-veiled-past"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fluxwraith", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "pathfinder-126-beyond-the-veiled-past"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ encircle it, each fragment reflecting younger or older versions of itself._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#126: Beyond the Veiled Past pg 86\
 **Subtype:** Incorporeal
 
 **Type:** undead

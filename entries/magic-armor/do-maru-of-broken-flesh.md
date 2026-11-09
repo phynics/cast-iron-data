@@ -6,6 +6,9 @@ source_ids = ["pathfinder-52-forest-of-spirits"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "do_maru_of_broken_flesh", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "pathfinder-52-forest-of-spirits"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "9th"
 +++
 
-**Sources:** Pathfinder \#52: Forest of Spirits pg 60\
 **Aura** moderate evocation; **CL** 9th\
 **Slot** armor; **Price** 20,550 gp; **Weight** 30 lbs.
 

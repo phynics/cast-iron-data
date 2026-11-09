@@ -6,14 +6,14 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wild_hunt", path = "json/monster_subtypes.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
 
 [fields]
 kind = "none"
 +++
 
 ## Subtype: Wild Hunt
-
-**Sources:** Bestiary 6
 
 All creatures that ride as a part of the wild hunt are chaotic neutral [fey](ref/type/fey) that have
 the following abilities (unless otherwise noted in a creature's entry).

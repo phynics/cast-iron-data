@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/mesmerist" },
 ]
+[[sources]]
+publication = "legacy-of-dragons"
+page = "13"
 
 [fields]
 kind = "archetype"
 replaces = ["Consummate liar", "Painful stare"]
 +++
 
-**Sources:** Legacy of Dragons pg 13\
 While most mesmerists are subtle and manipulative schemers, mindwyrm mesmers emulate the confidence,
 swagger, and fear inspired by dragons to bully and browbeat others into obedience. These
 dragon-inspired psychic magic-users typically employ draconic imagery in their dress and the

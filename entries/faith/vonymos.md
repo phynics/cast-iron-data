@@ -6,6 +6,9 @@ source_ids = ["concordance-of-rivals"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vonymos", path = "json/faiths9.json" },
 ]
+[[sources]]
+publication = "concordance-of-rivals"
+page = "20"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Vonymos**
 
 **Sub:** The Mourning Storm
-
-**Sources:** Concordance of Rivals pg 20
 
 ### Details
 

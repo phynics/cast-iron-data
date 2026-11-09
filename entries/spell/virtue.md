@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "virtue", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "365"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Saving throw: none
 Spell resistance: yes
 Target: creature touched
 :::
-
-**Sources:** PRPG Core Rulebook pg 365
 
 With a touch, you infuse a creature with a tiny surge of life, granting the subject 1 temporary hit
 point.

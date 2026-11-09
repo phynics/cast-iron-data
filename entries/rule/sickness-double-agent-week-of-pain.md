@@ -6,12 +6,13 @@ source_ids = ["lands-of-conflict"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sickness_double_agent_week_of_pain", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "lands-of-conflict"
+page = "58"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Lands of Conflict pg 58
 
 **Sickness:** One team at random becomes [disabled](ref/rule/team-conditions). _Twice:_ That team is
 instead lost unless the militia succeeds at a DC 20 Loyalty check.

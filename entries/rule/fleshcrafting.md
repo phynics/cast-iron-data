@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fleshcrafting", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "165"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 165
 
 Fleshcrafting involves the same processes and applications as true fleshwarping, but is used to
 modify only a single portion of a living creature. Fleshcrafts are living pieces of tissue that can

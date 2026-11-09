@@ -6,6 +6,9 @@ source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "allied_cloak", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "21"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Adventurer's Armory 2 pg 21
 
 You cause a cloak, shawl, poncho, or other outer garment you are wearing to animate to aid and
 defend you. The cloak provides a +2 shield bonus to your AC. In addition, once each round during

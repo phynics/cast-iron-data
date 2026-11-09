@@ -6,6 +6,9 @@ source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "let_them_come", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "faction-guide"
+page = "57"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ normal = "Only weapons with the brace special feature can be readied against cha
 +++
 
 ## Let Them Come (Combat, Faction)
-
-**Sources:** Faction Guide pg 57
 
 You have trained to fight onrushing enemy hordes. With a carefully timed strike you ensure that
 their reckless charge will be their undoing.\

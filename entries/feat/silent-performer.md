@@ -6,6 +6,9 @@ source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "silent_performer", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "faction-guide"
+page = "57"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You can use your audible-component bardic performance as visual-compo
 +++
 
 ## Silent Performer (Faction)
-
-**Sources:** Faction Guide pg 57
 
 You can use any bardic performance ability without making a sound.\
 **Prerequisites:** Bardic performance class feature,

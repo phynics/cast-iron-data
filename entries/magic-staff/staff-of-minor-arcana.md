@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_minor_arcana", path = "json/magic_staff.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "198"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration and evocation"
 caster_level = "8th"
 +++
 
-**Sources:** Ultimate Equipment pg 198\
 **Aura** moderate abjuration and evocation; **CL** 8th\
 **Slot** none; **Price** 8,000 gp; **Weight** 5 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "isitoq", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "159"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ _This bloodshot eyeball trails strands of bloody nerves that fan out like flappi
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 4 pg 159\
 **Type:** undead
 
 **Experience points:** 200

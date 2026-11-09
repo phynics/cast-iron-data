@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "becoming_a_wordcaster", path = "json/rules_opt_magic03.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "162"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 162
 
 When a character gains the ability to cast spells from a class, he must decide whether to become a
 wordcaster or a normal spellcaster in that class. Once made, this choice cannot be changed. A

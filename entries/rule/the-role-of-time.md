@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_role_of_time", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "162"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 162
 
 Time creates continuity and strings together what would otherwise be a collection of random events,
 dungeon crawls, and journeys. A world is much more than a vague stage for the adventurers to act

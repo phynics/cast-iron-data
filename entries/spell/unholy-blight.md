@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unholy_blight", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "364"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: yes
 Area: 20-ft.-radius spread
 Descriptors: evil
 :::
-
-**Sources:** PRPG Core Rulebook pg 364
 
 You call up unholy power to smite your enemies. The power takes the form of a cold, cloying miasma
 of greasy darkness. Only good and neutral (not evil) creatures are harmed by the spell.

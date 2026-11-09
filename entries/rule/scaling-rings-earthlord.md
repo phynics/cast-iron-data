@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scaling_rings_earthlord", path = "json/rules_opt_magic02.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "165"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 165
 
 **Slot** ring; CL 6th; **Weight** -\
 **Aura** moderate conjuration; **Price** 4,800 gp; **Scaling** wonder

@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_swarming_insects", path = "json/magic_staff.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "201"
+[[sources]]
+publication = "core-rulebook"
+page = "495"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Sources:** Ultimate Equipment pg 201, PRPG Core Rulebook pg 495\
 **Aura** moderate conjuration; **CL** 9th\
 **Slot** none; **Price** 22,800 gp; **Weight** 5 lbs.
 

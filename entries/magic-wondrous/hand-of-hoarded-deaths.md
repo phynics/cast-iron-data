@@ -6,6 +6,9 @@ source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hand_of_hoarded_deaths", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "champions-of-corruption"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Sources:** Champions of Corruption pg 31\
 **Aura** moderate necromancy; **CL** 7th\
 **Slot** hands; **Price** 25,000 gp; **Weight** -
 

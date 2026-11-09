@@ -6,6 +6,9 @@ source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_darkness_infusion", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-origins"
+page = "6"
 
 [fields]
 kind = "class_option"
@@ -26,8 +29,6 @@ group = "kineticist-wild-talent"
 [Negative Blast](ref/kinetic/negative-blast), [Void Blast](ref/kinetic/void-blast)
 
 **Saving throw:** none
-
-**Source:** Occult Origins/6
 
 Your blast creates supernatural darkness, as per the _[darkness](ref/spell/darkness)_ infusion,
 except it acts as [deeper darkness](ref/spell/deeper-darkness) and counts as a 6th-level darkness

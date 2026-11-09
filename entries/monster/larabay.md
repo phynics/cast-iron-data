@@ -6,6 +6,9 @@ source_ids = ["isles-of-the-shackles"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "larabay", path = "json/monsters34.json" },
 ]
+[[sources]]
+publication = "isles-of-the-shackles"
+page = "52"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ multicolored wings of a parrot._
 
 **Senses:** Low-light vision
 
-**Sources:** Isles of the Shackles pg 52\
 **Subtype:** Shapechanger
 
 **Experience points:** 12,800

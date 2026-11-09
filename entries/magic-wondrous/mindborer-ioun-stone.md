@@ -6,6 +6,9 @@ source_ids = ["seekers-of-secrets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mindborer_ioun_stone", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "seekers-of-secrets"
+page = "57"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation"
 caster_level = "12th"
 +++
 
-**Sources:** Seekers of Secrets pg 57\
 **Aura** strong transmutation; **CL** 12th\
 **Slot** none; **Price** varies; **Weight** -
 

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-65-into-the-nightmare-rift"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slave_collar", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "pathfinder-65-into-the-nightmare-rift"
+page = "63"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "9th"
 +++
 
-**Sources:** Pathfinder \#65: Into the Nightmare Rift pg 63\
 **Aura** moderate divination; **CL** 9th\
 **Slot** neck; **Price** 25,000 gp; **Weight** 1 lb.
 

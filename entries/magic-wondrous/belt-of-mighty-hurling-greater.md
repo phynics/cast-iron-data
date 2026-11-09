@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "belt_of_mighty_hurling_greater", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "209-210"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "8th (lesser), 12th (greater)"
 
 ## Belt of Mighty Hurling (Lesser)
 
-**Sources:** Ultimate Equipment pg. 209-210\
 **Aura** moderate transmutation; **CL** 8th (lesser), 12th (greater)\
 **Slot** belt; **Price** 14,000 gp (lesser), 42,000 (greater); **Weight** 1 lb.
 

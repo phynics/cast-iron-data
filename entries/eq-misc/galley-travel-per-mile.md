@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "galley_travel_per_mile", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "87"
+[[sources]]
+publication = "core-rulebook"
+page = "159"
 
 [fields]
 kind = "item"
@@ -15,7 +21,6 @@ price = "30,000 gp"
 
 ## Galley
 
-**Sources:** Ultimate Equipment pg 87, PRPG Core Rulebook pg 159\
 **Price** 30,000 gp; **Price of Passage** (per mile) 1 sp\
 **Category** Transport, Sea
 

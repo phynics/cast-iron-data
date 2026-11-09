@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hydra", path = "json/monsters14.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "178"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ _Multiple angry snake-like heads rise from the sleek, serpentine body of this te
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 178\
 **Experience points:** 1,200
 
 **Armor class:** 15/9/14

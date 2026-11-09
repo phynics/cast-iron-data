@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "armor_for_unusual_creatures", path = "json/rules_basics02.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "153"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 153
 
 Armor and shields for unusually big creatures, unusually little creatures, and non-humanoid
 creatures (such as horses) have different costs and weights. Refer to the appropriate line on Table

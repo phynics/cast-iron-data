@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mountain_terrain", path = "json/rules_gm08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "428"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 428
 
 The three mountain terrain categories are alpine meadows, rugged mountains, and forbidding
 mountains. As characters ascend into a mountainous area, they're likely to face each terrain

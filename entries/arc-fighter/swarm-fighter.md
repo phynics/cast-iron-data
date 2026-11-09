@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/fighter" },
 ]
+[[sources]]
+publication = "kobolds-of-golarion"
+page = "23"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["The bonus feat a fighter gains at first level", "Bravery", "The bon
 alters = ["Weapon and armor proficiencies"]
 +++
 
-**Sources:** Kobolds of Golarion pg 23\
 Kobolds know there's strength in numbers, and they rarely send fewer than two kobolds out on patrol.
 This reliance on one another extends to combat tactics too - overwhelming numbers and tight quarters
 are the [kobold](ref/race/kobold) fighter's friends. Scuttling between the legs of friend and foe

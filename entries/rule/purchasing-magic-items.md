@@ -6,12 +6,16 @@ source_ids = ["core-rulebook", "game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "purchasing_magic_items", path = "json/rules_basics02.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "460"
+[[sources]]
+publication = "game-mastery-guide"
+page = "203"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 460, GameMastery Guide pg 203
 
 Magic items are valuable, and most major cities have at least one or two purveyors of magic items,
 from a simple potion merchant to a weapon smith that specializes in magic swords. Of course, not

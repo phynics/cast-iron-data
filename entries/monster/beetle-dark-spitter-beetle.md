@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beetle_dark_spitter_beetle", path = "json/monsters03.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "52"
 
 [fields]
 kind = "creature"
@@ -38,7 +41,6 @@ _This large beetle's black, shiny exoskeleton clicks and grinds as it opens its 
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Monster Codex pg 52\
 **Type:** vermin
 
 **Experience points:** 800

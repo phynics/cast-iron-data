@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "robot_myrmidon_robot", path = "json/monsters20.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "208"
+[[sources]]
+publication = "inner-sea-bestiary"
+page = "45"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ _This metallic creature has pincer-tipped arms, a single red eye, and an array o
 
 **Senses:** Darkvision 60 ft., Low-light vision, Superior optics
 
-**Sources:** Bestiary 5 pg 208, Inner Sea Bestiary pg 45\
 **Subtype:** Robot
 
 **Experience points:** 12,800

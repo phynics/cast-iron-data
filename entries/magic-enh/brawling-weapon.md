@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brawling_weapon", path = "json/magic_enhancements.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "212"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "7th"
 
 ## Brawling
 
-**Sources:** Advanced Class Guide pg 212\
 **Aura** moderate enchantment; **CL** 7th\
 **Slot** none; **Price** +1 bonus; **Weight** -
 

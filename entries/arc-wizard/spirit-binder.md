@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/wizard" },
 ]
+[[sources]]
+publication = "familiar-folio"
+page = "9"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Scribe Scroll", "bonus feats"]
 alters = ["Arcane bond", "Arcane school"]
 +++
 
-**Sources:** Familiar Folio pg 9\
 While most wizards learn their arts through gradual study, spirit binders have made a sudden arcane
 breakthrough due to the traumatic experience of losing a loved one.
 

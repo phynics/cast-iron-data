@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ability_focus", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "314"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "A creature can gain this feat multiple times. Its effects do not stac
 +++
 
 ## Ability Focus (Monster)
-
-**Sources:** Pathfinder RPG Bestiary pg 314
 
 One of this creature's special attacks is particularly difficult to resist.\
 **Prerequisites:** Special attack.\

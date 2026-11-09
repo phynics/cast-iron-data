@@ -6,6 +6,9 @@ source_ids = ["bestiary", "classic-horrors-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_flesh_golem", path = "json/monsters33.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "160"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ staples lurches to horrific life._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder RPG Bestiary pg 160\
 **Experience points:** 3,200
 
 **Armor class:** 20/8/20

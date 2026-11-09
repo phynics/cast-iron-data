@@ -6,12 +6,13 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "type_g", path = "json/rules_adv_gm07.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "366"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Equipment pg 366
 
 Treasure of this type represents the typical gear that might be carried by a spellcasting creature.
 These rewards include coins only if needed to round out the total value to an easily used number.

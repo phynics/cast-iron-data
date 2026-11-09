@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/inquisitor" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "52"
 
 [fields]
 kind = "archetype"
 replaces = ["Monster lore", "Detect alignment", "Discern lies", "Exploit weakness", "True judgment"]
 +++
 
-**Sources:** Ultimate Combat pg 52\
 Some magic items are heretical by nature, enabling the unfaithful to spread wickedness. Iconoclasts
 seek out and remove such crutches, cleansing the taint these items exude.
 

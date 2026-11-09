@@ -6,6 +6,9 @@ source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_mendevian_crusade", path = "json/class_ability_oaths.json" },
 ]
+[[sources]]
+publication = "divine-anthology"
+page = "20"
 
 [fields]
 kind = "class_option"
@@ -14,7 +17,6 @@ replaces = ["Aura of resolve", "9th-level mercy"]
 alters = ["Divine bond"]
 +++
 
-**Sources:** Divine Anthology pg 20\
 The Worldwound threatens all of Golarion with the uttermost depths of depravity, and so paladins
 across the world stand firm against it. This oath is identical to the
 [oath against fiends](ref/oath/fiends) except as noted here.

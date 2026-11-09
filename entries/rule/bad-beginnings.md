@@ -6,12 +6,14 @@ source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bad_beginnings", path = "json/rules_basics03.json" },
 ]
+[[sources]]
+publication = "agents-of-evil"
+page = "6"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Agents of Evil pg 6\
 For some, evil is a choice, while others find themselves thrust unwillingly into its service. This
 section presents for potential backstories components for those intertwined with dark masters and
 foul destinies. These rules are meant to be used in tandem with the background generator, though

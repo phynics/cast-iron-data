@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "telekinetic_maneuvers", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "28"
 
 [fields]
 kind = "class_option"
@@ -25,8 +28,6 @@ group = "kineticist-wild-talent"
 **Saving throw:** none
 
 **Spell resistance:** yes
-
-**Source:** Occult Adventures/28
 
 You can perform combat maneuvers as [telekinesis](ref/spell/telekinesis)
 ([bull rush](ref/rule/bull-rush), [disarm](ref/rule/disarm), [grapple](ref/rule/grapple) \[including

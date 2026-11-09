@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "catfolk", path = "json/monsters04.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "47"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ curiosity and mischief._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 3 pg 47\
 **Subtype:** Catfolk
 
 **Experience points:** 200

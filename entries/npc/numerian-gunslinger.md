@@ -6,6 +6,9 @@ source_ids = ["numeria-land-of-fallen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "numerian_gunslinger", path = "json/npcs2.json" },
 ]
+[[sources]]
+publication = "numeria-land-of-fallen-stars"
+page = "55"
 
 [fields]
 kind = "creature"
@@ -19,7 +22,6 @@ pale blue light._
 
 **Challenge rating:** 6
 
-**Sources:** Numeria, Land of Fallen Stars pg 55\
 **XP** 2,400\
 Human [gunslinger](ref/class/gunslinger) 6\
 CG Medium humanoid (human)\

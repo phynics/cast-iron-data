@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "when_to_disguise", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "231"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 231
 
 Often the appearance of a rule works just as well as a rule. For a GM faced with a situation for
 which there seems to be no obvious reference in the game's rules, yet who also lacks the time or

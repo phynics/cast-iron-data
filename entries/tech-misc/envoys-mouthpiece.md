@@ -6,6 +6,9 @@ source_ids = ["pathfinder-86-lords-of-rust"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "envoys_mouthpiece", path = "json/equipment_tech_misc.json" },
 ]
+[[sources]]
+publication = "pathfinder-86-lords-of-rust"
+page = "62"
 
 [fields]
 kind = "item"
@@ -15,7 +18,6 @@ weight = "1 lb."
 slot = "headband"
 +++
 
-**Sources:** Pathfinder \#86: Lords of Rust pg 62\
 **Price** 2,000 gp\
 **Slot** headband; **Weight** 1 lb.\
 **Capacity** 10; **Usage** 1/hour

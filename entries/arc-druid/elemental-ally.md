@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "monster-summoners-handbook"
+page = "16"
 
 [fields]
 kind = "archetype"
 replaces = ["Nature's bond", "wild shape", "Wild empathy", "Resist nature's lure"]
 +++
 
-**Sources:** Monster Summoner's Handbook pg 16\
 An elemental ally is a druid who has crafted powerful bonds of trust and friendship with one ally
 from each of the four primary elemental planes. Elemental allies are most common in Qadira, where
 they are considered similar to genie-binders.

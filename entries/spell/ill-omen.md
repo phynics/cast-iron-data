@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ill_omen", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "229"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: curse, mind-affecting
 :::
-
-**Sources:** Advanced Player's Guide pg 229
 
 You afflict the target with bad luck. On the next d20 roll the target makes, it must roll twice and
 take the less favorable result. For every five caster levels you have, the target must roll twice on

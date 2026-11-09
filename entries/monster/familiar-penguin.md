@@ -6,6 +6,15 @@ source_ids = ["ultimate-wilderness", "familiar-folio", "bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_penguin", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "201"
+[[sources]]
+publication = "familiar-folio"
+page = "27"
+[[sources]]
+publication = "bestiary-5"
+page = "112"
 
 [fields]
 kind = "creature"
@@ -42,7 +51,6 @@ flippers that lie flat against its sides instead of wings._
 
 **Size:** small
 
-**Sources:** Ultimate Wilderness pg 201, Familiar Folio pg 27, Bestiary 5 pg 112\
 **Experience points:** 135
 
 **Armor class:** 11/10/11

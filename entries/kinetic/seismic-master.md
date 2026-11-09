@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seismic_master", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "26"
 
 [fields]
 kind = "class_option"
@@ -21,8 +24,6 @@ group = "kineticist-wild-talent"
 **Level:** 9
 
 **Burn:** 0
-
-**Source:** Occult Adventures/26
 
 You can focus on your connection to earth and create a localized tremor, as the
 [earthquake](ref/spell/earthquake) spell.

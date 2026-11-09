@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/protection-from-energy" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "217"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
 :::
-
-**Sources:** Advanced Player's Guide pg 217
 
 Draconic reservoir functions as [protection from energy](ref/spell/protection-from-energy),
 absorbing 6 points of one type of energy damage per caster level (acid, cold, electricity, or fire,

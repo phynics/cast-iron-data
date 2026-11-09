@@ -6,6 +6,9 @@ source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "zenj_totem_staff", path = "json/magic_staff.json" },
 ]
+[[sources]]
+publication = "advanced-class-origins"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate varies"
 caster_level = "8th"
 +++
 
-**Sources:** Advanced Class Origins pg 29\
 **Aura** moderate varies; **CL** 8th\
 **Slot** none; **Price** 24,800 gp; **Weight** 2 lbs.
 

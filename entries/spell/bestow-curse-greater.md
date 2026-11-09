@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/bestow-curse" },
 ]
+[[sources]]
+publication = "pathfinder-82-secrets-of-the-sphinx"
+page = "75"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Descriptors: curse
 :::
 
 ### Greater Bestow Curse
-
-**Sources:** Pathfinder \#82: Secrets of the Sphinx pg 75
 
 You place a curse on the subject. Choose one of the following.
 

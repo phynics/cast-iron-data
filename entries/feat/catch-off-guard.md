@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "catch_off_guard", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "119"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ normal = "You take a -4 penalty on attack rolls made with an improvised weapon."
 +++
 
 ## Catch Off-Guard (Combat)
-
-**Sources:** PRPG Core Rulebook pg 119
 
 Foes are surprised by your skilled use of unorthodox and
 [improvised weapons](ref/misc/improvised-weapons).\

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/fighter" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "104"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Bravery", "Armor training 1, 2, 3, and 4", "Weapon training 1", "We
 alters = ["Weapon mastery"]
 +++
 
-**Sources:** Advanced Player's Guide pg 104\
 The archer is dedicated to the careful mastery of the bow, perfecting his skills with years of
 practice honed day after day on ranges and hunting for game, or else on the battlefield, raining
 destruction down on the enemy lines.

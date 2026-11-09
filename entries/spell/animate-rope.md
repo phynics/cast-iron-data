@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animate_rope", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "242"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: none
 Spell resistance: no
 Target: one rope-like object, length up to 50 ft. + 5 ft./level; see text
 :::
-
-**Sources:** PRPG Core Rulebook pg 242
 
 You can animate a nonliving rope-like object. The maximum length assumes a rope with a 1-inch
 diameter. Reduce the maximum length by 50% for every additional inch of thickness, and increase it

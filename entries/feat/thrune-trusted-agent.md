@@ -6,6 +6,9 @@ source_ids = ["pathfinder-105-the-inferno-gate"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thrune_trusted_agent", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "pathfinder-105-the-inferno-gate"
+page = "7"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Whenever you are within 30 feet of an ally who also has this feat, yo
 +++
 
 ## Thrune Trusted Agent (Teamwork)
-
-**Sources:** Pathfinder \#105: The Inferno Gate pg 7
 
 Your supernatural bond to other Thrune agents strengthens your resolve and allows you to bolster
 your allies.\

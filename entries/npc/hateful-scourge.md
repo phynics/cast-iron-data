@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hateful_scourge", path = "json/npcs4.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "76"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "16"
 
 **Challenge rating:** 16
 
-**Sources:** NPC Codex pg 76\
 **XP** 76,800\
 Half-elf [druid](ref/class/druid) 17\
 NE Medium humanoid (elf, human)\

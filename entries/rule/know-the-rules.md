@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "know_the_rules", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "17"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 17
 
 You don't need encyclopedic knowledge of the Pathfinder RPG rules set to run a quality game. You do,
 however, need to be comfortable with those parts of the rules that come up frequently in play. This

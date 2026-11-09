@@ -6,6 +6,9 @@ source_ids = ["darklands-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "triaza", path = "json/monsters_unique4.json" },
 ]
+[[sources]]
+publication = "darklands-revisited"
+page = "56"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ as scattered pieces of armor. She wields a wicked two-pronged blade._
 
 **Senses:** Darkvision 120 ft.
 
-**Sources:** Darklands Revisited pg 56\
 **Subtype:** Native
 
 **Experience points:** 9,600

@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lying", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "182"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 182
 
 Deceiving people is the most prominent use of the Bluff skill, making it one of the trickiest skills
 to adjudicate.

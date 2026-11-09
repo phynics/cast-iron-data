@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "naga_dark_naga", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "211"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ _A sharp-featured humanoid head crowns the powerful, sinuous body of this snake-
 
 **Senses:** Darkvision 60 ft., Detect thoughts
 
-**Sources:** Pathfinder RPG Bestiary pg 211\
 **Experience points:** 4,800
 
 **Armor class:** 22/15/16

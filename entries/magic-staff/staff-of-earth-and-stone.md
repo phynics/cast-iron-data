@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_earth_and_stone", path = "json/magic_staff.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "196"
+[[sources]]
+publication = "core-rulebook"
+page = "492"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Sources:** Ultimate Equipment pg 196, PRPG Core Rulebook pg 492\
 **Aura** moderate transmutation; **CL** 11th\
 **Slot** none; **Price** 85,800 gp; **Weight** 5 lbs.
 

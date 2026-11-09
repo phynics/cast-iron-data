@@ -6,6 +6,9 @@ source_ids = ["pathfinder-56-raiders-of-the-fever-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sea_urchin_giant_great_diadem_urchin", path = "json/monsters21.json" },
 ]
+[[sources]]
+publication = "pathfinder-56-raiders-of-the-fever-sea"
+page = "89"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ large golden sea urchin._
 
 **Senses:** All-around vision, Low-light vision, Scent
 
-**Sources:** Pathfinder \#56: Raiders of the Fever Sea pg 89\
 **Subtype:** Aquatic
 
 **tremorsense:** 30

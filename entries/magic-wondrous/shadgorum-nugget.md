@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadgorum_nugget", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "269"
+[[sources]]
+publication = "gods-and-magic"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Sources:** Inner Sea Gods pg 269, Gods and Magic pg 60\
 **Aura** faint abjuration; **CL** 3rd\
 **Slot** neck; **Price** 4,200 gp; **Weight** 5 lbs.
 

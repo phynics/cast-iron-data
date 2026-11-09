@@ -6,6 +6,9 @@ source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "absentia", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "22"
 
 [fields]
 kind = "class_option"
@@ -23,8 +26,6 @@ group = "kineticist-wild-talent"
 **Burn:** 0
 
 **Prerequisite:** [emptiness](ref/kinetic/emptiness)
-
-**Source:** Psychic Anthology/22
 
 You are always under the effect of [nondetection](ref/spell/nondetection) as if you had cast it on
 yourself. If the effect is dispelled, you can call if forth again as a **standard action**. You can

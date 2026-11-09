@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ensemble", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "149"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "If you possess one or more levels of the bard class, you can choose a
 +++
 
 ## Ensemble (Teamwork)
-
-**Sources:** Ultimate Magic pg 149
 
 You can create an ensemble of skilled and amateur performers to aid you in your performance.\
 **Prerequisites:** Perform 5 ranks\

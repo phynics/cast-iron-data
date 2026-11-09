@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "amulet_of_magecraft", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "255"
+[[sources]]
+publication = "advanced-players-guide"
+page = "300"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate universal"
 caster_level = "9th"
 +++
 
-**Sources:** Ultimate Equipment pg 255, Advanced Player's Guide pg 300\
 **Aura** moderate universal; **CL** 9th\
 **Slot** neck; **Price** 20,000 gp; **Weight** 2 lbs.
 

@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sitting_room", path = "json/misc.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "102"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 102
 
 **Sitting Room**
 

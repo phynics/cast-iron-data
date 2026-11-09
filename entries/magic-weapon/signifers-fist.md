@@ -6,6 +6,12 @@ source_ids = ["adventurers-guide", "advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "signifers_fist", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "97"
+[[sources]]
+publication = "advanced-class-origins"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint conjuration and transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Adventurer's Guide pg 97, Advanced Class Origins pg 29\
 **Aura** faint conjuration and transmutation; **CL** 5th\
 **Slot** none; **Price** 10,305 gp; **Weight** 2 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heavens_light", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "28"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "As a standard action, you can emit an aura of bright light centered o
 +++
 
 ## Heaven's Light (Conduit)
-
-**Sources:** Planar Adventures pg 28
 
 You are a luminous beacon in the darkness, an icon of order and kindness through which the light of
 Heaven itself can shine, even in the most dreadful of realms.\

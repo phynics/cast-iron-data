@@ -6,6 +6,9 @@ source_ids = ["pathfinder-94-ice-tomb-of-the-giant-queen"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "indarugant", path = "json/monsters14.json" },
 ]
+[[sources]]
+publication = "pathfinder-94-ice-tomb-of-the-giant-queen"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ conceal the simple geometric tattoos and ancient battle scars that decorate his 
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#94: Ice Tomb of the Giant Queen pg 86\
 **Type:** undead
 
 **Experience points:** 38,400

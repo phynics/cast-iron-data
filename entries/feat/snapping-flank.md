@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snapping_flank", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "93"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Whenever you are flanking with an ally who also has this feat, as a s
 +++
 
 ## Snapping Flank (Combat, Teamwork)
-
-**Sources:** Monster Codex pg 93
 
 You can make a swift bite attack against a flanked foe.\
 **Prerequisites:** Base attack bonus +9, bite attack.\

@@ -6,6 +6,9 @@ source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tome_of_dissolution", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "blood-of-shadows"
+page = "27"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint illusion"
 caster_level = "5th"
 +++
 
-**Sources:** Blood of Shadows pg 27\
 **Aura** faint illusion; **CL** 5th\
 **Slot** none; **Price** 2,000 gp; **Weight** 1 lb.
 

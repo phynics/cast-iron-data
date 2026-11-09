@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_quasit", path = "json/monsters29.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "66"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ wiry._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 66\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Size:** tiny

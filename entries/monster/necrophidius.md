@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "necrophidius", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "196"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ skull with a snake's jaws._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 2 pg 196\
 **Experience points:** 800
 
 **Armor class:** 15/13/12

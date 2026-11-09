@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_life_of_a_party", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "64"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 64
 
 Once a group has its players, the elements of the game are decided upon, and characters are made,
 it's time for adventure! The importance of the players doesn't end when the GM's story begins. The

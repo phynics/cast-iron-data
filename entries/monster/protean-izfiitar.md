@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "protean_izfiitar", path = "json/monsters19.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "210"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ _This serpentine monster has six arms and is crowned by a halo of ever-changing 
 
 **Senses:** Darkvision 60 ft., Detect law, True seeing
 
-**Sources:** Bestiary 6 pg 210\
 **Subtype:** Chaotic, Extraplanar, Protean, Shapechanger
 
 **Experience points:** 307,200

@@ -6,6 +6,9 @@ source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "splash_of_the_styx", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "plane-hoppers-handbook"
+page = "8"
 
 [fields]
 kind = "class_option"
@@ -28,8 +31,6 @@ group = "kineticist-wild-talent"
 **Saving throw:** Will negates
 
 **Spell resistance:** yes
-
-**Source:** Plane-Hopper's Handbook/8
 
 You can spend 1 full round to draw upon the waters of the River Styx to erase memories of a target.
 This functions as [modify memory](ref/spell/modify-memory), except that it can only eliminate

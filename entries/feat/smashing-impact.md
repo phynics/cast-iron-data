@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "smashing_impact", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "24"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "You can't bull rush a creature into a solid object or barrier."
 +++
 
 ## Smashing Impact (Combat)
-
-**Sources:** Martial Arts Handbook pg 24
 
 The force of your assault drives your opponents against, and possibly through, solid barriers.\
 **Prerequisites:** Str 15, [Crushing Impact](ref/feat/crushing-impact),

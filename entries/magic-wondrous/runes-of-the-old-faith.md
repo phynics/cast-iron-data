@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "runes_of_the_old_faith", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "234"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong universal"
 caster_level = "12th"
 +++
 
-**Sources:** Advanced Class Guide pg 234\
 **Aura** strong universal; **CL** 12th\
 **Slot** none; **Price** 16,000 gp; **Weight** 1 lb.
 

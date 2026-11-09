@@ -6,6 +6,9 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extinction_wave_device", path = "json/equipment_tech_artifacts.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "60"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ weight = "1,000 lbs."
 slot = "none"
 +++
 
-**Sources:** Technology Guide pg 60\
 **Slot** none; **Weight** 1,000 lbs.\
 **Capacity** -; **Usage** -
 

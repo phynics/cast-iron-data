@@ -6,6 +6,9 @@ source_ids = ["pathfinder-62-curse-of-the-ladys-light"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "silverfang", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "pathfinder-62-curse-of-the-ladys-light"
+page = "62"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "8th"
 +++
 
-**Sources:** Pathfinder \#62: Curse of the Lady's Light pg 62\
 **Aura** moderate necromancy; **CL** 8th\
 **Slot** none; **Price** 9,320 gp; **Weight** 2 lbs.
 

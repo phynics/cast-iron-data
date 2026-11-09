@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fast_play_ship_combat", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "214"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 214
 
 When ships themselves become a part of a combat, things get more unusual. The following rules are
 not meant to accurately simulate all of the complexities of ship-to-ship combat, only to provide you

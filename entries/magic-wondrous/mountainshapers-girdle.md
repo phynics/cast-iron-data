@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mountainshapers_girdle", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "107"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Sources:** Adventurer's Guide pg 107\
 **Aura** moderate transmutation; **CL** 8th\
 **Slot** belt; **Price** 25,000 gp; **Weight** 1 lb.
 

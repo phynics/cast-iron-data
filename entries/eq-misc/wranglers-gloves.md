@@ -6,6 +6,9 @@ source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wranglers_gloves", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "monster-hunters-handbook"
+page = "27"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "20 gp"
 weight = "6 lbs."
 +++
 
-**Sources:** Monster Hunter's Handbook pg 27\
 **Price** 20 gp; **Weight** 6 lbs.\
 **Category** Clothing
 

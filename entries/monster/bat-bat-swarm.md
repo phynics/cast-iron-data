@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bat_bat_swarm", path = "json/monsters03.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "30"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ all of them hungry for blood._
 
 **Senses:** Low-light vision
 
-**Sources:** Pathfinder RPG Bestiary pg 30\
 **Subtype:** Swarm
 
 **Experience points:** 600

@@ -6,13 +6,15 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charm", path = "json/class_ability_blessings.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "64"
 
 [fields]
 kind = "class_option"
 group = "warpriest-blessing"
 +++
 
-**Sources:** Advanced Class Guide pg 64\
 **Deities:** [Calistria](ref/faith/calistria), [Cayden Cailean](ref/faith/cayden-cailean),
 [Norgorber](ref/faith/norgorber), [Shelyn](ref/faith/shelyn)
 

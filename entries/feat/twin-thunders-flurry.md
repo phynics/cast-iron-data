@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "twin_thunders_flurry", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "123"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You can trip a creature with the giant subtype of up to Huge size, an
 +++
 
 ## Twin Thunders Flurry (Combat)
-
-**Sources:** Ultimate Combat pg 123
 
 Your dual bludgeoning strikes are especially deadly when you are fighting giants.\
 **Prerequisites:** [Dwarf](ref/race/dwarf) or [gnome](ref/race/gnome); defensive training racial

@@ -6,6 +6,9 @@ source_ids = ["pirates-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pirate_clothes_basic", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "pirates-of-the-inner-sea"
+page = "21"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "2 lbs. (basic), 6 lbs. (fancy)"
 
 ## Pirate clothes
 
-**Sources:** Pirates of the Inner Sea pg 21\
 **Price** 1 sp (basic), 30 gp (fancy); **Weight** 2 lbs. (basic), 6 lbs. (fancy)
 
 Pirates can appear in a variety of clothing styles, but most wear a basic outfit consisting of a

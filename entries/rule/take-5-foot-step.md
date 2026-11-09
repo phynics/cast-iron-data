@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "take_5_foot_step", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "189"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 189
 
 You can move 5 feet in any round when you don't perform any other kind of movement. Taking this
 **5-foot step** never provokes an attack of opportunity. You can't take more than one 5-foot step in

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/spell-immunity-greater" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "245"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: yes (harmless)
 :::
 
 ### Greater Communal Spell Immunity
-
-**Sources:** Ultimate Combat pg 245
 
 This spell functions like [greater spell immunity](ref/spell/spell-immunity-greater), except you
 divide the duration among the creatures in 10-minute intervals among the creatures touched.

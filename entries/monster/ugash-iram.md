@@ -6,6 +6,9 @@ source_ids = ["pathfinder-60-from-hells-heart"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ugash_iram", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "pathfinder-60-from-hells-heart"
+page = "66"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ terrifying malignance, and the thing has a fanged maw where its beak should be._
 
 **Senses:** Darkvision 120 ft., Low-light vision, See in darkness
 
-**Sources:** Pathfinder \#60: From Hell's Heart pg 66\
 **Subtype:** Aquatic
 
 **Experience points:** 51,200

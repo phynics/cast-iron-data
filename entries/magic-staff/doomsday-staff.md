@@ -6,6 +6,9 @@ source_ids = ["pathfinder-64-beyond-the-doomsday-door"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "doomsday_staff", path = "json/magic_staff.json" },
 ]
+[[sources]]
+publication = "pathfinder-64-beyond-the-doomsday-door"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong varied"
 caster_level = "13th"
 +++
 
-**Sources:** Pathfinder \#64: Beyond the Doomsday Door pg 60\
 **Aura** strong varied; **CL** 13th\
 **Slot** none; **Price** 52,000 gp; **Weight** 5 lbs.
 

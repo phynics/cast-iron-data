@@ -6,6 +6,9 @@ source_ids = ["humans-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ablative_sphere", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "humans-of-golarion"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Humans of Golarion pg 28
 
 The Garundi tenaciously protect their homes, and through the years they have perfected magic to aid
 them in their defense. An immobile, crystalline, web-like globe surrounds you.

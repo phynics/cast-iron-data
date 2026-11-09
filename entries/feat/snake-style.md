@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snake_style", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "119"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "An unarmed strike deals bludgeoning damage."
 +++
 
 ## Snake Style (Combat, Style)
-
-**Sources:** Ultimate Combat pg 119
 
 You watch your foe's every movement and then punch through its defense.\
 **Prerequisites:** [Improved Unarmed Strike](ref/feat/improved-unarmed-strike), Acrobatics 1 rank,

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/shifter" },
 ]
+[[sources]]
+publication = "wilderness-origins"
+page = "6"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Shifter aspect and all improvements to it"]
 alters = ["Wild shape", "Chimeric aspect", "Greater chimeric aspect", "Final aspect"]
 +++
 
-**Sources:** Wilderness Origins pg 6\
 Feyform shifters are intimately linked to the First World, and can draw from it to gain otherworldly
 powers.
 

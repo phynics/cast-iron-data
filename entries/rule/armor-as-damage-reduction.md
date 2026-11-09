@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "armor_as_damage_reduction", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "191"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 191
 
 While the armor and Armor Class system presented in the Pathfinder Roleplaying Game is tried and
 tested, some players may yet have a sense that it feels slightly off. That is to say, if a suit of

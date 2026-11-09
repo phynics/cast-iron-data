@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/witch" },
 ]
+[[sources]]
+publication = "people-of-the-river"
+page = "8"
 
 [fields]
 kind = "archetype"
 replaces = ["2nd- and 10th-level hexes"]
 +++
 
-**Sources:** People of the River pg 8\
 Veneficus witches specialize in poisons - brewing both magical and traditional concoctions, and
 applying them to weapons, traps or even her potent hexes. Whether they're members of Daggermark's
 Poisoners' Guild or followers of Gyronna, veneficus witches are commonly found in the River

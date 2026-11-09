@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elements_of_a_haunt", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "243"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 243
 
 Haunts are presented in the following format.
 

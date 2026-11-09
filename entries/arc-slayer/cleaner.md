@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/slayer" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "118"
 
 [fields]
 kind = "archetype"
 replaces = ["Track", "Slayer talent gained at 4th level", "Stalker"]
 +++
 
-**Sources:** Advanced Class Guide pg 118\
 A cleaner is responsible for destroying or removing incriminating evidence from a crime scene,
 disposing of corpses and eliminating witnesses to make a crime look like an accident or a mere
 disappearance.

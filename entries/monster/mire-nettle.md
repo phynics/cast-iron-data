@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mire_nettle", path = "json/monsters17.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "188"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ needle-like spines._
 
 **Size:** small
 
-**Sources:** Bestiary 6 pg 188\
 **Experience points:** 600
 
 **Armor class:** 14/12/13

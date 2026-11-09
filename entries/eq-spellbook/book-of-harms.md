@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "book_of_harms", path = "json/equipment_spellbooks.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "122"
 
 [fields]
 kind = "item"
@@ -18,8 +21,6 @@ _The leather wrapping of this book is of an indeterminate type, and gives off a 
 scent, as of charred meat. The writing inside is in a jagged hand, and many notes on the ash-smudged
 pages indicate its previous owner sought ever more damaging magic. A glittering rune in the cover's
 center is shaped vaguely like a lightning bolt._
-
-**Sources:** Ultimate Magic pg 122
 
 **Opposition** Divination, transmutation\
 **Protection** [Average lock](ref/eq-misc/lock-average) (DC 25)\

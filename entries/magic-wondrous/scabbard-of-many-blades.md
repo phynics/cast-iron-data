@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scabbard_of_many_blades", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "235"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Sources:** Advanced Class Guide pg 235\
 **Aura** moderate conjuration; **CL** 9th\
 **Slot** none; **Price** 5,000 gp; **Weight** 3 lbs.
 

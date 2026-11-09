@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/dream", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "92"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 92\
 You or the messenger may gain information from the dreamer you contact by asking questions as if
 using [speak with dead](ref/spell/speak-with-dead) to speak with a corpse. An unwilling dreamer can
 attempt to resist this probing with a Will save (as _[speak with dead](ref/spell/speak-with-dead),_

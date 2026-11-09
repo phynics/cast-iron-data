@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "evil_characters", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "69"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 69
 
 Many GMs refuse to allow players to create characters with evil alignments, as is their prerogative
 if they feel such a character might disrupt the game or hinder the story. Occasionally, though, your

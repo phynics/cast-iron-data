@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chain_mauler", path = "json/npcs6.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "153"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "13"
 
 **Challenge rating:** 13
 
-**Sources:** NPC Codex pg 153\
 **XP** 25,600\
 Human [rogue](ref/class/rogue) 14\
 CE Medium humanoid (human)\

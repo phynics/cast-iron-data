@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/combat-expertise", label = "or" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "16"
 
 [fields]
 kind = "feat"
@@ -19,8 +22,6 @@ benefit = "While using Outslug Style, you can move an additional 5 feet when mak
 +++
 
 ## Outslug Sprint (Combat)
-
-**Sources:** Weapon Master's Handbook pg 16
 
 You can make quick, defensive movements.\
 **Prerequisites:** Int 13; [Combat Expertise](ref/feat/combat-expertise) or brawler's cunning class

@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brawling", path = "json/magic_enhancements.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "116"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "5th"
 
 ## Brawling
 
-**Sources:** Ultimate Equipment pg 116\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** armor quality; **Price** +3 bonus; **Weight** -
 

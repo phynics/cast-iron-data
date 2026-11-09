@@ -6,6 +6,9 @@ source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rod_of_metamagic_murky_lesser", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
+page = "63"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "5th"
 
 ## Rod of Metamagic, Murky
 
-**Sources:** Aquatic Adventures pg 63\
 **Aura** (no school); **CL** 5th\
 **Slot** none; **Price** 1,500 gp (lesser \[up to 3rd-level spells\]), 5,500 gp (normal \[up to
 6th-level spells\]), 12,250 gp (greater \[all spells\]); **Weight** -

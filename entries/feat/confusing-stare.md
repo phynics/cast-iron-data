@@ -6,6 +6,9 @@ source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "confusing_stare", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "16"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When you trigger your painful stare, the target must succeed at a Wil
 +++
 
 ## Confusing Stare (Combat, Stare)
-
-**Sources:** Psychic Anthology pg 16
 
 Your stare addles your foe's mind.\
 **Prerequisites:** Mesmerist level 7th, painful stare class feature.\

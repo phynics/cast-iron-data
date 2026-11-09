@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/barbarian" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "166"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Trap sense", "4th, 8th, and 12th level rage powers"]
 alters = ["The barbarian's class skills", "alignment", "Rage"]
 +++
 
-**Sources:** Adventurer's Guide pg 166\
 Geminate invokers are barbarians who use [Rivethun](ref/rule/aff-animists) traditions to invite
 spirits into their bodies. The spirits' aid enables them to overcome the distractions of the flesh:
 they can ignore pain, and even defy death. These ascetics make up much of the Rivethun martial

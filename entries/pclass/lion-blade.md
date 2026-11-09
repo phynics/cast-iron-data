@@ -6,14 +6,18 @@ source_ids = ["inner-sea-intrigue", "taldor-echoes-of-glory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lion_blade", path = "json/prestige_classes2.json" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "36"
+[[sources]]
+publication = "taldor-echoes-of-glory"
+page = "22"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d8."
 +++
-
-**Sources:** Inner Sea Intrigue pg 36, Taldor, Echoes of Glory pg 22
 
 Trained in the hidden Shadow Schools beneath the streets of Cassomir and Oppara, the Lion Blades of
 Taldor come from the empire's most secretive school of fighting arts and espionage. They prefer to

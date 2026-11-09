@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/minor-reversion" },
 ]
+[[sources]]
+publication = "plane-hoppers-handbook"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Subschool: Healing
 :::
 
 ### Mass Minor Reversion
-
-**Sources:** Plane-Hopper's Handbook pg 28
 
 You create a replica within the Akashic Record of each target at the time the spell is cast. Each
 targeted creature must currently have at least half its hit points. If at any time during the

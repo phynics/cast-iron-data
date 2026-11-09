@@ -6,12 +6,13 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_imperial", path = "json/monster_families.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "92"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Bestiary 3 pg 92
 
 Although chromatic and metallic dragons are the most widely known, other categories of true dragon
 exist, such as the five imperial dragons, regal guardians of ancient lands and servants of cosmic

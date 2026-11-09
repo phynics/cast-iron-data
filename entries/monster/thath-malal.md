@@ -6,6 +6,9 @@ source_ids = ["darklands-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thath_malal", path = "json/monsters_unique3.json" },
 ]
+[[sources]]
+publication = "darklands-revisited"
+page = "45"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ its open, lily-shaped maw._
 
 **Senses:** Trace teleport 60 ft.
 
-**Sources:** Darklands Revisited pg 45\
 **Experience points:** 25,600
 
 **Armor class:** 28/8/28

@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "creeping", path = "json/magic_enhancements.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "116"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate illusion and transmutation"
 caster_level = "7th"
 +++
 
-**Sources:** Ultimate Equipment pg 116\
 **Aura** moderate illusion and transmutation; **CL** 7th\
 **Slot** armor quality; **Price** +5,000 gp; **Weight** -
 

@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arm", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "194"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 194
 
 Arms are the manipulating limbs of a creature, including tentacles. Wings are also considered to be
 arms for purposes of a called shot. Called shots to the arm are easy (-2 penalty).

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "religions_role", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "153"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 153
 
 Faith plays a huge role in many feudal societies, especially in monotheistic belief systems whose
 churches are structured in a similar fashion. In a fantasy setting, with multiple pantheons and the

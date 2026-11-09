@@ -6,6 +6,9 @@ source_ids = ["pathfinder-74-sword-of-valor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_lord_shax", path = "json/monsters_unique.json" },
 ]
+[[sources]]
+publication = "pathfinder-74-sword-of-valor"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -48,7 +51,6 @@ daggers in his dripping hands._
 
 **Senses:** Darkvision 60 ft., Detect good, Detect law, True seeing
 
-**Sources:** Pathfinder \#74: Sword of Valor pg 84\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 4,915,200

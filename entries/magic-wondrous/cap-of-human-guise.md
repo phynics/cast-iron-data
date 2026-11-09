@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cap_of_human_guise", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "240"
+[[sources]]
+publication = "advanced-race-guide"
+page = "154"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint illusion"
 caster_level = "3rd"
 +++
 
-**Sources:** Ultimate Equipment pg 240, Advanced Race Guide pg 154\
 **Aura** faint illusion; **CL** 3rd\
 **Slot** head; **Price** 800 gp; **Weight** -
 

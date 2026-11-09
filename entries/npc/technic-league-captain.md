@@ -6,6 +6,9 @@ source_ids = ["pathfinder-89-palace-of-fallen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "technic_league_captain", path = "json/npcs3.json" },
 ]
+[[sources]]
+publication = "pathfinder-89-palace-of-fallen-stars"
+page = "33"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "9"
 
 **Challenge rating:** 9
 
-**Sources:** Pathfinder \#89: Palace of Fallen Stars pg 33\
 **XP** 6,400\
 Human [wizard](ref/class/wizard) 6/technomancer 4\
 CE Medium humanoid (human)\

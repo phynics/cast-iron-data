@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "climb", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "56"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 56
 
 Using Athletics, you can advance up, down, or across a slope, wall, or other steep incline (or a
 ceiling if it has handholds). You move at one-quarter your speed, though you can move at half your

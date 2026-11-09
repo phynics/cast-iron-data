@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/kineticist" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "90"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Elemental overflow", "Elemental defense", "5th-, 9th-, and 13th-lev
 alters = ["Kinetic blast", "Key ability scores of wild talents"]
 +++
 
-**Sources:** Occult Adventures pg 90\
 Combining the elemental powers of a kineticist with the rigid physical discipline of a monk, an
 elemental ascetic channels his powers through his body to enhance himself in combat.
 

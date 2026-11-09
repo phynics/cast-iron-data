@@ -6,6 +6,9 @@ source_ids = ["doom-comes-to-dustpawn"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "id_mutant", path = "json/monster_template2.json" },
 ]
+[[sources]]
+publication = "doom-comes-to-dustpawn"
+page = "29"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +1
-
-**Source:** Doom Comes to Dustpawn/29
 
 Scholars of the mind have many names for the part of the psyche that controls unconscious and
 animalistic urges - be it the primal brain, instinct, or simply the id. Some scholars believe that,

@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fire_breath", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "221"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes
 Area: cone-shaped burst
 Descriptors: fire
 :::
-
-**Sources:** Advanced Player's Guide pg 221
 
 Up to thrice during this spell's duration, you can belch forth a cone of fire as a standard action.
 The first cone deals 4d6 points of fire damage to every creature in the area. The second cone of

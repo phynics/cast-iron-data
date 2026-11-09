@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bounty_hunters_kit", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "20"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "105 gp (common), 380 gp (superior)"
 weight = "15 lbs. (common), 24 lbs. (superior)"
 +++
 
-**Sources:** Melee Tactics Toolbox pg 20\
 **Price** 105 gp (common), 380 gp (superior); **Weight** 15 lbs. (common), 24 lbs. (superior)
 
 This kit provides useful tools for bounty hunters. It includes basic maps showing major landmarks,

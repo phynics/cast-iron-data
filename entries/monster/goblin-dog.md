@@ -6,6 +6,12 @@ source_ids = ["bestiary", "pathfinder-1-burnt-offerings"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "goblin_dog", path = "json/monsters12.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "157"
+[[sources]]
+publication = "pathfinder-1-burnt-offerings"
+page = "87"
 
 [fields]
 kind = "creature"
@@ -41,7 +47,6 @@ grotesquely large._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 157, Pathfinder \#1: Burnt Offerings pg 87\
 **Experience points:** 400
 
 **Armor class:** 13/12/11

@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stalking", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "211"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "6th"
 +++
 
-**Sources:** Advanced Class Guide pg 211\
 **Aura** moderate transmutation; **CL** 6th\
 **Slot** armor; **Price** 8,575 gp; **Weight** 20 lbs.
 

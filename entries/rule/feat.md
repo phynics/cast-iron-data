@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "feat", path = "json/rules_adv_pc01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "191"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 191
 
 You may change one feat to another through retraining. Retraining a feat takes 5 days with a
 character who has the feat you want. The old feat can't be one you used as a prerequisite for a

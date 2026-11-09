@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "serrens_masterstroke", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "26"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Once per round when you hit a foe you have successfully feinted again
 +++
 
 ## Serren's Masterstroke (Combat)
-
-**Sources:** Adventurer's Guide pg 26
 
 When bypassing a foe's defenses while feinting, you can deal devastating damage.\
 **Prerequisites:** [Exotic Weapon Proficiency](ref/feat/exotic-weapon-proficiency) (Aldori dueling

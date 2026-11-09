@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "speak_with_soul", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "45"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: Will negates; see text
 Spell resistance: no
 Target: see text
 :::
-
-**Sources:** Planar Adventures pg 45
 
 You commune with the soul of a dead creature. To cast this spell, you must be at the soul's place of
 death or be in the soul's presence, whether it is contained in a receptacle, powers an intelligent

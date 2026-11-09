@@ -6,14 +6,15 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chain_shot", path = "json/equipment_siege_engines.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "164"
 
 [fields]
 kind = "item"
 category = "Siege Engines"
 weight = "30 lbs"
 +++
-
-**Sources:** Ultimate Combat pg 164
 
 This siege engine firearm ammunition can be loaded in a cannon or a fiend's mouth cannon. It is
 especially good at tearing through sails and dirigibles (see the

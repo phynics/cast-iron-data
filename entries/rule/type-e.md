@@ -6,12 +6,13 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "type_e", path = "json/rules_adv_gm05.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "365"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Equipment pg 365
 
 This treasure is made up entirely of armor and weapons. The exact type of armor and weapon is
 determined using the tables found in this section. The specific table used is specified by the

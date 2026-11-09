@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "7"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Bardic knowledge", "lore master", "Versatile performance", "Well-ve
 alters = ["Weapon and armor proficiencies"]
 +++
 
-**Sources:** Ranged Tactics Toolbox pg 7\
 Jugglers are masters of manipulating objects, most famously by keeping multiple objects in the air
 simultaneously. They often incorporate this talent into acting, comedy, or dance. Adventuring
 jugglers find their abilities translate well into the use of thrown weapons.

@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sickening_spell_like_ability", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "93"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "This feat can be taken multiple times. Each time it is taken, you can
 +++
 
 ## Sickening Spell-Like Ability (Monster)
-
-**Sources:** Horror Adventures pg 93
 
 Your [spell-like ability](ref/umr/spell-like-abilities) sickens affected targets.\
 **Prerequisites:** Spell-like ability at caster level 6th or higher.\

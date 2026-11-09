@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "absorb_toxicity", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "221"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Saving throw: see text
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Ultimate Combat pg 221
 
 You absorb the toxicity of your surroundings, becoming toxic as a result. While under the effect of
 this spell, you are immune to diseases and poisons with which you come into contact. When you are

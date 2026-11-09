@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/investigator" },
 ]
+[[sources]]
+publication = "construct-handbook"
+page = "13"
 
 [fields]
 kind = "archetype"
 replaces = ["The trapfinding", "poison lore", "poison resistance", "Trap sense"]
 +++
 
-**Sources:** Construct Handbook pg 13\
 A number of investigators use their vast knowledge to build machines that replicate the intricacies
 of the world. These investigators create devices to enhance the minds and bodies of their allies and
 themselves.

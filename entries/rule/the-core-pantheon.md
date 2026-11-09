@@ -6,12 +6,13 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_core_pantheon", path = "json/rules_campaign_types09.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "73"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Planar Adventures pg 73
 
 The most significant deities of the Inner Sea region are the 20 presented in the Pathfinder RPG Core
 Rulebook. In a setting of your own design, the most powerful and prominent deities are entirely up

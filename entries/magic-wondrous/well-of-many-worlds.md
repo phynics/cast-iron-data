@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "well_of_many_worlds", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "325"
+[[sources]]
+publication = "core-rulebook"
+page = "532"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong conjuration"
 caster_level = "17th"
 +++
 
-**Sources:** Ultimate Equipment pg 325, PRPG Core Rulebook pg 532\
 **Aura** strong conjuration; **CL** 17th\
 **Slot** none; **Price** 82,000 gp; **Weight** -
 

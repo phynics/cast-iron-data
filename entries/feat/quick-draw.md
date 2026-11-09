@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quick_draw", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "131"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ normal = "Without this feat, you may draw a weapon as a move action, or (if your
 +++
 
 ## Quick Draw (Combat)
-
-**Sources:** PRPG Core Rulebook pg 131
 
 You can draw weapons faster than most.\
 **Prerequisites:** Base attack bonus +1.\

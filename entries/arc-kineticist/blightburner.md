@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/kineticist" },
 ]
+[[sources]]
+publication = "heroes-of-the-darklands"
+page = "25"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Basic geokinesis wild talent", "Utility wild talent gained at 2nd l
 alters = ["Elemental focus", "Gather power", "internal buffer"]
 +++
 
-**Sources:** Heroes of the Darklands pg 25\
 Darklands geokineticists sometimes exhibit supernatural powers associated with
 [blightburn](ref/eq-material/blightburn) crystals. Blightburner kineticists harness this
 radioactivity in pyrotechnic displays, an unusual feat for those connected to the element of earth.

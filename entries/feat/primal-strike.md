@@ -6,6 +6,9 @@ source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "primal_strike", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "people-of-the-wastes"
+page = "7"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "If you have levels in the monk class, you can make a primal attack a 
 +++
 
 ## Primal Strike (Combat)
-
-**Sources:** People of the Wastes pg 7
 
 You have learned to draw primal magic through your body to befuddle your enemies.\
 **Prerequisites:** Wis 17, [Improved Unarmed Strike](ref/feat/improved-unarmed-strike), base attack

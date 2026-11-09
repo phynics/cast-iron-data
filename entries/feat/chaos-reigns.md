@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chaos_reigns", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "26"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "As a swift action, you can allow Abyssal wrath to overtake you. While
 +++
 
 ## Chaos Reigns (Conduit)
-
-**Sources:** Planar Adventures pg 26
 
 The Abyss dreams of devastation; the slightest taste of its power is an incitement to bare-fisted
 violence.\

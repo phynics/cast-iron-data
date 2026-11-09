@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "random_wands", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "134"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 134
 
 ### Table 5-47: Random Wands
 

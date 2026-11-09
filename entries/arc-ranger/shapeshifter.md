@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ranger" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "126"
 
 [fields]
 kind = "archetype"
 replaces = ["Favored terrain", "Camouflage", "Master hunter"]
 +++
 
-**Sources:** Advanced Player's Guide pg 126\
 Most rangers venture into the wilderness, but there are some who let the wilderness seep into them.
 Whether by curse, disease, ancient rite, a slight lycanthropic influence in the blood, or the
 corrupting influence of chaos, these rangers embrace the wild to transform themselves into something

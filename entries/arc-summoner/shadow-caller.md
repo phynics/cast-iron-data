@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/summoner" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "110"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Magical symbol that identifies the summoner and his eidolon"]
 alters = ["Eidolon"]
 +++
 
-**Sources:** Advanced Race Guide pg 110\
 While most summoners can call any manner of creature from across the planes to serve them in combat,
 supplementing the skills of their eidolon with a diverse range of creatures, others eschew this
 broad utility and instead concentrate upon calling forth entities from the

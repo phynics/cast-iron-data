@@ -6,6 +6,12 @@ source_ids = ["bestiary-6", "pathfinder-37-souls-for-smugglers-shiv"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dinosaur_quetzalcoatlus", path = "json/monsters08.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "95"
+[[sources]]
+publication = "pathfinder-37-souls-for-smugglers-shiv"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ razor-sharp beak._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Bestiary 6 pg 95, Pathfinder \#37: Souls for Smuggler's Shiv pg 82\
 **Experience points:** 3,200
 
 **Armor class:** 19/12/15

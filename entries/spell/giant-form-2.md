@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/giant-form-1" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "289"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Subschool: Polymorph
 :::
 
 ### Giant Form II
-
-**Sources:** PRPG Core Rulebook pg 289
 
 This spell functions as [giant form I](ref/spell/giant-form-1) except that it also allows you to
 assume the form of any Huge creature of the giant type. You gain the following abilities: a +8 size

@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dust_of_sneezing_and_choking", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "345"
+[[sources]]
+publication = "core-rulebook"
+page = "540"
 
 [fields]
 kind = "item"
@@ -15,8 +21,6 @@ slot = "none"
 aura = "moderate conjuration"
 caster_level = "7th"
 +++
-
-**Sources:** Ultimate Equipment pg 345, PRPG Core Rulebook pg 540
 
 **Aura** moderate conjuration; **CL** 7th\
 **Slot** none; **Weight** -

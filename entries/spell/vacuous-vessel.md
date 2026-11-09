@@ -6,6 +6,9 @@ source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vacuous_vessel", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "27"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Target: container touched
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** Black Markets pg 27
 
 This spell makes a single bag, chest, sack, or other container look and feel empty. The container
 must be no larger than 1 cubic foot per caster level or the spell fails. Anyone peering into or

@@ -6,6 +6,9 @@ source_ids = ["dungeoneers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tactical_reposition", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "dungeoneers-handbook"
+page = "8"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "You cannot reposition a foe into an intrinsically dangerous space such
 +++
 
 ## Tactical Reposition (Combat)
-
-**Sources:** Dungeoneer's Handbook pg 8
 
 You excel at moving foes right where you want them.\
 **Prerequisites:** Int 13, [Combat Expertise](ref/feat/combat-expertise),

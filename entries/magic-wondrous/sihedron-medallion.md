@@ -6,6 +6,12 @@ source_ids = ["rise-of-the-runelords-anniversary-edition", "pathfinder-1-burnt-o
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sihedron_medallion", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "rise-of-the-runelords-anniversary-edition"
+page = "426"
+[[sources]]
+publication = "pathfinder-1-burnt-offerings"
+page = "55"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint necromancy"
 caster_level = "5th"
 +++
 
-**Sources:** Rise of the Runelords Anniversary Edition pg 426, Pathfinder \#1: Burnt Offerings pg 55\
 **Aura** faint necromancy; **CL** 5th\
 **Slot** neck; **Price** 3,500 gp; **Weight** -
 

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "immediate_experience", path = "json/rules_gm03.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "103"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 103
 
 Award players experience points as soon as they earn them. Allow the characters to level up at the
 end of any scene, as soon as they have accumulated enough XP.

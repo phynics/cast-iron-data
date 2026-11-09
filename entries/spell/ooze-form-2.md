@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/ooze-form-1" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "233"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Subschool: Polymorph
 :::
 
 ### Ooze Form II
-
-**Sources:** Ultimate Wilderness pg 233
 
 This spell functions as [ooze form I](ref/spell/ooze-form-1) except you can also assume the form of
 a Large ooze. You gain [blindsight](ref/rule/blindsight-and-blindsense) 30 feet and immunity to

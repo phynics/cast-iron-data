@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weapon_encumbrance", path = "json/rules_basics02.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "141"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 141
 
 **Light, One-Handed, and Two-Handed Melee Weapons:** This designation is a measure of how much
 effort it takes to wield a weapon in combat. It indicates whether a melee weapon, when wielded by a

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/vigilante" },
 ]
+[[sources]]
+publication = "blood-of-the-ancients"
+page = "21"
 
 [fields]
 kind = "archetype"
 replaces = ["Social talent gained at 1st level", "Unshakable", "Social talent gained at 5th level"]
 +++
 
-**Sources:** Blood of the Ancients pg 21\
 Many residents of Lung Wa's successor states refuse to admit the empire has truly fallen, but the
 self-proclaimed imperial agents have taken matters into their own hands. Imperial agents are often
 the descendants of nobility and generals from Lung Wa, devoted to reuniting the empire by conquering

@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lore_needle", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "17"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Magic Tactics Toolbox pg 17\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** head; **Price** 4,000 gp; **Weight** -
 

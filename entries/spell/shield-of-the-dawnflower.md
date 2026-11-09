@@ -6,6 +6,12 @@ source_ids = ["inner-sea-world-guide", "gods-and-magic", "inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_of_the_dawnflower", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "296"
+[[sources]]
+publication = "gods-and-magic"
+page = "35"
 
 [fields]
 kind = "spell"
@@ -46,8 +52,6 @@ Spell resistance: no
 Target: you
 Descriptors: fire, good, light
 :::
-
-**Sources:** Inner Sea World Guide pg 296, Gods and Magic pg 35
 
 You create a disk of sunlight on one arm. Any creature that strikes you with a melee attack deals
 normal damage, but also takes 1d6 points of fire damage + 1 point per caster level (maximum +15).

@@ -6,12 +6,13 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "using_hero_points", path = "json/rules_subsystems01.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "323"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Advanced Player's Guide pg 323
 
 Hero points can be spent at any time and do not require an action to use (although the actions they
 modify consume part of your character's turn as normal). You cannot spend more than 1 hero point

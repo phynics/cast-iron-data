@@ -6,6 +6,9 @@ source_ids = ["dungeons-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "battering_blast", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "dungeons-of-golarion"
+page = "33"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: yes
 Target: one creature or unattended object
 Descriptors: force
 :::
-
-**Sources:** Dungeons of Golarion pg 33
 
 You hurl a fist-sized ball of force resembling a sphere of spikes to ram a designated creature or
 object. You must succeed on a ranged touch attack to strike your target. On a successful hit, you

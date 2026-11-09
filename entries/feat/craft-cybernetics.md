@@ -6,6 +6,9 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "craft_cybernetics", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "6"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Technologist, Heal 9 ranks, Knowledge (engineering) 9 ranks"
 prerequisite_feats = ["ref/feat/technologist"]
 benefit = "You can create cybernetic items. Creating a cybernetic item takes 1 day for every 1,000 gp in the item's price. To create the object, you must use up raw materials costing half of this total price. See Crafting High-Tech Items."
 +++
-
-**Sources:** Technology Guide pg 6
 
 You can build cyberware and install it in a creature's body.\
 **Prerequisites:** [Technologist](ref/feat/technologist), Heal 9 ranks, Knowledge (engineering) 9

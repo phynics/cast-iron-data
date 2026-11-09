@@ -6,6 +6,9 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "craft_technological_item", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "6"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Technologist, Craft (mechanical) 5 ranks, Knowledge (engineerin
 prerequisite_feats = ["ref/feat/technologist"]
 benefit = "You can create technological gear. Creating a piece of technological gear takes 1 day for every 1,000 gp in the item's price. To create the object, you must use up raw materials costing half of this total price. See Crafting High-Tech Items for more information."
 +++
-
-**Sources:** Technology Guide pg 6
 
 You can craft technological gear and items.\
 **Prerequisites:** [Technologist](ref/feat/technologist), Craft (mechanical) 5 ranks, Knowledge

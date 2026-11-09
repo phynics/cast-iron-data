@@ -6,6 +6,9 @@ source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kinetic_revivification", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "healers-handbook"
+page = "15"
 
 [fields]
 kind = "class_option"
@@ -23,8 +26,6 @@ group = "kineticist-wild-talent"
 **Burn:** 0
 
 **Prerequisite:** [kinetic healer](ref/kinetic/kinetic-healer)
-
-**Source:** Healer's Handbook/15
 
 You can bring an ally who died within 1 round back from the dead with your _kinetic healer_ wild
 talent similarly to the [breath of life](ref/spell/breath-of-life) spell, except the ally regains

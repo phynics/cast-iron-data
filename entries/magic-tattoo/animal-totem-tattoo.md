@@ -6,6 +6,9 @@ source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animal_totem_tattoo", path = "json/magic_tattoo.json" },
 ]
+[[sources]]
+publication = "magical-marketplace"
+page = "5"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Magical Marketplace pg 5\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** none; **Price** 12,000 gp; **Weight** -
 

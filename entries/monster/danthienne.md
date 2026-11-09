@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "danthienne", path = "json/monsters06.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "80"
 
 [fields]
 kind = "creature"
@@ -39,7 +42,6 @@ hands, and a mischievous grin._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 6 pg 80\
 **Size:** tiny
 
 **Experience points:** 1,600

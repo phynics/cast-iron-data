@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "faiths-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chaldira_zuzaristan", path = "json/faiths2.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "324"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Chaldira Zuzaristan**
 
 **Sub:** The Calamitous Turn
-
-**Sources:** Inner Sea Gods pg 324
 
 ### Details
 

@@ -6,14 +6,15 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deer_horn_knife", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "19"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "3 lbs."
 +++
-
-**Sources:** Melee Tactics Toolbox pg 19
 
 This flat, metal weapon consists of two joined crescent-shaped blades overlapping to form a hollow
 center with four projecting points. The blades can differ in length. One side of the center is

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_primitive_society", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "150"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 150
 
 All historical cultures, and nearly all fantastical ones, spring from primal forebears. Though
 creation myths sometimes tell of people springing full-formed from the earth (or the sky, the

@@ -6,6 +6,9 @@ source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "suppress_regeneration", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "giant-hunters-handbook"
+page = "19"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "When you make a successful attack that causes a creature's regenerati
 +++
 
 ## Suppress Regeneration (Combat, Teamwork)
-
-**Sources:** Giant Hunter's Handbook pg 19
 
 You and your allies can exacerbate a regenerating creature's weaknesses. By making a precisely timed
 attack to open a serious wound just a bit further, your allies can extend the length of time the

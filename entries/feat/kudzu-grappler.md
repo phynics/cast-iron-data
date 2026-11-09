@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kudzu_grappler", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "24"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Dex 13, Improved Grapple, Improved Unarmed Strike, Greater Grap
 prerequisite_feats = ["ref/feat/greater-grapple", "ref/feat/improved-grapple", "ref/feat/improved-unarmed-strike"]
 benefit = "You add an option to blind the grappled creature for 1 round to the list of actions you can take when you succeed at a check to maintain a grapple."
 +++
-
-**Sources:** Ultimate Wilderness pg 24
 
 You climb all over creatures you're grappling like kudzu, blocking their vision.\
 **Prerequisites:** Dex 13, [Improved Grapple](ref/feat/improved-grapple),

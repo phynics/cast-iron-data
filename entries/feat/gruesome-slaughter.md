@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gruesome_slaughter", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "150"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Creatures you demoralize by using the Killing Flourish feat must succ
 +++
 
 ## Gruesome Slaughter (Combat)
-
-**Sources:** Advanced Class Guide pg 150
 
 You can inspire extreme revulsion when you slaughter your enemies.\
 **Prerequisites:** [Intimidating Prowess](ref/feat/intimidating-prowess),

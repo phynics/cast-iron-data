@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ready_for_anything", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "90"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You can always act in the surprise round even if you fail a Perceptio
 +++
 
 ## Ready for Anything (Combat)
-
-**Sources:** Ultimate Intrigue pg 90
 
 You never let down your guard.\
 **Prerequisites:** [Alertness](ref/feat/alertness),

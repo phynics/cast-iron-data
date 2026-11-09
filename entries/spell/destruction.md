@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "destruction", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "266"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: death
 :::
-
-**Sources:** PRPG Core Rulebook pg 266
 
 This spell instantly delivers 10 points of damage per caster level. If the spell slays the target,
 it consumes the remains utterly in holy (or unholy) fire (but not its equipment or possessions). If

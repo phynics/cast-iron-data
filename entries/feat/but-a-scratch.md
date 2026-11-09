@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "but_a_scratch", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "79"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When an opponent confirms a critical hit against you with a melee wea
 +++
 
 ## But a Scratch (Combat)
-
-**Sources:** Ultimate Intrigue pg 79
 
 Your bravado convinces your enemies that their deadliest attacks are mere trifles, making you seem
 nigh invulnerable.\

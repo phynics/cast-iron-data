@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crysmal", path = "json/monsters06.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "61"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ into an aggressive stance._
 
 **Size:** small
 
-**Sources:** Bestiary 2 pg 61\
 **Subtype:** Earth, Elemental
 
 **Experience points:** 800

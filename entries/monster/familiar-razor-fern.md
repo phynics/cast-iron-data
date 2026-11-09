@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_razor_fern", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "205"
 
 [fields]
 kind = "creature"
@@ -38,7 +41,6 @@ _This vaguely human-shaped plant slashes out with dangerous-looking barbed frond
 
 **Type:** plant
 
-**Sources:** Ultimate Wilderness pg 205\
 **Size:** tiny
 
 **tremorsense:** 15

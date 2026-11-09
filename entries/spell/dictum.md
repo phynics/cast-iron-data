@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dictum", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "269"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: yes
 Area: nonlawful creatures in a 40-ft.-radius spread centered on you
 Descriptors: lawful, sonic
 :::
-
-**Sources:** PRPG Core Rulebook pg 269
 
 Any nonlawful creature within the area of a dictum spell suffers the following ill effects.
 

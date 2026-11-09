@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "buying_esoteric_components", path = "json/rules_opt_magic01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "150"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 150
 
 Each common esoteric material component has the same price, and a spellcaster buys them based on
 their gp value. Though each type of component comes in different sizes and purities, it's usually

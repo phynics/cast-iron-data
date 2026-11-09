@@ -6,6 +6,12 @@ source_ids = ["advanced-race-guide", "orcs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ferocious_tenacity", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "57"
+[[sources]]
+publication = "orcs-of-golarion"
+page = "24"
 
 [fields]
 kind = "feat"
@@ -15,8 +21,6 @@ benefit = "Once per day when raging, if you are hit by an attack that would deal
 +++
 
 ## Ferocious Tenacity (Combat)
-
-**Sources:** Advanced Race Guide pg 57, Orcs of Golarion pg 24
 
 You spit in the face of death.\
 **Prerequisites:** Ferocity racial trait, [half-orc](ref/race/half-orc) or [orc](ref/race/orc), rage

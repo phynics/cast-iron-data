@@ -6,6 +6,9 @@ source_ids = ["pathfinder-57-tempest-rising"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "voidstick_zombie", path = "json/monsters40.json" },
 ]
+[[sources]]
+publication = "pathfinder-57-tempest-rising"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ aura of entropy and despair hangs over the sorry, perforated creature._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#57: Tempest Rising pg 90\
 **Type:** undead
 
 **Experience points:** 19,200

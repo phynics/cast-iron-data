@@ -6,6 +6,9 @@ source_ids = ["pathfinder-85-fires-of-creation"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "robot_collector_robot", path = "json/monsters20.json" },
 ]
+[[sources]]
+publication = "pathfinder-85-fires-of-creation"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ spindly, multi-jointed fingers, and four circular rotors hold the creature aloft
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#85: Fires of Creation pg 84\
 **Subtype:** Robot
 
 **Experience points:** 800

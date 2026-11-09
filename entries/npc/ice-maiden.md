@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ice_maiden", path = "json/npcs6.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "215"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "19"
 
 **Challenge rating:** 19
 
-**Sources:** NPC Codex pg 215\
 **XP** 204,800\
 Elf [sorcerer](ref/class/sorcerer) 10/dragon disciple 10\
 NE Medium humanoid (elf)\

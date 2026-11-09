@@ -6,6 +6,9 @@ source_ids = ["pathfinder-52-forest-of-spirits"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_thundering_blade_of_the_house_of_sugimatu", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "pathfinder-52-forest-of-spirits"
+page = "61"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Sources:** Pathfinder \#52: Forest of Spirits pg 61\
 **Aura** moderate evocation; **CL** 7th\
 **Slot** none; **Price** 28,415 gp; **Weight** 9 lbs.
 

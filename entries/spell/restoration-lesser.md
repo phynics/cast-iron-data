@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "restoration_lesser", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "334"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Subschool: Healing
 :::
 
 ### Lesser Restoration
-
-**Sources:** PRPG Core Rulebook pg 334
 
 Lesser restoration dispels any magical effects reducing one of the subject's ability scores or cures
 1d4 points of temporary ability damage to one of the subject's ability scores. It also eliminates

@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "net_adept", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "111"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "A net is a ranged weapon that imposes a -4 penalty on ranged attack ro
 +++
 
 ## Net Adept (Combat)
-
-**Sources:** Ultimate Combat pg 111
 
 You have trained to use the net as a melee weapon.\
 **Prerequisites:** [Exotic Weapon Proficiency](ref/feat/exotic-weapon-proficiency) (net), base

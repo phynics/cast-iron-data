@@ -6,6 +6,9 @@ source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crowd_control", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "divine-anthology"
+page = "6"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You gain a +2 competence bonus to your CMD when an enemy uses Acrobat
 +++
 
 ## Crowd Control (Combat, Teamwork)
-
-**Sources:** Divine Anthology pg 6
 
 You and your allies have been trained to prevent enemies from moving around or through your
 formation.\

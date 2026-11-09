@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "92"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Woodland stride", "trackless step", "resist nature's lure", "The ad
 alters = ["Wild shape"]
 +++
 
-**Sources:** Advanced Class Guide pg 92\
 A wild whisperer is an expert at studying, predicting, and explaining animal behavior. She is less
 interested in plants, fey, and other aspects of the natural world, and uses her gifts to tame or
 relocate dangerous beasts and soothe the hurts of wounded and sickly creatures.

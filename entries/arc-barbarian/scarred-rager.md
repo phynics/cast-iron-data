@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/barbarian" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "29"
 
 [fields]
 kind = "archetype"
 replaces = ["Fast movement", "Uncanny dodge", "Trap sense", "Improved uncanny dodge"]
 +++
 
-**Sources:** Ultimate Combat pg 29\
 Some barbarians wear marks of prowess and savagery upon their bodies. The scarred rager believes
 each wound tells the tales of her prowess and bravery. She augments these ragged trophies with
 brands and tattoos in order to win the notice and favor of her gods, ancestors, or totem spirits.

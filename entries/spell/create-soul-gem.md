@@ -6,6 +6,12 @@ source_ids = ["book-of-the-damned", "book-of-the-damned-volume-3-horsemen-of-the
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "create_soul_gem", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "184"
+[[sources]]
+publication = "book-of-the-damned-volume-3-horsemen-of-the-apocalypse"
+page = "38"
 
 [fields]
 kind = "spell"
@@ -47,9 +53,6 @@ Spell resistance: yes
 Target: one dying or recently dead creature
 Descriptors: death, evil
 :::
-
-**Sources:** Book of the Damned pg 184, Book of the Damned - Volume 3: Horsemen of the Apocalypse pg
-38
 
 You draw forth the ebbing life force of a dying creature or one that has died in the past round,
 focusing it through a crystal lens focus to transform into a

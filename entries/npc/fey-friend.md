@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fey_friend", path = "json/npcs7.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "72"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "12"
 
 **Challenge rating:** 12
 
-**Sources:** NPC Codex pg 72\
 **XP** 19,200\
 Gnome [druid](ref/class/druid) 13\
 CN Small humanoid (gnome)\

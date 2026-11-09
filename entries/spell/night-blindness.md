@@ -6,6 +6,12 @@ source_ids = ["black-markets", "dark-markets-a-guide-to-katapesh"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "night_blindness", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "19"
+[[sources]]
+publication = "dark-markets-a-guide-to-katapesh"
+page = "57"
 
 [fields]
 kind = "spell"
@@ -50,8 +56,6 @@ Spell resistance: no
 Target: one living creature
 Descriptors: curse
 :::
-
-**Sources:** Black Markets pg 19, Dark Markets - A Guide to Katapesh pg 57
 
 Your target's vision becomes impaired as if the light level were one step lower, treating bright
 light as normal light, normal light as dim light, and dim light as darkness. In addition, the

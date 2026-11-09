@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/form-of-the-dragon-3", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "96"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 96
 
 Each mythic form of the dragon spell must be learned individually, and you must know the respective
 non-mythic form of the dragon spell to learn its mythic version. You don't have to learn them in

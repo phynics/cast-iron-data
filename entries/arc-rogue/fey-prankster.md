@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "12"
 
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Rogue talent gained at 2nd level", "Uncanny dodge", "improved uncanny dodge", "Rogue talent gained at 6th level", "Rogue talent gained at 8th level", "Rogue talent gained at 12th level"]
 +++
 
-**Sources:** Ultimate Wilderness pg 12\
 Fey pranksters specialize in tricking others to teach a lesson or for their own entertainment.
 
 **Prerequisites:** Gathlain

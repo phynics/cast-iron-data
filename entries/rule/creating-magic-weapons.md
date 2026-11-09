@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "creating_magic_weapons", path = "json/rules_basics04.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "551"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 551
 
 To create a magic weapon, a character needs a heat source and some iron, wood, or leatherworking
 tools. She also needs a supply of materials, the most obvious being the weapon or the pieces of the

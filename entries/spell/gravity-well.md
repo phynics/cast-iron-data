@@ -6,6 +6,9 @@ source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gravity_well", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "dragonslayers-handbook"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: Fortitude negates
 Spell resistance: no
 Target: one creature
 :::
-
-**Sources:** Dragonslayer's Handbook pg 29
 
 You bring into being a localized region of increased gravity that crushes a creature to the ground.
 Affected targets weigh twice as much as normal, can move only at half speed, jump only half as far

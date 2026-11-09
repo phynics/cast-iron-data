@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "admixture_vial", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "276"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate universal"
 caster_level = "8th"
 +++
 
-**Sources:** Ultimate Equipment pg 276\
 **Aura** moderate universal; **CL** 8th\
 **Slot** none; **Price** 5,000 gp; **Weight** -
 

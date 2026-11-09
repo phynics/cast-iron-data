@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "waves_of_exhaustion", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "368"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: none
 Spell resistance: yes
 Area: cone-shaped burst
 :::
-
-**Sources:** PRPG Core Rulebook pg 368
 
 Waves of negative energy cause all living creatures in the spell's area to become exhausted. This
 spell has no effect on a creature that is already exhausted.

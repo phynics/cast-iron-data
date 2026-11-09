@@ -6,6 +6,9 @@ source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghost_syrup", path = "json/magic_necrotoxins.json" },
 ]
+[[sources]]
+publication = "agents-of-evil"
+page = "23"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ aura = "strong necromancy"
 caster_level = "13th"
 +++
 
-**Sources:** Agents of Evil pg 23\
 **Aura** strong necromancy; **CL** 13th\
 **Slot**; **Price** 6,000 gp; **Weight** —
 

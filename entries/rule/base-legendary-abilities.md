@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "base_legendary_abilities", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "169"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 169
 
 Base legendary abilities affect the item's bearer, whether the item is wielded, worn, carried, or
 otherwise used. All legendary items have the following abilities, which don't count against the

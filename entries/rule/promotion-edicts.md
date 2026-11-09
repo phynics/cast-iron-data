@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "promotion_edicts", path = "json/rules_campaign_types04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "209"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 209
 
 Promotion edicts are events and actions the kingdom uses to attract new citizens and increase the
 well-being of the kingdom, such as recruitment campaigns, advertisements about services and goods,

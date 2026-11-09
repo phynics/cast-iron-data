@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "culverin", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "43"
+[[sources]]
+publication = "ultimate-combat"
+page = "137"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "40 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 43, Ultimate Combat pg 137
 
 The culverin, also known as a hand bombard, consists of a simple smoothbore tube, sealed at one end
 except for a small hole used to ignite a gunpowder charge. A wooden stock partially encases the

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "cohorts-and-companions"
+page = "12"
 
 [fields]
 kind = "archetype"
 replaces = ["Brew Potion", "mutagen", "the discovery gained at 4th level"]
 +++
 
-**Sources:** Cohorts and Companions pg 12\
 A construct rider creates arcane devices to emulate and surpass weak flesh.
 
 **Gained class skills:** ride, ke

@@ -9,12 +9,14 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "heroes-of-the-streets"
+page = "26"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Heroes of the Streets pg 26\
 A busker uses his dazzling physical stunts to get by on his own in the city streets. Buskers
 commonly use their skills to entertain for a few coins, but also pick pockets, hide in plain sight
 as statues, and manipulate the desperate in medicine shows. Many buskers are also

@@ -9,14 +9,15 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/spell-focus", label = "or" },
 ]
+[[sources]]
+publication = "plane-hoppers-handbook"
+page = "6"
 
 [fields]
 kind = "feat"
 prerequisites = "Spell Focus (conjuration) or counter summons class feature."
 prerequisite_feats = ["ref/feat/spell-focus"]
 +++
-
-**Sources:** Plane-Hopper's Handbook pg 6
 
 Your training in counterspelling summons is so extensive that you can redirect some of your foes'
 power to call forth your own allies.\

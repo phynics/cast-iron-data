@@ -6,12 +6,13 @@ source_ids = ["cohorts-and-companions"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "recruit_discreetly", path = "json/rules_rulesets01.json" },
 ]
+[[sources]]
+publication = "cohorts-and-companions"
+page = "27"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Cohorts and Companions pg 27
 
 The [recruit for an organization](ref/rule/recruit-for-an-organization) downtime activity is a
 public process as appropriate for your organization - while a rogue recruiting for a gang of

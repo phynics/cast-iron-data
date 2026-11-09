@@ -6,6 +6,9 @@ source_ids = ["pathfinder-124-city-in-the-deep"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shell_of_sending", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "pathfinder-124-city-in-the-deep"
+page = "56"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Sources:** Pathfinder \#124: City in the Deep pg 56\
 **Aura** moderate evocation; **CL** 7th\
 **Slot** none; **Price** 12,200 gp; **Weight** -
 

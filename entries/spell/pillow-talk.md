@@ -6,6 +6,9 @@ source_ids = ["inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pillow_talk", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "inner-sea-temples"
+page = "63"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Target: sleeping, living creature touched
 Subschool: Compulsion
 Descriptors: language-dependant, mind-affecting
 :::
-
-**Sources:** Inner Sea Temples pg 63
 
 This spell can be cast only on a sleeping creature, which must be present for the full duration of
 the casting time. You grant the semblance of wakefulness to the target, allowing it to answer

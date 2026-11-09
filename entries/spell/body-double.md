@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "body_double", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "30"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Target: two creatures; see text
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** Dirty Tactics Toolbox pg 30
 
 Upon casting this spell, choose a primary target and a secondary target, both of which must be
 within range. If the primary target fails or forfeits its saving throw, its appearance, scent,

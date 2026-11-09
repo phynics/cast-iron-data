@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "celestial", path = "json/class_ability_bloodrager_bloodlines.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "19"
 
 [fields]
 kind = "class_option"
@@ -13,8 +16,6 @@ group = "bloodrager-bloodline"
 +++
 
 ## Celestial Bloodline
-
-**Sources:** Advanced Class Guide pg 19
 
 By way of a celestial ancestor or divine intervention, the blood of angels fills your body with a
 holy potency, granting you a majestic visage and angelic powers when you enter your _bloodrage._

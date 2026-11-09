@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "witness", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "249"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: yes (harmless)
 Target: one living creature
 Subschool: Scrying
 :::
-
-**Sources:** Ultimate Magic pg 249
 
 You link your senses to the target, allowing you to see and hear through its eyes and ears. As a
 move action you can shift your senses from yourself to the target or back again. When using the

@@ -6,6 +6,12 @@ source_ids = ["adventurers-guide", "inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crimson_bluff", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "158"
+[[sources]]
+publication = "inner-sea-combat"
+page = "54"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate illusion"
 caster_level = "11th"
 +++
 
-**Sources:** Adventurer's Guide pg 158, Inner Sea Combat pg 54\
 **Aura** moderate illusion; **CL** 11th\
 **Slot** none; **Price** 65,575 gp; **Weight** 2 lbs.
 

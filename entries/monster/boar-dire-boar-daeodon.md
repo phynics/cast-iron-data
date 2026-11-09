@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boar_dire_boar_daeodon", path = "json/monsters27.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "36"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ and its bristly flank crawls with flies._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 36\
 **Experience points:** 1,200
 
 **Armor class:** 15/9/15

@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "siege_engine_qualities", path = "json/rules_rulesets02.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "159"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 159
 
 The following are the various entries on the equipment tables for siege engines. While ranged siege
 engines use most of these entries, close-assault siege engines only use some of them.

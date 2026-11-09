@@ -6,6 +6,9 @@ source_ids = ["demon-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deadlimb_pins", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "demon-hunters-handbook"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Sources:** Demon Hunter's Handbook pg 29\
 **Aura** moderate transmutation; **CL** 9th\
 **Slot** none; **Price** 60,000 gp; **Weight** 1 lb.
 

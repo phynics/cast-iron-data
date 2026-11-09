@@ -6,6 +6,8 @@ source_ids = ["the-harrow-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "illusions_decree", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "the-harrow-handbook"
 
 [fields]
 kind = "class_option"
@@ -13,8 +15,6 @@ group = "bardic-masterpiece"
 +++
 
 ## Illusion's Decree (Comedy, Oratory)
-
-**Sources:** The Harrow Handbook
 
 These stories of wiliness and mystery inspire listeners to see through deceptions.
 

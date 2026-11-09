@@ -6,6 +6,15 @@ source_ids = ["ultimate-wilderness", "heroes-of-the-wild", "adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tribal_hunter", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "119"
+[[sources]]
+publication = "heroes-of-the-wild"
+page = "19"
+[[sources]]
+publication = "adventurers-guide"
+page = "133"
 
 [fields]
 kind = "feat"
@@ -17,8 +26,6 @@ normal = "You must be positioned opposite an ally to flank an opponent."
 +++
 
 ## Tribal Hunter (Combat, Teamwork)
-
-**Sources:** Ultimate Wilderness pg 119, Heroes of the Wild pg 19, Adventurer's Guide pg 133
 
 From watching pack animals hunt, you learned to take down large prey as part of a group.\
 **Prerequisites:** [Animal Affinity](ref/feat/animal-affinity).\

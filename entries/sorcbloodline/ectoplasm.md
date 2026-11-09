@@ -6,13 +6,15 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ectoplasm", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "124"
 
 [fields]
 kind = "class_option"
 group = "sorcerer-bloodline"
 +++
 
-**Sources:** Occult Adventures pg 124\
 Your family has a connection with the ethereal substance known as ectoplasm, whether from communing
 with the spirits or battling the spiritual undead. The power of the Ethereal Plane thrums in your
 mind and pulls at your flesh.

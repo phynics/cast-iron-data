@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "description", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "31"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 31
 
 The first thing to know is that there are such things as being too loud and too quiet as the GM. If
 you spend the whole game talking, with players barely squeezing in hit and damage information,

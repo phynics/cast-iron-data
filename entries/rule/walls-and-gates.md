@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "walls_and_gates", path = "json/rules_gm08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "433"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 433
 
 Many cities are surrounded by walls. A typical small city wall is a fortified stone wall 5 feet
 thick and 20 feet high. Such a wall is fairly smooth, requiring a DC 30 Climb check to scale. The

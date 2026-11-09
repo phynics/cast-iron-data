@@ -6,6 +6,9 @@ source_ids = ["pathfinder-118-siege-of-stone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gallerok", path = "json/monsters11.json" },
 ]
+[[sources]]
+publication = "pathfinder-118-siege-of-stone"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ jaws._
 
 **Senses:** Low-light vision
 
-**Sources:** Pathfinder \#118: Siege of Stone pg 82\
 **Experience points:** 600
 
 **Armor class:** 15/11/13

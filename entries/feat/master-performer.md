@@ -6,6 +6,9 @@ source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "master_performer", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "faction-guide"
+page = "57"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When any of your bardic performance abilities grant your allies a bon
 +++
 
 ## Master Performer (Faction)
-
-**Sources:** Faction Guide pg 57
 
 When using your bardic performance abilities, you grant your allies greater bonuses.\
 **Prerequisites:** Bardic performance class feature,

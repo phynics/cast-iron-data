@@ -6,6 +6,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dissolution", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "19"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: Fortitude negates (object)
 Spell resistance: no
 Target: Tiny or smaller object touched
 :::
-
-**Sources:** Arcane Anthology pg 19
 
 You touch a Tiny or smaller item, causing the item to vanish as if it did not exist at all. The item
 doesn't take damage or otherwise gain any condition; it simply ceases to be visible to or interact

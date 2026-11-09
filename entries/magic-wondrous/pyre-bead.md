@@ -6,6 +6,9 @@ source_ids = ["path-of-the-hellknight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pyre_bead", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "path-of-the-hellknight"
+page = "39"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint evocation"
 caster_level = "2nd"
 +++
 
-**Sources:** Path of the Hellknight pg 39\
 **Aura** faint evocation; **CL** 2nd\
 **Slot** none; **Price** 1,440 gp; **Weight** -
 

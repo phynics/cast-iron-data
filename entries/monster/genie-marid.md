@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "genie_marid", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "142"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ eyebrows, and pearlescent teeth._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 142\
 **Subtype:** Extraplanar, Water
 
 **Experience points:** 6,400

@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "glaistig_mythic", path = "json/monsters_mythic.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "124"
 
 [fields]
 kind = "creature"
@@ -49,7 +52,6 @@ and her bestial legs._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 5 pg 124\
 **Subtype:** Earth, Mythic
 
 **tremorsense:** 120

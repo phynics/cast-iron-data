@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sandbox_exploration", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "154"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 154
 
 These exploration rules can work well in a sandbox-style game. Essentially, a sandbox campaign
 provides many different locations on the map where the PCs are offered tasks to resolve, and

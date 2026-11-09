@@ -6,6 +6,9 @@ source_ids = ["pathfinder-88-valley-of-the-brain-collectors"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_the_dark_tapestry", path = "json/magic_staff.json" },
 ]
+[[sources]]
+publication = "pathfinder-88-valley-of-the-brain-collectors"
+page = "63"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Sources:** Pathfinder \#88: Valley of the Brain Collectors pg 63\
 **Aura** moderate conjuration; **CL** 9th\
 **Slot** none; **Price** 43,500 gp; **Weight** 5 lbs.
 

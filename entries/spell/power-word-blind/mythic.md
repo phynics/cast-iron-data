@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/power-word-blind", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "103"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 103\
 Treat the target's current hit point total as though it were lowered by 5 times your tier. For
 example, a 3rd-tier archmage casting mythic power word blind would affect a creature with 60 hp as
 though it had 45 hp, and the spell would permanently blind the target.

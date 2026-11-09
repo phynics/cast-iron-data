@@ -6,14 +6,15 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bomb", path = "json/equipment_siege_engines.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "164"
 
 [fields]
 kind = "item"
 category = "Siege Engines"
 weight = "30 lbs."
 +++
-
-**Sources:** Ultimate Combat pg 164
 
 A bomb is a metal canister filled with metal balls and black powder that can be used as ammunition
 in catapults and trebuchets or carried by two Medium creatures or one Large creature to its

@@ -6,14 +6,15 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magical_beast", path = "json/monster_types.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "308"
 
 [fields]
 kind = "none"
 +++
 
 ## Type: Magical Beast
-
-**Sources:** Pathfinder RPG Bestiary pg 308
 
 Magical Beasts are similar to animals but can have Intelligence scores higher than 2 (in which case
 the creature knows at least one language, but can't necessarily speak). Magical Beasts usually have

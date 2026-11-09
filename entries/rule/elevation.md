@@ -6,12 +6,13 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elevation", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "166"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Wilderness pg 166
 
 While the climate sets baselines for temperatures, elevation plays a key factor as well. Elevation
 can affect the baseline temperature, and it sets the baseline intensity of precipitation in the

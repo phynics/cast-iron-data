@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "benchmarks", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "138"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 138
 
 Some spells in the Core Rulebook are clearly the best of their spell level. Other spells are perfect
 examples of what a spell of that level or purpose should be able to do. These are "benchmark"

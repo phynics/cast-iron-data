@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inn_stay_good", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "99"
+[[sources]]
+publication = "core-rulebook"
+page = "159"
 
 [fields]
 kind = "item"
@@ -16,7 +22,6 @@ weight = "- (common), - (good), - (poor), - (suite, average), - (suite, luxuriou
 
 ## Inn stay
 
-**Sources:** Ultimate Equipment pg 99, PRPG Core Rulebook pg 159\
 **Price** 5 sp (common), 2 gp (good), 2 sp (poor), 16 gp (suite, average), 32 gp+ (suite,
 luxurious), 4 gp (suite, small); **Weight** - (common), - (good), - (poor), - (suite, average), -
 (suite, luxurious), - (suite, small)

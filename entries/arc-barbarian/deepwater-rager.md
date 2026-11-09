@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/barbarian" },
 ]
+[[sources]]
+publication = "legacy-of-the-first-world"
+page = "28"
 
 [fields]
 kind = "archetype"
 replaces = ["Fast movement", "Uncanny dodge", "Improved uncanny dodge", "Indomitable will", "Tireless rage"]
 +++
 
-**Sources:** Legacy of the First World pg 28\
 Deepwater ragers bellow ferociously as they charge their enemies, tackling them into the raging
 seas. This archetype is compatible with both barbarians and unchained barbarians.
 

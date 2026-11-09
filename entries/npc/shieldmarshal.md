@@ -6,6 +6,9 @@ source_ids = ["inner-sea-npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shieldmarshal", path = "json/npcs8.json" },
 ]
+[[sources]]
+publication = "inner-sea-npc-codex"
+page = "50"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "8"
 
 **Challenge rating:** 8
 
-**Sources:** Inner Sea NPC Codex pg 50\
 **XP** 4,800\
 Human [gunslinger](ref/class/gunslinger) 5/shieldmarshal 4\
 LN Medium humanoid (human)\

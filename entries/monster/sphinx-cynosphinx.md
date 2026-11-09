@@ -6,6 +6,9 @@ source_ids = ["pathfinder-82-secrets-of-the-sphinx"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sphinx_cynosphinx", path = "json/monsters39.json" },
 ]
+[[sources]]
+publication = "pathfinder-82-secrets-of-the-sphinx"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ _A jackal's head draped in a tattered headdress extends from a winged, leonine b
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Pathfinder \#82: Secrets of the Sphinx pg 84\
 **Experience points:** 2,400
 
 **Armor class:** 20/10/19

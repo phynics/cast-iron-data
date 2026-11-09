@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "pathfinder-71-rasputin-must-die"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fext", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "115"
+[[sources]]
+publication = "pathfinder-71-rasputin-must-die"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -40,7 +46,6 @@ in fearsome armor._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 5 pg 115, Pathfinder \#71: Rasputin Must Die! pg 88\
 **Type:** undead
 
 **Experience points:** 9,600

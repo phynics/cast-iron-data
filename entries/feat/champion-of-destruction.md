@@ -6,6 +6,9 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "champion_of_destruction", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "98"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can store a number of affirmations up to your Charisma bonus (min
 +++
 
 ## Champion of Destruction (Alignment)
-
-**Sources:** Pathfinder Unchained pg 98
 
 You would destroy the world if it were within your power.\
 **Prerequisites:** 10 Hit Dice, chaotic evil alignment.\

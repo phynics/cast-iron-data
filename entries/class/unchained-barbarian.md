@@ -6,6 +6,9 @@ source_ids = ["pathfinder-unchained", "advanced-players-guide", "chronicle-of-le
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unchained_barbarian", path = "json/classes7.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "8"
 
 [fields]
 kind = "class"
@@ -13,8 +16,6 @@ class_type = "unchained"
 hit_die = "d12"
 skill_ranks = "4 + Int modifier"
 +++
-
-**Sources:** Pathfinder Unchained pg 8
 
 For some heroes, the rage that lives within them can't be contained. Whether this fury is a product
 of heritage or of nature, these adventurers have learned to harness it, turning its power against

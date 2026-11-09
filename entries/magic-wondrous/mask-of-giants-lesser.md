@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mask_of_giants_lesser", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "245-6"
+[[sources]]
+publication = "advanced-players-guide"
+page = "307"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate transmutation (lesser), strong transmutation (greater)"
 caster_level = "6th (lesser), 13th (greater)"
 +++
 
-**Sources:** Ultimate Equipment pg. 245-6, Advanced Player's Guide pg 307\
 **Aura** moderate transmutation (lesser), strong transmutation (greater); **CL** 6th (lesser), 13th
 (greater)\
 **Slot** head; **Price** 30,000 gp (lesser), 90,000 gp (greater); **Weight** 1 lb.

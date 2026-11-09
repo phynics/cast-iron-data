@@ -6,12 +6,13 @@ source_ids = ["pathfinder-99-dance-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "morgod_jelly", path = "json/drugs.json" },
 ]
+[[sources]]
+publication = "pathfinder-99-dance-of-the-damned"
+page = "86"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder \#99: Dance of the Damned pg 86
 
 **Type:** Ingested or injury
 

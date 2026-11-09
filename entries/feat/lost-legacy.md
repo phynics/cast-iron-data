@@ -6,6 +6,9 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lost_legacy", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "70"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "If you manage to regain your position without defeating a challenging
 +++
 
 ## Lost Legacy (Story)
-
-**Sources:** Ultimate Campaign pg 70
 
 What once belonged to your family shall be yours again.\
 **Prerequisites:** Your family must have claim to an inherited title or position that no longer

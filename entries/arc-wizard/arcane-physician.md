@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/wizard" },
 ]
+[[sources]]
+publication = "healers-handbook"
+page = "6"
 
 [fields]
 kind = "archetype"
 replaces = ["Arcane school", "Scribe scroll"]
 +++
 
-**Sources:** Healer's Handbook pg 6\
 Arcane physicians use their scholarly knowledge and arcane mastery to achieve incredible feats of
 medicine. Most worship [Qi Zhong](ref/faith/qi-zhong), [Nethys](ref/faith/nethys), or other patrons
 of disparate sorts of magic.

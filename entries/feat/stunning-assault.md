@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stunning_assault", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "171"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You can choose to take a -5 penalty on all melee attack rolls and com
 +++
 
 ## Stunning Assault (Combat)
-
-**Sources:** Advanced Player's Guide pg 171
 
 You powerful but imprecise attacks can stun your enemies.\
 **Prerequisites:** Str 13, [Power Attack](ref/feat/power-attack), base attack bonus +16.\

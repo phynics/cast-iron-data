@@ -6,6 +6,9 @@ source_ids = ["pathfinder-59-the-price-of-infamy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mutineers_bane_earring", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "pathfinder-59-the-price-of-infamy"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "7th"
 +++
 
-**Sources:** Pathfinder \#59: The Price of Infamy pg 60\
 **Aura** moderate divination; **CL** 7th\
 **Slot** none; **Price** 4,000 gp; **Weight** -
 

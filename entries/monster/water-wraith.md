@@ -6,6 +6,9 @@ source_ids = ["inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "water_wraith", path = "json/monsters25.json" },
 ]
+[[sources]]
+publication = "inner-sea-bestiary"
+page = "59"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ change color to match its surroundings._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Inner Sea Bestiary pg 59\
 **Subtype:** Aquatic
 
 **Experience points:** 600

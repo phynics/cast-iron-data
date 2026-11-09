@@ -6,14 +6,21 @@ source_ids = ["ultimate-equipment", "adventurers-armory", "advanced-players-guid
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bill", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "18"
+[[sources]]
+publication = "adventurers-armory"
+page = "2"
+[[sources]]
+publication = "advanced-players-guide"
+page = "176"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "11 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 18, Adventurer's Armory pg 2, Advanced Player's Guide pg 176
 
 The blade of this polearm is a curved or hooked chopping blade with a spiked projection on the back
 of the blade. The spike is commonly used to block and parry. When

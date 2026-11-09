@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/hypnotism" },
 ]
+[[sources]]
+publication = "blood-of-the-beast"
+page = "19"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Descriptors: mind-affecting
 :::
 
 ### Greater Hypnotism
-
-**Sources:** Blood of the Beast pg 19
 
 > _The following spell is the result of generations of [nagaji](ref/race/nagaji) tradition, but
 > spellcasters from elsewhere in Tian Xia have begun to learn these techniques and spread them

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/brawler" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "43"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Bonus feat gained at 2nd level", "Close weapon mastery", "The comba
 alters = ["Maneuver training"]
 +++
 
-**Sources:** Ultimate Wilderness pg 43\
 By accepting spirits of nature into her soul, a verdant grappler can entangle her foes with tangled
 undergrowth.
 

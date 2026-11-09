@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "helm_of_comprehend_languages_and_read_magic", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "243"
+[[sources]]
+publication = "core-rulebook"
+page = "518"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint divination"
 caster_level = "4th"
 +++
 
-**Sources:** Ultimate Equipment pg 243, PRPG Core Rulebook pg 518\
 **Aura** faint divination; **CL** 4th\
 **Slot** head; **Price** 5,200 gp; **Weight** 3 lbs.
 

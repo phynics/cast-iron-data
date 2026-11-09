@@ -6,6 +6,9 @@ source_ids = ["faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "winged_fetish_pharasma", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "faiths-of-balance"
+page = "25"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "50 gp"
 weight = "-"
 +++
 
-**Sources:** Faiths of Balance pg 25\
 **Price** 50 gp; **Weight** -\
 **Category** Channel Foci\
 **Deity** [Pharasma](ref/faith/pharasma)

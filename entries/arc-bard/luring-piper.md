@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "monster-hunters-handbook"
+page = "11"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Bardic knowledge", "Dirge of doom", "Soothing performance", "Well-v
 alters = ["Bardic performance", "Fascinate"]
 +++
 
-**Sources:** Monster Hunter's Handbook pg 11\
 Some bards have an exceptional ability to use their musical performances to entrance the world's
 wilder creatures. These performers are so focused that they create melodies capable of leading
 animals and fey to their unwilling death.

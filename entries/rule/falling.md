@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "falling", path = "json/rules_gm08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "443"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 443
 
 Creatures that fall take 1d6 points of damage per 10 feet fallen, to a maximum of 20d6. Creatures
 that take lethal damage from a fall land in a prone position.

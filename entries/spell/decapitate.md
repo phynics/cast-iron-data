@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "decapitate", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "115"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: Fortitude partial (see text)
 Spell resistance: yes
 Target: one creature (see text)
 :::
-
-**Sources:** Horror Adventures pg 115
 
 You can cast this spell only as a response to a confirmed critical hit against the target that would
 deal slashing damage. If the target fails the saving throw and has a discernible head, the attack

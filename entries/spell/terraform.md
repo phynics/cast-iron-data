@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "terraform", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "114"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: none
 Spell resistance: no
 Area: 100-foot-radius emanation, centered on you
 :::
-
-**Sources:** Mythic Adventures pg 114
 
 You alter the area's terrain and climate to a new terrain and climate type appropriate to the planet
 or plane. For example, you might transform a desert to plains. To cast this spell, you must expend

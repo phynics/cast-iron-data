@@ -6,14 +6,15 @@ source_ids = ["belkzen-hold-of-the-orc-hordes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "defoliant_shot", path = "json/equipment_siege_engines.json" },
 ]
+[[sources]]
+publication = "belkzen-hold-of-the-orc-hordes"
+page = "39"
 
 [fields]
 kind = "item"
 category = "Siege Engines"
 weight = "20 lbs"
 +++
-
-**Sources:** Belkzen, Hold of the Orc Hordes pg 39
 
 When used as ammunition in a catapult or trebuchet, this ceramic canister releases a mist of
 [defoliant](ref/eq-misc/defoliant) on impact. When it hits the target square, it deals 2d6 points of

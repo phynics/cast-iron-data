@@ -6,12 +6,14 @@ source_ids = ["pathfinder-55-the-wormwood-mutiny"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "winning_infamy_and_disrepute", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "pathfinder-55-the-wormwood-mutiny"
+page = "63"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder \#55: The Wormwood Mutiny pg 63\
 A few things are required to gain Infamy: an audience, a deed to tell about, and a flair for
 storytelling. Proof of the group's deed in the form of plunder doesn't hurt either.
 

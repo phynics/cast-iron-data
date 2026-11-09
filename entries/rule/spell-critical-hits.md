@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_critical_hits", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "149"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 149
 
 Spells that require attack rolls follow the standard critical hit rules as described in the Core
 Rulebook. With this variant, spells that require a saving throw gain the same benefit. If a creature

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-27-what-lies-in-dust"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lar", path = "json/monsters34.json" },
 ]
+[[sources]]
+publication = "pathfinder-27-what-lies-in-dust"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ and curious._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#27: What Lies in Dust pg 86\
 **Subtype:** Good, Incorporeal, Lawful, Native
 
 **Experience points:** 1,600

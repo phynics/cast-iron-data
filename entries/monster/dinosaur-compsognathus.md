@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dinosaur_compsognathus", path = "json/monsters08.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -39,7 +42,6 @@ and a whip-like tail._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Bestiary 2 pg 90\
 **Size:** tiny
 
 **Experience points:** 200

@@ -6,6 +6,9 @@ source_ids = ["dragon-empires-gazetteer", "faiths-of-golarion", "legacy-of-drago
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shizuru", path = "json/faiths8.json" },
 ]
+[[sources]]
+publication = "dragon-empires-gazetteer"
+page = "58"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Shizuru**
 
 **Sub:** Empress of Heaven
-
-**Sources:** Dragon Empires Gazetteer pg 58
 
 ### Details
 

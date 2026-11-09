@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "neutralize_poison", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "316"
 
 [fields]
 kind = "spell"
@@ -54,8 +57,6 @@ Spell resistance: yes (harmless) (object)
 Target: creature or object of up to 1 cu. ft./level touched
 Subschool: Healing
 :::
-
-**Sources:** PRPG Core Rulebook pg 316
 
 You detoxify any sort of venom in the creature or object touched. If the target is a creature, you
 must make a caster level check (1d20 + caster level) against the DC of each poison affecting the

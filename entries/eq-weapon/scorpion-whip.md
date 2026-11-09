@@ -6,15 +6,24 @@ source_ids = ["ultimate-equipment", "legacy-of-fire-players-guide", "adventurers
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scorpion_whip", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "20"
+[[sources]]
+publication = "legacy-of-fire-players-guide"
+page = "23"
+[[sources]]
+publication = "adventurers-armory"
+page = "4"
+[[sources]]
+publication = "ultimate-combat"
+page = "144"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "3 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 20, Legacy of Fire Player's Guide pg 23, Adventurer's Armory pg
-4, Ultimate Combat pg 144
 
 This whip has a series of razor-sharp blades and fangs inset along its tip. It deals lethal damage,
 even to creatures with armor bonuses. If you are proficient with both the scorpion whip and

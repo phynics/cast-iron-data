@@ -6,6 +6,9 @@ source_ids = ["pathfinder-73-the-worldwound-incursion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_ulkreth", path = "json/monsters29.json" },
 ]
+[[sources]]
+publication = "pathfinder-73-the-worldwound-incursion"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ back._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#73: The Worldwound Incursion pg 82\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **tremorsense:** 60

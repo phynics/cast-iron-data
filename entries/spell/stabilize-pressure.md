@@ -6,6 +6,9 @@ source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stabilize_pressure", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
+page = "61"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
 :::
-
-**Sources:** Aquatic Adventures pg 61
 
 You instantly stabilize the target's pressure, causing it to adjust to its current pressure all at
 once. This doesn't help it readjust to future pressure changes.

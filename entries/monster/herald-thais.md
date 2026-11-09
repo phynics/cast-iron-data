@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "pathfinder-14-children-of-the-void"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "herald_thais", path = "json/monsters_unique2.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "282"
+[[sources]]
+publication = "pathfinder-14-children-of-the-void"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -46,7 +52,6 @@ halberd._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Inner Sea Gods pg 282, Pathfinder \#14: Children of the Void pg 86\
 **Subtype:** Chaotic, Extraplanar, Good, Herald, Shapechanger
 
 **Experience points:** 51,200

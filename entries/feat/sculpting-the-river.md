@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sculpting_the_river", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "27"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you deal damage with an unarmed attack to an opponent you have a
 +++
 
 ## Sculpting the River (Combat, Combination)
-
-**Sources:** Martial Arts Handbook pg 27
 
 Your deft strikes and canny positioning control the flow of combat.\
 **Prerequisites:** [Dodge](ref/feat/dodge),

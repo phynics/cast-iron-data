@@ -6,12 +6,14 @@ source_ids = ["blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "five_generation_curse", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "blood-of-the-coven"
+page = "24"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Blood of the Coven pg 24\
 **School** necromancy \[curse, evil\]; **Level** 7\
 **Casting Time** 7 hours\
 **Components** V, S, M (a sample of the victim's hair or blood), F (a ruby worth at least 5,000 gp),

@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "acrobatics_dex", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "54"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 54
 
 ### Acrobatics (Dex; Armor Check Penalty)
 

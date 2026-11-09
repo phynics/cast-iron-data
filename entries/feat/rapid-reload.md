@@ -6,6 +6,15 @@ source_ids = ["ultimate-combat", "inner-sea-world-guide", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rapid_reload", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "115"
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "288"
+[[sources]]
+publication = "core-rulebook"
+page = "132"
 
 [fields]
 kind = "feat"
@@ -17,8 +26,6 @@ special = "You can gain Rapid Reload multiple times. Each time you take the feat
 +++
 
 ## Rapid Reload (Combat)
-
-**Sources:** Ultimate Combat pg 115, Inner Sea World Guide pg 288, PRPG Core Rulebook pg 132
 
 Choose a type of crossbow ([hand](ref/eq-weapon/hand-crossbow),
 [light](ref/eq-weapon/light-crossbow), [heavy](ref/eq-weapon/heavy-crossbow)) or a single type of

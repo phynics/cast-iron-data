@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "papinijuwari", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "188"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ Its breath reeks of pestilence._
 
 **Senses:** Darkvision 120 ft., Low-light vision, Sense decay
 
-**Sources:** Bestiary 5 pg 188\
 **Subtype:** Giant
 
 **Experience points:** 25,600

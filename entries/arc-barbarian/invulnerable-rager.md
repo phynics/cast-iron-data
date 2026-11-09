@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/barbarian" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "79"
 
 [fields]
 kind = "archetype"
 replaces = ["Uncanny dodge", "improved uncanny dodge", "damage reduction", "Trap sense"]
 +++
 
-**Sources:** Advanced Player's Guide pg 79\
 Some barbarians learn to take whatever comes their way, shrugging off mortal wounds with ease. These
 barbarians invite their enemies to attack them, and use pain to fuel their rage. An invulnerable
 rager has the following class features.

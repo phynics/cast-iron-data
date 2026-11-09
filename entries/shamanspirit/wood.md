@@ -6,13 +6,18 @@ source_ids = ["ultimate-wilderness", "heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wood", path = "json/class_ability_shaman_spirits.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "93"
+[[sources]]
+publication = "heroes-of-the-wild"
+page = "26"
 
 [fields]
 kind = "class_option"
 group = "shaman-spirit"
 +++
 
-**Sources:** Ultimate Wilderness pg 93, Heroes of the Wild pg 26\
 A shaman who selects the wood spirit has a skin tone similar to the coloration of trees in her home
 region. Her vibrant hair is fragrant and resembles leaves and blossoms.
 

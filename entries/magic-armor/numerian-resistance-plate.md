@@ -6,6 +6,9 @@ source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "numerian_resistance_plate", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "52"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "6th"
 +++
 
-**Sources:** Inner Sea Combat pg 52\
 **Aura** moderate abjuration; **CL** 6th\
 **Slot** armor; **Price** 16,350 gp; **Weight** 30 lbs.
 

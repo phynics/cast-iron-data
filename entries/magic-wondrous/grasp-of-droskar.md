@@ -6,6 +6,9 @@ source_ids = ["crown-of-the-kobold-king"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grasp_of_droskar", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "crown-of-the-kobold-king"
+page = "12"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation and divination"
 caster_level = "10th"
 +++
 
-**Sources:** Crown of the Kobold King pg 12\
 **Aura** moderate transmutation and divination; **CL** 10th\
 **Slot** hands; **Price** 12,302 gp; **Weight** -
 

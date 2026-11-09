@@ -6,13 +6,15 @@ source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unicorn", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
+[[sources]]
+publication = "heroes-of-golarion"
+page = "10"
 
 [fields]
 kind = "class_option"
 group = "sorcerer-bloodline"
 +++
 
-**Sources:** Heroes of Golarion pg 10\
 The deep forests of Avistan, such as those found in Molthune and Nirmathas, are a haven for one of
 Golarion's most fabled creatures: [unicorns](ref/monster/unicorn). Deeply empathetic and fiercely
 protective, unicorns on occasion form close bonds with humans, often young and noble-hearted women.

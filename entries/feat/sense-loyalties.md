@@ -6,14 +6,15 @@ source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sense_loyalties", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "spymasters-handbook"
+page = "9"
 
 [fields]
 kind = "feat"
 prerequisites = "Knowledge (nobility) 1 rank, Knowledge (religion) 1 rank."
 benefit = "After 1 hour or more of interaction, you can attempt a DC 20 Sense Motive check to get a hunch in order to intuit what god, government, leader, or patron a creature is loyal to or worships. You must understand the language the creature is speaking, and if it's of a different type than you, you take a -5 penalty on the check. If the creature is attempting to conceal its loyalties, it attempts a Bluff check. If the result of the Bluff check is higher than 20, that result becomes the DC of your Sense Motive check. On a success, you learn whether the creature has a patron god, a witch patron, or a government to which it is strongly loyal. You can attempt to name one specific god, patron, or government for every 2 ranks you have in Sense Motive by introducing them into the conversation as subjects, as noted below."
 +++
-
-**Sources:** Spymaster's Handbook pg 9
 
 You can quickly sense a target's relationship to some specific god, patron, or government, and use
 that knowledge to manipulate them.\

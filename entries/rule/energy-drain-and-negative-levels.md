@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "energy_drain_and_negative_levels", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "562"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 562
 
 Some spells and a number of undead creatures have the ability to drain away life and energy; this
 dreadful attack results in "negative levels." These cause a character to take a number of penalties.

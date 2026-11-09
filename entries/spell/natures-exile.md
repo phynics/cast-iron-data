@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "natures_exile", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "233"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: yes
 Target: creature touched
 Descriptors: curse
 :::
-
-**Sources:** Advanced Player's Guide pg 233
 
 This spell curses the creature touched, making it inimical to the natural world. All animals have an
 initial attitude of hostile toward the target. Familiars, being magical beasts, are not affected by

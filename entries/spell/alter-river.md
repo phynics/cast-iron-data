@@ -6,6 +6,9 @@ source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alter_river", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "people-of-the-river"
+page = "26"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: no
 Target: area of river up to 5 ft. wide/2 levels and 10 ft. long/level
 Descriptors: water
 :::
-
-**Sources:** People of the River pg 26
 
 You alter the flow of water in a natural freshwater channel such as a river, stream, or waterfall.
 The first version of this spell alters the speed of a river's flow. The second diverts the course of

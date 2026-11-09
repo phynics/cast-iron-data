@@ -6,12 +6,14 @@ source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fiendish_conjuration", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "189"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Book of the Damned pg 189\
 **School** conjuration (calling) \[evil\]; **Level** 9\
 **Casting Time** 90 minutes\
 **Components** V, S, M (rare incense worth 1,000 gp), F (a conjuration circle and an offering

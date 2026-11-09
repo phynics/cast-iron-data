@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "manyshot", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "130"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When making a full-attack action with a bow, your first attack fires 
 +++
 
 ## Manyshot (Combat)
-
-**Sources:** PRPG Core Rulebook pg 130
 
 You can fire multiple arrows at a single target.\
 **Prerequisites:** Dex 17, [Rapid Shot](ref/feat/rapid-shot), base attack bonus +6.\

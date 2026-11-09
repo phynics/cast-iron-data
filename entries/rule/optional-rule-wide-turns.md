@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "optional_rule_wide_turns", path = "json/rules_rulesets02.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "174"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 174
 
 The rules for turning a vehicle are a simple way of getting vehicles to turn on a grid, but when a
 vehicle turns, it doesn't do so sharply, even when powered by magic; vehicles rarely make turns

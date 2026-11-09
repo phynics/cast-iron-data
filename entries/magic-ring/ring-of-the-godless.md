@@ -6,6 +6,9 @@ source_ids = ["people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_the_godless", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "people-of-the-sands"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration and divination"
 caster_level = "5th"
 +++
 
-**Sources:** People of the Sands pg 29\
 **Aura** faint abjuration and divination; **CL** 5th\
 **Slot** ring; **Price** 8,000 gp (+1), 17,000 gp (+2), 27,000 gp (+3), 38,000 gp (+4), 50,000 gp
 (+5); **Weight** -

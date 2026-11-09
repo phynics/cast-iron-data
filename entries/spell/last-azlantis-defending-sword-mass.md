@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/last-azlantis-defending-sword" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "9"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Descriptors: force
 :::
 
 ### Mass Last Azlanti's Defending Sword
-
-**Sources:** Arcane Anthology pg 9
 
 This spell functions as [Last Azlanti's defending sword](ref/spell/last-azlantis-defending-sword),
 except you can create one sword per 5 caster levels, each of which must defend a different creature

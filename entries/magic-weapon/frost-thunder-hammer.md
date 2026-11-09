@@ -6,6 +6,9 @@ source_ids = ["pathfinder-69-maiden-mother-crone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "frost_thunder_hammer", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "pathfinder-69-maiden-mother-crone"
+page = "61"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "9th"
 +++
 
-**Sources:** Pathfinder \#69: Maiden, Mother, Crone pg 61\
 **Aura** moderate evocation; **CL** 9th\
 **Slot** none; **Price** 24,524 gp; **Weight** 10 lbs.
 

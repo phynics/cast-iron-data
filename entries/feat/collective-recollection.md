@@ -6,6 +6,9 @@ source_ids = ["pathfinder-society-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "collective_recollection", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "pathfinder-society-primer"
+page = "11"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "When an ally who also has this feat attempts a trained Knowledge skil
 +++
 
 ## Collective Recollection (Teamwork)
-
-**Sources:** Pathfinder Society Primer pg 11
 
 You and your allies can quickly jog each other's memories to remember essential facts.\
 **Benefit:** When an ally who also has this feat attempts a trained Knowledge skill check while

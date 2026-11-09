@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sea_of_dust", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "234"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Spell resistance: no
 Area: 2-mile-radius emanation
 Descriptors: water
 :::
-
-**Sources:** Ultimate Wilderness pg 234
 
 You cause all areas of water to which you have line of effect to recede as if you had cast control
 water. Exposed water that enters the area ebbs away, evaporating or leaching into the ground at a

@@ -6,6 +6,9 @@ source_ids = ["demon-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vengeful_banisher", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "demon-hunters-handbook"
+page = "13"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You gain a +2 bonus on saving throws against spells or effects origin
 +++
 
 ## Vengeful Banisher (Story)
-
-**Sources:** Demon Hunter's Handbook pg 13
 
 You've witnessed demons and their madness firsthand, likely in one of the lands detailed in this
 section, or perhaps some other demon-marked region such as the Worldwound or the Abyss. Since then,

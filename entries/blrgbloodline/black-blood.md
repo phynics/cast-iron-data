@@ -6,6 +6,9 @@ source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "black_blood", path = "json/class_ability_bloodrager_bloodlines.json" },
 ]
+[[sources]]
+publication = "advanced-class-origins"
+page = "8"
 
 [fields]
 kind = "class_option"
@@ -13,8 +16,6 @@ group = "bloodrager-bloodline"
 +++
 
 ## Black Blood Bloodline
-
-**Sources:** Advanced Class Origins pg 8
 
 Contact with the [black blood of Orv](ref/magic-artifact/black-blood-of-orv) - by you or one of your
 ancestors - transformed your bloodline. This necromantic taint in your blood mutates you into

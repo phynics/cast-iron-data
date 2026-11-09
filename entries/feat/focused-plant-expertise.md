@@ -6,6 +6,9 @@ source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "focused_plant_expertise", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "monster-hunters-handbook"
+page = "23"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You gain a bonus equal to half your favored enemy (plant) bonus on Re
 +++
 
 ## Focused Plant Expertise (Combat)
-
-**Sources:** Monster Hunter's Handbook pg 23
 
 You are quick to dodge and slash anything that would ensnare you.\
 **Prerequisites:** [Favored enemy](ref/ability/favored-enemy) (plant) class feature.\

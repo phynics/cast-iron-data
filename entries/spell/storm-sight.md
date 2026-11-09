@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "storm_sight", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "184"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: yes (harmless)
 Target: you
 Subschool: Scrying
 :::
-
-**Sources:** Adventurer's Guide pg 184
 
 You step into any magical or naturally occurring storm and commune directly with the power of the
 wind and rain. This spell allows the storm's power to fill you, granting you knowledge and images of

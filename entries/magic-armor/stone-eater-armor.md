@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stone_eater_armor", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration and evocation"
 caster_level = "10th"
 +++
 
-**Sources:** Armor Master's Handbook pg 29\
 **Aura** moderate abjuration and evocation; **CL** 10th\
 **Slot** armor; **Price** 8,950 gp; **Weight** 75 lbs.
 

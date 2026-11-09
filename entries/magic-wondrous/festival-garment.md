@@ -6,6 +6,9 @@ source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "festival_garment", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "heroes-from-the-fringe"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint enchantment"
 caster_level = "1st"
 +++
 
-**Sources:** Heroes from the Fringe pg 29\
 **Aura** faint enchantment; **CL** 1st\
 **Slot** body; **Price** 2,000 gp; **Weight** 1 lb.
 

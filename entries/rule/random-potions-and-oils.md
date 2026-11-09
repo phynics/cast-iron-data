@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "random_potions_and_oils", path = "json/rules_gm03.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "124"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 124
 
 ### Table 5-19: Random Potions and Oils
 

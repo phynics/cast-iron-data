@@ -6,12 +6,14 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rc_historic_stumbling_block", path = "json/rules_opt_magic01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "184"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder Unchained pg 184\
 Your creation techniques have run across a challenging difficulty experienced by many past crafters.
 
 ### Tasks

@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "troll_sewer_troll", path = "json/monsters39.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "232"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ its large eyes glow with inner light._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Monster Codex pg 232\
 **Subtype:** Giant
 
 **Experience points:** 600

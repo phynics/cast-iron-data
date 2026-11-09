@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "altar_of_gozreh", path = "json/magic_altar.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "247"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration and transmutation"
 caster_level = "10th"
 +++
 
-**Sources:** Inner Sea Gods pg 247\
 **Aura** moderate abjuration and transmutation; **CL** 10th\
 **Slot** none; **Price** 8,000 gp; **Weight** 1,000 lbs.
 

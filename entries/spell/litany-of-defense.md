@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "litany_of_defense", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "234"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: none
 Spell resistance: yes
 Target: you
 :::
-
-**Sources:** Ultimate Combat pg 234
 
 Invoking this litany strengthens your defenses. Any enhancement bonus your armor has is doubled and
 you are immune to fear.

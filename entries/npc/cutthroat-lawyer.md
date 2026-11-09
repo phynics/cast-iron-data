@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cutthroat_lawyer", path = "json/npcs7.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "264"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "7"
 
 **Challenge rating:** 7
 
-**Sources:** NPC Codex pg 264\
 **XP** 3,200\
 Half-elf [expert](ref/npcclass/expert) 9\
 N Medium humanoid (elf, human)\

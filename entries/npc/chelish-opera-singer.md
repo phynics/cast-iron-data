@@ -6,6 +6,9 @@ source_ids = ["inner-sea-npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chelish_opera_singer", path = "json/npcs2.json" },
 ]
+[[sources]]
+publication = "inner-sea-npc-codex"
+page = "14"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "5"
 
 **Challenge rating:** 5
 
-**Sources:** Inner Sea NPC Codex pg 14\
 **XP** 1,600\
 Human [bard](ref/class/bard) 6\
 N Medium humanoid (human)\

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/hunter" },
 ]
+[[sources]]
+publication = "advanced-class-origins"
+page = "13"
 
 [fields]
 kind = "archetype"
 replaces = ["Improved empathic link", "speak with master", "greater empathic link", "Raise animal companion", "One with the wild"]
 +++
 
-**Sources:** Advanced Class Origins pg 13\
 The Uprooters are an elite band of Kyonin elves skilled and brave enough to foray into the
 Tanglebriar and take the offensive in the fight against [Treerazer](ref/monster/treerazer). Uprooter
 scouts rely on their close bonds with their animal companions to survive such raids. One Uprooter

@@ -6,6 +6,9 @@ source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nest_revealer", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "monster-hunters-handbook"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Sources:** Monster Hunter's Handbook pg 29\
 **Aura** faint divination; **CL** 3rd\
 **Slot** none; **Price** 500 gp; **Weight** 1 lb.
 

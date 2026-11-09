@@ -6,6 +6,9 @@ source_ids = ["pathfinder-67-the-snows-of-summer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "icicle_wand", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "pathfinder-67-the-snows-of-summer"
+page = "61"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration [cold]"
 caster_level = "5th"
 +++
 
-**Sources:** Pathfinder \#67: The Snows of Summer pg 61\
 **Aura** faint conjuration \[cold\]; **CL** 5th\
 **Slot** none; **Price** 12,250 gp; **Weight** 1 lb.
 

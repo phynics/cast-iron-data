@@ -6,12 +6,16 @@ source_ids = ["curse-of-the-crimson-throne", "pathfinder-8-seven-days-to-the-gra
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_veil", path = "json/diseases.json" },
 ]
+[[sources]]
+publication = "curse-of-the-crimson-throne"
+page = "430"
+[[sources]]
+publication = "pathfinder-8-seven-days-to-the-grave"
+page = "9"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Curse of the Crimson Throne pg 430, Pathfinder \#8: Seven Days to the Grave pg 9
 
 **Type:** Disease (Contact or injury)
 

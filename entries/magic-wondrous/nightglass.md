@@ -6,6 +6,9 @@ source_ids = ["lost-treasures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nightglass", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "lost-treasures"
+page = "45"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration"
 caster_level = "13th"
 +++
 
-**Sources:** Lost Treasures pg 45\
 **Aura** strong conjuration; **CL** 13th\
 **Slot** none; **Price** 126,000 gp; **Weight** 5 lbs.
 

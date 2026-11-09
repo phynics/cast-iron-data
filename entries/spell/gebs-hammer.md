@@ -6,6 +6,9 @@ source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gebs_hammer", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "55"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: none
 Spell resistance: yes
 Effect: sphere of undead remains composed of 3 or more destroyed undead
 :::
-
-**Sources:** Inner Sea Magic pg 55
 
 Centuries of war with Nex trained the necromancers of Geb to extract every last resource from the
 mindless undead that make up most of Geb's rank-and-file troops.

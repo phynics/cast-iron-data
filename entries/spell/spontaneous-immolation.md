@@ -6,6 +6,12 @@ source_ids = ["ultimate-combat", "orcs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spontaneous_immolation", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "245"
+[[sources]]
+publication = "orcs-of-golarion"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -41,8 +47,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: fire
 :::
-
-**Sources:** Ultimate Combat pg 245, Orcs of Golarion pg 28
 
 You point your finger at a creature, causing it to spontaneously burst into flame. The target takes
 3d6 points of fire damage and catches on fire. A successful Fortitude save reduces this damage by

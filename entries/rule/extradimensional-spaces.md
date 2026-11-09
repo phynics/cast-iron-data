@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extradimensional_spaces", path = "json/rules_basics02.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "501"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 501
 
 A number of spells and magic items utilize extradimensional spaces, such as
 [rope trick](ref/spell/rope-trick), a [bag of holding](ref/magic-wondrous/bag-of-holding), a

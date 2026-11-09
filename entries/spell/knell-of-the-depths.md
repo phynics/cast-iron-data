@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "knell_of_the_depths", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "blood-of-the-coven"
+page = "21"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: curse, water
 :::
-
-**Sources:** Blood of the Coven pg 21
 
 You invest a target with cursed elemental energy, causing nearby bodies of water to roil when the
 target draw nears and tendrils of water to drag it deeper under the waves. The target takes a -10

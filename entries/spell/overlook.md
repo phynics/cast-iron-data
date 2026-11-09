@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "overlook", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "221"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Target: you
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Inner Sea Races pg 221
 
 > _The following spell is available to the indicated race or ethnicity:
 > [Halfling](ref/race/halfling)_

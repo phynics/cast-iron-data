@@ -6,6 +6,9 @@ source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reinforced_crafting", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "people-of-the-wastes"
+page = "27"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "A broken weapon imposes a -2 penalty on attack and damage rolls. The b
 +++
 
 ## Reinforced Crafting (Item Creation)
-
-**Sources:** People of the Wastes pg 27
 
 Your magical creations are hardier than most.\
 **Prerequisites:** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), ability to

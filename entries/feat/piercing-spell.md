@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "piercing_spell", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "154"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "When you cast a piercing spell against a target with spell resistance
 +++
 
 ## Piercing Spell (Metamagic)
-
-**Sources:** Ultimate Magic pg 154
 
 Your studies have helped you develop methods to overcome
 [spell resistance](ref/rule/spell-resistance).\

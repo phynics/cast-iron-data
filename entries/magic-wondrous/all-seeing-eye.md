@@ -6,6 +6,9 @@ source_ids = ["giants-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "all_seeing_eye", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "giants-revisited"
+page = "13"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "9th"
 +++
 
-**Sources:** Giants Revisited pg 13\
 **Aura** moderate divination; **CL** 9th\
 **Slot** none; **Price** 5,500 gp; **Weight** 5 lbs.
 

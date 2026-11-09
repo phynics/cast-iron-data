@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_cloud_giant", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "147"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ hair flutters as if in a breeze._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 147\
 **Subtype:** Giant
 
 **Experience points:** 12,800

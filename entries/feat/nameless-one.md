@@ -6,13 +6,17 @@ source_ids = ["adventurers-guide", "arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nameless_one", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "124"
+[[sources]]
+publication = "arcane-anthology"
+page = "15"
 
 [fields]
 kind = "feat"
 benefit = "When you take this feat, you eschew all of your former identities, going as far as to render your former name completely inaccessible to discover by mortal means. You perform an 8-hour ritual that requires the expenditure of 200 gp for rare oils, incense, and creation of a special mask. After this ritual, you forever lose all names and identities previously associated with you (including any identities that you gain from class abilities). You adopt a brief descriptive title in place of a new name. Your title must not reference the names of any people or places. (For example, you could adopt the title \"Blue Fox\" or \"Twilight Stalker,\" but not the title \"Chelish Avenger\" or \"Spirit of the Mwangi.\") At the ritual's conclusion, you must don the mask created for the ritual, the appearance of which is evocative of your title. While you're wearing this mask, any attempts to scry or otherwise locate any of your eschewed identities or connect you to those identities do not work, revealing nothing but darkness, as if you were an invalid target or did not exist. Successful Knowledge checks to identify you reveal your new title rather than any old identity, but can reveal your strengths and weaknesses normally."
 +++
-
-**Sources:** Adventurer's Guide pg 124, Arcane Anthology pg 15
 
 You completely eschew your former identity, making you impossible to locate or even name.\
 **Benefit:** When you take this feat, you eschew all of your former identities, going as far as to

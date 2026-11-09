@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "echeneis", path = "json/monsters09.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "103"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ runs down its back._
 
 **Size:** small
 
-**Sources:** Bestiary 5 pg 103\
 **Subtype:** Aquatic
 
 **Experience points:** 400

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-83-the-slave-trenches-of-hakotep"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ossumental_ossumental_earth", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "pathfinder-83-the-slave-trenches-of-hakotep"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ _This towering collection of sun-bleached bones is assembled in a humanoid form.
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#83: The Slave Trenches of Hakotep pg 88\
 **Subtype:** Earth
 
 **tremorsense:** 100

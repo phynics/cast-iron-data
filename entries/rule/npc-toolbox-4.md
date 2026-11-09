@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "npc_toolbox_4", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "95"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 95
 
 ### Table 4-7: NPC Rewards for Heroic Deeds
 

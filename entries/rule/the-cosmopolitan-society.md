@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_cosmopolitan_society", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "156"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 156
 
 While countrysides, farmlands, mountaintops, forests, and tundras all have their place in a
 well-developed world, the city is where the heart of civilized culture beats. As trade hubs,

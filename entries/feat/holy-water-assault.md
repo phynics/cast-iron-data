@@ -6,6 +6,9 @@ source_ids = ["undead-slayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "holy_water_assault", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "undead-slayers-handbook"
+page = "23"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "In addition to holy water's normal uses, you can use holy water to cr
 +++
 
 ## Holy Water Assault (Combat)
-
-**Sources:** Undead Slayer's Handbook pg 23
 
 You have found new and effective uses for holy water in combating the undead.\
 **Prerequisites:** Base attack bonus +1, Knowledge (religion) 3 ranks.\

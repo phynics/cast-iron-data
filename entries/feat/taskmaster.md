@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "taskmaster", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "124"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "If you have 10 or more ranks in Intimidate, the morale bonus increase
 +++
 
 ## Taskmaster (Combat)
-
-**Sources:** Advanced Race Guide pg 124
 
 You intimidate weaker allies into reckless ferocity.\
 **Prerequisites:** [Demoralizing Lash](ref/feat/demoralizing-lash), Intimidate 5 ranks,

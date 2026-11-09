@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/dream" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "165"
 
 [fields]
 kind = "spell"
@@ -53,8 +56,6 @@ Target: one or more living creatures
 Subschool: Phantasm
 Descriptors: mind-affecting
 :::
-
-**Sources:** Occult Adventures pg 165
 
 This spell functions as [dream](ref/spell/dream), but you and the target of your dream can converse
 in a limited fashion as long as the recipient is also asleep. You can send or receive a number of

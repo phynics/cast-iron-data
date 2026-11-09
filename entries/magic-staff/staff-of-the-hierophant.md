@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_the_hierophant", path = "json/magic_staff.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "201"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong varies"
 caster_level = "15th"
 +++
 
-**Sources:** Ultimate Equipment pg 201\
 **Aura** strong varies; **CL** 15th\
 **Slot** none; **Price** 220,000 gp; **Weight** 5 lbs.
 

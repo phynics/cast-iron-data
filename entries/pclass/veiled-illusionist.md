@@ -6,14 +6,15 @@ source_ids = ["paths-of-prestige"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "veiled_illusionist", path = "json/prestige_classes4.json" },
 ]
+[[sources]]
+publication = "paths-of-prestige"
+page = "60"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d6."
 +++
-
-**Sources:** Paths of Prestige pg 60
 
 Many who seek to master the art of illusion turn to Sivanah, goddess of mysteries, reflections, and
 veils. She awards powerful insights into the nature of illusion and deception to those who are

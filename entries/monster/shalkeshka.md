@@ -6,6 +6,9 @@ source_ids = ["pathfinder-81-shifting-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shalkeshka", path = "json/monsters38.json" },
 ]
+[[sources]]
+publication = "pathfinder-81-shifting-sands"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ gnash. Six legs, each ending in spade-like claws, support its bulk._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Pathfinder \#81: Shifting Sands pg 88\
 **Subtype:** Earth
 
 **tremorsense:** 90

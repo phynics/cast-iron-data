@@ -6,6 +6,9 @@ source_ids = ["belkzen-hold-of-the-orc-hordes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "war_beast_of_belkzen_bull_of_zagresh", path = "json/monsters27.json" },
 ]
+[[sources]]
+publication = "belkzen-hold-of-the-orc-hordes"
+page = "63"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ fifteen feet across._
 
 **Senses:** Low-light vision
 
-**Sources:** Belkzen, Hold of the Orc Hordes pg 63\
 **Experience points:** 3,200
 
 **Armor class:** 20/9/18

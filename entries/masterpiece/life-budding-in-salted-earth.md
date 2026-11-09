@@ -6,6 +6,8 @@ source_ids = ["champions-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "life_budding_in_salted_earth", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "champions-of-purity"
 
 [fields]
 kind = "class_option"
@@ -13,8 +15,6 @@ group = "bardic-masterpiece"
 +++
 
 ## Life Budding in Salted Earth (Sing, String, Wind)
-
-**Sources:** Champions of Purity
 
 This delicate tune suggests the determined sprouting of seedlings through barren, rocky soil. Both
 its motif and effects are popular in Rahadoum, where the tune is also known as "Spring Inside."

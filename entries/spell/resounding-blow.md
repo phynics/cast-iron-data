@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "resounding_blow", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "238"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: no
 Target: you
 Descriptors: sonic
 :::
-
-**Sources:** Advanced Player's Guide pg 238
 
 You must have a melee weapon in hand to cast this spell. On a successful melee attack, your weapon
 resounds with a thunderous clash. The target takes 1d6 points of sonic damage. Your weapon is not

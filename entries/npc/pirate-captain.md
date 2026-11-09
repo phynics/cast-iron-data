@@ -6,6 +6,9 @@ source_ids = ["isles-of-the-shackles"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pirate_captain", path = "json/npcs2.json" },
 ]
+[[sources]]
+publication = "isles-of-the-shackles"
+page = "56"
 
 [fields]
 kind = "creature"
@@ -19,7 +22,6 @@ rapier at his side._
 
 **Challenge rating:** 5
 
-**Sources:** Isles of the Shackles pg 56\
 **XP** 1,600\
 Human [fighter](ref/class/fighter) 5/[rogue](ref/class/rogue) 1\
 CN Medium humanoid (human)\

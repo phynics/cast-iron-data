@@ -6,6 +6,9 @@ source_ids = ["occult-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "primal_aether", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-realms"
+page = "8"
 
 [fields]
 kind = "class_option"
@@ -21,8 +24,6 @@ group = "kineticist-wild-talent"
 **Level:** 3
 
 **Burn:** 0
-
-**Source:** Occult Realms/8
 
 You can gather strands of aether twisted and warped by your experiences in the Spellscar Desert, and
 wind them so tightly that they explode, creating a [primal magic event](ref/rule/primal-magic) with

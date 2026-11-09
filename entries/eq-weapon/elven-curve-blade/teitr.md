@@ -6,12 +6,13 @@ source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "addon", target = "ref/eq-weapon/elven-curve-blade", label = "changes" },
 ]
+[[sources]]
+publication = "the-elephant-in-the-room-feat-taxes-in-pathfinder"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 The Elven curved blade has the [_agile_ weapon quality](ref/rule/equipment-errata).
 
 You can apply your Dexterity modifier instead of your Strength modifier to attack rolls when

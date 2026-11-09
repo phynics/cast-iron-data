@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "persistent_vigor", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "190"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Advanced Class Guide pg 190
 
 You are filled with a persistent vigor. You gain [fast healing](ref/umr/fast-healing) 2 and are
 immune to bleed effects as well as the sickened and nauseated conditions. When you succeed at a

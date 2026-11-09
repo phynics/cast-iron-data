@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stone_of_good_luck_luckstone", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "321"
+[[sources]]
+publication = "core-rulebook"
+page = "530"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Equipment pg 321, PRPG Core Rulebook pg 530\
 **Aura** faint evocation; **CL** 5th\
 **Slot** none; **Price** 20,000 gp; **Weight** -
 

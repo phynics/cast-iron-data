@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unhallow", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "363"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: see text
 Area: 40-ft. radius emanating from the touched point
 Descriptors: evil
 :::
-
-**Sources:** PRPG Core Rulebook pg 363
 
 Unhallow makes a particular site, building, or structure an unholy site. This has three major
 effects.

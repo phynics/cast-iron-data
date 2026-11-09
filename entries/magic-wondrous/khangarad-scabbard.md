@@ -6,6 +6,9 @@ source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "khangarad_scabbard", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "merchants-manifest"
+page = "24"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "9th"
 +++
 
-**Sources:** Merchant's Manifest pg 24\
 **Aura** moderate evocation; **CL** 9th\
 **Slot** belt; **Price** 6,000 gp; **Weight** 2 lbs.
 

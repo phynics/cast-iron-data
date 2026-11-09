@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guarding_blade", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "155"
+[[sources]]
+publication = "advanced-players-guide"
+page = "290"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate transmutation"
 caster_level = "15th"
 +++
 
-**Sources:** Ultimate Equipment pg 155, Advanced Player's Guide pg 290\
 **Aura** moderate transmutation; **CL** 15th\
 **Slot** none; **Price** 65,310 gp; **Weight** 2 lbs.
 

@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pain_words", path = "json/rules_opt_magic03.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "181"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 181
 
 The mere sound of these words causes agony in those unfortunate enough to hear them.
 

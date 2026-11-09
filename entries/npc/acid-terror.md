@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "acid_terror", path = "json/npcs7.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "213"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "12"
 
 **Challenge rating:** 12
 
-**Sources:** NPC Codex pg 213\
 **XP** 19,200\
 Human [sorcerer](ref/class/sorcerer) 9/dragon disciple 4\
 LE Medium humanoid (human)\

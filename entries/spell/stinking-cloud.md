@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stinking_cloud", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "349"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Effect: cloud spreads in 20-ft. radius, 20 ft. high
 Subschool: Creation
 Descriptors: poison
 :::
-
-**Sources:** PRPG Core Rulebook pg 349
 
 Stinking cloud creates a bank of fog like that created by fog cloud, except that the vapors are
 nauseating. Living creatures in the cloud become nauseated. This condition lasts as long as the

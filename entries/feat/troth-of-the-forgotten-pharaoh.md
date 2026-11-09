@@ -6,6 +6,12 @@ source_ids = ["pathfinder-82-secrets-of-the-sphinx", "pathfinder-81-shifting-san
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "troth_of_the_forgotten_pharaoh", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "pathfinder-82-secrets-of-the-sphinx"
+page = "17"
+[[sources]]
+publication = "pathfinder-81-shifting-sands"
+page = "19"
 
 [fields]
 kind = "feat"
@@ -13,8 +19,6 @@ prerequisites = "Must be a member of the Cult of the Forgotten Pharaoh."
 benefit = "Upon taking this feat, you undergo a ritual wherein the cartouche of Pharaoh Hakotep I is carved into your flesh (typically on the chest or back), and then embellished with painful crimson and ocher tattoos. The ritual takes 1 hour to complete, and you take 3 points of damage from the wound (see Special, below). Upon completion of the ritual, you gain the feat's benefits."
 special = "You permanently lose 3 hit points when you take this feat. This damage can be healed only with a miracle or wish spell, but doing so causes you to lose all benefits of this feat."
 +++
-
-**Sources:** Pathfinder \#82: Secrets of the Sphinx pg 17, Pathfinder \#81: Shifting Sands pg 19
 
 You've pledged your body to the Forgotten Pharaoh, and are willing to sacrifice yourself to keep his
 secrets even in death.\

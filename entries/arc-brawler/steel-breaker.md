@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/brawler" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "88"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Brawler's strike"]
 alters = ["Maneuver training"]
 +++
 
-**Sources:** Advanced Class Guide pg 88\
 The steel-breaker studies destruction and practices it as an art form. She knows every defense has a
 breaking point, and can shatter those defenses with carefully planned strikes.
 

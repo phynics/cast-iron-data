@@ -6,6 +6,9 @@ source_ids = ["pathfinder-society-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "truthseeker_wayfinder", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "pathfinder-society-primer"
+page = "21"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "7th"
 +++
 
-**Sources:** Pathfinder Society Primer pg 21\
 **Aura** moderate divination; **CL** 7th\
 **Slot** none; **Price** 39,000 gp; **Weight** 1 lb.
 

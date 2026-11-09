@@ -6,12 +6,20 @@ source_ids = ["inner-sea-races", "advanced-race-guide", "bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "svirfneblin", path = "json/races4.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "250"
+[[sources]]
+publication = "advanced-race-guide"
+page = "204"
+[[sources]]
+publication = "bestiary"
+page = "261"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Inner Sea Races pg 250, Advanced Race Guide pg 204, Pathfinder RPG Bestiary pg 261\
 In the dark below earth, svirfneblin protect their enclaves, keeping their small communities safe
 from the terrors of the lightless depths. Serious creatures with slate-gray skin, these gnomes vary
 greatly from their surface cousins by choosing to live in the shadowy depths and protect the world

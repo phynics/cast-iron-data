@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drake_shadow_drake", path = "json/monsters31.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "80"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ _This tiny black dragon-like creature has charcoal-colored scales and shadowy wi
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 4 pg 80\
 **Subtype:** Cold
 
 **Size:** tiny

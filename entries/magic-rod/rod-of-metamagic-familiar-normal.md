@@ -6,6 +6,9 @@ source_ids = ["animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rod_of_metamagic_familiar_normal", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "animal-archive"
+page = "27"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "17th"
 
 ## Rod of Metamagic, Familiar
 
-**Sources:** Animal Archive pg 27\
 **Aura** strong (no school); **CL** 17th\
 **Slot** none; **Price** 14,000 gp (lesser \[up to 3rd-level spells\]), 54,000 gp (normal \[up to
 6th-level spells\]), 121,500 gp (greater \[all spells\]); **Weight** 5 lbs.

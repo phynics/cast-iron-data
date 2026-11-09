@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "savagery", path = "json/class_ability_oaths.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "61"
 
 [fields]
 kind = "class_option"
@@ -13,7 +16,6 @@ group = "paladin-oath"
 replaces = ["Divine grace", "Aura of justice"]
 +++
 
-**Sources:** Ultimate Magic pg 61\
 Some paladins are champions of order, pledging to battle the hordes of goblinoids, orcs, hostile
 barbarians, and similar savages that nip at the heels of civilization, as well as those who gnaw on
 society from within, such as thieves' and assassins' guilds. More so than other paladins, those who

@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bonuses_for_function", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "67"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 67
 
 For feats and abilities that grant bonuses or penalties to skills, it's best for the GM to either
 ban them or adjust them to work only with specific functions of the feat. That is to say, the

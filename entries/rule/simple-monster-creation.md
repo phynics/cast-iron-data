@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "simple_monster_creation", path = "json/rules_adv_gm02.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "194"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 194
 
 Monsters can be truly memorable and entertaining, but they can also be a lot of work if the GM needs
 to customize them or create new ones. The standard methods for creating monsters and NPCs are

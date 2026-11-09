@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chest", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "194"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 194
 
 Called shots to the chest are aimed at the well-protected center of mass of a creature. Called shots
 to the chest are easy (-2 penalty).

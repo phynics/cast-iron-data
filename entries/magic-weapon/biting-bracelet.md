@@ -6,6 +6,9 @@ source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "biting_bracelet", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "spymasters-handbook"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate illusion"
 caster_level = "10th"
 +++
 
-**Sources:** Spymaster's Handbook pg 30\
 **Aura** moderate illusion; **CL** 10th\
 **Slot** none; **Price** 5,000 gp; **Weight** 2 lbs.
 

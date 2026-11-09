@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "43"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Woodland stride", "Wild shape", "Venom immunity"]
 alters = ["Nature bond", "Wild empathy"]
 +++
 
-**Sources:** Ultimate Combat pg 43\
 A boar shaman chooses the stolid and ferocious boar as her totem. Content to be left alone, she
 becomes one of the most dangerous creatures of the wild when provoked.
 

@@ -6,6 +6,9 @@ source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "puppet_master", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "spymasters-handbook"
+page = "16"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "If you succeed at a Diplomacy check to make a request of a creature b
 +++
 
 ## Puppet Master (Story)
-
-**Sources:** Spymaster's Handbook pg 16
 
 You crave power you can wield without drawing attention to yourself.\
 **Prerequisites:** You must have survived an encounter with a challenging foe without suffering

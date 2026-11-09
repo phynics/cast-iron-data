@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "100"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Woodland stride", "Trackless step", "Resist nature's lure", "A thou
 alters = ["Wild shape"]
 +++
 
-**Sources:** Advanced Player's Guide pg 100\
 The fecund jungles of the equatorial regions are rich in life and ancient tradition; druidical
 guardians of sacred pools, elder trees, and trembling volcanoes watch over crumbling temples and the
 inevitable reclamation of lost civilizations by the beating heart of nature untamed.

@@ -6,6 +6,12 @@ source_ids = ["adventurers-guide", "inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "duelist_of_the_roaring_falls", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "25"
+[[sources]]
+publication = "inner-sea-combat"
+page = "10"
 
 [fields]
 kind = "feat"
@@ -16,8 +22,6 @@ benefit = "When you use an Aldori dueling sword to deal damage to a shaken, frig
 +++
 
 ## Duelist of the Roaring Falls (Combat)
-
-**Sources:** Adventurer's Guide pg 25, Inner Sea Combat pg 10
 
 You have embraced the Roaring Falls method of Aldori swordplay, known for its elegant, sweeping
 strikes.\

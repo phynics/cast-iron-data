@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/blur" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "176"
 
 [fields]
 kind = "spell"
@@ -57,8 +60,6 @@ Target: you
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** Advanced Class Guide pg 176
 
 This spell functions as [blur](ref/spell/blur), except that the blurring occurs only when you move
 at least 10 feet on your turn and ceases at the end of your movement. It is therefore mainly used to

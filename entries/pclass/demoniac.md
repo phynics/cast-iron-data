@@ -6,15 +6,21 @@ source_ids = ["book-of-the-damned", "pathfinder-15-the-armageddon-echo", "book-o
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demoniac", path = "json/prestige_classes.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "208"
+[[sources]]
+publication = "pathfinder-15-the-armageddon-echo"
+page = "62"
+[[sources]]
+publication = "book-of-the-damned-volume-2-lords-of-chaos"
+page = "46"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d8."
 +++
-
-**Sources:** Book of the Damned pg 208, Pathfinder \#15: The Armageddon Echo pg 62, Book of the
-Damned - Volume 2: Lords of Chaos pg 46
 
 Many demon worshipers understand that sinful souls become demons once the Abyss digests them, but
 the demoniac simply cannot wait for death to begin her transformation. Depending on which demon lord

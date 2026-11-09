@@ -6,6 +6,9 @@ source_ids = ["knights-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "serrens_armor_lock", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "knights-of-the-inner-sea"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: Reflex partial, see text
 Spell resistance: yes
 Target: one armored creature
 :::
-
-**Sources:** Knights of the Inner Sea pg 29
 
 Upon pointing at an armored foe, you cause all of the joints of the target's armor to stiffen as
 otherworldly chains wrap around the target. On a failed Reflex save, a target in heavy metal armor

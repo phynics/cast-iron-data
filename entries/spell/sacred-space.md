@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sacred_space", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "89"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: no
 Area: 20-ft.-radius emanation
 Descriptors: good
 :::
-
-**Sources:** Advanced Race Guide pg 89
 
 > _[Aasimars](ref/race/aasimar) have access to the following spell._
 

@@ -6,6 +6,9 @@ source_ids = ["lands-of-the-linnorm-kings"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "longboat_captain", path = "json/npcs5.json" },
 ]
+[[sources]]
+publication = "lands-of-the-linnorm-kings"
+page = "60"
 
 [fields]
 kind = "creature"
@@ -18,7 +21,6 @@ _This proud Ulfen captain stands alert on the deck of her dragonprowed longship,
 
 **Challenge rating:** 4
 
-**Sources:** Lands of the Linnorm Kings pg 60\
 **XP** 1,200\
 Human [fighter](ref/class/fighter) 5\
 CN Medium humanoid (human)\

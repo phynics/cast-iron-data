@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pinpoint_targeting", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "131"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "As a standard action, make a single ranged attack. The target does no
 +++
 
 ## Pinpoint Targeting (Combat)
-
-**Sources:** PRPG Core Rulebook pg 131
 
 You can target the weak points in your opponent's armor.\
 **Prerequisites:** Dex 19, [Improved Precise Shot](ref/feat/improved-precise-shot),

@@ -6,14 +6,15 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spring_blade", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "232"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "1 lb."
 +++
-
-**Sources:** Ultimate Intrigue pg 232
 
 This 4-inch blade is attached via a hinge to a wooden handle with a slot in the center, into which
 the blade can be folded. With a click of a switch, a spring thrusts the blade outward, where it

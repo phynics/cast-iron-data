@@ -6,12 +6,20 @@ source_ids = ["inner-sea-races", "bestiary-3", "advanced-race-guide", "blood-of-
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "catfolk", path = "json/races.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "239"
+[[sources]]
+publication = "bestiary-3"
+page = "47"
+[[sources]]
+publication = "advanced-race-guide"
+page = "90"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Inner Sea Races pg 239, Bestiary 3 pg 47, Advanced Race Guide pg 90\
 Catfolk are a race of natural explorers who rarely tire of trailblazing, but such trailblazing is
 not limited merely to the search for new horizons in distant lands. Many catfolk see personal growth
 and development as equally valid avenues of exploration. While most catfolk are nimble, capable, and

@@ -6,13 +6,14 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "order_of_the_warrior", path = "json/class_ability_orders.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "21"
 
 [fields]
 kind = "class_option"
 group = "order"
 +++
-
-**Sources:** Ultimate Combat pg 21
 
 Most samurai swear themselves to the code of the warrior, which emphasizes duty, honor, loyalty, and
 obedience. This code extends not only to the samurai's lord and master, but also to his comrades and

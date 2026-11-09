@@ -6,10 +6,12 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/blessing-of-fervor", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "86"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 86\
 Affected creatures can choose two of the spell's bonuses each round rather than one.

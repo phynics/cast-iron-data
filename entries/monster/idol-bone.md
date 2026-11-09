@@ -6,6 +6,9 @@ source_ids = ["pathfinder-27-what-lies-in-dust"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "idol_bone", path = "json/monsters14.json" },
 ]
+[[sources]]
+publication = "pathfinder-27-what-lies-in-dust"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ together. The thing's misshapen head leers forward, carved with a demonic, ape-l
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#27: What Lies in Dust pg 82\
 **Experience points:** 600
 
 **Armor class:** 16/15/15

@@ -6,6 +6,9 @@ source_ids = ["bastards-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divert_harm", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "bastards-of-golarion"
+page = "25"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever you are the target of an area-of-effect attack that normally
 +++
 
 ## Divert Harm (Combat)
-
-**Sources:** Bastards of Golarion pg 25
 
 You know how to throw your enemies into harm's way at the last second.\
 **Prerequisites:** Int 13, [Combat Expertise](ref/feat/combat-expertise), base attack bonus +6,

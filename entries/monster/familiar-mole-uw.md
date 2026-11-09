@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_mole_uw", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "201"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ digging claws._
 
 **Senses:** Low-light vision
 
-**Sources:** Ultimate Wilderness pg 201\
 **tremorsense:** 15
 
 **Experience points:** 50

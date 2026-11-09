@@ -6,6 +6,15 @@ source_ids = ["inner-sea-gods", "pathfinder-8-seven-days-to-the-grave", "gods-an
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "abadars_truthtelling", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "228"
+[[sources]]
+publication = "pathfinder-8-seven-days-to-the-grave"
+page = "71"
+[[sources]]
+publication = "gods-and-magic"
+page = "5"
 
 [fields]
 kind = "spell"
@@ -44,9 +53,6 @@ Target: creature touched
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Inner Sea Gods pg 228, Pathfinder \#8: Seven Days to the Grave pg 71, Gods and Magic pg
-5
 
 This spell functions identically to the spell zone of truth, except as noted above. The target
 momentarily takes on the semblance of a being of perfect order, like an archon or inevitable, so

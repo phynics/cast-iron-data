@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "pathfinder-64-beyond-the-doomsday-door"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cephalophore", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "27"
+[[sources]]
+publication = "pathfinder-64-beyond-the-doomsday-door"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ its domain._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 4 pg 27, Pathfinder \#64: Beyond the Doomsday Door pg 82\
 **Experience points:** 4,800
 
 **Armor class:** 23/11/21

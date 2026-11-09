@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weedwhip", path = "json/monsters25.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "276"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ heads._
 
 **Type:** plant
 
-**Sources:** Bestiary 4 pg 276\
 **Experience points:** 600
 
 **Armor class:** 14/13/11

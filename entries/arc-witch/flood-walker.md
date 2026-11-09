@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/witch" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "89"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["1st-level hex", "6th-level hex", "10th-level hex"]
 alters = ["Patron spells"]
 +++
 
-**Sources:** Ultimate Wilderness pg 89\
 Witches who dwell in floodplains or along the banks of predictably dangerous rivers can tap into the
 underlying potential of surging waters in order to enhance their eerie powers.
 

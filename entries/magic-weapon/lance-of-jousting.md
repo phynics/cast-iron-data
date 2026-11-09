@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lance_of_jousting", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "156"
+[[sources]]
+publication = "advanced-players-guide"
+page = "290"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Equipment pg 156, Advanced Player's Guide pg 290\
 **Aura** faint evocation; **CL** 5th\
 **Slot** none; **Price** 4,310 gp; **Weight** 10 lbs.
 

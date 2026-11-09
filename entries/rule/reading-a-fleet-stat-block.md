@@ -6,12 +6,14 @@ source_ids = ["pathfinder-59-the-price-of-infamy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reading_a_fleet_stat_block", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "pathfinder-59-the-price-of-infamy"
+page = "63"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder \#59: The Price of Infamy pg 63\
 A fleet is represented in text as a stat block. Alternatively, you can record all of a fleet's
 relevant numbers on the fleet sheet presented on page 69 \[in the physical book\]. What follow are
 notes on how to read fleet stat blocks.

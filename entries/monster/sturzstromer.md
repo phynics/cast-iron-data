@@ -6,6 +6,9 @@ source_ids = ["pathfinder-138-rise-of-new-thassilon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sturzstromer", path = "json/monsters38.json" },
 ]
+[[sources]]
+publication = "pathfinder-138-rise-of-new-thassilon"
+page = "92"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ disturbed earth and rock follows behind them._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#138: Rise of New Thassilon pg 92\
 **Subtype:** Earth, Elemental, Extraplanar, Swarm
 
 **Size:** tiny

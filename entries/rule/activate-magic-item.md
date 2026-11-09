@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "activate_magic_item", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "183"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 183
 
 Many magic items don't need to be activated. Certain magic items, however, do need to be activated,
 especially potions, scrolls, wands, rods, and staves. Unless otherwise noted, activating a magic

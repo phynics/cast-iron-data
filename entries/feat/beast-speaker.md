@@ -6,14 +6,15 @@ source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beast_speaker", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "heroes-of-golarion"
+page = "21"
 
 [fields]
 kind = "feat"
 prerequisites = "Diplomacy 7 ranks, Knowledge (arcana) or Knowledge (religion) 7 ranks."
 benefit = "You can select a creature from the list of magical beasts to serve as your animal companion. You acquire and advance this beast companion in the same way as an animal companion detailed in the class feature that grants you access to your animal companion. You can also dismiss the creature, as dictated by your class feature."
 +++
-
-**Sources:** Heroes of Golarion pg 21
 
 You have trained in the ways that the beast speakers of the Tekritani once used to ally themselves
 with magical beasts.\

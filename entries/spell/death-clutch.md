@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "death_clutch", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "115"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: yes
 Target: one living creature
 Descriptors: death, evil
 :::
-
-**Sources:** Horror Adventures pg 115
 
 Chanting an unholy litany, you reach out with a grasping motion toward your target and cause its
 heart to leap out of its chest and into your hand. A target with 200 or fewer hit points remaining

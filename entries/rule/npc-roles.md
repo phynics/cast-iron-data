@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "npc_roles", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "80"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 80
 
 The functions performed by a character in a story are a way to define her role, as linear or complex
 as it may be. A character might constantly perform a single function, which makes for a linear role

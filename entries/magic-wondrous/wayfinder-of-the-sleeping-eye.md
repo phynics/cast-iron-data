@@ -6,6 +6,9 @@ source_ids = ["seekers-of-secrets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wayfinder_of_the_sleeping_eye", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "seekers-of-secrets"
+page = "51"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong illusion"
 caster_level = "13th"
 +++
 
-**Sources:** Seekers of Secrets pg 51\
 **Aura** strong illusion; **CL** 13th\
 **Slot** none; **Price** 70,000 gp; **Weight** 1 lb.
 

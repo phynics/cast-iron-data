@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "pathfinder-society-field-guide"
+page = "27"
 
 [fields]
 kind = "archetype"
 replaces = ["2nd-level rogue talent", "Trap sense", "Uncanny dodge", "Improved uncanny dodge", "10th-level rogue talent"]
 +++
 
-**Sources:** Pathfinder Society Field Guide pg 27\
 The scroll scoundrel is a rogue archetype that relies on cunning and quick wits to stay alive. He
 excels in exploiting overconfidence and predictability, using knowledge he's gained from his
 extensive research and field experience combined with hearsay and recent observations to react to

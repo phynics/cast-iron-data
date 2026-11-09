@@ -6,6 +6,9 @@ source_ids = ["irrisen-land-of-eternal-winter"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "winter_witch_baroness", path = "json/npcs5.json" },
 ]
+[[sources]]
+publication = "irrisen-land-of-eternal-winter"
+page = "62"
 
 [fields]
 kind = "creature"
@@ -19,7 +22,6 @@ doesn't appear to notice._
 
 **Challenge rating:** 4
 
-**Sources:** Irrisen - Land of Eternal Winter pg 62\
 **XP** 1,200\
 Female human [witch](ref/class/witch) ([winter witch](ref/arc-witch/winter-witch)) 5\
 NE Medium humanoid (human)\

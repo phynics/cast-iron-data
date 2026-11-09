@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "pathfinder-24-the-final-wish"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_brass_golem", path = "json/monsters33.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "134"
+[[sources]]
+publication = "pathfinder-24-the-final-wish"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ sword in its metal fists._
 
 **Senses:** Darkvision 60 ft., Low-light vision, See invisibility
 
-**Sources:** Bestiary 3 pg 134, Pathfinder \#24: The Final Wish pg 84\
 **Experience points:** 38,400
 
 **Armor class:** 30/8/30

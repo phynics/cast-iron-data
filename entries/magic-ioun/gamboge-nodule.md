@@ -6,6 +6,9 @@ source_ids = ["seekers-of-secrets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gamboge_nodule", path = "json/magic_ioun_stones.json" },
 ]
+[[sources]]
+publication = "seekers-of-secrets"
+page = "44, 47"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "12th"
 +++
 
-**Sources:** Seekers of Secrets pg. 44, 47\
 **Aura** moderate transmutation; **CL** 12th\
 **Slot** none; **Price** 54,000 gp; **Weight** —
 

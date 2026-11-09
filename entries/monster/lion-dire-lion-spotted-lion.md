@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lion_dire_lion_spotted_lion", path = "json/monsters16.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "193"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ its victims._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 193\
 **Experience points:** 1,600
 
 **Armor class:** 15/11/13

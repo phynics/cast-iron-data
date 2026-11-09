@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/hunter" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "98"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Animal focus", "Woodland stride"]
 alters = ["Animal companion", "hunter tactics", "Wild empathy"]
 +++
 
-**Sources:** Advanced Class Guide pg 98\
 A verminous hunter calls on the ceaseless, single-minded dedication of vermin to hunt and overwhelm
 her prey. Where other hunters invoke the cunning, animalistic powers of the alpha predators, she
 calls on the powers of the lowest life forms, reaching out to the spider instead of the monkey, the

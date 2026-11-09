@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sample_settlements", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "208"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 208
 
 While it's nice to be prepared, and planning out cities can be fun in and of itself, it's not always
 possible to generate specific settlement stat blocks for every town and city that the PCs might

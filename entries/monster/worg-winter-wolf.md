@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "worg_winter_wolf", path = "json/monsters25.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "280"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ almost white in color._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 280\
 **Subtype:** Cold
 
 **Experience points:** 1,600

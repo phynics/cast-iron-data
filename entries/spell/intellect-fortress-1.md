@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "intellect_fortress_1", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "174"
 
 [fields]
 kind = "spell"
@@ -36,8 +39,6 @@ Saving throw: none
 Spell resistance: yes
 Area: 20-ft.-radius emanation centered on you
 :::
-
-**Sources:** Occult Adventures pg 174
 
 Using the power of pure logic, you disrupt mental attacks. Intellect fortress I suppresses all
 effects with the emotion and fear descriptors for its duration.

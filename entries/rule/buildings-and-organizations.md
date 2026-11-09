@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "buildings_and_organizations", path = "json/rules_subsystems03.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "107"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 107
 
 This section presents many standard buildings and organizations. Each example lists exactly what
 rooms or teams are used to construct it, a total of each type of capital required if you want to

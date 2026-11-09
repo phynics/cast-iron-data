@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "transport_via_plants", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "361"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: no
 Target: you and touched objects or other touched willing creatures
 Subschool: Teleportation
 :::
-
-**Sources:** PRPG Core Rulebook pg 361
 
 You can enter any normal plant (equal to your size or larger) and pass any distance to a plant of
 the same kind in a single round, regardless of the distance separating the two. The plants must be

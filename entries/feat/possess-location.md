@@ -6,6 +6,9 @@ source_ids = ["pathfinder-28-the-infernal-syndrome"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "possess_location", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "pathfinder-28-the-infernal-syndrome"
+page = "57"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ prerequisites = "Cha 16, any evil outsider with 8 or more Hit Dice."
 +++
 
 ## Possess Location (Monster)
-
-**Sources:** Pathfinder \#28: The Infernal Syndrome pg 57
 
 A fiend learns to disperse its essence over an area, gaining mastery over features and structures
 there and tainting the place with its wickedness.\

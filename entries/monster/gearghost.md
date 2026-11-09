@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gearghost", path = "json/monsters11.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "123"
 
 [fields]
 kind = "creature"
@@ -38,7 +41,6 @@ above the clanging mess._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 4 pg 123\
 **Size:** tiny
 
 **Type:** undead

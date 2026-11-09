@@ -6,6 +6,9 @@ source_ids = ["pathfinder-society-field-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "air_crystals", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "pathfinder-society-field-guide"
+page = "48"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "50 gp"
 weight = "-"
 +++
 
-**Sources:** Pathfinder Society Field Guide pg 48\
 **Price** 50 gp; **Weight** -\
 **Category** Alchemical Remedies
 

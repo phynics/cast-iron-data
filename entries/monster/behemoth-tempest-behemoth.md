@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "behemoth_tempest_behemoth", path = "json/monsters03.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "37"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ bird-like monstrosity._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 3 pg 37\
 **Subtype:** Air, Behemoth
 
 **Experience points:** 614,400

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "questions_about_your_primitive_society", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "151"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 151
 
 When designing a primitive culture, keep in mind some basic questions about the people.
 

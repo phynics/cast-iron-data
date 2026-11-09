@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "celestial_armor", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "125"
+[[sources]]
+publication = "core-rulebook"
+page = "464"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint transmutation [good]"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Equipment pg 125, PRPG Core Rulebook pg 464\
 **Aura** faint transmutation \[good\]; **CL** 5th\
 **Slot** armor; **Price** 22,400 gp; **Weight** 20 lbs.
 

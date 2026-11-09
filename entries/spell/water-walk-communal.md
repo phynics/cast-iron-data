@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/water-walk" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "249"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Descriptors: water
 :::
 
 ### Communal Water Walk
-
-**Sources:** Ultimate Combat pg 249
 
 This spell functions like [water walk](ref/spell/water-walk), except you divide the duration in
 10-minute intervals among the creatures touched.

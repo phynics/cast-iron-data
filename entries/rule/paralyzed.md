@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "paralyzed", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "568"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 568
 
 **Paralyzed:** A paralyzed character is frozen in place and unable to move or act. A paralyzed
 character has effective Dexterity and Strength scores of 0 and is helpless, but can take purely

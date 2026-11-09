@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quintessence_mastery", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "43"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: none
 Spell resistance: no
 Effect: control over a plane's terrain and traits
 :::
-
-**Sources:** Planar Adventures pg 43
 
 This spell grants the caster limited control over the quintessence of an Outer Plane. The control
 granted by quintessence mastery can take one of two forms, depending on the version of the spell

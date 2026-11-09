@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "darting_duplicate", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "30"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: yes
 Effect: visual figment of the caster
 Subschool: Figment
 :::
-
-**Sources:** Melee Tactics Toolbox pg 30
 
 An illusory duplicate of you steps clumsily into an adjacent square, presenting a tempting target
 before winking out of existence. Any creature that threatens that square must succeed at a Will save

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-72-the-witch-queens-revenge"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hag_eye_ooze_coven_ooze", path = "json/monsters33.json" },
 ]
+[[sources]]
+publication = "pathfinder-72-the-witch-queens-revenge"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ mass, seemingly scanning back and forth with each surge of movement._
 
 **Perception:** +7
 
-**Sources:** Pathfinder \#72: The Witch Queen's Revenge pg 86\
 **Experience points:** 6,400
 
 **Armor class:** 4/4/4

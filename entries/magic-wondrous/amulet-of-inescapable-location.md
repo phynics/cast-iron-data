@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "amulet_of_inescapable_location", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "342"
+[[sources]]
+publication = "core-rulebook"
+page = "538"
 
 [fields]
 kind = "item"
@@ -15,8 +21,6 @@ slot = "neck"
 aura = "moderate abjuration"
 caster_level = "10th"
 +++
-
-**Sources:** Ultimate Equipment pg 342, PRPG Core Rulebook pg 538
 
 **Aura** moderate abjuration; **CL** 10th\
 **Slot** neck; **Weight** 1/2 lb.

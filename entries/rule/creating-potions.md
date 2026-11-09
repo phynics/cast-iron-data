@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "creating_potions", path = "json/rules_basics04.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "551"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 551
 
 The creator of a potion needs a level working surface and at least a few containers in which to mix
 liquids, as well as a source of heat to boil the brew. In addition, he needs ingredients. The costs

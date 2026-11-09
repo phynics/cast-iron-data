@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "badge_of_authority", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "45"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint illusion"
 caster_level = "3rd"
 +++
 
-**Sources:** Villain Codex pg 45\
 **Aura** faint illusion; **CL** 3rd\
 **Slot** none; **Price** 1,500 gp; **Weight** 1/2 lb.
 

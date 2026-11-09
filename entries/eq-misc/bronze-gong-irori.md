@@ -6,6 +6,9 @@ source_ids = ["faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bronze_gong_irori", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "faiths-of-balance"
+page = "24"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "100 gp"
 weight = "5 lbs."
 +++
 
-**Sources:** Faiths of Balance pg 24\
 **Price** 100 gp; **Weight** 5 lbs.\
 **Category** Channel Foci\
 **Deity** Irori

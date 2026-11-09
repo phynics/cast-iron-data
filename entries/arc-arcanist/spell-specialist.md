@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/arcanist" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "78"
 
 [fields]
 kind = "archetype"
 replaces = ["The arcanist exploits gained at 1st, 7th, 13th, and 19th levels"]
 +++
 
-**Sources:** Advanced Class Guide pg 78\
 Where most arcanists are broad in their study of magic, a spell specialist has her power focused in
 a few spells. Spell specialists are able to warp and twist the magic of their signature spells in
 ways other casters cannot.

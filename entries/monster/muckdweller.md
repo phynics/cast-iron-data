@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "muckdweller", path = "json/monsters17.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "175"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ body and its forelimbs look like hands._
 
 **Size:** small
 
-**Sources:** Bestiary 5 pg 175\
 **Experience points:** 100
 
 **Armor class:** 14/13/12

@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "forest_kit", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-wild"
+page = "9"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "25 gp"
 weight = "29 lbs."
 +++
 
-**Sources:** Heroes of the Wild pg 9\
 **Price** 25 gp; **Weight** 29 lbs.\
 **Category** Kits
 

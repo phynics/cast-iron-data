@@ -6,6 +6,9 @@ source_ids = ["pathfinder-80-empty-graves"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "khepri", path = "json/faiths5.json" },
 ]
+[[sources]]
+publication = "pathfinder-80-empty-graves"
+page = "65"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Khepri**
 
 **Sub:** The Humble Hand
-
-**Sources:** Pathfinder \#80: Empty Graves pg 65
 
 ### Details
 

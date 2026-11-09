@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "26"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Nature sense", "The druid's proficiency with medium armor"]
 alters = ["Spellcasting", "Base attack bonus", "class skills", "skills ranks per level", "Wild shape"]
 +++
 
-**Sources:** Ultimate Intrigue pg 26\
 Some druids hear the whispers of the natural world like fey creatures do, and learn to mimic those
 tantalizing murmurs in order to influence the minds of both wild beasts and civilized people. These
 feyspeakers are often touched by the fey in some way, such as mortals who dared to eat the food and

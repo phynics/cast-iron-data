@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "holy_javelin", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "119"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Effect: javelin of divine energy
 Subschool: Creation
 Descriptors: good
 :::
-
-**Sources:** Horror Adventures pg 119
 
 You create a shimmering javelin of holy energy to hurl at an enemy as a ranged touched attack. The
 javelin deals 1d6 points of damage to an evil creature on a successful attack; it dissipates

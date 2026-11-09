@@ -6,13 +6,14 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "order_of_the_beast_acg", path = "json/class_ability_orders.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "90"
 
 [fields]
 kind = "class_option"
 group = "order"
 +++
-
-**Sources:** Advanced Class Guide pg 90
 
 A cavalier who belongs to this order serves nature in all its forms. These cavaliers believe that
 animals make the most loyal companions, and keep close to woodland creatures.

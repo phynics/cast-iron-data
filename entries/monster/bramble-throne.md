@@ -6,6 +6,9 @@ source_ids = ["pathfinder-132-the-six-legend-soul"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bramble_throne", path = "json/monsters04.json" },
 ]
+[[sources]]
+publication = "pathfinder-132-the-six-legend-soul"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ grow on the branches._
 
 **Type:** plant
 
-**Sources:** Pathfinder \#132: The Six-Legend Soul pg 82\
 **Thoughtsense:** present
 
 **tremorsense:** 120

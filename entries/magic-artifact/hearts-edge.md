@@ -6,6 +6,9 @@ source_ids = ["pathfinder-108-hell-comes-to-westcrown"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hearts_edge", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "pathfinder-108-hell-comes-to-westcrown"
+page = "56"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration and transmutation"
 caster_level = "20th"
 +++
 
-**Sources:** Pathfinder \#108: Hell Comes to Westcrown pg 56\
 **Aura** strong abjuration and transmutation; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 2 lbs.
 

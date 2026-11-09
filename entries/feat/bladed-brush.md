@@ -6,6 +6,9 @@ source_ids = ["paths-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bladed_brush", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "paths-of-the-righteous"
+page = "15"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You can use the Weapon Finesse feat to apply your Dexterity modifier 
 +++
 
 ## Bladed Brush (Combat)
-
-**Sources:** Paths of the Righteous pg 15
 
 You know how to balance a polearm perfectly, striking with artful, yet deadly precision.\
 **Prerequisites:** [Weapon Focus](ref/feat/weapon-focus) (glaive), must be a worshiper of

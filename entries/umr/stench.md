@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stench", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "300"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Stench (Ex)
 
-**Sources:** Bestiary 5 pg 300\
 A creature with the stench special ability secretes an oily chemical that other creatures find
 offensive. All living creatures (except those with the stench special ability) within 30 feet must
 succeed at a Fortitude save or be sickened (DC = 10 + 1/2 the racial HD of the creature with

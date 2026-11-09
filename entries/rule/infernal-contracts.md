@@ -6,12 +6,13 @@ source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "infernal_contracts", path = "json/rules_rulesets01.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "5"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Book of the Damned pg 5
 
 The best known and most direct form of diabolical corruption, infernal contracts form a binding tie
 between a devil and a mortal. Such contracts take a variety of forms, typically parodying the laws

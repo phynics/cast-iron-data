@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/wall-of-ice", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "111"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 111\
 The wall's hit points increase to 5 hit points per inch of thickness. Add your tier to the Strength
 check DC to break through the wall. The damage dealt to those that step through the wall increases
 to 1d8 points of cold damage + 1 point per caster level. Any creature that passes through the wall

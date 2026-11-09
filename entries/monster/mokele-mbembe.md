@@ -6,6 +6,15 @@ source_ids = ["bestiary-6", "pathfinder-39-the-city-of-seven-spears", "mystery-m
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mokele_mbembe", path = "json/monsters17.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "190"
+[[sources]]
+publication = "pathfinder-39-the-city-of-seven-spears"
+page = "84"
+[[sources]]
+publication = "mystery-monsters-revisited"
+page = "26"
 
 [fields]
 kind = "creature"
@@ -42,8 +51,6 @@ countless sharp fangs._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Bestiary 6 pg 190, Pathfinder \#39: The City of Seven Spears pg 84, Mystery Monsters
-Revisited pg 26\
 **Experience points:** 6,400
 
 **Armor class:** 23/9/22

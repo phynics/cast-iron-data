@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "statue", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "349"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
 :::
-
-**Sources:** PRPG Core Rulebook pg 349
 
 A statue spell turns the subject to solid stone, along with any garments and equipment worn or
 carried. In statue form, the subject gains [hardness](ref/umr/hardness) 8. The subject retains its

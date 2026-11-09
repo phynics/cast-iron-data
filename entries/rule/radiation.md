@@ -6,12 +6,14 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "radiation", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "55"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Technology Guide pg 55\
 Radiation is a very real threat to those who explore the technological ruins of Numeria. Radiation
 is a poison effect whose initial effect causes Constitution drain and secondary effect causes
 Strength damage. Radiation poisoning dangers are organized into four categories: low, medium, high,

@@ -6,14 +6,15 @@ source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wild_speaker", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "legacy-of-the-first-world"
+page = "6"
 
 [fields]
 kind = "feat"
 prerequisites = "Bleachling racial trait, gnome."
 benefit = "You can use your speak with animals spell-like ability at will."
 +++
-
-**Sources:** Legacy of the First World pg 6
 
 The Bleaching enhances a gnome's ability to communicate with the natural world.\
 **Prerequisites:** Bleachling racial trait, [gnome](ref/race/gnome).\

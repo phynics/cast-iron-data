@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mindfulness_mastery", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "blood-of-the-beast"
+page = "29"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "For 24 hours after you meditate, whenever you fail your saving throw 
 +++
 
 ## Mindfulness Mastery (Meditation)
-
-**Sources:** Blood of the Beast pg 29
 
 The act of meditation allows you to steel your mind against mental attacks.\
 **Prerequisites:** Wis 19, [Meditation Master](ref/feat/meditation-master),

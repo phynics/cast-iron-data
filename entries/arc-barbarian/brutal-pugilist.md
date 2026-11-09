@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/barbarian" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "78"
 
 [fields]
 kind = "archetype"
 replaces = ["Uncanny dodge", "Trap sense", "Improved uncanny dodge"]
 +++
 
-**Sources:** Advanced Player's Guide pg 78\
 Some barbarians focus on using their bare hands to tear their opponents limb from limb. These brutal
 pugilists also learn a great deal about various [combat maneuvers](ref/rule/combat-maneuvers), using
 them to cripple or crush their foes. A brutal pugilist has the following class features.

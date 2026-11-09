@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stunning_finale", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "247"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Targets: up to 3 creatures, no two of which can be more than 30 ft. apart
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Advanced Player's Guide pg 247
 
 You must have a bardic performance in effect to cast this spell. With a flourish, you immediately
 end your bardic performance, assaulting the senses of the targets with your finale. Each target is

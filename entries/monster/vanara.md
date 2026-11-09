@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vanara", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "280"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ prehensile tail._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 3 pg 280\
 **Subtype:** Vanara
 
 **Experience points:** 200

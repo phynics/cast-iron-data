@@ -6,6 +6,9 @@ source_ids = ["pathfinder-39-the-city-of-seven-spears"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vireseed_swarm", path = "json/monsters40.json" },
 ]
+[[sources]]
+publication = "pathfinder-39-the-city-of-seven-spears"
+page = "83"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ by a rapidly lashing tendril._
 
 **Type:** plant
 
-**Sources:** Pathfinder \#39: The City of Seven Spears pg 83\
 **Subtype:** Swarm
 
 **Experience points:** 1,600

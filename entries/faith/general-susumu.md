@@ -6,6 +6,9 @@ source_ids = ["dragon-empires-gazetteer", "legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "general_susumu", path = "json/faiths3.json" },
 ]
+[[sources]]
+publication = "dragon-empires-gazetteer"
+page = "58"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **General Susumu**
 
 **Sub:** The Black Daimyo
-
-**Sources:** Dragon Empires Gazetteer pg 58
 
 ### Details
 

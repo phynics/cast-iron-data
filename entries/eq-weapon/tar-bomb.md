@@ -6,6 +6,9 @@ source_ids = ["pirates-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tar_bomb", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "pirates-of-the-inner-sea"
+page = "21"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "15 gp"
 weight = "2 lbs."
 +++
 
-**Sources:** Pirates of the Inner Sea pg 21\
 **Price** 15 gp; **Weight** 2 lbs.\
 **Category** Alchemical Weapons
 

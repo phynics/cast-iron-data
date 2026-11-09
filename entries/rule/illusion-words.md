@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "illusion_words", path = "json/rules_opt_magic03.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "180"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 180
 
 These words deceive the senses, leaving those that witness them unsure of the world around them.
 

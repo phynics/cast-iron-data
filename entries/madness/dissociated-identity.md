@@ -6,12 +6,14 @@ source_ids = ["horror-adventures", "game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dissociated_identity", path = "json/madness.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "187"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Adventures pg 187\
 **Type** greater madness; **Save DC** 20\
 **Onset** 2d6 days\
 **Effect** -6 penalty on Will saving throws and Wisdom-based checks, and disassociated identities

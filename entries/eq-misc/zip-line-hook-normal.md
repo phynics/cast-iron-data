@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "zip_line_hook_normal", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "128"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "1 lb. (masterwork), 1 lb. (normal)"
 
 ## Zip-line hook
 
-**Sources:** Villain Codex pg 128\
 **Price** 55 gp (masterwork), 5 gp (normal); **Weight** 1 lb. (masterwork), 1 lb. (normal)
 
 This blunt iron hook secures to the user's forearm with a sturdy strap. When this item is hooked

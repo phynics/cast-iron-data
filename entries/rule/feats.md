@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "feats", path = "json/rules_basics01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "112"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 112
 
 Some abilities are not tied to your race, class, or skill - things like particularly quick reflexes
 that allow you to react to danger more swiftly, the ability to craft magic items, the training to

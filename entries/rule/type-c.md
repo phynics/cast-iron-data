@@ -6,12 +6,13 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "type_c", path = "json/rules_adv_gm05.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "363"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Equipment pg 363
 
 This treasure is made up art objects, which can generally be traded for their full value.
 

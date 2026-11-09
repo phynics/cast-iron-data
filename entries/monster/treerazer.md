@@ -6,6 +6,12 @@ source_ids = ["inner-sea-world-guide", "pathfinder-17-a-memory-of-darkness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "treerazer", path = "json/monsters_unique4.json" },
 ]
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "314"
+[[sources]]
+publication = "pathfinder-17-a-memory-of-darkness"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -46,7 +52,6 @@ tooth-filled beak._
 
 **Senses:** Darkvision 60 ft., Detect good, Detect law, True seeing
 
-**Sources:** Inner Sea World Guide pg 314, Pathfinder \#17: A Memory of Darkness pg 88\
 **Subtype:** Demon, Native
 
 **Experience points:** 1,638,400

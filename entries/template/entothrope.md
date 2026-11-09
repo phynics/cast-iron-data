@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "entothrope", path = "json/monster_template1.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "116"
 
 [fields]
 kind = "none"
@@ -18,8 +21,6 @@ kind = "none"
 **Challenge rating:** +1 (see text)
 
 **Inherited:** present
-
-**Source:** Bestiary 6/116
 
 Entothropes are [humanoids](ref/type/humanoid) with the ability to turn into large insects and
 insect-humanoid hybrids.

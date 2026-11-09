@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "returning_throw", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "208"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever an ally who also has this feat makes an attack with a thrown
 +++
 
 ## Returning Throw (Combat, Teamwork)
-
-**Sources:** Inner Sea Races pg 208
 
 You have turned your deadly childhood games into a tactical advantage.\
 **Prerequisites:** [Point-Blank Shot](ref/feat/point-blank-shot),

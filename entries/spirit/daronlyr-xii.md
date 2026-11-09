@@ -6,13 +6,15 @@ source_ids = ["pathfinder-132-the-six-legend-soul"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daronlyr_xii", path = "json/class_ability_spirits.json" },
 ]
+[[sources]]
+publication = "pathfinder-132-the-six-legend-soul"
+page = "71"
 
 [fields]
 kind = "class_option"
 group = "medium-spirit"
 +++
 
-**Sources:** Pathfinder \#132: The Six-Legend Soul pg 71\
 While most of the legendary spirits of Taldor gained their fame through noble deeds, Daronlyr the
 Overthrower came to infamy through bold ambition. No one alive today - and likely no one other than
 Daronlyr himself - knows how much of his arcane might he leveraged in overthrowing his predecessor,

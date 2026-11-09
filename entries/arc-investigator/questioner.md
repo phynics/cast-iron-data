@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/investigator" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "26"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Alchemy", "Poison lore"]
 alters = ["Inspiration", "Investigator talents"]
 +++
 
-**Sources:** Magic Tactics Toolbox pg 26\
 Dabblers in arcane magic and masters of stealth and guile, questioners are investigators who often
 find themselves mucking about in cases for less-than-savory clientele or that require an extra bit
 of subtlety. Although questioners are found in nearly every major city in the Inner Sea region,

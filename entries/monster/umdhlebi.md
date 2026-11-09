@@ -6,6 +6,9 @@ source_ids = ["pathfinder-41-the-thousand-fangs-below"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "umdhlebi", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "pathfinder-41-the-thousand-fangs-below"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ whisper promises sleep and sweet rest to any that lie down at the thing's base._
 
 **Type:** plant
 
-**Sources:** Pathfinder \#41: The Thousand Fangs Below pg 88\
 **tremorsense:** 60
 
 **Experience points:** 19,200

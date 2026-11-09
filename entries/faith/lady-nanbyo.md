@@ -6,6 +6,9 @@ source_ids = ["dragon-empires-gazetteer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lady_nanbyo", path = "json/faiths5.json" },
 ]
+[[sources]]
+publication = "dragon-empires-gazetteer"
+page = "58"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Lady Nanbyo**
 
 **Sub:** The Widow of Suffering
-
-**Sources:** Dragon Empires Gazetteer pg 58
 
 ### Details
 

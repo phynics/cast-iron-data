@@ -6,6 +6,9 @@ source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wandering_trail", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "63"
 
 [fields]
 kind = "spell"
@@ -37,8 +40,6 @@ Saving throw: none
 Spell resistance: no
 Target: up to one creature/level within 180 feet
 :::
-
-**Sources:** Inner Sea Intrigue pg 63
 
 You cause the trail left by the targets within range to automatically reroute, potentially taking
 any course within the area. Your modification of the trail within the spell's area can result in a

@@ -6,12 +6,13 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tea_armor", path = "json/rules_adv_gm05.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "125"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Equipment pg 125
 
 ### Table 3-5: Specific Armor
 

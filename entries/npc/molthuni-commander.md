@@ -6,6 +6,9 @@ source_ids = ["inner-sea-npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "molthuni_commander", path = "json/npcs2.json" },
 ]
+[[sources]]
+publication = "inner-sea-npc-codex"
+page = "38"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "6"
 
 **Challenge rating:** 6
 
-**Sources:** Inner Sea NPC Codex pg 38\
 **XP** 2,400\
 Human [aristocrat](ref/npcclass/aristocrat) 2/[cavalier](ref/class/cavalier) 5\
 LN Medium humanoid (human)\

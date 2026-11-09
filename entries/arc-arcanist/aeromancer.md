@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/arcanist" },
 ]
+[[sources]]
+publication = "blood-of-the-ancients"
+page = "26"
 
 [fields]
 kind = "archetype"
 replaces = ["The arcane exploit gained at 1st level", "The arcane exploit gained at 5th level", "The arcane exploit gained at 11th level"]
 +++
 
-**Sources:** Blood of the Ancients pg 26\
 The Shory were the undisputed masters of wind and sky, and they unlocked numerous secrets of air
 magic. The vast majority of these secrets were lost when their civilization collapsed, but a few of
 their magical traditions have been preserved through the years. While the practice of aeromancy is

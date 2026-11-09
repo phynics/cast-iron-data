@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "16"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Woodland stride", "Trackless step", "Resist nature's lure", "A thou
 alters = ["Bonus languages", "Wild shape"]
 +++
 
-**Sources:** Dirty Tactics Toolbox pg 16\
 Some druids draw upon power irreverently stolen from one of the most dangerous creatures of the
 depths: the kraken.
 

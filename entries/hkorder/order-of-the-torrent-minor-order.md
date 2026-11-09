@@ -6,13 +6,17 @@ source_ids = ["path-of-the-hellknight", "pathfinder-98-turn-of-the-torrent"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "order_of_the_torrent_minor_order", path = "json/class_ability_hellknight_orders.json" },
 ]
+[[sources]]
+publication = "path-of-the-hellknight"
+page = "55"
+[[sources]]
+publication = "pathfinder-98-turn-of-the-torrent"
+page = "67"
 
 [fields]
 kind = "class_option"
 group = "hellknight-order"
 +++
-
-**Sources:** Path of the Hellknight pg 55, Pathfinder \#98: Turn of the Torrent pg 67
 
 **Symbol**
 

@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "concealed_breath", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-darklands"
+page = "14"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: living creature touched
 :::
-
-**Sources:** Heroes of the Darklands pg 14
 
 This spell allows affected creatures to [hold their breath](ref/misc/hold-your-breath) freely
 without negative effects or risk of [suffocation](ref/rule/suffocation). Divide the duration evenly

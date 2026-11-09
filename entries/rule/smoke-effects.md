@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "smoke_effects", path = "json/rules_gm08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "444"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 444
 
 A character who breathes heavy smoke must make a Fortitude save each round (DC 15, +1 per previous
 check) or spend that round choking and coughing. A character who chokes for 2 consecutive rounds

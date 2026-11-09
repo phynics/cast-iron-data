@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/hold-monster" },
 ]
+[[sources]]
+publication = "pathfinder-42-sanctum-of-the-serpent-god"
+page = "71"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Target: one living creature
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Pathfinder \#42: Sanctum of the Serpent God pg 71
 
 > _Priests of [Ydersius](ref/faith/ydersius) have access to the following spell._
 

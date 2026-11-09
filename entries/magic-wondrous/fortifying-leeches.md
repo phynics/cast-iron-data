@@ -6,6 +6,9 @@ source_ids = ["pathfinder-63-the-asylum-stone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fortifying_leeches", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "pathfinder-63-the-asylum-stone"
+page = "58"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Pathfinder \#63: The Asylum Stone pg 58\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** none; **Price** 6,000 gp; **Weight** 2 lbs.
 

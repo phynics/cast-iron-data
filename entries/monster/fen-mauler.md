@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fen_mauler", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "127"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ tangles within its matted, reeking fur._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Bestiary 6 pg 127\
 **Experience points:** 9,600
 
 **Armor class:** 24/14/19

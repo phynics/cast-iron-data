@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slithering_tracker", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "250"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ attack._
 
 **Size:** small
 
-**Sources:** Bestiary 2 pg 250\
 **Experience points:** 1,200
 
 **Armor class:** 15/15/11

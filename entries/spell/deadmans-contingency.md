@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/contingency" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "210"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Target: you
 :::
 
 ### Deadman's Contingency
-
-**Sources:** Ultimate Intrigue pg 210
 
 This spell functions as [contingency](ref/spell/contingency), except as noted above. This spell also
 only comes into effect after your death and works only with certain spells. The companion spell

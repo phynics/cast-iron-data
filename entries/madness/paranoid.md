@@ -6,12 +6,14 @@ source_ids = ["horror-adventures", "game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "paranoid", path = "json/madness.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "185"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Adventures pg 185\
 **Type** lesser madness; **Save DC** 17\
 **Onset** 2d6 days\
 **Effect** The afflicted character gains a +2 bonus on saving throws against charm effects, but

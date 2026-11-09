@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dinosaur_velociraptor", path = "json/monsters08.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "59"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ prey._
 
 **Size:** small
 
-**Sources:** Bestiary 4 pg 59\
 **Experience points:** 600
 
 **Armor class:** 15/14/12

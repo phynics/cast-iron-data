@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "persuasive_goad", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "231"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: pain
 :::
-
-**Sources:** Ultimate Magic pg 231
 
 Your eyes flash and the target takes 1d6 points of nonlethal damage. For the next minute, you gain a
 +4 circumstance bonus on Intimidate checks against the target.

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "setting_and_scope_2", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "20"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 20
 
 The meat of a campaign guide is the description of the setting: where and when the campaign takes
 place, and in particular, the "base state" or status quo with which the characters should be

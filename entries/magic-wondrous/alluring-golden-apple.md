@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alluring_golden_apple", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "276"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint enchantment"
 caster_level = "4th"
 +++
 
-**Sources:** Ultimate Equipment pg 276\
 **Aura** faint enchantment; **CL** 4th\
 **Slot** none; **Price** 400 gp; **Weight** 1 lb.
 

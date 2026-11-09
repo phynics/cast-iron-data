@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snake_sidewind", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "119"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "You can take a 5-foot step only if you have not otherwise moved this r
 +++
 
 ## Snake Sidewind (Combat)
-
-**Sources:** Ultimate Combat pg 119
 
 Your sensitive twisting movements make you difficult to anticipate combat.\
 **Prerequisites:** [Improved Unarmed Strike](ref/feat/improved-unarmed-strike),

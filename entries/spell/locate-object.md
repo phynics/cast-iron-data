@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "locate_object", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "305"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Saving throw: none
 Spell resistance: no
 Area: circle, centered on you, with a radius of 400 ft. + 40 ft./level
 :::
-
-**Sources:** PRPG Core Rulebook pg 305
 
 You sense the direction of a well-known or clearly visualized object. You can search for general
 items, in which case you locate the nearest of its kind if more than one is within range. Attempting

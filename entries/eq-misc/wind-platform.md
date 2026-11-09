@@ -6,6 +6,9 @@ source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wind_platform", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "dragonslayers-handbook"
+page = "27"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "5,000 gp"
 weight = "1,600 lbs."
 +++
 
-**Sources:** Dragonslayer's Handbook pg 27\
 **Price** 5,000 gp; **Weight** 1,600 lbs.\
 **Category** Transport, Air
 

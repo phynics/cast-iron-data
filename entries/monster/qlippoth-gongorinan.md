@@ -6,6 +6,12 @@ source_ids = ["bestiary-6", "pathfinder-64-beyond-the-doomsday-door"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "qlippoth_gongorinan", path = "json/monsters37.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "226"
+[[sources]]
+publication = "pathfinder-64-beyond-the-doomsday-door"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ a different method of inflicting pain._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 6 pg 226, Pathfinder \#64: Beyond the Doomsday Door pg 90\
 **Subtype:** Chaotic, Evil, Extraplanar, Qlippoth
 
 **Experience points:** 12,800

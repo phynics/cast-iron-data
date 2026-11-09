@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lamia", path = "json/monsters34.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "186"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ lower body is that of a lion._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder RPG Bestiary pg 186\
 **Experience points:** 2,400
 
 **Armor class:** 20/13/16

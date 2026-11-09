@@ -6,12 +6,14 @@ source_ids = ["skull-and-shackles-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ship_modifications", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "skull-and-shackles-players-guide"
+page = "26-28"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Skull and Shackles Player's Guide pg. 26-28\
 Not all ships are created equally. Players looking for a ship that is faster, tougher, or more agile
 might consider adding modifications to their vessels. Each of the following ship improvements must
 be planned, built, or installed (as appropriate) by someone with the

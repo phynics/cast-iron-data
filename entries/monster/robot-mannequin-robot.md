@@ -6,6 +6,9 @@ source_ids = ["numeria-land-of-fallen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "robot_mannequin_robot", path = "json/monsters20.json" },
 ]
+[[sources]]
+publication = "numeria-land-of-fallen-stars"
+page = "57"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ _This impassive humanoid has shiny, pale skin and an eerily expressionless face.
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Numeria, Land of Fallen Stars pg 57\
 **Subtype:** Robot
 
 **Experience points:** 600

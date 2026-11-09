@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "72"
 
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Trap sense"]
 +++
 
-**Sources:** Ultimate Combat pg 72\
 A driver makes her living driving vehicles in the service of those who can pay for her considerable
 talents. She may be a wagon-driver practiced at smuggling contraband, an accomplished musher blazing
 arctic trails, or a seemingly refined coach driver placing her roguish talents in the service of a

@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "adventuring_blacksmith", path = "json/npcs2.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "5"
 
 **Challenge rating:** 5
 
-**Sources:** NPC Codex pg 82\
 **XP** 1,600\
 Half-elf [fighter](ref/class/fighter) 6\
 LN Medium humanoid (elf, human)\

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/symbol-of-death" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "129"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Spell resistance: yes
 Effect: one symbol
 Descriptors: evil
 :::
-
-**Sources:** Horror Adventures pg 129
 
 This spell functions like [symbol of death](ref/spell/symbol-of-death), except that each creature
 within the radius of symbol of exsanguination begins to bleed uncontrollably and violently from

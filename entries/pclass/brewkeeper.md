@@ -6,14 +6,15 @@ source_ids = ["paths-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brewkeeper", path = "json/prestige_classes.json" },
 ]
+[[sources]]
+publication = "paths-of-the-righteous"
+page = "6"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d8."
 +++
-
-**Sources:** Paths of the Righteous pg 6
 
 Among the most ardent and celebrated members of Cayden Cailean's devoted are his brewkeepers,
 members of the Drunken God's faith who specialize in the creation of fine alcohol and magical

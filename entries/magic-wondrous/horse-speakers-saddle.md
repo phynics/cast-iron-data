@@ -6,6 +6,9 @@ source_ids = ["tombs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horse_speakers_saddle", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "tombs-of-golarion"
+page = "11"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination and transmutation"
 caster_level = "9th"
 +++
 
-**Sources:** Tombs of Golarion pg 11\
 **Aura** moderate divination and transmutation; **CL** 9th\
 **Slot** none; **Price** 16,500 gp; **Weight** 20 lbs.
 

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ranger" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "43"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Wild empathy", "Favored terrain", "Woodland stride"]
 alters = ["Hunter's bond"]
 +++
 
-**Sources:** Ultimate Intrigue pg 43\
 Transporters specialize in smuggling people as efficiently as possible through harsh and difficult
 environments. Individuals such as escaped political exiles, refugees fleeing danger, and various
 criminals all seek the transporter's services. While some transporters actively work to serve

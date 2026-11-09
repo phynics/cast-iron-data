@@ -6,14 +6,15 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "remote_bomb", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "155"
 
 [fields]
 kind = "feat"
 prerequisites = "Delayed bomb discovery."
 benefit = "The maximum delay for your delayed bombs increases to a number of minutes equal to your level."
 +++
-
-**Sources:** Ultimate Magic pg 155
 
 You can set off your delayed bombs at great distances.\
 **Prerequisites:** Delayed bomb discovery.\

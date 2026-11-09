@@ -6,6 +6,9 @@ source_ids = ["castles-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "powder_ball_empty", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "castles-of-the-inner-sea"
+page = "39"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "4 lbs. (empty), 1 lb. (fuel)"
 
 ## Powder ball
 
-**Sources:** Castles of the Inner Sea pg 39\
 **Price** 400 gp (empty), 300 gp (fuel); **Weight** 4 lbs. (empty), 1 lb. (fuel)
 
 This steel sphere is about the size of a standard cannon ball, though it's significantly lighter.

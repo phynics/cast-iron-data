@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/dispel-magic", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "92"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 92
 
 When used as a targeted dispel, this spell can end two spells affecting the target instead of just
 one. If the targeted dispel successfully dispels at least one spell, you heal 1d4 points of damage

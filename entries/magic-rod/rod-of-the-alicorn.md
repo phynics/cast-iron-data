@@ -6,6 +6,9 @@ source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rod_of_the_alicorn", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "55"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Sources:** Inner Sea Intrigue pg 55\
 **Aura** moderate conjuration; **CL** 9th\
 **Slot** none; **Price** 25,000 gp; **Weight** 5 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-118-siege-of-stone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burstigeit", path = "json/monsters04.json" },
 ]
+[[sources]]
+publication = "pathfinder-118-siege-of-stone"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ its horns had broken off in battle._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Pathfinder \#118: Siege of Stone pg 84\
 **Experience points:** 800
 
 **Armor class:** 17/11/15

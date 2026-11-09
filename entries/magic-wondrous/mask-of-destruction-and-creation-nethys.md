@@ -6,6 +6,9 @@ source_ids = ["faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mask_of_destruction_and_creation_nethys", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "faiths-of-balance"
+page = "27"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint evocation and illusion"
 caster_level = "5th"
 +++
 
-**Sources:** Faiths of Balance pg 27\
 **Aura** faint evocation and illusion; **CL** 5th\
 **Slot** head; **Price** 5,000 gp; **Weight** -
 

@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heart_piercing", path = "json/magic_enhancements2.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "30"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Sources:** Weapon Master's Handbook pg 30\
 **Aura** moderate evocation; **CL** 10th\
 **Price** +5 bonus; **Weight** -
 

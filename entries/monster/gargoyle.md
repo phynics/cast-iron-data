@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gargoyle", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "137"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ winged demon._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 137\
 **Subtype:** Earth
 
 **Experience points:** 1,200

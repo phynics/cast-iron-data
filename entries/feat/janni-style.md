@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "janni_style", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "106"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using this style, you take only a -1 penalty to AC for charging
 +++
 
 ## Janni Style (Combat, Style)
-
-**Sources:** Ultimate Combat pg 106
 
 Your whirling fighting technique makes you difficult to hit.\
 **Prerequisites:** [Improved Unarmed Strike](ref/feat/improved-unarmed-strike), Acrobatics 3 ranks,

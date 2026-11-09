@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magnifying_chime", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "186"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Target: one unattended object or object in your possession
 Effect: disruptive vibrations
 Descriptors: sonic
 :::
-
-**Sources:** Advanced Class Guide pg 186
 
 You cause the touched object to vibrate and release sonic energy once per round as a loud, dangerous
 chime. The sound grows in strength as time passes. On your turn in the round after you cast the

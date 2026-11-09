@@ -6,6 +6,9 @@ source_ids = ["pathfinder-105-the-inferno-gate", "book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "moloch", path = "json/faiths6.json" },
 ]
+[[sources]]
+publication = "pathfinder-105-the-inferno-gate"
+page = "68"
 
 [fields]
 kind = "none"
@@ -15,7 +18,6 @@ kind = "none"
 
 **Sub:** The Ashen Bull
 
-**Sources:** Pathfinder \#105: The Inferno Gate pg 68\
 **Monster Link** [Moloch](ref/monster/archdevil-moloch)
 
 ### Details

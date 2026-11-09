@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/magus" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "47"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Magus arcana gained at 3rd level"]
 alters = ["Arcane Pool"]
 +++
 
-**Sources:** Ultimate Magic pg 47\
 A select group of magi are called to carry a **black blade**: a sentient weapon of often unknown and
 possibly unknowable purpose. These weapons become valuable tools and allies, as both the magus and
 weapon typically crave arcane power, but as a _black blade_ becomes more aware, its true motivations

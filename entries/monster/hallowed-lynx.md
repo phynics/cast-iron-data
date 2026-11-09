@@ -6,6 +6,9 @@ source_ids = ["pathfinder-138-rise-of-new-thassilon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hallowed_lynx", path = "json/monsters13.json" },
 ]
+[[sources]]
+publication = "pathfinder-138-rise-of-new-thassilon"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ tufted ears, a short tail, and keen, piercing eyes._
 
 **Size:** small
 
-**Sources:** Pathfinder \#138: Rise of New Thassilon pg 88\
 **Experience points:** 102,400
 
 **Armor class:** 29/17/23

@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "walls_uc", path = "json/rules_rulesets02.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "167"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 167
 
 The walls that guard castles and cities are sturdy fortifications, usually constructed in a series
 of 5-foot squares. A square of wall has an AC of 5, and [hardness](ref/umr/hardness) and hit points

@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "starting_a_duel", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "150"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 150
 
 A duel is a form of combat, but unlike ordinary combat, the participants must all agree to willingly
 enter the duel and abide by its rules. If either side breaks the rules, that side is considered the

@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_entropy_and_order", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "49"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "10th"
 +++
 
-**Sources:** Planar Adventures pg 49\
 **Aura** moderate abjuration; **CL** 10th\
 **Slot** ring; **Price** 16,200 gp; **Weight** -
 

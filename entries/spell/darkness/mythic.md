@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/darkness", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "90"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 90\
 The illumination level in the area drops to darkness regardless of the existing lighting conditions.
 Non-mythic spells and effects can't increase the light level in the area. Creatures with
 [darkvision](ref/rule/darkvision) and the power to see in darkness have difficulty seeing through

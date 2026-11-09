@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "92"
 
 [fields]
 kind = "archetype"
 replaces = ["Nature sense", "wild empathy", "woodland stride", "Wild shape", "Resist nature's lure", "Venom immunity"]
 +++
 
-**Sources:** Advanced Class Guide pg 92\
 A nature fang is a druid who stalks and slays those who despoil nature, kill scarce animals, or
 introduce diseases to unprotected habitats. She gives up a close empathic connection with the
 natural world to become its deadly champion and avenger.

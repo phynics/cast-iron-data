@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "master_storycrafter", path = "json/npcs4.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "234"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "16"
 
 **Challenge rating:** 16
 
-**Sources:** NPC Codex pg 234\
 **XP** 76,800\
 Half-elf [sorcerer](ref/class/sorcerer) 10/Pathfinder chronicler 7\
 N Medium humanoid (elf, human)\

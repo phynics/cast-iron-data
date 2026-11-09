@@ -6,14 +6,15 @@ source_ids = ["paths-of-prestige"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pit_fighter", path = "json/prestige_classes4.json" },
 ]
+[[sources]]
+publication = "paths-of-prestige"
+page = "40"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d10."
 +++
-
-**Sources:** Paths of Prestige pg 40
 
 Any good pit fighter will tell you, it doesn't matter how well you fight-all the crowd cares about
 is blood, and they don't care if it's yours or the other guy's. So if you want to survive your time

@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "luck_blade_2_wishes", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "157"
+[[sources]]
+publication = "core-rulebook"
+page = "471"
 
 [fields]
 kind = "item"
@@ -19,7 +25,6 @@ caster_level = "17th"
 
 ## Luck Blade
 
-**Sources:** Ultimate Equipment pg 157, PRPG Core Rulebook pg 471\
 **Aura** strong evocation; **CL** 17th\
 **Slot** none; **Price** 0 wishes (22,060 gp), 1 wish (62,360 gp), 2 wishes (102,660 gp), 3 wishes
 (142,960 gp); **Weight** 2 lbs.

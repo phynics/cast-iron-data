@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "repress_memory", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "184"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Target: you
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Occult Adventures pg 184
 
 This spell allows you to safeguard important knowledge, even from yourself. When casting this spell,
 you recount one piece of knowledge you possess (up to a maximum of 50 words). This knowledge

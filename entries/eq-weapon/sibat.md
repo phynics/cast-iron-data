@@ -6,14 +6,21 @@ source_ids = ["ranged-tactics-toolbox", "ultimate-combat", "ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sibat", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "0"
+[[sources]]
+publication = "ultimate-combat"
+page = "134"
+[[sources]]
+publication = "ultimate-equipment"
+page = "18"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "2 lbs."
 +++
-
-**Sources:** Ranged Tactics Toolbox pg 0, Ultimate Combat pg 134, Ultimate Equipment pg 18
 
 This weapon is similar to a [shortspear](ref/eq-weapon/shortspear) with a flexible rattan or bamboo
 shaft and an elaborately barbed head. The barbs can snag flesh, clothing, or armor to ensnare an

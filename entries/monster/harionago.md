@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "harionago", path = "json/monsters13.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "149"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ flowing tangle of hair._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 4 pg 149\
 **Type:** undead
 
 **Experience points:** 12,800

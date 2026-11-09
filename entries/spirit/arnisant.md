@@ -6,6 +6,9 @@ source_ids = ["occult-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arnisant", path = "json/class_ability_spirits.json" },
 ]
+[[sources]]
+publication = "occult-realms"
+page = "10"
 
 [fields]
 kind = "class_option"
@@ -13,7 +16,6 @@ group = "medium-spirit"
 replaces = ["Absorb blow"]
 +++
 
-**Sources:** Occult Realms pg 10\
 General Arnisant was a Taldan hero who sacrificed himself in the battle against
 [Tar-Baphon](ref/monster/the-whispering-tyrant) at the end of the Shining Crusade, weakening the
 lich so his allies could trap the Whispering Tyrant.

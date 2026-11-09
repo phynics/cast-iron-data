@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sahuagin_sahuagin_prince", path = "json/monsters37.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "195"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ abilities = ["20", "16", "20", "13", "12", "10"]
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Monster Codex pg 195\
 **Subtype:** Aquatic
 
 **Experience points:** 25,600

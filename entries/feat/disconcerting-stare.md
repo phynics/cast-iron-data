@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disconcerting_stare", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "13"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When you trigger your painful stare, the target must succeed at a Wil
 +++
 
 ## Disconcerting Stare (Combat, Stare)
-
-**Sources:** Magic Tactics Toolbox pg 13
 
 Your painful stare unnerves your target, making it oblivious to its surroundings.\
 **Prerequisites:** Mesmerist level 5th, painful stare class feature.\

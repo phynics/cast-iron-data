@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kobold", path = "json/monsters15.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "183"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ _This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth,
 
 **Size:** small
 
-**Sources:** Pathfinder RPG Bestiary pg 183\
 **Subtype:** Reptilian
 
 **Experience points:** 100

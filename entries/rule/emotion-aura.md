@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "emotion_aura", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "198"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 198
 
 A creature's emotion aura reveals its current disposition and attitudes. These factors color the
 emanations of the aura with a coruscation of hues known as the emotional spectrum. Any combination

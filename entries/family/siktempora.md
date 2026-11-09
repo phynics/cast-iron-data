@@ -6,12 +6,12 @@ source_ids = ["pathfinder-135-runeplague"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "siktempora", path = "json/monster_families2.json" },
 ]
+[[sources]]
+publication = "pathfinder-135-runeplague"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder \#135: Runeplague
 
 Each siktempora is different in shape, alignment, and power, but they all share a few similar
 traits.

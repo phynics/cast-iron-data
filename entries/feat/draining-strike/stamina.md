@@ -6,11 +6,13 @@ source_ids = ["pathfinder-unchained"]
 relations = [
   { kind = "addon", target = "ref/feat/draining-strike", label = "stamina" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "118"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder Unchained pg 118\
 You can spend 5 stamina points to declare that you are using Draining Strike after you've hit with
 an unarmed strike attack.

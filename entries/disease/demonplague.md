@@ -6,12 +6,13 @@ source_ids = ["the-worldwound"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demonplague", path = "json/diseases.json" },
 ]
+[[sources]]
+publication = "the-worldwound"
+page = "29"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** The Worldwound pg 29
 
 **Type:** Disease (Injury or ingested)
 

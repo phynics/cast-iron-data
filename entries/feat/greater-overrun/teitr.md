@@ -6,6 +6,8 @@ source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/greater-overrun" },
 ]
+[[sources]]
+publication = "the-elephant-in-the-room-feat-taxes-in-pathfinder"
 
 [fields]
 kind = "feat"
@@ -15,7 +17,6 @@ benefit = "You receive a +2 bonus on checks made to overrun a foe. This bonus st
 normal = "Creatures knocked prone by your overrun do not provoke an attack of opportunity."
 +++
 
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 Enemies must dive to avoid your dangerous move.\
 **Prerequisites:** [Powerful Maneuvers](ref/rule/powerful-maneuvers), base attack bonus +6, Str 13.\
 **Benefit:** You receive a +2 bonus on checks made to overrun a foe. This bonus stacks with the

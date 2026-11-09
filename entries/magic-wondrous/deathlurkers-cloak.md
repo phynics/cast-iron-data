@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deathlurkers_cloak", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "263"
+[[sources]]
+publication = "gods-and-magic"
+page = "56"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Sources:** Inner Sea Gods pg 263, Gods and Magic pg 56\
 **Aura** faint necromancy; **CL** 3rd\
 **Slot** shoulders; **Price** 2,700 gp; **Weight** 1 lb.
 

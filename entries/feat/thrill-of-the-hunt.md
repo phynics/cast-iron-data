@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thrill_of_the_hunt", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "118"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "An animal companion can choose this feat as if it were an animal feat
 +++
 
 ## Thrill of the Hunt (Combat)
-
-**Sources:** Ultimate Wilderness pg 118
 
 The pursuit of prey invigorates you. You revel in tracking down and slaying your quarry.\
 **Prerequisites:** Survival 1 rank; base attack bonus +4 or track class feature.\

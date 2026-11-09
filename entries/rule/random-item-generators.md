@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "random_item_generators", path = "json/rules_gm03.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "118"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 118
 
 The following tables allow GMs to randomly generate a wide variety of specific magic items, and
 complement the item generation tables [in the base rules](ref/rule/magic-items). Note that these

@@ -6,6 +6,9 @@ source_ids = ["demon-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dagger_of_repossession", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "demon-hunters-handbook"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "9th"
 +++
 
-**Sources:** Demon Hunter's Handbook pg 29\
 **Aura** moderate abjuration; **CL** 9th\
 **Slot** none; **Price** 14,702 gp; **Weight** 1 lb.
 

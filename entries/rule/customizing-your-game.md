@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "customizing_your_game", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "230"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 230
 
 The Pathfinder RPG Core Rulebook gives GMs the tools they need to run countless adventures, and
 serves as a toolbox to help you create nearly any fantasy situation imaginable. Yet no rules set can

@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quenching_infusion", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "22"
 
 [fields]
 kind = "class_option"
@@ -24,8 +27,6 @@ group = "kineticist-wild-talent"
 [Water Blast](ref/kinetic/water-blast)
 
 **Saving throw:** none
-
-**Source:** Occult Adventures/22
 
 Your blast puts out nonmagical fires as if they had been touched by a
 [water elemental](ref/monster/water-elemental). If you increase the burn cost to 2 or reduce the

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-53-tide-of-honor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chon_chon_elixir", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "pathfinder-53-tide-of-honor"
+page = "83"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Sources:** Pathfinder \#53: Tide of Honor pg 83\
 **Aura** moderate transmutation; **CL** 11th\
 **Slot** none; **Price** 2,750 gp; **Weight** -
 

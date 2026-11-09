@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_prince_armor", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "337"
 
 [fields]
 kind = "item"
@@ -16,8 +19,6 @@ slot = "none"
 aura = "overwhelming necromancy"
 caster_level = "22nd"
 +++
-
-**Sources:** Ultimate Equipment pg 337
 
 **Aura** overwhelming necromancy; **CL** 22nd\
 **Slot** none; **Price** -; **Weight** 80 lbs.

@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fleshwarp_mutations", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "170"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 170
 
 Not all fleshwarping is intentional. On occasion, creatures are exposed to environmental hazards
 that replicate the adverse results of fleshwarping with less grace and precision than the alchemical

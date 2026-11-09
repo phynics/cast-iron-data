@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "investigative_mind", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "185"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Target: you
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Advanced Class Guide pg 185
 
 Your mind is able to correlate information effectively. When attempting an Appraise, Knowledge,
 Linguistics, or Spellcraft check, you can roll twice and take the higher result. If you have an

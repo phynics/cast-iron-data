@@ -6,6 +6,9 @@ source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summoners_robe", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "monster-summoners-handbook"
+page = "21"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration"
 caster_level = "17th"
 +++
 
-**Sources:** Monster Summoner's Handbook pg 21\
 **Aura** strong conjuration; **CL** 17th\
 **Slot** body; **Price** 50,000 gp; **Weight** 5 lbs.
 

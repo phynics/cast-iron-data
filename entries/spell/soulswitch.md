@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/magic-jar" },
 ]
+[[sources]]
+publication = "familiar-folio"
+page = "23"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Targets: you and your familiar
 :::
-
-**Sources:** Familiar Folio pg 23
 
 You may only cast this spell if you currently have a familiar. You place your soul into the body of
 your familiar, and your familiar's soul is placed in your body. This functions as if you possessed

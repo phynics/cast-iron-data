@@ -6,6 +6,9 @@ source_ids = ["animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dandy_brush", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "animal-archive"
+page = "12"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "2 sp"
 weight = "2 lbs."
 +++
 
-**Sources:** Animal Archive pg 12\
 **Price** 2 sp; **Weight** 2 lbs.\
 **Category** Animal Gear
 

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-society-field-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bite_the_hand", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "pathfinder-society-field-guide"
+page = "56"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: yes
 Target: one creature summoned by a spell or [spell-like ability](ref/umr/spell-like-abilities)
 Subschool: Compulsion
 :::
-
-**Sources:** Pathfinder Society Field Guide pg 56
 
 With a short command and a wave of the hand, you compel the target creature to attack the being who
 summoned it, to the best of its ability. If the being who summoned it is not present, the creature

@@ -6,13 +6,14 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "antagonize", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "143"
 
 [fields]
 kind = "feat"
 benefit = "You can make Diplomacy and Intimidate checks to make creatures respond to you with hostility. No matter which skill you use, antagonizing a creature takes a standard action that does not provoke attacks of opportunity, and has a DC equal to 10+ the target's Hit Dice + the target's Wisdom modifier. You cannot make this check against a creature that does not understand you or has an Intelligence score of 3 or lower. Before you make these checks, you may make a Sense Motive check (DC 20) as a swift action to gain an insight bonus on these Diplomacy or Intimitade checks equal to your Charisma bonus until the end of your next turn. The benefits you gain for this check depend on the skill you use. This is a mind-affecting effect."
 +++
-
-**Sources:** Ultimate Magic pg 143
 
 Whether with biting remarks or hurtful words, you are adept at making creatures angry with you.\
 **Benefit:** You can make Diplomacy and Intimidate checks to make creatures respond to you with

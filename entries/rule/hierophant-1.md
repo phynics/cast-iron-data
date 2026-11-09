@@ -6,12 +6,20 @@ source_ids = ["mythic-adventures", "mythic-origins", "heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hierophant_1", path = "json/rules_campaign_types07.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "32"
+[[sources]]
+publication = "mythic-origins"
+page = "26"
+[[sources]]
+publication = "heroes-of-golarion"
+page = "29"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 32, Mythic Origins pg 26, Heroes of Golarion pg 29\
 You can select these path abilities at any tier.
 
 **Alter Channel (Su):** If you're in the area of an opponent's channel energy ability and the energy

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tools_for_game_masters", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "52"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 52
 
 The following is a supply of inspirational charts, suggestions, and other quick references to help
 inspire GMs both before and during a game session.

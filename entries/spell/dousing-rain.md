@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dousing_rain", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "176"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 Area: cylinder (10-ft. radius, 40 ft. high)
 Descriptors: water
 :::
-
-**Sources:** Villain Codex pg 176
 
 With a beckoning gesture, you call forth a downpour of rain. For the duration of the spell, the
 following effects apply within the affected area. Nonmagical fires are automatically extinguished,

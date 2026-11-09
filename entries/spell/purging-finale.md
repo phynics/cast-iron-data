@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "purging_finale", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "237"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Spell resistance: yes (harmless)
 Target: one living creature
 Subschool: Healing
 :::
-
-**Sources:** Advanced Player's Guide pg 237
 
 You must have a bardic performance in effect to cast this spell. With a flourish, you immediately
 end your bardic performance, removing one of the following conditions on a creature within range

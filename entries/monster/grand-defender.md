@@ -6,6 +6,9 @@ source_ids = ["pathfinder-62-curse-of-the-ladys-light"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grand_defender", path = "json/monsters12.json" },
 ]
+[[sources]]
+publication = "pathfinder-62-curse-of-the-ladys-light"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ large shield bearing Torag's symbol._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#62: Curse of the Lady's Light pg 88\
 **Subtype:** Extraplanar
 
 **Experience points:** 51,200

@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_natural_attack", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "315"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "This feat can be taken multiple times. Each time it is taken, it appl
 +++
 
 ## Improved Natural Attack (Monster)
-
-**Sources:** Pathfinder RPG Bestiary pg 315
 
 Attacks made by one of this creature's natural attacks leave vicious wounds.\
 **Prerequisites:** Natural weapon, base attack bonus +4.\

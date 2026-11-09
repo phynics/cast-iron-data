@@ -6,6 +6,9 @@ source_ids = ["pathfinder-140-eulogy-for-roslars-coffer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unspoken_name", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "pathfinder-140-eulogy-for-roslars-coffer"
+page = "73"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Pathfinder \#140: Eulogy for Roslar's Coffer pg 73
 
 Prized among those who seek to monitor the attention paid to them, this spell is said to be used by
 [Arazni](ref/faith/arazni) to identify those followers who dare refer to her as "the Harlot Queen"

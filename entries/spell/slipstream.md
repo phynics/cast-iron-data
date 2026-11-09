@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slipstream", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "244"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Target: creature touched
 Subschool: Creation
 Descriptors: water
 :::
-
-**Sources:** Advanced Player's Guide pg 244
 
 You create a low-cresting wave of water that carries the target along the surface of water or the
 ground. When moving across level ground, the target's speed increases by 10 feet. If going downhill,

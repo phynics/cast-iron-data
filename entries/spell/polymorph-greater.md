@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/polymorph" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "324"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: yes (harmless)
 Target: living creature touched
 Subschool: Polymorph
 :::
-
-**Sources:** PRPG Core Rulebook pg 324
 
 This spell functions as [polymorph](ref/spell/polymorph) except that it allows the creature to take
 on the form of a dragon or plant creature. If you use this spell to cause the target to take on the

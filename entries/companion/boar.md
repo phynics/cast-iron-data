@@ -6,13 +6,14 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boar", path = "json/class_ability_druid_companions.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "53"
 
 [fields]
 kind = "class_option"
 group = "animal-companion"
 +++
-
-**Sources:** PRPG Core Rulebook pg 53
 
 **Companion Type**
 

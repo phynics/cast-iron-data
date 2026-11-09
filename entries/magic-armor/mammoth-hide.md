@@ -6,6 +6,15 @@ source_ids = ["adventurers-guide", "inner-sea-combat", "melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mammoth_hide", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "134"
+[[sources]]
+publication = "inner-sea-combat"
+page = "52"
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "23"
 
 [fields]
 kind = "item"
@@ -17,7 +26,6 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Sources:** Adventurer's Guide pg 134, Inner Sea Combat pg 52, Melee Tactics Toolbox pg 23\
 **Aura** moderate transmutation; **CL** 11th\
 **Slot** armor; **Price** 14,665 gp; **Weight** 25 lbs.
 

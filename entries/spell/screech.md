@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "screech", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "241"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Spell resistance: yes
 Area: 30-ft.-radius spread centered on you
 Descriptors: sonic
 :::
-
-**Sources:** Advanced Player's Guide pg 241
 
 You emit a shrill, piercing shriek, startling those around you into dropping their guard. Enemies in
 the area must make a successful saving throw or immediately provoke attacks of opportunity from foes

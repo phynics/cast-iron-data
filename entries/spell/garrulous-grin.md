@@ -6,6 +6,9 @@ source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "garrulous_grin", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "spymasters-handbook"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: fear, mind-affecting
 :::
-
-**Sources:** Spymaster's Handbook pg 28
 
 This Nidalese spell plants a seed of supernatural fear deep in a subject's mind, causing self-doubt,
 stuttering, and evasiveness. Affected creatures have difficulty meeting anyone's gaze and seem

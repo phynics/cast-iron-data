@@ -6,6 +6,9 @@ source_ids = ["dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ancestral_communion", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "dwarves-of-golarion"
+page = "24"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Dwarves of Golarion pg 24
 
 You contact the spirits of your ancestors and use their great wisdom to bolster your own knowledge.
 Consulting with the spirits is a full-round action. If you consult with the spirits before making a

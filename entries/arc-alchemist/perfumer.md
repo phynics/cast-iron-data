@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "wilderness-origins"
+page = "17"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Brew potion", "Mutagen", "Persistent mutagen"]
 alters = ["Extracts", "Bomb"]
 +++
 
-**Sources:** Wilderness Origins pg 17\
 While most alchemists focus on the flash of loud explosions, full-bodied potions, and dramatically
 transformative mutagens, others prefer subtlety and elegance. A perfumer alchemist refines extracts
 to their most pure and rarefied forms to spread on the wind, and would rather share a head-turning

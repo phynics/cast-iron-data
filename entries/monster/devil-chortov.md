@@ -6,6 +6,9 @@ source_ids = ["pathfinder-27-what-lies-in-dust"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_chortov", path = "json/monsters07.json" },
 ]
+[[sources]]
+publication = "pathfinder-27-what-lies-in-dust"
+page = "80"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ clutching a wicked military fork, the terrible giant rumbles as if preparing to 
 
 **Perception:** -1
 
-**Sources:** Pathfinder \#27: What Lies in Dust pg 80\
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **Experience points:** 6,400

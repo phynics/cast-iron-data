@@ -6,6 +6,9 @@ source_ids = ["pathfinder-80-empty-graves"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mask_of_the_forgotten_pharaoh", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "pathfinder-80-empty-graves"
+page = "62"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong necromancy and transmutation"
 caster_level = "17th"
 +++
 
-**Sources:** Pathfinder \#80: Empty Graves pg 62\
 **Aura** strong necromancy and transmutation; **CL** 17th\
 **Slot** head and headband; **Price** -; **Weight** 5 lbs.
 

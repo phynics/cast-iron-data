@@ -6,6 +6,9 @@ source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lastwall_banner_harchist", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "61"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "10th"
 
 ## Lastwall Banner
 
-**Sources:** Inner Sea Combat pg 61\
 **Aura** moderate varies; **CL** 10th\
 **Slot** none; **Price** 7,500 gp (Hordeline), 15,000 gp (Harchist), 125,000 gp (Sunwall);
 **Weight** 3 lbs.

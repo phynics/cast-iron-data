@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thoughtsense", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "300"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Thoughtsense (Su)
 
-**Sources:** Bestiary 5 pg 300\
 Creatures with this ability automatically detect and locate conscious creatures within the specified
 range (usually 60 feet). This ability functions similarly to
 [blindsight](ref/rule/blindsight-and-blindsense). [Nondetection](ref/spell/nondetection),

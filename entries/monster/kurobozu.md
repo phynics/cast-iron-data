@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kurobozu", path = "json/monsters15.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "153"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ _The mouth of this gray-skinned, emaciated monk is a distended, hollow pit of da
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 5 pg 153\
 **Type:** undead
 
 **Experience points:** 2,400

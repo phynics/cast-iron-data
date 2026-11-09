@@ -6,6 +6,9 @@ source_ids = ["pathfinder-105-the-inferno-gate"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "black_whinnis", path = "json/equipment_poisons.json" },
 ]
+[[sources]]
+publication = "pathfinder-105-the-inferno-gate"
+page = "18"
 
 [fields]
 kind = "item"
@@ -13,8 +16,6 @@ category = "Poisons"
 price = "200 gp"
 weight = "&mdash;"
 +++
-
-**Sources:** Pathfinder \#105: The Inferno Gate pg 18
 
 **Price** 200 gp; **Weight** —
 

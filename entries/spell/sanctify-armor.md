@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sanctify_armor", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "240"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: yes (harmless) (object)
 Target: armor touched
 Descriptors: good
 :::
-
-**Sources:** Advanced Player's Guide pg 240
 
 You imbue your armor with a righteous aura. It gains a +1 enhancement bonus per four caster levels
 (maximum +5 at 20th level). When using your judgment or smite ability, you gain DR 5/evil.

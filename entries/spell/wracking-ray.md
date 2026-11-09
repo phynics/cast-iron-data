@@ -6,6 +6,9 @@ source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wracking_ray", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "champions-of-corruption"
+page = "25"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: yes
 Effect: ray
 Descriptors: evil, pain
 :::
-
-**Sources:** Champions of Corruption pg 25
 
 A ray of sickly greenish-gray negative energy issues forth from the palm of your hand. Make a ranged
 touch attack against the target. A creature hit by this spell is wracked by painful spasms as its

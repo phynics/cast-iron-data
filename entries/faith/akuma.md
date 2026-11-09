@@ -6,6 +6,9 @@ source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "akuma", path = "json/faiths.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "126"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Akuma**
 
 **Sub:** Horned King
-
-**Sources:** Book of the Damned pg 126
 
 ### Details
 

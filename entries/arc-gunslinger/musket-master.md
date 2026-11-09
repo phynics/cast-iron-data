@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/gunslinger" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "50"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Gunslinger's dodge deed", "Utility shot deed", "Firearm training 1,
 alters = ["Gunsmith"]
 +++
 
-**Sources:** Ultimate Combat pg 50\
 Pistols and other one-handed firearms are often easy to conceal and faster to load than other
 firearms, and do sufficient damage for most situations. But some gunslingers want a little more
 firepower and range. These are the musket masters; the best of these gunslingers can reload a musket

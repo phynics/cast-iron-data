@@ -6,12 +6,14 @@ source_ids = ["skull-and-shackles-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ss_fire", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "skull-and-shackles-players-guide"
+page = "16"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Skull and Shackles Player's Guide pg 16\
 Fire is an ever-present danger on every wooden ship, but while most ships are not in danger of going
 up in flames from a dropped torch or lantern, alchemical or magical fires can be much more
 dangerous. Note that many instantaneous fire spells do not automatically catch a ship on fire, but

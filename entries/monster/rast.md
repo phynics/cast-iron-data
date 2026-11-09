@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rast", path = "json/monsters19.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "229"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ filled with sharp fangs._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 2 pg 229\
 **Subtype:** Extraplanar, Fire
 
 **Experience points:** 1,600

@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bracelet_of_friends", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "270"
+[[sources]]
+publication = "core-rulebook"
+page = "504"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong conjuration"
 caster_level = "15th"
 +++
 
-**Sources:** Ultimate Equipment pg 270, PRPG Core Rulebook pg 504\
 **Aura** strong conjuration; **CL** 15th\
 **Slot** wrists; **Price** 19,000 gp; **Weight** -
 

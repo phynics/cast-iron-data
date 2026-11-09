@@ -6,6 +6,9 @@ source_ids = ["pathfinder-society-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pale_orange_rhomboid", path = "json/magic_ioun_stones.json" },
 ]
+[[sources]]
+publication = "pathfinder-society-primer"
+page = "22-23"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong necromancy"
 caster_level = "12th"
 +++
 
-**Sources:** Pathfinder Society Primer pg. 22-23\
 **Aura** strong necromancy; **CL** 12th\
 **Slot** none; **Price** 200,000 gp; **Weight** —
 

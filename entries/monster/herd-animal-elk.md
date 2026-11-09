@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "pathfinder-31-stolen-land"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "herd_animal_elk", path = "json/monsters13.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "147"
+[[sources]]
+publication = "pathfinder-31-stolen-land"
+page = "80"
 
 [fields]
 kind = "creature"
@@ -41,7 +47,6 @@ antlers crowning its head._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 3 pg 147, Pathfinder \#31: Stolen Land pg 80\
 **Experience points:** 400
 
 **Armor class:** 13/13/10

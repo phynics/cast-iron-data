@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cauldron_of_resurrection", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "287"
+[[sources]]
+publication = "advanced-players-guide"
+page = "303"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong conjuration"
 caster_level = "13th"
 +++
 
-**Sources:** Ultimate Equipment pg 287, Advanced Player's Guide pg 303\
 **Aura** strong conjuration; **CL** 13th\
 **Slot** none; **Price** 33,000 gp; **Weight** 35 lbs.
 

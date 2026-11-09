@@ -6,14 +6,15 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rage_prophet", path = "json/prestige_classes3.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "275"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d10."
 +++
-
-**Sources:** Advanced Player's Guide pg 275
 
 Throughout the wilderness, there are those warriors whose powers are infused by the spirits, who see
 and hear into the world beyond and draw unthinkable reserves of power from it. They are the chosen

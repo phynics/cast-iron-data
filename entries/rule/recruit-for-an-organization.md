@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "recruit_for_an_organization", path = "json/rules_subsystems02.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "86"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 86
 
 You can create and recruit for an organization that doesn't rely on a specific building. For
 example, you could may want to recruit employees (or minions) if you're a rogue and want to start

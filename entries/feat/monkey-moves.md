@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monkey_moves", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "109"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "You climb at one-quarter your speed, and you lose your Dexterity bonus
 +++
 
 ## Monkey Moves (Combat)
-
-**Sources:** Ultimate Combat pg 109
 
 You scramble around your foes, moving and striking in an erratic fashion.\
 **Prerequisites:** Wis 13, [Improved Unarmed Strike](ref/feat/improved-unarmed-strike),

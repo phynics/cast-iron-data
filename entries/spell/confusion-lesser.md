@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/confusion" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "258"
 
 [fields]
 kind = "spell"
@@ -50,7 +53,5 @@ Descriptors: mind-affecting
 :::
 
 ### Lesser Confusion
-
-**Sources:** PRPG Core Rulebook pg 258
 
 This spell causes a single creature to become confused for 1 round.

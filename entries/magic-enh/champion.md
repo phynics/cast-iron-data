@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "champion", path = "json/magic_enhancements.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "116"
+[[sources]]
+publication = "advanced-players-guide"
+page = "283"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Equipment pg 116, Advanced Player's Guide pg 283\
 **Aura** faint abjuration; **CL** 5th\
 **Slot** armor quality; **Price** +1 bonus; **Weight** -
 

@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "woodland_wraith", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "121"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "If you take two actions to move or a withdrawal action in a turn whil
 +++
 
 ## Woodland Wraith (Combat)
-
-**Sources:** Ultimate Wilderness pg 121
 
 You put the terrain between yourself and your opponents to avoid attacks.\
 **Prerequisites:** Dex 15, [Dodge](ref/feat/dodge), base attack bonus +6.\

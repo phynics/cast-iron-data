@@ -6,12 +6,14 @@ source_ids = ["antiheros-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "amoral", path = "json/rules_campaign_types02.json" },
 ]
+[[sources]]
+publication = "antiheros-handbook"
+page = "20-21"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Antihero's Handbook pg. 20-21\
 While even the noblest heroes can fall victim to corruption of body, mind, or spirit, antiheroes who
 tread ethically gray waters are often at higher risk of losing themselves to the moral decay
 detailed below.

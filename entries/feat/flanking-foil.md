@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flanking_foil", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "102"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "Whenever you hit an adjacent opponent with a melee attack, until the 
 +++
 
 ## Flanking Foil (Combat)
-
-**Sources:** Ultimate Combat pg 102
 
 Fighting multiple foes is easy for you.\
 **Benefit:** Whenever you hit an adjacent opponent with a melee attack, until the start of your next

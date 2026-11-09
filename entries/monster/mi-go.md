@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "pathfinder-46-wake-of-the-watcher"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mi_go", path = "json/monsters17.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "193"
+[[sources]]
+publication = "pathfinder-46-wake-of-the-watcher"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -45,7 +51,6 @@ and a tangle of spiky, clawed legs._
 
 **Type:** plant
 
-**Sources:** Bestiary 4 pg 193, Pathfinder \#46: Wake of the Watcher pg 86\
 **Experience points:** 2,400
 
 **Armor class:** 20/16/14

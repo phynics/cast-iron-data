@@ -6,13 +6,14 @@ source_ids = ["blood-of-the-elements"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "order_of_the_flame", path = "json/class_ability_orders.json" },
 ]
+[[sources]]
+publication = "blood-of-the-elements"
+page = "7"
 
 [fields]
 kind = "class_option"
 group = "order"
 +++
-
-**Sources:** Blood of the Elements pg 7
 
 A cavalier of the order of the flame devotes his life to the pursuit of personal glory. Even if such
 pursuit puts his own life on the line, the cavalier pursues legendary status and the fame and glory

@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "owb", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "210"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ clearly revealing its shape._
 
 **Senses:** Darkvision 60 ft., See in darkness
 
-**Sources:** Bestiary 4 pg 210\
 **Subtype:** Extraplanar
 
 **Experience points:** 2,400

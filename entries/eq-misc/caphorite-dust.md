@@ -6,6 +6,9 @@ source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "caphorite_dust", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "kobolds-of-golarion"
+page = "29"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "25 gp"
 weight = "1/2 lb."
 +++
 
-**Sources:** Kobolds of Golarion pg 29\
 **Price** 25 gp; **Weight** 1/2 lb.\
 **Category** Alchemical Tools
 

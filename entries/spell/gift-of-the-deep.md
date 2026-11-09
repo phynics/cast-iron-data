@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gift_of_the_deep", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "189"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes (harmless)
 Target: one non-mutated sahuagin/level, no two of which can be more than 30 ft. apart
 Subschool: Polymorph
 :::
-
-**Sources:** Monster Codex pg 189
 
 You give the targets the appearance and many of the abilities of sahuagin mutants, with effects as
 described below. Choose one benefit for all targets of this spell. This spell has no effect on

@@ -6,6 +6,12 @@ source_ids = ["bestiary-6", "inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mockingfey", path = "json/monsters17.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "189"
+[[sources]]
+publication = "inner-sea-bestiary"
+page = "31"
 
 [fields]
 kind = "creature"
@@ -39,7 +45,6 @@ _This tiny avian has the head of a humanoid and the body of a brilliantly colore
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 6 pg 189, Inner Sea Bestiary pg 31\
 **Size:** tiny
 
 **Experience points:** 400

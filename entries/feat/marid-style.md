@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "marid_style", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "108"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You gain one additional Elemental Fist attempt per day. While using t
 +++
 
 ## Marid Style (Combat, Style)
-
-**Sources:** Ultimate Combat pg 108
 
 You conjure tendrils of icy water to strike your enemies from a distance.\
 **Prerequisites:** Con 13, Wis 15, [Elemental Fist](ref/feat/elemental-fist),

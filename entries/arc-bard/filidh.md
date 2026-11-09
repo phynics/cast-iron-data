@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "40"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Inspire courage", "Suggestion", "Dirge of doom", "Inspire heroics",
 alters = ["Armor and weapon proficiencies", "Spellcasting"]
 +++
 
-**Sources:** Ultimate Wilderness pg 40\
 By tapping into the world's natural music, specialized bards known as filidhs are able to see not
 only the tapestry of life but divine portents of the future from the rhythm of all life's song.
 

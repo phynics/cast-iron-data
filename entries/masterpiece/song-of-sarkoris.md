@@ -6,6 +6,8 @@ source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "song_of_sarkoris", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "blood-of-the-ancients"
 
 [fields]
 kind = "class_option"
@@ -13,8 +15,6 @@ group = "bardic-masterpiece"
 +++
 
 ## Song of Sarkoris (Oratory, Sing)
-
-**Sources:** Blood of the Ancients
 
 You recite inspirational lines from this epic poem commemorating the final stand at Storasta,
 keeping defiance alive even in the face of certain death.

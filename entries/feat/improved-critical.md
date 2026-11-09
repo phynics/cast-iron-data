@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_critical", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "127"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "You can gain Improved Critical multiple times. The effects do not sta
 +++
 
 ## Improved Critical (Combat)
-
-**Sources:** PRPG Core Rulebook pg 127
 
 Attacks made with your chosen weapon are quite deadly.\
 **Prerequisites:** Proficient with weapon, base attack bonus +8.\

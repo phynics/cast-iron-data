@@ -6,13 +6,15 @@ source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vestige", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
+[[sources]]
+publication = "blood-of-the-ancients"
+page = "6"
 
 [fields]
 kind = "class_option"
 group = "sorcerer-bloodline"
 +++
 
-**Sources:** Blood of the Ancients pg 6\
 You trace your ancestry to a bygone civilization and can call upon its forgotten people or places
 for power.
 

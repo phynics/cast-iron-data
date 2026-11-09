@@ -6,6 +6,9 @@ source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rite_of_bodily_purity", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "divine-anthology"
+page = "13"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 Target: you
 Descriptors: meditative
 :::
-
-**Sources:** Divine Anthology pg 13
 
 You energize your body's immune system, improving your ability to resist toxins and ailments. You
 gain a +2 resistance bonus on saving throws to resist diseases, drugs, and poisons. Additionally, at

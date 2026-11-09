@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quick_change_outfit", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "234"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "varies"
 weight = "5 lbs."
 +++
 
-**Sources:** Ultimate Intrigue pg 234\
 **Price** varies; **Weight** 5 lbs.\
 **Category** Adventuring Gear
 

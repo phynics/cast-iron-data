@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "firearm_description", path = "json/rules_rulesets01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "137"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 137
 
 There are two general categories of firearms: early and advanced.
 

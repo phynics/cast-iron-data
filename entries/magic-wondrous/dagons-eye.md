@@ -6,6 +6,9 @@ source_ids = ["pathfinder-124-city-in-the-deep"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dagons_eye", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "pathfinder-124-city-in-the-deep"
+page = "34"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination and evocation"
 caster_level = "5th"
 +++
 
-**Sources:** Pathfinder \#124: City in the Deep pg 34\
 **Aura** faint divination and evocation; **CL** 5th\
 **Slot** none; **Price** 12,600 gp; **Weight** 2 lbs.
 

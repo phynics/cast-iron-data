@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/reinforce-armaments" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "241"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Target: one armor suit or weapon touched
 :::
 
 ### Communal Reinforce Armaments
-
-**Sources:** Ultimate Combat pg 241
 
 This spell functions like [reinforce armaments](ref/spell/reinforce-armaments), except you divide
 the duration in 10-minute intervals among the objects touched.

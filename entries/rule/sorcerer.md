@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sorcerer", path = "json/rules_opt_pc_adv01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "89"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 89
 
 A character who chooses [sorcerer](ref/class/sorcerer) as her secondary class gains the following
 secondary class features.

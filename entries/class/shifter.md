@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness", "advanced-players-guide", "blood-of-the-bea
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shifter", path = "json/classes7.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "26"
 
 [fields]
 kind = "class"
@@ -13,8 +16,6 @@ class_type = "base"
 hit_die = "d10"
 skill_ranks = "4 + Int modifier"
 +++
-
-**Sources:** Ultimate Wilderness pg 26
 
 Whether riding on the wind as a falcon or hiding in some fetid bog waiting to strike, the shifter is
 a true master of the wild. Both a devoted defender of druidic circles and a fierce predator, the

@@ -6,6 +6,12 @@ source_ids = ["artifacts-and-legends", "the-witchwar-legacy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "torc_of_kostchtchie", path = "json/magic_artifact3.json" },
 ]
+[[sources]]
+publication = "artifacts-and-legends"
+page = "62"
+[[sources]]
+publication = "the-witchwar-legacy"
+page = "26"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "overwhelming conjuration and enchantment [evil]"
 caster_level = "25th"
 +++
 
-**Sources:** Artifacts and Legends pg 62, The Witchwar Legacy pg 26\
 **Aura** overwhelming conjuration and enchantment \[evil\]; **CL** 25th\
 **Slot** neck; **Price** -; **Weight** 2 lbs.
 

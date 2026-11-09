@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "terrible_remorse", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "243"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Target: 1 living creature
 Subschool: Compulsion
 Descriptors: emotion, mind-affecting
 :::
-
-**Sources:** Ultimate Magic pg 243
 
 You fill a target with such profound remorse that it begins to harm itself. Each round, the target
 must save or deal 1d8 points of damage + its Strength modifier to itself using an item held in its

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/command" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "257"
 
 [fields]
 kind = "spell"
@@ -53,8 +56,6 @@ Descriptors: language-dependant, mind-affecting
 :::
 
 ### Greater Command
-
-**Sources:** PRPG Core Rulebook pg 257
 
 This spell functions like [command](ref/spell/command), except that up to one creature per level may
 be affected, and the activities continue beyond 1 round. At the start of each commanded creature's

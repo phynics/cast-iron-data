@@ -6,12 +6,13 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "step_3_determine_cr", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "297"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder RPG Bestiary pg 297
 
 Determining the final CR for a creature with class levels requires careful consideration. While
 adding a class level to a monster that stacks with its existing abilities and role generally adds 1

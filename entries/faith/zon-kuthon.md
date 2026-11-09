@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "planar-adventures", "weapon-masters-handbook", 
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "zon_kuthon", path = "json/faiths9.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "164"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Zon-Kuthon**
 
 **Sub:** The Midnight Lord
-
-**Sources:** Inner Sea Gods pg 164
 
 ### Details
 

@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "events_dangerous_settlement", path = "json/rules_campaign_types05.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "221"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 221
 
 **Building Demand (Settlement, Continuous):** The citizens demand a particular building be built
 (01-75) or demolished (76-100). Select the building type randomly from those available for the

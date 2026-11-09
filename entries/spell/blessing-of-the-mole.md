@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blessing_of_the_mole", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "208"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: none
 Spell resistance: yes (harmless)
 Area: 1 creature/level
 :::
-
-**Sources:** Ultimate Magic pg 208
 
 The targets gain [darkvision](ref/rule/darkvision) 30 feet and a +2 competence bonus on Stealth
 checks.

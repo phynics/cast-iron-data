@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "pathfinder-41-the-thousand-fangs-below"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fractions_of_heal_and_harm", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "234"
+[[sources]]
+publication = "pathfinder-41-the-thousand-fangs-below"
+page = "73"
 
 [fields]
 kind = "spell"
@@ -45,8 +51,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Inner Sea Gods pg 234, Pathfinder \#41: The Thousand Fangs Below pg 73
 
 This spell channels a portion of the next spell you cast into magic that heals you. The next
 instantaneous area damage spell of 3rd level or lower that you cast deals only 75% of its damage,

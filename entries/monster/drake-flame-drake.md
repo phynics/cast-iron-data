@@ -6,6 +6,12 @@ source_ids = ["bestiary-2", "conquest-of-bloodsworn-vale"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drake_flame_drake", path = "json/monsters31.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "106"
+[[sources]]
+publication = "conquest-of-bloodsworn-vale"
+page = "30"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ _This ferocious creature looks like a red-and-yellow scaled dragon, but with onl
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Bestiary 2 pg 106, Conquest of Bloodsworn Vale pg 30\
 **Subtype:** Fire
 
 **Experience points:** 1,600

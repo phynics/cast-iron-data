@@ -6,6 +6,9 @@ source_ids = ["pathfinder-80-empty-graves"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hand_of_the_honest_man", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "pathfinder-80-empty-graves"
+page = "62"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Sources:** Pathfinder \#80: Empty Graves pg 62\
 **Aura** faint abjuration; **CL** 5th\
 **Slot** neck; **Price** 3,000 gp; **Weight** 2 lbs.
 

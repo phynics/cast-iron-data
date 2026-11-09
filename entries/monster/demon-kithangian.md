@@ -6,6 +6,9 @@ source_ids = ["the-worldwound"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_kithangian", path = "json/monsters29.json" },
 ]
+[[sources]]
+publication = "the-worldwound"
+page = "47"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ between its two pincers._
 
 **Senses:** All-around vision, Darkvision 60 ft.
 
-**Sources:** The Worldwound pg 47\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 6,400

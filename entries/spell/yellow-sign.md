@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/symbol-of-death" },
 ]
+[[sources]]
+publication = "pathfinder-110-the-thrushmoor-terror"
+page = "72"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Effect: one symbol
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Pathfinder \#110: The Thrushmoor Terror pg 72
 
 > _Priests of [Hastur](ref/faith/hastur) have access to the following spell._
 

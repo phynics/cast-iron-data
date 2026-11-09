@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vestments_of_false_faith", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "251"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate illusion"
 caster_level = "8th"
 +++
 
-**Sources:** Ultimate Intrigue pg 251\
 **Aura** moderate illusion; **CL** 8th\
 **Slot** body; **Price** 27,000 gp; **Weight** 5 lbs.
 

@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "itching_powder", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "107"
+[[sources]]
+publication = "adventurers-armory"
+page = "19"
 
 [fields]
 kind = "item"
@@ -14,7 +20,6 @@ price = "60 gp"
 weight = "2 lbs."
 +++
 
-**Sources:** Ultimate Equipment pg 107, Adventurer's Armory pg 19\
 **Price** 60 gp; **Weight** 2 lbs.\
 **Category** Alchemical Weapons
 

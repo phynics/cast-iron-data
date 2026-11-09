@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "system", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "20"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 20
 
 The default assumption is that your game will use the rules as presented in the Pathfinder RPG Core
 Rulebook. Many GMs customize the Core Rules to fit their preferences, play style, and players, and

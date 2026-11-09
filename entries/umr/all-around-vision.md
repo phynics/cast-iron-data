@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "all_around_vision", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "290"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## All-Around Vision (Ex)
 
-**Sources:** Bestiary 5 pg 290\
 The creature sees in all directions at once. It cannot be flanked.
 
 **Format**

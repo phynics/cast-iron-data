@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lament_of_summers_last_breath", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "220"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: yes
 Area: 30-ft. radius spread centered on a creature, object, or point in space
 Descriptors: fire, good
 :::
-
-**Sources:** Inner Sea Races pg 220
 
 > _The following spell is available to the indicated race or ethnicity: Ulfen_
 

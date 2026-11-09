@@ -6,14 +6,18 @@ source_ids = ["bestiary-5", "bestiary-2", "bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "agathion", path = "json/monster_subtypes.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+[[sources]]
+publication = "bestiary-2"
+[[sources]]
+publication = "bestiary-4"
 
 [fields]
 kind = "none"
 +++
 
 ## Subtype: Agathion
-
-**Sources:** Bestiary 5, Bestiary 2, Bestiary 4
 
 [Agathions](ref/family/agathion) are beast-aspect outsiders native to [Nirvana](ref/rule/nirvana).
 They have the following traits.

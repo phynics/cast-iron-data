@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "perfection_leather", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "253"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination, necromancy, and transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Inner Sea Gods pg 253\
 **Aura** faint divination, necromancy, and transmutation; **CL** 3rd\
 **Slot** armor; **Price** 3,860 gp; **Weight** 15 lbs.
 

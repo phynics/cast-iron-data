@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rumormonger", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "224"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: Will negates (see text)
 Spell resistance: yes
 Effect: 1 rumor
 :::
-
-**Sources:** Ultimate Intrigue pg 224
 
 You utter a brief anecdote or bit of news as the verbal component of this spell and track its
 progress through a social gathering or other crowd. When someone who heard the rumor directly from

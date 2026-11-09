@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/gaseous-form" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "160"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: no
 Target: willing corporeal creature touched
 Descriptors: air, poison
 :::
-
-**Sources:** Advanced Race Guide pg 160
 
 > _[Sylphs](ref/race/sylph) have access to the following spell._
 

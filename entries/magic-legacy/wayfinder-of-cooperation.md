@@ -6,6 +6,9 @@ source_ids = ["chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wayfinder_of_cooperation", path = "json/magic_legacy_items.json" },
 ]
+[[sources]]
+publication = "chronicle-of-legends"
+page = "23"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ aura = "strong transmutation"
 caster_level = "17th"
 +++
 
-**Sources:** Chronicle of Legends pg 23\
 **Slot** none; **CL** 17th; **Weight** 1 lb.\
 **Aura** strong transmutation
 

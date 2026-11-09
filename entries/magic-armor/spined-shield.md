@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spined_shield", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "133"
+[[sources]]
+publication = "core-rulebook"
+page = "467"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate evocation"
 caster_level = "6th"
 +++
 
-**Sources:** Ultimate Equipment pg 133, PRPG Core Rulebook pg 467\
 **Aura** moderate evocation; **CL** 6th\
 **Slot** shield; **Price** 5,580 gp; **Weight** 15 lbs.
 

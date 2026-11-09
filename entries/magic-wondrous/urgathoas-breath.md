@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "urgathoas_breath", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "69"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint necromancy"
 caster_level = "4th"
 +++
 
-**Sources:** Villain Codex pg 69\
 **Aura** faint necromancy; **CL** 4th\
 **Slot** none; **Price** 2,500 gp; **Weight** 2 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "anti_incorporeal_shell", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "174"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: none
 Spell resistance: yes
 Area: 10-ft.-radius emanation centered on you
 :::
-
-**Sources:** Advanced Class Guide pg 174
 
 You bring into being a mobile, hemispherical energy field that incorporeal creatures cannot enter.
 

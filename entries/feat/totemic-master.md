@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "totemic_master", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "119"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Str 17; Dex 13; Wis 13; Athletic; Totemic Disciple; Totemic Ini
 prerequisite_feats = ["ref/feat/athletic", "ref/feat/totemic-disciple", "ref/feat/totemic-initiate"]
 benefit = "Choose one greater totem rage power that requires the totem rage power you chose with Totemic Disciple. While gaining the benefits of Totemic Initiate, you also gain the benefits of this new rage power as well as the one you chose with Totemic Disciple. If you gain the pounce ability this way, you can make only natural attacks using your pounce ability."
 +++
-
-**Sources:** Ultimate Wilderness pg 119
 
 Through both might of arms and spiritual wisdom, you have attained full understanding of your
 barbaric totem.\

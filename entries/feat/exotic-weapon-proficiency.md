@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "exotic_weapon_proficiency", path = "json/feat06.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "123"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "You can gain Exotic Weapon Proficiency multiple times. Each time you 
 +++
 
 ## Exotic Weapon Proficiency (Combat)
-
-**Sources:** PRPG Core Rulebook pg 123
 
 Choose one type of exotic weapon, such as the [spiked chain](ref/eq-weapon/spiked-chain) or
 [whip](ref/eq-weapon/whip). You understand how to use that type of exotic weapon in combat, and can

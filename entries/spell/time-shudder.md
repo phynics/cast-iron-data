@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "time_shudder", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "196"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: none
 Spell resistance: yes
 Area: 30-ft.-radius emanation centered on you
 :::
-
-**Sources:** Advanced Class Guide pg 196
 
 You cause a ripple in time that affects all creatures in the area. At the start of each creature's
 turn, there is a 50% chance the creature is hasted (as haste); otherwise it is slowed (as slow).

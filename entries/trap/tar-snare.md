@@ -6,12 +6,13 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tar_snare", path = "json/traps.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "172"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Wilderness pg 172
 
 **Tar Snare**
 

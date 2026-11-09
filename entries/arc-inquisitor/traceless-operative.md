@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/inquisitor" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "30"
 
 [fields]
 kind = "archetype"
 replaces = ["Monster lore", "stern gaze", "Track", "Bane", "Greater bane"]
 +++
 
-**Sources:** Ultimate Intrigue pg 30\
 Traceless operatives practice subterfuge and careful preparation in order to accomplish their divine
 mandates.
 

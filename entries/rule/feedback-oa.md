@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "feedback_oa", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "236"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 236
 
 Though they're mental constructs, mindscapes can sometimes cause physiological effects through
 mental feedback. A creator with exceptional psychic power might be able to create a mindscape that

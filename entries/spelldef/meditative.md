@@ -6,14 +6,15 @@ source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "meditative", path = "json/spell_definitions.json" },
 ]
+[[sources]]
+publication = "divine-anthology"
+page = "12"
 
 [fields]
 kind = "none"
 +++
 
 ## Meditative (spell discriptor)
-
-**Sources:** Divine Anthology pg 12
 
 Meditative spells are not cast like other spells - they are cast during the period of the day when a
 spellcaster prepares her spells. A meditative spell must already be prepared at the time when you

@@ -6,6 +6,12 @@ source_ids = ["bestiary-6", "pathfinder-66-the-dead-heart-of-xin"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mezlan", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "186"
+[[sources]]
+publication = "pathfinder-66-the-dead-heart-of-xin"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -45,7 +51,6 @@ emerge._
 
 **Perception:** +20
 
-**Sources:** Bestiary 6 pg 186, Pathfinder \#66: The Dead Heart of Xin pg 90\
 **Subtype:** Shapechanger
 
 **Experience points:** 38,400

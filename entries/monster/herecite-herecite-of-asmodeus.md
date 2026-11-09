@@ -6,6 +6,12 @@ source_ids = ["pathfinder-100-a-song-of-silver", "bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "herecite_herecite_of_asmodeus", path = "json/monsters13.json" },
 ]
+[[sources]]
+publication = "pathfinder-100-a-song-of-silver"
+page = "116"
+[[sources]]
+publication = "bestiary-6"
+page = "154"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ from his eye sockets, yet his expression is one of unquenched rage._
 
 **Senses:** Darkvision 60 ft., Detect good, See invisibility
 
-**Sources:** Pathfinder \#100: A Song of Silver pg 116, Bestiary 6 pg 154\
 **Type:** undead
 
 **Experience points:** 6,400

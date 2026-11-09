@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_hunters_bond", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "113"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "You select one target against which your allies receive your favored e
 +++
 
 ## Greater Hunter's Bond (Combat)
-
-**Sources:** Ultimate Wilderness pg 113
 
 Your allies can target additional foes.\
 **Prerequisites:** [Improved Hunter's Bond](ref/feat/improved-hunters-bond), hunter's bond (hunting

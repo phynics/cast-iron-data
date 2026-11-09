@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beastmaster_style", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "107"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "You cannot use this style if you are mounted on your animal companion
 +++
 
 ## Beastmaster Style (Combat, Style)
-
-**Sources:** Ultimate Wilderness pg 107
 
 Your animal companion is your most treasured friend, and you steadfastly protect it from your foes.\
 **Prerequisites:** Cha 13, Handle Animal 1 rank, must have an

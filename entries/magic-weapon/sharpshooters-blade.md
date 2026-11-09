@@ -6,6 +6,9 @@ source_ids = ["pathfinder-57-tempest-rising"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sharpshooters_blade", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "pathfinder-57-tempest-rising"
+page = "59"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Sources:** Pathfinder \#57: Tempest Rising pg 59\
 **Aura** moderate transmutation; **CL** 10th\
 **Slot** none; **Price** 7,305 gp; **Weight** 1 lb.
 

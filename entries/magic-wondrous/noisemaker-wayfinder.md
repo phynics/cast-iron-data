@@ -6,6 +6,9 @@ source_ids = ["pathfinder-society-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "noisemaker_wayfinder", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "pathfinder-society-primer"
+page = "21"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Sources:** Pathfinder Society Primer pg 21\
 **Aura** faint abjuration; **CL** 3rd\
 **Slot** none; **Price** 7,000 gp; **Weight** 1 lb.
 

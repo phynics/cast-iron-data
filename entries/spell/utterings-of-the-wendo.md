@@ -6,12 +6,14 @@ source_ids = ["occult-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "utterings_of_the_wendo", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "occult-realms"
+page = "58"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Occult Realms pg 58\
 **School** conjuration (calling); **Level** 6\
 **Casting Time** 60 minutes\
 **Components** V, S, M (crushed animal bones and two smooth stones), SC (up to 8)\

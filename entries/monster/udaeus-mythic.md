@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "udaeus_mythic", path = "json/monsters_mythic2.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "267"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ _This armored humanoid has skin resembling white bone, carved with images of wea
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 4 pg 267\
 **Subtype:** Mythic, Udaeus
 
 **Experience points:** 1,200

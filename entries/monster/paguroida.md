@@ -6,6 +6,9 @@ source_ids = ["pathfinder-122-into-the-shattered-continent"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "paguroida", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "pathfinder-122-into-the-shattered-continent"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ with glinting metal and gems embedded into its surface._
 
 **Senses:** Darkvision 60 ft., Detect magic
 
-**Sources:** Pathfinder \#122: Into the Shattered Continent pg 86\
 **Subtype:** Aquatic
 
 **Experience points:** 6,400

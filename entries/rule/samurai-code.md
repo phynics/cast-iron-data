@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "samurai_code", path = "json/rules_subsystems01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "163"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 163
 
 These events apply to a samurai code.
 

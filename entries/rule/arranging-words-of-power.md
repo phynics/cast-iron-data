@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arranging_words_of_power", path = "json/rules_opt_magic03.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "163"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 163
 
 A wordcaster still has spell slots, just like other members of his class, but he uses them
 differently. Each spell slot holds a wordspell or allows a wordcaster to arrange a number of words

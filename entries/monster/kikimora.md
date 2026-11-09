@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kikimora", path = "json/monsters15.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "152"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ feet._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 5 pg 152\
 **Experience points:** 1,600
 
 **Armor class:** 18/15/13

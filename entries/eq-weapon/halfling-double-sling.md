@@ -6,14 +6,15 @@ source_ids = ["halflings-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "halfling_double_sling", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "halflings-of-golarion"
+page = "22"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "1 lb."
 +++
-
-**Sources:** Halflings of Golarion pg 22
 
 At first glance resembling a baton-like stick with a sling dangling from each end, this weapon
 requires extraordinary skill, or [halfling](ref/race/halfling) acrobatics, to use to full effect.

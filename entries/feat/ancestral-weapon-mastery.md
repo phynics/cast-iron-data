@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ancestral_weapon_mastery", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "201"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You're proficient with all of your race's racial weapons (the weapons
 +++
 
 ## Ancestral Weapon Mastery (Combat)
-
-**Sources:** Inner Sea Races pg 201
 
 You have mastered ancient techniques that increase the effectiveness of your race's ancestral
 weapons.\

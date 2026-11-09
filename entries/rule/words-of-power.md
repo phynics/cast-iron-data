@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "words_of_power", path = "json/rules_opt_magic03.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "160"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 160
 
 Most spellcasters spend their entire careers learning and mastering the spells that make up their
 calling, but there is another way. Some turn their backs on the rote memorization and formulae that

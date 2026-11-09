@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "purified_calling", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "237"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Spell resistance: no
 Target: you
 Subschool: Healing
 :::
-
-**Sources:** Advanced Player's Guide pg 237
 
 Your eidolon is restored to full health when you summon it. Upon casting this spell, you must
 immediately begin the ritual to summon your eidolon. Upon completion of the ritual, your eidolon

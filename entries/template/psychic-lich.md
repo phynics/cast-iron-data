@@ -6,6 +6,9 @@ source_ids = ["occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychic_lich", path = "json/monster_template3.json" },
 ]
+[[sources]]
+publication = "occult-bestiary"
+page = "32"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +2
-
-**Source:** Occult Bestiary/32
 
 While some liches prefer to spend undeath's eternity in seclusion, a psychic lich sustains its life
 force by embracing its personal accomplishments to create a powerful astral echo of itself. Even

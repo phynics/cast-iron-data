@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cleric" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "12"
 
 [fields]
 kind = "archetype"
 alters = ["Channel energy", "Casting"]
 +++
 
-**Sources:** Technology Guide pg 12\
 Iron priests preach of the messengers from beyond the stars, envoys of the divine brought to
 Golarion in a falling star. Iron priests can affect robots and other unliving constructs with
 channeled energy, but lack power over the undead. Appropriate deities for an Iron Priest include

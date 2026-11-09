@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "basilisk", path = "json/monsters03.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "29"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ with pale green fire._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder RPG Bestiary pg 29\
 **Experience points:** 1,600
 
 **Armor class:** 17/9/17

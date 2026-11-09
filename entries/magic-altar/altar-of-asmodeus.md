@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "altar_of_asmodeus", path = "json/magic_altar.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "246"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration and enchantment [evil, lawful]"
 caster_level = "10th"
 +++
 
-**Sources:** Inner Sea Gods pg 246\
 **Aura** moderate abjuration and enchantment \[evil, lawful\]; **CL** 10th\
 **Slot** none; **Price** 16,000 gp; **Weight** 750 lbs.
 

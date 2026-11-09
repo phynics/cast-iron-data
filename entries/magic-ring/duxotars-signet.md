@@ -6,6 +6,9 @@ source_ids = ["pathfinder-108-hell-comes-to-westcrown"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "duxotars_signet", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "pathfinder-108-hell-comes-to-westcrown"
+page = "38"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration and illusion"
 caster_level = "6th"
 +++
 
-**Sources:** Pathfinder \#108: Hell Comes to Westcrown pg 38\
 **Aura** moderate abjuration and illusion; **CL** 6th\
 **Slot** ring; **Price** 14,500 gp; **Weight** -
 

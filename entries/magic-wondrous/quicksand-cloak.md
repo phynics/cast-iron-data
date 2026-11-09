@@ -6,6 +6,9 @@ source_ids = ["tears-at-bitter-manor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quicksand_cloak", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "tears-at-bitter-manor"
+page = "55"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Tears at Bitter Manor pg 55\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** shoulders; **Price** 15,000 gp; **Weight** 4 lbs.
 

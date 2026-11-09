@@ -6,6 +6,8 @@ source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/greater-feint" },
 ]
+[[sources]]
+publication = "the-elephant-in-the-room-feat-taxes-in-pathfinder"
 
 [fields]
 kind = "feat"
@@ -15,7 +17,6 @@ benefit = "Whenever you use feint to cause an opponent to lose his Dexterity bon
 normal = "A creature you feint loses its Dexterity bonus against your next attack."
 +++
 
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 You are skilled at making foes overreact to your attacks.\
 **Prerequisites:** [Deft Maneuvers](ref/rule/deft-maneuvers), base attack bonus +6, Int 13.\
 **Benefit:** Whenever you use [feint](ref/rule/feint) to cause an opponent to lose his Dexterity

@@ -6,6 +6,9 @@ source_ids = ["the-harrow-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "travelers_grandiose_carrying_case", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "the-harrow-handbook"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate illusion and transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** The Harrow Handbook pg 31\
 **Aura** moderate illusion and transmutation; **CL** 5th\
 **Slot** none; **Price** 1,200 gp; **Weight** 2 lbs.
 

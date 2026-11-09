@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "anvil_of_the_skyseeker_dwarf", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "228"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation"
 caster_level = "14th"
 +++
 
-**Sources:** Inner Sea Races pg 228\
 **Aura** strong transmutation; **CL** 14th\
 **Slot** none; **Price** 6,700 gp; **Weight** 1 lb.
 

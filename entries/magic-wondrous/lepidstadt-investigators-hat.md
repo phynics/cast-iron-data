@@ -6,6 +6,9 @@ source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lepidstadt_investigators_hat", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "advanced-class-origins"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "8th"
 +++
 
-**Sources:** Advanced Class Origins pg 29\
 **Aura** moderate divination; **CL** 8th\
 **Slot** head; **Price** 7,000 gp; **Weight** -
 

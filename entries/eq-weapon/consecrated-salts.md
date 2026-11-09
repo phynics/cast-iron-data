@@ -6,6 +6,9 @@ source_ids = ["pathfinder-139-the-dead-road"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "consecrated_salts", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "pathfinder-139-the-dead-road"
+page = "63"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "300 gp"
 weight = "0.5 lb."
 +++
 
-**Sources:** Pathfinder \#139: The Dead Road pg 63\
 **Price** 300 gp; **Weight** 0.5 lb.\
 **Category** Alchemical Weapons
 

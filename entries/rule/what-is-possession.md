@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "what_is_possession", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "205"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 205
 
 True possession is when a creature displaces or overrides the target's consciousness with its own,
 establishing direct control over the target's body. The Pathfinder RPG features several effects that

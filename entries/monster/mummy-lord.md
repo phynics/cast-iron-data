@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "pathfinder-84-pyramid-of-the-sky-pharaoh"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mummy_lord", path = "json/monsters17.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "176"
+[[sources]]
+publication = "pathfinder-84-pyramid-of-the-sky-pharaoh"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -46,7 +52,6 @@ unholy light._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 5 pg 176, Pathfinder \#84: Pyramid of the Sky Pharaoh pg 84\
 **Subtype:** Augmented human\
 **Type:** undead
 

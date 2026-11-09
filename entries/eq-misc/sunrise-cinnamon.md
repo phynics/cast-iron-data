@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sunrise_cinnamon", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "14"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "-"
 
 ## Spices
 
-**Sources:** Adventurer's Guide pg 14\
 **Price** 15 gp (Black cumin), 20 gp (Flaming sumac), 30 gp (Golden cardamom), 100 gp (Striped
 nutmeg), 15 gp (Sunrise cinnamon), 25 gp (Tiger cloves), 5 gp (Violet salt); **Weight** -
 

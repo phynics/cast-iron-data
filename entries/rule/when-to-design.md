@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "when_to_design", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "230"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 230
 
 Part of a GM's fun is not just coming up with exciting adventures, but devising new ways to present
 his adventures. While [Running a Game](ref/rule/running-a-game) discusses many techniques a GM might

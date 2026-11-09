@@ -6,6 +6,15 @@ source_ids = ["rise-of-the-runelords-anniversary-edition", "pathfinder-5-sins-of
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "covetous_aura", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "rise-of-the-runelords-anniversary-edition"
+page = "418"
+[[sources]]
+publication = "pathfinder-5-sins-of-the-saviors"
+page = "58"
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "294"
 
 [fields]
 kind = "spell"
@@ -39,9 +48,6 @@ Saving throw: none
 Spell resistance: no
 Area: 25-ft.-radius emanation centered on you
 :::
-
-**Sources:** Rise of the Runelords Anniversary Edition pg 418, Pathfinder \#5: Sins of the Saviors
-pg 58, Inner Sea World Guide pg 294
 
 Anytime a harmless (so noted by a spell's saving throw description) spell of 3rd level or lower is
 cast within a covetous aura's area of effect, you may choose to immediately gain the benefit of that

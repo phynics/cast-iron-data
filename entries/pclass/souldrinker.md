@@ -6,15 +6,18 @@ source_ids = ["book-of-the-damned", "book-of-the-damned-volume-3-horsemen-of-the
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "souldrinker", path = "json/prestige_classes3.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "212"
+[[sources]]
+publication = "book-of-the-damned-volume-3-horsemen-of-the-apocalypse"
+page = "34"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d6."
 +++
-
-**Sources:** Book of the Damned pg 212, Book of the Damned - Volume 3: Horsemen of the Apocalypse pg
-34
 
 Pledging their souls to Abaddon, souldrinkers are proxies of death, serving the architects of the
 apocalypse until eventually their own souls are drawn into their masters' waiting maws.

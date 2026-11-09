@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "advanced_villainy", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "92"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 92
 
 Some GMs might seek challenges and variety beyond what mere archetypes can offer. While sometimes
 this merely means using villains in different ways, it could also mean drawing upon the hundreds of

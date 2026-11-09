@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brutal_warlord", path = "json/npcs7.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "12"
 
 **Challenge rating:** 12
 
-**Sources:** NPC Codex pg 88\
 **XP** 19,200\
 Half-orc [fighter](ref/class/fighter) 13\
 LE Medium humanoid (human, orc)\

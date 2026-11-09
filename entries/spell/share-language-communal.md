@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/share-language" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "243"
 
 [fields]
 kind = "spell"
@@ -55,8 +58,6 @@ Target: creature touched
 :::
 
 ### Communal Share Language
-
-**Sources:** Ultimate Combat pg 243
 
 This spell functions like [share language](ref/spell/share-language), except you divide the duration
 in 1-hour increments among the creatures touched.

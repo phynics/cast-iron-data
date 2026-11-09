@@ -6,6 +6,9 @@ source_ids = ["pathfinder-63-the-asylum-stone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "halflight_charm_greater", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "pathfinder-63-the-asylum-stone"
+page = "58"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Sources:** Pathfinder \#63: The Asylum Stone pg 58\
 **Aura** moderate conjuration; **CL** 9th\
 **Slot** neck; **Price** 20,000 gp; **Weight** -
 

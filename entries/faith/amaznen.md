@@ -6,6 +6,9 @@ source_ids = ["pathfinder-123-the-flooded-cathedral"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "amaznen", path = "json/faiths.json" },
 ]
+[[sources]]
+publication = "pathfinder-123-the-flooded-cathedral"
+page = "68"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Amaznen**
 
 **Sub:** The Father of Invention
-
-**Sources:** Pathfinder \#123: The Flooded Cathedral pg 68
 
 ### Details
 

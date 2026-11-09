@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/invisibility-bubble" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
+page = "60"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Descriptors: glamer
 :::
 
 ### Mass Invisibility Bubble
-
-**Sources:** Aquatic Adventures pg 60
 
 This functions as per [invisibility bubble](ref/spell/invisibility-bubble), but the spell affects
 the areas of each target creature, regardless of the creature's size. The effect moves with the

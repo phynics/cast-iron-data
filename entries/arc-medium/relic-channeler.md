@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/medium" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "93"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Haunt channeler", "Location channel"]
 alters = ["Spirit", "Spirit", "Connection channel"]
 +++
 
-**Sources:** Occult Adventures pg 93\
 A relic channeler carries relics of legend around with her. She need not rely on locating the
 specific spirits that she seeks, but the relics limit the number of unique spirits she can channel.
 

@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "metamagicians_apprentice", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "358"
 
 [fields]
 kind = "item"
@@ -16,8 +19,6 @@ slot = "none"
 aura = "strong divination"
 caster_level = "18th"
 +++
-
-**Sources:** Ultimate Equipment pg 358
 
 **Aura** strong divination; **CL** 18th\
 **Slot** none; **Price** 93,605 gp; **Weight** 5 lbs.

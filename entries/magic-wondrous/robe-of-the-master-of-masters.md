@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "robe_of_the_master_of_masters", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "268"
+[[sources]]
+publication = "gods-and-magic"
+page = "59"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate conjuration and transmutation"
 caster_level = "7th"
 +++
 
-**Sources:** Inner Sea Gods pg 268, Gods and Magic pg 59\
 **Aura** moderate conjuration and transmutation; **CL** 7th\
 **Slot** body; **Price** 2,300 gp; **Weight** 3 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-141-last-watch"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sceazir", path = "json/monsters21.json" },
 ]
+[[sources]]
+publication = "pathfinder-141-last-watch"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ spiky, manyjointed legs bend in unsettling ways._
 
 **Senses:** Darkvision 120 ft., Low-light vision
 
-**Sources:** Pathfinder \#141: Last Watch pg 86\
 **Subtype:** Extraplanar
 
 **Experience points:** 6,400

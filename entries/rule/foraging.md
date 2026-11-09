@@ -6,12 +6,13 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "foraging", path = "json/rules_rulesets01.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "134"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Wilderness pg 134
 
 These foraging techniques assume a search in a typically bountiful wilderness area. The exact time
 required to forage for supplies depends on the specific supplies desired and the type of terrain

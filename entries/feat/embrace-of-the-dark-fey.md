@@ -6,6 +6,9 @@ source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "embrace_of_the_dark_fey", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "legacy-of-the-first-world"
+page = "5"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "While a creature is shaken because you have demoralized it using the 
 +++
 
 ## Embrace of the Dark Fey (Story)
-
-**Sources:** Legacy of the First World pg 5
 
 The blood of an evil fey ancestor in your veins lends you aggressive, often bloodthirsty impulses
 that you strive to keep under control.\

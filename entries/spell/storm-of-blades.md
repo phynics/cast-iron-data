@@ -6,6 +6,9 @@ source_ids = ["people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "storm_of_blades", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "people-of-the-sands"
+page = "11"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: no
 Target: one creature
 Subschool: Creation
 :::
-
-**Sources:** People of the Sands pg 11
 
 You create floating swords of the type used as the material component for this spell (such as a
 rapier or scimitar) and magically propel them at your target. You can create one sword for every 2

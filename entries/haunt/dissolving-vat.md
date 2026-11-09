@@ -6,12 +6,14 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dissolving_vat", path = "json/haunts.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "178"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Adventures pg 178\
 A sadistic alchemist conducted experiments on test subjects within his remote laboratory. When he
 was finished with his subjects, he threw them into a vat of harsh chemicals to dissolve. His
 victims' spirits have permeated the vat, and they reach out with their oozing spectral forms toward

@@ -6,6 +6,9 @@ source_ids = ["distant-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inhibiting_patterns", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "distant-realms"
+page = "42"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Effect: one cylinder (10-ft. radius, 40-ft. high)/3 levels
 Subschool: Pattern
 Descriptors: mind-affecting
 :::
-
-**Sources:** Distant Realms pg 42
 
 You create one or more vibrant pillars of kaleidoscopic color that rise out from the ground. A
 creature attempting to move through one of the pillars must attempt a Will save. Failure means the

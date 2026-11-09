@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "death_ward", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "264"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: living creature touched
 :::
-
-**Sources:** PRPG Core Rulebook pg 264
 
 The subject gains a +4 morale bonus on saves against all death spells and magical death effects. The
 subject is granted a save to negate such effects even if one is not normally allowed. The subject is

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "when_to_play", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "13"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 13
 
 Sometimes games aren't hard to schedule. If you and your players all live near each other in college
 dorms, you might have no trouble getting a game together every night. But if you or your players

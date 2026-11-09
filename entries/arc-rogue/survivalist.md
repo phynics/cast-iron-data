@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "74"
 
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Trap sense"]
 +++
 
-**Sources:** Ultimate Combat pg 74\
 The survivalist focuses her talents on surviving harsh and unforgiving conditions that would kill a
 lesser rogue. Whether in blazing deserts or frigid arctic wastes - or simply the cold, hard reality
 of the streets - the survivalist uses her training to both ensure her own success and provide for

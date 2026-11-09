@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "pathfinder-society-field-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sandals_of_the_lightest_step", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "232"
+[[sources]]
+publication = "pathfinder-society-field-guide"
+page = "54"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Sources:** Ultimate Equipment pg 232, Pathfinder Society Field Guide pg 54\
 **Aura** moderate transmutation; **CL** 7th\
 **Slot** feet; **Price** 5,000 gp; **Weight** 1/2 lb.
 

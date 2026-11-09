@@ -6,6 +6,9 @@ source_ids = ["pathfinder-93-forge-of-the-giant-god"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "minderhals_forge", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "pathfinder-93-forge-of-the-giant-god"
+page = "58"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation [evil, lawful]"
 caster_level = "20th"
 +++
 
-**Sources:** Pathfinder \#93: Forge of the Giant God pg 58\
 **Aura** strong transmutation \[evil, lawful\]; **CL** 20th\
 **Slot** none; **Price** -; **Weight** -
 

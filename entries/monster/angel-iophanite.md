@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "angel_iophanite", path = "json/monsters26.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "293"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _This disc of flying metal is about the size of a wagon wheel and burns with yel
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Inner Sea Gods pg 293\
 **Subtype:** Angel, Extraplanar, Fire, Good, Lawful
 
 **Experience points:** 1,200

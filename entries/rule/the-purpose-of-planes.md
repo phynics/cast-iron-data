@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_purpose_of_planes", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "166"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 166
 
 If you're pouring all your efforts into developing a vibrant, self-contained world for your campaign
 setting, why should you bother introducing planes at all? The simplest answer is that many rules

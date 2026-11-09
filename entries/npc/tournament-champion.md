@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tournament_champion", path = "json/npcs8.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "201"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "12"
 
 **Challenge rating:** 12
 
-**Sources:** NPC Codex pg 201\
 **XP** 19,200\
 Half-elf [bard](ref/class/bard) 7/[sorcerer](ref/class/sorcerer) 2/arcane archer 4\
 N Medium humanoid (elf, human)\

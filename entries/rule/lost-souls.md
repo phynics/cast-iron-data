@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lost_souls", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "224"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 224
 
 When a wise and benevolent ruler mysteriously falls unconscious and begins to waste away, turmoil
 erupts throughout the land as various factions vie for power.

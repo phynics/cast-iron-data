@@ -6,6 +6,9 @@ source_ids = ["occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "samsaran_reborn_samsaran", path = "json/monsters38.json" },
 ]
+[[sources]]
+publication = "occult-bestiary"
+page = "50"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ _The pale-blue skin of this dark-haired humanoid seems to subtly change hue from
 
 **Senses:** Low-light vision
 
-**Sources:** Occult Bestiary pg 50\
 **Subtype:** Samsaran
 
 **Experience points:** 200

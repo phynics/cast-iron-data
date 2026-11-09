@@ -6,6 +6,9 @@ source_ids = ["pathfinder-122-into-the-shattered-continent"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_curchanus", path = "json/magic_staff.json" },
 ]
+[[sources]]
+publication = "pathfinder-122-into-the-shattered-continent"
+page = "77"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Sources:** Pathfinder \#122: Into the Shattered Continent pg 77\
 **Aura** moderate transmutation; **CL** 8th\
 **Slot** none; **Price** 26,600 gp; **Weight** 5 lbs.
 

@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reviving_a_dead_companion", path = "json/rules_adv_pc01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "147"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 147
 
 A lost animal companion, cohort, familiar, or follower can be raised or resurrected with spells such
 as [raise dead](ref/spell/raise-dead), [raise animal companion](ref/spell/raise-animal-companion),

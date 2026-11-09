@@ -6,6 +6,15 @@ source_ids = ["ultimate-equipment", "advanced-players-guide", "adventurers-armor
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alchemical_grease", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "101"
+[[sources]]
+publication = "advanced-players-guide"
+page = "183"
+[[sources]]
+publication = "adventurers-armory"
+page = "19"
 
 [fields]
 kind = "item"
@@ -14,7 +23,6 @@ price = "5 gp"
 weight = "1 lb."
 +++
 
-**Sources:** Ultimate Equipment pg 101, Advanced Player's Guide pg 183, Adventurer's Armory pg 19\
 **Price** 5 gp; **Weight** 1 lb.\
 **Category** Alchemical Remedies
 

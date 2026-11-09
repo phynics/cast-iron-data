@@ -6,6 +6,9 @@ source_ids = ["plunder-and-peril"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "onwu_azu", path = "json/monsters18.json" },
 ]
+[[sources]]
+publication = "plunder-and-peril"
+page = "63"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ its hunger._
 
 **Size:** small
 
-**Sources:** Plunder and Peril pg 63\
 **Subtype:** Aquatic
 
 **Experience points:** 400

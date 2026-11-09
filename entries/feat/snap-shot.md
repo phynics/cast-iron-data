@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snap_shot", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "119"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "While wielding a ranged weapon, you threaten no squares and can make n
 +++
 
 ## Snap Shot (Combat)
-
-**Sources:** Ultimate Combat pg 119
 
 With a ranged weapon, you can take advantage of any opening in your opponent's defenses.\
 **Prerequisites:** Dex 13, [Point-Blank Shot](ref/feat/point-blank-shot),

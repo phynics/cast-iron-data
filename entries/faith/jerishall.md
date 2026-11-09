@@ -6,6 +6,9 @@ source_ids = ["concordance-of-rivals"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jerishall", path = "json/faiths4.json" },
 ]
+[[sources]]
+publication = "concordance-of-rivals"
+page = "10"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Jerishall**
 
 **Sub:** The Turning Sphere
-
-**Sources:** Concordance of Rivals pg 10
 
 ### Details
 

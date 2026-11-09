@@ -6,6 +6,9 @@ source_ids = ["guardians-of-dragonfall"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "apparent_master", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "guardians-of-dragonfall"
+page = "32"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: Will negates
 Spell resistance: yes
 Target: one construct; see text
 :::
-
-**Sources:** Guardians of Dragonfall pg 32
 
 This charm makes a construct regard you as its master. The spell only affects mindless constructs
 that are attuned to the commands of a master, such as animated objects, golems, retrievers, and

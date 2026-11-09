@@ -6,6 +6,9 @@ source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shared_suffering", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "champions-of-corruption"
+page = "25"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: yes
 Target: one living creature
 Descriptors: evil
 :::
-
-**Sources:** Champions of Corruption pg 25
 
 You infuse a dagger with necromantic energy, then plunge the dagger into your own body. You take 1d6
 points of negative energy damage plus 1d6 points of damage for every 2 caster levels you possess

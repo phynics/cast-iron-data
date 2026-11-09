@@ -6,6 +6,8 @@ source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blazing_rondo", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
 
 [fields]
 kind = "class_option"
@@ -13,8 +15,6 @@ group = "bardic-masterpiece"
 +++
 
 ## Blazing Rondo (Oratory, Percussion)
-
-**Sources:** Elemental Master's Handbook
 
 Thundering rhythms quicken your allies' movements, but the effort of keeping up with the beat is
 wearying.

@@ -6,6 +6,9 @@ source_ids = ["cohorts-and-companions"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daywalker", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "cohorts-and-companions"
+page = "15"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: none
 Spell resistance: yes
 Target: undead creature touched
 :::
-
-**Sources:** Cohorts and Companions pg 15
 
 You reshape the substance of a willing undead creature to resemble a living, breathing creature of
 the same size. This is a physical change to the undead creature's bone, flesh, or incorporeal

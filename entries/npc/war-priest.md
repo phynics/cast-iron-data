@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "war_priest", path = "json/npcs.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "44"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "1"
 
 **Challenge rating:** 1
 
-**Sources:** NPC Codex pg 44\
 **XP** 400\
 Dwarf [cleric](ref/class/cleric) of [Gorum](ref/faith/gorum) 2\
 CE Medium humanoid (dwarf)\

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "defensive_combat_training", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "121"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "You treat your total Hit Dice as your base attack bonus when calculat
 +++
 
 ## Defensive Combat Training (Combat)
-
-**Sources:** PRPG Core Rulebook pg 121
 
 You excel at defending yourself from all manner of combat maneuvers.\
 **Benefit:** You treat your total Hit Dice as your base attack bonus when calculating your Combat

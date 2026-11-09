@@ -6,6 +6,9 @@ source_ids = ["antiheros-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sacrificial_aid", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "antiheros-handbook"
+page = "10"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ normal = "You can use the aid another action only if you are able to attempt the
 +++
 
 ## Sacrificial Aid (Teamwork)
-
-**Sources:** Antihero's Handbook pg 10
 
 You convince an ally to help you disable a trap, but the ally takes the damage if you fail.\
 **Benefit:** When you attempt to disable a trap, an ally who also has this feat can bolster your

@@ -6,12 +6,12 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "exploding_window", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures
 
 **Exploding Window (CR 1):** Whether from supernatural influence or simply from more mundane
 physical forces, windows can sometimes explode in a rain of glass shards. When this occurs, for each

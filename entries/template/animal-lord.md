@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animal_lord", path = "json/monster_template1.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "14"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Challenge rating:** +2
 
 **Inherited:** present
-
-**Source:** Bestiary 3/14
 
 When the gods of nature or powerful spirits desire a champion to defend the animal world, they
 invest a token of their power in a chosen vessel - be it animal or humanoid. Traditionally, only one

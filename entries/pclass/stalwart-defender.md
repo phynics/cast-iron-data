@@ -6,14 +6,15 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stalwart_defender", path = "json/prestige_classes3.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "277"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d12."
 +++
-
-**Sources:** Advanced Player's Guide pg 277
 
 Drawn from the ranks of guards, knights, mercenaries, and thugs alike, stalwart defenders are
 masters of claiming an area and refusing to relinquish it. This behavior is more than a tactical

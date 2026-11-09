@@ -6,6 +6,12 @@ source_ids = ["adventurers-armory-2", "pathfinder-15-the-armageddon-echo"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bolt_acid", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "24"
+[[sources]]
+publication = "pathfinder-15-the-armageddon-echo"
+page = "18"
 
 [fields]
 kind = "item"
@@ -14,7 +20,6 @@ price = "40 gp"
 weight = "0.2 lbs."
 +++
 
-**Sources:** Adventurer's Armory 2 pg 24, Pathfinder \#15: The Armageddon Echo pg 18\
 **Price** 40 gp; **Weight** 0.2 lbs.\
 **Category** Alchemical Weapons
 

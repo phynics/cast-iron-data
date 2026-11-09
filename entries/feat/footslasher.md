@@ -6,6 +6,9 @@ source_ids = ["rival-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "footslasher", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "rival-guide"
+page = "35"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "If you damage a foe that is of a larger size category than you with a
 +++
 
 ## Footslasher (Combat)
-
-**Sources:** Rival Guide pg 35
 
 You are trained to strike at a large foe's feet to impede its movement and cause great pain.\
 **Benefit:** If you damage a foe that is of a larger size category than you with a weapon that does

@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "domain_strike", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "98"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "You can take this feat multiple times. Each time you take it, you app
 +++
 
 ## Domain Strike (Combat)
-
-**Sources:** Ultimate Combat pg 98
 
 You unleash a domain power upon your enemy as part of your unarmed strike.\
 **Prerequisites:** Domain class feature,

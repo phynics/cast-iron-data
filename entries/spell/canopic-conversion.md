@@ -6,6 +6,12 @@ source_ids = ["faction-guide", "osirion-land-of-the-pharaohs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "canopic_conversion", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "faction-guide"
+page = "60"
+[[sources]]
+publication = "osirion-land-of-the-pharaohs"
+page = "26"
 
 [fields]
 kind = "spell"
@@ -42,8 +48,6 @@ Spell resistance: yes
 Target: one living humanoid
 Descriptors: death, evil
 :::
-
-**Sources:** Faction Guide pg 60, Osirion, Land of the Pharaohs pg 26
 
 This spell eviscerates the target, drawing forth its life essence as well as its internal organs.
 The target takes 1d6 hit points of damage per caster level (maximum 20d6). If this damage kills the

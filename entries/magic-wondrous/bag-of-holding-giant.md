@@ -6,6 +6,9 @@ source_ids = ["pathfinder-93-forge-of-the-giant-god"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bag_of_holding_giant", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "pathfinder-93-forge-of-the-giant-god"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Sources:** Pathfinder \#93: Forge of the Giant God pg 31\
 **Aura** moderate conjuration; **CL** 9th\
 **Slot** none; **Price** 12,500 gp (Type V), 15,000 gp (Type VI); **Weight** 100-150 lbs.
 

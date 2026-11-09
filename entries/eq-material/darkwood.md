@@ -6,13 +6,17 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "darkwood", path = "json/equipment_special_materials.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "49"
+[[sources]]
+publication = "core-rulebook"
+page = "154"
 
 [fields]
 kind = "item"
 category = "Special Materials"
 +++
-
-**Sources:** Ultimate Equipment pg 49, PRPG Core Rulebook pg 154
 
 This rare magic wood is as hard as normal wood but very light. Any wooden or mostly wooden item
 (such as a bow or spear) made from darkwood is considered a masterwork item and weighs only half as

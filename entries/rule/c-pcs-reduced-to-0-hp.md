@@ -6,12 +6,14 @@ source_ids = ["jade-regent-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "c_pcs_reduced_to_0_hp", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "jade-regent-players-guide"
+page = "27"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Jade Regent Player's Guide pg 27\
 If your caravan is reduced to 0 hit points, it is destroyed. This doesn't mean the end of your Jade
 Regent campaign, of course, but it does mean things are going to be more difficult for you since you
 won't have a safe place to shelter or store gear along the way. If your caravan is destroyed, all

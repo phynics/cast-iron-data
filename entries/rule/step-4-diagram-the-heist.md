@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "step_4_diagram_the_heist", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "122"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 122
 
 The last step before running a heist requires the GM to organize the obstacles into a cohesive set
 of defenses. Imagine the goal in the middle of a series of rings, each of which represents a layer

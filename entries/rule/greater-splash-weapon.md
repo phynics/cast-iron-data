@@ -6,12 +6,13 @@ source_ids = ["pathfinder-91-battle-of-bloodmarch-hills"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_splash_weapon", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "pathfinder-91-battle-of-bloodmarch-hills"
+page = "72"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder \#91: Battle of Bloodmarch Hills pg 72
 
 This splash weapon works in some ways like a normal splash weapon, but its effects cover a larger
 area. Like a normal splash weapon, a greater splash weapon requires no weapon proficiency, and you

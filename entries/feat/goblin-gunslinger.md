@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "goblin_gunslinger", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "118"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ normal = "You take a -2 penalty when using an inappropriately sized weapon."
 +++
 
 ## Goblin Gunslinger (Combat)
-
-**Sources:** Advanced Race Guide pg 118
 
 You have learned how to fire the big guns.\
 **Prerequisites:** [Goblin](ref/race/goblin).\

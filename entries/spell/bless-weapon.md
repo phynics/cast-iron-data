@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bless_weapon", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "250"
 
 [fields]
 kind = "spell"
@@ -36,8 +39,6 @@ Saving throw: none
 Spell resistance: no
 Target: weapon touched
 :::
-
-**Sources:** PRPG Core Rulebook pg 250
 
 This transmutation makes a weapon strike true against evil foes. The weapon is treated as having a
 +1 enhancement bonus for the purpose of bypassing the DR of evil creatures or striking evil

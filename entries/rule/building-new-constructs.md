@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "building_new_constructs", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "111"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 111
 
 Constructs typically have no Intelligence score, an average Wisdom score, and a Charisma of 1. Their
 dexterity is usually poor to average, though exceptionally nimble constructs do exist. Nearly all

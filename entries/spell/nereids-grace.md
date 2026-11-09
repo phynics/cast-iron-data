@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nereids_grace", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "179"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Advanced Race Guide pg 179
 
 > _[Undines](ref/race/undine) have access to the following spell._
 

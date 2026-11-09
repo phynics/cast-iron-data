@@ -6,6 +6,9 @@ source_ids = ["disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "echo_of_divinitys_promise", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "disciples-doctrine"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocatino"
 caster_level = "7th"
 +++
 
-**Sources:** Disciple's Doctrine pg 29\
 **Aura** moderate evocatino; **CL** 7th\
 **Slot** none; **Price** 1,400 gp; **Weight** 8 lbs.
 

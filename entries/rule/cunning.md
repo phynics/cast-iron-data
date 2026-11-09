@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cunning", path = "json/rules_adv_gm03.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "228"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 228
 
 Thematically, monsters with higher mental ability modifiers are the most likely to have cunning
 combat options.

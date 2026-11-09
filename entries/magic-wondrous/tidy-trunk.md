@@ -6,6 +6,9 @@ source_ids = ["lost-treasures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tidy_trunk", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "lost-treasures"
+page = "13"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint universal"
 caster_level = "1st"
 +++
 
-**Sources:** Lost Treasures pg 13\
 **Aura** faint universal; **CL** 1st\
 **Slot** none; **Price** 1,000 gp; **Weight** 25 lbs.
 

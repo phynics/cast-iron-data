@@ -6,12 +6,13 @@ source_ids = ["lands-of-conflict"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "treasury_teams", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "lands-of-conflict"
+page = "54"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Lands of Conflict pg 54
 
 Treasury teams help raise funds and gain access to other markets and hard-to-come-by items and
 services.

@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demonic_slaughter", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "27"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using Demonic Style, when you successfully bull rush an opponen
 +++
 
 ## Demonic Slaughter (Combat)
-
-**Sources:** Planar Adventures pg 27
 
 You punch into your foes' ranks and cut them down.\
 **Prerequisites:** [Cleave](ref/feat/cleave), [Demonic Momentum](ref/feat/demonic-momentum),

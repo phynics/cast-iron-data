@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gravity_words", path = "json/rules_opt_magic03.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "179"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 179
 
 Words from the gravity family use an unseen force to manipulate objects and creatures.
 

@@ -6,13 +6,26 @@ source_ids = ["bestiary-5", "inner-sea-races", "iron-gods-players-guide", "peopl
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "android", path = "json/races.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "19"
+[[sources]]
+publication = "inner-sea-races"
+page = "239"
+[[sources]]
+publication = "iron-gods-players-guide"
+page = "6"
+[[sources]]
+publication = "people-of-the-stars"
+page = "6"
+[[sources]]
+publication = "inner-sea-bestiary"
+page = "3"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Bestiary 5 pg 19, Inner Sea Races pg 239, Iron Gods Player's Guide pg 6, People of the
-Stars pg 6, Inner Sea Bestiary pg 3\
 The artificially constructed humanoids known as androids are as much a miracle of technological
 achievement as they are an example of the sheer will of the multiverse. On Golarion, they're endemic
 to Numeria, and for millennia, the native Kellid tribespeople have spoken of "the tattooed children

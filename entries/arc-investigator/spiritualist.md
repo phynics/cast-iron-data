@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/investigator" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "102"
 
 [fields]
 kind = "archetype"
@@ -18,7 +21,6 @@ replaces = ["Alchemy", "Poison lore", "Poison resistance", "Trap sense", "Swift 
 > _**Note:** This is an investigator archetype, and has no relation to the
 > [spiritualist](ref/class/spiritualist) occult class._
 
-**Sources:** Advanced Class Guide pg 102\
 While most investigators look to the physical world to gain their knowledge, there are those who
 seek out knowledge beyond the pale. Those who think that the dead tell no tales are quickly proven
 wrong by the spiritualist. Instead of toying with chemicals and reagents to find clues, he talks

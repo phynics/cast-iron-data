@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "false_belief", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "214"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Target: willing creature touched
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Ultimate Intrigue pg 214
 
 You temporarily alter the target's memory (similar to [modify memory](ref/spell/modify-memory)) to
 eliminate, change, or implant a memory of up to 1 hour in length. When the duration of this expires,

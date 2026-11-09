@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "qlippoth_lord_traits", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "297"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Qlippoth Lord Traits (Ex, Sp, or Su)
 
-**Sources:** Bestiary 6 pg 297\
 A qlippoth lord is a powerful, unique qlippoth that once ruled a region of the Abyss but has been
 forced to retreat to forgotten corners of reality deep in the Abyss. At the dawn of creation,
 qlippoth lords were powerful creatures, perhaps even on par with deities, but today they have

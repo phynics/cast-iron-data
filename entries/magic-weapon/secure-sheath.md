@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "secure_sheath", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration"
 caster_level = "4th"
 +++
 
-**Sources:** Martial Arts Handbook pg 31\
 **Aura** faint conjuration; **CL** 4th\
 **Slot** none; **Price** 500 gp; **Weight** 1 lb.
 

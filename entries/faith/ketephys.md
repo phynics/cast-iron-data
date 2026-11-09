@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "faiths-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ketephys", path = "json/faiths5.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "322"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Ketephys**
 
 **Sub:** The Hunter
-
-**Sources:** Inner Sea Gods pg 322
 
 ### Details
 

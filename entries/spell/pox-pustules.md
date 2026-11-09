@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pox_pustules", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "236"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: disease
 :::
-
-**Sources:** Advanced Player's Guide pg 236
 
 You inflict a painful, itching rash on the target creature. The target is sickened and takes a -4
 penalty to Dexterity (this penalty cannot lower Dexterity below 0). The target can spend a move

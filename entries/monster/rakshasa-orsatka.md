@@ -6,6 +6,9 @@ source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rakshasa_orsatka", path = "json/monsters20.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "252"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ many knuckles._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Book of the Damned pg 252\
 **Subtype:** Native, Rakshasa, Shapechanger
 
 **Experience points:** 25,600

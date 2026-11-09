@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_2", path = "json/rules_basics03.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "11"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 11
 
 Most of the standard humanoid races aren't inherently magical, though their members may come to
 study magic and learn its secrets over time. If you come from a nonmagical culture, the arcane arts

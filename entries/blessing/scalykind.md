@@ -6,13 +6,15 @@ source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scalykind", path = "json/class_ability_blessings.json" },
 ]
+[[sources]]
+publication = "advanced-class-origins"
+page = "25"
 
 [fields]
 kind = "class_option"
 group = "warpriest-blessing"
 +++
 
-**Sources:** Advanced Class Origins pg 25\
 **Deities:** [Apsu](ref/faith/apsu), [Dahak](ref/faith/dahak), [Ragadahn](ref/faith/ragadahn),
 [Ydersius](ref/faith/ydersius)
 

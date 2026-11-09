@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "iron_brush", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "18"
+[[sources]]
+publication = "ultimate-combat"
+page = "131"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "-"
 +++
-
-**Sources:** Ultimate Equipment pg 18, Ultimate Combat pg 131
 
 This is an iron-handled version of a scholar's brush with a sharpened handle. Though it does little
 damage, it is easily concealed (you gain a +2 bonus on Sleight of Hand checks made to conceal an

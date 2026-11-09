@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "masked_lord", path = "json/npcs4.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "156"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "16"
 
 **Challenge rating:** 16
 
-**Sources:** NPC Codex pg 156\
 **XP** 76,800\
 Human [rogue](ref/class/rogue) 17\
 LN Medium humanoid (human)\

@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-elements"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snowfall_orb", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "blood-of-the-elements"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation"
 caster_level = "13th"
 +++
 
-**Sources:** Blood of the Elements pg 30\
 **Aura** strong transmutation; **CL** 13th\
 **Slot** none; **Price** 14,000 gp; **Weight** 1 lb.
 

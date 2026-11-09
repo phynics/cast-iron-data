@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "undead_creator", path = "json/npcs3.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "186"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "10"
 
 **Challenge rating:** 10
 
-**Sources:** NPC Codex pg 186\
 **XP** 9,600\
 Human necromancer 11\
 LN Medium humanoid (human)\

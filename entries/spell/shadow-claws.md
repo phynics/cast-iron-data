@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_claws", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "81"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Target: you
 Subschool: Shadow
 Descriptors: shadow
 :::
-
-**Sources:** Villain Codex pg 81
 
 You summon a pair of claws over your hands formed from semi-real material. This grants you two
 primary claw attacks dealing 1d4 points of damage if you are Medium (1d3 if Small) plus 1 point of

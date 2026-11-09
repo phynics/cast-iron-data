@@ -6,6 +6,9 @@ source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "metamagic_invocation", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "24"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Metakinesis class feature."
 benefit = "Choose a metamagic feat from the following list: Enlarge Spell, Extend Spell, Intuitive Spell, Logical Spell, Quicken Spell, Reach Spell, or Tenacious Spell. When casting a spell via Kinetic Invocation, you can increase its burn cost to augment the spell with that metamagic feat."
 special = "You can take this feat more than once. Each time you take this feat, select another metamagic feat; you can augment a spell with multiple feats by accepting additional points of burn equal to the total increased spell level."
 +++
-
-**Sources:** Psychic Anthology pg 24
 
 You have further refined your combination of elemental power and spellcasting with metamagic
 techniques.\

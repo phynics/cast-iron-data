@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mngwa", path = "json/monsters17.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "173"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ _This jungle cat has a dark coat of striped fur, glossy black teeth and claws, a
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Bestiary 5 pg 173\
 **Experience points:** 3,200
 
 **Armor class:** 20/13/16

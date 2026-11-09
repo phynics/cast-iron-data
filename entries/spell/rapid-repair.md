@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rapid_repair", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "234"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
 Target: construct touched
 :::
-
-**Sources:** Ultimate Magic pg 234
 
 The targeted construct gains [fast healing](ref/umr/fast-healing) 5. This does not stack with any
 fast healing the construct already has. Fast healing has no effect on a construct that has been

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/fey-form-1" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "229"
 
 [fields]
 kind = "spell"
@@ -54,8 +57,6 @@ Subschool: Polymorph
 :::
 
 ### Fey Form II
-
-**Sources:** Ultimate Wilderness pg 229
 
 This spell functions as [fey form I](ref/spell/fey-form-1), except it also allows you to assume the
 form of a Tiny or Large creature of the fey type. Your base speed can't increase above 90 feet this

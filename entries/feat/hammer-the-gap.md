@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hammer_the_gap", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "103"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When you take a full-attack action, each consecutive hit against the 
 +++
 
 ## Hammer the Gap (Combat)
-
-**Sources:** Ultimate Combat pg 103
 
 You repeatedly strike the same location, causing increasing amounts of damage.\
 **Prerequisites:** Base attack bonus +6.\

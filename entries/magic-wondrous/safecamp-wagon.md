@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "safecamp_wagon", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "268"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "6th"
 +++
 
-**Sources:** Inner Sea Gods pg 268\
 **Aura** moderate transmutation; **CL** 6th\
 **Slot** none; **Price** 3,000 gp; **Weight** 2 lbs.
 

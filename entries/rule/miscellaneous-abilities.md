@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "miscellaneous_abilities", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "69"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 69
 
 Abilities that aren't tied only to one class appear here.
 

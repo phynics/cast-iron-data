@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "torch_bearer", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "217"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ normal = "A torch used in combat is treated as a one-handed improvised weapon th
 +++
 
 ## Torch Bearer (Combat)
-
-**Sources:** Inner Sea Gods pg 217
 
 You can make use of a torch as a deadly, mace-like weapon.\
 **Benefit:** You treat a [torch](ref/eq-misc/torch) as a light weapon that deals bludgeoning damage

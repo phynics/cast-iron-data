@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "litany_of_escape", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "234"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Target: one willing creature that is grappled
 Subschool: Teleportation
 Descriptors: language-dependant
 :::
-
-**Sources:** Ultimate Combat pg 234
 
 With a powerful prayer, you call upon the servants of your god to whisk a friend out of a grapple.
 The target loses the grappled and pinned conditions and is teleported 10 feet. If there is no

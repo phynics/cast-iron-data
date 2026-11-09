@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bushwhack", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "20"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When a flat-footed creature is unaware of your presence and you succe
 +++
 
 ## Bushwhack (Combat)
-
-**Sources:** Monster Codex pg 20
 
 You can subdue an unsuspecting foe quickly.\
 **Prerequisites:** Dex 13, [Improved Grapple](ref/feat/improved-grapple),

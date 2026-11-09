@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "healers-handbook"
+page = "19"
 
 [fields]
 kind = "archetype"
 replaces = ["Versatile performance"]
 +++
 
-**Sources:** Healer's Handbook pg 19\
 Faith singers show their faith in their deity with songs or other appropriate performances.
 
 **Faithful**

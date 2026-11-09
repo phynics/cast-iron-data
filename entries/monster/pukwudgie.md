@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pukwudgie", path = "json/monsters19.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "223"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ _A merging of an emaciated man and a porcupine, this sinister creature smells of
 
 **Size:** small
 
-**Sources:** Bestiary 3 pg 223\
 **Subtype:** Shapechanger
 
 **Experience points:** 3,200

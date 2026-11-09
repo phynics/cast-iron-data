@@ -6,6 +6,9 @@ source_ids = ["undead-unleashed"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cauldron_of_transmutation", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "undead-unleashed"
+page = "6"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation"
 caster_level = "13th"
 +++
 
-**Sources:** Undead Unleashed pg 6\
 **Aura** strong transmutation; **CL** 13th\
 **Slot** none; **Price** 33,000 gp; **Weight** 15 lbs.
 

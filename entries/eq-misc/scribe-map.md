@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scribe_map", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "99"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "- (map), - (text)"
 
 ## Scribe
 
-**Sources:** Ultimate Equipment pg 99\
 **Price** 10 gp (map), 1 gp (text); **Weight** - (map), - (text)
 
 A scribe is a literate person with clear handwriting who can take dictation or transcribe text

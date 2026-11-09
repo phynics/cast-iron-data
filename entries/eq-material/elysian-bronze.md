@@ -6,13 +6,14 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elysian_bronze", path = "json/equipment_special_materials.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "50"
 
 [fields]
 kind = "item"
 category = "Special Materials"
 +++
-
-**Sources:** Ultimate Equipment pg 50
 
 First crafted in the deeps of time by the titans and bestowed as gifts to monster-slaying heroes
 among the lesser races, Elysian bronze retains the brazen coloration of its namesake but is as hard

@@ -6,6 +6,9 @@ source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ravana", path = "json/faiths7.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "130"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Ravana**
 
 **Sub:** The First and the Last
-
-**Sources:** Book of the Damned pg 130
 
 ### Details
 

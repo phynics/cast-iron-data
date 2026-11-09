@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kyrana", path = "json/monsters15.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "136"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ mouth._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Monster Codex pg 136\
 **Subtype:** Fire
 
 **Experience points:** 800

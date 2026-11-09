@@ -6,6 +6,12 @@ source_ids = ["inner-sea-world-guide", "pathfinder-25-the-bastards-of-erebus"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "strix", path = "json/monsters39.json" },
 ]
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "313"
+[[sources]]
+publication = "pathfinder-25-the-bastards-of-erebus"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -45,7 +51,6 @@ _Monstrous black-feathered wings cloak this leanly muscled, onyx-skinned humanoi
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Inner Sea World Guide pg 313, Pathfinder \#25: The Bastards of Erebus pg 82\
 **Subtype:** Strix\
 **Experience points:** 135
 

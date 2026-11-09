@@ -6,6 +6,9 @@ source_ids = ["pathfinder-66-the-dead-heart-of-xin"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "living_rune", path = "json/monsters16.json" },
 ]
+[[sources]]
+publication = "pathfinder-66-the-dead-heart-of-xin"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ before finally assembling into an arcane symbol that flares with untold magical 
 
 **Perception:** +27
 
-**Sources:** Pathfinder \#66: The Dead Heart of Xin pg 88\
 **tremorsense:** 60
 
 **Experience points:** 25,600

@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "including_families_in_the_game", path = "json/rules_adv_pc01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "167"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 167
 
 While creating and developing a character's family is largely your responsibility, it's up to the GM
 to determine how large a role that family plays in the campaign. The family's role might be limited

@@ -6,12 +6,14 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lich", path = "json/rules_campaign_types02.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "26-27"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Adventures pg. 26-27\
 Your attempt to transition into unlife has gone horribly awry and your soul is trapped. Lich
 corruption also works for becoming another sort of corporeal undead (except ghouls and vampires,
 which have their own corruptions).

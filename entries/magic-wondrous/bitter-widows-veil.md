@@ -6,6 +6,9 @@ source_ids = ["daughters-of-fury"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bitter_widows_veil", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "daughters-of-fury"
+page = "56"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint enchantment and divination"
 caster_level = "5th"
 +++
 
-**Sources:** Daughters of Fury pg 56\
 **Aura** faint enchantment and divination; **CL** 5th\
 **Slot** head; **Price** 14,000 gp; **Weight** 1/2 lb.
 

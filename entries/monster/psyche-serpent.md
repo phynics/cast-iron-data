@@ -6,6 +6,9 @@ source_ids = ["occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psyche_serpent", path = "json/monsters37.json" },
 ]
+[[sources]]
+publication = "occult-bestiary"
+page = "44"
 
 [fields]
 kind = "creature"
@@ -39,7 +42,6 @@ _A spiral pattern adorns the hood of this cobra-like serpent. Its gaze betrays a
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Occult Bestiary pg 44\
 **Size:** tiny
 
 **Experience points:** 600

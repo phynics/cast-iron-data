@@ -6,6 +6,9 @@ source_ids = ["pathfinder-99-dance-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "morgodea", path = "json/monsters17.json" },
 ]
+[[sources]]
+publication = "pathfinder-99-dance-of-the-damned"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ extending from its palms._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#99: Dance of the Damned pg 86\
 **Experience points:** 1,200
 
 **Armor class:** 19/15/14

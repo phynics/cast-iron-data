@@ -6,6 +6,9 @@ source_ids = ["inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_quantium_golem", path = "json/monsters33.json" },
 ]
+[[sources]]
+publication = "inner-sea-bestiary"
+page = "19"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ hands._
 
 **Senses:** Darkvision 60 ft., Link, Low-light vision
 
-**Sources:** Inner Sea Bestiary pg 19\
 **Experience points:** 307,200
 
 **Armor class:** 37/4/37

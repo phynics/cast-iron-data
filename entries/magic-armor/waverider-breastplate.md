@@ -6,6 +6,9 @@ source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "waverider_breastplate", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "inner-sea-monster-codex"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Inner Sea Monster Codex pg 29\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** armor; **Price** 5,000 gp; **Weight** 30 lbs.
 

@@ -6,12 +6,13 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "common_tuning_fork", path = "json/rules_campaign_types09.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "85"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Planar Adventures pg 85
 
 A common tuning fork is one attuned to the major Inner or Outer Planes (Abbadon, Abyss, the Astral
 Plane, Axis, the Boneyard, Elysium, the Ethereal Plane, the First World, Heaven, Hell, Maelstrom,

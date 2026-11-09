@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "item_ego", path = "json/rules_basics02.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "535"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 535
 
 Ego is a measure of the total power and force of personality that an item possesses. An item's Ego
 score is the sum of all of its Ego modifiers plus an additional bonus for the cost of the base magic

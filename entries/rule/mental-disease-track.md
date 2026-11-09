@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mental_disease_track", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "138"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 138
 
 1. Healthy
 1. Latent/Carrier

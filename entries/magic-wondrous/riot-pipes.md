@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "riot_pipes", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "350"
+[[sources]]
+publication = "advanced-players-guide"
+page = "310"
 
 [fields]
 kind = "item"
@@ -15,8 +21,6 @@ slot = "none"
 aura = "moderate enchantment"
 caster_level = "10th"
 +++
-
-**Sources:** Ultimate Equipment pg 350, Advanced Player's Guide pg 310
 
 **Aura** moderate enchantment; **CL** 10th\
 **Slot** none; **Weight** 3 lbs.

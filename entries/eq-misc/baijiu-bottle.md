@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "baijiu_bottle", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "95"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "10 gp"
 weight = "2 lbs."
 +++
 
-**Sources:** Ultimate Equipment pg 95\
 **Price** 10 gp; **Weight** 2 lbs.\
 **Category** Food/Drink
 

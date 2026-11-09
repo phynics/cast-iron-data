@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "headband_of_mental_prowess", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "250"
+[[sources]]
+publication = "core-rulebook"
+page = "517"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong transmutation"
 caster_level = "12th"
 +++
 
-**Sources:** Ultimate Equipment pg 250, PRPG Core Rulebook pg 517\
 **Aura** strong transmutation; **CL** 12th\
 **Slot** headband; **Price** 10,000 gp (+2), 40,000 gp (+4), 90,000 gp (+6); **Weight** 1 lb.
 

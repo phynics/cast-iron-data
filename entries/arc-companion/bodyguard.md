@@ -6,13 +6,18 @@ source_ids = ["ultimate-wilderness", "animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bodyguard", path = "json/archetypes_COMPANION.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "187"
+[[sources]]
+publication = "animal-archive"
+page = "20"
 
 [fields]
 kind = "archetype"
 replaces = ["Share Spells", "Evasion", "Multiattack", "Improved Evasion"]
 +++
 
-**Sources:** Ultimate Wilderness pg 187, Animal Archive pg 20\
 Some companions live lives of faithful devotion and steady vigilance, standing watch through long
 hours and always ready to leap into action to protect their masters.
 

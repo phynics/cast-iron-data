@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disruptive_companion", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "217"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "The animal companion is trained to interfere with its opponent's conc
 +++
 
 ## Disruptive Companion (Combat)
-
-**Sources:** Ultimate Wilderness pg 217
 
 The animal's presence harries nearby enemies, making concentration difficult.\
 **Prerequisites:** [Animal companion](ref/sidekick/animal-companion).\

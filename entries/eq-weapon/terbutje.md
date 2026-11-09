@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "terbutje", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "18"
+[[sources]]
+publication = "adventurers-armory"
+page = "5"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "2 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 18, Adventurer's Armory pg 5
 
 This Stone Age weapon, also called a macuahuitl, is made from a length of tempered wood. It has bits
 of shark teeth, obsidian, glass, or similar materials studded all along its length.

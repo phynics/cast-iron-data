@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soul_bind", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "345"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: Will negates
 Spell resistance: no
 Target: corpse
 :::
-
-**Sources:** PRPG Core Rulebook pg 345
 
 You draw the soul from a newly dead body and imprison it in a black sapphire gem. The subject must
 have been dead no more than 1 round per caster level. The soul, once trapped in the gem, cannot be

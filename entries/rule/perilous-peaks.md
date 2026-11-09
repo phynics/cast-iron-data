@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "perilous_peaks", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "138"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 138
 
 An ancient civilization once dominated a valley, but its citizens have since degenerated into
 savagery. Still, vestiges of the civilization remain. Rumors reach the heroes that vast treasures

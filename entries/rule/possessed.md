@@ -6,12 +6,14 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "possessed", path = "json/rules_campaign_types02.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "30-31"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Adventures pg. 30-31\
 Whether it's an actual spirit or an alternate personality, another mind vies with you for control of
 your body.
 

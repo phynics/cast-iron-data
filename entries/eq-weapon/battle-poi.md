@@ -6,14 +6,18 @@ source_ids = ["adventurers-armory", "legacy-of-fire-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "battle_poi", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "adventurers-armory"
+page = "2"
+[[sources]]
+publication = "legacy-of-fire-players-guide"
+page = "22"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "2 lbs."
 +++
-
-**Sources:** Adventurer's Armory pg 2, Legacy of Fire Player's Guide pg 22
 
 This pair of arm-length chains has handles at one end and heavy fuel-soaked torch heads at the
 other. The weight of the poi is insufficient to deal physical damage, but the burning fuel deals

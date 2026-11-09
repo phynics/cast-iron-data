@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/monk" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "60"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Stunning fist", "Fast movement", "increased unarmed damage", "Slow 
 alters = ["Weapon and armor proficiencies"]
 +++
 
-**Sources:** Ultimate Combat pg 60\
 The sohei are masters of the horse and the hunt. A monastic soldier, the sohei is equally adept at
 combat afoot or on horseback. While skilled in unarmed techniques, many sohei favor weapons they can
 use while mounted on horseback or against others' horses.

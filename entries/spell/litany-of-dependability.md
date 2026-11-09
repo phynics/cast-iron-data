@@ -6,6 +6,9 @@ source_ids = ["disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "litany_of_dependability", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "disciples-doctrine"
+page = "13"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: lawful
 :::
-
-**Sources:** Disciple's Doctrine pg 13
 
 By uttering this litany, you cause one creature to take the average result of its next attack roll,
 saving throw, skill check, or ability check. While subject to this spell, the target cannot be the

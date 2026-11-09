@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aerial_tracks", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "203"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 Area: circle centered on you, with a radius of 100 feet + 10 feet per level
 Descriptors: air
 :::
-
-**Sources:** Ultimate Intrigue pg 203
 
 You cause the air in the area to ripple where creatures have flown through it up to 1 day ago per
 caster level. These aerial ripples are tinged by glowing wisps, providing enough illumination to

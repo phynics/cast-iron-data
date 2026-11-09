@@ -6,6 +6,9 @@ source_ids = ["down-the-blighted-path"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vibrant_frog_hide", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "down-the-blighted-path"
+page = "63"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Sources:** Down the Blighted Path pg 63\
 **Aura** moderate transmutation; **CL** 7th\
 **Slot** armor; **Price** 28,165 gp; **Weight** 25 lbs.
 

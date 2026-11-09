@@ -6,12 +6,13 @@ source_ids = ["cohorts-and-companions"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prepare_resources", path = "json/rules_rulesets01.json" },
 ]
+[[sources]]
+publication = "cohorts-and-companions"
+page = "26"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Cohorts and Companions pg 26
 
 You form a brilliant but unrevealed plan for upcoming contingencies, spending two days of downtime
 to effectively bank one day to use later. During an encounter, you can explain how you foresaw the

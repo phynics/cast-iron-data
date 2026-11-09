@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "no_spellcasters", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "43"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 43
 
 Though technically a broader example of the "no healers" variant, a campaign with no spellcasters at
 all has an entirely different set of problems. Most adventures assume that a typical party has one

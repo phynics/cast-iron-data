@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jump", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "57"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 57
 
 You can make jumps using Athletics. The DC is equal to the distance crossed (in feet) for a long
 jump or four times the height to be reached (in feet) for a high jump. If you don't have a running

@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "electric_discharge", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-wild"
+page = "19"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "If you ready an action to cast a 1st-level or higher spell with the e
 +++
 
 ## Electric Discharge (Teamwork)
-
-**Sources:** Heroes of the Wild pg 19
 
 The fury of lightning storms fuels you and your allies.\
 **Prerequisites:** [Arcane Strike](ref/feat/arcane-strike), ability to cast a 1st-level or higher

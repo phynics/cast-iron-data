@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dwarf_background", path = "json/rules_basics03.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "16"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 16
 
 Many dwarves come from industrious and tight-knit communities of like-minded individuals who work
 together to accomplish a common goal.

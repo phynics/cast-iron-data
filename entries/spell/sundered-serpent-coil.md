@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/black-tentacles" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "200"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: no
 Area: one 5-foot square
 Subschool: Creation
 :::
-
-**Sources:** Monster Codex pg 200
 
 This spell functions like [black tentacles](ref/spell/black-tentacles), except it creates a Large
 decapitated snake, which erupts from the ground and grapples a creature you specify within its

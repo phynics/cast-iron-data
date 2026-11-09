@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "forgefathers_half_plate", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "251"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration, divination, evocation, and transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Inner Sea Gods pg 251\
 **Aura** faint abjuration, divination, evocation, and transmutation; **CL** 3rd\
 **Slot** armor; **Price** 4,180 gp; **Weight** 50 lbs.
 

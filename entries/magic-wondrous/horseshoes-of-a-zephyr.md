@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horseshoes_of_a_zephyr", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "231"
+[[sources]]
+publication = "core-rulebook"
+page = "520"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Ultimate Equipment pg 231, PRPG Core Rulebook pg 520\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** feet; **Price** 6,000 gp; **Weight** 4 lbs.
 

@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "layered_planes", path = "json/rules_gm08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "441"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 441
 
 Infinities may be broken into smaller infinities, and planes into smaller, related planes. These
 layers are effectively separate planes of existence, and each layer can have its own features and

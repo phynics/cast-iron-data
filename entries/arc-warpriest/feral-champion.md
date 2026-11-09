@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/warpriest" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "97"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Sacred armor"]
 alters = ["Blessings", "Sacred weapon"]
 +++
 
-**Sources:** Ultimate Wilderness pg 97\
 When a warpriest devotes himself to a god of the natural world, he is sometimes blessed with
 supernatural powers that allow him to evoke animalistic power and fury.
 

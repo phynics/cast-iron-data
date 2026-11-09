@@ -6,13 +6,15 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rivethun", path = "json/class_ability_disciplines.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "168"
 
 [fields]
 kind = "class_option"
 group = "psychic-discipline"
 +++
 
-**Sources:** Adventurer's Guide pg 168\
 You have embraced those aspects of your body that cause you agony, respecting the perspective they
 grant you if not necessarily the roles they've condemned you to in life.
 

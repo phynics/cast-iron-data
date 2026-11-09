@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/fighter" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "45"
 
 [fields]
 kind = "archetype"
 replaces = ["Bravery", "Armor training 1", "Weapon training 1, 3, and 4", "Armor training 2", "Weapon training 2", "Armor training 3", "Weapon training 3 and 4", "Armor training 4", "Weapon mastery"]
 +++
 
-**Sources:** Ultimate Combat pg 45\
 In combat, most fighters have some sort of code of honor. Some believe that one should not kick
 enemies when they are down, or should limit use of other such dirty tricks to the most dire of
 circumstances. The cad places no such limitations on himself. Battles are for winning, and anything

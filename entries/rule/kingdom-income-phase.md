@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kingdom_income_phase", path = "json/rules_campaign_types04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "207"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 207
 
 During the Income phase, you may add to or withdraw from the Treasury as well as collect taxes.
 

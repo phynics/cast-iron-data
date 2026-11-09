@@ -6,6 +6,12 @@ source_ids = ["pathfinder-72-the-witch-queens-revenge", "bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hag_eye_ooze", path = "json/monsters33.json" },
 ]
+[[sources]]
+publication = "pathfinder-72-the-witch-queens-revenge"
+page = "86"
+[[sources]]
+publication = "bestiary-5"
+page = "140"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ mass, ready to strike._
 
 **Size:** small
 
-**Sources:** Pathfinder \#72: The Witch Queen's Revenge pg 86, Bestiary 5 pg 140\
 **Experience points:** 800
 
 **Armor class:** 6/6/6

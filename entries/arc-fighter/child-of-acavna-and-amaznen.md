@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/fighter" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "10"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Bonus fighter combat feat gained at 1st level", "Bonus feat gained 
 alters = ["Weapon and armor proficiency", "Skills", "Armor training"]
 +++
 
-**Sources:** Arcane Anthology pg 10\
 The child of [Acavna](ref/faith/acavna) and [Amaznen](ref/faith/amaznen) has trained in the nearly
 forgotten arts of Azlant passed down by Aroden, which combine martial prowess with elementary
 wizardry. Inspired by the deities [Aroden](ref/faith/aroden) once worshiped long ago, children of

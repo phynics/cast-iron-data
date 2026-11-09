@@ -6,6 +6,9 @@ source_ids = ["pathfinder-131-the-reapers-right-hand"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lighting_the_way", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "pathfinder-131-the-reapers-right-hand"
+page = "79"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Once per day as a standard action, you can give all allies within 30 
 +++
 
 ## Lighting the Way (Story)
-
-**Sources:** Pathfinder \#131: The Reaper's Right Hand pg 79
 
 You seek to lead others through your pious example.\
 **Prerequisites:** Be a member of House Zespire, or have the

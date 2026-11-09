@@ -6,6 +6,9 @@ source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dynasty_founder", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "quests-and-campaigns"
+page = "9"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "For groups using the kingdom-building rules, you can optionally use t
 +++
 
 ## Dynasty Founder (Story)
-
-**Sources:** Quests and Campaigns pg 9
 
 You will claim rulership of a city, whether under a larger government or independently.\
 **Prerequisites:** You must have lived in the chosen city for at least 1 year or be the heir of a

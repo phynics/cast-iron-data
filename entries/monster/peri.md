@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "peri", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "218"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ _This beautiful albino woman is wreathed in wings of brilliant flame._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Smoke sight
 
-**Sources:** Bestiary 3 pg 218\
 **Subtype:** Good, Native
 
 **Experience points:** 38,400

@@ -6,6 +6,9 @@ source_ids = ["distant-shores"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "matravash", path = "json/faiths5.json" },
 ]
+[[sources]]
+publication = "distant-shores"
+page = "43"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Matravash**
 
 **Sub:** The Wide Water
-
-**Sources:** Distant Shores pg 43
 
 ### Details
 

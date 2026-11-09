@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/mesmerist" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "18"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Hypnotic stare", "painful stare", "towering ego", "Bold stare", "Me
 alters = ["Touch treatment"]
 +++
 
-**Sources:** Ultimate Wilderness pg 18\
 Rather than employ the baleful glares of the typical mesmerist, aromaphiles hypnotize others using
 an array of sickeningly sweet scents developed from their unique ghoran physiology.
 

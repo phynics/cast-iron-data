@@ -6,6 +6,9 @@ source_ids = ["isles-of-the-shackles"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nirento", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "isles-of-the-shackles"
+page = "55"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ its base._
 
 **Type:** plant
 
-**Sources:** Isles of the Shackles pg 55\
 **Experience points:** 1,200
 
 **Armor class:** 17/11/15

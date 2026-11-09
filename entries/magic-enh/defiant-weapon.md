@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "defiant_weapon", path = "json/magic_enhancements2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "140"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "10th"
 
 ## Defiant
 
-**Sources:** Ultimate Equipment pg 140\
 **Aura** strong abjuration; **CL** 10th\
 **Slot** weapon quality; **Price** +2 bonus; **Weight** -
 

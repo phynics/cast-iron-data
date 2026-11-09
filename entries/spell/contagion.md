@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "contagion", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "259"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Spell resistance: yes
 Target: living creature touched
 Descriptors: disease, evil
 :::
-
-**Sources:** PRPG Core Rulebook pg 259
 
 The subject contracts one of the following diseases: blinding sickness, bubonic plague, cackle
 fever, filth fever, leprosy, mindfire, red ache, shakes, or slimy doom. The disease is contracted

@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_planes", path = "json/rules_gm08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "440"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 440
 
 While endless adventure awaits out in the game - there are other worlds beyond these - other
 continents, other planets, other galaxies. Yet even beyond this existence of countless planets exist

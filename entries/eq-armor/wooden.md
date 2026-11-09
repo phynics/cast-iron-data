@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wooden", path = "json/equipment_armor.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "9"
+[[sources]]
+publication = "advanced-players-guide"
+page = "179"
 
 [fields]
 kind = "item"
@@ -13,7 +19,6 @@ category = "Armor"
 weight = "25 lbs."
 +++
 
-**Sources:** Ultimate Equipment pg 9, Advanced Player's Guide pg 179\
 **Cost** 20 gp **Weight** 25 lbs.\
 **Armor Bonus** +3; **Max Dex Bonus** +3; **Armor Check Penalty** -1\
 **Arcane Spell Failure Chance** 15%; **Speed** 30 ft./20 ft.\

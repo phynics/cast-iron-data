@@ -6,6 +6,9 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "esoteric_enchantment", path = "json/feat06.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "154"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "When you cast an enchantment spell using verdant salts as an esoteric
 +++
 
 ## Esoteric Enchantment (Esoteric)
-
-**Sources:** Pathfinder Unchained pg 154
 
 Verdant salts addle your target's mind when properly combined with an enchantment spell.\
 **Benefit:** When you cast an enchantment spell using verdant salts as an

@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shift_earth", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "26"
 
 [fields]
 kind = "class_option"
@@ -27,8 +30,6 @@ group = "kineticist-wild-talent"
 **Saving throw:** see text
 
 **Spell resistance:** no
-
-**Source:** Occult Adventures/26
 
 As a **standard action**, you can push or pull a 5-foot cube of earth or unworked stone within 30
 feet, moving the cube 5 feet in any direction. You can create raised platforms, stairs up a cliff,

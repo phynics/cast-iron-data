@@ -6,6 +6,9 @@ source_ids = ["pathfinder-137-the-city-outside-of-time"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_of_xin_undoros", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "pathfinder-137-the-city-outside-of-time"
+page = "71"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "overwhelming abjuration"
 caster_level = "23rd"
 +++
 
-**Sources:** Pathfinder \#137: The City Outside of Time pg 71\
 **Aura** overwhelming abjuration; **CL** 23rd\
 **Slot** none; **Price** -; **Weight** 20 lbs.
 

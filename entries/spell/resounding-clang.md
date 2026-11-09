@@ -6,6 +6,9 @@ source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "resounding_clang", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "people-of-the-river"
+page = "27"
 
 [fields]
 kind = "spell"
@@ -37,8 +40,6 @@ Saving throw: Reflex negates
 Spell resistance: yes (object)
 Area: 30-ft.-radius burst, centered on you
 :::
-
-**Sources:** People of the River pg 27
 
 You create a loud, resonating clangor that causes metallic objects to vibrate wildly. Affected
 creatures wielding metal weapons take a -1 penalty on attack rolls, while creatures using metallic

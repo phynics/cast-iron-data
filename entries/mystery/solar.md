@@ -6,13 +6,14 @@ source_ids = ["the-harrow-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "solar", path = "json/class_ability_mysteries.json" },
 ]
+[[sources]]
+publication = "the-harrow-handbook"
+page = "26"
 
 [fields]
 kind = "class_option"
 group = "oracle-mystery"
 +++
-
-**Sources:** The Harrow Handbook pg 26
 
 Aimless wanderers and restless nomads, oracles of the solar mystery uncover meaning in the
 ever-changing positions of the sun and the stars in the sky.

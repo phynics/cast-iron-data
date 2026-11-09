@@ -6,6 +6,9 @@ source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "displacing_stone", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "kobolds-of-golarion"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Sources:** Kobolds of Golarion pg 30\
 **Aura** moderate transmutation; **CL** 11th\
 **Slot** none; **Price** 430 gp; **Weight** -
 

@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sargassum_fiend", path = "json/monsters21.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "235"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ algae, continually changing._
 
 **Type:** plant
 
-**Sources:** Bestiary 3 pg 235\
 **Subtype:** Aquatic
 
 **tremorsense:** 120

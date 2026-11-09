@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragonflight_flight", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "14"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using Dragonfly Style, you can attempt an Acrobatics check to h
 +++
 
 ## Dragonflight Flight (Combat)
-
-**Sources:** Martial Arts Handbook pg 14
 
 You can fly short distances through the air.\
 **Prerequisites:** Dex 15, Wis 15, [Dragonfly Style](ref/feat/dragonfly-style),

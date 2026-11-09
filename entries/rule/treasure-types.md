@@ -6,12 +6,13 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "treasure_types", path = "json/rules_adv_gm05.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "362"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Equipment pg 362
 
 Treasure comes in many shapes and forms, from simple coins and lustrous gems to magic swords and
 powerful staves. Due the numerous different kinds of treasure, this system organizes them into types

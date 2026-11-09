@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "optional", path = "json/rules_opt_magic03.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "163"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 163
 
 Words of power are an optional subsystem for the Pathfinder Roleplaying Game. Before making a
 wordcaster, check with your GM to make sure her campaign allows them.

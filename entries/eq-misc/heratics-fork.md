@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heratics_fork", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "212"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "10 gp"
 weight = "1 lb."
 +++
 
-**Sources:** Horror Adventures pg 212\
 **Price** 10 gp; **Weight** 1 lb.\
 **Category** Torture Implements
 

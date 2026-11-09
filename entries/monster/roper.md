@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "roper", path = "json/monsters38.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "237"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ fibrous material whip from its sides._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder RPG Bestiary pg 237\
 **Experience points:** 19,200
 
 **Armor class:** 27/10/26

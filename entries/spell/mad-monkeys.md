@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mad_monkeys", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "227"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: no
 Effect: swarm of monkeys
 Subschool: Summoning
 :::
-
-**Sources:** Ultimate Magic pg 227
 
 You summon a swarm of screeching, mischievous monkeys. The swarm understands and obeys your commands
 and has the statistics of a monkey swarm. Creatures failing a saving throw against the mad monkeys'

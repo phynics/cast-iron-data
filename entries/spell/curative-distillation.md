@@ -6,6 +6,9 @@ source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "curative_distillation", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "healers-handbook"
+page = "8"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: yes (harmless)
 Target: one living creature touched
 Subschool: Healing
 :::
-
-**Sources:** Healer's Handbook pg 8
 
 You concentrate the healing potential of the material component so that it's exceptionally potent
 and restorative. This spell restores a number of hit points equal to 1d8 + 1 point per caster level

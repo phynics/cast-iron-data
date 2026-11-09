@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "branch_pounce", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "107"
+[[sources]]
+publication = "heroes-of-the-wild"
+page = "22"
 
 [fields]
 kind = "feat"
@@ -15,8 +21,6 @@ benefit = "When charging a target by jumping down from above (such as when jumpi
 +++
 
 ## Branch Pounce (Combat)
-
-**Sources:** Ultimate Wilderness pg 107, Heroes of the Wild pg 22
 
 You are adept at exploiting higher ground to its greatest advantage in battle, and can leap from
 above to deal incredible damage to your foes.\

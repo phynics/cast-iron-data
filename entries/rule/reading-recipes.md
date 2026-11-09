@@ -6,12 +6,13 @@ source_ids = ["alchemy-manual"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reading_recipes", path = "json/rules_rulesets02.json" },
 ]
+[[sources]]
+publication = "alchemy-manual"
+page = "4"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Alchemy Manual pg 4
 
 Each alchemical item in this sourcebook features a recipe at the bottom of the item stat block that
 details how to create the item using spontaneous alchemy. Every alchemical recipe adheres to the

@@ -6,12 +6,14 @@ source_ids = ["pathfinder-unchained"]
 relations = [
   { kind = "addon", target = "ref/feat/greater-penetrating-strike", label = "stamina" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "121"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder Unchained pg 121\
 When you use a weapon with which you have Weapon Focus to damage a creature that has
 [damage reduction](ref/rule/damage-reduction), you can spend 5 stamina points to allow all your
 allies within 30 feet to ignore 10 points of that creature's damage reduction for 1 round. This

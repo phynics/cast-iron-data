@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rod_of_perilous_pits", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "14"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint enchantment"
 caster_level = "5th"
 +++
 
-**Sources:** Magic Tactics Toolbox pg 14\
 **Aura** faint enchantment; **CL** 5th\
 **Slot** none; **Price** 25,000 gp; **Weight** 4 lbs.
 

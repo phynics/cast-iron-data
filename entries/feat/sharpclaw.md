@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sharpclaw", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "154"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You gain two claw attacks. These are primary natural attacks that dea
 +++
 
 ## Sharpclaw (Combat)
-
-**Sources:** Advanced Race Guide pg 154
 
 Your nails are large and strong.\
 **Prerequisites:** [Ratfolk](ref/race/ratfolk).\

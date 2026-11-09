@@ -6,12 +6,13 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_planar_crypt", path = "json/monster_families.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "98"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Bestiary 6 pg 98
 
 Crypt dragons patrol the Inner Planes, ever vigilant for transgressions against the honored dead or
 the passage of souls to the afterlife - be they the souls of heroes or villains.

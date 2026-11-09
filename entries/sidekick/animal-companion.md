@@ -6,12 +6,13 @@ source_ids = ["core-rulebook", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animal_companion", path = "json/sidekicks.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** PRPG Core Rulebook\
 An animal companion's abilities are determined by the druid's level and its animal racial traits.
 They remain creatures of the animal type for purposes of determining which spells can affect them.
 

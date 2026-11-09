@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lingering_spell_like_ability", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "89"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "This feat can be taken multiple times. Each time it is taken, you can
 +++
 
 ## Lingering Spell-Like Ability (Monster)
-
-**Sources:** Horror Adventures pg 89
 
 Your [spell-like ability](ref/umr/spell-like-abilities) clings to existence, slowly fading from the
 world.\

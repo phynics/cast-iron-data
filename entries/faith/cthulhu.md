@@ -6,6 +6,9 @@ source_ids = ["pathfinder-109-in-search-of-sanity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cthulhu", path = "json/faiths2.json" },
 ]
+[[sources]]
+publication = "pathfinder-109-in-search-of-sanity"
+page = "66"
 
 [fields]
 kind = "none"
@@ -15,7 +18,6 @@ kind = "none"
 
 **Sub:** The Dreamer in the Deep
 
-**Sources:** Pathfinder \#109: In Search of Sanity pg 66\
 **Monster Link** [Cthulhu](ref/monster/great-old-one-cthulhu)
 
 ### Details

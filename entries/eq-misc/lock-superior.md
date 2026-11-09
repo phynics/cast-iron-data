@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lock_superior", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "57"
+[[sources]]
+publication = "core-rulebook"
+page = "158"
 
 [fields]
 kind = "item"
@@ -16,7 +22,6 @@ weight = "1 lb. (average), 1 lb. (good), 1 lb. (simple), 1 lb. (superior)"
 
 ## Lock
 
-**Sources:** Ultimate Equipment pg 57, PRPG Core Rulebook pg 158\
 **Price** 40 gp (average), 80 gp (good), 20 gp (simple), 150 gp (superior); **Weight** 1 lb.
 (average), 1 lb. (good), 1 lb. (simple), 1 lb. (superior)
 

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/inquisitor" },
 ]
+[[sources]]
+publication = "monster-summoners-handbook"
+page = "7"
 
 [fields]
 kind = "archetype"
 replaces = ["Judgment", "Discern lies", "second judgment", "third judgment", "slayer", "true judgment"]
 +++
 
-**Sources:** Monster Summoner's Handbook pg 7\
 While most inquisitors have learned to take advantage of the movements of their opponents and allies
 in combat, some instead summon creatures as a means of claiming strategic advantage, exploiting the
 mystic connection between themselves and their summoned creatures to impart a bit of their own

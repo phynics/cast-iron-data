@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "delay_poison", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "265"
 
 [fields]
 kind = "spell"
@@ -55,8 +58,6 @@ Spell resistance: yes (harmless)
 Target: creature touched
 Subschool: Healing
 :::
-
-**Sources:** PRPG Core Rulebook pg 265
 
 The subject becomes temporarily immune to poison. Any poison in its system or any poison to which it
 is exposed during the spell's duration does not affect the subject until the spell's duration has

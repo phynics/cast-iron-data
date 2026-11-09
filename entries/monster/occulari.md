@@ -6,6 +6,9 @@ source_ids = ["down-the-blighted-path"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "occulari", path = "json/monsters18.json" },
 ]
+[[sources]]
+publication = "down-the-blighted-path"
+page = "57"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ from each eyelid, forming makeshift fanged maws._
 
 **Senses:** All-around vision, Darkvision 60 ft., True seeing
 
-**Sources:** Down the Blighted Path pg 57\
 **Subtype:** Swarm
 
 **Experience points:** 3,200

@@ -6,6 +6,15 @@ source_ids = ["ultimate-equipment", "advanced-players-guide", "pathfinder-51-the
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mapmakers_kit", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "77"
+[[sources]]
+publication = "advanced-players-guide"
+page = "185"
+[[sources]]
+publication = "pathfinder-51-the-hungry-storm"
+page = "67"
 
 [fields]
 kind = "item"
@@ -14,8 +23,6 @@ price = "10 gp"
 weight = "2 lbs."
 +++
 
-**Sources:** Ultimate Equipment pg 77, Advanced Player's Guide pg 185, Pathfinder \#51: The Hungry
-Storm pg 67\
 **Price** 10 gp; **Weight** 2 lbs.\
 **Category** Tools
 

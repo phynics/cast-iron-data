@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horsemen_of_the_apocalypse_charon", path = "json/monsters_unique2.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "162"
 
 [fields]
 kind = "creature"
@@ -49,7 +52,6 @@ cunning._
 
 **Senses:** Darkvision 60 ft., Detect good, True seeing
 
-**Sources:** Bestiary 6 pg 162\
 **Subtype:** Daemon, Evil, Extraplanar
 
 **Experience points:** 9,830,400

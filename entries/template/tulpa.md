@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tulpa", path = "json/monster_template4.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "254"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Challenge rating:** +2
 
 **Inherited:** present
-
-**Source:** Bestiary 5/254
 
 Tulpas are constructed of ideas and imagination. Beings of pure thought (some theorize that they are
 made of the same mysterious substance as the Astral Plane), tulpas are made physical by a powerful

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/disguise-self" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "172"
 
 [fields]
 kind = "spell"
@@ -57,8 +60,6 @@ Target: you
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** Advanced Class Guide pg 172
 
 This spell functions as [disguise self](ref/spell/disguise-self), except as a swift action you can
 alter the disguise (within the limitations of disguise self). For example, you could make yourself

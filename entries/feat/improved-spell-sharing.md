@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_spell_sharing", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "150"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When you are adjacent to or sharing a square with your companion crea
 +++
 
 ## Improved Spell Sharing (Teamwork)
-
-**Sources:** Advanced Class Guide pg 150
 
 Your link with your companion creature allows you to share your magic with it.\
 **Prerequisites:** Ability to acquire an [animal companion](ref/sidekick/animal-companion),

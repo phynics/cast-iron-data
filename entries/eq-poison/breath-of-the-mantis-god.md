@@ -6,6 +6,12 @@ source_ids = ["adventurers-guide", "inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "breath_of_the_mantis_god", path = "json/equipment_poisons.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "158"
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "51"
 
 [fields]
 kind = "item"
@@ -13,8 +19,6 @@ category = "Poisons"
 price = "1,500 gp"
 weight = "&mdash;"
 +++
-
-**Sources:** Adventurer's Guide pg 158, Inner Sea Intrigue pg 51
 
 **Price** 1,500 gp; **Weight** —
 

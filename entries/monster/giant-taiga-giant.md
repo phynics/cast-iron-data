@@ -6,6 +6,12 @@ source_ids = ["bestiary-2", "pathfinder-4-fortress-of-the-stone-giants"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_taiga_giant", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "131"
+[[sources]]
+publication = "pathfinder-4-fortress-of-the-stone-giants"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -44,7 +50,6 @@ wields a huge, primitive spear._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 2 pg 131, Pathfinder \#4: Fortress of the Stone Giants pg 84\
 **Subtype:** Giant
 
 **Experience points:** 19,200

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guards_and_wards", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "292"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: see text
 Spell resistance: see text
 Area: up to 200 sq. ft./level (S)
 :::
-
-**Sources:** PRPG Core Rulebook pg 292
 
 This powerful spell is primarily used to defend a stronghold or fortress by creating a number of
 magical wards and effects. The ward protects 200 square feet per caster level. The warded area can

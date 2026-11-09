@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/cone-of-cold", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "89"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 89\
 The damage dealt increases to 1d10 points of cold damage per caster level (maximum 15d10). Any
 creature that fails its save is partially encased in ice, reducing its speed by half. Creatures with
 the cold or incorporeal subtype or immunity to being grappled are immune to this effect. The reduced

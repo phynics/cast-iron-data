@@ -6,13 +6,15 @@ source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enlightenment", path = "json/class_ability_disciplines.json" },
 ]
+[[sources]]
+publication = "occult-origins"
+page = "16"
 
 [fields]
 kind = "class_option"
 group = "psychic-discipline"
 +++
 
-**Sources:** Occult Origins pg 16\
 Your quest for enlightenment has opened your eyes to new concepts and heights of spiritual
 awareness. You seek learning that allows you to evolve in mind and spirit, improving your next
 incarnation.

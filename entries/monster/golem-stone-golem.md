@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_stone_golem", path = "json/monsters33.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "163"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ ponderous but inexorable steps._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder RPG Bestiary pg 163\
 **Experience points:** 12,800
 
 **Armor class:** 26/8/26

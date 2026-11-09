@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "verdant", path = "json/class_ability_bloodrager_bloodlines.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "17"
 
 [fields]
 kind = "class_option"
@@ -13,8 +16,6 @@ group = "bloodrager-bloodline"
 +++
 
 ## Verdant Bloodline
-
-**Sources:** Ultimate Wilderness pg 17
 
 Your body is suffused with raw plant life. When you _bloodrage,_ your plant-like characteristics
 bolster your durability and grant you some control over vegetation.

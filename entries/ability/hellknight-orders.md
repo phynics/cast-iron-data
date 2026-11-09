@@ -6,12 +6,13 @@ source_ids = ["inner-sea-world-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hellknight_orders", path = "json/class_abilities2.json" },
 ]
+[[sources]]
+publication = "inner-sea-world-guide"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Inner Sea World Guide\
 A character must choose one Hellknight order to join. The choice of order determines what
 disciplines the character gains access to, and what Reckoning the character may perform for the
 [Hellknight Obedience](ref/feat/hellknight-obedience) feat.

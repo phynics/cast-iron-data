@@ -6,12 +6,13 @@ source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "effects_of_rumors", path = "json/rules_adv_pc01.json" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "14"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Inner Sea Intrigue pg 14
 
 Rumors are most often used to alter a character's overall reputation in a community. In general, a
 positive rumor that becomes common improves the attitude of most NPCs toward the character by one

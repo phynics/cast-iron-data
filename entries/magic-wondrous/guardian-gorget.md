@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guardian_gorget", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "258"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration and conjuration"
 caster_level = "13th"
 +++
 
-**Sources:** Ultimate Equipment pg 258\
 **Aura** strong abjuration and conjuration; **CL** 13th\
 **Slot** neck; **Price** 12,000 gp; **Weight** 1 lb.
 

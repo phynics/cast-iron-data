@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "choker", path = "json/monsters05.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "45"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ _This hunched-over wretch has long, pliable arms like tentacles capped with five
 
 **Size:** small
 
-**Sources:** Pathfinder RPG Bestiary pg 45\
 **Experience points:** 600
 
 **Armor class:** 17/13/15

@@ -6,12 +6,13 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "racial_traits", path = "json/rules_basics01.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "8"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Advanced Player's Guide pg 8
 
 It is important to note that "racial traits" are not the same as the [trait](ref/rule/traits) rules.
 Those traits are effectively half-feats, intended to tie characters to the specific nations,

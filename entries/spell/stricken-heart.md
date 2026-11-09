@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stricken_heart", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "194"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: yes
 Target: creature touched
 Descriptors: death
 :::
-
-**Sources:** Advanced Class Guide pg 194
 
 This spell covers your hand with a writhing black aura. As part of casting the spell, you can make a
 melee touch attack that deals 2d6 points of negative energy damage and causes the target to be

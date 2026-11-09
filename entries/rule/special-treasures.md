@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "special_treasures", path = "json/rules_gm03.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "111"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 111
 
 Art objects include paintings, sculptures, ceramics, tapestries, and so on. Heavily ornamented
 weapons and armor may be useless in the field but highly valuable as art objects. Everyday objects

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "transmute_rock_to_mud", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "361"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 Area: up to two 10-ft. cubes/level (S)
 Descriptors: earth
 :::
-
-**Sources:** PRPG Core Rulebook pg 361
 
 This spell turns natural, uncut, or unworked rock of any sort into an equal volume of mud. Magical
 stone is not affected by the spell. The depth of the mud created cannot exceed 10 feet. A creature

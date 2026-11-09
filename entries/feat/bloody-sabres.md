@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloody_sabres", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "208"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "If you hit an opponent with both your primary weapon and your off-han
 +++
 
 ## Bloody Sabres (Combat)
-
-**Sources:** Inner Sea Gods pg 208
 
 Imitating the forms of your god, you strike deep and inflict a bloody wound.\
 **Prerequisites:** Dex 15, [Exotic Weapon Proficiency](ref/feat/exotic-weapon-proficiency) (sawtooth

@@ -6,6 +6,9 @@ source_ids = ["the-house-on-hook-street"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dreamspawn", path = "json/monster_template1.json" },
 ]
+[[sources]]
+publication = "the-house-on-hook-street"
+page = "62"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +1
-
-**Source:** The House on Hook Street/62
 
 Dreamspawn creatures are created when the lucid bodies of dreamers are killed in certain correupted
 areas of the [Dimension of Dreams](ref/rule/dimension-of-dreams), their nightmarish final moments

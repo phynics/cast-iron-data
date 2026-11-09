@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "pathfinder-society-field-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trapspringers_gloves", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "239"
+[[sources]]
+publication = "pathfinder-society-field-guide"
+page = "54"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Equipment pg 239, Pathfinder Society Field Guide pg 54\
 **Aura** faint divination; **CL** 5th\
 **Slot** hands; **Price** 4,000 gp; **Weight** 1 lb.
 

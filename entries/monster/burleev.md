@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burleev", path = "json/monsters04.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "299"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ replaces its missing flesh._
 
 **Senses:** Darkvision 60 ft., Detect magic
 
-**Sources:** Inner Sea Gods pg 299\
 **Subtype:** [cold](ref/subtype/cold) or [fire](ref/subtype/fire),
 [extraplanar](ref/subtype/extraplanar)
 

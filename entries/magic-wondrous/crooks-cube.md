@@ -6,6 +6,9 @@ source_ids = ["antiheros-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crooks_cube", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "antiheros-handbook"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "11th"
 +++
 
-**Sources:** Antihero's Handbook pg 30\
 **Aura** moderate divination; **CL** 11th\
 **Slot** none; **Price** 26,000 gp; **Weight** 4 lbs.
 

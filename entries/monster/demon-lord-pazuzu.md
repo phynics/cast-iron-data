@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_lord_pazuzu", path = "json/monsters_unique.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "50"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ ft., distraction, DC 43), unholy aura (DC 31)
 
 **Senses:** Darkvision 60 ft., Detect good, Detect law, True seeing
 
-**Sources:** Bestiary 4 pg 50\
 **Subtype:** Air, Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 9,830,400

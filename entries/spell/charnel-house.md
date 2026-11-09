@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charnel_house", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "111"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Area: 20-ft. cube (S)
 Subschool: Shadow
 Descriptors: evil, shadow
 :::
-
-**Sources:** Horror Adventures pg 111
 
 By sacrificing a living creature, you create the grisly illusion of viscera and gore splattered
 about the nearby area. When the casting time is complete, the walls drip with blood and the floor is

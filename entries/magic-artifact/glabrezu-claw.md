@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "glabrezu_claw", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "159"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong varied [evil]"
 caster_level = "20th"
 +++
 
-**Sources:** Mythic Adventures pg 159\
 **Aura** strong varied \[evil\]; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 5 lbs.
 

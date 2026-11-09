@@ -6,6 +6,9 @@ source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "voracious_blade", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "inner-sea-monster-codex"
+page = "59"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When wielding a rhoka sword, you can channel your daemonic energies t
 +++
 
 ## Voracious Blade (Combat)
-
-**Sources:** Inner Sea Monster Codex pg 59
 
 You can channel your daemonic energies through the vile blade you wield.\
 **Prerequisites:** [Weapon Focus](ref/feat/weapon-focus) (rhoka sword), base attack bonus +4,

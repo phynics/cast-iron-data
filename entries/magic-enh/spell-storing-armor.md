@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_storing_armor", path = "json/magic_enhancements.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "122"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "12th"
 
 ## Spell Storing
 
-**Sources:** Ultimate Equipment pg 122\
 **Aura** strong evocation; **CL** 12th\
 **Slot** armor quality; **Price** +1 bonus; **Weight** -
 

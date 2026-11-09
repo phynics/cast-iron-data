@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcane_pretender", path = "json/npcs6.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "89"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "13"
 
 **Challenge rating:** 13
 
-**Sources:** NPC Codex pg 89\
 **XP** 25,600\
 Halfling [fighter](ref/class/fighter) 14\
 CN Small humanoid (halfling)\

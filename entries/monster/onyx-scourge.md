@@ -6,6 +6,9 @@ source_ids = ["pathfinder-120-vault-of-the-onyx-citadel"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "onyx_scourge", path = "json/monsters18.json" },
 ]
+[[sources]]
+publication = "pathfinder-120-vault-of-the-onyx-citadel"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ a mouth._
 
 **Senses:** Darkvision 60 ft., See in darkness
 
-**Sources:** Pathfinder \#120: Vault of the Onyx Citadel pg 86\
 **Subtype:** Earth, Elemental, Extraplanar
 
 **tremorsense:** 60

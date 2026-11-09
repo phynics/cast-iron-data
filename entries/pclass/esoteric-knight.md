@@ -6,14 +6,15 @@ source_ids = ["chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "esoteric_knight", path = "json/prestige_classes4.json" },
 ]
+[[sources]]
+publication = "chronicle-of-legends"
+page = "10"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d10."
 +++
-
-**Sources:** Chronicle of Legends pg 10
 
 Mysterious warriors and wielders of psychic powers, esoteric knights are as rare as the obscure
 techniques they obsessively practice. While others seek the perfection of mind and body in the

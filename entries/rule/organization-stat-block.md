@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "organization_stat_block", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "113"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 113
 
 An organization's stat block is arranged as follows.
 

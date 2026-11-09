@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gnoll_flind", path = "json/monsters12.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "100"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ cruel gaze._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Monster Codex pg 100\
 **Subtype:** Gnoll\
 **Experience points:** 800
 

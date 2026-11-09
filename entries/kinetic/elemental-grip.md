@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_grip", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "24"
 
 [fields]
 kind = "class_option"
@@ -25,8 +28,6 @@ group = "kineticist-wild-talent"
 **Saving throw:** Will negates
 
 **Spell resistance:** yes
-
-**Source:** Occult Adventures/24
 
 You use your element to halt a creature associated with your element, as
 [hold monster](ref/spell/hold-monster) except it requires concentration to maintain, and it works

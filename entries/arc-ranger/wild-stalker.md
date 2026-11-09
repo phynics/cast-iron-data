@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ranger" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "68"
 
 [fields]
 kind = "archetype"
 replaces = ["1st favored enemy", "2nd-level combat style feat", "Hunter's bond", "2nd, 3rd, 4th, and 5th favored enemy", "6th-, 10th-, 14th-, and 18th-level combat style feat"]
 +++
 
-**Sources:** Ultimate Combat pg 68\
 Civilization grows stronger and more decadent with each passing year. It tears into unclaimed
 wilderness and destroys the fragile ecology in its constant push for expansion and exploitation. The
 wild stalker forsakes the bonds of community and lives in the trackless wilds far from others of his

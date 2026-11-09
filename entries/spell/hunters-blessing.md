@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hunters_blessing", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "235"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: one creature/level, no two of which can be more than 30 ft. apart
 :::
-
-**Sources:** Inner Sea Gods pg 235
 
 When casting this spell, you designate a type or type and subtype of creature (using the
 [ranger's](ref/class/ranger) [favored enemy](ref/ability/favored-enemy) categories) and a type of

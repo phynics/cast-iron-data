@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ranger" },
 ]
+[[sources]]
+publication = "dungeoneers-handbook"
+page = "21"
 
 [fields]
 kind = "archetype"
 replaces = ["Track", "Endurance", "1st favored terrain"]
 +++
 
-**Sources:** Dungeoneer's Handbook pg 21\
 The groom attends to the needs of the party's mounts and beasts of burden during their adventures,
 and guards these animals while the party goes underground.
 

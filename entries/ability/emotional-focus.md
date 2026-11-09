@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "emotional_focus", path = "json/class_abilities8.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Occult Adventures\
 Each [phantom](ref/sidekick/phantom) has an emotional focus - a powerful emotion based on some
 experience in life that keeps it tethered to the Material and Ethereal planes. This emotional focus
 also grants the phantom abilities that it can use while manifested. The type of each ability and its

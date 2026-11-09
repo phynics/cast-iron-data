@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stunning_fist", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "135"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "A monk receives Stunning Fist as a bonus feat at 1st level, even if h
 +++
 
 ## Stunning Fist (Combat)
-
-**Sources:** PRPG Core Rulebook pg 135
 
 You know just where to strike to temporarily stun a foe.\
 **Prerequisites:** Dex 13, Wis 13, [Improved Unarmed Strike](ref/feat/improved-unarmed-strike), base

@@ -6,12 +6,14 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unwavering_vigilance", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "9"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Villain Codex pg 9\
 **School** conjuration (teleportation) and divination; **Level** 8\
 **Casting Time** 80 minutes\
 **Components** V, S, M (one golden thread worth 1,000 gp for each caster), F (a miniature doll made

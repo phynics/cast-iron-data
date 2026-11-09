@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_of_shards", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "23"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: none
 Spell resistance: no
 Target: one shield you wield
 :::
-
-**Sources:** Armor Master's Handbook pg 23
 
 This defensive spell must be cast on a shield you are currently wielding, and fractures the shield
 into two shards, plus one additional shard per 2 caster levels (to a maximum of 12 shards at 20th

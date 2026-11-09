@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prestige_classes", path = "json/rules_basics01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "374"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 374
 
 Prestige classes allow characters to become truly exceptional, gaining powers beyond the ken of
 their peers. Unlike the core classes, characters must meet specific requirements before they can

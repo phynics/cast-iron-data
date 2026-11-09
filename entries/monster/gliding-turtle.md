@@ -6,6 +6,9 @@ source_ids = ["pathfinder-121-the-lost-outpost"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gliding_turtle", path = "json/monsters12.json" },
 ]
+[[sources]]
+publication = "pathfinder-121-the-lost-outpost"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ _This giant turtle has a large, thin membrane of scaly skin extending from its s
 
 **Senses:** Low-light vision
 
-**Sources:** Pathfinder \#121: The Lost Outpost pg 82\
 **Experience points:** 600
 
 **Armor class:** 14/9/14

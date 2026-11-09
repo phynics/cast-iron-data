@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "pathfinder-66-the-dead-heart-of-xin"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "azata_raelis", path = "json/monsters27.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "39"
+[[sources]]
+publication = "pathfinder-66-the-dead-heart-of-xin"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ glowing runes._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 5 pg 39, Pathfinder \#66: The Dead Heart of Xin pg 84\
 **Subtype:** Azata, Chaotic, Extraplanar, Good
 
 **Experience points:** 9,600

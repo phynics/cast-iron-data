@@ -6,6 +6,9 @@ source_ids = ["pathfinder-91-battle-of-bloodmarch-hills"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "frosty_aura", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "pathfinder-91-battle-of-bloodmarch-hills"
+page = "71"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Spell resistance: no (harmless, see text)
 Target: you (see text)
 Descriptors: cold
 :::
-
-**Sources:** Pathfinder \#91: Battle of Bloodmarch Hills pg 71
 
 The spell allows you to channel cold into your very being. If you don't already have the cold
 subtype, this spell grants you the cold subtype. If you already have the cold subtype, you instead

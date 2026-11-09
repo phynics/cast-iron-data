@@ -6,6 +6,12 @@ source_ids = ["curse-of-the-crimson-throne", "pathfinder-12-crown-of-fangs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "akaruzug", path = "json/monsters01.json" },
 ]
+[[sources]]
+publication = "curse-of-the-crimson-throne"
+page = "466"
+[[sources]]
+publication = "pathfinder-12-crown-of-fangs"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -45,7 +51,6 @@ has been affixed to its chest._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Curse of the Crimson Throne pg 466, Pathfinder \#12: Crown of Fangs pg 82\
 **Experience points:** 51,200
 
 **Armor class:** 30/16/27

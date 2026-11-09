@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tear_away_pickpockets_outfit", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "89"
+[[sources]]
+publication = "adventurers-armory"
+page = "19"
 
 [fields]
 kind = "item"
@@ -16,7 +22,6 @@ weight = "3 lbs."
 
 ## Pickpocket's outfit
 
-**Sources:** Ultimate Equipment pg 89, Adventurer's Armory pg 19\
 **Price** 5 gp; **Weight** 3 lbs.\
 **Category** Clothing
 

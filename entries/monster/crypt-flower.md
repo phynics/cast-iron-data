@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crypt_flower", path = "json/monsters06.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "67"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ pair of serpentine vines._
 
 **Type:** plant
 
-**Sources:** Bestiary 6 pg 67\
 **tremorsense:** 30
 
 **Experience points:** 3,200

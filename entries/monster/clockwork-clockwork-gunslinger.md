@@ -6,6 +6,9 @@ source_ids = ["construct-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clockwork_clockwork_gunslinger", path = "json/monsters05.json" },
 ]
+[[sources]]
+publication = "construct-handbook"
+page = "33"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ fits snugly between its pectoral armor plates._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Construct Handbook pg 33\
 **Subtype:** Clockwork
 
 **Experience points:** 3,200

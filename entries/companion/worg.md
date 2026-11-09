@@ -6,13 +6,14 @@ source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "worg", path = "json/class_ability_druid_companions.json" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "14"
 
 [fields]
 kind = "class_option"
 group = "animal-companion"
 +++
-
-**Sources:** Inner Sea Combat pg 14
 
 **Companion Type**
 

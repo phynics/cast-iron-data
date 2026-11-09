@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "death_whisperer", path = "json/npcs7.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "158"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "18"
 
 **Challenge rating:** 18
 
-**Sources:** NPC Codex pg 158\
 **XP** 153,600\
 Human [rogue](ref/class/rogue) 19\
 LE Medium humanoid (human)\

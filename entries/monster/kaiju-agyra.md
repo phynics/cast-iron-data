@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kaiju_agyra", path = "json/monsters_unique2.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "166"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ _This two-headed monstrosity has vast wings and a long tail covered in a forest 
 
 **Senses:** Darkvision 600 ft., Low-light vision
 
-**Sources:** Bestiary 4 pg 166\
 **Subtype:** Air, Kaiju
 
 **Experience points:** 3,276,800

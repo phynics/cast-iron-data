@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/fleeting-memory" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "25"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Descriptors: mind-affecting
 :::
 
 ### Mass Fleeting Memory
-
-**Sources:** Black Markets pg 25
 
 This spell functions as [fleeting memory](ref/spell/fleeting-memory), except that it affects
 multiple creatures.

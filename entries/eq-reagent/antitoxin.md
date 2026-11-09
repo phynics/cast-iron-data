@@ -6,13 +6,14 @@ source_ids = ["adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "antitoxin", path = "json/equipment_alchemical_reagents.json" },
 ]
+[[sources]]
+publication = "adventurers-armory"
+page = "26"
 
 [fields]
 kind = "item"
 category = "Alchemical Reagents"
 +++
-
-**Sources:** Adventurer's Armory pg 26
 
 |Price|Weight|Equipment|
 | --- | --- | --- |

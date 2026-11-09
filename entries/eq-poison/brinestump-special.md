@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brinestump_special", path = "json/equipment_poisons.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-wild"
+page = "20"
 
 [fields]
 kind = "item"
@@ -13,8 +16,6 @@ category = "Poisons"
 price = "400 gp"
 weight = "&mdash;"
 +++
-
-**Sources:** Heroes of the Wild pg 20
 
 **Price** 400 gp; **Weight** —
 

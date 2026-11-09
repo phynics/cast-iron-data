@@ -6,6 +6,9 @@ source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hurricane_punch", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
+page = "19"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you hit the same creature with unarmed strikes at least twice in
 +++
 
 ## Hurricane Punch (Combat)
-
-**Sources:** Elemental Master's Handbook pg 19
 
 Your fast strikes hit with the force of a hurricane, pushing your foes away.\
 **Prerequisites:** Str 13, [Improved Bull Rush](ref/feat/improved-bull-rush),

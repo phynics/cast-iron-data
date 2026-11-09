@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "urban_planning", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "156"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 156
 
 The first question the GM must ask about a city is what drew the original settlers to this specific
 spot, and why they stayed. Was it the protection offered by a mountainous bluff? Proximity to a

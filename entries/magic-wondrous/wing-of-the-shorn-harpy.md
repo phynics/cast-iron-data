@@ -6,6 +6,9 @@ source_ids = ["occult-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wing_of_the_shorn_harpy", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "occult-realms"
+page = "7"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong evocation"
 caster_level = "16th"
 +++
 
-**Sources:** Occult Realms pg 7\
 **Aura** strong evocation; **CL** 16th\
 **Slot** none; **Price** 48,000 gp; **Weight** -
 

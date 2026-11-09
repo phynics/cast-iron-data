@@ -6,6 +6,9 @@ source_ids = ["inner-sea-npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "red_mantis_assassin", path = "json/npcs6.json" },
 ]
+[[sources]]
+publication = "inner-sea-npc-codex"
+page = "47"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "13"
 
 **Challenge rating:** 13
 
-**Sources:** Inner Sea NPC Codex pg 47\
 **XP** 25,600\
 Half-elf [rogue](ref/class/rogue) 7/Red Mantis assassin 7\
 LE Medium humanoid (elf, human)\

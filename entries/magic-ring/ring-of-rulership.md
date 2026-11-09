@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_rulership", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "153"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong enchantment"
 caster_level = "12th"
 +++
 
-**Sources:** Villain Codex pg 153\
 **Aura** strong enchantment; **CL** 12th\
 **Slot** ring; **Price** 14,000 gp; **Weight** -
 

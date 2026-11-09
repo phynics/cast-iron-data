@@ -6,6 +6,8 @@ source_ids = ["pathfinder-128-songbird-scion-saboteur"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "korianas_blade", path = "json/magic_relics.json" },
 ]
+[[sources]]
+publication = "pathfinder-128-songbird-scion-saboteur"
 
 [fields]
 kind = "item"
@@ -16,7 +18,6 @@ aura = "strong abjuration"
 caster_level = "17th"
 +++
 
-**Sources:** Pathfinder \#128: Songbird, Scion, Saboteur\
 **Suitable For** PCs of 4th-6th level\
 **Aura** strong abjuration\
 **Slot** none; **CL** 17th\

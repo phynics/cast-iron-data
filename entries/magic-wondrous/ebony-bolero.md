@@ -6,6 +6,9 @@ source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ebony_bolero", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "agents-of-evil"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Sources:** Agents of Evil pg 28\
 **Aura** moderate conjuration; **CL** 9th\
 **Slot** shoulders; **Price** 18,000 gp; **Weight** 5 lbs.
 

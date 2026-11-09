@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scale_spikes", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "141"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
 Target: one living creature/level that is a reptile, has the dragon type, or has the reptilian subtype, and that also has a natural armor bonus of at least +1
 :::
-
-**Sources:** Monster Codex pg 141
 
 When the target is affected by this spell, its scales grow jagged spikes. These spikes act like +1
 armor spikes. The subject is automatically considered proficient with these scale spikes.

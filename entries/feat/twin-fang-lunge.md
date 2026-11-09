@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "twin_fang_lunge", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "105"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using Twin Fang Style, you can spend a full-round action to mov
 +++
 
 ## Twin Fang Lunge (Combat)
-
-**Sources:** Villain Codex pg 105
 
 You strike with the force of a serpent's lunge.\
 **Prerequisites:** Dex 15; [Quick Draw](ref/feat/quick-draw);

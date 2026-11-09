@@ -6,6 +6,9 @@ source_ids = ["pathfinder-109-in-search-of-sanity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "yig", path = "json/faiths9.json" },
 ]
+[[sources]]
+publication = "pathfinder-109-in-search-of-sanity"
+page = "73"
 
 [fields]
 kind = "none"
@@ -15,7 +18,6 @@ kind = "none"
 
 **Sub:** Father of Serpents
 
-**Sources:** Pathfinder \#109: In Search of Sanity pg 73\
 **Monster Link** [Yig](ref/monster/great-old-one-yig)
 
 ### Details

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "74"
 
 [fields]
 kind = "archetype"
 replaces = ["Trackless step", "a thousand faces", "Wild shape", "Resist nature's lure", "Venom immunity", "timeless body"]
 +++
 
-**Sources:** Advanced Race Guide pg 74\
 Some youths, abandoned in the wilderness and then raised by animals, are so connected with their
 adoptive home and family that they become feral. Suspicious of civilized society, these foundlings
 often choose allegiance to the wild over their human forebears. A feral child has the following

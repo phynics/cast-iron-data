@@ -6,6 +6,9 @@ source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "temporal_divergence", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "legacy-of-the-first-world"
+page = "31"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Legacy of the First World pg 31
 
 This spell allows you to witness two divergent decisions and choose which to pursue. Upon completing
 this spell, you must immediately choose two other different spells that you could cast at that

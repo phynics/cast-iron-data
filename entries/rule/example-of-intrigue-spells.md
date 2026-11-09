@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "example_of_intrigue_spells", path = "json/rules_adv_gm03.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "163"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 163
 
 The following detailed example puts some of the above advice into practice, using two of the most
 difficult spells to adjudicate, divination and vision. The GM in this example provides different

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snatch_and_drop", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "inner-sea-monster-codex"
+page = "53"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "While this feat is primarily taken by strix, other creatures with nat
 +++
 
 ## Snatch and Drop (Combat)
-
-**Sources:** Inner Sea Monster Codex pg 53
 
 You have mastered the ability to grab foes while you fly by them, carry them into the air, and drop
 them from extreme heights.\

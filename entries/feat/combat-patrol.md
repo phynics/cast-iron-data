@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "combat_patrol", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "156"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "As a full-round action, you may set up a combat patrol, increasing yo
 +++
 
 ## Combat Patrol (Combat)
-
-**Sources:** Advanced Player's Guide pg 156
 
 You range across the battlefield, dealing with threats wherever they arise.\
 **Prerequisites:** [Combat Reflexes](ref/feat/combat-reflexes), [Mobility](ref/feat/mobility), base

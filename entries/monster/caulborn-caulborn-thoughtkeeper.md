@@ -6,6 +6,9 @@ source_ids = ["occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "caulborn_caulborn_thoughtkeeper", path = "json/monsters04.json" },
 ]
+[[sources]]
+publication = "occult-bestiary"
+page = "12"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ into terrifying jaws._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Occult Bestiary pg 12\
 **Subtype:** Extraplanar
 
 **thoughtsense:** 60

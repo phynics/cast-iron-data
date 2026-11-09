@@ -6,6 +6,9 @@ source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fharaas", path = "json/faiths3.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "120"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Fharaas**
 
 **Sub:** The Seer in Skin
-
-**Sources:** Book of the Damned pg 120
 
 ### Details
 

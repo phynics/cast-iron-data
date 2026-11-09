@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gnoll_gnoll_warden", path = "json/monsters12.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "95"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ abilities = ["18", "17", "15", "10", "13", "6"]
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Monster Codex pg 95\
 **Subtype:** Gnoll\
 **Experience points:** 9,600
 

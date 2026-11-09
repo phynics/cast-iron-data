@@ -6,12 +6,13 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_traits_pa", path = "json/rules_campaign_types09.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "62"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Planar Adventures pg 62
 
 A plane's magic trait describes how magic works on that plane compared to how it works on the
 Material Plane (which has the normal magic trait). Particular locations on a plane, such as those

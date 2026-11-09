@@ -6,6 +6,9 @@ source_ids = ["tomb-of-the-iron-medusa"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "infensus_mucro", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "tomb-of-the-iron-medusa"
+page = "13"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "20th"
 +++
 
-**Sources:** Tomb of the Iron Medusa pg 13\
 **Aura** moderate transmutation; **CL** 20th\
 **Slot** none; **Price** -; **Weight** -
 

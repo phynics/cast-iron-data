@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spider_ogre_spider", path = "json/monsters39.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "254"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ vaguely, but disturbingly, humanoid._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 3 pg 254\
 **tremorsense:** 60
 
 **Type:** vermin

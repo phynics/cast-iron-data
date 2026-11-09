@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_wilding_strike", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "114"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "The damage die of your unarmed strikes increases to 1d8 (or 1d6 if yo
 +++
 
 ## Improved Wilding Strike (Combat)
-
-**Sources:** Ultimate Wilderness pg 114
 
 You gain greater skill with the natural power of your blows.\
 **Prerequisites:** Str 16, [Improved Unarmed Strike](ref/feat/improved-unarmed-strike),

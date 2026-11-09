@@ -6,6 +6,9 @@ source_ids = ["pathfinder-61-shards-of-sin"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "second_story_harness", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "pathfinder-61-shards-of-sin"
+page = "65"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "55 gp"
 weight = "3 lbs."
 +++
 
-**Sources:** Pathfinder \#61: Shards of Sin pg 65\
 **Price** 55 gp; **Weight** 3 lbs.\
 **Category** Adventuring Gear
 

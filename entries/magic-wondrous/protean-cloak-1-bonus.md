@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "protean_cloak_1_bonus", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "55"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "5th"
 
 ## Protean Cloak
 
-**Sources:** Planar Adventures pg 55\
 **Aura** faint abjuration; **CL** 5th\
 **Slot** shoulders; **Price** 500 gp (+1 bonus), 2,000 gp (+2 bonus), 4,500 gp (+3 bonus), 8,000 gp
 (+4 bonus), 12,500 gp (+5 bonus); **Weight** 1 lb.

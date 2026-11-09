@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bouncing_spell_like_ability", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "83"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "This feat can be taken multiple times. Each time it is taken, you can
 +++
 
 ## Bouncing Spell-Like Ability (Monster)
-
-**Sources:** Horror Adventures pg 83
 
 You can retarget one of your [spell-like abilities](ref/umr/spell-like-abilities) when it fails to
 affect its original target.\

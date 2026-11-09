@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_inner_fortitude_minor", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "171"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "7th"
 
 ## Ring of Inner Fortitude
 
-**Sources:** Ultimate Equipment pg 171\
 **Aura** moderate conjuration; **CL** 7th\
 **Slot** ring; **Price** 18,000 gp (minor), 42,000 gp (major), 66,000 gp (greater); **Weight** -
 

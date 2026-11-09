@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plane_of_air", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "189"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 189
 
 The Plane of Air is an empty plane, consisting of sky above and sky below. It is the most
 comfortable and survivable of the Inner Planes and is the home of all manner of airborne creatures.

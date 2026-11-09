@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "material_plane", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "188"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 188
 
 The Material Plane is the center of most cosmologies and defines what is considered normal. It is
 the plane most campaign worlds occupy. The Material Plane has the following traits:

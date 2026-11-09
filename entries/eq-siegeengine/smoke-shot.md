@@ -6,14 +6,15 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "smoke_shot", path = "json/equipment_siege_engines.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "164"
 
 [fields]
 kind = "item"
 category = "Siege Engines"
 weight = "20 lbs."
 +++
-
-**Sources:** Ultimate Combat pg 164
 
 This hard ceramic sphere contains two alchemical substances separated by a thin barrier, much like a
 [smoke pellet](ref/eq-misc/smoke-pellet) in larger form, usable by cannons and fiend's mouth

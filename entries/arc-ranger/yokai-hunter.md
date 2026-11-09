@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ranger" },
 ]
+[[sources]]
+publication = "dragon-empires-primer"
+page = "23"
 
 [fields]
 kind = "archetype"
 replaces = ["Favored enemy", "Woodland stride", "Camouflage"]
 +++
 
-**Sources:** Dragon Empires Primer pg 23\
 Yokai hunters possess a supernatural tether to the spirit worlds that shroud mortal existence. They
 use their powers to peer into the realm of the dead, and are adept at hunting those who dwell in the
 realm between the Material Plane and the Great Beyond, the supernatural beings Tians refer to as

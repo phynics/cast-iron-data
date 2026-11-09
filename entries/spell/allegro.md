@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "allegro", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "205"
 
 [fields]
 kind = "spell"
@@ -37,8 +40,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Ultimate Magic pg 205
 
 This spell allows you to act more swiftly while maintaining a bardic performance. You must already
 be maintaining a bardic performance before you can cast allegro. You gain the benefits of the spell

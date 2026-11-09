@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "open_close", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "317"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Saving throw: Will negates (object)
 Spell resistance: yes (object)
 Target: object weighing up to 30 lbs. or portal that can be opened or closed
 :::
-
-**Sources:** PRPG Core Rulebook pg 317
 
 You can open or close (your choice) a door, chest, box, window, bag, pouch, bottle, barrel, or other
 container. If anything resists this activity (such as a bar on a door or a lock on a chest), the

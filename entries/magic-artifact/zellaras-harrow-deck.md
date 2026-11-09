@@ -6,6 +6,12 @@ source_ids = ["curse-of-the-crimson-throne", "pathfinder-7-edge-of-anarchy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "zellaras_harrow_deck", path = "json/magic_artifact3.json" },
 ]
+[[sources]]
+publication = "curse-of-the-crimson-throne"
+page = "437"
+[[sources]]
+publication = "pathfinder-7-edge-of-anarchy"
+page = "21"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate divination"
 caster_level = "10th"
 +++
 
-**Sources:** Curse of the Crimson Throne pg 437, Pathfinder \#7: Edge of Anarchy pg 21\
 **Aura** moderate divination; **CL** 10th\
 **Slot** none; **Price** -; **Weight** 1 lb.
 

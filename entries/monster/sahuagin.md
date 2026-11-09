@@ -6,6 +6,9 @@ source_ids = ["bestiary", "monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sahuagin", path = "json/monsters37.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "239"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ piscine head features a toothy maw._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 239\
 **Subtype:** Aquatic
 
 **Experience points:** 600

@@ -6,6 +6,9 @@ source_ids = ["mythical-monsters-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aridus", path = "json/monsters_unique.json" },
 ]
+[[sources]]
+publication = "mythical-monsters-revisited"
+page = "62"
 
 [fields]
 kind = "creature"
@@ -50,7 +53,6 @@ flesh._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Mythical Monsters Revisited pg 62\
 **Subtype:** Air, Fire, Native
 
 **Experience points:** 204,800

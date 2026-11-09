@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/heroism" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "216"
 
 [fields]
 kind = "spell"
@@ -60,8 +63,6 @@ Descriptors: mind-affecting
 :::
 
 ### Hollow Heroism
-
-**Sources:** Ultimate Intrigue pg 216
 
 This spell functions as [heroism](ref/spell/heroism), except that you can reverse the spell by
 issuing a special command as a standard action if you are within medium range (100 feet + 10 feet

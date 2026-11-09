@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "successful_spell_resistance", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "567"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 567
 
 [Spell resistance](ref/rule/spell-resistance) prevents a spell or a
 [spell-like ability](ref/umr/spell-like-abilities) from affecting or harming the resistant creature,

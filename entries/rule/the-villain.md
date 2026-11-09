@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_villain", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "80"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 80
 
 **The Villain:** Almost on a par with the hero, the villain is a necessary figure in a
 story-oriented Pathfinder adventure. More than any other NPC, the villain gives the GM the

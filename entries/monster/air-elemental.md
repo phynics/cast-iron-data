@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "air_elemental", path = "json/monsters09.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "120"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ it into ominous shapes._
 
 **Size:** small
 
-**Sources:** Pathfinder RPG Bestiary pg 120\
 **Subtype:** Air, Elemental, Extraplanar
 
 **Experience points:** 400

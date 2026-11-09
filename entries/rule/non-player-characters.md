@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "non_player_characters", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "80"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 80
 
 While player characters provide the focus and driving force of a game's plot, over the course of
 even a single adventure dozens or even hundreds of other characters take their entrances and exits,

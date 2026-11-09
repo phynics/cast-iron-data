@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "pathfinder-12-crown-of-fangs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mobogo", path = "json/monsters17.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "194"
+[[sources]]
+publication = "pathfinder-12-crown-of-fangs"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -44,7 +50,6 @@ bulbous eyes._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 3 pg 194, Pathfinder \#12: Crown of Fangs pg 88\
 **Subtype:** Aquatic
 
 **Experience points:** 9,600

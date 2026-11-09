@@ -6,14 +6,15 @@ source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "poppet_familiar", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "31"
 
 [fields]
 kind = "feat"
 prerequisites = "Ability to acquire a new familiar, caster level 3rd."
 benefit = "You can choose a standard Tiny poppet that you control as your familiar. This poppet cannot have any existing augmentations. You absorb the poppet's token harmlessly into your body, making it impossible for you to transfer control of the poppet thereafter. A poppet familiar uses the rules for regular familiars, with the following exceptions: its type does not change, and it does not gain the ability to speak with others of its kind. The poppet's Wisdom score increases to match its Intelligence score and it can speak and understand one language chosen by you at the time you select the poppet as your familiar. A poppet familiar has Craft, Perception, Profession, and Stealth as class skills. A poppet familiar cannot receive augmentations from crafting, but its connection to you allows it to spontaneously generate augmentations of your choice as you increase in level."
 +++
-
-**Sources:** Adventurer's Armory 2 pg 31
 
 You may select a poppet as your familiar.\
 **Prerequisites:** Ability to acquire a new familiar, caster level 3rd.\

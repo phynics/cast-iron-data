@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/guardian-monument-lesser" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "9"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Spell resistance: yes
 :::
 
 ### Greater Guardian Monument
-
-**Sources:** Arcane Anthology pg 9
 
 This spell functions as [lesser guardian monument](ref/spell/guardian-monument-lesser), except it
 grants DR 4/magic.

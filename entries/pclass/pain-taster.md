@@ -6,14 +6,18 @@ source_ids = ["occult-mysteries", "pathfinder-15-the-armageddon-echo"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pain_taster", path = "json/prestige_classes4.json" },
 ]
+[[sources]]
+publication = "occult-mysteries"
+page = "46"
+[[sources]]
+publication = "pathfinder-15-the-armageddon-echo"
+page = "60"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d10."
 +++
-
-**Sources:** Occult Mysteries pg 46, Pathfinder \#15: The Armageddon Echo pg 60
 
 For pain tasters, agony is more than a pleasure - it's a path to power. Until recently, pain tasting
 was a practice employed exclusively by the drow. However, in recent decades Kuthite scholars have

@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ironbound_ring_master", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "36"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "5th"
 
 ## Ironbound Ring
 
-**Sources:** Adventurer's Guide pg 36\
 **Aura** faint abjuration and enchantment; **CL** 5th\
 **Slot** ring; **Price** 500 gp (Minion), 8,000 gp (Master); **Weight** -
 

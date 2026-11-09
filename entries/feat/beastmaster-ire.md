@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beastmaster_ire", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "107"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you activate Beastmaster Style's benefit, you gain a +2 morale b
 +++
 
 ## Beastmaster Ire (Combat)
-
-**Sources:** Ultimate Wilderness pg 107
 
 Seeing your animal companion attacked or hurt causes you to retaliate with a bestial fury of your
 own.\

@@ -6,13 +6,14 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elongated_cranium", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "132"
 
 [fields]
 kind = "feat"
 benefit = "Your cranium has been tightly bound with boards and wrappings to change its shape and attune your mind to your psychic discipline. If you take this feat after 1st level, you must undergo a painful 6-month regimen of increased tightening and head binding, during which you take a -1 penalty on Intelligence, Wisdom, and Charisma checks and on Intelligence-, Wisdom-, and Charisma-based skill checks. Once the binding is completed, your skull takes on one of three shapes of your choosing, each with a specific benefit. Once chosen, this shape cannot be changed."
 +++
-
-**Sources:** Occult Adventures pg 132
 
 You have undergone the painful and ancient art of cranial binding, deforming your skull to unlock
 the hidden potential of your psychic self.\

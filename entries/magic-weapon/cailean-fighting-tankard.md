@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cailean_fighting_tankard", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "10th"
 +++
 
-**Sources:** Weapon Master's Handbook pg 30\
 **Aura** moderate conjuration; **CL** 10th\
 **Slot** none; **Price** 10,301 gp; **Weight** 2 lbs.
 

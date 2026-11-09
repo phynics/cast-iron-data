@@ -6,6 +6,9 @@ source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadowmind", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "blood-of-shadows"
+page = "16"
 
 [fields]
 kind = "spell"
@@ -53,8 +56,6 @@ Spell resistance: yes
 Target: up to one creature/level, no two of which can be more than 30 ft. apart
 Subschool: Phantasm
 :::
-
-**Sources:** Blood of Shadows pg 16
 
 You dim your targets' perceptions of light and shadow, convincing them the space they occupy is
 dark. Each creature that fails its save perceives the world around it as one light level darker than

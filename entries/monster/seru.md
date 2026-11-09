@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seru", path = "json/monsters21.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "208"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ _The sound of flapping wings and an angry hiss accompany the appearance of this 
 
 **Size:** small
 
-**Sources:** Monster Codex pg 208\
 **Experience points:** 800
 
 **Armor class:** 15/14/12

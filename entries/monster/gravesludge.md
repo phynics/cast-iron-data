@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gravesludge", path = "json/monsters12.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "145"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ soil._
 
 **Perception:** +19
 
-**Sources:** Bestiary 6 pg 145\
 **Experience points:** 19,200
 
 **Armor class:** 27/21/21

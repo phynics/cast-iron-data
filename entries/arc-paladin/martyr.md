@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/paladin" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "64"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Smite evil", "Divine grace", "Divine health"]
 alters = ["Aura of courage", "aura of resolve", "aura of righteousness", "Lay on hands", "mercy"]
 +++
 
-**Sources:** Horror Adventures pg 64\
 Every paladin's code instructs him to put the welfare of others before his own, but some paladins
 take this farther than most, shouldering the blackest suffering of the world onto themselves in
 order to help others and inspiring their allies to achieve heights of valor rather than seeking the

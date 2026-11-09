@@ -6,13 +6,15 @@ source_ids = ["advanced-players-guide", "elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "water", path = "json/class_ability_arcane_schools.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "143"
 
 [fields]
 kind = "class_option"
 group = "arcane-school"
 +++
 
-**Sources:** Advanced Player's Guide pg 143\
 The water elementalist draws magic from the ocean depths. His power is fluid as well, crushing foes
 in mighty waves or wearing them down through timeless erosion.
 

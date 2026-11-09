@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "countering_influence", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "106"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 106
 
 A character can attempt an influence check with the goal of lowering an enemy's influence level over
 an NPC rather than raising her own. The DC for this kind of influence check is based on the enemy's

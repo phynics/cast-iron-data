@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seducers_eyes", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "240"
+[[sources]]
+publication = "faiths-of-balance"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -45,8 +51,6 @@ Target: you
 Subschool: Charm
 Descriptors: mind-affecting
 :::
-
-**Sources:** Inner Sea Gods pg 240, Faiths of Balance pg 28
 
 You gain a bonus on Charisma-based skill checks equal to 1 + 1 for every 4 caster levels you possess
 (to a maximum of +5), but only when interacting with those who might conceivably find you sexually

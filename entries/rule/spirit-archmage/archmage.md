@@ -8,12 +8,14 @@ parent = "ref/spirit/archmage"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "json/class_ability_spirits.json#archmage|section:archmage", path = "json/class_ability_spirits.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "33"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Occult Adventures pg 33\
 An archmage spirit is a font of knowledge and arcane power.
 
 **Spirit Bonus**

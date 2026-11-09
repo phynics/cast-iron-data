@@ -6,6 +6,9 @@ source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "necklace_of_bloody_incisors", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "merchants-manifest"
+page = "14"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Merchant's Manifest pg 14\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** neck; **Price** 1,850 gp; **Weight** -
 

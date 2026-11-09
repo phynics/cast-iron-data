@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nethysian_ring_of_minor_spell_storing", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "259"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration and transmutation [chaotic, evil, good, lawful]"
 caster_level = "5th"
 +++
 
-**Sources:** Inner Sea Gods pg 259\
 **Aura** moderate abjuration and transmutation \[chaotic, evil, good, lawful\]; **CL** 5th\
 **Slot** ring; **Price** 20,000 gp; **Weight** -
 

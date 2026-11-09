@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kyton_cut", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "88"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When using Kyton Style, your spiked chain attacks can be brutal, both
 +++
 
 ## Kyton Cut (Combat)
-
-**Sources:** Horror Adventures pg 88
 
 You lash yourself and share the pain with your opponent.\
 **Prerequisites:** Wis 17, [Exotic Weapon Proficiency](ref/feat/exotic-weapon-proficiency) (spiked

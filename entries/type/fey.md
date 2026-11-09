@@ -6,14 +6,15 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fey", path = "json/monster_types.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "307"
 
 [fields]
 kind = "none"
 +++
 
 ## Type: Fey
-
-**Sources:** Pathfinder RPG Bestiary pg 307
 
 A fey is a creature with supernatural abilities and connections to nature or to some other force or
 place. Fey are usually human-shaped.

@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vampiric_greater", path = "json/magic_enhancements2.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "214"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ aura = "moderate necromancy"
 caster_level = "8th"
 +++
 
-**Sources:** Horror Adventures pg 214\
 **Aura** moderate necromancy; **CL** 8th\
 **Price** +2 bonus; **Weight** -
 

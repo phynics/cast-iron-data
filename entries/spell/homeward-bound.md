@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/dismissal" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "41"
 
 [fields]
 kind = "spell"
@@ -47,7 +50,5 @@ Spell resistance: yes
 :::
 
 ### Homeward Bound
-
-**Sources:** Planar Adventures pg 41
 
 This spell functions as [dismissal](ref/spell/dismissal), except as noted above.

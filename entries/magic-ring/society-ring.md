@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "society_ring", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "201"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration, divination, illusion, and transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Villain Codex pg 201\
 **Aura** faint abjuration, divination, illusion, and transmutation; **CL** 5th\
 **Slot** ring; **Price** 8,000 gp; **Weight** -
 

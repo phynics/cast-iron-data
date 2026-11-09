@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fire_trail", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "119"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: yes
 Effect: trail of flame that follows the caster's movements; see text
 Descriptors: fire
 :::
-
-**Sources:** Advanced Race Guide pg 119
 
 > _[Goblins](ref/race/goblin) have access to the following spell._
 

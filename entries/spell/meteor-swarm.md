@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "meteor_swarm", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "313"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: yes
 Area: four 40-ft.-radius spreads, see text
 Descriptors: fire
 :::
-
-**Sources:** PRPG Core Rulebook pg 313
 
 Meteor swarm is a very powerful and spectacular spell that is similar to fireball in many aspects.
 When you cast it, four 2-foot-diameter spheres spring from your outstretched hand and streak in

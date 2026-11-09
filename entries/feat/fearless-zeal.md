@@ -6,6 +6,9 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fearless_zeal", path = "json/feat06.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "68"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Once per day, you can add a +2 bonus on any single attack roll, caste
 +++
 
 ## Fearless Zeal (Story)
-
-**Sources:** Ultimate Campaign pg 68
 
 You're willing to lay down your life for your faith.\
 **Prerequisites:** You must be ordained as a sacred (or profane) champion of your faith by a

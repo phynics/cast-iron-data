@@ -6,13 +6,14 @@ source_ids = ["disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "order_of_the_monument", path = "json/class_ability_orders.json" },
 ]
+[[sources]]
+publication = "disciples-doctrine"
+page = "15"
 
 [fields]
 kind = "class_option"
 group = "order"
 +++
-
-**Sources:** Disciple's Doctrine pg 15
 
 Cavaliers who join the order of the monument dedicate themselves to the protection and service of a
 particular city or settlement and often follow or respect the faiths of their home locale. Cavaliers

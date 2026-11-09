@@ -6,12 +6,14 @@ source_ids = ["pathfinder-unchained"]
 relations = [
   { kind = "addon", target = "ref/feat/sundering-strike", label = "stamina" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "133"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder Unchained pg 133\
 When you fail to confirm a critical hit with a melee attack, you can spend 2 stamina points to
 attempt to sunder the target's weapon anyway. When you do, reroll the confirmation roll and use it
 to determine if the sunder attempt exceeds the opponent's CMD. This reroll is used only for the

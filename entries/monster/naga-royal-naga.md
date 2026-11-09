@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "pathfinder-27-what-lies-in-dust"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "naga_royal_naga", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "198"
+[[sources]]
+publication = "pathfinder-27-what-lies-in-dust"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ _This snake-bodied creature has five necks, each with a regal, humanoid face in 
 
 **Senses:** Darkvision 60 ft., See invisibility
 
-**Sources:** Bestiary 3 pg 198, Pathfinder \#27: What Lies in Dust pg 88\
 **Subtype:** Shapechanger
 
 **Experience points:** 12,800

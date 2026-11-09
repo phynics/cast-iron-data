@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/restoration-lesser" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "334"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Spell resistance: yes (harmless)
 Target: creature touched
 Subschool: Healing
 :::
-
-**Sources:** PRPG Core Rulebook pg 334
 
 This spell functions like [lesser restoration](ref/spell/restoration-lesser), except that it also
 dispels temporary negative levels or one permanent negative level. If this spell is used to dispel a

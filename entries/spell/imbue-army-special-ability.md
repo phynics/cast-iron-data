@@ -6,6 +6,9 @@ source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "imbue_army_special_ability", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "quests-and-campaigns"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -37,8 +40,6 @@ Saving throw: none or Will negates (harmless)
 Spell resistance: yes
 Target: one army
 :::
-
-**Sources:** Quests and Campaigns pg 29
 
 You imbue the target with an [army special ability](ref/rule/special-abilities-ucp) possessed by the
 army's commander. The army is treated as if it consists of units who all possess the chosen special

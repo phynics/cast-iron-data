@@ -6,13 +6,14 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "apocalypse", path = "json/class_ability_mysteries.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "56"
 
 [fields]
 kind = "class_option"
 group = "oracle-mystery"
 +++
-
-**Sources:** Monster Codex pg 56
 
 Among [fire giants](ref/monster/giant-fire-fire-giant-doombringer), the rare but blessed oracles of
 the apocalypse are favored emissaries of the divine.

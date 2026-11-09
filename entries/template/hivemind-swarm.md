@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hivemind_swarm", path = "json/monster_template2.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "156"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** Varies
-
-**Source:** Bestiary 6/156
 
 A hivemind consists of a swarm of smaller creatures whose individual minds have supernaturally
 bonded into one to become a single, collective intelligence. Hiveminds often occur in swarms that

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/wizard" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "74"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Grave touch necromancy school ability", "Scribe Scroll", "5th-level
 alters = ["Arcane school", "spells", "Power over undead necromancy school ability"]
 +++
 
-**Sources:** Horror Adventures pg 74\
 Many wizards study necromancy to create undead, but some study the same arts to purge the stain of
 undeath.
 

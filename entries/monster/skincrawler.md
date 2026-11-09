@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skincrawler", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "252"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ with a single sharp fingernail._
 
 **Perception:** -5
 
-**Sources:** Bestiary 6 pg 252\
 **Size:** tiny
 
 **Experience points:** 200

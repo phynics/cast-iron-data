@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/inquisitor" },
 ]
+[[sources]]
+publication = "the-harrow-handbook"
+page = "22"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Detect alignment", "True judgment"]
 alters = ["Judgment", "second judgment", "third judgment"]
 +++
 
-**Sources:** The Harrow Handbook pg 22\
 Though surrounded by meaning and tradition revered by most harrowers, the harrow is a tool that
 could be abused. Those inquisitors known as suit seekers take grave offense at the misuse of this
 ancient power, and dedicate their considerable skills to hunting and eliminating any who would abuse

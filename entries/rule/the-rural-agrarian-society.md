@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_rural_agrarian_society", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "154"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 154
 
 In general, civilization hinges on a people's ability to move beyond the hunter-gatherer model, to
 settle into a place, learn to understand, and it harness its resources. In most cases, this is the

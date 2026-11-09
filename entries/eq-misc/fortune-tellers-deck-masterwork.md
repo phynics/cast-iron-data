@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fortune_tellers_deck_masterwork", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "77"
+[[sources]]
+publication = "advanced-players-guide"
+page = "184"
 
 [fields]
 kind = "item"
@@ -16,7 +22,6 @@ weight = "1/2 lb. (common), 1 lb. (masterwork), 1 lb. (quality)"
 
 ## Fortune-teller's deck
 
-**Sources:** Ultimate Equipment pg 77, Advanced Player's Guide pg 184\
 **Price** 1 gp (common), 50 gp (masterwork), 25 gp (quality); **Weight** 1/2 lb. (common), 1 lb.
 (masterwork), 1 lb. (quality)
 

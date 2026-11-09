@@ -6,6 +6,9 @@ source_ids = ["seers-of-the-drowned-city"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spore_stalker", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "seers-of-the-drowned-city"
+page = "62"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ its fanged maw._
 
 **Type:** plant
 
-**Sources:** Seers of the Drowned City pg 62\
 **Experience points:** 3,200
 
 **Armor class:** 20/13/17

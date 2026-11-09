@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trueforge", path = "json/magic_artifact3.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "168"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "overwhelming transmutation"
 caster_level = "25th"
 +++
 
-**Sources:** Mythic Adventures pg 168\
 **Aura** overwhelming transmutation; **CL** 25th\
 **Slot** none; **Price** -; **Weight** 500 lbs.
 

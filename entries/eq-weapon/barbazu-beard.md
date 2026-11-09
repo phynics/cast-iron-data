@@ -6,14 +6,15 @@ source_ids = ["cheliax-empire-of-devils"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "barbazu_beard", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "cheliax-empire-of-devils"
+page = "27"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "5 lbs."
 +++
-
-**Sources:** Cheliax, Empire of Devils pg 27
 
 Popular in Egorian but rarely seen elsewhere, a barbazu beard is an intimidating helm with a full
 facemask wrought to look like a snarling barbazu's head. Extending from the chin area of the face

@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sniper_goggles_greater", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "227"
+[[sources]]
+publication = "advanced-players-guide"
+page = "309"
 
 [fields]
 kind = "item"
@@ -19,7 +25,6 @@ caster_level = "5th (normal), 8th (greater)"
 
 ## Sniper Goggles
 
-**Sources:** Ultimate Equipment pg 227, Advanced Player's Guide pg 309\
 **Aura** faint divination (normal), moderate divination (greater); **CL** 5th (normal), 8th
 (greater)\
 **Slot** eyes; **Price** 20,000 gp (normal), 50,000 gp (greater); **Weight** 1 lb. (normal), —

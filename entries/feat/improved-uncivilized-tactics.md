@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_uncivilized_tactics", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-wild"
+page = "23"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "You provoke an attack of opportunity when using the Uncivilized Tactic
 +++
 
 ## Improved Uncivilized Tactics (Combat)
-
-**Sources:** Heroes of the Wild pg 23
 
 You are skilled at twisting your foe's limbs out of joint.\
 **Prerequisites:** Str 13, [Power Attack](ref/feat/power-attack),

@@ -6,12 +6,14 @@ source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seal_of_dancing_dolls", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "occult-origins"
+page = "27"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Occult Origins pg 27\
 **School** conjuration; **Level** 6\
 **Casting Time** 6 hours\
 **Components** V, S, M (a bronze seal embellished with acacia and quartz lacquer worth 500 gp), SC

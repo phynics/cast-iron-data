@@ -6,12 +6,12 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grasping_undergrowth", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures
 
 **Grasping Undergrowth (CR 2):** In many forests, undergrowth is thick and tangled enough that it
 seems to be attempting to hinder travelers, but in some places, whether due to a malevolent spirit

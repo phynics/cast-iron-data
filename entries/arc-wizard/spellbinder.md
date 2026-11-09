@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/wizard" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "25"
 
 [fields]
 kind = "archetype"
 replaces = ["Arcane bond"]
 +++
 
-**Sources:** Advanced Race Guide pg 25\
 A spellbinder is an elven wizard who forges an arcane bond between himself and one or more wizard
 spells. These spells become so well understood by the spellbinder that he can prepare them in spell
 slots that already have other spells prepared in them.

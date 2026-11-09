@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demoralizing_lash", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "124"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "To use this feat, you must use a whip (or another weapon in the flail
 +++
 
 ## Demoralizing Lash (Combat)
-
-**Sources:** Advanced Race Guide pg 124
 
 You cow your enemies with the lash of a whip.\
 **Prerequisites:** Base attack bonus +1, [Intimidate](ref/skill/intimidate) 1 rank,

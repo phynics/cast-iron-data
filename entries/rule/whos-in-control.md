@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "whos_in_control", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "87"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 87
 
 The term "non-player character" suggests that NPCs are characters played by the GM, but according to
 circumstances and GM preference, they might also be played by one or more assistant GMs, or by

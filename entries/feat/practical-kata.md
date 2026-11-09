@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "practical_kata", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "27"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you hit with a melee attack against an opponent you have already
 +++
 
 ## Practical Kata (Combat, Combination)
-
-**Sources:** Martial Arts Handbook pg 27
 
 Your martial meditation extends onto the battlefield.\
 **Prerequisites:** [Improved Unarmed Strike](ref/feat/improved-unarmed-strike), ki pool class

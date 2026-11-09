@@ -6,6 +6,9 @@ source_ids = ["seers-of-the-drowned-city"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kravyad", path = "json/monsters15.json" },
 ]
+[[sources]]
+publication = "seers-of-the-drowned-city"
+page = "59"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _Glowing motes of electricity dance over this massive ursine creature's hairless
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Seers of the Drowned City pg 59\
 **Experience points:** 3,200
 
 **Armor class:** 20/12/17

@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_clockwork_golem", path = "json/monsters33.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "137"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ of hundreds of gears._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 2 pg 137\
 **Experience points:** 19,200
 
 **Armor class:** 26/10/25

@@ -6,14 +6,15 @@ source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unbound_bravery", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "divine-anthology"
+page = "8"
 
 [fields]
 kind = "feat"
 prerequisites = "Bravery class feature, worshiper of Cayden Cailean."
 benefit = "You can add the bonus from bravery to Escape Artist checks and combat maneuver checks to escape a grapple. If your bonus from bravery is +2 or higher, then once per day, you can grant that bonus to an ally within 30 feet on a Will save against a fear effect, an Escape Artist check, or a combat maneuver check to escape a grapple. Granting this bonus to an ally is an immediate action and must be declared before the result of your ally's check is revealed."
 +++
-
-**Sources:** Divine Anthology pg 8
 
 Your firm dedication to the principles of courage and freedom allows you to escape your bonds more
 easily.\

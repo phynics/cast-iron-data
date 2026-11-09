@@ -6,6 +6,9 @@ source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ectoplasmic_hand", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "occult-origins"
+page = "30"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: none
 Spell resistance: no
 Effect: one ectoplasmic appendage
 :::
-
-**Sources:** Occult Origins pg 30
 
 You draw forth a ghostly, animated hand through the ectoplasmic veil to manipulate objects, attack
 creatures, and deliver touch spells at a distance. The hand remains tethered to you by tendrils of

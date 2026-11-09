@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "owl_giant_owl", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "213"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ _This enormous owl has a silent gracefulness and wisdom about it despite its con
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 3 pg 213\
 **Experience points:** 1,600
 
 **Armor class:** 18/10/16

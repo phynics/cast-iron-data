@@ -6,6 +6,9 @@ source_ids = ["antiheros-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "take_this", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "antiheros-handbook"
+page = "11"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "This is an exception to the rule that allies who are unable to act do
 +++
 
 ## Take This (Teamwork)
-
-**Sources:** Antihero's Handbook pg 11
 
 You can quickly retrieve items from the body of a companion who is unable to act.\
 **Benefit:** If you are adjacent to an ally who also has this feat but is unable to act, you can

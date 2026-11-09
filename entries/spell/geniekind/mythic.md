@@ -6,12 +6,14 @@ source_ids = ["mythic-origins"]
 relations = [
   { kind = "addon", target = "ref/spell/geniekind", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-origins"
+page = "12"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Origins pg 12\
 The energy resistance granted by your genie form increases to 20. You gain a +2 enhancement bonus to
 Strength and Dexterity. In addition, once while you are transformed you can use one
 [spell-like ability](ref/umr/spell-like-abilities) based on your genie form (using your caster

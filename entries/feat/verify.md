@@ -6,14 +6,15 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "verify", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "16"
 
 [fields]
 kind = "feat"
 prerequisites = "Ability to cast 1st-level spells, lawful evil alignment, worshiper of Asmodeus."
 benefit = "You gain a +5 bonus on Sense Motive checks to determine whether a creature is lying when you ask if it has followed the terms of a contract or deal to which it formally agreed. This includes all written and signed contracts, but also such things as witnessed oaths of loyalty and guild charters."
 +++
-
-**Sources:** Dirty Tactics Toolbox pg 16
 
 Those whom you catch breaking a deal are more subject to your powers.\
 **Prerequisites:** Ability to cast 1st-level spells, lawful evil alignment, worshiper of

@@ -6,13 +6,14 @@ source_ids = ["core-rulebook", "divine-anthology", "advanced-players-guide", "ha
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "healing", path = "json/class_ability_domains3.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "44"
 
 [fields]
 kind = "class_option"
 group = "cleric-domain"
 +++
-
-**Sources:** PRPG Core Rulebook pg 44
 
 **Granted Powers:** Your touch staves off pain and death, and your healing magic is particularly
 vital and potent.

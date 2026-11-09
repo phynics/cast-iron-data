@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/life-current" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
+page = "61"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Descriptors: water
 :::
 
 ### Unlife Current
-
-**Sources:** Aquatic Adventures pg 61
 
 This functions as [life current](ref/spell/life-current) except you infuse the current with negative
 energy, so it heals undead and harms living creatures.

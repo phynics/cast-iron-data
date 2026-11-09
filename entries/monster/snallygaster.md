@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "pathfinder-61-shards-of-sin"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snallygaster", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "247"
+[[sources]]
+publication = "pathfinder-61-shards-of-sin"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ sharp, toothy beak._
 
 **Senses:** Darkvision 60 ft., Scent
 
-**Sources:** Bestiary 4 pg 247, Pathfinder \#61: Shards of Sin pg 88\
 **Experience points:** 800
 
 **Armor class:** 15/12/13

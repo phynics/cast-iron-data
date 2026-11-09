@@ -6,14 +6,18 @@ source_ids = ["adventurers-guide", "paths-of-prestige"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bellflower_tiller", path = "json/prestige_classes.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "40"
+[[sources]]
+publication = "paths-of-prestige"
+page = "10"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d8."
 +++
-
-**Sources:** Adventurer's Guide pg 40, Paths of Prestige pg 10
 
 Perhaps no group has done more to sow the seeds of freedom in devil-haunted Cheliax than the
 [Bellflower Network](ref/rule/aff-antislavery), and no agents of that network do or risk more than

@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "steal_years", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "blood-of-the-night"
+page = "30"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: Fortitude negates
 Spell resistance: yes
 Target: creature touched
 :::
-
-**Sources:** Blood of the Night pg 30
 
 You temporarily drain youth and vitality from the target and channel it into yourself. If the target
 fails its Fortitude save, it physically ages 1d4 years per two caster levels (maximum 5d4), and you

@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "armor_class", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "179"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 179
 
 Your Armor Class (AC) represents how hard it is for opponents to land a solid, damaging blow on you.
 It's the attack roll result that an opponent needs to achieve to hit you. Your AC is equal to the

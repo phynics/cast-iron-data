@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/teleport" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "359"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: yes (object)
 Target: one touched object of up to 50 lbs./level and 3 cu. ft./level
 Subschool: Teleportation
 :::
-
-**Sources:** PRPG Core Rulebook pg 359
 
 This spell functions like [teleport](ref/spell/teleport), except that it teleports an object, not
 you. Creatures and magical forces cannot be teleported.

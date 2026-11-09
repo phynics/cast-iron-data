@@ -6,6 +6,9 @@ source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "business_booms", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "quests-and-campaigns"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: none
 Spell resistance: no
 Target: one building
 :::
-
-**Sources:** Quests and Campaigns pg 28
 
 You may cast this spell immediately prior to spending 1 day of downtime to
 [promote a business](ref/rule/promote-a-business). The spell is cast on a building you wish to

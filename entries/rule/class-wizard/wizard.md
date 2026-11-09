@@ -8,12 +8,13 @@ parent = "ref/class/wizard"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "json/classes6.json#wizard|section:wizard", path = "json/classes6.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "77"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 77
 
 Beyond the veil of the mundane hide the secrets of absolute power. The works of beings beyond
 mortals, the legends of realms where gods and spirits tread, the lore of creations both wondrous and

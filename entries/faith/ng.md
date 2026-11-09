@@ -6,6 +6,9 @@ source_ids = ["the-first-world-realm-of-the-fey"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ng", path = "json/faiths6.json" },
 ]
+[[sources]]
+publication = "the-first-world-realm-of-the-fey"
+page = "30"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Ng**
 
 **Sub:** The Hooded
-
-**Sources:** The First World, Realm of the Fey pg 30
 
 ### Details
 

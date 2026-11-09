@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fox_trickery", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "84"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ prerequisite_feats = ["ref/feat/combat-expertise", "ref/feat/fox-insight", "ref/
 +++
 
 ## Fox Trickery (Combat)
-
-**Sources:** Ultimate Intrigue pg 84
 
 Whenever a foes drops his guard, you can make him suffer with a dirty trick.\
 **Prerequisites:** Int 13, [Combat Expertise](ref/feat/combat-expertise),

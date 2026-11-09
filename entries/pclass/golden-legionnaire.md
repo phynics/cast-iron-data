@@ -6,14 +6,18 @@ source_ids = ["adventurers-guide", "paths-of-prestige"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golden_legionnaire", path = "json/prestige_classes2.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "66"
+[[sources]]
+publication = "paths-of-prestige"
+page = "22"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d10."
 +++
-
-**Sources:** Adventurer's Guide pg 66, Paths of Prestige pg 22
 
 Golden Legionnaires are members of the [Eagle Knights](ref/rule/aff-vangard) branch known formally
 as Eagle Knights of the Golden Legion. The foremost protectors of Andoran and its populace, the

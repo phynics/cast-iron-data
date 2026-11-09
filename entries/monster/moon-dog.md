@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "moon_dog", path = "json/monsters17.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "174"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ its face seems preternaturally wise._
 
 **Senses:** Darkvision 120 ft., Detect evil, Detect magic, Keen senses, Scent, See invisibility
 
-**Sources:** Bestiary 5 pg 174\
 **Subtype:** Extraplanar, Good
 
 **Experience points:** 6,400

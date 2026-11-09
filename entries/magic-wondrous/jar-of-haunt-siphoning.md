@@ -6,6 +6,9 @@ source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jar_of_haunt_siphoning", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "haunted-heroes-handbook"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "miderate necromancy"
 caster_level = "6th"
 +++
 
-**Sources:** Haunted Heroes Handbook pg 31\
 **Aura** miderate necromancy; **CL** 6th\
 **Slot** none; **Price** 6,250 gp; **Weight** 1 lb.
 

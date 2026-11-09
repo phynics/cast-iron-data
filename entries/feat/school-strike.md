@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "school_strike", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "116"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "You can take this feat multiple times. Each time you take it, you app
 +++
 
 ## School Strike (Combat)
-
-**Sources:** Ultimate Combat pg 116
 
 You focus the secrets of your school of wizardry into your unarmed strike.\
 **Prerequisites:** Wizard school class feature,

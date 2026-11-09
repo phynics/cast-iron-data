@@ -6,6 +6,9 @@ source_ids = ["pathfinder-107-scourge-of-the-godclaw"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spellgorger", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "pathfinder-107-scourge-of-the-godclaw"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ and is encircled by strange arcane energies._
 
 **Senses:** Scent magic
 
-**Sources:** Pathfinder \#107: Scourge of the Godclaw pg 88\
 **Experience points:** 19,200
 
 **Armor class:** 26/26/17

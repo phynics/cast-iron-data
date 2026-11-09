@@ -6,6 +6,9 @@ source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "imperial_army_greathelm", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment"
 caster_level = "9th"
 +++
 
-**Sources:** Inner Sea Combat pg 60\
 **Aura** moderate enchantment; **CL** 9th\
 **Slot** head; **Price** 29,000 gp; **Weight** 6 lbs.
 

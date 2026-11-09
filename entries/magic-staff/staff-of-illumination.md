@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_illumination", path = "json/magic_staff.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "197"
+[[sources]]
+publication = "core-rulebook"
+page = "494"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong evocation"
 caster_level = "15th"
 +++
 
-**Sources:** Ultimate Equipment pg 197, PRPG Core Rulebook pg 494\
 **Aura** strong evocation; **CL** 15th\
 **Slot** none; **Price** 51,500 gp; **Weight** 5 lbs.
 

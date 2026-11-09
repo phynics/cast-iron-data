@@ -6,6 +6,9 @@ source_ids = ["inner-sea-world-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unguent_of_revivification", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "299"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Sources:** Inner Sea World Guide pg 299\
 **Aura** faint necromancy; **CL** 3rd\
 **Slot** none; **Price** 300 gp; **Weight** 1 lb.
 

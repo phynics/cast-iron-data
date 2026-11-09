@@ -6,6 +6,9 @@ source_ids = ["knights-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "champions_banner", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "knights-of-the-inner-sea"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Knights of the Inner Sea pg 31\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** none; **Price** 8,000 gp; **Weight** 3 lbs.
 

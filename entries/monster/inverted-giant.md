@@ -6,6 +6,9 @@ source_ids = ["lost-kingdoms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inverted_giant", path = "json/monsters14.json" },
 ]
+[[sources]]
+publication = "lost-kingdoms"
+page = "59"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ abilities = ["29", "14", "20", "9", "11", "16"]
 
 **Perception:** +9
 
-**Sources:** Lost Kingdoms pg 59\
 **Subtype:** Giant
 
 **Experience points:** 12,800

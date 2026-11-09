@@ -6,6 +6,9 @@ source_ids = ["pathfinder-60-from-hells-heart"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "doubleshot_pepperbox", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "pathfinder-60-from-hells-heart"
+page = "54"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Sources:** Pathfinder \#60: From Hell's Heart pg 54\
 **Aura** moderate transmutation; **CL** 7th\
 **Slot** none; **Price** 20,300 gp; **Weight** 5 lbs.
 

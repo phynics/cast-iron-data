@@ -6,6 +6,9 @@ source_ids = ["pathfinder-55-the-wormwood-mutiny"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "advanced_scurvy", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "pathfinder-55-the-wormwood-mutiny"
+page = "73"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: yes
 Target: living creature touched
 Descriptors: disease, evil
 :::
-
-**Sources:** Pathfinder \#55: The Wormwood Mutiny pg 73
 
 > _This spell is associated with [Besmara](ref/faith/besmara), but there are no restrictions on its
 > use by others._

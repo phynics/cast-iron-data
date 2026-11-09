@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divination_words", path = "json/rules_opt_magic03.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "176"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 176
 
 Words from this family uncover answers and scry across vast distances.
 

@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heir", path = "json/rules_campaign_types04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "202"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 202
 
 The Heir is usually the Ruler's eldest son or daughter, though some kingdoms may designate a
 significant advisor (such as a seneschal) as Heir. The Heir's time is mostly spent learning to

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/spiritualist" },
 ]
+[[sources]]
+publication = "wilderness-origins"
+page = "18"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Bonded senses", "phantom recall", "greater spiritual interference"]
 alters = ["Phantom", "Spellcasting"]
 +++
 
-**Sources:** Wilderness Origins pg 18\
 While many spiritualists are bound to a departed spirit, a condition more likely to be the result of
 chance or tragedy than a career choice, there are some individuals who seek out this life. A ward
 spiritualist ventures into the wilderness and petitions a [kami](ref/family/kami) to help her in her

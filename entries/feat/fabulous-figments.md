@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fabulous_figments", path = "json/feat06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "65"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Non-mythic creatures can't identify your illusion spells with Spellcr
 +++
 
 ## Fabulous Figments (Mythic)
-
-**Sources:** Mythic Adventures pg 65
 
 Your illusions are astonishingly realistic.\
 **Prerequisites:** [Spell Focus](ref/feat/spell-focus) (illusion).\

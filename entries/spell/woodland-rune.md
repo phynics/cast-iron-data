@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/symbol-of-death" },
 ]
+[[sources]]
+publication = "wilderness-origins"
+page = "13"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: Fortitude negates
 Spell resistance: yes
 Effect: one rune
 :::
-
-**Sources:** Wilderness Origins pg 13
 
 Created by Ghorus as a safety measure to limit his enemies' movements, this spell allows you to
 inscribe a powerful rune on any surface. Woodland rune triggers when any non-plant creature (apart

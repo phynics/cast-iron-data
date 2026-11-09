@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "pathfinder-50-night-of-frozen-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "selkie", path = "json/monsters21.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "236"
+[[sources]]
+publication = "pathfinder-50-night-of-frozen-shadows"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -44,7 +50,6 @@ full of pointed teeth._
 
 **Senses:** Darkvision 60 ft., Scent
 
-**Sources:** Bestiary 4 pg 236, Pathfinder \#50: Night of Frozen Shadows pg 88\
 **Subtype:** Aquatic, Shapechanger
 
 **Experience points:** 1,600

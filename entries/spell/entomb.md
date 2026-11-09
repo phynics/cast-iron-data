@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "entomb", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-darklands"
+page = "20"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: no
 Effect: up to three 10-ft. cubes/level (S)
 Descriptors: earth
 :::
-
-**Sources:** Heroes of the Darklands pg 20
 
 You designate an aboveground area and send it deep within the earth. During the casting of this
 spell, the chosen area is rocked by minor tremors that alert nearby creatures to the impending

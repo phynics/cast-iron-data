@@ -6,6 +6,9 @@ source_ids = ["pathfinder-58-island-of-empty-eyes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crocodilians_saltwater_crocodile", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "pathfinder-58-island-of-empty-eyes"
+page = "85"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ long, toothed mouth as it lunges forward._
 
 **Senses:** Low-light vision
 
-**Sources:** Pathfinder \#58: Island of Empty Eyes pg 85\
 **Experience points:** 1,600
 
 **Armor class:** 18/8/18

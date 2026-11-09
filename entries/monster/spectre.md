@@ -6,6 +6,9 @@ source_ids = ["bestiary", "undead-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spectre", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "256"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ into a hideous mask._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 256\
 **Subtype:** Incorporeal
 
 **Type:** undead

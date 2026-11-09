@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "empyreal_lord_korada", path = "json/monsters_unique4.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -48,7 +51,6 @@ tails._
 
 **Senses:** Darkvision 60 ft., Detect evil, Detect thoughts, Low-light vision
 
-**Sources:** Bestiary 4 pg 90\
 **Subtype:** Agathion, Extraplanar, Good
 
 **Experience points:** 2,457,600

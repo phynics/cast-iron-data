@@ -6,14 +6,15 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "green_tongue", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "13"
 
 [fields]
 kind = "feat"
 prerequisites = "Cha 13, character level 5th, gathlain."
 benefit = "You can cast speak with plants once per day, as a spell-like ability. At 10th level and every 5 levels thereafter, you can cast speak with plants an additional time per day."
 +++
-
-**Sources:** Ultimate Wilderness pg 13
 
 You know the language of the plants.\
 **Prerequisites:** Cha 13, character level 5th, [gathlain](ref/race/gathlain).\

@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shulsaga", path = "json/monsters38.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "245"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ energy._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 4 pg 245\
 **Subtype:** Extraplanar
 
 **Experience points:** 800

@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "loyalty", path = "json/class_ability_oaths.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "63"
 
 [fields]
 kind = "class_option"
@@ -13,7 +16,6 @@ group = "paladin-oath"
 replaces = ["Smite evil"]
 +++
 
-**Sources:** Ultimate Magic pg 63\
 To most paladins, their word is everything. When they say something, it will be done. Those who take
 this oath put that ideal to the test every day. The oathbound paladin's word is a promise, a sacred
 bond, and also greater power in the cause of law and good. She is careful with her words, lest she

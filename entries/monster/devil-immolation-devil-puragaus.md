@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_immolation_devil_puragaus", path = "json/monsters07.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "87"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ _Ash and embers encrust the smoldering humanoid frame of this imperious, dragon-
 
 **Senses:** Darkvision 60 ft., True seeing
 
-**Sources:** Bestiary 2 pg 87\
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **Experience points:** 204,800

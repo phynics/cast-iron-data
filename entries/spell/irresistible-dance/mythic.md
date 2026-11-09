@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/irresistible-dance", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "99"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 99\
 When casting the spell, you can choose to make the dance either an unending dance or a dance of
 death.
 

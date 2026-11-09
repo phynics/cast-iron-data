@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/elemental-body-2", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "92"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 92
 
 Each mythic elemental body spell must be learned individually, and you must know the respective
 non-mythic elemental body spell to learn its mythic version. You don't have to learn them in order,

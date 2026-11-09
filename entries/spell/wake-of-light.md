@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wake_of_light", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "254"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Spell resistance: yes
 Effect: a 10-ft.-wide path in a straight line, up to 120 ft. long
 Descriptors: good
 :::
-
-**Sources:** Advanced Player's Guide pg 254
 
 You and your mount lay down a trail of glowing, heavenly mist behind you as you move that makes
 passage easier for good creatures but more difficult for evil creatures. This glowing trail of mist

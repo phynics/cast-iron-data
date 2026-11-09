@@ -6,6 +6,12 @@ source_ids = ["bestiary-6", "pathfinder-91-battle-of-bloodmarch-hills"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "megafauna_deinotherium", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "184"
+[[sources]]
+publication = "pathfinder-91-battle-of-bloodmarch-hills"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ downward-curving tusks._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Bestiary 6 pg 184, Pathfinder \#91: Battle of Bloodmarch Hills pg 86\
 **Experience points:** 3,200
 
 **Armor class:** 19/7/19

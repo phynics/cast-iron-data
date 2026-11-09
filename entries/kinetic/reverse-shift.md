@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reverse_shift", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "26"
 
 [fields]
 kind = "class_option"
@@ -21,8 +24,6 @@ group = "kineticist-wild-talent"
 **Level:** 8
 
 **Burn:** 0
-
-**Source:** Occult Adventures/26
 
 You reverse the flow of your connection to the planes, sending your body into the Ethereal Plane as
 [ethereal jaunt](ref/spell/ethereal-jaunt). As long as you concentrate on _reverse shift,_ you

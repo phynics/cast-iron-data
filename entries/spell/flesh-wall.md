@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flesh_wall", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "117"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Spell resistance: no
 Effect: a wall of corpses with an area of up to one 5-ft square/level (S)
 Descriptors: evil
 :::
-
-**Sources:** Horror Adventures pg 117
 
 You animate corpses, forming them into a wall of joined flesh and limbs. The wall inserts itself
 into any surrounding nonliving material if its area is sufficient to do so. The wall can't be

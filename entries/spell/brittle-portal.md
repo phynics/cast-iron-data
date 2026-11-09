@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "faiths-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brittle_portal", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "230"
+[[sources]]
+publication = "faiths-of-corruption"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -47,8 +53,6 @@ Saving throw: Will negates (object)
 Spell resistance: yes (object)
 Area: 5-ft.-radius spread
 :::
-
-**Sources:** Inner Sea Gods pg 230, Faiths of Corruption pg 29
 
 This spell weakens the bonds of existence, and reduces the [hardness](ref/umr/hardness) of any
 nonmagical surface within its area of effect by 2 per caster level. The spell is centered on a flat

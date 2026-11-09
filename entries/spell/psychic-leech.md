@@ -6,6 +6,9 @@ source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychic_leech", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "occult-origins"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Target: one living creature
 Subschool: Compulsion
 Descriptors: emotion, mind-affecting
 :::
-
-**Sources:** Occult Origins pg 29
 
 The target experiences feelings of ennui and lethargy, becoming fatigued for the spell's duration.
 While the target is fatigued and is within the spell's range, you gain a +2 enhancement bonus to

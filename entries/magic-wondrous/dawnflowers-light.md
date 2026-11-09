@@ -6,6 +6,9 @@ source_ids = ["demon-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dawnflowers_light", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "demon-hunters-handbook"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination and evocation"
 caster_level = "5th"
 +++
 
-**Sources:** Demon Hunter's Handbook pg 29\
 **Aura** faint divination and evocation; **CL** 5th\
 **Slot** none; **Price** 40,000 gp; **Weight** 2 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charau_ka_deadfall_tracker", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "inner-sea-monster-codex"
+page = "12"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ _A noxious fluid drips from the vicious arrows of this feral ape-like humanoid._
 
 **Size:** small
 
-**Sources:** Inner Sea Monster Codex pg 12\
 **Experience points:** 1,600
 
 **Armor class:** 22/16/17

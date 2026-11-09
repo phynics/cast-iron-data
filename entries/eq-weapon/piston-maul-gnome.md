@@ -6,14 +6,18 @@ source_ids = ["adventurers-armory-2", "gnomes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "piston_maul_gnome", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "9"
+[[sources]]
+publication = "gnomes-of-golarion"
+page = "22"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "15 lbs."
 +++
-
-**Sources:** Adventurer's Armory 2 pg 9, Gnomes of Golarion pg 22
 
 An alchemically fired piston in the head of this two-handed hammer strikes targets with astounding
 force. Successful [sunder](ref/rule/sunder) attacks made with a piston maul deal an additional 4

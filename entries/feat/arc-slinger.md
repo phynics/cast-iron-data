@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arc_slinger", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "89"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When using a sling or sling staff, you reduce your penalty on ranged 
 +++
 
 ## Arc Slinger (Combat)
-
-**Sources:** Ultimate Combat pg 89
 
 You can twirl your sling in a way that maximizes its effectiveness.\
 **Prerequisites:** [Point-Blank Shot](ref/feat/point-blank-shot), proficient with

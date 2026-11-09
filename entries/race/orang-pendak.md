@@ -6,12 +6,14 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "orang_pendak", path = "json/races2.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "186"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Bestiary 5 pg 186\
 Orang-pendaks are a rare offshoot of the sasquatch species that dwells in remote mountainous
 jungles. Elusive and shy, they are rarely seen by other races. Given their friendship with apes
 (gibbons and orangutans in particular) and their hunched posture and shaggy fur - ranging from tawny

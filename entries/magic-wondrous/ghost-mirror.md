@@ -6,6 +6,9 @@ source_ids = ["undead-unleashed"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghost_mirror", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "undead-unleashed"
+page = "34"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination and evocation"
 caster_level = "3rd"
 +++
 
-**Sources:** Undead Unleashed pg 34\
 **Aura** faint divination and evocation; **CL** 3rd\
 **Slot** none; **Price** 3,000 gp; **Weight** 1/2 lb.
 

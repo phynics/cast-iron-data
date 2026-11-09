@@ -6,12 +6,14 @@ source_ids = ["pathfinder-30-the-twice-damned-prince"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "backdrafts", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "pathfinder-30-the-twice-damned-prince"
+page = "60"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder \#30: The Twice-Damned Prince pg 60\
 Fuel-starved flames bursting into freshly opened chambers pose a lethal threat to fire fighters.
 Such hazards typically arise from rooms no larger than 40 square feet and sealed from ample
 airflows. When these rooms catch fire, they deplete the supply of oxygen in 2d6 × 5 minutes. After

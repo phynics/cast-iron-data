@@ -6,6 +6,9 @@ source_ids = ["distant-shores"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "special_delivery", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "distant-shores"
+page = "63"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever you are in contact with an ally who has the Bonded Mind feat
 +++
 
 ## Special Delivery (Teamwork)
-
-**Sources:** Distant Shores pg 63
 
 Your partner can carry your spells to their targets.\
 **Prerequisites:** [Bonded Mind](ref/feat/bonded-mind), [Share Spells](ref/feat/share-spells),

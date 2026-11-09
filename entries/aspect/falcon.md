@@ -6,13 +6,15 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "falcon", path = "json/class_ability_aspects.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "29"
 
 [fields]
 kind = "class_option"
 group = "shifter-aspect"
 +++
 
-**Sources:** Ultimate Wilderness pg 29\
 The falcon senses all and has the speed to hunt down even the most elusive prey. Those who take this
 aspect gain enhanced abilities to perceive and reconnoiter the wilderness - little escapes this
 shifter's attention.

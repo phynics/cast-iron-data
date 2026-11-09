@@ -6,12 +6,14 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "raging_song", path = "json/class_abilities6.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "49"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Advanced Class Guide pg 49\
 A skald is trained to use music, oration, and similar performances to inspire his allies to feats of
 strength and ferocity. At 1st level, a skald can use this ability for a number of rounds per day
 equal to 3 + his Charisma modifier. For each level thereafter, he can use raging song for 2

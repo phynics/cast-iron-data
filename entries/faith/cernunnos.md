@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "chronicle-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cernunnos", path = "json/faiths2.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "322"
 
 [fields]
 kind = "none"
@@ -15,7 +18,6 @@ kind = "none"
 
 **Sub:** The Stag Lord
 
-**Sources:** Inner Sea Gods pg 322\
 **Monster Link** [Cernunnos](ref/monster/empyreal-lord-cernunnos)
 
 ### Details

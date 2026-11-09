@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_patron", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "82"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 82
 
 **The Patron:** This NPC directly sends the heroes on their quest or sponsors them somehow. Above
 all, the patron is interested in his goal and wants to achieve it via the PCs. The patron is usually

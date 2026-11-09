@@ -6,6 +6,9 @@ source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "firewalkers_meditation", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "divine-anthology"
+page = "12"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: no
 Target: you
 Descriptors: meditative
 :::
-
-**Sources:** Divine Anthology pg 12
 
 You focus your mind on blocking out pain, allowing your body to endure punishments that would be
 otherwise unbearable. While under the effects of this spell, you continue to register pain-you

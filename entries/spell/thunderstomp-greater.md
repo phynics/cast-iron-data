@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/thunderstomp" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "196"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Descriptors: earth
 :::
 
 ### Greater Thunderstomp
-
-**Sources:** Advanced Class Guide pg 196
 
 This spell functions as [thunderstomp](ref/spell/thunderstomp), except as noted, and it affects all
 creatures in the area, regardless of size. When you attempt the combat maneuver check, apply its

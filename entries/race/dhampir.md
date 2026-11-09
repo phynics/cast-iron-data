@@ -6,12 +6,20 @@ source_ids = ["inner-sea-races", "advanced-race-guide", "bestiary-2", "blood-of-
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dhampir", path = "json/races.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "240"
+[[sources]]
+publication = "advanced-race-guide"
+page = "96"
+[[sources]]
+publication = "bestiary-2"
+page = "89"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Inner Sea Races pg 240, Advanced Race Guide pg 96, Bestiary 2 pg 89\
 The half-living children of vampires birthed by human females, dhampirs are progenies of both horror
 and tragedy. The circumstances of a dhampir's conception are often called into question but scarcely
 understood, as few mortal mothers survive the childbirth. Those who do often abandon their monstrous

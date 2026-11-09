@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inevitables", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "109"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 109
 
 Originally created by the [axiomites](ref/monster/axiomite) as an unflinching army to fight the
 chaotic proteans, inevitables used to fight an explicit war against those creatures but now wage an

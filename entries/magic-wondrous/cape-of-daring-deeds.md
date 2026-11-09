@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cape_of_daring_deeds", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "228"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Sources:** Advanced Class Guide pg 228\
 **Aura** faint abjuration; **CL** 5th\
 **Slot** shoulders; **Price** 9,000 gp; **Weight** 2 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "odor_stalk", path = "json/equipment_alchemical_reagents.json" },
 ]
+[[sources]]
+publication = "monster-hunters-handbook"
+page = "27"
 
 [fields]
 kind = "item"
@@ -13,8 +16,6 @@ category = "Alchemical Reagents"
 +++
 
 ## Odor stalk
-
-**Sources:** Monster Hunter's Handbook pg 27
 
 |Price|Weight|Equipment|
 | --- | --- | --- |

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "blood-of-the-ancients"
+page = "30"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Versatile performance", "Inspire courage", "suggestion"]
 alters = ["Weapon and armor proficiency"]
 +++
 
-**Sources:** Blood of the Ancients pg 30\
 A dwarven scholar researches the lineage of the kings of the old dwarven empires and learns their
 ancient tactics. She keeps these ancient traditions alive by sharing them with her allies.
 

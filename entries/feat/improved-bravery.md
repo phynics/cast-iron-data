@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_bravery", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "84"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Add your bravery bonus against all mind-affecting effects instead of 
 +++
 
 ## Improved Bravery (Combat)
-
-**Sources:** Ultimate Intrigue pg 84
 
 Your bravery protects you from more than just fear.\
 **Prerequisites:** Cha 13, bravery class feature.\

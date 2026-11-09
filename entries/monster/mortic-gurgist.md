@@ -6,6 +6,9 @@ source_ids = ["pathfinder-140-eulogy-for-roslars-coffer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mortic_gurgist", path = "json/monsters17.json" },
 ]
+[[sources]]
+publication = "pathfinder-140-eulogy-for-roslars-coffer"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ magnificent mask of painted wood and feathers. Bruises and sores cover her skin.
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#140: Eulogy for Roslar's Coffer pg 86\
 **Subtype:** Human, Mortic
 
 **Experience points:** 2,400

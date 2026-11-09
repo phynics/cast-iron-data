@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/control-weather" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "237"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Area: 2-mile-radius circle, centered on you; see text
 :::
 
 ### Wandering Weather
-
-**Sources:** Ultimate Wilderness pg 237
 
 This spell functions as [control weather](ref/spell/control-weather) except you can opt for the
 weather to remain centered on you as you move.

@@ -6,12 +6,14 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "delusion", path = "json/madness.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "183"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Adventures pg 183\
 **Type** lesser madness; **Save DC** 16\
 **Onset** 2d6 days\
 **Effect** The afflicted character believes something that is not true, and no amount of evidence

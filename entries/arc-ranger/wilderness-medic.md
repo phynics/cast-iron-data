@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ranger" },
 ]
+[[sources]]
+publication = "healers-handbook"
+page = "5"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Wild empathy", "Endurance", "evasion", "Improved evasion"]
 alters = ["Hunter's bond"]
 +++
 
-**Sources:** Healer's Handbook pg 5\
 Wilderness medics know a variety of ways they can supply and preserve a rebellion or similar
 movement without requiring any resources that might make them easier to track down.
 

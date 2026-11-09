@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fetchling", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "123"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ _This gaunt man appears drained of color, like a person viewed at twilight or in
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 2 pg 123\
 **Subtype:** Native
 
 **Experience points:** 200

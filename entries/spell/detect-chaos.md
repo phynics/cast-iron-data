@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/detect-evil" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "267"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Area: cone-shaped emanation
 :::
 
 ### Detect Chaos
-
-**Sources:** PRPG Core Rulebook pg 267
 
 This spell functions like _[detect evil](ref/spell/detect-evil),_ except that it detects the auras
 of chaotic creatures, clerics of chaotic deities, chaotic spells, and chaotic magic items, and you

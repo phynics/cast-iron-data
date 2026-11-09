@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kbuildings3", path = "json/rules_campaign_types04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "216"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 216
 
 ### Foreign Quarter (30 BP, 4 Lots)
 

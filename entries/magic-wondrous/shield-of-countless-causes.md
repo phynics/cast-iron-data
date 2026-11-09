@@ -6,6 +6,9 @@ source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_of_countless_causes", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "faiths-and-philosophies"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint enchantment"
 caster_level = "5th"
 +++
 
-**Sources:** Faiths and Philosophies pg 31\
 **Aura** faint enchantment; **CL** 5th\
 **Slot** shield; **Price** 11,157 gp; **Weight** 10 lbs.
 

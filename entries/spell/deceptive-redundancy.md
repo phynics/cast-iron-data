@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deceptive_redundancy", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "37"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Target: you
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** Adventurer's Guide pg 37
 
 You create a contingent ward that defies those who would dispel your magic, convincing them that
 their spell worked. When a spell such as [dispel magic](ref/spell/dispel-magic) would end one of

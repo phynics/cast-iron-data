@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lingering_breath", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "227"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Lingering Breath (Su) \[Mythic\]
 
-**Sources:** Mythic Adventures pg 227\
 The creature can expend one use of mythic power as a free action when it uses its breath weapon to
 make the area radiate energy damage (of the same type as the breath weapon) for 1 round per mythic
 rank. Any creature in, entering, or passing through the breath weapon's area during this duration

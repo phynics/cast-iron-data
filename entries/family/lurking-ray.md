@@ -6,12 +6,12 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lurking_ray", path = "json/monster_families2.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Bestiary 4
 
 Lurking rays are a whole family of creatures that infest the dark corners of the world, feeding on
 the weak and unwary. The infant form, known as the executioner's hood, is an unnerving but

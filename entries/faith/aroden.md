@@ -6,6 +6,9 @@ source_ids = ["pathfinder-100-a-song-of-silver"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aroden", path = "json/faiths.json" },
 ]
+[[sources]]
+publication = "pathfinder-100-a-song-of-silver"
+page = "70"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Aroden**
 
 **Sub:** The Last Azlanti
-
-**Sources:** Pathfinder \#100: A Song of Silver pg 70
 
 ### Details
 

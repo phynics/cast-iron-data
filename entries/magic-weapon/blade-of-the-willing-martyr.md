@@ -6,6 +6,9 @@ source_ids = ["seekers-of-secrets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blade_of_the_willing_martyr", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "seekers-of-secrets"
+page = "56"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong necromancy"
 caster_level = "18th"
 +++
 
-**Sources:** Seekers of Secrets pg 56\
 **Aura** strong necromancy; **CL** 18th\
 **Slot** chest; **Price** 150,000 gp; **Weight** 1 lb.
 

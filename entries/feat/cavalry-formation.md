@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cavalry_formation", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "90"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You and your mount can overlap the space of mounts whose riders have 
 +++
 
 ## Cavalry Formation (Combat, Teamwork)
-
-**Sources:** Ultimate Combat pg 90
 
 You are skilled at riding in close formation with your mounted allies without impeding your
 effectiveness on the battlefield.\

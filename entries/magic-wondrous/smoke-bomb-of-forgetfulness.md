@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "smoke_bomb_of_forgetfulness", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "225"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment"
 caster_level = "10th"
 +++
 
-**Sources:** Villain Codex pg 225\
 **Aura** moderate enchantment; **CL** 10th\
 **Slot** none; **Price** 900 gp; **Weight** -
 

@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "point_blank_master", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "167"
 
 [fields]
 kind = "feat"
@@ -18,8 +21,6 @@ special = "Starting at 6th level, a ranger with the archery combat style may sel
 +++
 
 ## Point-Blank Master (Combat)
-
-**Sources:** Advanced Player's Guide pg 167
 
 You are adept at firing ranged weapons in close quarters.\
 **Prerequisites:** [Weapon Specialization](ref/feat/weapon-specialization) with selected ranged

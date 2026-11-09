@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spider_giant_spider", path = "json/monsters39.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "258"
 
 [fields]
 kind = "creature"
@@ -38,7 +41,6 @@ _A spider the size of a man crawls silently from the depths of its funnel-shaped
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 258\
 **tremorsense:** 60
 
 **Type:** vermin

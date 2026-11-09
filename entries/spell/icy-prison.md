@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "icy_prison", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "224"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: cold
 :::
-
-**Sources:** Ultimate Magic pg 224
 
 You trap the target in solid ice 1 inch thick per caster level. If the creature fails its save, it
 is helpless, but can still breathe (the ice blocks line of effect to the target). If the target

@@ -6,6 +6,9 @@ source_ids = ["occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fear_eater", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "occult-bestiary"
+page = "27"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ _A distressingly humanoid face and stubby arms grow from this maggot-like creatu
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Occult Bestiary pg 27\
 **Experience points:** 1,600
 
 **Armor class:** 18/16/12

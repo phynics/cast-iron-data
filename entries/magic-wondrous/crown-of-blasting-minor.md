@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crown_of_blasting_minor", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "241"
+[[sources]]
+publication = "core-rulebook"
+page = "507"
 
 [fields]
 kind = "item"
@@ -19,7 +25,6 @@ caster_level = "6th (minor), 17th (major)"
 
 ## Crown of Blasting
 
-**Sources:** Ultimate Equipment pg 241, PRPG Core Rulebook pg 507\
 **Aura** moderate (minor) or strong (major) evocation; **CL** 6th (minor), 17th (major)\
 **Slot** head; **Price** 6,480 gp (minor), 23,760 gp (major); **Weight** 1 lb.
 

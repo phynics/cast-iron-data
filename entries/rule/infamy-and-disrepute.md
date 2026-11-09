@@ -6,12 +6,14 @@ source_ids = ["pathfinder-55-the-wormwood-mutiny"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "infamy_and_disrepute", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "pathfinder-55-the-wormwood-mutiny"
+page = "62"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder \#55: The Wormwood Mutiny pg 62\
 Some pirates only do what they do for the promise of wealth, being little more than brigands of the
 waves. Others do it for the reputation, fearsomeness, and power that comes with numbering among the
 most notorious scallywags on the seas. That's where Infamy comes in. Numerous times over the course

@@ -6,6 +6,8 @@ source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "melody_of_surrender", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-high-court"
 
 [fields]
 kind = "class_option"
@@ -13,8 +15,6 @@ group = "bardic-masterpiece"
 +++
 
 ## Melody of Surrender (Sing, Wind)
-
-**Sources:** Heroes of the High Court
 
 This gentle, relaxing tune makes its listeners calm and receptive.
 

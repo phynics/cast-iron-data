@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/witch" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "140"
 
 [fields]
 kind = "archetype"
 replaces = ["Familiar", "1st-level hex"]
 +++
 
-**Sources:** Advanced Race Guide pg 140\
 The scarred witch doctor draws power from her ability to endure pain and suffering. She mutilates
 her own flesh, inflicting horrific scars, in order to attract the attention of her patron. Rather
 than call forth a familiar, she creates a repulsive fetish mask that she uses as a repository for

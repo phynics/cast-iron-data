@@ -6,6 +6,9 @@ source_ids = ["pathfinder-127-crownfall"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fantionette", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "pathfinder-127-crownfall"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ arms._
 
 **Size:** small
 
-**Sources:** Pathfinder \#127: Crownfall pg 82\
 **Subtype:** Chaotic, Evil, Extraplanar
 
 **Experience points:** 1,200

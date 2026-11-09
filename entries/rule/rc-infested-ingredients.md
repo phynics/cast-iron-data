@@ -6,12 +6,14 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rc_infested_ingredients", path = "json/rules_opt_magic01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "184"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder Unchained pg 184\
 Critical ingredients were infested by an exotic rot or colony of vermin, rendering them unusable.
 
 ### Tasks

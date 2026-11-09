@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "web_shelter", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "249"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Spell resistance: no
 Effect: 5 ft.-10 ft. diameter web sphere or 5 ft.-20 ft. hemisphere
 Subschool: Creation
 :::
-
-**Sources:** Ultimate Magic pg 249
 
 You create a shelter of slightly sticky webbing. The shelter has a hinged door large enough to
 accommodate a Medium creature. The opaque walls of the shelter measure 1 inch thick and provide

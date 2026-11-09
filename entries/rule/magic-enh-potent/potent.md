@@ -8,12 +8,14 @@ parent = "ref/magic-enh/potent"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "json/magic_enhancements2.json#potent|section:potent", path = "json/magic_enhancements2.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "143"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 143\
 **Aura** strong transmutation; **CL** 12th\
 **Slot** none; **Price** +2 bonus; **Weight** -
 

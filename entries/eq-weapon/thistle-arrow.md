@@ -6,14 +6,18 @@ source_ids = ["adventurers-armory", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thistle_arrow", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "adventurers-armory"
+page = "18"
+[[sources]]
+publication = "pathfinder-campaign-setting"
+page = "211"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "0.15 lbs."
 +++
-
-**Sources:** Adventurer's Armory pg 18, Pathfinder Campaign Setting pg 211
 
 These arrows are a specialty of the Ekujae shamans, who craft the arrowheads out of the thistles of
 a toxic plant that most creatures find highly caustic. They deal normal damage but then become

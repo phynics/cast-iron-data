@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dark_lens_altar", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "220"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration"
 caster_level = "13th"
 +++
 
-**Sources:** Horror Adventures pg 220\
 **Aura** strong conjuration; **CL** 13th\
 **Slot** none; **Price** 40,000 gp; **Weight** 37 lbs.
 

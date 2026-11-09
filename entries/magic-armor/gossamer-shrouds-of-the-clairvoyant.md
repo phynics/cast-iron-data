@@ -6,6 +6,9 @@ source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gossamer_shrouds_of_the_clairvoyant", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "magical-marketplace"
+page = "17"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration and illusion"
 caster_level = "9th"
 +++
 
-**Sources:** Magical Marketplace pg 17\
 **Aura** moderate conjuration and illusion; **CL** 9th\
 **Slot** armor; **Price** 20,150 gp; **Weight** 25 lbs.
 

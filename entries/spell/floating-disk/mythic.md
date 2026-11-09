@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/floating-disk", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "95"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 95\
 The disk created by this spell lasts for 2 hours per caster level and can carry up to 200 pounds of
 weight per caster level.
 

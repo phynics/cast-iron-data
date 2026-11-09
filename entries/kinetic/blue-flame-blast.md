@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blue_flame_blast", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "16"
 
 [fields]
 kind = "class_option"
@@ -27,7 +30,5 @@ group = "kineticist-wild-talent"
 **Damage:** fire
 
 **Prerequisite:** primary element (fire), expanded element (fire)
-
-**Source:** Occult Adventures/16
 
 You unleash a concentrated blast of intense blue flame.

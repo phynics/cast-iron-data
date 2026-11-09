@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cleric" },
 ]
+[[sources]]
+publication = "blood-of-the-sea"
+page = "23"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Channel energy"]
 alters = ["Bonus languages", "Spontaneous casting"]
 +++
 
-**Sources:** Blood of the Sea pg 23\
 Clerics of Gozreh revere their deity as the embodiment of nature and the incarnation of wind and
 waves. Clerics who live in or near the sea sometimes embrace the watery aspect of
 [Gozreh](ref/faith/gozreh) over the deity's other dimensions and take the title of crashing wave. In

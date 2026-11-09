@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "versatile", path = "json/rules_adv_gm03.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "237"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 237
 
 Most of these abilities grant more spellcasting abilities or reflect the monster's deep
 understanding or clever manipulation of magical forces.

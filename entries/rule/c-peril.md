@@ -6,12 +6,14 @@ source_ids = ["jade-regent-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "c_peril", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "jade-regent-players-guide"
+page = "24"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Jade Regent Player's Guide pg 24\
 As a caravan travels, it will eventually encounter some form of peril. The less dangerous forms of
 peril include bad weather, poor road conditions, and local disasters such as landslides, forest
 fires, the threat of mutiny, and the like. More dangerous forms of peril include monsters like

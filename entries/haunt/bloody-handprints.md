@@ -6,12 +6,14 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloody_handprints", path = "json/haunts.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "174"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Adventures pg 174\
 A murder or other violent death lingers as bloody marks that harm any creature touching the surface
 on which they appear.
 

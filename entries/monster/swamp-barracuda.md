@@ -6,6 +6,12 @@ source_ids = ["magnimar-city-of-monuments", "pathfinder-13-shadow-in-the-sky"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swamp_barracuda", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "magnimar-city-of-monuments"
+page = "61"
+[[sources]]
+publication = "pathfinder-13-shadow-in-the-sky"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -45,7 +51,6 @@ covered in a layer of thick algae._
 
 **Senses:** Low-light vision
 
-**Sources:** Magnimar, City of Monuments pg 61, Pathfinder \#13: Shadow in the Sky pg 86\
 **Subtype:** Aquatic
 
 **Experience points:** 600

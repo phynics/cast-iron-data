@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "transmute_potion_to_poison", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "250"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Spell resistance: no
 Target: you
 Descriptors: poison
 :::
-
-**Sources:** Advanced Player's Guide pg 250
 
 This extract causes you to take on a pale, sickly pallor for 1 round. During this time, if you
 consume a potion, it has no effect. Instead, your mouth fills with a vile poison that you can spit

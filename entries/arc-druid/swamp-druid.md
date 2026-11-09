@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "100"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Woodland stride", "Trackless step", "Resist nature's lure", "A thou
 alters = ["Wild shape"]
 +++
 
-**Sources:** Advanced Player's Guide pg 100\
 Some druids eschew pleasant glades and groves and instead seek out dank marshes, misty bogs and
 heaths, and trackless swamps as the place they call home and watch over with care, finding beauty
 and life in abundance in places few others would willingly enter.

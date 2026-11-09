@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/vigilante" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "54"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Vigilante specialization", "Vengeance strike"]
 alters = ["Dual identity", "Base saving throws", "Armor and weapon proficiencies", "Vigilante talents"]
 +++
 
-**Sources:** Ultimate Intrigue pg 54\
 Either through the results of magical experimentation or bizarre natural sparks, some vigilantes can
 transform into brutish versions of themselves, becoming larger, more terrifying in appearance, and
 far more formidable in combat - though at a price.

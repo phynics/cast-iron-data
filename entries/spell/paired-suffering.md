@@ -6,12 +6,14 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "paired_suffering", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "132"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Adventures pg 132\
 **School** necromancy; **Level** 6\
 **Casting Time** 6 hours\
 **Components** V, S, F (an ornate ceremonial dagger worth at least 1,000 gp)\

@@ -6,6 +6,9 @@ source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "neutral_buoyancy", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
+page = "60"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: Will negates
 Spell resistance: yes
 Target: creature touched
 :::
-
-**Sources:** Aquatic Adventures pg 60
 
 The target's buoyancy becomes and stays neutral, regardless of how dense the target and its gear
 are. Among other effects, the target neither sinks nor rises when it doesn't attempt a Swim check,

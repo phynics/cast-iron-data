@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/slayer" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "66"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Proficiency in medium armor and shields", "The 1st-level studied ta
 alters = ["Studied target"]
 +++
 
-**Sources:** Horror Adventures pg 66\
 Bloody jakes are cruel backwoods folk who prey upon their country cousins while terrorizing
 civilized people who venture into their rural range.
 

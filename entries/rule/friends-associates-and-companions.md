@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "friends_associates_and_companions", path = "json/rules_basics03.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "15"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 15
 
 It's not necessary for you to know all of your adventuring companions when you start a campaign, but
 establishing prior connections within the group facilitates party and story cohesion. In campaigns

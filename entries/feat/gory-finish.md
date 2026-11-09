@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gory_finish", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "102"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you use the attack action, you can use a weapon with which you h
 +++
 
 ## Gory Finish (Combat)
-
-**Sources:** Ultimate Combat pg 102
 
 By drawing upon wells of savagery, you can slay your foe in creative and horrifyingly gruesome
 manners, intimidating nearby foes.\

@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fame_and_infamy", path = "json/rules_campaign_types05.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "230"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 230
 
 Kingdoms gain notoriety for the actions of their leaders and citizens, as well as for constructing
 certain types of buildings. This leads to the development of Fame or Infamy. Fame represents a

@@ -6,6 +6,12 @@ source_ids = ["rise-of-the-runelords-anniversary-edition", "pathfinder-5-sins-of
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sign_of_wrath", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "rise-of-the-runelords-anniversary-edition"
+page = "419"
+[[sources]]
+publication = "pathfinder-5-sins-of-the-saviors"
+page = "63"
 
 [fields]
 kind = "spell"
@@ -43,9 +49,6 @@ Spell resistance: yes
 Area: 25-ft.-radius burst centered on you
 Descriptors: force
 :::
-
-**Sources:** Rise of the Runelords Anniversary Edition pg 419, Pathfinder \#5: Sins of the Saviors
-pg 63
 
 A giant, glowing symbol of wrath appears below you, forcibly repulsing all nearby creatures. All
 creatures within the area of effect take 1d6 points of force damage per caster level (maximum 15d6)

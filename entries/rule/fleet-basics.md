@@ -6,12 +6,14 @@ source_ids = ["pathfinder-59-the-price-of-infamy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fleet_basics", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "pathfinder-59-the-price-of-infamy"
+page = "63"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder \#59: The Price of Infamy pg 63\
 A fleet consists of multiple ships organized under a single admiral. Each individual ship in a fleet
 is crewed by a captain and her crew. Technically, it only takes two ships to constitute a fleet for
 the purposes of these rules (if you're just doing a battle between a couple of ships, it's generally

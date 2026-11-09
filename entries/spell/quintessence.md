@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quintessence", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "184"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Target: creature or object touched
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** Occult Adventures pg 184
 
 You draw forth the idealized image of the target creature or object, masking any flaws or damage. An
 injured or ill creature appears healthy, and a damaged object or one with the broken condition

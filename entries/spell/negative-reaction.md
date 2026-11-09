@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "negative_reaction", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "238"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Target: one creature
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** Ultimate Combat pg 238
 
 The target's actions and words fail to impress. The target of this spell takes a -10 penalty on any
 Bluff, Diplomacy, and Intimidate checks as well as any performance combat checks it attempts.

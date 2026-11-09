@@ -6,6 +6,9 @@ source_ids = ["pathfinder-77-herald-of-the-ivory-labyrinth"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_lord_baphomet", path = "json/monsters_unique.json" },
 ]
+[[sources]]
+publication = "pathfinder-77-herald-of-the-ivory-labyrinth"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ than twice a human's height._
 
 **Senses:** Darkvision 60 ft., Detect good, Detect law, See in darkness, True seeing
 
-**Sources:** Pathfinder \#77: Herald of the Ivory Labyrinth pg 88\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 3,276,800

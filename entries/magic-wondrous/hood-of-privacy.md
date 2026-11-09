@@ -6,6 +6,9 @@ source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hood_of_privacy", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "legacy-of-the-first-world"
+page = "27"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration"
 caster_level = "15th"
 +++
 
-**Sources:** Legacy of the First World pg 27\
 **Aura** strong abjuration; **CL** 15th\
 **Slot** head; **Price** 120,000 gp; **Weight** 1 lb.
 

@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mage_hunter", path = "json/npcs7.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "142"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "18"
 
 **Challenge rating:** 18
 
-**Sources:** NPC Codex pg 142\
 **XP** 153,600\
 Human [ranger](ref/class/ranger) 19\
 CE Medium humanoid (human)\

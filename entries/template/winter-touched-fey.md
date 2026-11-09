@@ -6,6 +6,9 @@ source_ids = ["pathfinder-67-the-snows-of-summer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "winter_touched_fey", path = "json/monster_template4.json" },
 ]
+[[sources]]
+publication = "pathfinder-67-the-snows-of-summer"
+page = "72"
 
 [fields]
 kind = "none"
@@ -18,8 +21,6 @@ kind = "none"
 **Challenge rating:** +0
 
 **Simple:** present
-
-**Source:** Pathfinder \#67: The Snows of Summer/72
 
 Chief among the allies of [Baba Yaga](ref/monster/baba-yaga) and the White Witches of Irrisen are
 the winter-touched, a special breed of fey immune to the harsh weather and low temperatures of the

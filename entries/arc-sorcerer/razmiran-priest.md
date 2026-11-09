@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/sorcerer" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "38"
 
 [fields]
 kind = "archetype"
 replaces = ["Eschew Materials bonus feat", "Bloodline spells gained at 3rd level and 5th level", "9th-level bloodline power"]
 +++
 
-**Sources:** Inner Sea Magic pg 38\
 The so-called "priests" of Razmir are magical charlatans - missionary servants of the Living God who
 spread his fervent devotion wherever they travel. Altered by Razmir's magic, he can perform feats
 impossible for other sorcerers. A Razmiran priest has the following class features.

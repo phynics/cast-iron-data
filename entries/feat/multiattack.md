@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "multiattack", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "315"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ normal = "Without this feat, the creature's secondary attacks with natural weapo
 +++
 
 ## Multiattack (Combat, Monster)
-
-**Sources:** Pathfinder RPG Bestiary pg 315
 
 This creature is particularly skilled at making attacks with its natural weapons.\
 **Prerequisites:** Three or more natural attacks.\

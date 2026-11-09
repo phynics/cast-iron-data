@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sample_poisons", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "141"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 141
 
 Examples of poisons that use the various tracks are given below. If a poison does not specify an
 effect, it imposes only the effects for the victim's state on the pertinent track.

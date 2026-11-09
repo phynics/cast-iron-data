@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "assessing_an_audience", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "176"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 176
 
 A duelist and any of her allies who have at least 10 minutes to interact with the crowd before a
 verbal duel begins can attempt a check to determine an [audience bias](ref/rule/audience-biases).

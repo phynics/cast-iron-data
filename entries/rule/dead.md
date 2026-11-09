@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dead", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "190"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 190
 
 When your character's current hit points drop to a negative amount equal to his Constitution score
 or lower, or if he succumbs to [massive damage](ref/rule/loss-of-hit-points), he's dead. A character

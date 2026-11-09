@@ -6,6 +6,9 @@ source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alchemists_atlatl", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "1st"
 +++
 
-**Sources:** Ranged Tactics Toolbox pg 28\
 **Aura** faint transmutation; **CL** 1st\
 **Slot** none; **Price** 1,500 gp; **Weight** 2 lbs.
 

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/secret-chest" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "31"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Subschool: Summoning
 :::
 
 ### Secret Vault
-
-**Sources:** Black Markets pg 31
 
 This spell functions like [secret chest](ref/spell/secret-chest), except it affects a small
 structure, vault, or oversized chest. Living creatures within a secret vault don't cause the spell

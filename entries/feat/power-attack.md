@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "power_attack", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "131"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can choose to take a -1 penalty on all melee attack rolls and com
 +++
 
 ## Power Attack (Combat)
-
-**Sources:** PRPG Core Rulebook pg 131
 
 You can make exceptionally deadly melee attacks by sacrificing accuracy for strength.\
 **Prerequisites:** Str 13, base attack bonus +1.\

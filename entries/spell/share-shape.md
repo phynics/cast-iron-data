@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/beast-shape-2" },
 ]
+[[sources]]
+publication = "animal-archive"
+page = "25"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Subschool: Polymorph
 :::
 
 ### Share Shape
-
-**Sources:** Animal Archive pg 25
 
 This spell functions as [beast shape II](ref/spell/beast-shape-2), but you may only assume the form
 of an animal of a type identical to your animal companion or familiar. If your familiar or companion

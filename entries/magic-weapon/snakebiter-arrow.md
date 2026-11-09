@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snakebiter_arrow", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "201"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong divination"
 caster_level = "12th"
 +++
 
-**Sources:** Monster Codex pg 201\
 **Aura** strong divination; **CL** 12th\
 **Slot** none; **Price** 306 gp; **Weight** -
 

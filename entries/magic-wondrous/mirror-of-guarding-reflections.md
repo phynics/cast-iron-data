@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mirror_of_guarding_reflections", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "311"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate illusion"
 caster_level = "7th"
 +++
 
-**Sources:** Ultimate Equipment pg 311\
 **Aura** moderate illusion; **CL** 7th\
 **Slot** none; **Price** 7,000 gp; **Weight** 4 lbs.
 

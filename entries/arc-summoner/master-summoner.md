@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/summoner" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "80"
 
 [fields]
 kind = "archetype"
 replaces = ["Eidolon", "Summon monster I", "shield ally", "Bond senses"]
 +++
 
-**Sources:** Ultimate Magic pg 80\
 Most summoners forge a bond with a single, powerful eidolon, but some summoners seek to control a
 variety of creatures. The master summoner sacrifices the power of his eidolon in favor of summoning
 a plethora of otherworldly creatures to aid him.

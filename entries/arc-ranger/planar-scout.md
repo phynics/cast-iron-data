@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ranger" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "17"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Hunter's bond", "Evasion", "improved evasion"]
 alters = ["Wild empathy", "Favored terrain"]
 +++
 
-**Sources:** Planar Adventures pg 17\
 Planar scouts are rangers specializing in traversing the planes - and surviving their journeys.
 
 **Gained class skills:** kp

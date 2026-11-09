@@ -6,6 +6,9 @@ source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "penetrating_whetstone", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "monster-hunters-handbook"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "8th"
 +++
 
-**Sources:** Monster Hunter's Handbook pg 29\
 **Aura** moderate evocation; **CL** 8th\
 **Slot** none; **Price** 2,000 gp; **Weight** 1 lb.
 

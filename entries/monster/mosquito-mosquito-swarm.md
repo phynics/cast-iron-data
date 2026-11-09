@@ -6,6 +6,12 @@ source_ids = ["bestiary-2", "rivers-into-darkness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mosquito_mosquito_swarm", path = "json/monsters17.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "193"
+[[sources]]
+publication = "rivers-into-darkness"
+page = "29"
 
 [fields]
 kind = "creature"
@@ -40,7 +46,6 @@ _The droning and spastic movements of this cloud of hungry mosquitoes promise a 
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 2 pg 193, Rivers into Darkness pg 29\
 **Subtype:** Swarm
 
 **Type:** vermin

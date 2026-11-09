@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kami_toshigami", path = "json/monsters34.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "164"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ branches._
 
 **Senses:** Darkvision 60 ft., Deathwatch, True seeing
 
-**Sources:** Bestiary 3 pg 164\
 **Subtype:** Kami, Native
 
 **Experience points:** 51,200

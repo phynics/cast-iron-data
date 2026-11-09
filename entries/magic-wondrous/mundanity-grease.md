@@ -6,6 +6,9 @@ source_ids = ["familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mundanity_grease", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "familiar-folio"
+page = "21"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "11th"
 +++
 
-**Sources:** Familiar Folio pg 21\
 **Aura** moderate abjuration; **CL** 11th\
 **Slot** none; **Price** 500 gp; **Weight** 1 lb.
 

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "making_basic_treasure_interesting", path = "json/rules_gm03.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "110"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 110
 
 Each time you place a major treasure hoard in your game that includes coins or goods, look for a way
 to make the experience of discovering, transporting, or trading it somehow interesting or memorable.

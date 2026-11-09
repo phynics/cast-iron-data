@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "using_ley_lines", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "233"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 233
 
 While a ley line can range from hundreds to thousands of miles long or more, most portions of a ley
 line are only faintly visible to powerful magic, and their power is inaccessible. However,

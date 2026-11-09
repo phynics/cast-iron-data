@@ -6,6 +6,9 @@ source_ids = ["druma-profit-and-prophecy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daemon_bibliodaemon", path = "json/monsters06.json" },
 ]
+[[sources]]
+publication = "druma-profit-and-prophecy"
+page = "57"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ quills emerge from each knuckle of its clawed upper hands._
 
 **Senses:** Darkvision 60 ft., Detect thoughts
 
-**Sources:** Druma, Profit and Prophecy pg 57\
 **Subtype:** Daemon, Evil, Extraplanar
 
 **Experience points:** 4,800

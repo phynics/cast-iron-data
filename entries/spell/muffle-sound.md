@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "muffle_sound", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "188"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Targets: 1 ally/level
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** Advanced Class Guide pg 188
 
 You suppress sounds made by the targets, granting them a +4 bonus on Stealth checks. The targets
 have a 20% chance of spell failure when casting spells with verbal components or using abilities

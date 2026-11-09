@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spike_growth", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "347"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: Reflex partial
 Spell resistance: yes
 Area: one 20-ft. square/level
 :::
-
-**Sources:** PRPG Core Rulebook pg 347
 
 Any ground-covering vegetation in the spell's area becomes very hard and sharply pointed without
 changing its appearance.

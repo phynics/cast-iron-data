@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "haunted_gnome", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "104"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You add haunted fey aspect to your list of gnome magic spell-like abi
 +++
 
 ## Haunted Gnome (Combat)
-
-**Sources:** Ultimate Combat pg 104
 
 You use your gnome magic to take on an eerie illusory appearance.\
 **Prerequisites:** Cha 13, gnome magic racial trait, Knowledge (arcana) 1 rank.\

@@ -6,12 +6,13 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "generating_gemstones", path = "json/rules_adv_gm05.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "388"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Equipment pg 388
 
 When randomly determining gems, roll on the appropriate grade chart. To determine the gemstone's
 total value, roll the added value and add it to the base value. If you would prefer the average

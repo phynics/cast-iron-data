@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snake_venomous_snake", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "255"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ fangs._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 255\
 **Experience points:** 400
 
 **Armor class:** 14/11/13

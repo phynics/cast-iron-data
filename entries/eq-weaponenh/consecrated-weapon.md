@@ -6,6 +6,9 @@ source_ids = ["adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "consecrated_weapon", path = "json/equipment_weapon_enhancements.json" },
 ]
+[[sources]]
+publication = "adventurers-armory"
+page = "24"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "+150 gp"
 weight = "2 lbs."
 +++
 
-**Sources:** Adventurer's Armory pg 24\
 **Price** +150 gp; **Weight** 2 lbs.\
 **Category** Channel Foci\
 **Deity** Any

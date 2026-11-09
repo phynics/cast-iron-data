@@ -6,6 +6,12 @@ source_ids = ["bestiary-6", "the-worldwound"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "siabrae", path = "json/monsters38.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "250"
+[[sources]]
+publication = "the-worldwound"
+page = "58"
 
 [fields]
 kind = "creature"
@@ -44,7 +50,6 @@ and its eyes are polished white orbs._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 6 pg 250, The Worldwound pg 58\
 **Subtype:** Augmented humanoid, Earth
 
 **tremorsense:** 60

@@ -6,14 +6,15 @@ source_ids = ["chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lingering_breath", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "chronicle-of-legends"
+page = "9"
 
 [fields]
 kind = "feat"
 prerequisites = "Dragon disciple level 3rd."
 benefit = "A creature that fails its save against your breath weapon is covered in a clinging effect that deals a number of points of damage equal to 1d6 &times; the number of times per day you can use your breath weapon. This lingering damage is of the same energy type as your breath weapon. The lingering breath effect remains for a number of rounds equal to your dragon disciple level, but in each subsequent round, a creature can spend a standard action to attempt another save against your breath weapon DC to remove the effect."
 +++
-
-**Sources:** Chronicle of Legends pg 9
 
 Your powerful draconic breath coats the battlefield.\
 **Prerequisites:** [Dragon disciple](ref/pclass/dragon-disciple) level 3rd.\

@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spread_the_terror", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "198"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 198
 
 Once the incarnation of a fear is chosen, the GM can then support it with surroundings and allies
 that evoke the same theme. Horror often takes place at night since the dark holds the promise of

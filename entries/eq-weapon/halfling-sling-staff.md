@@ -6,14 +6,21 @@ source_ids = ["ranged-tactics-toolbox", "core-rulebook", "ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "halfling_sling_staff", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "33"
+[[sources]]
+publication = "core-rulebook"
+page = "143"
+[[sources]]
+publication = "ultimate-equipment"
+page = "21"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "3 lbs."
 +++
-
-**Sources:** Ranged Tactics Toolbox pg 33, PRPG Core Rulebook pg 143, Ultimate Equipment pg 21
 
 Made from a specially designed sling attached to a short club, a halfling sling staff can be used by
 a proficient wielder to devastating effect. Your Strength modifier applies to damage rolls when you

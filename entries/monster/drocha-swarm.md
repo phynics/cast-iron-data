@@ -6,6 +6,9 @@ source_ids = ["pathfinder-75-demons-heresy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drocha_swarm", path = "json/monsters07.json" },
 ]
+[[sources]]
+publication = "pathfinder-75-demons-heresy"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ _Hundreds of twisted, distorted faces roil in a miserable cloud, screaming of th
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#75: Demon's Heresy pg 88\
 **Subtype:** Incorporeal, Swarm
 
 **Size:** tiny

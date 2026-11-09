@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ranger", path = "json/monster_template3.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "248"
 
 [fields]
 kind = "none"
@@ -18,8 +21,6 @@ kind = "none"
 **Challenge rating:** +1 or +2
 
 **Simple:** present
-
-**Source:** Monster Codex/248
 
 A [ranger](ref/class/ranger) creature gains a [favored enemy](ref/ability/favored-enemy). It also
 gains a basic combat style, tracking, and some defensive abilities. A ranger creature's CR increases

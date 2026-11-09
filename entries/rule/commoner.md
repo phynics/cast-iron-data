@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "commoner", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "89"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 89
 
 Although not usual famous or wealthy, [commoners](ref/npcclass/commoner) have a wide variety of
 skills and can usually come up with creative ways to repay favors.

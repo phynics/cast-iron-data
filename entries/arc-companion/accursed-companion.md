@@ -6,12 +6,14 @@ source_ids = ["horror-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "accursed_companion", path = "json/archetypes_COMPANION.json" },
 ]
+[[sources]]
+publication = "horror-realms"
+page = "10"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Realms pg 10\
 When a character calls upon the aid and companionship of one of nature's children, she forges a
 sacred pact to care for and cherish that creature. In exchange, the animal companion serves as her
 guide and guardian. The bond between the two strengthens, and the animal companion moves beyond its

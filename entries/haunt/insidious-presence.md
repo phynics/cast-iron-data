@@ -6,12 +6,14 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "insidious_presence", path = "json/haunts.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "231"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Occult Adventures pg 231\
 This haunt hides within a host's body, at first offering tempting boons to make the host comfortable
 with their presence before ultimately seeking the host's destruction.
 

@@ -6,6 +6,12 @@ source_ids = ["curse-of-the-crimson-throne", "pathfinder-8-seven-days-to-the-gra
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plaguebringers_mask", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "curse-of-the-crimson-throne"
+page = "435"
+[[sources]]
+publication = "pathfinder-8-seven-days-to-the-grave"
+page = "18"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Sources:** Curse of the Crimson Throne pg 435, Pathfinder \#8: Seven Days to the Grave pg 18\
 **Aura** faint conjuration; **CL** 5th\
 **Slot** head; **Price** 2,000 gp; **Weight** 2 lbs.
 

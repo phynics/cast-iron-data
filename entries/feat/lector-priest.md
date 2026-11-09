@@ -6,6 +6,9 @@ source_ids = ["pathfinder-139-the-dead-road"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lector_priest", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "pathfinder-139-the-dead-road"
+page = "73"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You gain Spellcraft as a class skill. Whenever you attempt a Spellcra
 +++
 
 ## Lector Priest (Origin)
-
-**Sources:** Pathfinder \#139: The Dead Road pg 73
 
 Your creator was a priest and magician, and your memories are filled with the smell of incense.\
 **Prerequisites:** [Shabti](ref/race/shabti).\

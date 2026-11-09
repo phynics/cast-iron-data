@@ -6,6 +6,9 @@ source_ids = ["daughters-of-fury"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "choker_of_the_siphoning_scorpion", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "daughters-of-fury"
+page = "57"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "9th"
 +++
 
-**Sources:** Daughters of Fury pg 57\
 **Aura** moderate necromancy; **CL** 9th\
 **Slot** neck; **Price** 8,000 gp; **Weight** -
 

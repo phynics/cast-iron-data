@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rockshard_canister", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "21"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "50 gp"
 weight = "25 lbs."
 +++
 
-**Sources:** Melee Tactics Toolbox pg 21\
 **Price** 50 gp; **Weight** 25 lbs.\
 **Category** Alchemical Tools
 

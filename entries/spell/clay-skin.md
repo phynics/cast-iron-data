@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "potions-and-poisons", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clay_skin", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "potions-and-poisons"
+page = "17"
 
 [fields]
 kind = "spell"
@@ -55,8 +58,6 @@ Target: creature touched
 :::
 
 ### Clay Skin
-
-**Sources:** Potions and Poisons pg 17
 
 The target's skin becomes as thick and tough as clay, granting the target DR 5/adamantine. Once the
 spell has prevented a total of 5 points of damage per caster level (maximum 50 points), it is

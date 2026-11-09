@@ -6,6 +6,9 @@ source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reapers_wisdom", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "potions-and-poisons"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "11th"
 +++
 
-**Sources:** Potions and Poisons pg 29\
 **Aura** moderate necromancy; **CL** 11th\
 **Slot** shoulders; **Price** 21,600 gp; **Weight** 1 lb.
 

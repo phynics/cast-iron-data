@@ -6,6 +6,9 @@ source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pugwampis_grace", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "59"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Target: one creature (see below)
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Inner Sea Magic pg 59
 
 Hated by adventurers throughout the Inner Sea region, the gremlins known as pugwampis infect those
 around them with a malignant form of unluck - an effect that this spell emulates. If the target

@@ -6,12 +6,13 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "templates", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "294"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder RPG Bestiary pg 294
 
 A template is a set of rules that you apply to a monster to transform it into a different monster.
 All templates give precise directions on how to change a monster's statistics to transform it into

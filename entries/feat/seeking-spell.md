@@ -6,6 +6,9 @@ source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seeking_spell", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "13"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "A seeking spell's range can bend around obstacles to reach the intend
 +++
 
 ## Seeking Spell (Metamagic)
-
-**Sources:** Ranged Tactics Toolbox pg 13
 
 You can cast spells that bend around barriers to reach their intended destination.\
 **Benefit:** A seeking spell's range can bend around obstacles to reach the intended target. You can

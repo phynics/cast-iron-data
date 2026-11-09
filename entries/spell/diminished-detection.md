@@ -6,6 +6,9 @@ source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "diminished_detection", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "59"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Inner Sea Intrigue pg 59
 
 You can avoid being detected when you are on the edges of some divination spells' ranges. Whenever
 you would normally be within the area of effect of a detection spell (such as

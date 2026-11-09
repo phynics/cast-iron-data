@@ -6,6 +6,9 @@ source_ids = ["osirion-legacy-of-the-pharaohs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jackal", path = "json/monsters34.json" },
 ]
+[[sources]]
+publication = "osirion-legacy-of-the-pharaohs"
+page = "54"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ with dark brown eyes._
 
 **Size:** small
 
-**Sources:** Osirion, Legacy of the Pharaohs pg 54\
 **Experience points:** 200
 
 **Armor class:** 14/13/12

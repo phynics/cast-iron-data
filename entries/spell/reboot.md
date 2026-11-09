@@ -6,6 +6,9 @@ source_ids = ["people-of-the-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reboot", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "people-of-the-stars"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: none
 Spell resistance: no
 Target: one destroyed construct of up to 2 HD/level
 :::
-
-**Sources:** People of the Stars pg 29
 
 Whispering in the dense, information-rich machine language of the First Ones, you bring a destroyed
 construct back to operational status for a short time, restoring it to 1 hit point. The construct

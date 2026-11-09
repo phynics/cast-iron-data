@@ -6,6 +6,9 @@ source_ids = ["bestiary", "undead-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow", path = "json/monsters21.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "245"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ writhes with unholy life._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 245\
 **Subtype:** Incorporeal
 
 **Type:** undead

@@ -6,6 +6,9 @@ source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "esoteric_diadem_normal", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
+page = "9"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "10th"
 
 ## Esoteric Diadem
 
-**Sources:** Elemental Master's Handbook pg 9\
 **Aura** moderate evocation; **CL** 10th\
 **Slot** headband; **Price** 18,000 gp (Lesser), 50,000 gp (Normal), 98,000 gp (Greater);
 **Weight** -

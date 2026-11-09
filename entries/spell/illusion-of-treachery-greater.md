@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/illusion-of-treachery" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "217"
 
 [fields]
 kind = "spell"
@@ -54,8 +57,6 @@ Descriptors: glamer
 :::
 
 ### Greater Illusion of Treachery
-
-**Sources:** Ultimate Intrigue pg 217
 
 This spell functions as [illusion of treachery](ref/spell/illusion-of-treachery) except that it also
 conceals your own actions (as illusion of calm) and renders invisible all spell effects and ranged

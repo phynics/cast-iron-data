@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "71"
 
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Trap sense"]
 +++
 
-**Sources:** Ultimate Combat pg 71\
 An absolute master of disguise, a chameleon effortlessly blends into any environment. Whether
 disappearing into crowded city streets, vanishing into desert sands, or slipping into the darkness
 of subterranean tunnels, the chameleon relies upon her ability to become part of her surroundings.

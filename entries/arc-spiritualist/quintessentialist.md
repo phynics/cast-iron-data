@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/spiritualist" },
 ]
+[[sources]]
+publication = "distant-realms"
+page = "53"
 
 [fields]
 kind = "archetype"
 alters = ["Phantom"]
 +++
 
-**Sources:** Distant Realms pg 53\
 When the pressure to grow wars with a personal need for simplicity, a mortal soul can split between
 extremes, creating two half-beings that rely on one another to survive. The quintessentialist learns
 to project her best self - her _exemplar_ - as an independent being, but in doing so leaves only the

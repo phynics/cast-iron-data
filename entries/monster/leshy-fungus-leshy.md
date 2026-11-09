@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "pathfinder-34-blood-for-blood"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "leshy_fungus_leshy", path = "json/monsters34.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "177"
+[[sources]]
+publication = "pathfinder-34-blood-for-blood"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -45,7 +51,6 @@ set with pale fungal teeth._
 
 **Size:** small
 
-**Sources:** Bestiary 3 pg 177, Pathfinder \#34: Blood for Blood pg 86\
 **Subtype:** Leshy, Shapechanger
 
 **Experience points:** 600

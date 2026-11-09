@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "teleport", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "358"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Spell resistance: no and yes (object)
 Target: you and touched objects or other touched willing creatures
 Subschool: Teleportation
 :::
-
-**Sources:** PRPG Core Rulebook pg 358
 
 This spell instantly transports you to a designated destination, which may be as distant as 100
 miles per caster level. Interplanar travel is not possible. You can bring along objects as long as

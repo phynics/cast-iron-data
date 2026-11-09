@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "evasion_and_pursuit", path = "json/rules_basics04.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "171"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 171
 
 In round-by-round movement, when simply counting off squares, it's impossible for a slow character
 to get away from a determined fast character without mitigating circumstances. Likewise, it's no

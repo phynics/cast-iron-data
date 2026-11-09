@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/dispel-evil" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "272"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: see text
 Target or Targets: you and a touched evil creature from another plane, or you and an enchantment or evil spell on a touched creature or object
 Descriptors: chaotic
 :::
-
-**Sources:** PRPG Core Rulebook pg 272
 
 This spell functions like [dispel evil](ref/spell/dispel-evil), except that you are surrounded by
 flickering, yellow chaotic energy, and the spell affects lawful creatures and spells rather than

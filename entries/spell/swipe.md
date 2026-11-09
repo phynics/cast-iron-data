@@ -6,6 +6,12 @@ source_ids = ["rise-of-the-runelords-anniversary-edition", "pathfinder-5-sins-of
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swipe", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "rise-of-the-runelords-anniversary-edition"
+page = "419"
+[[sources]]
+publication = "pathfinder-5-sins-of-the-saviors"
+page = "62"
 
 [fields]
 kind = "spell"
@@ -43,9 +49,6 @@ Spell resistance: no
 Target: one held item
 Subschool: Teleportation
 :::
-
-**Sources:** Rise of the Runelords Anniversary Edition pg 419, Pathfinder \#5: Sins of the Saviors
-pg 62
 
 By flicking a finger in the appropriate direction and proclaiming ownership, you attempt to
 magically wrest an item from the target's grip and summon it to your hand. To claim an object held

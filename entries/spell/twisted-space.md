@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "twisted_space", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "248"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: Will negates
 Spell resistance: yes
 Target: one creature
 :::
-
-**Sources:** Ultimate Combat pg 248
 
 You distort the space around a creature, twisting the path of its melee attacks unpredictably, but
 always toward a nearby creature that the target threatens. Until the start of your next turn, melee

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "celebrating_time", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "162"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 162
 
 Holidays, festivals, and other calendar-based events provide easy world flavor and adventure hooks.
 

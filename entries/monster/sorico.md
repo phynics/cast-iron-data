@@ -6,6 +6,9 @@ source_ids = ["pathfinder-85-fires-of-creation"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sorico", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "pathfinder-85-fires-of-creation"
+page = "83"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ creature's fur._
 
 **Size:** small
 
-**Sources:** Pathfinder \#85: Fires of Creation pg 83\
 **Experience points:** 400
 
 **Armor class:** 12/12/11

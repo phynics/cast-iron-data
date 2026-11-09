@@ -6,6 +6,9 @@ source_ids = ["faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sundered_mask_nethys", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "faiths-of-balance"
+page = "25"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "250 gp"
 weight = "1 lb."
 +++
 
-**Sources:** Faiths of Balance pg 25\
 **Price** 250 gp; **Weight** 1 lb.\
 **Category** Channel Foci\
 **Deity** [Nethys](ref/faith/nethys)

@@ -6,6 +6,9 @@ source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "book_of_written_whispers", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "divine-anthology"
+page = "7"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Divine Anthology pg 7\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** none; **Price** 6,000 gp; **Weight** 1 lb.
 

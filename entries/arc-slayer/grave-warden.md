@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/slayer" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "120"
 
 [fields]
 kind = "archetype"
 replaces = ["Slayer talent gained at 2nd level", "Stalker", "Advanced slayer talent gained at 10th level"]
 +++
 
-**Sources:** Advanced Class Guide pg 120\
 While paladins and inquisitors use their connection with the divine to fight undead hordes and other
 horrors of the night, a grave warden relies on knowledge, skill with weapons, and tenacity to put an
 end to these night-born terrors.

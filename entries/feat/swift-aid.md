@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swift_aid", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "172"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "Aid another is a standard action."
 +++
 
 ## Swift Aid (Combat)
-
-**Sources:** Advanced Player's Guide pg 172
 
 With a quick but harmless swipe, you can aid an ally's assault.\
 **Prerequisites:** Int 13, [Combat Expertise](ref/feat/combat-expertise), base attack bonus +6.\

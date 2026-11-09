@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "curse_terrain_lesser", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "114"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Saving throw: none
 Spell resistance: no
 Descriptors: curse, evil
 :::
-
-**Sources:** Horror Adventures pg 114
 
 By touching the ground, you curse the land with three unnatural hazards, as the minor perilous
 demesne curse (see below). Though this makes the hazards appear frequently, their manifestations are

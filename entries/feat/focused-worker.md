@@ -6,14 +6,15 @@ source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "focused_worker", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "quests-and-campaigns"
+page = "26"
 
 [fields]
 kind = "feat"
 benefit = "You excel at performing skilled work for a certain type of capital, but are less adept at generating another type of capital."
 special = "You may take this feat twice. The second time, you must choose the other two types of capital to be a focus and a neglected capital."
 +++
-
-**Sources:** Quests and Campaigns pg 26
 
 Your attention to detail provides you with an excess of some commodities, at the cost of others.\
 **Benefit:** You excel at performing skilled work for a certain type of capital, but are less adept

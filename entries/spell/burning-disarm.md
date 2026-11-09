@@ -6,6 +6,9 @@ source_ids = ["cheliax-empire-of-devils"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burning_disarm", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "cheliax-empire-of-devils"
+page = "22"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: yes (object)
 Target: held metal item of one creature or 15 lbs. of unattended metal
 Descriptors: fire
 :::
-
-**Sources:** Cheliax, Empire of Devils pg 22
 
 This spell causes a metal object to instantly become red hot. A creature holding the item may
 attempt a Reflex save to drop it and take no damage (even if it is not their turn), otherwise the

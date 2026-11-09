@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grendel_mythic", path = "json/monsters_mythic.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "145"
 
 [fields]
 kind = "creature"
@@ -48,7 +51,6 @@ with blood._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 4 pg 145\
 **Subtype:** Mythic
 
 **Experience points:** 204,800

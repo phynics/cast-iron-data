@@ -6,6 +6,12 @@ source_ids = ["inner-sea-world-guide", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "taldan_duelist", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "289"
+[[sources]]
+publication = "pathfinder-campaign-setting"
+page = "137"
 
 [fields]
 kind = "feat"
@@ -16,8 +22,6 @@ benefit = "When fighting with the falcata and buckler, your shield bonus to AC i
 +++
 
 ## Taldan Duelist (Combat)
-
-**Sources:** Inner Sea World Guide pg 289, Pathfinder Campaign Setting pg 137
 
 You trained at one of Taldor's elite fighting schools and are skilled at rondelero, the art of
 fighting with the falcata and buckler.\

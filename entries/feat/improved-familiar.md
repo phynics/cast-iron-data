@@ -6,14 +6,15 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_familiar", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "127"
 
 [fields]
 kind = "feat"
 prerequisites = "Ability to acquire a new familiar, compatible alignment, sufficiently high level."
 benefit = "When choosing a familiar, the creatures listed here are also available to you. You may choose a familiar with an alignment up to one step away on each alignment axis (lawful through chaotic, good through evil)."
 +++
-
-**Sources:** PRPG Core Rulebook pg 127
 
 This feat allows you to acquire a powerful familiar, but only when you could normally acquire a new
 familiar.\

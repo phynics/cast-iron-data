@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pull", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "297"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Pull (Ex)
 
-**Sources:** Bestiary 5 pg 297\
 A creature with this ability can choose to attempt a free combat maneuver check with a successful
 attack. If successful, this check pulls a creature closer. The distance pulled is set by this
 ability. The type of attack that causes the pull and the distance pulled are included in the

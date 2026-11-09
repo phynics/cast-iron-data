@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "valkyrie", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "277"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ carries a shining spear._
 
 **Senses:** Darkvision 60 ft., Deathwatch
 
-**Sources:** Bestiary 3 pg 277\
 **Subtype:** Extraplanar
 
 **Experience points:** 19,200

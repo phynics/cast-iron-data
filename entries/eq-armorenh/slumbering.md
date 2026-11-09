@@ -6,6 +6,9 @@ source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slumbering", path = "json/equipment_armor_enhancements.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "7"
 
 [fields]
 kind = "item"
@@ -13,7 +16,6 @@ category = "Armor Modifications"
 weight = "+5 lbs."
 +++
 
-**Sources:** Adventurer's Armory 2 pg 7\
 **Cost** +500 gp **Weight** +5 lbs.
 
 Soldiers in the field and adventurers in the dungeon both find slumbering armor to be a boon, as its

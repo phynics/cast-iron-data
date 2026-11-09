@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ranger" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "73"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Wild empathy, 6th-level combat style feat", "Track", "camouflage", 
 alters = ["Favored terrain"]
 +++
 
-**Sources:** Ultimate Wilderness pg 73\
 The tidal hunter draws strength from the fish and other wildlife of the deep.
 
 **Waterborn (Su)**

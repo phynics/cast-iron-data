@@ -10,6 +10,9 @@ relations = [
   { kind = "prerequisite", target = "ref/feat/multiattack", label = "or" },
   { kind = "prerequisite", target = "ref/feat/two-weapon-fighting", label = "or" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "188"
 
 [fields]
 kind = "feat"
@@ -20,8 +23,6 @@ benefit = "As long as you are wielding one or more weapons with which you are pr
 +++
 
 ## Improved Position of Strength (Combat)
-
-**Sources:** Villain Codex pg 188
 
 You are particularly skilled in pressing your advantage when negotiating with noncombatants.\
 **Prerequisites:** [Position of Strength](ref/feat/position-of-strength);

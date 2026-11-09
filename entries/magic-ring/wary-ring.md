@@ -6,6 +6,9 @@ source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wary_ring", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "magical-marketplace"
+page = "17"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ aura = "n/a"
 caster_level = "9th"
 +++
 
-**Sources:** Magical Marketplace pg 17\
 **Aura** n/a; **CL** 9th\
 **Slot** ring; **Price** 14,600 gp
 

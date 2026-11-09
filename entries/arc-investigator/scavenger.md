@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/investigator" },
 ]
+[[sources]]
+publication = "blood-of-the-beast"
+page = "21"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Poison lore", "Poison resistance", "poison immunity"]
 alters = ["Alchemy", "Inspiration"]
 +++
 
-**Sources:** Blood of the Beast pg 21\
 Scavengers are masters of systems: how they fit together, why they work, and how to make the most of
 their parts. However, scavengers generally lack other investigative talents such as social skills or
 an understanding of history and lore. The ratfolk of Numeria excel at this art, but nearly every

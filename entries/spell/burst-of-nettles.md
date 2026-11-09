@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burst_of_nettles", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "210"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Spell resistance: yes
 Area: 10-ft.-radius burst
 Descriptors: acid
 :::
-
-**Sources:** Ultimate Magic pg 210
 
 You release a burst of barbed, acid-filled nettles. Creatures caught in the burst take 3d6 points of
 damage plus 1d6 points of acid damage on the next round. Those that save take half damage from the

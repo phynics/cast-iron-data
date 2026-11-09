@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "potions-and-poisons"
+page = "8"
 
 [fields]
 kind = "archetype"
 replaces = ["Poison resistance", "the discovery gained at 10th level", "Poison use", "Swift poisoning"]
 +++
 
-**Sources:** Potions and Poisons pg 8\
 Little more than moonshiners to some, fermenters focus their efforts on imbibing substances,
 learning from the resulting effects on their bodies, and infusing this knowledge into their skill
 sets. Fermenters consider themselves living experiments and accept the risks and benefits inherent

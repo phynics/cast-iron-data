@@ -6,6 +6,9 @@ source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "martial_marionette", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "58"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Target: 1 creature
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Inner Sea Magic pg 58
 
 When you cast this spell, you take partial control of an opponent's limbs, making it difficult for
 him to attack you. Any attacks made against you by the target of the spell take a -2 penalty due to

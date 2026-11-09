@@ -6,12 +6,13 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "size_quality", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "218"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Advanced Race Guide pg 218
 
 The next step is to pick a size quality for your race. Most races are Medium or Small, which have no
 prerequisites, but you can also elect to make your race either Large or Tiny with the following

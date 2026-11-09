@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weapon_of_awe", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "256"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: yes (harmless) (object)
 Target: weapon touched
 Descriptors: emotion
 :::
-
-**Sources:** Advanced Player's Guide pg 256
 
 You transform a single weapon into an awe-inspiring instrument. The weapon gains a +2 sacred bonus
 on damage rolls, and if the weapon scores a critical hit, the target of that critical hit becomes

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "occult-origins"
+page = "21"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Nature sense", "trackless step", "resist nature's lure", "Wild shap
 alters = ["Weapon and armor proficiencies"]
 +++
 
-**Sources:** Occult Origins pg 21\
 Supernaturalists wholly embrace paranormal phenomena as extensions of nature.
 
 **Weapon and Armor Proficiency**

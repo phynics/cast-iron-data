@@ -6,13 +6,14 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "griffon_mane", path = "json/equipment_special_materials.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "51"
 
 [fields]
 kind = "item"
 category = "Special Materials"
 +++
-
-**Sources:** Ultimate Equipment pg 51
 
 This rough-spun cloth, ranging in color from golden-brown to brown-black, is woven from the mane of
 leonine magical beasts, primarily [griffons](ref/monster/griffon) but also

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-143-borne-by-the-suns-grace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychopomp_usher_barzahk", path = "json/monsters_unique3.json" },
 ]
+[[sources]]
+publication = "pathfinder-143-borne-by-the-suns-grace"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ _Feathered arms emerge from the shoulders of this hunched raven, clutching a key
 **Senses:** Darkvision 60 ft., Detect chaos, Detect evil, Detect good, Detect law, Detect thoughts,
 Detect undead, Low-light vision, Spiritsense, True seeing
 
-**Sources:** Pathfinder \#143: Borne by the Sun's Grace pg 90\
 **Subtype:** Extraplanar, Psychopomp, Shapechanger
 
 **Experience points:** 4,915,200

@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "death_and_bargaining", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "203"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 203
 
 Sometimes characters die. That's not fun for anyone, though - especially if the GM has spent a
 considerable amount of time on a story that now might never take shape. While players should feel

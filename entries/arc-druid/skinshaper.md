@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "26"
 
 [fields]
 kind = "archetype"
 replaces = ["Wild shape", "A thousand faces"]
 +++
 
-**Sources:** Ultimate Intrigue pg 26\
 Using the same primal energy with which other druids assume animal forms, skinshapers can imitate
 some of the most dangerous beasts of all: humans and other humanoids. Rather than merely copying
 humanoids' shapes and abilities, skinshapers unlock brutal energies that push their borrowed bodies

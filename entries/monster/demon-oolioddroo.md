@@ -6,6 +6,12 @@ source_ids = ["bestiary-6", "the-worldwound"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_oolioddroo", path = "json/monsters29.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "86"
+[[sources]]
+publication = "the-worldwound"
+page = "50"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ shadows._
 
 **Senses:** Darkvision 60 ft., See thoughts
 
-**Sources:** Bestiary 6 pg 86, The Worldwound pg 50\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 25,600

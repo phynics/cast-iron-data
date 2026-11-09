@@ -6,6 +6,9 @@ source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kiss_of_the_first_world", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "58"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: Will negates
 Spell resistance: yes
 Area: living or undead creature touched
 :::
-
-**Sources:** Inner Sea Magic pg 58
 
 This spell - a favorite of fey spellcasters - is traditionally bestowed with a kiss, though all
 that's really required to gift someone with a kiss of the First World is a touch. This spell infuses

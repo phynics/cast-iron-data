@@ -6,12 +6,14 @@ source_ids = ["blood-of-the-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "feeding_bonuses", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "blood-of-the-night"
+page = "23"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Blood of the Night pg 23\
 What constitutes a feeding differs for each undead creature according to its own addiction. For
 creatures with a blood drain, level drain, or ability drain ability, each use of that ability counts
 as a feeding. Hungering creatures that lack a drain ability, such as zombies and ghouls, count

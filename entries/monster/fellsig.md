@@ -6,6 +6,9 @@ source_ids = ["andoran-birthplace-of-freedom"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fellsig", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "andoran-birthplace-of-freedom"
+page = "55"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ stone body glow with a fiery inner heat._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Andoran, Birthplace of Freedom pg 55\
 **Subtype:** Fire
 
 **tremorsense:** 30

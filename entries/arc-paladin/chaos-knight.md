@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/paladin" },
 ]
+[[sources]]
+publication = "plane-hoppers-handbook"
+page = "18"
 
 [fields]
 kind = "archetype"
 replaces = ["Lay on hands", "Mercy", "Aura of faith"]
 +++
 
-**Sources:** Plane-Hopper's Handbook pg 18\
 Despite the entropic forces inherent in ganzis, some forgo a life of chaos, instead harnessing their
 heritage to enforce the power of law. The chaos knight is able to tap into the nature of the
 Maelstrom in order to grant or gain small, unpredictable blessings to aid on her quest for order.

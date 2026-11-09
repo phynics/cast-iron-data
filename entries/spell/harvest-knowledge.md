@@ -6,6 +6,9 @@ source_ids = ["inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "harvest_knowledge", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "inner-sea-temples"
+page = "62"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Spell resistance: no
 Target: one creature or object; see text
 Descriptors: mind-affecting
 :::
-
-**Sources:** Inner Sea Temples pg 62
 
 You touch a creature and temporarily absorb its knowledge for yourself. If the target fails its
 saving throw, you can sort through its lore and memories. You can retrieve one answer to a specific

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "defining_deeds", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "68"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 68
 
 Another way to see alignment is as a series of concentric rings. In the center ring are all the
 behaviors that are obviously acceptable according to a character's alignment. Around that is a

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "forbiddance", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "285"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: see text
 Spell resistance: yes
 Area: 60-ft. cube/level (S)
 :::
-
-**Sources:** PRPG Core Rulebook pg 285
 
 Forbiddance seals an area against all planar travel into or within it. This includes all
 teleportation spells (such as dimension door and teleport), plane shifting, astral travel, ethereal

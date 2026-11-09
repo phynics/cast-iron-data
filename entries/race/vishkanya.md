@@ -6,12 +6,20 @@ source_ids = ["inner-sea-races", "advanced-race-guide", "bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vishkanya", path = "json/races4.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "253"
+[[sources]]
+publication = "advanced-race-guide"
+page = "208"
+[[sources]]
+publication = "bestiary-3"
+page = "281"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Inner Sea Races pg 253, Advanced Race Guide pg 208, Bestiary 3 pg 281\
 Vishkanyas are a race of exotic humanoids with poisonous blood. Possessed of an alien beauty, these
 graceful humanoids see the world through serpentine eyes of burnished gold. Their supple skin is
 covered with tiny scales, often of a light green, which are sometimes arrayed in patterns not unlike

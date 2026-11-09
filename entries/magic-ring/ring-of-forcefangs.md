@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_forcefangs", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "171"
+[[sources]]
+publication = "advanced-players-guide"
+page = "292"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate evocation"
 caster_level = "9th"
 +++
 
-**Sources:** Ultimate Equipment pg 171, Advanced Player's Guide pg 292\
 **Aura** moderate evocation; **CL** 9th\
 **Slot** ring; **Price** 8,000 gp; **Weight** -
 

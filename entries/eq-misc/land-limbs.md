@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "land_limbs", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "blood-of-the-sea"
+page = "18"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "10 gp"
 weight = "4 lbs."
 +++
 
-**Sources:** Blood of the Sea pg 18\
 **Price** 10 gp; **Weight** 4 lbs.\
 **Category** Adventuring Gear
 

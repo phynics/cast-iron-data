@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "loyal_to_the_death", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "207"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Whenever an opponent makes a melee or ranged attack against one of yo
 +++
 
 ## Loyal to the Death (Teamwork)
-
-**Sources:** Inner Sea Races pg 207
 
 You're so loyal to your family or friends that you're willing to suffer for them.\
 **Prerequisites:** [Human](ref/race/human) (Tian).\

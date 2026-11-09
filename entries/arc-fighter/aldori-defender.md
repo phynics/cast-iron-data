@@ -9,13 +9,18 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/fighter" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "22"
+[[sources]]
+publication = "inner-sea-primer"
+page = "24"
 
 [fields]
 kind = "archetype"
 replaces = ["Armor training", "6th level fighter bonus feat", "8th level fighter bonus feat", "10th level fighter bonus feat"]
 +++
 
-**Sources:** Adventurer's Guide pg 22, Inner Sea Primer pg 24\
 The Aldori swordlords of Brevoy are among the deadliest and most feared fighters of the Inner Sea.
 They have spent long years mastering the Aldori dueling sword, pitting themselves against other
 dueling swords and all manner of weaponry besides. Their speed and reflexes weave a net of

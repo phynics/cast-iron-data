@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "distracting_cacophony", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "217"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes
 Area: 20-ft. spread
 Descriptors: sonic
 :::
-
-**Sources:** Ultimate Magic pg 217
 
 The air fills with loud and discordant noise, making concentration difficult. Casting a spell in
 this area of cacophony requires a [concentration](ref/rule/concentration) check (DC 15 + the level

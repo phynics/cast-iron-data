@@ -6,6 +6,9 @@ source_ids = ["lands-of-the-linnorm-kings"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fafnheir", path = "json/monsters_unique4.json" },
 ]
+[[sources]]
+publication = "lands-of-the-linnorm-kings"
+page = "56"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ nightmarish power, and its mouth drips with liquid flame._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent, True seeing
 
-**Sources:** Lands of the Linnorm Kings pg 56\
 **Experience points:** 1,228,800
 
 **Armor class:** 42/12/32

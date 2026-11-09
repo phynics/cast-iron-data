@@ -6,6 +6,9 @@ source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "virulent_venom", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "potions-and-poisons"
+page = "5"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Your ability to spit poison granted by the Spit Venom feat deals 1d6 
 +++
 
 ## Virulent Venom (Combat)
-
-**Sources:** Potions and Poisons pg 5
 
 The poison that drips from your fangs is potent enough to burn through flesh and wood.\
 **Prerequisites:** [Spit Venom](ref/feat/spit-venom), [nagaji](ref/race/nagaji).\

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "75"
 
 [fields]
 kind = "archetype"
 replaces = ["Mutagen"]
 +++
 
-**Sources:** Advanced Class Guide pg 75\
 Akin to a mindchemist, inspired chemists use a type of cognatogen that instead of increasing their
 mental ability scores grants them inspiration like an investigator. This inspiration also grants an
 inspired chemist amazing powers to avoid danger, but takes a toll on both physical power and health.

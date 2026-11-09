@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elixir_of_oppression", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "21"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Monster Codex pg 21\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** none; **Price** 600 gp; **Weight** -
 

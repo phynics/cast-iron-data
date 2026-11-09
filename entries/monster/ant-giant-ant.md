@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ant_giant_ant", path = "json/monsters02.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "16"
 
 [fields]
 kind = "creature"
@@ -39,7 +42,6 @@ stinger dripping with venom._
 
 **Senses:** Darkvision 60 ft., Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 16\
 **Type:** vermin
 
 **Experience points:** 600

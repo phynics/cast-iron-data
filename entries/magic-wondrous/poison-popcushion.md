@@ -6,6 +6,9 @@ source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "poison_popcushion", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "magical-marketplace"
+page = "13"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration (creation)"
 caster_level = "3rd"
 +++
 
-**Sources:** Magical Marketplace pg 13\
 **Aura** faint conjuration (creation); **CL** 3rd\
 **Slot** none; **Price** 700 gp; **Weight** 2 lbs.
 

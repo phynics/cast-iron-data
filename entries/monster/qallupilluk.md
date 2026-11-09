@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "pathfinder-51-the-hungry-storm"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "qallupilluk", path = "json/monsters19.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "224"
+[[sources]]
+publication = "pathfinder-51-the-hungry-storm"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -47,7 +53,6 @@ a curiously sweet smell._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 4 pg 224, Pathfinder \#51: The Hungry Storm pg 88\
 **Subtype:** Aquatic
 
 **Experience points:** 3,200

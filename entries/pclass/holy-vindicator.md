@@ -6,14 +6,15 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "holy_vindicator", path = "json/prestige_classes2.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "263"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d10."
 +++
-
-**Sources:** Advanced Player's Guide pg 263
 
 Many faiths have within their membership an order of the church militant, be they holy knights or
 dark warriors, who put their lives and immortal souls on the line for their faith. They are paragons

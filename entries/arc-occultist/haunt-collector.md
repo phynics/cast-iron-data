@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/occultist" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "62"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Aura sight", "Outside contact", "Magic circles", "binding circles",
 alters = ["Implements"]
 +++
 
-**Sources:** Horror Adventures pg 62\
 Haunt collectors use items haunted by their former owners to create ghostly presences imbued with
 psychic power.
 

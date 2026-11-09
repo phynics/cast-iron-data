@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "optional_kingdom_rules", path = "json/rules_campaign_types05.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "228"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 228
 
 The following sections are optional rules for the kingdom-building system. These rules are modular;
 if the group prefers a simpler version of the kingdom rules, the GM can ignore the options and only

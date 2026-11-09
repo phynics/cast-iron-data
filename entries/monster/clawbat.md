@@ -6,6 +6,9 @@ source_ids = ["pathfinder-33-the-varnhold-vanishing"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clawbat", path = "json/monsters05.json" },
 ]
+[[sources]]
+publication = "pathfinder-33-the-varnhold-vanishing"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ maw, and a long, thin tongue darts forth seemingly at random to lash the air aro
 
 **Size:** small
 
-**Sources:** Pathfinder \#33: The Varnhold Vanishing pg 82\
 **Experience points:** 400
 
 **Armor class:** 15/14/12

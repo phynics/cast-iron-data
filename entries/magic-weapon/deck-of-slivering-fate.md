@@ -6,6 +6,9 @@ source_ids = ["the-harrow-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deck_of_slivering_fate", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "the-harrow-handbook"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Sources:** The Harrow Handbook pg 30\
 **Aura** moderate evocation; **CL** 7th\
 **Slot** none; **Price** 13,000 gp; **Weight** -
 

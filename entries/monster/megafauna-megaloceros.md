@@ -6,6 +6,12 @@ source_ids = ["bestiary-2", "pathfinder-31-stolen-land"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "megafauna_megaloceros", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "187"
+[[sources]]
+publication = "pathfinder-31-stolen-land"
+page = "80"
 
 [fields]
 kind = "creature"
@@ -41,7 +47,6 @@ stretch over ten feet across._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Bestiary 2 pg 187, Pathfinder \#31: Stolen Land pg 80\
 **Experience points:** 1,200
 
 **Armor class:** 16/11/14

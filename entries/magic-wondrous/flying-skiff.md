@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flying_skiff", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "257"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration and abjuration"
 caster_level = "12th"
 +++
 
-**Sources:** Occult Adventures pg 257\
 **Aura** strong conjuration and abjuration; **CL** 12th\
 **Slot** none; **Price** 180,000 gp; **Weight** 2,500 lbs.
 

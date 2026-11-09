@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "path_of_glory", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "189"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: no
 Area: four 5-ft. squares/level (see text)
 Subschool: Healing
 :::
-
-**Sources:** Advanced Class Guide pg 189
 
 You cause four 5-foot squares (one of which must be your space) to glow with dim illumination.
 Starting on your next turn, as a swift action you can extend the glowing area by an additional four

@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "creating_young_characters", path = "json/rules_adv_pc01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "194"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 194
 
 Young characters are essentially normal characters with an age category younger than any presented
 in the Core Rulebook. Characters of this age category are able and intelligent, curious and

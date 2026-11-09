@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sawtooth_terrain", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "161"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: yes
 Effect: one 10-foot square of difficult and damaging terrain
 Descriptors: earth
 :::
-
-**Sources:** Adventurer's Guide pg 161
 
 This spell targets an area of earth, metal, stone, or wood, causing long, serrated blades to shoot
 out from random points within the area of effect. Any creature in the area when the spell is first

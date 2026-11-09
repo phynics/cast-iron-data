@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sleet_storm", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "344"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Area: cylinder (40-ft. radius, 20 ft. high)
 Subschool: Creation
 Descriptors: cold
 :::
-
-**Sources:** PRPG Core Rulebook pg 344
 
 Driving sleet blocks all sight (even [darkvision](ref/rule/darkvision)) within it and causes the
 ground in the area to be icy. A creature can walk within or through the area of sleet at half normal

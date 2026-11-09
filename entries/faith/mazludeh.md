@@ -6,6 +6,9 @@ source_ids = ["distant-shores"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mazludeh", path = "json/faiths5.json" },
 ]
+[[sources]]
+publication = "distant-shores"
+page = "23"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Mazludeh**
 
 **Sub:** Mother of Hearth and Wall
-
-**Sources:** Distant Shores pg 23
 
 ### Details
 

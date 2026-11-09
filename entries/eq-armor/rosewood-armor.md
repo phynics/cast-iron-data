@@ -6,6 +6,15 @@ source_ids = ["adventurers-armory", "pathfinder-campaign-setting", "conquest-of-
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rosewood_armor", path = "json/equipment_armor.json" },
 ]
+[[sources]]
+publication = "adventurers-armory"
+page = "18"
+[[sources]]
+publication = "pathfinder-campaign-setting"
+page = "211"
+[[sources]]
+publication = "conquest-of-bloodsworn-vale"
+page = "32"
 
 [fields]
 kind = "item"
@@ -13,8 +22,6 @@ category = "Armor"
 weight = "15 lbs."
 +++
 
-**Sources:** Adventurer's Armory pg 18, Pathfinder Campaign Setting pg 211, Conquest of Bloodsworn
-Vale pg 32\
 **Cost** 50 gp **Weight** 15 lbs.\
 **Armor Bonus** +2; **Max Dex Bonus** +6; **Armor Check Penalty** 0\
 **Arcane Spell Failure Chance** 10%; **Speed** 30 ft./20 ft.\

@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "first_love", path = "json/rules_basics03.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "13"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 13
 
 As adolescents start to physically mature, they make their first experimental attempts at courtship.
 These attempts are often deeply felt, passionate, awkward, and unforgettable. Your first experience

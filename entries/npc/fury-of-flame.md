@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fury_of_flame", path = "json/npcs6.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "73"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "13"
 
 **Challenge rating:** 13
 
-**Sources:** NPC Codex pg 73\
 **XP** 25,600\
 Human [druid](ref/class/druid) 14\
 NE Medium humanoid (human)\

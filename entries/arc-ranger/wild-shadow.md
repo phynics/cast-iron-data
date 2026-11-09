@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ranger" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "45"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Hunter's bond", "Woodland stride", "Quarry", "Camouflage", "Improve
 alters = ["Track", "wild empathy", "Favored terrain"]
 +++
 
-**Sources:** Advanced Race Guide pg 45\
 The isolation that some [half-elves](ref/race/half-elf) feel leads them to live a life of isolation
 amid the wild places of the world. Such rangers stalk the wild like shadows, creating close bonds
 with the wild itself instead of seeking the solace and aid of companions. While ill at ease within

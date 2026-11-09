@@ -6,6 +6,9 @@ source_ids = ["pathfinder-75-demons-heresy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "retriever_drone", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "pathfinder-75-demons-heresy"
+page = "62"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration"
 caster_level = "15th"
 +++
 
-**Sources:** Pathfinder \#75: Demon's Heresy pg 62\
 **Aura** strong conjuration; **CL** 15th\
 **Slot** none; **Price** 8,000 gp; **Weight** 5 lbs.
 

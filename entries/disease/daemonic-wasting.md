@@ -6,12 +6,13 @@ source_ids = ["pathfinder-54-the-empty-throne"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daemonic_wasting", path = "json/diseases.json" },
 ]
+[[sources]]
+publication = "pathfinder-54-the-empty-throne"
+page = "28"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder \#54: The Empty Throne pg 28
 
 **Type:** Disease (Contact)
 

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/monk" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "67"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Bonus feats gained at 1st, 2nd, and 6th levels", "The ability to sp
 alters = ["Flurry of blows", "ki pool", "Ki pool"]
 +++
 
-**Sources:** Ultimate Intrigue pg 67\
 Sage counselors are ascetics and mystics who leave the confines of the monastery walls to advise
 secular people about spiritual truths and to seek knowledge of the outside world. They often find
 work as mentors teaching religion and martial arts, and some of them even become counselors for

@@ -6,6 +6,9 @@ source_ids = ["people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inviolate_marker", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "people-of-the-sands"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Sources:** People of the Sands pg 29\
 **Aura** moderate transmutation; **CL** 10th\
 **Slot** none; **Price** 10,000 gp; **Weight** 5 lbs.
 

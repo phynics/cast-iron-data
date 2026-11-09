@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/plane-shift", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "103"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 103
 
 If you've been to the destination plane and are familiar with a location there, you may choose that
 location and arrive on target at that location with anyone else you transport with the spell.

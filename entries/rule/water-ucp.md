@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "water_ucp", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "158"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 158
 
 Whether a river, lake, or ocean, this type of hex is
 [predominantly water](ref/rule/aquatic-terrain). If the PCs lack swim speeds or boats, it is best to

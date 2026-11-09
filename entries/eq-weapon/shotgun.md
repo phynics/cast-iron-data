@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shotgun", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "43"
+[[sources]]
+publication = "ultimate-combat"
+page = "140"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "12 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 43, Ultimate Combat pg 140
 
 This advanced version of the [blunderbuss](ref/eq-weapon/blunderbuss) shoots in a 30-foot cone when
 firing [pellets](ref/eq-weapon/pellets-handful), and has a 20-foot range increment when firing a

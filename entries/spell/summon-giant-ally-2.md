@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/summon-giant-ally-1" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "223"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Subschool: Summoning
 :::
 
 ### Summon Giant Ally II
-
-**Sources:** Inner Sea Races pg 223
 
 This spell functions as [summon giant ally I](ref/spell/summon-giant-ally-1), except you can summon
 one desert, fire, frost, or jungle giant or 1d3 cave, hill, marsh, river, slag, stone, or wood

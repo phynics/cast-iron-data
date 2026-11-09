@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "pathfinder-33-the-varnhold-vanishing"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cyclops_great_cyclops", path = "json/monsters06.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "61"
+[[sources]]
+publication = "pathfinder-33-the-varnhold-vanishing"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -44,7 +50,6 @@ jagged horn on its brow._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 3 pg 61, Pathfinder \#33: The Varnhold Vanishing pg 84\
 **Subtype:** Giant
 
 **Experience points:** 19,200

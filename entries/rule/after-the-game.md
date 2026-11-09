@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "after_the_game", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "62"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 62
 
 Between sessions, players still have plenty of opportunities to contribute to a game's success.
 Engaging in good record keeping, maintaining up-to-date characters, participating in game-related

@@ -6,12 +6,13 @@ source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "buoyancy", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Aquatic Adventures\
 When a creature fails its Swim check by 5 or more, or when it doesn't spend any actions to swim
 (whether voluntarily or due to paralysis or similar conditions), it either sinks or rises based on
 its buoyancy. There are three normal states of buoyancy: sinking, rising, and neutral. If a

@@ -6,13 +6,14 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "titanoboa", path = "json/class_ability_druid_companions.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "312"
 
 [fields]
 kind = "class_option"
 group = "animal-companion"
 +++
-
-**Sources:** Bestiary 6 pg 312
 
 **Companion Type**
 

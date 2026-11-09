@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/spider-climb" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "245"
 
 [fields]
 kind = "spell"
@@ -55,8 +58,6 @@ Target: creature touched
 :::
 
 ### Communal Spider Climb
-
-**Sources:** Ultimate Combat pg 245
 
 This spell functions like [spider climb](ref/spell/spider-climb), except you divide the duration in
 10-minute intervals among the creatures touched.

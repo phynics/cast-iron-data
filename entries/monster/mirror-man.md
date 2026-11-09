@@ -6,6 +6,9 @@ source_ids = ["pathfinder-68-the-shackled-hut"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mirror_man", path = "json/monsters17.json" },
 ]
+[[sources]]
+publication = "pathfinder-68-the-shackled-hut"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ revealed - nothing but a featureless mirror, reflecting a hard, cold world._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#68: The Shackled Hut pg 88\
 **Experience points:** 1,600
 
 **Armor class:** 18/17/11

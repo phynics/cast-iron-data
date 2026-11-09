@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "empyreal_lord_vildeis", path = "json/monsters_unique4.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "92"
 
 [fields]
 kind = "creature"
@@ -49,7 +52,6 @@ scarred with celestial runes._
 
 **Senses:** Darkvision 60 ft., Detect evil, True seeing, Zealous vision
 
-**Sources:** Bestiary 4 pg 92\
 **Subtype:** Angel, Extraplanar, Good, Lawful
 
 **Experience points:** 4,915,200

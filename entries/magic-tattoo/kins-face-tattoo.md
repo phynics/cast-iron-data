@@ -6,6 +6,12 @@ source_ids = ["pathfinder-91-battle-of-bloodmarch-hills", "bastards-of-golarion"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kins_face_tattoo", path = "json/magic_tattoo.json" },
 ]
+[[sources]]
+publication = "pathfinder-91-battle-of-bloodmarch-hills"
+page = "61"
+[[sources]]
+publication = "bastards-of-golarion"
+page = "11"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint illusion"
 caster_level = "5th"
 +++
 
-**Sources:** Pathfinder \#91: Battle of Bloodmarch Hills pg 61, Bastards of Golarion pg 11\
 **Aura** faint illusion; **CL** 5th\
 **Slot** none; **Price** 1,600 gp; **Weight** -
 

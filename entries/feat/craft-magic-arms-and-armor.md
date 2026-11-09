@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "craft_magic_arms_and_armor", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "120"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can create magic weapons, armor, or shields. Enhancing a weapon, 
 +++
 
 ## Craft Magic Arms and Armor (Item Creation)
-
-**Sources:** PRPG Core Rulebook pg 120
 
 You can create magic armor, shields, and weapons.\
 **Prerequisites:** Caster level 5th.\

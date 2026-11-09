@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "linnorm_ice_linnorm", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "191"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ from its coiling flanks._
 
 **Senses:** Darkvision 120 ft., Low-light vision, Scent, True seeing
 
-**Sources:** Pathfinder RPG Bestiary pg 191\
 **Experience points:** 102,400
 
 **Armor class:** 32/8/26

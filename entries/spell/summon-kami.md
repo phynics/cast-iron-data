@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/summon-natures-ally-5" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "223"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Subschool: Summoning
 :::
 
 ### Summon Kami
-
-**Sources:** Inner Sea Races pg 223
 
 > _The following spell is available to the indicated race or ethnicity: Tian_
 

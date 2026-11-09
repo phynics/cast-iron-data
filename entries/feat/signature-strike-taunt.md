@@ -6,6 +6,9 @@ source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "signature_strike_taunt", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "people-of-the-wastes"
+page = "10"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Creatures that gain the shaken condition as a result of Signature Str
 +++
 
 ## Signature Strike Taunt (Combat)
-
-**Sources:** People of the Wastes pg 10
 
 Your mocking strikes leave your foe deeply embarrassed and infuriated.\
 **Prerequisites:** [Precise Shot](ref/feat/precise-shot),

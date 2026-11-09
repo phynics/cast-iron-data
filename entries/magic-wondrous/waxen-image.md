@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "waxen_image", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "265"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Sources:** Occult Adventures pg 265\
 **Aura** moderate necromancy; **CL** 7th\
 **Slot** none; **Price** 500 gp; **Weight** 1/2 lb.
 

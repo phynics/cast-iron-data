@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/vigilante" },
 ]
+[[sources]]
+publication = "spymasters-handbook"
+page = "25"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Vigilante talents gained at 4th, 8th, 12th, and 16th levels", "Vigi
 alters = ["Dual identity"]
 +++
 
-**Sources:** Spymaster's Handbook pg 25\
 The legends of Golarion teem with intelligent beasts who emerge from the wild to right wrongs
 perpetrated by a nation, aid a virtuous family, or extract long-overdue vengeance. Many of these
 trace back to the agathiel tradition, first stolen from agathion celestials by the elves of Kyonin

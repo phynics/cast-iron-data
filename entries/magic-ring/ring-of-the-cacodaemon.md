@@ -6,6 +6,9 @@ source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_the_cacodaemon", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "197"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "8th"
 +++
 
-**Sources:** Book of the Damned pg 197\
 **Aura** moderate necromancy; **CL** 8th\
 **Slot** ring; **Price** 15,000 gp; **Weight** -
 

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-55-the-wormwood-mutiny"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tidewater_cutlass", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "pathfinder-55-the-wormwood-mutiny"
+page = "59"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint evocation"
 caster_level = "3rd"
 +++
 
-**Sources:** Pathfinder \#55: The Wormwood Mutiny pg 59\
 **Aura** faint evocation; **CL** 3rd\
 **Slot** none; **Price** 3,395 gp; **Weight** 4 lbs.
 

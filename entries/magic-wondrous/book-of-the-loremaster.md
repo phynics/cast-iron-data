@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "book_of_the_loremaster", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "284"
+[[sources]]
+publication = "advanced-players-guide"
+page = "300"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate divination"
 caster_level = "7th"
 +++
 
-**Sources:** Ultimate Equipment pg 284, Advanced Player's Guide pg 300\
 **Aura** moderate divination; **CL** 7th\
 **Slot** none; **Price** 15,000 gp; **Weight** 2 lbs.
 

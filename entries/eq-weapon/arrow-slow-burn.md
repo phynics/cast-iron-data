@@ -6,6 +6,12 @@ source_ids = ["alchemy-manual", "elves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arrow_slow_burn", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "alchemy-manual"
+page = "21"
+[[sources]]
+publication = "elves-of-golarion"
+page = "23"
 
 [fields]
 kind = "item"
@@ -14,7 +20,6 @@ price = "100 gp"
 weight = "0.15 lbs."
 +++
 
-**Sources:** Alchemy Manual pg 21, Elves of Golarion pg 23\
 **Price** 100 gp; **Weight** 0.15 lbs.\
 **Category** Alchemical Weapons
 

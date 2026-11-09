@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crusaders_fist", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "94"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you attack with an unarmed strike and hit a creature that you ca
 +++
 
 ## Crusader's Fist (Combat)
-
-**Sources:** Ultimate Combat pg 94
 
 You pour divine energy into the enemy you strike.\
 **Prerequisites:** [Lay on hands](ref/ability/lay-on-hands) class feature or touch of corruption

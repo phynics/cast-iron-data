@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/simulacrum" },
 ]
+[[sources]]
+publication = "cheliax-empire-of-devils"
+page = "23"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: no
 Effect: one duplicate creature
 Subschool: Shadow
 :::
-
-**Sources:** Cheliax, Empire of Devils pg 23
 
 As [simulacrum](ref/spell/simulacrum), except you can only duplicate yourself, and the duplicate is
 created from cloth and twine rather than ice and snow. The double looks exactly like you except its

@@ -6,6 +6,9 @@ source_ids = ["lost-treasures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "talmandor_blade", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "lost-treasures"
+page = "56"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration, conjuration, and evocation"
 caster_level = "7th"
 +++
 
-**Sources:** Lost Treasures pg 56\
 **Aura** moderate abjuration, conjuration, and evocation; **CL** 7th\
 **Slot** none; **Price** 58,615 gp; **Weight** 2 lbs.
 

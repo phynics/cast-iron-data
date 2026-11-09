@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_of_the_mazeborn", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "23"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination and enchantment"
 caster_level = "5th"
 +++
 
-**Sources:** Melee Tactics Toolbox pg 23\
 **Aura** faint divination and enchantment; **CL** 5th\
 **Slot** shield; **Price** 18,170 gp; **Weight** 15 lbs.
 

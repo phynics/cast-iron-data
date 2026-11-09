@@ -6,12 +6,13 @@ source_ids = ["lands-of-conflict"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hidden_agenda_all_is_calm_roll_twice", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "lands-of-conflict"
+page = "58"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Lands of Conflict pg 58
 
 **Hidden Agenda:** The militia keeps its actions secret. The militia gains a +2 bonus on all checks
 attempted during the Activity phase. _Twice:_ The bonus increases to +5.

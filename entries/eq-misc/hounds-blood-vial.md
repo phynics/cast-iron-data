@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hounds_blood_vial", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "36"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "110 gp"
 weight = "-"
 +++
 
-**Sources:** Advanced Race Guide pg 36\
 **Price** 110 gp; **Weight** -\
 **Category** Alchemical Tools
 

@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "master_universalist", path = "json/npcs6.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "195"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "19"
 
 **Challenge rating:** 19
 
-**Sources:** NPC Codex pg 195\
 **XP** 204,800\
 Elf [wizard](ref/class/wizard) 20\
 N Medium humanoid (elf)\

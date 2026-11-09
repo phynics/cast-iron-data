@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daemon_olethrodaemon", path = "json/monsters06.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "70"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ stout legs._
 
 **Senses:** Darkvision 60 ft., True seeing
 
-**Sources:** Bestiary 2 pg 70\
 **Subtype:** Daemon, Evil, Extraplanar
 
 **Experience points:** 307,200

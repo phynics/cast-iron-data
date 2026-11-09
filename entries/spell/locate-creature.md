@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/locate-object" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "305"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Saving throw: none
 Spell resistance: no
 Area: circle, centered on you, with a radius of 400 ft. + 40 ft./level
 :::
-
-**Sources:** PRPG Core Rulebook pg 305
 
 This spell functions like [locate object](ref/spell/locate-object), except this spell locates a
 known creature. You slowly turn and sense when you are facing in the direction of the creature to be

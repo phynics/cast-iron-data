@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "polar_midnight", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "232"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: yes
 Effect: 30-ft. spread
 Descriptors: cold, darkness
 :::
-
-**Sources:** Ultimate Magic pg 232
 
 You plunge an area into the brutal chill of the arctic night. Illumination conditions are dropped by
 two steps (though only to darkness, not supernatural darkness), and all creatures in the area take

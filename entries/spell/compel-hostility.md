@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "compel_hostility", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "226"
 
 [fields]
 kind = "spell"
@@ -54,8 +57,6 @@ Target: you
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Ultimate Combat pg 226
 
 Whenever a creature you can see that threatens you makes an attack against one of your allies, as an
 immediate action, you can compel that creature to attack you instead. When you compel a creature to

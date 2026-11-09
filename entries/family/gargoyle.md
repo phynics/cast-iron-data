@@ -6,12 +6,12 @@ source_ids = ["classic-horrors-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gargoyle", path = "json/monster_families2.json" },
 ]
+[[sources]]
+publication = "classic-horrors-revisited"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Classic Horrors Revisited
 
 Sinister hunters of living stone, gargoyles perch high on the rooftops of towns and cities,
 appearing for all the world like harmless stone sculptures, carved in the likeness of demons,

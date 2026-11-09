@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "maddening_strike", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "90"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "If you are using the sanity system, when you miss with a Maddening St
 +++
 
 ## Maddening Strike (Combat)
-
-**Sources:** Horror Adventures pg 90
 
 Your fists are weapons of mind-devouring madness.\
 **Prerequisites:** Wis 17, Cha 13, [Improved Unarmed Strike](ref/feat/improved-unarmed-strike),

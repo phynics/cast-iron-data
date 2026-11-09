@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unchained_eidolon", path = "json/sidekicks.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder Unchained\
 An eidolon's abilities are determined by the [summoner's](ref/class/summoner) level and by the
 choices made using its evolution pool. Each eidolon possesses a base form that modifies these base
 statistics. Eidolons are outsiders for the purpose of determining which spells affect them.

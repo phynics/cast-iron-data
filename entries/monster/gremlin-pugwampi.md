@@ -6,6 +6,12 @@ source_ids = ["bestiary-2", "pathfinder-19-howl-of-the-carrion-king"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gremlin_pugwampi", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "144"
+[[sources]]
+publication = "pathfinder-19-howl-of-the-carrion-king"
+page = "83"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ creature slinks forward carefully._
 
 **Senses:** Darkvision 120 ft., Low-light vision
 
-**Sources:** Bestiary 2 pg 144, Pathfinder \#19: Howl of the Carrion King pg 83\
 **Size:** tiny
 
 **Experience points:** 200

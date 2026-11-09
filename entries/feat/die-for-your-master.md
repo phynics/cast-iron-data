@@ -6,14 +6,15 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "die_for_your_master", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "148"
 
 [fields]
 kind = "feat"
 prerequisites = "Tumor familiar alchemist discovery."
 benefit = "If your tumor familiar is attached, and you would be reduced to 0 or fewer hit points by damage in combat (from a weapon or other blow, not a spell or special ability), the familiar throws itself in the way of the attack as an immediate action. If it makes a Reflex saving throw (DC = damage dealt), it takes all the damage from the attack; if it fails, it takes half damage and you take half damage."
 +++
-
-**Sources:** Ultimate Magic pg 148
 
 Your tumor familiar goes to any length to save your life.\
 **Prerequisites:** [Tumor familiar](ref/discovery/tumor-familiar) alchemist discovery.\

@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dispel_mastery", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "26"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can cause an item that has an abjuration spell of 2nd level or hi
 +++
 
 ## Dispel Mastery (Item Mastery)
-
-**Sources:** Weapon Master's Handbook pg 26
 
 You can [dispel magic](ref/spell/dispel-magic) with abjuration magic items.\
 **Prerequisites:** Use Magic Device 3 ranks, base Fortitude save bonus +6.\

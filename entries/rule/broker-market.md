@@ -6,12 +6,13 @@ source_ids = ["lands-of-conflict"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "broker_market", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "lands-of-conflict"
+page = "55"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Lands of Conflict pg 55
 
 **Broker Market** **(Black Marketeers, Fixers, or Merchants):** With an expenditure of 100 gp to
 cover the cost of supplies for travel, the militia can access a temporary marketplace. The GM should

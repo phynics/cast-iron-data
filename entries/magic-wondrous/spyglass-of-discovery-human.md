@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spyglass_of_discovery_human", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "234"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "8th"
 +++
 
-**Sources:** Inner Sea Races pg 234\
 **Aura** moderate divination; **CL** 8th\
 **Slot** none; **Price** 17,500 gp; **Weight** 1 lb.
 

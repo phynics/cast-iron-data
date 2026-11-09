@@ -6,14 +6,15 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animal", path = "json/monster_types.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "306"
 
 [fields]
 kind = "none"
 +++
 
 ## Type: Animal
-
-**Sources:** Pathfinder RPG Bestiary pg 306
 
 An animal is a living, non-human creature, usually a vertebrate with no magical abilities and no
 innate capacity for language or culture. Animals usually have additional information on how they can

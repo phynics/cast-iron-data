@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deadly_juggernaut", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "227"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 Target: you
 Descriptors: death
 :::
-
-**Sources:** Ultimate Combat pg 227
 
 With every enemy life you take, you become increasingly dangerous and difficult to stop. During the
 duration of the spell, you gain a cumulative +1 luck bonus on melee attack rolls, melee weapon

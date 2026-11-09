@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/shaman" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "112"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Spirit", "Wandering hex"]
 alters = ["Hex", "Spirit animal", "Wandering spirit", "Spirit magic"]
 +++
 
-**Sources:** Advanced Class Guide pg 112\
 An unsworn shaman never binds herself to one specific spirit, always making new deals as she deems
 necessary for the circumstances that she finds herself in. While this weakens the powers she can
 access from any one spirit, it gives her access to a broader overall range of abilities.

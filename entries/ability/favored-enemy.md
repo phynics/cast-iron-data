@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "favored_enemy", path = "json/class_abilities6.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** PRPG Core Rulebook\
 At 1st level, a [ranger](ref/class/ranger) selects a creature type from the options below. He gains
 a +2 bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks against creatures of
 his selected type. Likewise, he gets a +2 bonus on weapon attack and damage rolls against them. A

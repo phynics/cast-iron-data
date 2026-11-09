@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "apport_object", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "157"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: yes (object)
 Target: one touched object of up to 1 lb. and 1 cu. ft.
 Subschool: Teleportation
 :::
-
-**Sources:** Occult Adventures pg 157
 
 This spell allows you to instantaneously transport a small nonliving object from one location to
 another. There are two ways to use the spell: sending allows you to immediately send an object held

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/summoner" },
 ]
+[[sources]]
+publication = "pathfinder-95-anvil-of-fire"
+page = "72"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Maker's call", "Transposition"]
 alters = ["Spells"]
 +++
 
-**Sources:** Pathfinder \#95: Anvil of Fire pg 72\
 Pyroclasts harness the primal elemental energy of magma. Their eidolons often resemble elemental
 beings.
 

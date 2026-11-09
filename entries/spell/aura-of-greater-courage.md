@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aura_of_greater_courage", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "204"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Spell resistance: yes (harmless)
 Area: 10-ft.-radius emanation centered on you
 Descriptors: emotion
 :::
-
-**Sources:** Advanced Player's Guide pg 204
 
 When you cast this spell you strengthen your paladin's aura of courage. Until the end of its
 duration, all allies within that aura are immune to fear (magical or otherwise). If you do not have

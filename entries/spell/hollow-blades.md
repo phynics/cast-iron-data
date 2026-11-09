@@ -6,6 +6,9 @@ source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hollow_blades", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "giant-hunters-handbook"
+page = "26"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: Fortitude negates
 Spell resistance: yes
 Target: one creature
 :::
-
-**Sources:** Giant Hunter's Handbook pg 26
 
 All melee and natural attacks from the target deal damage as if the target were one size category
 smaller than it actually is. While the target is under the effects of this spell, weapons dropped by

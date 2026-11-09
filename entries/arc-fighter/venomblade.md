@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/fighter" },
 ]
+[[sources]]
+publication = "potions-and-poisons"
+page = "5"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Bravery", "Bonus feat gained at 6th level", "Bonus feat gained at 1
 alters = ["Bonus feat gained at 1st level"]
 +++
 
-**Sources:** Potions and Poisons pg 5\
 The venomblade has learned to take full advantage of his toxic spittle, blinding his targets and
 then rushing in to cut them down where they stand.
 

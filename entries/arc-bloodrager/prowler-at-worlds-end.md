@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bloodrager" },
 ]
+[[sources]]
+publication = "blood-of-the-beast"
+page = "4"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["The 1st-, 8th-, and 16th-level bloodline powers", "9th-level and 15
 alters = ["The 4th-, 16th-, and 20th-level bloodline powers", "Greater bloodrage", "mighty bloodrage"]
 +++
 
-**Sources:** Blood of the Beast pg 4\
 Ancient catfolk legends claim their kind was created to protect the world from the sinister forces
 that exist at the world's fringes. Many [catfolk](ref/race/catfolk) bloodragers capable of communing
 with the ancient spirits of creation take on the burden of this ancient tradition.

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giving_direction", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "30"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 30
 
 As GM, you want the most out of your players, and you know them as well as anyone. Some deal well
 with setbacks. Some love to hog attention. Some only shine when things are clear; others are leaders

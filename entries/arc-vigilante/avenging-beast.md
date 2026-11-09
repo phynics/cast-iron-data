@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/vigilante" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "96"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Vigilante talents gained at 4th, 8th, 10th, 14th, and 16th level", 
 alters = ["Skill ranks per level", "Dual identity"]
 +++
 
-**Sources:** Ultimate Wilderness pg 96\
 Some vigilantes turn to natural traditions and supernatural forces to transform into beasts,
 unleashing a primal fury on their foes before returning to an ordinary guise.
 

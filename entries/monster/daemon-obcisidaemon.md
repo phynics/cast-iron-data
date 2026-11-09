@@ -6,6 +6,12 @@ source_ids = ["bestiary-6", "book-of-the-damned-volume-3-horsemen-of-the-apocaly
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daemon_obcisidaemon", path = "json/monsters06.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "72"
+[[sources]]
+publication = "book-of-the-damned-volume-3-horsemen-of-the-apocalypse"
+page = "50"
 
 [fields]
 kind = "creature"
@@ -46,7 +52,6 @@ immense, cruel-looking halberd._
 
 **Senses:** Darkvision 60 ft., Deathwatch, True seeing
 
-**Sources:** Bestiary 6 pg 72, Book of the Damned - Volume 3: Horsemen of the Apocalypse pg 50\
 **Subtype:** Daemon, Evil, Extraplanar
 
 **Experience points:** 204,800

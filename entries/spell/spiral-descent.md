@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/spiral-ascent" },
 ]
+[[sources]]
+publication = "inner-sea-temples"
+page = "43"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Subschool: Teleportation
 :::
 
 ### Spiral Descent
-
-**Sources:** Inner Sea Temples pg 43
 
 This spell functions as [spiral ascent](ref/spell/spiral-ascent), except the destination and
 direction of travel is downward from your current location.

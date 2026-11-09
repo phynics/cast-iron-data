@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/fighter" },
 ]
+[[sources]]
+publication = "heroes-of-the-high-court"
+page = "8"
 
 [fields]
 kind = "archetype"
 replaces = ["The bonus feat gained at 1st level", "The bonus feat gained at 2nd level", "Bravery", "The bonus feat gained at 4th level"]
 +++
 
-**Sources:** Heroes of the High Court pg 8\
 As the shield that protects his lord from the myriad dangers around every corner, the high guardian
 pledges his life to keep his charge safe. High guardians epitomize personal devotion, making them
 especially popular among Taldan nobles envious of the emperor's [Ulfen Guard](ref/rule/f-imperial),

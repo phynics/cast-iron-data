@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bandersnatch", path = "json/monsters03.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "32"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ eyes glow with a blue light._
 
 **Senses:** Darkvision 120 ft., Low-light vision, Scent
 
-**Sources:** Bestiary 3 pg 32\
 **Experience points:** 102,400
 
 **Armor class:** 33/13/26

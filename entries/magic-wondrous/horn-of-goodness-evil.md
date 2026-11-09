@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horn_of_goodness_evil", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "303"
+[[sources]]
+publication = "core-rulebook"
+page = "519"
 
 [fields]
 kind = "item"
@@ -19,7 +25,6 @@ caster_level = "6th"
 
 ## Horn of Goodness or Evil
 
-**Sources:** Ultimate Equipment pg 303, PRPG Core Rulebook pg 519\
 **Aura** moderate abjuration; **CL** 6th\
 **Slot** none; **Price** 6,500 gp; **Weight** 1 lb.
 

@@ -6,6 +6,9 @@ source_ids = ["rise-of-the-runelords-anniversary-edition"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "runeslave", path = "json/monster_template4.json" },
 ]
+[[sources]]
+publication = "rise-of-the-runelords-anniversary-edition"
+page = "412"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +1
-
-**Source:** Rise of the Runelords Anniversary Edition/412
 
 The ageless monuments and awesome cities of Thassilon rose upon the backs of countless slaves, but
 none bore the sin-poisoned civilization's burden more than the giants. Able to perform the work of

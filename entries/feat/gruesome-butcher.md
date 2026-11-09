@@ -6,6 +6,9 @@ source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gruesome_butcher", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "agents-of-evil"
+page = "9"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "By meeting the goal of this feat, your name becomes known to your ene
 +++
 
 ## Gruesome Butcher (Story)
-
-**Sources:** Agents of Evil pg 9
 
 You dedicated yourself to the cause of slaughter against a specific group or people, either for
 country, for vengeance, or perhaps just for sport.\

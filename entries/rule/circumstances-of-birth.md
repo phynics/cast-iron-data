@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "circumstances_of_birth", path = "json/rules_basics03.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "9"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 9
 
 Though not all characters are born under unusual circumstances, many cultures have myths of
 momentous events corresponding with the birth of heroes or villains. Sometimes these are natural

@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rakshasa_tataka", path = "json/monsters20.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "230"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ exaggerated features._
 
 **Senses:** Darkvision 60 ft., Scent, True seeing
 
-**Sources:** Bestiary 3 pg 230\
 **Subtype:** Native, Rakshasa, Shapechanger
 
 **Experience points:** 51,200

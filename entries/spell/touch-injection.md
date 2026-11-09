@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "touch_injection", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "247"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Ultimate Combat pg 247
 
 You must hold an elixir, infused extract, poison, or potion in hand as you cast this spell. The held
 substance drains from its container into a magical sac in your body. While the spell lasts, you can

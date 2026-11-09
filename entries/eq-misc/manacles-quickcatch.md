@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "manacles_quickcatch", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "20"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "180 gp"
 weight = "3 lbs."
 +++
 
-**Sources:** Melee Tactics Toolbox pg 20\
 **Price** 180 gp; **Weight** 3 lbs.\
 **Category** Adventuring Gear
 

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bracelet_of_good_luck_charms_halfling", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "229"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint evocation"
 caster_level = "4th"
 +++
 
-**Sources:** Inner Sea Races pg 229\
 **Aura** faint evocation; **CL** 4th\
 **Slot** wrists; **Price** 16,000 gp; **Weight** -
 

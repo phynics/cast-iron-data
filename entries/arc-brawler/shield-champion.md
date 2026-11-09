@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/brawler" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "86"
 
 [fields]
 kind = "archetype"
 replaces = ["Weapon and armor proficiencies", "Maneuver training at 3rd, 7th, and 11th levels", "Brawler's strike", "Maneuver training gained at 15th and 19th levels"]
 +++
 
-**Sources:** Advanced Class Guide pg 86\
 Stalwart in battle, a shield champion has perfected an entire martial discipline relying on only her
 hand-to-hand fighting skills and her ever-present shield. What she forgoes in weapon versatility and
 improved combat maneuvering, she makes up for in her ability to turn her defense into a weapon.

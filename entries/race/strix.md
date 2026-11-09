@@ -6,13 +6,23 @@ source_ids = ["inner-sea-races", "advanced-race-guide", "inner-sea-world-guide",
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "strix", path = "json/races4.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "249"
+[[sources]]
+publication = "advanced-race-guide"
+page = "200"
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "313"
+[[sources]]
+publication = "pathfinder-25-the-bastards-of-erebus"
+page = "83"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Inner Sea Races pg 249, Advanced Race Guide pg 200, Inner Sea World Guide pg 313,
-Pathfinder \#25: The Bastards of Erebus pg 83\
 Human neighbors tell horrific tales of slaughter woven with frightened suspicion when speaking of
 strix. Strix, however, tell a tale of encroachment and a struggle for land and resources. For ages,
 humans invaded strix lands fighting bloody battles against the fierce, black-skinned creatures they

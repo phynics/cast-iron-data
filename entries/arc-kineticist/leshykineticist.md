@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/kineticist" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "23"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["6th- and 10th-level utility wild talents", "maximize metakinesis", 
 alters = ["Element", "expanded element", "Basic phytokinesis", "Internal buffer"]
 +++
 
-**Sources:** Ultimate Wilderness pg 23\
 Of all those who pursue the path of a kineticist, only leshykineticists are both made of plant
 matter and born of nature spirits. These curious creatures wield ancient powers unknown to any other
 kineticists.

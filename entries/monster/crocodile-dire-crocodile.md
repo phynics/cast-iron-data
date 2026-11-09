@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crocodile_dire_crocodile", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "51"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ in one tremendous bite._
 
 **Senses:** Low-light vision
 
-**Sources:** Pathfinder RPG Bestiary pg 51\
 **Experience points:** 6,400
 
 **Armor class:** 21/6/21

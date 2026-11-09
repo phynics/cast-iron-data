@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clockwork_armor", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Sources:** Armor Master's Handbook pg 28\
 **Aura** moderate transmutation; **CL** 11th\
 **Slot** armor; **Price** 33,350 gp; **Weight** 60 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["construct-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "automaton_familiar_automaton", path = "json/monsters26.json" },
 ]
+[[sources]]
+publication = "construct-handbook"
+page = "24"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ glows with a warm light._
 
 **Senses:** Darkvision 120 ft., Low-light vision
 
-**Sources:** Construct Handbook pg 24\
 **Subtype:** Automaton, Extraplanar
 
 **Size:** tiny

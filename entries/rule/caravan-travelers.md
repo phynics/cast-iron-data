@@ -6,12 +6,14 @@ source_ids = ["jade-regent-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "caravan_travelers", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "jade-regent-players-guide"
+page = "19"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Jade Regent Player's Guide pg 19\
 Every person associated with a caravan who accompanies it on its journey is known as a traveler, and
 every traveler on a caravan fills a different job during the caravan's journey - even if that job is
 simply being a passenger. Individual characters can only perform one job at a time. Characters who

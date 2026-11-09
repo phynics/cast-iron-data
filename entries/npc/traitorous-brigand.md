@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "traitorous_brigand", path = "json/npcs.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "81"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "2"
 
 **Challenge rating:** 2
 
-**Sources:** NPC Codex pg 81\
 **XP** 600\
 Half-orc [fighter](ref/class/fighter) 3\
 NE Medium humanoid (human, orc)\

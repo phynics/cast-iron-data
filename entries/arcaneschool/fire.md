@@ -6,13 +6,15 @@ source_ids = ["advanced-players-guide", "elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fire", path = "json/class_ability_arcane_schools.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "142"
 
 [fields]
 kind = "class_option"
 group = "arcane-school"
 +++
 
-**Sources:** Advanced Player's Guide pg 142\
 The fire elementalist sees a world around him that is made to burn, and he can bring that fire to
 consume his foes. He has also learned that fire can purify and protect, if properly controlled.
 

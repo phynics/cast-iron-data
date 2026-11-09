@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/amateur-gunslinger", label = "or" },
 ]
+[[sources]]
+publication = "champions-of-balance"
+page = "19"
 
 [fields]
 kind = "feat"
@@ -19,8 +22,6 @@ benefit = "You can spend 1 grit point to make a feint attempt using a one-handed
 +++
 
 ## Gun Twirling (Grit)
-
-**Sources:** Champions of Balance pg 19
 
 You can spin and juggle a small firearm, making it difficult to predict where you will shoot.\
 **Prerequisites:** [Amateur Gunslinger](ref/feat/amateur-gunslinger) feat or grit class feature,

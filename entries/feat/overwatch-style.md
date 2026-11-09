@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "overwatch_style", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "14"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "A character with this feat and the weapon training (bows, crossbows, 
 +++
 
 ## Overwatch Style (Combat, Style)
-
-**Sources:** Weapon Master's Handbook pg 14
 
 You have learned to wait until your ranged attacks have the greatest effect.\
 **Prerequisites:** [Precise Shot](ref/feat/precise-shot), [Rapid Shot](ref/feat/rapid-shot),

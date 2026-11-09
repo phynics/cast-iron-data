@@ -6,6 +6,8 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arrowsongs_lament", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "arcane-anthology"
 
 [fields]
 kind = "class_option"
@@ -13,8 +15,6 @@ group = "bardic-masterpiece"
 +++
 
 ## Arrowsong's Lament (Oratory)
-
-**Sources:** Arcane Anthology
 
 This collection of brooding poetry, all in pentatonic verse, expresses Arrowsong's frustration over
 her overbearing parents' desire for her to become a spellcaster. Her in-depth analysis of their

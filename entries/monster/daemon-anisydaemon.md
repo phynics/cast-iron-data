@@ -6,6 +6,9 @@ source_ids = ["pathfinder-142-gardens-of-gallowspire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daemon_anisydaemon", path = "json/monsters02.json" },
 ]
+[[sources]]
+publication = "pathfinder-142-gardens-of-gallowspire"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -49,7 +52,6 @@ eyeless face._
 
 **Senses:** Arcane sight, Detect good
 
-**Sources:** Pathfinder \#142: Gardens of Gallowspire pg 84\
 **Subtype:** Daemon, Evil, Extraplanar
 
 **Experience points:** 25,600

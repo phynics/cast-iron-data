@@ -6,12 +6,13 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plague_swarm", path = "json/monster_families2.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Bestiary 5\
 Sent down by vengeful deities to punish communities that have offended them, plague swarms scour
 crops, terrorize populations, and lay waste to civilized lands. Normal means of dealing with vermin
 and pestilence don't drive them off, for these vicious and intelligent [mythic](ref/subtype/mythic)

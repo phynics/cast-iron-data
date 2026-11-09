@@ -6,12 +6,13 @@ source_ids = ["pathfinder-110-the-thrushmoor-terror"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "muscaria", path = "json/drugs.json" },
 ]
+[[sources]]
+publication = "pathfinder-110-the-thrushmoor-terror"
+page = "14"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder \#110: The Thrushmoor Terror pg 14
 
 **Type:** ingested
 

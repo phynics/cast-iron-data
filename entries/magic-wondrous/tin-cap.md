@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tin_cap", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "265"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration"
 caster_level = "15th"
 +++
 
-**Sources:** Occult Adventures pg 265\
 **Aura** strong abjuration; **CL** 15th\
 **Slot** head; **Price** 15,000 gp; **Weight** 2 lbs.
 

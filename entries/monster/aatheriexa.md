@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aatheriexa", path = "json/monsters01.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "7"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ projecting an air of cruelty._
 
 **Senses:** All-around vision, Darkvision 120 ft., Low-light vision
 
-**Sources:** Bestiary 5 pg 7\
 **Experience points:** 3,200
 
 **Armor class:** 21/15/16

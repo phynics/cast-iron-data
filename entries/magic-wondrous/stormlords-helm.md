@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stormlords_helm", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "247"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation"
 caster_level = "10th"
 +++
 
-**Sources:** Ultimate Equipment pg 247\
 **Aura** strong transmutation; **CL** 10th\
 **Slot** head; **Price** 35,000 gp; **Weight** 3 lbs.
 

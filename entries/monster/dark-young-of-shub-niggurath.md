@@ -6,6 +6,9 @@ source_ids = ["pathfinder-46-wake-of-the-watcher"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dark_young_of_shub_niggurath", path = "json/monsters08.json" },
 ]
+[[sources]]
+publication = "pathfinder-46-wake-of-the-watcher"
+page = "78"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ roots ending in hooves, and its trunk decorated with numerous drooling maws._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#46: Wake of the Watcher pg 78\
 **tremorsense:** 30
 
 **Experience points:** 19,200

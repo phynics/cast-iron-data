@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "handouts_and_props", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "30"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 30
 
 Handouts are extremely valuable for two reasons: they give players information about the adventure,
 and they are tangible, focusing attention on that information in a way that just saying it doesn't.

@@ -6,6 +6,9 @@ source_ids = ["seers-of-the-drowned-city"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tatterlorn", path = "json/monsters23.json" },
 ]
+[[sources]]
+publication = "seers-of-the-drowned-city"
+page = "63"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ movements are weirdly difficult to follow with the eye._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Seers of the Drowned City pg 63\
 **Type:** undead
 
 **Experience points:** 3,200

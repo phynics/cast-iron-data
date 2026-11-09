@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tripping_twirl", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "158"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "If you are a magus with the staff magus archetype, you can use spells
 +++
 
 ## Tripping Twirl (Combat)
-
-**Sources:** Ultimate Magic pg 158
 
 You can make a trip attack with a quarterstaff on all adjacent enemies.\
 **Prerequisites:** Int 13, [Combat Expertise](ref/feat/combat-expertise),

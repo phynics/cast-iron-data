@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "harder_they_fall", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "113"
+[[sources]]
+publication = "giant-hunters-handbook"
+page = "19"
 
 [fields]
 kind = "feat"
@@ -16,8 +22,6 @@ benefit = "When you use the aid another action to grant an ally who also has thi
 +++
 
 ## Harder They Fall (Combat, Teamwork)
-
-**Sources:** Ultimate Wilderness pg 113, Giant Hunter's Handbook pg 19
 
 You can work with an ally to move or knock over a foe that's too large for either of you to overcome
 alone.\

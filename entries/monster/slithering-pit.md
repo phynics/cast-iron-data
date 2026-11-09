@@ -6,6 +6,12 @@ source_ids = ["bestiary-6", "pathfinder-97-in-hells-bright-shadow"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slithering_pit", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "254"
+[[sources]]
+publication = "pathfinder-97-in-hells-bright-shadow"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -45,7 +51,6 @@ their own accord._
 
 **Senses:** Breach sense
 
-**Sources:** Bestiary 6 pg 254, Pathfinder \#97: In Hell's Bright Shadow pg 88\
 **Experience points:** 600
 
 **Armor class:** 13/13/10

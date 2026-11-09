@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "childhood_rival", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "178"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 178
 
 A childhood rival might be someone who used to bully you, an apprentice of the same mentor who
 competed against you for privileges, or a contemporary in your field who resented your opportunities

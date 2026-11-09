@@ -6,6 +6,9 @@ source_ids = ["andoran-birthplace-of-freedom"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "corrupt_politician", path = "json/npcs5.json" },
 ]
+[[sources]]
+publication = "andoran-birthplace-of-freedom"
+page = "53"
 
 [fields]
 kind = "creature"
@@ -18,7 +21,6 @@ _This woman wears colorful clothing of fine cut and cloth, and carries a satchel
 
 **Challenge rating:** 4
 
-**Sources:** Andoran, Birthplace of Freedom pg 53\
 **XP** 1,200\
 Human [bard](ref/class/bard) ([court bard](ref/arc-bard/court-bard)) 5\
 N Medium humanoid (human)\

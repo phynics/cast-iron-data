@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "amulet_of_proof_against_detection_and_location", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "256"
+[[sources]]
+publication = "core-rulebook"
+page = "500"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate abjuration"
 caster_level = "8th"
 +++
 
-**Sources:** Ultimate Equipment pg 256, PRPG Core Rulebook pg 500\
 **Aura** moderate abjuration; **CL** 8th\
 **Slot** neck; **Price** 35,000 gp; **Weight** -
 

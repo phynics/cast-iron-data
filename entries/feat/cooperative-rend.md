@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cooperative_rend", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "224"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ normal = "You must hit with two of your claw attacks to use your rend ability."
 +++
 
 ## Cooperative Rend (Combat, Teamwork)
-
-**Sources:** Monster Codex pg 224
 
 You and an ally each sink a claw into your foe - then all you have to do is pull.\
 **Prerequisites:** [Rend](ref/umr/rend), [troll](ref/monster/troll).\

@@ -6,6 +6,9 @@ source_ids = ["concordance-of-rivals"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "protean_akizendri", path = "json/monsters19.json" },
 ]
+[[sources]]
+publication = "concordance-of-rivals"
+page = "56"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ nearby tomes and pages._
 
 **Size:** small
 
-**Sources:** Concordance of Rivals pg 56\
 **Subtype:** Chaotic, Extraplanar, Protean, Shapechanger
 
 **Experience points:** 800

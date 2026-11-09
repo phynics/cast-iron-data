@@ -6,13 +6,14 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devoted_blade", path = "json/class_ability_magus_arcana.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "54"
 
 [fields]
 kind = "class_option"
 group = "magus-arcana"
 +++
-
-**Sources:** Ultimate Combat pg 54
 
 **Devoted Blade (Su):**
 

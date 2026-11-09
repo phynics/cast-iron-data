@@ -6,6 +6,9 @@ source_ids = ["lost-kingdoms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ubashki_ubashki_swarm", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "lost-kingdoms"
+page = "19"
 
 [fields]
 kind = "creature"
@@ -35,7 +38,6 @@ abilities = ["5", "17", "-", "2", "10", "15"]
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Lost Kingdoms pg 19\
 **Subtype:** Swarm
 
 **Size:** tiny

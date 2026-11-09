@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fleeting_spell", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "83"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ normal = "It is a standard action to dismiss a dismissible spell, and only spell
 +++
 
 ## Fleeting Spell (Metamagic)
-
-**Sources:** Ultimate Intrigue pg 83
 
 Your spells vanish with unusual speed.\
 **Benefit:** A fleeting spell's duration becomes [dismissible](ref/misc/dismissible), if it is not

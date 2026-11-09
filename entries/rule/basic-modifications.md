@@ -6,14 +6,15 @@ source_ids = ["ultimate-magic", "construct-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "basic_modifications", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "114"
 
 [fields]
 kind = "none"
 +++
 
 ### Ability Score Increase
-
-**Sources:** Ultimate Magic pg 114
 
 |Type|Cost|Requirements|CR Increase|
 | --- | --- | --- | --- |

@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "corruption_resistance", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "212"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
 :::
-
-**Sources:** Advanced Player's Guide pg 212
 
 You grant the touched creature limited protection from magical effects that inflict damage based on
 the target creature's alignment, such as holy smite, order's wrath, a paladin's smite evil attack,

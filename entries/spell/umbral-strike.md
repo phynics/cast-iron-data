@@ -6,6 +6,9 @@ source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "umbral_strike", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "blood-of-shadows"
+page = "16"
 
 [fields]
 kind = "spell"
@@ -53,8 +56,6 @@ Target: 1 creature
 Subschool: Shadow
 Descriptors: darkness
 :::
-
-**Sources:** Blood of Shadows pg 16
 
 You create a bolt of dark energy and use it to make a ranged touch attack that ignores
 [concealment](ref/rule/concealment) (but not total concealment). If you hit, the target takes 1d6

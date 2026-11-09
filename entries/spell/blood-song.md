@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/imbue-with-spell-ability" },
 ]
+[[sources]]
+publication = "faiths-and-philosophies"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched; see text
 :::
-
-**Sources:** Faiths and Philosophies pg 28
 
 This spell functions as [imbue with spell ability](ref/spell/imbue-with-spell-ability), with the
 following exceptions: only bard spells of the conjuration (healing), enchantment, and transmutation

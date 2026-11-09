@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide", "advanced-players-guide", "adventurers-arm
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "warpriest", path = "json/classes6.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "60"
 
 [fields]
 kind = "class"
@@ -13,8 +16,6 @@ class_type = "hybrid"
 hit_die = "d8"
 skill_ranks = "2 + Int modifier"
 +++
-
-**Sources:** Advanced Class Guide pg 60
 
 Capable of calling upon the power of the gods in the form of blessings and spells, warpriests blend
 divine magic with martial skill. They are unflinching bastions of their faith, shouting gospel as

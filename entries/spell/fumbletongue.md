@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fumbletongue", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "221"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Ultimate Magic pg 221
 
 This enchantment causes a creature to be unable to speak intelligibly. Any effort the target makes
 to talk, in any language, comes out as a useless mix of unconnected words and noises. Even magic

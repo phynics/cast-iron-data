@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "15"
 
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Trap sense", "Rogue talent gained at 12th level"]
 +++
 
-**Sources:** Melee Tactics Toolbox pg 15\
 Some combatants specialize in the study of certain weapons, but those without formal training often
 learn to survive a fight by making brilliant use of whatever is lying around.
 

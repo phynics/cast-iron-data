@@ -6,6 +6,9 @@ source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quarterstaff_of_contemplation", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "56"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation"
 caster_level = "12th"
 +++
 
-**Sources:** Inner Sea Combat pg 56\
 **Aura** strong transmutation; **CL** 12th\
 **Slot** none; **Price** 34,800 gp; **Weight** 4 lbs.
 

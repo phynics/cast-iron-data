@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seize_advantage", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "156"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When your foe is using Power Attack and you successfully use the *opp
 +++
 
 ## Seize Advantage (Combat)
-
-**Sources:** Advanced Class Guide pg 156
 
 You can take advantage of your foes when they overcommit on their attacks.\
 **Prerequisites:** [Opportune parry and riposte](ref/swashdeed/opportune-parry-and-riposte) deed.\

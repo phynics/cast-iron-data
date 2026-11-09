@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slipslinger_grenadier", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "13"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "This feat cannot be used with alchemists' bombs."
 +++
 
 ## Slipslinger Grenadier (Combat)
-
-**Sources:** Weapon Master's Handbook pg 13
 
 You can hurl splash weapons with your sling.\
 **Prerequisites:** [Slipslinger Style](ref/feat/slipslinger-style),

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-89-palace-of-fallen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "robot_juggernaut_robot", path = "json/monsters20.json" },
 ]
+[[sources]]
+publication = "pathfinder-89-palace-of-fallen-stars"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ crackle with electricity._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Targeting array
 
-**Sources:** Pathfinder \#89: Palace of Fallen Stars pg 88\
 **Subtype:** Robot
 
 **Experience points:** 51,200

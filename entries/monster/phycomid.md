@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phycomid", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "210"
 
 [fields]
 kind = "creature"
@@ -39,7 +42,6 @@ wafting tendrils of smoke._
 
 **Size:** small
 
-**Sources:** Bestiary 2 pg 210\
 **tremorsense:** 30
 
 **Experience points:** 1,200

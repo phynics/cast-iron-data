@@ -6,6 +6,9 @@ source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "corsair", path = "json/magic_enhancements.json" },
 ]
+[[sources]]
+publication = "advanced-class-origins"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Advanced Class Origins pg 28\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** none; **Price** +5,000 gp; **Weight** -
 

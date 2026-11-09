@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "legendary_encounter", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "124"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 124
 
 After the heroes achieve a monumental task thought to be too much for them, the essence of the
 mythic world bows to their achievement and fills them. This could come from destroying a

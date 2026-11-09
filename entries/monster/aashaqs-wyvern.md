@@ -6,6 +6,9 @@ source_ids = ["isles-of-the-shackles"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aashaqs_wyvern", path = "json/monsters01.json" },
 ]
+[[sources]]
+publication = "isles-of-the-shackles"
+page = "42"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ stinger. Heavy smoke drips from the beast's nostrils and jaws._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Isles of the Shackles pg 42\
 **Experience points:** 4,800
 
 **Armor class:** 20/10/19

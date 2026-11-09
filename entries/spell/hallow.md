@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hallow", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "293"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: see text
 Area: 40-ft. radius emanating from the touched point
 Descriptors: good
 :::
-
-**Sources:** PRPG Core Rulebook pg 293
 
 Hallow makes a particular site, building, or structure a holy site. This has four major effects.
 

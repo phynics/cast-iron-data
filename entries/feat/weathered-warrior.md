@@ -6,6 +6,9 @@ source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weathered_warrior", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "15"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "Strong and severe winds impose -2 and -4 penalties on ranged attack ro
 +++
 
 ## Weathered Warrior (Combat)
-
-**Sources:** Ranged Tactics Toolbox pg 15
 
 You have a steady hand in any weather.\
 **Prerequisites:** [Endurance](ref/feat/endurance).\

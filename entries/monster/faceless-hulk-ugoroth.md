@@ -6,6 +6,9 @@ source_ids = ["pathfinder-110-the-thrushmoor-terror"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "faceless_hulk_ugoroth", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "pathfinder-110-the-thrushmoor-terror"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ skin and grotesque, slurping tongues where its face should be._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#110: The Thrushmoor Terror pg 84\
 **Subtype:** Shapechanger
 
 **Experience points:** 6,400

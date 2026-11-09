@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drivers_and_occupants", path = "json/rules_rulesets02.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "170"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 170
 
 A vehicle is a special movable object that requires two things to keep it moving - a driver and a
 method of propulsion. A **driver** is a creature with an Intelligence score of 3 or more who is

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-95-anvil-of-fire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ikelos", path = "json/monsters14.json" },
 ]
+[[sources]]
+publication = "pathfinder-95-anvil-of-fire"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ wings spread across its back and the four digits of each hand end in sharp claws
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#95: Anvil of Fire pg 84\
 **Subtype:** Extraplanar, Incorporeal
 
 **Experience points:** 3,200

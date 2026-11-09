@@ -6,6 +6,9 @@ source_ids = ["daughters-of-fury"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kami_dunagh", path = "json/monsters34.json" },
 ]
+[[sources]]
+publication = "daughters-of-fury"
+page = "54"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ presence._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Daughters of Fury pg 54\
 **Subtype:** Incorporeal, Kami, Native
 
 **Experience points:** 1,200

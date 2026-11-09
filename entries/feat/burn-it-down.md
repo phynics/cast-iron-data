@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burn_it_down", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "201"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Whenever you make an attack with a torch, a flask of lamp oil fitted 
 +++
 
 ## Burn It Down! (Combat, Teamwork)
-
-**Sources:** Inner Sea Races pg 201
 
 Burning torches and the discordant symphony of riotous singing ignite the fervor within you.\
 **Prerequisites:** Base attack bonus +1, [goblin](ref/race/goblin).\

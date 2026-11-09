@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "people-of-the-wastes"
+page = "11"
 
 [fields]
 kind = "archetype"
 replaces = ["Weapon and armor proficiencies", "Bombs", "Brew Potion", "Throw Anything", "Poison resistance", "Swift poisoning"]
 +++
 
-**Sources:** People of the Wastes pg 11\
 Simple alchemists may dabble in explosives, but for the rare gun chemist, a firearm's barrel is his
 crucible.
 

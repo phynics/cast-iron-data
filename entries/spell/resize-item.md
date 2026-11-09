@@ -6,6 +6,9 @@ source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "resize_item", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "giant-hunters-handbook"
+page = "33"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: Will negates (object)
 Spell resistance: yes (object)
 Target: one weapon or suit of armor weighing up to 25 lbs./level
 :::
-
-**Sources:** Giant Hunter's Handbook pg 33
 
 You alter a magic weapon or suit of armor to be up to two size categories larger or smaller. If the
 spell on a resized suit of armor ends while the armor is being worn, the armor falls off harmlessly.

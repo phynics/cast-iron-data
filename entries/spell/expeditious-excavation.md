@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "expeditious_excavation", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "220"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 Area: dirt in a 5-ft. cube
 Descriptors: earth
 :::
-
-**Sources:** Advanced Player's Guide pg 220
 
 You can excavate and move earth, dust, and sand up to the size of a 5-foot cube. If you are buried,
 you may open a 5-foot cube around yourself, but the spell cannot be used for tunneling. Besides its

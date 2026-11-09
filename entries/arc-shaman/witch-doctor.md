@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/shaman" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "113"
 
 [fields]
 kind = "archetype"
 replaces = ["Hexes gained at 4th and 12th levels", "Hex gained at 8th level", "Hex gained at 10th level"]
 +++
 
-**Sources:** Advanced Class Guide pg 113\
 The witch doctor is a healer who specializes in afflictions of the soul. Often misunderstood, she
 protects her tribe with healing powers, powerful defensive magic, and her own divine "witchcraft."
 

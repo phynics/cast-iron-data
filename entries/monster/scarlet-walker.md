@@ -6,6 +6,9 @@ source_ids = ["rise-of-the-runelords-anniversary-edition"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scarlet_walker", path = "json/monsters21.json" },
 ]
+[[sources]]
+publication = "rise-of-the-runelords-anniversary-edition"
+page = "414"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ but some horrid mix of the two._
 
 **Senses:** Bloodsense, Darkvision 60 ft., Detect thoughts
 
-**Sources:** Rise of the Runelords Anniversary Edition pg 414\
 **Subtype:** Evil, Extraplanar, Lawful
 
 **Experience points:** 19,200

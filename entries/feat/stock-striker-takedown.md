@@ -6,6 +6,9 @@ source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stock_striker_takedown", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "people-of-the-wastes"
+page = "11"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "After you knock a target prone with the pistol-whip deed while using 
 +++
 
 ## Stock-Striker Takedown (Combat)
-
-**Sources:** People of the Wastes pg 11
 
 Your melee strike leaves your target vulnerable to a merciless finishing shot.\
 **Prerequisites:** [Point-Blank Shot](ref/feat/point-blank-shot),

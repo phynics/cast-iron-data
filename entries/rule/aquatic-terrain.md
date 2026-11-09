@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aquatic_terrain", path = "json/rules_gm08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "432"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 432
 
 Aquatic terrain is the least hospitable to most PCs, because they can't breathe there. Aquatic
 terrain doesn't offer the variety that land terrain does. The ocean floor holds many marvels,

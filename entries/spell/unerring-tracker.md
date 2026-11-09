@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unerring_tracker", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "228"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Ultimate Intrigue pg 228
 
 During this spell's duration, you can touch the sign of a creature's passage that you have
 identified using the Survival skill to make the other steps in the creature's path perfectly clear

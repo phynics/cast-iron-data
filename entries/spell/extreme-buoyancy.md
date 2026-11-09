@@ -6,6 +6,9 @@ source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extreme_buoyancy", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
+page = "59"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Saving throw: Will negates
 Spell resistance: yes
 Target: creature touched
 :::
-
-**Sources:** Aquatic Adventures pg 59
 
 The target's buoyancy becomes and stays swiftly rising, regardless of how dense the target and its
 gear are. Among other effects, the target needs to succeed at a DC 20 Swim check to submerge itself

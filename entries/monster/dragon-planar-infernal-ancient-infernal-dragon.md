@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_planar_infernal_ancient_infernal_dragon", path = "json/monsters30.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "103"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ _Cruel horns frame this dragon's head. Its body glows faintly with malicious hea
 
 **Senses:** Dragon senses
 
-**Sources:** Bestiary 6 pg 103\
 **Subtype:** Evil, Extraplanar, Lawful
 
 **Experience points:** 409,600

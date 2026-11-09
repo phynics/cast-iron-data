@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dead_mans_headband", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "248"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint enchantment and abjuration"
 caster_level = "1st"
 +++
 
-**Sources:** Ultimate Equipment pg 248\
 **Aura** faint enchantment and abjuration; **CL** 1st\
 **Slot** headband; **Price** 3,600 gp; **Weight** 1 lb.
 

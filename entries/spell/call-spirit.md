@@ -6,6 +6,12 @@ source_ids = ["occult-adventures", "occult-mysteries"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "call_spirit", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "160"
+[[sources]]
+publication = "occult-mysteries"
+page = "54"
 
 [fields]
 kind = "spell"
@@ -44,8 +50,6 @@ Spell resistance: no
 Effect: call the spirit of a single deceased humanoid creature
 Subschool: Calling
 :::
-
-**Sources:** Occult Adventures pg 160, Occult Mysteries pg 54
 
 You attempt to cause the spirit of a specific individual to manifest from its final resting place.
 You must request the spirit's presence by speaking its name.

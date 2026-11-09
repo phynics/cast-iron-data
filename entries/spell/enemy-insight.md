@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enemy_insight", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "181"
 
 [fields]
 kind = "spell"
@@ -37,8 +40,6 @@ Saving throw: none
 Spell resistance: no
 Targets: you plus one willing creature/3 levels, no two of which can be more than 30 ft. apart
 :::
-
-**Sources:** Advanced Class Guide pg 181
 
 You forge a mental bond between yourself and the other targets, each of which must have an
 Intelligence score of 3 or higher. Choose one of your [favored enemy](ref/ability/favored-enemy)

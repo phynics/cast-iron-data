@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/fester" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "221"
 
 [fields]
 kind = "spell"
@@ -42,7 +45,5 @@ Spell resistance: yes
 :::
 
 ### Mass Fester
-
-**Sources:** Advanced Player's Guide pg 221
 
 This spell functions as [fester](ref/spell/fester), except that it affects multiple foes.

@@ -6,14 +6,15 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elven_leafblade", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "114"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "3 lbs."
 +++
-
-**Sources:** Adventurer's Guide pg 114
 
 Elves have traditionally eschewed the use of larger weaponry, opting instead for lighter weapons
 that take advantage of their wielders' agility and poise. The elven curve blade is perhaps the

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "champions_bout", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "218"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Targets: two creatures
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Inner Sea Races pg 218
 
 > _The following spell is available to the indicated race or ethnicity: Shoanti_
 

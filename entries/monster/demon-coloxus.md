@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_coloxus", path = "json/monsters29.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "72"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ and shivering insectile wings._
 
 **Senses:** Darkvision 60 ft., Scent
 
-**Sources:** Bestiary 3 pg 72\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 19,200

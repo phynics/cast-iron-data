@@ -6,6 +6,9 @@ source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cowards_cowl", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "agents-of-evil"
+page = "30"
 
 [fields]
 kind = "spell"
@@ -53,8 +56,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Agents of Evil pg 30
 
 You imbue the target with a compulsion to avoid threats, enhancing its defensive instincts. So long
 as the affected creature does not move closer to enemies during its turn, or moves at least 5 feet

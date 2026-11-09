@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crab_crab_swarm", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "50"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ legs twitching across the sand._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 50\
 **Subtype:** Aquatic, Swarm
 
 **Type:** vermin

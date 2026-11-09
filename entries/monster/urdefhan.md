@@ -6,6 +6,12 @@ source_ids = ["bestiary-2", "into-the-darklands", "darklands-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "urdefhan", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "276"
+[[sources]]
+publication = "into-the-darklands"
+page = "60"
 
 [fields]
 kind = "creature"
@@ -44,7 +50,6 @@ and ivory bones inside its body._
 
 **Senses:** Darkvision 120 ft.
 
-**Sources:** Bestiary 2 pg 276, Into the Darklands pg 60\
 **Subtype:** Native
 
 **Experience points:** 800

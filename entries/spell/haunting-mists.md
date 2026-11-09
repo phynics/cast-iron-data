@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "haunting_mists", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "222"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Effect: cloud spreads in 20-ft. radius, 20 ft. high
 Subschool: Figment
 Descriptors: fear, shadow
 :::
-
-**Sources:** Ultimate Magic pg 222
 
 An illusion of misty vapor inhabited by shadowy shapes arises around you. It is stationary. The
 illusory mist obscures all sight, including [darkvision](ref/rule/darkvision), beyond 5 feet. A

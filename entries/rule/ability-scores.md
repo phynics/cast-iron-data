@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ability_scores", path = "json/rules_basics01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "15"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 15
 
 Each character has six ability scores that represent his character's most basic attributes. They are
 his raw talent and prowess. While a character rarely rolls an ability check (using just an ability

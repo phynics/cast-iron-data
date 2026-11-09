@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deadly_aim", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "121"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can choose to take a -1 penalty on all ranged attack rolls to gai
 +++
 
 ## Deadly Aim (Combat)
-
-**Sources:** PRPG Core Rulebook pg 121
 
 You can make exceptionally deadly ranged attacks by pinpointing a foe's weak spot, at the expense of
 making the attack less likely to succeed.\

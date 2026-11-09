@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/summoner" },
 ]
+[[sources]]
+publication = "monster-summoners-handbook"
+page = "16"
 
 [fields]
 kind = "archetype"
 alters = ["Eidolon", "Summon monster", "Spells known"]
 +++
 
-**Sources:** Monster Summoner's Handbook pg 16\
 A morphic savant is an agent of change who draws power from the Abyss, Elysium, or the Maelstrom to
 fulfill whatever goals strike his fancy. Chaotic evil and chaotic neutral morphic savants often
 train with [Blackfire Adepts](ref/pclass/blackfire-adept) in the hopes of learning greater powers of

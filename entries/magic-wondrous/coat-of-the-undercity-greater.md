@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "coat_of_the_undercity_greater", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "244-245"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "5th (normal), 9th (greater)"
 
 ## Coat of the Undercity
 
-**Sources:** Ultimate Intrigue pg. 244-245\
 **Aura** faint transmutation (normal), moderate transmtuation (greater); **CL** 5th (normal), 9th
 (greater)\
 **Slot** chest; **Price** 7,500 gp (normal), 37,500 gp (greater); **Weight** 5 lbs.

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-45-broken-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weaverworm", path = "json/monsters25.json" },
 ]
+[[sources]]
+publication = "pathfinder-45-broken-moon"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ cords of thick webbing between them._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#45: Broken Moon pg 86\
 **tremorsense:** 30
 
 **Experience points:** 4,800

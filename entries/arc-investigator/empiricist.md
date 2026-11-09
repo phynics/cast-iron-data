@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/investigator" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "100"
 
 [fields]
 kind = "archetype"
 replaces = ["Poison lore", "poison resistance", "Swift alchemy", "True inspiration"]
 +++
 
-**Sources:** Advanced Class Guide pg 100\
 Champions of deductive reasoning and logical insight, empiricists put their faith in facts, data,
 confirmed observations, and consistently repeatable experiments - these things are their currency of
 truth.

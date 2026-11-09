@@ -6,6 +6,9 @@ source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cyclonic", path = "json/magic_enhancements2.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "26"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration"
 caster_level = "12th"
 +++
 
-**Sources:** Ranged Tactics Toolbox pg 26\
 **Aura** faint conjuration; **CL** 12th\
 **Slot** none; **Price** +2 bonus; **Weight** -
 

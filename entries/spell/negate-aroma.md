@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "negate_aroma", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "234"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: Fortitude negates
 Spell resistance: yes
 Target: one creature or object/level touched
 :::
-
-**Sources:** Advanced Player's Guide pg 234
 
 With a gesture, this spell allows you to dismiss even the foulest or most distinctive scents. When
 cast, the targeted creatures or objects lose all natural and unnatural odors. A creature under the

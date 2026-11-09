@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brow_gasher", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "224"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: Will negates (harmless) (object)
 Spell resistance: yes (harmless) (object)
 Area: one slashing melee weapon touched
 :::
-
-**Sources:** Ultimate Combat pg 224
 
 You imbue a slashing melee weapon with the ability to deal a gruesome head wound. When the target
 weapon hits a living creature, in addition to the normal effects of that hit, the wielder can

@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lie", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "60"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 60
 
 You can try to fool someone by attempting an Influence check. The DC of this check is the result of
 your opponent's Perception check to sense motive. Apply the appropriate modifiers from the table

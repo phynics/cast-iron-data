@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "typical_business_setups", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "79"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 79
 
 Listed below are each of the professions featured in the Pathfinder RPG, along with a quick
 description of how a character could operate that business either as a traveling service or from a

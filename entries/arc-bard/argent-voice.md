@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "174"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Fascinate", "Suggestion", "mass suggestion", "Dirge of doom", "frig
 alters = ["Versatile performance"]
 +++
 
-**Sources:** Adventurer's Guide pg 174\
 As much as the [Silver Ravens](ref/rule/aff-rebels) are freedom fighters, they are also patrons of
 the arts. Perhaps owing to the strong ties between the organization's leadership and the Kintargo
 Opera House, the Silver Ravens are particularly active in the theater community and count many of

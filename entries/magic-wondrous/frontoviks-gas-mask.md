@@ -6,6 +6,9 @@ source_ids = ["pathfinder-71-rasputin-must-die"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "frontoviks_gas_mask", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "pathfinder-71-rasputin-must-die"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "7th"
 +++
 
-**Sources:** Pathfinder \#71: Rasputin Must Die! pg 60\
 **Aura** moderate abjuration; **CL** 7th\
 **Slot** head; **Price** 17,000 gp; **Weight** 2 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-130-city-in-the-lions-eye"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pyrogeist", path = "json/monsters19.json" },
 ]
+[[sources]]
+publication = "pathfinder-130-city-in-the-lions-eye"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ writhe within the flames._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#130: City in the Lion's Eye pg 88\
 **Subtype:** Incorporeal
 
 **Type:** undead

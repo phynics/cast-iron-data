@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/investigator" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "41"
 
 [fields]
 kind = "archetype"
 replaces = ["Poison lore", "Poison resistance", "Investigator talent gained at 7th level", "Immunity to poison", "Investigator talent gained at 13th level"]
 +++
 
-**Sources:** Inner Sea Intrigue pg 41\
 Guardians of immortality are Thuvian investigators charged with hunting down those who would attempt
 to steal or learn for themselves the secret to creating the
 [sun orchid elixir](ref/magic-artifact/sun-orchid-elixir).

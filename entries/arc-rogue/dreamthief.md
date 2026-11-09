@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "12"
 
 [fields]
 kind = "archetype"
 replaces = ["Sneak attack", "master strike", "Trap sense", "Uncanny dodge", "Improved uncanny dodge", "rogue talent gained at 12th level"]
 +++
 
-**Sources:** Planar Adventures pg 12\
 The dreamthief is master of both waking and dreaming worlds. Each dreamthief bears a focused
 fragment of emotion, known as a dreamshard, within her soul. Some are born with such fragments,
 while others gain their dreamshards during traumatic moments, especially those involving nightmares,

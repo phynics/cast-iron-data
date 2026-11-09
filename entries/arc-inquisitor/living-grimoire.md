@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/inquisitor" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "53"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Monster lore", "Cunning initiative", "Judgment", "Bane", "greater b
 alters = ["Orisons", "spellcasting"]
 +++
 
-**Sources:** Horror Adventures pg 53\
 The living grimoire literally wields the sacred word of his deity, using his holy tome to smite the
 foes of his god with divine might. Unlike most inquisitors, a living grimoire focuses on careful
 study of divine scripture, valuing knowledge over intuition.

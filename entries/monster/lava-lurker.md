@@ -6,6 +6,9 @@ source_ids = ["the-emerald-spire-superdungeon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lava_lurker", path = "json/monsters34.json" },
 ]
+[[sources]]
+publication = "the-emerald-spire-superdungeon"
+page = "155"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ and reforming rock._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** The Emerald Spire Superdungeon pg 155\
 **Subtype:** Elemental, Extraplanar, Fire
 
 **tremorsense:** 60

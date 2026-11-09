@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/magic-circle-against-evil" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "308"
 
 [fields]
 kind = "spell"
@@ -56,8 +59,6 @@ Descriptors: good
 :::
 
 ### Magic Circle Against Chaos
-
-**Sources:** PRPG Core Rulebook pg 308
 
 This spell functions like _[magic circle against evil](ref/spell/magic-circle-against-evil),_ except
 that it is similar to [protection from chaos](ref/spell/protection-from-chaos) instead of

@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cruel_jaunt", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "114"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Target: you
 Subschool: Teleportation
 Descriptors: evil, fear, mind-affecting
 :::
-
-**Sources:** Horror Adventures pg 114
 
 You gain the ability to detect fear, as per [sense fear](ref/spell/sense-fear), but you sense
 creatures within medium range.

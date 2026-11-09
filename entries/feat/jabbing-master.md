@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jabbing_master", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "151"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using Jabbing Style, the extra damage you deal when you hit a s
 +++
 
 ## Jabbing Master (Combat)
-
-**Sources:** Advanced Class Guide pg 151
 
 Your quick punches become even more lethal.\
 **Prerequisites:** [Dodge](ref/feat/dodge),

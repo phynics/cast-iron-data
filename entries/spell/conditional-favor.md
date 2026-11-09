@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "conditional_favor", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "206"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Saving throw: none (see below)
 Spell resistance: yes
 Target: one creature
 :::
-
-**Sources:** Ultimate Intrigue pg 206
 
 You must cast this spell immediately before casting another spell on the same creature, eliciting a
 promise or warning against a behavior and binding the target to the paired spell. If you don't cast

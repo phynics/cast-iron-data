@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "intense_blows", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "17"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you are using Power Attack, you gain a +1 bonus to your CMD unti
 +++
 
 ## Intense Blows (Armor Mastery, Combat)
-
-**Sources:** Armor Master's Handbook pg 17
 
 Your forceful blows and your armor's weight make you more difficult to hinder in combat.\
 **Prerequisites:** Str 13, [Power Attack](ref/feat/power-attack), base attack bonus +6 or fighter

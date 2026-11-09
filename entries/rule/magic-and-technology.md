@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_and_technology", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "161"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 161
 
 The question of how magic and science interact in your world is worth asking. Not just in terms of
 the laws and logic that each follows - though that helps - but how each is viewed and utilized by

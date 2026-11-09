@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cavalier" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "5"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Tactician", "Expert trainer", "Greater tactician", "Demanding chall
 alters = ["Banner"]
 +++
 
-**Sources:** Armor Master's Handbook pg 5\
 The cavaliers known as knights of Arnisant revere the famous general who was crucial in the defeat
 of [the Whispering Tyrant](ref/monster/the-whispering-tyrant), the powerful wizard-king. Knights of
 Arnisant call upon Arnisant to grant them protection from evil magic, just as the Shield of Aroden

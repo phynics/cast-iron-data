@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "half_plate_of_the_dark_prince", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "252"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration and enchantment"
 caster_level = "3rd"
 +++
 
-**Sources:** Inner Sea Gods pg 252\
 **Aura** faint conjuration and enchantment; **CL** 3rd\
 **Slot** armor; **Price** 3,910 gp; **Weight** 50 lbs.
 

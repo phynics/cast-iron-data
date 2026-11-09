@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "faiths-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "night_of_blades", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "237"
+[[sources]]
+publication = "faiths-of-corruption"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -45,8 +51,6 @@ Saving throw: Reflex half
 Spell resistance: yes
 Effect: wall of blades up to 10 ft. long/level and 10 ft. tall
 :::
-
-**Sources:** Inner Sea Gods pg 237, Faiths of Corruption pg 29
 
 Useful primarily to those who skulk in the darkness, this spell is a temporary trap for the unwary.
 You create an immobile wall of tiny black blades that whirl and tear into creatures like a cyclone.

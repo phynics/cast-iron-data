@@ -6,6 +6,9 @@ source_ids = ["pathfinder-91-battle-of-bloodmarch-hills"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "frost_warrior", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "pathfinder-91-battle-of-bloodmarch-hills"
+page = "69"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You naturally transfer the cold of your body to any metal melee weapo
 +++
 
 ## Frost Warrior (Combat)
-
-**Sources:** Pathfinder \#91: Battle of Bloodmarch Hills pg 69
 
 The frigid cold of your body makes your melee attacks more formidable.\
 **Prerequisites:** Cold subtype, giant subtype.\

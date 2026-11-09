@@ -6,6 +6,9 @@ source_ids = ["fey-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sprite_sprite_swarm", path = "json/monsters38.json" },
 ]
+[[sources]]
+publication = "fey-revisited"
+page = "62"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ buzzing, writhing swarm._
 
 **Senses:** Detect evil, Detect good, Low-light vision
 
-**Sources:** Fey Revisited pg 62\
 **Subtype:** Swarm
 
 **Experience points:** 1,600

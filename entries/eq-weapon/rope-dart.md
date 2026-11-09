@@ -6,14 +6,21 @@ source_ids = ["ranged-tactics-toolbox", "ultimate-combat", "ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rope_dart", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "33"
+[[sources]]
+publication = "ultimate-combat"
+page = "133"
+[[sources]]
+publication = "ultimate-equipment"
+page = "21"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "-"
 +++
-
-**Sources:** Ranged Tactics Toolbox pg 33, Ultimate Combat pg 133, Ultimate Equipment pg 21
 
 This deceptively complex weapon appears to be nothing more than a 12-foot rope attached to a
 6-inch-long, conical metal spike. Similar to a [meteor hammer](ref/eq-weapon/meteor-hammer), it can

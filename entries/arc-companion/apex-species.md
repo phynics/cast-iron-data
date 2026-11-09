@@ -6,13 +6,15 @@ source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "apex_species", path = "json/archetypes_COMPANION.json" },
 ]
+[[sources]]
+publication = "wilderness-origins"
+page = "20"
 
 [fields]
 kind = "archetype"
 replaces = ["Share Spells", "Evasion", "Devotion", "Improved Evasion", "Multiattack"]
 +++
 
-**Sources:** Wilderness Origins pg 20\
 Some animals have no serious competitors and no real predators. They are masters of their habitats,
 perfectly evolved to take advantage of their native terrain. They need not be predators, of course -
 some herbivores are just as lethally suited to their homes.

@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lawful_neutral", path = "json/rules_basics01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "135"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 135
 
 Order begets order. My word is my bond. Chaos will destroy the world. Respect rank. I live by my
 code and I'll die by my code. Tradition must continue. Order is the foundation of all culture. I am

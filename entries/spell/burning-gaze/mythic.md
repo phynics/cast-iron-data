@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/burning-gaze", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "87"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 87\
 You may focus your burning gaze on a creature or object as a move action instead of as a standard
 action. The target takes 1d8 points of fire damage for failing its save and for each round it's on
 fire.

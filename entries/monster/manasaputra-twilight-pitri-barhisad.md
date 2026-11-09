@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "manasaputra_twilight_pitri_barhisad", path = "json/monsters16.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "168"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ _Cerulean light surrounds this towering four-armed figure in a vibrant corona._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 5 pg 168\
 **Subtype:** Extraplanar, Good, Lawful, Manasaputra
 
 **Experience points:** 153,600

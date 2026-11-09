@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gray_masters_leathers", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "251"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration, evocation, illusion, and transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Inner Sea Gods pg 251\
 **Aura** faint conjuration, evocation, illusion, and transmutation; **CL** 5th\
 **Slot** armor; **Price** 5,720 gp; **Weight** 15 lbs.
 

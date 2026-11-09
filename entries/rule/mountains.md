@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mountains", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "222"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 222
 
 As with hills terrain, mountains come in a variety of shapes and sizes. In places where tectonic
 activity has for the most part stabilized and the rock is exposed to the upper air, the mountains

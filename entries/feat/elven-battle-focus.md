@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elven_battle_focus", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "12"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using Elven Battle Style, you can add your Intelligence modifie
 +++
 
 ## Elven Battle Focus (Combat)
-
-**Sources:** Weapon Master's Handbook pg 12
 
 Your fighting style is enhanced by your keen intellect.\
 **Prerequisites:** Int 13, [Elven Battle Style](ref/feat/elven-battle-style),

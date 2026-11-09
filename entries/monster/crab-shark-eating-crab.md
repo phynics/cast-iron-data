@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crab_shark_eating_crab", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "60"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ wildly, eager for prey._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 3 pg 60\
 **Subtype:** Aquatic
 
 **Type:** vermin

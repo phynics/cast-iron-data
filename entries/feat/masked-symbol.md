@@ -6,14 +6,15 @@ source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "masked_symbol", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "13"
 
 [fields]
 kind = "feat"
 prerequisites = "Disguise 1 rank or dual identity class feature."
 benefit = "Your masked persona represents a particular concept, granting you a benefit while in your masked persona or vigilante identity. Each time you gain a new character level, you can choose to embody a different symbol, forgoing your previous bonus and gaining a new one."
 +++
-
-**Sources:** Inner Sea Intrigue pg 13
 
 Your alternate identity exists as a nearly inhuman avatar of a mood or cause.\
 **Prerequisites:** Disguise 1 rank or dual identity class feature.\

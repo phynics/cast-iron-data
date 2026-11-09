@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cape_of_the_mountebank", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "262"
+[[sources]]
+publication = "core-rulebook"
+page = "505"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Sources:** Ultimate Equipment pg 262, PRPG Core Rulebook pg 505\
 **Aura** moderate conjuration; **CL** 9th\
 **Slot** shoulders; **Price** 10,800 gp; **Weight** 1 lb.
 

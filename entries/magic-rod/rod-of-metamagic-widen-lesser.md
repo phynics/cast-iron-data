@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rod_of_metamagic_widen_lesser", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "180"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "17th"
 
 ## Rod of Metamagic, Widen
 
-**Sources:** Ultimate Equipment pg 180\
 **Aura** strong (no school); **CL** 17th\
 **Slot** none; **Price** 14,000 gp (lesser \[up to 3rd-level spells\]), 54,000 gp (normal \[up to
 6th-level spells\]), 121,500 gp (greater \[all spells\]); **Weight** 5 lbs.

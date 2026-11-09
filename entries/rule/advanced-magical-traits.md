@@ -6,12 +6,13 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "advanced_magical_traits", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "231"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Advanced Race Guide pg 231
 
 **Constant Spell-Like Divination (3 RP):** **Prerequisites:** None; **Benefit:** Choose one of the
 following spells: [detect magic](ref/spell/detect-magic), [detect poison](ref/spell/detect-poison),

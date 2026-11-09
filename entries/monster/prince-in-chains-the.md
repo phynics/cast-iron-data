@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prince_in_chains_the", path = "json/monsters_unique3.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "315"
 
 [fields]
 kind = "creature"
@@ -48,7 +51,6 @@ monstrosity._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Inner Sea Gods pg 315\
 **Subtype:** Evil, Extraplanar, Kyton, Lawful
 
 **Experience points:** 51,200

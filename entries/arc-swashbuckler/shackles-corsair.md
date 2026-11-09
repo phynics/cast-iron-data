@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/swashbuckler" },
 ]
+[[sources]]
+publication = "advanced-class-origins"
+page = "22"
 
 [fields]
 kind = "archetype"
 replaces = ["Nimble", "Swashbuckler initiative", "Targeted strike"]
 +++
 
-**Sources:** Advanced Class Origins pg 22\
 While it doesn't take much more than a ship and a crew in the Shackles to become a pirate, Shackles
 corsairs are a finer breed of freebooter. A Shackles corsair's debonair charm and style make her a
 paradoxical celebrity even among the nations whose ships she plunders.

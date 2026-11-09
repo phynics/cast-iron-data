@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "pathfinder-36-sound-of-a-thousand-screams"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ankou", path = "json/monsters02.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "10"
+[[sources]]
+publication = "pathfinder-36-sound-of-a-thousand-screams"
+page = "80"
 
 [fields]
 kind = "creature"
@@ -44,7 +50,6 @@ _Cloaked by wings of darkness, this horrific, skeletal creature appears to burn 
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 4 pg 10, Pathfinder \#36: Sound of a Thousand Screams pg 80\
 **Subtype:** Extraplanar
 
 **Experience points:** 38,400

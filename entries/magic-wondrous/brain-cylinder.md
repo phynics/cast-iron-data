@@ -6,6 +6,12 @@ source_ids = ["pathfinder-88-valley-of-the-brain-collectors", "pathfinder-46-wak
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brain_cylinder", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "pathfinder-88-valley-of-the-brain-collectors"
+page = "73"
+[[sources]]
+publication = "pathfinder-46-wake-of-the-watcher"
+page = "87"
 
 [fields]
 kind = "item"
@@ -17,8 +23,6 @@ aura = "moderate necromancy"
 caster_level = "9th"
 +++
 
-**Sources:** Pathfinder \#88: Valley of the Brain Collectors pg 73, Pathfinder \#46: Wake of the
-Watcher pg 87\
 **Aura** moderate necromancy; **CL** 9th\
 **Slot** none; **Price** 5,000 gp; **Weight** 10 lbs.
 

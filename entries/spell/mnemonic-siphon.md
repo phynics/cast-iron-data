@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mnemonic_siphon", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "blood-of-the-ancients"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: none
 Spell resistance: no
 Target: object touched
 :::
-
-**Sources:** Blood of the Ancients pg 28
 
 You inscribe a rune on the target object. The rune remains dormant until the object finds its way
 into the hands of a spellcaster, at which point the rune steals one of that creature's spells and

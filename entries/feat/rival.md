@@ -6,6 +6,9 @@ source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rival", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "spymasters-handbook"
+page = "16"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Your striving pushes you to become ever more skillful. When you gain 
 +++
 
 ## Rival (Story)
-
-**Sources:** Spymaster's Handbook pg 16
 
 You have a rival, and the two of you try to sabotage, humiliate, or otherwise defeat each other
 without allowing anyone else to interfere.\

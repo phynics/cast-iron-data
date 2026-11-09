@@ -6,6 +6,9 @@ source_ids = ["academy-of-secrets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "garipan", path = "json/monsters11.json" },
 ]
+[[sources]]
+publication = "academy-of-secrets"
+page = "31"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ The molten core in the creature's torso glows through rugged cracks in its dark 
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Academy of Secrets pg 31\
 **Subtype:** Native
 
 **Experience points:** 9,600

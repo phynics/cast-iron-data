@@ -6,6 +6,9 @@ source_ids = ["daughters-of-fury"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deck_of_the_hellwasps_sting", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "daughters-of-fury"
+page = "58"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Sources:** Daughters of Fury pg 58\
 **Aura** moderate conjuration; **CL** 9th\
 **Slot** none; **Price** 10,380 gp; **Weight** 1 lb.
 

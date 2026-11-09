@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "construct-handbook"
+page = "12"
 
 [fields]
 kind = "archetype"
 replaces = ["Mutagen", "Brew Potion"]
 +++
 
-**Sources:** Construct Handbook pg 12\
 Cruorchymists see their blood as just another tool for their experiments. They use this blood to
 create new life that can be commanded to serve the cruorchymist's goals.
 

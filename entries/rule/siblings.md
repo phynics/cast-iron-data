@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "siblings", path = "json/rules_basics03.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "19"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 19
 
 If you have at least one sibling, roll on the table below to determine the relative age of each
 sibling. For each adopted sibling, roll on the Race of Adopted Sibling table to determine that

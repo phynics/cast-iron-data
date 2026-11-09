@@ -6,12 +6,14 @@ source_ids = ["mythic-origins"]
 relations = [
   { kind = "addon", target = "ref/spell/waters-of-lamashtu", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-origins"
+page = "13"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Origins pg 13\
 When used as unholy water, mythic waters of Lamashtu deal twice as much damage and prevent the
 creature from regaining hit points from [fast healing](ref/umr/fast-healing) or regeneration for 1d4
 rounds (meaning the creature can be killed normally). The ability damage from the waters increases

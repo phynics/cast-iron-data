@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tongues", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "360"
 
 [fields]
 kind = "spell"
@@ -57,8 +60,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: no
 Target: creature touched
 :::
-
-**Sources:** PRPG Core Rulebook pg 360
 
 This spell grants the creature touched the ability to speak and understand the language of any
 intelligent creature, whether it is a racial tongue or a regional dialect. The subject can speak

@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stylish_infusion", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "29"
 
 [fields]
 kind = "class_option"
@@ -26,8 +29,6 @@ group = "kineticist-wild-talent"
 **Associated:** any
 
 **Saving throw:** none
-
-**Source:** Martial Arts Handbook/29
 
 When you learn this infusion, select an unchained monk style strike. You can use that style strike
 during a _flurry of blows_ with your infused blast, though you must still follow the limitation of

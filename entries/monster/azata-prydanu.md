@@ -6,6 +6,9 @@ source_ids = ["pathfinder-126-beyond-the-veiled-past"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "azata_prydanu", path = "json/monsters27.json" },
 ]
+[[sources]]
+publication = "pathfinder-126-beyond-the-veiled-past"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ its skin._
 
 **Senses:** Darkvision 60 ft., Low-light vision, True seeing
 
-**Sources:** Pathfinder \#126: Beyond the Veiled Past pg 84\
 **Subtype:** Azata, Chaotic, Extraplanar, Good
 
 **Experience points:** 76,800

@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "implementing_wild_magic", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "147"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 147
 
 Though the rules on when to use wild magic are deliberately vague to give the GM leeway, here are
 some suggestions, presented in order from simplest to most complex.

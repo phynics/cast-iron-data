@@ -6,6 +6,9 @@ source_ids = ["tombs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "duergar_strandrider", path = "json/npcs8.json" },
 ]
+[[sources]]
+publication = "tombs-of-golarion"
+page = "32"
 
 [fields]
 kind = "creature"
@@ -18,7 +21,6 @@ _This stout, gray-skinned warrior sits astride an enormous spider._
 
 **Challenge rating:** 8
 
-**Sources:** Tombs of Golarion pg 32\
 **XP** 4,800\
 Duergar [cavalier](ref/class/cavalier) ([beast rider](ref/arc-cavalier/beast-rider)) 9\
 LE Medium humanoid (dwarf)\

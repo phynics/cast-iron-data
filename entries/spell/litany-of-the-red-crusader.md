@@ -6,6 +6,9 @@ source_ids = ["pathfinder-140-eulogy-for-roslars-coffer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "litany_of_the_red_crusader", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "pathfinder-140-eulogy-for-roslars-coffer"
+page = "72"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: Fortitude negates
 Spell resistance: yes
 Target: one creature
 :::
-
-**Sources:** Pathfinder \#140: Eulogy for Roslar's Coffer pg 72
 
 Followers of [Arazni](ref/faith/arazni) have made use of this litany since her days as a crusader
 and herald. Each time the target creature takes piercing or slashing damage, it takes 1 point of

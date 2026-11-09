@@ -6,6 +6,12 @@ source_ids = ["bestiary-6", "book-of-the-damned-volume-2-lords-of-chaos"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_vermlek", path = "json/monsters29.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "90"
+[[sources]]
+publication = "book-of-the-damned-volume-2-lords-of-chaos"
+page = "54"
 
 [fields]
 kind = "creature"
@@ -44,7 +50,6 @@ _A hideous, pale, worm-like head pushes violently up and out of a corpulent man'
 
 **Senses:** Darkvision 60 ft., Scent
 
-**Sources:** Bestiary 6 pg 90, Book of the Damned - Volume 2: Lords of Chaos pg 54\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 800

@@ -6,11 +6,12 @@ source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/martial-weapon-proficiency", label = "removed" },
 ]
+[[sources]]
+publication = "the-elephant-in-the-room-feat-taxes-in-pathfinder"
 
 [fields]
 kind = "feat"
 +++
 
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 This feat has been removed, replaced with the new [Weapon Proficiency](ref/rule/weapon-proficiency)
 feat.

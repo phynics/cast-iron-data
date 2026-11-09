@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "saurian", path = "json/monsters21.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "247"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _This creature has the head, legs, and tail of a tyrannosaurus, but humanoid che
 
 **Senses:** Darkvision 60 ft., Scent
 
-**Sources:** Bestiary 6 pg 247\
 **Experience points:** 76,800
 
 **Armor class:** 32/13/27

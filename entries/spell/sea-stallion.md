@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/sea-steed" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "234"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Subschool: Polymorph
 :::
 
 ### Sea Stallion
-
-**Sources:** Ultimate Wilderness pg 234
 
 This spell functions as [sea steed](ref/spell/sea-steed), but as long as you stay mounted on the
 target, you also gain the amphibious quality and your melee attacks function as if you were under

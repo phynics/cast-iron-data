@@ -6,15 +6,24 @@ source_ids = ["ultimate-equipment", "legacy-of-fire-players-guide", "adventurers
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "meteor_hammer", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "21"
+[[sources]]
+publication = "legacy-of-fire-players-guide"
+page = "22"
+[[sources]]
+publication = "adventurers-armory"
+page = "4"
+[[sources]]
+publication = "ultimate-combat"
+page = "132"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "10 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 21, Legacy of Fire Player's Guide pg 22, Adventurer's Armory pg
-4, Ultimate Combat pg 132
 
 This weapon consists of one or two spherical weights attached by a 10-foot chain. You whirl the
 weights and wrap them around an opponent's body. If you succeed at a [trip](ref/rule/trip) attempt

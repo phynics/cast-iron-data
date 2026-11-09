@@ -6,6 +6,9 @@ source_ids = ["daughters-of-fury"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "goblet_of_liquefied_cognition", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "daughters-of-fury"
+page = "59"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination and transmutation"
 caster_level = "7th"
 +++
 
-**Sources:** Daughters of Fury pg 59\
 **Aura** moderate divination and transmutation; **CL** 7th\
 **Slot** none; **Price** 18,000 gp; **Weight** 5 lbs.
 

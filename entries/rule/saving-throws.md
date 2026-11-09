@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "saving_throws", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "180"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 180
 
 Generally, when you are subject to an unusual or magical attack, you get a saving throw to avoid or
 reduce the effect. Like an attack roll, a saving throw is a d20 roll plus a bonus based on your

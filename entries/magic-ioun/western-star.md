@@ -6,6 +6,9 @@ source_ids = ["occult-mysteries"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "western_star", path = "json/magic_ioun_stones.json" },
 ]
+[[sources]]
+publication = "occult-mysteries"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong illusion"
 caster_level = "12th"
 +++
 
-**Sources:** Occult Mysteries pg 29\
 **Aura** strong illusion; **CL** 12th\
 **Slot** none; **Price** 4,000 gp; **Weight** —
 

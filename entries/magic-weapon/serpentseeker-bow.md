@@ -6,6 +6,9 @@ source_ids = ["mystery-monsters-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "serpentseeker_bow", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "mystery-monsters-revisited"
+page = "49"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration and divination"
 caster_level = "7th"
 +++
 
-**Sources:** Mystery Monsters Revisited pg 49\
 **Aura** moderate conjuration and divination; **CL** 7th\
 **Slot** none; **Price** 15,330 gp; **Weight** 2 lbs.
 

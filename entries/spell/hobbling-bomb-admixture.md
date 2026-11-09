@@ -6,6 +6,9 @@ source_ids = ["pathfinder-117-assault-on-longshadow"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hobbling_bomb_admixture", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "pathfinder-117-assault-on-longshadow"
+page = "76"
 
 [fields]
 kind = "spell"
@@ -37,8 +40,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Pathfinder \#117: Assault on Longshadow pg 76
 
 > _[Hobgoblin](ref/race/hobgoblin) alchemists devoted to [Hadregash](ref/faith/hadregash) have
 > developed the following extract to empower themselves and their allies or to make prey easier to

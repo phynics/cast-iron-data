@@ -6,6 +6,12 @@ source_ids = ["curse-of-the-crimson-throne", "pathfinder-11-skeletons-of-scarwal
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chained_spirit", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "curse-of-the-crimson-throne"
+page = "468"
+[[sources]]
+publication = "pathfinder-11-skeletons-of-scarwall"
+page = "78"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ in lengths of writhing chains._
 
 **Senses:** Darkvision 60 ft., Spectral sight, Spiritsense
 
-**Sources:** Curse of the Crimson Throne pg 468, Pathfinder \#11: Skeletons of Scarwall pg 78\
 **Subtype:** Incorporeal
 
 **Type:** undead

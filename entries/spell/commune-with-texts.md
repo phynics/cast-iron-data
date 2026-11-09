@@ -6,6 +6,9 @@ source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "commune_with_texts", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "59"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Saving throw: none
 Spell resistance: no
 Target: a collection of texts
 :::
-
-**Sources:** Inner Sea Intrigue pg 59
 
 You quickly absorb the knowledge in the target, which can be any assortment of books, scrolls, or
 other texts. During the spell's duration, you can search the texts and immediately find the most

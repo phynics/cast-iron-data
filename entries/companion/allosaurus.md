@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "allosaurus", path = "json/class_ability_druid_companions.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "90"
 
 [fields]
 kind = "class_option"
@@ -13,8 +16,6 @@ group = "animal-companion"
 +++
 
 ## Dinosaur (Allosaurus)
-
-**Sources:** Bestiary 2 pg 90
 
 **Companion Type**
 

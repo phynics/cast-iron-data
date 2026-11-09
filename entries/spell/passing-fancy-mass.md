@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/passing-fancy" },
 ]
+[[sources]]
+publication = "spymasters-handbook"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -52,7 +55,5 @@ Descriptors: mind-affecting
 :::
 
 ### Mass Passing Fancy
-
-**Sources:** Spymaster's Handbook pg 29
 
 This spell functions as per [passing fancy](ref/spell/passing-fancy) except as noted above.

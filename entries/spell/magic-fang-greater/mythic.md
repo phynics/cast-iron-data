@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/magic-fang-greater", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "100"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 100
 
 This functions like mythic magic fang. You can add one of the following weapon special abilities to
 natural attacks or unarmed strikes affected by the spell: [flaming](ref/magic-enh/flaming),

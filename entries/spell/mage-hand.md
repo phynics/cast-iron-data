@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mage_hand", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "306"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Saving throw: none
 Spell resistance: no
 Target: one nonmagical, unattended object weighing up to 5 lbs.
 :::
-
-**Sources:** PRPG Core Rulebook pg 306
 
 You point your finger at an object and can lift it and move it at will from a distance. As a move
 action, you can propel the object as far as 15 feet in any direction, though the spell ends if the

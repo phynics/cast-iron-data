@@ -6,6 +6,18 @@ source_ids = ["ultimate-equipment", "adventurers-armory", "advanced-players-guid
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dog_sled_travel_per_mile", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "87"
+[[sources]]
+publication = "adventurers-armory"
+page = "19"
+[[sources]]
+publication = "advanced-players-guide"
+page = "185"
+[[sources]]
+publication = "pathfinder-51-the-hungry-storm"
+page = "67"
 
 [fields]
 kind = "item"
@@ -15,8 +27,6 @@ price = "20 gp"
 
 ## Dog sled
 
-**Sources:** Ultimate Equipment pg 87, Adventurer's Armory pg 19, Advanced Player's Guide pg 185,
-Pathfinder \#51: The Hungry Storm pg 67\
 **Price** 20 gp; **Price of Passage** (per mile) 3 cp\
 **Category** Transport, Land
 

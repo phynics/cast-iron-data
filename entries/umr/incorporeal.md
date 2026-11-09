@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "incorporeal", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "294"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Incorporeal (Ex)
 
-**Sources:** Bestiary 5 pg 294\
 An incorporeal creature has no physical body. It can be harmed only by other incorporeal creatures,
 magic weapons or creatures that strike as magic weapons, spells,
 [spell-like abilities](ref/umr/spell-like-abilities), or supernatural abilities. It is immune to all

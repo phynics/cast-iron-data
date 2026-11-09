@@ -6,12 +6,14 @@ source_ids = ["pathfinder-unchained"]
 relations = [
   { kind = "addon", target = "ref/feat/elven-battle-training", label = "stamina" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "119"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder Unchained pg 119\
 When you are wielding a traditional elven weapon as defined in the feat, you can spend 5 stamina
 points to make one additional attack of opportunity with that weapon. This stacks with additional
 attacks of opportunity granted by this feat, Combat Reflexes, and similar abilities.

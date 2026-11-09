@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cosmic_horror", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "192"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 192
 
 Often called cosmicism or Lovecraftian horror, stories in this subgenre involve the realization that
 humanity and all its struggles are insignificant amid the greater workings of the universe. Such

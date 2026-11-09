@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_face_of_the_enemy", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "58"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 58
 
 The Pathfinder Roleplaying Game, at its simplest level, begins with an easy animosity: one player
 controls the "bad guys" while the others control the "good guys." Add to this the fact that GMs

@@ -6,6 +6,9 @@ source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drowscourge", path = "json/magic_enhancements.json" },
 ]
+[[sources]]
+publication = "faction-guide"
+page = "59"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "8th"
 +++
 
-**Sources:** Faction Guide pg 59\
 **Aura** moderate conjuration; **CL** 8th\
 **Slot** weapon quality; **Price** +1 bonus; **Weight** -
 

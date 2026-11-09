@@ -6,12 +6,14 @@ source_ids = ["chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "egoists_militia", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "chronicle-of-legends"
+page = "15"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Chronicle of Legends pg 15\
 **School** conjuration; **Level** 8\
 **Casting Time** 80 minutes\
 **Components** V, S, M (1 pint of the primary caster's blood, diamond dust worth 5,000 gp), F (at

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-80-empty-graves"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "apep", path = "json/faiths.json" },
 ]
+[[sources]]
+publication = "pathfinder-80-empty-graves"
+page = "66"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Apep**
 
 **Sub:** Devourer of the Dawn
-
-**Sources:** Pathfinder \#80: Empty Graves pg 66
 
 ### Details
 

@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "leng_spider", path = "json/monsters16.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "176"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ still moves with fluid grace._
 
 **Senses:** Arcane sight, Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 2 pg 176\
 **Subtype:** Extraplanar
 
 **tremorsense:** 60

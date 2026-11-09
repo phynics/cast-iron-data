@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_resistance", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "299"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Spell Resistance (Ex)
 
-**Sources:** Bestiary 5 pg 299\
 A creature with spell resistance can avoid the effects of spells and
 [spell-like abilities](ref/umr/spell-like-abilities) that directly affect it. To determine if a
 spell or spell-like ability works against a creature with spell resistance, the caster must attempt

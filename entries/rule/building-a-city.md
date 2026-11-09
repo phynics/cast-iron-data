@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "building_a_city", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "140"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 140
 
 Even if you decide to take a broad-strokes approach to campaign design, eventually you'll need to
 get down and gritty and start creating an environment on the level at which your PCs will interact

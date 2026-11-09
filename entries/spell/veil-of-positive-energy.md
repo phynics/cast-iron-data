@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "veil_of_positive_energy", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "254"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Spell resistance: no
 Target: you or all creatures within 5 ft.; see text
 Descriptors: good
 :::
-
-**Sources:** Advanced Player's Guide pg 254
 
 You surround yourself with a veil of positive energy, making it harder for undead creatures to harm
 you. When under the effect of this spell, you gain a +2 sacred bonus to AC and a +2 sacred bonus on

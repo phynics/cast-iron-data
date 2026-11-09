@@ -6,6 +6,9 @@ source_ids = ["pathfinder-60-from-hells-heart"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gargiya", path = "json/monsters11.json" },
 ]
+[[sources]]
+publication = "pathfinder-60-from-hells-heart"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ Sweltering heat radiates from its rippling scales._
 
 **Senses:** Darkvision 90 ft., Low-light vision
 
-**Sources:** Pathfinder \#60: From Hell's Heart pg 84\
 **Subtype:** Aquatic
 
 **Experience points:** 9,600

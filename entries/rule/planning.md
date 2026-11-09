@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planning", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "122"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 122
 
 Running a heist involves players becoming more proactive about the adventure, and just as a GM needs
 time to plan the game, the members of the party need time to figure out how they want to execute the

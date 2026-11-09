@@ -6,13 +6,15 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghoul", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "80"
 
 [fields]
 kind = "class_option"
 group = "sorcerer-bloodline"
 +++
 
-**Sources:** Monster Codex pg 80\
 Your connection to the hungering undead shapes your magic.
 
 **Gained class skills:** stl

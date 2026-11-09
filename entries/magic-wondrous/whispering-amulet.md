@@ -6,6 +6,9 @@ source_ids = ["demons-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "whispering_amulet", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "demons-revisited"
+page = "18"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong evocation"
 caster_level = "17th"
 +++
 
-**Sources:** Demons Revisited pg 18\
 **Aura** strong evocation; **CL** 17th\
 **Slot** neck; **Price** 70,000 gp; **Weight** -
 

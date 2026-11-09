@@ -6,13 +6,15 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ferocity", path = "json/class_ability_disciplines.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "92"
 
 [fields]
 kind = "class_option"
 group = "psychic-discipline"
 +++
 
-**Sources:** Ultimate Wilderness pg 92\
 You are in touch with the most primal part of your subconscious. Your training allows you to unlock
 animalistic senses and powers.
 

@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drain_poison", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: no
 Target: one weapon or a single piece of ammunition
 Descriptors: poison
 :::
-
-**Sources:** Dirty Tactics Toolbox pg 28
 
 By touching a weapon against the fang of a poisonous creature and casting this spell, you drain 1
 dose of the creature's poison, which is magically applied to your weapon without risk of poisoning

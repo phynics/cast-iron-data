@@ -6,6 +6,8 @@ source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ancients_flight", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "dragonslayers-handbook"
 
 [fields]
 kind = "class_option"
@@ -13,8 +15,6 @@ group = "bardic-masterpiece"
 +++
 
 ## Ancients' Flight (Oratory)
-
-**Sources:** Dragonslayer's Handbook
 
 You compel dragons to recite an epic poem telling the story of their race's creation.
 

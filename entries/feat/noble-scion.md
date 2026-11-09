@@ -6,14 +6,15 @@ source_ids = ["inner-sea-world-guide", "heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "noble_scion", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "288"
 
 [fields]
 kind = "feat"
 prerequisites = "Cha 13, must be taken at 1st level."
 benefit = "You gain a +2 bonus on all Knowledge (nobility) checks, and that chosen Knowledge skill is always considered a class skill for you."
 +++
-
-**Sources:** Inner Sea World Guide pg 288
 
 You are a member of a proud noble family, whether or not you remain in good standing with your
 family.\

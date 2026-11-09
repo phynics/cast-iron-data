@@ -6,6 +6,9 @@ source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bolt", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "heroes-of-golarion"
+page = "26"
 
 [fields]
 kind = "class_option"
@@ -24,8 +27,6 @@ group = "kineticist-wild-talent"
 [Thunderstorm Blast](ref/kinetic/thunderstorm-blast)
 
 **Saving throw:** Reflex half
-
-**Source:** Heroes of Golarion/26
 
 You unleash a bolt of lightning above an enemy within 30 feet and send it spiraling down with
 tremendous force. Each bolt is a 5-foot-wide, 30-foot-long, vertical bolt, dealing your full blast

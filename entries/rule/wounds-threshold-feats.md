@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wounds_threshold_feats", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "137"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 137
 
 The following feats are either new feats or Core Rulebook feats adapted to work with the wound
 threshold system. Though the system doesn't require their use, they're a great way to expand the

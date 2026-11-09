@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "faiths-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bullseye_shot", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "208"
+[[sources]]
+publication = "faiths-of-purity"
+page = "24"
 
 [fields]
 kind = "feat"
@@ -16,8 +22,6 @@ benefit = "You can spend a move action to steady your shot. When you do, you gai
 +++
 
 ## Bullseye Shot (Combat)
-
-**Sources:** Inner Sea Gods pg 208, Faiths of Purity pg 24
 
 You slow your breath, calm yourself, and hit the bullseye, just as you were trained to do.\
 **Prerequisites:** [Point-Blank Shot](ref/feat/point-blank-shot),

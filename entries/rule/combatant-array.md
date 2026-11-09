@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "combatant_array", path = "json/rules_adv_gm02.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "198"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 198
 
 The most common type of monster in most regions, a combatant is at its best on the battlefield. A
 combatant monster typically has high physical statistics and powerful attacks. Strong defenses, hit

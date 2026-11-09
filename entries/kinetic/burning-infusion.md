@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burning_infusion", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "17"
 
 [fields]
 kind = "class_option"
@@ -25,8 +28,6 @@ group = "kineticist-wild-talent"
 [Plasma Blast](ref/kinetic/plasma-blast)
 
 **Saving throw:** Reflex negates
-
-**Source:** Occult Adventures/17
 
 Your kinetic blast ignites your foes. Whenever an infused blast hits a foe and penetrates its
 [spell resistance](ref/rule/spell-resistance), that foe

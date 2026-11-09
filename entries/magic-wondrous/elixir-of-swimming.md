@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elixir_of_swimming", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "295"
+[[sources]]
+publication = "core-rulebook"
+page = "511"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint transmutation"
 caster_level = "2nd"
 +++
 
-**Sources:** Ultimate Equipment pg 295, PRPG Core Rulebook pg 511\
 **Aura** faint transmutation; **CL** 2nd\
 **Slot** none; **Price** 250 gp; **Weight** -
 

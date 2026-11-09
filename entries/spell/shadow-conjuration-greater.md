@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/shadow-conjuration" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "340"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Descriptors: shadow
 :::
 
 ### Greater Shadow Conjuration
-
-**Sources:** PRPG Core Rulebook pg 340
 
 This spell functions like [shadow conjuration](ref/spell/shadow-conjuration), except that it
 duplicates any sorcerer or wizard conjuration (summoning) or conjuration (creation) spell of 6th

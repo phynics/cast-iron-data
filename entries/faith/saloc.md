@@ -6,6 +6,9 @@ source_ids = ["concordance-of-rivals"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "saloc", path = "json/faiths7.json" },
 ]
+[[sources]]
+publication = "concordance-of-rivals"
+page = "16"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Saloc**
 
 **Sub:** The Minder of Immortals
-
-**Sources:** Concordance of Rivals pg 16
 
 ### Details
 

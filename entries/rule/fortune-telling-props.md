@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fortune_telling_props", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "238"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 238
 
 It is usually helpful to use props in the course of a fortune-telling. You can simply use a player's
 palm as a prop, but players tend to get more excited when they feel that an element of randomness

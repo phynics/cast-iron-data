@@ -6,12 +6,13 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demigod", path = "json/rules_campaign_types09.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "70"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Planar Adventures pg 70
 
 Unlike a deity, a demigod is represented in game with statistics, ranging in power from CR 26 to
 CR 30. [Archdevils](ref/family/archdevil), [demon lords](ref/family/demon-lord),

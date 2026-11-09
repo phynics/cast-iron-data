@@ -6,6 +6,9 @@ source_ids = ["pathfinder-105-the-inferno-gate"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lythirium", path = "json/monsters16.json" },
 ]
+[[sources]]
+publication = "pathfinder-105-the-inferno-gate"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ antler-like growths on its head._
 
 **Type:** plant
 
-**Sources:** Pathfinder \#105: The Inferno Gate pg 86\
 **Experience points:** 12,800
 
 **Armor class:** 26/14/21

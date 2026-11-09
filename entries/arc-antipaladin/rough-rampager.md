@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/antipaladin" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "43"
 
 [fields]
 kind = "archetype"
 replaces = ["Aura of cowardice", "Aura of despair", "Aura of sin"]
 +++
 
-**Sources:** Inner Sea Combat pg 43\
 Rough rampagers venerate [Rovagug](ref/faith/rovagug), reveling in the destruction the dark god
 represents. Where others seek power, wealth, or revenge, the rough rampager merely focuses on
 slaughter and mayhem. Because of their sheer destructive nature, most rough rampagers live short,

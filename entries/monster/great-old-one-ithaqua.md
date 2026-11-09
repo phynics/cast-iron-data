@@ -6,6 +6,9 @@ source_ids = ["pathfinder-109-in-search-of-sanity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "great_old_one_ithaqua", path = "json/monsters_unique2.json" },
 ]
+[[sources]]
+publication = "pathfinder-109-in-search-of-sanity"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ fangs._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Snow vision, True seeing
 
-**Sources:** Pathfinder \#109: In Search of Sanity pg 82\
 **Subtype:** Air, Chaotic, Cold, Evil, Great Old One
 
 **Experience points:** 4,915,200

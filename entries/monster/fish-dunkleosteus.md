@@ -6,6 +6,12 @@ source_ids = ["bestiary-6", "pathfinder-56-raiders-of-the-fever-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fish_dunkleosteus", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "129"
+[[sources]]
+publication = "pathfinder-56-raiders-of-the-fever-sea"
+page = "83"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ plates._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 6 pg 129, Pathfinder \#56: Raiders of the Fever Sea pg 83\
 **Subtype:** Aquatic
 
 **Experience points:** 2,400

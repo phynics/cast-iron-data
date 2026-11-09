@@ -6,6 +6,9 @@ source_ids = ["pathfinder-30-the-twice-damned-prince"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ebon_acolytus", path = "json/monsters09.json" },
 ]
+[[sources]]
+publication = "pathfinder-30-the-twice-damned-prince"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ sacrificial dagger above its head, its bejeweled eyes seeming to glint with murd
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#30: The Twice-Damned Prince pg 82\
 **Experience points:** 3,200
 
 **Armor class:** 20/8/20

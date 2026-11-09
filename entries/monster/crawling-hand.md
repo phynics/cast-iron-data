@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crawling_hand", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "59"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ a deformed spider._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 2 pg 59\
 **Type:** undead
 
 **Experience points:** 200

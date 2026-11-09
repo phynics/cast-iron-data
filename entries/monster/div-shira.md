@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "pathfinder-21-the-jackals-price"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "div_shira", path = "json/monsters08.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "90"
+[[sources]]
+publication = "pathfinder-21-the-jackals-price"
+page = "78"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ with dead black eyes._
 
 **Senses:** Darkvision 60 ft., See in darkness, True seeing
 
-**Sources:** Bestiary 3 pg 90, Pathfinder \#21: The Jackal's Price pg 78\
 **Subtype:** Div, Evil, Extraplanar
 
 **Experience points:** 19,200

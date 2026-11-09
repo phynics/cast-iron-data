@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mythic_simple_templates", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "224"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 224
 
 The following simple templates can be used to turn any monster into a mythic creature. A creature
 given one of these templates counts as a mythic creature for the purposes of spells, abilities, and

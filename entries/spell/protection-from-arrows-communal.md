@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/protection-from-arrows" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "240"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Target: creature touched
 :::
 
 ### Communal Protection from Arrows
-
-**Sources:** Ultimate Combat pg 240
 
 This spell functions like [protection from arrows](ref/spell/protection-from-arrows), except you
 divide the duration in 1-hour intervals among the creatures touched. Once the spell absorbs 10

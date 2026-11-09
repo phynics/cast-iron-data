@@ -6,6 +6,9 @@ source_ids = ["andoran-birthplace-of-freedom"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "candlestone_courtier", path = "json/monsters04.json" },
 ]
+[[sources]]
+publication = "andoran-birthplace-of-freedom"
+page = "52"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ carries himself with a dancer's grace._
 
 **Senses:** Low-light vision, See in darkness
 
-**Sources:** Andoran, Birthplace of Freedom pg 52\
 **Experience points:** 19,200
 
 **Armor class:** 26/20/16

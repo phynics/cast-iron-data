@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/mask-dweomer" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "236"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Descriptors: glamer
 :::
 
 ### Communal Mask Dweomer
-
-**Sources:** Ultimate Combat pg 236
 
 This spell functions like [mask dweomer](ref/spell/mask-dweomer), except you divide the duration in
 1-day increments among the creatures or objects touched.

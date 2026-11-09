@@ -6,6 +6,12 @@ source_ids = ["ultimate-combat", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ram_large", path = "json/equipment_siege_engines.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "166"
+[[sources]]
+publication = "core-rulebook"
+page = "435"
 
 [fields]
 kind = "item"
@@ -14,8 +20,6 @@ weight = "-"
 +++
 
 ## Ram
-
-**Sources:** Ultimate Combat pg 166, PRPG Core Rulebook pg 435
 
 The most basic close assault weapons are iron-shod logs carried by one or more creatures to combine
 their strength. A ram can be used to deal damage or to make a Strength check against the target's

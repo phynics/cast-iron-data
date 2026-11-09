@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "amulet_of_hidden_light", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "112"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint illusion"
 caster_level = "3rd"
 +++
 
-**Sources:** Advanced Race Guide pg 112\
 **Aura** faint illusion; **CL** 3rd\
 **Slot** neck; **Price** 9,000 gp; **Weight** -
 

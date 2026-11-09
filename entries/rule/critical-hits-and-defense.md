@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "critical_hits_and_defense", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "192"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 192
 
 In this alternative system, when a creature threatens a critical hit, it does not make a critical
 hit confirmation roll. Instead, the target of that critical hit makes a critical defense check

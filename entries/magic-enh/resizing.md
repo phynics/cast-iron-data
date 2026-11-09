@@ -6,6 +6,9 @@ source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "resizing", path = "json/magic_enhancements2.json" },
 ]
+[[sources]]
+publication = "giant-hunters-handbook"
+page = "33"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Giant Hunter's Handbook pg 33\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** none; **Price** +4,000 gp; **Weight** -
 

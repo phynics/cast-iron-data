@@ -6,14 +6,15 @@ source_ids = ["distant-shores"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phaleros", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "distant-shores"
+page = "12"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "3 lbs."
 +++
-
-**Sources:** Distant Shores pg 12
 
 A phaleros is a type of metal [javelin](ref/eq-weapon/javelin) that stores a splash weapon in a
 small cage between the haft and the spearhead. When a phaleros strikes its target, the spearhead

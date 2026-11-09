@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deadeyes_arrow", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "232"
+[[sources]]
+publication = "gods-and-magic"
+page = "15"
 
 [fields]
 kind = "spell"
@@ -48,8 +54,6 @@ Spell resistance: yes
 Effect: arrow of electricity
 Descriptors: electricity
 :::
-
-**Sources:** Inner Sea Gods pg 232, Gods and Magic pg 15
 
 You create an arrow made of crackling electricity, which you may use for one of two effects.
 

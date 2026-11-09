@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/medium" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "5"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Shared seance", "Trance of three"]
 alters = ["Armor proficiency", "Spirit", "Spirit surge", "Spirit power (lesser)", "Spirit power (intermediate)", "Spirit power (supreme)"]
 +++
 
-**Sources:** Martial Arts Handbook pg 5\
 A medium of the master forgoes a connection with most spirits to form a bond with the spirits of
 great martial artists.
 

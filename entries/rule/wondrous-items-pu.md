@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wondrous_items_pu", path = "json/rules_opt_pc_adv01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "158"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 158
 
 Most items that grant bonuses to statistics fall into the wondrous items category.
 

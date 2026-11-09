@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/fighter" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "48"
 
 [fields]
 kind = "archetype"
 replaces = ["Armor training 1", "Armor training 2", "Armor training 3", "Weapon training 3", "Armor training 4", "Weapon training 4", "Armor mastery"]
 +++
 
-**Sources:** Ultimate Combat pg 48\
 The thunderstriker adopts an unusual fighting style, gripping a heavy weapon with both hands and
 switching to a defensive posture with weapon and buckler, lashing out with the shield with
 surprising speed and power.

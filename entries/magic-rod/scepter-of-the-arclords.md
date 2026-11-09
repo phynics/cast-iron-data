@@ -6,6 +6,9 @@ source_ids = ["lost-treasures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scepter_of_the_arclords", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "lost-treasures"
+page = "52"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong universal"
 caster_level = "20th"
 +++
 
-**Sources:** Lost Treasures pg 52\
 **Aura** strong universal; **CL** 20th\
 **Slot** none; **Price** 200,000 gp; **Weight** 5 lbs.
 

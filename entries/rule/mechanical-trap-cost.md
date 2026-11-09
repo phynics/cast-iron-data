@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mechanical_trap_cost", path = "json/rules_gm08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "423"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 423
 
 For mechanical traps, simply select the elements you want the trap to have and add up the
 adjustments to the trap's Challenge Rating that those elements require (see Table 13-3) to arrive at

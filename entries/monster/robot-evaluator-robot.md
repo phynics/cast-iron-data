@@ -6,6 +6,9 @@ source_ids = ["pathfinder-90-the-divinity-drive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "robot_evaluator_robot", path = "json/monsters20.json" },
 ]
+[[sources]]
+publication = "pathfinder-90-the-divinity-drive"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _With wings and an unearthly glow, this mechanical being could easily be mistake
 
 **Senses:** Darkvision 60 ft., Low-light vision, Superior optics
 
-**Sources:** Pathfinder \#90: The Divinity Drive pg 90\
 **Subtype:** Robot
 
 **Experience points:** 19,200

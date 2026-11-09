@@ -6,6 +6,9 @@ source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deceiving", path = "json/magic_enhancements.json" },
 ]
+[[sources]]
+publication = "agents-of-evil"
+page = "26"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Sources:** Agents of Evil pg 26\
 **Aura** moderate evocation; **CL** 7th\
 **Price** +5,000 gp; **Weight** -
 

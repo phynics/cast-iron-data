@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_transcendent_spells", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "156"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong universal"
 caster_level = "13th"
 +++
 
-**Sources:** Mythic Adventures pg 156\
 **Aura** strong universal; **CL** 13th\
 **Slot** ring; **Price** 30,000 gp; **Weight** -
 

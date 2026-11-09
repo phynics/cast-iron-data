@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "legacy-of-the-first-world"
+page = "20"
 
 [fields]
 kind = "archetype"
 replaces = ["Bardic knowledge", "Countersong", "Inspire courage", "Dirge of doom", "Well-versed", "Lore master"]
 +++
 
-**Sources:** Legacy of the First World pg 20\
 Sly and mischievous like the Lantern King himself, fey pranksters learn supernatural tricks that can
 cause their victims to suffer mishaps and accidents.
 

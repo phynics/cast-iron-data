@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fiends", path = "json/class_ability_oaths.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "61"
 
 [fields]
 kind = "class_option"
@@ -13,7 +16,6 @@ group = "paladin-oath"
 replaces = ["Aura of resolve", "9th-level mercy"]
 +++
 
-**Sources:** Ultimate Magic pg 61\
 A paladin who takes an oath against [demons](ref/family/demon), [devils](ref/family/devil),
 [daemons](ref/family/daemon), and other evil outsiders is constantly on the lookout for malicious
 fiendish insurgence into the world, and faces it with swift and unwavering defiance. Often she works

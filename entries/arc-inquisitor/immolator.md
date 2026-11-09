@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/inquisitor" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "128"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Smiting judgment", "Bane", "greater bane"]
 alters = ["True judgment"]
 +++
 
-**Sources:** Advanced Race Guide pg 128\
 The immolator puts her pyromaniacal urges to work in the service of a deity. She brings burning
 retribution down upon the enemies of her faith, consigning their souls to the sacrificial flames. An
 immolator has the following class features.

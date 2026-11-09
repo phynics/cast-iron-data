@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "smashing_dent", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "17"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using Smashing Style, each time you damage a suit of armor with
 +++
 
 ## Smashing Dent (Combat)
-
-**Sources:** Weapon Master's Handbook pg 17
 
 Your hammer strikes cause traumatic injuries.\
 **Prerequisites:** Str 13, [Improved Sunder](ref/feat/improved-sunder),

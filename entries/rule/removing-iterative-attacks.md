@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "removing_iterative_attacks", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "110"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 110
 
 Iterative attacks allow combatants to deal a high amount of damage, but they can also make turns
 take a long time. Since a character's subsequent attacks have a bonus that's so much lower, this can

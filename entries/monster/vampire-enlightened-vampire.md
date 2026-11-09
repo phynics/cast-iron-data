@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vampire_enlightened_vampire", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "242"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ abilities = ["22", "20", "-", "14", "18", "16"]
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Monster Codex pg 242\
 **Subtype:** Augmented humanoid, Human
 
 **Type:** undead

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bloodrager" },
 ]
+[[sources]]
+publication = "occult-origins"
+page = "23"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Bloodline", "all bloodline spells", "all bloodline powers", "Eschew
 alters = ["Spellcasting"]
 +++
 
-**Sources:** Occult Origins pg 23\
 An id rager lacks a supernatural taint to his blood, instead drawing power from pure emotion.
 
 **Atavistic Avatar (Su)**

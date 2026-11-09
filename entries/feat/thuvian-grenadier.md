@@ -10,6 +10,9 @@ relations = [
   { kind = "prerequisite", target = "ref/feat/precise-shot", label = "or" },
   { kind = "prerequisite", target = "ref/feat/throw-anything", label = "or" },
 ]
+[[sources]]
+publication = "people-of-the-sands"
+page = "9"
 
 [fields]
 kind = "feat"
@@ -20,8 +23,6 @@ benefit = "Whenever you hit a creature with a splash weapon, you may choose to e
 +++
 
 ## Thuvian Grenadier (Teamwork)
-
-**Sources:** People of the Sands pg 9
 
 Training with alchemically inclined allies helps you avoid friendly fire.\
 **Prerequisites:** [Precise Shot](ref/feat/precise-shot) or

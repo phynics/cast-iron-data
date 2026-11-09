@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/mesmerist" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "38"
 
 [fields]
 kind = "archetype"
 replaces = ["Consummate liar", "Towering ego", "Touch treatment", "Rule minds"]
 +++
 
-**Sources:** Ultimate Intrigue pg 38\
 Mesmerists that learn to pierce deep into the minds of their victims are known as thought eaters,
 dangerous individuals capable of devouring thoughts and assuming the knowledge those notions
 represent for themselves.

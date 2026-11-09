@@ -6,6 +6,12 @@ source_ids = ["monster-codex", "pathfinder-69-maiden-mother-crone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "svathurim", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "76"
+[[sources]]
+publication = "pathfinder-69-maiden-mother-crone"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -45,7 +51,6 @@ frost giant._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Monster Codex pg 76, Pathfinder \#69: Maiden, Mother, Crone pg 90\
 **Subtype:** Cold
 
 **Experience points:** 12,800

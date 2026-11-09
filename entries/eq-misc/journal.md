@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "pathfinder-society-field-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "journal", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "57"
+[[sources]]
+publication = "pathfinder-society-field-guide"
+page = "47"
 
 [fields]
 kind = "item"
@@ -14,7 +20,6 @@ price = "10 gp"
 weight = "1 lb."
 +++
 
-**Sources:** Ultimate Equipment pg 57, Pathfinder Society Field Guide pg 47\
 **Price** 10 gp; **Weight** 1 lb.\
 **Category** Adventuring Gear
 

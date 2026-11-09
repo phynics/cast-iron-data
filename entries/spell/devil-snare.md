@@ -6,6 +6,9 @@ source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_snare", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "agents-of-evil"
+page = "17"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes, see text
 Effect: 10-ft.-radius circle
 Descriptors: good
 :::
-
-**Sources:** Agents of Evil pg 17
 
 Your touch creates an invisible circle on a flat surface. Any outsider passing through this circle
 must succeed at a Will save or be caught within. Once trapped, a creature must succeed at a Will

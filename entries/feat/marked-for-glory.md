@@ -11,6 +11,9 @@ relations = [
   { kind = "prerequisite", target = "ref/feat/iron-will", label = "or" },
   { kind = "prerequisite", target = "ref/feat/lightning-reflexes", label = "or" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "69"
 
 [fields]
 kind = "feat"
@@ -18,8 +21,6 @@ prerequisites = "Great Fortitude, Iron Will, or Lightning Reflexes."
 prerequisite_feats = ["ref/feat/great-fortitude", "ref/feat/iron-will", "ref/feat/lightning-reflexes"]
 benefit = "You can use the surge ability once per day (adding 1d6). If you are or become mythic, you can use your surge one additional time per day."
 +++
-
-**Sources:** Mythic Adventures pg 69
 
 You're destined for glory beyond the ken of ordinary adventurers and mere mortals.\
 **Prerequisites:** [Great Fortitude](ref/feat/great-fortitude), [Iron Will](ref/feat/iron-will), or

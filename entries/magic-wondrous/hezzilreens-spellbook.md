@@ -6,6 +6,9 @@ source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hezzilreens_spellbook", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "kobolds-of-golarion"
+page = "26"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "11th"
 +++
 
-**Sources:** Kobolds of Golarion pg 26\
 **Aura** moderate evocation; **CL** 11th\
 **Slot** none; **Price** 8,000 gp; **Weight** 2 lbs.
 

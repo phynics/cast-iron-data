@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "leshy_swarm", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "25"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: no
 Effect: 10-ft.-square swarm of leshys
 Subschool: Summoning
 :::
-
-**Sources:** Ultimate Wilderness pg 25
 
 > _[Vine leshys](ref/race/vine-leshy) have access to the following spell._
 

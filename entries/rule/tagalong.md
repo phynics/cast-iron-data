@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tagalong", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "77"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 77
 
 The tagalong isn't so much a player type as he is a distraction. He might be the significant other
 of one of the players that shows up each week to spend quality time with his gaming better half.

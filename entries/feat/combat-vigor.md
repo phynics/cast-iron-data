@@ -6,6 +6,9 @@ source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "combat_vigor", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "healers-handbook"
+page = "14"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You gain a vigor pool with a maximum number of points equal to your C
 +++
 
 ## Combat Vigor (Combat)
-
-**Sources:** Healer's Handbook pg 14
 
 You can quickly recuperate from devastating attacks without divine assistance.\
 **Prerequisites:** Con 13.\

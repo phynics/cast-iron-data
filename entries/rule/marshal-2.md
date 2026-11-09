@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "marshal_2", path = "json/rules_campaign_types07.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "38"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 38\
 Some are destined not only to achieve personal greatness, but also to inspire armies, rally the
 fallen, and bring the most out of those who follow them. The marshal is such a leader, renowned for
 his vision, courage, and strategic acumen. Soldiers flock to a marshal's banner for a chance to

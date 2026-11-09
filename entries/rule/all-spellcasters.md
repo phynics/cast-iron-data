@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "all_spellcasters", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "43"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 43
 
 This section is more about a party with no melee classes, rather than a party where every PC is a
 spellcaster - a group of four clerics or paladins is technically an all-spellcaster party, but they

@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "amulet_of_the_planes", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "256"
+[[sources]]
+publication = "core-rulebook"
+page = "500"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong conjuration"
 caster_level = "15th"
 +++
 
-**Sources:** Ultimate Equipment pg 256, PRPG Core Rulebook pg 500\
 **Aura** strong conjuration; **CL** 15th\
 **Slot** neck; **Price** 120,000 gp; **Weight** -
 

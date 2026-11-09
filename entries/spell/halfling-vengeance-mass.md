@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/halfling-vengeance" },
 ]
+[[sources]]
+publication = "pathfinder-131-the-reapers-right-hand"
+page = "72"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: yes (harmless)
 :::
 
 ### Mass Halfling Vengeance
-
-**Sources:** Pathfinder \#131: The Reaper's Right Hand pg 72
 
 This spell functions like [halfling vengeance](ref/spell/halfling-vengeance), except that it affects
 multiple creatures.

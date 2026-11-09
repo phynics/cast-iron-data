@@ -6,6 +6,9 @@ source_ids = ["pathfinder-91-battle-of-bloodmarch-hills"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beanstalk", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "pathfinder-91-battle-of-bloodmarch-hills"
+page = "70"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 Effect: a 5-foot-radius beanstalk that grows to a height of 50 ft./caster level
 Subschool: Creation
 :::
-
-**Sources:** Pathfinder \#91: Battle of Bloodmarch Hills pg 70
 
 When casting this spell, you must plant the material components in soil. When you do, at the end of
 casting, a large beanstalk rises up from the ground. It's strong enough to support Huge or smaller

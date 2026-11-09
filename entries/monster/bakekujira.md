@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "pathfinder-59-the-price-of-infamy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bakekujira", path = "json/monsters03.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "15"
+[[sources]]
+publication = "pathfinder-59-the-price-of-infamy"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ of its eye sockets._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 4 pg 15, Pathfinder \#59: The Price of Infamy pg 84\
 **Subtype:** Aquatic
 
 **Type:** undead

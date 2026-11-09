@@ -6,14 +6,15 @@ source_ids = ["undead-slayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soul_warden", path = "json/prestige_classes3.json" },
 ]
+[[sources]]
+publication = "undead-slayers-handbook"
+page = "30"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d8."
 +++
-
-**Sources:** Undead Slayer's Handbook pg 30
 
 Bygone products of an ancient war, soul wardens are an enigma of themselves. The original soul
 wardens were a specially trained cadre of anti-necromantic commandos in the Nexian army during the

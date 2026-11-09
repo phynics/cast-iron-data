@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ranger" },
 ]
+[[sources]]
+publication = "people-of-the-river"
+page = "25"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Wild empathy", "Favored terrain", "Woodland stride", "Swift tracker
 alters = ["Favored enemy"]
 +++
 
-**Sources:** People of the River pg 25\
 The transformation of the great warlord Kevoth-Kul into the hedonistic Black Sovereign a few decades
 ago was difficult for the people of Numeria to accept. Many Kellid locals blame Kevoth-Kul's change
 on the influence of the Technic League and view both the League and their mechanical minions with a

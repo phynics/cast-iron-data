@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/daylight" },
 ]
+[[sources]]
+publication = "guide-to-the-river-kingdoms"
+page = "25"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Spell resistance: no
 Target: object touched
 Descriptors: light
 :::
-
-**Sources:** Guide to the River Kingdoms pg 25
 
 As [daylight](ref/spell/daylight), except the object touched sheds bright silvery light in a 20-foot
 radius. In addition to providing illumination, the area of bright light is painful to creatures that

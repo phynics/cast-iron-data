@@ -6,6 +6,9 @@ source_ids = ["the-first-world-realm-of-the-fey"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "imbrex", path = "json/faiths4.json" },
 ]
+[[sources]]
+publication = "the-first-world-realm-of-the-fey"
+page = "22"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Imbrex**
 
 **Sub:** The Twins
-
-**Sources:** The First World, Realm of the Fey pg 22
 
 ### Details
 

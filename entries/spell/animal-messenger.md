@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animal_messenger", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "241"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Target: one tiny animal
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 241
 
 You compel a Tiny animal to go to a spot you designate. The most common use for this spell is to get
 an animal to carry a message to your allies. The animal cannot be one tamed or trained by someone

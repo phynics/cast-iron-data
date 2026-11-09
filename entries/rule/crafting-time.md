@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crafting_time", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "162"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 162
 
 When answering the questions in this section, don't be afraid to start simple and add more as you
 run adventures. Write up a few important events in your setting's history, shuffle those around, and

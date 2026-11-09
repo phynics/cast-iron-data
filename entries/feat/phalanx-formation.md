@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phalanx_formation", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "10"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ normal = "Attacking a target that is beyond another creature, even an ally, can 
 +++
 
 ## Phalanx Formation (Combat)
-
-**Sources:** Melee Tactics Toolbox pg 10
 
 You are trained to use long weapons in tight formations.\
 **Prerequisites:** Base attack bonus +1.\

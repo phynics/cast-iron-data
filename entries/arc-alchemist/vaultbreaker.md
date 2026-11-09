@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "236"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Brew Potion", "Throw Anything", "Poison use"]
 alters = ["Discoveries", "Bombs", "Bombs"]
 +++
 
-**Sources:** Villain Codex pg 236\
 The vaultbreaker combines stealth with his bomb-making talents to construct special focused charges
 that can disable or destroy hinges, locks, and similar mechanisms.
 

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sarcovalt", path = "json/monsters21.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "313"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ vulture skull._
 
 **Senses:** Darkvision 60 ft., Deathwatch, Low-light vision
 
-**Sources:** Inner Sea Gods pg 313\
 **Subtype:** Evil, Extraplanar
 
 **Size:** tiny

@@ -6,6 +6,9 @@ source_ids = ["champions-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eye_of_brokerage", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "champions-of-balance"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "9th"
 +++
 
-**Sources:** Champions of Balance pg 28\
 **Aura** moderate divination; **CL** 9th\
 **Slot** neck; **Price** 16,550 gp; **Weight** 1/2 lb.
 

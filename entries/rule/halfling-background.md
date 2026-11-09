@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "halfling_background", path = "json/rules_basics03.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "18"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 18
 
 Social and amicable by nature, halflings fit equally well in both communities of humans and those of
 their wily kinsfolk. Prone to wanderlust, halflings can be found anywhere civilized humanoids

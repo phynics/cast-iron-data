@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bardic_college_events", path = "json/rules_subsystems03.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "116"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 116
 
 |d%|Event|
 | --- | --- |

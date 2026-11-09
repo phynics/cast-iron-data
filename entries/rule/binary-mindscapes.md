@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "binary_mindscapes", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "235"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 235
 
 A binary mindscape is typically only a minimalist backdrop for a psychic battle - a ghostly image,
 like a stark memory, lacking detail and verisimilitude. It might manifest as a flat surface

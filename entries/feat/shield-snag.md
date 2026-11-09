@@ -6,6 +6,9 @@ source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_snag", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "magical-marketplace"
+page = "6"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Any opponents hit by your shield bash are also targeted by a free dis
 +++
 
 ## Shield Snag (Combat)
-
-**Sources:** Magical Marketplace pg 6
 
 You know how to navigate your shield around weapons and can use it to keep your balance.\
 **Prerequisites:** [Improved Shield Bash](ref/feat/improved-shield-bash),

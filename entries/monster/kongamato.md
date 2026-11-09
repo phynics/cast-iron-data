@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kongamato", path = "json/monsters15.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "169"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ scream as it descends._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 3 pg 169\
 **Experience points:** 51,200
 
 **Armor class:** 29/11/26

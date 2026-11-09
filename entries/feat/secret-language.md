@@ -6,6 +6,9 @@ source_ids = ["cohorts-and-companions"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "secret_language", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "cohorts-and-companions"
+page = "23"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You gain a +5 circumstance bonus on Bluff checks made to pass secret 
 +++
 
 ## Secret Language (Teamwork)
-
-**Sources:** Cohorts and Companions pg 23
 
 You and your allies have worked out a complex set of codes and phrases that allow you to secretly
 pass information back and forth.\

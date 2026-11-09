@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/sorcerer" },
 ]
+[[sources]]
+publication = "blood-of-the-beast"
+page = "13"
 
 [fields]
 kind = "archetype"
 replaces = ["Bloodline spell"]
 +++
 
-**Sources:** Blood of the Beast pg 13\
 Tian stories often tell of kitsune with multiple tails, but not many realize that fewer than one
 kitsune in every thousand has this potential, and those that do usually have a magical quirk in
 their blood or have been blessed by their race's deific matron, [Daikitsu](ref/faith/daikitsu). As a

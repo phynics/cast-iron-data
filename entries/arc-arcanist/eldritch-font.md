@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/arcanist" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "77"
 
 [fields]
 kind = "archetype"
 replaces = ["The arcanist exploit gained at 3rd level", "The arcanist exploit gained at 7th level", "The arcanist exploit gained at 13th level", "Magical supremacy"]
 +++
 
-**Sources:** Advanced Class Guide pg 77\
 For some arcanists, the power bubbling up from within is nearly too much to contain. They become
 adept at shaping this magical energy without needing to bind it up in spells.
 

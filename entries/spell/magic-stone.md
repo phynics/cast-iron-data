@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_stone", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "310"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: Will negates (harmless) (object)
 Spell resistance: yes (harmless) (object)
 Targets: up to three pebbles touched
 :::
-
-**Sources:** PRPG Core Rulebook pg 310
 
 You transmute as many as three pebbles, which can be no larger than sling bullets, so that they
 strike with great force when thrown or slung. If hurled, they have a range increment of 20 feet. If

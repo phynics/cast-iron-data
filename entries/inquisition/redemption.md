@@ -6,13 +6,14 @@ source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "redemption", path = "json/class_ability_inquisitions.json" },
 ]
+[[sources]]
+publication = "faiths-and-philosophies"
+page = "23"
 
 [fields]
 kind = "class_option"
 group = "inquisition"
 +++
-
-**Sources:** Faiths and Philosophies pg 23
 
 **Associated Deities**
 

@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "target", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "129"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 129
 
 The simplest spells only affect one target, whether that target is a creature, an object, or just
 the caster. Technically, a spell that only affects the caster (with a range of "personal" and target

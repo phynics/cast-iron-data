@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_planar_crypt_young_crypt_dragon", path = "json/monsters30.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "98"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ over its emaciated form._
 
 **Senses:** Dragon senses
 
-**Sources:** Bestiary 6 pg 98\
 **Subtype:** Extraplanar
 
 **Experience points:** 19,200

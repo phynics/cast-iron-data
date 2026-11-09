@@ -6,6 +6,9 @@ source_ids = ["disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hallucinatory_decor", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "disciples-doctrine"
+page = "19"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Area: one 10-ft. cube/level (S)
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** Disciple's Doctrine pg 19
 
 You transform the decor of a courtyard, structure, or other edifice to meet your highest standards
 and personal tastes. Objects and architectural elements remain in the same configuration - a chair

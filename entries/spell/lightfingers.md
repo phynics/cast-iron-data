@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lightfingers", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "blood-of-the-beast"
+page = "27"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: none
 Spell resistance: yes
 Target: one creature
 :::
-
-**Sources:** Blood of the Beast pg 27
 
 > _While [tengus](ref/race/tengu) are renowned for their supposed ability to eat bad luck or hex
 > with a foul stare, most tengus have long forgotten the jinx magic their ancestors perfected

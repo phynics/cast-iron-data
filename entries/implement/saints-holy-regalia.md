@@ -6,6 +6,9 @@ source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "saints_holy_regalia", path = "json/class_ability_implements.json" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "27"
 
 [fields]
 kind = "class_option"
@@ -14,7 +17,6 @@ group = "occultist-implement"
 
 ## Saint's Holy Regalia
 
-**Sources:** Psychic Anthology pg 27\
 This panoply is associated with devoted members of a good-aligned faith and the power of belief.
 
 **Implements**

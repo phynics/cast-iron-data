@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/kineticist" },
 ]
+[[sources]]
+publication = "blood-of-the-coven"
+page = "22"
 
 [fields]
 kind = "archetype"
 replaces = ["Utility wild talent gained at 4th level", "Utility wild talents gained at 6th and 8th levels", "Utility wild talent gained at 13th level"]
 +++
 
-**Sources:** Blood of the Coven pg 22\
 Those of strong will who live under a dark curse long enough might learn to control and channel the
 corrupt energy afflicting them. [Changelings](ref/race/changeling) who resist the call of their hag
 mothers are especially given to the arts of the arakineticist.

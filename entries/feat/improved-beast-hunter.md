@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_beast_hunter", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "113"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "If you have selected Beast Hunter multiple times, you gain this benef
 +++
 
 ## Improved Beast Hunter (Combat)
-
-**Sources:** Ultimate Wilderness pg 113
 
 You are well trained in stalking and hunting the animals of the wild.\
 **Prerequisites:** [Beast Hunter](ref/feat/beast-hunter); base attack bonus +3; Knowledge (nature)

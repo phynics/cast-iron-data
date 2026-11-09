@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scholar_priest", path = "json/npcs.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "45"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "2"
 
 **Challenge rating:** 2
 
-**Sources:** NPC Codex pg 45\
 **XP** 600\
 Human [cleric](ref/class/cleric) of [Nethys](ref/faith/nethys) 3\
 CN Medium humanoid (human)\

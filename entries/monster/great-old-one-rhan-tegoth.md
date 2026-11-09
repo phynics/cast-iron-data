@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "great_old_one_rhan_tegoth", path = "json/monsters_unique2.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "146"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ bulbous eyes glare._
 
 **Senses:** Darkvision 60 ft., Low-light vision, True seeing
 
-**Sources:** Bestiary 6 pg 146\
 **Subtype:** Aquatic, Chaotic, Evil, Great Old One
 
 **tremorsense:** 120 ft. (640 ft. when in statue form)

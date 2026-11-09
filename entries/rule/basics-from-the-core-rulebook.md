@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "basics_from_the_core_rulebook", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "396"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 396
 
 It's one thing to play a character on an adventure. It's quite another to run the adventure as a
 Game Master. It's a lot more work, sure, but it can be a lot more rewarding to create an entire

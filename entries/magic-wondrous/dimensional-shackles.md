@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dimensional_shackles", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "273"
+[[sources]]
+publication = "core-rulebook"
+page = "510"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate abjuration"
 caster_level = "11th"
 +++
 
-**Sources:** Ultimate Equipment pg 273, PRPG Core Rulebook pg 510\
 **Aura** moderate abjuration; **CL** 11th\
 **Slot** wrists; **Price** 28,000 gp; **Weight** 5 lbs.
 

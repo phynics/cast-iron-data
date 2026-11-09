@@ -6,12 +6,19 @@ source_ids = ["core-rulebook", "ultimate-combat", "ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weapon_special_features", path = "json/rules_basics02.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "144"
+[[sources]]
+publication = "ultimate-combat"
+page = "130, 149"
+[[sources]]
+publication = "ultimate-equipment"
+page = "22"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 144, Ultimate Combat pg. 130, 149, Ultimate Equipment pg 22
 
 Some weapons have special features in addition to those noted in their descriptions.
 

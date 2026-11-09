@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guarding_greater", path = "json/magic_enhancements.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "148"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration"
 caster_level = "12th"
 +++
 
-**Sources:** Advanced Race Guide pg 148\
 **Aura** strong abjuration; **CL** 12th\
 **Slot** shield quality; **Price** +2 bonus; **Weight** -
 

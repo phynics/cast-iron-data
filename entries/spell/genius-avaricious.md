@@ -6,6 +6,9 @@ source_ids = ["pathfinder-30-the-twice-damned-prince"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "genius_avaricious", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "pathfinder-30-the-twice-damned-prince"
+page = "68"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Effect: a vestige of the archdevil Mammon imbues a coin with a negotiable degree
 Subschool: Creation
 Descriptors: evil
 :::
-
-**Sources:** Pathfinder \#30: The Twice-Damned Prince pg 68
 
 Casting this spell constitutes performing a rite of sacrifice to the archdevil
 [Mammon](ref/faith/mammon), making an offering to the Lord of Erebus and channeling a measure of his

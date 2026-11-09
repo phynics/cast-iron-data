@@ -6,13 +6,14 @@ source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nexavaran_steel", path = "json/equipment_special_materials.json" },
 ]
+[[sources]]
+publication = "faction-guide"
+page = "55"
 
 [fields]
 kind = "item"
 category = "Special Materials"
 +++
-
-**Sources:** Faction Guide pg 55
 
 Forged by the Mendevian smiths of Nerosyan out of iron and the unique mineral nexavar, this bluish
 steel strikes true against monsters vulnerable to cold iron (such as demons). Weapons made of

@@ -6,6 +6,9 @@ source_ids = ["taldor-the-first-empire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "roofgarden", path = "json/monsters20.json" },
 ]
+[[sources]]
+publication = "taldor-the-first-empire"
+page = "63"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ _A thick carpet of moss and vines stretches out from a central tangled mass of p
 
 **Type:** plant
 
-**Sources:** Taldor, the First Empire pg 63\
 **tremorsense:** 30
 
 **Experience points:** 3,200

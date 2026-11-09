@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "protector_of_the_people", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "91"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You temporarily gain the Craft Construct feat for the purposes of bui
 +++
 
 ## Protector of the People (Story)
-
-**Sources:** Horror Adventures pg 91
 
 You have vowed to construct a defender for your community.\
 **Prerequisites:** Your community has come under persecution and requires considerable defense.\

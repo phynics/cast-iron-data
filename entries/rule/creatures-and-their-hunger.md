@@ -6,12 +6,14 @@ source_ids = ["blood-of-the-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "creatures_and_their_hunger", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "blood-of-the-night"
+page = "22"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Blood of the Night pg 22\
 For vampires, managing their hunger is an integral part of unlife. Some revel in the feast, but for
 others it is nothing but a constant source of stress and shame. A vampire who refuses to feed on
 intelligent beings is relegated to the dull taste of animal blood out of necessity, and forsakes the

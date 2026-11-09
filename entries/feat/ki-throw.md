@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ki_throw", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "164"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "A monk may gain Ki Throw as a bonus feat at 10th level. A monk with t
 +++
 
 ## Ki Throw (Combat)
-
-**Sources:** Advanced Player's Guide pg 164
 
 Your physical control and mastery of momentum allows you to throw enemies.\
 **Prerequisites:** [Improved Trip](ref/feat/improved-trip),

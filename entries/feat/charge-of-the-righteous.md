@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "faiths-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charge_of_the_righteous", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "209"
+[[sources]]
+publication = "faiths-of-purity"
+page = "24"
 
 [fields]
 kind = "feat"
@@ -16,8 +22,6 @@ normal = "When you charge, you take a -2 penalty to AC until the start of your n
 +++
 
 ## Charge of the Righteous (Combat)
-
-**Sources:** Inner Sea Gods pg 209, Faiths of Purity pg 24
 
 You charge toward undead and fiends with confidence in your righteous cause.\
 **Prerequisites:** Base attack bonus +1, any good alignment.\

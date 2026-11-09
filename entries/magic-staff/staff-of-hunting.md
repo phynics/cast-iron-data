@@ -6,6 +6,9 @@ source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_hunting", path = "json/magic_staff.json" },
 ]
+[[sources]]
+publication = "dragonslayers-handbook"
+page = "31"
 
 [fields]
 kind = "item"
@@ -16,8 +19,6 @@ slot = "none"
 aura = "strong varies"
 caster_level = "13th"
 +++
-
-**Sources:** Dragonslayer's Handbook pg 31
 
 **Aura** strong varies; **CL** 13th\
 **Slot** none; **Price** 51,000 gp; **Weight** 5 lbs.

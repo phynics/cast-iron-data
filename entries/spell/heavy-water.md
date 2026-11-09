@@ -6,6 +6,9 @@ source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heavy_water", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "magical-marketplace"
+page = "8"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 Area: cylinder of water (5-ft. radius/level, 30 ft. deep)
 Descriptors: water
 :::
-
-**Sources:** Magical Marketplace pg 8
 
 You cause a volume of water to become heavier than normal. Swimming in or through such water
 requires a Swim check with a DC equal to the saving throw DC of this spell; even creatures with a

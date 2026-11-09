@@ -6,12 +6,13 @@ source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/weapon-finesse", label = "removed" },
 ]
+[[sources]]
+publication = "the-elephant-in-the-room-feat-taxes-in-pathfinder"
 
 [fields]
 kind = "feat"
 +++
 
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 The Weapon Finesse feat has been removed, and now any character may choose to use their dexterity
 bonus to hit with light melee weapons. As a consequence, the Light Melee Weapons designation has
 been renamed to [Finesse](ref/rule/equipment-errata) Melee Weapons. A new special weapon feature

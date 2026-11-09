@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "xiao", path = "json/monsters41.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "284"
 
 [fields]
 kind = "creature"
@@ -38,7 +41,6 @@ _This snarling blue-white monkey flies through the air on a pair of bird-like wi
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Bestiary 5 pg 284\
 **Size:** tiny
 
 **Experience points:** 600

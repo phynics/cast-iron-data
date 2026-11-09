@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "antagonist", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "71"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 71
 
 Inter-party strife presents one of the most dangerous kinds of tension, and the antagonist is often
 at the heart of it. This player has elected to create a character at odds with one or more members

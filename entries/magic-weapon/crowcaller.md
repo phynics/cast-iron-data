@@ -6,6 +6,9 @@ source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crowcaller", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "faction-guide"
+page = "58"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint necromancy"
 caster_level = "8th"
 +++
 
-**Sources:** Faction Guide pg 58\
 **Aura** faint necromancy; **CL** 8th\
 **Slot** none; **Price** 29,110 gp; **Weight** 10 lbs.
 

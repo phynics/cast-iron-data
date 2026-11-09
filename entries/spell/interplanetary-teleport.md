@@ -9,6 +9,15 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/teleport" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "225"
+[[sources]]
+publication = "pathfinder-14-children-of-the-void"
+page = "54"
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "295"
 
 [fields]
 kind = "spell"
@@ -46,9 +55,6 @@ Spell resistance: no and yes (object)
 Target: you and touched objects or other touched willing creatures
 Subschool: Teleportation
 :::
-
-**Sources:** Ultimate Magic pg 225, Pathfinder \#14: Children of the Void pg 54, Inner Sea World
-Guide pg 295
 
 This spell functions as [teleport](ref/spell/teleport), except there is truly no range limit and you
 do not need to have seen your destination, though you must have a solid grasp of which world you

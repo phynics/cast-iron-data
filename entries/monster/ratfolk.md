@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ratfolk", path = "json/monsters20.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "231"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ tail._
 
 **Size:** small
 
-**Sources:** Bestiary 3 pg 231\
 **Subtype:** Ratfolk
 
 **Experience points:** 135

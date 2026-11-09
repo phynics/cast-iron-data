@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "air_breathing", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "189"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: living aquatic creatures touched
 :::
-
-**Sources:** Monster Codex pg 189
 
 The transmuted creatures can breathe air freely. Divide the duration evenly among all the creatures
 you touch. The spell doesn't make creatures unable to breathe water.

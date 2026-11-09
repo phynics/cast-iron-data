@@ -6,6 +6,9 @@ source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "anthill_boots", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "people-of-the-wastes"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "13th"
 +++
 
-**Sources:** People of the Wastes pg 30\
 **Aura** moderate conjuration; **CL** 13th\
 **Slot** feet; **Price** 12,500 gp; **Weight** 2 lbs.
 

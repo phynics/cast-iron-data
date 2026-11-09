@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "truespeak", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "89"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Advanced Race Guide pg 89
 
 > _[Aasimars](ref/race/aasimar) have access to the following spell._
 

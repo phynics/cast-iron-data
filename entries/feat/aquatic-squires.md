@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aquatic_squires", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "blood-of-the-sea"
+page = "15"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Triton, summon nature's ally II spell-like ability, character l
 benefit = "The duration of your *summon nature's ally II* spell-like ability is 1 minute per level."
 normal = "*Summon nature's ally II* has a duration of 1 round per level."
 +++
-
-**Sources:** Blood of the Sea pg 15
 
 When you call for aid from the sea, your summoned creatures remain to serve you longer.\
 **Prerequisites:** [Triton](ref/race/triton),

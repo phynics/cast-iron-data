@@ -6,6 +6,9 @@ source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charau_ka_jungle_trickster", path = "json/monsters05.json" },
 ]
+[[sources]]
+publication = "inner-sea-monster-codex"
+page = "15"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ _This lean ape-person is bedecked with a rattling collection of whistles, drums,
 
 **Size:** small
 
-**Sources:** Inner Sea Monster Codex pg 15\
 **Subtype:** Charau-ka\
 **Experience points:** 4,800
 

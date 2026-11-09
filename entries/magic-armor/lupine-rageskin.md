@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lupine_rageskin", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "214"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Horror Adventures pg 214\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** armor; **Price** 12,160 gp; **Weight** 15 lbs.
 

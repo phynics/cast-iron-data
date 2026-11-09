@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/wall-of-thorns", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "112"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 112\
 The damage dealt increases to 30 minus the creature's AC. Any creature adjacent to the wall is
 automatically grappled by it. Any creature that begins its turn grappled by the wall takes 2d6
 points of damage. Half of this damage is bludgeoning, and the other half is piercing. For the

@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "making_a_mythic_atmosphere", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "118"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 118
 
 For a game to feel mythic, it must evoke wonder and awe in the GM and the players. It represents a
 power shrouded in mystery and beyond the reach of mortals. When characters encounter the mythic,

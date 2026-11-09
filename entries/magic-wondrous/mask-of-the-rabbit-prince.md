@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mask_of_the_rabbit_prince", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "54"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Planar Adventures pg 54\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** head; **Price** 12,000 gp; **Weight** 1/2 lb.
 

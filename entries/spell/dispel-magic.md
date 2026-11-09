@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dispel_magic", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "272"
 
 [fields]
 kind = "spell"
@@ -59,8 +62,6 @@ Saving throw: none
 Spell resistance: no
 Target or Area: one spellcaster, creature, or object
 :::
-
-**Sources:** PRPG Core Rulebook pg 272
 
 You can use dispel magic to end one ongoing spell that has been cast on a creature or object, to
 temporarily suppress the magical abilities of a magic item, or to counter another spellcaster's

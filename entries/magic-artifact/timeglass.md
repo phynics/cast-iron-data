@@ -6,6 +6,9 @@ source_ids = ["pathfinder-66-the-dead-heart-of-xin"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "timeglass", path = "json/magic_artifact3.json" },
 ]
+[[sources]]
+publication = "pathfinder-66-the-dead-heart-of-xin"
+page = "61"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong divination"
 caster_level = "20th"
 +++
 
-**Sources:** Pathfinder \#66: The Dead Heart of Xin pg 61\
 **Aura** strong divination; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 10 lbs.
 

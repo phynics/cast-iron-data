@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "small_party", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "43"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 43
 
 Sometimes you have a player who can't make it to this week's session; sometimes you only know two
 other gamers in your area. Either way, having a small party presents you with some unique

@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "illusion_mastery", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "26"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can cause an item that has an illusion spell of 1st level or high
 +++
 
 ## Illusion Mastery (Item Mastery)
-
-**Sources:** Weapon Master's Handbook pg 26
 
 You can weave figments with illusion magic items.\
 **Prerequisites:** Use Magic Device 2 ranks, base Fortitude save bonus +4.\

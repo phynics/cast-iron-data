@@ -6,6 +6,9 @@ source_ids = ["knights-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ward_shield", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "knights-of-the-inner-sea"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: shield touched
 :::
-
-**Sources:** Knights of the Inner Sea pg 29
 
 With a touch, you enchant a shield and enable it to protect its wielder from hostile spells. The
 shield grants [spell resistance](ref/rule/spell-resistance) 10 + your caster level against spells so

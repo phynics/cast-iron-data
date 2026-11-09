@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue", "inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stylized_spell", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "93"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "A stylized spell has slightly different verbal and somatic components
 +++
 
 ## Stylized Spell (Metamagic)
-
-**Sources:** Ultimate Intrigue pg 93
 
 You cast a spell in a distinctive manner.\
 **Prerequisites:** Bluff 5 ranks, Spellcraft 5 ranks.\

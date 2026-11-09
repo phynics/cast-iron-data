@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arrowbreak_bow", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "342"
 
 [fields]
 kind = "item"
@@ -15,8 +18,6 @@ slot = "none"
 aura = "moderate evocation"
 caster_level = "6th"
 +++
-
-**Sources:** Ultimate Equipment pg 342
 
 **Aura** moderate evocation; **CL** 6th\
 **Slot** none; **Weight** 2 lbs.

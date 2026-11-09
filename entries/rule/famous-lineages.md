@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "famous_lineages", path = "json/rules_adv_pc01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "169"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 169
 
 Your character's deceased family members can have just as strong an influence over the campaign as
 you do. Lineages vary widely; one character might be descended from an ancient line of kings, and

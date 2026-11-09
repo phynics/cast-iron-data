@@ -6,6 +6,9 @@ source_ids = ["seers-of-the-drowned-city"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kerakinsi", path = "json/monsters15.json" },
 ]
+[[sources]]
+publication = "seers-of-the-drowned-city"
+page = "58"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ with needle-sharp teeth._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Seers of the Drowned City pg 58\
 **Experience points:** 1,200
 
 **Armor class:** 17/13/14

@@ -6,6 +6,9 @@ source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hydrophobia", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "magical-marketplace"
+page = "8"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Spell resistance: yes
 Area: 30-ft.-radius burst
 Descriptors: emotion, fear, mind-affecting
 :::
-
-**Sources:** Magical Marketplace pg 8
 
 Targets in the area must succeed at a Will save or become deathly afraid of drowning. If the target
 is swimming or otherwise submerged in water, it must spend all of its efforts attempting to escape

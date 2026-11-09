@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/brawler" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "42"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Bonus feats gained at 2nd and 5th levels", "The brawler's AC bonus"
 alters = ["Maneuver training"]
 +++
 
-**Sources:** Ultimate Wilderness pg 42\
 When a living avalanche is on the move, no one can stand in her way.
 
 **Earth Discipline (Ex)**

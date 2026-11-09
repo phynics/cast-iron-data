@@ -6,6 +6,9 @@ source_ids = ["gallows-of-madness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nukkefeen", path = "json/monsters18.json" },
 ]
+[[sources]]
+publication = "gallows-of-madness"
+page = "63"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ _This eerie creature resembles a human with oddly segmented limbs, waxen skin, a
 
 **Perception:** +7
 
-**Sources:** Gallows of Madness pg 63\
 **Experience points:** 400
 
 **Armor class:** 12/12/10

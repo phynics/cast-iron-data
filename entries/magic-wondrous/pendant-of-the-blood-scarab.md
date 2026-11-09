@@ -6,6 +6,9 @@ source_ids = ["rival-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pendant_of_the_blood_scarab", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "rival-guide"
+page = "41"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Sources:** Rival Guide pg 41\
 **Aura** faint divination; **CL** 3rd\
 **Slot** neck; **Price** 1,000 gp; **Weight** -
 

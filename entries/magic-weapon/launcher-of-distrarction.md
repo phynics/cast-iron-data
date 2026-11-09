@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "launcher_of_distrarction", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "240"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate illusion"
 caster_level = "6th"
 +++
 
-**Sources:** Ultimate Intrigue pg 240\
 **Aura** moderate illusion; **CL** 6th\
 **Slot** none; **Price** 10,550 gp; **Weight** 2 lbs.
 

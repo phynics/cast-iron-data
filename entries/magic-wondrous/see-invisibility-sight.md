@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "see_invisibility_sight", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "143"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "8th"
 +++
 
-**Sources:** Ultimate Combat pg 143\
 **Aura** moderate divination; **CL** 8th\
 **Slot** none (see below); **Price** 12,000 gp; **Weight** 1 lb.
 

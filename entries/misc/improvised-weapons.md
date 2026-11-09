@@ -6,12 +6,14 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improvised_weapons", path = "json/misc.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "144"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** PRPG Core Rulebook pg 144\
 Sometimes objects not crafted to be weapons nonetheless see use in combat. Because such objects are
 not designed for this use, any creature that uses an improvised weapon in combat is considered to be
 nonproficient with it and takes a -4 penalty on attack rolls made with that object. To determine the

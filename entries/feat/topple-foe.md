@@ -6,6 +6,9 @@ source_ids = ["rival-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "topple_foe", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "rival-guide"
+page = "35"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "If you attempt to trip a foe that is larger than you, you gain a +1 b
 +++
 
 ## Topple Foe (Combat, Teamwork)
-
-**Sources:** Rival Guide pg 35
 
 You and your allies can work together to trip larger foes.\
 **Prerequisites:** [Combat Expertise](ref/feat/combat-expertise),

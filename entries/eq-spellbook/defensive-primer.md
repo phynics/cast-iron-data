@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "defensive_primer", path = "json/equipment_spellbooks.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "121"
 
 [fields]
 kind = "item"
@@ -17,8 +20,6 @@ category = "Spellbooks"
 _This surprisingly ornate and heavy volume is more than three-quarters empty. Tightly written notes
 on the precepts of arcane defense and the vulnerabilities of supernatural entities fill the first
 two pages._
-
-**Sources:** Ultimate Magic pg 121
 
 **Opposition** Conjuration, enchantment\
 **Protection** [Average lock](ref/eq-misc/lock-average) (DC 25)\

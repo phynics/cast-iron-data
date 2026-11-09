@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloak_of_the_bat", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "264"
+[[sources]]
+publication = "core-rulebook"
+page = "506"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Sources:** Ultimate Equipment pg 264, PRPG Core Rulebook pg 506\
 **Aura** moderate transmutation; **CL** 7th\
 **Slot** shoulders; **Price** 26,000 gp; **Weight** 1 lb.
 

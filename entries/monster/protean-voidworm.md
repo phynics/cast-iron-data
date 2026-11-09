@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "protean_voidworm", path = "json/monsters19.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "217"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ heat._
 
 **Senses:** Darkvision 30 ft., Detect law
 
-**Sources:** Bestiary 2 pg 217\
 **Subtype:** Chaotic, Extraplanar, Protean, Shapechanger
 
 **Size:** tiny

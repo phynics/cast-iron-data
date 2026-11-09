@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burning_spell", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "143"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "The acid or fire effects of the affected spell adhere to the creature
 +++
 
 ## Burning Spell (Metamagic)
-
-**Sources:** Ultimate Magic pg 143
 
 You cause creatures to take extra damage when you affect them with a spell that has the acid or fire
 descriptor.\

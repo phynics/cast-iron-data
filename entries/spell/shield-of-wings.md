@@ -6,6 +6,9 @@ source_ids = ["paths-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_of_wings", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "paths-of-the-righteous"
+page = "9"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 Target: you
 Descriptors: fire
 :::
-
-**Sources:** Paths of the Righteous pg 9
 
 > _The following spell is available to worshipers of [Ragathiel](ref/faith/ragathiel)._
 

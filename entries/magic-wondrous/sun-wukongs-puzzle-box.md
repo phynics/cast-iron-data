@@ -6,6 +6,9 @@ source_ids = ["daughters-of-fury"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sun_wukongs_puzzle_box", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "daughters-of-fury"
+page = "63"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration and illusion"
 caster_level = "10th"
 +++
 
-**Sources:** Daughters of Fury pg 63\
 **Aura** moderate conjuration and illusion; **CL** 10th\
 **Slot** none; **Price** 15,200 gp; **Weight** 1 lb.
 

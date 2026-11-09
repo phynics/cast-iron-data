@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "13"
 
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Uncanny dodge", "Improved uncanny dodge", "Rogue talent gained at 12th level", "Rogue talent gained at 20th level"]
 +++
 
-**Sources:** Dirty Tactics Toolbox pg 13\
 A clever rogue knows the easiest battle to win is the one that's over before your foe knows it has
 begun. Some rogues thus specialize in setting up ambushes to catch their opponents off guard.
 

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-34-blood-for-blood"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_stoneweaving", path = "json/magic_staff.json" },
 ]
+[[sources]]
+publication = "pathfinder-34-blood-for-blood"
+page = "67"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration and transmutation"
 caster_level = "13th"
 +++
 
-**Sources:** Pathfinder \#34: Blood for Blood pg 67\
 **Aura** strong abjuration and transmutation; **CL** 13th\
 **Slot** none; **Price** 63,180 gp; **Weight** 5 lbs.
 

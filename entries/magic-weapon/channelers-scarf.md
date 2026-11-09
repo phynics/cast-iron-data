@@ -6,6 +6,9 @@ source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "channelers_scarf", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "merchants-manifest"
+page = "22"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Sources:** Merchant's Manifest pg 22\
 **Aura** moderate evocation; **CL** 7th\
 **Slot** weapon; **Price** 14,012 gp; **Weight** 2 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-102-breaking-the-bones-of-hell"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "forsaken_legion_forsaken_defender", path = "json/monsters31.json" },
 ]
+[[sources]]
+publication = "pathfinder-102-breaking-the-bones-of-hell"
+page = "87"
 
 [fields]
 kind = "creature"
@@ -39,7 +42,6 @@ _This undead soldier carries a heavy-looking pickaxe in one hand and a short swo
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#102: Breaking the Bones of Hell pg 87\
 **Type:** undead
 
 **Experience points:** 1,200

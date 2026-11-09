@@ -6,12 +6,13 @@ source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "black_markets_as_resources", path = "json/rules_rulesets01.json" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "4"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Black Markets pg 4
 
 Often, the unscrupulous traders of black markets have the deepest pockets, so adventurers turn to
 these merchants when the open market doesn't have what they need or law-abiding merchants can't

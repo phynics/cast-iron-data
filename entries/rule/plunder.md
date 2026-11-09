@@ -6,12 +6,14 @@ source_ids = ["pathfinder-55-the-wormwood-mutiny"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plunder", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "pathfinder-55-the-wormwood-mutiny"
+page = "61"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder \#55: The Wormwood Mutiny pg 61\
 There's a difference between plunder and the gold pieces in a pirate's pocket. While gold doubloons
 and fabulous jewelry can be plunder, pirates are rarely lucky enough to encounter a ship with a hold
 full of such treasures. Typically, there are trade goods, foodstuffs, spices, and valuables of a

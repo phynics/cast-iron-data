@@ -6,12 +6,14 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unsolved_murder", path = "json/haunts.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "176"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Adventures pg 176\
 After a merchant was murdered at a party being held to celebrate his latest venture, his spirit was
 obsessed with finding his killer and exacting vengeance. It has clung to his body for years, hoping
 for a hapless grave robber to inadvertently become the pawn of his unfinished business.

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-34-blood-for-blood"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blackwick_cauldron", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "pathfinder-34-blood-for-blood"
+page = "65"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination and transmutation"
 caster_level = "7th"
 +++
 
-**Sources:** Pathfinder \#34: Blood for Blood pg 65\
 **Aura** moderate divination and transmutation; **CL** 7th\
 **Slot** none; **Price** 8,850 gp; **Weight** 3 lbs.
 

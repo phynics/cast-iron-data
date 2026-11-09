@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stormcaller", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "146"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong evocation [electricity]"
 caster_level = "13th"
 +++
 
-**Sources:** Mythic Adventures pg 146\
 **Aura** strong evocation \[electricity\]; **CL** 13th\
 **Slot** none; **Price** 98,302 gp; **Weight** 6 lbs.
 

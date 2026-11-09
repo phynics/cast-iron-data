@@ -6,14 +6,15 @@ source_ids = ["dungeoneers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "torchbearer", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "dungeoneers-handbook"
+page = "20"
 
 [fields]
 kind = "feat"
 prerequisites = "Character level 5th."
 benefit = "This feat is similar to the Leadership feat, with several exceptions. You can attract only a 1st-level cohort (referred to hereafter as a torchbearer) with this feat, and can't recruit followers. You determine your Leadership score according to the rules presented in the Leadership feat, but your torchbearer is always at least 3 levels lower than your level."
 +++
-
-**Sources:** Dungeoneer's Handbook pg 20
 
 You acquire a professional torchbearer to accompany you\
 **Prerequisites:** Character level 5th.\

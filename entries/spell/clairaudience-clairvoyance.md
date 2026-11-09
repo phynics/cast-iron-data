@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clairaudience_clairvoyance", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "255"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Spell resistance: no
 Effect: magical sensor
 Subschool: Scrying
 :::
-
-**Sources:** PRPG Core Rulebook pg 255
 
 Clairaudience/clairvoyance creates an invisible magical sensor at a specific location that enables
 you to hear or see (your choice) almost as if you were there. You don't need line of sight or line

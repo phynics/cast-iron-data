@@ -6,6 +6,9 @@ source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pressure_adaptation", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
+page = "61"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
 :::
-
-**Sources:** Aquatic Adventures pg 61
 
 The target adapts incredibly quickly to [changes in pressure](ref/rule/oceanic-zones), adjusting to
 100 feet of new pressure (or the entire shift, in the case of an instantaneous shift within its

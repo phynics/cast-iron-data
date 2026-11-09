@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "life_pact", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "186"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes
 Targets: one willing living creature/level, no two of which can be more than 30 ft. apart
 :::
-
-**Sources:** Advanced Class Guide pg 186
 
 You bind the life forces of the targets into a mystical pact. If any target is reduced to fewer than
 0 hit points, that target automatically triggers the power of the pact. The triggering target drains

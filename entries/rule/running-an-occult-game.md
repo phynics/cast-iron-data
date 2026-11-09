@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "running_an_occult_game", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "218"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 218
 
 The word "occult" refers to that which is hidden or occluded, and it encompasses a wide range of
 strange disciplines known to only a few. Ancient though they may be, the mysteries of the occult

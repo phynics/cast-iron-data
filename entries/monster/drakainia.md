@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drakainia", path = "json/monsters_mythic.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "76"
 
 [fields]
 kind = "creature"
@@ -50,7 +53,6 @@ tumors and writing tentacles._
 
 **Senses:** Darkvision 120 ft., True seeing
 
-**Sources:** Bestiary 4 pg 76\
 **Subtype:** Mythic
 
 **Experience points:** 1,638,400

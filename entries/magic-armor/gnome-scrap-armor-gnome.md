@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gnome_scrap_armor_gnome", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "224"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Inner Sea Races pg 224\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** armor; **Price** 11,175 gp; **Weight** 10 lbs.
 

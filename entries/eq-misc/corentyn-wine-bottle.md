@@ -6,6 +6,9 @@ source_ids = ["adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "corentyn_wine_bottle", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "adventurers-armory"
+page = "19"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "1/2 lb."
 
 ## Corentyn wine
 
-**Sources:** Adventurer's Armory pg 19\
 **Price** 15 gp/bottle; **Weight** 1/2 lb.\
 **Category** Food/Drink
 

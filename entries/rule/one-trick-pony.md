@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "one_trick_pony", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "75"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 75
 
 A player who falls into the one-trick pony type has a preference for playing a particular character
 or filling a specific role. She might always be the paladin, standing on the front lines and

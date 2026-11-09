@@ -6,12 +6,17 @@ source_ids = ["core-rulebook", "advanced-race-guide", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "races", path = "json/rules_basics01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "20"
+[[sources]]
+publication = "advanced-race-guide"
+page = "8"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** PRPG Core Rulebook pg 20, Advanced Race Guide pg 8\
 From the stout dwarf to the noble elf, the races of the Pathfinder Roleplaying Game are a diverse
 mix of cultures, sizes, attitudes, and appearances. After you've generated your character's basic
 ability scores, the next step in the character creation process is to select your character's race;

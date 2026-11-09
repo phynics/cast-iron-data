@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "valiant_vault", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "76"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Your mount is always considered to have a running start when using Ac
 +++
 
 ## Valiant Vault (Mythic)
-
-**Sources:** Mythic Adventures pg 76
 
 Your mount can make heroic leaps.\
 **Prerequisites:** [Mounted Combat](ref/feat/mounted-combat),

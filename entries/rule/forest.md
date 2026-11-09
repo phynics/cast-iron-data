@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "forest", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "157"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 157
 
 A normal [forest](ref/rule/forest-terrain) hex can be any sort of common forest: sparse patches of
 trees in the lowlands, thickly needled pines of the taiga, a lush tropical jungle, or even an

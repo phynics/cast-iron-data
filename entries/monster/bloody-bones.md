@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloody_bones", path = "json/monsters27.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "49"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ of fresh gore._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 6 pg 49\
 **Type:** undead
 
 **Experience points:** 9,600

@@ -6,6 +6,9 @@ source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dolphin_circle", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
+page = "57"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While in Dolphin Style, as a full-round action underwater you can cho
 +++
 
 ## Dolphin Circle (Combat)
-
-**Sources:** Aquatic Adventures pg 57
 
 You circle your foes like dolphins, forcing them to play into your attacks.\
 **Prerequisites:** [Dolphin Dart](ref/feat/dolphin-dart), [Dolphin Style](ref/feat/dolphin-style),

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-103-the-hellfire-compact"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fiend_bred_animal_stygian_hot_blooded_horse", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "pathfinder-103-the-hellfire-compact"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ _This dark horse has striking coloring and a ferocious look in its bloodshot eye
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Pathfinder \#103: The Hellfire Compact pg 86\
 **Experience points:** 600
 
 **Armor class:** 14/11/12

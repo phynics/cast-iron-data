@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boggard_boggard_abyssal_warrior", path = "json/monsters27.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "11"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ abilities = ["20", "11", "16", "8", "9", "14"]
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Monster Codex pg 11\
 **Subtype:** Boggard\
 **Experience points:** 4,800
 

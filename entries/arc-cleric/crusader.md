@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cleric" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "40"
 
 [fields]
 kind = "archetype"
 alters = ["Domain", "spellcasting"]
 +++
 
-**Sources:** Ultimate Combat pg 40\
 Crusaders serve the militant arm of a church, ready to stand guard over the religion's holy places
 and to be its swift, avenging arm against those who resist its truth.
 

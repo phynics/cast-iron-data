@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mobile_bulwark_style", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "12"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using a tower shield, add the shield's bonus to AC (including i
 +++
 
 ## Mobile Bulwark Style (Combat, Style)
-
-**Sources:** Armor Master's Handbook pg 12
 
 You are able to swing your tower shield around quickly.\
 **Prerequisites:** Str 13, [Shield Focus](ref/feat/shield-focus),

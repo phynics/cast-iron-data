@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "resinous_skin", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "242"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: see text
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Ultimate Combat pg 242
 
 You coat your body with a resinous substance, protecting you from attacks and binding weapons that
 strike you. You gain DR 5/piercing, as well as a +4 circumstance bonus to your CMD against disarm

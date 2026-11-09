@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "merrow_freshwater_merrow", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "189"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ are slotted gills._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 2 pg 189\
 **Subtype:** Aquatic, Giant
 
 **Experience points:** 800

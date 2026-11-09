@@ -6,6 +6,9 @@ source_ids = ["chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bracers_of_antiquity", path = "json/magic_legacy_items.json" },
 ]
+[[sources]]
+publication = "chronicle-of-legends"
+page = "20"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ aura = "strong divination"
 caster_level = "13th"
 +++
 
-**Sources:** Chronicle of Legends pg 20\
 **Slot** wrists; **CL** 13th; **Weight** 1 lb.\
 **Aura** strong divination
 

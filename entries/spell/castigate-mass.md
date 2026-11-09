@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/castigate" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "210"
 
 [fields]
 kind = "spell"
@@ -46,7 +49,5 @@ Descriptors: emotion, fear, language-dependant, mind-affecting
 :::
 
 ### Mass Castigate
-
-**Sources:** Advanced Player's Guide pg 210
 
 This spell functions as [castigate](ref/spell/castigate), except it affects many creatures.

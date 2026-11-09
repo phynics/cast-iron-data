@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phalanx_shield", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Sources:** Armor Master's Handbook pg 31\
 **Aura** moderate evocation; **CL** 7th\
 **Slot** shield; **Price** 14,080 gp; **Weight** 30 lbs.
 

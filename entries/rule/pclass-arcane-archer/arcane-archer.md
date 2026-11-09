@@ -8,12 +8,13 @@ parent = "ref/pclass/arcane-archer"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "json/prestige_classes.json#arcane_archer|section:arcane-archer", path = "json/prestige_classes.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "374"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 374
 
 Many who seek to perfect the use of the bow sometimes pursue the path of the arcane archer. Arcane
 archers are masters of ranged combat, as they possess the ability to strike at targets with unerring

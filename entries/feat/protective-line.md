@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "protective_line", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "56"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you are adjacent to an ally who also has this feat, you do not p
 +++
 
 ## Protective Line (Combat, Teamwork)
-
-**Sources:** Villain Codex pg 56
 
 Your teammates look out for you while you reload.\
 **Prerequisites:** [Exotic Weapon Proficiency](ref/feat/exotic-weapon-proficiency) (firearms).\

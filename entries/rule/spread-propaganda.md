@@ -6,12 +6,13 @@ source_ids = ["lands-of-conflict"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spread_propaganda", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "lands-of-conflict"
+page = "57"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Lands of Conflict pg 57
 
 **Spread Propaganda** **(Propagandists, Saboteurs, and Spies):** By spending 100 gp and making a
 successful DC 20 Loyalty check, the militia improves its [reputation](ref/rule/reputation-mt) in the

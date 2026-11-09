@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guards_and_soldiers", path = "json/rules_gm08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "434"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 434
 
 A city typically has full-time military personnel equal to 1% of its adult population, in addition
 to militia or conscript soldiers equal to 5% of the population. The full-time soldiers are city

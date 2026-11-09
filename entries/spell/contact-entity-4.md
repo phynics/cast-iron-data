@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/contact-entity-3" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "114"
 
 [fields]
 kind = "spell"
@@ -54,8 +57,6 @@ Target: up to 20 entities of 6 HD or fewer; see text
 :::
 
 ### Contact Entity IV
-
-**Sources:** Horror Adventures pg 114
 
 This spell functions like _[contact entity III](ref/spell/contact-entity-3),_ except that you can
 contact creatures from the _contact entity IV_ list, and as noted above.

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-51-the-hungry-storm"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "frostbite_ointment", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "pathfinder-51-the-hungry-storm"
+page = "67"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "50 gp"
 weight = "1 lb."
 +++
 
-**Sources:** Pathfinder \#51: The Hungry Storm pg 67\
 **Price** 50 gp; **Weight** 1 lb.\
 **Category** Alchemical Remedies
 

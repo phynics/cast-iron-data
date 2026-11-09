@@ -6,12 +6,14 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "betrayal", path = "json/haunts.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "176"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Adventures pg 176\
 When the sting of betrayal lingers beyond the grave, it can manifest as a disjointed mass of
 confused and paranoid spiritual energy that can turn even the closest of allies against one another.
 

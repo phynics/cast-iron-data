@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "frost_fall", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "230"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes
 Area: 5-foot radius burst
 Descriptors: cold
 :::
-
-**Sources:** Ultimate Combat pg 230
 
 The area of this spell is covered in chilling frost, dealing 2d6 points of cold damage to all
 creatures within it. Creatures that the spell initially damages must succeed at a Fortitude save or

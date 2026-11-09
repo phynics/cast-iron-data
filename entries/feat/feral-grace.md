@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "feral_grace", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "218"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "You can select this feat multiple times. Its effects don't stack. Eac
 +++
 
 ## Feral Grace (Combat)
-
-**Sources:** Ultimate Wilderness pg 218
 
 The animal's grace and agility are honed for battle, making it a deadly combatant.\
 **Prerequisites:** [Weapon Finesse](ref/feat/weapon-finesse), base attack bonus +3, animal

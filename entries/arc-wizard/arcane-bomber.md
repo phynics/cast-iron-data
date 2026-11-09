@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/wizard" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "75"
 
 [fields]
 kind = "archetype"
 replaces = ["Arcane bond", "Cantrips", "Arcane school"]
 +++
 
-**Sources:** Ultimate Combat pg 75\
 To many wizards, the experimentation of the alchemist seems quaint, if not dangerous or frightening.
 A few wizards take up the secrets of the bomb, however, fusing alchemy with their already
 considerable magical power.

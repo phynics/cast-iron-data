@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mantis_giant_mantis", path = "json/monsters16.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "200"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ razor-sharp edges and claws._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 200\
 **Type:** vermin
 
 **Experience points:** 800

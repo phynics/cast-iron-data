@@ -6,6 +6,9 @@ source_ids = ["pathfinder-society-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "page_bound_epiphany", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "pathfinder-society-primer"
+page = "10"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Pathfinder Society Primer pg 10
 
 You magically scour the world's libraries for information that might refresh your memory about a
 topic. Upon casting this spell, the focus book's pages fill with snippets and selections from

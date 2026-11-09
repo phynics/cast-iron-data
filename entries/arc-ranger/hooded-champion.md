@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ranger" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "108"
 
 [fields]
 kind = "archetype"
 replaces = ["Favored enemy at 1st level", "Wild empathy", "endurance", "evasion", "improved evasion"]
 +++
 
-**Sources:** Advanced Class Guide pg 108\
 The hooded champion lives on the periphery of civilized lands, and is often at odds with the forces
 of law and order. He is frequently a hero of oppressed peoples, lurking in the woods near their
 homes and trying to right the injustices inflicted upon them by the wealthy and powerful.

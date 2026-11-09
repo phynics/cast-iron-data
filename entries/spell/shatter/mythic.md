@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/shatter", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "107"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 107\
 Add your tier to your caster level when determining the maximum object weight you can affect. When
 targeting a crystalline creature, the spell's damage increases to 1d8 points of sonic damage per
 caster level (maximum 10d8). You may damage a single magical object as if it were a crystalline

@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dangerous_tail", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "140"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You gain a tail swipe attack. If used as part of a full-attack action
 +++
 
 ## Dangerous Tail (Combat)
-
-**Sources:** Monster Codex pg 140
 
 You have trained your tail into a powerful weapon, and wield it with deadly skill.\
 **Prerequisites:** Base attack bonus +5, [Lizardfolk](ref/monster/lizardfolk).\

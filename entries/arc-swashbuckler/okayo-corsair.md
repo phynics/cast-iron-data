@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/swashbuckler" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "11"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Weapon and armor proficiency", "Swashbuckler finesse", "Menacing sw
 alters = ["Panache", "Bonus feats"]
 +++
 
-**Sources:** Martial Arts Handbook pg 11\
 An Okayo corsair practices a unique acrobatic martial art that draws inspiration from both the
 mysticism of monastic combat traditions and the flair of a swashbuckler. This style originated among
 pirates of the Dragon Empires and has since spread and become popular in the Shackles.

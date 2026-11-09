@@ -6,6 +6,9 @@ source_ids = ["inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "umbral_shepherd", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "inner-sea-bestiary"
+page = "53"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ grub-like body._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Inner Sea Bestiary pg 53\
 **Subtype:** Incorporeal
 
 **Experience points:** 1,600

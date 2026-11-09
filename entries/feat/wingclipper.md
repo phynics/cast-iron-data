@@ -6,6 +6,9 @@ source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wingclipper", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "dragonslayers-handbook"
+page = "25"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Whenever you confirm a critical hit against an opponent that uses win
 +++
 
 ## Wingclipper (Combat)
-
-**Sources:** Dragonslayer's Handbook pg 25
 
 Your attacks can prevent winged opponents from flying.\
 **Prerequisites:** Base attack bonus +9.\

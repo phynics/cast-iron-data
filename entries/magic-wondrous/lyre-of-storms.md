@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lyre_of_storms", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "153"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Sources:** Mythic Adventures pg 153\
 **Aura** moderate transmutation; **CL** 7th\
 **Slot** none; **Price** 65,000 gp; **Weight** 5 lbs.
 

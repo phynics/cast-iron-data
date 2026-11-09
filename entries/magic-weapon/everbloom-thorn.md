@@ -6,6 +6,9 @@ source_ids = ["paths-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "everbloom_thorn", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "paths-of-the-righteous"
+page = "21"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Sources:** Paths of the Righteous pg 21\
 **Aura** moderate transmutation; **CL** 10th\
 **Slot** none; **Price** 6,320 gp; **Weight** 2 lbs.
 

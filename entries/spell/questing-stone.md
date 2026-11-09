@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/arcane-eye" },
 ]
+[[sources]]
+publication = "seekers-of-secrets"
+page = "17"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: none
 Spell resistance: no
 Target: one ioun stone touched
 :::
-
-**Sources:** Seekers of Secrets pg 17
 
 This spell functions like [arcane eye](ref/spell/arcane-eye), except that it uses an ioun stone as a
 visible scrying sensor. The ioun stone moves at the same rate as an arcane eye, and may pass through

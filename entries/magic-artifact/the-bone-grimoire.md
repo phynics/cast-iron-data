@@ -6,6 +6,9 @@ source_ids = ["pathfinder-135-runeplague"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_bone_grimoire", path = "json/magic_artifact3.json" },
 ]
+[[sources]]
+publication = "pathfinder-135-runeplague"
+page = "59"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong necromancy"
 caster_level = "20th"
 +++
 
-**Sources:** Pathfinder \#135: Runeplague pg 59\
 **Aura** strong necromancy; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 3 lbs.
 

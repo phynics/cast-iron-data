@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "step_5_size_graft", path = "json/rules_adv_gm02.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "217"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 217
 
 If your monster isn't Medium, apply a size graft. Because there are many other ways to alter a
 creature's AC, hit points, attack bonuses, and damage, these grafts don't adjust those values like

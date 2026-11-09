@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eidolon_unfettered", path = "json/monsters09.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "110"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ _This bizarre amalgam of monstrous parts rampages forth, an eldritch rune seared
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 3 pg 110\
 **Subtype:** Extraplanar
 
 **Experience points:** 4,800

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/magic-jar" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "232"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes
 :::
 
 ### Possess Object
-
-**Sources:** Ultimate Magic pg 232
 
 This spell functions as [magic jar](ref/spell/magic-jar), except you transfer your mind to a single
 object, animating it as if using animate objects, except your mind controls the object as if it were

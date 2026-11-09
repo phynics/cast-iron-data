@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/antipaladin" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "4"
 
 [fields]
 kind = "archetype"
 replaces = ["Touch of corruption", "Cruelty", "Channel negative energy", "Fiendish boon"]
 +++
 
-**Sources:** Armor Master's Handbook pg 4\
 Covered from head to toe in blackened armor decorated with grotesque shapes and bristling with
 spikes, iron tyrants make an unmistakable impression on the battlefield. These antipaladins' armor
 is an outward symbol of their inner power, and they are rarely seen without it. Iron tyrants seek

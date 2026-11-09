@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "turn", path = "json/misc.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "13"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 13
 
 In a [round](ref/misc/round), a [creature](ref/misc/creature) receives one turn, during which it can
 perform a wide variety of [actions](ref/misc/action). Generally in the course of one turn, a

@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "echoing_spell", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "149"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "When you cast an echoing spell, it does not disappear entirely from m
 +++
 
 ## Echoing Spell (Metamagic)
-
-**Sources:** Ultimate Magic pg 149
 
 You have learned how to release most, but not all, of a spell's potential when you cast it.\
 **Benefit:** When you cast an echoing spell, it does not disappear entirely from memory, and you can

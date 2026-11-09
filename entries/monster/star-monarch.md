@@ -6,6 +6,9 @@ source_ids = ["inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "star_monarch", path = "json/monsters38.json" },
 ]
+[[sources]]
+publication = "inner-sea-bestiary"
+page = "50"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ trails behind the creature._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Inner Sea Bestiary pg 50\
 **Experience points:** 6,400
 
 **Armor class:** 22/15/15

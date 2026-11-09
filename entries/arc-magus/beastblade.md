@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/magus" },
 ]
+[[sources]]
+publication = "familiar-folio"
+page = "8"
 
 [fields]
 kind = "archetype"
 replaces = ["Magus arcana gained at 3rd level", "Spell recall", "Knowledge pool", "Improved spell recall"]
 +++
 
-**Sources:** Familiar Folio pg 8\
 Beastblade magi work in tandem with their familiars, using spell, steel, and claw to clear the
 battlefield of foes.
 

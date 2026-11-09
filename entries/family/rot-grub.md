@@ -6,12 +6,12 @@ source_ids = ["pathfinder-25-the-bastards-of-erebus"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rot_grub", path = "json/monster_families2.json" },
 ]
+[[sources]]
+publication = "pathfinder-25-the-bastards-of-erebus"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder \#25: The Bastards of Erebus
 
 ### Rot Grubs As Hazards (CR 4)
 

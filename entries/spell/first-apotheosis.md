@@ -6,12 +6,14 @@ source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "first_apotheosis", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "190"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Book of the Damned pg 190\
 **School** transmutation \[evil\]; **Level** 4\
 **Casting Time** 4 hours\
 **Components** V, S, M (exotic incense worth 500 gp)\

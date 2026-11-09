@@ -6,6 +6,9 @@ source_ids = ["occult-mysteries"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "calculating_mind", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "occult-mysteries"
+page = "49"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Sacred Geometry, Knowledge (engineering) 5 ranks."
 prerequisite_feats = ["ref/feat/sacred-geometry"]
 benefit = "Anytime you use the Sacred Geometry feat, you can use d8s instead of d6s when rolling your dice pool. You can use any combination of d6s and d8s that you wish, as long as the number of dice does not exceed the number of ranks you possess in Knowledge (engineering)."
 +++
-
-**Sources:** Occult Mysteries pg 49
 
 You see potential in the world around you that nobody else notices. Your numerological abilities are
 heightened by this uncommon aptitude.\

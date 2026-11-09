@@ -9,12 +9,14 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cleric" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "31"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Ultimate Magic pg 31\
 Cloistered clerics typically live in a temple and rarely interact with the outside world. They are
 bookish and well learned in the lore of the faith, paying less attention to its magical and martial
 aspects. A cloistered cleric has the following class features.

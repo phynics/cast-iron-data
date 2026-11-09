@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thriae_thriae_seer", path = "json/monsters39.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "264"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ staff._
 
 **Senses:** Darkvision 60 ft., Detect secret doors, Low-light vision
 
-**Sources:** Bestiary 3 pg 264\
 **Experience points:** 12,800
 
 **Armor class:** 25/15/20

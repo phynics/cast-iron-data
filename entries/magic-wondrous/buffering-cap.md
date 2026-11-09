@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "buffering_cap", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "240"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration"
 caster_level = "1st"
 +++
 
-**Sources:** Ultimate Equipment pg 240\
 **Aura** faint conjuration; **CL** 1st\
 **Slot** head; **Price** 2,000 gp; **Weight** 1 lb.
 

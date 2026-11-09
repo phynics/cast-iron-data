@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "suspend_drowning", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "blood-of-the-sea"
+page = "21"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Targets: one Medium creatures or smaller drowning creature/level, no two of which can be more than 20 ft. apart
 :::
-
-**Sources:** Blood of the Sea pg 21
 
 The affected creatures immediately - though temporarily - stop drowning and cannot suffocate or
 drown while this spell is in effect. A target that had been reduced to below 1 hit point from

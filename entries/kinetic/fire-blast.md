@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fire_blast", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "15"
 
 [fields]
 kind = "class_option"
@@ -25,7 +28,5 @@ group = "kineticist-wild-talent"
 **Damage type:** energy
 
 **Damage:** fire
-
-**Source:** Occult Adventures/15
 
 You unleash a gout of flickering fire to burn a single foe.

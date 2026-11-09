@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/spiritualist" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "69"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Slam damage increase gained at 5th level", "Devotion", "Slam damage
 alters = ["Alignment", "Bonded manifestation", "Shared consciousness", "Share spells"]
 +++
 
-**Sources:** Horror Adventures pg 69\
 All spiritualists call upon residual phantoms that cling to the living world through force of will
 and unresolved passion. The vile spiritualists known as necrologists reach farther toward the
 Negative Energy Plane, however, and for whatever evil purpose, they bring back malevolent spirits

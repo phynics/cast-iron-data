@@ -6,6 +6,12 @@ source_ids = ["pathfinder-137-the-city-outside-of-time", "artifacts-and-legends"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tannaris_sword_of_envy", path = "json/magic_artifact3.json" },
 ]
+[[sources]]
+publication = "pathfinder-137-the-city-outside-of-time"
+page = "56"
+[[sources]]
+publication = "artifacts-and-legends"
+page = "52"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong abjuration"
 caster_level = "16th"
 +++
 
-**Sources:** Pathfinder \#137: The City Outside of Time pg 56, Artifacts and Legends pg 52\
 **Aura** strong abjuration; **CL** 16th\
 **Slot** none; **Price** -; **Weight** 7 lbs.
 

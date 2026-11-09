@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reset", path = "json/rules_gm08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "417"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 417
 
 A reset element is the set of conditions under which a trap becomes ready to trigger again.
 Resetting a trap usually takes only a minute or so. For a trap with a more difficult reset method,

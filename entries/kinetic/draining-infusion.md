@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "draining_infusion", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "18"
 
 [fields]
 kind = "class_option"
@@ -23,8 +26,6 @@ group = "kineticist-wild-talent"
 **Associated:** any simple
 
 **Saving throw:** Fortitude partial; see text
-
-**Source:** Occult Adventures/18
 
 You can drain elemental energy and matter from your foes to strengthen your next attack.
 

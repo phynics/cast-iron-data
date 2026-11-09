@@ -6,6 +6,9 @@ source_ids = ["people-of-the-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ointment_of_void_sealing", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "people-of-the-stars"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration"
 caster_level = "9th"
 +++
 
-**Sources:** People of the Stars pg 30\
 **Aura** faint abjuration; **CL** 9th\
 **Slot** none; **Price** 3,000 gp; **Weight** 25 lbs.
 

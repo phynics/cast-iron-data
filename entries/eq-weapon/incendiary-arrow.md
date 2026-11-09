@@ -6,14 +6,15 @@ source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "incendiary_arrow", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "19"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "0.15 lbs."
 +++
-
-**Sources:** Ranged Tactics Toolbox pg 19
 
 A metal cage behind this arrow's point contains flammable material. You take a -1 penalty on attack
 rolls when firing incendiary arrows. You can light up to six incendiary arrows as a full-round

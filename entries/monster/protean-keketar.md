@@ -6,6 +6,12 @@ source_ids = ["bestiary-2", "the-great-beyond-a-guide-to-the-multiverse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "protean_keketar", path = "json/monsters19.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "215"
+[[sources]]
+publication = "the-great-beyond-a-guide-to-the-multiverse"
+page = "60"
 
 [fields]
 kind = "creature"
@@ -48,7 +54,6 @@ thing's reptilian head._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 2 pg 215, The Great Beyond - A Guide to the Multiverse pg 60\
 **Subtype:** Chaotic, Extraplanar, Protean, Shapechanger
 
 **Experience points:** 102,400

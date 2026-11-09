@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weapon_specialization", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "137"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "You can gain this feat multiple times. Its effects do not stack. Each
 +++
 
 ## Weapon Specialization (Combat)
-
-**Sources:** PRPG Core Rulebook pg 137
 
 You are skilled at dealing damage with one weapon. Choose one type of weapon (including unarmed
 strike or grapple) for which you have already selected the Weapon Focus feat. You deal extra damage

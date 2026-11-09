@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "conductive", path = "json/magic_enhancements.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "137"
+[[sources]]
+publication = "advanced-players-guide"
+page = "286"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate necromancy"
 caster_level = "8th"
 +++
 
-**Sources:** Ultimate Equipment pg 137, Advanced Player's Guide pg 286\
 **Aura** moderate necromancy; **CL** 8th\
 **Slot** weapon quality; **Price** +1 bonus; **Weight** -
 

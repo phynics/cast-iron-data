@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clone", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "256"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: none
 Spell resistance: no
 Effect: one clone
 :::
-
-**Sources:** PRPG Core Rulebook pg 256
 
 This spell makes an inert duplicate of a creature. If the original individual has been slain, its
 soul immediately transfers to the clone, creating a replacement (provided that the soul is free and

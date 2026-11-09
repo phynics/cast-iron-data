@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "silent_image", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "343"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Spell resistance: no
 Effect: visual figment that cannot extend beyond four 10-ft. cubes + one 10-ft. cube/level (S)
 Subschool: Figment
 :::
-
-**Sources:** PRPG Core Rulebook pg 343
 
 This spell creates the visual illusion of an object, creature, or force, as visualized by you. The
 illusion does not create sound, smell, texture, or temperature. You can move the image within the

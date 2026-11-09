@@ -6,6 +6,9 @@ source_ids = ["feast-of-dust"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lethe_water", path = "json/equipment_poisons.json" },
 ]
+[[sources]]
+publication = "feast-of-dust"
+page = "42"
 
 [fields]
 kind = "item"
@@ -13,8 +16,6 @@ category = "Poisons"
 price = "N/A"
 weight = "&mdash;"
 +++
-
-**Sources:** Feast of Dust pg 42
 
 **Price** N/A; **Weight** —
 

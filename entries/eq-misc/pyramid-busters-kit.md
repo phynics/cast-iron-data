@@ -6,6 +6,9 @@ source_ids = ["undead-slayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pyramid_busters_kit", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "undead-slayers-handbook"
+page = "9"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "310 gp"
 weight = "8 lbs."
 +++
 
-**Sources:** Undead Slayer's Handbook pg 9\
 **Price** 310 gp; **Weight** 8 lbs.\
 **Category** Kits
 

@@ -6,12 +6,14 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weapon_glitches", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "1"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Technology Guide pg 1\
 Weapons used to make more than one attack in a turn might glitch multiple times during that turn.
 
 |d%|Glitch|

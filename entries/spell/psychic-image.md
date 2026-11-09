@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychic_image", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "183"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Spell resistance: yes
 Effect: one shadow duplicate
 Subschool: Shadow
 :::
-
-**Sources:** Occult Adventures pg 183
 
 You envelop your consciousness in a quasi-real image of yourself. Your psychic image looks, sounds,
 and smells like you, but is intangible. While your mind occupies the image, you control it as though

@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "indomitable_mountain_avalanche", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "114"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "If an opponent fails at a combat maneuver against you, you can use an
 +++
 
 ## Indomitable Mountain Avalanche (Combat)
-
-**Sources:** Ultimate Wilderness pg 114
 
 You are an impassable mountain, hurling your enemies back.\
 **Prerequisites:** Wis 15, [Combat Reflexes](ref/feat/combat-reflexes),

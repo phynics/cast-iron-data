@@ -6,6 +6,9 @@ source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arrow_splitter", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "22"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong evocation"
 caster_level = "15th"
 +++
 
-**Sources:** Ranged Tactics Toolbox pg 22\
 **Aura** strong evocation; **CL** 15th\
 **Slot** none; **Price** 180,375 gp; **Weight** 3 lbs.
 

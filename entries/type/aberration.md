@@ -6,14 +6,15 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aberration", path = "json/monster_types.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "306"
 
 [fields]
 kind = "none"
 +++
 
 ## Type: Aberration
-
-**Sources:** Pathfinder RPG Bestiary pg 306
 
 An aberration has a bizarre anatomy, strange abilities, an alien mindset, or any combination of the
 three.

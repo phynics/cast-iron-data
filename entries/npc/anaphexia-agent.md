@@ -6,6 +6,9 @@ source_ids = ["inner-sea-npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "anaphexia_agent", path = "json/npcs3.json" },
 ]
+[[sources]]
+publication = "inner-sea-npc-codex"
+page = "5"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "11"
 
 **Challenge rating:** 11
 
-**Sources:** Inner Sea NPC Codex pg 5\
 **XP** 12,800\
 Human [rogue](ref/class/rogue) 6/assassin 6\
 NE Medium humanoid (human)\

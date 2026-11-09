@@ -6,14 +6,15 @@ source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "introspecitve_performance", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "legacy-of-the-first-world"
+page = "23"
 
 [fields]
 kind = "feat"
 prerequisites = "Perform (any) 3 ranks, bardic performance or raging song class feature."
 benefit = "Whenever you are the only creature affected by a bardic performance or raging song that normally affects all allies within a range, any bonuses granted by your bardic performance or raging song are calculated as though your class level were 4 higher. This feat does not allow you to activate a bardic performance or raging song if your actual class level is not high enough to use that performance."
 +++
-
-**Sources:** Legacy of the First World pg 23
 
 With no other allies to enjoy your performance, you improvise to make it more inspiring for
 yourself.\

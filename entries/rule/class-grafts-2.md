@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "class_grafts_2", path = "json/rules_adv_gm02.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "206"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 206
 
 ### Cleric
 

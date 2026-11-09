@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "winged_shield", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "133"
+[[sources]]
+publication = "core-rulebook"
+page = "467"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Equipment pg 133, PRPG Core Rulebook pg 467\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** shield; **Price** 17,257 gp; **Weight** 10 lbs.
 

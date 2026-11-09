@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "darkskull", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "290"
+[[sources]]
+publication = "core-rulebook"
+page = "508"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate evocation [evil]"
 caster_level = "9th"
 +++
 
-**Sources:** Ultimate Equipment pg 290, PRPG Core Rulebook pg 508\
 **Aura** moderate evocation \[evil\]; **CL** 9th\
 **Slot** none; **Price** 60,000 gp; **Weight** 5 lbs.
 

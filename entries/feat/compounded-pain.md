@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "compounded_pain", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "129"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ normal = "You can apply the effects of only one stare feat to a given painful st
 +++
 
 ## Compounded Pain (Combat)
-
-**Sources:** Occult Adventures pg 129
 
 Your painful stare causes two additional effects.\
 **Prerequisites:** Mesmerist level 13th, painful stare class feature.\

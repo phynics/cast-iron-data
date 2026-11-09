@@ -6,6 +6,9 @@ source_ids = ["magnimar-city-of-monuments"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mystery_cultist", path = "json/npcs.json" },
 ]
+[[sources]]
+publication = "magnimar-city-of-monuments"
+page = "55"
 
 [fields]
 kind = "creature"
@@ -19,7 +22,6 @@ baubles tinkling with her every movement._
 
 **Challenge rating:** 2
 
-**Sources:** Magnimar, City of Monuments pg 55\
 **XP** 600\
 Female human [cleric](ref/class/cleric) of [Ashava](ref/faith/ashava) 3\
 CG Medium humanoid (human)\

@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unadulterated_loathing", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "244"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: emotion, mind-affecting
 :::
-
-**Sources:** Ultimate Magic pg 244
 
 You fill the target with a terrible loathing aimed at a specific creature. At the time of the
 casting, you designate a single creature as the object of the target's revulsion. Thereafter, the

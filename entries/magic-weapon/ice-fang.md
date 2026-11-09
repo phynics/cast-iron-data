@@ -6,6 +6,9 @@ source_ids = ["down-the-blighted-path"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ice_fang", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "down-the-blighted-path"
+page = "61"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "9th"
 +++
 
-**Sources:** Down the Blighted Path pg 61\
 **Aura** moderate evocation; **CL** 9th\
 **Slot** none; **Price** 39,515 gp; **Weight** 2 lbs.
 

@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deities_and_holy_sites", path = "json/rules_campaign_types05.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "228"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 228
 
 Instead of Cathedrals, Shrines, and Temples providing the same bonuses to Economy, Loyalty, and
 Stability regardless of that building's religious affiliation, they can instead provide a bonus to

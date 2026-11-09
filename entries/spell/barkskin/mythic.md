@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/barkskin", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "85"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 85\
 The target also gains DR/magic equal to the double the enhancement bonus the spell provides to the
 target's natural armor bonus.
 

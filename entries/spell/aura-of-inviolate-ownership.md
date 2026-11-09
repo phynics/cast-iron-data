@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aura_of_inviolate_ownership", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "30"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
 Targets: one creature/level, no two of which can be more than 30 ft. apart
 :::
-
-**Sources:** Melee Tactics Toolbox pg 30
 
 This spell wards the attended items of all creatures it targets (items held, securely fastened to
 their person, or in containers on their person), enhancing each creature's grip and protecting items

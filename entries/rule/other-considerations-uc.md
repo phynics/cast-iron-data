@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "other_considerations_uc", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "207"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 207
 
 The following are a few other considerations to take into account when using the wounds and vigor
 system.

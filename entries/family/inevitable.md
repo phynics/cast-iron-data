@@ -6,12 +6,12 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inevitable", path = "json/monster_families2.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Bestiary 2
 
 Originally invented and forged in the Outer Planes by the [axiomites](ref/monster/axiomite),
 inevitables are living machines whose sole purpose is to seek out and destroy agents of chaos

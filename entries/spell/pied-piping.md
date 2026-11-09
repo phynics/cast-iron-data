@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pied_piping", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "236"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Area: 90-ft.-radius emanation, centered on you
 Subschool: Compulsion
 Descriptors: mind-affecting, sonic
 :::
-
-**Sources:** Advanced Player's Guide pg 236
 
 You call forth a melody so compelling and attractive that creatures belonging to a group with a
 specific, identifiable physical trait (such as type, subtype, age, gender, or hair color) find it

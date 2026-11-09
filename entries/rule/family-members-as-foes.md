@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "family_members_as_foes", path = "json/rules_adv_pc01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "168"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 168
 
 Villainous relatives are everywhere in popular fiction, and for good reason - confronting the "black
 sheep" of the family, whether over bad politics, stealing from the family business, or dangerous

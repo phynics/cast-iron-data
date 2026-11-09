@@ -6,12 +6,14 @@ source_ids = ["blood-of-the-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "withdrawal_effects", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "blood-of-the-night"
+page = "22"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Blood of the Night pg 22\
 An undead that hasn't fed recently suffers from withdrawal, depending on the number of hunger saves
 it has failed. As shown on the Withdrawal Penalties table, an undead creature suffering from
 withdrawal takes penalties to [channel resistance](ref/rule/channel-resistance), on Will saves, to

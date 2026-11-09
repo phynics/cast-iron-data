@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ape_gorilla", path = "json/monsters02.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "17"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ legs and knuckles._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 17\
 **Experience points:** 600
 
 **Armor class:** 14/11/12

@@ -6,6 +6,9 @@ source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fortuitous_vigor", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "healers-handbook"
+page = "14"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Your vigor pool gains 1 vigor point. Whenever you roll a natural 20 o
 +++
 
 ## Fortuitous Vigor (Combat)
-
-**Sources:** Healer's Handbook pg 14
 
 Your determination and enthusiasm help you shake off the most grievous wounds and soldier on against
 your enemies.\

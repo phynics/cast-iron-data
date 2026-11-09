@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "caparison_of_resistance", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "16"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Sources:** Adventurer's Guide pg 16\
 **Aura** faint abjuration; **CL** 5th\
 **Slot** shoulders; **Price** 2,700 gp (+1 bonus), 10,800 gp (+2 bonus), 24,300 gp (+3 bonus),
 43,200 gp (+4 bonus), 67,500 gp (+5 bonus); **Weight** 4 lbs.

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wall_of_force", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "365"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 Effect: wall whose area is up to one 10-ft. square/level
 Descriptors: force
 :::
-
-**Sources:** PRPG Core Rulebook pg 365
 
 A wall of force creates an invisible wall of pure force. The wall cannot move and is not easily
 destroyed. A wall of force is immune to [dispel magic](ref/spell/dispel-magic), although a

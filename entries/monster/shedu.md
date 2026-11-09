@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shedu", path = "json/monsters38.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "2543"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ wise-looking human._
 
 **Senses:** Darkvision 60 ft., Detect chaos, Detect evil, Low-light vision, True seeing
 
-**Sources:** Bestiary 3 pg 2543\
 **Experience points:** 6,400
 
 **Armor class:** 24/16/23

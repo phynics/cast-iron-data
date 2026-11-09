@@ -6,14 +6,15 @@ source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trepanation", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "occult-origins"
+page = "25"
 
 [fields]
 kind = "feat"
 prerequisites = "Heal 5 ranks, Knowledge (arcana) 2 ranks."
 benefit = "You can perform the faith healing occult skill unlock even if you can't use psychic magic. If you can cast psychic spells or have the Psychic Sensitivity feat, you can use faith healing one additional time per day."
 +++
-
-**Sources:** Occult Origins pg 25
 
 Through careful study and practice, you have learned how to relieve pressure in the brain to balance
 the humors, promote health, and ward off outside influence.\

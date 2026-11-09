@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "35"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Poison resistance", "poison immunity", "2nd-level discovery"]
 alters = ["Bombs"]
 +++
 
-**Sources:** Ultimate Wilderness pg 35\
 Reclusive alchemists who dwell in the highest mountains or on the frozen tundra devote their skills
 to mastering the cold.
 

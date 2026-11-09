@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/paladin" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "64"
 
 [fields]
 kind = "archetype"
 replaces = ["Smite evil", "Divine health", "divine bond", "Aura of courage", "Aura of resolve", "Aura of justice", "Holy champion"]
 +++
 
-**Sources:** Ultimate Combat pg 64\
 The holy tactician inspires her allies on the field of battle. Her place is at their side against
 overwhelming odds, and her guidance brings out their true potential.
 

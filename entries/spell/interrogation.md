@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "interrogation", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "225"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes
 Target: living creature touched
 Descriptors: evil, pain
 :::
-
-**Sources:** Ultimate Magic pg 225
 
 You question the target, backed up by the threat of magical pain. You may ask one question per two
 caster levels. The target can either answer the question or take 1d4 points of damage plus your

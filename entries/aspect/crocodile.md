@@ -6,13 +6,15 @@ source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crocodile", path = "json/class_ability_aspects.json" },
 ]
+[[sources]]
+publication = "wilderness-origins"
+page = "4"
 
 [fields]
 kind = "class_option"
 group = "shifter-aspect"
 +++
 
-**Sources:** Wilderness Origins pg 4\
 The crocodile lurks in the water, unseen until it lunges forth with its powerful jaws.
 
 **Minor Form**

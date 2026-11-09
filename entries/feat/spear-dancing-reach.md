@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spear_dancing_reach", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "17"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using Spear Dancing Style and making a full attack using the ch
 +++
 
 ## Spear Dancing Reach (Combat)
-
-**Sources:** Weapon Master's Handbook pg 17
 
 You can strike from afar with double weapons.\
 **Prerequisites:** Dex 17, [Spear Dancing Spiral](ref/feat/spear-dancing-spiral),

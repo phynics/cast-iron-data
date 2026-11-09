@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "emergency_game_prep", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "48"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 48
 
 Sometimes day-to-day life conquers even the most committed Game Master. You meant to get that
 dungeon ready, but then the boss/spouse/kids/friends/lottery office called, and now everyone's

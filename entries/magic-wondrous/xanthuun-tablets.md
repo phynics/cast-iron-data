@@ -6,6 +6,9 @@ source_ids = ["lost-treasures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "xanthuun_tablets", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "lost-treasures"
+page = "62"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination and enchantment"
 caster_level = "11th"
 +++
 
-**Sources:** Lost Treasures pg 62\
 **Aura** moderate divination and enchantment; **CL** 11th\
 **Slot** none; **Price** 78,000 gp; **Weight** 85 lbs.
 

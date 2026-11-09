@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aurumvorax", path = "json/monsters26.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "35"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ _Powerful muscles ripple beneath the golden fur of this small yet fearsome eight
 
 **Size:** small
 
-**Sources:** Bestiary 2 pg 35\
 **Experience points:** 6,400
 
 **Armor class:** 23/15/19

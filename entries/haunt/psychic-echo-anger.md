@@ -6,12 +6,14 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychic_echo_anger", path = "json/haunts.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "174"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Adventures pg 174\
 Sometimes, the collective emotional energy of significant or traumatic events creates a lasting
 psychic impression, even in places not associated with death. These psychic haunts are
 mind-affecting emotion effects. A character who uses [analyze aura](ref/spell/analyze-aura) or the

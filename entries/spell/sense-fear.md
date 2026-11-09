@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sense_fear", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "127"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Horror Adventures pg 127
 
 You sense the fear of those nearby, feeling it in the air around you. You can detect
 [spooked, shaken, scared, frightened, panicked, terrified, and horrified](ref/rule/lesser-fear-and-greater-fear)

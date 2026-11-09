@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "winter_feathers", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "167"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: feathered creature touched
 :::
-
-**Sources:** Advanced Race Guide pg 167
 
 > _[Tengus](ref/race/tengu) have access to the following spell._
 

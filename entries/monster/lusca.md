@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "isles-of-the-shackles"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lusca", path = "json/monsters16.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "161"
+[[sources]]
+publication = "isles-of-the-shackles"
+page = "53"
 
 [fields]
 kind = "creature"
@@ -44,7 +50,6 @@ that of an octopus._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 5 pg 161, Isles of the Shackles pg 53\
 **Subtype:** Aquatic
 
 **Experience points:** 102,400

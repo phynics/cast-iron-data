@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lost_passage", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "220"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Area: one 30-ft. cube/level (S)
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Inner Sea Races pg 220
 
 > _The following spells are available to the indicated race or ethnicity:
 > [Samsaran](ref/race/samsaran)_

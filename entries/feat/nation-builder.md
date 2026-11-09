@@ -6,6 +6,9 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nation_builder", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "71"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When in either unclaimed wilderness or land under your own control, y
 +++
 
 ## Nation Builder (Story)
-
-**Sources:** Ultimate Campaign pg 71
 
 The land calls to you to conquer it and forge a realm all your own.\
 **Prerequisites:** You must have explored and claimed an area of at least 100 square miles.\

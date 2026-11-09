@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dramatis_personae", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "108"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 108
 
 The following characters are available for influence during the murder mystery (the hostess is not
 available, as she is dead): the spy, the butler, the close friend, the rival investigator, and the

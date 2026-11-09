@@ -6,6 +6,9 @@ source_ids = ["pathfinder-85-fires-of-creation"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "power_relay", path = "json/equipment_tech_artifacts.json" },
 ]
+[[sources]]
+publication = "pathfinder-85-fires-of-creation"
+page = "60"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ weight = "50 lbs."
 slot = "none"
 +++
 
-**Sources:** Pathfinder \#85: Fires of Creation pg 60\
 **Slot** none; **Weight** 50 lbs.\
 **Capacity** 10; **Usage** special
 

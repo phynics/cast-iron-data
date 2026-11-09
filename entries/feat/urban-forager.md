@@ -6,14 +6,15 @@ source_ids = ["taldor-echoes-of-glory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "urban_forager", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "taldor-echoes-of-glory"
+page = "29"
 
 [fields]
 kind = "feat"
 prerequisites = "Knowledge (local) 4 ranks, Survival 4 ranks, Track."
 benefit = "You may use the Survival skill to forage and track in urban locations using the table below."
 +++
-
-**Sources:** Taldor, Echoes of Glory pg 29
 
 You are skilled at keeping yourself and others safe in the alleys, sewers, and underbellies of
 cities.\

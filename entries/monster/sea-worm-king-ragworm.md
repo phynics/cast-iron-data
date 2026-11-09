@@ -6,6 +6,9 @@ source_ids = ["pathfinder-124-city-in-the-deep"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sea_worm_king_ragworm", path = "json/monsters21.json" },
 ]
+[[sources]]
+publication = "pathfinder-124-city-in-the-deep"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ sides._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#124: City in the Deep pg 86\
 **Subtype:** Aquatic
 
 **tremorsense:** 60

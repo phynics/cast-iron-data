@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_butterfly_moth", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "192"
 
 [fields]
 kind = "creature"
@@ -37,7 +40,6 @@ dream._
 
 **Senses:** Darkvision 60 ft., Scent
 
-**Sources:** Ultimate Wilderness pg 192\
 **Type:** vermin
 
 **Experience points:** 0

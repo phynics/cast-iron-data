@@ -6,6 +6,9 @@ source_ids = ["feast-of-dust"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "handflower_of_genocide", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "feast-of-dust"
+page = "41"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong enchantment and transmutation"
 caster_level = "18th"
 +++
 
-**Sources:** Feast of Dust pg 41\
 **Aura** strong enchantment and transmutation; **CL** 18th\
 **Slot** hands; **Price** -; **Weight** 1 lb.
 

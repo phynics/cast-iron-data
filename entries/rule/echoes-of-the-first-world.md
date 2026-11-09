@@ -6,12 +6,16 @@ source_ids = ["ultimate-wilderness", "horror-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "echoes_of_the_first_world", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "132"
+[[sources]]
+publication = "horror-realms"
+page = "60"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Wilderness pg 132, Horror Realms pg 60
 
 The First World shares its place in existence with the Material Plane, and in some places, the
 boundary between the planes wears thin. The Material Plane's influence on the First World manifests

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "191"
 
 [fields]
 kind = "archetype"
 replaces = ["Throw anything"]
 +++
 
-**Sources:** Advanced Race Guide pg 191\
 Some grippli alchemists are particularly attuned to the swamps and the dangerous creatures that
 inhabit them; these serve as their laboratories and research subjects, respectively. These bogborn
 alchemists have the following class features.

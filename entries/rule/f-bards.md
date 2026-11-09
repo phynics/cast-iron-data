@@ -6,12 +6,14 @@ source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "f_bards", path = "json/rules_subsystems01.json" },
 ]
+[[sources]]
+publication = "faction-guide"
+page = "22"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Faction Guide pg 22\
 **Pathfinder Name:** Kitharodian Academy\
 **Goal:** Education and recruitment for a secret core of spies\
 **Alignment:** LN\

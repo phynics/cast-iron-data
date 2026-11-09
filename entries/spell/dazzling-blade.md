@@ -6,6 +6,9 @@ source_ids = ["rival-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dazzling_blade", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "rival-guide"
+page = "5"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: yes (object)
 Target: one metal weapon
 Subschool: Pattern
 :::
-
-**Sources:** Rival Guide pg 5
 
 Dazzling blade makes a weapon appear dazzlingly shiny, as if crafted from pure silver and heavily
 polished. In combat, the flashing movements of a dazzling blade become almost hypnotic. The wielder

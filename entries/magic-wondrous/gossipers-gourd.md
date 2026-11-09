@@ -6,6 +6,9 @@ source_ids = ["daughters-of-fury"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gossipers_gourd", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "daughters-of-fury"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Sources:** Daughters of Fury pg 60\
 **Aura** faint divination; **CL** 3rd\
 **Slot** none; **Price** 12,500 gp; **Weight** 1 lb.
 

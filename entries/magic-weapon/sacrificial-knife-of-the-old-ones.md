@@ -6,6 +6,9 @@ source_ids = ["heaven-unleashed"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sacrificial_knife_of_the_old_ones", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "heaven-unleashed"
+page = "55"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration, strong evil"
 caster_level = "8th"
 +++
 
-**Sources:** Heaven Unleashed pg 55\
 **Aura** moderate conjuration, strong evil; **CL** 8th\
 **Slot** none; **Price** 8,302 gp; **Weight** 1 lb.
 

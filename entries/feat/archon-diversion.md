@@ -6,6 +6,12 @@ source_ids = ["planar-adventures", "blood-of-angels"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "archon_diversion", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "25"
+[[sources]]
+publication = "blood-of-angels"
+page = "24"
 
 [fields]
 kind = "feat"
@@ -16,8 +22,6 @@ benefit = "The penalty to AC for using Archon Style to grant nearby allies a bon
 +++
 
 ## Archon Diversion (Combat)
-
-**Sources:** Planar Adventures pg 25, Blood of Angels pg 24
 
 You throw yourself in front of blows meant for allies, giving those allies a chance to strike back
 against the enemy once they have attacked you.\

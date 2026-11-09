@@ -6,6 +6,9 @@ source_ids = ["taldor-the-first-empire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ginever", path = "json/monsters12.json" },
 ]
+[[sources]]
+publication = "taldor-the-first-empire"
+page = "58"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ _This lanky, yellow-eyed drunk sways unsteadily, draped in the stink of barley a
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Taldor, the First Empire pg 58\
 **Experience points:** 1,600
 
 **Armor class:** 17/17/15

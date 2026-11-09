@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "in_media_res", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "64"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 64
 
 Few things energize a new gaming group more than sitting down for their first adventure and
 immediately being told, "Roll initiative!" Novels rarely begin at the most boring part of the story,

@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inheritance", path = "json/rules_adv_pc01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "168"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 168
 
 The GM may decide that your character inherits something of value from a deceased relative. This may
 be as innocuous as a village farm or a house in the city, an adventurer's heirloom such as a

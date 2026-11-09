@@ -6,12 +6,13 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "step_2_add_class_levels", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "297"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder RPG Bestiary pg 297
 
 Once you have determined the creature's role, it's time to add class levels. The first step of this
 process is to modify the creature's ability scores. Creatures with class levels receive +4, +4, +2,

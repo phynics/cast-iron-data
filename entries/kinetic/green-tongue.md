@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "green_tongue", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "59"
+[[sources]]
+publication = "occult-origins"
+page = "8"
 
 [fields]
 kind = "class_option"
@@ -21,8 +27,6 @@ group = "kineticist-wild-talent"
 **Level:** 6
 
 **Burn:** 0
-
-**Source:** Ultimate Wilderness/59, Occult Origins/8
 
 You can speak to plants and hear their whispers, as if constantly under the effect of
 [speak with plants](ref/spell/speak-with-plants).

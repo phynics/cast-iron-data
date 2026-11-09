@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "foxs_cunning", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "286"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes
 Target: you
 :::
-
-**Sources:** PRPG Core Rulebook pg 286
 
 The target becomes smarter. The spell grants a +4 enhancement bonus to Intelligence, adding the
 usual benefits to Intelligence-based skill checks and other uses of the Intelligence modifier.

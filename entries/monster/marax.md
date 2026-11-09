@@ -6,6 +6,9 @@ source_ids = ["pathfinder-90-the-divinity-drive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "marax", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "pathfinder-90-the-divinity-drive"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ scythe-like claws, and spiked tail, no part of this beast offers mercy._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Pathfinder \#90: The Divinity Drive pg 86\
 **Experience points:** 12,800
 
 **Armor class:** 25/11/23

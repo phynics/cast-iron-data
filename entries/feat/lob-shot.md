@@ -6,6 +6,9 @@ source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lob_shot", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "10"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While making a ranged attack, you can ignore any cover bonuses to AC,
 +++
 
 ## Lob Shot (Combat)
-
-**Sources:** Ranged Tactics Toolbox pg 10
 
 You can make a high, arcing shot to strike your opponents from above.\
 **Prerequisites:** [Far Shot](ref/feat/far-shot).\

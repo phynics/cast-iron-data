@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/psychic" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "107"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["4th-level discipline spell", "7th-level phrenic amplification", "Te
 alters = ["Phrenic amplifications"]
 +++
 
-**Sources:** Occult Adventures pg 107\
 Psychic duelists hone their mental powers for combat, much as warriors do with their blades. They
 specialize in [psychic duels](ref/rule/psychic-duels), perfecting their thought-form creatures into
 mighty weapons.

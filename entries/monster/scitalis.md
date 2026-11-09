@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scitalis", path = "json/monsters21.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "222"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ glass by the creature's inner glow._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 5 pg 222\
 **Experience points:** 19,200
 
 **Armor class:** 27/17/23

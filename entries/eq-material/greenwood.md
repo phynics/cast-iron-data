@@ -6,13 +6,14 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greenwood", path = "json/equipment_special_materials.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "50"
 
 [fields]
 kind = "item"
 category = "Special Materials"
 +++
-
-**Sources:** Ultimate Equipment pg 50
 
 The secret of greenwood lies in its harvesting. Each length is taken, with leaves still attached,
 from a tree animated by a [treant](ref/monster/treant) and cut with care to avoid the death of the

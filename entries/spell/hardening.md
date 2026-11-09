@@ -6,6 +6,9 @@ source_ids = ["pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hardening", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "pathfinder-campaign-setting"
+page = "207"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: none
 Spell resistance: yes (object)
 Target: one item of a volume no greater than 10 cu. ft./level
 :::
-
-**Sources:** Pathfinder Campaign Setting pg 207
 
 This spell increases the [hardness](ref/umr/hardness) of materials by 1 point per 2 caster levels.
 The hardening spell does not in any way affect resistance to other forms of transformation.

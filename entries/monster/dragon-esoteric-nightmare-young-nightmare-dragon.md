@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_esoteric_nightmare_young_nightmare_dragon", path = "json/monsters31.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "94"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ _This ebony dragon with red frills appears terribly contorted and trails shadows
 
 **Senses:** Dragon senses, Dreamsight, See in darkness
 
-**Sources:** Bestiary 5 pg 94\
 **Subtype:** Extraplanar
 
 **Experience points:** 2,400

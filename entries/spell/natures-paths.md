@@ -6,6 +6,12 @@ source_ids = ["villain-codex", "heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "natures_paths", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "164"
+[[sources]]
+publication = "heroes-of-the-wild"
+page = "31"
 
 [fields]
 kind = "spell"
@@ -42,8 +48,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: one creature
 :::
-
-**Sources:** Villain Codex pg 164, Heroes of the Wild pg 31
 
 The target instinctively knows the shortest, easiest, and fastest way through the wilderness. For
 the purpose of determining overland speed, the target treats any trackless terrain as though there

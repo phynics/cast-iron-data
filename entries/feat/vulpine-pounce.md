@@ -6,6 +6,9 @@ source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vulpine_pounce", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "dragon-empires-primer"
+page = "5"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you change shape into your kitsune form and use the charge actio
 +++
 
 ## Vulpine Pounce (Combat)
-
-**Sources:** Dragon Empires Primer pg 5
 
 You can change shape mid-charge and pounce on an opponent in the same round.\
 **Prerequisites:** [Swift Kitsune Shapechanger](ref/feat/swift-kitsune-shapechanger), base attack

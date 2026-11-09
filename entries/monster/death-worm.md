@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "death_worm", path = "json/monsters08.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "76"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ teeth._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 2 pg 76\
 **tremorsense:** 60
 
 **Experience points:** 2,400

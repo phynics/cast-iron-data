@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "leveraging", path = "json/magic_enhancements2.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "30"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ aura = "faint transmutation"
 caster_level = "6th"
 +++
 
-**Sources:** Weapon Master's Handbook pg 30\
 **Aura** faint transmutation; **CL** 6th\
 **Price** +1 bonus; **Weight** -
 

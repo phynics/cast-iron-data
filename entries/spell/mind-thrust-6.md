@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/mind-thrust-4" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "177"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Descriptors: mind-affecting
 :::
 
 ### Mind Thrust VI
-
-**Sources:** Occult Adventures pg 177
 
 This functions as [mind thrust IV](ref/spell/mind-thrust-4), but the target takes 1d8 points of
 damage per caster level (maximum 20d8) and is exhausted and stunned for 1 round if it fails its

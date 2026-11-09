@@ -6,6 +6,9 @@ source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "urgathoas_beacon", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "haunted-heroes-handbook"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: yes
 Area: one 5-ft cube/level (S)
 Descriptors: emotion, fear, haunted, mind-affecting
 :::
-
-**Sources:** Haunted Heroes Handbook pg 29
 
 You shroud an area in Urgathoa's unclean influence, rendering those who pass through it and fail
 their Will saving throws more enticing to ravenous undead. When an affected creature comes within 60

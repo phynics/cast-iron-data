@@ -6,14 +6,15 @@ source_ids = ["concordance-of-rivals"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monitor_obedience", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "concordance-of-rivals"
+page = "3"
 
 [fields]
 kind = "feat"
 prerequisites = "Knowledge (planes) 3 ranks, must worship a monitor demigod."
 benefit = "Each monitor demigod requires a different obedience, but all obediences take only 1 hour to perform. Once you've performed the obedience, you gain the benefit of a special ability or resistance as indicated in the Obedience entry for the demigod."
 +++
-
-**Sources:** Concordance of Rivals pg 3
 
 Your daily prayer and minor sacrifices to a particular monitor demigod grant you special boons.\
 **Prerequisites:** Knowledge (planes) 3 ranks, must worship a monitor demigod.\

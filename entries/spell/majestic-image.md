@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "majestic_image", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "219"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Saving throw: Will negates (see text)
 Spell resistance: yes
 Effect: transfer consciousness to an object bearing your likeness
 :::
-
-**Sources:** Ultimate Intrigue pg 219
 
 You cast your consciousness into a single object within range that bears your likeness, as if
 choosing a specific image with the spell enter image. In addition to observing your surroundings,

@@ -6,12 +6,14 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blush_of_youth", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "8"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Villain Codex pg 8\
 **School** necromancy \[evil\]; **Level** 7\
 **Casting Time** 7hours\
 **Components** V, S, M (a fist-sized onyx worth at least 5,000 gp, one creature of younger than

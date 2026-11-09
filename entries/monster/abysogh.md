@@ -6,6 +6,9 @@ source_ids = ["pathfinder-96-shadow-of-the-storm-tyrant"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "abysogh", path = "json/monsters01.json" },
 ]
+[[sources]]
+publication = "pathfinder-96-shadow-of-the-storm-tyrant"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ taut as if in perpetual convulsion._
 
 **Perception:** +12
 
-**Sources:** Pathfinder \#96: Shadow of the Storm Tyrant pg 84\
 **Subtype:** Giant
 
 **Experience points:** 51,200

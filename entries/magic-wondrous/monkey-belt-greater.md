@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monkey_belt_greater", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "212"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "8th"
 
 ## Monkey Belt
 
-**Sources:** Ultimate Equipment pg 212\
 **Aura** moderate transmutation; **CL** 8th\
 **Slot** belt; **Price** 9,400 gp (normal), 18,000 gp (greater); **Weight** 1 lb.
 

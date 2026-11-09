@@ -6,6 +6,9 @@ source_ids = ["inner-sea-npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cyphermage", path = "json/npcs8.json" },
 ]
+[[sources]]
+publication = "inner-sea-npc-codex"
+page = "16"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "8"
 
 **Challenge rating:** 8
 
-**Sources:** Inner Sea NPC Codex pg 16\
 **XP** 4,800\
 Half-elf [wizard](ref/class/wizard) 5/cyphermage 4\
 NG Medium humanoid (elf, human)\

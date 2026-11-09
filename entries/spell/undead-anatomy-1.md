@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "undead_anatomy_1", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "244"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: no
 Target: you
 Subschool: Polymorph
 :::
-
-**Sources:** Ultimate Magic pg 244
 
 When you cast this spell, you can assume the form of any Small or Medium corporeal creature of the
 undead type, which must be vaguely humanoid-shaped (like a ghoul, skeleton, or zombie). You gain a

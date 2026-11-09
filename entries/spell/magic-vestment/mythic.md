@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/magic-vestment", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "100"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 100\
 You can add one armor special ability to the target if it's armor or one shield special ability if
 it's a shield. The special ability must have a base price modifier no greater than a +1 enhancement
 bonus or 4,000 gp.

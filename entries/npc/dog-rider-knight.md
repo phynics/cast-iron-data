@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dog_rider_knight", path = "json/npcs2.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "115"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "6"
 
 **Challenge rating:** 6
 
-**Sources:** NPC Codex pg 115\
 **XP** 2,400\
 Halfling [paladin](ref/class/paladin) of [Sarenrae](ref/faith/sarenrae) 7\
 LG Small humanoid (halfling)\

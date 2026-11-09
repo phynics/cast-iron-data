@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sense_relationships", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "91"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Street Smarts."
 prerequisite_feats = ["ref/feat/street-smarts"]
 benefit = "After 1 minute or more of interaction or observation, you can attempt a DC 20 Sense Motive check to get a hunch in order to intuit the relationship between any two creatures interacting with one another. If you don't understand the language they are speaking, you take a -5 penalty on the check, and if the creatures are a different type than you, you take an additional -5 penalty on the check."
 +++
-
-**Sources:** Ultimate Intrigue pg 91
 
 You can quickly sense relationships between others and use that knowledge to manipulate them.\
 **Prerequisites:** [Street Smarts](ref/feat/street-smarts).\

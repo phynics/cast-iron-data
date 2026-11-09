@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "98"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Woodland stride", "Trackless step", "Resist nature's lure", "Venom 
 alters = ["Wild shape"]
 +++
 
-**Sources:** Advanced Player's Guide pg 98\
 An arctic druid watches over the stark landscape of the far frozen reaches of the world, tending the
 stunted and rugged life that ekes out its survival in the least habitable climes.
 

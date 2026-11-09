@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cats_eye_crown", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "240"
+[[sources]]
+publication = "advanced-race-guide"
+page = "94"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate divination"
 caster_level = "10th"
 +++
 
-**Sources:** Ultimate Equipment pg 240, Advanced Race Guide pg 94\
 **Aura** moderate divination; **CL** 10th\
 **Slot** head; **Price** 18,000 gp; **Weight** 1 lb.
 

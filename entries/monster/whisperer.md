@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "whisperer", path = "json/monsters25.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "276"
 
 [fields]
 kind = "creature"
@@ -48,7 +51,6 @@ be._
 
 **Senses:** Low-light vision, See in darkness
 
-**Sources:** Bestiary 6 pg 276\
 **Subtype:** Extraplanar, Incorporeal
 
 **Experience points:** 307,200

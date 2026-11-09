@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "harmless_form", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-streets"
+page = "23"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: yes (harmless)
 Target: one willing animal companion, familiar, or spirit animal
 Subschool: Polymorph
 :::
-
-**Sources:** Heroes of the Streets pg 23
 
 You transform the target into a harmless animal of the same approximate body type. The form assumed
 must be one considered unobtrusive by local communities, such as a cat, a dog, a hunting hawk, a

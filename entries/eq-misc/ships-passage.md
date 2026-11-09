@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ships_passage", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "159"
 
 [fields]
 kind = "item"
@@ -13,7 +16,6 @@ category = "Miscellaneous Equipment"
 price = "-"
 +++
 
-**Sources:** PRPG Core Rulebook pg 159\
 **Price** -; **Price of Passage** (per mile) 1 sp\
 **Category** Transport, Sea
 

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/psychic" },
 ]
+[[sources]]
+publication = "heroes-from-the-fringe"
+page = "26"
 
 [fields]
 kind = "archetype"
 replaces = ["Detect thoughts", "Telepathic bond, 11th- and 19th-level phrenic amplifications", "15th-level phrenic amplification"]
 +++
 
-**Sources:** Heroes from the Fringe pg 26\
 A number of exceptional Darklands half-orcs have developed potent psychic abilities, unlocked by
 generations of exposure to a specific combination of mind-altering fungi and radiation. Powerful
 half-orc manipulators often rule smaller Darklands tribes from the shadows, but with few orcs able

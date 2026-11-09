@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divine_spells", path = "json/rules_basics04.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "220"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 220
 
 Clerics, druids, experienced paladins, and experienced rangers can cast divine spells. Unlike arcane
 spells, divine spells draw power from a divine source. Clerics gain spell power from deities or from

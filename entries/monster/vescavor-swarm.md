@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "lost-kingdoms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vescavor_swarm", path = "json/monsters40.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "267"
+[[sources]]
+publication = "lost-kingdoms"
+page = "50"
 
 [fields]
 kind = "creature"
@@ -45,7 +51,6 @@ maws filled with a sickly green glow._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 5 pg 267, Lost Kingdoms pg 50\
 **Subtype:** Chaotic, Evil, Extraplanar, Swarm
 
 **Experience points:** 1,600

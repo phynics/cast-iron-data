@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bestow_weapon_proficiency", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "224"
 
 [fields]
 kind = "spell"
@@ -55,8 +58,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Ultimate Combat pg 224
 
 You bestow the subject with the ability to use a single type of weapon he is not proficient in as if
 he were proficient with that weapon. The weapon can be of any type, including an exotic weapon, but

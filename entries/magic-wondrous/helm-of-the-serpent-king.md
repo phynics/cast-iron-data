@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "helm_of_the_serpent_king", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "152"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Mythic Adventures pg 152\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** head; **Price** 96,000 gp; **Weight** 3 lbs.
 

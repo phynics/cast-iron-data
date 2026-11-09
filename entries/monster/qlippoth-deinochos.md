@@ -6,6 +6,9 @@ source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "qlippoth_deinochos", path = "json/monsters37.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "251"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ shell along with several hooked legs._
 
 **Size:** small
 
-**Sources:** Book of the Damned pg 251\
 **Subtype:** Aquatic, Chaotic, Evil, Extraplanar, Qlippoth
 
 **Experience points:** 1,600

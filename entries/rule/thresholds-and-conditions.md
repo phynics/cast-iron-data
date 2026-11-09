@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thresholds_and_conditions", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "136"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 136
 
 This rules variant uses three special conditions that apply automatically when a character reaches
 the corresponding wound thresholds: grazed, wounded, and critical. These conditions are not

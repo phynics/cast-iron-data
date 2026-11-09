@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "neutral_good", path = "json/rules_basics01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "135"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 135
 
 Do the best I can. See the good in everyone. Help others. Work toward the greater good. My soul is
 good, regardless of how I look. Never judge a book by its cover. Devotion to the goodness in life

@@ -6,6 +6,9 @@ source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shears_adamantine", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "17"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "8 lbs. (adamantine), 8 lbs. (lopping), 1/2 lb. (small)"
 
 ## Shears
 
-**Sources:** Adventurer's Armory 2 pg 17\
 **Price** 3,003 gp (adamantine), 3 gp (lopping), 5 sp (small); **Weight** 8 lbs. (adamantine), 8
 lbs. (lopping), 1/2 lb. (small)
 

@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_lord", path = "json/monster_template4.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "238"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +2
-
-**Source:** Bestiary 4/238
 
 "Shadow lord" is an acquired template that can be added to any [shadow](ref/template/shadow)
 creature with 5 or more Hit Dice (referred to hereafter as the base creature). Most shadow lords

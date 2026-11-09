@@ -6,6 +6,9 @@ source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "medallion_of_demonic_disruption", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "people-of-the-wastes"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "7th"
 +++
 
-**Sources:** People of the Wastes pg 30\
 **Aura** moderate abjuration; **CL** 7th\
 **Slot** neck; **Price** 32,000 gp; **Weight** 1 lb.
 

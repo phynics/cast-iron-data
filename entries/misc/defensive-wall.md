@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "defensive_wall", path = "json/misc.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "96"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 96
 
 **Defensive Wall**
 

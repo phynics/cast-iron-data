@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "classic-treasures-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "helm_of_electric_radiance", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "243"
+[[sources]]
+publication = "classic-treasures-revisited"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong varied"
 caster_level = "13th"
 +++
 
-**Sources:** Ultimate Equipment pg 243, Classic Treasures Revisited pg 31\
 **Aura** strong varied; **CL** 13th\
 **Slot** head; **Price** 125,000 gp; **Weight** 3 lbs.
 

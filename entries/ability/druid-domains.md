@@ -6,12 +6,14 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "druid_domains", path = "json/class_abilities8.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "33"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Ultimate Magic pg 33\
 Presented in the section below are new rules for animal and terrain domains - domains for druids
 whose focus is more specific than the [Animal](ref/domain/animal), [Plant](ref/domain/plant),
 [Weather](ref/domain/weather), or elemental domains. A druid with the nature's bond ability can

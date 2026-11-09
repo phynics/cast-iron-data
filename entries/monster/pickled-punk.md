@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pickled_punk", path = "json/monsters18.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "214"
 
 [fields]
 kind = "creature"
@@ -38,7 +41,6 @@ _Barely contained in thick glass, this deformed humanoid creature wriggles in it
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 4 pg 214\
 **Size:** tiny
 
 **Type:** undead

@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "create_mindscape", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "162"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Target: one creature
 Subschool: Phantasm
 Descriptors: mind-affecting
 :::
-
-**Sources:** Occult Adventures pg 162
 
 You create an [immersive mindscape](ref/rule/immersive-mindscapes) that the minds of both you and
 another creature enter together. You choose whether the mindscape is overt or veiled, and whether

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/oracle" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "58"
 
 [fields]
 kind = "archetype"
 replaces = ["Bonus skills from the oracle's mystery", "All bonus spells gained from the oracle's mystery after 2nd level", "Final revelation"]
 +++
 
-**Sources:** Ultimate Magic pg 58\
 The enlightened philosopher seeks enlightenment through compassion, moderation, and humility. By
 following her philosophy's teachings, the enlightened philosopher seeks to reach enlightenment and
 become one with the universe.

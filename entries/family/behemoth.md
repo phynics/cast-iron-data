@@ -6,12 +6,13 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "behemoth", path = "json/monster_families.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "36"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Bestiary 3 pg 36
 
 Immense, ageless, and very nearly invincible, behemoths deliver divine retribution to the mortal
 realms. Shaped from the primal energies of creation and infused with elemental might, behemoths

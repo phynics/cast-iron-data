@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drinking_horn_of_bottomless_valor", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "292"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment"
 caster_level = "10th"
 +++
 
-**Sources:** Ultimate Equipment pg 292\
 **Aura** moderate enchantment; **CL** 10th\
 **Slot** none; **Price** 24,000 gp; **Weight** 2 lbs.
 

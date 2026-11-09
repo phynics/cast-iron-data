@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/dominate-person" },
 ]
+[[sources]]
+publication = "occult-origins"
+page = "13"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: mind-affecting
 :::
-
-**Sources:** Occult Origins pg 13
 
 You take control of a creature's mind and implant deadly subconscious commands. This spell functions
 as [dominate person](ref/spell/dominate-person), allowing you to control your subject and see

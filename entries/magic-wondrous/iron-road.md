@@ -6,6 +6,9 @@ source_ids = ["lost-treasures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "iron_road", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "lost-treasures"
+page = "35"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration"
 caster_level = "18th"
 +++
 
-**Sources:** Lost Treasures pg 35\
 **Aura** strong conjuration; **CL** 18th\
 **Slot** neck; **Price** 50,000 gp; **Weight** -
 

@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cavalry_soldier", path = "json/npcs7.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "270"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "7"
 
 **Challenge rating:** 7
 
-**Sources:** NPC Codex pg 270\
 **XP** 3,200\
 Half-elf [warrior](ref/npcclass/warrior) 9\
 LN Medium humanoid (elf, human)\

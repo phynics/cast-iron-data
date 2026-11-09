@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/amateur-swashbuckler", label = "or" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "82"
 
 [fields]
 kind = "feat"
@@ -19,8 +22,6 @@ benefit = "As a swift action, you can spend 1 panache point to enrage a creature
 +++
 
 ## Enrage Opponent (Combat, Panache)
-
-**Sources:** Ultimate Intrigue pg 82
 
 With a quip or a suggestive gesture, you send your enemy into a tizzy.\
 **Prerequisites:** Cha 13, [Persuasive](ref/feat/persuasive), either

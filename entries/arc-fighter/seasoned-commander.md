@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/fighter" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "164"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Bonus fighter combat feat gained at 1st level", "proficiency with h
 alters = ["Skill ranks per level", "class skills"]
 +++
 
-**Sources:** Villain Codex pg 164\
 The seasoned commander excels at leading troops through inspiration and the use of unit tactics.
 
 **Strategic Training (Ex)**

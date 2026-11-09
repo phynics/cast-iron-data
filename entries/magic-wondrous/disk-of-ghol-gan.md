@@ -6,6 +6,9 @@ source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disk_of_ghol_gan", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "faction-guide"
+page = "59"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration (teleportation)"
 caster_level = "11th"
 +++
 
-**Sources:** Faction Guide pg 59\
 **Aura** moderate conjuration (teleportation); **CL** 11th\
 **Slot** none; **Price** 24,000 gp; **Weight** 3 lbs.
 

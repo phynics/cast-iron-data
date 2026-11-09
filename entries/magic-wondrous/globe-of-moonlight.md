@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "globe_of_moonlight", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "blood-of-the-moon"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment and evocation"
 caster_level = "7th"
 +++
 
-**Sources:** Blood of the Moon pg 31\
 **Aura** moderate enchantment and evocation; **CL** 7th\
 **Slot** none; **Price** 700 gp; **Weight** 1 lb.
 

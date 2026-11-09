@@ -6,6 +6,12 @@ source_ids = ["advanced-players-guide", "chronicle-of-legends", "advanced-race-g
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cavalier", path = "json/classes5.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "32"
+[[sources]]
+publication = "chronicle-of-legends"
+page = "4"
 
 [fields]
 kind = "class"
@@ -13,8 +19,6 @@ class_type = "base"
 hit_die = "d10"
 skill_ranks = "4 + Int modifier"
 +++
-
-**Sources:** Advanced Player's Guide pg 32, Chronicle of Legends pg 4
 
 While many warriors strive to perfect their art, spending all of their time honing their skill at
 martial arms, others spend as much effort dedicating themselves to a cause. These warriors, known as

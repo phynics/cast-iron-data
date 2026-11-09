@@ -6,6 +6,9 @@ source_ids = ["pathfinder-58-island-of-empty-eyes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scoundrels_sword_cane", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "pathfinder-58-island-of-empty-eyes"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "7th"
 +++
 
-**Sources:** Pathfinder \#58: Island of Empty Eyes pg 60\
 **Aura** moderate divination; **CL** 7th\
 **Slot** none; **Price** 20,925 gp; **Weight** 4 lbs.
 

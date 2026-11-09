@@ -6,6 +6,9 @@ source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "delayed_potion", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "potions-and-poisons"
+page = "16"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Brew Potion, caster level 5th."
 prerequisite_feats = ["ref/feat/brew-potion"]
 benefit = "When you brew a potion, you can have the potion's effects be delayed by up to 10 rounds after a creature consumes it. Once you decide how many rounds the potion's effects will be delayed by, that decision cannot later be changed. When a delayed potion is imbibed, it has no effect for the chosen number of rounds, and then it affects the imbiber as normal. The rounds in which the potion's effects are delayed do not count against the duration of the potion's effect. A spell brewed into a potion this way does not use up a higher-level spell slot than the spell's actual level."
 +++
-
-**Sources:** Potions and Poisons pg 16
 
 You can brew potions whose effects are delayed slightly.\
 **Prerequisites:** [Brew Potion](ref/feat/brew-potion), caster level 5th.\

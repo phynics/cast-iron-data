@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_dungeon_concept", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "174"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 174
 
 Just because dungeons are some of the simplest adventure sites to build and run doesn't mean that
 they need to be simplistic. A dungeon can be quite complex, filled with intrigue and dynamic

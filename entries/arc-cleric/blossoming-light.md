@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cleric" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "112"
 
 [fields]
 kind = "archetype"
 alters = ["The cleric's armor proficiencies", "Alignment", "Channel energy", "domains"]
 +++
 
-**Sources:** Adventurer's Guide pg 112\
 There are some clerics who take their pursuit of purity and light to extremes. These clerics are
 known as blossoming lights, and forsake armor and weaponry in favor of opening their hearts to pure
 goodness. Many are peace-loving or even pacifistic, and nearly every blossoming light favors

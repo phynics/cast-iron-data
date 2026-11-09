@@ -6,13 +6,23 @@ source_ids = ["ultimate-wilderness", "inner-sea-races", "bestiary-5", "inner-sea
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghoran", path = "json/races3.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "15"
+[[sources]]
+publication = "inner-sea-races"
+page = "243"
+[[sources]]
+publication = "bestiary-5"
+page = "119"
+[[sources]]
+publication = "inner-sea-bestiary"
+page = "14"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Ultimate Wilderness pg 15, Inner Sea Races pg 243, Bestiary 5 pg 119, Inner Sea
-Bestiary pg 14\
 The first ghorans came into being thousands of years ago during a great war between two nations
 ruled by rival archmages. When mighty necromantic curses blighted the lands of one nation, leaving
 its inhabitants on the brink of starvation, their canny leader cut a deal with the renegade druid

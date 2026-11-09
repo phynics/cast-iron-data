@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ranger" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "66"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["2nd favored enemy", "3rd favored enemy", "4th favored enemy", "Mast
 alters = ["Hunter's bond"]
 +++
 
-**Sources:** Ultimate Combat pg 66\
 Armies need clean water, safe routes, and intelligence about their enemies. Though regular
 outdoorsmen might suffice in many cases, some large forces look to battle scouts to keep the body of
 their troops safe and prepared for the terrain and whatever dangers that terrain hides.

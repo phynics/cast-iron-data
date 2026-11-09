@@ -6,6 +6,9 @@ source_ids = ["pathfinder-104-wrath-of-thrune"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hiracapath", path = "json/monsters13.json" },
 ]
+[[sources]]
+publication = "pathfinder-104-wrath-of-thrune"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ within it, and curling, steel horns emerge from its helm._
 
 **Senses:** Darkvision 60 ft., Scent
 
-**Sources:** Pathfinder \#104: Wrath of Thrune pg 88\
 **Subtype:** Extraplanar, Good, Lawful
 
 **Experience points:** 3,200

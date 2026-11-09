@@ -6,6 +6,9 @@ source_ids = ["pathfinder-89-palace-of-fallen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "starfall_spade", path = "json/equipment_tech_weapons.json" },
 ]
+[[sources]]
+publication = "pathfinder-89-palace-of-fallen-stars"
+page = "63"
 
 [fields]
 kind = "item"
@@ -14,8 +17,6 @@ weight = "12 lbs."
 aura = "moderate evocation"
 caster_level = "7th"
 +++
-
-**Sources:** Pathfinder \#89: Palace of Fallen Stars pg 63
 
 **Cost** 8,620 gp\
 **Type** two-handed melee; **Proficiency** martial; **Weight** 12 lbs.\

@@ -6,6 +6,9 @@ source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "split_trick", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "17"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Whenever you implant a mesmerist trick in a target, you can designate
 +++
 
 ## Split Trick (Trick)
-
-**Sources:** Psychic Anthology pg 17
 
 You can split a mesmerist trick between two targets.\
 **Prerequisites:** Mesmerist trick class feature.\

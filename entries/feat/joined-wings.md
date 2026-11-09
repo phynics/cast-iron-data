@@ -6,6 +6,9 @@ source_ids = ["distant-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "joined_wings", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "distant-realms"
+page = "33"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can use your lay on hands or the healing granted by fervor on all
 +++
 
 ## Joined Wings (Teamwork)
-
-**Sources:** Distant Realms pg 33
 
 You have developed a deep rapport with your comrades that allows you to swiftly convey divine grace.\
 **Prerequisites:** [Fervor](ref/class/warpriest) or [lay on hands](ref/ability/lay-on-hands) class

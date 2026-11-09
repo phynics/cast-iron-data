@@ -6,6 +6,9 @@ source_ids = ["inner-sea-npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arclord_of_nex", path = "json/npcs4.json" },
 ]
+[[sources]]
+publication = "inner-sea-npc-codex"
+page = "6"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "14"
 
 **Challenge rating:** 14
 
-**Sources:** Inner Sea NPC Codex pg 6\
 **XP** 38,400\
 Human [wizard](ref/class/wizard) 10/archlord of Nex 5\
 N Medium humanoid (human)\

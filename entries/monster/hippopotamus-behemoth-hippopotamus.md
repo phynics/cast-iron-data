@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hippopotamus_behemoth_hippopotamus", path = "json/monsters13.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "157"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ moves with an indomitable gait._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 2 pg 157\
 **Experience points:** 9,600
 
 **Armor class:** 23/7/23

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/wizard" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "89"
 
 [fields]
 kind = "archetype"
 replaces = ["Arcane bond", "10th-level bonus feat"]
 +++
 
-**Sources:** Ultimate Magic pg 89\
 To some wizards, a scroll is not just a written form of a spell, it is a physical weapon meant to be
 used in combat like a sword or a shield. These strange wizards enter battle armed with scrolls,
 often one in each in each hand, practicing combat techniques resembling some monk martial arts.

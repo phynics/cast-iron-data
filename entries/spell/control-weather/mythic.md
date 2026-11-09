@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/control-weather", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "89"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 89
 
 The casting time changes to 1 standard action, and the duration doubles. The weather changes after a
 number of rounds equal to 11 - your tier.

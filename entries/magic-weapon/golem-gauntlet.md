@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_gauntlet", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "blood-of-the-ancients"
+page = "18"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration"
 caster_level = "15th"
 +++
 
-**Sources:** Blood of the Ancients pg 18\
 **Aura** strong abjuration; **CL** 15th\
 **Slot** none; **Price** 18,505 gp; **Weight** 5 lbs.
 

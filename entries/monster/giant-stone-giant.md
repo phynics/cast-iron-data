@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_stone_giant", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "151"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ it were carved of stone._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder RPG Bestiary pg 151\
 **Subtype:** Giant
 
 **Experience points:** 4,800

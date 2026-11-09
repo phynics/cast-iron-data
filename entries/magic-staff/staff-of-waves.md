@@ -6,6 +6,9 @@ source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_waves", path = "json/magic_staff.json" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
+page = "63"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong necromancy"
 caster_level = "13th"
 +++
 
-**Sources:** Aquatic Adventures pg 63\
 **Aura** strong necromancy; **CL** 13th\
 **Slot** none; **Price** 90,300 gp; **Weight** 5 lbs.
 

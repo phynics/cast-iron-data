@@ -6,6 +6,9 @@ source_ids = ["rival-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sheet_lightning", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "rival-guide"
+page = "23"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: yes
 Target: 20-ft.-radius spread
 Descriptors: electricity
 :::
-
-**Sources:** Rival Guide pg 23
 
 You create a dazzling flash of electricity that fills the target area. Sheet lightning inflicts 1
 point of electricity damage to all creatures within the area of effect (no save). The true power of

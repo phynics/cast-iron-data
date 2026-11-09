@@ -8,12 +8,14 @@ parent = "ref/umr/split"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "json/umr.json#split|section:split", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "299"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Bestiary 3 pg 299\
 The creature splits into two identical copies of itself if subject to certain attacks or effects.
 Each copy has half the original's current hit points (rounded down). A creature reduced below the
 listed hit points cannot be further split and can be killed normally.

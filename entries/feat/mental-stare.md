@@ -6,6 +6,9 @@ source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mental_stare", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "heroes-of-golarion"
+page = "9"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can use your hypnotic stare ability without relying on sight and 
 +++
 
 ## Mental Stare (Stare)
-
-**Sources:** Heroes of Golarion pg 9
 
 Blind mesmerists have learned to navigate the world without relying on sight and can use their
 hypnotic stare regardless of their sight level.\

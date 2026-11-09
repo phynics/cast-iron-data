@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rakshasa", path = "json/monsters20.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "231"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ its fiendish nature._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 231\
 **Subtype:** Native, Shapechanger
 
 **Experience points:** 9,600

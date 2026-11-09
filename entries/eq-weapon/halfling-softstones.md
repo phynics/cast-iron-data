@@ -6,14 +6,15 @@ source_ids = ["halflings-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "halfling_softstones", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "halflings-of-golarion"
+page = "23"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "0.4 lbs."
 +++
-
-**Sources:** Halflings of Golarion pg 23
 
 These tight bundles of elastic fibers deal nonlethal damage when fired from a
 [sling](ref/eq-weapon/sling).

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "esoteric_abjuration", path = "json/feat06.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "154"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "When you cast an abjuration spell using geodes as an esoteric materia
 +++
 
 ## Esoteric Abjuration (Esoteric)
-
-**Sources:** Pathfinder Unchained pg 154
 
 A carefully selected set of geodes causes the defenses you create with your spells to offer even
 better protection.\

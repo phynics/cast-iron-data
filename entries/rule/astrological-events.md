@@ -6,12 +6,13 @@ source_ids = ["occult-mysteries"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "astrological_events", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-mysteries"
+page = "38"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Mysteries pg 38
 
 For those able to divine the influence of celestial events, the terrestrial world is a constantly
 shifting field of energies that appear arbitrary to the uninitiated. Depending on the ever-changing

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/investigator" },
 ]
+[[sources]]
+publication = "blood-of-the-ancients"
+page = "16"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Poison lore", "Swift alchemy"]
 alters = ["Alchemy (including Extracts)"]
 +++
 
-**Sources:** Blood of the Ancients pg 16\
 Antiquarians are collectors, explorers, and scholars who delve into ruined places in search of lost
 lore and artifacts.
 

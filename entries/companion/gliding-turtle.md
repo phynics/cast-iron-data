@@ -6,13 +6,14 @@ source_ids = ["pathfinder-121-the-lost-outpost"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gliding_turtle", path = "json/class_ability_druid_companions.json" },
 ]
+[[sources]]
+publication = "pathfinder-121-the-lost-outpost"
+page = "83"
 
 [fields]
 kind = "class_option"
 group = "animal-companion"
 +++
-
-**Sources:** Pathfinder \#121: The Lost Outpost pg 83
 
 **Companion Type**
 

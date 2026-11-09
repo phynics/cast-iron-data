@@ -6,6 +6,9 @@ source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "okeno_madu", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "52"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint enchantment"
 caster_level = "3rd"
 +++
 
-**Sources:** Inner Sea Combat pg 52\
 **Aura** faint enchantment; **CL** 3rd\
 **Slot** shield; **Price** 5,590 gp; **Weight** 5 lbs.
 

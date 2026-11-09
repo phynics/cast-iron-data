@@ -6,6 +6,9 @@ source_ids = ["knights-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "keep_watch", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "knights-of-the-inner-sea"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: one creature touched/2 levels
 :::
-
-**Sources:** Knights of the Inner Sea pg 28
 
 This spell enables the subjects to stand watch or keep vigil throughout the night without any ill
 effects. The subjects suffer no fatigue and gain all the usual benefits of a full night's rest. The

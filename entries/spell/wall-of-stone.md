@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wall_of_stone", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "367"
 
 [fields]
 kind = "spell"
@@ -55,8 +58,6 @@ Effect: stone wall whose area is up to one 5-ft. square/level (S)
 Subschool: Creation
 Descriptors: earth
 :::
-
-**Sources:** PRPG Core Rulebook pg 367
 
 This spell creates a wall of rock that merges into adjoining rock surfaces. A wall of stone is 1
 inch thick per four caster levels and composed of up to one 5-foot square per level. You can double

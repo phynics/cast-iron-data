@@ -6,6 +6,9 @@ source_ids = ["inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "khaei", path = "json/monsters15.json" },
 ]
+[[sources]]
+publication = "inner-sea-bestiary"
+page = "22"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ come apart at the edges._
 
 **Size:** small
 
-**Sources:** Inner Sea Bestiary pg 22\
 **Experience points:** 800
 
 **Armor class:** 15/12/14

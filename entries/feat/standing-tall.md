@@ -6,6 +6,9 @@ source_ids = ["pathfinder-131-the-reapers-right-hand"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "standing_tall", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "pathfinder-131-the-reapers-right-hand"
+page = "77"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Once per day as a move action, you gain a +2 bonus on saving throws a
 +++
 
 ## Standing Tall (Story)
-
-**Sources:** Pathfinder \#131: The Reaper's Right Hand pg 77
 
 You can tap into your family's old ways to take on some of the traits of plants.\
 **Prerequisites:** Be a member of House Fahlspar, or have

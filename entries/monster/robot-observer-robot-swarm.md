@@ -6,6 +6,9 @@ source_ids = ["pathfinder-86-lords-of-rust"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "robot_observer_robot_swarm", path = "json/monsters20.json" },
 ]
+[[sources]]
+publication = "pathfinder-86-lords-of-rust"
+page = "89"
 
 [fields]
 kind = "creature"
@@ -38,7 +41,6 @@ abilities = ["12", "19", "-", "11", "18", "3"]
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#86: Lords of Rust pg 89\
 **Subtype:** Robot, Swarm
 
 **Size:** tiny

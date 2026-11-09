@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/inquisitor" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "45"
 
 [fields]
 kind = "archetype"
 replaces = ["Monster lore"]
 +++
 
-**Sources:** Ultimate Magic pg 45\
 While all inquisitors hunt the enemies of the faith, sometimes, either through political maneuvering
 by her enemies or an unyielding tenacity that breaks her faith's basic tenets, an inquisitor can
 find herself a heretic. Still unyielding in her cause, these heretics are accustomed to using guile

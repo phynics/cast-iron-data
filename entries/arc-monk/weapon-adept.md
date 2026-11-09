@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/monk" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "114"
 
 [fields]
 kind = "archetype"
 replaces = ["Stunning Fist", "Evasion", "Improved evasion", "Timeless body", "Perfect self"]
 +++
 
-**Sources:** Advanced Player's Guide pg 114\
 While all monks train in both unarmed combat and with weapons, the weapon adept seeks to become one
 with his weapons, transforming them into perfect extensions of his own body. Through such training,
 a weapon adept seeks to attain perfection by becoming a living weapon himself. A weapon adept has

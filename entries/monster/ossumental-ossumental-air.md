@@ -6,6 +6,9 @@ source_ids = ["pathfinder-83-the-slave-trenches-of-hakotep"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ossumental_ossumental_air", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "pathfinder-83-the-slave-trenches-of-hakotep"
+page = "89"
 
 [fields]
 kind = "creature"
@@ -38,7 +41,6 @@ abilities = ["30", "17", "-", "9", "14", "21"]
 
 **Senses:** Darkvision 60 ft., Mistsight
 
-**Sources:** Pathfinder \#83: The Slave Trenches of Hakotep pg 89\
 **Subtype:** Air
 
 **Type:** undead

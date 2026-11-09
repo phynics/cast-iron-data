@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/power-word-stun", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "104"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 104\
 Treat the target's current hit point total as though it were lowered by 5 times your tier. For
 example, a 3rd-tier archmage casting this spell would affect a creature with 60 hp as though it had
 45 hp, and the spell would last an additional 2d4 rounds.

@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_rat", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "132"
 
 [fields]
 kind = "creature"
@@ -36,7 +39,6 @@ abilities = ["2", "15", "11", "2", "13", "2"]
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 132\
 **Size:** tiny
 
 **Experience points:** 100

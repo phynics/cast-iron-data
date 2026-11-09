@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_blind_fight", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "162"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "The Improved Blind-Fight feat is of no use against a character who is
 +++
 
 ## Improved Blind-Fight (Combat)
-
-**Sources:** Advanced Player's Guide pg 162
 
 Your keen senses guide your hand against hidden foes.\
 **Prerequisites:** Perception 10 ranks, [Blind-Fight](ref/feat/blind-fight).\

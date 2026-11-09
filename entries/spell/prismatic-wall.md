@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prismatic_wall", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "325"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: see text
 Spell resistance: see text
 Effect: wall 4 ft./level wide, 2 ft./level high
 :::
-
-**Sources:** PRPG Core Rulebook pg 325
 
 Prismatic wall creates a vertical, opaque wall - a shimmering, multicolored plane of light that
 protects you from all forms of attack. The wall flashes with seven colors, each of which has a

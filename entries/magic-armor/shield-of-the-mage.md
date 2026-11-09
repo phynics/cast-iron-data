@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_of_the_mage", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "359"
 
 [fields]
 kind = "item"
@@ -16,8 +19,6 @@ slot = "shield"
 aura = "moderate divination"
 caster_level = "11th"
 +++
-
-**Sources:** Ultimate Equipment pg 359
 
 **Aura** moderate divination; **CL** 11th\
 **Slot** shield; **Price** 14,500 gp; **Weight** 5 lbs.

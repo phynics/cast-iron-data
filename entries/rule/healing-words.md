@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "healing_words", path = "json/rules_opt_magic03.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "179"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 179
 
 Healing words knit the flesh and soothe the body, repairing even the most grievous harm.
 

@@ -6,12 +6,13 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plane_of_water_pa", path = "json/rules_campaign_types09.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "142"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Planar Adventures pg 142
 
 **Plane of Water**
 

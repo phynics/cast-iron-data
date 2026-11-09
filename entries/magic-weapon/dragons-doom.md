@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragons_doom", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "154"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination and evocation"
 caster_level = "8th"
 +++
 
-**Sources:** Ultimate Equipment pg 154\
 **Aura** moderate divination and evocation; **CL** 8th\
 **Slot** none; **Price** 40,310 gp; **Weight** 12 lbs.
 

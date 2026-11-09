@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "children_and_pets", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "14"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 14
 
 If the house where you play has very young children, it's best to keep them out of the game room
 altogether. If this isn't possible, then everyone must be sure to keep dice and minis off the floor,

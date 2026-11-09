@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bulette_charge_style", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "10"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "A character with the armor training class feature can use Bulette Cha
 +++
 
 ## Bulette Charge Style (Combat, Style)
-
-**Sources:** Armor Master's Handbook pg 10
 
 You use the weight of your armor to enhance the momentum of your charge.\
 **Prerequisites:** Str 13, [Improved Overrun](ref/feat/improved-overrun),

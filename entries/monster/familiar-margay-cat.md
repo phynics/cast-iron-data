@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_margay_cat", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "193"
 
 [fields]
 kind = "creature"
@@ -39,7 +42,6 @@ _Black rosettes and streaks mark the brown fur of this slender feline._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Ultimate Wilderness pg 193\
 **Size:** tiny
 
 **Experience points:** 100

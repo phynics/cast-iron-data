@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stone_of_alarm", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "321"
+[[sources]]
+publication = "core-rulebook"
+page = "530"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Sources:** Ultimate Equipment pg 321, PRPG Core Rulebook pg 530\
 **Aura** faint abjuration; **CL** 3rd\
 **Slot** none; **Price** 2,700 gp; **Weight** 2 lbs.
 

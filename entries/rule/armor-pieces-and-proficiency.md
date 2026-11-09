@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "armor_pieces_and_proficiency", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "198"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 198
 
 If you are proficient with an armor category, you are also proficient with the armor pieces of that
 category. For example, if you are proficient with light armor, you are proficient with all light

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-85-fires-of-creation"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "universal_serum", path = "json/equipment_tech_pharmaceuticals.json" },
 ]
+[[sources]]
+publication = "pathfinder-85-fires-of-creation"
+page = "61"
 
 [fields]
 kind = "item"
@@ -13,7 +16,6 @@ category = "Pharmaceuticals"
 price = "400 gp"
 +++
 
-**Sources:** Pathfinder \#85: Fires of Creation pg 61\
 **Price** 400 gp
 
 ### Construction

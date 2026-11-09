@@ -6,13 +6,17 @@ source_ids = ["ultimate-equipment", "core-rulebook", "dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragonhide", path = "json/equipment_special_materials.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "49"
+[[sources]]
+publication = "core-rulebook"
+page = "154"
 
 [fields]
 kind = "item"
 category = "Special Materials"
 +++
-
-**Sources:** Ultimate Equipment pg 49, PRPG Core Rulebook pg 154
 
 Armorsmiths can work with the hides of dragons to produce armor or shields of
 [masterwork](ref/rule/masterwork-armor) quality. One dragon produces enough hide to make a single

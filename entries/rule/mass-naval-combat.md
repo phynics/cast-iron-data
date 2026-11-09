@@ -6,12 +6,14 @@ source_ids = ["pathfinder-59-the-price-of-infamy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mass_naval_combat", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "pathfinder-59-the-price-of-infamy"
+page = "63"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder \#59: The Price of Infamy pg 63\
 Throughout much of the _Skull & Shackles_ Adventure Path, the PCs come into conflict with other
 ships on the high seas - whether these conflicts arise as the PCs seek to seize plunder or are
 forced to defend themselves from attack, the [ship-to-ship rules](ref/rule/ship-to-ship-combat)

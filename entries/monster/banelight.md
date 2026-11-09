@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "banelight", path = "json/monsters03.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "37"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ between her hands._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 6 pg 37\
 **Experience points:** 19,200
 
 **Armor class:** 27/21/16

@@ -6,6 +6,9 @@ source_ids = ["demons-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "contact_nalfeshnee", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "demons-revisited"
+page = "50"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Demons Revisited pg 50
 
 When you cast this spell, you fall into a trance and become helpless as long as you continue
 concentrating. Choose any one Knowledge skill other than arcana or planes. Your mind is placed in

@@ -6,14 +6,21 @@ source_ids = ["ultimate-equipment", "pathfinder-campaign-setting", "core-ruleboo
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blowgun_darts", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "22"
+[[sources]]
+publication = "pathfinder-campaign-setting"
+page = "211"
+[[sources]]
+publication = "core-rulebook"
+page = "142"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "-"
 +++
-
-**Sources:** Ultimate Equipment pg 22, Pathfinder Campaign Setting pg 211, PRPG Core Rulebook pg 142
 
 The thin, light darts used in a [blowgun](ref/eq-weapon/blowgun) are usually made of hardwood with a
 stabilizing fletching of down or fur. A dart is usually loaded from the back end just before firing.

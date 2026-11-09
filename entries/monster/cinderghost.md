@@ -6,6 +6,9 @@ source_ids = ["planes-of-power"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cinderghost", path = "json/monsters05.json" },
 ]
+[[sources]]
+publication = "planes-of-power"
+page = "53"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ unblinking eyes that flicker like dying embers._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Planes of Power pg 53\
 **Subtype:** Extraplanar, Fire, Incorporeal
 
 **Type:** undead

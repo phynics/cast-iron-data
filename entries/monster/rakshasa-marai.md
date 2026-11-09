@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rakshasa_marai", path = "json/monsters20.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "228"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ tongue in its fanged mouth._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 3 pg 228\
 **Subtype:** Native, Rakshasa, Shapechanger
 
 **Experience points:** 4,800

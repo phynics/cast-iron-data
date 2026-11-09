@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "pathfinder-35-war-of-the-river-kings"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "herald_the_first_blade", path = "json/monsters_unique2.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "288"
+[[sources]]
+publication = "pathfinder-35-war-of-the-river-kings"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -46,7 +52,6 @@ some merciless warlord._
 
 **Senses:** Darkvision 60 ft., Ironsense 60 ft., Low-light vision
 
-**Sources:** Inner Sea Gods pg 288, Pathfinder \#35: War of the River Kings pg 82\
 **Subtype:** Chaotic, Extraplanar, Herald
 
 **Experience points:** 51,200

@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spider_giant_tarantula", path = "json/monsters39.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "256"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ scanning for prey._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 2 pg 256\
 **tremorsense:** 60
 
 **Type:** vermin

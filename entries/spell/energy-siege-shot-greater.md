@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/energy-siege-shot" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "229"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: yes (harmless/object)
 :::
 
 ### Greater Energy Siege Shot
-
-**Sources:** Ultimate Combat pg 229
 
 This spell functions like [energy siege shot](ref/spell/energy-siege-shot), except it can target
 siege engines of any size, not just Large siege engines.

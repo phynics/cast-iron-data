@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "freezing_flow", path = "json/monsters31.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "115"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _This transparent blue formation of ice is as forbidding as the serpent it resem
 
 **Perception:** -5
 
-**Sources:** Bestiary 4 pg 115\
 **Subtype:** Cold, Water
 
 **Experience points:** 1,200

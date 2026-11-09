@@ -6,6 +6,9 @@ source_ids = ["pathfinder-132-the-six-legend-soul"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thrum_of_the_hidden_soul", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "pathfinder-132-the-six-legend-soul"
+page = "8"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "13th"
 +++
 
-**Sources:** Pathfinder \#132: The Six-Legend Soul pg 8\
 **Aura** moderate necromancy; **CL** 13th\
 **Slot** none; **Price** 32,000 gp; **Weight** -
 

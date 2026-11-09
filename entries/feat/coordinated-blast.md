@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "coordinated_blast", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "204"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Whenever you use a spell or ability with an area (such as fireball or
 +++
 
 ## Coordinated Blast (Teamwork)
-
-**Sources:** Inner Sea Races pg 204
 
 With trained precision, you create safe pockets within the areas of your spells, inside which your
 allies remain safe.\

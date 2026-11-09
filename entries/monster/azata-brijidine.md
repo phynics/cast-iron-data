@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "azata_brijidine", path = "json/monsters27.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "37"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ _This beautiful woman has flesh made of lava. She soars through the sky on a tra
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 2 pg 37\
 **Subtype:** Azata, Chaotic, Earth, Extraplanar, Fire, Good
 
 **tremorsense:** 60

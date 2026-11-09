@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/occultist" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "32"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["One of the two occultist implements learned at 1st level, 6th- and 
 alters = ["Mental focus"]
 +++
 
-**Sources:** Adventurer's Guide pg 32\
 Most occultists acquire and study antiques at a steady pace, learning new techniques one at a time.
 A lucky few join wealthy organizations replete with relics or inherit undocumented vaults full of
 historical treasures, and dabble in a wide variety of implements while mastering few. This is

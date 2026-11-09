@@ -6,12 +6,13 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "type_d_wands", path = "json/rules_adv_gm06.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "382"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Equipment pg 382
 
 ### Table 7-42: Random Wands
 

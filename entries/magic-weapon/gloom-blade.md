@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gloom_blade", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "155"
+[[sources]]
+publication = "advanced-race-guide"
+page = "106"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong evocation"
 caster_level = "13th"
 +++
 
-**Sources:** Ultimate Equipment pg 155, Advanced Race Guide pg 106\
 **Aura** strong evocation; **CL** 13th\
 **Slot** none; **Price** 8,810 gp; **Weight** 2 lbs.
 

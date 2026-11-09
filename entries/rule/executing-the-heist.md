@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "executing_the_heist", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "123"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 123
 
 Once the planning is finished, it's time to actually play out the heist. For a complex heist (or if
 the players have come up with an excessively convoluted plan), GMs might consider splitting this

@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "instant_armor", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "229"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Target: you
 Subschool: Creation
 Descriptors: force
 :::
-
-**Sources:** Advanced Player's Guide pg 229
 
 You instantly wrap your body in a suit of armor made from opaque force. At your option, the armor
 can be decorated with your religion's holy symbol in a prominent place, such as upon the breastplate

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/wizard" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "158"
 
 [fields]
 kind = "archetype"
 replaces = ["Arcane bond", "5th-level bonus feat", "10th-level bonus feat", "15th-level bonus feat"]
 +++
 
-**Sources:** Advanced Race Guide pg 158\
 The wind listener takes a sylph's natural curiosity to the extreme, enhancing his natural skill at
 subterfuge and eavesdropping with potent arcane magic. A wind listener has the following class
 features.

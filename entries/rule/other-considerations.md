@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "other_considerations", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "167"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 167
 
 One of the biggest questions that comes up in creating planes of super-powerful (and in some cases
 deific) entities is why those beings don't already control the players' comparatively weak

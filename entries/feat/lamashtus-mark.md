@@ -6,14 +6,18 @@ source_ids = ["rise-of-the-runelords-anniversary-edition", "pathfinder-1-burnt-o
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lamashtus_mark", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "rise-of-the-runelords-anniversary-edition"
+page = "419"
+[[sources]]
+publication = "pathfinder-1-burnt-offerings"
+page = "56"
 
 [fields]
 kind = "feat"
 prerequisites = "Con 13, Lamashtu as patron deity."
 benefit = "Your abdomen bears several ugly scars, as if your belly had been torn open by a clawed hand. Lamashtu's Mark identifies you as favored worshiper of the Mother of Monsters, and if it is visible, you gain a +2 bonus on Intimidate checks but a -2 penalty on Diplomacy checks."
 +++
-
-**Sources:** Rise of the Runelords Anniversary Edition pg 419, Pathfinder \#1: Burnt Offerings pg 56
 
 You are marked as one of Lamashtu's favored minions.\
 **Prerequisites:** Con 13, [Lamashtu](ref/faith/lamashtu) as patron deity.\

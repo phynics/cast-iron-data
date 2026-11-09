@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "discordant_blast", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "216"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Spell resistance: yes
 Area: see text
 Descriptors: sonic
 :::
-
-**Sources:** Advanced Player's Guide pg 216
 
 You create a wave of thunder and force, either in a 10-foot-radius burst centered on you or in
 30-foot cone-shaped burst. Creatures in the area take 3d6 points of sonic damage and are pushed away

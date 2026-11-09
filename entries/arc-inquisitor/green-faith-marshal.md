@@ -9,6 +9,12 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/inquisitor" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "141"
+[[sources]]
+publication = "heroes-of-the-wild"
+page = "24"
 
 [fields]
 kind = "archetype"
@@ -16,7 +22,6 @@ replaces = ["Stern gaze", "Monster lore", "Discern lies", "Stalwart"]
 alters = ["Domain"]
 +++
 
-**Sources:** Ultimate Wilderness pg 141, Heroes of the Wild pg 24\
 The [Green Faith](ref/faith/green-faith) marshal serves as a literal force of nature, hunting down
 and punishing those who have committed sins against nature through enslavement and mistreatment of
 animals or destruction of wild places.

@@ -6,12 +6,13 @@ source_ids = ["alchemy-manual"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "processes", path = "json/rules_rulesets02.json" },
 ]
+[[sources]]
+publication = "alchemy-manual"
+page = "4"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Alchemy Manual pg 4
 
 Each alchemical process listed below is represented by a symbol \[in the physical book\], requires a
 certain length of time, and might require one or more alchemical crafting tools. The length of time

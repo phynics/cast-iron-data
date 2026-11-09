@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crepuscular_trinket", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "53"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Sources:** Planar Adventures pg 53\
 **Aura** faint abjuration; **CL** 5th\
 **Slot** neck; **Price** 4,000 gp; **Weight** -
 

@@ -8,12 +8,14 @@ parent = "ref/umr/water-breathing"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "json/umr.json#water_breathing|section:water-breathing", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "301"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Bestiary 3 pg 301\
 A creature with this special ability can breathe underwater indefinitely. It can freely use any
 breath weapon, spells, or other abilities while submerged.
 

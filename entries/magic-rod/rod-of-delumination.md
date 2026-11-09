@@ -6,6 +6,9 @@ source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rod_of_delumination", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "blood-of-shadows"
+page = "26"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong evocation"
 caster_level = "17th"
 +++
 
-**Sources:** Blood of Shadows pg 26\
 **Aura** strong evocation; **CL** 17th\
 **Slot** none; **Price** 35,000 gp; **Weight** 5 lbs.
 

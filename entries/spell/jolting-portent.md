@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jolting_portent", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "232"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: electricity
 :::
-
-**Sources:** Ultimate Combat pg 232
 
 The creature you designate is surrounded by a glowing red aura of vengeful fate. Once per round when
 the target makes an attack or casts a spell, it must succeed at a Fortitude saving throw with a DC =

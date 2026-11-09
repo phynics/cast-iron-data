@@ -6,14 +6,21 @@ source_ids = ["ranged-tactics-toolbox", "ultimate-combat", "ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tube_arrow_shooter", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "0"
+[[sources]]
+publication = "ultimate-combat"
+page = "134"
+[[sources]]
+publication = "ultimate-equipment"
+page = "19"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "0.5 lb."
 +++
-
-**Sources:** Ranged Tactics Toolbox pg 0, Ultimate Combat pg 134, Ultimate Equipment pg 19
 
 This weapon consists of a small metal tube hidden within a sleeve; the tube holds a short,
 spring-loaded [bamboo shaft arrow](ref/eq-weapon/bamboo-shaft-arrows). You gain a +2 bonus on

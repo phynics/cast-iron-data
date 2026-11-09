@@ -6,6 +6,12 @@ source_ids = ["bestiary-6", "numeria-land-of-fallen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "targotha", path = "json/monsters23.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "261"
+[[sources]]
+publication = "numeria-land-of-fallen-stars"
+page = "60"
 
 [fields]
 kind = "creature"
@@ -46,7 +52,6 @@ deep-purple body._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 6 pg 261, Numeria, Land of Fallen Stars pg 60\
 **Experience points:** 51,200
 
 **Armor class:** 28/10/26

@@ -6,6 +6,9 @@ source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "healers_satchel_specialized", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "healers-handbook"
+page = "28"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "3rd"
 
 ## Healer's Satchel
 
-**Sources:** Healer's Handbook pg 28\
 **Aura** faint conjuration; **CL** 3rd\
 **Slot** none; **Price** 1,500 gp (Normal), 3,000 gp (Specialized); **Weight** 1 lb.
 

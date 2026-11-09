@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boilborn", path = "json/monsters27.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "22"
 
 [fields]
 kind = "creature"
@@ -39,7 +42,6 @@ _Like some taut pustule ready to burst, this mobile wound scuttles on a bristle 
 
 **Perception:** -4
 
-**Sources:** Bestiary 4 pg 22\
 **Size:** tiny
 
 **Experience points:** 400

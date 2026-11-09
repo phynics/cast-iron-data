@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/skald" },
 ]
+[[sources]]
+publication = "advanced-class-origins"
+page = "19"
 
 [fields]
 kind = "archetype"
 replaces = ["Scribe Scroll", "Bardic knowledge", "Well-versed", "Song of marching"]
 +++
 
-**Sources:** Advanced Class Origins pg 19\
 The Ulfen prize skalds on sea raids and linnorm hunts. Dragon skald performances involve song,
 whistling, or blowing mighty horns, and viking sailors often talk about having a skald along to
 whistle up a wind or sing away the mists on the morning of a momentous raid.

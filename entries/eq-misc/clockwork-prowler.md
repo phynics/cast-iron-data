@@ -6,6 +6,9 @@ source_ids = ["pathfinder-society-field-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clockwork_prowler", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "pathfinder-society-field-guide"
+page = "48"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "500 gp"
 weight = "25 lbs."
 +++
 
-**Sources:** Pathfinder Society Field Guide pg 48\
 **Price** 500 gp; **Weight** 25 lbs.\
 **Category** Alchemical Tools
 

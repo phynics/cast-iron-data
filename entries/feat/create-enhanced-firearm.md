@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/gunsmithing", label = "or" },
 ]
+[[sources]]
+publication = "people-of-the-wastes"
+page = "26"
 
 [fields]
 kind = "feat"
@@ -19,8 +22,6 @@ benefit = "When you craft a firearm or magical firearm, you can use reinforced c
 +++
 
 ## Create Enhanced Firearm (Item Creation)
-
-**Sources:** People of the Wastes pg 26
 
 You can craft superior firearms.\
 **Prerequisites:** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor); Craft

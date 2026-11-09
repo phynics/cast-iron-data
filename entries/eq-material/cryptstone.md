@@ -6,13 +6,14 @@ source_ids = ["pathfinder-139-the-dead-road"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cryptstone", path = "json/equipment_special_materials.json" },
 ]
+[[sources]]
+publication = "pathfinder-139-the-dead-road"
+page = "63"
 
 [fields]
 kind = "item"
 category = "Special Materials"
 +++
-
-**Sources:** Pathfinder \#139: The Dead Road pg 63
 
 Cryptstone is a dense gray stone scavenged from the mausoleums of the Graveyard of Souls in the
 Boneyard. While cryptstone may appear ancient and pitted, the supernatural essence of the Boneyard

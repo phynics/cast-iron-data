@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "pathfinder-48-shadows-of-gallowspire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychopomp_morrigna", path = "json/monsters19.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "219"
+[[sources]]
+publication = "pathfinder-48-shadows-of-gallowspire"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -44,7 +50,6 @@ her clothing and staff._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Spiritsense
 
-**Sources:** Bestiary 4 pg 219, Pathfinder \#48: Shadows of Gallowspire pg 86\
 **Subtype:** Extraplanar, Psychopomp
 
 **Experience points:** 25,600

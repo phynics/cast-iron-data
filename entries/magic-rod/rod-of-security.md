@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rod_of_security", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "183"
+[[sources]]
+publication = "core-rulebook"
+page = "485"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong conjuration"
 caster_level = "20th"
 +++
 
-**Sources:** Ultimate Equipment pg 183, PRPG Core Rulebook pg 485\
 **Aura** strong conjuration; **CL** 20th\
 **Slot** none; **Price** 61,000 gp; **Weight** 5 lbs.
 

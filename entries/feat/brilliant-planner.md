@@ -6,14 +6,15 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brilliant_planner", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "75"
 
 [fields]
 kind = "feat"
 prerequisites = "Int 13, character level 5th."
 benefit = "You can prepare for future contingencies without defining what those preparations are until they are relevant. As a part of this preparation, while in a settlement for at least 24 hours, you can take 8 hours and spend up to 50 gp per character level, which becomes your brilliant plan fund. While you have a brilliant plan pending, you are always treated as carrying 20 additional pounds of weight, even before you define your brilliant plan."
 +++
-
-**Sources:** Ultimate Intrigue pg 75
 
 Your experience and intellect enable you to create prescient plans and contingencies.\
 **Prerequisites:** Int 13, character level 5th.\

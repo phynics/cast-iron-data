@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "angel_empyrean", path = "json/monsters26.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "24"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ composed of wispy blue light._
 
 **Senses:** Darkvision 60 ft., Detect evil, Detect snares and pits, Low-light vision, True seeing
 
-**Sources:** Bestiary 5 pg 24\
 **Subtype:** Angel, Extraplanar, Good
 
 **Experience points:** 307,200

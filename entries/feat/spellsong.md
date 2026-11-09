@@ -6,14 +6,15 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spellsong", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "156"
 
 [fields]
 kind = "feat"
 prerequisites = "Cha 13, bardic performance class ability, able to cast 1st-level spells."
 benefit = "You can combine your bardic performance and your spellcasting in two ways."
 +++
-
-**Sources:** Ultimate Magic pg 156
 
 You can blend the power of your performance and spellcasting.\
 **Prerequisites:** Cha 13, bardic performance class ability, able to cast 1st-level spells.\

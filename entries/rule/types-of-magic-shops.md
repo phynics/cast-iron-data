@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "types_of_magic_shops", path = "json/rules_gm03.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "106"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 106
 
 Low-end shops are small, dingy operations, usually owned by a sole proprietor. They're often
 disorganized, dingy, and filled with marginally useful clutter. Shops of this grade frequently

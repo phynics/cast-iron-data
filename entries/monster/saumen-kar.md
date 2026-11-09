@@ -6,6 +6,9 @@ source_ids = ["pathfinder-51-the-hungry-storm"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "saumen_kar", path = "json/monsters21.json" },
 ]
+[[sources]]
+publication = "pathfinder-51-the-hungry-storm"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ frostbite stretches taught over a misshapen skull crowned with a pair of ivory h
 
 **Senses:** Darkvision 60 ft., Scent
 
-**Sources:** Pathfinder \#51: The Hungry Storm pg 90\
 **Experience points:** 9,600
 
 **Armor class:** 24/11/22

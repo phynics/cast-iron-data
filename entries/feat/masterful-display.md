@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "masterful_display", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "109"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Choose the effects of any two performance feats you have. When you ma
 +++
 
 ## Masterful Display (Combat, Performance)
-
-**Sources:** Ultimate Combat pg 109
 
 You craft a special victory performance that causes the crowd to go wild.\
 **Prerequisites:** [Dazzling Display](ref/feat/dazzling-display), any two performance feats.\

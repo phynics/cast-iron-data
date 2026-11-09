@@ -6,6 +6,9 @@ source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "treasonous", path = "json/magic_enhancements2.json" },
 ]
+[[sources]]
+publication = "quests-and-campaigns"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration"
 caster_level = "12th"
 +++
 
-**Sources:** Quests and Campaigns pg 30\
 **Aura** strong conjuration; **CL** 12th\
 **Slot** none; **Price** +2 bonus; **Weight** -
 

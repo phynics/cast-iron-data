@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "yuki_onna", path = "json/monsters41.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "287"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ snow._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 3 pg 287\
 **Subtype:** Cold, Incorporeal
 
 **Type:** undead

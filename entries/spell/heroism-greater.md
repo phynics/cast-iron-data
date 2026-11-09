@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/heroism" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "295"
 
 [fields]
 kind = "spell"
@@ -55,8 +58,6 @@ Descriptors: mind-affecting
 :::
 
 ### Greater Heroism
-
-**Sources:** PRPG Core Rulebook pg 295
 
 This spell functions like [heroism](ref/spell/heroism), except the creature gains a +4 morale bonus
 on attack rolls, saves, and skill checks, immunity to fear effects, and temporary hit points equal

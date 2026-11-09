@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eel_electric_eel", path = "json/monsters09.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "119"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ emits from the creature's body._
 
 **Size:** small
 
-**Sources:** Pathfinder RPG Bestiary pg 119\
 **Experience points:** 600
 
 **Armor class:** 15/13/13

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "one_mind", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "207"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever you're adjacent to an ally who also has this feat, if your a
 +++
 
 ## One Mind (Teamwork)
-
-**Sources:** Inner Sea Races pg 207
 
 Your nearly supernatural mental connection with your allies keeps you in a constant state of
 readiness.\

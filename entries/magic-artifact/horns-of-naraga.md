@@ -6,6 +6,15 @@ source_ids = ["ultimate-equipment", "artifacts-and-legends", "dungeons-of-golari
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horns_of_naraga", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "338"
+[[sources]]
+publication = "artifacts-and-legends"
+page = "28"
+[[sources]]
+publication = "dungeons-of-golarion"
+page = "23"
 
 [fields]
 kind = "item"
@@ -16,8 +25,6 @@ slot = "head"
 aura = "overwhelming necromancy"
 caster_level = "22nd"
 +++
-
-**Sources:** Ultimate Equipment pg 338, Artifacts and Legends pg 28, Dungeons of Golarion pg 23
 
 **Aura** overwhelming necromancy; **CL** 22nd\
 **Slot** head; **Price** -; **Weight** 8 lbs.

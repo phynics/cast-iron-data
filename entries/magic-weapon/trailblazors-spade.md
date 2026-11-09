@@ -6,6 +6,9 @@ source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trailblazors_spade", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "magical-marketplace"
+page = "5"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Magical Marketplace pg 5\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** none; **Price** 11,400 gp; **Weight** 3 lbs.
 

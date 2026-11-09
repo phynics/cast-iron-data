@@ -6,6 +6,9 @@ source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rotting_alliance", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "61"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes
 Target: one living creature/level, no two of which can be more than 60 feet apart
 Descriptors: curse, disease
 :::
-
-**Sources:** Inner Sea Intrigue pg 61
 
 You curse two or more creatures to sicken and waste away while in each others' company. Each target
 that fails a Fortitude save becomes cursed with a wasting sickness. The disease has no onset period,

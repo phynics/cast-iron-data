@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/amateur-gunslinger", label = "or" },
 ]
+[[sources]]
+publication = "magical-marketplace"
+page = "22"
 
 [fields]
 kind = "feat"
@@ -19,8 +22,6 @@ benefit = "Whenever you use your *pistol-whip* deed, you can fire a single bulle
 +++
 
 ## Whip-Shot Deed (Grit)
-
-**Sources:** Magical Marketplace pg 22
 
 You can fire your weapon and strike with it at the same time.\
 **Prerequisites:** Grit class feature or [Amateur Gunslinger](ref/feat/amateur-gunslinger) feat,

@@ -6,13 +6,14 @@ source_ids = ["the-harrow-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rakshasas_fortune", path = "json/class_ability_magus_arcana.json" },
 ]
+[[sources]]
+publication = "the-harrow-handbook"
+page = "25"
 
 [fields]
 kind = "class_option"
 group = "magus-arcana"
 +++
-
-**Sources:** The Harrow Handbook pg 25
 
 **Rakshasa's Fortune (Su):**
 

@@ -6,6 +6,9 @@ source_ids = ["war-for-the-crown-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "noble_scion_taldor_variant", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "war-for-the-crown-players-guide"
+page = "10"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ prerequisites = "Cha 13 or Child of Oppara trait, must be taken at 1st level."
 benefit = "You gain a +2 bonus on all Knowledge (nobility) checks, and Knowledge (nobility) is always a class skill for you. You also gain an additional benefit depending on which family you belong to."
 special = "This is a variant of the Noble Scion feat. If you take this version of the feat, you cannot also take the original version."
 +++
-
-**Sources:** War for the Crown Player's Guide pg 10
 
 You are a member of one of the significant noble families of Oppara, whether or not you remain in
 good standing with your family. In many cases, these families are Imperialists loyal to Maxillar

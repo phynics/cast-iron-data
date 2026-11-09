@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "offensive_manifestation_full_round_action", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "202"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 202
 
 This type of manifestation is a direct attack on an opponent, a thought-form creature, or both. An
 offensive manifestation can attack a variety of defenses, depending on the number of MP spent and

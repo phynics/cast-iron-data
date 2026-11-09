@@ -6,6 +6,9 @@ source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monstrous_crafter", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "monster-hunters-handbook"
+page = "24"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever you use the Grisly Ornament feat, you are able to permanentl
 +++
 
 ## Monstrous Crafter (Item Creation)
-
-**Sources:** Monster Hunter's Handbook pg 24
 
 You can weave pieces of beasts into your magic items.\
 **Prerequisites:** [Craft Wondrous Item](ref/feat/craft-wondrous-item),

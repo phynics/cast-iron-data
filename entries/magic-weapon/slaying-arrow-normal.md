@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slaying_arrow_normal", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "160"
+[[sources]]
+publication = "core-rulebook"
+page = "471"
 
 [fields]
 kind = "item"
@@ -19,7 +25,6 @@ caster_level = "13th"
 
 ## Slaying Arrow
 
-**Sources:** Ultimate Equipment pg 160, PRPG Core Rulebook pg 471\
 **Aura** strong necromancy; **CL** 13th\
 **Slot** none; **Price** normal (2,282 gp), greater (4,057 gp); **Weight** 1/10 lb.
 

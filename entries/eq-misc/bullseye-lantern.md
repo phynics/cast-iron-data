@@ -6,6 +6,15 @@ source_ids = ["ultimate-equipment", "core-rulebook", "adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bullseye_lantern", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "56"
+[[sources]]
+publication = "core-rulebook"
+page = "158"
+[[sources]]
+publication = "adventurers-armory"
+page = "19"
 
 [fields]
 kind = "item"
@@ -14,7 +23,6 @@ price = "12 gp (normal), 17 gp (waterproof)"
 weight = "3 lbs."
 +++
 
-**Sources:** Ultimate Equipment pg 56, PRPG Core Rulebook pg 158, Adventurer's Armory pg 19\
 **Price** 12 gp (normal), 17 gp (waterproof); **Weight** 3 lbs.\
 **Category** Adventuring Gear
 

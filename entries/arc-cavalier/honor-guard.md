@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cavalier" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "37"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Cavalier's charge", "Mighty charge", "Demanding challenge"]
 alters = ["Challenge"]
 +++
 
-**Sources:** Ultimate Combat pg 37\
 Certain cavaliers are trained not as advance combatants, but as loyal guards, standing as firm
 defenders in the face of threats to their chosen charge. These honor guards are sometimes merely
 ornamental, performing their functions on a ceremonial basis, but a surprising number are capable,

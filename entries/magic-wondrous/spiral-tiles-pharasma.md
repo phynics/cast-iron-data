@@ -6,6 +6,9 @@ source_ids = ["faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spiral_tiles_pharasma", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "faiths-of-balance"
+page = "27"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Sources:** Faiths of Balance pg 27\
 **Aura** faint divination; **CL** 5th\
 **Slot** none; **Price** 6,000 gp; **Weight** 1 lb.
 

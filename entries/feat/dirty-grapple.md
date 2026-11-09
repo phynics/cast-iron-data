@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dirty_grapple", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "14"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You can attempt to perform a dirty trick and a grapple maneuver toget
 +++
 
 ## Dirty Grapple (Combat)
-
-**Sources:** Dirty Tactics Toolbox pg 14
 
 You are skilled at pulling dirty tricks during a grapple.\
 **Prerequisites:** Dex 13, Int 13, [Combat Expertise](ref/feat/combat-expertise),

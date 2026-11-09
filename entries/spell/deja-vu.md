@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deja_vu", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "163"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Occult Adventures pg 163
 
 You reach into the target's mind and put its thought processes into a temporary loop. Whatever
 full-round, standard, or move actions the creature takes on its first turn after you cast this

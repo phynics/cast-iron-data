@@ -6,12 +6,14 @@ source_ids = ["skull-and-shackles-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "taking_control_of_a_ship", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "skull-and-shackles-players-guide"
+page = "15"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Skull and Shackles Player's Guide pg 15\
 If a ship has no pilot, another creature can take control of the ship as long as the creature is
 adjacent to the ship's control device and makes a [sailing check](ref/rule/sailing-check) as a free
 action. The ship's pilot can always give over control to another adjacent creature as a free action.

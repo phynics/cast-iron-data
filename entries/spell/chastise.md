@@ -6,6 +6,9 @@ source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chastise", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "faction-guide"
+page = "61"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Faction Guide pg 61
 
 You gain a +5 bonus on Bluff, Diplomacy, and Intimidate checks to convince a listener that they will
 get in trouble with their superiors or with the law if they don't do what you ask.

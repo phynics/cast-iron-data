@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kingdoms_and_war", path = "json/rules_campaign_types04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "198"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 198
 
 Some heroes found kingdoms, driving out hostile monsters to make room for peaceful settlers. Others
 lead soldiers into battle, waging great and terrible wars. This section presents rules for building

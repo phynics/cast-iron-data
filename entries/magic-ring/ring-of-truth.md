@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_truth", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "349"
+[[sources]]
+publication = "advanced-players-guide"
+page = "310"
 
 [fields]
 kind = "item"
@@ -15,8 +21,6 @@ slot = "ring"
 aura = "moderate enchantment"
 caster_level = "9th"
 +++
-
-**Sources:** Ultimate Equipment pg 349, Advanced Player's Guide pg 310
 
 **Aura** moderate enchantment; **CL** 9th\
 **Slot** ring; **Weight** -

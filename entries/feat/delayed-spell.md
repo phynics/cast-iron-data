@@ -6,6 +6,9 @@ source_ids = ["pathfinder-116-fangs-of-war"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "delayed_spell", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "pathfinder-116-fangs-of-war"
+page = "67"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "A delayed spell can be activated as a standard action anytime within 
 +++
 
 ## Delayed Spell (Metamagic)
-
-**Sources:** Pathfinder \#116: Fangs of War pg 67
 
 You can set a spell to trigger on a delay.\
 **Benefit:** A delayed spell can be activated as a standard action anytime within 1 minute per spell

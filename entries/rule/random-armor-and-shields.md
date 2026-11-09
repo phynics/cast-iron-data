@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "random_armor_and_shields", path = "json/rules_gm03.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "118"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 118
 
 ### Table 5-4: Random Armor and Shields
 

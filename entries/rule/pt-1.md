@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pt_1", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "194"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 194
 
 ### Table 7-17: Random Planar Destinations
 

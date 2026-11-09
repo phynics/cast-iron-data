@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fear", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "293"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Fear (Su or Sp)
 
-**Sources:** Bestiary 5 pg 293\
 Fear attacks can have various effects.
 
 **Fear Aura (Su):** The use of this ability is a free action. The aura can freeze an opponent (as in

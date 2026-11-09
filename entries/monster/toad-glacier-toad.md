@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "toad_glacier_toad", path = "json/monsters23.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "268"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _This improbably large toad has pale blue flesh and a body covered with jagged, 
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Bestiary 2 pg 268\
 **Subtype:** Cold
 
 **Experience points:** 2,400

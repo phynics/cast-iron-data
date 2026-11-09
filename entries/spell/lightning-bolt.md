@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lightning_bolt", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "304"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: yes
 Area: 120-ft. line
 Descriptors: electricity
 :::
-
-**Sources:** PRPG Core Rulebook pg 304
 
 You release a powerful stroke of electrical energy that deals 1d6 points of electricity damage per
 caster level (maximum 10d6) to each creature within its area. The bolt begins at your fingertips.

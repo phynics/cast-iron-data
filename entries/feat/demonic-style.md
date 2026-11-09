@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demonic_style", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "27"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "If you have the rage or bloodrage class feature, you can enter Demoni
 +++
 
 ## Demonic Style (Combat, Style)
-
-**Sources:** Planar Adventures pg 27
 
 Self-preservation is irrelevant in the face of your fury.\
 **Prerequisites:** [Power Attack](ref/feat/power-attack), base attack bonus +1.\

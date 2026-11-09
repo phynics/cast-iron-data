@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kyton_sacristan", path = "json/monsters15.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "177"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ and mouth._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 4 pg 177\
 **Subtype:** Evil, Extraplanar, Kyton, Lawful
 
 **Experience points:** 9,600

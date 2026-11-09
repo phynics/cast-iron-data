@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "misfit-monsters-redeemed"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tojanida", path = "json/monsters23.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "270"
+[[sources]]
+publication = "misfit-monsters-redeemed"
+page = "57"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ snapping beak, and two pincers._
 
 **Senses:** All-around vision, Darkvision 60 ft.
 
-**Sources:** Bestiary 3 pg 270, Misfit Monsters Redeemed pg 57\
 **Subtype:** Extraplanar, Water
 
 **Experience points:** 1,600

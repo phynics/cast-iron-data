@@ -6,6 +6,9 @@ source_ids = ["osirion-legacy-of-the-pharaohs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "desert_hermit", path = "json/npcs8.json" },
 ]
+[[sources]]
+publication = "osirion-legacy-of-the-pharaohs"
+page = "57"
 
 [fields]
 kind = "creature"
@@ -18,7 +21,6 @@ _This weathered-looking desert dweller is dressed from head to toe in tan, loose
 
 **Challenge rating:** 8
 
-**Sources:** Osirion, Legacy of the Pharaohs pg 57\
 **XP** 4,800\
 Human [druid](ref/class/druid) 9\
 N Medium humanoid (human)\

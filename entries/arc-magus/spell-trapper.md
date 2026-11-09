@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/magus" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "15"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Spell recall", "Fighter training"]
 alters = ["Magus arcana"]
 +++
 
-**Sources:** Magic Tactics Toolbox pg 15\
 Spell trappers are found in lands where hunting and magic are abundant, particularly the deserts of
 Thuvia and the harsh lands of Geb and Nex. They forsake much of their arcane skill and martial
 knowledge in exchange for the ability to conjure magical traps to hinder their foes.

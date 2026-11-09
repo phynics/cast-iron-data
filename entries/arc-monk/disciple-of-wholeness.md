@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/monk" },
 ]
+[[sources]]
+publication = "healers-handbook"
+page = "4"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["The ability to spend ki to gain an extra attack during a flurry of 
 alters = ["Ki pool"]
 +++
 
-**Sources:** Healer's Handbook pg 4\
 Disciples of wholeness train to bring themselves and others closer to physical and spiritual
 perfection.
 

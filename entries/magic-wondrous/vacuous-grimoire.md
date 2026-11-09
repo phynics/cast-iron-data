@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vacuous_grimoire", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "351"
+[[sources]]
+publication = "core-rulebook"
+page = "543"
 
 [fields]
 kind = "item"
@@ -16,7 +22,6 @@ aura = "strong enchantment"
 caster_level = "20th"
 +++
 
-**Sources:** Ultimate Equipment pg 351, PRPG Core Rulebook pg 543\
 **Aura** strong enchantment; **CL** 20th\
 **Slot** none; **Weight** 2 lbs.
 

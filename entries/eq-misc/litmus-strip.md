@@ -6,6 +6,9 @@ source_ids = ["dungeoneers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "litmus_strip", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "dungeoneers-handbook"
+page = "26"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "15 gp"
 weight = "-"
 +++
 
-**Sources:** Dungeoneer's Handbook pg 26\
 **Price** 15 gp; **Weight** -\
 **Category** Alchemical Tools
 

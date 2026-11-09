@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "river_whip", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "191"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Effect: whip of water
 Subschool: Creation
 Descriptors: water
 :::
-
-**Sources:** Advanced Class Guide pg 191
 
 You create a coil of flowing fresh water, functioning a whip appropriate for your size, except you
 make a melee touch attack instead of a regular attack. Anything you strike with the whip takes

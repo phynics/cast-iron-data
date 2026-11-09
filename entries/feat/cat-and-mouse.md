@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cat_and_mouse", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "80"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When you use the opportune parry and riposte deed to successfully par
 +++
 
 ## Cat and Mouse (Combat)
-
-**Sources:** Ultimate Intrigue pg 80
 
 You can forgo an obvious counterstrike against an opponent to better spot breaches in its defenses.\
 **Prerequisites:** Bluff 5 ranks, Sense Motive 5 ranks,

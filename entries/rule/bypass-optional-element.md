@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bypass_optional_element", path = "json/rules_gm08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "418"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 418
 
 If the builder of a trap wants to be able to move past the trap after it is created or placed, it's
 a good idea to build in a bypass mechanism: something that temporarily disarms the trap. Bypass

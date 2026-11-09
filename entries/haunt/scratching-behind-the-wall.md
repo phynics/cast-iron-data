@@ -6,12 +6,14 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scratching_behind_the_wall", path = "json/haunts.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "175"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Adventures pg 175\
 A lord with a terrible secret caught a servant snooping through his papers. He knocked the servant
 over the head and threw her into a disused dumbwaiter, which he jammed between floors. The servant
 awoke the following day, and her desperate attempts to escape infuse the walls that contained her.

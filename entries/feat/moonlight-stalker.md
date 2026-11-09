@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "moonlight_stalker", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "110"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While you have concealment from an opponent, you gain a +2 bonus on a
 +++
 
 ## Moonlight Stalker (Combat)
-
-**Sources:** Ultimate Combat pg 110
 
 You are adept at using shadows to conceal your attacks.\
 **Prerequisites:** Int 13, [Blind-Fight](ref/feat/blind-fight),

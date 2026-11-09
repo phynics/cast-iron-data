@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "converting_other_actions", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "107"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 107
 
 While the list of actions in this section is long and covers most of the major actions in the game,
 it's not exhaustive. There are many actions that are not covered in these pages. The following are

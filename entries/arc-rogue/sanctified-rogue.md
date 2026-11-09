@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "74"
 
 [fields]
 kind = "archetype"
 replaces = ["Uncanny dodge", "Improved uncanny dodge"]
 +++
 
-**Sources:** Ultimate Combat pg 74\
 The sanctified rogue serves a higher purpose, acting as a representative of a church or cult, or
 following the tenets of a specific faith or deity. While most sanctified rogues share the beliefs or
 ideals of the religions they represent, not all of them are necessarily pious. A handful of

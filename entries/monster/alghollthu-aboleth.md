@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alghollthu_aboleth", path = "json/monsters26.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "8"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ glistens with thick, clear slime._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 8\
 **Subtype:** Aquatic
 
 **Experience points:** 3,200

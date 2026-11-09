@@ -6,6 +6,9 @@ source_ids = ["dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "invigorating_repose", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "dwarves-of-golarion"
+page = "22"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: no
 Target: you
 Subschool: Healing
 :::
-
-**Sources:** Dwarves of Golarion pg 22
 
 > _In order to prepare this spell, the caster must spend an hour performing a ritual in which he
 > beseeches [Torag](ref/faith/torag) (or a member of his family) for the aid of

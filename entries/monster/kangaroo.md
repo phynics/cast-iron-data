@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kangaroo", path = "json/monsters15.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "191"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ tail trailing behind._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Bestiary 3 pg 191\
 **Experience points:** 200
 
 **Armor class:** 15/13/12

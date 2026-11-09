@@ -6,14 +6,16 @@ source_ids = ["bestiary-5", "bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "colossus", path = "json/monster_subtypes.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+[[sources]]
+publication = "bestiary-4"
 
 [fields]
 kind = "none"
 +++
 
 ## Subtype: Colossus
-
-**Sources:** Bestiary 5, Bestiary 4
 
 Colossi are mythic constructs of Gargantuan size or larger. Unless otherwise noted in a creature's
 entry, colossi have the following traits.

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/skald" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "115"
 
 [fields]
 kind = "archetype"
 replaces = ["Scribe Scroll", "The first daily use of spell kenning gained at 5th level", "Lore master", "The second and third daily uses of spell kenning gained at 11th and 17th levels"]
 +++
 
-**Sources:** Advanced Class Guide pg 115\
 Even the loudest voice can often times be drowned out by the din of battle. Whether with the
 polished metal trumpet of a standing army or the crude curved animal horn of savage raiders, a
 herald of the horn sounds his _raging song_ with thunderous blasts, which can bolster allies or

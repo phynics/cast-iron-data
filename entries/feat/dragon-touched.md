@@ -6,6 +6,9 @@ source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_touched", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "dragonslayers-handbook"
+page = "13"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Choose one kind of dragon (such as blue, green, or silver). You gain 
 +++
 
 ## Dragon-Touched (Story)
-
-**Sources:** Dragonslayer's Handbook pg 13
 
 Your life has been shaped by an encounter with a powerful dragon, and you have dedicated your life
 to seeing that dragon dead.\

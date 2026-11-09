@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rest_eternal", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "238"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: no
 Target: one dead creature touched
 Descriptors: curse
 :::
-
-**Sources:** Advanced Player's Guide pg 238
 
 You place a curse upon a dead creature that bars its spirit from returning. Anyone casting a spell
 that would communicate with the dead creature, return it to life, or turn it into an undead creature

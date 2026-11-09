@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swordlords_cloak_1_bonus", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "26"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "5th"
 
 ## Swordlord's Cloak
 
-**Sources:** Adventurer's Guide pg 26\
 **Aura** faint abjuration and divination; **CL** 5th\
 **Slot** shoulders; **Price** 4,000 gp (+1 bonus), 16,000 gp (+2 bonus), 37,000 gp (+3 bonus),
 64,000 gp (+4 bonus), 100,000 gp (+5 bonus); **Weight** 1 lb.

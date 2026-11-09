@@ -6,6 +6,9 @@ source_ids = ["fey-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "khalirai", path = "json/monsters_unique4.json" },
 ]
+[[sources]]
+publication = "fey-revisited"
+page = "38"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ _This slender, seductive woman has bone-white skin and an otherworldly beauty._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Fey Revisited pg 38\
 **Experience points:** 51,200
 
 **Armor class:** 29/28/21

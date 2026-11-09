@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "remove_sickness", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "234"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: yes (harmless)
 Targets: one creature
 Subschool: Healing
 :::
-
-**Sources:** Ultimate Magic pg 234
 
 You quell feelings of illness and nausea in the target, giving it a +4 morale bonus on saving throws
 against disease, nausea, and sickened effects. If the subject is already under the influence of one

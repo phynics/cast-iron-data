@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "martial_weapon_proficiency", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "130"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "Antipaladins, aristocrats, barbarians, bloodragers, cavaliers, fighte
 +++
 
 ## Martial Weapon Proficiency (Combat)
-
-**Sources:** PRPG Core Rulebook pg 130
 
 Choose a type of martial weapon. You understand how to use that type of martial weapon in combat.\
 **Benefit:** You make attack rolls with the selected weapon normally (without the non-proficient

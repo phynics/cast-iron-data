@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mythic_ascension", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "10"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 10
 
 The moment a character gains her first mythic tier is called the moment of ascension (or simply
 ascension) and is usually concurrent with an extraordinary event. Generally speaking, the GM

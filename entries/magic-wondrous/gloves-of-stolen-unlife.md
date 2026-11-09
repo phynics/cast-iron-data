@@ -6,6 +6,9 @@ source_ids = ["undead-slayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gloves_of_stolen_unlife", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "undead-slayers-handbook"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Sources:** Undead Slayer's Handbook pg 28\
 **Aura** faint necromancy; **CL** 3rd\
 **Slot** hands; **Price** 3,040 gp; **Weight** 1 lb.
 

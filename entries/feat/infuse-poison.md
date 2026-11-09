@@ -6,6 +6,9 @@ source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "infuse_poison", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "12"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You can infuse an ingested poison with any spell of 3rd level or lowe
 +++
 
 ## Infuse Poison (Item Creation)
-
-**Sources:** Black Markets pg 12
 
 You can infuse a poison with a magical effect.\
 **Prerequisites:** [Brew Potion](ref/feat/brew-potion), Craft (alchemy) 5 ranks, caster level 3rd.\

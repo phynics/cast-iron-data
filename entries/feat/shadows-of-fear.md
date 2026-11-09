@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadows_of_fear", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "91"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "The first time each round that you hit a creature suffering from a fe
 +++
 
 ## Shadows of Fear (Combat)
-
-**Sources:** Ultimate Intrigue pg 91
 
 Your enemies' fear causes them to jump at shadows, diverting their attention.\
 **Prerequisites:** Hidden strike +2d8 or [sneak attack](ref/ability/sneak-attack) +2d6.\

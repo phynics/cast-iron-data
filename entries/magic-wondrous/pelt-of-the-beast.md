@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pelt_of_the_beast", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "blood-of-the-moon"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Blood of the Moon pg 31\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** shoulders; **Price** 15,600 gp; **Weight** 8 lbs.
 

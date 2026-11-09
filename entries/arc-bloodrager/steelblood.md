@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bloodrager" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "85"
 
 [fields]
 kind = "archetype"
 replaces = ["The bloodrager's armor proficiency", "Fast movement", "Uncanny dodge", "Improved uncanny dodge", "Damage reduction"]
 +++
 
-**Sources:** Advanced Class Guide pg 85\
 Most bloodragers prefer light armor, but some learn the secret of using heavy armors. These
 steelbloods plod around the battlefield inspiring fear and delivering carnage from within a steel
 shell.

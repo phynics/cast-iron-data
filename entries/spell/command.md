@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "command", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "256"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Target: one living creature
 Subschool: Compulsion
 Descriptors: language-dependant, mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 256
 
 You give the subject a single command, which it obeys to the best of its ability at its earliest
 opportunity. You may select from the following options.

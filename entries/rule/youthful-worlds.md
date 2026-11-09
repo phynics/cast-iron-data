@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "youthful_worlds", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "163"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 163
 
 A young world is one that has only recently given rise to a civilized society, one in which many
 races are in their infancy or have yet to achieve cultural maturity. There are no ruined remnants of

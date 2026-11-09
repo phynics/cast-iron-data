@@ -6,6 +6,9 @@ source_ids = ["bestiary", "monster-codex", "darklands-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "troglodyte", path = "json/monsters39.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "267"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ tail and crests on its head and back._
 
 **Senses:** Darkvision 90 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 267\
 **Subtype:** Reptilian
 
 **Experience points:** 400

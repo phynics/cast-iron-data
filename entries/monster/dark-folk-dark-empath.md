@@ -6,6 +6,9 @@ source_ids = ["occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dark_folk_dark_empath", path = "json/monsters29.json" },
 ]
+[[sources]]
+publication = "occult-bestiary"
+page = "18"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _This gaunt, hunched humanoid's unblinking eyes stare out from a pale face wrapp
 
 **Size:** small
 
-**Sources:** Occult Bestiary pg 18\
 **Subtype:** Dark folk
 
 **Experience points:** 600

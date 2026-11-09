@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/reincarnate" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "13"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Target: dead creature touched
 :::
 
 ### Cyclic Reincarnation
-
-**Sources:** Arcane Anthology pg 13
 
 This spell allows a dead creature that died no more than 1 year before the casting of the spell to
 return to life in a body that closely resembles its original body; it functions as

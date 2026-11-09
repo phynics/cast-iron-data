@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "creating_adventures", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "36"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 36
 
 It's the GM's job to plan and predict the course of an adventure. Depending on you and your players'
 play style, this may be an easy endeavor or require a lot of work. The basic types of adventures are

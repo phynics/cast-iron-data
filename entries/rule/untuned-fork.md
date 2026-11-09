@@ -6,12 +6,13 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "untuned_fork", path = "json/rules_campaign_types09.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "85"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Planar Adventures pg 85
 
 An untuned tuning fork appears as a plain iron tuning fork and cannot be used on its own as a focus
 for [plane shift](ref/spell/plane-shift). An untuned tuning fork can be crafted as a mundane item

@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "freeform_checks", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "171"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 171
 
 While the players will usually be using the standard DCs for various skill checks found in the
 Pathfinder RPG rules, sometimes you'll want them to attempt skill checks for purposes not defined in

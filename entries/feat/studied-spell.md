@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "studied_spell", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "93"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "When casting a studied spell, designate one target affected by the sp
 +++
 
 ## Studied Spell (Metamagic)
-
-**Sources:** Ultimate Intrigue pg 93
 
 You use your knowledge about the target to bypass its resistances and
 [damage reduction](ref/rule/damage-reduction).\

@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "frost", path = "json/magic_enhancements.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "142"
+[[sources]]
+publication = "core-rulebook"
+page = "469"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate evocation"
 caster_level = "8th"
 +++
 
-**Sources:** Ultimate Equipment pg 142, PRPG Core Rulebook pg 469\
 **Aura** moderate evocation; **CL** 8th\
 **Slot** weapon quality; **Price** +1 bonus; **Weight** -
 

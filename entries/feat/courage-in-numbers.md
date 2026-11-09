@@ -6,6 +6,9 @@ source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "courage_in_numbers", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "dragonslayers-handbook"
+page = "21"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You gain a +2 morale bonus on saves against fear for every ally withi
 +++
 
 ## Courage in Numbers (Teamwork)
-
-**Sources:** Dragonslayer's Handbook pg 21
 
 Your allies give you courage when you face an enemy as one.\
 **Prerequisites:** [Iron Will](ref/feat/iron-will).\

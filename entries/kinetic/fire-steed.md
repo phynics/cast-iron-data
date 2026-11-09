@@ -6,6 +6,9 @@ source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fire_steed", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "wilderness-origins"
+page = "29"
 
 [fields]
 kind = "class_option"
@@ -21,8 +24,6 @@ group = "kineticist-wild-talent"
 **Level:** 2
 
 **Burn:** 0
-
-**Source:** Wilderness Origins/29
 
 You imbue a willing animal, magical beast, or other creature that can serve as a suitable mount with
 elemental power from the Plane of Fire, wreathing it in flames for 1 round. You can accept 1 point

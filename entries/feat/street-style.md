@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "street_style", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "92"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "You can enter the style stance for street style only while in urban t
 +++
 
 ## Street Style (Combat, Style)
-
-**Sources:** Ultimate Intrigue pg 92
 
 You use the urban environment to your advantage, thrashing and bashing your foe and driving it back.\
 **Prerequisites:** Str 15, [Improved Bull Rush](ref/feat/improved-bull-rush),

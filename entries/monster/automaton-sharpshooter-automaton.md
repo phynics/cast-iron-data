@@ -6,6 +6,9 @@ source_ids = ["construct-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "automaton_sharpshooter_automaton", path = "json/monsters26.json" },
 ]
+[[sources]]
+publication = "construct-handbook"
+page = "28"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ apparent mechanism._
 
 **Senses:** Darkvision 120 ft., Low-light vision, See invisibility
 
-**Sources:** Construct Handbook pg 28\
 **Subtype:** Automaton, Extraplanar
 
 **Experience points:** 51,200

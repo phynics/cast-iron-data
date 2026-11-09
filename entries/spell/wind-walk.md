@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wind_walk", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "369"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: no and yes (harmless)
 Targets: you and one touched creature per three levels
 Descriptors: air
 :::
-
-**Sources:** PRPG Core Rulebook pg 369
 
 You alter the substance of your body to a cloud-like vapor (as the
 [gaseous form](ref/spell/gaseous-form) spell) and move through the air, possibly at great speed. You

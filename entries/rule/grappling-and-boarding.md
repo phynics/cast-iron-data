@@ -6,12 +6,14 @@ source_ids = ["skull-and-shackles-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grappling_and_boarding", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "skull-and-shackles-players-guide"
+page = "14"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Skull and Shackles Player's Guide pg 14\
 When the crew of one ship wishes to board an enemy ship and attack its crew, they must first grapple
 the other ship. To grapple, the two ships must be within 30 feet of one another (in other words,
 they must be in adjacent squares on the battle mat). If both pilots want to grapple, grappling is

@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "irrisen-land-of-eternal-winter"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ved", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "263"
+[[sources]]
+publication = "irrisen-land-of-eternal-winter"
+page = "61"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ primitive club._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 5 pg 263, Irrisen - Land of Eternal Winter pg 61\
 **Subtype:** Giant
 
 **Experience points:** 1,600

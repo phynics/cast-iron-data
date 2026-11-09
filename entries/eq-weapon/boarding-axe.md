@@ -6,15 +6,21 @@ source_ids = ["adventurers-armory-2", "pirates-of-the-inner-sea", "skull-and-sha
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boarding_axe", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "8"
+[[sources]]
+publication = "pirates-of-the-inner-sea"
+page = "19"
+[[sources]]
+publication = "skull-and-shackles-players-guide"
+page = "6"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "3 lbs."
 +++
-
-**Sources:** Adventurer's Armory 2 pg 8, Pirates of the Inner Sea pg 19, Skull and Shackles Player's
-Guide pg 6
 
 A boarding axe is similar to a handaxe, but features a spike that allows the weapon to do either
 slashing or piercing damage. When in hand, a boarding axe grants a +2 circumstance bonus on Climb

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "minor_creation", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "313"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Spell resistance: no
 Effect: unattended, nonmagical object of nonliving plant matter, up to 1 cu. ft./level
 Subschool: Creation
 :::
-
-**Sources:** PRPG Core Rulebook pg 313
 
 You create a nonmagical, unattended object of nonliving vegetable matter. The volume of the item
 created cannot exceed 1 cubic foot per caster level. You must succeed on an appropriate Craft skill

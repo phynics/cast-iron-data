@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "merge_with_familiar", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "231"
+[[sources]]
+publication = "familiar-folio"
+page = "23"
 
 [fields]
 kind = "spell"
@@ -40,8 +46,6 @@ Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
 Target: your familiar or spirit animal; see text
 :::
-
-**Sources:** Ultimate Wilderness pg 231, Familiar Folio pg 23
 
 As long as the target is at least one size category smaller than you are, it can merge harmlessly
 into your body while under the effect of this spell. For the duration of this spell, you and the

@@ -6,6 +6,9 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nanite_hypogun_orange", path = "json/equipment_tech_misc.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "50"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ slot = "none"
 
 ## Nanite hypogun
 
-**Sources:** Technology Guide pg 50\
 **Price** 6,000 gp (black), 91,000 gp (blue), 1,000 gp (brown), 28,000 gp (gray), 45,000 gp (green),
 125,000 gp (orange), 178,000 gp (prismatic), 66,000 gp (red), 15,000 gp (white)\
 **Slot** none; **Weight** 1 lb. (all)\

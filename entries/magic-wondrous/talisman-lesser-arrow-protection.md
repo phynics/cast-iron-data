@@ -6,6 +6,12 @@ source_ids = ["occult-adventures", "horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "talisman_lesser_arrow_protection", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "263-4"
+[[sources]]
+publication = "horror-adventures"
+page = "223-4"
 
 [fields]
 kind = "item"
@@ -19,7 +25,6 @@ caster_level = "varies"
 
 ## Talisman (Lesser)
 
-**Sources:** Occult Adventures pg. 263-4, Horror Adventures pg. 223-4\
 **Aura** varies; **CL** varies\
 **Slot** neck; **Price** 50 gp (Lesser, Beneficial Winds), 450 gp (Lesser, Akoben), 450 gp (Lesser,
 Sealed Summons), 450 gp (Lesser, Warrior's Courage), 600 gp (Lesser, Arrow Protection), 600 gp

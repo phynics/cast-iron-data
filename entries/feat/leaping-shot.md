@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/amateur-gunslinger", label = "or" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "108"
 
 [fields]
 kind = "feat"
@@ -19,8 +22,6 @@ benefit = "You gain a +2 bonus on Acrobatics checks made to jump. As a full-roun
 +++
 
 ## Leaping Shot (Grit)
-
-**Sources:** Ultimate Combat pg 108
 
 You leap through the air, guns blazing.\
 **Prerequisites:** Dex 13, grit class feature or [Amateur Gunslinger](ref/feat/amateur-gunslinger)

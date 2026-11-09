@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "owl_dive", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "88"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using Owl Style, you can use your base attack bonus in place of
 +++
 
 ## Owl Dive (Combat)
-
-**Sources:** Ultimate Intrigue pg 88
 
 Your martial training helps you fly and charge through others' spaces.\
 **Prerequisites:** Dex 17, [Owl Style](ref/feat/owl-style), [Owl Swoop](ref/feat/owl-swoop), base

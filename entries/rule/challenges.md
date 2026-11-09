@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "challenges", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "155"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 155
 
 Far from the protecting arm of a liege lord (if they have one at all), most rural societies must
 rely on themselves. Along with the normal race against time and nature to produce enough food to

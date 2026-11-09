@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/slayer" },
 ]
+[[sources]]
+publication = "advanced-class-origins"
+page = "20"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Track", "Slayer talent received at 2nd level", "Stalker", "Slayer t
 alters = ["Master slayer"]
 +++
 
-**Sources:** Advanced Class Origins pg 20\
 First known in Numeria, these aberration hunters have spread to other regions of Golarion, even as
 far as the lands bordering the Mana Wastes. In Numeria, Pureblades are skilled at slaying naturally
 arising [aberrations](ref/type/aberration) and any creatures that have been mutated by exposure to

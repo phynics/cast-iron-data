@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aether_puppet", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "22"
 
 [fields]
 kind = "class_option"
@@ -21,8 +24,6 @@ group = "kineticist-wild-talent"
 **Level:** 5
 
 **Burn:** 0
-
-**Source:** Occult Adventures/22
 
 You use strands of aether to animate an object. You can animate a Medium or smaller object as an
 [animated object](ref/monster/animated-object) with no Construction Point abilities (except for

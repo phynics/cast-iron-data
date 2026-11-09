@@ -6,6 +6,9 @@ source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "maelstrom", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "20"
 
 [fields]
 kind = "class_option"
@@ -26,8 +29,6 @@ group = "kineticist-wild-talent"
 [Water Blast](ref/kinetic/water-blast)
 
 **Saving throw:** Reflex partial
-
-**Source:** Psychic Anthology/20
 
 You create a 20-foot-radius whirling _maelstrom_ in a body of water within 120 feet (the area of the
 _maelstrom_ does not include any squares in the radius that aren't in the water). Any creature in

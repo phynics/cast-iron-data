@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burning", path = "json/magic_enhancements2.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "57"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong evocation"
 caster_level = "12th"
 +++
 
-**Sources:** Monster Codex pg 57\
 **Aura** strong evocation; **CL** 12th\
 **Slot** none; **Price** +2 bonus; **Weight** -
 

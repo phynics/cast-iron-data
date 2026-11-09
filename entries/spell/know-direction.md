@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "know_direction", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "304"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** PRPG Core Rulebook pg 304
 
 When you cast this spell, you instantly know the direction of north from your current position. The
 spell is effective in any environment in which "north" exists, but it may not work in extraplanar

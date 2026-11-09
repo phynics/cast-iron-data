@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dream", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "274"
 
 [fields]
 kind = "spell"
@@ -53,8 +56,6 @@ Target: one living creature touched
 Subschool: Phantasm
 Descriptors: mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 274
 
 You, or a messenger you touch, send a message to others in the form of a dream. At the beginning of
 the spell, you must name the recipient or identify him or her by some title that leaves no doubt as

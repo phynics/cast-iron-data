@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "criminal_code", path = "json/rules_subsystems01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "162"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 162
 
 These events apply to a criminal code such as that used by a thieves' guild or ninja clan.
 

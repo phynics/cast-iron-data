@@ -6,6 +6,9 @@ source_ids = ["the-demon-within"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_demonscope", path = "json/magic_artifact3.json" },
 ]
+[[sources]]
+publication = "the-demon-within"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration and divination"
 caster_level = "20th"
 +++
 
-**Sources:** The Demon Within pg 29\
 **Aura** strong abjuration and divination; **CL** 20th\
 **Slot** none; **Price** -; **Weight** -
 

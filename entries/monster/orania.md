@@ -6,6 +6,9 @@ source_ids = ["giants-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "orania", path = "json/monsters_unique3.json" },
 ]
+[[sources]]
+publication = "giants-revisited"
+page = "8"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ lightning-infused spear._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Giants Revisited pg 8\
 **Subtype:** Giant
 
 **Experience points:** 153,600

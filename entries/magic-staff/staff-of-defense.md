@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_defense", path = "json/magic_staff.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "196"
+[[sources]]
+publication = "core-rulebook"
+page = "492"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong abjuration"
 caster_level = "15th"
 +++
 
-**Sources:** Ultimate Equipment pg 196, PRPG Core Rulebook pg 492\
 **Aura** strong abjuration; **CL** 15th\
 **Slot** none; **Price** 62,000 gp; **Weight** 5 lbs.
 

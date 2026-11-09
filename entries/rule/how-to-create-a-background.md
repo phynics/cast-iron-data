@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "how_to_create_a_background", path = "json/rules_basics03.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "8"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 8
 
 There are several ways you can approach character background. One approach is an organic method:
 brainstorming character details, guided by the questions in the following sections. Alternatively,

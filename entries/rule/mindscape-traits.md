@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mindscape_traits", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "235"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 235
 
 Each mindscape has a set of specific traits that dictate its appearance and behavior, just as the
 planes do. These traits supersede the normal planar traits of the

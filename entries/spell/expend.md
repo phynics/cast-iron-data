@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "expend", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "220"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: Will negates
 Spell resistance: yes
 Area: 20-ft.-radius burst
 :::
-
-**Sources:** Advanced Player's Guide pg 220
 
 You cause all creatures in the affected area to use up one or more of their limited-use magical
 abilities without any actual effect. A limited-use magical ability is any supernatural or

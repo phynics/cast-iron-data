@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_blaze", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "143"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Spell resistance: yes (harmless)
 Target: creature touched
 Descriptors: fire
 :::
-
-**Sources:** Advanced Race Guide pg 143
 
 > _[Orcs](ref/race/orc) have access to the following spell._
 

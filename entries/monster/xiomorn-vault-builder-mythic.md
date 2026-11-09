@@ -6,6 +6,12 @@ source_ids = ["planar-adventures", "the-emerald-spire-superdungeon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "xiomorn_vault_builder_mythic", path = "json/monsters_mythic2.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "252"
+[[sources]]
+publication = "the-emerald-spire-superdungeon"
+page = "159"
 
 [fields]
 kind = "creature"
@@ -48,7 +54,6 @@ with a fluid grace._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Planar Adventures pg 252, The Emerald Spire Superdungeon pg 159\
 **Subtype:** Earth, Elemental, Extraplanar, Mythic
 
 **tremorsense:** 120

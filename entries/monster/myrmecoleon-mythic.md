@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "myrmecoleon_mythic", path = "json/monsters_mythic2.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "198"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ sizzling acid._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 4 pg 198\
 **Subtype:** Mythic
 
 **Experience points:** 9,600

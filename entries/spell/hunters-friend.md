@@ -6,6 +6,9 @@ source_ids = ["animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hunters_friend", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "animal-archive"
+page = "24"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: no
 Target: your animal companion
 :::
-
-**Sources:** Animal Archive pg 24
 
 Your animal companion works in perfect harmony with your mastery of nature. You share one of the
 following class abilities with your companion for every 4 caster levels you possess: camouflage,

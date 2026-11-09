@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boots_of_the_eternal_rose", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "261"
+[[sources]]
+publication = "gods-and-magic"
+page = "55"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Inner Sea Gods pg 261, Gods and Magic pg 55\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** feet; **Price** 4,000 gp; **Weight** 1 lb.
 

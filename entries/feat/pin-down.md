@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pin_down", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "113"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever an opponent you threaten takes a 5-foot step or uses the wit
 +++
 
 ## Pin Down (Combat)
-
-**Sources:** Ultimate Combat pg 113
 
 You easily block enemy escapes.\
 **Prerequisites:** [Combat Reflexes](ref/feat/combat-reflexes), [fighter](ref/class/fighter) level

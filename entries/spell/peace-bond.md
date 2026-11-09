@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "peace_bond", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-streets"
+page = "31"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Saving throw: none
 Spell resistance: no
 Area: one or more 5-ft. cubes, no two of which can be more than 30 ft. apart
 :::
-
-**Sources:** Heroes of the Streets pg 31
 
 This spell creates one glowing rune of peace, plus one per 2 caster levels above 1st (to a maximum
 of five runes at 9th level). An identical symbol appears on your forehead for the duration of the

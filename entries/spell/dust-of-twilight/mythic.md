@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/dust-of-twilight", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "92"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 92\
 A creature that fails its Fortitude save against the spell must also succeed at a Will save at the
 same DC or fall asleep (as the [sleep](ref/spell/sleep) spell). Creatures that succeed at their
 saves are merely drowsy (as the [lullaby](ref/spell/lullaby) spell).

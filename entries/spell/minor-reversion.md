@@ -6,6 +6,9 @@ source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "minor_reversion", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "plane-hoppers-handbook"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: no
 Target: self
 Subschool: Healing
 :::
-
-**Sources:** Plane-Hopper's Handbook pg 28
 
 You create an imperfect replica of yourself within the Akashic Record at the time the spell is cast.
 You must currently have a number of hit points equal to or greater than half your maximum hit points

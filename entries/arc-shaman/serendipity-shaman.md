@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/shaman" },
 ]
+[[sources]]
+publication = "blood-of-the-beast"
+page = "5"
 
 [fields]
 kind = "archetype"
 alters = ["Spirit"]
 +++
 
-**Sources:** Blood of the Beast pg 5\
 Although some [catfolk](ref/race/catfolk) venerate elven and human deities, the traditional worship
 of the so-called "spirits of creation" is by far the most prevalent religion among their kind,
 especially in the catfolk nation of Murraseth. The serendipitous, shamanistic rites associated with

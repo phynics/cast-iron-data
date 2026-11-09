@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "formian_traits", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "294"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Formian Traits (Ex or Su)
 
-**Sources:** Bestiary 4 pg 294\
 Formians are a spacefaring race of insect-like creatures from a forest world that aggressively
 colonize other worlds. A formian possesses the following traits (unless otherwise noted in a
 creature's entry).

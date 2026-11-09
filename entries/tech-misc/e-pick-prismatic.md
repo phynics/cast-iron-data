@@ -6,6 +6,9 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "e_pick_prismatic", path = "json/equipment_tech_misc.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "43"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ slot = "none"
 
 ## E-pick
 
-**Sources:** Technology Guide pg 43\
 **Price** 100 gp (black), 3,600 gp (blue), 30 gp (brown), 900 gp (gray), 1,600 gp (green), 4,900 gp
 (orange), 10,000 gp (prismatic), 2,500 gp (red), 400 gp (white)\
 **Slot** none; **Weight** 1 lb. (all)\

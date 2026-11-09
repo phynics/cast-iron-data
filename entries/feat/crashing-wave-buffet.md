@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crashing_wave_buffet", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "108"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When dragging or repositioning an opponent, you use your full body to
 +++
 
 ## Crashing Wave Buffet (Combat)
-
-**Sources:** Ultimate Wilderness pg 108
 
 You disorient your opponents by pushing and pounding them mercilessly, just like how the sea beats
 relentlessly against the rocks.\

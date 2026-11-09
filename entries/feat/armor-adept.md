@@ -6,6 +6,9 @@ source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "armor_adept", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "11"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "You can gain this feat multiple times, choosing two different armor m
 +++
 
 ## Armor Adept (Combat)
-
-**Sources:** Adventurer's Armory 2 pg 11
 
 You are skilled at using customized armor.\
 **Benefit:** Choose two armor modifications (such as [deflecting](ref/eq-armorenh/deflecting) or

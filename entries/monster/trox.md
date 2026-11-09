@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trox", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "264"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ from under its rib cage._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 4 pg 264\
 **Experience points:** 600
 
 **Armor class:** 10/8/9

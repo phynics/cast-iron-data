@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "corrupting_a_loci_spirit", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "227"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 227
 
 Loci spirits can't be damaged conventionally, but are susceptible to corruption if certain actions
 occur within their areas. Each loci spirit has a number of hit points equal to twice its CR, which

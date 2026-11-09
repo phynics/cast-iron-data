@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "exhaustion_conditions", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "567"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 567
 
 **Exhausted:** An exhausted character moves at half speed, cannot run or charge, and takes a -6
 penalty to Strength and Dexterity. After 1 hour of complete rest, an exhausted character becomes

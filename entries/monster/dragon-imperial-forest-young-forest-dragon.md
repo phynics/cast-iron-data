@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_imperial_forest_young_forest_dragon", path = "json/monsters31.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "94"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ stones as it stalks forth._
 
 **Senses:** Dragon senses
 
-**Sources:** Bestiary 3 pg 94\
 **Subtype:** Earth
 
 **tremorsense:** 60

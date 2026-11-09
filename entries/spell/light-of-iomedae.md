@@ -6,6 +6,9 @@ source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "light_of_iomedae", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "58"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: yes
 Targets: all undead in a 10-foot-radius spread
 Descriptors: good, light
 :::
-
-**Sources:** Inner Sea Magic pg 58
 
 With this spell, you create shafts of blue light that illuminate all undead creatures in the area.
 Affected undead take a -20 penalty on all Stealth checks. Invisible undead are not made visible by

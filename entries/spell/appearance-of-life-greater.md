@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/appearance-of-life" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "8"
 
 [fields]
 kind = "spell"
@@ -56,8 +59,6 @@ Descriptors: evil, glamer
 :::
 
 ### Greater Appearance of Life
-
-**Sources:** Villain Codex pg 8
 
 This spell functions as [appearance of life](ref/spell/appearance-of-life), except that you can
 disguise a single undead creature regardless of its number of Hit Dice, and the illusion also

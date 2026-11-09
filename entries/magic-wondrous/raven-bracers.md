@@ -6,6 +6,9 @@ source_ids = ["dungeons-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "raven_bracers", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "dungeons-of-golarion"
+page = "62"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination and transmutation"
 caster_level = "9th"
 +++
 
-**Sources:** Dungeons of Golarion pg 62\
 **Aura** moderate divination and transmutation; **CL** 9th\
 **Slot** hands; **Price** 16,600 gp; **Weight** 4 lbs.
 

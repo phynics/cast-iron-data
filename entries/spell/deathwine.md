@@ -6,6 +6,12 @@ source_ids = ["rise-of-the-runelords-anniversary-edition", "pathfinder-5-sins-of
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deathwine", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "rise-of-the-runelords-anniversary-edition"
+page = "418"
+[[sources]]
+publication = "pathfinder-5-sins-of-the-saviors"
+page = "58"
 
 [fields]
 kind = "spell"
@@ -45,9 +51,6 @@ Saving throw: none
 Spell resistance: no (object)
 Target: 1 potion touched/level
 :::
-
-**Sources:** Rise of the Runelords Anniversary Edition pg 418, Pathfinder \#5: Sins of the Saviors
-pg 58
 
 This spell allows you to turn a potion into a temporary pool of necromantic energy. Only a potion
 created using a conjuration (healing) spell can be affected by this spell. An affected potion turns

@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rod_of_minor_curses", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "20"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint necromancy"
 caster_level = "5th"
 +++
 
-**Sources:** Magic Tactics Toolbox pg 20\
 **Aura** faint necromancy; **CL** 5th\
 **Slot** none; **Price** 20,000 gp; **Weight** 4 lbs.
 

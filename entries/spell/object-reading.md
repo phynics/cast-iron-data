@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "object_reading", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "179"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: none
 Spell resistance: no
 Target: one touched object
 :::
-
-**Sources:** Occult Adventures pg 179
 
 You read the psychic impressions left upon an object by emotionally or psychically charged events in
 the item's history, or the information imprinted by the [charge object](ref/spell/charge-object) or

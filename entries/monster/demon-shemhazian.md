@@ -6,6 +6,12 @@ source_ids = ["bestiary-2", "pathfinder-5-sins-of-the-saviors"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_shemhazian", path = "json/monsters29.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "80"
+[[sources]]
+publication = "pathfinder-5-sins-of-the-saviors"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ reptilian humanoid._
 
 **Senses:** Darkvision 60 ft., Detect good, Scent, True seeing
 
-**Sources:** Bestiary 2 pg 80, Pathfinder \#5: Sins of the Saviors pg 86\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 76,800

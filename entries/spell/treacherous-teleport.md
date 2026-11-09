@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/teleport" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "227"
 
 [fields]
 kind = "spell"
@@ -54,8 +57,6 @@ Subschool: Teleportation
 :::
 
 ### Treacherous Teleport
-
-**Sources:** Ultimate Intrigue pg 227
 
 This spell functions as [teleport](ref/spell/teleport) except that you can opt to intentionally
 cause any number of the creatures traveling with you to suffer a mishap or arrive in a specific

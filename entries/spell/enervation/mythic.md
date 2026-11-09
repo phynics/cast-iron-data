@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/enervation", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "93"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 93\
 The number of negative levels inflicted increases to 1d6, and the target is sickened for 24 hours.
 An undead creature struck by the ray gains 1d6 × 5 temporary hit points for a number of hours equal
 to your caster level.

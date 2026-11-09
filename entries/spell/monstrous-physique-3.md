@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/monstrous-physique-2" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "229"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Subschool: Polymorph
 :::
 
 ### Monstrous Physique III
-
-**Sources:** Ultimate Magic pg 229
 
 This spell functions as [monstrous physique II](ref/spell/monstrous-physique-2), except it also
 allows you to assume the form of a Diminutive or Huge creature of the monstrous humanoid type. If

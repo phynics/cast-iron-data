@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "artillery_team", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "201"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When you're adjacent to an ally who also has this feat, together you 
 +++
 
 ## Artillery Team (Combat, Teamwork)
-
-**Sources:** Inner Sea Races pg 201
 
 Together, you and an ally can operate an oversized and unwieldy weapon.\
 **Prerequisites:** Proficiency with [light crossbow](ref/eq-weapon/light-crossbow),

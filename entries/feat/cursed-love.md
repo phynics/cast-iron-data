@@ -6,6 +6,9 @@ source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cursed_love", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "agents-of-evil"
+page = "8"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You are well versed in a dark society's way of thinking and in weathe
 +++
 
 ## Cursed Love (Story)
-
-**Sources:** Agents of Evil pg 8
 
 Your love forces you to endure the harshest of endeavors, despite the fact that most people would
 view your romance as madness.\

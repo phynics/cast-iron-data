@@ -6,12 +6,13 @@ source_ids = ["pathfinder-51-the-hungry-storm"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ergia", path = "json/diseases.json" },
 ]
+[[sources]]
+publication = "pathfinder-51-the-hungry-storm"
+page = "67"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder \#51: The Hungry Storm pg 67
 
 **Type:** Disease (Contact)
 

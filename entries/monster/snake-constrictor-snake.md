@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snake_constrictor_snake", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "255"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ stripes._
 
 **Senses:** Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 255\
 **Experience points:** 600
 
 **Armor class:** 15/13/12

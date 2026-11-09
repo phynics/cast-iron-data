@@ -6,6 +6,9 @@ source_ids = ["familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "transfer_familiar", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "familiar-folio"
+page = "23"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: none
 Spell resistance: no
 Target: your familiar and one willing creature
 :::
-
-**Sources:** Familiar Folio pg 23
 
 You temporarily grant control of your familiar to another willing creature. You, your familiar, and
 the target creature must all be touching each other when you cast this spell. The target gains all

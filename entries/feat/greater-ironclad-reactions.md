@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_ironclad_reactions", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "16"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You can use Ironclad Reactions more than once per round, but not more
 +++
 
 ## Greater Ironclad Reactions (Armor Mastery, Combat)
-
-**Sources:** Armor Master's Handbook pg 16
 
 You are able to quickly react to attacks.\
 **Prerequisites:** [Combat Reflexes](ref/feat/combat-reflexes),

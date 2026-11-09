@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/cats-grace" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "252"
 
 [fields]
 kind = "spell"
@@ -52,7 +55,5 @@ Spell resistance: yes
 :::
 
 ### Mass Cat's Grace
-
-**Sources:** PRPG Core Rulebook pg 252
 
 This spell functions like [cat's grace](ref/spell/cats-grace), except it affects multiple creatures.

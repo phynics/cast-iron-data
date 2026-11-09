@@ -6,12 +6,13 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "low_rp_types", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "217"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Advanced Race Guide pg 217
 
 The types below range from 0 RP to 3 RP.
 

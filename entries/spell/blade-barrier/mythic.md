@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/blade-barrier", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "85"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 85\
 You may cast this spell as an immediate action. The barrier's damage increases to 1d8 per caster
 level (maximum 20d8).
 

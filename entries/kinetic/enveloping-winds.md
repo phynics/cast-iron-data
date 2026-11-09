@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enveloping_winds", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "16"
 
 [fields]
 kind = "class_option"
@@ -21,8 +24,6 @@ group = "kineticist-wild-talent"
 **Level:** 0
 
 **Burn:** 0
-
-**Source:** Occult Adventures/16
 
 You constantly surround yourself with a whirling torrent of air, crackling arcs of lightning, or
 both to protect yourself from ranged attacks.

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disintegrate", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "271"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: Fortitude partial (object)
 Spell resistance: yes
 Effect: ray
 :::
-
-**Sources:** PRPG Core Rulebook pg 271
 
 A thin, green ray springs from your pointing finger. You must make a successful ranged touch attack
 to hit. Any creature struck by the ray takes 2d6 points of damage per caster level (to a maximum of

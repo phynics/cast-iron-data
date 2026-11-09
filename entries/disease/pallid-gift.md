@@ -6,12 +6,12 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pallid_gift", path = "json/diseases.json" },
 ]
+[[sources]]
+publication = "villain-codex"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Villain Codex
 
 **Type:** Disease (Injury)
 

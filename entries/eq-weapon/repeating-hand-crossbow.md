@@ -6,14 +6,18 @@ source_ids = ["ranged-tactics-toolbox", "ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "repeating_hand_crossbow", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "33"
+[[sources]]
+publication = "ultimate-equipment"
+page = "21"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "4 lbs."
 +++
-
-**Sources:** Ranged Tactics Toolbox pg 33, Ultimate Equipment pg 21
 
 This weapon functions identically to a
 [repeating heavy crossbow](ref/eq-weapon/repeating-heavy-crossbow), except its damage, critical, and

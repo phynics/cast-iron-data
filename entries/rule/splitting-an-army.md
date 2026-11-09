@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "splitting_an_army", path = "json/rules_campaign_types05.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "246"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 246
 
 You can divide an army into smaller armies. At any time outside of combat, you may split an army
 into two armies that are each one size category smaller. One of these armies retains the larger

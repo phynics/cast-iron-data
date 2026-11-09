@@ -6,14 +6,15 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "groom", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "132"
 
 [fields]
 kind = "feat"
 prerequisites = "Character level 4th."
 benefit = "This feat is similar to the Leadership feat, with several exceptions to note. You can attract only a 1st-level cohort (referred to hereafter as a groom) with this feat, and cannot recruit followers of his own. You determine your Leadership score according to the rules presented in the Leadership feat, but your groom is always at least 3 levels lower than your level."
 +++
-
-**Sources:** Ultimate Intrigue pg 132
 
 You recruit a professional groom to care for your mount.\
 **Prerequisites:** Character level 4th.\

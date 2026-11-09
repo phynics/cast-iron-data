@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lighting", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "31"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 31
 
 Lighting is like music: it's easy to overdo it. But a single candle or dimmer switch can get people
 to focus, or at least get their attention off their phone or laptop and onto the gaming table. The

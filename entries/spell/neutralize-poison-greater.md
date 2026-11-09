@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/neutralize-poison" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -54,8 +57,6 @@ Subschool: Healing
 :::
 
 ### Greater Neutralize Poison
-
-**Sources:** Dirty Tactics Toolbox pg 28
 
 This spell functions as [neutralize poison](ref/spell/neutralize-poison), except as noted here. You
 automatically succeed at all caster level checks to neutralize any poisons affecting the target

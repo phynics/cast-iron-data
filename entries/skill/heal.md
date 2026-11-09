@@ -6,12 +6,13 @@ source_ids = ["core-rulebook", "occult-adventures", "technology-guide", "pathfin
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heal", path = "json/skills.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "98"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 98
 
 **Associated Skill**
 

@@ -6,6 +6,9 @@ source_ids = ["andoran-spirit-of-liberty"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chainbreaker", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "andoran-spirit-of-liberty"
+page = "13"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When in combat with an opponent that you know owns or trades in slave
 +++
 
 ## Chainbreaker (Achievement)
-
-**Sources:** Andoran, Spirit of Liberty pg 13
 
 Nothing rouses your fury and makes you more deadly in battle than the sight of slaves cowering
 before their masters.\

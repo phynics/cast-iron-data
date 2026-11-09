@@ -6,14 +6,15 @@ source_ids = ["paths-of-prestige"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skyseeker", path = "json/prestige_classes3.json" },
 ]
+[[sources]]
+publication = "paths-of-prestige"
+page = "50"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d10."
 +++
-
-**Sources:** Paths of Prestige pg 50
 
 Perhaps no event so shaped dwarven history or culture as the legendary Quest for Sky. Spurred by the
 words of their prophets, the ancient dwarves abandoned their homes deep within the subterranean

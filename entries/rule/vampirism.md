@@ -6,12 +6,14 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vampirism", path = "json/rules_campaign_types02.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "36-37"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Adventures pg. 36-37\
 You salivate when blood is spilled, and struggle against the urge to sink your teeth into the necks
 of friends and innocents.
 

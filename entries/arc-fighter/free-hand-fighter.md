@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/fighter" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "105"
 
 [fields]
 kind = "archetype"
 replaces = ["Bravery", "Armor training 1, 2, 3, and 4", "Weapon training 1 and 4", "Weapon training 2", "Weapon training 3", "Armor mastery"]
 +++
 
-**Sources:** Advanced Player's Guide pg 105\
 The free hand fighter specializes in the delicate art of handling a single weapon in one hand while
 using his free hand to balance, block, tip, and distract his opponents. While not a brawler, his
 open hand is as much a weapon as a bow or blade. His fighting school benefits only apply when he is

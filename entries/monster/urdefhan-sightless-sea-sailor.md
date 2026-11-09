@@ -6,6 +6,9 @@ source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "urdefhan_sightless_sea_sailor", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "inner-sea-monster-codex"
+page = "60"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ buccaneer._
 
 **Senses:** Darkvision 120 ft.
 
-**Sources:** Inner Sea Monster Codex pg 60\
 **Subtype:** Native
 
 **Experience points:** 1,200

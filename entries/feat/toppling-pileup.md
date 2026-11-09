@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "toppling_pileup", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "25"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "As a standard action, you can attempt a single trip combat maneuver c
 +++
 
 ## Toppling Pileup (Combat)
-
-**Sources:** Martial Arts Handbook pg 25
 
 When you trip one opponent, its fall might take the legs out from under another creature.\
 **Prerequisites:** Int 13, [Combat Expertise](ref/feat/combat-expertise),

@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "pathfinder-67-the-snows-of-summer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "house_spirit_dvorovoi", path = "json/monsters14.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "142"
+[[sources]]
+publication = "pathfinder-67-the-snows-of-summer"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ toothy grin._
 
 **Size:** small
 
-**Sources:** Bestiary 5 pg 142, Pathfinder \#67: The Snows of Summer pg 86\
 **Experience points:** 1,200
 
 **Armor class:** 17/14/14

@@ -6,12 +6,14 @@ source_ids = ["skull-and-shackles-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ss_magic", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "skull-and-shackles-players-guide"
+page = "16"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Skull and Shackles Player's Guide pg 16\
 Creatures can attack ships with spells. Ships are objects, so spells that can only target creatures
 have no effect on ships. However, because a ship is actively crewed and piloted, it can make saving
 throws against spell effects. Ships are immune to most spells that require a Will save. A ship

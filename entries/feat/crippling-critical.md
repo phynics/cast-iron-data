@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crippling_critical", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "157"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "You can only apply the effects of one critical feat to a given critic
 +++
 
 ## Crippling Critical (Combat, Critical)
-
-**Sources:** Advanced Player's Guide pg 157
 
 You are able to maim a target and hinder its movement.\
 **Prerequisites:** [Critical Focus](ref/feat/critical-focus), base attack bonus +13.\

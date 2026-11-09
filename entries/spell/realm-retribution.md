@@ -6,6 +6,9 @@ source_ids = ["chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "realm_retribution", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "chronicle-of-legends"
+page = "14"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: no
 Target: creature touched
 Subschool: Teleportation
 :::
-
-**Sources:** Chronicle of Legends pg 14
 
 All attacks made by the target match your alignment, counting as either chaotic, evil, good, or
 lawful as appropriate. If your alignment includes multiple alignment components, such as lawful

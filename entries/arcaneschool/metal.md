@@ -6,13 +6,15 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "metal", path = "json/class_ability_arcane_schools.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "87"
 
 [fields]
 kind = "class_option"
 group = "arcane-school"
 +++
 
-**Sources:** Ultimate Magic pg 87\
 Metal represents firmness, rigidity, persistence, strength, determination, and electricity. It is
 commonly represented by gold and silver as its purest forms, though lower magic relating to iron and
 steel is part of the metal school.

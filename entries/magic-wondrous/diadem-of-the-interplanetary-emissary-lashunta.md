@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "diadem_of_the_interplanetary_emissary_lashunta", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "231"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "13th"
 +++
 
-**Sources:** Inner Sea Races pg 231\
 **Aura** moderate transmutation; **CL** 13th\
 **Slot** head; **Price** 67,500 gp; **Weight** 1/2 lb.
 

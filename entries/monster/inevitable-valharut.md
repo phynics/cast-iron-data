@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inevitable_valharut", path = "json/monsters14.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "237"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ traceries of blue lines._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Planar Adventures pg 237\
 **Subtype:** Extraplanar, Inevitable, Lawful
 
 **Experience points:** 12,800

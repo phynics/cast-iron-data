@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/shifter" },
 ]
+[[sources]]
+publication = "wilderness-origins"
+page = "7"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Wild shape", "shifter aspect", "Chimeric aspect", "Greater chimeric
 alters = ["Final aspect"]
 +++
 
-**Sources:** Wilderness Origins pg 7\
 Swarm shifters channel the essence of the basest and most overlooked animals, vermin.
 
 **Swarm**

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-113-what-grows-within"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "great_old_one_xhamen_dor", path = "json/monsters_unique2.json" },
 ]
+[[sources]]
+publication = "pathfinder-113-what-grows-within"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -48,7 +51,6 @@ in the wriggling mass, arrayed around a central draconic skull._
 
 **Type:** plant
 
-**Sources:** Pathfinder \#113: What Grows Within pg 86\
 **Subtype:** Aquatic, Evil, Great Old One
 
 **Experience points:** 2,457,600

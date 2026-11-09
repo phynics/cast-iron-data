@@ -6,13 +6,14 @@ source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "outer_rifts", path = "json/class_ability_mysteries.json" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "31"
 
 [fields]
 kind = "class_option"
 group = "oracle-mystery"
 +++
-
-**Sources:** Inner Sea Magic pg 31
 
 **Deities**
 

@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soothsayers_raiment", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "129"
+[[sources]]
+publication = "advanced-players-guide"
+page = "286"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Equipment pg 129, Advanced Player's Guide pg 286\
 **Aura** faint divination; **CL** 5th\
 **Slot** armor; **Price** 10,300 gp; **Weight** 40 lbs.
 

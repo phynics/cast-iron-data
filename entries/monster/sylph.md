@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sylph", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "258"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ into mist entirely at any minute._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 2 pg 258\
 **Subtype:** Native
 
 **Experience points:** 200

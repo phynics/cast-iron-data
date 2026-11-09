@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "desert_stalker", path = "json/npcs6.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "137"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "13"
 
 **Challenge rating:** 13
 
-**Sources:** NPC Codex pg 137\
 **XP** 25,600\
 Half-orc [ranger](ref/class/ranger) 14\
 LE Medium humanoid (human, orc)\

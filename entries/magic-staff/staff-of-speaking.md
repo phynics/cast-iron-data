@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_speaking", path = "json/magic_staff.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "201"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong enchantment"
 caster_level = "13th"
 +++
 
-**Sources:** Ultimate Equipment pg 201\
 **Aura** strong enchantment; **CL** 13th\
 **Slot** none; **Price** 57,200 gp; **Weight** 5 lbs.
 

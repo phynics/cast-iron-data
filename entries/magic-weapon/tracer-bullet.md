@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tracer_bullet", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "162"
+[[sources]]
+publication = "ultimate-combat"
+page = "142"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint evocation"
 caster_level = "2nd"
 +++
 
-**Sources:** Ultimate Equipment pg 162, Ultimate Combat pg 142\
 **Aura** faint evocation; **CL** 2nd\
 **Slot** none; **Price** 100 gp; **Weight** -
 

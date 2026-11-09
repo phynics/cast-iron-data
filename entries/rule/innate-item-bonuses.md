@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "innate_item_bonuses", path = "json/rules_opt_pc_adv01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "158"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 158
 
 Some GMs may find themselves frustrated by the need for players to seek out magic items granting
 specific bonuses. Under this new system, characters gain the statistical bonuses they're expected to

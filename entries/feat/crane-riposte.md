@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crane_riposte", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "93"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You take only a -1 penalty on attack rolls for fighting defensively. 
 +++
 
 ## Crane Riposte (Combat)
-
-**Sources:** Ultimate Combat pg 93
 
 You use your defensive abilities to make overpowering counterattacks.\
 **Prerequisites:** [Crane Style](ref/feat/crane-style), [Crane Wing](ref/feat/crane-wing),

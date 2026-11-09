@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reactions", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "109"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 109
 
 The following are the main reactions of this system.
 

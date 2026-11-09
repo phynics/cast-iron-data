@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ranger" },
 ]
+[[sources]]
+publication = "dungeoneers-handbook"
+page = "22"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Track", "Wild empathy", "Woodland stride", "Swift tracker"]
 alters = ["Hunter's bond"]
 +++
 
-**Sources:** Dungeoneer's Handbook pg 22\
 These rangers specialize in surviving hostile subterranean environs. They are well equipped to avoid
 traps, spot secret passages, and deal with inimical dungeon tenants.
 

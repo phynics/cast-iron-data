@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/heroism-greater" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "216"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Descriptors: mind-affecting
 :::
 
 ### Greater Hollow Heroism
-
-**Sources:** Ultimate Intrigue pg 216
 
 This spell functions as [greater heroism](ref/spell/heroism-greater), except that you can reverse
 the spell by issuing a special command as a standard action if you are within medium range (100

@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charm_bracelet", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "273"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint varied"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Equipment pg 273\
 **Aura** faint varied; **CL** 5th\
 **Slot** wrists; **Price** 8,000 gp; **Weight** -
 

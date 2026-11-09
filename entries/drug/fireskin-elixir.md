@@ -6,12 +6,13 @@ source_ids = ["blood-of-the-elements"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fireskin_elixir", path = "json/drugs.json" },
 ]
+[[sources]]
+publication = "blood-of-the-elements"
+page = "27"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Blood of the Elements pg 27
 
 **Type:** ingested
 

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/amateur-swashbuckler", label = "or" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "144"
 
 [fields]
 kind = "feat"
@@ -20,8 +23,6 @@ normal = "An opponent forced to act friendly toward you by Intimidate becomes un
 +++
 
 ## Disarming Threat Deed (Panache)
-
-**Sources:** Advanced Class Guide pg 144
 
 Even your threats are curiously charming.\
 **Prerequisites:** [Amateur Swashbuckler](ref/feat/amateur-swashbuckler) or panache class feature;

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unseen_servant", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "364"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Spell resistance: no
 Effect: one invisible, mindless, shapeless servant
 Subschool: Creation
 :::
-
-**Sources:** PRPG Core Rulebook pg 364
 
 An unseen servant is an invisible, mindless, shapeless force that performs simple tasks at your
 command. It can run and fetch things, open unstuck doors, and hold chairs, as well as clean and

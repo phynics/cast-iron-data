@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "random_challenges", path = "json/rules_opt_magic01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "182"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 182
 
 The Game Master should roll on the table below to determine which challenges the player characters
 face while making the item. Alternatively, the GM can instead choose a particular challenge based on

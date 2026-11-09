@@ -6,6 +6,9 @@ source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mad_magic", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "advanced-class-origins"
+page = "27"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can cast spells from any class that grants you spells while in a 
 +++
 
 ## Mad Magic (Combat)
-
-**Sources:** Advanced Class Origins pg 27
 
 Magic is in your blood, allowing you to cast spells no matter how furious you become.\
 **Prerequisites:** Bloodrage class feature or [perfect clarity](ref/ragepower/perfect-clarity) rage

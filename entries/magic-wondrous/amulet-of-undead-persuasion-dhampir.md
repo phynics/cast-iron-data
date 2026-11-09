@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "amulet_of_undead_persuasion_dhampir", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "228"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Sources:** Inner Sea Races pg 228\
 **Aura** moderate conjuration; **CL** 7th\
 **Slot** neck; **Price** 15,000 gp; **Weight** 1 lb.
 

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/inquisitor" },
 ]
+[[sources]]
+publication = "blood-of-the-beast"
+page = "4"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Domain", "Teamwork feat gained at 3rd level"]
 alters = ["Spells"]
 +++
 
-**Sources:** Blood of the Beast pg 4\
 Throughout the Mwangi Expanse, cults of [Angazhan](ref/faith/angazhan) pollute the pristine jungle
 with demonic influence and wanton bloodshed. For generations, the [catfolk](ref/race/catfolk) of
 Murraseth have viewed such faiths with loathing and hatred, and they believe it is their sacred duty

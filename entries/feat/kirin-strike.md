@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kirin_strike", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "107"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You gain a +2 insight bonus on Knowledge checks made to identify crea
 +++
 
 ## Kirin Strike (Combat)
-
-**Sources:** Ultimate Combat pg 107
 
 You have read the texts of the perfect way, and know how identify to your enemies' weak spot.\
 **Prerequisites:** Int 13, [Kirin Style](ref/feat/kirin-style),

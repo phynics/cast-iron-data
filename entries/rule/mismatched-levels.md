@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mismatched_levels", path = "json/rules_opt_magic02.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "161"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 161
 
 If a PC receives a scaling item of a caster level lower than her character level, she effectively
 receives an item that's worth more than the price listed in the stat block. Reference

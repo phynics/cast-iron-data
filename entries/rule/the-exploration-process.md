@@ -6,12 +6,13 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_exploration_process", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "124"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Wilderness pg 124
 
 Typically, explorers come to a territory to seek out a specific location within its reaches.
 Sometimes they know of multiple locations reputed to lie within the region and needs only find them.

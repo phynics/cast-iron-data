@@ -6,6 +6,9 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "forgotten_past", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "69"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "Restoration of memories by means less significant than miracle or wis
 +++
 
 ## Forgotten Past (Story)
-
-**Sources:** Ultimate Campaign pg 69
 
 A pivotal event from your past eludes your memory.\
 **Prerequisites:** You must have suffered permanent memory loss or have the Reincarnated

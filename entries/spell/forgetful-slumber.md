@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/deep-slumber" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "48"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Target: one living creature
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Advanced Race Guide pg 48
 
 > _[Half-elves](ref/race/half-elf) have access to the following spell._
 

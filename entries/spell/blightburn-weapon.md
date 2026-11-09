@@ -6,6 +6,9 @@ source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blightburn_weapon", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "kobolds-of-golarion"
+page = "26"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: Will negates (object)
 Spell resistance: yes (object)
 Target: one weapon
 :::
-
-**Sources:** Kobolds of Golarion pg 26
 
 You transform the target weapon into pure blightburn. The weapon functions as normal, but any
 creature that touches it, or that it strikes, takes 2d6 points of fire damage each round it remains

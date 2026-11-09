@@ -6,6 +6,9 @@ source_ids = ["pathfinder-131-the-reapers-right-hand"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "we_are_the_wall", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "pathfinder-131-the-reapers-right-hand"
+page = "76"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Three times per day as a move action, you can declare a single dragon
 +++
 
 ## We are the Wall (Story)
-
-**Sources:** Pathfinder \#131: The Reaper's Right Hand pg 76
 
 You embody your family's legendary monster-hunters.\
 **Prerequisites:** Be a member of House Darahan, or have the

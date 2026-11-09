@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_resistance", path = "json/misc.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "13"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 13
 
 Some [creatures](ref/misc/creature) are resistant to magic and gain
 [spell resistance](ref/rule/spell-resistance). When a creature with spell resistance is targeted by

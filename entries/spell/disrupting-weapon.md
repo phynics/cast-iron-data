@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disrupting_weapon", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "273"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: Will negates (harmless, object); see text
 Spell resistance: yes (object)
 Targets: one melee weapon
 :::
-
-**Sources:** PRPG Core Rulebook pg 273
 
 This spell makes a melee weapon deadly to undead. Any undead creature with HD equal to or less than
 your caster level must succeed on a Will save or be destroyed utterly if struck in combat with this

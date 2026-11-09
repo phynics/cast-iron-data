@@ -6,6 +6,9 @@ source_ids = ["pathfinder-59-the-price-of-infamy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wizard_hook", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "pathfinder-59-the-price-of-infamy"
+page = "61"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "6th"
 +++
 
-**Sources:** Pathfinder \#59: The Price of Infamy pg 61\
 **Aura** moderate necromancy; **CL** 6th\
 **Slot** none; **Price** 4,310 gp; **Weight** 1 lb.
 

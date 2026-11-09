@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "corset_of_dire_witchcraft", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "214"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "6th"
 +++
 
-**Sources:** Ultimate Equipment pg 214\
 **Aura** moderate abjuration; **CL** 6th\
 **Slot** body; **Price** 22,000 gp; **Weight** 1 lb.
 

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "75"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Trapfinding", "Trap sense", "Uncanny dodge", "Improved uncanny dodg
 alters = ["Weapon proficiencies"]
 +++
 
-**Sources:** Adventurer's Guide pg 75\
 Twilight Talons might pursue many tasks, from relatively passive information gathering to staging
 massive coups meant to depose tyrants. A toxic talon, however, is trained and deployed for one very
 specific purpose: to defeat foes with unusual and potent poisons. After adopting a profession to

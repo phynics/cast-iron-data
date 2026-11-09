@@ -6,6 +6,12 @@ source_ids = ["adventurers-guide", "path-of-the-hellknight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hellknight_half_plate", path = "json/equipment_armor.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "96"
+[[sources]]
+publication = "path-of-the-hellknight"
+page = "63"
 
 [fields]
 kind = "item"
@@ -13,7 +19,6 @@ category = "Armor"
 weight = "50 lbs."
 +++
 
-**Sources:** Adventurer's Guide pg 96, Path of the Hellknight pg 63\
 **Cost** 850 gp **Weight** 50 lbs.\
 **Armor Bonus** +8; **Max Dex Bonus** +0; **Armor Check Penalty** -7\
 **Arcane Spell Failure Chance** 40%; **Speed** 20 ft./15 ft.\

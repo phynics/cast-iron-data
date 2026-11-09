@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "virtuoso_performance", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "247"
 
 [fields]
 kind = "spell"
@@ -37,8 +40,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Ultimate Magic pg 247
 
 While this spell is active, you may start a second bardic performance while maintaining another.
 Starting the second performance costs 2 rounds of bardic performance instead of 1. Maintaining both

@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sail_master", path = "json/npcs.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "62"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "1"
 
 **Challenge rating:** 1
 
-**Sources:** NPC Codex pg 62\
 **XP** 400\
 Human [druid](ref/class/druid) 2\
 NE Medium humanoid (human)\

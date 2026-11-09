@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/occultist" },
 ]
+[[sources]]
+publication = "plane-hoppers-handbook"
+page = "7"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Magic item skill", "Shift focus, 7th-level focus power", "Aura sigh
 alters = ["Implements", "implement mastery", "Magic circles"]
 +++
 
-**Sources:** Plane-Hopper's Handbook pg 7\
 Tuning forks resonate with the music of the planes, guiding travelers between worlds. Planar
 harmonizers are masters of this symphony, forging bonds with tuning forks to unlock the true
 potential of these instruments. Planar harmonizers typically select their tuning forks carefully,

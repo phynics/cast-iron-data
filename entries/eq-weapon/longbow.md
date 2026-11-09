@@ -6,14 +6,21 @@ source_ids = ["ranged-tactics-toolbox", "core-rulebook", "ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "longbow", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "0"
+[[sources]]
+publication = "core-rulebook"
+page = "143"
+[[sources]]
+publication = "ultimate-equipment"
+page = "19"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "3 lbs."
 +++
-
-**Sources:** Ranged Tactics Toolbox pg 0, PRPG Core Rulebook pg 143, Ultimate Equipment pg 19
 
 At almost 5 feet in height, a longbow is made up of one solid piece of carefully curved wood. You
 need two hands to use a bow, regardless of its size. A longbow can't be used while mounted. If you

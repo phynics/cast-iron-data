@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "repositioning_strike", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "168"
 
 [fields]
 kind = "feat"
@@ -18,8 +21,6 @@ special = "You can only apply the effects of one of the following feats to a giv
 +++
 
 ## Repositioning Strike (Combat)
-
-**Sources:** Advanced Player's Guide pg 168
 
 Your critical hits can move your foes where you wish.\
 **Prerequisites:** Int 13, [Combat Expertise](ref/feat/combat-expertise),

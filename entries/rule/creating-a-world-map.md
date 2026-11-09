@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "creating_a_world_map", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "146"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 146
 
 The first thing to accept when you sit down to draw a map of your campaign world is that it doesn't
 need to be beautiful. As long as you can understand your own scribblings, you'll be able to maintain

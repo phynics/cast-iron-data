@@ -6,6 +6,9 @@ source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "medusa", path = "json/class_ability_bloodrager_bloodlines.json" },
 ]
+[[sources]]
+publication = "heroes-of-golarion"
+page = "16"
 
 [fields]
 kind = "class_option"
@@ -13,8 +16,6 @@ group = "bloodrager-bloodline"
 +++
 
 ## Medusa Bloodline
-
-**Sources:** Heroes of Golarion pg 16
 
 No magical creature is more iconic in Iblydan lore than the [medusa](ref/monster/medusa). Perhaps
 your lineage traces back to a medusa, or an ancestor survived a medusa's petrifying gaze and was

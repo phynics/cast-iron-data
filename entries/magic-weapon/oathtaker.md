@@ -6,6 +6,9 @@ source_ids = ["pathfinder-50-night-of-frozen-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oathtaker", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "pathfinder-50-night-of-frozen-shadows"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "9th"
 +++
 
-**Sources:** Pathfinder \#50: Night of Frozen Shadows pg 60\
 **Aura** moderate necromancy; **CL** 9th\
 **Slot** none; **Price** 18,540 gp; **Weight** 20 lbs.
 

@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "the-worldwound"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grimslake", path = "json/monsters13.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "136"
+[[sources]]
+publication = "the-worldwound"
+page = "55"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ _This maggot-like creature has a long tail covered with frightening hooked sucke
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 5 pg 136, The Worldwound pg 55\
 **Subtype:** Extraplanar
 
 **tremorsense:** 30

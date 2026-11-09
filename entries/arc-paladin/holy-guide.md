@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/paladin" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "107"
 
 [fields]
 kind = "archetype"
 replaces = ["3rd-level mercy", "6th-level mercy"]
 +++
 
-**Sources:** Advanced Class Guide pg 107\
 A holy guide believes that it's his sacred calling to clear the roads of bandits between towns as
 well as to escort travelers to safety. He must enforce the rule of law in the wilderness and help
 those that cannot defend themselves against the many dangers of the area.

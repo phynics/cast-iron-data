@@ -6,6 +6,9 @@ source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thorn_bow", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "23"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Sources:** Ranged Tactics Toolbox pg 23\
 **Aura** moderate conjuration; **CL** 9th\
 **Slot** none; **Price** 59,700 gp; **Weight** 8 lbs.
 

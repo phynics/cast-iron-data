@@ -6,6 +6,9 @@ source_ids = ["artifacts-and-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scepter_of_ages", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "artifacts-and-legends"
+page = "42"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "overwhelming transmutation"
 caster_level = "25th"
 +++
 
-**Sources:** Artifacts and Legends pg 42\
 **Aura** overwhelming transmutation; **CL** 25th\
 **Slot** none; **Price** -; **Weight** 8 lbs.
 

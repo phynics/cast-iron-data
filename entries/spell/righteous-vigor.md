@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "righteous_vigor", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "239"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Target: creature touched
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Advanced Player's Guide pg 239
 
 Infusing the target with a surge of furious divine energy, you enhance a creature's ability to hit
 an opponent based on the number of times it has already hit that opponent with a successful attack.

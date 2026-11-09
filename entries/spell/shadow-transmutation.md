@@ -6,6 +6,9 @@ source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_transmutation", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "blood-of-shadows"
+page = "30"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Target: see text
 Subschool: Shadow
 Descriptors: shadow
 :::
-
-**Sources:** Blood of Shadows pg 30
 
 You suffuse one subject's body with energy from the Shadow Plane, altering its form to match a
 creature from the Shadow Plane. Shadow transmutation can mimic any of the following spells: animal

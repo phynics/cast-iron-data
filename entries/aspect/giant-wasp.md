@@ -6,13 +6,15 @@ source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_wasp", path = "json/class_ability_aspects.json" },
 ]
+[[sources]]
+publication = "heroes-of-golarion"
+page = "22"
 
 [fields]
 kind = "class_option"
 group = "shifter-aspect"
 +++
 
-**Sources:** Heroes of Golarion pg 22\
 The aspect of the wasp grants flight and a venomous sting, as well as great mental resistance. A
 giant wasp's alternate attack is sting (P).
 

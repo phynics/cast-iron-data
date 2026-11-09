@@ -6,6 +6,9 @@ source_ids = ["disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "litany_of_duty", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "disciples-doctrine"
+page = "13"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: no
 Target: you
 Descriptors: lawful
 :::
-
-**Sources:** Disciple's Doctrine pg 13
 
 You repeat a mantra or phrase that reminds you of your duty. You can immediately reroll a failed
 saving throw against a spell that would force you to take an action against your will, and you gain

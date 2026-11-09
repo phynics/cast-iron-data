@@ -6,14 +6,18 @@ source_ids = ["adventurers-armory-2", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flying_talon", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "8"
+[[sources]]
+publication = "pathfinder-campaign-setting"
+page = "208"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "5 lbs."
 +++
-
-**Sources:** Adventurer's Armory 2 pg 8, Pathfinder Campaign Setting pg 208
 
 This weapon consists of a three-pronged, barbed hook attached to a length of chain. Due to the
 weapon's unwieldiness, you cannot make attacks of opportunity with a flying talon and do not

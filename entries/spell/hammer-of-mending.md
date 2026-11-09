@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hammer_of_mending", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "235"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
 Area: 30-ft.-radius burst centered on you
 :::
-
-**Sources:** Inner Sea Gods pg 235
 
 Upon striking a piece of solid ground with the spell's focus or a holy symbol, you let out a wave of
 energy that repairs items within its burst. All objects or constructs within the burst are repaired

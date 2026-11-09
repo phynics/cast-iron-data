@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mobile_fortress", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "12"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using a tower shield, you add half of the shield's bonus to AC 
 +++
 
 ## Mobile Fortress (Combat)
-
-**Sources:** Armor Master's Handbook pg 12
 
 You use your tower shield to defend yourself or an ally at a moment's notice.\
 **Prerequisites:** Str 15, [Mobile Bulwark Style](ref/feat/mobile-bulwark-style),

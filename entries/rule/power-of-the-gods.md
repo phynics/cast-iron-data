@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "power_of_the_gods", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "126"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 126
 
 A god grants the heroes mythic powers, either in response to deeds they have accomplished or in
 anticipation of deeds they have yet to perform. In this theme, mythic power is the provenance of the

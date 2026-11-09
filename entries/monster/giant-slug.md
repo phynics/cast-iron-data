@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_slug", path = "json/monsters11.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "254"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ tastes the air for prey._
 
 **Perception:** +0
 
-**Sources:** Pathfinder RPG Bestiary pg 254\
 **Type:** vermin
 
 **Experience points:** 4,800

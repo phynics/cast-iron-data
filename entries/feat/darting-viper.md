@@ -6,6 +6,12 @@ source_ids = ["adventurers-armory-2", "dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "darting_viper", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "11"
+[[sources]]
+publication = "dwarves-of-golarion"
+page = "21"
 
 [fields]
 kind = "feat"
@@ -16,8 +22,6 @@ normal = "Changing whether a dorn-dergar is a normal or reach weapon is a move a
 +++
 
 ## Darting Viper (Combat)
-
-**Sources:** Adventurer's Armory 2 pg 11, Dwarves of Golarion pg 21
 
 When using a [dorn-dergar](ref/eq-weapon/dorn-dergar-dwarven), you can quickly attack both near and
 distant foes.\

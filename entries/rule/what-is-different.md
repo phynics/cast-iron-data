@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "what_is_different", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "118"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 118
 
 Adventuring is about overcoming obstacles to achieve a goal. Normally, PCs react to whatever
 impediments are set before them - kick in a door, disarm the traps, or slay the monsters. Heists

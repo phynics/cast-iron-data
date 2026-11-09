@@ -6,6 +6,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wisdom_of_jatembe_six_warriors_edition", path = "json/equipment_spellbooks.json" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "12"
 
 [fields]
 kind = "item"
@@ -19,8 +22,6 @@ used as bookmarks, each with a yellowed tooth tied to the loose end. Two silver 
 the spine, each depicting the stylized face of a different beast. The spells and stories recorded
 throughout the book are each written in a different handwriting, ranging from neat block script to
 wild looping letters that are difficult to read at first glance._
-
-**Sources:** Arcane Anthology pg 12
 
 **Value** 4,725 gp (6,025 gp with the preparation ritual)
 

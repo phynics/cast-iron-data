@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_step", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "237"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Target: you
 Subschool: Shadow
 Descriptors: shadow
 :::
-
-**Sources:** Ultimate Magic pg 237
 
 To use this spell, you must be in an area of dim light or darkness. You enter a shadow or area of
 darkness, which transports you along a coiling path of shadowstuff to another dim or dark location

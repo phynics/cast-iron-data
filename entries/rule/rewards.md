@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rewards", path = "json/rules_gm03.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "102"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 102
 
 Much of the famously addictive appeal of the Pathfinder Roleplaying Game and its predecessor games
 lies in its variety of reward mechanisms. These most obviously include experience points, treasure,

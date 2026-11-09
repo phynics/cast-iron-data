@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fragmentation", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "20"
 
 [fields]
 kind = "class_option"
@@ -26,8 +29,6 @@ group = "kineticist-wild-talent"
 [Metal Blast](ref/kinetic/metal-blast)
 
 **Saving throw:** none or Reflex half; see text
-
-**Source:** Occult Adventures/20
 
 You throw a volatile sphere of solid matter that shatters into countless shards. Attempt a ranged
 attack roll against a target within 120 feet. If you hit, the target takes your kinetic blast damage

@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "pathfinder-46-wake-of-the-watcher"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "star_spawn_of_cthulhu", path = "json/monsters38.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "254"
+[[sources]]
+publication = "pathfinder-46-wake-of-the-watcher"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -47,7 +53,6 @@ writhing mass of tentacles._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 4 pg 254, Pathfinder \#46: Wake of the Watcher pg 90\
 **Experience points:** 307,200
 
 **Armor class:** 36/9/35

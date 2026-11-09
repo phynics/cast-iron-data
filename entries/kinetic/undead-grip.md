@@ -6,6 +6,9 @@ source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "undead_grip", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "23"
 
 [fields]
 kind = "class_option"
@@ -25,8 +28,6 @@ group = "kineticist-wild-talent"
 **Saving throw:** Will negates
 
 **Spell resistance:** yes
-
-**Source:** Psychic Anthology/23
 
 This functions as [elemental grip](ref/kinetic/elemental-grip), except it works on a single undead
 creature as per [halt undead](ref/spell/halt-undead). Unintelligent undead must succeed at a saving

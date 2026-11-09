@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "piecemeal_armor", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "198"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 198
 
 All armor in the Pathfinder Roleplaying Game is constructed of pieces and parts that are carefully
 (or hastily) donned each time the armor is used. While a full suit of armor is always more

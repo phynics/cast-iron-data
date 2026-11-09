@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "27"
 
 [fields]
 kind = "archetype"
 replaces = ["Uncanny dodge", "Improved uncanny dodge"]
 +++
 
-**Sources:** Black Markets pg 27\
 Relic raiders are rogues who specialize in recovering treasures from ruins and tombs, some in a
 quest for knowledge, others out of a desire for riches. In addition to natural dangers and mundane
 traps, these locations are often protected by ancient curses or the psychic imprints of former

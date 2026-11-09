@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "multiweapon_fighting", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "315"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "This feat replaces the Two-Weapon Fighting feat for creatures with mo
 +++
 
 ## Multiweapon Fighting (Combat, Monster)
-
-**Sources:** Pathfinder RPG Bestiary pg 315
 
 This multi-armed creature is skilled at making attacks with multiple weapons.\
 **Prerequisites:** Dex 13, three or more hands.\

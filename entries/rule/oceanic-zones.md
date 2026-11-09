@@ -6,12 +6,13 @@ source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oceanic_zones", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Aquatic Adventures\
 The ocean is divided into four zones: the sunlight zone (from the surface to 600 feet below), the
 twilight zone (from 600 feet down to 3,300 feet), the midnight zone (from 3,300 feet down to 13,000
 feet - which often reaches the bottom), and the Abyssal zone (from 13,000 feet to the bottom in

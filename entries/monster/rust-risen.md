@@ -6,6 +6,9 @@ source_ids = ["pathfinder-86-lords-of-rust"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rust_risen", path = "json/monsters37.json" },
 ]
+[[sources]]
+publication = "pathfinder-86-lords-of-rust"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -39,7 +42,6 @@ _Miscellaneous bits of rusted machinery are fused to the body of this shambling 
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#86: Lords of Rust pg 90\
 **Type:** undead
 
 **Experience points:** 600

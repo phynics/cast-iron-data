@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "know_the_medium", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "198"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 198
 
 Through the entire adventure design process, GMs should keep in mind that they're not writing a
 horror novel or screenplay - they're writing a horror RPG adventure. It's easy to get distracted by

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/fighter" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "47"
 
 [fields]
 kind = "archetype"
 replaces = ["Weapon and armor proficiencies", "The fighter's 1st-level bonus feat", "Weapon training 1", "Weapon training 2", "Weapon training 3", "Weapon training 4"]
 +++
 
-**Sources:** Inner Sea Combat pg 47\
 The University of Lepidstadt has developed a reputation for churning out fearsome duelists. At the
 end of each academic year, the students all gather together and duel one another with light blades.
 Each student duels one opponent after another until he is marked on the cheek by an adversary's

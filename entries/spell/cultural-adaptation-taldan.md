@@ -6,6 +6,9 @@ source_ids = ["humans-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cultural_adaptation_taldan", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "humans-of-golarion"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Humans of Golarion pg 28
 
 During the height of the Empire of Taldor's expansionism, Taldan wizards developed this spell with
 the idea that it might make pacifying their "uncivilized" conquests easier. While the spell has

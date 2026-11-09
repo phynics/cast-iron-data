@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/disintegrate", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "91"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 91\
 The damage dealt increases to 3d6 points of damage per caster level (maximum 60d6) plus 1d4 points
 of Constitution damage.
 

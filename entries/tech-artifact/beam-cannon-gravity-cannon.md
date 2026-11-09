@@ -6,6 +6,9 @@ source_ids = ["pathfinder-89-palace-of-fallen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beam_cannon_gravity_cannon", path = "json/equipment_tech_artifacts.json" },
 ]
+[[sources]]
+publication = "pathfinder-89-palace-of-fallen-stars"
+page = "62"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ slot = "none"
 
 ## Beam Cannon (Gravity Cannon)
 
-**Sources:** Pathfinder \#89: Palace of Fallen Stars pg 62\
 **Slot** none; **Weight** 18 lbs.\
 **Capacity** 50; **Usage** 1 charge\
 **Type** two-handed ranged; **Proficiency** exotic (heavy weaponry)\

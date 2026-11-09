@@ -6,12 +6,12 @@ source_ids = ["pathfinder-134-it-came-from-hollow-mountain"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thassilonian_sentinel", path = "json/monster_families2.json" },
 ]
+[[sources]]
+publication = "pathfinder-134-it-came-from-hollow-mountain"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder \#134: It Came from Hollow Mountain
 
 During the height of the Thassilonian Empire, nobles and other wealthy elite favored these
 [constructs](ref/type/construct) as guardians and protectors in their homes, hidden in plain sight

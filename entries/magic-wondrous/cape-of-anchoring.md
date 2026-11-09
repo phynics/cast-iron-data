@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cape_of_anchoring", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "344"
 
 [fields]
 kind = "item"
@@ -15,8 +18,6 @@ slot = "shoulders"
 aura = "moderate abjuration"
 caster_level = "9th"
 +++
-
-**Sources:** Ultimate Equipment pg 344
 
 **Aura** moderate abjuration; **CL** 9th\
 **Slot** shoulders; **Weight** 1 lb.

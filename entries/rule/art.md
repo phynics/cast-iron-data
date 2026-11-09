@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "art", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "34"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 34
 
 In a fantasy world where terrible beasts crush villages and flying cloud castles eclipse the sun, an
 evocative photo or painting can help set the mood or provide a backdrop for an encounter, or even an

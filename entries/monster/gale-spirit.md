@@ -6,6 +6,9 @@ source_ids = ["pathfinder-104-wrath-of-thrune"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gale_spirit", path = "json/monsters11.json" },
 ]
+[[sources]]
+publication = "pathfinder-104-wrath-of-thrune"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ scowl._
 
 **Size:** small
 
-**Sources:** Pathfinder \#104: Wrath of Thrune pg 86\
 **Subtype:** Incorporeal
 
 **Type:** undead

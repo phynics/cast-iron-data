@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sample_trials", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "130"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 130
 
 The following trials should give GMs ideas of the various challenges mythic characters need to face
 to gain tiers. Use these as is or as inspiration for designing your own. Some of these suggest a

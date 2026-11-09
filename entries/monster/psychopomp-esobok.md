@@ -6,6 +6,12 @@ source_ids = ["bestiary-6", "pathfinder-80-empty-graves"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychopomp_esobok", path = "json/monsters19.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "218"
+[[sources]]
+publication = "pathfinder-80-empty-graves"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ _This stout, hunched predator has a ruff of dirty feathers and a crocodilian sku
 
 **Senses:** Darkvision 60 ft., Detect undead, Low-light vision, Scent, Spiritsense
 
-**Sources:** Bestiary 6 pg 218, Pathfinder \#80: Empty Graves pg 84\
 **Subtype:** Extraplanar, Psychopomp
 
 **Experience points:** 800

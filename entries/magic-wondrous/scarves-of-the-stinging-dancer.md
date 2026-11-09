@@ -6,6 +6,9 @@ source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scarves_of_the_stinging_dancer", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "merchants-manifest"
+page = "22"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint evocation"
 caster_level = "3rd"
 +++
 
-**Sources:** Merchant's Manifest pg 22\
 **Aura** faint evocation; **CL** 3rd\
 **Slot** chest; **Price** 9,000 gp; **Weight** -
 

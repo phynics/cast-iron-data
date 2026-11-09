@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "pathfinder-53-tide-of-honor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "replenish_ki", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "238"
+[[sources]]
+publication = "pathfinder-53-tide-of-honor"
+page = "73"
 
 [fields]
 kind = "spell"
@@ -40,8 +46,6 @@ Spell resistance: yes (harmless)
 Target: creature touched
 Subschool: Healing
 :::
-
-**Sources:** Inner Sea Gods pg 238, Pathfinder \#53: Tide of Honor pg 73
 
 You attune the target's internal store of supernatural energy to the cosmos, replenishing its ki
 pool. If you are the target, you regain 2 ki points. If another creature is the target, it regains 1

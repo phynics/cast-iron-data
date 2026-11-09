@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ward_the_faithful", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "256"
 
 [fields]
 kind = "spell"
@@ -36,8 +39,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: no
 Area: 10-ft.-radius emanation from touched creature
 :::
-
-**Sources:** Advanced Player's Guide pg 256
 
 All creatures within the area who worship the same god as you gain a +2 deflection bonus to AC and a
 +2 resistance bonus on all saves. At 12th level, these bonuses increase to +3. At 18th level, the

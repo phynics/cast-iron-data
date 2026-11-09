@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slippers_of_spider_climbing", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "233"
+[[sources]]
+publication = "core-rulebook"
+page = "530"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint transmutation"
 caster_level = "4th"
 +++
 
-**Sources:** Ultimate Equipment pg 233, PRPG Core Rulebook pg 530\
 **Aura** faint transmutation; **CL** 4th\
 **Slot** feet; **Price** 4,800 gp; **Weight** 1/2 lb.
 

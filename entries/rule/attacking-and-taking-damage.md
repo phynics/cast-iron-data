@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "attacking_and_taking_damage", path = "json/rules_campaign_types05.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "236"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 236
 
 In mass combat, the hundreds of individual attacks that take place in one battle phase overlap each
 other enough that who actually attacks first is irrelevant.

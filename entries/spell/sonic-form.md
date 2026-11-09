@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sonic_form", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "193"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Target: you
 Subschool: Polymorph
 Descriptors: sonic
 :::
-
-**Sources:** Advanced Class Guide pg 193
 
 Upon casting this spell, you keep your relative shape, but you and your equipment are transformed
 into semi-solid sound. While in this sonic form, you take no penalties for squeezing, and you can

@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_armor", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "125"
+[[sources]]
+publication = "core-rulebook"
+page = "464"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong necromancy [evil]"
 caster_level = "13th"
 +++
 
-**Sources:** Ultimate Equipment pg 125, PRPG Core Rulebook pg 464\
 **Aura** strong necromancy \[evil\]; **CL** 13th\
 **Slot** armor; **Price** 52,260 gp; **Weight** 50 lbs.
 

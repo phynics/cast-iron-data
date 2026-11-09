@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wealthy_sponsor", path = "json/rules_campaign_types04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "205"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 205
 
 In many cases, a kingdom's initial BP come from a source outside your party. A wealthy queen may
 want to tame some of the wilderness on her kingdom's borders, or a merchant's guild may want to

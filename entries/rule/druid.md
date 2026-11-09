@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "druid", path = "json/rules_opt_pc_adv01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "88"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 88
 
 A character who chooses [druid](ref/class/druid) as her secondary class gains the following
 secondary class features.

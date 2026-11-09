@@ -10,6 +10,9 @@ relations = [
   { kind = "prerequisite", target = "ref/feat/shot-on-the-run", label = "or" },
   { kind = "prerequisite", target = "ref/feat/spring-attack", label = "or" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "11"
 
 [fields]
 kind = "feat"
@@ -20,8 +23,6 @@ benefit = "While using Spring-Heeled Style, you can move up to twice your speed 
 +++
 
 ## Spring-Heeled Sprint (Combat)
-
-**Sources:** Armor Master's Handbook pg 11
 
 You can move quickly without sacrificing your offense.\
 **Prerequisites:** Dex 15, [Dodge](ref/feat/dodge), [Mobility](ref/feat/mobility),

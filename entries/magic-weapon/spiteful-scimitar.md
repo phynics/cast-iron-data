@@ -6,6 +6,9 @@ source_ids = ["pathfinder-119-prisoners-of-the-blight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spiteful_scimitar", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "pathfinder-119-prisoners-of-the-blight"
+page = "49"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration, transmutation, and necromancy"
 caster_level = "11th"
 +++
 
-**Sources:** Pathfinder \#119: Prisoners of the Blight pg 49\
 **Aura** moderate abjuration, transmutation, and necromancy; **CL** 11th\
 **Slot** none; **Price** 75,315 gp; **Weight** 4 lbs.
 

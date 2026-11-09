@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/gunslinger" },
 ]
+[[sources]]
+publication = "heroes-of-the-high-court"
+page = "8"
 
 [fields]
 kind = "archetype"
 replaces = ["Nimble", "The bonus feat gained at 4th level", "Startling shot deed", "Bleeding wound deed"]
 +++
 
-**Sources:** Heroes of the High Court pg 8\
 As vigilant sentinels, thronewardens identify and head off trouble. First employed in the Grand
 Duchy of Alkenstar, they are now also found in the jungle courts of the Mwangi Expanse, the lesser
 chambers of Nex's Council of Three and Nine, and the Hurricane King's gatherings in the Shackles.

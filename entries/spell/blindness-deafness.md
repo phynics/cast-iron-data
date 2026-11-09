@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blindness_deafness", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "250"
 
 [fields]
 kind = "spell"
@@ -53,7 +56,5 @@ Spell resistance: yes
 Target: one living creature
 Descriptors: curse
 :::
-
-**Sources:** PRPG Core Rulebook pg 250
 
 You call upon the powers of unlife to render the subject blinded or deafened, as you choose.

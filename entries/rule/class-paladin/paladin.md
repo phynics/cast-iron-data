@@ -8,12 +8,15 @@ parent = "ref/class/paladin"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "json/classes3.json#paladin|section:paladin", path = "json/classes3.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "60"
+[[sources]]
+publication = "advanced-players-guide"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 60, Advanced Player's Guide
 
 Through a select, worthy few shines the power of the divine. Called paladins, these noble souls
 dedicate their swords and lives to the battle against evil. Knights, crusaders, and law-bringers,

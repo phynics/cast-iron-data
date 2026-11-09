@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "46"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Debilitating injury", "sneak attack", "trapfinding", "Trap sense", 
 alters = ["Rogue's edge (unchained rogue only)", "Rogue talent"]
 +++
 
-**Sources:** Ultimate Intrigue pg 46\
 Also known as gentleman thieves or lady thieves, phantom thieves don't know the desperation of a
 hard life like many rogues. Instead, they come from the ranks of the elite, having grown bored with
 their finery, and seek thrills from acts of daring, skill, and crime. Phantom thieves don't need the

@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_imperial_sky_young_sky_dragon", path = "json/monsters31.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "98"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ hues of the heavens._
 
 **Senses:** Cloud sight, Dragon senses
 
-**Sources:** Bestiary 3 pg 98\
 **Subtype:** Air
 
 **Experience points:** 6,400

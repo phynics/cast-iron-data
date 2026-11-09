@@ -6,13 +6,15 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wrecker", path = "json/archetypes_COMPANION.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "189"
 
 [fields]
 kind = "archetype"
 replaces = ["Share Spells", "Multiattack"]
 +++
 
-**Sources:** Ultimate Wilderness pg 189\
 Like unruly pets, some companions have a tendency to destroy nearby objects while unsupervised, and
 their masters can channel these destructive impulses into an advantage in battle.
 

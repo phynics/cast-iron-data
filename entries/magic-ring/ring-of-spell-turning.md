@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_spell_turning", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "174"
+[[sources]]
+publication = "core-rulebook"
+page = "479"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong abjuration"
 caster_level = "13th"
 +++
 
-**Sources:** Ultimate Equipment pg 174, PRPG Core Rulebook pg 479\
 **Aura** strong abjuration; **CL** 13th\
 **Slot** ring; **Price** 100,000 gp; **Weight** -
 

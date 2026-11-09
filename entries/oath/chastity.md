@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chastity", path = "json/class_ability_oaths.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "62"
 
 [fields]
 kind = "class_option"
@@ -13,7 +16,6 @@ group = "paladin-oath"
 replaces = ["Divine grace", "Aura of resolve"]
 +++
 
-**Sources:** Ultimate Magic pg 62\
 A chaste paladin proves her purity by way of her action and her abstinence from romantic activities.
 Many believe that this oath is only about sex, but it is really an oath about the romantic notion
 that a single person could be more important than all the evils facing the world - it is this

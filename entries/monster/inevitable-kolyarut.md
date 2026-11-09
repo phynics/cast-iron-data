@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inevitable_kolyarut", path = "json/monsters14.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "163"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ _Beneath its cloak, this man-shaped creature appears to be part statue and part 
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 2 pg 163\
 **Subtype:** Extraplanar, Inevitable, Lawful
 
 **Experience points:** 19,200

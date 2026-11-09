@@ -6,6 +6,12 @@ source_ids = ["inner-sea-world-guide", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flagbearer", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "286"
+[[sources]]
+publication = "pathfinder-campaign-setting"
+page = "64"
 
 [fields]
 kind = "feat"
@@ -15,8 +21,6 @@ benefit = "As long as you hold your clan, house, or party's flag, members of tha
 +++
 
 ## Flagbearer (Combat)
-
-**Sources:** Inner Sea World Guide pg 286, Pathfinder Campaign Setting pg 64
 
 When brandishing a flag adorned with the standard of an organization you owe allegiance to, you
 inspire nearby members of the same allegiance.\

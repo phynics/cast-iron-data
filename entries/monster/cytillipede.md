@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "no-response-from-deepmar"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cytillipede", path = "json/monsters06.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "65"
+[[sources]]
+publication = "no-response-from-deepmar"
+page = "29"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ venom drips from its mandibles._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 5 pg 65, No Response from Deepmar pg 29\
 **Experience points:** 2,400
 
 **Armor class:** 21/10/20

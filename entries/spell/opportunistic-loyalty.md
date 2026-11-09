@@ -6,6 +6,9 @@ source_ids = ["pathfinder-115-trail-of-the-hunted"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "opportunistic_loyalty", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "pathfinder-115-trail-of-the-hunted"
+page = "75"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: yes
 Target: one creature
 Subschool: Compulsion
 :::
-
-**Sources:** Pathfinder \#115: Trail of the Hunted pg 75
 
 Cast this spell when a creature within range casts a spell that provides an effect for its allies
 (such as bless or prayer). You are considered an ally of the caster for the purposes of that spell.

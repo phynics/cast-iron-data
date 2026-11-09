@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sea_serpent", path = "json/monsters21.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "244"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ hisses a challenge._
 
 **Senses:** Darkvision 120 ft., Low-light vision
 
-**Sources:** Pathfinder RPG Bestiary pg 244\
 **Subtype:** Aquatic
 
 **Experience points:** 19,200

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-74-sword-of-valor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_thoxel_demon", path = "json/monsters29.json" },
 ]
+[[sources]]
+publication = "pathfinder-74-sword-of-valor"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ has been flogged and branded a thousand times._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#74: Sword of Valor pg 86\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 1,600

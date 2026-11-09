@@ -6,6 +6,9 @@ source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "voice_of_the_damned", path = "json/monsters_unique4.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "170"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ vortex of otherworldly flame._
 
 **Senses:** Darkvision 60 ft., Detect good, See in darkness, True seeing
 
-**Sources:** Book of the Damned pg 170\
 **Subtype:** Evil, Native
 
 **Experience points:** 1,638,400

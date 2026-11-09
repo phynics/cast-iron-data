@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "social_rank_and_education", path = "json/rules_basics03.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "11"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 11
 
 In most cultures, the wealthy and privileged stand apart from the common masses. But even the
 wealthy and powerful have a hierarchy, as do middle class tradespeople and common laborers. The

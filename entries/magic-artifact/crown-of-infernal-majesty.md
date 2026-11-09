@@ -6,6 +6,9 @@ source_ids = ["pathfinder-106-for-queen-and-empire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crown_of_infernal_majesty", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "pathfinder-106-for-queen-and-empire"
+page = "59"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration and transmutation"
 caster_level = "20th"
 +++
 
-**Sources:** Pathfinder \#106: For Queen and Empire pg 59\
 **Aura** strong abjuration and transmutation; **CL** 20th\
 **Slot** head; **Price** -; **Weight** -
 

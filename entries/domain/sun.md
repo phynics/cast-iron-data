@@ -6,13 +6,14 @@ source_ids = ["core-rulebook", "advanced-players-guide", "champions-of-purity", 
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sun", path = "json/class_ability_domains2.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "47"
 
 [fields]
 kind = "class_option"
 group = "cleric-domain"
 +++
-
-**Sources:** PRPG Core Rulebook pg 47
 
 **Granted Powers:** You see truth in the pure and burning light of the sun, and can call upon its
 blessing or wrath to work great deeds.

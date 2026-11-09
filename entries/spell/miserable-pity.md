@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/sanctuary" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "229"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Spell resistance: yes
 Target: creature touched
 Descriptors: emotion, mind-affecting
 :::
-
-**Sources:** Ultimate Magic pg 229
 
 This spell functions as [sanctuary](ref/spell/sanctuary), except creatures attempting to attack the
 target who fail their saves also feel a strong sense of pity toward the target, as if it were weak,

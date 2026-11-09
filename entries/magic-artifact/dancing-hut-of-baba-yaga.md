@@ -6,6 +6,12 @@ source_ids = ["pathfinder-68-the-shackled-hut", "artifacts-and-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dancing_hut_of_baba_yaga", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "pathfinder-68-the-shackled-hut"
+page = "61"
+[[sources]]
+publication = "artifacts-and-legends"
+page = "21"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "overwhelming conjuration and transmutation"
 caster_level = "30th"
 +++
 
-**Sources:** Pathfinder \#68: The Shackled Hut pg 61, Artifacts and Legends pg 21\
 **Aura** overwhelming conjuration and transmutation; **CL** 30th\
 **Slot** none; **Price** -; **Weight** 3,500 lbs.
 

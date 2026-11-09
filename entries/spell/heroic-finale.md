@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heroic_finale", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "226"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Advanced Player's Guide pg 226
 
 You must have a bardic performance in effect to cast this spell. With a flourish, you immediately
 end the performance, and one creature within range affected by your bardic performance can make a

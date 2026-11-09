@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cavalier" },
 ]
+[[sources]]
+publication = "path-of-the-hellknight"
+page = "32"
 
 [fields]
 kind = "archetype"
 replaces = ["Tactician", "greater tactician", "master tactician", "Challenge", "Demanding challenge"]
 +++
 
-**Sources:** Path of the Hellknight pg 32\
 A circuit judge claims a specific region, becoming an expert in the local laws and, perhaps,
 becoming a fearsome executioner.
 

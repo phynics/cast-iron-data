@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_blessed_relief", path = "json/magic_staff.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "195"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration"
 caster_level = "8th"
 +++
 
-**Sources:** Ultimate Equipment pg 195\
 **Aura** faint conjuration; **CL** 8th\
 **Slot** none; **Price** 7,200 gp; **Weight** 5 lbs.
 

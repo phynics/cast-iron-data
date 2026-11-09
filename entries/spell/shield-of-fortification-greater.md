@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/shield-of-fortification" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "192"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: yes (harmless)
 :::
 
 ### Greater Shield of Fortification
-
-**Sources:** Advanced Class Guide pg 192
 
 This spell functions as [shield of fortification](ref/spell/shield-of-fortification), except there
 is a 50% chance that the critical hit or sneak attack is negated and damage is instead be rolled

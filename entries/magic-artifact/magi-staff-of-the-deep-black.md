@@ -6,6 +6,9 @@ source_ids = ["classic-treasures-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magi_staff_of_the_deep_black", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "classic-treasures-revisited"
+page = "49"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong (all schools)"
 caster_level = "20th"
 +++
 
-**Sources:** Classic Treasures Revisited pg 49\
 **Aura** strong (all schools); **CL** 20th\
 **Slot** none; **Price** -; **Weight** 5 lbs.
 

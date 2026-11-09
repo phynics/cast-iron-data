@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spiked_chain", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "21"
+[[sources]]
+publication = "core-rulebook"
+page = "143"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "10 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 21, PRPG Core Rulebook pg 143
 
 A spiked chain is about 4 feet in length and covered in wicked barbs. Some have metal hoops to use
 as handgrips. You can use the [Weapon Finesse](ref/feat/weapon-finesse) feat to apply your Dexterity

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-38-racing-to-ruin"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloodhaze_mosquito_swarm", path = "json/monsters27.json" },
 ]
+[[sources]]
+publication = "pathfinder-38-racing-to-ruin"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ tiny forms whir in agitation, each a tiny insect with a needle-like proboscis._
 
 **Senses:** Darkvision 120 ft., Scent
 
-**Sources:** Pathfinder \#38: Racing to Ruin pg 84\
 **Subtype:** Swarm
 
 **Type:** vermin

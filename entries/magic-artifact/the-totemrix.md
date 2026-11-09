@@ -6,6 +6,9 @@ source_ids = ["pathfinder-29-mother-of-flies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_totemrix", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "pathfinder-29-mother-of-flies"
+page = "52"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong necromancy"
 caster_level = "15th"
 +++
 
-**Sources:** Pathfinder \#29: Mother of Flies pg 52\
 **Aura** strong necromancy; **CL** 15th\
 **Slot** none; **Price** -; **Weight** 5 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stance_of_the_xorn", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "dwarves-of-golarion"
+page = "21"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ normal = "Flanking opponents gain a +2 flanking bonus to hit."
 +++
 
 ## Stance of the Xorn (Combat)
-
-**Sources:** Dwarves of Golarion pg 21
 
 You have heightened awareness of enemies on all sides.\
 **Prerequisites:** Wis 15, base attack bonus +3.\

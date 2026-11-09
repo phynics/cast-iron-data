@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/witch" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "84"
 
 [fields]
 kind = "archetype"
 replaces = ["4th-level hex", "8th-level hex"]
 +++
 
-**Sources:** Ultimate Magic pg 84\
 Among witches, there are those who devote themselves to the care of others and restrict their
 practices to the healing arts. They often take the place of clerics in rural communities and may
 wander the countryside servicing the needs of several small communities.

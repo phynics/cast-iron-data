@@ -6,6 +6,9 @@ source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "siphon_magic", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "60"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: none
 Spell resistance: no
 Target: creature touched
 :::
-
-**Sources:** Inner Sea Magic pg 60
 
 This spell attempts to transfer a magical effect from a creature you touch to yourself. When you
 touch the creature, siphon magic attempts to end one ongoing spell that has been cast on that

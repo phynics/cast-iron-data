@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/occultist" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "67"
 
 [fields]
 kind = "archetype"
 replaces = ["Object reading", "aura sight", "3rd-level focus power", "Outside contact 2, 3, and 4"]
 +++
 
-**Sources:** Ultimate Wilderness pg 67\
 Many wilderness areas contain the remnants of ancient civilizations, with some waiting to be
 discovered and some held by fierce monsters or devious cults. An occult historian seeks these ruins
 not only for their esoteric artifacts but also to learn the structures' secrets.

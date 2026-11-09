@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/witch" },
 ]
+[[sources]]
+publication = "heroes-of-the-streets"
+page = "20"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["1st-level hex", "6th-level hex"]
 alters = ["Patron", "patron spells"]
 +++
 
-**Sources:** Heroes of the Streets pg 20\
 Some witches find their spark of magic in the long, dark shadows and forgotten places within the
 city.
 

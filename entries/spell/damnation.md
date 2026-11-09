@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "damnation", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "115"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: yes
 Area: 30-ft.-radius burst centered on you
 Descriptors: good
 :::
-
-**Sources:** Horror Adventures pg 115
 
 You pass judgment on your enemies' intentions and punish them with holy power. Each creature in the
 spell's area takes 1d8 points of damage per spell level, determined by the most powerful effect with

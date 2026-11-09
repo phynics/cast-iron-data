@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reforming_an_army", path = "json/rules_campaign_types05.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "246"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 246
 
 Reformation converts a wounded army into a smaller, healthy army. The army hit point rules are
 abstract and represent wounded units, incapacitated units, and dead units. For an army with a very

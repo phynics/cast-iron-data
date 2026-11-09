@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/occultist" },
 ]
+[[sources]]
+publication = "occult-origins"
+page = "14"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Knacks"]
 alters = ["Spells", "Focus powers", "Implements", "Mental focus"]
 +++
 
-**Sources:** Occult Origins pg 14\
 Not all occultists derive their power from psychic impressions left on objects. Some find faith
 first, and draw out the divine potential in religious relics. Many see these religious scholars as
 eccentrics or heretics who pilfer holy magic with their bizarre rituals.

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/monk" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "65"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Flurry of blows", "stunning fist", "quivering palm", "Bonus feat ga
 alters = ["Unarmed strike"]
 +++
 
-**Sources:** Ultimate Wilderness pg 65\
 Water dancers derive their martial training from ancient nereid traditions jealously guarded by
 these enigmatic fey.
 

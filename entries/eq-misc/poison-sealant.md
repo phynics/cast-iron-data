@@ -6,6 +6,9 @@ source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "poison_sealant", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
+page = "56"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "20 gp"
 weight = "-"
 +++
 
-**Sources:** Aquatic Adventures pg 56\
 **Price** 20 gp; **Weight** -\
 **Category** Alchemical Tools
 

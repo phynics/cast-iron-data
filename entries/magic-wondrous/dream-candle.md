@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dream_candle", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "263"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate illusion"
 caster_level = "9th"
 +++
 
-**Sources:** Inner Sea Gods pg 263\
 **Aura** moderate illusion; **CL** 9th\
 **Slot** none; **Price** 2,300 gp; **Weight** 1 lb.
 

@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_jerboa", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "198"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ the animal itself._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Ultimate Wilderness pg 198\
 **Experience points:** 65
 
 **Armor class:** 17/17/14

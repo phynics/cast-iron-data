@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "throne_of_fetters", path = "json/magic_throne.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-high-court"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration and enchantment"
 caster_level = "10th"
 +++
 
-**Sources:** Heroes of the High Court pg 31\
 **Aura** moderate conjuration and enchantment; **CL** 10th\
 **Slot** none; **Price** 16,000 gp; **Weight** 500 lbs.
 

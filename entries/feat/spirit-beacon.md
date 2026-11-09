@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spirit_beacon", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "169"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ prerequisite_feats = ["ref/feat/iron-will"]
 benefit = "Select one specific category of spirit: fey, outsiders, or undead (including haunts). You gain a +1 bonus on Perception and Sense Motive checks against those creatures. If you have 10 or more ranks in one of these skills, the bonus increases to +2 for that skill."
 special = "You shine like a light to the eyes of spirits. Fey, outsiders, and undead creatures gain a +2 bonus on Perception checks to notice you."
 +++
-
-**Sources:** Adventurer's Guide pg 169
 
 You are more aware of the supernatural forces that influence the world - and, consequently, are more
 easily noticed by them.\

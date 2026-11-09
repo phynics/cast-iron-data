@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "modify_an_existing_monster", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "225"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 225
 
 Making a mythic monster out of an ordinary monster is fairly straightforward - just follow these
 steps.

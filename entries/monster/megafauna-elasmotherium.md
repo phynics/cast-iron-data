@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "megafauna_elasmotherium", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "185"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ from the top of its head._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Bestiary 6 pg 185\
 **Experience points:** 6,400
 
 **Armor class:** 23/8/23

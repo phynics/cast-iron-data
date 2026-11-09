@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greensurge_bomb", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "251"
+[[sources]]
+publication = "heroes-of-the-wild"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Wilderness pg 251, Heroes of the Wild pg 28\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** none; **Price** 750 gp; **Weight** 1 lb.
 

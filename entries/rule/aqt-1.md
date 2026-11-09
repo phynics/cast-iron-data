@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aqt_1", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "216"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 216
 
 ### Table 7-50: Undiscovered Islands
 

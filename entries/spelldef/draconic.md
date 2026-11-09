@@ -6,14 +6,15 @@ source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "draconic", path = "json/spell_definitions.json" },
 ]
+[[sources]]
+publication = "legacy-of-dragons"
+page = "28"
 
 [fields]
 kind = "none"
 +++
 
 ## Draconic (spell discriptor)
-
-**Sources:** Legacy of Dragons pg 28
 
 Spells with the draconic descriptor were created by [dragons](ref/family/dragon-true) in ages long
 past, and still resonate within the blood of true dragons to this day. Creatures of the

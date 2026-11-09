@@ -6,6 +6,8 @@ source_ids = ["blood-of-fiends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_dance_of_kindled_desires", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "blood-of-fiends"
 
 [fields]
 kind = "class_option"
@@ -13,8 +15,6 @@ group = "bardic-masterpiece"
 +++
 
 ## The Dance of Kindled Desires (Dance)
-
-**Sources:** Blood of Fiends
 
 Each sway and shake of your hips calls up another temptation from the depths of Hell until your
 spectator, hapless and drooling, finally succumbs and freely offers up his life, honor, or very soul

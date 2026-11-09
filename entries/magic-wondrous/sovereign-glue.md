@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sovereign_glue", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "320"
+[[sources]]
+publication = "core-rulebook"
+page = "530"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong transmutation"
 caster_level = "20th"
 +++
 
-**Sources:** Ultimate Equipment pg 320, PRPG Core Rulebook pg 530\
 **Aura** strong transmutation; **CL** 20th\
 **Slot** none; **Price** 2,400 gp; **Weight** -
 

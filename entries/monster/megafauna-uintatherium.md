@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "megafauna_uintatherium", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "171"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ smaller horn-like ridges._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 5 pg 171\
 **Experience points:** 3,200
 
 **Armor class:** 20/9/20

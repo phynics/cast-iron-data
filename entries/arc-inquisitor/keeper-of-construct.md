@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/inquisitor" },
 ]
+[[sources]]
+publication = "people-of-the-wastes"
+page = "27"
 
 [fields]
 kind = "archetype"
 replaces = ["Domain", "Stern gaze", "Monster lore", "Exploit weakness"]
 +++
 
-**Sources:** People of the Wastes pg 27\
 Some of Brigh's inquisitors, and occasionally those who follow Torag, track down malicious construct
 crafters and fight renegade constructs with unrivaled expertise.
 

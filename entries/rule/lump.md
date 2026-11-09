@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lump", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "74"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 74
 
 The lump just takes up space at the gaming table, rolling dice when instructed or performing actions
 when other players ask him to do something. There's no passion here; the lump is more of an

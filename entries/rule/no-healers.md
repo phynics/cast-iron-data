@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "no_healers", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "43"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 43
 
 Whether you're running a low-magic campaign or just have a group of players uninterested in playing
 healers, a lack of curative magic in the party is a big deviation from the norm. Without a healer,

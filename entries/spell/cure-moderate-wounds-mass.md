@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/cure-light-wounds-mass" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "263"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Spell resistance: yes (harmless) or yes; see text
 Target: one creature/level, no two of which can be more than 30 ft. apart
 Subschool: Healing
 :::
-
-**Sources:** PRPG Core Rulebook pg 263
 
 This spell functions like [mass cure light wounds](ref/spell/cure-light-wounds-mass), except that it
 cures 2d8 points of damage + 1 point per caster level (maximum +30).

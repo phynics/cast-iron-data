@@ -6,6 +6,9 @@ source_ids = ["seers-of-the-drowned-city"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hide_of_the_hagfish", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "seers-of-the-drowned-city"
+page = "54"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Sources:** Seers of the Drowned City pg 54\
 **Aura** moderate transmutation; **CL** 10th\
 **Slot** armor; **Price** 18,165 gp; **Weight** 25 lbs.
 

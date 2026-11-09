@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planar", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "184"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 184
 
 Beyond the mundane world of humans, elves, gnomes, and dwarves lie vast realms known as the planes
 of existence. Almost limitless in size and potential, the various planes embody the fundamental

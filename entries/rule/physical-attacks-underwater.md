@@ -6,12 +6,13 @@ source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "physical_attacks_underwater", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Aquatic Adventures\
 One of the most immediately noticeable differences when fighting underwater is that slashing and
 bludgeoning attacks are made with a -2 penalty and deal half damage, making piercing weapons the
 best bet for an underwater adventure. If you're off-balance (see

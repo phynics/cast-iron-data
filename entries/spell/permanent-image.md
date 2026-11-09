@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/silent-image" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "319"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Spell resistance: no
 Effect: figment that cannot extend beyond a 20-ft. cube + one 10-ft. cube/level (S)
 Subschool: Figment
 :::
-
-**Sources:** PRPG Core Rulebook pg 319
 
 This spell functions like [silent image](ref/spell/silent-image), except that the figment includes
 visual, auditory, olfactory, and thermal elements, and the spell is permanent. By concentrating, you

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/summoner" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "94"
 
 [fields]
 kind = "archetype"
 alters = ["Summon monster"]
 +++
 
-**Sources:** Ultimate Wilderness pg 94\
 A leshy caller summons creatures from the First World and forges a bond with a leshy eidolon.
 
 **Leshy Eidolon**

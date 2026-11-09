@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/arcanist" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "77"
 
 [fields]
 kind = "archetype"
 replaces = ["The arcanist exploit gained at 3rd level", "The arcanist exploit gained at 9th level", "Magical supremacy"]
 +++
 
-**Sources:** Advanced Class Guide pg 77\
 Frequently called "brown-furs," these transmutation-focused arcanists are known for transforming
 themselves into animals. What few realize is that these specialized arcanists excel at turning
 themselves - and others - into all kinds of creatures.

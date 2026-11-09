@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bottled_misfortune", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "285"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "10th"
 +++
 
-**Sources:** Ultimate Equipment pg 285\
 **Aura** moderate necromancy; **CL** 10th\
 **Slot** none; **Price** 500 gp; **Weight** 1 lb.
 

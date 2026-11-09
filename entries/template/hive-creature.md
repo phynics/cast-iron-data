@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hive_creature", path = "json/monster_template2.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "249"
 
 [fields]
 kind = "none"
@@ -18,8 +21,6 @@ kind = "none"
 **Challenge rating:** +1
 
 **Simple:** present
-
-**Source:** Horror Adventures/249
 
 While a creature infested by a [hive corruption](ref/rule/hive) usually becomes a warrior, mutations
 can create hive creatures that retain the capabilities of the original creatures.

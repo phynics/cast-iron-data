@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "limbo", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "192"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 192
 
 A vast ocean of unrestrained chaos and untapped potential surrounds and is coterminous with each of
 the Outer Planes. This is Limbo: beautiful, deadly, and truly endless. From its unplumbed depths

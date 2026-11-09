@@ -6,6 +6,9 @@ source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scabbard_of_the_efreet", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "63"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong evocation"
 caster_level = "12th"
 +++
 
-**Sources:** Inner Sea Combat pg 63\
 **Aura** strong evocation; **CL** 12th\
 **Slot** none; **Price** 41,000 gp; **Weight** 2 lbs.
 

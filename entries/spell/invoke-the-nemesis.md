@@ -6,12 +6,14 @@ source_ids = ["blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "invoke_the_nemesis", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "blood-of-the-coven"
+page = "25"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Blood of the Coven pg 25\
 **School** conjuration (calling) \[curse\]; **Level** 7\
 **Casting Time** 7 hours\
 **Components** V, S, M (a treasured possession of the target), F (a depiction of the nemesis

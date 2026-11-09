@@ -6,13 +6,15 @@ source_ids = ["advanced-players-guide", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "serpentine", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "138"
 
 [fields]
 kind = "class_option"
 group = "sorcerer-bloodline"
 +++
 
-**Sources:** Advanced Player's Guide pg 138\
 Your bloodline carries the lingering stain of ancient serpent races that ruled when the world was
 young; your forebears were likely favored slaves anointed by their reptilian masters and gifted with
 their cold cunning and subtle manipulation. While deception and a mesmeric charm are your

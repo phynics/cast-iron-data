@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "pathfinder-23-the-impossible-eye"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "div_sepid", path = "json/monsters08.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "89"
+[[sources]]
+publication = "pathfinder-23-the-impossible-eye"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ _Twice the height of a human, this horned monstrous warrior wields a massive bla
 
 **Senses:** Darkvision 60 ft., See in darkness
 
-**Sources:** Bestiary 3 pg 89, Pathfinder \#23: The Impossible Eye pg 84\
 **Subtype:** Div, Evil, Extraplanar
 
 **Experience points:** 38,400

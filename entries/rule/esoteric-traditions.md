@@ -6,12 +6,13 @@ source_ids = ["occult-mysteries"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "esoteric_traditions", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-mysteries"
+page = "35"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Mysteries pg 35
 
 Occult practices have always been popular on Golarion. For those without magical power themselves,
 they offer a glimpse into the world of the esoteric, and sometimes grant abilities that reveal the

@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wicker_horse", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "177"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: no
 Effect: a horse-like wicker construct
 Subschool: Creation
 :::
-
-**Sources:** Villain Codex pg 177
 
 Reeds, grasses, creepers, or thin tree branches (your choice) that you touch animate, twisting and
 bending to form a wicker horse complete with a riding saddle. The object is animated, but retains a

@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wolf_callers_horn", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "225"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment"
 caster_level = "11th"
 +++
 
-**Sources:** Horror Adventures pg 225\
 **Aura** moderate enchantment; **CL** 11th\
 **Slot** none; **Price** 4,000 gp; **Weight** 1 lb.
 

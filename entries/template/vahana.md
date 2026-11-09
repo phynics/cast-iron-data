@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vahana", path = "json/monster_template4.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "262"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +2
-
-**Source:** Bestiary 5/262
 
 Vahanas are steeds of legend, created by the gods. Deities gift vahanas to faithful servants to help
 them accomplish great deeds or as rewards for the same. Makaras, elephants with crocodile features,

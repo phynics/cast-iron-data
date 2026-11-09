@@ -6,6 +6,9 @@ source_ids = ["pathfinder-139-the-dead-road"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "harbingers_scythe", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "pathfinder-139-the-dead-road"
+page = "63"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation and necromancy"
 caster_level = "7th"
 +++
 
-**Sources:** Pathfinder \#139: The Dead Road pg 63\
 **Aura** moderate evocation and necromancy; **CL** 7th\
 **Slot** none; **Price** 19,518 gp; **Weight** 10 lbs.
 

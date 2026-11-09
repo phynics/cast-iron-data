@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "yeth_hound", path = "json/monsters41.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "286"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ _This emaciated, hairless canine has a strange air of menace and cruelty about i
 
 **Senses:** Darkvision 60 ft., Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 286\
 **Subtype:** Evil, Extraplanar
 
 **Experience points:** 800

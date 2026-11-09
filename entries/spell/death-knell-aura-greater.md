@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/death-knell-aura" },
 ]
+[[sources]]
+publication = "book-of-the-damned-volume-3-horsemen-of-the-apocalypse"
+page = "38"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Descriptors: death, evil
 :::
 
 ### Greater Death Knell Aura
-
-**Sources:** Book of the Damned - Volume 3: Horsemen of the Apocalypse pg 38
 
 This spell functions as [death knell aura](ref/spell/death-knell-aura), except a dying creature in
 the area cannot stabilize on its own and automatically takes 1 point of bleed damage on its turn

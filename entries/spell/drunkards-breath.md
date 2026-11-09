@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/stinking-cloud" },
 ]
+[[sources]]
+publication = "pathfinder-14-children-of-the-void"
+page = "61"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: no
 Area: cone-shaped burst
 Subschool: Creation
 :::
-
-**Sources:** Pathfinder \#14: Children of the Void pg 61
 
 This spell emanates from your mouth and functions like [stinking cloud](ref/spell/stinking-cloud),
 except as noted above. The effect is barely visible and does not obscure vision. The nausea effect

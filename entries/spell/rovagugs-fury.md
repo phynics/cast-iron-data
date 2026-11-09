@@ -6,6 +6,15 @@ source_ids = ["inner-sea-gods", "pathfinder-23-the-impossible-eye", "gods-and-ma
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rovagugs_fury", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "239"
+[[sources]]
+publication = "pathfinder-23-the-impossible-eye"
+page = "66"
+[[sources]]
+publication = "gods-and-magic"
+page = "33"
 
 [fields]
 kind = "spell"
@@ -46,8 +55,6 @@ Saving throw: none
 Spell resistance: yes
 Area: cone-shaped burst
 :::
-
-**Sources:** Inner Sea Gods pg 239, Pathfinder \#23: The Impossible Eye pg 66, Gods and Magic pg 33
 
 You create a minor earthquake that can trip creatures. Attempt a single combat maneuver check and
 apply the result against the CMD of every creature in the area. If your roll equals or exceeds a

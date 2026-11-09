@@ -6,6 +6,9 @@ source_ids = ["occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "yithian_elder", path = "json/monsters41.json" },
 ]
+[[sources]]
+publication = "occult-bestiary"
+page = "62"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ eyes that glow with ancient, forbidden power._
 
 **Senses:** All-around vision, Darkvision 60 ft.
 
-**Sources:** Occult Bestiary pg 62\
 **Experience points:** 25,600
 
 **Armor class:** 27/12/24

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/tongues" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "248"
 
 [fields]
 kind = "spell"
@@ -62,8 +65,6 @@ Target: creature touched
 :::
 
 ### Communal Tongues
-
-**Sources:** Ultimate Combat pg 248
 
 This spell functions like [tongues](ref/spell/tongues), except you divide the duration in 10-minute
 intervals among the creatures touched.

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "true_seeing", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "363"
 
 [fields]
 kind = "spell"
@@ -59,8 +62,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
 :::
-
-**Sources:** PRPG Core Rulebook pg 363
 
 You confer on the subject the ability to see all things as they actually are. The subject sees
 through normal and magical darkness, notices secret doors hidden by magic, sees the exact locations

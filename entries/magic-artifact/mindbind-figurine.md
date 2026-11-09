@@ -6,6 +6,9 @@ source_ids = ["the-moonscar"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mindbind_figurine", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "the-moonscar"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "overwhelming enchantment"
 caster_level = "25th"
 +++
 
-**Sources:** The Moonscar pg 28\
 **Aura** overwhelming enchantment; **CL** 25th\
 **Slot** none; **Price** -; **Weight** 80 lbs.
 

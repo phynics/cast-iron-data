@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_subjective_slam", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "28"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When using Subjective Slam, you take only a -1 penalty on the combat 
 +++
 
 ## Greater Subjective Slam (Combat)
-
-**Sources:** Planar Adventures pg 28
 
 Your gravitational impact is meteoric, and your ability to use the act of falling devastating.\
 **Prerequisites:** Con 15; Wis 15; [Subjective Mobility](ref/feat/subjective-mobility);

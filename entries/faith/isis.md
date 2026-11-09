@@ -6,6 +6,9 @@ source_ids = ["pathfinder-80-empty-graves"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "isis", path = "json/faiths4.json" },
 ]
+[[sources]]
+publication = "pathfinder-80-empty-graves"
+page = "69"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Isis**
 
 **Sub:** Queen of Miracles
-
-**Sources:** Pathfinder \#80: Empty Graves pg 69
 
 ### Details
 

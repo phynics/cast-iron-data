@@ -6,12 +6,14 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "second_sight", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "133"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Adventures pg 133\
 **School** divination; **Level** 4\
 **Casting Time** 40 minutes\
 **Components** V, S, M (an eyedropper filled with water from the Elemental Plane of Water), SC (at

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-143-borne-by-the-suns-grace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mortic_relictner", path = "json/monsters17.json" },
 ]
+[[sources]]
+publication = "pathfinder-143-borne-by-the-suns-grace"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ eerie agility._
 
 **Senses:** Darkvision 60 ft., Ruin sense
 
-**Sources:** Pathfinder \#143: Borne by the Sun's Grace pg 86\
 **Subtype:** Dwarf, Mortic
 
 **Experience points:** 19,200

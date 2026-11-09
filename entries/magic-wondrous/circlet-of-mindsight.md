@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "pathfinder-society-field-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "circlet_of_mindsight", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "240"
+[[sources]]
+publication = "pathfinder-society-field-guide"
+page = "51"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate divination"
 caster_level = "9th"
 +++
 
-**Sources:** Ultimate Equipment pg 240, Pathfinder Society Field Guide pg 51\
 **Aura** moderate divination; **CL** 9th\
 **Slot** head; **Price** 22,000 gp; **Weight** -
 

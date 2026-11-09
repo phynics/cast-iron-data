@@ -6,12 +6,14 @@ source_ids = ["skull-and-shackles-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ships_and_ship_statistics", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "skull-and-shackles-players-guide"
+page = "22"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Skull and Shackles Player's Guide pg 22\
 A vast variety of boats and ships exist in the real world, from small rafts and longboats to
 intimidating galleons and swift galleys. To represent the numerous distinctions of shape and size
 that exist between water-going vessels, the following stat blocks categorize several standard ship

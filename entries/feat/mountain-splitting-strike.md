@@ -6,6 +6,9 @@ source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mountain_splitting_strike", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "giant-hunters-handbook"
+page = "23"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you make a charge attack against an opponent at least one size c
 +++
 
 ## Mountain-Splitting Strike (Combat)
-
-**Sources:** Giant Hunter's Handbook pg 23
 
 You have learned techniques to focus the force of an unarmed strike into the most vulnerable parts
 of a large opponent's anatomy.\

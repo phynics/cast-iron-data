@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kyton", path = "json/monsters15.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "185"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ etched with jagged scars._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 185\
 **Subtype:** Evil, Extraplanar, Kyton, Lawful
 
 **Experience points:** 2,400

@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bag_of_rust", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "26"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Sources:** Dirty Tactics Toolbox pg 26\
 **Aura** moderate transmutation; **CL** 7th\
 **Slot** none; **Price** 1,400 gp; **Weight** 1/2 lb.
 

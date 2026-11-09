@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "constrictors_gauntlets", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "25"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Sources:** Dirty Tactics Toolbox pg 25\
 **Aura** moderate transmutation; **CL** 10th\
 **Slot** none; **Price** 12,302 gp; **Weight** 1 lb.
 

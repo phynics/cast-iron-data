@@ -6,6 +6,8 @@ source_ids = ["disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spirit_of_the_horse", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "disciples-doctrine"
 
 [fields]
 kind = "class_option"
@@ -13,8 +15,6 @@ group = "bardic-masterpiece"
 +++
 
 ## Spirit of the Horse (Strings)
-
-**Sources:** Disciple's Doctrine
 
 This mournful song, which is typically played upon a traditional instrument known as a morin khuur,
 empowers animal companions.

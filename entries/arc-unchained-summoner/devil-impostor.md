@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/unchained-summoner" },
 ]
+[[sources]]
+publication = "agents-of-evil"
+page = "17"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Bond senses", "Shield ally", "Greater shield ally", "Transposition"
 alters = ["Eidolon", "Summon monster"]
 +++
 
-**Sources:** Agents of Evil pg 17\
 Some summoners can't abide the cruelty of devils, or simply can't outwit them, but must appear to do
 so to get by in Cheliax, the Outer Planes, or similar areas of infernal influence. Rather than risk
 binding true devils, they reshape their eidolons into deceptive forms.

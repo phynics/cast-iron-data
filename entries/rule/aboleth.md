@@ -6,12 +6,14 @@ source_ids = ["horror-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aboleth", path = "json/rules_campaign_types02.json" },
 ]
+[[sources]]
+publication = "horror-realms"
+page = "54-55"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Realms pg. 54-55\
 The veiled masters have long controlled countless minions in the Inner Sea region's political
 arenas.
 

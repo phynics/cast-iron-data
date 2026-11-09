@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_lord_dagon", path = "json/monsters_unique.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "46"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ a deep sea predator._
 
 **Senses:** Darkvision 60 ft., Detect good, Detect law, True seeing
 
-**Sources:** Bestiary 4 pg 46\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar, Water
 
 **Experience points:** 4,915,200

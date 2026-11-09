@@ -6,6 +6,9 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cortex_gun_mark_ii", path = "json/equipment_tech_misc.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "42"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ slot = "none"
 
 ## Cortex gun (mark I)
 
-**Sources:** Technology Guide pg 42\
 **Price** 30,250 gp (mark I), 60,500 gp (mark II), 90,750 gp (mark III), 121,000 gp (mark IV),
 151,250 gp (mark V)\
 **Slot** none; **Weight** 1 lb. (all)\

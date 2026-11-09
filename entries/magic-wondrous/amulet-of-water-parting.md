@@ -6,6 +6,9 @@ source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "amulet_of_water_parting", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "merchants-manifest"
+page = "9"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Sources:** Merchant's Manifest pg 9\
 **Aura** moderate transmutation; **CL** 11th\
 **Slot** neck; **Price** 10,000 gp; **Weight** -
 

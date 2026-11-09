@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "step_4_feats", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "452"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 452
 
 After skills have been determined, the next step is to assign the NPC's feats. Start by assigning
 all of the feats granted through class abilities. Next, assign the feats garnered from the NPC's

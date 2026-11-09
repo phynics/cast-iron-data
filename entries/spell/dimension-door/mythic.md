@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/dimension-door", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "91"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 91
 
 The duration of this spell changes to 1 round per 2 caster levels, and it creates a temporary,
 invisible, one-way portal in your square to your destination. You immediately pass through the

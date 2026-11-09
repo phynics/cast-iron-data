@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_other", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "342"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: one creature
 :::
-
-**Sources:** PRPG Core Rulebook pg 342
 
 This spell wards the subject and creates a mystic connection between you and the subject so that
 some of its wounds are transferred to you. The subject gains a +1 deflection bonus to AC and a +1

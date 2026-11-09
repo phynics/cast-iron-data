@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tavern_toolbox", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "200"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 200
 
 Over the course of a campaign, the PCs might seek solace in a blur of inns and taverns. But with a
 little effort and the help of the following charts full of details, the PCs may soon develop

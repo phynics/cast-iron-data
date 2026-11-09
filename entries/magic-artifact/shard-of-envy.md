@@ -6,6 +6,9 @@ source_ids = ["pathfinder-61-shards-of-sin"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shard_of_envy", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "pathfinder-61-shards-of-sin"
+page = "68"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "overwhelming abjuration"
 caster_level = "25th"
 +++
 
-**Sources:** Pathfinder \#61: Shards of Sin pg 68\
 **Aura** overwhelming abjuration; **CL** 25th\
 **Slot** none; **Price** -; **Weight** 1 lb.
 

@@ -6,6 +6,9 @@ source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "emerald_eyed_blade", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "merchants-manifest"
+page = "17"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "9th"
 +++
 
-**Sources:** Merchant's Manifest pg 17\
 **Aura** moderate necromancy; **CL** 9th\
 **Slot** none; **Price** 24,315 gp; **Weight** 4 lbs.
 

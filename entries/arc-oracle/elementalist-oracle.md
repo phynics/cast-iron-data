@@ -9,13 +9,18 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/oracle" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "68"
+[[sources]]
+publication = "people-of-the-sands"
+page = "15"
 
 [fields]
 kind = "archetype"
 replaces = ["The bonus spells gained at 4th, 6th, 8th, 10th, 12th and 18th levels from the oracle's mystery", "Final revelation"]
 +++
 
-**Sources:** Ultimate Wilderness pg 68, People of the Sands pg 15\
 An elementalist oracle shares an affinity with the elements and elemental creatures. She can
 communicate with elemental creatures and can eventually become an elemental herself. She sees
 perfection in manifestations of elemental fury in the natural world, be they the thunderous wrath of

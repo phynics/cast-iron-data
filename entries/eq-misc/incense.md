@@ -6,6 +6,12 @@ source_ids = ["occult-adventures", "advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "incense", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "249"
+[[sources]]
+publication = "advanced-race-guide"
+page = "87"
 
 [fields]
 kind = "item"
@@ -14,7 +20,6 @@ price = "7 sp"
 weight = "0.1 lb."
 +++
 
-**Sources:** Occult Adventures pg 249, Advanced Race Guide pg 87\
 **Price** 7 sp; **Weight** 0.1 lb.\
 **Category** Adventuring Gear
 

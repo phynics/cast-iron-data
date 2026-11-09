@@ -6,12 +6,13 @@ source_ids = ["rival-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dreamtime_tea", path = "json/drugs.json" },
 ]
+[[sources]]
+publication = "rival-guide"
+page = "53"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Rival Guide pg 53
 
 **Type:** ingested
 

@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kitsune", path = "json/monsters15.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "175"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ _This elegantly dressed woman has the head and bushy tail of well-groomed fox._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 4 pg 175\
 **Subtype:** Kitsune, Shapechanger
 
 **Experience points:** 200

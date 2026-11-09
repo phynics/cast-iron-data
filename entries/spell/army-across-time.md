@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/ally-across-time" },
 ]
+[[sources]]
+publication = "legacy-of-the-first-world"
+page = "30"
 
 [fields]
 kind = "spell"
@@ -56,8 +59,6 @@ Subschool: Summoning
 :::
 
 ### Army Across Time
-
-**Sources:** Legacy of the First World pg 30
 
 This spell functions as [ally across time as noted above](ref/spell/ally-across-time) with two
 exceptions. First, you can summon one duplicate per caster level before the spell ends. Second, you

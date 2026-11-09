@@ -6,6 +6,9 @@ source_ids = ["the-house-on-hook-street"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_dreamstone", path = "json/magic_artifact3.json" },
 ]
+[[sources]]
+publication = "the-house-on-hook-street"
+page = "52"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation"
 caster_level = "20th"
 +++
 
-**Sources:** The House on Hook Street pg 52\
 **Aura** strong transmutation; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 3 lbs.
 

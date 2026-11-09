@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_like_abilities", path = "json/misc.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "13"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 13
 
 [Spell-like abilities](ref/umr/spell-like-abilities) function just like spells, but are granted
 through a special racial ability or by a specific [class](ref/misc/class) ability (as opposed to

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "where_to_play", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "13"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 13
 
 The optimum gaming space has the following features.
 

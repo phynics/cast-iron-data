@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "death_of_a_hero", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "67"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 67
 
 Inevitably, whether in a dramatic sacrifice or merely through bad luck with the dice, player
 characters die. How the group reacts to the death - and what the now-characterless player does about

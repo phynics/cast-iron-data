@@ -6,6 +6,18 @@ source_ids = ["alchemy-manual", "classic-horrors-revisited", "pathfinder-61-shar
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cytillesh_extract", path = "json/equipment_poisons.json" },
 ]
+[[sources]]
+publication = "alchemy-manual"
+page = "11"
+[[sources]]
+publication = "classic-horrors-revisited"
+page = "8"
+[[sources]]
+publication = "pathfinder-61-shards-of-sin"
+page = "64"
+[[sources]]
+publication = "no-response-from-deepmar"
+page = "21"
 
 [fields]
 kind = "item"
@@ -13,9 +25,6 @@ category = "Poisons"
 price = "800 gp"
 weight = "&mdash;"
 +++
-
-**Sources:** Alchemy Manual pg 11, Classic Horrors Revisited pg 8, Pathfinder \#61: Shards of Sin pg
-64, No Response from Deepmar pg 21
 
 **Price** 800 gp; **Weight** —
 

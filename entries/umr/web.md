@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "web", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "301"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Web (Ex)
 
-**Sources:** Bestiary 5 pg 301\
 The creature uses webs to support themselves and up to one additional creature of the same size or
 smaller. Such creatures can throw a web up to eight times per day. This is similar to an attack with
 a net but has a maximum range of 50 feet, with a range increment of 10 feet, and it is effective

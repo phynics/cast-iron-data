@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tea_ceremony_set", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "95"
+[[sources]]
+publication = "adventurers-armory"
+page = "19"
 
 [fields]
 kind = "item"
@@ -14,7 +20,6 @@ price = "25 gp"
 weight = "5 lbs."
 +++
 
-**Sources:** Ultimate Equipment pg 95, Adventurer's Armory pg 19\
 **Price** 25 gp; **Weight** 5 lbs.\
 **Category** Food/Drink
 

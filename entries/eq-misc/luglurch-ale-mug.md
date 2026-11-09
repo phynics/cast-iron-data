@@ -6,6 +6,9 @@ source_ids = ["halflings-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "luglurch_ale_mug", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "halflings-of-golarion"
+page = "10"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "-"
 
 ## Luglurch Ale
 
-**Sources:** Halflings of Golarion pg 10\
 **Price** 1 gp/gallon, 4 sp/mug; **Weight** -\
 **Category** Food/Drink
 

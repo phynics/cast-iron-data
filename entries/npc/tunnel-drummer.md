@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tunnel_drummer", path = "json/npcs6.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "37"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "13"
 
 **Challenge rating:** 13
 
-**Sources:** NPC Codex pg 37\
 **XP** 25,600\
 Dwarf [bard](ref/class/bard) 14\
 LN Medium humanoid (dwarf)\

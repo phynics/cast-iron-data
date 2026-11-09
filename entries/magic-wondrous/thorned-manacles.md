@@ -6,6 +6,9 @@ source_ids = ["demon-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thorned_manacles", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "demon-hunters-handbook"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration and transmutation"
 caster_level = "7th"
 +++
 
-**Sources:** Demon Hunter's Handbook pg 29\
 **Aura** moderate abjuration and transmutation; **CL** 7th\
 **Slot** wrists; **Price** 35,600 gp; **Weight** 2 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "angel_cassisian", path = "json/monsters26.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "26"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ through the air on feathered wings._
 
 **Size:** small
 
-**Sources:** Bestiary 2 pg 26\
 **Subtype:** Angel, Extraplanar, Good
 
 **Experience points:** 600

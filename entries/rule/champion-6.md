@@ -6,12 +6,20 @@ source_ids = ["mythic-adventures", "mythic-origins", "heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "champion_6", path = "json/rules_campaign_types07.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "25"
+[[sources]]
+publication = "mythic-origins"
+page = "23"
+[[sources]]
+publication = "heroes-of-golarion"
+page = "30"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 25, Mythic Origins pg 23, Heroes of Golarion pg 30\
 You must be at least 6th tier to select these path abilities.
 
 **Critical Master (Ex):** Whenever you roll a critical threat against a non-mythic creature, you

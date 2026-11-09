@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elf_background", path = "json/rules_basics03.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "17"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 17
 
 Elves are often raised in insular elven communities, and the longevity of these people means that
 elven children often grow up with the help of a large social network.

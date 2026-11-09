@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charge_through", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "156"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ normal = "You must have a clear path toward the target of your charge."
 +++
 
 ## Charge Through (Combat)
-
-**Sources:** Advanced Player's Guide pg 156
 
 You can overrun enemies when charging.\
 **Prerequisites:** Str 13, [Improved Overrun](ref/feat/improved-overrun),

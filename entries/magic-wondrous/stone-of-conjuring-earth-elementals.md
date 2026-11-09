@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stone_of_conjuring_earth_elementals", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "321"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "11th"
 +++
 
-**Sources:** Ultimate Equipment pg 321\
 **Aura** moderate conjuration; **CL** 11th\
 **Slot** none; **Price** 90,000 gp; **Weight** 5 lbs.
 

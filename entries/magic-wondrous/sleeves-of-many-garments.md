@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sleeves_of_many_garments", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "275"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint illusion"
 caster_level = "1st"
 +++
 
-**Sources:** Ultimate Equipment pg 275\
 **Aura** faint illusion; **CL** 1st\
 **Slot** wrists; **Price** 200 gp; **Weight** 1 lb.
 

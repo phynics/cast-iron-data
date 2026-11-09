@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "urn_of_smoldering_shapes", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "225"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Sources:** Horror Adventures pg 225\
 **Aura** moderate evocation; **CL** 10th\
 **Slot** none; **Price** 16,000 gp; **Weight** 5 lbs.
 

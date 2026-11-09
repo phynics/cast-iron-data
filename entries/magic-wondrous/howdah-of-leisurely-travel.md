@@ -6,6 +6,9 @@ source_ids = ["pathfinder-111-dreams-of-the-yellow-king"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "howdah_of_leisurely_travel", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "pathfinder-111-dreams-of-the-yellow-king"
+page = "43"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration and transmutation"
 caster_level = "10th"
 +++
 
-**Sources:** Pathfinder \#111: Dreams of the Yellow King pg 43\
 **Aura** moderate abjuration and transmutation; **CL** 10th\
 **Slot** none; **Price** 65,000 gp; **Weight** 200 lbs.
 

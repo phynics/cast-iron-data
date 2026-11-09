@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scion_of_the_lost_empire", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "208"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "While you're adjacent to an ethnically Chelish or Taldan ally who als
 +++
 
 ## Scion of the Lost Empire (Teamwork)
-
-**Sources:** Inner Sea Races pg 208
 
 Though you might not be able to trace your lineage back to Azlant, you can feel the ancient power in
 your blood whenever you're near others like yourself.\

@@ -6,6 +6,9 @@ source_ids = ["disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disguised_holy_text", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "disciples-doctrine"
+page = "28"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "1-100 gp"
 weight = "1-20 lbs."
 +++
 
-**Sources:** Disciple's Doctrine pg 28\
 **Price** 1-100 gp; **Weight** 1-20 lbs.\
 **Category** Adventuring Gear
 

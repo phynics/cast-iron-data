@@ -6,6 +6,9 @@ source_ids = ["isles-of-the-shackles"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chickcharney", path = "json/monsters05.json" },
 ]
+[[sources]]
+publication = "isles-of-the-shackles"
+page = "46"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ piercing black eyes and emits an annoying screech._
 
 **Size:** small
 
-**Sources:** Isles of the Shackles pg 46\
 **Experience points:** 800
 
 **Armor class:** 15/15/11

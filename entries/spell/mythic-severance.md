@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mythic_severance", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "114"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: curse
 :::
-
-**Sources:** Mythic Adventures pg 114
 
 You restrict the target's access to its mythic power. Each time the target attempts to cast a mythic
 spell, expend mythic power to activate a path ability, or use any other effect that requires

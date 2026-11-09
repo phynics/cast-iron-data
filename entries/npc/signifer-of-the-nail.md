@@ -6,6 +6,9 @@ source_ids = ["castles-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "signifer_of_the_nail", path = "json/npcs2.json" },
 ]
+[[sources]]
+publication = "castles-of-the-inner-sea"
+page = "29"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "6"
 
 **Challenge rating:** 6
 
-**Sources:** Castles of the Inner Sea pg 29\
 **XP** 2,400\
 Human [sorcerer](ref/class/sorcerer) 6/Hellknight Signifer 1\
 LE Medium humanoid (human)\

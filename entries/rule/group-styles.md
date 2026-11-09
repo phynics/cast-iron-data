@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "group_styles", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "10"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 10
 
 In addition to focusing on the game-specific themes and styles, consider the group of players
 sitting around the table. Are they looking for a casual "beer and pretzels" game, or are they

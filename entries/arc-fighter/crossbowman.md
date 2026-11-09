@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/fighter" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "104"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Armor training 1", "Weapon training 1", "Armor training 2", "Weapon
 alters = ["Weapon mastery"]
 +++
 
-**Sources:** Advanced Player's Guide pg 104\
 The crossbowman has perfected the deadly use of the crossbow, a simple but cruelly efficient weapon,
 as a craftsman mastering a lethal tool.
 

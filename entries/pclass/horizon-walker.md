@@ -6,14 +6,15 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horizon_walker", path = "json/prestige_classes2.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "265"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d10."
 +++
-
-**Sources:** Advanced Player's Guide pg 265
 
 Those whose wanderlust drives them to push the boundary of safe environments sometimes seek the
 calling of the horizon walker. Horizon walkers are masters of travel, always seeking to find the

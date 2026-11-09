@@ -6,6 +6,9 @@ source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mekainae", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "merchants-manifest"
+page = "6"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "5 gp"
 weight = "-"
 +++
 
-**Sources:** Merchant's Manifest pg 6\
 **Price** 5 gp; **Weight** -\
 **Category** Food/Drink
 

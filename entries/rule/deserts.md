@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deserts", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "222"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 222
 
 Deserts are defined not by climate, but rather by the amount of rainfall a region receives; they can
 be cold, temperate, or hot. They exist in weather shadows, blocked from ordinary precipitation

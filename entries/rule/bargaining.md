@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bargaining", path = "json/rules_subsystems01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "138"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 138
 
 An item is worth only what someone will pay for it. To an art collector, a canvas covered in daubs
 of random paint may be a masterpiece; a priestess might believe a weathered jawbone is a holy relic

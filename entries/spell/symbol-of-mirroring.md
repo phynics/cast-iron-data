@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/symbol-of-death" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "241"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: yes
 Effect: one symbol
 Subschool: Figment
 :::
-
-**Sources:** Ultimate Magic pg 241
 
 This spell functions as [symbol of death](ref/spell/symbol-of-death), except it instead creates one
 illusory duplicate of each creature within 60 feet of the symbol. These duplicates function as

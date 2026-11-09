@@ -6,6 +6,9 @@ source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stock_striker_sweep", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "people-of-the-wastes"
+page = "11"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you are using Stock-Striker Style and successfully knock a targe
 +++
 
 ## Stock-Striker Sweep (Combat)
-
-**Sources:** People of the Wastes pg 11
 
 The force of your firearm strikes can drive back your foe or damage a second target.\
 **Prerequisites:** [Stock-Striker Style](ref/feat/stock-striker-style), base attack bonus +7,

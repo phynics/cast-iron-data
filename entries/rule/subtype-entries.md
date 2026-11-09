@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "subtype_entries", path = "json/rules_adv_gm02.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "214"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 214
 
 The following subtypes cover most of those presented in bestiaries, with the exception of those that
 either don't grant significant abilities or have such an impact on the monster that a graft can't

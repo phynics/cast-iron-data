@@ -6,6 +6,9 @@ source_ids = ["pathfinder-101-the-kintargo-contract"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_rust_devil_ferrugon", path = "json/monsters07.json" },
 ]
+[[sources]]
+publication = "pathfinder-101-the-kintargo-contract"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ covered with rusty metallic feathers, each resembling a weathered dagger._
 
 **Senses:** Darkvision 60 ft., Detect good, See in darkness
 
-**Sources:** Pathfinder \#101: The Kintargo Contract pg 82\
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **Experience points:** 19,200

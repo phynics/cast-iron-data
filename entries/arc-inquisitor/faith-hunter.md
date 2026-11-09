@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/inquisitor" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "28"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Domain", "justice and destruction judgments", "Detect alignment"]
 alters = ["Judgment", "Bane"]
 +++
 
-**Sources:** Ultimate Intrigue pg 28\
 Certain relentless inquisitors burn with special hatred for an enemy of specific convictions, and
 they stop at nothing when obsessively hunting these foes down.
 

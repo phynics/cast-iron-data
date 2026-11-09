@@ -6,6 +6,12 @@ source_ids = ["pathfinder-39-the-city-of-seven-spears", "occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ganji_doll", path = "json/magic_juju_fetishes.json" },
 ]
+[[sources]]
+publication = "pathfinder-39-the-city-of-seven-spears"
+page = "71"
+[[sources]]
+publication = "occult-adventures"
+page = "258"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate necromancy"
 caster_level = "6th"
 +++
 
-**Sources:** Pathfinder \#39: The City of Seven Spears pg 71, Occult Adventures pg 258\
 **Aura** moderate necromancy; **CL** 6th\
 **Slot** none; **Price** 16,000 gp; **Weight** 1/2 lb.
 

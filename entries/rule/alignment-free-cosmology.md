@@ -6,12 +6,13 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alignment_free_cosmology", path = "json/rules_campaign_types09.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "86"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Planar Adventures pg 86
 
 The Great Beyond relies on the presumption of outsiders linked to alignment, but what happens if you
 remove alignments from the game completely? In this alternative cosmology, the various outsider

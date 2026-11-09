@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/protection-from-evil" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "328"
 
 [fields]
 kind = "spell"
@@ -57,8 +60,6 @@ Descriptors: good
 :::
 
 ### Protection from Good
-
-**Sources:** PRPG Core Rulebook pg 328
 
 This spell functions like _[protection from evil](ref/spell/protection-from-evil),_ except that the
 deflection and resistance bonuses apply to attacks made by good creatures. The target receives a new

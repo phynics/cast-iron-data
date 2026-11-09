@@ -6,6 +6,9 @@ source_ids = ["pathfinder-116-fangs-of-war"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "troll_canopy_troll", path = "json/monsters39.json" },
 ]
+[[sources]]
+publication = "pathfinder-116-fangs-of-war"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ It hangs overhead, swinging between its oversized forearms and lashing, claw-tip
 
 **Size:** small
 
-**Sources:** Pathfinder \#116: Fangs of War pg 90\
 **Subtype:** Giant
 
 **Experience points:** 800

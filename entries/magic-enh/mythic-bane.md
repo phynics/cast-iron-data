@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mythic_bane", path = "json/magic_enhancements2.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "143"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "8th"
 +++
 
-**Sources:** Mythic Adventures pg 143\
 **Aura** moderate evocation; **CL** 8th\
 **Slot** none; **Price** +1 bonus; **Weight** -
 

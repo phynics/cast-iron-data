@@ -6,6 +6,9 @@ source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "book_of_the_damned_apocrypha", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "198"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "overwhelming all schools [evil, lawful]"
 caster_level = "25th"
 +++
 
-**Sources:** Book of the Damned pg 198\
 **Aura** overwhelming all schools \[evil, lawful\]; **CL** 25th\
 **Slot** none; **Price** -; **Weight** 12 lbs.
 

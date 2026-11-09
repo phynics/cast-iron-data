@@ -6,6 +6,9 @@ source_ids = ["cheliax-the-infernal-empire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animate_aria", path = "json/monsters02.json" },
 ]
+[[sources]]
+publication = "cheliax-the-infernal-empire"
+page = "56"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ ground. Stirring crescendos and moving fanfares can be heard throughout its melo
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Cheliax, the Infernal Empire pg 56\
 **Experience points:** 6,400
 
 **Armor class:** 23/13/19

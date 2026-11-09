@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "healers_hands", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "28"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can use the Heal skill to treat deadly wounds as a full-round act
 +++
 
 ## Healer's Hands (Conduit)
-
-**Sources:** Planar Adventures pg 28
 
 Your healing efforts are bolstered by positive energy.\
 **Prerequisites:** Heal 1 rank, Knowledge (planes) 1 rank.\

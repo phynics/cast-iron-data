@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "allfood", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "201"
 
 [fields]
 kind = "spell"
@@ -37,8 +40,6 @@ Saving throw: Will negates (object)
 Spell resistance: yes (object)
 Target: object touched, weighing up to 5 lbs./level
 :::
-
-**Sources:** Advanced Player's Guide pg 201
 
 You can transform one object, weighing up to 5 lbs. per caster level, into an edible substance that
 any living creature can chew, swallow, and safely digest. This allfood always has a bland taste and

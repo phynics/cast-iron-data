@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_ice_golem", path = "json/monsters33.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "161"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ shards of ice adorn its limbs._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder RPG Bestiary pg 161\
 **Subtype:** Cold
 
 **Experience points:** 1,600

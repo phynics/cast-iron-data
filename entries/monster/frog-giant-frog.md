@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "frog_giant_frog", path = "json/monsters31.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "135"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ truly monstrous size._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 135\
 **Experience points:** 400
 
 **Armor class:** 12/11/11

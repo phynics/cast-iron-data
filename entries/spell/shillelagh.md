@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shillelagh", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "342"
 
 [fields]
 kind = "spell"
@@ -37,8 +40,6 @@ Saving throw: Will negates (object)
 Spell resistance: yes (object)
 Target: one touched nonmagical oak club or quarterstaff
 :::
-
-**Sources:** PRPG Core Rulebook pg 342
 
 Your own nonmagical club or quarterstaff becomes a weapon with a +1 enhancement bonus on attack and
 damage rolls. A quarterstaff gains this enhancement for both ends of the weapon. It deals damage as

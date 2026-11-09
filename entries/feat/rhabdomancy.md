@@ -6,14 +6,15 @@ source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rhabdomancy", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "occult-origins"
+page = "24"
 
 [fields]
 kind = "feat"
 prerequisites = "Knowledge (nature) 3 ranks, Survival 3 ranks."
 benefit = "You can perform the dowsing occult skill unlock even if you can't use psychic magic. If you can cast psychic spells or have the Psychic Sensitivity feat, you can use dowsing one additional time per day."
 +++
-
-**Sources:** Occult Origins pg 24
 
 You have mastered the art of casting sticks, rods, or arrows to uncover secrets and find lost
 things, gaining insight from the way these objects fall.\

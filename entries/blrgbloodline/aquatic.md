@@ -6,6 +6,9 @@ source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aquatic", path = "json/class_ability_bloodrager_bloodlines.json" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
+page = "51"
 
 [fields]
 kind = "class_option"
@@ -13,8 +16,6 @@ group = "bloodrager-bloodline"
 +++
 
 ## Aquatic Bloodline
-
-**Sources:** Aquatic Adventures pg 51
 
 The anger in your blood rises from the ocean depths, seeded by descent from undersea empires,
 creeping ichthyic infiltrators into remote seaside villages, or something deeper still.

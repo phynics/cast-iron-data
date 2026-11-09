@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/fighter" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "106"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Bravery", "Armor training 1, 2, 3, and 4", "Weapon training 1", "We
 alters = ["Weapon mastery"]
 +++
 
-**Sources:** Advanced Player's Guide pg 106\
 The polearm master is schooled in the ancient wisdom that enemies are best faced at the end of long
 striking pole, lashing like a serpent before clumsy swords and axes can even be brought to bear.
 

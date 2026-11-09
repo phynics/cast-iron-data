@@ -6,6 +6,9 @@ source_ids = ["bestiary", "blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hag_green_hag", path = "json/monsters33.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "167"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ _Knots of dark, moldering hair spill over the features of this sickly, thin, gre
 
 **Senses:** Darkvision 90 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 167\
 **Experience points:** 1,600
 
 **Armor class:** 19/11/18

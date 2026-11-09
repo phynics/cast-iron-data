@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fey_creature", path = "json/monster_template1.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "116"
 
 [fields]
 kind = "none"
@@ -18,8 +21,6 @@ kind = "none"
 **Challenge rating:** +1 or +2
 
 **Inherited:** present
-
-**Source:** Bestiary 3/116
 
 Fey creatures resemble the mundane creatures they derive from, but with brighter colors, delicate
 features, and elegant wings such as those of a [pixie](ref/monster/pixie) or

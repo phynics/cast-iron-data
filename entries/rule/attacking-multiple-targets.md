@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "attacking_multiple_targets", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "110"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 110
 
 If you have more than one maximum hit, you can declare you're making a full attack against more than
 one target. In that case, your number of hits is determined by the highest AC among your targets,

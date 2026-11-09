@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "awakening", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "120"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 120
 
 The next step is for the PCs to receive the aid they need, in the form of mythic power. The actual
 means by which the PCs receive this power may vary (see [Mythic Themes](ref/rule/mythic-themes)),

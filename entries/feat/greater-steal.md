@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_steal", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "162"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "Creatures automatically notice items taken from them through the steal
 +++
 
 ## Greater Steal (Combat)
-
-**Sources:** Advanced Player's Guide pg 162
 
 You have a knack for snatching items from your opponents in combat.\
 **Prerequisites:** Int 13, [Combat Expertise](ref/feat/combat-expertise),

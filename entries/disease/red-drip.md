@@ -6,12 +6,16 @@ source_ids = ["undead-unleashed", "heart-of-the-jungle"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "red_drip", path = "json/diseases.json" },
 ]
+[[sources]]
+publication = "undead-unleashed"
+page = "63"
+[[sources]]
+publication = "heart-of-the-jungle"
+page = "8"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Undead Unleashed pg 63, Heart of the Jungle pg 8
 
 **Type:** Disease (Contact (fungus))
 

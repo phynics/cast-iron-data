@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spellcrash_lesser", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "194"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Duration: 1 round/level
 Saving throw: Will negates; see text
 Spell resistance: yes
 :::
-
-**Sources:** Advanced Class Guide pg 194
 
 You create a discordant blast of energy that disrupts the target's available magic each round at the
 start of its turn.

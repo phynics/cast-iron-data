@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/fighter" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "6"
 
 [fields]
 kind = "archetype"
 replaces = ["Armor training 1 through 4"]
 +++
 
-**Sources:** Armor Master's Handbook pg 6\
 Molthuni defenders occupy and protect contested territory in their war against Nirmathas. These
 heavily armored soldiers don't train for maneuverability, but rather for immovability. Taking
 advantage of their weighty armor, Molthuni defenders can hold back an onslaught of enemies intent on

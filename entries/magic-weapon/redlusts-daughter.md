@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "redlusts_daughter", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "257"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation, necromancy, and transmutation"
 caster_level = "10th"
 +++
 
-**Sources:** Inner Sea Gods pg 257\
 **Aura** moderate evocation, necromancy, and transmutation; **CL** 10th\
 **Slot** none; **Price** 9,875 gp; **Weight** 8 lbs.
 

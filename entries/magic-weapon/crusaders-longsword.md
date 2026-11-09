@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crusaders_longsword", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Sources:** Weapon Master's Handbook pg 31\
 **Aura** moderate evocation; **CL** 10th\
 **Slot** none; **Price** 47,315 gp; **Weight** 4 lbs.
 

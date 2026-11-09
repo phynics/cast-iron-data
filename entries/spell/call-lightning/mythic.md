@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/call-lightning", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "87"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 87
 
 Each lightning bolt's damage increases to 3d10 points of damage (or 5d10 points outdoors in stormy
 weather). Half of this damage is electricity damage, and the other half is sonic. Creatures that

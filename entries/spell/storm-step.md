@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-elements"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "storm_step", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "blood-of-the-elements"
+page = "13"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Target: you
 Subschool: Teleportation
 Descriptors: electricity
 :::
-
-**Sources:** Blood of the Elements pg 13
 
 You are able to harness the power of the storm to transport yourself a short distance, by taking the
 form of a furious, sizzling bolt of elemental electricity. You must either have line of sight to

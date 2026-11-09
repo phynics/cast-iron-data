@@ -6,6 +6,9 @@ source_ids = ["dungeoneers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "conjure_deadfall", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "dungeoneers-handbook"
+page = "30"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Area: see text
 Effect: one spiked, falling block
 Subschool: Creation
 :::
-
-**Sources:** Dungeoneer's Handbook pg 30
 
 You conjure a large metal cube covered in sharp spikes. If you conjure the block so that it appears
 in midair, it immediately plummets downward onto all creatures below it. When you cast this spell,

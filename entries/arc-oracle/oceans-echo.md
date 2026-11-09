@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/oracle" },
 ]
+[[sources]]
+publication = "blood-of-the-sea"
+page = "12"
 
 [fields]
 kind = "archetype"
 replaces = ["Bonus skills from the oracle's mystery", "The bonus spells gained at 4th, 8th, 10th, 12th, and 14th levels from the oracle's mystery", "Revelations gained at 1st, 3rd, and 15th level"]
 +++
 
-**Sources:** Blood of the Sea pg 12\
 Although many [merfolk](ref/race/merfolk) claim deep connections to both art and the natural world,
 a rare few merfolk can manipulate the forces of nature and weave them into song. An ocean's echo is
 a merfolk gifted with the powers of an oracle and a singing voice that evokes the legendary tales of

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-139-the-dead-road"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sweet_rest", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "pathfinder-139-the-dead-road"
+page = "63"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "75 gp"
 weight = "-"
 +++
 
-**Sources:** Pathfinder \#139: The Dead Road pg 63\
 **Price** 75 gp; **Weight** -\
 **Category** Alchemical Remedies
 

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-134-it-came-from-hollow-mountain"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "abyssal_runestone", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "pathfinder-134-it-came-from-hollow-mountain"
+page = "47"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration [chaos and evil]"
 caster_level = "20th"
 +++
 
-**Sources:** Pathfinder \#134: It Came from Hollow Mountain pg 47\
 **Aura** strong conjuration \[chaos and evil\]; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 1 lb.
 

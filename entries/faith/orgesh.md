@@ -6,6 +6,9 @@ source_ids = ["pathfinder-109-in-search-of-sanity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "orgesh", path = "json/faiths7.json" },
 ]
+[[sources]]
+publication = "pathfinder-109-in-search-of-sanity"
+page = "70"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Orgesh**
 
 **Sub:** The Faceless God
-
-**Sources:** Pathfinder \#109: In Search of Sanity pg 70
 
 ### Details
 

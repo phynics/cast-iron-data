@@ -6,12 +6,13 @@ source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "advanced_versatile_performances", path = "json/class_abilities.json" },
 ]
+[[sources]]
+publication = "blood-of-the-beast"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Blood of the Beast\
 The charismatic [kitsune](ref/race/kitsune) have developed countless techniques for transforming
 even the most mundane tasks into stunning and riveting performances. These much-lauded arts have
 spread like wildfire with bards who perform across Golarion. Beginning at 6th level, instead of

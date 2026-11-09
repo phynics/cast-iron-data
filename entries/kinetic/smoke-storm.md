@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "smoke_storm", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "27"
 
 [fields]
 kind = "class_option"
@@ -25,8 +28,6 @@ group = "kineticist-wild-talent"
 **Saving throw:** Fortitude negates; see text
 
 **Spell resistance:** no
-
-**Source:** Occult Adventures/27
 
 You transform a source of open flame within 120 feet into a cloud of choking smoke, filling a
 20-foot-radius [spread](ref/misc/spread) and affecting vision like a

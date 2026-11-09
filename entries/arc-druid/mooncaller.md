@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "38"
 
 [fields]
 kind = "archetype"
 replaces = ["Woodland stride", "Resist nature's lure", "Venom immunity", "A thousand faces"]
 +++
 
-**Sources:** Ultimate Magic pg 38\
 A mooncaller is bound to the subtle influences of the ever-changing moon and its endless cycles from
 light to dark and back again.
 

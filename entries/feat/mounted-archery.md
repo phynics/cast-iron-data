@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mounted_archery", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "131"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "The penalty you take when using a ranged weapon while mounted is halv
 +++
 
 ## Mounted Archery (Combat)
-
-**Sources:** PRPG Core Rulebook pg 131
 
 You are skilled at making ranged attacks while mounted.\
 **Prerequisites:** Ride 1 rank, [Mounted Combat](ref/feat/mounted-combat).\

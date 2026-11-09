@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cleric" },
 ]
+[[sources]]
+publication = "blood-of-the-coven"
+page = "19"
 
 [fields]
 kind = "archetype"
 alters = ["Domains"]
 +++
 
-**Sources:** Blood of the Coven pg 19\
 Power comes not just from communion with one's deity, but also from the formation of divine
 triumvirates. At the head of these groups are triadic priests. Although witch covens and changelings
 are the most likely to pursue this tradition, the practice sometimes appears among other faiths.

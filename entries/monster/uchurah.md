@@ -6,6 +6,9 @@ source_ids = ["darklands-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "uchurah", path = "json/monsters_unique4.json" },
 ]
+[[sources]]
+publication = "darklands-revisited"
+page = "21"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ that dangles under its vertically oriented mouth._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Darklands Revisited pg 21\
 **Experience points:** 19,200
 
 **Armor class:** 26/12/23

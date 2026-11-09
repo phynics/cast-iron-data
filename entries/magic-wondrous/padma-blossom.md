@@ -6,6 +6,9 @@ source_ids = ["cult-of-the-ebon-destroyers"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "padma_blossom", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "cult-of-the-ebon-destroyers"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration and enchantment"
 caster_level = "3rd"
 +++
 
-**Sources:** Cult of the Ebon Destroyers pg 28\
 **Aura** faint abjuration and enchantment; **CL** 3rd\
 **Slot** none; **Price** 8,000 gp; **Weight** -
 

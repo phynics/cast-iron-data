@@ -6,12 +6,13 @@ source_ids = ["pathfinder-society-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pathfinder_chronicles", path = "json/rules_rulesets02.json" },
 ]
+[[sources]]
+publication = "pathfinder-society-primer"
+page = "26"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Society Primer pg 26
 
 The Pathfinder Chronicles are a series of chapbooks published by the
 [Pathfinder Society](ref/rule/aff-scholars) recounting the most notable journeys and discoveries of

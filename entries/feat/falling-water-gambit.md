@@ -6,6 +6,12 @@ source_ids = ["adventurers-guide", "inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "falling_water_gambit", path = "json/feat06.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "25"
+[[sources]]
+publication = "inner-sea-combat"
+page = "10"
 
 [fields]
 kind = "feat"
@@ -16,8 +22,6 @@ benefit = "When attacking a creature denied its Dexterity bonus to AC because of
 +++
 
 ## Falling Water Gambit (Combat)
-
-**Sources:** Adventurer's Guide pg 25, Inner Sea Combat pg 10
 
 You have integrated both the Roaring Falls and Shrouded Lake techniques of Aldori swordplay into a
 seamless union.\

@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "derro", path = "json/monsters07.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "70"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ club._
 
 **Size:** small
 
-**Sources:** Pathfinder RPG Bestiary pg 70\
 **Subtype:** Derro
 
 **Experience points:** 800

@@ -6,12 +6,13 @@ source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drowning_aa", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Aquatic Adventures\
 Drowning is one of the most obvious dangers of underwater adventuring. As creature can typically
 hold its breath for a number of rounds equal to twice its Constitution score. Whenever a creature
 takes a standard or full-round action, it expends 1 additional round of breath, so practically

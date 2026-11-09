@@ -6,12 +6,13 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "standard_senses_traits", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "236"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Advanced Race Guide pg 236
 
 **Carrion Sense (1 RP):** **Prerequisites:** None; **Benefit:** Members of this race have a natural
 ability to sniff out carrion. This functions like the [scent](ref/umr/scent) ability, but only for

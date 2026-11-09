@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cleric" },
 ]
+[[sources]]
+publication = "divine-anthology"
+page = "15"
 
 [fields]
 kind = "archetype"
 alters = ["Domains", "Aura"]
 +++
 
-**Sources:** Divine Anthology pg 15\
 Divine paragons strive to emulate their god's ideals as closely as possible. They might see
 themselves as an incarnation of their deity in the flesh, or they could simply seek to embody the
 physical and spiritual ideals set forth by their deity. Many divine paragons go as far as to alter

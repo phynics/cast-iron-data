@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/summoner" },
 ]
+[[sources]]
+publication = "champions-of-corruption"
+page = "24"
 
 [fields]
 kind = "archetype"
 replaces = ["Shield ally", "Transposition", "Greater shield ally", "Merge forms"]
 +++
 
-**Sources:** Champions of Corruption pg 24\
 A blood summoner conjures an eidolon born from violence and blood. These cruel spellcasters are
 common among the god-callers of now-shattered Sarkoris, where the influence of the Worldwound has
 warped them into beings of chilling malevolence.

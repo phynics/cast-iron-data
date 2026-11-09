@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cudgeler_sweep", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "13"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you hit with a charge attack using the Cudgeler Style feat, you 
 +++
 
 ## Cudgeler Sweep (Combat)
-
-**Sources:** Melee Tactics Toolbox pg 13
 
 Your powerful blows can knock down your opponents.\
 **Prerequisites:** [Bludgeoner](ref/feat/bludgeoner), [Cudgeler Style](ref/feat/cudgeler-style),

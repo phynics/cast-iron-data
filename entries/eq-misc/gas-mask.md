@@ -6,6 +6,9 @@ source_ids = ["pathfinder-71-rasputin-must-die"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gas_mask", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "pathfinder-71-rasputin-must-die"
+page = "67"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "1 lbs."
 
 ## Gas mask (modern)
 
-**Sources:** Pathfinder \#71: Rasputin Must Die! pg 67\
 **Price** 25 gp; **Weight** 1 lbs.\
 **Category** Adventuring Gear
 

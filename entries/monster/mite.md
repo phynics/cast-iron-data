@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mite", path = "json/monsters17.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "207"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ its puffy blue face is._
 
 **Size:** small
 
-**Sources:** Pathfinder RPG Bestiary pg 207\
 **Experience points:** 100
 
 **Armor class:** 12/12/11

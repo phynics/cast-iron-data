@@ -6,12 +6,14 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "foreboding_mist", path = "json/haunts.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "175"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Adventures pg 175\
 Foreboding mists lurk in ill-kept graveyards, drawing their substance from the unrest of all who are
 buried below. They manifest regardless of the weather, and target the minds of those who fail to
 recognize they are not entirely real.

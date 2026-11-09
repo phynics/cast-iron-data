@@ -6,6 +6,9 @@ source_ids = ["inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ferment", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "inner-sea-temples"
+page = "23"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Saving throw: Fortitude negates (object)
 Spell resistance: yes (object)
 Target: object touched
 :::
-
-**Sources:** Inner Sea Temples pg 23
 
 This spell temporarily imbues a potable liquid (including elixirs, extracts, potions, and poisons)
 with an intoxicant. The caster must succeed at a caster level check in order to affect magic liquids

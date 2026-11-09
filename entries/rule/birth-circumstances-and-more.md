@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "birth_circumstances_and_more", path = "json/rules_basics03.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "20"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 20
 
 ### Circumstance of Birth
 

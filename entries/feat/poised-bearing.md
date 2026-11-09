@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "poised_bearing", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "17"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You treat your size as one category larger for the purposes of determ
 +++
 
 ## Poised Bearing (Armor Mastery, Combat)
-
-**Sources:** Armor Master's Handbook pg 17
 
 Your armor's weight gives you stable footing.\
 **Prerequisites:** Base attack bonus +6 or fighter level 4th, armor training class feature,

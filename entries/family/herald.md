@@ -6,12 +6,12 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "herald", path = "json/monster_families2.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Inner Sea Gods
 
 Heralds are a special class of unique, godly servants. With few exceptions, each of Golarion's
 deities has its own herald, a favored minion that serves as a messenger and emissary throughout the

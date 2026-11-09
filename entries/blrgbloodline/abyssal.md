@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "abyssal", path = "json/class_ability_bloodrager_bloodlines.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "17"
 
 [fields]
 kind = "class_option"
@@ -13,8 +16,6 @@ group = "bloodrager-bloodline"
 +++
 
 ## Abyssal Bloodline
-
-**Sources:** Advanced Class Guide pg 17
 
 Generations ago, a demon spread its filth into the essence of your bloodline. While it doesn't
 manifest in all of your kin, in those moments when you're _bloodraging,_ you embody its terrifying

@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_spell", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "158"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ special = "You can gain this feat multiple times. Each time you must choose a di
 +++
 
 ## Elemental Spell (Metamagic)
-
-**Sources:** Advanced Player's Guide pg 158
 
 You can manipulate the elemental nature of your spells.\
 **Benefit:** Choose one energy type: acid, cold, electricity, or fire. You may replace a spell's

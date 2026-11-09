@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "reign-of-winter-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_arctic_hare", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "191"
+[[sources]]
+publication = "reign-of-winter-players-guide"
+page = "10"
 
 [fields]
 kind = "creature"
@@ -38,7 +44,6 @@ _With shorter ears and limbs than other rabbits, this white rabbit is hard to sp
 
 **Senses:** Low-light vision
 
-**Sources:** Ultimate Wilderness pg 191, Reign of Winter Player's Guide pg 10\
 **Size:** tiny
 
 **Experience points:** 65

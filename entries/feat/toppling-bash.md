@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "toppling_bash", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "19"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "As a swift action when you hit a creature with a shield bash, you can
 +++
 
 ## Toppling Bash (Combat, Shield Mastery)
-
-**Sources:** Armor Master's Handbook pg 19
 
 Your shield bash throws your enemies off balance.\
 **Prerequisites:** [Improved Shield Bash](ref/feat/improved-shield-bash),

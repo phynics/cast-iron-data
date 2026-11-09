@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "favored_terrain", path = "json/class_abilities6.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** PRPG Core Rulebook\
 At 3rd level, a [ranger](ref/class/ranger) may select a type of terrain from the Favored Terrains
 table. The ranger gains a +2 bonus on initiative checks and Knowledge (geography), Perception,
 Stealth, and Survival skill checks when he is in this terrain. A ranger traveling through his

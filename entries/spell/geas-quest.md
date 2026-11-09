@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/geas-lesser" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "288"
 
 [fields]
 kind = "spell"
@@ -54,8 +57,6 @@ Descriptors: curse, language-dependant, mind-affecting
 :::
 
 ### Geas/Quest
-
-**Sources:** PRPG Core Rulebook pg 288
 
 This spell functions similarly to [lesser geas](ref/spell/geas-lesser), except that it affects a
 creature of any HD and allows no saving throw.

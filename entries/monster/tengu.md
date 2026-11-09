@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tengu", path = "json/monsters23.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "263"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ _Black feathers cover this crow-headed humanoid, and its hands and legs end in p
 
 **Senses:** Low-light vision
 
-**Sources:** Pathfinder RPG Bestiary pg 263\
 **Subtype:** Tengu\
 **Experience points:** 200
 

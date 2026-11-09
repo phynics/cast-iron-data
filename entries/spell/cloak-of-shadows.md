@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloak_of_shadows", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "80"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Target: you
 Subschool: Shadow
 Descriptors: evil, shadow
 :::
-
-**Sources:** Villain Codex pg 80
 
 You wrap yourself in a protective mantle of semi-real shadow. This grants a number of advantages:
 you gain concealment (20% miss chance), a +5 competence bonus on Stealth checks, and DR 5/good. This

@@ -6,12 +6,13 @@ source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ward_aspects", path = "json/class_abilities5.json" },
 ]
+[[sources]]
+publication = "wilderness-origins"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Wilderness Origins\
 When a character in tune with nature comes upon an area that a [kami](ref/family/kami) could ward
 but that is lacking a guardian, she has the option of making that area her ward in a symbiotic
 relationship. Whenever a character with the animal focus class feature is within 100 feet per class

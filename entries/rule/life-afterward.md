@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "life_afterward", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "121"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 121
 
 The GM and players must decide what happens to the PCs' power, once all is well again. Do they
 transcend ordinary life to continue down the path of a mythic hero, to go on other journeys, facing

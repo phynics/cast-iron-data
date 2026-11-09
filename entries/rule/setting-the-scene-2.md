@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "setting_the_scene_2", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "176"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 176
 
 It is important to set the scene of a verbal duel so the PCs participating in it know what is at
 stake. Sometimes these conflicts are simple, two-person struggles where each duelist attempts to

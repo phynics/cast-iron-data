@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wine_fine_bottle", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "95"
+[[sources]]
+publication = "core-rulebook"
+page = "159"
 
 [fields]
 kind = "item"
@@ -16,7 +22,6 @@ weight = "6 lbs. (common, pitcher), 1-1/2 lbs. (fine, bottle)"
 
 ## Wine
 
-**Sources:** Ultimate Equipment pg 95, PRPG Core Rulebook pg 159\
 **Price** 2 sp (common, pitcher), 10 gp (fine, bottle); **Weight** 6 lbs. (common, pitcher), 1-1/2
 lbs. (fine, bottle)
 

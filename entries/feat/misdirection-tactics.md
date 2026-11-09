@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "misdirection_tactics", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "87"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While you are using the total defense action, if a melee attack would
 +++
 
 ## Misdirection Tactics (Combat)
-
-**Sources:** Ultimate Intrigue pg 87
 
 You have learned to use deception and trickery to misdirect your opponent's weapon attack.\
 **Prerequisites:** Int 13, [Combat Expertise](ref/feat/combat-expertise),

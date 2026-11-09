@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "domain_geography", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "160"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 160
 
 When created, a domain of evil warps reality around it into a foul reflection of its master, with a
 radius of 5 miles for every Hit Die of its new lord (see the

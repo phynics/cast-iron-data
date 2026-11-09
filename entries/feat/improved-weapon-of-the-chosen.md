@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_weapon_of_the_chosen", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "151"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "This feat acts as Weapon of the Chosen, except you gain the benefits 
 +++
 
 ## Improved Weapon of the Chosen (Combat)
-
-**Sources:** Advanced Class Guide pg 151
 
 You gain even greater favor when you use your deity's favored weapon.\
 **Prerequisites:** [Weapon Focus](ref/feat/weapon-focus) with your deity's favored weapon,

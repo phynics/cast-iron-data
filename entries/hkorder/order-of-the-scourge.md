@@ -6,13 +6,14 @@ source_ids = ["path-of-the-hellknight", "inner-sea-npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "order_of_the_scourge", path = "json/class_ability_hellknight_orders.json" },
 ]
+[[sources]]
+publication = "path-of-the-hellknight"
+page = "46"
 
 [fields]
 kind = "class_option"
 group = "hellknight-order"
 +++
-
-**Sources:** Path of the Hellknight pg 46
 
 **Symbol**
 

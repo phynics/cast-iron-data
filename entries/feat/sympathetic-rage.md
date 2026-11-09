@@ -6,6 +6,12 @@ source_ids = ["advanced-race-guide", "orcs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sympathetic_rage", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "57"
+[[sources]]
+publication = "orcs-of-golarion"
+page = "25"
 
 [fields]
 kind = "feat"
@@ -15,8 +21,6 @@ benefit = "Whenever you are adjacent to an ally who is raging, you may choose to
 +++
 
 ## Sympathetic Rage (Combat)
-
-**Sources:** Advanced Race Guide pg 57, Orcs of Golarion pg 25
 
 Seeing an ally rage fills you with your own fury.\
 **Prerequisites:** [Half-orc](ref/race/half-orc) or [orc](ref/race/orc), nonlawful.\

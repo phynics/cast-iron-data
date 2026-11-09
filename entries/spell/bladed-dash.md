@@ -6,6 +6,9 @@ source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bladed_dash", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "52"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Inner Sea Magic pg 52
 
 Both Quantium and Jalmeray claim that this spell was born in their arcane universities. Regardless
 of the spell's origin, it quickly spread throughout the Inner Sea and beyond as spellcasting

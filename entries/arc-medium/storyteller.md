@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/medium" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "95"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Spirit bonus", "Shared seance", "taboo", "haunt channeler", "propit
 alters = ["Spirit", "Spirit surge"]
 +++
 
-**Sources:** Occult Adventures pg 95\
 While all mediums connect to legendary spirits, storyteller mediums take their obsession with
 legends to the extreme, suffusing their lives with epic tales at the cost of some of their spiritual
 power.

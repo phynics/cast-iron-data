@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jellyfish_deaths_head_jellyfish", path = "json/monsters34.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "155"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ _This long-tentacled jellyfish has a wide bell with a vaguely skull-shaped patte
 
 **Size:** small
 
-**Sources:** Bestiary 3 pg 155\
 **Subtype:** Aquatic
 
 **Type:** vermin

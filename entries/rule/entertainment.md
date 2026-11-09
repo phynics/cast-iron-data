@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "entertainment", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "198"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 198
 
 Taverns primarily serve local customers, and the best way to keep them coming back is to provide
 some form of entertainment while they quaff their beer and dine on mutton or quail. While a simple

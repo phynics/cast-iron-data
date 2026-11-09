@@ -6,6 +6,9 @@ source_ids = ["faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "iron_eye_gorum", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "faiths-of-balance"
+page = "25"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "50 gp"
 weight = "1 lb."
 +++
 
-**Sources:** Faiths of Balance pg 25\
 **Price** 50 gp; **Weight** 1 lb.\
 **Category** Channel Foci\
 **Deity** [Gorum](ref/faith/gorum)

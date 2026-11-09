@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fighter", path = "json/monster_template2.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "247"
 
 [fields]
 kind = "none"
@@ -18,8 +21,6 @@ kind = "none"
 **Challenge rating:** +1 or +2
 
 **Simple:** present
-
-**Source:** Monster Codex/247
 
 A [fighter](ref/class/fighter) creature gains bonus combat feats, and both armor and weapon
 training. A fighter creature's CR increases by 2 if the creature has 10 or more HD.

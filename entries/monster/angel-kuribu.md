@@ -6,6 +6,9 @@ source_ids = ["pathfinder-103-the-hellfire-compact"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "angel_kuribu", path = "json/monsters26.json" },
 ]
+[[sources]]
+publication = "pathfinder-103-the-hellfire-compact"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ and carries a quiver full of arrows on its back._
 
 **Size:** small
 
-**Sources:** Pathfinder \#103: The Hellfire Compact pg 82\
 **Subtype:** Angel, Extraplanar, Good
 
 **Experience points:** 800

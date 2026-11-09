@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hypnotic_pattern", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "298"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Effect: colorful lights in a 10-ft.-radius spread
 Subschool: Pattern
 Descriptors: mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 298
 
 A twisting pattern of subtle, shifting colors weaves through the air, fascinating creatures within
 it. Roll 2d4 and add your caster level (maximum 10) to determine the total number of HD of creatures

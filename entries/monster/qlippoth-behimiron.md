@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "qlippoth_behimiron", path = "json/monsters37.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "224"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ spiny carapace._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 6 pg 224\
 **Subtype:** Chaotic, Evil, Extraplanar, Qlippoth
 
 **Experience points:** 25,600

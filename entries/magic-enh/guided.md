@@ -6,6 +6,9 @@ source_ids = ["pathfinder-10-a-history-of-ashes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guided", path = "json/magic_enhancements.json" },
 ]
+[[sources]]
+publication = "pathfinder-10-a-history-of-ashes"
+page = "22"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Sources:** Pathfinder \#10: A History of Ashes pg 22\
 **Aura** moderate evocation; **CL** 7th\
 **Slot** weapon quality; **Price** +1 bonus; **Weight** -
 

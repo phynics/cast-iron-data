@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fools_gold_vc", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "117"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: none or Will disbelief (see text)
 Spell resistance: no
 Target: objects touched
 :::
-
-**Sources:** Villain Codex pg 117
 
 You can temporarily make copper or silver seem to be an equivalent amount of gold. The spell affects
 1 gp/level worth of material (thus, at 3rd level, the spell affects up to 300 copper pieces, 30

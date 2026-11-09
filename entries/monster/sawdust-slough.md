@@ -6,6 +6,9 @@ source_ids = ["andoran-birthplace-of-freedom"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sawdust_slough", path = "json/monsters21.json" },
 ]
+[[sources]]
+publication = "andoran-birthplace-of-freedom"
+page = "59"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ shavings._
 
 **Type:** plant
 
-**Sources:** Andoran, Birthplace of Freedom pg 59\
 **tremorsense:** 60
 
 **Experience points:** 1,200

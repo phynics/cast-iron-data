@@ -6,13 +6,14 @@ source_ids = ["pathfinder-126-beyond-the-veiled-past"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "throneglass", path = "json/equipment_special_materials.json" },
 ]
+[[sources]]
+publication = "pathfinder-126-beyond-the-veiled-past"
+page = "49"
 
 [fields]
 kind = "item"
 category = "Special Materials"
 +++
-
-**Sources:** Pathfinder \#126: Beyond the Veiled Past pg 49
 
 The Imperial Palace in Azlant was a fabulous building that featured classic Azlanti architecture,
 including a famous skylight made of a single sheet of magically treated glass as durable as steel.

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bloodrager" },
 ]
+[[sources]]
+publication = "heroes-of-the-streets"
+page = "24"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Blood sanctuary", "Damage reduction"]
 alters = ["Weapon and armor proficiencies", "Bloodrage"]
 +++
 
-**Sources:** Heroes of the Streets pg 24\
 Like the [urban barbarian](ref/arc-barbarian/urban-barbarian), the urban bloodrager has learned to
 control her rage in so-called polite society. Though she lacks the untamed resilience of her wilder
 fellows, she's an expert at keeping her rage from causing collateral damage in crowds.

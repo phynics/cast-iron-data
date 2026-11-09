@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sea_steed", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "234"
+[[sources]]
+publication = "animal-archive"
+page = "25"
 
 [fields]
 kind = "spell"
@@ -41,8 +47,6 @@ Spell resistance: yes (harmless)
 Target: a creature you are mounted upon
 Subschool: Polymorph
 :::
-
-**Sources:** Ultimate Wilderness pg 234, Animal Archive pg 25
 
 The target adapts to life in the water, gaining piscine scales that cover its body and growing fins
 in place of feet. It gains the aquatic subtype, the amphibious quality, and a swim speed equal to

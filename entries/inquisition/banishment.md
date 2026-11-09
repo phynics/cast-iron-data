@@ -6,13 +6,14 @@ source_ids = ["blood-of-angels"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "banishment", path = "json/class_ability_inquisitions.json" },
 ]
+[[sources]]
+publication = "blood-of-angels"
+page = "26"
 
 [fields]
 kind = "class_option"
 group = "inquisition"
 +++
-
-**Sources:** Blood of Angels pg 26
 
 **Associated Deities**
 

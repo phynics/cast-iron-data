@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/kineticist" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "90"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Infusions", "Metakinesis", "infusion specialization"]
 alters = ["Internal buffer"]
 +++
 
-**Sources:** Occult Adventures pg 90\
 While any hydrokineticist or telekineticist can learn the rudiments of healing, some kineticists are
 virtuosos of the curative arts.
 

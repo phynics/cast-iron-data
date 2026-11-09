@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "transmute_wine_to_blood", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "blood-of-the-night"
+page = "30"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: Fortitude negates (object)
 Spell resistance: yes (object)
 Target: bottle of wine worth at least 10 gp
 :::
-
-**Sources:** Blood of the Night pg 30
 
 You transform one bottle of fine wine into 1 pint of animal blood, sufficient for a creature with
 the blood drain ability to feed upon as if it came from a Medium animal with 1 Hit Die. If you are

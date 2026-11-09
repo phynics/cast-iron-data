@@ -6,6 +6,9 @@ source_ids = ["animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horseshoes_of_sacred_silver", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "animal-archive"
+page = "26"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation [good]"
 caster_level = "7th"
 +++
 
-**Sources:** Animal Archive pg 26\
 **Aura** moderate evocation \[good\]; **CL** 7th\
 **Slot** feet; **Price** 20,000 gp; **Weight** 4 lbs.
 

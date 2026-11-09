@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lyre_of_building", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "308"
+[[sources]]
+publication = "core-rulebook"
+page = "522"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate transmutation"
 caster_level = "6th"
 +++
 
-**Sources:** Ultimate Equipment pg 308, PRPG Core Rulebook pg 522\
 **Aura** moderate transmutation; **CL** 6th\
 **Slot** none; **Price** 13,000 gp; **Weight** 5 lbs.
 

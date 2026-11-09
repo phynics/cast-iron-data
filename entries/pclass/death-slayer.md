@@ -6,14 +6,15 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "death_slayer", path = "json/prestige_classes.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "152"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d8."
 +++
-
-**Sources:** Adventurer's Guide pg 152
 
 Since their establishment, the [Red Mantis](ref/rule/aff-assassins) have abided by the divine laws
 established by Achaekek and the holy rituals of murder, including the law of reality that all things

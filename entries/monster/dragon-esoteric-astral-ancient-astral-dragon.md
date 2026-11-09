@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_esoteric_astral_ancient_astral_dragon", path = "json/monsters31.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "89"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ abilities = ["35", "10", "24", "25", "24", "20"]
 
 **Senses:** See invisibility
 
-**Sources:** Bestiary 5 pg 89\
 **Subtype:** Extraplanar
 
 **Experience points:** 153,600

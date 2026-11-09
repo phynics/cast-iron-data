@@ -6,6 +6,9 @@ source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "adhesive_slime", path = "json/magic_fleshcrafting.json" },
 ]
+[[sources]]
+publication = "potions-and-poisons"
+page = "21"
 
 [fields]
 kind = "item"
@@ -13,7 +16,6 @@ category = "Fleshcraft"
 price = "gp"
 +++
 
-**Sources:** Potions and Poisons pg 21\
 **Price** gp; **Elixir Price** 500 gp\
 **Saving Throw DC** 14; **Slot**; **Temporary Duration** 1 hour
 

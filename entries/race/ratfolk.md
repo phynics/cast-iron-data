@@ -6,12 +6,20 @@ source_ids = ["inner-sea-races", "advanced-race-guide", "bestiary-3", "monster-c
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ratfolk", path = "json/races3.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "247"
+[[sources]]
+publication = "advanced-race-guide"
+page = "150"
+[[sources]]
+publication = "bestiary-3"
+page = "231"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Inner Sea Races pg 247, Advanced Race Guide pg 150, Bestiary 3 pg 231\
 Ratfolk are small, rodent-like humanoids; originally native to subterranean areas in dry deserts and
 plains, they are now more often found in nomadic trading caravans. Much like the pack rats they
 resemble, ratfolk are tinkerers and hoarders by nature, and as a whole are masters of commerce,

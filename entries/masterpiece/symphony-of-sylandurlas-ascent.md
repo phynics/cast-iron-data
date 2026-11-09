@@ -6,6 +6,8 @@ source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "symphony_of_sylandurlas_ascent", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "healers-handbook"
 
 [fields]
 kind = "class_option"
@@ -13,8 +15,6 @@ group = "bardic-masterpiece"
 +++
 
 ## Symphony of Sylandurla's Ascent (Percussion, Wind)
-
-**Sources:** Healer's Handbook
 
 This elaborate arrangement for traditional elven instruments evokes Sylandurla's heroic climb up the
 spire from the planar city of Axis to the Boneyard, where it's said that she sang 8,008 tales to win

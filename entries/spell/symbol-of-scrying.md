@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/symbol-of-death" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "241"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Spell resistance: no
 Effect: one symbol
 Subschool: Scrying
 :::
-
-**Sources:** Ultimate Magic pg 241
 
 This spell functions as [symbol of death](ref/spell/symbol-of-death), except that, when triggered,
 it creates a scrying sensor linked to you and centered on the symbol, even if you are on a different

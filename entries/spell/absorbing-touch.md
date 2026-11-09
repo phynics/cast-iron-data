@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "absorbing_touch", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "200"
 
 [fields]
 kind = "spell"
@@ -37,8 +40,6 @@ Saving throw: Fortitude negates (object)
 Spell resistance: no
 Target: object touched
 :::
-
-**Sources:** Advanced Player's Guide pg 200
 
 You absorb the next object your hand touches into your body. If you are already holding an object,
 you can attempt to absorb it; otherwise, you may touch an object as a standard action separate from

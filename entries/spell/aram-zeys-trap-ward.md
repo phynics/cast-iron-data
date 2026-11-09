@@ -6,6 +6,9 @@ source_ids = ["pathfinder-society-field-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aram_zeys_trap_ward", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "pathfinder-society-field-guide"
+page = "56"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Pathfinder Society Field Guide pg 56
 
 While he was researching the underlying causes of the resonance created by overlapping abjurations,
 Aram Zey discovered a way to manipulate that resonance to the caster's advantage when encountering

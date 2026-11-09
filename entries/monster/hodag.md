@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "pathfinder-32-rivers-run-red"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hodag", path = "json/monsters13.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "148"
+[[sources]]
+publication = "pathfinder-32-rivers-run-red"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ teeth and glowing red eyes._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Bestiary 3 pg 148, Pathfinder \#32: Rivers Run Red pg 84\
 **Experience points:** 2,400
 
 **Armor class:** 19/11/17

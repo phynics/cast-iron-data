@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/dream" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "165"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Spell resistance: yes
 Target: one living creature
 Descriptors: mind-affecting
 :::
-
-**Sources:** Occult Adventures pg 165
 
 This spell functions as [dream](ref/spell/dream), but rather than sending a message to a sleeping
 target, you can instead read the target's thoughts. The target must be asleep for you to perform a

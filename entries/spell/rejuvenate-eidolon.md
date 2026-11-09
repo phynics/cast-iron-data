@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/rejuvenate-eidolon-lesser" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "238"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Subschool: Healing
 :::
 
 ### Rejuvenate Eidolon
-
-**Sources:** Advanced Player's Guide pg 238
 
 This spell functions as [lesser rejuvenate eidolon](ref/spell/rejuvenate-eidolon-lesser), except
 that it cures 3d10 points of damage +1 point per caster level (maximum +10).

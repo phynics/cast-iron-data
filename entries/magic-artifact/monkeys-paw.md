@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monkeys_paw", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "331"
 
 [fields]
 kind = "item"
@@ -16,8 +19,6 @@ slot = "none"
 aura = "strong necromancy and universal"
 caster_level = "20th"
 +++
-
-**Sources:** Ultimate Equipment pg 331
 
 **Aura** strong necromancy and universal; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 2 lbs.

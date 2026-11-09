@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "necromancers_athame", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "312"
+[[sources]]
+publication = "advanced-players-guide"
+page = "308"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate necromancy"
 caster_level = "11th"
 +++
 
-**Sources:** Ultimate Equipment pg 312, Advanced Player's Guide pg 308\
 **Aura** moderate necromancy; **CL** 11th\
 **Slot** none; **Price** 20,000 gp; **Weight** 2 lbs.
 

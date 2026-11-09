@@ -6,6 +6,12 @@ source_ids = ["bestiary-2", "pathfinder-6-spires-of-xin-shalast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_rune_giant", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "130"
+[[sources]]
+publication = "pathfinder-6-spires-of-xin-shalast"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ _This giant's skin is black and pitted, like roughly cast iron, and etched with 
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 2 pg 130, Pathfinder \#6: Spires of Xin-Shalast pg 86\
 **Subtype:** Giant
 
 **Experience points:** 102,400

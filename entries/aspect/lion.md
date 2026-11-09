@@ -6,13 +6,15 @@ source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lion", path = "json/class_ability_aspects.json" },
 ]
+[[sources]]
+publication = "heroes-of-golarion"
+page = "22"
 
 [fields]
 kind = "class_option"
 group = "shifter-aspect"
 +++
 
-**Sources:** Heroes of Golarion pg 22\
 Lions hunt in prides, cooperating to bring down large opponents and defend their territory. A lion's
 alternate attack is bite (B, P, S).
 

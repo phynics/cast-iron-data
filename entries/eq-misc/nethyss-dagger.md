@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nethyss_dagger", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-wild"
+page = "10"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "50 gp"
 weight = "-"
 +++
 
-**Sources:** Heroes of the Wild pg 10\
 **Price** 50 gp; **Weight** -\
 **Category** [Herbs](ref/rule/herbalism)\
 **Gather** DC 18\

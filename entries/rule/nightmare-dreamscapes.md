@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nightmare_dreamscapes", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "162"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 162
 
 The following section provides guidelines for creating nightmare dreamscapes: realms of fear and
 horror within the [Dimension of Dreams](ref/rule/dimension-of-dreams). A nightmare typically has a

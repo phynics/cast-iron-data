@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "overwatch_tactician", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "15"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using Overwatch Style, you can ready two ranged attacks as a st
 +++
 
 ## Overwatch Tactician (Combat)
-
-**Sources:** Weapon Master's Handbook pg 15
 
 You quickly prepare to react to your enemies' actions.\
 **Prerequisites:** [Overwatch Style](ref/feat/overwatch-style),

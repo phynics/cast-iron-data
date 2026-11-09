@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "streets_and_traffic", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "202"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 202
 
 How do people get around in the town where they live? What are the streets and avenues of your
 settlement like? Is the town open, with wide avenues, or is it cramped, with houses crammed

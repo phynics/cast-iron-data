@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "224"
 
 [fields]
 kind = "archetype"
 replaces = ["Wild empathy", "Resist nature's lure", "Venom immunity"]
 +++
 
-**Sources:** Monster Codex pg 224\
 Troll furies combine a druid's love of natural balance with a single-minded devotion to the welfare
 of the troll tribe. Trolls require a lot of prey to keep fed, and if their hunting grounds are upset
 by incursions of other monsters, civilized deforestation, or careless trolls who eat more than they

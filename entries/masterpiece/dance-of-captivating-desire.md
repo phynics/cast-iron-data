@@ -6,6 +6,8 @@ source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dance_of_captivating_desire", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
 
 [fields]
 kind = "class_option"
@@ -13,8 +15,6 @@ group = "bardic-masterpiece"
 +++
 
 ## Dance of Captivating Desire (Dance)
-
-**Sources:** Elemental Master's Handbook
 
 A creation of Calistria's priesthood, this swaying, sensuous dance fans the fires of lust.
 

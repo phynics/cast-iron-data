@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beetle_juggernaut_beetle", path = "json/monsters03.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "52"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ _This massive insect lumbers ominously, waving scythe-like mandibles that reek o
 
 **Senses:** Darkvision 120 ft., Low-light vision
 
-**Sources:** Monster Codex pg 52\
 **Experience points:** 38,400
 
 **Armor class:** 29/7/29

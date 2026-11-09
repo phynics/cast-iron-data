@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "bonus-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ascomoid", path = "json/monsters02.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "20"
+[[sources]]
+publication = "bonus-bestiary"
+page = "6"
 
 [fields]
 kind = "creature"
@@ -40,7 +46,6 @@ foul spores as it advances._
 
 **Type:** plant
 
-**Sources:** Bestiary 3 pg 20, Bonus Bestiary pg 6\
 **tremorsense:** 60
 
 **Experience points:** 1,600

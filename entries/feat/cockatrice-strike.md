@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cockatrice_strike", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "156"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "As a full-round action, you can make a single unarmed strike against 
 +++
 
 ## Cockatrice Strike (Combat)
-
-**Sources:** Advanced Player's Guide pg 156
 
 With a single strike, you transmute flesh to stone.\
 **Prerequisites:** [Improved Unarmed Strike](ref/feat/improved-unarmed-strike),

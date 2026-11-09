@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/spiritualist" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "167"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Phantom's emotional focus", "Detect undead", "Additional uses of ca
 alters = ["Spellcasting", "Phantom", "Bonded manifestation"]
 +++
 
-**Sources:** Adventurer's Guide pg 167\
 The [Rivethun](ref/rule/aff-animists) teach their followers to cultivate a well of inner power and
 to open themselves to the spiritual world, but on occasion - especially among neophytes who join the
 cult later in life - these processes overlap, and the acolyte invests her spiritual reservoir into

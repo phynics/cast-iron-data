@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "healers-handbook"
+page = "18"
 
 [fields]
 kind = "archetype"
 replaces = ["Bardic knowledge", "lore master", "Countersong", "Versatile performance", "Jack-of-all-trades"]
 +++
 
-**Sources:** Healer's Handbook pg 18\
 Solacers are experts in the healing arts as well as creators of performances that console the
 distraught, rally the stricken, raise spirits, and vanquish sorrow.
 

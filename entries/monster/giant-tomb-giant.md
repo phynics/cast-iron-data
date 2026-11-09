@@ -6,6 +6,12 @@ source_ids = ["pathfinder-94-ice-tomb-of-the-giant-queen", "bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_tomb_giant", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "pathfinder-94-ice-tomb-of-the-giant-queen"
+page = "84"
+[[sources]]
+publication = "bestiary-6"
+page = "136"
 
 [fields]
 kind = "creature"
@@ -44,7 +50,6 @@ hands._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#94: Ice Tomb of the Giant Queen pg 84, Bestiary 6 pg 136\
 **Subtype:** Giant
 
 **Experience points:** 19,200

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-53-tide-of-honor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chon_chon", path = "json/monsters05.json" },
 ]
+[[sources]]
+publication = "pathfinder-53-tide-of-honor"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ babbles to itself as it flies, as if to remind itself of secrets only it knows._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#53: Tide of Honor pg 82\
 **Size:** tiny
 
 **Experience points:** 200

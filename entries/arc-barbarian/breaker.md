@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/barbarian" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "78"
 
 [fields]
 kind = "archetype"
 replaces = ["Fast movement", "Trap sense"]
 +++
 
-**Sources:** Advanced Player's Guide pg 78\
 While most barbarians are skilled at breaking things, some find the need to destroy their
 surroundings an almost uncontrollable urge when in the middle of a _rage._ These barbarians are a
 danger not only to their foes, but also to the very environment around them. A breaker barbarian has

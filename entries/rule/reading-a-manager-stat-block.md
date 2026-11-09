@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reading_a_manager_stat_block", path = "json/rules_subsystems02.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "88"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 88
 
 A manager stat block is organized as follows.
 

@@ -6,6 +6,9 @@ source_ids = ["tombs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prismatic_orrery", path = "json/monsters_unique3.json" },
 ]
+[[sources]]
+publication = "tombs-of-golarion"
+page = "53"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ _A series of metal rings rotates around a giant prismatic sphere._
 
 **Senses:** Darkvision 60 ft., Low-light vision, True seeing
 
-**Sources:** Tombs of Golarion pg 53\
 **Experience points:** 25,600
 
 **Armor class:** 24/8/22

@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_slag_giant", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "129"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ determination and detachment._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 4 pg 129\
 **Subtype:** Giant
 
 **Experience points:** 3,200

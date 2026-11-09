@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "smashing_style", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "17"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "A character with the weapon training (axes, hammers, or flails) class
 +++
 
 ## Smashing Style (Combat, Style)
-
-**Sources:** Weapon Master's Handbook pg 17
 
 Your hammer blows dent armor, hampering your opponent.\
 **Prerequisites:** Str 13, [Improved Sunder](ref/feat/improved-sunder),

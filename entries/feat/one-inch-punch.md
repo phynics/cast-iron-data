@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "one_inch_punch", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "7"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When making a full attack against a corporeal foe, you can forgo mult
 +++
 
 ## One-Inch Punch (Combat)
-
-**Sources:** Martial Arts Handbook pg 7
 
 You combine the force of multiple blows into a single strike to potentially send a foe flying.\
 **Prerequisites:** [Improved Unarmed Strike](ref/feat/improved-unarmed-strike).\

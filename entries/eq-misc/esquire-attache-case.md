@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "esquire_attache_case", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "233"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "8 lbs."
 
 ## Esquire attaché case
 
-**Sources:** Ultimate Intrigue pg 233\
 **Price** 100 gp; **Weight** 8 lbs.\
 **Category** Adventuring Gear
 

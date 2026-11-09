@@ -6,6 +6,9 @@ source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "insect_scouts", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "spymasters-handbook"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Saving throw: none
 Spell resistance: no
 Effect: one insect scout/4 levels
 :::
-
-**Sources:** Spymaster's Handbook pg 29
 
 A favorite in the creaking courts of Ustalav, insect scouts summons one or more vermin to
 investigate a single location or building you can see. Your scouts must spend 1d6 hours

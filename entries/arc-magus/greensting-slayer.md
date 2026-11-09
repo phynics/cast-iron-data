@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/magus" },
 ]
+[[sources]]
+publication = "bastards-of-golarion"
+page = "9"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Medium armor", "Heavy armor"]
 alters = ["Arcane pool"]
 +++
 
-**Sources:** Bastards of Golarion pg 9\
 The blending of martial prowess with elven magic has long been a staple of the Blackash Training
 Grounds in Erages. More than a few who study at Erages Academy follow this path because of the
 promises of wealth that the city's criminal element makes toward practiced brawlers and smugglers.

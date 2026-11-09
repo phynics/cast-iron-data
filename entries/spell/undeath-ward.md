@@ -6,6 +6,9 @@ source_ids = ["dungeons-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "undeath_ward", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "dungeons-of-golarion"
+page = "63"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: none or Will negates (see text)
 Spell resistance: yes
 Area: 10-ft.-radius emanantion, centered on you
 :::
-
-**Sources:** Dungeons of Golarion pg 63
 
 You create a pale silver barrier that repels undead. Mindless undead and intelligent undead with
 fewer Hit Dice than your caster level cannot enter the area or penetrate the barrier. Undead of Hit

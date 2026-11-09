@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kingdom_building", path = "json/rules_campaign_types04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "198"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 198
 
 Ruling a kingdom is a complex and difficult task, one undertaken only by the very ambitious. Many
 PCs are content to live as mercenaries or treasure hunters, no interest in being responsible for the

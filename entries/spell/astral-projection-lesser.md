@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/astral-projection" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "207"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: yes
 :::
 
 ### Lesser Astral Projection
-
-**Sources:** Ultimate Magic pg 207
 
 This spell functions as [astral projection](ref/spell/astral-projection), except you cannot leave
 the Astral Plane and explore other planes (though you can still return to the plane you were on when

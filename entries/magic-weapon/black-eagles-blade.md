@@ -6,6 +6,9 @@ source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "black_eagles_blade", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "people-of-the-river"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "8th"
 +++
 
-**Sources:** People of the River pg 28\
 **Aura** moderate conjuration; **CL** 8th\
 **Slot** none; **Price** 14,350 gp; **Weight** 8 lbs.
 

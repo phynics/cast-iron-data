@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pilfering_hand", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "239"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Spell resistance: yes (object)
 Target: one object
 Descriptors: force
 :::
-
-**Sources:** Ultimate Combat pg 239
 
 You create and control an invisible telekinetic force, manipulating it with either startling
 abruptness or careful deliberateness, allowing you to seize an object from an opponent or remotely

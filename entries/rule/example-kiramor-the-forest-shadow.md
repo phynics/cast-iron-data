@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "example_kiramor_the_forest_shadow", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "454"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 454
 
 Looking over your notes for the evening's game, you discover that you need a mysterious forest
 character for the PCs to interact with on their way to town. If things go poorly, they might have to

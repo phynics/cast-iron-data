@@ -6,6 +6,8 @@ source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fafnheir_and_the_first_king", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "dragonslayers-handbook"
 
 [fields]
 kind = "class_option"
@@ -13,8 +15,6 @@ group = "bardic-masterpiece"
 +++
 
 ## Fafnheir and the First King (String, Wind)
-
-**Sources:** Dragonslayer's Handbook
 
 You affect the mood of listeners by celebrating the defeat of the First Linnorm King at the claws of
 Fafnheir, the Father of All Linnorms.

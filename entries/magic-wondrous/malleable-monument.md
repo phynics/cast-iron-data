@@ -6,6 +6,9 @@ source_ids = ["disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "malleable_monument", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "disciples-doctrine"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "9th"
 +++
 
-**Sources:** Disciple's Doctrine pg 29\
 **Aura** moderate evocation; **CL** 9th\
 **Slot** none; **Price** 8,000 gp; **Weight** 15 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magical_heart", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "heroes-of-golarion"
+page = "7"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While your unarmed strikes are imbued with power from the Arcane Stri
 +++
 
 ## Magical Heart (Combat)
-
-**Sources:** Heroes of Golarion pg 7
 
 Through intense focus, your magical strikes reinforce your ioun heart.\
 **Prerequisites:** [Arcane Strike](ref/feat/arcane-strike),

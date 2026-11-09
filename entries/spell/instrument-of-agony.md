@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "instrument_of_agony", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "232"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: Will negates (harmless, object), see text
 Spell resistance: yes (harmless, object), see text
 Target: weapon touched
 :::
-
-**Sources:** Ultimate Combat pg 232
 
 You cause a weapon to exude a palpable aura of divine fury. While wielding this weapon, a creature
 gains a +2 morale bonus on Intimidate checks. When an attack made using the targeted weapon hits,

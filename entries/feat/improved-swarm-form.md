@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_swarm_form", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "blood-of-the-night"
+page = "17"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Vampire."
 benefit = "Choose one of the following forms: bat swarm, centipede swarm, cockroach swarm, leech swarm, rat swarm, or spider swarm. As a standard action, you can change into this form."
 special = "You can gain this feat multiple times. Each time you take this feat, choose another swarm type."
 +++
-
-**Sources:** Blood of the Night pg 17
 
 You can assume the form of various varmints.\
 **Prerequisites:** [Vampire](ref/template/vampire).\

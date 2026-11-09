@@ -6,6 +6,9 @@ source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hexing_runes", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "dragonslayers-handbook"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "8th"
 +++
 
-**Sources:** Dragonslayer's Handbook pg 30\
 **Aura** moderate abjuration; **CL** 8th\
 **Slot** neck; **Price** 10,000 gp; **Weight** -
 

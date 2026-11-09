@@ -6,6 +6,9 @@ source_ids = ["disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "debilitating_speech", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "disciples-doctrine"
+page = "10"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: yes
 Targets: 1 or more living creatures/level, no two of which may be more than 30 feet apart
 Descriptors: language-dependant, mind-affecting
 :::
-
-**Sources:** Disciple's Doctrine pg 10
 
 By speaking eloquently on the subject of your opponents' ineptitude in combat, past failures,
 personal hygiene, or other faults, you sap their will to fight.

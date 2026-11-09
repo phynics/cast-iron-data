@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soulbound_shell", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "249"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ _This white statue of a bald human is marbled with glowing green veins of energy
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 4 pg 249\
 **Experience points:** 19,200
 
 **Armor class:** 26/11/25

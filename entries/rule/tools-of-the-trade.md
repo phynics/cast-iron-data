@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tools_of_the_trade", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "140"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 140
 
 Every GM has his own preferred method of world creation. For some, this process starts and ends with
 pen and paper, in which case it's often useful to have graph paper to help judge scale and create

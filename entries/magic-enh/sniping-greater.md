@@ -6,6 +6,9 @@ source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sniping_greater", path = "json/magic_enhancements2.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "27"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong illusion"
 caster_level = "15th"
 +++
 
-**Sources:** Ranged Tactics Toolbox pg 27\
 **Aura** strong illusion; **CL** 15th\
 **Slot** none; **Price** +16,875 gp; **Weight** -
 

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hold_portal", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "297"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: none
 Spell resistance: no
 Target: one portal, up to 20 sq. ft./level
 :::
-
-**Sources:** PRPG Core Rulebook pg 297
 
 This spell magically holds shut a door, gate, window, or shutter of wood, metal, or stone. The magic
 affects the portal just as if it were securely closed and normally locked. A

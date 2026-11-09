@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beguiling_gift", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "205"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Advanced Player's Guide pg 205
 
 You offer an object to an adjacent creature, and entice it into using or consuming the proffered
 item. If the target fails its Will save, it immediately takes the offered object, dropping an

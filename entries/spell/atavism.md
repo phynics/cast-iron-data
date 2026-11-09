@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "atavism", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "207"
 
 [fields]
 kind = "spell"
@@ -37,8 +40,6 @@ Saving throw: Fortitude negates
 Spell resistance: yes
 Target: one animal
 :::
-
-**Sources:** Ultimate Magic pg 207
 
 By bringing forth the primeval ancestry of the target animal, you awaken a savage engine of
 destruction. The animal immediately gains the advanced creature simple template. It gains a +2 bonus

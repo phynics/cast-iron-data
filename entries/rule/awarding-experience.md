@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "awarding_experience", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "399"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 399
 
 Pathfinder Roleplaying Game characters advance in level by defeating monsters, overcoming
 challenges, and completing adventures - in so doing, they earn experience points (XP for short).

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-society-field-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_the_beast", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "pathfinder-society-field-guide"
+page = "53"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Pathfinder Society Field Guide pg 53\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** ring; **Price** 8,000 gp; **Weight** -
 

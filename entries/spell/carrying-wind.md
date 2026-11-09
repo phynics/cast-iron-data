@@ -6,6 +6,9 @@ source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "carrying_wind", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
+page = "17"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: no
 Target: you
 Descriptors: air
 :::
-
-**Sources:** Elemental Master's Handbook pg 17
 
 When you cast this spell, a wind spirit envelopes you and carries you with it at your direction. You
 gain a +10 foot enhancement bonus to your base speed and fly speed while this spell is in effect. If

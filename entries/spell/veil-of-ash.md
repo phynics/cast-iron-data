@@ -6,6 +6,9 @@ source_ids = ["pathfinder-24-the-final-wish"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "veil_of_ash", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "pathfinder-24-the-final-wish"
+page = "61"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: fire
 :::
-
-**Sources:** Pathfinder \#24: The Final Wish pg 61
 
 This spell causes a small cloud of searing, choking ash to appear around the face of the target. The
 creature must succeed at a Fortitude saving throw or take 1d6 points of fire damage and be blinded.

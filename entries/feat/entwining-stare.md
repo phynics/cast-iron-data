@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "entwining_stare", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "blood-of-the-beast"
+page = "17"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When you trigger your painful stare to add damage to an attack with g
 +++
 
 ## Entwining Stare (Stare)
-
-**Sources:** Blood of the Beast pg 17
 
 Your painful stare makes your enemies easier to grab and constrict.\
 **Prerequisites:** Mesmerist level 7th, painful stare class feature.\

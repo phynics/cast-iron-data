@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aversion", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "158"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Occult Adventures pg 158
 
 You plant a revulsion in the mind of the subject, causing her to avoid an object or location. You
 must choose a specific object or place. A location chosen in this way can be no larger than a cube

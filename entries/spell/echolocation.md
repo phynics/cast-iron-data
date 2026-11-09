@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "echolocation", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "218"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Spell resistance: no
 Target: you
 Descriptors: sonic
 :::
-
-**Sources:** Ultimate Magic pg 218
 
 You can perceive the world by creating high-pitched noises and listening to their echoes. This gives
 you [blindsight](ref/rule/blindsight-and-blindsense) to a range of 40 feet. The echo-producing

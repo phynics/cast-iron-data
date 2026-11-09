@@ -6,15 +6,27 @@ source_ids = ["varisia-birthplace-of-legends", "curse-of-the-crimson-throne-play
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shoanti_bolas", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "varisia-birthplace-of-legends"
+page = "14"
+[[sources]]
+publication = "curse-of-the-crimson-throne-players-guide"
+page = "13"
+[[sources]]
+publication = "pathfinder-campaign-setting"
+page = "209"
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "290"
+[[sources]]
+publication = "adventurers-armory"
+page = "33"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "2 lbs."
 +++
-
-**Sources:** Varisia, Birthplace of Legends pg 14, Curse of the Crimson Throne Player's Guide pg 13,
-Pathfinder Campaign Setting pg 209, Inner Sea World Guide pg 290, Adventurer's Armory pg 33
 
 This spiked bolas functions as a standard [bolas](ref/eq-weapon/bolas), but deals lethal damage
 rather than nonlethal damage.

@@ -6,6 +6,9 @@ source_ids = ["murders-mark"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "maiden_lily_attar", path = "json/equipment_poisons.json" },
 ]
+[[sources]]
+publication = "murders-mark"
+page = "26"
 
 [fields]
 kind = "item"
@@ -13,8 +16,6 @@ category = "Poisons"
 price = "N/A"
 weight = "&mdash;"
 +++
-
-**Sources:** Murder's Mark pg 26
 
 **Price** N/A; **Weight** —
 

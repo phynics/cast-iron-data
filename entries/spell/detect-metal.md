@@ -6,6 +6,9 @@ source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "detect_metal", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "people-of-the-river"
+page = "26"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: none
 Spell resistance: no
 Area: cone-shaped emanation
 :::
-
-**Sources:** People of the River pg 26
 
 You detect any metal objects or creatures within a 60-foot cone. You can specify all metal objects
 or one or more specific types of metal (such as silver, cold iron, or a type of

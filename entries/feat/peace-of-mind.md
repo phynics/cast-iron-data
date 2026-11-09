@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "peace_of_mind", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "31"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "As an immediate action when you fail a saving throw against an emotio
 +++
 
 ## Peace of Mind (Conduit)
-
-**Sources:** Planar Adventures pg 31
 
 The blissful peace of Nirvana is never more than a thought away from your mind.\
 **Prerequisites:** Knowledge (planes) 3 ranks.\

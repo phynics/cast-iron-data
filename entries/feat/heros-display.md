@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heros_display", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "104"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you spend a swift action to make a performance combat check, you
 +++
 
 ## Hero's Display (Combat, Performance)
-
-**Sources:** Ultimate Combat pg 104
 
 With a dramatic flourish you display your weapons to the crowd. Onlookers are elated, and your
 enemies are demoralized.\

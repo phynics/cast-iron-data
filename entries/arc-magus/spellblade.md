@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/magus" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "49"
 
 [fields]
 kind = "archetype"
 replaces = ["Spellstrike"]
 +++
 
-**Sources:** Ultimate Magic pg 49\
 A spellblade magus can manifest a ghostly blade of force that can be used as an off-hand weapon.
 
 **Force Athame (Sp)**

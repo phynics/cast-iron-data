@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "combining_armies", path = "json/rules_campaign_types05.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "246"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 246
 
 If you have two armies of the same type and of equal size, at any time outside of combat you can
 combine them into a single army that is one size larger than the original armies.

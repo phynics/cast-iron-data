@@ -6,6 +6,8 @@ source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_bears_jig", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "people-of-the-river"
 
 [fields]
 kind = "class_option"
@@ -13,8 +15,6 @@ group = "bardic-masterpiece"
 +++
 
 ## The Bear's Jig (String, Wing)
-
-**Sources:** People of the River
 
 Your music makes animals act like people.
 

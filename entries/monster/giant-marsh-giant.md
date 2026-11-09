@@ -6,6 +6,12 @@ source_ids = ["bestiary-2", "pathfinder-5-sins-of-the-saviors"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_marsh_giant", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "129"
+[[sources]]
+publication = "pathfinder-5-sins-of-the-saviors"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ obese giant._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 2 pg 129, Pathfinder \#5: Sins of the Saviors pg 82\
 **Subtype:** Giant
 
 **Experience points:** 4,800

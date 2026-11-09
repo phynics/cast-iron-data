@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "silent_table", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "192"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Area: 5-ft.-diameter emanation centered on an object or a point in space
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** Advanced Class Guide pg 192
 
 You protect an area against casual eavesdropping. Sounds and sonic effects that originate inside the
 area are muffled for anyone outside the area; Perception DCs to hear or understand sounds leaving

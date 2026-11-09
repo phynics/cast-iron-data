@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lizardfolk", path = "json/monsters16.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "195"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ tail._
 
 **Perception:** +1
 
-**Sources:** Pathfinder RPG Bestiary pg 195\
 **Subtype:** Reptilian
 
 **Experience points:** 400

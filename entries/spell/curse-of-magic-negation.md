@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "curse_of_magic_negation", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "215"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Spell resistance: no
 Target: one creature
 Descriptors: curse
 :::
-
-**Sources:** Ultimate Magic pg 215
 
 You disrupt the target creature's ability to draw upon magical energies. For the duration of the
 spell, it gains the [negated spellblight](ref/rule/major-spellblights). Dispel checks to remove the

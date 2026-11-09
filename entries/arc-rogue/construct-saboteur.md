@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "construct-handbook"
+page = "12"
 
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Rogue talent gained at 2nd level", "Trap sense"]
 +++
 
-**Sources:** Construct Handbook pg 12\
 The construct saboteur harnesses arcane energy to combat the golems and eldritch guardians that
 prowl the depths of ancient ruins and forgotten tombs.
 

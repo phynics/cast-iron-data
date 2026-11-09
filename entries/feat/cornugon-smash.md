@@ -6,6 +6,9 @@ source_ids = ["cheliax-empire-of-devils"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cornugon_smash", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "cheliax-empire-of-devils"
+page = "26"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you damage an opponent with a Power Attack, you may make an imme
 +++
 
 ## Cornugon Smash (Combat)
-
-**Sources:** Cheliax, Empire of Devils pg 26
 
 Your terrible attacks strike fear into your enemies.\
 **Prerequisites:** [Power Attack](ref/feat/power-attack), Intimidate 6 ranks.\

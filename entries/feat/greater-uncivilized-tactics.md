@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_uncivilized_tactics", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-wild"
+page = "23"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "As a standard action, a foe can regain the use of a limb or natural at
 +++
 
 ## Greater Uncivilized Tactics (Combat)
-
-**Sources:** Heroes of the Wild pg 23
 
 Your foes find it difficult to recover from your rough-and-tumble combat style and debilitating
 attacks.\

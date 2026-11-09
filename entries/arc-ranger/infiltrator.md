@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ranger" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "125"
 
 [fields]
 kind = "archetype"
 replaces = ["Favored terrain"]
 +++
 
-**Sources:** Advanced Player's Guide pg 125\
 Some rangers study their _favored enemies_ and learn their ways, applying this knowledge to their
 own abilities and using their foes' strengths against them. Infiltrators are willing to walk a mile
 in an enemy's shoes so as to learn eveything there is to know about their foes in order to more

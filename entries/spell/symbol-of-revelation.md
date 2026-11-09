@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/symbol-of-death" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "241"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Saving throw: none
 Spell resistance: yes
 Effect: one symbol
 :::
-
-**Sources:** Ultimate Magic pg 241
 
 This spell functions as [symbol of death](ref/spell/symbol-of-death), except it is only activated by
 invisible creatures, creatures affected by an illusion (glamer) effect, creatures with the

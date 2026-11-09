@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadowbard", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "236"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Effect: phantom singer
 Subschool: Shadow
 Descriptors: shadow
 :::
-
-**Sources:** Ultimate Magic pg 236
 
 You conjure up a quasi-real phantom singer that is visible as a shifting, shadowy duplicate of
 yourself. The singer follows you automatically, moving as you move even if you teleport. The singer

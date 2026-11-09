@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/wizard" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "133"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Spellbook", "Arcane school, 20th-level bonus feat"]
 alters = ["Arcane bond", "5th-, 10th-, and 15th-level bonus feats"]
 +++
 
-**Sources:** Advanced Class Guide pg 133\
 Spirit whisperers are a breed apart among wizards, and are often mistaken for witches. While spirit
 whisperers do gain and store their spells by communing with familiars, the spirits they gain
 guidance from are somewhat closer to the world and more direct than the powers with which witches

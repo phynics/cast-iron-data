@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/summon-natures-ally-1" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "354"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Subschool: Summoning
 :::
 
 ### Summon Nature's Ally III
-
-**Sources:** PRPG Core Rulebook pg 354
 
 This spell functions like [summon nature's ally I](ref/spell/summon-natures-ally-1), except that you
 can summon one 3rd-level creature, 1d3 2nd-level creatures of the same kind, or 1d4+1 1st-level

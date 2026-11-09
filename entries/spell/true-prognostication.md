@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/divination" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "228"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Target: you
 :::
 
 ### True Prognostication
-
-**Sources:** Ultimate Intrigue pg 228
 
 True prognostication functions as [divination](ref/spell/divination) except that the spell can see
 up to 100 years into the future. Because of the extreme unpredictability of the far-distant future,

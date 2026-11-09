@@ -6,6 +6,9 @@ source_ids = ["mystery-monsters-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_mistress_of_the_fen", path = "json/monsters_unique3.json" },
 ]
+[[sources]]
+publication = "mystery-monsters-revisited"
+page = "56"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ primordial nature, and the abundant plant growth covering its body suggests both
 
 **Senses:** Darkvision 120 ft., Low-light vision
 
-**Sources:** Mystery Monsters Revisited pg 56\
 **Subtype:** Aquatic
 
 **Experience points:** 19,200

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "colossus_draught", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "58"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation"
 caster_level = "16th"
 +++
 
-**Sources:** Inner Sea Combat pg 58\
 **Aura** strong transmutation; **CL** 16th\
 **Slot** none; **Price** 28,800 gp; **Weight** 1 lb.
 

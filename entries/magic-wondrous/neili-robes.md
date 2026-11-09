@@ -6,6 +6,9 @@ source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "neili_robes", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "merchants-manifest"
+page = "10"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "11th"
 +++
 
-**Sources:** Merchant's Manifest pg 10\
 **Aura** moderate abjuration; **CL** 11th\
 **Slot** body; **Price** 10,000 gp; **Weight** 1 lb.
 

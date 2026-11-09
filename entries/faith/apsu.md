@@ -6,6 +6,9 @@ source_ids = ["inner-sea-faiths", "legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "apsu", path = "json/faiths.json" },
 ]
+[[sources]]
+publication = "inner-sea-faiths"
+page = "17"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Apsu**
 
 **Sub:** The Waybringer
-
-**Sources:** Inner Sea Faiths pg 17
 
 ### Details
 

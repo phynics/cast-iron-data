@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/mesmerist" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "36"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Consummate liar", "Painful stare", "Manifold tricks", "Glib lie", "
 alters = ["Hypnotic stare", "Touch treatment"]
 +++
 
-**Sources:** Ultimate Intrigue pg 36\
 An enigma spends his life dedicated to developing psychic abilities that allow him to operate
 unnoticed. While the target of a mesmerist's _hypnotic stare_ might not realize that the mesmerist
 is the source of the strange thoughts invading his mind, an enigma takes that mental obfuscation to

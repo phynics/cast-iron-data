@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "innate_flexibility", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "44"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Duergar, two racial spell-like abilities usable once per day."
 benefit = "You gain a number of additional uses of your once per day racial spell-like abilities equal to the number of such abilities you have. You can expend these additional uses in any combination. Normal duergar spell-like abilities and those granted by duergar racial traits both count for the purpose of this feat."
 special = "You can take this feat multiple times. Its effects stack."
 +++
-
-**Sources:** Monster Codex pg 44
 
 Your innate magic is flexible.\
 **Prerequisites:** [Duergar](ref/race/duergar), two racial

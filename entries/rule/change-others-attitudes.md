@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "change_others_attitudes", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "58"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 58
 
 You can use Influence to change the attitudes of NPCs. The DC is determined by the target's starting
 attitude plus its Charisma modifier. If you succeed, you improve the target's attitude toward you by

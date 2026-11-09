@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boots_of_the_winterlands", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "230"
+[[sources]]
+publication = "core-rulebook"
+page = "504"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint abjuration and transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Equipment pg 230, PRPG Core Rulebook pg 504\
 **Aura** faint abjuration and transmutation; **CL** 5th\
 **Slot** feet; **Price** 2,500 gp; **Weight** 1 lb.
 

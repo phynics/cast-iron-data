@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_quintessence_golem", path = "json/monsters33.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "142"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ swirl within its immense body._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 6 pg 142\
 **Subtype:** Extraplanar
 
 **Experience points:** 307,200

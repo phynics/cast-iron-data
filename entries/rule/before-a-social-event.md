@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "before_a_social_event", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "103"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 103
 
 If the PCs know which NPCs they need to influence in advance, they can seek out information to
 assist them in doing so ahead of time, potentially gaining information from the social stat block

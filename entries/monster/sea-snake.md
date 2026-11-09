@@ -6,6 +6,9 @@ source_ids = ["isles-of-the-shackles"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sea_snake", path = "json/monsters21.json" },
 ]
+[[sources]]
+publication = "isles-of-the-shackles"
+page = "59"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ agility._
 
 **Size:** small
 
-**Sources:** Isles of the Shackles pg 59\
 **Experience points:** 400
 
 **Armor class:** 14/13/12

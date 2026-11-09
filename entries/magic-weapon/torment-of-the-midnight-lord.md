@@ -6,6 +6,9 @@ source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "torment_of_the_midnight_lord", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "blood-of-shadows"
+page = "23"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong illusion and necromancy"
 caster_level = "19th"
 +++
 
-**Sources:** Blood of Shadows pg 23\
 **Aura** strong illusion and necromancy; **CL** 19th\
 **Slot** none; **Price** 60,000 gp; **Weight** varies
 

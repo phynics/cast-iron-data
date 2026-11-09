@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_of_heroes", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "323"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "Whenever you gain a level, you gain 1 hero point."
 +++
 
 ## Blood of Heroes (Hero Point)
-
-**Sources:** Advanced Player's Guide pg 323
 
 You have a sense of destiny about you and always seem to succeed, even when the odds are against
 you.\

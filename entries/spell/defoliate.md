@@ -6,6 +6,9 @@ source_ids = ["sargava-the-lost-colony"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "defoliate", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "sargava-the-lost-colony"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: none
 Spell resistance: yes
 Target or Area: see text
 :::
-
-**Sources:** Sargava, the Lost Colony pg 28
 
 You hurl a tiny ball of negative energy, destroying plant life either in a line 60 feet long or a
 10-foot-radius spread. This effect removes the cover and concealment provided by trees and

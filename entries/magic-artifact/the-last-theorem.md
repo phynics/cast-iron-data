@@ -6,6 +6,9 @@ source_ids = ["the-pact-stone-pyramid"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_last_theorem", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "the-pact-stone-pyramid"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong (all schools) [evil]"
 caster_level = "20th"
 +++
 
-**Sources:** The Pact Stone Pyramid pg 29\
 **Aura** strong (all schools) \[evil\]; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 5 lbs.
 

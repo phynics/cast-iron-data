@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/monk" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "110"
 
 [fields]
 kind = "archetype"
 replaces = ["Still mind", "Purity of body", "Diamond body", "Diamond soul", "Empty body"]
 +++
 
-**Sources:** Advanced Player's Guide pg 110\
 Most monks lead lives of moderation and quiet contemplation. But the drunken master finds perfection
 through excess. Powered by strong wine, he uses his intoxication to reach a state where his ki is
 more potent, if somewhat fleeting. A drunken master has the following class features.

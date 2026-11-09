@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloody_assault", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "151"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You can choose to take a -5 penalty on all melee attack rolls and com
 +++
 
 ## Bloody Assault (Combat)
-
-**Sources:** Advanced Player's Guide pg 151
 
 Sacrificing accuracy, you can inflict bloody wounds that are slow to heal.\
 **Prerequisites:** Str 13, [Power Attack](ref/feat/power-attack), base attack bonus +6.\

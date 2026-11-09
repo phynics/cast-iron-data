@@ -6,6 +6,9 @@ source_ids = ["dragon-empires-gazetteer", "faiths-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hei_feng", path = "json/faiths4.json" },
 ]
+[[sources]]
+publication = "dragon-empires-gazetteer"
+page = "58"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Hei Feng**
 
 **Sub:** Duke of Thunder
-
-**Sources:** Dragon Empires Gazetteer pg 58
 
 ### Details
 

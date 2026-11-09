@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "damaging_magic_items", path = "json/rules_basics02.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "459"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 459
 
 A magic item doesn't need to make a saving throw unless it is unattended, it is specifically
 targeted by the effect, or its wielder rolls a natural 1 on his save. Magic items should always get

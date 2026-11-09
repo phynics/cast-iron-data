@@ -6,6 +6,9 @@ source_ids = ["people-of-the-north"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "buoyant_harpoon", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "people-of-the-north"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** People of the North pg 28\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** none; **Price** 8,305 gp; **Weight** 16 lbs.
 

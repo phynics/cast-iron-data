@@ -6,6 +6,9 @@ source_ids = ["distant-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lantern_light", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "distant-realms"
+page = "33"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you make a single ranged attack with a thrown weapon, that weapo
 +++
 
 ## Lantern Light (Combat)
-
-**Sources:** Distant Realms pg 33
 
 Your thrown weapons become pure light, overcoming enemy defenses.\
 **Prerequisites:** [Lantern Style](ref/feat/lantern-style), [Precise Shot](ref/feat/precise-shot),

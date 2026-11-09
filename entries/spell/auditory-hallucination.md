@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "auditory_hallucination", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "204"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Target: one creature/level, no two of which can be more than 30 ft. apart
 Subschool: Phantasm
 Descriptors: mind-affecting
 :::
-
-**Sources:** Ultimate Intrigue pg 204
 
 You cause the targets to believe they hear any sound you imagine. The sound can include intelligible
 speech. Instead of precisely imagining a sound, you can identify a sound the subjects know and they

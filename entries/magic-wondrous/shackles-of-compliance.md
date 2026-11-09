@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "pathfinder-55-the-wormwood-mutiny"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shackles_of_compliance", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "274"
+[[sources]]
+publication = "pathfinder-55-the-wormwood-mutiny"
+page = "58"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint enchantment"
 caster_level = "3rd"
 +++
 
-**Sources:** Ultimate Equipment pg 274, Pathfinder \#55: The Wormwood Mutiny pg 58\
 **Aura** faint enchantment; **CL** 3rd\
 **Slot** wrists; **Price** 3,280 gp; **Weight** 2 lbs.
 

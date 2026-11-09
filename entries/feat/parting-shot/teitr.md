@@ -6,6 +6,8 @@ source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/parting-shot" },
 ]
+[[sources]]
+publication = "the-elephant-in-the-room-feat-taxes-in-pathfinder"
 
 [fields]
 kind = "feat"
@@ -16,7 +18,6 @@ benefit = "Once per encounter, when using the withdraw action, you can make a si
 normal = "You cannot attack when using the withdraw action."
 +++
 
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 You are an expert skirmisher, able to rain missiles upon your enemies whether advancing or
 retreating.\
 **Prerequisites:** Dex 13, [Dodge](ref/feat/dodge), [Shot on the Run](ref/feat/shot-on-the-run),

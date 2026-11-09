@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sleepwalk", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "244"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Target: unconscious creature touched
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Advanced Player's Guide pg 244
 
 You compel an unconscious or sleeping creature to rise and move in a half-awake state. The target
 creature staggers about if led or guided, but remains helpless for all other purposes. The subject

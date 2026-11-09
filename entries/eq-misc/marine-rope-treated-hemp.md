@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "marine_rope_treated_hemp", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "blood-of-the-sea"
+page = "19"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "12 lbs. (treated hemp), 5 lbs. (woven kelp)"
 
 ## Marine rope
 
-**Sources:** Blood of the Sea pg 19\
 **Price** 10 gp (treated hemp), 20 gp (woven kelp); **Weight** 12 lbs. (treated hemp), 5 lbs. (woven
 kelp)
 

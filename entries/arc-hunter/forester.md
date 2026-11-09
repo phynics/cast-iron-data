@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/hunter" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "52"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Precise companion", "Hunter tactics", "Improved empathic link", "An
 alters = ["Animal focus"]
 +++
 
-**Sources:** Ultimate Wilderness pg 52\
 While all hunters have a bond with the natural world, a forester has a stronger tie to her
 environment than to the animals within it. While most foresters feel strong bonds with woodland
 regions, the archetype functions well in other terrains as well. In such cases, a forester might

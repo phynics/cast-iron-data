@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deadly_spy", path = "json/npcs8.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "148"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "8"
 
 **Challenge rating:** 8
 
-**Sources:** NPC Codex pg 148\
 **XP** 4,800\
 Elf [rogue](ref/class/rogue) 9\
 CN Medium humanoid (elf)\

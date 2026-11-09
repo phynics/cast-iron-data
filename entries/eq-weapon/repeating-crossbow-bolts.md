@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "repeating_crossbow_bolts", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "22"
+[[sources]]
+publication = "core-rulebook"
+page = "143"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "0.2 lb."
 +++
-
-**Sources:** Ultimate Equipment pg 22, PRPG Core Rulebook pg 143
 
 Bolts for a repeating crossbow are designed to fit the bolt case of a repeating crossbow. They are
 slightly more expensive than regular crossbow bolts and sold in increments of 5 instead of 10 (to

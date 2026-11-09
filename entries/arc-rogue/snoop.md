@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "47"
 
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "evasion", "Uncanny dodge", "improved uncanny dodge", "Rogue talent gained at 8th level"]
 +++
 
-**Sources:** Ultimate Intrigue pg 47\
 Snoops are the underworld's version of detectives. They often act as information peddlers,
 specializing in gathering secrets through investigation, subterfuge, and coercion, and selling or
 trading those secrets for personal gain.

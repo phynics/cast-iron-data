@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/witch" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "185"
 
 [fields]
 kind = "archetype"
 replaces = ["2nd-level hex", "6th-level hex", "10th-level hex"]
 +++
 
-**Sources:** Advanced Race Guide pg 185\
 A changeling dreamweaver draws upon her hag heritage to ply the dream realms in order to touch
 mortal minds and souls, for good or ill. A dreamweaver witch has the following class features.
 

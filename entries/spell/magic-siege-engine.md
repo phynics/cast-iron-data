@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_siege_engine", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "236"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Saving throw: Will negates (harmless) (object)
 Spell resistance: yes (harmless) (object)
 Target: one siege engine touched
 :::
-
-**Sources:** Ultimate Combat pg 236
 
 This spell permits an indirect fire siege engine to bombard its targets with greater accuracy,
 delivering more damage. The siege weapon receives a +1 enhancement bonus on targeting rolls and

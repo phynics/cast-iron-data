@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/animate-dead" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "205"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Descriptors: evil
 :::
 
 ### Lesser Animate Dead
-
-**Sources:** Ultimate Magic pg 205
 
 This spell functions as [animate dead](ref/spell/animate-dead), except you can only create a single
 Small or Medium skeleton or zombie. You cannot create variant skeletons or zombies with this spell.

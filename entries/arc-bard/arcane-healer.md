@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "faiths-and-philosophies"
+page = "13"
 
 [fields]
 kind = "archetype"
 replaces = ["Versatile performance", "Loremaster"]
 +++
 
-**Sources:** Faiths and Philosophies pg 13\
 Though bards may have different reasons for wanting to heal the sick and injured, both out of pure
 altruism and in order to keep adventuring companions safe, the ability to heal also makes it much
 easier for a bard to pose as a cleric or other divine healer, opening the door for a wide array of

@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hit_dice", path = "json/misc.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "12"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 12
 
 Hit Dice represent a creature's general level of power and skill. As a [creature](ref/misc/creature)
 gains [levels](ref/misc/level), it gains additional Hit Dice. Monsters, on the other hand, gain

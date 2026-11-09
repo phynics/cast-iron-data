@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "maidens_promise", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "87"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Sources:** Adventurer's Guide pg 87\
 **Aura** faint divination; **CL** 3rd\
 **Slot** neck; **Price** 500 gp; **Weight** -
 

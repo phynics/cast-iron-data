@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/monk" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "206"
 
 [fields]
 kind = "archetype"
 replaces = ["Still mind", "Purity of body", "Abundant step"]
 +++
 
-**Sources:** Advanced Race Guide pg 206\
 While many vanaras follow traditional monastic training and traditions, others learn to blend exotic
 combat and the mysterious forces of ki with the natural world, allowing them to move through trees
 and overgrowth to deliver devastating attacks. A treetop monk has the following class features.

@@ -6,12 +6,13 @@ source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "escaping_contracts", path = "json/rules_rulesets01.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "204"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Book of the Damned pg 204
 
 The easiest way to avoid the consequences of an unfavorable infernal contract is simply not to sign
 one. If that isn't an option, thoroughly researching the contract and learning of dangerous provisos

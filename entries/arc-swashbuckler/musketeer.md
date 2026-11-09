@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/swashbuckler" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "126"
 
 [fields]
 kind = "archetype"
 replaces = ["Weapon proficiencies", "Swashbuckler finesse", "Dodging panache"]
 +++
 
-**Sources:** Advanced Class Guide pg 126\
 A number of organizations and kingdoms search for warriors who are brave (or foolish) enough to
 wield firearms on the battlefield. The daring nature of swashbucklers often makes them ideal
 candidates for such service.

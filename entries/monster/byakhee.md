@@ -6,6 +6,9 @@ source_ids = ["pathfinder-110-the-thrushmoor-terror"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "byakhee", path = "json/monsters04.json" },
 ]
+[[sources]]
+publication = "pathfinder-110-the-thrushmoor-terror"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ decomposing human in a most hideous manner._
 
 **Senses:** Darkvision 60 ft., See in darkness
 
-**Sources:** Pathfinder \#110: The Thrushmoor Terror pg 82\
 **Experience points:** 1,200
 
 **Armor class:** 17/13/14

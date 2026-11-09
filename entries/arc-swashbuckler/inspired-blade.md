@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/swashbuckler" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "125"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Swashbuckler finesse", "Bleeding wound", "Swashbuckler weapon train
 alters = ["Panache"]
 +++
 
-**Sources:** Advanced Class Guide pg 125\
 An inspired blade is both a force of personality and a sage of swordplay dedicated to the perfection
 of combat with the rapier. They use the science and geometry with swordplay to beautiful and deadly
 effect.

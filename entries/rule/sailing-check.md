@@ -6,12 +6,14 @@ source_ids = ["skull-and-shackles-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sailing_check", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "skull-and-shackles-players-guide"
+page = "10"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Skull and Shackles Player's Guide pg 10\
 To control a ship in combat, a pilot must make a sailing check to determine the maneuverability and
 speed of the ship that round. The ship's propulsion determines what skill is used for the sailing
 check (see [Propulsion and Sailing Skills](ref/rule/propulsion-and-sailing-skills)). If a ship is

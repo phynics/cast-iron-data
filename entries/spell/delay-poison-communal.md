@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/delay-poison" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "227"
 
 [fields]
 kind = "spell"
@@ -60,8 +63,6 @@ Subschool: Healing
 :::
 
 ### Communal Delay Poison
-
-**Sources:** Ultimate Combat pg 227
 
 This spell functions like [delay poison](ref/spell/delay-poison), except you divide the duration in
 1-hour intervals among the creatures touched.

@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "create_or_detect_forgeries", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "63"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 63
 
 You must have the proper writing materials to create a forgery. If the handwriting doesn't need to
 be specific to a person, you need only to have seen a similar document before, and you gain a +8

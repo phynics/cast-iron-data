@@ -6,6 +6,9 @@ source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "speak_with_plane", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "plane-hoppers-handbook"
+page = "12"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Saving throw: Will negates (see text)
 Spell resistance: yes
 Target: one plane with a sentient structure
 :::
-
-**Sources:** Plane-Hopper's Handbook pg 12
 
 You tap into the awareness and consciousness of a plane with a sentient structure, allowing it to
 answer questions. A tangible manifestation of the plane (such as the ground) must be within the

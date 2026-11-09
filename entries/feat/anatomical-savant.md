@@ -6,6 +6,9 @@ source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "anatomical_savant", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "monster-hunters-handbook"
+page = "19"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "You can take this feat multiple times. Each time you take the feat, i
 +++
 
 ## Anatomical Savant (Combat)
-
-**Sources:** Monster Hunter's Handbook pg 19
 
 You know how to perform deadly strikes against even the most nebulous of targets.\
 **Prerequisites:** [Weapon Focus](ref/feat/weapon-focus), base attack bonus +12.\

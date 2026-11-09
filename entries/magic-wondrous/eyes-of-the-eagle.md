@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eyes_of_the_eagle", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "225"
+[[sources]]
+publication = "core-rulebook"
+page = "512"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Sources:** Ultimate Equipment pg 225, PRPG Core Rulebook pg 512\
 **Aura** faint divination; **CL** 3rd\
 **Slot** eyes; **Price** 2,500 gp; **Weight** -
 

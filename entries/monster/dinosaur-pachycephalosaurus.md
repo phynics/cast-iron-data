@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dinosaur_pachycephalosaurus", path = "json/monsters08.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "79"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ _This bipedal reptile has a rounded, dome-like head adorned with bony frills and
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Bestiary 3 pg 79\
 **Experience points:** 1,200
 
 **Armor class:** 17/11/15

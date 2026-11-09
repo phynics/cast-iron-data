@@ -6,14 +6,15 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heavy_slavers_crossbow", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "45"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "12 lbs."
 +++
-
-**Sources:** Monster Codex pg 45
 
 This crossbow shoots ammunition called [bolas bolts](ref/eq-weapon/bolas-bolts) instead of crossbow
 bolts. It comes in both [light](ref/eq-weapon/light-slavers-crossbow) and heavy varieties (but not

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "pathfinder-5-sins-of-the-saviors"
+page = "71"
 
 [fields]
 kind = "archetype"
 replaces = ["Resist nature's lure", "Daily use of wild shape at 6th level", "venom immunity", "Venom immunity"]
 +++
 
-**Sources:** Pathfinder \#5: Sins of the Saviors pg 71\
 The ashvawg tamer is a variant class that allows a druid to bond with strange and monstrous
 creatures. Given the unusual nature of these companions, the tamer also learns ways to strengthen
 his valuable ally. Most tamers worship [Lamashtu](ref/faith/lamashtu), the Demon Queen, though a few

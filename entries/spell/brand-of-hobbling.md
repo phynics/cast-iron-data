@@ -6,6 +6,12 @@ source_ids = ["adventurers-guide", "path-of-the-hellknight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brand_of_hobbling", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "98"
+[[sources]]
+publication = "path-of-the-hellknight"
+page = "60"
 
 [fields]
 kind = "spell"
@@ -38,8 +44,6 @@ Spell resistance: yes
 Target: creature touched
 Descriptors: curse
 :::
-
-**Sources:** Adventurer's Guide pg 98, Path of the Hellknight pg 60
 
 This spell etches a symbol of chains, a particular prison, or a lawful institution on the target,
 dealing 1d6 points of damage. The mark can be placed on any exposed portion of the creature,

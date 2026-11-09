@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "other_spellcasters", path = "json/rules_opt_magic01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "145"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 145
 
 Though spontaneous casters can use this system, they gain relatively little, since they already
 don't need to select which spells to prepare in advance, and their spell slots are comparable in

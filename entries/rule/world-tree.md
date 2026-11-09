@@ -6,12 +6,13 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "world_tree", path = "json/rules_campaign_types09.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "89"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Planar Adventures pg 89
 
 The Great Beyond has the River Styx as a planar pathway, whose twisting tributaries weave across the
 evil-aligned planes and, to a minor extent, beyond. What if there was only one way to travel between

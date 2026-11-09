@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vicarious_view", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "229"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Spell resistance: yes (object)
 Effect: magical sensor
 Subschool: Scrying
 :::
-
-**Sources:** Ultimate Intrigue pg 229
 
 You plant a scrying sensor on a touched creature, object, or point in space, allowing you to see and
 hear the creature, object, or point and its surroundings (approximately 10 feet in all directions).

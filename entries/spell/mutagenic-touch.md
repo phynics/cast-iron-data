@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mutagenic_touch", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "237"
 
 [fields]
 kind = "spell"
@@ -37,8 +40,6 @@ Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
 :::
-
-**Sources:** Ultimate Combat pg 237
 
 When you are under of the effects of your mutagen, you can cast this spell to safely pass it to
 another creature with a touch. You must make a successful touch attack against the target. On a hit,

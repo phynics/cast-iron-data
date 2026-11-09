@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "creation_and_control", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "235"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 235
 
 As explained in the [Psychic Duels](ref/rule/psychic-duels) section, a binary mindscape is created
 when two psychic creatures enter a mental confrontation. Only creatures able to cast the

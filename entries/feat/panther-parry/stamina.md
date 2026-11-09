@@ -6,11 +6,13 @@ source_ids = ["pathfinder-unchained"]
 relations = [
   { kind = "addon", target = "ref/feat/panther-parry", label = "stamina" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "128"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder Unchained pg 128\
 When your retaliatory strike damages an opponent, you can spend 5 stamina points to increase the
 penalty the target takes on attack and damage rolls to -4.

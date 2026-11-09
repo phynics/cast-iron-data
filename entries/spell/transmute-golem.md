@@ -6,6 +6,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "transmute_golem", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "22"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 Target: golem touched
 Subschool: Polymorph
 :::
-
-**Sources:** Arcane Anthology pg 22
 
 You turn one type of golem into another. The golem must be willing - it must be commanded to
 transform by its master or must be a creature able to make informed decisions that opts to submit to

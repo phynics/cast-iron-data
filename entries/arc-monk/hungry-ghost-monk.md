@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/monk" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "110"
 
 [fields]
 kind = "archetype"
 replaces = ["Stunning Fist", "Purity of body", "Wholeness of body", "Diamond body", "Diamond soul"]
 +++
 
-**Sources:** Advanced Player's Guide pg 110\
 The hungry ghost monk looks to spirits that prey upon the living as models of perfection. He sees
 the life energy of the universe as a resource to be manipulated, even stealing it from other
 creatures. It is through this constant influx of energy that the hungry ghost monk reaches his

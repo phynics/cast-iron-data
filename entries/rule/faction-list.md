@@ -6,12 +6,13 @@ source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "faction_list", path = "json/rules_subsystems01.json" },
 ]
+[[sources]]
+publication = "faction-guide"
+page = "5"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Faction Guide pg 5
 
 Following a brief overview of the faction, each entry explains the goals and the general alignment
 of the group; PCs who are part of the faction need not match this alignment precisely, but it serves

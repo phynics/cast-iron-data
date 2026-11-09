@@ -6,6 +6,9 @@ source_ids = ["rival-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "metamagic_gem_still_amber", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "rival-guide"
+page = "11"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "11th"
 
 ## Metamagic Gem
 
-**Sources:** Rival Guide pg 11\
 **Aura** strong (no school); **CL** 11th\
 **Slot** none; **Price** 1,000 gp (Enlarging Amethyst), 1,000 gp (Extending Garnet), 1,000 gp
 (Silent Spinel), 1,000 gp (Still Amber), 2,000 gp (Empowering Topaz), 4,000 gp (Maximizing

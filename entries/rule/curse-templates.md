@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "curse_templates", path = "json/rules_campaign_types02.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "143"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 143
 
 Some curses function in an unusual fashion compared to others. The following section presents
 several templates that can be applied to any curse to represent variants of that curse. These

@@ -6,14 +6,21 @@ source_ids = ["ultimate-equipment", "into-the-darklands", "adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rhoka_sword", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "20"
+[[sources]]
+publication = "into-the-darklands"
+page = "61"
+[[sources]]
+publication = "adventurers-armory"
+page = "4"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "6 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 20, Into the Darklands pg 61, Adventurer's Armory pg 4
 
 This sword is used almost exclusively by the life-hating [urdefhans](ref/monster/urdefhan). The
 sword is the size of a longsword but consists of two serrated blades placed side by side.

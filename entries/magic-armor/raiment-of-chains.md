@@ -6,6 +6,9 @@ source_ids = ["inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "raiment_of_chains", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "inner-sea-temples"
+page = "12"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Inner Sea Temples pg 12\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** armor; **Price** 6,250 gp; **Weight** 25 lbs.
 

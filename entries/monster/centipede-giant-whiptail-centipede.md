@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "centipede_giant_whiptail_centipede", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "53"
 
 [fields]
 kind = "creature"
@@ -39,7 +42,6 @@ _An elephantine centipede scurries about, its double tail lashing angrily behind
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 2 pg 53\
 **Type:** vermin
 
 **Experience points:** 800

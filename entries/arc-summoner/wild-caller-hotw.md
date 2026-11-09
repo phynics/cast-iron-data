@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/summoner" },
 ]
+[[sources]]
+publication = "heroes-of-the-wild"
+page = "25"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Aspect", "Greater aspect"]
 alters = ["Summon monster"]
 +++
 
-**Sources:** Heroes of the Wild pg 25\
 A wild caller summons creatures from the First World and forges a bond with an eidolon with a plant
 body.
 

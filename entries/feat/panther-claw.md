@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "panther_claw", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "112"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using Panther Style, you can spend a free action, instead of sp
 +++
 
 ## Panther Claw (Combat)
-
-**Sources:** Ultimate Combat pg 112
 
 You unleash a rapid series of blows on foes that attempt to attack you when you move.\
 **Prerequisites:** Wis 15, [Combat Reflexes](ref/feat/combat-reflexes),

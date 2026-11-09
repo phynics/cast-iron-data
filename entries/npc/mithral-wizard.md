@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mithral_wizard", path = "json/npcs6.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "221"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "19"
 
 **Challenge rating:** 19
 
-**Sources:** NPC Codex pg 221\
 **XP** 204,800\
 Human [fighter](ref/class/fighter) 2/evoker 8/eldritch knight 10\
 NE Medium humanoid (human)\

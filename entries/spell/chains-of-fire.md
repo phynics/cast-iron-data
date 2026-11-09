@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/chain-lightning" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "131"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes
 Targets: one primary target, plus one secondary target/level (each of which must be within 30 ft. of the primary target)
 Descriptors: fire
 :::
-
-**Sources:** Advanced Race Guide pg 131
 
 > _[Ifrits](ref/race/ifrit) have access to the following spell._
 

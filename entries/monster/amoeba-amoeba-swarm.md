@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "amoeba_amoeba_swarm", path = "json/monsters26.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "24"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ stink of rancid vinegar._
 
 **Perception:** -5
 
-**Sources:** Bestiary 2 pg 24\
 **Subtype:** Swarm
 
 **Experience points:** 400

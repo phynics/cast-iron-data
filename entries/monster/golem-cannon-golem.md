@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_cannon_golem", path = "json/monsters33.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "135"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ movement with mechanical precision._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 3 pg 135\
 **Experience points:** 51,200
 
 **Armor class:** 31/16/24

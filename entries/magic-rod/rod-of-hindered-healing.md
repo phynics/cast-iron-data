@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rod_of_hindered_healing", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "14"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Sources:** Magic Tactics Toolbox pg 14\
 **Aura** moderate necromancy; **CL** 7th\
 **Slot** none; **Price** 30,000 gp; **Weight** 4 lbs.
 

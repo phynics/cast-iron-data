@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hydraulic_torrent", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "229"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes
 Area: 60-ft. line
 Descriptors: water
 :::
-
-**Sources:** Advanced Player's Guide pg 229
 
 You call forth a powerful stream of water that batters all creatures and obstacles in its path until
 it strikes something it cannot push past. Against creatures and moveable objects this stream acts as

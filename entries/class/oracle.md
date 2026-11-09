@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide", "advanced-race-guide", "blood-of-the-bea
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oracle", path = "json/classes3.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "42"
 
 [fields]
 kind = "class"
@@ -13,8 +16,6 @@ class_type = "base"
 hit_die = "d8"
 skill_ranks = "4 + Int modifier"
 +++
-
-**Sources:** Advanced Player's Guide pg 42
 
 Although the gods work through many agents, perhaps none is more mysterious than the oracle. These
 divine vessels are granted power without their choice, selected by providence to wield powers that

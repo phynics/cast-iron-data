@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "adding_new_abilities", path = "json/rules_basics04.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "553"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 553
 
 Sometimes, lack of funds or time make it impossible for a magic item crafter to create the desired
 item from scratch. Fortunately, it is possible to enhance or build upon an existing magic item. Only

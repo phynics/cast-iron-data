@@ -6,6 +6,12 @@ source_ids = ["adventurers-guide", "inner-sea-world-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "goz_mask", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "185"
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "298"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Sources:** Adventurer's Guide pg 185, Inner Sea World Guide pg 298\
 **Aura** moderate transmutation; **CL** 8th\
 **Slot** head; **Price** 8,000 gp; **Weight** 1 lb.
 

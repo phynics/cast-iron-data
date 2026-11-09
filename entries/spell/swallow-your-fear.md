@@ -6,6 +6,9 @@ source_ids = ["pathfinder-35-war-of-the-river-kings", "inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swallow_your_fear", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "pathfinder-35-war-of-the-river-kings"
+page = "73"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: one creature plus one additional creature per four levels, no two of which can be more than 30 ft. apart
 :::
-
-**Sources:** Pathfinder \#35: War of the River Kings pg 73
 
 You make the affected subjects ready for battle despite their fear. If a target is suffering from a
 [fear effect](ref/rule/fear-conditions) of any kind, he gains a +2 morale bonus to Strength and

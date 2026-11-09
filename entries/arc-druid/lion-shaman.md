@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "103"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Woodland stride", "Wild shape", "Venom immunity"]
 alters = ["Nature bond", "Wild empathy"]
 +++
 
-**Sources:** Advanced Player's Guide pg 103\
 A shaman with this totem calls upon the proud lion, imposing and majestic, the mighty leader of
 deadly hunters.
 

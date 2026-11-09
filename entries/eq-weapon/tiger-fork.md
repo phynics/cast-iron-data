@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tiger_fork", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "19"
+[[sources]]
+publication = "ultimate-combat"
+page = "134"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "8 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 19, Ultimate Combat pg 134
 
 This long, [trident](ref/eq-weapon/trident)-like weapon consists of a three-pronged metal fork set
 upon an 8-foot-long shaft. It is wielded much like a staff, with the wielder grasping the shaft from

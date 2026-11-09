@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lizard_giant_frilled_lizard", path = "json/monsters16.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "194"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ extends around its neck._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 194\
 **Experience points:** 1,600
 
 **Armor class:** 18/10/17

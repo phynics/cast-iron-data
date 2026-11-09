@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "strategy_track", path = "json/rules_campaign_types05.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "239"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 239
 
 On the first Melee phase, the commander selects a strategy from one of five options on the strategy
 track. Strategies adjust the army's DV, OM, and damage modifier.

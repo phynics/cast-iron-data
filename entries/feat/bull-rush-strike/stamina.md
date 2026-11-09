@@ -6,12 +6,14 @@ source_ids = ["pathfinder-unchained"]
 relations = [
   { kind = "addon", target = "ref/feat/bull-rush-strike", label = "stamina" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "114"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder Unchained pg 114\
 When you fail to confirm a critical hit with a melee attack, you can spend 2 stamina points to
 attempt to bull rush the target anyway. If you do, reroll the confirmation roll to determine if the
 bull rush attempt exceeds the opponent's CMD. This reroll is only for the bull rush combat maneuver;

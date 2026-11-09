@@ -6,6 +6,9 @@ source_ids = ["pathfinder-78-city-of-locusts"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mournful_razor", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "pathfinder-78-city-of-locusts"
+page = "62"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong necromancy and transmutation"
 caster_level = "20th"
 +++
 
-**Sources:** Pathfinder \#78: City of Locusts pg 62\
 **Aura** strong necromancy and transmutation; **CL** 20th\
 **Slot** weapon; **Price** 182,308 gp; **Weight** 1 lb.
 

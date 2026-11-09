@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "errani_kamaki_gillmen", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "226"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Sources:** Inner Sea Races pg 226\
 **Aura** moderate transmutation; **CL** 10th\
 **Slot** none; **Price** 35,005 gp; **Weight** 16 lbs.
 

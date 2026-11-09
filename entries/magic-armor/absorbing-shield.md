@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "absorbing_shield", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "130"
+[[sources]]
+publication = "core-rulebook"
+page = "467"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong transmutation"
 caster_level = "17th"
 +++
 
-**Sources:** Ultimate Equipment pg 130, PRPG Core Rulebook pg 467\
 **Aura** strong transmutation; **CL** 17th\
 **Slot** shield; **Price** 50,170 gp; **Weight** 15 lbs.
 

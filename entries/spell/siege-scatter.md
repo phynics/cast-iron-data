@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "siege_scatter", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "223"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: yes
 Area: 50-ft.-radius spread
 Descriptors: earth
 :::
-
-**Sources:** Inner Sea Races pg 223
 
 > _The following spell is available to the indicated race or ethnicity: [Dwarf](ref/race/dwarf)_
 

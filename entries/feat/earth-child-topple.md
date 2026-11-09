@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "earth_child_topple", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "99"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "You can trip only those opponents that are one size category larger th
 +++
 
 ## Earth Child Topple (Combat)
-
-**Sources:** Ultimate Combat pg 99
 
 Your mastery of balance and momentum allows you to bring down giants with your bare hands.\
 **Prerequisites:** Wis 13, [dwarf](ref/race/dwarf) or [gnome](ref/race/gnome), defensive training

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/feather-step" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "221"
 
 [fields]
 kind = "spell"
@@ -46,7 +49,5 @@ Spell resistance: yes
 :::
 
 ### Mass Feather Step
-
-**Sources:** Advanced Player's Guide pg 221
 
 As [feather step](ref/spell/feather-step), except this spell affects multiple creatures.

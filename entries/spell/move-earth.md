@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "move_earth", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "316"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: no
 Area: dirt in an area up to 750 ft. square and up to 10 ft. deep (S)
 Descriptors: earth
 :::
-
-**Sources:** PRPG Core Rulebook pg 316
 
 Move earth moves dirt (clay, loam, sand, and soil), possibly collapsing embankments, moving
 hillocks, shifting dunes, and so forth.

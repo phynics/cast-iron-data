@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "illusions", path = "json/rules_adv_gm03.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "158"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 158
 
 Illusions are a staple of fantasy, and there are two main things to consider when adjudicating them
 at all levels of play: first, the different subschools of illusion, and second, disbelief and

@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/polar-ray", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "103"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 103\
 The damage dealt increases to 1d8 points of cold damage per caster level (maximum 25d8) and 1d6
 points of Dexterity drain. If the target takes damage from this spell, it becomes partially encased
 in ice, reducing its speed by half. Creatures with the cold or incorporeal subtypes or immunity to

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-29-mother-of-flies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quieting_needles", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "pathfinder-29-mother-of-flies"
+page = "12"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "25 gp"
 weight = "-"
 +++
 
-**Sources:** Pathfinder \#29: Mother of Flies pg 12\
 **Price** 25 gp; **Weight** -\
 **Category** Black Market
 

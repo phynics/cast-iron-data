@@ -6,6 +6,9 @@ source_ids = ["cheliax-empire-of-devils"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cornugon_stun", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "cheliax-empire-of-devils"
+page = "26"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "You can only use Stunning Fist when making an attack with an unarmed s
 +++
 
 ## Cornugon Stun (Combat)
-
-**Sources:** Cheliax, Empire of Devils pg 26
 
 You are able to make stunning attacks with special monk weapons.\
 **Prerequisites:** [Stunning Fist](ref/feat/stunning-fist).\

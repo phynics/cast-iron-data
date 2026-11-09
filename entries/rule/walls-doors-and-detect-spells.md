@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "walls_doors_and_detect_spells", path = "json/rules_gm08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "415"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 415
 
 Stone walls, iron walls, and iron doors are usually thick enough to block most detect spells, such
 as [detect thoughts](ref/spell/detect-thoughts). Wooden walls, wooden doors, and stone doors are

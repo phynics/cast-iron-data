@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hollow_soul", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "29"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "As a move action, you can enter a state of emotional and spiritual ho
 +++
 
 ## Hollow Soul (Conduit)
-
-**Sources:** Planar Adventures pg 29
 
 You can temporarily replace your soul with a fragment of the all-consuming void of Abaddon.\
 **Prerequisites:** Knowledge (planes) 9 ranks.\

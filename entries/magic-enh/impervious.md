@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "impervious", path = "json/magic_enhancements2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "144"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "7th"
 
 ## Impervious
 
-**Sources:** Ultimate Equipment pg 144\
 **Aura** moderate transmutation; **CL** 7th\
 **Slot** weapon quality; **Price** +3,000 gp; **Weight** -
 

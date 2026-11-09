@@ -6,6 +6,12 @@ source_ids = ["book-of-the-damned", "book-of-the-damned-volume-3-horsemen-of-the
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hydrodaemon_runestone", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "197"
+[[sources]]
+publication = "book-of-the-damned-volume-3-horsemen-of-the-apocalypse"
+page = "41"
 
 [fields]
 kind = "item"
@@ -17,8 +23,6 @@ aura = "moderate conjuration [evil]"
 caster_level = "11th"
 +++
 
-**Sources:** Book of the Damned pg 197, Book of the Damned - Volume 3: Horsemen of the Apocalypse pg
-41\
 **Aura** moderate conjuration \[evil\]; **CL** 11th\
 **Slot** none; **Price** 3,300 gp; **Weight** -
 

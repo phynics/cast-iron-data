@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dust_form", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "228"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: no
 Target: you
 Subschool: Polymorph
 :::
-
-**Sources:** Ultimate Combat pg 228
 
 Upon casting this spell, you keep your relative form, but you and your equipment become composed
 entirely of dust. While in this dust form, you take no penalties for squeezing, and can move through

@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tetsubo", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "21"
+[[sources]]
+publication = "ultimate-combat"
+page = "134"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "10 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 21, Ultimate Combat pg 134
 
 A slight improvement over the [greatclub](ref/eq-weapon/greatclub), this weapon consists of a long,
 slender length of wood or metal whose upper half is shod with a thick sheet of studded iron. The

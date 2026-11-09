@@ -6,6 +6,12 @@ source_ids = ["inner-sea-intrigue", "pathfinder-16-endless-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "recorporeal_incarnation", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "61"
+[[sources]]
+publication = "pathfinder-16-endless-night"
+page = "10"
 
 [fields]
 kind = "spell"
@@ -39,8 +45,6 @@ Saving throw: none
 Spell resistance: no
 Target: one willing living creature and one humanoid corpse
 :::
-
-**Sources:** Inner Sea Intrigue pg 61, Pathfinder \#16: Endless Night pg 10
 
 Recorporeal incarnation effectively replaces the target living creature's body with that of the
 target corpse. The target corpse must be fresh - either dead for no more than 24 hours or

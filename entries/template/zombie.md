@@ -6,6 +6,9 @@ source_ids = ["bestiary", "horror-realms", "classic-horrors-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "zombie", path = "json/monster_template4.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "288"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** Varies
-
-**Source:** Pathfinder RPG Bestiary/288
 
 Zombies are the animated corpses of dead creatures, forced into foul unlife via necromantic magic
 like [animate dead](ref/spell/animate-dead). While the most commonly encountered zombies are slow

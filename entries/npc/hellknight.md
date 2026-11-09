@@ -6,6 +6,9 @@ source_ids = ["inner-sea-npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hellknight", path = "json/npcs3.json" },
 ]
+[[sources]]
+publication = "inner-sea-npc-codex"
+page = "30"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "10"
 
 **Challenge rating:** 10
 
-**Sources:** Inner Sea NPC Codex pg 30\
 **XP** 9,600\
 Human [fighter](ref/class/fighter) 5/Hellknight 6\
 LN Medium humanoid (human)\

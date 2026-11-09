@@ -6,12 +6,13 @@ source_ids = ["occult-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "idols", path = "json/rules_rulesets01.json" },
 ]
+[[sources]]
+publication = "occult-realms"
+page = "60"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Realms pg 60
 
 A strange amalgamation of magic item and minor deity, an idol is a self-aware object that possesses
 extraordinary power. Its influence waxes and wanes with the success or decline of its cult and the

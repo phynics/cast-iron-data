@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phasic_challenge", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "6"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: Will negates; see text
 Spell resistance: yes
 Targets: two creatures within 60 feet of one another; see text
 :::
-
-**Sources:** Magic Tactics Toolbox pg 6
 
 You select one enemy and one willing ally as targets. The enemy gains a new Will saving throw at the
 beginning of each turn, and on a successful saving throw the spell ends. Both targets remain visible

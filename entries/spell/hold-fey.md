@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/hold-person" },
 ]
+[[sources]]
+publication = "the-first-world-realm-of-the-fey"
+page = "12"
 
 [fields]
 kind = "spell"
@@ -62,8 +65,6 @@ Descriptors: mind-affecting
 :::
 
 ### Hold Fey
-
-**Sources:** The First World, Realm of the Fey pg 12
 
 This spell functions as per [hold person](ref/spell/hold-person), except it affects a fey instead of
 a humanoid.

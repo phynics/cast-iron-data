@@ -6,6 +6,9 @@ source_ids = ["antiheros-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_bluff_ah", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "antiheros-handbook"
+page = "10"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "When an ally who also has this feat fails her saving throw (including
 +++
 
 ## Spell Bluff (AH) (Teamwork)
-
-**Sources:** Antihero's Handbook pg 10
 
 When your ally is in the area of effect of a harmful spell, your foes are caught off guard.\
 **Benefit:** When an ally who also has this feat fails her saving throw (including voluntarily

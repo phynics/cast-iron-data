@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "pathfinder-society-primer", "seekers-of-secrets"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ioun_stone", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "520"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong varied"
 caster_level = "12th"
 +++
 
-**Sources:** PRPG Core Rulebook pg 520\
 **Aura** strong varied; **CL** 12th\
 **Slot** none; **Price** varies; **Weight** -
 

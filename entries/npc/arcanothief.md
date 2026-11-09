@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcanothief", path = "json/npcs7.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "205"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "12"
 
 **Challenge rating:** 12
 
-**Sources:** NPC Codex pg 205\
 **XP** 19,200\
 Halfling [rogue](ref/class/rogue) 4/[sorcerer](ref/class/sorcerer) 5/arcane trickster 4\
 N Small humanoid (halfling)\

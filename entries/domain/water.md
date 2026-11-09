@@ -6,13 +6,14 @@ source_ids = ["core-rulebook", "book-of-the-damned", "goblins-of-golarion", "inn
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "water", path = "json/class_ability_domains3.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "48"
 
 [fields]
 kind = "class_option"
 group = "cleric-domain"
 +++
-
-**Sources:** PRPG Core Rulebook pg 48
 
 **Granted Powers:** You can manipulate water and mist and ice, conjure creatures of water, and
 resist cold.

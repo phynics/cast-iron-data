@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unfettered_phantom", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "190"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _This strange ghostly creature seems to writhe in the throes of some uncontrolla
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 5 pg 190\
 **Subtype:** Phantom
 
 **Experience points:** 1,200

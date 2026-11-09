@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "janni_rush", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "106"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using Janni Style, you are always considered to have a running 
 +++
 
 ## Janni Rush (Combat)
-
-**Sources:** Ultimate Combat pg 106
 
 When you leap to the attack, your blows are like bolts from on high.\
 **Prerequisites:** [Improved Unarmed Strike](ref/feat/improved-unarmed-strike),

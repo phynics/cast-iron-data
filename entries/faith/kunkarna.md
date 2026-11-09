@@ -6,6 +6,9 @@ source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kunkarna", path = "json/faiths5.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "130"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Kunkarna**
 
 **Sub:** The Dream Warrior
-
-**Sources:** Book of the Damned pg 130
 
 ### Details
 

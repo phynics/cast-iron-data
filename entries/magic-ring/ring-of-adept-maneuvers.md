@@ -6,6 +6,9 @@ source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_adept_maneuvers", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "62"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Inner Sea Combat pg 62\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** ring; **Price** 15,000 gp; **Weight** -
 

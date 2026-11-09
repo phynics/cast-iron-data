@@ -6,6 +6,9 @@ source_ids = ["gnomes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "threatening_illusion", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "gnomes-of-golarion"
+page = "27"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You can use this metamagic feat only on illusion (figment) spells."
 +++
 
 ## Threatening Illusion (Metamagic)
-
-**Sources:** Gnomes of Golarion pg 27
 
 You've mastered the art of making illusions that force foes to divide their attention in combat.\
 **Prerequisites:** [Spell Focus](ref/feat/spell-focus) (illusion), [Gnome](ref/race/gnome).\

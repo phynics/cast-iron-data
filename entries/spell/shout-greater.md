@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/shout" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "343"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Descriptors: sonic
 :::
 
 ### Greater Shout
-
-**Sources:** PRPG Core Rulebook pg 343
 
 This spell functions like [shout](ref/spell/shout), except that the cone deals 10d6 points of sonic
 damage (or 1d6 points of sonic damage per caster level, maximum 20d6, against exposed brittle or

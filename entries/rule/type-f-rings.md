@@ -6,12 +6,13 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "type_f_rings", path = "json/rules_adv_gm07.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "166-167"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Equipment pg. 166-167
 
 ### Table 4-1: Rings
 

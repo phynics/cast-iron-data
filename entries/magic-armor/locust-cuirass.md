@@ -6,6 +6,9 @@ source_ids = ["pathfinder-81-shifting-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "locust_cuirass", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "pathfinder-81-shifting-sands"
+page = "58"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "6th"
 +++
 
-**Sources:** Pathfinder \#81: Shifting Sands pg 58\
 **Aura** moderate conjuration; **CL** 6th\
 **Slot** armor; **Price** 6,565 gp; **Weight** 8 lbs.
 

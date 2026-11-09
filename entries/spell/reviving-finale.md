@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reviving_finale", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "239"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Spell resistance: yes (harmless)
 Area: a 20-ft.-radius burst centered on you
 Subschool: Healing
 :::
-
-**Sources:** Advanced Player's Guide pg 239
 
 You must have a bardic performance in effect to cast this spell. With a flourish, you immediately
 end your bardic performance, and allies within the area of the spell regain 2d6 hit points. This

@@ -6,6 +6,9 @@ source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snakebite", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "agents-of-evil"
+page = "27"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy and transmutation"
 caster_level = "9th"
 +++
 
-**Sources:** Agents of Evil pg 27\
 **Aura** moderate necromancy and transmutation; **CL** 9th\
 **Slot** none; **Price** 57,320 gp; **Weight** 2 lbs.
 

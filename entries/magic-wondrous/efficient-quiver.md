@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "efficient_quiver", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "294"
+[[sources]]
+publication = "core-rulebook"
+page = "511"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Sources:** Ultimate Equipment pg 294, PRPG Core Rulebook pg 511\
 **Aura** moderate conjuration; **CL** 9th\
 **Slot** none; **Price** 1,800 gp; **Weight** 2 lbs.
 

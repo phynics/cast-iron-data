@@ -6,12 +6,14 @@ source_ids = ["blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grand_coven", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "blood-of-the-coven"
+page = "24"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Blood of the Coven pg 24\
 **School** enchantment; **Level** 5\
 **Casting Time** 50 minutes\
 **Components** V, S, M (elderberry wine and secret herbs worth 100 gp per caster), SC (up to 12; see

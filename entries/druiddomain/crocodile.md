@@ -6,6 +6,9 @@ source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crocodile", path = "json/class_ability_druid_domains.json" },
 ]
+[[sources]]
+publication = "faiths-and-philosophies"
+page = "24"
 
 [fields]
 kind = "class_option"
@@ -13,8 +16,6 @@ group = "druid-domain"
 +++
 
 ## Crocodile Domain
-
-**Sources:** Faiths and Philosophies pg 24
 
 **Granted Powers:** You are connected with the primal forces of creation and destruction and with
 the crocodile spirit's ancient wisdom.

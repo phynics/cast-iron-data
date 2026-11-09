@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dog_rider", path = "json/npcs7.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "11"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "3"
 
 **Challenge rating:** 3
 
-**Sources:** NPC Codex pg 11\
 **XP** 800\
 Halfling [barbarian](ref/class/barbarian) 4\
 N Small humanoid (halfling)\

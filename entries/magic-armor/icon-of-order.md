@@ -6,6 +6,9 @@ source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "icon_of_order", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "divine-anthology"
+page = "6"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "9th"
 +++
 
-**Sources:** Divine Anthology pg 6\
 **Aura** moderate abjuration; **CL** 9th\
 **Slot** shield; **Price** 26,170 gp; **Weight** 15 lbs.
 

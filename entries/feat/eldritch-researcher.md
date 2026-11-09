@@ -6,6 +6,9 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eldritch_researcher", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "68"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "For a self-created spell to benefit from this feat, it must be a trul
 +++
 
 ## Eldritch Researcher (Story)
-
-**Sources:** Ultimate Campaign pg 68
 
 You seek new applications for magical energy.\
 **Prerequisites:** You must have created a new spell, or have

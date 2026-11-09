@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shatterspell", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "18"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "As a standard action, you can attempt to sunder an ongoing spell effe
 +++
 
 ## Shatterspell (Combat)
-
-**Sources:** Advanced Race Guide pg 18
 
 Your mighty blows shatter your enemy's magic.\
 **Prerequisites:** [Disruptive](ref/feat/disruptive), [Spellbreaker](ref/feat/spellbreaker),

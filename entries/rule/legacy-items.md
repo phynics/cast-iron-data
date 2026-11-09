@@ -6,12 +6,13 @@ source_ids = ["chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "legacy_items", path = "json/rules_opt_magic02.json" },
 ]
+[[sources]]
+publication = "chronicle-of-legends"
+page = "20"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Chronicle of Legends pg 20
 
 Whether members of professionally acquisitive organizations such as the
 [Pathfinder Society](ref/rule/aff-scholars) or simply amateur treasure hunters, adventurers dream of

@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "intelligent_animals", path = "json/rules_adv_pc01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "143"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 143
 
 Increasing an animal's Intelligence to 3 or higher means it is smart enough to understand a
 language. However, unless an [awaken](ref/spell/awaken) spell is used, the animal doesn't

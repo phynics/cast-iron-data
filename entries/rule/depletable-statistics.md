@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "depletable_statistics", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "135"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 135
 
 Depletable statistics are any values in a creature or object's stat block that can be reduced by
 some form of attack and that can neutralize, kill, or destroy the creature or object when they reach

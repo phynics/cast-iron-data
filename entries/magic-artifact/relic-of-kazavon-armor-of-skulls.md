@@ -6,6 +6,12 @@ source_ids = ["artifacts-and-legends", "pathfinder-12-crown-of-fangs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "relic_of_kazavon_armor_of_skulls", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "artifacts-and-legends"
+page = "36"
+[[sources]]
+publication = "pathfinder-12-crown-of-fangs"
+page = "63"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong abjuration and transmutation"
 caster_level = "20th"
 +++
 
-**Sources:** Artifacts and Legends pg 36, Pathfinder \#12: Crown of Fangs pg 63\
 **Aura** strong abjuration and transmutation; **CL** 20th\
 **Slot** armor; **Price** -; **Weight** 30 lbs.
 

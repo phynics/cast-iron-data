@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boots_of_friendly_terrain", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "228"
+[[sources]]
+publication = "advanced-players-guide"
+page = "3300"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Equipment pg 228, Advanced Player's Guide pg 3300\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** feet; **Price** 2,400 gp; **Weight** 1 lb.
 

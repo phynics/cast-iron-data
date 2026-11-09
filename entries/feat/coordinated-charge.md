@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "coordinated_charge", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "92"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When an ally with this feat charges a creature that is no further awa
 +++
 
 ## Coordinated Charge (Combat, Teamwork)
-
-**Sources:** Ultimate Combat pg 92
 
 You are an expert at leading your allies into the fray.\
 **Prerequisites:** You have at least two other teamwork feats, base attack bonus +10.\

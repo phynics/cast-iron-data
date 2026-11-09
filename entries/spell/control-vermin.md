@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "control_vermin", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "45"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Saving throw: Will negates
 Spell resistance: no
 Target: up to 1 HD/level of vermin, no two of which can be more than 30 ft. apart
 :::
-
-**Sources:** Monster Codex pg 45
 
 You and a number of allies less than or equal to your caster level designated upon casting can use
 Handle Animal and Ride checks to influence or control the targeted vermin as if they were animals

@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spellguard_bracers", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "275"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration"
 caster_level = "4th"
 +++
 
-**Sources:** Ultimate Equipment pg 275\
 **Aura** faint abjuration; **CL** 4th\
 **Slot** wrists; **Price** 5,000 gp; **Weight** 1 lb.
 

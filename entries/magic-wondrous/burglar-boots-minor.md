@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burglar_boots_minor", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "230"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "1st (minor), 10th (major)"
 
 ## Burglar Boots
 
-**Sources:** Ultimate Equipment pg 230\
 **Aura** faint (minor) or moderate (major) divination; **CL** 1st (minor), 10th (major)\
 **Slot** feet; **Price** 4,000 gp (minor), 46,000 gp (major); **Weight** 1/2 lb.
 

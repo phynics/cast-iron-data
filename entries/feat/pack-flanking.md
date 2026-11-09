@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pack_flanking", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "153"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "You must be positioned opposite an ally to flank an opponent."
 +++
 
 ## Pack Flanking (Teamwork)
-
-**Sources:** Advanced Class Guide pg 153
 
 You and your companion creature are adept at fighting together against foes.\
 **Prerequisites:** Int 13, [Combat Expertise](ref/feat/combat-expertise), ability to acquire an

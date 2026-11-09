@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "carnival-of-tears"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cold_rider", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "59"
+[[sources]]
+publication = "carnival-of-tears"
+page = "29"
 
 [fields]
 kind = "creature"
@@ -41,7 +47,6 @@ _Jagged, twisting antlers of dark blue ice crown the helm of this ice-armored hu
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 3 pg 59, Carnival of Tears pg 29\
 **Subtype:** Cold
 
 **Experience points:** 4,800

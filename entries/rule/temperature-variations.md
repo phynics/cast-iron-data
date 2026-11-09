@@ -6,12 +6,13 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "temperature_variations", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "166"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Wilderness pg 166
 
 Weather is constantly changing, and a significant aspect of that change is the temperature. For the
 purposes of this system, it's easiest to assume that the daily temperature remains relatively static

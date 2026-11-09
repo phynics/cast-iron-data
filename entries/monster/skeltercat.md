@@ -6,6 +6,9 @@ source_ids = ["pathfinder-92-the-hill-giants-pledge"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skeltercat", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "pathfinder-92-the-hill-giants-pledge"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ much more muscular and carries itself with a strange posture._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Pathfinder \#92: The Hill Giant's Pledge pg 90\
 **Subtype:** Shapechanger
 
 **Experience points:** 1,200

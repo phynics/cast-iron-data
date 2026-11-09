@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "pathfinder-22-the-end-of-eternity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "div_ghawwas", path = "json/monsters08.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "87"
+[[sources]]
+publication = "pathfinder-22-the-end-of-eternity"
+page = "80"
 
 [fields]
 kind = "creature"
@@ -45,7 +51,6 @@ emerged from some poisoned sea._
 
 **Senses:** Darkvision 60 ft., Detect good, Detect magic, See in darkness
 
-**Sources:** Bestiary 3 pg 87, Pathfinder \#22: The End of Eternity pg 80\
 **Subtype:** Aquatic, Div, Evil, Extraplanar
 
 **Experience points:** 9,600

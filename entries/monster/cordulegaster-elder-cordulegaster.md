@@ -6,6 +6,9 @@ source_ids = ["pathfinder-98-turn-of-the-torrent"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cordulegaster_elder_cordulegaster", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "pathfinder-98-turn-of-the-torrent"
+page = "83"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ _The insectile eyes of this chitin-covered daemonic monstrosity display a malign
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#98: Turn of the Torrent pg 83\
 **Subtype:** Aquatic, Daemon, Evil, Extraplanar
 
 **Experience points:** 3,200

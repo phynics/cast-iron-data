@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "pathfinder-74-sword-of-valor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vescavor_queen", path = "json/monsters40.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "266"
+[[sources]]
+publication = "pathfinder-74-sword-of-valor"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -47,7 +53,6 @@ noxious slime._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 5 pg 266, Pathfinder \#74: Sword of Valor pg 90\
 **Subtype:** Chaotic, Evil, Extraplanar
 
 **Experience points:** 6,400

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "critical_mastery", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "120"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ normal = "You can only apply the effects of one critical feat to a given critica
 +++
 
 ## Critical Mastery (Combat, Critical)
-
-**Sources:** PRPG Core Rulebook pg 120
 
 Your critical hits cause two additional effects.\
 **Prerequisites:** [Critical Focus](ref/feat/critical-focus), any two critical feats, 14th-level

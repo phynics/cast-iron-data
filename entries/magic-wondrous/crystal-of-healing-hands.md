@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crystal_of_healing_hands", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "257"
+[[sources]]
+publication = "advanced-players-guide"
+page = "303"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate conjuration"
 caster_level = "10th"
 +++
 
-**Sources:** Ultimate Equipment pg 257, Advanced Player's Guide pg 303\
 **Aura** moderate conjuration; **CL** 10th\
 **Slot** neck; **Price** 12,000 gp; **Weight** 1 lb.
 

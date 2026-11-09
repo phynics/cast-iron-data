@@ -6,6 +6,9 @@ source_ids = ["pathfinder-society-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tactical_miscalculation", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "pathfinder-society-primer"
+page = "15"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: emotion, mind-affecting
 :::
-
-**Sources:** Pathfinder Society Primer pg 15
 
 The target becomes fixated on avoiding damage and fails to spot even the most opportune moments to
 attack. Whenever a creature the target threatens would provoke an attack of opportunity from the

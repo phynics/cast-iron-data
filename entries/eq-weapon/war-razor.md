@@ -6,15 +6,27 @@ source_ids = ["book-of-the-damned", "rise-of-the-runelords-players-guide", "path
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "war_razor", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "93"
+[[sources]]
+publication = "rise-of-the-runelords-players-guide"
+page = "11"
+[[sources]]
+publication = "pathfinder-campaign-setting"
+page = "209"
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "290"
+[[sources]]
+publication = "adventurers-armory"
+page = "0"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "1 lb."
 +++
-
-**Sources:** Book of the Damned pg 93, Rise of the Runelords Player's Guide pg 11, Pathfinder
-Campaign Setting pg 209, Inner Sea World Guide pg 290, Adventurer's Armory pg 0
 
 To all appearances, a war razor is an oversized razor or flip knife. Since the razor folds into the
 handle, no sheath is required, making the weapon easy to hide and thus granting the wielder a +2

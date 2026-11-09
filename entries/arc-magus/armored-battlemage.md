@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/magus" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "4"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Spell combat", "Magus arcana gained at 3rd and 18th levels", "impro
 alters = ["Medium armor", "Arcane pool", "Heavy armor"]
 +++
 
-**Sources:** Armor Master's Handbook pg 4\
 Though it hasn't been at war with its southern neighbor for centuries, Nex continues to train
 battlemages at its arcane schools in Ecanus. Many battlemages focus purely on destructive
 evocations, but some extend their tactical studies to include use of the tried-and-true protection

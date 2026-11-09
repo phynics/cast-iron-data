@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cost_of_living", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "405"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 405
 
 An adventurer's primary source of income is treasure, and his primary purchases are tools and items
 he needs to continue adventuring - spell components, weapons, magic items, potions, and the like.

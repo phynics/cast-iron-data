@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "musketeers_dodge", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "56"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you use the gunslinger's dodge deed to move, the movement grante
 +++
 
 ## Musketeer's Dodge (Combat, Grit)
-
-**Sources:** Villain Codex pg 56
 
 You dodge ranged attacks with greater proficiency than most.\
 **Prerequisites:** [Exotic Weapon Proficiency](ref/feat/exotic-weapon-proficiency) (firearms),

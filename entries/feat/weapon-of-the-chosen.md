@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weapon_of_the_chosen", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "159"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "As a swift action, you can call upon your deity to guide an attack yo
 +++
 
 ## Weapon of the Chosen (Combat)
-
-**Sources:** Advanced Class Guide pg 159
 
 The influence of your deity guides your favored weapon.\
 **Prerequisites:** [Weapon Focus](ref/feat/weapon-focus) with deity's favored weapon, must worship

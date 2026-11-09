@@ -6,6 +6,15 @@ source_ids = ["bestiary-3", "pathfinder-31-stolen-land", "hollows-last-hope"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tatzlwyrm", path = "json/monsters23.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "261"
+[[sources]]
+publication = "pathfinder-31-stolen-land"
+page = "82"
+[[sources]]
+publication = "hollows-last-hope"
+page = "18"
 
 [fields]
 kind = "creature"
@@ -42,7 +51,6 @@ end in tiny claws._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 3 pg 261, Pathfinder \#31: Stolen Land pg 82, Hollow's Last Hope pg 18\
 **Experience points:** 600
 
 **Armor class:** 15/12/13

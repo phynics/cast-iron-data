@@ -6,6 +6,9 @@ source_ids = ["demon-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "firework_holy_fountain", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "demon-hunters-handbook"
+page = "18"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "110 gp"
 weight = "1 lb."
 +++
 
-**Sources:** Demon Hunter's Handbook pg 18\
 **Price** 110 gp; **Weight** 1 lb.\
 **Category** Alchemical Weapons
 

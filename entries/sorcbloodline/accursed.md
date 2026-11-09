@@ -6,13 +6,15 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "accursed", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "66"
 
 [fields]
 kind = "class_option"
 group = "sorcerer-bloodline"
 +++
 
-**Sources:** Ultimate Magic pg 66\
 Misfortune, pestilence, and nightmares follow your family like vermin drawn to carrion. Somewhere in
 your family history, a [hag's](ref/family/hag) foul influence entered your bloodline. You may
 actually be related to the hag, or you may still be suffering the effects of a curse that a hag laid

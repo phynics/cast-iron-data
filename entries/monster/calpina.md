@@ -6,6 +6,12 @@ source_ids = ["bestiary-6", "pathfinder-95-anvil-of-fire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "calpina", path = "json/monsters04.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "53"
+[[sources]]
+publication = "pathfinder-95-anvil-of-fire"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ resembles a proboscis._
 
 **Size:** small
 
-**Sources:** Bestiary 6 pg 53, Pathfinder \#95: Anvil of Fire pg 82\
 **Experience points:** 800
 
 **Armor class:** 16/14/13

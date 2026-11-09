@@ -6,14 +6,16 @@ source_ids = ["bestiary-5", "bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aeon", path = "json/monster_subtypes.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+[[sources]]
+publication = "bestiary-2"
 
 [fields]
 kind = "none"
 +++
 
 ## Subtype: Aeon
-
-**Sources:** Bestiary 5, Bestiary 2
 
 [Aeons](ref/family/aeon) are a race of neutral outsiders who roam the planes maintaining the balance
 of reality. Aeons have the following traits.

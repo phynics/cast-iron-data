@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "support", path = "json/rules_adv_gm03.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "237"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 237
 
 These magical benefits protect, heal, or improve the abilities of the monster or its allies.
 

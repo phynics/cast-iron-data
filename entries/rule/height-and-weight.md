@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "height_and_weight", path = "json/rules_basics01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "169"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 169
 
 To determine a character's height, roll the modifier dice indicated on Table 7-3 and add the result,
 in inches, to the base height for your character's race and gender. To determine a character's

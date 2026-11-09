@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "misdirection", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "314"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Target: one creature or object, up to a 10-ft. cube in size
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** PRPG Core Rulebook pg 314
 
 By means of this spell, you misdirect the information from divination spells that reveal auras
 ([detect evil](ref/spell/detect-evil), [detect magic](ref/spell/detect-magic),

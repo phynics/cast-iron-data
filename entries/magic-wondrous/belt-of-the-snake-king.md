@@ -6,6 +6,15 @@ source_ids = ["inner-sea-gods", "pathfinder-42-sanctum-of-the-serpent-god", "god
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "belt_of_the_snake_king", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "260"
+[[sources]]
+publication = "pathfinder-42-sanctum-of-the-serpent-god"
+page = "28"
+[[sources]]
+publication = "gods-and-magic"
+page = "54"
 
 [fields]
 kind = "item"
@@ -17,8 +26,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Inner Sea Gods pg 260, Pathfinder \#42: Sanctum of the Serpent God pg 28, Gods and
-Magic pg 54\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** belt; **Price** 2,600 gp; **Weight** 1 lb.
 

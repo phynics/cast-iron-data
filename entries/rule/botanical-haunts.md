@@ -6,12 +6,13 @@ source_ids = ["pathfinder-144-midwives-to-death"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "botanical_haunts", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "pathfinder-144-midwives-to-death"
+page = "65"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder \#144: Midwives to Death pg 65
 
 Botanical haunts are masses of vegetation that work as a single entity to fight against invaders in
 their territory. Their animating force typically originates from vengeful nature spirits, such as a

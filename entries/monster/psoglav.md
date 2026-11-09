@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psoglav", path = "json/monsters37.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "215"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ thin, rat-like tail twitches behind it._
 
 **Senses:** Scent, See in darkness
 
-**Sources:** Bestiary 6 pg 215\
 **Experience points:** 25,600
 
 **Armor class:** 28/19/19

@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcane_concordance", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "203"
 
 [fields]
 kind = "spell"
@@ -37,8 +40,6 @@ Saving throw: none
 Spell resistance: no
 Area: 10-ft.-radius emanation centered on you
 :::
-
-**Sources:** Advanced Player's Guide pg 203
 
 A shimmering, blue and gold radiance surrounds you, enhancing arcane spells cast by your allies
 within its area. Any arcane spell cast by a creature within the area gains a +1 enhancement bonus to

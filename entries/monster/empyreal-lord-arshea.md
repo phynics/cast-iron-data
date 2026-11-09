@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "empyreal_lord_arshea", path = "json/monsters_unique4.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "110"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ _Blue-gray wings extend over the jeweled bangles and gossamer veils of this andr
 
 **Senses:** Darkvision 60 ft., Detect evil, Low-light vision, True seeing
 
-**Sources:** Bestiary 6 pg 110\
 **Subtype:** Angel, Extraplanar, Good
 
 **Experience points:** 6,553,600

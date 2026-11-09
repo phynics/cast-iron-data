@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thumbscrews_common", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "212"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "1 lb. (common), 1 lb. (masterwork)"
 
 ## Thumbscrews
 
-**Sources:** Horror Adventures pg 212\
 **Price** 15 gp (common), 50 gp (masterwork); **Weight** 1 lb. (common), 1 lb. (masterwork)
 
 Both a torture and restraining device, this small, metal armature consists of two parallel,

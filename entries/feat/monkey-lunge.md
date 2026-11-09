@@ -6,6 +6,9 @@ source_ids = ["sargava-the-lost-colony"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monkey_lunge", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "sargava-the-lost-colony"
+page = "24"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "You take a -2 penalty to your AC until your next turn when making a lu
 +++
 
 ## Monkey Lunge (Combat)
-
-**Sources:** Sargava, the Lost Colony pg 24
 
 You can quickly recover from your lunges, helping you to avoid counterattacks.\
 **Prerequisites:** [Lunge](ref/feat/lunge), Acrobatics 1 rank.\

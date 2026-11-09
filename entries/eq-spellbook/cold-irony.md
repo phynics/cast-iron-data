@@ -6,6 +6,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cold_irony", path = "json/equipment_spellbooks.json" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "24"
 
 [fields]
 kind = "item"
@@ -18,8 +21,6 @@ _Bound in thin sheets of iron, this book is designed as a series of treatises on
 information gathering, and rhetoric. The thoughts and notes are so complete as to qualify as a
 spellbook for the spells listed, despite the fact the author was a bard with no need for a
 spellbook._
-
-**Sources:** Arcane Anthology pg 24
 
 **Value** 2,420 gp (2,795 gp with the preparation ritual)
 

@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghost_touch_weapon", path = "json/magic_enhancements.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "142"
+[[sources]]
+publication = "core-rulebook"
+page = "469"
 
 [fields]
 kind = "item"
@@ -19,7 +25,6 @@ caster_level = "9th"
 
 ## Ghost Touch
 
-**Sources:** Ultimate Equipment pg 142, PRPG Core Rulebook pg 469\
 **Aura** moderate conjuration; **CL** 9th\
 **Slot** weapon quality; **Price** +1 bonus; **Weight** -
 

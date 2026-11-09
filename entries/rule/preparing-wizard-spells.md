@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "preparing_wizard_spells", path = "json/rules_basics04.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "218"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 218
 
 A wizard's level limits the number of spells he can prepare and cast. His high Intelligence score
 might allow him to prepare a few extra spells. He can prepare the same spell more than once, but

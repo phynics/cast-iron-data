@@ -6,12 +6,14 @@ source_ids = ["inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dance_of_the_dawnflower_dervish", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "inner-sea-temples"
+page = "53"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Inner Sea Temples pg 53\
 **School** transmutation; **Level** 8\
 **Casting Time** 80 minutes\
 **Components** V, M (a flask of blessed sunflower seed oil worth 100 gp for each caster and a

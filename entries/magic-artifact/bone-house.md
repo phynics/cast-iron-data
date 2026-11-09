@@ -6,6 +6,12 @@ source_ids = ["artifacts-and-legends", "pathfinder-10-a-history-of-ashes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bone_house", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "artifacts-and-legends"
+page = "57"
+[[sources]]
+publication = "pathfinder-10-a-history-of-ashes"
+page = "21"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong conjuration and necromancy"
 caster_level = "17th"
 +++
 
-**Sources:** Artifacts and Legends pg 57, Pathfinder \#10: A History of Ashes pg 21\
 **Aura** strong conjuration and necromancy; **CL** 17th\
 **Slot** none; **Price** -; **Weight** 2 lbs.
 

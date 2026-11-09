@@ -6,13 +6,15 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wolverine", path = "json/class_ability_aspects.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "31"
 
 [fields]
 kind = "class_option"
 group = "shifter-aspect"
 +++
 
-**Sources:** Ultimate Wilderness pg 31\
 This aspect unlocks the brutal ferocity and tenacious fury of the wolverine. The wolverine's lust
 for battle invigorates its will to live, and it can press on in battle longer than its enemies
 expect.

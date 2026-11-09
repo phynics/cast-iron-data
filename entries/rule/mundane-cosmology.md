@@ -6,12 +6,13 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mundane_cosmology", path = "json/rules_campaign_types09.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "88"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Planar Adventures pg 88
 
 What if there were no other planes at all, in any form whatsoever? What if the universe was all
 there was, with nothing beyond the prosaic existence of physical reality? No celestials, no fiends,

@@ -6,6 +6,12 @@ source_ids = ["varisia-birthplace-of-legends", "pathfinder-10-a-history-of-ashes
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thunder_and_fang", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "varisia-birthplace-of-legends"
+page = "10"
+[[sources]]
+publication = "pathfinder-10-a-history-of-ashes"
+page = "28"
 
 [fields]
 kind = "feat"
@@ -18,8 +24,6 @@ special = "This is a combat feat, and may be selected with class features that g
 +++
 
 ## Thunder and Fang (Combat)
-
-**Sources:** Varisia, Birthplace of Legends pg 10, Pathfinder \#10: A History of Ashes pg 28
 
 You have mastered the ancient Shoanti Thunder and Fang fighting style, allowing you to fight with
 increased effectiveness when wielding an [earth breaker](ref/eq-weapon/earth-breaker) and

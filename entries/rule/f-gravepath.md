@@ -6,12 +6,14 @@ source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "f_gravepath", path = "json/rules_subsystems01.json" },
 ]
+[[sources]]
+publication = "faction-guide"
+page = "52"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Faction Guide pg 52\
 **Pathfinder Name:** Whispering Way\
 **Goal:** Kill all life, let the undead rule the world\
 **Alignment:** NE\

@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shielded_caster", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "169"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "Whenever you are adjacent to an ally who also has this feat, you rece
 +++
 
 ## Shielded Caster (Teamwork)
-
-**Sources:** Advanced Player's Guide pg 169
 
 Your allies cover you while you cast complicated spells.\
 **Benefit:** Whenever you are adjacent to an ally who also has this feat, you receive a +4

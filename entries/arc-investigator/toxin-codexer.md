@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/investigator" },
 ]
+[[sources]]
+publication = "potions-and-poisons"
+page = "14"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Keen recollection", "trap sense"]
 alters = ["Poison lore", "Alchemy and replaces", "trapfinding", "investigator talent gained at 3rd level"]
 +++
 
-**Sources:** Potions and Poisons pg 14\
 While most investigators are well versed in the knowledge of poisons, the toxin codexer has made it
 a way of life. He meticulously seeks out new poisons and catalogs their effects, both those that are
 harmful and those that are potentially beneficial. A toxin codexer's detailed understanding of how

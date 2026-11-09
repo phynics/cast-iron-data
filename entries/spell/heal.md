@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heal", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "294"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Spell resistance: yes (harmless)
 Target: creature touched
 Subschool: Healing
 :::
-
-**Sources:** PRPG Core Rulebook pg 294
 
 Heal enables you to channel positive energy into a creature to wipe away injury and afflictions. It
 immediately ends any and all of the following adverse conditions affecting the target: ability

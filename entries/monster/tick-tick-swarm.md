@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tick_tick_swarm", path = "json/monsters39.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "265"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ skitters forward._
 
 **Senses:** Darkvision 60 ft., Scent
 
-**Sources:** Bestiary 2 pg 265\
 **Subtype:** Swarm
 
 **Type:** vermin

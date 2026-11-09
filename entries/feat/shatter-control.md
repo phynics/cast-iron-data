@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shatter_control", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "93"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "As a special full-round action, you can make a single melee attack ag
 +++
 
 ## Shatter Control (Combat)
-
-**Sources:** Horror Adventures pg 93
 
 You can infuse your attacks with divine power capable of harming the undead and shattering the bond
 between the undead and its controller.\

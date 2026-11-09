@@ -6,14 +6,14 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inevitable", path = "json/monster_subtypes.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
 
 [fields]
 kind = "none"
 +++
 
 ## Subtype: Inevitable
-
-**Sources:** Bestiary 2
 
 Inevitables are construct-like outsiders built by the [axiomites](ref/monster/axiomite) to enforce
 law. They have the following traits.

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-faiths"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghlaunder", path = "json/faiths3.json" },
 ]
+[[sources]]
+publication = "inner-sea-faiths"
+page = "41"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Ghlaunder**
 
 **Sub:** The Gossamer King
-
-**Sources:** Inner Sea Faiths pg 41
 
 ### Details
 

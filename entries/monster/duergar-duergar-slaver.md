@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "duergar_duergar_slaver", path = "json/monsters08.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "47"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ abilities = ["13", "15", "12", "12", "16", "4"]
 
 **Senses:** Darkvision 120 ft.
 
-**Sources:** Monster Codex pg 47\
 **Subtype:** Dwarf
 
 **Experience points:** 200

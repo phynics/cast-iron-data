@@ -6,6 +6,9 @@ source_ids = ["inner-sea-npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "numerian_ascetic", path = "json/npcs6.json" },
 ]
+[[sources]]
+publication = "inner-sea-npc-codex"
+page = "40"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "13"
 
 **Challenge rating:** 13
 
-**Sources:** Inner Sea NPC Codex pg 40\
 **XP** 25,600\
 Android [monk](ref/class/monk) 14\
 LN Medium humanoid (android)\

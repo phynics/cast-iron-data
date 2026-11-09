@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_victim", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "82"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 82
 
 **The Victim:** This NPC is the direct target of the villain's woe. His role can merge with the
 helper if he lends a hand to the heroes during the adventure, or with the patron should he possess

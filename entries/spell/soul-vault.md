@@ -6,6 +6,9 @@ source_ids = ["inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soul_vault", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "inner-sea-temples"
+page = "33"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes
 Target: creature touched
 :::
-
-**Sources:** Inner Sea Temples pg 33
 
 This spell protects the target's soul by briefly enveloping the target in an ethereal vault. The
 target gains a +4 bonus on saving throws against spells and effects that would trap or redirect its

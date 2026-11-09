@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "potions-and-poisons"
+page = "4"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Spontaneous casting"]
 alters = ["Wild shape", "Venom immunity"]
 +++
 
-**Sources:** Potions and Poisons pg 4\
 A mantella focuses on exploring her poisonous heritage, whether or not it has manifested in her own
 personal biology.
 

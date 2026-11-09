@@ -6,6 +6,9 @@ source_ids = ["lost-treasures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghoul_stone", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "lost-treasures"
+page = "33"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Lost Treasures pg 33\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** neck; **Price** 5,400 gp; **Weight** 1 lb.
 

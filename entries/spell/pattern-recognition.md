@@ -6,6 +6,9 @@ source_ids = ["second-darkness-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pattern_recognition", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "second-darkness-players-guide"
+page = "27"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Second Darkness Player's Guide pg 27
 
 Pattern recognition allows you to notice unusual breaks in the patterns of stones in a wall, boards
 in a floor, cracks in glass, trees in a forest, or similar interruptions. You gain an insight bonus

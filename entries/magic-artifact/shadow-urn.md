@@ -6,6 +6,9 @@ source_ids = ["the-demon-within"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_urn", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "the-demon-within"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong necromancy"
 caster_level = "17th"
 +++
 
-**Sources:** The Demon Within pg 30\
 **Aura** strong necromancy; **CL** 17th\
 **Slot** none; **Price** -; **Weight** -
 

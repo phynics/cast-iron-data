@@ -6,6 +6,9 @@ source_ids = ["pathfinder-46-wake-of-the-watcher"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mi_go_mist_projector", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "pathfinder-46-wake-of-the-watcher"
+page = "56"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Sources:** Pathfinder \#46: Wake of the Watcher pg 56\
 **Aura** moderate evocation; **CL** 10th\
 **Slot** none; **Price** 22,500 gp; **Weight** 8 lbs.
 

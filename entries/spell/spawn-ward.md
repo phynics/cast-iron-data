@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spawn_ward", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "101"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: none
 Spell resistance: no
 Target: creature touched
 :::
-
-**Sources:** Advanced Race Guide pg 101
 
 > _[Dhampirs](ref/race/dhampir) have access to the following spell._
 

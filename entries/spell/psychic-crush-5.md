@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/psychic-crush-4" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "183"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Descriptors: mind-affecting
 :::
 
 ### Psychic Crush V
-
-**Sources:** Occult Adventures pg 183
 
 This functions as [psychic crush IV](ref/spell/psychic-crush-4), but on a successful Fortitude or
 Will save, the target takes 11d6 points of damage + 1 point of damage per caster level. If it is at

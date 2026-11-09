@@ -6,6 +6,9 @@ source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weaponwand", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "63"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: Will negates (harmless) (object)
 Spell resistance: yes (harmless) (object)
 Target: one weapon
 :::
-
-**Sources:** Inner Sea Magic pg 63
 
 When you cast this spell on a weapon, you cause a portion of the weapon to open like the skin of a
 partially peeled apple, revealing a space large enough to insert a single wand within. As part of

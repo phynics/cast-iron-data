@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "pathfinder-46-wake-of-the-watcher"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elder_thing", path = "json/monsters09.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "85"
+[[sources]]
+publication = "pathfinder-46-wake-of-the-watcher"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ its barrel-shaped body._
 
 **Senses:** All-around vision, Darkvision 60 ft.
 
-**Sources:** Bestiary 4 pg 85, Pathfinder \#46: Wake of the Watcher pg 82\
 **Subtype:** Aquatic
 
 **Experience points:** 1,600

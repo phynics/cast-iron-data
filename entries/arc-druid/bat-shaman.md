@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "42"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Woodland stride", "Wild shape", "Venom immunity"]
 alters = ["Nature bond", "Wild empathy"]
 +++
 
-**Sources:** Ultimate Combat pg 42\
 The bat shaman's totem is the agile bat, flitting and turning with incredible speed through even the
 most convoluted mazes. Her enemies do not know when she will appear, and when she does, she strikes
 fast and hard before disappearing into the night.

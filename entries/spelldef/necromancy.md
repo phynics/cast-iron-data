@@ -6,14 +6,15 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "necromancy", path = "json/spell_definitions.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "211"
 
 [fields]
 kind = "none"
 +++
 
 ## Necromancy (school of magic)
-
-**Sources:** PRPG Core Rulebook pg 211
 
 Necromancy spells manipulate the power of death, unlife, and the life force. Spells involving
 [undead](ref/type/undead) creatures make up a large part of this school.

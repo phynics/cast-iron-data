@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "escape_from_restraints", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "55"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 55
 
 Getting free of restraints, a grapple, or an entanglement requires an Acrobatics check. You can
 attempt an Acrobatics check instead of a combat maneuver check to escape a grapple or pin.

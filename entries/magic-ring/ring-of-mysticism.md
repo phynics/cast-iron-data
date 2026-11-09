@@ -6,6 +6,9 @@ source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_mysticism", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "8"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate (no school)"
 caster_level = "11th"
 +++
 
-**Sources:** Psychic Anthology pg 8\
 **Aura** moderate (no school); **CL** 11th\
 **Slot** ring; **Price** 20,000 gp (Type I), 40,000 gp (Type II), 70,000 gp (Type III), 100,000 gp
 (Type IV); **Weight** -

@@ -6,6 +6,9 @@ source_ids = ["feast-of-dust"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "watchtower_tattoo", path = "json/magic_tattoo.json" },
 ]
+[[sources]]
+publication = "feast-of-dust"
+page = "5"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "8th"
 +++
 
-**Sources:** Feast of Dust pg 5\
 **Aura** moderate abjuration; **CL** 8th\
 **Slot** none; **Price** 9,500 gp; **Weight** -
 

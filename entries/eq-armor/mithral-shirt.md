@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mithral_shirt", path = "json/equipment_armor.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "128"
+[[sources]]
+publication = "core-rulebook"
+page = "464"
 
 [fields]
 kind = "item"
@@ -13,7 +19,6 @@ category = "Armor"
 weight = "10 lbs."
 +++
 
-**Sources:** Ultimate Equipment pg 128, PRPG Core Rulebook pg 464\
 **Cost** 1,100 gp **Weight** 10 lbs.\
 **Armor Bonus** +4; **Max Dex Bonus** +6; **Armor Check Penalty** 0\
 **Arcane Spell Failure Chance** 10%; **Speed** 30 ft./20 ft.\

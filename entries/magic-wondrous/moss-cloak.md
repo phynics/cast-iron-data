@@ -6,6 +6,12 @@ source_ids = ["villain-codex", "heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "moss_cloak", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "165"
+[[sources]]
+publication = "heroes-of-the-wild"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Sources:** Villain Codex pg 165, Heroes of the Wild pg 29\
 **Aura** moderate conjuration; **CL** 7th\
 **Slot** shoulders; **Price** 18,700 gp; **Weight** 5 lbs.
 

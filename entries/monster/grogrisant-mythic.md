@@ -6,6 +6,9 @@ source_ids = ["taldor-the-first-empire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grogrisant_mythic", path = "json/monsters_mythic.json" },
 ]
+[[sources]]
+publication = "taldor-the-first-empire"
+page = "59"
 
 [fields]
 kind = "creature"
@@ -48,7 +51,6 @@ like the sun._
 
 **Senses:** Darkvision 120 ft., Low-light vision, Scent
 
-**Sources:** Taldor, the First Empire pg 59\
 **Subtype:** Mythic
 
 **Experience points:** 76,800

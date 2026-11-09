@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "know_the_adversaries", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "16"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 16
 
 Think about the foes your characters must face and any other obstacles they must overcome. Consider
 how those adversaries will act toward the characters.

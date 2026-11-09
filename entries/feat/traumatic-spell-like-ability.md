@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "traumatic_spell_like_ability", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "95"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "This feat can be taken multiple times. Each time it is taken, you can
 +++
 
 ## Traumatic Spell-Like Ability (Monster)
-
-**Sources:** Horror Adventures pg 95
 
 Your [spell-like ability](ref/umr/spell-like-abilities) causes affected targets to relive their
 torments in nightly terrors.\

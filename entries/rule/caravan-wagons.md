@@ -6,12 +6,14 @@ source_ids = ["jade-regent-players-guide", "pathfinder-51-the-hungry-storm", "pa
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "caravan_wagons", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "jade-regent-players-guide"
+page = "18"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Jade Regent Player's Guide pg 18\
 Each wagon in a caravan serves a specific purpose that helps to bolster the caravan's statistics -
 and thus its chances of success at reaching its eventual destination. Each type of wagon is
 presented in the same format, along with its cost in gp, its hit points, its traveler and cargo

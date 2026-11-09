@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_planar_infusion", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "28"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Choose a plane for which you've gained an improved infusion via Impro
 +++
 
 ## Greater Planar Infusion (Conduit)
-
-**Sources:** Planar Adventures pg 28
 
 You have mastered the powers of another plane.\
 **Prerequisites:** [Improved Planar Infusion](ref/feat/improved-planar-infusion),

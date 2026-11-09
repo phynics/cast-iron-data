@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "green_prismatic_poison", path = "json/equipment_poisons.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "559"
 
 [fields]
 kind = "item"
@@ -13,8 +16,6 @@ category = "Poisons"
 price = "N/A"
 weight = "&mdash;"
 +++
-
-**Sources:** PRPG Core Rulebook pg 559
 
 **Price** N/A; **Weight** —
 

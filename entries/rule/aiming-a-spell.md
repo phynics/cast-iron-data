@@ -6,12 +6,13 @@ source_ids = ["core-rulebook", "pathfinder-91-battle-of-bloodmarch-hills"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aiming_a_spell", path = "json/rules_basics04.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "213"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 213
 
 You must make choices about whom a spell is to affect or where an effect is to originate, depending
 on a spell's type. The next entry in a spell description defines the spell's target (or targets),

@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mephit_head_arrow", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "48"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint evocation"
 caster_level = "3rd"
 +++
 
-**Sources:** Planar Adventures pg 48\
 **Aura** faint evocation; **CL** 3rd\
 **Slot** weapon; **Price** 200 gp; **Weight** 4 lbs.
 

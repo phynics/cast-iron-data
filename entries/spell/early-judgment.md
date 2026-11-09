@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "early_judgment", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "233"
+[[sources]]
+publication = "faiths-of-balance"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -41,8 +47,6 @@ Saving throw: Will negates
 Spell resistance: yes
 Target: one humanoid creature
 :::
-
-**Sources:** Inner Sea Gods pg 233, Faiths of Balance pg 29
 
 You show one creature the effect of its life so far and what it might expect when it passes under
 Pharasma's impartial gaze at the end of its life. Depending on the creature's alignment and its

@@ -6,12 +6,13 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "building_a_planar_campaign", path = "json/rules_campaign_types09.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "82"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Planar Adventures pg 82
 
 The typical adventurer can readily secure fame and fortune within a single dungeon, nation, or
 continent, and for many campaigns, sticking to an easily grasped fantasy world of goblins, knights,

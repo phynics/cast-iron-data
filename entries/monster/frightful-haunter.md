@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "frightful_haunter", path = "json/monsters31.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "28"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ and hairy, fanged face._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Monster Codex pg 28\
 **Subtype:** Incorporeal
 
 **Type:** undead

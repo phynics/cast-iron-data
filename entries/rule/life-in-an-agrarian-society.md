@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "life_in_an_agrarian_society", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "154"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 154
 
 In most settled lands, there is a limited growing season. Whether this is because of harsh winters
 or blazing summers, lack of or too much water, or monster activity, farmers must plan well ahead to

@@ -6,6 +6,9 @@ source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "exceptional_pull", path = "json/feat06.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "10"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you wield a ranged weapon that you are proficient with and that 
 +++
 
 ## Exceptional Pull (Combat)
-
-**Sources:** Ranged Tactics Toolbox pg 10
 
 You have mastered techniques to get the most out of composite bows.\
 **Prerequisites:** Dex 13, [Deadly Aim](ref/feat/deadly-aim), base attack bonus +3.\

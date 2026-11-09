@@ -6,12 +6,13 @@ source_ids = ["lands-of-conflict"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "training_mt", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "lands-of-conflict"
+page = "49"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Lands of Conflict pg 49
 
 **Training:** The militia's training score is an abstraction of the amount of training it has
 received and the action it has seen. The militia starts with a training score of 0. The primary way

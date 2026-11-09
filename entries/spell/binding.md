@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "binding", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "248"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Target: one living creature
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 248
 
 A binding spell creates a magical restraint to hold a creature. The target gets an initial saving
 throw only if its Hit Dice equal at least half your caster level.

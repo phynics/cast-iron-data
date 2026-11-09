@@ -6,12 +6,13 @@ source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drake", path = "json/sidekicks.json" },
 ]
+[[sources]]
+publication = "legacy-of-dragons"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Legacy of Dragons\
 A drake can be a powerful ally to one who understands how to deal with its surly and obstinate
 attitude. Such a character is called the drake's "charge" as drakes refuse to refer to another being
 as their master. While drake companions enjoy accumulating hoards of shiny treasure, they adamantly

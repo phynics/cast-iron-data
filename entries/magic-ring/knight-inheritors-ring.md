@@ -6,6 +6,12 @@ source_ids = ["pathfinder-103-the-hellfire-compact", "inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "knight_inheritors_ring", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "pathfinder-103-the-hellfire-compact"
+page = "73"
+[[sources]]
+publication = "inner-sea-gods"
+page = "258"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint enchantment and transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Pathfinder \#103: The Hellfire Compact pg 73, Inner Sea Gods pg 258\
 **Aura** faint enchantment and transmutation; **CL** 5th\
 **Slot** ring; **Price** 3,000 gp; **Weight** -
 

@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "diva_advance", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "176"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using Diva Style, you do not provoke attacks of opportunity fro
 +++
 
 ## Diva Advance (Combat)
-
-**Sources:** Adventurer's Guide pg 176
 
 You stride forward with confidence, trusting your performance to protect you as much as your arms
 and armor.\

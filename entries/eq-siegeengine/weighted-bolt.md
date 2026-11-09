@@ -6,14 +6,15 @@ source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weighted_bolt", path = "json/equipment_siege_engines.json" },
 ]
+[[sources]]
+publication = "dragonslayers-handbook"
+page = "27"
 
 [fields]
 kind = "item"
 category = "Siege Engines"
 weight = "40 lbs."
 +++
-
-**Sources:** Dragonslayer's Handbook pg 27
 
 This barbed ballista bolt is equipped with a heavy weight at the end of a long chain. The bolt's
 extra weight makes the bolt harder to fire accurately, and imposes a -2 penalty on attack rolls. In

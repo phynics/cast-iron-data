@@ -6,6 +6,9 @@ source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "assassins_sight", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint (normal) or moderate (greater) divination"
 caster_level = "5th (normal), 9th (greater)"
 +++
 
-**Sources:** Ranged Tactics Toolbox pg 28\
 **Aura** faint (normal) or moderate (greater) divination; **CL** 5th (normal), 9th (greater)\
 **Slot** none; **Price** 5,250 gp (normal) 12,250 gp (greater); **Weight** 4 lbs. (normal), 2 lbs.
 (greater)

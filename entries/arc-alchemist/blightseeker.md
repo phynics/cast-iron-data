@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "heroes-of-the-darklands"
+page = "10"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["The discovery gained at 6th level", "The discovery gained at 12th l
 alters = ["Bombs", "Bombs"]
 +++
 
-**Sources:** Heroes of the Darklands pg 10\
 Blightseekers are alchemists devoted to the study of fungi native to the Darklands. While diverse
 fungi exist on the surface world, the unique combination of environmental conditions found in the
 Darklands fosters the growth of unpredictable and otherworldly fungal growths.

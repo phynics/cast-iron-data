@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "righteous", path = "json/magic_enhancements.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "121, 123"
+[[sources]]
+publication = "advanced-players-guide"
+page = "283"
 
 [fields]
 kind = "item"
@@ -19,7 +25,6 @@ caster_level = "10th"
 
 ## Righteous, Unrighteous, Unbound, Vigilant
 
-**Sources:** Ultimate Equipment pg. 121, 123, Advanced Player's Guide pg 283\
 **Aura** moderate transmutation; **CL** 10th\
 **Slot** armor quality; **Price** +27,000 gp; **Weight** -
 

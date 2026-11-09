@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "share_glory", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "114"
 
 [fields]
 kind = "spell"
@@ -53,8 +56,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: one non-mythic creature/3 levels
 :::
-
-**Sources:** Mythic Adventures pg 114
 
 You imbue the targets with a fraction of your mythic nature. They count as mythic creatures for the
 purpose of path abilities, spells, and other effects that function differently for mythic creatures.

@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "celedon", path = "json/monsters27.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "52"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ _This metallic sculpture of an idealized humanoid figure sparkles with divine lu
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 5 pg 52\
 **Experience points:** 400
 
 **Armor class:** 12/10/12

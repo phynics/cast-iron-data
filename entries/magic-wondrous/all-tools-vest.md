@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "all_tools_vest", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "220"
+[[sources]]
+publication = "advanced-players-guide"
+page = "300"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint conjuration"
 caster_level = "1st"
 +++
 
-**Sources:** Ultimate Equipment pg 220, Advanced Player's Guide pg 300\
 **Aura** faint conjuration; **CL** 1st\
 **Slot** chest; **Price** 1,800 gp; **Weight** 5 lbs.
 

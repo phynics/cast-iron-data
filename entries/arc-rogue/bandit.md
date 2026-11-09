@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "71"
 
 [fields]
 kind = "archetype"
 replaces = ["Uncanny dodge", "Improved uncanny dodge"]
 +++
 
-**Sources:** Ultimate Combat pg 71\
 Bandits, brigands, and highwaymen hone their craft along the roadsides and byways of the world,
 where they leap from the shadows to plunder the spoils of passing travelers. Bandits tend to have a
 variety of skills; sometimes these skills are similar to a ranger's, but a bandit's tactics always

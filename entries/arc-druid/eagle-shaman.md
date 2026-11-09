@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "102"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Woodland stride", "Wild shape"]
 alters = ["Nature bond", "Wild empathy"]
 +++
 
-**Sources:** Advanced Player's Guide pg 102\
 A shaman with this totem calls upon the noble eagle, stern and proud, soaring high above the world
 with keen and pitiless eyes that miss nothing.
 

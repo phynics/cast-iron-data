@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "haste", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "293"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
 Targets: one creature/level, no two of which can be more than 30 ft. apart
 :::
-
-**Sources:** PRPG Core Rulebook pg 293
 
 The transmuted creatures move and act more quickly than normal. This extra speed has several
 effects.

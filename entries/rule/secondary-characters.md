@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "secondary_characters", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "66"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 66
 
 While most gaming groups adhere to the basic convention of one player per character, there's no rule
 to prevent players from running multiple characters if you're comfortable with it. As mentioned

@@ -6,6 +6,12 @@ source_ids = ["adventurers-guide", "path-of-the-hellknight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shackle", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "99"
+[[sources]]
+publication = "path-of-the-hellknight"
+page = "61"
 
 [fields]
 kind = "spell"
@@ -46,8 +52,6 @@ Spell resistance: no
 Effect: one set of restraints; see text
 Subschool: Creation
 :::
-
-**Sources:** Adventurer's Guide pg 99, Path of the Hellknight pg 61
 
 You summon a set of Small or Medium masterwork restraints into being. When you cast this spell, you
 can choose whether the restraints are manacles or fetters (manacles specifically designed to fit

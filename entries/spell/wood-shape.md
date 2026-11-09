@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wood_shape", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "370"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: Will negates (object)
 Spell resistance: yes (object)
 Target: one touched piece of wood no larger than 10 cu. ft. + 1 cu. ft./level
 :::
-
-**Sources:** PRPG Core Rulebook pg 370
 
 Wood shape enables you to form one existing piece of wood into any shape that suits your purpose.
 While it is possible to make crude coffers, doors, and so forth, fine detail isn't possible. There

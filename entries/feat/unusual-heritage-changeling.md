@@ -6,6 +6,9 @@ source_ids = ["bastards-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unusual_heritage_changeling", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "bastards-of-golarion"
+page = "17"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "This version of Unusual Heritage is a teamwork feat."
 +++
 
 ## Unusual Heritage (Changeling) (Teamwork)
-
-**Sources:** Bastards of Golarion pg 17
 
 Your heritage is strange or difficult to trace, and people fear your otherworldly powers.\
 **Prerequisites:** [Changeling](ref/race/changeling).\

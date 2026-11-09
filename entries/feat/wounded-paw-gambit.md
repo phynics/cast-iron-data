@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wounded_paw_gambit", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "159"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever you use Broken Wing Gambit and an opponent attacks you as a 
 +++
 
 ## Wounded Paw Gambit (Combat, Teamwork)
-
-**Sources:** Advanced Class Guide pg 159
 
 Your enemy sees you as an easy mark, but doesn't notice your allies poised to shoot.\
 **Prerequisites:** [Broken Wing Gambit](ref/feat/broken-wing-gambit), Bluff 5 ranks.\

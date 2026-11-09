@@ -6,6 +6,9 @@ source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "palelight_torch", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "blood-of-shadows"
+page = "21"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint evocation"
 caster_level = "2nd"
 +++
 
-**Sources:** Blood of Shadows pg 21\
 **Aura** faint evocation; **CL** 2nd\
 **Slot** none; **Price** 250 gp; **Weight** 1 lb.
 

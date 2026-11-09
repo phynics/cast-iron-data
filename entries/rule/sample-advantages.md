@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sample_advantages", path = "json/rules_adv_gm02.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "146"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 146
 
 The following advantages are just a sample of those possible. Each advantage lists the terrains most
 likely to allow it, though there are certainly exceptions. Customize the selected advantage to fit

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "esoteric_evocation", path = "json/feat06.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "154"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "When you cast an evocation spell using entropic resin as an esoteric 
 +++
 
 ## Esoteric Evocation (Esoteric)
-
-**Sources:** Pathfinder Unchained pg 154
 
 Entropic resin flares from your hand when you use it for an evocation spell, striking a nearby foe.\
 **Benefit:** When you cast an evocation spell using entropic resin as an

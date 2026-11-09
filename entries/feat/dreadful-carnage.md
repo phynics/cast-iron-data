@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dreadful_carnage", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "158"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Whenever you reduce an enemy to 0 or fewer hit points, you can make a
 +++
 
 ## Dreadful Carnage (Combat)
-
-**Sources:** Advanced Player's Guide pg 158
 
 Slaying an enemy demoralizes your other nearby foes.\
 **Prerequisites:** Str 15, [Power Attack](ref/feat/power-attack),

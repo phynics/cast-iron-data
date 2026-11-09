@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "free_actions_pu", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "109"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 109
 
 Unless stated otherwise in the action's description, a free action can be taken only on your turn.
 Theoretically, you can take as many free actions in a turn as you wish, though the GM may apply

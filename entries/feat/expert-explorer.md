@@ -6,14 +6,15 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "expert_explorer", path = "json/feat06.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "110"
 
 [fields]
 kind = "feat"
 prerequisites = "Knowledge (nature) or Survival 5 ranks."
 benefit = "You gain a +2 bonus on skill checks when using the exploration rules. If you succeed at such a skill check by 5 or more, you gain an additional 1d4 Discovery Points."
 +++
-
-**Sources:** Ultimate Wilderness pg 110
 
 You are trained to seek out the unknown places of the wild and can explore more efficiently than
 your untrained rivals.\

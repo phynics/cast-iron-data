@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/synaptic-pulse" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "187"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Descriptors: mind-affecting
 :::
 
 ### Greater Synaptic Pulse
-
-**Sources:** Occult Adventures pg 187
 
 You emit a pulsating mental blast that stuns all creatures in range of your psychic shriek for 1d4
 rounds. On a successful save, a creature is instead sickened for 1 round.

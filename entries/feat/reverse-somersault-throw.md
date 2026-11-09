@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reverse_somersault_throw", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "24"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you succeed at a drag combat maneuver check, at the end of your 
 +++
 
 ## Reverse Somersault Throw (Combat)
-
-**Sources:** Martial Arts Handbook pg 24
 
 You drag your opponent off balance, then use his momentum to fling him over your head.\
 **Prerequisites:** Str 13, [Improved Drag](ref/feat/improved-drag),

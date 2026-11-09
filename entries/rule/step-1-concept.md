@@ -6,12 +6,13 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "step_1_concept", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "290"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder RPG Bestiary pg 290
 
 The first step in creating a new monster is to define its concept and role in the game. Generally,
 this involves picking the monster's CR, type, physical appearance, and manner of fighting. Once you

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/swashbuckler" },
 ]
+[[sources]]
+publication = "advanced-class-origins"
+page = "23"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Superior feint", "targeted strike", "Bleeding wound", "Deadly stab"
 alters = ["Swashbuckler finesse", "Panache"]
 +++
 
-**Sources:** Advanced Class Origins pg 23\
 In Qadira and throughout the Padishah Empire, [Sarenrae's](ref/faith/sarenrae) worshipers praise the
 Dawnflower through dance. Her more warlike followers adapted these dances into graceful martial
 forms, and their swashbuckling style is feared throughout the Inner Sea region and beyond for its

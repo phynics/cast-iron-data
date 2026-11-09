@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/flame-blade", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "94"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 94\
 The blade's damage increases to 2d6 points of fire damage + 1 point per caster level (maximum +20).
 The blade threatens a critical hit on a natural 18-20 as if it were an actual scimitar.
 

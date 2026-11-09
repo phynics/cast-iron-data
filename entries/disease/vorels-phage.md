@@ -6,12 +6,13 @@ source_ids = ["pathfinder-2-the-skinsaw-murders"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vorels_phage", path = "json/diseases.json" },
 ]
+[[sources]]
+publication = "pathfinder-2-the-skinsaw-murders"
+page = "27"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder \#2: The Skinsaw Murders pg 27
 
 **Type:** Disease (Contact or ingestion)
 

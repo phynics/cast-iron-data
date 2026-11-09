@@ -6,12 +6,13 @@ source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gossamer_veil", path = "json/drugs.json" },
 ]
+[[sources]]
+publication = "potions-and-poisons"
+page = "26"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Potions and Poisons pg 26
 
 **Type:** ingested
 

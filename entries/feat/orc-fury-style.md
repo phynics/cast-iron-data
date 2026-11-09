@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "orc_fury_style", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "13"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While wielding a greataxe, a falchion, or any melee weapon that has \
 +++
 
 ## Orc Fury Style (Combat, Style)
-
-**Sources:** Weapon Master's Handbook pg 13
 
 You inspire great fear in your enemies.\
 **Prerequisites:** [Bullying Blow](ref/feat/bullying-blow),

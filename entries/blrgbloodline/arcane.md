@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcane", path = "json/class_ability_bloodrager_bloodlines.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "18"
 
 [fields]
 kind = "class_option"
@@ -13,8 +16,6 @@ group = "bloodrager-bloodline"
 +++
 
 ## Arcane Bloodline
-
-**Sources:** Advanced Class Guide pg 18
 
 While others of your kin may be powerful wizards and sorcerers, the eldritch nature of the blood
 coursing through your veins transforms you into a spell-breaking terror.

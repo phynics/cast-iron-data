@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grayflame", path = "json/magic_enhancements.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "142"
+[[sources]]
+publication = "advanced-players-guide"
+page = "288"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate transmutation"
 caster_level = "6th"
 +++
 
-**Sources:** Ultimate Equipment pg 142, Advanced Player's Guide pg 288\
 **Aura** moderate transmutation; **CL** 6th\
 **Slot** weapon quality; **Price** +1 bonus; **Weight** -
 

@@ -6,6 +6,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "liquefy", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "21"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: Fortitude negates (object)
 Spell resistance: no
 Target: 1 object weighing up to 1 pound/level
 :::
-
-**Sources:** Arcane Anthology pg 21
 
 The object you target becomes a liquid version of itself and drips or runs like a thin oil until it
 pools on any flat surface. If the item has magical or alchemical properties, they become inert for

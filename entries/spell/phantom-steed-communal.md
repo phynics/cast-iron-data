@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/phantom-steed" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "239"
 
 [fields]
 kind = "spell"
@@ -54,8 +57,6 @@ Subschool: Creation
 :::
 
 ### Communal Phantom Steed
-
-**Sources:** Ultimate Combat pg 239
 
 This spell functions like [phantom steed](ref/spell/phantom-steed), except you can summon up to six
 steeds, and you divide the duration in 1-hour intervals among the steeds summoned.

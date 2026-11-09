@@ -6,6 +6,9 @@ source_ids = ["pathfinder-56-raiders-of-the-fever-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "zul", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "pathfinder-56-raiders-of-the-fever-sea"
+page = "57"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Sources:** Pathfinder \#56: Raiders of the Fever Sea pg 57\
 **Aura** moderate transmutation; **CL** 8th\
 **Slot** none; **Price** 18,395 gp; **Weight** 4 lbs.
 

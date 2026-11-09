@@ -6,6 +6,9 @@ source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "calistrian_kiss", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "54"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Sources:** Inner Sea Combat pg 54\
 **Aura** moderate necromancy; **CL** 7th\
 **Slot** none; **Price** 26,380 gp; **Weight** 7 lbs.
 

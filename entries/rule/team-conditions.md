@@ -6,12 +6,13 @@ source_ids = ["lands-of-conflict"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "team_conditions", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "lands-of-conflict"
+page = "54"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Lands of Conflict pg 54
 
 Teams can, through events or game play, gain one of two debilitating conditions: disabled or
 missing. These conditions are described below.

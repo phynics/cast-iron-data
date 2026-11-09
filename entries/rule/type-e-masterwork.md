@@ -6,12 +6,13 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "type_e_masterwork", path = "json/rules_adv_gm05.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "370"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Equipment pg 370
 
 ### Table 7-12: Random Armor or Shield
 

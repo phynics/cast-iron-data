@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magical_investigations", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "247"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 247
 
 When formulating a mystery adventure, a GM needs to account for the realities of a fantasy world -
 primarily magic. While some crimes and criminals might prove vulnerable to the right spells, true

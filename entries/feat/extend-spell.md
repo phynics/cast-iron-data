@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extend_spell", path = "json/feat06.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "123"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "An extended spell lasts twice as long as normal. A spell with a durat
 +++
 
 ## Extend Spell (Metamagic)
-
-**Sources:** PRPG Core Rulebook pg 123
 
 You can make your spells last twice as long.\
 **Benefit:** An extended spell lasts twice as long as normal. A spell with a duration of

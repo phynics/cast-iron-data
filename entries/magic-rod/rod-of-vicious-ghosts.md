@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rod_of_vicious_ghosts", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "51"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong evocation"
 caster_level = "13th"
 +++
 
-**Sources:** Planar Adventures pg 51\
 **Aura** strong evocation; **CL** 13th\
 **Slot** none; **Price** 26,000 gp; **Weight** 1 lb.
 

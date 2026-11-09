@@ -6,6 +6,9 @@ source_ids = ["pathfinder-74-sword-of-valor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "barding_of_pleated_light", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "pathfinder-74-sword-of-valor"
+page = "65"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "overwhelming abjuration"
 caster_level = "20th"
 +++
 
-**Sources:** Pathfinder \#74: Sword of Valor pg 65\
 **Aura** overwhelming abjuration; **CL** 20th\
 **Slot** armor (barding); **Price** -; **Weight** 100 lbs.
 

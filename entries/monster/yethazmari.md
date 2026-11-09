@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "yethazmari", path = "json/monsters_unique4.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "296"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ and smoking eye sockets._
 
 **Senses:** Darkvision 60 ft., Scent
 
-**Sources:** Inner Sea Gods pg 296\
 **Subtype:** Chaotic, Evil, Extraplanar, Herald
 
 **Experience points:** 51,200

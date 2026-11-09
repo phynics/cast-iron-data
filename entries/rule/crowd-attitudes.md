@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crowd_attitudes", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "153"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 153
 
 While combatants do the actual fighting in performance combat, the crowd remains an active
 participant in these bouts. The audience can bolster or demoralize the competitors with their

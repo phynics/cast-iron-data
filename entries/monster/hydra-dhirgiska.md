@@ -6,6 +6,9 @@ source_ids = ["mythical-monsters-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hydra_dhirgiska", path = "json/monsters14.json" },
 ]
+[[sources]]
+publication = "mythical-monsters-revisited"
+page = "32"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ sets of fangs._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Mythical Monsters Revisited pg 32\
 **Experience points:** 25,600
 
 **Armor class:** 22/10/20

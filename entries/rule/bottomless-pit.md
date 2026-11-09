@@ -6,12 +6,12 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bottomless_pit", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures
 
 **Bottomless Pit (CR 9):** A bottomless pit is a yawning chasm that appears to be a perfectly
 natural fissure in the earth, other than the fact that it appears too deep to see the bottom. In

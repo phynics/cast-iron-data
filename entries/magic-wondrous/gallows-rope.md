@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gallows_rope", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "151"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "9th"
 +++
 
-**Sources:** Mythic Adventures pg 151\
 **Aura** moderate necromancy; **CL** 9th\
 **Slot** neck; **Price** 18,000 gp; **Weight** 4 lbs.
 

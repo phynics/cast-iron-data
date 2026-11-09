@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ancestral_enmity", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "68"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "You may select this feat twice. Its effects stack."
 +++
 
 ## Ancestral Enmity (Combat)
-
-**Sources:** Monster Codex pg 68
 
 You can counter the special defensive training the stouter races have against your kind.\
 **Prerequisites:** Giant subtype.\

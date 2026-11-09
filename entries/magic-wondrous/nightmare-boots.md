@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nightmare_boots", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "232"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation and transmutation"
 caster_level = "6th"
 +++
 
-**Sources:** Ultimate Equipment pg 232\
 **Aura** moderate evocation and transmutation; **CL** 6th\
 **Slot** feet; **Price** 8,500 gp; **Weight** 3 lbs.
 

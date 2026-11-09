@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aeon_pleroma", path = "json/monsters01.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "12"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ encompassed all the night sky._
 
 **Senses:** Darkvision 120 ft., True seeing
 
-**Sources:** Bestiary 2 pg 12\
 **Subtype:** Aeon, Extraplanar
 
 **Experience points:** 307,200

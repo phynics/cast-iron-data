@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_rabbit", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "204"
+[[sources]]
+publication = "animal-archive"
+page = "31"
 
 [fields]
 kind = "creature"
@@ -38,7 +44,6 @@ _This small, furry creature has long ears and oversized feet._
 
 **Senses:** Low-light vision
 
-**Sources:** Ultimate Wilderness pg 204, Animal Archive pg 31\
 **Size:** tiny
 
 **Experience points:** 65

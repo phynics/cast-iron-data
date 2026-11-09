@@ -6,12 +6,14 @@ source_ids = ["armor-masters-handbook"]
 relations = [
   { kind = "addon", target = "ref/feat/poised-bearing", label = "stamina" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "21"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Armor Master's Handbook pg 21\
 You can spend 3 stamina points as a swift action to have this feat's effect on your size for the
 purposes of specific combat maneuvers also determine what size a creature must be to perform the
 combat maneuvers against you.

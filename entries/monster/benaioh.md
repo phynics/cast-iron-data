@@ -6,6 +6,9 @@ source_ids = ["pathfinder-93-forge-of-the-giant-god"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "benaioh", path = "json/monsters03.json" },
 ]
+[[sources]]
+publication = "pathfinder-93-forge-of-the-giant-god"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ creature's body, leaking a steady stream of putrescent slime._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#93: Forge of the Giant God pg 84\
 **tremorsense:** 90
 
 **Experience points:** 3,200

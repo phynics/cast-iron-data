@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wish", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "370"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: none, see text
 Spell resistance: yes
 Effect: see text
 :::
-
-**Sources:** PRPG Core Rulebook pg 370
 
 Wish is the mightiest spell a wizard or sorcerer can cast. By simply speaking aloud, you can alter
 reality to better suit you. Even wish, however, has its limits. A wish can produce any one of the

@@ -6,12 +6,13 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "race_builder", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "214"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Advanced Race Guide pg 214
 
 There comes a point in nearly every campaign when someone - either one of the players or the GM -
 wants to create a new race. Sometimes the GM needs a new race to fill a story or ecological niche in

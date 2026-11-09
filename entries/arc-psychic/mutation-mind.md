@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/psychic" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "105"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["1st-level phrenic amplification"]
 alters = ["Phrenic amplifications", "Major amplifications"]
 +++
 
-**Sources:** Occult Adventures pg 105\
 Exposure to unintended spell effects, curses, or sources of radiation cause some to manifest psychic
 powers. When a mutation mind uses her psychic abilities, her physical body changes under the stress,
 and she risks losing control if she pushes too far.

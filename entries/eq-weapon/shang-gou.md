@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shang_gou", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "18"
+[[sources]]
+publication = "ultimate-combat"
+page = "134"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "1 lb."
 +++
-
-**Sources:** Ultimate Equipment pg 18, Ultimate Combat pg 134
 
 Forged in pairs, these solid metal blades end in curved hooks, while the hand guards are hammered
 into outward-facing spiked crescents. Both the crescent and the tip of the hilt are sharpened for

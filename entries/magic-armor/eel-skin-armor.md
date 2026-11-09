@@ -6,6 +6,9 @@ source_ids = ["pathfinder-58-island-of-empty-eyes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eel_skin_armor", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "pathfinder-58-island-of-empty-eyes"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "6th"
 +++
 
-**Sources:** Pathfinder \#58: Island of Empty Eyes pg 60\
 **Aura** moderate evocation; **CL** 6th\
 **Slot** armor; **Price** 33,810 gp; **Weight** 15 lbs.
 

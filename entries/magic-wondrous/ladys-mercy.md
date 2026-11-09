@@ -6,6 +6,9 @@ source_ids = ["pathfinder-139-the-dead-road"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ladys_mercy", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "pathfinder-139-the-dead-road"
+page = "64"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration"
 caster_level = "1st"
 +++
 
-**Sources:** Pathfinder \#139: The Dead Road pg 64\
 **Aura** faint conjuration; **CL** 1st\
 **Slot** none; **Price** 150 gp; **Weight** -
 

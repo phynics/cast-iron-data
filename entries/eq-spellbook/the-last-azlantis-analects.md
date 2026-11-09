@@ -6,6 +6,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_last_azlantis_analects", path = "json/equipment_spellbooks.json" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "6"
 
 [fields]
 kind = "item"
@@ -15,8 +18,6 @@ category = "Spellbooks"
 ### Level 15 Universalist
 
 _This book's ancient leather cover is emblazoned with a simplified winged eye._
-
-**Sources:** Arcane Anthology pg 6
 
 **Protection** [Average lock](ref/eq-misc/lock-average) with [arcane lock](ref/spell/arcane-lock)
 (DC 35) and [explosive runes](ref/spell/explosive-runes) (Reflex DC 16)\

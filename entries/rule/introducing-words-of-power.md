@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "introducing_words_of_power", path = "json/rules_opt_magic03.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "193"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 193
 
 If you are a GM and would like to introduce wordspells to your campaign in a limited way, consider
 providing the PCs with a cache of wordspell potions, scrolls, or wands. This gives the PCs a

@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/obscuring-mist", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "102"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 102\
 The range increases to 50 feet, and the cloud's radius and height both increase to 50 feet.
 
 _Augmented (3rd):_ If you expend two uses of mythic power, the range increases to 500 feet. The

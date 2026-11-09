@@ -6,6 +6,9 @@ source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aquadynamic_shot", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
+page = "57"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "Projectile attacks underwater take a -2 penalty per 5 feet of water be
 +++
 
 ## Aquadynamic Shot (Combat)
-
-**Sources:** Aquatic Adventures pg 57
 
 You use projectiles and special trick shots that lose less accuracy when underwater.\
 **Prerequisites:** [Far Shot](ref/feat/far-shot), base attack bonus +4.\

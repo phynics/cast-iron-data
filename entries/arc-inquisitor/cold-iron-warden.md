@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/inquisitor" },
 ]
+[[sources]]
+publication = "demon-hunters-handbook"
+page = "15"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Track", "teamwork feats gained at 12th and 18th level", "Solo tacti
 alters = ["Bane"]
 +++
 
-**Sources:** Demon Hunter's Handbook pg 15\
 The natural enemies of [demoniacs](ref/pclass/demoniac) and other cultists of fiendish forces, cold
 iron wardens are inquisitors who dedicate their lives to eradicating the taint of
 [demonkind](ref/family/demon) from Golarion.

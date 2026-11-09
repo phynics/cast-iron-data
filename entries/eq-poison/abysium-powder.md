@@ -6,6 +6,9 @@ source_ids = ["pathfinder-61-shards-of-sin"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "abysium_powder", path = "json/equipment_poisons.json" },
 ]
+[[sources]]
+publication = "pathfinder-61-shards-of-sin"
+page = "70"
 
 [fields]
 kind = "item"
@@ -13,8 +16,6 @@ category = "Poisons"
 price = "900 gp"
 weight = "&mdash;"
 +++
-
-**Sources:** Pathfinder \#61: Shards of Sin pg 70
 
 **Price** 900 gp; **Weight** —
 

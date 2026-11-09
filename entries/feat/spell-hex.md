@@ -6,14 +6,15 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_hex", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "156"
 
 [fields]
 kind = "feat"
 prerequisites = "Major hex class feature."
 benefit = "Select one 1st-level spell in the class that grants you the major hex class feature. You can learn that spell as a hex, and can use that hex three times per day. This is a spell-like ability. You use your class level in the major-hex-granting class as your caster level for the spell hex. The spell hex uses your hex DC instead of its original spell DC."
 +++
-
-**Sources:** Ultimate Magic pg 156
 
 You can transform a 1st-level spell into a hex.\
 **Prerequisites:** Major hex class feature.\

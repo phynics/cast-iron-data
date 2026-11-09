@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "salamander", path = "json/monsters37.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "240"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ blackened, fiery-red scales._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 240\
 **Subtype:** Extraplanar, Fire
 
 **Experience points:** 2,400

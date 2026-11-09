@@ -6,6 +6,9 @@ source_ids = ["hell-unleashed"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "throne_of_blasphemy", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "hell-unleashed"
+page = "62"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong enchantment"
 caster_level = "16th"
 +++
 
-**Sources:** Hell Unleashed pg 62\
 **Aura** strong enchantment; **CL** 16th\
 **Slot** none; **Price** -; **Weight** 500 lbs.
 

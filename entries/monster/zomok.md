@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "pathfinder-36-sound-of-a-thousand-screams"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "zomok", path = "json/monsters41.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "287"
+[[sources]]
+publication = "pathfinder-36-sound-of-a-thousand-screams"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ soil, and it exhales clouds of dirt._
 
 **Type:** plant
 
-**Sources:** Bestiary 4 pg 287, Pathfinder \#36: Sound of a Thousand Screams pg 88\
 **Subtype:** Extraplanar
 
 **tremorsense:** 60

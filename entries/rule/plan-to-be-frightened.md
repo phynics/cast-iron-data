@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plan_to_be_frightened", path = "json/rules_campaign_types02.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "9"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 9
 
 Characters who aren't afraid of anything - or who are incapable of emotion - are the worst
 characters to play in a horror adventure. If the slasher bursts onto the scene and no one's startled

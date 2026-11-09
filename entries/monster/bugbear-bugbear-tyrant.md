@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bugbear_bugbear_tyrant", path = "json/monsters04.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "27"
 
 [fields]
 kind = "creature"
@@ -50,7 +53,6 @@ the thrill of the coming kill._
 
 **Senses:** Darkvision 60 ft., Scent
 
-**Sources:** Monster Codex pg 27\
 **Subtype:** Goblinoid
 
 **Experience points:** 25,600

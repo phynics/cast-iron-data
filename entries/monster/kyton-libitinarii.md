@@ -6,6 +6,9 @@ source_ids = ["pathfinder-137-the-city-outside-of-time"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kyton_libitinarii", path = "json/monsters15.json" },
 ]
+[[sources]]
+publication = "pathfinder-137-the-city-outside-of-time"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ lengths of razor-sharp, bloodstained icicles._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#137: The City Outside of Time pg 84\
 **Subtype:** Cold, Evil, Extraplanar, Kyton, Lawful
 
 **Experience points:** 25,600

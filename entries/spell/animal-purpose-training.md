@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animal_purpose_training", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "173"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Target: one indifferent or friendly animal
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Advanced Class Guide pg 173
 
 You instill the target animal with a general purpose (see the
 [Handle Animal](ref/skill/handle-animal) skill), which can be any purpose except combat training:

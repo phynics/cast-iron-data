@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "anchored_step", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "173"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Advanced Class Guide pg 173
 
 Powerful tendrils grow out of the bottom of your feet or footwear, partially anchoring you to the
 ground and making it more difficult for others to move you against your will. These tendrils dig

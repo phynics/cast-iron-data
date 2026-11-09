@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "advancing_your_character", path = "json/rules_basics01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "30"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 30
 
 A character advances in level as soon as he earns enough experience points to do so - typically,
 this occurs at the end of a game session, when your GM hands out that session's experience point

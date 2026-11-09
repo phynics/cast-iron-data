@@ -6,6 +6,9 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inertial_dampening_belt", path = "json/equipment_tech_misc.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "48"
 
 [fields]
 kind = "item"
@@ -15,7 +18,6 @@ weight = "2 lbs."
 slot = "none"
 +++
 
-**Sources:** Technology Guide pg 48\
 **Price** 10,000 gp\
 **Slot** none; **Weight** 2 lbs.\
 **Capacity** 20; **Usage** see text

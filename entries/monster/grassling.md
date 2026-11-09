@@ -6,6 +6,9 @@ source_ids = ["pathfinder-129-the-twilight-child"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grassling", path = "json/monsters12.json" },
 ]
+[[sources]]
+publication = "pathfinder-129-the-twilight-child"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ each with fingers like long blades, and leaves circle its head like a crown._
 
 **Size:** small
 
-**Sources:** Pathfinder \#129: The Twilight Child pg 86\
 **Experience points:** 2,400
 
 **Armor class:** 19/15/15

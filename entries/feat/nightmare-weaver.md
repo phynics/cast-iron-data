@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nightmare_weaver", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "112"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "This feat counts as Dazzling Display for purposes of qualifying for D
 +++
 
 ## Nightmare Weaver (Combat)
-
-**Sources:** Ultimate Combat pg 112
 
 You can use your ability to create magical darkness to terrorize enemies.\
 **Prerequisites:** [Improved Unarmed Strike](ref/feat/improved-unarmed-strike),

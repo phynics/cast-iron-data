@@ -6,6 +6,9 @@ source_ids = ["bestiary-4", "pathfinder-46-wake-of-the-watcher"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "colour_blighted", path = "json/monster_template1.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "39;Pathfinder #46: Wake of the Watcher/77"
 
 [fields]
 kind = "none"
@@ -18,8 +21,6 @@ kind = "none"
 **Challenge rating:** +0
 
 **Simple:** present
-
-**Source:** Bestiary 4/39;Pathfinder \#46: Wake of the Watcher/77
 
 A creature with the colour-blighted simple template appears hideously deformed and glows with the
 same unnamable color as the creature that blighted it. A colour-blighted creature's quick and

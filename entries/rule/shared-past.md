@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shared_past", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "64"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 64
 
 One of the easiest ways to deal with the first time characters meet is to make it their hundredth
 time. Working with players to create characters who know each other from the start alleviates much

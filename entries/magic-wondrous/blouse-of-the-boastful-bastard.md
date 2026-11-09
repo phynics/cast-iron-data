@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blouse_of_the_boastful_bastard", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "227"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Advanced Class Guide pg 227\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** chest; **Price** 8,000 gp; **Weight** -
 

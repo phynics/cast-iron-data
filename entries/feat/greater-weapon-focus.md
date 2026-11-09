@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_weapon_focus", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "126"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "You can gain Greater Weapon Focus multiple times. Its effects do not 
 +++
 
 ## Greater Weapon Focus (Combat)
-
-**Sources:** PRPG Core Rulebook pg 126
 
 Choose one type of weapon (including unarmed strike or grapple) for which you have already selected
 Weapon Focus. You are a master at your chosen weapon.\

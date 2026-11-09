@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "isonade", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "147"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ pectoral fins covered in cruel hooks._
 
 **Senses:** Darkvision 120 ft.
 
-**Sources:** Bestiary 5 pg 147\
 **Subtype:** Aquatic
 
 **Experience points:** 51,200

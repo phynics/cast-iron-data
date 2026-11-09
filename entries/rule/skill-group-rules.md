@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skill_group_rules", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "70"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 70
 
 At 1st level, a character gains training in a number of skill groups determined by her class's
 number of skill ranks per level, as shown on Table 2-3: Skill Specialties and Groups by Level. A

@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "selective_invisibility", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "31"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Target: you and one other creature
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** Dirty Tactics Toolbox pg 31
 
 Upon casting this spell, you turn invisible, as per the [invisibility](ref/spell/invisibility)
 spell, and you choose a second target. That creature can still see you as though you were not

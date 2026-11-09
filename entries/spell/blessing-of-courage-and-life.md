@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blessing_of_courage_and_life", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "205"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Target: one living creature
 Subschool: Healing
 Descriptors: emotion
 :::
-
-**Sources:** Advanced Player's Guide pg 205
 
 With this prayer you provide long-lasting succor to a wounded creature. For as long as the effect
 lasts, the target receives a +2 morale bonus on saving throws against fear and death effects. At any

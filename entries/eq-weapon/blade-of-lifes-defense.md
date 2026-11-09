@@ -6,14 +6,18 @@ source_ids = ["merchants-manifest", "ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blade_of_lifes_defense", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "merchants-manifest"
+page = "7"
+[[sources]]
+publication = "ultimate-equipment"
+page = "20"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "6 lbs."
 +++
-
-**Sources:** Merchant's Manifest pg 7, Ultimate Equipment pg 20
 
 This [khopesh](ref/eq-weapon/khopesh) has a silver blade polished to an almost blinding sheen and
 etched with motifs of vines and leaves. Blades of life's defense can be bought in Anuli's Sword

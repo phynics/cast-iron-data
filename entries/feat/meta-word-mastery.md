@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "meta_word_mastery", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "166"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can use meta words three additional times per day. In addition, s
 +++
 
 ## Meta Word Mastery (Words of Power)
-
-**Sources:** Ultimate Magic pg 166
 
 You are skilled at using meta words to enhance your wordcasting ability.\
 **Prerequisites:** Ability to cast [wordspells](ref/rule/words-of-power).\

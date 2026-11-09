@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "toxic_spell", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "9"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can use 1 dose of contact, ingested, inhaled, or injury poison as
 +++
 
 ## Toxic Spell (Metamagic)
-
-**Sources:** Dirty Tactics Toolbox pg 9
 
 You can infuse a spell with the power of a poison.\
 **Prerequisites:** Craft (poison) 5 ranks, ability to cast 2nd-level spells,

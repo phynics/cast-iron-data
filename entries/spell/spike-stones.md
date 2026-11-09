@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spike_stones", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "348"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: yes
 Area: one 20-ft. square/level
 Descriptors: earth
 :::
-
-**Sources:** PRPG Core Rulebook pg 348
 
 Rocky ground, stone floors, and similar surfaces shape themselves into long, sharp points that blend
 into the background.

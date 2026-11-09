@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arms_and_armor", path = "json/rules_opt_pc_adv01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "159"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 159
 
 Under this system, weapons and armor are not forged with pure enhancement bonuses, and don't need to
 have a +1 enhancement bonus to have a special ability. Instead, add up the effective enhancement

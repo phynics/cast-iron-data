@@ -6,6 +6,9 @@ source_ids = ["plunder-and-peril"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "incutilis_incutilis_lord", path = "json/monsters14.json" },
 ]
+[[sources]]
+publication = "plunder-and-peril"
+page = "60"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ _A curved shell protects an unsightly mass of barbed tentacles, ringed by numero
 
 **Senses:** All-around vision, Darkvision 60 ft.
 
-**Sources:** Plunder and Peril pg 60\
 **Subtype:** Aquatic
 
 **Experience points:** 4,800

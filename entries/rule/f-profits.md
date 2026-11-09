@@ -6,12 +6,14 @@ source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "f_profits", path = "json/rules_subsystems01.json" },
 ]
+[[sources]]
+publication = "faction-guide"
+page = "38"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Faction Guide pg 38\
 **Pathfinder Name:** Prophets of Kalistrade\
 **Goal:** Gain personal wealth through any means, fulfilling the old prophecies\
 **Alignment:** LN\

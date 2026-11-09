@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "djinni_spirit", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "97"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You gain one additional Elemental Fist attempt per day. While using D
 +++
 
 ## Djinni Spirit (Combat)
-
-**Sources:** Ultimate Combat pg 97
 
 By calling upon the spirits of storms, you can manipulate lightning to protect yourself and buffet
 your enemies with peals of thunder.\

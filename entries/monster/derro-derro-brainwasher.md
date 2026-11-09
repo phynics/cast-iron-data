@@ -6,6 +6,9 @@ source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "derro_derro_brainwasher", path = "json/monsters07.json" },
 ]
+[[sources]]
+publication = "inner-sea-monster-codex"
+page = "24"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ eyes twinkle with madness._
 
 **Size:** small
 
-**Sources:** Inner Sea Monster Codex pg 24\
 **Subtype:** Derro
 
 **Experience points:** 1,600

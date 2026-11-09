@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "evil_priest", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "91"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 91
 
 An evil priest is typically a cleric or adept, although he may have some levels in other classes in
 keeping with the interests of his patron deity. Evil priests can be of any race or evil alignment.

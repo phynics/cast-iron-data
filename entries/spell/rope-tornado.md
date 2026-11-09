@@ -6,6 +6,9 @@ source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rope_tornado", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "wilderness-origins"
+page = "27"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: yes
 Area: 120 ft. line
 Descriptors: air
 :::
-
-**Sources:** Wilderness Origins pg 27
 
 A spiraling twister of tornado-force wind surges forth from your palm, unbalancing those it rushes
 over. Creatures on the ground within the area are knocked prone. A flying creature within the

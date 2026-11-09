@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rime_spell", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "155"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "The frost of your cold spell clings to the target, impeding it for a 
 +++
 
 ## Rime Spell (Metamagic)
-
-**Sources:** Ultimate Magic pg 155
 
 Creatures damaged by your spells with the cold descriptor become entangled.\
 **Benefit:** The frost of your cold spell clings to the target, impeding it for a short time. A rime

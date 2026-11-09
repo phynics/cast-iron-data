@@ -6,6 +6,9 @@ source_ids = ["construct-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "steam_powered_construct", path = "json/monster_template4.json" },
 ]
+[[sources]]
+publication = "construct-handbook"
+page = "62"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Challenge rating:** +2
 
 **Inherited:** present
-
-**Source:** Construct Handbook/62
 
 Though some scholars may argue about who exactly created the first steam-powered clockwork, the
 secret of their manufacture is now out. Savvy engineers have started to create faster and more

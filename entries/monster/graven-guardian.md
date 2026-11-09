@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "graven_guardian", path = "json/monsters12.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "140"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ hooked sword._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 3 pg 140\
 **Experience points:** 1,600
 
 **Armor class:** 20/12/18

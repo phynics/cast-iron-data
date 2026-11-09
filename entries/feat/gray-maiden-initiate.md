@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gray_maiden_initiate", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "84"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Female, must be taken at 1st level."
 benefit = "You are affiliated with the Gray Maidens. In addition, choose two of the following benefits to represent the focus of your initial training and indoctrination."
 special = "This feat is unaffiliated; a creature need not be affiliated with the Gray Maidens to select this feat."
 +++
-
-**Sources:** Adventurer's Guide pg 84
 
 You were selected for indoctrination into the [Gray Maidens](ref/rule/aff-scarred-ladies) and
 underwent some of the preliminary scarring and conditioning, but Queen Ileosa was defeated before

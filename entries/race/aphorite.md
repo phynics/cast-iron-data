@@ -6,12 +6,14 @@ source_ids = ["planar-adventures", "plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aphorite", path = "json/races.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "224"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Planar Adventures pg 224\
 The primary inhabitants of the perfect city of Axis are the race known as axiomites, outsiders born
 of lawful neutral souls whose primary focus is to serve Axis in one of three ways: the construction
 and tending of inevitables, the expansion and maintenance of the city itself, and exploring and

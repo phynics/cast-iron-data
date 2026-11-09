@@ -6,12 +6,14 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "welcome_the_blighted_soul", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "250"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Bestiary 6 pg 250\
 **School** necromancy \[evil\]; **Level** 9\
 **Casting Time** 9 hours (only during the new moon)\
 **Components** V, S, F (ring of standing stones empowered with necromancy that cost 25,000 gp to

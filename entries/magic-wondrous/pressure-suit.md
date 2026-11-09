@@ -6,6 +6,9 @@ source_ids = ["distant-worlds"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pressure_suit", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "distant-worlds"
+page = "55"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Sources:** Distant Worlds pg 55\
 **Aura** faint abjuration; **CL** 5th\
 **Slot** body and helm (see text); **Price** 4,000 gp; **Weight** 30 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rhinoceros", path = "json/monsters20.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "235"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ _This rhinoceros has a low-slung head with twisted ears that lie back along its 
 
 **Senses:** Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 235\
 **Experience points:** 1,200
 
 **Armor class:** 16/9/16

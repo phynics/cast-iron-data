@@ -6,6 +6,9 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sailor_first_mate", path = "json/npcs8.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "295"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "8"
 
 **Challenge rating:** 8
 
-**Sources:** GameMastery Guide pg 295\
 **XP** 4,800\
 Human [expert](ref/npcclass/expert) 4/[fighter](ref/class/fighter) 5\
 N Medium humanoid\

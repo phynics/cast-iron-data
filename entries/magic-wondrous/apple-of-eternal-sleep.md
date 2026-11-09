@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "apple_of_eternal_sleep", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "281"
+[[sources]]
+publication = "advanced-players-guide"
+page = "300"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate enchantment"
 caster_level = "10th"
 +++
 
-**Sources:** Ultimate Equipment pg 281, Advanced Player's Guide pg 300\
 **Aura** moderate enchantment; **CL** 10th\
 **Slot** none; **Price** 2,500 gp; **Weight** -
 

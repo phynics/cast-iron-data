@@ -6,6 +6,9 @@ source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dolphin_dart", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
+page = "57"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While in Dolphin Style, as a standard action underwater you can move 
 +++
 
 ## Dolphin Dart (Combat)
-
-**Sources:** Aquatic Adventures pg 57
 
 Like a dolphin, you can quickly dart at a foe and retreat.\
 **Prerequisites:** [Dolphin Style](ref/feat/dolphin-style),

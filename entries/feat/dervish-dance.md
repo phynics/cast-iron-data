@@ -6,6 +6,12 @@ source_ids = ["inner-sea-world-guide", "qadira-gateway-to-the-east"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dervish_dance", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "286"
+[[sources]]
+publication = "qadira-gateway-to-the-east"
+page = "23"
 
 [fields]
 kind = "feat"
@@ -16,8 +22,6 @@ benefit = "When wielding a scimitar with one hand, you can use your Dexterity mo
 +++
 
 ## Dervish Dance (Combat)
-
-**Sources:** Inner Sea World Guide pg 286, Qadira, Gateway to the East pg 23
 
 You have learned to turn your speed into power, even with a heavier blade.\
 **Prerequisites:** Dexterity 13, [Weapon Finesse](ref/feat/weapon-finesse), Perform (dance) 2 ranks,

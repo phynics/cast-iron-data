@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rusting_grasp", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "335"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: none
 Spell resistance: no
 Target: one nonmagical ferrous object (or the volume of the object within 3 ft. of the touched point) or one ferrous creature
 :::
-
-**Sources:** PRPG Core Rulebook pg 335
 
 Any iron or iron alloy item you touch crumbles into rust. If the item is so large that it cannot fit
 within a 3-foot radius, a 3-foot-radius volume of the metal is rusted and destroyed. Magic items

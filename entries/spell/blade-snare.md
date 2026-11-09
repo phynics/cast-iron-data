@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blade_snare", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "230"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Inner Sea Gods pg 230
 
 This spell creates an invisible magic field that does not stop weapons (whether manufactured or
 natural) from moving toward you, but impedes their motion when they are retracted. When you are hit

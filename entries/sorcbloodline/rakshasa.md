@@ -6,13 +6,15 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rakshasa", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "68"
 
 [fields]
 kind = "class_option"
 group = "sorcerer-bloodline"
 +++
 
-**Sources:** Ultimate Magic pg 68\
 At some point in your family's history, one of your ancestors was tainted by the influence of
 [a rakshasa](ref/family/rakshasa). Though most of your family seem entirely normal, you have always
 felt your own skin is a prison from which magic allows you to escape. Your birthright is a secret

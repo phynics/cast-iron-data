@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "forge_fist_amulet", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "258"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint evocation"
 caster_level = "6th"
 +++
 
-**Sources:** Ultimate Equipment pg 258\
 **Aura** faint evocation; **CL** 6th\
 **Slot** neck; **Price** 13,000 gp; **Weight** 1 lb.
 

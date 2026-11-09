@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fairy_ring_retreat", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "181"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: no
 Effect: extradimensional meadow, up to three 10-ft. cubes/level (S)
 Subschool: Creation
 :::
-
-**Sources:** Advanced Class Guide pg 181
 
 You conjure up an extradimensional meadow that can be accessed from a single entrance on the plane
 from which the spell was cast. The entry point looks like a circle of toadstools enclosing a 10-foot

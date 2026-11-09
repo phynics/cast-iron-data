@@ -6,6 +6,9 @@ source_ids = ["dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tactical_formation", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "dwarves-of-golarion"
+page = "23"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Area: up to one creature/level, no two of which may be more than 30 ft. apart
 :::
-
-**Sources:** Dwarves of Golarion pg 23
 
 > _In order to prepare this spell, the caster must spend an hour performing a ritual in which he
 > beseeches [Torag](ref/faith/torag) (or a member of his family) for the aid of Torag. For 24 hours

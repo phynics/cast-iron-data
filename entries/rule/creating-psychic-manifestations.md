@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "creating_psychic_manifestations", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "202"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 202
 
 Psychic manifestations have three main types: offensive manifestations, defensive manifestations,
 and thought-form creatures. For the purpose of [concentration](ref/rule/concentration) checks,

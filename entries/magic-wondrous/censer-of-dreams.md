@@ -6,6 +6,9 @@ source_ids = ["pathfinder-65-into-the-nightmare-rift"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "censer_of_dreams", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "pathfinder-65-into-the-nightmare-rift"
+page = "62"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "11th"
 +++
 
-**Sources:** Pathfinder \#65: Into the Nightmare Rift pg 62\
 **Aura** moderate abjuration; **CL** 11th\
 **Slot** none; **Price** 8,000 gp; **Weight** 5 lbs.
 

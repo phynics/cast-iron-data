@@ -6,12 +6,14 @@ source_ids = ["pathfinder-30-the-twice-damned-prince"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_spread_of_fire", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "pathfinder-30-the-twice-damned-prince"
+page = "59"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder \#30: The Twice-Damned Prince pg 59\
 Unchecked, fire tends to spread both rapidly and unpredictably. Minor factors, such as the dryness
 of the burning material, the presence of wind or breeze, flammable finish on flooring, dry
 vegetation in an area, and countless other factors can all contribute to the spread of a fire. Once

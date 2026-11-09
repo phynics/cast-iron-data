@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divided_parties", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "104"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 104
 
 In general, this influence system assumes that the PCs share roughly the same goals, and that the
 party shares the total number of successful influence checks. Games developed around intrigue can

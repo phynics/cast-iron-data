@@ -6,12 +6,13 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tds_2_arcane", path = "json/rules_adv_gm06.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "373"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Equipment pg 373
 
 ### Table 7-24: 2nd-Level Arcane Scrolls
 

@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nagaji_scale_polish", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "197"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Sources:** Advanced Race Guide pg 197\
 **Aura** moderate evocation; **CL** 7th\
 **Slot** none; **Price** 1,400 gp; **Weight** 1/2 lb.
 

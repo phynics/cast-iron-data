@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "murderers_blackcloth", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "128"
+[[sources]]
+publication = "advanced-players-guide"
+page = "285"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate necromancy"
 caster_level = "9th"
 +++
 
-**Sources:** Ultimate Equipment pg 128, Advanced Player's Guide pg 285\
 **Aura** moderate necromancy; **CL** 9th\
 **Slot** armor; **Price** 12,405 gp; **Weight** 10 lbs.
 

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/antipaladin" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "64"
 
 [fields]
 kind = "archetype"
 replaces = ["Fiendish boon", "Aura of despair", "The smite good use gained at 10th level", "Aura of vengeance", "Aura of sin", "Cruelty", "Aura of depravity", "Unholy champion"]
 +++
 
-**Sources:** Ultimate Combat pg 64\
 Not content with the antipaladin's mere corruption of the soul, the knight of the sepulcher
 sacrifices mortality along with morality.
 

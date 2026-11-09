@@ -6,6 +6,9 @@ source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summon_elemental_steed", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "faction-guide"
+page = "61"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Spell resistance: no
 Effect: one chariot
 Subschool: Summoning
 :::
-
-**Sources:** Faction Guide pg 61
 
 You summon a greater elemental (air, earth, fire, or water) bound in the form of a mighty chariot
 that moves at your command and can carry up to nine Medium creatures. Passengers inside are not

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "transplant_visage", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "244"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Spell resistance: no
 Target: you
 Descriptors: evil
 :::
-
-**Sources:** Inner Sea Gods pg 244
 
 This spell allows you to add a creature's stolen face to or remove such a face that you've already
 applied from your own. Before casting this spell, you must remove the face and eyes of a creature

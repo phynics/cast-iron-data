@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "pathfinder-50-night-of-frozen-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aspect_of_the_nightingale", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "228"
+[[sources]]
+publication = "pathfinder-50-night-of-frozen-shadows"
+page = "75"
 
 [fields]
 kind = "spell"
@@ -48,8 +54,6 @@ Spell resistance: no
 Target: you
 Subschool: Polymorph
 :::
-
-**Sources:** Inner Sea Gods pg 228, Pathfinder \#50: Night of Frozen Shadows pg 75
 
 You take on an aspect of a nightingale. Your voice becomes clear and pleasant. You gain a +2
 competence bonus on Perform (sing) checks and a +2 competence bonus on Diplomacy checks. Once per

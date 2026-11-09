@@ -6,6 +6,9 @@ source_ids = ["the-first-world-realm-of-the-fey"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_green_mother", path = "json/faiths8.json" },
 ]
+[[sources]]
+publication = "the-first-world-realm-of-the-fey"
+page = "20"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **The Green Mother**
 
 **Sub:** The Feasting Flower
-
-**Sources:** The First World, Realm of the Fey pg 20
 
 ### Details
 

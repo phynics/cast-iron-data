@@ -6,6 +6,9 @@ source_ids = ["inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mana_wastes_mutant", path = "json/monster_template3.json" },
 ]
+[[sources]]
+publication = "inner-sea-bestiary"
+page = "28"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +1
-
-**Source:** Inner Sea Bestiary/28
 
 The magic-warping effects of the Mana Wastes often extend to the very life force of creatures who
 wander the trackless deserts. The dangerous radiations of magic gone afoul infuse the bodies and

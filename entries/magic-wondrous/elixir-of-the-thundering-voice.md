@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elixir_of_the_thundering_voice", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "229"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Advanced Class Guide pg 229\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** none; **Price** 250 gp; **Weight** -
 

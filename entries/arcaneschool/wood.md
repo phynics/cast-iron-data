@@ -6,13 +6,15 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wood", path = "json/class_ability_arcane_schools.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "88"
 
 [fields]
 kind = "class_option"
 group = "arcane-school"
 +++
 
-**Sources:** Ultimate Magic pg 88\
 Wood represents flexibility, warmth, wind, generosity, cooperation, and idealism. Practitioners of
 this elemental magic often resemble druids in character and in the use of their magic.
 

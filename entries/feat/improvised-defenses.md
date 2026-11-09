@@ -10,6 +10,9 @@ relations = [
   { kind = "prerequisite", target = "ref/feat/catch-off-guard", label = "or" },
   { kind = "prerequisite", target = "ref/feat/throw-anything", label = "or" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "9"
 
 [fields]
 kind = "feat"
@@ -20,8 +23,6 @@ benefit = "You gain a +1 shield bonus to AC when you are wielding an improvised 
 +++
 
 ## Improvised Defenses (Combat)
-
-**Sources:** Martial Arts Handbook pg 9
 
 You can deftly defend yourself with makeshift weapons.\
 **Prerequisites:** [Catch Off-Guard](ref/feat/catch-off-guard) or

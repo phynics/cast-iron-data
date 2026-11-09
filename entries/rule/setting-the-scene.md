@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "setting_the_scene", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "108"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 108
 
 The PCs have been invited to a day of festivities at the estate of the hostess to discuss trade
 agreements and access to exotic markets. The hostess meets the PCs when they arrive late at night,

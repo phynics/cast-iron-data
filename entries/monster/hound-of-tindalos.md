@@ -6,6 +6,12 @@ source_ids = ["bestiary-2", "pathfinder-4-fortress-of-the-stone-giants"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hound_of_tindalos", path = "json/monsters14.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "158"
+[[sources]]
+publication = "pathfinder-4-fortress-of-the-stone-giants"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -44,7 +50,6 @@ with a predatory grace._
 
 **Senses:** Darkvision 120 ft.
 
-**Sources:** Bestiary 2 pg 158, Pathfinder \#4: Fortress of the Stone Giants pg 82\
 **Subtype:** Evil, Extraplanar
 
 **Experience points:** 3,200

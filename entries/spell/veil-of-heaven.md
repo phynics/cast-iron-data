@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "veil_of_heaven", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "89"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Spell resistance: no
 Target: you or all creatures within 5 ft.; see text
 Descriptors: good
 :::
-
-**Sources:** Advanced Race Guide pg 89
 
 > _[Aasimars](ref/race/aasimar) have access to the following spell._
 

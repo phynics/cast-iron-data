@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "throat_slicer", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-streets"
+page = "29"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When using a one-handed, light, or natural weapon, you can deliver a 
 +++
 
 ## Throat Slicer (Combat)
-
-**Sources:** Heroes of the Streets pg 29
 
 Sometimes the only way to deal with those who see your illicit activities is to get rid of them.\
 **Prerequisites:** Base attack bonus +1.\

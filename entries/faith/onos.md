@@ -6,6 +6,9 @@ source_ids = ["pathfinder-123-the-flooded-cathedral"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "onos", path = "json/faiths7.json" },
 ]
+[[sources]]
+publication = "pathfinder-123-the-flooded-cathedral"
+page = "72"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Onos**
 
 **Sub:** God of Many Doors
-
-**Sources:** Pathfinder \#123: The Flooded Cathedral pg 72
 
 ### Details
 

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-80-empty-graves"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "maat", path = "json/faiths5.json" },
 ]
+[[sources]]
+publication = "pathfinder-80-empty-graves"
+page = "70"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Maat**
 
 **Sub:** The Feather of Truth
-
-**Sources:** Pathfinder \#80: Empty Graves pg 70
 
 ### Details
 

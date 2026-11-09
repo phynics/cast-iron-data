@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elixir_of_fire_breath", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "295"
+[[sources]]
+publication = "core-rulebook"
+page = "511"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate evocation"
 caster_level = "11th"
 +++
 
-**Sources:** Ultimate Equipment pg 295, PRPG Core Rulebook pg 511\
 **Aura** moderate evocation; **CL** 11th\
 **Slot** none; **Price** 1,100 gp; **Weight** -
 

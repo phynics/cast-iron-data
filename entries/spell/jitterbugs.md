@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jitterbugs", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "39"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Target: one creature
 Subschool: Figment
 Descriptors: mind-affecting
 :::
-
-**Sources:** Advanced Race Guide pg 39
 
 > _[Gnomes](ref/race/gnome) have access to the following spell._
 

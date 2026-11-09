@@ -6,6 +6,9 @@ source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gillman_ship_scavenger", path = "json/monsters12.json" },
 ]
+[[sources]]
+publication = "inner-sea-monster-codex"
+page = "30"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ smirk suggest a sharp mind and daring nature._
 
 **Perception:** +9
 
-**Sources:** Inner Sea Monster Codex pg 30\
 **Subtype:** Aquatic
 
 **Experience points:** 1,600

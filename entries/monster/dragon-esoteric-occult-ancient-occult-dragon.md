@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_esoteric_occult_ancient_occult_dragon", path = "json/monsters31.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "97"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ ft.)
 
 **Senses:** Appraising sight, Aura sight, Dragon senses
 
-**Sources:** Bestiary 5 pg 97\
 **Experience points:** 51,200
 
 **Armor class:** 38/8/38

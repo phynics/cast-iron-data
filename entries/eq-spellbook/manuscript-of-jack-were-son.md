@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "manuscript_of_jack_were_son", path = "json/equipment_spellbooks.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "123"
 
 [fields]
 kind = "item"
@@ -18,8 +21,6 @@ _Blood, dirt, wine, and more stain this white leather book. The owner's name, Ja
 stamped into the cover in peeling gold, yet no more information about the author is immediately
 evident. Several of the pages contain careful diagrams and illustrations done by a competent but
 uninspiring artist._
-
-**Sources:** Ultimate Magic pg 123
 
 **Protection** [Average lock](ref/eq-misc/lock-average) with [arcane lock](ref/spell/arcane-lock)
 (DC 35) and [explosive runes](ref/spell/explosive-runes) (Reflex DC 16)\

@@ -6,6 +6,9 @@ source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "repugnant_taste", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "monster-hunters-handbook"
+page = "30"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Spell resistance: yes (harmless)
 Target: creature touched
 Descriptors: poison
 :::
-
-**Sources:** Monster Hunter's Handbook pg 30
 
 The target creature begins sweating a foul liquid that makes it repugnant to most living creatures.
 When a creature deals damage to the affected creature with a bite attack or the swallow whole

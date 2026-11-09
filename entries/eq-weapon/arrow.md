@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arrow", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "22"
+[[sources]]
+publication = "core-rulebook"
+page = "143"
 
 [fields]
 kind = "item"
@@ -14,8 +20,6 @@ weight = "0.15 lbs."
 +++
 
 ## Arrows
-
-**Sources:** Ultimate Equipment pg 22, PRPG Core Rulebook pg 143
 
 An arrow used as a melee weapon is treated as a light
 [improvised weapon](ref/misc/improvised-weapons) (-4 penalty on attack rolls) and deals damage as a

@@ -6,6 +6,9 @@ source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vermin_mask", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "people-of-the-wastes"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Sources:** People of the Wastes pg 31\
 **Aura** moderate transmutation; **CL** 7th\
 **Slot** head; **Price** 10,080 gp; **Weight** 1 lb.
 

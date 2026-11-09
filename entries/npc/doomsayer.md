@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "doomsayer", path = "json/npcs6.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "43"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "19"
 
 **Challenge rating:** 19
 
-**Sources:** NPC Codex pg 43\
 **XP** 204,800\
 Human [bard](ref/class/bard) 20\
 NE Medium humanoid (human)\

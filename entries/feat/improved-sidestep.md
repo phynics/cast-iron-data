@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_sidestep", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "163"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "If you use the Sidestep feat, you cannot take a 5-foot step during you
 +++
 
 ## Improved Sidestep (Combat)
-
-**Sources:** Advanced Player's Guide pg 163
 
 You are adept at sidestepping your opponent's melee attacks without compromising your mobility.\
 **Prerequisites:** Dex 15, [Dodge](ref/feat/dodge), [Mobility](ref/feat/mobility),

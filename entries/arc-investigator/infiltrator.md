@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/investigator" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "100"
 
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Poison lore", "Poison resistance"]
 +++
 
-**Sources:** Advanced Class Guide pg 100\
 An infiltrator specializes in investigating or disrupting groups from within. He uses his
 specialized set of skills and alchemical abilities to morph into the shape of the people or
 creatures whose company he's infiltrating, or even specific individuals.

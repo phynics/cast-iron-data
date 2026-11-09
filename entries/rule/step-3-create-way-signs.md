@@ -6,12 +6,13 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "step_3_create_way_signs", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "126"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Wilderness pg 126
 
 Way signs provide information about the territory and, if correctly interpreted, can provide bonus
 Discovery Points. A way sign could be as simple as a vantage point that offers a glimpse of a

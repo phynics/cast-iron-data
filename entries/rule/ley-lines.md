@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ley_lines", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "232"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 232
 
 Researchers into the occult theorize that all the worlds of the Material Plane and the planes beyond
 are alive. While the exact measure of life and consciousness the universe exhibits is debated,

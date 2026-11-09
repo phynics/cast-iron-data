@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "noble_crusader", path = "json/npcs5.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "46"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "4"
 
 **Challenge rating:** 4
 
-**Sources:** NPC Codex pg 46\
 **XP** 1,200\
 Human [cleric](ref/class/cleric) of [Iomedae](ref/faith/iomedae) 5\
 LN Medium humanoid (human)\

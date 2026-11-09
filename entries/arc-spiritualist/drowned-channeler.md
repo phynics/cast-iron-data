@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/spiritualist" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
+page = "52"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Bonded senses", "Detect undead", "calm spirit", "see invisibility",
 alters = ["Phantom", "shared consciousness", "etheric tether", "bonded manifestation"]
 +++
 
-**Sources:** Aquatic Adventures pg 52\
 When a drowned spirit doomed to a watery grave descends toward the evil of undeath and seeks refuge
 in a mortal shell, the result is an unusual spiritualist with powers that resonate with the drowned
 spirit's demise.

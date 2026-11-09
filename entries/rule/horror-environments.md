@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horror_environments", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "152"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 152
 
 While many Pathfinder campaigns tend to fixate on the monsters and NPCs that directly oppose the
 PCs, in a horror game, it's important to give the environment, atmosphere, and ambience equal

@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_intercept_blow", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "218"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When the animal companion uses Intercept Blow to intercept an opponen
 +++
 
 ## Improved Intercept Blow (Combat)
-
-**Sources:** Ultimate Wilderness pg 218
 
 The animal's intervention completely protects its master from harm.\
 **Prerequisites:** [Intercept Blow](ref/feat/intercept-blow), base attack bonus +6,

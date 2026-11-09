@@ -6,6 +6,9 @@ source_ids = ["pathfinder-63-the-asylum-stone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skin_harp", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "pathfinder-63-the-asylum-stone"
+page = "58"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment and necromancy"
 caster_level = "9th"
 +++
 
-**Sources:** Pathfinder \#63: The Asylum Stone pg 58\
 **Aura** moderate enchantment and necromancy; **CL** 9th\
 **Slot** none; **Price** 16,500 gp; **Weight** 5 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "maddening_oubliette", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "237"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: yes
 Target: one creature
 Subschool: Teleportation
 :::
-
-**Sources:** Inner Sea Gods pg 237
 
 The target is transported to a dark and dank prison in some unspecified horrific demiplane, where
 tentacles writhe around, clawed fingers grab at the creature (though they deal no damage), and

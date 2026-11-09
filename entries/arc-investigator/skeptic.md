@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/investigator" },
 ]
+[[sources]]
+publication = "haunted-heroes-handbook"
+page = "11"
 
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Poison resistance", "Swift alchemy", "Investigator talent gained at 7th level"]
 +++
 
-**Sources:** Haunted Heroes Handbook pg 11\
 The skeptic accepts the existence of the occult world while challenging claims that the supernatural
 explains all of life's problems. Skeptics tirelessly strive to debunk the legends surrounding
 possessions and spiritual hauntings, but stand prepared on the off chance a legend turns out to be

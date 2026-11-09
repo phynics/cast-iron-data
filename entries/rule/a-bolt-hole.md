@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "a_bolt_hole", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "93"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 93
 
 Every good villain has an escape route prepared for use if the final showdown goes in the PCs'
 favor. Only fools, fanatics, and psychotics ever fight to the death - most others will try to escape

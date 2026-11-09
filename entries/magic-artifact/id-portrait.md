@@ -6,6 +6,12 @@ source_ids = ["artifacts-and-legends", "gallery-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "id_portrait", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "artifacts-and-legends"
+page = "59"
+[[sources]]
+publication = "gallery-of-evil"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong enchantment, necromancy, and universal"
 caster_level = "20th"
 +++
 
-**Sources:** Artifacts and Legends pg 59, Gallery of Evil pg 31\
 **Aura** strong enchantment, necromancy, and universal; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 50 lbs.
 

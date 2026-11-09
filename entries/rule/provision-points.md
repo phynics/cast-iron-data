@@ -6,12 +6,13 @@ source_ids = ["pathfinder-115-trail-of-the-hunted"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "provision_points", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "pathfinder-115-trail-of-the-hunted"
+page = "23"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder \#115: Trail of the Hunted pg 23
 
 The basic rules for [starvation and thirst](ref/rule/starvation-and-thirst) can be found on in the
 basic rules. The resources the PCs and their followers need to survive are abstracted throughout

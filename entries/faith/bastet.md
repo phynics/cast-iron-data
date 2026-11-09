@@ -6,6 +6,9 @@ source_ids = ["pathfinder-80-empty-graves"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bastet", path = "json/faiths2.json" },
 ]
+[[sources]]
+publication = "pathfinder-80-empty-graves"
+page = "67"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Bastet**
 
 **Sub:** The Sly Enchantress
-
-**Sources:** Pathfinder \#80: Empty Graves pg 67
 
 ### Details
 

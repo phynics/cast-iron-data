@@ -6,14 +6,15 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cannon_fiends_mouth", path = "json/equipment_siege_engines.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "163"
 
 [fields]
 kind = "item"
 category = "Siege Engines"
 weight = "-"
 +++
-
-**Sources:** Ultimate Combat pg 163
 
 These massive cannons are usually crafted in multiple pieces, and sometimes feature the heads of
 demons, devils, or other fiends at their mouths. Like normal canons, they propel their projectiles

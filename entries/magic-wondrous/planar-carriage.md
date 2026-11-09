@@ -6,6 +6,9 @@ source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planar_carriage", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "plane-hoppers-handbook"
+page = "11"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration and transmutation"
 caster_level = "9th"
 +++
 
-**Sources:** Plane-Hopper's Handbook pg 11\
 **Aura** moderate conjuration and transmutation; **CL** 9th\
 **Slot** none; **Price** 121,500 gp; **Weight** 1,500 lbs.
 

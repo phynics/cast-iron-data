@@ -6,6 +6,9 @@ source_ids = ["pathfinder-133-secrets-of-roderics-cove"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "runewarded_gauntlets", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "pathfinder-133-secrets-of-roderics-cove"
+page = "39"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration"
 caster_level = "20th"
 +++
 
-**Sources:** Pathfinder \#133: Secrets of Roderic's Cove pg 39\
 **Aura** strong abjuration; **CL** 20th\
 **Slot** hands; **Price** -; **Weight** 2 lbs.
 

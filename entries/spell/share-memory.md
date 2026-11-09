@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "share_memory", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "238"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: Will negates
 Spell resistance: yes
 Target: you and one creature touched
 :::
-
-**Sources:** Ultimate Magic pg 238
 
 You momentarily link your mind with the target and share a single memory of no longer than 1 minute.
 You can show the target one of your memories, show the target one of its own memories, or view one

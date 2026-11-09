@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fluid_form", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "223"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: no
 Target: you
 Descriptors: water
 :::
-
-**Sources:** Advanced Player's Guide pg 223
 
 When you cast this spell, your body takes on a slick, oily appearance. For the duration of this
 spell, your form can stretch and shift with ease and becomes slightly transparent, as if you were

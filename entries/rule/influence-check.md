@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "influence_check", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "102"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 102
 
 Without a successful discovery check, a PC attempting an influence check must guess what an NPC's
 influence skills are. A PC generally gains no benefit or hindrance when using a skill that cannot

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cheatings", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "33"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 33
 
 Though it's considered more polite to call it "fudging," cheating happens; sometimes a GM will be
 tempted to alter a die roll to make the story go a certain way, or to save a player character from a

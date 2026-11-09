@@ -6,6 +6,9 @@ source_ids = ["lost-treasures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lasirros_staff", path = "json/magic_staff.json" },
 ]
+[[sources]]
+publication = "lost-treasures"
+page = "38"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong varies"
 caster_level = "15th"
 +++
 
-**Sources:** Lost Treasures pg 38\
 **Aura** strong varies; **CL** 15th\
 **Slot** none; **Price** 240,000 gp; **Weight** 5 lbs.
 

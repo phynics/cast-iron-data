@@ -6,11 +6,13 @@ source_ids = ["pathfinder-unchained"]
 relations = [
   { kind = "addon", target = "ref/feat/ferocious-tenacity", label = "stamina" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "119"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder Unchained pg 119\
 When using this feat, you can spend 2 stamina points in place of 1 round of rage to gain the same
 effects.

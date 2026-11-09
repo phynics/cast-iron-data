@@ -6,6 +6,9 @@ source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bear_trap_offset", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "16"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "10 lbs. Bear trap (offset), 20 lbs. Bear trap (sawtooth)"
 
 ## Bear Trap
 
-**Sources:** Adventurer's Armory 2 pg 16\
 **Price** 3 gp Bear trap (offset), 1,800 gp Bear trap (sawtooth); **Weight** 10 lbs. Bear trap
 (offset), 20 lbs. Bear trap (sawtooth)
 

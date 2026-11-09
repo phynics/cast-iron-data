@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "amnesia", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "8"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Target: one living creature
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Villain Codex pg 8
 
 You cause the target to lose most of its memories; its skills, its past, and even its name become
 mysteries to it. While the target can build new memories, it has trouble accessing those gained

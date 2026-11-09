@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sealed_life", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "185"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: none
 Spell resistance: yes
 Target: one creature
 :::
-
-**Sources:** Occult Adventures pg 185
 
 You seal the life force within the target, preventing it from sharing its vitality with others.
 Affected creatures can't transfer damage to or from another, such as through

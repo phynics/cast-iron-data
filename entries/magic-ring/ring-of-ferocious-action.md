@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_ferocious_action", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "170"
+[[sources]]
+publication = "advanced-race-guide"
+page = "58"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Equipment pg 170, Advanced Race Guide pg 58\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** ring; **Price** 3,000 gp; **Weight** -
 

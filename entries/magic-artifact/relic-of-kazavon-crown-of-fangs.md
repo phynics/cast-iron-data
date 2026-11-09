@@ -6,6 +6,9 @@ source_ids = ["artifacts-and-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "relic_of_kazavon_crown_of_fangs", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "artifacts-and-legends"
+page = "36"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong enchantment, illusion, necromancy"
 caster_level = "20th"
 +++
 
-**Sources:** Artifacts and Legends pg 36\
 **Aura** strong enchantment, illusion, necromancy; **CL** 20th\
 **Slot** head; **Price** -; **Weight** 4 lbs.
 

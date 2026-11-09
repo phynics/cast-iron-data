@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_tide", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "189"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Combat Expertise, Greater Blood Frenzy, base attack bonus +6, b
 prerequisite_feats = ["ref/feat/combat-expertise", "ref/feat/greater-blood-frenzy"]
 benefit = "When you make a full attack while in a blood frenzy, you can give up your regular attacks to instead make one melee attack at your highest base attack bonus against each bleeding or wounded opponent within reach. You must use a natural weapon with these attacks, and you must make a separate attack roll against each opponent. You do not need to use the same natural weapon against each opponent."
 +++
-
-**Sources:** Monster Codex pg 189
 
 In the throes of blood frenzy, you can unleash a whirlwind of claws and teeth against your foes.\
 **Prerequisites:** [Combat Expertise](ref/feat/combat-expertise),

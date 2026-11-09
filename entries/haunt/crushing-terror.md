@@ -6,12 +6,14 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crushing_terror", path = "json/haunts.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "179"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Adventures pg 179\
 Tales of a legendary linnorm have drawn many daring adventurers who wish to prove themselves by
 slaying the dragon. The linnorm, for its part, appreciates the sport of hunting those who seek it,
 and is particularly fond of crushing its victims to death with its powerful tail. The spirits of

@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_toxic_infusion", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "61"
+[[sources]]
+publication = "occult-origins"
+page = "9"
 
 [fields]
 kind = "class_option"
@@ -27,8 +33,6 @@ group = "kineticist-wild-talent"
 [Winter Blast](ref/kinetic/winter-blast), [Wood Blast](ref/kinetic/wood-blast)
 
 **Saving throw:** Fortitude negates
-
-**Source:** Ultimate Wilderness/61, Occult Origins/9
 
 Your plant toxin is more virulent. Each time you use this infusion, choose a physical ability score.
 Creatures that take piercing or slashing damage from your blast are exposed to your poison.

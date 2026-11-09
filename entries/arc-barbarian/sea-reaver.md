@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/barbarian" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "29"
 
 [fields]
 kind = "archetype"
 replaces = ["Fast movement", "Uncanny dodge", "Trap sense", "Improved uncanny dodge"]
 +++
 
-**Sources:** Ultimate Combat pg 29\
 Not all barbarians hunt forests, plains, and mountains. Some are raiding terrors on the sea and
 coasts, pillaging those who hoard treasure and pursuing monsters of the deep. Some sea reavers are
 no more than hunters of the open sea, while others are raiders striking fear into coastal

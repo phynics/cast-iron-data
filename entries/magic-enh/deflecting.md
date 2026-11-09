@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deflecting", path = "json/magic_enhancements.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "142"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration"
 caster_level = "13th"
 +++
 
-**Sources:** Mythic Adventures pg 142\
 **Aura** strong abjuration; **CL** 13th\
 **Slot** shield; **Price** +3 bonus; **Weight** -
 

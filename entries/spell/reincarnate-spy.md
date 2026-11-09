@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/reincarnate" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "223"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Target: dead creature touched
 :::
 
 ### Reincarnate Spy
-
-**Sources:** Ultimate Intrigue pg 223
 
 This spell functions as [reincarnate](ref/spell/reincarnate) except that you can cause the new body
 to resemble a particular creature, matching its age category and sex and rerolling any race result

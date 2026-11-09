@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "book-of-the-damned", "mythic-realms", "book-of-
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kabriri", path = "json/faiths5.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "320"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Kabriri**
 
 **Sub:** Him Who Gnaws
-
-**Sources:** Inner Sea Gods pg 320
 
 ### Details
 

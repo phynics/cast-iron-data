@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-intrigue", "adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_aura", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "307"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Target: one touched object weighing up to 5 lbs./level
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** PRPG Core Rulebook pg 307
 
 You alter an item's aura so that it registers to detect spells (and spells with similar
 capabilities) as though it were nonmagical, or a magic item of a kind you specify, or the subject of

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-132-the-six-legend-soul"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soulpierced", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "pathfinder-132-the-six-legend-soul"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ still-beating heart glows brightly around a dagger thrust through its chest._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#132: The Six-Legend Soul pg 90\
 **Subtype:** Incorporeal
 
 **Type:** undead

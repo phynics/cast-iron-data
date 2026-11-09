@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alignment_feats", path = "json/rules_opt_alignment01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "98"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 98
 
 As characters enter the larger cosmic struggles of morality and alignment, they are able to gain new
 tools to help them champion their philosophies.

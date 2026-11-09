@@ -6,6 +6,8 @@ source_ids = ["artifacts-and-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "song_of_extinction", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "artifacts-and-legends"
 
 [fields]
 kind = "class_option"
@@ -13,8 +15,6 @@ group = "bardic-masterpiece"
 +++
 
 ## Song of Extinction (Sing, String, Wind)
-
-**Sources:** Artifacts and Legends
 
 **Note:** This masterpiece can only be learned from the
 [Song of Extinction (Music Box)](ref/magic-artifact/song-of-extinction-music-box) artifact.

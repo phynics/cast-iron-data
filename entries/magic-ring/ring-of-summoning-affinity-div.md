@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_summoning_affinity_div", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "219"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration [chaos, evil]"
 caster_level = "5th"
 +++
 
-**Sources:** Advanced Class Guide pg 219\
 **Aura** faint conjuration \[chaos, evil\]; **CL** 5th\
 **Slot** ring; **Price** 9,100 gp; **Weight** -
 

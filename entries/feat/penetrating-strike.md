@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "penetrating_strike", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "131"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Your attacks with weapons selected with Weapon Focus ignore up to 5 p
 +++
 
 ## Penetrating Strike (Combat)
-
-**Sources:** PRPG Core Rulebook pg 131
 
 Your attacks are capable of penetrating the defenses of some creatures.\
 **Prerequisites:** [Weapon Focus](ref/feat/weapon-focus), base attack bonus +1, 12th-level fighter,

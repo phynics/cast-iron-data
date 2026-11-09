@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "creating_items_for_profit", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "173"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 173
 
 The expectation in a standard campaign is that the PCs go on quests to fighting monsters and collect
 treasure. In other words, you aren't supposed to stay at home, work at day jobs, and earn wages

@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "construct_modifications", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "113"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 113
 
 Standard constructs can be modified to enhance their base abilities, alter their appearance or
 function, or perform a variety of tasks beyond the intentions of their basic designs. Performing a

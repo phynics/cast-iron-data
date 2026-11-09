@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "lost-cities-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "celestial_lens", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "335"
+[[sources]]
+publication = "lost-cities-of-golarion"
+page = "41"
 
 [fields]
 kind = "item"
@@ -16,8 +22,6 @@ slot = "none"
 aura = "strong evocation"
 caster_level = "20th"
 +++
-
-**Sources:** Ultimate Equipment pg 335, Lost Cities of Golarion pg 41
 
 **Aura** strong evocation; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 2,400 lbs.

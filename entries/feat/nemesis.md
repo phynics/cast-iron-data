@@ -6,6 +6,9 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nemesis", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "71"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "Thwarting your plans becomes an all-consuming goal for your nemesis. 
 +++
 
 ## Nemesis (Story)
-
-**Sources:** Ultimate Campaign pg 71
 
 A past enemy seeks your ruin.\
 **Prerequisites:** You must have at least one enemy who wishes to cause you great harm. If you have

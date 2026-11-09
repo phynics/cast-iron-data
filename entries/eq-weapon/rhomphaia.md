@@ -6,14 +6,15 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rhomphaia", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "19"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "10 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 19
 
 This Bronze Age weapon is an early polearm consisting of a long, single-edged blade attached to a
 sturdy staff, sometimes slightly curved. It serves as both a cutting and a thrusting weapon.

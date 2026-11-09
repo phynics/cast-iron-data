@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/monk" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "187"
 
 [fields]
 kind = "archetype"
 replaces = ["Slow fall", "still mind", "High jump", "bonus feat gained at 6th level", "Wholeness of body", "Abundant step", "Quivering palm", "Tongue of the sun and moon", "empty body"]
 +++
 
-**Sources:** Advanced Race Guide pg 187\
 The gray disciple contemplates the inner voice of duergar magic and the silent eternity of stone,
 mastering these dual mysteries and combining them to deadly effect.
 

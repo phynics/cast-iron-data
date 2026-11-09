@@ -6,6 +6,12 @@ source_ids = ["bestiary-6", "pathfinder-58-island-of-empty-eyes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "coral_capuchin", path = "json/monsters06.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "66"
+[[sources]]
+publication = "pathfinder-58-island-of-empty-eyes"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ fish and large, fin-like wings._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 6 pg 66, Pathfinder \#58: Island of Empty Eyes pg 82\
 **Subtype:** Aquatic
 
 **Size:** tiny

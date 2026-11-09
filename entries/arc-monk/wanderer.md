@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/monk" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "76"
 
 [fields]
 kind = "archetype"
 replaces = ["Bonus feat gained at 1st level", "Still mind", "Slow fall", "High jump", "Wholeness of body", "Abundant step", "Diamond soul"]
 +++
 
-**Sources:** Advanced Race Guide pg 76\
 Some monks wander the world in humility to learn and to share wisdom and philosophy from their
 teachers with those they meet, often aiding those who are in need. A wanderer has the following
 class features.

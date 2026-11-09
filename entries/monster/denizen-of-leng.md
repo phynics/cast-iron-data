@@ -6,6 +6,12 @@ source_ids = ["bestiary-2", "pathfinder-6-spires-of-xin-shalast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "denizen_of_leng", path = "json/monsters06.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "82"
+[[sources]]
+publication = "pathfinder-6-spires-of-xin-shalast"
+page = "78"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ one studies its twitching visage._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 2 pg 82, Pathfinder \#6: Spires of Xin-Shalast pg 78\
 **Subtype:** Chaotic, Evil, Extraplanar
 
 **Experience points:** 4,800

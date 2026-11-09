@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/summoner" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "44"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Summon monster I"]
 alters = ["Spell list of the summoner"]
 +++
 
-**Sources:** Advanced Race Guide pg 44\
 Often a half-elf's ties to nature and elven heritage are so strong that they can dramatically affect
 the nature of his summonings. The wild caller calls eidolons that take more natural and savage forms
 and summons from nature rather than the Great Beyond. A wild caller has the following class

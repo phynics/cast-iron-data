@@ -6,6 +6,9 @@ source_ids = ["champions-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "archons_trumpet", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "champions-of-purity"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: yes
 Area: cone-shaped burst
 Descriptors: good, sonic
 :::
-
-**Sources:** Champions of Purity pg 28
 
 Upon hearing a booming report, as if from a trumpet archon's mighty horn, all creatures in the area
 of the burst are paralyzed for 1d4 rounds.

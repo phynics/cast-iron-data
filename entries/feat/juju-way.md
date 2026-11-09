@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "juju_way", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "207"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can cast spells with the range of \"touch\" at a range of 20 feet
 +++
 
 ## Juju Way (Teamwork)
-
-**Sources:** Inner Sea Races pg 207
 
 You can use spirits of the unseen world to carry your spells for you.\
 **Prerequisites:** Knowledge (religion) 3 ranks, [human](ref/race/human) (Mwangi).\

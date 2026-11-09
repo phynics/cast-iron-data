@@ -6,6 +6,9 @@ source_ids = ["the-first-world-realm-of-the-fey"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ekekeh", path = "json/monsters09.json" },
 ]
+[[sources]]
+publication = "the-first-world-realm-of-the-fey"
+page = "60"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ electricity crackling between them._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** The First World, Realm of the Fey pg 60\
 **Subtype:** Aquatic
 
 **Experience points:** 1,200

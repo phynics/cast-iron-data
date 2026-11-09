@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/investigator" },
 ]
+[[sources]]
+publication = "advanced-class-origins"
+page = "15"
 
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Trap sense", "poison resistance", "poison immunity", "Swift alchemy", "investigator talent gained at 5th level"]
 +++
 
-**Sources:** Advanced Class Origins pg 15\
 The ability of investigators trained at the University of Lepidstadt to get to the bottom of a
 mystery is legendary, and troubled settlements throughout the region often send petitions to the
 university requesting the aid of a formally trained inspector when some mystery threatens the

@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_spell_knowledge", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "174"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate or strong (no school)"
 caster_level = "7th"
 +++
 
-**Sources:** Ultimate Equipment pg 174\
 **Aura** moderate or strong (no school); **CL** 7th\
 **Slot** ring; **Price** 1,500 gp (type I), 6,000 gp (type II), 13,500 gp (type III), 24,000 gp
 (type IV); **Weight** -

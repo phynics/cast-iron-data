@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/planar-ally-lesser" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "320"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Subschool: Calling
 :::
 
 ### Greater Planar Ally
-
-**Sources:** PRPG Core Rulebook pg 320
 
 This spell functions like [lesser planar ally](ref/spell/planar-ally-lesser), except that you may
 call a single creature of 18 HD or less, or up to three creatures of the same kind whose Hit Dice

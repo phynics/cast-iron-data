@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "discovering_occult_rituals", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "209"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 209
 
 The mysteries of occult rituals are jealously guarded secrets, often painstakingly obscured by a
 ritual's originators or those who stumbled upon the obscure formulae detailing it. The particulars

@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bullying_brawler", path = "json/npcs.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "96"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "1"
 
 **Challenge rating:** 1
 
-**Sources:** NPC Codex pg 96\
 **XP** 400\
 Human [monk](ref/class/monk) 2\
 LE Medium humanoid (human)\

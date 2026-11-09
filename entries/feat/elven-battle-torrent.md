@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elven_battle_torrent", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "12"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using Elven Battle Style, any opponent that makes an attack aga
 +++
 
 ## Elven Battle Torrent (Combat)
-
-**Sources:** Weapon Master's Handbook pg 12
 
 You rapidly counter enemy attacks.\
 **Prerequisites:** Int 13, [Elven Battle Focus](ref/feat/elven-battle-focus),

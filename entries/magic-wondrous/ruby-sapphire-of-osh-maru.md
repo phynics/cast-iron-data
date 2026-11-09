@@ -6,6 +6,9 @@ source_ids = ["pathfinder-95-anvil-of-fire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ruby_sapphire_of_osh_maru", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "pathfinder-95-anvil-of-fire"
+page = "39"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Sources:** Pathfinder \#95: Anvil of Fire pg 39\
 **Aura** moderate transmutation; **CL** 10th\
 **Slot** none; **Price** 96,000 gp; **Weight** 1 lb.
 

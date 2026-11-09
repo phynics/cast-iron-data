@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gloves_of_unexpected_violence_expert", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "247"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "8th"
 
 ## Gloves of Unexpected Violence
 
-**Sources:** Ultimate Intrigue pg 247\
 **Aura** moderate transmutation; **CL** 8th\
 **Slot** hands; **Price** 10,000 gp (Standard), 30,000 gp (Expert); **Weight** -
 

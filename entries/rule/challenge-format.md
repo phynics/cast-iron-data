@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "challenge_format", path = "json/rules_opt_magic01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "180"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 180
 
 The stat block for a challenge includes a short description and the following sections.
 

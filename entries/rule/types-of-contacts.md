@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "types_of_contacts", path = "json/rules_subsystems01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "151"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 151
 
 Contacts are as diverse and complicated as society itself. Simple contacts only provide you with
 basic information, such as which roads have fewer bandits or which wells have the cleanest water.

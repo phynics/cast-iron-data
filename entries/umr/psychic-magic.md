@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychic_magic", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "297"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Psychic Magic (Sp)
 
-**Sources:** Bestiary 5 pg 297\
 A creature with this ability can use the power of its mind to cast certain spells. Each spell cast
 using psychic magic consumes an amount of psychic energy. The creature has a maximum amount of
 psychic energy (PE) per day that refreshes after a night's rest. A creature with this ability can

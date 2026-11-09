@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/barbarian" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "38"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Trap sense", "6th-level rage power"]
 alters = ["Rage power"]
 +++
 
-**Sources:** Ultimate Wilderness pg 38\
 Pack hunter barbarians team up to hunt dangerous prey to feed, to protect their camps, and as a rite
 of passage. Often, a tribe of pack hunters looks to a specific species of animal (such as wolves)
 who themselves hunt in packs, and view these animals as sacred manifestations of their people's

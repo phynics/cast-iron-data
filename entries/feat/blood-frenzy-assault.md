@@ -6,6 +6,9 @@ source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_frenzy_assault", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "heroes-from-the-fringe"
+page = "31"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While you are using Blood Frenzy Style, when you make a full attack, 
 +++
 
 ## Blood Frenzy Assault (Combat)
-
-**Sources:** Heroes from the Fringe pg 31
 
 The scent of blood intensifies your fury, and every wound you tear into your foes increases both
 your drive and ability to wreak havoc.\

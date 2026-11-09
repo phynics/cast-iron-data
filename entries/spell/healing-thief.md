@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "healing_thief", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "231"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: none
 Spell resistance: yes
 Target: creature touched
 :::
-
-**Sources:** Ultimate Combat pg 231
 
 With this spell you can steal the healing of the target creature. You must succeed at a melee touch
 attack to strike the target. If you do, until the effect ends, whenever your target is subject to a

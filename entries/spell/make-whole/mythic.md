@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/make-whole", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "100"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 100
 
 The damage the spell repairs increases to 2d6 points of damage per caster level when cast on a
 construct creature (maximum 10d6). A construct repaired with this spell gains a +2 enhancement bonus

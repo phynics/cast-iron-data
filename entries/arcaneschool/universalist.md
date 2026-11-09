@@ -6,13 +6,15 @@ source_ids = ["core-rulebook", "inner-sea-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "universalist", path = "json/class_ability_arcane_schools.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "82"
 
 [fields]
 kind = "class_option"
 group = "arcane-school"
 +++
 
-**Sources:** PRPG Core Rulebook pg 82\
 Wizards who do not specialize (known as as universalists) have the most diversity of all arcane
 spellcasters.
 

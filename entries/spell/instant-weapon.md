@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "instant_weapon", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "31"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Effect: melee weapon of opaque force
 Subschool: Creation
 Descriptors: force
 :::
-
-**Sources:** Melee Tactics Toolbox pg 31
 
 You create a melee weapon sized appropriately for you from opaque force. You are considered
 proficient with this weapon, which acts in all ways as a masterwork weapon typical of its type. The

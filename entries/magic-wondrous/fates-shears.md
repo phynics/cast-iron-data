@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fates_shears", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "263"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration and necromancy"
 caster_level = "6th"
 +++
 
-**Sources:** Inner Sea Gods pg 263\
 **Aura** moderate conjuration and necromancy; **CL** 6th\
 **Slot** none; **Price** 3,600 gp; **Weight** 1 lb.
 

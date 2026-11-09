@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadows_touch", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "145"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong illusion"
 caster_level = "13th"
 +++
 
-**Sources:** Mythic Adventures pg 145\
 **Aura** strong illusion; **CL** 13th\
 **Slot** none; **Price** 102,962 gp; **Weight** 1/2 lb.
 

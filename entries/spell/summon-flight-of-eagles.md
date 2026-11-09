@@ -6,6 +6,12 @@ source_ids = ["adventurers-guide", "andoran-spirit-of-liberty"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summon_flight_of_eagles", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "77"
+[[sources]]
+publication = "andoran-spirit-of-liberty"
+page = "27"
 
 [fields]
 kind = "spell"
@@ -49,8 +55,6 @@ Spell resistance: no
 Effect: 1d4+1 summoned creatures
 Subschool: Summoning
 :::
-
-**Sources:** Adventurer's Guide pg 77, Andoran, Spirit of Liberty pg 27
 
 You summon 1d4+1 giant eagles to serve as you designate. The summoned birds can fight if you wish,
 but can also serve as mounts.

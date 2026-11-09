@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "passwall", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "318"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: none
 Spell resistance: no
 Effect: 5-ft.-by-8-ft. opening, 10 ft. deep plus 5 ft. deep per three additional levels
 :::
-
-**Sources:** PRPG Core Rulebook pg 318
 
 You create a passage through wooden, plaster, or stone walls, but not through metal or other harder
 materials. The passage is 10 feet deep plus an additional 5 feet deep per three caster levels above

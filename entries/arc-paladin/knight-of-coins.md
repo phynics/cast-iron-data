@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/paladin" },
 ]
+[[sources]]
+publication = "merchants-manifest"
+page = "28"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Detect evil", "3rd-, 9th-, and 15th-level mercies"]
 alters = ["Skill ranks per level"]
 +++
 
-**Sources:** Merchant's Manifest pg 28\
 Servants of gods who revere wealth, knights of coins promote fair trade and stable commerce between
 cities and between nations. Many of these knights are Abadarans, and some have also taken the sacred
 shield archetype. Regardless, knights of coins know that a prosperous city can uplift and enrich

@@ -6,6 +6,9 @@ source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "focused_aberration_expertise", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "monster-hunters-handbook"
+page = "22"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Choose either Fortitude saves against transformation effects (includi
 +++
 
 ## Focused Aberration Expertise (Combat)
-
-**Sources:** Monster Hunter's Handbook pg 22
 
 You hold strong against aberrations.\
 **Prerequisites:** [Favored enemy](ref/ability/favored-enemy) (aberration) class feature.\

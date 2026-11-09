@@ -6,6 +6,9 @@ source_ids = ["people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horn_of_the_criosphinx", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "people-of-the-sands"
+page = "13"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "A monk can use this feat as long as he is wielding a two-handed weapo
 +++
 
 ## Horn of the Criosphinx (Combat)
-
-**Sources:** People of the Sands pg 13
 
 You end your charge in a devastating two-handed attack.\
 **Prerequisites:** Base attack bonus +6 or monk level 6th.\

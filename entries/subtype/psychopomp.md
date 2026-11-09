@@ -6,14 +6,16 @@ source_ids = ["bestiary-6", "bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychopomp", path = "json/monster_subtypes.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+[[sources]]
+publication = "bestiary-4"
 
 [fields]
 kind = "none"
 +++
 
 ## Subtype: Psychopomp
-
-**Sources:** Bestiary 6, Bestiary 4
 
 [Psychopomps](ref/family/psychopomp) are neutral [outsiders](ref/type/outsider) native to the
 Boneyard. Psychopomps have the following traits (unless otherwise noted in a creature's entry).

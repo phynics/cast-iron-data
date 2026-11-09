@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "48"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Spontaneous casting", "Wild empathy", "Woodland stride", "Resist na
 alters = ["Nature bond"]
 +++
 
-**Sources:** Ultimate Wilderness pg 48\
 Guardians of the lonely paths between cities, road keepers protect the wild from travelers, and
 travelers from the wild.
 

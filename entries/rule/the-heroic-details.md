@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_heroic_details", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "142"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 142
 
 First things first: What do the heroes do in this new world of yours? The first thing players do
 when you start a new campaign is create characters, so it's a good idea to think first about what

@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "warp_metal", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "6"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Spell resistance: yes (object)
 Target: 1 Small metal object/level, all within a 20-ft. radius; see text
 Descriptors: earth
 :::
-
-**Sources:** Magic Tactics Toolbox pg 6
 
 You cause metal to bend and warp, permanently destroying its straightness, form, and strength. A
 warped door springs open (or becomes stuck, requiring a successful Strength check to open, at your

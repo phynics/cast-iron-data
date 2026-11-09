@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blight_cave_blight", path = "json/monsters27.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "39"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _Muscular tentacles ending in stalagmite-like stingers extend from this pale bro
 
 **Perception:** +30
 
-**Sources:** Bestiary 6 pg 39\
 **Subtype:** Blight
 
 **Experience points:** 204,800

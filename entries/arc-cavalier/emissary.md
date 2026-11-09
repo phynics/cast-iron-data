@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cavalier" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "36"
 
 [fields]
 kind = "archetype"
 replaces = ["Tactician", "Banner", "Greater tactician", "Greater banner", "Supreme charge"]
 +++
 
-**Sources:** Ultimate Combat pg 36\
 Cavaliers serve many roles on the battlefield, from bold leaders and shock troops to dashing knights
 and mounted juggernauts. Some cavaliers, however, focus more on speed and mobility than they do on
 the raw power of the mounted charge. On foot or in the saddle, the emissary is usually first to meet

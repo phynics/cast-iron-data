@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "construction_examples", path = "json/rules_subsystems02.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "91"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 91
 
 The following are examples of how you can construct your own Inn using rooms or create your own
 Thieves' Guild using teams.

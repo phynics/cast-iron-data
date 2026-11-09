@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "negotiation_checks", path = "json/rules_subsystems01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "150"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 150
 
 To use a contact, you must first determine the contact's willingness to help you. Compare the task's
 Risk score to the contact's Trust score.

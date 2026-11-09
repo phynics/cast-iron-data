@@ -6,13 +6,14 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fire_forged_steel", path = "json/equipment_special_materials.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "50"
 
 [fields]
 kind = "item"
 category = "Special Materials"
 +++
-
-**Sources:** Ultimate Equipment pg 50
 
 Dwarves stumbled across the secret of crafting fire-forged steel in an effort to make forge-friendly
 tools. It didn't take them long to adapt its unique properties to arms and armor. Fire-forged steel

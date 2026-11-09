@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wanderers_fortune", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "33"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "As a swift action, you gain the benefits of freedom of movement until
 +++
 
 ## Wanderer's Fortune (Conduit)
-
-**Sources:** Planar Adventures pg 33
 
 The promise of Elysium's freedom liberates you from all forms of restraint, allowing you to move as
 you will and to avoid numerous kinds of restraints that would otherwise vex a traveler or explorer.\

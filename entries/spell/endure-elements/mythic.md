@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/endure-elements", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "93"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 93
 
 The target changes to one creature touched per level. Affected creatures gain cold resistance 5 and
 fire resistance 5. They're not slowed by snow, and ignore penalties on Perception checks and ranged

@@ -6,6 +6,12 @@ source_ids = ["bestiary-2", "pathfinder-22-the-end-of-eternity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "protean_imentesh", path = "json/monsters19.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "214"
+[[sources]]
+publication = "pathfinder-22-the-end-of-eternity"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -46,7 +52,6 @@ claws._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 2 pg 214, Pathfinder \#22: The End of Eternity pg 84\
 **Subtype:** Chaotic, Extraplanar, Protean, Shapechanger
 
 **Experience points:** 9,600

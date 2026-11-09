@@ -6,6 +6,9 @@ source_ids = ["plunder-and-peril"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "three_reasons_to_live", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "plunder-and-peril"
+page = "46"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Sources:** Plunder and Peril pg 46\
 **Aura** faint evocation; **CL** 5th\
 **Slot** none; **Price** 9,000 gp; **Weight** 2 lbs.
 

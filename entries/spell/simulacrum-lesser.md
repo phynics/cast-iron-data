@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/simulacrum" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "238"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Subschool: Shadow
 :::
 
 ### Lesser Simulacrum
-
-**Sources:** Ultimate Magic pg 238
 
 This spell functions as [simulacrum](ref/spell/simulacrum), except you can't create a simulacrum of
 a creature whose HD or levels exceed your caster level, and it has no magical abilities. The

@@ -6,6 +6,9 @@ source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "conditional_spell", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "healers-handbook"
+page = "8"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "A conditional spell is subject to the rules laid out in the spell con
 +++
 
 ## Conditional Spell (Metamagic)
-
-**Sources:** Healer's Handbook pg 8
 
 You know how to apply restrictions on how a creature can use the benefits of your spells.\
 **Benefit:** A conditional spell is subject to the rules laid out in the spell

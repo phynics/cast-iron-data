@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_siphon", path = "json/magic_enhancements2.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "27"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation"
 caster_level = "15th"
 +++
 
-**Sources:** Melee Tactics Toolbox pg 27\
 **Aura** strong transmutation; **CL** 15th\
 **Slot** none; **Price** +5 bonus; **Weight** -
 

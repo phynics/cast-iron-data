@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tactics", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "124"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 124
 
 These are the most common tactics PCs will likely employ when executing heists. Each one has a
 general description, but also lists the skills commonly used as a part of that tactic. Not every

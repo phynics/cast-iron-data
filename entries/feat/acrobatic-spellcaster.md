@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "acrobatic_spellcaster", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "75"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "Casting a spell within an enemy's reach provokes attacks of opportunit
 +++
 
 ## Acrobatic Spellcaster (Combat)
-
-**Sources:** Ultimate Intrigue pg 75
 
 Your skillful movements prevent foes from disrupting your spells.\
 **Prerequisites:** [Combat Casting](ref/feat/combat-casting), [Skill Focus](ref/feat/skill-focus)

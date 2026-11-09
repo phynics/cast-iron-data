@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blighted_fey", path = "json/monster_template1.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "46"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +2
-
-**Source:** Bestiary 6/46
 
 In certain wilderness regions, strange corruptions of nature fester and grow where the boundaries
 between this world and [the Abyss](ref/rule/the-abyss) grow thin. Dangerous and evil fungal

@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hat_of_hatreds", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "346"
+[[sources]]
+publication = "advanced-players-guide"
+page = "310"
 
 [fields]
 kind = "item"
@@ -15,8 +21,6 @@ slot = "head"
 aura = "moderate illusion"
 caster_level = "10th"
 +++
-
-**Sources:** Ultimate Equipment pg 346, Advanced Player's Guide pg 310
 
 **Aura** moderate illusion; **CL** 10th\
 **Slot** head; **Weight** -

@@ -6,6 +6,9 @@ source_ids = ["occult-adventures", "occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "telempathic_projection", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "188"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: emotion, mind-affecting
 :::
-
-**Sources:** Occult Adventures pg 188
 
 You alter the target's mood, adjusting its attitude toward you or another creature you designate by
 one step either positively or negatively (see the [Diplomacy skill](ref/skill/diplomacy)). You can

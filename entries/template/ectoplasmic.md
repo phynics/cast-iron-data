@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ectoplasmic", path = "json/monster_template1.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "83"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +1
-
-**Source:** Bestiary 4/83
 
 Drawn from energies of the [Ethereal Plane](ref/rule/ethereal-plane), ectoplasm is a vile substance
 resembling thick tangles of slimy linen or dripping goo. It shapes itself into the form of an

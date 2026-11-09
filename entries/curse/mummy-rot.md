@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mummy_rot", path = "json/curses.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "557"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 557
 
 **Type:** Curse
 

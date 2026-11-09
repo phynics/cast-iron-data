@@ -6,6 +6,9 @@ source_ids = ["inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "funereal_weapon", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "inner-sea-temples"
+page = "42"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: Will negates (harmless) (object)
 Spell resistance: yes (harmless) (object)
 Target: weapon touched or 50 projectiles (all of which must be together at the time of casting)
 :::
-
-**Sources:** Inner Sea Temples pg 42
 
 You imbue a weapon with a faint silvery glow that dimly illuminates a 5-foot square. An affected
 weapon also easily bypasses the physical defenses of undead creatures, ignoring 5 points of an

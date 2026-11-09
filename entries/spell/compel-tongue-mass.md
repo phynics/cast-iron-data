@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/compel-tongue" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "24"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Spell resistance: yes
 :::
 
 ### Mass Compel Tongue
-
-**Sources:** Black Markets pg 24
 
 This spell functions as [compel tongue](ref/spell/compel-tongue), except it affects multiple
 creatures. The same language restriction applies to all creatures, and the same language must be

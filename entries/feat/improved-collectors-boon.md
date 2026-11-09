@@ -6,14 +6,15 @@ source_ids = ["chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_collectors_boon", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "chronicle-of-legends"
+page = "24"
 
 [fields]
 kind = "feat"
 prerequisites = "Collector's Boon, character level 9th."
 prerequisite_feats = ["ref/feat/collectors-boon"]
 +++
-
-**Sources:** Chronicle of Legends pg 24
 
 Your knack for unlocking the true potential of magical equipment allows you to draw great power from
 your equipment.\

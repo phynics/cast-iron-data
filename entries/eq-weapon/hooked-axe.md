@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hooked_axe", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "20"
+[[sources]]
+publication = "ultimate-combat"
+page = "144"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "7 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 20, Ultimate Combat pg 144
 
 The hooked end of this axe's blade can be used to disarm foes or pull them off balance. A hooked axe
 can be used as a martial weapon (in which case it functions like a

@@ -6,6 +6,9 @@ source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "propitious_metumbe", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "faiths-and-philosophies"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "7th"
 +++
 
-**Sources:** Faiths and Philosophies pg 31\
 **Aura** moderate abjuration; **CL** 7th\
 **Slot** neck; **Price** 8,000 gp; **Weight** 1 lb.
 

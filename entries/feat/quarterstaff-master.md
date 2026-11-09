@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quarterstaff_master", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "154"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "By employing a number of different stances and techniques, you can wi
 +++
 
 ## Quarterstaff Master (Combat)
-
-**Sources:** Ultimate Magic pg 154
 
 You can wield a quarterstaff as either a two-handed or one-handed weapon.\
 **Prerequisites:** [Weapon Focus](ref/feat/weapon-focus) (quarterstaff), base attack bonus +5.\

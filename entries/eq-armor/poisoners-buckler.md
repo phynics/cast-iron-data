@@ -6,6 +6,9 @@ source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "poisoners_buckler", path = "json/equipment_armor.json" },
 ]
+[[sources]]
+publication = "heroes-from-the-fringe"
+page = "23"
 
 [fields]
 kind = "item"
@@ -13,7 +16,6 @@ category = "Armor"
 weight = "3 lbs."
 +++
 
-**Sources:** Heroes from the Fringe pg 23\
 **Cost** 1,505 gp **Weight** 3 lbs.\
 **Shield Bonus** +1; **Max Dex Bonus** —; **Armor Check Penalty** —\
 **Arcane Spell Failure Chance** —%

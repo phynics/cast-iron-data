@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stumble_gap", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "247"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: no
 Effect: see text
 Subschool: Creation
 :::
-
-**Sources:** Advanced Player's Guide pg 247
 
 You create a shallow extradimensional hole perfectly sized to trip anyone who steps within it. This
 hole occupies a single 5-foot square with a depth of six inches. Any creature occupying the square

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-51-the-hungry-storm"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sashimono_of_comfort", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "pathfinder-51-the-hungry-storm"
+page = "62"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration"
 caster_level = "1st"
 +++
 
-**Sources:** Pathfinder \#51: The Hungry Storm pg 62\
 **Aura** faint abjuration; **CL** 1st\
 **Slot** none; **Price** 2,400 gp; **Weight** 3 lbs.
 

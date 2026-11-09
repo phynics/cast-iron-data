@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mages_faithful_hound", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "306"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: no
 Effect: phantom watchdog
 Subschool: Creation
 :::
-
-**Sources:** PRPG Core Rulebook pg 306
 
 You conjure up a phantom watchdog that is invisible to everyone but yourself. It then guards the
 area where it was conjured (it does not move). The hound immediately starts barking loudly if any

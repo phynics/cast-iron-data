@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "pathfinder-62-curse-of-the-ladys-light"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "firebelly", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "234"
+[[sources]]
+publication = "pathfinder-62-curse-of-the-ladys-light"
+page = "75"
 
 [fields]
 kind = "spell"
@@ -44,8 +50,6 @@ Saving throw: Reflex half, see text
 Spell resistance: yes
 Target: you
 :::
-
-**Sources:** Inner Sea Gods pg 234, Pathfinder \#62: Curse of the Lady's Light pg 75
 
 A magical fire warms your belly, granting fire resistance 5 and making your gut hot to the touch
 (but not enough to damage you or anything else). As a standard action, you can breathe a 15-foot

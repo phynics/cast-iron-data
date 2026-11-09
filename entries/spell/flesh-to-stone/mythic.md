@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/flesh-to-stone", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "94"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 94\
 A creature that succeeds at its saving throw is partially petrified, becoming slowed (as the
 [slow](ref/spell/slow) spell) for a number of rounds equal to your tier. The creature can end this
 effect early by spending a full-round action breaking away its own petrified flesh, dealing 5d10

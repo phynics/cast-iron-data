@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/ray-of-exhaustion" },
 ]
+[[sources]]
+publication = "sargava-the-lost-colony"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: yes
 Effect: ray
 Descriptors: fire
 :::
-
-**Sources:** Sargava, the Lost Colony pg 28
 
 A wavering red ray projects from your finger. You must succeed on a ranged touch attack with the ray
 to hit your target.

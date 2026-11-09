@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oni_water_yai", path = "json/monsters18.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "212"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ robes are soaking wet._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 3 pg 212\
 **Subtype:** Aquatic, Giant, Native, Oni, Shapechanger, Water
 
 **Experience points:** 153,600

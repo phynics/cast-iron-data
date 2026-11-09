@@ -6,6 +6,9 @@ source_ids = ["pathfinder-59-the-price-of-infamy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "howling_skull_armor", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "pathfinder-59-the-price-of-infamy"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Sources:** Pathfinder \#59: The Price of Infamy pg 60\
 **Aura** moderate necromancy; **CL** 7th\
 **Slot** armor; **Price** 20,375 gp; **Weight** 20 lbs.
 

@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "pathfinder-55-the-wormwood-mutiny"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_giant_isopod", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "198"
+[[sources]]
+publication = "pathfinder-55-the-wormwood-mutiny"
+page = "89"
 
 [fields]
 kind = "creature"
@@ -38,7 +44,6 @@ shell-like plates._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Ultimate Wilderness pg 198, Pathfinder \#55: The Wormwood Mutiny pg 89\
 **Subtype:** Aquatic
 
 **Size:** tiny

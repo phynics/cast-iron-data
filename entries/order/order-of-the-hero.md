@@ -6,13 +6,14 @@ source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "order_of_the_hero", path = "json/class_ability_orders.json" },
 ]
+[[sources]]
+publication = "monster-hunters-handbook"
+page = "13"
 
 [fields]
 kind = "class_option"
 group = "order"
 +++
-
-**Sources:** Monster Hunter's Handbook pg 13
 
 A cavalier belonging to this order specializes in hunting down large monsters and protecting
 communities from them. Cavaliers of this order tend to value bravery, dedication, and single-minded

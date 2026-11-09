@@ -6,6 +6,9 @@ source_ids = ["pathfinder-91-battle-of-bloodmarch-hills"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giants_wallop", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "pathfinder-91-battle-of-bloodmarch-hills"
+page = "69"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "This effect stacks with the effect of Giant's Crush."
 +++
 
 ## Giant's Wallop (Combat)
-
-**Sources:** Pathfinder \#91: Battle of Bloodmarch Hills pg 69
 
 When you strike, you knock the sense out of smaller foes.\
 **Prerequisites:** Str 13, [Power Attack](ref/feat/power-attack),

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/bestow-curse" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "206"
 
 [fields]
 kind = "spell"
@@ -59,8 +62,6 @@ Descriptors: curse
 :::
 
 ### Conditional Curse
-
-**Sources:** Ultimate Intrigue pg 206
 
 This spell functions as [bestow curse](ref/spell/bestow-curse), except that you must state a
 condition under which the curse is broken, ending its effect. An intelligent target, even one of

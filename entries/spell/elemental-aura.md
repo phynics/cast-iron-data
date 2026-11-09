@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_aura", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "218"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: Reflex half, see text
 Spell resistance: yes
 Target: you
 :::
-
-**Sources:** Advanced Player's Guide pg 218
 
 This spell forms an aura of energy around you, damaging all those that come near you. Choose an
 energy type: acid, cold, electricity, or fire. Creatures adjacent to you when this spell is cast and

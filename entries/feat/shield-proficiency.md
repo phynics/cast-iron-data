@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_proficiency", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "133"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "Antipaladins, aristocrats, barbarians, bards, bloodragers, brawlers, 
 +++
 
 ## Shield Proficiency (Combat)
-
-**Sources:** PRPG Core Rulebook pg 133
 
 You are trained in how to properly use a shield.\
 **Benefit:** When you use a shield (except a tower shield), the shield's armor check penalty only

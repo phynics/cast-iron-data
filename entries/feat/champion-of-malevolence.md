@@ -6,6 +6,9 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "champion_of_malevolence", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "99"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can store a number of affirmations up to your Charisma bonus (min
 +++
 
 ## Champion of Malevolence (Alignment)
-
-**Sources:** Pathfinder Unchained pg 99
 
 Things would be better if everyone just did as you wished.\
 **Prerequisites:** 10 Hit Dice, neutral evil alignment.\

@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rapid_grappler", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "114"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever you use Greater Grapple to successfully maintain a grapple a
 +++
 
 ## Rapid Grappler (Combat)
-
-**Sources:** Ultimate Combat pg 114
 
 You are a quick hand at grappling.\
 **Prerequisites:** Dex 13, [Greater Grapple](ref/feat/greater-grapple),

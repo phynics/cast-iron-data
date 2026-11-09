@@ -6,6 +6,9 @@ source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_endurance", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "agents-of-evil"
+page = "31"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Effect: see text
 Subschool: Shadow
 Descriptors: shadow
 :::
-
-**Sources:** Agents of Evil pg 31
 
 You conjure protective wisps of darkness made from shadow. If you are reduced below 0 hit points or
 rendered unconscious, shadow endurance immediately discharges, shunting your injured body into a

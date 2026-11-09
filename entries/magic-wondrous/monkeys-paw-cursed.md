@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monkeys_paw_cursed", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "267"
 
 [fields]
 kind = "item"
@@ -18,7 +21,6 @@ caster_level = "20th"
 
 ## Monkey's Paw
 
-**Sources:** Occult Adventures pg 267\
 **Aura** strong universal; **CL** 20th\
 **Slot** none; **Weight** 1/2 lb.
 

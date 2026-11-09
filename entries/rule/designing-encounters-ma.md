@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "designing_encounters_ma", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "128"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 128
 
 Designing a mythic encounter is a lot like designing an encounter in any other adventure. During
 play, the PCs will face a variety of challenges: monsters, NPCs, traps, and more. The difference is

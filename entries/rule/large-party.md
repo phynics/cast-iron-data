@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "large_party", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "43"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 43
 
 A party of eight PCs is a much different "problem" for a GM: they're able to handle more difficult
 encounters and more of them per day, often by expending disproportionately fewer resources than a

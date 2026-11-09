@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rebuke", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "238"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Spell resistance: yes
 Area: 20-ft.-radius burst centered on you
 Descriptors: sonic
 :::
-
-**Sources:** Advanced Player's Guide pg 238
 
 Your wrathful words cause physical harm to your enemies. Your enemies take 1d8 points of damage per
 two caster levels (maximum 5d8) and are staggered for 1 round. Half of this damage is sonic damage,

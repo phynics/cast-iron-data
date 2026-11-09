@@ -6,6 +6,9 @@ source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gravity_master", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-origins"
+page = "7"
 
 [fields]
 kind = "class_option"
@@ -24,8 +27,6 @@ group = "kineticist-wild-talent"
 
 **Prerequisite:** [gravity control](ref/kinetic/gravity-control),
 [greater gravity control](ref/kinetic/greater-gravity-control)
-
-**Source:** Occult Origins/7
 
 You can create areas of altered gravity. This functions as
 [reverse gravity](ref/spell/reverse-gravity), but you can choose for the gravity in the area to pull

@@ -6,6 +6,9 @@ source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "medusas_bane", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "divine-anthology"
+page = "5"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Divine Anthology pg 5
 
 This spell causes your eyes to take on a silvery mirror-like quality, transforming your eyes into
 metallic-looking orbs that reflect the world you see. Your vision is in no way impaired while this

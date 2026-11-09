@@ -6,6 +6,9 @@ source_ids = ["the-ruby-phoenix-tournament"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shenzuzhou", path = "json/monsters38.json" },
 ]
+[[sources]]
+publication = "the-ruby-phoenix-tournament"
+page = "29"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ stretches across the creature's chest._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** The Ruby Phoenix Tournament pg 29\
 **Type:** undead
 
 **Experience points:** 19,200

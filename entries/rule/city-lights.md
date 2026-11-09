@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "city_lights", path = "json/rules_gm08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "437"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 437
 
 If a city has main thoroughfares, they are lined with lanterns hanging at a height of 7 feet from
 building awnings. These lanterns are spaced 60 feet apart, so their illumination is all but

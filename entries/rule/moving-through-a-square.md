@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "moving_through_a_square", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "193"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 193
 
 You can move through an unoccupied square without difficulty in most circumstances. Difficult
 terrain and a number of spell effects might hamper your movement through open spaces.

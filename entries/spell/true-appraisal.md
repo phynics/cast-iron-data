@@ -6,6 +6,9 @@ source_ids = ["inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "true_appraisal", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "inner-sea-temples"
+page = "33"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Inner Sea Temples pg 33
 
 You gain temporary insight into the value of objects. You gain a +5 competence bonus on Appraise
 checks, can attempt an Appraise check to determine an object's value as a move action, and can take

@@ -6,12 +6,14 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pharmaceutical_glitches", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "1"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Technology Guide pg 1\
 Timeworn pharmaceuticals have a chance of glitching when the dose is administered, even if another
 dose was recently used effectively.
 

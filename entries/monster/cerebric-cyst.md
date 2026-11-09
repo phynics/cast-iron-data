@@ -6,6 +6,9 @@ source_ids = ["occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cerebric_cyst", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "occult-bestiary"
+page = "13"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ ectoplasm._
 
 **Perception:** +16
 
-**Sources:** Occult Bestiary pg 13\
 **thoughtsense:** 30
 
 **Size:** tiny

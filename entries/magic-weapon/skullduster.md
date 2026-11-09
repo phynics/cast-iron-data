@@ -6,6 +6,9 @@ source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skullduster", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "magical-marketplace"
+page = "17"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration and conjuration"
 caster_level = "14th"
 +++
 
-**Sources:** Magical Marketplace pg 17\
 **Aura** strong abjuration and conjuration; **CL** 14th\
 **Slot** none; **Price** 104,508 gp; **Weight** 6 lbs.
 

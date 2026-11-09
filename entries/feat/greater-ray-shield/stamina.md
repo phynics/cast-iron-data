@@ -6,12 +6,14 @@ source_ids = ["armor-masters-handbook"]
 relations = [
   { kind = "addon", target = "ref/feat/greater-ray-shield", label = "stamina" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "20"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Armor Master's Handbook pg 20\
 When you successfully deflect a ranged touch attack, you can spend 10 stamina points as a swift or
 immediate action to reflect the attack toward another target, which must be within 60 feet of you.
 The total distance from the original attacker, to you, and then to the new target cannot exceed the

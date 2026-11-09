@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "healer", path = "json/npcs7.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "248"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "7"
 
 **Challenge rating:** 7
 
-**Sources:** NPC Codex pg 248\
 **XP** 3,200\
 Halfling [adept](ref/npcclass/adept) 9\
 NG Small humanoid (halfling)\

@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "qualities_of_ley_lines", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "232"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 232
 
 A ley line carries raw magical energy along with psychic impressions and other ambient energy its
 absorbs from its surroundings. This causes ley lines to seed magical effects, subconscious thoughts,

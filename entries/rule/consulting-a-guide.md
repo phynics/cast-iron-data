@@ -6,12 +6,13 @@ source_ids = ["dungeoneers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "consulting_a_guide", path = "json/rules_rulesets01.json" },
 ]
+[[sources]]
+publication = "dungeoneers-handbook"
+page = "14"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Dungeoneer's Handbook pg 14
 
 A PC may consult a dungeon guide whenever he enters a new room or area of the dungeon to learn more
 about his current location, similar to how one gains information by making a Knowledge check.

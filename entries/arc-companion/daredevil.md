@@ -6,13 +6,15 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daredevil", path = "json/archetypes_COMPANION.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "187"
 
 [fields]
 kind = "archetype"
 replaces = ["Share Spells", "Devotion", "Multiattack"]
 +++
 
-**Sources:** Ultimate Wilderness pg 187\
 Daredevil companions join the fray with graceful leaps or swooping dives, heedless of the danger.
 
 **Artful Acrobat (Ex)**

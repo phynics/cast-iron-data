@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kyton_shield", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "88"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When using Kyton Style, you gain a +1 shield bonus to your Armor Clas
 +++
 
 ## Kyton Shield (Combat)
-
-**Sources:** Horror Adventures pg 88
 
 Whether in your hand or draped around your body, the spiked chain serves as both weapon and shield.\
 **Prerequisites:** Wis 15, [Exotic Weapon Proficiency](ref/feat/exotic-weapon-proficiency) (spiked

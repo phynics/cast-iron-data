@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "follow_up_strike", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "22"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever you succeed at a combat maneuver check to disarm an opponent
 +++
 
 ## Follow-Up Strike (Combat)
-
-**Sources:** Martial Arts Handbook pg 22
 
 You bat away an opponent's weapon, creating an opening for a punch or kick.\
 **Prerequisites:** Int 13, [Combat Expertise](ref/feat/combat-expertise),

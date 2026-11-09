@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skirmishing_spear", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "146"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Sources:** Mythic Adventures pg 146\
 **Aura** moderate conjuration; **CL** 7th\
 **Slot** none; **Price** 19,502 gp; **Weight** 6 lbs.
 

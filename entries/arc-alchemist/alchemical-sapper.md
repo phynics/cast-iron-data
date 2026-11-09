@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "18"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Mutagen", "Poison resistance", "Swift alchemy", "The discovery gain
 alters = ["Extracts", "Bomb"]
 +++
 
-**Sources:** Ultimate Intrigue pg 18\
 Alchemical sappers are trained to create explosives.
 
 **Diminished Alchemy**

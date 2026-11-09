@@ -6,6 +6,12 @@ source_ids = ["core-rulebook", "monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summon_monster_1", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "350"
+[[sources]]
+publication = "monster-summoners-handbook"
+page = "18"
 
 [fields]
 kind = "spell"
@@ -52,8 +58,6 @@ Spell resistance: no
 Effect: one summoned creature
 Subschool: Summoning
 :::
-
-**Sources:** PRPG Core Rulebook pg 350, Monster Summoner's Handbook pg 18
 
 This spell summons an extraplanar creature (typically an outsider, elemental, or magical beast
 native to another plane). It appears where you designate and acts immediately, on your turn. It

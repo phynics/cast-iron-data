@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enduring_bloom", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "255"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration and enchantment"
 caster_level = "3rd"
 +++
 
-**Sources:** Inner Sea Gods pg 255\
 **Aura** faint conjuration and enchantment; **CL** 3rd\
 **Slot** none; **Price** 3,848 gp; **Weight** 6 lbs.
 

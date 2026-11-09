@@ -6,6 +6,9 @@ source_ids = ["disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fortunes_path", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "disciples-doctrine"
+page = "10"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Disciple's Doctrine pg 10
 
 You predict events in your near future. Visions of the foretold events appear in the mirror after
 you cast this spell. Roll d% and add your caster level (maximum 10) to determine results this spell

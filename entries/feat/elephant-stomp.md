@@ -6,6 +6,9 @@ source_ids = ["sargava-the-lost-colony"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elephant_stomp", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "sargava-the-lost-colony"
+page = "24"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "When your overrun maneuver check exceeds your opponent's CMD by 5 or m
 +++
 
 ## Elephant Stomp (Combat)
-
-**Sources:** Sargava, the Lost Colony pg 24
 
 You deliver a crushing blow to downed enemies.\
 **Prerequisites:** Str 13, [Power Attack](ref/feat/power-attack),

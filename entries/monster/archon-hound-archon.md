@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "archon_hound_archon", path = "json/monsters02.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "19"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ than a common beast._
 
 **Senses:** Darkvision 60 ft., Detect evil, Low-light vision, Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 19\
 **Subtype:** Archon, Extraplanar, Good, Lawful
 
 **Experience points:** 1,200

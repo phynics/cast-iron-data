@@ -6,6 +6,9 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aggregate", path = "json/monster_template1.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "59"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +1
-
-**Source:** Technology Guide/59
 
 "Aggregate" is an acquired template that can be added to any [robot](ref/subtype/robot) (referred to
 hereafter as the base robot), that gains some of the characteristics of an AI installed in it

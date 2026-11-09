@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chisel_of_excavation", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "blood-of-the-ancients"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Sources:** Blood of the Ancients pg 31\
 **Aura** moderate transmutation; **CL** 7th\
 **Slot** none; **Price** 34,000 gp; **Weight** 3 lbs.
 

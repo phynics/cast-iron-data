@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unseen_realms", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "219"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 219
 
 When running an occult game, consider replacing some of the NPCs who broker information with
 spirits, daemons, otherworldly entities, and mortals who traffic in the occult, such as a medium who

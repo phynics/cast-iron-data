@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/undead-anatomy-1" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "244"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Subschool: Polymorph
 :::
 
 ### Undead Anatomy II
-
-**Sources:** Ultimate Magic pg 244
 
 This spell functions as [undead anatomy I](ref/spell/undead-anatomy-1), except it also allows you to
 assume the form of a Tiny or Large corporeal creature of the undead type. If the form you assume has

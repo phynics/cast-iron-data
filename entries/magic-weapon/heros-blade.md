@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heros_blade", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "325"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "9th"
 +++
 
-**Sources:** Advanced Player's Guide pg 325\
 **Aura** moderate evocation; **CL** 9th\
 **Slot** none; **Price** 17,315 gp; **Weight** 4 lbs.
 

@@ -6,6 +6,18 @@ source_ids = ["hells-vengeance-players-guide", "pathfinder-29-mother-of-flies", 
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "infernal_healing", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "hells-vengeance-players-guide"
+page = "11"
+[[sources]]
+publication = "pathfinder-29-mother-of-flies"
+page = "67"
+[[sources]]
+publication = "gods-and-magic"
+page = "7"
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "295"
 
 [fields]
 kind = "spell"
@@ -50,9 +62,6 @@ Target: creature touched
 Subschool: Healing
 Descriptors: evil
 :::
-
-**Sources:** Hell's Vengeance Player's Guide pg 11, Pathfinder \#29: Mother of Flies pg 67, Gods and
-Magic pg 7, Inner Sea World Guide pg 295
 
 You anoint a wounded creature with devil's blood or unholy water, giving it
 [fast healing](ref/umr/fast-healing) 1. This ability cannot repair damage caused by silver weapons,

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-73-the-worldwound-incursion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_lord_xoveron", path = "json/monsters_unique.json" },
 ]
+[[sources]]
+publication = "pathfinder-73-the-worldwound-incursion"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _This hulking, four-armed, four-headed, sting-tailed gargoyle stands as tall as 
 
 **Senses:** Darkvision 60 ft., Detect good, Detect law, True seeing
 
-**Sources:** Pathfinder \#73: The Worldwound Incursion pg 84\
 **Experience points:** 3,276,800
 
 **Armor class:** 45/30/39

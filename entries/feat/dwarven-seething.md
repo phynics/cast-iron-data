@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dwarven_seething", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "12"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using Dwarven Hatred Style, when an opponent hits you with an a
 +++
 
 ## Dwarven Seething (Combat)
-
-**Sources:** Weapon Master's Handbook pg 12
 
 Your hatred drives every swing of your weapon.\
 **Prerequisites:** [Dwarven Hatred Style](ref/feat/dwarven-hatred-style), base attack bonus +5,

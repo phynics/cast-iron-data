@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_collector", path = "json/monsters21.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "228"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ frame her youthful features._
 
 **Size:** small
 
-**Sources:** Bestiary 5 pg 228\
 **Experience points:** 4,800
 
 **Armor class:** 21/19/13

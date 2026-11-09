@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sky_steed", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "235"
+[[sources]]
+publication = "animal-archive"
+page = "25"
 
 [fields]
 kind = "spell"
@@ -38,8 +44,6 @@ Spell resistance: yes (harmless)
 Target: a creature you are mounted upon
 Subschool: Polymorph
 :::
-
-**Sources:** Ultimate Wilderness pg 235, Animal Archive pg 25
 
 The target sprouts angelic wings and gains a fly speed equal to its base speed with average
 maneuverability. It also gains a bonus on Fly checks equal to your caster level.

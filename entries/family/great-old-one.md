@@ -6,12 +6,12 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "great_old_one", path = "json/monster_families2.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Bestiary 4
 
 The Great Old Ones are otherworldly entities of almost unimaginable power-beings completely alien to
 humanity, both physiologically and spiritually. They exist in the forgotten corners of distant

@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "red_hand_of_the_killer", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "223"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Saving throw: Will negates
 Spell resistance: yes
 Target: one creature
 :::
-
-**Sources:** Ultimate Intrigue pg 223
 
 Drawing upon the spiritual link between a corpse and its killer, you reach out across space to brand
 the killer of the corpse you used as a focus for this spell, creating a physical manifestation of

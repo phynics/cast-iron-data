@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "altar_of_lamashtu", path = "json/magic_altar.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "248"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration and transmutation [chaotic, evil]"
 caster_level = "10th"
 +++
 
-**Sources:** Inner Sea Gods pg 248\
 **Aura** moderate abjuration and transmutation \[chaotic, evil\]; **CL** 10th\
 **Slot** none; **Price** 10,000 gp; **Weight** 500 lbs.
 

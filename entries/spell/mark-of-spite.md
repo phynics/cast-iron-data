@@ -6,6 +6,9 @@ source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mark_of_spite", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "heroes-from-the-fringe"
+page = "23"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: Fortitude negates
 Spell resistance: yes
 Target: one living creature
 :::
-
-**Sources:** Heroes from the Fringe pg 23
 
 Half-drow take substantial pains to ensure their enemies' defeat. You must succeed at a ranged touch
 attack to place your mark on the victim. While the mark remains, you may injure yourself as a

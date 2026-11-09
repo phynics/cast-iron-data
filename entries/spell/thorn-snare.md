@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/snare" },
 ]
+[[sources]]
+publication = "conquest-of-bloodsworn-vale"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: none
 Spell resistance: no
 Target: touched nonmagical circle of vine, rope, or thong with a 2 ft. diameter + 2 ft./level
 :::
-
-**Sources:** Conquest of Bloodsworn Vale pg 29
 
 This spell functions just like the spell [snare](ref/spell/snare) but those caught in it take 1
 point of damage per round, as the thorn-covered vine slowly cuts into them. In addition, any attempt

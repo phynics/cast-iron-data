@@ -6,6 +6,9 @@ source_ids = ["pathfinder-64-beyond-the-doomsday-door"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "doomsday_key", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "pathfinder-64-beyond-the-doomsday-door"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "9th"
 +++
 
-**Sources:** Pathfinder \#64: Beyond the Doomsday Door pg 60\
 **Aura** moderate necromancy; **CL** 9th\
 **Slot** neck (but see text); **Price** 9,000 gp; **Weight** 1 lb.
 

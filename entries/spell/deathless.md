@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deathless", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "113"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
 Target: living creature touched
 :::
-
-**Sources:** Mythic Adventures pg 113
 
 The target's soul is strongly anchored to its body, preventing death from hit point damage. No
 matter how low the target's hit points get, it remains alive (though not necessarily conscious).

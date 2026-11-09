@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "furious_spell", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "134"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "A furious spell that deals hit point damage adds twice the spell's or
 +++
 
 ## Furious Spell (Metamagic)
-
-**Sources:** Occult Adventures pg 134
 
 Your spells seethe with the ferocious intensity of your blood-red rage.\
 **Benefit:** A furious spell that deals hit point damage adds twice the spell's original level to

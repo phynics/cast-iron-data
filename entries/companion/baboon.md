@@ -6,13 +6,14 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "baboon", path = "json/class_ability_druid_companions.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "212"
 
 [fields]
 kind = "class_option"
 group = "animal-companion"
 +++
-
-**Sources:** Bestiary 2 pg 212
 
 **Companion Type**
 

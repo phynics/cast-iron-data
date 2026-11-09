@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "net_and_trident", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "111"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "A net is a two-handed ranged weapon."
 +++
 
 ## Net and Trident (Combat)
-
-**Sources:** Ultimate Combat pg 111
 
 Your skill with lighter weapons allows you to wield one alongside your net.\
 **Prerequisites:** Dex 15, [Exotic Weapon Proficiency](ref/feat/exotic-weapon-proficiency) (net),

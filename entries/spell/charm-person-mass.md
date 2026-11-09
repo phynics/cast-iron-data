@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/charm-person" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "206"
 
 [fields]
 kind = "spell"
@@ -55,8 +58,6 @@ Descriptors: mind-affecting
 :::
 
 ### Mass Charm Person
-
-**Sources:** Ultimate Intrigue pg 206
 
 This spell functions like [charm person](ref/spell/charm-person), except that mass charm person
 affects a number of humanoid creatures whose combined Hit Dice don't exceed twice your level. If

@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide", "advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chameleon_stride", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "210"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Target: you
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** Advanced Player's Guide pg 210
 
 You fade into the background, and while you are not truly invisible, you are hard to pinpoint due to
 your translucent state. While under the effects of this spell, you gain a +4 bonus on Stealth checks

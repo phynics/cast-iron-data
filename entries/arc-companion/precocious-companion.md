@@ -6,13 +6,15 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "precocious_companion", path = "json/archetypes_COMPANION.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "188"
 
 [fields]
 kind = "archetype"
 replaces = ["Evasion", "Improved Evasion", "The 4th- or 7th-level ability score advancement"]
 +++
 
-**Sources:** Ultimate Wilderness pg 188\
 Precocious companions are able to learn far more tricks than other companions; this ability to learn
 allows their masters to use them for a wider variety of tasks.
 

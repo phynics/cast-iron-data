@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "book_of_extended_summoning_lesser", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "283"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "17th"
 
 ## Book of Extended Summoning
 
-**Sources:** Ultimate Equipment pg 283\
 **Aura** strong conjuration; **CL** 17th\
 **Slot** none; **Price** 750 gp (Lesser), 2,750 gp (Normal), 6,126 gp (Greater); **Weight** 1 lb.
 

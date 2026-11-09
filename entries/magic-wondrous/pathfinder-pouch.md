@@ -6,6 +6,9 @@ source_ids = ["seekers-of-secrets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pathfinder_pouch", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "seekers-of-secrets"
+page = "56"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "none"
 caster_level = "9th"
 +++
 
-**Sources:** Seekers of Secrets pg 56\
 **Aura** none; **CL** 9th\
 **Slot** none; **Price** 1,000 gp; **Weight** 1 lb.
 

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eternal_iron_breastplate", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "251"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment and conjuration"
 caster_level = "7th"
 +++
 
-**Sources:** Inner Sea Gods pg 251\
 **Aura** moderate enchantment and conjuration; **CL** 7th\
 **Slot** armor; **Price** 4,890 gp; **Weight** 30 lbs.
 

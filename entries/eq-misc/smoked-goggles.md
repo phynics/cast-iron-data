@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "smoked_goggles", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "57"
+[[sources]]
+publication = "advanced-players-guide"
+page = "183"
 
 [fields]
 kind = "item"
@@ -14,7 +20,6 @@ price = "10 gp"
 weight = "-"
 +++
 
-**Sources:** Ultimate Equipment pg 57, Advanced Player's Guide pg 183\
 **Price** 10 gp; **Weight** -\
 **Category** Adventuring Gear
 

@@ -6,6 +6,9 @@ source_ids = ["down-the-blighted-path"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pyroclastic_spike", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "down-the-blighted-path"
+page = "62"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Sources:** Down the Blighted Path pg 62\
 **Aura** moderate transmutation; **CL** 7th\
 **Slot** none; **Price** 28,000 gp; **Weight** 5 lbs.
 

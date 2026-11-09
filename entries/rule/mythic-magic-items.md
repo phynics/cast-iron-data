@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mythic_magic_items", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "140"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 140
 
 Just as their non-mythic counterparts, mythic characters use magic to aid them in their daring
 quests, but they can utilize some magic items in more powerful ways. In addition, mythic characters

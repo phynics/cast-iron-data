@@ -6,6 +6,9 @@ source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "claim_identity", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "spymasters-handbook"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Spell resistance: yes
 Target: humanoid creature touched
 Subschool: Polymorph
 :::
-
-**Sources:** Spymaster's Handbook pg 28
 
 You steal the target's face, transforming yourself into a flawless imitation of it. All of the
 target's facial features, vocal cues, and identifying physical traits change, transforming it into

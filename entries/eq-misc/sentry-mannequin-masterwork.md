@@ -6,6 +6,9 @@ source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sentry_mannequin_masterwork", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "21"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "80 gp"
 weight = "35 lbs."
 +++
 
-**Sources:** Ranged Tactics Toolbox pg 21\
 **Price** 80 gp; **Weight** 35 lbs.\
 **Category** Tools
 

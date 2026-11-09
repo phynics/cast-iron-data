@@ -6,14 +6,15 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "criminal_reputation", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "81"
 
 [fields]
 kind = "feat"
 prerequisites = "Diplomacy 5 ranks, Intimidate 5 ranks."
 benefit = "You gain a +2 bonus on Diplomacy and Intimidate checks when interacting with criminals, whether they're individual thieves and cutpurses or criminal organizations. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill."
 +++
-
-**Sources:** Ultimate Intrigue pg 81
 
 Your acts of audacious larceny have endeared you to the criminal underworld.\
 **Prerequisites:** Diplomacy 5 ranks, Intimidate 5 ranks.\

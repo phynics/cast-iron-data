@@ -6,6 +6,15 @@ source_ids = ["pathfinder-100-a-song-of-silver", "pathfinder-2-the-skinsaw-murde
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skinsaw_mask", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "pathfinder-100-a-song-of-silver"
+page = "21"
+[[sources]]
+publication = "pathfinder-2-the-skinsaw-murders"
+page = "45"
+[[sources]]
+publication = "rise-of-the-runelords-anniversary-edition"
+page = "426"
 
 [fields]
 kind = "item"
@@ -17,8 +26,6 @@ aura = "faint necromancy [evil]"
 caster_level = "3rd"
 +++
 
-**Sources:** Pathfinder \#100: A Song of Silver pg 21, Pathfinder \#2: The Skinsaw Murders pg 45,
-Rise of the Runelords Anniversary Edition pg 426\
 **Aura** faint necromancy \[evil\]; **CL** 3rd\
 **Slot** head; **Price** 1,500 gp; **Weight** 1 lb.
 

@@ -6,6 +6,9 @@ source_ids = ["construct-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_dragonhide_golem", path = "json/monsters33.json" },
 ]
+[[sources]]
+publication = "construct-handbook"
+page = "42"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ various colors._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Construct Handbook pg 42\
 **Experience points:** 76,800
 
 **Armor class:** 31/10/29

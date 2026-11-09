@@ -6,6 +6,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deft_digits", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "19"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: none
 Spell resistance: no
 Target: 1 unattended gauntlet or glove
 :::
-
-**Sources:** Arcane Anthology pg 19
 
 You animate the target of the spell, manipulating the glove with your own hand from a distance. The
 glove moves as you direct it with a fly speed of 30 feet and average maneuverability. Directing the

@@ -6,12 +6,13 @@ source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mythic_psychics", path = "json/rules_campaign_types07.json" },
 ]
+[[sources]]
+publication = "heroes-of-golarion"
+page = "29"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Heroes of Golarion pg 29
 
 Most psychics draw their powers from their disciplines, and mythic psychics are no exception. For
 most mythic psychics, their discipline provides the source of both their psychic and mythic powers:

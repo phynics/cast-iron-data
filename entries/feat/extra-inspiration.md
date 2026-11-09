@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/amateur-investigator", label = "or" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "147"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ prerequisite_feats = ["ref/feat/amateur-investigator"]
 benefit = "You gain three extra use per day of inspiration in your inspiration pool."
 special = "If you have levels in the investigator class, you can take this feat multiple times. Each time you do, you gain three extra uses of inspiration per day."
 +++
-
-**Sources:** Advanced Class Guide pg 147
 
 You are more able to draw upon inspiration than most.\
 **Prerequisites:** [Amateur Investigator](ref/feat/amateur-investigator) or inspiration class

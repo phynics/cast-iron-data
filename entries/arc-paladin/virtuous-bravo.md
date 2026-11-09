@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/paladin" },
 ]
+[[sources]]
+publication = "heroes-of-the-high-court"
+page = "12"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Mercy", "Spellcasting", "Aura of justice", "Holy champion"]
 alters = ["Armor proficiency", "Smite evil"]
 +++
 
-**Sources:** Heroes of the High Court pg 12\
 Although no less a beacon of hope and justice than other paladins, virtuous bravos rely on their wit
 and grace rather than might and strong armor.
 

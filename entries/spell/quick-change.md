@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quick_change", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "125"
 
 [fields]
 kind = "spell"
@@ -58,8 +61,6 @@ Spell resistance: no
 Target: you
 Subschool: Polymorph
 :::
-
-**Sources:** Horror Adventures pg 125
 
 If you have the change shape special quality, you can revert to your true form as a swift action. If
 a creature is not aware of your true form, when you use this spell to revert to your true form and

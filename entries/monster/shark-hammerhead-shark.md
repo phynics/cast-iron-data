@@ -6,6 +6,9 @@ source_ids = ["pathfinder-57-tempest-rising"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shark_hammerhead_shark", path = "json/monsters38.json" },
 ]
+[[sources]]
+publication = "pathfinder-57-tempest-rising"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ with razor-sharp teeth._
 
 **Perception:** +10
 
-**Sources:** Pathfinder \#57: Tempest Rising pg 84\
 **Subtype:** Aquatic
 
 **Experience points:** 800

@@ -6,12 +6,13 @@ source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "addon", target = "ref/class/unchained-monk", label = "changes" },
 ]
+[[sources]]
+publication = "the-elephant-in-the-room-feat-taxes-in-pathfinder"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 At 1st level, 2nd level, and every 4 levels thereafter, a monk can select a bonus feat. These feats
 must be taken from the following list: [Catch Off-Guard](ref/feat/catch-off-guard),
 [Combat Reflexes](ref/feat/combat-reflexes), [Deflect Arrows](ref/feat/deflect-arrows),

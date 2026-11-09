@@ -6,12 +6,13 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "step_9_treasure", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "293"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder RPG Bestiary pg 293
 
 A creature should have an amount of treasure appropriate to its CR. See Table 1-7 for a list of
 treasure totals based on CR. For some creatures, their treasure consists of the loot from their

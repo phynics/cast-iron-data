@@ -6,6 +6,9 @@ source_ids = ["alchemy-manual"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "focusing_flask", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "alchemy-manual"
+page = "16"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Sources:** Alchemy Manual pg 16\
 **Aura** moderate transmutation; **CL** 7th\
 **Slot** none; **Price** 700 gp; **Weight** 1 lb.
 

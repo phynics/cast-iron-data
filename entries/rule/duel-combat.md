@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "duel_combat", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "150"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 150
 
 A duel functions much like ordinary combat, with a few notable exceptions.
 

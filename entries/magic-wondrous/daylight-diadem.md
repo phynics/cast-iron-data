@@ -6,6 +6,9 @@ source_ids = ["seers-of-the-drowned-city"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daylight_diadem", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "seers-of-the-drowned-city"
+page = "53"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "9th"
 +++
 
-**Sources:** Seers of the Drowned City pg 53\
 **Aura** moderate evocation; **CL** 9th\
 **Slot** head; **Price** 20,000 gp; **Weight** 1 lb.
 

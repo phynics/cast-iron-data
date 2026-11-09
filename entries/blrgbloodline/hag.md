@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hag", path = "json/class_ability_bloodrager_bloodlines.json" },
 ]
+[[sources]]
+publication = "blood-of-the-coven"
+page = "27"
 
 [fields]
 kind = "class_option"
@@ -13,8 +16,6 @@ group = "bloodrager-bloodline"
 +++
 
 ## Hag Bloodline
-
-**Sources:** Blood of the Coven pg 27
 
 [Hags](ref/family/hag) interbreed with other races frequently, and those children who escape their
 grasp may pass their heritage on to later generations before it reemerges. The potent humors that

@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "living_steel_heavy_shield", path = "json/equipment_armor.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "132"
 
 [fields]
 kind = "item"
@@ -13,7 +16,6 @@ category = "Armor"
 weight = "15 lbs."
 +++
 
-**Sources:** Ultimate Equipment pg 132\
 **Cost** 30 gp **Weight** 15 lbs.\
 **Shield Bonus** +2; **Max Dex Bonus** —; **Armor Check Penalty** -2\
 **Arcane Spell Failure Chance** 15%

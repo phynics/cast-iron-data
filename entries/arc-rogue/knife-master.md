@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "72"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Trapfinding", "Trap sense"]
 alters = ["Sneak attack"]
 +++
 
-**Sources:** Ultimate Combat pg 72\
 The knife master is a trained killer who specializes in close-up combat and the wave and weave of
 knife fighting. In her hands, daggers and other similar light blades become truly deadly
 instruments..

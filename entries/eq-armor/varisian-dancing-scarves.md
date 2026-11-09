@@ -6,6 +6,9 @@ source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "varisian_dancing_scarves", path = "json/equipment_armor.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "6"
 
 [fields]
 kind = "item"
@@ -13,7 +16,6 @@ category = "Armor"
 weight = "8 lbs."
 +++
 
-**Sources:** Adventurer's Armory 2 pg 6\
 **Cost** 150 gp **Weight** 8 lbs.\
 **Armor Bonus** +2; **Max Dex Bonus** —; **Armor Check Penalty** 0\
 **Arcane Spell Failure Chance** —%; **Speed** 30 ft./20 ft.\

@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clustered_shots", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "92"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "If the massive damage optional rule is being used, that rule applies 
 +++
 
 ## Clustered Shots (Combat)
-
-**Sources:** Ultimate Combat pg 92
 
 You take a moment to carefully aim your shots, causing them all to strike nearly the same spot.\
 **Prerequisites:** [Point-Blank Shot](ref/feat/point-blank-shot),

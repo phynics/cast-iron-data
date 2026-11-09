@@ -6,6 +6,9 @@ source_ids = ["pathfinder-138-rise-of-new-thassilon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sorshens_sinuous_guisarme", path = "json/magic_artifact3.json" },
 ]
+[[sources]]
+publication = "pathfinder-138-rise-of-new-thassilon"
+page = "71"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong evocation [evil]"
 caster_level = "20th"
 +++
 
-**Sources:** Pathfinder \#138: Rise of New Thassilon pg 71\
 **Aura** strong evocation \[evil\]; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 10 lbs.
 

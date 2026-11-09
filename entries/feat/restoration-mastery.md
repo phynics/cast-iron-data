@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "restoration_mastery", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "31"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can cause an item that has a conjuration (healing) spell of 2nd l
 +++
 
 ## Restoration Mastery (Item Mastery)
-
-**Sources:** Magic Tactics Toolbox pg 31
 
 You can heal more than just injuries of the flesh.\
 **Prerequisites:** Heal 5 ranks, Use Magic Device 5 ranks, base Fortitude saving throw bonus +3.\

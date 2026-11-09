@@ -6,12 +6,14 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghoul", path = "json/rules_campaign_types02.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "20-21"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Adventures pg. 20-21\
 A hunger for the flesh of the living grows more every day, until every sentient creature seems no
 more than a meal.
 

@@ -6,6 +6,9 @@ source_ids = ["dungeoneers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lantern_of_concealment", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "dungeoneers-handbook"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint illusion"
 caster_level = "5th"
 +++
 
-**Sources:** Dungeoneer's Handbook pg 29\
 **Aura** faint illusion; **CL** 5th\
 **Slot** none; **Price** 12,000 gp; **Weight** 2 lbs.
 

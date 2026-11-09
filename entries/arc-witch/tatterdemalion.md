@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/witch" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "73"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["1st-level hex", "4th-, 8th-, 12th-, and 16th-level hexes"]
 alters = ["Weapon proficiencies", "Cantrips", "Spells"]
 +++
 
-**Sources:** Horror Adventures pg 73\
 Some witches can bend the warp and weft of fabric and thread.
 
 **Weapon Proficiency**

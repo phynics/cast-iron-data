@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ability_score_bonuses", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "554"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 554
 
 Some spells and abilities increase your ability scores. Ability score increases with a duration of 1
 day or less give only **temporary bonuses.** For every two points of increase to a single ability,

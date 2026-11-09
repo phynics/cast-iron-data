@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "diseases_pu", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "138"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 138
 
 The disease track simulates the progression of a disease, starting with incubation. Ignore any onset
 entry for a disease; the victim attempts saving throws at a rate based on the disease's frequency.

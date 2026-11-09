@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shatterstone_hammer", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-wild"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation"
 caster_level = "7th"
 +++
 
-**Sources:** Heroes of the Wild pg 29\
 **Aura** strong transmutation; **CL** 7th\
 **Slot** none; **Price** 26,712 gp; **Weight** 15 lbs.
 

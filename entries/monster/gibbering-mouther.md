@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gibbering_mouther", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "153"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ yammering ceaselessly._
 
 **Senses:** All-around vision, Darkvision 60 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 153\
 **Experience points:** 1,600
 
 **Armor class:** 19/13/16

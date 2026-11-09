@@ -6,12 +6,13 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "salvaging", path = "json/rules_rulesets02.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "134"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Wilderness pg 134
 
 Foraging is one way to gather resources in the wild, but you can also recycle or repurpose items and
 gear as well, salvaging materials from items you no longer need or are willing to sacrifice. You

@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ravens_flight", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-wild"
+page = "31"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Heroes of the Wild pg 31
 
 You can cast this spell only if it is the first action you take on your turn. In a burst of shadowy
 feathers, you turn into a Tiny blurred shape reminiscent of a black raven until the beginning of

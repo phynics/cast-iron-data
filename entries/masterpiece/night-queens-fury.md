@@ -6,6 +6,8 @@ source_ids = ["distant-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "night_queens_fury", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "distant-realms"
 
 [fields]
 kind = "class_option"
@@ -13,8 +15,6 @@ group = "bardic-masterpiece"
 +++
 
 ## Night Queen's Fury (Act, Oratory)
-
-**Sources:** Distant Realms
 
 You lay a curse on those who have wronged you.
 

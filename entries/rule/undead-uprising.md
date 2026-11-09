@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "undead_uprising", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "235"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 235
 
 Whether from an ancient curse or fell necromancy, one of the most terrifying of all supernatural
 disasters is the undead uprising - the dead emerging from their graves to claim the living. This

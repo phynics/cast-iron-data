@@ -6,6 +6,12 @@ source_ids = ["artifacts-and-legends", "seven-swords-of-sin"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sword_of_lust_asheia", path = "json/magic_artifact3.json" },
 ]
+[[sources]]
+publication = "artifacts-and-legends"
+page = "50"
+[[sources]]
+publication = "seven-swords-of-sin"
+page = "32"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong enchantment"
 caster_level = "16th"
 +++
 
-**Sources:** Artifacts and Legends pg 50, Seven Swords of Sin pg 32\
 **Aura** strong enchantment; **CL** 16th\
 **Slot** none; **Price** -; **Weight** 6 lbs.
 

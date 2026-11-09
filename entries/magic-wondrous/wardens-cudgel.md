@@ -6,6 +6,9 @@ source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wardens_cudgel", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "faiths-and-philosophies"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Faiths and Philosophies pg 31\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** none; **Price** 12,150 gp; **Weight** 3 lbs.
 

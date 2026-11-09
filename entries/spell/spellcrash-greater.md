@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/spellcrash-lesser" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "194"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: yes
 :::
 
 ### Greater Spellcrash
-
-**Sources:** Advanced Class Guide pg 194
 
 This spell functions as [lesser spellcrash](ref/spell/spellcrash-lesser), except that it affects
 7th-level or lower prepared spells or spell slots.

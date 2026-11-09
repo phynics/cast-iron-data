@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "losing_hexes", path = "json/rules_campaign_types04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "209"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 209
 
 If you lose control of a hex - whether because of Unrest, monster attacks, assaults from a hostile
 kingdom, and so on - you lose all the benefits of any terrain improvements in that hex (such as

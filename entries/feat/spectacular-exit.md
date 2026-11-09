@@ -6,6 +6,9 @@ source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spectacular_exit", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "12"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you must attempt a performance combat check because you used the
 +++
 
 ## Spectacular Exit (Combat, Performance)
-
-**Sources:** Inner Sea Combat pg 12
 
 You have mastered acrobatic maneuvers that turn even your retreats into breathtaking feats of skill.\
 **Prerequisites:** Dex 15, [Dodge](ref/feat/dodge), Acrobatics 7 ranks.\

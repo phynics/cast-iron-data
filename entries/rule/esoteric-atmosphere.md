@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "esoteric_atmosphere", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "220"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 220
 
 Setting the scene is important in occult adventures, which rely upon creating an eerie atmosphere of
 tension, dread, and wonder in the presence of the supernatural. GMs can use props and tools to

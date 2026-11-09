@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "book_of_the_grave", path = "json/equipment_spellbooks.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "122"
 
 [fields]
 kind = "item"
@@ -16,8 +19,6 @@ category = "Spellbooks"
 
 _This tome reeks of decomposing flesh or some even fouler stench. Grave mold clings to the
 worm-eaten cover, and dirt stains the pages. Some pages have been torn out._
-
-**Sources:** Ultimate Magic pg 122
 
 **Opposition** Enchantment, transmutation\
 **Protection** The edges of the first three pages are coated with [nitharit](ref/eq-poison/nitharit)

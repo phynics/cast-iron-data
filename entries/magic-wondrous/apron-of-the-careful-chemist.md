@@ -6,6 +6,9 @@ source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "apron_of_the_careful_chemist", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "potions-and-poisons"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Sources:** Potions and Poisons pg 30\
 **Aura** moderate transmutation; **CL** 8th\
 **Slot** chest; **Price** 5,200 gp; **Weight** 3 lbs.
 

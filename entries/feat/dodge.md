@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dodge", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "122"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You gain a +1 dodge bonus to your AC. A condition that makes you lose
 +++
 
 ## Dodge (Combat)
-
-**Sources:** PRPG Core Rulebook pg 122
 
 Your training and reflexes allow you to react swiftly to avoid an opponents' attacks.\
 **Prerequisites:** Dex 13.\

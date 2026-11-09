@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/oracle" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "32"
 
 [fields]
 kind = "archetype"
 replaces = ["Oracle's curse"]
 +++
 
-**Sources:** Inner Sea Magic pg 32\
 The black-blooded oracle has been infused with the eerie influence of strange fluids that seep from
 the rock in the deepest pits of the Darklands, the so-called
 "[Black Blood of Orv](ref/magic-artifact/black-blood-of-orv)." Often, the eerie taint of the black

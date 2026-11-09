@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "faiths-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "destroy_identity", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "210"
+[[sources]]
+publication = "faiths-of-corruption"
+page = "24"
 
 [fields]
 kind = "feat"
@@ -16,8 +22,6 @@ benefit = "Whenever you confirm a critical hit against an opponent, in addition 
 +++
 
 ## Destroy Identity (Combat, Critical)
-
-**Sources:** Inner Sea Gods pg 210, Faiths of Corruption pg 24
 
 You can use your weapons to mar your opponents' most distinctive characteristics.\
 **Prerequisites:** [Critical Focus](ref/feat/critical-focus), base attack bonus +11, worshiper of

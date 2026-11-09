@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/mending" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "311"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Saving throw: Will negates (harmless) (object)
 Spell resistance: yes (harmless) (object)
 Target: one object up to 10 cu. ft./level or one construct creature of any size
 :::
-
-**Sources:** PRPG Core Rulebook pg 311
 
 This spell functions as [mending](ref/spell/mending), except that it repairs 1d6 points of damage
 per level when cast on a construct creature (maximum 5d6).

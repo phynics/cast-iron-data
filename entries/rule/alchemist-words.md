@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alchemist_words", path = "json/rules_opt_magic03.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "189"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 189
 
 **1st-Level Alchemist Words:** Dash (Time), Decipher (Language), Fade (Concealing), Force Shield
 (Armor), Fortify (Body), Glide (Flight), Lesser Cure (Healing)

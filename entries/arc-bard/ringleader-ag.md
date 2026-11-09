@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "33"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Well-versed", "Versatile performance", "Suggestion", "mass suggesti
 alters = ["Bardic performance"]
 +++
 
-**Sources:** Adventurer's Guide pg 33\
 The [Aspis Consortium's](ref/rule/aff-profiteers) global operations are too extensive to conduct
 without relying on contractors and hirelings. Ringleaders are specialists who oversee large
 operations in which trouble could strike at any moment and any place.

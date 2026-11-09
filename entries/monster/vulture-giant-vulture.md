@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vulture_giant_vulture", path = "json/monsters40.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "284"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ wingspan._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Bestiary 3 pg 284\
 **Experience points:** 1,200
 
 **Armor class:** 17/11/15

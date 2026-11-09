@@ -6,12 +6,13 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "uncommon_races", path = "json/rules_basics01.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "182"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Advanced Race Guide pg 182
 
 Some races are so uncommon that their very existence may be the subject of debate. Living on the
 fringes of the wilderness, in hidden grottos deep beneath the surface, under the ocean waves, or

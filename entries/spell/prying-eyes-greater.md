@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/prying-eyes" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "326"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: none
 Spell resistance: no
 Effect: 10 or more levitating eyes
 :::
-
-**Sources:** PRPG Core Rulebook pg 326
 
 This spell functions like [prying eyes](ref/spell/prying-eyes), except that the eyes can see all
 things as they actually are, just as if they had true seeing with a range of 120 feet. Thus, they

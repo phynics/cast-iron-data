@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "owl_swoop", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "88"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using Owl Style, you can use your base attack bonus in place of
 +++
 
 ## Owl Swoop (Combat)
-
-**Sources:** Ultimate Intrigue pg 88
 
 Your martial training helps you move with acrobatic poise.\
 **Prerequisites:** Dex 15, [Owl Style](ref/feat/owl-style), Acrobatics 1 rank, Stealth 1 rank.\

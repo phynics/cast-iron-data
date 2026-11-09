@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "handy_grapnel", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "215"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: Fortitude negates (object)
 Spell resistance: no
 Target: one rope-like object, length up to 50 ft. + 5 ft./level
 :::
-
-**Sources:** Ultimate Intrigue pg 215
 
 You cause the target rope to shrink and reshape itself into an arrow, bolt, or similar piece of
 ammunition, which you can shoot at any Medium or larger object. With a successful attack roll

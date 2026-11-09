@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "yithian", path = "json/monsters41.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "286"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ a tentacled, spherical head._
 
 **Senses:** All-around vision, Darkvision 60 ft.
 
-**Sources:** Bestiary 3 pg 286\
 **Experience points:** 6,400
 
 **Armor class:** 23/10/22

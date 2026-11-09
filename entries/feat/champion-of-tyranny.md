@@ -6,6 +6,9 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "champion_of_tyranny", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "99"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can store a number of affirmations up to your Charisma bonus (min
 +++
 
 ## Champion of Tyranny (Alignment)
-
-**Sources:** Pathfinder Unchained pg 99
 
 You must beat down the masses to have true order.\
 **Prerequisites:** 10 Hit Dice, lawful evil alignment.\

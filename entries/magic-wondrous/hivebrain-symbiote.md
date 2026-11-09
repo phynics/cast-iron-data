@@ -6,6 +6,9 @@ source_ids = ["pathfinder-87-the-choking-tower"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hivebrain_symbiote", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "pathfinder-87-the-choking-tower"
+page = "61"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "9th"
 +++
 
-**Sources:** Pathfinder \#87: The Choking Tower pg 61\
 **Aura** faint transmutation; **CL** 9th\
 **Slot** neck; **Price** 1,000 gp; **Weight** -
 

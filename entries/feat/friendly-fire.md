@@ -6,6 +6,9 @@ source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "friendly_fire", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "champions-of-corruption"
+page = "21"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You initiate this feat as a standard action, making a ranged attack a
 +++
 
 ## Friendly Fire (Betrayal, Teamwork)
-
-**Sources:** Champions of Corruption pg 21
 
 Your ranged attacks startle your enemies, partly because you're not even trying to avoid hitting
 your allies.\

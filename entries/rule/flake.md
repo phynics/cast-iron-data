@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flake", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "73"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 73
 
 The flake player is one that proves his type over a period of time. He might initially show up on
 time, fired up and ready to take on the world, but by the fourth game session he's apologizing for

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/mesmerist" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "36"
 
 [fields]
 kind = "archetype"
 replaces = ["Consummate liar", "mesmerist trick gained at 1st level", "All instances of touch treatment", "Mental potency", "Glib lie"]
 +++
 
-**Sources:** Ultimate Intrigue pg 36\
 Mesmerists focus their abilities through the eyes, drawing forth their power as the windows to the
 mind and soul. Eyebiters take this a step further. An eyebiter's eyes become so infused with psychic
 might that they can leave the eyebiter's body and move about on their own.

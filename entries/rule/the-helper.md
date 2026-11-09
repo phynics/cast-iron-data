@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_helper", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "82"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 82
 
 **The Helper:** Helpful and supportive, as the name implies, the helper tags along with the PCs on
 an adventure, or frequently encounters them during it. Once met, the helper remains a constant

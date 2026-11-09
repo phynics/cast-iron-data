@@ -6,6 +6,9 @@ source_ids = ["pathfinder-104-wrath-of-thrune"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "discord_bottle", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "pathfinder-104-wrath-of-thrune"
+page = "16"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration and enchantment"
 caster_level = "5th"
 +++
 
-**Sources:** Pathfinder \#104: Wrath of Thrune pg 16\
 **Aura** faint conjuration and enchantment; **CL** 5th\
 **Slot** none; **Price** 5,400 gp; **Weight** 1 lb.
 

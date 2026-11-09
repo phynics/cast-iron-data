@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "pirates-of-the-inner-sea"
+page = "23"
 
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Evasion", "Trap sense"]
 +++
 
-**Sources:** Pirates of the Inner Sea pg 23\
 Smugglers specialize in moving contraband from one area to another while avoiding detection by
 authorities. Sometimes a smuggler's cargo is illegal goods, such as drugs or slaves. Other times, a
 smuggler hides legal goods to avoid paying duties or taxes, and some may even use their abilities to

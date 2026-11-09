@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_disarm", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "125"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ normal = "Disarmed weapons and gear land at the feet of the disarmed creature."
 +++
 
 ## Greater Disarm (Combat)
-
-**Sources:** PRPG Core Rulebook pg 125
 
 You can knock weapons far from an enemy's grasp.\
 **Prerequisites:** [Combat Expertise](ref/feat/combat-expertise),

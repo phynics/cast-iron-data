@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "conjuration_foil", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "207"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Saving throw: Will partial (see text)
 Spell resistance: yes (object)
 Area: 20-foot radius spread
 :::
-
-**Sources:** Ultimate Intrigue pg 207
 
 All creatures in the area gain a +4 bonus on saving throws against teleportation effects. If any
 creature would enter or depart the area via a summoning or teleportation effect, that creature takes

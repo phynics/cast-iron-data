@@ -6,6 +6,8 @@ source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_tragedy_of_false_hope", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "blood-of-the-ancients"
 
 [fields]
 kind = "class_option"
@@ -13,8 +15,6 @@ group = "bardic-masterpiece"
 +++
 
 ## The Tragedy of False Hope (Oratory, Sing)
-
-**Sources:** Blood of the Ancients
 
 You remind those around you of the mystic's warning and how danger was ignored in expectation of
 Aroden's return.

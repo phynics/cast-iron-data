@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magma_elemental", path = "json/monsters09.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "118"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ as fractures in its outer surface._
 
 **Size:** small
 
-**Sources:** Bestiary 2 pg 118\
 **Subtype:** Earth, Elemental, Extraplanar, Fire
 
 **Experience points:** 400

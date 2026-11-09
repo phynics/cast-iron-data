@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burrowing_bullet_lesser", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "153"
+[[sources]]
+publication = "ultimate-combat"
+page = "142"
 
 [fields]
 kind = "item"
@@ -19,7 +25,6 @@ caster_level = "3rd"
 
 ## Burrowing Bullet
 
-**Sources:** Ultimate Equipment pg 153, Ultimate Combat pg 142\
 **Aura** moderate necromancy; **CL** 3rd\
 **Slot** none; **Price** lesser (1,722 gp), greater (3,447 gp); **Weight** -
 

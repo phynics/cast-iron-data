@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "classes_pu", path = "json/rules_opt_alignment01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "100"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 100
 
 Certain classes depend on alignment features. Below is a list of changes you'll need to make to the
 classes from the Pathfinder RPG Core Rulebook if you decide not to use alignment - you can use these

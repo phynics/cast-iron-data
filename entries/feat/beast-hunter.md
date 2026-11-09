@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beast_hunter", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "106"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "You can take this feat multiple times. Each time you select this feat
 +++
 
 ## Beast Hunter (Combat)
-
-**Sources:** Ultimate Wilderness pg 106
 
 Thanks to your experience hunting in the wilds, you are capable of tracking animals in your most
 often traveled terrains, and you can easily take down animals larger than yourself.\

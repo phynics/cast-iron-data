@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "archdevil_belial", path = "json/monsters_unique.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "20"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ scaled, scarred, and blackened._
 
 **Senses:** Darkvision 60 ft., Detect chaos, Detect good, See in darkness, True seeing
 
-**Sources:** Bestiary 6 pg 20\
 **Subtype:** Devil, Evil, Extraplanar, Lawful, Shapechanger
 
 **Experience points:** 4,915,200

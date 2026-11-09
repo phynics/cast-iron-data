@@ -6,6 +6,9 @@ source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "watchful_animal", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "spymasters-handbook"
+page = "22"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: no
 Effect: magical sensor
 Subschool: Scrying
 :::
-
-**Sources:** Spymaster's Handbook pg 22
 
 You place a scrying sensor on your animal companion or familiar. This allows the animal companion or
 familiar to function as if it were an insect summoned by the greater insect spy spell. The animal

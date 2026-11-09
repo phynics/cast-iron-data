@@ -6,6 +6,9 @@ source_ids = ["pathfinder-102-breaking-the-bones-of-hell", "book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mephistopheles", path = "json/faiths6.json" },
 ]
+[[sources]]
+publication = "pathfinder-102-breaking-the-bones-of-hell"
+page = "70"
 
 [fields]
 kind = "none"
@@ -15,7 +18,6 @@ kind = "none"
 
 **Sub:** The Crimson Son
 
-**Sources:** Pathfinder \#102: Breaking the Bones of Hell pg 70\
 **Monster Link** [Mephistopheles](ref/monster/archdevil-mephistopheles)
 
 ### Details

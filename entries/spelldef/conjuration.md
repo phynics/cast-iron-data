@@ -6,14 +6,15 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "conjuration", path = "json/spell_definitions.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "209"
 
 [fields]
 kind = "none"
 +++
 
 ## Conjuration (school of magic)
-
-**Sources:** PRPG Core Rulebook pg 209
 
 Each conjuration spell belongs to one of five subschools. Conjurations transport creatures from
 another plane of existence to your plane [(calling)](ref/spelldef/calling); create objects or

@@ -6,6 +6,12 @@ source_ids = ["artifacts-and-legends", "pathfinder-17-a-memory-of-darkness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "maleficus_spike", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "artifacts-and-legends"
+page = "59"
+[[sources]]
+publication = "pathfinder-17-a-memory-of-darkness"
+page = "25"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong abjuration"
 caster_level = "20th"
 +++
 
-**Sources:** Artifacts and Legends pg 59, Pathfinder \#17: A Memory of Darkness pg 25\
 **Aura** strong abjuration; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 16 lbs.
 

@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "pathfinder-86-lords-of-rust"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rhu_chalik", path = "json/monsters20.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "203"
+[[sources]]
+publication = "pathfinder-86-lords-of-rust"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ bulging, lidless eye._
 
 **Size:** small
 
-**Sources:** Bestiary 5 pg 203, Pathfinder \#86: Lords of Rust pg 86\
 **Experience points:** 2,400
 
 **Armor class:** 18/14/15

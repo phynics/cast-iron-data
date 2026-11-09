@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-elements"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lamp_of_fiery_visions", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "blood-of-the-elements"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "7th"
 +++
 
-**Sources:** Blood of the Elements pg 30\
 **Aura** moderate divination; **CL** 7th\
 **Slot** none; **Price** 22,200 gp; **Weight** 1 lb.
 

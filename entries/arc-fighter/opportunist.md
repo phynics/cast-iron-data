@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/fighter" },
 ]
+[[sources]]
+publication = "blood-of-the-beast"
+page = "20"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Bravery", "The bonus feat gained at 1st level", "Bonus feats gained
 alters = ["Class skills"]
 +++
 
-**Sources:** Blood of the Beast pg 20\
 Opportunists believe every battle is one of wits rather than arms. The ratfolk enforcers who protect
 Goka's infamous Deepmarket embrace this philosophy, unleashing a disorienting mix of martial skill
 and alchemical weaponry.

@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vic_jumping_on_or_off_vehicle", path = "json/rules_rulesets02.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "174"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 174
 
 Jumping on a vehicle is a normal jump of its distance assuming the vehicle has a deck or handholds
 within the character's height from the ground. Increase the DC of the Acrobatics check by 5 for

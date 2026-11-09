@@ -6,6 +6,9 @@ source_ids = ["pathfinder-64-beyond-the-doomsday-door"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "herald_ends_voice", path = "json/monsters_unique2.json" },
 ]
+[[sources]]
+publication = "pathfinder-64-beyond-the-doomsday-door"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ ground on footless legs as its menacing flail crackles with blue currents of ele
 
 **Senses:** Darkvision 60 ft., Trueseeing
 
-**Sources:** Pathfinder \#64: Beyond the Doomsday Door pg 84\
 **Subtype:** Chaotic, Extraplanar
 
 **Experience points:** 51,200

@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "base_challenges", path = "json/rules_opt_magic01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "181"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 181
 
 The following two challenges bookend the dynamic magic item creation process. Preparing the vessel
 is always the first challenge, and completing the item is always last.

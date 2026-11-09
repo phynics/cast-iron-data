@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "celestial_shield", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "131"
+[[sources]]
+publication = "advanced-race-guide"
+page = "88"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Sources:** Ultimate Equipment pg 131, Advanced Race Guide pg 88\
 **Aura** moderate evocation; **CL** 7th\
 **Slot** shield; **Price** 13,170 gp; **Weight** 7 lbs.
 

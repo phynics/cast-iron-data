@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pellets_handful", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "41"
+[[sources]]
+publication = "ultimate-combat"
+page = "141"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "0.0166 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 41, Ultimate Combat pg 141
 
 A handful of pellets, along with 1 dose of [black powder](ref/eq-weapon/black-powder-dose), is
 commonly used as ammunition for one-handed and two-handed firearms with the

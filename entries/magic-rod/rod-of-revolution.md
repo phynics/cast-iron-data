@@ -6,6 +6,9 @@ source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rod_of_revolution", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "62"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong enchantment"
 caster_level = "20th"
 +++
 
-**Sources:** Inner Sea Combat pg 62\
 **Aura** strong enchantment; **CL** 20th\
 **Slot** none; **Price** 82,000 gp; **Weight** 8 lbs.
 

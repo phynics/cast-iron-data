@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "planar-adventures", "book-of-the-damned", "divi
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lamashtu", path = "json/faiths5.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "92"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Lamashtu**
 
 **Sub:** Mother of Monsters
-
-**Sources:** Inner Sea Gods pg 92
 
 ### Details
 

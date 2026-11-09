@@ -6,6 +6,9 @@ source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charau_ka_devotee_of_the_ravener_king", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "inner-sea-monster-codex"
+page = "14"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ horrible powers it serves._
 
 **Size:** small
 
-**Sources:** Inner Sea Monster Codex pg 14\
 **Subtype:** Charau-ka\
 **Experience points:** 3,200
 

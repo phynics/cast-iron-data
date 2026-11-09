@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/witch" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "25"
 
 [fields]
 kind = "archetype"
 replaces = ["1st-level hex", "All spells granted by the witch's patron"]
 +++
 
-**Sources:** Arcane Anthology pg 25\
 Rhetoricians feel driven to engage in debate, learn as much as they can about their potential foes,
 and seek ways to use information and quick talking to handle problems before resorting to raw
 violence. Regardless of their shadowy patrons, rhetoricians are granted a series of spells through

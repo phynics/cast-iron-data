@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "redemptors_blessing", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "223"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Sources:** Horror Adventures pg 223\
 **Aura** faint necromancy; **CL** 3rd\
 **Slot** none; **Price** 9,000 gp; **Weight** 1/2 lb.
 

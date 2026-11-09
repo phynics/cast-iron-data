@@ -6,6 +6,9 @@ source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greenblood_scourge", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "55"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "12th"
 +++
 
-**Sources:** Inner Sea Combat pg 55\
 **Aura** moderate evocation; **CL** 12th\
 **Slot** none; **Price** 13,801 gp; **Weight** 2 lbs.
 

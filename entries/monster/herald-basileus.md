@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "pathfinder-29-mother-of-flies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "herald_basileus", path = "json/monsters_unique2.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "278"
+[[sources]]
+publication = "pathfinder-29-mother-of-flies"
+page = "78"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ _This comely man is clad in fine silken robes. His eyes smolder with infernal fl
 
 **Senses:** Darkvision 60 ft., Low-light vision, See in darkness
 
-**Sources:** Inner Sea Gods pg 278, Pathfinder \#29: Mother of Flies pg 78\
 **Subtype:** Devil, Evil, Extraplanar, Herald, Lawful
 
 **Experience points:** 51,200

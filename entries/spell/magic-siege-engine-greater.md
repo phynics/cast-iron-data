@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/magic-siege-engine" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "236"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Spell resistance: yes (harmless) (object)
 :::
 
 ### Greater Magic Siege Engine
-
-**Sources:** Ultimate Combat pg 236
 
 This spell functions like [magic siege weapon](ref/spell/magic-siege-engine), except it gives an
 indirect fire siege weapon an enhancement bonus on targeting and damage rolls of +1 per four caster

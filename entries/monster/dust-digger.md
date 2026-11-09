@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dust_digger", path = "json/monsters41.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "112"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ circular toothy maw._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 2 pg 112\
 **tremorsense:** 60
 
 **Experience points:** 1,200

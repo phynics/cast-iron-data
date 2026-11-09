@@ -6,11 +6,13 @@ source_ids = ["weapon-masters-handbook"]
 relations = [
   { kind = "addon", target = "ref/feat/butterflys-sting", label = "stamina" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "24"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Weapon Master's Handbook pg 24\
 When you confirm a critical hit, you can spend 10 stamina points to use Butterfly's Sting without
 forgoing your own critical hit.

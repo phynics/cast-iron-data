@@ -10,6 +10,9 @@ relations = [
   { kind = "prerequisite", target = "ref/feat/improved-unarmed-strike", label = "or" },
   { kind = "prerequisite", target = "ref/feat/weapon-focus", label = "or" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "27"
 
 [fields]
 kind = "feat"
@@ -21,8 +24,6 @@ special = "A monk of at least 14th level with this feat can select Greater Vital
 +++
 
 ## Diabolic Judgement (Combat)
-
-**Sources:** Planar Adventures pg 27
 
 You punish your foes for every opportunity they present.\
 **Prerequisites:** [Combat Reflexes](ref/feat/combat-reflexes);

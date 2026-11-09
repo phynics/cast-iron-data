@@ -6,13 +6,17 @@ source_ids = ["occult-mysteries", "pathfinder-71-rasputin-must-die"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "occult", path = "json/class_ability_mysteries.json" },
 ]
+[[sources]]
+publication = "occult-mysteries"
+page = "53"
+[[sources]]
+publication = "pathfinder-71-rasputin-must-die"
+page = "68"
 
 [fields]
 kind = "class_option"
 group = "oracle-mystery"
 +++
-
-**Sources:** Occult Mysteries pg 53, Pathfinder \#71: Rasputin Must Die! pg 68
 
 You have an innate connection to the spirits of the dead.
 

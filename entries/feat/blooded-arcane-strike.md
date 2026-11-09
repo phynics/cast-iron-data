@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blooded_arcane_strike", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "143"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While you are bloodraging, you don't need to spend a swift action to 
 +++
 
 ## Blooded Arcane Strike (Combat)
-
-**Sources:** Advanced Class Guide pg 143
 
 Arcane energy guides your devastating attack.\
 **Prerequisites:** [Arcane Strike](ref/feat/arcane-strike), ability to cast arcane spells, bloodrage

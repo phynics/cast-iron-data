@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/amateur-gunslinger", label = "or" },
 ]
+[[sources]]
+publication = "heroes-of-golarion"
+page = "4"
 
 [fields]
 kind = "feat"
@@ -19,8 +22,6 @@ benefit = "After missing with a ranged weapon attack using a firearm, you can sp
 +++
 
 ## Recall Ammunition (Combat, Grit)
-
-**Sources:** Heroes of Golarion pg 4
 
 You use your innate magical abilities to instantly recall a missed shot.\
 **Prerequisites:** [Amateur Gunslinger](ref/feat/amateur-gunslinger) feat or grit class feature,

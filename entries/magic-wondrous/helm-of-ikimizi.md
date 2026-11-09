@@ -6,6 +6,9 @@ source_ids = ["lost-kingdoms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "helm_of_ikimizi", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "lost-kingdoms"
+page = "32"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Sources:** Lost Kingdoms pg 32\
 **Aura** moderate enchantment; **CL** 7th\
 **Slot** head; **Price** -; **Weight** 3 lbs.
 

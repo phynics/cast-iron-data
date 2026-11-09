@@ -6,6 +6,9 @@ source_ids = ["pathfinder-131-the-reapers-right-hand"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "radiant_essence", path = "json/monsters19.json" },
 ]
+[[sources]]
+publication = "pathfinder-131-the-reapers-right-hand"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _Shimmering knots whirl and twist around a shining nucleus in this mound of gold
 
 **Senses:** Sense evil
 
-**Sources:** Pathfinder \#131: The Reaper's Right Hand pg 90\
 **Experience points:** 25,600
 
 **Armor class:** 8/8/8

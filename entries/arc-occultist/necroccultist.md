@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/occultist" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "100"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Object reading", "Aura sight", "Outside contact"]
 alters = ["Implements", "implement mastery"]
 +++
 
-**Sources:** Occult Adventures pg 100\
 Necroccultists' fascination with death and the undead drives them to explore the forbidden
 necromantic arts as they search for secrets they can use to manipulate the natural cycle of life and
 death. They contact and learn from the dead, rather than from items or outsiders, allowing them to

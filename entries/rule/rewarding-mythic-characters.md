@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rewarding_mythic_characters", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "129"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 129
 
 Mythic characters should be rewarded with experience points and treasure based on the higher overall
 CR of the encounters they face. In general, this means mythic characters will earn experience points

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/produce-flame" },
 ]
+[[sources]]
+publication = "heroes-of-the-darklands"
+page = "15"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Descriptors: fire
 :::
 
 ### Pale Flame
-
-**Sources:** Heroes of the Darklands pg 15
 
 This spell functions as per [produce flame](ref/spell/produce-flame), except that the flames never
 glow brighter than dim light, including any fires started by this spell. These flames cast light

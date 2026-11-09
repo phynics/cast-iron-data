@@ -6,12 +6,14 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "technological_feats", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "6"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Technology Guide pg 6\
 Several new technology-related feats interact with Numerian technology.
 
 [Craft Cybernetics:](ref/feat/craft-cybernetics) You can build cyberware and install it in a

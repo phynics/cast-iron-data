@@ -6,12 +6,13 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "type_e_weapons", path = "json/rules_adv_gm05.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "135"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Equipment pg 135
 
 ### Table 3-7: Magic Weapon Table
 

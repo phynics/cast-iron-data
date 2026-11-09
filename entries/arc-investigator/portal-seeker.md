@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/investigator" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "18"
 
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Poison resistance", "Poison lore", "Studied strike", "Poison immunity"]
 +++
 
-**Sources:** Planar Adventures pg 18\
 While most investigators seek answers to mundane mysteries, portal seekers chase more unusual
 enigmas: portals to other planes. While in many cases, portal seekers are boons to their
 communities, performing public services such as discovering planar rifts and, as needed, closing

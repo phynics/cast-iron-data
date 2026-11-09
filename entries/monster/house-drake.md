@@ -6,6 +6,9 @@ source_ids = ["curse-of-the-crimson-throne"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "house_drake", path = "json/monsters14.json" },
 ]
+[[sources]]
+publication = "curse-of-the-crimson-throne"
+page = "474"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ tail has a silvery sheen._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent, See invisibility
 
-**Sources:** Curse of the Crimson Throne pg 474\
 **Size:** tiny
 
 **Experience points:** 600

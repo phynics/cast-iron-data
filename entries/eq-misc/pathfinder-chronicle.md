@@ -6,6 +6,12 @@ source_ids = ["adventurers-guide", "inner-sea-world-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pathfinder_chronicle", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "147"
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "293"
 
 [fields]
 kind = "item"
@@ -16,7 +22,6 @@ weight = "1 lb."
 
 ## Generic Pathfinder Chronicle
 
-**Sources:** Adventurer's Guide pg 147, Inner Sea World Guide pg 293\
 **Price** 50 gp; **Weight** 1 lb.\
 **Category** Adventuring Gear
 

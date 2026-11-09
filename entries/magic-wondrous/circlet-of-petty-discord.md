@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "circlet_of_petty_discord", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "26"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment"
 caster_level = "10th"
 +++
 
-**Sources:** Dirty Tactics Toolbox pg 26\
 **Aura** moderate enchantment; **CL** 10th\
 **Slot** head; **Price** 84,000 gp; **Weight** -
 

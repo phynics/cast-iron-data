@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mark_of_the_reptile_god", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "213"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: curse
 :::
-
-**Sources:** Monster Codex pg 213
 
 If you succeed at a ranged touch attack, you burn your handprint onto the flesh of a creature,
 dealing 1d6 points of acid damage. The mark can be placed on any exposed portion of the creature,

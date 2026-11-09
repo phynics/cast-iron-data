@@ -6,6 +6,9 @@ source_ids = ["pathfinder-77-herald-of-the-ivory-labyrinth"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heart_of_the_herald", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "pathfinder-77-herald-of-the-ivory-labyrinth"
+page = "62"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong necromancy (chaotic, evil)"
 caster_level = "20th"
 +++
 
-**Sources:** Pathfinder \#77: Herald of the Ivory Labyrinth pg 62\
 **Aura** strong necromancy (chaotic, evil); **CL** 20th\
 **Slot** none; **Price** -; **Weight** 2 lbs.
 

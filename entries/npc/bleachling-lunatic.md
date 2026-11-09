@@ -6,6 +6,9 @@ source_ids = ["inner-sea-npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bleachling_lunatic", path = "json/npcs7.json" },
 ]
+[[sources]]
+publication = "inner-sea-npc-codex"
+page = "12"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "3"
 
 **Challenge rating:** 3
 
-**Sources:** Inner Sea NPC Codex pg 12\
 **XP** 800\
 Middle-aged gnome [alchemist](ref/class/alchemist) 4\
 CN Small humanoid (gnome)\

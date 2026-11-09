@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "claiming_water_and_islands", path = "json/rules_campaign_types04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "213"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 213
 
 When you claim a hex that contains part of an ocean or lake, your claim includes the water portion
 of that hex. In effect, your kingdom automatically controls a small portion of the waters adjacent

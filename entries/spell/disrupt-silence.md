@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disrupt_silence", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "212"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: Will negates
 Spell resistance: yes
 Area: 10-ft.-radius emanation centered on a creature, object, or point in space
 :::
-
-**Sources:** Ultimate Intrigue pg 212
 
 You suppress magical sound-dampening effects within the area. Disrupt silence temporarily negates
 magical silence within its area, so that normal sounds can be heard within the overlapping areas of

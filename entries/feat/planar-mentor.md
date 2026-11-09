@@ -6,14 +6,15 @@ source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planar_mentor", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "plane-hoppers-handbook"
+page = "26"
 
 [fields]
 kind = "feat"
 benefit = "When you take this feat, choose one non-unique outsider with 18 Hit Dice or fewer and whose alignment is within one step of your own along either the law/chaos axis or the good/evil axis. Twice per day (three times per day for an outsider with only neutral alignment components) when you fulfill the condition associated with either component of your mentor's alignment, you can gain your mentor's boon for that alignment as an immediate action. This grants you resistance equal to your level to a particular energy type as well as a special benefit associated with that alignment. These benefits last for a number of rounds equal to your Charisma modifier + 1 (minimum 1)."
 special = "At the GM's discretion, a PC can select an outsider of any alignment. This represents a relationship in which the outsider is attempting to corrupt, redeem, or otherwise influence the PC."
 +++
-
-**Sources:** Plane-Hopper's Handbook pg 26
 
 Whether you sought it out, caught its attention, or inherited its service, an outsider is watching
 over you. The more you impress it, the more it shares its power and knowledge.\

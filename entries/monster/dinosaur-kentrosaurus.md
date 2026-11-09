@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dinosaur_kentrosaurus", path = "json/monsters08.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "95"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ projecting from its shoulders._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Bestiary 6 pg 95\
 **Experience points:** 1,600
 
 **Armor class:** 19/11/17

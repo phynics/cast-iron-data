@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "pathfinder-34-blood-for-blood"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nuckelavee", path = "json/monsters18.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "203"
+[[sources]]
+publication = "pathfinder-34-blood-for-blood"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -45,7 +51,6 @@ of rage and sickness._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 3 pg 203, Pathfinder \#34: Blood for Blood pg 88\
 **Subtype:** Aquatic
 
 **Experience points:** 6,400

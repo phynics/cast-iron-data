@@ -6,6 +6,9 @@ source_ids = ["pathfinder-society-field-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tireless_wayfinder", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "pathfinder-society-field-guide"
+page = "55"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Sources:** Pathfinder Society Field Guide pg 55\
 **Aura** faint conjuration; **CL** 5th\
 **Slot** none; **Price** 5,000 gp; **Weight** 1 lb.
 

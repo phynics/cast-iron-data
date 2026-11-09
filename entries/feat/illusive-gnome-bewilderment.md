@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "illusive_gnome_bewilderment", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "12"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using Illusive Gnome Style, when you successfully use Bluff to 
 +++
 
 ## Illusive Gnome Bewilderment (Combat)
-
-**Sources:** Weapon Master's Handbook pg 12
 
 You can use your gnome weapons in unusual ways.\
 **Prerequisites:** Int 13, [Combat Expertise](ref/feat/combat-expertise),

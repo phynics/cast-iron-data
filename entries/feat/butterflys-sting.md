@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "faiths-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "butterflys_sting", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "208"
+[[sources]]
+publication = "faiths-of-purity"
+page = "24"
 
 [fields]
 kind = "feat"
@@ -16,8 +22,6 @@ benefit = "When you confirm a critical hit against a creature, you can choose to
 +++
 
 ## Butterfly's Sting (Combat)
-
-**Sources:** Inner Sea Gods pg 208, Faiths of Purity pg 24
 
 You can forgo a critical hit in order to pass it on to an ally.\
 **Prerequisites:** [Combat Expertise](ref/feat/combat-expertise), worshiper of

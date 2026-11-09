@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slime_mold", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "249"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ with a reek of decay._
 
 **Perception:** -5
 
-**Sources:** Bestiary 2 pg 249\
 **Experience points:** 600
 
 **Armor class:** 8/8/8

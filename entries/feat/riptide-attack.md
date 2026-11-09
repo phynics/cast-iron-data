@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "riptide_attack", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "215"
+[[sources]]
+publication = "faiths-of-balance"
+page = "24"
 
 [fields]
 kind = "feat"
@@ -16,8 +22,6 @@ benefit = "Whenever you succeed at a trip combat maneuver, you can automatically
 +++
 
 ## Riptide Attack (Combat)
-
-**Sources:** Inner Sea Gods pg 215, Faiths of Balance pg 24
 
 You can immediately drag opponents you successfully trip.\
 **Prerequisites:** [Improved Drag](ref/feat/improved-drag), [Improved Trip](ref/feat/improved-trip),

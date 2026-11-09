@@ -6,6 +6,9 @@ source_ids = ["occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "echohusk", path = "json/monster_template1.json" },
 ]
+[[sources]]
+publication = "occult-bestiary"
+page = "24"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** Varies
-
-**Source:** Occult Bestiary/24
 
 Echohusks are the walking corpses of creatures slain by powerful psychic attacks and animated by the
 mental energies that caused their deaths. The mind and soul of an echohusk are erased from its

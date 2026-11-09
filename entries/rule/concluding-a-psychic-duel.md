@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "concluding_a_psychic_duel", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "204"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 204
 
 There are a number of ways a psychic duel can conclude and the combatants' minds can return to their
 bodies (aside from the end of the [instigate psychic duel](ref/spell/instigate-psychic-duel) spell

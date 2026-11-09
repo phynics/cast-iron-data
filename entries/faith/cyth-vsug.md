@@ -6,6 +6,9 @@ source_ids = ["pathfinder-119-prisoners-of-the-blight", "book-of-the-damned-volu
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cyth_vsug", path = "json/faiths2.json" },
 ]
+[[sources]]
+publication = "pathfinder-119-prisoners-of-the-blight"
+page = "71"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Cyth-V'sug**
 
 **Sub:** Prince of the Blasted Heath
-
-**Sources:** Pathfinder \#119: Prisoners of the Blight pg 71
 
 ### Details
 

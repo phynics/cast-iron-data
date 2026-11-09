@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "azer", path = "json/monsters03.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "39"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ mane of fire._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 2 pg 39\
 **Subtype:** Extraplanar, Fire
 
 **Experience points:** 600

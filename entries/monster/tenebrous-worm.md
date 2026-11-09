@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tenebrous_worm", path = "json/monsters23.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "260"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ shadow seems strangely mobile._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 2 pg 260\
 **Subtype:** Extraplanar
 
 **Experience points:** 4,800

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-67-the-snows-of-summer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloak_of_the_yeti", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "pathfinder-67-the-snows-of-summer"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Sources:** Pathfinder \#67: The Snows of Summer pg 60\
 **Aura** faint abjuration; **CL** 3rd\
 **Slot** shoulders; **Price** 4,000 gp; **Weight** 5 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["path-of-the-hellknight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hellknight_aegis", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "path-of-the-hellknight"
+page = "62"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Heavy Armor Proficiency, base attack bonus +5, must swear alleg
 prerequisite_feats = ["ref/feat/armor-proficiency-heavy"]
 benefit = "Once per day as a full-round action, you can give your Hellknight armor the broken condition. Upon doing so, you are affected by one of the following spells (your choice), using your character level as your caster level: break enchantment, neutralize poison, remove disease, or remove paralysis. Once you have used this benefit, your Hellknight armor must be repaired as normal to restore its full bonus to your Armor Class and return its armor check penalty to normal."
 +++
-
-**Sources:** Path of the Hellknight pg 62
 
 Your Hellknight armor guards you against many threats.\
 **Prerequisites:** [Heavy Armor Proficiency](ref/feat/armor-proficiency-heavy), base attack bonus

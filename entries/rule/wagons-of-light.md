@@ -6,12 +6,13 @@ source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wagons_of_light", path = "json/rules_rulesets01.json" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "9"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Black Markets pg 9
 
 **Associated Trait:** [Covert Channeler](ref/trait/covert-channeler)
 

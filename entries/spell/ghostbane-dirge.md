@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghostbane_dirge", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "225"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: Will negates
 Spell resistance: yes
 Target: one incorporeal creature
 :::
-
-**Sources:** Advanced Player's Guide pg 225
 
 The target coalesces into a semi-physical form for a short period of time. While subject to the
 spell, the incorporeal creature takes half damage (50%) from nonmagical attack forms, and full

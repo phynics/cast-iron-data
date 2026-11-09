@@ -6,6 +6,9 @@ source_ids = ["inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vetala", path = "json/monster_template4.json" },
 ]
+[[sources]]
+publication = "inner-sea-bestiary"
+page = "54"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +2
-
-**Source:** Inner Sea Bestiary/54
 
 While most of the Inner Sea's [vampires](ref/template/vampire) lust for living blood, the mysterious
 vetalas hunger for a more intangible force: the energy that infuses mortal minds. Referred to as

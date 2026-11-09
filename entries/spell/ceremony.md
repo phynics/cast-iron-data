@@ -6,6 +6,9 @@ source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ceremony", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "quests-and-campaigns"
+page = "25"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: Will negates (see text)
 Spell resistance: yes
 Target: willing, living creature or creatures touched or one creature/level (see text)
 :::
-
-**Sources:** Quests and Campaigns pg 25
 
 You harness divine power to create one of four different ceremonies - a funeral, holiday fete,
 marriage, or naming - and can also create two domain-based ceremonies. Each ceremony provides a boon

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/darkvision" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "226"
 
 [fields]
 kind = "spell"
@@ -53,8 +56,6 @@ Target: creature touched
 :::
 
 ### Communal Darkvision
-
-**Sources:** Ultimate Combat pg 226
 
 This spell functions like [darkvision](ref/spell/darkvision), except you may divide the duration in
 1-hour intervals among the creatures touched.

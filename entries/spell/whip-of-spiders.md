@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "whip_of_spiders", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "199"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: yes
 Effect: whip-like swarm
 Subschool: Summoning
 :::
-
-**Sources:** Advanced Class Guide pg 199
 
 You summon hundreds of Diminutive spiders, which cling together in the form of a whip made for a
 creature of your size. You can wield this object as if it were an actual whip, except you make a

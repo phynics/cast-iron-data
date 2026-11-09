@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/skald" },
 ]
+[[sources]]
+publication = "heroes-of-the-streets"
+page = "25"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Song of marching", "damage reduction", "Dirge of doom"]
 alters = ["Weapon and armor proficiencies", "Inspired rage"]
 +++
 
-**Sources:** Heroes of the Streets pg 25\
 The urban skald finds that challenging and mocking foes is sometimes more effective than inspiring
 uncontrolled rage in a city.
 

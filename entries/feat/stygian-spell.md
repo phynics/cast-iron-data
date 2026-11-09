@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stygian_spell", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "32"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "You can enhance any spell with the water descriptor that targets at l
 +++
 
 ## Stygian Spell (Metamagic)
-
-**Sources:** Planar Adventures pg 32
 
 Stygian spells forsake pure water for the memory-destroying tides of the River Styx.\
 **Benefit:** You can enhance any spell with the water descriptor that targets at least one creature

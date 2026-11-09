@@ -6,6 +6,9 @@ source_ids = ["inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bereave", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "inner-sea-temples"
+page = "13"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Targets: all creatures in a 15-ft.-radius burst
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Inner Sea Temples pg 13
 
 An overwhelming feeling of loss overcomes the targets, and their allies' words sound bleak and
 hollow. Regardless of actual allegiances, affected creatures no longer count as allies for other

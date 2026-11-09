@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grove_of_respite", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "226"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: no
 Effect: 20-ft.-radius grove
 Subschool: Creation
 :::
-
-**Sources:** Advanced Player's Guide pg 226
 
 You conjure a sheltered grove of trees surrounding a shallow spring. The grove appears from nowhere
 even in the most barren, rocky soil regardless of season, but the spell must be cast outside on open

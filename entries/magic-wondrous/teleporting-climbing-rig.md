@@ -6,6 +6,9 @@ source_ids = ["dungeoneers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "teleporting_climbing_rig", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "dungeoneers-handbook"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration (teleportation)"
 caster_level = "7th"
 +++
 
-**Sources:** Dungeoneer's Handbook pg 29\
 **Aura** moderate conjuration (teleportation); **CL** 7th\
 **Slot** none; **Price** 7,600 gp; **Weight** 7 lbs.
 

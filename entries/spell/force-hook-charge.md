@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "force_hook_charge", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "220"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: yes
 Target: one creature or object within range and you
 Descriptors: force
 :::
-
-**Sources:** Ultimate Magic pg 220
 
 You create a hook of force that strikes the target and drags you to a space adjacent to it. Make a
 ranged touch attack against the target; if the touch attack succeeds, the target takes 1 point of

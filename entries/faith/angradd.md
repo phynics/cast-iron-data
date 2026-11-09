@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "pathfinder-144-midwives-to-death"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "angradd", path = "json/faiths.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "320"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Angradd**
 
 **Sub:** The Forge-Fire
-
-**Sources:** Inner Sea Gods pg 320
 
 ### Details
 

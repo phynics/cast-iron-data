@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eversmoking_bottle", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "296"
+[[sources]]
+publication = "core-rulebook"
+page = "512"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Ultimate Equipment pg 296, PRPG Core Rulebook pg 512\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** none; **Price** 5,400 gp; **Weight** 1 lb.
 

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/skinsend" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "25"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: no
 Target: creature touched
 :::
-
-**Sources:** Magic Tactics Toolbox pg 25
 
 You cause one of your ears to tear itself free of your body and transform into a fly-like magical
 creature you control. This functions like [skinsend](ref/spell/skinsend), except your ear is a Fine

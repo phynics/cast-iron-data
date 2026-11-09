@@ -6,12 +6,13 @@ source_ids = ["adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alchemical_power_components", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "adventurers-armory"
+page = "26"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Adventurer's Armory pg 26
 
 An alchemical power component is an alchemical item used as a material component or focus for a
 spell in order to alter or augment the spell's normal effects. What is listed is a sample of these

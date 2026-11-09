@@ -6,6 +6,9 @@ source_ids = ["pathfinder-120-vault-of-the-onyx-citadel"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_vault_giant", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "pathfinder-120-vault-of-the-onyx-citadel"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ its head to the tip of its thick tail. Its blue eyes give off a soft glow._
 
 **Senses:** Darkvision 120 ft., Low-light vision, Scent
 
-**Sources:** Pathfinder \#120: Vault of the Onyx Citadel pg 84\
 **Subtype:** Aquatic, Giant, Reptilian
 
 **Experience points:** 102,400

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "services_franchises_and_property", path = "json/rules_gm03.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "111"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 111
 
 Rather than hauling treasure hoards from the dungeon hideouts of defeated foes, adventurers may be
 granted boons or gifts by patrons assigning them to perform dangerous tasks. Example assignments can

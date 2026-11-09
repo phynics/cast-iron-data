@@ -6,6 +6,9 @@ source_ids = ["pathfinder-105-the-inferno-gate"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bagman", path = "json/monsters03.json" },
 ]
+[[sources]]
+publication = "pathfinder-105-the-inferno-gate"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ bloodstained burlap sack hangs over its shoulder._
 
 **Senses:** Find children, Low-light vision
 
-**Sources:** Pathfinder \#105: The Inferno Gate pg 84\
 **Experience points:** 1,200
 
 **Armor class:** 17/12/15

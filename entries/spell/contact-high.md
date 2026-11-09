@@ -6,6 +6,9 @@ source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "contact_high", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "19"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: Fortitude negates
 Spell resistance: yes
 Target: living creatures touched (up to one per level)
 :::
-
-**Sources:** Black Markets pg 19
 
 While under the effects of a drug, you can duplicate those effects in others. You can touch another
 creature once per round (this requires a melee touch attack if the target is unwilling). When

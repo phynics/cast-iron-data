@@ -6,6 +6,9 @@ source_ids = ["pathfinder-140-eulogy-for-roslars-coffer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pixie_circle", path = "json/monsters19.json" },
 ]
+[[sources]]
+publication = "pathfinder-140-eulogy-for-roslars-coffer"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ honey and fruit drape over the bone-white trees of a dead grove buried under hea
 
 **Type:** plant
 
-**Sources:** Pathfinder \#140: Eulogy for Roslar's Coffer pg 90\
 **Experience points:** 3,200
 
 **Armor class:** 21/6/21

@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "transparency", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "236"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 236
 
 A mindscape's creator typically knows when she is within her own mindscape, but other creatures
 might not, depending on the type of mindscape.

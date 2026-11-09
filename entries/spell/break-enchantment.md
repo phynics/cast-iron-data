@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "break_enchantment", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "251"
 
 [fields]
 kind = "spell"
@@ -54,8 +57,6 @@ Saving throw: see text
 Spell resistance: no
 Targets: up to one creature per level, all within 30 ft. of each other
 :::
-
-**Sources:** PRPG Core Rulebook pg 251
 
 This spell frees victims from enchantments, transmutations, and curses. Break enchantment can
 reverse even an instantaneous effect. For each such effect, you make a caster level check (1d20 +

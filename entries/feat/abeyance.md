@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "abeyance", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "28"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "If a shaman or witch uses this [blood hex](ref/rule/feats-class), the
 +++
 
 ## Abeyance (Blood Hex)
-
-**Sources:** Magic Tactics Toolbox pg 28
 
 You can disrupt your opponent's connection to its own magical power.\
 **Prerequisites:** Int 13, Spellcraft 5 ranks, Use Magic Device 1 rank.\

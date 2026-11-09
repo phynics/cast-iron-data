@@ -6,14 +6,14 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "behemoth", path = "json/monster_subtypes.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
 
 [fields]
 kind = "none"
 +++
 
 ## Subtype: Behemoth
-
-**Sources:** Bestiary 3
 
 A behemoth is a neutral Colossal [magical beast](ref/type/magical-beast) of great strength and
 power. Behemoths possess the following traits unless otherwise noted.

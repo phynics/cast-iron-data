@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extreme_prejudice", path = "json/feat06.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "147"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you succeed at a sneak attack against a creature you selected as
 +++
 
 ## Extreme Prejudice (Combat)
-
-**Sources:** Advanced Class Guide pg 147
 
 Your hatred of a particular type of creature has honed your killer instinct.\
 **Prerequisites:** [Seething Hatred](ref/feat/seething-hatred),

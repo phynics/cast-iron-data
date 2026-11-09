@@ -6,12 +6,14 @@ source_ids = ["skull-and-shackles-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shearing", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "skull-and-shackles-players-guide"
+page = "15"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Skull and Shackles Player's Guide pg 15\
 A ship may attempt to shear off the oars of an opposing ship, if the target ship uses oars for
 muscle propulsion. To attempt a shearing maneuver, a ship must be adjacent to the target's forward
 or rear square and move along the side of the target for a number of adjacent squares equal to the
