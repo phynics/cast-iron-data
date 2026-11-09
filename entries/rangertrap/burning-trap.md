@@ -12,11 +12,19 @@ kind = "class_option"
 group = "ranger-trap"
 +++
 
+**Sources:** Ultimate Magic pg 64
+
 ### Burning Trap (Ex or Su)
 
-**Modification:**
+::: statblock
+Type: mechanical or magical
+Perception: DC 10 + 1/2 Ranger level + Wisdom bonus (-2 if mechanical)
+Disable Device: DC 10 + 1/2 Ranger level + Wisdom bonus (-2 if mechanical)
+Trigger: location
+Reset: none
+:::
 
-**Details:** A ranger can only add this to a [fire trap](ref/rangertrap/fire-trap).\~\~\~If the
-triggering creature fails its Reflex save, it catches on fire, taking 1d6 points of fire damage at
-the start of its turn for 1d4 rounds. The burning creature can attempt a new save as a full-round
-action. Dropping and rolling on the ground grants a +4 bonus on this save.
+**Effect:** A ranger can only add this to a [fire trap](ref/rangertrap/fire-trap). If the triggering
+creature fails its Reflex save, it catches on fire, taking 1d6 points of fire damage at the start of
+its turn for 1d4 rounds. The burning creature can attempt a new save as a full-round action.
+Dropping and rolling on the ground grants a +4 bonus on this save.

@@ -12,10 +12,18 @@ kind = "class_option"
 group = "ranger-trap"
 +++
 
+**Sources:** Ultimate Magic pg 64
+
 ### Sleet Trap (Su)
 
-**Effect:**
+::: statblock
+Type: magical
+Perception: DC 10 + 1/2 Ranger level + Wisdom bonus
+Disable Device: DC 10 + 1/2 Ranger level + Wisdom bonus
+Trigger: location
+Reset: none
+:::
 
-**Details:** The detonating trap creates a 20-foot-radius [burst](ref/misc/burst) of sleet with the
+**Effect:** The detonating trap creates a 20-foot-radius [burst](ref/misc/burst) of sleet with the
 effects of a [sleet storm](ref/spell/sleet-storm). The driving sleet lasts for 1 round, but the icy
 ground persists for 1 round per ranger level.

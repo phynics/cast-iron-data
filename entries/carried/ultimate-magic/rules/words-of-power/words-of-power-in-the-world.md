@@ -13,6 +13,8 @@ provenance = [
 kind = "none"
 +++
 
+**Sources:** Ultimate Magic pg 164
+
 Words of power represent a primal form of magic used in ages past. As such, use of the words of
 power system is rare these days, and its practitioners tend to be masters of esoteric lore. Words of
 power constitute a root system, from which all modern magic descends. Although powerful, this system
