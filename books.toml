@@ -46422,8 +46422,8 @@ entry = "ref/npc/poisononous-performer"
 [[books]]
 source = "technology-guide"
 title = "Technology Guide"
-basis = "The main chapter titles, their order, and their first pages are checked against the printed contents page of Technology Guide. See docs/research/book-order-evidence.md. Canonical ids were substituted through the reviewed alias map; chapters and order are unchanged."
-review = ["The printed Introduction has no corpus chapter. The printed Technological Equipment and Technological Hazards and Artifacts titles replace the dataset's Equipment and Hazards and Artifacts. The final New entries (page order) chapter holds canonical entries the curated tree does not place; it is page-ordered and is not a printed chapter.", "Canonical ids were substituted through sources/canonical/id-map.toml. A legacy entry with no installed target is omitted and listed in coverage."]
+basis = "The main chapter titles, their order, and their first pages are checked against the printed contents page of Technology Guide. Each chapter holds its printed section headings and entries in page order. See docs/research/book-order-evidence.md. Canonical ids were substituted through the reviewed alias map; chapters and order are unchanged."
+review = ["Each chapter holds its printed sections and page order; entries that share a printed page keep the dataset order.", "The printed Introduction has no corpus chapter. The printed Technological Equipment and Technological Hazards and Artifacts titles replace the dataset's Equipment and Hazards and Artifacts.", "The dataset group headings On Signals and Traps and Technology are gone because an entry now carries each printed heading; no entry id or entry file changed.", "A canonical duplicate of a dataset section intro opens the printed section it repeats: Technological Adventures, Technological Feats, Feats and Crafting High-Tech Items, Artificial Intelligence, Tech Artifacts, and Miscellaneous Gear.", "The final New entries (page order) chapter keeps only entries with no Technology Guide page: the base Make Whole spell, which Technology Guide refers to but does not print, and the cross-book Specific Campaign Types hub.", "Canonical ids were substituted through sources/canonical/id-map.toml. A legacy entry with no installed target is omitted and listed in coverage."]
 
 [[books.chapters]]
 title = "Technology in the World"
@@ -46433,9 +46433,77 @@ entry = "ref/carried/technology-guide/rules/technology-in-the-world"
 title = "Skills"
 entry = "ref/carried/technology-guide/rules/technology-in-the-world/skills"
 
+[[books.chapters.children.children]]
+title = "Craft (any)"
+entry = "ref/skill/craft-any"
+
+[[books.chapters.children.children]]
+title = "Disable Device"
+entry = "ref/skill/disable-device"
+
+[[books.chapters.children.children]]
+title = "Linguistics"
+entry = "ref/skill/linguistics"
+
+[[books.chapters.children.children]]
+title = "Heal"
+entry = "ref/skill/heal"
+
+[[books.chapters.children.children]]
+title = "Knowledge (engineering)"
+entry = "ref/skill/knowledge-engineering"
+
+[[books.chapters.children.children]]
+title = "Knowledge (geography)"
+entry = "ref/skill/knowledge-geography"
+
 [[books.chapters.children]]
 title = "Feats"
 entry = "ref/carried/technology-guide/rules/technology-in-the-world/feats"
+
+[[books.chapters.children.children]]
+title = "Technological Feats"
+entry = "ref/rule/technological-feats"
+
+[[books.chapters.children.children]]
+title = "Craft Cybernetics"
+entry = "ref/feat/craft-cybernetics"
+
+[[books.chapters.children.children]]
+title = "Craft Pharmaceutical"
+entry = "ref/feat/craft-pharmaceutical"
+
+[[books.chapters.children.children]]
+title = "Craft Technological Arms and Armor"
+entry = "ref/feat/craft-technological-arms-and-armor"
+
+[[books.chapters.children.children]]
+title = "Craft Technological Item"
+entry = "ref/feat/craft-technological-item"
+
+[[books.chapters.children.children]]
+title = "Robot's Bane"
+entry = "ref/feat/robots-bane"
+
+[[books.chapters.children.children]]
+title = "Scavenger's Luck"
+entry = "ref/feat/scavengers-luck"
+
+[[books.chapters.children.children]]
+title = "Technologist"
+entry = "ref/feat/technologist"
+
+[[books.chapters.children.children]]
+title = "Technology Adept"
+entry = "ref/feat/technology-adept"
+
+[[books.chapters.children.children]]
+title = "Technophobe"
+entry = "ref/feat/technophobe"
+
+[[books.chapters.children.children]]
+title = "Wrest Charge"
+entry = "ref/feat/wrest-charge"
 
 [[books.chapters.children]]
 title = "Spells"
@@ -46462,6 +46530,10 @@ title = "Discharge, Greater"
 entry = "ref/carried/technology-guide/rules/technology-in-the-world/spells/discharge/greater"
 
 [[books.chapters.children.children]]
+title = "Greater Discharge"
+entry = "ref/spell/discharge-greater"
+
+[[books.chapters.children.children]]
 title = "Infuse Robot"
 entry = "ref/spell/infuse-robot"
 
@@ -46476,6 +46548,10 @@ entry = "ref/spell/magic-circle-against-technology"
 [[books.chapters.children.children]]
 title = "Make Whole, Greater"
 entry = "ref/carried/technology-guide/rules/technology-in-the-world/spells/make-whole/greater"
+
+[[books.chapters.children.children]]
+title = "Greater Make Whole"
+entry = "ref/spell/make-whole-greater"
 
 [[books.chapters.children.children]]
 title = "Memory of Function"
@@ -46502,6 +46578,10 @@ title = "Remove Radioactivity, Greater"
 entry = "ref/carried/technology-guide/rules/technology-in-the-world/spells/remove-radioactivity/greater"
 
 [[books.chapters.children.children]]
+title = "Greater Remove Radioactivity"
+entry = "ref/spell/remove-radioactivity-greater"
+
+[[books.chapters.children.children]]
 title = "Technomancy"
 entry = "ref/spell/technomancy"
 
@@ -46526,6 +46606,10 @@ title = "Technic Scavenger"
 entry = "ref/carried/technology-guide/rules/technology-in-the-world/archtypes/technology-themed-archetypes/technic-scavenger"
 
 [[books.chapters.children.children.children]]
+title = "Numerian Scavenger"
+entry = "ref/arc-rogue/numerian-scavenger"
+
+[[books.chapters.children.children.children]]
 title = "Savage Technologist"
 entry = "ref/arc-barbarian/savage-technologist"
 
@@ -46541,6 +46625,22 @@ entry = "ref/pclass/technomancer"
 title = "Crafting"
 entry = "ref/carried/technology-guide/rules/technology-in-the-world/crafting"
 
+[[books.chapters.children.children]]
+title = "Feats and Crafting High-Tech Items"
+entry = "ref/rule/crafting-high-tech-items"
+
+[[books.chapters.children.children]]
+title = "Crafting Laboratories"
+entry = "ref/rule/crafting-laboratories"
+
+[[books.chapters.children.children]]
+title = "Hybrid Magic/Tech Items"
+entry = "ref/rule/hybrid-items"
+
+[[books.chapters.children.children]]
+title = "Pricing and Creating New Technological Items"
+entry = "ref/rule/pricing-and-creating-new-technological-items"
+
 [[books.chapters]]
 title = "Technological Equipment"
 entry = "ref/carried/technology-guide/rules/equipment"
@@ -46550,8 +46650,32 @@ title = "Introduction"
 entry = "ref/carried/technology-guide/rules/equipment/introduction"
 
 [[books.chapters.children]]
+title = "Technological Adventures"
+entry = "ref/rule/technological-equipment"
+
+[[books.chapters.children]]
 title = "Weapons"
 entry = "ref/carried/technology-guide/rules/equipment/weapons"
+
+[[books.chapters.children.children]]
+title = "Tech Weapons"
+entry = "ref/rule/tech-weapons"
+
+[[books.chapters.children.children]]
+title = "Automatic"
+entry = "ref/misc/automatic"
+
+[[books.chapters.children.children]]
+title = "Semi-Automatic"
+entry = "ref/misc/semi-automatic"
+
+[[books.chapters.children.children]]
+title = "Slow-Firing"
+entry = "ref/misc/slow-firing"
+
+[[books.chapters.children.children]]
+title = "Touch"
+entry = "ref/misc/touch"
 
 [[books.chapters.children.children]]
 title = "Arc Pistol"
@@ -46686,6 +46810,10 @@ title = "Armor"
 entry = "ref/carried/technology-guide/rules/equipment/armor"
 
 [[books.chapters.children.children]]
+title = "Tech Armor"
+entry = "ref/rule/tech-armor"
+
+[[books.chapters.children.children]]
 title = "Chameleon Suit"
 entry = "ref/tech-armor/chameleon-suit"
 
@@ -46726,6 +46854,42 @@ title = "Scatterlight Suit"
 entry = "ref/carried/technology-guide/rules/equipment/armor/scatterlight-suit"
 
 [[books.chapters.children.children]]
+title = "Scatterlight Suit (black)"
+entry = "ref/tech-armor/scatterlight-suit-black"
+
+[[books.chapters.children.children]]
+title = "Scatterlight Suit (blue)"
+entry = "ref/tech-armor/scatterlight-suit-blue"
+
+[[books.chapters.children.children]]
+title = "Scatterlight Suit (brown)"
+entry = "ref/tech-armor/scatterlight-suit-brown"
+
+[[books.chapters.children.children]]
+title = "Scatterlight Suit (gray)"
+entry = "ref/tech-armor/scatterlight-suit-gray"
+
+[[books.chapters.children.children]]
+title = "Scatterlight Suit (green)"
+entry = "ref/tech-armor/scatterlight-suit-green"
+
+[[books.chapters.children.children]]
+title = "Scatterlight Suit (orange)"
+entry = "ref/tech-armor/scatterlight-suit-orange"
+
+[[books.chapters.children.children]]
+title = "Scatterlight Suit (prismatic)"
+entry = "ref/tech-armor/scatterlight-suit-prismatic"
+
+[[books.chapters.children.children]]
+title = "Scatterlight Suit (red)"
+entry = "ref/tech-armor/scatterlight-suit-red"
+
+[[books.chapters.children.children]]
+title = "Scatterlight Suit (white)"
+entry = "ref/tech-armor/scatterlight-suit-white"
+
+[[books.chapters.children.children]]
 title = "Smart Armor (Compact Form)"
 entry = "ref/tech-armor/smart-armor-compact-form"
 
@@ -46756,6 +46920,26 @@ entry = "ref/tech-pharma/cureall"
 [[books.chapters.children.children]]
 title = "Hemochem"
 entry = "ref/carried/technology-guide/rules/equipment/pharmaceuticals/hemochem"
+
+[[books.chapters.children.children]]
+title = "Hemochem (grade I)"
+entry = "ref/tech-pharma/hemochem-grade-i"
+
+[[books.chapters.children.children]]
+title = "Hemochem (grade II)"
+entry = "ref/tech-pharma/hemochem-grade-ii"
+
+[[books.chapters.children.children]]
+title = "Hemochem (grade III)"
+entry = "ref/tech-pharma/hemochem-grade-iii"
+
+[[books.chapters.children.children]]
+title = "Hemochem (grade IV)"
+entry = "ref/tech-pharma/hemochem-grade-iv"
+
+[[books.chapters.children.children]]
+title = "Hemochem (grave V)"
+entry = "ref/tech-pharma/hemochem-grave-v"
 
 [[books.chapters.children.children]]
 title = "Hype"
@@ -46794,6 +46978,18 @@ title = "Cyberfiber Muscles"
 entry = "ref/carried/technology-guide/rules/equipment/cybertech/cyberfiber-muscles"
 
 [[books.chapters.children.children]]
+title = "Cyberfiber Muscles (mark I)"
+entry = "ref/tech-cyber/cyberfiber-muscles-mark-i"
+
+[[books.chapters.children.children]]
+title = "Cyberfiber Muscles (mark II)"
+entry = "ref/tech-cyber/cyberfiber-muscles-mark-ii"
+
+[[books.chapters.children.children]]
+title = "Cyberfiber Muscles (mark III)"
+entry = "ref/tech-cyber/cyberfiber-muscles-mark-iii"
+
+[[books.chapters.children.children]]
 title = "Cybernetic Arm"
 entry = "ref/tech-cyber/cybernetic-arm"
 
@@ -46814,6 +47010,26 @@ title = "Dermal Plating"
 entry = "ref/carried/technology-guide/rules/equipment/cybertech/dermal-plating"
 
 [[books.chapters.children.children]]
+title = "Dermal Plating (mark I)"
+entry = "ref/tech-cyber/dermal-plating-mark-i"
+
+[[books.chapters.children.children]]
+title = "Dermal Plating (mark II)"
+entry = "ref/tech-cyber/dermal-plating-mark-ii"
+
+[[books.chapters.children.children]]
+title = "Dermal Plating (mark III)"
+entry = "ref/tech-cyber/dermal-plating-mark-iii"
+
+[[books.chapters.children.children]]
+title = "Dermal Plating (mark IV)"
+entry = "ref/tech-cyber/dermal-plating-mark-iv"
+
+[[books.chapters.children.children]]
+title = "Dermal Plating (mark V)"
+entry = "ref/tech-cyber/dermal-plating-mark-v"
+
+[[books.chapters.children.children]]
 title = "Frenzychip"
 entry = "ref/tech-cyber/frenzychip"
 
@@ -46830,8 +47046,32 @@ title = "Thoracic Nanite Chamber"
 entry = "ref/carried/technology-guide/rules/equipment/cybertech/thoracic-nanite-chamber"
 
 [[books.chapters.children.children]]
+title = "Thoracic Nanite Chamber (mark I)"
+entry = "ref/tech-cyber/thoracic-nanite-chamber-mark-i"
+
+[[books.chapters.children.children]]
+title = "Thoracic Nanite Chamber (mark II)"
+entry = "ref/tech-cyber/thoracic-nanite-chamber-mark-ii"
+
+[[books.chapters.children.children]]
+title = "Thoracic Nanite Chamber (mark III)"
+entry = "ref/tech-cyber/thoracic-nanite-chamber-mark-iii"
+
+[[books.chapters.children.children]]
 title = "Wirejack Tendons"
 entry = "ref/carried/technology-guide/rules/equipment/cybertech/wirejack-tendons"
+
+[[books.chapters.children.children]]
+title = "Wirejack Tendons (mark I)"
+entry = "ref/tech-cyber/wirejack-tendons-mark-i"
+
+[[books.chapters.children.children]]
+title = "Wirejack Tendons (mark II)"
+entry = "ref/tech-cyber/wirejack-tendons-mark-ii"
+
+[[books.chapters.children.children]]
+title = "Wirejack Tendons (mark III)"
+entry = "ref/tech-cyber/wirejack-tendons-mark-iii"
 
 [[books.chapters.children]]
 title = "Gear"
@@ -46842,202 +47082,602 @@ title = "Technological Gear"
 anchor = "technological-gear"
 
 [[books.chapters.children.children.children]]
-title = "On Signals"
-anchor = "on-signals"
+title = "Miscellaneous Gear"
+entry = "ref/rule/tech-misc"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children]]
 title = "Access Card"
 entry = "ref/carried/technology-guide/rules/equipment/gear/technological-gear/on-signals/access-card"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children]]
+title = "Access Card (black)"
+entry = "ref/tech-misc/access-card-black"
+
+[[books.chapters.children.children.children]]
+title = "Access Card (blue)"
+entry = "ref/tech-misc/access-card-blue"
+
+[[books.chapters.children.children.children]]
+title = "Access Card (brown)"
+entry = "ref/tech-misc/access-card-brown"
+
+[[books.chapters.children.children.children]]
+title = "Access Card (gray)"
+entry = "ref/tech-misc/access-card-gray"
+
+[[books.chapters.children.children.children]]
+title = "Access Card (green)"
+entry = "ref/tech-misc/access-card-green"
+
+[[books.chapters.children.children.children]]
+title = "Access Card (orange)"
+entry = "ref/tech-misc/access-card-orange"
+
+[[books.chapters.children.children.children]]
+title = "Access Card (prismatic)"
+entry = "ref/tech-misc/access-card-prismatic"
+
+[[books.chapters.children.children.children]]
+title = "Access Card (red)"
+entry = "ref/tech-misc/access-card-red"
+
+[[books.chapters.children.children.children]]
+title = "Access Card (white)"
+entry = "ref/tech-misc/access-card-white"
+
+[[books.chapters.children.children.children]]
 title = "Battery"
 entry = "ref/tech-misc/battery"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children]]
+title = "Silverdisk"
+entry = "ref/tech-misc/silverdisk"
+
+[[books.chapters.children.children.children]]
 title = "Camera"
 entry = "ref/tech-misc/camera"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children]]
 title = "Chemalyzer"
 entry = "ref/tech-misc/chemalyzer"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children]]
 title = "Chipfinder"
 entry = "ref/carried/technology-guide/rules/equipment/gear/technological-gear/on-signals/chipfinder"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children]]
+title = "Chipfinder (black)"
+entry = "ref/tech-misc/chipfinder-black"
+
+[[books.chapters.children.children.children]]
+title = "Chipfinder (blue)"
+entry = "ref/tech-misc/chipfinder-blue"
+
+[[books.chapters.children.children.children]]
+title = "Chipfinder (brown)"
+entry = "ref/tech-misc/chipfinder-brown"
+
+[[books.chapters.children.children.children]]
+title = "Chipfinder (gray)"
+entry = "ref/tech-misc/chipfinder-gray"
+
+[[books.chapters.children.children.children]]
+title = "Chipfinder (green)"
+entry = "ref/tech-misc/chipfinder-green"
+
+[[books.chapters.children.children.children]]
+title = "Chipfinder (orange)"
+entry = "ref/tech-misc/chipfinder-orange"
+
+[[books.chapters.children.children.children]]
+title = "Chipfinder (prismatic)"
+entry = "ref/tech-misc/chipfinder-prismatic"
+
+[[books.chapters.children.children.children]]
+title = "Chipfinder (red)"
+entry = "ref/tech-misc/chipfinder-red"
+
+[[books.chapters.children.children.children]]
+title = "Chipfinder (white)"
+entry = "ref/tech-misc/chipfinder-white"
+
+[[books.chapters.children.children.children]]
 title = "Clonepod"
 entry = "ref/tech-misc/clonepod"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children]]
 title = "Commset"
 entry = "ref/tech-misc/commset"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children]]
 title = "Cortex Gun"
 entry = "ref/carried/technology-guide/rules/equipment/gear/technological-gear/on-signals/cortex-gun"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children]]
+title = "Cortex Gun (mark I)"
+entry = "ref/tech-misc/cortex-gun-mark-i"
+
+[[books.chapters.children.children.children]]
+title = "Cortex Gun (mark II)"
+entry = "ref/tech-misc/cortex-gun-mark-ii"
+
+[[books.chapters.children.children.children]]
+title = "Cortex Gun (mark III)"
+entry = "ref/tech-misc/cortex-gun-mark-iii"
+
+[[books.chapters.children.children.children]]
+title = "Cortex Gun (mark IV)"
+entry = "ref/tech-misc/cortex-gun-mark-iv"
+
+[[books.chapters.children.children.children]]
+title = "Cortex Gun (mark V)"
+entry = "ref/tech-misc/cortex-gun-mark-v"
+
+[[books.chapters.children.children.children]]
 title = "Cylex"
 entry = "ref/tech-misc/cylex"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children]]
 title = "Detonator"
 entry = "ref/tech-misc/detonator"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children]]
 title = "E-Pick"
 entry = "ref/tech-misc/e-pick"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children]]
+title = "E-pick (black)"
+entry = "ref/tech-misc/e-pick-black"
+
+[[books.chapters.children.children.children]]
+title = "E-pick (blue)"
+entry = "ref/tech-misc/e-pick-blue"
+
+[[books.chapters.children.children.children]]
+title = "E-pick (brown)"
+entry = "ref/tech-misc/e-pick-brown"
+
+[[books.chapters.children.children.children]]
+title = "E-pick (gray)"
+entry = "ref/tech-misc/e-pick-gray"
+
+[[books.chapters.children.children.children]]
+title = "E-pick (green)"
+entry = "ref/tech-misc/e-pick-green"
+
+[[books.chapters.children.children.children]]
+title = "E-pick (orange)"
+entry = "ref/tech-misc/e-pick-orange"
+
+[[books.chapters.children.children.children]]
+title = "E-pick (prismatic)"
+entry = "ref/tech-misc/e-pick-prismatic"
+
+[[books.chapters.children.children.children]]
+title = "E-pick (red)"
+entry = "ref/tech-misc/e-pick-red"
+
+[[books.chapters.children.children.children]]
+title = "E-pick (white)"
+entry = "ref/tech-misc/e-pick-white"
+
+[[books.chapters.children.children.children]]
+title = "Signals"
+entry = "ref/misc/signal"
+
+[[books.chapters.children.children.children]]
 title = "Emergency Beacon"
 entry = "ref/tech-misc/emergency-beacon"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children]]
 title = "Emergency Raft"
 entry = "ref/tech-misc/emergency-raft"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children]]
 title = "Emergency Shelter"
 entry = "ref/tech-misc/emergency-shelter"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children]]
 title = "Filter Mask"
 entry = "ref/tech-misc/filter-mask"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children]]
 title = "Fire Extinguisher"
 entry = "ref/tech-misc/fire-extinguisher"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children]]
 title = "Flashlight"
 entry = "ref/tech-misc/flashlight"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children]]
 title = "Force Field"
 entry = "ref/tech-misc/force-field"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children]]
+title = "Force Field (black)"
+entry = "ref/tech-misc/force-field-black"
+
+[[books.chapters.children.children.children]]
+title = "Force Field (blue)"
+entry = "ref/tech-misc/force-field-blue"
+
+[[books.chapters.children.children.children]]
+title = "Force Field (brown)"
+entry = "ref/tech-misc/force-field-brown"
+
+[[books.chapters.children.children.children]]
+title = "Force Field (gray)"
+entry = "ref/tech-misc/force-field-gray"
+
+[[books.chapters.children.children.children]]
+title = "Force Field (green)"
+entry = "ref/tech-misc/force-field-green"
+
+[[books.chapters.children.children.children]]
+title = "Force Field (orange)"
+entry = "ref/tech-misc/force-field-orange"
+
+[[books.chapters.children.children.children]]
+title = "Force Field (prismatic)"
+entry = "ref/tech-misc/force-field-prismatic"
+
+[[books.chapters.children.children.children]]
+title = "Force Field (red)"
+entry = "ref/tech-misc/force-field-red"
+
+[[books.chapters.children.children.children]]
+title = "Force Field (white)"
+entry = "ref/tech-misc/force-field-white"
+
+[[books.chapters.children.children.children]]
 title = "Goo Tube"
 entry = "ref/tech-misc/goo-tube"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children]]
 title = "Gravity Clip"
 entry = "ref/tech-misc/gravity-clip"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children]]
 title = "Grenade"
 entry = "ref/tech-weapon/grenade"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children]]
+title = "Grenade (arc grenade)"
+entry = "ref/tech-weapon/arc-grenade"
+
+[[books.chapters.children.children.children]]
+title = "Grenade (atom grenade)"
+entry = "ref/tech-weapon/atom-grenade"
+
+[[books.chapters.children.children.children]]
+title = "Grenade (bang grenade)"
+entry = "ref/tech-weapon/bang-grenade"
+
+[[books.chapters.children.children.children]]
+title = "Grenade (bio grenade)"
+entry = "ref/tech-weapon/bio-grenade"
+
+[[books.chapters.children.children.children]]
+title = "Grenade (concussion grenade)"
+entry = "ref/tech-weapon/concussion-grenade"
+
+[[books.chapters.children.children.children]]
+title = "Grenade (emp grenade)"
+entry = "ref/tech-weapon/emp-grenade"
+
+[[books.chapters.children.children.children]]
+title = "Grenade (flash grenade)"
+entry = "ref/tech-weapon/flash-grenade"
+
+[[books.chapters.children.children.children]]
+title = "Grenade (flechette grenade)"
+entry = "ref/tech-weapon/flechette-grenade"
+
+[[books.chapters.children.children.children]]
+title = "Grenade (fragmentation grenade)"
+entry = "ref/tech-weapon/fragmentation-grenade"
+
+[[books.chapters.children.children.children]]
+title = "Grenade (gas grenade)"
+entry = "ref/tech-weapon/gas-grenade"
+
+[[books.chapters.children.children.children]]
+title = "Grenade (gravity grenade)"
+entry = "ref/tech-weapon/gravity-grenade"
+
+[[books.chapters.children.children.children]]
+title = "Grenade (inferno grenade)"
+entry = "ref/tech-weapon/inferno-grenade"
+
+[[books.chapters.children.children.children]]
+title = "Grenade (plasma grenade)"
+entry = "ref/tech-weapon/plasma-grenade"
+
+[[books.chapters.children.children.children]]
+title = "Grenade (soft grenade)"
+entry = "ref/tech-weapon/soft-grenade"
+
+[[books.chapters.children.children.children]]
+title = "Grenade (sonic grenade)"
+entry = "ref/tech-weapon/sonic-grenade"
+
+[[books.chapters.children.children.children]]
+title = "Grenade (zero grenade)"
+entry = "ref/tech-weapon/zero-grenade"
+
+[[books.chapters.children.children.children]]
 title = "Grippers"
 entry = "ref/tech-misc/grippers"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children]]
 title = "Hologram Generator"
 entry = "ref/carried/technology-guide/rules/equipment/gear/technological-gear/on-signals/hologram-generator"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children]]
+title = "Hologram Generator (black)"
+entry = "ref/tech-misc/hologram-generator-black"
+
+[[books.chapters.children.children.children]]
+title = "Hologram Generator (blue)"
+entry = "ref/tech-misc/hologram-generator-blue"
+
+[[books.chapters.children.children.children]]
+title = "Hologram Generator (brown)"
+entry = "ref/tech-misc/hologram-generator-brown"
+
+[[books.chapters.children.children.children]]
+title = "Hologram Generator (gray)"
+entry = "ref/tech-misc/hologram-generator-gray"
+
+[[books.chapters.children.children.children]]
+title = "Hologram Generator (green)"
+entry = "ref/tech-misc/hologram-generator-green"
+
+[[books.chapters.children.children.children]]
+title = "Hologram Generator (orange)"
+entry = "ref/tech-misc/hologram-generator-orange"
+
+[[books.chapters.children.children.children]]
+title = "Hologram Generator (prismatic)"
+entry = "ref/tech-misc/hologram-generator-prismatic"
+
+[[books.chapters.children.children.children]]
+title = "Hologram Generator (red)"
+entry = "ref/tech-misc/hologram-generator-red"
+
+[[books.chapters.children.children.children]]
+title = "Hologram Generator (white)"
+entry = "ref/tech-misc/hologram-generator-white"
+
+[[books.chapters.children.children.children]]
 title = "Inertial Dampening Belt"
 entry = "ref/tech-misc/inertial-dampening-belt"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children]]
 title = "Ion Tape"
 entry = "ref/tech-misc/ion-tape"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children]]
 title = "Jetpack"
 entry = "ref/tech-misc/jetpack"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children]]
 title = "Laser Sight"
 entry = "ref/tech-misc/laser-sight"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children]]
 title = "Lighter"
 entry = "ref/tech-misc/lighter"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children]]
 title = "Lock Coder"
 entry = "ref/carried/technology-guide/rules/equipment/gear/technological-gear/on-signals/lock-coder"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children]]
+title = "Lock Coder (black)"
+entry = "ref/tech-misc/lock-coder-black"
+
+[[books.chapters.children.children.children]]
+title = "Lock Coder (blue)"
+entry = "ref/tech-misc/lock-coder-blue"
+
+[[books.chapters.children.children.children]]
+title = "Lock Coder (brown)"
+entry = "ref/tech-misc/lock-coder-brown"
+
+[[books.chapters.children.children.children]]
+title = "Lock Coder (gray)"
+entry = "ref/tech-misc/lock-coder-gray"
+
+[[books.chapters.children.children.children]]
+title = "Lock Coder (green)"
+entry = "ref/tech-misc/lock-coder-green"
+
+[[books.chapters.children.children.children]]
+title = "Lock Coder (orange)"
+entry = "ref/tech-misc/lock-coder-orange"
+
+[[books.chapters.children.children.children]]
+title = "Lock Coder (prismatic)"
+entry = "ref/tech-misc/lock-coder-prismatic"
+
+[[books.chapters.children.children.children]]
+title = "Lock Coder (red)"
+entry = "ref/tech-misc/lock-coder-red"
+
+[[books.chapters.children.children.children]]
+title = "Lock Coder (white)"
+entry = "ref/tech-misc/lock-coder-white"
+
+[[books.chapters.children.children.children]]
 title = "Magboots"
 entry = "ref/tech-misc/magboots"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children]]
 title = "Medlance"
 entry = "ref/tech-misc/medlance"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children]]
 title = "Motion Tracker"
 entry = "ref/tech-misc/motion-tracker"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children]]
 title = "Nanite Canister"
 entry = "ref/tech-misc/nanite-canister"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children]]
 title = "Nanite Hypogun"
 entry = "ref/carried/technology-guide/rules/equipment/gear/technological-gear/on-signals/nanite-hypogun"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children]]
+title = "Nanite Hypogun (black)"
+entry = "ref/tech-misc/nanite-hypogun-black"
+
+[[books.chapters.children.children.children]]
+title = "Nanite Hypogun (blue)"
+entry = "ref/tech-misc/nanite-hypogun-blue"
+
+[[books.chapters.children.children.children]]
+title = "Nanite Hypogun (brown)"
+entry = "ref/tech-misc/nanite-hypogun-brown"
+
+[[books.chapters.children.children.children]]
+title = "Nanite Hypogun (gray)"
+entry = "ref/tech-misc/nanite-hypogun-gray"
+
+[[books.chapters.children.children.children]]
+title = "Nanite Hypogun (green)"
+entry = "ref/tech-misc/nanite-hypogun-green"
+
+[[books.chapters.children.children.children]]
+title = "Nanite Hypogun (orange)"
+entry = "ref/tech-misc/nanite-hypogun-orange"
+
+[[books.chapters.children.children.children]]
+title = "Nanite Hypogun (prismatic)"
+entry = "ref/tech-misc/nanite-hypogun-prismatic"
+
+[[books.chapters.children.children.children]]
+title = "Nanite Hypogun (red)"
+entry = "ref/tech-misc/nanite-hypogun-red"
+
+[[books.chapters.children.children.children]]
+title = "Nanite Hypogun (white)"
+entry = "ref/tech-misc/nanite-hypogun-white"
+
+[[books.chapters.children.children.children]]
 title = "Neurocam"
 entry = "ref/tech-misc/neurocam"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children]]
 title = "Power Cable"
 entry = "ref/tech-misc/power-cable"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children]]
 title = "Power Receiver"
 entry = "ref/tech-misc/power-receiver"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children]]
 title = "Quantum Box"
 entry = "ref/tech-misc/quantum-box"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children]]
 title = "Radiation Detector"
 entry = "ref/tech-misc/radiation-detector"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children]]
 title = "Robojack"
 entry = "ref/tech-misc/robojack"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children]]
 title = "Signal Booster"
 entry = "ref/tech-misc/signal-booster"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children]]
 title = "Signal Jammer"
 entry = "ref/tech-misc/signal-jammer"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children]]
 title = "Skillchip"
 entry = "ref/carried/technology-guide/rules/equipment/gear/technological-gear/on-signals/skillchip"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children]]
+title = "Skillchip (mark I)"
+entry = "ref/tech-misc/skillchip-mark-i"
+
+[[books.chapters.children.children.children]]
+title = "Skillchip (mark II)"
+entry = "ref/tech-misc/skillchip-mark-ii"
+
+[[books.chapters.children.children.children]]
+title = "Skillchip (mark III)"
+entry = "ref/tech-misc/skillchip-mark-iii"
+
+[[books.chapters.children.children.children]]
+title = "Skillchip (mark IV)"
+entry = "ref/tech-misc/skillchip-mark-iv"
+
+[[books.chapters.children.children.children]]
+title = "Skillchip (mark V)"
+entry = "ref/tech-misc/skillchip-mark-v"
+
+[[books.chapters.children.children.children]]
 title = "Tracker chip"
 entry = "ref/tech-misc/tracker-chip"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children]]
 title = "Trauma Pack"
 entry = "ref/tech-misc/trauma-pack"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children]]
 title = "Trauma Pack Plus"
 entry = "ref/tech-misc/trauma-pack-plus"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children]]
 title = "Veemod"
 entry = "ref/carried/technology-guide/rules/equipment/gear/technological-gear/on-signals/veemod"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children]]
+title = "Veemod (black)"
+entry = "ref/tech-misc/veemod-black"
+
+[[books.chapters.children.children.children]]
+title = "Veemod (blue)"
+entry = "ref/tech-misc/veemod-blue"
+
+[[books.chapters.children.children.children]]
+title = "Veemod (brown)"
+entry = "ref/tech-misc/veemod-brown"
+
+[[books.chapters.children.children.children]]
+title = "Veemod (gray)"
+entry = "ref/tech-misc/veemod-gray"
+
+[[books.chapters.children.children.children]]
+title = "Veemod (green)"
+entry = "ref/tech-misc/veemod-green"
+
+[[books.chapters.children.children.children]]
+title = "Veemod (orange)"
+entry = "ref/tech-misc/veemod-orange"
+
+[[books.chapters.children.children.children]]
+title = "Veemod (prismatic)"
+entry = "ref/tech-misc/veemod-prismatic"
+
+[[books.chapters.children.children.children]]
+title = "Veemod (red)"
+entry = "ref/tech-misc/veemod-red"
+
+[[books.chapters.children.children.children]]
+title = "Veemod (white)"
+entry = "ref/tech-misc/veemod-white"
+
+[[books.chapters.children.children.children]]
 title = "Veemod Goggles"
 entry = "ref/tech-misc/veemod-goggles"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children]]
 title = "Zipstick"
 entry = "ref/tech-misc/zipstick"
 
@@ -47050,28 +47690,64 @@ title = "Hazards"
 entry = "ref/carried/technology-guide/rules/hazards-and-artifacts/hazards"
 
 [[books.chapters.children.children]]
+title = "Timeworn Technology"
+entry = "ref/rule/timeworn-technology"
+
+[[books.chapters.children.children.children]]
 title = "Timeworn Technology Glitches"
 anchor = "timeworn-technology-glitches"
 
-[[books.chapters.children.children.children]]
-title = "Traps and Technology"
-anchor = "traps-and-technology"
+[[books.chapters.children.children.children.children]]
+title = "Armor Glitches"
+entry = "ref/rule/armor-glitches"
 
 [[books.chapters.children.children.children.children]]
+title = "General Glitches"
+entry = "ref/rule/general-glitches"
+
+[[books.chapters.children.children.children.children]]
+title = "Pharmaceutical Glitches"
+entry = "ref/rule/pharmaceutical-glitches"
+
+[[books.chapters.children.children.children.children]]
+title = "Weapon Glitches"
+entry = "ref/rule/weapon-glitches"
+
+[[books.chapters.children.children]]
+title = "Radiation"
+entry = "ref/rule/radiation"
+
+[[books.chapters.children.children]]
+title = "Traps and Technology"
+entry = "ref/rule/traps-and-technology"
+
+[[books.chapters.children.children.children]]
 title = "Proximity Mine"
 entry = "ref/carried/technology-guide/rules/hazards-and-artifacts/hazards/timeworn-technology-glitches/traps-and-technology/proximity-mine"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children]]
 title = "Electrified Door"
 entry = "ref/carried/technology-guide/rules/hazards-and-artifacts/hazards/timeworn-technology-glitches/traps-and-technology/electrified-door"
+
+[[books.chapters.children.children]]
+title = "Skymetals"
+entry = "ref/eq-material/skymetal"
 
 [[books.chapters.children]]
 title = "Artifical Intelligence"
 entry = "ref/carried/technology-guide/rules/hazards-and-artifacts/artifical-intelligence"
 
 [[books.chapters.children.children]]
+title = "Artificial Intelligence"
+entry = "ref/rule/artificial-intelligence"
+
+[[books.chapters.children.children]]
 title = "Artificial Intelligences"
 anchor = "artificial-intelligences"
+
+[[books.chapters.children.children.children]]
+title = "Creating an AI"
+entry = "ref/rule/creating-an-ai"
 
 [[books.chapters.children.children.children]]
 title = "Sample AIs"
@@ -47086,16 +47762,28 @@ title = "Security AI"
 entry = "ref/carried/technology-guide/rules/hazards-and-artifacts/artifical-intelligence/artificial-intelligences/sample-ais/security-ai"
 
 [[books.chapters.children.children.children]]
+title = "Aggregate Template"
+anchor = "aggregate-template"
+
+[[books.chapters.children.children.children.children]]
+title = "Aggregate"
+entry = "ref/template/aggregate"
+
+[[books.chapters.children.children.children.children]]
 title = "Example Aggregate"
 anchor = "example-aggregate"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children.children.children]]
 title = "Security Mannequin"
 entry = "ref/carried/technology-guide/rules/hazards-and-artifacts/artifical-intelligence/artificial-intelligences/example-aggregate/security-mannequin"
 
 [[books.chapters.children]]
 title = "Artifacts"
 entry = "ref/carried/technology-guide/rules/hazards-and-artifacts/artifacts"
+
+[[books.chapters.children.children]]
+title = "Tech Artifacts"
+entry = "ref/rule/tech-artifacts"
 
 [[books.chapters.children.children]]
 title = "Technological Artifacts"
@@ -47154,700 +47842,8 @@ title = "New entries (page order)"
 review = "Canonical entries of this publication that the curated PSRD tree does not place. They follow their page number; this is a page-ordered list, not a chapter position."
 
 [[books.chapters.children]]
-title = "Armor Glitches"
-entry = "ref/rule/armor-glitches"
-
-[[books.chapters.children]]
-title = "General Glitches"
-entry = "ref/rule/general-glitches"
-
-[[books.chapters.children]]
-title = "Pharmaceutical Glitches"
-entry = "ref/rule/pharmaceutical-glitches"
-
-[[books.chapters.children]]
-title = "Weapon Glitches"
-entry = "ref/rule/weapon-glitches"
-
-[[books.chapters.children]]
-title = "Craft (any)"
-entry = "ref/skill/craft-any"
-
-[[books.chapters.children]]
-title = "Disable Device"
-entry = "ref/skill/disable-device"
-
-[[books.chapters.children]]
-title = "Heal"
-entry = "ref/skill/heal"
-
-[[books.chapters.children]]
-title = "Knowledge (engineering)"
-entry = "ref/skill/knowledge-engineering"
-
-[[books.chapters.children]]
-title = "Knowledge (geography)"
-entry = "ref/skill/knowledge-geography"
-
-[[books.chapters.children]]
-title = "Linguistics"
-entry = "ref/skill/linguistics"
-
-[[books.chapters.children]]
-title = "Technological Adventures"
-entry = "ref/rule/technological-equipment"
-
-[[books.chapters.children]]
-title = "Craft Cybernetics"
-entry = "ref/feat/craft-cybernetics"
-
-[[books.chapters.children]]
-title = "Craft Pharmaceutical"
-entry = "ref/feat/craft-pharmaceutical"
-
-[[books.chapters.children]]
-title = "Craft Technological Arms and Armor"
-entry = "ref/feat/craft-technological-arms-and-armor"
-
-[[books.chapters.children]]
-title = "Craft Technological Item"
-entry = "ref/feat/craft-technological-item"
-
-[[books.chapters.children]]
-title = "Robot's Bane"
-entry = "ref/feat/robots-bane"
-
-[[books.chapters.children]]
-title = "Technological Feats"
-entry = "ref/rule/technological-feats"
-
-[[books.chapters.children]]
-title = "Scavenger's Luck"
-entry = "ref/feat/scavengers-luck"
-
-[[books.chapters.children]]
-title = "Technologist"
-entry = "ref/feat/technologist"
-
-[[books.chapters.children]]
-title = "Technology Adept"
-entry = "ref/feat/technology-adept"
-
-[[books.chapters.children]]
-title = "Technophobe"
-entry = "ref/feat/technophobe"
-
-[[books.chapters.children]]
-title = "Wrest Charge"
-entry = "ref/feat/wrest-charge"
-
-[[books.chapters.children]]
-title = "Greater Discharge"
-entry = "ref/spell/discharge-greater"
-
-[[books.chapters.children]]
-title = "Greater Make Whole"
-entry = "ref/spell/make-whole-greater"
-
-[[books.chapters.children]]
 title = "Make Whole"
 entry = "ref/spell/make-whole"
-
-[[books.chapters.children]]
-title = "Greater Remove Radioactivity"
-entry = "ref/spell/remove-radioactivity-greater"
-
-[[books.chapters.children]]
-title = "Numerian Scavenger"
-entry = "ref/arc-rogue/numerian-scavenger"
-
-[[books.chapters.children]]
-title = "Crafting Laboratories"
-entry = "ref/rule/crafting-laboratories"
-
-[[books.chapters.children]]
-title = "Feats and Crafting High-Tech Items"
-entry = "ref/rule/crafting-high-tech-items"
-
-[[books.chapters.children]]
-title = "Hybrid Magic/Tech Items"
-entry = "ref/rule/hybrid-items"
-
-[[books.chapters.children]]
-title = "Pricing and Creating New Technological Items"
-entry = "ref/rule/pricing-and-creating-new-technological-items"
-
-[[books.chapters.children]]
-title = "Automatic"
-entry = "ref/misc/automatic"
-
-[[books.chapters.children]]
-title = "Semi-Automatic"
-entry = "ref/misc/semi-automatic"
-
-[[books.chapters.children]]
-title = "Slow-Firing"
-entry = "ref/misc/slow-firing"
-
-[[books.chapters.children]]
-title = "Tech Weapons"
-entry = "ref/rule/tech-weapons"
-
-[[books.chapters.children]]
-title = "Touch"
-entry = "ref/misc/touch"
-
-[[books.chapters.children]]
-title = "Tech Armor"
-entry = "ref/rule/tech-armor"
-
-[[books.chapters.children]]
-title = "Scatterlight Suit (black)"
-entry = "ref/tech-armor/scatterlight-suit-black"
-
-[[books.chapters.children]]
-title = "Scatterlight Suit (blue)"
-entry = "ref/tech-armor/scatterlight-suit-blue"
-
-[[books.chapters.children]]
-title = "Scatterlight Suit (brown)"
-entry = "ref/tech-armor/scatterlight-suit-brown"
-
-[[books.chapters.children]]
-title = "Scatterlight Suit (gray)"
-entry = "ref/tech-armor/scatterlight-suit-gray"
-
-[[books.chapters.children]]
-title = "Scatterlight Suit (green)"
-entry = "ref/tech-armor/scatterlight-suit-green"
-
-[[books.chapters.children]]
-title = "Scatterlight Suit (orange)"
-entry = "ref/tech-armor/scatterlight-suit-orange"
-
-[[books.chapters.children]]
-title = "Scatterlight Suit (prismatic)"
-entry = "ref/tech-armor/scatterlight-suit-prismatic"
-
-[[books.chapters.children]]
-title = "Scatterlight Suit (red)"
-entry = "ref/tech-armor/scatterlight-suit-red"
-
-[[books.chapters.children]]
-title = "Scatterlight Suit (white)"
-entry = "ref/tech-armor/scatterlight-suit-white"
-
-[[books.chapters.children]]
-title = "Hemochem (grade I)"
-entry = "ref/tech-pharma/hemochem-grade-i"
-
-[[books.chapters.children]]
-title = "Hemochem (grade II)"
-entry = "ref/tech-pharma/hemochem-grade-ii"
-
-[[books.chapters.children]]
-title = "Hemochem (grade III)"
-entry = "ref/tech-pharma/hemochem-grade-iii"
-
-[[books.chapters.children]]
-title = "Hemochem (grade IV)"
-entry = "ref/tech-pharma/hemochem-grade-iv"
-
-[[books.chapters.children]]
-title = "Hemochem (grave V)"
-entry = "ref/tech-pharma/hemochem-grave-v"
-
-[[books.chapters.children]]
-title = "Cyberfiber Muscles (mark I)"
-entry = "ref/tech-cyber/cyberfiber-muscles-mark-i"
-
-[[books.chapters.children]]
-title = "Cyberfiber Muscles (mark II)"
-entry = "ref/tech-cyber/cyberfiber-muscles-mark-ii"
-
-[[books.chapters.children]]
-title = "Cyberfiber Muscles (mark III)"
-entry = "ref/tech-cyber/cyberfiber-muscles-mark-iii"
-
-[[books.chapters.children]]
-title = "Dermal Plating (mark I)"
-entry = "ref/tech-cyber/dermal-plating-mark-i"
-
-[[books.chapters.children]]
-title = "Dermal Plating (mark II)"
-entry = "ref/tech-cyber/dermal-plating-mark-ii"
-
-[[books.chapters.children]]
-title = "Dermal Plating (mark III)"
-entry = "ref/tech-cyber/dermal-plating-mark-iii"
-
-[[books.chapters.children]]
-title = "Dermal Plating (mark IV)"
-entry = "ref/tech-cyber/dermal-plating-mark-iv"
-
-[[books.chapters.children]]
-title = "Dermal Plating (mark V)"
-entry = "ref/tech-cyber/dermal-plating-mark-v"
-
-[[books.chapters.children]]
-title = "Thoracic Nanite Chamber (mark I)"
-entry = "ref/tech-cyber/thoracic-nanite-chamber-mark-i"
-
-[[books.chapters.children]]
-title = "Thoracic Nanite Chamber (mark II)"
-entry = "ref/tech-cyber/thoracic-nanite-chamber-mark-ii"
-
-[[books.chapters.children]]
-title = "Thoracic Nanite Chamber (mark III)"
-entry = "ref/tech-cyber/thoracic-nanite-chamber-mark-iii"
-
-[[books.chapters.children]]
-title = "Wirejack Tendons (mark I)"
-entry = "ref/tech-cyber/wirejack-tendons-mark-i"
-
-[[books.chapters.children]]
-title = "Wirejack Tendons (mark II)"
-entry = "ref/tech-cyber/wirejack-tendons-mark-ii"
-
-[[books.chapters.children]]
-title = "Wirejack Tendons (mark III)"
-entry = "ref/tech-cyber/wirejack-tendons-mark-iii"
-
-[[books.chapters.children]]
-title = "Access Card (black)"
-entry = "ref/tech-misc/access-card-black"
-
-[[books.chapters.children]]
-title = "Access Card (blue)"
-entry = "ref/tech-misc/access-card-blue"
-
-[[books.chapters.children]]
-title = "Access Card (brown)"
-entry = "ref/tech-misc/access-card-brown"
-
-[[books.chapters.children]]
-title = "Access Card (gray)"
-entry = "ref/tech-misc/access-card-gray"
-
-[[books.chapters.children]]
-title = "Access Card (green)"
-entry = "ref/tech-misc/access-card-green"
-
-[[books.chapters.children]]
-title = "Access Card (orange)"
-entry = "ref/tech-misc/access-card-orange"
-
-[[books.chapters.children]]
-title = "Access Card (prismatic)"
-entry = "ref/tech-misc/access-card-prismatic"
-
-[[books.chapters.children]]
-title = "Access Card (red)"
-entry = "ref/tech-misc/access-card-red"
-
-[[books.chapters.children]]
-title = "Access Card (white)"
-entry = "ref/tech-misc/access-card-white"
-
-[[books.chapters.children]]
-title = "Silverdisk"
-entry = "ref/tech-misc/silverdisk"
-
-[[books.chapters.children]]
-title = "Miscellaneous Gear"
-entry = "ref/rule/tech-misc"
-
-[[books.chapters.children]]
-title = "Chipfinder (black)"
-entry = "ref/tech-misc/chipfinder-black"
-
-[[books.chapters.children]]
-title = "Chipfinder (blue)"
-entry = "ref/tech-misc/chipfinder-blue"
-
-[[books.chapters.children]]
-title = "Chipfinder (brown)"
-entry = "ref/tech-misc/chipfinder-brown"
-
-[[books.chapters.children]]
-title = "Chipfinder (gray)"
-entry = "ref/tech-misc/chipfinder-gray"
-
-[[books.chapters.children]]
-title = "Chipfinder (green)"
-entry = "ref/tech-misc/chipfinder-green"
-
-[[books.chapters.children]]
-title = "Chipfinder (orange)"
-entry = "ref/tech-misc/chipfinder-orange"
-
-[[books.chapters.children]]
-title = "Chipfinder (prismatic)"
-entry = "ref/tech-misc/chipfinder-prismatic"
-
-[[books.chapters.children]]
-title = "Chipfinder (red)"
-entry = "ref/tech-misc/chipfinder-red"
-
-[[books.chapters.children]]
-title = "Chipfinder (white)"
-entry = "ref/tech-misc/chipfinder-white"
-
-[[books.chapters.children]]
-title = "Cortex Gun (mark I)"
-entry = "ref/tech-misc/cortex-gun-mark-i"
-
-[[books.chapters.children]]
-title = "Cortex Gun (mark II)"
-entry = "ref/tech-misc/cortex-gun-mark-ii"
-
-[[books.chapters.children]]
-title = "Cortex Gun (mark III)"
-entry = "ref/tech-misc/cortex-gun-mark-iii"
-
-[[books.chapters.children]]
-title = "Cortex Gun (mark IV)"
-entry = "ref/tech-misc/cortex-gun-mark-iv"
-
-[[books.chapters.children]]
-title = "Cortex Gun (mark V)"
-entry = "ref/tech-misc/cortex-gun-mark-v"
-
-[[books.chapters.children]]
-title = "E-pick (black)"
-entry = "ref/tech-misc/e-pick-black"
-
-[[books.chapters.children]]
-title = "E-pick (blue)"
-entry = "ref/tech-misc/e-pick-blue"
-
-[[books.chapters.children]]
-title = "E-pick (brown)"
-entry = "ref/tech-misc/e-pick-brown"
-
-[[books.chapters.children]]
-title = "E-pick (gray)"
-entry = "ref/tech-misc/e-pick-gray"
-
-[[books.chapters.children]]
-title = "E-pick (green)"
-entry = "ref/tech-misc/e-pick-green"
-
-[[books.chapters.children]]
-title = "E-pick (orange)"
-entry = "ref/tech-misc/e-pick-orange"
-
-[[books.chapters.children]]
-title = "E-pick (prismatic)"
-entry = "ref/tech-misc/e-pick-prismatic"
-
-[[books.chapters.children]]
-title = "E-pick (red)"
-entry = "ref/tech-misc/e-pick-red"
-
-[[books.chapters.children]]
-title = "E-pick (white)"
-entry = "ref/tech-misc/e-pick-white"
-
-[[books.chapters.children]]
-title = "Signals"
-entry = "ref/misc/signal"
-
-[[books.chapters.children]]
-title = "Force Field (black)"
-entry = "ref/tech-misc/force-field-black"
-
-[[books.chapters.children]]
-title = "Force Field (blue)"
-entry = "ref/tech-misc/force-field-blue"
-
-[[books.chapters.children]]
-title = "Force Field (brown)"
-entry = "ref/tech-misc/force-field-brown"
-
-[[books.chapters.children]]
-title = "Force Field (gray)"
-entry = "ref/tech-misc/force-field-gray"
-
-[[books.chapters.children]]
-title = "Force Field (green)"
-entry = "ref/tech-misc/force-field-green"
-
-[[books.chapters.children]]
-title = "Force Field (orange)"
-entry = "ref/tech-misc/force-field-orange"
-
-[[books.chapters.children]]
-title = "Force Field (prismatic)"
-entry = "ref/tech-misc/force-field-prismatic"
-
-[[books.chapters.children]]
-title = "Force Field (red)"
-entry = "ref/tech-misc/force-field-red"
-
-[[books.chapters.children]]
-title = "Force Field (white)"
-entry = "ref/tech-misc/force-field-white"
-
-[[books.chapters.children]]
-title = "Grenade (arc grenade)"
-entry = "ref/tech-weapon/arc-grenade"
-
-[[books.chapters.children]]
-title = "Grenade (atom grenade)"
-entry = "ref/tech-weapon/atom-grenade"
-
-[[books.chapters.children]]
-title = "Grenade (bang grenade)"
-entry = "ref/tech-weapon/bang-grenade"
-
-[[books.chapters.children]]
-title = "Grenade (bio grenade)"
-entry = "ref/tech-weapon/bio-grenade"
-
-[[books.chapters.children]]
-title = "Grenade (concussion grenade)"
-entry = "ref/tech-weapon/concussion-grenade"
-
-[[books.chapters.children]]
-title = "Grenade (emp grenade)"
-entry = "ref/tech-weapon/emp-grenade"
-
-[[books.chapters.children]]
-title = "Grenade (flash grenade)"
-entry = "ref/tech-weapon/flash-grenade"
-
-[[books.chapters.children]]
-title = "Grenade (flechette grenade)"
-entry = "ref/tech-weapon/flechette-grenade"
-
-[[books.chapters.children]]
-title = "Grenade (fragmentation grenade)"
-entry = "ref/tech-weapon/fragmentation-grenade"
-
-[[books.chapters.children]]
-title = "Grenade (gas grenade)"
-entry = "ref/tech-weapon/gas-grenade"
-
-[[books.chapters.children]]
-title = "Grenade (gravity grenade)"
-entry = "ref/tech-weapon/gravity-grenade"
-
-[[books.chapters.children]]
-title = "Grenade (inferno grenade)"
-entry = "ref/tech-weapon/inferno-grenade"
-
-[[books.chapters.children]]
-title = "Grenade (plasma grenade)"
-entry = "ref/tech-weapon/plasma-grenade"
-
-[[books.chapters.children]]
-title = "Grenade (soft grenade)"
-entry = "ref/tech-weapon/soft-grenade"
-
-[[books.chapters.children]]
-title = "Grenade (sonic grenade)"
-entry = "ref/tech-weapon/sonic-grenade"
-
-[[books.chapters.children]]
-title = "Grenade (zero grenade)"
-entry = "ref/tech-weapon/zero-grenade"
-
-[[books.chapters.children]]
-title = "Hologram Generator (black)"
-entry = "ref/tech-misc/hologram-generator-black"
-
-[[books.chapters.children]]
-title = "Hologram Generator (blue)"
-entry = "ref/tech-misc/hologram-generator-blue"
-
-[[books.chapters.children]]
-title = "Hologram Generator (brown)"
-entry = "ref/tech-misc/hologram-generator-brown"
-
-[[books.chapters.children]]
-title = "Hologram Generator (gray)"
-entry = "ref/tech-misc/hologram-generator-gray"
-
-[[books.chapters.children]]
-title = "Hologram Generator (green)"
-entry = "ref/tech-misc/hologram-generator-green"
-
-[[books.chapters.children]]
-title = "Hologram Generator (orange)"
-entry = "ref/tech-misc/hologram-generator-orange"
-
-[[books.chapters.children]]
-title = "Hologram Generator (prismatic)"
-entry = "ref/tech-misc/hologram-generator-prismatic"
-
-[[books.chapters.children]]
-title = "Hologram Generator (red)"
-entry = "ref/tech-misc/hologram-generator-red"
-
-[[books.chapters.children]]
-title = "Hologram Generator (white)"
-entry = "ref/tech-misc/hologram-generator-white"
-
-[[books.chapters.children]]
-title = "Lock Coder (black)"
-entry = "ref/tech-misc/lock-coder-black"
-
-[[books.chapters.children]]
-title = "Lock Coder (blue)"
-entry = "ref/tech-misc/lock-coder-blue"
-
-[[books.chapters.children]]
-title = "Lock Coder (brown)"
-entry = "ref/tech-misc/lock-coder-brown"
-
-[[books.chapters.children]]
-title = "Lock Coder (gray)"
-entry = "ref/tech-misc/lock-coder-gray"
-
-[[books.chapters.children]]
-title = "Lock Coder (green)"
-entry = "ref/tech-misc/lock-coder-green"
-
-[[books.chapters.children]]
-title = "Lock Coder (orange)"
-entry = "ref/tech-misc/lock-coder-orange"
-
-[[books.chapters.children]]
-title = "Lock Coder (prismatic)"
-entry = "ref/tech-misc/lock-coder-prismatic"
-
-[[books.chapters.children]]
-title = "Lock Coder (red)"
-entry = "ref/tech-misc/lock-coder-red"
-
-[[books.chapters.children]]
-title = "Lock Coder (white)"
-entry = "ref/tech-misc/lock-coder-white"
-
-[[books.chapters.children]]
-title = "Nanite Hypogun (black)"
-entry = "ref/tech-misc/nanite-hypogun-black"
-
-[[books.chapters.children]]
-title = "Nanite Hypogun (blue)"
-entry = "ref/tech-misc/nanite-hypogun-blue"
-
-[[books.chapters.children]]
-title = "Nanite Hypogun (brown)"
-entry = "ref/tech-misc/nanite-hypogun-brown"
-
-[[books.chapters.children]]
-title = "Nanite Hypogun (gray)"
-entry = "ref/tech-misc/nanite-hypogun-gray"
-
-[[books.chapters.children]]
-title = "Nanite Hypogun (green)"
-entry = "ref/tech-misc/nanite-hypogun-green"
-
-[[books.chapters.children]]
-title = "Nanite Hypogun (orange)"
-entry = "ref/tech-misc/nanite-hypogun-orange"
-
-[[books.chapters.children]]
-title = "Nanite Hypogun (prismatic)"
-entry = "ref/tech-misc/nanite-hypogun-prismatic"
-
-[[books.chapters.children]]
-title = "Nanite Hypogun (red)"
-entry = "ref/tech-misc/nanite-hypogun-red"
-
-[[books.chapters.children]]
-title = "Nanite Hypogun (white)"
-entry = "ref/tech-misc/nanite-hypogun-white"
-
-[[books.chapters.children]]
-title = "Skillchip (mark I)"
-entry = "ref/tech-misc/skillchip-mark-i"
-
-[[books.chapters.children]]
-title = "Skillchip (mark II)"
-entry = "ref/tech-misc/skillchip-mark-ii"
-
-[[books.chapters.children]]
-title = "Skillchip (mark III)"
-entry = "ref/tech-misc/skillchip-mark-iii"
-
-[[books.chapters.children]]
-title = "Skillchip (mark IV)"
-entry = "ref/tech-misc/skillchip-mark-iv"
-
-[[books.chapters.children]]
-title = "Skillchip (mark V)"
-entry = "ref/tech-misc/skillchip-mark-v"
-
-[[books.chapters.children]]
-title = "Veemod (black)"
-entry = "ref/tech-misc/veemod-black"
-
-[[books.chapters.children]]
-title = "Veemod (blue)"
-entry = "ref/tech-misc/veemod-blue"
-
-[[books.chapters.children]]
-title = "Veemod (brown)"
-entry = "ref/tech-misc/veemod-brown"
-
-[[books.chapters.children]]
-title = "Veemod (gray)"
-entry = "ref/tech-misc/veemod-gray"
-
-[[books.chapters.children]]
-title = "Veemod (green)"
-entry = "ref/tech-misc/veemod-green"
-
-[[books.chapters.children]]
-title = "Veemod (orange)"
-entry = "ref/tech-misc/veemod-orange"
-
-[[books.chapters.children]]
-title = "Veemod (prismatic)"
-entry = "ref/tech-misc/veemod-prismatic"
-
-[[books.chapters.children]]
-title = "Veemod (red)"
-entry = "ref/tech-misc/veemod-red"
-
-[[books.chapters.children]]
-title = "Veemod (white)"
-entry = "ref/tech-misc/veemod-white"
-
-[[books.chapters.children]]
-title = "Radiation"
-entry = "ref/rule/radiation"
-
-[[books.chapters.children]]
-title = "Timeworn Technology"
-entry = "ref/rule/timeworn-technology"
-
-[[books.chapters.children]]
-title = "Skymetals"
-entry = "ref/eq-material/skymetal"
-
-[[books.chapters.children]]
-title = "Traps and Technology"
-entry = "ref/rule/traps-and-technology"
-
-[[books.chapters.children]]
-title = "Artificial Intelligence"
-entry = "ref/rule/artificial-intelligence"
-
-[[books.chapters.children]]
-title = "Creating an AI"
-entry = "ref/rule/creating-an-ai"
-
-[[books.chapters.children]]
-title = "Aggregate"
-entry = "ref/template/aggregate"
-
-[[books.chapters.children]]
-title = "Tech Artifacts"
-entry = "ref/rule/tech-artifacts"
 
 [[books.chapters.children]]
 title = "Specific Campaign Types"
