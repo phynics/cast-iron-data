@@ -72,7 +72,7 @@ Knowledge (engineering), Knowledge (geography), Knowledge (history), Knowledge (
 |19th|+9/+4|+6|+6|+11|-|4|4|4|4|4|4|4|4|3|3|
 |20th|+10/+5|+6|+6|+12|Bonus feat|4|4|4|4|4|4|4|4|4|4|
 
-**Weapon and Armor Proficiencies**
+#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
 
 **Weapons:** club, dagger, heavy crossbow, light crossbow, quarterstaff
 
@@ -83,12 +83,12 @@ Knowledge (engineering), Knowledge (geography), Knowledge (history), Knowledge (
 **Notes:** Armor interferes with a wizard's movements, which can cause his spells with somatic
 components to fail.
 
-**Bonus Languages**
+#### Bonus Languages {#bonus-languages}
 
 **Ability:** You may substitute Draconic for one of the bonus languages available to you because of
 your race.
 
-**Spells**
+#### Spells {#spells}
 
 **Spell list:** Arcane spells from the wizard list, from 1st level
 
@@ -100,7 +100,7 @@ Intelligence modifier; a high score grants bonus spells per day.
 **Notes:** Prepares spells after 8 hours of rest and 1 hour with the spellbook; no limit on spells
 known.
 
-**Cantrips**
+#### Cantrips {#cantrips}
 
 **Ability:** You can prepare a number of cantrips, or 0-level arcane spells, each day. These spells
 are cast like any other but they are not expended when cast and may be used again. You can prepare a
@@ -108,7 +108,7 @@ cantrip from a prohibited school, but it uses up two of your available slots.
 
 **Gained:** At 1st Level
 
-**Spellbooks**
+#### Spellbooks {#spellbooks}
 
 **Ability:** You must study your spellbook each day to prepare your spells. You can't prepare any
 spell not recorded in your spellbook, except for [read magic](ref/spell/read-magic) (which all
@@ -124,7 +124,7 @@ that you can cast (based on your new wizard level) for your spellbook. At any ti
 spells found in wizards' spellbooks to your own (see
 [Arcane Magical Writing](ref/rule/arcane-magical-writing)).
 
-**Arcane Bond (Ex or Sp)**
+#### Arcane Bond (Ex or Sp) {#arcane-bond}
 
 **Choice:** This bond can take one of two forms: a familiar or a bonded object. Once you make this
 choice, it is permanent and cannot be changed.
@@ -133,13 +133,13 @@ choice, it is permanent and cannot be changed.
 
 **Gained:** At 1st Level
 
-**Familiar**
+#### Familiar {#familiar}
 
 **Ability:** A [familiar](ref/sidekick/familiar) is a magical pet that enhances your skills and
 senses and can aid you in magic. The full rules for familiars can be found
 [here](ref/ability/familiars).
 
-**Bonded Object**
+#### Bonded Object {#bonded-object}
 
 **Action:** Ability
 
@@ -176,7 +176,7 @@ enchantments of the previous bonded item. You can designate an existing magic it
 item. This functions in the same way as replacing a lost or destroyed item except that the new magic
 item retains its abilities while gaining the benefits and drawbacks of becoming a bonded item.
 
-**Arcane School**
+#### Arcane School {#arcane-school}
 
 **Action:** Choice
 
@@ -208,13 +208,13 @@ by a metamagic feat to prepare in your school slot, but it uses up a higher-leve
 Here is the [list of arcane schools](ref/ability/arcane-schools). They include other options, such
 as _focused schools_ and _elemental schools._
 
-**Scribe Scroll**
+#### Scribe Scroll {#scribe-scroll}
 
 **Ability:** you gain [Scribe Scroll](ref/feat/scribe-scroll) as a bonus feat.
 
 **Gained:** At 1st Level
 
-**Bonus Feats**
+#### Bonus Feats {#bonus-feats}
 
 **Ability:** You gain a bonus feat from the following choices:
 [Spell Mastery](ref/feat/spell-mastery), [Eldritch Aid](ref/feat/eldritch-aid),

@@ -70,7 +70,7 @@ Spellcraft
 |19th|+14/+9/+4|+6|+6|+11|-|4|4|4|4|4|4|4|4|3|3|
 |20th|+15/+10/+5|+6|+6|+12|Hex, manifestation, wandering spirit (true)|4|4|4|4|4|4|4|4|4|4|
 
-**Weapon and Armor Proficiencies**
+#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
 
 **Weapons:** All simple weapons
 
@@ -78,7 +78,7 @@ Spellcraft
 
 **Shields:** No
 
-**Spells**
+#### Spells {#spells}
 
 **Spell list:** Divine spells from the shaman list, from 1st level
 
@@ -90,12 +90,12 @@ a high score grants bonus spells per day.
 **Notes:** Regains spells after 1 hour in contemplation or prayer each day; any spell on the list
 can be prepared.
 
-**Orisons**
+#### Orisons {#orisons}
 
 **Ability:** 0-level divine spells. Prepared like other spells but not expended when cast; one
 placed in a higher slot (for example through metamagic) uses that slot.
 
-**Spirit (Su)**
+#### Spirit (Su) {#spirit}
 
 **Ability:** You form a lasting bond with a single [spirit](ref/ability/shaman-spirits), which
 grants a number of abilities and defines many of your other class features.
@@ -115,7 +115,7 @@ _wandering hex_ class features.
 spirit and mystery must match, even if that means one of them must change. Subject to GM discretion,
 you can change your former mystery or spirit to make them conform.
 
-**Spirit Animal (Ex)**
+#### Spirit Animal (Ex) {#spirit-animal}
 
 **Action:** Ability
 
@@ -171,7 +171,7 @@ If a spirit animal is lost or dies, it can be replaced after 24 hours through a 
 consumes material components worth 500 gp per shaman level. The ritual takes 8 hours to complete.
 The new spirit animal must be of the same sort of creature as the previous one.
 
-**Spirit Magic**
+#### Spirit Magic {#spirit-magic}
 
 **Ability:** You can spontaneously cast a limited number of spells per day beyond those you prepared
 ahead of time. You have one spell slot per day of each shaman spell level you can cast, not
@@ -179,7 +179,7 @@ including orisons. You can choose these spells from the list of spells granted b
 the time you cast them. You can enhance these spells using any metamagic feat that you know, using
 up a higher-level spell slot as required by the feat and increasing the time to cast the spell.
 
-**Hex**
+#### Hex {#hex}
 
 **Ability:** You learn one hex. You can select from any of these shaman hexes or from any of the
 hexes listed in the description of your chosen spirit. You cannot select a hex more than once unless
@@ -198,7 +198,7 @@ unless otherwise noted. The saving throw DC to resist a hex is equal to 10 +
 
 Shamans can take a blood hex feat in place of a regular hex.
 
-**Wandering Spirit (Su)**
+#### Wandering Spirit (Su) {#wandering-spirit}
 
 **Ability:** You can form a temporary bond with a spirit other than the one selected using your
 _spirit_ class feature. You must make this selection each day when preparing your spells. While this
@@ -214,7 +214,7 @@ spirit._
 
 **Gained:** At 4th Level
 
-**Wandering Hex**
+#### Wandering Hex {#wandering-hex}
 
 **Ability:** You can temporarily gain the use of one of the hexes possessed by either one of your
 spirits. You must make this selection each day when you prepare your spells. For the purposes of
@@ -229,7 +229,7 @@ or your new _wandering spirit._
 
 **Special:** This ability otherwise functions as the hex class feature.
 
-**Manifestation (Su)**
+#### Manifestation (Su) {#manifestation}
 
 **Ability:** You undergo a transformation as you manifest as a pinnacle of your main spirit. The
 nature of this manifestation depends on your _spirit,_ and is described in its entry.

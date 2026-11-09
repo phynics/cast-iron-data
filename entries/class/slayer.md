@@ -70,7 +70,7 @@ into combat, dealing with a target, and then getting back out again.
 |19th|+19/+14/+9/+4|+11|+11|+6|Improved quarry|
 |20th|+20/+15/+10/+5|+12|+12|+6|5th studied target, master slayer, slayer talent|
 
-**Weapon and Armor Proficiencies**
+#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
 
 **Weapons:** All simple weapons, All martial weapons
 
@@ -78,7 +78,7 @@ into combat, dealing with a target, and then getting back out again.
 
 **Shields:** Yes, except tower shields
 
-**Studied Target (Ex)**
+#### Studied Target (Ex) {#studied-target}
 
 **Free:** You can discard this connection to a _studied target,_ allowing you to study another
 target in its place.
@@ -99,11 +99,11 @@ against that opponent increase by 1 + one-fifth of your slayer level. You can on
 bonuses against a certain number of opponents at a time (equal to 1 + one-fifth of your slayer
 level); these bonuses remain in effect until either the opponent is dead or you study a new target.
 
-**Track (Ex)**
+#### Track (Ex) {#track}
 
 **Passive:** You add 1/2 your level (minimum 1) to Survival skill checks made to follow tracks
 
-**Slayer Talents**
+#### Slayer Talents {#slayer-talents}
 
 **Ability:** You gain one slayer talent at **every even-numbered level** (2nd, 4th, 6th, and so on).
 Unless otherwise noted, you cannot select an individual talent more than once.
@@ -117,7 +117,7 @@ his foes.
 one of these talents can be applied to an individual attack, and the decision of which to use must
 be made before the attack roll is made.
 
-**Sneak Attack**
+#### Sneak Attack {#sneak-attack}
 
 **Ability:** You gain the ability to make a [sneak attack](ref/ability/sneak-attack), as a rogue
 can. Your attack deals +1d6 extra damage anytime your target would be denied a Dexterity bonus to AC
@@ -143,21 +143,21 @@ At 15th level: Your extra damage +5d6 damage.
 
 At 18th level: Your extra damage +6d6 damage.
 
-**Stalker (Ex)**
+#### Stalker (Ex) {#stalker}
 
 **Gained:** At 7th Level
 
 **Passive:** You gain your _studied target_ bonus on Disguise, Intimidate, and Stealth checks
 against your studied opponent.
 
-**Advanced Talents**
+#### Advanced Talents {#advanced-talents}
 
 **Ability:** When you would select a _slayer talent_ from gaining a level, you can now select an
 advanced\_slayer\_talent instead.
 
 **Gained:** At 10th Level
 
-**Swift Tracker (Ex)**
+#### Swift Tracker (Ex) {#swift-tracker}
 
 **Gained:** At 11th Level
 
@@ -165,7 +165,7 @@ advanced\_slayer\_talent instead.
 the normal -5 penalty. When moving at up to twice your normal speed while tracking, you take only a
 -10 penalty instead of the normal -20.
 
-**Slayer's Advance (Ex)**
+#### Slayer's Advance (Ex) {#slayer-s-advance}
 
 **At 17th Level:** You can do this twice a day.
 
@@ -178,7 +178,7 @@ but take a -10 penalty to your check for doing so.
 
 **Usage:** Once a day.
 
-**Quarry (Ex)**
+#### Quarry (Ex) {#quarry}
 
 **Gained:** At 14th Level
 
@@ -192,7 +192,7 @@ following the tracks of your _quarry,_ you can take 10 on your Survival skill ch
 normal speed, without penalty. In addition, you gain a +2 insight bonus on attack rolls made against
 your _quarry,_ and all critical threats against your _quarry_ are automatically confirmed.
 
-**Improved Quarry (Ex)**
+#### Improved Quarry (Ex) {#improved-quarry}
 
 **Ability:** You can now take 20 while using Survival to track your _quarry_ while moving at normal
 speed without penalty. Your insight bonus to attack your _quarry_ increases to +4.
@@ -204,7 +204,7 @@ speed without penalty. Your insight bonus to attack your _quarry_ increases to +
 **Special:** If your _quarry_ is killed or dismissed, you can select a new one after 10 minutes have
 passed.
 
-**Master Slayer (Ex)**
+#### Master Slayer (Ex) {#master-slayer}
 
 **Gained:** At 20th Level
 

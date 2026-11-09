@@ -77,7 +77,7 @@ Knowledge (engineering), Knowledge (geography), Knowledge (history), Knowledge (
 |19th|+14/+9/+4|+6|+11|+11|Investigator talent|5|5|5|5|5|4|
 |20th|+15/+10/+5|+6|+12|+12|Studied strike +9d6, true inspiration|5|5|5|5|5|5|
 
-**Weapon and Armor Proficiencies**
+#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
 
 **Weapons:** All simple weapons, hand crossbow, rapier, sap, shortbow, short sword, sword cane
 
@@ -85,7 +85,7 @@ Knowledge (engineering), Knowledge (geography), Knowledge (history), Knowledge (
 
 **Shields:** No
 
-**Alchemy (Su)**
+#### Alchemy (Su) {#alchemy}
 
 **Ability:** When using Craft (alchemy) to create an alchemical item, you gain a competence bonus
 equal to your class level on the Craft (alchemy) check. In addition, you can use Craft (alchemy) to
@@ -142,7 +142,7 @@ spell the spellbook contains. A wizard, however, cannot learn spells from a form
 also learn formulae from another investigator's or an alchemist's formula book (and vice versa). You
 do not need to decipher arcane writing before copying that formulae.
 
-**Inspiration (Ex)**
+#### Inspiration (Ex) {#inspiration}
 
 **Ability:** You have an inspiration pool equal to [half](ref/misc/fractions-and-rounding) your
 level + your Intelligence modifier (minimum 1). Your inspiration pool refreshes each day, typically
@@ -166,14 +166,14 @@ inspiration is an **immediate action**.
 
 **Usage:** You can only use inspiration once per check or roll.
 
-**Trapfinding**
+#### Trapfinding {#trapfinding}
 
 **Gained:** At 1st Level
 
 **Passive:** You add 1/2 your level to Perception skill checks made to locate traps and to Disable
 Device checks (minimum 1). You can use Disable Device to disarm magical traps.
 
-**Poison Lore (Ex)**
+#### Poison Lore (Ex) {#poison-lore}
 
 **Ability:** If you spend 1 minute physically examining the poison, you can attempt a Knowledge
 (nature) check to identify any natural poison or Knowledge (arcana) check to identify any magical
@@ -190,7 +190,7 @@ yourself when examining or attempting to neutralize a poison.
 
 **Passive:** You cannot accidentally poison yourself when applying poison to a weapon.
 
-**Poison Resistance (Ex)**
+#### Poison Resistance (Ex) {#poison-resistance}
 
 **At 11th Level:** You are now completely immune to poison.
 
@@ -202,7 +202,7 @@ yourself when examining or attempting to neutralize a poison.
 
 **Passive:** You gain a +2 bonus on all saving throws against poison.
 
-**Investigator Talent (Ex or Su)**
+#### Investigator Talent (Ex or Su) {#investigator-talent}
 
 **Ability:** You gain an investigator talent. Except where otherwise noted, each investigator talent
 can only be selected once.
@@ -215,13 +215,13 @@ can only be selected once.
 Only one of these talents can be applied to an individual attack, but the decision can be made when
 the damage is dealt.
 
-**Keen Recollection**
+#### Keen Recollection {#keen-recollection}
 
 **Ability:** You can attempt all Knowledge skill checks untrained.
 
 **Gained:** At 3rd Level
 
-**Trap Sense (Ex)**
+#### Trap Sense (Ex) {#trap-sense}
 
 **Flavor:** An investigator gains an intuitive sense that alerts him to danger from traps.
 
@@ -230,7 +230,7 @@ the damage is dealt.
 **Passive:** You gain a bonus on Reflex saving throws to avoid traps and a dodge bonus to AC against
 attacks by traps. Both of these bonuses are equal to one-third of your investigator level.
 
-**Studied Combat (Ex)**
+#### Studied Combat (Ex) {#studied-combat}
 
 **Flavor:** With a keen eye and calculating mind, an investigator can assess the mettle of his
 opponent to take advantage of gaps in talent and training.
@@ -251,7 +251,7 @@ or until you deal damage with a _studied strike,_ whichever comes first.
 **Usage:** This effect lasts for a number of rounds equal to your Intelligence modifier (minimum 1)
 or until you deal damage with a _studied strike,_ whichever comes first.
 
-**Studied Strike (Ex)**
+#### Studied Strike (Ex) {#studied-strike}
 
 **Action:** Free Action
 
@@ -286,7 +286,7 @@ studied strike be nonlethal damage instead of lethal damage. If you chose to mak
 lethal weapon instead deal nonlethal damage (with the usual -4 penalty), the studied strike damage
 may also deal nonlethal damage.
 
-**Swift Alchemy (Ex)**
+#### Swift Alchemy (Ex) {#swift-alchemy}
 
 **Gained:** At 4th Level
 
@@ -294,7 +294,7 @@ may also deal nonlethal damage.
 
 **Passive:** It takes you half the normal amount of time to create alchemical items.
 
-**True Inspiration (Ex)**
+#### True Inspiration (Ex) {#true-inspiration}
 
 **Free:** You can use inspiration on all skill checks - even ones you're not trained in - and all
 ability checks without spending inspiration. In addition, whenever you use inspiration on an ability

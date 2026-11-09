@@ -73,7 +73,7 @@ variety of tactics, few can match fighters for sheer battle prowess.
 |19th|+19/+14/+9/+4|+11|+6|+6|Armor mastery|
 |20th|+20/+15/+10/+5|+12|+6|+6|Bonus feat, weapon mastery|
 
-**Weapon and Armor Proficiencies**
+#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
 
 **Weapons:** All simple weapons, All martial weapons
 
@@ -81,7 +81,7 @@ variety of tactics, few can match fighters for sheer battle prowess.
 
 **Shields:** Yes, including tower shields
 
-**Bonus Feats**
+#### Bonus Feats {#bonus-feats}
 
 **Ability:** You start with a bonus feat, in addition to the free feat every class gets at 1st
 level. This bonus feat must be selected from those listed as combat feats, sometimes also called
@@ -97,7 +97,7 @@ class, or other ability.
 **Repeat:** You gain a bonus combat feat., 2, 4, , You gain a bonus combat feat. You may also
 replace an older feat, following the rules given at 4th level., 8, 4
 
-**Bravery (Ex)**
+#### Bravery (Ex) {#bravery}
 
 **Gained:** At 2nd Level
 
@@ -111,7 +111,7 @@ At 14th level: This bonus +4.
 
 At 18th level: This bonus +5.
 
-**Armor Training (Ex)**
+#### Armor Training (Ex) {#armor-training}
 
 **Flavor:** You learn to be more maneuverable while wearing armor.
 
@@ -134,7 +134,7 @@ Optionally, a fighter may forego these increases to pick up a specific
 [advanced armor training](ref/ability/advanced-armor-training), instead. You must make a choice at
 3rd, 7th, 11th, and 15th levels, and the choice you make is permanent.
 
-**Weapon Training (Ex)**
+#### Weapon Training (Ex) {#weapon-training}
 
 **At 13th Level:** You select a new weapon group and gain the +1 bonus when using weapons from that
 group. Your previously selected groups' bonuses increase to +2 and +3.
@@ -161,7 +161,7 @@ fighter can choose an [advanced weapon training](ref/ability/advanced-weapon-tra
 one fighter weapon group that he previously selected. This choice must be made when the fighter
 gains the level, and the choice is permanent.
 
-**Armor Mastery (Ex)**
+#### Armor Mastery (Ex) {#armor-mastery}
 
 **Section:** Other Abilities
 
@@ -169,7 +169,7 @@ gains the level, and the choice is permanent.
 
 **Passive:** You gain DR 5/- whenever you are wearing armor or using a shield.
 
-**Weapon Mastery (Ex)**
+#### Weapon Mastery (Ex) {#weapon-mastery}
 
 **Gained:** At 20th Level
 

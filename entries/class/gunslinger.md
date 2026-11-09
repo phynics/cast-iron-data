@@ -74,7 +74,7 @@ of distant death, picking off enemies from afar with their strange and wondrous 
 |19th|+19/+14/+9/+4|+11|+11|+6|Deeds|
 |20th|+20/+15/+10/+5|+12|+12|+6|Bonus feat, true grit|
 
-**Weapon and Armor Proficiencies**
+#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
 
 **Weapons:** All simple weapons, All martial weapons, all firearms
 
@@ -82,7 +82,7 @@ of distant death, picking off enemies from afar with their strange and wondrous 
 
 **Shields:** No
 
-**Gunsmith**
+#### Gunsmith {#gunsmith}
 
 **Ability:** You gain [Gunsmithing](ref/feat/gunsmithing) as a bonus feat, and one of the following
 firearms of your choice: [blunderbuss](ref/eq-weapon/blunderbuss), [musket](ref/eq-weapon/musket),
@@ -95,7 +95,7 @@ use it.
 
 **Special:** This starting weapon can only be sold for scrap (it's worth 4d10 gp when sold).
 
-**Grit (Ex)**
+#### Grit (Ex) {#grit}
 
 **Ability:** In game terms, grit is a fluctuating measure of your ability to perform amazing actions
 in combat. At the start of each day, you gain a number of grit points equal to your Wisdom modifier
@@ -109,21 +109,21 @@ Whatever the reason, all gunslingers have grit.
 
 **Gained:** At 1st Level
 
-**Critical Hit with a Firearm**
+#### Critical Hit with a Firearm {#critical-hit-with-a-firearm}
 
 **Passive:** Each time you confirm a critical hit with a firearm attack while in the heat of combat,
 you regain 1 grit point. Confirming a critical hit on a [helpless](ref/misc/helpless) or unaware
 creature or on a creature that has fewer Hit Dice than [half](ref/misc/fractions-and-rounding) your
 character level does not restore grit.
 
-**Killing Blow with a Firearm**
+#### Killing Blow with a Firearm {#killing-blow-with-a-firearm}
 
 **Passive:** When you reduce a creature to 0 or fewer hit points with a firearm attack while in the
 heat of combat, you regain 1 grit point. Destroying an unattended object, reducing a helpless or
 unaware creature to 0 or fewer hit points, or reducing a creature that has fewer Hit Dice than half
 your character level to 0 or fewer hit points does not restore any grit.
 
-**Optional Rule: Daring Act**
+#### Optional Rule: Daring Act {#optional-rule-daring-act}
 
 The following method for regaining grit points requires a measure of GM judgment, so it is an
 optional rule.
@@ -137,7 +137,7 @@ Before attempting a daring act, the player should ask the GM whether the act qua
 the final arbiter of what's considered a daring act, and can grant a regained grit point for a
 daring act even if the player does not ask beforehand whether the act qualifies.
 
-**Deeds**
+#### Deeds {#deeds}
 
 **Ability:** You spend grit points to accomplish deeds. Most deeds grant you some momentary bonus or
 effect, but there are some that provide longer-lasting effects. Some deeds stay in effect as long as
@@ -150,7 +150,7 @@ perform the deed.
 Gunslingers may optionally select a [renowned deed](ref/ability/gunslinger-renowned-deeds) at 1st,
 7th and 15th level. Each of these deeds replace two other deeds.
 
-**Nimble (Ex)**
+#### Nimble (Ex) {#nimble}
 
 **Gained:** At 2nd Level
 
@@ -165,7 +165,7 @@ At 14th level: The dodge bonus +4.
 
 At 18th level: The dodge bonus +5.
 
-**Bonus Feats**
+#### Bonus Feats {#bonus-feats}
 
 **Ability:** You gain a bonus feat in addition to those gained by normal advancement. These bonus
 feats must be combat or grit feats.
@@ -177,7 +177,7 @@ feats must be combat or grit feats.
 Optionally, a gunslinger can pick a [dare](ref/ability/dares) instead of a bonus feat. These special
 abilities only activate when a gunslinger goes down to 0 grit.
 
-**Gun Training (Ex)**
+#### Gun Training (Ex) {#gun-training}
 
 **At 13th Level:** You select a third type of firearm, gaining these same bonuses for it.
 
@@ -192,7 +192,7 @@ abilities only activate when a gunslinger goes down to 0 grit.
 your Dexterity modifier on damage rolls when firing that type of firearm. Furthermore, when you
 misfire with that type of firearm, the misfire value of that firearm increases by 2 instead of 4.
 
-**True Grit (Ex)**
+#### True Grit (Ex) {#true-grit}
 
 **Ability:** You pick two deeds that you have access to and that you must spend grit to perform. You
 can perform these deeds for 1 grit point fewer (minimum 0) than usual. If the number of grit points

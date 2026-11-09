@@ -79,7 +79,7 @@ law/chaos axis or the good/evil axis.
 |19th|+14/+9/+4|+11|+6|+11|Channel energy 10d6|4|4+1|4+1|4+1|4+1|4+1|4+1|4+1|3+1|3+1|
 |20th|+15/+10/+5|+12|+6|+12|-|4|4+1|4+1|4+1|4+1|4+1|4+1|4+1|4+1|4+1|
 
-**Weapon and Armor Proficiencies**
+#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
 
 **Weapons:** All simple weapons, The favored weapon of their deity
 
@@ -87,7 +87,7 @@ law/chaos axis or the good/evil axis.
 
 **Shields:** Yes, except tower shields
 
-**Bonus Languages**
+#### Bonus Languages {#bonus-languages}
 
 **Gained:** At 1st Level
 
@@ -95,14 +95,14 @@ law/chaos axis or the good/evil axis.
 good, chaotic evil, and lawful evil outsiders, respectively). These choices are in addition to the
 bonus languages available to you because of your race.
 
-**Aura (Ex)**
+#### Aura (Ex) {#aura}
 
 **Gained:** At 1st Level
 
 **Passive:** If you are a cleric of a chaotic, evil, good, or lawful deity, you have a particularly
 powerful aura corresponding to your deity's alignment (see [detect evil](ref/spell/detect-evil)).
 
-**Spells**
+#### Spells {#spells}
 
 **Spell list:** Divine spells from the cleric list, from 1st level
 
@@ -114,12 +114,12 @@ a high score grants bonus spells per day.
 **Notes:** Alignment can bar spells opposed to it. Regains spells after 1 hour in meditation at a
 chosen time each day; any spell on the list can be prepared.
 
-**Orisons**
+#### Orisons {#orisons}
 
 **Ability:** 0-level divine spells. Prepared like other spells but not expended when cast; one
 placed in a higher slot (for example through metamagic) uses that slot.
 
-**Chaotic, Evil, Good, and Lawful Spells**
+#### Chaotic, Evil, Good, and Lawful Spells {#chaotic-evil-good-and-lawful-spells}
 
 **Section:** Aligned Spells
 
@@ -127,7 +127,7 @@ placed in a higher slot (for example through metamagic) uses that slot.
 one). Spells associated with particular alignments are indicated by the chaos, evil, good, and law
 descriptors in their spell descriptions.
 
-**Channel Energy (Su)**
+#### Channel Energy (Su) {#channel-energy}
 
 **Choice:** A good cleric (or one who worships a good deity) channels **positive energy** and can
 choose to deal damage to undead creatures or to heal living creatures. An evil cleric (or one who
@@ -179,7 +179,7 @@ Some deities may endow their mortal servants with the power to channel energies 
 more closely mirror their particular focus. You may choose one of these
 [variant channeling abilities](ref/ability/variant-channeling) instead.
 
-**Domains**
+#### Domains {#domains}
 
 **Action:** Choice
 
@@ -203,7 +203,7 @@ spell slot. Domain spells cannot be used to cast spells spontaneously.
 In addition, you gain the listed powers from both of your domains, if you are of a high enough
 level. Unless otherwise noted, using a domain power is a **standard action**.
 
-**Spontaneous Casting:**
+#### Spontaneous Casting: {#spontaneous-casting}
 
 **Ability:** You can &quot&lose&quot& any prepared spell that is not an orison or domain spell in
 order to cast any _cure_ spell of the same spell level or lower. This is only true if you channel

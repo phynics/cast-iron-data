@@ -90,7 +90,7 @@ Linguistics, Spellcraft
 |19th|6|6|6|6|5|
 |20th|6|6|6|6|5|
 
-**Weapon and Armor Proficiencies**
+#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
 
 **Weapons:** All simple weapons
 
@@ -98,7 +98,7 @@ Linguistics, Spellcraft
 
 **Shields:** No
 
-**Spells**
+#### Spells {#spells}
 
 **Spell list:** Psychic spells from the medium list, from 1st level
 
@@ -113,12 +113,12 @@ the table. Charisma does not change the number known.
 **Spell swap:** At 5th, 8th, 11th, and every 3 levels after, one known spell may be exchanged for
 another of the same level.
 
-**Knacks**
+#### Knacks {#knacks}
 
 **Ability:** 0-level psychic spells. Cast without using a spell slot; one placed in a higher slot
 (for example through metamagic) uses that slot.
 
-**Spirit (Su)**
+#### Spirit (Su) {#spirit}
 
 **Action:** Ability
 
@@ -176,14 +176,14 @@ as much of its influence. If you do so, you can forgo any number of spirit power
 your most powerful spirit power. For each spirit power you forgo, you can use your _spirit surge_
 ability twice without incurring influence.
 
-**Spirit Bonus (Su)**
+#### Spirit Bonus (Su) {#spirit-bonus}
 
 **Gained:** At 1st Level
 
 **Passive:** When you channel a spirit, you gain a bonus on certain checks and to certain
 statistics, depending on the spirit. This bonus is equal to 1 + one-fourth of your medium level.
 
-**Spirit Surge (Su)**
+#### Spirit Surge (Su) {#spirit-surge}
 
 **At 10th Level:** Your spirit surge die increases to 1d8.
 
@@ -196,14 +196,14 @@ spirit to gain 1 additional point of influence over you in order to add 1d6 to t
 without taking an action. This can cause the check to succeed instead of fail. You must be conscious
 and aware to use this ability, and you can use this ability at most once per round.
 
-**Shared Seance (Su)**
+#### Shared Seance (Su) {#shared-seance}
 
 **Gained:** At 2nd Level
 
 **Passive:** All allies who participate in your seance gain the channeled spirit's seance boon for
 24 hours.
 
-**Taboo (Ex)**
+#### Taboo (Ex) {#taboo}
 
 **Action:** Ability
 
@@ -228,7 +228,7 @@ for 1 hour and your spirit gains 1 point of influence over you. If you continue 
 while taking the penalty, the duration of the penalty extends, but the spirit doesn't gain
 additional influence over you.
 
-**Haunt Channeler (Su)**
+#### Haunt Channeler (Su) {#haunt-channeler}
 
 **Ability:** Your touch funnels a portion of the haunt into yourself, dealing 1d6 points of damage
 to the haunt per 2 medium levels you possess as if via positive energy and allowing you to ask the
@@ -244,7 +244,7 @@ save (DC = 20 + 1/2 your medium level).
 
 **Passive:** You can always act on the surprise round against a haunt.
 
-**Location Channel (Sp)**
+#### Location Channel (Sp) {#location-channel}
 
 **Ability:** You can perform a special seance at the site of a person's death - or a location that
 was precious to that person in life - to call forth that person's spirit into your body so your
@@ -259,7 +259,7 @@ seance must ask the questions.
 24 hours. Once per round, you can attempt to end the seance early by succeeding at a Will save (DC =
 20 + 1/2 your medium level).
 
-**Connection Channel (Sp)**
+#### Connection Channel (Sp) {#connection-channel}
 
 **Ability:** You can use your _location channel_ ability at any location, so long as you possess
 some connection to the deceased. If another participant in the seance is more familiar with the
@@ -268,7 +268,7 @@ determine the DC of the _[call spirit](ref/spell/call-spirit)_ effect.
 
 **Gained:** At 7th Level
 
-**Propitiation (Su)**
+#### Propitiation (Su) {#propitiation}
 
 **Ability:** You have learned hidden techniques and rites that allow you to mollify your channeled
 spirit once per day, reducing its influence over you by 1 point (to a minimum of 1 point of
@@ -278,7 +278,7 @@ an offering of wealth or a live sacrifice).
 
 **Gained:** At 9th Level
 
-**Ask the Spirits (Sp)**
+#### Ask the Spirits (Sp) {#ask-the-spirits}
 
 **Ability:** You can send your consciousness to the Astral Plane any number of times per day to ask
 the spirits for advice, as if using [contact other plane](ref/spell/contact-other-plane) to contact
@@ -287,7 +287,7 @@ to your Intelligence and Charisma.
 
 **Gained:** At 13th Level
 
-**Astral Journey (Sp)**
+#### Astral Journey (Sp) {#astral-journey}
 
 **Ability:** You can enter a deep coma in order to project yourself onto the Astral Plane as
 [astral projection](ref/spell/astral-projection), except you can project only yourself, you can't
@@ -295,7 +295,7 @@ enter other planes, and your projected gear has no magical properties.
 
 **Gained:** At 14th Level
 
-**Trance of Three (Su)**
+#### Trance of Three (Su) {#trance-of-three}
 
 **Free:** You can end the _trance of three_ early.
 
@@ -311,7 +311,7 @@ gain the benefits of your spirit bonus from the secondary spirit.
 portion of a legendary spirit from another legend to enter you for 1 round per level, granting you
 the intermediate spirit power from another legend.
 
-**Spacious Soul (Su)**
+#### Spacious Soul (Su) {#spacious-soul}
 
 **Flavor:** A medium's soul is spacious enough to provide a foothold for his fallen allies, if he so
 chooses.
@@ -341,7 +341,7 @@ this ability indefinitely.
 succeed at a Will saving throw (DC = 10 + 1/2 the ally's hit dice + the ally's Charisma modifier) or
 the attempt fails and the ally becomes dominant for 24 hours.
 
-**Spirit Mastery (Ex)**
+#### Spirit Mastery (Ex) {#spirit-mastery}
 
 **Ability:** You can use your spirit surge ability an additional two times per day without incurring
 influence, regardless of whether you accept a taboo or channels a weaker spirit. When channeling a
@@ -352,7 +352,7 @@ you forgo, instead of an additional two times.
 
 **Gained:** At 19th Level
 
-**Astral Beacon (Su)**
+#### Astral Beacon (Su) {#astral-beacon}
 
 **Flavor:** A medium is an open connection to the Astral Plane and a shining beacon for spirits.
 

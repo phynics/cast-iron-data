@@ -73,7 +73,7 @@ has been adjusted to make them more useful and interesting.
 |19th|+19/+14/+9/+4|+11|+6|+6|[Damage reduction](ref/rule/damage-reduction) 5/-|
 |20th|+20/+15/+10/+5|+12|+6|+6|Mighty rage, rage power|
 
-**Weapon and Armor Proficiencies**
+#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
 
 **Weapons:** All simple weapons, All martial weapons
 
@@ -81,7 +81,7 @@ has been adjusted to make them more useful and interesting.
 
 **Shields:** Yes, except tower shields
 
-**Fast Movement (Ex)**
+#### Fast Movement (Ex) {#fast-movement}
 
 **Gained:** At 1st Level
 
@@ -91,7 +91,7 @@ has been adjusted to make them more useful and interesting.
 and not carrying a heavy load. Apply this bonus before modifying your speed because of any load
 carried or armor worn. This bonus stacks with any other bonuses to your land speed.
 
-**Rage (Ex)**
+#### Rage (Ex) {#rage}
 
 **Flavor:** A barbarian can call upon inner reserves of strength and ferocity, granting her
 additional combat prowess.
@@ -120,7 +120,7 @@ for 8 hours, although these hours do not need to be consecutive.
 
 **Usage:** 2 rounds/day + double your barbarian level + your Constitution modifier
 
-**Rage Powers (Ex)**
+#### Rage Powers (Ex) {#rage-powers}
 
 **Ability:** You gain a rage power. You gain another rage power at every even-numbered level of
 barbarian after this (4th, 6th, 8th, and so on). You gain the benefits of rage powers only while
@@ -136,7 +136,7 @@ You can't have more than one stance rage power active at a time. If you activate
 while another one is active, the current stance immediately ends. The stance can be intentionally
 ended at the beginning of your turn as a **free action**; otherwise, it lasts until the _rage_ ends.
 
-**Uncanny Dodge (Ex)**
+#### Uncanny Dodge (Ex) {#uncanny-dodge}
 
 **Gained:** At 2nd Level
 
@@ -147,7 +147,7 @@ bonus to AC if the attacker is invisible.
 successfully uses the feint action against you. If you have _uncanny dodge_ from a different class,
 you automatically gain _improved uncanny dodge_ instead.
 
-**Trap Sense (Ex)**
+#### Trap Sense (Ex) {#trap-sense}
 
 **Gained:** At 3rd Level
 
@@ -157,7 +157,7 @@ attacks made by traps. Both of these bonuses are equal to
 
 **Special:** _Trap sense_ bonuses gained from multiple classes stack.
 
-**Danger Sense (Ex)**
+#### Danger Sense (Ex) {#danger-sense}
 
 **Gained:** At 3rd Level
 
@@ -169,7 +169,7 @@ bonuses are equal to one-third of your barbarian level.
 replaced by any archetype class feature that replaces _trap sense._ The bonuses gained from this
 ability stack with those gained from _trap sense_ (if you have _trap sense_ from another class).
 
-**Improved Uncanny Dodge (Ex)**
+#### Improved Uncanny Dodge (Ex) {#improved-uncanny-dodge}
 
 **Gained:** At 5th Level
 
@@ -180,7 +180,7 @@ least four more levels in a class that provides _sneak attack_ than you have bar
 **Special:** If you already have _uncanny dodge_ from another class, the levels from the classes
 that grant _uncanny dodge_ stack to determine the minimum rogue level required to flank you.
 
-**Damage Reduction (Ex)**
+#### Damage Reduction (Ex) {#damage-reduction}
 
 **Gained:** At 7th Level
 
@@ -194,7 +194,7 @@ At 16th level: Your DR 4/-.
 
 At 19th level: Your DR 5/-.
 
-**Greater Rage (Ex)**
+#### Greater Rage (Ex) {#greater-rage}
 
 **Free:** The bonus on melee attack rolls, melee damage rolls, thrown weapon damage rolls, and Will
 saves while _raging_ increases to +3. In addition, the amount of temporary hit points gained when
@@ -204,21 +204,21 @@ entering a _rage_ increases to 3 per Hit Die.
 
 **Gained:** At 11th Level
 
-**Indomitable Will (Ex)**
+#### Indomitable Will (Ex) {#indomitable-will}
 
 **Gained:** At 14th Level
 
 **Passive:** You gain a +4 bonus on Will saves to resist enchantment spells. This bonus stacks with
 all other modifiers, including the morale bonus on Will saves you also receive during your _rage._
 
-**Tireless Rage (Ex)**
+#### Tireless Rage (Ex) {#tireless-rage}
 
 **Gained:** At 17th Level
 
 **Passive:** You no longer become fatigued at the end of your _rage._ If you enter a _rage_ again
 within 1 minute of ending a _rage,_ you don't gain any temporary hit points from your _rage._
 
-**Mighty Rage (Ex)**
+#### Mighty Rage (Ex) {#mighty-rage}
 
 **Free:** When you enter a _rage,_ the bonus on melee attack rolls, melee damage rolls, thrown
 weapon damage rolls, and Will saves while _raging_ increases to +4. In addition, the amount of

@@ -96,7 +96,7 @@ axis or the good/evil axis.
 |19th|6|6|6|6|5|5|4|
 |20th|6|6|6|6|6|5|5|
 
-**Weapon and Armor Proficiencies**
+#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
 
 **Weapons:** All simple weapons, hand crossbow, longbow, repeating crossbow, shortbow, your deity's
 favored weapon
@@ -105,7 +105,7 @@ favored weapon
 
 **Shields:** Yes, except tower shields
 
-**Spells**
+#### Spells {#spells}
 
 **Spell list:** Divine spells from the inquisitor list, from 1st level
 
@@ -123,12 +123,12 @@ another of the same level that is at least one level below the highest level you
 
 **Notes:** Alignment can bar spells opposed to it.
 
-**Orisons**
+#### Orisons {#orisons}
 
 **Ability:** 0-level divine spells. Cast without using a spell slot; one placed in a higher slot
 (for example through metamagic) uses that slot.
 
-**Chaotic, Evil, Good, and Lawful Spells**
+#### Chaotic, Evil, Good, and Lawful Spells {#chaotic-evil-good-and-lawful-spells}
 
 **Section:** Aligned Spells
 
@@ -136,7 +136,7 @@ another of the same level that is at least one level below the highest level you
 one). Spells associated with particular alignments are indicated by the chaos, evil, good, and law
 descriptors in their spell descriptions.
 
-**Domain**
+#### Domain {#domain}
 
 **Action:** Ability
 
@@ -164,7 +164,7 @@ cleric levels, one of your two domain selections must be the same domain selecte
 Levels of cleric and inquisitor stack for the purpose of determining domain powers and abilities,
 but not for bonus spells.
 
-**Judgment (Su)**
+#### Judgment (Su) {#judgment}
 
 **Action:** Swift Action
 
@@ -190,7 +190,7 @@ a **swift action**, you can change this judgment to another type. If you are evi
 profane bonuses instead of sacred, as appropriate. Neutral inquisitors must select profane or sacred
 bonuses. Once made, this choice cannot be changed.
 
-**Monster Lore (Ex)**
+#### Monster Lore (Ex) {#monster-lore}
 
 **Section:** Knowledge and Intimidation
 
@@ -200,7 +200,7 @@ bonuses. Once made, this choice cannot be changed.
 addition to your Intelligence modifier) when making skill checks to identify the abilities and
 weaknesses of creatures.
 
-**Stern Gaze (Ex)**
+#### Stern Gaze (Ex) {#stern-gaze}
 
 **Flavor:** Inquisitors are skilled at sensing deception and intimidating their foes.
 
@@ -209,7 +209,7 @@ weaknesses of creatures.
 **Passive:** You receive a morale bonus on all Intimidate and Sense Motive checks equal to
 [half](ref/misc/fractions-and-rounding) your inquisitor level (minimum +1).
 
-**Cunning Initiative (Ex)**
+#### Cunning Initiative (Ex) {#cunning-initiative}
 
 **Section:** Cunning Initiative, Sensing, and Tracking
 
@@ -218,7 +218,7 @@ weaknesses of creatures.
 **Passive:** You add your Wisdom modifier on initiative checks (in addition to your Dexterity
 modifier).
 
-**Detect Alignment (Sp)**
+#### Detect Alignment (Sp) {#detect-alignment}
 
 **Ability:** You can use [detect chaos](ref/spell/detect-chaos),
 [detect evil](ref/spell/detect-evil), [detect good](ref/spell/detect-good), or
@@ -230,14 +230,14 @@ modifier).
 
 **Usage:** At will
 
-**Track (Ex)**
+#### Track (Ex) {#track}
 
 **Gained:** At 2nd Level
 
 **Passive:** You add half your inquisitor level on Survival skill checks made to follow or identify
 tracks.
 
-**Teamwork Feat**
+#### Teamwork Feat {#teamwork-feat}
 
 **Ability:** You gain a bonus teamwork feat.
 
@@ -256,7 +256,7 @@ your previous teamwork feats become permanent.
 
 **Usage:** Wis modifier times/day
 
-**Solo Tactics (Ex)**
+#### Solo Tactics (Ex) {#solo-tactics}
 
 **Gained:** At 3rd Level
 
@@ -267,7 +267,7 @@ the purpose of determining whether you receives a bonus from your teamwork feats
 the feats themselves. Their positioning and actions must still meet the prerequisites listed in the
 teamwork feat for you to receive the listed bonus.
 
-**Bane (Su)**
+#### Bane (Su) {#bane}
 
 **Section:** Bane and Discern Lies
 
@@ -283,7 +283,7 @@ action.
 
 **Usage:** 1 time/day per inquisitor level
 
-**Discern Lies (Sp)**
+#### Discern Lies (Sp) {#discern-lies}
 
 **Immediate:** You can [discern lies](ref/spell/discern-lies), as per the spell.
 
@@ -291,7 +291,7 @@ action.
 
 **Usage:** 1 time/day per inquisitor level
 
-**Second Judgment (Ex)**
+#### Second Judgment (Ex) {#second-judgment}
 
 **Ability:** Whenever you use your _judgment_ ability, you select two different judgments, instead
 of one. This only consumes one use of your _judgment_ ability.
@@ -302,7 +302,7 @@ of one. This only consumes one use of your _judgment_ ability.
 
 **Swift:** You can change one of these judgments to another type.
 
-**Stalwart (Ex)**
+#### Stalwart (Ex) {#stalwart}
 
 **Flavor:** An inquisitor can use mental and physical resiliency to avoid certain attacks.
 
@@ -317,14 +317,14 @@ effect on a successful save, you instead avoid the effect entirely.
 **Usage:** Only when wearing light armor, medium armor, or no armor, and not
 [helpless](ref/misc/helpless).
 
-**Greater Bane (Su)**
+#### Greater Bane (Su) {#greater-bane}
 
 **Gained:** At 12th Level
 
 **Passive:** When you use your bane ability, the amount of bonus damage dealt by the weapon against
 creatures of the selected type increases to 4d6.
 
-**Exploit Weakness (Ex)**
+#### Exploit Weakness (Ex) {#exploit-weakness}
 
 **Flavor:** The inquisitor learns to take advantage of any opportunity that presents itself.
 
@@ -337,7 +337,7 @@ critical hit and can die normally during that round. Creatures whose regeneratio
 are immune to this ability. Finally, if you deal energy damage to a creature with vulnerability to
 that energy type, you deal +1 point of damage per die rolled.
 
-**Third Judgment (Ex)**
+#### Third Judgment (Ex) {#third-judgment}
 
 **Ability:** Whenever you use your _judgment_ ability, you select three different judgments, instead
 of just two. This only consumes one use of your _judgment_ ability.
@@ -346,7 +346,7 @@ of just two. This only consumes one use of your _judgment_ ability.
 
 **Swift:** You can change one of these judgments to another type.
 
-**Slayer (Ex)**
+#### Slayer (Ex) {#slayer}
 
 **Ability:** When you use your _judgment_ ability, you must select one type of judgment. You are
 treated as if you were 5 levels higher for the purposes of determining the bonus granted by the
@@ -359,7 +359,7 @@ judgment.
 **Special:** Unlike other types of judgment, the one enhanced by this ability cannot be changed for
 the remainder of the judgment.
 
-**True Judgment (Su)**
+#### True Judgment (Su) {#true-judgment}
 
 **Flavor:** An inquisitor can call true judgment down upon a foe during combat.
 

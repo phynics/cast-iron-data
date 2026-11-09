@@ -72,7 +72,7 @@ Knowledge (planes), Spellcraft
 |19th|+9/+4|+6|+6|+11|-|4|4|4|4|4|4|4|4|3|3|
 |20th|+10/+5|+6|+6|+12|Hex|4|4|4|4|4|4|4|4|4|4|
 
-**Weapon and Armor Proficiencies**
+#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
 
 **Weapons:** All simple weapons
 
@@ -83,7 +83,7 @@ Knowledge (planes), Spellcraft
 **Notes:** Armor interferes with a witch's gestures, which can cause her spells with somatic
 components to fail.
 
-**Spells**
+#### Spells {#spells}
 
 **Spell list:** Arcane spells from the witch list, from 1st level
 
@@ -95,12 +95,12 @@ Intelligence modifier; a high score grants bonus spells per day.
 **Notes:** Prepares spells after 8 hours of rest and 1 hour communing with the familiar; no limit on
 spells known.
 
-**Cantrips**
+#### Cantrips {#cantrips}
 
 **Ability:** 0-level arcane spells. Prepared like other spells but not expended when cast; one
 placed in a higher slot (for example through metamagic) uses that slot.
 
-**Hex**
+#### Hex {#hex}
 
 **Ability:** You gain one hex of your choice. Unless otherwise noted, using a hex is a **standard
 action** that does not provoke an attack of opportunity. The save to resist a hex is equal to 10 +
@@ -117,7 +117,7 @@ so on). You cannot select an individual hex more than once.
 Alternately, whenever the witch would learn a new hex, she can instead gain a bonus familiar feat or
 take a blood hex feat.
 
-**Witch's Familiar (Ex)**
+#### Witch's Familiar (Ex) {#witch-s-familiar}
 
 **Ability:** This functions like the wizard's arcane bond class feature, except as noted in this
 section. You must commune with your [familiar](ref/sidekick/familiar) each day to prepare your
@@ -136,7 +136,7 @@ spells, and help with some types of magic.
 can cast (based on your new witch level) to your familiar. You can also add additional spells to
 your familiar through a special ritual, described below under _Adding Spells to a Witch's Familiar._
 
-**Patron Spells**
+#### Patron Spells {#patron-spells}
 
 **Ability:** When you gain your familiar, you must also select a patron. This patron is a vague and
 mysterious force, granting you power for reasons that you might not entirely understand. While these
@@ -149,7 +149,7 @@ of spells known. These spells are also automatically added to the list of spells
 familiar. The spells gained depend upon the patron chosen. Each patron is listed by its theme. Its
 actual name is up to the GM and the witch to decide.
 
-**Major Hex**
+#### Major Hex {#major-hex}
 
 **Ability:** You can choose a major hex whenever you could select a new hex.
 
@@ -157,7 +157,7 @@ actual name is up to the GM and the witch to decide.
 
 **Gained:** At 10th Level
 
-**Grand Hex**
+#### Grand Hex {#grand-hex}
 
 **Ability:** You can choose a grand hex whenever you could select a new hex.
 
