@@ -68329,43 +68329,43 @@ anchor = "ranger-traps"
 
 [[books.chapters.children.children.children.children]]
 title = "Alarm Trap* (Ex or Su)"
-entry = "ref/carried/ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/alarm-trap-ex-or-su"
+entry = "ref/rangertrap/alarm-trap"
 
 [[books.chapters.children.children.children.children]]
 title = "Burning Trap* (Ex or Su)"
-entry = "ref/carried/ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/burning-trap-ex-or-su"
+entry = "ref/rangertrap/burning-trap"
 
 [[books.chapters.children.children.children.children]]
 title = "Exploding Trap* (Ex or Su)"
-entry = "ref/carried/ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/exploding-trap-ex-or-su"
+entry = "ref/rangertrap/exploding-trap"
 
 [[books.chapters.children.children.children.children]]
 title = "Fire Trap (Ex or Su)"
-entry = "ref/carried/ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/fire-trap-ex-or-su"
+entry = "ref/rangertrap/fire-trap"
 
 [[books.chapters.children.children.children.children]]
 title = "Freezing Trap (Su)"
-entry = "ref/carried/ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/freezing-trap-su"
+entry = "ref/rangertrap/freezing-trap"
 
 [[books.chapters.children.children.children.children]]
 title = "Marking Trap* (Ex or Su)"
-entry = "ref/carried/ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/marking-trap-ex-or-su"
+entry = "ref/rangertrap/marking-trap"
 
 [[books.chapters.children.children.children.children]]
 title = "Poison Trap (Ex or Su)"
-entry = "ref/carried/ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/poison-trap-ex-or-su"
+entry = "ref/rangertrap/poison-trap"
 
 [[books.chapters.children.children.children.children]]
 title = "Sleet Trap (Su)"
-entry = "ref/carried/ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/sleet-trap-su"
+entry = "ref/rangertrap/sleet-trap"
 
 [[books.chapters.children.children.children.children]]
 title = "Snare Trap (Ex or Su)"
-entry = "ref/carried/ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/snare-trap-ex-or-su"
+entry = "ref/rangertrap/snare-trap"
 
 [[books.chapters.children.children.children.children]]
 title = "Swarm Trap (Ex or Su)"
-entry = "ref/carried/ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/swarm-trap-ex-or-su"
+entry = "ref/rangertrap/swarm-trap"
 
 [[books.chapters.children.children.children]]
 title = "Ranger Archetypes"
@@ -69102,7 +69102,7 @@ entry = "ref/monster/familiar-thrush"
 
 [[books.chapters.children.children]]
 title = "Familiar, Turtle"
-entry = "ref/carried/ultimate-magic/monsters/new-familiars/small-and-vermin-familiars/familiar/turtle"
+entry = "ref/monster/turtle"
 
 [[books.chapters.children]]
 title = "Spellbooks"
@@ -70107,7 +70107,7 @@ entry = "ref/spell/age-resistance"
 
 [[books.chapters.children]]
 title = "Age Resistance, Greater"
-entry = "ref/carried/ultimate-magic/spells/age-resistance/greater"
+entry = "ref/spell/age-resistance-greater"
 
 [[books.chapters.children]]
 title = "Age Resistance, Lesser"
@@ -70123,7 +70123,7 @@ entry = "ref/spell/allegro"
 
 [[books.chapters.children]]
 title = "Animate Dead, Lesser"
-entry = "ref/carried/ultimate-magic/spells/animate-dead/lesser"
+entry = "ref/spell/animate-dead-lesser"
 
 [[books.chapters.children]]
 title = "Anthropomorphic Animal"
@@ -70155,7 +70155,7 @@ entry = "ref/spell/ash-storm"
 
 [[books.chapters.children]]
 title = "Astral Projection, Lesser"
-entry = "ref/carried/ultimate-magic/spells/astral-projection/lesser"
+entry = "ref/spell/astral-projection-lesser"
 
 [[books.chapters.children]]
 title = "Atavism"
@@ -70163,7 +70163,7 @@ entry = "ref/spell/atavism"
 
 [[books.chapters.children]]
 title = "Atavism, Mass"
-entry = "ref/carried/ultimate-magic/spells/atavism/mass"
+entry = "ref/spell/atavism-mass"
 
 [[books.chapters.children]]
 title = "Aura Of Doom"
@@ -70259,7 +70259,7 @@ entry = "ref/spell/conjure-black-pudding"
 
 [[books.chapters.children]]
 title = "Contagion, Greater"
-entry = "ref/carried/ultimate-magic/spells/contagion/greater"
+entry = "ref/spell/contagion-greater"
 
 [[books.chapters.children]]
 title = "Control Construct"
@@ -70287,7 +70287,7 @@ entry = "ref/spell/create-demiplane"
 
 [[books.chapters.children]]
 title = "Create Demiplane, Greater"
-entry = "ref/carried/ultimate-magic/spells/create-demiplane/greater"
+entry = "ref/spell/create-demiplane-greater"
 
 [[books.chapters.children]]
 title = "Create Demiplane, Lesser"
@@ -70295,7 +70295,7 @@ entry = "ref/spell/create-demiplane-lesser"
 
 [[books.chapters.children]]
 title = "Curse, Major"
-entry = "ref/carried/ultimate-magic/spells/curse/major"
+entry = "ref/spell/curse-major"
 
 [[books.chapters.children]]
 title = "Curse Of Disgust"
@@ -70323,11 +70323,11 @@ entry = "ref/spell/dance-of-a-thousand-cuts"
 
 [[books.chapters.children]]
 title = "Darkvision, Greater"
-entry = "ref/carried/ultimate-magic/spells/darkvision/greater"
+entry = "ref/spell/darkvision-greater"
 
 [[books.chapters.children]]
 title = "Daze, Mass"
-entry = "ref/carried/ultimate-magic/spells/daze/mass"
+entry = "ref/spell/daze-mass"
 
 [[books.chapters.children]]
 title = "Decompose Corpse"
@@ -70411,7 +70411,7 @@ entry = "ref/spell/exquisite-accompaniment"
 
 [[books.chapters.children]]
 title = "False Life, Greater"
-entry = "ref/carried/ultimate-magic/spells/false-life/greater"
+entry = "ref/spell/false-life-greater"
 
 [[books.chapters.children]]
 title = "Familiar Melding"
@@ -70431,7 +70431,7 @@ entry = "ref/spell/forbid-action"
 
 [[books.chapters.children]]
 title = "Forbid Action, Greater"
-entry = "ref/carried/ultimate-magic/spells/forbid-action/greater"
+entry = "ref/spell/forbid-action-greater"
 
 [[books.chapters.children]]
 title = "Force Hook Charge"
@@ -70511,7 +70511,7 @@ entry = "ref/spell/icy-prison"
 
 [[books.chapters.children]]
 title = "Icy Prison, Mass"
-entry = "ref/carried/ultimate-magic/spells/icy-prison/mass"
+entry = "ref/spell/icy-prison-mass"
 
 [[books.chapters.children]]
 title = "Imbue With Aura"
@@ -70527,7 +70527,7 @@ entry = "ref/spell/interrogation"
 
 [[books.chapters.children]]
 title = "Interrogation, Greater"
-entry = "ref/carried/ultimate-magic/spells/interrogation/greater"
+entry = "ref/spell/interrogation-greater"
 
 [[books.chapters.children]]
 title = "Joyful Rapture"
@@ -70559,7 +70559,7 @@ entry = "ref/spell/lend-judgment"
 
 [[books.chapters.children]]
 title = "Lend Judgment, Greater"
-entry = "ref/carried/ultimate-magic/spells/lend-judgment/greater"
+entry = "ref/spell/lend-judgment-greater"
 
 [[books.chapters.children]]
 title = "Lightning Arc"
@@ -70727,7 +70727,7 @@ entry = "ref/spell/restore-corpse"
 
 [[books.chapters.children]]
 title = "Restore Eidolon"
-entry = "ref/carried/ultimate-magic/spells/restore-eidolon"
+entry = "ref/spell/restore-eidolon"
 
 [[books.chapters.children]]
 title = "Restore Eidolon, Lesser"
@@ -70787,7 +70787,7 @@ entry = "ref/spell/silk-to-steel"
 
 [[books.chapters.children]]
 title = "Simulacrum, Lesser"
-entry = "ref/carried/ultimate-magic/spells/simulacrum/lesser"
+entry = "ref/spell/simulacrum-lesser"
 
 [[books.chapters.children]]
 title = "Skinsend"
@@ -71042,48 +71042,16 @@ title = "Animated Object"
 entry = "ref/monster/animated-object"
 
 [[books.chapters.children]]
-title = "Turtle"
-entry = "ref/monster/turtle"
-
-[[books.chapters.children]]
-title = "Words of Power in the Worlds"
-entry = "ref/rule/words-of-power-in-the-worlds"
-
-[[books.chapters.children]]
 title = "Animate Dead"
 entry = "ref/spell/animate-dead"
-
-[[books.chapters.children]]
-title = "Greater Age Resistance"
-entry = "ref/spell/age-resistance-greater"
-
-[[books.chapters.children]]
-title = "Lesser Animate Dead"
-entry = "ref/spell/animate-dead-lesser"
 
 [[books.chapters.children]]
 title = "Astral Projection"
 entry = "ref/spell/astral-projection"
 
 [[books.chapters.children]]
-title = "Lesser Astral Projection"
-entry = "ref/spell/astral-projection-lesser"
-
-[[books.chapters.children]]
-title = "Mass Atavism"
-entry = "ref/spell/atavism-mass"
-
-[[books.chapters.children]]
 title = "Contagion"
 entry = "ref/spell/contagion"
-
-[[books.chapters.children]]
-title = "Greater Contagion"
-entry = "ref/spell/contagion-greater"
-
-[[books.chapters.children]]
-title = "Greater Create Demiplane"
-entry = "ref/spell/create-demiplane-greater"
 
 [[books.chapters.children]]
 title = "Bestow Curse"
@@ -71098,10 +71066,6 @@ title = "Greater Bestow Curse"
 entry = "ref/spell/bestow-curse-greater"
 
 [[books.chapters.children]]
-title = "Major Curse"
-entry = "ref/spell/curse-major"
-
-[[books.chapters.children]]
 title = "Communal Darkvision"
 entry = "ref/spell/darkvision-communal"
 
@@ -71114,40 +71078,12 @@ title = "Daze"
 entry = "ref/spell/daze"
 
 [[books.chapters.children]]
-title = "Greater Darkvision"
-entry = "ref/spell/darkvision-greater"
-
-[[books.chapters.children]]
-title = "Mass Daze"
-entry = "ref/spell/daze-mass"
-
-[[books.chapters.children]]
 title = "Disguise Self"
 entry = "ref/spell/disguise-self"
 
 [[books.chapters.children]]
 title = "False Life"
 entry = "ref/spell/false-life"
-
-[[books.chapters.children]]
-title = "Greater False Life"
-entry = "ref/spell/false-life-greater"
-
-[[books.chapters.children]]
-title = "Greater Forbid Action"
-entry = "ref/spell/forbid-action-greater"
-
-[[books.chapters.children]]
-title = "Mass Icy Prison"
-entry = "ref/spell/icy-prison-mass"
-
-[[books.chapters.children]]
-title = "Greater Interrogation"
-entry = "ref/spell/interrogation-greater"
-
-[[books.chapters.children]]
-title = "Greater Lend Judgment"
-entry = "ref/spell/lend-judgment-greater"
 
 [[books.chapters.children]]
 title = "Magic Jar"
@@ -71170,14 +71106,6 @@ title = "Ray of Exhaustion"
 entry = "ref/spell/ray-of-exhaustion"
 
 [[books.chapters.children]]
-title = "Restore Eidolon"
-entry = "ref/spell/restore-eidolon"
-
-[[books.chapters.children]]
-title = "Lesser Simulacrum"
-entry = "ref/spell/simulacrum-lesser"
-
-[[books.chapters.children]]
 title = "Simulacrum"
 entry = "ref/spell/simulacrum"
 
@@ -71186,56 +71114,16 @@ title = "Advanced Magic Topics"
 entry = "ref/rule/advanced-magic-topics"
 
 [[books.chapters.children]]
-title = "Alarm Trap"
-entry = "ref/rangertrap/alarm-trap"
-
-[[books.chapters.children]]
-title = "Burning Trap"
-entry = "ref/rangertrap/burning-trap"
-
-[[books.chapters.children]]
 title = "Channel Energy"
 entry = "ref/ability/channel-energy"
-
-[[books.chapters.children]]
-title = "Exploding Trap"
-entry = "ref/rangertrap/exploding-trap"
 
 [[books.chapters.children]]
 title = "Familiars"
 entry = "ref/ability/familiars"
 
 [[books.chapters.children]]
-title = "Fire Trap"
-entry = "ref/rangertrap/fire-trap"
-
-[[books.chapters.children]]
-title = "Freezing Trap"
-entry = "ref/rangertrap/freezing-trap"
-
-[[books.chapters.children]]
-title = "Marking Trap"
-entry = "ref/rangertrap/marking-trap"
-
-[[books.chapters.children]]
 title = "Optional Magic Changes"
 entry = "ref/rule/optional-magic-changes"
-
-[[books.chapters.children]]
-title = "Poison Trap"
-entry = "ref/rangertrap/poison-trap"
-
-[[books.chapters.children]]
-title = "Sleet Trap"
-entry = "ref/rangertrap/sleet-trap"
-
-[[books.chapters.children]]
-title = "Snare Trap"
-entry = "ref/rangertrap/snare-trap"
-
-[[books.chapters.children]]
-title = "Swarm Trap"
-entry = "ref/rangertrap/swarm-trap"
 
 [[books]]
 source = "academy-of-secrets"

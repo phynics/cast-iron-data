@@ -15,11 +15,11 @@ kind = "spell"
 school = "conjuration"
 subschools = ["Healing"]
 levels = [
-  { class = "Summoner", level = 2 },
-  { class = "Unchained Summoner", level = 2 },
+  { class = "Summoner", level = 3 },
+  { class = "Unchained Summoner", level = 3 },
 ]
-casting_time = "3 rounds"
-components = "V, S"
+casting_time = "1 minute"
+components = "V, S, M (diamond dust worth 100 gp or 1,000 gp, see text)"
 range = "touch"
 effects = [
   { label = "Target", value = "eidolon touched" },
@@ -32,9 +32,9 @@ spell_resistance = "yes (harmless)"
 ::: statblock
 title = "Spell statistics"
 School: conjuration
-Level: 2: Summoner, Unchained Summoner
-Casting time: 3 rounds
-Components: V, S
+Level: 3: Summoner, Unchained Summoner
+Casting time: 1 minute
+Components: V, S, M (diamond dust worth 100 gp or 1,000 gp, see text)
 Range: touch
 Duration: instantaneous
 Saving throw: Will negates (harmless)
