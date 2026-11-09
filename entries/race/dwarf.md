@@ -236,3 +236,54 @@ often have wyrmscourged as well.
 Dwarves living atop high peaks have the mountaineer racial trait and often surface survivalist as
 well. Mountain dwarves are also trained to defend their homes, and may take the sky sentinel and
 xenophobic traits instead.
+
+## Mountaineer {#mountaineer}
+
+Mountain dwarves are skilled at climbing and navigating narrow ledges. Dwarves with this racial
+trait are immune to altitude sickness and do not lose their Dexterity bonus to AC when making Climb
+or Acrobatics checks to cross narrow or slippery surfaces. This racial trait replaces stability.
+
+::: entry-link
+target = "ref/carried/advanced-race-guide/races/dwarves/alternate-racial-rules/alternate-racial-traits/relentless"
+title = "Relentless"
+:::
+
+::: entry-link
+target = "ref/carried/advanced-race-guide/races/dwarves/alternate-racial-rules/alternate-racial-traits/rock-stepper"
+title = "Rock Stepper"
+:::
+
+::: entry-link
+target = "ref/carried/advanced-race-guide/races/dwarves/alternate-racial-rules/alternate-racial-traits/saltbeard"
+title = "Saltbeard"
+:::
+
+::: entry-link
+target = "ref/carried/advanced-race-guide/races/dwarves/alternate-racial-rules/alternate-racial-traits/sky-sentinel"
+title = "Sky Sentinel"
+:::
+
+::: entry-link
+target = "ref/carried/advanced-race-guide/races/dwarves/alternate-racial-rules/alternate-racial-traits/stonesinger"
+title = "Stonesinger"
+:::
+
+::: entry-link
+target = "ref/carried/advanced-race-guide/races/dwarves/alternate-racial-rules/alternate-racial-traits/stubborn"
+title = "Stubborn"
+:::
+
+::: entry-link
+target = "ref/carried/advanced-race-guide/races/dwarves/alternate-racial-rules/alternate-racial-traits/surface-survivalist"
+title = "Surface Survivalist"
+:::
+
+::: entry-link
+target = "ref/carried/advanced-race-guide/races/dwarves/alternate-racial-rules/alternate-racial-traits/xenophobic"
+title = "Xenophobic"
+:::
+
+::: entry-link
+target = "ref/carried/advanced-race-guide/races/dwarves/alternate-racial-rules/alternate-racial-traits/wyrmscourged"
+title = "Wyrmscourged"
+:::
