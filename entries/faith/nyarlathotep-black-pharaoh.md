@@ -6,6 +6,9 @@ source_ids = ["pathfinder-109-in-search-of-sanity", "pathfinder-46-wake-of-the-w
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nyarlathotep_black_pharaoh", path = "json/faiths6.json" },
 ]
+[[sources]]
+publication = "pathfinder-109-in-search-of-sanity"
+page = "70"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Nyarlathotep**
 
 **Sub:** Black Pharaoh
-
-**Sources:** Pathfinder \#109: In Search of Sanity pg 70
 
 ### Details
 

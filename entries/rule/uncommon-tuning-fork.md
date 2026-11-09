@@ -6,12 +6,13 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "uncommon_tuning_fork", path = "json/rules_campaign_types09.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "85"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Planar Adventures pg 85
 
 An uncommon tuning fork is one attuned to a major demiplane or to a further layer of an Outer Plane.
 Planes that require uncommon tuning forks include any of the deeper layers of Heaven, Hell, or the

@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bestow_insight", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "79"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Spell resistance: yes (harmless)
 Target: one creature touched
 Subschool: Compulsion
 :::
-
-**Sources:** Advanced Race Guide pg 79
 
 > _[Humans](ref/race/human) have access to the following spells._
 

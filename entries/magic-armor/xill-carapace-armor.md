@@ -6,6 +6,9 @@ source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "xill_carapace_armor", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "53"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation"
 caster_level = "13th"
 +++
 
-**Sources:** Inner Sea Combat pg 53\
 **Aura** strong transmutation; **CL** 13th\
 **Slot** armor; **Price** 83,050 gp; **Weight** 15 lbs.
 

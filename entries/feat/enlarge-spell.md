@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enlarge_spell", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "122"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "You can alter a spell with a range of close, medium, or long to incre
 +++
 
 ## Enlarge Spell (Metamagic)
-
-**Sources:** PRPG Core Rulebook pg 122
 
 You can increase the range of your spells.\
 **Benefit:** You can alter a spell with a range of close, medium, or long to increase its range by

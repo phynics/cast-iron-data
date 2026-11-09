@@ -6,6 +6,9 @@ source_ids = ["pathfinder-70-the-frozen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wolliped_wolliped_domesticated_or_wild", path = "json/monsters25.json" },
 ]
+[[sources]]
+publication = "pathfinder-70-the-frozen-stars"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -38,7 +41,6 @@ abilities = ["18", "14", "17", "2", "11", "3"]
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Pathfinder \#70: The Frozen Stars pg 90\
 **Experience points:** 800
 
 **Armor class:** 15/11/13

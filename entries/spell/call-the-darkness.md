@@ -6,12 +6,14 @@ source_ids = ["inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "call_the_darkness", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "inner-sea-temples"
+page = "12"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Inner Sea Temples pg 12\
 **School** conjuration (creation or calling); **Level** 9\
 **Casting Time** 90 minutes\
 **Components** V, S, M (black diamond dust worth 10,000 gp), SC (at least 8, up to 16)\

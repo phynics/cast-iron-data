@@ -6,12 +6,13 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divine_gifts", path = "json/rules_campaign_types09.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "71"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Planar Adventures pg 71
 
 The gods do not need to wait for mortals to call upon them for aid to grant boons. At times, when a
 character performs a particularly devout act or completes a legendary crusade, that character's

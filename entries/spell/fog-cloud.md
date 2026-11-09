@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fog_cloud", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "284"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: no
 Effect: fog spreads in 20-ft. radius
 Subschool: Creation
 :::
-
-**Sources:** PRPG Core Rulebook pg 284
 
 A bank of fog billows out from the point you designate. The fog obscures all sight, including
 [darkvision](ref/rule/darkvision), beyond 5 feet. A creature within 5 feet has concealment (attacks

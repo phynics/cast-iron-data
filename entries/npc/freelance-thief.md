@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "freelance_thief", path = "json/npcs2.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "147"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "6"
 
 **Challenge rating:** 6
 
-**Sources:** NPC Codex pg 147\
 **XP** 2,400\
 Human [rogue](ref/class/rogue) 7\
 NE Medium humanoid (human)\

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-125-tower-of-the-drowned-dead"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alghollthu_plizeazoth", path = "json/monsters26.json" },
 ]
+[[sources]]
+publication = "pathfinder-125-tower-of-the-drowned-dead"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ sides of its wide mouth, and its slimy skin undulates with sickening shudders._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#125: Tower of the Drowned Dead pg 88\
 **Subtype:** Aquatic
 
 **thoughtsense:** 60

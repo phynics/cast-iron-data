@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lockjaw", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "232"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
 :::
-
-**Sources:** Advanced Player's Guide pg 232
 
 You give a creature the ability to use one of its natural attacks to firmly attach itself to an
 opponent. Choose one of the creature's natural attacks (usually a claw or bite attack). The creature

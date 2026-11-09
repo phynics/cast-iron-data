@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grounding_rod", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "178"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Equipment pg 178\
 **Aura** faint abjuration; **CL** 5th\
 **Slot** none; **Price** 12,000 gp; **Weight** 10 lbs.
 

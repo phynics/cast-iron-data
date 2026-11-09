@@ -6,6 +6,9 @@ source_ids = ["pathfinder-88-valley-of-the-brain-collectors"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shipmind", path = "json/monsters38.json" },
 ]
+[[sources]]
+publication = "pathfinder-88-valley-of-the-brain-collectors"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ white gas occasionally escape the roiling fluid._
 
 **Senses:** Detect good, Detect law, Detect magic
 
-**Sources:** Pathfinder \#88: Valley of the Brain Collectors pg 86\
 **Experience points:** 25,600
 
 **Armor class:** 27/17/18

@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guardian_armor", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "23"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Spell resistance: yes
 Target: one willing creature; see below
 Subschool: Teleportation
 :::
-
-**Sources:** Armor Master's Handbook pg 23
 
 This spell teleports the suit of armor you are wearing off of your body and onto an ally within
 range; the target must be the same size and general shape as you. This armor appears on the target's

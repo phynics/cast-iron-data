@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ranger" },
 ]
+[[sources]]
+publication = "dragonslayers-handbook"
+page = "22"
 
 [fields]
 kind = "archetype"
 replaces = ["Track", "5th-level favored enemy", "10th-level favored enemy", "15th-level favored enemy", "20th-level favored enemy"]
 +++
 
-**Sources:** Dragonslayer's Handbook pg 22\
 The quintessential dragonslayers, dragon hunters are experts at forging through the wilds in search
 of great wyrms. Dragon hunters have the following class features.
 

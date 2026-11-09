@@ -6,14 +6,15 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "go_unnoticed", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "161"
 
 [fields]
 kind = "feat"
 prerequisites = "Dex 13, Small size or smaller."
 benefit = "During the first round of combat, flat-footed opponents are considered not to have noticed you yet for the purposes of Stealth skill checks, allowing you to make a Stealth check that round to hide from them."
 +++
-
-**Sources:** Advanced Player's Guide pg 161
 
 Your small size lets you quickly duck out of sight.\
 **Prerequisites:** Dex 13, Small size or smaller.\

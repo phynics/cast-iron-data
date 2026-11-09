@@ -6,6 +6,9 @@ source_ids = ["pathfinder-71-rasputin-must-die"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cassock_of_the_black_monk", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "pathfinder-71-rasputin-must-die"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation"
 caster_level = "12th"
 +++
 
-**Sources:** Pathfinder \#71: Rasputin Must Die! pg 60\
 **Aura** strong transmutation; **CL** 12th\
 **Slot** body; **Price** 34,000 gp; **Weight** 1 lb.
 

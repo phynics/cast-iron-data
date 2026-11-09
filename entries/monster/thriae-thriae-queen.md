@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thriae_thriae_queen", path = "json/monsters39.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "267"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ the wings of a bee._
 
 **Senses:** Darkvision 60 ft., Detect secret doors, Low-light vision, True seeing
 
-**Sources:** Bestiary 3 pg 267\
 **Experience points:** 153,600
 
 **Armor class:** 33/8/33

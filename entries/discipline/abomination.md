@@ -6,13 +6,15 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "abomination", path = "json/class_ability_disciplines.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "64"
 
 [fields]
 kind = "class_option"
 group = "psychic-discipline"
 +++
 
-**Sources:** Occult Adventures pg 64\
 Your mind is impure, tainted by outside forces. These might be monstrous ancestors whose blood still
 flows within you, or powerful and unknowable psychic forces that intrude upon your mind. Like a
 psychic disease, this influence consumes part of your brain, creating a dark counterpart to your

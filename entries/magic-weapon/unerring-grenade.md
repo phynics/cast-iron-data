@@ -6,6 +6,9 @@ source_ids = ["pathfinder-91-battle-of-bloodmarch-hills"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unerring_grenade", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "pathfinder-91-battle-of-bloodmarch-hills"
+page = "46"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "9th"
 +++
 
-**Sources:** Pathfinder \#91: Battle of Bloodmarch Hills pg 46\
 **Aura** moderate divination; **CL** 9th\
 **Slot** none; **Price** 266 gp; **Weight** 1 lb.
 

@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mud_buddy", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "105"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 Target: 5 cubic feet of earth or mud
 Subschool: Creation
 :::
-
-**Sources:** Monster Codex pg 105
 
 You create a Small minion out of mud, and it obeys your commands. The mud buddy has AC 12, 10 hit
 points, Strength 5, and a speed of 30 feet. It can perform any tasks an unseen servant can, plus any

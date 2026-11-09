@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/swashbuckler" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "127"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Weapon proficiency", "Opportune parry and riposte", "Kip-up", "Supe
 alters = ["Panache"]
 +++
 
-**Sources:** Advanced Class Guide pg 127\
 While some swashbucklers take pride in their ability to wear down an opponent with great skill at
 arms and clever positioning, there are those who use firearms to get in close and hit hard.
 

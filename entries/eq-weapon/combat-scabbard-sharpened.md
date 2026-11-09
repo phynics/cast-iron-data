@@ -6,14 +6,15 @@ source_ids = ["adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "combat_scabbard_sharpened", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "adventurers-armory"
+page = "3"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "1 lb."
 +++
-
-**Sources:** Adventurer's Armory pg 3
 
 This [combat scabbard](ref/eq-misc/combat-scabbard) has a sharp blade on the outer edge, allowing
 you to use it as a weapon.

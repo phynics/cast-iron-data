@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dinosaur_ceratosaurus", path = "json/monsters08.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "83"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ _Blade-like horns jut from the snout and eye ridges of this toothy, bipedal dino
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Bestiary 5 pg 83\
 **Experience points:** 1,600
 
 **Armor class:** 18/11/16

@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "action", path = "json/misc.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "11"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 11
 
 An action is a discrete measurement of time during a round of combat. Using abilities, casting
 spells, and making attacks all require actions to perform. There are a number of

@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dust_of_tracelessness", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "294"
+[[sources]]
+publication = "core-rulebook"
+page = "510"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Ultimate Equipment pg 294, PRPG Core Rulebook pg 510\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** none; **Price** 250 gp; **Weight** -
 

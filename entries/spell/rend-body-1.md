@@ -6,6 +6,9 @@ source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rend_body_1", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "10"
 
 [fields]
 kind = "spell"
@@ -36,8 +39,6 @@ Saving throw: Fortitude partial (see text)
 Spell resistance: yes
 Target: one creature
 :::
-
-**Sources:** Psychic Anthology pg 10
 
 You lacerate the body of the target creature with telekinetic force, rending it limb from limb. The
 target creature takes 1d6 points of damage per caster level you have (maximum 10d6 points of

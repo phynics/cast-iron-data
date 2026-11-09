@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "primordial_symbol", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "268"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration"
 caster_level = "20th"
 +++
 
-**Sources:** Occult Adventures pg 268\
 **Aura** strong abjuration; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 1 lb.
 

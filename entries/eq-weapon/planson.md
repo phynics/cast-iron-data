@@ -6,14 +6,15 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planson", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "19"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "10 lbs."
 +++
-
-**Sources:** Melee Tactics Toolbox pg 19
 
 This 5-foot tapered pole is bound in metal with a narrow metal spike projecting from the top. The
 planson can be used as a club or as a sturdy, if top-heavy, spear to stop a charge.

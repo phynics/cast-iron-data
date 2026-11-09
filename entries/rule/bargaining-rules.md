@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bargaining_rules", path = "json/rules_subsystems01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "138"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 138
 
 [In general, a character can sell an item for half its listed price](ref/rule/wealth-and-money).
 This keeps players from getting bogged down in bargaining with NPCs over 10 gp on a 10,000 gp item,

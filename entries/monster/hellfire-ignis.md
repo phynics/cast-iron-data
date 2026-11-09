@@ -6,6 +6,9 @@ source_ids = ["cheliax-the-infernal-empire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hellfire_ignis", path = "json/monsters13.json" },
 ]
+[[sources]]
+publication = "cheliax-the-infernal-empire"
+page = "62"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ wicked grin on its foul, warped face._
 
 **Size:** small
 
-**Sources:** Cheliax, the Infernal Empire pg 62\
 **Subtype:** Fire
 
 **Experience points:** 800

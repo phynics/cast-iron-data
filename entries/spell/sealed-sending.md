@@ -6,6 +6,9 @@ source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sealed_sending", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "61"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Effect: one nonmagical parchment with a written message
 Subschool: Creation
 Descriptors: language-dependant
 :::
-
-**Sources:** Inner Sea Intrigue pg 61
 
 You create a scroll bearing a message in any language you can speak, with a maximum length of 50
 words. The scroll magically appears anywhere you have viewed at least once on the same plane of

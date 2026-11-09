@@ -6,12 +6,14 @@ source_ids = ["skull-and-shackles-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ship_to_ship_combat", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "skull-and-shackles-players-guide"
+page = "9"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Skull and Shackles Player's Guide pg 9\
 When ships themselves become a part of a battle, combat becomes unusual. The following rules are not
 meant to accurately simulate all of the complexities of ship-to-ship combat; rather, they represent
 an attempt to strike a balance between verisimilitude and ease and speed of play during combat, and

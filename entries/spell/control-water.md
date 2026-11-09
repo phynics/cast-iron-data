@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "control_water", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "260"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: no
 Area: water in a volume of 10 ft./level by 10 ft./level by 2 ft./level (S)
 Descriptors: water
 :::
-
-**Sources:** PRPG Core Rulebook pg 260
 
 This spell has two different applications, both of which control water in different ways. The first
 version of this spell causes water in the area to swiftly evaporate or to sink into the ground

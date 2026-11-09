@@ -6,12 +6,13 @@ source_ids = ["occult-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "idol_abilities", path = "json/rules_rulesets01.json" },
 ]
+[[sources]]
+publication = "occult-realms"
+page = "61"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Realms pg 61
 
 An idol gains one of the following special abilities for every 5 points of Ego it has, and for every
 10 points of Ego the idol has, it can select one additional special ability that it can access only

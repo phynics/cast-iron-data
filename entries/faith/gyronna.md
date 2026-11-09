@@ -6,6 +6,9 @@ source_ids = ["inner-sea-faiths"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gyronna", path = "json/faiths4.json" },
 ]
+[[sources]]
+publication = "inner-sea-faiths"
+page = "53"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Gyronna**
 
 **Sub:** The Angry Hag
-
-**Sources:** Inner Sea Faiths pg 53
 
 ### Details
 

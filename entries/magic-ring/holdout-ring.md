@@ -6,6 +6,9 @@ source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "holdout_ring", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "59"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Sources:** Inner Sea Combat pg 59\
 **Aura** moderate transmutation; **CL** 9th\
 **Slot** ring; **Price** 11,000 gp; **Weight** -
 

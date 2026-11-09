@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drowning", path = "json/rules_gm08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "445"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 445
 
 Any character can hold her breath for a number of rounds equal to twice her Constitution score. If a
 character takes a standard or full-round action, the remaining duration that the character can hold

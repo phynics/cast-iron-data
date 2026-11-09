@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "solo_monsters_vs_groups_of_monsters", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "41"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 41
 
 Sometimes there's the temptation to use one powerful monster instead of multiple weaker monsters.
 The main drawback to this encounter-designing tactic is that the PCs outnumber the monster; even in

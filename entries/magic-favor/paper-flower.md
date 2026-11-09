@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "paper_flower", path = "json/magic_favor.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-high-court"
+page = "13"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Sources:** Heroes of the High Court pg 13\
 **Aura** faint abjuration; **CL** 3rd\
 **Slot** headband; **Price** 800 gp; **Weight** -
 

@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charybdis", path = "json/monsters05.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "56"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ hungrily from the center of a whirlpool._
 
 **Senses:** Darkvision 120 ft.
 
-**Sources:** Bestiary 2 pg 56\
 **Subtype:** Aquatic
 
 **Experience points:** 25,600

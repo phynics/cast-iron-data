@@ -6,12 +6,13 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "precipitation", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "167"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Wilderness pg 167
 
 The next step in setting the local weather is to determine whether precipitation occurs and the
 intensity of that precipitation, if any.

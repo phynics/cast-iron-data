@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "pathfinder-65-into-the-nightmare-rift"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nightgaunt", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "203"
+[[sources]]
+publication = "pathfinder-65-into-the-nightmare-rift"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -45,7 +51,6 @@ _This lanky ebon humanoid has bat-like wings, horns, and a long prehensile tail,
 
 **Senses:** All-around vision, Darkvision 60 ft.
 
-**Sources:** Bestiary 4 pg 203, Pathfinder \#65: Into the Nightmare Rift pg 90\
 **Subtype:** Extraplanar
 
 **Experience points:** 1,200

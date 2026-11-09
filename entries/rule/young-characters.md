@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "young_characters", path = "json/rules_adv_pc01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "194"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 194
 
 Not all fantasy characters have the luxury of waiting until adulthood to begin their adventuring
 careers - take Arya Stark, Sabriel the Abhorsen, the Pevensie siblings, and Harry Potter, for

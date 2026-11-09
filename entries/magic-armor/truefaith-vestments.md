@@ -6,6 +6,9 @@ source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "truefaith_vestments", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "53"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate illusion"
 caster_level = "10th"
 +++
 
-**Sources:** Inner Sea Combat pg 53\
 **Aura** moderate illusion; **CL** 10th\
 **Slot** armor; **Price** 6,950 gp; **Weight** 1 lb.
 

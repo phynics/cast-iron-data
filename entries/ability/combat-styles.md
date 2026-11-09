@@ -6,12 +6,15 @@ source_ids = ["core-rulebook", "advanced-players-guide", "ultimate-intrigue", "d
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "combat_styles", path = "json/class_abilities.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+[[sources]]
+publication = "advanced-players-guide"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** PRPG Core Rulebook, Advanced Player's Guide\
 At 2nd level, a ranger must select a combat style to pursue. The ranger's expertise manifests in the
 form of bonus feats at 2nd, 6th, 10th, 14th, and 18th level. He can choose feats from his selected
 combat style, even if he does not have the normal prerequisites.

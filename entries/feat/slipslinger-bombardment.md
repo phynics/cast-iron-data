@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slipslinger_bombardment", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "13"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "This feat can't be used with alchemists' bombs."
 +++
 
 ## Slipslinger Bombardment (Combat)
-
-**Sources:** Weapon Master's Handbook pg 13
 
 You can sling a rain of splash weapons at your enemies.\
 **Prerequisites:** [Quick Draw](ref/feat/quick-draw),

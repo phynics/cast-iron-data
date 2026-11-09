@@ -6,6 +6,8 @@ source_ids = ["pathfinder-134-it-came-from-hollow-mountain"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_waning_bolero", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "pathfinder-134-it-came-from-hollow-mountain"
 
 [fields]
 kind = "class_option"
@@ -13,8 +15,6 @@ group = "bardic-masterpiece"
 +++
 
 ## The Waning Bolero (Dance)
-
-**Sources:** Pathfinder \#134: It Came from Hollow Mountain
 
 Your deliberate dancing causes your foes' steps to fall in time to your own.
 

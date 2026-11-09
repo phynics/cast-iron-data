@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swordplay_style", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "17"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "A character with the swashbuckler weapon training or weapon training 
 +++
 
 ## Swordplay Style (Combat, Style)
-
-**Sources:** Weapon Master's Handbook pg 17
 
 Your defense relies on perfectly timed attacks.\
 **Prerequisites:** [Combat Expertise](ref/feat/combat-expertise),

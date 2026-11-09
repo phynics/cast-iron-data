@@ -6,6 +6,9 @@ source_ids = ["tombs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hearthhammer", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "tombs-of-golarion"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Sources:** Tombs of Golarion pg 29\
 **Aura** moderate transmutation; **CL** 9th\
 **Slot** none; **Price** 30,000 gp; **Weight** 10 lbs.
 

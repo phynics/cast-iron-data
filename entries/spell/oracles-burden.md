@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oracles_burden", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "234"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: curse
 :::
-
-**Sources:** Advanced Player's Guide pg 234
 
 You entreat the forces of fate to bestow your oracle's curse upon another creature. The target
 creature suffers all the hindrances and none of the benefits of your oracle's curse class feature.

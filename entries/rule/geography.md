@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "geography", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "146"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 146
 
 One of the greatest joys of creating your own campaign setting is the thrill and challenge of
 crafting an entire world, shaping it out of the primordial clay and setting it spinning in the void.

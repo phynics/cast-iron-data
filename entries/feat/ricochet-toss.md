@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ricochet_toss", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "21"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you make a ranged attack with an appropriate thrown weapon, the 
 +++
 
 ## Ricochet Toss (Weapon Mastery)
-
-**Sources:** Weapon Master's Handbook pg 21
 
 You are able to angle your thrown weapon attacks in such a way that the weapon ricochets and
 immediately returns to you.\

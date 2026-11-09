@@ -6,6 +6,9 @@ source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "penumbral_disguise", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "blood-of-shadows"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Spell resistance: no
 Target: creature touched
 Descriptors: shadow
 :::
-
-**Sources:** Blood of Shadows pg 29
 
 You mask your features with shadowy illumination, gaining a competence bonus equal to your caster
 level on Disguise checks and Stealth checks attempted while in normal light, dim light, or darkness.

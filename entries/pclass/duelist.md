@@ -6,14 +6,15 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "duelist", path = "json/prestige_classes4.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "382"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d10."
 +++
-
-**Sources:** PRPG Core Rulebook pg 382
 
 Duelists represent the pinnacle of elegant swordplay. They move with a grace unmatched by most foes,
 parrying blows and countering attacks with swift thrusts of their blades. They may wear armor, but

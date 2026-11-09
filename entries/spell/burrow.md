@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burrow", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "210"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
 :::
-
-**Sources:** Ultimate Magic pg 210
 
 The subject can burrow at a speed of 15 feet (or 10 feet if it wears medium or heavy armor, or if it
 carries a medium or heavy load) through sand, loose soil, or gravel, or at a speed of 5 feet through

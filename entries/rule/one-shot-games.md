@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "one_shot_games", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "18"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 18
 
 Introduce the scenario in a way that engages the players. Don't give away any secrets, but let the
 players know why each of their characters is getting involved - having several "adventure hooks"

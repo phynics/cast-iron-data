@@ -6,6 +6,9 @@ source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scarecrow_lure", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "kobolds-of-golarion"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint illusion and transmutation"
 caster_level = "1st"
 +++
 
-**Sources:** Kobolds of Golarion pg 31\
 **Aura** faint illusion and transmutation; **CL** 1st\
 **Slot** none; **Price** 850 gp; **Weight** 40 lbs.
 

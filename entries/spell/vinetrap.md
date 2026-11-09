@@ -6,6 +6,9 @@ source_ids = ["chronicle-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vinetrap", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "chronicle-of-the-righteous"
+page = "51"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: Reflex negates (see text)
 Spell resistance: yes
 Area: radius spread of up to 10 ft./level, 90 ft. high
 :::
-
-**Sources:** Chronicle of the Righteous pg 51
 
 Vines choked with thorns, blossoms, leaflets, and other floral debris burst to life on and around
 the subject of this spell, winding around limbs and armor and making it progressively more difficult

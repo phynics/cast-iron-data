@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pain_strike", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "234"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: yes
 Target: one living creature
 Descriptors: evil, pain
 :::
-
-**Sources:** Advanced Player's Guide pg 234
 
 Pain strike racks the targeted creature with agony, inflicting 1d6 points of nonlethal damage per
 round for 1 round per level (maximum 10 rounds). Additionally, the affected creature is sickened for

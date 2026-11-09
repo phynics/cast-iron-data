@@ -6,6 +6,9 @@ source_ids = ["inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "zelishkar_of_the_bitter_flame", path = "json/monsters_unique4.json" },
 ]
+[[sources]]
+publication = "inner-sea-bestiary"
+page = "62"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ dart from the creature's mouth._
 
 **Senses:** Darkvision 60 ft., Scent, True seeing
 
-**Sources:** Inner Sea Bestiary pg 62\
 **Subtype:** Daemon, Evil, Extraplanar, Fire
 
 **Experience points:** 409,600

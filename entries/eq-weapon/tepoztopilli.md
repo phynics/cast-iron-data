@@ -6,14 +6,15 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tepoztopilli", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "19"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "8 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 19
 
 The head of this wooden Stone Age polearm is edged with jagged bits of obsidian, glass, teeth, or
 similar materials. The wide head serves well for both piercing and slashing attacks.

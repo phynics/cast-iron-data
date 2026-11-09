@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "telekinetic_charge", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "247"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: yes (harmless)
 Target: one willing creature
 Descriptors: force
 :::
-
-**Sources:** Ultimate Combat pg 247
 
 You telekinetically launch an ally across the battlefield to anywhere within this spell's range.
 While moving, your ally is flying just above the ground unless you wish otherwise. Movement from

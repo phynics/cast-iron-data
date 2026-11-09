@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/brand" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "207"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Descriptors: curse
 :::
 
 ### Greater Brand
-
-**Sources:** Advanced Player's Guide pg 207
 
 This spell functions like [brand](ref/spell/brand), except that it inflicts 1d6 points of damage
 when applied and cannot be removed, even temporarily. In addition, a greater brand blazes as bright

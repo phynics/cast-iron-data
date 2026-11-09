@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grid", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "34"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 34
 
 Many aspects of combat in the Pathfinder RPG assume the use of a grid to determine the relative
 positions of different creatures. You can simply use graph paper for battles, erasing and redrawing

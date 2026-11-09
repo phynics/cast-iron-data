@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vast_hatred", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "37"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "You may take this feat more than once. Its benefits do not stack. Eac
 +++
 
 ## Vast Hatred (Combat)
-
-**Sources:** Advanced Race Guide pg 37
 
 Your rage stretches beyond normal bounds.\
 **Prerequisites:** [Gnome](ref/race/gnome), hatred racial trait.\

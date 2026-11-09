@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rasvocel", path = "json/faiths7.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "326"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Rasvocel**
 
 **Sub:** The Vulture King
-
-**Sources:** Inner Sea Gods pg 326
 
 ### Details
 

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "inner-sea-world-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ymeri", path = "json/faiths9.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "322"
 
 [fields]
 kind = "none"
@@ -15,7 +18,6 @@ kind = "none"
 
 **Sub:** Queen of the Inferno
 
-**Sources:** Inner Sea Gods pg 322\
 **Monster Link** [Ymeri](ref/monster/elemental-lord-ymeri)
 
 ### Details

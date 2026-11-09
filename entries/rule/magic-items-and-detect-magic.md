@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_items_and_detect_magic", path = "json/rules_basics02.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "458"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 458
 
 When detect magic identifies a magic item's school of magic, this information refers to the school
 of the spell placed within the potion, scroll, or wand, or the prerequisite given for the item. The

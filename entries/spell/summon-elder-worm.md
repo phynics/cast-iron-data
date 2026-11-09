@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/summon-natures-ally-8" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "240"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: no
 Effect: one summoned creature
 Subschool: Summoning
 :::
-
-**Sources:** Ultimate Magic pg 240
 
 This spell functions as [summon nature's ally VIII](ref/spell/summon-natures-ally-8), except you
 summon a purple worm with the giant creature simple template.

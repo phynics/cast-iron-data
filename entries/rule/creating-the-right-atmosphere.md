@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "creating_the_right_atmosphere", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "240"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 240
 
 Characters don't walk into gambling halls for the thrill of a slightly worse-than-average chance of
 breaking even. They come in for the camaraderie, the tasty beverages, and the much

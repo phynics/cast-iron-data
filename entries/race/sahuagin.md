@@ -6,12 +6,14 @@ source_ids = ["blood-of-the-sea", "heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sahuagin", path = "json/races4.json" },
 ]
+[[sources]]
+publication = "blood-of-the-sea"
+page = "17"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Blood of the Sea pg 17\
 Sahuagin are well known and feared among aquatic races. These piscine predators are cruel and
 vicious, and they see all other creatures as either competitors or prey. The sole exception is the
 shark; sahuagin are rarely found without semi-domesticated sharks nearby, as they feel a close bond

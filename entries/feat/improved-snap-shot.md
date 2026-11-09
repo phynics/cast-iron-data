@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_snap_shot", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "106"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "Making a ranged attack provokes attacks of opportunity."
 +++
 
 ## Improved Snap Shot (Combat)
-
-**Sources:** Ultimate Combat pg 106
 
 You can take advantage of your opponent's vulnerabilities from a greater distance, and without
 exposing yourself.\

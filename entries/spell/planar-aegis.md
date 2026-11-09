@@ -6,6 +6,9 @@ source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planar_aegis", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "plane-hoppers-handbook"
+page = "12"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Plane-Hopper's Handbook pg 12
 
 You draw motes of essence from material native to a plane that has elemental or energy essence
 traits, weaving the essence together into a shield of force. Choose an essence trait from the list

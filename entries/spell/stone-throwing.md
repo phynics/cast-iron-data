@@ -6,6 +6,9 @@ source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stone_throwing", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "giant-hunters-handbook"
+page = "27"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
 :::
-
-**Sources:** Giant Hunter's Handbook pg 27
 
 The subject gains the rock throwing and rock catching abilities. It can use these abilities with any
 solid, mostly inflexible object with a [hardness](ref/umr/hardness) of at least 5.

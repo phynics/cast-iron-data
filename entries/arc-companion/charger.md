@@ -6,13 +6,15 @@ source_ids = ["animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charger", path = "json/archetypes_COMPANION.json" },
 ]
+[[sources]]
+publication = "animal-archive"
+page = "20"
 
 [fields]
 kind = "archetype"
 replaces = ["Share Spells", "Evasion", "Multiattack", "Devotion", "Improved Evasion"]
 +++
 
-**Sources:** Animal Archive pg 20\
 The mighty charger is a boon to heavily armored and armed champions, bearing them and their
 ironmongery into battle without hesitation.
 

@@ -6,12 +6,12 @@ source_ids = ["pathfinder-139-the-dead-road"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mortic", path = "json/monster_families2.json" },
 ]
+[[sources]]
+publication = "pathfinder-139-the-dead-road"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder \#139: The Dead Road
 
 [Mortics](ref/subtype/mortic) are humanoids afflicted with the physiology and appetites of undead.
 All mortics are pulled between two worlds: as living humanoids, they crave community and friendship,

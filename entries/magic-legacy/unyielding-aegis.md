@@ -6,6 +6,9 @@ source_ids = ["chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unyielding_aegis", path = "json/magic_legacy_items.json" },
 ]
+[[sources]]
+publication = "chronicle-of-legends"
+page = "22"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ aura = "moderate abjuration"
 caster_level = "10th"
 +++
 
-**Sources:** Chronicle of Legends pg 22\
 **Slot** shield; **CL** 10th; **Weight** 10 lbs.\
 **Aura** moderate abjuration
 

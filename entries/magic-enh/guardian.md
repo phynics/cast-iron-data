@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "pathfinder-society-field-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guardian", path = "json/magic_enhancements.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "143"
+[[sources]]
+publication = "pathfinder-society-field-guide"
+page = "51"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate abjuration"
 caster_level = "8th"
 +++
 
-**Sources:** Ultimate Equipment pg 143, Pathfinder Society Field Guide pg 51\
 **Aura** moderate abjuration; **CL** 8th\
 **Slot** weapon quality; **Price** +1 bonus; **Weight** -
 

@@ -6,6 +6,9 @@ source_ids = ["lands-of-the-linnorm-kings"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "infuse_effigy", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "lands-of-the-linnorm-kings"
+page = "48"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: no
 Target: touched effigy
 Descriptors: curse
 :::
-
-**Sources:** Lands of the Linnorm Kings pg 48
 
 This spell infuses an effigy with a powerful curse that targets a specific type of creature
 associated in some way with the effigy itself. When you cast this spell, it remains in effect until

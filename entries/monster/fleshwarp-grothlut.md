@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fleshwarp_grothlut", path = "json/monsters31.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "103"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ escapes its slobbering lips._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 4 pg 103\
 **Experience points:** 800
 
 **Armor class:** 13/8/13

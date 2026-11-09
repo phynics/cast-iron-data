@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "karmic_blessing", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "199"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: no
 Target: creature touched
 Descriptors: good
 :::
-
-**Sources:** Advanced Race Guide pg 199
 
 > _[Samsarans](ref/race/samsaran) have access to the following spell._
 

@@ -6,13 +6,18 @@ source_ids = ["ultimate-wilderness", "familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "emissary", path = "json/archetypes_FAMILIAR.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "210"
+[[sources]]
+publication = "familiar-folio"
+page = "10"
 
 [fields]
 kind = "archetype"
 replaces = ["Alertness", "Share spells", "Deliver touch spells"]
 +++
 
-**Sources:** Ultimate Wilderness pg 210, Familiar Folio pg 10\
 The emissary is touched by the divine, serving as a font of wisdom and a moral compass for its
 master.
 

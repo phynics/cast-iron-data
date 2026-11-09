@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kraken_wrack", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "13"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "The damage you deal with the Kraken Style feat on a successful grappl
 +++
 
 ## Kraken Wrack (Combat)
-
-**Sources:** Melee Tactics Toolbox pg 13
 
 You squeeze your opponent tightly enough to crush armor or items between you.\
 **Prerequisites:** Wis 13, [Improved Grapple](ref/feat/improved-grapple),

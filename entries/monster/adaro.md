@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "pathfinder-38-racing-to-ruin"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "adaro", path = "json/monsters01.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "7"
+[[sources]]
+publication = "pathfinder-38-racing-to-ruin"
+page = "80"
 
 [fields]
 kind = "creature"
@@ -47,7 +53,6 @@ its razor-sharp teeth._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 3 pg 7, Pathfinder \#38: Racing to Ruin pg 80\
 **Subtype:** Aquatic
 
 **Experience points:** 800

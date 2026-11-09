@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beyond_expectations", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "87"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 87
 
 Occasionally a throwaway NPC, one relegated to a limited role and with few expectations from the GM,
 comes to life, captures the attention and interest of the PCs, and grows into a campaign regular. If

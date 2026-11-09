@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "great_old_one_tawil_atumr", path = "json/monsters_unique2.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "148"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ extending from below._
 
 **Senses:** Darkvision 60 ft., See in darkness, True seeing
 
-**Sources:** Bestiary 6 pg 148\
 **Subtype:** Chaotic, Extraplanar, Great Old One
 
 **Experience points:** 9,830,400

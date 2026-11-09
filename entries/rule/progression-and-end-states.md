@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "progression_and_end_states", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "138"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 138
 
 When a victim fails his initial save and is afflicted with a disease or poison, he immediately gains
 the effects of the first step down that affliction's progression track. For diseases, this is

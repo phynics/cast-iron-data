@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nap_stack", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "233"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Area: 30-ft.-radius emanation
 :::
-
-**Sources:** Advanced Player's Guide pg 233
 
 You reduce the amount of uninterrupted sleep or rest creatures within the spell's area need in order
 to recover from injuries, regain spells, or other special abilities to 2 hours instead of the normal

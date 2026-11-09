@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trickster", path = "json/rules_campaign_types07.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "44"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 44\
 Seen only when they choose to be seen, tricksters manipulate kings and peasants alike, usually
 without anyone sensing their influence. Characters who rely upon their skills and wit find
 themselves drawn to the trickster's path. The mythic power of these heroes allows them to perform

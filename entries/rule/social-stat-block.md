@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "social_stat_block", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "107"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 107
 
 For social encounters, GMs should build social stat blocks for important NPCs. Social stat blocks
 are very flexible, and can include any information relevant to the encounter, though most include

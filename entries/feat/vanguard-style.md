@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vanguard_style", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "13"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using this style, when an adjacent ally is required to make a R
 +++
 
 ## Vanguard Style (Combat, Style)
-
-**Sources:** Armor Master's Handbook pg 13
 
 You can bring your shield to bear against dangers that threaten your allies.\
 **Prerequisites:** [Bodyguard](ref/feat/bodyguard), [Combat Reflexes](ref/feat/combat-reflexes),

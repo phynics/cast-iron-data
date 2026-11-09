@@ -6,6 +6,9 @@ source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gillman_wet_house_emissary", path = "json/monsters12.json" },
 ]
+[[sources]]
+publication = "inner-sea-monster-codex"
+page = "31"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ _Swathed in striking turquoise robes, this gillwoman has a cold, appraising star
 
 **Perception:** +12
 
-**Sources:** Inner Sea Monster Codex pg 31\
 **Subtype:** Aquatic
 
 **Experience points:** 3,200

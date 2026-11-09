@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "diva_style", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "176"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "While using this style, you can use any Perform skill in place of Blu
 +++
 
 ## Diva Style (Combat, Style)
-
-**Sources:** Adventurer's Guide pg 176
 
 You employ song, dance, or some other method of performance to distract your enemies from the battle
 at hand.\

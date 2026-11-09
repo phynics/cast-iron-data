@@ -6,14 +6,14 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "derro", path = "json/monster_subtypes.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
 
 [fields]
 kind = "none"
 +++
 
 ## Subtype: Derro
-
-**Sources:** Bestiary 6
 
 This [humanoid](ref/type/humanoid) subtype is applied to the sadistic race of underground-dwelling
 creatures known as [derros](ref/monster/derro).

@@ -6,11 +6,13 @@ source_ids = ["pathfinder-unchained"]
 relations = [
   { kind = "addon", target = "ref/feat/domain-strike", label = "stamina" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "118"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder Unchained pg 118\
 You can spend 2 stamina points to apply the effects of your chosen domain power as a free action
 instead of a swift action.

@@ -6,6 +6,9 @@ source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "visualization_of_the_mind", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "divine-anthology"
+page = "14"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: no
 Target: you
 Descriptors: meditative
 :::
-
-**Sources:** Divine Anthology pg 14
 
 You enhance a single aspect of your mind, nurturing and empowering it. Choose a single mental
 ability score (Charisma, Intelligence, or Wisdom). You gain a +5 bonus on ability checks and skill

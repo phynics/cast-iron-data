@@ -6,11 +6,13 @@ source_ids = ["pathfinder-unchained"]
 relations = [
   { kind = "addon", target = "ref/feat/fortified-armor-training", label = "stamina" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "120"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder Unchained pg 120\
 When you use this feat to negate a critical hit, you can spend 5 stamina points to give your armor
 or shield a 50% chance to avoid gaining the broken condition.

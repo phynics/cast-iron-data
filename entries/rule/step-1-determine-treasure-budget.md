@@ -6,12 +6,13 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "step_1_determine_treasure_budget", path = "json/rules_adv_gm05.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "360"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Equipment pg 360
 
 The first step is to determine the amount of treasure you can budget for an encounter. Start by
 determining the overall Challenge Rating of the encounter and the advancement rate of the group.

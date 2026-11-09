@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disguise_self", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "271"
 
 [fields]
 kind = "spell"
@@ -53,8 +56,6 @@ Target: you
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** PRPG Core Rulebook pg 271
 
 You make yourself - including clothing, armor, weapons, and equipment - look different. You can seem
 1 foot shorter or taller, thin, fat, or in between. You cannot change your creature type (although

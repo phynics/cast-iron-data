@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "critical_hits", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "184"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 184
 
 When you make an attack roll and get a natural 20 (the d20 shows 20), you hit regardless of your
 target's Armor Class, and you have scored a "threat," meaning the hit might be a critical hit (or

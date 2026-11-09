@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "create_water", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "262"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Effect: up to 2 gallons of water/level
 Subschool: Creation
 Descriptors: water
 :::
-
-**Sources:** PRPG Core Rulebook pg 262
 
 This spell generates wholesome, drinkable water, just like clean rain water. Water can be created in
 an area as small as will actually contain the liquid, or in an area three times as large-possibly

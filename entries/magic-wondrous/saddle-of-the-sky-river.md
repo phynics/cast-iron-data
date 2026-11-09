@@ -6,6 +6,9 @@ source_ids = ["animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "saddle_of_the_sky_river", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "animal-archive"
+page = "26"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation [water] and transmutation [air, water]"
 caster_level = "7th"
 +++
 
-**Sources:** Animal Archive pg 26\
 **Aura** moderate evocation \[water\] and transmutation \[air, water\]; **CL** 7th\
 **Slot** chest; **Price** 16,000 gp; **Weight** 15 lbs.
 

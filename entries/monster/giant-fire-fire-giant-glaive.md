@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_fire_fire_giant_glaive", path = "json/monsters11.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "58"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ abilities = ["29", "13", "25", "12", "16", "10"]
 
 **Senses:** Low-light vision
 
-**Sources:** Monster Codex pg 58\
 **Subtype:** Fire, Giant
 
 **Experience points:** 19,200

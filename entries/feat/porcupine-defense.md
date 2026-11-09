@@ -6,6 +6,9 @@ source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "porcupine_defense", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "dragonslayers-handbook"
+page = "25"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever an opponent of at least one size category larger than yourse
 +++
 
 ## Porcupine Defense (Combat)
-
-**Sources:** Dragonslayer's Handbook pg 25
 
 You are a threat to opponents that try to overwhelm you.\
 **Prerequisites:** [Combat Expertise](ref/feat/combat-expertise),

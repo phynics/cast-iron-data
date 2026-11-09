@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prone", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "568"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 568
 
 **Prone:** The character is lying on the ground. A prone attacker has a -4 penalty on melee attack
 rolls and cannot use a ranged weapon (except for a crossbow). A prone defender gains a +4 bonus to

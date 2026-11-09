@@ -6,6 +6,9 @@ source_ids = ["animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "riding_animals", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "animal-archive"
+page = "14"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "Varies"
 weight = "-"
 +++
 
-**Sources:** Animal Archive pg 14\
 **Price** Varies; **Weight** -
 
 When reared from birth, these animals can easily be ridden by Small or Medium humanoids, depending

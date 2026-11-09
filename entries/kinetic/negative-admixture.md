@@ -6,6 +6,9 @@ source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "negative_admixture", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-origins"
+page = "7"
 
 [fields]
 kind = "class_option"
@@ -27,8 +30,6 @@ group = "kineticist-wild-talent"
 **Damage:** see text
 
 **Prerequisite:** [negative blast](ref/kinetic/negative-blast), any other energy simple blast
-
-**Source:** Occult Origins/7
 
 Choose another simple energy blast you know. Negative admixture's damage is half negative energy,
 and half the chosen blast's type.

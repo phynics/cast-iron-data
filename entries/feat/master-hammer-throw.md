@@ -6,6 +6,9 @@ source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "master_hammer_throw", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "heroes-from-the-fringe"
+page = "9"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You can immediately attempt a trip combat maneuver against a target t
 +++
 
 ## Master Hammer Throw (Combat)
-
-**Sources:** Heroes from the Fringe pg 9
 
 Your ability to knock down foes with thrown weapons is second to none.\
 **Prerequisites:** Int 13, [Combat Expertise](ref/feat/combat-expertise),

@@ -6,6 +6,9 @@ source_ids = ["belkzen-hold-of-the-orc-hordes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vulture_whisperfall_vulture", path = "json/monsters40.json" },
 ]
+[[sources]]
+publication = "belkzen-hold-of-the-orc-hordes"
+page = "56"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ _This dark-winged vulture has a wickedly hooked beak stained with bright red blo
 
 **Size:** small
 
-**Sources:** Belkzen, Hold of the Orc Hordes pg 56\
 **Experience points:** 400
 
 **Armor class:** 14/13/12

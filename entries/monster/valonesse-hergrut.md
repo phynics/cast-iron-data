@@ -6,6 +6,9 @@ source_ids = ["giants-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "valonesse_hergrut", path = "json/monsters_unique4.json" },
 ]
+[[sources]]
+publication = "giants-revisited"
+page = "26"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ wields a massive, ice-encrusted battleaxe._
 
 **Senses:** Low-light vision
 
-**Sources:** Giants Revisited pg 26\
 **Subtype:** Cold, Giant
 
 **Experience points:** 153,600

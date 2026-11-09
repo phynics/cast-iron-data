@@ -6,6 +6,12 @@ source_ids = ["bestiary-2", "into-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vemerak", path = "json/monsters40.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "278"
+[[sources]]
+publication = "into-the-darklands"
+page = "62"
 
 [fields]
 kind = "creature"
@@ -44,7 +50,6 @@ three tentacular tails._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 2 pg 278, Into the Darklands pg 62\
 **tremorsense:** 30
 
 **Experience points:** 38,400

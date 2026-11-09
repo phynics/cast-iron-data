@@ -6,6 +6,12 @@ source_ids = ["advanced-players-guide", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "focused_shot", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "160"
+[[sources]]
+publication = "pathfinder-campaign-setting"
+page = "89"
 
 [fields]
 kind = "feat"
@@ -17,8 +23,6 @@ special = "Starting at 2nd level, a ranger with the archery combat style may sel
 +++
 
 ## Focused Shot (Combat)
-
-**Sources:** Advanced Player's Guide pg 160, Pathfinder Campaign Setting pg 89
 
 Your anatomical insight adds deadliness to your shots.\
 **Prerequisites:** Int 13, [Point-Blank Shot](ref/feat/point-blank-shot),

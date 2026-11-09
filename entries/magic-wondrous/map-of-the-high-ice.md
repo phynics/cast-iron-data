@@ -6,6 +6,9 @@ source_ids = ["pathfinder-51-the-hungry-storm"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "map_of_the_high_ice", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "pathfinder-51-the-hungry-storm"
+page = "62"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "11th"
 +++
 
-**Sources:** Pathfinder \#51: The Hungry Storm pg 62\
 **Aura** moderate divination; **CL** 11th\
 **Slot** none; **Price** 3,000 gp; **Weight** 1 lb.
 

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-139-the-dead-road"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "overseer_of_the_house_of_truth", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "pathfinder-139-the-dead-road"
+page = "73"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You gain a second daily use of your suggestion spell-like ability. Yo
 +++
 
 ## Overseer of the House of Truth (Origin)
-
-**Sources:** Pathfinder \#139: The Dead Road pg 73
 
 Your creator was a politician and administrator, and your memories are filled with the sound of
 clinking coins.\

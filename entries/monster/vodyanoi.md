@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vodyanoi", path = "json/monsters40.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "282"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ the beard of an eccentric hermit._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 3 pg 282\
 **Subtype:** Aquatic
 
 **Experience points:** 1,600

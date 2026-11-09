@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pegasus", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "225"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ grace._
 
 **Senses:** Darkvision 60 ft., Detect evil, Detect good, Low-light vision, Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 225\
 **Experience points:** 800
 
 **Armor class:** 14/11/12

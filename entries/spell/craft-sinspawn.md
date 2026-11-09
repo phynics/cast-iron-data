@@ -6,12 +6,14 @@ source_ids = ["pathfinder-135-runeplague"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "craft_sinspawn", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "pathfinder-135-runeplague"
+page = "75"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder \#135: Runeplague pg 75\
 **School** transmutation; **Level** 9\
 **Casting Time** 90 minutes\
 **Components** V, S, M (water mixed with diamond dust worth 5,000 gp; several freshly slain

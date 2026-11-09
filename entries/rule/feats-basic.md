@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "feats_basic", path = "json/rules_basics01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "112"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 112
 
 Some feats are general (1,614 feats), meaning that no special rules govern them as a group. Other
 subcategories of feats exist.

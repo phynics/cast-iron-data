@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elven_vengeance", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "115"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration"
 caster_level = "12th"
 +++
 
-**Sources:** Adventurer's Guide pg 115\
 **Aura** strong abjuration; **CL** 12th\
 **Slot** armor; **Price** 16,150 gp; **Weight** 20 lbs.
 

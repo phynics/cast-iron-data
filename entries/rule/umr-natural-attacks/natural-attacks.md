@@ -8,12 +8,14 @@ parent = "ref/umr/natural-attacks"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "json/umr.json#natural_attacks|section:natural-attacks", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "296"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Bestiary 5 pg 296\
 Most creatures have natural attacks (attacks made without a weapon). These attacks can be primary or
 secondary attacks. Primary attacks are made using the creature's full base attack bonus and add the
 creature's full Strength bonus to damage rolls. Secondary attacks are made using the creature's base

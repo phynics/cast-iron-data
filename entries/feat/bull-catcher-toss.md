@@ -6,6 +6,9 @@ source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bull_catcher_toss", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "monster-hunters-handbook"
+page = "8"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you successfully grapple a creature with the Bull-Catcher Style 
 +++
 
 ## Bull-Catcher Toss (Combat)
-
-**Sources:** Monster Hunter's Handbook pg 8
 
 You can use a charging foe's momentum to throw them aside.\
 **Prerequisites:** Dex 13, [Bull-Catcher Style](ref/feat/bull-catcher-style),

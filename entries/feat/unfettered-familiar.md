@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unfettered_familiar", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "159"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "Once per day, you can cast a touch spell without being in contact wit
 normal = "Your familiar must be in contact with you when a spell is cast in order for it to deliver the spell."
 special = "You can take this feat multiple times. Each time you do, you gain another use of this feat, and the distance you can be from your familiar increases by 10 feet."
 +++
-
-**Sources:** Advanced Class Guide pg 159
 
 You can channel touch spells through your familiar without needing to be adjacent to it.\
 **Prerequisites:** Caster level 5th, familiar class feature.\

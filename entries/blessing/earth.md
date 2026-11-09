@@ -6,13 +6,15 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "earth", path = "json/class_ability_blessings.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "65"
 
 [fields]
 kind = "class_option"
 group = "warpriest-blessing"
 +++
 
-**Sources:** Advanced Class Guide pg 65\
 **Deities:** [Abadar](ref/faith/abadar), [Torag](ref/faith/torag)
 
 **Acid Strike (minor)**

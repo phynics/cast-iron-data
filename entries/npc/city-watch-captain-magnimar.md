@@ -6,6 +6,9 @@ source_ids = ["magnimar-city-of-monuments"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "city_watch_captain_magnimar", path = "json/npcs5.json" },
 ]
+[[sources]]
+publication = "magnimar-city-of-monuments"
+page = "54"
 
 [fields]
 kind = "creature"
@@ -19,7 +22,6 @@ to her fine blades._
 
 **Challenge rating:** 4
 
-**Sources:** Magnimar, City of Monuments pg 54\
 **XP** 1,200\
 Female human [fighter](ref/class/fighter) 5\
 LN Medium humanoid (human)\

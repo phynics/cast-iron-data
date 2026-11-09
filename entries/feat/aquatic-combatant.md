@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aquatic_combatant", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "106"
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "14"
 
 [fields]
 kind = "feat"
@@ -16,8 +22,6 @@ normal = "When you're underwater, most of your melee attacks take a -2 penalty a
 +++
 
 ## Aquatic Combatant (Combat)
-
-**Sources:** Ultimate Wilderness pg 106, Melee Tactics Toolbox pg 14
 
 You have trained to fight while submerged in water.\
 **Prerequisites:** Swim 1 rank.\

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "a_game_masters_glossary", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "9"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 9
 
 Listed below are a few terms with which all new Game Masters should be familiar. These terms are
 mentioned throughout the Pathfinder RPG Core Rulebook and, beyond those presented in the

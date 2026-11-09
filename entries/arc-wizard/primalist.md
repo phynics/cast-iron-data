@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/wizard" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "37"
 
 [fields]
 kind = "archetype"
 replaces = ["Arcane bond", "5th-level bonus feat", "10th-level bonus feat"]
 +++
 
-**Sources:** Inner Sea Magic pg 37\
 A primalist is a wizard who has spent a considerable amount of time studying the chaos that is
 [primal magic](ref/rule/primal-magic) - she seeks order in chaos, and hopes to master the raw power
 of primal magic to bolster her own abilities. A primalist wizard has the following class features.

@@ -6,6 +6,12 @@ source_ids = ["inner-sea-world-guide", "pathfinder-5-sins-of-the-saviors"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vision_of_lamashtu", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "297"
+[[sources]]
+publication = "pathfinder-5-sins-of-the-saviors"
+page = "71"
 
 [fields]
 kind = "spell"
@@ -45,8 +51,6 @@ Target: one living creature
 Subschool: Phantasm
 Descriptors: evil, mind-affecting
 :::
-
-**Sources:** Inner Sea World Guide pg 297, Pathfinder \#5: Sins of the Saviors pg 71
 
 This spell functions exactly as the spell [nightmare](ref/spell/nightmare). In addition to the
 effects of that spell, you can cause a second spell to be delivered when the target wakes at the

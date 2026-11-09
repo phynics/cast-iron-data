@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spiked_gauntlet", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "17"
+[[sources]]
+publication = "core-rulebook"
+page = "142"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "1 lb."
 +++
-
-**Sources:** Ultimate Equipment pg 17, PRPG Core Rulebook pg 142
 
 This is a [gauntlet](ref/eq-weapon/gauntlet) of thick leather or metal with blades or spikes
 protruding from above the knuckles, allowing the wearer to stab with the force of a punch. The cost

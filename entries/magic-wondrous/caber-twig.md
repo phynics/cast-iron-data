@@ -6,6 +6,9 @@ source_ids = ["seers-of-the-drowned-city"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "caber_twig", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "seers-of-the-drowned-city"
+page = "52"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Seers of the Drowned City pg 52\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** none; **Price** 300 gp; **Weight** 4 lbs.
 

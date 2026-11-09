@@ -6,14 +6,18 @@ source_ids = ["adventurers-guide", "seekers-of-secrets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pathfinder_savant", path = "json/prestige_classes4.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "140"
+[[sources]]
+publication = "seekers-of-secrets"
+page = "60"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d6."
 +++
-
-**Sources:** Adventurer's Guide pg 140, Seekers of Secrets pg 60
 
 Pathfinder savants are specialists in the theory and practice of magic, illuminating mysteries of
 the eldritch fabric that permeates existence. The path of the savant brings expertise in the lore of

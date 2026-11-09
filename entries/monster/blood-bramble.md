@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_bramble", path = "json/monsters27.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "48"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ and its thorny flowers drip blood._
 
 **Type:** plant
 
-**Sources:** Bestiary 6 pg 48\
 **tremorsense:** 30
 
 **Experience points:** 9,600

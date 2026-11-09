@@ -6,6 +6,9 @@ source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swirling_smoke_tattoo", path = "json/magic_tattoo.json" },
 ]
+[[sources]]
+publication = "blood-of-shadows"
+page = "12"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint enchantment"
 caster_level = "5th"
 +++
 
-**Sources:** Blood of Shadows pg 12\
 **Aura** faint enchantment; **CL** 5th\
 **Slot** none; **Price** 12,500 gp; **Weight** -
 

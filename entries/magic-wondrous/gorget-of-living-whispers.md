@@ -6,6 +6,9 @@ source_ids = ["tears-at-bitter-manor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gorget_of_living_whispers", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "tears-at-bitter-manor"
+page = "54"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration and enchantment"
 caster_level = "9th"
 +++
 
-**Sources:** Tears at Bitter Manor pg 54\
 **Aura** moderate conjuration and enchantment; **CL** 9th\
 **Slot** neck; **Price** 15,000 gp; **Weight** -
 

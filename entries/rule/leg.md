@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "leg", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "197"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 197
 
 Legs are the ambulatory limbs of a creature, including feet. Called shots to the leg have no special
 effect on creatures with five or more legs. Called shots to the leg are easy (-2 penalty).

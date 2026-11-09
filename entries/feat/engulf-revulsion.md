@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "engulf_revulsion", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "86"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When you successfully engulf or smother an opponent, or successfully 
 +++
 
 ## Engulf Revulsion (Combat)
-
-**Sources:** Horror Adventures pg 86
 
 The stomach-churning terror of your smothering attack leaves creatures sick and weakened.\
 **Prerequisites:** [Engulf](ref/umr/engulf) or [smother](ref/umr/smother) universal monster ability.\

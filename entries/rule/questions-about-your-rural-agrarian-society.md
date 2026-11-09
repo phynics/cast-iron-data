@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "questions_about_your_rural_agrarian_society", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "155"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 155
 
 When designing a rural or agrarian society, keep in mind some of the following basic questions about
 the people.

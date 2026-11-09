@@ -6,6 +6,9 @@ source_ids = ["pathfinder-96-shadow-of-the-storm-tyrant"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "roc_rider_badge", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "pathfinder-96-shadow-of-the-storm-tyrant"
+page = "53"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "11th"
 +++
 
-**Sources:** Pathfinder \#96: Shadow of the Storm Tyrant pg 53\
 **Aura** moderate abjuration; **CL** 11th\
 **Slot** neck; **Price** 17,000 gp; **Weight** 5 lbs.
 

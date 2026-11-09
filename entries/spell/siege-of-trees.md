@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "siege_of_trees", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "244"
 
 [fields]
 kind = "spell"
@@ -36,8 +39,6 @@ Saving throw: none
 Spell resistance: no
 Targets: one Large plant per three caster levels
 :::
-
-**Sources:** Ultimate Combat pg 244
 
 You imbue inanimate plants with limited mobility and a semblance of life. Each plant targeted acts
 as a [light catapult](ref/eq-siegeengine/catapult-light) until the end of the spell's duration,

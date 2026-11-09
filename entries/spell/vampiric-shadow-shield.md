@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vampiric_shadow_shield", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "198"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Advanced Class Guide pg 198
 
 This spell wreathes you in shadowy energy and damages those that make melee attacks against you. Any
 creature that strikes you with its body or a handheld weapon deals normal damage, but at the same

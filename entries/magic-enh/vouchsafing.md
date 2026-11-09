@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vouchsafing", path = "json/magic_enhancements.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "210"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "9th"
 +++
 
-**Sources:** Advanced Class Guide pg 210\
 **Aura** moderate abjuration; **CL** 9th\
 **Slot** none; **Price** +1 bonus; **Weight** -
 

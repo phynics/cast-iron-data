@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "acid_effects", path = "json/rules_gm08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "442"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 442
 
 Corrosive acids deals 1d6 points of damage per round of exposure except in the case of total
 immersion (such as in a vat of acid), which deals 10d6 points of damage per round. An attack with

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "perfect_tuning_fork", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "267"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Inner Sea Gods pg 267\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** none; **Price** 600 gp; **Weight** -
 

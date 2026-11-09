@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "powerhouse_pelt", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "33"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Villain Codex pg 33\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** armor; **Price** 3,515 gp; **Weight** 20 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sister_of_the_golden_erinyes", path = "json/npcs3.json" },
 ]
+[[sources]]
+publication = "inner-sea-npc-codex"
+page = "53"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "10"
 
 **Challenge rating:** 10
 
-**Sources:** Inner Sea NPC Codex pg 53\
 **XP** 9,600\
 Human [monk](ref/class/monk) 11\
 LE Medium humanoid (human)\

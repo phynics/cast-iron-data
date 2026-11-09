@@ -6,6 +6,9 @@ source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "otherworldly_influence", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "agents-of-evil"
+page = "9"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When negotiating with evil outsiders, you gain a +2 bonus on Bluff an
 +++
 
 ## Otherworldly Influence (Story)
-
-**Sources:** Agents of Evil pg 9
 
 Extradimensional forces vie for your soul, and have offered you riches and power to claim it.\
 **Prerequisites:** You must have refused an evil creature with at least 15 Hit Dice who offered

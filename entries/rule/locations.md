@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "locations", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "152"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 152
 
 The following locations have particular features that fit well in the context of a horror game, such
 as minor unusual magic or creepy special effects. Though they might not be directly threatening like

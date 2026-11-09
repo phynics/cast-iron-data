@@ -6,6 +6,9 @@ source_ids = ["pathfinder-51-the-hungry-storm"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghost_mirror_armor", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "pathfinder-51-the-hungry-storm"
+page = "62"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration and transmutation"
 caster_level = "15th"
 +++
 
-**Sources:** Pathfinder \#51: The Hungry Storm pg 62\
 **Aura** strong abjuration and transmutation; **CL** 15th\
 **Slot** armor; **Price** 22,675 gp; **Weight** 45 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "focused_construct_expertise", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "monster-hunters-handbook"
+page = "23"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Your weapon attacks ignore a number of points of damage reduction or 
 +++
 
 ## Focused Construct Expertise (Combat)
-
-**Sources:** Monster Hunter's Handbook pg 23
 
 You are skilled at breaking the defenses of constructs and other creatures.\
 **Prerequisites:** [Favored enemy](ref/ability/favored-enemy) (construct) class feature.\

@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stick_fighting_counter", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "12"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While you are fighting defensively, as a free action you can select a
 +++
 
 ## Stick-Fighting Counter (Combat)
-
-**Sources:** Martial Arts Handbook pg 12
 
 Using stick-fighting techniques both defensively and offensively, you can turn your parries into
 counterattacks.\

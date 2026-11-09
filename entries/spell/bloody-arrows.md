@@ -6,6 +6,9 @@ source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloody_arrows", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "30"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Saving throw: none
 Spell resistance: no (harmless)
 Target: one willing creature
 :::
-
-**Sources:** Ranged Tactics Toolbox pg 30
 
 Whenever this spell's target hits a creature with a ranged weapon that successfully deals piercing
 or slashing damage, the struck creature takes 1 point of bleed damage. Unlike most bleed damage, the

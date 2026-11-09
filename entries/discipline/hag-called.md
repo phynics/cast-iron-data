@@ -6,13 +6,15 @@ source_ids = ["blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hag_called", path = "json/class_ability_disciplines.json" },
 ]
+[[sources]]
+publication = "blood-of-the-coven"
+page = "23"
 
 [fields]
 kind = "class_option"
 group = "psychic-discipline"
 +++
 
-**Sources:** Blood of the Coven pg 23\
 A [hag's](ref/family/hag) call echoes through your mind like a siren's song, enticing you to
 surrender and become something horrible. Even after you've resisted the call or even killed your hag
 mother, those echoes remain, shaping your mind into something else and telling you who you were

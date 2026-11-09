@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mummy_lord", path = "json/monster_template3.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "176"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +2
-
-**Source:** Bestiary 5/176
 
 Many cultures practice the sacred art of mummification, though the sinister magical techniques used
 to imbue corpses with undead vitality are far less widespread. In certain ancient lands, such

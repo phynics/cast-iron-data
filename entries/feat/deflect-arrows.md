@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/shield-focus", label = "or" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "121"
 
 [fields]
 kind = "feat"
@@ -19,8 +22,6 @@ benefit = "You must have at least one hand free (holding nothing) to use this fe
 +++
 
 ## Deflect Arrows (Combat)
-
-**Sources:** PRPG Core Rulebook pg 121
 
 You can knock arrows and other projectiles off course, preventing them from hitting you.\
 **Prerequisites:** Dex 13, [Improved Unarmed Strike](ref/feat/improved-unarmed-strike).\

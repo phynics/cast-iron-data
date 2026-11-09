@@ -6,6 +6,9 @@ source_ids = ["rival-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "haunted_one", path = "json/monster_template2.json" },
 ]
+[[sources]]
+publication = "rival-guide"
+page = "29"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +1
-
-**Source:** Rival Guide/29
 
 Haunted ones are mortals who share their bodies with strange intelligences of supernatural origin.
 While technically undead, these disembodied intellects exist only as thought - they cannot directly

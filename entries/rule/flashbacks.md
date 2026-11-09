@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flashbacks", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "32"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 32
 
 Like cut scenes, flashbacks pause the action to show the party pertinent information from another
 time. The best use of a flashback is usually one of the exact same location, but much earlier. The

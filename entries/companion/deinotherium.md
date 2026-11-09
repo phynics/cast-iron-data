@@ -6,13 +6,17 @@ source_ids = ["bestiary-6", "pathfinder-91-battle-of-bloodmarch-hills"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deinotherium", path = "json/class_ability_druid_companions.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "311"
+[[sources]]
+publication = "pathfinder-91-battle-of-bloodmarch-hills"
+page = "87"
 
 [fields]
 kind = "class_option"
 group = "animal-companion"
 +++
-
-**Sources:** Bestiary 6 pg 311, Pathfinder \#91: Battle of Bloodmarch Hills pg 87
 
 **Companion Type**
 

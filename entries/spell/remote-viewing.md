@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "remote_viewing", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "184"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: no
 Target: you
 Subschool: Scrying
 :::
-
-**Sources:** Occult Adventures pg 184
 
 Your body enters a trance as you send your psychic senses to a distant location and gain psychic
 impressions of that location. You must specify the distance and direction to the location you desire

@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "whiteclaw_sorcerer", path = "json/npcs.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "161"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "2"
 
 **Challenge rating:** 2
 
-**Sources:** NPC Codex pg 161\
 **XP** 600\
 Elf [sorcerer](ref/class/sorcerer) 3\
 NE Medium humanoid (elf)\

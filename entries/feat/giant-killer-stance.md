@@ -6,6 +6,9 @@ source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_killer_stance", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "giant-hunters-handbook"
+page = "23"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You can treat any reach weapon you wield as having the brace property
 +++
 
 ## Giant-Killer Stance (Combat)
-
-**Sources:** Giant Hunter's Handbook pg 23
 
 You can prepare a crippling strike against larger foes that rush into your weapon's reach.\
 **Prerequisites:** [Power Attack](ref/feat/power-attack).\

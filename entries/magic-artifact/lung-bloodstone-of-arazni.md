@@ -6,6 +6,9 @@ source_ids = ["pathfinder-141-last-watch"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lung_bloodstone_of_arazni", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "pathfinder-141-last-watch"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration and necromancy [lawful]"
 caster_level = "20th"
 +++
 
-**Sources:** Pathfinder \#141: Last Watch pg 28\
 **Aura** strong abjuration and necromancy \[lawful\]; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 2 lbs.
 

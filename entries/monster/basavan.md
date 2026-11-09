@@ -6,6 +6,9 @@ source_ids = ["pathfinder-136-temple-of-the-peacock-spirit"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "basavan", path = "json/monsters03.json" },
 ]
+[[sources]]
+publication = "pathfinder-136-temple-of-the-peacock-spirit"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ countenance._
 
 **Senses:** Darkvision 60 ft., Harmony with the land
 
-**Sources:** Pathfinder \#136: Temple of the Peacock Spirit pg 86\
 **Experience points:** 51,200
 
 **Armor class:** 30/12/26

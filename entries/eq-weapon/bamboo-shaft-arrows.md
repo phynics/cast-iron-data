@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bamboo_shaft_arrows", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "22"
+[[sources]]
+publication = "ultimate-combat"
+page = "130"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "0.05 lb."
 +++
-
-**Sources:** Ultimate Equipment pg 22, Ultimate Combat pg 130
 
 These foot-long arrows are used as ammunition for
 [tube arrow shooters](ref/eq-weapon/tube-arrow-shooter). As an

@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prehensile_pilfer", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "207"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
 :::
-
-**Sources:** Advanced Race Guide pg 207
 
 > _[Vanaras](ref/race/vanara) have access to the following spell._
 

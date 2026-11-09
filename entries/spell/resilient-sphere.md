@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/wall-of-force" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "333"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: yes
 Effect: 1-ft.-diameter/level sphere, centered around a creature
 Descriptors: force
 :::
-
-**Sources:** PRPG Core Rulebook pg 333
 
 A globe of shimmering force encloses a creature, provided the creature is small enough to fit within
 the diameter of the sphere. The sphere contains its subject for the spell's duration. The sphere

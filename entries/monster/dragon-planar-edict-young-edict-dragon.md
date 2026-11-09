@@ -6,6 +6,9 @@ source_ids = ["pathfinder-131-the-reapers-right-hand"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_planar_edict_young_edict_dragon", path = "json/monsters30.json" },
 ]
+[[sources]]
+publication = "pathfinder-131-the-reapers-right-hand"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ abilities = ["25", "10", "21", "16", "21", "16"]
 
 **Senses:** Dragon senses
 
-**Sources:** Pathfinder \#131: The Reaper's Right Hand pg 88\
 **Subtype:** Extraplanar, Lawful
 
 **Experience points:** 19,200

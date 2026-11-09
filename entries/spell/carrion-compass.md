@@ -6,6 +6,9 @@ source_ids = ["undead-slayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "carrion_compass", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "undead-slayers-handbook"
+page = "26"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: Will negates
 Spell resistance: no
 Target: one undead creature
 :::
-
-**Sources:** Undead Slayer's Handbook pg 26
 
 You animate one of the target's fetid organs so that it leads you to the undead creature's most
 recent controller or the cause of the creature's undeath. The organ (typically the heart, the brain,

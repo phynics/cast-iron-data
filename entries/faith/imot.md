@@ -6,6 +6,9 @@ source_ids = ["concordance-of-rivals"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "imot", path = "json/faiths4.json" },
 ]
+[[sources]]
+publication = "concordance-of-rivals"
+page = "9"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Imot**
 
 **Sub:** The Symbol of Doom
-
-**Sources:** Concordance of Rivals pg 9
 
 ### Details
 

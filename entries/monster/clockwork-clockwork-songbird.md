@@ -6,6 +6,9 @@ source_ids = ["construct-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clockwork_clockwork_songbird", path = "json/monsters05.json" },
 ]
+[[sources]]
+publication = "construct-handbook"
+page = "35"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ _This gilded mechanical bird produces melodious songs from its complex clockwork
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Construct Handbook pg 35\
 **Subtype:** Clockwork
 
 **Size:** tiny

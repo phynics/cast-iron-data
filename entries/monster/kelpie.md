@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kelpie", path = "json/monsters15.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "172"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ snaggletoothed, horse-like face._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 2 pg 172\
 **Subtype:** Aquatic, Shapechanger
 
 **Experience points:** 1,200

@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "me_goblin_fighter", path = "json/rules_adv_gm03.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "243"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 243
 
 The goblin fighter is a suitable minion for any overlord, provided it doesn't burn the fortress
 down.

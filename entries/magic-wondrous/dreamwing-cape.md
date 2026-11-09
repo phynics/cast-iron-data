@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dreamwing_cape", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "263"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Sources:** Inner Sea Gods pg 263\
 **Aura** moderate conjuration; **CL** 7th\
 **Slot** shoulders; **Price** 17,500 gp; **Weight** 1 lb.
 

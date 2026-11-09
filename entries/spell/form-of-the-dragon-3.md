@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/form-of-the-dragon-2" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "286"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Subschool: Polymorph
 :::
 
 ### Form of the Dragon III
-
-**Sources:** PRPG Core Rulebook pg 286
 
 This spell functions as [form of the dragon II](ref/spell/form-of-the-dragon-2) save that it also
 allows you to take the form of a Huge chromatic or metallic dragon. You gain the following

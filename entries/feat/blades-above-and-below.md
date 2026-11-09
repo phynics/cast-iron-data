@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blades_above_and_below", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "201"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When you and your ally who also has this feat threaten the same enemy
 +++
 
 ## Blades Above and Below (Combat, Teamwork)
-
-**Sources:** Inner Sea Races pg 201
 
 You attack high and your ally attacks low, denying your foe the chance to dodge your attacks.\
 **Prerequisites:** Base attack bonus +6.\

@@ -6,6 +6,9 @@ source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "waterblight_scepter", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "merchants-manifest"
+page = "9"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Sources:** Merchant's Manifest pg 9\
 **Aura** moderate transmutation; **CL** 9th\
 **Slot** none; **Price** 18,312 gp; **Weight** 8 lbs.
 

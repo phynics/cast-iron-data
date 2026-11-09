@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "otyugh", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "223"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ extend from its sides._
 
 **Senses:** Darkvision 60 ft., Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 223\
 **Experience points:** 1,200
 
 **Armor class:** 17/9/17

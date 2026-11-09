@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lenses_of_figment_piercing", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "226"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Sources:** Ultimate Equipment pg 226\
 **Aura** faint divination; **CL** 3rd\
 **Slot** eyes; **Price** 12,000 gp; **Weight** -
 

@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monkey_style", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "110"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "You take a -4 penalty on attack rolls and AC against melee attacks whi
 +++
 
 ## Monkey Style (Combat, Style)
-
-**Sources:** Ultimate Combat pg 110
 
 Your unarmed fighting style is nimble and unpredictable, full of ground rolls and short leaps.\
 **Prerequisites:** Wis 13, [Improved Unarmed Strike](ref/feat/improved-unarmed-strike), Acrobatics 5

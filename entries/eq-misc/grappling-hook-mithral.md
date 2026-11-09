@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grappling_hook_mithral", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "57"
+[[sources]]
+publication = "core-rulebook"
+page = "158"
 
 [fields]
 kind = "item"
@@ -16,7 +22,6 @@ weight = "4 lbs. (common), 2 lbs. (mithral)"
 
 ## Grappling hook
 
-**Sources:** Ultimate Equipment pg 57, PRPG Core Rulebook pg 158\
 **Price** 1 gp (common), 2,001 gp (mithral); **Weight** 4 lbs. (common), 2 lbs. (mithral)
 
 Throwing a grappling hook requires a ranged attack roll, treating the hook as a thrown weapon with a

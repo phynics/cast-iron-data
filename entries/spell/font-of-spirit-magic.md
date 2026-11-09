@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "font_of_spirit_magic", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "182"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Spell resistance: no
 Area: 30-ft.-radius emanation centered on you
 Subschool: Creation
 :::
-
-**Sources:** Advanced Class Guide pg 182
 
 You amplify the effect of magic associated with your spirit and wandering spirit (any spells on the
 spirit magic spell lists for these spirits). When allies within the area cast these spells, they

@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gathlain", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "122"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _Wings composed of wood and vines grow out of the body of this lithesome fey._
 
 **Size:** small
 
-**Sources:** Bestiary 4 pg 122\
 **Experience points:** 200
 
 **Armor class:** 17/15/13

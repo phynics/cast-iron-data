@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planeslayers_call", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "190"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes
 Targets: allies within a 20-ft.-radius burst centered on you
 Subschool: Compulsion
 :::
-
-**Sources:** Advanced Class Guide pg 190
 
 The magic of your allies in the area becomes more potent against certain outsiders. Chose one
 alignment subtype (chaotic, evil, good, or lawful). Against outsiders with that alignment component

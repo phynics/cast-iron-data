@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_scarab", path = "json/monsters11.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "221"
 
 [fields]
 kind = "creature"
@@ -39,7 +42,6 @@ and dung._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 5 pg 221\
 **Type:** vermin
 
 **Experience points:** 2,400

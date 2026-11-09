@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ethereal_envelope", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "170"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: no
 Target: you
 Subschool: Teleportation
 :::
-
-**Sources:** Occult Adventures pg 170
 
 You place yourself into a cataleptic meditative state and shunt yourself to the Ethereal Plane,
 where your body is cocooned within a folded ripple of misty space, with total cover from creatures

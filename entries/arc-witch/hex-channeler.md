@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/witch" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "132"
 
 [fields]
 kind = "archetype"
 replaces = ["2nd-level hex"]
 +++
 
-**Sources:** Advanced Class Guide pg 132\
 A hex channeler is a witch who devotes herself to either life - healing the wounded and destroying
 the undead - or death, slaying the living and aiding undead.
 

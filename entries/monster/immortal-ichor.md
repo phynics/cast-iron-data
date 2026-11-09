@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "immortal_ichor", path = "json/monsters14.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "156"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ light._
 
 **Perception:** +25
 
-**Sources:** Bestiary 4 pg 156\
 **Subtype:** Extraplanar
 
 **Experience points:** 102,400

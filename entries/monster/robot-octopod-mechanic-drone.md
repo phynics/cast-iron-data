@@ -6,6 +6,9 @@ source_ids = ["construct-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "robot_octopod_mechanic_drone", path = "json/monsters20.json" },
 ]
+[[sources]]
+publication = "construct-handbook"
+page = "56"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ _This octopus-like robot has eight tentacles that it uses to repair multiple mac
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Construct Handbook pg 56\
 **Subtype:** Robot
 
 **Experience points:** 25,600

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "evil_overlord", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "90"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 90
 
 The evil overlord is a powerful ruler, often of a martial class, who has established control over an
 area in the campaign world. She rules with an iron fist, taxing the locals to death and exacting

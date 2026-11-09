@@ -6,12 +6,13 @@ source_ids = ["lost-kingdoms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mumia", path = "json/drugs.json" },
 ]
+[[sources]]
+publication = "lost-kingdoms"
+page = "22"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Lost Kingdoms pg 22
 
 **Type:** Inhaled, ingested, or injury
 

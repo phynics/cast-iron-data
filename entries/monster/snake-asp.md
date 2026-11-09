@@ -6,6 +6,9 @@ source_ids = ["osirion-legacy-of-the-pharaohs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snake_asp", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "osirion-legacy-of-the-pharaohs"
+page = "55"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ _This long, muscular snake rears up and shows its hood and fangs when threatened
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Osirion, Legacy of the Pharaohs pg 55\
 **Experience points:** 600
 
 **Armor class:** 15/12/13

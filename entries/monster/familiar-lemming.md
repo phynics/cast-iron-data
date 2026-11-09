@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "reign-of-winter-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_lemming", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "200"
+[[sources]]
+publication = "reign-of-winter-players-guide"
+page = "10"
 
 [fields]
 kind = "creature"
@@ -40,7 +46,6 @@ _This small, plump rodent has a calico mix of color and a short tail._
 
 **Senses:** Low-light vision
 
-**Sources:** Ultimate Wilderness pg 200, Reign of Winter Player's Guide pg 10\
 **Experience points:** 50
 
 **Armor class:** 15/15/14

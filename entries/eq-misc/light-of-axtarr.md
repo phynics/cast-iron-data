@@ -6,6 +6,9 @@ source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "light_of_axtarr", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
+page = "31"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "180 gp"
 weight = "1/2 lb."
 +++
 
-**Sources:** Elemental Master's Handbook pg 31\
 **Price** 180 gp; **Weight** 1/2 lb.\
 **Category** Alchemical Tools
 

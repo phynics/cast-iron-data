@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "malediction_hero_points", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "324"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: yes
 Target: living creature touched
 Descriptors: death, evil
 :::
-
-**Sources:** Advanced Player's Guide pg 324
 
 You utter a dire curse over the body of a dying creature, allowing you to consume its waning life
 force. Upon casting this spell, you touch a living creature that has -1 or fewer hit points. If the

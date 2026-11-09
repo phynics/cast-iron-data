@@ -6,13 +6,14 @@ source_ids = ["core-rulebook", "advanced-players-guide", "heroes-of-the-streets"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "protection", path = "json/class_ability_domains2.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "46"
 
 [fields]
 kind = "class_option"
 group = "cleric-domain"
 +++
-
-**Sources:** PRPG Core Rulebook pg 46
 
 **Granted Powers:** Your faith is your greatest source of protection, and you can use that faith to
 defend others.

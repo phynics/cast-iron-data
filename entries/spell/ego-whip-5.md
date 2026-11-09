@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/ego-whip-1" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "169"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Descriptors: emotion, mind-affecting
 :::
 
 ### Ego Whip V
-
-**Sources:** Occult Adventures pg 169
 
 This functions as [ego whip I](ref/spell/ego-whip-1), but the target takes -10 penalty to the chosen
 ability score and is staggered for 1d10 rounds on a failed Will save. This spell can be undercast.

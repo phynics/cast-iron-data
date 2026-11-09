@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vargouille", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "272"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ its fanged mouth hangs agape._
 
 **Size:** small
 
-**Sources:** Pathfinder RPG Bestiary pg 272\
 **Subtype:** Evil, Extraplanar
 
 **Experience points:** 600

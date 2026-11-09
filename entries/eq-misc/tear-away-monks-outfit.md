@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook", "adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tear_away_monks_outfit", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "89"
+[[sources]]
+publication = "core-rulebook"
+page = "159"
 
 [fields]
 kind = "item"
@@ -16,7 +22,6 @@ weight = "2 lbs."
 
 ## Monk's outfit
 
-**Sources:** Ultimate Equipment pg 89, PRPG Core Rulebook pg 159\
 **Price** 5 gp; **Weight** 2 lbs.\
 **Category** Clothing
 

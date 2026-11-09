@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "obscuring_beacon", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-darklands"
+page = "5"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "When you're holding a light source in an area that is otherwise dim o
 +++
 
 ## Obscuring Beacon (Combat)
-
-**Sources:** Heroes of the Darklands pg 5
 
 You use light to disrupt your foes' darkness-adapted vision.\
 **Benefit:** When you're holding a light source in an area that is otherwise dim or darker, foes

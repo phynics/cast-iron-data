@@ -6,14 +6,18 @@ source_ids = ["adventurers-armory", "legacy-of-fire-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sling_glove", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "adventurers-armory"
+page = "5"
+[[sources]]
+publication = "legacy-of-fire-players-guide"
+page = "23"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "2 lbs."
 +++
-
-**Sources:** Adventurer's Armory pg 5, Legacy of Fire Player's Guide pg 23
 
 This curved, scooped-shaped, 2-foot-long wicker basket attaches to your wrist, allowing you to throw
 fist-sized stones at great speed merely by whipping your arm forward. Loading a sling glove is a

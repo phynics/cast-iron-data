@@ -6,6 +6,9 @@ source_ids = ["pathfinder-55-the-wormwood-mutiny"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vindictive_harpoon", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "pathfinder-55-the-wormwood-mutiny"
+page = "59"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Sources:** Pathfinder \#55: The Wormwood Mutiny pg 59\
 **Aura** moderate transmutation; **CL** 9th\
 **Slot** none; **Price** 10,305 gp; **Weight** 16 lbs.
 

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/mydriatic-spontaneity" },
 ]
+[[sources]]
+publication = "blood-of-shadows"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Descriptors: darkness, light
 :::
 
 ### Mass Mydriatic Spontaneity
-
-**Sources:** Blood of Shadows pg 29
 
 This spell functions as [mydriatic spontaneity](ref/spell/mydriatic-spontaneity), except it can
 affect multiple creatures.

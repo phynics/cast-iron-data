@@ -6,6 +6,9 @@ source_ids = ["demon-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demonic_nemesis", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "demon-hunters-handbook"
+page = "9"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "You can take this feat more than once. Each time you do, you must cho
 +++
 
 ## Demonic Nemesis (Combat)
-
-**Sources:** Demon Hunter's Handbook pg 9
 
 You are well acquainted with the machinations of a particular demon lord. You're resistant to his
 tricks, and have no fear of his minions.\

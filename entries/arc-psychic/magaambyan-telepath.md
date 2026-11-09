@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/psychic" },
 ]
+[[sources]]
+publication = "wilderness-origins"
+page = "27"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Discipline spells", "1st- and 11th-level phrenic amplifications", "
 alters = ["Telepathy"]
 +++
 
-**Sources:** Wilderness Origins pg 27\
 While most students of the [Magaambya](ref/rule/aff-i-school) in the Mwangi Expanse focus on the
 blending of arcane and divine magic, followers of Old-Mage Jatembe's more esoteric wisdom instead
 focus on the occult connection between all living creatures and the resonance between the natural

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mighty_items", path = "json/rules_gm03.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "109"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 109
 
 Under ordinary circumstances, avoid giving starting PCs magical weapons that would normally be
 reserved for much higher-level characters. Overpowered items can wreak havoc with your ability to

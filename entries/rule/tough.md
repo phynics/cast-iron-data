@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tough", path = "json/rules_adv_gm03.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "235"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 235
 
 High-Constitution monsters beef up their resistance to being hurt with tough combat options.
 

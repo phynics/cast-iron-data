@@ -6,14 +6,18 @@ source_ids = ["varisia-birthplace-of-legends", "pathfinder-10-a-history-of-ashes
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "totem_spear", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "varisia-birthplace-of-legends"
+page = "14"
+[[sources]]
+publication = "pathfinder-10-a-history-of-ashes"
+page = "35"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "6 lbs."
 +++
-
-**Sources:** Varisia, Birthplace of Legends pg 14, Pathfinder \#10: A History of Ashes pg 35
 
 Favored by the Shoanti of the Sklar-Quah, totem spears combine deadly weapons with the mournful
 music of Varisia's displaced natives. The shovel-like heads of these broad spears are decorated with

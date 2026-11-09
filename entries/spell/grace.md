@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grace", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "226"
 
 [fields]
 kind = "spell"
@@ -40,7 +43,5 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Advanced Player's Guide pg 226
 
 Until the end of your turn, your movement does not provoke attacks of opportunity.

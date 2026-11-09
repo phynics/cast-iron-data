@@ -6,6 +6,9 @@ source_ids = ["fey-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kallas_devil", path = "json/monsters_unique4.json" },
 ]
+[[sources]]
+publication = "fey-revisited"
+page = "32"
 
 [fields]
 kind = "creature"
@@ -49,7 +52,6 @@ hideous creature has no skin, and is built of gore and viscera._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Fey Revisited pg 32\
 **Subtype:** Aquatic
 
 **Experience points:** 6,400

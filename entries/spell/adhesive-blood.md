@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "adhesive_blood", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "172"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: Reflex negates (see text)
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Advanced Class Guide pg 172
 
 Your blood thickens to becomes a glue-like substance upon contact with air. A piercing or slashing
 weapon that deals hit point damage to you is stuck fast unless the wielder succeeds at a Reflex

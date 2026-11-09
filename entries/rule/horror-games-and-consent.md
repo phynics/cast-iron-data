@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horror_games_and_consent", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "190"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 190
 
 If the story's objective is to unsettle the players rather than their characters, the GM needs
 something before even starting to seriously think about running such an adventure: the players'

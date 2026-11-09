@@ -6,6 +6,9 @@ source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "masters_mutation", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "monster-summoners-handbook"
+page = "23"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: no
 Target: you and one summoned creature you control
 Subschool: Polymorph
 :::
-
-**Sources:** Monster Summoner's Handbook pg 23
 
 You can mold the ephemeral substance of the Outer Planes, mutating one summoned creature that you
 control to better suit your needs. Select up to two of the following abilities and grant them to the

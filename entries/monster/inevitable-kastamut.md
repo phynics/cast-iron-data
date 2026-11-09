@@ -6,6 +6,9 @@ source_ids = ["pathfinder-118-siege-of-stone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inevitable_kastamut", path = "json/monsters14.json" },
 ]
+[[sources]]
+publication = "pathfinder-118-siege-of-stone"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ strange steel alloy. Its eyes glow with a piercing white light._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#118: Siege of Stone pg 86\
 **Subtype:** Extraplanar, Inevitable, Lawful
 
 **Experience points:** 2,400

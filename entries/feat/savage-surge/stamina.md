@@ -6,10 +6,12 @@ source_ids = ["weapon-masters-handbook"]
 relations = [
   { kind = "addon", target = "ref/feat/savage-surge", label = "stamina" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "25"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Weapon Master's Handbook pg 25\
 You can spend stamina points instead of rounds of rage when using Savage Surge.

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "razmiran_priest", path = "json/npcs3.json" },
 ]
+[[sources]]
+publication = "inner-sea-npc-codex"
+page = "46"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "9"
 
 **Challenge rating:** 9
 
-**Sources:** Inner Sea NPC Codex pg 46\
 **XP** 6,400\
 Human [sorcerer](ref/class/sorcerer) 6/Razmiran priest 4\
 LE Medium humanoid (human)\

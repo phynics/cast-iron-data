@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/fighter" },
 ]
+[[sources]]
+publication = "inner-sea-primer"
+page = "25"
 
 [fields]
 kind = "archetype"
 replaces = ["Armor training 1", "Armor training 2", "Armor training 3", "Armor training 4"]
 +++
 
-**Sources:** Inner Sea Primer pg 25\
 In Qadira, home of the whirlwind, the [scorpion](ref/monster/scorpion-giant-scorpion), and the
 [djinni](ref/monster/genie-djinni), no enemy is as feared as the dervishes of
 [Sarenrae](ref/faith/sarenrae). While dervishes can be clerics, paladins, or rangers, zealous

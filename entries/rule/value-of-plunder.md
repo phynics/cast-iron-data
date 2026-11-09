@@ -6,12 +6,14 @@ source_ids = ["pathfinder-55-the-wormwood-mutiny"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "value_of_plunder", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "pathfinder-55-the-wormwood-mutiny"
+page = "61"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder \#55: The Wormwood Mutiny pg 61\
 Plunder is valuable for two reasons: It can be sold for gold pieces, and it helps you increase your
 [Infamy](ref/rule/infamy-and-disrepute). In general, 1 point of plunder is worth approximately 1,000
 gp, whether it be for a crate full of valuable ores or a whole cargo hold full of foodstuffs.

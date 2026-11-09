@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "instant_fake", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "217"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Spell resistance: no
 Target: one object weighting no more than 1 lb./level
 Subschool: Figment
 :::
-
-**Sources:** Ultimate Intrigue pg 217
 
 You create an illusory duplicate of the target item. If you hold the charge on this spell, you can
 deliver it while touching an object you steal with Sleight of Hand or a steal combat maneuver; in

@@ -6,6 +6,9 @@ source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "instant_restoration", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "monster-summoners-handbook"
+page = "22"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: no
 Target: one summoned creature you control
 Subschool: Healing
 :::
-
-**Sources:** Monster Summoner's Handbook pg 22
 
 Instant restoration channels planar energy into a summoned creature. This spell can be cast as an
 immediate action when a summoned creature you control drops to 0 or fewer hit points. Rather than

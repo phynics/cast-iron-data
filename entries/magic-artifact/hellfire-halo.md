@@ -6,6 +6,9 @@ source_ids = ["pathfinder-107-scourge-of-the-godclaw"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hellfire_halo", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "pathfinder-107-scourge-of-the-godclaw"
+page = "36"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration and transmutation"
 caster_level = "16th"
 +++
 
-**Sources:** Pathfinder \#107: Scourge of the Godclaw pg 36\
 **Aura** strong abjuration and transmutation; **CL** 16th\
 **Slot** head; **Price** -; **Weight** 1 lb.
 

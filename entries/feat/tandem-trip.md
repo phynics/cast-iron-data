@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tandem_trip", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "122"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "Whenever you attempt a trip combat maneuver against an enemy threaten
 +++
 
 ## Tandem Trip (Combat, Teamwork)
-
-**Sources:** Ultimate Combat pg 122
 
 You know how to work together to trip your foes.\
 **Benefit:** Whenever you attempt a [trip](ref/rule/trip) combat maneuver against an enemy

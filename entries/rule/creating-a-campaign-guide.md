@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "creating_a_campaign_guide", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "20"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 20
 
 In television series and similar ongoing media, there is the concept of the "story bible," a
 document setting forth the essential information about the characters, story, and setting of the

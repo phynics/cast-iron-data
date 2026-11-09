@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "45"
 
 [fields]
 kind = "archetype"
 replaces = ["Evasion", "uncanny dodge", "Improved evasion", "Master strike"]
 +++
 
-**Sources:** Ultimate Intrigue pg 45\
 Guild agents are members of a thieves' guild or other shadowy organization. What they lose in
 independence, they more than make up for in benefits gained due to their association's
 infrastructure. Guild agents come at all levels of the organization, from a lowly recruit all the

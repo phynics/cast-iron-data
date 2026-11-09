@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vestige", path = "json/class_ability_bloodrager_bloodlines.json" },
 ]
+[[sources]]
+publication = "blood-of-the-ancients"
+page = "6"
 
 [fields]
 kind = "class_option"
@@ -13,8 +16,6 @@ group = "bloodrager-bloodline"
 +++
 
 ## Vestige Bloodline
-
-**Sources:** Blood of the Ancients pg 6
 
 You are the descendant of great heroes from a lost civilization.
 

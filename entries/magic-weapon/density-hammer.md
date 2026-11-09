@@ -6,6 +6,9 @@ source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "density_hammer", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
+page = "9"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "9th"
 +++
 
-**Sources:** Elemental Master's Handbook pg 9\
 **Aura** moderate abjuration; **CL** 9th\
 **Slot** none; **Price** 26,340 gp; **Weight** 15 lbs.
 

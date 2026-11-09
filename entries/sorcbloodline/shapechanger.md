@@ -6,13 +6,15 @@ source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shapechanger", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
+[[sources]]
+publication = "legacy-of-the-first-world"
+page = "21"
 
 [fields]
 kind = "class_option"
 group = "sorcerer-bloodline"
 +++
 
-**Sources:** Legacy of the First World pg 21\
 Channeling the power of your shapeshifting ancestors that you carry in your blood, you gain powers
 that allow you to change your shape and alter your appearance and physical abilities.
 

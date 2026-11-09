@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hunger_for_flesh", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "120"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Spell resistance: yes
 Target: one humanoid, magical beast, or monstrous humanoid
 Descriptors: evil, mind-affecting
 :::
-
-**Sources:** Horror Adventures pg 120
 
 Your target's belly distends and its front teeth grow longer and sharper. The creature ravenously
 craves the flesh of its own kind, gaining the staggered condition as hunger pangs rack its altered

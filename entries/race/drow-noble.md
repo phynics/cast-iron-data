@@ -6,12 +6,14 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drow_noble", path = "json/races.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "115"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder RPG Bestiary pg 115\
 About one out of every 20 [drow](ref/race/drow) is gifted with special powers from birth - the
 overwhelming majority of these exceptional drow are female, and as a result, drow society tends to
 be matriarchal in nature. These special births are engineered and encouraged among the ruling caste,

@@ -6,6 +6,9 @@ source_ids = ["taldor-the-first-empire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fading_fox", path = "json/monsters06.json" },
 ]
+[[sources]]
+publication = "taldor-the-first-empire"
+page = "60"
 
 [fields]
 kind = "creature"
@@ -39,7 +42,6 @@ _This regal fox's coat shifts subtly between silver, red, and dull brown as it w
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Taldor, the First Empire pg 60\
 **Size:** tiny
 
 **Experience points:** 600

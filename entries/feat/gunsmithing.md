@@ -6,14 +6,15 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gunsmithing", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "103"
 
 [fields]
 kind = "feat"
 benefit = "If you have access to a gunsmith's kit, you can create and restore firearms, craft bullets, and mix black powder for all types of firearms. You do not need to make a Craft check to create firearms and ammunition or to restore firearms."
 special = "If you are a gunslinger, this feat grants the following additional benefit. You can use this feat to repair and restore your initial, battered weapon. It costs 300 gp and 1 day of work to upgrade it to a masterwork firearm of its type."
 +++
-
-**Sources:** Ultimate Combat pg 103
 
 You know the secrets of repairing and restoring firearms.\
 **Benefit:** If you have access to a [gunsmith's kit](ref/eq-misc/gunsmiths-kit), you can create and

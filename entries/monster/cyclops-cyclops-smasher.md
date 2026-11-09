@@ -6,6 +6,9 @@ source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cyclops_cyclops_smasher", path = "json/monsters06.json" },
 ]
+[[sources]]
+publication = "inner-sea-monster-codex"
+page = "19"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ a terrible club._
 
 **Senses:** Low-light vision
 
-**Sources:** Inner Sea Monster Codex pg 19\
 **Subtype:** Giant
 
 **Experience points:** 6,400

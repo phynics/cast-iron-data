@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/paladin" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "69"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Aura of good", "divine grace", "Code of conduct and associated abil
 alters = ["Alignment restrictions", "Smite evil", "aura of courage", "aura of resolve", "aura of righteousness", "Ex-paladin", "Smite evil"]
 +++
 
-**Sources:** Ultimate Intrigue pg 69\
 Gray paladins have discovered that in a world of intrigue, a strict code of honor hinders their
 options. Their divergence from the paladin's normal code still drains them, but somehow, they have
 found a way to avoid losing all of their powers.

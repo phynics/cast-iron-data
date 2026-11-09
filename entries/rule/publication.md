@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "publication", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "21"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 21
 
 Once the campaign guide document is prepared, you need to consider how to get it in front of the
 players. Modern media and desktop publishing create a wide range of options for sharing a campaign

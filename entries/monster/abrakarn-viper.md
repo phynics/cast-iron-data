@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "abrakarn_viper", path = "json/monsters01.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "40"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _This massive, three-headed clockwork snake is crafted of brass and strange, dar
 
 **Senses:** Darkvision 120 ft., Low-light vision
 
-**Sources:** Monster Codex pg 40\
 **Subtype:** Chaotic, Evil
 
 **Experience points:** 25,600

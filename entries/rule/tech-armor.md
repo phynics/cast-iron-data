@@ -6,12 +6,14 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tech_armor", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "29"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Technology Guide pg 29\
 Each suit of technological armor has a full description, including a set of abbreviated statistics.
 This information is organized as follows.
 

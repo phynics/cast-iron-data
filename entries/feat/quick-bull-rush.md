@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quick_bull_rush", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "113"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "A bull rush combat maneuver is a standard action."
 +++
 
 ## Quick Bull Rush (Combat)
-
-**Sources:** Ultimate Combat pg 113
 
 You can barrel into your opponent and follow this with an attack.\
 **Prerequisites:** Str 13, [Improved Bull Rush](ref/feat/improved-bull-rush),

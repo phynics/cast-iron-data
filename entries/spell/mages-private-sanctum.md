@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mages_private_sanctum", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "307"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: none
 Spell resistance: no
 Area: 30-ft. cube/level (S)
 :::
-
-**Sources:** PRPG Core Rulebook pg 307
 
 This spell ensures privacy. Anyone looking into the area from outside sees only a dark, foggy mass.
 [Darkvision](ref/rule/darkvision) cannot penetrate it. No sounds, no matter how loud, can escape the

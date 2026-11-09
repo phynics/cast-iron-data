@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/slayer" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "87"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Track", "Stalker", "Swift tracker", "slayer's advance"]
 alters = ["Sneak attack"]
 +++
 
-**Sources:** Ultimate Wilderness pg 87\
 Woodland snipers are guardians of forest and grove, keeping vigil on their borders and hunting
 bounties and trespassers from the shelter of sturdy branches.
 

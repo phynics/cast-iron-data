@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_jumpers_tunic", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "27"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration"
 caster_level = "3rd"
 +++
 
-**Sources:** Dirty Tactics Toolbox pg 27\
 **Aura** faint conjuration; **CL** 3rd\
 **Slot** chest; **Price** 16,200 gp; **Weight** -
 

@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "advocates_armor", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "22"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment"
 caster_level = "11th"
 +++
 
-**Sources:** Melee Tactics Toolbox pg 22\
 **Aura** moderate enchantment; **CL** 11th\
 **Slot** armor; **Price** 33,160 gp; **Weight** 15 lbs.
 

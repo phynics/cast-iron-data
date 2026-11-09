@@ -6,6 +6,9 @@ source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snuffing_spell", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "blood-of-shadows"
+page = "25"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "You can modify a spell to extinguish magical and nonmagical light sou
 +++
 
 ## Snuffing Spell (Metamagic)
-
-**Sources:** Blood of Shadows pg 25
 
 Your magic disrupts sources of light.\
 **Benefit:** You can modify a spell to extinguish magical and nonmagical light sources that the

@@ -6,6 +6,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "galtan_cookbook", path = "json/equipment_spellbooks.json" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "5"
 
 [fields]
 kind = "item"
@@ -15,8 +18,6 @@ category = "Spellbooks"
 ### Level 8 Alchemist
 
 _This book's cover is illegibly scorched and the pages are wrinkled from water damage._
-
-**Sources:** Arcane Anthology pg 5
 
 **Value** 670 gp (1,270 gp with the preparation ritual)
 

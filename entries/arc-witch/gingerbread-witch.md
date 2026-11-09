@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/witch" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "72"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["1st- and 10th-level hexes", "4th-level hex", "8th-level hex", "12th
 alters = ["Familiar"]
 +++
 
-**Sources:** Horror Adventures pg 72\
 A sweet tooth lures the gingerbread witch's victims to doom.
 
 **Gingerbread Familiar (Ex)**

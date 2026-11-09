@@ -6,14 +6,15 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summoning", path = "json/spell_definitions.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "210"
 
 [fields]
 kind = "none"
 +++
 
 ## Summoning (subschool of magic)
-
-**Sources:** PRPG Core Rulebook pg 210
 
 A summoning spell instantly brings a creature or object to a place you designate. When the spell
 ends or is dispelled, a summoned creature is instantly sent back to where it came from, but a

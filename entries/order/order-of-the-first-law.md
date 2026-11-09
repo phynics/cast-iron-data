@@ -6,13 +6,14 @@ source_ids = ["people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "order_of_the_first_law", path = "json/class_ability_orders.json" },
 ]
+[[sources]]
+publication = "people-of-the-sands"
+page = "21"
 
 [fields]
 kind = "class_option"
 group = "order"
 +++
-
-**Sources:** People of the Sands pg 21
 
 Cavaliers belonging to the order of the First Law are dedicated to hunting down anyone practicing,
 preaching, or otherwise facilitating religion in Rahadoum.

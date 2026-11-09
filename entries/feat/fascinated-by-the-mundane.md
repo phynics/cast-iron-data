@@ -6,6 +6,9 @@ source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fascinated_by_the_mundane", path = "json/feat06.json" },
 ]
+[[sources]]
+publication = "legacy-of-the-first-world"
+page = "5"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "Your ever-present awe is under your control. Your bonus on Charisma-b
 +++
 
 ## Fascinated by the Mundane (Story)
-
-**Sources:** Legacy of the First World pg 5
 
 Your perspective of normality is slightly skewed, and you are easily awed by things such as
 commonplace tools or mundane activities. You struggle to find your place in a world that seems

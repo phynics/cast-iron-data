@@ -6,12 +6,19 @@ source_ids = ["mythic-adventures", "mythic-origins", "heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "marshal_2_1", path = "json/rules_campaign_types07.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "38"
+[[sources]]
+publication = "mythic-origins"
+page = "28"
+[[sources]]
+publication = "heroes-of-golarion"
+page = "30"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 38, Mythic Origins pg 28, Heroes of Golarion pg 30
 
 ### 1st-Tier Marshal Path Abilities
 

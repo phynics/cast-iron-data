@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "krampus", path = "json/monsters15.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "178"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ its fanged mouth._
 
 **Senses:** Scent, See in darkness, See invisibility, Storm sight
 
-**Sources:** Bestiary 6 pg 178\
 **Experience points:** 409,600
 
 **Armor class:** 37/19/27

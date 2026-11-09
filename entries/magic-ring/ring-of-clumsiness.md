@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_clumsiness", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "349"
+[[sources]]
+publication = "core-rulebook"
+page = "542"
 
 [fields]
 kind = "item"
@@ -15,8 +21,6 @@ slot = "ring"
 aura = "strong transmutation"
 caster_level = "15th"
 +++
-
-**Sources:** Ultimate Equipment pg 349, PRPG Core Rulebook pg 542
 
 **Aura** strong transmutation; **CL** 15th\
 **Slot** ring; **Weight** -

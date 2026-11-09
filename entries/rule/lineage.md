@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lineage", path = "json/rules_adv_pc01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "166"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 166
 
 A hero doesn't just blink into existence the moment you fill out a character sheet; he came from
 somewhere. For most characters, that means he has or had a family: a mother and father, who in turn

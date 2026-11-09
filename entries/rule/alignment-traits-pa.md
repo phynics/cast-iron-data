@@ -6,12 +6,13 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alignment_traits_pa", path = "json/rules_campaign_types09.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "62"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Planar Adventures pg 62
 
 Some planes have a predisposition toward a certain alignment. Alignment traits have multiple
 components. First are the moral (good or evil) and ethical (lawful or chaotic) components; a plane

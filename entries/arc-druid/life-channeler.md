@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "50"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Wild shape", "Venom immunity"]
 alters = ["Alignment requirements", "Nature bond"]
 +++
 
-**Sources:** Horror Adventures pg 50\
 Life channelers take the natural cycle to what they believe is its logical conclusion. By
 sacrificing the life of a sentient creature, they can generate energy that guarantees fertility and
 prosperity for lower creatures like plants and animals. These druids preach to flocks who become

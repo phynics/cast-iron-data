@@ -6,6 +6,9 @@ source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_austere_majesty", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "merchants-manifest"
+page = "19"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint enchantment"
 caster_level = "5th"
 +++
 
-**Sources:** Merchant's Manifest pg 19\
 **Aura** faint enchantment; **CL** 5th\
 **Slot** ring; **Price** 3,000 gp; **Weight** -
 

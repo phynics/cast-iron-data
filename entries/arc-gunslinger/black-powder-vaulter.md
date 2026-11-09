@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/gunslinger" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "10"
 
 [fields]
 kind = "archetype"
 replaces = ["Deadeye deed", "Gunslinger's dodge deed", "Gunslinger initiative deed", "Startling shot deed", "Expert loading deed"]
 +++
 
-**Sources:** Martial Arts Handbook pg 10\
 While firearms were designed to allow combatants to fight their foes from a distance, some
 gunslingers like to get into the thick of the battle, maneuvering among the fray to find the most
 advantageous positions from which to kill their enemies. The daredevil fighting style of the black

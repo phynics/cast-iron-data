@@ -9,6 +9,12 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/fighter" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "51"
+[[sources]]
+publication = "people-of-the-north"
+page = "24"
 
 [fields]
 kind = "archetype"
@@ -16,7 +22,6 @@ replaces = ["Bravery", "Armor training", "Weapon training"]
 alters = ["Weapon and armor proficiencies", "The fighter's bonus feats"]
 +++
 
-**Sources:** Ultimate Wilderness pg 51, People of the North pg 24\
 Vikings seek to raid "softer societies" and return with their longships filled with plunder. A
 viking strikes fear into the heart of her foes, and in battle she can fly into a terrible rage. Many
 vikings wear the pelts of bears or wolves, drawing on the strength and ferocity of these beasts in

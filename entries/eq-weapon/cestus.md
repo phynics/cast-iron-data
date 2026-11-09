@@ -6,14 +6,21 @@ source_ids = ["ultimate-equipment", "adventurers-armory", "advanced-players-guid
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cestus", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "17"
+[[sources]]
+publication = "adventurers-armory"
+page = "3"
+[[sources]]
+publication = "advanced-players-guide"
+page = "176"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "1 lb."
 +++
-
-**Sources:** Ultimate Equipment pg 17, Adventurer's Armory pg 3, Advanced Player's Guide pg 176
 
 The cestus is a glove of leather or thick cloth that covers the wielder from mid-finger to
 mid-forearm. The close combat weapon is reinforced with metal plates over the fingers and often

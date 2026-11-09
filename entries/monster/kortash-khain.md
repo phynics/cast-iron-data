@@ -6,6 +6,9 @@ source_ids = ["mythic-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kortash_khain", path = "json/monsters_unique4.json" },
 ]
+[[sources]]
+publication = "mythic-realms"
+page = "54"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ _This withered humanoid wears sooty, fire-blackened robes and a headdress of bla
 
 **Senses:** Darkvision 60 ft., Deathwatch (30 ft.), True seeing
 
-**Sources:** Mythic Realms pg 54\
 **Type:** undead
 
 **Experience points:** 819,200

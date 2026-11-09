@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brass_spider", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "228"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Sources:** Advanced Class Guide pg 228\
 **Aura** moderate transmutation; **CL** 7th\
 **Slot** none; **Price** 2,500 gp; **Weight** 2 lbs.
 

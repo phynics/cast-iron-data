@@ -6,6 +6,9 @@ source_ids = ["champions-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dimensional_acid_corrosive_pit", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "champions-of-balance"
+page = "28"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "varies"
 
 ## Dimensional Acid
 
-**Sources:** Champions of Balance pg 28\
 **Aura** varies; **CL** varies\
 **Slot** none; **Price** 450 gp (Basic Pit), 1,000 gp (Jagged Pit), 1,750 gp (Corrosive Pit), 2,700
 gp (Living Pit); **Weight** 1 lb.

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "longstrider", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "305"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** PRPG Core Rulebook pg 305
 
 This spell gives you a +10 foot enhancement bonus to your base speed. It has no effect on other
 modes of movement, such as burrow, climb, fly, or swim.

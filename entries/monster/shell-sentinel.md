@@ -6,6 +6,9 @@ source_ids = ["pathfinder-98-turn-of-the-torrent"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shell_sentinel", path = "json/monsters38.json" },
 ]
+[[sources]]
+publication = "pathfinder-98-turn-of-the-torrent"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ toxic-looking slime._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#98: Turn of the Torrent pg 88\
 **Experience points:** 1,600
 
 **Armor class:** 18/14/14

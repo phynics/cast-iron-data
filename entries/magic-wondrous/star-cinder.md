@@ -6,6 +6,9 @@ source_ids = ["daughters-of-fury"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "star_cinder", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "daughters-of-fury"
+page = "63"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration"
 caster_level = "12th"
 +++
 
-**Sources:** Daughters of Fury pg 63\
 **Aura** strong abjuration; **CL** 12th\
 **Slot** neck; **Price** 50,000 gp; **Weight** 4 lbs.
 

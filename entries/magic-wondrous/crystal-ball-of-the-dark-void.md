@@ -6,6 +6,9 @@ source_ids = ["pathfinder-65-into-the-nightmare-rift"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crystal_ball_of_the_dark_void", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "pathfinder-65-into-the-nightmare-rift"
+page = "62"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "10th"
 +++
 
-**Sources:** Pathfinder \#65: Into the Nightmare Rift pg 62\
 **Aura** moderate divination; **CL** 10th\
 **Slot** none; **Price** 60,000 gp; **Weight** 7 lbs.
 

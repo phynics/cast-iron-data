@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scorpion_ghost_scorpion", path = "json/monsters21.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "237"
 
 [fields]
 kind = "creature"
@@ -39,7 +42,6 @@ internal organs._
 
 **Size:** small
 
-**Sources:** Bestiary 3 pg 237\
 **tremorsense:** 60
 
 **Type:** vermin

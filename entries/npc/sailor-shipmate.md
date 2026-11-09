@@ -6,6 +6,9 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sailor_shipmate", path = "json/npcs.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "294"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "1/2"
 
 **Challenge rating:** 1/2
 
-**Sources:** GameMastery Guide pg 294\
 **XP** 200\
 Human [expert](ref/npcclass/expert) 1/[warrior](ref/npcclass/warrior) 1\
 N Medium humanoid\

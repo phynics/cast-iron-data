@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aspect_of_the_wolf", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "204"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: no
 Target: you
 Subschool: Polymorph
 :::
-
-**Sources:** Advanced Player's Guide pg 204
 
 When you cast this spell, you take on an aspect of a wolf, including some of its physical
 characteristics. You become more rugged, your ears become elongated, and you sprout sharp fangs and

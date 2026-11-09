@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wisagatcak", path = "json/monsters25.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "249"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ _This spider-like monstrosity watches quietly, skittering about on six needle-sh
 
 **Size:** small
 
-**Sources:** Planar Adventures pg 249\
 **Subtype:** Evil, Extraplanar, Lawful
 
 **tremorsense:** 30

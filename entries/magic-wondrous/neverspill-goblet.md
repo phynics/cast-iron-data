@@ -6,6 +6,9 @@ source_ids = ["inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "neverspill_goblet", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "inner-sea-temples"
+page = "22"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration"
 caster_level = "3rd"
 +++
 
-**Sources:** Inner Sea Temples pg 22\
 **Aura** faint conjuration; **CL** 3rd\
 **Slot** none; **Price** 1,000 gp; **Weight** 1 lb.
 

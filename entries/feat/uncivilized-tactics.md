@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "uncivilized_tactics", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-wild"
+page = "23"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "As a standard action, you can attempt a combat maneuver check against
 +++
 
 ## Uncivilized Tactics (Combat)
-
-**Sources:** Heroes of the Wild pg 23
 
 You've never had the luxury of allowing your enemies a fair fight, as fighting in the wild is often
 fighting for your very survival.\

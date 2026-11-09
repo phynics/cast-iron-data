@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mad_hallucination", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "227"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: yes
 Target: one humanoid creature
 Subschool: Phantasm
 :::
-
-**Sources:** Ultimate Magic pg 227
 
 This spell induces a hallucinogenic reality in the mind of your target. Surfaces seem to swim, and
 movement constantly distracts the eye. The target takes a -2 penalty on Will saving throws, caster

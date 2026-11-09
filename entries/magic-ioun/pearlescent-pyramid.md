@@ -6,6 +6,9 @@ source_ids = ["pathfinder-125-tower-of-the-drowned-dead"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pearlescent_pyramid", path = "json/magic_ioun_stones.json" },
 ]
+[[sources]]
+publication = "pathfinder-125-tower-of-the-drowned-dead"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration"
 caster_level = "12th"
 +++
 
-**Sources:** Pathfinder \#125: Tower of the Drowned Dead pg 31\
 **Aura** strong conjuration; **CL** 12th\
 **Slot** none; **Price** 48,000 gp; **Weight** —
 

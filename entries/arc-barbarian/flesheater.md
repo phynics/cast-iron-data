@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/barbarian" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "114"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Uncanny dodge", "improved uncanny dodge", "the 2nd- and 8th-level r
 alters = ["Rage"]
 +++
 
-**Sources:** Occult Adventures pg 114\
 A flesheater eats flesh to create a spiritual bond between herself and the consumed creature,
 allowing her to take on aspects of the creature that served as the meal.
 

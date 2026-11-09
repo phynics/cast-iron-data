@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "implement_focus", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "135"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "Select one of your implement schools. When you spend generic focus to
 normal = "Any focus power activated with generic focus costs twice as much focus to use and maintain."
 special = "You can take this feat multiple times. Each time, you must select a different implement school."
 +++
-
-**Sources:** Occult Adventures pg 135
 
 You are more adept at spending generic focus on focus powers from your chosen school.\
 **Prerequisites:** Occultist level 3rd.\

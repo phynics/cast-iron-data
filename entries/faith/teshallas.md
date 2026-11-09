@@ -6,6 +6,9 @@ source_ids = ["concordance-of-rivals"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "teshallas", path = "json/faiths8.json" },
 ]
+[[sources]]
+publication = "concordance-of-rivals"
+page = "18"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Teshallas**
 
 **Sub:** The Primordial Poison
-
-**Sources:** Concordance of Rivals pg 18
 
 ### Details
 

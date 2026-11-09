@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "terrain_tiles", path = "json/rules_adv_gm02.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "143"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 143
 
 The following are some of the most common types of terrain tiles a group might encounter during a
 pursuit. One terrain tile is roughly 12 miles across (the same size as hexes in the

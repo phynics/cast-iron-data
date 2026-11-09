@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "event_consequences", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "170"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 170
 
 Whether you're running a discovery or a challenge event, you should strive to make the consequences
 of both success and failure dependent on how the PCs solved the challenge. While some challenge

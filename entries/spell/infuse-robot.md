@@ -6,6 +6,9 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "infuse_robot", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "9"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: Will negates
 Spell resistance: yes
 Target: one robot
 :::
-
-**Sources:** Technology Guide pg 9
 
 If the targeted robot fails its Will saving throw, it transforms into a magical construct made of
 wood, stone, flesh, or bone. The robot's statistics and abilities do not change, although it is now

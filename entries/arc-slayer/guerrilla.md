@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/slayer" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "87"
 
 [fields]
 kind = "archetype"
 replaces = ["Track", "swift tracker", "6th-level slayer talent", "Quarry", "improved quarry"]
 +++
 
-**Sources:** Ultimate Wilderness pg 87\
 Slayers characterized by cunning and patience, guerrillas specialize in ambush and harassment of
 enemies.
 

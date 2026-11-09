@@ -6,6 +6,9 @@ source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "purifying_flames", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "wilderness-origins"
+page = "29"
 
 [fields]
 kind = "class_option"
@@ -21,8 +24,6 @@ group = "kineticist-wild-talent"
 **Level:** 4
 
 **Burn:** 1
-
-**Source:** Wilderness Origins/29
 
 You use fire to burn poison from within a creature's veins. You must attempt a caster level check
 (1d20 + your kineticist level) against the DC of each poison affecting the target. Success means

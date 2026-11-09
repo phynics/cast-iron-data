@@ -6,6 +6,9 @@ source_ids = ["inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charnel_colossus", path = "json/monsters05.json" },
 ]
+[[sources]]
+publication = "inner-sea-bestiary"
+page = "10"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ amalgamated whole._
 
 **Senses:** Darkvision 60 ft., See invisibility
 
-**Sources:** Inner Sea Bestiary pg 10\
 **Type:** undead
 
 **Experience points:** 204,800

@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dynamic_magic_item_overview", path = "json/rules_opt_magic01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "180"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 180
 
 The magic item creation system in this section divides the creation of magic items (other than
 potions and scrolls) into a series of challenges that the creators try to overcome. These challenges

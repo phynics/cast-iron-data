@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shatter", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "341"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Spell resistance: yes
 Area or Target: 5-ft.-radius spread; or one solid object or one crystaline creature
 Descriptors: sonic
 :::
-
-**Sources:** PRPG Core Rulebook pg 341
 
 Shatter creates a loud, ringing noise that breaks brittle, nonmagical objects; sunders a single
 solid, nonmagical object; or damages a crystalline creature.

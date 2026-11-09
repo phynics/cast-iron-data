@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trompe_loeil", path = "json/monster_template4.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "242"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Challenge rating:** +1
 
 **Inherited:** present
-
-**Source:** Horror Adventures/242
 
 Trompe l'oeil creatures are life-sized portraits animated by powerful magic or occult phenomena.
 Able to move and talk, these constructs can also step out of their frames to become

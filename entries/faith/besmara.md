@@ -6,6 +6,9 @@ source_ids = ["inner-sea-faiths", "inner-sea-gods", "pathfinder-55-the-wormwood-
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "besmara", path = "json/faiths2.json" },
 ]
+[[sources]]
+publication = "inner-sea-faiths"
+page = "23"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Besmara**
 
 **Sub:** The Pirate Queen
-
-**Sources:** Inner Sea Faiths pg 23
 
 ### Details
 

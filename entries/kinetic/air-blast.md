@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "air_blast", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "15"
 
 [fields]
 kind = "class_option"
@@ -25,7 +28,5 @@ group = "kineticist-wild-talent"
 **Damage type:** physical
 
 **Damage:** bludgeoning
-
-**Source:** Occult Adventures/15
 
 You batter a single foe with a gust of air.

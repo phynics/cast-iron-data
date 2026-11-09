@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tower_shield_proficiency", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "135"
 
 [fields]
 kind = "feat"
@@ -18,8 +21,6 @@ special = "Fighters automatically have Tower Shield Proficiency as a bonus feat.
 +++
 
 ## Tower Shield Proficiency (Combat)
-
-**Sources:** PRPG Core Rulebook pg 135
 
 You are trained in how to properly use a tower shield.\
 **Prerequisites:** [Shield Proficiency](ref/feat/shield-proficiency).\

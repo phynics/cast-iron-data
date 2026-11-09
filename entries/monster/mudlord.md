@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mudlord", path = "json/monsters17.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "195"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ mud._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 4 pg 195\
 **Subtype:** Earth, Elemental, Water
 
 **tremorsense:** 30

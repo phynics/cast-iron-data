@@ -6,6 +6,9 @@ source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghostslayer", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "haunted-heroes-handbook"
+page = "5"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "As a swift action, you can imbue a weapon you wield with spiritual en
 +++
 
 ## Ghostslayer (Combat)
-
-**Sources:** Haunted Heroes Handbook pg 5
 
 Your blade is keen enough to hew incorporeal creatures.\
 **Prerequisites:** Base attack bonus +1, Knowledge (religion) 1 rank.\

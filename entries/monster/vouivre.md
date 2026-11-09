@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "pathfinder-30-the-twice-damned-prince"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vouivre", path = "json/monsters40.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "270"
+[[sources]]
+publication = "pathfinder-30-the-twice-damned-prince"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ dragon._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 4 pg 270, Pathfinder \#30: The Twice-Damned Prince pg 88\
 **Subtype:** Aquatic
 
 **Experience points:** 19,200

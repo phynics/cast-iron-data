@@ -6,6 +6,9 @@ source_ids = ["inner-sea-npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pathfinder_venture_captain", path = "json/npcs6.json" },
 ]
+[[sources]]
+publication = "inner-sea-npc-codex"
+page = "43"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "13"
 
 **Challenge rating:** 13
 
-**Sources:** Inner Sea NPC Codex pg 43\
 **XP** 25,600\
 Human [sorcerer](ref/class/sorcerer) 11/loremaster 3\
 N Medium humanoid (human)\

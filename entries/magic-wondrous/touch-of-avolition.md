@@ -6,6 +6,9 @@ source_ids = ["pathfinder-88-valley-of-the-brain-collectors"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "touch_of_avolition", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "pathfinder-88-valley-of-the-brain-collectors"
+page = "63"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Sources:** Pathfinder \#88: Valley of the Brain Collectors pg 63\
 **Aura** moderate necromancy; **CL** 7th\
 **Slot** hands; **Price** 2,500 gp; **Weight** -
 

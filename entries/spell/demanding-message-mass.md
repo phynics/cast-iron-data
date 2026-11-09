@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/demanding-message" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "210"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Descriptors: language-dependant
 :::
 
 ### Mass Demanding Message
-
-**Sources:** Ultimate Intrigue pg 210
 
 This spell functions as [demanding message](ref/spell/demanding-message), except that you can issue
 one suggestion to each of the spell's targets instead of just one. Each time you do so, it takes a

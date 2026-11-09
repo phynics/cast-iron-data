@@ -6,6 +6,9 @@ source_ids = ["champions-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloak_of_moral_refraction", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "champions-of-balance"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration"
 caster_level = "13th"
 +++
 
-**Sources:** Champions of Balance pg 28\
 **Aura** strong abjuration; **CL** 13th\
 **Slot** shoulders; **Price** 54,200 gp; **Weight** 1 lb.
 

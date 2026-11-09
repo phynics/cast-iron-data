@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "overland_movement", path = "json/rules_basics04.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "171"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 171
 
 Characters covering long distances cross-country use overland movement. Overland movement is
 measured in miles per hour or miles per day. A day represents 8 hours of actual travel time. For

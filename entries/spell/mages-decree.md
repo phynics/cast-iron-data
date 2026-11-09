@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mages_decree", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "218"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Saving throw: none
 Spell resistance: no
 Targets: see text
 :::
-
-**Sources:** Ultimate Intrigue pg 218
 
 You speak a short message (up to 25 words), and it is immediately transmitted to each target, who
 hear it as clearly as if you were standing next to them. By default, the spell targets every

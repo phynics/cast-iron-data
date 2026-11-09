@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/swashbuckler" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "23"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Menacing swordplay", "Superior feint", "Bleeding wound", "Swashbuck
 alters = ["Armor proficiencies"]
 +++
 
-**Sources:** Adventurer's Guide pg 23\
 The Free City of Restov is host to numerous dueling schools, from the renowned Aldori Academy to
 tiny training grounds in blademasters' homes. Students of these schools are notoriously competitive,
 and street-corner duels at dawn and dusk are a constant of Restov life. In most cases, while these

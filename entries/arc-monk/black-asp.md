@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/monk" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "67"
 
 [fields]
 kind = "archetype"
 replaces = ["Stunning fist", "still mind"]
 +++
 
-**Sources:** Ultimate Intrigue pg 67\
 The black asps are a sinister order of monks who train as assassins and infiltrators with no need
 for weapons to achieve their goals. Through meditation and study, they learn how to use poison, hide
 any magics they choose to employ, and even empty their minds of thought to protect themselves from

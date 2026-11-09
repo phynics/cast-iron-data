@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_imperial_sea_young_sea_dragon", path = "json/monsters31.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "96"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ ocean's waves._
 
 **Senses:** Dragon senses
 
-**Sources:** Bestiary 3 pg 96\
 **Subtype:** Water
 
 **Experience points:** 4,800

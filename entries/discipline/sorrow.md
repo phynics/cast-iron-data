@@ -6,13 +6,15 @@ source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sorrow", path = "json/class_ability_disciplines.json" },
 ]
+[[sources]]
+publication = "legacy-of-the-first-world"
+page = "22"
 
 [fields]
 kind = "class_option"
 group = "psychic-discipline"
 +++
 
-**Sources:** Legacy of the First World pg 22\
 You draw strength from deep feelings of abandonment, loneliness, and sadness, turning these emotions
 into a powerful weapon or a barrier that protects you.
 

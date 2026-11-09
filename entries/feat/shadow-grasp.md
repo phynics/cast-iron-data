@@ -6,6 +6,9 @@ source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_grasp", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "15"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you cast a spell with the darkness descriptor that affects an ar
 +++
 
 ## Shadow Grasp (Metamagic)
-
-**Sources:** Inner Sea Magic pg 15
 
 Your darkness spells have substance and bind your foes.\
 **Prerequisites:** [Tenebrous Spell](ref/feat/tenebrous-spell),

@@ -6,13 +6,14 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "intrigue", path = "json/class_ability_mysteries.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "69"
 
 [fields]
 kind = "class_option"
 group = "oracle-mystery"
 +++
-
-**Sources:** Ultimate Intrigue pg 69
 
 **Deities**
 

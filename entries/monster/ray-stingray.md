@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ray_stingray", path = "json/monsters20.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "232"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _A long tail fitted with a barbed stinger trails from this flat, triangular fish
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 2 pg 232\
 **Subtype:** Aquatic
 
 **Experience points:** 200

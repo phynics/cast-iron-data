@@ -6,6 +6,9 @@ source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kinslayer", path = "json/magic_enhancements.json" },
 ]
+[[sources]]
+publication = "quests-and-campaigns"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "8th"
 +++
 
-**Sources:** Quests and Campaigns pg 30\
 **Aura** moderate conjuration; **CL** 8th\
 **Slot** none; **Price** +1 bonus; **Weight** -
 

@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "feint_partner", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "100"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Whenever an ally who also has this feat successfully feints an oppone
 +++
 
 ## Feint Partner (Combat, Teamwork)
-
-**Sources:** Ultimate Combat pg 100
 
 A little diversion is all you need to slip through your foe's defenses.\
 **Prerequisites:** Bluff 1 rank.\

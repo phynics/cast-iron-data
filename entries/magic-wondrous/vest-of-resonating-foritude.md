@@ -6,6 +6,9 @@ source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vest_of_resonating_foritude", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "potions-and-poisons"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "7th"
 +++
 
-**Sources:** Potions and Poisons pg 31\
 **Aura** moderate abjuration; **CL** 7th\
 **Slot** chest; **Price** 7,000 gp; **Weight** -
 

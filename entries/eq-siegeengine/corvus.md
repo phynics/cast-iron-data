@@ -6,14 +6,15 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "corvus", path = "json/equipment_siege_engines.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "165"
 
 [fields]
 kind = "item"
 category = "Siege Engines"
 weight = "-"
 +++
-
-**Sources:** Ultimate Combat pg 165
 
 A corvus is a boarding device that features a hinged counterweight system for mounting a bridge
 vertically on a siege tower or a vehicle, with a hooked end to grab onto a target vehicle or

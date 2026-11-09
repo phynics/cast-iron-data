@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tactical_acumen", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "246"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Area: The caster and all allies within a 30-ft.-radius burst, centered on the ca
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Ultimate Combat pg 246
 
 Tactical acumen grants you and your allies a mastery of battlefield tactics. Whenever you would gain
 a bonus on attack rolls or to AC due to battlefield position, such as flanking, higher ground, or

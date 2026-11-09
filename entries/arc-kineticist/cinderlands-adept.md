@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/kineticist" },
 ]
+[[sources]]
+publication = "wilderness-origins"
+page = "28"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Infusion gained at 1st level", "Utility wild talents gained at 4th,
 alters = ["Elemental focus", "expanded element", "Gather power"]
 +++
 
-**Sources:** Wilderness Origins pg 28\
 Among the Sun Clan's most noted champions are those who can tame the flames and bend them to their
 will. These kineticists are skilled riders, able to wield both weapons and fire with deadly skill.
 

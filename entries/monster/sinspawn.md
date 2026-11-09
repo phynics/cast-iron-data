@@ -6,6 +6,12 @@ source_ids = ["bestiary-2", "pathfinder-1-burnt-offerings", "pathfinder-134-it-c
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sinspawn", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "246"
+[[sources]]
+publication = "pathfinder-1-burnt-offerings"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ with three-fingered hands._
 
 **Senses:** Darkvision 60 ft., Sin-scent
 
-**Sources:** Bestiary 2 pg 246, Pathfinder \#1: Burnt Offerings pg 90\
 **Experience points:** 600
 
 **Armor class:** 14/12/12

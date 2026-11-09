@@ -6,6 +6,9 @@ source_ids = ["demons-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kaltestrua", path = "json/monsters_unique4.json" },
 ]
+[[sources]]
+publication = "demons-revisited"
+page = "38"
 
 [fields]
 kind = "creature"
@@ -48,7 +51,6 @@ flesh, and the skulladorned flails she wields drip black liquid._
 
 **Senses:** Darkvision 60 ft., True seeing
 
-**Sources:** Demons Revisited pg 38\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 409,600

@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_donkey_rat", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "117"
 
 [fields]
 kind = "creature"
@@ -38,7 +41,6 @@ abilities = ["6", "17", "13", "2", "13", "4"]
 
 **Size:** small
 
-**Sources:** Ultimate Magic pg 117\
 **Experience points:** 100
 
 **Armor class:** 14/14/11

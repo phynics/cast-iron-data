@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "anachronisms", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "161"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 161
 
 Anachronisms, meaning things that seem out of place in a given time period, are always an issue in
 fantasy. Any time you try to draw from the past, your base assumptions as a resident of the present

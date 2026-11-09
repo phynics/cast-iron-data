@@ -6,6 +6,9 @@ source_ids = ["planes-of-power"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_lord_ymeri", path = "json/monsters_unique4.json" },
 ]
+[[sources]]
+publication = "planes-of-power"
+page = "54"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ powerful reptile._
 
 **Senses:** Darkvision 60 ft., Flamesense, True seeing
 
-**Sources:** Planes of Power pg 54\
 **Subtype:** Evil, Extraplanar, Fire
 
 **Experience points:** 4,915,200

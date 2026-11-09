@@ -6,6 +6,9 @@ source_ids = ["pathfinder-120-vault-of-the-onyx-citadel"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "troops_ironfang_magehunter_troop", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "pathfinder-120-vault-of-the-onyx-citadel"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ _This grim band of hobgoblin hunters is equipped with sturdy armor and well-used
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#120: Vault of the Onyx Citadel pg 88\
 **Subtype:** Goblinoid, Troop
 
 **Experience points:** 38,400

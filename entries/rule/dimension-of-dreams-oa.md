@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dimension_of_dreams_oa", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "241"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 241
 
 As a mortal sleeps, its monadic soul withdraws from the physical body to manifest in the Dimension
 of Dreams. This dream avatar is known as the lucid body, and can take a variety of forms based on

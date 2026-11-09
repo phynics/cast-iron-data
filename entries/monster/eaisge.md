@@ -6,6 +6,9 @@ source_ids = ["ire-of-the-storm"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eaisge", path = "json/monsters09.json" },
 ]
+[[sources]]
+publication = "ire-of-the-storm"
+page = "62"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ from its half-rotted flesh._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Ire of the Storm pg 62\
 **Subtype:** Aquatic
 
 **Type:** undead

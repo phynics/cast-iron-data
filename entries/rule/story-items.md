@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "story_items", path = "json/rules_gm03.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "107"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 107
 
 Magic items in fantasy literature often have a narrative attached to them. When the group gets a
 powerful item, you can use it as a springboard for story developments. Any item can be used as the

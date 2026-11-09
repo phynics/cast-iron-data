@@ -6,6 +6,9 @@ source_ids = ["pathfinder-71-rasputin-must-die"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloody_tears_and_jagged_smile", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "pathfinder-71-rasputin-must-die"
+page = "75"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: none
 Spell resistance: yes
 Target: you and see text
 :::
-
-**Sources:** Pathfinder \#71: Rasputin Must Die! pg 75
 
 > _[Szuriel's](ref/faith/szuriel) priests have access to the following spell._
 

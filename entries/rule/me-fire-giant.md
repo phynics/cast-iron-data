@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "me_fire_giant", path = "json/rules_adv_gm03.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "243"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 243
 
 This monster uses different gear than the Bestiary fire giant, but has the same CR.
 

@@ -6,14 +6,15 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "illusion", path = "json/spell_definitions.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "210"
 
 [fields]
 kind = "none"
 +++
 
 ## Illusion (school of magic)
-
-**Sources:** PRPG Core Rulebook pg 210
 
 Illusion spells deceive the senses or minds of others. They cause people to see things that are not
 there, not see things that are there, hear phantom noises, or remember things that never happened.

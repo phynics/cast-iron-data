@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "caydens_cup", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "149"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Sources:** Mythic Adventures pg 149\
 **Aura** faint conjuration; **CL** 5th\
 **Slot** none; **Price** 16,500 gp; **Weight** 1 lb.
 

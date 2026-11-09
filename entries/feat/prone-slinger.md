@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prone_slinger", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "113"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ normal = "Crossbows and firearms are the only ranged weapons that can be used wh
 +++
 
 ## Prone Slinger (Combat)
-
-**Sources:** Ultimate Combat pg 113
 
 Your sideways sling release allows you to launch bullets and stones even while prone.\
 **Benefit:** While [prone](ref/rule/prone), you can use a sling to make ranged attacks.\

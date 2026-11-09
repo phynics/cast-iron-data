@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "what_is_a_plane", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "184"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 184
 
 The planes of existence are different realities with interwoven connections. Except for rare linking
 points, each plane is effectively its own universe, with its own natural laws. The planes break down

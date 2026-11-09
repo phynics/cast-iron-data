@@ -6,13 +6,14 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "order_of_the_dragon", path = "json/class_ability_orders.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "35"
 
 [fields]
 kind = "class_option"
 group = "order"
 +++
-
-**Sources:** Advanced Player's Guide pg 35
 
 Cavaliers belonging to the order of the dragon dedicate themselves to a group of like-minded
 individuals, be it a mercenary company or a small band of adventurers. These cavaliers believe in

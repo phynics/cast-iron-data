@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pachycephalosaurus", path = "json/class_ability_druid_companions.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "312"
 
 [fields]
 kind = "class_option"
@@ -13,8 +16,6 @@ group = "animal-companion"
 +++
 
 ## Dinosaur (Pachycephalosaurus)
-
-**Sources:** Bestiary 3 pg 312
 
 **Companion Type**
 

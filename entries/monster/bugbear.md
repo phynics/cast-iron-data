@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bugbear", path = "json/monsters04.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "38"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ the thrill of the coming kill._
 
 **Senses:** Darkvision 60 ft., Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 38\
 **Subtype:** Goblinoid
 
 **Experience points:** 600

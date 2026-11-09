@@ -6,6 +6,9 @@ source_ids = ["pathfinder-51-the-hungry-storm"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nine_fold_spirit_sword", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "pathfinder-51-the-hungry-storm"
+page = "62"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Sources:** Pathfinder \#51: The Hungry Storm pg 62\
 **Aura** moderate conjuration; **CL** 9th\
 **Slot** none; **Price** 28,800 gp; **Weight** 4 lbs.
 

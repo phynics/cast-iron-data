@@ -6,6 +6,9 @@ source_ids = ["elves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sparkfly_crystal_arrow", path = "json/magic_enhancements2.json" },
 ]
+[[sources]]
+publication = "elves-of-golarion"
+page = "23"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "weak evocation"
 caster_level = "3rd"
 +++
 
-**Sources:** Elves of Golarion pg 23\
 **Aura** weak evocation; **CL** 3rd\
 **Slot** weapon quality; **Price** +1 bonus; **Weight** -
 

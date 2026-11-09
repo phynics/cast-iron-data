@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/symbol-of-death" },
 ]
+[[sources]]
+publication = "blood-of-the-ancients"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Descriptors: death
 :::
 
 ### Symbol of Storms
-
-**Sources:** Blood of the Ancients pg 28
 
 This spell functions as [symbol of death](ref/spell/symbol-of-death), except that when triggered, a
 30-foot-radius centered on the symbol fills with hurricane-force winds (75 mph). Each round, a bolt

@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lava_effects", path = "json/rules_gm08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "444"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 444
 
 Lava or magma deals 2d6 points of fire damage per round of exposure, except in the case of total
 immersion (such as when a character falls into the crater of an active volcano), which deals 20d6

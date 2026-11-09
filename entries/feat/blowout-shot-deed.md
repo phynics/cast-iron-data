@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/amateur-gunslinger", label = "or" },
 ]
+[[sources]]
+publication = "magical-marketplace"
+page = "22"
 
 [fields]
 kind = "feat"
@@ -19,8 +22,6 @@ benefit = "Spend 1 grit point to retrieve a specially prepared dose of black pow
 +++
 
 ## Blowout Shot Deed (Grit)
-
-**Sources:** Magical Marketplace pg 22
 
 By using a specially prepared mix of reagents, you can create concussive blasts with your firearm.\
 **Prerequisites:** Craft (alchemy) 3 ranks, grit class feature or

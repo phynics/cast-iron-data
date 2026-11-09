@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aqt_4", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "219"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 219
 
 ### Table 7-54: Types of Boats and Ships
 

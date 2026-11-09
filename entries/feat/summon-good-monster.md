@@ -6,14 +6,15 @@ source_ids = ["champions-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summon_good_monster", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "champions-of-purity"
+page = "33"
 
 [fields]
 kind = "feat"
 prerequisites = "Good alignment."
 benefit = "When casting summon monster, you also gain access to the list of good monsters below. Your righteous determination grants these summoned creatures the Diehard feat. You may still summon creatures from the standard list, but without the Diehard feat."
 +++
-
-**Sources:** Champions of Purity pg 33
 
 You can summon the aid of creatures driven by their very nature to destroy evil.\
 **Prerequisites:** Good alignment.\

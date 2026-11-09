@@ -6,13 +6,15 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snake", path = "json/class_ability_aspects.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "30"
 
 [fields]
 kind = "class_option"
 group = "shifter-aspect"
 +++
 
-**Sources:** Ultimate Wilderness pg 30\
 The snake is a sneaky and lethal foe who strikes unexpectedly with deadly effect, while avoiding
 opportune strikes made in return.
 

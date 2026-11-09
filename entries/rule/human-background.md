@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "human_background", path = "json/rules_basics03.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "19"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 19
 
 As diverse as they are widespread, humans tend to grow up in small or large societies of people with
 similar origins and histories, though individuals' paths may run the gamut from idealized to tragic.

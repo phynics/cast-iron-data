@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychic_asylum", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "181"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Target: you
 Subschool: Phantasm
 Descriptors: mind-affecting
 :::
-
-**Sources:** Occult Adventures pg 181
 
 You retreat into a [mindscape](ref/rule/mindscapes) of your own making that allows you to perform a
 lengthy mental task in an instant. You create a mental landscape that provides succor and calm for

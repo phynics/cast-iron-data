@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wartrain_mount", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "248"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Target: one indifferent or friendly animal
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Ultimate Magic pg 248
 
 You instill the target animal with the combat training general purpose (see the
 [Handle Animal](ref/skill/handle-animal) skill). This supersedes the animal's previous trained

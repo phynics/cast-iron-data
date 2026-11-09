@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fiery_shuriken", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "229"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Effect: Two or more fiery shuriken
 Subschool: Creation
 Descriptors: fire
 :::
-
-**Sources:** Ultimate Combat pg 229
 
 You call forth two fiery projectiles resembling shuriken, plus one more for every two caster levels
 beyond 3rd (to a maximum of eight shuriken at 15th level), which hover in front of you. When these

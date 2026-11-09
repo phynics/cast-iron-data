@@ -6,6 +6,9 @@ source_ids = ["alchemy-manual"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vial_of_efficacious_medicine", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "alchemy-manual"
+page = "17"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Sources:** Alchemy Manual pg 17\
 **Aura** faint conjuration; **CL** 5th\
 **Slot** none; **Price** 7,000 gp; **Weight** -
 

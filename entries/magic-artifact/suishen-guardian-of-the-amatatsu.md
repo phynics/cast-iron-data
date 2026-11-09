@@ -6,6 +6,9 @@ source_ids = ["pathfinder-50-night-of-frozen-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "suishen_guardian_of_the_amatatsu", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "pathfinder-50-night-of-frozen-shadows"
+page = "61"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong evocation"
 caster_level = "20th"
 +++
 
-**Sources:** Pathfinder \#50: Night of Frozen Shadows pg 61\
 **Aura** strong evocation; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 6 lbs.
 

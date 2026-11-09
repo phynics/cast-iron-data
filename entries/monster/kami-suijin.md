@@ -6,6 +6,9 @@ source_ids = ["pathfinder-52-forest-of-spirits"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kami_suijin", path = "json/monsters34.json" },
 ]
+[[sources]]
+publication = "pathfinder-52-forest-of-spirits"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ the sunlight and glossy eyes bright with good-natured intelligence._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#52: Forest of Spirits pg 88\
 **Subtype:** Kami, Native, Water
 
 **Experience points:** 38,400

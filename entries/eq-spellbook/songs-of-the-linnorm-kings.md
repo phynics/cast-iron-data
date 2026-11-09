@@ -6,6 +6,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "songs_of_the_linnorm_kings", path = "json/equipment_spellbooks.json" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "5"
 
 [fields]
 kind = "item"
@@ -15,8 +18,6 @@ category = "Spellbooks"
 ### Level 5 Skald
 
 _This book's cover is made of scales that are warm to the touch._
-
-**Sources:** Arcane Anthology pg 5
 
 **Value** 180 gp (440 gp with the preparation ritual)
 

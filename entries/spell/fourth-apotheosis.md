@@ -6,12 +6,14 @@ source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fourth_apotheosis", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "191"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Book of the Damned pg 191\
 **School** transmutation \[evil\]; **Level** 9\
 **Casting Time** 9 hours\
 **Components** V, S, M (significant living sacrifice of CR 9 or higher); SC (up to 20)\

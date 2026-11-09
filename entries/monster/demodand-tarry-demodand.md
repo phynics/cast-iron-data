@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demodand_tarry_demodand", path = "json/monsters29.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "71"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ that cap its long arms._
 
 **Senses:** Darkvision 120 ft., Detect good, Detect magic
 
-**Sources:** Bestiary 3 pg 71\
 **Subtype:** Chaotic, Demodand, Evil, Extraplanar
 
 **Experience points:** 25,600

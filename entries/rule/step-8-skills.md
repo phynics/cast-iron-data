@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "step_8_skills", path = "json/rules_adv_gm03.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "240"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 240
 
 Skill bonuses in simple monster creation are divided into two categories: good and master. A good
 skill is one the monster has a significant bonus in, representing what would normally come from a

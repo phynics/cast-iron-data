@@ -6,6 +6,9 @@ source_ids = ["pathfinder-68-the-shackled-hut"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "insidious_bear_trap", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "pathfinder-68-the-shackled-hut"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Pathfinder \#68: The Shackled Hut pg 60\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** none; **Price** 6,300 gp; **Weight** 10 lbs.
 

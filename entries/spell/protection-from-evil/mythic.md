@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/protection-from-evil", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "105"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 105
 
 The bonuses to AC and on saves increase to +4. Any evil creature attempting to possess or exercise
 mental control over the target must attempt a Will save against this spell. If it fails, the

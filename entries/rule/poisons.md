@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "poisons", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "139"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 139
 
 The poison track simulates the progressive effects of poison in the body. A character who is
 poisoned rolls a saving throw after the listed onset at the listed frequency. On an initial exposure

@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cold_snap", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "24"
 
 [fields]
 kind = "class_option"
@@ -24,8 +27,6 @@ group = "kineticist-wild-talent"
 
 **Prerequisite:** [cold adaptation](ref/kinetic/cold-adaptation),
 [shroud of water](ref/kinetic/shroud-of-water)
-
-**Source:** Occult Adventures/24
 
 You chill your _shroud of water_ and send the cold around you, creating an aura of numbing cold
 around yourself. Until the next time your burn is removed, you can begin or end the cold aura at

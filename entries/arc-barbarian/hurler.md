@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/barbarian" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "78"
 
 [fields]
 kind = "archetype"
 replaces = ["Fast movement"]
 +++
 
-**Sources:** Advanced Player's Guide pg 78\
 A raging barbarian is frightening enough in melee, but some become skilled at throwing objects at
 their foes before closing in for the kill. A hurler has the following class feature.
 

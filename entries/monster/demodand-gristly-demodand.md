@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demodand_gristly_demodand", path = "json/monsters29.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "72"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ greasy skin._
 
 **Senses:** Darkvision 120 ft., Detect good, Detect magic, See invisibility
 
-**Sources:** Bestiary 5 pg 72\
 **Subtype:** Chaotic, Demodand, Evil, Extraplanar
 
 **Experience points:** 102,400

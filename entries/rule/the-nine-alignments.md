@@ -6,12 +6,16 @@ source_ids = ["core-rulebook", "ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_nine_alignments", path = "json/rules_basics01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "166"
+[[sources]]
+publication = "ultimate-campaign"
+page = "134"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 166, Ultimate Campaign pg 134
 
 Nine distinct alignments define the possible combinations of the lawful-chaotic axis with the
 good-evil axis. Each description below depicts a typical character of that alignment. Remember that

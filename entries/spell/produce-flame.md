@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "produce_flame", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "326"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: yes
 Effect: flame in your palm
 Descriptors: fire
 :::
-
-**Sources:** PRPG Core Rulebook pg 326
 
 Flames as bright as a torch appear in your open hand. The flames harm neither you nor your
 equipment.

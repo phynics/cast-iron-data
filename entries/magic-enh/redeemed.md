@@ -6,6 +6,9 @@ source_ids = ["champions-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "redeemed", path = "json/magic_enhancements2.json" },
 ]
+[[sources]]
+publication = "champions-of-purity"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration and evocation [good]"
 caster_level = "12th"
 +++
 
-**Sources:** Champions of Purity pg 30\
 **Aura** strong abjuration and evocation \[good\]; **CL** 12th\
 **Slot** weapon quality; **Price** +3 bonus; **Weight** -
 

@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "pathfinder-67-the-snows-of-summer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "house_spirit_domovoi", path = "json/monsters14.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "142"
+[[sources]]
+publication = "pathfinder-67-the-snows-of-summer"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -40,7 +46,6 @@ _Barely knee-high, this small creature looks like a hairy old man with more bear
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 5 pg 142, Pathfinder \#67: The Snows of Summer pg 86\
 **Size:** tiny
 
 **Experience points:** 800

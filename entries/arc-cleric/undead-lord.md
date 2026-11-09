@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cleric" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "32"
 
 [fields]
 kind = "archetype"
 replaces = ["Domains"]
 +++
 
-**Sources:** Ultimate Magic pg 32\
 An undead lord is a cleric focused on using necromancy to control undead. Her flock is the walking
 dead and her choir the keening spirits of the damned. This unliving congregation is the
 manifestation of her unceasing love affair with death.

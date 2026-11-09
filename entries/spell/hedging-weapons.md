@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hedging_weapons", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "119"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 Target: you
 Descriptors: force
 :::
-
-**Sources:** Horror Adventures pg 119
 
 A weapon made from divine force appears and floats near you. This weapon takes the shape of your
 deity's favored weapon (if you have no deity, the weapon appears as a simple weapon with special

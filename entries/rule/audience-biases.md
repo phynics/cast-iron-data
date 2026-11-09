@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "audience_biases", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "176"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 176
 
 When a verbal duel features an audience that can be swayed, the GM determines any types of dueling
 tactics that the audience either favors or disfavors. If a crowd has a negative bias against a

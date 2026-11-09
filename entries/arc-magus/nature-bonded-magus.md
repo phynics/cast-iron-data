@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/magus" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "92"
 
 [fields]
 kind = "archetype"
 replaces = ["Arcane pool", "Spell recall", "Knowledge pool", "Improved spell recall"]
 +++
 
-**Sources:** Ultimate Wilderness pg 92\
 A nature-bonded magus synergizes arcane magic and the divine magic traditions of druids into a
 deadly synthesis.
 

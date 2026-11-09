@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "destined", path = "json/class_ability_bloodrager_bloodlines.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "19"
 
 [fields]
 kind = "class_option"
@@ -13,8 +16,6 @@ group = "bloodrager-bloodline"
 +++
 
 ## Destined Bloodline
-
-**Sources:** Advanced Class Guide pg 19
 
 Your bloodline is destined for great things. When you _bloodrage,_ you exude a greatness that makes
 all but the most legendary creatures seem lesser.

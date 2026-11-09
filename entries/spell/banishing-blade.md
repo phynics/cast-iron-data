@@ -6,6 +6,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "banishing_blade", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "7"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Saving throw: none and Will partial (see text)
 Spell resistance: yes (see text)
 Effect: one melee weapon
 :::
-
-**Sources:** Arcane Anthology pg 7
 
 You imbue a weapon with the power to drive foes back. The first time each round the weapon strikes a
 creature, the weapon attempts a free bull rush combat maneuver check against that creature. This

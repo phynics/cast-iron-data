@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "player_characters", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "58"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 58
 
 While the Game Master takes on numerous responsibilities vital to the smooth running and group
 enjoyment of a roleplaying game, his efforts focus on only half of a game's aspects. The other

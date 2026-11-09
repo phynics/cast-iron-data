@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "earth_elemental", path = "json/monsters09.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "122"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ for two glowing gemstone eyes._
 
 **Size:** small
 
-**Sources:** Pathfinder RPG Bestiary pg 122\
 **Subtype:** Earth, Elemental, Extraplanar
 
 **tremorsense:** 60

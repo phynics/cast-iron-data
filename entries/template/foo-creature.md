@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "foo_creature", path = "json/monster_template2.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "120"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Challenge rating:** +1
 
 **Inherited:** present
-
-**Source:** Bestiary 3/120
 
 Foo creatures are benevolent guardian spirits that hail originally from the Outer Plane of
 [Nirvana](ref/rule/nirvana), where they spend their days cavorting in the idyllic wilds or aiding

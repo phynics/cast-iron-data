@@ -9,6 +9,12 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/witch" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "89"
+[[sources]]
+publication = "heroes-of-the-wild"
+page = "11"
 
 [fields]
 kind = "archetype"
@@ -16,7 +22,6 @@ replaces = ["1st- and 10th-level hexes"]
 alters = ["Patron"]
 +++
 
-**Sources:** Ultimate Wilderness pg 89, Heroes of the Wild pg 11\
 Some witches dedicate their lives to the mastery of herb lore. Herb witches brew foul-tasting
 medicines, sweet poisons, and other concoctions from the untamed plants of the wild.
 

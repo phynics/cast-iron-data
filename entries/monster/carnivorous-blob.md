@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "carnivorous_blob", path = "json/monsters04.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "51"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ amorphous pseudopods in all directions._
 
 **Perception:** -5
 
-**Sources:** Bestiary 2 pg 51\
 **tremorsense:** 120
 
 **Experience points:** 25,600

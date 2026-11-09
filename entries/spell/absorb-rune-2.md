@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/absorb-rune-1" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "60"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Target: one spell effect
 :::
 
 ### Absorb Rune II
-
-**Sources:** Adventurer's Guide pg 60
 
 This spell functions like [absorb rune I](ref/spell/absorb-rune-1), but it can affect runes
 equivalent to a spell of 5th level or lower.

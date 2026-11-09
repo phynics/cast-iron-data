@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dinosaur_triceratops", path = "json/monsters08.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ back over its neck from its skull._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 86\
 **Experience points:** 4,800
 
 **Armor class:** 21/7/21

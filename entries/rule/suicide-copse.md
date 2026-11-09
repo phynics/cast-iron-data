@@ -6,12 +6,12 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "suicide_copse", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures
 
 **Suicide Copse (CR 4):** Certain forests are known for attracting unusual numbers of suicides. The
 exact cause can vary, and may be the result of mind-altering pollen, strange psychic phenomena, or

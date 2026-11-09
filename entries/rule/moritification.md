@@ -6,12 +6,13 @@ source_ids = ["occult-mysteries"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "moritification", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-mysteries"
+page = "44"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Mysteries pg 44
 
 Pain is a fact of life. It's unavoidable, inevitable, and unpleasant. However, for most creatures,
 pain is also an important warning system, helping creatures correctly judge their abilities and

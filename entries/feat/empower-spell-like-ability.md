@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "empower_spell_like_ability", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "314"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "This feat can be taken multiple times. Each time it is taken, the cre
 +++
 
 ## Empower Spell-Like Ability (Monster)
-
-**Sources:** Pathfinder RPG Bestiary pg 314
 
 One of this creature's [spell-like abilities](ref/umr/spell-like-abilities) is particularly potent
 and powerful.\

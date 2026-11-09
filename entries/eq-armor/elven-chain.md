@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elven_chain", path = "json/equipment_armor.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "126"
+[[sources]]
+publication = "core-rulebook"
+page = "464"
 
 [fields]
 kind = "item"
@@ -13,7 +19,6 @@ category = "Armor"
 weight = "20 lbs."
 +++
 
-**Sources:** Ultimate Equipment pg 126, PRPG Core Rulebook pg 464\
 **Cost** 5,150 gp **Weight** 20 lbs.\
 **Armor Bonus** +6; **Max Dex Bonus** +4; **Armor Check Penalty** -2\
 **Arcane Spell Failure Chance** 20%; **Speed** 30 ft./20 ft.\

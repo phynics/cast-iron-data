@@ -6,6 +6,9 @@ source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enlightened_step", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "divine-anthology"
+page = "12"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: no
 Target: you
 Descriptors: air, meditative
 :::
-
-**Sources:** Divine Anthology pg 12
 
 Through careful regulation of your body's mystical energies, thoughtful control of your poise and
 balance, and the focus in your mind on the surety of each and every step you take, you are able to

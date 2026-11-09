@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "health_aura", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "199"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 199
 
 A creature's health aura is a direct representation of the vital force flowing within its body. Ki
 comes from various sources in the outside world and flows into and throughout the nervous system via

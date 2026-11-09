@@ -6,6 +6,9 @@ source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daggermark_blade", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "advanced-class-origins"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination and enchantment"
 caster_level = "10th"
 +++
 
-**Sources:** Advanced Class Origins pg 28\
 **Aura** moderate divination and enchantment; **CL** 10th\
 **Slot** none; **Price** 8,302 gp; **Weight** 2 lbs.
 

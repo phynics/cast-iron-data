@@ -6,6 +6,15 @@ source_ids = ["ultimate-intrigue", "second-darkness-players-guide", "black-marke
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "codespeak", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "206"
+[[sources]]
+publication = "second-darkness-players-guide"
+page = "26"
+[[sources]]
+publication = "black-markets"
+page = "24"
 
 [fields]
 kind = "spell"
@@ -44,8 +53,6 @@ Saving throw: none
 Spell resistance: no
 Target: you plus one willing creature per 2 levels, no two of which can be more than 30 ft. apart
 :::
-
-**Sources:** Ultimate Intrigue pg 206, Second Darkness Player's Guide pg 26, Black Markets pg 24
 
 Upon casting this spell, all recipients gain the ability to speak a new language. This language
 sounds like random, babbling syllables to anyone not under the influence of the spell, but the

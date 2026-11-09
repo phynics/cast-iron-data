@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cannibalistic_hunter", path = "json/npcs3.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "15"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "9"
 
 **Challenge rating:** 9
 
-**Sources:** NPC Codex pg 15\
 **XP** 6,400\
 Halfling [barbarian](ref/class/barbarian) 10\
 NE Small humanoid (halfling)\

@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dimensional_blade", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "30"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Melee Tactics Toolbox pg 30
 
 This spell gives you the power to turn one melee weapon in your hand into a two-dimensional object
 with length and height but no width. A sword becomes a flat image of a sword, a mace is reduced to a

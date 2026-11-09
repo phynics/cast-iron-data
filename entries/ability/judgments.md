@@ -6,12 +6,13 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "judgments", path = "json/class_abilities6.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "39"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Advanced Player's Guide pg 39
 
 When an inquisitor uses the Judgment ability (as a swift action), she must select one type of
 judgment to make. As a swift action, she can change this judgment to another type. If the inquisitor

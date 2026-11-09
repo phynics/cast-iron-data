@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hangmans_noose", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "215"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "9th"
 +++
 
-**Sources:** Horror Adventures pg 215\
 **Aura** moderate necromancy; **CL** 9th\
 **Slot** none; **Price** 18,301 gp; **Weight** 2 lbs.
 

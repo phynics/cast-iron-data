@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/antipaladin" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "91"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["10th-level use of smite good", "Aura of vengeance", "The cruelty ga
 alters = ["Smite good", "Fiendish boon", "Unholy champion"]
 +++
 
-**Sources:** Ultimate Wilderness pg 91\
 Blighted myrmidons carry the seed of rot in their black hearts and sap life from the natural world.
 
 **Smite Nature (Su)**

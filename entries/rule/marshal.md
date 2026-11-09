@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "marshal", path = "json/rules_campaign_types04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "203"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 203
 
 The Marshal ensures that the kingdom's laws are being enforced in the remote parts of the kingdom as
 well as in the vicinity of the capital. The Marshal is also responsible for securing the kingdom's

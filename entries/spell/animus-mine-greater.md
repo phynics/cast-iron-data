@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/animus-mine" },
 ]
+[[sources]]
+publication = "heroes-of-the-darklands"
+page = "20"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Descriptors: mind-affecting
 :::
 
 ### Greater Animus Mine
-
-**Sources:** Heroes of the Darklands pg 20
 
 This functions as per [animus mine](ref/spell/animus-mine), except the triggering creature is
 stunned for 1d4 rounds instead of staggered. If the target succeeds at a Will saving throw, it takes

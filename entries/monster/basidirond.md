@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "basidirond", path = "json/monsters03.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "28"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ bell-shaped cap filled with spores._
 
 **Type:** plant
 
-**Sources:** Pathfinder RPG Bestiary pg 28\
 **Tremorsense:** present
 
 **Experience points:** 1,600

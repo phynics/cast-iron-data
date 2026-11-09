@@ -6,6 +6,9 @@ source_ids = ["inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mantis_deadly_mantis", path = "json/monsters16.json" },
 ]
+[[sources]]
+publication = "inner-sea-bestiary"
+page = "30"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ a meditative, deadly stance._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Inner Sea Bestiary pg 30\
 **Type:** vermin
 
 **Experience points:** 12,800

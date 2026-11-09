@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/fighter" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "44"
 
 [fields]
 kind = "archetype"
@@ -19,7 +22,6 @@ alters = ["Weapon mastery"]
 > _**Note:** This is a fighter archetype, and has no relation to the [brawler](ref/class/brawler)
 > hybrid class._
 
-**Sources:** Ultimate Combat pg 44\
 All melee is up close and personal, but some warriors bring it as close as they can get. Brawlers
 can be found anywhere, among all races and societies. A brawler could be hired muscle in a tavern, a
 local crime syndicate enforcer, or a hotheaded recruit among the ranks of a baron's guard. Often

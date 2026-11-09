@@ -6,6 +6,9 @@ source_ids = ["inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vaultbow", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "inner-sea-temples"
+page = "33"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration"
 caster_level = "13th"
 +++
 
-**Sources:** Inner Sea Temples pg 33\
 **Aura** strong conjuration; **CL** 13th\
 **Slot** none; **Price** 28,550 gp; **Weight** 4 lbs.
 

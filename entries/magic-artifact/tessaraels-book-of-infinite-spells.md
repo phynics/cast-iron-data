@@ -6,6 +6,9 @@ source_ids = ["fangwood-keep"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tessaraels_book_of_infinite_spells", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "fangwood-keep"
+page = "27"
 
 [fields]
 kind = "item"
@@ -16,8 +19,6 @@ slot = "none"
 aura = "strong (all schools)"
 caster_level = "18th"
 +++
-
-**Sources:** Fangwood Keep pg 27
 
 **Aura** strong (all schools); **CL** 18th\
 **Slot** none; **Price** -; **Weight** 2 lbs.

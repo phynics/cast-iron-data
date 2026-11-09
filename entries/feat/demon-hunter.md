@@ -6,6 +6,12 @@ source_ids = ["inner-sea-world-guide", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_hunter", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "286"
+[[sources]]
+publication = "pathfinder-campaign-setting"
+page = "98"
 
 [fields]
 kind = "feat"
@@ -15,8 +21,6 @@ benefit = "You gain a +2 bonus on Knowledge (planes) checks to know the powers a
 +++
 
 ## Demon Hunter (Combat)
-
-**Sources:** Inner Sea World Guide pg 286, Pathfinder Campaign Setting pg 98
 
 You are well-versed in demonic lore.\
 **Prerequisites:** Knowledge (planes) 6 ranks.\

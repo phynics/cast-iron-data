@@ -6,13 +6,14 @@ source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "streets", path = "json/class_ability_mysteries.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-streets"
+page = "20"
 
 [fields]
 kind = "class_option"
 group = "oracle-mystery"
 +++
-
-**Sources:** Heroes of the Streets pg 20
 
 **Deities**
 

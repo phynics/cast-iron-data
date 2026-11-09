@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "siege_commander", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "118"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When you lead a siege engine assembly crew, you grant all of its memb
 +++
 
 ## Siege Commander (Combat)
-
-**Sources:** Ultimate Combat pg 118
 
 Under your leadership, the time required to assemble and move a siege engine is greatly reduced.\
 **Prerequisites:** Craft (siege weapon) 5 ranks, Knowledge (engineering) 5 ranks or Profession

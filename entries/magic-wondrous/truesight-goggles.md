@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "truesight_goggles", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "227"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong divination"
 caster_level = "11th"
 +++
 
-**Sources:** Ultimate Equipment pg 227\
 **Aura** strong divination; **CL** 11th\
 **Slot** eyes; **Price** 184,800 gp; **Weight** -
 

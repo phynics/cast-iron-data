@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lend_path", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "114"
 
 [fields]
 kind = "spell"
@@ -53,8 +56,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
 :::
-
-**Sources:** Mythic Adventures pg 114
 
 You temporarily transfer one of your mythic path abilities to another creature, which can use it as
 if it were part of the creature's own path. If the target is unable to expend mythic power, it can't

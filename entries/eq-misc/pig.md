@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pig", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "80"
+[[sources]]
+publication = "ultimate-equipment"
+page = "93"
 
 [fields]
 kind = "item"
@@ -14,7 +20,6 @@ price = "3-10 gp"
 weight = "100-300 lbs."
 +++
 
-**Sources:** Ultimate Equipment pg 80, Ultimate Equipment pg 93\
 **Price** 3-10 gp; **Weight** 100-300 lbs.\
 **Category** Mounts/Pets
 

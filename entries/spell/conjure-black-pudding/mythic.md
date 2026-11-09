@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/conjure-black-pudding", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "89"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 89\
 The black pudding has [fast healing](ref/umr/fast-healing) equal to your tier, as do any puddings
 that split off from it. The black puddings from this spell never attack you, though they're
 otherwise uncontrolled and might attack your allies if there are no other obvious opponents.

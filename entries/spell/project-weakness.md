@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "project_weakness", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "blood-of-the-night"
+page = "30"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: yes
 Target: living creature touched
 Descriptors: curse, evil
 :::
-
-**Sources:** Blood of the Night pg 30
 
 > _[Vampires](ref/template/vampire) have access to the following spell._
 

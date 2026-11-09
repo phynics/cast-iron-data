@@ -6,6 +6,9 @@ source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blazing_hand", path = "json/magic_elemental_augmentations.json" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
+page = "24"
 
 [fields]
 kind = "item"
@@ -16,8 +19,6 @@ slot = "none"
 aura = "moderate evocation"
 caster_level = "10th"
 +++
-
-**Sources:** Elemental Master's Handbook pg 24
 
 **Aura** moderate evocation; **CL** 10th\
 **Slot** none; **Price** 16,000 gp; **Weight** —

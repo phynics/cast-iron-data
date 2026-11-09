@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burning_buildings_and_crumbling_structures", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "207"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 207
 
 The fire in the tavern has gotten out of control, the ancient fortress is falling apart, the
 villain's death causes his dark castle to collapse into the darkness below, or the powers holding

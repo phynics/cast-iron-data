@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "promethean_creature", path = "json/monster_template3.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "250"
 
 [fields]
 kind = "none"
@@ -18,8 +21,6 @@ kind = "none"
 **Challenge rating:** +1
 
 **Simple:** present
-
-**Source:** Horror Adventures/250
 
 A promethean creature has had some of its body replaced by [golem](ref/family/golem) parts.
 

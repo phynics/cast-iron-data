@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cave_fisher", path = "json/monsters04.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "41"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ held out menacingly before it._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 41\
 **Type:** vermin
 
 **Experience points:** 600

@@ -6,6 +6,9 @@ source_ids = ["mythical-monsters-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kraken_qwoshokk", path = "json/monsters34.json" },
 ]
+[[sources]]
+publication = "mythical-monsters-revisited"
+page = "39"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ glistening with blue energy._
 
 **Senses:** Darkvision 120 ft., Low-light vision
 
-**Sources:** Mythical Monsters Revisited pg 39\
 **Subtype:** Aquatic
 
 **Experience points:** 307,200

@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pillar_of_life", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "236"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Effect: 5-ft.-square pillar of positive energy, 20 ft. high
 Subschool: Healing
 Descriptors: light
 :::
-
-**Sources:** Advanced Player's Guide pg 236
 
 You conjure a pillar of positive energy in a single 5-foot square within range that radiates light
 as if it were a sunrod. Living creatures adjacent to the pillar can spend a standard action to touch

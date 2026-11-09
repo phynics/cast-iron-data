@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/inquisitor" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "46"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Solo tactics"]
 alters = ["Teamwork feats"]
 +++
 
-**Sources:** Ultimate Magic pg 46\
 Some inquisitors wander the land to spread the true word of their faith. Often they come into
 conflict with those hostile to their teachings or to the preacher's need to help those who cannot
 help themselves. The leaders of evil or aggressive religions send these preachers into new

@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wikkawak", path = "json/monsters25.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "278"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _This thick-bodied, white-furred bugbear wears bearskins and carries an axe made
 
 **Senses:** Darkvision 60 ft., Scent
 
-**Sources:** Bestiary 4 pg 278\
 **Subtype:** Goblinoid
 
 **Experience points:** 1,200

@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fearsome_spell", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "134"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "When a creature takes damage from a fearsome spell, if that creature 
 +++
 
 ## Fearsome Spell (Metamagic)
-
-**Sources:** Occult Adventures pg 134
 
 Your spells inspire great fear in those harmed by them.\
 **Benefit:** When a creature takes damage from a fearsome spell, if that creature failed its save

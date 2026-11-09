@@ -6,6 +6,12 @@ source_ids = ["planar-adventures", "lost-treasures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "astralabe", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "52"
+[[sources]]
+publication = "lost-treasures"
+page = "16"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate divination"
 caster_level = "8th"
 +++
 
-**Sources:** Planar Adventures pg 52, Lost Treasures pg 16\
 **Aura** moderate divination; **CL** 8th\
 **Slot** none; **Price** 16,000 gp; **Weight** 3 lbs.
 

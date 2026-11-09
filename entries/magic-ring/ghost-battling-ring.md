@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghost_battling_ring", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "258"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint illusion, necromancy, and transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Inner Sea Gods pg 258\
 **Aura** faint illusion, necromancy, and transmutation; **CL** 5th\
 **Slot** ring; **Price** 13,000 gp; **Weight** -
 

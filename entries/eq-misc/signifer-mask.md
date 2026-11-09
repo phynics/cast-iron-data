@@ -6,6 +6,12 @@ source_ids = ["path-of-the-hellknight", "adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "signifer_mask", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "path-of-the-hellknight"
+page = "63"
+[[sources]]
+publication = "adventurers-guide"
+page = "97"
 
 [fields]
 kind = "item"
@@ -14,7 +20,6 @@ price = "75 gp"
 weight = "2 lbs."
 +++
 
-**Sources:** Path of the Hellknight pg 63, Adventurer's Guide pg 97\
 **Price** 75 gp; **Weight** 2 lbs.\
 **Category** Clothing
 

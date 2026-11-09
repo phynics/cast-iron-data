@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_sawleg_locust", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "205"
 
 [fields]
 kind = "creature"
@@ -38,7 +41,6 @@ _The cat-sized insect has a long, cigar-shaped body. Its spiny back legs are lon
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Ultimate Wilderness pg 205\
 **Size:** tiny
 
 **Type:** vermin

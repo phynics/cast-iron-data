@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blink", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "250"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** PRPG Core Rulebook pg 250
 
 You "blink" quickly back and forth between the Material Plane and the Ethereal Plane and look as
 though you're winking in and out of reality at random. Blink has several effects, as follows.

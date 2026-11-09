@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/paladin" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "116"
 
 [fields]
 kind = "archetype"
 replaces = ["Mercy"]
 +++
 
-**Sources:** Advanced Player's Guide pg 116\
 Some paladins see themselves as the last line of defense between the teeming hordes of evil and the
 innocent folk trying to make a living in a harsh, unforgiving world. These defenders spend their
 lives protecting others and taking on foes that the common man should not even know exist. To aid

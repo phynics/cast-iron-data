@@ -6,6 +6,9 @@ source_ids = ["pathfinder-31-stolen-land"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drekavac", path = "json/monsters07.json" },
 ]
+[[sources]]
+publication = "pathfinder-31-stolen-land"
+page = "78"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ death and disease._
 
 **Size:** small
 
-**Sources:** Pathfinder \#31: Stolen Land pg 78\
 **Type:** undead
 
 **Experience points:** 800

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-106-for-queen-and-empire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "couatl_xiuh_couatl", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "pathfinder-106-for-queen-and-empire"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _Wreathed in flame, this winged serpent sports brightly colored feathers sparkin
 
 **Senses:** Darkvision 60 ft., Detect chaos/evil/good/law
 
-**Sources:** Pathfinder \#106: For Queen and Empire pg 86\
 **Subtype:** Native
 
 **thoughtsense:** 60

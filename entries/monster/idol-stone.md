@@ -6,6 +6,9 @@ source_ids = ["pathfinder-27-what-lies-in-dust"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "idol_stone", path = "json/monsters14.json" },
 ]
+[[sources]]
+publication = "pathfinder-27-what-lies-in-dust"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ sneering lord. Flecks of onyx glisten within its eyes, gazing across the gulf in
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#27: What Lies in Dust pg 84\
 **Experience points:** 800
 
 **Armor class:** 17/13/17

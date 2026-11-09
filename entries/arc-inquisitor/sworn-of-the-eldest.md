@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/inquisitor" },
 ]
+[[sources]]
+publication = "wilderness-origins"
+page = "11"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Monster lore", "Stern gaze", "Solo tactics", "All teamwork feats"]
 alters = ["Domain"]
 +++
 
-**Sources:** Wilderness Origins pg 11\
 Sworn of the Eldest are gathlains who have pledged their loyalty to one of
 [Eldest of the First World](ref/rule/the-eldest). Although the Eldest rarely have adherents as other
 deities do, they still occasionally require mortal agents to advance their aims. Sworn of the Eldest

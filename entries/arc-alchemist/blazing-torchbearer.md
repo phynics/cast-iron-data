@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "dungeoneers-handbook"
+page = "21"
 
 [fields]
 kind = "archetype"
 replaces = ["Brew Potion", "Poison use", "The alchemist's 4th-level discovery"]
 +++
 
-**Sources:** Dungeoneer's Handbook pg 21\
 The blazing torchbearer is especially adept at manipulating flames of all kinds.
 
 **Everburning Flame (Ex)**

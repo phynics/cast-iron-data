@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fishery", path = "json/rules_campaign_types04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "210"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 210
 
 A Fishery is like a Farm, except it provides abundant fish rather than planted crops.
 

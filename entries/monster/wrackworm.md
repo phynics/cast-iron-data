@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wrackworm", path = "json/monsters25.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "250"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ a massive fanged mouth._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Planar Adventures pg 250\
 **Subtype:** Chaotic, Evil, Extraplanar
 
 **Experience points:** 307,200

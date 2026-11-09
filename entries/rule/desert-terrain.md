@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "desert_terrain", path = "json/rules_gm08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "430"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 430
 
 Desert terrain exists in warm, temperate, and cold climates, but all deserts share one common trait:
 little rain. The three categories of desert terrain are tundra (cold desert), rocky deserts (often

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/summoner" },
 ]
+[[sources]]
+publication = "legacy-of-the-first-world"
+page = "18"
 
 [fields]
 kind = "archetype"
 replaces = ["Shield ally", "greater shield ally", "Maker's call", "transposition", "Merge forms"]
 +++
 
-**Sources:** Legacy of the First World pg 18\
 Reflecting the connected nature of Imbrex, a twinned summoner and his eidolon appear identical save
 for any obvious differences, such as evolutions or equipment.
 

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "kobolds-of-golarion"
+page = "23"
 
 [fields]
 kind = "archetype"
 replaces = ["Sneak attack (but see below)", "Trapfinding", "Master strike"]
 +++
 
-**Sources:** Kobolds of Golarion pg 23\
 Deep in darkness, the snare setter constructs his deadly traps and brutal mechanisms to confound and
 destroy any who try to invade his domain.
 

@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "perfect_strike", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "166"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "A weapon adept monk or zen archer monk receives Perfect Strike as a b
 +++
 
 ## Perfect Strike (Combat)
-
-**Sources:** Advanced Player's Guide pg 166
 
 When wielding a monk weapon, your attacks can be extremely precise.\
 **Prerequisites:** Dex 13, Wis 13, [Improved Unarmed Strike](ref/feat/improved-unarmed-strike), base

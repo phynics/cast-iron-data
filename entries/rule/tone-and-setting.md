@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tone_and_setting", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "10"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 10
 
 Once your players decide what style of game they're looking for, it's time to consider tone and
 setting. A group that's more interested in lighthearted silliness will disappoint a Game Master

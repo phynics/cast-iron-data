@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "combat_maneuvers", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "198"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 198
 
 During combat, you can attempt to perform a number of maneuvers that can hinder or even cripple your
 foe, including bull rush, disarm, grapple, overrun, sunder, and trip. Although these maneuvers have

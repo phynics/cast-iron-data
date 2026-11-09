@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animal_aspect", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "222"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Spell resistance: yes
 Target: you
 Subschool: Polymorph
 :::
-
-**Sources:** Ultimate Combat pg 222
 
 You gain some of the beneficial qualities of an animal. Your base form is largely unchanged and your
 size is unaltered, but some of your body parts are altered. Armor or gear you are wearing adjusts to

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/thought-shield-4" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "190"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Target: you
 :::
 
 ### Thought Shield V
-
-**Sources:** Occult Adventures pg 190
 
 This functions as [thought shield IV](ref/spell/thought-shield-4), except as noted above. This spell
 immediately ends if you fail a Will saving throw against a mind-affecting effect. This spell can be

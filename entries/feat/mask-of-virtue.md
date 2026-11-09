@@ -6,6 +6,9 @@ source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mask_of_virtue", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "champions-of-corruption"
+page = "17"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "Those who try to learn your true alignment find it hidden or receive 
 +++
 
 ## Mask of Virtue (Damnation)
-
-**Sources:** Champions of Corruption pg 17
 
 Your alignment is known to you and you alone.\
 **Benefit:** Those who try to learn your true alignment find it hidden or receive a false result.

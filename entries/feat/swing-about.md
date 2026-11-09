@@ -6,6 +6,9 @@ source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swing_about", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "giant-hunters-handbook"
+page = "19"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "If you have a free hand, as a move action you can grab a willing adja
 +++
 
 ## Swing About (Teamwork)
-
-**Sources:** Giant Hunter's Handbook pg 19
 
 You can grab an ally and move her to a position near you.\
 **Prerequisites:** [Escape Route](ref/feat/escape-route).\

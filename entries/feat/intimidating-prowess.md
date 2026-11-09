@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "intimidating_prowess", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "128"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ special = "An animal companion can't take both Ferocious Beast and Intimidating 
 +++
 
 ## Intimidating Prowess (Combat)
-
-**Sources:** PRPG Core Rulebook pg 128
 
 Your physical might is intimidating to others.\
 **Benefit:** Add your Strength modifier to Intimidate skill checks in addition to your Charisma

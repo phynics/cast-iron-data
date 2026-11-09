@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "infecting_spike", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "25"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "6th"
 +++
 
-**Sources:** Melee Tactics Toolbox pg 25\
 **Aura** moderate necromancy; **CL** 6th\
 **Slot** none; **Price** 42,350 gp; **Weight** 2 lbs.
 

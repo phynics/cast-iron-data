@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/mind-swap" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "176"
 
 [fields]
 kind = "spell"
@@ -57,8 +60,6 @@ Descriptors: mind-affecting
 :::
 
 ### Major Mind Swap
-
-**Sources:** Occult Adventures pg 176
 
 The spell functions as [mind swap](ref/spell/mind-swap), except as noted above. In addition, after
 24 hours, instead of using each other's hit points, you each revert to your original hit points,

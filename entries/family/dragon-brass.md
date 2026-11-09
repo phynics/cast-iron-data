@@ -6,14 +6,15 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_brass", path = "json/monster_families.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "102"
 
 [fields]
 kind = "none"
 +++
 
 ## Brass Dragon
-
-**Sources:** Pathfinder RPG Bestiary pg 102
 
 |Age Category|Special Abilities|Caster Level|
 | --- | --- | --- |

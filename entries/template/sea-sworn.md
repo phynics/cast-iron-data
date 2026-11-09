@@ -6,6 +6,9 @@ source_ids = ["treasure-of-chimera-cove"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sea_sworn", path = "json/monster_template4.json" },
 ]
+[[sources]]
+publication = "treasure-of-chimera-cove"
+page = "31"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +1
-
-**Source:** Treasure of Chimera Cove/31
 
 This creature stares with cold, black eyes, its bluish-green skin slick with moisture and stinking
 of brine and the muck of the tidal flats. Its hands and feet are webbed, and its facial features are

@@ -6,14 +6,15 @@ source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skaveling_companion", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "inner-sea-monster-codex"
+page = "59"
 
 [fields]
 kind = "feat"
 prerequisites = "7th level in a class that grants an animal companion or mount, urdefhan."
 benefit = "In place of the animal companion or mount granted by your class feature, you are bonded with a skaveling. Though less intelligent than others of its kind and lacking the ability to paralyze and infect victims with its bite, the beast serves you unerringly."
 +++
-
-**Sources:** Inner Sea Monster Codex pg 59
 
 You are bonded with a terrifying undead mount created through foul daemonic rites.\
 **Prerequisites:** 7th level in a class that grants an animal companion or mount,

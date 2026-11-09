@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_breaker", path = "json/npcs8.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "141"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "17"
 
 **Challenge rating:** 17
 
-**Sources:** NPC Codex pg 141\
 **XP** 102,400\
 Dwarf [ranger](ref/class/ranger) 18\
 LN Medium humanoid (dwarf)\

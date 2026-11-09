@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swipe_and_stash", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "94"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "If you have Walking Sleight, you can take either or both of your acti
 +++
 
 ## Swipe and Stash (Combat)
-
-**Sources:** Ultimate Intrigue pg 94
 
 Your fast fingers allow you to deftly deposit an item on someone else.\
 **Prerequisites:** Sleight of Hand 5 ranks.\

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "siphoning_blade", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "inner-sea-monster-codex"
+page = "59"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you use the Voracious Blade feat to deal Strength damage with yo
 +++
 
 ## Siphoning Blade (Combat)
-
-**Sources:** Inner Sea Monster Codex pg 59
 
 You can empower yourself by drawing blood through your rhoka sword.\
 **Prerequisites:** [Voracious Blade](ref/feat/voracious-blade), base attack bonus +8,

@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arrow_eruption", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "202"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: yes
 Area: 30-ft.-radius burst
 Subschool: Creation
 :::
-
-**Sources:** Advanced Player's Guide pg 202
 
 You create exact duplicates of the arrow or crossbow bolt you used to kill a creature in the
 previous round and launch one at enemy creatures within a 30-foot radius of the corpse. You can

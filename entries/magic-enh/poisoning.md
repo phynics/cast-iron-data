@@ -6,6 +6,9 @@ source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "poisoning", path = "json/magic_enhancements.json" },
 ]
+[[sources]]
+publication = "magical-marketplace"
+page = "27"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Sources:** Magical Marketplace pg 27\
 **Aura** moderate necromancy; **CL** 7th\
 **Slot** armor; **Price** +1 bonus; **Weight** -
 

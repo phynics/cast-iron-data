@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ice_body", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "224"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: no
 Target: you
 Descriptors: cold
 :::
-
-**Sources:** Ultimate Magic pg 224
 
 Your form transmutes into living ice, granting you several abilities. You gain the cold subtype and
 [damage reduction](ref/rule/damage-reduction) 5/magic. You are immune to ability score damage,

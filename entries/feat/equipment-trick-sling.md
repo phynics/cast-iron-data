@@ -6,6 +6,9 @@ source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "equipment_trick_sling", path = "json/feat06.json" },
 ]
+[[sources]]
+publication = "heroes-from-the-fringe"
+page = "29"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "You can gain Equipment Trick multiple times. Each time you take the f
 +++
 
 ## Equipment Trick (Sling) (Combat)
-
-**Sources:** Heroes from the Fringe pg 29
 
 Choose a piece of equipment, such as an boots, a cloak, rope, a shield, or a heavy blade scabbard.
 You understand how to use that piece of equipment in combat.\

@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grippli", path = "json/monsters13.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "149"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ wears leather armor._
 
 **Size:** small
 
-**Sources:** Bestiary 2 pg 149\
 **Subtype:** Grippli
 
 **Experience points:** 200

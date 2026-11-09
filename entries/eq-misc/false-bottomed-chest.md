@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "false_bottomed_chest", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "56"
+[[sources]]
+publication = "adventurers-armory"
+page = "19"
 
 [fields]
 kind = "item"
@@ -14,7 +20,6 @@ price = "52 gp"
 weight = "25 lbs."
 +++
 
-**Sources:** Ultimate Equipment pg 56, Adventurer's Armory pg 19\
 **Price** 52 gp; **Weight** 25 lbs.\
 **Category** Adventuring Gear
 

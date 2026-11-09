@@ -6,6 +6,9 @@ source_ids = ["pathfinder-77-herald-of-the-ivory-labyrinth"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mythic_amulet_of_the_abyss", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "pathfinder-77-herald-of-the-ivory-labyrinth"
+page = "63"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration [chaotic, evil]"
 caster_level = "15th"
 +++
 
-**Sources:** Pathfinder \#77: Herald of the Ivory Labyrinth pg 63\
 **Aura** strong conjuration \[chaotic, evil\]; **CL** 15th\
 **Slot** neck; **Price** -; **Weight** -
 

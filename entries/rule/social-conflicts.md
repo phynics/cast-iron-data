@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "social_conflicts", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "166"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 166
 
 The Pathfinder RPG is often played as a game of high adventure, where heroes brave wildernesses,
 monsters, dungeons, and other dangers to gain experience and treasure. Often cities and societies

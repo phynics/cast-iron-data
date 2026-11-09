@@ -6,12 +6,14 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "classes", path = "json/rules_basics01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "30"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** PRPG Core Rulebook pg 30\
 A character's class is one of his most defining features. It's the source of most of his abilities,
 and gives him a specific role in any adventuring party. The following eleven classes represent the
 core classes of the game.

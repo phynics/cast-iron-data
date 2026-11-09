@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/paladin" },
 ]
+[[sources]]
+publication = "monster-hunters-handbook"
+page = "18"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["3rd-level mercy"]
 alters = ["Smite evil", "Aura of justice"]
 +++
 
-**Sources:** Monster Hunter's Handbook pg 18\
 The banishing warden is an expert at fighting all types of evil outsiders and sending them back to
 their native planes.
 

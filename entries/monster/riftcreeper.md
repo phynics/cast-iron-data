@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "the-worldwound"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "riftcreeper", path = "json/monsters20.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "204"
+[[sources]]
+publication = "the-worldwound"
+page = "57"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ air in search of prey._
 
 **Perception:** +3
 
-**Sources:** Bestiary 5 pg 204, The Worldwound pg 57\
 **Subtype:** Extraplanar
 
 **tremorsense:** 120

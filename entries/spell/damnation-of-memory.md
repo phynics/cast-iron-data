@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "damnation_of_memory", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "218"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Targets: all living creatures within range
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Inner Sea Races pg 218
 
 > _The following spell is available to the indicated race or ethnicity: Garundi_
 

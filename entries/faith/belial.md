@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "belial", path = "json/faiths2.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "318"
 
 [fields]
 kind = "none"
@@ -15,7 +18,6 @@ kind = "none"
 
 **Sub:** The Pale Kiss
 
-**Sources:** Inner Sea Gods pg 318\
 **Monster Link** [Belial](ref/monster/archdevil-belial)
 
 ### Details

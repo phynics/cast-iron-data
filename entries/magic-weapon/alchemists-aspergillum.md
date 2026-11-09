@@ -6,6 +6,9 @@ source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alchemists_aspergillum", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "potions-and-poisons"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Sources:** Potions and Poisons pg 30\
 **Aura** faint abjuration; **CL** 3rd\
 **Slot** none; **Price** 2,805 gp; **Weight** 4 lbs.
 

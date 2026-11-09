@@ -6,6 +6,9 @@ source_ids = ["pathfinder-123-the-flooded-cathedral"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ioun_memory_node_type_3", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "pathfinder-123-the-flooded-cathedral"
+page = "78"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "13th"
 
 ## Ioun Memory Node
 
-**Sources:** Pathfinder \#123: The Flooded Cathedral pg 78\
 **Aura** strong transmutation; **CL** 13th\
 **Slot** none; **Price** 6,000 gp (Type I), 14,000 gp (Type II), 24,000 gp (Type III), 36,000 gp
 (Type IV); **Weight** -

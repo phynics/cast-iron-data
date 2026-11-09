@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grouped_skills", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "70"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 70
 
 Using the grouped skills system, characters gain bonuses for large categories of skills and higher
 bonuses for specific skills. Instead of replacing or modifying the skill list, this system finds

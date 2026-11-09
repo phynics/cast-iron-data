@@ -6,6 +6,9 @@ source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychic_aurascope", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "haunted-heroes-handbook"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "7th"
 +++
 
-**Sources:** Haunted Heroes Handbook pg 31\
 **Aura** moderate divination; **CL** 7th\
 **Slot** none; **Price** 8,000 gp; **Weight** 4 lbs.
 

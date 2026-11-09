@@ -10,6 +10,9 @@ relations = [
   { kind = "prerequisite", target = "ref/feat/inscribe-magical-tattoo", label = "or" },
   { kind = "prerequisite", target = "ref/feat/varisian-tattoo", label = "or" },
 ]
+[[sources]]
+publication = "monster-summoners-handbook"
+page = "14"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ prerequisites = "Inscribe Magical Tattoo or Varisian Tattoo; Spellcraft 5 ranks.
 prerequisite_feats = ["ref/feat/inscribe-magical-tattoo", "ref/feat/varisian-tattoo"]
 benefit = "As a standard action, you can touch a single creature that you've summoned, instantly transforming it into a magical tattoo on your body. This tattoo takes up one magic item slot if the summoned creature is Medium or smaller, and one additional adjacent slot for each size category larger than Medium. You can have only one such tattoo at a time."
 +++
-
-**Sources:** Monster Summoner's Handbook pg 14
 
 You've learned to absorb summoned creatures into temporary spell tattoos.\
 **Prerequisites:** [Inscribe Magical Tattoo](ref/feat/inscribe-magical-tattoo) or

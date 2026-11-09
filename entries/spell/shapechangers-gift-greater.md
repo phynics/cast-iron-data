@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/shapechangers-gift" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "235"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Subschool: Polymorph
 :::
 
 ### Greater Shapechanger's Gift
-
-**Sources:** Ultimate Wilderness pg 235
 
 This spell functions as [shapechanger's gift](ref/spell/shapechangers-gift) except the chosen form
 can be an animal (as per beast shape I), elemental (as per elemental body I), fey (as per fey form

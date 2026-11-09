@@ -6,13 +6,15 @@ source_ids = ["occult-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pride", path = "json/class_ability_emotional_focus.json" },
 ]
+[[sources]]
+publication = "occult-realms"
+page = "15"
 
 [fields]
 kind = "class_option"
 group = "emotional-focus"
 +++
 
-**Sources:** Occult Realms pg 15\
 No phantom is as arrogant as a pride phantom, which in life was an insufferable braggart and
 egotist. These phantoms often puff and posture while fighting, shouting brash taunts and paeans to
 their own supposed skill in all things. Pride phantoms are often a roiling green in color.

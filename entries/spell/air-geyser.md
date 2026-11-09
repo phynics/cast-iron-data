@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "air_geyser", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "173"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: yes
 Target: one creature or object up to Large size
 Descriptors: air
 :::
-
-**Sources:** Advanced Class Guide pg 173
 
 You create a powerful blast of air capable of flinging an opponent upward. If the target fails its
 Reflex save, the force of the air deals 2d6 points of bludgeoning damage and hurls the target upward

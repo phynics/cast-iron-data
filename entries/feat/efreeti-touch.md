@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "efreeti_touch", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "100"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using Efreeti Style, as a standard action, you can spend two El
 +++
 
 ## Efreeti Touch (Combat)
-
-**Sources:** Ultimate Combat pg 100
 
 Your knowledge of the secrets of the burning wind and blazing sun allows you to collect flames into
 your hands and unleash them in a gout of elemental fire.\

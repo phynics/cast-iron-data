@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "will_o_wisp", path = "json/monsters25.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "277"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ skull visible somewhere in its depths._
 
 **Size:** small
 
-**Sources:** Pathfinder RPG Bestiary pg 277\
 **Subtype:** Air
 
 **Experience points:** 2,400

@@ -6,6 +6,9 @@ source_ids = ["blood-of-dragonscar"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "necropyre_crystal", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "blood-of-dragonscar"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong necromancy and abjuration (evil)"
 caster_level = "20th"
 +++
 
-**Sources:** Blood of Dragonscar pg 29\
 **Aura** strong necromancy and abjuration (evil); **CL** 20th\
 **Slot** none; **Price** -; **Weight** 10 lbs.
 

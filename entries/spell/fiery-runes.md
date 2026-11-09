@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fiery_runes", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "30"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: yes (see text)
 Target: melee weapon touched
 Descriptors: fire
 :::
-
-**Sources:** Melee Tactics Toolbox pg 30
 
 You charge a weapon with a magic rune of fire. When the wielder of the weapon successfully strikes a
 foe in melee with the weapon, the wielder can discharge the rune as a swift action to deal 1d4+1

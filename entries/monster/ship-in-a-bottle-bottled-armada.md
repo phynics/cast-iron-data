@@ -6,6 +6,9 @@ source_ids = ["pathfinder-57-tempest-rising"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ship_in_a_bottle_bottled_armada", path = "json/monsters38.json" },
 ]
+[[sources]]
+publication = "pathfinder-57-tempest-rising"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ one, coordinating their attacks._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#57: Tempest Rising pg 86\
 **Subtype:** Swarm
 
 **Size:** tiny

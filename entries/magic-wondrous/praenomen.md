@@ -6,6 +6,9 @@ source_ids = ["lost-treasures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "praenomen", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "lost-treasures"
+page = "48"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration and enchantment"
 caster_level = "11th"
 +++
 
-**Sources:** Lost Treasures pg 48\
 **Aura** strong abjuration and enchantment; **CL** 11th\
 **Slot** chest; **Price** 64,200 gp; **Weight** 4 lbs.
 

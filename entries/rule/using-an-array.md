@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "using_an_array", path = "json/rules_adv_gm02.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "196"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 196
 
 In the simple monster creation system, you don't use the normal calculations to generate your
 monster's final statistics. Instead, you take the numbers directly from the array, then make a few

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-116-fangs-of-war"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ambergrim", path = "json/monsters26.json" },
 ]
+[[sources]]
+publication = "pathfinder-116-fangs-of-war"
+page = "80"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ detritus of the forest churning within._
 
 **Senses:** Low-light vision
 
-**Sources:** Pathfinder \#116: Fangs of War pg 80\
 **Experience points:** 2,400
 
 **Armor class:** 5/5/5

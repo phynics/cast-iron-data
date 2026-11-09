@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/monk" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "146"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Evasion", "Fast movement", "High jump", "Improved evasion", "Abunda
 alters = ["Bonus feats"]
 +++
 
-**Sources:** Advanced Race Guide pg 146\
 By following the path of the stone, students of stone give up much of monks' mobility in favor of
 sheer resilience. A student of stone has the following class features.
 

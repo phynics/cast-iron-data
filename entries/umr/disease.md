@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disease", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "292"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Disease (Ex or Su)
 
-**Sources:** Bestiary 5 pg 292\
 A creature with this ability causes disease in those it contacts. The effects of the disease,
 including its save, frequency, and cure, are included in the creature's description. The saving
 throw to negate the disease is usually a Fortitude save (DC = 10 + 1/2 infecting creature's racial

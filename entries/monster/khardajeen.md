@@ -6,6 +6,9 @@ source_ids = ["pathfinder-118-siege-of-stone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "khardajeen", path = "json/monsters15.json" },
 ]
+[[sources]]
+publication = "pathfinder-118-siege-of-stone"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ orbit the floating mass._
 
 **Senses:** Darkvision 120 ft., True seeing
 
-**Sources:** Pathfinder \#118: Siege of Stone pg 88\
 **Experience points:** 38,400
 
 **Armor class:** 29/17/22

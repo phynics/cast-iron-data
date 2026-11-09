@@ -6,13 +6,15 @@ source_ids = ["advanced-class-guide", "healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "healing", path = "json/class_ability_blessings.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "66"
 
 [fields]
 kind = "class_option"
 group = "warpriest-blessing"
 +++
 
-**Sources:** Advanced Class Guide pg 66\
 **Deities:** [Irori](ref/faith/irori), [Pharasma](ref/faith/pharasma),
 [Sarenrae](ref/faith/sarenrae)
 

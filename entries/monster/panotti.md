@@ -6,6 +6,9 @@ source_ids = ["murders-mark"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "panotti", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "murders-mark"
+page = "29"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ head and neck to just above his ankles._
 
 **Perception:** +2
 
-**Sources:** Murder's Mark pg 29\
 **Experience points:** 600
 
 **Armor class:** 16/12/14

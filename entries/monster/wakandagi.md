@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wakandagi", path = "json/monsters40.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "273"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _This antlered beast combines the features of an elegant deer and a slithering s
 
 **Senses:** Darkvision 60 ft., Detect evil, Detect magic, Low-light vision, Mistsight, Scent
 
-**Sources:** Bestiary 5 pg 273\
 **Subtype:** Native, Water
 
 **Experience points:** 38,400

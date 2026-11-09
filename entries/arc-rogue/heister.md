@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "45"
 
 [fields]
 kind = "archetype"
 replaces = ["Rogue talent gained at 2nd level", "Uncanny dodge", "rogue talent gained at 4th level", "Improved uncanny dodge", "rogue talent gained at 8th level"]
 +++
 
-**Sources:** Ultimate Intrigue pg 45\
 Notorious for their stealth, imagination, and elaborately planned thefts and capers, heisters
 specialize in breaking into secure locations, stealing items of value, and escaping undetected.
 Heisters often work as members of or independent operatives contracted to criminal organizations,

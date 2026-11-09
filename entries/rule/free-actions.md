@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "free_actions", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "188"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 188
 
 Free actions don't take any time at all, though there may be limits to the number of free actions
 you can perform in a turn. Free actions rarely incur attacks of opportunity. Some common free

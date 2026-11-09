@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ink_of_mimicry", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "247"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Intrigue pg 247\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** none; **Price** 1,950 gp; **Weight** -
 

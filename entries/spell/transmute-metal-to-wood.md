@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "transmute_metal_to_wood", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "361"
 
 [fields]
 kind = "spell"
@@ -36,8 +39,6 @@ Saving throw: none
 Spell resistance: yes (object; see text)
 Area: all metal objects within a 40-ft.-radius burst
 :::
-
-**Sources:** PRPG Core Rulebook pg 361
 
 This spell enables you to change all metal objects within its area to wood. Weapons, armor, and
 other metal objects carried by creatures are affected as well. A magic object made of metal

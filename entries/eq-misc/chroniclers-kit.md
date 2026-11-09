@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "pathfinder-society-field-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chroniclers_kit", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "56"
+[[sources]]
+publication = "pathfinder-society-field-guide"
+page = "47"
 
 [fields]
 kind = "item"
@@ -14,7 +20,6 @@ price = "40 gp"
 weight = "4-1/2 lbs."
 +++
 
-**Sources:** Ultimate Equipment pg 56, Pathfinder Society Field Guide pg 47\
 **Price** 40 gp; **Weight** 4-1/2 lbs.\
 **Category** Kits
 

@@ -6,6 +6,9 @@ source_ids = ["belkzen-hold-of-the-orc-hordes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "war_beast_of_belkzen_warcat_of_rull", path = "json/monsters27.json" },
 ]
+[[sources]]
+publication = "belkzen-hold-of-the-orc-hordes"
+page = "63"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ segmented plates._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Belkzen, Hold of the Orc Hordes pg 63\
 **Experience points:** 25,600
 
 **Armor class:** 28/12/24

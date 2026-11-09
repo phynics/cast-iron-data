@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/barbarian" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "130"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Uncanny dodge", "Trap sense"]
 alters = ["Rage"]
 +++
 
-**Sources:** Adventurer's Guide pg 130\
 Of the dangerous creatures that roam grim peaks and icy steppes, giants are among the most feared.
 They are cunning and capricious, and their ability to craft weapons and coordinate attacks makes
 them a constant threat to the nomadic tribes in the region. In the wilds where giants hunt,

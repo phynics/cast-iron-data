@@ -6,6 +6,9 @@ source_ids = ["pathfinder-42-sanctum-of-the-serpent-god"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "emperor_of_scales", path = "json/monsters_unique.json" },
 ]
+[[sources]]
+publication = "pathfinder-42-sanctum-of-the-serpent-god"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -50,7 +53,6 @@ DC 25)
 
 **Senses:** All-around vision, Darkvision 60 ft., Scent
 
-**Sources:** Pathfinder \#42: Sanctum of the Serpent God pg 82\
 **Subtype:** Chaotic, Evil, Native
 
 **Experience points:** 51,200

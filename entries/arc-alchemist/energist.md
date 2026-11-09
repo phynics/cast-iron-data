@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "13"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Poison immunity", "2nd-level discovery", "swift poisoning", "Poison
 alters = ["Extracts", "Bombs", "Throw anything"]
 +++
 
-**Sources:** Planar Adventures pg 13\
 While most alchemists experiment mainly with chemicals and physical materials to create disparate
 effects, energists tap into the energy of life or death: positive energy or negative energy.
 Energists are more likely than most alchemists to follow strange traditions and to travel the

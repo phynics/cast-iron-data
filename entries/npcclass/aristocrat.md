@@ -6,14 +6,15 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aristocrat", path = "json/npc_classes.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "449"
 
 [fields]
 kind = "class"
 class_type = "npc"
 hit_die = "d8."
 +++
-
-**Sources:** PRPG Core Rulebook pg 449
 
 **Hit Die:** d8.
 

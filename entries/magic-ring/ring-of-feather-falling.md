@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_feather_falling", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "170"
+[[sources]]
+publication = "core-rulebook"
+page = "479"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint transmutation"
 caster_level = "1st"
 +++
 
-**Sources:** Ultimate Equipment pg 170, PRPG Core Rulebook pg 479\
 **Aura** faint transmutation; **CL** 1st\
 **Slot** ring; **Price** 2,200 gp; **Weight** -
 

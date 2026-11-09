@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "strand_of_prayer_beads_lesser", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "321"
+[[sources]]
+publication = "core-rulebook"
+page = "530"
 
 [fields]
 kind = "item"
@@ -19,7 +25,6 @@ caster_level = "varies"
 
 ## Strand of Prayer Beads
 
-**Sources:** Ultimate Equipment pg 321, PRPG Core Rulebook pg 530\
 **Aura** varies; **CL** varies\
 **Slot** none; **Price** 9,600 gp (Lesser), 45,800 gp (Standard), 95,800 gp (Greater); **Weight**
 1/2 lb.

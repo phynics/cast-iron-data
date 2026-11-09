@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phantasmal_web", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "235"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Target: one creature/level, no two of which may be more than 30 ft. apart
 Subschool: Phantasm
 Descriptors: mind-affecting
 :::
-
-**Sources:** Advanced Player's Guide pg 235
 
 You implant within the minds of your targets the illusion that they are engulfed in tangled webs
 teeming with swarms of tiny spiders. Those who fail to disbelieve the phantasmal web are treated as

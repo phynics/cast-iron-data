@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/flaming-sphere" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "182"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Descriptors: fire
 :::
 
 ### Greater Flaming Sphere
-
-**Sources:** Advanced Class Guide pg 182
 
 This spell functions as [flaming sphere](ref/spell/flaming-sphere), except that it deals 6d6 points
 of fire damage to any creature it strikes. Any creature that fails its save against the sphere

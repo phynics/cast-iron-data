@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "barometz", path = "json/monsters03.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "16"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ wickedly sharp wooden branches._
 
 **Type:** plant
 
-**Sources:** Bestiary 4 pg 16\
 **Experience points:** 51,200
 
 **Armor class:** 31/11/26

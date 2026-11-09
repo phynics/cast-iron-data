@@ -6,6 +6,9 @@ source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "centered_spell", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "legacy-of-the-first-world"
+page = "23"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can center the area of a spell with an area effect and duration o
 +++
 
 ## Centered Spell (Metamagic)
-
-**Sources:** Legacy of the First World pg 23
 
 You can make a spell explode around you, leaving a safe zone for yourself at the center of the
 blast.\

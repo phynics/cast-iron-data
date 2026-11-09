@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pech", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "206"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ pickaxe in its knobby hands._
 
 **Size:** small
 
-**Sources:** Bestiary 2 pg 206\
 **Subtype:** Earth
 
 **Experience points:** 800

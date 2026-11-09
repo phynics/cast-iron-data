@@ -6,6 +6,12 @@ source_ids = ["book-of-the-damned", "book-of-the-damned-volume-2-lords-of-chaos"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rift_of_ruin", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "185"
+[[sources]]
+publication = "book-of-the-damned-volume-2-lords-of-chaos"
+page = "48"
 
 [fields]
 kind = "spell"
@@ -45,8 +51,6 @@ Effect: 5-ft.-wide, 60-ft.-deep extradimensional hole, up to 5 ft. long per leve
 Subschool: Calling
 Descriptors: chaotic, evil
 :::
-
-**Sources:** Book of the Damned pg 185, Book of the Damned - Volume 2: Lords of Chaos pg 48
 
 This spell tears a rift in reality, creating an extradimensional hole with a depth of 60 feet. You
 must create the rift on a horizontal surface of sufficient size. Since the rift extends into the

@@ -6,6 +6,9 @@ source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "touch_of_blindness", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "blood-of-shadows"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Spell resistance: yes
 Target: creature or creatures touched (up to one/level)
 Descriptors: darkness, shadow
 :::
-
-**Sources:** Blood of Shadows pg 29
 
 A touch from your hand, which is engulfed in darkness, disrupts a creature's vision by coating its
 eyes in supernatural darkness. Each touch causes the target to become blinded for 1 round unless it

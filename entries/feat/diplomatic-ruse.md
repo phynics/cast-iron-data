@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "diplomatic_ruse", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "205"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Whenever you're adjacent to an ally who also has this feat, you can p
 +++
 
 ## Diplomatic Ruse (Teamwork)
-
-**Sources:** Inner Sea Races pg 205
 
 With practiced gestures, you buy enough time to prepare yourself for an inevitable battle.\
 **Prerequisites:** Diplomacy 3 ranks, [human](ref/race/human) (Keleshite).\

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/investigator" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "54"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Trapfinding", "Poison resistance", "poison immunity", "Poison lore"
 alters = ["Studied combat", "Studied strike"]
 +++
 
-**Sources:** Horror Adventures pg 54\
 Cult hunters seek out heretical secret societies, purging their ideological taint and banishing
 summoned servants.
 

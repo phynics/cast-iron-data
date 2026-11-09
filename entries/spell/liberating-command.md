@@ -6,6 +6,12 @@ source_ids = ["ultimate-combat", "andoran-spirit-of-liberty"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "liberating_command", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "233"
+[[sources]]
+publication = "andoran-spirit-of-liberty"
+page = "27"
 
 [fields]
 kind = "spell"
@@ -51,8 +57,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: one creature
 :::
-
-**Sources:** Ultimate Combat pg 233, Andoran, Spirit of Liberty pg 27
 
 If the target is bound, grappled, or otherwise restrained, he may make an Escape Artist check to
 escape as an immediate action. He gains a competence bonus on this check equal to twice your caster

@@ -6,6 +6,9 @@ source_ids = ["seekers-of-secrets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eldritch_egress", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "seekers-of-secrets"
+page = "55"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Sources:** Seekers of Secrets pg 55\
 **Aura** moderate transmutation; **CL** 9th\
 **Slot** none; **Price** 10,000 gp; **Weight** 4 lbs.
 

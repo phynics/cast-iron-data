@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aspects_of_horror_heroes", path = "json/rules_campaign_types02.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "9"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 9
 
 The GM is telling a story and wants to include you in it. Consider including one or more of the
 following aspects and let your GM know so she can work them into her stories.

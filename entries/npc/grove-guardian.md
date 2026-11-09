@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grove_guardian", path = "json/npcs8.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "109"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "17"
 
 **Challenge rating:** 17
 
-**Sources:** NPC Codex pg 109\
 **XP** 102,400\
 Half-elf [monk](ref/class/monk) 18\
 LN Medium humanoid (elf, human)\

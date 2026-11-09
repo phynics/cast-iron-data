@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/expeditious-retreat", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "93"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 93\
 The speed bonus from the spell increases to 40 feet. Add your tier to Acrobatics checks to avoid
 attacks of opportunity from movement, and when your movement provokes an attack of opportunity, add
 your tier to your AC against that attack.

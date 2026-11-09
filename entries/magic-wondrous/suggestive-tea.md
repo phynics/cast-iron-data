@@ -6,6 +6,9 @@ source_ids = ["pathfinder-67-the-snows-of-summer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "suggestive_tea", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "pathfinder-67-the-snows-of-summer"
+page = "61"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint enchantment (compulsion)"
 caster_level = "5th"
 +++
 
-**Sources:** Pathfinder \#67: The Snows of Summer pg 61\
 **Aura** faint enchantment (compulsion); **CL** 5th\
 **Slot** none; **Price** 1,500 gp; **Weight** -
 

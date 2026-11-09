@@ -6,6 +6,8 @@ source_ids = ["blood-of-fiends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "melody_of_frightful_death", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "blood-of-fiends"
 
 [fields]
 kind = "class_option"
@@ -13,8 +15,6 @@ group = "bardic-masterpiece"
 +++
 
 ## Melody of Frightful Death (String)
-
-**Sources:** Blood of Fiends
 
 The pain and horror of the Abyss shrieks through your instrument to make a listener experience the
 death she dreads most.

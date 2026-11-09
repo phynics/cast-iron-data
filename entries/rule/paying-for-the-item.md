@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "paying_for_the_item", path = "json/rules_opt_magic01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "181"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 181
 
 The default cost for item creation with this method is 85% of the item's market value. Various
 challenges can raise and lower this amount. A party encountering and critically succeeding at a

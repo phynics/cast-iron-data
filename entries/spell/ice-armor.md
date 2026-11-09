@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "pathfinder-38-racing-to-ruin"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ice_armor", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "236"
+[[sources]]
+publication = "pathfinder-38-racing-to-ruin"
+page = "71"
 
 [fields]
 kind = "spell"
@@ -43,8 +49,6 @@ Spell resistance: no
 Effect: a suit of armor made of ice
 Descriptors: cold, water
 :::
-
-**Sources:** Inner Sea Gods pg 236, Pathfinder \#38: Racing to Ruin pg 71
 
 You create a suit of armor made of ice. While cold to the touch, it does not harm the wearer,
 especially if worn over normal clothing (though it can hasten the effects of exposure in cold

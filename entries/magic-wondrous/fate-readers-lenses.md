@@ -6,6 +6,9 @@ source_ids = ["the-harrow-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fate_readers_lenses", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "the-harrow-handbook"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong divination"
 caster_level = "5th"
 +++
 
-**Sources:** The Harrow Handbook pg 30\
 **Aura** strong divination; **CL** 5th\
 **Slot** none; **Price** 11,250 gp; **Weight** -
 

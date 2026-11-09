@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/investigator" },
 ]
+[[sources]]
+publication = "heroes-of-golarion"
+page = "18"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Poison lore", "Poison resistance", "Investigator talents gained at 
 alters = ["Studied strike"]
 +++
 
-**Sources:** Heroes of Golarion pg 18\
 Holomog is an ancient nation built on even more ancient ruins. Its renowned civil engineers develop
 skills that allow them to take full advantage of their environments.
 

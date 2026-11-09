@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trust", path = "json/rules_subsystems01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "148"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 148
 
 In order for you to secure a reliable contact, you must establish and maintain the contact's trust.
 A new contact won't typically reveal the full extent of his abilities or covert affiliations. For

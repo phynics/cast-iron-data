@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcane_sight", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "244"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** PRPG Core Rulebook pg 244
 
 This spell makes your eyes glow blue and allows you to see magical auras within 120 feet of you. The
 effect is similar to that of a detect magic spell, but arcane sight does not require concentration

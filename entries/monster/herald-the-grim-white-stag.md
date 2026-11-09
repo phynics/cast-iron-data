@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "pathfinder-32-rivers-run-red"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "herald_the_grim_white_stag", path = "json/monsters_unique2.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "286"
+[[sources]]
+publication = "pathfinder-32-rivers-run-red"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -46,7 +52,6 @@ limbs of some ancient, leaf less tree._
 
 **Senses:** Darkvision 60 ft., Detect evil, Low-light vision
 
-**Sources:** Inner Sea Gods pg 286, Pathfinder \#32: Rivers Run Red pg 82\
 **Subtype:** Extraplanar, Good, Lawful
 
 **Experience points:** 51,200

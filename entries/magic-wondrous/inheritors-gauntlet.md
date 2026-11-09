@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inheritors_gauntlet", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "265"
+[[sources]]
+publication = "gods-and-magic"
+page = "58"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Sources:** Inner Sea Gods pg 265, Gods and Magic pg 58\
 **Aura** faint evocation; **CL** 5th\
 **Slot** hands; **Price** 2,700 gp; **Weight** 1 lb.
 

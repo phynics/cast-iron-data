@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "pathfinder-47-ashes-at-dawn"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychopomp_vanth", path = "json/monsters19.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "221"
+[[sources]]
+publication = "pathfinder-47-ashes-at-dawn"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -45,7 +51,6 @@ its face should be._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Spiritsense
 
-**Sources:** Bestiary 4 pg 221, Pathfinder \#47: Ashes at Dawn pg 86\
 **Subtype:** Extraplanar, Psychopomp
 
 **Experience points:** 3,200

@@ -6,6 +6,8 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_requiem_of_the_fallen_priest_king", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
 
 [fields]
 kind = "class_option"
@@ -13,8 +15,6 @@ group = "bardic-masterpiece"
 +++
 
 ## The Requiem of the Fallen Priest-King (Oratory, Sing)
-
-**Sources:** Ultimate Magic
 
 Your performance reveals ways to cheat time itself.
 

@@ -6,14 +6,15 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "outsider", path = "json/monster_types.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "309"
 
 [fields]
 kind = "none"
 +++
 
 ## Type: Outsider
-
-**Sources:** Pathfinder RPG Bestiary pg 309
 
 An outsider is at least partially composed of the essence (but not necessarily the material) of some
 plane other than the Material Plane. Some creatures start out as some other type and become

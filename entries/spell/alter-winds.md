@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alter_winds", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "201"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: yes
 Area: immobile 10-ft.-radius emanation
 Descriptors: air
 :::
-
-**Sources:** Advanced Player's Guide pg 201
 
 You subtly enhance or diminish the effects of natural winds within the spell's area, which is an
 immobile emanation around a point touched by you as the spell is cast. Within the area, natural (but

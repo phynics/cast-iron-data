@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "megafauna_megalania", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "193"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ length of its body._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Bestiary 3 pg 193\
 **Experience points:** 3,200
 
 **Armor class:** 21/9/20

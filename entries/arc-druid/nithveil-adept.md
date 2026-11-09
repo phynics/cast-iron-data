@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "44"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Spontaneous casting", "Resist nature's lure"]
 alters = ["Nature bond"]
 +++
 
-**Sources:** Inner Sea Intrigue pg 44\
 Nithveil adepts learn the secret magic of the First World fey in the moving, reality-phasing city of
 Nithveil, which appears on the new moon at seemingly random locations in the Grungir Forest in the
 Lands of the Linnorm Kings. The most common deities worshiped by these druids are the Green Mother

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-55-the-wormwood-mutiny"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boarding_pike_of_repelling", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "pathfinder-55-the-wormwood-mutiny"
+page = "58"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Pathfinder \#55: The Wormwood Mutiny pg 58\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** none; **Price** 4,308 gp; **Weight** 9 lbs.
 

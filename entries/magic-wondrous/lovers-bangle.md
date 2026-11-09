@@ -6,6 +6,9 @@ source_ids = ["pathfinder-128-songbird-scion-saboteur"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lovers_bangle", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "pathfinder-128-songbird-scion-saboteur"
+page = "36"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Sources:** Pathfinder \#128: Songbird, Scion, Saboteur pg 36\
 **Aura** faint divination; **CL** 3rd\
 **Slot** wrists; **Price** 750 gp; **Weight** 1 lb.
 

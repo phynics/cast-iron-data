@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "paupers_robes", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-streets"
+page = "15"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint illusion"
 caster_level = "3rd"
 +++
 
-**Sources:** Heroes of the Streets pg 15\
 **Aura** faint illusion; **CL** 3rd\
 **Slot** body; **Price** 2,400 gp; **Weight** 4 lbs.
 

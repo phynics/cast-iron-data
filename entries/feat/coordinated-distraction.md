@@ -6,6 +6,9 @@ source_ids = ["demon-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "coordinated_distraction", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "demon-hunters-handbook"
+page = "21"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "When you and at least one ally with this feat threaten the same enemy
 +++
 
 ## Coordinated Distraction (Combat, Teamwork)
-
-**Sources:** Demon Hunter's Handbook pg 21
 
 When working in tandem, you can make it difficult for foes to use their magical abilities.\
 **Benefit:** When you and at least one ally with this feat threaten the same enemy, the enemy treats

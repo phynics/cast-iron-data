@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arid_refuge", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "blood-of-the-sea"
+page = "21"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 Effect: 20-ft.-square structure
 Subschool: Creation
 :::
-
-**Sources:** Blood of the Sea pg 21
 
 You conjure a small stone building on any relatively flat nonliving surface at least 20 feet square
 that can support its weight (such as the ocean floor or an underwater ridge). The outline of a door

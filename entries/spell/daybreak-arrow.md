@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daybreak_arrow", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "226"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: yes (object)
 Target: up to 50 pieces of ammunition, all of which must be together at the time of casting
 Descriptors: light
 :::
-
-**Sources:** Ultimate Combat pg 226
 
 You cause ammunition, including shuriken, to exude radiant energy. Creatures that take penalties in
 bright light take these penalties for 1 round after being struck by such ammunition. Undead and

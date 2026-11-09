@@ -6,14 +6,22 @@ source_ids = ["bestiary-6", "bestiary", "bestiary-2", "bestiary-4", "bestiary-5"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "azata", path = "json/monster_subtypes.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+[[sources]]
+publication = "bestiary"
+[[sources]]
+publication = "bestiary-2"
+[[sources]]
+publication = "bestiary-4"
+[[sources]]
+publication = "bestiary-5"
 
 [fields]
 kind = "none"
 +++
 
 ## Subtype: Azata
-
-**Sources:** Bestiary 6, Pathfinder RPG Bestiary, Bestiary 2, Bestiary 4, Bestiary 5
 
 [Azatas](ref/family/azata) are a race of celestials, or good outsiders, native to chaotic
 good-aligned Outer Planes, such as [Elysium](ref/rule/elysium). An azata has the following traits

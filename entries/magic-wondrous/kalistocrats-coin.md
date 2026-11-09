@@ -6,6 +6,9 @@ source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kalistocrats_coin", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "faiths-and-philosophies"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration and transmutation"
 caster_level = "1st"
 +++
 
-**Sources:** Faiths and Philosophies pg 30\
 **Aura** faint abjuration and transmutation; **CL** 1st\
 **Slot** none; **Price** 1,100 gp; **Weight** -
 

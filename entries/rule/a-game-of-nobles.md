@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "a_game_of_nobles", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "100"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 100
 
 Adventuring among the double-dealing and self-serving schemes of the nobility combines the
 Relationships and Loyalty, The Importance of Appearances, Bargains and Compromise, and The Power of

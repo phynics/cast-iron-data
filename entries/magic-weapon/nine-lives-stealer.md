@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nine_lives_stealer", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "157"
+[[sources]]
+publication = "core-rulebook"
+page = "471"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong necromancy"
 caster_level = "13th"
 +++
 
-**Sources:** Ultimate Equipment pg 157, PRPG Core Rulebook pg 471\
 **Aura** strong necromancy; **CL** 13th\
 **Slot** none; **Price** 23,057 gp; **Weight** 4 lbs.
 

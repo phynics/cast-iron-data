@@ -6,12 +6,14 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disciplines", path = "json/class_abilities.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "64"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Occult Adventures pg 64\
 The following disciplines represent those most commonly chosen by psychics. Followers of a
 discipline might come to it in a variety of different ways, and though some might join together in
 orders, others follow personal, singular interpretations of the discipline.

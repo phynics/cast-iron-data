@@ -6,6 +6,9 @@ source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "invisible_enemies_kit", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "17"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "900 gp"
 weight = "4 lbs."
 +++
 
-**Sources:** Adventurer's Armory 2 pg 17\
 **Price** 900 gp; **Weight** 4 lbs.\
 **Category** Kits
 

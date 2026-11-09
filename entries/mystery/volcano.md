@@ -6,13 +6,14 @@ source_ids = ["pathfinder-95-anvil-of-fire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "volcano", path = "json/class_ability_mysteries.json" },
 ]
+[[sources]]
+publication = "pathfinder-95-anvil-of-fire"
+page = "72"
 
 [fields]
 kind = "class_option"
 group = "oracle-mystery"
 +++
-
-**Sources:** Pathfinder \#95: Anvil of Fire pg 72
 
 **Deities**
 

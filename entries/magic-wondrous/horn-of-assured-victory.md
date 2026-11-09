@@ -6,6 +6,9 @@ source_ids = ["pathfinder-74-sword-of-valor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horn_of_assured_victory", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "pathfinder-74-sword-of-valor"
+page = "62"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment"
 caster_level = "11th"
 +++
 
-**Sources:** Pathfinder \#74: Sword of Valor pg 62\
 **Aura** moderate enchantment; **CL** 11th\
 **Slot** none; **Price** 13,000 gp; **Weight** 3 lbs.
 

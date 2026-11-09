@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "consecrate", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "258"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: no
 Area: 20-ft. radius emanation
 Descriptors: good
 :::
-
-**Sources:** PRPG Core Rulebook pg 258
 
 This spell blesses an area with positive energy. The DC to resist positive channeled energy within
 this area gains a +3 sacred bonus. Every undead creature entering a consecrated area suffers minor

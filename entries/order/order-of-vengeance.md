@@ -6,13 +6,14 @@ source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "order_of_vengeance", path = "json/class_ability_orders.json" },
 ]
+[[sources]]
+publication = "people-of-the-river"
+page = "10"
 
 [fields]
 kind = "class_option"
 group = "order"
 +++
-
-**Sources:** People of the River pg 10
 
 Often affiliated with the church of Calistria, those ex-Galtan cavaliers who subscribe to the order
 of vengeance seek not only to reclaim their rightful homeland, but to punish those who betrayed

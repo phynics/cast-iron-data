@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scarab_breastplate", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "129"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Sources:** Ultimate Equipment pg 129\
 **Aura** moderate transmutation; **CL** 8th\
 **Slot** armor; **Price** 32,350 gp; **Weight** 30 lbs.
 

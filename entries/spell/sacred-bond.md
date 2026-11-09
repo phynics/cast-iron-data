@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sacred_bond", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "240"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: yes (harmless)
 Target: creature touched
 Subschool: Healing
 :::
-
-**Sources:** Advanced Player's Guide pg 240
 
 To use this spell, you first touch the intended recipient, creating a sympathetic field of healing
 energies between you. Once the spell has been cast, you and the target may cast conjuration

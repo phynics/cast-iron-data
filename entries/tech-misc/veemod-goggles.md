@@ -6,6 +6,9 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "veemod_goggles", path = "json/equipment_tech_misc.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "53"
 
 [fields]
 kind = "item"
@@ -15,7 +18,6 @@ weight = "&mdash;"
 slot = "eyes"
 +++
 
-**Sources:** Technology Guide pg 53\
 **Price** 1,000 gp\
 **Slot** eyes; **Weight** —\
 **Capacity** 10; **Usage** varies

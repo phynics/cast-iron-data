@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blundering_defense", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "66"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever you fight defensively or use the total defense action, allie
 +++
 
 ## Blundering Defense (Combat)
-
-**Sources:** Advanced Race Guide pg 66
 
 Your feverish and sometimes comical defensive techniques offer enough distraction to aid allies.\
 **Prerequisites:** [Cautious Fighter](ref/feat/cautious-fighter), [halfling](ref/race/halfling).\

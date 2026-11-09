@@ -6,6 +6,9 @@ source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "singularity", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-origins"
+page = "7"
 
 [fields]
 kind = "class_option"
@@ -24,8 +27,6 @@ group = "kineticist-wild-talent"
 [Negative Blast](ref/kinetic/negative-blast), [Void Blast](ref/kinetic/void-blast)
 
 **Saving throw:** Reflex half
-
-**Source:** Occult Origins/7
 
 You create a growing singularity. Choose a grid intersection within 30 feet. All creatures and
 objects in a 5-foot-radius [burst](ref/misc/burst) centered on the intersection take

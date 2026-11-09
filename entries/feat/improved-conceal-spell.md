@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_conceal_spell", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "84"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ prerequisite_feats = ["ref/feat/conceal-spell", "ref/feat/deceitful"]
 benefit = "When you use Conceal Spell, creatures no longer gain a bonus equal to the level of the spell or spell-like ability on their checks to notice the hidden spell."
 normal = "Creatures attempting to notice a spell hidden with Conceal Spell gain a bonus equal to the level of the spell or spell-like ability on their Perception, Sense Motive, and Spellcraft checks."
 +++
-
-**Sources:** Ultimate Intrigue pg 84
 
 You can conceal the mightiest spells in the subtlest fashions.\
 **Prerequisites:** [Conceal Spell](ref/feat/conceal-spell), [Deceitful](ref/feat/deceitful), Bluff 5

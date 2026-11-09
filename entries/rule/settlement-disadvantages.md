@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "settlement_disadvantages", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "207"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 207
 
 Just as a settlement can have unusual qualities to enhance its statistics, it can also suffer from
 disadvantages. There's no limit to the number of disadvantages a community can suffer, but most do

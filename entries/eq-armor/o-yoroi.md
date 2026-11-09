@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "o_yoroi", path = "json/equipment_armor.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "9"
+[[sources]]
+publication = "ultimate-combat"
+page = "128"
 
 [fields]
 kind = "item"
@@ -13,7 +19,6 @@ category = "Armor"
 weight = "45 lbs."
 +++
 
-**Sources:** Ultimate Equipment pg 9, Ultimate Combat pg 128\
 **Cost** 1,700 gp **Weight** 45 lbs.\
 **Armor Bonus** +8; **Max Dex Bonus** +2; **Armor Check Penalty** -6\
 **Arcane Spell Failure Chance** 35%; **Speed** 20 ft./15 ft.\

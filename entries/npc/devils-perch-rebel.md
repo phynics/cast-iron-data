@@ -6,6 +6,9 @@ source_ids = ["inner-sea-npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devils_perch_rebel", path = "json/npcs5.json" },
 ]
+[[sources]]
+publication = "inner-sea-npc-codex"
+page = "18"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "4"
 
 **Challenge rating:** 4
 
-**Sources:** Inner Sea NPC Codex pg 18\
 **XP** 1,200\
 Strix [witch](ref/class/witch) 5\
 CN Medium humanoid (strix)\

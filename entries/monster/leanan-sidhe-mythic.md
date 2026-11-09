@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "leanan_sidhe_mythic", path = "json/monsters_mythic2.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "180"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ of twigs._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 4 pg 180\
 **Subtype:** Mythic
 
 **Experience points:** 6,400

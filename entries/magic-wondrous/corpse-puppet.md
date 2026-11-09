@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "corpse_puppet", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "blood-of-the-moon"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint necromancy"
 caster_level = "5th"
 +++
 
-**Sources:** Blood of the Moon pg 31\
 **Aura** faint necromancy; **CL** 5th\
 **Slot** none; **Price** 250 gp; **Weight** -
 

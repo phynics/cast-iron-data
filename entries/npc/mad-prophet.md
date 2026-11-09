@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mad_prophet", path = "json/npcs8.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "233"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "12"
 
 **Challenge rating:** 12
 
-**Sources:** NPC Codex pg 233\
 **XP** 19,200\
 Gnome [cleric](ref/class/cleric) of the [Old Cults](ref/rule/f-old-cults) 9/Pathfinder chronicler 4\
 CE Small humanoid (gnome)\

@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boar", path = "json/monsters27.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "36"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ tusks._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 36\
 **Experience points:** 600
 
 **Armor class:** 14/10/14

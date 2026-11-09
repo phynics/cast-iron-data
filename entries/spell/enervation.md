@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enervation", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "277"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: none
 Spell resistance: yes
 Effect: ray of negative energy
 :::
-
-**Sources:** PRPG Core Rulebook pg 277
 
 You point your finger and fire a black ray of negative energy that suppresses the life force of any
 living creature it strikes. You must make a ranged touch attack to hit. If you hit, the subject

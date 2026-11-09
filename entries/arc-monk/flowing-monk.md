@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/monk" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "58"
 
 [fields]
 kind = "archetype"
 replaces = ["Stunning fist", "The bonus feat gained at 2nd level", "Fast movement", "Purity of body", "diamond body", "Quivering palm"]
 +++
 
-**Sources:** Ultimate Combat pg 58\
 The flowing monk is the wind and the river. He knows how the world flows, and forces his enemies to
 flow with it. Even the most powerful stone breaks under the graceful and persistent pressure of wind
 and water.

@@ -6,12 +6,13 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "step_1_concept_arg", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "214"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Advanced Race Guide pg 214
 
 A race is more than just a group of individuals with similar qualities and traits. A race is a
 collection of people with a shared history and cultural identity. While the race builder presents

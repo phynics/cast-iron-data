@@ -6,12 +6,14 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aff_antislavery", path = "json/rules_subsystems01.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "38"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Adventurer's Guide pg 38\
 **Pathfinder Name:** Bellflower Network\
 **Scope:** regional\
 **Alignment:** CG\

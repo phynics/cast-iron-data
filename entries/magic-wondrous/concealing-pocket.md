@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "concealing_pocket", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "289"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint illusion"
 caster_level = "3rd"
 +++
 
-**Sources:** Ultimate Equipment pg 289\
 **Aura** faint illusion; **CL** 3rd\
 **Slot** none; **Price** 1,000 gp; **Weight** -
 

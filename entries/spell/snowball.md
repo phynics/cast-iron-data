@@ -6,6 +6,15 @@ source_ids = ["ultimate-wilderness", "people-of-the-north", "pathfinder-67-the-s
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snowball", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "235"
+[[sources]]
+publication = "people-of-the-north"
+page = "26"
+[[sources]]
+publication = "pathfinder-67-the-snows-of-summer"
+page = "73"
 
 [fields]
 kind = "spell"
@@ -47,9 +56,6 @@ Spell resistance: yes
 Effect: one ball of ice and snow
 Descriptors: cold, water
 :::
-
-**Sources:** Ultimate Wilderness pg 235, People of the North pg 26, Pathfinder \#67: The Snows of
-Summer pg 73
 
 You throw a ball of elemental ice and snow at a single target as a ranged touch attack. The snowball
 deals 1d6 points of cold damage per caster level you have (maximum 5d6).

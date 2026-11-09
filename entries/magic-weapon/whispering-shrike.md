@@ -6,6 +6,9 @@ source_ids = ["pathfinder-49-the-brinewall-legacy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "whispering_shrike", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "pathfinder-49-the-brinewall-legacy"
+page = "61"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Sources:** Pathfinder \#49: The Brinewall Legacy pg 61\
 **Aura** faint abjuration; **CL** 5th\
 **Slot** none; **Price** 5,940 gp; **Weight** 2 lbs.
 

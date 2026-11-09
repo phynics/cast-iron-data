@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "windwave_kilt", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "271"
+[[sources]]
+publication = "gods-and-magic"
+page = "61"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Inner Sea Gods pg 271, Gods and Magic pg 61\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** belt; **Price** 7,000 gp; **Weight** 5 lbs.
 

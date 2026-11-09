@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sensitive_topics", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "11"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 11
 
 Mature themes like cannibalism, drug use, gory violence, profanity, prostitution, and various forms
 of sexuality sometimes come up in the game, and not every group deals with them in the same way.

@@ -6,6 +6,9 @@ source_ids = ["lost-kingdoms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "embrace_destiny", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "lost-kingdoms"
+page = "12"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Lost Kingdoms pg 12
 
 Upon completing this spell, roll a single d20 and record the result. At any point during the
 duration of this spell, you may use that roll for a single ability check, attack roll, initiative

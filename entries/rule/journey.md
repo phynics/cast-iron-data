@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "journey", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "120"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 120
 
 The second part of the mythic structure is the journey. This part of the story can be nearly any
 length, from composing the middle of one session to encompassing dozens of sessions. The PCs, now

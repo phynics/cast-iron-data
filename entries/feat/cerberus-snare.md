@@ -6,6 +6,9 @@ source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cerberus_snare", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "plane-hoppers-handbook"
+page = "9"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever you damage an opponent with Cerberus Style, except that its 
 +++
 
 ## Cerberus Snare (Combat)
-
-**Sources:** Plane-Hopper's Handbook pg 9
 
 Your strikes latch onto your opponent like the jaws of a cerberus, preventing them from fleeing
 across planes.\

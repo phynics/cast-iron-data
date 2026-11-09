@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soothing_mud", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "236"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Area: dust, earth, sand, or water in one 5-ft. square/level
 Subschool: Healing
 Descriptors: earth, water
 :::
-
-**Sources:** Ultimate Wilderness pg 236
 
 You create an area of healing mud. Water, earth, sand, and dust thicken into a wet mud. The mud
 functions as difficult terrain and does not sink if created in water unless weighed down by more

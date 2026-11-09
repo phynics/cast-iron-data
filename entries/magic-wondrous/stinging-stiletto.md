@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stinging_stiletto", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "270"
+[[sources]]
+publication = "gods-and-magic"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Inner Sea Gods pg 270, Gods and Magic pg 60\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** neck, ring, or none; **Price** 4,500 gp; **Weight** -
 

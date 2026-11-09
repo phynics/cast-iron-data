@@ -6,6 +6,9 @@ source_ids = ["tears-at-bitter-manor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weirding_watch", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "tears-at-bitter-manor"
+page = "55"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Tears at Bitter Manor pg 55\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** none; **Price** 22,000 gp; **Weight** -
 

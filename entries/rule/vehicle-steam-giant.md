@@ -6,12 +6,14 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vehicle_steam_giant", path = "json/rules_rulesets02.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "183"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Ultimate Combat pg 183\
 Gargantuan land vehicle\
 **Squares** 16 (20 ft. by 20 ft.; 26 feet high); **Cost** 80,000 gp
 

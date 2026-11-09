@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shopkeeper", path = "json/npcs5.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "257"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "4"
 
 **Challenge rating:** 4
 
-**Sources:** NPC Codex pg 257\
 **XP** 1,200\
 Elf [commoner](ref/npcclass/commoner) 6\
 CN Medium humanoid (elf)\

@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "pathfinder-55-the-wormwood-mutiny"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "incutilis", path = "json/monsters14.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "157"
+[[sources]]
+publication = "pathfinder-55-the-wormwood-mutiny"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ textured like the surface a brain._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 4 pg 157, Pathfinder \#55: The Wormwood Mutiny pg 84\
 **Subtype:** Aquatic
 
 **Size:** tiny

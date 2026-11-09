@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "see_alignment", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "243"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Ultimate Combat pg 243
 
 When you cast this spell, select a single alignment (such as lawful good or chaotic evil). Creatures
 of that alignment glow with a ghostly radiance while they are within your vision. Though you can see

@@ -6,6 +6,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arodens_spellsword", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "7"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: Will negates (harmless) (object)
 Spell resistance: yes (harmless) (object)
 Effect: one melee weapon sized appropriately for you
 :::
-
-**Sources:** Arcane Anthology pg 7
 
 When you cast this spell on a weapon, you cause an extradimensional space to open within the weapon.
 As part of the casting, you can insert a single magic rod or magic staff into the weapon's

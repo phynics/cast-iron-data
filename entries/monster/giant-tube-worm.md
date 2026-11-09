@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_tube_worm", path = "json/monsters11.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "249"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ substance._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 6 pg 249\
 **Subtype:** Aquatic
 
 **tremorsense:** 30

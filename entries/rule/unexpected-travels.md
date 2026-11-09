@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unexpected_travels", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "139"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 139
 
 After spending the night in a hollow, the heroes waken to a feeling of unease. The trees appear to
 have moved during the night, the road is missing, and the hill giant that just wandered into camp

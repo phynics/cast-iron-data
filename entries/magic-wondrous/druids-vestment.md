@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "druids_vestment", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "215"
+[[sources]]
+publication = "core-rulebook"
+page = "532"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Sources:** Ultimate Equipment pg 215, PRPG Core Rulebook pg 532\
 **Aura** moderate transmutation; **CL** 10th\
 **Slot** body; **Price** 3,750 gp; **Weight** -
 

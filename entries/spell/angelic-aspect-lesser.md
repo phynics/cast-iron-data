@@ -6,6 +6,9 @@ source_ids = ["champions-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "angelic_aspect_lesser", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "champions-of-purity"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: none
 Spell resistance: no
 Descriptors: good
 :::
-
-**Sources:** Champions of Purity pg 28
 
 You take on an aspect of an angelic being, including some of its physical characteristics. You gain
 [low-light vision](ref/rule/low-light-vision), resistance to acid 5, resistance to cold 5, and the

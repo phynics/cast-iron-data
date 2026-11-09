@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "haunted-heroes-handbook"
+page = "14"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Brew Potion"]
 alters = ["Extracts"]
 +++
 
-**Sources:** Haunted Heroes Handbook pg 14\
 Able to distill spectral horrors into alchemical reagents, the eccentric techniques of the ectoplasm
 master originated among agents of the [Whispering Way](ref/rule/f-gravepath), though their secrets
 have since been exposed and spread to the winds by their rivals in the Esoteric Order of the

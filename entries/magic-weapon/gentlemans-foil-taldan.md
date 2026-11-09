@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gentlemans_foil_taldan", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "226"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration"
 caster_level = "1st"
 +++
 
-**Sources:** Inner Sea Races pg 226\
 **Aura** faint abjuration; **CL** 1st\
 **Slot** none; **Price** 32,320 gp; **Weight** 2 lbs.
 

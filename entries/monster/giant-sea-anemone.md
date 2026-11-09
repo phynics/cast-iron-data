@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_sea_anemone", path = "json/monsters11.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "238"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ around an enormous, toothless maw._
 
 **Perception:** +0
 
-**Sources:** Bestiary 3 pg 238\
 **Subtype:** Aquatic
 
 **Type:** vermin

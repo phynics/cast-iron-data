@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ectoplasmic_snare", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "168"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: Reflex partial, see text
 Spell resistance: yes
 Effect: entangling web of ectoplasm
 :::
-
-**Sources:** Occult Adventures pg 168
 
 You unleash a writhing tendril of ectoplasm to grapple or entangle a target creature. You must make
 a ranged touch attack to strike a target. If you hit, the target can attempt a Reflex save. On a

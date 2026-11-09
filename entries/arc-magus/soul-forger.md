@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/magus" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "57"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Knowledge pool", "Spell recall", "Improved spell recall", "Counters
 alters = ["Spell combat", "Spellstrike"]
 +++
 
-**Sources:** Ultimate Combat pg 57\
 The soul forger has learned the skill of infusing the raw magical essence of his soul into armaments
 of surpassing power, combining the mystic arts with the arts of war in a unity of steely perfection.
 

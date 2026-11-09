@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reckless_infatuation", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "234"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: emotion, mind-affecting
 :::
-
-**Sources:** Ultimate Magic pg 234
 
 You fill your target with feelings of intense infatuation for a specific individual known to the
 target. At the time of the casting, you designate a single creature as the focus of the target's

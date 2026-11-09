@@ -6,6 +6,9 @@ source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swarmform_elixir", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "potions-and-poisons"
+page = "21"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Sources:** Potions and Poisons pg 21\
 **Aura** moderate transmutation; **CL** 11th\
 **Slot** none; **Price** 3,300 gp; **Weight** -
 

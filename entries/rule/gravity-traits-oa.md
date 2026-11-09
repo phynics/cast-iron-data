@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gravity_traits_oa", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "237"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 237
 
 The creator or controller of a mindscape determines whether gravity exists in that mindscape, and if
 it does, how strongly it exerts its pull.

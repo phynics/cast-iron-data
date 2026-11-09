@@ -6,12 +6,13 @@ source_ids = ["lost-cities-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "midnight_milk", path = "json/drugs.json" },
 ]
+[[sources]]
+publication = "lost-cities-of-golarion"
+page = "12"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Lost Cities of Golarion pg 12
 
 **Type:** ingested
 

@@ -6,6 +6,9 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "signal_jammer", path = "json/equipment_tech_misc.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "52"
 
 [fields]
 kind = "item"
@@ -15,7 +18,6 @@ weight = "8 lbs."
 slot = "none"
 +++
 
-**Sources:** Technology Guide pg 52\
 **Price** 10,000 gp\
 **Slot** none; **Weight** 8 lbs.\
 **Capacity** 24; **Usage** 1 charge/hour

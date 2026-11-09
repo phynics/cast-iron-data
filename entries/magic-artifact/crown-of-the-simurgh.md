@@ -6,6 +6,12 @@ source_ids = ["artifacts-and-legends", "pathfinder-24-the-final-wish"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crown_of_the_simurgh", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "artifacts-and-legends"
+page = "57"
+[[sources]]
+publication = "pathfinder-24-the-final-wish"
+page = "87"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong divination and transmutation [good]"
 caster_level = "18th"
 +++
 
-**Sources:** Artifacts and Legends pg 57, Pathfinder \#24: The Final Wish pg 87\
 **Aura** strong divination and transmutation \[good\]; **CL** 18th\
 **Slot** head; **Price** -; **Weight** 1 lb.
 

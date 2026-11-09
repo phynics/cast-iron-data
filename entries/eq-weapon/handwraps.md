@@ -6,14 +6,15 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "handwraps", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "30"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "-"
 +++
-
-**Sources:** Martial Arts Handbook pg 30
 
 Many unarmed fighters wrap their hands in cloth to minimize injuries to their fists. Some martial
 artists also weave small coins or metal bars into their handwraps, adding special material effects

@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "taking_a_different_path", path = "json/rules_adv_pc01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "186"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 186
 
 A character that stops being a PC doesn't have to quit adventuring; that PC just isn't part of the
 main adventuring party anymore. A devout mystic might leave the group to undertake a sacred

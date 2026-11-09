@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flinging_charge", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "111"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "If you have a thrown weapon in hand when you begin charging, you can 
 +++
 
 ## Flinging Charge (Combat)
-
-**Sources:** Ultimate Wilderness pg 111
 
 You hurl a weapon during your [charge](ref/rule/charge) before drawing a new one to strike, enabling
 you to make another attack at the expense of the latter attack's accuracy.\

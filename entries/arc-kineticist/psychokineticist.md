@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/kineticist" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "56"
 
 [fields]
 kind = "archetype"
 alters = ["Class skills", "key ability score of wild talents", "Burn", "Elemental overflow"]
 +++
 
-**Sources:** Horror Adventures pg 56\
 While most kineticists channel elemental power through their bodies, rare kineticists, such as
 _elemental ascetics, overwhelming souls,_ and _psychokineticists_ channel such power through their
 minds. Psychokineticists lack an _overwhelming soul's_ strong spirit, and so this energy ravages

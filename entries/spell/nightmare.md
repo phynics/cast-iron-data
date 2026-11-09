@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nightmare", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "316"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Target: one living creature
 Subschool: Phantasm
 Descriptors: mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 316
 
 You send a hideous and unsettling phantasmal vision to a specific creature that you name or
 otherwise specifically designate.

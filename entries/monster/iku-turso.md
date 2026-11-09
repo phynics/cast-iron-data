@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "iku_turso", path = "json/monsters14.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "153"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ humanoid._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 3 pg 153\
 **Subtype:** Aquatic
 
 **Experience points:** 4,800

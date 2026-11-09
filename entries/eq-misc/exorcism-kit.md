@@ -6,6 +6,9 @@ source_ids = ["demon-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "exorcism_kit", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "demon-hunters-handbook"
+page = "7"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "950 gp"
 weight = "44 lbs."
 +++
 
-**Sources:** Demon Hunter's Handbook pg 7\
 **Price** 950 gp; **Weight** 44 lbs.\
 **Category** Kits
 

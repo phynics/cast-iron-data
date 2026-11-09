@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boiling_blood", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "209"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Saving throw: Fortitude negates (see text)
 Spell resistance: yes
 Targets: one creature per three levels, no two of which may be more than 30 ft. apart
 :::
-
-**Sources:** Ultimate Magic pg 209
 
 The blood of the targeted creatures begins to boil. If a target fails its save, it takes 1 point of
 fire damage per round. This spell has no effect on creatures that don't have blood.

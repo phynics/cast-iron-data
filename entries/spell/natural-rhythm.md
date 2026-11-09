@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "natural_rhythm", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "233"
 
 [fields]
 kind = "spell"
@@ -37,8 +40,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
 :::
-
-**Sources:** Advanced Player's Guide pg 233
 
 You enhance a creature's ability to harm an opponent based on the number of times it has already
 injured that opponent with a natural attack. Each time the creature successfully strikes an opponent

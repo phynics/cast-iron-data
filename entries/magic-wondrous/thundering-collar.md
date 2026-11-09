@@ -6,6 +6,9 @@ source_ids = ["inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thundering_collar", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "inner-sea-temples"
+page = "22"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration"
 caster_level = "1st"
 +++
 
-**Sources:** Inner Sea Temples pg 22\
 **Aura** faint abjuration; **CL** 1st\
 **Slot** neck; **Price** 4,800 gp; **Weight** 1 lb.
 

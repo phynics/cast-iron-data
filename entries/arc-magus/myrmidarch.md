@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/magus" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "56"
 
 [fields]
 kind = "archetype"
 replaces = ["Spell recall", "improved spell recall", "Magus arcana gained at 6th, 12th, and 18th levels", "Knowledge pool, 10th-level fighter training", "Improved spell combat", "greater spell combat", "True magus"]
 +++
 
-**Sources:** Ultimate Combat pg 56\
 The myrmidarch is a skilled specialist, using magic to supplement and augment his martial mastery.
 Less inclined to mix the two than a typical magus, the myrmidarch seeks supremacy with blade, bow,
 and armor.

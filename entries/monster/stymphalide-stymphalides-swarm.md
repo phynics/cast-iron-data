@@ -6,6 +6,9 @@ source_ids = ["pathfinder-26-the-sixfold-trial"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stymphalide_stymphalides_swarm", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "pathfinder-26-the-sixfold-trial"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ metallic gleam, reflecting even the dimmest light back a hundredfold through a d
 
 **Senses:** Low-light vision
 
-**Sources:** Pathfinder \#26: The Sixfold Trial pg 88\
 **Subtype:** Swarm
 
 **Size:** tiny

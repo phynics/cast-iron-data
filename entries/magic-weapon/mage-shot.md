@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mage_shot", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "57"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "6th"
 +++
 
-**Sources:** Villain Codex pg 57\
 **Aura** moderate evocation; **CL** 6th\
 **Slot** none; **Price** 178 gp; **Weight** -
 

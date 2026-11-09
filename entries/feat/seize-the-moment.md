@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seize_the_moment", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "118"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When an ally who also has this feat confirms a critical hit against a
 +++
 
 ## Seize the Moment (Combat, Teamwork)
-
-**Sources:** Ultimate Combat pg 118
 
 You and your allies are poised to pounce whenever one of you scores a telling blow.\
 **Prerequisites:** [Combat Reflexes](ref/feat/combat-reflexes),

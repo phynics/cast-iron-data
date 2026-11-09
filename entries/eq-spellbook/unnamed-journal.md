@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unnamed_journal", path = "json/equipment_spellbooks.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "121"
 
 [fields]
 kind = "item"
@@ -16,8 +19,6 @@ category = "Spellbooks"
 
 _This is a simple, unadorned spellbook. Notes on improving the efficiency of each spell crowd the
 margins, most of them hopelessly misguided._
-
-**Sources:** Ultimate Magic pg 121
 
 **Value** 275 gp
 

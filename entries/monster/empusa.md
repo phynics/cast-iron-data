@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "empusa", path = "json/monsters42.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "232"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ whip._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Planar Adventures pg 232\
 **Subtype:** Chaotic, Extraplanar, Shapechanger
 
 **Experience points:** 25,600

@@ -6,6 +6,9 @@ source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "egorian_diplomacy", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "spymasters-handbook"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Spymaster's Handbook pg 28
 
 As part of casting this spell, you can attempt a single Intimidate skill check to make a target act
 friendly toward you. If you succeed, the target assists you normally, but Egorian diplomacy clouds

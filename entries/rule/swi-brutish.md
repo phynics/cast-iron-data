@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swi_brutish", path = "json/rules_opt_magic02.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "168"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 168
 
 **Slot** feet; CL 8th; **Weight** 6 lbs.\
 **Aura** moderate transmutation; **Price** 5,814 gp; **Scaling** wonder

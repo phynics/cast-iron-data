@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/mark-of-justice" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "79"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: curse, fear
 :::
-
-**Sources:** Advanced Race Guide pg 79
 
 > _[Humans](ref/race/human) have access to the following spells._
 

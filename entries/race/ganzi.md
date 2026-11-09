@@ -6,12 +6,17 @@ source_ids = ["planar-adventures", "distant-shores", "plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ganzi", path = "json/races3.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "234"
+[[sources]]
+publication = "distant-shores"
+page = "22"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Planar Adventures pg 234, Distant Shores pg 22\
 Ganzis are the end result of planar chaos touching living creatures. Where the planes brush against
 the Material Plane or where chaotic inhabitants (be they chaos beasts, proteans, valkyries, or
 others) affect or influence mortal life, ganzis are born in their wake like ripples in a pond.

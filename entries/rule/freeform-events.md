@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "freeform_events", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "170"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 170
 
 While you could use the Social Combat Deck or many of the existing tools in the Pathfinder RPG to
 run social conflict events, eventually you'll want to shape the PCs' encounters around a story you

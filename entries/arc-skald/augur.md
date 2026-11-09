@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/skald" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "25"
 
 [fields]
 kind = "archetype"
 replaces = ["Well-versed", "All types of versatile performance", "Spell kenning"]
 +++
 
-**Sources:** Arcane Anthology pg 25\
 Tales of Merivesta Olinchi are surprisingly common among the Bekyar of the Mwangi Expanse, who claim
 she spent some time studying their traditions and history. Most historians find it more likely that
 a Bekyar skald spent time in Nex, was exposed to the idea of divination as a tool of war from a copy

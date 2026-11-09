@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oni_spirit_oni", path = "json/monsters18.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "209"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ smile full of fangs._
 
 **Senses:** Darkvision 60 ft., Detect magic
 
-**Sources:** Bestiary 3 pg 209\
 **Subtype:** Native, Oni
 
 **Size:** tiny

@@ -6,12 +6,14 @@ source_ids = ["occult-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "waking_the_drowned_god", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "occult-realms"
+page = "59"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Occult Realms pg 59\
 **School** conjuration (calling); **Level** 9\
 **Casting Time** 9 hours\
 **Components** V, S, F (a piece of Tychilarius's body), SC (at least 4, up to 12)\

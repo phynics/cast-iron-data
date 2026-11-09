@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "project_image", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "327"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Effect: one shadow duplicate
 Subschool: Shadow
 Descriptors: shadow
 :::
-
-**Sources:** PRPG Core Rulebook pg 327
 
 You tap energy from the Plane of Shadow to create a quasi-real, illusory version of yourself. The
 projected image looks, sounds, and smells like you but is intangible. The projected image mimics

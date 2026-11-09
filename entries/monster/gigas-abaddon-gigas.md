@@ -6,6 +6,9 @@ source_ids = ["pathfinder-96-shadow-of-the-storm-tyrant"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gigas_abaddon_gigas", path = "json/monsters12.json" },
 ]
+[[sources]]
+publication = "pathfinder-96-shadow-of-the-storm-tyrant"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ resembles a dead giant with the head of an oversized boar._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#96: Shadow of the Storm Tyrant pg 86\
 **Subtype:** Evil, Extraplanar, Giant
 
 **Experience points:** 102,400

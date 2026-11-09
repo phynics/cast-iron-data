@@ -6,13 +6,15 @@ source_ids = ["advanced-players-guide", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "protean", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "138"
 
 [fields]
 kind = "class_option"
 group = "sorcerer-bloodline"
 +++
 
-**Sources:** Advanced Player's Guide pg 138\
 You have in your veins the ever-changing wildness of primal chaos, the raw essence of unbound
 creation. Your mind and spirit burst with the constant inspiration of consummate freedom, though you
 have difficulty following through on a task when another, new and exciting, catches your interest.

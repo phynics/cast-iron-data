@@ -6,14 +6,15 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nanite_ablative_armor", path = "json/equipment_tech_armor.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "30"
 
 [fields]
 kind = "item"
 category = "Technological Armor"
 weight = "35 lbs."
 +++
-
-**Sources:** Technology Guide pg 30
 
 **Cost** 10,000 gp\
 **Type** Medium; **Weight** 35 lbs.; **Armor Bonus** +4\

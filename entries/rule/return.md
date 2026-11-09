@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "return", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "121"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 121
 
 The trip back can be just as perilous as the journey to achieve their goal. The heroes are at the
 height of their power, but they are now beset on all sides by those who would see them fail. Their

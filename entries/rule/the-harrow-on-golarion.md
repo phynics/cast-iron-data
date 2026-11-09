@@ -6,12 +6,13 @@ source_ids = ["occult-mysteries"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_harrow_on_golarion", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-mysteries"
+page = "40"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Mysteries pg 40
 
 The [harrow deck](ref/eq-misc/harrow-deck) is most famously associated with the Varisian wandering
 clans of northwestern Avistan. The Azlanti colonists who founded Thassilon brought playing cards to

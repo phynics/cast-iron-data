@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "handle_animals", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "61"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 61
 
 This use of Nature functions as the [Handle Animal core skill](ref/skill/handle-animal), but uses
 Intelligence instead of Charisma.

@@ -6,6 +6,9 @@ source_ids = ["feast-of-ravenmoor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blightspawn_of_ghlaunder", path = "json/monsters27.json" },
 ]
+[[sources]]
+publication = "feast-of-ravenmoor"
+page = "29"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ stinger._
 
 **Senses:** Darkvision 60 ft., Scent
 
-**Sources:** Feast of Ravenmoor pg 29\
 **Experience points:** 1,600
 
 **Armor class:** 18/14/14

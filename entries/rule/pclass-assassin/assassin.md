@@ -8,12 +8,13 @@ parent = "ref/pclass/assassin"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "json/prestige_classes.json#assassin|section:assassin", path = "json/prestige_classes.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "378"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 378
 
 A mercenary undertaking his task with cold, professional detachment, the assassin is equally adept
 at espionage, bounty hunting, and terrorism. At his core, an assassin is an artisan, and his medium

@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sphere_of_influence", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "181"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 181
 
 Your reputation travels only as far as the tales of your deeds. Even if you are a great hero in your
 homeland, when traveling elsewhere you will soon discover that your reputation diminishes until you

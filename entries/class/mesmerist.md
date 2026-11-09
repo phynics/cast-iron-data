@@ -6,6 +6,9 @@ source_ids = ["occult-adventures", "advanced-players-guide", "chronicle-of-legen
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mesmerist", path = "json/classes8.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "38"
 
 [fields]
 kind = "class"
@@ -13,8 +16,6 @@ class_type = "occult"
 hit_die = "d8"
 skill_ranks = "6 + Int modifier"
 +++
-
-**Sources:** Occult Adventures pg 38
 
 Experts at charm and deceit, mesmerists compel others to heed their words and bend to their will.
 Psychic powers, primarily those of enchantment and illusion, give mesmerists the tools they need to

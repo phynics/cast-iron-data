@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reveal_emotions", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-high-court"
+page = "10"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: none
 Spell resistance: yes
 Area: 40-ft.-radius spread
 :::
-
-**Sources:** Heroes of the High Court pg 10
 
 You create an area that draws out a creature's emotion aura. Creatures within this area constantly
 glow with colors that represent their current overall emotional state and continue to do so for 1d4

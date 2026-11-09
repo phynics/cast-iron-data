@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cave_stalker", path = "json/npcs2.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "146"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "5"
 
 **Challenge rating:** 5
 
-**Sources:** NPC Codex pg 146\
 **XP** 1,600\
 Dwarf [rogue](ref/class/rogue) 6\
 LN Medium humanoid (dwarf)\

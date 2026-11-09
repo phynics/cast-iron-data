@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "banish_seeming", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "204"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: none
 Spell resistance: no
 Target: one creature or object
 :::
-
-**Sources:** Advanced Player's Guide pg 204
 
 With a melee touch attack you can dispel an illusion or return a creature to its natural form. This
 functions as [dispel magic](ref/spell/dispel-magic) directed at the effect in question, except you

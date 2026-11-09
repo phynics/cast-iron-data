@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/disguise-self" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "217"
 
 [fields]
 kind = "spell"
@@ -58,8 +61,6 @@ Descriptors: glamer
 :::
 
 ### Disguise Other
-
-**Sources:** Ultimate Magic pg 217
 
 This spell functions as [disguise self](ref/spell/disguise-self), except you can disguise either
 yourself or another creature.

@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drake_frost_drake", path = "json/monsters31.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "108"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ from between its powerful jaws._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent, Snow vision
 
-**Sources:** Bestiary 2 pg 108\
 **Subtype:** Cold
 
 **Experience points:** 3,200

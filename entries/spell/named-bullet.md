@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "named_bullet", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "238"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: Will negates (harmless) (object)
 Spell resistance: yes (harmless) (object)
 Target: one piece of ammunition or one thrown weapon
 :::
-
-**Sources:** Ultimate Combat pg 238
 
 You imbue the target with deadly accuracy against a selected creature type (and subtype for
 humanoids or outsiders) or a specific creature you know and can name. When used against the selected

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charmers_kiss", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "53"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Sources:** Inner Sea Intrigue pg 53\
 **Aura** moderate enchantment; **CL** 7th\
 **Slot** none; **Price** 750 gp; **Weight** -
 

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pack_intimidation", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "208"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Whenever you use the Intimidate skill to demoralize foes, you gain a 
 +++
 
 ## Pack Intimidation (Combat, Teamwork)
-
-**Sources:** Inner Sea Races pg 208
 
 You draw on the strength of numbers and your shared convictions to intimidate your foes.\
 **Prerequisites:** [Half-orc](ref/race/half-orc), intimidating racial trait.\

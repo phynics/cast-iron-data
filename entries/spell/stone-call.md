@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stone_call", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "247"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Area: cylinder (40-ft. radius, 20 ft. high)
 Subschool: Creation
 Descriptors: earth
 :::
-
-**Sources:** Advanced Player's Guide pg 247
 
 A rain of dirt, gravel, and small pebbles fills the area, dealing 2d6 points of bludgeoning damage
 to every creature in the area. This damage only occurs once, when the spell is cast. For the

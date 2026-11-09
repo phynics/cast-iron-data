@@ -6,6 +6,9 @@ source_ids = ["adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lizard_common", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "adventurers-armory"
+page = "19"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "2 oz. (common), 4 oz. (Nex gecko)"
 
 ## Lizard
 
-**Sources:** Adventurer's Armory pg 19\
 **Price** 5 cp (common), 12 gp (Nex gecko); **Weight** 2 oz. (common), 4 oz. (Nex gecko)
 
 These Tiny cold-blooded animals can be found in all warm regions and are often quite colorful. They

@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "luck_of_heroes", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "324"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever you spend a hero point to reroll a die roll or to grant your
 +++
 
 ## Luck of Heroes (Hero Point)
-
-**Sources:** Advanced Player's Guide pg 324
 
 To others, it seems that you always have a bit of luck around you.\
 **Prerequisites:** [Hero's Fortune](ref/feat/heros-fortune).\

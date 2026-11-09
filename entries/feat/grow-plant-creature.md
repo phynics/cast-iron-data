@@ -6,6 +6,9 @@ source_ids = ["cohorts-and-companions"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grow_plant_creature", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "cohorts-and-companions"
+page = "20"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ prerequisite_feats = ["ref/feat/train-plants"]
 +++
 
 ## Grow Plant Creature (Item Creation)
-
-**Sources:** Cohorts and Companions pg 20
 
 Through careful study and communion with nature, you have learned how to cultivate and raise plant
 creatures.\

@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "defended_movement", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "18"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "Defended Movement counts as both Dodge and Mobility for the purposes 
 +++
 
 ## Defended Movement (Combat, Shield Mastery)
-
-**Sources:** Armor Master's Handbook pg 18
 
 You deftly block attacks with your shield while moving through battle.\
 **Prerequisites:** [Shield Focus](ref/feat/shield-focus), base attack bonus +6 or fighter level 4th.\

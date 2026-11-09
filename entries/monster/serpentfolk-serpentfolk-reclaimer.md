@@ -6,6 +6,9 @@ source_ids = ["occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "serpentfolk_serpentfolk_reclaimer", path = "json/monsters21.json" },
 ]
+[[sources]]
+publication = "occult-bestiary"
+page = "51"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ tongue flicks from its serpentine head._
 
 **Senses:** Darkvision 60 ft., Scent
 
-**Sources:** Occult Bestiary pg 51\
 **Experience points:** 2,400
 
 **Armor class:** 20/16/14

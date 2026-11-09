@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cursed_sword", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "342"
+[[sources]]
+publication = "core-rulebook"
+page = "543"
 
 [fields]
 kind = "item"
@@ -15,8 +21,6 @@ slot = "none"
 aura = "strong evocation"
 caster_level = "15th"
 +++
-
-**Sources:** Ultimate Equipment pg 342, PRPG Core Rulebook pg 543
 
 **Aura** strong evocation; **CL** 15th\
 **Slot** none; **Weight** 4 lbs.

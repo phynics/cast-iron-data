@@ -6,6 +6,9 @@ source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "see_beyond", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "divine-anthology"
+page = "13"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 Target: you
 Descriptors: meditative
 :::
-
-**Sources:** Divine Anthology pg 13
 
 You attune your mind and your sight to the hidden world of spirits. You gain a +5 circumstance bonus
 on Perception checks; this circumstance bonus increases to a +10 circumstance bonus on Perception

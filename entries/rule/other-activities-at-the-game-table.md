@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "other_activities_at_the_game_table", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "15"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 15
 
 Despite your best efforts, you won't always be able to keep all your players engaged with the
 action. Large combats may drag, and if you have a lot of people at the table, it may take quite a

@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "megafauna_kaprosuchus", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "170"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ _This massive, squat crocodilian has forward facing eyes, jutting teeth, and a p
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 5 pg 170\
 **Experience points:** 1,600
 
 **Armor class:** 19/9/18

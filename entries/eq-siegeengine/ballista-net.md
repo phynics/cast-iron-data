@@ -6,14 +6,15 @@ source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ballista_net", path = "json/equipment_siege_engines.json" },
 ]
+[[sources]]
+publication = "dragonslayers-handbook"
+page = "27"
 
 [fields]
 kind = "item"
 category = "Siege Engines"
 weight = "15 lbs."
 +++
-
-**Sources:** Dragonslayer's Handbook pg 27
 
 This ballista bolt is specially equipped with a net which unfurls as the bolt flies toward its
 target. Unlike a standard ballista bolt, a ballista net requires only a touch attack to hit. If a

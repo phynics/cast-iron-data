@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tupilaq", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "275"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ with fine scrimshaw._
 
 **Size:** small
 
-**Sources:** Bestiary 3 pg 275\
 **Experience points:** 3,200
 
 **Armor class:** 20/15/16

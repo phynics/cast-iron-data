@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ettercap", path = "json/monsters42.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "129"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ hands are sickle-shaped claws._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder RPG Bestiary pg 129\
 **Experience points:** 800
 
 **Armor class:** 15/13/12

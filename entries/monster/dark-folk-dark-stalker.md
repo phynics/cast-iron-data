@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dark_folk_dark_stalker", path = "json/monsters29.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "54"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ scarf wrapped around its face._
 
 **Senses:** See in darkness
 
-**Sources:** Pathfinder RPG Bestiary pg 54\
 **Subtype:** Dark folk
 
 **Experience points:** 1,200

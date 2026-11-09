@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "qlippoth_nyogoth", path = "json/monsters37.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "224"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ coils also end in toothy maws._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 2 pg 224\
 **Subtype:** Chaotic, Evil, Extraplanar, Qlippoth
 
 **Experience points:** 9,600

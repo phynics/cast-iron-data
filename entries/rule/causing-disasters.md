@@ -6,12 +6,14 @@ source_ids = ["pathfinder-30-the-twice-damned-prince"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "causing_disasters", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "pathfinder-30-the-twice-damned-prince"
+page = "57"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder \#30: The Twice-Damned Prince pg 57\
 The possible scenarios PCs might face over the course of their adventures are as varied and unusual
 as the GM can imagine. Even though the Pathfinder RPG Core Rulebook accounts for the most common
 environmental dangers, the menaces of the natural world prove vast, varied, and occasionally

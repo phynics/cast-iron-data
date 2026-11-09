@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/gunslinger" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "34"
 
 [fields]
 kind = "archetype"
 replaces = ["Gunsmith", "Gun training"]
 +++
 
-**Sources:** Advanced Race Guide pg 34\
 The experimental gunsmith is obsessed with creating the ultimate firearm, and is willing to take
 risks to work the kinks out of her design. An experimental gunsmith has the following class
 features.

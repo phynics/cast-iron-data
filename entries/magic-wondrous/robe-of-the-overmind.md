@@ -6,6 +6,9 @@ source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "robe_of_the_overmind", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "9"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration and conjuration"
 caster_level = "14th"
 +++
 
-**Sources:** Psychic Anthology pg 9\
 **Aura** strong abjuration and conjuration; **CL** 14th\
 **Slot** body; **Price** 75,000 gp; **Weight** 1 lb.
 

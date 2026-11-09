@@ -6,6 +6,9 @@ source_ids = ["pathfinder-125-tower-of-the-drowned-dead"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "litanu", path = "json/monsters16.json" },
 ]
+[[sources]]
+publication = "pathfinder-125-tower-of-the-drowned-dead"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ maws protruding from its back._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#125: Tower of the Drowned Dead pg 84\
 **Subtype:** Aquatic
 
 **Type:** undead

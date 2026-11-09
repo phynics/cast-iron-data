@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/arcane-sight" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "244"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: no
 :::
 
 ### Greater Arcane Sight
-
-**Sources:** PRPG Core Rulebook pg 244
 
 This spell functions like [arcane sight](ref/spell/arcane-sight), except that you automatically know
 which spells or magical effects are active upon any individual or object you see.

@@ -6,6 +6,9 @@ source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tail_strike", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "legacy-of-dragons"
+page = "31"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: no
 Target: you
 Descriptors: draconic
 :::
-
-**Sources:** Legacy of Dragons pg 31
 
 You grow a draconic tail (clothing and armor adjust as necessary), or if you already have a tail, it
 takes on a draconic appearance. If you have a draconic bloodline, the tail matches the appearance of

@@ -6,13 +6,15 @@ source_ids = ["horror-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dark_tapestry", path = "json/class_ability_shaman_spirits.json" },
 ]
+[[sources]]
+publication = "horror-realms"
+page = "16"
 
 [fields]
 kind = "class_option"
 group = "shaman-spirit"
 +++
 
-**Sources:** Horror Realms pg 16\
 A shaman who selects the Dark Tapestry spirit is often a misanthropic loner. While she may well work
 with others, she rarely does so of her own volition. Instead, she seeks out the aid of a small group
 (such as a party of adventurers) as a result of an obscure vision or other influence from the Dark

@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "difficulty_class", path = "json/misc.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "12"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 12
 
 Whenever a [creature](ref/misc/creature) attempts to perform an action whose success is not
 guaranteed, he must make some sort of [check](ref/misc/check) (usually a skill check). The result of

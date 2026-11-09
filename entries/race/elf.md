@@ -6,12 +6,20 @@ source_ids = ["inner-sea-races", "advanced-race-guide", "core-rulebook", "heroes
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elf", path = "json/races.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "236"
+[[sources]]
+publication = "advanced-race-guide"
+page = "20"
+[[sources]]
+publication = "core-rulebook"
+page = "22"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Inner Sea Races pg 236, Advanced Race Guide pg 20, PRPG Core Rulebook pg 22\
 The long-lived elves are children of the natural world, similar in many superficial ways to fey
 creatures, though with key differences. While fey are truly linked to the flora and fauna of their
 homes, existing as the nearly immortal voices and guardians of the wilderness, elves are instead

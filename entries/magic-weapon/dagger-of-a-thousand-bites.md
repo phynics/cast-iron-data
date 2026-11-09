@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dagger_of_a_thousand_bites", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "144"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration"
 caster_level = "18th"
 +++
 
-**Sources:** Mythic Adventures pg 144\
 **Aura** strong conjuration; **CL** 18th\
 **Slot** none; **Price** 24,502 gp; **Weight** 1/2 lb.
 

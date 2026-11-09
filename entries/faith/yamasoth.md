@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "pathfinder-135-runeplague", "book-of-the-damned
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "yamasoth", path = "json/faiths9.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "328"
 
 [fields]
 kind = "none"
@@ -15,7 +18,6 @@ kind = "none"
 
 **Sub:** The Polymorph Plague
 
-**Sources:** Inner Sea Gods pg 328\
 **Monster Link** [Yamasoth](ref/monster/qlippoth-lord-yamasoth)
 
 ### Details

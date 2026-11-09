@@ -6,6 +6,9 @@ source_ids = ["mystery-monsters-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "leng_tea", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "mystery-monsters-revisited"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate illusion (phantasm)"
 caster_level = "9th"
 +++
 
-**Sources:** Mystery Monsters Revisited pg 60\
 **Aura** moderate illusion (phantasm); **CL** 9th\
 **Slot** none; **Price** 2,250 gp; **Weight** -
 

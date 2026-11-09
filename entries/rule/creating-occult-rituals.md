@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "creating_occult_rituals", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "214"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 214
 
 While the occult rituals in this section give you numerous options with which to dabble, eventually
 you may want to create your own rituals. Creating a new occult ritual has five main steps.

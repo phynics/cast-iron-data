@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloak_of_etherealness", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "263"
+[[sources]]
+publication = "core-rulebook"
+page = "507"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong transmutation"
 caster_level = "15th"
 +++
 
-**Sources:** Ultimate Equipment pg 263, PRPG Core Rulebook pg 507\
 **Aura** strong transmutation; **CL** 15th\
 **Slot** shoulders; **Price** 55,000 gp; **Weight** 1 lb.
 

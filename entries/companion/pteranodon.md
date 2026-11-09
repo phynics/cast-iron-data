@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pteranodon", path = "json/class_ability_druid_companions.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "85"
 
 [fields]
 kind = "class_option"
@@ -13,8 +16,6 @@ group = "animal-companion"
 +++
 
 ## Dinosaur (Pteranodon)
-
-**Sources:** Pathfinder RPG Bestiary pg 85
 
 **Companion Type**
 

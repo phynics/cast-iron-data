@@ -6,6 +6,9 @@ source_ids = ["antiheros-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloody_mess", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "antiheros-handbook"
+page = "8"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever you take an amount of piercing, slashing, or bleed damage eq
 +++
 
 ## Bloody Mess (Combat)
-
-**Sources:** Antihero's Handbook pg 8
 
 Your recklessness often puts you in harm's way, and you are terrifying to behold when covered in
 your own blood.\

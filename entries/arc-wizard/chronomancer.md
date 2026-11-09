@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/wizard" },
 ]
+[[sources]]
+publication = "legacy-of-the-first-world"
+page = "30"
 
 [fields]
 kind = "archetype"
 replaces = ["Arcane bond, 10th-, 15th-, and 20th-level bonus feats"]
 +++
 
-**Sources:** Legacy of the First World pg 30\
 Time is not an immutable force but an inscrutable phenomenon. Rare arcane scholars known as
 chronomancers demonstrate the ability to shift themselves in short bursts between the past, future,
 and alternate presents.

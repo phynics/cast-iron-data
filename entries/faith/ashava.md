@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "chronicle-of-the-righteous", "pathfinder-134-it
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ashava", path = "json/faiths.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "322"
 
 [fields]
 kind = "none"
@@ -15,7 +18,6 @@ kind = "none"
 
 **Sub:** True Spark
 
-**Sources:** Inner Sea Gods pg 322\
 **Monster Link** [Ashava](ref/monster/empyreal-lord-ashava)
 
 ### Details

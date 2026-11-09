@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "achaierai", path = "json/monsters01.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "7"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ vapor trail from its hooked beak._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 2 pg 7\
 **Subtype:** Evil, Extraplanar, Lawful
 
 **Experience points:** 1,600

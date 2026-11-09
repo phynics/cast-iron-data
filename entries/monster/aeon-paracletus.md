@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aeon_paracletus", path = "json/monsters01.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "11"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ gemstones._
 
 **Size:** small
 
-**Sources:** Bestiary 2 pg 11\
 **Subtype:** Aeon, Extraplanar
 
 **Experience points:** 600

@@ -6,13 +6,14 @@ source_ids = ["core-rulebook", "advanced-players-guide", "champions-of-corruptio
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "destruction", path = "json/class_ability_domains.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "43"
 
 [fields]
 kind = "class_option"
 group = "cleric-domain"
 +++
-
-**Sources:** PRPG Core Rulebook pg 43
 
 **Granted Powers:** You revel in ruin and devastation, and can deliver particularly destructive
 attacks.

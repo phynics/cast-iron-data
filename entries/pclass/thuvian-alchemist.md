@@ -6,14 +6,15 @@ source_ids = ["people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thuvian_alchemist", path = "json/prestige_classes3.json" },
 ]
+[[sources]]
+publication = "people-of-the-sands"
+page = "26"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d6."
 +++
-
-**Sources:** People of the Sands pg 26
 
 Thuvian alchemy evolved from the herbalism and horticulture of the ancient Tekritanin League. Their
 cultivars and gardeners were renowned, but such peaceful pursuits waned in prominence when the

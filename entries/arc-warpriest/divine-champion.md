@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/warpriest" },
 ]
+[[sources]]
+publication = "divine-anthology"
+page = "14"
 
 [fields]
 kind = "archetype"
 replaces = ["Bonus feat gained at 3rd level", "Bonus feats gained at 6th, 12th, and 18th levels", "Bonus feat gained at 9th level"]
 +++
 
-**Sources:** Divine Anthology pg 14\
 Divine champions are unswervingly devoted to their causes, and specialize in bringing battle to the
 enemies of their faiths. They are similar to [divine paragons](ref/arc-cleric/divine-paragon) in
 many ways, but tend to focus more on their deity's combat prowess rather than seeking to become a

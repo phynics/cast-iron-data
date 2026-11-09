@@ -6,13 +6,14 @@ source_ids = ["heart-of-the-jungle"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pygmy_hippopotamus", path = "json/class_ability_druid_companions.json" },
 ]
+[[sources]]
+publication = "heart-of-the-jungle"
+page = "60"
 
 [fields]
 kind = "class_option"
 group = "animal-companion"
 +++
-
-**Sources:** Heart of the Jungle pg 60
 
 **Companion Type**
 

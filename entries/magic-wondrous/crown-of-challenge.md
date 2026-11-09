@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crown_of_challenge", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong enchantment"
 caster_level = "15th"
 +++
 
-**Sources:** Melee Tactics Toolbox pg 28\
 **Aura** strong enchantment; **CL** 15th\
 **Slot** head; **Price** 21,000 gp; **Weight** 1 lb.
 

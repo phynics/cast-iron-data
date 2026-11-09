@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_retribution", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "173"
+[[sources]]
+publication = "advanced-players-guide"
+page = "292"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong evocation"
 caster_level = "13th"
 +++
 
-**Sources:** Ultimate Equipment pg 173, Advanced Player's Guide pg 292\
 **Aura** strong evocation; **CL** 13th\
 **Slot** ring; **Price** 15,000 gp; **Weight** -
 

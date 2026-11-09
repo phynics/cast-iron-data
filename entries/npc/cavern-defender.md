@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cavern_defender", path = "json/npcs5.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "64"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "4"
 
 **Challenge rating:** 4
 
-**Sources:** NPC Codex pg 64\
 **XP** 1,200\
 Half-elf [druid](ref/class/druid) 5\
 N Medium humanoid (elf, human)\

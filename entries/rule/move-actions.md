@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "move_actions", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "186"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 186
 
 With the exception of specific movement-related skills, most move actions don't require a check.
 

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "medal_of_the_heros_heart", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "266"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Sources:** Inner Sea Gods pg 266\
 **Aura** moderate conjuration; **CL** 7th\
 **Slot** neck; **Price** 3,400 gp; **Weight** -
 

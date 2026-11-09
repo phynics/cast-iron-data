@@ -6,6 +6,15 @@ source_ids = ["ultimate-equipment", "artifacts-and-legends", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "orbs_of_dragonkind", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "338"
+[[sources]]
+publication = "artifacts-and-legends"
+page = "32"
+[[sources]]
+publication = "core-rulebook"
+page = "548"
 
 [fields]
 kind = "item"
@@ -16,8 +25,6 @@ slot = "none"
 aura = "strong enchantment"
 caster_level = "20th"
 +++
-
-**Sources:** Ultimate Equipment pg 338, Artifacts and Legends pg 32, PRPG Core Rulebook pg 548
 
 **Aura** strong enchantment; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 5 lbs.

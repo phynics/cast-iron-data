@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "memory_lapse", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "232"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes
 Target: one living creature
 Descriptors: mind-affecting
 :::
-
-**Sources:** Advanced Player's Guide pg 232
 
 You cause the target to forget what happened from the casting of the spell back to the beginning of
 its last turn. This may allow a retry on a Diplomacy, Intimidate, or opposed skill check, though

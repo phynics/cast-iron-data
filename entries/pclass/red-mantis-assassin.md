@@ -6,15 +6,24 @@ source_ids = ["adventurers-guide", "pathfinder-9-escape-from-old-korvosa", "path
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "red_mantis_assassin", path = "json/prestige_classes3.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "154"
+[[sources]]
+publication = "pathfinder-9-escape-from-old-korvosa"
+page = "69"
+[[sources]]
+publication = "pathfinder-campaign-setting"
+page = "230"
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "282"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d8."
 +++
-
-**Sources:** Adventurer's Guide pg 154, Pathfinder \#9: Escape from Old Korvosa pg 69, Pathfinder
-Campaign Setting pg 230, Inner Sea World Guide pg 282
 
 Initiates of the [Red Mantis](ref/rule/aff-assassins) usually begin their training as rogues, often
 with fighter or ranger levels, as stealth and skill at arms are both prerequisites to joining the

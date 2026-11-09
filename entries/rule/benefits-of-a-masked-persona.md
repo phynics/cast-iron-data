@@ -6,12 +6,13 @@ source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "benefits_of_a_masked_persona", path = "json/rules_adv_pc01.json" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "13"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Inner Sea Intrigue pg 13
 
 After conducting her affairs in disguise long enough to gain a full level, the character's masked
 persona becomes established and begins providing a character with tangible benefits, granting her

@@ -6,6 +6,12 @@ source_ids = ["inner-sea-world-guide", "mystery-monsters-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sandpoint_devil", path = "json/monsters_unique3.json" },
 ]
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "311"
+[[sources]]
+publication = "mystery-monsters-revisited"
+page = "39"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ complete its vile appearance._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Inner Sea World Guide pg 311, Mystery Monsters Revisited pg 39\
 **Subtype:** Native
 
 **Experience points:** 4,800

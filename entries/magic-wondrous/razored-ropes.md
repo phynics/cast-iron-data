@@ -6,6 +6,9 @@ source_ids = ["faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "razored_ropes", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "faiths-of-balance"
+page = "27"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Faiths of Balance pg 27\
 **Aura** moderate transmutation; **CL** 3rd\
 **Slot** none; **Price** 8,301 gp; **Weight** 3 lbs.
 

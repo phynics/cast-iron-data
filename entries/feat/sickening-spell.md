@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sickening_spell", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "169"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "You can modify a spell to sicken a creature damaged by the spell. Whe
 +++
 
 ## Sickening Spell (Metamagic)
-
-**Sources:** Advanced Player's Guide pg 169
 
 You can sicken creatures with your spells.\
 **Benefit:** You can modify a spell to sicken a creature damaged by the spell. When a creature takes

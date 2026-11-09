@@ -6,6 +6,9 @@ source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thrilling_vengeance", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "12"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When you spend a swift action to attempt a performance combat check w
 +++
 
 ## Thrilling Vengeance (Combat, Performance)
-
-**Sources:** Inner Sea Combat pg 12
 
 Your savage rage thrills the crowd as you turn it upon a foe that has harmed you.\
 **Prerequisites:** Base attack bonus +3, rage class feature.\

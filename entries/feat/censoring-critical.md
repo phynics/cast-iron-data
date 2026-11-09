@@ -6,6 +6,9 @@ source_ids = ["path-of-the-hellknight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "censoring_critical", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "path-of-the-hellknight"
+page = "45"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "You can apply the effects of only one critical feat to a given critic
 +++
 
 ## Censoring Critical (Combat, Critical)
-
-**Sources:** Path of the Hellknight pg 45
 
 Your critical hits mute your enemies. Whenever you score a critical hit against an opponent, the
 victim is unable to speak for 1d4+1 rounds. This prevents spellcasters from using spells with verbal

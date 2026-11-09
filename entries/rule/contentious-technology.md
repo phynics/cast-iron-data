@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "contentious_technology", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "160"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 160
 
 Many fantasy RPGs assume a medieval or Renaissance baseline, a level of technology in which castles,
 swords, and armor are at their peak. Yet if your world follows the same trends as Earth's history,

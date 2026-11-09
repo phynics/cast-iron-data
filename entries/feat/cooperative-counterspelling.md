@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cooperative_counterspelling", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "204"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When you and an ally who also has this feat both ready an action to c
 +++
 
 ## Cooperative Counterspelling (Teamwork)
-
-**Sources:** Inner Sea Races pg 204
 
 Thanks to your heritage, you can thwart magical attacks almost instinctively.\
 **Prerequisites:** Spellcraft 5 ranks, racial [spell-like ability](ref/umr/spell-like-abilities)

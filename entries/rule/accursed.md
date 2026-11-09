@@ -6,12 +6,14 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "accursed", path = "json/rules_campaign_types02.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "16-17"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Adventures pg. 16-17\
 A foul curse has a deep hold on your body and soul. Your resentment toward the one who cursed you
 has taken on a life of its own. You notice slights against you by everyone around you, and can gain
 solace only by punishing them.

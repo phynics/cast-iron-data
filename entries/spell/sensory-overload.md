@@ -6,6 +6,9 @@ source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sensory_overload", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "11"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Target: 1 creature
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Psychic Anthology pg 11
 
 You overload the target creature's senses, making it difficult for the target to concentrate. For
 the duration of the effect, the target must succeed at a Will save at the same DC as the original

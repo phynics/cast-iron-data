@@ -6,12 +6,13 @@ source_ids = ["lands-of-conflict"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "knowledge_check", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "lands-of-conflict"
+page = "56"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Lands of Conflict pg 56
 
 **Knowledge Check** **(Scholars):** The scholars try to answer any question that could normally be
 answered with a successful [Knowledge](ref/skill/knowledge-all) check. Rather than attempting a

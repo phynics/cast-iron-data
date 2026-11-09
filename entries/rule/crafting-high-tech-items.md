@@ -6,12 +6,14 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crafting_high_tech_items", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "16"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Technology Guide pg 16\
 The process of building technological items has much in common with magic item creation, though it
 uses different feats, skills, and facilities. As with magic items, the creator invests time and
 money in the creation process and at the end attempts a single skill check to complete construction.

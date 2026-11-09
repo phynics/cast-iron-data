@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "champion_of_magic", path = "json/npcs7.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "222"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "12"
 
 **Challenge rating:** 12
 
-**Sources:** NPC Codex pg 222\
 **XP** 19,200\
 Gnome [paladin](ref/class/paladin) of [Torag](ref/faith/torag) 2/[sorcerer](ref/class/sorcerer)
 7/eldritch knight 4\

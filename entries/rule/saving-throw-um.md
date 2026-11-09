@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "saving_throw_um", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "131"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 131
 
 Most spells that directly affect creatures with a magical effect should allow a saving throw. Spells
 that create nonmagical materials that then strike or impede creatures (such as

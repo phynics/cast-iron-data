@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divinations", path = "json/rules_adv_gm03.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "154"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 154
 
 Nothing can alter the fundamental flow of an entire adventure or campaign quite like divinations.
 The rules for divination spells contain many gray areas. Unfortunately, that can lead to GMs either

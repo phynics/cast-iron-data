@@ -6,6 +6,9 @@ source_ids = ["champions-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bondbreakers_boots", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "champions-of-purity"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "1st"
 +++
 
-**Sources:** Champions of Purity pg 30\
 **Aura** faint transmutation; **CL** 1st\
 **Slot** feet; **Price** 1,600 gp; **Weight** 1 lb.
 

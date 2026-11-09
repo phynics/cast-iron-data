@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cyclops_kabandha", path = "json/monsters06.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "64"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _This tall giant has no head; instead, its one-eyed face rests in the center of 
 
 **Senses:** Darkvision 60 ft., Low-light vision, See invisibility
 
-**Sources:** Bestiary 5 pg 64\
 **Subtype:** Giant
 
 **Experience points:** 6,400

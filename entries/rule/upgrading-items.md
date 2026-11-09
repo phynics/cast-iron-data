@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "upgrading_items", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "170"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 170
 
 Adding more magic to an existing item can be quite simple or very math-intensive. If the item's
 current and proposed abilities follow the normal pricing rules (particularly with weapons, armor,

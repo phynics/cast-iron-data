@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "winged_boots", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "233"
+[[sources]]
+publication = "core-rulebook"
+page = "504"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Sources:** Ultimate Equipment pg 233, PRPG Core Rulebook pg 504\
 **Aura** moderate transmutation; **CL** 8th\
 **Slot** feet; **Price** 16,000 gp; **Weight** 1 lb.
 

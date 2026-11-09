@@ -6,6 +6,9 @@ source_ids = ["classic-treasures-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aligned_horn_of_valhalla", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "classic-treasures-revisited"
+page = "37"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration"
 caster_level = "13th"
 +++
 
-**Sources:** Classic Treasures Revisited pg 37\
 **Aura** strong conjuration; **CL** 13th\
 **Slot** none; **Price** 45,000 gp; **Weight** 2 lbs.
 

@@ -6,13 +6,18 @@ source_ids = ["ultimate-wilderness", "animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "totem_guide", path = "json/archetypes_COMPANION.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "189"
+[[sources]]
+publication = "animal-archive"
+page = "21"
 
 [fields]
 kind = "archetype"
 replaces = ["Evasion", "Devotion", "Multiattack", "Improved Evasion"]
 +++
 
-**Sources:** Ultimate Wilderness pg 189, Animal Archive pg 21\
 Totem guides embody the wisdom and spirituality of the natural world, providing guidance as well as
 aid in combat. Once a totem guide is chosen, a character can replace the companion if it is slain
 but must choose the same kind of totem guide.

@@ -6,6 +6,9 @@ source_ids = ["feast-of-dust"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "calabash_of_last_draughts", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "feast-of-dust"
+page = "43"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong necromancy and transmutation"
 caster_level = "18th"
 +++
 
-**Sources:** Feast of Dust pg 43\
 **Aura** strong necromancy and transmutation; **CL** 18th\
 **Slot** chest; **Price** -; **Weight** 5 lbs.
 

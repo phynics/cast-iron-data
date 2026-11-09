@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "targeted_blow", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "22"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "As a standard action, you can make a single melee attack with an appr
 +++
 
 ## Targeted Blow (Weapon Mastery)
-
-**Sources:** Weapon Master's Handbook pg 22
 
 You can inflict special injuries on your foes by attacking specific areas.\
 **Prerequisites:** Str 13, [Power Attack](ref/feat/power-attack), base attack bonus +9, weapon

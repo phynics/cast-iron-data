@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slippers_of_the_triton", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "233"
+[[sources]]
+publication = "advanced-race-guide"
+page = "178"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate abjuration"
 caster_level = "7th"
 +++
 
-**Sources:** Ultimate Equipment pg 233, Advanced Race Guide pg 178\
 **Aura** moderate abjuration; **CL** 7th\
 **Slot** feet; **Price** 56,000 gp; **Weight** 1 lb.
 

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/suggestion" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "197"
 
 [fields]
 kind = "spell"
@@ -55,8 +58,6 @@ Descriptors: language-dependant, mind-affecting
 :::
 
 ### Triggered Suggestion
-
-**Sources:** Advanced Class Guide pg 197
 
 This spell functions as [suggestion](ref/spell/suggestion), except you can use it only to specify a
 condition that triggers a special activity, and the subject does not remember that you made the

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "to_the_last", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "217"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you are disabled, you are not staggered, though performing stand
 +++
 
 ## To the Last (Combat)
-
-**Sources:** Inner Sea Gods pg 217
 
 Your devotion to battle inspires you to fight competently until death claims you.\
 **Prerequisites:** [Diehard](ref/feat/diehard), [Endurance](ref/feat/endurance), worshiper of

@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "adolescence", path = "json/rules_basics03.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "12"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 12
 
 Adolescence is the physical and psychological transition from childhood to adulthood in which you
 start to become more conscious of the world around you. This is the time when you grow in body and

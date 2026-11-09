@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dog", path = "json/monsters41.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "87"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ _This small dog has a rough coat and a hungry look in its dark brown eyes._
 
 **Size:** small
 
-**Sources:** Pathfinder RPG Bestiary pg 87\
 **Experience points:** 135
 
 **Armor class:** 13/12/12

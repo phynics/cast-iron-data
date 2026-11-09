@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fox_insight", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "84"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using Fox Style, you can use your base attack bonus in place of
 +++
 
 ## Fox Insight (Combat)
-
-**Sources:** Ultimate Intrigue pg 84
 
 Your fox-like movements protect you from your opponents' attempts to manipulate you.\
 **Prerequisites:** Int 13, [Fox Style](ref/feat/fox-style).\

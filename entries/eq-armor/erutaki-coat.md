@@ -6,6 +6,9 @@ source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "erutaki_coat", path = "json/equipment_armor.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "6"
 
 [fields]
 kind = "item"
@@ -13,7 +16,6 @@ category = "Armor"
 weight = "24 lbs."
 +++
 
-**Sources:** Adventurer's Armory 2 pg 6\
 **Cost** 80 gp **Weight** 24 lbs.\
 **Armor Bonus** +4; **Max Dex Bonus** +3; **Armor Check Penalty** -2\
 **Arcane Spell Failure Chance** 20%; **Speed** 20 ft./15 ft.\

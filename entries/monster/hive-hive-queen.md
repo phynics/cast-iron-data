@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hive_hive_queen", path = "json/monsters13.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "236"
 
 [fields]
 kind = "creature"
@@ -48,7 +51,6 @@ mandibles._
 
 **Senses:** Hive mind
 
-**Sources:** Horror Adventures pg 236\
 **Subtype:** Hive
 
 **Experience points:** 9,600

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-67-the-snows-of-summer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ice_floe_elixir", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "pathfinder-67-the-snows-of-summer"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "6th"
 +++
 
-**Sources:** Pathfinder \#67: The Snows of Summer pg 60\
 **Aura** moderate transmutation; **CL** 6th\
 **Slot** none; **Price** 2,250 gp; **Weight** -
 

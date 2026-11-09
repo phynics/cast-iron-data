@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "types_of_services", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "192"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 192
 
 PCs are more useful for the deeds they can accomplish than for any material wealth they might
 possess. Even low-level adventurers possess talents in excess of the typical populace, and

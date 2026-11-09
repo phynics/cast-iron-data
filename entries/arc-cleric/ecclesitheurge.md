@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cleric" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "91"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Weapon and armor proficiencies", "The increase to channel energy ga
 alters = ["The normal domain ability"]
 +++
 
-**Sources:** Advanced Class Guide pg 91\
 Eschewing physical armor for protection via the strength of his faith, an ecclesitheurge focuses on
 the miracles his deity bestows and the breadth of that deity's dominion.
 

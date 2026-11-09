@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unfolding_wind_infusion", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "30"
 
 [fields]
 kind = "class_option"
@@ -27,8 +30,6 @@ Wind
 [Thunderstorm Blast](ref/kinetic/thunderstorm-blast)
 
 **Saving throw:** none
-
-**Source:** Martial Arts Handbook/30
 
 Unfolding winds carry you along.
 

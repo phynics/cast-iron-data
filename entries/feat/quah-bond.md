@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quah_bond", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "208"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "If at least one Shoanti ally from the same quah who also has this fea
 +++
 
 ## Quah Bond (Teamwork)
-
-**Sources:** Inner Sea Races pg 208
 
 Your bond with your totem spirit increases around others of the same quah.\
 **Prerequisites:** [Totem Spirit](ref/feat/totem-spirit), [human](ref/race/human) (Shoanti).\

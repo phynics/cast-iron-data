@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sky_swim", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "241"
+[[sources]]
+publication = "faiths-of-balance"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -45,8 +51,6 @@ Spell resistance: yes (harmless)
 Target: Large or smaller creature touched
 Descriptors: air
 :::
-
-**Sources:** Inner Sea Gods pg 241, Faiths of Balance pg 28
 
 This spell grants the target the ability to swim through the air. If the target has a swim speed, it
 can move through the air at that speed. Otherwise, it must succeed at Swim checks to move as normal.

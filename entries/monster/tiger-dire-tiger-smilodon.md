@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tiger_dire_tiger_smilodon", path = "json/monsters39.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "265"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ powerful jaws._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 265\
 **Experience points:** 4,800
 
 **Armor class:** 17/11/15

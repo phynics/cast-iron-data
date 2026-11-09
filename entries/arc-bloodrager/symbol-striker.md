@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bloodrager" },
 ]
+[[sources]]
+publication = "heroes-from-the-fringe"
+page = "7"
 
 [fields]
 kind = "archetype"
 replaces = ["Fast movement", "Bloodline feats gained at 6th, 12th, and 18th levels", "Bloodline feat gained at 9th level"]
 +++
 
-**Sources:** Heroes from the Fringe pg 7\
 Symbol strikers are honored warriors of Dongun Hold, a Sky Citadel in Alkenstar that was a site of
 frequent conflicts between the nations of Geb and Nex. The dwarven inhabitants used powerful magic
 explosives to seal the fortress against the outside world and prevent the Sky Citadel from becoming

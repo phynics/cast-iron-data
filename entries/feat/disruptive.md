@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disruptive", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "122"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "The DC to cast spells defensively increases by +4 for all enemies tha
 +++
 
 ## Disruptive (Combat)
-
-**Sources:** PRPG Core Rulebook pg 122
 
 Your training makes it difficult for enemy spellcasters to safely cast spells near you.\
 **Prerequisites:** 6th-level fighter.\

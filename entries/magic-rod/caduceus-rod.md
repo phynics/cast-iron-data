@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "caduceus_rod", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "253"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration and transmutation"
 caster_level = "12th"
 +++
 
-**Sources:** Occult Adventures pg 253\
 **Aura** strong conjuration and transmutation; **CL** 12th\
 **Slot** none; **Price** 142,000 gp; **Weight** 3 lbs.
 

@@ -6,6 +6,12 @@ source_ids = ["rise-of-the-runelords-anniversary-edition", "magic-of-thassilon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sadists_lash", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "rise-of-the-runelords-anniversary-edition"
+page = "425"
+[[sources]]
+publication = "magic-of-thassilon"
+page = "3"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong abjuration and conjuration"
 caster_level = "11th"
 +++
 
-**Sources:** Rise of the Runelords Anniversary Edition pg 425, Magic of Thassilon pg 3\
 **Aura** strong abjuration and conjuration; **CL** 11th\
 **Slot** none; **Price** 22,301 gp; **Weight** 1 lb.
 

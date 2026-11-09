@@ -6,12 +6,20 @@ source_ids = ["inner-sea-races", "bestiary-2", "advanced-race-guide", "plane-hop
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oread", path = "json/races3.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "247"
+[[sources]]
+publication = "bestiary-2"
+page = "205"
+[[sources]]
+publication = "advanced-race-guide"
+page = "144"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Inner Sea Races pg 247, Bestiary 2 pg 205, Advanced Race Guide pg 144\
 Oreads are humans whose ancestry includes the touch of an elemental being of earth somewhere along
 the line, often that of a shaitan genie. Stoic and contemplative, oreads are a race not easily
 moved, yet almost unstoppable when spurred to action. They remain a mystery to most of the world

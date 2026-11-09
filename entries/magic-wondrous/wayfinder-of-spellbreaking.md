@@ -6,6 +6,9 @@ source_ids = ["pathfinder-society-field-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wayfinder_of_spellbreaking", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "pathfinder-society-field-guide"
+page = "56"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration"
 caster_level = "7th"
 +++
 
-**Sources:** Pathfinder Society Field Guide pg 56\
 **Aura** faint abjuration; **CL** 7th\
 **Slot** none; **Price** 8,000 gp; **Weight** 1 lb.
 

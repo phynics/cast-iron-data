@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tsunamis", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "234"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 234
 
 Tsunamis, sometimes referred to as tidal waves, are crushing waves of water caused by underwater
 earthquakes, volcanic explosions, landslides, or even asteroid impacts. Tsunamis are almost

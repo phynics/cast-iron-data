@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_esoteric_nightmare_adult_nightmare_dragon", path = "json/monsters31.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "94"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ abilities = ["29", "11", "24", "16", "18", "19"]
 
 **Senses:** Dragon senses, Dreamsight, See in darkness
 
-**Sources:** Bestiary 5 pg 94\
 **Subtype:** Extraplanar
 
 **Experience points:** 9,600

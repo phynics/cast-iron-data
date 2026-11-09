@@ -6,6 +6,9 @@ source_ids = ["daughters-of-fury"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charlatans_symbol", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "daughters-of-fury"
+page = "57"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint illusion (see text)"
 caster_level = "5th"
 +++
 
-**Sources:** Daughters of Fury pg 57\
 **Aura** faint illusion (see text); **CL** 5th\
 **Slot** neck; **Price** 2,000 gp; **Weight** 1 lb.
 

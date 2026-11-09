@@ -6,12 +6,14 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "naiad", path = "json/races2.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "200"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Bestiary 6 pg 200\
 Naiads are protectors of freshwater areas such as lakes, ponds, and particularly rivers. While many
 naiads are reclusive, some choose to regularly visit settlements built near their bodies of water as
 long as those settlements are respectful to nature and the fey. Others explore the vast world,

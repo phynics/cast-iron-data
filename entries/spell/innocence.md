@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "innocence", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "229"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Advanced Player's Guide pg 229
 
 You surround yourself with an aura of innocence and trustworthiness. You gain a +10 competence bonus
 on Bluff skill checks to convince others of your innocence. They find it difficult to believe you

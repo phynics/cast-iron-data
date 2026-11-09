@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_umbral_scion", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "105"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Cha 13, Wis 13, Drow Nobility, Greater Drow Nobility, Improved 
 prerequisite_feats = ["ref/feat/drow-nobility", "ref/feat/greater-drow-nobility", "ref/feat/improved-drow-nobility", "ref/feat/umbral-scion"]
 benefit = "You may use dispel magic, divine favor, and suggestion once per day as spell-like abilities. Your caster level is equal to your character level."
 +++
-
-**Sources:** Advanced Race Guide pg 105
 
 You are a master of drow noble magic.\
 **Prerequisites:** Cha 13, Wis 13, [Drow Nobility](ref/feat/drow-nobility),

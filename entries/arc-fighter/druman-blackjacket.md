@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/fighter" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "36"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Bravery", "The bonus feat gained at 4th level", "The bonus feat gai
 alters = ["Bonus fighter feats"]
 +++
 
-**Sources:** Inner Sea Combat pg 36\
 Known as the Blackjackets, the elite soldiers of Druma are and always have been mercenaries rather
 than a standing army. Still, gold buys loyalty, and the Kalistocrats pay best of all. As a result,
 the Blackjackets are well equipped and dedicate themselves to training in small-unit tactics,

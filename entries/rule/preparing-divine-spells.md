@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "preparing_divine_spells", path = "json/rules_basics04.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "220"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 220
 
 Divine spellcasters prepare their spells in largely the same manner as wizards do, but with a few
 differences. The relevant ability for most divine spells is Wisdom (Charisma for paladins). To

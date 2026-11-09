@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "half_celestial", path = "json/monster_template2.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "169"
 
 [fields]
 kind = "none"
@@ -18,8 +21,6 @@ kind = "none"
 **Challenge rating:** +1 to +3
 
 **Inherited:** present
-
-**Source:** Pathfinder RPG Bestiary/169
 
 Most half-celestials are born of a mortal who loved a good outsider, but powerful holy magic can
 also create one.

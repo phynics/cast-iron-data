@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "girtablilu", path = "json/monsters12.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "130"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ _The body of a spear-wielding woman rises from the front of this monstrously hug
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 3 pg 130\
 **tremorsense:** 30
 
 **Experience points:** 4,800

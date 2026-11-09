@@ -6,6 +6,9 @@ source_ids = ["inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "free_spirit", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "inner-sea-temples"
+page = "23"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Inner Sea Temples pg 23
 
 This spell allows you to channel the essence of Cayden Cailean's philosophy, giving you the benefits
 of a freedom of movement spell and granting you a +4 bonus on saving throws against fear effects.

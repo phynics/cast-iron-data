@@ -6,6 +6,9 @@ source_ids = ["pathfinder-52-forest-of-spirits"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kami_dosojin", path = "json/monsters34.json" },
 ]
+[[sources]]
+publication = "pathfinder-52-forest-of-spirits"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ reverence and patience._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#52: Forest of Spirits pg 82\
 **Subtype:** Kami, Native
 
 **Experience points:** 3,200

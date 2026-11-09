@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tangle_bolt", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "162"
+[[sources]]
+publication = "advanced-players-guide"
+page = "291"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong conjuration"
 caster_level = "12th"
 +++
 
-**Sources:** Ultimate Equipment pg 162, Advanced Player's Guide pg 291\
 **Aura** strong conjuration; **CL** 12th\
 **Slot** none; **Price** 226 gp; **Weight** -
 

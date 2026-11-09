@@ -6,14 +6,15 @@ source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planar_focus", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "monster-summoners-handbook"
+page = "14"
 
 [fields]
 kind = "feat"
 prerequisites = "Knowledge (planes) 5 ranks, animal focus class feature."
 benefit = "When you use your animal focus class feature, you can choose any of the following new aspects unless they conflict with your alignment."
 +++
-
-**Sources:** Monster Summoner's Handbook pg 14
 
 By studying other planes, you've learned to take on aspects of outsiders as well as animals.\
 **Prerequisites:** Knowledge (planes) 5 ranks, [animal focus](ref/ability/animal-foci) class

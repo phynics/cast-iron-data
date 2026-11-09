@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sow_thought", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "185"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Advanced Race Guide pg 185
 
 > _[Changelings](ref/race/changeling) have access to the following spell._
 

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dispel_evil", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "271"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: see text
 Target or Targets: you and a touched evil creature from another plane, or you and an enchantment or evil spell on a touched creature or object
 Descriptors: good
 :::
-
-**Sources:** PRPG Core Rulebook pg 271
 
 Shimmering, white holy energy surrounds you. This energy has three effects.
 

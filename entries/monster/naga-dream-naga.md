@@ -6,6 +6,12 @@ source_ids = ["bestiary-6", "occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "naga_dream_naga", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "198"
+[[sources]]
+publication = "occult-bestiary"
+page = "35"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ _This large, flying serpent has a humanoid head outlined by a colorful, frilled 
 
 **Senses:** Darkvision 60 ft., Dreamsight
 
-**Sources:** Bestiary 6 pg 198, Occult Bestiary pg 35\
 **Subtype:** Extraplanar
 
 **Experience points:** 6,400

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_gambit", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "15"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Spell Focus (illusion), caster level 5th."
 prerequisite_feats = ["ref/feat/spell-focus"]
 benefit = "As a standard action, you can draw upon energies from the Plane of Shadow to cause an ongoing figment spell you cast to damage a foe as if the illusion were real. The illusion must be one you retain ongoing control of, such as minor image, and the target must be both visible to you and within or adjacent to the area of your illusion. Using this feat immediately ends the figment's duration."
 +++
-
-**Sources:** Inner Sea Magic pg 15
 
 You can tap into the Plane of Shadow to momentarily lend reality to one of your illusion (figment)
 spells.\

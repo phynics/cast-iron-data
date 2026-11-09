@@ -6,6 +6,9 @@ source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "city_locked", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "legacy-of-the-first-world"
+page = "5"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "Your newfound freedom inspires your body and mind. You gain a +1 bonu
 +++
 
 ## City-Locked (Story)
-
-**Sources:** Legacy of the First World pg 5
 
 Your soul craves travel through wild places, but you are stuck in a sedentary urban life by legal
 matters, honor-bound duties, or other responsibilities.\

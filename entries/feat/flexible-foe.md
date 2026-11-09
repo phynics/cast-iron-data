@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flexible_foe", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "10"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "You can gain this feat multiple times. Each time you take the feat, y
 +++
 
 ## Flexible Foe (Combat)
-
-**Sources:** Dirty Tactics Toolbox pg 10
 
 Your expertise aids you against many similar foes.\
 **Prerequisites:** Base attack bonus +5, favored enemy (any humanoid or any outsider),

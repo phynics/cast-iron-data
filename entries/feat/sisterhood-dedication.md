@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sisterhood_dedication", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "85"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While you're using Sisterhood Style and wielding a longsword and eith
 +++
 
 ## Sisterhood Dedication (Combat)
-
-**Sources:** Adventurer's Guide pg 85
 
 The [Gray Maidens'](ref/rule/aff-scarred-ladies) bond with each other goes beyond simple combat
 coordination. An elite member of the sisterhood is an inspiration to her fellow women, both

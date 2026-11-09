@@ -6,6 +6,9 @@ source_ids = ["pathfinder-37-souls-for-smugglers-shiv"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eurypterid_spitting_eurypterid", path = "json/monsters42.json" },
 ]
+[[sources]]
+publication = "pathfinder-37-souls-for-smugglers-shiv"
+page = "79"
 
 [fields]
 kind = "creature"
@@ -39,7 +42,6 @@ abilities = ["34", "10", "24", "-", "13", "2"]
 
 **Senses:** Low-light vision
 
-**Sources:** Pathfinder \#37: Souls for Smuggler's Shiv pg 79\
 **Subtype:** Aquatic
 
 **tremorsense:** 30

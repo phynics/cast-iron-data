@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pitted_bullet", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "41"
+[[sources]]
+publication = "ultimate-combat"
+page = "141"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "-"
 +++
-
-**Sources:** Ultimate Equipment pg 41, Ultimate Combat pg 141
 
 This ammunition is pitted with a pattern of small pocks into which specially formulated poison
 compounds can be applied. A poison compound is a derivative of a standard toxin that is alchemically

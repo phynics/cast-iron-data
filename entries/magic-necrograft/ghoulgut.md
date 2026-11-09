@@ -6,6 +6,9 @@ source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghoulgut", path = "json/magic_necrografts.json" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "15"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ aura = "moderate necromancy and transmutation"
 caster_level = "9th"
 +++
 
-**Sources:** Black Markets pg 15\
 **Aura** moderate necromancy and transmutation; **CL** 9th\
 **Slot**; **Price** 16,000 gp; **Weight** —
 

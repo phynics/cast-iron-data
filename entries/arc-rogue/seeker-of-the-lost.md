@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "blood-of-the-sea"
+page = "5"
 
 [fields]
 kind = "archetype"
 replaces = ["2nd-level rogue talent", "Uncanny dodge", "Improved uncanny dodge"]
 +++
 
-**Sources:** Blood of the Sea pg 5\
 Aquatic elven adventurers descending into the ruins of sunken Azlant developed techniques to ease
 their explorations, and they now share these techniques among a loose group of acquaintances calling
 themselves the seekers of the lost. These aquatic elves eagerly explore trap-laden ruins of all

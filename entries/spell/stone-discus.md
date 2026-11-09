@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stone_discus", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "194"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Effect: one or more stone discuses
 Subschool: Creation
 Descriptors: earth
 :::
-
-**Sources:** Advanced Class Guide pg 194
 
 You create a stone discus, which flies at an enemy. You can create one discus, plus one additional
 discus at 7th and 11th caster levels. For each discus you create, you decide whether its edge is

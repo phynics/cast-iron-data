@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "epidemic", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "218"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: yes
 Target: living creature
 Descriptors: disease, evil
 :::
-
-**Sources:** Ultimate Magic pg 218
 
 _The target contracts one of the following diseases:_ blinding sickness, bubonic plague, cackle
 fever, filth fever, leprosy, mindfire, red ache, shakes, or slimy doom, as the spell

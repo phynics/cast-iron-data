@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nature_int", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "60"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 60
 
 ### Nature (Int; Trained Only)
 

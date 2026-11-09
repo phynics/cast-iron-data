@@ -6,6 +6,9 @@ source_ids = ["pathfinder-60-from-hells-heart"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "primeval_sea_creature_zeuglodon", path = "json/monsters37.json" },
 ]
+[[sources]]
+publication = "pathfinder-60-from-hells-heart"
+page = "89"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ wide, fluked tail. Razor-sharp teeth fill its almost reptilian mouth._
 
 **Senses:** Low-light vision
 
-**Sources:** Pathfinder \#60: From Hell's Heart pg 89\
 **Experience points:** 6,400
 
 **Armor class:** 25/11/20

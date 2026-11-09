@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mirror_of_mental_prowess", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "311"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration and divination"
 caster_level = "17th"
 +++
 
-**Sources:** Ultimate Equipment pg 311\
 **Aura** strong abjuration and divination; **CL** 17th\
 **Slot** none; **Price** 175,000 gp; **Weight** 40 lbs.
 

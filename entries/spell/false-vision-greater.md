@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/false-vision" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "214"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Descriptors: glamer
 :::
 
 ### Greater False Vision
-
-**Sources:** Ultimate Intrigue pg 214
 
 This functions similarly to [false vision](ref/spell/false-vision), but instead of placing the
 illusion on a nearby area, you can tie it to a specific individual, and can do so from great

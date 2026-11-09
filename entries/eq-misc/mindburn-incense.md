@@ -6,6 +6,9 @@ source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mindburn_incense", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "haunted-heroes-handbook"
+page = "11"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "50 gp"
 weight = "-"
 +++
 
-**Sources:** Haunted Heroes Handbook pg 11\
 **Price** 50 gp; **Weight** -\
 **Category** Black Market
 

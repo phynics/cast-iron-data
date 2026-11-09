@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/detect-magic" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "11"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: none
 Spell resistance: no
 Target: cone-shaped emanation
 :::
-
-**Sources:** Technology Guide pg 11
 
 This spell functions as [detect magic](ref/spell/detect-magic), except it detects the presence of
 technological objects instead of magical objects. The spell grants you the

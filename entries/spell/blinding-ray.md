@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blinding_ray", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "101"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: yes
 Effect: one or more rays of light
 Descriptors: good, light
 :::
-
-**Sources:** Advanced Race Guide pg 101
 
 > _[Dhampirs](ref/race/dhampir) have access to the following spell._
 

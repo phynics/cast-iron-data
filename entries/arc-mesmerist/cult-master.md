@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/mesmerist" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "96"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Consummate liar", "Painful stare", "3rd- and 6th-level touch treatm
 alters = ["Mesmerist tricks", "Masterful tricks"]
 +++
 
-**Sources:** Occult Adventures pg 96\
 The leaders of some cults are simply charlatans, bathing in the adulation of their followers. Others
 believe themselves to be truly in touch with an unknown power, bringing their unique messages to
 those willing to follow and obey them.

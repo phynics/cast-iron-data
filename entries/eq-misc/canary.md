@@ -6,6 +6,9 @@ source_ids = ["adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "canary", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "adventurers-armory"
+page = "19"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "4 cp"
 weight = "9 oz."
 +++
 
-**Sources:** Adventurer's Armory pg 19\
 **Price** 4 cp; **Weight** 9 oz.\
 **Category** Mounts/Pets
 

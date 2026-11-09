@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_fossil_golem", path = "json/monsters33.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "136"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ tyrannosaur-skulled hands._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 3 pg 136\
 **Experience points:** 19,200
 
 **Armor class:** 26/9/25

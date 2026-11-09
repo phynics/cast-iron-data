@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "downtime_events", path = "json/rules_subsystems03.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "114"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 114
 
 The following events are examples of the sort of random encounters a GM can add to the downtime
 system. Rolling for events occurs during the [Event phase](ref/rule/event-phase).

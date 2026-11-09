@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "efreeti_style", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "99"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You gain one additional Elemental Fist attempt per day. While using t
 +++
 
 ## Efreeti Style (Combat, Style)
-
-**Sources:** Ultimate Combat pg 99
 
 Your mastery of the unpredictable power of flames allows you to unleash scorching strikes that burn
 your enemies even when you fail to make contact.\

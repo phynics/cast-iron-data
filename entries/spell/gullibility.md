@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gullibility", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "blood-of-the-beast"
+page = "14"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Target: one creature
 Subschool: Charm
 Descriptors: mind-affecting
 :::
-
-**Sources:** Blood of the Beast pg 14
 
 You befuddle the target's mind, making it more willing to believe even the most outlandish tales.
 The target takes a -10 penalty on Sense Motive checks for the spell's duration. In addition,

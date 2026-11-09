@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improvised_weapon_mastery", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "128"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You do not suffer any penalties for using an improvised weapon. Incre
 +++
 
 ## Improvised Weapon Mastery (Combat)
-
-**Sources:** PRPG Core Rulebook pg 128
 
 You can turn nearly any object into a deadly weapon, from a razor-sharp chair leg to a sack of
 flour.\

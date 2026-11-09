@@ -6,12 +6,13 @@ source_ids = ["lands-of-conflict"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "caches", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "lands-of-conflict"
+page = "59"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Lands of Conflict pg 59
 
 A cache is a small, hidden stash of supplies placed in a strategic location for later use. Most
 caches consist of weapons, contraband, and restorative magic, but any combination of items fitting

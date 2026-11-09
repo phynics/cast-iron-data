@@ -6,6 +6,9 @@ source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "panther", path = "json/class_ability_druid_domains.json" },
 ]
+[[sources]]
+publication = "faiths-and-philosophies"
+page = "25"
 
 [fields]
 kind = "class_option"
@@ -13,8 +16,6 @@ group = "druid-domain"
 +++
 
 ## Panther Domain
-
-**Sources:** Faiths and Philosophies pg 25
 
 **Granted Powers:** You share the power of the Hunter in Darkness. The potent magic of an ancient
 predator spirit flows through you.

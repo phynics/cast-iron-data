@@ -6,6 +6,8 @@ source_ids = ["disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kaminari_drums", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "disciples-doctrine"
 
 [fields]
 kind = "class_option"
@@ -13,8 +15,6 @@ group = "bardic-masterpiece"
 +++
 
 ## Kaminari Drums (Percussion)
-
-**Sources:** Disciple's Doctrine
 
 You beat a thunderous cacophony that strikes your foes with the fury of the [kami](ref/family/kami)
 of storms.

@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kings_castle", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "230"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Spell resistance: yes (harmless)
 Target: one creature
 Subschool: Teleportation
 :::
-
-**Sources:** Advanced Player's Guide pg 230
 
 This spell allows you to switch places with an ally. When you cast this spell, choose a single ally
 within range. You teleport to your ally's space while your ally teleports to your former space.

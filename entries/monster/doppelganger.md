@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "doppelganger", path = "json/monsters41.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "89"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ sinister, noseless face._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 89\
 **Subtype:** Shapechanger
 
 **Experience points:** 800

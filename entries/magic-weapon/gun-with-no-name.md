@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gun_with_no_name", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "145"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration and conjuration"
 caster_level = "9th"
 +++
 
-**Sources:** Mythic Adventures pg 145\
 **Aura** moderate abjuration and conjuration; **CL** 9th\
 **Slot** none; **Price** 98,300 gp; **Weight** 5 lbs.
 

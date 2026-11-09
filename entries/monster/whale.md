@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "whale", path = "json/monsters25.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "282"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ immense size._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 2 pg 282\
 **Experience points:** 9,600
 
 **Armor class:** 22/4/22

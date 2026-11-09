@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "other_move_actions", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "187"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 187
 
 Moving or manipulating an item is usually a move action. This includes retrieving or putting away a
 stored item, picking up an item, moving a heavy object, and opening a door. Examples of this kind of

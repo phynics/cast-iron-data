@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kaiju_vorgozen", path = "json/monsters_unique4.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "172"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ core to reveal a single red eye._
 
 **Senses:** Darkvision 600 ft.
 
-**Sources:** Bestiary 6 pg 172\
 **Subtype:** Kaiju, Water
 
 **tremorsense:** 600

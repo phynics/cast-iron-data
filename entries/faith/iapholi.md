@@ -6,6 +6,9 @@ source_ids = ["pathfinder-144-midwives-to-death"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "iapholi", path = "json/faiths4.json" },
 ]
+[[sources]]
+publication = "pathfinder-144-midwives-to-death"
+page = "74-75"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Iapholi**
 
 **Sub:** Child of Bloodstone
-
-**Sources:** Pathfinder \#144: Midwives to Death pg. 74-75
 
 ### Details
 

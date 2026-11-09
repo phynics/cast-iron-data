@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "catch", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "56"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 56
 
 You can attempt an Athletics check to catch yourself while falling along a wall or slope. The DC is
 equal to the wall's climb DC + 20 or the slope's climb DC + 10 (see [Climb](ref/rule/climb), below).

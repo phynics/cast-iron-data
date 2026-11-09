@@ -6,13 +6,15 @@ source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "remorse", path = "json/class_ability_emotional_focus.json" },
 ]
+[[sources]]
+publication = "occult-origins"
+page = "19"
 
 [fields]
 kind = "class_option"
 group = "emotional-focus"
 +++
 
-**Sources:** Occult Origins pg 19\
 Spirits of creatures that died with heavy weights upon their consciences manifest with the remorse
 emotional focus. These phantoms, whose forms are often darkened by shadows, force foes to experience
 their regret and self-loathing. A spiritualist with the

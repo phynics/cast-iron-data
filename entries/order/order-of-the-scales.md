@@ -6,13 +6,14 @@ source_ids = ["champions-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "order_of_the_scales", path = "json/class_ability_orders.json" },
 ]
+[[sources]]
+publication = "champions-of-balance"
+page = "22"
 
 [fields]
 kind = "class_option"
 group = "order"
 +++
-
-**Sources:** Champions of Balance pg 22
 
 Members of this cavalier order serve the cause of legal integrity. Many order of the scales
 cavaliers track down and apprehend fleeing lawbreakers so that these vagrants may answer for their

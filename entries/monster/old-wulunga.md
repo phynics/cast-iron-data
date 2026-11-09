@@ -6,6 +6,9 @@ source_ids = ["mystery-monsters-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "old_wulunga", path = "json/monsters_unique3.json" },
 ]
+[[sources]]
+publication = "mystery-monsters-revisited"
+page = "9"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ an agonizing death._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Mystery Monsters Revisited pg 9\
 **Subtype:** Aquatic
 
 **Experience points:** 2,400

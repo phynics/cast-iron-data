@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "venomous_spray", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "200"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can spit venom as a secondary ranged attack with a range of 5 fee
 +++
 
 ## Venomous Spray (Combat)
-
-**Sources:** Monster Codex pg 200
 
 You can spit your poison into a nearby opponent's face.\
 **Prerequisites:** [Serpentfolk](ref/monster/serpentfolk).\

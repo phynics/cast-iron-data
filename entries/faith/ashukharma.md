@@ -6,6 +6,9 @@ source_ids = ["distant-shores"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ashukharma", path = "json/faiths.json" },
 ]
+[[sources]]
+publication = "distant-shores"
+page = "42"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Ashukharma**
 
 **Sub:** The Divine Divide
-
-**Sources:** Distant Shores pg 42
 
 ### Details
 

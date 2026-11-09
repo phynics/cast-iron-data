@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "milanite_armor", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "252"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration"
 caster_level = "3rd"
 +++
 
-**Sources:** Inner Sea Gods pg 252\
 **Aura** faint conjuration; **CL** 3rd\
 **Slot** armor; **Price** 2,780 gp; **Weight** 15 lbs.
 

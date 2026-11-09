@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lookout", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "164"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "Whenever you are adjacent to an ally who also has this feat, you may 
 +++
 
 ## Lookout (Combat, Teamwork)
-
-**Sources:** Advanced Player's Guide pg 164
 
 Your allies help you avoid being surprised.\
 **Benefit:** Whenever you are adjacent to an ally who also has this feat, you may act in the

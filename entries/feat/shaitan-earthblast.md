@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shaitan_earthblast", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "117"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using the Shaitan Style feat, as a standard action, you can spe
 +++
 
 ## Shaitan Earthblast (Combat)
-
-**Sources:** Ultimate Combat pg 117
 
 With a forceful stomp you release a blast of acid from the earth to burn your enemies.\
 **Prerequisites:** Con 15, Wis 17, [Elemental Fist](ref/feat/elemental-fist),

@@ -6,12 +6,12 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aeon", path = "json/monster_families.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Bestiary 2
 
 Beyond passion, beyond mercy, beyond reason, the faceless caretakers of reality toil without end,
 silently struggling to preserve the tenuous balance upon which all existence depends. These

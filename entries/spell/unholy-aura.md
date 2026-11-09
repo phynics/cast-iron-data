@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unholy_aura", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "364"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Spell resistance: yes
 Targets: one creature/level in a 20-ft.-radius burst centered on you
 Descriptors: evil
 :::
-
-**Sources:** PRPG Core Rulebook pg 364
 
 A malevolent darkness surrounds the subjects, protecting them from attacks, granting them resistance
 to spells cast by good creatures, and weakening good creatures when they strike the subjects. This

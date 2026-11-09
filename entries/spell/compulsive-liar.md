@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "compulsive_liar", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "206"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Target: creature touched
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Ultimate Intrigue pg 206
 
 The target becomes unable to speak the truth. Lies the target speaks don't need to be convincing,
 nor do they even need to be consistent, but they can't be true as far as the target is aware. This

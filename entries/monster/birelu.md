@@ -6,6 +6,9 @@ source_ids = ["pathfinder-94-ice-tomb-of-the-giant-queen"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "birelu", path = "json/monsters03.json" },
 ]
+[[sources]]
+publication = "pathfinder-94-ice-tomb-of-the-giant-queen"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ covered in patches of sleek black fur._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Pathfinder \#94: Ice Tomb of the Giant Queen pg 82\
 **Subtype:** Extraplanar, Incorporeal
 
 **Experience points:** 9,600

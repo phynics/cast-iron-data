@@ -6,6 +6,9 @@ source_ids = ["cheliax-empire-of-devils"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_terrible_cost", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "cheliax-empire-of-devils"
+page = "21"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Sources:** Cheliax, Empire of Devils pg 21\
 **Aura** moderate transmutation; **CL** 9th\
 **Slot** ring; **Price** 20,000 gp; **Weight** -
 

@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "headband_of_vermin_control", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "45"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Monster Codex pg 45\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** headband; **Price** 1,000 gp; **Weight** 1 lb.
 

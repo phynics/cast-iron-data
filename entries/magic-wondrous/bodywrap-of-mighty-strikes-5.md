@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bodywrap_of_mighty_strikes_5", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "214"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "5th"
 
 ## Bodywrap of Mighty Strikes
 
-**Sources:** Ultimate Equipment pg 214\
 **Aura** faint evocation; **CL** 5th\
 **Slot** body; **Price** 3,000 gp (+1), 12,000 gp (+2), 27,000 gp (+3), 48,000 gp (+4), 75,000 gp
 (+5), 108,000 gp (+6), 147,000 gp (+7); **Weight** 1 lb.

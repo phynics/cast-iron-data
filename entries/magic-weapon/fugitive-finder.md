@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fugitive_finder", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "255"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration and transmutation"
 caster_level = "8th"
 +++
 
-**Sources:** Inner Sea Gods pg 255\
 **Aura** moderate conjuration and transmutation; **CL** 8th\
 **Slot** none; **Price** 12,655 gp; **Weight** 4 lbs.
 

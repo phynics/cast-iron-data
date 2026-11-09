@@ -6,6 +6,9 @@ source_ids = ["dungeons-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deadflesh_waraxe", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "dungeons-of-golarion"
+page = "62"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ aura = "strong conjuration and transmutation"
 caster_level = "12th"
 +++
 
-**Sources:** Dungeons of Golarion pg 62\
 **Aura** strong conjuration and transmutation; **CL** 12th\
 **Slot** none; **Weight** 8 lbs.
 

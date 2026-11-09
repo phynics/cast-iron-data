@@ -6,6 +6,9 @@ source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kalistocrats_gloves", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "61"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration and evocation"
 caster_level = "5th"
 +++
 
-**Sources:** Inner Sea Combat pg 61\
 **Aura** faint abjuration and evocation; **CL** 5th\
 **Slot** hands; **Price** 3,600 gp; **Weight** 1 lb.
 

@@ -6,14 +6,18 @@ source_ids = ["book-of-the-damned", "book-of-the-damned-volume-1-princes-of-dark
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "diabolist", path = "json/prestige_classes4.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "210"
+[[sources]]
+publication = "book-of-the-damned-volume-1-princes-of-darkness"
+page = "44"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d6."
 +++
-
-**Sources:** Book of the Damned pg 210, Book of the Damned - Volume 1: Princes of Darkness pg 44
 
 Though diabolists seek to enslave the forces of Hell and turn them toward goals other than
 corruption, only the most stalwart of diabolists can resist the temptations of the Pit.

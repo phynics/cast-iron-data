@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trip", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "301"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Trip (Ex)
 
-**Sources:** Bestiary 5 pg 301\
 A creature with the trip special attack can attempt to trip its opponent as a free action without
 provoking an attack of opportunity if it hits with the specified attack. If the attempt fails, the
 creature is not tripped in return.

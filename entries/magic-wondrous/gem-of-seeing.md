@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gem_of_seeing", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "300"
+[[sources]]
+publication = "core-rulebook"
+page = "514"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate divination"
 caster_level = "10th"
 +++
 
-**Sources:** Ultimate Equipment pg 300, PRPG Core Rulebook pg 514\
 **Aura** moderate divination; **CL** 10th\
 **Slot** none; **Price** 75,000 gp; **Weight** -
 

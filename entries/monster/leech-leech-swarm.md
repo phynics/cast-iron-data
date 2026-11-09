@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "leech_leech_swarm", path = "json/monsters34.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "187"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ enveloping its victim._
 
 **Perception:** +0
 
-**Sources:** Pathfinder RPG Bestiary pg 187\
 **Subtype:** Aquatic, Swarm
 
 **Type:** vermin

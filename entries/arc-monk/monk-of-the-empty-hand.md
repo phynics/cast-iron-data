@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/monk" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "111"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Weapon proficiencies", "Still mind", "Purity of body", "diamond bod
 alters = ["Flurry of blows"]
 +++
 
-**Sources:** Advanced Player's Guide pg 111\
 The monk of the empty hand eschews normal weapons in favor of whatever is lying around - rocks,
 chair legs, flagons of ale, even a simple quill pen all become deadly weapons in the hands of such a
 monk. A monk of the empty hand draws on his own ki to infuse his improvised weapons with power, and

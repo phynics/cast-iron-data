@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/fighter" },
 ]
+[[sources]]
+publication = "construct-handbook"
+page = "14"
 
 [fields]
 kind = "archetype"
 replaces = ["Armor training", "Weapon training 1"]
 +++
 
-**Sources:** Construct Handbook pg 14\
 Scrappers are adept at collecting the leftovers from their enemy's armor and using these scraps to
 improve their own armor.
 

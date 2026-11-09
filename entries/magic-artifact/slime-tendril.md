@@ -6,6 +6,9 @@ source_ids = ["pathfinder-122-into-the-shattered-continent"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slime_tendril", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "pathfinder-122-into-the-shattered-continent"
+page = "76"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "overwhelming transmutation"
 caster_level = "20th"
 +++
 
-**Sources:** Pathfinder \#122: Into the Shattered Continent pg 76\
 **Aura** overwhelming transmutation; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 4 lbs.
 

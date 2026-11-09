@@ -6,13 +6,15 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jealousy", path = "json/class_ability_emotional_focus.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "83"
 
 [fields]
 kind = "class_option"
 group = "emotional-focus"
 +++
 
-**Sources:** Occult Adventures pg 83\
 A phantom with this emotional focus is covetous of everything - its master, those who wish to do it
 harm, and any who do not pay attention to it. It demands to be the center of attention at all times.
 The forms these phantoms take are as diverse as the forms of jealousy in life. Often they take

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "repel_wood", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "333"
 
 [fields]
 kind = "spell"
@@ -37,8 +40,6 @@ Saving throw: none
 Spell resistance: no
 Area: 60-ft. line-shaped emanation from you
 :::
-
-**Sources:** PRPG Core Rulebook pg 333
 
 Waves of energy roll forth from you, moving in the direction that you determine, causing all wooden
 objects in the path of the spell to be pushed away from you to the limit of the range. Wooden

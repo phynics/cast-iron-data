@@ -6,6 +6,9 @@ source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boots_of_flawless_resolve", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "merchants-manifest"
+page = "18"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "7th"
 +++
 
-**Sources:** Merchant's Manifest pg 18\
 **Aura** moderate divination; **CL** 7th\
 **Slot** feet; **Price** 6,500 gp; **Weight** 2 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "domino_crash", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "24"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "You can't reposition a creature into a square that is occupied by a so
 +++
 
 ## Domino Crash (Combat)
-
-**Sources:** Martial Arts Handbook pg 24
 
 You knock your opponents into each other, using one enemy to shove aside another.\
 **Prerequisites:** Int 13, [Combat Expertise](ref/feat/combat-expertise),

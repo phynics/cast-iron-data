@@ -6,13 +6,15 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "battle", path = "json/class_ability_shaman_spirits.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "37"
 
 [fields]
 kind = "class_option"
 group = "shaman-spirit"
 +++
 
-**Sources:** Advanced Class Guide pg 37\
 A shaman who selects the battle spirit gains scars from every wound she takes, and the grit of
 battle always seems to cling on her body. When she calls upon one of this spirit's abilities, she
 grows in stature - becoming taller and more muscular, with a grimace of rage stretching across her

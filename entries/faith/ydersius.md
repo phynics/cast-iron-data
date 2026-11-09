@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "pathfinder-42-sanctum-of-the-serpent-god"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ydersius", path = "json/faiths9.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "192"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Ydersius**
 
 **Sub:** The Headless King
-
-**Sources:** Inner Sea Gods pg 192
 
 ### Details
 

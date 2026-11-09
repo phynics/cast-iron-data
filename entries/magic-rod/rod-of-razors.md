@@ -6,6 +6,9 @@ source_ids = ["pathfinder-35-war-of-the-river-kings"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rod_of_razors", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "pathfinder-35-war-of-the-river-kings"
+page = "46"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "n/a (see source)"
 caster_level = "15th"
 +++
 
-**Sources:** Pathfinder \#35: War of the River Kings pg 46\
 **Aura** n/a (see source); **CL** 15th\
 **Slot** none; **Price** 65,000 gp; **Weight** 10 lbs.
 

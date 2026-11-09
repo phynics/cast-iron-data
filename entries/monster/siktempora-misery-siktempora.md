@@ -6,6 +6,9 @@ source_ids = ["pathfinder-135-runeplague"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "siktempora_misery_siktempora", path = "json/monsters38.json" },
 ]
+[[sources]]
+publication = "pathfinder-135-runeplague"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ and its gaze conveys a furious misery._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#135: Runeplague pg 90\
 **Subtype:** Chaotic, Evil, Extraplanar
 
 **Experience points:** 19,200

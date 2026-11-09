@@ -6,12 +6,14 @@ source_ids = ["distant-shores"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "festival_of_flowers", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "distant-shores"
+page = "52"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Distant Shores pg 52\
 **School** divination; **Level** 4\
 **Casting Time** 12 hours\
 **Components** V, S, M (100 lbs. of flowers per caster, a feast consisting of 1,000 gp worth of food

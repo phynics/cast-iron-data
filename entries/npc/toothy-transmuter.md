@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "toothy_transmuter", path = "json/npcs3.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "187"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "11"
 
 **Challenge rating:** 11
 
-**Sources:** NPC Codex pg 187\
 **XP** 12,800\
 Half-orc transmuter 12\
 CE Medium humanoid (human, orc)\

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-society-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pathfinder_greatcoat", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "pathfinder-society-primer"
+page = "25"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Sources:** Pathfinder Society Primer pg 25\
 **Aura** moderate transmutation; **CL** 9th\
 **Slot** body; **Price** 8,000 gp; **Weight** 4 lbs.
 

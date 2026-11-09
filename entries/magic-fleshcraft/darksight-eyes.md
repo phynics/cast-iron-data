@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "darksight_eyes", path = "json/magic_fleshcrafting.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "168"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "6,000 gp"
 slot = "eyes"
 +++
 
-**Sources:** Horror Adventures pg 168\
 **Price** 6,000 gp; **Elixir Price** 300 gp\
 **Saving Throw DC** 15; **Slot** eyes; **Temporary Duration** 24 hours
 

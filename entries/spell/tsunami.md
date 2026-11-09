@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tsunami", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "251"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Effect: 10-ft.-deep wave 10 ft. wide/level and 2 ft. tall/level
 Subschool: Creation
 Descriptors: water
 :::
-
-**Sources:** Advanced Player's Guide pg 251
 
 You create a massive wave of water that then moves in a straight line across water or land-you
 select the direction the wave travels (which must be perpendicular to its width), but once set in

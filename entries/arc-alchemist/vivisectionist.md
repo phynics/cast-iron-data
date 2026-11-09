@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "20"
 
 [fields]
 kind = "archetype"
 replaces = ["Bomb"]
 +++
 
-**Sources:** Ultimate Magic pg 20\
 A vivisectionist studies bodies to better understand their function. Unlike a
 [chirurgeon](ref/arc-alchemist/chirurgeon), a vivisectionist's goals are not related to healing, but
 rather to experimentation and knowledge that most people would consider evil. A vivisectionist has

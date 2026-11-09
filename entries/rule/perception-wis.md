@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "perception_wis", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "61"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 61
 
 ### Perception (Wis)
 

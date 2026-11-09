@@ -6,6 +6,9 @@ source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vex_giant", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "63"
 
 [fields]
 kind = "spell"
@@ -37,8 +40,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Inner Sea Magic pg 63
 
 The giants and their kin have long plagued the peoples of Varisia, particularly the Shoanti of the
 Storval Plateau. Among the various tactics and methods the Shoanti have developed to fight against

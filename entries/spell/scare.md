@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/cause-fear" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "336"
 
 [fields]
 kind = "spell"
@@ -53,8 +56,6 @@ Spell resistance: yes
 Targets: one living creature per three levels, no two of which can be more than 30 ft. apart
 Descriptors: emotion, fear, mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 336
 
 This spell functions like [cause fear](ref/spell/cause-fear), except that it causes all targeted
 creatures of less than 6 HD to become frightened.

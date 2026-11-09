@@ -6,6 +6,9 @@ source_ids = ["sargava-the-lost-colony"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jungle_boots", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "sargava-the-lost-colony"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Sargava, the Lost Colony pg 29\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** feet; **Price** 6,000 gp; **Weight** 1 lb.
 

@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_eloquence", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "217"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Sources:** Advanced Class Guide pg 217\
 **Aura** faint divination; **CL** 3rd\
 **Slot** ring; **Price** 3,500 gp; **Weight** -
 

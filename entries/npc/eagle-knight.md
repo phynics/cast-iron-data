@@ -6,6 +6,9 @@ source_ids = ["andoran-birthplace-of-freedom"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eagle_knight", path = "json/npcs.json" },
 ]
+[[sources]]
+publication = "andoran-birthplace-of-freedom"
+page = "54"
 
 [fields]
 kind = "creature"
@@ -18,7 +21,6 @@ _Golden eagles shine proudly on the steel armor of this blue-uniformed soldier._
 
 **Challenge rating:** 2
 
-**Sources:** Andoran, Birthplace of Freedom pg 54\
 **XP** 600\
 Human [fighter](ref/class/fighter) 3\
 LG Medium humanoid (human)\

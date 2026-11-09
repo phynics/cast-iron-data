@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_pig", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "113"
+[[sources]]
+publication = "ultimate-magic"
+page = "119"
 
 [fields]
 kind = "creature"
@@ -38,7 +44,6 @@ abilities = ["11", "12", "15", "2", "13", "4"]
 
 **Size:** small
 
-**Sources:** Bestiary 3 pg 113, Ultimate Magic pg 119\
 **Experience points:** 135
 
 **Armor class:** 13/12/12

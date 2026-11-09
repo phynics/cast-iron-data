@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_drag", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "161"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "Creatures moved by drag do not provoke attacks of opportunity."
 +++
 
 ## Greater Drag (Combat)
-
-**Sources:** Advanced Player's Guide pg 161
 
 Foes that you drag are thrown out of balance.\
 **Prerequisites:** Str 13, [Improved Drag](ref/feat/improved-drag),

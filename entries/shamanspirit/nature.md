@@ -6,13 +6,15 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nature", path = "json/class_ability_shaman_spirits.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "44"
 
 [fields]
 kind = "class_option"
 group = "shaman-spirit"
 +++
 
-**Sources:** Advanced Class Guide pg 44\
 A shaman who selects the nature spirit takes on an appearance that reflects the aspect of the
 natural world she has the closest connection to. A nature shaman from the forest has a green tinge
 to her skin and hair, with eyes of sparkling emerald and the scent of green leaves and flowers about

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fortune_telling_as_theater", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "239"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 239
 
 With a bit of preparation, you can give a truly theatrical fortune-telling session using palm
 reading, a crystal ball, or any other interpretive method where you, as the fortune-teller, are

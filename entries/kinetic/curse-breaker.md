@@ -6,6 +6,9 @@ source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "curse_breaker", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "22"
 
 [fields]
 kind = "class_option"
@@ -23,8 +26,6 @@ group = "kineticist-wild-talent"
 **Burn:** 0
 
 **Prerequisite:** [emptiness](ref/kinetic/emptiness)
-
-**Source:** Psychic Anthology/22
 
 The power of void protects you from curses and allows you to remove or suppress them. You gain a +4
 bonus on saving throws against curses and hexes. You can accept 1 point of burn as a **standard

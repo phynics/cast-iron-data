@@ -6,6 +6,9 @@ source_ids = ["pathfinder-111-dreams-of-the-yellow-king"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thrushmoor_angler", path = "json/monsters23.json" },
 ]
+[[sources]]
+publication = "pathfinder-111-dreams-of-the-yellow-king"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ luminescent organ suspended by a fleshy tether hangs like a lantern above its he
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#111: Dreams of the Yellow King pg 88\
 **Subtype:** Aquatic
 
 **Experience points:** 4,800

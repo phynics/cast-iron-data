@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_weapon", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "237"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Effect: one shadow weapon
 Subschool: Shadow
 Descriptors: shadow
 :::
-
-**Sources:** Ultimate Magic pg 237
 
 Drawing upon the Plane of Shadow, you shape a quasi-real masterwork melee weapon of a type you are
 proficient with. You may use this weapon to make attacks as if it were a real weapon, dealing normal

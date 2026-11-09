@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "amplify_stench", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "213"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Monster Codex pg 213
 
 You amplify your natural stench special ability-its save DC increases by 2, and creatures that fail
 their saving throws against your stench become nauseated rather than sickened. If your stench

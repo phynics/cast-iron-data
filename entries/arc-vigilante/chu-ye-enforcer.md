@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/vigilante" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "18"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Social talent gained at 1st level", "Vigilante talents gained at 4t
 alters = ["Dual identity"]
 +++
 
-**Sources:** Martial Arts Handbook pg 18\
 In the despotic nation of Chu Ye, merciless [oni](ref/family/oni) oppress the human populace. Some
 [humans](ref/race/human) and [tieflings](ref/race/tiefling) with oni blood use the power of the oni
 for their own ambitions. Donning terrifying masks, these vigilantes forsake their humanity to become

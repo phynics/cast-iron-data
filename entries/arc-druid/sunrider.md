@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "13"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Woodland stride", "Trackless step", "Resist nature's lure", "Wild s
 alters = ["Weapon and armor proficiencies", "Nature bond"]
 +++
 
-**Sources:** Adventurer's Guide pg 13\
 Sunriders help their allies, be they fellow tribe members or fellow adventurers, to survive in harsh
 desert terrain, while simultaneously making it even harsher for their foes. They seem to share a
 single mind with their loyal steeds, and companions who ride with them become an eerily

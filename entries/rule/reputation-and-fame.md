@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reputation_and_fame", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "180"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 180
 
 Though some heroes content themselves with living off the spoils of their exploits or cloaking
 themselves in humility, others seek to live forever through the sagas and songs of their epic deeds.

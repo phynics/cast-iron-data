@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cruel_conjurer", path = "json/npcs4.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "190"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "14"
 
 **Challenge rating:** 14
 
-**Sources:** NPC Codex pg 190\
 **XP** 38,400\
 Human conjurer 15\
 LE Medium humanoid (human)\

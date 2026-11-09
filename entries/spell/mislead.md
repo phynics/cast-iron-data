@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mislead", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "315"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Effect: one illusory double
 Subschool: Figment, Glamer
 Descriptors: glamer
 :::
-
-**Sources:** PRPG Core Rulebook pg 315
 
 You become invisible (as greater invisibility, a glamer), and at the same time, an illusory double
 of you (as major image, a figment) appears. You are then free to go elsewhere while your double

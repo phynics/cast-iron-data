@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "pathfinder-80-empty-graves"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sha", path = "json/monsters21.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "226"
+[[sources]]
+publication = "pathfinder-80-empty-graves"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ unnatural origins of this black canine._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Sandstorm sight
 
-**Sources:** Bestiary 5 pg 226, Pathfinder \#80: Empty Graves pg 86\
 **Experience points:** 1,200
 
 **Armor class:** 17/14/13

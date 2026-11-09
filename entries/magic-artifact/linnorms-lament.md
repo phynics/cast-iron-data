@@ -6,6 +6,9 @@ source_ids = ["classic-treasures-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "linnorms_lament", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "classic-treasures-revisited"
+page = "38"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration"
 caster_level = "20th"
 +++
 
-**Sources:** Classic Treasures Revisited pg 38\
 **Aura** strong conjuration; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 2 lbs.
 

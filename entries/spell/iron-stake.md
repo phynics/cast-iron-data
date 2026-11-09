@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "the-first-world-realm-of-the-fey"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "iron_stake", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "231"
+[[sources]]
+publication = "the-first-world-realm-of-the-fey"
+page = "12"
 
 [fields]
 kind = "spell"
@@ -49,8 +55,6 @@ Spell resistance: no
 Effect: see text
 Subschool: Creation
 :::
-
-**Sources:** Ultimate Wilderness pg 231, The First World, Realm of the Fey pg 12
 
 This spell creates a 1-foot-long spike of cold iron that you fling at your target as a ranged touch
 attack. The stake is treated as a magic and cold iron weapon for the purpose of overcoming

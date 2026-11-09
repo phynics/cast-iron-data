@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charging_stag_style", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-wild"
+page = "22"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "You can't charge through allies' spaces or difficult terrain."
 +++
 
 ## Charging Stag Style (Combat, Style)
-
-**Sources:** Heroes of the Wild pg 22
 
 This style originated among shamanic monks who spent their lives in the wild, allowing them to
 quickly subdue both game and poachers using the element of surprise. Practitioners of Charging Stag

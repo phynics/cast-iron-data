@@ -6,12 +6,12 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "angel", path = "json/monster_families.json" },
 ]
+[[sources]]
+publication = "bestiary"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder RPG Bestiary
 
 Angels are a race of celestials, beings who live on the good-aligned outer planes.
 

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wanderers_scarf", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "57"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint necromancy"
 caster_level = "1st"
 +++
 
-**Sources:** Inner Sea Combat pg 57\
 **Aura** faint necromancy; **CL** 1st\
 **Slot** none; **Price** 7,812 gp; **Weight** 2 lbs.
 

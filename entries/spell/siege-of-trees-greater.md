@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/siege-of-trees" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "244"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: no
 :::
 
 ### Greater Siege of Trees
-
-**Sources:** Ultimate Combat pg 244
 
 As [siege of trees](ref/spell/siege-of-trees), but you can affect larger-sized plants. Each plant
 acts as a catapult of its size.

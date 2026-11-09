@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/hunter" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "65"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Track", "Woodland stride", "Swift tracker"]
 alters = ["Master hunter"]
 +++
 
-**Sources:** Ultimate Intrigue pg 65\
 Roof runners are skilled ambushers, skirmishers, and spies who eschew heavier types of armor in
 order to remain light on their feet. They lurk in the shadows of the rooftops to find people or
 houses to rob, though some use their specialized skills for nobler purposes.

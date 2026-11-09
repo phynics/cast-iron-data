@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hive_hive_larva_swarm", path = "json/monsters13.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "236"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ _This mass of writhing, maggot-like creatures secretes a caustic odor._
 
 **Senses:** Hive mind
 
-**Sources:** Horror Adventures pg 236\
 **Subtype:** Hive, Swarm
 
 **Experience points:** 1,600

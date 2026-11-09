@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/sleep" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "265"
 
 [fields]
 kind = "spell"
@@ -52,7 +55,5 @@ Area: one or more living creatures within a 10-ft.-radius burst
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 265
 
 This spell functions like [sleep](ref/spell/sleep), except that it affects 10 HD of targets.

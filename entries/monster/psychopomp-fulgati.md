@@ -6,6 +6,9 @@ source_ids = ["concordance-of-rivals"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychopomp_fulgati", path = "json/monsters19.json" },
 ]
+[[sources]]
+publication = "concordance-of-rivals"
+page = "60"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ legs._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Spiritsense, True seeing
 
-**Sources:** Concordance of Rivals pg 60\
 **Subtype:** Extraplanar, Psychopomp
 
 **Experience points:** 153,600

@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "consequences_of_losing_honor", path = "json/rules_subsystems01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "161"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 161
 
 If your honor score reaches 0, you take a -2 penalty on Will saving throws and Charisma-based
 checks, representing your sense of shame. If you are part of an honor-bound institution, your lack

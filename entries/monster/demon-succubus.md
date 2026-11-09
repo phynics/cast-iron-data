@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_succubus", path = "json/monsters29.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "68"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _Tiny horns, bat-like wings, and a sinuous tail betray the demonic nature of thi
 
 **Senses:** Darkvision 60 ft., Detect good
 
-**Sources:** Pathfinder RPG Bestiary pg 68\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 3,200

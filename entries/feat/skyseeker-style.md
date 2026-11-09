@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skyseeker_style", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "blood-of-the-ancients"
+page = "30"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Once per round, when an opponent attacks you with a reach weapon, you
 +++
 
 ## Skyseeker Style (Combat, Style)
-
-**Sources:** Blood of the Ancients pg 30
 
 You know how to duck and weave through small gaps in a foe's defense to close the distance between
 yourself and your enemy.\

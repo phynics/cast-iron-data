@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghoul_touch", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "289"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: yes
 Target: living humanoid touched
 Descriptors: poison
 :::
-
-**Sources:** PRPG Core Rulebook pg 289
 
 Imbuing you with negative energy, this spell allows you to paralyze a single living humanoid for the
 duration of the spell with a successful melee touch attack.

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/bladed-dash" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "52"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 :::
 
 ### Greater Bladed Dash
-
-**Sources:** Inner Sea Magic pg 52
 
 This spell functions like [bladed dash](ref/spell/bladed-dash), save that you can make a single
 melee attack against every creature you pass during the 30 feet of your dash. You cannot attack an

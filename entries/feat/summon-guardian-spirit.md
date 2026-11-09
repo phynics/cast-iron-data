@@ -6,14 +6,15 @@ source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summon_guardian_spirit", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "monster-summoners-handbook"
+page = "26"
 
 [fields]
 kind = "feat"
 prerequisites = "Ability to cast summon monster III or summon nature's ally III."
 benefit = "Select one creature that qualifies to be an improved familiar, and apply the guardian spirit template to it. That creature is added to either your *summon monster III* or *summon nature's ally III* list as a summonable creature. When you summon your guardian spirit, the duration of the spell you use to summon it is 1 minute per level. A guardian spirit is always exactly the same creature, with memory of all the events that occurred while previously summoned; multiple versions of it can't be summoned. If it's killed while summoned, it cannot be summoned again for 24 hours."
 +++
-
-**Sources:** Monster Summoner's Handbook pg 26
 
 A guardian spirit has selected you as its ward.\
 **Prerequisites:** Ability to cast [summon monster III](ref/spell/summon-monster-3) or

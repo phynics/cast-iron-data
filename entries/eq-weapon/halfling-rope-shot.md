@@ -6,14 +6,15 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "halfling_rope_shot", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "19"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "1 lb."
 +++
-
-**Sources:** Melee Tactics Toolbox pg 19
 
 One end of this short rope has a [sling bullet](ref/eq-weapon/sling-bullets) wrapped in a monkey's
 fist knot, and the other end is tied in a small loop. You wrap the loop around your wrist as a

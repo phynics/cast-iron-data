@@ -6,14 +6,15 @@ source_ids = ["paths-of-prestige"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "riftwarden", path = "json/prestige_classes3.json" },
 ]
+[[sources]]
+publication = "paths-of-prestige"
+page = "46"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d8."
 +++
-
-**Sources:** Paths of Prestige pg 46
 
 Guardians of the Great Beyond's integrity and stability, the Riftwardens can be found virtually
 anywhere throughout the multiverse combating their hated foes, the Blackfire Adepts. They travel

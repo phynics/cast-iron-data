@@ -6,6 +6,9 @@ source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "besmaras_grasping_depths", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "haunted-heroes-handbook"
+page = "26"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes
 Area: one 5-ft. cube/level (S)
 Descriptors: emotion, fear, haunted, mind-affecting
 :::
-
-**Sources:** Haunted Heroes Handbook pg 26
 
 You call upon the restless souls of those who died at sea. This spell can be cast only on an area of
 deep water. When a creature enters the area, the haunt manifests, automatically grabbing the

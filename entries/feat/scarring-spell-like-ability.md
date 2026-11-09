@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scarring_spell_like_ability", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "92"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "This feat can be taken multiple times. Each time it is taken, you can
 +++
 
 ## Scarring Spell-Like Ability (Monster)
-
-**Sources:** Horror Adventures pg 92
 
 Your [spell-like ability](ref/umr/spell-like-abilities) leaves mental scars.\
 **Prerequisites:** Spell-like ability at caster level 4th or higher.\

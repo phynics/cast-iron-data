@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/investigator" },
 ]
+[[sources]]
+publication = "blood-of-the-coven"
+page = "28"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Trapfinding", "trap sense", "Alchemy", "Poison resistance", "Poison
 alters = ["Inspiration"]
 +++
 
-**Sources:** Blood of the Coven pg 28\
 A lock of hair, a bit of blood, even a footprint is enough to grant a wily witch hunter an edge.
 Malice binders often rise from the ranks of the common folk rather than from wealthy nobles or the
 church. Their magic is old and crude, but devastatingly effective against those they hunt.

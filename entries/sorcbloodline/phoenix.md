@@ -6,13 +6,15 @@ source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phoenix", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
+[[sources]]
+publication = "heroes-of-golarion"
+page = "24"
 
 [fields]
 kind = "class_option"
 group = "sorcerer-bloodline"
 +++
 
-**Sources:** Heroes of Golarion pg 24\
 One of your ancestors bore witness to a [phoenix's](ref/monster/phoenix) resurrection and formed a
 bond with the magical creature. The resurrecting flames still course through your veins, surging
 with power.

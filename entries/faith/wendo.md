@@ -6,6 +6,9 @@ source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wendo", path = "json/faiths9.json" },
 ]
+[[sources]]
+publication = "faiths-and-philosophies"
+page = "14"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Wendo**
 
 **Sub:** Juju: A Ritualistic Tradition of Spirit Worship
-
-**Sources:** Faiths and Philosophies pg 14
 
 ### Details
 

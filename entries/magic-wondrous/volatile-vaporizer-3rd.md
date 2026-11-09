@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "volatile_vaporizer_3rd", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "324"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "4th"
 
 ## Volatile Vaporizer
 
-**Sources:** Ultimate Equipment pg 324\
 **Aura** faint transmutation; **CL** 4th\
 **Slot** none; **Price** 2,200 gp (1st), 3,000 gp (2nd), 3,800 gp (3rd); **Weight** -
 

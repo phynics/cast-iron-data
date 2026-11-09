@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stone_to_flesh", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "350"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: Fortitude negates (object); see text
 Spell resistance: yes
 Target: one petrified creature or a cylinder of stone from 1 ft. to 3 ft. in diameter and up to 10 ft. long
 :::
-
-**Sources:** PRPG Core Rulebook pg 350
 
 This spell restores a petrified creature to its normal state, restoring life and goods. The creature
 must make a DC 15 Fortitude save to survive the process. Any petrified creature, regardless of size,

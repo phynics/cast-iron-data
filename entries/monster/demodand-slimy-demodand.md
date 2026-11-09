@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demodand_slimy_demodand", path = "json/monsters29.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "70"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ covered in a viscous slime._
 
 **Senses:** Darkvision 120 ft., Detect good, Detect magic, See invisibility
 
-**Sources:** Bestiary 3 pg 70\
 **Subtype:** Chaotic, Demodand, Evil, Extraplanar
 
 **Experience points:** 76,800

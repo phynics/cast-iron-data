@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "type", path = "json/rules_gm08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "416"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 416
 
 A trap can be either mechanical or magical in nature.
 

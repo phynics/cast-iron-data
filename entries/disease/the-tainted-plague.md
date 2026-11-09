@@ -6,12 +6,13 @@ source_ids = ["pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_tainted_plague", path = "json/diseases.json" },
 ]
+[[sources]]
+publication = "pathfinder-campaign-setting"
+page = "149"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Campaign Setting pg 149
 
 **Type:** Disease (Contact)
 

@@ -6,6 +6,9 @@ source_ids = ["bestiary", "undead-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devourer", path = "json/monsters07.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ tormented ghostly form._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 82\
 **Subtype:** Extraplanar
 
 **Type:** undead

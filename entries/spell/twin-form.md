@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "twin_form", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "252"
 
 [fields]
 kind = "spell"
@@ -37,8 +40,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Advanced Player's Guide pg 252
 
 This extract splits a perfect double of yourself from your body, dressed and equipped exactly as you
 are. You are able to shift your consciousness from one body to the other once each round as a free

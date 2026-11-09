@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "with_limited_magic", path = "json/rules_opt_magic01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "152"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 152
 
 In a game that uses the [limited magic variant](ref/rule/limited-magic), you can add esoteric
 components to take some of the sting out of the weakened spellcasting. It's best to include the

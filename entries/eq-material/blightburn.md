@@ -6,13 +6,17 @@ source_ids = ["heroes-of-the-darklands", "kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blightburn", path = "json/equipment_special_materials.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-darklands"
+page = "24"
+[[sources]]
+publication = "kobolds-of-golarion"
+page = "29"
 
 [fields]
 kind = "item"
 category = "Special Materials"
 +++
-
-**Sources:** Heroes of the Darklands pg 24, Kobolds of Golarion pg 29
 
 The mineral blightburn is the deadliest radioactive substance in the Darklands. It's a highly
 radioactive crystalline mineral that grows in isolated pockets throughout the Darklands, from

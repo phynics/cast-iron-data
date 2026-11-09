@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_the_shadow_victim", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "241"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate illusion"
 caster_level = "7th"
 +++
 
-**Sources:** Ultimate Intrigue pg 241\
 **Aura** moderate illusion; **CL** 7th\
 **Slot** ring; **Price** 101,000 gp; **Weight** -
 

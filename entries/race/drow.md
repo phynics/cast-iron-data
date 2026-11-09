@@ -6,12 +6,20 @@ source_ids = ["inner-sea-races", "bestiary", "advanced-race-guide", "blood-of-sh
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drow", path = "json/races.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "241"
+[[sources]]
+publication = "bestiary"
+page = "114"
+[[sources]]
+publication = "advanced-race-guide"
+page = "102"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Inner Sea Races pg 241, Pathfinder RPG Bestiary pg 114, Advanced Race Guide pg 102\
 Cruel and cunning, drow are a dark reflection of the elven race. Also called dark elves, they dwell
 deep underground in elaborate cities shaped from the rock of cyclopean caverns. Drow seldom make
 themselves known to surface folk, preferring to remain legends while advancing their sinister

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "book-of-the-damned-volume-2-lords-of-chaos", "b
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "izyagna", path = "json/faiths4.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "328"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Izyagna**
 
 **Sub:** She of the Sevenfold Swarm
-
-**Sources:** Inner Sea Gods pg 328
 
 ### Details
 

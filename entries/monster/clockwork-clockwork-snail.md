@@ -6,6 +6,9 @@ source_ids = ["wardens-of-the-reborn-forge"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clockwork_clockwork_snail", path = "json/monsters05.json" },
 ]
+[[sources]]
+publication = "wardens-of-the-reborn-forge"
+page = "62"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ shell-like posterior of the machine, while toxic green ooze courses through its 
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Wardens of the Reborn Forge pg 62\
 **Subtype:** Clockwork
 
 **Experience points:** 9,600

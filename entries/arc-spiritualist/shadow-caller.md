@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/spiritualist" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "50"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Shared consciousness", "Etheric tether", "Phantom recall", "See inv
 alters = ["Spellcasting", "Phantom"]
 +++
 
-**Sources:** Ultimate Intrigue pg 50\
 While most spiritualists form a bond with the remnants of a creature's soul, some explore ways to
 bind ephemeral shadows to their own souls in exchange for power.
 

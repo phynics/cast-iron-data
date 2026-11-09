@@ -6,6 +6,12 @@ source_ids = ["bestiary-6", "book-of-the-damned-volume-3-horsemen-of-the-apocaly
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daemon_temerdaemon", path = "json/monsters06.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "77"
+[[sources]]
+publication = "book-of-the-damned-volume-3-horsemen-of-the-apocalypse"
+page = "58"
 
 [fields]
 kind = "creature"
@@ -46,7 +52,6 @@ wields a scythe in its largest arms._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 6 pg 77, Book of the Damned - Volume 3: Horsemen of the Apocalypse pg 58\
 **Subtype:** Daemon, Evil, Extraplanar
 
 **Experience points:** 38,400

@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "torc_of_truespeech", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "157"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Sources:** Mythic Adventures pg 157\
 **Aura** faint divination; **CL** 5th\
 **Slot** neck; **Price** 60,000 gp; **Weight** 2 lbs.
 

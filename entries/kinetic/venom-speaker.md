@@ -6,6 +6,9 @@ source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "venom_speaker", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "heroes-of-golarion"
+page = "26"
 
 [fields]
 kind = "class_option"
@@ -21,8 +24,6 @@ group = "kineticist-wild-talent"
 **Level:** 1
 
 **Burn:** 0
-
-**Source:** Heroes of Golarion/26
 
 You gain the [investigator's](ref/class/investigator) _poison lore_ class feature, using your
 kineticist level as your investigator level, and can use your _gather power_ ability even while

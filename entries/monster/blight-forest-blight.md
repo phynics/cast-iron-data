@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blight_forest_blight", path = "json/monsters27.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "41"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ are tipped with thorny claws._
 
 **Perception:** +26
 
-**Sources:** Bestiary 6 pg 41\
 **Subtype:** Blight
 
 **Experience points:** 153,600

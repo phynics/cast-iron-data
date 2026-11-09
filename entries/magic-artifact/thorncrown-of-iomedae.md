@@ -6,6 +6,9 @@ source_ids = ["artifacts-and-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thorncrown_of_iomedae", path = "json/magic_artifact3.json" },
 ]
+[[sources]]
+publication = "artifacts-and-legends"
+page = "54"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "overwhelming conjuration and evocation"
 caster_level = "21st"
 +++
 
-**Sources:** Artifacts and Legends pg 54\
 **Aura** overwhelming conjuration and evocation; **CL** 21st\
 **Slot** head; **Price** -; **Weight** 1 lb.
 

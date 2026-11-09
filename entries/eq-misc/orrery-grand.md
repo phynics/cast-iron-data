@@ -6,6 +6,9 @@ source_ids = ["people-of-the-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "orrery_grand", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "people-of-the-stars"
+page = "26"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "12 lbs. (calculating grand), 5 lbs. (calculating standard), 2 lbs. (ca
 
 ## Orrery
 
-**Sources:** People of the Stars pg 26\
 **Price** 2,000 gp (calculating grand), 1,500 gp (calculating standard), 200 gp (calculating
 tellurium), 1,000 gp (grand), 750 gp (standard), 100 gp (tellurium); **Weight** 12 lbs. (calculating
 grand), 5 lbs. (calculating standard), 2 lbs. (calculating tellurium), 12 lbs. (grand), 5 lbs.

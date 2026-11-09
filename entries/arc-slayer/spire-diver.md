@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/slayer" },
 ]
+[[sources]]
+publication = "pathfinder-124-city-in-the-deep"
+page = "80"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Track", "Swift tracker", "Slayer's advance"]
 alters = ["Studied target", "stalker", "Quarry", "improved quarry"]
 +++
 
-**Sources:** Pathfinder \#124: City in the Deep pg 80\
 Peerless divers, assassins, and scouts, spire divers operate in and out of water using the same
 weapons and equipment. Although the elves of the Mordant Spire originally developed the techniques
 that spire divers use, people living in coastal areas and archipelagos near the Mwangi Expanse and

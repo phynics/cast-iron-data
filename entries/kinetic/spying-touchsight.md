@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spying_touchsight", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "66"
 
 [fields]
 kind = "class_option"
@@ -23,8 +26,6 @@ group = "kineticist-wild-talent"
 **Burn:** 0
 
 **Prerequisite:** [touchsight](ref/kinetic/touchsight)
-
-**Source:** Ultimate Intrigue/66
 
 You attach a sticky strand of invisible aether to a target and then project your senses along the
 strand, allowing you to spy on that target.

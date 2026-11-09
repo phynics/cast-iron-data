@@ -6,12 +6,13 @@ source_ids = ["black-markets", "cohorts-and-companions"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "criminal_downtime_activities", path = "json/rules_rulesets01.json" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "10"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Black Markets pg 10
 
 Even between adventures, black markets bustle with intrigue, opportunity, and trouble. Thieves'
 guilds, shadowy cabals, and other black market organizations can all make use of the

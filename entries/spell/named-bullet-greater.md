@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/named-bullet" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "238"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Spell resistance: yes (harmless) (object)
 :::
 
 ### Greater Named Bullet
-
-**Sources:** Ultimate Combat pg 238
 
 This spell functions like [named bullet](ref/spell/named-bullet), except it deals 2 extra points of
 damage per caster level (maximum 40).

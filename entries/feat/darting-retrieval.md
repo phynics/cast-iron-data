@@ -6,6 +6,9 @@ source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "darting_retrieval", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "giant-hunters-handbook"
+page = "19"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When an ally who also has this feat disarms an opponent and the disar
 +++
 
 ## Darting Retrieval (Combat, Teamwork)
-
-**Sources:** Giant Hunter's Handbook pg 19
 
 As your ally disarms a foe, you knock the disarmed item out of the way.\
 **Prerequisites:** Int 13, [Combat Expertise](ref/feat/combat-expertise),

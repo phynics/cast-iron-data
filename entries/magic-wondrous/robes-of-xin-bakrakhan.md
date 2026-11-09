@@ -6,6 +6,9 @@ source_ids = ["pathfinder-138-rise-of-new-thassilon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "robes_of_xin_bakrakhan", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "pathfinder-138-rise-of-new-thassilon"
+page = "70"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration and conjuration"
 caster_level = "16th"
 +++
 
-**Sources:** Pathfinder \#138: Rise of New Thassilon pg 70\
 **Aura** strong abjuration and conjuration; **CL** 16th\
 **Slot** body; **Price** 198,000 gp; **Weight** 1 lb.
 

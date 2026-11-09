@@ -6,12 +6,13 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_eldest", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "131"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Wilderness pg 131
 
 Large swaths of the First World are carved up into fiefdoms and other such dominions by native
 inhabitants of great power. The demigods who call the First World home are some of the oldest beings

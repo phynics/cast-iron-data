@@ -6,6 +6,9 @@ source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jellyfish_luminous", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
+page = "56"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "2 gp"
 weight = "1 lb."
 +++
 
-**Sources:** Aquatic Adventures pg 56\
 **Price** 2 gp; **Weight** 1 lb.\
 **Category** Mounts/Pets
 

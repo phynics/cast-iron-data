@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_frost_frost_giant", path = "json/monsters11.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "149"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ that it wears braided._
 
 **Senses:** Low-light vision
 
-**Sources:** Pathfinder RPG Bestiary pg 149\
 **Subtype:** Cold, Giant
 
 **Experience points:** 6,400

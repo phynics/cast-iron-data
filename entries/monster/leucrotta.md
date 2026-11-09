@@ -6,6 +6,12 @@ source_ids = ["bestiary-2", "pathfinder-17-a-memory-of-darkness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "leucrotta", path = "json/monsters16.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "178"
+[[sources]]
+publication = "pathfinder-17-a-memory-of-darkness"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ ridges of bone instead of teeth._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Bestiary 2 pg 178, Pathfinder \#17: A Memory of Darkness pg 82\
 **Experience points:** 1,600
 
 **Armor class:** 18/10/17

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-137-the-city-outside-of-time"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scepter_of_alaznist", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "pathfinder-137-the-city-outside-of-time"
+page = "70"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "overwhelming (no school)"
 caster_level = "20th"
 +++
 
-**Sources:** Pathfinder \#137: The City Outside of Time pg 70\
 **Aura** overwhelming (no school); **CL** 20th\
 **Slot** none; **Price** -; **Weight** 8 lbs.
 

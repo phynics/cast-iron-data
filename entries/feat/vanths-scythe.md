@@ -6,14 +6,15 @@ source_ids = ["pathfinder-139-the-dead-road"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vanths_scythe", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "pathfinder-139-the-dead-road"
+page = "71"
 
 [fields]
 kind = "feat"
 prerequisites = "Character level 9th, duskwalker, ghost hunter racial trait."
 benefit = "When you use your ghost hunter racial trait to grant a scythe, quarterstaff, whip, or bow the ghost touch weapon special ability, you also grant the undead-bane weapon special ability. You also gain an additional daily use of ghost hunter."
 +++
-
-**Sources:** Pathfinder \#139: The Dead Road pg 71
 
 You've seen the reapers many times, and have learned something of their methods.\
 **Prerequisites:** Character level 9th, [duskwalker](ref/race/duskwalker), ghost hunter racial

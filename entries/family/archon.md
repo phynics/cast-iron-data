@@ -6,12 +6,12 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "archon", path = "json/monster_families.json" },
 ]
+[[sources]]
+publication = "bestiary"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder RPG Bestiary
 
 Archons are a race of outsiders from [Heaven](ref/rule/heaven), creatures of fundamental law and
 good tasked with the protection of that plane as well as all who are innocent or free of evil. They

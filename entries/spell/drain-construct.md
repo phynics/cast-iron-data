@@ -6,6 +6,9 @@ source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drain_construct", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "people-of-the-wastes"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: Will negates
 Spell resistance: no
 Target: one construct
 :::
-
-**Sources:** People of the Wastes pg 28
 
 You weaken a target construct, temporarily sapping its animating force and limiting its normal
 functionality. If the construct fails its saving throw, for the duration of this spell, it loses any

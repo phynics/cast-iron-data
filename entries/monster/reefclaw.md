@@ -6,6 +6,12 @@ source_ids = ["bestiary-2", "pathfinder-7-edge-of-anarchy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reefclaw", path = "json/monsters20.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "234"
+[[sources]]
+publication = "pathfinder-7-edge-of-anarchy"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -44,7 +50,6 @@ front and an eel in the back._
 
 **Size:** small
 
-**Sources:** Bestiary 2 pg 234, Pathfinder \#7: Edge of Anarchy pg 88\
 **Subtype:** Aquatic
 
 **Experience points:** 400

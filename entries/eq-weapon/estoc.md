@@ -6,14 +6,15 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "estoc", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "19"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "4 lbs."
 +++
-
-**Sources:** Melee Tactics Toolbox pg 19
 
 An estoc is a sword about as long as a [bastard sword](ref/eq-weapon/bastard-sword), but designed
 exclusively for thrusting attacks. Its "blade" is a steel spike with a triangular, square, or

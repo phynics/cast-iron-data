@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dan_bong", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "20"
+[[sources]]
+publication = "ultimate-combat"
+page = "130"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "-"
 +++
-
-**Sources:** Ultimate Equipment pg 20, Ultimate Combat pg 130
 
 These short, blunt sticks are held in the hands to enhance unarmed martial techniques and secured by
 a cord looped over the thumb. They provide the wielder with the ability to lock an opponent and

@@ -6,6 +6,9 @@ source_ids = ["bestiary", "advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rat_dire_rat", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "232"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ and two glittering eyes._
 
 **Size:** small
 
-**Sources:** Pathfinder RPG Bestiary pg 232\
 **Experience points:** 135
 
 **Armor class:** 14/14/11

@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mimic", path = "json/monsters17.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "205"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ tentacles and a number of sharp teeth._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 205\
 **Subtype:** Shapechanger
 
 **Experience points:** 1,200

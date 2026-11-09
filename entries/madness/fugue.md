@@ -6,12 +6,14 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fugue", path = "json/madness.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "184"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Adventures pg 184\
 **Type** lesser madness; **Save DC** 18\
 **Onset** 1d4 days\
 **Effect** -2 penalty on Will saving throws and skill checks, and some memory loss (see below)\

@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disguise", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "186"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 186
 
 The uses of the Disguise skill are far more specific than those of Bluff and Diplomacy. The Disguise
 skill exists to allow characters to conceal their identity and to potentially pose as other

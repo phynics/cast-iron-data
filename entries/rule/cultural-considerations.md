@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cultural_considerations", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "148"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 148
 
 While such things are undeniably important, creating a world is more than merely drawing realistic
 geography and political lines and then slapping down analogues of real-world societies. World

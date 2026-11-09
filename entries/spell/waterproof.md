@@ -6,6 +6,9 @@ source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "waterproof", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
+page = "14"
 
 [fields]
 kind = "spell"
@@ -54,8 +57,6 @@ Spell resistance: yes (harmless)
 Target: one touched creature, or one touched object of up to 10 lbs./level
 Descriptors: water
 :::
-
-**Sources:** Elemental Master's Handbook pg 14
 
 This spell renders a touched object waterproof for the duration of the spell. The object must be no
 larger than 10 pounds per caster level. The spell protects the object from any mundane liquids (such

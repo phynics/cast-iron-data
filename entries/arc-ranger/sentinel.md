@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ranger" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "42"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Wild empathy", "Hunter's bond", "woodland stride", "Combat style fe
 alters = ["Combat style feats", "Quarry", "improved quarry"]
 +++
 
-**Sources:** Ultimate Intrigue pg 42\
 A sentinel specializes in heightening all of her senses to expose spies and those who work for
 opposing factions, rooting out all who attempt to slip past her evervigilant watch. Her uncanny
 skills are in ready demand by city guards, business owners, and even criminal organizations that

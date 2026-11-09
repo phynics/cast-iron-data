@@ -6,6 +6,9 @@ source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mantle_of_doubt", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "occult-origins"
+page = "30"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Target: you
 Subschool: Phantasm
 Descriptors: emotion, fear, mind-affecting
 :::
-
-**Sources:** Occult Origins pg 30
 
 You wrap your mind in phantasms of crippling doubt that assail any who dare harm you. When a
 creature within the mantle's radius attacks you or attempts to affect you with a harmful effect, it

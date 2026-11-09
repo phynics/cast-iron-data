@@ -6,6 +6,9 @@ source_ids = ["pathfinder-134-it-came-from-hollow-mountain"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oozeclot_unguent", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "pathfinder-134-it-came-from-hollow-mountain"
+page = "10"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Pathfinder \#134: It Came from Hollow Mountain pg 10\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** none; **Price** 900 gp; **Weight** -
 

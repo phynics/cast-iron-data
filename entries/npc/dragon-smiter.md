@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_smiter", path = "json/npcs7.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "120"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "12"
 
 **Challenge rating:** 12
 
-**Sources:** NPC Codex pg 120\
 **XP** 19,200\
 Human [paladin](ref/class/paladin) of [Iomedae](ref/faith/iomedae) 13\
 LG Medium humanoid (human)\

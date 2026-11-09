@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wounds_and_vigor", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "206"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 206
 
 Hit points are an abstraction. When a fighter gains a level, his body does not suddenly become more
 resistant to damage. A sword's strike does not suddenly do proportionately less damage. Rather, hit

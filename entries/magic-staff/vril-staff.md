@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vril_staff", path = "json/magic_staff.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "255"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation"
 caster_level = "15th"
 +++
 
-**Sources:** Occult Adventures pg 255\
 **Aura** strong transmutation; **CL** 15th\
 **Slot** none; **Price** 200,000 gp; **Weight** 5 lbs.
 

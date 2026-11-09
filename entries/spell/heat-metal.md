@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heat_metal", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "294"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: yes (object)
 Target: metal equipment of one creature per two levels, no two of which can be more than 30 ft. apart, or 25 lbs. of metal/level, all of which must be within a 30-ft. circle
 Descriptors: fire
 :::
-
-**Sources:** PRPG Core Rulebook pg 294
 
 Heat metal causes metal objects to become red-hot. Unattended, nonmagical metal gets no saving
 throw. Magical metal is allowed a saving throw against the spell. An item in a creature's possession

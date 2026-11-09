@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "silver_drops", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "blood-of-the-moon"
+page = "30"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "180 gp"
 weight = "-"
 +++
 
-**Sources:** Blood of the Moon pg 30\
 **Price** 180 gp; **Weight** -\
 **Category** Alchemical Tools
 

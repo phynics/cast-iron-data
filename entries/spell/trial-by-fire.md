@@ -6,6 +6,9 @@ source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trial_by_fire", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "spymasters-handbook"
+page = "22"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: yes
 Target: creature touched
 Descriptors: fire
 :::
-
-**Sources:** Spymaster's Handbook pg 22
 
 You test a creature's purity of convictions by exposing it to a sheet of divine fire. Unless the
 target's alignment is within one step of your deity's, the spell deals 1d6 points of damage per 2

@@ -6,14 +6,15 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "orc_skull_ram", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "19"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "20 lbs."
 +++
-
-**Sources:** Melee Tactics Toolbox pg 19
 
 This weapon consists of a wooden log with a shoulder strap to carry some of the weight. The name
 comes from the orc tradition of making the ram's head out of a large skull. On a successful critical

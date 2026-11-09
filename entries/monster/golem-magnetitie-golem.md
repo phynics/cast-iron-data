@@ -6,6 +6,9 @@ source_ids = ["pathfinder-95-anvil-of-fire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_magnetitie_golem", path = "json/monsters33.json" },
 ]
+[[sources]]
+publication = "pathfinder-95-anvil-of-fire"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ objects clinging to its body._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#95: Anvil of Fire pg 88\
 **Experience points:** 9,600
 
 **Armor class:** 24/8/24

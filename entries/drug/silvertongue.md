@@ -6,12 +6,13 @@ source_ids = ["bastards-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "silvertongue", path = "json/drugs.json" },
 ]
+[[sources]]
+publication = "bastards-of-golarion"
+page = "21"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Bastards of Golarion pg 21
 
 **Type:** ingested
 

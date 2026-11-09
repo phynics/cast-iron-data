@@ -6,6 +6,9 @@ source_ids = ["pathfinder-43-haunting-of-harrowstone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "haunt_siphon", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "pathfinder-43-haunting-of-harrowstone"
+page = "19"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Sources:** Pathfinder \#43: Haunting of Harrowstone pg 19\
 **Aura** faint necromancy; **CL** 3rd\
 **Slot** none; **Price** 400 gp; **Weight** 1 lb.
 

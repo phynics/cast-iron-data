@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blind_fight", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "118"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "The Blind-Fight feat is of no use against a character who is the subj
 +++
 
 ## Blind-Fight (Combat)
-
-**Sources:** PRPG Core Rulebook pg 118
 
 You are skilled at attacking opponents that you cannot clearly perceive.\
 **Benefit:** In melee, every time you miss because of [concealment](ref/rule/concealment), you can

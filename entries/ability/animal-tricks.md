@@ -6,12 +6,17 @@ source_ids = ["core-rulebook", "animal-archive", "ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animal_tricks", path = "json/class_abilities6.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+[[sources]]
+publication = "animal-archive"
+[[sources]]
+publication = "ultimate-wilderness"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** PRPG Core Rulebook, Animal Archive, Ultimate Wilderness\
 This is a list of tricks (and their associated DCs) that can be taught to animals using the
 [Handle Animal](ref/skill/handle-animal) skill.
 

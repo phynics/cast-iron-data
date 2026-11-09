@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "casters_shield", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "130"
+[[sources]]
+publication = "core-rulebook"
+page = "467"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate abjuration"
 caster_level = "6th"
 +++
 
-**Sources:** Ultimate Equipment pg 130, PRPG Core Rulebook pg 467\
 **Aura** moderate abjuration; **CL** 6th\
 **Slot** shield; **Price** 3,153 gp; **Weight** 5 lbs.
 

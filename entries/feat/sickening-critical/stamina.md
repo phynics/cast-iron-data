@@ -6,12 +6,14 @@ source_ids = ["pathfinder-unchained"]
 relations = [
   { kind = "addon", target = "ref/feat/sickening-critical", label = "stamina" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "131"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder Unchained pg 131\
 When you threaten a critical hit using this feat, before rolling the confirmation roll, you can
 spend 5 stamina points. If you do and the critical hit is confirmed, the foe is
 [nauseated](ref/misc/nauseated) for 1d4+1 rounds unless it succeeds at a Fortitude save with a DC

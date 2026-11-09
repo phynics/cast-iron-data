@@ -6,6 +6,9 @@ source_ids = ["people-of-the-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "harvesting_lens", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "people-of-the-stars"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint evocation"
 caster_level = "3rd"
 +++
 
-**Sources:** People of the Stars pg 30\
 **Aura** faint evocation; **CL** 3rd\
 **Slot** none; **Price** 5,400 gp; **Weight** 1 lb.
 

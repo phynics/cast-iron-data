@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "red_hound_ring", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "259"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration, conjuration, and transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Inner Sea Gods pg 259\
 **Aura** faint abjuration, conjuration, and transmutation; **CL** 5th\
 **Slot** ring; **Price** 4,700 gp; **Weight** -
 

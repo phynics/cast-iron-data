@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shields_bane_ulfen", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "227"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Inner Sea Races pg 227\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** none; **Price** 20,310 gp; **Weight** 6 lbs.
 

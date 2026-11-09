@@ -6,14 +6,18 @@ source_ids = ["adventurers-armory-2", "classic-horrors-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fauchard", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "8"
+[[sources]]
+publication = "classic-horrors-revisited"
+page = "8"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "10 lbs."
 +++
-
-**Sources:** Adventurer's Armory 2 pg 8, Classic Horrors Revisited pg 8
 
 Like a [glaive](ref/eq-weapon/glaive), the fauchard is a curved blade at the end of a pole. However,
 the cutting edge of a fauchard is along the concave side, like that of a

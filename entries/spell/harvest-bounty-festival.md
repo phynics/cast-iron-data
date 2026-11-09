@@ -6,12 +6,14 @@ source_ids = ["distant-shores"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "harvest_bounty_festival", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "distant-shores"
+page = "52"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Distant Shores pg 52\
 **School** transmutation; **Level** 8\
 **Casting Time** 24 hours\
 **Components** V, S, M (a feast capable of feeding at least 1,000 people), F (ceremonial sickle

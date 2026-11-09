@@ -6,6 +6,9 @@ source_ids = ["pathfinder-66-the-dead-heart-of-xin"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wayfinder_of_infinite_doorways", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "pathfinder-66-the-dead-heart-of-xin"
+page = "61"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration"
 caster_level = "12th"
 +++
 
-**Sources:** Pathfinder \#66: The Dead Heart of Xin pg 61\
 **Aura** strong conjuration; **CL** 12th\
 **Slot** none; **Price** 45,000 gp; **Weight** -
 

@@ -6,6 +6,9 @@ source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "forced_mutation", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "people-of-the-wastes"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: Fortitude negates
 Spell resistance: yes
 Target: living creature touched
 :::
-
-**Sources:** People of the Wastes pg 29
 
 The body of the target creature twists and distorts, reshaping into a grotesque figure. Because of
 the disfigurement, the creature takes a -4 penalty to Constitution and Charisma. The creature also

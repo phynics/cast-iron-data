@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "instant_clot", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "blood-of-the-sea"
+page = "21"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Spell resistance: yes (harmless)
 Target: living creature touched
 Subschool: Healing
 :::
-
-**Sources:** Blood of the Sea pg 21
 
 Bleed effects on the target immediately end when this spell is cast, and no blood flows out when the
 target is damaged by a slashing or piercing weapon. The target takes the full amount of damage from

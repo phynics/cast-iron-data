@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lighten_object", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "236"
+[[sources]]
+publication = "faiths-of-balance"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -47,8 +53,6 @@ Saving throw: Will negates (object)
 Spell resistance: yes (object)
 Target: 1 object of up to 1 cubic ft./level
 :::
-
-**Sources:** Inner Sea Gods pg 236, Faiths of Balance pg 28
 
 The target's weight decreases by half. If this spell is cast on armor, the armor's armor check
 penalty decreases by 1, though its categorization as light, medium, or heavy does not change.

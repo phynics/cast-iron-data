@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swallow_poison", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "226"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Ultimate Intrigue pg 226
 
 A special gland grows on the inside of your throat, which absorbs any poisons that you ingest, and
 can be used to expel them in a toxic spray. Any time you consume ingested poison during the spell's

@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_muckdweller", path = "json/monsters11.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "175"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ _This massive lizard has pale, spotted flesh and spines around its face that for
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 5 pg 175\
 **Experience points:** 600
 
 **Armor class:** 15/11/13

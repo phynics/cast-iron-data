@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mad_wizard", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "91"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 91
 
 The mad wizard (or any other magic user) offers a useful villain archetype for dungeon adventures,
 as few question that insane geniuses build elaborate underground lairs stocked with monsters and

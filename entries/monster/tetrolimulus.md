@@ -6,6 +6,9 @@ source_ids = ["pathfinder-58-island-of-empty-eyes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tetrolimulus", path = "json/monsters23.json" },
 ]
+[[sources]]
+publication = "pathfinder-58-island-of-empty-eyes"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ rapier-like tail stinger._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#58: Island of Empty Eyes pg 88\
 **Subtype:** Aquatic
 
 **Experience points:** 12,800

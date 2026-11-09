@@ -6,6 +6,9 @@ source_ids = ["pathfinder-98-turn-of-the-torrent"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cordulegaster", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "pathfinder-98-turn-of-the-torrent"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ _Interlocking plates of chitin cover this massive, six-legged beast's face like 
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#98: Turn of the Torrent pg 82\
 **Subtype:** Aquatic, Evil, Extraplanar
 
 **Experience points:** 2,400

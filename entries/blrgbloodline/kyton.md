@@ -6,6 +6,9 @@ source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kyton", path = "json/class_ability_bloodrager_bloodlines.json" },
 ]
+[[sources]]
+publication = "advanced-class-origins"
+page = "9"
 
 [fields]
 kind = "class_option"
@@ -13,8 +16,6 @@ group = "bloodrager-bloodline"
 +++
 
 ## Kyton Bloodline
-
-**Sources:** Advanced Class Origins pg 9
 
 In the shadowy land of Nidal, the influence of [Zon-Kuthon](ref/faith/zon-kuthon) and the Midnight
 Lord's favored servants - the [kytons](ref/family/kyton) - taints the land and its inhabitants. Just

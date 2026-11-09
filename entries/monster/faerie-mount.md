@@ -6,6 +6,9 @@ source_ids = ["pathfinder-119-prisoners-of-the-blight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "faerie_mount", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "pathfinder-119-prisoners-of-the-blight"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ _Short legs and overlarge ears make this broad-chested canine seem almost comica
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Pathfinder \#119: Prisoners of the Blight pg 82\
 **Experience points:** 400
 
 **Armor class:** 11/10/11

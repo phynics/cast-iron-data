@@ -6,6 +6,9 @@ source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "harborwing_cloak", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "merchants-manifest"
+page = "22"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Merchant's Manifest pg 22\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** shoulders; **Price** 5,200 gp; **Weight** 1 lb.
 

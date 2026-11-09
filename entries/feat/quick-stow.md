@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quick_stow", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "128"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You do not provoke an attack of opportunity when sheathing a weapon, 
 +++
 
 ## Quick Stow (Combat)
-
-**Sources:** Villain Codex pg 128
 
 You effortlessly stow items and sheathe weapons.\
 **Prerequisites:** [Quick Draw](ref/feat/quick-draw), base attack bonus +1.\

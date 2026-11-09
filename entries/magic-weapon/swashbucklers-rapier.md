@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swashbucklers_rapier", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "216"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Sources:** Advanced Class Guide pg 216\
 **Aura** moderate transmutation; **CL** 7th\
 **Slot** none; **Price** 7,320 gp; **Weight** 2 lbs.
 

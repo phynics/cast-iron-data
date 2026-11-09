@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soften_earth_and_stone", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "345"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Spell resistance: no
 Area: 10-ft. square/level; see text
 Descriptors: earth
 :::
-
-**Sources:** PRPG Core Rulebook pg 345
 
 When this spell is cast, all natural, undressed earth or stone in the spell's area is softened. Wet
 earth becomes thick mud, dry earth becomes loose sand or dirt, and stone becomes soft clay that is

@@ -6,13 +6,15 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "artifice", path = "json/class_ability_blessings.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "64"
 
 [fields]
 kind = "class_option"
 group = "warpriest-blessing"
 +++
 
-**Sources:** Advanced Class Guide pg 64\
 **Deities:** [Torag](ref/faith/torag)
 
 **Crafter's Wrath (minor)**

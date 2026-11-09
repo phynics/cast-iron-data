@@ -6,6 +6,9 @@ source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wyvern_fury_style", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "legacy-of-dragons"
+page = "21"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using this style, you can make attacks with a dagger, punching 
 +++
 
 ## Wyvern Fury Style (Combat, Style)
-
-**Sources:** Legacy of Dragons pg 21
 
 You can combine sweeping attacks with a whip and quick stabs with a blade, imitating a wyvern's
 powerful bite and tail tipped with a stinger.\

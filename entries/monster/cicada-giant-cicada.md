@@ -6,6 +6,9 @@ source_ids = ["pathfinder-116-fangs-of-war"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cicada_giant_cicada", path = "json/monsters05.json" },
 ]
+[[sources]]
+publication = "pathfinder-116-fangs-of-war"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -39,7 +42,6 @@ _Trim wings fold along the back of this oblong, iridescent insect._
 
 **Size:** small
 
-**Sources:** Pathfinder \#116: Fangs of War pg 84\
 **Type:** vermin
 
 **Experience points:** 400

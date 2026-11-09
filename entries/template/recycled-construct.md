@@ -6,6 +6,9 @@ source_ids = ["construct-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "recycled_construct", path = "json/monster_template3.json" },
 ]
+[[sources]]
+publication = "construct-handbook"
+page = "52"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** -1
-
-**Source:** Construct Handbook/52
 
 A skilled artificer can revitalize a ruined construct by jury-rigging the pieces left intact. The
 patchwork nature of a recycled construct renders it fragile and leaves key circuitry exposed.

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-87-the-choking-tower"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rod_of_gripping_smoke", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "pathfinder-87-the-choking-tower"
+page = "61"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Sources:** Pathfinder \#87: The Choking Tower pg 61\
 **Aura** moderate transmutation; **CL** 11th\
 **Slot** neck; **Price** 15,000 gp; **Weight** 6 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "redemption", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "71"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "As an immediate action, you can add a +1 bonus to the result of an ab
 +++
 
 ## Redemption (Story)
-
-**Sources:** Ultimate Campaign pg 71
 
 Your past failure haunts you and drives you on.\
 **Prerequisites:** You must have lost class features by violating the code of conduct of a class

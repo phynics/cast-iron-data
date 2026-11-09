@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "haunted_shoes", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "231"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration and illusion"
 caster_level = "3rd"
 +++
 
-**Sources:** Ultimate Equipment pg 231\
 **Aura** faint conjuration and illusion; **CL** 3rd\
 **Slot** feet; **Price** 6,480 gp; **Weight** 1 lb.
 

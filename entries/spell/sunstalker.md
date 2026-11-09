@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sunstalker", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "17"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Target: creature touched
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** Adventurer's Guide pg 17
 
 A touched creature becomes invisible (as per invisibility) as long as it is in direct sunlight (or
 bright light shed by a [daylight](ref/spell/daylight) spell). If an action the target creature takes

@@ -6,6 +6,9 @@ source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "energy_hack", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "advanced-class-origins"
+page = "31"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Advanced Class Origins pg 31
 
 You can cast this spell only when you take 10 or more points of acid, cold, electricity, or fire
 damage from a spell or spell-like ability-this spell has the same energy descriptors as the damaging

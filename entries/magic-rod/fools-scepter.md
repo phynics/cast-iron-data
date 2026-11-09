@@ -6,6 +6,9 @@ source_ids = ["down-the-blighted-path"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fools_scepter", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "down-the-blighted-path"
+page = "61"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong divination and enchantment"
 caster_level = "12th"
 +++
 
-**Sources:** Down the Blighted Path pg 61\
 **Aura** strong divination and enchantment; **CL** 12th\
 **Slot** none; **Price** 50,000 gp; **Weight** 3 lbs.
 

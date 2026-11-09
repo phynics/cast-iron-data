@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grapple", path = "json/misc.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "130"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 130
 
 Some weapons have special features in addition to those noted in their descriptions.
 

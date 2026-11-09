@@ -6,12 +6,13 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "step_5_abilities", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "291"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder RPG Bestiary pg 291
 
 Once you have determined a creature's size, type, and Hit Dice, it's time to move on to its ability
 scores. The bonuses granted from these ability scores should increase a creature's hit points,

@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "water_merchant", path = "json/npcs3.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "69"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "9"
 
 **Challenge rating:** 9
 
-**Sources:** NPC Codex pg 69\
 **XP** 6,400\
 Gnome [druid](ref/class/druid) 10\
 NE Small humanoid (gnome)\

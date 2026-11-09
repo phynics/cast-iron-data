@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/natures-ravages" },
 ]
+[[sources]]
+publication = "dungeoneers-handbook"
+page = "31"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: no
 :::
 
 ### Greater Nature's Ravages
-
-**Sources:** Dungeoneer's Handbook pg 31
 
 This spell functions like [nature's ravages](ref/spell/natures-ravages), except the target corpse
 ages a number of years equal to up to 1 year per caster level (maximum 20 years at 20th level).

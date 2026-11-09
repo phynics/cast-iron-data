@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/gunslinger" },
 ]
+[[sources]]
+publication = "people-of-the-wastes"
+page = "12"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Deadeye deed", "Utility shot deed", "Dead shot deed", "Targeting de
 alters = ["Gunsmith"]
 +++
 
-**Sources:** People of the Wastes pg 12\
 Punishing firearms such as the blunderbuss and dragon pistol can lay waste to invaders in tight
 corridors, and the dwarves of Dongun Hold have pioneered masterful methods for making the most of
 these indiscriminate weapons.

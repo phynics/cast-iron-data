@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plant_shape_1", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "322"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: no
 Target: you
 Subschool: Polymorph
 :::
-
-**Sources:** PRPG Core Rulebook pg 322
 
 When you cast this spell you can assume the form of any Small or Medium creature of the plant type.
 If the form you assume has any of the following abilities, you gain the listed ability:

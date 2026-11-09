@@ -6,6 +6,9 @@ source_ids = ["concordance-of-rivals"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inevitable_rokyamut", path = "json/monsters14.json" },
 ]
+[[sources]]
+publication = "concordance-of-rivals"
+page = "54"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ body of a four-armed giant._
 
 **Senses:** Darkvision 60 ft., Detect chaos, Detect law, Detect magic, Low-light vision, True seeing
 
-**Sources:** Concordance of Rivals pg 54\
 **Subtype:** Extraplanar, Inevitable, Lawful
 
 **Experience points:** 204,800

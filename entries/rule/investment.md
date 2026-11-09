@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "investment", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "164"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 164
 
 From the lowly copper piece to treasure chests bulging with precious gemstones, the anchor of most
 parties is treasure. But what is the purpose of a PC collecting this money if not to better her

@@ -6,14 +6,15 @@ source_ids = ["alchemy-manual"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sure_handed_alchemy", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "alchemy-manual"
+page = "5"
 
 [fields]
 kind = "feat"
 prerequisites = "Craft (alchemy) 3 ranks."
 benefit = "When attempting Craft (alchemy) checks to create items using spontaneous alchemy, you gain a cumulative +1 circumstance bonus for each distinct reagent called for by the recipe. A failed Craft (alchemy) check results in a mishap only on a natural 1. Finally, you take no penalties on Craft (alchemy) checks when using improvised equipment to create items using spontaneous alchemy."
 +++
-
-**Sources:** Alchemy Manual pg 5
 
 Your steady hand increases your chances of success with spontaneous alchemy and reduces your number
 of mishaps.\

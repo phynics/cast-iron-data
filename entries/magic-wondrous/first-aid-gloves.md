@@ -6,6 +6,12 @@ source_ids = ["adventurers-guide", "pathfinder-society-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "first_aid_gloves", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "147"
+[[sources]]
+publication = "pathfinder-society-primer"
+page = "24"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Sources:** Adventurer's Guide pg 147, Pathfinder Society Primer pg 24\
 **Aura** moderate conjuration; **CL** 9th\
 **Slot** hands; **Price** 4,500 gp; **Weight** 1 lb.
 

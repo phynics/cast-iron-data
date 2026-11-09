@@ -6,6 +6,9 @@ source_ids = ["artifacts-and-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloodstones_of_arazni", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "artifacts-and-legends"
+page = "13"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration and necromancy [lawful]"
 caster_level = "20th"
 +++
 
-**Sources:** Artifacts and Legends pg 13\
 **Aura** strong abjuration and necromancy \[lawful\]; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 2 lbs. each
 

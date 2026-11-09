@@ -6,6 +6,12 @@ source_ids = ["dirty-tactics-toolbox", "lost-treasures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "traitors_blade", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "25"
+[[sources]]
+publication = "lost-treasures"
+page = "59"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong necromancy and enchantment"
 caster_level = "14th"
 +++
 
-**Sources:** Dirty Tactics Toolbox pg 25, Lost Treasures pg 59\
 **Aura** strong necromancy and enchantment; **CL** 14th\
 **Slot** none; **Price** 50,302 gp; **Weight** 1 lb.
 

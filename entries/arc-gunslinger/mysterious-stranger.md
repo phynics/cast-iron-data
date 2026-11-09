@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/gunslinger" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "51"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Quick clear deed", "Bleeding wound deed", "Nimble", "Gun training 1
 alters = ["Grit"]
 +++
 
-**Sources:** Ultimate Combat pg 51\
 Gunslingers use a potent mixture of common sense and manual dexterity in order to control the fickle
 power of their weapons. But a few rare gunslingers seem to accomplish their chosen tasks purely
 through willpower and an unwillingness to ever give up. These mysterious strangers use their force

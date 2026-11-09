@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "troll_troll_brute", path = "json/monsters39.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "227"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ abilities = ["29", "16", "31", "6", "11", "4"]
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Monster Codex pg 227\
 **Subtype:** Giant
 
 **Experience points:** 3,200

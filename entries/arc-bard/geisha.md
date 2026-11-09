@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "27"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Bardic knowledge"]
 alters = ["Armor and weapon proficiencies"]
 +++
 
-**Sources:** Ultimate Magic pg 27\
 In some cultures, the professional entertainer is a prestigious role. Specially trained entertainers
 called geisha are praised for their appearance and skill at conversation, music, dancing, singing,
 poetry, and calligraphy. A geisha provides social intimacy and status but not physical intimacy.

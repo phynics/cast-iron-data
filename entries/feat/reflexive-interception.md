@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reflexive_interception", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "219"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever the animal companion is adjacent to its master and its maste
 +++
 
 ## Reflexive Interception (Combat)
-
-**Sources:** Ultimate Wilderness pg 219
 
 The animal can defend its master with lightning speed.\
 **Prerequisites:** [Intercept Blow](ref/feat/intercept-blow), base attack bonus +3,

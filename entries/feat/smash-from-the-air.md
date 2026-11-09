@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "smash_from_the_air", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "22"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You can use Cut from the Air against unusually massive ranged weapons
 +++
 
 ## Smash from the Air (Weapon Mastery)
-
-**Sources:** Weapon Master's Handbook pg 22
 
 Your powerful and swift attacks can slice ranged attacks out of the air.\
 **Prerequisites:** Str 13, [Cut from the Air](ref/feat/cut-from-the-air),

@@ -6,6 +6,12 @@ source_ids = ["occult-adventures", "blood-of-the-elements"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enshroud_thoughts", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "169"
+[[sources]]
+publication = "blood-of-the-elements"
+page = "13"
 
 [fields]
 kind = "spell"
@@ -50,8 +56,6 @@ Spell resistance: yes (harmless)
 Target: you
 Descriptors: mind-affecting
 :::
-
-**Sources:** Occult Adventures pg 169, Blood of the Elements pg 13
 
 You become warded against the mental prying of others, including the effects of divination spells
 such as [detect thoughts](ref/spell/detect-thoughts) and [seek thoughts](ref/spell/seek-thoughts),

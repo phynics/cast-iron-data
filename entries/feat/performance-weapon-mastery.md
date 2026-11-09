@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "performance_weapon_mastery", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "112"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "You treat all weapons you are proficient in as if they had the perfor
 +++
 
 ## Performance Weapon Mastery (Combat)
-
-**Sources:** Ultimate Combat pg 112
 
 You wield all your weapons with the flair of a performer.\
 **Benefit:** You treat all weapons you are proficient in as if they had the

@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "support_and_obligation", path = "json/rules_adv_pc01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "168"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 168
 
 Unless your character's family is astonishingly poor, they should be able to provide the PC and her
 allies with simple, mundane aid. This might mean a decent meal, a clean set of clothes, a roof for

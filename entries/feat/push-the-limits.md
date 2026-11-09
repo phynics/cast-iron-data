@@ -6,6 +6,9 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "push_the_limits", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "113"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You gain a secondary stamina pool with a number of stamina points equ
 +++
 
 ## Push the Limits (Combat)
-
-**Sources:** Pathfinder Unchained pg 113
 
 Even when suffering from fatigue, you can fight through and overcome incredible opposition.\
 **Prerequisites:** Con 13, [Combat Stamina](ref/feat/combat-stamina), base attack bonus +1.\

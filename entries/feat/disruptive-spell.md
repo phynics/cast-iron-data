@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disruptive_spell", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "157"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "Targets affected by a disruptive spell must make concentration checks
 +++
 
 ## Disruptive Spell (Metamagic)
-
-**Sources:** Advanced Player's Guide pg 157
 
 Your magical energies cling to enemies, interfering with their spellcasting.\
 **Benefit:** Targets affected by a disruptive spell must make

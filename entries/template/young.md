@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "young", path = "json/monster_template4.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "295"
 
 [fields]
 kind = "none"
@@ -18,8 +21,6 @@ kind = "none"
 **Challenge rating:** -1
 
 **Simple:** present
-
-**Source:** Pathfinder RPG Bestiary/295
 
 Creatures with the young template are immature specimens of the base creature. You can also use this
 simple template to easily create a smaller variant of a monster. This template cannot be applied to

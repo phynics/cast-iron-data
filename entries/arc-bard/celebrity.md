@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "25"
 
 [fields]
 kind = "archetype"
 replaces = ["Inspire courage", "Lore master", "Dirge of doom"]
 +++
 
-**Sources:** Ultimate Magic pg 25\
 Known for being known, a celebrity bard is a master of performance who captures the imagination and
 attention of his audience. He trades on his charisma, his wit, and his exploits to build his
 renown - and that of his companions.

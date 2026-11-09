@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cavalier" },
 ]
+[[sources]]
+publication = "knights-of-the-inner-sea"
+page = "21"
 
 [fields]
 kind = "archetype"
 replaces = ["Tactician", "The 2nd-level order ability", "Cavalier's charge"]
 +++
 
-**Sources:** Knights of the Inner Sea pg 21\
 The herald squire is the eyes and ears of a traveling knight, often arriving ahead of her liege to
 bring word of his arrival, find lodgings, and get the lay of the land.
 

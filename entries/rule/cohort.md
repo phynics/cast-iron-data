@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cohort", path = "json/rules_adv_pc01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "145"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 145
 
 A cohort could have a former life as a criminal that she abandoned after being inspired by your
 heroic deeds. Just like a PC, a cohort has family and friends, with hopes and concerns for those

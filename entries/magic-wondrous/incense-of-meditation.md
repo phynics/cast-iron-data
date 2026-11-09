@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "incense_of_meditation", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "304"
+[[sources]]
+publication = "core-rulebook"
+page = "520"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Sources:** Ultimate Equipment pg 304, PRPG Core Rulebook pg 520\
 **Aura** moderate enchantment; **CL** 7th\
 **Slot** none; **Price** 4,900 gp; **Weight** 1 lb.
 

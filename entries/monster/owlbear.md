@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "owlbear", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "224"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ ursine claws in anger._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 224\
 **Experience points:** 1,200
 
 **Armor class:** 15/10/14

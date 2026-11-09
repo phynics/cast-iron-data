@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spiked_destroyer", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "216"
+[[sources]]
+publication = "faiths-of-balance"
+page = "24"
 
 [fields]
 kind = "feat"
@@ -15,8 +21,6 @@ benefit = "When you succeed at a bull rush or overrun combat maneuver, you may a
 +++
 
 ## Spiked Destroyer (Combat)
-
-**Sources:** Inner Sea Gods pg 216, Faiths of Balance pg 24
 
 You can attack with your armor spikes while using bull rush or overrun.\
 **Prerequisites:** Proficient with [armor spikes](ref/eq-armorenh/armor-spikes).\

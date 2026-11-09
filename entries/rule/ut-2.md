@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ut_2", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "211"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 211
 
 ### Table 7-40: 100 City Locations
 

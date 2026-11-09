@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "water_manipulator", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "29"
 
 [fields]
 kind = "class_option"
@@ -27,8 +30,6 @@ group = "kineticist-wild-talent"
 **Saving throw:** none; see text
 
 **Spell resistance:** no
-
-**Source:** Occult Adventures/29
 
 You can manipulate massive quantities of water. As a **standard action**, you can raise or lower the
 level of water as if using [control water](ref/spell/control-water), or move an amount of water

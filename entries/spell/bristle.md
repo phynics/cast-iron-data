@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bristle", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "207"
 
 [fields]
 kind = "spell"
@@ -37,8 +40,6 @@ Saving throw: Fortitude negates (harmless)
 Spell resistance: yes
 Target: one creature
 :::
-
-**Sources:** Advanced Player's Guide pg 207
 
 You give a creature the ability to redirect a portion of its innate toughness away from its own
 defense and toward the amount of damage it deals with natural attacks. Each round, as a swift action

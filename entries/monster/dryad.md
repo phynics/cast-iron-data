@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dryad", path = "json/monsters07.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "116"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ leaves and blossoms._
 
 **Senses:** Low-light vision
 
-**Sources:** Pathfinder RPG Bestiary pg 116\
 **Experience points:** 800
 
 **Armor class:** 17/14/13

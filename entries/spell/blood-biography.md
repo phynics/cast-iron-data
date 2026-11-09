@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_biography", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "206"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Saving throw: Will negates (see text)
 Spell resistance: no
 Target: one creature's blood or one bloodstain
 :::
-
-**Sources:** Advanced Player's Guide pg 206
 
 You learn the answers to a specific set of questions about a creature so long as you have access to
 at least one drop of its blood. You can cast this spell on the blood of the living or the dead, but

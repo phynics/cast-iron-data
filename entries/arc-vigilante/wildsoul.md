@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/vigilante" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "61"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Vigilante talents gained at 2nd, 6th, 12th, and 18th levels"]
 alters = ["Vigilante specialization"]
 +++
 
-**Sources:** Ultimate Intrigue pg 61\
 Within some vigilantes are incredible innate abilities that, although normally the domain of natural
 beasts, inexplicably aid them in fighting their enemies. These vigilantes have ties to the creature
 whose abilities they emulate, whether from a distant lycanthrope ancestor, a divine touch, unnatural

@@ -6,6 +6,18 @@ source_ids = ["curse-of-the-crimson-throne", "pathfinder-33-the-varnhold-vanishi
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soul_jar", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "curse-of-the-crimson-throne"
+page = "436"
+[[sources]]
+publication = "pathfinder-33-the-varnhold-vanishing"
+page = "53"
+[[sources]]
+publication = "pathfinder-64-beyond-the-doomsday-door"
+page = "61"
+[[sources]]
+publication = "lost-treasures"
+page = "55"
 
 [fields]
 kind = "item"
@@ -17,8 +29,6 @@ aura = "strong necromancy"
 caster_level = "15th"
 +++
 
-**Sources:** Curse of the Crimson Throne pg 436, Pathfinder \#33: The Varnhold Vanishing pg 53,
-Pathfinder \#64: Beyond the Doomsday Door pg 61, Lost Treasures pg 55\
 **Aura** strong necromancy; **CL** 15th\
 **Slot** none; **Price** 5,000 gp; **Weight** 2 lbs.
 

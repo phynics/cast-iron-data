@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "robe_of_bones", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "217"
+[[sources]]
+publication = "core-rulebook"
+page = "527"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate necromancy"
 caster_level = "6th"
 +++
 
-**Sources:** Ultimate Equipment pg 217, PRPG Core Rulebook pg 527\
 **Aura** moderate necromancy; **CL** 6th\
 **Slot** body; **Price** 2,400 gp; **Weight** 1 lb.
 

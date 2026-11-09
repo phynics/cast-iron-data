@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "pathfinder-42-sanctum-of-the-serpent-god"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "baregara", path = "json/monsters03.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "34"
+[[sources]]
+publication = "pathfinder-42-sanctum-of-the-serpent-god"
+page = "80"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ in the center of its chest._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 3 pg 34, Pathfinder \#42: Sanctum of the Serpent God pg 80\
 **Subtype:** Chaotic, Evil, Extraplanar
 
 **Experience points:** 19,200

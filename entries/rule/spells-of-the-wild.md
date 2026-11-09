@@ -6,12 +6,13 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spells_of_the_wild", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "156"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Wilderness pg 156
 
 The might of magic is a great force of change and power, and most adventuring parties count one or
 more spellcasters among them. Since spells cover an incredible range of possibility, defining

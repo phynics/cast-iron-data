@@ -6,12 +6,17 @@ source_ids = ["core-rulebook", "advanced-players-guide", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "channel_energy", path = "json/class_abilities6.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+[[sources]]
+publication = "advanced-players-guide"
+[[sources]]
+publication = "ultimate-magic"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** PRPG Core Rulebook, Advanced Player's Guide, Ultimate Magic\
 At 1st level, regardless of alignment, any [cleric](ref/class/cleric) can release a wave of energy
 by channeling the power of her faith through her holy (or unholy) symbol. This energy can be used to
 cause or heal damage, depending on the type of energy channeled and the creatures targeted.

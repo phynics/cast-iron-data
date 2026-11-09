@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_meerkat", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "200"
 
 [fields]
 kind = "creature"
@@ -39,7 +42,6 @@ _This curious, sand-colored, weasel-like creature has dark bands around its inqu
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Ultimate Wilderness pg 200\
 **Size:** tiny
 
 **Experience points:** 100

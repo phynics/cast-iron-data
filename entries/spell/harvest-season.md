@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "harvest_season", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-streets"
+page = "23"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: none
 Spell resistance: no
 Target: one plant
 :::
-
-**Sources:** Heroes of the Streets pg 23
 
 You cause an explosive burst of growth in a single plant, causing it to grow through a cycle of
 flower, fruit, or grain production as appropriate. If the plant is not one that normally produces

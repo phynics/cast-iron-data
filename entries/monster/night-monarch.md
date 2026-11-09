@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "night_monarch", path = "json/monsters_unique3.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "284"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ drifts from its gigantic wings._
 
 **Senses:** Darkvision 120 ft.
 
-**Sources:** Inner Sea Gods pg 284\
 **Subtype:** Chaotic, Extraplanar, Good, Herald
 
 **Experience points:** 51,200

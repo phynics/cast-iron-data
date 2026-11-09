@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "belt_of_foraging", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "208"
+[[sources]]
+publication = "advanced-race-guide"
+page = "78"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Sources:** Ultimate Equipment pg 208, Advanced Race Guide pg 78\
 **Aura** faint divination; **CL** 3rd\
 **Slot** belt; **Price** 6,000 gp; **Weight** 1 lb.
 

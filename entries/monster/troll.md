@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "troll", path = "json/monsters39.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "268"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ hideous, tusked underbite._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 268\
 **Subtype:** Giant
 
 **Experience points:** 1,600

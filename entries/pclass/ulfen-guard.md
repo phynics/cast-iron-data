@@ -6,14 +6,15 @@ source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ulfen_guard", path = "json/prestige_classes4.json" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "34"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d10."
 +++
-
-**Sources:** Inner Sea Combat pg 34
 
 After centuries of raiding and pillaging throughout Avistan, the Ulfen have earned their reputation
 for ferocity and fearlessness. Though seemingly at odds with this perception of barbarism, Ulfen are

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gray_gardener", path = "json/npcs7.json" },
 ]
+[[sources]]
+publication = "inner-sea-npc-codex"
+page = "26"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "7"
 
 **Challenge rating:** 7
 
-**Sources:** Inner Sea NPC Codex pg 26\
 **XP** 3,200\
 Human [inquisitor](ref/class/inquisitor) of [Norgorber](ref/faith/norgorber) 5/gray gardener 3\
 NE Medium humanoid (human)\

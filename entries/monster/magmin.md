@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magmin", path = "json/monsters16.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "189"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ shimmer._
 
 **Size:** small
 
-**Sources:** Bestiary 3 pg 189\
 **Subtype:** Elemental, Extraplanar, Fire
 
 **Experience points:** 800

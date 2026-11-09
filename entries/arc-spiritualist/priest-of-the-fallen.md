@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/spiritualist" },
 ]
+[[sources]]
+publication = "heroes-of-golarion"
+page = "17"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Shared consciousness", "Bonded manifestation", "Phantom recall", "D
 alters = ["Phantom", "Fused consciousness", "Empowered consciousness"]
 +++
 
-**Sources:** Heroes of Golarion pg 17\
 Countless hero-gods have risen and fallen through Iblydos's long history, leaving behind mighty
 spirits. Those attuned to these fallen hero-gods can become conduits for their restless souls and
 agents acting out their divine will. The result is a priest of the fallen, a spiritualist who

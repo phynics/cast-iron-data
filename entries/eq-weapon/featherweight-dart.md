@@ -6,14 +6,15 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "featherweight_dart", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "232"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "-"
 +++
-
-**Sources:** Ultimate Intrigue pg 232
 
 These extremely small and lightweight darts function like blowgun darts, except they are used to
 deliver poisons surreptitiously instead of dealing damage. When you hit with a dart, the poison is

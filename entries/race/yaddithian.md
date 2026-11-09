@@ -6,12 +6,14 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "yaddithian", path = "json/races4.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "285"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Bestiary 6 pg 285\
 Yaddithians are an ancient race of scholarly starfarers. [Bholes](ref/monster/bhole) consumed their
 home planet long ago; the survivors fled to other worlds across the universe.
 

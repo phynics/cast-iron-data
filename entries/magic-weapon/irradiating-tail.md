@@ -6,6 +6,9 @@ source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "irradiating_tail", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "kobolds-of-golarion"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "5th"
 +++
 
-**Sources:** Kobolds of Golarion pg 30\
 **Aura** moderate conjuration; **CL** 5th\
 **Slot** none; **Price** 5,315 gp; **Weight** 1 lb.
 

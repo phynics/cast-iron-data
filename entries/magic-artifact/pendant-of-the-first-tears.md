@@ -6,6 +6,9 @@ source_ids = ["pathfinder-137-the-city-outside-of-time"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pendant_of_the_first_tears", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "pathfinder-137-the-city-outside-of-time"
+page = "12"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration and enchantmnet"
 caster_level = "18th"
 +++
 
-**Sources:** Pathfinder \#137: The City Outside of Time pg 12\
 **Aura** strong conjuration and enchantmnet; **CL** 18th\
 **Slot** neck; **Price** -; **Weight** -
 

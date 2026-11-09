@@ -6,6 +6,9 @@ source_ids = ["taldor-echoes-of-glory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sand_whirlwind", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "taldor-echoes-of-glory"
+page = "25"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: no
 Target: one creature
 Subschool: Creation
 :::
-
-**Sources:** Taldor, Echoes of Glory pg 25
 
 A whirling cloud of sand strikes the target, blinding it and hampering its ability to speak. To
 speak while affected by the spell, the target must make a [concentration](ref/rule/concentration)

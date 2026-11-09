@@ -6,6 +6,9 @@ source_ids = ["lost-treasures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phylactery_of_jadis_vel", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "lost-treasures"
+page = "47"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ aura = "moderate necromancy [evil]"
 caster_level = "11th"
 +++
 
-**Sources:** Lost Treasures pg 47\
 **Aura** moderate necromancy \[evil\]; **CL** 11th\
 **Slot** headband; **Price** 135,000 gp
 

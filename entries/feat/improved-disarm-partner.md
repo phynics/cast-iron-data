@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_disarm_partner", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "93"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When an ally with this feat fails a disarm combat maneuver check made
 +++
 
 ## Improved Disarm Partner (Combat, Teamwork)
-
-**Sources:** Monster Codex pg 93
 
 You are ever the opportunist.\
 **Prerequisites:** [Disarm Partner](ref/feat/disarm-partner), base attack bonus +5.\

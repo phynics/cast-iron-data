@@ -6,6 +6,9 @@ source_ids = ["bestiary-4", "advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow", path = "json/monster_template4.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "238;Advanced Race Guide/110"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Challenge rating:** +1
 
 **Inherited:** present
-
-**Source:** Bestiary 4/238;Advanced Race Guide/110
 
 "Shadow creature" is an inherited template that can be added to any living creature, referred to
 hereafter as the base creature. A shadow creature retains all the base creature's statistics and

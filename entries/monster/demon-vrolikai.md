@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_vrolikai", path = "json/monsters29.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "81"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ with dead, white eyes._
 
 **Senses:** Darkvision 120 ft., Low-light vision, True seeing
 
-**Sources:** Bestiary 2 pg 81\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 204,800

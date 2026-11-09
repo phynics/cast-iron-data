@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "combat_style_master", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "93"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "It takes a swift action to begin or switch your styles."
 +++
 
 ## Combat Style Master (Combat)
-
-**Sources:** Ultimate Combat pg 93
 
 You shift between combat styles, combining them to increased effect.\
 **Prerequisites:** [Improved Unarmed Strike](ref/feat/improved-unarmed-strike), two or more style

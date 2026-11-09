@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/inquisitor" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "18"
 
 [fields]
 kind = "archetype"
 replaces = ["Monster lore", "Stalwart"]
 +++
 
-**Sources:** Magic Tactics Toolbox pg 18\
 Masters of secretly gathering information to further their faith's ends, urban infiltrators excel at
 operating within an unfriendly society or infiltrating an enemy cult. This archetype is popular
 among Cult of the [Dawnflower](ref/faith/sarenrae) inquisitors operating in Taldor, but it is

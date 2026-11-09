@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghost_sound", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "289"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Spell resistance: no
 Effect: illusory sounds
 Subschool: Figment
 :::
-
-**Sources:** PRPG Core Rulebook pg 289
 
 Ghost sound allows you to create a volume of sound that rises, recedes, approaches, or remains at a
 fixed place. You choose what type of sound ghost sound creates when casting it and cannot thereafter

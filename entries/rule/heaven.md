@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heaven", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "192"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 192
 
 The soaring mountain of Heaven towers high above the Outer Sphere. This ordered realm of honor and
 compassion is divided into seven layers. Heaven's slopes are filled with planned, orderly cities and

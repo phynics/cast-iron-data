@@ -6,6 +6,9 @@ source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "training", path = "json/magic_enhancements2.json" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "52"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Inner Sea Intrigue pg 52\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** none; **Price** +1 bonus; **Weight** -
 

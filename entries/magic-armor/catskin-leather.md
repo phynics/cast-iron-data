@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "catskin_leather", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "125"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation"
 caster_level = "13th"
 +++
 
-**Sources:** Ultimate Equipment pg 125\
 **Aura** strong transmutation; **CL** 13th\
 **Slot** armor; **Price** 18,910 gp; **Weight** 15 lbs.
 

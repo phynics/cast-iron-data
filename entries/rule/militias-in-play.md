@@ -6,12 +6,13 @@ source_ids = ["lands-of-conflict"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "militias_in_play", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "lands-of-conflict"
+page = "54"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Lands of Conflict pg 54
 
 Once the PCs begin controlling a militia, at the end of every week of game time, they must take
 actions to maintain and lead the organization. This doesn't need to take any additional in-game

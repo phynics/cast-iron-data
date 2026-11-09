@@ -6,12 +6,13 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "example_territory_white_canyon", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "127"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Wilderness pg 127
 
 Suppose the PCs have learned of a great evil rising in a hidden temple of Lamashtu in the arid hills
 surrounding the gnollheld territories of White Canyon. Rather than generate a map of the region, you

@@ -6,6 +6,9 @@ source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "curative_mastery", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "healers-handbook"
+page = "14"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can cause an item that has a 1st-level or higher conjuration spel
 +++
 
 ## Curative Mastery (Item Mastery)
-
-**Sources:** Healer's Handbook pg 14
 
 You can invoke a magic item's innate conjuration magic to conjure positive energy for healing
 wounds.\

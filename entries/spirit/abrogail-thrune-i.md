@@ -6,6 +6,9 @@ source_ids = ["occult-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "abrogail_thrune_i", path = "json/class_ability_spirits.json" },
 ]
+[[sources]]
+publication = "occult-realms"
+page = "10"
 
 [fields]
 kind = "class_option"
@@ -14,7 +17,6 @@ replaces = ["Overflowing grace"]
 alters = ["Divine surge"]
 +++
 
-**Sources:** Occult Realms pg 10\
 The ruthless monarch who single-handedly changed the course of Cheliax's history, Abrogail Thrune I
 struck a bargain with Hell to enable her to seize the nation's throne for her family, ending a
 bloody civil war.

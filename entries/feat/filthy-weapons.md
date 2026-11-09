@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "filthy_weapons", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-streets"
+page = "29"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can take a standard action to cover a weapon in decomposing waste
 +++
 
 ## Filthy Weapons (Combat)
-
-**Sources:** Heroes of the Streets pg 29
 
 You spread contagion with your weapons by covering their business ends in virulent muck and sewage.\
 **Prerequisites:** Knowledge (dungeoneering) 1 rank, Knowledge (nature) 1 rank.\

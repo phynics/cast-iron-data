@@ -6,6 +6,9 @@ source_ids = ["wardens-of-the-reborn-forge"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stable_spell", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "wardens-of-the-reborn-forge"
+page = "49"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "In areas of primal magic, the chance of a stable spell triggering a p
 +++
 
 ## Stable Spell (Metamagic)
-
-**Sources:** Wardens of the Reborn Forge pg 49
 
 You can cast spells in areas of [primal magic](ref/rule/primal-magic) with less chance of triggering
 a primal magic event.\

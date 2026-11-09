@@ -6,6 +6,9 @@ source_ids = ["mythic-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "raskineya", path = "json/monsters_unique3.json" },
 ]
+[[sources]]
+publication = "mythic-realms"
+page = "60"
 
 [fields]
 kind = "creature"
@@ -50,7 +53,6 @@ starscape that whirls in mad patterns._
 
 **Senses:** Dragon senses, See in darkness
 
-**Sources:** Mythic Realms pg 60\
 **Subtype:** Mythic
 
 **Experience points:** 76,800

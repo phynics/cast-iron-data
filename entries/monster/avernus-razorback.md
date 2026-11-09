@@ -6,6 +6,9 @@ source_ids = ["pathfinder-106-for-queen-and-empire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "avernus_razorback", path = "json/monsters26.json" },
 ]
+[[sources]]
+publication = "pathfinder-106-for-queen-and-empire"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ red and its jagged tusks seem more like obsidian than bone._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Pathfinder \#106: For Queen and Empire pg 84\
 **Subtype:** Evil, Extraplanar, Fire, Lawful
 
 **Experience points:** 6,400

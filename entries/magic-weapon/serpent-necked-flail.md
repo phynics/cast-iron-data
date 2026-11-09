@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "serpent_necked_flail", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "201"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Sources:** Monster Codex pg 201\
 **Aura** moderate transmutation; **CL** 10th\
 **Slot** none; **Price** 32,315 gp; **Weight** 10 lbs.
 

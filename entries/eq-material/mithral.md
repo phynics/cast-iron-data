@@ -6,13 +6,17 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mithral", path = "json/equipment_special_materials.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "51"
+[[sources]]
+publication = "core-rulebook"
+page = "154"
 
 [fields]
 kind = "item"
 category = "Special Materials"
 +++
-
-**Sources:** Ultimate Equipment pg 51, PRPG Core Rulebook pg 154
 
 Mithral is a rare, silvery metal that is lighter than steel but just as hard. When worked like
 steel, it can be used to create amazing armor, and is occasionally used for other items as well.

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/ego-whip-1" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "169"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Descriptors: emotion, mind-affecting
 :::
 
 ### Ego Whip III
-
-**Sources:** Occult Adventures pg 169
 
 This functions as [ego whip I](ref/spell/ego-whip-1), but the target takes a -6 penalty to the
 chosen ability score and is staggered for 1d6 rounds on a failed Will save. This spell can be

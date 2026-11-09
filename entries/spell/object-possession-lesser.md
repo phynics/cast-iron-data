@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/possession" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "179"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Duration: 1 minute/level (D)
 Saving throw: none
 Spell resistance: no
 :::
-
-**Sources:** Occult Adventures pg 179
 
 This spell functions as [possession](ref/spell/possession), except you possess an object instead of
 a creature.

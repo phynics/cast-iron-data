@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "half_elf_background", path = "json/rules_basics03.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "18"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 18
 
 Born of two very different worlds, half-elves rarely have easy childhoods. Torn as half-elves are
 between disparate peoples, the presence of their families helps ensure they do not grow up totally

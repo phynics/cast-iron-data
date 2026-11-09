@@ -6,13 +6,18 @@ source_ids = ["ultimate-wilderness", "animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pilferer", path = "json/archetypes_FAMILIAR.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "212"
+[[sources]]
+publication = "animal-archive"
+page = "20"
 
 [fields]
 kind = "archetype"
 replaces = ["Alertness", "Improved evasion", "Deliver touch spells", "Speak with animals of its kind"]
 +++
 
-**Sources:** Ultimate Wilderness pg 212, Animal Archive pg 20\
 Some familiars are stealthy pilferers that perform tricks of thievery or simple spying on their
 master's behalf.
 

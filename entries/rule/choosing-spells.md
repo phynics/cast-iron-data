@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "choosing_spells", path = "json/rules_adv_gm03.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "218"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 218
 
 The easiest way to choose spells for a monster is to select a spell list from among those on the
 following pages that best matches its theme, using the options in this section. A fey with powerful

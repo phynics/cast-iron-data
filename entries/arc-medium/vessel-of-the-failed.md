@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/medium" },
 ]
+[[sources]]
+publication = "disciples-doctrine"
+page = "7"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Trance of three"]
 alters = ["Spirit", "spirit mastery", "Spirit surge", "Taboo"]
 +++
 
-**Sources:** Disciple's Doctrine pg 7\
 A vessel of the failed channels the spirits of those who attempted the Test of the Starstone but
 failed; these spirits grant the medium abilities wrought from the spirits' ultimate shortcomings. A
 vessel of the failed intimately understands the shaky line between success and failure and embraces

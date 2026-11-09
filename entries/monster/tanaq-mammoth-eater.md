@@ -6,6 +6,9 @@ source_ids = ["giants-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tanaq_mammoth_eater", path = "json/monsters_unique3.json" },
 ]
+[[sources]]
+publication = "giants-revisited"
+page = "62"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ and blackened stone._
 
 **Senses:** Low-light vision
 
-**Sources:** Giants Revisited pg 62\
 **Subtype:** Giant
 
 **Experience points:** 102,400

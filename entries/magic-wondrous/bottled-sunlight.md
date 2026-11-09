@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bottled_sunlight", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "25"
+[[sources]]
+publication = "heroes-of-the-darklands"
+page = "8"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint evocation"
 caster_level = "1st"
 +++
 
-**Sources:** Ultimate Wilderness pg 25, Heroes of the Darklands pg 8\
 **Aura** faint evocation; **CL** 1st\
 **Slot** none; **Price** 200 gp; **Weight** -
 

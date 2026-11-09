@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demand_offering", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "164"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Occult Adventures pg 164
 
 A creature that fails its save uses an immediate action to hand you whatever object it's currently
 wielding or holding. If the target doesn't have an immediate action available, it uses a move action

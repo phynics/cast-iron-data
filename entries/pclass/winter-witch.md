@@ -6,14 +6,18 @@ source_ids = ["reign-of-winter-players-guide", "paths-of-prestige"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "winter_witch", path = "json/prestige_classes4.json" },
 ]
+[[sources]]
+publication = "reign-of-winter-players-guide"
+page = "12"
+[[sources]]
+publication = "paths-of-prestige"
+page = "62"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d6."
 +++
-
-**Sources:** Reign of Winter Player's Guide pg 12, Paths of Prestige pg 62
 
 In the minds of the folk of the arctic north, the otherworldly powers of winter witches are
 inextricably linked with the frozen realm of Irrisen and its cruel aristocracy. These rulers, the

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "running_a_chase", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "232"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 232
 
 The first thing to do when a chase starts is to determine the baseline speed: the movement rate of
 the majority of the chase's participants. In most cases, this is a land speed of 30 feet, but in

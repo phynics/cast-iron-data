@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ascendant_spell", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "55"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "You can modify a spell to imitate the mythic version of that spell. A
 +++
 
 ## Ascendant Spell (Metamagic)
-
-**Sources:** Mythic Adventures pg 55
 
 You have learned how to emulate mythic spells using non-mythic forces.\
 **Benefit:** You can modify a spell to imitate the mythic version of that spell. An ascendant spell

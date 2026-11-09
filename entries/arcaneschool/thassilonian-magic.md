@@ -6,13 +6,18 @@ source_ids = ["adventurers-guide", "inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thassilonian_magic", path = "json/class_ability_arcane_schools.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "63"
+[[sources]]
+publication = "inner-sea-magic"
+page = "17"
 
 [fields]
 kind = "class_option"
 group = "arcane-school"
 +++
 
-**Sources:** Adventurer's Guide pg 63, Inner Sea Magic pg 17\
 Only wizards can truly follow the ancient philosophies created by Thassilon's runelords, for only
 wizards have the capability to specialize in a school of magic.
 

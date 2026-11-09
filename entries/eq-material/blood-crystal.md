@@ -6,13 +6,14 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_crystal", path = "json/equipment_special_materials.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "48"
 
 [fields]
 kind = "item"
 category = "Special Materials"
 +++
-
-**Sources:** Ultimate Equipment pg 48
 
 Mysterious radiation deep below the surface of the earth warps once-ordinary quartz into
 bloodcraving stone. If an attack with a piercing or slashing blood crystal weapon hits a target

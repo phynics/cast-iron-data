@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "doppelgangers_sword", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "25"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate illusion"
 caster_level = "7th"
 +++
 
-**Sources:** Dirty Tactics Toolbox pg 25\
 **Aura** moderate illusion; **CL** 7th\
 **Slot** none; **Price** 18,310 gp; **Weight** 2 lbs.
 

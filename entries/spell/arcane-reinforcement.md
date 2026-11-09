@@ -6,6 +6,9 @@ source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcane_reinforcement", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "faction-guide"
+page = "60"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Faction Guide pg 60
 
 You cast this spell as you begin crafting an item using a Craft skill, and add your Spellcraft ranks
 to Craft checks made to create that item. As part of concentrating on the spell, you must continue

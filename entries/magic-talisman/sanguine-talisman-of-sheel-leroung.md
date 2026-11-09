@@ -6,6 +6,9 @@ source_ids = ["hell-unleashed"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sanguine_talisman_of_sheel_leroung", path = "json/magic_devil_talismans.json" },
 ]
+[[sources]]
+publication = "hell-unleashed"
+page = "45"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "8th"
 +++
 
-**Sources:** Hell Unleashed pg 45\
 **Aura** moderate conjuration; **CL** 8th\
 **Slot** neck; **Price** 67,500 gp; **Weight** -
 

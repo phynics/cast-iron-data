@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "puppet_master", path = "json/npcs7.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "194"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "18"
 
 **Challenge rating:** 18
 
-**Sources:** NPC Codex pg 194\
 **XP** 153,600\
 Half-elf enchanter 19\
 CE Medium humanoid (elf, human)\

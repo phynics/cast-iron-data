@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aquatic_cummerbund", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "208"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Equipment pg 208\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** belt; **Price** 2,600 gp; **Weight** -
 

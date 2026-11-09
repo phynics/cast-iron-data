@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "leshy_lotus_leshy", path = "json/monsters34.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "157"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ _A plant whose body resembles a blooming lotus flower exudes an air of serenity.
 
 **Size:** small
 
-**Sources:** Bestiary 5 pg 157\
 **Subtype:** Leshy, Shapechanger
 
 **Experience points:** 1,600

@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ankylosaurus", path = "json/class_ability_druid_companions.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "83"
 
 [fields]
 kind = "class_option"
@@ -13,8 +16,6 @@ group = "animal-companion"
 +++
 
 ## Dinosaur (Ankylosaurus)
-
-**Sources:** Pathfinder RPG Bestiary pg 83
 
 **Companion Type**
 

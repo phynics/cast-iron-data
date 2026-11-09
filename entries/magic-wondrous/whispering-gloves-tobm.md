@@ -6,6 +6,9 @@ source_ids = ["tears-at-bitter-manor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "whispering_gloves_tobm", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "tears-at-bitter-manor"
+page = "55"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint illusion and transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Tears at Bitter Manor pg 55\
 **Aura** faint illusion and transmutation; **CL** 5th\
 **Slot** hands; **Price** 15,400 gp; **Weight** -
 

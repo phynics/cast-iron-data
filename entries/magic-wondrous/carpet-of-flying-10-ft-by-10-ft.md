@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "carpet_of_flying_10_ft_by_10_ft", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "286"
+[[sources]]
+publication = "core-rulebook"
+page = "505"
 
 [fields]
 kind = "item"
@@ -19,7 +25,6 @@ caster_level = "10th"
 
 ## Carpet of Flying
 
-**Sources:** Ultimate Equipment pg 286, PRPG Core Rulebook pg 505\
 **Aura** moderate transmutation; **CL** 10th\
 **Slot** none; **Price** 20,000 gp (5-ft.-by-5-ft.), 35,000 gp (5-ft.-by-10-ft.), 60,000 gp
 (10-ft.-by-10-ft.); **Weight** varies

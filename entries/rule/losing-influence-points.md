@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "losing_influence_points", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "110"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 110
 
 The PCs generally won't actively seek to lose influence points with an organization. However, the
 PCs' actions over the course of a campaign are likely to put them at odds with one or more

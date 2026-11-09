@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demonologist", path = "json/npcs6.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "227"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "19"
 
 **Challenge rating:** 19
 
-**Sources:** NPC Codex pg 227\
 **XP** 204,800\
 Human conjurer 10/loremaster 10\
 CE Medium humanoid (human)\

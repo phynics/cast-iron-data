@@ -6,6 +6,9 @@ source_ids = ["pathfinder-127-crownfall"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "onyvolan", path = "json/monsters18.json" },
 ]
+[[sources]]
+publication = "pathfinder-127-crownfall"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ strange wheel-appendage._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#127: Crownfall pg 86\
 **Experience points:** 800
 
 **Armor class:** 14/14/10

@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summoning_words", path = "json/rules_opt_magic03.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "182"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 182
 
 These words summon creatures from other planes of existence to do the caster's bidding.
 

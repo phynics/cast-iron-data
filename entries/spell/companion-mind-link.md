@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "companion_mind_link", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "226"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Target: your animal companion
 Subschool: Charm
 Descriptors: mind-affecting
 :::
-
-**Sources:** Ultimate Combat pg 226
 
 The link between you and your animal companion becomes stronger. As long as you are within line of
 sight of your animal companion, you can telepathically communicate with it as if you two shared a

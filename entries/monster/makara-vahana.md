@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "makara_vahana", path = "json/monsters16.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "262"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ scaly hide, and tail of a crocodile._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Bestiary 5 pg 262\
 **Subtype:** Aquatic, Augmented animal
 
 **Experience points:** 6,400

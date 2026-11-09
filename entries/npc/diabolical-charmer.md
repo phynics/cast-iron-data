@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "diabolical_charmer", path = "json/npcs4.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "172"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "14"
 
 **Challenge rating:** 14
 
-**Sources:** NPC Codex pg 172\
 **XP** 38,400\
 Human [sorcerer](ref/class/sorcerer) 15\
 LE Medium humanoid (human)\

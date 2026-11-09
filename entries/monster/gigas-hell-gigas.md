@@ -6,6 +6,9 @@ source_ids = ["pathfinder-30-the-twice-damned-prince"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gigas_hell_gigas", path = "json/monsters12.json" },
 ]
+[[sources]]
+publication = "pathfinder-30-the-twice-damned-prince"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ hefting its grisly armor with ease._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#30: The Twice-Damned Prince pg 84\
 **Subtype:** Evil, Extraplanar, Giant, Lawful
 
 **Experience points:** 51,200

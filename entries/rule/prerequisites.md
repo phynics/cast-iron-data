@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prerequisites", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "67"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 67
 
 If a feat, prestige class, or other ability requires a certain number of ranks in a skill, directly
 convert that core skill to the consolidated skill. Use the same number of ranks. For example, the

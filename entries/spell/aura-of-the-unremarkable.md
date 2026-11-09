@@ -6,6 +6,12 @@ source_ids = ["ultimate-intrigue", "cheliax-empire-of-devils"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aura_of_the_unremarkable", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "204"
+[[sources]]
+publication = "cheliax-empire-of-devils"
+page = "22"
 
 [fields]
 kind = "spell"
@@ -49,8 +55,6 @@ Target: non-allied creatured within a 30-ft. emanation
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Ultimate Intrigue pg 204, Cheliax, Empire of Devils pg 22
 
 An invisible sphere of magic surrounds you, clouding the minds of creatures in the area so they
 regard even the strangest actions as innocuous. For example, if you and your allies are beating a

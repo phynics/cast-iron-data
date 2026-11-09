@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bashing_finish", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "151"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever you score a critical hit with a melee weapon, you can make a
 +++
 
 ## Bashing Finish (Combat)
-
-**Sources:** Advanced Player's Guide pg 151
 
 You follow a powerful blow from your weapon with an opportunistic bash from your shield.\
 **Prerequisites:** [Improved Shield Bash](ref/feat/improved-shield-bash),

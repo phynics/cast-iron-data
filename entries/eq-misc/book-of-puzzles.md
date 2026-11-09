@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "book_of_puzzles", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "202"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "50 gp"
 weight = "1 lb."
 +++
 
-**Sources:** Advanced Class Guide pg 202\
 **Price** 50 gp; **Weight** 1 lb.\
 **Category** Entertainment
 

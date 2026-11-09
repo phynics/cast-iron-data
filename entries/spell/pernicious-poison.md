@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pernicious_poison", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "231"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: yes
 Target: creature touched
 Descriptors: poison
 :::
-
-**Sources:** Ultimate Magic pg 231
 
 You weaken the target's defenses against poison. The target gains a -4 penalty on saves against
 poison, and poisons affecting the target continue for another 2 frequency increments (for example,

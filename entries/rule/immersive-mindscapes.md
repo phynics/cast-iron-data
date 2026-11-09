@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "immersive_mindscapes", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "235"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 235
 
 An immersive mindscape is a less common, but far more powerful, variety of mindscape. When created,
 it seems every bit as palpable and vivid as the real world. A being within an immersive mindscape

@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wall_of_nausea", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "199"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Effect: transparent wall whose area is up to one 10-ft. square/level
 Subschool: Pattern
 Descriptors: mind-affecting
 :::
-
-**Sources:** Advanced Class Guide pg 199
 
 You create a transparent, shimmering wall through which creatures and objects appear to be wildly
 distorted to viewers. Any creature that passes through the wall is immediately assailed by

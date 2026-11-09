@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_sunder", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "125"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You receive a +2 bonus on checks made to sunder an item. This bonus s
 +++
 
 ## Greater Sunder (Combat)
-
-**Sources:** PRPG Core Rulebook pg 125
 
 Your devastating strikes cleave through weapons and armor and into their wielders, damaging both
 item and wielder alike in a single terrific strike.\

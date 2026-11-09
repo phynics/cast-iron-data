@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "languid_venom", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "218"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes
 Target: one dose of poison or one venomous creature
 Descriptors: poison
 :::
-
-**Sources:** Ultimate Intrigue pg 218
 
 You greatly extend the time it takes for the poison you touch to take effect, giving that poison an
 onset time up to 1 hour per caster level. (You touch the poison's container, so you don't risk

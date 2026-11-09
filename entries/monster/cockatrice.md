@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cockatrice", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "48"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ scaly tail._
 
 **Size:** small
 
-**Sources:** Pathfinder RPG Bestiary pg 48\
 **Experience points:** 800
 
 **Armor class:** 15/15/11

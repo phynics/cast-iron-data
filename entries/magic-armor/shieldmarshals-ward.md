@@ -6,6 +6,9 @@ source_ids = ["mythic-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shieldmarshals_ward", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "mythic-origins"
+page = "18"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "9th"
 +++
 
-**Sources:** Mythic Origins pg 18\
 **Aura** moderate abjuration; **CL** 9th\
 **Slot** shield; **Price** 17,155 gp; **Weight** 5 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monocle_of_unveiled_auras", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "154"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Sources:** Mythic Adventures pg 154\
 **Aura** faint divination; **CL** 5th\
 **Slot** eyes; **Price** 12,700 gp; **Weight** -
 

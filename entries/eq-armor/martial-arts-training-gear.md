@@ -6,6 +6,9 @@ source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "martial_arts_training_gear", path = "json/equipment_armor.json" },
 ]
+[[sources]]
+publication = "merchants-manifest"
+page = "11"
 
 [fields]
 kind = "item"
@@ -13,7 +16,6 @@ category = "Armor"
 weight = "5 lbs."
 +++
 
-**Sources:** Merchant's Manifest pg 11\
 **Cost** 45 gp **Weight** 5 lbs.\
 **Armor Bonus** +1; **Max Dex Bonus** +8; **Armor Check Penalty** 0\
 **Arcane Spell Failure Chance** 5%; **Speed** 30 ft./20 ft.\

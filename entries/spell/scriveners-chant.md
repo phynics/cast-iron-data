@@ -6,6 +6,9 @@ source_ids = ["seekers-of-secrets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scriveners_chant", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "seekers-of-secrets"
+page = "17"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: Will (harmless, object)
 Spell resistance: yes (object)
 Target: one or more written objects
 :::
-
-**Sources:** Seekers of Secrets pg 17
 
 This spell imbues a quill with animate energy and rapidly transcribes words from one page to
 another. The quill copies a written work at the rate of one normal-sized page per minute. The

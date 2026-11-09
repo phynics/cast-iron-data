@@ -6,6 +6,9 @@ source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "peerless_integrity", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "31"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Area: 10-ft.-radius emanation centered on you
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** Black Markets pg 31
 
 Peerless integrity conceals the alignment of creatures from divination magic. All creatures within
 the spell's area, including you, appear to have lawful good auras for the purposes of divination

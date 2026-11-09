@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sift", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "244"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: none
 Spell resistance: no
 Area: one 10-ft. cube
 :::
-
-**Sources:** Advanced Player's Guide pg 244
 
 You examine an area at range as if you were searching for fine details with the Perception skill.
 Make a Perception check with a -5 penalty, modified as normal for conditions. No penalty is applied

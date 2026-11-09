@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "natural_attacks", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "182"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 182
 
 Attacks made with natural weapons, such as claws and bites, are melee attacks that can be made
 against any creature within your reach (usually 5 feet). These attacks are made using your full

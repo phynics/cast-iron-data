@@ -6,6 +6,9 @@ source_ids = ["concordance-of-rivals"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aeon_agnoia", path = "json/monsters01.json" },
 ]
+[[sources]]
+publication = "concordance-of-rivals"
+page = "52"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ jut from around the column, each ending in a hand with long, black claws._
 
 **Senses:** Darkvision 60 ft., Detect magic, Detect thoughts
 
-**Sources:** Concordance of Rivals pg 52\
 **Subtype:** Aeon, Extraplanar
 
 **Experience points:** 38,400

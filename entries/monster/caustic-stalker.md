@@ -6,6 +6,9 @@ source_ids = ["the-emerald-spire-superdungeon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "caustic_stalker", path = "json/monsters04.json" },
 ]
+[[sources]]
+publication = "the-emerald-spire-superdungeon"
+page = "153"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ hissing cloud of churning gases._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** The Emerald Spire Superdungeon pg 153\
 **Subtype:** Air, Elemental, Extraplanar
 
 **Experience points:** 3,200

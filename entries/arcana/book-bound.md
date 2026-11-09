@@ -6,13 +6,14 @@ source_ids = ["disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "book_bound", path = "json/class_ability_magus_arcana.json" },
 ]
+[[sources]]
+publication = "disciples-doctrine"
+page = "9"
 
 [fields]
 kind = "class_option"
 group = "magus-arcana"
 +++
-
-**Sources:** Disciple's Doctrine pg 9
 
 **Book-Bound (Su):**
 

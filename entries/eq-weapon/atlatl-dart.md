@@ -6,14 +6,15 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "atlatl_dart", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "22"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "2 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 22
 
 An atlatl dart is the equivalent of a [javelin](ref/eq-weapon/javelin) except it has fletching. If
 thrown without an [atlatl](ref/eq-weapon/atlatl), treat it as a javelin.

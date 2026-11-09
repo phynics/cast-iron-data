@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hireling_trained_per_day", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "99"
+[[sources]]
+publication = "core-rulebook"
+page = "159"
 
 [fields]
 kind = "item"
@@ -16,7 +22,6 @@ weight = "- (trained), - (untrained)"
 
 ## Hireling
 
-**Sources:** Ultimate Equipment pg 99, PRPG Core Rulebook pg 159\
 **Price** 3 sp per day (trained), 1 sp per day (untrained); **Weight** - (trained), - (untrained)
 
 This listing is for any other sort of typical employment not covered by another service or job in

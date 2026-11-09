@@ -6,6 +6,9 @@ source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "calm_air", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "30"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: no (object)
 Area: cylinder (5-ft./level radius, 40 ft. high)
 Descriptors: air
 :::
-
-**Sources:** Ranged Tactics Toolbox pg 30
 
 This spell calms the air and disperses fog, dust, and other particles. The wind force in the area is
 reduced in strength by one step per 4 caster levels (to a minimum wind force of light) and clouds

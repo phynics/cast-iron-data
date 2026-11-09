@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "choosing_your_adventure", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "172"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 172
 
 Specifics of storytelling style and ongoing plots aside, all adventures find common elements in the
 settings where their action unfolds. In the Pathfinder RPG, certain settings come up again and

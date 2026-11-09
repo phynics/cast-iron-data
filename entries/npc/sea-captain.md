@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sea_captain", path = "json/npcs7.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "67"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "7"
 
 **Challenge rating:** 7
 
-**Sources:** NPC Codex pg 67\
 **XP** 3,200\
 Halfling [druid](ref/class/druid) 8\
 NE Small humanoid (halfling)\

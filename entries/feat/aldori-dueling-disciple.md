@@ -6,6 +6,12 @@ source_ids = ["adventurers-guide", "inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aldori_dueling_disciple", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "24"
+[[sources]]
+publication = "inner-sea-combat"
+page = "10"
 
 [fields]
 kind = "feat"
@@ -16,8 +22,6 @@ benefit = "You gain a +2 morale bonus on Intimidate checks to demoralize opponen
 +++
 
 ## Aldori Dueling Disciple (Combat)
-
-**Sources:** Adventurer's Guide pg 24, Inner Sea Combat pg 10
 
 Your prowess in Aldori swordplay grants you bravado.\
 **Prerequisites:** [Exotic Weapon Proficiency](ref/feat/exotic-weapon-proficiency)

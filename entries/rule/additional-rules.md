@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "additional_rules", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "193"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 193
 
 **Automatic Hits:** Some effects in the game, like true strike or the flash of insight ability of
 cyclopes, provide automatic or nearly automatic hits. Using such an ability on a called shot turns

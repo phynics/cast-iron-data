@@ -6,6 +6,8 @@ source_ids = ["blood-of-the-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_sea_is_now_my_sky", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "blood-of-the-sea"
 
 [fields]
 kind = "class_option"
@@ -13,8 +15,6 @@ group = "bardic-masterpiece"
 +++
 
 ## The Sea Is Now My Sky (Sing, String)
-
-**Sources:** Blood of the Sea
 
 Your thrilling tune causes you and your allies to fly through the water as easily as a bird soars
 through the air.

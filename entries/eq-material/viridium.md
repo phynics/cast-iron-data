@@ -6,13 +6,14 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "viridium", path = "json/equipment_special_materials.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "52"
 
 [fields]
 kind = "item"
 category = "Special Materials"
 +++
-
-**Sources:** Ultimate Equipment pg 52
 
 This deep green volcanic glass is similar to obsidian but is formed when molten rock is tainted with
 anomalous trace minerals from deep beneath the earth whose emanations are toxic to living things. It

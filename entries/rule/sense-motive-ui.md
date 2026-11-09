@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sense_motive_ui", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "188"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 188
 
 The Sense Motive skill allows a character to analyze the way another character is acting and figure
 out if something is off. It also opposes Bluff to determine whether someone is lying, making it an

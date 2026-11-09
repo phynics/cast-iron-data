@@ -6,6 +6,9 @@ source_ids = ["chronicle-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "archon_spyglass_archon", path = "json/monsters02.json" },
 ]
+[[sources]]
+publication = "chronicle-of-the-righteous"
+page = "61"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ figure's stealthy appearance._
 
 **Senses:** Darkvision 60 ft., Detect evil, Hone senses, Low-light vision
 
-**Sources:** Chronicle of the Righteous pg 61\
 **Subtype:** Archon, Extraplanar, Good, Lawful
 
 **Experience points:** 800

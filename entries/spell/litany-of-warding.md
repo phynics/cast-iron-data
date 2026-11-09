@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "litany_of_warding", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "235"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Ultimate Combat pg 235
 
 With this litany, you become more aware of your opponents. You can make two additional attacks of
 opportunity this round. Furthermore, you gain a +2 sacred bonus to AC against attacks of

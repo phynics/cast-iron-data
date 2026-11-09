@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "zogmugot", path = "json/faiths9.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "324"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Zogmugot**
 
 **Sub:** Lady Lastbreath
-
-**Sources:** Inner Sea Gods pg 324
 
 ### Details
 

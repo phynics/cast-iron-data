@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/fighter" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "104"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["The 1st-level fighter bonus feat", "Bravery", "The 4th-level fighte
 alters = ["Weapon mastery"]
 +++
 
-**Sources:** Advanced Race Guide pg 104\
 Perfectly at home in the darkness, the cavern sniper capitalizes on stealth and ranged attacks
 imbued with his [spell-like abilities](ref/umr/spell-like-abilities) to harass his opponents. The
 cavern sniper focuses on surprise, his innate magical abilities, and poison to take down unwary

@@ -8,12 +8,14 @@ parent = "ref/umr/lifesense"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "json/umr.json#lifesense|section:lifesense", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "295"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Bestiary 5 pg 295\
 The creature notices and locates living creatures within 60 feet, as if it had
 [blindsight](ref/umr/blindsight).
 

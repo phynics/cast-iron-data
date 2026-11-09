@@ -6,6 +6,9 @@ source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "void_blast", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-origins"
+page = "7"
 
 [fields]
 kind = "class_option"
@@ -27,7 +30,5 @@ group = "kineticist-wild-talent"
 **Damage:** half bludgeoning, half negative energy
 
 **Prerequisite:** primary element (void), expanded element (void)
-
-**Source:** Occult Origins/7
 
 You call forth the power of the void to annihilate your foe.

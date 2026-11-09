@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "villain-codex", "advanced-class-guide", "legacy-
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "entangle", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "278"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: Reflex partial; see text
 Spell resistance: no
 Area: plants in a 40-ft.-radius spread
 :::
-
-**Sources:** PRPG Core Rulebook pg 278
 
 This spell causes tall grass, weeds, and other plants to wrap around creatures in the area of effect
 or those that enter the area. Creatures that fail their save gain the entangled condition. Creatures

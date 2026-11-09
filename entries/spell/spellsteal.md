@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spellsteal", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "200"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: Will negates
 Spell resistance: yes
 Target: one creature
 :::
-
-**Sources:** Monster Codex pg 200
 
 You create a discordant blast of energy that disrupts the target's available magic and transfers
 knowledge of that magic to you.

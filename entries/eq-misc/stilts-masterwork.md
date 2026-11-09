@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stilts_masterwork", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "58"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "10 lbs. (common), 10 lbs. (masterwork)"
 
 ## Stilts
 
-**Sources:** Ultimate Equipment pg 58\
 **Price** 2 sp (common), 5 gp (masterwork); **Weight** 10 lbs. (common), 10 lbs. (masterwork)
 
 This item consists of a pair of wooden poles with a footrest halfway up. By standing on the

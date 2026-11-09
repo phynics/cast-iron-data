@@ -6,6 +6,9 @@ source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blinded_blade_style", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "blood-of-shadows"
+page = "24"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While you are using this style, you gain a number of benefits wheneve
 +++
 
 ## Blinded Blade Style (Combat, Style)
-
-**Sources:** Blood of Shadows pg 24
 
 You hold no fear of blindness, as your other senses improve without the distractions of sight.\
 **Prerequisites:** [Blind-Fight](ref/feat/blind-fight), Perception 5 ranks.\

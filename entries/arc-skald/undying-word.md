@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/skald" },
 ]
+[[sources]]
+publication = "people-of-the-wastes"
+page = "5"
 
 [fields]
 kind = "archetype"
 replaces = ["Scribe scroll", "lore master", "Inspired rage", "Song of strength", "Dirge of doom", "Spell kenning"]
 +++
 
-**Sources:** People of the Wastes pg 5\
 Some who have survived the Mana Wastes cannot accept defeat, and those who have learned to speak the
 undying word can lend others the strength to endure.
 

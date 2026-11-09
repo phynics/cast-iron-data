@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rod_of_cancellation", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "181"
+[[sources]]
+publication = "core-rulebook"
+page = "485"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong abjuration"
 caster_level = "17th"
 +++
 
-**Sources:** Ultimate Equipment pg 181, PRPG Core Rulebook pg 485\
 **Aura** strong abjuration; **CL** 17th\
 **Slot** none; **Price** 11,000 gp; **Weight** 5 lbs.
 

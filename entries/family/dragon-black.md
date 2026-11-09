@@ -6,12 +6,13 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_black", path = "json/monster_families.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "92"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder RPG Bestiary pg 92
 
 |Age Category|Special Abilities|Caster Level|
 | --- | --- | --- |

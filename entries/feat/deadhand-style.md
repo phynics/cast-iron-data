@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deadhand_style", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "84"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using this style, if you have at least 1 point in your ki pool,
 +++
 
 ## Deadhand Style (Combat, Style)
-
-**Sources:** Horror Adventures pg 84
 
 Your study of death allow you to exploit your foes' fears.\
 **Prerequisites:** Wis 15, [Improved Unarmed Strike](ref/feat/improved-unarmed-strike), Knowledge

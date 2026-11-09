@@ -6,6 +6,9 @@ source_ids = ["pathfinder-69-maiden-mother-crone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kokogiak", path = "json/monsters15.json" },
 ]
+[[sources]]
+publication = "pathfinder-69-maiden-mother-crone"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ small but infinite pits of malice._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#69: Maiden, Mother, Crone pg 86\
 **Experience points:** 19,200
 
 **Armor class:** 25/9/24

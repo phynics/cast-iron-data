@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sunburst", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "355"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: yes
 Area: 80-ft.-radius burst
 Descriptors: light
 :::
-
-**Sources:** PRPG Core Rulebook pg 355
 
 Sunburst causes a globe of searing radiance to explode silently from a point you select. All
 creatures in the globe are blinded and take 6d6 points of damage. A creature to which sunlight is

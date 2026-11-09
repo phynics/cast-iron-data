@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/wall-of-iron", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "111"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 111\
 The wall is 1 inch thick per 2 caster levels. If you create an unattached wall, you can weight it so
 there is a 75% chance it falls on its own in the direction you want. Subtract 5 from the DC to push
 it in the direction you want, and add 5 to the DC to push the wall in the other direction.

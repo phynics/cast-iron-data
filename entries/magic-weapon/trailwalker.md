@@ -6,6 +6,9 @@ source_ids = ["lost-treasures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trailwalker", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "lost-treasures"
+page = "58"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Sources:** Lost Treasures pg 58\
 **Aura** moderate conjuration; **CL** 7th\
 **Slot** none; **Price** 40,372 gp; **Weight** 2 lbs.
 

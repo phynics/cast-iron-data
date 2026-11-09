@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bristling_drag", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "108"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you successfully drag a creature, it takes 1d4 points of damage 
 +++
 
 ## Bristling Drag (Combat)
-
-**Sources:** Ultimate Wilderness pg 108
 
 You deal damage to opponents when dragging them through difficult terrain.\
 **Prerequisites:** Str 13, [Improved Drag](ref/feat/improved-drag),

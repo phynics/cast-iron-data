@@ -6,6 +6,9 @@ source_ids = ["demons-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bezilak", path = "json/monsters_unique.json" },
 ]
+[[sources]]
+publication = "demons-revisited"
+page = "20"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ other arms end in pincers._
 
 **Senses:** Darkvision 60 ft., True seeing
 
-**Sources:** Demons Revisited pg 20\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 102,400

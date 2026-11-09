@@ -6,6 +6,9 @@ source_ids = ["rise-of-the-runelords-anniversary-edition"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "anathema_archive", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "rise-of-the-runelords-anniversary-edition"
+page = "420"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong (all schools)"
 caster_level = "20th"
 +++
 
-**Sources:** Rise of the Runelords Anniversary Edition pg 420\
 **Aura** strong (all schools); **CL** 20th\
 **Slot** none; **Price** -; **Weight** 2 lbs.
 

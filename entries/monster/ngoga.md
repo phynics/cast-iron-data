@@ -6,6 +6,9 @@ source_ids = ["lost-kingdoms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ngoga", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "lost-kingdoms"
+page = "30"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ abilities = ["23", "20", "18", "2", "13", "9"]
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Lost Kingdoms pg 30\
 **Experience points:** 3,200
 
 **Armor class:** 20/14/15

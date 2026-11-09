@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burglars_bracers", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "273"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Ultimate Equipment pg 273\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** wrists; **Price** 1,050 gp; **Weight** 1 lb.
 

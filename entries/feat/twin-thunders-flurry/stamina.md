@@ -6,11 +6,13 @@ source_ids = ["pathfinder-unchained"]
 relations = [
   { kind = "addon", target = "ref/feat/twin-thunders-flurry", label = "stamina" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "134"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder Unchained pg 134\
 You can spend 2 stamina points to attempt a trip combat maneuver against a Huge creature that does
 not have the giant subtype.

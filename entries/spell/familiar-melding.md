@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_melding", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "219"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes
 Target: your familiar
 :::
-
-**Sources:** Ultimate Magic pg 219
 
 You project your soul into your familiar, taking over its body while leaving its consciousness
 intact. When you transfer your soul upon casting, your body is, as near as anyone can tell, dead.

@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reach_spell", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "168"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "You can alter a spell with a range of touch, close, or medium to incr
 +++
 
 ## Reach Spell (Metamagic)
-
-**Sources:** Advanced Player's Guide pg 168
 
 Your spells go farther than normal.\
 **Benefit:** You can alter a spell with a range of touch, close, or medium to increase its

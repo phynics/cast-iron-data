@@ -6,6 +6,9 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "baseline", path = "json/equipment_tech_pharmaceuticals.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "33"
 
 [fields]
 kind = "item"
@@ -13,7 +16,6 @@ category = "Pharmaceuticals"
 price = "2,250 gp"
 +++
 
-**Sources:** Technology Guide pg 33\
 **Price** 2,250 gp
 
 ### Construction

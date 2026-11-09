@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "small_groups", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "12"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 12
 
 Groups of two or three can allow for more intense roleplaying, but they require you to carefully
 craft your challenges to be appropriate for fewer players. You'll also need to compensate for any

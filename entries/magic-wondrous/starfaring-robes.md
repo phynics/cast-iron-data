@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "starfaring_robes", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "270"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation"
 caster_level = "17th"
 +++
 
-**Sources:** Inner Sea Gods pg 270\
 **Aura** strong transmutation; **CL** 17th\
 **Slot** body; **Price** 82,000 gp; **Weight** 1 lb.
 

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dt_1", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "178"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 178
 
 ### Table 7-1: Places to Find Dungeons
 

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/skald" },
 ]
+[[sources]]
+publication = "legacy-of-the-first-world"
+page = "28"
 
 [fields]
 kind = "archetype"
 replaces = ["Rage power gained at 3rd level", "Spell kenning"]
 +++
 
-**Sources:** Legacy of the First World pg 28\
 Warrior bands devoted to [Ragadahn](ref/faith/ragadahn) are often led by a serpent herald, whose
 deep roars shake the earth itself. Rumors tell of waves of snakes slithering forth from their nests
 in awe as these bellowing commanders take on serpentine features.

@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "research_a_spell", path = "json/rules_subsystems02.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "86"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 86
 
 The Core Rulebook allows you to perform spell research, either to create a new spell or learn an
 existing spell from another source. In the downtime system, the steps for spell research each day

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cleric" },
 ]
+[[sources]]
+publication = "healers-handbook"
+page = "4"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Proficiency with light and medium armor"]
 alters = ["Channel energy", "Domains"]
 +++
 
-**Sources:** Healer's Handbook pg 4\
 Sacred attendants bring out the varied beauty in everyone they help, and they typically worship
 deities of beauty, love, and sex.
 

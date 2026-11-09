@@ -6,12 +6,12 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "misleading_echoes", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures
 
 **Misleading Echoes (CR 2):** Some places create supernatural echoes that seem to come from random
 directions, or even all directions at once. An area suffused with misleading echoes imposes a -4

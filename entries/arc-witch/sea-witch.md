@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/witch" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "85"
 
 [fields]
 kind = "archetype"
 replaces = ["1st-level hex"]
 +++
 
-**Sources:** Ultimate Magic pg 85\
 A sea witch's affinities are tied to the vast oceans and the rolling waves. Her magic concerns the
 moon, tides, water, and winds, and she is most at peace when she is upon or near the sea.
 

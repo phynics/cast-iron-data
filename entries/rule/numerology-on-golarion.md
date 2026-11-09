@@ -6,12 +6,13 @@ source_ids = ["occult-mysteries"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "numerology_on_golarion", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-mysteries"
+page = "48"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Mysteries pg 48
 
 Unlike many occult practices, which are intrinsically linked to a specific culture, numerology is
 common in cultures around the world. Every civilization that uses some form of engineering or

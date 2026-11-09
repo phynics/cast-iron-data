@@ -6,13 +6,15 @@ source_ids = ["occult-adventures", "occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "abjuration", path = "json/class_ability_implements.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "50"
 
 [fields]
 kind = "class_option"
 group = "occultist-implement"
 +++
 
-**Sources:** Occult Adventures pg 50\
 Abjuration implements are objects associated with protection and wards.
 
 **Implements**

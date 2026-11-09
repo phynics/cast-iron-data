@@ -6,6 +6,9 @@ source_ids = ["pathfinder-121-the-lost-outpost"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sea_crawler", path = "json/monsters21.json" },
 ]
+[[sources]]
+publication = "pathfinder-121-the-lost-outpost"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ arms, legs, and a tail._
 
 **Senses:** Low-light vision
 
-**Sources:** Pathfinder \#121: The Lost Outpost pg 84\
 **Experience points:** 400
 
 **Armor class:** 12/12/10

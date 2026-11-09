@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "furious", path = "json/magic_enhancements.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "142"
+[[sources]]
+publication = "advanced-players-guide"
+page = "288"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate enchantment"
 caster_level = "8th"
 +++
 
-**Sources:** Ultimate Equipment pg 142, Advanced Player's Guide pg 288\
 **Aura** moderate enchantment; **CL** 8th\
 **Slot** weapon quality; **Price** +1 bonus; **Weight** -
 

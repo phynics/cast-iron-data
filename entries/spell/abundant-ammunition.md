@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "abundant_ammunition", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "222"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Spell resistance: no
 Target: one container touched
 Subschool: Summoning
 :::
-
-**Sources:** Ultimate Combat pg 222
 
 When cast on a container such as a quiver or a pouch that contains nonmagical ammunition or shuriken
 (including masterwork ammunition or shuriken, but not special materials, achemical attributes, or

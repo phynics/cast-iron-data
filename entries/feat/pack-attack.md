@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pack_attack", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "112"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ normal = "You can take a 5-foot step only if you have not otherwise moved in a r
 +++
 
 ## Pack Attack (Combat, Teamwork)
-
-**Sources:** Ultimate Combat pg 112
 
 You are skilled at surrounding your enemies.\
 **Prerequisites:** Base attack bonus +1.\

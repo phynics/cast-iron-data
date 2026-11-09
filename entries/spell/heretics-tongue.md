@@ -6,6 +6,9 @@ source_ids = ["pathfinder-107-scourge-of-the-godclaw"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heretics_tongue", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "pathfinder-107-scourge-of-the-godclaw"
+page = "72"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: yes
 Target: living creature
 Descriptors: mind-affecting
 :::
-
-**Sources:** Pathfinder \#107: Scourge of the Godclaw pg 72
 
 > _Priests of [Geryon](ref/faith/geryon) have access to the following spell._
 

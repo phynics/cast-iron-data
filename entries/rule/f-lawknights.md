@@ -6,12 +6,14 @@ source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "f_lawknights", path = "json/rules_subsystems01.json" },
 ]
+[[sources]]
+publication = "faction-guide"
+page = "20"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Faction Guide pg 20\
 **Pathfinder Name:** Hellknights\
 **Goal:** Enforce the law\
 **Alignment:** LN\

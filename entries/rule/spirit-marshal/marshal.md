@@ -8,12 +8,14 @@ parent = "ref/spirit/marshal"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "json/class_ability_spirits.json#marshal|section:marshal", path = "json/class_ability_spirits.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "36"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Occult Adventures pg 36\
 A marshal spirit is a towering presence and an inspiration to others.
 
 **Spirit Bonus**

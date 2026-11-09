@@ -6,6 +6,12 @@ source_ids = ["pathfinder-100-a-song-of-silver", "pathfinder-society-field-guide
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "agile", path = "json/magic_enhancements.json" },
 ]
+[[sources]]
+publication = "pathfinder-100-a-song-of-silver"
+page = "21"
+[[sources]]
+publication = "pathfinder-society-field-guide"
+page = "50"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Sources:** Pathfinder \#100: A Song of Silver pg 21, Pathfinder Society Field Guide pg 50\
 **Aura** moderate transmutation; **CL** 7th\
 **Slot** none; **Price** +1 bonus; **Weight** -
 

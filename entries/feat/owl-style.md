@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "owl_style", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "88"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using this style, you can use your base attack bonus in place o
 +++
 
 ## Owl Style (Combat, Style)
-
-**Sources:** Ultimate Intrigue pg 88
 
 You can move with the quiet grace of an owl.\
 **Prerequisites:** Dex 13, [Skill Focus](ref/feat/skill-focus) (Stealth), Stealth 1 rank.\

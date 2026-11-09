@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "region", path = "json/rules_basics03.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "11"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 11
 
 Imagine the geographical region where you grew up, and consider the implications, positive and
 negative, of growing up there. Think of how the landscape affected your psychology. If you grew up

@@ -6,6 +6,9 @@ source_ids = ["the-first-world-realm-of-the-fey"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "locate_portal", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "the-first-world-realm-of-the-fey"
+page = "12"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Saving throw: none
 Spell resistance: no
 Area: circle, centered on you, with a radius of 1 mile/level
 :::
-
-**Sources:** The First World, Realm of the Fey pg 12
 
 When this spell is active, you feel a mental pull in the direction of any active or operable portal
 leading to another plane within range of the spell. If multiple portals are present, you are pulled

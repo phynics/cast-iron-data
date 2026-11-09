@@ -6,12 +6,13 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hazards_of_the_first_world", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "130"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Wilderness pg 130
 
 In the First World, the terrain itself can be as dangerous as any denizen. The following are just a
 handful of hazards found on the borders of or within this fey realm. These hazards can also manifest

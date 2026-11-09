@@ -6,12 +6,13 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "normal_is_abnormal", path = "json/rules_campaign_types09.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "84"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Planar Adventures pg 84
 
 The planes often subvert common cultural and physical expectations. Depending on the place, the PCs
 might have to navigate cities designed entirely for locals who can fly, swim, or spend extensive

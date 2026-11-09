@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animus_mine", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-darklands"
+page = "20"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Spell resistance: no
 Effect: see text
 Descriptors: mind-affecting
 :::
-
-**Sources:** Heroes of the Darklands pg 20
 
 You implant a mental mine within your psyche that triggers against anyone attempting to manipulate
 your thoughts. Any creature that uses a mind-affecting effect against you triggers the mine, causing

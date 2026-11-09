@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wv_longship", path = "json/rules_rulesets02.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "184"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 184
 
 Colossal water vehicle\
 **Squares** 45 (15 ft. by 75 ft.); **Cost** 10,000 gp

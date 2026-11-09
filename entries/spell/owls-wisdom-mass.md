@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/owls-wisdom" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "318"
 
 [fields]
 kind = "spell"
@@ -53,8 +56,6 @@ Spell resistance: yes
 :::
 
 ### Mass Owl's Wisdom
-
-**Sources:** PRPG Core Rulebook pg 318
 
 This spell functions like [owl's wisdom](ref/spell/owls-wisdom), except that it affects multiple
 creatures.

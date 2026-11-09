@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dinosaur_troodon", path = "json/monsters08.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ _This small, slender-necked dinosaur's bright, inquisitive eyes seem to miss not
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Bestiary 5 pg 84\
 **Experience points:** 400
 
 **Armor class:** 13/12/11

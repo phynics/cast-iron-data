@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/message" },
 ]
+[[sources]]
+publication = "taldor-echoes-of-glory"
+page = "25"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Saving throw: none
 Spell resistance: no
 Target: one creature/level
 :::
-
-**Sources:** Taldor, Echoes of Glory pg 25
 
 As [message](ref/spell/message), except the only information you can transmit is that you are a
 worshiper of Sarenrae. Once notified, the target can reply that he understands your sign. The spell

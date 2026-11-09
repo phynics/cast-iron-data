@@ -6,6 +6,9 @@ source_ids = ["pathfinder-91-battle-of-bloodmarch-hills"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "megafauna_embolotherium", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "pathfinder-91-battle-of-bloodmarch-hills"
+page = "87"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ creature possesses a blunt, bony protrusion._
 
 **Senses:** Low-light vision
 
-**Sources:** Pathfinder \#91: Battle of Bloodmarch Hills pg 87\
 **Experience points:** 1,600
 
 **Armor class:** 17/9/17

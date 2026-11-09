@@ -6,6 +6,9 @@ source_ids = ["knights-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "carry_companion", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "knights-of-the-inner-sea"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: none
 Spell resistance: yes
 Target: one willing creature touched
 :::
-
-**Sources:** Knights of the Inner Sea pg 28
 
 You touch an animal or magical beast that has a helpful attitude toward you, instantly transforming
 the creature into a miniature figurine of stone, small enough to fit into the palm of your hand.

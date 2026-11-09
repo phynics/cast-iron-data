@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "banner_of_restful_nights", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "226"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "9th"
 +++
 
-**Sources:** Advanced Class Guide pg 226\
 **Aura** moderate abjuration; **CL** 9th\
 **Slot** none; **Price** 5,040 gp; **Weight** 7 lbs.
 

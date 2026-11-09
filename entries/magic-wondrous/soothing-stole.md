@@ -6,6 +6,9 @@ source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soothing_stole", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "heroes-from-the-fringe"
+page = "23"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint enchantment"
 caster_level = "3rd"
 +++
 
-**Sources:** Heroes from the Fringe pg 23\
 **Aura** faint enchantment; **CL** 3rd\
 **Slot** shoulders; **Price** 6,500 gp; **Weight** 2 lbs.
 

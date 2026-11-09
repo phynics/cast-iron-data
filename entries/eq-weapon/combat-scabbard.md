@@ -6,14 +6,15 @@ source_ids = ["adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "combat_scabbard", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "adventurers-armory"
+page = "6"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "1 lb."
 +++
-
-**Sources:** Adventurer's Armory pg 6
 
 This scabbard is an [improvised](ref/misc/improvised-weapons) weapon designed to allow you to remove
 it from your belt as a swift action when drawing the weapon it contains. Taking the

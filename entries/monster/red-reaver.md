@@ -6,6 +6,12 @@ source_ids = ["curse-of-the-crimson-throne", "pathfinder-10-a-history-of-ashes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "red_reaver", path = "json/monsters20.json" },
 ]
+[[sources]]
+publication = "curse-of-the-crimson-throne"
+page = "476"
+[[sources]]
+publication = "pathfinder-10-a-history-of-ashes"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ wings._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Curse of the Crimson Throne pg 476, Pathfinder \#10: A History of Ashes pg 88\
 **Experience points:** 25,600
 
 **Armor class:** 29/7/29

@@ -6,13 +6,15 @@ source_ids = ["occult-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mindtech", path = "json/class_ability_disciplines.json" },
 ]
+[[sources]]
+publication = "occult-realms"
+page = "13"
 
 [fields]
 kind = "class_option"
 group = "psychic-discipline"
 +++
 
-**Sources:** Occult Realms pg 13\
 You are innately tied to and can communicate with electronic machinery and similar technological
 objects, through which you can funnel your psychic power like flowing water. You can amplify and
 focus your psychic energies using the technology that surrounds you: even certain kinds of

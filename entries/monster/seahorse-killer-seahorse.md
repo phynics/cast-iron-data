@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seahorse_killer_seahorse", path = "json/monsters21.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "234"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ _This elephant-sized sea creature resembles a horse crossed with a fish, with cr
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 4 pg 234\
 **Subtype:** Aquatic
 
 **Experience points:** 1,600

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wilderness_toolbox", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "224"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 224
 
 The wilderness presents a vast range of opportunities for adventure, not just as far as setting and
 locations go, but also in terms of hazards one might encounter, creatures to be faced, and natives

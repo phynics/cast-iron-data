@@ -6,12 +6,13 @@ source_ids = ["pathfinder-128-songbird-scion-saboteur"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "triumphs", path = "json/rules_opt_magic01.json" },
 ]
+[[sources]]
+publication = "pathfinder-128-songbird-scion-saboteur"
+page = "77"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder \#128: Songbird, Scion, Saboteur pg 77
 
 As she adventures, the wielder of a relic might achieve great deeds, called triumphs, tied to the
 item's associated cause, which she can apply to the relic to increase its power. Each volume of the

@@ -6,6 +6,12 @@ source_ids = ["adventurers-armory-2", "dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dorn_dergar_master", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "11"
+[[sources]]
+publication = "dwarves-of-golarion"
+page = "21"
 
 [fields]
 kind = "feat"
@@ -17,8 +23,6 @@ normal = "A dorn-dergar requires two hands to wield."
 +++
 
 ## Dorn-Dergar Master (Combat)
-
-**Sources:** Adventurer's Armory 2 pg 11, Dwarves of Golarion pg 21
 
 You can use a dorn-dergar with only one hand.\
 **Prerequisites:** [Two-Weapon Fighting](ref/feat/two-weapon-fighting), base attack bonus +4,

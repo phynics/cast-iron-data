@@ -6,6 +6,9 @@ source_ids = ["pathfinder-139-the-dead-road"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "first_general_of_the_east", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "pathfinder-139-the-dead-road"
+page = "73"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Once per day, you can cast greater magic weapon as a spell-like abili
 +++
 
 ## First General of the East (Origin)
-
-**Sources:** Pathfinder \#139: The Dead Road pg 73
 
 Your creator was a soldier and person of war, and your memories are filled with the taste of blood.\
 **Prerequisites:** Character level 5th, [shabti](ref/race/shabti).\

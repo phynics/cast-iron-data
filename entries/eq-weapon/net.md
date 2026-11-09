@@ -6,14 +6,21 @@ source_ids = ["ranged-tactics-toolbox", "core-rulebook", "ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "net", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "33"
+[[sources]]
+publication = "core-rulebook"
+page = "143"
+[[sources]]
+publication = "ultimate-equipment"
+page = "21"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "6 lbs."
 +++
-
-**Sources:** Ranged Tactics Toolbox pg 33, PRPG Core Rulebook pg 143, Ultimate Equipment pg 21
 
 A net is used to entangle enemies. When you throw a net, you make a ranged touch attack against your
 target. A net's maximum range is 10 feet. If you hit, the target is [entangled](ref/rule/entangled).

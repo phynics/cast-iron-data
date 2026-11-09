@@ -6,6 +6,9 @@ source_ids = ["occult-mysteries"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "numerological_evocation", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "occult-mysteries"
+page = "51"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: Reflex half
 Spell resistance: yes
 Target: see text
 :::
-
-**Sources:** Occult Mysteries pg 51
 
 You can use the Path of Numbers to calculate the latent magical energies all around you and fire
 customized rays of elemental energy that damage nearby targets. Roll 1d6 per 2 caster levels you

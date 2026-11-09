@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "77"
 
 [fields]
 kind = "archetype"
 replaces = ["Trap sense", "Uncanny dodge", "Improved uncanny dodge"]
 +++
 
-**Sources:** Ultimate Wilderness pg 77\
 Sly saboteurs are irregular soldiers who specialize in sabotage and surprise attacks. Though they
 often face enemies with greater numbers or resources (or both), sly saboteurs have the advantage of
 knowing the local people and terrain. They might be rebels fighting against a corrupt government, or

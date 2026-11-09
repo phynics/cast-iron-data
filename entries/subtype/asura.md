@@ -6,14 +6,14 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "asura", path = "json/monster_subtypes.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
 
 [fields]
 kind = "none"
 +++
 
 ## Subtype: Asura
-
-**Sources:** Bestiary 3
 
 An [asura](ref/family/asura) has the following traits, unless otherwise noted in the creature's
 entry.

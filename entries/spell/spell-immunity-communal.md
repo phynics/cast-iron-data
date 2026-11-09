@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/spell-immunity" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "244"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Target: creature touched
 :::
 
 ### Communal Spell Immunity
-
-**Sources:** Ultimate Combat pg 244
 
 This spell functions like [spell immunity](ref/spell/spell-immunity), except you divide the duration
 in 10-minute intervals among the creatures touched.

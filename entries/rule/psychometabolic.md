@@ -6,12 +6,14 @@ source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychometabolic", path = "json/rules_campaign_types02.json" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "31-32"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Psychic Anthology pg. 31-32\
 Strange powers exist on Golarion and beyond. Those who survive a brush with cosmic phenomena, occult
 mysteries, or horrors from beyond the veil occasionally find psychic abilities awakening in their
 minds. Although potent, such power corrupts the body, subconscious mind, and emotions - often with

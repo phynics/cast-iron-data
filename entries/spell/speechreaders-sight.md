@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "speechreaders_sight", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-high-court"
+page = "10"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Heroes of the High Court pg 10
 
 If a creature within 100 feet that you can see is speaking a language you understand, you can read
 its lips with perfect accuracy. Reading lips in this manner gives the exact wording of conversation

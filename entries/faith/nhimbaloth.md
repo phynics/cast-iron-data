@@ -6,6 +6,9 @@ source_ids = ["pathfinder-109-in-search-of-sanity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nhimbaloth", path = "json/faiths6.json" },
 ]
+[[sources]]
+publication = "pathfinder-109-in-search-of-sanity"
+page = "69"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Nhimbaloth**
 
 **Sub:** The Empty Death
-
-**Sources:** Pathfinder \#109: In Search of Sanity pg 69
 
 ### Details
 

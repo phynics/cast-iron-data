@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "legacy_of_earth", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "137"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 137
 
 For centuries, a stretch of fertile land has been tended by several small settlements of halfling
 farmers. These halflings have developed a mystical bond with the land, creating a birthright of

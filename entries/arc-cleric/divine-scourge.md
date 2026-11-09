@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cleric" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "23"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Channel energy"]
 alters = ["Domains"]
 +++
 
-**Sources:** Magic Tactics Toolbox pg 23\
 Some divine servants take on the role of dealing out unique punishments on behalf of their deities,
 taking pleasure in carrying out their sacrosanct duties. Such divine scourges are most common among
 worshipers of [Abadar](ref/faith/abadar) (meting out punishment to lawbreakers in concert with local

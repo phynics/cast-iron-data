@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gnome_background", path = "json/rules_basics03.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "17"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 17
 
 The capricious and carefree gnomes of the world are widespread and varied. They typically either
 form their own gnome communities or integrate themselves into other humanoid societies.

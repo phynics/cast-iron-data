@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_shadow_demon", path = "json/monsters29.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "67"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ rest is lost in darkness._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 67\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar, Incorporeal
 
 **Experience points:** 3,200

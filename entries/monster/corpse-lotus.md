@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "pathfinder-78-city-of-locusts"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "corpse_lotus", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "60"
+[[sources]]
+publication = "pathfinder-78-city-of-locusts"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -44,7 +50,6 @@ vines._
 
 **Type:** plant
 
-**Sources:** Bestiary 5 pg 60, Pathfinder \#78: City of Locusts pg 84\
 **tremorsense:** 30
 
 **Experience points:** 25,600

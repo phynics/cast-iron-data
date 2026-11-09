@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sahkil_ichkoh", path = "json/monsters37.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "243"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ place of an insectile head._
 
 **Senses:** Darkvision 60 ft., Detect good, Detect magic, Low-light vision, See invisibility
 
-**Sources:** Bestiary 6 pg 243\
 **Subtype:** Evil, Extraplanar, Sahkil
 
 **Experience points:** 3,200

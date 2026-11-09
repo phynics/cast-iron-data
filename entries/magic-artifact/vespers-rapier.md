@@ -6,6 +6,12 @@ source_ids = ["artifacts-and-legends", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vespers_rapier", path = "json/magic_artifact3.json" },
 ]
+[[sources]]
+publication = "artifacts-and-legends"
+page = "55"
+[[sources]]
+publication = "gods-and-magic"
+page = "63"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong conjuration"
 caster_level = "20th"
 +++
 
-**Sources:** Artifacts and Legends pg 55, Gods and Magic pg 63\
 **Aura** strong conjuration; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 2 lbs.
 

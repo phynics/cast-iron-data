@@ -6,6 +6,9 @@ source_ids = ["cheliax-empire-of-devils"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "furys_snare", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "cheliax-empire-of-devils"
+page = "26"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "If you successfully use a whip to trip a foe, you can choose to drop 
 +++
 
 ## Fury's Snare (Combat)
-
-**Sources:** Cheliax, Empire of Devils pg 26
 
 You entangle your foe in your weapon.\
 **Prerequisites:** [Fury's Fall](ref/feat/furys-fall), [Improved Trip](ref/feat/improved-trip).\

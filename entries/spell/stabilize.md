@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stabilize", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "348"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Spell resistance: yes (harmless)
 Target: one living creature
 Subschool: Healing
 :::
-
-**Sources:** PRPG Core Rulebook pg 348
 
 Upon casting this spell, you target a living creature that has -1 or fewer hit points. That creature
 is automatically stabilized and does not lose any further hit points. If the creature later takes

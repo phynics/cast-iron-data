@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "true_fleshwarping", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "164"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 164
 
 Willfully transforming one creature into another through magical and alchemical processes is a
 terrifying technique performed by the most cruel and vicious of creatures. Power-hungry

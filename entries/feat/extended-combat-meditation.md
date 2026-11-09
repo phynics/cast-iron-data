@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extended_combat_meditation", path = "json/feat06.json" },
 ]
+[[sources]]
+publication = "blood-of-the-beast"
+page = "28"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Add your Wisdom bonus (if any) to the number of rounds that you gain 
 +++
 
 ## Extended Combat Meditation (Combat, Meditation)
-
-**Sources:** Blood of the Beast pg 28
 
 You are able to glean insight from your momentary meditation for longer than most can.\
 **Prerequisites:** Wis 13, [Combat Meditation](ref/feat/combat-meditation),

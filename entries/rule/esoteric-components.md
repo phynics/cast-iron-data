@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "esoteric_components", path = "json/rules_opt_magic01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "152"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 152
 
 This system uses four common esoteric components - entropic resin, geodes, prismatic sand, and
 verdant salts - plus one rare component called yliaster. A GM can change the descriptions of these

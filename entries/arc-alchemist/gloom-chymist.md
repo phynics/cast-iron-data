@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "blood-of-shadows"
+page = "18"
 
 [fields]
 kind = "archetype"
 replaces = ["Bomb", "Poison resistance", "poison use", "swift poisoning"]
 +++
 
-**Sources:** Blood of Shadows pg 18\
 A breakthrough in Nidalese alchemy led to the creation of glooms, magical fields of darkness from
 the Shadow Plane that can be momentarily animated with the use of strange compounds. These mixtures
 are quite efficacious, leading to the spread of their use throughout the rest of the Inner Sea

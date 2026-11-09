@@ -6,6 +6,9 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "access_card_gray", path = "json/equipment_tech_misc.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "39"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ slot = "none"
 
 ## Access card
 
-**Sources:** Technology Guide pg 39\
 **Price** 10 gp (black), 360 gp (blue), 3 gp (brown), 90 gp (gray), 160 gp (green), 490 gp (orange),
 1,000 gp (prismatic), 250 gp (red), 40 gp (white)\
 **Slot** none; **Weight** — (all)\

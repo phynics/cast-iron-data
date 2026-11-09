@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "running_smooth_combats", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "39"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 39
 
 Combat is the slowest and most complex part of the game, with issues of timing, multiple creatures
 acting at once, and many, many dice rolls. Here are some tips for speeding up combat - things you

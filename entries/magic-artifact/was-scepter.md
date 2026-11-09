@@ -6,6 +6,9 @@ source_ids = ["pathfinder-83-the-slave-trenches-of-hakotep"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "was_scepter", path = "json/magic_artifact3.json" },
 ]
+[[sources]]
+publication = "pathfinder-83-the-slave-trenches-of-hakotep"
+page = "75"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "overwhelming abjuration and transmutation"
 caster_level = "20th"
 +++
 
-**Sources:** Pathfinder \#83: The Slave Trenches of Hakotep pg 75\
 **Aura** overwhelming abjuration and transmutation; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 30 lbs.
 

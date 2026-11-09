@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rod_of_mind_mastery", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "182"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration and divination"
 caster_level = "7th"
 +++
 
-**Sources:** Ultimate Equipment pg 182\
 **Aura** moderate abjuration and divination; **CL** 7th\
 **Slot** none; **Price** 67,000 gp; **Weight** 5 lbs.
 

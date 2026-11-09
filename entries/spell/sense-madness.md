@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sense_madness", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "127"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: none
 Spell resistance: no
 Target: creatures in range (see text)
 :::
-
-**Sources:** Horror Adventures pg 127
 
 You can sense the presence of mental disturbance in creatures within range, focusing your detection
 on one creature each round. If the target is currently suffering from any form of

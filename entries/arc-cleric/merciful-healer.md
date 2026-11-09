@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cleric" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "41"
 
 [fields]
 kind = "archetype"
 replaces = ["Channel energy"]
 +++
 
-**Sources:** Ultimate Combat pg 41\
 The merciful healer is a master of battlefield revivification, sustaining and restoring allies to
 keep them in the fight.
 

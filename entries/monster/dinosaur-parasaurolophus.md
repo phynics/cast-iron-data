@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dinosaur_parasaurolophus", path = "json/monsters08.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "91"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ backward-curving horn._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Bestiary 2 pg 91\
 **Experience points:** 1,200
 
 **Armor class:** 17/10/15

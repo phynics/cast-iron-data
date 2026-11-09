@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_wallaby", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "209"
+[[sources]]
+publication = "familiar-folio"
+page = "27"
 
 [fields]
 kind = "creature"
@@ -41,7 +47,6 @@ hopping gait._
 
 **Size:** small
 
-**Sources:** Ultimate Wilderness pg 209, Familiar Folio pg 27\
 **Experience points:** 135
 
 **Armor class:** 13/13/11

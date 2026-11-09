@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/fighter" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "12"
 
 [fields]
 kind = "archetype"
 replaces = ["Weapon training 1", "Armor training 2 and 4", "Armor mastery"]
 +++
 
-**Sources:** Technology Guide pg 12\
 Cyber-soldiers replace fallible flesh with precision-crafted machinery. Some seek to exceed the
 limitations of humanoid flesh, while others become cyber-soldiers through drastic repairs
 necessitated by horrific injuries. A cyber-soldier has the following class features.

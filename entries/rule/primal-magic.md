@@ -6,12 +6,14 @@ source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "primal_magic", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "12"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Inner Sea Magic pg 12\
 In its raw form, magic is not an ordered force - it is the all-encompassing chaos of possibility.
 The same energies that can be shaped to create explosive fireballs, raise the dead, divine the
 future, heal the sick, and summon demons can do that and more without the direction of skilled

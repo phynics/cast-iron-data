@@ -6,6 +6,9 @@ source_ids = ["inner-sea-npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "absalom_wave_rider", path = "json/npcs7.json" },
 ]
+[[sources]]
+publication = "inner-sea-npc-codex"
+page = "3"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "3"
 
 **Challenge rating:** 3
 
-**Sources:** Inner Sea NPC Codex pg 3\
 **XP** 800\
 Gillman [rogue](ref/class/rogue) 2/[sorcerer](ref/class/sorcerer) 2\
 NG Medium humanoid (aquatic)\

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "21"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Dirge of doom", "frightening tune", "Versatile performance", "Well-
 alters = ["Inspire competence"]
 +++
 
-**Sources:** Ultimate Intrigue pg 21\
 Ringleaders are adept in getting the most out of their allies, and they excel at planning for
 unexpected complications in advance. Often the masterminds behind elaborate heists and
 infiltrations, ringleaders use their organizational abilities to make sure the plan goes without a

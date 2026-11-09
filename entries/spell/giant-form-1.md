@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_form_1", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "289"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 Target: you
 Subschool: Polymorph
 :::
-
-**Sources:** PRPG Core Rulebook pg 289
 
 When you cast this spell you can assume the form of any Large humanoid creature of the giant
 subtype. Once you assume your new form, you gain the following abilities: a +6 size bonus to

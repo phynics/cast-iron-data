@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lich_demilich", path = "json/monsters16.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "66"
 
 [fields]
 kind = "creature"
@@ -37,7 +40,6 @@ dust and shimmering magic._
 
 **Senses:** Darkvision 60 ft., True seeing
 
-**Sources:** Bestiary 3 pg 66\
 **Size:** tiny
 
 **Type:** undead

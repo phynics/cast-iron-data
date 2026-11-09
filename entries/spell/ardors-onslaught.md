@@ -6,6 +6,12 @@ source_ids = ["planar-adventures", "champions-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ardors_onslaught", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "39"
+[[sources]]
+publication = "champions-of-balance"
+page = "26"
 
 [fields]
 kind = "spell"
@@ -39,8 +45,6 @@ Saving throw: Will partial, see text
 Spell resistance: yes
 Area: 20-ft.-radius burst
 :::
-
-**Sources:** Planar Adventures pg 39, Champions of Balance pg 26
 
 You unleash the power of zealous conviction to smite your enemies with a burst of pulsing metallic
 energy. Only creatures with a neutral alignment component are harmed by the spell.

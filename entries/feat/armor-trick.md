@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "armor_trick", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "8-9"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "You can gain Armor Trick multiple times. Each time you take the feat,
 +++
 
 ## Armor Trick (Combat)
-
-**Sources:** Armor Master's Handbook pg. 8-9
 
 Choose one armor trick option (light, medium, heavy, or shield). You can perform armor tricks in
 combat when wearing the appropriate armor option.\

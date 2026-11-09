@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "titan_fomorian_titan_mythic", path = "json/monsters_mythic2.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "261"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ mace._
 
 **Senses:** Darkvision 60 ft., Divine spell perception
 
-**Sources:** Bestiary 4 pg 261\
 **Subtype:** Chaotic, Evil, Extraplanar, Mythic
 
 **Experience points:** 614,400

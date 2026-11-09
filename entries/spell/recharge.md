@@ -6,6 +6,9 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "recharge", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "11"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: Fortitude negates (object)
 Spell resistance: yes (object)
 Target: object touched
 :::
-
-**Sources:** Technology Guide pg 11
 
 You restore up to 1 charge per level to a battery or half that number of charges to a technological
 item capable of being charged by a battery. If you recharge a battery, there is a 20% chance that

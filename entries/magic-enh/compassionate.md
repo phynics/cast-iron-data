@@ -6,6 +6,9 @@ source_ids = ["champions-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "compassionate", path = "json/magic_enhancements.json" },
 ]
+[[sources]]
+publication = "champions-of-purity"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Sources:** Champions of Purity pg 30\
 **Aura** moderate conjuration; **CL** 7th\
 **Slot** weapon quality; **Price** +1 bonus; **Weight** -
 

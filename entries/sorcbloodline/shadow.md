@@ -6,13 +6,15 @@ source_ids = ["advanced-players-guide", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "140"
 
 [fields]
 kind = "class_option"
 group = "sorcerer-bloodline"
 +++
 
-**Sources:** Advanced Player's Guide pg 140\
 Spirits from the shadow plane dally at times in the world of light, and such as these lay with your
 ancestors once upon a time, imparting the mystery of shadow-stuff into your lineage. You are often
 sullen and withdrawn, preferring to skulk at the fringes of social circles and keep to yourself,

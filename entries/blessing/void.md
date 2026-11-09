@@ -6,13 +6,15 @@ source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "void", path = "json/class_ability_blessings.json" },
 ]
+[[sources]]
+publication = "advanced-class-origins"
+page = "25"
 
 [fields]
 kind = "class_option"
 group = "warpriest-blessing"
 +++
 
-**Sources:** Advanced Class Origins pg 25\
 **Deities:** Great Old Ones, [Groetus](ref/faith/groetus)
 
 **Airless Touch (minor)**

@@ -6,14 +6,15 @@ source_ids = ["belkzen-hold-of-the-orc-hordes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "earthmaul", path = "json/equipment_siege_engines.json" },
 ]
+[[sources]]
+publication = "belkzen-hold-of-the-orc-hordes"
+page = "39"
 
 [fields]
 kind = "item"
 category = "Siege Engines"
 weight = "-"
 +++
-
-**Sources:** Belkzen, Hold of the Orc Hordes pg 39
 
 This war machine is fitted with an enormous hammer. When dropped into the horizontal position, it
 functions like a sideways-mounted catapult, and is capable of clearing wide swaths of enemies.

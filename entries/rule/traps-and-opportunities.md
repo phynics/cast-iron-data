@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "traps_and_opportunities", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "163"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 163
 
 While creating calendars and timelines is a lot of fun, it also carries with it a few design risks
 that can end up coming back to haunt you if you don't take care.

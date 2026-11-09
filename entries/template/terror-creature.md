@@ -6,6 +6,9 @@ source_ids = ["city-of-golden-death"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "terror_creature", path = "json/monster_template4.json" },
 ]
+[[sources]]
+publication = "city-of-golden-death"
+page = "29"
 
 [fields]
 kind = "none"
@@ -18,8 +21,6 @@ kind = "none"
 **Challenge rating:** +0
 
 **Simple:** present
-
-**Source:** City of Golden Death/29
 
 Creatures with the terror template are warped by prolonged contact with the
 [Negative Energy Plane](ref/rule/negative-energy-plane). They are terrifying to behold and have

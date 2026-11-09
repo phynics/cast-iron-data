@@ -6,12 +6,12 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "linnorm", path = "json/monster_families2.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Bestiary 3
 
 Treacherous primeval dragons of the northern regions of the world, linnorms thrive on their hatred
 for those they deem to be lesser creatures and seek to inflict as much suffering as possible unto

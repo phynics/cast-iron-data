@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oni_fire_yai", path = "json/monsters18.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "206"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ ember._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 3 pg 206\
 **Subtype:** Fire, Giant, Native, Oni, Shapechanger
 
 **Experience points:** 51,200

@@ -6,13 +6,23 @@ source_ids = ["inner-sea-races", "bestiary-3", "qadira-gateway-to-the-east", "ad
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "suli", path = "json/races4.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "250"
+[[sources]]
+publication = "bestiary-3"
+page = "258"
+[[sources]]
+publication = "qadira-gateway-to-the-east"
+page = "28"
+[[sources]]
+publication = "advanced-race-guide"
+page = "202"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Inner Sea Races pg 250, Bestiary 3 pg 258, Qadira, Gateway to the East pg 28, Advanced
-Race Guide pg 202\
 Sulis, or suli-jann, are the descendents of mortals and jann. They manifest their otherworldly
 heritage in adolescence, or when awakened by an encounter with a genie. Strong and attractive, these
 dynamic individuals can call forth elemental energies to augment their prowess in combat. Neither

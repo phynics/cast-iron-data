@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/magus" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "28"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Magus arcana gained at 3rd level"]
 alters = ["Armor proficiencies", "medium armor", "heavy armor", "Spellcasting", "Arcane pool", "spell combat", "spellstrike"]
 +++
 
-**Sources:** Arcane Anthology pg 28\
 According to dwarven legend, the first deep marshals were handpicked by King Taargick himself to
 create massive tunnels to aid in the dwarven exodus to Golarion's surface during the Quest for Sky.
 Largely unseen by visitors, the deep marshals have survived into the modern era as keepers,

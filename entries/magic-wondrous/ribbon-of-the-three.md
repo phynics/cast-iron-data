@@ -6,6 +6,9 @@ source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ribbon_of_the_three", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "legacy-of-the-first-world"
+page = "25"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Sources:** Legacy of the First World pg 25\
 **Aura** moderate transmutation; **CL** 9th\
 **Slot** none; **Price** 60,000 gp; **Weight** -
 

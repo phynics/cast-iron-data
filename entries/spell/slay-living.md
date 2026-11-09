@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slay_living", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "344"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: yes
 Target: living creature touched
 Descriptors: death
 :::
-
-**Sources:** PRPG Core Rulebook pg 344
 
 You can attempt to slay any one living creature. When you cast this spell, your hand seethes with
 eerie dark fire. You must succeed on a melee touch attack to touch the target. The target takes 12d6

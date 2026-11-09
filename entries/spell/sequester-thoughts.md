@@ -6,6 +6,9 @@ source_ids = ["pathfinder-society-field-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sequester_thoughts", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "pathfinder-society-field-guide"
+page = "58"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Target: one willing creature
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Pathfinder Society Field Guide pg 58
 
 Sequester thoughts allows you to erase a creature's memory of either an event lasting not more than
 1 minute per caster level or all of its knowledge about a single topic (using the GM's discretion as

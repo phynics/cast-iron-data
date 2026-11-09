@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "they_know", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "226"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Target: one intelligent creature
 Subschool: Compulsion
 Descriptors: emotion, fear
 :::
-
-**Sources:** Ultimate Intrigue pg 226
 
 You instill a target with the fear that the nearest other intelligent creature knows her darkest
 secret. If she is in the midst of another situation as vital as protecting her darkest secret, such

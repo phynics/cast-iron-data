@@ -6,6 +6,9 @@ source_ids = ["daughters-of-fury"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bonedancer_bodhran", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "daughters-of-fury"
+page = "57"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Sources:** Daughters of Fury pg 57\
 **Aura** faint necromancy; **CL** 3rd\
 **Slot** none; **Price** 6,700 gp; **Weight** 2 lbs.
 

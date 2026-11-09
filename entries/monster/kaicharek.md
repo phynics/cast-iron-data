@@ -6,6 +6,9 @@ source_ids = ["pathfinder-139-the-dead-road"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kaicharek", path = "json/monsters34.json" },
 ]
+[[sources]]
+publication = "pathfinder-139-the-dead-road"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ tentacles sporting razor-edged ridges protrudes from the sides of its mouth._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#139: The Dead Road pg 84\
 **Subtype:** Extraplanar
 
 **Experience points:** 1,200

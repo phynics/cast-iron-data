@@ -6,6 +6,9 @@ source_ids = ["adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lock_of_the_saved_superior", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "adventurers-armory"
+page = "25"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "1 lb."
 
 ## Lock of the saved
 
-**Sources:** Adventurer's Armory pg 25\
 **Price** +50 gp; **Weight** 1 lb.\
 **Category** Channel Foci\
 **Deity** Any

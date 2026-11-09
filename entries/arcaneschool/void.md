@@ -6,13 +6,15 @@ source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "void", path = "json/class_ability_arcane_schools.json" },
 ]
+[[sources]]
+publication = "dragon-empires-primer"
+page = "29"
 
 [fields]
 kind = "class_option"
 group = "arcane-school"
 +++
 
-**Sources:** Dragon Empires Primer pg 29\
 The void is a complex idea considered by some to be a fifth element, one that comprises thought,
 space, spiritualism, and insight. Wizards who tap into its mysterious powers gain control over
 energies that bind the earth to the heavens and the planes to their mysterious and eternal

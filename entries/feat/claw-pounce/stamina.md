@@ -6,10 +6,12 @@ source_ids = ["pathfinder-unchained"]
 relations = [
   { kind = "addon", target = "ref/feat/claw-pounce", label = "stamina" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "115"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder Unchained pg 115\
 When you charge, you can spend 5 stamina points to make a second attack with one of your claws.

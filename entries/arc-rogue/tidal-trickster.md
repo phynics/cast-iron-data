@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
+page = "55"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Trapfinding", "trap sense", "Uncanny dodge, 4th-level rogue talent"
 alters = ["Sneak attack"]
 +++
 
-**Sources:** Aquatic Adventures pg 55\
 Tidal tricksters roam the seas, using their skillful mastery of the currents to move across aquatic
 battlefields and throw their enemies off-balance.
 

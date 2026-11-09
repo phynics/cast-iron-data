@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_of_faith", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "342"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
 :::
-
-**Sources:** PRPG Core Rulebook pg 342
 
 This spell creates a shimmering, magical field around the target that averts and deflects attacks.
 The spell grants the subject a +2 deflection bonus to AC, with an additional +1 to the bonus for

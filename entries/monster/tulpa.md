@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tulpa", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "254"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ _A gray-skinned humanoid with oddly unremarkable features floats ponderously in 
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 5 pg 254\
 **Subtype:** Augmented humanoid, Human
 
 **Experience points:** 2,400

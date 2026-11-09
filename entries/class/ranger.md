@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "chronicle-of-legends", "plane-hoppers-handbook",
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ranger", path = "json/classes7.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "64"
 
 [fields]
 kind = "class"
@@ -13,8 +16,6 @@ class_type = "core"
 hit_die = "d10"
 skill_ranks = "6 + Int modifier"
 +++
-
-**Sources:** PRPG Core Rulebook pg 64
 
 For those who relish the thrill of the hunt, there are only predators and prey. Be they scouts,
 trackers, or bounty hunters, rangers share much in common: unique mastery of specialized weapons,

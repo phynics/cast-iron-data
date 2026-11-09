@@ -6,6 +6,9 @@ source_ids = ["dungeons-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dream_eater", path = "json/monster_template1.json" },
 ]
+[[sources]]
+publication = "dungeons-of-golarion"
+page = "42"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +2
-
-**Source:** Dungeons of Golarion/42
 
 An endless variety of beings exist within and below the Pyramid of Kamaria. Among the most unique
 denizens of the pyramid, however, are the dream eaters. Created by the

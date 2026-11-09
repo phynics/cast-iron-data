@@ -6,6 +6,9 @@ source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "diadem_of_inspiring_rule", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "quests-and-campaigns"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Quests and Campaigns pg 31\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** head; **Price** 4,500 gp; **Weight** -
 

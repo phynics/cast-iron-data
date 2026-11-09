@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "maidens_panoply", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "87"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration and divination"
 caster_level = "11th"
 +++
 
-**Sources:** Adventurer's Guide pg 87\
 **Aura** moderate abjuration and divination; **CL** 11th\
 **Slot** armor; **Price** 30,650 gp; **Weight** 50 lbs.
 

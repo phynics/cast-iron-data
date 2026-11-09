@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aspect_of_the_beast", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "151"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "wild shape class feature, see Special."
 benefit = "Your bestial nature manifests itself in one of the following ways. You choose the manifestation when you choose the feat, and then you cannot change it."
 special = "A character that has contracted lycanthropy can take this feat without having to meet the prerequisites. A ranger who selects the natural weapon combat style can take this feat without having to meet the prerequisites (even if he does not select Aspect of the Beast as a bonus feat)."
 +++
-
-**Sources:** Advanced Player's Guide pg 151
 
 Whether by magic or a curse of your blood, some part of you is more beast than man.\
 **Prerequisites:** wild shape class feature, see Special.\

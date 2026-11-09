@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boar_ferocity", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "90"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You add piercing damage to the damage types you can deal with your un
 +++
 
 ## Boar Ferocity (Combat)
-
-**Sources:** Ultimate Combat pg 90
 
 Your flesh-ripping unarmed strikes terrify your victims.\
 **Prerequisites:** [Improved Unarmed Strike](ref/feat/improved-unarmed-strike),

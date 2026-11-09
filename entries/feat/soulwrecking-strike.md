@@ -6,6 +6,9 @@ source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soulwrecking_strike", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "haunted-heroes-handbook"
+page = "7"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever you use the attack action against a creature that is possess
 +++
 
 ## Soulwrecking Strike (Combat)
-
-**Sources:** Haunted Heroes Handbook pg 7
 
 Your strikes are so powerful that they harm both your target and any force possessing it.\
 **Prerequisites:** [Vital Strike](ref/feat/vital-strike), base attack bonus +6.\

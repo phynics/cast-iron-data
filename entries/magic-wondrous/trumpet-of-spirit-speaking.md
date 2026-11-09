@@ -6,6 +6,12 @@ source_ids = ["occult-mysteries", "pathfinder-71-rasputin-must-die"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trumpet_of_spirit_speaking", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "occult-mysteries"
+page = "55"
+[[sources]]
+publication = "pathfinder-71-rasputin-must-die"
+page = "61"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate necromancy"
 caster_level = "6th"
 +++
 
-**Sources:** Occult Mysteries pg 55, Pathfinder \#71: Rasputin Must Die! pg 61\
 **Aura** moderate necromancy; **CL** 6th\
 **Slot** none; **Price** 6,500 gp; **Weight** 1 lb.
 

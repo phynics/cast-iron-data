@@ -6,6 +6,8 @@ source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/catch-off-guard" },
 ]
+[[sources]]
+publication = "the-elephant-in-the-room-feat-taxes-in-pathfinder"
 
 [fields]
 kind = "feat"
@@ -14,7 +16,6 @@ benefit = "You do not suffer any penalties for using an improvised melee weapon.
 normal = "You take a -4 penalty on attack rolls made with an improvised weapon."
 +++
 
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 Foes are surprised by your skilled use of unorthodox and improvised weapons.\
 **Prerequisites:** [Unarmed Combatant](ref/rule/unarmed-combatant), Dex 13. **Benefit:** You do not
 suffer any penalties for using an improvised melee weapon. Unarmed opponents are

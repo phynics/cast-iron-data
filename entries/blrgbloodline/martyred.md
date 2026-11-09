@@ -6,6 +6,9 @@ source_ids = ["antiheros-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "martyred", path = "json/class_ability_bloodrager_bloodlines.json" },
 ]
+[[sources]]
+publication = "antiheros-handbook"
+page = "19"
 
 [fields]
 kind = "class_option"
@@ -13,8 +16,6 @@ group = "bloodrager-bloodline"
 +++
 
 ## Martyred Bloodline
-
-**Sources:** Antihero's Handbook pg 19
 
 One of your ancestors paid the ultimate price for her beliefs. This distant relative martyred
 herself out of a devout dedication to some specific cause, and that sacrifice has infused you with

@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "raging_rubble", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "149"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Spell resistance: yes
 Effect: one swarm of stones
 Descriptors: earth
 :::
-
-**Sources:** Advanced Race Guide pg 149
 
 > _[Oreads](ref/race/oread) have access to the following spell._
 

@@ -6,12 +6,13 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planar_terrains", path = "json/rules_campaign_types09.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "9"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Planar Adventures pg 9
 
 A staggering array of terrains await exploration in the Great Beyond. Some are akin to the forests,
 mountains, oceans, and plains of Material Plane worlds, but others are unlike anything found there,

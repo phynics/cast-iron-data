@@ -6,6 +6,9 @@ source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "contingent_spell", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "healers-handbook"
+page = "14"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "A contingent spell infuses a target with a dormant healing or restora
 +++
 
 ## Contingent Spell (Metamagic)
-
-**Sources:** Healer's Handbook pg 14
 
 Ability to cast [cure](ref/spell/cure-light-wounds) spells (a cure spell is any spell with "cure" in
 its name).\

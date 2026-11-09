@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wv_rowboat", path = "json/rules_rulesets02.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "184"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 184
 
 Large water vehicle\
 **Squares** 3 (5 ft. by 15 ft.); **Cost** 50 gp

@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "llorona", path = "json/monsters16.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "181"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ overwhelming despair about her._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 6 pg 181\
 **Subtype:** Incorporeal
 
 **Type:** undead

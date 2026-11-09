@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/mirror-hideaway" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "188"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Saving throw: yes (object)
 Spell resistance: yes (object)
 Target: one mirror
 :::
-
-**Sources:** Advanced Class Guide pg 188
 
 This spell functions as [mirror hideaway](ref/spell/mirror-hideaway), except any creature that
 enters the target mirror can spend a swift action to exit through another mirror within 500 feet as

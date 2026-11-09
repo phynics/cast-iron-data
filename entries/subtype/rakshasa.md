@@ -6,14 +6,14 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rakshasa", path = "json/monster_subtypes.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
 
 [fields]
 kind = "none"
 +++
 
 ## Subtype: Rakshasa
-
-**Sources:** Bestiary 3
 
 A [rakshasa](ref/family/rakshasa) is a lawful evil spirit born into the Material Plane. A
 [shapechanger](ref/subtype/shapechanger) that can walk with ease among humanoids, a rakshasa's true

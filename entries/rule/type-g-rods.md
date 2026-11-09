@@ -6,12 +6,13 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "type_g_rods", path = "json/rules_adv_gm07.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "179"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Equipment pg 179
 
 ### Table 4-2: Rods
 

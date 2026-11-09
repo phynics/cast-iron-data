@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "leng_flail_lesser", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "25"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "6th"
 
 ## Leng Flail
 
-**Sources:** Melee Tactics Toolbox pg 25\
 **Aura** moderate transmutation (lesser) or moderate transmutation and enchantment (greater); **CL**
 6th\
 **Slot** none; **Price** lesser (8,315 gp), greater (50,315 gp); **Weight** 10 lbs.

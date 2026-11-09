@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "empty_quiver_style", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "14"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "In addition to the chosen weapon, a character with this feat and the 
 +++
 
 ## Empty Quiver Style (Combat, Style)
-
-**Sources:** Weapon Master's Handbook pg 14
 
 You can fight in melee with your bow, crossbow, or firearm.\
 **Prerequisites:** [Weapon Focus](ref/feat/weapon-focus) with the chosen weapon.\

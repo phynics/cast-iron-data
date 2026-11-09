@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "self_exiled_noble", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-high-court"
+page = "5"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You gain a +2 bonus on Disguise checks, and Disguise is a class skill
 +++
 
 ## Self-Exiled Noble (Story)
-
-**Sources:** Heroes of the High Court pg 5
 
 You chose to leave nobility behind.\
 **Prerequisites:** You must have intentionally left your noble family and changed your name or

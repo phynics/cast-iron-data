@@ -6,6 +6,9 @@ source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fling", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "inner-sea-monster-codex"
+page = "53"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "While this feat is primarily taken by strix, other creatures with nat
 +++
 
 ## Fling (Combat)
-
-**Sources:** Inner Sea Monster Codex pg 53
 
 You can throw grappled enemies a short distance, turning them into makeshift missiles against their
 allies.\

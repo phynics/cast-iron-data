@@ -6,6 +6,9 @@ source_ids = ["lost-cities-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_aqualinth", path = "json/magic_artifact3.json" },
 ]
+[[sources]]
+publication = "lost-cities-of-golarion"
+page = "51"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong (all schools) [evil]"
 caster_level = "18th"
 +++
 
-**Sources:** Lost Cities of Golarion pg 51\
 **Aura** strong (all schools) \[evil\]; **CL** 18th\
 **Slot** none; **Price** -; **Weight** -
 

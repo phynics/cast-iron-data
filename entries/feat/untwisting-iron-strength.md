@@ -6,6 +6,12 @@ source_ids = ["adventurers-guide", "inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "untwisting_iron_strength", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "107"
+[[sources]]
+publication = "inner-sea-combat"
+page = "13"
 
 [fields]
 kind = "feat"
@@ -16,8 +22,6 @@ benefit = "When using Perfect Style, your attacks ignore an amount of hardness e
 +++
 
 ## Untwisting Iron Strength (Combat)
-
-**Sources:** Adventurer's Guide pg 107, Inner Sea Combat pg 13
 
 You are a master at breaking even the toughest of objects.\
 **Prerequisites:** Str 15; Wis 13; [Perfect Style](ref/feat/perfect-style); base attack bonus +9 or

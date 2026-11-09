@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "size_and_magic_items", path = "json/rules_basics02.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "459"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 459
 
 When an article of magic clothing or jewelry is discovered, most of the time size shouldn't be an
 issue. Many magic garments are made to be easily adjustable, or they adjust themselves magically to

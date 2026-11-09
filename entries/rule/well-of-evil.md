@@ -6,12 +6,12 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "well_of_evil", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures
 
 **Well of Evil (CR 5):** These places are accursed morasses of depravity, nexuses of lingering hate
 and festering evil that bode ill for the pure-hearted who trespass upon them. A well of evil is

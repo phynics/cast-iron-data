@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "workshop", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "75"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 75
 
 When crafting items, you need tools and an appropriate workspace. What constitutes an appropriate
 workspace is often situational. Repairing weapons or armor in the field requires only a relatively

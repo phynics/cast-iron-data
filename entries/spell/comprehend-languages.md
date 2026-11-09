@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "comprehend_languages", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "258"
 
 [fields]
 kind = "spell"
@@ -54,8 +57,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** PRPG Core Rulebook pg 258
 
 You can understand the spoken words of creatures or read otherwise incomprehensible written
 messages. The ability to read does not necessarily impart insight into the material, merely its

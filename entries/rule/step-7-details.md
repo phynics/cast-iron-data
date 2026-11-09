@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "step_7_details", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "454"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 454
 
 Once you have assigned all of the NPC's gear, all that remains is to fill out the details. Determine
 the character's attack and damage bonuses, CMB, CMD, initiative modifier, and Armor Class. If the

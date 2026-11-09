@@ -6,6 +6,9 @@ source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tremor", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "21"
 
 [fields]
 kind = "class_option"
@@ -23,8 +26,6 @@ group = "kineticist-wild-talent"
 **Associated:** [Earth Blast](ref/kinetic/earth-blast)
 
 **Saving throw:** none
-
-**Source:** Psychic Anthology/21
 
 You send a tremor through the ground or other solid surface with which you are in contact, allowing
 you to affect a burrowing or incorporeal creature within that same surface with a normal kinetic

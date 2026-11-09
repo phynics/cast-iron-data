@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "doppeldrek", path = "json/monsters41.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "85"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ _The half-formed shape a snarling dog rises out of this pile of grayish foam._
 
 **Perception:** +2
 
-**Sources:** Bestiary 5 pg 85\
 **Subtype:** Shapechanger
 
 **Experience points:** 1,600

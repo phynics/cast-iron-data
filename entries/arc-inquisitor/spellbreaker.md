@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/inquisitor" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "52"
 
 [fields]
 kind = "archetype"
 replaces = ["Monster lore", "Teamwork feats", "Solo tactics", "True judgment"]
 +++
 
-**Sources:** Ultimate Combat pg 52\
 The world is full of dangerous magic, and many recoil in the face of such power. The spellbreaker,
 by contrast, learns to recognize and resist certain types of magic, wading through waves of magic to
 reach her foes.

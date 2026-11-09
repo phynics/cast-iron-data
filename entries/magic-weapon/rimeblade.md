@@ -6,6 +6,9 @@ source_ids = ["pathfinder-70-the-frozen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rimeblade", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "pathfinder-70-the-frozen-stars"
+page = "63"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation [cold]"
 caster_level = "8th"
 +++
 
-**Sources:** Pathfinder \#70: The Frozen Stars pg 63\
 **Aura** moderate evocation \[cold\]; **CL** 8th\
 **Slot** none; **Price** 16,955 gp; **Weight** 4 lbs.
 

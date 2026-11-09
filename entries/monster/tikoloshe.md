@@ -6,6 +6,9 @@ source_ids = ["pathfinder-40-vaults-of-madness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tikoloshe", path = "json/monsters39.json" },
 ]
+[[sources]]
+publication = "pathfinder-40-vaults-of-madness"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ darts quickly forward, shouting curses and swinging its fists._
 
 **Size:** small
 
-**Sources:** Pathfinder \#40: Vaults of Madness pg 88\
 **Subtype:** Aquatic
 
 **Type:** undead

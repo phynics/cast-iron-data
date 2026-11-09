@@ -6,6 +6,9 @@ source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "talisman_of_spying", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "17"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "7th"
 +++
 
-**Sources:** Black Markets pg 17\
 **Aura** moderate divination; **CL** 7th\
 **Slot** none; **Price** 19,000 gp; **Weight** 1 lb.
 

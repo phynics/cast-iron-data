@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wooden_wing_shield", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "14"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Ultimate Wilderness pg 14
 
 > _[Gathlains](ref/race/gathlain) have access to the following spell._
 

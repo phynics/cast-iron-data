@@ -6,14 +6,18 @@ source_ids = ["inner-sea-world-guide", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "low_templar", path = "json/prestige_classes2.json" },
 ]
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "280"
+[[sources]]
+publication = "pathfinder-campaign-setting"
+page = "226"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d10."
 +++
-
-**Sources:** Inner Sea World Guide pg 280, Pathfinder Campaign Setting pg 226
 
 _"I do so swear under the Light, by the Sword and Scales of Truth and all the fires of heaven, to
 undertake this holy Crusade. I pledge to guard heart, spirit, body, and mind from the corruption of

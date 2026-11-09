@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "pathfinder-38-racing-to-ruin"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "herald_personification_of_fury", path = "json/monsters_unique2.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "290"
+[[sources]]
+publication = "pathfinder-38-racing-to-ruin"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -44,7 +50,6 @@ _Jagged bolts of lightning crackle within this massive and vaguely humanoid stor
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Inner Sea Gods pg 290, Pathfinder \#38: Racing to Ruin pg 88\
 **Subtype:** Air, Elemental, Extraplanar, Herald, Water
 
 **Experience points:** 51,200

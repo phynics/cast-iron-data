@@ -6,12 +6,13 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "standard_feat_and_skill_traits", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "225"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Advanced Race Guide pg 225
 
 **Beguiling Liar (2 RP):** **Prerequisites:** None; **Benefit:** Members of this race gain a +4
 racial bonus on Bluff checks to convince an opponent that what they are saying is true when they

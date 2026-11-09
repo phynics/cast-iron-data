@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elementals_and_genies", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "108"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 108
 
 True elementals are simple creatures, thriving spirits animating bodies of pure elemental matter.
 They regard their lives as an eternal struggle to best themselves and each other. Each elemental

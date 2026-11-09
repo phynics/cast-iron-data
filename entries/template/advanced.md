@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "advanced", path = "json/monster_template1.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "294"
 
 [fields]
 kind = "none"
@@ -18,8 +21,6 @@ kind = "none"
 **Challenge rating:** +1
 
 **Simple:** present
-
-**Source:** Pathfinder RPG Bestiary/294
 
 Creatures with the advanced template are fiercer and more powerful than their ordinary cousins.
 

@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dolorous_rod", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "150"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment and necromancy"
 caster_level = "10th"
 +++
 
-**Sources:** Mythic Adventures pg 150\
 **Aura** moderate enchantment and necromancy; **CL** 10th\
 **Slot** none; **Price** 120,000 gp; **Weight** 5 lbs.
 

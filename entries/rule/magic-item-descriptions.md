@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_item_descriptions", path = "json/rules_basics02.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "460"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 460
 
 Each general type of magic item gets an overall description, followed by descriptions of specific
 items.

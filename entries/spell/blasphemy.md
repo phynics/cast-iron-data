@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blasphemy", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "249"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: yes
 Area: nonevil creatures in a 40-ft.-radius spread centered on you
 Descriptors: evil, sonic
 :::
-
-**Sources:** PRPG Core Rulebook pg 249
 
 Any nonevil creature within the area of a blasphemy spell suffers the following ill effects.
 

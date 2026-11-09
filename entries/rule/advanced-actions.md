@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "advanced_actions", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "105"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 105
 
 The following is a list of the main advanced actions in this system. The number of acts required to
 take each advanced action is listed in parentheses after the action's subtype (if any).

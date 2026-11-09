@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rod_of_metal_and_mineral_detection", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "182"
+[[sources]]
+publication = "core-rulebook"
+page = "485"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate divination"
 caster_level = "9th"
 +++
 
-**Sources:** Ultimate Equipment pg 182, PRPG Core Rulebook pg 485\
 **Aura** moderate divination; **CL** 9th\
 **Slot** none; **Price** 10,500 gp; **Weight** 5 lbs.
 

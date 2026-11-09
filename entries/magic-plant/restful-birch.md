@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "restful_birch", path = "json/magic_plant.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "249"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Wilderness pg 249\
 **Aura** faint conjuration; **CL** 5th\
 **Slot** none; **Price** 4,000 gp; **Weight** 500 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-83-the-slave-trenches-of-hakotep"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "abat_ne_the_blackstone_mace", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "pathfinder-83-the-slave-trenches-of-hakotep"
+page = "71"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration"
 caster_level = "10th"
 +++
 
-**Sources:** Pathfinder \#83: The Slave Trenches of Hakotep pg 71\
 **Aura** strong abjuration; **CL** 10th\
 **Slot** weapon; **Price** 51,005 gp; **Weight** 5 lbs.
 

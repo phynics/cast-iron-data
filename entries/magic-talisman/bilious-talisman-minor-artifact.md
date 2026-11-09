@@ -6,6 +6,12 @@ source_ids = ["book-of-the-damned", "book-of-the-damned-volume-1-princes-of-dark
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bilious_talisman_minor_artifact", path = "json/magic_devil_talismans.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "194"
+[[sources]]
+publication = "book-of-the-damned-volume-1-princes-of-darkness"
+page = "41"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "overwhelming conjuration"
 caster_level = "21st"
 +++
 
-**Sources:** Book of the Damned pg 194, Book of the Damned - Volume 1: Princes of Darkness pg 41\
 **Aura** overwhelming conjuration; **CL** 21st\
 **Slot** neck; **Price** artifact; **Weight** —
 

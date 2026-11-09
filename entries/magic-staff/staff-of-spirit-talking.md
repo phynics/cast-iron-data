@@ -6,6 +6,9 @@ source_ids = ["sargava-the-lost-colony"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_spirit_talking", path = "json/magic_staff.json" },
 ]
+[[sources]]
+publication = "sargava-the-lost-colony"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "11th"
 +++
 
-**Sources:** Sargava, the Lost Colony pg 29\
 **Aura** moderate divination; **CL** 11th\
 **Slot** none; **Price** 39,050 gp; **Weight** 5 lbs.
 

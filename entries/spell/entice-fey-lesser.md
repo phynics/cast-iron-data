@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/planar-ally-lesser" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "213"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Saving throw: none
 Spell resistance: no
 Subschool: Calling
 :::
-
-**Sources:** Ultimate Intrigue pg 213
 
 This spell functions as [lesser planar ally](ref/spell/planar-ally-lesser), except that you entice a
 fey of 6 HD or fewer to lend you its aid with an offering of music or something else it finds

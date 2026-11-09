@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/sorcerer" },
 ]
+[[sources]]
+publication = "blood-of-shadows"
+page = "19"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["1st-level bloodline power", "7th-level bloodline feat", "13th-level
 alters = ["Spellcasting"]
 +++
 
-**Sources:** Blood of Shadows pg 19\
 Umbral scions are sorcerers who are able to expertly control their especially potent shadow
 heritage. The majority of umbral sorcerers hail from the Darklands.
 

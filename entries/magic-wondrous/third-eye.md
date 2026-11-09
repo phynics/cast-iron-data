@@ -6,6 +6,12 @@ source_ids = ["curse-of-the-crimson-throne", "pathfinder-9-escape-from-old-korvo
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "third_eye", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "curse-of-the-crimson-throne"
+page = "436"
+[[sources]]
+publication = "pathfinder-9-escape-from-old-korvosa"
+page = "43"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate divination"
 caster_level = "11th"
 +++
 
-**Sources:** Curse of the Crimson Throne pg 436, Pathfinder \#9: Escape from Old Korvosa pg 43\
 **Aura** moderate divination; **CL** 11th\
 **Slot** none; **Price** 20,000 gp; **Weight** -
 

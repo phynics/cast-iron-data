@@ -6,6 +6,9 @@ source_ids = ["pathfinder-82-secrets-of-the-sphinx"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "armband_of_the_golden_serpent", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "pathfinder-82-secrets-of-the-sphinx"
+page = "62"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "9th"
 +++
 
-**Sources:** Pathfinder \#82: Secrets of the Sphinx pg 62\
 **Aura** moderate abjuration; **CL** 9th\
 **Slot** wrists; **Price** 20,000 gp; **Weight** 3 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["city-of-golden-death"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_jewel_of_everlasting_gold", path = "json/magic_artifact3.json" },
 ]
+[[sources]]
+publication = "city-of-golden-death"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration and transmutation"
 caster_level = "20th"
 +++
 
-**Sources:** City of Golden Death pg 30\
 **Aura** strong conjuration and transmutation; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 5 lbs.
 

@@ -6,12 +6,13 @@ source_ids = ["lands-of-conflict"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "event_chance_mt", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "lands-of-conflict"
+page = "50"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Lands of Conflict pg 50
 
 **Event Chance:** At the end of every week, events can occur to aid or endanger the militia. The
 chance that an event occurs is directly tied to the militia's [Notoriety](ref/rule/notoriety-mt)

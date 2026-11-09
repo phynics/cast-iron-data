@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "advanced_weapon_training", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "19"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "Fighters that have the weapon master archetype can select this feat b
 +++
 
 ## Advanced Weapon Training (Combat)
-
-**Sources:** Weapon Master's Handbook pg 19
 
 You are specially trained to use your weapon skills in new ways.\
 **Prerequisites:** Fighter level 5th, weapon training class feature.\

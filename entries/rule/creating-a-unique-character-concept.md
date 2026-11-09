@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "creating_a_unique_character_concept", path = "json/rules_basics03.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "8"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 8
 
 Sometimes, creating a character that feels original and stands out from others of the same class and
 race can seem like a challenge. It's easy to fall into playing the stereotype of a race or class:

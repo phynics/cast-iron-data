@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_called_shot", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "195"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "You can make only one called shot in a round as a full-round action. A
 +++
 
 ## Greater Called Shot (Called Shot)
-
-**Sources:** Ultimate Combat pg 195
 
 You can make multiple called shots where others could land but one.\
 **Prerequisites:** Int 13, [Combat Expertise](ref/feat/combat-expertise),

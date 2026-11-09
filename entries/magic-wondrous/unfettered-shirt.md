@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unfettered_shirt", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "223"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration and transmutation"
 caster_level = "7th"
 +++
 
-**Sources:** Ultimate Equipment pg 223\
 **Aura** moderate abjuration and transmutation; **CL** 7th\
 **Slot** chest; **Price** 10,000 gp; **Weight** -
 

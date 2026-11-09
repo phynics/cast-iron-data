@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ranger" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "11"
 
 [fields]
 kind = "archetype"
 replaces = ["Wild empathy", "Endurance", "Quarry", "Improved quarry"]
 +++
 
-**Sources:** Ranged Tactics Toolbox pg 11\
 While many rangers use bows and arrows, the toxophilite takes special pride in her skill at archery.
 The toxophilite emulates the sharpshooting rangers of legend, who could pin a fly to the wall with a
 single shot or split one arrow with another. A truly talented toxophilite can even shoot down an

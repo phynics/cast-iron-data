@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dead_ends", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "86"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 86
 
 Sometimes the death of an NPC leaves the player characters at a dead end, especially if the NPC dies
 before passing along some information that is vital to the progress of the adventure. The PCs might

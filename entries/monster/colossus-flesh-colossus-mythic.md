@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "colossus_flesh_colossus_mythic", path = "json/monsters_mythic.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "35"
 
 [fields]
 kind = "creature"
@@ -48,7 +51,6 @@ humanoid shape._
 
 **Senses:** All-around vision, Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 4 pg 35\
 **Subtype:** Colossus, Mythic
 
 **Experience points:** 76,800

@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gladiator_champion", path = "json/npcs8.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "271"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "8"
 
 **Challenge rating:** 8
 
-**Sources:** NPC Codex pg 271\
 **XP** 4,800\
 Human [warrior](ref/npcclass/warrior) 10\
 NE Medium humanoid (human)\

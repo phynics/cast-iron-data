@@ -6,12 +6,20 @@ source_ids = ["inner-sea-races", "advanced-race-guide", "core-rulebook", "legacy
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "human", path = "json/races2.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "238"
+[[sources]]
+publication = "advanced-race-guide"
+page = "70"
+[[sources]]
+publication = "core-rulebook"
+page = "27"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Inner Sea Races pg 238, Advanced Race Guide pg 70, PRPG Core Rulebook pg 27\
 Humans possess exceptional drive and a great capacity to endure and expand, and as such are
 currently the dominant race in the world. Their empires and nations are vast, sprawling things, and
 the citizens of these societies carve names for themselves with the strength of their sword arms and

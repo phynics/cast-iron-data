@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deck_of_doors", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "246"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Sources:** Ultimate Intrigue pg 246\
 **Aura** moderate transmutation; **CL** 9th\
 **Slot** none; **Price** 12,150 gp; **Weight** -
 

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-112-the-whisper-out-of-time"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clockwork_clockwork_vivisectionist", path = "json/monsters05.json" },
 ]
+[[sources]]
+publication = "pathfinder-112-the-whisper-out-of-time"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ intentions clear._
 
 **Senses:** All-around vision, Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#112: The Whisper Out of Time pg 82\
 **Subtype:** Clockwork
 
 **Experience points:** 9,600

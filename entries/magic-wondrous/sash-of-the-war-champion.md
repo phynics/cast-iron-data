@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sash_of_the_war_champion", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "222"
+[[sources]]
+publication = "advanced-players-guide"
+page = "309"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate abjuration"
 caster_level = "9th"
 +++
 
-**Sources:** Ultimate Equipment pg 222, Advanced Player's Guide pg 309\
 **Aura** moderate abjuration; **CL** 9th\
 **Slot** chest; **Price** 4,000 gp; **Weight** 1 lb.
 

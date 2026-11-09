@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "taxation", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "192"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 192
 
 Even a moderately successful adventurer commands wealth and personal power beyond the means of most
 normal people in the world. While the common folk adore their heroes and the small-minded envy them,

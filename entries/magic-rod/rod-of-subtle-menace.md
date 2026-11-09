@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rod_of_subtle_menace", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "18"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint enchantment and transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Magic Tactics Toolbox pg 18\
 **Aura** faint enchantment and transmutation; **CL** 5th\
 **Slot** none; **Price** 12,305 gp; **Weight** 5 lbs.
 

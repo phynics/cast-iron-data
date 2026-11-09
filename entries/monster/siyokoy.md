@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "siyokoy", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "246"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ long, powerful tail._
 
 **Senses:** Darkvision 60 ft., Scent
 
-**Sources:** Bestiary 3 pg 246\
 **Subtype:** Aquatic
 
 **Experience points:** 9,600

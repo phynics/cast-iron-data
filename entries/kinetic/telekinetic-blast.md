@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "telekinetic_blast", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "15"
 
 [fields]
 kind = "class_option"
@@ -25,8 +28,6 @@ group = "kineticist-wild-talent"
 **Damage type:** physical
 
 **Damage:** bludgeoning, piercing, or slashing
-
-**Source:** Occult Adventures/15
 
 You throw a nearby unattended object at a single foe as a ranged attack. The object must weigh no
 more than 5 pounds per kineticist level you possess. If the attack hits, the target and the thrown

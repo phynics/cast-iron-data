@@ -6,6 +6,9 @@ source_ids = ["pathfinder-105-the-inferno-gate"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "waldgeist", path = "json/monsters38.json" },
 ]
+[[sources]]
+publication = "pathfinder-105-the-inferno-gate"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ looks unsettlingly like that of a gnome._
 
 **Size:** small
 
-**Sources:** Pathfinder \#105: The Inferno Gate pg 90\
 **Subtype:** Incorporeal
 
 **Type:** undead

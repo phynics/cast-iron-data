@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "road_or_gate_toll", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "99"
+[[sources]]
+publication = "core-rulebook"
+page = "159"
 
 [fields]
 kind = "item"
@@ -14,7 +20,6 @@ price = "1 cp"
 weight = "-"
 +++
 
-**Sources:** Ultimate Equipment pg 99, PRPG Core Rulebook pg 159\
 **Price** 1 cp; **Weight** -\
 **Category** Lodging/Services
 

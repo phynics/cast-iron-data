@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-wilderness", "faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "commune_with_nature", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "258"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** PRPG Core Rulebook pg 258
 
 You become one with nature, attaining knowledge of the surrounding territory. You instantly gain
 knowledge of as many as three facts from among the following subjects: the ground or terrain,

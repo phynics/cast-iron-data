@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ranger" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "67"
 
 [fields]
 kind = "archetype"
 replaces = ["Wild empathy", "All combat style feats", "Hunter's bond"]
 +++
 
-**Sources:** Ultimate Combat pg 67\
 Some rangers have taken up the mysteries of black powder in order to become big game hunters.
 Finding firearms useful for taking down large and dangerous prey, they enter the fight with the
 crack of black powder fire, often ranging far and wide in their safaris and searches for

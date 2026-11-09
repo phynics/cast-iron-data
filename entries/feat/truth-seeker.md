@@ -6,6 +6,9 @@ source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "truth_seeker", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "quests-and-campaigns"
+page = "13"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You gain a +2 bonus on all Knowledge (history) checks. If you have 10
 +++
 
 ## Truth-Seeker (Story)
-
-**Sources:** Quests and Campaigns pg 13
 
 A tantalizing secret from the past calls to you, and you intend to discover it.\
 **Prerequisites:** You must have visited a ruin or forgotten place that has been abandoned for at

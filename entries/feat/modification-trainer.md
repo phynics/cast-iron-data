@@ -10,6 +10,9 @@ relations = [
   { kind = "prerequisite", target = "ref/feat/armor-adept", label = "or" },
   { kind = "prerequisite", target = "ref/feat/weapon-adept", label = "or" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "11"
 
 [fields]
 kind = "feat"
@@ -20,8 +23,6 @@ benefit = "Choose a modification that you have selected with the Armor Adept or 
 +++
 
 ## Modification Trainer (Combat)
-
-**Sources:** Adventurer's Armory 2 pg 11
 
 You can drill others in the use of modified weapons or armor.\
 **Prerequisites:** Cha 13, [Armor Adept](ref/feat/armor-adept) or

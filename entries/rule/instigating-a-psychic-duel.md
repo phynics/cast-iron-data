@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "instigating_a_psychic_duel", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "201"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 201
 
 A psychic spellcaster creates a binary mindscape when a target fails its save against
 [instigate psychic duel](ref/spell/instigate-psychic-duel). The caster's and target's minds are then

@@ -6,15 +6,21 @@ source_ids = ["villain-codex", "pirates-of-the-inner-sea", "skull-and-shackles-p
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hook_hand", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "188"
+[[sources]]
+publication = "pirates-of-the-inner-sea"
+page = "19"
+[[sources]]
+publication = "skull-and-shackles-players-guide"
+page = "6"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "1 lb."
 +++
-
-**Sources:** Villain Codex pg 188, Pirates of the Inner Sea pg 19, Skull and Shackles Player's Guide
-pg 6
 
 Pirates who lose a hand in the course of their adventures sometimes attach hooks to their wrists.
 Hook hands can't be disarmed. They generally don't interfere with day-to-day activities, but can't

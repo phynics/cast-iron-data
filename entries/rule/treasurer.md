@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "treasurer", path = "json/rules_campaign_types04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "203"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 203
 
 The Treasurer monitors the state of the kingdom's Treasury and citizens' confidence in the value of
 their money and investigates whether any businesses are taking unfair advantage of the system. The

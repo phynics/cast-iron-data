@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bouncing_spell", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "151"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "Whenever a bouncing spell targeting a single creature has no effect o
 +++
 
 ## Bouncing Spell (Metamagic)
-
-**Sources:** Advanced Player's Guide pg 151
 
 You can direct a failed spell against a different target.\
 **Benefit:** Whenever a bouncing spell targeting a single creature has no effect on its intended

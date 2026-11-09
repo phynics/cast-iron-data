@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planar_might", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "126"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 126
 
 Upon traveling to another plane, the PCs acquire mythic power. These powers might last only as long
 as the PCs are on this plane, or the PCs may be forever transformed by the visit.

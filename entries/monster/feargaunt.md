@@ -6,6 +6,9 @@ source_ids = ["occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "feargaunt", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "occult-bestiary"
+page = "28"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ hands, and writhing tentacles._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Occult Bestiary pg 28\
 **Subtype:** Extraplanar, Incorporeal
 
 **Experience points:** 6,400

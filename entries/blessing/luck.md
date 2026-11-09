@@ -6,13 +6,15 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "luck", path = "json/class_ability_blessings.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "66"
 
 [fields]
 kind = "class_option"
 group = "warpriest-blessing"
 +++
 
-**Sources:** Advanced Class Guide pg 66\
 **Deities:** [Calistria](ref/faith/calistria), [Desna](ref/faith/desna), [Shelyn](ref/faith/shelyn)
 
 **Lucky Presence (minor)**

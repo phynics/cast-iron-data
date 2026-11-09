@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "keen_senses", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "230"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
 :::
-
-**Sources:** Advanced Player's Guide pg 230
 
 The subject gains a +2 competence bonus on Perception checks and gains
 [low-light vision](ref/rule/low-light-vision). Subjects that have low-light vision double the

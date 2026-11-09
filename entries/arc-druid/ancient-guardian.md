@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "140"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Wild empathy", "Trackless step", "woodland stride", "Spontaneous ca
 alters = ["Weapon proficiencies", "Nature bond"]
 +++
 
-**Sources:** Monster Codex pg 140\
 Ancient guardians revere nature and draw power from its divine energies, but also protect the
 customs, histories, and lore of their tribe and race. They act as ambassadors and protectors of the
 old ways, nurturing their tribe's growth and holding back civilization's corruptive influence.

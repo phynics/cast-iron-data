@@ -6,6 +6,9 @@ source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "assumed_likeness", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "58"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Target: one creature/level, no two of which can be more than 30 ft. apart
 Subschool: Phantasm
 Descriptors: emotion, mind-affecting
 :::
-
-**Sources:** Inner Sea Intrigue pg 58
 
 You draw upon the memories of the targets to create a visual disguise for yourself that only they
 can see. When you cast the spell, you choose an emotion from the table below. Each target perceives

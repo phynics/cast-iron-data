@@ -6,6 +6,9 @@ source_ids = ["pathfinder-74-sword-of-valor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_of_baphomet", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "pathfinder-74-sword-of-valor"
+page = "89"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Sources:** Pathfinder \#74: Sword of Valor pg 89\
 **Aura** moderate transmutation; **CL** 9th\
 **Slot** none; **Price** 2,250 gp; **Weight** -
 

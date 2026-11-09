@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lash_of_the_howler", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "157"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "9th"
 +++
 
-**Sources:** Ultimate Equipment pg 157\
 **Aura** moderate necromancy; **CL** 9th\
 **Slot** none; **Price** 18,305 gp; **Weight** 3 lbs.
 

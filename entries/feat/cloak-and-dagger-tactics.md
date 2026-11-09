@@ -6,6 +6,9 @@ source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloak_and_dagger_tactics", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "blood-of-shadows"
+page = "25"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While you are using Cloak and Dagger Style and wielding your chosen w
 +++
 
 ## Cloak and Dagger Tactics (Combat)
-
-**Sources:** Blood of Shadows pg 25
 
 You devastate enemies that you catch off-guard.\
 **Prerequisites:** Int 13, [Cloak and Dagger Style](ref/feat/cloak-and-dagger-style),

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/shadow-enchantment" },
 ]
+[[sources]]
+publication = "occult-realms"
+page = "17"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Descriptors: shadow
 :::
 
 ### Greater Shadow Enchantment
-
-**Sources:** Occult Realms pg 17
 
 This spell functions like [shadow enchantment](ref/spell/shadow-enchantment), except that it enables
 you to create partially real, illusory versions of psychic, sorcerer, or wizard enchantment spells

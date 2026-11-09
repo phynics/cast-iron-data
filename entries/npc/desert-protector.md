@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "desert_protector", path = "json/npcs7.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "115"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "7"
 
 **Challenge rating:** 7
 
-**Sources:** NPC Codex pg 115\
 **XP** 3,200\
 Human [paladin](ref/class/paladin) of [Sarenrae](ref/faith/sarenrae) 8\
 LG Medium humanoid (human)\

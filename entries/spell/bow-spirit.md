@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bow_spirit", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "207"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Spell resistance: no
 Target: you
 Subschool: Creation
 :::
-
-**Sources:** Advanced Player's Guide pg 207
 
 A bow spirit is a shapeless force that hovers about you, taking ammunition from your quiver and
 firing it. For as long as the bow spirit lasts, you can spend a swift action to direct the bow

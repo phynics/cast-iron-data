@@ -6,12 +6,14 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aff_lights", path = "json/rules_subsystems01.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "108"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Adventurer's Guide pg 108\
 **Pathfinder Name:** Lantern Bearers\
 **Scope:** regional\
 **Alignment:** NG\

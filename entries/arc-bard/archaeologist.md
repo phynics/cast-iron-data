@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "32"
 
 [fields]
 kind = "archetype"
 replaces = ["Versatile performance", "Well-versed"]
 +++
 
-**Sources:** Ultimate Combat pg 32\
 No stodgy researcher, this archaeologist meets his research head-on in the field. Archaeologists
 sacrifice the bard's inspirational performance for a smattering of rogue talents. This archetype
 also fits rogue-like characters that focus more on learning than on stabbing foes in the back.

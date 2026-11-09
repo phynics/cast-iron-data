@@ -6,6 +6,9 @@ source_ids = ["pathfinder-138-rise-of-new-thassilon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ashen_forgemaster", path = "json/monsters02.json" },
 ]
+[[sources]]
+publication = "pathfinder-138-rise-of-new-thassilon"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ pockmarked with coal-like scales and metallic piercings, and it carries a fearso
 
 **Senses:** Darkvision 60 ft., Smoke vision
 
-**Sources:** Pathfinder \#138: Rise of New Thassilon pg 84\
 **Subtype:** Extraplanar, Fire
 
 **Type:** undead

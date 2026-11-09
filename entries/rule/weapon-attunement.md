@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weapon_attunement", path = "json/rules_opt_pc_adv01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "157"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 157
 
 The character can attune herself to any one weapon in her possession, and can change that attunement
 once per day. The attuned weapon gains a +1 enhancement bonus at 4th level. At 8th level, the

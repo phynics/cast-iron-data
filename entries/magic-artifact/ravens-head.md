@@ -6,6 +6,12 @@ source_ids = ["artifacts-and-legends", "pathfinder-46-wake-of-the-watcher"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ravens_head", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "artifacts-and-legends"
+page = "61"
+[[sources]]
+publication = "pathfinder-46-wake-of-the-watcher"
+page = "55"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong conjuration (healing)"
 caster_level = "20th"
 +++
 
-**Sources:** Artifacts and Legends pg 61, Pathfinder \#46: Wake of the Watcher pg 55\
 **Aura** strong conjuration (healing); **CL** 20th\
 **Slot** none; **Price** -; **Weight** 8 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "incorporeal_chains", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "174"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: yes
 Target: one incorporeal creature/level, no two of which can be more than 30 ft. apart
 Descriptors: force
 :::
-
-**Sources:** Occult Adventures pg 174
 
 You summon ghostly chains to bind incorporeal creatures. The chains' CMB is equal to your caster
 level + your Intelligence modifier. Roll only once for the entire spell effect and apply the result

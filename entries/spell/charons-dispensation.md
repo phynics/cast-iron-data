@@ -6,6 +6,12 @@ source_ids = ["book-of-the-damned", "book-of-the-damned-volume-3-horsemen-of-the
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charons_dispensation", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "183"
+[[sources]]
+publication = "book-of-the-damned-volume-3-horsemen-of-the-apocalypse"
+page = "38"
 
 [fields]
 kind = "spell"
@@ -48,9 +54,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: one creature/level
 :::
-
-**Sources:** Book of the Damned pg 183, Book of the Damned - Volume 3: Horsemen of the Apocalypse pg
-38
 
 The target of this spell gains immunity to the harmful effects of touching or drinking from the
 River Styx and a +4 profane bonus on saves against effects that alter or suppress memory (such as

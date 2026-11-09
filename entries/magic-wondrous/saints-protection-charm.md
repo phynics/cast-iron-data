@@ -6,6 +6,9 @@ source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "saints_protection_charm", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "magical-marketplace"
+page = "11"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "3rd"
 +++
 
-**Sources:** Magical Marketplace pg 11\
 **Aura** moderate conjuration; **CL** 3rd\
 **Slot** wrists; **Price** 1,500 gp; **Weight** -
 

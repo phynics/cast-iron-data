@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/investigator" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "55"
 
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "poison lore", "trap sense", "Poison resistance", "poison immunity", "Swift alchemy", "Investigator talent at 7th level"]
 +++
 
-**Sources:** Horror Adventures pg 55\
 Profilers understand the human psyche to an intense degree, allowing them to predict the criminals
 they hunt.
 

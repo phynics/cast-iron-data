@@ -6,6 +6,9 @@ source_ids = ["pathfinder-35-war-of-the-river-kings"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "irlgaunt", path = "json/monsters14.json" },
 ]
+[[sources]]
+publication = "pathfinder-35-war-of-the-river-kings"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ alien aperture._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#35: War of the River Kings pg 84\
 **Experience points:** 25,600
 
 **Armor class:** 29/18/20

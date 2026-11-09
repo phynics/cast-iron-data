@@ -6,12 +6,14 @@ source_ids = ["blood-of-the-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "adaro", path = "json/races.json" },
 ]
+[[sources]]
+publication = "blood-of-the-sea"
+page = "16"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Blood of the Sea pg 16\
 Adaros are frightful creatures with the upper bodies of muscular humanoids, the lower bodies of
 sleek sharks, and enormous jaws filled with razor-sharp teeth. Nomadic predators of the deep, adaros
 travel in packs through tropical waters, hunting their prey with poisoned spears and then devouring

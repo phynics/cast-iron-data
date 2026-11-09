@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hourglass_quarterstaff", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "24"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration, divination, and transmutation"
 caster_level = "14th"
 +++
 
-**Sources:** Melee Tactics Toolbox pg 24\
 **Aura** strong conjuration, divination, and transmutation; **CL** 14th\
 **Slot** none; **Price** 63,300 gp; **Weight** 4 lbs.
 

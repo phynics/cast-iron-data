@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "minor_spellblights", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "95"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 95
 
 The following is a list and descriptions of many of the most common minor spellblights.
 

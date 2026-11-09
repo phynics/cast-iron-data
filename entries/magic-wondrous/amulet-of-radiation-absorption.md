@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "amulet_of_radiation_absorption", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-darklands"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration and conjuration"
 caster_level = "10th"
 +++
 
-**Sources:** Heroes of the Darklands pg 30\
 **Aura** moderate abjuration and conjuration; **CL** 10th\
 **Slot** neck; **Price** 45,000 gp; **Weight** 1 lb.
 

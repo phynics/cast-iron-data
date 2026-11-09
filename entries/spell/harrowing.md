@@ -6,6 +6,9 @@ source_ids = ["inner-sea-world-guide", "the-harrow-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "harrowing", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "295"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: none
 Spell resistance: no
 Target: one creature
 :::
-
-**Sources:** Inner Sea World Guide pg 295
 
 You use a Harrow deck to tell a fortune for yourself or someone else. If you cast harrowing on
 another creature, you must remain adjacent to the target for the duration of the casting time. A

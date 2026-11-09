@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ampoule_of_false_blood", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "254"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation"
 caster_level = "15th"
 +++
 
-**Sources:** Ultimate Equipment pg 254\
 **Aura** strong transmutation; **CL** 15th\
 **Slot** neck; **Price** 20,000 gp; **Weight** -
 

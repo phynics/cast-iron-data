@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "38"
 
 [fields]
 kind = "archetype"
 replaces = ["Nature sense", "wild empathy", "Woodland stride", "trackless step", "A thousand faces"]
 +++
 
-**Sources:** Ultimate Magic pg 38\
 Some druids study the paths of nature's power through the nodes and ley lines that connect standing
 stones and megalithic circles, learning to tap into their energies.
 

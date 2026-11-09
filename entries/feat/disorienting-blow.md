@@ -6,6 +6,9 @@ source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disorienting_blow", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "dragon-empires-primer"
+page = "24"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You must choose to use this ability before making an attack roll with
 +++
 
 ## Disorienting Blow (Combat)
-
-**Sources:** Dragon Empires Primer pg 24
 
 When you successfully strike your opponent with your Stunning Fist, you leave it in a state of
 confusion.\

@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_jungle_giant", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "129"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ numerous intricate tattoos._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 3 pg 129\
 **Subtype:** Giant
 
 **Experience points:** 9,600

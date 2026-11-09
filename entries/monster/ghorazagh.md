@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "pathfinder-29-mother-of-flies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghorazagh", path = "json/monsters11.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "124"
+[[sources]]
+publication = "pathfinder-29-mother-of-flies"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ truly hideous._
 
 **Senses:** Bloodsense, Darkvision 30 ft.
 
-**Sources:** Bestiary 3 pg 124, Pathfinder \#29: Mother of Flies pg 84\
 **Experience points:** 25,600
 
 **Armor class:** 26/12/23

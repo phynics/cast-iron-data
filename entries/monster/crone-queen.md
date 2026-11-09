@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "pathfinder-72-the-witch-queens-revenge"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crone_queen", path = "json/monsters06.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "61"
+[[sources]]
+publication = "pathfinder-72-the-witch-queens-revenge"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -45,7 +51,6 @@ stretched over its icy bones._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 5 pg 61, Pathfinder \#72: The Witch Queen's Revenge pg 84\
 **Subtype:** Cold
 
 **Type:** undead

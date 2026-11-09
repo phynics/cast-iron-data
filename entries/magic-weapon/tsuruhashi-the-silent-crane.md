@@ -6,6 +6,9 @@ source_ids = ["pathfinder-54-the-empty-throne"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tsuruhashi_the_silent_crane", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "pathfinder-54-the-empty-throne"
+page = "61"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "9th"
 +++
 
-**Sources:** Pathfinder \#54: The Empty Throne pg 61\
 **Aura** moderate necromancy; **CL** 9th\
 **Slot** none; **Price** 16,101 gp; **Weight** 1 lb.
 

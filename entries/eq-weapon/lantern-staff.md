@@ -6,14 +6,15 @@ source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lantern_staff", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "9"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "9 lbs."
 +++
-
-**Sources:** Adventurer's Armory 2 pg 9
 
 This long metal staff has reservoirs for lamp [oil](ref/eq-misc/oil), and a lantern-like structure
 at its head. The lantern staff is fueled as and provides light as a

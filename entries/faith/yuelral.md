@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "yuelral", path = "json/faiths9.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "322"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Yuelral**
 
 **Sub:** The Wise
-
-**Sources:** Inner Sea Gods pg 322
 
 ### Details
 

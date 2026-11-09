@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bloodrager" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "82"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Fast movement", "Uncanny dodge", "improved uncanny dodge", "Indomit
 alters = ["Bloodline feats"]
 +++
 
-**Sources:** Advanced Class Guide pg 82\
 Blood conduits learn to channel their arcane might directly through their flesh, without the need
 for mystical words or gestures.
 

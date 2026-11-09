@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "malleable_form", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "30"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "As a full-round action, you can infuse yourself with protoplasm, conv
 +++
 
 ## Malleable Form (Conduit)
-
-**Sources:** Planar Adventures pg 30
 
 You infuse your body with protoplasm from the Maelstrom.\
 **Prerequisites:** Knowledge (planes) 7 ranks.\

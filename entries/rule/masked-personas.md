@@ -6,12 +6,13 @@ source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "masked_personas", path = "json/rules_adv_pc01.json" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "12"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Inner Sea Intrigue pg 12
 
 [Vigilantes](ref/class/vigilante) take naturally to establishing masked personas distinct from their
 day-to-day lives, but other adventurers, scoundrels, and troublemakers can also use this strategy to

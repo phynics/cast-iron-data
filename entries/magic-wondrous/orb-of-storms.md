@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "orb_of_storms", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "313"
+[[sources]]
+publication = "core-rulebook"
+page = "524"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong varied"
 caster_level = "18th"
 +++
 
-**Sources:** Ultimate Equipment pg 313, PRPG Core Rulebook pg 524\
 **Aura** strong varied; **CL** 18th\
 **Slot** none; **Price** 48,000 gp; **Weight** 6 lbs.
 

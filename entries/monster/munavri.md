@@ -6,6 +6,12 @@ source_ids = ["bestiary-6", "occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "munavri", path = "json/monsters17.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "197"
+[[sources]]
+publication = "occult-bestiary"
+page = "34"
 
 [fields]
 kind = "creature"
@@ -45,7 +51,6 @@ _Jade armor covers this lean albino humanoid, and her pale eyes have an eerie gl
 
 **Senses:** Darkvision 120 ft.
 
-**Sources:** Bestiary 6 pg 197, Occult Bestiary pg 34\
 **Subtype:** Munavri
 
 **Experience points:** 400

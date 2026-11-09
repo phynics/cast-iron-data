@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oath_of_peace", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "234"
 
 [fields]
 kind = "spell"
@@ -36,8 +39,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Advanced Player's Guide pg 234
 
 Entreating your deity for aid, you make a temporary oath of peace, granting you superior defenses
 but means you can't attack for the duration of the oath. For as long as you are subject to this

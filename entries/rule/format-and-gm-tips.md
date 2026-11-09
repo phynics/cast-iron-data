@@ -6,12 +6,13 @@ source_ids = ["dungeoneers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "format_and_gm_tips", path = "json/rules_rulesets01.json" },
 ]
+[[sources]]
+publication = "dungeoneers-handbook"
+page = "15"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Dungeoneer's Handbook pg 15
 
 Each guide is keyed to a specific dungeon on Golarion, and can be a great boon to PCs delving into
 such sites. GMs can create their own dungeon guides by referencing these examples, which use the

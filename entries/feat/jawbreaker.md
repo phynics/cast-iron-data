@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jawbreaker", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "106"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you make a successful Stunning Fist attempt against an opponent 
 +++
 
 ## Jawbreaker (Combat)
-
-**Sources:** Ultimate Combat pg 106
 
 You deliver a powerful strike to the mouth, breaking teeth and bone.\
 **Prerequisites:** [Improved Unarmed Strike](ref/feat/improved-unarmed-strike),

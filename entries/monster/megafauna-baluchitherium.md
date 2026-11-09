@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "megafauna_baluchitherium", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "192"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ neck._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Bestiary 3 pg 192\
 **Experience points:** 4,800
 
 **Armor class:** 22/8/22

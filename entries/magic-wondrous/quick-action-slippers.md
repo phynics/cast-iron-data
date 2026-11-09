@@ -6,6 +6,9 @@ source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quick_action_slippers", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "magical-marketplace"
+page = "25"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Magical Marketplace pg 25\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** feet; **Price** 10,000 gp; **Weight** 1 lb.
 

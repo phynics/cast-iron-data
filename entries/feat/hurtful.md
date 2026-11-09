@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hurtful", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "20"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you successfully demoralize an opponent within your melee reach 
 +++
 
 ## Hurtful (Combat)
-
-**Sources:** Monster Codex pg 20
 
 You know how to add injury to insult.\
 **Prerequisites:** Str 13, [Power Attack](ref/feat/power-attack).\

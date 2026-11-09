@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "craft_staff", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "120"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can create any [staff](ref/carried/advanced-players-guide/rules/m
 +++
 
 ## Craft Staff (Item Creation)
-
-**Sources:** PRPG Core Rulebook pg 120
 
 You can create magic staves.\
 **Prerequisites:** Caster level 11th.\

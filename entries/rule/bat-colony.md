@@ -6,12 +6,12 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bat_colony", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures
 
 **Bat Colony (CR 2):** Bats often congregate in large colonies in underground areas. Though bats are
 mostly harmless and bat colonies generally have little interest in adventurers or humans in general,

@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "broken_chain_of_the_beast", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "261"
+[[sources]]
+publication = "gods-and-magic"
+page = "55"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Sources:** Inner Sea Gods pg 261, Gods and Magic pg 55\
 **Aura** faint conjuration; **CL** 5th\
 **Slot** belt; **Price** 4,500 gp; **Weight** 5 lbs.
 

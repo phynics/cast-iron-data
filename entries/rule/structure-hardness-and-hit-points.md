@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "structure_hardness_and_hit_points", path = "json/rules_rulesets02.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "166"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 166
 
 While armies can use siege weapons against troops, usually the goal of a siege engine is to
 demoralize foes and pound their structures to rubble. The following rules give the statistics for

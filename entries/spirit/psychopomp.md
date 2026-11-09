@@ -6,13 +6,15 @@ source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychopomp", path = "json/class_ability_spirits.json" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "15"
 
 [fields]
 kind = "class_option"
 group = "medium-spirit"
 +++
 
-**Sources:** Psychic Anthology pg 15\
 A [psychopomp](ref/family/psychopomp) is a steward of souls from the Boneyard, tasked with bringing
 mortal souls to the afterlife.
 

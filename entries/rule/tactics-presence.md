@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tactics_presence", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "178"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 178
 
 You make a show of confidence or true nobility or you simply put on airs, and an opponent's claims
 slide off and bounce back against him, leaving you unscathed. This tactic works to deflect baiting

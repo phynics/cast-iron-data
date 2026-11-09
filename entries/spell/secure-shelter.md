@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "secure_shelter", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "338"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 Effect: 20-ft.-square structure
 Subschool: Creation
 :::
-
-**Sources:** PRPG Core Rulebook pg 338
 
 You conjure a sturdy cottage or lodge made of material that is common in the area where the spell is
 cast. The floor is level, clean, and dry. The lodging resembles a normal cottage, with a sturdy

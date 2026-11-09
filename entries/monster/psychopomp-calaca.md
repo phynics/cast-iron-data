@@ -6,6 +6,9 @@ source_ids = ["pathfinder-143-borne-by-the-suns-grace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychopomp_calaca", path = "json/monsters19.json" },
 ]
+[[sources]]
+publication = "pathfinder-143-borne-by-the-suns-grace"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ creature's face is hidden by an intricately decorated skull mask._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Spiritsense
 
-**Sources:** Pathfinder \#143: Borne by the Sun's Grace pg 88\
 **Subtype:** Extraplanar, Psychopomp
 
 **Experience points:** 4,800

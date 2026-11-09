@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "building_connections", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "86"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 86
 
 In order to help the players see NPCs as actual characters and not just conveniences or cardboard
 opponents, the GM must work to build relationships. In the real world, people get to know other

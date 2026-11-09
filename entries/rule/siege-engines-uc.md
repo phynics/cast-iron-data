@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "siege_engines_uc", path = "json/rules_rulesets02.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "158"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 158
 
 A classic trope of fantasy warfare is the storming of a castle or other large fortification. Whether
 the PCs are leading a brave and desperate defense of a lonely bastion against an overwhelming army

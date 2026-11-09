@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "diversion_shot", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-wild"
+page = "19"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you hit a target using Target of Opportunity, the ally who trigg
 +++
 
 ## Diversion Shot (Combat, Teamwork)
-
-**Sources:** Heroes of the Wild pg 19
 
 You can use your shots to distract opponents.\
 **Prerequisites:** [Stealthy](ref/feat/stealthy),

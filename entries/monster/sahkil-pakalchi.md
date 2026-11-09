@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sahkil_pakalchi", path = "json/monsters37.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "216"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ her._
 
 **Senses:** Darkvision 60 ft., Low-light vision, True seeing
 
-**Sources:** Bestiary 5 pg 216\
 **Subtype:** Evil, Extraplanar, Sahkil
 
 **Experience points:** 6,400

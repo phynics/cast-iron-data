@@ -6,6 +6,9 @@ source_ids = ["chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scimitar_of_deliverance", path = "json/magic_legacy_items.json" },
 ]
+[[sources]]
+publication = "chronicle-of-legends"
+page = "21"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ aura = "moderate transmutation"
 caster_level = "6th"
 +++
 
-**Sources:** Chronicle of Legends pg 21\
 **Slot** none; **CL** 6th; **Weight** 1 lb.\
 **Aura** moderate transmutation
 

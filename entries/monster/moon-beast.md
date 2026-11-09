@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "moon_beast", path = "json/monsters17.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "195"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ snout ending in pink tentacles._
 
 **Perception:** +21
 
-**Sources:** Bestiary 3 pg 195\
 **Experience points:** 12,800
 
 **Armor class:** 25/13/21

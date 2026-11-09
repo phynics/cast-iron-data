@@ -6,13 +6,14 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "order_of_the_star", path = "json/class_ability_orders.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "37"
 
 [fields]
 kind = "class_option"
 group = "order"
 +++
-
-**Sources:** Advanced Player's Guide pg 37
 
 Cavaliers who join the order of the star dedicate themselves to the protection and service of a
 faith and its members. Cavaliers belonging to this order tend to follow many of the tenets and

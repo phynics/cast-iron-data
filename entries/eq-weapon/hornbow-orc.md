@@ -6,14 +6,15 @@ source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hornbow_orc", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "8"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "7 lbs."
 +++
-
-**Sources:** Adventurer's Armory 2 pg 8
 
 Larger even than a [longbow](ref/eq-weapon/longbow), these bows are often made from the horns of
 great beasts. Though they have a shorter range than other bows, their greater destructive power is

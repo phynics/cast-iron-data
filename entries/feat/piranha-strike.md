@@ -6,6 +6,9 @@ source_ids = ["sargava-the-lost-colony"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "piranha_strike", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "sargava-the-lost-colony"
+page = "24"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When wielding a light weapon, you can choose to take a -1 penalty on 
 +++
 
 ## Piranha Strike (Combat)
-
-**Sources:** Sargava, the Lost Colony pg 24
 
 You make a combination of quick strikes, sacrificing accuracy for multiple, minor wounds that prove
 exceptionally deadly.\

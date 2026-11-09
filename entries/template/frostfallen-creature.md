@@ -6,6 +6,9 @@ source_ids = ["pathfinder-51-the-hungry-storm"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "frostfallen_creature", path = "json/monster_template2.json" },
 ]
+[[sources]]
+publication = "pathfinder-51-the-hungry-storm"
+page = "84"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +1
-
-**Source:** Pathfinder \#51: The Hungry Storm/84
 
 Frostfallen creatures are mindless undead infused with icy cold and animated by a hatred for all
 living things. Their bodies radiate a devastating chill that cloaks them in patches of ice that act

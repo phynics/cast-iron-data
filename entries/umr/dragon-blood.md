@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_blood", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "226"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Dragon Blood (Su) \[Mythic\]
 
-**Sources:** Mythic Adventures pg 226\
 The mythic dragon's blood and other fluids are infused with acid, cold, electricity, or fire,
 matching the dragon's breath weapon energy type. Every time the dragon is damaged by a piercing or
 slashing weapon, the attacking creature takes energy damage according to Table 6-6: Dragon Blood

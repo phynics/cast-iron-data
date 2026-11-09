@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tree_shape", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "362"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** PRPG Core Rulebook pg 362
 
 This spell allows you to assume the form of a Large living tree or shrub or a Large dead tree trunk
 with a small number of limbs. The exact type of tree, as well as its appearance, is completely under

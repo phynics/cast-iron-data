@@ -6,6 +6,9 @@ source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mosswater_stained_leather", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "52"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation"
 caster_level = "14th"
 +++
 
-**Sources:** Inner Sea Combat pg 52\
 **Aura** strong transmutation; **CL** 14th\
 **Slot** armor; **Price** 11,575 gp; **Weight** 20 lbs.
 

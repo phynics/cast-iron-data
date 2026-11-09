@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/nondetection" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "238"
 
 [fields]
 kind = "spell"
@@ -58,8 +61,6 @@ Target: creature or object touched
 :::
 
 ### Communal Nondetection
-
-**Sources:** Ultimate Combat pg 238
 
 This spell functions like [nondetection](ref/spell/nondetection), except you divide the duration in
 1-hour increments among the creatures or objects touched.

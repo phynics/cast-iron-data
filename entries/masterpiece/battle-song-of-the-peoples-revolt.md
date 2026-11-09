@@ -6,13 +6,13 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "battle_song_of_the_peoples_revolt", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
 
 [fields]
 kind = "class_option"
 group = "bardic-masterpiece"
 +++
-
-**Sources:** Melee Tactics Toolbox
 
 This song for fife and drum is found in many folios filled with music intended to unite the people
 of Andoran in their secession from Cheliax.

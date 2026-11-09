@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "detect_secret_doors", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "268"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Saving throw: none
 Spell resistance: no
 Area: cone-shaped emanation
 :::
-
-**Sources:** PRPG Core Rulebook pg 268
 
 You can detect secret doors, compartments, caches, and so forth. Only passages, doors, or openings
 that have been specifically constructed to escape detection are detected by this spell. The amount

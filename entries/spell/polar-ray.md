@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "polar_ray", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "323"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: yes
 Effect: ray
 Descriptors: cold
 :::
-
-**Sources:** PRPG Core Rulebook pg 323
 
 A blue-white ray of freezing air and ice springs from your hand. You must succeed on a ranged touch
 attack with the ray to deal damage to a target. The ray deals 1d6 points of cold damage per caster

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "elves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "findeladlara", path = "json/faiths3.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "322"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Findeladlara**
 
 **Sub:** The Guiding Hand
-
-**Sources:** Inner Sea Gods pg 322
 
 ### Details
 

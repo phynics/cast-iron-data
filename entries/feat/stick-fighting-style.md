@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stick_fighting_style", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "12"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When fighting with a club, quarterstaff, dan bong, sap, or tonfa with
 +++
 
 ## Stick-Fighting Style (Combat, Style)
-
-**Sources:** Martial Arts Handbook pg 12
 
 You know how to use batons, clubs, and sticks in new ways.\
 **Prerequisites:** Base attack bonus +1.\

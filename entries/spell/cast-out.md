@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cast_out", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "210"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: Will partial
 Spell resistance: yes
 Target: creature touched
 :::
-
-**Sources:** Advanced Player's Guide pg 210
 
 With a melee touch attack you blast a single creature and disrupt any magic controlling it. The
 target takes 2d8 points of damage + 1 point per caster level (maximum +15). In addition, you make a

@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shared_stash", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "177"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While you are in the same square as a willing ally who also has this 
 +++
 
 ## Shared Stash (Teamwork)
-
-**Sources:** Monster Codex pg 177
 
 You are adept at borrowing from your allies even in the middle of combat.\
 **Prerequisites:** [Quick Draw](ref/feat/quick-draw), base attack bonus +1, Sleight of Hand 1 rank,

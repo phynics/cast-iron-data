@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "village_veil", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "68"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Area: one 10-ft. cube per level
 Subschool: Figment
 Descriptors: mind-affecting
 :::
-
-**Sources:** Advanced Race Guide pg 68
 
 > _[Halflings](ref/race/halfling) have access to the following spell._
 

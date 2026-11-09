@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "false_bottomed_wagon", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-streets"
+page = "12"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "375 gp"
 weight = "400 lbs."
 +++
 
-**Sources:** Heroes of the Streets pg 12\
 **Price** 375 gp; **Weight** 400 lbs.\
 **Category** Adventuring Gear
 

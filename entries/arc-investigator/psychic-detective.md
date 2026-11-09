@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/investigator" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "119"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Alchemy", "Poison lore", "poison resistance", "swift alchemy", "poi
 alters = ["Investigator talents"]
 +++
 
-**Sources:** Occult Adventures pg 119\
 A psychic detective supplements her keen insight with occult skill to unravel mysteries both
 ordinary and supernatural.
 

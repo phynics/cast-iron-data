@@ -6,6 +6,9 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arisen", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "67"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ normal = "You die when your negative hit point total is equal to or greater than
 +++
 
 ## Arisen (Story)
-
-**Sources:** Ultimate Campaign pg 67
 
 Escaping death strengthened your bond to life, but fills you with a need for answers.\
 **Prerequisites:** You must have been slain and brought back from the dead, or have the

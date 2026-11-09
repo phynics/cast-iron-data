@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tome_of_origami_animals", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "265"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation"
 caster_level = "12th"
 +++
 
-**Sources:** Occult Adventures pg 265\
 **Aura** strong transmutation; **CL** 12th\
 **Slot** none; **Price** 13,500 gp; **Weight** 15 lbs.
 

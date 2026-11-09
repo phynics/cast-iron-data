@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "conjure_carriage", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "207"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: no
 Effect: one quasi-real carriage, horses, and driver
 Subschool: Creation
 :::
-
-**Sources:** Ultimate Intrigue pg 207
 
 You create a fine wooden carriage with whatever cosmetic embellishments you desire. It is well
 constructed, although not exceptionally ostentatious. The carriage can carry up to six Medium or

@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cavern_compass", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-darklands"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "11th"
 +++
 
-**Sources:** Heroes of the Darklands pg 30\
 **Aura** moderate divination; **CL** 11th\
 **Slot** none; **Price** 15,000 gp; **Weight** 1 lb.
 

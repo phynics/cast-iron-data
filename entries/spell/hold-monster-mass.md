@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/hold-person" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "296"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Descriptors: mind-affecting
 :::
 
 ### Mass Hold Monster
-
-**Sources:** PRPG Core Rulebook pg 296
 
 This spell functions like [hold person](ref/spell/hold-person), except that it affects multiple
 creatures and holds any living creature that fails its Will save.

@@ -6,6 +6,9 @@ source_ids = ["alchemy-manual"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blanch_bomb_adamantine", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "alchemy-manual"
+page = "27"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "250 gp (adamantine), 150 gp (cold iron), 100gp (silver)"
 weight = "0.5 lb."
 +++
 
-**Sources:** Alchemy Manual pg 27\
 **Price** 250 gp (adamantine), 150 gp (cold iron), 100gp (silver); **Weight** 0.5 lb.\
 **Category** Alchemical Weapons
 

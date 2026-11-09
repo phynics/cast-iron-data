@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "whispering_lore", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Advanced Race Guide pg 29
 
 > _Most know of elven magic for its power, but those who delve deeper discover its elegance and ties
 > to the natural world. The following spell is just one that the [elves](ref/race/elf) are known

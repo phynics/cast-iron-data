@@ -6,6 +6,9 @@ source_ids = ["alchemy-manual"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alchemical_isolation", path = "json/equipment_poisons.json" },
 ]
+[[sources]]
+publication = "alchemy-manual"
+page = "9"
 
 [fields]
 kind = "item"
@@ -13,8 +16,6 @@ category = "Poisons"
 price = "175 gp"
 weight = "1 lb."
 +++
-
-**Sources:** Alchemy Manual pg 9
 
 **Price** 175 gp; **Weight** 1 lb.
 

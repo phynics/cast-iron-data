@@ -6,13 +6,17 @@ source_ids = ["adventurers-guide", "people-of-the-north"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tribal_scars", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "133"
+[[sources]]
+publication = "people-of-the-north"
+page = "24"
 
 [fields]
 kind = "feat"
 benefit = "You gain one of the following benefits, depending on which Mammoth Lord following you belong to. (At the GM's discretion, other options of her own design could exist for different tribes.)"
 +++
-
-**Sources:** Adventurer's Guide pg 133, People of the North pg 24
 
 You endured the grueling coming-of-age rituals of your tribe or following, and proudly bear the
 scars that grant you the blessings of your tribe's ancestors or totem.\

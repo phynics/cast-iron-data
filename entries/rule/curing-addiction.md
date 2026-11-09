@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "curing_addiction", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "236"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 236
 
 As addictions are [diseases](ref/rule/diseases), they can be cured as such, through the use of
 spells like [remove disease](ref/spell/remove-disease) or by succeeding at Fortitude saves over

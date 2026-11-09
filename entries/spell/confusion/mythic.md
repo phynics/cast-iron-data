@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/confusion", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "89"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 89
 
 When you roll on the table above, use the values below to see what it does in that round.
 

@@ -6,12 +6,13 @@ source_ids = ["lands-of-conflict"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rivalry_missing_in_action_theft", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "lands-of-conflict"
+page = "59"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Lands of Conflict pg 59
 
 **Rivalry\*:** Choose two random teams; those teams develop an unhealthy but temporary rivalry.
 During the next Activity phase, neither team can take actions. _Twice:_ This event becomes

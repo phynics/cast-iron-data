@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "whip", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "20"
+[[sources]]
+publication = "core-rulebook"
+page = "143"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "2 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 20, PRPG Core Rulebook pg 143
 
 A whip deals no damage to any creature with an armor bonus of +1 or higher or a natural armor bonus
 of +3 or higher. The whip is treated as a melee weapon with a 15-foot reach, though you don't

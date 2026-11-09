@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lockpick_shield", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "237"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Sources:** Ultimate Intrigue pg 237\
 **Aura** moderate transmutation; **CL** 11th\
 **Slot** shield; **Price** 7,159 gp; **Weight** 6 lbs.
 

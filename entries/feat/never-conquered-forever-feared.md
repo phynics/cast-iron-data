@@ -6,6 +6,9 @@ source_ids = ["pathfinder-131-the-reapers-right-hand"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "never_conquered_forever_feared", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "pathfinder-131-the-reapers-right-hand"
+page = "78"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Your stern demeanor gives you a +2 bonus on Intimidate checks. If you
 +++
 
 ## Never Conquered, Forever Feared (Story)
-
-**Sources:** Pathfinder \#131: The Reaper's Right Hand pg 78
 
 You are dauntless in battle, and your lineage echoes with awe-inspiring power.\
 **Prerequisites:** Be a member of House Heskillar, or have the Adopted by Dragons

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-75-demons-heresy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bell_of_mercy", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "pathfinder-75-demons-heresy"
+page = "62"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration"
 caster_level = "20th"
 +++
 
-**Sources:** Pathfinder \#75: Demon's Heresy pg 62\
 **Aura** strong abjuration; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 2,000 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-82-secrets-of-the-sphinx"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "estuarine_worm_estuarine_worm_shemu_form", path = "json/monsters42.json" },
 ]
+[[sources]]
+publication = "pathfinder-82-secrets-of-the-sphinx"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ abilities = ["24", "8", "23", "1", "13", "8"]
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#82: Secrets of the Sphinx pg 86\
 **Subtype:** Aquatic
 
 **tremorsense:** 30

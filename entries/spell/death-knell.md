@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "death_knell", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "264"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: yes
 Target: living creature touched
 Descriptors: death, evil
 :::
-
-**Sources:** PRPG Core Rulebook pg 264
 
 You draw forth the ebbing life force of a creature and use it to fuel your own power. Upon casting
 this spell, you touch a living creature that has -1 or fewer hit points. If the subject fails its

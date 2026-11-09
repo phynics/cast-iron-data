@@ -6,6 +6,9 @@ source_ids = ["pathfinder-96-shadow-of-the-storm-tyrant"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daemon_nixudaemon", path = "json/monsters06.json" },
 ]
+[[sources]]
+publication = "pathfinder-96-shadow-of-the-storm-tyrant"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ barbed whips of calloused flesh._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#96: Shadow of the Storm Tyrant pg 88\
 **Subtype:** Daemon, Evil, Extraplanar
 
 **Experience points:** 3,200

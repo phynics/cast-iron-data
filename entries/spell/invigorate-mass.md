@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/invigorate" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "230"
 
 [fields]
 kind = "spell"
@@ -47,7 +50,5 @@ Subschool: Figment
 :::
 
 ### Mass Invigorate
-
-**Sources:** Advanced Player's Guide pg 230
 
 This spell works as [invigorate](ref/spell/invigorate), except that it affects multiple creatures.

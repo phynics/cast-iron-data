@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "pathfinder-55-the-wormwood-mutiny"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_dwarf_caiman", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "195"
+[[sources]]
+publication = "pathfinder-55-the-wormwood-mutiny"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -40,7 +46,6 @@ _This lithe, green-scaled reptile looks like a miniature crocodile with a stunte
 
 **Size:** small
 
-**Sources:** Ultimate Wilderness pg 195, Pathfinder \#55: The Wormwood Mutiny pg 88\
 **Experience points:** 135
 
 **Armor class:** 14/11/14

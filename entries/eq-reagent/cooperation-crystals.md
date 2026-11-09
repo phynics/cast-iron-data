@@ -6,13 +6,14 @@ source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cooperation_crystals", path = "json/equipment_alchemical_reagents.json" },
 ]
+[[sources]]
+publication = "plane-hoppers-handbook"
+page = "10"
 
 [fields]
 kind = "item"
 category = "Alchemical Reagents"
 +++
-
-**Sources:** Plane-Hopper's Handbook pg 10
 
 |Price|Weight|Equipment|
 | --- | --- | --- |

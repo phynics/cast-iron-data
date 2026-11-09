@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "familiar-folio"
+page = "8"
 
 [fields]
 kind = "archetype"
 replaces = ["Mutagen"]
 +++
 
-**Sources:** Familiar Folio pg 8\
 One of the grand goals of alchemy is the ability to create new life. A homunculist has made this
 dream a reality, growing and modifying a familiar in his own laboratory.
 

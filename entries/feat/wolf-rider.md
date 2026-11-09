@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/undersized-mount", label = "or" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "120"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ prerequisites = "Undersized Mount or effective level 7th in the class that grant
 prerequisite_feats = ["ref/feat/undersized-mount"]
 benefit = "You can select a wolf in place of the normal mount available via your mount or divine bond (mount) class feature. In addition, Knowledge (nature) is always a class skill for you."
 +++
-
-**Sources:** Ultimate Wilderness pg 120
 
 Others can keep their horses. You know that wolves are better mounts.\
 **Prerequisites:** [Undersized Mount](ref/feat/undersized-mount) or effective level 7th in the class

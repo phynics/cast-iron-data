@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_lead_golem", path = "json/monsters33.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "127"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ its arms to support itself._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 5 pg 127\
 **Experience points:** 9,600
 
 **Armor class:** 26/7/26

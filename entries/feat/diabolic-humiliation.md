@@ -10,6 +10,9 @@ relations = [
   { kind = "prerequisite", target = "ref/feat/improved-unarmed-strike", label = "or" },
   { kind = "prerequisite", target = "ref/feat/weapon-focus", label = "or" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "27"
 
 [fields]
 kind = "feat"
@@ -21,8 +24,6 @@ special = "A monk of at least 10th level with this feat can select Improved Vita
 +++
 
 ## Diabolic Humiliation (Combat)
-
-**Sources:** Planar Adventures pg 27
 
 Your humiliating strikes decrease a foe's morale.\
 **Prerequisites:** [Combat Reflexes](ref/feat/combat-reflexes),

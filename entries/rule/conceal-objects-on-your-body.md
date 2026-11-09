@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "conceal_objects_on_your_body", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "58"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 58
 
 Hiding a small object on your person (such as a light weapon or easily concealed ranged weapon such
 as a dart, sling, or hand crossbow) requires a Finesse check opposed by the Perception check of

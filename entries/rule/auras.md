@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "auras", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "198"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 198
 
 All living creatures are imbued with a spark of the cosmic fire that burns at the heart of the
 multiverse. This vital principle grants beings animate force, carrying directions from their greater

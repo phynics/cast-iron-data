@@ -6,6 +6,9 @@ source_ids = ["irrisen-land-of-eternal-winter"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "winter_witch_cold_sister", path = "json/npcs3.json" },
 ]
+[[sources]]
+publication = "irrisen-land-of-eternal-winter"
+page = "62"
 
 [fields]
 kind = "creature"
@@ -19,7 +22,6 @@ with jagged ice._
 
 **Challenge rating:** 9
 
-**Sources:** Irrisen - Land of Eternal Winter pg 62\
 **XP** 6,400\
 Female human [witch](ref/class/witch) ([winter witch](ref/arc-witch/winter-witch)) 5/winter witch 5\
 LE Medium humanoid (human)\

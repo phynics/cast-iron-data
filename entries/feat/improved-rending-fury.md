@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_rending_fury", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "105"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever you successfully rend an opponent, you deal an extra 1d6 dam
 +++
 
 ## Improved Rending Fury (Combat)
-
-**Sources:** Ultimate Combat pg 105
 
 Honing the deadliness of your claws, you are a living hurricane of rending fury.\
 **Prerequisites:** [Rending Fury](ref/feat/rending-fury), base attack bonus +9, [rend](ref/umr/rend)

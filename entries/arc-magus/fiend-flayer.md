@@ -9,12 +9,14 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/magus" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "170"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Advanced Race Guide pg 170\
 Some tiefling magi can tap the dark energy of their fiendish blood to enhance their arcane and
 combat talents. By physically carving away their tainted flesh, they can use its dark energies to
 enhance their powers, call forth weapons from thin air, and bypass enemies' strongest defenses. A

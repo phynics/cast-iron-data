@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wingover", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "316"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ normal = "A flying creature can turn up to 90 degrees by making a DC 15 Fly skil
 +++
 
 ## Wingover (Monster)
-
-**Sources:** Pathfinder RPG Bestiary pg 316
 
 This creature can make turns with ease while flying.\
 **Prerequisites:** Fly speed.\

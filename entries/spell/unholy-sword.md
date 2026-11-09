@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unholy_sword", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "245"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Spell resistance: no
 Target: melee weapon touched
 Descriptors: evil
 :::
-
-**Sources:** Ultimate Magic pg 245
 
 This spell allows you to channel the powers of evil into your sword, or any other melee weapon you
 choose. The weapon acts as a +5 [unholy](ref/magic-enh/unholy) weapon (+5 enhancement bonus on

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-139-the-dead-road"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crypt_rod", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "pathfinder-139-the-dead-road"
+page = "64"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "9th"
 +++
 
-**Sources:** Pathfinder \#139: The Dead Road pg 64\
 **Aura** moderate divination; **CL** 9th\
 **Slot** none; **Price** 8,500 gp; **Weight** 5 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-70-the-frozen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alpine_ice_axe", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "pathfinder-70-the-frozen-stars"
+page = "62"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Pathfinder \#70: The Frozen Stars pg 62\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** none; **Price** 8,000 gp; **Weight** 3 lbs.
 

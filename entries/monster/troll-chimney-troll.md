@@ -6,6 +6,9 @@ source_ids = ["daughters-of-fury"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "troll_chimney_troll", path = "json/monsters39.json" },
 ]
+[[sources]]
+publication = "daughters-of-fury"
+page = "52"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ with desperate hunger._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Daughters of Fury pg 52\
 **Subtype:** Giant
 
 **Experience points:** 600

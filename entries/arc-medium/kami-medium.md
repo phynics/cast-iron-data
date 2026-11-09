@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/medium" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "92"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Haunt channeler", "location channel", "connection channel", "Ask th
 alters = ["Spirit", "Taboo", "Spellcasting"]
 +++
 
-**Sources:** Occult Adventures pg 92\
 Some mediums channel the power of nature spirits called [kami](ref/family/kami) rather than the
 spirits of legend.
 

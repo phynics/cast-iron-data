@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "azata_thyrlien", path = "json/monsters27.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "285"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ resembling a starry night sky._
 
 **Size:** small
 
-**Sources:** Inner Sea Gods pg 285\
 **Subtype:** Azata, Chaotic, Extraplanar, Good, Shapechanger
 
 **Experience points:** 1,200

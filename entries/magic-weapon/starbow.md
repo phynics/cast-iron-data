@@ -6,6 +6,9 @@ source_ids = ["pathfinder-75-demons-heresy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "starbow", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "pathfinder-75-demons-heresy"
+page = "63"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "11th"
 +++
 
-**Sources:** Pathfinder \#75: Demon's Heresy pg 63\
 **Aura** moderate evocation; **CL** 11th\
 **Slot** none; **Price** 30,400 gp; **Weight** 3 lbs.
 

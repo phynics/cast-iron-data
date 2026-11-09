@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/hunter" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "95"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Hunter tactics", "speak with master", "Bonus tricks", "improved emp
 alters = ["Animal focus", "Precise companion"]
 +++
 
-**Sources:** Advanced Class Guide pg 95\
 A feral hunter has forged a bond with nature that's so strong that she doesn't merely channel the
 aspects of animals' she actually becomes an animal herself. Though she lacks an animal companion, a
 feral hunter is in tune with the beast lurking within her flesh and spirit, and lives in a near-wild

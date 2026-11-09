@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dinosaur_tyrannosaurus", path = "json/monsters08.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ head is all teeth._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 86\
 **Experience points:** 6,400
 
 **Armor class:** 21/7/20

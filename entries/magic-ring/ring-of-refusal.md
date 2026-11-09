@@ -6,6 +6,9 @@ source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_refusal", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "inner-sea-monster-codex"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration and transmutation"
 caster_level = "13th"
 +++
 
-**Sources:** Inner Sea Monster Codex pg 29\
 **Aura** strong conjuration and transmutation; **CL** 13th\
 **Slot** ring; **Price** 32,500 gp; **Weight** -
 

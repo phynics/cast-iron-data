@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychic_crush_1", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "182"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: mind-affecting
 :::
-
-**Sources:** Occult Adventures pg 182
 
 Using your psychic power, you invade the mind of the target and tear it asunder, causing massive
 internal damage to both its mind and body. If the target succeeds at the initial Will save, it is

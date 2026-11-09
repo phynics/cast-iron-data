@@ -6,6 +6,9 @@ source_ids = ["seekers-of-secrets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sepia_ellipsoid", path = "json/magic_ioun_stones.json" },
 ]
+[[sources]]
+publication = "seekers-of-secrets"
+page = "57"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration"
 caster_level = "18th"
 +++
 
-**Sources:** Seekers of Secrets pg 57\
 **Aura** strong abjuration; **CL** 18th\
 **Slot** none; **Price** 68,000 gp; **Weight** —
 

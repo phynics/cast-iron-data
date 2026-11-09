@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_crow_strike", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "208"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: fire
 :::
-
-**Sources:** Ultimate Magic pg 208
 
 Your unarmed strikes release blasts of energy in the form of bolts of fire or glowing red crows,
 which fly instantaneously to strike your target. You can make unarmed strike or flurry of blows

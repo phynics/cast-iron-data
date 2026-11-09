@@ -6,13 +6,17 @@ source_ids = ["armor-masters-handbook", "the-dragons-demand"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "voidglass", path = "json/equipment_special_materials.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "31"
+[[sources]]
+publication = "the-dragons-demand"
+page = "35"
 
 [fields]
 kind = "item"
 category = "Special Materials"
 +++
-
-**Sources:** Armor Master's Handbook pg 31, The Dragon's Demand pg 35
 
 Voidglass originates on an unknown world beyond Golarion. It is brought to Golarion in small
 quantities by [grioths](ref/monster/grioth), a race of psychic extraterrestrials. Voidglass

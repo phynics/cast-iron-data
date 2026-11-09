@@ -6,14 +6,15 @@ source_ids = ["halflings-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "halfling_little_starstones", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "halflings-of-golarion"
+page = "22"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "0.2 lbs."
 +++
-
-**Sources:** Halflings of Golarion pg 22
 
 Though they are technically sling ammunition, these thread- or cloth-wrapped pebbles are mainly used
 for signaling or celebration rather than battle, as they barely hit hard enough to sting. When

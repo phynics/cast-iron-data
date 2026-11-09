@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shaman", path = "json/npcs.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "244"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "1/2"
 
 **Challenge rating:** 1/2
 
-**Sources:** NPC Codex pg 244\
 **XP** 200\
 Half-orc [adept](ref/npcclass/adept) 2\
 NE Medium humanoid (human, orc)\

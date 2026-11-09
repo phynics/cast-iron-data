@@ -6,14 +6,15 @@ source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pure_legion_enforcer", path = "json/prestige_classes4.json" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "32"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d10."
 +++
-
-**Sources:** Inner Sea Combat pg 32
 
 The nation of Rahadoum holds all religions equally in contempt. From calling down the holy fires of
 Iomedae to saying a quiet prayer on behalf of the dead to Pharasma, any expression of religious

@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "belt_of_dwarvenkind", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "208"
+[[sources]]
+publication = "core-rulebook"
+page = "501"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong divination"
 caster_level = "12th"
 +++
 
-**Sources:** Ultimate Equipment pg 208, PRPG Core Rulebook pg 501\
 **Aura** strong divination; **CL** 12th\
 **Slot** belt; **Price** 14,900 gp; **Weight** 1 lb.
 

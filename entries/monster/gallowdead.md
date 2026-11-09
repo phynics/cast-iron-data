@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gallowdead", path = "json/monsters11.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "119"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ its midsection._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 4 pg 119\
 **Type:** undead
 
 **Experience points:** 76,800

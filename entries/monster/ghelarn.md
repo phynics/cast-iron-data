@@ -6,6 +6,9 @@ source_ids = ["pathfinder-85-fires-of-creation"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghelarn", path = "json/monsters11.json" },
 ]
+[[sources]]
+publication = "pathfinder-85-fires-of-creation"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ surrounding sand._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#85: Fires of Creation pg 86\
 **tremorsense:** 30
 
 **Experience points:** 600

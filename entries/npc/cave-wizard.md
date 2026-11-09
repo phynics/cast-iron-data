@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cave_wizard", path = "json/npcs8.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "184"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "8"
 
 **Challenge rating:** 8
 
-**Sources:** NPC Codex pg 184\
 **XP** 4,800\
 Dwarf evoker 9\
 NE Medium humanoid (dwarf)\

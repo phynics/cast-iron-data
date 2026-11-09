@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "groundswell", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "19"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: no
 Target: creature touched
 Descriptors: earth
 :::
-
-**Sources:** Advanced Race Guide pg 19
 
 > _[Dwarven](ref/race/dwarf) spellcasters are renowned for shaping the ground beneath them, molding
 > metal, and using magic to aid their craft. This spell one of several samples of such magics._

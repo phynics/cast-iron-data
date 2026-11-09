@@ -6,14 +6,15 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "claw_blades", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "93"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "2 lbs."
 +++
-
-**Sources:** Advanced Race Guide pg 93
 
 These subtle blades can only be used by [catfolk](ref/race/catfolk) with the cat's claws racial
 trait. Bought in a set of five, they fit over the wearer's claws on one hand. The blades grant the

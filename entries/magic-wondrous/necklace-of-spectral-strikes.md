@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "necklace_of_spectral_strikes", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "154"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "9th"
 +++
 
-**Sources:** Mythic Adventures pg 154\
 **Aura** moderate evocation; **CL** 9th\
 **Slot** neck; **Price** 35,500 gp; **Weight** -
 

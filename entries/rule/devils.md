@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devils", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "107"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 107
 
 Devils regard both holy items and silver as deadly substances, and instinctively shy away from
 contact with such items. Even those for whom silver presents no danger avoid its touch whenever

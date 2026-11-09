@@ -6,13 +6,15 @@ source_ids = ["the-harrow-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "harrow", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
+[[sources]]
+publication = "the-harrow-handbook"
+page = "28"
 
 [fields]
 kind = "class_option"
 group = "sorcerer-bloodline"
 +++
 
-**Sources:** The Harrow Handbook pg 28\
 Just as knowledge of the harrow has passed from generation to generation since time immemorial, so
 too has a deep spiritual connection to the otherworldly forces bound by the harrow passed through
 the ages. Your family line might trace back to a branch of the ancient Imlios clan, or one of your

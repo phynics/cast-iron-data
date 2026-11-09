@@ -6,12 +6,13 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monstrous_other_traits", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "239"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Advanced Race Guide pg 239
 
 **Multi-Armed (4 RP):** **Prerequisites:** None; **Benefit:** Members of this race possess three
 arms. A member of this race can wield multiple weapons, but only one hand is its primary hand, and

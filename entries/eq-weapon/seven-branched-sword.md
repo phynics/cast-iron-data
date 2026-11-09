@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seven_branched_sword", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "21"
+[[sources]]
+publication = "ultimate-combat"
+page = "134"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "7 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 21, Ultimate Combat pg 134
 
 This unusual sword has a straight 2-foot-long blade with six shorter L-shaped blades protruding from
 it, three on each side in a staggered pattern. The shorter blades can be used to snag opponents'

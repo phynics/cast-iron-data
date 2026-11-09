@@ -6,6 +6,9 @@ source_ids = ["pathfinder-141-last-watch"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sump_steward", path = "json/monsters39.json" },
 ]
+[[sources]]
+publication = "pathfinder-141-last-watch"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ woven grass._
 
 **Type:** plant
 
-**Sources:** Pathfinder \#141: Last Watch pg 88\
 **Experience points:** 6,400
 
 **Armor class:** 23/11/21

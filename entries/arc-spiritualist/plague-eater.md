@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/spiritualist" },
 ]
+[[sources]]
+publication = "heroes-of-golarion"
+page = "12"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Detect undead", "Calm spirit", "See invisibility", "Fused conscious
 alters = ["Phantom", "shared consciousness", "Spiritual interference", "Greater spiritual interference"]
 +++
 
-**Sources:** Heroes of Golarion pg 12\
 Iobaria has been ravaged by plague for centuries, and many of its dead do not rest. These ghosts
 often flock around specialized spiritualists called plague eaters. Such a spiritualist bears the
 weight of many souls within her consciousness, spirits that remember the devastation of disease and

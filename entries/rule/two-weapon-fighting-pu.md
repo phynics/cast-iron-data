@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "two_weapon_fighting_pu", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "110"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 110
 
 When fighting with two weapons, use the lower attack bonus of the two weapons. If you score one hit,
 you also score a hit with your off-hand weapon. If you have

@@ -6,6 +6,9 @@ source_ids = ["heaven-unleashed", "ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "medallion_of_sar_gorog", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "heaven-unleashed"
+page = "55"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration, strong evil"
 caster_level = "5th"
 +++
 
-**Sources:** Heaven Unleashed pg 55\
 **Aura** faint conjuration, strong evil; **CL** 5th\
 **Slot** neck; **Price** 7,500 gp; **Weight** -
 

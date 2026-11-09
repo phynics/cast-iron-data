@@ -6,6 +6,9 @@ source_ids = ["demon-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "protection_from_outsiders", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "demon-hunters-handbook"
+page = "26"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: no
 Target: creature touched
 :::
-
-**Sources:** Demon Hunter's Handbook pg 26
 
 This spell wards a creature from attacks by outsiders with a specific racial subtype, from mental
 control exerted by creatures of the chosen subtype, and from summoned creatures of that subtype.

@@ -6,12 +6,13 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eleven_minor_demiplanes", path = "json/rules_campaign_types09.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "209"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Planar Adventures pg 209
 
 **Book of the Damned:** The multiverse's greatest chronicle of blasphemy, the
 [Book of the Damned](ref/magic-artifact/book-of-the-damned), is more than a simple tome. Its holder

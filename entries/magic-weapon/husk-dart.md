@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "husk_dart", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "25"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration and transmutation"
 caster_level = "6th"
 +++
 
-**Sources:** Melee Tactics Toolbox pg 25\
 **Aura** moderate conjuration and transmutation; **CL** 6th\
 **Slot** none; **Price** 19,301 gp; **Weight** 1/2 lb.
 

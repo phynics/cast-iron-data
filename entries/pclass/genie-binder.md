@@ -6,14 +6,18 @@ source_ids = ["elemental-masters-handbook", "pathfinder-22-the-end-of-eternity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "genie_binder", path = "json/prestige_classes2.json" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
+page = "26"
+[[sources]]
+publication = "pathfinder-22-the-end-of-eternity"
+page = "52"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d6."
 +++
-
-**Sources:** Elemental Master's Handbook pg 26, Pathfinder \#22: The End of Eternity pg 52
 
 While genies chafe at being bound and bottled, they respect power - especially masters of the art of
 genie binding. The greatest of these conjurers was Sulesh the Great, a Keleshite spellcaster who

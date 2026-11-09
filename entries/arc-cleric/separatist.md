@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cleric" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "32"
 
 [fields]
 kind = "archetype"
 replaces = ["Domains"]
 +++
 
-**Sources:** Ultimate Magic pg 32\
 A radical cleric, unsatisfied with the orthodoxy of her deity's teachings, forges her own path of
 defiant divine expression. Though most members of her faith would call her a separatist or heretic,
 she continues to receive spells from her deity. Charismatic separatists may develop a large

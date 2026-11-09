@@ -6,12 +6,13 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "standard_defense_traits", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "220"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Advanced Race Guide pg 220
 
 **Ancient Foe (3 RP):** **Prerequisites:** None; **Benefit:** Choose one monster type or one subtype
 of the humanoid type. Members of this race gain a +2 dodge bonus to AC against monsters of that type

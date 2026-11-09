@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "book-of-the-damned-volume-1-princes-of-darkness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_host_devil_greater_magaav", path = "json/monsters07.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "53"
+[[sources]]
+publication = "book-of-the-damned-volume-1-princes-of-darkness"
+page = "58"
 
 [fields]
 kind = "creature"
@@ -44,7 +50,6 @@ between its yellowed fangs._
 
 **Senses:** Darkvision 60 ft., Detect magic, See in darkness
 
-**Sources:** Bestiary 4 pg 53, Book of the Damned - Volume 1: Princes of Darkness pg 58\
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **Experience points:** 2,400

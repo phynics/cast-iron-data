@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "genie_djinni", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "139"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ vortex of mist and wind._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 139\
 **Subtype:** Air, Extraplanar
 
 **Experience points:** 1,600

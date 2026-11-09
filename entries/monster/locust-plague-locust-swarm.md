@@ -6,6 +6,9 @@ source_ids = ["pathfinder-79-the-half-dead-city"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "locust_plague_locust_swarm", path = "json/monsters16.json" },
 ]
+[[sources]]
+publication = "pathfinder-79-the-half-dead-city"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ _Buzzing with an ear-shattering drone, this cloud is full of particularly viciou
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#79: The Half-Dead City pg 88\
 **Subtype:** Swarm
 
 **Type:** vermin

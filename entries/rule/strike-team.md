@@ -6,12 +6,13 @@ source_ids = ["lands-of-conflict"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "strike_team", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "lands-of-conflict"
+page = "57"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Lands of Conflict pg 57
 
 **Strike Team** **(Specialists):** Specialists can call in a group of powerful allies to help the
 militia secure a safe location or evacuate the injured in an emergency. The PCs must specify the

@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "xorn", path = "json/monsters41.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "284"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ three eyes, and one huge mouth._
 
 **Senses:** All-around vision, Darkvision 60 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 284\
 **Subtype:** Earth, Extraplanar
 
 **tremorsense:** 60

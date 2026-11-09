@@ -6,6 +6,12 @@ source_ids = ["occult-mysteries", "pathfinder-27-what-lies-in-dust"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grave_candle", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "occult-mysteries"
+page = "55"
+[[sources]]
+publication = "pathfinder-27-what-lies-in-dust"
+page = "11"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate necromancy"
 caster_level = "10th"
 +++
 
-**Sources:** Occult Mysteries pg 55, Pathfinder \#27: What Lies in Dust pg 11\
 **Aura** moderate necromancy; **CL** 10th\
 **Slot** none; **Price** 5,500 gp; **Weight** 1 lb.
 

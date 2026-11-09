@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "argus_mythic", path = "json/monsters_mythic.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "13"
 
 [fields]
 kind = "creature"
@@ -49,7 +52,6 @@ eyes._
 **Senses:** All-around vision, Arcane sight, Darkvision 60 ft., Detect scrying, Limitless vision,
 Mistsight, See in darkness, True seeing
 
-**Sources:** Bestiary 4 pg 13\
 **Subtype:** Mythic
 
 **Experience points:** 25,600

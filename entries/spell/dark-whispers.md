@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dark_whispers", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "209"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Targets: one creature/level
 Subschool: Shadow
 Descriptors: language-dependant, shadow
 :::
-
-**Sources:** Ultimate Intrigue pg 209
 
 You communicate through the shadows of one or more targets within range. The shadows have no
 physical presence and don't move or animate. Instead, your words emerge from the shadow as a clear

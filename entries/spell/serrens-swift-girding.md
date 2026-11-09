@@ -6,6 +6,9 @@ source_ids = ["knights-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "serrens_swift_girding", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "knights-of-the-inner-sea"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: none
 Spell resistance: yes
 Target: one willing creature/level
 :::
-
-**Sources:** Knights of the Inner Sea pg 29
 
 With a sweep of your hand, you select a number of targets and the same number of suits of armor. The
 targets of this spell are immediately clad in the armor that you choose. The subjects of the spell

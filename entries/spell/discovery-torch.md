@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "discovery_torch", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "228"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: no
 Target: object touched
 Descriptors: light
 :::
-
-**Sources:** Ultimate Combat pg 228
 
 An object you touch emanates a 20-foot radius of bright light. The effect looks like a regular flame
 but creates no heat and uses no oxygen. Allies within the area of this light gain a +2 enhancement

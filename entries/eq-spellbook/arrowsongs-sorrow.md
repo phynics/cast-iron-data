@@ -6,6 +6,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arrowsongs_sorrow", path = "json/equipment_spellbooks.json" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "30"
 
 [fields]
 kind = "item"
@@ -22,8 +25,6 @@ countermeasures that more martially inclined persons can use to disrupt spellcas
 tone of Arrowsong's notes is one of bitter melancholy, and an equal amount of space is dedicated to
 slanderous poetry directed toward Arrowsong's parents and the book's writers, who might be the same
 people._
-
-**Sources:** Arcane Anthology pg 30
 
 **Value** 1,200 gp (2,200 gp with the preparation ritual)
 

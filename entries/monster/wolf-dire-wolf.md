@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wolf_dire_wolf", path = "json/monsters25.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "278"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ _This immense black wolf is the size of a horse, its fangs as large and sharp as
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 278\
 **Experience points:** 800
 
 **Armor class:** 14/11/12

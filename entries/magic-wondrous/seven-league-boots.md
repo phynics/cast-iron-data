@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seven_league_boots", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "156"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Sources:** Mythic Adventures pg 156\
 **Aura** moderate transmutation; **CL** 10th\
 **Slot** feet; **Price** 80,000 gp; **Weight** 1 lb.
 

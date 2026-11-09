@@ -6,6 +6,9 @@ source_ids = ["andoran-birthplace-of-freedom"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bee_man_of_bellis", path = "json/monsters_unique.json" },
 ]
+[[sources]]
+publication = "andoran-birthplace-of-freedom"
+page = "51"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ _This shabby-cloaked figure is surrounded by hundreds of bees._
 
 **Senses:** Darkvision 60 ft., Scent
 
-**Sources:** Andoran, Birthplace of Freedom pg 51\
 **Experience points:** 6,400
 
 **Armor class:** 23/17/16

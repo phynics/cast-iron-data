@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cushioning_bands", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "215"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Target: creature touched
 Subschool: Creation
 Descriptors: force
 :::
-
-**Sources:** Ultimate Magic pg 215
 
 Invisible bands of force encircle vital areas of the target. The bands resist crushing forces and
 impacts without interfering with movement. The target gains DR 2/piercing or slashing and takes half

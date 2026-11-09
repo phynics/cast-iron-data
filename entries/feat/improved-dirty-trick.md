@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_dirty_trick", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "162"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ normal = "You provoke an attack of opportunity when performing a dirty trick com
 +++
 
 ## Improved Dirty Trick (Combat)
-
-**Sources:** Advanced Player's Guide pg 162
 
 You are skilled at pulling dirty tricks on your foes.\
 **Prerequisites:** Int 13, [Combat Expertise](ref/feat/combat-expertise).\

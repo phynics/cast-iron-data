@@ -6,6 +6,12 @@ source_ids = ["advanced-class-guide", "pirates-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "buoyancy", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "177"
+[[sources]]
+publication = "pirates-of-the-inner-sea"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -44,8 +50,6 @@ Saving throw: Will negates (harmless) or Will negates (object)
 Spell resistance: yes (object)
 Targets: one Medium or smaller object or creature/level, no two of which can be more than 20 ft. apart
 :::
-
-**Sources:** Advanced Class Guide pg 177, Pirates of the Inner Sea pg 28
 
 The affected targets become incredibly buoyant, floating naturally on any water at least 1 foot
 deep. An affected creature that deliberately tries to submerge must succeed at a DC 20 Swim check

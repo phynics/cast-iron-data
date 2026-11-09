@@ -6,14 +6,15 @@ source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enchanting_courtesan", path = "json/prestige_classes4.json" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "34"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d6."
 +++
-
-**Sources:** Inner Sea Intrigue pg 34
 
 Enchanting courtesans are elite information brokers who perfect their bodies and develop their minds
 to use illusions, enchantments, and other magical extensions of their considerable charms. Although

@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cat_cheetah", path = "json/monsters04.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "40"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ obviously capable of great speed._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 40\
 **Experience points:** 600
 
 **Armor class:** 15/14/11

@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "abjuring_step", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "221"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: no
 Target: you
 Descriptors: force
 :::
-
-**Sources:** Ultimate Combat pg 221
 
 This spell creates a subtle and complicated force effect that is most effective when used by a still
 or slow-moving spellcaster or formula user. While you are subject to this spell, you can take two

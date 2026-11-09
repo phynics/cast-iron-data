@@ -6,6 +6,9 @@ source_ids = ["dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "peacemakers_parley", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "dwarves-of-golarion"
+page = "23"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Area: creatures in a 20-ft.-radius spread
 Subschool: Charm
 Descriptors: language-dependant, mind-affecting
 :::
-
-**Sources:** Dwarves of Golarion pg 23
 
 > _In order to prepare this spell, the caster must spend an hour performing a ritual in which he
 > beseeches [Torag](ref/faith/torag) (or a member of his family) for the aid of

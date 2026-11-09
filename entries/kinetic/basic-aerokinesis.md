@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "basic_aerokinesis", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "23"
 
 [fields]
 kind = "class_option"
@@ -21,8 +24,6 @@ group = "kineticist-wild-talent"
 **Level:** 1
 
 **Burn:** 0
-
-**Source:** Occult Adventures/23
 
 You can create a light breeze that blows against a creature or object from a direction of your
 choice that follows the target wherever it goes. The breeze grants the subject a +2 bonus on saves

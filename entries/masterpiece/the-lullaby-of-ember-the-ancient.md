@@ -6,6 +6,8 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_lullaby_of_ember_the_ancient", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
 
 [fields]
 kind = "class_option"
@@ -13,8 +15,6 @@ group = "bardic-masterpiece"
 +++
 
 ## The Lullaby of Ember the Ancient (Sing)
-
-**Sources:** Ultimate Magic
 
 You can put powerful creatures to sleep with the power of your song.
 

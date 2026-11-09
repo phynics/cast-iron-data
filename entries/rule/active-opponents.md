@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "active_opponents", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "103"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 103
 
 The PCs may not be the only ones seeking to influence prominent NPCs. An opposing party of NPCs at
 the same event can place additional pressure on the PCs to complete their task. Once either the PCs

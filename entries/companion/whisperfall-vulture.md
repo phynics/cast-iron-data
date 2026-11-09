@@ -6,13 +6,14 @@ source_ids = ["belkzen-hold-of-the-orc-hordes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "whisperfall_vulture", path = "json/class_ability_druid_companions.json" },
 ]
+[[sources]]
+publication = "belkzen-hold-of-the-orc-hordes"
+page = "55"
 
 [fields]
 kind = "class_option"
 group = "animal-companion"
 +++
-
-**Sources:** Belkzen, Hold of the Orc Hordes pg 55
 
 **Companion Type**
 

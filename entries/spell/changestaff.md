@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "changestaff", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "253"
 
 [fields]
 kind = "spell"
@@ -36,8 +39,6 @@ Saving throw: none
 Spell resistance: no
 Target: your touched staff
 :::
-
-**Sources:** PRPG Core Rulebook pg 253
 
 You change a specially prepared quarterstaff into a Huge treant-like creature, about 24 feet tall.
 When you plant the end of the staff in the ground and speak a special command to conclude the

@@ -6,12 +6,14 @@ source_ids = ["pathfinder-59-the-price-of-infamy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "creating_a_fleet", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "pathfinder-59-the-price-of-infamy"
+page = "64"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder \#59: The Price of Infamy pg 64\
 The PCs should follow the following steps to build their fleet.
 
 **Step 1 - Fleet Name, Home Port, and Flagship:** The name the PCs choose for their fleet and the

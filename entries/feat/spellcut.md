@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spellcut", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "22"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Once per round, you can use your base attack bonus in place of your t
 +++
 
 ## Spellcut (Weapon Mastery)
-
-**Sources:** Weapon Master's Handbook pg 22
 
 You can weaken waves of harmful magic energy with weapon blows.\
 **Prerequisites:** Str 13, [Cut from the Air](ref/feat/cut-from-the-air),

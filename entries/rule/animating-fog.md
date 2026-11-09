@@ -6,12 +6,12 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animating_fog", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures
 
 **Animating Fog (CR 6):** Arising from polluted cemeteries and other recesses of stagnated evil,
 these areas of heavy, corpse-gray fog reek of rot, and seem to have a strange and malevolent

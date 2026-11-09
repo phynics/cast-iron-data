@@ -6,6 +6,9 @@ source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "might_blight", path = "json/equipment_poisons.json" },
 ]
+[[sources]]
+publication = "merchants-manifest"
+page = "11"
 
 [fields]
 kind = "item"
@@ -13,8 +16,6 @@ category = "Poisons"
 price = "60 gp"
 weight = "&mdash;"
 +++
-
-**Sources:** Merchant's Manifest pg 11
 
 **Price** 60 gp; **Weight** —
 

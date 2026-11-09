@@ -6,6 +6,9 @@ source_ids = ["pathfinder-113-what-grows-within", "pathfinder-109-in-search-of-s
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "xhamen_dor", path = "json/faiths9.json" },
 ]
+[[sources]]
+publication = "pathfinder-113-what-grows-within"
+page = "65"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Xhamen-Dor**
 
 **Sub:** The Inmost Blot
-
-**Sources:** Pathfinder \#113: What Grows Within pg 65
 
 ### Details
 

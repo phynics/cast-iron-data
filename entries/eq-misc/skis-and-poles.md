@@ -6,6 +6,9 @@ source_ids = ["pathfinder-51-the-hungry-storm"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skis_and_poles", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "pathfinder-51-the-hungry-storm"
+page = "67"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "15 gp"
 weight = "6 lbs."
 +++
 
-**Sources:** Pathfinder \#51: The Hungry Storm pg 67\
 **Price** 15 gp; **Weight** 6 lbs.\
 **Category** Tools
 

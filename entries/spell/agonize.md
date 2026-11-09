@@ -6,6 +6,12 @@ source_ids = ["ultimate-magic", "book-of-the-damned-volume-1-princes-of-darkness
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "agonize", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "205"
+[[sources]]
+publication = "book-of-the-damned-volume-1-princes-of-darkness"
+page = "46"
 
 [fields]
 kind = "spell"
@@ -48,8 +54,6 @@ Spell resistance: yes
 Target: one conjured outsider or elemental (see text)
 Descriptors: evil, pain
 :::
-
-**Sources:** Ultimate Magic pg 205, Book of the Damned - Volume 1: Princes of Darkness pg 46
 
 You afflict a creature you have conjured via [planar ally](ref/spell/planar-ally) (or a similar
 spell) with bolts of vicious energy. These foul energies inflict terrible pain upon the conjured

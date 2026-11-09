@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "more_than_two_armies", path = "json/rules_campaign_types05.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "237"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 237
 
 These rules can also serve in battles where more than two armies clash. In such battles, when your
 army attempts an Offense check, you choose which enemy army (or armies, if you have multiple armies

@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "serialized_performance_combat", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "157"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 157
 
 If you are running a series of performance combats as part of your campaign, successes and failures
 for each performance combat can affect the starting attitude of the crowd in future performance

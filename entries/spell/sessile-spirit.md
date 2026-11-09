@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sessile_spirit", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "185"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes
 Target: one creature or object (see text)
 :::
-
-**Sources:** Occult Adventures pg 185
 
 You reach into the target creature and cause that spirits within to become dormant and inactive. If
 the target is a medium with a spirit inhabiting its body or a spiritualist with a phantom inhabiting

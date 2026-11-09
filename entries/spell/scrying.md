@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scrying", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "337"
 
 [fields]
 kind = "spell"
@@ -56,8 +59,6 @@ Spell resistance: yes
 Effect: magical sensor
 Subschool: Scrying
 :::
-
-**Sources:** PRPG Core Rulebook pg 337
 
 You can observe a creature at any distance. If the subject succeeds on a Will save, the spell fails.
 The difficulty of the save depends on how well your knowledge of the subject and what sort of

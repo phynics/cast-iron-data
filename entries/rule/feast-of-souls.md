@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "feast_of_souls", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "223"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 223
 
 With alarming frequency, the rising of the morning sun reveals multiple brutal murders from the
 night before, and the victims' souls, now separated from their mortal vessels, have failed to answer

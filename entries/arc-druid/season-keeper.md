@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "people-of-the-stars"
+page = "13"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Trackless step", "venom immunity", "timeless body"]
 alters = ["Nature bond", "Wild shape"]
 +++
 
-**Sources:** People of the Stars pg 13\
 Imbued with the primeval potency of their planet's seasons, those druids known as season keepers
 guide Triaxian communities through the stark transition from summer to winter (and vice versa). The
 nature spirits that season keepers allow to possess their animal companions inspire both awe and

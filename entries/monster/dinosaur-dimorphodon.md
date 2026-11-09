@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "pathfinder-37-souls-for-smugglers-shiv"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dinosaur_dimorphodon", path = "json/monsters08.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "58"
+[[sources]]
+publication = "pathfinder-37-souls-for-smugglers-shiv"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ with tiny sharp teeth._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Bestiary 4 pg 58, Pathfinder \#37: Souls for Smuggler's Shiv pg 82\
 **Experience points:** 400
 
 **Armor class:** 14/13/11

@@ -6,6 +6,9 @@ source_ids = ["concordance-of-rivals"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monad", path = "json/faiths6.json" },
 ]
+[[sources]]
+publication = "concordance-of-rivals"
+page = "11"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Monad**
 
 **Sub:** The Condition of All
-
-**Sources:** Concordance of Rivals pg 11
 
 ### Details
 

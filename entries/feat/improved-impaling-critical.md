@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_impaling_critical", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "105"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While you are using Impaling Critical to impale an opponent, and you 
 +++
 
 ## Improved Impaling Critical (Combat, Critical)
-
-**Sources:** Ultimate Combat pg 105
 
 When you impale a target, you hinder its movement and can cause severe bleeding.\
 **Prerequisites:** [Impaling Critical](ref/feat/impaling-critical),

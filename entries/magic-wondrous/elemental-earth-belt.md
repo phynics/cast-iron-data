@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_earth_belt", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "211"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Sources:** Ultimate Equipment pg 211\
 **Aura** moderate transmutation; **CL** 11th\
 **Slot** belt; **Price** 24,000 gp; **Weight** 3 lbs.
 

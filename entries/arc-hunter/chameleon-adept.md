@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/hunter" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "52"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Teamwork feats", "hunter's tactics", "Wild empathy", "Precise compa
 alters = ["One with the wild"]
 +++
 
-**Sources:** Ultimate Wilderness pg 52\
 Some hunters are masters of blending into every situation, even making their companions appear
 humanoid for brief periods of time.
 

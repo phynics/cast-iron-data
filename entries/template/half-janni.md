@@ -6,6 +6,9 @@ source_ids = ["qadira-gateway-to-the-east"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "half_janni", path = "json/monster_template2.json" },
 ]
+[[sources]]
+publication = "qadira-gateway-to-the-east"
+page = "27"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +2
-
-**Source:** Qadira, Gateway to the East/27
 
 Jann are the kind of genie closest to humans in interests and temperament, and are drawn to mingle
 with mortals. Sometimes these associations result in the birth of half-janni children. Beautiful and

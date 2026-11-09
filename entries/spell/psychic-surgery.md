@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychic_surgery", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "183"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: no
 Target: one willing and living creature
 Descriptors: mind-affecting
 :::
-
-**Sources:** Occult Adventures pg 183
 
 Psychic surgery cures the target of all Intelligence, Wisdom, and Charisma damage and restores all
 points permanently drained from the target's Intelligence, Wisdom, and Charisma scores. It also

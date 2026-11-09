@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/summoner" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "78"
 
 [fields]
 kind = "archetype"
 replaces = ["Eidolon", "Life link", "Life bond", "Merge forms"]
 +++
 
-**Sources:** Ultimate Magic pg 78\
 Most summoners bond with one eidolon for their entire lives, but the broodmaster forges a link with
 multiple smaller eidolons that make up his brood. Separately, a broodmaster's eidolons are no match
 for a summoner's single eidolon, but taken as a whole, an eidolon brood makes up in quantity what it

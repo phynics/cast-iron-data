@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ace_disarm", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "20"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You don't take the -2 penalty for attempting disarm combat maneuver c
 +++
 
 ## Ace Disarm (Targeting, Weapon Mastery)
-
-**Sources:** Weapon Master's Handbook pg 20
 
 You catch objects with your ranged attacks and drag them along with you.\
 **Prerequisites:** Dex 13, [Deadly Aim](ref/feat/deadly-aim),

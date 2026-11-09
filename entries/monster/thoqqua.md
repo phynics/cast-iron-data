@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thoqqua", path = "json/monsters23.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "262"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ rises from its red-hot scales._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 2 pg 262\
 **Subtype:** Earth, Elemental, Extraplanar, Fire
 
 **tremorsense:** 60

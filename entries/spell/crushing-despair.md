@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crushing_despair", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "262"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Area: cone-shaped burst
 Subschool: Compulsion
 Descriptors: emotion, mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 262
 
 An invisible cone of despair causes great sadness in the subjects. Each affected creature takes a -2
 penalty on attack rolls, saving throws, ability checks, skill checks, and weapon damage rolls.

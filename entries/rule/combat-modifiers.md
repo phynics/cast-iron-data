@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "combat_modifiers", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "195"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 195
 
 A number of factors and conditions can influence an attack roll. Many of these situations grant a
 bonus or penalty on attack rolls or to a defender's Armor Class.

@@ -6,6 +6,12 @@ source_ids = ["monster-codex", "blood-of-the-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloodletting_thimble", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "237"
+[[sources]]
+publication = "blood-of-the-night"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint enchantment"
 caster_level = "3rd"
 +++
 
-**Sources:** Monster Codex pg 237, Blood of the Night pg 31\
 **Aura** faint enchantment; **CL** 3rd\
 **Slot** ring; **Price** 2,000 gp; **Weight** -
 

@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "pathfinder-60-from-hells-heart"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lorelei", path = "json/monsters16.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "184"
+[[sources]]
+publication = "pathfinder-60-from-hells-heart"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -44,7 +50,6 @@ sprouting from its scalp._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 4 pg 184, Pathfinder \#60: From Hell's Heart pg 86\
 **Subtype:** Aquatic
 
 **Experience points:** 19,200

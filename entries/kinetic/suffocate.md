@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "suffocate", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "27"
 
 [fields]
 kind = "class_option"
@@ -25,8 +28,6 @@ group = "kineticist-wild-talent"
 **Saving throw:** Fortitude partial
 
 **Spell resistance:** yes
-
-**Source:** Occult Adventures/27
 
 You use aether to choke a creature within 120 feet, air to create an area of unbreathable air around
 it, or water to fill its throat with water. If your target needs to breathe, it must hold its breath

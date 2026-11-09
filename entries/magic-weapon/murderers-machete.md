@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "murderers_machete", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "215"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration [evil]"
 caster_level = "11th"
 +++
 
-**Sources:** Horror Adventures pg 215\
 **Aura** moderate conjuration \[evil\]; **CL** 11th\
 **Slot** none; **Price** 32,870 gp; **Weight** 3 lbs.
 

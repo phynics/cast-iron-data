@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mighty_fist_of_the_earth", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "149"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Target: one creature
 Subschool: Creation
 Descriptors: earth
 :::
-
-**Sources:** Advanced Race Guide pg 149
 
 > _[Oreads](ref/race/oread) have access to the following spell._
 

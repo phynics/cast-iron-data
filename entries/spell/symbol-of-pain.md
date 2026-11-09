@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/symbol-of-death" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "356"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Spell resistance: yes
 Effect: one symbol
 Descriptors: evil, pain
 :::
-
-**Sources:** PRPG Core Rulebook pg 356
 
 This spell functions like [symbol of death](ref/spell/symbol-of-death), except that each creature
 within the radius of a symbol of pain instead suffers wracking pains that impose a -4 penalty on

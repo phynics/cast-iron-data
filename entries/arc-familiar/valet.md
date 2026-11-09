@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "valet", path = "json/archetypes_FAMILIAR.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "213"
+[[sources]]
+publication = "animal-archive"
+page = "21"
 
 [fields]
 kind = "archetype"
@@ -13,7 +19,6 @@ replaces = ["Alertness", "Share spells", "Improved evasion", "Speak with animals
 alters = ["Deliver touch spells"]
 +++
 
-**Sources:** Ultimate Wilderness pg 213, Animal Archive pg 21\
 A valet is a consummate personal servant, able to fetch, deliver, and perform for its master's every
 need.
 

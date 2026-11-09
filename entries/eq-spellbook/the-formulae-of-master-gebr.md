@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_formulae_of_master_gebr", path = "json/equipment_spellbooks.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "127"
 
 [fields]
 kind = "item"
@@ -18,8 +21,6 @@ _These four cloth-bound books are neatly printed - as with a printing press or s
 mechanical transcription - with a title page, a table of contents, and a useful cross-referenced
 index. They have been treated well and are clearly reference works, rather than laboratory notes;
 the writer was obviously a most disciplined and focused inventor._
-
-**Sources:** Ultimate Magic pg 127
 
 **Protection** The cover is treated with [tears of death](ref/eq-poison/tears-of-death) poison.\
 **Value** 6,615 gp (11,115 gp with the preparation ritual)

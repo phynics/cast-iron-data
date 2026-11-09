@@ -6,6 +6,9 @@ source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "focused_blast", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "20"
 
 [fields]
 kind = "class_option"
@@ -23,8 +26,6 @@ group = "kineticist-wild-talent"
 **Associated:** any
 
 **Saving throw:** none
-
-**Source:** Psychic Anthology/20
 
 You focus your blast in a concentrated attack.
 

@@ -6,12 +6,13 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "advanced_offensive_traits", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "235"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Advanced Race Guide pg 235
 
 **Claws (2 RP):** **Prerequisites:** None; **Benefit:** Members of this race receive two claw
 attacks. These are primary natural attacks. The damage is

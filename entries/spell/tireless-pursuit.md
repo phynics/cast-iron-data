@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tireless_pursuit", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "249"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Advanced Player's Guide pg 249
 
 You harden your body against the stresses of long travel. You halve the damage caused by
 [hustling and forced marching](ref/rule/overland-movement). In addition, for the duration of the

@@ -6,12 +6,14 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "creating_an_ai", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "58"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Technology Guide pg 58\
 An artificial intelligence's stat block is similar to that of an intelligent magic item. Note that
 these statistics reflect only the intelligence itself, not the host. Building an AI stat block
 requires the following statistics.

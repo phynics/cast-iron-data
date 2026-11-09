@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/skald" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "48"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Uncanny dodge", "improved uncanny dodge", "damage reduction", "Dirg
 alters = ["Bardic knowledge"]
 +++
 
-**Sources:** Ultimate Intrigue pg 48\
 The bold schemer combines wrath, wits, and daring to win battles and wars in unconventional ways,
 often through infiltration and deception. If raw force of arms is insufficient, she improvises ways
 to pull victory from the jaws of defeat.

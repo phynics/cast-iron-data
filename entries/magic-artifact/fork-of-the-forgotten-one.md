@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fork_of_the_forgotten_one", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "337"
+[[sources]]
+publication = "advanced-players-guide"
+page = "317"
 
 [fields]
 kind = "item"
@@ -16,8 +22,6 @@ slot = "none"
 aura = "strong transmutation"
 caster_level = "20th"
 +++
-
-**Sources:** Ultimate Equipment pg 337, Advanced Player's Guide pg 317
 
 **Aura** strong transmutation; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 12 lbs.

@@ -6,12 +6,13 @@ source_ids = ["lands-of-conflict"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rank_mt", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "lands-of-conflict"
+page = "49"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Lands of Conflict pg 49
 
 **Rank:** The militia starts at rank 1 and can progress all the way to rank 20. A militia's rank
 affects many of its properties, including the number of special teams the PCs can keep trained at

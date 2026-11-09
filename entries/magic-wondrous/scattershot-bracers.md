@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scattershot_bracers", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "351"
 
 [fields]
 kind = "item"
@@ -15,8 +18,6 @@ slot = "wrists"
 aura = "faint transmutation"
 caster_level = "5th"
 +++
-
-**Sources:** Ultimate Equipment pg 351
 
 **Aura** faint transmutation; **CL** 5th\
 **Slot** wrists; **Weight** 1 lb.

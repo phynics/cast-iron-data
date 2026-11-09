@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "obsidian_flow", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "238"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: no
 Area: 20-ft.-radius burst
 Descriptors: earth, fire
 :::
-
-**Sources:** Ultimate Combat pg 238
 
 You convert a thin layer of the ground to molten glass that cools quickly. Creatures in the area
 take 1d6 points of fire damage per two caster levels (maximum of 10d6) and become entangled. Any

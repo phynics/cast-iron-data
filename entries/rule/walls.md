@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "walls", path = "json/rules_gm08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "410"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 410
 
 Masonry walls - stones piled on top of each other, usually but not always held in place with
 mortar - often divide dungeons into corridors and chambers. Dungeon walls can also be hewn from

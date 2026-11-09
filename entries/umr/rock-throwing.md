@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rock_throwing", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "298"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Rock Throwing (Ex)
 
-**Sources:** Bestiary 5 pg 298\
 This creature has a +1 racial bonus on attack rolls with thrown rocks. It can hurl rocks up to two
 categories smaller than its size. A "rock" is any large, bulky, and relatively regularly shaped
 object made of any material with a [hardness](ref/umr/hardness) of at least 5. The creature can hurl

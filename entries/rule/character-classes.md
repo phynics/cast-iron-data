@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "character_classes", path = "json/rules_adv_gm02.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "196"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 196
 
 You might create a monster that should use the statistics for a character class, either because the
 monster would normally be created by adding class levels to the monster or because you think the

@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bestow_auras", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "175"
 
 [fields]
 kind = "spell"
@@ -37,8 +40,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes
 Target: one creature
 :::
-
-**Sources:** Advanced Class Guide pg 175
 
 You transfer one or more of your paladin or antipaladin auras (such as aura of courage and aura of
 resolve) to another creature. You retain the personal effect of that aura, but the target becomes

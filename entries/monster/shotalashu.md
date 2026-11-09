@@ -6,6 +6,9 @@ source_ids = ["occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shotalashu", path = "json/monsters38.json" },
 ]
+[[sources]]
+publication = "occult-bestiary"
+page = "53"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ _This large, four-legged reptile has a brown scaled hide and a long, powerful ta
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Occult Bestiary pg 53\
 **Experience points:** 600
 
 **Armor class:** 15/12/12

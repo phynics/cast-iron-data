@@ -6,6 +6,9 @@ source_ids = ["occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "duergar_duergar_tyrant", path = "json/monsters08.json" },
 ]
+[[sources]]
+publication = "occult-bestiary"
+page = "23"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ _The dull gray skin of this dwarf ripples with kinetic power._
 
 **Senses:** Darkvision 120 ft.
 
-**Sources:** Occult Bestiary pg 23\
 **Subtype:** Dwarf
 
 **Experience points:** 800

@@ -6,14 +6,15 @@ source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_sticker_dwarven", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "heroes-from-the-fringe"
+page = "8"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "12 lbs."
 +++
-
-**Sources:** Heroes from the Fringe pg 8
 
 This heavy bladed spear is specifically designed for use against giants, who have long reach and the
 ability to soak up large amounts of damage.

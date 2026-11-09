@@ -6,6 +6,9 @@ source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "illusory_maze", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "inner-sea-monster-codex"
+page = "41"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: yes
 Area: 20-ft.-radius spread
 Subschool: Figment
 :::
-
-**Sources:** Inner Sea Monster Codex pg 41
 
 This spell creates the illusion of a translucent, ever-changing maze of glass in the target area.
 Creatures in the area who believe the maze to be real cannot move more than 5 feet continuously in

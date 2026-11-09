@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alter_ego", path = "json/monster_template1.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "9"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +0
-
-**Source:** Bestiary 6/9
 
 An alter ego arises when a sliver of a creature's personality breaks free and coalesces into an
 independent being. An alter ego is almost always formed by accident rather than by design, and

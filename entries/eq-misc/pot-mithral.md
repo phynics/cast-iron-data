@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pot_mithral", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "57"
+[[sources]]
+publication = "core-rulebook"
+page = "158"
 
 [fields]
 kind = "item"
@@ -16,7 +22,6 @@ weight = "4 lbs. (common, iron), 2 lbs. (mithral)"
 
 ## Pot
 
-**Sources:** Ultimate Equipment pg 57, PRPG Core Rulebook pg 158\
 **Price** 8 sp (common, iron), 2,001 gp (mithral); **Weight** 4 lbs. (common, iron), 2 lbs.
 (mithral)
 

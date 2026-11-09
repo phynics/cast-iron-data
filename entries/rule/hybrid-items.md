@@ -6,12 +6,14 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hybrid_items", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "17"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Technology Guide pg 17\
 Items with both magical and technological components, such as the
 [null blade](ref/tech-weapon/null-blade), use a special crafting process. The creator must first
 succeed at a skill check at the listed DC for crafting the technological portion of the item, and

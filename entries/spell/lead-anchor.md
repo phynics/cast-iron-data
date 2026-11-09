@@ -6,6 +6,9 @@ source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lead_anchor", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
+page = "60"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Saving throw: Will negates
 Spell resistance: yes
 Target: creature touched
 :::
-
-**Sources:** Aquatic Adventures pg 60
 
 The target's buoyancy becomes and stays swiftly sinking, regardless of how dense the target and its
 gear are. Among other effects, the target can walk on the bottom, but she also needs to succeed at a

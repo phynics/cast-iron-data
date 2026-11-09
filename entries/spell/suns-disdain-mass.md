@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/suns-disdain" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "17"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Descriptors: curse
 :::
 
 ### Mass Sun's Disdain
-
-**Sources:** Adventurer's Guide pg 17
 
 This spell functions like [sun's disdain](ref/spell/suns-disdain), except that it can affect
 multiple creatures.

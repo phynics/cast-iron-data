@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "third_eye", path = "json/equipment_poisons.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "145"
 
 [fields]
 kind = "item"
@@ -13,8 +16,6 @@ category = "Poisons"
 price = "900 gp"
 weight = "&mdash;"
 +++
-
-**Sources:** Ultimate Wilderness pg 145
 
 **Price** 900 gp; **Weight** —
 

@@ -6,6 +6,9 @@ source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bend_with_the_wind", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "faiths-and-philosophies"
+page = "19"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "For 24 hours after you meditate, you gain cold resistance 5 and fire 
 +++
 
 ## Bend with the Wind (Meditation)
-
-**Sources:** Faiths and Philosophies pg 19
 
 Meditation allows you to regulate your body temperature, heart rate, and other attributes to resist
 the elements.\

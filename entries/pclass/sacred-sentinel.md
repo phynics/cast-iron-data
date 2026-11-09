@@ -6,14 +6,15 @@ source_ids = ["paths-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sacred_sentinel", path = "json/prestige_classes3.json" },
 ]
+[[sources]]
+publication = "paths-of-the-righteous"
+page = "24"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d10."
 +++
-
-**Sources:** Paths of the Righteous pg 24
 
 Torag is thought of by many as a god of forging, but his primary areas of concern also include
 protection and strategy. Among the followers of Torag, some feel drawn to devote themselves to these

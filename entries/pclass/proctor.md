@@ -6,14 +6,15 @@ source_ids = ["concordance-of-rivals"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "proctor", path = "json/prestige_classes4.json" },
 ]
+[[sources]]
+publication = "concordance-of-rivals"
+page = "44"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d8."
 +++
-
-**Sources:** Concordance of Rivals pg 44
 
 The most ardent worshippers of the monitor demigods, called proctors, devote their lives to serving
 their divinities. Some proctors are wanderers, but most embed themselves in a community; experienced

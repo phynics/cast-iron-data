@@ -6,13 +6,15 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "law", path = "json/class_ability_blessings.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "66"
 
 [fields]
 kind = "class_option"
 group = "warpriest-blessing"
 +++
 
-**Sources:** Advanced Class Guide pg 66\
 **Deities:** [Abadar](ref/faith/abadar), [Asmodeus](ref/faith/asmodeus),
 [Erastil](ref/faith/erastil), [Iomedae](ref/faith/iomedae), [Irori](ref/faith/irori),
 [Torag](ref/faith/torag), [Zon-Kuthon](ref/faith/zon-kuthon)

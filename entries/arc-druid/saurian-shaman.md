@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "39"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Woodland stride", "Wild shape", "Venom immunity"]
 alters = ["Nature bond", "Wild empathy"]
 +++
 
-**Sources:** Ultimate Magic pg 39\
 A shaman with this focus calls upon the primeval dinosaur, the archaic terror that lingers as a
 hungering, atavistic stranger at the fringes of the ecosystem, a destroyer and despoiler whose
 coming other animals dread.

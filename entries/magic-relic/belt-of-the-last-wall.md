@@ -6,6 +6,8 @@ source_ids = ["pathfinder-141-last-watch"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "belt_of_the_last_wall", path = "json/magic_relics.json" },
 ]
+[[sources]]
+publication = "pathfinder-141-last-watch"
 
 [fields]
 kind = "item"
@@ -16,7 +18,6 @@ aura = "strong abjuration and necromancy [lawful]"
 caster_level = "13th"
 +++
 
-**Sources:** Pathfinder \#141: Last Watch\
 **Suitable For** (not given)\
 **Aura** strong abjuration and necromancy \[lawful\]\
 **Slot** belt; **CL** 13th\

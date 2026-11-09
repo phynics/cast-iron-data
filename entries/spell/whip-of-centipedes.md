@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/whip-of-spiders" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "199"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Subschool: Summoning
 :::
 
 ### Whip of Centipedes
-
-**Sources:** Advanced Class Guide pg 199
 
 This spell functions as [whip of spiders](ref/spell/whip-of-spiders), except it summons centipedes,
 and any creature you strike with the whip takes swarm damage as if it were attacked by a

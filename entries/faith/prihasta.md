@@ -6,6 +6,9 @@ source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prihasta", path = "json/faiths7.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "130"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Prihasta**
 
 **Sub:** The General Between Heaven and Hell
-
-**Sources:** Book of the Damned pg 130
 
 ### Details
 

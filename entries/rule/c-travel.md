@@ -6,12 +6,14 @@ source_ids = ["jade-regent-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "c_travel", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "jade-regent-players-guide"
+page = "24"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Jade Regent Player's Guide pg 24\
 A caravan's speed determines how many miles it can travel in a day - the speed doesn't really affect
 much on a tactical scale, since caravan combat utilizes very simple rules to resolve conflicts. A
 caravan's base speed is 32 miles per day, but this can be increased by taking the

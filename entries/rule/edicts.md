@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "edicts", path = "json/rules_campaign_types04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "208"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 208
 
 Edicts are the official pronouncements by your government about how you are running the kingdom that
 turn. For example, you may decide to have low or high taxes, to have more or fewer holidays, and how

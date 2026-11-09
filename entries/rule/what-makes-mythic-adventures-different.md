@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "what_makes_mythic_adventures_different", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "5"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 5
 
 In a world of might and sorcery, with dragons and elves, what does it mean to be "mythic"? Being
 mythic means possessing a degree of might unusual even in a fantasy world. Scenes turn more

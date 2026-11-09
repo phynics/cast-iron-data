@@ -6,6 +6,9 @@ source_ids = ["pathfinder-110-the-thrushmoor-terror"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "confabulation_plates", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "pathfinder-110-the-thrushmoor-terror"
+page = "52"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination and necromancy"
 caster_level = "5th"
 +++
 
-**Sources:** Pathfinder \#110: The Thrushmoor Terror pg 52\
 **Aura** faint divination and necromancy; **CL** 5th\
 **Slot** none; **Price** 9,000 gp; **Weight** 5 lbs.
 

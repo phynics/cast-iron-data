@@ -6,12 +6,14 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fugue_of_oblivion", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "132"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Adventures pg 132\
 **School** enchantment (compulsion); **Level** 6\
 **Casting Time** 6 hours\
 **Components** V, S, F (a receptacle urn worth at least 1,000 gp per level to be stolen; see below),

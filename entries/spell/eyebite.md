@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eyebite", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "280"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: yes
 Target: one living creature
 Descriptors: emotion, pain
 :::
-
-**Sources:** PRPG Core Rulebook pg 280
 
 Each round, you can target a single living creature, striking it with waves of power. Depending on
 the target's HD, this attack has as many as three effects.

@@ -6,14 +6,18 @@ source_ids = ["adventurers-guide", "andoran-spirit-of-liberty"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "steel_falcon", path = "json/prestige_classes3.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "70"
+[[sources]]
+publication = "andoran-spirit-of-liberty"
+page = "22"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d10."
 +++
-
-**Sources:** Adventurer's Guide pg 70, Andoran, Spirit of Liberty pg 22
 
 The Steel Falcons are Andoran's spiritual and physical vanguard, spreading the government's
 philosophical ideologies by whatever means necessary. This can be anything from bribing a foreign

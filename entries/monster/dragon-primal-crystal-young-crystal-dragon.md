@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_primal_crystal_young_crystal_dragon", path = "json/monsters30.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "98"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ wings are sheets of flexible glass._
 
 **Senses:** Dragon senses
 
-**Sources:** Bestiary 2 pg 98\
 **Subtype:** Earth, Extraplanar
 
 **tremorsense:** 30

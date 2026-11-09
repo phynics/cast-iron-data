@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hostile_levitation", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "231"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Saving throw: Will negates
 Spell resistance: yes
 Target: one creature
 :::
-
-**Sources:** Ultimate Combat pg 231
 
 You levitate the target a few inches off the ground, removing solid footing and halving the target's
 speed. The target also takes a -4 penalty to CMD against bull rush, drag, and reposition attempts. A

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-111-dreams-of-the-yellow-king"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "formless_spawn", path = "json/monsters31.json" },
 ]
+[[sources]]
+publication = "pathfinder-111-dreams-of-the-yellow-king"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ into a dark gullet._
 
 **Senses:** All-around vision
 
-**Sources:** Pathfinder \#111: Dreams of the Yellow King pg 82\
 **tremorsense:** 240
 
 **Experience points:** 9,600

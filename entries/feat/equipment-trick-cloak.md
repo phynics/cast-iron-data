@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "equipment_trick_cloak", path = "json/feat06.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "18"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "You can gain Equipment Trick multiple times. Each time you take the f
 +++
 
 ## Equipment Trick (Cloak) (Combat)
-
-**Sources:** Dirty Tactics Toolbox pg 18
 
 Choose a piece of equipment, such as an boots, a cloak, rope, a shield, or a heavy blade scabbard.
 You understand how to use that piece of equipment in combat.\

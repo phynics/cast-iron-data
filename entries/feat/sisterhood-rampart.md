@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sisterhood_rampart", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "85"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using Sisterhood Style, you and adjacent allies gain an additio
 +++
 
 ## Sisterhood Rampart (Combat)
-
-**Sources:** Adventurer's Guide pg 85
 
 The shield wall was the heart of the Gray Maidens' military strategy; combined with their precise
 tactical coordination, [Gray Maiden](ref/rule/aff-scarred-ladies) lines were nearly unbreakable.

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "book-of-the-damned-volume-2-lords-of-chaos", "b
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shamira", path = "json/faiths7.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "328"
 
 [fields]
 kind = "none"
@@ -15,7 +18,6 @@ kind = "none"
 
 **Sub:** Princess of the Porphyry City
 
-**Sources:** Inner Sea Gods pg 328\
 **Monster Link** [Shamira](ref/monster/shamira)
 
 ### Details

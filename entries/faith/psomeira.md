@@ -6,6 +6,9 @@ source_ids = ["distant-shores"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psomeira", path = "json/faiths7.json" },
 ]
+[[sources]]
+publication = "distant-shores"
+page = "13"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Psomeira**
 
 **Sub:** The Divine General
-
-**Sources:** Distant Shores pg 13
 
 ### Details
 

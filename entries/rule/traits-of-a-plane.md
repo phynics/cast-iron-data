@@ -6,12 +6,13 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "traits_of_a_plane", path = "json/rules_campaign_types09.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "58"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Planar Adventures pg 58
 
 Reality is not the constant a rational creature might like to think it is. Even on different worlds
 of the Material Plane, fundamental aspects of life vary - planets can have lower or higher gravity,

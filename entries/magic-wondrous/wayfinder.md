@@ -6,6 +6,27 @@ source_ids = ["ruins-of-azlant-players-guide", "pathfinder-2-the-skinsaw-murders
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wayfinder", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "ruins-of-azlant-players-guide"
+page = "11"
+[[sources]]
+publication = "pathfinder-2-the-skinsaw-murders"
+page = "77"
+[[sources]]
+publication = "pathfinder-campaign-setting"
+page = "195"
+[[sources]]
+publication = "seekers-of-secrets"
+page = "50"
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "299"
+[[sources]]
+publication = "shattered-star-players-guide"
+page = "11"
+[[sources]]
+publication = "adventurers-guide"
+page = "148"
 
 [fields]
 kind = "item"
@@ -17,9 +38,6 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Sources:** Ruins of Azlant Player's Guide pg 11, Pathfinder \#2: The Skinsaw Murders pg 77,
-Pathfinder Campaign Setting pg 195, Seekers of Secrets pg 50, Inner Sea World Guide pg 299,
-Shattered Star Player's Guide pg 11, Adventurer's Guide pg 148\
 **Aura** faint evocation; **CL** 5th\
 **Slot** none; **Price** 500 gp; **Weight** 1 lb.
 

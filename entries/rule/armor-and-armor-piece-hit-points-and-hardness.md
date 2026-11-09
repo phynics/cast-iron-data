@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "armor_and_armor_piece_hit_points_and_hardness", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "200"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 200
 
 To determine the hit points and [hardness](ref/umr/hardness) of your armor, use the hardness for the
 weakest material, and to determine hit points, add the total armor bonus (including the +1 for

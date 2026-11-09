@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slowing_mud", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "192"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: yes
 Targets: one creature/level, no two of which can be more than 30 ft. apart
 Subschool: Creation
 :::
-
-**Sources:** Advanced Class Guide pg 192
 
 You coat the targets in thick, sticky mud. The mud acts as a [slow](ref/spell/slow) spell and also
 blinds the targets. A creature can use a standard action to remove the mud from its eyes or the eyes

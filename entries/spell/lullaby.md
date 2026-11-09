@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lullaby", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "305"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Area: living creatures within a 10-ft.-radius burst
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 305
 
 Any creature within the area that fails a Will save becomes drowsy and inattentive, taking a -5
 penalty on Perception checks and a -2 penalty on Will saves against sleep effects while the lullaby

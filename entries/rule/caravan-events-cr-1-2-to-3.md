@@ -6,12 +6,12 @@ source_ids = ["pathfinder-49-the-brinewall-legacy", "pathfinder-51-the-hungry-st
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "caravan_events_cr_1_2_to_3", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "pathfinder-49-the-brinewall-legacy"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder \#49: The Brinewall Legacy
 
 **Bad Weather:** Fog, rain, high winds, or some other form of bad weather slows the caravan,
 reducing its overall speed by half for the day unless the caravan makes a DC 12 Security check.

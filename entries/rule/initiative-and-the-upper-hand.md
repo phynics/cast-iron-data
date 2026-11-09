@@ -6,12 +6,14 @@ source_ids = ["skull-and-shackles-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "initiative_and_the_upper_hand", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "skull-and-shackles-players-guide"
+page = "12"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Skull and Shackles Player's Guide pg 12\
 When combat begins, the pilot of a ship should roll **initiative** as normal - the ship moves at the
 start of its pilot's turn. If a ship has no pilot, it moves on the turn of the last creature that
 was its pilot, or on a turn determined by the GM. If they wish to take actions in combat, the PCs

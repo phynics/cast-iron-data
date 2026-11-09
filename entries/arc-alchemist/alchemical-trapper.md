@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "128"
 
 [fields]
 kind = "archetype"
 replaces = ["The discovery at 2nd level", "The discovery at 4th level"]
 +++
 
-**Sources:** Monster Codex pg 128\
 Because kobolds rely on [traps](ref/rule/traps) to soften up enemies, kobold alchemists learn to
 turn bombs into traps. When such alchemists are preparing defenses against larger creatures that
 might enter their tunnels and attempt to exterminate them, their skills mean the difference between

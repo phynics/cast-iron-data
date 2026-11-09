@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deafening_critical", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "121"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "You can only apply the effects of one critical feat to a given critic
 +++
 
 ## Deafening Critical (Combat, Critical)
-
-**Sources:** PRPG Core Rulebook pg 121
 
 Your critical hits cause enemies to lose their hearing.\
 **Prerequisites:** [Critical Focus](ref/feat/critical-focus), base attack bonus +13.\

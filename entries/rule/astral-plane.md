@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "astral_plane", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "191"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 191
 
 The Astral Plane is the space between the Inner and Outer Planes, and coterminous with all of the
 planes. When a character moves through a portal or projects her spirit to a different plane of

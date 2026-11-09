@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "euryale", path = "json/monsters42.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "120"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ cobras for hair._
 
 **Senses:** Darkvision 120 ft., True seeing
 
-**Sources:** Bestiary 6 pg 120\
 **Experience points:** 307,200
 
 **Armor class:** 37/32/25

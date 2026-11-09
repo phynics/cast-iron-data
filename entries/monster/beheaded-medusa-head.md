@@ -6,6 +6,9 @@ source_ids = ["pathfinder-43-haunting-of-harrowstone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beheaded_medusa_head", path = "json/monsters03.json" },
 ]
+[[sources]]
+publication = "pathfinder-43-haunting-of-harrowstone"
+page = "83"
 
 [fields]
 kind = "creature"
@@ -39,7 +42,6 @@ graying teeth clattering slightly as it bobs in the air._
 
 **Size:** small
 
-**Sources:** Pathfinder \#43: Haunting of Harrowstone pg 83\
 **Type:** undead
 
 **Experience points:** 800

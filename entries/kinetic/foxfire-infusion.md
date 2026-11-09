@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "foxfire_infusion", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "58"
+[[sources]]
+publication = "psychic-anthology"
+page = "20"
 
 [fields]
 kind = "class_option"
@@ -28,8 +34,6 @@ group = "kineticist-wild-talent"
 [Fire Blast](ref/kinetic/fire-blast), Positive Blast
 
 **Saving throw:** Will partial
-
-**Source:** Ultimate Wilderness/58, Psychic Anthology/20
 
 Your blast leaves behind flickering flames that reveal the target's location as per
 [faerie fire](ref/spell/faerie-fire) for 1 minute (or until your next turn if the target succeeds at

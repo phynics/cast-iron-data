@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/swashbuckler" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "6"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Derring-do", "Kip-up", "Bleeding wound", "Perfect thrust"]
 alters = ["Charmed life"]
 +++
 
-**Sources:** Weapon Master's Handbook pg 6\
 Rondelero swashbucklers are Taldan specialists in an aggressive, lightly armored fighting style that
 utilizes the falcata and buckler.
 

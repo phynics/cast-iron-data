@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mind_blank", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "313"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: one creature
 :::
-
-**Sources:** PRPG Core Rulebook pg 313
 
 The subject is protected from all devices and spells that gather information about the target
 through divination magic (such as [detect evil](ref/spell/detect-evil),

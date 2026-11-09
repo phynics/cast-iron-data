@@ -6,12 +6,14 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tech_weapons", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "20"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Technology Guide pg 20\
 Each technological weapon has a full description, including a set of abbreviated statistics. This
 information is organized as follows.
 

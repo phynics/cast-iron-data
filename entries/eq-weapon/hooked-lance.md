@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hooked_lance", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "19"
+[[sources]]
+publication = "ultimate-combat"
+page = "131"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "10 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 19, Ultimate Combat pg 131
 
 This slender, 10-foot-long polearm has an added hook protruding from the head that is used to snag
 the clothing and armor of opponents. A hooked lance, unlike a lance, can't be wielded in one hand

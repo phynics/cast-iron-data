@@ -6,14 +6,15 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vermin", path = "json/monster_types.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "310"
 
 [fields]
 kind = "none"
 +++
 
 ## Type: Vermin
-
-**Sources:** Pathfinder RPG Bestiary pg 310
 
 This type includes insects, arachnids, other arthropods, worms, and similar invertebrates.
 

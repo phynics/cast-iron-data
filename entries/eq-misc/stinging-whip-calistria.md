@@ -6,6 +6,9 @@ source_ids = ["faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stinging_whip_calistria", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "faiths-of-balance"
+page = "25"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "50 gp"
 weight = "5 lbs."
 +++
 
-**Sources:** Faiths of Balance pg 25\
 **Price** 50 gp; **Weight** 5 lbs.\
 **Category** Channel Foci\
 **Deity** [Calistria](ref/faith/calistria)

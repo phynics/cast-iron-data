@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "curse_spells", path = "json/rules_campaign_types02.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "138"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 138
 
 Many spells can place curses on unfortunate victims. Their effects are usually simple and can be
 ended with the right spell (but never [dispel magic](ref/spell/dispel-magic)). All curse spells have

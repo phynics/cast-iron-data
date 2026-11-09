@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloak_of_the_sneaky_scoundrel", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "228"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint illusion"
 caster_level = "5th"
 +++
 
-**Sources:** Advanced Class Guide pg 228\
 **Aura** faint illusion; **CL** 5th\
 **Slot** shoulders; **Price** 6,400 gp; **Weight** 2 lbs.
 

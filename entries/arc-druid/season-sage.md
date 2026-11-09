@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "11"
 
 [fields]
 kind = "archetype"
 replaces = ["Wild shape"]
 +++
 
-**Sources:** Ultimate Wilderness pg 11\
 Season sages wander as the seasons change, turning the leaves and transforming nature as they pass
 and taking pleasure in the transition between seasons.
 

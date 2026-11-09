@@ -6,6 +6,12 @@ source_ids = ["bestiary-2", "pathfinder-12-crown-of-fangs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_belier_devil_bdellavritra", path = "json/monsters07.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "85"
+[[sources]]
+publication = "pathfinder-12-crown-of-fangs"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ three human heads at the other._
 
 **Senses:** Darkvision 60 ft., See in darkness
 
-**Sources:** Bestiary 2 pg 85, Pathfinder \#12: Crown of Fangs pg 84\
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **Experience points:** 76,800

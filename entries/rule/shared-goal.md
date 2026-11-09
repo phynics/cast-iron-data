@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shared_goal", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "64"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 64
 
 Perhaps one character shows up at the entrance to a recently uncovered dungeon looking for her
 missing niece, and soon after a robed figure also approaches the entrance tracking down a kobold who

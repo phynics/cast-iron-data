@@ -6,6 +6,9 @@ source_ids = ["daughters-of-fury"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "patternward_spectacles", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "daughters-of-fury"
+page = "62"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "7th"
 +++
 
-**Sources:** Daughters of Fury pg 62\
 **Aura** moderate abjuration; **CL** 7th\
 **Slot** eyes; **Price** 750 gp; **Weight** 1 lb.
 

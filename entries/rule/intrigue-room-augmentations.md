@@ -6,12 +6,13 @@ source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "intrigue_room_augmentations", path = "json/rules_subsystems02.json" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "56"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Inner Sea Intrigue pg 56
 
 Master architects across the Inner Sea region and beyond use certain building materials to protect
 against thieves and spies as well as invaders. The following room augmentations can be used to

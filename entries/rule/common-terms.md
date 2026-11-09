@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "common_terms", path = "json/rules_basics01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "11"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 11
 
 The Pathfinder RPG uses a number of terms, abbreviations, and definitions in presenting the rules of
 the game. The following are among the most common.

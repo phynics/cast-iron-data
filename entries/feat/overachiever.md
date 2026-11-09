@@ -6,6 +6,9 @@ source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "overachiever", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "agents-of-evil"
+page = "9"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You take only half the normal penalties from exhaustion. Choose one s
 +++
 
 ## Overachiever (Story)
-
-**Sources:** Agents of Evil pg 9
 
 Others made you feel small for too long, and now you drive yourself hard and never settle for second
 place.\

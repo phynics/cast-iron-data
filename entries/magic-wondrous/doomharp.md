@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "doomharp", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "291"
+[[sources]]
+publication = "advanced-players-guide"
+page = "304"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint necromancy"
 caster_level = "4th"
 +++
 
-**Sources:** Ultimate Equipment pg 291, Advanced Player's Guide pg 304\
 **Aura** faint necromancy; **CL** 4th\
 **Slot** none; **Price** 10,000 gp; **Weight** 5 lbs.
 

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "30"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Bardic knowledge", "dirge of doom", "distraction", "fascinate", "in
 alters = ["Weapon proficiencies", "Spellcasting"]
 +++
 
-**Sources:** Arcane Anthology pg 30\
 Originating from the wooded wilds of Hymbria, Arrowsong minstrels combine the elven traditions of
 archery, song, and spellcasting into a seamless harmony of dazzling magical effects.
 

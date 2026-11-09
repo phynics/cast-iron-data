@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "investment_mechanics", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "164"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 164
 
 When a PC decides to invest, ask the player how much money the PC provides for the investment. This
 is the seed money, and has a direct effect on how much money the investment earns each year (see

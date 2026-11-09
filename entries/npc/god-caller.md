@@ -6,6 +6,9 @@ source_ids = ["inner-sea-npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "god_caller", path = "json/npcs5.json" },
 ]
+[[sources]]
+publication = "inner-sea-npc-codex"
+page = "24"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "4"
 
 **Challenge rating:** 4
 
-**Sources:** Inner Sea NPC Codex pg 24\
 **XP** 1,200\
 Human [summoner](ref/class/summoner) 5\
 N Medium humanoid (human)\

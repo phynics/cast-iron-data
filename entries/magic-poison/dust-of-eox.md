@@ -6,6 +6,9 @@ source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dust_of_eox", path = "json/magic_infused_poisons.json" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "13"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Sources:** Black Markets pg 13\
 **Aura** faint abjuration; **CL** 5th\
 **Slot**; **Price** 1,150 gp; **Weight** —
 

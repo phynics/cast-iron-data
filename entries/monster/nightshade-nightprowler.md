@@ -6,6 +6,9 @@ source_ids = ["pathfinder-102-breaking-the-bones-of-hell"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nightshade_nightprowler", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "pathfinder-102-breaking-the-bones-of-hell"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ baleful hatred._
 
 **Senses:** Darksense 30 ft., Darkvision 60 ft., Detect magic, Low-light vision, Scent
 
-**Sources:** Pathfinder \#102: Breaking the Bones of Hell pg 90\
 **Subtype:** Extraplanar, Nightshade
 
 **Type:** undead

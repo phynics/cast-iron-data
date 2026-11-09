@@ -6,6 +6,9 @@ source_ids = ["faiths-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gruhastha", path = "json/faiths4.json" },
 ]
+[[sources]]
+publication = "faiths-of-golarion"
+page = "17"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Gruhastha**
 
 **Sub:** The Keeper
-
-**Sources:** Faiths of Golarion pg 17
 
 ### Details
 

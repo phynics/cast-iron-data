@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "134"
 
 [fields]
 kind = "archetype"
 replaces = ["Uncanny dodge", "Improved uncanny dodge"]
 +++
 
-**Sources:** Advanced Player's Guide pg 134\
 Not all rogues live in the city. Scouts frequently roam the wilderness, often banding together as
 bandits, but sometimes serving as guides, as trailblazers, or as companions to a ranger or barbarian
 warrior. More comfortable with sneaking and hiding outdoors, the scout is still effective in the

@@ -6,12 +6,14 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aff_deserts", path = "json/rules_subsystems01.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "8"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Adventurer's Guide pg 8\
 **Pathfinder Name:** Al-Zabriti\
 **Scope:** national\
 **Alignment:** NG\

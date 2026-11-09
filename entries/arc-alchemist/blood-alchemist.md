@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "44"
 
 [fields]
 kind = "archetype"
 replaces = ["Mutagen", "Bombs"]
 +++
 
-**Sources:** Horror Adventures pg 44\
 Most alchemists can transform matter and energy into other forms, but some wicked specialists
 realize that life itself is an energy that can greatly fuel their alchemy.
 

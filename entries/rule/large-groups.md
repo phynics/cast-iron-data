@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "large_groups", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "12"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 12
 
 Groups of more than six players offer more character options, but they also tend to be louder and
 harder to manage. The more characters there are, the more complex combat becomes and the longer each

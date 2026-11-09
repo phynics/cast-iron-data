@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "pathfinder-79-the-half-dead-city"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shasalqu", path = "json/monsters38.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "229"
+[[sources]]
+publication = "pathfinder-79-the-half-dead-city"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ _A ridge of jagged ice runs down the back of this glistening, desert-dwelling li
 
 **Size:** small
 
-**Sources:** Bestiary 5 pg 229, Pathfinder \#79: The Half-Dead City pg 84\
 **Experience points:** 800
 
 **Armor class:** 15/13/13

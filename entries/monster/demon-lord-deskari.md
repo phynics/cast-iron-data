@@ -6,6 +6,9 @@ source_ids = ["pathfinder-78-city-of-locusts"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_lord_deskari", path = "json/monsters_unique.json" },
 ]
+[[sources]]
+publication = "pathfinder-78-city-of-locusts"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ are swarms of biting flies, and its inhuman eyes glitter with cruel intelligence
 
 **Senses:** Darkvision 60 ft., Detect good, Detect law, Swarmsight, True seeing
 
-**Sources:** Pathfinder \#78: City of Locusts pg 88\
 **Subtype:** Chaotic, Demon, Earth, Evil, Extraplanar
 
 **Experience points:** 6,553,600

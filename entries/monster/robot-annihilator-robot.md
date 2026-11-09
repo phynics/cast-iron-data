@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "robot_annihilator_robot", path = "json/monsters20.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "206"
+[[sources]]
+publication = "inner-sea-bestiary"
+page = "43"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ _The tip of this towering, scorpion-like construct's tail thrums with otherworld
 
 **Senses:** Darkvision 120 ft., Low-light vision
 
-**Sources:** Bestiary 5 pg 206, Inner Sea Bestiary pg 43\
 **Subtype:** Robot
 
 **tremorsense:** 60

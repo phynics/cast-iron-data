@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_marilith", path = "json/monsters29.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "63"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ eyes._
 
 **Senses:** Darkvision 60 ft., True seeing
 
-**Sources:** Pathfinder RPG Bestiary pg 63\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 102,400

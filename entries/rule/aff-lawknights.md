@@ -6,12 +6,14 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aff_lawknights", path = "json/rules_subsystems01.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "88"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Adventurer's Guide pg 88\
 **Pathfinder Name:** Hellknights\
 **Scope:** regional\
 **Alignment:** varies by order\

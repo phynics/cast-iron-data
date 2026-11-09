@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bodythief", path = "json/monsters27.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "20"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ seedpods throb like beating hearts._
 
 **Type:** plant
 
-**Sources:** Bestiary 4 pg 20\
 **Experience points:** 38,400
 
 **Armor class:** 26/1/25

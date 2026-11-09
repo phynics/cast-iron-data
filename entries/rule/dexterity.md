@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dexterity", path = "json/rules_basics01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "16"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 16
 
 Dexterity measures agility, reflexes, and balance. This ability is the most important one for
 rogues, but it's also useful for characters who wear light or medium armor or no armor at all. This

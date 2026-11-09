@@ -6,12 +6,14 @@ source_ids = ["blood-of-the-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_hunger", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "blood-of-the-night"
+page = "22"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Blood of the Night pg 22\
 "Hunger" is perhaps a misleading term to describe a vampire's lust for flesh, consciousness, or
 youth. As unliving things, they technically require no sustenance, and yet ravenousness is often
 considered a key characteristic of those who walk without life. In truth, this desire is driven not

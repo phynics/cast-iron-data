@@ -6,6 +6,9 @@ source_ids = ["pathfinder-74-sword-of-valor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "armor_of_the_pious", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "pathfinder-74-sword-of-valor"
+page = "62"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration [good]"
 caster_level = "9th"
 +++
 
-**Sources:** Pathfinder \#74: Sword of Valor pg 62\
 **Aura** moderate abjuration \[good\]; **CL** 9th\
 **Slot** armor; **Price** 23,300 gp; **Weight** 25 lbs.
 

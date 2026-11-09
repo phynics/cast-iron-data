@@ -6,6 +6,9 @@ source_ids = ["pathfinder-78-city-of-locusts"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "masters_lash", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "pathfinder-78-city-of-locusts"
+page = "62"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong evocation"
 caster_level = "15th"
 +++
 
-**Sources:** Pathfinder \#78: City of Locusts pg 62\
 **Aura** strong evocation; **CL** 15th\
 **Slot** weapon; **Price** 120,302 gp; **Weight** 4 lbs.
 

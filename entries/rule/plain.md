@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plain", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "157"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 157
 
 [Plains](ref/rule/plains) can be fields of high grasses, permanently frozen tundra, or flat
 badlands.

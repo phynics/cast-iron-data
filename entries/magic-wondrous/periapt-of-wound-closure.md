@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "periapt_of_wound_closure", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "261"
+[[sources]]
+publication = "core-rulebook"
+page = "525"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate conjuration"
 caster_level = "10th"
 +++
 
-**Sources:** Ultimate Equipment pg 261, PRPG Core Rulebook pg 525\
 **Aura** moderate conjuration; **CL** 10th\
 **Slot** neck; **Price** 15,000 gp; **Weight** -
 

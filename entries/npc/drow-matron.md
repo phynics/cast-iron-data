@@ -6,6 +6,9 @@ source_ids = ["inner-sea-npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drow_matron", path = "json/npcs4.json" },
 ]
+[[sources]]
+publication = "inner-sea-npc-codex"
+page = "19"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "15"
 
 **Challenge rating:** 15
 
-**Sources:** Inner Sea NPC Codex pg 19\
 **XP** 51,200\
 Drow noble [cleric](ref/class/cleric) of [Nocticula](ref/faith/nocticula) 15\
 CE Medium humanoid (elf)\

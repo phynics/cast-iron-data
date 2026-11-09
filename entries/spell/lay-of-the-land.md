@@ -6,6 +6,9 @@ source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lay_of_the_land", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "faiths-and-philosophies"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: none
 Spell resistance: yes
 Target: you
 :::
-
-**Sources:** Faiths and Philosophies pg 29
 
 In a flash of recognition, you learn about the geography of your surroundings within a radius of 1
 mile per 2 caster levels (minimum 1 mile). This instant familiarity grants you an insight bonus

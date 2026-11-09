@@ -6,14 +6,15 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_share_spells", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "162"
 
 [fields]
 kind = "feat"
 prerequisites = "Spellcraft 10 ranks, ability to acquire an animal companion, eidolon, familiar, or special mount."
 benefit = "Any non-instantaneous spell (but not any spell-like ability) you cast on yourself can also affect a creature bonded to you (such as an animal companion, eidolon, familiar, or special mount). The creature must be within 5 feet of you at the time of casting to receive the benefit. The spell's duration is halved between you and your bonded creature (for example, a spell with a duration of 1 hour has a duration of 30 minutes for both you and your bonded creature)."
 +++
-
-**Sources:** Advanced Player's Guide pg 162
 
 You can share spells with those you have a magical connection with.\
 **Prerequisites:** Spellcraft 10 ranks, ability to acquire an animal companion, eidolon, familiar,

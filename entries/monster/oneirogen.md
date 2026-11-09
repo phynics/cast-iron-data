@@ -6,6 +6,9 @@ source_ids = ["pathfinder-109-in-search-of-sanity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oneirogen", path = "json/monsters18.json" },
 ]
+[[sources]]
+publication = "pathfinder-109-in-search-of-sanity"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _This vague, humanoid figure seems to be the source of a bank of unnaturally col
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#109: In Search of Sanity pg 88\
 **Subtype:** Native
 
 **Experience points:** 600

@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "altering_existing_items", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "172"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 172
 
 The Core Rulebook doesn't allow item creation feats to alter the physical nature of an item, its
 default size, its shape, or its magical properties. For example, there is no mechanism for using

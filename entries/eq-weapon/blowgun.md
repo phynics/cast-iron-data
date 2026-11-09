@@ -6,15 +6,24 @@ source_ids = ["ranged-tactics-toolbox", "pathfinder-campaign-setting", "core-rul
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blowgun", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "0"
+[[sources]]
+publication = "pathfinder-campaign-setting"
+page = "209"
+[[sources]]
+publication = "core-rulebook"
+page = "142"
+[[sources]]
+publication = "ultimate-equipment"
+page = "17"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "1 lb."
 +++
-
-**Sources:** Ranged Tactics Toolbox pg 0, Pathfinder Campaign Setting pg 209, PRPG Core Rulebook pg
-142, Ultimate Equipment pg 17
 
 Blowguns are generally used to deliver debilitating (but rarely fatal) poisons from a distance. They
 are nearly silent when fired.

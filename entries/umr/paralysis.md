@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "paralysis", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "296"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Paralysis (Ex or Su)
 
-**Sources:** Bestiary 5 pg 296\
 Paralysis renders the victim immobile. [Paralyzed](ref/rule/paralyzed) creatures cannot move, speak,
 or take any physical actions. The creature is rooted to the spot, frozen and helpless. Paralysis
 works on the body, and a character can usually attempt to resist it with a Fortitude saving throw

@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pursuit_advantages", path = "json/rules_adv_gm02.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "145"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 145
 
 During each 1-hour pursuit phase, any member of a group who is not spending that phase tracking can
 attempt to gain an advantage, and a group can gain up to the maximum number of advantages allowed by

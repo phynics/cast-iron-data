@@ -6,6 +6,9 @@ source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dagger_of_black_sands", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "merchants-manifest"
+page = "17"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Sources:** Merchant's Manifest pg 17\
 **Aura** moderate transmutation; **CL** 7th\
 **Slot** none; **Price** 16,302 gp; **Weight** 1 lb.
 

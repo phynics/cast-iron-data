@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "creating_your_planet", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "164"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 164
 
 The first question every GM should ask about a world is whether or not it's a planet. This is by no
 means a foregone conclusion; planets are a relatively recent concept, and in the millennia before

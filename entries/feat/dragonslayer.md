@@ -6,6 +6,9 @@ source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragonslayer", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "dragonslayers-handbook"
+page = "25"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Whenever you confirm a critical hit against an opponent that has a br
 +++
 
 ## Dragonslayer (Combat)
-
-**Sources:** Dragonslayer's Handbook pg 25
 
 You have been trained to fight dragons.\
 **Prerequisites:** Knowledge (arcana) 4 ranks, base attack bonus +4.\

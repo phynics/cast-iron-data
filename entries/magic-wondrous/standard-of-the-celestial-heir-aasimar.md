@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "standard_of_the_celestial_heir_aasimar", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "235"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment"
 caster_level = "10th"
 +++
 
-**Sources:** Inner Sea Races pg 235\
 **Aura** moderate enchantment; **CL** 10th\
 **Slot** none; **Price** 33,000 gp; **Weight** 3 lbs.
 

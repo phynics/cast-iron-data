@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/burrow", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "87"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 87\
 The target can breathe underground while burrowing. If you're 3rd tier, the burrow speed increases
 to 20 feet through sand, soil, or gravel, and to 10 feet through stone. At 6th tier, these speeds
 increase to 30 feet and 15 feet respectively. At 9th tier, these speeds increase to 40 feet and 20

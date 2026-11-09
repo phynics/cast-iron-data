@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "book-of-the-damned-volume-2-lords-of-chaos", "b
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pazuzu", path = "json/faiths7.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "320"
 
 [fields]
 kind = "none"
@@ -15,7 +18,6 @@ kind = "none"
 
 **Sub:** King of the Wind Demons
 
-**Sources:** Inner Sea Gods pg 320\
 **Monster Link** [Pazuzu](ref/monster/demon-lord-pazuzu)
 
 ### Details

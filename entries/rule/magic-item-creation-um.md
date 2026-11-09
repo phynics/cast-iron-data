@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_item_creation_um", path = "json/rules_opt_magic03.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "165"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 165
 
 It is possible to create magic items using the words of power system, but since the caster meets
 none of the spell prerequisites, this process is more difficult than the standard method of magic

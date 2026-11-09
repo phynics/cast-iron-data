@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/darkvision" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "216"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Spell resistance: yes (harmless)
 :::
 
 ### Greater Darkvision
-
-**Sources:** Ultimate Magic pg 216
 
 This spell functions as [darkvision](ref/spell/darkvision), except the target's darkvision has a
 range of 120 feet.

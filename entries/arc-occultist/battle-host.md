@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/occultist" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "100"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Weapon and armor proficiency", "Shift focus", "magic circles", "bin
 alters = ["Implements", "mental focus", "spellcasting", "implement mastery", "Magic item skill", "Object reading"]
 +++
 
-**Sources:** Occult Adventures pg 100\
 Well versed in military history, battlefield lore, and the occult, a battle host forms a
 supernatural bond with a chosen weapon, suit of armor, or shield, from which he can channel psychic
 energy to cast spells, conjure the spirit of the object's former owner, increase his own physical

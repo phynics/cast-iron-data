@@ -6,6 +6,9 @@ source_ids = ["artifacts-and-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "invidian_eye", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "artifacts-and-legends"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration and divination"
 caster_level = "20th"
 +++
 
-**Sources:** Artifacts and Legends pg 29\
 **Aura** strong abjuration and divination; **CL** 20th\
 **Slot** neck; **Price** -; **Weight** 1 lb.
 

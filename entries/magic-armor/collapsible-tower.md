@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "collapsible_tower", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "131"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "6th"
 +++
 
-**Sources:** Ultimate Equipment pg 131\
 **Aura** moderate transmutation; **CL** 6th\
 **Slot** shield; **Price** 8,170 gp; **Weight** 15 lbs.
 

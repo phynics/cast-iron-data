@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/power-word-kill", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "103"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 103\
 Treat the target's current hit point total as though it were lowered by 5 times your tier. For
 example, a 3rd-tier archmage casting mythic power word kill would instantly kill a creature with 85
 hit points or fewer.

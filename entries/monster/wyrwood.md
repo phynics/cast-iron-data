@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wyrwood", path = "json/monsters25.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "280"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ _Though obviously a wooden construct, this small, nimble creature moves fluidly 
 
 **Size:** small
 
-**Sources:** Bestiary 4 pg 280\
 **Experience points:** 200
 
 **Armor class:** 16/14/13

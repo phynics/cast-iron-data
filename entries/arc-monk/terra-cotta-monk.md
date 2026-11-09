@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/monk" },
 ]
+[[sources]]
+publication = "dungeoneers-handbook"
+page = "22"
 
 [fields]
 kind = "archetype"
 replaces = ["Evasion", "High jump", "Improved evasion", "Abundant step", "Quivering palm", "Empty body"]
 +++
 
-**Sources:** Dungeoneer's Handbook pg 22\
 Possessing a natural affinity for all things earthen, terracotta monks are experts at turning the
 stone around them against their enemies.
 

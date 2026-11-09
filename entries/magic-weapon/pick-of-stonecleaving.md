@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pick_of_stonecleaving", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "145"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Sources:** Mythic Adventures pg 145\
 **Aura** faint evocation; **CL** 5th\
 **Slot** none; **Price** 11,308 gp; **Weight** 6 lbs.
 

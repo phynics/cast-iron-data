@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "frightful_aspect", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "230"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: no
 Target: you
 Subschool: Polymorph
 :::
-
-**Sources:** Ultimate Combat pg 230
 
 You become a larger, awful version of yourself. You grow to size Large, and take on features that
 horrify your enemies. You gain the following abilities: a +6 size bonus to Strength, a +4 size bonus

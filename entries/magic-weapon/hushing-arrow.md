@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hushing_arrow", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "156"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint illusion"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Equipment pg 156\
 **Aura** faint illusion; **CL** 5th\
 **Slot** none; **Price** normal (547 gp), greater (1,047 gp); **Weight** 1/20 lb.
 

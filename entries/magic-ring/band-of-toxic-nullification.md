@@ -6,6 +6,9 @@ source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "band_of_toxic_nullification", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "potions-and-poisons"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "9th"
 +++
 
-**Sources:** Potions and Poisons pg 30\
 **Aura** moderate necromancy; **CL** 9th\
 **Slot** ring; **Price** 8,500 gp; **Weight** -
 

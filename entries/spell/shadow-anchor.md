@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_anchor", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "211"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Effect: a shadowy shadow tether
 Subschool: Shadow
 Descriptors: shadow
 :::
-
-**Sources:** Advanced Race Guide pg 211
 
 > _[Wayangs](ref/race/wayang) have access to the following spell._
 

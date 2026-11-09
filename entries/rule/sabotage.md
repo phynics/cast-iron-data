@@ -6,12 +6,13 @@ source_ids = ["lands-of-conflict"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sabotage", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "lands-of-conflict"
+page = "57"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Lands of Conflict pg 57
 
 **Sabotage** **(Saboteurs):** Saboteurs are a special team that allows the militia to react to the
 [Event phase](ref/rule/event-phase-m). If an event occurs and the militia's saboteurs aren't

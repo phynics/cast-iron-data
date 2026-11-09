@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "herbal_antivenom", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "59"
+[[sources]]
+publication = "psychic-anthology"
+page = "23"
 
 [fields]
 kind = "class_option"
@@ -21,8 +27,6 @@ group = "kineticist-wild-talent"
 **Level:** 4
 
 **Burn:** 0
-
-**Source:** Ultimate Wilderness/59, Psychic Anthology/23
 
 Your body can produce the herbal remedies necessary to counter almost any poison. You gain a +5
 alchemical bonus on saving throws against poison, as if you were always under the effect of

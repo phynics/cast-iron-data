@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quicken_spell", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "132"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ special = "You can apply the effects of this feat to a spell cast spontaneously,
 +++
 
 ## Quicken Spell (Metamagic)
-
-**Sources:** PRPG Core Rulebook pg 132
 
 You can cast spells in a fraction of the normal time.\
 **Benefit:** Casting a quickened spell is a swift action. You can perform another action, even

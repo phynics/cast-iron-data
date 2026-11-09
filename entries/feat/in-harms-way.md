@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "in_harms_way", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "164"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using the aid another action to improve an adjacent ally's AC, 
 +++
 
 ## In Harm's Way (Combat)
-
-**Sources:** Advanced Player's Guide pg 164
 
 You put yourself in danger's path to save your allies.\
 **Prerequisites:** [Bodyguard](ref/feat/bodyguard).\

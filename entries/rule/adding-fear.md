@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "adding_fear", path = "json/rules_campaign_types02.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "11"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 11
 
 This revised fear system is meant to work seamlessly with the existing rules for fear, so GMs should
 use this system as an opportunity to add new fear effects to their games, including those derived

@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "class_event", path = "json/rules_basics03.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "12"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 12
 
 You are a product of your environment; the various influences of friends, family, and associates;
 and pure happenstance. Some talents you discovered in childhood have matured into practiced skills

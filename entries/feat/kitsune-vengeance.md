@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kitsune_vengeance", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "15"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using the Kitsune Style feat, when a foe provokes an attack of 
 +++
 
 ## Kitsune Vengeance (Combat)
-
-**Sources:** Dirty Tactics Toolbox pg 15
 
 You cleverly hide your attacks within your devious antics.\
 **Prerequisites:** Int 13; [Combat Expertise](ref/feat/combat-expertise);

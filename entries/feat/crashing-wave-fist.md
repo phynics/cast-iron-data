@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crashing_wave_fist", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "109"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When dragging or repositioning an opponent, at any point during the m
 +++
 
 ## Crashing Wave Fist (Combat)
-
-**Sources:** Ultimate Wilderness pg 109
 
 In addition to simply moving it, you are able to strike your enemy while pushing it around.\
 **Prerequisites:** Wis 15, [Crashing Wave Buffet](ref/feat/crashing-wave-buffet),

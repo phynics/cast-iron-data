@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_feint_partner", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "105"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever an ally who also has this feat successfully feints against a
 +++
 
 ## Improved Feint Partner (Combat, Teamwork)
-
-**Sources:** Ultimate Combat pg 105
 
 Knowledge of your companions' tricks and techniques allow you to take even greater advantage of your
 allies' feints.\

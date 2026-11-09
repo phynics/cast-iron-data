@@ -6,12 +6,14 @@ source_ids = ["skull-and-shackles-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ss_movement", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "skull-and-shackles-players-guide"
+page = "12"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Skull and Shackles Player's Guide pg 12\
 At the start of a pilot's turn, she can take any of the following sailing actions (except the
 "uncontrolled" action) by making a sailing check to control the ship. The pilot must take whatever
 action is required before doing anything else that turn. Just as in normal combat, a pilot can

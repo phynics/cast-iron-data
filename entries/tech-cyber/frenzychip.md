@@ -6,6 +6,9 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "frenzychip", path = "json/equipment_tech_cybertech.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "37"
 
 [fields]
 kind = "item"
@@ -15,7 +18,6 @@ weight = "&mdash;"
 slot = "brain"
 +++
 
-**Sources:** Technology Guide pg 37\
 **Price** 36,400 gp\
 **Slot** brain; **Weight** —\
 **Install** DC 32; **Implantation** 1

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "healers-handbook"
+page = "11"
 
 [fields]
 kind = "archetype"
 replaces = ["Mutagen", "Swift alchemy"]
 +++
 
-**Sources:** Healer's Handbook pg 11\
 Sacrament alchemists serve in a great variety of priestly roles for their deities. A sacrament
 alchemist is often invaluable even to like-minded allies who are not adherents of the alchemist's
 religion but who nonetheless rely on his divine abilities.

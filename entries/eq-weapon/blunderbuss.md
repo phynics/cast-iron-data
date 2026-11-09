@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blunderbuss", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "43"
+[[sources]]
+publication = "ultimate-combat"
+page = "137"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "8 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 43, Ultimate Combat pg 137
 
 This weapon fires [pellets](ref/eq-weapon/pellets-handful) or a
 [bullet](ref/eq-weapon/firearm-bullet) from its trumpet-shaped barrel, making it an effective

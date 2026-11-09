@@ -6,6 +6,9 @@ source_ids = ["dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "see_through_stone", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "dwarves-of-golarion"
+page = "25"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
 :::
-
-**Sources:** Dwarves of Golarion pg 25
 
 You gain the ability to see through solid rock as if it were transparent glass. You may see through
 1 foot of stone per caster level. You see within the stone as if you were looking at the area in

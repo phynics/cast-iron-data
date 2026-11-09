@@ -6,6 +6,9 @@ source_ids = ["pathfinder-123-the-flooded-cathedral"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lissala_pre_earthfall", path = "json/faiths5.json" },
 ]
+[[sources]]
+publication = "pathfinder-123-the-flooded-cathedral"
+page = "71"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Lissala (pre-Earthfall)**
 
 **Sub:** The Order of Virtue
-
-**Sources:** Pathfinder \#123: The Flooded Cathedral pg 71
 
 ### Details
 

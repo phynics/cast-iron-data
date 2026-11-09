@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pauldrons_of_unflinching_fortitude_1_2f", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "155"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "7th"
 
 ## Pauldrons of Unflinching Fortitude
 
-**Sources:** Mythic Adventures pg 155\
 **Aura** moderate abjuration; **CL** 7th\
 **Slot** shoulders; **Price** 1,500 gp (+1, +2F), 6,000 gp (+2, +3F), 13,500 gp (+3, +4F), 24,000 gp
 (+4, +5F), 37,500 gp (+5/+6 Fortitude); **Weight** 1 lb.

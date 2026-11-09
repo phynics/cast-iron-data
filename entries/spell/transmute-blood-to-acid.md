@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "transmute_blood_to_acid", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "244"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: yes
 Target: one living creature
 Descriptors: acid, pain
 :::
-
-**Sources:** Ultimate Magic pg 244
 
 You transmute blood in the target's body to acid, dealing 1d6 points of acid damage/2 levels
 (maximum 12d6) each round. The creature is staggered and sickened by the debilitating pain. A

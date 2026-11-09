@@ -6,6 +6,9 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "town_tamer", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "73"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Choose a particular settlement. When you're in your chosen settlement
 +++
 
 ## Town Tamer (Story)
-
-**Sources:** Ultimate Campaign pg 73
 
 This town needs cleaning up, and you're just the one to do it.\
 **Prerequisites:** You must have 5 ranks in Intimidate and a personal motivation to clean up a

@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "champion", path = "json/rules_campaign_types07.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "20"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 20\
 The champion is the pinnacle of skill at arms and armor. No ordinary fighter could hope to match the
 skill with a blade, a bow, or an axe that surges within a mythic champion. The champion turns aside
 blows and shatters shields with every movement, all while racing gracefully across the chaotic

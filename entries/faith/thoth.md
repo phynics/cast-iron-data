@@ -6,6 +6,9 @@ source_ids = ["pathfinder-80-empty-graves"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thoth", path = "json/faiths8.json" },
 ]
+[[sources]]
+publication = "pathfinder-80-empty-graves"
+page = "75"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Thoth**
 
 **Sub:** Lord of Divine Words
-
-**Sources:** Pathfinder \#80: Empty Graves pg 75
 
 ### Details
 

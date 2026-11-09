@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "components_as_treasure", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "174"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 174
 
 Talismanic components are [trade goods](ref/rule/wealth-and-money) just like gems, wheat, spices, or
 cloth. Under normal circumstances, you can acquire these materials at the listed cost or sell what

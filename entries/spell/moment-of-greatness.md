@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "moment_of_greatness", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "237"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Target: The caster and allies within a 50-ft. burst centered on the caster
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Ultimate Combat pg 237
 
 Each creature affected by this spell is given the potential for greater success and glory. If the
 affected creature is benefiting from a morale bonus of any type, it can double that morale bonus on

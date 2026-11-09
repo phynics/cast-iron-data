@@ -6,6 +6,9 @@ source_ids = ["mythic-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "token_of_the_eldest", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "mythic-origins"
+page = "18"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "9th"
 +++
 
-**Sources:** Mythic Origins pg 18\
 **Aura** moderate divination; **CL** 9th\
 **Slot** head; **Price** 27,680 gp; **Weight** -
 

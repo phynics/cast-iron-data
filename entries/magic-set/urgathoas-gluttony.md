@@ -6,13 +6,14 @@ source_ids = ["chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "urgathoas_gluttony", path = "json/magic_set.json" },
 ]
+[[sources]]
+publication = "chronicle-of-legends"
+page = "27"
 
 [fields]
 kind = "item"
 category = "Item Sets"
 +++
-
-**Sources:** Chronicle of Legends pg 27
 
 [Urgathoa](ref/faith/urgathoa) is the goddess of disease, gluttony, and undeath. Worshipped by dark
 necromancers, the undead, and those wishing to become undead, Urgathoa bestows dark and terrible

@@ -8,12 +8,13 @@ parent = "ref/class/ranger"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "json/classes7.json#ranger|section:ranger", path = "json/classes7.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "64"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 64
 
 For those who relish the thrill of the hunt, there are only predators and prey. Be they scouts,
 trackers, or bounty hunters, rangers share much in common: unique mastery of specialized weapons,

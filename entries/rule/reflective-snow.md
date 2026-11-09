@@ -6,12 +6,13 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reflective_snow", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "149"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Wilderness pg 149
 
 **CR 2**
 

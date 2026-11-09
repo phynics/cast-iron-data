@@ -6,6 +6,9 @@ source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "harp_of_slumber", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "giant-hunters-handbook"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint enchantment"
 caster_level = "5th"
 +++
 
-**Sources:** Giant Hunter's Handbook pg 28\
 **Aura** faint enchantment; **CL** 5th\
 **Slot** none; **Price** 37,500 gp; **Weight** 5 lbs.
 

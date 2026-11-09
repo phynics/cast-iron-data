@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/lighten-object" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "236"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Spell resistance: yes (object)
 :::
 
 ### Mass Lighten Object
-
-**Sources:** Inner Sea Gods pg 236
 
 This spell functions like [lighten object](ref/spell/lighten-object), except that it affects a
 number of objects equal to half your caster level.

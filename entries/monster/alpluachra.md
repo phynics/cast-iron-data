@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alpluachra", path = "json/monsters01.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "9"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ looks hungry._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 4 pg 9\
 **Subtype:** Aquatic
 
 **Experience points:** 200

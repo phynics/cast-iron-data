@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "manitou", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "192"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ noises from the natural world._
 
 **Senses:** Darkvision 60 ft., Detect evil, True seeing
 
-**Sources:** Bestiary 4 pg 192\
 **Subtype:** Native
 
 **Experience points:** 51,200

@@ -6,6 +6,9 @@ source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "healing_flames", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "healers-handbook"
+page = "8"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Area: 10-ft.-radius burst, centered on you
 Subschool: Healing
 Descriptors: fire, good
 :::
-
-**Sources:** Healer's Handbook pg 8
 
 You unleash a blast of holy flames that washes over all creatures in the area in a glorious display
 of divine power. This deals damage to evil creatures and heals good creatures in the area. The

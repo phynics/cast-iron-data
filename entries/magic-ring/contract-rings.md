@@ -6,6 +6,9 @@ source_ids = ["cohorts-and-companions"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "contract_rings", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "cohorts-and-companions"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Sources:** Cohorts and Companions pg 29\
 **Aura** moderate enchantment; **CL** 7th\
 **Slot** ring; **Price** 8,500 gp; **Weight** -
 

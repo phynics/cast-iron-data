@@ -6,6 +6,9 @@ source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mindshock", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "occult-origins"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: no
 Target: you
 Descriptors: mind-affecting, pain
 :::
-
-**Sources:** Occult Origins pg 28
 
 You charge yourself with violent psychic energy so attacks you make with weapons, natural weapons,
 and unarmed strikes cause the target to recall pain suffered in the past. Such attacks deal 1d4

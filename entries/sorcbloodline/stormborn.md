@@ -6,13 +6,15 @@ source_ids = ["advanced-players-guide", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stormborn", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "141"
 
 [fields]
 kind = "class_option"
 group = "sorcerer-bloodline"
 +++
 
-**Sources:** Advanced Player's Guide pg 141\
 You trace your heritage to fierce and proud spirits of storm and sky, and living lightning sings in
 your veins.
 

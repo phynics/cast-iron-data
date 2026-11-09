@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ranger" },
 ]
+[[sources]]
+publication = "people-of-the-north"
+page = "25"
 
 [fields]
 kind = "archetype"
 replaces = ["Hunter's bond", "Endurance", "Woodland stride"]
 +++
 
-**Sources:** People of the North pg 25\
 Witchguards are the sworn defenders of the White Witches of Irrisen. Although the White Witches are
 spellcasters of immense power, even they cannot defend themselves against every attack. Witchguards
 dedicate their lives to protecting their charges, and they gain some arcane knowledge in return.

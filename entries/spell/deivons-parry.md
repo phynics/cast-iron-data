@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deivons_parry", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "27"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Adventurer's Guide pg 27
 
 Originally designed by an Aldori magus who had long admired swashbucklers for their ability to
 deflect blows, Deivon's parry has swiftly gained popularity among bards and magi alike. Your

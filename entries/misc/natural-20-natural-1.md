@@ -6,12 +6,16 @@ source_ids = ["core-rulebook", "ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "natural_20_natural_1", path = "json/misc.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "178, 180, 190, 199, 566"
+[[sources]]
+publication = "ultimate-equipment"
+page = "22"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg. 178, 180, 190, 199, 566, Ultimate Equipment pg 22
 
 **Attacks:** A natural 1 (the d20 comes up 1) on an [attack roll](ref/rule/attack-roll) is always a
 miss. A natural 20 (the d20 comes up 20) is always a hit. A natural 20 is also a threat - a possible

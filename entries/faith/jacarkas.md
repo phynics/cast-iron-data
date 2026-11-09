@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jacarkas", path = "json/faiths4.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "318"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Jacarkas**
 
 **Sub:** The Collector
-
-**Sources:** Inner Sea Gods pg 318
 
 ### Details
 

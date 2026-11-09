@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "notice_creatures_and_details", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "61"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 61
 
 You can detect a creature that is using Stealth if you succeed at an opposed Perception check. You
 can also notice sights, sounds, and other stimuli detectable by your senses. Use the search function

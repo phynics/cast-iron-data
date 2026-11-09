@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "pathfinder-66-the-dead-heart-of-xin"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clockwork_clockwork_dragon", path = "json/monsters05.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "30"
+[[sources]]
+publication = "pathfinder-66-the-dead-heart-of-xin"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -44,7 +50,6 @@ with impossible grace._
 
 **Senses:** Darkvision 60 ft., Low-light vision, See invisibility
 
-**Sources:** Bestiary 4 pg 30, Pathfinder \#66: The Dead Heart of Xin pg 86\
 **Subtype:** Clockwork
 
 **Experience points:** 76,800

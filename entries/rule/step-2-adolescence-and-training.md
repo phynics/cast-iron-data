@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "step_2_adolescence_and_training", path = "json/rules_basics03.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "25"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 25
 
 The training you undertake during your youth decides the person you will become in adulthood. To
 determine these aspects of your background, do the following:

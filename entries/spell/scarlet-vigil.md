@@ -6,12 +6,14 @@ source_ids = ["occult-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scarlet_vigil", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "occult-realms"
+page = "57"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Occult Realms pg 57\
 **School** necromancy; **Level** 7\
 **Casting Time** 7 hours\
 **Components** V, S, M (a giant mantis claw), SC (at least 2, up to 4)\

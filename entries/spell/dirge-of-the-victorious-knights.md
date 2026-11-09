@@ -6,6 +6,15 @@ source_ids = ["adventurers-guide", "inner-sea-world-guide", "cheliax-empire-of-d
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dirge_of_the_victorious_knights", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "98"
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "294"
+[[sources]]
+publication = "cheliax-empire-of-devils"
+page = "22"
 
 [fields]
 kind = "spell"
@@ -39,8 +48,6 @@ Spell resistance: yes
 Area: 120-ft. line, 10 ft. wide
 Subschool: Shadow
 :::
-
-**Sources:** Adventurer's Guide pg 98, Inner Sea World Guide pg 294, Cheliax, Empire of Devils pg 22
 
 By performing part of the Chelish opera Victory of the [Hellknights](ref/rule/aff-lawknights), you
 call forth spectral illusions of mounted Hellknights to trample your foes under the hooves of their

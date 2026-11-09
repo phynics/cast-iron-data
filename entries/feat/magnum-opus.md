@@ -6,6 +6,9 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magnum_opus", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "70"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Choose a single Craft or Perform skill. Whenever you take 10 with thi
 +++
 
 ## Magnum Opus (Story)
-
-**Sources:** Ultimate Campaign pg 70
 
 You seek to create a true masterpiece.\
 **Prerequisites:** You must either have sold five or more self-created works of art worth a total of

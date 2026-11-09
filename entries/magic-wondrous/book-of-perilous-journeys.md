@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "book_of_perilous_journeys", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "226"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ aura = "strong conjuration"
 caster_level = "13th"
 +++
 
-**Sources:** Horror Adventures pg 226\
 **Aura** strong conjuration; **CL** 13th\
 **Slot** none; **Weight** 1/2 lb.
 

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "commanders_helm_dwarf_lesser", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "230"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "4th"
 
 ## Commander's Helm (Dwarf)
 
-**Sources:** Inner Sea Races pg 230\
 **Aura** faint enchantment; **CL** 4th\
 **Slot** head; **Price** 10,000 gp (Lesser), 16,000 gp (Greater), 24,000 gp (Superior); **Weight** 1
 lb.

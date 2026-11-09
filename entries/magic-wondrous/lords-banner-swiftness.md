@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lords_banner_swiftness", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "308"
+[[sources]]
+publication = "advanced-players-guide"
+page = "307"
 
 [fields]
 kind = "item"
@@ -19,7 +25,6 @@ caster_level = "10th"
 
 ## Lord's Banner
 
-**Sources:** Ultimate Equipment pg 308, Advanced Player's Guide pg 307\
 **Aura** moderate varies; **CL** 10th\
 **Slot** none; **Price** 10,000 gp (Swiftness), 56,000 gp (Terror), 75,000 gp (Victory), 100,000 gp
 (Crusades); **Weight** 3 lbs.

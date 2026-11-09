@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "benefits_of_harmful_conditions", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "98"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 98
 
 A resourceful spellcaster draws upon experience to lend power to her magic. In the same way many of
 the spellblight conditions above offer advantages under the right conditions, at the GM's

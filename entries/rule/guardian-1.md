@@ -6,13 +6,23 @@ source_ids = ["mythic-adventures", "mythic-origins", "mythic-realms", "heroes-of
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guardian_1", path = "json/rules_campaign_types07.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "26"
+[[sources]]
+publication = "mythic-origins"
+page = "24"
+[[sources]]
+publication = "mythic-realms"
+page = "15"
+[[sources]]
+publication = "heroes-of-golarion"
+page = "30"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 26, Mythic Origins pg 24, Mythic Realms pg 15, Heroes of Golarion
-pg 30\
 You can select these path abilities at any tier.
 
 **Adamantine Mind (Ex):** Your mind is as hard as any armor, and is dangerous to engage. You gain a

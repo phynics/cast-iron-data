@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "performance_combat", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "153"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 153
 
 Not every fight is for survival. Combatants sometimes find themselves in contests where the crowd's
 reaction is at least as important as the outcome of the fight itself. Whether a bar brawl with the

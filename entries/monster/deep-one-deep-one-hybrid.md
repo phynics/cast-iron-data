@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deep_one_deep_one_hybrid", path = "json/monsters40.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "70"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ his bloodline._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 5 pg 70\
 **Subtype:** Deep one, Human
 
 **Experience points:** 200

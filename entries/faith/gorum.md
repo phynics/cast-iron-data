@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "planar-adventures", "weapon-masters-handbook", 
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gorum", path = "json/faiths3.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "60"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Gorum**
 
 **Sub:** Our Lord in Iron
-
-**Sources:** Inner Sea Gods pg 60
 
 ### Details
 

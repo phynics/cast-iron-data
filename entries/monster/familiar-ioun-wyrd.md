@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_ioun_wyrd", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "197"
+[[sources]]
+publication = "familiar-folio"
+page = "30"
 
 [fields]
 kind = "creature"
@@ -40,7 +46,6 @@ pulses with dim light._
 
 **Perception:** +2
 
-**Sources:** Ultimate Wilderness pg 197, Familiar Folio pg 30\
 **Size:** tiny
 
 **Experience points:** 135

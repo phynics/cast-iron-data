@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pixie", path = "json/monsters19.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "228"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ _This tiny, whimsical-looking humanoid darts about swiftly on wildly colored gos
 
 **Size:** small
 
-**Sources:** Pathfinder RPG Bestiary pg 228\
 **Experience points:** 1,200
 
 **Armor class:** 18/17/12

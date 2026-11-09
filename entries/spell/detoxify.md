@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "detoxify", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "115"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Saving throw: Fortitude negates
 Spell resistance: yes
 Target: one creature
 :::
-
-**Sources:** Adventurer's Guide pg 115
 
 You remove a creature's ability to poison others, whether inherent or via poisoned weapons. Whenever
 an affected creature would inflict poison with an attack, spell, or other method (including auras

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/samurai" },
 ]
+[[sources]]
+publication = "heroes-from-the-fringe"
+page = "13"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Proficiency with medium armor", "heavy armor", "and shields", "Moun
 alters = ["Challenge"]
 +++
 
-**Sources:** Heroes from the Fringe pg 13\
 Warrior poets often study calligraphy, flower arrangement, poetry, and other courtly arts, but when
 called to battle, they treat combat as its own art form, fighting with beauty and grace. While these
 traditions first arose among the Jininese elves and are still extremely common in Jinin, the warrior

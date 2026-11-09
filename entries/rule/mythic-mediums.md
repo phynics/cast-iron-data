@@ -6,12 +6,13 @@ source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mythic_mediums", path = "json/rules_campaign_types07.json" },
 ]
+[[sources]]
+publication = "heroes-of-golarion"
+page = "28"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Heroes of Golarion pg 28
 
 In a way, every medium gets a small taste of mythic power through the spirits they channel, each of
 which is tied closely to one of the six mythic paths. In rare cases, the spirits become taken with a

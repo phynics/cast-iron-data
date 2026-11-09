@@ -6,12 +6,12 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pervasive_gloom", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures
 
 **Pervasive Gloom (CR 4):** Some locations ooze dread and foreboding, whether from old evils left to
 stagnate or the presence of some lingering psychic residue from years of torture or oppression. The

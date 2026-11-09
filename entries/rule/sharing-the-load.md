@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sharing_the_load", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "18"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 18
 
 Unless you've got a very short scenario to run or a very long game session planned, create new
 characters ahead of time. In a time crunch, you might create them yourself and allow your players to

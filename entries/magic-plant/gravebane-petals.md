@@ -6,6 +6,9 @@ source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gravebane_petals", path = "json/magic_plant.json" },
 ]
+[[sources]]
+publication = "wilderness-origins"
+page = "16"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Sources:** Wilderness Origins pg 16\
 **Aura** faint necromancy; **CL** 3rd\
 **Slot** none; **Price** 16,000 gp; **Weight** 50 lbs.
 

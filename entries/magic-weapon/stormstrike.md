@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stormstrike", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "257"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "8th"
 +++
 
-**Sources:** Inner Sea Gods pg 257\
 **Aura** moderate evocation; **CL** 8th\
 **Slot** none; **Price** 9,315 gp; **Weight** 4 lbs.
 

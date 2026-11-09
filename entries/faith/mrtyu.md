@@ -6,6 +6,9 @@ source_ids = ["concordance-of-rivals"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mrtyu", path = "json/faiths6.json" },
 ]
+[[sources]]
+publication = "concordance-of-rivals"
+page = "12"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Mrtyu**
 
 **Sub:** Death's Consort
-
-**Sources:** Concordance of Rivals pg 12
 
 ### Details
 

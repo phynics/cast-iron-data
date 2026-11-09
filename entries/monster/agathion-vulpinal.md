@@ -6,6 +6,12 @@ source_ids = ["bestiary-2", "the-great-beyond-a-guide-to-the-multiverse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "agathion_vulpinal", path = "json/monsters01.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "21"
+[[sources]]
+publication = "the-great-beyond-a-guide-to-the-multiverse"
+page = "62"
 
 [fields]
 kind = "creature"
@@ -45,7 +51,6 @@ instrument in one hand._
 
 **Size:** small
 
-**Sources:** Bestiary 2 pg 21, The Great Beyond - A Guide to the Multiverse pg 62\
 **Subtype:** Agathion, Extraplanar, Good
 
 **Experience points:** 2,400

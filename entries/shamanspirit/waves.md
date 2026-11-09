@@ -6,13 +6,15 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "waves", path = "json/class_ability_shaman_spirits.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "45"
 
 [fields]
 kind = "class_option"
 group = "shaman-spirit"
 +++
 
-**Sources:** Advanced Class Guide pg 45\
 A shaman who selects the waves spirit has a fluid grace that exhibits itself whenever she moves.
 When she calls upon one of this spirit's abilities, floating orbs dance about her, sublimating
 between icy crystals, misty vapors, and globules of water.

@@ -6,12 +6,19 @@ source_ids = ["mythic-adventures", "mythic-origins", "heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trickster_1", path = "json/rules_campaign_types07.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "44"
+[[sources]]
+publication = "mythic-origins"
+page = "30"
+[[sources]]
+publication = "heroes-of-golarion"
+page = "30"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 44, Mythic Origins pg 30, Heroes of Golarion pg 30
 
 ### 1st-Tier Trickster Path Abilities
 

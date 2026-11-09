@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nightmare_features", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "163"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 163
 
 Each nightmare has one or more nightmare features, which complicate the nightmare in some fashion.
 For naturally occurring nightmares, roll twice on the table below or simply select which nightmare

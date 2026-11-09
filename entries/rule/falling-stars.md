@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "falling_stars", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "135"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 135
 
 A town has had a secretive mythic protector - a mythic phoenix - watching over it for the last few
 decades and keeping it from harm. When an ancient red dragon woke from its slumber and went on a

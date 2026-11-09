@@ -6,6 +6,9 @@ source_ids = ["construct-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "haunted_construct", path = "json/monster_template2.json" },
 ]
+[[sources]]
+publication = "construct-handbook"
+page = "48"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +1
-
-**Source:** Construct Handbook/48
 
 On the border between Xa Hoi and Nagajor, near the caldera of Mount Kumijinja, a cave system leads
 deep into the Darklands. The locals call it the Clicking Caverns, for scouts report seeing strange

@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "halo_of_menace", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "242"
+[[sources]]
+publication = "advanced-race-guide"
+page = "89"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong enchantment"
 caster_level = "9th"
 +++
 
-**Sources:** Ultimate Equipment pg 242, Advanced Race Guide pg 89\
 **Aura** strong enchantment; **CL** 9th\
 **Slot** head; **Price** 84,000 gp; **Weight** 1 lb.
 

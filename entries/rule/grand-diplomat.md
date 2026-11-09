@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grand_diplomat", path = "json/rules_campaign_types04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "202"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 202
 
 The Grand Diplomat is in charge of the kingdom's foreign policy - how it interacts with other
 kingdoms and similar political organizations such as tribes of intelligent monsters. The Grand

@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weeping_wound", path = "json/curses.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "140"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 140
 
 **Type:** Curse
 

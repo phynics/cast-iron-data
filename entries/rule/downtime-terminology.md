@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "downtime_terminology", path = "json/rules_subsystems02.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "76"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 76
 
 This section explains the basic game terms for the downtime system. It uses existing character
 abilities (such as skill checks and saving throws), familiar resources (such as gold pieces), and

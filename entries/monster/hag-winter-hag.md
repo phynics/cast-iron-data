@@ -6,6 +6,9 @@ source_ids = ["bestiary-4", "blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hag_winter_hag", path = "json/monsters33.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "279"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ gems._
 
 **Senses:** Darkvision 60 ft., See invisibility, Snow vision
 
-**Sources:** Bestiary 4 pg 279\
 **Subtype:** Cold
 
 **Experience points:** 3,200

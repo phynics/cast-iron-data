@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "detect_psychic_significance", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "164"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: none
 Spell resistance: no
 Area: 40-ft.-radius burst, centered on you
 :::
-
-**Sources:** Occult Adventures pg 164
 
 You detect the presence of psychically significant items in your vicinity. Such items are those that
 might have significant psychic imprints or histories that can be read by the

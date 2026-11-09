@@ -6,6 +6,9 @@ source_ids = ["concordance-of-rivals"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vavaalrav", path = "json/faiths9.json" },
 ]
+[[sources]]
+publication = "concordance-of-rivals"
+page = "20"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Vavaalrav**
 
 **Sub:** The Steeple's Skull
-
-**Sources:** Concordance of Rivals pg 20
 
 ### Details
 

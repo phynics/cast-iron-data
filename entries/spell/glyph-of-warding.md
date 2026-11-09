@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "glyph_of_warding", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "290"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: see text
 Spell resistance: no (object) and yes; see text
 Target or Area: object touched or up to 5 sq. ft./level
 :::
-
-**Sources:** PRPG Core Rulebook pg 290
 
 This powerful inscription harms those who enter, pass, or open the warded area or object. A glyph of
 warding can guard a bridge or passage, ward a portal, trap a chest or box, and so on.

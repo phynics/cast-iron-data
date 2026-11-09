@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "empty_quiver_flexibility", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "14"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using Empty Quiver Style, you can apply any feats and class abi
 +++
 
 ## Empty Quiver Flexibility (Combat)
-
-**Sources:** Weapon Master's Handbook pg 14
 
 You can apply your ranged fighting feats to melee attacks.\
 **Prerequisites:** [Empty Quiver Style](ref/feat/empty-quiver-style),

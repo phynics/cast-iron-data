@@ -6,6 +6,12 @@ source_ids = ["adventurers-guide", "inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unfolding_wind_rush", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "106"
+[[sources]]
+publication = "inner-sea-combat"
+page = "13"
 
 [fields]
 kind = "feat"
@@ -16,8 +22,6 @@ benefit = "When using Perfect Style and wielding thrown weapons, you can combine
 +++
 
 ## Unfolding Wind Rush (Combat)
-
-**Sources:** Adventurer's Guide pg 106, Inner Sea Combat pg 13
 
 Thrown weapons fly from your hands as if blown by a gale, and you leave behind a wake of wind as you
 move.\

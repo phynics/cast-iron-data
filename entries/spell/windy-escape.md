@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "windy_escape", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "160"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: no
 Target: you
 Descriptors: air
 :::
-
-**Sources:** Advanced Race Guide pg 160
 
 > _[Sylphs](ref/race/sylph) have access to the following spell._
 

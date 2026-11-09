@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "undercasting_spells", path = "json/rules_basics04.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "144"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 144
 
 Some psychic spells can be undercast. This means that the spellcaster can cast the spell at the
 level that he knows, or as any lower-level version of that spell, using the appropriate spell slot.

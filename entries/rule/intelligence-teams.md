@@ -6,12 +6,13 @@ source_ids = ["lands-of-conflict"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "intelligence_teams", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "lands-of-conflict"
+page = "53"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Lands of Conflict pg 53
 
 The militia's intelligence branch can find information about enemies and safe places to lie low in
 hostile areas.

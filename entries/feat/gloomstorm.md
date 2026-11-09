@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gloomstorm", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "28"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "As a swift action, you can thin the barriers between yourself and the
 +++
 
 ## Gloomstorm (Combat, Conduit)
-
-**Sources:** Planar Adventures pg 28
 
 An inexhaustible arsenal lies in the Shadow Plane, waiting to be unleashed.\
 **Prerequisites:** Knowledge (planes) 4 ranks, shadow weapon class feature.\

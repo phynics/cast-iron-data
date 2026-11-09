@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "linnorm_fjord_linnorm", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "183"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ flukes._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent, True seeing
 
-**Sources:** Bestiary 3 pg 183\
 **Subtype:** Aquatic
 
 **Experience points:** 76,800

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-115-trail-of-the-hunted"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "leshy_sunflower_leshy", path = "json/monsters34.json" },
 ]
+[[sources]]
+publication = "pathfinder-115-trail-of-the-hunted"
+page = "87"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ _The petals of this small plant's large, flat, flowering head reflect light in u
 
 **Size:** small
 
-**Sources:** Pathfinder \#115: Trail of the Hunted pg 87\
 **Subtype:** Leshy
 
 **Experience points:** 400

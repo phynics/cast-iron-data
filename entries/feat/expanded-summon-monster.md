@@ -6,6 +6,9 @@ source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "expanded_summon_monster", path = "json/feat06.json" },
 ]
+[[sources]]
+publication = "monster-summoners-handbook"
+page = "28"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Ability to cast a summon monster spell."
 benefit = "For each spell level 1-9, select two creatures from the table below. You then add these creatures to the summon monster table of the same level, allowing you to summon them with the appropriate summon monster spell. Once made, these choices can't be changed."
 special = "You can take this feat multiple times. Each time you do, you can select two more monsters from the table below to add to the summon monster table of the same level."
 +++
-
-**Sources:** Monster Summoner's Handbook pg 28
 
 You can summon allies beyond the reach of most conjurers.\
 **Prerequisites:** Ability to cast a [summon monster](ref/spell/summon-monster) spell.\

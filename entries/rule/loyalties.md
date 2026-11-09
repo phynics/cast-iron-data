@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "loyalties", path = "json/rules_opt_alignment01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "100"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 100
 
 When you use the loyalties system to build a character, whether a PC or an NPC, decide on three
 loyalties. These can represent ideals, people, organizations, or anything else to which the

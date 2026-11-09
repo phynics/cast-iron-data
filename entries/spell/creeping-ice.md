@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "creeping_ice", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "178"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: yes
 Effect: anchored plane of ice, up to one 10-ft. square/level
 Descriptors: cold
 :::
-
-**Sources:** Advanced Class Guide pg 178
 
 This spell covers the floor, the ground, or some other calm horizontal surface (such as a placid
 lake or a gentle river) with a sheet of slowly growing ice. The initial sheet of ice cannot form in

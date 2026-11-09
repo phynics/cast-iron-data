@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jackalwere", path = "json/monsters34.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "154"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ away._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Bestiary 3 pg 154\
 **Subtype:** Shapechanger
 
 **Experience points:** 600

@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "supernatural_nightmares", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "163"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 163
 
 A supernatural nightmare is similar to a naturally occurring nightmare, but is created deliberately
 by a malevolent entity. This entity chooses the gravity, size, and shape of the dreamscape, and can

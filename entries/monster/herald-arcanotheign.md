@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "pathfinder-41-the-thousand-fangs-below"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "herald_arcanotheign", path = "json/monsters_unique2.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "298"
+[[sources]]
+publication = "pathfinder-41-the-thousand-fangs-below"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -48,7 +54,6 @@ form._
 
 **Senses:** Arcane sight, Darkvision 60 ft.
 
-**Sources:** Inner Sea Gods pg 298, Pathfinder \#41: The Thousand Fangs Below pg 82\
 **Subtype:** Herald, Incorporeal
 
 **Experience points:** 51,200

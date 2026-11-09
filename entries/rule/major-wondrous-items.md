@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "major_wondrous_items", path = "json/rules_basics02.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "499"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 499
 
 |d%|Item|Market Price|
 | --- | --- | --- |

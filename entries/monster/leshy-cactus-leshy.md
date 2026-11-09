@@ -6,6 +6,9 @@ source_ids = ["pathfinder-115-trail-of-the-hunted"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "leshy_cactus_leshy", path = "json/monsters34.json" },
 ]
+[[sources]]
+publication = "pathfinder-115-trail-of-the-hunted"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _A prickly cactus's arms are covered in vicious spines._
 
 **Size:** small
 
-**Sources:** Pathfinder \#115: Trail of the Hunted pg 86\
 **Subtype:** Leshy
 
 **Experience points:** 600

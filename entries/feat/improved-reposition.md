@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_reposition", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "163"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ normal = "You provoke an attack of opportunity when performing a reposition comb
 +++
 
 ## Improved Reposition (Combat)
-
-**Sources:** Advanced Player's Guide pg 163
 
 You have learned how to force your enemies to move around the battlefield.\
 **Prerequisites:** Int 13, [Combat Expertise](ref/feat/combat-expertise).\

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ambush_squad", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "201"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ normal = "You can take only a standard action or a move action during a surprise
 +++
 
 ## Ambush Squad (Combat, Teamwork)
-
-**Sources:** Inner Sea Races pg 201
 
 You know that the keys to victory are sudden attacks and even more sudden retreats.\
 **Prerequisites:** Base attack bonus +1, [kobold](ref/race/kobold).\

@@ -6,6 +6,9 @@ source_ids = ["demons-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "erotundee", path = "json/monsters_unique4.json" },
 ]
+[[sources]]
+publication = "demons-revisited"
+page = "49"
 
 [fields]
 kind = "creature"
@@ -49,7 +52,6 @@ rancidly obese body._
 
 **Senses:** Darkvision 60 ft., True seeing
 
-**Sources:** Demons Revisited pg 49\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 614,400

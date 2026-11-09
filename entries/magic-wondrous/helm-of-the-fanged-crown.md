@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "helm_of_the_fanged_crown", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "86"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment"
 caster_level = "9th"
 +++
 
-**Sources:** Adventurer's Guide pg 86\
 **Aura** moderate enchantment; **CL** 9th\
 **Slot** head; **Price** 12,000 gp; **Weight** 3 lbs.
 

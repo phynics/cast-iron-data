@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deadly_stroke", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "121"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "As a standard action, make a single attack with the weapon for which 
 +++
 
 ## Deadly Stroke (Combat)
-
-**Sources:** PRPG Core Rulebook pg 121
 
 With a well-placed strike, you can bring a swift and painful end to most foes.\
 **Prerequisites:** [Dazzling Display](ref/feat/dazzling-display),

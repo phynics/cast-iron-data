@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "rival-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greensight", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "231"
+[[sources]]
+publication = "rival-guide"
+page = "23"
 
 [fields]
 kind = "spell"
@@ -41,8 +47,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: no
 Target: creature touched
 :::
-
-**Sources:** Ultimate Wilderness pg 231, Rival Guide pg 23
 
 The target of this spell gains the ability to see up to 60 feet through thick plant matter as though
 it were transparent. Greenery, leaves, and vines - even lichen, moss, and slime - offer no

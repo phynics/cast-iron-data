@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/inquisitor" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "44"
 
 [fields]
 kind = "archetype"
 replaces = ["Second judgment", "Third judgment", "Slayer", "True judgment"]
 +++
 
-**Sources:** Ultimate Magic pg 44\
 Some inquisitors, as they learn more about the threat of possession and the machinations of the
 planes, task themselves to expel possessing spirits and conniving outsiders from the world whenever
 possible. Eventually they learn the secret of the _verdicts of exorcism, exile,_ and _anathema._

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-116-fangs-of-war"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_ground_cricket", path = "json/monsters11.json" },
 ]
+[[sources]]
+publication = "pathfinder-116-fangs-of-war"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -38,7 +41,6 @@ _Long spines jut from the legs and back of this enormous cricket._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#116: Fangs of War pg 84\
 **Type:** vermin
 
 **Experience points:** 600

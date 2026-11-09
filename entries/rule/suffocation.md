@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "suffocation", path = "json/rules_gm08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "445"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 445
 
 A character who has no air to breathe can hold her breath for 2 rounds per point of Constitution. If
 a character takes a standard or full-round action, the remaining duration that the character can

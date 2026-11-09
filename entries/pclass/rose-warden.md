@@ -6,14 +6,15 @@ source_ids = ["paths-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rose_warden", path = "json/prestige_classes3.json" },
 ]
+[[sources]]
+publication = "paths-of-the-righteous"
+page = "20"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d8."
 +++
-
-**Sources:** Paths of the Righteous pg 20
 
 Tyrants may attempt to crush the seeds of dissent before they can ever bloom, but the goddess Milani
 is always there to cultivate hope in the very heart of oppression and uplift the subjugated. Those

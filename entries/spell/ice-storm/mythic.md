@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/ice-storm", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "98"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 98\
 The bludgeoning damage increases to 4d8 points of damage and the cold damage increases to 3d6 points
 of damage. The ground in the area is covered in ice and hailstones, acting as though a grease spell
 were cast on it. Dealing 5 or more points of fire damage to a square melts the ice and hail,

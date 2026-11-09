@@ -6,6 +6,9 @@ source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "circlet_of_spell_eating", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "16"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate (no school)"
 caster_level = "7th"
 +++
 
-**Sources:** Black Markets pg 16\
 **Aura** moderate (no school); **CL** 7th\
 **Slot** head; **Price** 1,500 gp (Type I), 6,000 gp (Type II), 13,500 gp (Type III), 24,000 gp
 (Type IV); **Weight** -

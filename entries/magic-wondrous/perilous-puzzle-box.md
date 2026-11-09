@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "perilous_puzzle_box", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "222"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Sources:** Horror Adventures pg 222\
 **Aura** moderate conjuration; **CL** 9th\
 **Slot** none; **Price** 5,000 gp; **Weight** 1 lb.
 

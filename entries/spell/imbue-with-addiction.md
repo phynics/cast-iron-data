@@ -6,6 +6,12 @@ source_ids = ["black-markets", "magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "imbue_with_addiction", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "19"
+[[sources]]
+publication = "magical-marketplace"
+page = "24"
 
 [fields]
 kind = "spell"
@@ -42,8 +48,6 @@ Saving throw: Fortitude negates
 Spell resistance: yes
 Target: one living creature
 :::
-
-**Sources:** Black Markets pg 19, Magical Marketplace pg 24
 
 The target immediately becomes addicted to the drug used as the material component during the
 casting of the spell. If the target was ever addicted to the drug at any point in the past, it takes

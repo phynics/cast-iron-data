@@ -6,6 +6,9 @@ source_ids = ["pathfinder-76-the-midnight-isles"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "talisman_of_true_faith", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "pathfinder-76-the-midnight-isles"
+page = "61"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Sources:** Pathfinder \#76: The Midnight Isles pg 61\
 **Aura** faint divination; **CL** 3rd\
 **Slot** none; **Price** 3,000 gp; **Weight** -
 

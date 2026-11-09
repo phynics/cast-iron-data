@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloak_of_heavenly_fire", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "16"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Sources:** Adventurer's Guide pg 16\
 **Aura** faint conjuration; **CL** 5th\
 **Slot** shoulder; **Price** 6,000 gp; **Weight** 1 lb.
 

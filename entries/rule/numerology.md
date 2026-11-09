@@ -6,12 +6,13 @@ source_ids = ["occult-mysteries"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "numerology", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-mysteries"
+page = "48"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Mysteries pg 48
 
 Whereas most of divinatory traditions - such as augury, extispicy, and astrology - rely on
 observation of the natural world, numerology manipulates of numbers, ratios, and equations. Through

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "winning_monster_combos", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "42"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 42
 
 Some monsters are best used in groups or with other creatures that complement or augment their
 abilities. A single [derro](ref/monster/derro) probably has a hard time using its sneak attack, but

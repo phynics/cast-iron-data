@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "explosive_escape", path = "json/feat06.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "14"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you succeed at a combat maneuver check to break a grapple, you c
 +++
 
 ## Explosive Escape (Combat)
-
-**Sources:** Melee Tactics Toolbox pg 14
 
 When you break a grapple, you can send your assailants flying away from you.\
 **Prerequisites:** Dex 13, Str 13, [Improved Grapple](ref/feat/improved-grapple),

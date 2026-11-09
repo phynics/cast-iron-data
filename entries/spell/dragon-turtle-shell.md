@@ -6,6 +6,9 @@ source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_turtle_shell", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "dragonslayers-handbook"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Dragonslayer's Handbook pg 28
 
 When you are struck by an opponent's natural attacks, the damage is resolved as if the attack came
 from a creature one size smaller per 5 caster levels (maximum of four size categories smaller at CL

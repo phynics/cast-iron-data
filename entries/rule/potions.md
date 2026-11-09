@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "potions", path = "json/rules_basics02.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "477"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 477
 
 A potion is a magic liquid that produces its effect when imbibed. Potions vary incredibly in
 appearance. Magic oils are similar to potions, except that oils are applied externally rather than

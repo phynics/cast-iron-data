@@ -6,13 +6,14 @@ source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "singing_steel", path = "json/equipment_special_materials.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "28"
 
 [fields]
 kind = "item"
 category = "Special Materials"
 +++
-
-**Sources:** Adventurer's Armory 2 pg 28
 
 This lustrous golden metal emits beautiful bell-like tones when struck. An alloy of
 [gold](ref/eq-material/gold) and [mithral](ref/eq-material/mithral), singing steel was originally

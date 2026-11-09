@@ -6,13 +6,15 @@ source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ardril_the_would_be_king", path = "json/class_ability_spirits.json" },
 ]
+[[sources]]
+publication = "heroes-of-golarion"
+page = "5"
 
 [fields]
 kind = "class_option"
 group = "medium-spirit"
 +++
 
-**Sources:** Heroes of Golarion pg 5\
 The Would-Be King is an Ulfen folk hero famous for slaying nearly a dozen
 [linnorms](ref/family/linnorm) but refusing to rule any nation until she had slain
 [Fafnheir](ref/monster/fafnheir), the father of all linnorms. The Linnorm Kings at the time were

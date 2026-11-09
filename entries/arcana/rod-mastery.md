@@ -6,13 +6,14 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rod_mastery", path = "json/class_ability_magus_arcana.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "55"
 
 [fields]
 kind = "class_option"
 group = "magus-arcana"
 +++
-
-**Sources:** Ultimate Combat pg 55
 
 **Rod Mastery (Su):**
 

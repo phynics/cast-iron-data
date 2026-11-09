@@ -6,6 +6,9 @@ source_ids = ["pathfinder-109-in-search-of-sanity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tsathoggua", path = "json/faiths8.json" },
 ]
+[[sources]]
+publication = "pathfinder-109-in-search-of-sanity"
+page = "72"
 
 [fields]
 kind = "none"
@@ -15,7 +18,6 @@ kind = "none"
 
 **Sub:** Father of Night
 
-**Sources:** Pathfinder \#109: In Search of Sanity pg 72\
 **Monster Link** [Tsathoggua](ref/monster/great-old-one-tsathoggua)
 
 ### Details

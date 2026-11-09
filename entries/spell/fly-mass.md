@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/fly" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "223"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: yes (harmless)
 :::
 
 ### Mass Fly
-
-**Sources:** Advanced Player's Guide pg 223
 
 This spell functions as [fly](ref/spell/fly), save that it can target numerous creatures and lasts
 longer.

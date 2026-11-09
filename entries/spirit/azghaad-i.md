@@ -6,6 +6,9 @@ source_ids = ["occult-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "azghaad_i", path = "json/class_ability_spirits.json" },
 ]
+[[sources]]
+publication = "occult-realms"
+page = "11"
 
 [fields]
 kind = "class_option"
@@ -13,7 +16,6 @@ group = "medium-spirit"
 replaces = ["Decisive strike"]
 +++
 
-**Sources:** Occult Realms pg 11\
 The ancient founder of Osirion, Azghaad I brought his people together under
 [Nethys's](ref/faith/nethys) guidance at the dawn of the Age of Destiny.
 

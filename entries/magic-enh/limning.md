@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "limning", path = "json/magic_enhancements2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "145"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Equipment pg 145\
 **Aura** faint evocation; **CL** 5th\
 **Slot** weapon quality; **Price** +1 bonus; **Weight** -
 

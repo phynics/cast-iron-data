@@ -6,6 +6,9 @@ source_ids = ["undead-slayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "undeath_inversion", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "undead-slayers-handbook"
+page = "27"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: Will negates, see text
 Spell resistance: yes
 Target: one undead creature
 :::
-
-**Sources:** Undead Slayer's Handbook pg 27
 
 You alter an undead creature's energy affinity so that it takes damage from negative energy and
 gains healing from positive energy, as if it were a living creature. If the target was able to

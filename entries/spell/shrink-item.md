@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shrink_item", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "342"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: Will negates (object)
 Spell resistance: yes (object)
 Target: one touched object of up to 2 cu. ft./level
 :::
-
-**Sources:** PRPG Core Rulebook pg 342
 
 You are able to shrink one nonmagical item (if it is within the size limit) to 1/16 of its normal
 size in each dimension (to about 1/4,000 the original volume and mass). This change effectively

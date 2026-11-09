@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bloodrager" },
 ]
+[[sources]]
+publication = "monster-summoners-handbook"
+page = "6"
 
 [fields]
 kind = "archetype"
 replaces = ["Uncanny dodge", "bloodline feats gained at 6th and 18th levels", "Improved uncanny dodge", "the bloodline feat gained at 12th level"]
 +++
 
-**Sources:** Monster Summoner's Handbook pg 6\
 While all bloodragers tap into their bloodlines to fuel the arcane energies they use in battle, some
 have the ability to call directly to the spirits of their ancestors to aid them, summoning spirits
 to fight for them or inspire their allies. Ancestral harbingers are particularly common among

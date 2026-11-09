@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "anticipate_dodge", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "141"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You automatically know whether a creature you can see has a dodge bon
 +++
 
 ## Anticipate Dodge (Combat)
-
-**Sources:** Advanced Class Guide pg 141
 
 Your knowledge of mobility and your attack prowess allow you to thwart elusive opponents.\
 **Prerequisites:** [Dodge](ref/feat/dodge), [Mobility](ref/feat/mobility); base attack bonus +7,

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-109-in-search-of-sanity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ithaqua", path = "json/faiths4.json" },
 ]
+[[sources]]
+publication = "pathfinder-109-in-search-of-sanity"
+page = "68"
 
 [fields]
 kind = "none"
@@ -15,7 +18,6 @@ kind = "none"
 
 **Sub:** The Wind-Walker
 
-**Sources:** Pathfinder \#109: In Search of Sanity pg 68\
 **Monster Link** [Ithaqua](ref/monster/great-old-one-ithaqua)
 
 ### Details

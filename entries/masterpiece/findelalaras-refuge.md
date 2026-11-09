@@ -6,6 +6,8 @@ source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "findelalaras_refuge", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "heroes-from-the-fringe"
 
 [fields]
 kind = "class_option"
@@ -13,8 +15,6 @@ group = "bardic-masterpiece"
 +++
 
 ## Findelalara's Refuge (Dance, Oratory)
-
-**Sources:** Heroes from the Fringe
 
 Praying to the Guiding Hand for assistance, you invoke shelter from ice and snow.
 

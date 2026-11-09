@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jawbreaker", path = "json/magic_enhancements.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "246"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "9th"
 +++
 
-**Sources:** Ultimate Wilderness pg 246\
 **Aura** moderate necromancy; **CL** 9th\
 **Slot** none; **Price** +2 bonus; **Weight** -
 

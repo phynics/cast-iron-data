@@ -9,6 +9,12 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/scrying" },
 ]
+[[sources]]
+publication = "pathfinder-67-the-snows-of-summer"
+page = "73"
+[[sources]]
+publication = "cities-of-golarion"
+page = "63"
 
 [fields]
 kind = "spell"
@@ -44,8 +50,6 @@ Spell resistance: no
 Effect: magical sensor
 Subschool: Scrying
 :::
-
-**Sources:** Pathfinder \#67: The Snows of Summer pg 73, Cities of Golarion pg 63
 
 This spell lets you look into a mirror near you and see an image that is reflected in another
 specific mirror (chosen by you) or an individual reflected in any other mirror. This works like a

@@ -6,6 +6,9 @@ source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wall_of_mist", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
+page = "18"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Effect: wall of thin fog 10 ft. long/level or dense fog 5 ft. long/level; either
 Subschool: Creation
 Descriptors: air
 :::
-
-**Sources:** Elemental Master's Handbook pg 18
 
 With a whispered incantation, you conjure a stationary vertical wall of misty vapor. The wall is
 straight, is 1 foot thick, and has a length up to 10 feet per caster level. The wall obscures

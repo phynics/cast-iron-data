@@ -6,6 +6,9 @@ source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fiendish_wrath", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "plane-hoppers-handbook"
+page = "13"
 
 [fields]
 kind = "spell"
@@ -53,8 +56,6 @@ Target: one willing living creature per 3 levels, no two of which can be more th
 Subschool: Compulsion
 Descriptors: emotion, mind-affecting
 :::
-
-**Sources:** Plane-Hopper's Handbook pg 13
 
 Each affected creature flies into a combat frenzy. The target gains a +2 morale bonus to Strength
 and Constitution, and a +1 morale bonus on Will saves. If an affected creature strikes an enemy with

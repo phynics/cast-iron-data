@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/symbol-of-death" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "356"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Effect: one symbol
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 356
 
 This spell functions like [symbol of death](ref/spell/symbol-of-death), except that all creatures of
 10 HD or less within 60 feet of the symbol of sleep instead fall into a catatonic slumber for 3d6 ×

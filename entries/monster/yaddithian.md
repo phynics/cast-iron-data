@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "yaddithian", path = "json/monsters41.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "285"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ vaguely humanoid shape._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 6 pg 285\
 **Experience points:** 4,800
 
 **Armor class:** 15/13/13

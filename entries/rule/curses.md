@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "curses", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "556"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 556
 
 Careless rogues plundering a tomb, drunken heroes insulting a powerful wizard, and foolhardy
 adventurers who pick up ancient swords all might suffer from curses. These magic afflictions can

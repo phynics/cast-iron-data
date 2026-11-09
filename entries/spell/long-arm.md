@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "long_arm", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "186"
 
 [fields]
 kind = "spell"
@@ -48,7 +51,5 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Advanced Class Guide pg 186
 
 Your arms temporarily grow in length, increasing your reach with those limbs by 5 feet.

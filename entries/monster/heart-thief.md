@@ -6,6 +6,9 @@ source_ids = ["seers-of-the-drowned-city"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heart_thief", path = "json/monsters13.json" },
 ]
+[[sources]]
+publication = "seers-of-the-drowned-city"
+page = "57"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ sack._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Seers of the Drowned City pg 57\
 **Subtype:** Chaotic, Evil, Native
 
 **Experience points:** 6,400

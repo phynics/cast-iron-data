@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swordmasters_shirt", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Sources:** Melee Tactics Toolbox pg 29\
 **Aura** faint divination; **CL** 5th\
 **Slot** chest; **Price** 10,000 gp; **Weight** -
 

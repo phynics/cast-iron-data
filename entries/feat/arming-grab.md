@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arming_grab", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "22"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "Attempting to disarm a foe while unarmed imposes a -4 penalty on the a
 +++
 
 ## Arming Grab (Combat)
-
-**Sources:** Martial Arts Handbook pg 22
 
 Opponents would be foolish to underestimate you, even if you appear unarmed and helpless. You are
 practiced at turning the tables on armed foes and using their own weapons against them.\

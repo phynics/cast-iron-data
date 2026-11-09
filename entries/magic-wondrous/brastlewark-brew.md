@@ -6,6 +6,9 @@ source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brastlewark_brew", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "52"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint enchantment"
 caster_level = "3rd"
 +++
 
-**Sources:** Inner Sea Intrigue pg 52\
 **Aura** faint enchantment; **CL** 3rd\
 **Slot** none; **Price** 150 gp; **Weight** 1 lb.
 

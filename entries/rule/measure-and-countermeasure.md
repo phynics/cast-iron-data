@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "measure_and_countermeasure", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "99"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 99
 
 In intrigue-themed games, adversaries engage in clandestine activities and seek to prevent each
 other's actions. Just like in the real world, the invention of new measures and countermeasures

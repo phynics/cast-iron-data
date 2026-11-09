@@ -6,6 +6,9 @@ source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "glimpse_of_the_akashic", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "10"
 
 [fields]
 kind = "spell"
@@ -36,8 +39,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Psychic Anthology pg 10
 
 You expand your consciousness in an attempt to tap into the perfect knowledge contained within the
 Akashic Record. Such a connection is incredibly difficult to create and maintain, and it can be

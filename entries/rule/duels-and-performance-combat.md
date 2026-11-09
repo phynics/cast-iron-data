@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "duels_and_performance_combat", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "152"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 152
 
 If you are using the duel rules within a [performance combat](ref/rule/performance-combat),
 successfully performing a dueling counter, dueling dodge, or dueling resolve all allow the combatant

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/mesmerist" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "39"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Towering ego, 10th-level mesmerist trick", "touch treatment (break 
 alters = ["Spellcasting", "Hypnotic stare"]
 +++
 
-**Sources:** Ultimate Intrigue pg 39\
 Most mesmerists practice their mental manipulation through their entrancing gaze, but others have
 learned to practice their skill through the lilt and intonation of their voice. From sibilant
 whispers to overwhelming imprecations that resonate with the force of pure will, a vox unleashes the

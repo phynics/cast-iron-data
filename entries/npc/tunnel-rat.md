@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tunnel_rat", path = "json/npcs2.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "130"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "5"
 
 **Challenge rating:** 5
 
-**Sources:** NPC Codex pg 130\
 **XP** 1,600\
 Gnome [ranger](ref/class/ranger) 6\
 N Small humanoid (gnome)\

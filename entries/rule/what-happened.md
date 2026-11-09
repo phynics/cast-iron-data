@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "what_happened", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "108"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 108
 
 The hostess's close friend is in serious financial trouble, which she has hidden, continuing to
 present a veneer of wealth. To fund her continued lifestyle, she began to steal from the hostess.

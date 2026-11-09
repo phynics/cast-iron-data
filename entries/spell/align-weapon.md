@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "align_weapon", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "240"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: Will negates (harmless) (object)
 Spell resistance: yes (harmless) (object)
 Target: weapon touched or 50 projectiles (all of which must be together at the time of casting)
 :::
-
-**Sources:** PRPG Core Rulebook pg 240
 
 Align weapon makes a weapon chaotic, evil, good, or lawful, as you choose. A weapon that is aligned
 can bypass the [damage reduction](ref/rule/damage-reduction) of certain creatures. This spell has no

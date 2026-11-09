@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eroding_strikes", path = "json/feat06.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "27"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you deal damage with a melee attack with a bludgeoning weapon to
 +++
 
 ## Eroding Strikes (Combat, Combination)
-
-**Sources:** Martial Arts Handbook pg 27
 
 With careful, repeated blows, you weaken your foe's defenses.\
 **Prerequisites:** [Weapon Focus](ref/feat/weapon-focus) with bludgeoning weapon.\

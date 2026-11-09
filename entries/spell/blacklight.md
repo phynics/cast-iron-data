@@ -6,6 +6,9 @@ source_ids = ["pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blacklight", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "pathfinder-campaign-setting"
+page = "206"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: yes or no (object)
 Area: 20-ft.-radius emanation
 Descriptors: darkness
 :::
-
-**Sources:** Pathfinder Campaign Setting pg 206
 
 You create an area of total darkness. The darkness is impenetrable even to
 [darkvision](ref/rule/darkvision), but you can see normally within it. Creatures outside the spell's

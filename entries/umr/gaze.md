@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gaze", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "293"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Gaze (Su)
 
-**Sources:** Bestiary 5 pg 293\
 This attack takes effect when foes look at the attacking creature's eyes. The attack can have any
 sort of effect; charm, death, and petrification are common. The typical range is 30 feet, but check
 the creature's entry for details. The type of saving throw for a gaze attack varies, but it is

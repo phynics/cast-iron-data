@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "taniniver", path = "json/monsters39.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "258"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ maggots and oozing pus._
 
 **Senses:** Darkvision 120 ft., Deathwatch
 
-**Sources:** Bestiary 4 pg 258\
 **Experience points:** 153,600
 
 **Armor class:** 33/8/33

@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fear_ha", path = "json/rules_campaign_types02.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "10"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 10
 
 In a game where terrible things lurk in the darkness and horrors crawl forth from nightmares to
 plague the living, the rules for fear are an important part of play. To help bring an appropriate

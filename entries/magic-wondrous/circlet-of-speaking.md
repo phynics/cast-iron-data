@@ -6,6 +6,9 @@ source_ids = ["animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "circlet_of_speaking", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "animal-archive"
+page = "26"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination"
 caster_level = "4th"
 +++
 
-**Sources:** Animal Archive pg 26\
 **Aura** faint divination; **CL** 4th\
 **Slot** headband; **Price** 4,800 gp; **Weight** 1 lb.
 

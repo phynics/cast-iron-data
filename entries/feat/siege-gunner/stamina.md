@@ -6,11 +6,13 @@ source_ids = ["pathfinder-unchained"]
 relations = [
   { kind = "addon", target = "ref/feat/siege-gunner", label = "stamina" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "131"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder Unchained pg 131\
 As long as you have at least 1 stamina point in your stamina pool, you gain a +1 bonus on attack
 rolls with all siege weapons you are proficient with.

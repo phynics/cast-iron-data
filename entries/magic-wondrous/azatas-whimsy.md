@@ -6,6 +6,9 @@ source_ids = ["demon-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "azatas_whimsy", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "demon-hunters-handbook"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Sources:** Demon Hunter's Handbook pg 28\
 **Aura** moderate enchantment; **CL** 7th\
 **Slot** neck; **Price** 8,000 gp; **Weight** -
 

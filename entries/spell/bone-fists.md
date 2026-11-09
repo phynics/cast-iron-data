@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bone_fists", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "5"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Saving throw: none
 Spell resistance: no
 Targets: 1 creature/level, no two of which can be more than 30 feet apart
 :::
-
-**Sources:** Magic Tactics Toolbox pg 5
 
 The bones of your targets' joints grow thick and sharp, protruding painfully through the skin at the
 knuckles, elbows, shoulders, spine, and knees. The targets each gain a +1 bonus to natural armor and

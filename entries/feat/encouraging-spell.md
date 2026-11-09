@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "encouraging_spell", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "5"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Any morale bonus granted by an encouraging spell is increased by 1. A
 +++
 
 ## Encouraging Spell (Metamagic)
-
-**Sources:** Magic Tactics Toolbox pg 5
 
 Your inspiration provides your allies with greater support.\
 **Prerequisites:** Cha 13, Diplomacy 6 ranks.\

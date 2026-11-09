@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/raise-dead" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "233"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Subschool: Healing
 :::
 
 ### Raise Animal Companion
-
-**Sources:** Ultimate Magic pg 233
 
 This spell functions as [raise dead](ref/spell/raise-dead), but it only affects an animal companion,
 familiar, or paladin's bonded mount.

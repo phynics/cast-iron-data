@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/mesmerist" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "38"
 
 [fields]
 kind = "archetype"
 replaces = ["Consummate liar", "bold stare improvement gained at 3rd level", "Towering ego", "mental potency"]
 +++
 
-**Sources:** Ultimate Intrigue pg 38\
 While many mesmerists focus on beguiling their foes or taking overt control of others with their
 mental powers, viziers carve out a subtler niche for themselves as advisors. An adventuring vizier
 is delighted that enemies focus on the raging barbarian or spell-slinging wizard first, not

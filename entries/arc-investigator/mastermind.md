@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/investigator" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "101"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Trapfinding", "trap sense", "Swift alchemy", "Investigator talent g
 alters = ["Inspiration"]
 +++
 
-**Sources:** Advanced Class Guide pg 101\
 Although some investigators use their honed senses and cunning insight for personal gain, no one
 excels at such endeavors like the mastermind. Typically, these investigators dwell at the centers of
 complex networks of lies, minions, or simply precious information, from which they dispense

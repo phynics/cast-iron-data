@@ -6,14 +6,16 @@ source_ids = ["bestiary-5", "bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "leshy", path = "json/monster_subtypes.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+[[sources]]
+publication = "bestiary-3"
 
 [fields]
 kind = "none"
 +++
 
 ## Subtype: Leshy
-
-**Sources:** Bestiary 5, Bestiary 3
 
 A [leshy](ref/family/leshy) is a nature spirit that inhabits the body of a specially grown plant.
 Regardless of their kind, all leshys have the following traits in addition to those granted by the

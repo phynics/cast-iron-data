@@ -6,6 +6,9 @@ source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "linnorm_wrath", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "legacy-of-dragons"
+page = "21"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you use the Linnorm Vengeance feat to allow an enemy to hit you,
 +++
 
 ## Linnorm Wrath (Combat)
-
-**Sources:** Legacy of Dragons pg 21
 
 With practiced ease, you answer a blow with a blow. Even when you are overwhelmed, your body
 deflects the force of the strike back to the attacker as a stunning wave of energy.\

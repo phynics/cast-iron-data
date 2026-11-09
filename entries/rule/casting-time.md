@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "casting_time", path = "json/rules_basics04.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "213"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 213
 
 Most spells have a casting time of 1 standard action. Others take 1 round or more, while a few
 require only a swift action.

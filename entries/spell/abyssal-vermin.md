@@ -6,6 +6,9 @@ source_ids = ["pathfinder-78-city-of-locusts"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "abyssal_vermin", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "pathfinder-78-city-of-locusts"
+page = "75"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: Fortitude negates (see text)
 Spell resistance: yes
 Target: one vermin or vermin swarm
 :::
-
-**Sources:** Pathfinder \#78: City of Locusts pg 75
 
 > _Priests of [Deskari](ref/faith/deskari) have access to the following spell._
 

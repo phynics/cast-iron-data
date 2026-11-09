@@ -6,6 +6,9 @@ source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "telekinetic_strikes", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "11"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: yes (harmless)
 Target: one creature
 Descriptors: force
 :::
-
-**Sources:** Psychic Anthology pg 11
 
 The touched creature's limbs are charged with telekinetic force. For the duration of the spell, the
 target's unarmed attacks or natural weapons deal an additional 1d4 points of force damage on each

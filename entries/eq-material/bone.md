@@ -6,13 +6,14 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bone", path = "json/equipment_special_materials.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "52"
 
 [fields]
 kind = "item"
 category = "Special Materials"
 +++
-
-**Sources:** Ultimate Equipment pg 52
 
 Bone can be used in place of wood and steel in weapons and armor. Other animal-based materials like
 horn, shell, and ivory also use the rules for bone weapon and armor. The cost of a bone weapon or

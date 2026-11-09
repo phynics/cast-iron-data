@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_cockroach", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "193"
 
 [fields]
 kind = "creature"
@@ -39,7 +42,6 @@ _This swift brown insect scampers up walls, its antennae flailing._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Ultimate Wilderness pg 193\
 **Type:** vermin
 
 **Experience points:** 50

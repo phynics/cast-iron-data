@@ -6,6 +6,9 @@ source_ids = ["pathfinder-57-tempest-rising"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_the_iron_skull", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "pathfinder-57-tempest-rising"
+page = "59"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Sources:** Pathfinder \#57: Tempest Rising pg 59\
 **Aura** faint divination; **CL** 5th\
 **Slot** ring; **Price** 10,800 gp; **Weight** -
 

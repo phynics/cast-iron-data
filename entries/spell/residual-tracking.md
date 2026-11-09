@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "residual_tracking", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "238"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: none
 Spell resistance: no
 Target: footprint touched
 :::
-
-**Sources:** Advanced Player's Guide pg 238
 
 By touching a footprint, you receive a clear mental image of the person or creature that made it.
 The image has the exact same appearance as the creature that made the footprint at the moment it

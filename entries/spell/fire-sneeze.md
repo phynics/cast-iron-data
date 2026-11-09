@@ -6,6 +6,9 @@ source_ids = ["goblins-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fire_sneeze", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "goblins-of-golarion"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes
 Target: you
 Descriptors: air, fire
 :::
-
-**Sources:** Goblins of Golarion pg 28
 
 This spell causes you to begin sneezing gouts of fire that can not only set creatures ablaze but
 also drop them flat on their backs. Once you cast this spell, you must sneeze each round as a

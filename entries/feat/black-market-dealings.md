@@ -6,13 +6,14 @@ source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "black_market_dealings", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "7"
 
 [fields]
 kind = "feat"
 benefit = "You gain a +4 bonus on Diplomacy checks to access black markets and do not pay the gp cost to do so. You suffer no consequences for failing the check unless you fail by 10 or more."
 +++
-
-**Sources:** Black Markets pg 7
 
 You walk dark alleys and trade in secrets.\
 **Benefit:** You gain a +4 bonus on Diplomacy checks to access

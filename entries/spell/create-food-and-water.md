@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "create_food_and_water", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "261"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: no
 Effect: food and water to sustain three humans or one horse/level for 24 hours
 Subschool: Creation
 :::
-
-**Sources:** PRPG Core Rulebook pg 261
 
 The food that this spell creates is simple fare of your choice-highly nourishing, if rather bland.
 Food so created decays and becomes inedible after 24 hours, although it can be kept fresh for

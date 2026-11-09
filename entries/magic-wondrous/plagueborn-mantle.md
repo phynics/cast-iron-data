@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plagueborn_mantle", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "69"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "6th"
 +++
 
-**Sources:** Villain Codex pg 69\
 **Aura** moderate necromancy; **CL** 6th\
 **Slot** shoulders; **Price** 7,200 gp; **Weight** 1 lb.
 

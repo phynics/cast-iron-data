@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_item_creation", path = "json/rules_basics04.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "548"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 548
 
 To create magic items, spellcasters use special feats which allow them to invest time and money in
 an item's creation. At the end of this process, the spellcaster must make a single skill check

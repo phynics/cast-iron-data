@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "linnorm_tarn_linnorm", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "192"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ seethe with acid and poison._
 
 **Senses:** All-around vision, Darkvision 120 ft., Low-light vision, Scent, True seeing
 
-**Sources:** Pathfinder RPG Bestiary pg 192\
 **Subtype:** Aquatic
 
 **Experience points:** 307,200

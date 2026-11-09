@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "secrets", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "33"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 33
 
 Sometimes a player may split off from the group, or you might want to give information secretly to a
 certain player because of a successful Perception check. Perhaps an NPC only trusts one character

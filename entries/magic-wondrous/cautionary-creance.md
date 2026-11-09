@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cautionary_creance", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "287"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "1st"
 +++
 
-**Sources:** Ultimate Equipment pg 287\
 **Aura** faint transmutation; **CL** 1st\
 **Slot** none; **Price** 4,000 gp; **Weight** 2 lbs.
 

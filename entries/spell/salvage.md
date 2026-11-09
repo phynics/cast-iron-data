@@ -6,6 +6,9 @@ source_ids = ["pirates-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "salvage", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "pirates-of-the-inner-sea"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: Fortitude negates (object)
 Spell resistance: yes (object)
 Targets: one shipwreck
 :::
-
-**Sources:** Pirates of the Inner Sea pg 28
 
 An invisible force pulls together the remains of a shipwreck. Bits of hull, tattered sails, broken
 masts, and smashed figureheads knit themselves back together. Rotten wood turns solid once more, and

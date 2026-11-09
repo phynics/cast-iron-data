@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "organizational_influence", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "109"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 109
 
 The organizational influence system provides the GM with tools to track the PCs' social cachet
 within organizations. Small organizations seeking to make their mark on society may allow the PCs a

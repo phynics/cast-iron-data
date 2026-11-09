@@ -6,12 +6,13 @@ source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "starting_a_rumor", path = "json/rules_adv_pc01.json" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "14"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Inner Sea Intrigue pg 14
 
 Planting a rumor requires carefully spreading and cultivating it. A PC can plant a rumor in a
 settlement by spending 1 week (or 1d4 days if the settlement is smaller than a town) and succeeding

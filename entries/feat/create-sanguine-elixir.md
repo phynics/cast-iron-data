@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "create_sanguine_elixir", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "148"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Cha 15, Brew Potion, Craft (alchemy) 12 ranks, sorcerer level 3
 prerequisite_feats = ["ref/feat/brew-potion"]
 benefit = "Once per day, when you clear your mind to regain spell slots, you can create a sanguine elixir. When you do, pick one of your bloodline powers. You transfer that power into a small potion that any creature can drink to temporarily gain the benefit of your bloodline power. Creating a sanguine elixir takes 1 hour, and requires special oils and distillates worth 100 gp, and when you make the sanguine elixir, you lose access to the bloodline power until the next time you clear your mind to regain spell slots."
 +++
-
-**Sources:** Ultimate Magic pg 148
 
 You can condense a fraction of your bloodline's power into a powerful elixir.\
 **Prerequisites:** Cha 15, [Brew Potion](ref/feat/brew-potion), Craft (alchemy) 12 ranks, sorcerer

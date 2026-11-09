@@ -6,12 +6,13 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "essence_traits", path = "json/rules_campaign_types09.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "60"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Planar Adventures pg 60
 
 Four basic elements (air, earth, fire, and water) and two types of energy (positive and negative)
 combine in various ways to make up reality. Note that some planes have no elemental or energy

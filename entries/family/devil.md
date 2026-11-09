@@ -6,12 +6,12 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil", path = "json/monster_families.json" },
 ]
+[[sources]]
+publication = "bestiary"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder RPG Bestiary
 
 Masters of corruption and despoilers of purity, [devils](ref/subtype/devil) seek to destroy all
 things good and drag mortal souls back with them to the depths of Hell.

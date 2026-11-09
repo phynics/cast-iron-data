@@ -6,6 +6,9 @@ source_ids = ["pathfinder-63-the-asylum-stone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spy_eyes", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "pathfinder-63-the-asylum-stone"
+page = "59"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "9th"
 +++
 
-**Sources:** Pathfinder \#63: The Asylum Stone pg 59\
 **Aura** moderate divination; **CL** 9th\
 **Slot** none; **Price** 15,000 gp; **Weight** 1 lbs.
 

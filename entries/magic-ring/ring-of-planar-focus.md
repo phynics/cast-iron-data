@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_planar_focus", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "49"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong divination"
 caster_level = "15th"
 +++
 
-**Sources:** Planar Adventures pg 49\
 **Aura** strong divination; **CL** 15th\
 **Slot** ring; **Price** 4,000 gp; **Weight** -
 

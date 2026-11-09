@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wood_soldiers", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "61"
+[[sources]]
+publication = "occult-origins"
+page = "9"
 
 [fields]
 kind = "class_option"
@@ -21,8 +27,6 @@ group = "kineticist-wild-talent"
 **Level:** 8
 
 **Burn:** 1
-
-**Source:** Ultimate Wilderness/61, Occult Origins/9
 
 Your presence animates surrounding plant life and causes it to fight by your side. Each time you
 recover burn, you automatically use this ability once and ignore the burn cost. This functions as

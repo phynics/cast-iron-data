@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "judges_wig", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "245"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "7th"
 +++
 
-**Sources:** Ultimate Equipment pg 245\
 **Aura** moderate divination; **CL** 7th\
 **Slot** head; **Price** 59,200 gp; **Weight** -
 

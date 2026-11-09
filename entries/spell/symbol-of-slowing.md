@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/symbol-of-death" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "242"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Saving throw: Will negates
 Spell resistance: yes
 Effect: one symbol
 :::
-
-**Sources:** Ultimate Magic pg 242
 
 This spell functions as [symbol of death](ref/spell/symbol-of-death), except all creatures within 60
 feet of a symbol of slowing are slowed (as the [slow](ref/spell/slow) spell) for 1 round per caster

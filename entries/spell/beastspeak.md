@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beastspeak", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "175"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Advanced Class Guide pg 175
 
 When you're in the form of an animal (such as when you are using wild shape or are affected by a
 polymorph effect), you can speak normally, including when you cast spells with verbal components,

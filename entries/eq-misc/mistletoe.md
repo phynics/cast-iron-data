@@ -6,6 +6,9 @@ source_ids = ["adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mistletoe", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "adventurers-armory"
+page = "19"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "-"
 weight = "-"
 +++
 
-**Sources:** Adventurer's Armory pg 19\
 **Price** -; **Weight** -\
 **Category** Black Market
 

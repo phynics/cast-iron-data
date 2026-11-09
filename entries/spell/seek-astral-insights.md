@@ -6,12 +6,14 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seek_astral_insights", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "213"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Occult Adventures pg 213\
 **School** divination; **Level** 6\
 **Casting Time** 60 minutes\
 **Components** V, S, M (a number of candles made of pure beeswax equal to the number of wandering

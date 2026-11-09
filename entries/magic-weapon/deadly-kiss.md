@@ -6,6 +6,9 @@ source_ids = ["pathfinder-50-night-of-frozen-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deadly_kiss", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "pathfinder-50-night-of-frozen-shadows"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "6th"
 +++
 
-**Sources:** Pathfinder \#50: Night of Frozen Shadows pg 60\
 **Aura** moderate evocation; **CL** 6th\
 **Slot** none; **Price** 10,302 gp; **Weight** 1 lb.
 

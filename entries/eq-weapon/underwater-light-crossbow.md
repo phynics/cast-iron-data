@@ -6,14 +6,21 @@ source_ids = ["ranged-tactics-toolbox", "advanced-race-guide", "ultimate-equipme
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "underwater_light_crossbow", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "0"
+[[sources]]
+publication = "advanced-race-guide"
+page = "195"
+[[sources]]
+publication = "ultimate-equipment"
+page = "17"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "4 lbs."
 +++
-
-**Sources:** Ranged Tactics Toolbox pg 0, Advanced Race Guide pg 195, Ultimate Equipment pg 17
 
 An underwater light crossbow functions like its normal counterpart above water, and can be used
 underwater. When fired underwater, the crossbow has a range increment of 20 feet. Anyone proficient

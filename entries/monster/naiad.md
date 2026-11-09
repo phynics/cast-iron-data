@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "naiad", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "200"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ woven reeds and leaves._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 6 pg 200\
 **Subtype:** Water
 
 **Experience points:** 200

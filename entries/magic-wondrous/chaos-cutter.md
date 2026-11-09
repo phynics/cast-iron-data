@@ -6,6 +6,9 @@ source_ids = ["heaven-unleashed"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chaos_cutter", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "heaven-unleashed"
+page = "43"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration and transmutation"
 caster_level = "9th"
 +++
 
-**Sources:** Heaven Unleashed pg 43\
 **Aura** strong abjuration and transmutation; **CL** 9th\
 **Slot** none; **Price** 160,000 gp; **Weight** 1200 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "master_sniper", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "11"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "You can fire only once when sniping."
 +++
 
 ## Master Sniper (Combat)
-
-**Sources:** Dirty Tactics Toolbox pg 11
 
 Your sniping is quick enough that you can fire a small volley unnoticed.\
 **Prerequisites:** [Expert Sniper](ref/feat/expert-sniper), [Rapid Shot](ref/feat/rapid-shot),

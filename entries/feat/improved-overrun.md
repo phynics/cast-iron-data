@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_overrun", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "127"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ normal = "You provoke an attack of opportunity when performing an overrun combat
 +++
 
 ## Improved Overrun (Combat)
-
-**Sources:** PRPG Core Rulebook pg 127
 
 You are skilled at running down your foes.\
 **Prerequisites:** Str 13, [Power Attack](ref/feat/power-attack), base attack bonus +1.\

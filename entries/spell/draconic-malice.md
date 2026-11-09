@@ -6,6 +6,9 @@ source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "draconic_malice", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "legacy-of-dragons"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Spell resistance: no
 Effect: 10-foot aura centered on you
 Descriptors: draconic
 :::
-
-**Sources:** Legacy of Dragons pg 29
 
 You surround yourself with a palpable aura of draconic fear and dread. Living creatures within this
 aura that are normally immune to fear or mind-affecting abilities lose those immunities against your

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-103-the-hellfire-compact"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "typhilipede", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "pathfinder-103-the-hellfire-compact"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ of oversized mandibles that glisten with green ichor._
 
 **Senses:** Darkvision 120 ft., See in darkness
 
-**Sources:** Pathfinder \#103: The Hellfire Compact pg 88\
 **Subtype:** Evil, Extraplanar, Lawful
 
 **Size:** tiny

@@ -6,6 +6,9 @@ source_ids = ["cohorts-and-companions"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mending_kit", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "cohorts-and-companions"
+page = "17"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "5 gp"
 weight = "10 lbs."
 +++
 
-**Sources:** Cohorts and Companions pg 17\
 **Price** 5 gp; **Weight** 10 lbs.\
 **Category** Tools
 

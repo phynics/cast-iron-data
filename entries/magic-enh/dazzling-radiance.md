@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dazzling_radiance", path = "json/magic_enhancements.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "24"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ aura = "moderate illusion"
 caster_level = "7th"
 +++
 
-**Sources:** Dirty Tactics Toolbox pg 24\
 **Aura** moderate illusion; **CL** 7th\
 **Price** +1 bonus; **Weight** -
 

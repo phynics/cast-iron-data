@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_unarmed_strike", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "128"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ normal = "Without this feat, you are considered unarmed when attacking with an u
 +++
 
 ## Improved Unarmed Strike (Combat)
-
-**Sources:** PRPG Core Rulebook pg 128
 
 You are skilled at fighting while unarmed.\
 **Benefit:** You are considered to be armed even when unarmed - you do not provoke attacks of

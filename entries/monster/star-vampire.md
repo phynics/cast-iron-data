@@ -6,6 +6,9 @@ source_ids = ["pathfinder-110-the-thrushmoor-terror"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "star_vampire", path = "json/monsters38.json" },
 ]
+[[sources]]
+publication = "pathfinder-110-the-thrushmoor-terror"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ tentacles, all as red as freshly spilled blood._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent blood
 
-**Sources:** Pathfinder \#110: The Thrushmoor Terror pg 90\
 **Experience points:** 2,400
 
 **Armor class:** 19/8/19

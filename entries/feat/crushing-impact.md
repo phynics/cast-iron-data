@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crushing_impact", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "24"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever you successfully bull rush an enemy and its movement is stop
 +++
 
 ## Crushing Impact (Combat)
-
-**Sources:** Martial Arts Handbook pg 24
 
 You slam into your foes with brute strength as unyielding as a wall.\
 **Prerequisites:** Str 13, [Improved Bull Rush](ref/feat/improved-bull-rush),

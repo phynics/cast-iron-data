@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/arcanist" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "79"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Spellbooks"]
 alters = ["Spells"]
 +++
 
-**Sources:** Advanced Class Guide pg 79\
 Some arcanists store their spells as whispered secrets within familiars instead of on paper.
 
 **Familiar**

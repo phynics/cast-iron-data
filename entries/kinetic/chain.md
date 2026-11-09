@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chain", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "18"
 
 [fields]
 kind = "class_option"
@@ -23,8 +26,6 @@ group = "kineticist-wild-talent"
 **Associated:** [Electric Blast](ref/kinetic/electric-blast)
 
 **Saving throw:** none
-
-**Source:** Occult Adventures/18
 
 Your electric blast leaps from target to target. When you hit a target with your infused blast, you
 can attempt a ranged touch attack against an additional target that is within 30 feet of the first.

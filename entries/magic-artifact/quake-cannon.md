@@ -6,6 +6,9 @@ source_ids = ["wardens-of-the-reborn-forge"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quake_cannon", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "wardens-of-the-reborn-forge"
+page = "40"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong evocation"
 caster_level = "20th"
 +++
 
-**Sources:** Wardens of the Reborn Forge pg 40\
 **Aura** strong evocation; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 1,000 lbs.
 

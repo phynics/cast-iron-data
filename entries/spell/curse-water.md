@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "curse_water", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "263"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: yes (object)
 Target: flask of water touched
 Descriptors: evil
 :::
-
-**Sources:** PRPG Core Rulebook pg 263
 
 This spell imbues a flask (1 pint) of water with negative energy, turning it into unholy water.
 Unholy water damages good outsiders the way [holy water](ref/eq-weapon/holy-water) damages undead

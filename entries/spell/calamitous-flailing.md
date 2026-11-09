@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "calamitous_flailing", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "blood-of-the-coven"
+page = "20"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: curse
 :::
-
-**Sources:** Blood of the Coven pg 20
 
 You cause the victim's attacks to careen wildly, endangering itself and those around it. Your target
 gains a 25% miss chance on all attack rolls. If an attack misses due to this magical effect, the

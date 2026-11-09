@@ -6,6 +6,9 @@ source_ids = ["pathfinder-93-forge-of-the-giant-god"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "living_cave_painting", path = "json/monsters16.json" },
 ]
+[[sources]]
+publication = "pathfinder-93-forge-of-the-giant-god"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ an eerie sense of life and otherworldly majesty._
 
 **Perception:** +5
 
-**Sources:** Pathfinder \#93: Forge of the Giant God pg 88\
 **Experience points:** 1,200
 
 **Armor class:** 18/18/12

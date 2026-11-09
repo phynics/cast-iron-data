@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/monk" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "111"
 
 [fields]
 kind = "archetype"
 replaces = ["Still mind", "Purity of body", "Diamond body", "Diamond soul", "Empty body"]
 +++
 
-**Sources:** Advanced Player's Guide pg 111\
 The ki mystic believes that violence is sometimes necessary, but knowing and understanding is the
 true root of perfection. Through meditation and spiritual visions, a ki mystic can see beyond the
 veil of reality to the underlying truth of all existence. A ki mystic has the following class

@@ -6,6 +6,9 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "coliseum_gladiator", path = "json/npcs2.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "262"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "5"
 
 **Challenge rating:** 5
 
-**Sources:** GameMastery Guide pg 262\
 **XP** 1,600\
 Human [barbarian](ref/class/barbarian) 3/[fighter](ref/class/fighter) 3\
 N Medium humanoid\

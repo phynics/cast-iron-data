@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jackalroot_essence", path = "json/equipment_poisons.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "144"
+[[sources]]
+publication = "heroes-of-the-wild"
+page = "20"
 
 [fields]
 kind = "item"
@@ -13,8 +19,6 @@ category = "Poisons"
 price = "600 gp"
 weight = "&mdash;"
 +++
-
-**Sources:** Ultimate Wilderness pg 144, Heroes of the Wild pg 20
 
 **Price** 600 gp; **Weight** —
 

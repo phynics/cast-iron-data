@@ -6,13 +6,15 @@ source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow", path = "json/class_ability_disciplines.json" },
 ]
+[[sources]]
+publication = "blood-of-shadows"
+page = "17"
 
 [fields]
 kind = "class_option"
 group = "psychic-discipline"
 +++
 
-**Sources:** Blood of Shadows pg 17\
 You perceive the space between light and darkness, and draw power from it. Shadows conceal and
 protect you, while revealing the locations of those who dare to hide within them. Over time, you
 develop the ability to deny the warmth of light or life to your enemies.

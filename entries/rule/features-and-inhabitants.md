@@ -6,12 +6,13 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "features_and_inhabitants", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "129"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Wilderness pg 129
 
 While the majority of the Material Plane's universe is empty space populated by a diverse and
 seemingly endless number of different star systems and worlds, the First World is simply that: a

@@ -6,14 +6,15 @@ source_ids = ["paths-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "runeguard", path = "json/prestige_classes3.json" },
 ]
+[[sources]]
+publication = "paths-of-the-righteous"
+page = "22"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d6."
 +++
-
-**Sources:** Paths of the Righteous pg 22
 
 The ancient traditions of Thassilonian magic became mired in the culture of sin due to the legacy of
 that land's runelords, but taken in its purest form, Thassilonian magic is no more good than evil.

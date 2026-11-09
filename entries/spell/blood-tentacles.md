@@ -6,6 +6,9 @@ source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_tentacles", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "agents-of-evil"
+page = "30"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Agents of Evil pg 30
 
 You smear a handful of your own blood across your chest, causing one writhing tentacle per caster
 level to burst forth. You can direct these tentacles to attack a single creature within 15 feet as a

@@ -6,14 +6,15 @@ source_ids = ["champions-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summon_neutral_monster", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "champions-of-balance"
+page = "33"
 
 [fields]
 kind = "feat"
 prerequisites = "Chaotic neutral, lawful neutral, or neutral alignment."
 benefit = "When casting a summon monster spell, you gain access to the list of neutral creatures on this page. You may also summon creatures from the standard *summon monster* list and apply the counterpoised creature simple template to applicable creatures instead of the celestial or fiendish template. Creatures you summon from the list on this page and creatures you summon with the counterpoised template gain a +2 resistance bonus on Will saves."
 +++
-
-**Sources:** Champions of Balance pg 33
 
 You can summon creatures that embody the forces of balance.\
 **Prerequisites:** Chaotic neutral, lawful neutral, or neutral alignment.\

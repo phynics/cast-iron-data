@@ -6,12 +6,12 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "witch_light", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures
 
 **Witch Light (CR 1):** Often confused with [will-o'-wisps](ref/monster/will-o-wisp), these
 shimmering lights also tend to lead unwary passers-by to their dooms. Witch lights appear as

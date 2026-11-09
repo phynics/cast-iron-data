@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pelt_of_the_demon_mother", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "253"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Sources:** Inner Sea Gods pg 253\
 **Aura** faint necromancy; **CL** 3rd\
 **Slot** armor; **Price** 3,325 gp; **Weight** 25 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["antiheros-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "concentrated_laxative", path = "json/equipment_poisons.json" },
 ]
+[[sources]]
+publication = "antiheros-handbook"
+page = "28"
 
 [fields]
 kind = "item"
@@ -13,8 +16,6 @@ category = "Poisons"
 price = "75 gp"
 weight = "&mdash;"
 +++
-
-**Sources:** Antihero's Handbook pg 28
 
 **Price** 75 gp; **Weight** —
 

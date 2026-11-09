@@ -6,6 +6,9 @@ source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "portable_pit_acid_pit", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "21"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "varies"
 
 ## Portable Pit
 
-**Sources:** Black Markets pg 21\
 **Aura** varies; **CL** varies\
 **Slot** none; **Price** 2,890 gp (Blunt pit), 5,410 gp (Spiked pit), 10,090 gp (Acid pit), 14,410
 gp (Persistent pit), 16,210 gp (Hungry pit); **Weight** 1 lb.

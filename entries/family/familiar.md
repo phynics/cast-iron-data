@@ -6,12 +6,12 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar", path = "json/monster_families2.json" },
 ]
+[[sources]]
+publication = "bestiary"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder RPG Bestiary
 
 Presented here are the base animal statistics for all of the most commonly used familiars - of
 course, these statistics can also be used for normal animals as well. Small animals like these use

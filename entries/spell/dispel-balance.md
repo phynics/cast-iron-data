@@ -6,6 +6,12 @@ source_ids = ["planar-adventures", "champions-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dispel_balance", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "40"
+[[sources]]
+publication = "champions-of-balance"
+page = "27"
 
 [fields]
 kind = "spell"
@@ -39,8 +45,6 @@ Saving throw: see text
 Spell resistance: see text
 Target: you and a touched, neutral creature from another plane, or you and an enchantmnet on a touched creature or object
 :::
-
-**Sources:** Planar Adventures pg 40, Champions of Balance pg 27
 
 Pulsing bronze energy surrounds you, bestowing three effects.
 

@@ -6,6 +6,12 @@ source_ids = ["quests-and-campaigns", "ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "damned", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "quests-and-campaigns"
+page = "8"
+[[sources]]
+publication = "ultimate-campaign"
+page = "67"
 
 [fields]
 kind = "feat"
@@ -15,8 +21,6 @@ benefit = "You gain a +2 bonus on Charisma-based checks involving evil-aligned o
 +++
 
 ## Damned (Story)
-
-**Sources:** Quests and Campaigns pg 8, Ultimate Campaign pg 67
 
 From your earliest days, you were destined to sacrifice everything in your quest for power.\
 **Prerequisites:** You must have had friendly contact with an evil-aligned outsider that would

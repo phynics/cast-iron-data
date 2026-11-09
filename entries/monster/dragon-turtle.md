@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_turtle", path = "json/monsters31.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "112"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ _This long-tailed aquatic beast resembles a massive snapping turtle with draconi
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 112\
 **Subtype:** Aquatic
 
 **Experience points:** 6,400

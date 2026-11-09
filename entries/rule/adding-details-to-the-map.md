@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "adding_details_to_the_map", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "176"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 176
 
 While not strictly necessary, adding additional elements to your map can make it more attractive.
 Details such as furniture (tables, chairs, beds, and chests are all good examples), light sources

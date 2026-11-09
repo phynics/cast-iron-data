@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "target_words", path = "json/rules_opt_magic03.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "165"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 165
 
 Target words establish the way in which a spell determines its targets. Some effect words restrict
 the type of target words that can be used in wordspells that contain them. A wordspell contains only

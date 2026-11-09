@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "repel_vermin", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "333"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: yes
 Area: 10-ft.-radius emanation centered on you
 Descriptors: pain
 :::
-
-**Sources:** PRPG Core Rulebook pg 333
 
 An invisible barrier holds back vermin. A vermin with HD of less than one-third your level cannot
 penetrate the barrier.

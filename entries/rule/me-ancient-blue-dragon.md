@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "me_ancient_blue_dragon", path = "json/rules_adv_gm03.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "243"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 243
 
 This ancient blue dragon has additional attacks, with damage extrapolated from the natural attacks
 column for CR 18. Despite being a combatant, it has a reduced spellcasting ability (as if it were a

@@ -6,12 +6,14 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ouroboros_blood_ritual", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "207"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Bestiary 6 pg 207\
 **School** conjuration (healing); **Level** 9\
 **Casting Time** 90 minutes\
 **Components** V, S, M (a gallon of blood harvested from an [ouroboros](ref/monster/ouroboros)

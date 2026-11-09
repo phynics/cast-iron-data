@@ -6,6 +6,9 @@ source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_parry", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "people-of-the-river"
+page = "12"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you successfully parry a foe's melee attack (with a dueling parr
 +++
 
 ## Improved Parry (Combat)
-
-**Sources:** People of the River pg 12
 
 A flick of the wrist binds your opponent's weapon.\
 **Prerequisites:** Int 13, [Combat Expertise](ref/feat/combat-expertise).\

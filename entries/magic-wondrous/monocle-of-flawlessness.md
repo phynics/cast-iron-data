@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monocle_of_flawlessness", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "249"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "1st"
 +++
 
-**Sources:** Ultimate Intrigue pg 249\
 **Aura** faint transmutation; **CL** 1st\
 **Slot** eyes; **Price** 8,750 gp; **Weight** -
 

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cleric" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "170"
 
 [fields]
 kind = "archetype"
 replaces = ["Channel energy"]
 +++
 
-**Sources:** Advanced Race Guide pg 170\
 Many clerics pray to or make evil bargains with fiendish powers, devoting body and soul to the
 insane plans and wicked aims of their despicable patrons. But these mortal clerics are often just
 shallow beings searching for quick power or the caress of true and final oblivion - few truly grasp

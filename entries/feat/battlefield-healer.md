@@ -6,6 +6,9 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "battlefield_healer", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "67"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When attempting a concentration check caused by receiving damage (inc
 +++
 
 ## Battlefield Healer (Story)
-
-**Sources:** Ultimate Campaign pg 67
 
 In even the fiercest battles, you risk life and limb to save your allies.\
 **Prerequisites:** You must successfully cast a conjuration (healing) spell on an ally after being

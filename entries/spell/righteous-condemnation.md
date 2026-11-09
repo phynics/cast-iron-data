@@ -6,6 +6,9 @@ source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "righteous_condemnation", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "plane-hoppers-handbook"
+page = "13"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: yes
 Target: you
 Descriptors: good, lawful
 :::
-
-**Sources:** Plane-Hopper's Handbook pg 13
 
 Any creature of chaotic, neutral, or evil alignment who targets you with a spell must succeed at a
 Will save or take a -4 penalty on Intelligence-, Wisdom-, and Charisma-based checks for the spell's

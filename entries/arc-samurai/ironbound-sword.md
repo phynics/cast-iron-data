@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/samurai" },
 ]
+[[sources]]
+publication = "blood-of-the-ancients"
+page = "20"
 
 [fields]
 kind = "archetype"
 replaces = ["Weapon expertise", "Banner", "Greater banner"]
 +++
 
-**Sources:** Blood of the Ancients pg 20\
 The ironbound sword's fighting style, focused on incapacitating opponents rather than killing them,
 is founded on a philosophy that cares both for the samurai and for her attacker. This style became
 prevalent during the peaceful and stable periods of Lung Wa, and reflected those values. Using these

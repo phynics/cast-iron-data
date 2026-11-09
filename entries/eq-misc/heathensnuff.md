@@ -6,6 +6,9 @@ source_ids = ["cities-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heathensnuff", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "cities-of-golarion"
+page = "42"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "10 gp"
 weight = "-"
 +++
 
-**Sources:** Cities of Golarion pg 42\
 **Price** 10 gp; **Weight** -\
 **Category** Black Market
 

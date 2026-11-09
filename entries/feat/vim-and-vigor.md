@@ -6,6 +6,9 @@ source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vim_and_vigor", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "healers-handbook"
+page = "15"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Your vigor pool gains 1 vigor point. The fatigued condition that you 
 +++
 
 ## Vim and Vigor (Combat)
-
-**Sources:** Healer's Handbook pg 15
 
 You rebound more quickly than normal when you draw upon your inner reserve to repair your wounds.\
 **Prerequisites:** Con 13, [Combat Vigor](ref/feat/combat-vigor), [Endurance](ref/feat/endurance),

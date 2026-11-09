@@ -6,13 +6,15 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kobold_sorcerer", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "134"
 
 [fields]
 kind = "class_option"
 group = "sorcerer-bloodline"
 +++
 
-**Sources:** Advanced Race Guide pg 134\
 While many kobold sorcerers tout their purely draconic bloodline, over generations of eldritch
 training, some such spellcasters have created a bloodline that, while tinged with some draconic
 magic, is the embodiment of the race's virtue distilled into arcane form. Many practitioners of this

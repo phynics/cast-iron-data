@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "doorknobs_of_peregrination", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "237"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Sources:** Villain Codex pg 237\
 **Aura** moderate conjuration; **CL** 7th\
 **Slot** none; **Price** 40,000 gp; **Weight** 2 lbs.
 

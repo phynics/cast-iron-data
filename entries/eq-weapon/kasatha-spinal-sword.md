@@ -6,14 +6,15 @@ source_ids = ["people-of-the-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kasatha_spinal_sword", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "people-of-the-stars"
+page = "9"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "3 lbs."
 +++
-
-**Sources:** People of the Stars pg 9
 
 This light one-handed sword is covered in bony spines that make it easier to poison opponents. The
 save DC of a nonmagical injury poison applied to a kasatha spinal sword increases by 2.

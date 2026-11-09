@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "armor_spikes", path = "json/equipment_armor_enhancements.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "9"
+[[sources]]
+publication = "core-rulebook"
+page = "151"
 
 [fields]
 kind = "item"
@@ -13,7 +19,6 @@ category = "Armor Modifications"
 weight = "+10 lbs."
 +++
 
-**Sources:** Ultimate Equipment pg 9, PRPG Core Rulebook pg 151\
 **Cost** +50 gp **Weight** +10 lbs.\
 **Damage** 1d4 (small), 1d6 (medium); **Critical** ×2; **Range** -; **Type** P; **Special** -\
 **Category** Light; **Proficiency** Martial\

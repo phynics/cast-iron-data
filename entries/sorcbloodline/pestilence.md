@@ -6,13 +6,15 @@ source_ids = ["pathfinder-29-mother-of-flies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pestilence", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
+[[sources]]
+publication = "pathfinder-29-mother-of-flies"
+page = "29"
 
 [fields]
 kind = "class_option"
 group = "sorcerer-bloodline"
 +++
 
-**Sources:** Pathfinder \#29: Mother of Flies pg 29\
 You were born during the height of a great magical plague, to a mother suffering from an eldritch
 disease, or you suffered an eldritch pox as a child, such that your very soul now carries a blight
 of pestilence within it.

@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "choker_of_body_alteration", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-high-court"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Heroes of the High Court pg 28\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** neck; **Price** 2,400 gp; **Weight** -
 

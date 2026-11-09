@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ioun_torch", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "305"
+[[sources]]
+publication = "advanced-players-guide"
+page = "306"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong universal"
 caster_level = "12th"
 +++
 
-**Sources:** Ultimate Equipment pg 305, Advanced Player's Guide pg 306\
 **Aura** strong universal; **CL** 12th\
 **Slot** none; **Price** 75 gp; **Weight** -
 

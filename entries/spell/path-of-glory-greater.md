@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/path-of-glory" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "189"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Subschool: Healing
 :::
 
 ### Greater Path of Glory
-
-**Sources:** Advanced Class Guide pg 189
 
 This spell functions as [path of glory](ref/spell/path-of-glory), except as noted above, and a
 square provides 5 points of healing instead of 1.

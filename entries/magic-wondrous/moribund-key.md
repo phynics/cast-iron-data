@@ -6,6 +6,9 @@ source_ids = ["pathfinder-47-ashes-at-dawn"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "moribund_key", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "pathfinder-47-ashes-at-dawn"
+page = "9"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong necromancy"
 caster_level = "12th"
 +++
 
-**Sources:** Pathfinder \#47: Ashes at Dawn pg 9\
 **Aura** strong necromancy; **CL** 12th\
 **Slot** none; **Price** 40,000 gp; **Weight** 1/2 lb.
 

@@ -6,6 +6,9 @@ source_ids = ["occult-mysteries"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cleromancy", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "occult-mysteries"
+page = "50"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Occult Mysteries pg 50
 
 Cleromancy involves casting bones and interpreting the results. Those able to arrive at the proper
 interpretation are granted knowledge of coming events. Roll 1d4 per caster level. Group the dice by

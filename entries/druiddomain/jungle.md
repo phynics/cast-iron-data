@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jungle", path = "json/class_ability_druid_domains.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "34"
 
 [fields]
 kind = "class_option"
@@ -13,8 +16,6 @@ group = "druid-domain"
 +++
 
 ## Jungle Domain
-
-**Sources:** Ultimate Magic pg 34
 
 **Granted Powers:** The spirits of the jungle, both of natural guardians and lost civilizations,
 whisper in your heart.

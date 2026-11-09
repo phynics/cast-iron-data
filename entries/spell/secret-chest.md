@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "black-markets", "heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "secret_chest", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "338"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: no
 Target: one chest and up to 1 cu. ft. of goods/caster level
 Subschool: Summoning
 :::
-
-**Sources:** PRPG Core Rulebook pg 338
 
 You hide a chest on the Ethereal Plane for as long as 60 days and can retrieve it at will. The chest
 can contain up to 1 cubic foot of material per caster level (regardless of the chest's actual size,

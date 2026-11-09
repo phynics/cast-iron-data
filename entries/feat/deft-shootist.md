@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/amateur-gunslinger", label = "or" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "95"
 
 [fields]
 kind = "feat"
@@ -19,8 +22,6 @@ benefit = "As long as you have at least 1 grit point, you do not provoke attacks
 +++
 
 ## Deft Shootist (Grit)
-
-**Sources:** Ultimate Combat pg 95
 
 You keep an eye out while focusing on your weapon, allowing you to avoid attacks while shooting and
 reloading firearms.\

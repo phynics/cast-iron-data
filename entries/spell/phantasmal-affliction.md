@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phantasmal_affliction", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "221"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Target: living creature
 Subschool: Phantasm
 Descriptors: mind-affecting
 :::
-
-**Sources:** Ultimate Intrigue pg 221
 
 You cause the creature to believe she has a debilitating affliction. The target can attempt a Will
 save to recognize the affliction as unreal. If that save fails, the creature suffers an imaginary

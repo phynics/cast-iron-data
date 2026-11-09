@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "poisonous_blood", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "227"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Poisonous Blood (Ex) \[Mythic\]
 
-**Sources:** Mythic Adventures pg 227\
 Any creature that confirms a critical hit against the monster with a piercing or slashing melee
 weapon is sprayed with poison. (Melee weapons with [reach](ref/misc/reach) don't endanger their
 users in this way.) The type of poison depends on the monster. Unless otherwise stated, this poison

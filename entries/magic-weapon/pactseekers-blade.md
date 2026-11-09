@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pactseekers_blade", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "blood-of-the-coven"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "9th"
 +++
 
-**Sources:** Blood of the Coven pg 31\
 **Aura** moderate necromancy; **CL** 9th\
 **Slot** none; **Price** 55,330 gp; **Weight** 4 lbs.
 

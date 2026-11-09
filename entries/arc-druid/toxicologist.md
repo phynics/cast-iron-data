@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "23"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Spontaneous casting", "Wild empathy", "woodland stride", "Trackless
 alters = ["Spells", "Wild shape"]
 +++
 
-**Sources:** Magic Tactics Toolbox pg 23\
 Druids protect the natural environs of the world, and sometimes that requires forcibly expelling
 those who would pollute, despoil, or otherwise harm such areas. Single battles may not be enough to
 win the war, so some druids specialize in the stealthy application of insidious poisons to their

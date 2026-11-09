@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "creating_a_spell", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "114"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 114
 
 Successfully researching a new spell requires time and expensive research. An optional system for
 researching new spells is outlined below. The research should cost at least 1,000 gp per spell level

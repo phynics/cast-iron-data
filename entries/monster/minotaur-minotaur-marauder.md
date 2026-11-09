@@ -6,6 +6,9 @@ source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "minotaur_minotaur_marauder", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "inner-sea-monster-codex"
+page = "42"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ seasoned combatant._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Inner Sea Monster Codex pg 42\
 **Experience points:** 2,400
 
 **Armor class:** 19/11/17

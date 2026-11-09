@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chaos_hammer", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "144"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation [chaotic]"
 caster_level = "9th"
 +++
 
-**Sources:** Mythic Adventures pg 144\
 **Aura** moderate evocation \[chaotic\]; **CL** 9th\
 **Slot** none; **Price** 38,312 gp; **Weight** 10 lbs.
 

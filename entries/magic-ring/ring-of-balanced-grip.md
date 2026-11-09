@@ -6,6 +6,9 @@ source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_balanced_grip", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "23"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Sources:** Adventurer's Armory 2 pg 23\
 **Aura** moderate transmutation; **CL** 7th\
 **Slot** ring; **Price** 1,600 gp; **Weight** -
 

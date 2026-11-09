@@ -6,12 +6,14 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "atavistic_reversion", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "140"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Villain Codex pg 140\
 **School** transmutation; **Level** 5\
 **Casting Time** 5 hours\
 **Components** V, S, M (musky incense worth 500 gp), F (crown made of claws and fangs), SC (up to 8)\

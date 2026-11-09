@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bonus_type", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "134"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 134
 
 There are many types of bonuses in the game. It's tempting to look at that list of bonuses, find
 "holes" in the spell list that don't have spells for certain bonus types, and create a new spell

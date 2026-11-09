@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "buildings", path = "json/rules_subsystems03.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "107"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 107
 
 Below are example buildings and their component rooms. Note that many of these buildings can also be
 found in the [kingdom-building rules](ref/rule/kingdom-building).

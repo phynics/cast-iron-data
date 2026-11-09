@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "casting_wordspells", path = "json/rules_opt_magic03.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "164"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 164
 
 Casting a wordspell is similar to casting a standard spell. Each wordspell is assumed to have a
 material, somatic, and verbal component. Divine casters using this system must provide a divine

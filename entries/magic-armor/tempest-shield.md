@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tempest_shield", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "133"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "6th"
 +++
 
-**Sources:** Ultimate Equipment pg 133\
 **Aura** moderate evocation; **CL** 6th\
 **Slot** shield; **Price** 15,170 gp; **Weight** 10 lbs.
 

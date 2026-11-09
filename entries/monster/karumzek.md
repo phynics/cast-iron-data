@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "karumzek", path = "json/monsters15.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "301"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ obscure its head._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Sense poison
 
-**Sources:** Inner Sea Gods pg 301\
 **Subtype:** Evil, Extraplanar, Shapechanger
 
 **Experience points:** 1,200

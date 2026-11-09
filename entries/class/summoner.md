@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide", "chronicle-of-legends", "advanced-race-g
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summoner", path = "json/classes8.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "54"
 
 [fields]
 kind = "class"
@@ -13,8 +16,6 @@ class_type = "base"
 hit_die = "d8"
 skill_ranks = "2 + Int modifier"
 +++
-
-**Sources:** Advanced Player's Guide pg 54
 
 While many who dabble in the arcane become adept at beckoning monsters from the farthest reaches of
 the planes, none are more skilled at it than the summoner. This practitioner of the arcane arts

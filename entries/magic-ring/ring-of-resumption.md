@@ -6,6 +6,9 @@ source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_resumption", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "healers-handbook"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "11th"
 +++
 
-**Sources:** Healer's Handbook pg 30\
 **Aura** moderate conjuration; **CL** 11th\
 **Slot** ring; **Price** 30,800 gp; **Weight** -
 

@@ -6,6 +6,9 @@ source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "covering_fire_rtt", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "10"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You can use the aid another action with a ranged attack against an op
 +++
 
 ## Covering Fire (RTT) (Combat, Teamwork)
-
-**Sources:** Ranged Tactics Toolbox pg 10
 
 You distract your enemies with ranged attacks to protect your allies.\
 **Prerequisites:** [Point-Blank Shot](ref/feat/point-blank-shot).\

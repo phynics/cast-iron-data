@@ -6,6 +6,9 @@ source_ids = ["pathfinder-96-shadow-of-the-storm-tyrant"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloud_diadem", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "pathfinder-96-shadow-of-the-storm-tyrant"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation"
 caster_level = "20th"
 +++
 
-**Sources:** Pathfinder \#96: Shadow of the Storm Tyrant pg 31\
 **Aura** strong transmutation; **CL** 20th\
 **Slot** head; **Price** -; **Weight** 30 lbs.
 

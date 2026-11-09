@@ -6,6 +6,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "human_potential", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "9"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes
 Target: creature touched
 :::
-
-**Sources:** Arcane Anthology pg 9
 
 The target shares in humanity's great potential as encouraged by Aroden. The target chooses one
 ability score and gains a +2 enhancement bonus to that ability score. The bonus confers the usual

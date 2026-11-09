@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "finding_ley_lines", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "232"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 232
 
 A ley line's natural state is as an imperceptible current of energy. Finding a ley line requires the
 use of a skill or spell that can detect the magical energy a ley line radiates.

@@ -6,6 +6,9 @@ source_ids = ["orcs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brutal_grappler", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "orcs-of-golarion"
+page = "24"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ normal = "When multiple creatures grapple one target, the creature that first in
 +++
 
 ## Brutal Grappler (Combat, Teamwork)
-
-**Sources:** Orcs of Golarion pg 24
 
 When helping an ally grapple, you can damage the target.\
 **Prerequisites:** [Half-orc](ref/race/half-orc) or [orc](ref/race/orc).\

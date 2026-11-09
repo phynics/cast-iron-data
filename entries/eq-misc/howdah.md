@@ -6,6 +6,9 @@ source_ids = ["belkzen-hold-of-the-orc-hordes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "howdah", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "belkzen-hold-of-the-orc-hordes"
+page = "39"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "500 gp"
 weight = "250 lbs."
 +++
 
-**Sources:** Belkzen, Hold of the Orc Hordes pg 39\
 **Price** 500 gp; **Weight** 250 lbs.\
 **Category** Animal Gear
 

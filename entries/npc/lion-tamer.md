@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lion_tamer", path = "json/npcs4.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "38"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "14"
 
 **Challenge rating:** 14
 
-**Sources:** NPC Codex pg 38\
 **XP** 38,400\
 Gnome [bard](ref/class/bard) 15\
 CN Small humanoid (gnome)\

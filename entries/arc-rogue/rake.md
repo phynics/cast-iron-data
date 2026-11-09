@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "134"
 
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Trap sense"]
 +++
 
-**Sources:** Advanced Player's Guide pg 134\
 The rake is a rogue who is open about her skills and talents, often to the point of being boastful.
 Usually she has the protection of an important figure who finds her services useful, but sometimes
 her bravado is enough to keep enemies away. She is often used as a face for the group for diplomacy,

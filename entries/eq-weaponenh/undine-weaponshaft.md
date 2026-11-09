@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "undine_weaponshaft", path = "json/equipment_weapon_enhancements.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "177"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "+300 gp"
 weight = "-"
 +++
 
-**Sources:** Advanced Race Guide pg 177\
 **Price** +300 gp; **Weight** -\
 **Category** Adventuring Gear
 

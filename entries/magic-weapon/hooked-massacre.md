@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hooked_massacre", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "215"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation"
 caster_level = "13th"
 +++
 
-**Sources:** Horror Adventures pg 215\
 **Aura** strong transmutation; **CL** 13th\
 **Slot** none; **Price** 22,325 gp; **Weight** 10 lbs.
 

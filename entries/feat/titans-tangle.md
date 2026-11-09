@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "titans_tangle", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "25"
 
 [fields]
 kind = "feat"
@@ -18,8 +21,6 @@ special = "In addition to the chosen weapon, a character with the weapon trainin
 +++
 
 ## Titan's Tangle (Combat)
-
-**Sources:** Martial Arts Handbook pg 25
 
 Even creatures much bigger than you can lose their balance when you apply the appropriate leverage.\
 **Prerequisites:** Int 13, [Combat Expertise](ref/feat/combat-expertise),

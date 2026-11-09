@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/psychic" },
 ]
+[[sources]]
+publication = "heroes-of-the-darklands"
+page = "22"
 
 [fields]
 kind = "archetype"
 replaces = ["Detect thoughts", "3rd-, 11th-, and 19th-level phrenic amplifications", "Telepathic bond", "Remade self"]
 +++
 
-**Sources:** Heroes of the Darklands pg 22\
 When one encounters aberrant creatures, it can unlock psychic potential within a person, though this
 experience is traumatic for those who endure it. The psychic marauder's powers come hand in hand
 with madness, either from exposure to alien psyches or from terrifying glimpses into the cosmos that

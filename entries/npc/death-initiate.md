@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "death_initiate", path = "json/npcs7.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "209"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "12"
 
 **Challenge rating:** 12
 
-**Sources:** NPC Codex pg 209\
 **XP** 19,200\
 Human [monk](ref/class/monk) 9/assassin 4\
 LE Medium humanoid (human)\

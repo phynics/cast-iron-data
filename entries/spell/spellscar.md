@@ -6,6 +6,9 @@ source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spellscar", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "61"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: none
 Spell resistance: no
 Area: two 10-ft. cubes per level (S)
 :::
-
-**Sources:** Inner Sea Magic pg 61
 
 This potent spell invokes the same sort of magical devastation that created the Mana Wastes so long
 ago, albeit on a much more localized (and thankfully temporary) scale. Within the area you choose to

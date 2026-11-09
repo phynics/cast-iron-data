@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mirror_image", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "314"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Spell resistance: no
 Target: you
 Subschool: Figment
 :::
-
-**Sources:** PRPG Core Rulebook pg 314
 
 This spell creates a number of illusory doubles of you that inhabit your square. These doubles make
 it difficult for enemies to precisely locate and attack you.

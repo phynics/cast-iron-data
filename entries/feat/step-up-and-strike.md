@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "step_up_and_strike", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "170"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "You can usually only take one standard action and one 5-foot step each
 +++
 
 ## Step Up and Strike (Combat)
-
-**Sources:** Advanced Player's Guide pg 170
 
 When a foe tries to move away, you can follow and make an attack.\
 **Prerequisites:** Dex 13, [Following Step](ref/feat/following-step), [Step Up](ref/feat/step-up),

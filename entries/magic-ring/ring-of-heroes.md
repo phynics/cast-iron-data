@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_heroes", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "325"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate (no school)"
 caster_level = "7th"
 +++
 
-**Sources:** Advanced Player's Guide pg 325\
 **Aura** moderate (no school); **CL** 7th\
 **Slot** ring; **Price** 8,000 gp; **Weight** -
 

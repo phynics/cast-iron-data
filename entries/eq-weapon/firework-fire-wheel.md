@@ -6,6 +6,9 @@ source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "firework_fire_wheel", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "20"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "200 gp"
 weight = "1 lb."
 +++
 
-**Sources:** Ranged Tactics Toolbox pg 20\
 **Price** 200 gp; **Weight** 1 lb.\
 **Category** Alchemical Weapons
 

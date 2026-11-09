@@ -6,12 +6,13 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ability_score_quality", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "219"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Advanced Race Guide pg 219
 
 The next step is to determine the ability score modifier quality for your race. In many ways,
 choosing this quality is one of the most important choices when creating a new race, as it

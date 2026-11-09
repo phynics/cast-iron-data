@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "armor_of_the_unquenchable_fire", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "250"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration and enchantment"
 caster_level = "8th"
 +++
 
-**Sources:** Inner Sea Gods pg 250\
 **Aura** moderate conjuration and enchantment; **CL** 8th\
 **Slot** armor; **Price** 4,840 gp; **Weight** 40 lbs.
 

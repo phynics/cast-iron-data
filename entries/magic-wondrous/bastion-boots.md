@@ -6,6 +6,9 @@ source_ids = ["the-harrow-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bastion_boots", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "the-harrow-handbook"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Sources:** The Harrow Handbook pg 30\
 **Aura** moderate transmutation; **CL** 10th\
 **Slot** feet; **Price** 10,500 gp; **Weight** 4 lbs.
 

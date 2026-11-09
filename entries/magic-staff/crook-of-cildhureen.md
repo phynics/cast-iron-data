@@ -6,6 +6,9 @@ source_ids = ["realm-of-the-fellnight-queen"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crook_of_cildhureen", path = "json/magic_staff.json" },
 ]
+[[sources]]
+publication = "realm-of-the-fellnight-queen"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate illusion"
 caster_level = "9th"
 +++
 
-**Sources:** Realm of the Fellnight Queen pg 29\
 **Aura** moderate illusion; **CL** 9th\
 **Slot** none; **Price** 16,800 gp; **Weight** 4 lbs.
 

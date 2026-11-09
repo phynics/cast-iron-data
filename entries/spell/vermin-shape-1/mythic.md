@@ -6,12 +6,13 @@ source_ids = ["mythic-origins"]
 relations = [
   { kind = "addon", target = "ref/spell/vermin-shape-1", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-origins"
+page = "13"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Origins pg 13
 
 Each mythic vermin shape spell must be learned individually, and you must know the respective
 non-mythic vermin shape spell to learn its mythic version. You don't have to learn them in order,

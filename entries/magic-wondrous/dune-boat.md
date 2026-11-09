@@ -6,6 +6,9 @@ source_ids = ["pathfinder-83-the-slave-trenches-of-hakotep"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dune_boat", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "pathfinder-83-the-slave-trenches-of-hakotep"
+page = "62"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Sources:** Pathfinder \#83: The Slave Trenches of Hakotep pg 62\
 **Aura** moderate transmutation; **CL** 8th\
 **Slot** none; **Price** 9,000 gp; **Weight** 6 lbs.
 

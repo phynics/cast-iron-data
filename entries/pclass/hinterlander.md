@@ -6,14 +6,15 @@ source_ids = ["paths-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hinterlander", path = "json/prestige_classes2.json" },
 ]
+[[sources]]
+publication = "paths-of-the-righteous"
+page = "18"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d10."
 +++
-
-**Sources:** Paths of the Righteous pg 18
 
 Guards patrol great cities and druids protect the deep forests, but what of the boundaries between
 them? The hinterlands comprise the farmlands and woodland villages of Golarion, a liminal space

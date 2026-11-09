@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "orang_pendak", path = "json/monsters18.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "186"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ _This hairy humanoid has orange-brown hair, a broad chest, and muscular arms._
 
 **Size:** small
 
-**Sources:** Bestiary 5 pg 186\
 **Subtype:** Sasquatch
 
 **Experience points:** 200

@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stupefying_strike", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "7"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When using this feat, in addition to dealing damage normally, you for
 +++
 
 ## Stupefying Strike (Combat)
-
-**Sources:** Martial Arts Handbook pg 7
 
 Your batter your foes with such disorienting force that they can't exert their full abilities.\
 **Prerequisites:** Dex 13, Wis 13, [Improved Unarmed Strike](ref/feat/improved-unarmed-strike), base

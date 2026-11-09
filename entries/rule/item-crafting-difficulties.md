@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "item_crafting_difficulties", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "73"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 73
 
 The following are the categories of crafting difficulties and the items within those categories. The
 items are split into general categories.

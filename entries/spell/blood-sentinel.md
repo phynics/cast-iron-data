@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_sentinel", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "176"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: none
 Spell resistance: no
 Target: one animal sculpture
 :::
-
-**Sources:** Advanced Class Guide pg 176
 
 After casting this spell, you pour a few drops of your blood and saliva into the mouth of the animal
 sculpture material component, temporarily giving it life. The animal is bonded to you as if it were

@@ -6,6 +6,9 @@ source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "faithful_lantern", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "blood-of-shadows"
+page = "21"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration and conjuration"
 caster_level = "9th"
 +++
 
-**Sources:** Blood of Shadows pg 21\
 **Aura** moderate abjuration and conjuration; **CL** 9th\
 **Slot** none; **Price** 2,500 gp; **Weight** 2 lbs.
 

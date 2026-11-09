@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crocodile", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "51"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ powerful tail lashing behind._
 
 **Senses:** Low-light vision
 
-**Sources:** Pathfinder RPG Bestiary pg 51\
 **Experience points:** 600
 
 **Armor class:** 14/10/13

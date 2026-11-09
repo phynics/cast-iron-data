@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ascension", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "113"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: one non-mythic creature/3 levels
 :::
-
-**Sources:** Mythic Adventures pg 113
 
 You imbue a number of creatures with mythic power, granting each of them 1st tier in a mythic path
 of its choice. The creatures immediately gain the benefits of their chosen paths. Divide the

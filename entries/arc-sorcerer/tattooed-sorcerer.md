@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/sorcerer" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "40"
 
 [fields]
 kind = "archetype"
 replaces = ["1st-level bloodline power", "Eschew Materials bonus feat", "7th-level bloodline feat", "9th-level bloodline power"]
 +++
 
-**Sources:** Inner Sea Magic pg 40\
 The tattooed sorcerer has embraced the ancient traditions of Varisian spellcasting, and uses
 colorful and intricate tattoos to enhance her magical powers. A tattooed sorcerer has the following
 class features.

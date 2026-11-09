@@ -6,6 +6,12 @@ source_ids = ["lost-treasures", "pathfinder-74-sword-of-valor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fiendsplitter", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "lost-treasures"
+page = "30"
+[[sources]]
+publication = "pathfinder-74-sword-of-valor"
+page = "66"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate conjuration and evocation"
 caster_level = "7th"
 +++
 
-**Sources:** Lost Treasures pg 30, Pathfinder \#74: Sword of Valor pg 66\
 **Aura** moderate conjuration and evocation; **CL** 7th\
 **Slot** none; **Price** 28,715 gp; **Weight** 6 lbs.
 

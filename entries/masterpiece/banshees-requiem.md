@@ -6,6 +6,8 @@ source_ids = ["horror-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "banshees_requiem", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "horror-realms"
 
 [fields]
 kind = "class_option"
@@ -13,8 +15,6 @@ group = "bardic-masterpiece"
 +++
 
 ## Banshee's Requiem (Sing)
-
-**Sources:** Horror Realms
 
 By filling your performance with the mournful angst of a lost love, your song evokes the inexorable
 pull of the grave upon every living thing.

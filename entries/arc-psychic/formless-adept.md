@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/psychic" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "104"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Psychic discipline", "discipline powers", "1st-level phrenic amplif
 alters = ["Phrenic pool"]
 +++
 
-**Sources:** Occult Adventures pg 104\
 Formless adepts master their psychic powers to unshackle themselves from the confines of the flesh
 and empower their spellcasting. They learn to assume increasingly insubstantial forms until they
 become like living ghosts.

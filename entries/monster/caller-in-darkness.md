@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "caller_in_darkness", path = "json/monsters04.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "48"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ _This roiling horror appears to be a swirling vortex of darkness and screaming, 
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 5 pg 48\
 **Subtype:** Incorporeal
 
 **Type:** undead

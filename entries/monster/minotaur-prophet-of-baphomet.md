@@ -6,6 +6,9 @@ source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "minotaur_prophet_of_baphomet", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "inner-sea-monster-codex"
+page = "45"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ cloud of heady incense about her form doesn't conceal the distinct scent of brim
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Inner Sea Monster Codex pg 45\
 **Experience points:** 25,600
 
 **Armor class:** 24/10/24

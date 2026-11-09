@@ -6,6 +6,9 @@ source_ids = ["champions-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phoenix_armor", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "champions-of-purity"
+page = "31"
 
 [fields]
 kind = "item"
@@ -16,8 +19,6 @@ slot = "armor"
 aura = "moderate evocation and transmutation"
 caster_level = "9th"
 +++
-
-**Sources:** Champions of Purity pg 31
 
 **Aura** moderate evocation and transmutation; **CL** 9th\
 **Slot** armor; **Price** 36,130 gp; **Weight** 50 lbs.

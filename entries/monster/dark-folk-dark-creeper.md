@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dark_folk_dark_creeper", path = "json/monsters29.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "53"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ pale white nose visible._
 
 **Size:** small
 
-**Sources:** Pathfinder RPG Bestiary pg 53\
 **Subtype:** Dark folk
 
 **Experience points:** 600

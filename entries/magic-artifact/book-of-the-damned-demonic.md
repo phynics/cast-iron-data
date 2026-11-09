@@ -6,6 +6,12 @@ source_ids = ["book-of-the-damned", "book-of-the-damned-volume-2-lords-of-chaos"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "book_of_the_damned_demonic", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "198"
+[[sources]]
+publication = "book-of-the-damned-volume-2-lords-of-chaos"
+page = "49"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "overwhelming all schools [chaotic, evil]"
 caster_level = "25th"
 +++
 
-**Sources:** Book of the Damned pg 198, Book of the Damned - Volume 2: Lords of Chaos pg 49\
 **Aura** overwhelming all schools \[chaotic, evil\]; **CL** 25th\
 **Slot** none; **Price** -; **Weight** 12 lbs.
 

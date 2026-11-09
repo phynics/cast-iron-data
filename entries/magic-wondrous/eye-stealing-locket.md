@@ -6,6 +6,9 @@ source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eye_stealing_locket", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "blood-of-shadows"
+page = "26"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Sources:** Blood of Shadows pg 26\
 **Aura** faint necromancy; **CL** 3rd\
 **Slot** none; **Price** 24,000 gp; **Weight** -
 

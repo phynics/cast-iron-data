@@ -6,6 +6,9 @@ source_ids = ["pathfinder-118-siege-of-stone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "naga_deep_naga", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "pathfinder-118-siege-of-stone"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ wide mouth filled with fangs._
 
 **Senses:** Darkvision 120 ft., Low-light vision
 
-**Sources:** Pathfinder \#118: Siege of Stone pg 90\
 **Experience points:** 19,200
 
 **Armor class:** 27/13/22

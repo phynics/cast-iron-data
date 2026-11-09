@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_planar_paradise_young_paradise_dragon", path = "json/monsters30.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "104"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _This sleek dragon carries itself with regal dignity. Its eyes glow with heavenl
 
 **Senses:** Dragon senses
 
-**Sources:** Bestiary 6 pg 104\
 **Subtype:** Extraplanar, Good, Lawful
 
 **Experience points:** 19,200

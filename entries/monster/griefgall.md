@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "griefgall", path = "json/monsters13.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "133"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ _Thorn-tipped tendrils and flowering filaments sprout from this tiny, squirming 
 
 **Type:** plant
 
-**Sources:** Bestiary 5 pg 133\
 **Size:** tiny
 
 **Experience points:** 2,400

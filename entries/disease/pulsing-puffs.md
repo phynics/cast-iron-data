@@ -6,12 +6,13 @@ source_ids = ["heart-of-the-jungle"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pulsing_puffs", path = "json/diseases.json" },
 ]
+[[sources]]
+publication = "heart-of-the-jungle"
+page = "8"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Heart of the Jungle pg 8
 
 **Type:** Disease (Injury)
 

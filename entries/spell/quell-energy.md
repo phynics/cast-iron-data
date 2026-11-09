@@ -6,6 +6,9 @@ source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quell_energy", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "occult-origins"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: Will partial
 Spell resistance: yes
 Target: one creature
 :::
-
-**Sources:** Occult Origins pg 29
 
 You reduce the target creature's ability to tap into a single energy type (acid, cold, electricity,
 fire, or sonic) of your choice. This reduces damage of the selected type the creature deals with

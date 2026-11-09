@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scour", path = "json/drugs.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "237"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 237
 
 **Type:** Ingested or inhaled
 

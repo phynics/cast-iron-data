@@ -6,6 +6,9 @@ source_ids = ["pathfinder-87-the-choking-tower"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gremlin_skin_drum", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "pathfinder-87-the-choking-tower"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment"
 caster_level = "5th"
 +++
 
-**Sources:** Pathfinder \#87: The Choking Tower pg 60\
 **Aura** moderate enchantment; **CL** 5th\
 **Slot** none; **Price** 6,000 gp; **Weight** 5 lbs.
 

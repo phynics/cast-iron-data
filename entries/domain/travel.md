@@ -6,13 +6,14 @@ source_ids = ["core-rulebook", "advanced-players-guide", "divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "travel", path = "json/class_ability_domains3.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "47"
 
 [fields]
 kind = "class_option"
 group = "cleric-domain"
 +++
-
-**Sources:** PRPG Core Rulebook pg 47
 
 **Granted Powers:** You are an explorer and find enlightenment in the simple joy of travel, be it by
 foot or conveyance or magic.

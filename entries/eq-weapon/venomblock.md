@@ -6,6 +6,9 @@ source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "venomblock", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "monster-hunters-handbook"
+page = "27"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "60 gp"
 weight = "-"
 +++
 
-**Sources:** Monster Hunter's Handbook pg 27\
 **Price** 60 gp; **Weight** -\
 **Category** Alchemical Weapons
 

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/kineticist" },
 ]
+[[sources]]
+publication = "planes-of-power"
+page = "7"
 
 [fields]
 kind = "archetype"
 replaces = ["Expanded element, 11th- and 19th-level infusions", "Omnikinesis"]
 +++
 
-**Sources:** Planes of Power pg 7\
 An elemental purist spurns all elements that are not her own, for utter devotion can allow one to
 accomplish even seemingly impossible heroics.
 

@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_beast_hunter", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "112"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "If you have selected Beast Hunter multiple times, you gain the benefi
 +++
 
 ## Greater Beast Hunter (Combat)
-
-**Sources:** Ultimate Wilderness pg 112
 
 You are an apex hunter.\
 **Prerequisites:** [Beast Hunter](ref/feat/beast-hunter);

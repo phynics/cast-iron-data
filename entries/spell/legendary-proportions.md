@@ -6,6 +6,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "legendary_proportions", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "20"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: Fortitude negates (harmless)
 Spell resistance: no
 Target: 1 creature (see text)
 :::
-
-**Sources:** Arcane Anthology pg 20
 
 You call upon the primordial power of ancient megafauna to boost the size of your target. Because of
 its connection to living creatures of the distant past, the spell does not function on outsiders,

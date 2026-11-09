@@ -6,6 +6,9 @@ source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elixir_of_amnesia", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "53"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint enchantment"
 caster_level = "5th"
 +++
 
-**Sources:** Inner Sea Intrigue pg 53\
 **Aura** faint enchantment; **CL** 5th\
 **Slot** none; **Price** 500 gp; **Weight** -
 

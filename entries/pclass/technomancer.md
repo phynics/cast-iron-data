@@ -6,14 +6,15 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "technomancer", path = "json/prestige_classes3.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "14"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d6."
 +++
-
-**Sources:** Technology Guide pg 14
 
 The true power in Numeria lies with the Technic League, not the Black Sovereign, and it is
 technomancers who rule the League. They master the art of blending magic and super-science, unlock

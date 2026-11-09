@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scorching_weapons", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "130"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You gain a +2 bonus on saving throws against fire attacks and spells 
 +++
 
 ## Scorching Weapons (Combat)
-
-**Sources:** Advanced Race Guide pg 130
 
 Elemental fire stirs within your body, boiling your blood and rendering you resistant to flame.\
 **Prerequisites:** [Ifrit](ref/race/ifrit).\

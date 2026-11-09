@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "laundry", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "99"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "1 sp, 1 gp (magic)"
 weight = "-, - (magic)"
 +++
 
-**Sources:** Ultimate Equipment pg 99\
 **Price** 1 sp, 1 gp (magic); **Weight** -, - (magic)
 
 The listed price is for up to four items (such as trousers, an undergarment, shirt, and jacket or

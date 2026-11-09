@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "atonement", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "245"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: none
 Spell resistance: yes
 Target: living creature touched
 :::
-
-**Sources:** PRPG Core Rulebook pg 245
 
 This spell removes the burden of misdeeds from the subject. The creature seeking atonement must be
 truly repentant and desirous of setting right its misdeeds. If the atoning creature committed the

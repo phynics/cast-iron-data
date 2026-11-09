@@ -6,6 +6,9 @@ source_ids = ["giants-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "malziarax", path = "json/monsters_unique3.json" },
 ]
+[[sources]]
+publication = "giants-revisited"
+page = "44"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ _This enormous, ebon-skinned giant is covered in glowing red runes and exotic pl
 
 **Senses:** Low-light vision
 
-**Sources:** Giants Revisited pg 44\
 **Subtype:** Giant
 
 **Experience points:** 409,600

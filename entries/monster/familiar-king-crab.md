@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_king_crab", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "119"
 
 [fields]
 kind = "creature"
@@ -36,7 +39,6 @@ abilities = ["7", "15", "12", "-", "10", "2"]
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Ultimate Magic pg 119\
 **Subtype:** Aquatic
 
 **Size:** tiny

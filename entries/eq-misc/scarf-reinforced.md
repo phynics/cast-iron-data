@@ -6,6 +6,24 @@ source_ids = ["ultimate-equipment", "varisia-birthplace-of-legends", "adventurer
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scarf_reinforced", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "89"
+[[sources]]
+publication = "varisia-birthplace-of-legends"
+page = "15"
+[[sources]]
+publication = "adventurers-armory"
+page = "19"
+[[sources]]
+publication = "pathfinder-campaign-setting"
+page = "213"
+[[sources]]
+publication = "curse-of-the-crimson-throne-players-guide"
+page = "12"
+[[sources]]
+publication = "rise-of-the-runelords-players-guide"
+page = "11"
 
 [fields]
 kind = "item"
@@ -16,9 +34,6 @@ weight = "1/2 lb. (pocketed), 1 lb. (reinforced)"
 
 ## Scarf
 
-**Sources:** Ultimate Equipment pg 89, Varisia, Birthplace of Legends pg 15, Adventurer's Armory pg
-19, Pathfinder Campaign Setting pg 213, Curse of the Crimson Throne Player's Guide pg 12, Rise of
-the Runelords Player's Guide pg 11\
 **Price** 8 gp (pocketed), 10 gp (reinforced); **Weight** 1/2 lb. (pocketed), 1 lb. (reinforced)
 
 **Pocketed:** An elaborate design disguises several small pockets on one side of this scarf. This

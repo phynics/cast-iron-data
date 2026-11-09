@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wizards_shackle", path = "json/monsters25.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "278"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _This eel-like creature has a thick, greasy body and a large, circular mouth ful
 
 **Senses:** Arcane sight
 
-**Sources:** Bestiary 5 pg 278\
 **Subtype:** Aquatic
 
 **Size:** tiny

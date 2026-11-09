@@ -6,6 +6,9 @@ source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fossilizing_rod", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
+page = "10"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation and necromancy"
 caster_level = "11th"
 +++
 
-**Sources:** Elemental Master's Handbook pg 10\
 **Aura** moderate evocation and necromancy; **CL** 11th\
 **Slot** none; **Price** 26,400 gp; **Weight** 4 lbs.
 

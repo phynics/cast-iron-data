@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "great_barghest_hero_cloak", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "265"
+[[sources]]
+publication = "gods-and-magic"
+page = "57"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint transmutation"
 caster_level = "7th"
 +++
 
-**Sources:** Inner Sea Gods pg 265, Gods and Magic pg 57\
 **Aura** faint transmutation; **CL** 7th\
 **Slot** shoulders; **Price** 2,800 gp; **Weight** 1 lb.
 

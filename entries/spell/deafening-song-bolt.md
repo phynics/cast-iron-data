@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deafening_song_bolt", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "214"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Spell resistance: no
 Target: up to 3 creatures, no two of which can be more than 30 ft. apart
 Descriptors: sonic
 :::
-
-**Sources:** Advanced Player's Guide pg 214
 
 Three notes you sing or perform become tangible bolts of arcane energy that shriek across the
 battlefield. Each bolt requires a ranged touch attack to hit and deals 3d10 points of sonic damage,

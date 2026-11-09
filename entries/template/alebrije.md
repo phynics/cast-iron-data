@@ -6,6 +6,9 @@ source_ids = ["pathfinder-144-midwives-to-death"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alebrije", path = "json/monster_template1.json" },
 ]
+[[sources]]
+publication = "pathfinder-144-midwives-to-death"
+page = "71"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +2
-
-**Source:** Pathfinder \#144: Midwives to Death/71
 
 Alebrijes travel through dreams, visiting creatures as they sleep in hopes of answering questions,
 jogging memories, or providing inspiration. Alebrijes can take the shape of any animal or magical

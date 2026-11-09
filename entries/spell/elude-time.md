@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elude_time", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "218"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Advanced Player's Guide pg 218
 
 You place yourself in a state of suspended animation, similar to temporal stasis. At the time of
 casting, you choose when the stasis will expire, up to the maximum duration of the spell. Until the

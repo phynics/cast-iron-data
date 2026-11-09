@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lenses_of_the_predators_gaze", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "232"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "7th"
 +++
 
-**Sources:** Advanced Class Guide pg 232\
 **Aura** moderate divination; **CL** 7th\
 **Slot** eyes; **Price** 8,000 gp; **Weight** -
 

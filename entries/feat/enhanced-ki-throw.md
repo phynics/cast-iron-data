@@ -6,6 +6,9 @@ source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enhanced_ki_throw", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "dragon-empires-primer"
+page = "24"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When using the Ki Throw feat, you can expend 1 ki point to amplify th
 +++
 
 ## Enhanced Ki Throw (Combat)
-
-**Sources:** Dragon Empires Primer pg 24
 
 You enhance the force of your ki throws, enabling you to devastate your opponents as you slam them
 to the ground.\

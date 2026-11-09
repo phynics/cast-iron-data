@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/sending", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "107"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 107
 
 You can contact a number of additional creatures equal to your tier. Each creature must receive the
 same message, and can communicate back only to you.

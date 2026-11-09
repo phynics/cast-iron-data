@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alaznists_jinx", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "21"
 
 [fields]
 kind = "spell"
@@ -53,8 +56,6 @@ Spell resistance: yes
 Target: creature touched
 Descriptors: curse
 :::
-
-**Sources:** Magic Tactics Toolbox pg 21
 
 You inflict a curse similar to the spell burn spellblight on a creature. Each time a spellcaster who
 is afflicted with this curse casts a spell or uses a

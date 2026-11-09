@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "urhag", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "269"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ whip-thin tail ends in a slender stinger._
 
 **Senses:** See in darkness
 
-**Sources:** Bestiary 6 pg 269\
 **Experience points:** 800
 
 **Armor class:** 15/11/14

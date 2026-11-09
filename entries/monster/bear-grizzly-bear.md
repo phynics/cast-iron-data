@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bear_grizzly_bear", path = "json/monsters03.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "31"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ force._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 31\
 **Experience points:** 1,200
 
 **Armor class:** 16/10/15

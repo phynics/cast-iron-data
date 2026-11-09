@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_evasion", path = "json/class_abilities6.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** PRPG Core Rulebook\
 This is an improved version of [evasion](ref/ability/evasion). The character still takes no damage
 on a successful Reflex saving throw against attacks while wearing light armor or no armor, but
 henceforth they take only half damage on a failed save. A [helpless](ref/misc/helpless) character

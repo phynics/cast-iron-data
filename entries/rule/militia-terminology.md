@@ -6,12 +6,13 @@ source_ids = ["lands-of-conflict", "ironfang-invasion-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "militia_terminology", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "lands-of-conflict"
+page = "48"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Lands of Conflict pg 48
 
 The PCs' militia has attributes that define its growth, strengths, and weaknesses. The terminology
 used to represent the militia's attributes is described on the following pages. Either the players

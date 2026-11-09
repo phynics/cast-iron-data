@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ear_piercing_scream", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "218"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: sonic
 :::
-
-**Sources:** Ultimate Magic pg 218
 
 You unleash a powerful scream, inaudible to all but a single target. The target is dazed for 1 round
 and takes 1d6 points of sonic damage per two caster levels (maximum 5d6). A successful save negates

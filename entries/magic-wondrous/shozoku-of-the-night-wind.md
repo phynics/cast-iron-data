@@ -6,6 +6,9 @@ source_ids = ["pathfinder-50-night-of-frozen-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shozoku_of_the_night_wind", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "pathfinder-50-night-of-frozen-shadows"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate illusion"
 caster_level = "4th"
 +++
 
-**Sources:** Pathfinder \#50: Night of Frozen Shadows pg 60\
 **Aura** moderate illusion; **CL** 4th\
 **Slot** body; **Price** 12,000 gp; **Weight** 2 lbs.
 

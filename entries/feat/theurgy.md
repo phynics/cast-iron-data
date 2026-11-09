@@ -6,14 +6,15 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "theurgy", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "157"
 
 [fields]
 kind = "feat"
 prerequisites = "Wis 13, Int or Cha 13, able to cast 1st-level arcane spells, able to cast 1st-level divine spells."
 benefit = "You can augment the power of your divine spells with arcane energy and augment your arcane spells with divine energy."
 +++
-
-**Sources:** Ultimate Magic pg 157
 
 You can blend the power of arcane and divine magic.\
 **Prerequisites:** Wis 13, Int or Cha 13, able to cast 1st-level arcane spells, able to cast

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bleaching_resistance", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "218"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Target: you
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Inner Sea Races pg 218
 
 > _The following spell is available to the indicated race or ethnicity: [Gnome](ref/race/gnome)_
 

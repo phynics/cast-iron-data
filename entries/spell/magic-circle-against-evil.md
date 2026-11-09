@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_circle_against_evil", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "308"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Spell resistance: no; see text
 Area: 10-ft.-radius emanation from touched creature
 Descriptors: good
 :::
-
-**Sources:** PRPG Core Rulebook pg 308
 
 All creatures within the area gain the effects of a
 [protection from evil](ref/spell/protection-from-evil) spell, and evil summoned creatures cannot

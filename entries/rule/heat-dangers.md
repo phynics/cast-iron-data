@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heat_dangers", path = "json/rules_gm08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "444"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 444
 
 Heat deals nonlethal damage that cannot be recovered from until the character gets cooled off
 (reaches shade, survives until nightfall, gets doused in water, is targeted by

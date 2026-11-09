@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "whispering_wind", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "369"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: no
 Area: 10-ft.-radius spread
 Descriptors: air
 :::
-
-**Sources:** PRPG Core Rulebook pg 369
 
 You send a message or sound on the wind to a designated spot. The whispering wind travels to a
 specific location within range that is familiar to you, provided that it can find a way to the

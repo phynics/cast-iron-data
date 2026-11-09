@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "special_class_rules", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "68"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 68
 
 Some class features function differently because of the consolidated skills list. Clarifications
 appear here, divided by class. These entries cover only the main class features, so the GM might

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-60-from-hells-heart"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "faceless_whale", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "pathfinder-60-from-hells-heart"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ pallid body breaks the surface of dark waters without as much as a ripple._
 
 **Perception:** +19
 
-**Sources:** Pathfinder \#60: From Hell's Heart pg 82\
 **Experience points:** 51,200
 
 **Armor class:** 30/0/30

@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elixir_of_truth", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "295"
+[[sources]]
+publication = "core-rulebook"
+page = "512"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint enchantment"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Equipment pg 295, PRPG Core Rulebook pg 512\
 **Aura** faint enchantment; **CL** 5th\
 **Slot** none; **Price** 500 gp; **Weight** -
 

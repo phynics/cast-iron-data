@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_nalfeshnee", path = "json/monsters29.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "65"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ four-fingered hands._
 
 **Senses:** Darkvision 60 ft., True seeing
 
-**Sources:** Pathfinder RPG Bestiary pg 65\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 38,400

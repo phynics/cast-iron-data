@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arms_of_the_marilith", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation"
 caster_level = "15th"
 +++
 
-**Sources:** Melee Tactics Toolbox pg 28\
 **Aura** strong transmutation; **CL** 15th\
 **Slot** shoulders; **Price** 30,000 gp; **Weight** 10 lbs.
 

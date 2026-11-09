@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "choosing_skills", path = "json/rules_adv_gm03.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "240"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 240
 
 Picking a monster's skills should be simple. Typically, a monster should have master skills that
 match its highest ability modifiers. For example, if you have a monster with a high Dexterity

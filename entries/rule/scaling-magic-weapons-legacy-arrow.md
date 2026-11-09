@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scaling_magic_weapons_legacy_arrow", path = "json/rules_opt_magic02.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "163"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 163
 
 **Slot** none; CL 4th; **Weight** 1/10 lb.\
 **Aura** faint transmutation; **Price** 305 gp; **Scaling** bauble

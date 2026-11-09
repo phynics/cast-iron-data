@@ -6,6 +6,9 @@ source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stunning_fist_adept", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "dragon-empires-primer"
+page = "25"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Add +1 to the saving throw DC against your Stunning Fist attacks. Thi
 +++
 
 ## Stunning Fist Adept (Combat)
-
-**Sources:** Dragon Empires Primer pg 25
 
 Your Stunning Fist strikes become even deadlier.\
 **Prerequisites:** [Stunning Fist](ref/feat/stunning-fist), base attack bonus +3.\

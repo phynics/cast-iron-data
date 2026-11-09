@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/brawler" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "42"
 
 [fields]
 kind = "archetype"
 replaces = ["Martial flexibility"]
 +++
 
-**Sources:** Ultimate Wilderness pg 42\
 A feral striker taps into a reservoir of druidic power hidden inside herself, allowing her to take
 animalistic characteristics.
 

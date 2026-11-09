@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/searing-light", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "107"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 107\
 The spell's damage increases to 1d6 per caster level (maximum 10d6). The damage dealt to an undead
 creature increases to 1d8 points of damage per caster level (maximum 10d8), or 2d6 per caster level
 (maximum 20d6) if the undead is vulnerable to bright light. The damage dealt to constructs increases

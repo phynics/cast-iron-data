@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "questions_about_your_city", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "157"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 157
 
 Designing a city can seem like an overwhelming task, but in a roleplaying game, the key to designing
 a compelling city is to consider those aspects that are most likely to affect your adventure or the

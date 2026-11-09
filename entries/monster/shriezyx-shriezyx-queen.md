@@ -6,6 +6,9 @@ source_ids = ["pathfinder-134-it-came-from-hollow-mountain"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shriezyx_shriezyx_queen", path = "json/monsters38.json" },
 ]
+[[sources]]
+publication = "pathfinder-134-it-came-from-hollow-mountain"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ glowing eyes._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#134: It Came from Hollow Mountain pg 88\
 **tremorsense:** 60
 
 **Experience points:** 4,800

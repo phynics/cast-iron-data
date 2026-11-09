@@ -6,6 +6,9 @@ source_ids = ["pathfinder-51-the-hungry-storm"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pack_animal_musk_ox", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "pathfinder-51-the-hungry-storm"
+page = "67"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "24 gp"
 weight = "-"
 +++
 
-**Sources:** Pathfinder \#51: The Hungry Storm pg 67\
 **Price** 24 gp; **Weight** -\
 **Category** Mounts/Pets
 

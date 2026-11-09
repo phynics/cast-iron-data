@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oppressive_boredom", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "230"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: emotion, mind-affecting
 :::
-
-**Sources:** Ultimate Magic pg 230
 
 You fill your target with boredom. The target loses all interest in its current task and must make a
 Will save against the spell's effect in order to perform its next action. If the target fails, it

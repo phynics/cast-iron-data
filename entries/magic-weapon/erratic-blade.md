@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "erratic_blade", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "48"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration and transmutation"
 caster_level = "11th"
 +++
 
-**Sources:** Planar Adventures pg 48\
 **Aura** moderate abjuration and transmutation; **CL** 11th\
 **Slot** weapon; **Price** 22,315 gp; **Weight** 4 lbs.
 

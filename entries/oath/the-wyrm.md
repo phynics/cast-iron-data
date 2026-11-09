@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_wyrm", path = "json/class_ability_oaths.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "62"
 
 [fields]
 kind = "class_option"
@@ -13,7 +16,6 @@ group = "paladin-oath"
 replaces = ["Channel positive energy", "Divine bond", "Holy champion"]
 +++
 
-**Sources:** Ultimate Magic pg 62\
 Few dragons see the smaller races of the world as their equals - to most, humanoids are either food
 or an annoyance. Some paladins swear to protect others against the predation of dragonkind. Some
 include dragon-blooded creatures (such as half-dragons or even sorcerers with the draconic

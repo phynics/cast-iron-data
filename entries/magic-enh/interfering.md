@@ -6,6 +6,9 @@ source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "interfering", path = "json/magic_enhancements2.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "26"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation"
 caster_level = "18th"
 +++
 
-**Sources:** Ranged Tactics Toolbox pg 26\
 **Aura** strong transmutation; **CL** 18th\
 **Slot** none; **Price** +5 bonus; **Weight** -
 

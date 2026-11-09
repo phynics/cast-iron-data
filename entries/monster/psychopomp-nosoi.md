@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "pathfinder-47-ashes-at-dawn"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychopomp_nosoi", path = "json/monsters19.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "220"
+[[sources]]
+publication = "pathfinder-47-ashes-at-dawn"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -41,7 +47,6 @@ _This strange black bird wears a leather long-nosed mask like a plague doctor._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Spiritsense
 
-**Sources:** Bestiary 4 pg 220, Pathfinder \#47: Ashes at Dawn pg 86\
 **Subtype:** Extraplanar, Psychopomp
 
 **Size:** tiny

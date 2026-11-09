@@ -6,6 +6,9 @@ source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hamatulatsu_robe", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "59"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation and transmutation"
 caster_level = "10th"
 +++
 
-**Sources:** Inner Sea Combat pg 59\
 **Aura** moderate evocation and transmutation; **CL** 10th\
 **Slot** body; **Price** 14,000 gp; **Weight** 1 lb.
 

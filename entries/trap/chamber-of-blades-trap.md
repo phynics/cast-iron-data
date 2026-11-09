@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chamber_of_blades_trap", path = "json/traps.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "421"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 421
 
 **Chamber of Blades Trap**
 

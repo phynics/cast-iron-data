@@ -6,6 +6,9 @@ source_ids = ["pathfinder-112-the-whisper-out-of-time"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mnemonic_repository", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "pathfinder-112-the-whisper-out-of-time"
+page = "73"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination [mind-affecting]"
 caster_level = "3rd"
 +++
 
-**Sources:** Pathfinder \#112: The Whisper Out of Time pg 73\
 **Aura** faint divination \[mind-affecting\]; **CL** 3rd\
 **Slot** none; **Price** 3,000 gp; **Weight** 1 lb.
 

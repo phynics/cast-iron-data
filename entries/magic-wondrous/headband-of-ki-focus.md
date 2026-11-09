@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "headband_of_ki_focus", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "250"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration"
 caster_level = "1st"
 +++
 
-**Sources:** Ultimate Equipment pg 250\
 **Aura** faint abjuration; **CL** 1st\
 **Slot** headband; **Price** 5,400 gp; **Weight** 1 lb.
 

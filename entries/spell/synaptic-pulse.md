@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "synaptic_pulse", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "187"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Area: 30-ft.-radius spread centered on you
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Occult Adventures pg 187
 
 You emit a pulsating mental blast that stuns all creatures in range of your psychic shriek for 1
 round.

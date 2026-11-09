@@ -6,6 +6,9 @@ source_ids = ["familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_sharing_collar", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "familiar-folio"
+page = "21"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Sources:** Familiar Folio pg 21\
 **Aura** moderate evocation; **CL** 10th\
 **Slot** neck; **Price** 7,500 gp; **Weight** 1 lb.
 

@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elven_battle_training", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "28"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You have received special training with traditional elven weapons (lo
 +++
 
 ## Elven Battle Training (Combat)
-
-**Sources:** Advanced Race Guide pg 28
 
 You have been specially trained to wield a variety of traditional elven weapons.\
 **Prerequisites:** Base attack bonus +1, [elf](ref/race/elf).\

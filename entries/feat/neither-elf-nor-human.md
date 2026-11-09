@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "neither_elf_nor_human", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "47"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Exile's Path, Seen and Unseen, character level 11th, half-elf."
 prerequisite_feats = ["ref/feat/exiles-path", "ref/feat/seen-and-unseen"]
 benefit = "You are not considered elven or human for the purpose of harmful spells or effects based on your type, like a bane weapon or a ranger's favored enemy class feature."
 +++
-
-**Sources:** Advanced Race Guide pg 47
 
 You have removed yourself from your heritage so thoroughly that even magic does not recognize you.\
 **Prerequisites:** [Exile's Path](ref/feat/exiles-path),

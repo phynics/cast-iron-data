@@ -6,6 +6,9 @@ source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soulless_gaze", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "champions-of-corruption"
+page = "17"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "You can use the Intimidate skill to manipulate and terrify others."
 +++
 
 ## Soulless Gaze (Damnation)
-
-**Sources:** Champions of Corruption pg 17
 
 Otherworldly dread infuses your gaze.\
 **Benefit:** You can use the [Intimidate](ref/skill/intimidate) skill to manipulate and terrify

@@ -6,12 +6,12 @@ source_ids = ["pathfinder-138-rise-of-new-thassilon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_planar_tumult", path = "json/monster_families.json" },
 ]
+[[sources]]
+publication = "pathfinder-138-rise-of-new-thassilon"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder \#138: Rise of New Thassilon
 
 These planar dragons seek out dynamic and changing places, imposing their own whimsical will when
 those sites no longer intrigue them.

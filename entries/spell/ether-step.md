@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/ethereal-jaunt" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "40"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Planar Adventures pg 40
 
 You step into the Ethereal Plane long enough to dodge a blow or confound a spell; you must cast
 ether step after you are targeted by an attack or effect but before you learn the results of the

@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "home_away", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "33"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration"
 caster_level = "17th"
 +++
 
-**Sources:** Villain Codex pg 33\
 **Aura** strong conjuration; **CL** 17th\
 **Slot** none; **Price** 18,000 gp; **Weight** 600 lbs.
 

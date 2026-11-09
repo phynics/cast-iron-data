@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "waxwork", path = "json/monster_template4.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "246"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Challenge rating:** Varies
 
 **Inherited:** present
-
-**Source:** Horror Adventures/246
 
 The practice of making sculptures from wax dates back to the earliest humanoid civilizations. Only
 the medium of wax can so closely duplicate the transparency of skin. Often, creators use powerful

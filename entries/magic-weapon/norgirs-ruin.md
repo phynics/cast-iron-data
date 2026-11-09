@@ -6,6 +6,9 @@ source_ids = ["dungeons-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "norgirs_ruin", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "dungeons-of-golarion"
+page = "9"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong evocation"
 caster_level = "15th"
 +++
 
-**Sources:** Dungeons of Golarion pg 9\
 **Aura** strong evocation; **CL** 15th\
 **Slot** none; **Price** 91,712 gp; **Weight** 5 lbs.
 

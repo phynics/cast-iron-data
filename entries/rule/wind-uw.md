@@ -6,12 +6,13 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wind_uw", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "170"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Wilderness pg 170
 
 Once you've generated the day's precipitation, you'll need to establish the wind strength unless the
 precipitation indicates otherwise. For example, on foggy days, no significant wind occurs, while

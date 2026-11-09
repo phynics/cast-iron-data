@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "pathfinder-48-shadows-of-gallowspire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychopomp_yamaraj", path = "json/monsters19.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "222"
+[[sources]]
+publication = "pathfinder-48-shadows-of-gallowspire"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -46,7 +52,6 @@ body._
 
 **Senses:** Darkvision 60 ft., Detect thoughts, Low-light vision, Spiritsense, True seeing
 
-**Sources:** Bestiary 4 pg 222, Pathfinder \#48: Shadows of Gallowspire pg 86\
 **Subtype:** Extraplanar, Psychopomp
 
 **Experience points:** 307,200

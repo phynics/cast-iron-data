@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "barbed_vest", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "56"
+[[sources]]
+publication = "advanced-players-guide"
+page = "181"
 
 [fields]
 kind = "item"
@@ -14,7 +20,6 @@ price = "10 gp"
 weight = "4 lbs."
 +++
 
-**Sources:** Ultimate Equipment pg 56, Advanced Player's Guide pg 181\
 **Price** 10 gp; **Weight** 4 lbs.\
 **Category** Adventuring Gear
 

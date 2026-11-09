@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "zentragt", path = "json/monsters41.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "289"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ iron plates._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Inner Sea Gods pg 289\
 **Subtype:** Chaotic, Extraplanar
 
 **Experience points:** 1,200

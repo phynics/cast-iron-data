@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "denounce", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "215"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Area: 30-ft.-radius burst
 Subschool: Compulsion
 Descriptors: language-dependant, mind-affecting
 :::
-
-**Sources:** Advanced Player's Guide pg 215
 
 You speak out against a single creature within line of sight and turn possible allies against it by
 drawing upon the power of your voice and conviction. Creatures in the area who can see the denounced

@@ -6,6 +6,9 @@ source_ids = ["rival-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blackfingers_paste", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "rival-guide"
+page = "53"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "50 gp"
 weight = "-"
 +++
 
-**Sources:** Rival Guide pg 53\
 **Price** 50 gp; **Weight** -\
 **Category** Alchemical Tools
 

@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloodletting_kukri", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "152"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint necromancy"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Equipment pg 152\
 **Aura** faint necromancy; **CL** 5th\
 **Slot** none; **Price** 6,308 gp; **Weight** 2 lbs.
 

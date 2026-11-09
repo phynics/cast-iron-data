@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "double_chained_kama", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "20"
+[[sources]]
+publication = "ultimate-combat"
+page = "131"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "4 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 20, Ultimate Combat pg 131
 
 This weapon comprises a pair of [kama](ref/eq-weapon/kama) connected with an 8-foot length of chain.
 The wielder can attack as if armed with a single kama in each hand or extend the chain to make a

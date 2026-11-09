@@ -6,6 +6,9 @@ source_ids = ["pathfinder-137-the-city-outside-of-time"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spherical_boat_of_zutha", path = "json/magic_artifact3.json" },
 ]
+[[sources]]
+publication = "pathfinder-137-the-city-outside-of-time"
+page = "73"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "overwhelming necromancy and transmutation"
 caster_level = "25th"
 +++
 
-**Sources:** Pathfinder \#137: The City Outside of Time pg 73\
 **Aura** overwhelming necromancy and transmutation; **CL** 25th\
 **Slot** none; **Price** -; **Weight** 2 lbs.
 

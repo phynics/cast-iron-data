@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blade_of_bright_victory", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "208"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Spell resistance: no
 Target: your paladin bonded weapon
 Descriptors: good
 :::
-
-**Sources:** Ultimate Magic pg 208
 
 You strengthen the bond between your divine bond weapon and its celestial spirit. The weapon gains
 the [ghost touch](ref/magic-enh/ghost-touch-weapon) property. You may change your weapon's damage

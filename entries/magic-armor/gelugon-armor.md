@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gelugon_armor", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "23"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration and evocation"
 caster_level = "13th"
 +++
 
-**Sources:** Melee Tactics Toolbox pg 23\
 **Aura** strong abjuration and evocation; **CL** 13th\
 **Slot** armor; **Price** 117,650 gp; **Weight** 50 lbs.
 

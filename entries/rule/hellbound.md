@@ -6,12 +6,14 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hellbound", path = "json/rules_campaign_types02.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "22-23"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Adventures pg. 22-23\
 The pit of Hell waits for your damned soul.
 
 ### Catalyst

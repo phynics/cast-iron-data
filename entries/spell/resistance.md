@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "resistance", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "334"
 
 [fields]
 kind = "spell"
@@ -56,8 +59,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
 :::
-
-**Sources:** PRPG Core Rulebook pg 334
 
 You imbue the subject with magical energy that protects it from harm, granting it a +1 resistance
 bonus on saves.

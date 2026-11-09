@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/fighter" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "93"
 
 [fields]
 kind = "archetype"
 replaces = ["Weapon training", "weapon mastery"]
 +++
 
-**Sources:** Advanced Class Guide pg 93\
 There are those who learn the fighting arts though countless hours of repetition and training, while
 others seem to pick up new stances and forms as if they were born to them.
 

@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "svartalfar", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "256"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ sword._
 
 **Senses:** Darkvision 120 ft., Low-light vision
 
-**Sources:** Bestiary 4 pg 256\
 **Subtype:** Extraplanar
 
 **Experience points:** 4,800

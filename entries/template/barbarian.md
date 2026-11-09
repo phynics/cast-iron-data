@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "barbarian", path = "json/monster_template1.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "246"
 
 [fields]
 kind = "none"
@@ -18,8 +21,6 @@ kind = "none"
 **Challenge rating:** +2 or +3
 
 **Simple:** present
-
-**Source:** Monster Codex/246
 
 A [barbarian](ref/class/barbarian) creature can fly into a rage, granting it numerous bonuses in
 combat. It also gains additional hit points and a few valuable defensive abilities. A barbarian

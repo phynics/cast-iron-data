@@ -6,13 +6,15 @@ source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oni", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
+[[sources]]
+publication = "dragon-empires-primer"
+page = "28"
 
 [fields]
 kind = "class_option"
 group = "sorcerer-bloodline"
 +++
 
-**Sources:** Dragon Empires Primer pg 28\
 As slaves of capricious oni lords, your ancestors were forced to yield to their masters' hedonistic
 desires, inevitably tainting their descendents with oni blood. Now, you wield the powers of the
 [oni](ref/family/oni) thanks to your vile heritage.

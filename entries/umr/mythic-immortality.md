@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mythic_immortality", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "296"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Mythic Immortality (Su) \[Mythic\]
 
-**Sources:** Bestiary 4 pg 296\
 If the creature is killed, it returns to life 24 hours later, regardless of the condition of its
 body or the means by which it was killed. When it returns to life, it isn't treated as if it had
 rested, and doesn't regain the use of abilities that are restored with rest until it next rests.

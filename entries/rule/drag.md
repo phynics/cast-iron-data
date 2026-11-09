@@ -6,12 +6,13 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drag", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "321"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Advanced Player's Guide pg 321
 
 You can attempt to drag a foe as a standard action. You can only drag an opponent who is no more
 than one size category larger than you. The aim of this maneuver is to drag a foe in a straight line

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "warrior", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "89"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 89
 
 Professional [warriors](ref/npcclass/warrior) typically have a wide range of experience and useful
 contacts among other career combatants, those they serve, and those they oppose.

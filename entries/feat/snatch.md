@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snatch", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "316"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "The creature can start a grapple when it hits with a claw or bite att
 +++
 
 ## Snatch (Monster)
-
-**Sources:** Pathfinder RPG Bestiary pg 316
 
 This creature can grab other creatures with ease.\
 **Prerequisites:** Size Huge or larger.\

@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "banshees_howl", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "114"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong necromancy"
 caster_level = "17th"
 +++
 
-**Sources:** Adventurer's Guide pg 114\
 **Aura** strong necromancy; **CL** 17th\
 **Slot** none; **Price** 38,480 gp; **Weight** 2 lbs.
 

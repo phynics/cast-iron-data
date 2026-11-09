@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fox_style", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "84"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "While using this style, you can use your base attack bonus in place o
 +++
 
 ## Fox Style (Combat, Style)
-
-**Sources:** Ultimate Intrigue pg 84
 
 Your martial training helps you manipulate foes.\
 **Prerequisites:** Int 13.\

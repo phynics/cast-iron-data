@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "impact_critical_shot", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "104"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "You must perform a bull rush combat maneuver to bull rush an opponent,
 +++
 
 ## Impact Critical Shot (Combat, Critical)
-
-**Sources:** Ultimate Combat pg 104
 
 With a series of ranged attacks, you bring your foes to their knees or force them to move.\
 **Prerequisites:** Dex 13, [Point-Blank Shot](ref/feat/point-blank-shot), base attack bonus +9.\

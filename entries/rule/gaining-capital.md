@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gaining_capital", path = "json/rules_subsystems02.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "77"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 77
 
 Goods, Influence, Labor, and Magic are the backbone of the downtime system. These types of capital
 are necessary for completing many downtime activities. You can gain such capital in one of two ways:

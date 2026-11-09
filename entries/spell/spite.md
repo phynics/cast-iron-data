@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spite", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "246"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Advanced Player's Guide pg 246
 
 Choose a single touch range spell of 4th level or lower with a casting time of 1 standard action or
 less. As part of the action of casting spite, you cast the associated spell and bind it into a

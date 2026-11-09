@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "exploration_edicts", path = "json/rules_campaign_types05.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "230"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 230
 
 Exploration edicts are special edicts that allow you to commission explorers to map unclaimed hexes
 and prepare them for your kingdom. You may choose to accompany the explorers or let them explore on

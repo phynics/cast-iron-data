@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide", "legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "draconic", path = "json/class_ability_bloodrager_bloodlines.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "19"
 
 [fields]
 kind = "class_option"
@@ -13,8 +16,6 @@ group = "bloodrager-bloodline"
 +++
 
 ## Draconic Bloodline
-
-**Sources:** Advanced Class Guide pg 19
 
 At some point in your family's history, a dragon interbred with your bloodline. Now, the sublime
 monster's ancient power fuels your _bloodrage._

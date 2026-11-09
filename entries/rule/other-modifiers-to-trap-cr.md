@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "other_modifiers_to_trap_cr", path = "json/rules_gm08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "423"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 423
 
 **Average Damage:** If a trap (mechanical or magical) does hit point damage, calculate the average
 damage for a successful hit and round that value to the nearest multiple of 10. If the trap is

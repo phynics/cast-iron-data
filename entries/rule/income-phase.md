@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "income_phase", path = "json/rules_subsystems02.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "82"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 82
 
 During the Income phase, you generate capital from downtime activities and from buildings and
 organizations you control.

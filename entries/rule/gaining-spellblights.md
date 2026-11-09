@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gaining_spellblights", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "94"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 94
 
 There are many ways a spellcaster can become afflicted with a spellblight. These conditions can be
 gained by way of a [bestow curse](ref/spell/bestow-curse) or [major curse](ref/spell/curse-major)

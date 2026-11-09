@@ -6,6 +6,9 @@ source_ids = ["darklands-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "almara_kazaar", path = "json/monsters_unique3.json" },
 ]
+[[sources]]
+publication = "darklands-revisited"
+page = "15"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ warhammer._
 
 **Senses:** Darkvision 120 ft.
 
-**Sources:** Darklands Revisited pg 15\
 **Subtype:** Dwarf
 
 **Experience points:** 9,600

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "72"
 
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Trap sense"]
 +++
 
-**Sources:** Ultimate Combat pg 72\
 A charlatan is a master of lies and deception. Whether creating simple cons or elaborately woven
 hoaxes capable of swaying the masses and those in positions of power, a charlatan is often a
 purveyor of snake-oil, forgeries, and rumormongering.

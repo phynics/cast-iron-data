@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cavalier" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "24"
 
 [fields]
 kind = "archetype"
 replaces = ["Bonus feats gained at 6th, 12th, and 18th levels", "Demanding challenge", "Supreme charge"]
 +++
 
-**Sources:** Ultimate Intrigue pg 24\
 Most cavaliers are great tacticians, but some stand above the rest for their ability to lead troops
 under their command, and inspire them to great accomplishments. Those cavaliers most gifted at
 command often become daring generals.

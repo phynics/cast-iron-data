@@ -6,6 +6,9 @@ source_ids = ["pathfinder-82-secrets-of-the-sphinx"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "abeyance", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "pathfinder-82-secrets-of-the-sphinx"
+page = "74"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
 :::
-
-**Sources:** Pathfinder \#82: Secrets of the Sphinx pg 74
 
 Abeyance suppresses the effects of a single curse on a creature. It does not restore any damage or
 drain that might have been caused by the curse. Abeyance cannot suppress curses that cannot be

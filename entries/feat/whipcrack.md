@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "whipcrack", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "24"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "The target of a reposition combat maneuver must remain within your rea
 +++
 
 ## Whipcrack (Combat)
-
-**Sources:** Martial Arts Handbook pg 24
 
 You move an opponent and use his momentum to send him reeling across the battlefield.\
 **Prerequisites:** Int 13, [Combat Expertise](ref/feat/combat-expertise),

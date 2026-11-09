@@ -6,6 +6,9 @@ source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tatzlwyrm_claw_style", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "legacy-of-dragons"
+page = "21"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You can choose for your unarmed attacks to deal slashing damage. If y
 +++
 
 ## Tatzlwyrm Claw Style (Combat, Style)
-
-**Sources:** Legacy of Dragons pg 21
 
 Your curled fingers can tear into opponents' flesh and snatch free grappled allies.\
 **Prerequisites:** Dex 13, [Improved Grapple](ref/feat/improved-grapple),

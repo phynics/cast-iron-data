@@ -6,6 +6,9 @@ source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stunning_irruption", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "champions-of-corruption"
+page = "23"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Before starting combat, you can attempt to break through a door, wind
 +++
 
 ## Stunning Irruption (Combat)
-
-**Sources:** Champions of Corruption pg 23
 
 When you smash your way into a room, you gain more than just the element of surprise.\
 **Prerequisites:** Str 15, [Power Attack](ref/feat/power-attack), base attack bonus +5.\

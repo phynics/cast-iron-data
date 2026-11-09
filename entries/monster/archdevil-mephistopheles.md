@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "archdevil_mephistopheles", path = "json/monsters_unique.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "28"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ wings._
 
 **Senses:** Darkvision 60 ft., Detect chaos, Detect good, Discern lies, See in darkness, True seeing
 
-**Sources:** Bestiary 6 pg 28\
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **Experience points:** 9,830,400

@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rare_metal_infusion", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "22"
 
 [fields]
 kind = "class_option"
@@ -23,8 +26,6 @@ group = "kineticist-wild-talent"
 **Associated:** [Metal Blast](ref/kinetic/metal-blast)
 
 **Saving throw:** none
-
-**Source:** Occult Adventures/22
 
 You can control the properties of metal, allowing your metal blast to bypass
 [damage reduction](ref/rule/damage-reduction) as if it were adamantine, cold iron, or silver (your

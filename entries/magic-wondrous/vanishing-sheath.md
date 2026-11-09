@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vanishing_sheath", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "237"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "6th"
 +++
 
-**Sources:** Advanced Class Guide pg 237\
 **Aura** moderate conjuration; **CL** 6th\
 **Slot** wrists; **Price** 5,000 gp; **Weight** 1 lb.
 

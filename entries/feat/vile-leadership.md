@@ -6,14 +6,18 @@ source_ids = ["ultimate-intrigue", "champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vile_leadership", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "135"
+[[sources]]
+publication = "champions-of-corruption"
+page = "14"
 
 [fields]
 kind = "feat"
 prerequisites = "Any evil alignment, character level 7th."
 benefit = "You can attract a loyal cohort and a number of intimidated followers to assist in your nefarious deeds. This feat is similar to Leadership, except Vile Leadership rewards - rather than punishes - leaders with cruel reputations or who cause their followers' deaths. Once you take this feat, you cannot take the Leadership feat without retraining your feat selection. Numerous factors can affect your Vile Leadership score (which acts as a Leadership score for the purpose of feats and abilities that rely on a Leadership score, other than Leadership itself); work in conjunction with your GM and use the tables below to adjust your Vile Leadership score accordingly. The NPCs you attract must be of a nongood alignment."
 +++
-
-**Sources:** Ultimate Intrigue pg 135, Champions of Corruption pg 14
 
 You rule over your own cabal of minions with a villainous cohort as your lieutenant.\
 **Prerequisites:** Any evil alignment, character level 7th.\

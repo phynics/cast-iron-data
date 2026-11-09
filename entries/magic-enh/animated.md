@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animated", path = "json/magic_enhancements.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "114"
+[[sources]]
+publication = "core-rulebook"
+page = "463"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong transmutation"
 caster_level = "12th"
 +++
 
-**Sources:** Ultimate Equipment pg 114, PRPG Core Rulebook pg 463\
 **Aura** strong transmutation; **CL** 12th\
 **Slot** shield quality; **Price** +2 bonus; **Weight** -
 

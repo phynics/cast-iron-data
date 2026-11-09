@@ -6,14 +6,24 @@ source_ids = ["bestiary-6", "bestiary", "bestiary-2", "bestiary-3", "bestiary-4"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant", path = "json/monster_subtypes.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+[[sources]]
+publication = "bestiary"
+[[sources]]
+publication = "bestiary-2"
+[[sources]]
+publication = "bestiary-3"
+[[sources]]
+publication = "bestiary-4"
+[[sources]]
+publication = "bestiary-5"
 
 [fields]
 kind = "none"
 +++
 
 ## Subtype: Giant
-
-**Sources:** Bestiary 6, Pathfinder RPG Bestiary, Bestiary 2, Bestiary 3, Bestiary 4, Bestiary 5
 
 A giant is a [humanoid](ref/type/humanoid) creature of great strength, usually of at least Large
 size. Giants have a number of racial Hit Dice and never substitute such Hit Dice for class levels

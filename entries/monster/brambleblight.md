@@ -6,6 +6,9 @@ source_ids = ["pathfinder-92-the-hill-giants-pledge"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brambleblight", path = "json/monsters04.json" },
 ]
+[[sources]]
+publication = "pathfinder-92-the-hill-giants-pledge"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ barbs that's topped with a heap of berry-red eyes._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Plantsense 120 ft.
 
-**Sources:** Pathfinder \#92: The Hill Giant's Pledge pg 84\
 **Experience points:** 3,200
 
 **Armor class:** 20/12/17

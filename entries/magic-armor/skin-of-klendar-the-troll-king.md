@@ -6,6 +6,9 @@ source_ids = ["pathfinder-27-what-lies-in-dust"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skin_of_klendar_the_troll_king", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "pathfinder-27-what-lies-in-dust"
+page = "58"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "8th"
 +++
 
-**Sources:** Pathfinder \#27: What Lies in Dust pg 58\
 **Aura** moderate conjuration; **CL** 8th\
 **Slot** armor; **Price** 16,315 gp; **Weight** 25 lbs.
 

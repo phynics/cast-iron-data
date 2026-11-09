@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "symbolic_mastery", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "31"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "A number of times per day equal to your base Fortitude save bonus, yo
 +++
 
 ## Symbolic Mastery (Item Mastery)
-
-**Sources:** Magic Tactics Toolbox pg 31
 
 You can channel the power of the gods through symbols of their faiths, using it as a weapon.\
 **Prerequisites:** Use Magic Device 4 ranks, base Fortitude saving throw bonus +2.\

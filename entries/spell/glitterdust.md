@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "glitterdust", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "290"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Spell resistance: no
 Area: creatures and objects within 10-ft.-radius spread
 Subschool: Creation
 :::
-
-**Sources:** PRPG Core Rulebook pg 290
 
 A cloud of golden particles covers everyone and everything in the area, causing creatures to become
 blinded and visibly outlining invisible things for the duration of the spell. All within the area

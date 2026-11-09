@@ -6,6 +6,12 @@ source_ids = ["bestiary-6", "occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "azata_uinuja", path = "json/monsters27.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "33"
+[[sources]]
+publication = "occult-bestiary"
+page = "9"
 
 [fields]
 kind = "creature"
@@ -47,7 +53,6 @@ tangle of night-blue hair._
 
 **Senses:** Darkvision 60 ft., See invisibility
 
-**Sources:** Bestiary 6 pg 33, Occult Bestiary pg 9\
 **Subtype:** Azata, Chaotic, Extraplanar, Good
 
 **Experience points:** 51,200

@@ -6,6 +6,9 @@ source_ids = ["concordance-of-rivals"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kerkamoth", path = "json/faiths5.json" },
 ]
+[[sources]]
+publication = "concordance-of-rivals"
+page = "10"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Kerkamoth**
 
 **Sub:** The Waiting Void
-
-**Sources:** Concordance of Rivals pg 10
 
 ### Details
 

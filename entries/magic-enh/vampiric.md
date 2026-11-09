@@ -6,6 +6,12 @@ source_ids = ["horror-adventures", "weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vampiric", path = "json/magic_enhancements2.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "214"
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "30"
 
 [fields]
 kind = "item"
@@ -16,7 +22,6 @@ aura = "faint necromancy"
 caster_level = "5th"
 +++
 
-**Sources:** Horror Adventures pg 214, Weapon Master's Handbook pg 30\
 **Aura** faint necromancy; **CL** 5th\
 **Price** +1 bonus; **Weight** -
 

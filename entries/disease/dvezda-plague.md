@@ -6,12 +6,13 @@ source_ids = ["pathfinder-69-maiden-mother-crone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dvezda_plague", path = "json/diseases.json" },
 ]
+[[sources]]
+publication = "pathfinder-69-maiden-mother-crone"
+page = "71"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder \#69: Maiden, Mother, Crone pg 71
 
 **Type:** Disease (Ingested or inhaled)
 

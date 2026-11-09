@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brooch_of_amber_sparks", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "256"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration and evocation"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Equipment pg 256\
 **Aura** faint abjuration and evocation; **CL** 5th\
 **Slot** neck; **Price** 16,800 gp; **Weight** 1 lb.
 

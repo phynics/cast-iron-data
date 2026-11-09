@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brand", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "207"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Spell resistance: yes
 Target: creature touched
 Descriptors: curse
 :::
-
-**Sources:** Advanced Player's Guide pg 207
 
 Brand etches an indelible rune or mark of no more than 6 characters onto a creature, inflicting 1
 point of damage. The mark may be placed on any exposed portion of the creature, typically the head

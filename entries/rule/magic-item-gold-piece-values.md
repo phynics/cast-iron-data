@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_item_gold_piece_values", path = "json/rules_basics04.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "549"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 549
 
 Many factors must be considered when determining the price of new magic items. The easiest way to
 come up with a price is to compare the new item to an item that is already priced, using that price

@@ -6,6 +6,9 @@ source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shawl_of_the_lingering_phantom", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "haunted-heroes-handbook"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Sources:** Haunted Heroes Handbook pg 31\
 **Aura** faint divination; **CL** 5th\
 **Slot** head; **Price** 3,200 gp; **Weight** -
 

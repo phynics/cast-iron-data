@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/regenerate", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "105"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 105\
 The casting time changes to 1 standard action and the target changes to 1 living creature or corpse
 touched. The spell removes the blinded, dazzled, and deafened conditions. The target gains
 regeneration equal to your tier (overcome by acid and fire) for 1 round per caster level. If the

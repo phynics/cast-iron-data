@@ -6,6 +6,9 @@ source_ids = ["tears-at-bitter-manor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ephemeral_echo", path = "json/monsters42.json" },
 ]
+[[sources]]
+publication = "tears-at-bitter-manor"
+page = "61"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ mournful expression._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Tears at Bitter Manor pg 61\
 **Subtype:** Incorporeal
 
 **Type:** undead

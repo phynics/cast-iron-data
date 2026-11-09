@@ -6,6 +6,9 @@ source_ids = ["doom-comes-to-dustpawn"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dream_crystal_toxin", path = "json/equipment_poisons.json" },
 ]
+[[sources]]
+publication = "doom-comes-to-dustpawn"
+page = "18"
 
 [fields]
 kind = "item"
@@ -13,8 +16,6 @@ category = "Poisons"
 price = "2,500 gp"
 weight = "&mdash;"
 +++
-
-**Sources:** Doom Comes to Dustpawn pg 18
 
 **Price** 2,500 gp; **Weight** —
 

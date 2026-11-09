@@ -6,6 +6,9 @@ source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "call_weapon", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "53"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: none
 Spell resistance: no
 Target: one melee weapon wielded by an ally
 :::
-
-**Sources:** Inner Sea Magic pg 53
 
 This spell first rose to prominence among the elves of Kyonin in the war to retake their ancestral
 land from the demon lord Treerazer and his minions. Elite units of elven magi entered battle with

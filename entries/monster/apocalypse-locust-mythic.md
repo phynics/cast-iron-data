@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "apocalypse_locust_mythic", path = "json/monsters_mythic.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "12"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ into a giant, winged scorpion._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 4 pg 12\
 **Subtype:** Evil, Extraplanar, Mythic
 
 **Experience points:** 2,400

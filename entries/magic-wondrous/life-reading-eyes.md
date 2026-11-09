@@ -6,6 +6,9 @@ source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "life_reading_eyes", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "agents-of-evil"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "7th"
 +++
 
-**Sources:** Agents of Evil pg 29\
 **Aura** moderate divination; **CL** 7th\
 **Slot** eyes; **Price** 15,000 gp; **Weight** -
 

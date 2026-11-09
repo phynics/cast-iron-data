@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alchemical_inspiration", path = "json/misc.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "234"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 234
 
 **Alchemical Inspiration:** Items that grant alchemical inspiration function similar to the
 inspiration class feature of the [investigator](ref/class/investigator) class. Such an alchemical

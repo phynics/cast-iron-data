@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "conjure_black_pudding", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "211"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Effect: one summoned black pudding
 Subschool: Summoning
 Descriptors: acid
 :::
-
-**Sources:** Ultimate Magic pg 211
 
 You summon a black pudding that immediately attacks creatures near it. You have no control over the
 creature, and it may attack you if there are no more obvious opponents. The black pudding is treated

@@ -6,6 +6,9 @@ source_ids = ["occult-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ambras_imre", path = "json/class_ability_spirits.json" },
 ]
+[[sources]]
+publication = "occult-realms"
+page = "10"
 
 [fields]
 kind = "class_option"
@@ -13,7 +16,6 @@ group = "medium-spirit"
 replaces = ["Trickster's edge"]
 +++
 
-**Sources:** Occult Realms pg 10\
 Seeking a place to practice his illegal art, Chelish poisoner Count Ambras Imre settled in
 Daggermark and eventually established the notorious Daggermark Poisoner's Guild.
 

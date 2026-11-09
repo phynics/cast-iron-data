@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/false-life" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "219"
 
 [fields]
 kind = "spell"
@@ -54,8 +57,6 @@ Spell resistance: no
 :::
 
 ### Greater False Life
-
-**Sources:** Ultimate Magic pg 219
 
 This spell functions as [false life](ref/spell/false-life), except you gain temporary hit points
 equal to 2d10 + 1 point per caster level (maximum +20). The effects of this spell do not stack with

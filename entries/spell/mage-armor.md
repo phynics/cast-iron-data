@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mage_armor", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "306"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Target: creature touched
 Subschool: Creation
 Descriptors: force
 :::
-
-**Sources:** PRPG Core Rulebook pg 306
 
 An invisible but tangible field of force surrounds the subject of a mage armor spell, providing a +4
 armor bonus to AC.

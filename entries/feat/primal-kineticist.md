@@ -6,14 +6,15 @@ source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "primal_kineticist", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "people-of-the-wastes"
+page = "6"
 
 [fields]
 kind = "feat"
 prerequisites = "Kineticist level 1st."
 benefit = "When using a simple kinetic blast in an area where primal magic is either predominant or very common, you can accept 1 point of burn to cause your blast to become one of the following simple blasts instead. Roll 1d10 on the table below to determine the simple blast. You can apply any of your form or substance infusions that are allowed as choices for the random blast, accepting the typical burn cost."
 +++
-
-**Sources:** People of the Wastes pg 6
 
 When primal magic surrounds you, you can channel it to transform the nature of your kinetic blasts.\
 **Prerequisites:** [Kineticist](ref/class/kineticist) level 1st.\

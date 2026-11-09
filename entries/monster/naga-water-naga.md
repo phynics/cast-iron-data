@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "bonus-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "naga_water_naga", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "199"
+[[sources]]
+publication = "bonus-bestiary"
+page = "14"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ aquatic snake._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 3 pg 199, Bonus Bestiary pg 14\
 **Subtype:** Aquatic
 
 **Experience points:** 3,200

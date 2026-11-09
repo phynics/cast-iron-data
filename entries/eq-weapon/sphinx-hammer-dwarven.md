@@ -6,14 +6,15 @@ source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sphinx_hammer_dwarven", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "heroes-from-the-fringe"
+page = "8"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "8 lbs."
 +++
-
-**Sources:** Heroes from the Fringe pg 8
 
 The dwarven sphinx hammer is a long-handled hammer with a striking head that is artfully designed to
 look like a ram-headed [criosphinx](ref/monster/sphinx-criosphinx). Most commonly found among the

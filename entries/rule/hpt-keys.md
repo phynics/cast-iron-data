@@ -6,12 +6,13 @@ source_ids = ["occult-mysteries"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hpt_keys", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-mysteries"
+page = "41"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Mysteries pg 41
 
 Cards in the suit of keys are tied to Dexterity.
 

@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "black_spider_marsh_poison", path = "json/equipment_poisons.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "191"
 
 [fields]
 kind = "item"
@@ -13,8 +16,6 @@ category = "Poisons"
 price = "800 gp"
 weight = "&mdash;"
 +++
-
-**Sources:** Advanced Race Guide pg 191
 
 **Price** 800 gp; **Weight** —
 

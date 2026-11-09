@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kyton_ring", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "216"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Sources:** Horror Adventures pg 216\
 **Aura** moderate conjuration; **CL** 7th\
 **Slot** ring; **Price** 1,000 gp; **Weight** -
 

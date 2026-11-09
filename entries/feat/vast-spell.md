@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vast_spell", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "5"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can alter a spell that targets a number of creatures no more than
 +++
 
 ## Vast Spell (Metamagic)
-
-**Sources:** Magic Tactics Toolbox pg 5
 
 Your spells cover targets across a larger area.\
 **Prerequisites:** Caster level 3rd.\

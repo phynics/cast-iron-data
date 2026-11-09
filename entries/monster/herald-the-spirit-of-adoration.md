@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "herald_the_spirit_of_adoration", path = "json/monsters_unique2.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "308"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ trails brilliant colors._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Inner Sea Gods pg 308\
 **Subtype:** Extraplanar, Good, Herald, Shapechanger
 
 **Experience points:** 51,200

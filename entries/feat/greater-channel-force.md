@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_channel_force", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "88"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Channel Force, Improved Channel Force, aasimar, channel energy 
 prerequisite_feats = ["ref/feat/channel-force", "ref/feat/improved-channel-force"]
 benefit = "When using Improved Channel Force, you can affect all creatures in a 30-foot-radius burst."
 +++
-
-**Sources:** Advanced Race Guide pg 88
 
 Your eruptions of divine power move your enemies.\
 **Prerequisites:** [Channel Force](ref/feat/channel-force),

@@ -6,6 +6,9 @@ source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chest_of_preparedness", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "faction-guide"
+page = "58"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Sources:** Faction Guide pg 58\
 **Aura** moderate conjuration; **CL** 7th\
 **Slot** none; **Price** 5,000 gp; **Weight** 30 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "marching_chant", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "187"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Targets: one creature/level
 :::
-
-**Sources:** Advanced Class Guide pg 187
 
 You invigorate your allies, who can hustle as long as you continue to sing or chant (which requires
 your concentration). This movement counts as a walk (not a hustle) for the purpose of accruing

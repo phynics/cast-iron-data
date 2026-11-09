@@ -6,6 +6,15 @@ source_ids = ["ultimate-equipment", "adventurers-armory", "advanced-players-guid
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chest_small", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "56"
+[[sources]]
+publication = "adventurers-armory"
+page = "19"
+[[sources]]
+publication = "advanced-players-guide"
+page = "181"
 
 [fields]
 kind = "item"
@@ -16,7 +25,6 @@ weight = "250 lbs. (huge), 100 lbs. (large), 50 lbs. (medium), 25 lbs. (small)"
 
 ## Chest
 
-**Sources:** Ultimate Equipment pg 56, Adventurer's Armory pg 19, Advanced Player's Guide pg 181\
 **Price** 25 gp (huge), 10 gp (large), 5 gp (medium), 2 gp (small); **Weight** 250 lbs. (huge), 100
 lbs. (large), 50 lbs. (medium), 25 lbs. (small)
 

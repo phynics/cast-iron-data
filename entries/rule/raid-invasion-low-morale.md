@@ -6,12 +6,13 @@ source_ids = ["lands-of-conflict"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "raid_invasion_low_morale", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "lands-of-conflict"
+page = "59"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Lands of Conflict pg 59
 
 **Raid:** An enemy finds the militia. Deactivate all refuges in a random settlement with at least
 one active refuge. Anyone who was hiding in a refuge is taken prisoner and can be retrieved during

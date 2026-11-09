@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dimensional_anchor", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "270"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Saving throw: none
 Spell resistance: yes (object)
 Effect: ray
 :::
-
-**Sources:** PRPG Core Rulebook pg 270
 
 A green ray springs from your hand. You must make a ranged touch attack to hit the target. Any
 creature or object struck by the ray is covered with a shimmering emerald field that completely

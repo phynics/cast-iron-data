@@ -6,13 +6,15 @@ source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "father_of_legends", path = "json/class_ability_spirits.json" },
 ]
+[[sources]]
+publication = "heroes-of-golarion"
+page = "5"
 
 [fields]
 kind = "class_option"
 group = "medium-spirit"
 +++
 
-**Sources:** Heroes of Golarion pg 5\
 The Ulfen regard the Father of Legends as the greatest [skald](ref/class/skald) of all time. During
 his life, there was no greater honor than to be immortalized by his song, and several of the most
 famous Ulfen epics were first sung by him.

@@ -6,6 +6,9 @@ source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "violent_misfire", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "people-of-the-wastes"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: Will negates (object)
 Spell resistance: yes (object)
 Target: one early or advanced firearm
 :::
-
-**Sources:** People of the Wastes pg 29
 
 This spell creates a chaotic charge within the black powder loaded in a target firearm. The next
 time the target weapon fires during this spell's duration, it automatically misfires. If this

@@ -6,6 +6,9 @@ source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "luminous_lockpicks", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "blood-of-shadows"
+page = "21"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Blood of Shadows pg 21\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** none; **Price** 6,000 gp; **Weight** 2 lbs.
 

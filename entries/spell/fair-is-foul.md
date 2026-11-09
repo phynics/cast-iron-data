@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fair_is_foul", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "blood-of-the-coven"
+page = "21"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Spell resistance: yes
 Target: creature touched
 Descriptors: curse
 :::
-
-**Sources:** Blood of the Coven pg 21
 
 You curse the target with a disfiguring or painful mutation. The target gains one random deformity
 from the [Arcane Malignancies table](ref/trait/arcane-malignancies). The curse bestowed by this

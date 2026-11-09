@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dawnflower_chain_vest", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "250"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration and evocation"
 caster_level = "12th"
 +++
 
-**Sources:** Inner Sea Gods pg 250\
 **Aura** strong conjuration and evocation; **CL** 12th\
 **Slot** armor; **Price** 6,950 gp; **Weight** 25 lbs.
 

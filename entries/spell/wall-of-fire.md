@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wall_of_fire", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "365"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Spell resistance: yes
 Effect: opaque sheet of flame up to 20 ft. long/level or a ring of fire with a radius of up to 5 ft./two levels; either form 20 ft. high
 Descriptors: fire
 :::
-
-**Sources:** PRPG Core Rulebook pg 365
 
 An immobile, blazing curtain of shimmering violet fire springs into existence. One side of the wall,
 selected by you, sends forth waves of heat, dealing 2d4 points of fire damage to creatures within 10

@@ -6,12 +6,14 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hold_your_breath", path = "json/misc.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "108"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** PRPG Core Rulebook pg 108\
 You can hold your breath for a number of rounds equal to twice your Constitution score, but only if
 you do nothing other than take move actions or free actions. If you take a standard action or a
 full-round action (such as making an attack), the remainder of the duration for which you can hold

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/restoration-lesser" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "334"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Subschool: Healing
 :::
 
 ### Greater Restoration
-
-**Sources:** PRPG Core Rulebook pg 334
 
 This spell functions like [lesser restoration](ref/spell/restoration-lesser), except that it dispels
 all permanent and temporary negative levels afflicting the healed creature. Greater restoration also

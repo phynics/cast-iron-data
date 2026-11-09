@@ -6,6 +6,9 @@ source_ids = ["construct-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "diadem_of_control", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "construct-handbook"
+page = "16"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong enchantment"
 caster_level = "15th"
 +++
 
-**Sources:** Construct Handbook pg 16\
 **Aura** strong enchantment; **CL** 15th\
 **Slot** headband; **Price** 189,000 gp; **Weight** -
 

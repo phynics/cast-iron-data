@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_weapon_specialization", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "126"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "You can gain Greater Weapon Specialization multiple times. Its effect
 +++
 
 ## Greater Weapon Specialization (Combat)
-
-**Sources:** PRPG Core Rulebook pg 126
 
 Choose one type of weapon (including unarmed strike or grapple) for which you possess the Weapon
 Specialization feat. Your attacks with the chosen weapon are more devastating than normal.\

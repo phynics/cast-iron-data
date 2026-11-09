@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "46"
 
 [fields]
 kind = "archetype"
 replaces = ["Mutagen", "Poison resistance +2", "poison use", "poison resistance +4", "Swift poisoning", "Poison resistance +6", "Poison immunity", "Persistent mutagen"]
 +++
 
-**Sources:** Inner Sea Intrigue pg 46\
 Tinkerers constantly dabble in clockworking, creating special familiars that they regularly upgrade
 and with which they form bizarre bonds. Many worship [Brigh](ref/faith/brigh) and can be found
 throughout Golarion, especially in dwarven and gnome communities.

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "power_word_stun", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "324"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Target: one creature with 150 hp or less
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 324
 
 You utter a single word of power that instantly causes one creature of your choice to become
 stunned, whether the creature can hear the word or not. The duration of the spell depends on the

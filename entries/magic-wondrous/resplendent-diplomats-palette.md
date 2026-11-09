@@ -6,6 +6,9 @@ source_ids = ["down-the-blighted-path"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "resplendent_diplomats_palette", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "down-the-blighted-path"
+page = "42"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "minor enchantment and illusion"
 caster_level = "3rd"
 +++
 
-**Sources:** Down the Blighted Path pg 42\
 **Aura** minor enchantment and illusion; **CL** 3rd\
 **Slot** none; **Price** 5,500 gp; **Weight** 2 lbs.
 

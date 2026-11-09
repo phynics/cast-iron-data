@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "neutral_evil", path = "json/rules_basics01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "136"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 136
 
 I am the most important thing in creation. Do what you want, but never get caught. Conscience is for
 angels. Evil for evil's sake. Vice is its own reward. The sinner enjoys his life. Evil is just a

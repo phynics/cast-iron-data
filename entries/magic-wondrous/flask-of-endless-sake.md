@@ -6,6 +6,9 @@ source_ids = ["pathfinder-52-forest-of-spirits"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flask_of_endless_sake", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "pathfinder-52-forest-of-spirits"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint enchantment"
 caster_level = "5th"
 +++
 
-**Sources:** Pathfinder \#52: Forest of Spirits pg 60\
 **Aura** faint enchantment; **CL** 5th\
 **Slot** none; **Price** 4,000 gp; **Weight** 1 lb.
 

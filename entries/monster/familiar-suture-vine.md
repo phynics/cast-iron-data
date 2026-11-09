@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_suture_vine", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "207"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ barbs._
 
 **Senses:** Blood sense, Low-light vision
 
-**Sources:** Ultimate Wilderness pg 207\
 **Size:** tiny
 
 **Experience points:** 135

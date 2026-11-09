@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "polychrome_cover", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-darklands"
+page = "14"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate illusion"
 caster_level = "7th"
 +++
 
-**Sources:** Heroes of the Darklands pg 14\
 **Aura** moderate illusion; **CL** 7th\
 **Slot** none; **Price** 2,000 gp; **Weight** 4 lbs.
 

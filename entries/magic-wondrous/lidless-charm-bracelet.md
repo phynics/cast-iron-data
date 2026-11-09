@@ -6,6 +6,9 @@ source_ids = ["pathfinder-116-fangs-of-war"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lidless_charm_bracelet", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "pathfinder-116-fangs-of-war"
+page = "46"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "9th"
 +++
 
-**Sources:** Pathfinder \#116: Fangs of War pg 46\
 **Aura** moderate abjuration; **CL** 9th\
 **Slot** wrists; **Price** 10,000 gp; **Weight** 1 lb.
 

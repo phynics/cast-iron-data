@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "electricity_arc_trap", path = "json/traps.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "420"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 420
 
 **Electricity Arc Trap**
 

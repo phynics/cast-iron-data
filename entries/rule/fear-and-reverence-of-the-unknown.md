@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fear_and_reverence_of_the_unknown", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "221"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 221
 
 The Mysteries within Mysteries and Unseen Realms elements emphasize the feeling of otherworldly awe
 that the occult inspires by showing how the everyday world reacts to eerie phenomena. In occult

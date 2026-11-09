@@ -6,6 +6,9 @@ source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "linguists_codex_expanded", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "16"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "5 lbs. (expanded), 3 lbs. (standard)"
 
 ## Linguist's codex
 
-**Sources:** Adventurer's Armory 2 pg 16\
 **Price** 200 gp (expanded), 50 gp (standard); **Weight** 5 lbs. (expanded), 3 lbs. (standard)
 
 This leather-bound reference tome contains several alphabets used in the various languages of

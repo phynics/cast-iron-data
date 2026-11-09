@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/warpriest" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "128"
 
 [fields]
 kind = "archetype"
 replaces = ["Weapon and armor proficiencies", "Focus weapon", "Bonus feats gained at 3rd, 9th, and 15th levels", "Channel energy", "Bonus feat gained at 12th level"]
 +++
 
-**Sources:** Advanced Class Guide pg 128\
 Referred to as fanatics, lunatics, or obsessives, cultists see themselves as genuine devotees of
 their deity. And the hierarchs of those devotees, the cult leaders, are the most fanatical of them
 all. Cult leaders are known for turning reasonable hearts toward corrupted teachings and striking at

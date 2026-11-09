@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shining_child", path = "json/monsters38.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "245"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ emaciated child with clawed hands._
 
 **Senses:** Darkvision 120 ft.
 
-**Sources:** Bestiary 2 pg 245\
 **Subtype:** Evil, Extraplanar
 
 **Experience points:** 19,200

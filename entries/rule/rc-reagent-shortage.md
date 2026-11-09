@@ -6,12 +6,14 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rc_reagent_shortage", path = "json/rules_opt_magic01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "185"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder Unchained pg 185\
 You suddenly realize that you don't have enough stock of an important ingredient.
 
 ### Tasks

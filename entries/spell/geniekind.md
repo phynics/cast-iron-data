@@ -6,6 +6,9 @@ source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "geniekind", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "55"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: no
 Target: you
 Subschool: Polymorph
 :::
-
-**Sources:** Inner Sea Magic pg 55
 
 Keleshite wizards and clerics have always sought to emulate the genies that they bind. The geniekind
 spell is the result of attempts to gain the power and influence of these proud outsiders without

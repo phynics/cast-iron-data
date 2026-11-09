@@ -6,6 +6,9 @@ source_ids = ["pathfinder-127-crownfall"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "primogen_crown", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "pathfinder-127-crownfall"
+page = "57"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration and transmutation"
 caster_level = "20th"
 +++
 
-**Sources:** Pathfinder \#127: Crownfall pg 57\
 **Aura** strong abjuration and transmutation; **CL** 20th\
 **Slot** head; **Price** -; **Weight** -
 

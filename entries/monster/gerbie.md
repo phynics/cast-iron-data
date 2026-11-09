@@ -6,6 +6,9 @@ source_ids = ["the-first-world-realm-of-the-fey"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gerbie", path = "json/monsters11.json" },
 ]
+[[sources]]
+publication = "the-first-world-realm-of-the-fey"
+page = "62"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ of goodwill._
 
 **Size:** small
 
-**Sources:** The First World, Realm of the Fey pg 62\
 **Experience points:** 1,200
 
 **Armor class:** 17/15/13

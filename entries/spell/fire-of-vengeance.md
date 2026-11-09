@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fire_of_vengeance", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "222"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Spell resistance: no
 Target: one creature
 Descriptors: fire
 :::
-
-**Sources:** Advanced Player's Guide pg 222
 
 After casting this spell, the next creature you attack using your smite evil class ability is
 engulfed in holy flames that flare up when the target attacks someone other than you. If at any time

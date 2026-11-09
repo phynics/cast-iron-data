@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vicious_stomp", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "123"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever an opponent falls prone adjacent to you, that opponent provo
 +++
 
 ## Vicious Stomp (Combat)
-
-**Sources:** Ultimate Combat pg 123
 
 You take advantage of the moment to brutally kick an enemy when he is down.\
 **Prerequisites:** [Combat Reflexes](ref/feat/combat-reflexes),

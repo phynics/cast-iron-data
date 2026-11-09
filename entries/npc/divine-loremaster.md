@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divine_loremaster", path = "json/npcs8.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "224"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "8"
 
 **Challenge rating:** 8
 
-**Sources:** NPC Codex pg 224\
 **XP** 4,800\
 Halfling [cleric](ref/class/cleric) of [Abadar](ref/faith/abadar) 7/loremaster 2\
 LN Small humanoid (halfling)\

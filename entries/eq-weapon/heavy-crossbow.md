@@ -6,14 +6,21 @@ source_ids = ["ranged-tactics-toolbox", "core-rulebook", "ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heavy_crossbow", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "0"
+[[sources]]
+publication = "core-rulebook"
+page = "142"
+[[sources]]
+publication = "ultimate-equipment"
+page = "17"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "8 lbs."
 +++
-
-**Sources:** Ranged Tactics Toolbox pg 0, PRPG Core Rulebook pg 142, Ultimate Equipment pg 17
 
 You draw a heavy crossbow back by turning a small winch. Loading a heavy crossbow is a full-round
 action that provokes attacks of opportunity. A heavy crossbow fires crossbow bolts.

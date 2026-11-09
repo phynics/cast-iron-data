@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snare", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "344"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: none
 Spell resistance: no
 Target: touched nonmagical circle of vine, rope, or thong with a 2 ft. diameter + 2 ft./level
 :::
-
-**Sources:** PRPG Core Rulebook pg 344
 
 This spell enables you to make a snare that functions as a magic trap. The snare can be made from
 any supple vine, a thong, or a rope. When you cast snare upon it, the cord-like object blends with

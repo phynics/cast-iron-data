@@ -6,6 +6,9 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "detect_radiation", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "8"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Saving throw: none
 Spell resistance: no
 Area: spherical emanation, centered on you
 :::
-
-**Sources:** Technology Guide pg 8
 
 You detect radiation in the surrounding area. You see radioactive auras as a glowing green shimmer
 in the air that emanates from radioactive objects; the brighter and more intense the green, the more

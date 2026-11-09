@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/planar-adaptation" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "236"
 
 [fields]
 kind = "spell"
@@ -52,7 +55,5 @@ Spell resistance: yes (harmless)
 :::
 
 ### Mass Planar Adaptation
-
-**Sources:** Advanced Player's Guide pg 236
 
 This spell functions like [planar adaptation](ref/spell/planar-adaptation), except as noted above.

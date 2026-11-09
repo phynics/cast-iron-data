@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "playing_villains", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "93"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 93
 
 The time and effort that goes into the creation of a major villain is wasted if the villain does not
 get enough time with the player characters. Every GM knows the frustration of spending hours

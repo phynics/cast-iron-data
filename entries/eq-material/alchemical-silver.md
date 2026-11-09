@@ -6,13 +6,17 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alchemical_silver", path = "json/equipment_special_materials.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "48"
+[[sources]]
+publication = "core-rulebook"
+page = "155"
 
 [fields]
 kind = "item"
 category = "Special Materials"
 +++
-
-**Sources:** Ultimate Equipment pg 48, PRPG Core Rulebook pg 155
 
 A complex process involving metallurgy and alchemy can bond silver to a weapon made of steel so that
 it bypasses the [damage reduction](ref/rule/damage-reduction) of creatures such as lycanthropes.

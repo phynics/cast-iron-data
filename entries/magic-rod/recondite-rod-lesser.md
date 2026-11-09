@@ -6,6 +6,9 @@ source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "recondite_rod_lesser", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "8"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "17th"
 
 ## Recondite Rod
 
-**Sources:** Psychic Anthology pg 8\
 **Aura** strong (no school); **CL** 17th\
 **Slot** none; **Price** 5,000 gp (lesser \[up to 3rd-level spells\]), 18,000 gp (normal \[up to
 6th-level spells\]), 40,500 gp (greater \[all spells\]); **Weight** 5 lbs.

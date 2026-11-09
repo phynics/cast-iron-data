@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "faiths-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "squash_flat", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "216"
+[[sources]]
+publication = "faiths-of-corruption"
+page = "25"
 
 [fields]
 kind = "feat"
@@ -16,8 +22,6 @@ benefit = "Whenever you make a bull rush attack and your combat maneuver check e
 +++
 
 ## Squash Flat (Combat)
-
-**Sources:** Inner Sea Gods pg 216, Faiths of Corruption pg 25
 
 You can bull rush an opponent straight to the ground.\
 **Prerequisites:** [Improved Bull Rush](ref/feat/improved-bull-rush),

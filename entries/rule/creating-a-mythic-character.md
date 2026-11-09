@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "creating_a_mythic_character", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "10"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 10
 
 Unlike normal characters, those with mythic power have greater ties to the world around them and a
 greater place in legend. A skilled fighter might impact the history of a region, but a mythic

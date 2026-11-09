@@ -6,6 +6,9 @@ source_ids = ["familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "maulers_endurance", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "familiar-folio"
+page = "19"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Your familiar gains 2 hit points per level you possess."
 +++
 
 ## Mauler's Endurance (Familiar)
-
-**Sources:** Familiar Folio pg 19
 
 Your familiar is harder to kill than most.\
 **Prerequisites:** Must have a [familiar](ref/sidekick/familiar) with the

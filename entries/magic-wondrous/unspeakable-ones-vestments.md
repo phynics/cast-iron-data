@@ -6,6 +6,9 @@ source_ids = ["pathfinder-113-what-grows-within"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unspeakable_ones_vestments", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "pathfinder-113-what-grows-within"
+page = "33"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ aura = "strong varied"
 caster_level = "15th"
 +++
 
-**Sources:** Pathfinder \#113: What Grows Within pg 33\
 **Aura** strong varied; **CL** 15th\
 **Slot** body; **Weight** 1 lb.
 

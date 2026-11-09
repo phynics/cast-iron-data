@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "117"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["The alchemist's 4th-level discovery", "Poison resistance +6", "Pois
 alters = ["Bomb", "throw anything"]
 +++
 
-**Sources:** Advanced Race Guide pg 117\
 Fire bombers are exceptionally good at using bombs to burn creatures and blow things up, but are not
 quite as good at creating other types of bombs or extracts. A fire bomber has the following class
 features.

@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ambush_cauldron", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "164"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "12th"
 +++
 
-**Sources:** Monster Codex pg 164\
 **Aura** moderate transmutation; **CL** 12th\
 **Slot** none; **Price** 28,000 gp; **Weight** 60 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "litany_of_weakness", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "236"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: language-dependant
 :::
-
-**Sources:** Ultimate Combat pg 236
 
 Your litany proclaims your target weak, sapping its strength. The target is fatigued for 1 round.
 

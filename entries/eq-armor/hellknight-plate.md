@@ -6,6 +6,12 @@ source_ids = ["adventurers-guide", "inner-sea-world-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hellknight_plate", path = "json/equipment_armor.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "97"
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "291"
 
 [fields]
 kind = "item"
@@ -13,7 +19,6 @@ category = "Armor"
 weight = "50 lbs."
 +++
 
-**Sources:** Adventurer's Guide pg 97, Inner Sea World Guide pg 291\
 **Cost** 2,000 gp **Weight** 50 lbs.\
 **Armor Bonus** +9; **Max Dex Bonus** +1; **Armor Check Penalty** -5\
 **Arcane Spell Failure Chance** 35%; **Speed** 20 ft./15 ft.\

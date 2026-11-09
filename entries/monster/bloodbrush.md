@@ -6,6 +6,9 @@ source_ids = ["numeria-land-of-fallen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloodbrush", path = "json/monsters27.json" },
 ]
+[[sources]]
+publication = "numeria-land-of-fallen-stars"
+page = "47"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ wind, but of its own volition._
 
 **Size:** small
 
-**Sources:** Numeria, Land of Fallen Stars pg 47\
 **Experience points:** 600
 
 **Armor class:** 13/11/13

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-44-trial-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boruta", path = "json/monsters04.json" },
 ]
+[[sources]]
+publication = "pathfinder-44-trial-of-the-beast"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ gnarled roots grow, and tangles of vines hang from its moldering chest like spil
 
 **Type:** plant
 
-**Sources:** Pathfinder \#44: Trial of the Beast pg 84\
 **Experience points:** 6,400
 
 **Armor class:** 23/13/20

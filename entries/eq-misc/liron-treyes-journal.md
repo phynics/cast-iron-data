@@ -6,6 +6,9 @@ source_ids = ["dungeoneers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "liron_treyes_journal", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "dungeoneers-handbook"
+page = "15"
 
 [fields]
 kind = "item"
@@ -13,7 +16,6 @@ category = "Miscellaneous Equipment"
 price = "4,600 gp"
 +++
 
-**Sources:** Dungeoneer's Handbook pg 15\
 **Price** 4,600 gp; **Accuracy** +6\
 **Category** [Dungeon Guides](ref/rule/dungeon-guides)\
 **Associated Skill** Knowledge (religion) (DC 25)

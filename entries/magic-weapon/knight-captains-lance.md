@@ -6,6 +6,9 @@ source_ids = ["knights-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "knight_captains_lance", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "knights-of-the-inner-sea"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "6th"
 +++
 
-**Sources:** Knights of the Inner Sea pg 30\
 **Aura** moderate evocation; **CL** 6th\
 **Slot** none; **Price** 22,710 gp; **Weight** 13 lbs.
 

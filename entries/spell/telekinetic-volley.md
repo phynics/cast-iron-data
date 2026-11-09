@@ -6,6 +6,9 @@ source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "telekinetic_volley", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "31"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: none
 Spell resistance: no (object)
 Targets: up to one touched object per level weighing up to 5 lbs. each
 :::
-
-**Sources:** Ranged Tactics Toolbox pg 31
 
 The touched items levitate in your space. When you cast the spell and once per round thereafter, you
 can launch one item at a target of your choice as a standard action. The ranged attack is made as if

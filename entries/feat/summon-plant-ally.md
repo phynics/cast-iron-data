@@ -6,14 +6,15 @@ source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summon_plant_ally", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-wild"
+page = "23"
 
 [fields]
 kind = "feat"
 prerequisites = "Knowledge (nature) 1 rank, ability to cast summon nature's ally spells."
 benefit = "When casting a *summon nature's ally* spell, you gain access to the list of plant creatures below."
 +++
-
-**Sources:** Heroes of the Wild pg 23
 
 You can call plant creatures to your aid in battle.\
 **Prerequisites:** Knowledge (nature) 1 rank, ability to cast summon nature's ally spells.\

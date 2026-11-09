@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crown_of_the_iron_king", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "328"
 
 [fields]
 kind = "item"
@@ -16,8 +19,6 @@ slot = "head"
 aura = "strong enchantment"
 caster_level = "18th"
 +++
-
-**Sources:** Ultimate Equipment pg 328
 
 **Aura** strong enchantment; **CL** 18th\
 **Slot** head; **Price** -; **Weight** 3 lbs.

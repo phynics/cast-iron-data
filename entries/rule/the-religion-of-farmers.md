@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_religion_of_farmers", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "155"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 155
 
 Being so closely tied to the land naturally directs these cultures toward nature-based deities or
 the worship of nature itself. Druids and the gods of fertility receive sacrifices of thanks and

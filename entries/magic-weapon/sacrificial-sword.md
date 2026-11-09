@@ -6,6 +6,9 @@ source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sacrificial_sword", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "magical-marketplace"
+page = "11"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "11th"
 +++
 
-**Sources:** Magical Marketplace pg 11\
 **Aura** moderate conjuration; **CL** 11th\
 **Slot** none; **Price** 18,235 gp; **Weight** 4 lbs.
 

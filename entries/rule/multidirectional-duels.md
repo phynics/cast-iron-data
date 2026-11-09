@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "multidirectional_duels", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "181"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 181
 
 In unusual circumstances, a verbal duel might involve more than two independent duelists. In this
 case, the rules work the same with the following modification. First, when a duelist opens an

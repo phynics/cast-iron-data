@@ -6,14 +6,15 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "firedrake", path = "json/equipment_siege_engines.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "163"
 
 [fields]
 kind = "item"
 category = "Siege Engines"
 weight = "-"
 +++
-
-**Sources:** Ultimate Combat pg 163
 
 These large siege engines are typically wheeled or attached to vehicles that can transport them to
 the battlefield. This apparatus fires gouts of

@@ -6,6 +6,9 @@ source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spirit_call", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "advanced-class-origins"
+page = "31"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: none
 Spell resistance: no
 Effect: 100-ft.-radius spread centered on you
 :::
-
-**Sources:** Advanced Class Origins pg 31
 
 You call out to nature spirits associated with your spirit (not your wandering spirit) if you are a
 shaman, or your domain if you are a druid, beckoning them forth to pay attention to your current

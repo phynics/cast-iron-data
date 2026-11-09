@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "poisoned_egg", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "238"
+[[sources]]
+publication = "gods-and-magic"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -50,8 +56,6 @@ Spell resistance: no (object)
 Target: one egg
 Descriptors: poison
 :::
-
-**Sources:** Inner Sea Gods pg 238, Gods and Magic pg 29
 
 You transform the contents of a normal egg into a single dose of
 [small centipede poison](ref/eq-poison/small-centipede-poison). The poison reverts to a normal egg

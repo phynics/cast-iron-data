@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dispater", path = "json/faiths3.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "318"
 
 [fields]
 kind = "none"
@@ -15,7 +18,6 @@ kind = "none"
 
 **Sub:** Iron Lord
 
-**Sources:** Inner Sea Gods pg 318\
 **Monster Link** [Dispater](ref/monster/archdevil-dispater)
 
 ### Details

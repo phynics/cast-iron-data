@@ -6,6 +6,9 @@ source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dampening_infusion", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
+page = "22"
 
 [fields]
 kind = "class_option"
@@ -23,8 +26,6 @@ group = "kineticist-wild-talent"
 **Associated:** [Negative Blast](ref/kinetic/negative-blast), [Void Blast](ref/kinetic/void-blast)
 
 **Saving throw:** Will negates
-
-**Source:** Elemental Master's Handbook/22
 
 Your kinetic blast swirls with darkness, making it harder for your foes to see. This otherwise
 functions as [dazzling infusion](ref/kinetic/dazzling-infusion): If your blast hits a foe (and

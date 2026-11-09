@@ -6,6 +6,9 @@ source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burst_of_force", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "10"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: yes
 Area: 20-ft.-radius burst centered on you
 Descriptors: force
 :::
-
-**Sources:** Psychic Anthology pg 10
 
 With a burst of telekinetic force, you deal 1d6 points of force damage per caster level (maximum
 15d6 points of damage) to all other creatures in the affected area. A successful Fortitude save

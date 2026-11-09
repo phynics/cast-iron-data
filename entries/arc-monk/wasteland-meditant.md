@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/monk" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "64"
 
 [fields]
 kind = "archetype"
 replaces = ["Stunning fist", "Evasion", "Slow fall", "Improved evasion", "Quivering palm"]
 +++
 
-**Sources:** Ultimate Wilderness pg 64\
 Some monks journey to remote and isolated corners of the world to find serenity and a heightened
 sense of awareness.
 

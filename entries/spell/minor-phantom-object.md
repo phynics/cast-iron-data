@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/minor-creation" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "39"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Effect: illusory, unattended, nonmagical object of nonliving plant matter, up to
 Subschool: Shadow
 Descriptors: shadow
 :::
-
-**Sources:** Advanced Race Guide pg 39
 
 > _[Gnomes](ref/race/gnome) have access to the following spell._
 

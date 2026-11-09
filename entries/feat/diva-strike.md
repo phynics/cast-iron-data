@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "diva_strike", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "176"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using Diva Style, the first time you hit with a melee weapon in
 +++
 
 ## Diva Strike (Combat)
-
-**Sources:** Adventurer's Guide pg 176
 
 Those distracted by your performance leave themselves open to vicious attacks.\
 **Prerequisites:** Cha 15; [Combat Expertise](ref/feat/combat-expertise);

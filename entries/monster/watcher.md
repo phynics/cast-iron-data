@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "watcher", path = "json/monsters25.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "246"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ single red eye._
 
 **Senses:** See in darkness, True seeing
 
-**Sources:** Planar Adventures pg 246\
 **Experience points:** 614,400
 
 **Armor class:** 41/26/32

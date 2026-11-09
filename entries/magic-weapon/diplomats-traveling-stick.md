@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "diplomats_traveling_stick", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "24"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Melee Tactics Toolbox pg 24\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** none; **Price** 9,345 gp; **Weight** 4 lbs.
 

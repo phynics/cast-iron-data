@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mental_focus", path = "json/magic_enhancements.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "26"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "evocation"
 caster_level = "5th"
 +++
 
-**Sources:** Armor Master's Handbook pg 26\
 **Aura** evocation; **CL** 5th\
 **Slot** armor quality; **Price** +3,000 gp; **Weight** -
 

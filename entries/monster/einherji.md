@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "einherji", path = "json/monsters09.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ _Holding a massive battleaxe and shield, this tall, helmed warrior is grim and f
 
 **Senses:** Darkvision 60 ft., Deathwatch
 
-**Sources:** Bestiary 4 pg 84\
 **Subtype:** Extraplanar
 
 **Experience points:** 9,600

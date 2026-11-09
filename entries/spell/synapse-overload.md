@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "synapse_overload", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "187"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: yes
 Target: living creature touched
 Descriptors: mind-affecting
 :::
-
-**Sources:** Occult Adventures pg 187
 
 You cause the target's mind to unleash a vast overflowing torrent of information throughout the
 target's body, causing the target's synapses to violently trigger. The target takes 1d6 points of

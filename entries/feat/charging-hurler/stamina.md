@@ -6,11 +6,13 @@ source_ids = ["pathfinder-unchained"]
 relations = [
   { kind = "addon", target = "ref/feat/charging-hurler", label = "stamina" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "115"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder Unchained pg 115\
 When using this feat, you can spend 2 stamina points to end your movement within 50 feet of your
 target instead of 30 feet.

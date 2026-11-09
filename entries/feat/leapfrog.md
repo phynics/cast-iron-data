@@ -6,6 +6,9 @@ source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "leapfrog", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "people-of-the-river"
+page = "15"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When you spend a swift action to attempt a performance combat check a
 +++
 
 ## Leapfrog (Combat, Performance)
-
-**Sources:** People of the River pg 15
 
 You can use an opponent as a springboard.\
 **Prerequisites:** Acrobatics 3 ranks.\

@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "anchoring_bracers", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Sources:** Melee Tactics Toolbox pg 28\
 **Aura** moderate transmutation; **CL** 9th\
 **Slot** wrists; **Price** 30,000 gp; **Weight** 2 lbs.
 

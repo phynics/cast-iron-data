@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "teleportation_words", path = "json/rules_opt_magic03.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "184"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 184
 
 Teleportation words transport the targets to other places, or even other planes of existence.
 

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "breaker_of_barriers", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "208"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You gain a +2 bonus on Strength checks to break down doors, walls, da
 +++
 
 ## Breaker of Barriers (Combat)
-
-**Sources:** Inner Sea Gods pg 208
 
 You see it as your sacred duty to destroy all obstacles.\
 **Prerequisites:** Str 17, worshiper of [Rovagug](ref/faith/rovagug).\

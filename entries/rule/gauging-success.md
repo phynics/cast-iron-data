@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gauging_success", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "171"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 171
 
 While designing the challenges and goals of a social conflict, you'll need to decide the means by
 which you'll measure the PCs' success. Listed below are three different ways to gauge success in

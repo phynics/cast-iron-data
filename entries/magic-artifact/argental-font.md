@@ -6,6 +6,9 @@ source_ids = ["pathfinder-40-vaults-of-madness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "argental_font", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "pathfinder-40-vaults-of-madness"
+page = "34"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration (healing)"
 caster_level = "18th"
 +++
 
-**Sources:** Pathfinder \#40: Vaults of Madness pg 34\
 **Aura** strong conjuration (healing); **CL** 18th\
 **Slot** none; **Price** -; **Weight** 2,000 lbs.
 

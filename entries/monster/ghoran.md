@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghoran", path = "json/monsters11.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "119"
+[[sources]]
+publication = "inner-sea-bestiary"
+page = "14"
 
 [fields]
 kind = "creature"
@@ -45,7 +51,6 @@ brilliant flower petals._
 
 **Type:** plant
 
-**Sources:** Bestiary 5 pg 119, Inner Sea Bestiary pg 14\
 **Experience points:** 400
 
 **Armor class:** 13/11/12

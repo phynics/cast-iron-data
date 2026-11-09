@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/paladin" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "86"
 
 [fields]
 kind = "archetype"
 replaces = ["Smite evil", "Aura of courage", "Aura of resolve", "Aura of justice", "Holy champion"]
 +++
 
-**Sources:** Advanced Race Guide pg 86\
 A tranquil guardian is a missionary of peace and tranquility, a soothing voice of succor in a
 violent and dangerous world. A tranquil guardian gains the following class features.
 

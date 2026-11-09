@@ -6,12 +6,12 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oni", path = "json/monster_families2.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Bestiary 3
 
 [Oni](ref/subtype/oni) are a race of evil spirits, native to the Material Plane, that manifest
 physical bodies based upon the shapes and desires of humanoid mortals. In pure spirit form, an oni

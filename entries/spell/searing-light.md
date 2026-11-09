@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "searing_light", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "338"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: none
 Spell resistance: yes
 Effect: ray
 :::
-
-**Sources:** PRPG Core Rulebook pg 338
 
 Focusing divine power like a ray of the sun, you project a blast of light from your open palm. You
 must succeed on a ranged touch attack to strike your target. A creature struck by this ray of light

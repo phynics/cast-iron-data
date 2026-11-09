@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/magic-vestment" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "247"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: none
 Spell resistance: no
 Target: armor or shield touched
 :::
-
-**Sources:** Ultimate Magic pg 247
 
 This functions as [magic vestment](ref/spell/magic-vestment), except it only affects armor or a
 shield you are wearing or carrying. If the armor or shield is worn or carried by anyone other than

@@ -6,13 +6,14 @@ source_ids = ["qadira-jewel-of-the-east"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shissah", path = "json/class_ability_druid_companions.json" },
 ]
+[[sources]]
+publication = "qadira-jewel-of-the-east"
+page = "63"
 
 [fields]
 kind = "class_option"
 group = "animal-companion"
 +++
-
-**Sources:** Qadira, Jewel of the East pg 63
 
 **Companion Type**
 

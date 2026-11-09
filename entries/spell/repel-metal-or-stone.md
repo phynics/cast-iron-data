@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "repel_metal_or_stone", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "333"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Spell resistance: no
 Area: 60-ft. line from you
 Descriptors: earth
 :::
-
-**Sources:** PRPG Core Rulebook pg 333
 
 This spell creates waves of invisible energy that roll forth from you. All metal or stone objects in
 the path of the spell are pushed away from you to the limit of the range. Fixed metal or stone

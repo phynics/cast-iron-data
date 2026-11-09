@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weaken_powder", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "249"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: Will negates (object)
 Spell resistance: yes (object)
 Target: 1 loaded firearm
 :::
-
-**Sources:** Ultimate Combat pg 249
 
 Ammunition in the target firearm generates less of an explosive charge when fired. With such
 ammunition, the firearm's range increment is halved and the firer takes a -2 penalty on damage

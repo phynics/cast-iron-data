@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/invisibility", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "99"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 99
 
 The invisible target can't be detected with [detect magic](ref/spell/detect-magic) or other spells
 that detect magic auras. The invisibility can't be penetrated, revealed, or dispelled by spells of

@@ -6,6 +6,9 @@ source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soulblade", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "haunted-heroes-handbook"
+page = "4"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "As a standard action, you can make a weapon attack against a haunt. I
 +++
 
 ## Soulblade (Combat)
-
-**Sources:** Haunted Heroes Handbook pg 4
 
 You can't always count on having a source of positive energy to fight haunts, and have mastered an
 eerie talent for briefly focusing your own life energy into your weapons.\

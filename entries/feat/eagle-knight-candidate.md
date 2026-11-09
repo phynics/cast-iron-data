@@ -6,6 +6,9 @@ source_ids = ["andoran-spirit-of-liberty"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eagle_knight_candidate", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "andoran-spirit-of-liberty"
+page = "13"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Choose one branch of the Eagle Knights you hope to join. You gain a s
 +++
 
 ## Eagle Knight Candidate (Achievement)
-
-**Sources:** Andoran, Spirit of Liberty pg 13
 
 You have proven your courage and skill to both the [Eagle Knights](ref/rule/aff-vangard) and the
 leaders of Andoran.\

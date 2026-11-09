@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "addiction", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "236"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 236
 
 Anytime a character takes a drug he must make a saving throw, noted in the drug's description, to
 resist becoming addicted. If a character makes the save, he is not addicted and the effects of the

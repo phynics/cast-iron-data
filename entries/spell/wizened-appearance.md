@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wizened_appearance", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "229"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Spell resistance: yes
 Target: creature touched
 Subschool: Polymorph
 :::
-
-**Sources:** Ultimate Intrigue pg 229
 
 You polymorph your target to look like an older version of itself. You select how much older (for
 example, -10 years older- or "as an adult"). You can't otherwise change the target's appearance

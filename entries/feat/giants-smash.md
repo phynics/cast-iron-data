@@ -6,6 +6,9 @@ source_ids = ["pathfinder-91-battle-of-bloodmarch-hills"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giants_smash", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "pathfinder-91-battle-of-bloodmarch-hills"
+page = "69"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you attack an inanimate, unattended object, you ignore the first
 +++
 
 ## Giant's Smash (Combat)
-
-**Sources:** Pathfinder \#91: Battle of Bloodmarch Hills pg 69
 
 Obstacles do not concern you.\
 **Prerequisites:** Str 13, [Power Attack](ref/feat/power-attack), giant subtype.\

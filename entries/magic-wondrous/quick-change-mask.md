@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quick_change_mask", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "250"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint illusion"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Intrigue pg 250\
 **Aura** faint illusion; **CL** 5th\
 **Slot** head; **Price** 650 gp; **Weight** -
 

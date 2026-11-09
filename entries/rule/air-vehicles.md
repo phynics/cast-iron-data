@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "air_vehicles", path = "json/rules_rulesets02.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "186"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 186
 
 Air vehicles fly through the air. They are usually propelled by air currents, alchemical engines,
 magic, or in the case of larger air vehicles, a mix of air currents and alchemical engines or magic.

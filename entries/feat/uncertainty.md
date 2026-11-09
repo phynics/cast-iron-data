@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "uncertainty", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "29"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "A shaman or witch with this [blood hex](ref/rule/feats-class) can use
 +++
 
 ## Uncertainty (Blood Hex)
-
-**Sources:** Magic Tactics Toolbox pg 29
 
 When you draw a foe's blood in combat, that creature begins to doubt its skills.\
 **Prerequisites:** Int 13; Bluff, Diplomacy, and Intimidate 5 ranks.\

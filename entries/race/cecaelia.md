@@ -6,12 +6,14 @@ source_ids = ["blood-of-the-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cecaelia", path = "json/races.json" },
 ]
+[[sources]]
+publication = "blood-of-the-sea"
+page = "6-7"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Blood of the Sea pg. 6-7\
 Cecaelias are curious and social half-octopus creatures with a love of novelty. A short-lived race,
 cecaelias search for every bit of enjoyment they can draw from life. They take pleasure in new
 experiences, from trying new land fare to meeting a previously unknown race and exploring unknown

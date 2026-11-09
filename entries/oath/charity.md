@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charity", path = "json/class_ability_oaths.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "62"
 
 [fields]
 kind = "class_option"
@@ -13,7 +16,6 @@ group = "paladin-oath"
 replaces = ["Divine bond"]
 +++
 
-**Sources:** Ultimate Magic pg 62\
 Charity is more than just giving money to a temple or a cause - it is about the necessity of
 sacrifice to help others. Those who take this oath dedicate their lives to protecting those who
 can't protect themselves and giving to those who are in need. They are generous to a fault, the most

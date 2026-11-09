@@ -6,12 +6,13 @@ source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wilderness_teams", path = "json/rules_subsystems02.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-wild"
+page = "15"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Heroes of the Wild pg 15
 
 These teams help wilderness outposts run smoothly.
 

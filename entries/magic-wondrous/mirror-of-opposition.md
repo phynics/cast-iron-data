@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mirror_of_opposition", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "312"
+[[sources]]
+publication = "core-rulebook"
+page = "524"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong necromancy"
 caster_level = "15th"
 +++
 
-**Sources:** Ultimate Equipment pg 312, PRPG Core Rulebook pg 524\
 **Aura** strong necromancy; **CL** 15th\
 **Slot** none; **Price** 92,000 gp; **Weight** 45 lbs.
 

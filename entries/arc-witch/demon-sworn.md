@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/witch" },
 ]
+[[sources]]
+publication = "heroes-of-the-darklands"
+page = "16"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["6th-level hex"]
 alters = ["Patron spells", "Hex", "major hex", "grand hex"]
 +++
 
-**Sources:** Heroes of the Darklands pg 16\
 The drow are among the best known creatures on Golarion who were "saved" by demonic intervention,
 but they're far from the only ones. In the depths of the Darklands, as well as similarly
 inhospitable locales on Golarion, many seek the succor of demons as a means of survival. Such pacts

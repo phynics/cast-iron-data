@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/hostile-juxtaposition" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "231"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Subschool: Teleportation
 :::
 
 ### Greater Hostile Juxtaposition
-
-**Sources:** Ultimate Combat pg 231
 
 This spell functions like [hostile juxtaposition](ref/spell/hostile-juxtaposition), except you can
 target one creature for every four caster levels you have or you can target a single creature that

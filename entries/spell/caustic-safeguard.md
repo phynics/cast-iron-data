@@ -6,6 +6,9 @@ source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "caustic_safeguard", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "agents-of-evil"
+page = "30"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: no
 Target: object touched
 Descriptors: acid
 :::
-
-**Sources:** Agents of Evil pg 30
 
 You imbue a single object with an acidic protective ward. Any creature other than you that touches
 the object takes 1d6 points of acid damage per 2 caster levels (maximum 10d6; Reflex half). Each

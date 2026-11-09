@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bloodrager" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "84"
 
 [fields]
 kind = "archetype"
 alters = ["Bloodline"]
 +++
 
-**Sources:** Advanced Class Guide pg 84\
 While bloodrage powers come from the very essence of a bloodrager's being and are often strict and
 immutable, some bloodragers tap into ancient traditions and primitive wisdom to enhance their rages
 with something more primal. The primalist mixes his bloodline with more traditional rage powers.

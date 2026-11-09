@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "echo", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "229"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Spell resistance: yes
 Area: one 10-ft. cube/level (S)
 Subschool: Figment
 :::
-
-**Sources:** Ultimate Wilderness pg 229
 
 You cause a sound heard in the target area up to 1 round ago and lasting up to 1 round in duration
 to repeat at a regular interval. The original sound need not have come from the area, but it echoes

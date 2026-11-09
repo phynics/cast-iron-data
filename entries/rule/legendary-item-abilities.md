@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "legendary_item_abilities", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "171"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 171
 
 When a mythic creature creates a legendary item (using the
 [legendary item universal path ability](ref/rule/universal-path-abilities), 1st tier), the item can

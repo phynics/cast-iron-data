@@ -6,6 +6,8 @@ source_ids = ["distant-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "symphony_of_the_dark_prince", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "distant-realms"
 
 [fields]
 kind = "class_option"
@@ -13,8 +15,6 @@ group = "bardic-masterpiece"
 +++
 
 ## Symphony of the Dark Prince (Sing)
-
-**Sources:** Distant Realms
 
 You contort your vocal cords to produce an eerie, melodious song about the wonders of
 [Dispater's](ref/faith/dispater) court.

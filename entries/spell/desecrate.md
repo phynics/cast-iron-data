@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "desecrate", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "265"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: yes
 Area: 20-ft.-radius emanation
 Descriptors: evil
 :::
-
-**Sources:** PRPG Core Rulebook pg 265
 
 This spell imbues an area with negative energy. The DC to resist negative channeled energy within
 this area gains a +3 profane bonus. Every undead creature entering a desecrated area gains a +1

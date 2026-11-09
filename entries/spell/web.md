@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "web", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "368"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 Effect: webs in a 20-ft.-radius spread
 Subschool: Creation
 :::
-
-**Sources:** PRPG Core Rulebook pg 368
 
 Web creates a many-layered mass of strong, sticky strands. These strands trap those caught in them.
 The strands are similar to spiderwebs but far larger and tougher. These masses must be anchored to

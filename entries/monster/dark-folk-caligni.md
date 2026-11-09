@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dark_folk_caligni", path = "json/monsters29.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "66"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ _Beneath ragged shreds, this lean figure's chalky skin darkens to charred hues a
 
 **Senses:** See in darkness
 
-**Sources:** Bestiary 5 pg 66\
 **Subtype:** Dark folk
 
 **Experience points:** 200

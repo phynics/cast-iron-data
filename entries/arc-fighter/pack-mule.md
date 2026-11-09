@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/fighter" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "26"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["The bonus feat gained at 1st level", "Bravery", "Armor training 1 t
 alters = ["The fighter's skill ranks per level"]
 +++
 
-**Sources:** Black Markets pg 26\
 Pack mules carry heavy loads with ease and small packages with discretion. Unlike most couriers or
 porters, pack mules are also trained combatants able to defend their charges should the need arise.
 Many are willing to transport illegal goods, serving as runners for smugglers or muscle for bandits.

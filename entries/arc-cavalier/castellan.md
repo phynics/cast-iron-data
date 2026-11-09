@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cavalier" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "9"
 
 [fields]
 kind = "archetype"
 replaces = ["Mount", "Cavalier's charge", "Expert trainer", "Mighty charge", "Demanding challenge", "Supreme charge"]
 +++
 
-**Sources:** Melee Tactics Toolbox pg 9\
 A castellan is a cavalier who dedicates himself to the defense of a castle or walled city. Though
 not as celebrated as the cavaliers who ride forth to take on distant foes, the castellan is no less
 brave or important, for the castellan and his allies are the last line of defense for those who

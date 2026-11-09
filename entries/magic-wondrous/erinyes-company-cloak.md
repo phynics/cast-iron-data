@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "erinyes_company_cloak", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "86"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Sources:** Adventurer's Guide pg 86\
 **Aura** moderate transmutation; **CL** 10th\
 **Slot** shoulders; **Price** 22,000 gp; **Weight** 3 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heros_hauberk", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "211"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration"
 caster_level = "13th"
 +++
 
-**Sources:** Advanced Class Guide pg 211\
 **Aura** strong abjuration; **CL** 13th\
 **Slot** armor; **Price** 16,600 gp; **Weight** 25 lbs.
 

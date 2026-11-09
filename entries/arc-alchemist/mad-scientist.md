@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "45"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["2nd-level discovery", "4th-level discovery"]
 alters = ["Alchemy", "Mutagen"]
 +++
 
-**Sources:** Horror Adventures pg 45\
 The mad scientist's colleagues laughed at her insights, mocked her theories, and hounded her from
 the halls of academia, simply because they were too weak and frightened to understand her work. They
 thought she was finished. They were wrong.

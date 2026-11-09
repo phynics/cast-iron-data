@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/witch" },
 ]
+[[sources]]
+publication = "blood-of-the-sea"
+page = "22"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["8th-level hex"]
 alters = ["Familiar", "Hex"]
 +++
 
-**Sources:** Blood of the Sea pg 22\
 Coral witches inhabit shallow coasts and reefs where great masses of coral grow. They use their
 magic to fashion familiars from living coral and emulate the unyielding tenacity of these durable
 marine organisms. Many coral witches actively patrol and protect their home reefs from predators and

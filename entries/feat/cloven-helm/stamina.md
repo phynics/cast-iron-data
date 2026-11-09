@@ -6,12 +6,14 @@ source_ids = ["pathfinder-unchained"]
 relations = [
   { kind = "addon", target = "ref/feat/cloven-helm", label = "stamina" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "115"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder Unchained pg 115\
 When you are threatened with a critical hit, you can spend up to 5 stamina points. You gain an
 additional bonus to AC against the critical confirmation roll equal to the number of stamina points
 you spent.

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "134"
 
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Trap sense"]
 +++
 
-**Sources:** Advanced Player's Guide pg 134\
 Some consider poisoning an evil act. The poisoner knows poison is just a tool toward an end, and is
 no different than any other weapon. Some poisoners see themselves as great equalizers, as they are
 able to craft weapons that the weakest of creatures can wield to devastating effect, but most have

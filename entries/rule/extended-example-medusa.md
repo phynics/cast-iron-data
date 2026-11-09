@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extended_example_medusa", path = "json/rules_adv_gm03.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "242"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 242
 
 This long-form example gives a detailed breakdown of monster creation from start to finish,
 resulting in a new medusa archer. This illustrates the steps of the process, and shows how to think

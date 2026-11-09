@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weapon_size", path = "json/misc.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "141"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 141
 
 **Weapon Size:** Every weapon has a size category. This designation indicates the size of the
 creature for which the weapon was designed.

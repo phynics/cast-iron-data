@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "14"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["4th-level discovery"]
 alters = ["Discovery", "Discovery"]
 +++
 
-**Sources:** Magic Tactics Toolbox pg 14\
 Alchemists are often drawn to the Mana Wastes to study the strange energies and interactions that
 can be found there. Though many overeager alchemists ultimately disappear during research
 expeditions, more cautious scholars of alchemy in Alkenstar are content to simply read the notes

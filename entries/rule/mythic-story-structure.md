@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mythic_story_structure", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "119"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 119
 
 Campaigns and adventures come in many forms, taking shape organically with the whims of the players
 and the needs of the Game Master, but the key to running a successful mythic campaign or adventure

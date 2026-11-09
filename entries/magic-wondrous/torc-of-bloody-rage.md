@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "torc_of_bloody_rage", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "237"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Sources:** Advanced Class Guide pg 237\
 **Aura** moderate transmutation; **CL** 7th\
 **Slot** neck; **Price** 8,000 gp; **Weight** 1 lb.
 

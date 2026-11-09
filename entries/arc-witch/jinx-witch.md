@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/witch" },
 ]
+[[sources]]
+publication = "blood-of-the-beast"
+page = "25"
 
 [fields]
 kind = "archetype"
 replaces = ["2nd-level hex", "6th-level hex", "10th-level hex"]
 +++
 
-**Sources:** Blood of the Beast pg 25\
 The common perception of tengus as good luck charms has its roots in the first great empire to unify
 Tian Xia 7,000 years ago, when tengus were superstitious and skittish folk inhabiting the
 continent's central mountain ranges. Jinx witches specialize in calling down subtle misfortunes and

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "water_walk", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "368"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: yes (harmless)
 Targets: one touched creature/level
 Descriptors: water
 :::
-
-**Sources:** PRPG Core Rulebook pg 368
 
 The transmuted creatures can tread on any liquid as if it were firm ground. Mud, oil, snow,
 quicksand, running water, ice, and even lava can be traversed easily, since the subjects' feet hover

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_seven_lovely_colors", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "259"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration and illusion"
 caster_level = "7th"
 +++
 
-**Sources:** Inner Sea Gods pg 259\
 **Aura** faint abjuration and illusion; **CL** 7th\
 **Slot** ring; **Price** 4,000 gp; **Weight** -
 

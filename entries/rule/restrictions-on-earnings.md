@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "restrictions_on_earnings", path = "json/rules_subsystems02.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "93"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 93
 
 Whether a unit generates its listed capital depends on your intentions for the building or
 organization, and should follow common sense. For example, if you construct a building with a Bar,

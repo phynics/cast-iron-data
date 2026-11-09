@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "leaving_youth_behind", path = "json/rules_adv_pc01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "194"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 194
 
 Unlike higher age categories, there are two common ways a young character might advance into
 adulthood.

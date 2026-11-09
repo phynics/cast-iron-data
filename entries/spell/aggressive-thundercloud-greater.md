@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/aggressive-thundercloud" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "172"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Descriptors: electricity
 :::
 
 ### Greater Aggressive Thundercloud
-
-**Sources:** Advanced Class Guide pg 172
 
 This spell functions as [aggressive thundercloud](ref/spell/aggressive-thundercloud), except it
 deals 6d6 points of electricity damage to any creature it strikes. The first creature damaged by the

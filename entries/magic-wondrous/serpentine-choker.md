@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "serpentine_choker", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "201"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment and necromancy"
 caster_level = "11th"
 +++
 
-**Sources:** Monster Codex pg 201\
 **Aura** moderate enchantment and necromancy; **CL** 11th\
 **Slot** neck; **Price** 16,000 gp; **Weight** -
 

@@ -6,6 +6,12 @@ source_ids = ["adventurers-guide", "path-of-the-hellknight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hellknight_barding", path = "json/equipment_armor.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "96"
+[[sources]]
+publication = "path-of-the-hellknight"
+page = "63"
 
 [fields]
 kind = "item"
@@ -14,7 +20,6 @@ price = "varies"
 weight = "varies"
 +++
 
-**Sources:** Adventurer's Guide pg 96, Path of the Hellknight pg 63\
 **Price** varies; **Weight** varies
 
 [Hellknights](ref/rule/aff-lawknights) often equip their steeds with armor similar to their own.

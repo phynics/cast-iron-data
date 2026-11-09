@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magister", path = "json/rules_campaign_types04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "202"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 202
 
 The Magister guides the kingdom's higher learning and magic, promoting education and knowledge among
 the citizens and representing the interests of magic, science, and academia. In most kingdoms, the

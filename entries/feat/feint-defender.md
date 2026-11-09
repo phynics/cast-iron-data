@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "feint_defender", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "18"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You add your shield's bonus to AC to the DC of feint attempts against
 +++
 
 ## Feint Defender (Combat, Shield Mastery)
-
-**Sources:** Armor Master's Handbook pg 18
 
 You use your shield to conceal your own body language and keep your attention focused.\
 **Prerequisites:** [Shield Focus](ref/feat/shield-focus), base attack bonus +6 or fighter level 4th,

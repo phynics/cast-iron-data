@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "net_maneuvering", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "111"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "In melee, you can use a net to trip or disarm opponents instead of en
 +++
 
 ## Net Maneuvering (Combat)
-
-**Sources:** Ultimate Combat pg 111
 
 With sweeping movements and brute force, you can use your net to put foes at a disadvantage.\
 **Prerequisites:** [Exotic Weapon Proficiency](ref/feat/exotic-weapon-proficiency) (net),

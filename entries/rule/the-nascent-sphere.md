@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_nascent_sphere", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "138"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 138
 
 The heroes come upon a portion of the world left unmade. Whether an oversight of the creator,
 natural forces of the world, or unique arcane phenomena, this zone is a roiling mass of primeval

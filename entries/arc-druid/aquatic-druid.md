@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "98"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Woodland stride", "Trackless step", "Resist nature's lure", "Venom 
 alters = ["Wild empathy", "Wild shape"]
 +++
 
-**Sources:** Advanced Player's Guide pg 98\
 Shepherds of the lakes and seas, aquatic druids guard ecosystems ranging from shallows streams to
 deep ocean trenches, ministering to their residents and communing with the tides.
 

@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devastating_assault", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "22"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "As a full-round action, you can bat aside all of your foe's defenses 
 +++
 
 ## Devastating Assault (Weapon Mastery)
-
-**Sources:** Weapon Master's Handbook pg 22
 
 You can hammer at a foe to smash through its defenses.\
 **Prerequisites:** Base attack bonus +9, weapon training class feature with a melee weapon.\

@@ -6,14 +6,15 @@ source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "haunted", path = "json/spell_definitions.json" },
 ]
+[[sources]]
+publication = "haunted-heroes-handbook"
+page = "26"
 
 [fields]
 kind = "none"
 +++
 
 ## Haunted (subschool of magic)
-
-**Sources:** Haunted Heroes Handbook pg 26
 
 These spells manipulate the lingering spiritual energy suffusing an area or surrounding an object
 into semi-autonomous magical effects. Haunted spells function like regular spells, but those with

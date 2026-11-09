@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "pathfinder-16-endless-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fleshwarp_irnakurse", path = "json/monsters31.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "105"
+[[sources]]
+publication = "pathfinder-16-endless-night"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ cacophony of slapping flesh._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 4 pg 105, Pathfinder \#16: Endless Night pg 86\
 **Experience points:** 6,400
 
 **Armor class:** 23/12/20

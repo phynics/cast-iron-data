@@ -6,13 +6,15 @@ source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "peafowl", path = "json/class_ability_aspects.json" },
 ]
+[[sources]]
+publication = "heroes-of-golarion"
+page = "13"
 
 [fields]
 kind = "class_option"
 group = "shifter-aspect"
 +++
 
-**Sources:** Heroes of Golarion pg 13\
 Peafowl are popular ornamental birds due to their spectacular colors, and they are often symbols of
 royalty or the divine.
 

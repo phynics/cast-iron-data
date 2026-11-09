@@ -6,6 +6,9 @@ source_ids = ["pathfinder-77-herald-of-the-ivory-labyrinth"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "minotaur_labyrinth_minotaur", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "pathfinder-77-herald-of-the-ivory-labyrinth"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ mask that covers most of its face._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#77: Herald of the Ivory Labyrinth pg 90\
 **Subtype:** Chaotic, Evil, Extraplanar
 
 **Experience points:** 76,800

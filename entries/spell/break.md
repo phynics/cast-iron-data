@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide", "ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "break", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "207"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: Fortitude negates (object)
 Spell resistance: yes (object)
 Target: one Medium or smaller object
 :::
-
-**Sources:** Advanced Player's Guide pg 207
 
 You can attempt to break or at least damage any one Medium or smaller object within range. If the
 target fails its Fortitude saving throw, it gains the broken condition. If cast on a broken item,

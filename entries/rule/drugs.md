@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drugs", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "236"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 236
 
 Drugs are alchemical items that grant effects to those who make use of them. What sets them apart
 from similar items is that a drug's effects manifest as both a short term (usually beneficial)

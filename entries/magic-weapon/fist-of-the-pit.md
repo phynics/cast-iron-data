@@ -6,6 +6,9 @@ source_ids = ["inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fist_of_the_pit", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "inner-sea-temples"
+page = "12"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "6th"
 +++
 
-**Sources:** Inner Sea Temples pg 12\
 **Aura** moderate conjuration; **CL** 6th\
 **Slot** none; **Price** 9,305 gp; **Weight** 1 lb.
 

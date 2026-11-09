@@ -6,13 +6,15 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychic", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "125"
 
 [fields]
 kind = "class_option"
 group = "sorcerer-bloodline"
 +++
 
-**Sources:** Occult Adventures pg 125\
 Psychic power runs thorough your blood, whether it be from a familial predisposition to psychic
 power or exposure to a powerful psychic phenomenon. Whatever the source of this power, your mind is
 a dangerous weapon.

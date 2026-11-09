@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "molten_orb", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "188"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: yes
 Effect: ranged attack
 Descriptors: earth, fire
 :::
-
-**Sources:** Advanced Class Guide pg 188
 
 You create a fist-sized, red-hot ball of molten metal that you immediately hurl as a splash weapon.
 A direct hit deals 2d6 points of fire damage. Every creature within 5 feet of where the ball hits

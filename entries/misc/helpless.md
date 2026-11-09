@@ -6,12 +6,14 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "helpless", path = "json/misc.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "567"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** PRPG Core Rulebook pg 567\
 A helpless character is [paralyzed](ref/rule/paralyzed), held, bound, sleeping,
 [unconscious](ref/misc/unconscious), or otherwise completely at an opponent's mercy. A helpless
 target is treated as having a Dexterity of 0 (-5 modifier). Melee attacks against a helpless target

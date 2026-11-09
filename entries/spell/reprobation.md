@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reprobation", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "234"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: none
 Spell resistance: yes
 Target: one creature of your faith
 :::
-
-**Sources:** Ultimate Magic pg 234
 
 You cast the target out of your religion as a curse and punishment for acts or misdeeds against the
 tenets of your faith. This has three effects.

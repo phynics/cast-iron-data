@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blunt_blade", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "28"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "If a shaman or witch uses this [blood hex](ref/rule/feats-class), the
 +++
 
 ## Blunt Blade (Blood Hex)
-
-**Sources:** Magic Tactics Toolbox pg 28
 
 With a single curse, you make your rival less fearsome in combat.\
 **Prerequisites:** Int 13, base attack bonus +6, Use Magic Device 1 rank.\

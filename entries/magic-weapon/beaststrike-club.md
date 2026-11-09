@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beaststrike_club", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "150"
+[[sources]]
+publication = "advanced-players-guide"
+page = "289"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate transmutation"
 caster_level = "6th"
 +++
 
-**Sources:** Ultimate Equipment pg 150, Advanced Player's Guide pg 289\
 **Aura** moderate transmutation; **CL** 6th\
 **Slot** none; **Price** 7,300 gp; **Weight** 3 lbs.
 

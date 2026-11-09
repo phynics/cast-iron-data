@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/hunter" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "64"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Precise companion", "Hunter tactics", "the hunter's bonus teamwork 
 alters = ["Animal companion", "Animal focus"]
 +++
 
-**Sources:** Ultimate Intrigue pg 64\
 While most hunters find themselves at ease in the wildest parts of the world, courtly hunters
 instead make their homes in cultured urban environments. They and their animal companions are more
 refined than typical hunters, using their skills to navigate the winding paths of courtly intrigue

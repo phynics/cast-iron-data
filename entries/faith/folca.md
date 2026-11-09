@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "folca", path = "json/faiths3.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "318"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Folca**
 
 **Sub:** The Gaunt Stranger
-
-**Sources:** Inner Sea Gods pg 318
 
 ### Details
 

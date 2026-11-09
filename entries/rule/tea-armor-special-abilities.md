@@ -6,12 +6,13 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tea_armor_special_abilities", path = "json/rules_adv_gm05.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "117"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Equipment pg 117
 
 ### Table 3-3: Armor Special Abilities
 

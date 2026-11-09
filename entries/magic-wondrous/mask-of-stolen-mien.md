@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mask_of_stolen_mien", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "248"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Intrigue pg 248\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** head; **Price** 17,200 gp; **Weight** 1/2 lb.
 

@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "turul", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "256"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _Flickers of light and energy radiate from this awe-inspiring, bird-like creatur
 
 **Senses:** Darkvision 60 ft., Detect magic, See invisibility
 
-**Sources:** Bestiary 5 pg 256\
 **Subtype:** Extraplanar
 
 **Experience points:** 204,800

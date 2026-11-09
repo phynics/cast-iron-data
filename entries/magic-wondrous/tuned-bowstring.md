@@ -6,6 +6,9 @@ source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tuned_bowstring", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate illusion"
 caster_level = "7th"
 +++
 
-**Sources:** Ranged Tactics Toolbox pg 29\
 **Aura** moderate illusion; **CL** 7th\
 **Slot** none; **Price** 18,000 gp; **Weight** -
 

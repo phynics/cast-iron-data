@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "veil", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "364"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Targets: one or more creatures, no two of which can be more than 30 ft. apart
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** PRPG Core Rulebook pg 364
 
 You instantly change the appearance of the subjects and then maintain that appearance for the
 spell's duration. You can make the subjects appear to be anything you wish. The subjects look, feel,

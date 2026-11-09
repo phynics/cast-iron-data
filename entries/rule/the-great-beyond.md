@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_great_beyond", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "188"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 188
 
 In the cosmology of the Pathfinder Roleplaying Game, the planes are collectively known as the Great
 Beyond, and form a vast, nesting sphere. At the heart of the sphere lie the Material Plane and its

@@ -6,6 +6,9 @@ source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "venomous_promise", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "25"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: language-dependant, poison
 :::
-
-**Sources:** Black Markets pg 25
 
 You guard your words and person with poisonous power. You can impart a short amount of information -
 up to 25 words - as you cast this spell, entwining your words with the poison provided as a material

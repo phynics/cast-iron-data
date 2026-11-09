@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "storm_prophet", path = "json/npcs7.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "212"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "8"
 
 **Challenge rating:** 8
 
-**Sources:** NPC Codex pg 212\
 **XP** 4,800\
 Dwarf [sorcerer](ref/class/sorcerer) 7/dragon disciple 2\
 CE Medium humanoid (dwarf)\

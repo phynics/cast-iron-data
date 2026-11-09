@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ogre_ogre_king", path = "json/monsters18.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "159"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ mouth with ill-fitting teeth._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Monster Codex pg 159\
 **Subtype:** Giant
 
 **Experience points:** 25,600

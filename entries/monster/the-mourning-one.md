@@ -6,6 +6,9 @@ source_ids = ["mystery-monsters-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_mourning_one", path = "json/monsters_unique3.json" },
 ]
+[[sources]]
+publication = "mystery-monsters-revisited"
+page = "50"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ flesh, and a terrible sickening flow of black blood oozes from each break and so
 
 **Senses:** Darkvision 120 ft.
 
-**Sources:** Mystery Monsters Revisited pg 50\
 **Subtype:** Aquatic
 
 **Experience points:** 204,800

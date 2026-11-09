@@ -6,6 +6,12 @@ source_ids = ["pathfinder-67-the-snows-of-summer", "inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ice_spears", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "pathfinder-67-the-snows-of-summer"
+page = "72"
+[[sources]]
+publication = "inner-sea-magic"
+page = "57"
 
 [fields]
 kind = "spell"
@@ -43,8 +49,6 @@ Spell resistance: no
 Effect: 1 ice spear/4 levels
 Descriptors: cold
 :::
-
-**Sources:** Pathfinder \#67: The Snows of Summer pg 72, Inner Sea Magic pg 57
 
 Favored by the spellcasters of Irrisen, this potent spell can disrupt spellcasters, topple enemies,
 and break even seemingly unstoppable charges.

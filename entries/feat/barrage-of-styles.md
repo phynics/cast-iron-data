@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "barrage_of_styles", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "201"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You gain a cumulative +1 morale bonus (maximum +4) on combat maneuver
 +++
 
 ## Barrage of Styles (Combat, Teamwork)
-
-**Sources:** Inner Sea Races pg 201
 
 The diverse martial traditions of you and your allies' backgrounds blend into a unique combination.\
 **Prerequisites:** Base attack bonus +1, [human](ref/race/human).\

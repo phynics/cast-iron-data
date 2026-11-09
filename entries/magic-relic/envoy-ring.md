@@ -6,6 +6,8 @@ source_ids = ["pathfinder-128-songbird-scion-saboteur"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "envoy_ring", path = "json/magic_relics.json" },
 ]
+[[sources]]
+publication = "pathfinder-128-songbird-scion-saboteur"
 
 [fields]
 kind = "item"
@@ -16,7 +18,6 @@ aura = "moderate enchantment"
 caster_level = "11th"
 +++
 
-**Sources:** Pathfinder \#128: Songbird, Scion, Saboteur\
 **Suitable For** PCs of 1st-3rd level\
 **Aura** moderate enchantment\
 **Slot** ring; **CL** 11th\

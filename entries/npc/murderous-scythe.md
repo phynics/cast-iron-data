@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "murderous_scythe", path = "json/npcs4.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "210"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "16"
 
 **Challenge rating:** 16
 
-**Sources:** NPC Codex pg 210\
 **XP** 76,800\
 Half-elf [druid](ref/class/druid) 4/[fighter](ref/class/fighter) 6/assassin 7\
 NE Medium humanoid (elf, human)\

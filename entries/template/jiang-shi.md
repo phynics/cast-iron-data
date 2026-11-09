@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jiang_shi", path = "json/monster_template2.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "278"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +2
-
-**Source:** Bestiary 3/278
 
 Jiang-shis (often known as "hopping [vampires](ref/template/vampire)") are undead humanoid creatures
 that feed on the exhaled life energy of the living. A jiang-shi's appearance is based on the state

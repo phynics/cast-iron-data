@@ -6,12 +6,12 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "captivating_reflection", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures
 
 **Captivating Reflection (CR 3):** Some narcissistic people need little encouragement to stop and
 admire their visage in the surface of the water, but occasionally this behavior comes from the

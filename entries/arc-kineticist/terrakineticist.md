@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/kineticist" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "63"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Expanded element", "Omnikinesis"]
 alters = ["Elemental focus", "kinetic blast", "Elemental defense"]
 +++
 
-**Sources:** Ultimate Wilderness pg 63\
 Terrakineticists have a stunted ability that allows them to access the Elemental Planes, but they've
 learned how to turn this limited talent into an incredible strength by tapping into the ambient
 elemental nature of the land surrounding them.

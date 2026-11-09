@@ -6,6 +6,9 @@ source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "suppress_primal_magic", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "61"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: none
 Spell resistance: no
 Area: 10-ft.-radius emanation centered on you
 :::
-
-**Sources:** Inner Sea Magic pg 61
 
 Nexian wizards first created this spell while researching the nature of the Mana Wastes, hoping to
 create small zones within the magic-starved region where their own spells could still function

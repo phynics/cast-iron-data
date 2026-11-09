@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/kineticist" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
+page = "50"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Basic hydrokinesis", "2nd and 6th level utility wild talents", "Def
 alters = ["Expanded element", "Elemental focus", "Cold simple blast"]
 +++
 
-**Sources:** Aquatic Adventures pg 50\
 While all hydrokineticists have the ability to control water, aquakineticists' powers are tied to
 their determination to explore the world beneath the waves.
 

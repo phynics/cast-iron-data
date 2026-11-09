@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_barbed_devil_hamatula", path = "json/monsters07.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "72"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ fiery-eyed sentinel bristles with barbs._
 
 **Senses:** Darkvision 60 ft., See in darkness
 
-**Sources:** Pathfinder RPG Bestiary pg 72\
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **Experience points:** 12,800

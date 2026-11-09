@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_shield_focus", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "125"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Increase the AC bonus granted by any shield you are using by 1. This 
 +++
 
 ## Greater Shield Focus (Combat)
-
-**Sources:** PRPG Core Rulebook pg 125
 
 You are skilled at deflecting blows with your shield.\
 **Prerequisites:** [Shield Focus](ref/feat/shield-focus),

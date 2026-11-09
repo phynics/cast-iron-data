@@ -6,12 +6,12 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_esoteric", path = "json/monster_families.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Bestiary 5
 
 One of the many families of true dragons, the following group of five includes distantly related
 creatures that either live in the far-flung corners of the Esoteric Planes or deal with obscure

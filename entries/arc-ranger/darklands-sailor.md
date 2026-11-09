@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ranger" },
 ]
+[[sources]]
+publication = "heroes-of-the-darklands"
+page = "27"
 
 [fields]
 kind = "archetype"
 replaces = ["Track", "Favored terrain", "Woodland stride", "Swift tracker", "Camouflage", "hide in plain sight"]
 +++
 
-**Sources:** Heroes of the Darklands pg 27\
 Those plying the lightless waters of the Darklands learn to use sound to augment their compromised
 vision, providing insight into the hazards lurking below the surface. A Darklands sailor has the
 following class features.

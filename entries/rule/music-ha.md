@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "music_ha", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "204"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 204
 
 Used well, music can be a powerful tool for creating atmosphere. Handled poorly, it can be a major
 distraction that irreparably warps, or even completely ruins, a game's mood. When a GM uses music in

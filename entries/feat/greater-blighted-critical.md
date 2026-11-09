@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_blighted_critical", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "151"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "You can only apply the effects of one critical feat to a given critic
 +++
 
 ## Greater Blighted Critical (Critical)
-
-**Sources:** Ultimate Magic pg 151
 
 Your critical hit from a spell or [spell-like ability](ref/umr/spell-like-abilities) afflicts the
 target with a major spellblight.\

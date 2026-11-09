@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dust_of_disappearance", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "293"
+[[sources]]
+publication = "core-rulebook"
+page = "510"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate illusion"
 caster_level = "7th"
 +++
 
-**Sources:** Ultimate Equipment pg 293, PRPG Core Rulebook pg 510\
 **Aura** moderate illusion; **CL** 7th\
 **Slot** none; **Price** 3,500 gp; **Weight** -
 

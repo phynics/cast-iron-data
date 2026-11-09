@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "web_bolt", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "107"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 Effect: fist-sized blob of webbing
 Subschool: Creation
 :::
-
-**Sources:** Advanced Race Guide pg 107
 
 > _[Drow](ref/race/drow) have access to the following spell._
 

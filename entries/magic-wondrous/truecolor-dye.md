@@ -6,6 +6,9 @@ source_ids = ["pathfinder-27-what-lies-in-dust"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "truecolor_dye", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "pathfinder-27-what-lies-in-dust"
+page = "34"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination"
 caster_level = "1st"
 +++
 
-**Sources:** Pathfinder \#27: What Lies in Dust pg 34\
 **Aura** faint divination; **CL** 1st\
 **Slot** none; **Price** 50 gp; **Weight** -
 

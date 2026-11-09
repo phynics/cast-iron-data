@@ -6,6 +6,9 @@ source_ids = ["pathfinder-121-the-lost-outpost"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "warden_jack_swarm", path = "json/monsters25.json" },
 ]
+[[sources]]
+publication = "pathfinder-121-the-lost-outpost"
+page = "44"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ abilities = ["4", "14", "-", "-", "11", "1"]
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#121: The Lost Outpost pg 44\
 **Subtype:** Swarm
 
 **tremorsense:** 30

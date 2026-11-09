@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "structural_strike", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "92"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When using the duelist's or swashbuckler's precise strike, you can ma
 +++
 
 ## Structural Strike (Combat, Panache)
-
-**Sources:** Ultimate Intrigue pg 92
 
 You use your knowledge of how things fit together to find ways to punch through the defenses of any
 foe.\

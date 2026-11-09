@@ -8,12 +8,13 @@ parent = "ref/class/monk"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "json/classes5.json#monk|section:monk", path = "json/classes5.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "56"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 56
 
 For the truly exemplary, martial skill transcends the battlefield - it is a lifestyle, a doctrine, a
 state of mind. These warrior-artists search out methods of battle beyond swords and shields, finding

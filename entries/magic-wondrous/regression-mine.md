@@ -6,6 +6,9 @@ source_ids = ["pathfinder-122-into-the-shattered-continent"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "regression_mine", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "pathfinder-122-into-the-shattered-continent"
+page = "75"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment"
 caster_level = "10th"
 +++
 
-**Sources:** Pathfinder \#122: Into the Shattered Continent pg 75\
 **Aura** moderate enchantment; **CL** 10th\
 **Slot** none; **Price** 1,500 gp; **Weight** 2 lbs.
 

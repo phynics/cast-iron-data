@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/suffocation" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "248"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: yes
 :::
 
 ### Mass Suffocation
-
-**Sources:** Advanced Player's Guide pg 248
 
 This spell functions as [suffocation](ref/spell/suffocation) except as noted above. Note that the
 duration of this spell is much longer, forcing those suffering from the effect to make far more

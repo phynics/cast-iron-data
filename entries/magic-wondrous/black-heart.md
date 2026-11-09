@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "black_heart", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "218"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint necromancy [evil]"
 caster_level = "5th"
 +++
 
-**Sources:** Horror Adventures pg 218\
 **Aura** faint necromancy \[evil\]; **CL** 5th\
 **Slot** none; **Price** 18,800 gp; **Weight** 1/2 lb.
 

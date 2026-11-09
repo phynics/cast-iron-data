@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fire_elemental", path = "json/monsters09.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "124"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ things to burn._
 
 **Size:** small
 
-**Sources:** Pathfinder RPG Bestiary pg 124\
 **Subtype:** Elemental, Extraplanar, Fire
 
 **Experience points:** 400

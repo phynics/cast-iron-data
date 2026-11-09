@@ -6,6 +6,9 @@ source_ids = ["lost-treasures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pale_maiden_0_wishes", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "lost-treasures"
+page = "46"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "17th"
 
 ## Pale Maiden
 
-**Sources:** Lost Treasures pg 46\
 **Aura** strong evocation; **CL** 17th\
 **Slot** none; **Price** 0 wishes (32,065 gp), 1 wish (72,365 gp), 2 wishes (112,665 gp), 3 wishes
 (152,965 gp); **Weight** 4 lbs.

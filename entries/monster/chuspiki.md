@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chuspiki", path = "json/monsters05.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "56"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ currents on its fan-like tail._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Bestiary 5 pg 56\
 **Subtype:** Air
 
 **Size:** tiny

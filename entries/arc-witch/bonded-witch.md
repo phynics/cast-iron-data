@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/witch" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "43"
 
 [fields]
 kind = "archetype"
 replaces = ["Familiar"]
 +++
 
-**Sources:** Advanced Race Guide pg 43\
 While all witches commune with the unknown, the blend of human ingenuity and adept learning mixed
 with elven blood gives some half-elves a unique conduit to channel the powers of the arcane. Bonded
 witches forsake familiars as vessels of power in favor of a specific object that grants them powers

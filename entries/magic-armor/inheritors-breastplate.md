@@ -6,6 +6,12 @@ source_ids = ["pathfinder-103-the-hellfire-compact", "inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inheritors_breastplate", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "pathfinder-103-the-hellfire-compact"
+page = "73"
+[[sources]]
+publication = "inner-sea-gods"
+page = "252"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint abjuration and transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Pathfinder \#103: The Hellfire Compact pg 73, Inner Sea Gods pg 252\
 **Aura** faint abjuration and transmutation; **CL** 3rd\
 **Slot** armor; **Price** 2,430 gp; **Weight** 30 lbs.
 

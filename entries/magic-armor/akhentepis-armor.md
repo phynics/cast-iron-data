@@ -6,6 +6,9 @@ source_ids = ["pathfinder-79-the-half-dead-city"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "akhentepis_armor", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "pathfinder-79-the-half-dead-city"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Sources:** Pathfinder \#79: The Half-Dead City pg 60\
 **Aura** moderate transmutation; **CL** 7th\
 **Slot** armor; **Price** 5,235 gp; **Weight** 10 lbs.
 

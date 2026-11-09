@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chakras", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "200"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 200
 
 According to esoteric traditions, the vital force of ki derives from the Positive Energy Plane and
 flows to initiates via the emanations of the sun. To students of the occult, every star holds a gate

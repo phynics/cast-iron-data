@@ -6,6 +6,9 @@ source_ids = ["cult-of-the-ebon-destroyers"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dhalavei", path = "json/faiths3.json" },
 ]
+[[sources]]
+publication = "cult-of-the-ebon-destroyers"
+page = "6"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Dhalavei**
 
 **Sub:** The Unsuspected Rot
-
-**Sources:** Cult of the Ebon Destroyers pg 6
 
 ### Details
 

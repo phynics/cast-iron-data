@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "falconry_gauntlet", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "81"
+[[sources]]
+publication = "adventurers-armory"
+page = "19"
 
 [fields]
 kind = "item"
@@ -14,7 +20,6 @@ price = "10 gp"
 weight = "1 lb."
 +++
 
-**Sources:** Ultimate Equipment pg 81, Adventurer's Armory pg 19\
 **Price** 10 gp; **Weight** 1 lb.\
 **Category** Animal Gear
 

@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nightmare_creature", path = "json/monster_template3.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "204"
 
 [fields]
 kind = "none"
@@ -18,8 +21,6 @@ kind = "none"
 **Challenge rating:** +1
 
 **Inherited:** present
-
-**Source:** Bestiary 4/204
 
 Nightmare creatures have an unnatural link to the most terrifying parts of the
 [Dimension of Dreams](ref/rule/dimension-of-dreams), allowing them to turn others' dreams into

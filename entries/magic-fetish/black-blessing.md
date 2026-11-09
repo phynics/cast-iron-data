@@ -6,6 +6,9 @@ source_ids = ["pathfinder-39-the-city-of-seven-spears"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "black_blessing", path = "json/magic_juju_fetishes.json" },
 ]
+[[sources]]
+publication = "pathfinder-39-the-city-of-seven-spears"
+page = "71"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Sources:** Pathfinder \#39: The City of Seven Spears pg 71\
 **Aura** faint abjuration; **CL** 3rd\
 **Slot** neck; **Price** 500 gp; **Weight** —
 

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cavalier" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "39"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Expert trainer", "Greater banner", "The cavalier's 18th-level bonus
 alters = ["Tactician"]
 +++
 
-**Sources:** Ultimate Combat pg 39\
 Some cavaliers make a lifelong mission out of their exceptional ability to direct troops on the
 battlefield, combining tactical insight with a preternatural skill at improving the teamwork of
 their allies in order to win the day. Such strategists are masters at learning the strengths and

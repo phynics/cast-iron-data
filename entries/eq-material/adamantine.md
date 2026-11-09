@@ -6,13 +6,17 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "adamantine", path = "json/equipment_special_materials.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "48"
+[[sources]]
+publication = "core-rulebook"
+page = "154"
 
 [fields]
 kind = "item"
 category = "Special Materials"
 +++
-
-**Sources:** Ultimate Equipment pg 48, PRPG Core Rulebook pg 154
 
 Mined from rocks that fell from the heavens, this ultrahard metal adds to the quality of a weapon or
 suit of armor. Weapons fashioned from adamantine have a natural ability to bypass

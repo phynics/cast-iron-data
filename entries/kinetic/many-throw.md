@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "many_throw", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "21"
 
 [fields]
 kind = "class_option"
@@ -25,8 +28,6 @@ group = "kineticist-wild-talent"
 **Associated:** [Telekinetic Blast](ref/kinetic/telekinetic-blast)
 
 **Saving throw:** none
-
-**Source:** Occult Adventures/21
 
 You grab a large number of objects and throw them all at once. You can use your telekinetic blast to
 make attack rolls against a number of targets equal to your kineticist level within 120 feet, but no

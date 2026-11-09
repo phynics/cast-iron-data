@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flickering_step", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "28"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "A fighter with this feat treats Dimensional Agility and any feat that
 +++
 
 ## Flickering Step (Conduit)
-
-**Sources:** Planar Adventures pg 28
 
 You can appear and disappear in the blink of an eye.\
 **Prerequisites:** Knowledge (planes) 9 ranks.\

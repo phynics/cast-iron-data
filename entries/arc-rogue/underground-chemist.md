@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "109"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Evasion", "Rogue talent gained at 4th level"]
 alters = ["Advanced talents"]
 +++
 
-**Sources:** Advanced Class Guide pg 109\
 Underground chemists are part of the rotting, fetid underbelly of the alchemical world. While
 underground chemists can't hold a candle to dedicated alchemists, they're tricky and dangerous with
 alchemical substances and potions.

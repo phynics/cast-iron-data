@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beloved_of_the_forge", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-streets"
+page = "22"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Heroes of the Streets pg 22
 
 You gain an innate sense of the direction to your home or to the place where you last attempted a
 Craft check, whichever you choose when you cast the spell. You gain a +10 insight bonus on Survival

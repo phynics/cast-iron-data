@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flash_forward", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "65"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 65
 
 By far the easiest way to get characters together is to skip past the introductions and straight to
 the adventure. Having the players decide upon how the characters met, develop a few connections or

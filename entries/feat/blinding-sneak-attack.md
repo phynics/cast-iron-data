@@ -6,6 +6,9 @@ source_ids = ["blood-of-fiends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blinding_sneak_attack", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "blood-of-fiends"
+page = "24"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When you successfully deal sneak attack damage to a foe while you are
 +++
 
 ## Blinding Sneak Attack (Combat)
-
-**Sources:** Blood of Fiends pg 24
 
 When you strike from the cover of darkness, you inject foes with a fraction of your foul magic.\
 **Prerequisites:** Base attack bonus +5, [darkness](ref/spell/darkness)

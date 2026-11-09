@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bouncing_bomb_admixture", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "10"
 
 [fields]
 kind = "spell"
@@ -37,8 +40,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Magic Tactics Toolbox pg 10
 
 Upon drinking an extract created with this formula, you make a significant change to your magical
 reserve that modifies the nature of the next bomb you create and throw during this extract's

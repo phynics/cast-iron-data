@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reading_a_mythic_monster_stat_block", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "176"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 176
 
 Mythic monster stat blocks work just like non-mythic monster stat blocks, but have a few additional
 pieces of information. The differences are summarized in the following section.

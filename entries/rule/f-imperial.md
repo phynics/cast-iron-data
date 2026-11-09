@@ -6,12 +6,14 @@ source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "f_imperial", path = "json/rules_subsystems01.json" },
 ]
+[[sources]]
+publication = "faction-guide"
+page = "48"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Faction Guide pg 48\
 **Pathfinder Name:** Ulfen Guard\
 **Goal:** Protect the Emperor, whoever that may be\
 **Alignment:** N\

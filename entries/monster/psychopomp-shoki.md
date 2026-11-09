@@ -6,6 +6,12 @@ source_ids = ["bestiary-6", "inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychopomp_shoki", path = "json/monsters19.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "222"
+[[sources]]
+publication = "inner-sea-bestiary"
+page = "40"
 
 [fields]
 kind = "creature"
@@ -45,7 +51,6 @@ snail-backed creature upright._
 **Senses:** Darkvision 60 ft., Detect chaos, Detect evil, Detect good, Detect law, Detect magic,
 Low-light vision, Spirit-sense
 
-**Sources:** Bestiary 6 pg 222, Inner Sea Bestiary pg 40\
 **Subtype:** Extraplanar, Psychopomp
 
 **Experience points:** 6,400

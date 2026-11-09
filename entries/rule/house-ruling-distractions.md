@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "house_ruling_distractions", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "205"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 205
 
 Portable games, social media, and other hobbies vie for everyone's attention. A GM, though, is the
 arbiter of the rules, both those in the game books and in her own house rules. Consider setting a

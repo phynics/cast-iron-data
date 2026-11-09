@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "amulet_of_spell_cunning", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "256"
+[[sources]]
+publication = "advanced-players-guide"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Sources:** Ultimate Equipment pg 256, Advanced Player's Guide pg 30\
 **Aura** moderate transmutation; **CL** 7th\
 **Slot** neck; **Price** 10,000 gp; **Weight** 1 lb.
 

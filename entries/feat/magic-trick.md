@@ -6,6 +6,12 @@ source_ids = ["chronicle-of-legends", "distant-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_trick", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "chronicle-of-legends"
+page = "16"
+[[sources]]
+publication = "distant-realms"
+page = "62"
 
 [fields]
 kind = "feat"
@@ -13,8 +19,6 @@ prerequisites = "Ability to cast the chosen spell or spell-like ability."
 benefit = "You can use any magic tricks relating to the chosen spell so long as you meet the appropriate magic trick requirements."
 special = "You can select the Magic Trick feat multiple times. Each time you take the feat, it applies to a new type of spell."
 +++
-
-**Sources:** Chronicle of Legends pg 16, Distant Realms pg 62
 
 Choose one spell. You are able to manipulate that spell beyond its typical uses.\
 **Prerequisites:** Ability to cast the chosen spell or

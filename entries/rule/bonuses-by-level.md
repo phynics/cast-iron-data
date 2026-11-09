@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bonuses_by_level", path = "json/rules_opt_pc_adv01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "41"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 41
 
 The table above presents fractional values for the base save and base attack bonuses. To determine
 the total base save bonus or base attack bonus of a multiclass character, calculate the fractional

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lyrune_quah_klar", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "52"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate illusion"
 caster_level = "7th"
 +++
 
-**Sources:** Inner Sea Combat pg 52\
 **Aura** moderate illusion; **CL** 7th\
 **Slot** shield; **Price** 19,912 gp; **Weight** 6 lbs.
 

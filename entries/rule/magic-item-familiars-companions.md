@@ -6,12 +6,13 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_item_familiars_companions", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "176"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Wilderness pg 176
 
 The sheer diversity among species of animal companions and familiars makes it difficult to determine
 what kinds of magic items are suitable for a creature to use or wear. Wearable wondrous items

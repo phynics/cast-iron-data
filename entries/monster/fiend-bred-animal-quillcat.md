@@ -6,6 +6,9 @@ source_ids = ["pathfinder-103-the-hellfire-compact"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fiend_bred_animal_quillcat", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "pathfinder-103-the-hellfire-compact"
+page = "87"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ _Dozens of long, sharp spines line the back and tail of this dark-gray cat._
 
 **Size:** small
 
-**Sources:** Pathfinder \#103: The Hellfire Compact pg 87\
 **Experience points:** 400
 
 **Armor class:** 13/13/11

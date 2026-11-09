@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "goggles_of_night", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "226"
+[[sources]]
+publication = "core-rulebook"
+page = "515"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Ultimate Equipment pg 226, PRPG Core Rulebook pg 515\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** eyes; **Price** 12,000 gp; **Weight** -
 

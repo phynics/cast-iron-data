@@ -6,6 +6,9 @@ source_ids = ["cheliax-empire-of-devils"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cornugon_trip", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "cheliax-empire-of-devils"
+page = "26"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You may throw your spiked chain (as if it were a thrown weapon with a
 +++
 
 ## Cornugon Trip (Combat)
-
-**Sources:** Cheliax, Empire of Devils pg 26
 
 You can throw your spiked chain to make trip attacks.\
 **Prerequisites:** Dex 15, [Improved Trip](ref/feat/improved-trip),

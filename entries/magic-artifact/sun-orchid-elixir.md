@@ -6,6 +6,9 @@ source_ids = ["inner-sea-world-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sun_orchid_elixir", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "300"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong necromancy"
 caster_level = "17th"
 +++
 
-**Sources:** Inner Sea World Guide pg 300\
 **Aura** strong necromancy; **CL** 17th\
 **Slot** none; **Price** -; **Weight** -
 

@@ -8,12 +8,14 @@ parent = "ref/umr/hold-breath"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "json/umr.json#hold_breath|section:hold-breath", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "294"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Bestiary 5 pg 294\
 The creature can hold its breath for a number of minutes equal to 6 × its Constitution score before
 it risks [drowning](ref/rule/drowning).
 

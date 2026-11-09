@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "exhausting", path = "json/magic_enhancements2.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "213"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong necromancy"
 caster_level = "12th"
 +++
 
-**Sources:** Advanced Class Guide pg 213\
 **Aura** strong necromancy; **CL** 12th\
 **Slot** none; **Price** +3 bonus; **Weight** -
 

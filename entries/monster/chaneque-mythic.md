@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chaneque_mythic", path = "json/monsters_mythic.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "28"
 
 [fields]
 kind = "creature"
@@ -48,7 +51,6 @@ dangle tiny fairy skull trophies._
 
 **Size:** small
 
-**Sources:** Bestiary 4 pg 28\
 **Subtype:** Mythic
 
 **Experience points:** 400

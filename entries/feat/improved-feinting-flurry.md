@@ -6,6 +6,9 @@ source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_feinting_flurry", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "dragon-empires-primer"
+page = "25"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "A successful feint causes your opponent to be denied its Dexterity bon
 +++
 
 ## Improved Feinting Flurry (Combat)
-
-**Sources:** Dragon Empires Primer pg 25
 
 Your first melee attack throws your opponent completely off guard.\
 **Prerequisites:** Dex 17, flurry of blows class feature,

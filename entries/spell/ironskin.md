@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ironskin", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "45"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Spell resistance: no
 Target: you
 Descriptors: earth
 :::
-
-**Sources:** Monster Codex pg 45
 
 Your skin hardens and takes on the color and texture of rough iron. You gain a +4 enhancement bonus
 to your existing natural armor bonus (if you do not have a natural armor bonus, you are considered

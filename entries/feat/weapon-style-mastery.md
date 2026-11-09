@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weapon_style_mastery", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "23"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ normal = "You can have only one style active at once."
 +++
 
 ## Weapon Style Mastery (Style, Weapon Mastery)
-
-**Sources:** Weapon Master's Handbook pg 23
 
 You can combine multiple fighting styles together.\
 **Prerequisites:** Any two style feats from different styles, base attack bonus +6, weapon training

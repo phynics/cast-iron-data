@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/bilocation" },
 ]
+[[sources]]
+publication = "legacy-of-the-first-world"
+page = "25"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Subschool: Creation
 :::
 
 ### Threefold Form
-
-**Sources:** Legacy of the First World pg 25
 
 You pull forth idealized versions of yourself at various ages from your mind, splitting into three
 copies of yourself. Threefold form functions as [bilocation](ref/spell/bilocation), except there are

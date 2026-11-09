@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enter_image", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "219"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Saving throw: none
 Spell resistance: no
 Effect: transfer consciousness to any object bearing your likeness
 :::
-
-**Sources:** Advanced Player's Guide pg 219
 
 You gain a dim impression of the activities around any object bearing your face or form and can also
 project your consciousness into one such object at a time, allowing you to observe or even interact

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plane_of_fire", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "190"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 190
 
 Everything is alight on the Plane of Fire. The ground is nothing more than great, ever-shifting
 plates of compressed flame. The air ripples with the heat of continual firestorms and the most

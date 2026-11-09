@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "barkskin", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "246"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: none
 Spell resistance: yes
 Target: living creature touched
 :::
-
-**Sources:** PRPG Core Rulebook pg 246
 
 Barkskin toughens a creature's skin. The effect grants a +2 enhancement bonus to the creature's
 existing natural armor bonus. This enhancement bonus increases by 1 for every three caster levels

@@ -6,6 +6,9 @@ source_ids = ["familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "replenishing_aquarium_ball_greater", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "familiar-folio"
+page = "21"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "7th"
 
 ## Replenishing Aquarium Ball
 
-**Sources:** Familiar Folio pg 21\
 **Aura** moderate conjuration; **CL** 7th\
 **Slot** none; **Price** 500 gp (Lesser), 2,000 gp (Standard), 4,000 gp (Greater); **Weight** 20
 lbs.

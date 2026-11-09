@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/scale-spikes" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "141"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Spell resistance: yes (harmless)
 :::
 
 ### Greater Scale Spikes
-
-**Sources:** Monster Codex pg 141
 
 This spell functions like [scale spikes](ref/spell/scale-spikes), except that the spikes growing out
 of the scales have an enhancement bonus on attack and damage rolls equal to +1 for every 4 caster

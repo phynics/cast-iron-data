@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "special_cases", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "111"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 111
 
 Dealing with spells and abilities that grant additional attacks, rerolls, or high bonuses can be
 tricky under this system. So many rules are based around iterative attacks that it's not possible to

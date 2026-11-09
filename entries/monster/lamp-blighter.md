@@ -6,6 +6,9 @@ source_ids = ["pathfinder-128-songbird-scion-saboteur"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lamp_blighter", path = "json/monsters34.json" },
 ]
+[[sources]]
+publication = "pathfinder-128-songbird-scion-saboteur"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ neck._
 
 **Size:** small
 
-**Sources:** Pathfinder \#128: Songbird, Scion, Saboteur pg 90\
 **Experience points:** 2,400
 
 **Armor class:** 17/17/11

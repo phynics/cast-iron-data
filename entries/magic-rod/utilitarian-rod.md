@@ -6,6 +6,9 @@ source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "utilitarian_rod", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "faction-guide"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Sources:** Faction Guide pg 60\
 **Aura** moderate transmutation; **CL** 8th\
 **Slot** none; **Price** 5,000 gp; **Weight** 5 lbs.
 

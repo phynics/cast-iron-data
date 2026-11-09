@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pirates_eye_patch", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "227"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "2nd"
 +++
 
-**Sources:** Ultimate Equipment pg 227\
 **Aura** faint transmutation; **CL** 2nd\
 **Slot** eyes; **Price** 2,600 gp; **Weight** -
 

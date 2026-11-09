@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hangman_tree", path = "json/monsters13.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "152"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ into nooses, hang from its branches._
 
 **Type:** plant
 
-**Sources:** Bestiary 2 pg 152\
 **Experience points:** 3,200
 
 **Armor class:** 20/7/20

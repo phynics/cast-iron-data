@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "potions-and-poisons"
+page = "4"
 
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Rogue talent gained at 2nd level", "Trap sense (core rogue)", "danger sense (unchained rogue)"]
 +++
 
-**Sources:** Potions and Poisons pg 4\
 Swamp poisoners use their own toxins to defend their homes and level the playing field. The swamp
 poisoner is an archetype available to grippli characters, and it is appropriate for rogues built
 using the rules from the Pathfinder RPG Core Rulebook as well as for unchained rogues.

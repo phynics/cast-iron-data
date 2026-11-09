@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "herald_seed", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "14"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong divination"
 caster_level = "12th"
 +++
 
-**Sources:** Ultimate Wilderness pg 14\
 **Aura** strong divination; **CL** 12th\
 **Slot** none; **Price** 8,000 gp; **Weight** -
 

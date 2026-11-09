@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_thrush", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "120"
 
 [fields]
 kind = "creature"
@@ -38,7 +41,6 @@ abilities = ["1", "15", "6", "2", "15", "6"]
 
 **Senses:** Low-light vision
 
-**Sources:** Ultimate Magic pg 120\
 **Experience points:** 135
 
 **Armor class:** 16/16/14

@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dynamic_magic_item_creation", path = "json/rules_opt_magic01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "180"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 180
 
 In folklore, a major part of any magic item's mystique is the tale of its creation. With the dynamic
 magic item creation system, the crafting of magic items becomes a quick but interesting story in

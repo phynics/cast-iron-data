@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "backgrounded_experience", path = "json/rules_gm03.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "102"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 102
 
 Track experience points throughout the session, without mentioning it to your players. Announce
 awarded XP at the end of each session, after the evening's narrative has concluded. Players may

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beautiful_war_paint", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "260"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint enchantment and transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Inner Sea Gods pg 260\
 **Aura** faint enchantment and transmutation; **CL** 5th\
 **Slot** head; **Price** 6,300 gp; **Weight** 1 lb.
 

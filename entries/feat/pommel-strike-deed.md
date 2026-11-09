@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/amateur-swashbuckler", label = "or" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "153"
 
 [fields]
 kind = "feat"
@@ -19,8 +22,6 @@ benefit = "You can spend 1 panache point to make a melee attack with the pommel 
 +++
 
 ## Pommel Strike Deed (Panache)
-
-**Sources:** Advanced Class Guide pg 153
 
 With a surprise swipe with your pommel, you can topple a foe.\
 **Prerequisites:** [Amateur Swashbuckler](ref/feat/amateur-swashbuckler) or panache class feature;

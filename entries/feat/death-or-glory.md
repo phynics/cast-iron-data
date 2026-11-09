@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "death_or_glory", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "94"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "You can combine the full-round action attack this feat allows with th
 +++
 
 ## Death or Glory (Combat)
-
-**Sources:** Ultimate Combat pg 94
 
 Even when facing a larger foe, you aren't afraid to take great risks in order to finish the fight.\
 **Prerequisites:** Str 13, [Power Attack](ref/feat/power-attack), base attack bonus +6.\

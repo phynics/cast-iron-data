@@ -6,6 +6,9 @@ source_ids = ["knights-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clarion_call", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "knights-of-the-inner-sea"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
 :::
-
-**Sources:** Knights of the Inner Sea pg 28
 
 The subject of this spell gains two benefits. First, the affected creature gains the ability to
 create a sound like the blast of a mighty horn or trumpet simply by miming the action of sounding

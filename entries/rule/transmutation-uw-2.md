@@ -6,12 +6,13 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "transmutation_uw_2", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "160"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Wilderness pg 160
 
 Mid-level transmutation spells produce a variety of effects. Many augment the capabilities of their
 casters, allowing for otherwise impossible physical feats. Some transmutation spells control nature

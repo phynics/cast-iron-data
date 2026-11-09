@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "retribution", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "239"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Spell resistance: yes
 Target: one creature who has just struck you with an attack
 Descriptors: evil, pain
 :::
-
-**Sources:** Advanced Player's Guide pg 239
 
 Retribution blasts those who have the temerity to assault your person. You may target anyone who has
 just struck you with an attack within the previous round, whether with a melee, ranged, or natural

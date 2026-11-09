@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/longstrider" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "186"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 :::
 
 ### Greater Longstrider
-
-**Sources:** Advanced Class Guide pg 186
 
 This functions as [longstrider](ref/spell/longstrider), except it gives you a +20 foot enhancement
 bonus to your base speed and a +10 foot enhancement bonus to your other modes of movement (burrow,

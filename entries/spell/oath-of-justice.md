@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/mark-of-justice" },
 ]
+[[sources]]
+publication = "dwarves-of-golarion"
+page = "22"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: none
 Spell resistance: no
 Target: two creatures touched
 :::
-
-**Sources:** Dwarves of Golarion pg 22
 
 > _In order to prepare this spell, the caster must spend an hour performing a ritual in which he
 > beseeches [Torag](ref/faith/torag) (or a member of his family) for the aid of

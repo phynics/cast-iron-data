@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "buggane", path = "json/monsters04.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "26"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ strong enough to shatter stone._
 
 **Senses:** Scent
 
-**Sources:** Bestiary 4 pg 26\
 **tremorsense:** 60
 
 **Experience points:** 1,600

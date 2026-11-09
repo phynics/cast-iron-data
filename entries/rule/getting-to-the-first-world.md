@@ -6,12 +6,13 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "getting_to_the_first_world", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "130"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Wilderness pg 130
 
 The First World is a coterminous plane and therefore overlaps the Material Plane, but unlike the
 Shadow Plane, the First World does not mimic the Material Plane's geography.

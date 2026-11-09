@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/oracle" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "164"
 
 [fields]
 kind = "archetype"
 replaces = ["The bonus spells gained at 2nd, 4th, 8th, 12th, 14th, and 16th levels from the oracle's mystery", "7th-level revelation", "Final revelation"]
 +++
 
-**Sources:** Advanced Race Guide pg 164\
 The shigenjo walks the path of enlightenment and transcendence by seeking oneness with the celestial
 spirits. In doing so, she unlocks the martial potential of her own spiritual power. A shigenjo has
 the following class features.

@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "intrigue_elements", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "98"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 98
 
 The following elements are ingredients that can help add intrigue to your game. You can use a single
 element to introduce complications into an otherwise low-intrigue game or session, or put several of

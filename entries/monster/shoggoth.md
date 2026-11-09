@@ -6,6 +6,12 @@ source_ids = ["bestiary", "crucible-of-chaos"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shoggoth", path = "json/monsters38.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "249"
+[[sources]]
+publication = "crucible-of-chaos"
+page = "29"
 
 [fields]
 kind = "creature"
@@ -44,7 +50,6 @@ forming in its heaving bulk._
 
 **Senses:** All-around vision, Darkvision 120 ft., Low-light vision, Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 249, Crucible of Chaos pg 29\
 **Subtype:** Aquatic
 
 **tremorsense:** 60

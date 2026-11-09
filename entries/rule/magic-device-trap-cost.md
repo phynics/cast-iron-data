@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_device_trap_cost", path = "json/rules_gm08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "423"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 423
 
 To determine the CR of magic traps, decide what elements you want and then determine the CR of the
 resulting trap (see Table 13-4). If a player character wants to design and construct a magic trap,

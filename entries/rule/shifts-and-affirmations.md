@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shifts_and_affirmations", path = "json/rules_opt_alignment01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "97"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 97
 
 When faced with a moral challenge or dilemma, use each character's response to inform whether he or
 she gains a shift or an affirmation. It's up to the GM to judge whether a response warrants a shift

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-77-herald-of-the-ivory-labyrinth"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rune_of_jandelay", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "pathfinder-77-herald-of-the-ivory-labyrinth"
+page = "50"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: see below
 Spell resistance: no
 Area: one rune
 :::
-
-**Sources:** Pathfinder \#77: Herald of the Ivory Labyrinth pg 50
 
 You scribe a potent rune of power upon a surface, similar to the way in which a symbol spell is
 cast. When inscribed, the rune of Jandelay manifests as a shape that evokes the face of a monstrous

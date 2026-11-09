@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/vigilante" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "38"
 
 [fields]
 kind = "archetype"
@@ -20,7 +23,6 @@ replace social talents at even levels and vigilante talents at odd levels. It is
 abilities and talents should be adjusted up or down a level to compensate, or if the talent types
 should be switched. Consult your GM if you wish to use this archetype.
 
-**Sources:** Inner Sea Intrigue pg 38\
 Anaphexia thought-killers worship [Norgorber's](ref/faith/norgorber) Reaper of Reputation aspect
 from their secret home in Ustalav. In sacrifice to him, they cut out their own tongues to gain
 magical protection from exposure and hunt down secrets to steal before they can be spread - which

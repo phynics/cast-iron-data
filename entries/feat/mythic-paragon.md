@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mythic_paragon", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "70"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "Your tier is considered 2 higher for determining the potency of mythi
 +++
 
 ## Mythic Paragon (Mythic)
-
-**Sources:** Mythic Adventures pg 70
 
 Your mythic power is even more potent than that of most other mythic beings.\
 **Benefit:** Your tier is considered 2 higher for determining the potency of mythic abilities,

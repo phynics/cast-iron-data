@@ -6,6 +6,9 @@ source_ids = ["horror-adventures", "bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hellbound_creature", path = "json/monster_template2.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "248"
 
 [fields]
 kind = "none"
@@ -18,8 +21,6 @@ kind = "none"
 **Challenge rating:** +1
 
 **Simple:** present
-
-**Source:** Horror Adventures/248
 
 > _This template is a simple version of the [devilbound](ref/template/devilbound) template._
 

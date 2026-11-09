@@ -6,14 +6,15 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elven_branched_spear", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "19"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "10 lbs."
 +++
-
-**Sources:** Melee Tactics Toolbox pg 19
 
 Behind this long pole weapon's spearhead, several short branches project from the shaft at irregular
 intervals, each angled forward and tipped with a smaller leaf like blade. When you make attacks of

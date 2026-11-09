@@ -6,6 +6,9 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "champion_of_balance", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "98"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You gain a +2 bonus on weapon and spell damage rolls against good and
 +++
 
 ## Champion of Balance (Alignment)
-
-**Sources:** Pathfinder Unchained pg 98
 
 You are dedicated to perfect balance in the multiverse.\
 **Prerequisites:** 10 Hit Dice, neutral alignment.\

@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fame_40", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "184"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 184
 
 This is the Fame of an adventurer who has achieved celebrity status.
 

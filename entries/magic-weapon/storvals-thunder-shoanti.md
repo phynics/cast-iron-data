@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "storvals_thunder_shoanti", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "227"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Sources:** Inner Sea Races pg 227\
 **Aura** moderate transmutation; **CL** 8th\
 **Slot** none; **Price** 50,340 gp; **Weight** 14 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-107-scourge-of-the-godclaw"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "zana", path = "json/monsters41.json" },
 ]
+[[sources]]
+publication = "pathfinder-107-scourge-of-the-godclaw"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ pearlescent breastplate and wields a shimmering longspear._
 
 **Senses:** Low-light vision
 
-**Sources:** Pathfinder \#107: Scourge of the Godclaw pg 90\
 **Experience points:** 38,400
 
 **Armor class:** 26/18/23

@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "earn_capital", path = "json/rules_subsystems02.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "85"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 85
 
 You can spend 1 day of downtime earning capital. Depending on the nature of the work, this might
 require making some kind of check and paying an amount of gp. This work might be unskilled labor or

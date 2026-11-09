@@ -6,6 +6,9 @@ source_ids = ["pathfinder-121-the-lost-outpost"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alghollthu_thalassic_architect", path = "json/monsters26.json" },
 ]
+[[sources]]
+publication = "pathfinder-121-the-lost-outpost"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ claws, flank its fanged jaws._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#121: The Lost Outpost pg 88\
 **Subtype:** Aquatic
 
 **tremorsense:** 60

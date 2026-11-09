@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "insanity", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "301"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Target: one living creature
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 301
 
 The affected creature suffers from a continuous [confusion](ref/spell/confusion) effect, as the
 spell.

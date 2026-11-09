@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_petrifern", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "202"
+[[sources]]
+publication = "familiar-folio"
+page = "31"
 
 [fields]
 kind = "creature"
@@ -41,7 +47,6 @@ feet._
 
 **Type:** plant
 
-**Sources:** Ultimate Wilderness pg 202, Familiar Folio pg 31\
 **Experience points:** 65
 
 **Armor class:** 15/13/15

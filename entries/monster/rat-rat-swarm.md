@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rat_rat_swarm", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "232"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ everything in its path._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 232\
 **Subtype:** Swarm
 
 **Size:** tiny

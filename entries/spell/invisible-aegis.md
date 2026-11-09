@@ -6,12 +6,14 @@ source_ids = ["pathfinder-140-eulogy-for-roslars-coffer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "invisible_aegis", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "pathfinder-140-eulogy-for-roslars-coffer"
+page = "52"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder \#140: Eulogy for Roslar's Coffer pg 52\
 **School** abjuration; **Level** 4\
 **Casting Time** 40 minutes\
 **Components** V, M (a clear glass marble), F (an iron key)\

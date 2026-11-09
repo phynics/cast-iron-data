@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide", "advanced-players-guide", "chronicle-of-le
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hunter", path = "json/classes2.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "26"
 
 [fields]
 kind = "class"
@@ -13,8 +16,6 @@ class_type = "hybrid"
 hit_die = "d8"
 skill_ranks = "6 + Int modifier"
 +++
-
-**Sources:** Advanced Class Guide pg 26
 
 Hunters are warriors of the wilds that have forged close bonds with trusted animal companions. They
 focus their tactics on fighting alongside their companion animals as a formidable team of two. Able

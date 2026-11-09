@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/shifter" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "83"
 
 [fields]
 kind = "archetype"
 alters = ["Shifter aspect", "Wild empathy", "Wild shape"]
 +++
 
-**Sources:** Ultimate Wilderness pg 83\
 Weretouched shifters are scions of lycanthropic forces, whether hereditary or supernaturally
 imposed. They can assume both animal and hybrid forms, as a lycanthrope does.
 

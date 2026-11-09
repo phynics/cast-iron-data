@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shredskin", path = "json/monsters38.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "243"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ lower half is in tatters._
 
 **Size:** small
 
-**Sources:** Bestiary 4 pg 243\
 **Type:** undead
 
 **Experience points:** 600

@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_tuatara", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "97"
 
 [fields]
 kind = "creature"
@@ -36,7 +39,6 @@ abilities = ["2", "13", "12", "1", "10", "5"]
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 4 pg 97\
 **Size:** tiny
 
 **Experience points:** 100

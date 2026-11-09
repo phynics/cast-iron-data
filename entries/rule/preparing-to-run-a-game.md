@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "preparing_to_run_a_game", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "16"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 16
 
 Great Game Masters make running a game look easy, weaving memorable characters, breathless action,
 and vivid descriptions into unforgettable tapestries of fantasy. Players in a well-run game have a

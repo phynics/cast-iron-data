@@ -6,6 +6,12 @@ source_ids = ["rise-of-the-runelords-anniversary-edition", "pathfinder-5-sins-of
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_money", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "rise-of-the-runelords-anniversary-edition"
+page = "418"
+[[sources]]
+publication = "pathfinder-5-sins-of-the-saviors"
+page = "59"
 
 [fields]
 kind = "spell"
@@ -41,9 +47,6 @@ Saving throw: none
 Spell resistance: no
 Effect: 1 material component
 :::
-
-**Sources:** Rise of the Runelords Anniversary Edition pg 418, Pathfinder \#5: Sins of the Saviors
-pg 59
 
 You cast blood money just before casting another spell. As part of this spell's casting, you must
 cut one of your hands, releasing a stream of blood that causes you to take 1d6 points of damage.

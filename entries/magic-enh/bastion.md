@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bastion", path = "json/magic_enhancements.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration"
 caster_level = "15th"
 +++
 
-**Sources:** Armor Master's Handbook pg 30\
 **Aura** strong abjuration; **CL** 15th\
 **Slot** shield quality; **Price** +4 bonus; **Weight** -
 

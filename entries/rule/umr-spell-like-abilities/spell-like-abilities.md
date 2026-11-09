@@ -8,12 +8,14 @@ parent = "ref/umr/spell-like-abilities"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "json/umr.json#spell_like_abilities|section:spell-like-abilities", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "299"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Bestiary 5 pg 299\
 Spell-like abilities are magical and work just like spells (though they are not spells and so have
 no verbal, somatic, focus, or material components). They go away in an
 [antimagic field](ref/spell/antimagic-field) and are subject to

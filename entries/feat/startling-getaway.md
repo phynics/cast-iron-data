@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "startling_getaway", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "92"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ normal = "You can take only a single standard or move action during a surprise r
 +++
 
 ## Startling Getaway (Combat)
-
-**Sources:** Ultimate Intrigue pg 92
 
 You strike with surprise and then run circles around your foe.\
 **Prerequisites:** Startling appearance class feature.\

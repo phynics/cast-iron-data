@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_ray_shield", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "18"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you use the Ray Shield feat, your shield is not affected by the 
 +++
 
 ## Greater Ray Shield (Combat, Shield Mastery)
-
-**Sources:** Armor Master's Handbook pg 18
 
 You can turn your shield to deflect rays and other ranged attacks without harming it.\
 **Prerequisites:** Dex 17, [Missile Shield](ref/feat/missile-shield),

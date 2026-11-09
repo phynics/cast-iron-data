@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dwarven_fury", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "12"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When using Dwarven Seething, you can maintain bonuses from both your 
 +++
 
 ## Dwarven Fury (Combat)
-
-**Sources:** Weapon Master's Handbook pg 12
 
 You can channel your hatred against many opponents.\
 **Prerequisites:** [Dwarven Hatred Style](ref/feat/dwarven-hatred-style),

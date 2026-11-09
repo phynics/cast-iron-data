@@ -6,6 +6,9 @@ source_ids = ["pathfinder-124-city-in-the-deep"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_lily", path = "json/monsters27.json" },
 ]
+[[sources]]
+publication = "pathfinder-124-city-in-the-deep"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ plant monster. A pair of stout vine-like appendages sprout from either side of i
 
 **Type:** plant
 
-**Sources:** Pathfinder \#124: City in the Deep pg 84\
 **Subtype:** Aquatic
 
 **tremorsense:** 60

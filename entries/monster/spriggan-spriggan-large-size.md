@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spriggan_spriggan_large_size", path = "json/monsters38.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "257"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ abilities = ["21", "17", "18", "10", "10", "9"]
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 2 pg 257\
 **Subtype:** Gnome
 
 **Experience points:** 800

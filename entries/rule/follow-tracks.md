@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "follow_tracks", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "65"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 65
 
 You must succeed at a Survival check to find or follow tracks for up to 1 mile. You must attempt an
 additional check each time the tracks become difficult to follow. While following tracks, you move

@@ -6,6 +6,12 @@ source_ids = ["people-of-the-north", "ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "helm_of_the_mammoth_lord", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "people-of-the-north"
+page = "29"
+[[sources]]
+publication = "ultimate-equipment"
+page = "244"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** People of the North pg 29, Ultimate Equipment pg 244\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** head; **Price** 8,500 gp; **Weight** 3 lbs.
 

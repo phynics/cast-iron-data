@@ -6,12 +6,17 @@ source_ids = ["mythic-adventures", "heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "upa_6", path = "json/rules_campaign_types07.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "51"
+[[sources]]
+publication = "heroes-of-golarion"
+page = "31"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 51, Heroes of Golarion pg 31\
 You must be at least 6th tier to select these path abilities.
 
 **Farwalker (Sp):** The boundaries of the Material Plane mean little to you. You can plane shift

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/magus" },
 ]
+[[sources]]
+publication = "the-harrow-handbook"
+page = "24"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Spellstrike", "Magus arcana gained at 3rd level"]
 alters = ["Arcane pool"]
 +++
 
-**Sources:** The Harrow Handbook pg 24\
 Though it is known primarily as a tool of knowledge, the harrow is also an instrument of defense and
 even war. The card caster is an ancient, martial offshoot of the traditional harrower, learning to
 not only draw power from the harrow, but also to invest each card with deadly power.

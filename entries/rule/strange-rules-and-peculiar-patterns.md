@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "strange_rules_and_peculiar_patterns", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "220"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 220
 
 The behavior of occult denizens often falls into unusual patterns. As discussed above, these
 patterns often manifest in architecture, but they also show up as odd coincidences that have

@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eagle_giant_eagle", path = "json/monsters09.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "118"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ talons are dark yellow._
 
 **Senses:** Low-light vision
 
-**Sources:** Pathfinder RPG Bestiary pg 118\
 **Experience points:** 800
 
 **Armor class:** 15/12/12

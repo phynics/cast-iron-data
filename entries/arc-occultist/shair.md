@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/occultist" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "102"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Implements", "Magic item skill", "object reading", "Aura sight"]
 alters = ["Mental focus", "spellcasting", "implement mastery", "Outside contact"]
 +++
 
-**Sources:** Occult Adventures pg 102\
 Sha'irs delve into the occult not through power over objects but instead via their connection with
 minor servitor genies from the elemental planes. A sha'ir's jin is both a precious ally and a living
 implement for its master.

@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "last_rites", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "30"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "As a standard action, you can make a melee touch attack against any h
 +++
 
 ## Last Rites (Conduit)
-
-**Sources:** Planar Adventures pg 30
 
 You offer a path to the Boneyard for the walking dead and restless spirits.\
 **Prerequisites:** Knowledge (planes) 3 ranks, Knowledge (religion) 3 ranks.\

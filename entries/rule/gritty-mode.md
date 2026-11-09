@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gritty_mode", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "137"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 137
 
 For a grittier game in which wounds have a much larger impact, double the penalties imposed by the
 grazed, wounded, and critical conditions. Use this mode carefully, since it can cause a serious

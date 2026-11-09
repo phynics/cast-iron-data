@@ -6,6 +6,9 @@ source_ids = ["bestiary-5", "bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trample", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "300"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Trample (Ex)
 
-**Sources:** Bestiary 5 pg 300\
 As a full-round action, a creature with the trample ability can attempt to overrun any creature that
 is at least one size category smaller than itself. This works just like the overrun combat maneuver,
 but the trampling creature does not need to attempt a check; it merely has to move over opponents in

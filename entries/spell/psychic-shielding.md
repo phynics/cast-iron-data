@@ -6,12 +6,14 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychic_shielding", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "212"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Occult Adventures pg 212\
 **School** abjuration; **Level** 6\
 **Casting Time** 60 minutes\
 **Components** V, S, M (diamond dust worth 500 gp), F (mithral mirrors worth a total of 10,000 gp

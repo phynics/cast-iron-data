@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ranger" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "125"
 
 [fields]
 kind = "archetype"
 replaces = ["Favored enemy", "Hunter's bond", "Evasion", "Quarry", "improved quarry", "Improved evasion"]
 +++
 
-**Sources:** Advanced Player's Guide pg 125\
 Many rangers are loners, but some choose to use their familiarity with the land to guide others
 safely through the wilderness. The guide forgoes a _favored enemy_ to focus on the task or foe at
 hand, and can pass his knowledge and luck on to his charges. A guide has the following class

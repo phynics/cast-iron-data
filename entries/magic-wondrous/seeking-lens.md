@@ -6,6 +6,9 @@ source_ids = ["pathfinder-131-the-reapers-right-hand"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seeking_lens", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "pathfinder-131-the-reapers-right-hand"
+page = "33"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "11th"
 +++
 
-**Sources:** Pathfinder \#131: The Reaper's Right Hand pg 33\
 **Aura** moderate divination; **CL** 11th\
 **Slot** none; **Price** 20,000 gp; **Weight** 1 lb.
 

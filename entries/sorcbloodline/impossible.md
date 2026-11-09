@@ -6,13 +6,15 @@ source_ids = ["champions-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "impossible", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
+[[sources]]
+publication = "champions-of-balance"
+page = "21"
 
 [fields]
 kind = "class_option"
 group = "sorcerer-bloodline"
 +++
 
-**Sources:** Champions of Balance pg 21\
 You can see beyond the mundane, and are capable of visualizing the improbable, and even the
 impossible. This ability derives from an equally unlikely source, such as the godmind of the
 axiomites or the monad of aeons. If this expanded perception doesn't drive you mad, you may learn to

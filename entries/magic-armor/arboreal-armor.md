@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arboreal_armor", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-wild"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Sources:** Heroes of the Wild pg 28\
 **Aura** moderate transmutation; **CL** 9th\
 **Slot** armor; **Price** 18,670 gp; **Weight** 25 lbs.
 

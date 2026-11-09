@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "archon_star_archon", path = "json/monsters02.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "32"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ _[magic circle against evil](ref/spell/magic-circle-against-evil)_
 
 **Senses:** Darkvision 60 ft., Detect evil, Low-light vision, True seeing
 
-**Sources:** Bestiary 2 pg 32\
 **Subtype:** Archon, Extraplanar, Good, Lawful
 
 **Experience points:** 204,800

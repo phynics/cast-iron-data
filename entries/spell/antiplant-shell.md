@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "antiplant_shell", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "243"
 
 [fields]
 kind = "spell"
@@ -37,8 +40,6 @@ Saving throw: none
 Spell resistance: yes
 Area: 10-ft.-radius emanantion, centered on you
 :::
-
-**Sources:** PRPG Core Rulebook pg 243
 
 The antiplant shell spell creates an invisible, mobile barrier that keeps all creatures within the
 shell protected from attacks by plant creatures or animated plants. As with many abjuration spells,

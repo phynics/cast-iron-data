@@ -6,12 +6,13 @@ source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "black_market_rules", path = "json/rules_rulesets01.json" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "6"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Black Markets pg 6
 
 Black markets represent a risky way for the canny adventurer to make lucrative business deals and
 find special treasures.

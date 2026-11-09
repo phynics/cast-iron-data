@@ -6,6 +6,9 @@ source_ids = ["pathfinder-92-the-hill-giants-pledge"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skapraun", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "pathfinder-92-the-hill-giants-pledge"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ of a mountain goat._
 
 **Size:** small
 
-**Sources:** Pathfinder \#92: The Hill Giant's Pledge pg 88\
 **Experience points:** 400
 
 **Armor class:** 12/12/11

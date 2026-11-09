@@ -6,6 +6,9 @@ source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trollskin_tourniquet", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "healers-handbook"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "11th"
 +++
 
-**Sources:** Healer's Handbook pg 31\
 **Aura** moderate conjuration; **CL** 11th\
 **Slot** none; **Price** 3,850 gp; **Weight** -
 

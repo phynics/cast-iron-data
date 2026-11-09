@@ -6,13 +6,14 @@ source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "order_of_the_guard", path = "json/class_ability_orders.json" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "30"
 
 [fields]
 kind = "class_option"
 group = "order"
 +++
-
-**Sources:** Inner Sea Combat pg 30
 
 Cavaliers who join the order of the guard dedicate themselves to the staunch and unyielding
 protection of a specific person or object - generally one they have been hired to protect. Members

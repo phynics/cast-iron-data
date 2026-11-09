@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "occult_rules", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "194"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 194
 
 One of the most fundamental elements of an occult game is the idea that those versed in the
 supernatural can use strange, hidden powers that are inaccessible to others. This section contains a

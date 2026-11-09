@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "altitude_fern", path = "json/magic_plant.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "248"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "6th"
 +++
 
-**Sources:** Ultimate Wilderness pg 248\
 **Aura** moderate abjuration; **CL** 6th\
 **Slot** none; **Price** 12,000 gp; **Weight** 50 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["taldor-echoes-of-glory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "admonishing_ray", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "taldor-echoes-of-glory"
+page = "24"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: yes
 Effect: one or more rays
 Descriptors: force
 :::
-
-**Sources:** Taldor, Echoes of Glory pg 24
 
 You blast your enemies with rays of nonlethal force. You may fire one ray, plus one additional ray
 for every four levels you possess beyond 3rd (to a maximum of three rays at 11th level). Each ray

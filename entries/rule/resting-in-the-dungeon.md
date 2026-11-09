@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "resting_in_the_dungeon", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "177"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 177
 
 It happens to every adventuring party - you power through half dozen or so encounters and suddenly
 the prospect of facing the tougher encounters at the end of the dungeon with your depleted resources

@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nexus_crystal", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "160"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration"
 caster_level = "18th"
 +++
 
-**Sources:** Mythic Adventures pg 160\
 **Aura** strong conjuration; **CL** 18th\
 **Slot** none; **Price** -; **Weight** 1 lb.
 

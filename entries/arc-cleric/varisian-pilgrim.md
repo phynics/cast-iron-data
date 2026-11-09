@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cleric" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "42"
 
 [fields]
 kind = "archetype"
 replaces = ["Domains", "Proficiency with medium armor and shields - she retains proficiency with light armor only", "An 8th-level domain power of the Varisian pilgrim's choice"]
 +++
 
-**Sources:** Inner Sea Magic pg 42\
 While most clerics are associated with a particular temple, adventuring clerics spend much of their
 time away from their favored place of worship, and there are those who worship primarily on the road
 and during the journey. These clerics see the act of travel and the arrival at sites sacred to their

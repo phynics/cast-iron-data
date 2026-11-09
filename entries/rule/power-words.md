@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "power_words", path = "json/rules_opt_magic03.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "182"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 182
 
 Perhaps the most primal effect words, power words draw upon raw magic, using it to cripple and even
 kill the wordcaster's foes.

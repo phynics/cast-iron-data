@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment", "knights-of-the-inner-sea", "wilderness-orig
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "camel", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "81"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "150 gp"
 weight = "1,500 lbs"
 +++
 
-**Sources:** Ultimate Equipment pg 81\
 **Price** 150 gp; **Weight** 1,500 lbs\
 **Category** Mounts/Pets
 

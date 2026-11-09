@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "journeyman_carpenter", path = "json/npcs.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "261"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "2"
 
 **Challenge rating:** 2
 
-**Sources:** NPC Codex pg 261\
 **XP** 600\
 Half-orc [expert](ref/npcclass/expert) 4\
 N Medium humanoid (human, orc)\

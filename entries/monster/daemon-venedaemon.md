@@ -6,6 +6,12 @@ source_ids = ["bestiary-6", "book-of-the-damned-volume-3-horsemen-of-the-apocaly
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daemon_venedaemon", path = "json/monsters06.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "78"
+[[sources]]
+publication = "book-of-the-damned-volume-3-horsemen-of-the-apocalypse"
+page = "60"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ face is a disturbing, toothless maw._
 
 **Senses:** Arcane sight, Darkvision 60 ft.
 
-**Sources:** Bestiary 6 pg 78, Book of the Damned - Volume 3: Horsemen of the Apocalypse pg 60\
 **Subtype:** Daemon, Evil, Extraplanar
 
 **Experience points:** 1,600

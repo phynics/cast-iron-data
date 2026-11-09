@@ -8,12 +8,14 @@ parent = "ref/umr/undead-traits"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "json/umr.json#undead_traits|section:undead-traits", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "301"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Bestiary 5 pg 301\
 [Undead](ref/type/undead) are immune to death effects, disease, mind-affecting effects (charms,
 compulsions, morale effects, patterns, and phantasms), paralysis, poison, sleep, stun, and any
 effect that requires a Fortitude save (unless the effect also works on objects or is harmless).

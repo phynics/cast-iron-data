@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mages_sword", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "307"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: yes
 Effect: one sword
 Descriptors: force
 :::
-
-**Sources:** PRPG Core Rulebook pg 307
 
 This spell brings into being a shimmering, sword-like plane of force. The sword strikes at any
 opponent within its range, as you desire, starting in the round that you cast the spell. The sword

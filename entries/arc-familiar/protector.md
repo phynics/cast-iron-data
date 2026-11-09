@@ -6,13 +6,18 @@ source_ids = ["ultimate-wilderness", "familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "protector", path = "json/archetypes_FAMILIAR.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "212"
+[[sources]]
+publication = "familiar-folio"
+page = "11"
 
 [fields]
 kind = "archetype"
 replaces = ["Alertness", "improved evasion", "Deliver touch spells", "speak with animals of its kind", "Spell resistance"]
 +++
 
-**Sources:** Ultimate Wilderness pg 212, Familiar Folio pg 11\
 Protector familiars are so devoted that they would give their lives for their masters. A tumor
 familiar can't be a protector.
 

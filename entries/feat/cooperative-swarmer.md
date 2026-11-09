@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cooperative_swarmer", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "blood-of-the-beast"
+page = "22"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can share a square with an ally your size or larger, even if your
 +++
 
 ## Cooperative Swarmer (Combat)
-
-**Sources:** Blood of the Beast pg 22
 
 You're a team player and help out those normally too large or clumsy to fight in close quarters with
 you.\

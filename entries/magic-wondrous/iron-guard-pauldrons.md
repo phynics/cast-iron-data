@@ -6,6 +6,9 @@ source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "iron_guard_pauldrons", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Sources:** Inner Sea Combat pg 60\
 **Aura** faint abjuration; **CL** 3rd\
 **Slot** shoulders; **Price** 5,750 gp; **Weight** 6 lbs.
 

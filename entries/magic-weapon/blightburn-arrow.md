@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blightburn_arrow", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-darklands"
+page = "14"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation and necromancy"
 caster_level = "7th"
 +++
 
-**Sources:** Heroes of the Darklands pg 14\
 **Aura** moderate evocation and necromancy; **CL** 7th\
 **Slot** none; **Price** 3,000 gp; **Weight** 1/10 lb.
 

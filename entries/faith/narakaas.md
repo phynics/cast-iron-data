@@ -6,6 +6,9 @@ source_ids = ["concordance-of-rivals"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "narakaas", path = "json/faiths6.json" },
 ]
+[[sources]]
+publication = "concordance-of-rivals"
+page = "13"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Narakaas**
 
 **Sub:** The Cleansing Sentence
-
-**Sources:** Concordance of Rivals pg 13
 
 ### Details
 

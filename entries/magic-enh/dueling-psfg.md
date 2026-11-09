@@ -6,6 +6,9 @@ source_ids = ["pathfinder-society-field-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dueling_psfg", path = "json/magic_enhancements.json" },
 ]
+[[sources]]
+publication = "pathfinder-society-field-guide"
+page = "50"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Sources:** Pathfinder Society Field Guide pg 50\
 **Aura** moderate transmutation; **CL** 7th\
 **Slot** none; **Price** +1 bonus; **Weight** -
 

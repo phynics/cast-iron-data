@@ -6,6 +6,9 @@ source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bell_tripwire_trap", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "20"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "2 gp"
 weight = "2 lbs."
 +++
 
-**Sources:** Ranged Tactics Toolbox pg 20\
 **Price** 2 gp; **Weight** 2 lbs.\
 **Category** Adventuring Gear
 

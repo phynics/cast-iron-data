@@ -6,6 +6,9 @@ source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragonvoice", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "dragonslayers-handbook"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Dragonslayer's Handbook pg 28
 
 By magically altering the way your vocal cords create sounds, you can emulate the vocal inflections
 of dragons. This grants a +6 circumstance bonus on Charisma checks and Charisma-related skill checks

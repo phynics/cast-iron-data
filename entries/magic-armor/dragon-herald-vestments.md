@@ -6,6 +6,9 @@ source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_herald_vestments", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "kobolds-of-golarion"
+page = "30"
 
 [fields]
 kind = "item"
@@ -16,8 +19,6 @@ slot = "body"
 aura = "faint abjuration"
 caster_level = "3rd"
 +++
-
-**Sources:** Kobolds of Golarion pg 30
 
 **Aura** faint abjuration; **CL** 3rd\
 **Slot** body; **Price** 30,000 gp; **Weight** 1 lb.

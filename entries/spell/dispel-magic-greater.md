@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/dispel-magic" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "272"
 
 [fields]
 kind = "spell"
@@ -60,8 +63,6 @@ Spell resistance: no
 :::
 
 ### Greater Dispel Magic
-
-**Sources:** PRPG Core Rulebook pg 272
 
 This spell functions like [dispel magic](ref/spell/dispel-magic), except that it can end more than
 one spell on a target and it can be used to target multiple creatures.

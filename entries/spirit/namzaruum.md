@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "namzaruum", path = "json/class_ability_spirits.json" },
 ]
+[[sources]]
+publication = "blood-of-the-ancients"
+page = "24"
 
 [fields]
 kind = "class_option"
@@ -14,7 +17,6 @@ replaces = ["Decisive strike"]
 alters = ["Marshal's order"]
 +++
 
-**Sources:** Blood of the Ancients pg 24\
 Not all gods of Ninshabur are forgotten. Prophets of the herogod Namzaruum claim he rests in the
 Hall of Slumbering Kings, but will return to lead the faithful to victory.
 

@@ -6,15 +6,24 @@ source_ids = ["ranged-tactics-toolbox", "adventurers-armory", "advanced-players-
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pilum", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "0"
+[[sources]]
+publication = "adventurers-armory"
+page = "4"
+[[sources]]
+publication = "advanced-players-guide"
+page = "179"
+[[sources]]
+publication = "ultimate-equipment"
+page = "19"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "4 lbs."
 +++
-
-**Sources:** Ranged Tactics Toolbox pg 0, Adventurer's Armory pg 4, Advanced Player's Guide pg 179,
-Ultimate Equipment pg 19
 
 The tip of this heavy [javelin](ref/eq-weapon/javelin) is designed to break off and embed itself
 into a shield once it hits. Like ammunition, a thrown pilum that hits its target is destroyed. If

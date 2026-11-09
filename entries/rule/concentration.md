@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "concentration", path = "json/rules_basics04.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "206"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 206
 
 To cast a spell, you must concentrate. If something interrupts your concentration while you're
 casting, you must make a concentration check or lose the spell. When you make a concentration check,

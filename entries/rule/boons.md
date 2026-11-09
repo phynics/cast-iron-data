@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boons", path = "json/rules_campaign_types05.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "240"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 240
 
 Boons are special abilities a commander grants to an army. Most of these boons affect the rolls and
 statistics for battles, and the commander must be present at the battle to provide their benefit. A

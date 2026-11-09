@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_cleaving_finish", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "105"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You can use Cleaving Finish any number of times per round."
 +++
 
 ## Improved Cleaving Finish (Combat)
-
-**Sources:** Ultimate Combat pg 105
 
 You can cut down many opponents in a single strike.\
 **Prerequisites:** Str 13, [Cleave](ref/feat/cleave), [Cleaving Finish](ref/feat/cleaving-finish),

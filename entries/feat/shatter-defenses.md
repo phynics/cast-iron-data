@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shatter_defenses", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "133"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Any shaken, frightened, or panicked opponent hit by you this round is
 +++
 
 ## Shatter Defenses (Combat)
-
-**Sources:** PRPG Core Rulebook pg 133
 
 Your skill with your chosen weapon leaves opponents unable to defend themselves if you strike them
 when their defenses are already compromised.\

@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "uncanny_dodge", path = "json/class_abilities6.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** PRPG Core Rulebook\
 A character with this ability can react to danger before their senses would normally allow them to
 do so. They cannot be caught [flat-footed](ref/rule/flat-footed), nor do they lose their Dexterity
 bonus to AC if the attacker is invisible. They still loses their Dexterity bonus to AC if

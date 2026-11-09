@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nightmare_cauchemar", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "216"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ _This towering, burning equine stands upon smoking hooves. Hellfire shimmers in 
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 216\
 **Subtype:** Evil, Extraplanar
 
 **Experience points:** 12,800

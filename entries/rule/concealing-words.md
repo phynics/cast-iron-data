@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "concealing_words", path = "json/rules_opt_magic03.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "173"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 173
 
 Words from this family hide creatures and objects from observation and detection.
 

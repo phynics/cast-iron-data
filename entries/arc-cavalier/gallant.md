@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cavalier" },
 ]
+[[sources]]
+publication = "heroes-of-the-high-court"
+page = "12"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Banner", "Greater banner"]
 alters = ["The cavalier's order"]
 +++
 
-**Sources:** Heroes of the High Court pg 12\
 Gallants embody the virtues of honor, generosity, and civility. Their personal symbol serves as an
 inspiration to others in a courtly setting as much as on a battlefield.
 

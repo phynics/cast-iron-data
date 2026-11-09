@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snake_staff", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "245"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: Will negates (object)
 Spell resistance: yes (object)
 Target: 1 or more pieces of wood, no two of which can be more than 30 ft. apart
 :::
-
-**Sources:** Advanced Player's Guide pg 245
 
 With a long hissing whisper, you transform ordinary pieces of wood into various sorts of snakes that
 immediately attack your foes. As long as the snakes remain within sight, you can direct their

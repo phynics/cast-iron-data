@@ -6,14 +6,15 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadowdancer", path = "json/prestige_classes3.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "391"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d8."
 +++
-
-**Sources:** PRPG Core Rulebook pg 391
 
 Civilized folk have always feared the night, barring themselves behind doors or comforting
 themselves with bonfires when the shadows grow long, rightfully wary of the creatures that prowl the

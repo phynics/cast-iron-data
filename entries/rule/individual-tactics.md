@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "individual_tactics", path = "json/rules_adv_gm02.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "146"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 146
 
 These tactics apply to individual characters, and each character decides whether she's using the
 tactic.

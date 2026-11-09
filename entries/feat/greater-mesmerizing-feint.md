@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_mesmerizing_feint", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "134"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "Feinting against a creature that is mindless is impossible."
 +++
 
 ## Greater Mesmerizing Feint (Combat)
-
-**Sources:** Occult Adventures pg 134
 
 You can feint against nearly any creature.\
 **Prerequisites:** [Mesmerizing Feint](ref/feat/mesmerizing-feint), Bluff 10 ranks, hypnotic stare

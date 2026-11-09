@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "armor_material_expertise", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "16"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When wearing armor made of one of the materials listed below, you can
 +++
 
 ## Armor Material Expertise (Armor Mastery, Combat)
-
-**Sources:** Armor Master's Handbook pg 16
 
 You tap into the potential of your armor's special material.\
 **Prerequisites:** Base attack bonus +6 or fighter level 4th, armor training class feature.\

@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "secluded_grimoire", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "17"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: no
 Target: spellbook touched
 Subschool: Summoning
 :::
-
-**Sources:** Magic Tactics Toolbox pg 17
 
 This spell sends a spellbook into a random but safe location on the Ethereal Plane, where it remains
 indefinitely. When you cast this spell, the target spellbook dissolves into quickly fading lines of

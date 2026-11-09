@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sensory_deprivation_hood", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "261"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "10th"
 +++
 
-**Sources:** Occult Adventures pg 261\
 **Aura** moderate divination; **CL** 10th\
 **Slot** head; **Price** 27,500 gp; **Weight** 5 lbs.
 

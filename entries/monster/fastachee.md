@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fastachee", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "114"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ basket filled with corn._
 
 **Senses:** Low-light vision, Plant projection
 
-**Sources:** Bestiary 5 pg 114\
 **Size:** tiny
 
 **Experience points:** 12,800

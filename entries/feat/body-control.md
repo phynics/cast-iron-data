@@ -6,6 +6,9 @@ source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "body_control", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "faiths-and-philosophies"
+page = "19"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "For 24 hours after you meditate, you gain a +1 bonus on Fortitude sav
 +++
 
 ## Body Control (Meditation)
-
-**Sources:** Faiths and Philosophies pg 19
 
 You can directly manipulate your autonomic functions.\
 **Prerequisites:** Wis 11, [Meditation Master](ref/feat/meditation-master).\

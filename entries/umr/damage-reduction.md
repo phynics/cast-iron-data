@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "damage_reduction", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "291"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Damage Reduction (Ex or Su)
 
-**Sources:** Bestiary 5 pg 291\
 The creature ignores damage from most weapons and natural attacks. Wounds heal immediately, or the
 weapon bounces off harmlessly (in either case, the opponent knows the attack was ineffective). The
 creature takes normal damage from energy attacks (even nonmagical ones), spells,

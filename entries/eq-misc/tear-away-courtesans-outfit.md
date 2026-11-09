@@ -6,6 +6,9 @@ source_ids = ["adventurers-armory-2", "ultimate-equipment", "adventurers-armory"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tear_away_courtesans_outfit", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "20"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "4 lbs."
 
 ## Courtesan's outfit
 
-**Sources:** Adventurer's Armory 2 pg 20\
 **Price** 8 gp; **Weight** 4 lbs.\
 **Category** Clothing
 

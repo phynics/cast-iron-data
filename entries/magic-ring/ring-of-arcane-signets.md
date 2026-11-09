@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_arcane_signets", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "167"
+[[sources]]
+publication = "advanced-players-guide"
+page = "292"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint universal"
 caster_level = "8th"
 +++
 
-**Sources:** Ultimate Equipment pg 167, Advanced Player's Guide pg 292\
 **Aura** faint universal; **CL** 8th\
 **Slot** ring; **Price** 1,000 gp; **Weight** -
 

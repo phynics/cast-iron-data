@@ -6,6 +6,9 @@ source_ids = ["bestiary-4", "pathfinder-81-shifting-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mummified_creature", path = "json/monster_template3.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "197"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +1 or +2
-
-**Source:** Bestiary 4/197
 
 Many ancient cultures mummify their dead, preserving the bodies of the deceased through lengthy and
 complex funerary and embalming processes. While the vast majority of these corpses are mummified

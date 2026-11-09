@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hidden_speech", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "227"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: yes
 Target: you plus one creature/level, no two of which can be more than 30 ft. apart
 Descriptors: language-dependant
 :::
-
-**Sources:** Advanced Player's Guide pg 227
 
 You greatly enhance the ability of the subjects to communicate hidden messages to each other. Each
 target gains a +10 competence bonus on Bluff checks to send secret message to other recipients.

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/acrobatic", label = "or" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "156"
 
 [fields]
 kind = "feat"
@@ -19,8 +22,6 @@ benefit = "You can use Acrobatics instead of Bluff to feint in combat."
 +++
 
 ## Slayer's Feint (Combat)
-
-**Sources:** Advanced Class Guide pg 156
 
 You rely on your deceptive speed and agility instead of trickery to catch your opponents unprepared.\
 **Prerequisites:** Dex 15, [Acrobatic](ref/feat/acrobatic) or slayer level 1st,

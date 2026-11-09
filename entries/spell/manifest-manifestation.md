@@ -6,12 +6,14 @@ source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "manifest_manifestation", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "193"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Book of the Damned pg 193\
 **School** divination; **Level** 9\
 **Casting Time** 90 minutes\
 **Components** S, F (the complete [Book of the Damned](ref/magic-artifact/book-of-the-damned) or the

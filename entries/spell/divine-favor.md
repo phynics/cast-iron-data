@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divine_favor", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "273"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** PRPG Core Rulebook pg 273
 
 Calling upon the strength and wisdom of a deity, you gain a +1 luck bonus on attack and weapon
 damage rolls for every three caster levels you have (at least +1, maximum +3). The bonus doesn't

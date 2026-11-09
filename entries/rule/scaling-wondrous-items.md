@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scaling_wondrous_items", path = "json/rules_opt_magic02.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "168"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 168
 
 Wondrous items are diverse. Some must be worn in a specific magic item slot in order to work, while
 others must merely be possessed and used. "Wondrous item" is a catch-all category for anything that

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cleric" },
 ]
+[[sources]]
+publication = "monster-summoners-handbook"
+page = "7"
 
 [fields]
 kind = "archetype"
 alters = ["Class skills", "Domains", "armor proficiencies"]
 +++
 
-**Sources:** Monster Summoner's Handbook pg 7\
 Unlike warpriests or paladins, who charge headlong into battle in the name of their patron deities,
 herald callers are adept at calling powerful outsiders to aid their brethren in battle.
 

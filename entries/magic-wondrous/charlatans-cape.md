@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charlatans_cape", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "262"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong evocation and illusion"
 caster_level = "13th"
 +++
 
-**Sources:** Ultimate Equipment pg 262\
 **Aura** strong evocation and illusion; **CL** 13th\
 **Slot** shoulders; **Price** 45,000 gp; **Weight** 1 lb.
 

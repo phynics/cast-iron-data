@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_studied_combatant", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "150"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Int 13, Amateur Investigator, Studied Combatant, base attack bo
 prerequisite_feats = ["ref/feat/amateur-investigator", "ref/feat/studied-combatant"]
 benefit = "Your bonuses for Studied Combatant increase to a +4 insight bonus on melee attack rolls and a +4 bonus on damage rolls. This feat otherwise works like the Studied Combatant feat."
 +++
-
-**Sources:** Advanced Class Guide pg 150
 
 Deep understanding of your foes' tactics grants you the upper hand in combat.\
 **Prerequisites:** Int 13, [Amateur Investigator](ref/feat/amateur-investigator),

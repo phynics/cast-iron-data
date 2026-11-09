@@ -6,14 +6,24 @@ source_ids = ["bestiary-6", "bestiary", "bestiary-2", "bestiary-3", "bestiary-4"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental", path = "json/monster_subtypes.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+[[sources]]
+publication = "bestiary"
+[[sources]]
+publication = "bestiary-2"
+[[sources]]
+publication = "bestiary-3"
+[[sources]]
+publication = "bestiary-4"
+[[sources]]
+publication = "bestiary-5"
 
 [fields]
 kind = "none"
 +++
 
 ## Subtype: Elemental
-
-**Sources:** Bestiary 6, Pathfinder RPG Bestiary, Bestiary 2, Bestiary 3, Bestiary 4, Bestiary 5
 
 An [elemental](ref/family/elemental) is a being composed entirely from one or more of the four
 classical elements - air, earth, fire, or water - or the less common element called aether. An

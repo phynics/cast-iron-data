@@ -6,6 +6,9 @@ source_ids = ["orcs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vigor", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "orcs-of-golarion"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes
 Target: creature touched
 :::
-
-**Sources:** Orcs of Golarion pg 28
 
 This spell infuses the subject with a small surge of strength. The creature gets a +1 competence
 bonus on a single melee damage roll. It must choose to use the bonus before making the roll to which

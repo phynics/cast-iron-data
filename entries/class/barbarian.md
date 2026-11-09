@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "advanced-players-guide", "advanced-race-guide", 
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "barbarian", path = "json/classes7.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "31"
 
 [fields]
 kind = "class"
@@ -13,8 +16,6 @@ class_type = "core"
 hit_die = "d12"
 skill_ranks = "4 + Int modifier"
 +++
-
-**Sources:** PRPG Core Rulebook pg 31
 
 For some, there is only rage. In the ways of their people, in the fury of their passion, in the howl
 of battle, conflict is all these brutal souls know. Savages, hired muscle, masters of vicious

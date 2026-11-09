@@ -6,6 +6,9 @@ source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tatzlwyrm_grappler", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "legacy-of-dragons"
+page = "21"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While you're using the Tatzlwyrm Style feat, whenever an opponent att
 +++
 
 ## Tatzlwyrm Grappler (Combat)
-
-**Sources:** Legacy of Dragons pg 21
 
 You can twist and bend in a way that makes you extremely difficult to grab.\
 **Prerequisites:** Dex 13, [Improved Grapple](ref/feat/improved-grapple),

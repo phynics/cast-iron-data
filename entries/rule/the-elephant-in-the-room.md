@@ -6,12 +6,12 @@ source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_elephant_in_the_room", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "the-elephant-in-the-room-feat-taxes-in-pathfinder"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder
 
 > In September of 2012, my brother and I^1^ released a blog post discussing the issue of feat taxes
 > in the _Pathfinder Roleplaying Game._ Although the post was intended to be a one-off thought

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "contact_other_plane", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "259"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** PRPG Core Rulebook pg 259
 
 You send your mind to another plane of existence (an Elemental Plane or some plane farther removed)
 in order to receive advice and information from powers there. See the accompanying table for

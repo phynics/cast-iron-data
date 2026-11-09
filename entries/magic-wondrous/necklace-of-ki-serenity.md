@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "necklace_of_ki_serenity", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "260"
+[[sources]]
+publication = "advanced-players-guide"
+page = "308"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate enchantment"
 caster_level = "9th"
 +++
 
-**Sources:** Ultimate Equipment pg 260, Advanced Player's Guide pg 308\
 **Aura** moderate enchantment; **CL** 9th\
 **Slot** neck; **Price** 16,000 gp; **Weight** -
 

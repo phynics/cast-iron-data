@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_combat_round", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "178"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 178
 
 Each round represents 6 seconds in the game world; there are 10 rounds in a minute of combat. A
 round normally allows each character involved in a combat situation to act.

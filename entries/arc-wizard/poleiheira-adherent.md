@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/wizard" },
 ]
+[[sources]]
+publication = "blood-of-the-ancients"
+page = "18"
 
 [fields]
 kind = "archetype"
 replaces = ["Arcane bond", "Arcane school"]
 +++
 
-**Sources:** Blood of the Ancients pg 18\
 Poleiheira adherents are wizards who wish to emulate the explorations and discoveries of Arustun and
 partake in great odysseys as they seek to imitate his achievements. These adherents bond to a book
 in tribute to Arustun and his extensive journals - known as the Poleiheira. This allows them to

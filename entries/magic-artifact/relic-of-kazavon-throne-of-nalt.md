@@ -6,6 +6,12 @@ source_ids = ["artifacts-and-legends", "pathfinder-12-crown-of-fangs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "relic_of_kazavon_throne_of_nalt", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "artifacts-and-legends"
+page = "38"
+[[sources]]
+publication = "pathfinder-12-crown-of-fangs"
+page = "66"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong divination and enchantment"
 caster_level = "20th"
 +++
 
-**Sources:** Artifacts and Legends pg 38, Pathfinder \#12: Crown of Fangs pg 66\
 **Aura** strong divination and enchantment; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 3,475 lbs.
 

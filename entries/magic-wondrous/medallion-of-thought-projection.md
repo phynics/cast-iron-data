@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "medallion_of_thought_projection", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "347"
+[[sources]]
+publication = "core-rulebook"
+page = "541"
 
 [fields]
 kind = "item"
@@ -15,8 +21,6 @@ slot = "neck"
 aura = "moderate divination"
 caster_level = "7th"
 +++
-
-**Sources:** Ultimate Equipment pg 347, PRPG Core Rulebook pg 541
 
 **Aura** moderate divination; **CL** 7th\
 **Slot** neck; **Weight** -

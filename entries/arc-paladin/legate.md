@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/paladin" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "6"
 
 [fields]
 kind = "archetype"
 replaces = ["Mercy"]
 +++
 
-**Sources:** Armor Master's Handbook pg 6\
 The first legates in the Inner Sea region were ambassadors from Holomog, a celestial-worshiping
 confederation in southern Garund. Though they hold to the same strict paladin code, legates present
 themselves not as armed crusaders, but as peaceful envoys and advisors, bringing wisdom garnered

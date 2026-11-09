@@ -6,6 +6,9 @@ source_ids = ["pathfinder-72-the-witch-queens-revenge"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "labrys_of_the_stone_idol", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "pathfinder-72-the-witch-queens-revenge"
+page = "63"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong evocation"
 caster_level = "15th"
 +++
 
-**Sources:** Pathfinder \#72: The Witch Queen's Revenge pg 63\
 **Aura** strong evocation; **CL** 15th\
 **Slot** none; **Price** 98,320 gp; **Weight** 36 lbs.
 

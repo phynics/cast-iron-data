@@ -6,6 +6,9 @@ source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_frenzy_strike", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "heroes-from-the-fringe"
+page = "31"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While you are using Blood Frenzy Style, when you damage an opponent w
 +++
 
 ## Blood Frenzy Strike (Combat)
-
-**Sources:** Heroes from the Fringe pg 31
 
 Your strikes tear at an opponent's flesh, inflicting serious wounds, and you can unleash all of your
 pent-up rage in a single powerful blow.\

@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deep_marshal", path = "json/npcs4.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "191"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "15"
 
 **Challenge rating:** 15
 
-**Sources:** NPC Codex pg 191\
 **XP** 51,200\
 Dwarf abjurer 16\
 LN Medium humanoid (dwarf)\

@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fan_of_flirting", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "246"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint enchantment"
 caster_level = "1st"
 +++
 
-**Sources:** Ultimate Intrigue pg 246\
 **Aura** faint enchantment; **CL** 1st\
 **Slot** none; **Price** 1,700 gp; **Weight** -
 

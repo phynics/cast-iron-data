@@ -6,6 +6,9 @@ source_ids = ["pathfinder-112-the-whisper-out-of-time"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "great_old_one_atlach_nacha", path = "json/monsters_unique4.json" },
 ]
+[[sources]]
+publication = "pathfinder-112-the-whisper-out-of-time"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ all the more horrifying by the all-too-human appearance of its baleful visage._
 
 **Senses:** Darkvision 60 ft., See in darkness, True seeing
 
-**Sources:** Pathfinder \#112: The Whisper Out of Time pg 84\
 **Subtype:** Evil, Great Old One
 
 **Experience points:** 4,915,200

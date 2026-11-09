@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "neck", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "197"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 197
 
 The neck makes for a difficult but rewarding target. Injuries to the neck keep a creature from
 speaking easily, and if blood vessels or the windpipe are damaged, such injuries rapidly lead to

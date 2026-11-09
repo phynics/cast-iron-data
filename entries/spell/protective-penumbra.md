@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "protective_penumbra", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "233"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: yes
 Target: creature touched
 Descriptors: darkness
 :::
-
-**Sources:** Ultimate Magic pg 233
 
 This spell keeps the target slightly in shadow. A target with light blindness, light sensitivity, or
 vulnerability to sunlight (such as vampires and wraiths) may ignore penalties from those qualities.

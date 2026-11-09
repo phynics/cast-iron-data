@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "twin_fang_strike", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "105"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using Twin Fang Style, when you take an attack action while wie
 +++
 
 ## Twin Fang Strike (Combat)
-
-**Sources:** Villain Codex pg 105
 
 You strike at your enemies with both weapons simultaneously.\
 **Prerequisites:** Dex 15; [Quick Draw](ref/feat/quick-draw);

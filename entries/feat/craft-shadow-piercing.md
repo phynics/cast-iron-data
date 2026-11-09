@@ -6,6 +6,9 @@ source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "craft_shadow_piercing", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "champions-of-corruption"
+page = "28"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can create special wondrous items - typically barbs, hooks, rings
 +++
 
 ## Craft Shadow Piercing (Item Creation)
-
-**Sources:** Champions of Corruption pg 28
 
 You can craft magical piercings infused with the power of shadow.\
 **Prerequisites:** Craft (jewelry) 5 ranks, caster level 5th.\

@@ -6,12 +6,14 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "squeezing", path = "json/misc.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "193"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** PRPG Core Rulebook pg 193\
 In some cases, you may have to squeeze into or through an area that isn't as wide as the space you
 take up. You can squeeze through or into a space that is at least half as wide as your normal space.
 Each move into or through a narrow space counts as if it were 2 squares, and while squeezed in a

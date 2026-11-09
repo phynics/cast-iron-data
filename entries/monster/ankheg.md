@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ankheg", path = "json/monsters02.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "15"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ clacking mandibles._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder RPG Bestiary pg 15\
 **tremorsense:** 60
 
 **Experience points:** 800

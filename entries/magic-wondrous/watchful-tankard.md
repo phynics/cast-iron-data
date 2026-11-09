@@ -6,6 +6,9 @@ source_ids = ["inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "watchful_tankard", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "inner-sea-temples"
+page = "23"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Sources:** Inner Sea Temples pg 23\
 **Aura** faint divination; **CL** 5th\
 **Slot** none; **Price** 30,000 gp; **Weight** 10 lbs.
 

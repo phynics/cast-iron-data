@@ -6,6 +6,9 @@ source_ids = ["tombs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_equine_bone_golem", path = "json/monsters33.json" },
 ]
+[[sources]]
+publication = "tombs-of-golarion"
+page = "13"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _This mass of bones is shaped like a horse, with bizarre limbs._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Tombs of Golarion pg 13\
 **Experience points:** 9,600
 
 **Armor class:** 23/11/21

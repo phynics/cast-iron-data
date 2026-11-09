@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/summon-swarm", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "109"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 109
 
 The swarm has the advanced simple template. A swarm of rats or spiders leaves behind a trail of
 filth or ichor when it moves, which has the effects of a [grease](ref/spell/grease) spell for 1

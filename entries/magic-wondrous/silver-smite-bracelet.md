@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "silver_smite_bracelet", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "309"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Sources:** Advanced Player's Guide pg 309\
 **Aura** moderate transmutation; **CL** 9th\
 **Slot** wrists; **Price** 16,000 gp; **Weight** 1 lb.
 

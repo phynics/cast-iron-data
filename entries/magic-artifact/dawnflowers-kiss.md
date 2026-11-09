@@ -6,6 +6,9 @@ source_ids = ["pathfinder-77-herald-of-the-ivory-labyrinth"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dawnflowers_kiss", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "pathfinder-77-herald-of-the-ivory-labyrinth"
+page = "62"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong evocation"
 caster_level = "20th"
 +++
 
-**Sources:** Pathfinder \#77: Herald of the Ivory Labyrinth pg 62\
 **Aura** strong evocation; **CL** 20th\
 **Slot** weapon; **Price** -; **Weight** 4 lbs.
 

@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spellblights", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "94"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 94
 
 Spellblights are rare and unusual magical conditions that uniquely affect spellcasters, including
 creatures that use [spell-like abilities](ref/umr/spell-like-abilities). Spellblights are curses,

@@ -6,6 +6,12 @@ source_ids = ["bestiary-2", "into-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "serpentfolk", path = "json/monsters21.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "242"
+[[sources]]
+publication = "into-the-darklands"
+page = "56"
 
 [fields]
 kind = "creature"
@@ -40,7 +46,6 @@ _This serpentine humanoid has bright scaly skin, a long sinuous tail, and a fang
 
 **Senses:** Darkvision 60 ft., Scent
 
-**Sources:** Bestiary 2 pg 242, Into the Darklands pg 56\
 **Experience points:** 1,200
 
 **Armor class:** 18/15/13

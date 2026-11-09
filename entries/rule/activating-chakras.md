@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "activating_chakras", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "200"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 200
 
 Awakening the chakras requires a basic mastery of ki energy techniques, and is possible only for an
 initiate with the ki pool class feature or some other means of utilizing ki (such as the rogue's ki

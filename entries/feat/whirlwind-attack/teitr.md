@@ -6,6 +6,8 @@ source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/whirlwind-attack" },
 ]
+[[sources]]
+publication = "the-elephant-in-the-room-feat-taxes-in-pathfinder"
 
 [fields]
 kind = "feat"
@@ -15,7 +17,6 @@ prerequisite_feats = ["ref/feat/combat-expertise", "ref/feat/dodge", "ref/feat/s
 benefit = "When you use the full-attack action, you can give up your regular attacks and instead make one melee attack at your highest base attack bonus against each opponent within reach. You must make a separate attack roll against each opponent."
 +++
 
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 You can strike out at every foe within reach.\
 **Prerequisites:** Dex 13, Int 13, [Combat Expertise](ref/feat/combat-expertise),
 [Dodge](ref/feat/dodge), [Spring Attack](ref/feat/spring-attack), base attack bonus +4.\

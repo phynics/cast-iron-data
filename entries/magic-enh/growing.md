@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "growing", path = "json/magic_enhancements.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "26"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "6th"
 +++
 
-**Sources:** Melee Tactics Toolbox pg 26\
 **Aura** moderate transmutation; **CL** 6th\
 **Slot** none; **Price** +1 bonus; **Weight** -
 

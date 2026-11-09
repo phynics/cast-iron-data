@@ -6,6 +6,9 @@ source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_planar_mentor", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "plane-hoppers-handbook"
+page = "26"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Planar Mentor, character level 7th."
 prerequisite_feats = ["ref/feat/planar-mentor"]
 benefit = "You can benefit from your Planar Mentor feat one additional time per day. While your mentor's boon is active, weapons and natural weapons you wield overcome damage reduction as though they were weapons of that alignment (e.g., as good weapons for earning good approval). For neutral approval, your weapons and natural weapons overcome damage reduction as cold iron and silver weapons."
 +++
-
-**Sources:** Plane-Hopper's Handbook pg 26
 
 As you grow, so too does your mentor's influence.\
 **Prerequisites:** [Planar Mentor](ref/feat/planar-mentor), character level 7th.\

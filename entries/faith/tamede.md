@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tamede", path = "json/faiths8.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "318"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Tamede**
 
 **Sub:** The Moldmother
-
-**Sources:** Inner Sea Gods pg 318
 
 ### Details
 

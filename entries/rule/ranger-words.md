@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ranger_words", path = "json/rules_opt_magic03.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "191"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 191
 
 **1st-Level Ranger Words:** Beacon (Divination), Decipher (Language), Energy Resistance (Body),
 Fleet (Time), Fortify (Body), Nature's Calm (Animal), Servitor I (Summoning)

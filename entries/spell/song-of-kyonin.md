@@ -6,6 +6,9 @@ source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "song_of_kyonin", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "60"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Spell resistance: no
 Targets: up to 3 creatures, no two of which can be more than 30 ft. apart
 Subschool: Healing
 :::
-
-**Sources:** Inner Sea Magic pg 60
 
 Certain elven bards of Kyonin are known for the restorative power of their performances-mostly as a
 result of this spell. You must have a bardic performance in effect to cast this spell (although this

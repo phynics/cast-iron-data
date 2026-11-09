@@ -6,6 +6,9 @@ source_ids = ["pathfinder-74-sword-of-valor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wicked_wings", path = "json/magic_demonic_implants.json" },
 ]
+[[sources]]
+publication = "pathfinder-74-sword-of-valor"
+page = "74"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation [evil]"
 caster_level = "7th"
 +++
 
-**Sources:** Pathfinder \#74: Sword of Valor pg 74\
 **Aura** moderate transmutation \[evil\]; **CL** 7th\
 **Slot** none; **Price** 55,000 gp; **Weight** 3 lbs.
 

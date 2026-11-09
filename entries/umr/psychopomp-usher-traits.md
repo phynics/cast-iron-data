@@ -6,12 +6,14 @@ source_ids = ["pathfinder-143-borne-by-the-suns-grace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychopomp_usher_traits", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "pathfinder-143-borne-by-the-suns-grace"
+page = "81"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder \#143: Borne by the Sun's Grace pg 81\
 An usher rules a domain in the Boneyard. Ushers are neutral outsiders with a minimum CR of 25.
 Ushers share the following traits and have the [psychopomp](ref/subtype/psychopomp) subtype unless
 otherwise noted.

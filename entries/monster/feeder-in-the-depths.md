@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "feeder_in_the_depths", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "196"
 
 [fields]
 kind = "creature"
@@ -48,7 +51,6 @@ intelligence._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Monster Codex pg 196\
 **Experience points:** 4,800
 
 **Armor class:** 20/10/18

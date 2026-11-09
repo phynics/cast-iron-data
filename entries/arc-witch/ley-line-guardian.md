@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/witch" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "125"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Familiar, 1st- and 8th-level hexes"]
 alters = ["Spellcasting"]
 +++
 
-**Sources:** Occult Adventures pg 125\
 Some witches tap into the power of their patrons not through a special connection with a familiar,
 but rather directly through the vast network of ley lines that crosses the planes. These witches can
 harness the latent powers of ley lines without even needing to be near one of the points where ley

@@ -6,6 +6,9 @@ source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unconquerable_resolve", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "healers-handbook"
+page = "15"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "This feat can be taken multiple times. Each time you take it, the num
 +++
 
 ## Unconquerable Resolve (Combat)
-
-**Sources:** Healer's Handbook pg 15
 
 Each time you tap into your inner strength, your bodily strength is renewed, making you much more
 resilient than you might look.\

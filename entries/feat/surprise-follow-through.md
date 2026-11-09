@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "surprise_follow_through", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "57"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When using Cleave or Great Cleave, the second foe you attack on your 
 +++
 
 ## Surprise Follow-Through (Combat)
-
-**Sources:** Advanced Race Guide pg 57
 
 When striking one opponent, you catch its ally off guard.\
 **Prerequisites:** Str 13, [Cleave](ref/feat/cleave), [Power Attack](ref/feat/power-attack), base

@@ -6,6 +6,9 @@ source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dark_life_ring", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "champions-of-corruption"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Sources:** Champions of Corruption pg 30\
 **Aura** faint necromancy; **CL** 3rd\
 **Slot** ring; **Price** 1,250 gp; **Weight** -
 

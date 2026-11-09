@@ -6,12 +6,13 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "standard_other_traits", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "238"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Advanced Race Guide pg 238
 
 **Amphibious (2 RP):** **Prerequisite:** Swim racial trait; **Benefit:** Members of this race are
 amphibious and can breathe both air and water.

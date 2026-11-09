@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_meditation_master", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "blood-of-the-beast"
+page = "28"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you meditate, you gain a +2 insight bonus instead of a +1 insigh
 +++
 
 ## Greater Meditation Master (Meditation)
-
-**Sources:** Blood of the Beast pg 28
 
 You are able to glean insight from your momentary meditation longer than most.\
 **Prerequisites:** Wis 15, [Combat Meditation](ref/feat/combat-meditation),

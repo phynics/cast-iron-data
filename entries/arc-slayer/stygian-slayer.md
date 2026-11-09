@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/slayer" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "120"
 
 [fields]
 kind = "archetype"
 replaces = ["Armor proficiency", "Slayer talent gained at 4th level", "Stalker", "Advanced slayer talent gained at 10th level"]
 +++
 
-**Sources:** Advanced Class Guide pg 120\
 A stygian slayer crawls out of the darkest shadows to strike fear into the hearts of civilized folk.
 He's a merciless killer who can control a sliver of magic, allowing him to arrive unseen, commit
 murder, and depart without detection.

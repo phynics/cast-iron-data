@@ -6,6 +6,9 @@ source_ids = ["pathfinder-119-prisoners-of-the-blight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snark", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "pathfinder-119-prisoners-of-the-blight"
+page = "83"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ wings hold it aloft._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Pathfinder \#119: Prisoners of the Blight pg 83\
 **Experience points:** 100
 
 **Armor class:** 15/15/14

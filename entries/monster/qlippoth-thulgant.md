@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "qlippoth_thulgant", path = "json/monsters37.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "226"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ eyes, and three whipping stingers._
 
 **Senses:** Darkvision 60 ft., True seeing
 
-**Sources:** Bestiary 2 pg 226\
 **Subtype:** Chaotic, Evil, Extraplanar, Qlippoth
 
 **Experience points:** 153,600

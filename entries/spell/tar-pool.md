@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tar_pool", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "246"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: no
 Area: 20-ft.-radius burst
 Descriptors: earth, fire
 :::
-
-**Sources:** Ultimate Combat pg 246
 
 You convert a layer of the ground to hot tar. Creatures in the area when the tar appears take 1d6
 points of fire damage per two caster levels (maximum of 10d6) and must succeed at a Reflex save or

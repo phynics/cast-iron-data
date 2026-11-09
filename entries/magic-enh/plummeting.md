@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plummeting", path = "json/magic_enhancements2.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "247"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Sources:** Ultimate Wilderness pg 247\
 **Aura** moderate transmutation; **CL** 7th\
 **Slot** none; **Price** +1 bonus; **Weight** -
 

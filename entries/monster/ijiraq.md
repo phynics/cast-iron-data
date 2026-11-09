@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ijiraq", path = "json/monsters14.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "155"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ adorned with scrimshaw talismans._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 4 pg 155\
 **Subtype:** Shapechanger
 
 **Experience points:** 6,400

@@ -6,6 +6,9 @@ source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dazzling_infusion", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
+page = "22"
 
 [fields]
 kind = "class_option"
@@ -25,8 +28,6 @@ group = "kineticist-wild-talent"
 [Positive Blast](ref/kinetic/positive-blast), [Verdant Blast](ref/kinetic/verdant-blast)
 
 **Saving throw:** Will negates
-
-**Source:** Elemental Master's Handbook/22
 
 Your kinetic blast shines brightly, making it harder for your foes to see. If your blast hits a foe
 (and penetrates SR if applicable), that foe must succeed at a Will save or be

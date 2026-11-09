@@ -6,6 +6,15 @@ source_ids = ["ultimate-equipment", "adventurers-armory", "advanced-players-guid
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "loaded_dice_superior", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "92"
+[[sources]]
+publication = "adventurers-armory"
+page = "19"
+[[sources]]
+publication = "advanced-players-guide"
+page = "185"
 
 [fields]
 kind = "item"
@@ -16,7 +25,6 @@ weight = "- (average), - (superior)"
 
 ## Loaded dice
 
-**Sources:** Ultimate Equipment pg 92, Adventurer's Armory pg 19, Advanced Player's Guide pg 185\
 **Price** 10 gp (average), 50 gp (superior); **Weight** - (average), - (superior)
 
 Most loaded dice are weighted, with a heavier substance included opposite the desired number. You

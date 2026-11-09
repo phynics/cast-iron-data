@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_killer", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "18"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "This functions as Goblin Cleaver, but your additional attacks can be 
 +++
 
 ## Giant Killer (Combat)
-
-**Sources:** Advanced Race Guide pg 18
 
 Your cleaving strokes menace giants and larger foes.\
 **Prerequisites:** Str 13, [Cleave](ref/feat/cleave), [Goblin Cleaver](ref/feat/goblin-cleaver),

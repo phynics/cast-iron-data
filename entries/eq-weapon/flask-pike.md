@@ -6,14 +6,15 @@ source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flask_pike", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "giant-hunters-handbook"
+page = "24"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "9 lbs."
 +++
-
-**Sources:** Giant Hunter's Handbook pg 24
 
 This pike has a hollow spot near its tip into which a flask can be strapped. If the flask is filled
 with an alchemical splash weapon and you hit a creature with the pike, the target is also hit with

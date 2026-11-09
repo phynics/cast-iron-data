@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghost_whip", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "172"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Saving throw: none
 Spell resistance: yes
 Effect: whip of flexible ectoplasm
 :::
-
-**Sources:** Occult Adventures pg 172
 
 A white, 15-foot-long lash of ghostly evanescence appears from your hand. This weapon is treated as
 a ghost touch whip with no enhancement bonus. You can wield it as a whip as if you were proficient.

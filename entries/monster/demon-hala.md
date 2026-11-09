@@ -6,6 +6,9 @@ source_ids = ["pathfinder-49-the-brinewall-legacy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_hala", path = "json/monsters29.json" },
 ]
+[[sources]]
+publication = "pathfinder-49-the-brinewall-legacy"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ mouth full of needle-sharp teeth._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#49: The Brinewall Legacy pg 84\
 **Subtype:** Air, Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 1,200

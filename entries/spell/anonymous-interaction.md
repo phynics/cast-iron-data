@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "anonymous_interaction", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "174"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Target: one creature/level, no two of which can be more than 30 ft. apart
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Advanced Class Guide pg 174
 
 You cause the targets to forget all but the most general information about you. If they saw you or
 interacted with you, they still remember your presence and your general shape (such as humanoid), as

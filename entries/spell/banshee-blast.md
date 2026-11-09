@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "banshee_blast", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "174"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: yes
 Area: cone-shaped burst
 Descriptors: death, fear, mind-affecting, sonic
 :::
-
-**Sources:** Advanced Class Guide pg 174
 
 You create a cone of spectral energy resembling screaming elven ghosts that deals 1d4 points of
 damage per caster level (maximum 15d4); a successful Reflex save halves this damage. Any creature

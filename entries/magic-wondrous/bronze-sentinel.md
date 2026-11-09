@@ -6,6 +6,9 @@ source_ids = ["pathfinder-82-secrets-of-the-sphinx"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bronze_sentinel", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "pathfinder-82-secrets-of-the-sphinx"
+page = "62"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong evocation and transmutation"
 caster_level = "19th"
 +++
 
-**Sources:** Pathfinder \#82: Secrets of the Sphinx pg 62\
 **Aura** strong evocation and transmutation; **CL** 19th\
 **Slot** none; **Price** 90,000 gp; **Weight** 500 lbs.
 

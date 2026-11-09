@@ -6,6 +6,12 @@ source_ids = ["bestiary-2", "pathfinder-1-burnt-offerings"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "attic_whisperer", path = "json/monsters26.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "34"
+[[sources]]
+publication = "pathfinder-1-burnt-offerings"
+page = "92"
 
 [fields]
 kind = "creature"
@@ -41,7 +47,6 @@ a head._
 
 **Size:** small
 
-**Sources:** Bestiary 2 pg 34, Pathfinder \#1: Burnt Offerings pg 92\
 **Type:** undead
 
 **Experience points:** 1,200

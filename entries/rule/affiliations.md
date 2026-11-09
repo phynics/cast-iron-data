@@ -6,12 +6,13 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "affiliations", path = "json/rules_subsystems01.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "5"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Adventurer's Guide pg 5
 
 Affiliation with a group means that a character has proven to be an ally with the group's interests
 at heart and is trusted to be a caretaker for that group's secrets.

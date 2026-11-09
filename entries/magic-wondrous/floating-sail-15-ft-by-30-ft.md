@@ -6,6 +6,9 @@ source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "floating_sail_15_ft_by_30_ft", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "magical-marketplace"
+page = "9"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "5th"
 
 ## Floating Sail
 
-**Sources:** Magical Marketplace pg 9\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** none; **Price** 5,000 gp (10-ft.-by-15-ft.), 15,000 gp (15-ft.-by-30-ft.), 20,000 gp
 (15-ft.-by-40-ft.), 32,000 gp (20-ft.-by-50-ft.); **Weight** 20-50 lbs.

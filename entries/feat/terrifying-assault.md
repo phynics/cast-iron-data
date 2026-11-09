@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "terrifying_assault", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "13"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When using Intimidate to demoralize an opponent during a surprise rou
 +++
 
 ## Terrifying Assault (Combat)
-
-**Sources:** Dirty Tactics Toolbox pg 13
 
 Your foes flee when you appear suddenly.\
 **Prerequisites:** [Frightening Ambush](ref/feat/frightening-ambush), Intimidate 5 ranks.\

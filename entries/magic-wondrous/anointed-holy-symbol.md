@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "anointed_holy_symbol", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "52"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Sources:** Planar Adventures pg 52\
 **Aura** moderate evocation; **CL** 7th\
 **Slot** none; **Price** 10,000 gp; **Weight** 1 lbs.
 

@@ -6,6 +6,12 @@ source_ids = ["bestiary-2", "pathfinder-19-howl-of-the-carrion-king"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gremlin_jinkin", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "142"
+[[sources]]
+publication = "pathfinder-19-howl-of-the-carrion-king"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -40,7 +46,6 @@ teeth and glowing, orange eyes._
 
 **Senses:** Darkvision 120 ft., Low-light vision
 
-**Sources:** Bestiary 2 pg 142, Pathfinder \#19: Howl of the Carrion King pg 82\
 **Size:** tiny
 
 **Experience points:** 400

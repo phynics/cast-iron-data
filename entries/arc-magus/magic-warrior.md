@@ -9,6 +9,12 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/magus" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "123"
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "42"
 
 [fields]
 kind = "archetype"
@@ -16,7 +22,6 @@ replaces = ["Magus arcana gained at 3rd level", "Greater spell combat", "Greater
 alters = ["Improved spell combat"]
 +++
 
-**Sources:** Adventurer's Guide pg 123, Inner Sea Intrigue pg 42\
 Trained in a tradition stretching back to Old-Mage Jatembe's Ten Magic Warriors, Magic Warriors
 renounce their identities to master magical might and serve as champions of culture and learning
 across the Mwangi Expanse and beyond. The original Ten Magic Warriors each directly served Old-Mage

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ceru", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "inner-sea-bestiary"
+page = "9"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ and ears are clawed and spiked._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Inner Sea Bestiary pg 9\
 **Size:** tiny
 
 **Experience points:** 600

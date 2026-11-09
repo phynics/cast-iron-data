@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spectral_hand", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "346"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: none
 Spell resistance: no
 Effect: one spectral hand
 :::
-
-**Sources:** PRPG Core Rulebook pg 346
 
 A ghostly hand shaped from your life force materializes and moves as you desire, allowing you to
 deliver low-level, touch range spells at a distance. On casting the spell, you lose 1d4 hit points

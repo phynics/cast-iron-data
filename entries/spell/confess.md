@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "confess", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "212"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: language-dependant, mind-affecting
 :::
-
-**Sources:** Advanced Player's Guide pg 212
 
 You ask the target creature a single question. On the subject's next action, it must answer
 truthfully in the same language as the question or take 1d6 points of damage per two caster levels

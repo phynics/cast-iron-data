@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/human-potential" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "9"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: yes
 :::
 
 ### Mass Human Potential
-
-**Sources:** Arcane Anthology pg 9
 
 This spell functions like [human potential](ref/spell/human-potential), except it affects multiple
 creatures. Each target can choose a different ability score to be enhanced by this spell.

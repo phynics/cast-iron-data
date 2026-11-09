@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_scholarly_details", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "144"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 144
 
 Now we come to the information that perhaps only a sage would need to know, but which forms the
 underpinning of your world's physics - and metaphysics. Such details include how the world was

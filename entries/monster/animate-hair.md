@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animate_hair", path = "json/monsters02.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "26"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ an non-existent wind._
 
 **Perception:** +1
 
-**Sources:** Bestiary 5 pg 26\
 **Size:** tiny
 
 **Experience points:** 200

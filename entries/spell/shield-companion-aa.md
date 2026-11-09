@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/shield-other" },
 ]
+[[sources]]
+publication = "animal-archive"
+page = "25"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Target: one creature
 :::
 
 ### Shield Companion (AA)
-
-**Sources:** Animal Archive pg 25
 
 This spell functions as [shield other](ref/spell/shield-other) but affects only the caster's animal
 companion or familiar. Spellcasters from classes that do not normally gain an animal companion,

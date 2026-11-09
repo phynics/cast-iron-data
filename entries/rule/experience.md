@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "experience", path = "json/rules_gm03.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "102"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 102
 
 Experience points are the lifeblood of the Pathfinder rewards system. They determine the rate at
 which the PCs progress, and form the currency with which the most spectacular and reliable abilities

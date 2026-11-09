@@ -6,6 +6,9 @@ source_ids = ["pathfinder-80-empty-graves"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "anubis", path = "json/faiths.json" },
 ]
+[[sources]]
+publication = "pathfinder-80-empty-graves"
+page = "66"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Anubis**
 
 **Sub:** Guardian of the Tomb
-
-**Sources:** Pathfinder \#80: Empty Graves pg 66
 
 ### Details
 

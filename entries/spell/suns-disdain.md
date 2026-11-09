@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "suns_disdain", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "17"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: yes
 Target: creature touched
 Descriptors: curse
 :::
-
-**Sources:** Adventurer's Guide pg 17
 
 You alter a creature so the touch of the sun is hostile to it. The cursed creature gains light
 blindness and is blinded for 1 round if exposed to bright light, such as sunlight or the

@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pig_farmer", path = "json/npcs.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "256"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "1/2"
 
 **Challenge rating:** 1/2
 
-**Sources:** NPC Codex pg 256\
 **XP** 200\
 Human [commoner](ref/npcclass/commoner) 2\
 CN Medium humanoid (human)\

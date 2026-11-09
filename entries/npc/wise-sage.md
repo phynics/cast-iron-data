@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wise_sage", path = "json/npcs2.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "263"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "6"
 
 **Challenge rating:** 6
 
-**Sources:** NPC Codex pg 263\
 **XP** 2,400\
 Human [expert](ref/npcclass/expert) 8\
 N Medium humanoid (human)\

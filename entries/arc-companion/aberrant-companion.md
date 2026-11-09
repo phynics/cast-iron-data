@@ -6,13 +6,15 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aberrant_companion", path = "json/archetypes_COMPANION.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "186"
 
 [fields]
 kind = "archetype"
 replaces = ["Share Spells", "Devotion", "Multiattack", "The +2 natural armor increase at 9th level"]
 +++
 
-**Sources:** Ultimate Wilderness pg 186\
 There's something oddly wrong about aberrant companions. Though they're touched by eldritch magic or
 mutated by strange influences, they are still loyal, if unnatural, allies.
 

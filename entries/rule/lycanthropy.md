@@ -6,12 +6,14 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lycanthropy", path = "json/rules_campaign_types02.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "28-29"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Adventures pg. 28-29\
 There is a sound pulsing through your blood, a call to the wild and savage places of the world,
 where you are free to hunt and to kill to satisfy your bloodlust. You are filled with the desire to
 rend foes limb from limb with tooth and claw.

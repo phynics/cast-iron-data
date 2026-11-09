@@ -6,6 +6,8 @@ source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "anthem_of_pageantry", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-high-court"
 
 [fields]
 kind = "class_option"
@@ -13,8 +15,6 @@ group = "bardic-masterpiece"
 +++
 
 ## Anthem of Pageantry (String, Wind)
-
-**Sources:** Heroes of the High Court
 
 This lengthy piece gradually increases in power and gravity, conjuring magnificent furnishings and
 outfits out of thin air.

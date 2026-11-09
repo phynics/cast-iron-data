@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deinonychus", path = "json/class_ability_druid_companions.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "54"
 
 [fields]
 kind = "class_option"
@@ -13,8 +16,6 @@ group = "animal-companion"
 +++
 
 ## Dinosaur (Deinonychus)
-
-**Sources:** PRPG Core Rulebook pg 54
 
 **Companion Type**
 

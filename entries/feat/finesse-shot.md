@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "finesse_shot", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "21"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "In addition to the options allowed by the utility shot gunslinger dee
 +++
 
 ## Finesse Shot (Weapon Mastery)
-
-**Sources:** Weapon Master's Handbook pg 21
 
 You can use ranged attacks to perform actions that require finesse.\
 **Prerequisites:** [Marksman's Utility](ref/feat/marksmans-utility), base attack bonus +7, weapon

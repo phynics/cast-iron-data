@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "26"
 
 [fields]
 kind = "archetype"
 replaces = ["Inspire courage +1", "Lore master", "Suggestion", "Mass suggestion"]
 +++
 
-**Sources:** Ultimate Magic pg 26\
 Not content with providing amusing and occasionally instructive performances, the demagogue seeks to
 inflame and ignite his audience, driving them toward a specific purpose with carefully chosen words
 and tones that may spark momentous change.

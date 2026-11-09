@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/fighter" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
+page = "51"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Bravery", "Armor training", "armor mastery", "Weapon training"]
 alters = ["Armor proficiency", "Bonus feats", "weapon mastery"]
 +++
 
-**Sources:** Aquatic Adventures pg 51\
 Aquanaut fighters master the movement of water, using its flow to their advantage in combat.
 
 **Armor Proficiency**

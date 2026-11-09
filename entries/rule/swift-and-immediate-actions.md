@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swift_and_immediate_actions", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "188"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 188
 
 A **swift action** consumes a very small amount of time, but represents a larger expenditure of
 effort than a free action. You can perform one swift action per turn without affecting your ability

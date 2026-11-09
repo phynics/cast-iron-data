@@ -6,6 +6,9 @@ source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spectacles_of_lip_reading", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "56"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination"
 caster_level = "1st"
 +++
 
-**Sources:** Inner Sea Intrigue pg 56\
 **Aura** faint divination; **CL** 1st\
 **Slot** eyes; **Price** 3,000 gp; **Weight** 1 lb.
 

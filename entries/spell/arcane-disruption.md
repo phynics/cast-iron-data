@@ -6,6 +6,9 @@ source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcane_disruption", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "advanced-class-origins"
+page = "30"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: curse, mind-affecting
 :::
-
-**Sources:** Advanced Class Origins pg 30
 
 This spell makes it difficult for the subject to cast arcane spells, use
 [spell-like abilities](ref/umr/spell-like-abilities), and use some abilities granted by arcane

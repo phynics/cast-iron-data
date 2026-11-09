@@ -6,6 +6,9 @@ source_ids = ["pathfinder-90-the-divinity-drive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "robot_director_robot", path = "json/monsters20.json" },
 ]
+[[sources]]
+publication = "pathfinder-90-the-divinity-drive"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ mechanical tentacles churn and writhe below its bulk._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#90: The Divinity Drive pg 88\
 **Subtype:** Robot
 
 **Experience points:** 9,600

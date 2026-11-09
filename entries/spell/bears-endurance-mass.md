@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/bears-endurance" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "247"
 
 [fields]
 kind = "spell"
@@ -54,8 +57,6 @@ Spell resistance: yes
 :::
 
 ### Mass Bear's Endurance
-
-**Sources:** PRPG Core Rulebook pg 247
 
 Mass [bear's endurance](ref/spell/bears-endurance) works like bear's endurance, except that it
 affects multiple creatures.

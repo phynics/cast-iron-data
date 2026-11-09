@@ -6,12 +6,14 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "opening_the_third_eye", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "212"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Occult Adventures pg 212\
 **School** transmutation; **Level** 5\
 **Casting Time** 50 minutes\
 **Components** V, S, M (incense), SC (up to 12)\

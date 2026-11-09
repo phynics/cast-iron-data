@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deadly_grappler", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "14"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You have learned to leverage a grappling creature's weight against it
 +++
 
 ## Deadly Grappler (Combat)
-
-**Sources:** Melee Tactics Toolbox pg 14
 
 While you're grappled, you become even more dangerous.\
 **Prerequisites:** Dex 13, [Improved Grapple](ref/feat/improved-grapple),

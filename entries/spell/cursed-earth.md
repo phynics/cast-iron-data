@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cursed_earth", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "215"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 Area: 1-mile radius emanating from the touched point
 Descriptors: curse, evil
 :::
-
-**Sources:** Ultimate Magic pg 215
 
 You lay a terrible curse upon the land, blighting those who live and die there. Choose one of the
 following effects.

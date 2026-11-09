@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kalistocrats_nightmare", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "22"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Spell resistance: yes
 Target: creature touched
 Descriptors: curse
 :::
-
-**Sources:** Magic Tactics Toolbox pg 22
 
 You temporarily curse a creature so its touch lessens the value of coins it touches. While under the
 effects of this curse, whenever the target touches a coin of higher value than copper piece, that

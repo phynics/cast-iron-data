@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ant_haul", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "201"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
 :::
-
-**Sources:** Advanced Player's Guide pg 201
 
 The target's carrying capacity triples. This does not affect the creature's actual Strength in any
 way, merely the amount of material it can carry while benefiting from this spell. It also has no

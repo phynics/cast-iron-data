@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "living_garments", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "106"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Advanced Race Guide pg 106\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** body; **Price** 5,000 gp; **Weight** 2 lbs.
 

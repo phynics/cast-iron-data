@@ -6,12 +6,13 @@ source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "agent", path = "json/rules_basics03.json" },
 ]
+[[sources]]
+publication = "spymasters-handbook"
+page = "4"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Spymaster's Handbook pg 4
 
 Agents operate in the field, collecting information at every opportunity. Agents train in Perception
 and Sense Motive to detect anything unusual as they go about their adventures. All classes can be

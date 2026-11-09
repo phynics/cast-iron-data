@@ -6,12 +6,16 @@ source_ids = ["bestiary", "bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "step_2_target_statistics", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "290"
+[[sources]]
+publication = "bestiary-2"
+page = "293"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder RPG Bestiary pg 290, Bestiary 2 pg 293
 
 Once you have a creature's type and CR determined, use Table 1-1 to determine its approximate
 statistics by CR. These values are a rough guideline only. You will notice that many of the existing

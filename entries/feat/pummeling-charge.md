@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pummeling_charge", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "154"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "You cannot make a full attack on a charge."
 +++
 
 ## Pummeling Charge (Combat)
-
-**Sources:** Advanced Class Guide pg 154
 
 Your charge ends with a mighty haymaker.\
 **Prerequisites:** [Improved Unarmed Strike](ref/feat/improved-unarmed-strike),

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "interplayer_conflict", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "15"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 15
 
 Though the members of adventuring parties usually have common goals, they don't always get along.
 Some party disputes arise from in-character conflicts, such as alignment or history. Others happen

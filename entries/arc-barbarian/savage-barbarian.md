@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/barbarian" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "79"
 
 [fields]
 kind = "archetype"
 replaces = ["Trap sense", "Damage reduction"]
 +++
 
-**Sources:** Advanced Player's Guide pg 79\
 Some barbarians are truly savage, having little training in modern arms. These savage barbarians
 learn to avoid blows and toughen up their skin. A savage barbarian has the following class features.
 

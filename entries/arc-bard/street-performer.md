@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "85"
 
 [fields]
 kind = "archetype"
 replaces = ["Inspire courage", "Inspire competence", "Inspire greatness", "Inspire heroics", "Countersong", "Bardic knowledge", "Lore master"]
 +++
 
-**Sources:** Advanced Player's Guide pg 85\
 Whether acrobat, troubadour, or thespian, the street performer mixes with the masses, singing for
 his supper.
 

@@ -6,6 +6,12 @@ source_ids = ["bestiary-2", "andoran-spirit-of-liberty"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "agathion_avoral", path = "json/monsters01.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "16"
+[[sources]]
+publication = "andoran-spirit-of-liberty"
+page = "21"
 
 [fields]
 kind = "creature"
@@ -45,7 +51,6 @@ end of his wings._
 
 **Senses:** Darkvision 60 ft., Detect magic, Low-light vision
 
-**Sources:** Bestiary 2 pg 16, Andoran, Spirit of Liberty pg 21\
 **Subtype:** Agathion, Extraplanar, Good
 
 **Experience points:** 6,400

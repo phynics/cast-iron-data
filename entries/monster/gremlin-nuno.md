@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gremlin_nuno", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "132"
 
 [fields]
 kind = "creature"
@@ -39,7 +42,6 @@ frames his toothless grin._
 
 **Perception:** +6
 
-**Sources:** Bestiary 5 pg 132\
 **Size:** tiny
 
 **tremorsense:** 30

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/fighter" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "14"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Armor training", "proficiency with heavy armor and shields"]
 alters = ["Weapon training"]
 +++
 
-**Sources:** Planar Adventures pg 14\
 The Shadow Plane's substance is legendary for its versatility. In shadow-shrouded lands, secretive
 martial practitioners long ago learned to shape supernatural weapons from ribbons of pure darkness.
 

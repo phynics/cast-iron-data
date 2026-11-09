@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nose_ring_of_unearthly_scent", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "blood-of-the-moon"
+page = "13"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Sources:** Blood of the Moon pg 13\
 **Aura** faint divination; **CL** 3rd\
 **Slot** head; **Price** 11,475 gp; **Weight** -
 

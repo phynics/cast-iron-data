@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "setting_items", path = "json/rules_gm03.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "108"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 108
 
 Another way to add flavor to starting magic items is to use them to introduce details of your world,
 whether you're using the Pathfinder world of Golarion or a setting you have created. Make a list of

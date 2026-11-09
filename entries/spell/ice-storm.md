@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ice_storm", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "298"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: yes
 Area: cylinder (20-ft. radius, 40 ft. high)
 Descriptors: cold
 :::
-
-**Sources:** PRPG Core Rulebook pg 298
 
 Great magical hailstones pound down upon casting this spell, dealing 3d6 points of bludgeoning
 damage and 2d6 points of cold damage to every creature in the area. This damage only occurs once,

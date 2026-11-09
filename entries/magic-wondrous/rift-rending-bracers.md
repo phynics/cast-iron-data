@@ -6,6 +6,9 @@ source_ids = ["planes-of-power"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rift_rending_bracers", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "planes-of-power"
+page = "9"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Sources:** Planes of Power pg 9\
 **Aura** moderate conjuration; **CL** 7th\
 **Slot** wrists; **Price** 18,000 gp; **Weight** 1 lb.
 

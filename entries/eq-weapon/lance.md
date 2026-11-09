@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lance", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "19"
+[[sources]]
+publication = "core-rulebook"
+page = "143"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "10 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 19, PRPG Core Rulebook pg 143
 
 A lance deals double damage when used from the back of a charging mount. While mounted, you can
 wield a lance with one hand.

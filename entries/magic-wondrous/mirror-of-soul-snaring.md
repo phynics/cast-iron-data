@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mirror_of_soul_snaring", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "266"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ aura = "strong necromancy"
 caster_level = "15th"
 +++
 
-**Sources:** Occult Adventures pg 266\
 **Aura** strong necromancy; **CL** 15th\
 **Slot** none; **Weight** 45 lbs.
 

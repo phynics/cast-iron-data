@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blade_of_the_rising_sun", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "152"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong evocation and necromancy"
 caster_level = "15th"
 +++
 
-**Sources:** Ultimate Equipment pg 152\
 **Aura** strong evocation and necromancy; **CL** 15th\
 **Slot** none; **Price** 51,850 gp; **Weight** 6 lbs.
 

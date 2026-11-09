@@ -6,6 +6,12 @@ source_ids = ["ultimate-intrigue", "taldor-echoes-of-glory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "costume_bureau", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "245"
+[[sources]]
+publication = "taldor-echoes-of-glory"
+page = "26"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Sources:** Ultimate Intrigue pg 245, Taldor, Echoes of Glory pg 26\
 **Aura** moderate conjuration; **CL** 9th\
 **Slot** none; **Price** 7,000 gp; **Weight** 175 lbs.
 

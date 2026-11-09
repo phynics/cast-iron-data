@@ -6,12 +6,13 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_planar_infernal", path = "json/monster_families.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "102"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Bestiary 6 pg 102
 
 Infernal dragons delight in recruiting large entourages of overly ambitious mortals who gladly
 debase themselves in exchange for influence.

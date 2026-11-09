@@ -6,13 +6,14 @@ source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon", path = "json/class_ability_mysteries.json" },
 ]
+[[sources]]
+publication = "legacy-of-dragons"
+page = "8"
 
 [fields]
 kind = "class_option"
 group = "oracle-mystery"
 +++
-
-**Sources:** Legacy of Dragons pg 8
 
 Oracles who draw their power from the mysterious and primal might of dragons are usually solitary
 folk. They are deep thinkers and often quick of wit, but prideful and equally quick-tempered.

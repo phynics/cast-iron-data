@@ -6,13 +6,15 @@ source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "parasite", path = "json/archetypes_FAMILIAR.json" },
 ]
+[[sources]]
+publication = "wilderness-origins"
+page = "21"
 
 [fields]
 kind = "archetype"
 replaces = ["Improved evasion", "share spells", "Deliver touch spells", "speak with animals of its kind", "spell resistance", "scry on familiar"]
 +++
 
-**Sources:** Wilderness Origins pg 21\
 Most familiars are still something akin to normal animals, conduits for power rather than powers
 themselves. The parasite is one of the more disturbing exceptions.
 

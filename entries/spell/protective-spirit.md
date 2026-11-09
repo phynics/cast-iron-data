@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "protective_spirit", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "237"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Spell resistance: no
 Target: you
 Subschool: Creation
 :::
-
-**Sources:** Advanced Player's Guide pg 237
 
 A protective spirit is an invisible, mindless, shapeless force that hovers about you, defending you
 against unexpected attacks. When a creature makes an attack of opportunity against you, the

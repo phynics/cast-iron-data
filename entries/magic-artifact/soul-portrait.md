@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soul_portrait", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "268"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong necromancy"
 caster_level = "20th"
 +++
 
-**Sources:** Occult Adventures pg 268\
 **Aura** strong necromancy; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 25 lbs.
 

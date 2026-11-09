@@ -6,6 +6,9 @@ source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hibernate", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "faction-guide"
+page = "61"
 
 [fields]
 kind = "spell"
@@ -37,8 +40,6 @@ Saving throw: none
 Spell resistance: no
 Target: creature touched
 :::
-
-**Sources:** Faction Guide pg 61
 
 You place a willing subject into a cataleptic state. It remains aware of its surroundings but is
 paralyzed, appearing dead unless observers make a DC 20 Heal check. Hibernate delays the effects of

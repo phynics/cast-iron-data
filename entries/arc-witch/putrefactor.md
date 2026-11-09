@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/witch" },
 ]
+[[sources]]
+publication = "blood-of-the-coven"
+page = "16"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["1st-level hex", "2nd-level hex", "4th-, 10th-, and 16th-level hexes
 alters = ["Familiar", "patron"]
 +++
 
-**Sources:** Blood of the Coven pg 16\
 Some witches find their patrons while in the throes of despair and grief, when all they desire is to
 see the veneer of civilization peel back to reveal the filth and rot that underlies all things. The
 arcane power they inherit is bleak and tainted, eating them from the inside out and transforming

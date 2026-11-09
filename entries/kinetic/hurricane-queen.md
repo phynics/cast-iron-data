@@ -6,6 +6,9 @@ source_ids = ["occult-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hurricane_queen", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-realms"
+page = "8"
 
 [fields]
 kind = "class_option"
@@ -23,8 +26,6 @@ group = "kineticist-wild-talent"
 **Burn:** 0
 
 **Prerequisite:** [enveloping winds](ref/kinetic/enveloping-winds)
-
-**Source:** Occult Realms/8
 
 You are one with the hurricane. Your _enveloping winds_ defense wild talent has an additional 25%
 chance of deflecting nonmagical ranged attacks, and your total deflection chance can exceed the

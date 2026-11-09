@@ -6,6 +6,9 @@ source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "final_sacrifice", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "monster-summoners-handbook"
+page = "22"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Saving throw: Fortitude negates, then Reflex half (see text)
 Spell resistance: yes
 Target: one summoned creature
 :::
-
-**Sources:** Monster Summoner's Handbook pg 22
 
 You disrupt the conjuring energies within a summoned creature, causing it to violently explode. If
 the target fails its Fortitude save, it is immediately slain and all creatures within 20 feet of the

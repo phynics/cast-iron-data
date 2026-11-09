@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "adamantine", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "199"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 199
 
 Armor pieces made of adamantine grant their wearers [damage reduction](ref/rule/damage-reduction) of
 1/- if they are light armor, 2/- if they are medium armor, and 3/- if they are heavy armor.

@@ -6,12 +6,13 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planar_races", path = "json/rules_campaign_types09.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "9"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Planar Adventures pg 9
 
 The following races all have specific ties to portions of the multiverse beyond the Material Plane
 (note that not all of these are native outsiders, and in addition to being found on the plane

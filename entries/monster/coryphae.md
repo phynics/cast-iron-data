@@ -6,6 +6,9 @@ source_ids = ["down-the-blighted-path"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "coryphae", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "down-the-blighted-path"
+page = "52"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ figure._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Down the Blighted Path pg 52\
 **Experience points:** 2,400
 
 **Armor class:** 16/16/10

@@ -6,6 +6,9 @@ source_ids = ["concordance-of-rivals"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "otolmens", path = "json/faiths7.json" },
 ]
+[[sources]]
+publication = "concordance-of-rivals"
+page = "14"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Otolmens**
 
 **Sub:** The Universal
-
-**Sources:** Concordance of Rivals pg 14
 
 ### Details
 

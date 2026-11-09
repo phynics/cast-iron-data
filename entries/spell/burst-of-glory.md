@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burst_of_glory", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "230"
+[[sources]]
+publication = "gods-and-magic"
+page = "21"
 
 [fields]
 kind = "spell"
@@ -45,8 +51,6 @@ Area: 10-ft.-radius burst, centered on you
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Inner Sea Gods pg 230, Gods and Magic pg 21
 
 Allies in the area of this spell at the time of casting gain a +1 sacred bonus on attack rolls and
 saves against fear effects, plus 1 temporary hit point per caster level (maximum 20). You shine with

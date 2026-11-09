@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "bonus-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nixie", path = "json/monsters18.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "201"
+[[sources]]
+publication = "bonus-bestiary"
+page = "15"
 
 [fields]
 kind = "creature"
@@ -44,7 +50,6 @@ decorated with shells._
 
 **Size:** small
 
-**Sources:** Bestiary 3 pg 201, Bonus Bestiary pg 15\
 **Subtype:** Aquatic
 
 **Experience points:** 400

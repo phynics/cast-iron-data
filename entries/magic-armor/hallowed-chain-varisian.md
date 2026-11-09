@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hallowed_chain_varisian", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "225"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Sources:** Inner Sea Races pg 225\
 **Aura** faint conjuration; **CL** 5th\
 **Slot** armor; **Price** 12,800 gp; **Weight** 40 lbs.
 

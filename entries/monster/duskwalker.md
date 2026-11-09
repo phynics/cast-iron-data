@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "duskwalker", path = "json/monsters41.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "230"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ with small bones._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Planar Adventures pg 230\
 **Subtype:** Native
 
 **Experience points:** 200

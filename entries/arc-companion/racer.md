@@ -6,13 +6,18 @@ source_ids = ["ultimate-wilderness", "animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "racer", path = "json/archetypes_COMPANION.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "188"
+[[sources]]
+publication = "animal-archive"
+page = "21"
 
 [fields]
 kind = "archetype"
 replaces = ["Share Spells", "Devotion"]
 +++
 
-**Sources:** Ultimate Wilderness pg 188, Animal Archive pg 21\
 Some companions have uncanny speed, providing their masters with swift transport.
 
 **Racer Feats**

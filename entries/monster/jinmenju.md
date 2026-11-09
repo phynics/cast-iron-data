@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "pathfinder-54-the-empty-throne"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jinmenju", path = "json/monsters34.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "161"
+[[sources]]
+publication = "pathfinder-54-the-empty-throne"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -46,7 +52,6 @@ look vaguely like human heads._
 
 **Type:** plant
 
-**Sources:** Bestiary 4 pg 161, Pathfinder \#54: The Empty Throne pg 86\
 **Experience points:** 12,800
 
 **Armor class:** 25/7/25

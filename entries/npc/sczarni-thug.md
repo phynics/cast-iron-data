@@ -6,6 +6,9 @@ source_ids = ["magnimar-city-of-monuments"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sczarni_thug", path = "json/npcs.json" },
 ]
+[[sources]]
+publication = "magnimar-city-of-monuments"
+page = "57"
 
 [fields]
 kind = "creature"
@@ -19,7 +22,6 @@ reveal runic tattoos._
 
 **Challenge rating:** 1
 
-**Sources:** Magnimar, City of Monuments pg 57\
 **XP** 400\
 Male human [rogue](ref/class/rogue) 2\
 LE Medium humanoid (human)\

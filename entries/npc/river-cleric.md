@@ -6,6 +6,9 @@ source_ids = ["osirion-legacy-of-the-pharaohs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "river_cleric", path = "json/npcs5.json" },
 ]
+[[sources]]
+publication = "osirion-legacy-of-the-pharaohs"
+page = "62"
 
 [fields]
 kind = "creature"
@@ -19,7 +22,6 @@ mace of similar make._
 
 **Challenge rating:** 3
 
-**Sources:** Osirion, Legacy of the Pharaohs pg 62\
 **XP** 800\
 Human [cleric](ref/class/cleric) of [Wadjet](ref/faith/wadjet) 4\
 LG Medium humanoid (human)\

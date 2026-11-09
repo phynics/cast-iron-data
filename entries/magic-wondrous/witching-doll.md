@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "witching_doll", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "blood-of-the-coven"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "5th"
 +++
 
-**Sources:** Blood of the Coven pg 31\
 **Aura** moderate abjuration; **CL** 5th\
 **Slot** none; **Price** 30,000 gp; **Weight** 1 lb.
 

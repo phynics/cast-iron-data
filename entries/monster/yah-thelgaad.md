@@ -6,6 +6,9 @@ source_ids = ["pathfinder-88-valley-of-the-brain-collectors"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "yah_thelgaad", path = "json/monsters41.json" },
 ]
+[[sources]]
+publication = "pathfinder-88-valley-of-the-brain-collectors"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ a brain floating in thick green fluid._
 
 **Senses:** Darkvision 60 ft., Diagnose disease, True seeing
 
-**Sources:** Pathfinder \#88: Valley of the Brain Collectors pg 90\
 **Experience points:** 38,400
 
 **Armor class:** 30/25/26

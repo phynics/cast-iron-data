@@ -6,12 +6,12 @@ source_ids = ["construct-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "automaton", path = "json/monster_families.json" },
 ]
+[[sources]]
+publication = "construct-handbook"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Construct Handbook
 
 Automatons are lawful neutral [constructs](ref/type/construct) with the
 [extraplanar](ref/subtype/extraplanar) subtype. An automaton has the following traits (unless

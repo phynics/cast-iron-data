@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "implosion", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "299"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: Fortitude negates
 Spell resistance: yes
 Target: one corporeal creature/round
 :::
-
-**Sources:** PRPG Core Rulebook pg 299
 
 This spell causes a destructive resonance in a corporeal creature's body. Each round you concentrate
 (including the first), you can cause one creature to collapse in on itself, inflicting 10 points of

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-132-the-six-legend-soul"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_for_the_empire", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "pathfinder-132-the-six-legend-soul"
+page = "72"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You gain a +2 morale bonus on attack and damage rolls against a targe
 +++
 
 ## Blood for the Empire (Teamwork)
-
-**Sources:** Pathfinder \#132: The Six-Legend Soul pg 72
 
 When fighting alongside your allies, the sight of a bloodied foe inspires you to greatness, while a
 martyred comrade compels you to vengeance.\

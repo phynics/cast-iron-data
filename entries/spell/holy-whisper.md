@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "holy_whisper", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "228"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Spell resistance: yes
 Area: cone-shaped burst
 Descriptors: good
 :::
-
-**Sources:** Advanced Player's Guide pg 228
 
 You whisper a single word in the primordial language of good that is anathema to the minions of evil
 and strengthens the resolve of good creatures. Evil creatures within the burst must make a Fortitude

@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "corrosive_touch", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "213"
 
 [fields]
 kind = "spell"
@@ -46,7 +49,5 @@ Target: creature or object touched
 Subschool: Creation
 Descriptors: acid
 :::
-
-**Sources:** Ultimate Magic pg 213
 
 Your successful melee touch attack deals 1d4 points of acid damage per caster level (maximum 5d4).

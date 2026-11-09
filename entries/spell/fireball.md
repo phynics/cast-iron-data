@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fireball", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "283"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: yes
 Area: 20-ft.-radius spread
 Descriptors: fire
 :::
-
-**Sources:** PRPG Core Rulebook pg 283
 
 A fireball spell generates a searing explosion of flame that detonates with a low roar and deals 1d6
 points of fire damage per caster level (maximum 10d6) to every creature within the area. Unattended

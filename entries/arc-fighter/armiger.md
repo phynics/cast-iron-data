@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/fighter" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "94"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Bonus feats gained at 1st and 10th levels", "Bravery"]
 alters = ["Bonus feats", "Class skills", "skill points per level"]
 +++
 
-**Sources:** Adventurer's Guide pg 94\
 Until would-be [Hellknights](ref/rule/aff-lawknights) take the trial referred to simply as the Test,
 in which they enter single combat with a conjured devil and either emerge victorious or die, they
 are known as armigers. While this is a blanket term for all Hellknights-in-training (including those

@@ -6,14 +6,18 @@ source_ids = ["adventurers-armory-2", "gnomes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stormshaft_javelin", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "9"
+[[sources]]
+publication = "gnomes-of-golarion"
+page = "22"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "3 lbs."
 +++
-
-**Sources:** Adventurer's Armory 2 pg 9, Gnomes of Golarion pg 22
 
 Also known as a shrillshaft javelin, this single-use javelin bears a
 [thunderstone](ref/eq-weapon/thunderstone) just behind the head. If you successfully strike a target

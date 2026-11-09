@@ -6,12 +6,13 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "adding_racial_hit_dice", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "295"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder RPG Bestiary pg 295
 
 Adding racial Hit Dice to a monster is a similar process to building a monster from scratch. As
 additional Hit Dice are added, other abilities increase in power as well. Additional Hit Dice

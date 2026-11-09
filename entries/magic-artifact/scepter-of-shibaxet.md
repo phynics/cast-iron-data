@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scepter_of_shibaxet", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "51"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "overwhelming all"
 caster_level = "30th"
 +++
 
-**Sources:** Bestiary 4 pg 51\
 **Aura** overwhelming all; **CL** 30th\
 **Slot** none; **Price** -; **Weight** 4 lbs.
 

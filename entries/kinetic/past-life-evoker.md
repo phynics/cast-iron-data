@@ -6,6 +6,9 @@ source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "past_life_evoker", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "heroes-of-golarion"
+page = "26"
 
 [fields]
 kind = "class_option"
@@ -23,8 +26,6 @@ group = "kineticist-wild-talent"
 **Burn:** 0
 
 **Prerequisite:** [samsaran](ref/race/samsaran)
-
-**Source:** Heroes of Golarion/26
 
 Once per day, you can accept 1 point of burn to choose one simple blast wild talent belonging to any
 element. You gain the chosen simple blast wild talent for 1 minute, using your kineticist level - 2

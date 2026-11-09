@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "campaign_endings", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "19"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 19
 
 Published adventures can be a great investment. Reading through such a scenario can give you an idea
 of how an adventure is put together, what challenges are suitable for your group's power level, and

@@ -6,14 +6,15 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "machete", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "19"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "2 lbs."
 +++
-
-**Sources:** Melee Tactics Toolbox pg 19
 
 This tool is a wide, single-edged blade about 2 feet in length. Most often used to hack through
 dense vegetation, it works equally well as a weapon. A character proficient with a machete gains a

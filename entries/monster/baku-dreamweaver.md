@@ -6,6 +6,9 @@ source_ids = ["occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "baku_dreamweaver", path = "json/monsters03.json" },
 ]
+[[sources]]
+publication = "occult-bestiary"
+page = "10"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ a gentle wisdom._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Occult Bestiary pg 10\
 **thoughtsense:** 60
 
 **Experience points:** 12,800

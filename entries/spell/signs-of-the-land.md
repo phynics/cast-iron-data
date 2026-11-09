@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/commune" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "235"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Target: you
 :::
 
 ### Signs of the Land
-
-**Sources:** Ultimate Wilderness pg 235
 
 This spell functions as [commune](ref/spell/commune) with nature except it reveals up to three
 details about the territory you currently occupy from the following list: bodies of water, features,

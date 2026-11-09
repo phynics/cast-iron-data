@@ -6,6 +6,9 @@ source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "supernatural_spy", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "spymasters-handbook"
+page = "17"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Treat your Intelligence, Wisdom, or Charisma score as 2 higher for th
 +++
 
 ## Supernatural Spy (Story)
-
-**Sources:** Spymaster's Handbook pg 17
 
 Your familiarity with magic drives you to discover a great supernatural secret. You might work with
 an eldritch organization, which could be a school of magic such as the Arcanamirium or part of a

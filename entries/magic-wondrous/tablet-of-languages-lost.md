@@ -6,6 +6,9 @@ source_ids = ["pathfinder-79-the-half-dead-city"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tablet_of_languages_lost", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "pathfinder-79-the-half-dead-city"
+page = "61"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Sources:** Pathfinder \#79: The Half-Dead City pg 61\
 **Aura** faint divination; **CL** 3rd\
 **Slot** none; **Price** 1,980 gp; **Weight** 30 lbs.
 

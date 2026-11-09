@@ -6,6 +6,12 @@ source_ids = ["bestiary-6", "pathfinder-92-the-hill-giants-pledge"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "protean_ourdivar", path = "json/monsters19.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "213"
+[[sources]]
+publication = "pathfinder-92-the-hill-giants-pledge"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -46,7 +52,6 @@ ends in a serpentine tail._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 6 pg 213, Pathfinder \#92: The Hill Giant's Pledge pg 86\
 **Subtype:** Chaotic, Extraplanar, Protean, Shapechanger
 
 **Experience points:** 1,200

@@ -6,13 +6,15 @@ source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tribe", path = "json/class_ability_shaman_spirits.json" },
 ]
+[[sources]]
+publication = "wilderness-origins"
+page = "24"
 
 [fields]
 kind = "class_option"
 group = "shaman-spirit"
 +++
 
-**Sources:** Wilderness Origins pg 24\
 A shaman who selects the tribe spirit strives to protect her allies, whether they be a traditional
 tribal unit or a chosen group of adventuring companions.
 

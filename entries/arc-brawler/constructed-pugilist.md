@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/brawler" },
 ]
+[[sources]]
+publication = "people-of-the-wastes"
+page = "8"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Martial flexibility"]
 alters = ["Bonus combat feats"]
 +++
 
-**Sources:** People of the Wastes pg 8\
 Mutants whose mutations make using standard weapons or other gear difficult sometimes attach
 mechanical prostheses to their existing limbs. Many develop combat skills that use their prostheses
 so they always have a weapon at hand. Over time, these brawlers customize their mechanical limbs,

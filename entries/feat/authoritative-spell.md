@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "authoritative_spell", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "25"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "You can alter any spell that targets a single creature to become an a
 +++
 
 ## Authoritative Spell (Metamagic)
-
-**Sources:** Planar Adventures pg 25
 
 Your magic holds all the intricacies of Axis's idealized laws, enforcing their strictures upon your
 enemies.\

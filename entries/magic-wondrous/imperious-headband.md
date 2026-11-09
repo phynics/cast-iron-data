@@ -6,6 +6,9 @@ source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "imperious_headband", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "agents-of-evil"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint enchantment"
 caster_level = "3rd"
 +++
 
-**Sources:** Agents of Evil pg 29\
 **Aura** faint enchantment; **CL** 3rd\
 **Slot** headband; **Price** 4,000 gp; **Weight** -
 

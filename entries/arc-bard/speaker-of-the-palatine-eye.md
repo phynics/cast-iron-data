@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "heroes-of-golarion"
+page = "8"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Countersong", "Jack-of-all-trades"]
 alters = ["The bard's class skills", "Spells"]
 +++
 
-**Sources:** Heroes of Golarion pg 8\
 Working from the shadows of Ustalav's high society, the Esoteric Order of the Palatine
 Eye^[1](ref/arc-bard/speaker-of-the-palatine-eye#footnote-nosource)^ is a mystical cult built around
 the quest for immortality. Founded by a count who claimed to have been enlightened by angels, the

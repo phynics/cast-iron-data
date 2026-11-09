@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mirror_hideaway", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "188"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: none
 Spell resistance: no
 Target: one mirror
 :::
-
-**Sources:** Advanced Class Guide pg 188
 
 You transform a mirror into a portal to an extradimensional space. The space can hold as many as
 eight Medium creatures. Creatures that enter this space are hidden and beyond the reach of spells

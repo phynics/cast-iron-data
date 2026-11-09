@@ -6,6 +6,9 @@ source_ids = ["pathfinder-44-trial-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skeleton_multiplying_t_rex_skeleton", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "pathfinder-44-trial-of-the-beast"
+page = "87"
 
 [fields]
 kind = "creature"
@@ -37,7 +40,6 @@ abilities = ["32", "15", "-", "-", "10", "10"]
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#44: Trial of the Beast pg 87\
 **Type:** undead
 
 **Experience points:** 6,400

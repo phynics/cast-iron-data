@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/warpriest" },
 ]
+[[sources]]
+publication = "heroes-from-the-fringe"
+page = "12"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Focus weapon", "sacred weapon", "bonus feats", "Aspect of war"]
 alters = ["Blessings"]
 +++
 
-**Sources:** Heroes from the Fringe pg 12\
 While all elves feel a deep connection to nature, some elven priests take this bond further, using
 their link to call down the wrath of nature upon their enemies. Ekujae are most inclined to harness
 this connection, but any elf can wield their bond to nature in this way.

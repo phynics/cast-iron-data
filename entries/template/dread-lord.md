@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dread_lord", path = "json/monster_template1.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "234"
 
 [fields]
 kind = "none"
@@ -18,8 +21,6 @@ kind = "none"
 **Challenge rating:** +1
 
 **Inherited:** present
-
-**Source:** Horror Adventures/234
 
 Dread lords are intrinsically tied to the territories they inhabit, either through ancestry or by
 claiming them in costly battle. Ambitious and cunning in their pursuit of land and glory, once dread

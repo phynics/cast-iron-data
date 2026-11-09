@@ -6,6 +6,9 @@ source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boots_of_the_vengeful_behir", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "dragonslayers-handbook"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Dragonslayer's Handbook pg 30\
 **Aura** moderate transmutation; **CL** 5th\
 **Slot** feet; **Price** 5,400 gp; **Weight** 1 lb.
 

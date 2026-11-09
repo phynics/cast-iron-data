@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cap_of_the_free_thinker", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "240"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "10th"
 +++
 
-**Sources:** Ultimate Equipment pg 240\
 **Aura** moderate abjuration; **CL** 10th\
 **Slot** head; **Price** 12,000 gp; **Weight** -
 

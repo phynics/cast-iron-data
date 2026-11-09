@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "detect_evil", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "266"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: none
 Spell resistance: no
 Area: cone-shaped emanation
 :::
-
-**Sources:** PRPG Core Rulebook pg 266
 
 You can sense the presence of evil. The amount of information revealed depends on how long you study
 a particular area or subject.

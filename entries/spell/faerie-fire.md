@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "faerie_fire", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "280"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: yes
 Area: creatures and objects within a 5-ft.-radius burst
 Descriptors: light
 :::
-
-**Sources:** PRPG Core Rulebook pg 280
 
 A pale glow surrounds and outlines the subjects. Outlined subjects shed light as candles. Creatures
 outlined by faerie fire take a -20 penalty on all Stealth checks. Outlined creatures do not benefit

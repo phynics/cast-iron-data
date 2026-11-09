@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_disarm", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "127"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ normal = "You provoke an attack of opportunity when performing a disarm combat m
 +++
 
 ## Improved Disarm (Combat)
-
-**Sources:** PRPG Core Rulebook pg 127
 
 You are skilled at knocking weapons from a foe's grasp.\
 **Prerequisites:** Int 13, [Combat Expertise](ref/feat/combat-expertise).\

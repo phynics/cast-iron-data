@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fire_seeds", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "282"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Targets: up to four acorns or up to eight holly berries
 Subschool: Creation
 Descriptors: fire
 :::
-
-**Sources:** PRPG Core Rulebook pg 282
 
 Depending on the version of fire seeds you choose, you turn acorns into splash weapons that you or
 another character can throw, or you turn holly berries into bombs that you can detonate on command.

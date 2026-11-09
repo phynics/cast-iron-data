@@ -6,6 +6,9 @@ source_ids = ["pathfinder-117-assault-on-longshadow"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "troops_morlock_swarmer_troop", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "pathfinder-117-assault-on-longshadow"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ abilities = ["17", "21", "16", "5", "14", "6"]
 
 **Senses:** Darkvision 120 ft.
 
-**Sources:** Pathfinder \#117: Assault on Longshadow pg 90\
 **Subtype:** Troop
 
 **Experience points:** 3,200

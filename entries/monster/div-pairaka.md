@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "pathfinder-20-house-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "div_pairaka", path = "json/monsters08.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "88"
+[[sources]]
+publication = "pathfinder-20-house-of-the-beast"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ manner of debased pleasures._
 
 **Senses:** Darkvision 60 ft., Detect good, Detect magic, See in darkness
 
-**Sources:** Bestiary 3 pg 88, Pathfinder \#20: House of the Beast pg 84\
 **Subtype:** Div, Evil, Extraplanar, Shapechanger
 
 **Experience points:** 3,200

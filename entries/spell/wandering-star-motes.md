@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wandering_star_motes", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "255"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Target: one living creature and special; see text
 Subschool: Pattern
 Descriptors: light, mind-affecting
 :::
-
-**Sources:** Advanced Player's Guide pg 255
 
 You create sparkling motes of bright light that shoot toward the target and swirl around it in a
 complex pattern. The pattern clearly outlines the target and radiates light as if it were a sunrod,

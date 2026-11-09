@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/umbral-infusion" },
 ]
+[[sources]]
+publication = "blood-of-shadows"
+page = "31"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Descriptors: shadow
 :::
 
 ### Mass Umbral Infusion
-
-**Sources:** Blood of Shadows pg 31
 
 This spell functions as [umbral infusion](ref/spell/umbral-infusion), except it can affect multiple
 mindless undead creatures.

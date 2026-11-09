@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/fighter" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "11"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Bravery", "Armor training 1, 2, 3, and 4", "armor mastery"]
 alters = ["The fighter's armor proficiencies", "Weapon training", "Weapon mastery"]
 +++
 
-**Sources:** Martial Arts Handbook pg 11\
 The spear is one of the oldest weapons known to most humanoid races, and no weapon has seen as much
 use across the different continents of Golarion. One of the oldest spear-fighting styles originates
 in Vudra, where many martial arts traditions consider the spear to be the ultimate weapon.

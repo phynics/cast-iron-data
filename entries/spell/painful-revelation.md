@@ -6,6 +6,9 @@ source_ids = ["inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "painful_revelation", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "inner-sea-temples"
+page = "63"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: no
 Target: one ongoing illusion effect
 Descriptors: mind-affecting, pain
 :::
-
-**Sources:** Inner Sea Temples pg 63
 
 You augment an ongoing illusion effect to strike out painfully at creatures that see through it.
 When a creature successfully disbelieves an illusion that is the target of painful revelation, it

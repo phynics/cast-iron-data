@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_primal_cloud_ancient_cloud_dragon", path = "json/monsters30.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "97"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ abilities = ["32", "7", "25", "20", "24", "23"]
 
 **Senses:** Dragon senses, Mist vision
 
-**Sources:** Bestiary 2 pg 97\
 **Subtype:** Air, Extraplanar
 
 **Experience points:** 153,600

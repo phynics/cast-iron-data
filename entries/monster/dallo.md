@@ -6,6 +6,9 @@ source_ids = ["pathfinder-118-siege-of-stone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dallo", path = "json/monsters06.json" },
 ]
+[[sources]]
+publication = "pathfinder-118-siege-of-stone"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ woolly underside._
 
 **Size:** small
 
-**Sources:** Pathfinder \#118: Siege of Stone pg 82\
 **Experience points:** 400
 
 **Armor class:** 14/11/14

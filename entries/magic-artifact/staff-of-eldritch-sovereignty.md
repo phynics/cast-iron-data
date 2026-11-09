@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_eldritch_sovereignty", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "161"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong varied"
 caster_level = "20th"
 +++
 
-**Sources:** Mythic Adventures pg 161\
 **Aura** strong varied; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 5 lbs.
 

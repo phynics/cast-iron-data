@@ -6,6 +6,9 @@ source_ids = ["humans-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burning_arc", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "humans-of-golarion"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: yes
 Target: one primary target plus one additional target/3 levels (each of which must be within 15 ft. of the primary target)
 Descriptors: fire
 :::
-
-**Sources:** Humans of Golarion pg 28
 
 Keleshites brag that they stole this spell from genie-kind thousands of years ago while other
 civilizations struggled without fire.

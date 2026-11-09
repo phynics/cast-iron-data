@@ -6,6 +6,9 @@ source_ids = ["down-the-blighted-path"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flowing_fortress_armor", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "down-the-blighted-path"
+page = "61"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Sources:** Down the Blighted Path pg 61\
 **Aura** moderate evocation; **CL** 10th\
 **Slot** armor; **Price** 30,350 gp; **Weight** 30 lbs.
 

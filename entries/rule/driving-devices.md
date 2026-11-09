@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "driving_devices", path = "json/rules_rulesets02.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "177"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 177
 
 The following are some of the typical driving devices for vehicles, plus their usual Armor Class,
 hit points, and [hardness](ref/umr/hardness). A broken driving device increases the driving check of

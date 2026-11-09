@@ -6,12 +6,13 @@ source_ids = ["lands-of-conflict"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "organization_checks_mt", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "lands-of-conflict"
+page = "49"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Lands of Conflict pg 49
 
 **Organization Checks:** The militia's ability to get things done and its likelihood of withstanding
 setbacks are governed by its three organization checks: Loyalty, Secrecy, and Security. Loyalty

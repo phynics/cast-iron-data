@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "battlement_shield", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "130"
+[[sources]]
+publication = "advanced-players-guide"
+page = "286"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Sources:** Ultimate Equipment pg 130, Advanced Player's Guide pg 286\
 **Aura** moderate conjuration; **CL** 9th\
 **Slot** shield; **Price** 16,180 gp; **Weight** 45 lbs.
 

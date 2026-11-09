@@ -6,6 +6,15 @@ source_ids = ["ultimate-equipment", "advanced-players-guide", "adventurers-armor
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bear_trap", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "77"
+[[sources]]
+publication = "advanced-players-guide"
+page = "184"
+[[sources]]
+publication = "adventurers-armory"
+page = "19"
 
 [fields]
 kind = "item"
@@ -14,7 +23,6 @@ price = "2 gp"
 weight = "10 lbs."
 +++
 
-**Sources:** Ultimate Equipment pg 77, Advanced Player's Guide pg 184, Adventurer's Armory pg 19\
 **Price** 2 gp; **Weight** 10 lbs.\
 **Category** Tools
 

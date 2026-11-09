@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychopomp_algea", path = "json/monsters19.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "217"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ of pale blue mist._
 
 **Senses:** Darkvision 60 ft., Greater arcane sight, Low-light vision, Spiritsense
 
-**Sources:** Bestiary 6 pg 217\
 **Subtype:** Extraplanar, Psychopomp, Swarm
 
 **Experience points:** 12,800

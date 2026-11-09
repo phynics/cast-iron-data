@@ -6,6 +6,9 @@ source_ids = ["bestiary", "pathfinder-51-the-hungry-storm", "ultimate-equipment"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "yak", path = "json/monsters13.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "174"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ frequently used as pack animals and to pull plows._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 174\
 **Experience points:** 1,200
 
 **Armor class:** 17/9/17

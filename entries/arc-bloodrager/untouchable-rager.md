@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bloodrager" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "85"
 
 [fields]
 kind = "archetype"
 replaces = ["Spells", "blood casting", "eschew materials", "bloodline spells"]
 +++
 
-**Sources:** Advanced Class Guide pg 85\
 While most bloodragers are known for their inexplicable ability to focus their bloodline into a
 horrifying mix of martial terror and spellcasting fury, from time to time a bloodrager's bloodline
 acts differently. Instead of empowering the bloodrager, it shields the bloodrager from magic of all

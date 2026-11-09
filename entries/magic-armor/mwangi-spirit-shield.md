@@ -6,6 +6,9 @@ source_ids = ["sargava-the-lost-colony"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mwangi_spirit_shield", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "sargava-the-lost-colony"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation"
 caster_level = "15th"
 +++
 
-**Sources:** Sargava, the Lost Colony pg 29\
 **Aura** strong transmutation; **CL** 15th\
 **Slot** shield; **Price** 19,393 gp; **Weight** 5 lbs.
 

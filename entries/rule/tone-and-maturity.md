@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tone_and_maturity", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "10"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 10
 
 Players come to games to feel larger than life, and each brings a character that has aspirations,
 desires, abilities, and unique ways of looking at the world. The Game Master's job is to help guide

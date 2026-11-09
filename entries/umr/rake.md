@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rake", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "298"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Rake (Ex)
 
-**Sources:** Bestiary 5 pg 298\
 A creature with this special attack gains extra natural attacks under certain conditions, typically
 when it grapples its foe. In addition to the options available to all grapplers, a monster with the
 rake ability gains two free claw attacks that it can use only against a grappled foe. The bonus and

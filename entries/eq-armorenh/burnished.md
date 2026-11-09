@@ -6,6 +6,9 @@ source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burnished", path = "json/equipment_armor_enhancements.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "7"
 
 [fields]
 kind = "item"
@@ -13,7 +16,6 @@ category = "Armor Modifications"
 weight = "+5 lbs."
 +++
 
-**Sources:** Adventurer's Armory 2 pg 7\
 **Cost** +500 gp **Weight** +5 lbs.
 
 Metal armor can be polished to reflect light in your enemies' eyes. In areas of bright light, all

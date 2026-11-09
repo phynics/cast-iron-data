@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/phantasmal-killer" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "369"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Targets: any number of creatures, no two of which can be more than 30 ft. apart
 Subschool: Phantasm
 Descriptors: emotion, fear, mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 369
 
 This spell functions like [phantasmal killer](ref/spell/phantasmal-killer), except it can affect
 more than one creature. Only the affected creatures see the phantasmal creatures attacking them,

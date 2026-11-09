@@ -6,6 +6,9 @@ source_ids = ["the-moonscar"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "iron_lash", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "the-moonscar"
+page = "27"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong necromancy"
 caster_level = "15th"
 +++
 
-**Sources:** The Moonscar pg 27\
 **Aura** strong necromancy; **CL** 15th\
 **Slot** none; **Price** 90,335 gp; **Weight** 6 lbs.
 

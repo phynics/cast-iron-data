@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "book-of-the-damned", "book-of-the-damned-volume
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nocticula", path = "json/faiths6.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "320"
 
 [fields]
 kind = "none"
@@ -15,7 +18,6 @@ kind = "none"
 
 **Sub:** Our Lady in Shadow
 
-**Sources:** Inner Sea Gods pg 320\
 **Monster Link** [Nocticula](ref/monster/demon-lord-nocticula)
 
 ### Details

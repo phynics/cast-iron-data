@@ -6,6 +6,9 @@ source_ids = ["pathfinder-91-battle-of-bloodmarch-hills"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brinyas_love", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "pathfinder-91-battle-of-bloodmarch-hills"
+page = "35"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation [good]"
 caster_level = "7th"
 +++
 
-**Sources:** Pathfinder \#91: Battle of Bloodmarch Hills pg 35\
 **Aura** moderate transmutation \[good\]; **CL** 7th\
 **Slot** none; **Price** 5,052 gp; **Weight** 1 lb.
 

@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_companion_acg", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "191"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: your companion creature
 :::
-
-**Sources:** Advanced Class Guide pg 191
 
 This spell creates a special mystical connection between you and your companion creature - animal
 companion, bonded mount, eidolon, or familiar - which allows you to transfer its wounds to you. The

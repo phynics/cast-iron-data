@@ -6,6 +6,8 @@ source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "song_of_the_stonebearers", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "merchants-manifest"
 
 [fields]
 kind = "class_option"
@@ -13,8 +15,6 @@ group = "bardic-masterpiece"
 +++
 
 ## Song of the Stonebearers (Percussion, Sing)
-
-**Sources:** Merchant's Manifest
 
 This working song consists of a strong rhythm and boneshaking drum beats.
 

@@ -6,6 +6,9 @@ source_ids = ["rival-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staggering_fall", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "rival-guide"
+page = "35"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: Fortitude partial (see below)
 Spell resistance: yes
 Target: one falling creature
 :::
-
-**Sources:** Rival Guide pg 35
 
 This spell must be cast on a creature as it falls, either from a height or after being knocked prone
 or tripped. The magic of this spell causes the creature to hit the ground particularly hard,

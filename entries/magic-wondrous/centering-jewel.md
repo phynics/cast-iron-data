@@ -6,6 +6,9 @@ source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "centering_jewel", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "8"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "1st"
 +++
 
-**Sources:** Psychic Anthology pg 8\
 **Aura** faint transmutation; **CL** 1st\
 **Slot** headband; **Price** 1,000 gp; **Weight** -
 

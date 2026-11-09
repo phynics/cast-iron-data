@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_aura", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "199"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 199
 
 Magic auras are usually the result of external forces working on an object, creature, or location.
 Each magical effect swirls together in the greater aura, but remains discrete. It's possible to

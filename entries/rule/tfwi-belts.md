@@ -6,12 +6,13 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tfwi_belts", path = "json/rules_adv_gm07.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "209"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Equipment pg 209
 
 ### Table 5-2: Belt Slot Wondrous Items
 

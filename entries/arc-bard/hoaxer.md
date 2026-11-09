@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "29"
 
 [fields]
 kind = "archetype"
 replaces = ["Bardic knowledge", "Inspire courage", "inspire competence", "and inspire greatness", "Countersong", "Distraction", "Inspire greatness", "Versatile performance", "Well-versed", "Lore master"]
 +++
 
-**Sources:** Black Markets pg 29\
 Hoaxers specialize in creating valuable-looking counterfeits and infusing these false treasures with
 dangerous magic to make their marks more vulnerable to future swindles.
 

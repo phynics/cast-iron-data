@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "combat_sandals", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-streets"
+page = "14"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Sources:** Heroes of the Streets pg 14\
 **Aura** moderate transmutation; **CL** 9th\
 **Slot** feet; **Price** 18,000 gp; **Weight** 3 lbs.
 

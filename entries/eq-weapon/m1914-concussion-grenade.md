@@ -6,14 +6,15 @@ source_ids = ["pathfinder-71-rasputin-must-die"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "m1914_concussion_grenade", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "pathfinder-71-rasputin-must-die"
+page = "64"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "1 lb."
 +++
-
-**Sources:** Pathfinder \#71: Rasputin Must Die! pg 64
 
 This time-delayed concussion grenade is a mainstay of trench warfare. The device appears to be
 little more than a metal cylinder tapering to a handle containing a spring-loaded lever. To detonate

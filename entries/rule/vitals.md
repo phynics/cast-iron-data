@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vitals", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "197"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 197
 
 The vitals correspond to the abdomen on a humanoid: critical organs not well-protected by bone.
 Attacks on the vitals can also include dastardly "low blows." Vitals for non-humanoid creatures can

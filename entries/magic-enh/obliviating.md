@@ -6,6 +6,9 @@ source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "obliviating", path = "json/magic_enhancements2.json" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "52"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment"
 caster_level = "10th"
 +++
 
-**Sources:** Inner Sea Intrigue pg 52\
 **Aura** moderate enchantment; **CL** 10th\
 **Slot** none; **Price** +2 bonus; **Weight** -
 

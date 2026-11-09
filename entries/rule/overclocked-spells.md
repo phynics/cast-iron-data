@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "overclocked_spells", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "148"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 148
 
 Using the overclocked spells variant, confident spellcasters can attempt to weave more power into
 their spells as they cast them. This is not without risk: deviating from the stable, standard

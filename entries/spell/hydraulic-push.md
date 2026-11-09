@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hydraulic_push", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "228"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: yes
 Target: one creature or object
 Descriptors: water
 :::
-
-**Sources:** Advanced Player's Guide pg 228
 
 You call forth a quick blast of water that knocks over and soaks one creature or square. You can use
 this blast of water to make a bull rush against any one creature or object. Your CMB for this bull

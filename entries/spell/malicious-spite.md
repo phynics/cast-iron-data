@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "malicious_spite", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "228"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: emotion, mind-affecting
 :::
-
-**Sources:** Ultimate Magic pg 228
 
 You invoke feelings of a driving malicious intent. The target's malice is directed at a second
 individual as designated by you at the time of casting. Thereafter, the target attempts to slander,

@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "yellow_musk_creeper", path = "json/monsters41.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "285"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ yellow vapor._
 
 **Type:** plant
 
-**Sources:** Pathfinder RPG Bestiary pg 285\
 **tremorsense:** 30
 
 **Experience points:** 600

@@ -6,6 +6,9 @@ source_ids = ["chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "murderous_sniper", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "chronicle-of-legends"
+page = "9"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can make a death attack using a ranged weapon. Your target must b
 +++
 
 ## Murderous Sniper (Combat)
-
-**Sources:** Chronicle of Legends pg 9
 
 Your study of death allows you to pinpoint weaknesses from afar.\
 **Prerequisites:** Death attack class feature.\

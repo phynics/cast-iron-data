@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "founding_a_kingdom", path = "json/rules_campaign_types04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "200"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 200
 
 Once you have your first settlement, you have the start of a kingdom. You'll need to make some
 initial decisions that affect your kingdom's statistics, and record them on the kingdom sheet.

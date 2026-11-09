@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heavenly_radiance", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "88"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Aasimar, daylight spell-like ability, sufficiently high level (
 benefit = "You gain one additional use per day of *daylight.* Choose one spell from the table below; by expending a use of *daylight,* you may use this spell as a spell-like ability. To select a spell, you must meet the minimum character level for its listing in the table. The save DC for this spell is Charisma-based."
 special = "You may take this feat multiple times. Each time you select it, you gain an additional use of daylight and may select another spell from the table."
 +++
-
-**Sources:** Advanced Race Guide pg 88
 
 Your heavenly light can be used in a variety of ways.\
 **Prerequisites:** [Aasimar](ref/race/aasimar), [daylight](ref/spell/daylight)

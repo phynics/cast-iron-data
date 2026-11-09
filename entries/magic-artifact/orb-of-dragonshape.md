@@ -6,6 +6,9 @@ source_ids = ["artifacts-and-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "orb_of_dragonshape", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "artifacts-and-legends"
+page = "34"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation"
 caster_level = "19th"
 +++
 
-**Sources:** Artifacts and Legends pg 34\
 **Aura** strong transmutation; **CL** 19th\
 **Slot** none; **Price** -; **Weight** 4 lbs.
 

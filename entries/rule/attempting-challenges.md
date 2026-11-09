@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "attempting_challenges", path = "json/rules_opt_magic01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "180"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 180
 
 Each challenge presents two tasks. One creator can choose a single task to attempt, or two creators
 can each choose to do a different task. This choice of tasks to attempt must be made before rolling

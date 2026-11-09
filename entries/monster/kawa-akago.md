@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kawa_akago", path = "json/monsters15.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "149"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ toothy maw at its center._
 
 **Size:** small
 
-**Sources:** Bestiary 5 pg 149\
 **Experience points:** 800
 
 **Armor class:** 16/14/13

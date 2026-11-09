@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dt_3", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "181"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 181
 
 ### Table 7-7: 100 Pieces of Minor and Major Dungeon Dressing
 

@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/fog-cloud", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "95"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 95
 
 The radius of the fog increases to 50 feet.
 

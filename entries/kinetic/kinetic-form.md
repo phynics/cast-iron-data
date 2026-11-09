@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kinetic_form", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "26"
 
 [fields]
 kind = "class_option"
@@ -21,8 +24,6 @@ group = "kineticist-wild-talent"
 **Level:** 5
 
 **Burn:** 1
-
-**Source:** Occult Adventures/26
 
 You are able to suspend your body in a large mass of elemental matter. Until the next time your burn
 is removed, you can change your size to Large or shift back to your original size as a **standard

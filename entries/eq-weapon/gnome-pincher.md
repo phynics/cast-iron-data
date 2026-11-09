@@ -6,14 +6,15 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gnome_pincher", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "19"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "2 lbs."
 +++
-
-**Sources:** Melee Tactics Toolbox pg 19
 
 This odd weapon is a 2-foot rod topped with four blunt claws. Squeezing the handle causes the claws
 to close. You can use the gnome pincher to attempt a disarm or steal combat maneuver with a +2

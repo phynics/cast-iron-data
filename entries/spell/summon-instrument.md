@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summon_instrument", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "350"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Spell resistance: no
 Effect: one summoned handheld musical instrument
 Subschool: Summoning
 :::
-
-**Sources:** PRPG Core Rulebook pg 350
 
 This spell summons one handheld musical instrument of your choice. This instrument appears in your
 hands or at your feet (your choice). The instrument is typical for its type. Only one instrument

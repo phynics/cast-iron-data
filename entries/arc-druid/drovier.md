@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "6"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Wild shape"]
 alters = ["Nature's bond"]
 +++
 
-**Sources:** Magic Tactics Toolbox pg 6\
 Droviers view their allies and adventuring companions as a herd or pack to be protected and
 directed, with variations on that theme ranging from culture to culture. The orcs of Belkzen see
 droviers as alpha predators, offering tribal warriors totemic power in exchange for obedience in

@@ -6,14 +6,15 @@ source_ids = ["adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "syringe_spear", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "adventurers-armory"
+page = "5"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "6 lbs."
 +++
-
-**Sources:** Adventurer's Armory pg 5
 
 The blade of this weapon, which is also called an injection spear, contains a thin tube or bore that
 connects to a hollow container just beneath the crosspiece. A successful hit with the spear injects

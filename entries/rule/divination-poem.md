@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divination_poem", path = "json/rules_adv_gm03.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "163"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 163
 
 The GM composes a poem for Kyra to represent the information imparted to her by her deity.
 

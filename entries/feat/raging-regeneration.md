@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "raging_regeneration", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "224"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ normal = "Acid and fire damage cause your regeneration to stop functioning on th
 +++
 
 ## Raging Regeneration (Combat)
-
-**Sources:** Monster Codex pg 224
 
 Your rage pushes your ability to regenerate beyond its normal limits.\
 **Prerequisites:** Rage class ability, [regeneration](ref/umr/regeneration),

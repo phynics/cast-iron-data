@@ -6,6 +6,9 @@ source_ids = ["pathfinder-unchained", "advanced-players-guide", "chronicle-of-le
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unchained_summoner", path = "json/classes8.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "25"
 
 [fields]
 kind = "class"
@@ -13,8 +16,6 @@ class_type = "unchained"
 hit_die = "d8"
 skill_ranks = "2 + Int modifier"
 +++
-
-**Sources:** Pathfinder Unchained pg 25
 
 There are those who take a different path when pursuing the arcane arts, reaching across the
 boundaries of the world to the far-flung planes to call forth all manner of creatures to do their

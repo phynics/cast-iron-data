@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enemy_hammer", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "219"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: Fortitude partial
 Spell resistance: yes
 Target: one creature
 :::
-
-**Sources:** Advanced Player's Guide pg 219
 
 You grab a creature with telekinesis and use it to batter nearby opponents or objects. You must
 target a specific creature when casting this spell and once you select that creature you cannot

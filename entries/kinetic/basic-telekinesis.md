@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "basic_telekinesis", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "23"
 
 [fields]
 kind = "class_option"
@@ -21,8 +24,6 @@ group = "kineticist-wild-talent"
 **Level:** 1
 
 **Burn:** 0
-
-**Source:** Occult Adventures/23
 
 This ability is similar to [mage hand](ref/spell/mage-hand), except you can move an object that
 weighs up to 5 pounds per 2 kineticist levels you possess (minimum 5 pounds), and you can move

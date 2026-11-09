@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cat_leopard", path = "json/monsters04.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "40"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ _With each graceful step, this leopard's steely muscles ripple beneath its spott
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 40\
 **Experience points:** 600
 
 **Armor class:** 15/14/11

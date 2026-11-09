@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "armigers_armor", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "22"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration"
 caster_level = "13th"
 +++
 
-**Sources:** Melee Tactics Toolbox pg 22\
 **Aura** strong abjuration; **CL** 13th\
 **Slot** armor; **Price** 22,500 gp; **Weight** 50 lbs.
 

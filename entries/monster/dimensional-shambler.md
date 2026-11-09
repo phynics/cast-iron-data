@@ -6,6 +6,9 @@ source_ids = ["pathfinder-46-wake-of-the-watcher"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dimensional_shambler", path = "json/monsters07.json" },
 ]
+[[sources]]
+publication = "pathfinder-46-wake-of-the-watcher"
+page = "80"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ fingers._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#46: Wake of the Watcher pg 80\
 **Subtype:** Chaotic, Evil
 
 **Experience points:** 4,800

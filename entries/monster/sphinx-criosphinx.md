@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sphinx_criosphinx", path = "json/monsters39.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "252"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ eyes._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 3 pg 252\
 **Experience points:** 3,200
 
 **Armor class:** 20/9/20

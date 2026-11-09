@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trained_barding", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "27"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Sources:** Armor Master's Handbook pg 27\
 **Aura** moderate transmutation; **CL** 9th\
 **Slot** armor; **Price** 8,350 gp; **Weight** 30 lbs.
 

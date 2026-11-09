@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ascetic_strike", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "16"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You can use the unarmed strike damage of a monk 4 levels lower than y
 +++
 
 ## Ascetic Strike (Combat)
-
-**Sources:** Weapon Master's Handbook pg 16
 
 Your weapon strikes deal more damage than usual.\
 **Prerequisites:** [Ascetic Form](ref/feat/ascetic-form); [Ascetic Style](ref/feat/ascetic-style);

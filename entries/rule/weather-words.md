@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weather_words", path = "json/rules_opt_magic03.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "186"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 186
 
 Words from the weather family control the forces of nature, summoning wind, rain, and snow.
 

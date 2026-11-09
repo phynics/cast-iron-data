@@ -6,12 +6,12 @@ source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deft_maneuvers", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "the-elephant-in-the-room-feat-taxes-in-pathfinder"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder
 
 You are skilled in a variety of dextrous combat maneuvers.\
 **Prerequisites:** Dex 13.\

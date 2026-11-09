@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/maze" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "122"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Target: one creature
 Subschool: Teleportation
 Descriptors: evil, mind-affecting
 :::
-
-**Sources:** Horror Adventures pg 122
 
 This spell works like [maze](ref/spell/maze), except the DC of the Intelligence check to escape is
 22 and each round a creature remains in the maze a different effect occurs depending on which

@@ -6,6 +6,9 @@ source_ids = ["concordance-of-rivals"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ydajisk", path = "json/faiths9.json" },
 ]
+[[sources]]
+publication = "concordance-of-rivals"
+page = "21"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Ydajisk**
 
 **Sub:** The Mother of Tongues
-
-**Sources:** Concordance of Rivals pg 21
 
 ### Details
 

@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quick_drag", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "114"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "A drag combat maneuver is a standard action."
 +++
 
 ## Quick Drag (Combat)
-
-**Sources:** Ultimate Combat pg 114
 
 You drag your enemy and deliver a punishing blow.\
 **Prerequisites:** Str 13, [Improved Drag](ref/feat/improved-drag),

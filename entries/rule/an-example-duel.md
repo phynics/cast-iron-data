@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "an_example_duel", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "181"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 181
 
 Lem has discovered that Meligaster is manipulating a group of nobles, and he hopes to expose his
 brother's evil schemes. He calls his brother out for a verbal duel in front of the nobles.

@@ -6,6 +6,9 @@ source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slow_time", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "faiths-and-philosophies"
+page = "19"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Once per day, when you meditate as a full-round action using the Comb
 +++
 
 ## Slow Time (Combat, Meditation)
-
-**Sources:** Faiths and Philosophies pg 19
 
 Meditation allows you to perceive time as if it were moving more slowly.\
 **Prerequisites:** Wis 15, [Combat Meditation](ref/feat/combat-meditation),

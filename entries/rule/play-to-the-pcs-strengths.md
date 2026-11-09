@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "play_to_the_pcs_strengths", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "40"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 40
 
 As a GM, you should know your players and their PCs, and create encounters that suit their play
 style and show off what their characters can do. If the fighter's player likes to jump into the

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "chronicle-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "neshen", path = "json/faiths6.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "322"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Neshen**
 
 **Sub:** Knight of the Steel Lash
-
-**Sources:** Inner Sea Gods pg 322
 
 ### Details
 

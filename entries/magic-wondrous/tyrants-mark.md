@@ -6,6 +6,9 @@ source_ids = ["mythic-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tyrants_mark", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "mythic-origins"
+page = "19"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration and divination"
 caster_level = "7th"
 +++
 
-**Sources:** Mythic Origins pg 19\
 **Aura** moderate abjuration and divination; **CL** 7th\
 **Slot** none; **Price** 70,000 gp; **Weight** -
 

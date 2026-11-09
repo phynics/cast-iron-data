@@ -6,12 +6,12 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clockwork", path = "json/monster_families.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Bestiary 3
 
 Clockwork [constructs](ref/type/construct) are the technological cousins of
 [golems](ref/family/golem), constructed with a combination of magic and precise technologies

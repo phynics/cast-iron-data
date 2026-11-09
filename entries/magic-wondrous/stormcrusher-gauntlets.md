@@ -6,6 +6,9 @@ source_ids = ["daughters-of-fury"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stormcrusher_gauntlets", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "daughters-of-fury"
+page = "63"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration and evocation"
 caster_level = "10th"
 +++
 
-**Sources:** Daughters of Fury pg 63\
 **Aura** moderate abjuration and evocation; **CL** 10th\
 **Slot** hands; **Price** 45,000 gp; **Weight** 5 lbs.
 

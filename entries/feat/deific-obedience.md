@@ -6,14 +6,21 @@ source_ids = ["faiths-of-golarion", "inner-sea-gods", "inner-sea-faiths"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deific_obedience", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "faiths-of-golarion"
+page = "4"
+[[sources]]
+publication = "inner-sea-gods"
+page = "210"
+[[sources]]
+publication = "inner-sea-faiths"
+page = "3"
 
 [fields]
 kind = "feat"
 prerequisites = "Knowledge (religion) 3 ranks, must worship a deity."
 benefit = "Each deity requires a different daily obedience, but all obediences take no more than 1 hour per day to perform. Once you've performed the obedience, you gain the benefit of a special ability or resistance as indicated in the Obedience entry for the god to whom you performed the obedience."
 +++
-
-**Sources:** Faiths of Golarion pg 4, Inner Sea Gods pg 210, Inner Sea Faiths pg 3
 
 Your reverence for a deity is so great that daily prayer and minor sacrifices grant you special
 boons.\

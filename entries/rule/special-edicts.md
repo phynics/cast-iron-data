@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "special_edicts", path = "json/rules_campaign_types05.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "229"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 229
 
 There are four types of optional special edicts: Diplomatic, Exploration, Trade, and Vassalage. Each
 turn in the Edict phase, after you have issued your Holiday, Improvement, Promotion, and Taxation

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/black-tentacles" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "30"
 
 [fields]
 kind = "spell"
@@ -53,8 +56,6 @@ Subschool: Creation
 :::
 
 ### Grasping Tentacles
-
-**Sources:** Dirty Tactics Toolbox pg 30
 
 This spell functions as [black tentacles](ref/spell/black-tentacles), except the tentacles blindly
 grasp at the targets' eyes and ears, and tug at their hair, clothes, and equipment. Instead of

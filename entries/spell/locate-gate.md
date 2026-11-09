@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "locate_gate", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "121"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Saving throw: none
 Spell resistance: no
 Area: circle centered on you with a radius of 400 ft. + 40 ft./level
 :::
-
-**Sources:** Horror Adventures pg 121
 
 You sense the direction of the nearest teleportation circle (permanent or with a remaining
 duration), gate spell, or other effect which magically connects two different locations (for

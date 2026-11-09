@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "moment_of_prescience", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "315"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** PRPG Core Rulebook pg 315
 
 This spell grants you a sixth sense. Once during the spell's duration, you may choose to use its
 effect. This spell grants you an insight bonus equal to your caster level (maximum +25) on any

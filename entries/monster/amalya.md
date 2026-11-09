@@ -6,6 +6,9 @@ source_ids = ["fey-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "amalya", path = "json/monsters_unique.json" },
 ]
+[[sources]]
+publication = "fey-revisited"
+page = "8"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ waist. She's adorned in trinkets made from a great white pine's needles and cone
 
 **Senses:** Low-light vision
 
-**Sources:** Fey Revisited pg 8\
 **Experience points:** 2,400
 
 **Armor class:** 19/16/14

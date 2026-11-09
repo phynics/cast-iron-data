@@ -6,12 +6,12 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "field_of_bone", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures
 
 **Field of Bone (CR 6):** This supernatural hazard usually plagues those who trespass on old
 battlefields still littered with the bones of soldiers who have never been laid to proper rest.

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inveigle_person", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "60"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Target: one humanoid creature
 Subschool: Charm
 Descriptors: mind-affecting
 :::
-
-**Sources:** Inner Sea Intrigue pg 60
 
 You cause the target to become extremely amiable. The target treats all other living creatures as if
 it were friendly toward them. Any overtly hostile or harmful act toward the target by any living

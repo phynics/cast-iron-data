@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/object-possession-lesser" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "179"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Target: unattended Tiny or Small object
 :::
 
 ### Object Possession
-
-**Sources:** Occult Adventures pg 179
 
 This spell functions as [lesser object possession](ref/spell/object-possession-lesser), except as
 noted above. The possessed animated object has a number of Construction Points appropriate for its

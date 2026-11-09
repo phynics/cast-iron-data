@@ -6,12 +6,17 @@ source_ids = ["inner-sea-races", "inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "syrinx", path = "json/races4.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "251"
+[[sources]]
+publication = "inner-sea-bestiary"
+page = "51"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Inner Sea Races pg 251, Inner Sea Bestiary pg 51\
 From lofty monastery-cities entrenched in soaring cliff sides and high mountain valleys, the syrinx
 seek to bring peace to all lands that fall within sight of their marbled spires. Erudite and aloof,
 the owl-like scholars embrace art, philosophy, and nebulous faiths, seeking to distance themselves

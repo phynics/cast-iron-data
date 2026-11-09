@@ -6,6 +6,15 @@ source_ids = ["core-rulebook", "ultimate-equipment", "pathfinder-51-the-hungry-s
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shovel_folding", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "158"
+[[sources]]
+publication = "ultimate-equipment"
+page = "57"
+[[sources]]
+publication = "pathfinder-51-the-hungry-storm"
+page = "67"
 
 [fields]
 kind = "item"
@@ -16,8 +25,6 @@ weight = "8 lbs. (common), 12 lbs. (folding)"
 
 ## Shovel or Spade
 
-**Sources:** PRPG Core Rulebook pg 158, Ultimate Equipment pg 57, Pathfinder \#51: The Hungry Storm
-pg 67\
 **Price** 2 gp (common), 10 gp (folding); **Weight** 8 lbs. (common), 12 lbs. (folding)
 
 This tool lets you dig a pit at a rate of 2 cubic feet per minute. If a shovel is used in combat,

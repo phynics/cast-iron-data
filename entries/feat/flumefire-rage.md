@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/varisian-tattoo", label = "or" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
+page = "7"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ prerequisites = "Cha 15; bloodrage class feature, elemental focus class feature,
 prerequisite_feats = ["ref/feat/varisian-tattoo"]
 benefit = "When casting an evocation spell that deals fire damage, you can deal +1 point of fire damage per die. If you do, you must succeed at a Fortitude save (DC = 15 + the spell or blast's level) or become fatigued. You cannot use this feat while fatigued or if you cannot become fatigued."
 +++
-
-**Sources:** Elemental Master's Handbook pg 7
 
 Your meditation before a rune-engraved stone in the Flume Warrens unlocks the secret of its blazing
 flame.\

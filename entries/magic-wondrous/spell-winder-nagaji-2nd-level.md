@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_winder_nagaji_2nd_level", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "234"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "11th (2nd level), 12th (4th level), 18th (6th level)"
 
 ## Spell Winder (Nagaji)
 
-**Sources:** Inner Sea Races pg 234\
 **Aura** moderate or strong evocation; **CL** 11th (2nd level), 12th (4th level), 18th (6th level)\
 **Slot** none; **Price** 18,000 gp (2nd level), 39,000 gp (4th level), 58,000 gp (6th level);
 **Weight** 1/2 lb.

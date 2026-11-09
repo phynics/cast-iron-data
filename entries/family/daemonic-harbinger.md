@@ -6,12 +6,16 @@ source_ids = ["druma-profit-and-prophecy", "inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daemonic_harbinger", path = "json/monster_families.json" },
 ]
+[[sources]]
+publication = "druma-profit-and-prophecy"
+page = "58"
+[[sources]]
+publication = "inner-sea-bestiary"
+page = "62"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Druma, Profit and Prophecy pg 58, Inner Sea Bestiary pg 62
 
 **Family:** [Daemon](ref/family/daemon)
 

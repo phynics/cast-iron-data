@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloudkill", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "256"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Effect: cloud spreads in 20-ft. radius, 20 ft. high
 Subschool: Creation
 Descriptors: poison
 :::
-
-**Sources:** PRPG Core Rulebook pg 256
 
 This spell generates a bank of fog, similar to a [fog cloud](ref/spell/fog-cloud), except that its
 vapors are yellowish green and poisonous. These vapors automatically kill any living creature with 3

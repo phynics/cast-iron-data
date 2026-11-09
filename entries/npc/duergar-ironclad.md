@@ -6,6 +6,9 @@ source_ids = ["tombs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "duergar_ironclad", path = "json/npcs3.json" },
 ]
+[[sources]]
+publication = "tombs-of-golarion"
+page = "32"
 
 [fields]
 kind = "creature"
@@ -18,7 +21,6 @@ _This bulky, gray-skinned dwarf is armored like a fortress._
 
 **Challenge rating:** 10
 
-**Sources:** Tombs of Golarion pg 32\
 **XP** 9,600\
 Duergar [fighter](ref/class/fighter) 7/stalwart defender 4\
 LE Medium humanoid (dwarf)\

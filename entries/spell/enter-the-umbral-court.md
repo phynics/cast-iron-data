@@ -6,12 +6,14 @@ source_ids = ["nidal-land-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enter_the_umbral_court", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "nidal-land-of-shadows"
+page = "7"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Nidal, Land of Shadows pg 7\
 **School** necromancy; **Level** 8\
 **Casting Time** 80 minutes\
 **Components** V, S, M (a whip made of braided strips of skin flyed from the target), SC (at least 2

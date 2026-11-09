@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burning_gaze", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "208"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Spell resistance: yes
 Target: you
 Descriptors: fire
 :::
-
-**Sources:** Advanced Player's Guide pg 208
 
 Your eyes burn like hot coals, allowing you to set objects or foes alight with a glance.
 

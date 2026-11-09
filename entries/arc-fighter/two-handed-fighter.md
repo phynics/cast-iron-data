@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/fighter" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "108"
 
 [fields]
 kind = "archetype"
 replaces = ["Bravery", "Armor training 1", "Armor training 2", "Armor training 3", "Armor training 4", "Armor mastery"]
 +++
 
-**Sources:** Advanced Player's Guide pg 108\
 Some fighters focus their efforts on finding the biggest, heaviest, most imposing weapon they can
 find and training to manage and harness the weight of their massive weapons for maximum impact.
 These fighting school benefits only apply when using two-handed weapons.

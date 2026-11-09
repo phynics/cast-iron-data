@@ -6,6 +6,9 @@ source_ids = ["adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "linnorm_mead_mug", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "adventurers-armory"
+page = "19"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "1/2 lb."
 
 ## Linnorm mead
 
-**Sources:** Adventurer's Armory pg 19\
 **Price** 5 cp/mug; **Weight** 1/2 lb.\
 **Category** Food/Drink
 

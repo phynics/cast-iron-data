@@ -6,6 +6,9 @@ source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "perturbing_stare", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "17"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When you trigger your painful stare, the target must succeed at a Wil
 +++
 
 ## Perturbing Stare (Combat, Stare)
-
-**Sources:** Psychic Anthology pg 17
 
 Your stare dulls your foe's reactions.\
 **Prerequisites:** [Mesmerist](ref/class/mesmerist) level 5th, painful stare class feature.\

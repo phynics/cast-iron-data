@@ -6,12 +6,13 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "standard_movement_traits", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "231"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Advanced Race Guide pg 231
 
 **Climb (2 RP):** **Prerequisites:** None; **Benefit:** Members of this race have a climb speed of
 20 feet, and gain the +8 racial bonus on Climb checks that a climb speed normally grants.

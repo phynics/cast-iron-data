@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "direct_pursuits_and_tracking", path = "json/rules_adv_gm02.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "143"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 143
 
 In a direct pursuit, the pursuers need to attempt a Survival check at the start of each pursuit
 phase in order to make any progress at all. A failure means they have lost the trail and must spend

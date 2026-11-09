@@ -6,6 +6,9 @@ source_ids = ["demons-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "babau_rogue_talent", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "demons-revisited"
+page = "8"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Dex 17, babau."
 benefit = "Choose one rogue talent that adds to sneak attacks (such as bleeding attack or slow reactions)."
 special = "You may select this feat multiple times. Each time you take the feat, you gain a new rogue talent."
 +++
-
-**Sources:** Demons Revisited pg 8
 
 Your instinct for combat is much like that of a rogue.\
 **Prerequisites:** Dex 17, [babau](ref/monster/demon-babau).\

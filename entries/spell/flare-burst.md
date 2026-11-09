@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/flare" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "223"
 
 [fields]
 kind = "spell"
@@ -54,8 +57,6 @@ Descriptors: light
 :::
 
 ### Flare Burst
-
-**Sources:** Advanced Player's Guide pg 223
 
 This spell functions as [flare](ref/spell/flare), except it affects all creatures in a
 10-foot-radius burst from the target point.

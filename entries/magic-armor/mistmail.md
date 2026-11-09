@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mistmail", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "127"
+[[sources]]
+publication = "advanced-players-guide"
+page = "285"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint conjuration"
 caster_level = "3rd"
 +++
 
-**Sources:** Ultimate Equipment pg 127, Advanced Player's Guide pg 285\
 **Aura** faint conjuration; **CL** 3rd\
 **Slot** armor; **Price** 2,250 gp; **Weight** 25 lbs.
 

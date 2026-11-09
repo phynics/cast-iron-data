@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mithral_master", path = "json/npcs7.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "126"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "18"
 
 **Challenge rating:** 18
 
-**Sources:** NPC Codex pg 126\
 **XP** 153,600\
 Half-elf [paladin](ref/class/paladin) of [Abadar](ref/faith/abadar) 19\
 LG Medium humanoid (elf, human)\

@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burned_at_the_stake", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "207"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 207
 
 Public burning tops the list of preferred ways to dispose of witches, heretics, and undesirables of
 all sorts.

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-122-into-the-shattered-continent"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "azlanti_orrery", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "pathfinder-122-into-the-shattered-continent"
+page = "52"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment and transmutation"
 caster_level = "15th"
 +++
 
-**Sources:** Pathfinder \#122: Into the Shattered Continent pg 52\
 **Aura** moderate enchantment and transmutation; **CL** 15th\
 **Slot** none; **Price** -; **Weight** 1,750 lbs.
 

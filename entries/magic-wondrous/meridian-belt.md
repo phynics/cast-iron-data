@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "meridian_belt", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "212"
+[[sources]]
+publication = "advanced-race-guide"
+page = "207"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Sources:** Ultimate Equipment pg 212, Advanced Race Guide pg 207\
 **Aura** moderate transmutation; **CL** 9th\
 **Slot** belt; **Price** 1,000 gp; **Weight** 1 lb.
 

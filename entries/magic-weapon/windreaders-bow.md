@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "windreaders_bow", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "8th"
 +++
 
-**Sources:** Weapon Master's Handbook pg 31\
 **Aura** moderate divination; **CL** 8th\
 **Slot** none; **Price** 54,400 gp; **Weight** 3 lbs.
 

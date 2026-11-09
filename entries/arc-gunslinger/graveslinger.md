@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/gunslinger" },
 ]
+[[sources]]
+publication = "pathfinder-139-the-dead-road"
+page = "65"
 
 [fields]
 kind = "archetype"
 replaces = ["Deadeye deed", "Startling shot deed", "Bleeding wound deed", "Menacing shot deed", "The bonus feat gained at 4th level"]
 +++
 
-**Sources:** Pathfinder \#139: The Dead Road pg 65\
 Graveslingers craft signature bullets to hunt down wandering undead. With this infused ammunition,
 they can take on the most resilient spectral foes with ease.
 

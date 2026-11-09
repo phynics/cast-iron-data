@@ -6,14 +6,21 @@ source_ids = ["ultimate-equipment", "adventurers-armory", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "whistling_arrows", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "22"
+[[sources]]
+publication = "adventurers-armory"
+page = "2"
+[[sources]]
+publication = "ultimate-combat"
+page = "130"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "0.15 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 22, Adventurer's Armory pg 2, Ultimate Combat pg 130
 
 These arrows come with specially designed grooves and fletching that cause them to emit a loud
 keening sound audible within 500 feet of their flight path. They are sold in quantities of 20.

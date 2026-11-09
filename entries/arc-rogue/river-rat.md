@@ -9,13 +9,18 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "76"
+[[sources]]
+publication = "people-of-the-river"
+page = "21"
 
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Trap sense"]
 +++
 
-**Sources:** Ultimate Wilderness pg 76, People of the River pg 21\
 What highway robbers are to roads, river rats are to waterways. Skilled at hiding amid reeds and
 roots, these rogues strike the unwary from the shallows as others would from the shadows. Despite
 their strong association with banditry, river rats make excellent guides and hunters.

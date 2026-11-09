@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/monk" },
 ]
+[[sources]]
+publication = "undead-slayers-handbook"
+page = "22"
 
 [fields]
 kind = "archetype"
 replaces = ["Still mind", "Maneuver training", "Purity of body", "Wholeness of body", "Quivering palm", "Empty body", "Perfect self"]
 +++
 
-**Sources:** Undead Slayer's Handbook pg 22\
 Spirit masters are monks who specialize in combating the undead, laying their corpses to rest, and
 sending their souls to final judgment.
 

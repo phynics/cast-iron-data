@@ -6,6 +6,9 @@ source_ids = ["knights-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "armigers_panoply", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "knights-of-the-inner-sea"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Knights of the Inner Sea pg 30\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** wrists; **Price** 7,200 gp; **Weight** 1 lbs.
 

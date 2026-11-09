@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divinations_2", path = "json/rules_adv_gm03.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "159"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 159
 
 A lot of the game-changing divinations become available in the mid-level range, particularly
 [scrying](ref/spell/scrying).

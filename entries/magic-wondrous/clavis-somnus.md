@@ -6,6 +6,9 @@ source_ids = ["the-house-on-hook-street"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clavis_somnus", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "the-house-on-hook-street"
+page = "33"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation and divination"
 caster_level = "10th"
 +++
 
-**Sources:** The House on Hook Street pg 33\
 **Aura** moderate transmutation and divination; **CL** 10th\
 **Slot** none; **Price** 10,300 gp; **Weight** -
 

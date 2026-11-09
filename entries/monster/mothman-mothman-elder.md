@@ -6,6 +6,9 @@ source_ids = ["mystery-monsters-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mothman_mothman_elder", path = "json/monsters17.json" },
 ]
+[[sources]]
+publication = "mystery-monsters-revisited"
+page = "33"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ into complex patterns._
 
 **Senses:** Darkvision 60 ft., See invisibility
 
-**Sources:** Mystery Monsters Revisited pg 33\
 **Experience points:** 19,200
 
 **Armor class:** 26/14/21

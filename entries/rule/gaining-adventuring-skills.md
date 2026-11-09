@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gaining_adventuring_skills", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "47"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 47
 
 Adventuring skills are those skills that are most relevant for characters while they're actively
 adventuring. Adventuring skills are purchased with the standard skill ranks each character class

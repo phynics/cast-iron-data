@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "corrosive_burst", path = "json/magic_enhancements2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "138"
+[[sources]]
+publication = "advanced-players-guide"
+page = "287"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate evocation"
 caster_level = "12th"
 +++
 
-**Sources:** Ultimate Equipment pg 138, Advanced Player's Guide pg 287\
 **Aura** moderate evocation; **CL** 12th\
 **Slot** weapon quality; **Price** +2 bonus; **Weight** -
 

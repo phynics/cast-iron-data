@@ -6,6 +6,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "expeditious_construction", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "7"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Effect: a low wall 10 feet long per 3 levels (minimum 10 feet) (S)
 Subschool: Creation
 Descriptors: earth
 :::
-
-**Sources:** Arcane Anthology pg 7
 
 You create a low wall or other simple structure of packed earth or loose stone measuring 3 feet
 thick, 3 feet tall, and 10 feet long per 3 caster levels you possess (minimum 10 feet). Each square

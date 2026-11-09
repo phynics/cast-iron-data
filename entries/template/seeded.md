@@ -6,6 +6,9 @@ source_ids = ["pathfinder-113-what-grows-within"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seeded", path = "json/monster_template4.json" },
 ]
+[[sources]]
+publication = "pathfinder-113-what-grows-within"
+page = "90"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Challenge rating:** +1
 
 **Inherited:** present
-
-**Source:** Pathfinder \#113: What Grows Within/90
 
 Though the Great Old One [Xhamen-Dor](ref/monster/great-old-one-xhamen-dor) lies half-dormant where
 its bloated body crashed millennia ago, virtually nothing can prevent it from seeking new hosts to

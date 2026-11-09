@@ -6,6 +6,9 @@ source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "asura_nikaramsa", path = "json/monsters02.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "242"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ _This muscular giant has two ferocious lion heads, each with a long, black, lash
 
 **Senses:** Darkvision 60 ft., Detect chaos, Detect evil, Detect good, Detect law, See invisibility
 
-**Sources:** Book of the Damned pg 242\
 **Subtype:** Asura, Evil, Extraplanar, Lawful
 
 **Experience points:** 38,400

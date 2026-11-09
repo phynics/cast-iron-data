@@ -6,12 +6,13 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "transmutation_uw_1", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "158"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Wilderness pg 158
 
 The wilderness is a place of constant change, so it's no surprise that most wilderness-appropriate
 spells come from the transmutation school of magic. These spells not only mutate the caster and her

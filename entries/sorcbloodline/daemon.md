@@ -6,13 +6,15 @@ source_ids = ["blood-of-fiends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daemon", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
+[[sources]]
+publication = "blood-of-fiends"
+page = "29"
 
 [fields]
 kind = "class_option"
 group = "sorcerer-bloodline"
 +++
 
-**Sources:** Blood of Fiends pg 29\
 A [daemon](ref/family/daemon) lurks somewhere along your family tree. Your powers derive from these
 soul-devouring fiends, who take pleasure and gain power from manipulating mortal frailties like
 aging, pestilence, famine, and the horrors of war. Your lineage gives you great insight into how to

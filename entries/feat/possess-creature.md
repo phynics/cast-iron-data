@@ -6,6 +6,9 @@ source_ids = ["pathfinder-28-the-infernal-syndrome"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "possess_creature", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "pathfinder-28-the-infernal-syndrome"
+page = "57"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Once per day, as a full-round action, a fiend can discorporate into a
 +++
 
 ## Possess Creature (Monster)
-
-**Sources:** Pathfinder \#28: The Infernal Syndrome pg 57
 
 A fiend gains the ability to merge its physical form with another creature's body, spreading its
 foul influence from within a living vessel.\

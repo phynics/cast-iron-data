@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "fey-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gremlin_grimple", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "142"
+[[sources]]
+publication = "fey-revisited"
+page = "15"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ opossum._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 4 pg 142, Fey Revisited pg 15\
 **Size:** tiny
 
 **Experience points:** 135

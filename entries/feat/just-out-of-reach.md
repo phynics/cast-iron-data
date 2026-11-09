@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "just_out_of_reach", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "9"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When a foe more than 5 feet away from you makes a melee attack agains
 +++
 
 ## Just Out of Reach (Combat)
-
-**Sources:** Melee Tactics Toolbox pg 9
 
 The farther an attacker is from you, the more easily you avoid its melee attacks.\
 **Prerequisites:** Dex 13, [Dodge](ref/feat/dodge), [Mobility](ref/feat/mobility).\

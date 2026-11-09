@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/slayer" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "86"
 
 [fields]
 kind = "archetype"
 replaces = ["Studied target", "Track", "swift tracker", "Stalker", "Quarry", "improved quarry", "Master slayer"]
 +++
 
-**Sources:** Ultimate Wilderness pg 86\
 Avalanchers attack from overhead cliffs and mesas like a landslide of arrows and blades.
 
 **Falling Strike (Ex)**

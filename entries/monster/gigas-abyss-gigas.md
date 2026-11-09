@@ -6,6 +6,9 @@ source_ids = ["the-witchwar-legacy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gigas_abyss_gigas", path = "json/monsters12.json" },
 ]
+[[sources]]
+publication = "the-witchwar-legacy"
+page = "27"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ effortlessly._
 
 **Perception:** +27
 
-**Sources:** The Witchwar Legacy pg 27\
 **Subtype:** Chaotic, Evil, Extraplanar, Giant
 
 **Experience points:** 76,800

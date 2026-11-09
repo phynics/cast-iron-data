@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bestow_planar_infusion_1", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "39"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Saving throw: Fortitude negates (harmless)
 Spell resistance: yes
 Target: creature touched
 :::
-
-**Sources:** Planar Adventures pg 39
 
 This spell draws upon the latent planar energy of the caster's surroundings, allowing her to
 temporarily infuse a creature with the plane's power. The touched creature gains that plane's basic

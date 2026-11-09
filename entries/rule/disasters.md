@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disasters", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "234"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 234
 
 Natural disasters go far beyond any mere environmental hazard, leaving death and devastation in
 their wake. Supernatural disasters can be even more disruptive, with the potential to forever scar a

@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "centaur", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "42"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ warhorse._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 42\
 **Experience points:** 800
 
 **Armor class:** 20/11/18

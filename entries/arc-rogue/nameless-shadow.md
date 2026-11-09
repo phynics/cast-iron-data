@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "merchants-manifest"
+page = "30"
 
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "rogue talents gained at 2nd, 6th, 10th, 14th, and 18th levels", "Rogue talents gained at 4th and 8th levels"]
 +++
 
-**Sources:** Merchant's Manifest pg 30\
 Where bandits and tyrants prey on merchants and caravans, the nameless shadow preys on bandits and
 tyrants. Posing as mundane merchants or other harmless travelers, these assassins can hide both
 within darkness and in the anonymity of a seemingly unimportant crowd. This archetype is appropriate

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/claim-identity" },
 ]
+[[sources]]
+publication = "spymasters-handbook"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -57,8 +60,6 @@ Subschool: Polymorph
 :::
 
 ### Greater Claim Identity
-
-**Sources:** Spymaster's Handbook pg 28
 
 This spell functions as per [claim identity](ref/spell/claim-identity), except it transforms its
 target into a helpless, inanimate porcelain mask for the spell's duration. The target remains aware

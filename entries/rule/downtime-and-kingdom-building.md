@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "downtime_and_kingdom_building", path = "json/rules_subsystems02.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "77"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 77
 
 The downtime system is a middle ground between personal projects (like crafting a new set of armor)
 and large-scale tasks (like ruling a kingdom). These rules interface with both ends of that scale,

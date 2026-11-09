@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "double_hackbut", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "43"
+[[sources]]
+publication = "ultimate-combat"
+page = "137"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "18 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 43, Ultimate Combat pg 137
 
 This double-length rifle uses a pair of trunnions to mount its barrel into a swiveling mechanism
 fastened to the top of a lightweight, two-wheeled carriage. It takes a full-round action to set up

@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gaining_tiers", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "13"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 13
 
 A character's mythic power is classified by tier, with a 1st-tier mythic character already being
 significantly more powerful than a non-mythic character of the same level and a 10th-tier mythic

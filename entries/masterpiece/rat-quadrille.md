@@ -6,6 +6,8 @@ source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rat_quadrille", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "magical-marketplace"
 
 [fields]
 kind = "class_option"
@@ -13,8 +15,6 @@ group = "bardic-masterpiece"
 +++
 
 ## Rat Quadrille (Percussion, Sing)
-
-**Sources:** Magical Marketplace
 
 This repetitive, distracting melody wears down foes.
 

@@ -6,6 +6,18 @@ source_ids = ["ultimate-equipment", "adventurers-armory", "advanced-players-guid
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tent_medium", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "58"
+[[sources]]
+publication = "adventurers-armory"
+page = "19"
+[[sources]]
+publication = "advanced-players-guide"
+page = "183"
+[[sources]]
+publication = "core-rulebook"
+page = "158"
 
 [fields]
 kind = "item"
@@ -16,8 +28,6 @@ weight = "40 lbs. (large), 30 lbs. (medium), 50 lbs. (pavilion), 20 lbs. (small)
 
 ## Tent
 
-**Sources:** Ultimate Equipment pg 58, Adventurer's Armory pg 19, Advanced Player's Guide pg 183,
-PRPG Core Rulebook pg 158\
 **Price** 30 gp (large), 15 gp (medium), 100 gp (pavilion), 10 gp (small); **Weight** 40 lbs.
 (large), 30 lbs. (medium), 50 lbs. (pavilion), 20 lbs. (small)
 

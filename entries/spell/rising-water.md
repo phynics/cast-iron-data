@@ -6,6 +6,9 @@ source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rising_water", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
+page = "14"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Spell resistance: no
 Area: cylinder (20-ft. radius, 10 ft. high)
 Descriptors: water
 :::
-
-**Sources:** Elemental Master's Handbook pg 14
 
 You conjure a cylinder of calm water on an area of solid ground or on top of a body of water. The
 water forms quickly but displaces only air; it doesn't push away objects or creatures, though

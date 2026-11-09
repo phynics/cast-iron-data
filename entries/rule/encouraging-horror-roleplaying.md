@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "encouraging_horror_roleplaying", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "203"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 203
 
 Pathfinder is not a game anyone wins, but it's not uncommon for players to want to overcome
 challenges in an exceptional fashion or with the minimum expenditure of resources. That means that

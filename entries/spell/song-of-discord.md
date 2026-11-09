@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "song_of_discord", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "345"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Area: creatures within a 20-ft.-radius spread
 Subschool: Compulsion
 Descriptors: mind-affecting, sonic
 :::
-
-**Sources:** PRPG Core Rulebook pg 345
 
 This spell causes those within the area to turn on each other rather than attack their foes. Each
 affected creature has a 50% chance to attack the nearest target each round. (Roll to determine each

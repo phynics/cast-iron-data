@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sphere_of_annihilation", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "332"
+[[sources]]
+publication = "core-rulebook"
+page = "545"
 
 [fields]
 kind = "item"
@@ -16,8 +22,6 @@ slot = "none"
 aura = "strong transmutation"
 caster_level = "20th"
 +++
-
-**Sources:** Ultimate Equipment pg 332, PRPG Core Rulebook pg 545
 
 **Aura** strong transmutation; **CL** 20th\
 **Slot** none; **Price** -; **Weight** -

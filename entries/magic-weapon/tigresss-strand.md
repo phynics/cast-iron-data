@@ -6,6 +6,9 @@ source_ids = ["lost-treasures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tigresss_strand", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "lost-treasures"
+page = "57"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Lost Treasures pg 57\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** none; **Price** 18,305 gp; **Weight** 3 lbs.
 

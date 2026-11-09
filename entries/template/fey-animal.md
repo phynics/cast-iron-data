@@ -6,6 +6,9 @@ source_ids = ["lands-of-the-linnorm-kings"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fey_animal", path = "json/monster_template1.json" },
 ]
+[[sources]]
+publication = "lands-of-the-linnorm-kings"
+page = "58"
 
 [fields]
 kind = "none"
@@ -18,8 +21,6 @@ kind = "none"
 **Challenge rating:** +1
 
 **Inherited:** present
-
-**Source:** Lands of the Linnorm Kings/58
 
 "Fey animal" is an inherited or acquired template that can be added to a living, corporeal animal
 (referred to hereafter as the base creature). A fey animal uses all the base creature's statistics

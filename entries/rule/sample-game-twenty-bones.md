@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sample_game_twenty_bones", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "241"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 241
 
 Twentybone is a beat-the-bank game played with 20-sided dice, based on the familiar roll for attacks
 and skill checks.

@@ -6,12 +6,12 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "veela", path = "json/monster_families2.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Bestiary 5
 
 Capricious yet alluring, veelas are elemental spirits given shape. On the Elemental Planes, veelas
 revel in the unbridled energy of the elements from which they draw power. On the other planes,

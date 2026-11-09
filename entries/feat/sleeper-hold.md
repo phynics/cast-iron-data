@@ -6,6 +6,9 @@ source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sleeper_hold", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "dragon-empires-primer"
+page = "25"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You must declare that you are using this feat before you make a comba
 +++
 
 ## Sleeper Hold (Combat)
-
-**Sources:** Dragon Empires Primer pg 25
 
 By maintaining a grapple hold on your opponent, you can cause it to lose consciousness.\
 **Prerequisites:** [Greater Grapple](ref/feat/greater-grapple), base attack bonus +8.\

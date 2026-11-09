@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daemon_purrodaemon", path = "json/monsters06.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "73"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ vulture-like head._
 
 **Senses:** Darkvision 60 ft., True seeing
 
-**Sources:** Bestiary 2 pg 73\
 **Subtype:** Daemon, Evil, Extraplanar
 
 **Experience points:** 153,600

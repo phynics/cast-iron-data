@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flame_shield", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "25"
 
 [fields]
 kind = "class_option"
@@ -23,8 +26,6 @@ group = "kineticist-wild-talent"
 **Burn:** 1
 
 **Prerequisite:** [searing flesh](ref/kinetic/searing-flesh)
-
-**Source:** Occult Adventures/25
 
 -defFlickering flames surround you until the next time your burn is removed.
 

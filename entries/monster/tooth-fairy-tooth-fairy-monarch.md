@@ -6,6 +6,9 @@ source_ids = ["pathfinder-139-the-dead-road"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tooth_fairy_tooth_fairy_monarch", path = "json/monsters23.json" },
 ]
+[[sources]]
+publication = "pathfinder-139-the-dead-road"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ made of humanoid teeth and clutches a tooth-studded scepter._
 
 **Size:** small
 
-**Sources:** Pathfinder \#139: The Dead Road pg 88\
 **Experience points:** 800
 
 **Armor class:** 15/15/11

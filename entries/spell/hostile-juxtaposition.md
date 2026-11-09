@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hostile_juxtaposition", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "231"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: yes
 Target: one creature of your size or smaller
 Subschool: Teleportation
 :::
-
-**Sources:** Ultimate Combat pg 231
 
 You create a dimensional link to the target creature. When attacked or the subject of a spell that
 deals damage to you, you can spend an immediate action to cause yourself and the target creature to

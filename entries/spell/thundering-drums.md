@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thundering_drums", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "249"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Spell resistance: yes
 Area: cone-shaped burst
 Descriptors: sonic
 :::
-
-**Sources:** Advanced Player's Guide pg 249
 
 You strike the ground in front of you, filling the area in front of you with the thunder of pounding
 drums. Any creature in the area takes 1d8 points of sonic damage per caster level (maximum 5d8) and

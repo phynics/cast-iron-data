@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/mesmerist" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "97"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Consummate liar", "mental potency", "3rd- and 14th-level touch trea
 alters = ["Spell list"]
 +++
 
-**Sources:** Occult Adventures pg 97\
 Some mesmerists specialize in dominating and controlling undead rather than the living.
 
 **Spells**

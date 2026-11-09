@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/paladin" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "65"
 
 [fields]
 kind = "archetype"
 replaces = ["6th-level mercy", "Aura of justice", "12th-level mercy"]
 +++
 
-**Sources:** Horror Adventures pg 65\
 In a world of horrors, some holy warriors fight to safeguard the minds and spirits of those exposed
 to evil. Soul sentinels use the strength of their resolve to stem the tide of corruption and
 insanity, as they believe that the greatest tragedy is a soul lost to evil when it was within their

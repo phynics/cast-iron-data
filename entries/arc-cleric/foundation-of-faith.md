@@ -9,12 +9,14 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cleric" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
+page = "8"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Elemental Master's Handbook pg 8\
 Whether aiding the faithful or defending against the depredations of unbelievers, a foundation of
 faith is unshakable in her convictions. These clerics are most common among worshipers of deities of
 earth or protection, such as [Abadar](ref/faith/abadar) or [Torag](ref/faith/torag), but any

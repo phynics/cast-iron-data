@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "limited_wish", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "305"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: none, see text
 Spell resistance: yes
 Effect: see text
 :::
-
-**Sources:** PRPG Core Rulebook pg 305
 
 A limited wish lets you create nearly any type of effect. For example, a limited wish can do any of
 the following things.

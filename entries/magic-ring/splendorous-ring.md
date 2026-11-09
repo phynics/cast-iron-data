@@ -6,6 +6,9 @@ source_ids = ["chronicle-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "splendorous_ring", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "chronicle-of-the-righteous"
+page = "53"
 
 [fields]
 kind = "item"
@@ -16,8 +19,6 @@ slot = "ring"
 aura = "faint illusion"
 caster_level = "3rd"
 +++
-
-**Sources:** Chronicle of the Righteous pg 53
 
 **Aura** faint illusion; **CL** 3rd\
 **Slot** ring; **Price** 9,900 gp; **Weight** -

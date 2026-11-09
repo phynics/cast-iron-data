@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grasping_vine", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "25"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Ultimate Wilderness pg 25
 
 > _[Vine leshys](ref/race/vine-leshy) have access to the following spell._
 

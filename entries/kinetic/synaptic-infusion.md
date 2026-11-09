@@ -6,6 +6,9 @@ source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "synaptic_infusion", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "21"
 
 [fields]
 kind = "class_option"
@@ -25,8 +28,6 @@ group = "kineticist-wild-talent"
 [Thunderstorm Blast](ref/kinetic/thunderstorm-blast)
 
 **Saving throw:** Will negates
-
-**Source:** Psychic Anthology/21
 
 Your blast sends strange electric signals through the target's body, scrambling its synapses and
 causing it to become [staggered](ref/misc/staggered) for 1 round. The target is aware it can choose

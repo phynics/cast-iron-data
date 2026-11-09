@@ -6,13 +6,14 @@ source_ids = ["path-of-the-hellknight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "order_of_the_scar_minor_order", path = "json/class_ability_hellknight_orders.json" },
 ]
+[[sources]]
+publication = "path-of-the-hellknight"
+page = "54"
 
 [fields]
 kind = "class_option"
 group = "hellknight-order"
 +++
-
-**Sources:** Path of the Hellknight pg 54
 
 **Symbol**
 

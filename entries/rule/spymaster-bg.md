@@ -6,12 +6,13 @@ source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spymaster_bg", path = "json/rules_basics03.json" },
 ]
+[[sources]]
+publication = "spymasters-handbook"
+page = "5"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Spymaster's Handbook pg 5
 
 Spymasters collect and analyze data from subordinate spies. Effective spymasters maintain covert
 contact with their spies, train in Bluff and Sense Motive, and are often spellcasters. Arcanists,

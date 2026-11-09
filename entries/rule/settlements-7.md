@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "settlements_7", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "208"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 208
 
 LN village\
 **Corruption** +0; **Crime** -4; **Economy** -1; **Law** +2; **Lore** +1; **Society** +0\

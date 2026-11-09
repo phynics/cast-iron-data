@@ -6,6 +6,12 @@ source_ids = ["bestiary-6", "inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "goblin_monkey_goblin", path = "json/monsters12.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "138"
+[[sources]]
+publication = "inner-sea-bestiary"
+page = "16"
 
 [fields]
 kind = "creature"
@@ -47,7 +53,6 @@ feet, and a rat-like tail._
 
 **Size:** small
 
-**Sources:** Bestiary 6 pg 138, Inner Sea Bestiary pg 16\
 **Subtype:** Goblinoid
 
 **Experience points:** 200

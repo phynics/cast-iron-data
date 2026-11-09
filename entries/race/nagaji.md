@@ -6,13 +6,26 @@ source_ids = ["inner-sea-races", "bestiary-4", "dragon-empires-primer", "dragon-
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nagaji", path = "json/races2.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "246"
+[[sources]]
+publication = "bestiary-4"
+page = "199"
+[[sources]]
+publication = "dragon-empires-primer"
+page = "4"
+[[sources]]
+publication = "dragon-empires-gazetteer"
+page = "10"
+[[sources]]
+publication = "advanced-race-guide"
+page = "196"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Inner Sea Races pg 246, Bestiary 4 pg 199, Dragon Empires Primer pg 4, Dragon Empires
-Gazetteer pg 10, Advanced Race Guide pg 196\
 The nagaji are a race of ophidian humanoids with scaled skin that mimics the dramatic appearance of
 true nagas. Like serpents, they have forked tongues and lidless eyes, giving them an unblinking gaze
 that most other races find unnerving. Their physical forms are otherwise human-like, raising wary

@@ -6,6 +6,9 @@ source_ids = ["lost-cities-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tear_of_nuruugal", path = "json/monsters23.json" },
 ]
+[[sources]]
+publication = "lost-cities-of-golarion"
+page = "43"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ searing mirage._
 
 **Size:** small
 
-**Sources:** Lost Cities of Golarion pg 43\
 **Subtype:** Fire
 
 **Experience points:** 2,400

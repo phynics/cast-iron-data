@@ -6,12 +6,14 @@ source_ids = ["jade-regent-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "caravan_statistics", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "jade-regent-players-guide"
+page = "16"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Jade Regent Player's Guide pg 16\
 Just as each character has her own statistics, so does your party's caravan. The end of \[the
 physical book and PDF\] presents a blank Caravan Sheet you can use to track your caravan's
 successes, failures, and growth as the Jade Regent Adventure Path proceeds. Descriptions of all

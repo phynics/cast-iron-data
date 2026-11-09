@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/swashbuckler" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "51"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Regain panache from a killing blow", "Bonus feats", "Menacing sword
 alters = ["Derring-do", "swashbuckler's edge", "Panache"]
 +++
 
-**Sources:** Adventurer's Guide pg 51\
 The dashing thief relies on swift swordplay, dazzling charm, and spirited courage to commit
 audacious acts of thievery. Another thief might break into a noble's house by night, leaving none
 the wiser, but the dashing thief swings in through a window, charms the noble's servant into handing

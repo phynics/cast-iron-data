@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "troglodyte_troglodyte_scale_rider", path = "json/monsters39.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "216"
 
 [fields]
 kind = "creature"
@@ -49,7 +52,6 @@ tail and crests on its head and back._
 
 **Senses:** Darkvision 90 ft.
 
-**Sources:** Monster Codex pg 216\
 **Subtype:** Reptilian
 
 **Experience points:** 2,400

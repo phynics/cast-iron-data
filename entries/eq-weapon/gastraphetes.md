@@ -6,14 +6,15 @@ source_ids = ["distant-shores"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gastraphetes", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "distant-shores"
+page = "12"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "12 lbs."
 +++
-
-**Sources:** Distant Shores pg 12
 
 The gastraphetes, sometimes called a "belly bow," is an oversized crossbow reloaded by pressing one
 end against the ground, the other against one's abdomen, and locking the string in place through

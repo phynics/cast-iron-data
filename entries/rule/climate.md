@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "climate", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "220"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 220
 
 Each of the standard terrain types varies by climate. Climate differs from weather, though it
 affects the weather significantly. Climate describes the generally prevailing atmospheric conditions

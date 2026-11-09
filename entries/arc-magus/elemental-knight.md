@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/magus" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "203"
 
 [fields]
 kind = "archetype"
 replaces = ["Spell recall"]
 +++
 
-**Sources:** Advanced Race Guide pg 203\
 Elemental knights are born with elemental energies surging through their blood and discover the
 secret of reconciling and focusing this primal power into the arcane. An elemental knight has the
 following class features.

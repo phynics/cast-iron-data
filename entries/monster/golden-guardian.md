@@ -6,6 +6,9 @@ source_ids = ["city-of-golden-death"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golden_guardian", path = "json/monsters12.json" },
 ]
+[[sources]]
+publication = "city-of-golden-death"
+page = "29"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ exquisite detail into an eerie replica of a human face._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** City of Golden Death pg 29\
 **Experience points:** 2,400
 
 **Armor class:** 19/9/19

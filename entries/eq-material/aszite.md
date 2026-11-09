@@ -6,13 +6,14 @@ source_ids = ["distant-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aszite", path = "json/equipment_special_materials.json" },
 ]
+[[sources]]
+publication = "distant-realms"
+page = "43"
 
 [fields]
 kind = "item"
 category = "Special Materials"
 +++
-
-**Sources:** Distant Realms pg 43
 
 The navy-blue ore known as aszite is often used to reinforce buildings. While aszite cannot be
 properly worked into weapons, it can be added in the form of vein-like reinforcements to armor,

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-89-palace-of-fallen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "azonite_pellets", path = "json/equipment_tech_pharmaceuticals.json" },
 ]
+[[sources]]
+publication = "pathfinder-89-palace-of-fallen-stars"
+page = "62"
 
 [fields]
 kind = "item"
@@ -13,7 +16,6 @@ category = "Pharmaceuticals"
 price = "100 gp"
 +++
 
-**Sources:** Pathfinder \#89: Palace of Fallen Stars pg 62\
 **Price** 100 gp
 
 ### Construction

@@ -6,6 +6,12 @@ source_ids = ["ultimate-magic", "book-of-the-damned-volume-1-princes-of-darkness
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vision_of_hell", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "248"
+[[sources]]
+publication = "book-of-the-damned-volume-1-princes-of-darkness"
+page = "47"
 
 [fields]
 kind = "spell"
@@ -53,8 +59,6 @@ Effect: 50-ft.-radius emanation
 Subschool: Glamer
 Descriptors: evil, fear, glamer
 :::
-
-**Sources:** Ultimate Magic pg 248, Book of the Damned - Volume 1: Princes of Darkness pg 47
 
 You overlay a realistic illusion of a terrifying hellscape upon an area. Structures, equipment, and
 creatures within the area are not hidden, though environmental features take on an infernal

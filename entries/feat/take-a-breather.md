@@ -6,6 +6,9 @@ source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "take_a_breather", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "healers-handbook"
+page = "15"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Your vigor pool gains 1 vigor point. Whenever an opponent that you th
 +++
 
 ## Take a Breather (Combat)
-
-**Sources:** Healer's Handbook pg 15
 
 You can use lapses in your opponent's guard to recuperate from the wounds you have already
 sustained.\

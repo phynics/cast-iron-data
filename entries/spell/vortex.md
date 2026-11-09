@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vortex", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "254"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: yes
 Effect: whirlpool 50 ft. deep, 30 ft. wide at top, and 5 ft. wide at base
 Descriptors: water
 :::
-
-**Sources:** Advanced Player's Guide pg 254
 
 You create a powerful and immobile whirlpool in any body of liquid large enough to contain the
 spell's effect. Any Large or smaller creature that comes in contact with the spell effect must

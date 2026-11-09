@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extra_elemental_assault", path = "json/feat06.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "203"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Suli."
 benefit = "Your elemental assault ability lasts an additional 2 rounds per day."
 special = "You can take this feat multiple times. Its effects stack."
 +++
-
-**Sources:** Advanced Race Guide pg 203
 
 You have unlocked greater elemental power.\
 **Prerequisites:** [Suli](ref/race/suli).\

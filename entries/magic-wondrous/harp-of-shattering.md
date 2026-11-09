@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "harp_of_shattering", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "302"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint evocation"
 caster_level = "3rd"
 +++
 
-**Sources:** Ultimate Equipment pg 302\
 **Aura** faint evocation; **CL** 3rd\
 **Slot** none; **Price** 8,000 gp; **Weight** 5 lbs.
 

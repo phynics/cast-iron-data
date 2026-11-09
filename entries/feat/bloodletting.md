@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "faiths-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloodletting", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "208"
+[[sources]]
+publication = "faiths-of-corruption"
+page = "25"
 
 [fields]
 kind = "feat"
@@ -15,8 +21,6 @@ benefit = "Whenever you threaten a critical hit with a piercing or slashing weap
 +++
 
 ## Bloodletting (Combat)
-
-**Sources:** Inner Sea Gods pg 208, Faiths of Corruption pg 25
 
 When you attack with a piercing or slashing weapon, the wounds you cause bleed profusely.\
 **Prerequisites:** Worshiper of [Zon-Kuthon](ref/faith/zon-kuthon).\

@@ -6,6 +6,8 @@ source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/shot-on-the-run" },
 ]
+[[sources]]
+publication = "the-elephant-in-the-room-feat-taxes-in-pathfinder"
 
 [fields]
 kind = "feat"
@@ -16,7 +18,6 @@ benefit = "As a full-round action, you can move up to your speed and make a sing
 normal = "You cannot move before and after an attack with a ranged weapon."
 +++
 
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 You can move, fire a ranged weapon, and move again before your foes can react.\
 **Prerequisites:** Dex 13, [Dodge](ref/feat/dodge), [Precise Shot](ref/feat/precise-shot), base
 attack bonus +4.\

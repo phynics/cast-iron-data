@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "building_a_treasure_hoard", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "400"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 400
 
 While it's often enough to simply tell your players they've found 5,000 gp in gems and 10,000 gp in
 jewelry, it's generally more interesting to give details. Giving treasure a personality can not only

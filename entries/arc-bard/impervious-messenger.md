@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "20"
 
 [fields]
 kind = "archetype"
 replaces = ["Fascinate", "Suggestion", "mass suggestion", "Dirge of doom", "frightening tune", "Bardic knowledge", "well-versed"]
 +++
 
-**Sources:** Ultimate Intrigue pg 20\
 The impervious messenger is capable of harnessing the unique qualities of bardic magic to keep,
 transport, and communicate the most precious of secrets and messages, even when subject to the most
 vigorous forms of observation, be they magical or mundane.

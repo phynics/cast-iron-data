@@ -6,12 +6,14 @@ source_ids = ["horror-adventures", "game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mania", path = "json/madness.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "184"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Adventures pg 184\
 **Type** lesser madness (compulsion); **Save DC** 14\
 **Onset** 1 day\
 **Effect** Each round when an afflicted character is within 30 feet and can see the object of her

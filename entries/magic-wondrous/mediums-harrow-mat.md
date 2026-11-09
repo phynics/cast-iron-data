@@ -6,6 +6,9 @@ source_ids = ["the-harrow-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mediums_harrow_mat", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "the-harrow-handbook"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Sources:** The Harrow Handbook pg 31\
 **Aura** moderate necromancy; **CL** 7th\
 **Slot** none; **Price** 2,500 gp; **Weight** 1 lb.
 

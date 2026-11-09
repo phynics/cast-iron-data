@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "janni_tempest", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "106"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While you are using the Janni Style feat, whenever you make an unarme
 +++
 
 ## Janni Tempest (Combat)
-
-**Sources:** Ultimate Combat pg 106
 
 Your gale of attacks easily throws your opponents off balance.\
 **Prerequisites:** [Improved Unarmed Strike](ref/feat/improved-unarmed-strike),

@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gloomblind_bolts", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "113"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Effect: one or more bolts of energy
 Subschool: Creation
 Descriptors: shadow
 :::
-
-**Sources:** Advanced Race Guide pg 113
 
 > _[Fetchlings](ref/race/fetchling) have access to the following spell._
 

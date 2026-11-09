@@ -6,14 +6,18 @@ source_ids = ["adventurers-armory-2", "pirates-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boarding_gaff", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "8"
+[[sources]]
+publication = "pirates-of-the-inner-sea"
+page = "19"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "8 lbs."
 +++
-
-**Sources:** Adventurer's Armory 2 pg 8, Pirates of the Inner Sea pg 19
 
 A boarding gaff, or gaff hook, is a long pole with a hook for spearing fish. Pirates often add
 extra, heavier hooks to both ends of boarding gaffs to assist with boarding actions, giving the

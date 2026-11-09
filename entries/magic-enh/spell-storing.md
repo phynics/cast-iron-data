@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_storing", path = "json/magic_enhancements2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "148"
+[[sources]]
+publication = "core-rulebook"
+page = "469"
 
 [fields]
 kind = "item"
@@ -19,7 +25,6 @@ caster_level = "12th"
 
 ## Spell Storing
 
-**Sources:** Ultimate Equipment pg 148, PRPG Core Rulebook pg 469\
 **Aura** strong evocation and varies; **CL** 12th\
 **Slot** weapon quality; **Price** +1 bonus; **Weight** -
 

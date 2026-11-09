@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burst_of_adrenaline", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "160"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Occult Adventures pg 160
 
 You draw upon your body's inner reserves of strength, leaving you winded. When you are about to make
 a d20 roll based on Strength, Dexterity, or Constitution, you can cast this spell to gain a +8

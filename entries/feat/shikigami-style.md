@@ -10,6 +10,9 @@ relations = [
   { kind = "prerequisite", target = "ref/feat/catch-off-guard", label = "or" },
   { kind = "prerequisite", target = "ref/feat/throw-anything", label = "or" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "9"
 
 [fields]
 kind = "feat"
@@ -20,8 +23,6 @@ benefit = "While in this style, you deal damage with improvised weapons as if th
 +++
 
 ## Shikigami Style (Combat, Style)
-
-**Sources:** Martial Arts Handbook pg 9
 
 Your skill with improvised weapons makes them more dangerous than they would otherwise be.\
 **Prerequisites:** [Catch Off-Guard](ref/feat/catch-off-guard) or

@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "position_of_strength", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "188"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "As long as you are wielding one or more weapons with which you are pr
 +++
 
 ## Position of Strength (Combat)
-
-**Sources:** Villain Codex pg 188
 
 You know how to press your advantage when negotiating with noncombatants.\
 **Prerequisites:** Intimidate 5 ranks.\

@@ -6,14 +6,16 @@ source_ids = ["bestiary-6", "bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "protean", path = "json/monster_subtypes.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+[[sources]]
+publication = "bestiary-2"
 
 [fields]
 kind = "none"
 +++
 
 ## Subtype: Protean
-
-**Sources:** Bestiary 6, Bestiary 2
 
 [Proteans](ref/family/protean) are serpentine [outsiders](ref/type/outsider) of pure chaos. They
 have the following traits unless otherwise noted in a creature's entry.

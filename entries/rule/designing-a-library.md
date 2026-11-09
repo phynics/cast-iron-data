@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "designing_a_library", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "149"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 149
 
 Although some sample libraries are presented at the end of this section, the research rules are most
 rewarding when used in conjunction with libraries specifically designed to interact with an

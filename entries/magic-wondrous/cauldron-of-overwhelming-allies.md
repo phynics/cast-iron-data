@@ -6,6 +6,9 @@ source_ids = ["pathfinder-67-the-snows-of-summer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cauldron_of_overwhelming_allies", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "pathfinder-67-the-snows-of-summer"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "8th"
 +++
 
-**Sources:** Pathfinder \#67: The Snows of Summer pg 60\
 **Aura** moderate conjuration; **CL** 8th\
 **Slot** none; **Price** 4,500 gp; **Weight** 5 lbs.
 

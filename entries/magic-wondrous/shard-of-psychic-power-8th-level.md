@@ -6,6 +6,9 @@ source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shard_of_psychic_power_8th_level", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "9"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "17th"
 
 ## Shard of Psychic Power
 
-**Sources:** Psychic Anthology pg 9\
 **Aura** strong transmutation; **CL** 17th\
 **Slot** none; **Price** 1,000 gp (1st-level), 4,000 gp (2nd-level), 9,000 gp (3rd-level), 16,000 gp
 (4th-level), 25,000 gp (5th-level), 36,000 gp (6th-level), 49,000 gp (7th-level), 64,000 gp

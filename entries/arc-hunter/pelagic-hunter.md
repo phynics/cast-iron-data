@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/hunter" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
+page = "54"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Woodland stride"]
 alters = ["Animal companion", "Animal focus"]
 +++
 
-**Sources:** Aquatic Adventures pg 54\
 Pelagic hunters form strong bonds that extend deep beneath the sea, reaching out to whatever heeds
 their call, whether it be mundane animals or something far more sinister.
 

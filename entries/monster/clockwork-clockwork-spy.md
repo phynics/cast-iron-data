@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clockwork_clockwork_spy", path = "json/monsters05.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "58"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ grinding metal._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 3 pg 58\
 **Subtype:** Clockwork
 
 **Size:** tiny

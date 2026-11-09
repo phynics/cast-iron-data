@@ -6,12 +6,14 @@ source_ids = ["pathfinder-135-runeplague"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wrest_resources", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "pathfinder-135-runeplague"
+page = "79"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder \#135: Runeplague pg 79\
 **School** conjuration (teleportation); **Level** 7\
 **Casting Time** 60 minutes\
 **Components** V, S, M (an amount of a single natural mineral, metal, or gemstone worth 500 gp), F

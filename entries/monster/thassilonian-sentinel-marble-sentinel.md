@@ -6,6 +6,9 @@ source_ids = ["pathfinder-62-curse-of-the-ladys-light"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thassilonian_sentinel_marble_sentinel", path = "json/monsters23.json" },
 ]
+[[sources]]
+publication = "pathfinder-62-curse-of-the-ladys-light"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ intently with its glowing green eyes._
 
 **Size:** small
 
-**Sources:** Pathfinder \#62: Curse of the Lady's Light pg 90\
 **Experience points:** 1,200
 
 **Armor class:** 20/14/17

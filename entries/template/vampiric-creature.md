@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vampiric_creature", path = "json/monster_template4.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "250"
 
 [fields]
 kind = "none"
@@ -18,8 +21,6 @@ kind = "none"
 **Challenge rating:** +1
 
 **Simple:** present
-
-**Source:** Horror Adventures/250
 
 Vampiric creatures have been transformed into vampires, and they don't have to be humanoids. At your
 discretion, a vampiric creature might have the create spawn ability and could create spawn of its

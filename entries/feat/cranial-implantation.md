@@ -10,6 +10,9 @@ relations = [
   { kind = "prerequisite", target = "ref/feat/self-sufficient", label = "or" },
   { kind = "prerequisite", target = "ref/feat/trepanation", label = "or" },
 ]
+[[sources]]
+publication = "occult-origins"
+page = "24"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ prerequisites = "Self-Sufficient or Trepanation, Heal 7 ranks."
 prerequisite_feats = ["ref/feat/self-sufficient", "ref/feat/trepanation"]
 benefit = "You can perform the phrenology occult skill unlock, though you must use needles or similar sharp implements rather than your fingertips, dealing 1d3 points of damage to the subject. If you can cast psychic spells or have the Psychic Sensitivity feat, you can use phrenology one additional time per day."
 +++
-
-**Sources:** Occult Origins pg 24
 
 You turn the science of phrenology inward, driving needles and nails into your or another's brain to
 grant focus through the pathways of pain.\

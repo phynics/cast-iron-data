@@ -6,11 +6,13 @@ source_ids = ["armor-masters-handbook"]
 relations = [
   { kind = "addon", target = "ref/feat/intense-blows", label = "stamina" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "21"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Armor Master's Handbook pg 21\
 You can spend 5 stamina points to double this feat's bonus to your CMD for one combat maneuver
 check.

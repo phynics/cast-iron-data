@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sadomasochism", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "239"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Spell resistance: yes
 Target: you
 Descriptors: pain
 :::
-
-**Sources:** Inner Sea Gods pg 239
 
 While subject to this spell, any time you are dealt damage, your attacker must roll damage for the
 attack twice and take the higher roll, but the attacker must also succeed at a Will saving throw or

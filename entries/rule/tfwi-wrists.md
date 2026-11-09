@@ -6,12 +6,13 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tfwi_wrists", path = "json/rules_adv_gm07.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "271"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Equipment pg 271
 
 ### Table 5-12: Wrist Slot Wondrous Items
 

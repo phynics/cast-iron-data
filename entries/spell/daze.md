@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daze", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "264"
 
 [fields]
 kind = "spell"
@@ -55,8 +58,6 @@ Target: one humanoid creature of 4 HD or less
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 264
 
 This spell clouds the mind of a humanoid creature with 4 or fewer Hit Dice so that it takes no
 actions. Humanoids of 5 or more HD are not affected. A dazed subject is not stunned, so attackers

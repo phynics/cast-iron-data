@@ -6,6 +6,9 @@ source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boulder_bullet_lesser", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "24"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "varies"
 
 ## Boulder Bullet
 
-**Sources:** Ranged Tactics Toolbox pg 24\
 **Aura** moderate or strong enchantment; **CL** varies\
 **Slot** none; **Price** lesser (806 gp), normal (1,966 gp), greater (4,006 gp); **Weight** 1/2 lb.
 

@@ -6,13 +6,14 @@ source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "liquid_glass", path = "json/equipment_special_materials.json" },
 ]
+[[sources]]
+publication = "merchants-manifest"
+page = "17"
 
 [fields]
 kind = "item"
 category = "Special Materials"
 +++
-
-**Sources:** Merchant's Manifest pg 17
 
 This heatstone-derived glass is warm to the touch and slightly malleable, as if it were still
 liquid. A pliable nature allows this otherwise razor-sharp crystal to repair itself when it takes

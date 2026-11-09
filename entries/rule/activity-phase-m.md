@@ -6,12 +6,13 @@ source_ids = ["lands-of-conflict"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "activity_phase_m", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "lands-of-conflict"
+page = "54"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Lands of Conflict pg 54
 
 During the Activity phase, the militia can take a number of actions as set by its rank and modified
 further by a Strategist, other unique allies, or events. Actions can be taken in any order, but each

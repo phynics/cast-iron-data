@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "halt_undead", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "293"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: Will negates (see text)
 Spell resistance: yes
 Targets: up to three undead creatures, no two of which can be more than 30 ft. apart
 :::
-
-**Sources:** PRPG Core Rulebook pg 293
 
 This spell renders as many as three undead creatures immobile. A nonintelligent undead creature gets
 no saving throw; an intelligent undead creature does. If the spell is successful, it renders the

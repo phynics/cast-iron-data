@@ -6,6 +6,9 @@ source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scent_salts", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
+page = "56"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "1 sp"
 weight = "-"
 +++
 
-**Sources:** Aquatic Adventures pg 56\
 **Price** 1 sp; **Weight** -\
 **Category** Entertainment
 

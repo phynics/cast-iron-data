@@ -6,6 +6,9 @@ source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fiendskin", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "champions-of-corruption"
+page = "16"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "You gain defensive abilities related to your patron's outsider subtyp
 +++
 
 ## Fiendskin (Damnation)
-
-**Sources:** Champions of Corruption pg 16
 
 The forces of darkness gird you against the light.\
 **Benefit:** You gain defensive abilities related to your patron's outsider subtype. For example, if

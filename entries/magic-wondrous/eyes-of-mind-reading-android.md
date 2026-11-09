@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eyes_of_mind_reading_android", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "231"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Sources:** Inner Sea Races pg 231\
 **Aura** faint divination; **CL** 3rd\
 **Slot** eyes; **Price** 11,000 gp; **Weight** 1/2 lb.
 

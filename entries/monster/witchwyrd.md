@@ -6,6 +6,12 @@ source_ids = ["bestiary-2", "pathfinder-14-children-of-the-void"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "witchwyrd", path = "json/monsters25.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "285"
+[[sources]]
+publication = "pathfinder-14-children-of-the-void"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ three-fingered hand._
 
 **Senses:** Darkvision 60 ft., Detect magic
 
-**Sources:** Bestiary 2 pg 285, Pathfinder \#14: Children of the Void pg 88\
 **Experience points:** 2,400
 
 **Armor class:** 19/12/17

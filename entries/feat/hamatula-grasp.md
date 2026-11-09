@@ -6,6 +6,9 @@ source_ids = ["cheliax-empire-of-devils"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hamatula_grasp", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "cheliax-empire-of-devils"
+page = "27"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When attacking an impaled opponent with the weapon that impales them,
 +++
 
 ## Hamatula Grasp (Combat)
-
-**Sources:** Cheliax, Empire of Devils pg 27
 
 You deal terrible damage to impaled foes.\
 **Prerequisites:** [Hamatula Strike](ref/feat/hamatula-strike),

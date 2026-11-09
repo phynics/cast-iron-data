@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wreath_of_blades", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "249"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Saving throw: Reflex half (special, see below)
 Spell resistance: no (special, see below)
 Area: 5-foot-radius emanation centered on you
 :::
-
-**Sources:** Ultimate Combat pg 249
 
 The daggers serving as focus of this spell take on a deadly sharpness as they animate and spin
 around you, creating a 5-foot-radius emanation of spinning mithral blades that moves with you. Any

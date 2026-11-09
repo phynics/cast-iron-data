@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_damage", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "129"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 129
 
 One of the easiest ways to measure an offensive spell's power is to look at how much damage it does.
 Offensive spells are the easiest spells to design in the game, and there are dozens of examples of

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/occultist" },
 ]
+[[sources]]
+publication = "construct-handbook"
+page = "11"
 
 [fields]
 kind = "archetype"
 replaces = ["3rd-, 9th- and 15th-level focus powers", "Magic circles", "outside contact", "binding circles", "fast circles"]
 +++
 
-**Sources:** Construct Handbook pg 11\
 Trapped within each construct is a spiritual presence, be it a bound elemental or raw magical
 energy. Construct collectors draw out that presence and use it to gain unlikely power in the
 battlefield.

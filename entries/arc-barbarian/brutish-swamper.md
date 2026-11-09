@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/barbarian" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "37"
 
 [fields]
 kind = "archetype"
 replaces = ["Fast movement", "Uncanny dodge", "improved uncanny dodge", "Trap sense", "6th-level rage power"]
 +++
 
-**Sources:** Ultimate Wilderness pg 37\
 The hardy and insular denizens of the swamp produce warriors of narrow focus and great strength. The
 prejudice and misunderstanding with which civilized folk often regard barbarians is often even more
 pronounced in the case of these belligerent outcasts from society, in large part due to the fact

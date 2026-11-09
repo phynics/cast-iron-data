@@ -6,13 +6,14 @@ source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "order_of_the_beast_isc", path = "json/class_ability_orders.json" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "30"
 
 [fields]
 kind = "class_option"
 group = "order"
 +++
-
-**Sources:** Inner Sea Combat pg 30
 
 A cavalier belonging to this order seeks only destruction and chaos. Cavaliers of the order of the
 beast revel in destruction, and go out of their way to cause as much mayhem and disorder as

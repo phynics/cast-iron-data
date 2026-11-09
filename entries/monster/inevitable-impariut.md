@@ -6,6 +6,9 @@ source_ids = ["pathfinder-131-the-reapers-right-hand"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inevitable_impariut", path = "json/monsters14.json" },
 ]
+[[sources]]
+publication = "pathfinder-131-the-reapers-right-hand"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _Dressed in noble regalia, this humanoid creature of metal and wood has a pierci
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#131: The Reaper's Right Hand pg 86\
 **Subtype:** Extraplanar, Inevitable, Lawful
 
 **Experience points:** 9,600

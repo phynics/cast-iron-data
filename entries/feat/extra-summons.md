@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extra_summons", path = "json/feat06.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "150"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Ability to cast summon monster as a spell-like ability, summone
 benefit = "You gain 1 additional use of your summon monster spell-like ability per day."
 special = "You can take this feat multiple times, but it can only be taken once for every five summoner levels you possess."
 +++
-
-**Sources:** Ultimate Magic pg 150
 
 You can summon monsters more often each day.\
 **Prerequisites:** Ability to cast [summon monster](ref/spell/summon-monster) as a

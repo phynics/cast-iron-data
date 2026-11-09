@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/ricochet-shot", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "106"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 106\
 If the attack hits the secondary target, the wielder can select a tertiary target within 20 feet of
 the secondary target. This functions like a ricochet off the primary target. The tertiary target
 must be a different creature than the primary target.

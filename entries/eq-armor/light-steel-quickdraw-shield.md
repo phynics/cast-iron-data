@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "light_steel_quickdraw_shield", path = "json/equipment_armor.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "9"
+[[sources]]
+publication = "advanced-players-guide"
+page = "179"
 
 [fields]
 kind = "item"
@@ -13,7 +19,6 @@ category = "Armor"
 weight = "7 lbs."
 +++
 
-**Sources:** Ultimate Equipment pg 9, Advanced Player's Guide pg 179\
 **Cost** 59 gp **Weight** 7 lbs.\
 **Shield Bonus** +1; **Max Dex Bonus** —; **Armor Check Penalty** -2\
 **Arcane Spell Failure Chance** 5%

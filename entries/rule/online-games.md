@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "online_games", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "45"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 45
 
 Since the birth of the Internet, GMs have been successfully taking their campaigns online. With an
 online campaign, you can play with people from anywhere in the world without leaving your own home.

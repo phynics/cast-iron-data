@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blackmarrow_altar", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "218"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong necromancy [evil]"
 caster_level = "17th"
 +++
 
-**Sources:** Horror Adventures pg 218\
 **Aura** strong necromancy \[evil\]; **CL** 17th\
 **Slot** none; **Price** 32,500 gp; **Weight** 24 lbs.
 

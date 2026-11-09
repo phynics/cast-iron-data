@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/spiritualist" },
 ]
+[[sources]]
+publication = "disciples-doctrine"
+page = "22"
 
 [fields]
 kind = "archetype"
 replaces = ["Shared consciousness", "Detect undead", "Calm spirit", "See invisibility", "Fused consciousness", "Call spirit"]
 +++
 
-**Sources:** Disciple's Doctrine pg 22\
 Sometimes a spiritualist is so haunted by a past life's failure to reach enlightenment that the past
 life is reborn not as a new creature but as a phantom in a spiritualist's consciousness. The
 spiritualist and phantom work in tandem to reach enlightenment and atone for the past life's

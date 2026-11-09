@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "capital_city", path = "json/rules_campaign_types04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "207"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 207
 
 A kingdom should have a capital city - the seat of your power. Your first settlement is your
 capital. If you want to designate a different settlement as the capital, you may do so in Step 7 of

@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "champions-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "explosion_of_rot", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "229"
+[[sources]]
+publication = "champions-of-balance"
+page = "25"
 
 [fields]
 kind = "spell"
@@ -37,8 +43,6 @@ Saving throw: Reflex half (see text)
 Spell resistance: yes
 Area: 10-ft.-radius burst
 :::
-
-**Sources:** Ultimate Wilderness pg 229, Champions of Balance pg 25
 
 You call forth a burst of decay that ravages all creatures in the area. Even nonliving creatures
 such as constructs and undead crumble or wither in this malignant eruption of rotting energy.

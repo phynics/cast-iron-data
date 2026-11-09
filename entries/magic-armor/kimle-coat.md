@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kimle_coat", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "73, 252"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "3rd"
 
 ## Kimlé Coat
 
-**Sources:** Inner Sea Gods pg. 73, 252\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** armor; **Price** 2,300 gp; **Weight** 15 lbs.
 

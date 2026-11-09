@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_wall", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "169"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever you are wielding a shield and are adjacent to an ally wieldi
 +++
 
 ## Shield Wall (Combat, Teamwork)
-
-**Sources:** Advanced Player's Guide pg 169
 
 You form a unified defense with those around you.\
 **Prerequisites:** [Shield Proficiency](ref/feat/shield-proficiency).\

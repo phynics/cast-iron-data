@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cap_of_enervation", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "9"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint necromancy"
 caster_level = "5th"
 +++
 
-**Sources:** Monster Codex pg 9\
 **Aura** faint necromancy; **CL** 5th\
 **Slot** head; **Price** 3,500 gp; **Weight** -
 

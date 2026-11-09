@@ -6,6 +6,9 @@ source_ids = ["andoran-birthplace-of-freedom"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ragewight", path = "json/monsters19.json" },
 ]
+[[sources]]
+publication = "andoran-birthplace-of-freedom"
+page = "58"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ _This desiccated corpse wields a greatsword, its eyes blazing with eerie red lig
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Andoran, Birthplace of Freedom pg 58\
 **Type:** undead
 
 **Experience points:** 2,400

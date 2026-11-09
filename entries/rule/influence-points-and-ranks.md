@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "influence_points_and_ranks", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "109"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 109
 
 The organizational influence system uses influence points to track the opinion of an organization
 concerning the PCs. When the PCs first interact with an organization, they typically start with 0

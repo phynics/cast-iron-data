@@ -6,6 +6,8 @@ source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "exhilarating_prayer_of_grace", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "divine-anthology"
 
 [fields]
 kind = "class_option"
@@ -13,8 +15,6 @@ group = "bardic-masterpiece"
 +++
 
 ## Exhilarating Prayer of Grace (Dance)
-
-**Sources:** Divine Anthology
 
 You lead your audience through a series of stretches and exercises designed to warm the muscles and
 increase blood circulation.

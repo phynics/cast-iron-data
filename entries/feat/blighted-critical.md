@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blighted_critical", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "143"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "You can apply the effects of only one critical feat to a given critic
 +++
 
 ## Blighted Critical (Critical)
-
-**Sources:** Ultimate Magic pg 143
 
 With a critical hit from a spell or [spell-like ability](ref/umr/spell-like-abilities), you give the
 target a minor spellblight.\

@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "robe_of_vermin", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "350"
+[[sources]]
+publication = "core-rulebook"
+page = "542"
 
 [fields]
 kind = "item"
@@ -15,8 +21,6 @@ slot = "body"
 aura = "strong abjuration"
 caster_level = "13th"
 +++
-
-**Sources:** Ultimate Equipment pg 350, PRPG Core Rulebook pg 542
 
 **Aura** strong abjuration; **CL** 13th\
 **Slot** body; **Weight** 1 lb.

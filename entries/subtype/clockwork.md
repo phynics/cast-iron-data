@@ -6,14 +6,20 @@ source_ids = ["bestiary-6", "bestiary-3", "bestiary-4", "bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clockwork", path = "json/monster_subtypes.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+[[sources]]
+publication = "bestiary-3"
+[[sources]]
+publication = "bestiary-4"
+[[sources]]
+publication = "bestiary-5"
 
 [fields]
 kind = "none"
 +++
 
 ## Subtype: Clockwork
-
-**Sources:** Bestiary 6, Bestiary 3, Bestiary 4, Bestiary 5
 
 Clockworks are [constructs](ref/type/construct) created through a fusion of magic and technology. A
 clockwork has the following traits unless otherwise noted.

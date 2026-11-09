@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/feather-fall", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "93"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 93\
 The spell affects one additional target per level. The targets don't have to be within 20 feet of
 each other.
 

@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "forlarren", path = "json/monsters31.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "125"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ with a sinister expression._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 2 pg 125\
 **Experience points:** 600
 
 **Armor class:** 15/12/13

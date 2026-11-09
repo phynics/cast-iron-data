@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "paralyzing_strike", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "153"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You must declare that you are using this feat before you make your at
 +++
 
 ## Paralyzing Strike (Combat)
-
-**Sources:** Advanced Class Guide pg 153
 
 Finding just the right pressure point, you paralyze your foe with a single hit.\
 **Prerequisites:** Dex 13, Wis 13, [Improved Unarmed Strike](ref/feat/improved-unarmed-strike), base

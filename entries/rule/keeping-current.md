@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "keeping_current", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "62"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 62
 
 As soon as a session ends, all players should consult their notes to ensure that all experience
 points, treasure, and important information has been accurately recorded. Some groups appoint one

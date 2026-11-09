@@ -6,6 +6,12 @@ source_ids = ["adventurers-guide", "people-of-the-north"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mammoth_lance", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "134"
+[[sources]]
+publication = "people-of-the-north"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Sources:** Adventurer's Guide pg 134, People of the North pg 29\
 **Aura** moderate transmutation; **CL** 9th\
 **Slot** none; **Price** 32,310 gp; **Weight** 10 lbs.
 

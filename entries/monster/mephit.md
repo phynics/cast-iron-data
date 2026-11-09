@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mephit", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "202"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ _This small humanoid creature has thin, leathery wings, small horns, and a misch
 
 **Size:** small
 
-**Sources:** Pathfinder RPG Bestiary pg 202\
 **Subtype:** Varies\
 **Experience points:** 800
 

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-49-the-brinewall-legacy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "belostomatid", path = "json/monsters03.json" },
 ]
+[[sources]]
+publication = "pathfinder-49-the-brinewall-legacy"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ insect._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#49: The Brinewall Legacy pg 82\
 **tremorsense:** 60
 
 **Type:** vermin

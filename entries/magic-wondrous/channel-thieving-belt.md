@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "channel_thieving_belt", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "219"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration and necromancy (normal), moderate conjuration and necr
 caster_level = "3rd (normal), 7th (greater)"
 +++
 
-**Sources:** Horror Adventures pg 219\
 **Aura** faint conjuration and necromancy (normal), moderate conjuration and necromancy (greater);
 **CL** 3rd (normal), 7th (greater)\
 **Slot** belt; **Price** 2,000 gp (normal), 9,200 gp (greater); **Weight** 2 lbs.

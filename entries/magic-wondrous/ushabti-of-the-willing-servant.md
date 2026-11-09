@@ -6,6 +6,9 @@ source_ids = ["pathfinder-80-empty-graves"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ushabti_of_the_willing_servant", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "pathfinder-80-empty-graves"
+page = "63"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Sources:** Pathfinder \#80: Empty Graves pg 63\
 **Aura** moderate evocation; **CL** 7th\
 **Slot** none; **Price** 3,900 gp; **Weight** 1 lb.
 

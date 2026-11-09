@@ -6,12 +6,13 @@ source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "espionage_backgrounds", path = "json/rules_basics03.json" },
 ]
+[[sources]]
+publication = "spymasters-handbook"
+page = "4"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Spymaster's Handbook pg 4
 
 Once you select the sort of spy your character is from the options below (agent, mole, saboteur, or
 spymaster), you can either choose a background from the corresponding table or roll randomly on the

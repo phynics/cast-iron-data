@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "headband_of_aerial_agility", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "248"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Sources:** Ultimate Equipment pg 248\
 **Aura** moderate transmutation; **CL** 8th\
 **Slot** headband; **Price** 4,500 gp (+2), 42,000 gp (+4), 81,000 gp (+6); **Weight** -
 

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-93-forge-of-the-giant-god"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giants_nail_scale_mail", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "pathfinder-93-forge-of-the-giant-god"
+page = "16"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Sources:** Pathfinder \#93: Forge of the Giant God pg 16\
 **Aura** moderate necromancy; **CL** 7th\
 **Slot** armor; **Price** 9,200 gp; **Weight** 30 lbs.
 

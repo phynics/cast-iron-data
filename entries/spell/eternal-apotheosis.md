@@ -6,12 +6,14 @@ source_ids = ["occult-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eternal_apotheosis", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "occult-realms"
+page = "55"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Occult Realms pg 55\
 **School** necromancy \[evil\]; **Level** 9\
 **Casting Time** 9 hours\
 **Components** V, S, M (incense made from ground-up bits of undead creatures), F (phylactery worth

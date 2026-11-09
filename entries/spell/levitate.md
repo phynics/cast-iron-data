@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "levitate", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "304"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Saving throw: none
 Spell resistance: no
 Target: you or one willing creature or one object (total weight up to 100 lbs./level)
 :::
-
-**Sources:** PRPG Core Rulebook pg 304
 
 Levitate allows you to move yourself, another creature, or an object up and down as you wish. A
 creature must be willing to be levitated, and an object must be unattended or possessed by a willing

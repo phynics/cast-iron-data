@@ -6,12 +6,13 @@ source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "black_markets_in_campaigns", path = "json/rules_rulesets01.json" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "4"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Black Markets pg 4
 
 Even idealists and wonder-workers are at times driven to the outlaw havens of black markets. Magical
 visionaries use these unauthorized enterprises to fund and protect their work even when the populace

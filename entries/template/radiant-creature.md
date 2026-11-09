@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "radiant_creature", path = "json/monster_template3.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "123"
 
 [fields]
 kind = "none"
@@ -20,8 +23,6 @@ kind = "none"
 **Inherited:** present
 
 **Simple:** present
-
-**Source:** Planar Adventures/123
 
 Radiant creatures are mortal creatures who have been destroyed by the overwhelming fury of the
 [Positive Energy Plane's](ref/rule/positive-energy-plane) energies. Normally, the souls of such

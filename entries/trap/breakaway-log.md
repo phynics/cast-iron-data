@@ -6,12 +6,13 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "breakaway_log", path = "json/traps.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "173"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Wilderness pg 173
 
 **Breakaway Log**
 

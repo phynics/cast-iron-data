@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scimitar_of_the_spellthief", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "159"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong divination"
 caster_level = "13th"
 +++
 
-**Sources:** Ultimate Equipment pg 159\
 **Aura** strong divination; **CL** 13th\
 **Slot** none; **Price** 75,815 gp; **Weight** 4 lbs.
 

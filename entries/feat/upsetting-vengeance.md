@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "upsetting_vengeance", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "13"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using Upsetting Shield Style, the penalty on attack rolls foes 
 +++
 
 ## Upsetting Vengeance (Combat)
-
-**Sources:** Armor Master's Handbook pg 13
 
 You punish those who fail to press their attack.\
 **Prerequisites:** Dex 13, [Combat Reflexes](ref/feat/combat-reflexes),

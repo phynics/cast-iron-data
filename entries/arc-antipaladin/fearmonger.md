@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/antipaladin" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "20"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Touch of corruption"]
 alters = ["Cruelty"]
 +++
 
-**Sources:** Monster Codex pg 20\
 The fearmonger wants to do more than cause pain, misery, and confusion. He wishes to spread fear
 among his foes and infect entire populations with it. The fearmonger archetype is available only to
 the antipaladin alternate class.

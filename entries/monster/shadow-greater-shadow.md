@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_greater_shadow", path = "json/monsters21.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "245"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ _This shadowy figure sways and moves with an erratic grace, as if lit by an unse
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 245\
 **Subtype:** Incorporeal
 
 **Type:** undead

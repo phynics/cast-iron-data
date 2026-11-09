@@ -6,6 +6,9 @@ source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "armguards_of_waning_hope", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "merchants-manifest"
+page = "14"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment"
 caster_level = "9th"
 +++
 
-**Sources:** Merchant's Manifest pg 14\
 **Aura** moderate enchantment; **CL** 9th\
 **Slot** hands; **Price** 25,000 gp; **Weight** 1 lb.
 

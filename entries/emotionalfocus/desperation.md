@@ -6,13 +6,15 @@ source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "desperation", path = "json/class_ability_emotional_focus.json" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
+page = "13"
 
 [fields]
 kind = "class_option"
 group = "emotional-focus"
 +++
 
-**Sources:** Elemental Master's Handbook pg 13\
 A phantom with this emotional focus died desperate and panicking - a victim of drowning,
 suffocation, or some other inexorable and traumatic death. The phantom relives its horrific demise
 over and over, futilely clawing at its foes to save itself and dragging them down with it.

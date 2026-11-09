@@ -6,6 +6,9 @@ source_ids = ["pathfinder-68-the-shackled-hut"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "emberchill", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "pathfinder-68-the-shackled-hut"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation (plus aura of stored spell)"
 caster_level = "10th"
 +++
 
-**Sources:** Pathfinder \#68: The Shackled Hut pg 60\
 **Aura** moderate evocation (plus aura of stored spell); **CL** 10th\
 **Slot** none; **Price** 12,806 gp; **Weight** 2 lbs.
 

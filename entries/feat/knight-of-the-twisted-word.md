@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/fey-obedience", label = "or" },
 ]
+[[sources]]
+publication = "plane-hoppers-handbook"
+page = "22"
 
 [fields]
 kind = "feat"
@@ -18,8 +21,6 @@ prerequisite_feats = ["ref/feat/fey-obedience"]
 +++
 
 ## Knight of the Twisted Word (Gathlain Court Title)
-
-**Sources:** Plane-Hopper's Handbook pg 22
 
 You've so impressed [the Traitor](ref/faith/count-ranalc) that he's given you a title in his
 court-in-exile - possibly to keep an eye on you.\

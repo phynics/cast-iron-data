@@ -6,6 +6,9 @@ source_ids = ["pathfinder-132-the-six-legend-soul"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heavens_step", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "pathfinder-132-the-six-legend-soul"
+page = "73"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you make an attack using Step Up and Strike, you can also make a
 +++
 
 ## Heaven's Step (Combat)
-
-**Sources:** Pathfinder \#132: The Six-Legend Soul pg 73
 
 Like the daring Heaven's Step Offensive championed by Grand Prince Gennaris III of Taldor, you
 confidently take the fight to your enemy and strike an unexpected blow.\

@@ -6,6 +6,8 @@ source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/greater-weapon-focus" },
 ]
+[[sources]]
+publication = "the-elephant-in-the-room-feat-taxes-in-pathfinder"
 
 [fields]
 kind = "feat"
@@ -16,7 +18,6 @@ benefit = "You gain a +1 bonus on attack rolls you make using the selected weapo
 special = "You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new weapon group."
 +++
 
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 Choose one [weapon group](ref/ability/weapon-groups) listed under the fighter's Weapon Training
 class feature for which you have already selected Weapon Focus. You are a master at your chosen
 weapon type.\

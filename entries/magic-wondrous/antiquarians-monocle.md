@@ -6,6 +6,9 @@ source_ids = ["gallows-of-madness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "antiquarians_monocle", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "gallows-of-madness"
+page = "48"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Sources:** Gallows of Madness pg 48\
 **Aura** faint divination; **CL** 3rd\
 **Slot** eyes; **Price** 1,350 gp; **Weight** -
 

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ranger" },
 ]
+[[sources]]
+publication = "blood-of-the-beast"
+page = "9"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Favored enemy", "master hunter", "Wild empathy", "Hunter's bond"]
 alters = ["Combat style feat"]
 +++
 
-**Sources:** Blood of the Beast pg 9\
 In dense jungles, foliage and tight spaces hinder all but the most deceptively humble weapons:
 [blowguns](ref/eq-weapon/blowgun) and poison.
 

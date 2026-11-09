@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/quick-draw", label = "or" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "109"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ prerequisites = "Maximized magic magus arcana, weapon expertise class feature or
 prerequisite_feats = ["ref/feat/quick-draw"]
 benefit = "When you make a melee attack and successfully use your spellstrike ability against an opponent denied his Dexterity bonus to AC, you can spend 3 points from your arcane pool to maximize the spell delivered through your spellstrike as if using the Maximize Spell metamagic feat."
 +++
-
-**Sources:** Ultimate Combat pg 109
 
 You deal brutal damage against opponents caught unawares.\
 **Prerequisites:** [Maximized magic](ref/arcana/maximized-magic) magus arcana, weapon expertise

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-115-trail-of-the-hunted"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stench_gas_bladder", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "pathfinder-115-trail-of-the-hunted"
+page = "41"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "30 gp"
 weight = "0.5 lb."
 +++
 
-**Sources:** Pathfinder \#115: Trail of the Hunted pg 41\
 **Price** 30 gp; **Weight** 0.5 lb.\
 **Category** Alchemical Weapons
 

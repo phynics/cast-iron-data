@@ -6,6 +6,9 @@ source_ids = ["dungeoneers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "evidentiary_dust", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "dungeoneers-handbook"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination"
 caster_level = "4th"
 +++
 
-**Sources:** Dungeoneer's Handbook pg 28\
 **Aura** faint divination; **CL** 4th\
 **Slot** none; **Price** 600 gp; **Weight** -
 

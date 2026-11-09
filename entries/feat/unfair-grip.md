@@ -6,6 +6,9 @@ source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unfair_grip", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "advanced-class-origins"
+page = "27"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you perform a grapple combat maneuver, you gain a +1 bonus on ch
 +++
 
 ## Unfair Grip (Combat)
-
-**Sources:** Advanced Class Origins pg 27
 
 You learned to fight in places that have no rules of engagement, such as the back alleys of Absalom
 or the fighting pits of the Sodden Lands, and you can grab foes in ways that are difficult to

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-84-pyramid-of-the-sky-pharaoh"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "set_guardian", path = "json/monsters21.json" },
 ]
+[[sources]]
+publication = "pathfinder-84-pyramid-of-the-sky-pharaoh"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ head of a long-snouted canine. Ruby gems sparkle in its eye sockets._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#84: Pyramid of the Sky Pharaoh pg 88\
 **Experience points:** 25,600
 
 **Armor class:** 29/9/27

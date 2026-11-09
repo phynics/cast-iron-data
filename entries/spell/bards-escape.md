@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/dimension-door" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "204"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: no
 Target: you and up to 1 willing creature/2 caster levels, no two of which can be more than 30 ft. apart
 Subschool: Teleportation
 :::
-
-**Sources:** Advanced Player's Guide pg 204
 
 You whisk yourself and willing allies out of a tight jam, or instantly transfer yourselves to
 another location to achieve greater strategic positioning. You can move any allies within range to

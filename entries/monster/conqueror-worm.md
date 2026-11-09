@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "conqueror_worm", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "64"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ four long, hook-like jaws._
 
 **Senses:** Darkvision 60 ft., True seeing
 
-**Sources:** Bestiary 6 pg 64\
 **tremorsense:** 120
 
 **Experience points:** 409,600

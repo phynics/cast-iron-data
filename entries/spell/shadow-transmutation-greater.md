@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/shadow-transmutation" },
 ]
+[[sources]]
+publication = "blood-of-shadows"
+page = "31"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Descriptors: shadow
 :::
 
 ### Greater Shadow Transmutation
-
-**Sources:** Blood of Shadows pg 31
 
 This spell functions like [shadow transmutation](ref/spell/shadow-transmutation), except it can
 mimic greater polymorph instead of polymorph. The illusory attacks and special abilities of any

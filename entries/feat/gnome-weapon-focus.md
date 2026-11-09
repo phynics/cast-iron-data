@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gnome_weapon_focus", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "37"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You gain a +1 bonus on attack rolls with gnome weapons (weapons with 
 +++
 
 ## Gnome Weapon Focus (Combat)
-
-**Sources:** Advanced Race Guide pg 37
 
 Your extensive training with traditional gnome weapons gives you an advantage.\
 **Prerequisites:** Base attack bonus +1, [gnome](ref/race/gnome), proficient with all martial

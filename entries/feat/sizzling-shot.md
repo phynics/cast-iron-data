@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/amateur-gunslinger", label = "or" },
 ]
+[[sources]]
+publication = "people-of-the-wastes"
+page = "4"
 
 [fields]
 kind = "feat"
@@ -19,8 +22,6 @@ benefit = "As long as you have at least 1 grit point when using a firearm to fir
 +++
 
 ## Sizzling Shot (Grit)
-
-**Sources:** People of the Wastes pg 4
 
 Your bullets ignite when you fire them.\
 **Prerequisites:** Grit class feature or [Amateur Gunslinger](ref/feat/amateur-gunslinger), base

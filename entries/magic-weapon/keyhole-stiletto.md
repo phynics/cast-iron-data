@@ -6,6 +6,9 @@ source_ids = ["down-the-blighted-path"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "keyhole_stiletto", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "down-the-blighted-path"
+page = "62"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Sources:** Down the Blighted Path pg 62\
 **Aura** moderate transmutation; **CL** 11th\
 **Slot** none; **Price** 23,002 gp; **Weight** 1 lb.
 

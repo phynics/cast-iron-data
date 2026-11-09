@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/fireball", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "94"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 94
 
 The damage dealt increases to 1d10 points of fire damage per caster level (maximum 10d10). Any
 creature that fails its Reflex saving throw catches on fire, taking 2d6 points of fire damage each

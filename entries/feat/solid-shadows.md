@@ -6,6 +6,9 @@ source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "solid_shadows", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "monster-summoners-handbook"
+page = "14"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When casting greater shadow conjuration, greater shadow evocation, sh
 +++
 
 ## Solid Shadows (Metamagic)
-
-**Sources:** Monster Summoner's Handbook pg 14
 
 Your shadowy illusions are more potent.\
 **Prerequisites:** [Spell Focus](ref/feat/spell-focus) (illusion).\

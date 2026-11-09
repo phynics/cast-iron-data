@@ -6,6 +6,9 @@ source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "silver_soul_cord", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "healers-handbook"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration and necromancy"
 caster_level = "9th"
 +++
 
-**Sources:** Healer's Handbook pg 30\
 **Aura** moderate abjuration and necromancy; **CL** 9th\
 **Slot** belt; **Price** 25,000 gp; **Weight** 1 lb.
 

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cavalier" },
 ]
+[[sources]]
+publication = "heroes-of-the-streets"
+page = "17"
 
 [fields]
 kind = "archetype"
 replaces = ["Mount", "Cavalier's charge", "Expert trainer", "Banner", "Mighty charge", "supreme charge", "Greater banner"]
 +++
 
-**Sources:** Heroes of the Streets pg 17\
 Constables keep order in the narrow streets and dark alleys of settlements.
 
 **Gained class skills:** per

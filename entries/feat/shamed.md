@@ -6,6 +6,9 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shamed", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "72"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Being observed drives you to excel. When you're in a conflict that is
 +++
 
 ## Shamed (Story)
-
-**Sources:** Ultimate Campaign pg 72
 
 A past humiliation haunts you to this day.\
 **Prerequisites:** You must have been publicly embarrassed, or must have the

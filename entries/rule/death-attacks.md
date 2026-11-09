@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "death_attacks", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "562"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 562
 
 In most cases, a death attack allows the victim a Fortitude save to avoid the effect, but if the
 save fails, the creature takes a large amount of damage, which might cause it to die instantly.

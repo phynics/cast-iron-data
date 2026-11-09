@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_missile", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "309"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: yes
 Targets: up to five creatures, no two of which can be more than 15 ft. apart
 Descriptors: force
 :::
-
-**Sources:** PRPG Core Rulebook pg 309
 
 A missile of magical energy darts forth from your fingertip and strikes its target, dealing 1d4+1
 points of force damage.

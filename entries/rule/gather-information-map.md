@@ -6,12 +6,13 @@ source_ids = ["lands-of-conflict"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gather_information_map", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "lands-of-conflict"
+page = "55"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Lands of Conflict pg 55
 
 **Gather Information** **(Conspirators, Informants, Scholars, or Spellcasters):** The PCs attempt a
 DC 15 Secrecy check with a bonus equal to twice the tier of the team attempting this action. If

@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daemon_crucidaemon", path = "json/monsters06.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "62"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ in curved blades._
 
 **Senses:** Darkvision 60 ft., Deathwatch, Detect good, True seeing
 
-**Sources:** Bestiary 3 pg 62\
 **Subtype:** Daemon, Evil, Extraplanar
 
 **Experience points:** 51,200

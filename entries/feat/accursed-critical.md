@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "accursed_critical", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "142"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you confirm a critical hit with a spell or spell-like ability, y
 +++
 
 ## Accursed Critical (Critical)
-
-**Sources:** Ultimate Magic pg 142
 
 Your spells carry an embedded curse that manifests when they strike true.\
 **Prerequisites:** [Critical Focus](ref/feat/critical-focus), ability to cast

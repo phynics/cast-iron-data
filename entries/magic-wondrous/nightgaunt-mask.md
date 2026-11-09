@@ -6,6 +6,9 @@ source_ids = ["pathfinder-65-into-the-nightmare-rift"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nightgaunt_mask", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "pathfinder-65-into-the-nightmare-rift"
+page = "62"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "11th"
 +++
 
-**Sources:** Pathfinder \#65: Into the Nightmare Rift pg 62\
 **Aura** moderate divination; **CL** 11th\
 **Slot** head; **Price** 30,000 gp; **Weight** 1 lbs.
 

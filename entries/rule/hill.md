@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hill", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "157"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 157
 
 A hill is lower and less steep than a mountain. [Hills](ref/rule/hills-terrain) are often
 transitional terrain between mountains and plains.

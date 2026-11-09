@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "pathfinder-40-vaults-of-madness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "popobala", path = "json/monsters19.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "221"
+[[sources]]
+publication = "pathfinder-40-vaults-of-madness"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -48,7 +54,6 @@ eye in its noseless face._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 3 pg 221, Pathfinder \#40: Vaults of Madness pg 84\
 **Subtype:** Shapechanger
 
 **Experience points:** 51,200

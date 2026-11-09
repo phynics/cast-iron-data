@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "legend_lore", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "304"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** PRPG Core Rulebook pg 304
 
 Legend lore brings to your mind legends about an important person, place, or thing. If the person or
 thing is at hand, or if you are in the place in question, the casting time is only 1d4 × 10 minutes.

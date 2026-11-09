@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elevations", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "147"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 147
 
 Once your coastlines are set, draw in the outlines of where you want your region's major mountain
 ranges to run. A mountain range outline should generally be long and narrow, perhaps with multiple

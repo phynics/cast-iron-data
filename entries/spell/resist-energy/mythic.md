@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/resist-energy", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "105"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 105
 
 The target gains a +4 bonus on saves against effects that deal damage of the selected energy type.
 Once each round as a free action, the target can choose one adjacent ally to gain energy resistance

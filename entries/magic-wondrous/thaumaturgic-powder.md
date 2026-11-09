@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thaumaturgic_powder", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "264"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "9th"
 +++
 
-**Sources:** Occult Adventures pg 264\
 **Aura** moderate abjuration; **CL** 9th\
 **Slot** none; **Price** 4,000 gp; **Weight** -
 

@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stable_characters_and_recovery", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "190"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 190
 
 On the character's next turn, after being reduced to negative hit points (but not dead), and on all
 subsequent turns, the character must make a DC 10 Constitution check to become stable. The character

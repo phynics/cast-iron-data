@@ -6,6 +6,9 @@ source_ids = ["pathfinder-98-turn-of-the-torrent"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wretchghost", path = "json/monsters25.json" },
 ]
+[[sources]]
+publication = "pathfinder-98-turn-of-the-torrent"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ almost touch the ground._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#98: Turn of the Torrent pg 90\
 **Subtype:** Incorporeal
 
 **Type:** undead

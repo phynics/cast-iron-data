@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_tricks", path = "json/magic_staff.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "203"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate illusion"
 caster_level = "8th"
 +++
 
-**Sources:** Ultimate Equipment pg 203\
 **Aura** moderate illusion; **CL** 8th\
 **Slot** none; **Price** 8,800 gp; **Weight** 3 lbs.
 

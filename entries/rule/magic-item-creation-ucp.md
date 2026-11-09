@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_item_creation_ucp", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "170"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 170
 
 If you have item creation feats (or access to those feats from cohorts or other NPCs), you might
 want to use time between adventures to craft magic items, either to create new items from scratch or

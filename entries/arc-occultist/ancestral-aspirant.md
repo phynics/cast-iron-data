@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/occultist" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "67"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Object reading", "Outside contact"]
 alters = ["Implements"]
 +++
 
-**Sources:** Ultimate Intrigue pg 67\
 It is common for a noble to possess a deep pride for his family's past, but when such
 self-importance gives way to obsession, an ancestral aspirant is born. Ancestral aspirants perform
 all the typical social functions of a noble, but they fill their conversations with stories of the

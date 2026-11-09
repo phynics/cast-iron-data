@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_trilobite", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "113"
 
 [fields]
 kind = "creature"
@@ -36,7 +39,6 @@ abilities = ["7", "15", "12", "-", "11", "2"]
 
 **Senses:** Darkvision 30 ft.
 
-**Sources:** Bestiary 5 pg 113\
 **Subtype:** Aquatic
 
 **Size:** tiny

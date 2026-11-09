@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elixir_of_luck", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "325"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Sources:** Advanced Player's Guide pg 325\
 **Aura** moderate evocation; **CL** 7th\
 **Slot** none; **Price** 3,600 gp; **Weight** -
 

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-79-the-half-dead-city"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scarab_shield", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "pathfinder-79-the-half-dead-city"
+page = "61"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration"
 caster_level = "3rd"
 +++
 
-**Sources:** Pathfinder \#79: The Half-Dead City pg 61\
 **Aura** faint conjuration; **CL** 3rd\
 **Slot** shield; **Price** 4,399 gp; **Weight** 6 lbs.
 

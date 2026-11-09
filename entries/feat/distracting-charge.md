@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "distracting_charge", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "144"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "When your ally with this feat uses the charge action and hits, you ga
 +++
 
 ## Distracting Charge (Combat, Teamwork)
-
-**Sources:** Advanced Class Guide pg 144
 
 Your ally's charge exposes an opening you can exploit.\
 **Benefit:** When your ally with this feat uses the [charge](ref/rule/charge) action and hits, you

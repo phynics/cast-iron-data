@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shen_mythic", path = "json/monsters_mythic2.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "230"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ abilities = ["41", "14", "30", "23", "22", "23"]
 
 **Senses:** Darkvision 120 ft., Low-light vision, Mistsight, Scent, See invisibility, True seeing
 
-**Sources:** Bestiary 5 pg 230\
 **Subtype:** Aquatic, Mythic, Water
 
 **Experience points:** 1,228,800

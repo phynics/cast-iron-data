@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/break-enchantment" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "232"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 Target: you
 Descriptors: mind-affecting, sonic
 :::
-
-**Sources:** Ultimate Magic pg 232
 
 You voice a mighty yell from the depths of your soul, invigorating yourself and dispelling
 enchantment and paralysis effects. This functions as

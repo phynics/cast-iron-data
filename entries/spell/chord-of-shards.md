@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chord_of_shards", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "211"
 
 [fields]
 kind = "spell"
@@ -37,8 +40,6 @@ Saving throw: Reflex negates
 Spell resistance: no
 Area: cone-shaped burst
 :::
-
-**Sources:** Ultimate Magic pg 211
 
 During your bardic performance, you can strike a chord whose notes transform into a shower of razor
 sharp, crystalline shards. The shards deal 2d6 points of piercing damage to all creatures caught in

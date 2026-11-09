@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "class_level", path = "json/rules_adv_pc01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "190"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 190
 
 One of the most critical choices you can make about your character is what class to choose when you
 gain a level.

@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pouncing_fury", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "233"
+[[sources]]
+publication = "blood-of-the-beast"
+page = "7"
 
 [fields]
 kind = "spell"
@@ -46,8 +52,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Ultimate Wilderness pg 233, Blood of the Beast pg 7
 
 > _The following spell was created by [catfolk](ref/race/catfolk) and make use of their clawed
 > hands._

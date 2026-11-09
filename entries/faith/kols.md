@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kols", path = "json/faiths5.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "320"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Kols**
 
 **Sub:** Oath-Keeper
-
-**Sources:** Inner Sea Gods pg 320
 
 ### Details
 

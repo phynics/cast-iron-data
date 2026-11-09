@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "teleport_tactician", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "172"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Any creature using a teleportation effect to enter or leave a square 
 +++
 
 ## Teleport Tactician (Combat)
-
-**Sources:** Advanced Player's Guide pg 172
 
 You are highly alert for enemies using teleportation to approach you or flee from you.\
 **Prerequisites:** [Combat Reflexes](ref/feat/combat-reflexes), [Disruptive](ref/feat/disruptive),

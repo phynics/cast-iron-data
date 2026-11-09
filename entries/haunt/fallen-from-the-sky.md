@@ -6,12 +6,14 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fallen_from_the_sky", path = "json/haunts.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "179"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Adventures pg 179\
 A thriving metropolis on the top of a cliff customarily executed criminals by throwing them off the
 precipice, until the spirits of the condemned hurled the city's head magistrate over the edge as
 well.

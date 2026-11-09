@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "black_marketeers_bag", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "244"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration and conjuration"
 caster_level = "9th"
 +++
 
-**Sources:** Ultimate Intrigue pg 244\
 **Aura** moderate abjuration and conjuration; **CL** 9th\
 **Slot** none; **Price** 6,200 gp; **Weight** 3 lbs.
 

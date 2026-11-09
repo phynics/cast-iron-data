@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disarm_traps_or_devices", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "58"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 58
 
 The GM rolls this type of Finesse check in secret so you don't know whether you're successful. If
 you succeed, you disable the device. If you fail by 4 or less, you don't disable it, but can try

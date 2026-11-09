@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/cure-light-wounds" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "263"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Spell resistance: yes (harmless) or yes; see text
 Target: one creature/level, no two of which can be more than 30 ft. apart
 Subschool: Healing
 :::
-
-**Sources:** PRPG Core Rulebook pg 263
 
 You channel positive energy to cure 1d8 points of damage + 1 point per caster level (maximum +25) on
 each selected creature. Like other cure spells, mass cure light wounds deals damage to undead in its

@@ -6,14 +6,15 @@ source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cylinder_rifle", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "people-of-the-wastes"
+page = "15"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "12 lbs."
 +++
-
-**Sources:** People of the Wastes pg 15
 
 This long-barreled early firearm has a slim horizontal disk with eight uncovered slots, each of
 which can hold one [bullet](ref/eq-weapon/firearm-bullet) and 1 dose of

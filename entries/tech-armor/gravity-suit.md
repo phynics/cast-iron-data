@@ -6,14 +6,15 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gravity_suit", path = "json/equipment_tech_armor.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "30"
 
 [fields]
 kind = "item"
 category = "Technological Armor"
 weight = "5 lbs."
 +++
-
-**Sources:** Technology Guide pg 30
 
 **Cost** 40,000 gp\
 **Type** Light; **Weight** 5 lbs.; **Armor Bonus** Varies\

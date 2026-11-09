@@ -6,6 +6,9 @@ source_ids = ["gallows-of-madness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drochtac", path = "json/monsters07.json" },
 ]
+[[sources]]
+publication = "gallows-of-madness"
+page = "59"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ this slithering creature. Its face is disturbingly demonic._
 
 **Senses:** Low-light vision
 
-**Sources:** Gallows of Madness pg 59\
 **Experience points:** 400
 
 **Armor class:** 13/11/12

@@ -6,6 +6,9 @@ source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "steam_spell", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
+page = "59"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "You can apply Steam Spell only to a spell with the fire descriptor. A
 +++
 
 ## Steam Spell (Metamagic)
-
-**Sources:** Aquatic Adventures pg 59
 
 You've built off of some of the closely-guarded secrets of the undine steamcasters, allowing you to
 use fire magic underwater easily.\

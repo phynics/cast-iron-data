@@ -6,6 +6,9 @@ source_ids = ["guardians-of-dragonfall"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bellwether_brooch", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "guardians-of-dragonfall"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "overwhelming enchantment and transmutation"
 caster_level = "29th"
 +++
 
-**Sources:** Guardians of Dragonfall pg 29\
 **Aura** overwhelming enchantment and transmutation; **CL** 29th\
 **Slot** amulet; **Price** -; **Weight** -
 

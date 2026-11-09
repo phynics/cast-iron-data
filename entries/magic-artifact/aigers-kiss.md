@@ -6,6 +6,9 @@ source_ids = ["pathfinder-59-the-price-of-infamy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aigers_kiss", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "pathfinder-59-the-price-of-infamy"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration and evocation"
 caster_level = "20th"
 +++
 
-**Sources:** Pathfinder \#59: The Price of Infamy pg 60\
 **Aura** strong abjuration and evocation; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 2 lbs.
 

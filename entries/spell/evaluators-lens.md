@@ -6,6 +6,9 @@ source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "evaluators_lens", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "30"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: no
 Effect: see text
 Subschool: Creation
 :::
-
-**Sources:** Black Markets pg 30
 
 You summon an insubstantial lens of force 4 inches in diameter that hovers in front of your face.
 When you attempt a saving throw against a spell with the figment or pattern descriptor, you can roll

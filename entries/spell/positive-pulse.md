@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "positive_pulse", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "43"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Saving throw: Will negates or Will negates (harmless); see text
 Spell resistance: yes
 Area: 5-ft.-radius burst
 :::
-
-**Sources:** Planar Adventures pg 43
 
 This spell causes a wave of positive energy to spread from a point you designate, damaging foes
 vulnerable to positive energy and bolstering living creatures. Each creature damaged by positive

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/sending" },
 ]
+[[sources]]
+publication = "pathfinder-131-the-reapers-right-hand"
+page = "72"
 
 [fields]
 kind = "spell"
@@ -59,8 +62,6 @@ Target: one creature
 :::
 
 ### Word of Beckoning
-
-**Sources:** Pathfinder \#131: The Reaper's Right Hand pg 72
 
 This spell functions like [sending](ref/spell/sending), except the subject also receives knowledge
 of a command word that, when spoken, summons you to the open space nearest to the subject. The

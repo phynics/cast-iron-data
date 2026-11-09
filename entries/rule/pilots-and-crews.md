@@ -6,12 +6,14 @@ source_ids = ["skull-and-shackles-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pilots_and_crews", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "skull-and-shackles-players-guide"
+page = "9"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Skull and Shackles Player's Guide pg 9\
 A ship requires two things to keep it moving: a **pilot** and a means of propulsion. A pilot is a
 creature with an Intelligence score of 3 or higher who is physically able to use the ship's control
 device. A ship's captain is often (but not always) the pilot. The pilot uses the control device and

@@ -6,6 +6,12 @@ source_ids = ["rise-of-the-runelords-anniversary-edition", "pathfinder-5-sins-of
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "raiment_of_command", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "rise-of-the-runelords-anniversary-edition"
+page = "418"
+[[sources]]
+publication = "pathfinder-5-sins-of-the-saviors"
+page = "61"
 
 [fields]
 kind = "spell"
@@ -45,9 +51,6 @@ Target: you
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** Rise of the Runelords Anniversary Edition pg 418, Pathfinder \#5: Sins of the Saviors
-pg 61
 
 You are cloaked in an illusion of authority. Others perceive you to be a legitimate figure of
 authority, such as a higher-ranking official, a religious figure, or a more powerful warrior. This

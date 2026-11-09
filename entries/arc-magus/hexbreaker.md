@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/magus" },
 ]
+[[sources]]
+publication = "blood-of-the-coven"
+page = "27"
 
 [fields]
 kind = "archetype"
 replaces = ["Spell recall", "Improved spell recall"]
 +++
 
-**Sources:** Blood of the Coven pg 27\
 Hexbreakers - sometimes called witch-hammers for their proclivity toward warhammers - have borne
 witness to the damage of unrestrained arcane power and hone their own arcane arts to battle such
 abuse. They train themselves to shatter the curses and dark transformations that can haunt others

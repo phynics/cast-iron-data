@@ -6,12 +6,14 @@ source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chadao_benediction", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-high-court"
+page = "19"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Heroes of the High Court pg 19\
 **School** transmutation; **Level** 4\
 **Casting Time** 40 minutes\
 **Components** V, S, M (enough green tea leaves of exceptional quality to brew a pot of tea), F (a

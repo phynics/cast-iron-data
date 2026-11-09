@@ -6,11 +6,13 @@ source_ids = ["pathfinder-unchained"]
 relations = [
   { kind = "addon", target = "ref/feat/great-cleave", label = "stamina" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "120"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder Unchained pg 120\
 Once per round when you miss a foe with an attack gained from Cleave, you can spend 5 stamina points
 to make another Cleave attack anyway.

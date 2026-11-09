@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "delay_pain", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "216"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: emotion
 :::
-
-**Sources:** Ultimate Magic pg 216
 
 You override the target's ability to feel pain. Pain effects (such as pain strike and symbol of
 pain) do not affect the target until this spell's duration has expired. This does not negate any

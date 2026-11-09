@@ -6,6 +6,9 @@ source_ids = ["numeria-land-of-fallen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "capacitor_ooze", path = "json/monsters04.json" },
 ]
+[[sources]]
+publication = "numeria-land-of-fallen-stars"
+page = "48"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ _Electricity crackles and arcs from this undulating mass of orange slime._
 
 **Perception:** -5
 
-**Sources:** Numeria, Land of Fallen Stars pg 48\
 **Experience points:** 12,800
 
 **Armor class:** 5/5/5

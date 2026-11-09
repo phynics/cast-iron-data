@@ -6,6 +6,9 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "esoteric_illusion", path = "json/feat06.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "154"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "When you cast an illusion spell using prismatic sand as an esoteric m
 +++
 
 ## Esoteric Illusion (Esoteric)
-
-**Sources:** Pathfinder Unchained pg 154
 
 Prismatic sand perfects and stabilizes the forms of your illusions.\
 **Benefit:** When you cast an illusion spell using prismatic sand as an

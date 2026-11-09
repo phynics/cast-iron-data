@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/fighter" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "27"
 
 [fields]
 kind = "archetype"
 replaces = ["Armor training", "Weapon training", "Armor mastery"]
 +++
 
-**Sources:** Weapon Master's Handbook pg 27\
 Commonly trained in the well-funded temples of Osirion or Qadira, the relic master is skilled in
 magic item mastery.
 

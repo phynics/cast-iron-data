@@ -6,6 +6,9 @@ source_ids = ["inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nightripper", path = "json/monsters_unique3.json" },
 ]
+[[sources]]
+publication = "inner-sea-bestiary"
+page = "34"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ jackal-legged albino demon._
 
 **Senses:** Darkvision 60 ft., Detect good, Detect law, True seeing
 
-**Sources:** Inner Sea Bestiary pg 34\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 1,228,800

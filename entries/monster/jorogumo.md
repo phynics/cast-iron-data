@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jorogumo", path = "json/monsters34.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "156"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ beautiful black-haired woman._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 3 pg 156\
 **Subtype:** Shapechanger
 
 **Experience points:** 19,200

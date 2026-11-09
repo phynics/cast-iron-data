@@ -6,6 +6,9 @@ source_ids = ["demon-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burst_with_light", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "demon-hunters-handbook"
+page = "26"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: light
 :::
-
-**Sources:** Demon Hunter's Handbook pg 26
 
 The target becomes filled with intense magical light, taking 2d6 points of damage as the light
 bursts from its wounds and orifices (if the target is an undead creature, it instead takes 2d8

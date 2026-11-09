@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "droskars_guiding_ring", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "258"
+[[sources]]
+publication = "gods-and-magic"
+page = "56"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint enchantment"
 caster_level = "3rd"
 +++
 
-**Sources:** Inner Sea Gods pg 258, Gods and Magic pg 56\
 **Aura** faint enchantment; **CL** 3rd\
 **Slot** ring; **Price** 2,600 gp; **Weight** -
 

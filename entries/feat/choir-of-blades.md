@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "choir_of_blades", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "204"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "While you're adjacent to an ally of a race different that your own wh
 +++
 
 ## Choir of Blades (Combat, Teamwork)
-
-**Sources:** Inner Sea Races pg 204
 
 You can imitate your allies' exotic martial styles to such an extent that you can gain benefits to
 your own fighting abilities, even without formal training.\

@@ -6,6 +6,9 @@ source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tears_of_perfection", path = "json/equipment_poisons.json" },
 ]
+[[sources]]
+publication = "faction-guide"
+page = "55"
 
 [fields]
 kind = "item"
@@ -13,8 +16,6 @@ category = "Poisons"
 price = "600 gp"
 weight = "&mdash;"
 +++
-
-**Sources:** Faction Guide pg 55
 
 **Price** 600 gp; **Weight** —
 

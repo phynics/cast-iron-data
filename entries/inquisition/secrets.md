@@ -6,13 +6,14 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "secrets", path = "json/class_ability_inquisitions.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "28"
 
 [fields]
 kind = "class_option"
 group = "inquisition"
 +++
-
-**Sources:** Ultimate Intrigue pg 28
 
 **Associated Deities**
 

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "23"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Trap sense"]
 alters = ["Armor proficiencies", "Skills", "Sneak attack progression", "Rogue talent progression", "advanced talent", "Uncanny dodge", "improved uncanny dodge"]
 +++
 
-**Sources:** Arcane Anthology pg 23\
 Students of arcane magic, legerdemain, and stealth, eldritch scoundrels are a rare breed of
 adventurer most commonly found seeking lost and valuable arcane writings in the ruins of fallen
 empires, such as Thassilon or the Jistka Imperium.

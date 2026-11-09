@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "protection_from_arrows", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "327"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
 :::
-
-**Sources:** PRPG Core Rulebook pg 327
 
 The warded creature gains resistance to ranged weapons. The subject gains
 [damage reduction](ref/rule/damage-reduction) 10/magic against ranged weapons. This spell doesn't

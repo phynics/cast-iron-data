@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "entrap", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "294"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Entrap (Ex or Su)
 
-**Sources:** Bestiary 3 pg 294\
 The creature has an ability that restricts another creature's movement, usually with a physical
 attack such as ice, lava, mud, or webs. The target of an entrap attack must succeed at a Fortitude
 save or become entangled for the listed duration. If a target is already entangled by this ability,

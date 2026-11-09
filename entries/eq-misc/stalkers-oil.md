@@ -6,6 +6,9 @@ source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stalkers_oil", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "potions-and-poisons"
+page = "29"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "50 gp"
 weight = "-"
 +++
 
-**Sources:** Potions and Poisons pg 29\
 **Price** 50 gp; **Weight** -\
 **Category** Alchemical Tools
 

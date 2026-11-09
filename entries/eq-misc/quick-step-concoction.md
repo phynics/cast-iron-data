@@ -6,6 +6,9 @@ source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quick_step_concoction", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "27"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "75 gp"
 weight = "-"
 +++
 
-**Sources:** Adventurer's Armory 2 pg 27\
 **Price** 75 gp; **Weight** -\
 **Category** Concoctions
 

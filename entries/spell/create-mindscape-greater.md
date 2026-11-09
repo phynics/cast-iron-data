@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/create-mindscape" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "163"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Descriptors: mind-affecting
 :::
 
 ### Greater Create Mindscape
-
-**Sources:** Occult Adventures pg 163
 
 This spell functions like [create mindscape](ref/spell/create-mindscape), except it can affect more
 creatures, the mindscape lasts longer, and you can choose the mindscape's magic trait. You can also

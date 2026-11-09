@@ -6,6 +6,9 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "frontier_trapper", path = "json/npcs5.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "276"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "3"
 
 **Challenge rating:** 3
 
-**Sources:** GameMastery Guide pg 276\
 **XP** 800\
 Human [ranger](ref/class/ranger) 4\
 N Medium humanoid\

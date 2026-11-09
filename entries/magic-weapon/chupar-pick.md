@@ -6,6 +6,9 @@ source_ids = ["mystery-monsters-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chupar_pick", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "mystery-monsters-revisited"
+page = "12"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation and transmutation"
 caster_level = "7th"
 +++
 
-**Sources:** Mystery Monsters Revisited pg 12\
 **Aura** moderate evocation and transmutation; **CL** 7th\
 **Slot** none; **Price** 24,304 gp; **Weight** 3 lbs.
 

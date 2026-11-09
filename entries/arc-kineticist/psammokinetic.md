@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/kineticist" },
 ]
+[[sources]]
+publication = "heroes-from-the-fringe"
+page = "6"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Elemental overflow"]
 alters = ["Elemental focus", "Expanded element"]
 +++
 
-**Sources:** Heroes from the Fringe pg 6\
 Psammokinetics are ascetic kineticists who consider the harsh nature of the burning deserts of
 Osirion to be a tempering fire that can purify all their imperfections. Trained by the Pahmet
 dwarves, who also make up the majority of their numbers, these kineticists seek to master the powers

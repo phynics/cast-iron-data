@@ -6,6 +6,9 @@ source_ids = ["heart-of-the-jungle"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "angazhani_high_girallon", path = "json/monsters26.json" },
 ]
+[[sources]]
+publication = "heart-of-the-jungle"
+page = "58"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ It carries a strangely shaped throwing axe._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent, See invisibility
 
-**Sources:** Heart of the Jungle pg 58\
 **Experience points:** 6,400
 
 **Armor class:** 24/12/21

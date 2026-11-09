@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "toppling", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "191"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong (no school)"
 caster_level = "17th"
 +++
 
-**Sources:** Ultimate Equipment pg 191\
 **Aura** strong (no school); **CL** 17th\
 **Slot** none; **Price** 3,000 gp (lesser \[up to 3rd-level spells\]), 11,000 gp (normal \[up to
 6th-level spells\]), 24,500 gp (greater \[all spells\]); **Weight** 5 lbs.

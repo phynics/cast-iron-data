@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/shield-speech" },
 ]
+[[sources]]
+publication = "taldor-echoes-of-glory"
+page = "25"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Spell resistance: yes (harmless)
 :::
 
 ### Greater Shield Speech
-
-**Sources:** Taldor, Echoes of Glory pg 25
 
 This spell functions as [shield speech](ref/spell/shield-speech), except all creatures within the
 dome may communicate with each other as if linked by shield speech. If they speak with anyone

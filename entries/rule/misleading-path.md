@@ -6,12 +6,12 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "misleading_path", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures
 
 **Misleading Path (CR 3):** When the surrounding trees begin to move and change the paths when
 creatures aren't looking, and the towering branches above even block out the sun, it can be

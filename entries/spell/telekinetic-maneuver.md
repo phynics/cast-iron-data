@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/telekinesis" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "188"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: none
 Spell resistance: yes
 Target: one creature
 :::
-
-**Sources:** Occult Adventures pg 188
 
 This spell functions as [telekinesis](ref/spell/telekinesis), but it can be used only to perform a
 bull rush, disarm, drag, grapple (including pin), reposition, steal, or trip combat maneuver.

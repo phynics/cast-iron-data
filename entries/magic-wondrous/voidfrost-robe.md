@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "voidfrost_robe", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "219"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration and evocation"
 caster_level = "10th"
 +++
 
-**Sources:** Ultimate Equipment pg 219\
 **Aura** moderate abjuration and evocation; **CL** 10th\
 **Slot** body; **Price** 11,000 gp; **Weight** 1 lb.
 

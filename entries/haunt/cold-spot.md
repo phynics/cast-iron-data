@@ -6,12 +6,14 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cold_spot", path = "json/haunts.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "175"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Adventures pg 175\
 Cold spots are echoes of spirits too weak to manifest as ghosts. They can occur alone or cluster
 around significant areas.
 

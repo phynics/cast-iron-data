@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "running_mass_combat", path = "json/rules_campaign_types05.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "237"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 237
 
 Since an army's strength is represented by an ACR score, the GM can balance armies against each
 other using the [guidelines for CR](ref/rule/designing-encounters). For example, two ACR 9 armies

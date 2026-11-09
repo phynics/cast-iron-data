@@ -6,14 +6,15 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sanguine_angel", path = "json/prestige_classes3.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "80"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d10."
 +++
-
-**Sources:** Adventurer's Guide pg 80
 
 Of those [Gray Maidens](ref/rule/aff-scarred-ladies) who remain loyal to the ideals of Queen Ileosa,
 none have seen as much success as the members of the Erinyes Company. The company's origin lies with

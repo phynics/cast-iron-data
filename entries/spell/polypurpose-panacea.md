@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "polypurpose_panacea", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "232"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Ultimate Magic pg 232
 
 This creates one of several cantrip-level effects relating to your health, well-being, and
 entertainment. The panacea has no side effects (for example, the intoxication panacea does not cause

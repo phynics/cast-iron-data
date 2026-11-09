@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "208"
 
 [fields]
 kind = "archetype"
 replaces = ["Rogue talent gained at 2nd level", "Trap sense", "Improved uncanny dodge"]
 +++
 
-**Sources:** Advanced Race Guide pg 208\
 Skilled at manipulation and diversion, the deadly courtesan builds up those around her and
 periodically takes them down. She can be a spy, entertainer, assassin, bodyguard, or just an
 intimate to someone who needs it most. A deadly courtesan has the following class features.

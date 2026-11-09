@@ -6,6 +6,9 @@ source_ids = ["sargava-the-lost-colony"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ape_walk", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "sargava-the-lost-colony"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
 :::
-
-**Sources:** Sargava, the Lost Colony pg 28
 
 The subject can climb as well as an ape or monkey, gaining a climb speed of 30 feet and a +8 racial
 bonus on Climb skill checks. The affected creature must have her hands free to climb in this manner.

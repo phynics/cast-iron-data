@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "krenshar", path = "json/monsters15.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "174"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ the bone and flesh beneath._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Bestiary 2 pg 174\
 **Experience points:** 400
 
 **Armor class:** 15/12/13

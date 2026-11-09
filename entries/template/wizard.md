@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wizard", path = "json/monster_template4.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "249"
 
 [fields]
 kind = "none"
@@ -18,8 +21,6 @@ kind = "none"
 **Challenge rating:** +1 +2 or +3
 
 **Simple:** present
-
-**Source:** Monster Codex/249
 
 A wizard creature is skilled in the ways of arcane magic, and its spellcasting ability is unmatched.
 Beyond casting damaging spells, a wizard creature can call upon mighty forces to serve the will of

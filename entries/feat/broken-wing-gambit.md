@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "broken_wing_gambit", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "90"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Whenever you make a melee attack and hit your opponent, you can use a
 +++
 
 ## Broken Wing Gambit (Combat, Teamwork)
-
-**Sources:** Ultimate Combat pg 90
 
 You feign weakness, making yourself a tempting and distracting target.\
 **Prerequisites:** Bluff 5 ranks.\

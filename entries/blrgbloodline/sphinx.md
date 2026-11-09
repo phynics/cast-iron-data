@@ -6,6 +6,9 @@ source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sphinx", path = "json/class_ability_bloodrager_bloodlines.json" },
 ]
+[[sources]]
+publication = "heroes-of-golarion"
+page = "23"
 
 [fields]
 kind = "class_option"
@@ -13,8 +16,6 @@ group = "bloodrager-bloodline"
 +++
 
 ## Sphinx Bloodline
-
-**Sources:** Heroes of Golarion pg 23
 
 Those who successfully traded riddles with sphinxes sometimes find themselves or their descendants
 exhibiting both arcane power and violent fury. These bloodragers find being outwitted or

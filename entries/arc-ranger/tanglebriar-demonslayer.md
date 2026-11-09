@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ranger" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "46"
 
 [fields]
 kind = "archetype"
 replaces = ["Favored enemy", "Endurance", "Quarry", "Improved quarry"]
 +++
 
-**Sources:** Inner Sea Combat pg 46\
 During the elves' long absence from Golarion, the nascent demon lord
 [Treerazer](ref/monster/treerazer) took up residence in the Fierani Forest in what is now the Elven
 kingdom of Kyonin. Eventually, the demon's presence in the forest drew the elves back to Golarion,

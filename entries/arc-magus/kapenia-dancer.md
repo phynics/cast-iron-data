@@ -9,12 +9,14 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/magus" },
 ]
+[[sources]]
+publication = "varisia-birthplace-of-legends"
+page = "10"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Varisia, Birthplace of Legends pg 10\
 For some Varisians, their traditional dances pulse with the power of their ancestors. These dancers
 incorporate their kapenias - scarves embroidered with the history of the bearer's clan - into their
 dances, weaving deadly whirling steps with the power of their ancestors.

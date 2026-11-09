@@ -6,6 +6,9 @@ source_ids = ["the-emerald-spire-superdungeon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kroakoth", path = "json/faiths5.json" },
 ]
+[[sources]]
+publication = "the-emerald-spire-superdungeon"
+page = "74"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Kro'akoth**
 
 **Sub:** The Fire Serpent
-
-**Sources:** The Emerald Spire Superdungeon pg 74
 
 ### Details
 

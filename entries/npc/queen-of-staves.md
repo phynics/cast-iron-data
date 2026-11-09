@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "queen_of_staves", path = "json/npcs8.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "220"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "8"
 
 **Challenge rating:** 8
 
-**Sources:** NPC Codex pg 220\
 **XP** 4,800\
 Elf [fighter](ref/class/fighter) 2/abjurer 5/eldritch knight 2\
 N Medium humanoid (elf)\

@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "overwhelming_presence", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "230"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Targets: one creature/level, no two of which can be more than 30 ft. apart
 Subschool: Compulsion
 Descriptors: emotion, mind-affecting
 :::
-
-**Sources:** Ultimate Magic pg 230
 
 Your presence inspires incredible awe in those nearby. A creature that fails a save against this
 spell falls to the ground and prostrates itself before you, believing it bows before a divine

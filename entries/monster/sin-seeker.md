@@ -6,6 +6,9 @@ source_ids = ["pathfinder-73-the-worldwound-incursion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sin_seeker", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "pathfinder-73-the-worldwound-incursion"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ features of a pig. Its porcine face is eyeless and its nose never stops sniffing
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Pathfinder \#73: The Worldwound Incursion pg 88\
 **Size:** tiny
 
 **Experience points:** 600

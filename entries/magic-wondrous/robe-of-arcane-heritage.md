@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "robe_of_arcane_heritage", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "216"
+[[sources]]
+publication = "advanced-players-guide"
+page = "308"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate necromancy"
 caster_level = "9th"
 +++
 
-**Sources:** Ultimate Equipment pg 216, Advanced Player's Guide pg 308\
 **Aura** moderate necromancy; **CL** 9th\
 **Slot** body; **Price** 16,000 gp; **Weight** 1 lb.
 

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-41-the-thousand-fangs-below"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inkanyamba", path = "json/monsters14.json" },
 ]
+[[sources]]
+publication = "pathfinder-41-the-thousand-fangs-below"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ of different-sized fangs. As it hisses, lightning slashes the storm-gray sky beh
 
 **Senses:** Darkvision 120 ft., Scent, Venomsense
 
-**Sources:** Pathfinder \#41: The Thousand Fangs Below pg 84\
 **Experience points:** 25,600
 
 **Armor class:** 28/10/24

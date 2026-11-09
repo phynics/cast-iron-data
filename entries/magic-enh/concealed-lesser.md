@@ -6,6 +6,9 @@ source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "concealed_lesser", path = "json/magic_enhancements2.json" },
 ]
+[[sources]]
+publication = "spymasters-handbook"
+page = "30"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Spymaster's Handbook pg 30\
 **Aura** faint transmutation; **CL** 5th\
 **Price** +3,000 gp; **Weight** -
 

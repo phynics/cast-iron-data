@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "akhlut", path = "json/monsters01.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "11"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _A dorsal fin rises up from the back of this immense black-and-white-furred, wol
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 3 pg 11\
 **Subtype:** Cold, Shapechanger
 
 **Experience points:** 25,600

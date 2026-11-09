@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "radiant_flight", path = "json/magic_enhancements.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Sources:** Armor Master's Handbook pg 28\
 **Aura** moderate transmutation; **CL** 10th\
 **Slot** armor quality; **Price** +15,000 gp; **Weight** -
 

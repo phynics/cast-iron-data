@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/barbarian" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "39"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Uncanny dodge", "Trap sense", "Improved uncanny dodge"]
 alters = ["Damage reduction"]
 +++
 
-**Sources:** Inner Sea Combat pg 39\
 More "civilized" folk sometimes scoff at the people of the Mwangi Expanse, dismissing them as
 primitives with inferior technology. Although some tribes do rely on wood and bone over metal, their
 greatest advantage comes from mastery of the terrain. A jungle rager can disappear from sight,

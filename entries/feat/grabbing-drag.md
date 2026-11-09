@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grabbing_drag", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "148"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you are using Grabbing Style, if you use the move grapple action
 +++
 
 ## Grabbing Drag (Combat)
-
-**Sources:** Advanced Class Guide pg 148
 
 You can move easily with a grappled enemy in tow.\
 **Prerequisites:** [Grabbing Style](ref/feat/grabbing-style),

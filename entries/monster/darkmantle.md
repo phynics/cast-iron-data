@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "darkmantle", path = "json/monsters08.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "55"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ tentacles connected by a fleshy web._
 
 **Size:** small
 
-**Sources:** Pathfinder RPG Bestiary pg 55\
 **Experience points:** 400
 
 **Armor class:** 15/13/13

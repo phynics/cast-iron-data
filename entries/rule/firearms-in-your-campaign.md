@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "firearms_in_your_campaign", path = "json/rules_rulesets01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "135"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 135
 
 Firearms and gunslingers are not for every campaign, and even if you are excited about introducing
 firearms into your campaign, you should still make a decision about how commonplace they are. The

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/holy-ice" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "245"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: yes
 Effect: wall of ice or flying ice javelins (see text)
 Descriptors: cold, evil, water
 :::
-
-**Sources:** Ultimate Magic pg 245
 
 This spell functions as [holy ice](ref/spell/holy-ice), except it is made of frozen unholy water
 rather than holy water.

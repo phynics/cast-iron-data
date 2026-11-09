@@ -6,13 +6,17 @@ source_ids = ["pathfinder-97-in-hells-bright-shadow", "bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "raven_giant", path = "json/class_ability_druid_companions.json" },
 ]
+[[sources]]
+publication = "pathfinder-97-in-hells-bright-shadow"
+page = "82"
+[[sources]]
+publication = "bestiary-6"
+page = "312"
 
 [fields]
 kind = "class_option"
 group = "animal-companion"
 +++
-
-**Sources:** Pathfinder \#97: In Hell's Bright Shadow pg 82, Bestiary 6 pg 312
 
 **Companion Type**
 

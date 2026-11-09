@@ -6,6 +6,9 @@ source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aquadynamic_focus", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
+page = "57"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "When using bludgeoning and slashing melee weapons underwater, you take
 +++
 
 ## Aquadynamic Focus (Combat)
-
-**Sources:** Aquatic Adventures pg 57
 
 Your skill with your chosen weapons is so great that you can use them underwater without impediment.\
 **Prerequisites:** [Weapon Focus](ref/feat/weapon-focus), base attack bonus +1.\

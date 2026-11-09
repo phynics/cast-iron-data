@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ranger" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "72"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Hunter's bond", "Swift tracker", "Quarry", "Improved evasion", "Imp
 alters = ["Combat style"]
 +++
 
-**Sources:** Ultimate Wilderness pg 72\
 Rangers who walk in the tempest unafraid draw the power of the storm into themselves and become
 stormwalkers.
 

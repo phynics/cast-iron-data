@@ -6,13 +6,15 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stone", path = "json/class_ability_shaman_spirits.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "45"
 
 [fields]
 kind = "class_option"
 group = "shaman-spirit"
 +++
 
-**Sources:** Advanced Class Guide pg 45\
 The skin of a shaman who selects the stone spirit takes on a rough, stony appearance. When the
 shaman calls upon one of this spirit's abilities, tiny gemstones underneath her flesh pulse with a
 bright glow, like phosphorescent geodes glittering in a dark cave.

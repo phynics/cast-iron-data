@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rope_of_knots", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "318"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Sources:** Ultimate Equipment pg 318\
 **Aura** moderate transmutation; **CL** 9th\
 **Slot** none; **Price** 6,000 gp; **Weight** -
 

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_grapple", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "125"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ normal = "Maintaining a grapple is a standard action."
 +++
 
 ## Greater Grapple (Combat)
-
-**Sources:** PRPG Core Rulebook pg 125
 
 Maintaining a grapple is second nature to you.\
 **Prerequisites:** [Improved Grapple](ref/feat/improved-grapple),

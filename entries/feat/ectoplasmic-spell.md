@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ectoplasmic_spell", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "158"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "An ectoplasmic spell has full effect against incorporeal or ethereal 
 +++
 
 ## Ectoplasmic Spell (Metamagic)
-
-**Sources:** Advanced Player's Guide pg 158
 
 Your spells breach the gulf between dimensions, sending ghostly emanations into the ether.\
 **Benefit:** An ectoplasmic spell has full effect against incorporeal or ethereal creatures. An

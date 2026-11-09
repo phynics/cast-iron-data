@@ -6,6 +6,9 @@ source_ids = ["demon-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "punch_through", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "demon-hunters-handbook"
+page = "21"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "As a full-round action, you may make a single attack against a target
 +++
 
 ## Punch Through (Combat, Teamwork)
-
-**Sources:** Demon Hunter's Handbook pg 21
 
 You and your allies are adept at bypassing enemy defenses.\
 **Prerequisites:** Base attack bonus +6.\

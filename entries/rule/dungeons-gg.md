@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dungeons_gg", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "174"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 174
 
 One of the most beloved and common adventuring sites in the game is the dungeon. In the Pathfinder
 Roleplaying Game, the word "dungeon" has a much wider definition than merely an underground prison

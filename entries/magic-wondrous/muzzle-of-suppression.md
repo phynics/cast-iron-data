@@ -6,6 +6,9 @@ source_ids = ["wardens-of-the-reborn-forge"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "muzzle_of_suppression", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "wardens-of-the-reborn-forge"
+page = "26"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration and illusion"
 caster_level = "5th"
 +++
 
-**Sources:** Wardens of the Reborn Forge pg 26\
 **Aura** faint abjuration and illusion; **CL** 5th\
 **Slot** head; **Price** 8,000 gp; **Weight** 5 lbs.
 

@@ -6,6 +6,12 @@ source_ids = ["pathfinder-30-the-twice-damned-prince", "bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_nemesis_devil_advodaza", path = "json/monsters07.json" },
 ]
+[[sources]]
+publication = "pathfinder-30-the-twice-damned-prince"
+page = "80"
+[[sources]]
+publication = "bestiary-4"
+page = "54"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ _This ancient monstrosity has the torso of a massively muscled giant._
 
 **Senses:** Darkvision 60 ft., See in darkness
 
-**Sources:** Pathfinder \#30: The Twice-Damned Prince pg 80, Bestiary 4 pg 54\
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **Experience points:** 153,600

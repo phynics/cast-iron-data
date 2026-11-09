@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "revenant_armor", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "23"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Saving throw: none
 Spell resistance: no
 Target: one suit of armor
 :::
-
-**Sources:** Armor Master's Handbook pg 23
 
 This spell endows a suit of armor with a singular purpose realized only after its wearer goes
 unconscious or is killed; whenever the wearer of a suit of armor warded by revenant armor is brought

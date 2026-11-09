@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sepia_snake_sigil", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "339"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Target: one touched book or written work
 Subschool: Creation
 Descriptors: force
 :::
-
-**Sources:** PRPG Core Rulebook pg 339
 
 You cause a small symbol to appear in the text of a written work. The text containing the symbol
 must be at least 25 words long. When anyone reads the text containing the symbol, the sepia snake

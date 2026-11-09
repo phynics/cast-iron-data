@@ -6,6 +6,9 @@ source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alluring_spores", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "legacy-of-the-first-world"
+page = "17"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: yes
 Area: 20-ft.-radius spread
 Subschool: Creation
 :::
-
-**Sources:** Legacy of the First World pg 17
 
 This spell creates a burst of spores that weaken the mind. Creatures within the area must succeed at
 a Fortitude save or take a -1 penalty on saving throws against your enchantment spells or effects

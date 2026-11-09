@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gallant_inspiration", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "225"
 
 [fields]
 kind = "spell"
@@ -37,8 +40,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes
 Target: one living creature
 :::
-
-**Sources:** Advanced Player's Guide pg 225
 
 This word of arcane-empowered inspiration often ensures success of a crucial endeavor. Cast this
 spell when a creature fails an attack roll or skill check. The creature gains a +2d4 competence

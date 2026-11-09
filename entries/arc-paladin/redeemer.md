@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/paladin" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "55"
 
 [fields]
 kind = "archetype"
 replaces = ["Smite evil", "Detect evil", "Aura of resolve", "Aura of justice"]
 +++
 
-**Sources:** Advanced Race Guide pg 55\
 As most half-orcs are outcasts, a half-orc paladin recognizes that often those who are monstrous are
 not necessarily evil and that sometimes even those who are evil became that way because of
 circumstances and misfortune. Some half-orc paladins take up these misunderstood creatures as their

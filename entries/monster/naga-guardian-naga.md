@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "naga_guardian_naga", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "212"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ colored serpent._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 212\
 **Experience points:** 9,600
 
 **Armor class:** 24/15/18

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "retaining_interest", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "10"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 10
 
 Listening to your players is important not only when looking to start a new campaign but also during
 the course of the story. From your seat at the game table, you can tell who's engaged and who's not.

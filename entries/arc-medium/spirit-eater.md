@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/medium" },
 ]
+[[sources]]
+publication = "heroes-of-golarion"
+page = "24"
 
 [fields]
 kind = "archetype"
 replaces = ["Haunt channeler", "Location channel", "connection channel"]
 +++
 
-**Sources:** Heroes of Golarion pg 24\
 Shenmen is a ghost-haunted nation trapped in the shadow of the Gossamer Mountains and held beneath
 the yoke of jorogumo witches. The mediums of Shenmen face brazen yokai that hunger for the living,
 and these mediums have learned to devour them instead. Guardians of their communities, spirit eaters

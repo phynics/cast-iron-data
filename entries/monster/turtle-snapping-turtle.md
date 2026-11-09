@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "turtle_snapping_turtle", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "273"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ with powerful jaws emerge._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Bestiary 2 pg 273\
 **Size:** tiny
 
 **Experience points:** 135

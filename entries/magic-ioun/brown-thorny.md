@@ -6,6 +6,9 @@ source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brown_thorny", path = "json/magic_ioun_stones.json" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "60-61"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "12th"
 
 ## Thorny
 
-**Sources:** Inner Sea Combat pg. 60-61\
 **Aura** strong varies; **CL** 12th\
 **Slot** none; **Price** 8,000 gp; **Weight** —
 

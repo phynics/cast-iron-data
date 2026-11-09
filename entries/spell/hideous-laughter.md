@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hideous_laughter", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "296"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Target: one creature; see text
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 296
 
 This spell afflicts the subject with uncontrollable laughter. It collapses into gales of manic
 laughter, falling prone. The subject can take no actions while laughing, but is not considered

@@ -6,6 +6,9 @@ source_ids = ["rival-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_serpent_lash", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "rival-guide"
+page = "23"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you make a successful disarm or trip maneuver using the Serpent 
 +++
 
 ## Greater Serpent Lash (Combat)
-
-**Sources:** Rival Guide pg 23
 
 Your ability to disarm and pull foes off balance with your whip is impressive.\
 **Prerequisites:** [Serpent Lash](ref/feat/serpent-lash), base attack bonus +4.\

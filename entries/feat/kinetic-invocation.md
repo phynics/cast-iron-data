@@ -6,6 +6,9 @@ source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kinetic_invocation", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "24"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Kineticist level 1st, elemental focus class feature."
 benefit = "For each kineticist element to which you have access, you treat all spells associated with that element (see below) as utility wild talents of the listed level, which you can select as normal. Each has a burn cost of 1 unless otherwise noted, and any non-permanent, non-instantaneous effects end when your burn is removed. Using this wild talent is considered psychic spellcasting (except for the purpose of prerequisites), and you must provide emotion and thought components, as well as material components where appropriate. In addition, some spells are restricted to certain races. Your caster level for a spell is equal to your kineticist level, and the save DC for any spell is equal to 10 + the listed level of the spell + your Constitution modifier. At the GM's discretion, other appropriate spells can be added to each element's list."
 special = "Kineticists with the air affinity, earth affinity, fire affinity, or water affinity racial traits or the air, earth, fire, or water subtypes can select spells of the appropriate element as if they had this feat. Caligni and dhampir kineticists can select spells of the void element as if they had this feat. Gathlain and ghoran kineticists can select spells of the wood element as if they had this feat. Such a character must still have access to the appropriate element to select spells this way. At the GM's discretion, this benefit can be expanded to other races."
 +++
-
-**Sources:** Psychic Anthology pg 24
 
 You have learned to channel your element's energy into the magic used by traditional spellcasters.\
 **Prerequisites:** [Kineticist](ref/class/kineticist) level 1st, elemental focus class feature.\

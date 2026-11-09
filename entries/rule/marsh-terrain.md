@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "marsh_terrain", path = "json/rules_gm08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "427"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 427
 
 Two categories of marsh exist: relatively dry moors and watery swamps. Both are often bordered by
 lakes (described in [Aquatic Terrain](ref/rule/aquatic-terrain)), which are effectively a third

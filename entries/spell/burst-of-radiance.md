@@ -6,6 +6,9 @@ source_ids = ["champions-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burst_of_radiance", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "champions-of-purity"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: yes
 Area: 10-ft.-radius burst
 Descriptors: good, light
 :::
-
-**Sources:** Champions of Purity pg 29
 
 This spell fills the area with a brilliant flash of shimmering light. Creatures in the area are
 blinded for 1d4 rounds, or dazzled for 1d4 rounds if they succeed at a Reflex save. Evil creatures

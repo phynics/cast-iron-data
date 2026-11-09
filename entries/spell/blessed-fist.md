@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blessed_fist", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "175"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: yes
 Target: creature touched
 Descriptors: good
 :::
-
-**Sources:** Advanced Class Guide pg 175
 
 The target is considered to be armed even when unarmed, so it doesn't provoke attacks of opportunity
 when it attacks foes with unarmed strikes. Its unarmed strikes can deal lethal or nonlethal damage

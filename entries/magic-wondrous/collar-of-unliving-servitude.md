@@ -6,6 +6,9 @@ source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "collar_of_unliving_servitude", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "champions-of-corruption"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Sources:** Champions of Corruption pg 30\
 **Aura** moderate necromancy; **CL** 7th\
 **Slot** neck; **Price** 14,000 gp; **Weight** 1 lb.
 

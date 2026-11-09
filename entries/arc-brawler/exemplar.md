@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/brawler" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "86"
 
 [fields]
 kind = "archetype"
 replaces = ["Unarmed strike", "close weapon mastery", "Maneuver training", "AC bonus", "Brawler's strike"]
 +++
 
-**Sources:** Advanced Class Guide pg 86\
 A versatile soldier who inspires her companions with her fighting prowess, an exemplar is at home on
 the front lines of battles anywhere.
 

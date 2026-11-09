@@ -6,6 +6,9 @@ source_ids = ["rival-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bivouac_banners", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "rival-guide"
+page = "5"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration and conjuration"
 caster_level = "5th"
 +++
 
-**Sources:** Rival Guide pg 5\
 **Aura** faint abjuration and conjuration; **CL** 5th\
 **Slot** none; **Price** 3,200 gp; **Weight** 5 lbs. per banner
 

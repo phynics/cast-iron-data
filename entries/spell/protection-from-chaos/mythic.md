@@ -6,11 +6,12 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/protection-from-chaos", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "104"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 104
 
 As mythic protection from evil, except against chaotic creatures.

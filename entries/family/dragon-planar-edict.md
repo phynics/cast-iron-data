@@ -6,12 +6,12 @@ source_ids = ["pathfinder-131-the-reapers-right-hand"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_planar_edict", path = "json/monster_families.json" },
 ]
+[[sources]]
+publication = "pathfinder-131-the-reapers-right-hand"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder \#131: The Reaper's Right Hand
 
 These planar dragons establish bastions of order and transform lawless towns into shining examples
 of urban grandeur.

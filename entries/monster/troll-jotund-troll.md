@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "troll_jotund_troll", path = "json/monsters39.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "272"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ with jutting teeth and tusks._
 
 **Senses:** All-around vision, Low-light vision, Scent
 
-**Sources:** Bestiary 3 pg 272\
 **Subtype:** Giant
 
 **Experience points:** 51,200

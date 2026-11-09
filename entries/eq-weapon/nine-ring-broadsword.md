@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nine_ring_broadsword", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "18"
+[[sources]]
+publication = "ultimate-combat"
+page = "130"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "4 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 18, Ultimate Combat pg 130
 
 This broad-bladed weapon has nine heavy rings threaded through its spine, providing additional
 weight to add to the force of its impressive chopping power.

@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "corrosive_consumption", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "212"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Target: creature touched
 Subschool: Creation
 Descriptors: acid
 :::
-
-**Sources:** Ultimate Magic pg 212
 
 With a touch, this spell causes a small, rapidly growing patch of corrosive acid to appear on the
 target. On the first round, the acid deals 1 point of acid damage per caster level (maximum 15). On

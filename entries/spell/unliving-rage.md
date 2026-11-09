@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/rage" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "198"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Saving throw: none
 Spell resistance: yes
 Targets: one willing undead creature per 3 levels, no two of which can be more than 30 ft. apart
 :::
-
-**Sources:** Advanced Class Guide pg 198
 
 This spell functions as [rage](ref/spell/rage), except it affects only undead creatures and bolsters
 them with necromantic energy rather than emotion. Each affected creature gains a +2 profane bonus to

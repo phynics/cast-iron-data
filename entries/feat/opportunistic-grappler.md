@@ -6,6 +6,9 @@ source_ids = ["antiheros-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "opportunistic_grappler", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "antiheros-handbook"
+page = "9"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "While you are grappled (but not when you are controlling the grapple)
 +++
 
 ## Opportunistic Grappler (Combat)
-
-**Sources:** Antihero's Handbook pg 9
 
 When someone grabs you, you can easily reach that opponent's vulnerable spots.\
 **Benefit:** While you are [grappled](ref/rule/grapple-conditions) (but not when you are controlling

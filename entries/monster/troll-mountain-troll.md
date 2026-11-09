@@ -6,6 +6,9 @@ source_ids = ["lands-of-the-linnorm-kings"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "troll_mountain_troll", path = "json/monsters39.json" },
 ]
+[[sources]]
+publication = "lands-of-the-linnorm-kings"
+page = "62"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ tusked underbite._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Lands of the Linnorm Kings pg 62\
 **Subtype:** Giant
 
 **Experience points:** 38,400

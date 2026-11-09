@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ember_staff", path = "json/magic_staff.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "221"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "8th"
 +++
 
-**Sources:** Advanced Class Guide pg 221\
 **Aura** moderate evocation; **CL** 8th\
 **Slot** none; **Price** 13,100 gp; **Weight** 3 lbs.
 

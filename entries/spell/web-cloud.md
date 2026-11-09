@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/web" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "107"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: no
 Effect: cloud spreads in 20-ft. radius, 20 ft. high
 Subschool: Creation
 :::
-
-**Sources:** Advanced Race Guide pg 107
 
 > _[Drow](ref/race/drow) have access to the following spell._
 

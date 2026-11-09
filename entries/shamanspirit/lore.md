@@ -6,13 +6,15 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lore", path = "json/class_ability_shaman_spirits.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "43"
 
 [fields]
 kind = "class_option"
 group = "shaman-spirit"
 +++
 
-**Sources:** Advanced Class Guide pg 43\
 A shaman who selects the lore spirit appears far wiser and knowing that her age would suggest.
 Though she can seem unassuming, her eyes give the impression she is peering deep into all she looks
 at, seeing the secrets of the essential merely by concentrating.

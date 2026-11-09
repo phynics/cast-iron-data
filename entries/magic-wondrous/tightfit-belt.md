@@ -6,6 +6,9 @@ source_ids = ["pathfinder-society-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tightfit_belt", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "pathfinder-society-primer"
+page = "25"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Pathfinder Society Primer pg 25\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** belt; **Price** 4,000 gp; **Weight** 1 lb.
 

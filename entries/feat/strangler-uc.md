@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "strangler_uc", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "121"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever you successfully maintain a grapple and choose to deal damag
 +++
 
 ## Strangler (UC) (Combat)
-
-**Sources:** Ultimate Combat pg 121
 
 Throttling the life out of enemies is second nature to you.\
 **Prerequisites:** Dex 13, [sneak attack](ref/ability/sneak-attack) +1d6,

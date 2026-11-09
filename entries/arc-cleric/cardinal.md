@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cleric" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "64"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Armor proficiencies", "Spontaneous casting ability"]
 alters = ["Domains", "class skills", "skill ranks per level", "base attack bonus"]
 +++
 
-**Sources:** Ultimate Intrigue pg 64\
 While a cleric's faith is her highest priority, her church may wield significant political power in
 some regions. In these cases, cardinals arise from the ranks of the clergy, engaging in the game of
 intrigue on behalf of their churches. While some cardinals manage to join the world of politics and

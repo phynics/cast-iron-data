@@ -6,12 +6,14 @@ source_ids = ["inner-sea-gods"]
 relations = [
   { kind = "addon", target = "ref/spell/spawn-calling", label = "mythic" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "242"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Inner Sea Gods pg 242\
 When casting this spell, you can specify a particular Spawn of Rovagug - including the Tarrasque,
 the Armageddon Engine; Chemnosit, the Monarch Worm; or Volnagur, the End-Singer - to call in place
 of the nameless behemoth spawned by the non-mythic version of this spell. In order to do so, you

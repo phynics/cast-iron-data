@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/possession" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "181"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Spell resistance: yes
 :::
 
 ### Greater Possession
-
-**Sources:** Occult Adventures pg 181
 
 This spell functions as [possession](ref/spell/possession), but when you possess a host, you enter
 the host's body and your physical body vanishes. You are ejected to the closest empty square upon

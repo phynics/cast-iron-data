@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "poisonous_cloak", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "349"
+[[sources]]
+publication = "core-rulebook"
+page = "541"
 
 [fields]
 kind = "item"
@@ -15,8 +21,6 @@ slot = "shoulders"
 aura = "moderate transmutation"
 caster_level = "15th"
 +++
-
-**Sources:** Ultimate Equipment pg 349, PRPG Core Rulebook pg 541
 
 **Aura** moderate transmutation; **CL** 15th\
 **Slot** shoulders; **Weight** 1 lb.

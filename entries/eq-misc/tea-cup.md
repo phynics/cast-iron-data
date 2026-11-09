@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tea_cup", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "95"
+[[sources]]
+publication = "adventurers-armory"
+page = "19"
 
 [fields]
 kind = "item"
@@ -16,7 +22,6 @@ weight = "1/2 lb. (ceremonial, cup), 1/2 lb. (cup)"
 
 ## Tea
 
-**Sources:** Ultimate Equipment pg 95, Adventurer's Armory pg 19\
 **Price** 4 cp (ceremonial, cup), 2 cp (cup); **Weight** 1/2 lb. (ceremonial, cup), 1/2 lb. (cup)
 
 A popular beverage in many regions, tea may be green or black, depending on when the leaves are

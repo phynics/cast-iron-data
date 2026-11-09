@@ -6,6 +6,9 @@ source_ids = ["mystery-monsters-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "qaishan_yeti", path = "json/monsters_unique3.json" },
 ]
+[[sources]]
+publication = "mystery-monsters-revisited"
+page = "63"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ face is streaked with gray._
 
 **Senses:** Darkvision 60 ft., Scent
 
-**Sources:** Mystery Monsters Revisited pg 63\
 **Subtype:** Cold
 
 **Experience points:** 3,200

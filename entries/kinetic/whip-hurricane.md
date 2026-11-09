@@ -6,6 +6,9 @@ source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "whip_hurricane", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "22"
 
 [fields]
 kind = "class_option"
@@ -26,8 +29,6 @@ group = "kineticist-wild-talent"
 **Associated:** any
 
 **Saving throw:** none
-
-**Source:** Psychic Anthology/22
 
 As _blade whirlwind,_ except it manifests a _kinetic whip,_ and the whip lasts until the beginning
 of your next turn or until you use any form infusion that creates a blade or whip again, whichever

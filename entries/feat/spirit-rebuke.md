@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spirit_rebuke", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "169"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ prerequisite_feats = ["ref/feat/iron-will", "ref/feat/spirit-beacon"]
 benefit = "Select one specific category of spirit (fey, outsiders, or undead). Once per day as a standard action, you can condemn these spirits with such force of will that you can drive them from hosts, unravel their magic, or damage them physically. A rebuke targets a single spirit you can see (or one that is possessing a creature you can see) within 30 feet."
 special = "You can select this feat up to three times. Each time you do, you must select a different category of spirit your rebuke can affect, and you can use the feat one additional time each day."
 +++
-
-**Sources:** Adventurer's Guide pg 169
 
 Your insight and force of will can tame dangerous spirits.\
 **Prerequisites:** Wis 17; [Iron Will](ref/feat/iron-will); [Spirit Beacon](ref/feat/spirit-beacon);

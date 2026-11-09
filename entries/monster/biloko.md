@@ -6,6 +6,9 @@ source_ids = ["pathfinder-38-racing-to-ruin"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "biloko", path = "json/monsters03.json" },
 ]
+[[sources]]
+publication = "pathfinder-38-racing-to-ruin"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ grass and moss grow from its skin instead._
 
 **Size:** small
 
-**Sources:** Pathfinder \#38: Racing to Ruin pg 82\
 **Experience points:** 200
 
 **Armor class:** 14/13/12

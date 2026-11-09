@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/barbarian" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "28"
 
 [fields]
 kind = "archetype"
 replaces = ["Fast movement", "Uncanny dodge", "Trap sense", "Improved uncanny dodge"]
 +++
 
-**Sources:** Ultimate Combat pg 28\
 Some barbarians disdain the hides and leather used as armor by most of their kin. Instead they
 master the heaviest of armors, even those created by more civilized people, to gain greater
 protection and stability in battle.

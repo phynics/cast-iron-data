@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stonemist_cloak", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "269"
+[[sources]]
+publication = "advanced-race-guide"
+page = "201"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint conjuration and illusion"
 caster_level = "3rd"
 +++
 
-**Sources:** Ultimate Equipment pg 269, Advanced Race Guide pg 201\
 **Aura** faint conjuration and illusion; **CL** 3rd\
 **Slot** shoulders; **Price** 3,500 gp; **Weight** 1 lb.
 

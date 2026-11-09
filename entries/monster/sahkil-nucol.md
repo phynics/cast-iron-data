@@ -6,6 +6,9 @@ source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sahkil_nucol", path = "json/monsters37.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "253"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ flies._
 
 **Senses:** Darkvision 60 ft., Detect magic, Low-light vision
 
-**Sources:** Book of the Damned pg 253\
 **Subtype:** Evil, Extraplanar, Sahkil
 
 **Experience points:** 1,200

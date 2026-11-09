@@ -6,12 +6,14 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dying", path = "json/misc.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "566"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** PRPG Core Rulebook pg 566\
 A dying creature is [unconscious](ref/misc/unconscious) and near death. Creatures that have negative
 hit points and have not [stabilized](ref/misc/stable) are dying. A dying creature can take no
 actions. On the character's next turn, after being reduced to negative hit points (but not dead),

@@ -6,6 +6,9 @@ source_ids = ["champions-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slavers_cane", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "champions-of-balance"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Sources:** Champions of Balance pg 29\
 **Aura** moderate evocation; **CL** 10th\
 **Slot** none; **Price** 25,305 gp; **Weight** 4 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "resist_starvation", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "21"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: one living creature touched
 :::
-
-**Sources:** Villain Codex pg 21
 
 If the target doesn't eat on the day this spell is cast on it, the DC to avoid taking nonlethal
 damage from starvation on the following day doesn't increase by 1. This spell fails if the target

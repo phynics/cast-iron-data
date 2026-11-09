@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "resplendent_uniform_coat", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "222"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint enchantment"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Equipment pg 222\
 **Aura** faint enchantment; **CL** 5th\
 **Slot** chest; **Price** 7,000 gp; **Weight** 5 lbs.
 

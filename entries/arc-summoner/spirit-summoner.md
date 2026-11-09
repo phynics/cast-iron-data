@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/summoner" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "123"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Summon monster", "Aspect", "maker's call", "merge forms", "transpos
 alters = ["Eidolon"]
 +++
 
-**Sources:** Advanced Class Guide pg 123\
 A spirit summoner is an arcane spellcaster whose eidolon is a manifestation of a shamanic spirit.
 The bond connecting the summoner and this spirit might be friendly, as a member of a tribe giving
 flesh to his protector spirit, or hostile, as an outlander or rival compelling service from an

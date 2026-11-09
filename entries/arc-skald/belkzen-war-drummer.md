@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/skald" },
 ]
+[[sources]]
+publication = "advanced-class-origins"
+page = "19"
 
 [fields]
 kind = "archetype"
 replaces = ["Bardic knowledge", "Scribe Scroll", "Lore master", "7th-level versatile performance gained benefit"]
 +++
 
-**Sources:** Advanced Class Origins pg 19\
 These fierce drummers are equally adept at tapping out a driving rhythm and rapping enemies upside
 the head with the same massive clubs they use to beat the crude hidecovered drums they carry into
 battle.

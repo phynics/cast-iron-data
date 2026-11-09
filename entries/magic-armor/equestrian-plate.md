@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "equestrian_plate", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "126"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Sources:** Ultimate Equipment pg 126\
 **Aura** moderate transmutation; **CL** 9th\
 **Slot** armor; **Price** 10,650 gp; **Weight** 50 lbs. (full plate), 35 lbs. (banded mail), 70 lbs.
 (barding)

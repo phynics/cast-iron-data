@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_incubus", path = "json/monsters29.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "73"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ origin._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 3 pg 73\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 2,400

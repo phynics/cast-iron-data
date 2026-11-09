@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "symbol_of_unholy_command", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "100"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Sources:** Advanced Race Guide pg 100\
 **Aura** faint necromancy; **CL** 3rd\
 **Slot** none; **Price** 8,000 gp; **Weight** 1 lb.
 

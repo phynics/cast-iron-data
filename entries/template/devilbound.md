@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devilbound", path = "json/monster_template1.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "56"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +1
-
-**Source:** Bestiary 4/56
 
 A devilbound creature has made a bargain with a [devil](ref/family/devil), promising a service and
 its soul in exchange for infernal power. The specific service depends on the devil's type and

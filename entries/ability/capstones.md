@@ -6,12 +6,13 @@ source_ids = ["chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "capstones", path = "json/class_abilities6.json" },
 ]
+[[sources]]
+publication = "chronicle-of-legends"
+page = "28"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Chronicle of Legends pg 28
 
 When a character reaches the 20th level of a class, she gains a powerful class feature or ability,
 sometimes referred to as a capstone. The following section provides capstones for characters to

@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reach_spell_like_ability", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "91"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "This feat can be taken multiple times. Each time it is taken, you can
 +++
 
 ## Reach Spell-Like Ability (Monster)
-
-**Sources:** Horror Adventures pg 91
 
 You can use a [spell-like ability](ref/umr/spell-like-abilities) at a greater range.\
 **Prerequisites:** Spell-like ability at caster level 4th or higher.\

@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shapeshifter_style", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "19"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "A character with the wild shape class feature counts as having the ch
 +++
 
 ## Shapeshifter Style (Combat, Style)
-
-**Sources:** Martial Arts Handbook pg 19
 
 You can shift your physiology without fully changing your shape, giving you an advantage in battle.\
 **Prerequisites:** Base attack bonus +3, change shape ability, shapechanger subtype.\

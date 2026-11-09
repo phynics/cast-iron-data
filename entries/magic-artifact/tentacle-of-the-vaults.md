@@ -6,6 +6,9 @@ source_ids = ["pathfinder-120-vault-of-the-onyx-citadel"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tentacle_of_the_vaults", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "pathfinder-120-vault-of-the-onyx-citadel"
+page = "80"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong (all schools)"
 caster_level = "20th"
 +++
 
-**Sources:** Pathfinder \#120: Vault of the Onyx Citadel pg 80\
 **Aura** strong (all schools); **CL** 20th\
 **Slot** none; **Price** -; **Weight** 8 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hardness", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "294"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Hardness (Ex)
 
-**Sources:** Bestiary 5 pg 294\
 When a creature with hardness takes damage, subtract its hardness from the damage. Only damage in
 excess of its hardness is subtracted from its hit points. A creature with hardness doesn't further
 reduce damage from energy attacks, ranged attacks, or other types of attacks as objects typically

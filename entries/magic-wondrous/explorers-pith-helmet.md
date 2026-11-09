@@ -6,6 +6,9 @@ source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "explorers_pith_helmet", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "magical-marketplace"
+page = "13"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration"
 caster_level = "1st"
 +++
 
-**Sources:** Magical Marketplace pg 13\
 **Aura** faint abjuration; **CL** 1st\
 **Slot** head; **Price** 3,200 gp; **Weight** 1 lb.
 

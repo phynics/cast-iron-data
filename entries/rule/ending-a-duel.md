@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ending_a_duel", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "181"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 181
 
 At the end of any exchange, either duelist can call to end the duel, and set the terms for ending
 the duel. When they do this, it can be considered a tie if both sides agree, or one side can call

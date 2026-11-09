@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "conflict_and_behavior", path = "json/rules_basics03.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "14"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 14
 
 Conflict is at the heart of character development. The actions you take in response to conflict
 define you and determine your alignment. Even if you perceive yourself as pure and good, fair and

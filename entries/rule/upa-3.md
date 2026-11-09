@@ -6,13 +6,23 @@ source_ids = ["mythic-adventures", "mythic-realms", "cohorts-and-companions", "h
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "upa_3", path = "json/rules_campaign_types07.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "50"
+[[sources]]
+publication = "mythic-realms"
+page = "7"
+[[sources]]
+publication = "cohorts-and-companions"
+page = "10"
+[[sources]]
+publication = "heroes-of-golarion"
+page = "31"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 50, Mythic Realms pg 7, Cohorts and Companions pg 10, Heroes of
-Golarion pg 31\
 You must be at least 3rd tier to select these path abilities.
 
 **Beyond Morality (Ex):** You have no alignment. You can become a member of any class, even one with

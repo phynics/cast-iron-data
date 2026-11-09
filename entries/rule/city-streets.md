@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "city_streets", path = "json/rules_gm08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "435"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 435
 
 Typical city streets are narrow and twisting. Most streets average 15 to 20 feet wide, while alleys
 range from 10 feet wide to only 5 feet. Cobblestones in good condition allow normal movement, but

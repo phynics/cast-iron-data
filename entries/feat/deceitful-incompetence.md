@@ -6,6 +6,9 @@ source_ids = ["antiheros-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deceitful_incompetence", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "antiheros-handbook"
+page = "8"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you make an attack of opportunity in a single round after you ha
 +++
 
 ## Deceitful Incompetence (Combat)
-
-**Sources:** Antihero's Handbook pg 8
 
 You learn from your mistakes rapidly when others lower their guard around you.\
 **Prerequisites:** [Combat Reflexes](ref/feat/combat-reflexes).\

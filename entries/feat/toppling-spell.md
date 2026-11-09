@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "toppling_spell", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "158"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "The impact of your force spell is strong enough to knock the target p
 +++
 
 ## Toppling Spell (Metamagic)
-
-**Sources:** Ultimate Magic pg 158
 
 Your spells with the force descriptor knock the affected creatures prone.\
 **Benefit:** The impact of your force spell is strong enough to knock the target

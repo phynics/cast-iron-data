@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/witch" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "90"
 
 [fields]
 kind = "archetype"
 alters = ["Patron, 1st-level hex"]
 +++
 
-**Sources:** Ultimate Wilderness pg 90\
 Season witches gain their power from the cyclical and mystical exchange of energy passed from one
 season of nature to another. Often, season witches carry bitter grudges against their fellow
 witches, with many believing that the season prior to their chosen focus is inferior and the season

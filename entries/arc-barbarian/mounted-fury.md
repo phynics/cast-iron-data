@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/barbarian" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "79"
 
 [fields]
 kind = "archetype"
 replaces = ["Fast movement", "Uncanny dodge", "improved uncanny dodge"]
 +++
 
-**Sources:** Advanced Player's Guide pg 79\
 Many barbarian tribes are masters of the horse, teaching their members how to ride from a young age.
 As a result, barbarians from such tribes are even more terrifying when mounted, using their steeds'
 speed and strength to great advantage. A mounted fury has the following class features.

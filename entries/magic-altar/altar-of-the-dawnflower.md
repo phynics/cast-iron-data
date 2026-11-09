@@ -6,6 +6,9 @@ source_ids = ["inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "altar_of_the_dawnflower", path = "json/magic_altar.json" },
 ]
+[[sources]]
+publication = "inner-sea-temples"
+page = "52"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration and enchantment [good, healing]"
 caster_level = "10th"
 +++
 
-**Sources:** Inner Sea Temples pg 52\
 **Aura** moderate conjuration and enchantment \[good, healing\]; **CL** 10th\
 **Slot** none; **Price** 10,000 gp; **Weight** 250 lbs.
 

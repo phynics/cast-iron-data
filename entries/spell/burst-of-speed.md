@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burst_of_speed", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "225"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Ultimate Combat pg 225
 
 Until the end of your turn, you gain a +20 foot bonus to speed (or +10 foot bonus if you are wearing
 Medium or Heavy armor), your movement does not provoke attacks of opportunity, and you can move

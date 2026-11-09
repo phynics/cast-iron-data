@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "hungry-are-the-dead"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "festrog", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "115"
+[[sources]]
+publication = "hungry-are-the-dead"
+page = "30"
 
 [fields]
 kind = "creature"
@@ -40,7 +46,6 @@ hound than an undead man._
 
 **Senses:** Darkvision 60 ft., Scent
 
-**Sources:** Bestiary 3 pg 115, Hungry are the Dead pg 30\
 **Type:** undead
 
 **Experience points:** 400

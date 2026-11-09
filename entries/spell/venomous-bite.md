@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "venomous_bite", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: yes (harmless)
 Target: creature touched
 Descriptors: poison
 :::
-
-**Sources:** Dirty Tactics Toolbox pg 29
 
 When you touch the poison vial against the target creature and cast this spell, the vial drains and
 the target's teeth become envenomed with the same poison. The creature gains the use of 1 dose of

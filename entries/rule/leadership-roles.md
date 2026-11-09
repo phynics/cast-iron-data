@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "leadership_roles", path = "json/rules_campaign_types04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "200"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 200
 
 A stable kingdom has leaders that fill different roles' tending to the economy, defense, and health
 of its citizens. PCs and NPCs can fill these roles; your fighter may be the kingdom's Warden, the

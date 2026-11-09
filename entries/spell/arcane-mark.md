@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcane_mark", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "244"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: none
 Spell resistance: no
 Effect: one personal rune or mark, all of which must fit within 1 sq. ft.
 :::
-
-**Sources:** PRPG Core Rulebook pg 244
 
 This spell allows you to inscribe your personal rune or mark, which can consist of no more than six
 characters. The writing can be visible or invisible. An _arcane mark_ spell enables you to etch the

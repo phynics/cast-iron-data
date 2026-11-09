@@ -6,6 +6,9 @@ source_ids = ["people-of-the-north"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloak_of_the_saga_keeper", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "people-of-the-north"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "6th"
 +++
 
-**Sources:** People of the North pg 28\
 **Aura** moderate abjuration; **CL** 6th\
 **Slot** shoulders; **Price** 13,800 gp; **Weight** 1 lb.
 

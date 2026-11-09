@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/gunslinger" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "91"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Utility shot deed", "Expert loading deed", "Lightning reload deed",
 alters = ["Gun training"]
 +++
 
-**Sources:** Ultimate Wilderness pg 91\
 Commandos are those rough and ready gunslingers who excel at hit-and-run tactics and leveraging
 their expertise in the wild against their enemies.
 

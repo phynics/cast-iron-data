@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_roar", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "98"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "If you have the Elemental Fist feat, you can expend a daily use of th
 +++
 
 ## Dragon Roar (Combat)
-
-**Sources:** Ultimate Combat pg 98
 
 The spirit of the dragon wells up inside you and bursts forth in a mighty roar.\
 **Prerequisites:** Str 15, [Improved Unarmed Strike](ref/feat/improved-unarmed-strike),

@@ -6,6 +6,9 @@ source_ids = ["familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "glove_of_familiars_touch", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "familiar-folio"
+page = "21"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Sources:** Familiar Folio pg 21\
 **Aura** moderate evocation; **CL** 7th\
 **Slot** hands; **Price** 23,000 gp; **Weight** 2 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "destructive_persuasion", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "champions-of-corruption"
+page = "23"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "As a standard action, you can attempt to smash an unattended inanimat
 +++
 
 ## Destructive Persuasion (Combat)
-
-**Sources:** Champions of Corruption pg 23
 
 Sometimes, you have to break things if you want people to get your point.\
 **Prerequisites:** Str 13, [Power Attack](ref/feat/power-attack), Intimidate 1 rank.\

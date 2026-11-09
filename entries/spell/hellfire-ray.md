@@ -6,6 +6,12 @@ source_ids = ["book-of-the-damned", "book-of-the-damned-volume-1-princes-of-dark
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hellfire_ray", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "184"
+[[sources]]
+publication = "book-of-the-damned-volume-1-princes-of-darkness"
+page = "46"
 
 [fields]
 kind = "spell"
@@ -45,8 +51,6 @@ Spell resistance: yes
 Effect: ray
 Descriptors: evil
 :::
-
-**Sources:** Book of the Damned pg 184, Book of the Damned - Volume 1: Princes of Darkness pg 46
 
 A blast of hellfire blazes from your hands. You can fire one ray, plus one additional ray for every
 4 caster levels beyond 11th (to a maximum of three rays at 19th level). Each ray requires a ranged

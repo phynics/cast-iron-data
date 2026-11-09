@@ -6,6 +6,9 @@ source_ids = ["pathfinder-67-the-snows-of-summer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spiteful_cookie", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "pathfinder-67-the-snows-of-summer"
+page = "61"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Pathfinder \#67: The Snows of Summer pg 61\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** none; **Price** 750 gp; **Weight** -
 

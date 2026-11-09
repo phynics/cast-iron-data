@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fey", path = "json/class_ability_bloodrager_bloodlines.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "21"
 
 [fields]
 kind = "class_option"
@@ -13,8 +16,6 @@ group = "bloodrager-bloodline"
 +++
 
 ## Fey Bloodline
-
-**Sources:** Advanced Class Guide pg 21
 
 One of your ancestors was [fey](ref/type/fey), or the fey realm somehow intermixed with your
 bloodline. It affects your _bloodrage_ in tricky and surprising ways.

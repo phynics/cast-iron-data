@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue", "advanced-players-guide", "chronicle-of-legen
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vigilante", path = "json/classes4.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "9"
 
 [fields]
 kind = "class"
@@ -13,8 +16,6 @@ class_type = "base"
 hit_die = "d8"
 skill_ranks = "6 + Int modifier"
 +++
-
-**Sources:** Ultimate Intrigue pg 9
 
 Life can be unfair. Think of the starving peasants forced to toil for the local baron or the common
 laborers tasked with building the king's newest palace for a mere handful of copper pieces each

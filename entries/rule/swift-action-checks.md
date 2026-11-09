@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swift_action_checks", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "156"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 156
 
 The following triggers allow a character participating in a performance combat to make a performance
 combat check as a swift action. A character can always opt not to make a performance combat check

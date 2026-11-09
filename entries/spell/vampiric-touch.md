@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vampiric_touch", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "364"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Saving throw: none
 Spell resistance: yes
 Target: living creature touched
 :::
-
-**Sources:** PRPG Core Rulebook pg 364
 
 You must succeed on a melee touch attack. Your touch deals 1d6 points of damage per two caster
 levels (maximum 10d6). You gain temporary hit points equal to the damage you deal. You can't gain

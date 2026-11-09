@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fiery_body", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "221"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: no
 Target: you
 Descriptors: fire
 :::
-
-**Sources:** Advanced Player's Guide pg 221
 
 This spell transforms your body into living flame. You and your equipment are immune to fire damage.
 In fact, every time you would normally take damage from fire, you are instead healed of damage at a

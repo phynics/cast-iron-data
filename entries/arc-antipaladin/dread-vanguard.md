@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/antipaladin" },
 ]
+[[sources]]
+publication = "champions-of-corruption"
+page = "22"
 
 [fields]
 kind = "archetype"
 replaces = ["Spells", "Aura of sin"]
 +++
 
-**Sources:** Champions of Corruption pg 22\
 Some antipaladins serve or ally themselves with villains who are bent on earthly conquest. They care
 nothing for the intricacies of divine spellcasting, but malevolent energy still surrounds them.
 Whether alone or at the head of a marauding host, these cruel warriors bring suffering and death -

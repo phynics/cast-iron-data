@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unrisen", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "268"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ parody of the human form._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 6 pg 268\
 **Type:** undead
 
 **Experience points:** 1,600

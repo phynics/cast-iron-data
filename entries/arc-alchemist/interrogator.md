@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "18"
 
 [fields]
 kind = "archetype"
 replaces = ["Bomb", "Mutagen", "persistent mutagen"]
 +++
 
-**Sources:** Ultimate Intrigue pg 18\
 An interrogator extracts vital information from reluctant individuals using alchemical and
 traditional methods.
 

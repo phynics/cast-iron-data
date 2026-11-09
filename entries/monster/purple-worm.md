@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "purple_worm", path = "json/monsters19.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "230"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ mouth is the size of an ox._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 230\
 **tremorsense:** 60
 
 **Experience points:** 19,200

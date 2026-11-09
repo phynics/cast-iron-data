@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/repair-undead" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "191"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: Will half (harmless)
 Spell resistance: yes (harmless)
 Targets: one undead creature/level, no two of which can be more than 30 ft. apart
 :::
-
-**Sources:** Advanced Class Guide pg 191
 
 This spell functions as [repair undead](ref/spell/repair-undead), except as noted above, and it
 cures 1d8 points of damage + 1 point per caster level (maximum +20) on each selected creature.

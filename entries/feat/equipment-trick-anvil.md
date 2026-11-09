@@ -6,6 +6,9 @@ source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "equipment_trick_anvil", path = "json/feat06.json" },
 ]
+[[sources]]
+publication = "magical-marketplace"
+page = "14"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "You can gain Equipment Trick multiple times. Each time you take the f
 +++
 
 ## Equipment Trick (Anvil) (Combat)
-
-**Sources:** Magical Marketplace pg 14
 
 Choose a piece of equipment, such as an boots, a cloak, rope, a shield, or a heavy blade scabbard.
 You understand how to use that piece of equipment in combat.\

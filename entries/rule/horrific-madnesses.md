@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horrific_madnesses", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "185"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 185
 
 [Lesser restoration](ref/spell/restoration-lesser) has no effect on insanity, but under these rules
 it can be used to treat lesser madnesses. Conversely,

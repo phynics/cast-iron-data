@@ -6,6 +6,9 @@ source_ids = ["inner-sea-world-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gillman", path = "json/monsters12.json" },
 ]
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "310"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ flexing._
 
 **Perception:** +2
 
-**Sources:** Inner Sea World Guide pg 310\
 **Subtype:** Aquatic
 
 **Experience points:** 135

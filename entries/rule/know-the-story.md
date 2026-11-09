@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "know_the_story", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "16"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 16
 
 Some games don't have much story: the characters simply endure whatever you decide to throw at them.
 But even such straightforward adventures will run a little better if you take time to consider how

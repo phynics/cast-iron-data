@@ -6,6 +6,9 @@ source_ids = ["familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_school_familiar", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "familiar-folio"
+page = "14"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "School Familiar, wizard level 10th, specialized arcane school c
 prerequisite_feats = ["ref/feat/school-familiar"]
 benefit = "Your school familiar gains the greater school power from the school familiar archetype."
 +++
-
-**Sources:** Familiar Folio pg 14
 
 Your school familiar's powers are greater than others of its kind.\
 **Prerequisites:** [School Familiar](ref/feat/school-familiar), wizard level 10th, specialized

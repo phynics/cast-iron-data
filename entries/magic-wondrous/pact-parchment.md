@@ -6,6 +6,9 @@ source_ids = ["cheliax-empire-of-devils"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pact_parchment", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "cheliax-empire-of-devils"
+page = "21"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment"
 caster_level = "11th"
 +++
 
-**Sources:** Cheliax, Empire of Devils pg 21\
 **Aura** moderate enchantment; **CL** 11th\
 **Slot** none; **Price** 3,500 gp; **Weight** -
 

@@ -6,14 +6,15 @@ source_ids = ["knights-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "squire", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "knights-of-the-inner-sea"
+page = "20"
 
 [fields]
 kind = "feat"
 prerequisites = "Character level 4th, proficient with all martial weapons."
 benefit = "This feat acts similarly to the Leadership feat, with several exceptions. You can only attract a 1st-level cohort (referred to hereafter as a squire) with this feat, and cannot recruit followers until you have the Leadership feat. You determine your Leadership score according to the rules presented in the Leadership feat, but your squire is always at least three or more levels lower than yourself."
 +++
-
-**Sources:** Knights of the Inner Sea pg 20
 
 You attract a squire to aid you in your knightly endeavors.\
 **Prerequisites:** Character level 4th, proficient with all martial weapons.\

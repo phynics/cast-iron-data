@@ -6,13 +6,14 @@ source_ids = ["people-of-the-north"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "winter", path = "json/class_ability_mysteries.json" },
 ]
+[[sources]]
+publication = "people-of-the-north"
+page = "26"
 
 [fields]
 kind = "class_option"
 group = "oracle-mystery"
 +++
-
-**Sources:** People of the North pg 26
 
 **Deities**
 

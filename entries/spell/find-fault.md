@@ -6,6 +6,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "find_fault", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "24"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Saving throw: none
 Spell resistance: yes
 Target: 1 creature
 :::
-
-**Sources:** Arcane Anthology pg 24
 
 You instantly learn many of the target's weaknesses, as if you had made an appropriate Knowledge
 skill check with a result equal to 20 + your caster level. Additionally, your first melee or ranged

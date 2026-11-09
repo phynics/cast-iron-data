@@ -6,6 +6,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "artificers_curse", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "19"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Saving throw: Will negates (object)
 Spell resistance: yes
 Target: 1 magical item
 :::
-
-**Sources:** Arcane Anthology pg 19
 
 You temporarily suppress the most powerful qualities of a magical item. This item can be any object
 you suspect bears a magical enchantment, but if the targeted item is not magical, your spell has no

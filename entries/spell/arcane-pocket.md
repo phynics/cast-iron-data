@@ -6,6 +6,9 @@ source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcane_pocket", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "27"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: no
 Effect: extradimensional space up to 1 cu. ft./level
 Subschool: Creation
 :::
-
-**Sources:** Black Markets pg 27
 
 With a touch, you conjure an extradimensional space inside a pouch or pocket. The pocket acts as a
 [bag of holding](ref/magic-wondrous/bag-of-holding), except it can hold only 10 pounds per caster

@@ -6,12 +6,13 @@ source_ids = ["lands-of-conflict"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "officers", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "lands-of-conflict"
+page = "51"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Lands of Conflict pg 51
 
 The roles of officers are generally filled by PCs, though proxy NPCs can suffice. It is up to the GM
 to determine which NPCs might make appropriate militia officers.

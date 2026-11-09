@@ -6,6 +6,9 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "esoteric_divination", path = "json/feat06.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "154"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "When you cast a divination spell using verdant salts as an esoteric m
 +++
 
 ## Esoteric Divination (Esoteric)
-
-**Sources:** Pathfinder Unchained pg 154
 
 Scrying and other difficult divinations become more likely to get to the truth when you use verdant
 salts.\

@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "indomitable_mountain_style", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "115"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "As long as you do not take a move action, you gain a +4 morale bonus 
 +++
 
 ## Indomitable Mountain Style (Combat, Style)
-
-**Sources:** Ultimate Wilderness pg 115
 
 Like a rugged mountain, you are impassable and unmovable.\
 **Prerequisites:** Wis 13, [Combat Reflexes](ref/feat/combat-reflexes),

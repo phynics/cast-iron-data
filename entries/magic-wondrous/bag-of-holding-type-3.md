@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bag_of_holding_type_3", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "281"
+[[sources]]
+publication = "core-rulebook"
+page = "500"
 
 [fields]
 kind = "item"
@@ -19,7 +25,6 @@ caster_level = "9th"
 
 ## Bag of Holding
 
-**Sources:** Ultimate Equipment pg 281, PRPG Core Rulebook pg 500\
 **Aura** moderate conjuration; **CL** 9th\
 **Slot** none; **Price** 2,500 gp (Type I), 5,000 gp (Type II), 7,400 gp (Type III), 10,000 gp (Type
 IV); **Weight** 15+ lbs.

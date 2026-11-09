@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "removing_alignment", path = "json/rules_opt_alignment01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "100"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 100
 
 Alignment is a cornerstone of the Pathfinder Roleplaying Game. In its most useful form, alignment is
 a shorthand to help players learn more about their characters' personalities. But sometimes you may

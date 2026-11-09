@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vic_vehicle_combat_maneuvers", path = "json/rules_rulesets02.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "174"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 174
 
 Vehicles typically don't have attacks, though some can be fitted with siege weapons. A vehicle can
 make, and is often required to make, a vehicular bull rush, vehicular overrun, or ramming maneuver

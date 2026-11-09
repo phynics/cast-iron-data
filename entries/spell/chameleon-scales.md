@@ -6,6 +6,9 @@ source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chameleon_scales", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "kobolds-of-golarion"
+page = "26"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Kobolds of Golarion pg 26
 
 You temporarily alter the color of your skin, hide, or scales to another option legal for your race.
 You take no penalty for using Disguise to appear as a member of a different race as long as that

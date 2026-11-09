@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/summon-natures-ally-9" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "240"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: no
 Effect: one summoned creature
 Subschool: Summoning
 :::
-
-**Sources:** Ultimate Magic pg 240
 
 This spell functions as [summon nature's ally IX](ref/spell/summon-natures-ally-9), except you
 summon a froghemoth.

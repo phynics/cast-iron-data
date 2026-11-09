@@ -6,6 +6,15 @@ source_ids = ["pathfinder-103-the-hellfire-compact", "gods-and-magic", "inner-se
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloak_of_the_crusader", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "pathfinder-103-the-hellfire-compact"
+page = "73"
+[[sources]]
+publication = "gods-and-magic"
+page = "55"
+[[sources]]
+publication = "inner-sea-gods"
+page = "262"
 
 [fields]
 kind = "item"
@@ -17,8 +26,6 @@ aura = "faint enchantment"
 caster_level = "1st"
 +++
 
-**Sources:** Pathfinder \#103: The Hellfire Compact pg 73, Gods and Magic pg 55, Inner Sea Gods pg
-262\
 **Aura** faint enchantment; **CL** 1st\
 **Slot** shoulders; **Price** 2,700 gp; **Weight** 1 lb.
 

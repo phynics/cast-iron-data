@@ -6,6 +6,12 @@ source_ids = ["ultimate-magic", "osirion-land-of-the-pharaohs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "threnodic_spell", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "157"
+[[sources]]
+publication = "osirion-land-of-the-pharaohs"
+page = "27"
 
 [fields]
 kind = "feat"
@@ -17,8 +23,6 @@ normal = "Undead are immune to mind-affecting effects."
 +++
 
 ## Threnodic Spell (Metamagic)
-
-**Sources:** Ultimate Magic pg 157, Osirion, Land of the Pharaohs pg 27
 
 You can convert mind-affecting magic to necromantic power capable of controlling undead.\
 **Prerequisites:** Knowledge (religion) 6 ranks, [Spell Focus](ref/feat/spell-focus) (necromancy).\

@@ -6,6 +6,9 @@ source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "darkvault", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "blood-of-shadows"
+page = "15"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Saving throw: none
 Spell resistance: no
 Area: 30-ft.-radius emanation
 :::
-
-**Sources:** Blood of Shadows pg 15
 
 You ward an area's shadows such that light cannot penetrate them. The illumination level in the
 affected area no longer changes when nonmagical light enters it. Any magical effect must succeed at

@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brainstorming_your_background", path = "json/rules_basics03.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "8"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 8
 
 Before you start working on your background, roll your ability scores and select your race and
 class. With this basic information determined, you can focus on creating a backstory consistent with

@@ -6,13 +6,15 @@ source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "naga", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
+[[sources]]
+publication = "blood-of-the-beast"
+page = "16"
 
 [fields]
 kind = "class_option"
 group = "sorcerer-bloodline"
 +++
 
-**Sources:** Blood of the Beast pg 16\
 Naga blood flows within your veins. Perhaps a curious naga experimented upon one of your ancestors
 in an attempt to create the perfect servant, or maybe one of your ancestors was a shapeshifting
 naga. Either way, you boast powers similar to those of true nagas.

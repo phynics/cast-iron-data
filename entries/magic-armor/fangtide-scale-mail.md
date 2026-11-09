@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fangtide_scale_mail", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "251"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment, evocation, and illusion"
 caster_level = "10th"
 +++
 
-**Sources:** Inner Sea Gods pg 251\
 **Aura** moderate enchantment, evocation, and illusion; **CL** 10th\
 **Slot** armor; **Price** 4,890 gp; **Weight** 30 lbs.
 

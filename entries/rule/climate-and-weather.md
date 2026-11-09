@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "climate_and_weather", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "220"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 220
 
 Any world that supports life should contain a wide range of environments: diversity in the ecosystem
 helps support a diversity of life, though of course a fantasy world is subject to its own governing

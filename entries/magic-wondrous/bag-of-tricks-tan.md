@@ -6,6 +6,9 @@ source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bag_of_tricks_tan", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
+page = "62"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "3rd"
 
 ## Bag of Tricks
 
-**Sources:** Aquatic Adventures pg 62\
 **Aura** faint conjuration; **CL** 3rd\
 **Slot** none; **Price** 3,400 gp (Gray), 4,500 gp (Aquamarine), 8,500 gp (Rust), 16,000 gp (Tan);
 **Weight** 1 lb.

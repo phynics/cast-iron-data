@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychopomp_catrina", path = "json/monsters19.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "218"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ beautiful, despite having no flesh._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Spiritsense
 
-**Sources:** Bestiary 4 pg 218\
 **Subtype:** Extraplanar, Psychopomp
 
 **Experience points:** 1,600

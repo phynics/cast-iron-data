@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vehicle_size_and_space", path = "json/rules_rulesets02.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "172"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 172
 
 Vehicles have sizes and spaces different from creature sizes and spaces. Many vehicles are long and
 thin rather than taking up a space of an equal number of squares per side like creatures do. A

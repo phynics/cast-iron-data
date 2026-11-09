@@ -6,6 +6,24 @@ source_ids = ["adventurers-guide", "pathfinder-9-escape-from-old-korvosa", "path
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mask_of_the_mantis", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "159"
+[[sources]]
+publication = "pathfinder-9-escape-from-old-korvosa"
+page = "69"
+[[sources]]
+publication = "pathfinder-10-a-history-of-ashes"
+page = "18"
+[[sources]]
+publication = "pathfinder-campaign-setting"
+page = "197"
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "298"
+[[sources]]
+publication = "curse-of-the-crimson-throne"
+page = "434"
 
 [fields]
 kind = "item"
@@ -17,9 +35,6 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Sources:** Adventurer's Guide pg 159, Pathfinder \#9: Escape from Old Korvosa pg 69, Pathfinder
-\#10: A History of Ashes pg 18, Pathfinder Campaign Setting pg 197, Inner Sea World Guide pg 298,
-Curse of the Crimson Throne pg 434\
 **Aura** faint divination; **CL** 3rd\
 **Slot** head; **Price** 6,000 gp; **Weight** 1 lb.
 

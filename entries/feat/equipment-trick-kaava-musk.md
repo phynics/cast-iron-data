@@ -6,6 +6,9 @@ source_ids = ["sargava-the-lost-colony"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "equipment_trick_kaava_musk", path = "json/feat06.json" },
 ]
+[[sources]]
+publication = "sargava-the-lost-colony"
+page = "25"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "You can gain Equipment Trick multiple times. Each time you take the f
 +++
 
 ## Equipment Trick (Kaava Musk) (Combat)
-
-**Sources:** Sargava, the Lost Colony pg 25
 
 Choose a piece of equipment, such as an boots, a cloak, rope, a shield, or a heavy blade scabbard.
 You understand how to use that piece of equipment in combat.\

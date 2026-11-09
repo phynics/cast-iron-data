@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dungeon_ring_jailers", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "166"
+[[sources]]
+publication = "advanced-players-guide"
+page = "292"
 
 [fields]
 kind = "item"
@@ -19,7 +25,6 @@ caster_level = "8th"
 
 ## Dungeon Ring
 
-**Sources:** Ultimate Equipment pg 166, Advanced Player's Guide pg 292\
 **Aura** moderate divination; **CL** 8th\
 **Slot** ring; **Price** 250 gp (prisoner's), 16,000 gp (jailer's); **Weight** -
 

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-140-eulogy-for-roslars-coffer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "melacage", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "pathfinder-140-eulogy-for-roslars-coffer"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ faces' eyes, but the drops fade to nothing before they reach the ground._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#140: Eulogy for Roslar's Coffer pg 88\
 **Subtype:** Incorporeal
 
 **Type:** undead

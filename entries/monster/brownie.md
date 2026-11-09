@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brownie", path = "json/monsters04.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "49"
 
 [fields]
 kind = "creature"
@@ -39,7 +42,6 @@ expressive face._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 2 pg 49\
 **Size:** tiny
 
 **Experience points:** 400

@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "high_leadership_scores_and_followers", path = "json/rules_rulesets01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "130"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 130
 
 Some characters might have a [Leadership](ref/feat/leadership) score well above 25, and a GM can
 allow such characters to have more followers. For every 2 points by which a character's Leadership

@@ -6,14 +6,21 @@ source_ids = ["ranged-tactics-toolbox", "ultimate-combat", "ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flying_blade", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "33"
+[[sources]]
+publication = "ultimate-combat"
+page = "144"
+[[sources]]
+publication = "ultimate-equipment"
+page = "20"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "12 lbs."
 +++
-
-**Sources:** Ranged Tactics Toolbox pg 33, Ultimate Combat pg 144, Ultimate Equipment pg 20
 
 A flying blade is a large, crescent-shaped blade anchored to a 10-foot chain. You fight with a
 flying blade by spinning it about your head or by snapping it toward an opponent. Because the flying

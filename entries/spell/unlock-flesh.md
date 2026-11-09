@@ -6,6 +6,9 @@ source_ids = ["curse-of-the-crimson-throne"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unlock_flesh", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "curse-of-the-crimson-throne"
+page = "453"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: Fortitude negates
 Spell resistance: yes
 Area: creature touched
 :::
-
-**Sources:** Curse of the Crimson Throne pg 453
 
 By touching a creature with a bladed instrument, you cause the creature's flesh to loosen and slide
 against its skeletal moorings. A living creature touched becomes staggered by the disturbing and

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-39-the-city-of-seven-spears"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hammertail", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "pathfinder-39-the-city-of-seven-spears"
+page = "55"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Sources:** Pathfinder \#39: The City of Seven Spears pg 55\
 **Aura** moderate transmutation; **CL** 10th\
 **Slot** none; **Price** 10,305 gp; **Weight** 2 lbs.
 

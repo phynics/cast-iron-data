@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "armor_of_the_sands", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "22"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Sources:** Melee Tactics Toolbox pg 22\
 **Aura** moderate transmutation; **CL** 7th\
 **Slot** armor; **Price** 14,160 gp; **Weight** 15 lbs.
 

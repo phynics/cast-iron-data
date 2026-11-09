@@ -6,12 +6,13 @@ source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "whirlpools", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Aquatic Adventures\
 When currents flowing in opposite directions meet, they create a whirlpool. Most whirlpools are
 harmless, but some mighty maelstroms formed by powerful tides are capable of great destruction. The
 most powerful whirlpools can reach a maximum current speed of around 200 feet per round, spinning in

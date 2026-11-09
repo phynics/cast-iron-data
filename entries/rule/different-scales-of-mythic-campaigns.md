@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "different_scales_of_mythic_campaigns", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "118"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 118
 
 The mythic rules can be used in a number of ways to add truly fantastic elements to your game, from
 simply including a mythic foe at the end of an adventure to allowing the PCs to play mythic

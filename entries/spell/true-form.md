@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "true_form", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "251"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: Will negates
 Spell resistance: yes
 Target: up to one creature/3 levels, no two of which can be more than 30 ft. apart
 :::
-
-**Sources:** Advanced Player's Guide pg 251
 
 True form removes any polymorph effect from a target creature, returning it to its true form, even
 against its will. Against creatures affected by polymorph spell effects (such as baleful polymorph

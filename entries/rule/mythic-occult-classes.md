@@ -6,12 +6,13 @@ source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mythic_occult_classes", path = "json/rules_campaign_types07.json" },
 ]
+[[sources]]
+publication = "heroes-of-golarion"
+page = "28"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Heroes of Golarion pg 28
 
 Because they specialize in things that are, generally speaking, outside the realm of common
 knowledge, practitioners of the occult who find a way to tap into mythic power often find that the

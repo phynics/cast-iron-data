@@ -6,13 +6,14 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "riding_rat", path = "json/class_ability_druid_companions.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "177"
 
 [fields]
 kind = "class_option"
 group = "animal-companion"
 +++
-
-**Sources:** Monster Codex pg 177
 
 **Companion Type**
 

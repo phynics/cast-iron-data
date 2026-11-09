@@ -6,14 +6,21 @@ source_ids = ["ranged-tactics-toolbox", "advanced-race-guide", "ultimate-equipme
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "underwater_heavy_crossbow", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "0"
+[[sources]]
+publication = "advanced-race-guide"
+page = "195"
+[[sources]]
+publication = "ultimate-equipment"
+page = "17"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "8 lbs."
 +++
-
-**Sources:** Ranged Tactics Toolbox pg 0, Advanced Race Guide pg 195, Ultimate Equipment pg 17
 
 Above water, this weapon is identical to a heavy crossbow. You may use it underwater, where it has a
 range increment of 20 feet. It counts as a [heavy crossbow](ref/eq-weapon/heavy-crossbow) for the

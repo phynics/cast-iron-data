@@ -6,12 +6,13 @@ source_ids = ["chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gunslinger_renowned_deeds", path = "json/class_abilities2.json" },
 ]
+[[sources]]
+publication = "chronicle-of-legends"
+page = "4"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Chronicle of Legends pg 4
 
 Swashbucklers and gunslingers perform impressive deeds through their grit and panache, but some are
 capable of truly spectacular acts known as renowned deeds. A swashbuckler or gunslinger (though not

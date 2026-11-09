@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "misfit-monsters-redeemed"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wolf_in_sheeps_clothing", path = "json/monsters25.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "285"
+[[sources]]
+publication = "misfit-monsters-redeemed"
+page = "63"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ a maw of sharp teeth._
 
 **Senses:** All-around vision, Darkvision 60 ft.
 
-**Sources:** Bestiary 3 pg 285, Misfit Monsters Redeemed pg 63\
 **Experience points:** 4,800
 
 **Armor class:** 21/10/21

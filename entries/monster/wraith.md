@@ -6,6 +6,9 @@ source_ids = ["bestiary", "undead-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wraith", path = "json/monsters25.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "281"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ its eyes should be._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 281\
 **Subtype:** Incorporeal
 
 **Type:** undead

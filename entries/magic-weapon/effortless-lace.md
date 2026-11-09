@@ -6,6 +6,9 @@ source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "effortless_lace", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "giant-hunters-handbook"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation"
 caster_level = "15th"
 +++
 
-**Sources:** Giant Hunter's Handbook pg 28\
 **Aura** strong transmutation; **CL** 15th\
 **Slot** none; **Price** 2,500 gp; **Weight** -
 

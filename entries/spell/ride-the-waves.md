@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ride_the_waves", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "235"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Spell resistance: yes (harmless)
 Target: creature touched
 Descriptors: water
 :::
-
-**Sources:** Ultimate Magic pg 235
 
 The target gains the ability to breathe water and a swim speed of 30 feet. This swim speed means the
 target also gains the standard +8 bonus on Swim checks and the ability to take 10 on Swim checks

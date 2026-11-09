@@ -6,12 +6,13 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "advanced_senses_traits", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "236"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Advanced Race Guide pg 236
 
 **Scent (4 RP):** **Prerequisites:** None; **Benefit:** Members of this race gain the
 [scent](ref/umr/scent) ability.

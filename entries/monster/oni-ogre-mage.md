@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oni_ogre_mage", path = "json/monsters18.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "221"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ afire with murderous intent._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder RPG Bestiary pg 221\
 **Subtype:** Giant, Native, Oni, Shapechanger
 
 **Experience points:** 4,800

@@ -6,6 +6,9 @@ source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ominous_mien", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "faction-guide"
+page = "57"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Whenever you cast a spell or use a spell-like ability from the compul
 +++
 
 ## Ominous Mien (Faction)
-
-**Sources:** Faction Guide pg 57
 
 Your walk, stance, and voice all amplify your status as a [Hellknight](ref/rule/aff-lawknights) when
 you cast spells or use [spell-like abilities](ref/umr/spell-like-abilities) against opponents.\

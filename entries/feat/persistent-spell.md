@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "persistent_spell", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "167"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "Whenever a creature targeted by a persistent spell or within its area
 +++
 
 ## Persistent Spell (Metamagic)
-
-**Sources:** Advanced Player's Guide pg 167
 
 You can modify a spell to become more tenacious when its targets resist its effect.\
 **Benefit:** Whenever a creature targeted by a persistent spell or within its area succeeds on its

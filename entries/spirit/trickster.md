@@ -6,13 +6,15 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trickster", path = "json/class_ability_spirits.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "36"
 
 [fields]
 kind = "class_option"
 group = "medium-spirit"
 +++
 
-**Sources:** Occult Adventures pg 36\
 A trickster spirit is a savvy and manipulative master of skills.
 
 **Spirit Bonus**

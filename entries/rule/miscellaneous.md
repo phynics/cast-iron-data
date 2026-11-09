@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "miscellaneous", path = "json/rules_adv_gm03.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "239"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 239
 
 These options primarily factor into interactions other than combat. Most of them are good for
 creating adversaries who present a noncombat challenge or for quickly generating NPC allies with

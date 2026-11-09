@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "power_gamer", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "76"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 76
 
 The power gamer focuses on maximizing her character's strengths while minimizing her weaknesses. She
 focuses all her character choices to enable her to be highly effective in certain areas, without

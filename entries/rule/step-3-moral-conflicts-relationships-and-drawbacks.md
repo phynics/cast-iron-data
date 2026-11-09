@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "step_3_moral_conflicts_relationships_and_drawbacks", path = "json/rules_basics03.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "46"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 46
 
 With age come the events and relationships that leave a definitive mark on your personality. You
 face and resolve moral challenges, your romantic relationships blossom and sometimes wilt, you meet

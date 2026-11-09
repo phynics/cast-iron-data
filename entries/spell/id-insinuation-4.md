@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/id-insinuation-1" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "173"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Descriptors: mind-affecting
 :::
 
 ### Id Insinuation IV
-
-**Sources:** Occult Adventures pg 173
 
 This functions as [id insinuation I](ref/spell/id-insinuation-1), except as noted above. In
 addition, on the first round of the effect, you can select the result of each creature's confused

@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/sands-of-time", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "107"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 107\
 You age the target by two categories instead of one. The damage dealt to objects, constructs, and
 undead increases to 5d6 points of damage + 1 point per caster level (maximum +20).
 

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weapon_focus", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "136"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "You can gain this feat multiple times. Its effects do not stack. Each
 +++
 
 ## Weapon Focus (Combat)
-
-**Sources:** PRPG Core Rulebook pg 136
 
 Choose one type of weapon. You can also choose unarmed strike or grapple (or ray, if you are a
 spellcaster) as your weapon for the purposes of this feat.\

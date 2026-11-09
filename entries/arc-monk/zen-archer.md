@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/monk" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "115"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["The monk's normal bonus feats", "Stunning Fist", "Evasion", "Maneuv
 alters = ["Flurry of blows", "Ki pool"]
 +++
 
-**Sources:** Advanced Player's Guide pg 115\
 Some monks seek to become one with another weapon entirely - the bow. The zen archer takes a weapon
 most other monks eschew and seeks perfection in the pull of a taut bowstring, the flex of a bow's
 limbs, and the flight of an arrow fired true.

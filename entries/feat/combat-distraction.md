@@ -6,14 +6,15 @@ source_ids = ["goblins-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "combat_distraction", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "goblins-of-golarion"
+page = "25"
 
 [fields]
 kind = "feat"
 prerequisites = "Goblin, Acrobatics 1 rank, Escape Artist 1 rank."
 benefit = "As a full-round action, you can choose to do something that seems to serve no useful purpose. Example actions could include laughing at another creature's misfortune, rooting in your pockets for a snack, bending over to pick up what looks like a weird bug, or trying to fly into the air by flapping your arms like a sea gull."
 +++
-
-**Sources:** Goblins of Golarion pg 25
 
 Anyone who attacks you while you act like a lunatic exposes themselves to brutal counterattacks from
 your allies.\

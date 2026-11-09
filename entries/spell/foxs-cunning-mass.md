@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/foxs-cunning" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "286"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Spell resistance: yes
 :::
 
 ### Mass Fox's Cunning
-
-**Sources:** PRPG Core Rulebook pg 286
 
 This spell functions like [fox's cunning](ref/spell/foxs-cunning), except that it affects multiple
 creatures.

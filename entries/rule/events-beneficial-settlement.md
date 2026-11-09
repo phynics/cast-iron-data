@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "events_beneficial_settlement", path = "json/rules_campaign_types05.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "221"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 221
 
 **Boomtown (Settlement):** Randomly select one settlement. Commerce booms among that settlement.
 Until the next Event phase, Economy increases by the number of buildings in the settlement that

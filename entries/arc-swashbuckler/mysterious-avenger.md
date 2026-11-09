@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/swashbuckler" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "126"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Nimble", "4th-level bonus feat", "Swashbuckler weapon training"]
 alters = ["Weapon and armor proficiency", "Swashbuckler finesse"]
 +++
 
-**Sources:** Advanced Class Guide pg 126\
 While some swashbucklers fight for queen and country, and others for coin, glory, or just the
 enhancement of their own reputations, the mysterious avenger fights directly for a cause. Instead of
 gaining personal glory for her heroic deeds, she keeps her identity hidden in order to fight for

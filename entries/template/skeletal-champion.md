@@ -6,6 +6,9 @@ source_ids = ["bestiary", "classic-horrors-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skeletal_champion", path = "json/monster_template4.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "252"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** Varies
-
-**Source:** Pathfinder RPG Bestiary/252
 
 Some [skeletons](ref/template/skeleton) retain their intelligence and cunning, making them
 formidable warriors. These undead are far more powerful than their mindless kin, and many gain class

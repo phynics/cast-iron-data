@@ -6,6 +6,9 @@ source_ids = ["pathfinder-123-the-flooded-cathedral"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ulon", path = "json/faiths8.json" },
 ]
+[[sources]]
+publication = "pathfinder-123-the-flooded-cathedral"
+page = "75"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Ulon**
 
 **Sub:** The Web
-
-**Sources:** Pathfinder \#123: The Flooded Cathedral pg 75
 
 ### Details
 

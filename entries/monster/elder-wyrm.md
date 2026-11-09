@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elder_wyrm", path = "json/monsters09.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "108"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ tail._
 
 **Senses:** Darkvision 300 ft., Low-light vision, Scent, True seeing
 
-**Sources:** Bestiary 6 pg 108\
 **Experience points:** 1,228,800
 
 **Armor class:** 42/14/30

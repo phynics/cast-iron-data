@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devolution", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "216"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: Will negates
 Spell resistance: yes
 Target: one eidolon
 :::
-
-**Sources:** Advanced Player's Guide pg 216
 
 This spell causes an eidolon to lose one evolution plus one additional evolution for every five
 caster levels. Evolutions with the highest total cost are lost first. If there is a tie, randomly

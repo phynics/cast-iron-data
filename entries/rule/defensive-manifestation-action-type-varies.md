@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "defensive_manifestation_action_type_varies", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "203"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 203
 
 Defensive manifestations protect a combatant from her opponent's manifestations. A combatant in a
 psychic duel can manifest the following defensive abilities.

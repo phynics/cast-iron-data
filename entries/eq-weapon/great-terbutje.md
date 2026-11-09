@@ -6,14 +6,15 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "great_terbutje", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "20"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "4 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 20
 
 This Stone Age weapon is a 4-foot-long version of the [terbutje](ref/eq-weapon/terbutje). It is too
 large to use in one hand without special training; thus, it is an exotic weapon. You can use a great

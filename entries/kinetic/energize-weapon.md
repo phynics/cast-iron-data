@@ -6,6 +6,9 @@ source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "energize_weapon", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
+page = "22"
 
 [fields]
 kind = "class_option"
@@ -25,8 +28,6 @@ group = "kineticist-wild-talent"
 [Fire Blast](ref/kinetic/fire-blast), [Negative Blast](ref/kinetic/negative-blast)
 
 **Saving throw:** none
-
-**Source:** Elemental Master's Handbook/22
 
 Choose a manufactured weapon in your hand (not an unarmed strike or natural attack); if the weapon
 is a double weapon, you must choose one of its ends to receive this benefit. You imbue the chosen

@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demonic_momentum", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "27"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using Demonic Style, when you successfully bull rush an opponen
 +++
 
 ## Demonic Momentum (Combat)
-
-**Sources:** Planar Adventures pg 27
 
 You slam into foes with devastating force, leaving them vulnerable to your vicious strikes.\
 **Prerequisites:** [Demonic Style](ref/feat/demonic-style),

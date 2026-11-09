@@ -6,15 +6,24 @@ source_ids = ["ultimate-equipment", "pathfinder-campaign-setting", "adventurers-
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wooden_stake", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "17"
+[[sources]]
+publication = "pathfinder-campaign-setting"
+page = "209"
+[[sources]]
+publication = "adventurers-armory"
+page = "5"
+[[sources]]
+publication = "advanced-players-guide"
+page = "179"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "1 lb."
 +++
-
-**Sources:** Ultimate Equipment pg 17, Pathfinder Campaign Setting pg 209, Adventurer's Armory pg 5,
-Advanced Player's Guide pg 179
 
 This close combat weapon is just a sharpened piece of wood. [Iron spikes](ref/eq-misc/iron-spike)
 that are used as weapons deal damage as wooden stakes.

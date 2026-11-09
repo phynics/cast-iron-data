@@ -6,12 +6,16 @@ source_ids = ["core-rulebook", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weapon_descriptions", path = "json/rules_basics02.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "144"
+[[sources]]
+publication = "ultimate-combat"
+page = "137"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 144, Ultimate Combat pg 137
 
 **Cost:** This value is the weapon's cost in gold pieces (gp) or silver pieces (sp). The cost
 includes miscellaneous gear that goes with the weapon, such as a scabbard or quiver. This cost is

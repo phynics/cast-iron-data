@@ -6,6 +6,8 @@ source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/stunning-fist" },
 ]
+[[sources]]
+publication = "the-elephant-in-the-room-feat-taxes-in-pathfinder"
 
 [fields]
 kind = "feat"
@@ -15,7 +17,6 @@ benefit = "You must declare that you are using this feat before you make your at
 special = "A monk receives Stunning Fist as a bonus feat at 1st level, even if he does not meet the prerequisites. A monk may attempt a stunning attack a number of times per day equal to his monk level, plus one more time per day for every four levels he has in classes other than monk."
 +++
 
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 You know just where to strike to temporarily stun a foe.\
 **Prerequisites:** Dex 13, Wis 13, [Unarmed Combatant](ref/rule/unarmed-combatant), base attack
 bonus +8.\

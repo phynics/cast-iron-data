@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "leaping_evasion", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "9"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you succeed at a Reflex save against a spell or effect that affe
 +++
 
 ## Leaping Evasion (Combat)
-
-**Sources:** Melee Tactics Toolbox pg 9
 
 You jump out of the way of dangerous effects.\
 **Prerequisites:** [Lightning Reflexes](ref/feat/lightning-reflexes), [evasion](ref/ability/evasion)

@@ -6,16 +6,30 @@ source_ids = ["ultimate-equipment", "pathfinder-9-escape-from-old-korvosa", "pat
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "urumi", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "20"
+[[sources]]
+publication = "pathfinder-9-escape-from-old-korvosa"
+page = "83"
+[[sources]]
+publication = "pathfinder-campaign-setting"
+page = "209"
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "290"
+[[sources]]
+publication = "adventurers-armory"
+page = "33"
+[[sources]]
+publication = "ultimate-combat"
+page = "134"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "6 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 20, Pathfinder \#9: Escape from Old Korvosa pg 83, Pathfinder
-Campaign Setting pg 209, Inner Sea World Guide pg 290, Adventurer's Armory pg 33, Ultimate Combat pg
-134
 
 Commonly known as a whip sword, this deadly weapon is fashioned from one to four 5-foot-long,
 razor-sharp blades of flexible steel, almost like a metal

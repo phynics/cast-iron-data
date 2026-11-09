@@ -6,6 +6,9 @@ source_ids = ["inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "apostasy_wraith", path = "json/monsters02.json" },
 ]
+[[sources]]
+publication = "inner-sea-bestiary"
+page = "4"
 
 [fields]
 kind = "creature"
@@ -39,7 +42,6 @@ _A broken mask gives this smoky, ghostly figure a bitter, unwavering gaze._
 
 **Senses:** Darkvision 60 ft., Sense apostate
 
-**Sources:** Inner Sea Bestiary pg 4\
 **Subtype:** Incorporeal
 
 **Type:** undead

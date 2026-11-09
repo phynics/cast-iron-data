@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tumultuous_spell", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "33"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "You can enhance any spell that targets a single creature to become a 
 +++
 
 ## Tumultuous Spell (Metamagic)
-
-**Sources:** Planar Adventures pg 33
 
 You can pour the churning chaos of the Maelstrom into your magic, causing foes to scatter
 unpredictably, pushed apart in random directions as the unknowable whims of chaos itself, bringing

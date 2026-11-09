@@ -6,12 +6,13 @@ source_ids = ["core-rulebook", "aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "underwater_combat", path = "json/rules_gm08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "432"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 432
 
 Land-based creatures can have considerable difficulty when fighting in water. Water affects a
 creature's attack rolls, damage, and movement. In some cases a creature's opponents might get a

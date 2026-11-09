@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ranger" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "72"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Hunter's bond", "Evasion", "Camouflage", "Improved evasion", "maste
 alters = ["Spells"]
 +++
 
-**Sources:** Ultimate Wilderness pg 72\
 Emulating the blazing phoenix, flamewardens sweep through the world like a selective forest fire,
 burning away corruption, evil, and those who cling to decay.
 

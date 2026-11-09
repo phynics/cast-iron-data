@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grapplers_grease", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "204"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "5 gp"
 weight = "1/2 lb."
 +++
 
-**Sources:** Advanced Class Guide pg 204\
 **Price** 5 gp; **Weight** 1/2 lb.\
 **Category** Tools
 

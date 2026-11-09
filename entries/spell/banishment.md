@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "banishment", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "246"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Saving throw: Will negates
 Spell resistance: yes
 Targets: one or more extraplanar creatures, no two of which can be more than 30 ft. apart
 :::
-
-**Sources:** PRPG Core Rulebook pg 246
 
 A banishment spell is a more powerful version of the [dismissal](ref/spell/dismissal) spell. It
 enables you to force extraplanar creatures out of your home plane. As many as 2 Hit Dice of

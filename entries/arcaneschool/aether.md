@@ -6,13 +6,15 @@ source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aether", path = "json/class_ability_arcane_schools.json" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
+page = "20"
 
 [fields]
 kind = "class_option"
 group = "arcane-school"
 +++
 
-**Sources:** Elemental Master's Handbook pg 20\
 Aether is a strange and complex substance that occurs where the Elemental Planes touch the
 [Ethereal Plane](ref/rule/ethereal-plane). Wizards who study aether use it to manipulate objects on
 the Material Plane. The aether elemental school is an elemental arcane school a wizard can

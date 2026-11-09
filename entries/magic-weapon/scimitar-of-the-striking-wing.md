@@ -6,6 +6,9 @@ source_ids = ["pathfinder-82-secrets-of-the-sphinx"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scimitar_of_the_striking_wing", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "pathfinder-82-secrets-of-the-sphinx"
+page = "63"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Sources:** Pathfinder \#82: Secrets of the Sphinx pg 63\
 **Aura** moderate transmutation; **CL** 11th\
 **Slot** none; **Price** 27,000 gp; **Weight** 4 lbs.
 

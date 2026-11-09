@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/create-pit" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "188"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Subschool: Creation
 :::
 
 ### Walk the Plank
-
-**Sources:** Villain Codex pg 188
 
 This spell functions as per [create pit](ref/spell/create-pit), except as noted here. All but the
 top 10 feet of the hole is filled with saltwater, reducing the fall damage for anyone falling into

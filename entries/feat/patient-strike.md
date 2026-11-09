@@ -6,6 +6,9 @@ source_ids = ["pathfinder-society-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "patient_strike", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "pathfinder-society-primer"
+page = "8"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ normal = "Readying an attack is a standard action and doesn't grant a bonus on y
 +++
 
 ## Patient Strike (Combat)
-
-**Sources:** Pathfinder Society Primer pg 8
 
 Your training under the [Master of Swords](ref/rule/aff-scholars) has taught you that a well-timed
 strike is worth waiting for and that patience will serve you well in the long run.\

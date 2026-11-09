@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/enlarge-person", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "93"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 93
 
 You can increase the target's size by up to two size categories, to a maximum of Huge. If the target
 grows two sizes, its weight increases by a factor of 25, it gains a +4 size bonus to Strength, and

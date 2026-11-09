@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "broom_of_animated_attack", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "344"
+[[sources]]
+publication = "core-rulebook"
+page = "540"
 
 [fields]
 kind = "item"
@@ -15,8 +21,6 @@ slot = "none"
 aura = "moderate transmutation"
 caster_level = "10th"
 +++
-
-**Sources:** Ultimate Equipment pg 344, PRPG Core Rulebook pg 540
 
 **Aura** moderate transmutation; **CL** 10th\
 **Slot** none; **Weight** 3 lbs.

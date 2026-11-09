@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/medium" },
 ]
+[[sources]]
+publication = "haunted-heroes-handbook"
+page = "21"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Spirit bonus", "spirit surge", "Taboo", "Connection channel"]
 alters = ["Spellcasting", "Spirit"]
 +++
 
-**Sources:** Haunted Heroes Handbook pg 21\
 [Rivethun](ref/rule/aff-animists) spirit channelers are mediums who practice the ancient dwarven
 philosophy of the rivethun, which teaches that power lies in the connection between physical bodies
 and immaterial souls. Most rivethun spirit channelers are dwarven adherents of this ancient

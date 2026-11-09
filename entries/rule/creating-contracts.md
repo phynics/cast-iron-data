@@ -6,12 +6,13 @@ source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "creating_contracts", path = "json/rules_rulesets01.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "203"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Book of the Damned pg 203
 
 Once terms have been agreed to, a devil has to create the infernal contract. Contract devils have
 the easiest time of this, making use of their infernal contract ability to instantly generate such a

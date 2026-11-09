@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "relationship_levels", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "176"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 176
 
 Your **Relationship Level** with an NPC is based on your **Relationship Score,** which can increase
 in play (see Growing Relationships). You gain new benefits when an NPC's relationship with you

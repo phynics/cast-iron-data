@@ -6,6 +6,9 @@ source_ids = ["pathfinder-society-field-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stalwart_resolve", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "pathfinder-society-field-guide"
+page = "58"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Target: creature touched
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Pathfinder Society Field Guide pg 58
 
 Stalwart resolve was originally created to temporarily aid those suffering from certain afflictions.
 The recipient of stalwart resolve ignores the effects of ability damage and penalties to a single

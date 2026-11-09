@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_voice_of_the_wind", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "66"
 
 [fields]
 kind = "class_option"
@@ -23,8 +26,6 @@ group = "kineticist-wild-talent"
 **Burn:** 0
 
 **Prerequisite:** [voice of the wind](ref/kinetic/voice-of-the-wind)
-
-**Source:** Ultimate Intrigue/66
 
 Your _voice of the wind_ ability gains both power and finesse. You can use _voice of the wind_ to
 create unusual sounds, as [ghost sound](ref/spell/ghost-sound), to throw your voice, as

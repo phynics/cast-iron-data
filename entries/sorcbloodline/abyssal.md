@@ -6,13 +6,15 @@ source_ids = ["core-rulebook", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "abyssal", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "72"
 
 [fields]
 kind = "class_option"
 group = "sorcerer-bloodline"
 +++
 
-**Sources:** PRPG Core Rulebook pg 72\
 Generations ago, a [demon](ref/family/demon) spread its filth into your heritage. While it does not
 manifest in all of your kin, for you it is particularly strong. You might sometimes have urges to
 chaos or evil, but your destiny (and alignment) is up to you.

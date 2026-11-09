@@ -6,6 +6,9 @@ source_ids = ["pathfinder-69-maiden-mother-crone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boots_of_the_winter_jarl", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "pathfinder-69-maiden-mother-crone"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Sources:** Pathfinder \#69: Maiden, Mother, Crone pg 60\
 **Aura** moderate transmutation; **CL** 10th\
 **Slot** feet; **Price** 20,000 gp; **Weight** -
 

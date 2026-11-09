@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ki_intensifying", path = "json/magic_enhancements2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "144"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation"
 caster_level = "12th"
 +++
 
-**Sources:** Ultimate Equipment pg 144\
 **Aura** strong transmutation; **CL** 12th\
 **Slot** weapon quality; **Price** +2 bonus; **Weight** -
 

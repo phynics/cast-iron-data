@@ -6,6 +6,9 @@ source_ids = ["pathfinder-74-sword-of-valor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unleash_pandemonium", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "pathfinder-74-sword-of-valor"
+page = "75"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 Area: 30-foot-radius spread
 Descriptors: chaotic
 :::
-
-**Sources:** Pathfinder \#74: Sword of Valor pg 75
 
 You call upon the wild winds of the Abyssal atmosphere, howling with the screams of damned and
 demented souls in torment. The area is filled with winds of windstorm strength, blowing in a random

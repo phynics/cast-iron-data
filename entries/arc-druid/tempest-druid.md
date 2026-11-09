@@ -9,6 +9,12 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "183"
+[[sources]]
+publication = "inner-sea-magic"
+page = "41"
 
 [fields]
 kind = "archetype"
@@ -16,7 +22,6 @@ replaces = ["Spontaneous casting", "Nature sense", "Trackless step", "Resist nat
 alters = ["Armor and weapon proficiencies", "Nature bond"]
 +++
 
-**Sources:** Adventurer's Guide pg 183, Inner Sea Magic pg 41\
 Many of the druids who train under the aegis of the [Storm Kindlers](ref/rule/aff-storms) focus on
 different areas of nature than those classically paid homage to by their kind. These so-called
 tempest druids see the personification of nature in the fury of the storm alone and to some extent

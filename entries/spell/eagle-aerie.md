@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eagle_aerie", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "217"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Effect: summoned eagles
 Subschool: Summoning
 Descriptors: good
 :::
-
-**Sources:** Ultimate Magic pg 217
 
 You summon a flight of [giant eagles](ref/monster/eagle-giant-eagle) (one per three caster levels,
 maximum of six) to ferry you and your allies across the skies. The eagles avoid combat if possible

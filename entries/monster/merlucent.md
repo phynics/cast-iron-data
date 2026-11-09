@@ -6,6 +6,9 @@ source_ids = ["pathfinder-104-wrath-of-thrune"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "merlucent", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "pathfinder-104-wrath-of-thrune"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ supports its faintly glowing flesh._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#104: Wrath of Thrune pg 90\
 **Subtype:** Aquatic
 
 **Experience points:** 800

@@ -6,6 +6,9 @@ source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "surefoot_boots", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "21"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Adventurer's Armory 2 pg 21
 
 You touch your boots, shoes, or other footwear and imbue them with the ability to find purchase on
 even the most treacherous ground. While the spell is in effect, the footwear's wearer treats any

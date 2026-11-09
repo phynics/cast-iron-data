@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/summoner" },
 ]
+[[sources]]
+publication = "the-harrow-handbook"
+page = "25"
 
 [fields]
 kind = "archetype"
 replaces = ["Bond senses", "Transposition"]
 +++
 
-**Sources:** The Harrow Handbook pg 25\
 Story summoners rely on the harrow to weave the paths they walk, turning their tales into reality.
 They channel magic through their harrow decks to influence the strange extraplanar beings they
 summon, bringing familiar and fateful characters to life. Some focus on the more whimsical figures

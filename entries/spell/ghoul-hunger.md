@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghoul_hunger", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "234"
+[[sources]]
+publication = "gods-and-magic"
+page = "41"
 
 [fields]
 kind = "spell"
@@ -45,8 +51,6 @@ Spell resistance: yes
 Target: one humanoid creature
 Descriptors: evil, mind-affecting
 :::
-
-**Sources:** Inner Sea Gods pg 234, Gods and Magic pg 41
 
 You awaken an unnatural hunger in the target, compelling it to fall upon a nearby helpless or dead
 humanoid creature and begin eating its flesh. The target defends itself normally but takes no other

@@ -6,12 +6,13 @@ source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "black_market_perceptions", path = "json/rules_rulesets01.json" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "5"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Black Markets pg 5
 
 Black markets provoke emotions of every sort. Despite trends in a nation as a whole, the opinions of
 individual cities and individual citizens naturally run the gamut.

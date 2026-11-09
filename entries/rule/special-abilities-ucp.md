@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "special_abilities_ucp", path = "json/rules_campaign_types05.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "242"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 242
 
 Part of the fun of playing out a war in a fantasy game is the fact that you aren't limited to
 real-world troops. Though most recruited units are warriors or fighters, you may be able to recruit

@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "losing_commanders", path = "json/rules_campaign_types05.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "241"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 241
 
 If an army is destroyed and the commander is an NPC, the commander is killed (01-20), captured
 (21-70), or escapes (71-00). An army of mindless creatures kills all captured NPC commanders. You

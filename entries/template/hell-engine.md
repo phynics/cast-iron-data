@@ -6,6 +6,9 @@ source_ids = ["construct-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hell_engine", path = "json/monster_template2.json" },
 ]
+[[sources]]
+publication = "construct-handbook"
+page = "51"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +1
-
-**Source:** Construct Handbook/51
 
 A hell engine is a construct fueled by an infernal contract, bypassing the complex magic and
 craftsmanship needed to animate a golem or similar engine of destruction. Artificers who lack the

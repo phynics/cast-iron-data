@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tripping_strike", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "173"
 
 [fields]
 kind = "feat"
@@ -18,8 +21,6 @@ special = "You can only apply the effects of one of the following feats to a giv
 +++
 
 ## Tripping Strike (Combat)
-
-**Sources:** Advanced Player's Guide pg 173
 
 The force intrinsic to your critical hits can knock your foes down.\
 **Prerequisites:** Int 13, [Combat Expertise](ref/feat/combat-expertise),

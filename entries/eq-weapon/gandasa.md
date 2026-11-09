@@ -6,14 +6,15 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gandasa", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "19"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "4 lbs."
 +++
-
-**Sources:** Melee Tactics Toolbox pg 19
 
 A gandasa is a wide, single-edged dagger on a 2-foot handle and is wielded in combat like an axe.
 This weapon is also known as an elephant knife because the connection between the blade and the

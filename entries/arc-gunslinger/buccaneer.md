@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/gunslinger" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "73"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Quick clear deed", "Pistol whip deed", "Dead shot deed", "Lightning
 alters = ["Grit"]
 +++
 
-**Sources:** Advanced Race Guide pg 73\
 Freebooters who cling to the convoluted codes that rule independent ships, the buccaneer is a
 gunslinger of the high seas. Their exploits are fueled by the thrill of danger and often by the
 temporary courage provided by grog. A buccaneer has the following class features.

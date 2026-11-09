@@ -6,13 +6,15 @@ source_ids = ["core-rulebook", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcane", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "73"
 
 [fields]
 kind = "class_option"
 group = "sorcerer-bloodline"
 +++
 
-**Sources:** PRPG Core Rulebook pg 73\
 Your family has always been skilled in the eldritch art of magic. While many of your relatives were
 accomplished wizards, your powers developed without the need for study and practice.
 

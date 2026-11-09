@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "antipathy", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "243"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Target: one location (up to a 10-ft. cube/level) or one object
 Subschool: Compulsion
 Descriptors: emotion, mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 243
 
 You cause an object or location to emanate magical vibrations that repel either a specific kind of
 intelligent creature or creatures of a particular alignment, as defined by you. The kind of creature

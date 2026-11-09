@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dancing_lights", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "263"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Spell resistance: no
 Effect: up to four lights, all within a 10-ft.-radius area
 Descriptors: light
 :::
-
-**Sources:** PRPG Core Rulebook pg 263
 
 Depending on the version selected, you create up to four lights that resemble lanterns or torches
 (and cast that amount of light), or up to four glowing spheres of light (which look like

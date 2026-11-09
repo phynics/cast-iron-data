@@ -6,6 +6,9 @@ source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hold_the_blade", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "dragon-empires-primer"
+page = "25"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever an enemy deals damage to you with a melee weapon as part of 
 +++
 
 ## Hold the Blade (Combat)
-
-**Sources:** Dragon Empires Primer pg 25
 
 You can take your opponent's weapon after being stabbed in the back.\
 **Prerequisites:** [Improved Disarm](ref/feat/improved-disarm), base attack bonus +10.\

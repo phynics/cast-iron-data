@@ -6,12 +6,14 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "technological_equipment", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "19"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Technology Guide pg 19\
 To set a technological campaign apart from a standard fantasy adventure, you need a variety of
 unusual futuristic items. But be it a laser gun in the hands of a terrible enemy or a set of strange
 gravity armor found in the treasure trove of an oddly uniform metal dungeon, technology from the

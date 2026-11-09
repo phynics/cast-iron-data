@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "landing_roll", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "107"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "If you are tripped, you can spend an immediate action to move 5 feet 
 +++
 
 ## Landing Roll (Combat)
-
-**Sources:** Ultimate Combat pg 107
 
 You have learned the technique of rolling safely away when an enemy trips you.\
 **Prerequisites:** Dex 13, [Dodge](ref/feat/dodge), [Mobility](ref/feat/mobility).\

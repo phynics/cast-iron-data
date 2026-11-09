@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/spiritualist" },
 ]
+[[sources]]
+publication = "occult-origins"
+page = "18"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Phantom's antagonistic ability", "See invisibility", "Call spirit"]
 alters = ["Bonded manifestation"]
 +++
 
-**Sources:** Occult Origins pg 18\
 Not all phantoms are restless dead escaping the afterlife. On rare occasions,
 [Pharasma](ref/faith/pharasma) returns a judged soul to the Material Plane - linking the spirit to a
 devout believer - to complete some final task, make amends for a crime, or grant a sharply divided

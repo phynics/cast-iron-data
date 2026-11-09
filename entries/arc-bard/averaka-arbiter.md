@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "bastards-of-golarion"
+page = "15"
 
 [fields]
 kind = "archetype"
 replaces = ["Inspire competence", "Dirge of doom", "Versatile performance", "well-versed"]
 +++
 
-**Sources:** Bastards of Golarion pg 15\
 Some Averakan bards make it their mission to unify their fellow half-orcs, and are equally skilled
 at helping allies defeat common enemies and at building a new civilization that reflects their
 unique identity.

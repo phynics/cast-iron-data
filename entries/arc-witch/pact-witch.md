@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/witch" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "16"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Patron", "6th-level hex"]
 alters = ["Familiar"]
 +++
 
-**Sources:** Planar Adventures pg 16\
 Though all witches forge bonds with mysterious powers known as patrons, a pact witch takes this bond
 to an extreme by forging an inexorable pact with the Outer Planes.
 

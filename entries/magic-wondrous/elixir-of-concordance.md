@@ -6,6 +6,9 @@ source_ids = ["pathfinder-125-tower-of-the-drowned-dead"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elixir_of_concordance", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "pathfinder-125-tower-of-the-drowned-dead"
+page = "21"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Sources:** Pathfinder \#125: Tower of the Drowned Dead pg 21\
 **Aura** moderate evocation; **CL** 7th\
 **Slot** none; **Price** 1,100 gp; **Weight** -
 

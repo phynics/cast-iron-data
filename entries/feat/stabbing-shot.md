@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stabbing_shot", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "170"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When adjacent to an opponent and making a full-attack action with a l
 +++
 
 ## Stabbing Shot (Combat)
-
-**Sources:** Advanced Player's Guide pg 170
 
 You can clear the way to continue using your bow.\
 **Prerequisites:** [Rapid Shot](ref/feat/rapid-shot), [elf](ref/race/elf).\

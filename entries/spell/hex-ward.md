@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hex_ward", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "223"
 
 [fields]
 kind = "spell"
@@ -39,7 +42,5 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
 :::
-
-**Sources:** Ultimate Magic pg 223
 
 You give the target a +4 resistance bonus on saving throws against witch hexes.

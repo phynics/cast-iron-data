@@ -6,6 +6,9 @@ source_ids = ["technology-guide", "pathfinder-86-lords-of-rust"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grenade", path = "json/equipment_tech_weapons.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "46"
 
 [fields]
 kind = "item"
@@ -15,7 +18,6 @@ weight = "1 lb. (all)"
 slot = "none"
 +++
 
-**Sources:** Technology Guide pg 46\
 **Price** 750 gp (arc grenade), 6,000 gp (atom grenade), 250 gp (bang grenade), 3,300 gp (bio
 grenade), 750 gp (concussion grenade), 750 gp (EMP grenade), 750 gp (flash grenade), 750 gp
 (flechette grenade), 750 gp (fragmentation grenade), 70 gp (gas grenade), 2,250 gp (gravity

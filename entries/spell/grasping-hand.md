@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/interposing-hand" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "291"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes
 Effect: 10-ft. hand
 Descriptors: force
 :::
-
-**Sources:** PRPG Core Rulebook pg 291
 
 This spell functions as [interposing hand](ref/spell/interposing-hand), except that it can also
 grapple one opponent you select. The grasping hand gets one grapple attack per round. This attack

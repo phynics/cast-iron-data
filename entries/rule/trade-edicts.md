@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trade_edicts", path = "json/rules_campaign_types05.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "232"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 232
 
 Trade edicts are special edicts that allow you to create a trade route with another kingdom,
 increasing the BP you gain every month, as well as possibly increasing your Fame and other kingdom

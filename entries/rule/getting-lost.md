@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "getting_lost", path = "json/rules_gm08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "424"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 424
 
 There are many ways to get lost in the wilderness. Following an obvious road, trail, or feature such
 as a stream or shoreline prevents most from becoming lost, but travelers striking off cross-country

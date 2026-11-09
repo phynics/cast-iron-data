@@ -6,6 +6,9 @@ source_ids = ["undead-slayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "empower_holy_water", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "undead-slayers-handbook"
+page = "26"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 Target: one or more vials of holy water
 Descriptors: good
 :::
-
-**Sources:** Undead Slayer's Handbook pg 26
 
 You empower a vial of holy water to deal additional damage to undead creatures. You can empower one
 vial of holy water at 4th level, two at 8th level, and three at 12th level. When thrown at an undead

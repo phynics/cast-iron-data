@@ -6,13 +6,14 @@ source_ids = ["knights-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "order_of_the_land", path = "json/class_ability_orders.json" },
 ]
+[[sources]]
+publication = "knights-of-the-inner-sea"
+page = "24"
 
 [fields]
 kind = "class_option"
 group = "order"
 +++
-
-**Sources:** Knights of the Inner Sea pg 24
 
 There are some cavaliers who dedicate themselves to the land and the people who inhabit the rural
 areas between urban centers. These cavaliers often lead untrained militias of revolutionaries in

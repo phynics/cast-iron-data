@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "goggles_of_minute_seeing", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "226"
+[[sources]]
+publication = "core-rulebook"
+page = "515"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Sources:** Ultimate Equipment pg 226, PRPG Core Rulebook pg 515\
 **Aura** faint divination; **CL** 3rd\
 **Slot** eyes; **Price** 2,500 gp; **Weight** -
 

@@ -6,6 +6,9 @@ source_ids = ["mythic-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bracers_of_the_immortal_hunt", path = "json/magic_artifact3.json" },
 ]
+[[sources]]
+publication = "mythic-origins"
+page = "19"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "overwhelming (all schools)"
 caster_level = "30th"
 +++
 
-**Sources:** Mythic Origins pg 19\
 **Aura** overwhelming (all schools); **CL** 30th\
 **Slot** wrists; **Price** -; **Weight** 1 lb.
 

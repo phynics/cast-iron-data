@@ -6,6 +6,9 @@ source_ids = ["goblins-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devastating_dog_whistle", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "goblins-of-golarion"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Sources:** Goblins of Golarion pg 29\
 **Aura** faint necromancy; **CL** 3rd\
 **Slot** none; **Price** 1,500 gp; **Weight** 1 lb.
 

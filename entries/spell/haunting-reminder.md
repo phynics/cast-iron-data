@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "haunting_reminder", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "37"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: fear, mind-affecting
 :::
-
-**Sources:** Adventurer's Guide pg 37
 
 As part of casting this spell, you can attempt a single Intimidate check to make the target act
 friendly to you. If you succeed, the target assists you normally, but it remains fearful of your

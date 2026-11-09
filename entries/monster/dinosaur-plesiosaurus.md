@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dinosaur_plesiosaurus", path = "json/monsters08.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "83"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ head._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Bestiary 5 pg 83\
 **Experience points:** 600
 
 **Armor class:** 14/13/10

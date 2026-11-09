@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mythic_monsters", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "174"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 174
 
 Just as mythic heroes can call upon power beyond reckoning, mythic monsters are greater than others
 of their kind. Some are empowered by deities or great magic and sent into the world to sow ruin and

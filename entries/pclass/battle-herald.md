@@ -6,14 +6,15 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "battle_herald", path = "json/prestige_classes.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "260"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d10."
 +++
-
-**Sources:** Advanced Player's Guide pg 260
 
 In every army there are leaders who surpass the average cold-hearted mercenary, battle-scarred
 veteran, or wizened drill instructor, not so much in their skill at arms but in their ability to

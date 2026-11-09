@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skilled_sniper", path = "json/npcs.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "145"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "2"
 
 **Challenge rating:** 2
 
-**Sources:** NPC Codex pg 145\
 **XP** 600\
 Half-elf [rogue](ref/class/rogue) 3\
 CN Medium humanoid (elf, human)\

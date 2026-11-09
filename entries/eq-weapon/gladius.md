@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gladius", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "18"
+[[sources]]
+publication = "ultimate-combat"
+page = "144"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "3 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 18, Ultimate Combat pg 144
 
 The gladius is the favorite sword of gladiators, with a heavier blade than the standard shortsword.
 Feats and abilities that affect [shortswords](ref/eq-weapon/short-sword) apply to the gladius.

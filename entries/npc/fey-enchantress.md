@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fey_enchantress", path = "json/npcs3.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "169"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "11"
 
 **Challenge rating:** 11
 
-**Sources:** NPC Codex pg 169\
 **XP** 12,800\
 Elf [sorcerer](ref/class/sorcerer) 12\
 CN Medium humanoid (elf)\

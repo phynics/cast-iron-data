@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_beak", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "165"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "The bleed effect from this feat stacks with that of the Bleeding Crit
 +++
 
 ## Blood Beak (Combat)
-
-**Sources:** Advanced Race Guide pg 165
 
 Your bleed attack is bloody and dangerous.\
 **Prerequisites:** Base attack bonus +5, natural weapon racial trait, [tengu](ref/race/tengu).\

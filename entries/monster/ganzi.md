@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ganzi", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "234"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ unpredictable wildness._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Planar Adventures pg 234\
 **Subtype:** Native
 
 **Experience points:** 200

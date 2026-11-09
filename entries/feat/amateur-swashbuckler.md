@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "amateur_swashbuckler", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "141"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "If you gain levels in a class that has the panache class feature, you
 +++
 
 ## Amateur Swashbuckler (Combat)
-
-**Sources:** Advanced Class Guide pg 141
 
 Though not a swashbuckler, you have and can use panache.\
 **Prerequisites:** No levels in a class that has the panache class feature.\

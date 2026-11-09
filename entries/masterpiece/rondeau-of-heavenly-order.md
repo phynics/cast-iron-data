@@ -6,6 +6,8 @@ source_ids = ["blood-of-angels"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rondeau_of_heavenly_order", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "blood-of-angels"
 
 [fields]
 kind = "class_option"
@@ -13,8 +15,6 @@ group = "bardic-masterpiece"
 +++
 
 ## Rondeau of Heavenly Order (Sing)
-
-**Sources:** Blood of Angels
 
 Your carefully structured song imposes rigid order on your listeners.
 

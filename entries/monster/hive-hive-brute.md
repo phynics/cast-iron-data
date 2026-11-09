@@ -6,6 +6,9 @@ source_ids = ["nidal-land-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hive_hive_brute", path = "json/monsters13.json" },
 ]
+[[sources]]
+publication = "nidal-land-of-shadows"
+page = "56"
 
 [fields]
 kind = "creature"
@@ -48,7 +51,6 @@ from its snapping maw._
 
 **Senses:** Hive mind
 
-**Sources:** Nidal, Land of Shadows pg 56\
 **Subtype:** Hive
 
 **Experience points:** 4,800

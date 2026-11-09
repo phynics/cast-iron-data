@@ -6,6 +6,9 @@ source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "baleful_shadow_transmutation", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "blood-of-shadows"
+page = "30"
 
 [fields]
 kind = "spell"
@@ -53,8 +56,6 @@ Target: one creature
 Subschool: Shadow
 Descriptors: shadow
 :::
-
-**Sources:** Blood of Shadows pg 30
 
 You infuse a target's shadow with energies from the Shadow Plane, shaping the shadow into one that
 appears to belong to a different creature, and tricking the target into believing it actually is

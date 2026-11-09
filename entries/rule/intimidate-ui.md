@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "intimidate_ui", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "186"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 186
 
 The Intimidate skill allows characters to use fear to gain an advantage over others.
 

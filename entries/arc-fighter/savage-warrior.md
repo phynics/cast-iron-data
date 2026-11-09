@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/fighter" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "107"
 
 [fields]
 kind = "archetype"
 replaces = ["Bravery", "Weapon training 1", "Weapon training 2", "Weapon training 3", "Weapon training 4", "Weapon mastery"]
 +++
 
-**Sources:** Advanced Player's Guide pg 107\
 Warriors' might is not measured only by their skill with steel, but also by their ability to inflict
 death with fang and claw, horn and hoof, and every exotic appendage the natural and unnatural world
 has to offer.

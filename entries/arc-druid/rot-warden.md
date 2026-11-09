@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "49"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Wild empathy", "Trackless step", "venom immunity", "Resist nature's
 alters = ["Spontaneous casting", "Nature bond"]
 +++
 
-**Sources:** Ultimate Wilderness pg 49\
 Harbingers of decay, rot wardens live in damp lands where insects and rot break down the dead to
 feed the living. They see in the process of rot the beauty of nature's capacity to recycle and
 repurpose material into something wondrous and new.

@@ -6,13 +6,23 @@ source_ids = ["inner-sea-races", "bestiary-4", "pathfinder-43-haunting-of-harrow
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "changeling", path = "json/races.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "240"
+[[sources]]
+publication = "bestiary-4"
+page = "29"
+[[sources]]
+publication = "pathfinder-43-haunting-of-harrowstone"
+page = "84"
+[[sources]]
+publication = "advanced-race-guide"
+page = "184"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Inner Sea Races pg 240, Bestiary 4 pg 29, Pathfinder \#43: Haunting of Harrowstone pg
-84, Advanced Race Guide pg 184\
 Born of mysterious origins and raised by unknowing foster parents, changelings are the children of
 hags and their tricked lovers. Most do not know of their monstrous origins, but there comes a time
 in every changeling's life when these roots begin to call out to their host, urging the confused

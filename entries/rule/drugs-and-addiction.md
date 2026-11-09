@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drugs_and_addiction", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "236"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 236
 
 Hard-drinking heroes, deities of wine and celebration, and the hazy halls of oracles and wise men
 stand alongside the most memorable tropes of myth and classic fantasy literature. Thus it's no

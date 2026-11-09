@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tiny_hut", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "360"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 Effect: 20-ft.-radius sphere centered on your location
 Descriptors: force
 :::
-
-**Sources:** PRPG Core Rulebook pg 360
 
 You create an unmoving, opaque sphere of force of any color you desire around yourself. Half the
 sphere projects above the ground, and the lower hemisphere passes through the ground. As many as

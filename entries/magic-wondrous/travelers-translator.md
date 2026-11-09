@@ -6,6 +6,9 @@ source_ids = ["people-of-the-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "travelers_translator", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "people-of-the-stars"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Sources:** People of the Stars pg 31\
 **Aura** faint divination; **CL** 3rd\
 **Slot** none; **Price** 1,550 gp; **Weight** -
 

@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pummeling_bully", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "153"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you use Pummeling Style to make an entire full attack or flurry 
 +++
 
 ## Pummeling Bully (Combat)
-
-**Sources:** Advanced Class Guide pg 153
 
 Your punch has the chance to trip or move your target.\
 **Prerequisites:** [Improved Reposition](ref/feat/improved-reposition),

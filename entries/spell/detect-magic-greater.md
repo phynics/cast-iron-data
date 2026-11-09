@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/detect-magic" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "212"
 
 [fields]
 kind = "spell"
@@ -61,8 +64,6 @@ Spell resistance: no
 :::
 
 ### Greater Detect Magic
-
-**Sources:** Ultimate Intrigue pg 212
 
 This spell functions as _[detect magic](ref/spell/detect-magic),_ except that you can glean much
 more information from the magical auras that you find, and those auras can be found after a much

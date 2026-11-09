@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "furyborn", path = "json/magic_enhancements2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "142"
+[[sources]]
+publication = "advanced-race-guide"
+page = "142"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Sources:** Ultimate Equipment pg 142, Advanced Race Guide pg 142\
 **Aura** moderate enchantment; **CL** 7th\
 **Slot** weapon quality; **Price** +2 bonus; **Weight** -
 

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/shaman" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "145"
 
 [fields]
 kind = "archetype"
 replaces = ["Spirit animal", "Spirit magic spells gained from the shaman's spirit", "Wandering spirit", "Wandering hex"]
 +++
 
-**Sources:** Adventurer's Guide pg 145\
 Pathfinders who perish in the pursuit of greater knowledge are commemorated on the Wall of Names, a
 curving monument of black glass at the Grand Lodge. Originally started as a humble memorial, the
 Wall of Names is now a moving testament to all those who have given their lives to further the cause

@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/magic-weapon-greater", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "100"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 100
 
 You can add one of the following weapon special abilities to the weapon: flaming, frost, keen,
 merciful, shock, or thundering.

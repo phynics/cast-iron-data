@@ -6,13 +6,15 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ambusher", path = "json/archetypes_COMPANION.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "186"
 
 [fields]
 kind = "archetype"
 replaces = ["Share Spells", "Improved Evasion", "Evasion", "Devotion", "Multiattack"]
 +++
 
-**Sources:** Ultimate Wilderness pg 186\
 Ambushers sneak up on unsuspecting prey, pouncing on targets when they least expect it.
 
 **Camouflage (Ex)**

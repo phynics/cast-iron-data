@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "warding_weapon", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "248"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Ultimate Combat pg 248
 
 The focus of this spell flies upward above your head and takes a defensive position within your
 space. It lunges at opponents, as if guided by a martially trained hand, parrying and turning back

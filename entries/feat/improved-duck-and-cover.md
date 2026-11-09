@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_duck_and_cover", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "150"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever you use Duck and Cover, your ally has evasion or improved ev
 +++
 
 ## Improved Duck and Cover (Teamwork)
-
-**Sources:** Advanced Class Guide pg 150
 
 Your allies' ability to protect you from damage extends to area attacks.\
 **Prerequisites:** [Duck and Cover](ref/feat/duck-and-cover).\

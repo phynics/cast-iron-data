@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "distant-worlds"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragonkin", path = "json/monsters31.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "98"
+[[sources]]
+publication = "distant-worlds"
+page = "61"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ a saddle between its wings._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Bestiary 5 pg 98, Distant Worlds pg 61\
 **Experience points:** 6,400
 
 **Armor class:** 23/11/21

@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "smug_narcissism", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "238"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: emotion, mind-affecting
 :::
-
-**Sources:** Ultimate Magic pg 238
 
 You cause your target to become overwhelmed by its own importance, talents, and attractiveness. The
 target cannot help but look at itself in every reflective surface at every possible opportunity. In

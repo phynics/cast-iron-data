@@ -6,12 +6,14 @@ source_ids = ["horror-adventures", "game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phobia", path = "json/madness.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "185"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Adventures pg 185\
 **Type** lesser madness (fear); **Save DC** 14\
 **Onset** 1 day\
 **Effect** Each round an afflicted character is within 30 feet and can see the object of her phobia,

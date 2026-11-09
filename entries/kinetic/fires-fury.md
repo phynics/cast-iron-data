@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fires_fury", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "24"
 
 [fields]
 kind = "class_option"
@@ -21,8 +24,6 @@ group = "kineticist-wild-talent"
 **Level:** 1
 
 **Burn:** 0
-
-**Source:** Occult Adventures/24
 
 When using fire blasts or composite blasts that include fire, add your elemental overflow bonus to
 the damage dealt. If the kinetic blast normally adds double your elemental overflow bonus to damage,

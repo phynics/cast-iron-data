@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dramatic_slam", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "22"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While you are using Savage Slam, if you succeed at your grapple comba
 +++
 
 ## Dramatic Slam (Combat)
-
-**Sources:** Martial Arts Handbook pg 22
 
 Your brutal maneuvers shock any who would dare to stand against you.\
 **Prerequisites:** [Dazzling Display](ref/feat/dazzling-display),

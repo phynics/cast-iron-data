@@ -6,12 +6,14 @@ source_ids = ["blood-of-the-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hunger_rules", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "blood-of-the-night"
+page = "22"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Blood of the Night pg 22\
 Where the living suffer physically from starvation, undead suffer mentally. After long enough
 without a "meal," even the most arrogant vampire becomes a bestial creature of instinct. Withdrawal
 weakens the monster, and as its natural defenses fail, its behavior becomes irrational, particularly

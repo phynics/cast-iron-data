@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_clues", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "249"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 249
 
 There's a significant distinction between clues and hints. A clue is something that's necessary to
 solve the puzzle. A hint, on the other hand, is something that helps open up an entirely solvable

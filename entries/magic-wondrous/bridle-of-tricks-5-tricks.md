@@ -6,6 +6,9 @@ source_ids = ["knights-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bridle_of_tricks_5_tricks", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "knights-of-the-inner-sea"
+page = "30"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "5th"
 
 ## Bridle of Tricks
 
-**Sources:** Knights of the Inner Sea pg 30\
 **Aura** faint divination; **CL** 5th\
 **Slot** head; **Price** 900 gp (3 tricks), 1,600 gp (4 tricks), 2,500 gp (5 tricks); **Weight** 2
 lbs.

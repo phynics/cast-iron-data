@@ -6,12 +6,14 @@ source_ids = ["skull-and-shackles-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "damaging_a_ship", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "skull-and-shackles-players-guide"
+page = "16"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Skull and Shackles Player's Guide pg 16\
 Ships have hit points and [hardness](ref/umr/hardness) based on their primary components. Most ships
 are made of wood (15 hit points per 5-foot-square, hardness 5). When a ship is reduced to below half
 its hit points, it gains the broken condition. When it reaches 0 hit points, it gains the sinking

@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "changing_alignment_ucp", path = "json/rules_opt_alignment01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "136"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 136
 
 Over time, a character might become disillusioned and drift toward a different alignment. This
 section describes an optional system for tracking incremental changes to a character's alignment.

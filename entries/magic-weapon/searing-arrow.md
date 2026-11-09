@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "searing_arrow", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "159"
+[[sources]]
+publication = "advanced-players-guide"
+page = "291"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate evocation"
 caster_level = "9th"
 +++
 
-**Sources:** Ultimate Equipment pg 159, Advanced Player's Guide pg 291\
 **Aura** moderate evocation; **CL** 9th\
 **Slot** none; **Price** 1,516 gp; **Weight** -
 

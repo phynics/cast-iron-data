@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "bonus-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ant_lion_giant_adult_ant_lion", path = "json/monsters02.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "17"
+[[sources]]
+publication = "bonus-bestiary"
+page = "5"
 
 [fields]
 kind = "creature"
@@ -38,7 +44,6 @@ _This spindly insect, borne aloft on four delicate wings, snaps its mandibles in
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 3 pg 17, Bonus Bestiary pg 5\
 **Type:** vermin
 
 **Experience points:** 2,400

@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "apocalypse_horse", path = "json/monsters02.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "12"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ _Little more than a walking corpse, this frightful horse's hide stretches tight 
 
 **Senses:** Darkvision 60 ft., Scent, True seeing
 
-**Sources:** Bestiary 6 pg 12\
 **Subtype:** Evil, Extraplanar
 
 **Experience points:** 1,638,400

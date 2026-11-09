@@ -6,13 +6,14 @@ source_ids = ["the-harrow-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "order_of_the_hammer", path = "json/class_ability_orders.json" },
 ]
+[[sources]]
+publication = "the-harrow-handbook"
+page = "18"
 
 [fields]
 kind = "class_option"
 group = "order"
 +++
-
-**Sources:** The Harrow Handbook pg 18
 
 Cavaliers of the order of the hammer respect might over all, and believe that those who prove their
 strength have earned the right to make decisions for the weak. When the cavalier's own goals

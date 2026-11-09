@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/goodberry", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "96"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 96\
 Each berry provides a full day's nourishment and counts as 1 hour of complete rest for the purpose
 of removing exhaustion, fatigue, or nonlethal damage.
 

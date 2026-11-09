@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chime_of_disillusionment", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "149"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment"
 caster_level = "9th"
 +++
 
-**Sources:** Mythic Adventures pg 149\
 **Aura** moderate enchantment; **CL** 9th\
 **Slot** none; **Price** 35,000 gp; **Weight** 2 lbs.
 

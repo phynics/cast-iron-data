@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "belt_of_equilibrium", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "208"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration"
 caster_level = "3rd"
 +++
 
-**Sources:** Ultimate Equipment pg 208\
 **Aura** faint conjuration; **CL** 3rd\
 **Slot** belt; **Price** 12,000 gp; **Weight** 1 lb.
 

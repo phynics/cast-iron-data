@@ -6,13 +6,15 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divination", path = "json/class_ability_implements.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "52"
 
 [fields]
 kind = "class_option"
 group = "occultist-implement"
 +++
 
-**Sources:** Occult Adventures pg 52\
 Implements of the divination school grant powers related to foresight and remote viewing.
 
 **Implements**

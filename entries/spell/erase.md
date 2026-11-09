@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "erase", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "279"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: see text
 Spell resistance: no
 Target: one scroll or two pages
 :::
-
-**Sources:** PRPG Core Rulebook pg 279
 
 Erase removes writings of either magical or mundane nature from a scroll or from one or two pages of
 paper, parchment, or similar surfaces. With this spell, you can remove explosive runes, a glyph of

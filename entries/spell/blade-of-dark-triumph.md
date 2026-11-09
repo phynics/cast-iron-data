@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blade_of_dark_triumph", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "208"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Spell resistance: no
 Target: your fiendish boon weapon
 Descriptors: evil
 :::
-
-**Sources:** Ultimate Magic pg 208
 
 You strengthen the bond between your fiendish boon weapon and its unholy spirit. The weapon gains
 the [ghost touch](ref/magic-enh/ghost-touch-weapon) property. You may change your weapon's damage

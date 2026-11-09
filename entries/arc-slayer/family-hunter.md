@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/slayer" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "66"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Slayer talent gained at 2nd level", "Slayer talent gained at 6th le
 alters = ["Sneak attack", "Studied target"]
 +++
 
-**Sources:** Horror Adventures pg 66\
 Most slayers focus their efforts on single targets, but family hunters try to root out every branch
 of a tainted tree of life.
 

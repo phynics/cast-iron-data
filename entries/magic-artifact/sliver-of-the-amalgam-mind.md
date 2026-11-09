@@ -6,6 +6,9 @@ source_ids = ["artifacts-and-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sliver_of_the_amalgam_mind", path = "json/magic_artifact3.json" },
 ]
+[[sources]]
+publication = "artifacts-and-legends"
+page = "7"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong divination"
 caster_level = "20th"
 +++
 
-**Sources:** Artifacts and Legends pg 7\
 **Aura** strong divination; **CL** 20th\
 **Slot** none; **Price** -; **Weight** -
 

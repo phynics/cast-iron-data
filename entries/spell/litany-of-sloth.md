@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "litany_of_sloth", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "235"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: language-dependant, mind-affecting
 :::
-
-**Sources:** Ultimate Combat pg 235
 
 With a litany against the wages of sloth, you slow the target's defenses. The target cannot make
 attacks of opportunity or cast spells defensively.

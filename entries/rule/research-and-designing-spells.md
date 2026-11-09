@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "research_and_designing_spells", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "114"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 114
 
 The subject of designing spells is touched on only briefly in the Pathfinder RPG Core Rulebook.
 While some guidance on cost and time is provided, a GM needs to consider balance and design factors

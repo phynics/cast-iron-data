@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fear_from_the_unexpected", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "199"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 199
 
 While the Pathfinder rules present a finite number of statistics and rules options, how a GM pieces
 them together allows for infinite scenarios. In the case of horror adventures, this also means

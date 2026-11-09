@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wt_2", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "225"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 225
 
 ### Table 7-58: Scenic Spots
 

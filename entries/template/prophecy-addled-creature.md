@@ -6,6 +6,9 @@ source_ids = ["pathfinder-125-tower-of-the-drowned-dead"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prophecy_addled_creature", path = "json/monster_template3.json" },
 ]
+[[sources]]
+publication = "pathfinder-125-tower-of-the-drowned-dead"
+page = "50"
 
 [fields]
 kind = "none"
@@ -18,8 +21,6 @@ kind = "none"
 **Challenge rating:** +1
 
 **Simple:** present
-
-**Source:** Pathfinder \#125: Tower of the Drowned Dead/50
 
 Prophecy-addled creatures receive powerful oracular insights, but they cannot easily distinguish
 between these flashes of mystical insight and reality. A prophecy-addled creature's quick and

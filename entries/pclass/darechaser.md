@@ -6,14 +6,15 @@ source_ids = ["paths-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "darechaser", path = "json/prestige_classes.json" },
 ]
+[[sources]]
+publication = "paths-of-the-righteous"
+page = "10"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d10."
 +++
-
-**Sources:** Paths of the Righteous pg 10
 
 While Kurgess's faithful thrive in sporting arenas, they understand that nature itself creates the
 greatest obstacle courses. The athletic fanatics known as darechasers seek out these untamed

@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gaining_cultivating_and_losing_contacts", path = "json/rules_subsystems01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "151"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 151
 
 The GM may allow you to begin the campaign with one contact (typically with a Trust score of 2 or
 3), but otherwise you gain contacts through roleplaying over the course of an entire campaign. To

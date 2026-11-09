@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_the_woodlands", path = "json/magic_staff.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "202"
+[[sources]]
+publication = "core-rulebook"
+page = "496"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong varies"
 caster_level = "13th"
 +++
 
-**Sources:** Ultimate Equipment pg 202, PRPG Core Rulebook pg 496\
 **Aura** strong varies; **CL** 13th\
 **Slot** none; **Price** 100,400 gp; **Weight** 5 lbs.
 

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "40"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Bardic knowledge", "Countersong", "Well-versed"]
 alters = ["The bard's spells", "Lore master"]
 +++
 
-**Sources:** Ultimate Wilderness pg 40\
 Cultivators use music to promote plant growth and influence the behavior of plants both naturally
 and supernaturally. Most cultivators work in conjunction with local communities to maintain crops
 and oversee harvests, while others serve as wardens of unspoiled natural wonders.

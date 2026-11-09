@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beacon_of_true_faith", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "328"
+[[sources]]
+publication = "advanced-players-guide"
+page = "313"
 
 [fields]
 kind = "item"
@@ -16,8 +22,6 @@ slot = "none"
 aura = "strong (all schools)"
 caster_level = "20th"
 +++
-
-**Sources:** Ultimate Equipment pg 328, Advanced Player's Guide pg 313
 
 **Aura** strong (all schools); **CL** 20th\
 **Slot** none; **Price** -; **Weight** 2 lbs.

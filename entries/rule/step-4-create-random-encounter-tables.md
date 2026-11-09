@@ -6,12 +6,13 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "step_4_create_random_encounter_tables", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "127"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Wilderness pg 127
 
 A territory's CR sets the average CR of random encounters occurring within that territory. Numerous
 example encounter tables appear in [Adventures](ref/rule/adventures), but your encounter tables

@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "timely_coordination", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "94"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "You gain a +1 bonus on attack rolls and skill checks made as part of 
 +++
 
 ## Timely Coordination (Teamwork)
-
-**Sources:** Ultimate Intrigue pg 94
 
 You can precisely time your teamwork.\
 **Benefit:** You gain a +1 bonus on attack rolls and skill checks made as part of

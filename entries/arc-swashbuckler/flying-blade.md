@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/swashbuckler" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "124"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Dodging panache", "Kip-up", "Menacing swordplay", "Targeted strike"
 alters = ["Panache", "Bleeding wound"]
 +++
 
-**Sources:** Advanced Class Guide pg 124\
 While most swashbucklers prefer their battles up close, others prefer dealing death from a distance.
 
 **Panache**

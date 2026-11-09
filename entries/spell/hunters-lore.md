@@ -6,6 +6,9 @@ source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hunters_lore", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "56"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Inner Sea Magic pg 56
 
 Inquisitors and rangers alike learned long ago that knowledge of an enemy grants power over that
 enemy. This spell was created so that almost any enemy could have its vulnerabilities known and

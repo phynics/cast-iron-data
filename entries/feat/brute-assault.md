@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brute_assault", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "83"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using Brute Style, when you successfully perform an overrun or 
 +++
 
 ## Brute Assault (Combat)
-
-**Sources:** Horror Adventures pg 83
 
 With brute force, you can bowl over and cripple opponents by treading on them.\
 **Prerequisites:** Str 23, Int 13, [Brute Stomp](ref/feat/brute-stomp),

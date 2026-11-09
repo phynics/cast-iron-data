@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ranger" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "74"
 
 [fields]
 kind = "archetype"
 replaces = ["Wild empathy", "Endurance", "Hunter's bond", "Swift tracker", "Quarry", "Improved quarry"]
 +++
 
-**Sources:** Ultimate Wilderness pg 74\
 Saviors and destroyers in equal measure, toxic herbalists use nature's bounty to craft remedies and
 poisons.
 

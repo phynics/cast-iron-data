@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "defining_primitive_culture", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "150"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 150
 
 A primitive culture is one that relies mainly on its connection with the land for subsistence. Its
 people don't engage in large-scale and complex organization, nor are they complex toolmakers. They

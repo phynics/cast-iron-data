@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pliability_elixir", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "45"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint enchantment"
 caster_level = "5th"
 +++
 
-**Sources:** Villain Codex pg 45\
 **Aura** faint enchantment; **CL** 5th\
 **Slot** none; **Price** 500 gp; **Weight** -
 

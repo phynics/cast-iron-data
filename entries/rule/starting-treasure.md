@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "starting_treasure", path = "json/rules_gm03.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "108"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 108
 
 By default, we tend to think of starting characters as inexperienced beginners who have scraped
 together a few coins to equip themselves with mundane items for a new life of adventure. By

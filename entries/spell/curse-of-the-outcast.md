@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "curse_of_the_outcast", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "209"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: curse, emotion, mind-affecting
 :::
-
-**Sources:** Ultimate Intrigue pg 209
 
 Everything about the target seems off-putting and grating, and everyone he meets is compelled to see
 the worst in him. Whenever the target attempts a Bluff, Diplomacy, Intimidate, or Perform check, he

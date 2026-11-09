@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "startoss_comet", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "15"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "As a standard action, you can make a single ranged thrown weapon atta
 +++
 
 ## Startoss Comet (Combat)
-
-**Sources:** Weapon Master's Handbook pg 15
 
 You can aim a thrown weapon so it strikes two foes.\
 **Prerequisites:** Dex 13, [Point-Blank Shot](ref/feat/point-blank-shot),

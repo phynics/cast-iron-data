@@ -6,12 +6,13 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weather_in_the_wilderness", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "165"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Wilderness pg 165
 
 While many of the physical dangers a group faces in the wilds vary significantly based on the nature
 of the terrain they explore, the weather can pose an array of challenges within a single region.

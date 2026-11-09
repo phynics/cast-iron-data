@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hat_of_the_seven_winds", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "189"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Villain Codex pg 189\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** head; **Price** 4,500 gp; **Weight** 1 lb.
 

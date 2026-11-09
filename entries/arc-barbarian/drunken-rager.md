@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/barbarian" },
 ]
+[[sources]]
+publication = "alchemy-manual"
+page = "12"
 
 [fields]
 kind = "archetype"
 replaces = ["Fast movement", "Uncanny dodge", "Trap sense", "Improved uncanny dodge", "12th-level rage power"]
 +++
 
-**Sources:** Alchemy Manual pg 12\
 These hotheaded, hard-drinking ruffians and brawlers are as dangerous in the midst of combat as they
 are in a tavern, and they wouldn't be caught dead without a libation for either occasion.
 

@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-elements"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wintertide_candle", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "blood-of-the-elements"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Sources:** Blood of the Elements pg 31\
 **Aura** moderate transmutation; **CL** 9th\
 **Slot** none; **Price** 1,500 gp; **Weight** 1/2 lb.
 

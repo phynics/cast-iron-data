@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dryad_sandals", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "230"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration and transmutation"
 caster_level = "9th"
 +++
 
-**Sources:** Ultimate Equipment pg 230\
 **Aura** moderate conjuration and transmutation; **CL** 9th\
 **Slot** feet; **Price** 24,000 gp; **Weight** 1 lb.
 

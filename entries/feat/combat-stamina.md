@@ -6,6 +6,9 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "combat_stamina", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "112"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "Since you have a stamina pool, you can spend your stamina points to u
 +++
 
 ## Combat Stamina (Combat)
-
-**Sources:** Pathfinder Unchained pg 112
 
 You stop at nothing to drive your attack home.\
 **Prerequisites:** Base attack bonus +1.\

@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rod_of_spell_sundering", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "161"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration"
 caster_level = "18th"
 +++
 
-**Sources:** Mythic Adventures pg 161\
 **Aura** strong abjuration; **CL** 18th\
 **Slot** none; **Price** -; **Weight** 4 lbs.
 

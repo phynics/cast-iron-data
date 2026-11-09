@@ -8,12 +8,13 @@ parent = "ref/class/bard"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "json/classes.json#bard|section:bard", path = "json/classes.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "34"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 34
 
 Untold wonders and secrets exist for those skillful enough to discover them. Through cleverness,
 talent, and magic, these cunning few unravel the wiles of the world, becoming adept in the arts of

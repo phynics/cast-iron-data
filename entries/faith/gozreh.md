@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "planar-adventures", "pathfinder-38-racing-to-ru
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gozreh", path = "json/faiths4.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "68"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Gozreh**
 
 **Sub:** The Wind and the Waves
-
-**Sources:** Inner Sea Gods pg 68
 
 ### Details
 

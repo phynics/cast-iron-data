@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/hunter" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "53"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Animal companion", "Animal focus", "Wild empathy", "One with the wi
 alters = ["Master hunter"]
 +++
 
-**Sources:** Ultimate Wilderness pg 53\
 Some hunters form a bond with plant life instead of an animal and take on those aspects instead.
 These hunters form potent bonds with plant creatures, and their leafy or fungal friends are more
 than capable of anything another hunter's animal allies can accomplish.

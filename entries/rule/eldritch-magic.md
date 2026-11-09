@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eldritch_magic", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "123"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 123
 
 An ancient artifact, forgotten spell, or fantastic magical event grants the PCs mythic powers.
 Regardless of its particular source, this power comes from the very fabric of magic itself, a power

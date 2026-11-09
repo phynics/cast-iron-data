@@ -6,13 +6,15 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dream", path = "json/class_ability_disciplines.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "65"
 
 [fields]
 kind = "class_option"
 group = "psychic-discipline"
 +++
 
-**Sources:** Occult Adventures pg 65\
 You discover deeper and more powerful corners of your mind through journeys you make in your dreams.
 Your consciousness expands outward into other dreaming minds, allowing you to explore the psychic
 landscapes of unconsciousness or regions of nightmare and horror.

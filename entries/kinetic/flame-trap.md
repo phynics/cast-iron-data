@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flame_trap", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "66"
 
 [fields]
 kind = "class_option"
@@ -21,8 +24,6 @@ group = "kineticist-wild-talent"
 **Level:** 2
 
 **Burn:** 0
-
-**Source:** Ultimate Intrigue/66
 
 You lay a fiery trap on a container, ensuring the destruction of sensitive documents while punishing
 those who would steal your secrets.

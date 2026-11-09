@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/paladin" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "117"
 
 [fields]
 kind = "archetype"
 replaces = ["Aura of resolve", "Aura of justice"]
 +++
 
-**Sources:** Advanced Player's Guide pg 117\
 Undead are an abomination in the eyes of the just and righteous. It is no surprise then that there
 are some paladins that dedicate themselves to wiping these unholy terrors from the world. The
 following are the class features of the undead scourge.

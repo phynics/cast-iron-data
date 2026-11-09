@@ -6,6 +6,9 @@ source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hermean_potential", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "legacy-of-dragons"
+page = "31"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Target: creature touched
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Legacy of Dragons pg 31
 
 You gift the target with the ability to perfect its actions via mental clarity. On the next attack
 roll, saving throw, ability check, or skill check the target attempts, it rolls twice and takes the

@@ -6,12 +6,13 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hero_points_for_gms", path = "json/rules_subsystems01.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "324"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Advanced Player's Guide pg 324
 
 Although all of the options presented here should be carefully considered before they are added to
 your game, hero points deserve closer inspection. Although hero points do not drastically increase

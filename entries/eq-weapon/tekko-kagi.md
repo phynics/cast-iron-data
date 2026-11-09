@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tekko_kagi", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "20"
+[[sources]]
+publication = "ultimate-combat"
+page = "134"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "-"
 +++
-
-**Sources:** Ultimate Equipment pg 20, Ultimate Combat pg 134
 
 Also known as an iron claw, this device consists of a fan-like structure of three or more 10-inch
 blades secured to a sturdy handle strapped to the forearm of the off hand. It can be used as an

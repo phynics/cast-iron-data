@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_crystal_golem", path = "json/monsters33.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "126"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ _This burly humanoid figure is cut from blue crystal that shines with an inner l
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 5 pg 126\
 **thoughtsense:** 60
 
 **Experience points:** 12,800

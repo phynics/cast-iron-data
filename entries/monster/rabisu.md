@@ -6,6 +6,9 @@ source_ids = ["qadira-jewel-of-the-east"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rabisu", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "qadira-jewel-of-the-east"
+page = "62"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ and a fang-filled mouth._
 
 **Senses:** Low-light vision, Scent, See in darkness
 
-**Sources:** Qadira, Jewel of the East pg 62\
 **Experience points:** 12,800
 
 **Armor class:** 25/18/17

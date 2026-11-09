@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "outer_sphere", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "245"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 245
 
 The silver void of the Astral Plane extends from the edge of the Inner Sphere to the planes of the
 Outer Sphere, where souls sent from the Boneyard arrive at their final afterlife destinations in

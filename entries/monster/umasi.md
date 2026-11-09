@@ -6,6 +6,9 @@ source_ids = ["pathfinder-39-the-city-of-seven-spears"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "umasi", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "pathfinder-39-the-city-of-seven-spears"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ patchwork of hair, skin, scales, and strange limbs stitched together with thick,
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#39: The City of Seven Spears pg 88\
 **Experience points:** 1,200
 
 **Armor class:** 18/12/16

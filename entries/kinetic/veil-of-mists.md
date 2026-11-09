@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "veil_of_mists", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "28"
 
 [fields]
 kind = "class_option"
@@ -21,8 +24,6 @@ group = "kineticist-wild-talent"
 **Level:** 2
 
 **Burn:** 0
-
-**Source:** Occult Adventures/28
 
 You create a misty veil over your features, disguising yourself as
 [disguise self](ref/spell/disguise-self) for a number of minutes equal to your Constitution

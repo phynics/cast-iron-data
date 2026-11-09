@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/angelic-aspect-lesser" },
 ]
+[[sources]]
+publication = "champions-of-purity"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Descriptors: good
 :::
 
 ### Angelic Aspect
-
-**Sources:** Champions of Purity pg 28
 
 This spell functions like [lesser angelic aspect](ref/spell/angelic-aspect-lesser), except you gain
 [low-light vision](ref/rule/low-light-vision), [darkvision](ref/rule/darkvision) 60, resistance to

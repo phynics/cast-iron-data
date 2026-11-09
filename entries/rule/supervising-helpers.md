@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "supervising_helpers", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "75"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 75
 
 As stated in both versions of the skill, Craft allows you to supervise untrained laborers. An
 untrained laborer has no ranks in Craft, but can attempt to aid in the process of creating items

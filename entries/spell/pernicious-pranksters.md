@@ -6,6 +6,9 @@ source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pernicious_pranksters", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "heroes-from-the-fringe"
+page = "18"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Spell resistance: no
 Effect: fey pranksters
 Subschool: Summoning
 :::
-
-**Sources:** Heroes from the Fringe pg 18
 
 You summon intangible forces of whimsy to perform a variety of tricks and pranks upon your foes.
 Each round on your turn (including the round you cast this spell), these incorporeal pranksters

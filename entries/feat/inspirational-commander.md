@@ -6,14 +6,15 @@ source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inspirational_commander", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "quests-and-campaigns"
+page = "27"
 
 [fields]
 kind = "feat"
 prerequisites = "Charisma 13."
 benefit = "You or any army that is under your command gains a +2 bonus on Morale checks. Additionally, you gain two additional boons of your choice."
 +++
-
-**Sources:** Quests and Campaigns pg 27
 
 Armies under your command enjoy higher morale thanks to your excellent leadership.\
 **Prerequisites:** Charisma 13.\

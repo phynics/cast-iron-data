@@ -6,6 +6,12 @@ source_ids = ["adventurers-guide", "faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eye_of_the_mantis", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "159"
+[[sources]]
+publication = "faction-guide"
+page = "59"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate divination"
 caster_level = "9th"
 +++
 
-**Sources:** Adventurer's Guide pg 159, Faction Guide pg 59\
 **Aura** moderate divination; **CL** 9th\
 **Slot** none; **Price** 2,000 gp; **Weight** -
 

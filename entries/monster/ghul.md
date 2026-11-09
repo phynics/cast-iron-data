@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "dark-markets-a-guide-to-katapesh"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghul", path = "json/monsters11.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "125"
+[[sources]]
+publication = "dark-markets-a-guide-to-katapesh"
+page = "62"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ leathery flesh, and blood-red smoke._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 3 pg 125, Dark Markets - A Guide to Katapesh pg 62\
 **Subtype:** Shapechanger
 
 **Type:** undead

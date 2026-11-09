@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
+page = "5"
 
 [fields]
 kind = "archetype"
 replaces = ["Bardic knowledge", "lore master", "Inspire courage", "Versatile performance"]
 +++
 
-**Sources:** Elemental Master's Handbook pg 5\
 The flamesinger finds inspiration in the mesmerizing beauty of fire. While the flamesinger's
 tradition originated among the varied peoples of the Padishah Empire of Kelesh, it long ago spread
 to Qadira and from there throughout the Inner Sea region.

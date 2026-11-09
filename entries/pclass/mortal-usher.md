@@ -6,14 +6,15 @@ source_ids = ["pathfinder-144-midwives-to-death"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mortal_usher", path = "json/prestige_classes2.json" },
 ]
+[[sources]]
+publication = "pathfinder-144-midwives-to-death"
+page = "76"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d8."
 +++
-
-**Sources:** Pathfinder \#144: Midwives to Death pg 76
 
 Whether the trouble is a formidable lich draining power from thousands of enslaved ghosts or a
 [qlippoth](ref/family/qlippoth) funneling stolen souls through an Abyssal stronghold, occasionally

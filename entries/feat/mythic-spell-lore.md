@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mythic_spell_lore", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "70"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "You can select this feat multiple times. Each time you select this fe
 +++
 
 ## Mythic Spell Lore (Mythic)
-
-**Sources:** Mythic Adventures pg 70
 
 You have learned how to unlock the power of your spells, combining them with your mythic power.\
 **Prerequisites:** Ability to cast spells.\

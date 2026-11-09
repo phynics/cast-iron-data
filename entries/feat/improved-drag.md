@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_drag", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "162"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ normal = "You provoke an attack of opportunity when performing a drag combat man
 +++
 
 ## Improved Drag (Combat)
-
-**Sources:** Advanced Player's Guide pg 162
 
 You are skilled at dragging foes around the battlefield.\
 **Prerequisites:** Str 13, [Power Attack](ref/feat/power-attack), base attack bonus +1.\

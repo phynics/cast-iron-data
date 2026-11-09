@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rod_of_the_wayang", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "185"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "8th"
 +++
 
-**Sources:** Ultimate Equipment pg 185\
 **Aura** moderate evocation; **CL** 8th\
 **Slot** none; **Price** 12,000 gp; **Weight** 5 lbs.
 

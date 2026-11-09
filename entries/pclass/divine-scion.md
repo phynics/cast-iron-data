@@ -6,14 +6,15 @@ source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divine_scion", path = "json/prestige_classes4.json" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "46"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d8."
 +++
-
-**Sources:** Inner Sea Magic pg 46
 
 Many are the mortals who serve the gods, in small ways and large. Some give offerings to many
 divinities in hopes of appeasing them all, while others serve one faithfully and exclusively, even

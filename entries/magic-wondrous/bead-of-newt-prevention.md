@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bead_of_newt_prevention", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "282"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Equipment pg 282\
 **Aura** faint abjuration; **CL** 5th\
 **Slot** none; **Price** 1,000 gp; **Weight** -
 

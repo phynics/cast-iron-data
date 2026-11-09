@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ataxian", path = "json/monsters26.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "283"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ aura of tiny bubbles._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Inner Sea Gods pg 283\
 **Subtype:** Chaotic, Extraplanar, Good
 
 **Size:** tiny

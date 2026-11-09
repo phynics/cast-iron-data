@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "figurine_of_the_dwarven_forge", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "blood-of-the-ancients"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Blood of the Ancients pg 31\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** none; **Price** 15,000 gp; **Weight** 1 lb.
 

@@ -6,6 +6,9 @@ source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "maleficium", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "champions-of-corruption"
+page = "17"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "You cast spells with the evil descriptor with increased potency."
 +++
 
 ## Maleficium (Damnation)
-
-**Sources:** Champions of Corruption pg 17
 
 You are a master of dark magic.\
 **Benefit:** You cast spells with the evil descriptor with increased potency.

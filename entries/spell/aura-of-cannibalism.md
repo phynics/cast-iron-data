@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aura_of_cannibalism", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "9"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes
 Area: 20-ft.-radius emanation centered on you
 Descriptors: evil
 :::
-
-**Sources:** Monster Codex pg 9
 
 You emanate an aura that saps the strength of others of your kind and channels their energy into
 you. Each round that a creature starts its turn in the spell's area and shares both your creature

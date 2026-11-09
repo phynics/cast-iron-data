@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "equipment", path = "json/rules_basics02.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "140"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 140
 
 A well-equipped character can take on nearly any challenge, from surviving in the wilderness to
 making an impression at the king's banquet. This section presents all manner of mundane and exotic

@@ -6,6 +6,9 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "true_love", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "73"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "At the GM's discretion, you can find true love with a person other th
 +++
 
 ## True Love (Story)
-
-**Sources:** Ultimate Campaign pg 73
 
 You found love, only to have it denied by the cruelty of fate.\
 **Prerequisites:** You must have found love with a person you can't be with, have a current lover,

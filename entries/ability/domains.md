@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "domains", path = "json/class_abilities5.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "40"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Cleric Domains
 
-**Sources:** PRPG Core Rulebook pg 40\
 A cleric's deity influences her alignment, what magic she can perform, her values, and how others
 see her. A cleric chooses two domains from among those belonging to her deity. A cleric can select
 an alignment domain (Chaos, Evil, Good, or Law) only if her alignment matches that domain. If a

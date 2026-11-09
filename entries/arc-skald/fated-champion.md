@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/skald" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "114"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Well-versed", "Dirge of doom raging song", "Master skald"]
 alters = ["Spell kenning"]
 +++
 
-**Sources:** Advanced Class Guide pg 114\
 Many cultures see fate as a limit that is both stifling and unwanted, regardless of the destiny that
 lurks in the days and years ahead. Among cultures where skalds are the keepers of lore and wisdom,
 there are those who learn to read the winds of fate and take up the mantle of the fated champion,

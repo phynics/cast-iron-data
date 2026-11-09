@@ -6,6 +6,9 @@ source_ids = ["magnimar-city-of-monuments"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vydrarch", path = "json/monsters40.json" },
 ]
+[[sources]]
+publication = "magnimar-city-of-monuments"
+page = "62"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ at the ends of its swaying necks._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Magnimar, City of Monuments pg 62\
 **Experience points:** 38,400
 
 **Armor class:** 29/9/26

@@ -6,12 +6,13 @@ source_ids = ["mythic-origins"]
 relations = [
   { kind = "addon", target = "ref/spell/harrowing", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-origins"
+page = "12"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Origins pg 12
 
 The bonuses and penalties associated with your reading are doubled, resulting in a +4 luck bonus if
 the card's and target's alignment are identical, a -2 penalty if the alignments are opposite, and a

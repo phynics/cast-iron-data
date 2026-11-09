@@ -6,6 +6,9 @@ source_ids = ["isles-of-the-shackles"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pirate_smuggler", path = "json/npcs.json" },
 ]
+[[sources]]
+publication = "isles-of-the-shackles"
+page = "57"
 
 [fields]
 kind = "creature"
@@ -19,7 +22,6 @@ evaluates his surroundings._
 
 **Challenge rating:** 2
 
-**Sources:** Isles of the Shackles pg 57\
 **XP** 600\
 Human [rogue](ref/class/rogue) ([smuggler](ref/arc-rogue/smuggler)) 3\
 CN Medium humanoid (human)\

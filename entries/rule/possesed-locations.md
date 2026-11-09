@@ -6,12 +6,13 @@ source_ids = ["pathfinder-28-the-infernal-syndrome"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "possesed_locations", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "pathfinder-28-the-infernal-syndrome"
+page = "63"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder \#28: The Infernal Syndrome pg 63
 
 A fiend can nestle itself within a location in order to taint the place with evil and potentially
 corrupt or assault a number of targets. Fiends possessing places generally choose locations already

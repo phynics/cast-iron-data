@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blighted_critical_mastery", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "143"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever you apply a spellblight by way of the Blighted Critical or G
 +++
 
 ## Blighted Critical Mastery (Critical)
-
-**Sources:** Ultimate Magic pg 143
 
 You control the type of spellblight your critical hits give your opponent.\
 **Prerequisites:** [Blighted Critical](ref/feat/blighted-critical), caster level 9th.\

@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tiger_pounce", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "122"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using the Tiger Style feat, you can apply the penalty from Powe
 +++
 
 ## Tiger Pounce (Combat)
-
-**Sources:** Ultimate Combat pg 122
 
 Your unarmed strikes are as precise as they are powerful, but they leave you open and you can pursue
 foes with blinding speed.\

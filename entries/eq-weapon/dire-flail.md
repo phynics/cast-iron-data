@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dire_flail", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "20"
+[[sources]]
+publication = "core-rulebook"
+page = "143"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "10 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 20, PRPG Core Rulebook pg 143
 
 A dire flail consists of two spheres of spiked iron dangling from chains at opposite ends of a long
 haft. This weapon excels at short but powerful strikes, and is typically swung in a constant

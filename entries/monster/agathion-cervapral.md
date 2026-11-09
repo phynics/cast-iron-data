@@ -6,6 +6,9 @@ source_ids = ["andoran-birthplace-of-freedom"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "agathion_cervapral", path = "json/monsters01.json" },
 ]
+[[sources]]
+publication = "andoran-birthplace-of-freedom"
+page = "50"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ its chest and neck._
 
 **Senses:** Darkvision 60 ft., Enchantment sense, Scent
 
-**Sources:** Andoran, Birthplace of Freedom pg 50\
 **Subtype:** Agathion, Extraplanar, Good
 
 **Experience points:** 1,600

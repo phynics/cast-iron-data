@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sap_adept", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "116"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Whenever you use a bludgeoning weapon to deal nonlethal sneak attack 
 +++
 
 ## Sap Adept (Combat)
-
-**Sources:** Ultimate Combat pg 116
 
 You know just where to hit to knock the sense out of your foe.\
 **Prerequisites:** [Sneak attack](ref/ability/sneak-attack) +1d6.\

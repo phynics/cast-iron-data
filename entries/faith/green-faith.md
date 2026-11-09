@@ -6,6 +6,9 @@ source_ids = ["pathfinder-75-demons-heresy", "faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "green_faith", path = "json/faiths4.json" },
 ]
+[[sources]]
+publication = "pathfinder-75-demons-heresy"
+page = "64"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Green Faith**
 
 **Sub:** The Old Faith
-
-**Sources:** Pathfinder \#75: Demon's Heresy pg 64
 
 ### Details
 

@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "absorbing_inhalation", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "160"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: no
 Target: one cloud-like effect, up to one 10-ft. cube/level
 Descriptors: air
 :::
-
-**Sources:** Advanced Race Guide pg 160
 
 > _[Sylphs](ref/race/sylph) have access to the following spell._
 

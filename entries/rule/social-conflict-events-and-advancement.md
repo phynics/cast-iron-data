@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "social_conflict_events_and_advancement", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "172"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 172
 
 When do social conflict events grant the PCs experience points and treasure? The short answer is
 whenever you choose. The typical experience point progression in the Pathfinder Roleplaying Game has

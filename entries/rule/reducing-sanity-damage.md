@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reducing_sanity_damage", path = "json/rules_campaign_types02.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "13"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 13
 
 Sanity damage can be reduced in a number of ways. The first is with time and rest. For every 7 full
 days of uninterrupted rest, you can reduce the sanity damage you have taken by amount of equal to

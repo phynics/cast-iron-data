@@ -6,6 +6,9 @@ source_ids = ["faiths-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "firebrand", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "faiths-of-corruption"
+page = "24"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ normal = "A torch used in combat is treated as a one-handed improvised weapon th
 +++
 
 ## Firebrand (Combat)
-
-**Sources:** Faiths of Corruption pg 24
 
 You can make use of a torch as a deadly, mace-like weapon.\
 **Prerequisites:** Worshiper of [Asmodeus](ref/faith/asmodeus)\

@@ -6,12 +6,13 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "type_e_armor", path = "json/rules_adv_gm05.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "115"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Equipment pg 115
 
 ### Table 3-1: Armor and Shield Pricing by Bonus
 

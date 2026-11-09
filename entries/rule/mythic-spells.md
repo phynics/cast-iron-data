@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mythic_spells", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "78"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 78
 
 Mythic spells draw upon the caster's mythic power to create more powerful magical effects -
 [mythic fireball](ref/spell/fireball) sets affected creatures on fire,

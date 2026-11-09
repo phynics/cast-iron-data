@@ -6,6 +6,9 @@ source_ids = ["construct-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "robot_gladiator_robot", path = "json/monsters20.json" },
 ]
+[[sources]]
+publication = "construct-handbook"
+page = "54"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ ends in a spinning circular blade. Its final two arms grasp a massive chainsaw._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Superior optics
 
-**Sources:** Construct Handbook pg 54\
 **Subtype:** Robot
 
 **Experience points:** 102,400

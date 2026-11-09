@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spellstaff", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "347"
 
 [fields]
 kind = "spell"
@@ -37,8 +40,6 @@ Saving throw: Will negates (object)
 Spell resistance: yes (object)
 Target: wooden quarterstaff touched
 :::
-
-**Sources:** PRPG Core Rulebook pg 347
 
 You store one spell that you can normally cast in a wooden quarterstaff. Only one such spell can be
 stored in a staff at a given time, and you cannot have more than one spellstaff at any given time.

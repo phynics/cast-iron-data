@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hinder", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "29"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "If a shaman or witch uses this [blood hex](ref/rule/feats-class), the
 +++
 
 ## Hinder (Blood Hex)
-
-**Sources:** Magic Tactics Toolbox pg 29
 
 You curse a bleeding opponent with uncertainty.\
 **Prerequisites:** Int 13, Use Magic Device 5 ranks.\

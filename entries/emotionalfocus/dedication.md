@@ -6,13 +6,15 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dedication", path = "json/class_ability_emotional_focus.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "80"
 
 [fields]
 kind = "class_option"
 group = "emotional-focus"
 +++
 
-**Sources:** Occult Adventures pg 80\
 Either through a sense of love or the desire to finish some unfinished task, a phantom with this
 emotional focus has an undying devotion to something or someone in the world. It's often the case
 that a phantom with this emotional focus has a strong familial tie with its spiritualist master. A

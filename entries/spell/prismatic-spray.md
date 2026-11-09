@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prismatic_spray", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "325"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: see text
 Spell resistance: yes
 Area: cone-shaped burst
 :::
-
-**Sources:** PRPG Core Rulebook pg 325
 
 This spell causes seven shimmering, multicolored beams of light to spray from your hand. Each beam
 has a different power. Creatures in the area of the spell with 8 HD or less are automatically

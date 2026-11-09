@@ -6,6 +6,9 @@ source_ids = ["chronicle-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charitable_impulse", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "chronicle-of-the-righteous"
+page = "50"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Target: one humanoid creature
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Chronicle of the Righteous pg 50
 
 This spell makes a creature more charitable, compelling it to aid others rather than use violence.
 An affected creature practices non-violent combat behaviors according to the following list of

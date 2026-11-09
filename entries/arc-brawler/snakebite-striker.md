@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/brawler" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "88"
 
 [fields]
 kind = "archetype"
 replaces = ["Martial flexibility", "Maneuver training gained at 3rd and 7th levels", "Maneuver training gained at 11th and 19th levels"]
 +++
 
-**Sources:** Advanced Class Guide pg 88\
 With her lightning quickness and guile, a snakebite striker keeps her foes' attention focused on
 her, because any one of her feints might be an actual attack. By giving up some of a brawler's
 versatility, she increases her damage potential and exposes opponents to deadly and unexpected

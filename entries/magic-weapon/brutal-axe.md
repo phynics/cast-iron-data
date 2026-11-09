@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brutal_axe", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "144"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Sources:** Mythic Adventures pg 144\
 **Aura** moderate transmutation; **CL** 11th\
 **Slot** none; **Price** 38,000 gp; **Weight** 12 lbs.
 

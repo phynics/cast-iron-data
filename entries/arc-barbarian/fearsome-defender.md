@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/barbarian" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "47"
 
 [fields]
 kind = "archetype"
 replaces = ["Fast movement", "Uncanny dodge", "Trap sense", "Improved uncanny dodge"]
 +++
 
-**Sources:** Horror Adventures pg 47\
 Dark overlords frequently recruit their most bloodthirsty followers to serve as brutal bodyguards.
 These savage slaves feel little pain and exist only to rain terror down on the enemies of their
 pitiless masters.

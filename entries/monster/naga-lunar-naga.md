@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "naga_lunar_naga", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "197"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ hypnotically._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 3 pg 197\
 **Experience points:** 2,400
 
 **Armor class:** 20/14/15

@@ -6,6 +6,9 @@ source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_frenzy_style", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "heroes-from-the-fringe"
+page = "31"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "You can enter Blood Frenzy Style only as an immediate action when you
 +++
 
 ## Blood Frenzy Style (Combat, Style)
-
-**Sources:** Heroes from the Fringe pg 31
 
 You have learned to turn your pain into power, whipping yourself into a blood frenzy whenever you
 take damage.\

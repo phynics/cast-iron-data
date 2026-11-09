@@ -6,12 +6,12 @@ source_ids = ["pathfinder-52-forest-of-spirits", "pathfinder-53-tide-of-honor", 
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "caravan_events_cr_10_to_15", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "pathfinder-52-forest-of-spirits"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder \#52: Forest of Spirits
 
 **Hangman Grove (CR 9):** The caravan comes across a section of forest that contains several hangman
 trees (AC 21; hp 100; Attack +15; Damage 4d8+7) growing together. The hangman trees release spores

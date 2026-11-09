@@ -6,6 +6,9 @@ source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seeds_of_influence", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "62"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Targets: one creature
 Subschool: Compulsion
 Descriptors: emotion, mind-affecting
 :::
-
-**Sources:** Inner Sea Intrigue pg 62
 
 You leave a magical trace in the mind of a creature with an attitude of at least indifferent toward
 you. The target takes a cumulative -2 penalty on its Will save to negate the spell for each step by

@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flesh_puppet", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "117"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Spell resistance: no
 Target: one corpse touched
 Descriptors: evil
 :::
-
-**Sources:** Horror Adventures pg 117
 
 You animate one corpse that has been dead no more than 48 hours. It rises as a zombie that is
 magically tethered to you and obeys your commands. As noted in

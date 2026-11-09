@@ -6,6 +6,9 @@ source_ids = ["pathfinder-34-blood-for-blood"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "calathgar", path = "json/monsters04.json" },
 ]
+[[sources]]
+publication = "pathfinder-34-blood-for-blood"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ twitches a cluster of sharp stamens arranged like a ring of teeth within a leafy
 
 **Size:** small
 
-**Sources:** Pathfinder \#34: Blood for Blood pg 84\
 **Experience points:** 1,200
 
 **Armor class:** 16/15/12

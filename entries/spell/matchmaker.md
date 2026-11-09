@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "matchmaker", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "220"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Target: two living creatures
 Subschool: Charm
 Descriptors: mind-affecting
 :::
-
-**Sources:** Ultimate Intrigue pg 220
 
 You entice the target creatures to become romantically interested in one another. Each creature
 saves and applies [spell resistance](ref/rule/spell-resistance) separately. Both must be affected

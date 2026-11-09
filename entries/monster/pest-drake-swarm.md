@@ -6,6 +6,9 @@ source_ids = ["pathfinder-141-last-watch"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pest_drake_swarm", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "pathfinder-141-last-watch"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _These songbird-sized drakes declare their territory with an insistent chorus of
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#141: Last Watch pg 84\
 **Subtype:** Swarm
 
 **Experience points:** 6,400

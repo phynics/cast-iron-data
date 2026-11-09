@@ -6,12 +6,13 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animal_foci", path = "json/class_abilities.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Advanced Class Guide\
 At 1st level, a hunter can take on the aspect of an animal as a swift action. She must select one
 type of animal to emulate, gaining a bonus or special ability based on the type of animal emulated
 and her hunter level. The hunter can use this ability for a number of minutes per day equal to her

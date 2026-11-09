@@ -6,14 +6,15 @@ source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "butchering_axe", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "8"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "25 lbs."
 +++
-
-**Sources:** Adventurer's Armory 2 pg 8
 
 A creation of the orc smiths of Belkzen, this axe has an oversized head bristling with spikes and a
 long, thick haft that only barely counterbalances its weight. If your Strength is less than 19 (or

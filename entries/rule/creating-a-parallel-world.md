@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "creating_a_parallel_world", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "168"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 168
 
 To create an alternate reality, simply take the existing world and change any one event or factor,
 past or present. From that point, it's a matter of extrapolation, tracing down the many routes that

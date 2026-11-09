@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "black_tentacles", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "248"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Spell resistance: no
 Area: 20-ft.-radius spread
 Subschool: Creation
 :::
-
-**Sources:** PRPG Core Rulebook pg 248
 
 This spell causes a field of rubbery black tentacles to appear, burrowing up from the floor and
 reaching for any creature in the area.

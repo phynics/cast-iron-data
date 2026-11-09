@@ -6,12 +6,14 @@ source_ids = ["pathfinder-135-runeplague"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inhabit_rune_giant", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "pathfinder-135-runeplague"
+page = "76"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder \#135: Runeplague pg 76\
 **School** necromancy; **Level** 6\
 **Casting Time** 60 minutes\
 **Components** V, S, SC (up to the Intelligence modifier of the primary caster)\

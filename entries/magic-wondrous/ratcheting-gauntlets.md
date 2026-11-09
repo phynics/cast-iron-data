@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ratcheting_gauntlets", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Melee Tactics Toolbox pg 29\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** hands; **Price** 12,000 gp; **Weight** 5 lbs.
 

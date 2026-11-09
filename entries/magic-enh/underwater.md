@@ -6,6 +6,9 @@ source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "underwater", path = "json/magic_enhancements2.json" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
+page = "63"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Sources:** Aquatic Adventures pg 63\
 **Aura** faint divination; **CL** 5th\
 **Slot** none; **Price** +1 bonus; **Weight** -
 

@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "pathfinder-9-escape-from-old-korvosa"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rakshasa_rakshasa_maharaja", path = "json/monsters20.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "226"
+[[sources]]
+publication = "pathfinder-9-escape-from-old-korvosa"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -44,7 +50,6 @@ backward-facing hands._
 
 **Senses:** All-around vision, Darkvision 60 ft.
 
-**Sources:** Bestiary 3 pg 226, Pathfinder \#9: Escape from Old Korvosa pg 86\
 **Subtype:** Native, Rakshasa, Shapechanger
 
 **Experience points:** 307,200

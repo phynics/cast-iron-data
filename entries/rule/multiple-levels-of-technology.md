@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "multiple_levels_of_technology", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "161"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 161
 
 One of the best things about creating an entire setting is giving yourself several different regions
 with wildly different societies, and that includes regions with differing levels of technology.

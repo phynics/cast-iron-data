@@ -6,6 +6,9 @@ source_ids = ["pathfinder-107-scourge-of-the-godclaw"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "muddling_heresy", path = "json/equipment_poisons.json" },
 ]
+[[sources]]
+publication = "pathfinder-107-scourge-of-the-godclaw"
+page = "73"
 
 [fields]
 kind = "item"
@@ -13,8 +16,6 @@ category = "Poisons"
 price = "750 gp"
 weight = "&mdash;"
 +++
-
-**Sources:** Pathfinder \#107: Scourge of the Godclaw pg 73
 
 **Price** 750 gp; **Weight** —
 

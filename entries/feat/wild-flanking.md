@@ -6,6 +6,9 @@ source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wild_flanking", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "champions-of-corruption"
+page = "21"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you are flanking an opponent with an ally who also possesses thi
 +++
 
 ## Wild Flanking (Betrayal, Teamwork)
-
-**Sources:** Champions of Corruption pg 21
 
 When flanking, you use your position to rain grievous blows upon a trapped foe, though you have
 little regard to the well-being of your flanking partner as you wildly hack away.\

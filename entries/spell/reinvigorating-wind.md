@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reinvigorating_wind", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "177"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Area: cone-shaped burst
 Subschool: Compulsion
 Descriptors: air, mind-affecting
 :::
-
-**Sources:** Villain Codex pg 177
 
 You exhale deeply, creating a gentle magical wind that invigorates any allies in the affected area,
 as follows. Any sleeping allies immediately wake up. Fascinated allies are shaken free of the

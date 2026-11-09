@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "create_a_new_monster", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "225"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 225
 
 Creating a new mythic monster is especially challenging because you're basically creating a monster
 with two CRs: an initial CR, which determines its appropriate mythic rank and thus how many mythic

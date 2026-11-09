@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "combat_medic", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "91"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Whenever you use Heal to provide first aid, treat caltrop wounds, or 
 +++
 
 ## Combat Medic (Teamwork)
-
-**Sources:** Ultimate Combat pg 91
 
 You know the urgency of treating wounds in the heat of battle, applying first aid to your allies
 with such speed that you assure no one gets left behind.\

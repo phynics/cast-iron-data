@@ -6,6 +6,9 @@ source_ids = ["ships-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "saffron_slave_collar", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "ships-of-the-inner-sea"
+page = "11"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint enchantment"
 caster_level = "5th"
 +++
 
-**Sources:** Ships of the Inner Sea pg 11\
 **Aura** faint enchantment; **CL** 5th\
 **Slot** neck; **Price** 16,000 gp; **Weight** 2 lbs.
 

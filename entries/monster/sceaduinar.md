@@ -6,6 +6,9 @@ source_ids = ["bestiary-2", "pathfinder-141-last-watch"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sceaduinar", path = "json/monsters21.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "239"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ living, dark purple crystal._
 
 **Senses:** Darkvision 120 ft., Low-light vision
 
-**Sources:** Bestiary 2 pg 239\
 **Subtype:** Extraplanar
 
 **Experience points:** 3,200

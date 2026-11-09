@@ -6,6 +6,9 @@ source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lynx_eye_charm", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "merchants-manifest"
+page = "13"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination and transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Merchant's Manifest pg 13\
 **Aura** faint divination and transmutation; **CL** 3rd\
 **Slot** neck or shoulders; **Price** 350 gp; **Weight** -
 

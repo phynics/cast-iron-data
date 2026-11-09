@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "me_pit_fiend", path = "json/rules_adv_gm03.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "243"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 243
 
 With a diverse spread of abilities useful for both combat and spellcasting, a pit fiend remains
 fairly complex to create even in the simple monster creation system. It's not really 100% a

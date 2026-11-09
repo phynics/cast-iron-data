@@ -6,11 +6,13 @@ source_ids = ["pathfinder-unchained"]
 relations = [
   { kind = "addon", target = "ref/feat/ray-shield", label = "stamina" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "130"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder Unchained pg 130\
 You can spend 2 stamina points to gain the effect of this feat while preventing the spell or effect
 from affecting your shield.

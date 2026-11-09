@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/alarm" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "185"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Saving throw: none
 Spell resistance: no
 Area: 20-ft.-radius emanation centered on a point in space
 :::
-
-**Sources:** Advanced Class Guide pg 185
 
 This spell functions as [alarm](ref/spell/alarm), except it is triggered only by invisible creatures
 entering or leaving the warded area. The spell has a different mental alarm depending on whether the

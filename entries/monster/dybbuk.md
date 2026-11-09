@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dybbuk", path = "json/monsters09.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "108"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ _This grinning spectre has mad eyes and blood-red hands that twitch and jerk lik
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 3 pg 108\
 **Subtype:** Incorporeal
 
 **Type:** undead

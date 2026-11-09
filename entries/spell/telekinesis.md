@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "telekinesis", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "357"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: Will negates (object) or none; see text
 Spell resistance: yes (object); see text
 Target or Targets: see text
 :::
-
-**Sources:** PRPG Core Rulebook pg 357
 
 You move objects or creatures by concentrating on them. Depending on the version selected, the spell
 can provide a gentle, sustained force, perform a variety of combat maneuvers, or exert a single

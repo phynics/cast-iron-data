@@ -6,6 +6,9 @@ source_ids = ["blood-of-angels"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "consecrate_spell", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "blood-of-angels"
+page = "25"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "A consecrated spell is treated as a maximized spell against evil crea
 +++
 
 ## Consecrate Spell (Metamagic)
-
-**Sources:** Blood of Angels pg 25
 
 You infuse spells with heavenly power, drastically increasing their effectiveness against would-be
 heralds of evil.\

@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spymaster", path = "json/rules_campaign_types04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "203"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 203
 
 The Spymaster observes the kingdom's criminal elements and underworld and spies on other kingdoms.
 The Spymaster always has a finger on the pulse of the kingdom's underbelly, and uses acquired

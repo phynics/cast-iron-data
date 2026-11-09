@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "background_generator", path = "json/rules_basics03.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "16"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 16
 
 The background generator is intended to remove the creative pressure that can sometimes frustrate
 players as they try to flesh out the murky details of their characters' backgrounds. This generator

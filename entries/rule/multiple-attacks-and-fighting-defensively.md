@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "multiple_attacks_and_fighting_defensively", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "184"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 184
 
 **Multiple Attacks:** A character who can make more than one attack per round must use the
 [full-attack action](ref/rule/full-attack) in order to get more than one attack.

@@ -6,6 +6,9 @@ source_ids = ["champions-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mantle_of_the_protector", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "champions-of-purity"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration and conjuration"
 caster_level = "7th"
 +++
 
-**Sources:** Champions of Purity pg 31\
 **Aura** moderate abjuration and conjuration; **CL** 7th\
 **Slot** shoulders; **Price** 12,200 gp; **Weight** 10 lbs.
 

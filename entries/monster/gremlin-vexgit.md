@@ -6,6 +6,12 @@ source_ids = ["bestiary-2", "pathfinder-19-howl-of-the-carrion-king"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gremlin_vexgit", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "145"
+[[sources]]
+publication = "pathfinder-19-howl-of-the-carrion-king"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -40,7 +46,6 @@ a tiny but solid-looking hammer._
 
 **Senses:** Darkvision 120 ft., Low-light vision
 
-**Sources:** Bestiary 2 pg 145, Pathfinder \#19: Howl of the Carrion King pg 84\
 **Size:** tiny
 
 **Experience points:** 400

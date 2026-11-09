@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "77"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Trapfinding", "Uncanny dodge", "Improved uncanny dodge"]
 alters = ["Rogue talents"]
 +++
 
-**Sources:** Ultimate Wilderness pg 77\
 Sylvan tricksters are rogues who model themselves after the mischievous fey of legend. Though not
 spellcasters, sylvan tricksters learn minor magical abilities reminiscent of those favored by fey
 creatures. The journey for many sylvan tricksters began in childhood, learning at an elder's knee

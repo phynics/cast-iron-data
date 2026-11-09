@@ -6,6 +6,9 @@ source_ids = ["pathfinder-89-palace-of-fallen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beam_cannon_emp_cannon", path = "json/equipment_tech_weapons.json" },
 ]
+[[sources]]
+publication = "pathfinder-89-palace-of-fallen-stars"
+page = "62"
 
 [fields]
 kind = "item"
@@ -14,8 +17,6 @@ weight = "18 lbs."
 +++
 
 ## Beam cannon (arc cannon)
-
-**Sources:** Pathfinder \#89: Palace of Fallen Stars pg 62
 
 **Cost** 40,000 gp (arc cannon, laser cannon, zero cannon), 58,000 gp (EMP cannon, sonic cannon)\
 **Type** two-handed ranged; **Proficiency** exotic (heavy weaponry); **Weight** 18 lbs.\

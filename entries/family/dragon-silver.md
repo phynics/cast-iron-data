@@ -6,14 +6,15 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_silver", path = "json/monster_families.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "110"
 
 [fields]
 kind = "none"
 +++
 
 ## Silver Dragon
-
-**Sources:** Pathfinder RPG Bestiary pg 110
 
 |Age Category|Special Abilities|Caster Level|
 | --- | --- | --- |

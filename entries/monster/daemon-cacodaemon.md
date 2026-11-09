@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daemon_cacodaemon", path = "json/monsters06.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "64"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ creature's orb-like body._
 
 **Senses:** Darkvision 60 ft., Detect good, Detect magic
 
-**Sources:** Bestiary 2 pg 64\
 **Subtype:** Daemon, Evil, Extraplanar
 
 **Size:** tiny

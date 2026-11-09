@@ -6,6 +6,9 @@ source_ids = ["pathfinder-60-from-hells-heart"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "addu", path = "json/monsters01.json" },
 ]
+[[sources]]
+publication = "pathfinder-60-from-hells-heart"
+page = "78"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ razor-like fins._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#60: From Hell's Heart pg 78\
 **Subtype:** Aquatic
 
 **Experience points:** 51,200

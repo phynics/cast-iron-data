@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide", "advanced-players-guide", "chronicle-of-le
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloodrager", path = "json/classes.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "15"
 
 [fields]
 kind = "class"
@@ -13,8 +16,6 @@ class_type = "hybrid"
 hit_die = "d10"
 skill_ranks = "4 + Int modifier"
 +++
-
-**Sources:** Advanced Class Guide pg 15
 
 While many ferocious combatants can tap into a deep reservoir of buried rage, bloodragers have an
 intrinsic power that seethes within. Like [sorcerers](ref/class/sorcerer), bloodragers' veins surge

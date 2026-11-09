@@ -6,6 +6,9 @@ source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tidefinder", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
+page = "63"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Sources:** Aquatic Adventures pg 63\
 **Aura** faint divination; **CL** 5th\
 **Slot** none; **Price** 2,000 gp; **Weight** 1/2 lb.
 

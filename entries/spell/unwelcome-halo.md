@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unwelcome_halo", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "244"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes
 Target: one nongood creature
 Descriptors: light
 :::
-
-**Sources:** Inner Sea Gods pg 244
 
 This spell causes the target to glow as if surrounded by a halo of light. This halo sheds normal
 light in a 20-foot radius from the creature, and increases the light level by one step for an

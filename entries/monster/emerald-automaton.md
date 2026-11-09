@@ -6,6 +6,9 @@ source_ids = ["the-emerald-spire-superdungeon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "emerald_automaton", path = "json/monsters42.json" },
 ]
+[[sources]]
+publication = "the-emerald-spire-superdungeon"
+page = "154"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _An eerie green glow shines through the seams of this mechanical creature's armo
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** The Emerald Spire Superdungeon pg 154\
 **Experience points:** 1,200
 
 **Armor class:** 17/11/16

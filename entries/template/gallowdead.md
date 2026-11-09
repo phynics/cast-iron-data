@@ -6,6 +6,9 @@ source_ids = ["dungeons-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gallowdead", path = "json/monster_template2.json" },
 ]
+[[sources]]
+publication = "dungeons-of-golarion"
+page = "21"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** Varies
-
-**Source:** Dungeons of Golarion/21
 
 Although nearly every variety of undead can be found within Gallowspire, a number of unique
 creatures, such as the gallowdead, can be found here as well. These undead are made from the corpses

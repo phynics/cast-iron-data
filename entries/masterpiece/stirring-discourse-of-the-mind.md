@@ -6,6 +6,8 @@ source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stirring_discourse_of_the_mind", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "divine-anthology"
 
 [fields]
 kind = "class_option"
@@ -13,8 +15,6 @@ group = "bardic-masterpiece"
 +++
 
 ## Stirring Discourse of the Mind (Oratory)
-
-**Sources:** Divine Anthology
 
 You lecture your audience on the merits of studious endeavors and inspire them with new insights
 into the subject matter. As a result of your discourse, those who listen become more receptive to

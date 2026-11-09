@@ -6,6 +6,12 @@ source_ids = ["rise-of-the-runelords-anniversary-edition", "pathfinder-4-fortres
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "robe_of_runes", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "rise-of-the-runelords-anniversary-edition"
+page = "422"
+[[sources]]
+publication = "pathfinder-4-fortress-of-the-stone-giants"
+page = "50"
 
 [fields]
 kind = "item"
@@ -17,8 +23,6 @@ aura = "strong transmutation"
 caster_level = "13th"
 +++
 
-**Sources:** Rise of the Runelords Anniversary Edition pg 422, Pathfinder \#4: Fortress of the Stone
-Giants pg 50\
 **Aura** strong transmutation; **CL** 13th\
 **Slot** body; **Price** 44,000 gp; **Weight** 1 lb.
 

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-81-shifting-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bottle_of_shifting_sand", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "pathfinder-81-shifting-sands"
+page = "58"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation [earth]"
 caster_level = "5th"
 +++
 
-**Sources:** Pathfinder \#81: Shifting Sands pg 58\
 **Aura** faint transmutation \[earth\]; **CL** 5th\
 **Slot** none; **Price** 750 gp; **Weight** 1 lb.
 

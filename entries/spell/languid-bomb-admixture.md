@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "languid_bomb_admixture", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "233"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Target: you
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Ultimate Combat pg 233
 
 Upon drinking an extract created with this formula, you make a significant change to your magical
 reserve that modifies the nature of all bombs you create and throw during this extract's duration.

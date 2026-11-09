@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "environment_gg", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "221"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 221
 
 In addition to climate and weather, the environment itself can have an impact on adventures. The
 environment includes both landscapes and ecosystems. Landscape varies widely and is generally a

@@ -6,12 +6,12 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wysp", path = "json/monster_families2.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Bestiary 5
 
 Wysps are five races of tiny elemental beings. Aether wysps were the first wysps, born of the same
 convergence between ethereal and elemental that spawned the aether element. For a time, the first

@@ -6,6 +6,9 @@ source_ids = ["cradle-of-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nimbral_child", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "cradle-of-night"
+page = "63"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ a burning void within its head._
 
 **Senses:** Darkvision 60 ft., See in darkness
 
-**Sources:** Cradle of Night pg 63\
 **Subtype:** Evil, Extraplanar
 
 **Experience points:** 12,800

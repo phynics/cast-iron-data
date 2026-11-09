@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "smelling_salts", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "101"
+[[sources]]
+publication = "advanced-players-guide"
+page = "184"
 
 [fields]
 kind = "item"
@@ -14,7 +20,6 @@ price = "25 gp"
 weight = "-"
 +++
 
-**Sources:** Ultimate Equipment pg 101, Advanced Player's Guide pg 184\
 **Price** 25 gp; **Weight** -\
 **Category** Alchemical Remedies
 

@@ -6,6 +6,9 @@ source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stalagmite_seed", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "magical-marketplace"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Sources:** Magical Marketplace pg 29\
 **Aura** moderate transmutation; **CL** 7th\
 **Slot** none; **Price** 750 gp; **Weight** 1/2 lb.
 

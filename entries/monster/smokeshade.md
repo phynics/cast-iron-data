@@ -6,6 +6,9 @@ source_ids = ["nidal-land-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "smokeshade", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "nidal-land-of-shadows"
+page = "64"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ out from its body as swiftly as they collapse back into its central mass._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Nidal, Land of Shadows pg 64\
 **Subtype:** Extraplanar, Incorporeal
 
 **Size:** tiny

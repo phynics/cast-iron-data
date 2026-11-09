@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/barbarian" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "15"
 
 [fields]
 kind = "archetype"
 replaces = ["Uncanny dodge", "Trap sense", "Improved uncanny dodge", "Damage reduction"]
 +++
 
-**Sources:** Dirty Tactics Toolbox pg 15\
 There are no rules in the wild. Some barbarians enter combat with only victory in mind and do
 anything in their power to achieve it.
 

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cats_grace", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "252"
 
 [fields]
 kind = "spell"
@@ -54,8 +57,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes
 Target: creature touched
 :::
-
-**Sources:** PRPG Core Rulebook pg 252
 
 The transmuted creature becomes more graceful, agile, and coordinated. The spell grants a +4
 enhancement bonus to Dexterity, adding the usual benefits to AC, Reflex saves, and other uses of the

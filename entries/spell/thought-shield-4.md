@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/thought-shield-3" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "190"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Target: you
 :::
 
 ### Thought Shield IV
-
-**Sources:** Occult Adventures pg 190
 
 This functions as [thought shield III](ref/spell/thought-shield-3), but any creature that tries to
 read your thoughts while this spell lasts must succeed at a Will save or be stunned for 1d4 rounds.

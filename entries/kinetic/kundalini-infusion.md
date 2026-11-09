@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kundalini_infusion", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "29"
 
 [fields]
 kind = "class_option"
@@ -25,8 +28,6 @@ group = "kineticist-wild-talent"
 **Associated:** any
 
 **Saving throw:** Fortitude partial
-
-**Source:** Martial Arts Handbook/29
 
 You infuse your elemental energy with kundalini serpent fire. Choose a [chakra](ref/rule/chakras)
 you can currently open; you must accept an amount of burn equal to the chakra's number (1 for root,

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-67-the-snows-of-summer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wolf_timber_wolf", path = "json/monsters25.json" },
 ]
+[[sources]]
+publication = "pathfinder-67-the-snows-of-summer"
+page = "83"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ _A chilling chorus of howls echoes through the air as a massive, white-furred wo
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Pathfinder \#67: The Snows of Summer pg 83\
 **Experience points:** 600
 
 **Armor class:** 18/14/14

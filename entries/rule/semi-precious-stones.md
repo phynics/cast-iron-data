@@ -6,12 +6,13 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "semi_precious_stones", path = "json/rules_adv_gm05.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "388"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Equipment pg 388
 
 Semi-precious stones can be very valuable, but tend to be more muddled or less brilliant than
 precious stones. They also come in more varieties. Semi-precious stones can be made into jewelry

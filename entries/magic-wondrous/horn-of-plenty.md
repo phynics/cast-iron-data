@@ -6,6 +6,9 @@ source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horn_of_plenty", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "quests-and-campaigns"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment"
 caster_level = "9th"
 +++
 
-**Sources:** Quests and Campaigns pg 31\
 **Aura** moderate enchantment; **CL** 9th\
 **Slot** none; **Price** 6,500 gp; **Weight** 3 lbs.
 

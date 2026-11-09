@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/charm-person" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "254"
 
 [fields]
 kind = "spell"
@@ -54,8 +57,6 @@ Target: one living creature
 Subschool: Charm
 Descriptors: mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 254
 
 This spell functions like [charm person](ref/spell/charm-person), except that the effect is not
 restricted by creature type or size.

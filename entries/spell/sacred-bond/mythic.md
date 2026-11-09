@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/sacred-bond", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "106"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 106\
 The range at which you and the target can cast conjuration (healing) spells on each other increases
 to medium (100 feet + 10 feet per caster level). When you or the target uses the sacred bond to cast
 a healing spell on the other, the caster also heals a number of hit points equal to the minimum

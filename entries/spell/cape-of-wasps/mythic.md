@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/cape-of-wasps", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "87"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 87\
 The wasp swarm fills a 15-foot-by-15-foot space centered on you (or on 1 of your squares, if your
 space is larger than 1 square). Creatures in the area of the swarm are affected by it normally
 (including the swarm's distraction ability). Add your tier to the swarm's distraction DC.

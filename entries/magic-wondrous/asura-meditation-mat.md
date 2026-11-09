@@ -6,6 +6,9 @@ source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "asura_meditation_mat", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "196"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration [evil, lawful]"
 caster_level = "10th"
 +++
 
-**Sources:** Book of the Damned pg 196\
 **Aura** moderate abjuration \[evil, lawful\]; **CL** 10th\
 **Slot** none; **Price** 32,000 gp; **Weight** 3 lbs.
 

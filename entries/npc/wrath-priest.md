@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wrath_priest", path = "json/npcs5.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "49"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "7"
 
 **Challenge rating:** 7
 
-**Sources:** NPC Codex pg 49\
 **XP** 3,200\
 Half-orc [cleric](ref/class/cleric) of [Rovagug](ref/faith/rovagug) 8\
 CE Medium humanoid (human, orc)\

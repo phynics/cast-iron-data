@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rampart", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "237"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Effect: 10-ft.-high earthen wall, in a line up to 10 ft. long/2 levels, or a cir
 Subschool: Creation
 Descriptors: earth
 :::
-
-**Sources:** Advanced Player's Guide pg 237
 
 You create a massive rampart of hard-packed earth and stone 5 feet thick. The rampart cannot be
 conjured so that it occupies the same space as another creature or object. Each 5-foot-wide section

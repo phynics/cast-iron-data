@@ -6,6 +6,9 @@ source_ids = ["belkzen-hold-of-the-orc-hordes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "woolly_mammoth_normal", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "belkzen-hold-of-the-orc-hordes"
+page = "39"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "6 tons (combat-trained), 6 tons (normal)"
 
 ## Woolly mammoth
 
-**Sources:** Belkzen, Hold of the Orc Hordes pg 39\
 **Price** 4,500 gp (combat-trained), 3,000 gp (normal); **Weight** 6 tons (combat-trained), 6 tons
 (normal)
 

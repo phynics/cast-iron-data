@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/haste", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "97"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 97\
 Affected creatures gain an additional move action each round. The movement speed increase changes to
 50 feet, to a maximum of three times the creature's normal speed for that movement type.
 

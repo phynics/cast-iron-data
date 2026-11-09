@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/dragons-breath", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "92"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 92\
 The spell's duration changes to 1 minute/level or until discharged. You can use the breath weapon up
 to three times during this duration. On the round you cast the spell, using the breath weapon is a
 free action; later uses require a standard action. You must wait 1d4 rounds between each use of the

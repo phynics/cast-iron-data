@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monsters_and_npcs", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "48"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 48
 
 Typically, monsters don't gain access to the background skills system from their racial Hit Dice.
 The Game Master might decide that certain types of monsters might have extensive lives as workers

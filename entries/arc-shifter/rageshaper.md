@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/shifter" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "82"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Wild shape", "shifter aspect", "Defensive instinct", "chimeric aspe
 alters = ["Alignment", "Shifter claws"]
 +++
 
-**Sources:** Ultimate Wilderness pg 82\
 Not all shifters represent the balance of nature. The rageshaper is a destructive force of nature
 brought to bear - a wild and uncontrollable engine of annihilation fueled by wrath. Rageshapers fly
 into bloodletting frenzies and rain down devastation like unstoppable natural disasters.

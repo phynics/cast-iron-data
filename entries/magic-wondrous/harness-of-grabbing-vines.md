@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "harness_of_grabbing_vines", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "13"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Wilderness pg 13\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** body; **Price** 40,000 gp; **Weight** 1/2 lb.
 

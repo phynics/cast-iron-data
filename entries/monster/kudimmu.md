@@ -6,6 +6,9 @@ source_ids = ["pathfinder-114-black-stars-beckon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kudimmu", path = "json/monsters15.json" },
 ]
+[[sources]]
+publication = "pathfinder-114-black-stars-beckon"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ creature, and its face is marked only by a pair of glowing, crimson eyes._
 
 **Type:** plant
 
-**Sources:** Pathfinder \#114: Black Stars Beckon pg 86\
 **tremorsense:** 30
 
 **Experience points:** 76,800

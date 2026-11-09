@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "war_paint_of_the_terrible_visage", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "324"
+[[sources]]
+publication = "advanced-players-guide"
+page = "310"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint necromancy"
 caster_level = "1st"
 +++
 
-**Sources:** Ultimate Equipment pg 324, Advanced Player's Guide pg 310\
 **Aura** faint necromancy; **CL** 1st\
 **Slot** none; **Price** 100 gp; **Weight** -
 

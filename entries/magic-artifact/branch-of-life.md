@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "branch_of_life", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "328"
 
 [fields]
 kind = "item"
@@ -16,8 +19,6 @@ slot = "none"
 aura = "strong conjuration"
 caster_level = "15th"
 +++
-
-**Sources:** Ultimate Equipment pg 328
 
 **Aura** strong conjuration; **CL** 15th\
 **Slot** none; **Price** -; **Weight** 1 lb.

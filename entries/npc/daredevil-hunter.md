@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daredevil_hunter", path = "json/npcs4.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "140"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "16"
 
 **Challenge rating:** 16
 
-**Sources:** NPC Codex pg 140\
 **XP** 76,800\
 Elf [ranger](ref/class/ranger) 17\
 CN Medium humanoid (elf)\

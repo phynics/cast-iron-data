@@ -6,6 +6,9 @@ source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "restorative_vigor", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "healers-handbook"
+page = "15"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Your vigor pool gains 1 vigor point. Whenever you spend vigor points,
 +++
 
 ## Restorative Vigor (Combat)
-
-**Sources:** Healer's Handbook pg 15
 
 You can recover from additional kinds of damage using your vigor.\
 **Prerequisites:** Con 15, [Combat Vigor](ref/feat/combat-vigor), character level 8th.\

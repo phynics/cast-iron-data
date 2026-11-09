@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "far_shot", path = "json/feat06.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "124"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "You suffer a -2 penalty per full range increment between you and your 
 +++
 
 ## Far Shot (Combat)
-
-**Sources:** PRPG Core Rulebook pg 124
 
 You are more accurate at longer ranges.\
 **Prerequisites:** [Point-Blank Shot](ref/feat/point-blank-shot).\

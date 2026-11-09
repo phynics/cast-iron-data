@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fester", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "221"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: Fortitude partial
 Spell resistance: yes
 Target: one living creature
 :::
-
-**Sources:** Advanced Player's Guide pg 221
 
 Necrotic energy permeates the target, blocking healing abilities. The subject gains
 [spell resistance](ref/rule/spell-resistance) equal to 12 + your caster level against effects that

@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "entangling_infusion", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "19"
 
 [fields]
 kind = "class_option"
@@ -26,8 +29,6 @@ group = "kineticist-wild-talent"
 [Mud Blast](ref/kinetic/mud-blast), [Sandstorm Blast](ref/kinetic/sandstorm-blast)
 
 **Saving throw:** Reflex negates
-
-**Source:** Occult Adventures/19
 
 Your kinetic blast surrounds your foes in elemental matter.
 

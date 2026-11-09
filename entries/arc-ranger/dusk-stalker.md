@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ranger" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "110"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Hunter's bond", "Camouflage"]
 alters = ["Favored terrain"]
 +++
 
-**Sources:** Advanced Race Guide pg 110\
 Hunters and guides through the Shadow Plane, dusk stalkers are rangers that thrive in shadow. Adept
 at hunting in dusk, darkness, and twilight, these rangers excel at manipulating shadows.
 

@@ -6,6 +6,9 @@ source_ids = ["demon-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "righteous_blood", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "demon-hunters-handbook"
+page = "27"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Spell resistance: yes (harmless)
 Target: one creature of good alignment
 Descriptors: good
 :::
-
-**Sources:** Demon Hunter's Handbook pg 27
 
 The target creature's innate goodness infuses its body with holy energy. While this energy does not
 directly empower the target, it can harm embodiments of evil. Any creature that damages the target

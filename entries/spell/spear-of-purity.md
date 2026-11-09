@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spear_of_purity", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "240"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: yes
 Effect: spear-shaped projectile of good energy
 Descriptors: good
 :::
-
-**Sources:** Ultimate Magic pg 240
 
 You hurl a pure white or golden spear of light from your holy symbol, affecting any one target
 within range as a ranged touch attack.

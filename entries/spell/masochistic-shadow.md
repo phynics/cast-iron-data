@@ -6,6 +6,9 @@ source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "masochistic_shadow", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "blood-of-shadows"
+page = "30"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: evil, shadow
 :::
-
-**Sources:** Blood of Shadows pg 30
 
 You animate the target's shadow with semi-living energies drawn from the Shadow Plane, instilling a
 maddening hunger for its owner's life energy within it. If the target fails its Will save, it takes

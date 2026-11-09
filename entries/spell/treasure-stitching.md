@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "treasure_stitching", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "250"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: Fortitude negates (object)
 Spell resistance: yes (object)
 Targets: all objects on cloth
 :::
-
-**Sources:** Advanced Player's Guide pg 250
 
 You can transform all objects placed on a cloth into an embroidered, two-dimensional representation,
 making it easy for you to store and transport the items. You can pile any amount or weight of

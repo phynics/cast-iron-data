@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "champions-of-balance"
+page = "18"
 
 [fields]
 kind = "archetype"
 replaces = ["Bardic knowledge", "Inspire courage", "Inspire greatness", "Versatile performance", "Lore master"]
 +++
 
-**Sources:** Champions of Balance pg 18\
 Bards are experts at manipulating the emotions and perceptions of others. Negotiators are those
 bards who take the skills of a performer and apply them to the realms of business and law.
 

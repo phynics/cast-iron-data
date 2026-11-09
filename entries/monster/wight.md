@@ -6,6 +6,9 @@ source_ids = ["bestiary", "undead-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wight", path = "json/monsters25.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "276"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ sockets glowing with red light._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 276\
 **Type:** undead
 
 **Experience points:** 800

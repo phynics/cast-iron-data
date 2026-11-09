@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/spiritualist" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "7"
 
 [fields]
 kind = "archetype"
 replaces = ["Bonded senses", "Spiritual interference", "greater spiritual interference", "See invisibility", "Spiritual bond"]
 +++
 
-**Sources:** Psychic Anthology pg 7\
 Ushers of lost souls are spiritualists who focus on bringing the souls of the dead to their final
 judgments at the end of the River of Souls. To this end, they specialize in destroying undead and in
 laying haunts to rest. Skeptics who point out the apparent contradiction that ushers of lost souls

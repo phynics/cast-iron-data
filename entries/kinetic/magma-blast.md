@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magma_blast", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "16"
 
 [fields]
 kind = "class_option"
@@ -27,7 +30,5 @@ group = "kineticist-wild-talent"
 **Damage:** half bludgeoning, half fire
 
 **Prerequisite:** [earth blast](ref/kinetic/earth-blast), [fire blast](ref/kinetic/fire-blast)
-
-**Source:** Occult Adventures/16
 
 You use your fire to superheat the earth into a flow of magma, which you send against a single foe.

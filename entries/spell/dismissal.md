@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dismissal", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "271"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Saving throw: Will negates; see text
 Spell resistance: yes
 Target: one extraplanar creature
 :::
-
-**Sources:** PRPG Core Rulebook pg 271
 
 This spell forces an extraplanar creature back to its proper plane if it fails a Will save. If the
 spell is successful, the creature is instantly whisked away, but there is a 20% chance of actually

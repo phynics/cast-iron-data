@@ -6,12 +6,14 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aff_beast_riders", path = "json/rules_subsystems01.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "126"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Adventurer's Guide pg 126\
 **Pathfinder Name:** Mammoth Lords\
 **Scope:** regional\
 **Alignment:** N\

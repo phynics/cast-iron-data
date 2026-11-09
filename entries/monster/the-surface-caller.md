@@ -6,6 +6,9 @@ source_ids = ["darklands-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_surface_caller", path = "json/monsters_unique3.json" },
 ]
+[[sources]]
+publication = "darklands-revisited"
+page = "9"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ demonic face._
 
 **Senses:** Darkvision 120 ft.
 
-**Sources:** Darklands Revisited pg 9\
 **Subtype:** Elf
 
 **Experience points:** 3,200

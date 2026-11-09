@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "broken_rune_bracers_shoanti", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "229"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "7th"
 +++
 
-**Sources:** Inner Sea Races pg 229\
 **Aura** moderate abjuration; **CL** 7th\
 **Slot** wrists; **Price** 9,000 gp; **Weight** -
 

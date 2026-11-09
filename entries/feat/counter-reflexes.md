@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "counter_reflexes", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "144"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Opponents with the Mobility feat do not gain the dodge bonus granted 
 +++
 
 ## Counter Reflexes (Combat)
-
-**Sources:** Advanced Class Guide pg 144
 
 Your opponent's advanced training in moving around you is surpassed only by your readiness for it.\
 **Prerequisites:** [Anticipate Dodge](ref/feat/anticipate-dodge), [Dodge](ref/feat/dodge),

@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "for_love_of_sport", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "137"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 137
 
 What was to be a joyous occasion, the naming ceremony for the king and queen's newborn child,
 quickly turned to a scene of horror. The doors to the grand chamber opened and an old woman playing

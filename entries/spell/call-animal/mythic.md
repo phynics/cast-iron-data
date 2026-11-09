@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/call-animal", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "87"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 87\
 You can call up to one animal per 2 caster levels. Animals that answer your call have a starting
 attitude of friendly. Add your tier to Handle Animal checks attempted to influence these animals.
 

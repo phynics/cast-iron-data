@@ -6,6 +6,8 @@ source_ids = ["horror-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "relentless_reprise", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "horror-realms"
 
 [fields]
 kind = "class_option"
@@ -13,8 +15,6 @@ group = "bardic-masterpiece"
 +++
 
 ## Relentless Reprise (Keyboard, Sing, String, Wind)
-
-**Sources:** Horror Realms
 
 Your song replays endlessly in your target's mind, sapping resolve and sanity.
 

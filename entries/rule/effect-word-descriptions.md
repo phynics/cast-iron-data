@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "effect_word_descriptions", path = "json/rules_opt_magic03.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "167"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 167
 
 Effect words determine the overall outcome of a wordspell. A wordspell can contain more than one
 effect word, and it is possible for their effects to counteract one another. Effect words use the

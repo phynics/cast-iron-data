@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_bestial_transformation", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "blood-of-the-night"
+page = "16"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Vampire."
 benefit = "You can change shape to assume the form of one of the following beasts, as beast shape II: boar, dire bat, giant frog, grizzly bear, hyena, leopard, lion, shark, squid, or wolf. This is a supernatural ability."
 special = "You can gain this feat multiple times. Each time you take this feat, choose another animal transformation."
 +++
-
-**Sources:** Blood of the Night pg 16
 
 You have mastered the ability to transform into a variety of beasts.\
 **Prerequisites:** [Vampire](ref/template/vampire).\

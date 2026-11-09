@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/protection-from-evil" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "327"
 
 [fields]
 kind = "spell"
@@ -57,8 +60,6 @@ Descriptors: good
 :::
 
 ### Protection from Chaos
-
-**Sources:** PRPG Core Rulebook pg 327
 
 This spell functions like _[protection from evil](ref/spell/protection-from-evil),_ except that the
 deflection and resistance bonuses apply to attacks made by chaotic creatures. The target receives a

@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aegis", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "157"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation"
 caster_level = "15th"
 +++
 
-**Sources:** Mythic Adventures pg 157\
 **Aura** strong transmutation; **CL** 15th\
 **Slot** shield; **Price** -; **Weight** 15 lbs.
 

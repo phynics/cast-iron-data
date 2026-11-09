@@ -6,6 +6,15 @@ source_ids = ["ultimate-equipment", "dungeon-denizens-revisited", "advanced-play
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alkali_flask", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "107"
+[[sources]]
+publication = "dungeon-denizens-revisited"
+page = "19"
+[[sources]]
+publication = "advanced-players-guide"
+page = "184"
 
 [fields]
 kind = "item"
@@ -14,8 +23,6 @@ price = "15 gp"
 weight = "1 lb."
 +++
 
-**Sources:** Ultimate Equipment pg 107, Dungeon Denizens Revisited pg 19, Advanced Player's Guide pg
-184\
 **Price** 15 gp; **Weight** 1 lb.\
 **Category** Alchemical Weapons
 

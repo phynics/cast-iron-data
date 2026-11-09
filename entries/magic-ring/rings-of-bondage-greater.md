@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rings_of_bondage_greater", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "242"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment"
 caster_level = "11th"
 +++
 
-**Sources:** Ultimate Intrigue pg 242\
 **Aura** moderate enchantment; **CL** 11th\
 **Slot** ring; **Price** 42,000 gp; **Weight** -
 

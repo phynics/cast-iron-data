@@ -6,6 +6,12 @@ source_ids = ["bestiary-2", "the-great-beyond-a-guide-to-the-multiverse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daemon_astradaemon", path = "json/monsters06.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "63"
+[[sources]]
+publication = "the-great-beyond-a-guide-to-the-multiverse"
+page = "54"
 
 [fields]
 kind = "creature"
@@ -45,7 +51,6 @@ limbs and writhing tendrils._
 
 **Senses:** Darkvision 60 ft., Deathwatch, True seeing
 
-**Sources:** Bestiary 2 pg 63, The Great Beyond - A Guide to the Multiverse pg 54\
 **Subtype:** Daemon, Evil, Extraplanar
 
 **Experience points:** 76,800

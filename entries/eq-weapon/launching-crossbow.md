@@ -6,14 +6,15 @@ source_ids = ["adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "launching_crossbow", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "adventurers-armory"
+page = "4"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "8 lbs."
 +++
-
-**Sources:** Adventurer's Armory pg 4
 
 This stubby-looking crossbow has a cup-like attachment rather than a groove for a bolt. It is
 designed to launch splash weapons. Loading a launching crossbow is a full-round action.

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/swashbuckler" },
 ]
+[[sources]]
+publication = "blood-of-the-beast"
+page = "24"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Opportune parry and riposte", "4th-level bonus feat", "Menacing swo
 alters = ["Nimble"]
 +++
 
-**Sources:** Blood of the Beast pg 24\
 Many [tengus](ref/race/tengu) still hold some bitterness at their lack of wings, and while a small
 number cultivate enough magic in themselves to recall the gift of flight, those tengu denizens of
 Golarion's greatest cities have refined their own way to fly. Coursers move with grace and ease,

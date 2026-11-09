@@ -6,13 +6,14 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "angelskin", path = "json/equipment_special_materials.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "48"
 
 [fields]
 kind = "item"
 category = "Special Materials"
 +++
-
-**Sources:** Ultimate Equipment pg 48
 
 The preserved skin of an angel retains a portion of celestial grace and can be crafted into leather,
 hide, or studded leather armor. Angelskin radiates a moderate good aura that masks malign auras. Any

@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "team_up", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "172"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "Aid another is a standard action."
 +++
 
 ## Team Up (Combat)
-
-**Sources:** Advanced Player's Guide pg 172
 
 When you are ganging up against an enemy, you can aid an ally with a quick feint.\
 **Prerequisites:** Int 13, [Combat Expertise](ref/feat/combat-expertise),

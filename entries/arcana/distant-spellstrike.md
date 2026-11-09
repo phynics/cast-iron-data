@@ -6,13 +6,14 @@ source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "distant_spellstrike", path = "json/class_ability_magus_arcana.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-streets"
+page = "11"
 
 [fields]
 kind = "class_option"
 group = "magus-arcana"
 +++
-
-**Sources:** Heroes of the Streets pg 11
 
 **Distant Spellstrike (Su):**
 

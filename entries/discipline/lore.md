@@ -6,13 +6,15 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lore", path = "json/class_ability_disciplines.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "66"
 
 [fields]
 kind = "class_option"
 group = "psychic-discipline"
 +++
 
-**Sources:** Occult Adventures pg 66\
 By collecting expert information and reading all sorts of treatises and chapbooks on occult
 subjects, you learn proper techniques and rituals to empower your mental abilities. Your abilities
 become stronger through study and science, not instinct.

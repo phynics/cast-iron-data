@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chilling_infusion", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "18"
 
 [fields]
 kind = "class_option"
@@ -24,8 +27,6 @@ group = "kineticist-wild-talent"
 [Ice Blast](ref/kinetic/ice-blast)
 
 **Saving throw:** Fortitude negates
-
-**Source:** Occult Adventures/18
 
 Your kinetic blast chills your foes to the bone, making their movements sluggish.
 

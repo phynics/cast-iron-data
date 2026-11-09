@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "creating_scrolls", path = "json/rules_basics04.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "552"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 552
 
 To create a scroll, a character needs a supply of choice writing materials, the cost of which is
 subsumed in the cost for scribing the scroll: 12.5 gp × the level of the spell × the level of the

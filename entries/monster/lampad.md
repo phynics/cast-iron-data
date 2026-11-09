@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lampad", path = "json/monsters34.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "178"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ feet._
 
 **Senses:** Darkvision 90 ft., Low-light vision
 
-**Sources:** Bestiary 4 pg 178\
 **Experience points:** 1,600
 
 **Armor class:** 20/20/15

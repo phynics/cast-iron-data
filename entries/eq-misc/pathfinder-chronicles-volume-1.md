@@ -6,6 +6,9 @@ source_ids = ["pathfinder-society-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pathfinder_chronicles___volume_1", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "pathfinder-society-primer"
+page = "26"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "200 gp"
 weight = "1 lb."
 +++
 
-**Sources:** Pathfinder Society Primer pg 26\
 **Price** 200 gp; **Weight** 1 lb.\
 **Category** [Pathfinder Chronicles](ref/rule/pathfinder-chronicles)
 

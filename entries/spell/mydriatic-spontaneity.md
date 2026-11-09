@@ -6,6 +6,9 @@ source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mydriatic_spontaneity", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "blood-of-shadows"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: yes
 Target: one living creature
 Descriptors: darkness, light
 :::
-
-**Sources:** Blood of Shadows pg 28
 
 You overstimulate the target with alternating flashes of light and shadow within its eyes, causing
 its pupils to rapidly dilate and contract. While under the effects of this spell, the target is

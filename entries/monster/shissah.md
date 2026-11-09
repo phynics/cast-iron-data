@@ -6,6 +6,9 @@ source_ids = ["qadira-jewel-of-the-east"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shissah", path = "json/monsters38.json" },
 ]
+[[sources]]
+publication = "qadira-jewel-of-the-east"
+page = "63"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ intelligence._
 
 **Senses:** Desert senses, Low-light vision, Scent
 
-**Sources:** Qadira, Jewel of the East pg 63\
 **Experience points:** 1,200
 
 **Armor class:** 17/14/12

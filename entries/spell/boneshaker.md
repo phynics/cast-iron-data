@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boneshaker", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "110"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Saving throw: Fortitude negates or partial (see text)
 Spell resistance: yes
 Target: one living creature or undead creature with a skeleton
 :::
-
-**Sources:** Horror Adventures pg 110
 
 By using a bone fetish like a marionette, you take control of a target creature's skeleton. This has
 a variety of effects depending on whether the target is living or undead.

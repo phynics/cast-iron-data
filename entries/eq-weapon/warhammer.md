@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "warhammer", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "18"
+[[sources]]
+publication = "core-rulebook"
+page = "142"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "5 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 18, PRPG Core Rulebook pg 142
 
 This weapon consists of a wooden haft and a heavy, metal head. The head may be single (like a
 carpenter's hammer) or double (like a sledgehammer). The haft is long enough that you may wield it

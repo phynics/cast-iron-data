@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drake_mist_drake", path = "json/monsters31.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "79"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ with the mist._
 
 **Senses:** Darkvision 60 ft., Fogvision, Low-light vision, Scent
 
-**Sources:** Bestiary 4 pg 79\
 **Subtype:** Air
 
 **Experience points:** 1,600

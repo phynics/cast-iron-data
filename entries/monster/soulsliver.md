@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soulsliver", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "250"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _This smooth-featured, humanoid creature appears to have skin made entirely of m
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 4 pg 250\
 **Subtype:** Extraplanar, Shapechanger
 
 **Experience points:** 600

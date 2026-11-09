@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "relationships_and_loyalty", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "98"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 98
 
 In an intrigue-based game, interpersonal relationships are spotlighted, and serve a variety of
 different roles and purposes. The way that people's reactions and feelings change with time and

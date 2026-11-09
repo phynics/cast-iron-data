@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "gods-and-magic", "pathfinder-8-seven-days-to-th
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "key_of_the_second_vault", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "266"
+[[sources]]
+publication = "gods-and-magic"
+page = "58"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint transmutation and conjuration [lawful]"
 caster_level = "5th"
 +++
 
-**Sources:** Inner Sea Gods pg 266, Gods and Magic pg 58\
 **Aura** faint transmutation and conjuration \[lawful\]; **CL** 5th\
 **Slot** none or neck; **Price** 3,000 gp; **Weight** -
 

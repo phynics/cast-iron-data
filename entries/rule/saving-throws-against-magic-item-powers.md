@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "saving_throws_against_magic_item_powers", path = "json/rules_basics02.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "459"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 459
 
 Magic items produce spells or spell-like effects. For a saving throw against a spell or spell-like
 effect from a magic item, the DC is 10 + the level of the spell or effect + the ability modifier of

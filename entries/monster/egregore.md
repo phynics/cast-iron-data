@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "egregore", path = "json/monsters09.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "104"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ impression of an open eye floats before it._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 5 pg 104\
 **Experience points:** 9,600
 
 **Armor class:** 27/13/23

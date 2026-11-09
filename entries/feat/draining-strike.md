@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "draining_strike", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "144"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You must declare that you are using this feat before you make your at
 +++
 
 ## Draining Strike (Combat)
-
-**Sources:** Advanced Class Guide pg 144
 
 With a well-aimed strike, you cause your target to become fatigued or exhausted.\
 **Prerequisites:** Dex 13, Wis 13, [Improved Unarmed Strike](ref/feat/improved-unarmed-strike), base

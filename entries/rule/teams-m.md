@@ -6,12 +6,13 @@ source_ids = ["lands-of-conflict"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "teams_m", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "lands-of-conflict"
+page = "52"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Lands of Conflict pg 52
 
 A wide range of common teams are available for the militia to recruit. Each grants different
 abilities, bonuses, and militia actions. The PCs' militia can support a maximum number of teams

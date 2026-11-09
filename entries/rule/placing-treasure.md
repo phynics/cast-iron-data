@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "placing_treasure", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "399"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 399
 
 As PCs gain levels, the amount of treasure they carry and use increases as well. The Pathfinder
 Roleplaying Game assumes that all PCs of equivalent level have roughly equal amounts of treasure and

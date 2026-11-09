@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burn_corruption", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "218"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: yes
 Area: 10-ft. cube/level (S)
 Descriptors: fire, good
 :::
-
-**Sources:** Inner Sea Races pg 218
 
 > _The following spell is available to the indicated race or ethnicity: [Elf](ref/race/elf)_
 

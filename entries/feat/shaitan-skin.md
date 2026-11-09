@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shaitan_skin", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "118"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You gain one additional Elemental Fist attempt per day. While using t
 +++
 
 ## Shaitan Skin (Combat)
-
-**Sources:** Ultimate Combat pg 118
 
 You can manipulate acid to shield yourself and disable your enemies.\
 **Prerequisites:** Con 15, Wis 15, [Elemental Fist](ref/feat/elemental-fist),

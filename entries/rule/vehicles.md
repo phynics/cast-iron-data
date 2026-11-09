@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vehicles", path = "json/rules_rulesets02.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "170"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 170
 
 In the Pathfinder Roleplaying Game, low-level characters do most of their traveling on their own two
 feet. At higher levels, magical travel becomes a common occurrence, as does travel by horseback,

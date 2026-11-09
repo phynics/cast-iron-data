@@ -6,14 +6,15 @@ source_ids = ["pathfinder-61-shards-of-sin"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "derro_magister", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "pathfinder-61-shards-of-sin"
+page = "58"
 
 [fields]
 kind = "feat"
 prerequisites = "Cha 20, derro."
 benefit = "A derro magister's spell resistance equals the derro's Hit Dice +10. Heal is always a class skill for a derro magister, and it gains a +4 racial bonus on all Heal checks."
 +++
-
-**Sources:** Pathfinder \#61: Shards of Sin pg 58
 
 A derro magister's mind is particularly affected by the consumption of strange mold, granting
 enhanced resistance to magic and additional [spell-like abilities](ref/umr/spell-like-abilities) and

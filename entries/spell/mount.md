@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mount", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "315"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: no
 Effect: one mount
 Subschool: Summoning
 :::
-
-**Sources:** PRPG Core Rulebook pg 315
 
 You summon a light horse or a pony (your choice) to serve you as a mount. The steed serves willingly
 and well. The mount comes with a bit and bridle and a riding saddle.

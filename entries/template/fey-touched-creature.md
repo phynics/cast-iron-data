@@ -6,6 +6,9 @@ source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fey_touched_creature", path = "json/monster_template1.json" },
 ]
+[[sources]]
+publication = "heroes-from-the-fringe"
+page = "17"
 
 [fields]
 kind = "none"
@@ -20,8 +23,6 @@ kind = "none"
 **Maybesummon:** present
 
 **Simple:** present
-
-**Source:** Heroes from the Fringe/17
 
 Fey-touched creatures are descended from inhabitants of the First World and often possess striking
 features compared to their normal counterparts, such as bright coloration or a cunning visage. The

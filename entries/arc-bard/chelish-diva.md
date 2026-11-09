@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "32"
 
 [fields]
 kind = "archetype"
 replaces = ["Bardic knowledge", "Well-versed", "Lore master", "Inspire competence", "Dirge of doom"]
 +++
 
-**Sources:** Inner Sea Magic pg 32\
 Cheliax is well known for its elaborate operas, and as with any kind of theater, there are
 performers whose egos get the better of them. Some have an inflated idea of their talent and
 importance. A few, the Chelish divas, are wholly justified in their feelings of superiority. In

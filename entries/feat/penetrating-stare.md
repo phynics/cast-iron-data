@@ -6,6 +6,9 @@ source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "penetrating_stare", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "17"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When you trigger your painful stare, the damage dealt ignores 5 point
 +++
 
 ## Penetrating Stare (Combat, Stare)
-
-**Sources:** Psychic Anthology pg 17
 
 Your stare penetrates right through your foe's strongest mental defenses.\
 **Prerequisites:** [Mesmerist](ref/class/mesmerist) level 7th, painful stare class feature.\

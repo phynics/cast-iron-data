@@ -6,6 +6,9 @@ source_ids = ["pathfinder-136-temple-of-the-peacock-spirit"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "asura_japalisura", path = "json/monsters02.json" },
 ]
+[[sources]]
+publication = "pathfinder-136-temple-of-the-peacock-spirit"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ _This lithe, six-armed humanoid has tusks that curve from his chin and carries a
 
 **Senses:** Darkvision 60 ft., See invisibility
 
-**Sources:** Pathfinder \#136: Temple of the Peacock Spirit pg 84\
 **Subtype:** Asura, Evil, Extraplanar, Lawful
 
 **Experience points:** 19,200

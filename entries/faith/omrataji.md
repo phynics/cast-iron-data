@@ -6,6 +6,9 @@ source_ids = ["distant-shores"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "omrataji", path = "json/faiths6.json" },
 ]
+[[sources]]
+publication = "distant-shores"
+page = "43"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Omrataji**
 
 **Sub:** The Spirit in Silver
-
-**Sources:** Distant Shores pg 43
 
 ### Details
 

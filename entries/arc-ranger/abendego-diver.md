@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ranger" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
+page = "12"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Track", "Wild empathy", "Favored terrain", "Woodland stride", "Swif
 alters = ["Weapon and armor proficiencies"]
 +++
 
-**Sources:** Elemental Master's Handbook pg 12\
 Named for the vicious and unending storm in the southern Arcadian Ocean, Abendego divers have pushed
 their bodies to their limits, holding their breath to expand their lung capacity and swimming until
 ocean travel is second nature to them.

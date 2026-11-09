@@ -6,12 +6,13 @@ source_ids = ["alchemy-manual"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pei_zin_herbalism", path = "json/rules_rulesets02.json" },
 ]
+[[sources]]
+publication = "alchemy-manual"
+page = "24"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Alchemy Manual pg 24
 
 The term "Pei Zin" translates to "the process" in the Tien language, though the expression is most
 often used in reference to traditional Tian medicinal and restorative practices. Pei Zin herbalism

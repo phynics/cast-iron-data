@@ -6,12 +6,13 @@ source_ids = ["pathfinder-28-the-infernal-syndrome"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "possession_actions", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "pathfinder-28-the-infernal-syndrome"
+page = "58"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder \#28: The Infernal Syndrome pg 58
 
 A variety of actions are available to fiends who possess creatures, objects, or locations. GMs are
 encouraged to use these abilities as guidelines and create similar abilities for their own fiendish

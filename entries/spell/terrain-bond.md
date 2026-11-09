@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "terrain_bond", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "247"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Target: you
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Ultimate Combat pg 247
 
 You call upon the spirits of nature to help you adapt to your environment. You treat the terrain you
 are in as your most [favored terrain](ref/ability/favored-terrain) until this spell ends.

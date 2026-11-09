@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "covetous_urge", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "8"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Target: one living creature with 7 HD or fewer
 Subschool: Compulsion
 Descriptors: curse, language-dependant
 :::
-
-**Sources:** Villain Codex pg 8
 
 You curse the target with insatiable greed, causing it to attempt to steal any item worth 100 gp or
 more that it can see, each time it enters a new room or area. If it can see multiple items of value

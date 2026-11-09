@@ -6,6 +6,9 @@ source_ids = ["bestiary", "classic-horrors-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghost", path = "json/monster_template2.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "144"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +2
-
-**Source:** Pathfinder RPG Bestiary/144
 
 "Ghost" is an acquired template that can be added to any living creature that has a Charisma score
 of at least 6. A ghost retains all the base creature's statistics and special abilities except as

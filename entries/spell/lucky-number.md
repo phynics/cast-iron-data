@@ -6,6 +6,9 @@ source_ids = ["occult-mysteries"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lucky_number", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "occult-mysteries"
+page = "50"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Saving throw: none
 Spell resistance: no
 Target: one willing creature
 :::
-
-**Sources:** Occult Mysteries pg 50
 
 You are able to tweak tiny variables affecting a creature's immediate future in order to grant the
 target a bit of luck at the right time. Roll a d20; once during the duration of lucky number, when

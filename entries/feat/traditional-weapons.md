@@ -6,6 +6,9 @@ source_ids = ["path-of-the-hellknight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "traditional_weapons", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "path-of-the-hellknight"
+page = "45"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You receive a +2 bonus on combat maneuver checks against creatures wi
 +++
 
 ## Traditional Weapons (Combat)
-
-**Sources:** Path of the Hellknight pg 45
 
 You're a master of utilizing simple, time-trusted arms against strange or technological weapons.\
 **Prerequisites:** Int 13.\

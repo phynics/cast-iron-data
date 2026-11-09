@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/fighter" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "46"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["The 1st-level fighter bonus combat feat", "Armor training 2", "Weap
 alters = ["Weapon training", "Weapon mastery"]
 +++
 
-**Sources:** Ultimate Combat pg 46\
 These gallant lancers serve in the vanguard of many armies or as knights-errant. They are born
 leaders and masters of the mounted charge.
 

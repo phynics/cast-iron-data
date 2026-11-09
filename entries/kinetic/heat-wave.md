@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heat_wave", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "25"
 
 [fields]
 kind = "class_option"
@@ -24,8 +27,6 @@ group = "kineticist-wild-talent"
 
 **Prerequisite:** [heat adaptation](ref/kinetic/heat-adaptation),
 [searing flesh](ref/kinetic/searing-flesh)
-
-**Source:** Occult Adventures/25
 
 You create an aura of shimmering heat that distorts the area around you. Until the next time your
 burn is removed, you can begin or end the heat aura as a **swift action**. The temperature in the

@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "toxic_rupture", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes
 Target: one poisonous creature
 Descriptors: poison
 :::
-
-**Sources:** Dirty Tactics Toolbox pg 29
 
 With a squeezing hand gesture, you cause internal bleeding in the target creature's venom glands or
 similar organs. The target must attempt a saving throw against its own poison using the DC for this

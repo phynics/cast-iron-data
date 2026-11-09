@@ -6,6 +6,9 @@ source_ids = ["pathfinder-122-into-the-shattered-continent"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "electro_temporal_bracer", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "pathfinder-122-into-the-shattered-continent"
+page = "74"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation"
 caster_level = "17th"
 +++
 
-**Sources:** Pathfinder \#122: Into the Shattered Continent pg 74\
 **Aura** strong transmutation; **CL** 17th\
 **Slot** wrists; **Price** 32,000 gp; **Weight** 1 lb.
 

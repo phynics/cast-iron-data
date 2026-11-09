@@ -6,6 +6,9 @@ source_ids = ["pathfinder-39-the-city-of-seven-spears"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "savage_sting", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "pathfinder-39-the-city-of-seven-spears"
+page = "56"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong divination"
 caster_level = "12th"
 +++
 
-**Sources:** Pathfinder \#39: The City of Seven Spears pg 56\
 **Aura** strong divination; **CL** 12th\
 **Slot** none; **Price** 38,302 gp; **Weight** 1 lb.
 

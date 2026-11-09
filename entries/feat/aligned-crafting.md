@@ -10,6 +10,9 @@ relations = [
   { kind = "prerequisite", target = "ref/feat/craft-magic-arms-and-armor", label = "or" },
   { kind = "prerequisite", target = "ref/feat/craft-wondrous-item", label = "or" },
 ]
+[[sources]]
+publication = "people-of-the-wastes"
+page = "26"
 
 [fields]
 kind = "feat"
@@ -20,8 +23,6 @@ benefit = "When you craft a magic weapon, magic armor, a magic shield, or a wond
 +++
 
 ## Aligned Crafting (Item Creation)
-
-**Sources:** People of the Wastes pg 26
 
 Your magical creations reject those you oppose.\
 **Prerequisites:** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor) or

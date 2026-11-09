@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ride_the_lightning", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "235"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: no
 Target: you
 Descriptors: electricity
 :::
-
-**Sources:** Ultimate Magic pg 235
 
 You may transform into lightning as a standard action and instantly travel in a straight line to a
 distance of up to 120 feet, rematerializing in the new location as a free action. This movement does

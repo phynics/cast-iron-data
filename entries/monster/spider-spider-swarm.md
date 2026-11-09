@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spider_spider_swarm", path = "json/monsters39.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "258"
 
 [fields]
 kind = "creature"
@@ -39,7 +42,6 @@ _An awful, scuttling mass of legs and mandibles scrambles forward out of the dar
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 258\
 **Subtype:** Swarm
 
 **tremorsense:** 30

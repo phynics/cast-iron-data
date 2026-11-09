@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "questions_about_your_feudal_society", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "153"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 153
 
 When designing a feudal society, consider the following:
 

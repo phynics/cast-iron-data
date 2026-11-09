@@ -6,6 +6,9 @@ source_ids = ["path-of-the-hellknight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hellknight_obsession", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "path-of-the-hellknight"
+page = "62"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Hellknight Obedience, Knowledge (planes) 3 ranks, must swear al
 prerequisite_feats = ["ref/feat/hellknight-obedience"]
 benefit = "During your hour-long Hellknight reckoning, if you choose to deal lethal damage to yourself, you reach a state of fantastic focus. Once during the next 24 hours, you can draw upon this focus to gain the benefits of any one of the following effects. To activate the ability, you must deal 1 point of lethal damage to yourself as a swift action (unless otherwise noted). Members of the Order of the Nail often install a sharp barb within their armor that deals this damage when the wearer is subject to a critical hit; if you're struck by a critical hit while wearing such armor, using this ability doesn't require a swift action."
 +++
-
-**Sources:** Path of the Hellknight pg 62
 
 You equate pain with discipline and can inflict damage upon yourself to unlock greater power.\
 **Prerequisites:** [Hellknight Obedience](ref/feat/hellknight-obedience), Knowledge (planes) 3

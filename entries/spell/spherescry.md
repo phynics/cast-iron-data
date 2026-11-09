@@ -6,6 +6,9 @@ source_ids = ["classic-treasures-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spherescry", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "classic-treasures-revisited"
+page = "45"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: no
 Target: sphere of annihilation
 Subschool: Scrying
 :::
-
-**Sources:** Classic Treasures Revisited pg 45
 
 This spell allows remote viewing through spheres that have previously consumed some portion of the
 spellcaster's body: a single digit of a finger or toe at a minimum. The caster can view and listen

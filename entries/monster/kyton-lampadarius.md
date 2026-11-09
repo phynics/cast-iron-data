@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kyton_lampadarius", path = "json/monsters15.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "315"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ flesh and shifting shadowstuff._
 
 **Senses:** Darkvision 60 ft., See in darkness
 
-**Sources:** Inner Sea Gods pg 315\
 **Subtype:** Evil, Extraplanar, Kyton, Lawful
 
 **Experience points:** 1,200

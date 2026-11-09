@@ -6,6 +6,12 @@ source_ids = ["familiar-folio", "ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_peafowl", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "familiar-folio"
+page = "27"
+[[sources]]
+publication = "ultimate-wilderness"
+page = "201"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ its back._
 
 **Size:** small
 
-**Sources:** Familiar Folio pg 27, Ultimate Wilderness pg 201\
 **Experience points:** 100
 
 **Armor class:** 12/12/11

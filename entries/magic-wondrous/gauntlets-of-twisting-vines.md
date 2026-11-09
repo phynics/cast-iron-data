@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gauntlets_of_twisting_vines", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-wild"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Heroes of the Wild pg 28\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** hands; **Price** 5,000 gp; **Weight** 2 lbs.
 

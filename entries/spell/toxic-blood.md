@@ -6,6 +6,9 @@ source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "toxic_blood", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "potions-and-poisons"
+page = "11"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Spell resistance: no
 Target: creature touched
 Descriptors: poison
 :::
-
-**Sources:** Potions and Poisons pg 11
 
 The target creature's blood becomes poisonous. Anytime the target takes piercing or slashing damage,
 a spray of acidic blood spurts from its body in the direction of the opponent who inflicted the

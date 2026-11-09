@@ -6,6 +6,9 @@ source_ids = ["pathfinder-101-the-kintargo-contract"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wraithwing", path = "json/monsters25.json" },
 ]
+[[sources]]
+publication = "pathfinder-101-the-kintargo-contract"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ wings sprouts from its hunched back._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#101: The Kintargo Contract pg 88\
 **Type:** undead
 
 **Experience points:** 1,200

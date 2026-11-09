@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "street_artist", path = "json/npcs7.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "31"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "7"
 
 **Challenge rating:** 7
 
-**Sources:** NPC Codex pg 31\
 **XP** 3,200\
 Elf [bard](ref/class/bard) 8\
 CN Medium humanoid (elf)\

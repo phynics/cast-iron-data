@@ -6,6 +6,9 @@ source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bathing_basin", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "inner-sea-monster-codex"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration and transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Inner Sea Monster Codex pg 29\
 **Aura** faint conjuration and transmutation; **CL** 5th\
 **Slot** none; **Price** 6,750 gp; **Weight** 5 lbs.
 

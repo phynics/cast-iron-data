@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "angry_jack", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "20"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "25 gp"
 weight = "2 lbs."
 +++
 
-**Sources:** Dirty Tactics Toolbox pg 20\
 **Price** 25 gp; **Weight** 2 lbs.\
 **Category** Black Market
 

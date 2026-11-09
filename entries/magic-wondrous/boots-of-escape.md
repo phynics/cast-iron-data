@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boots_of_escape", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "228"
+[[sources]]
+publication = "advanced-race-guide"
+page = "38"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate conjuration"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Equipment pg 228, Advanced Race Guide pg 38\
 **Aura** moderate conjuration; **CL** 5th\
 **Slot** feet; **Price** 8,000 gp; **Weight** 1 lb.
 

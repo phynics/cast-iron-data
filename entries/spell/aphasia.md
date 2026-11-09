@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aphasia", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "204"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Ultimate Intrigue pg 204
 
 You render the target unable to understand any language, including spoken language, written
 language, sign language, gestures attempting to mimic a crude language, or even truespeech and

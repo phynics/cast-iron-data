@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monster_almanac", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "221"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint (normal) or moderate (greater) divination"
 caster_level = "3rd (normal), 11th (greater)"
 +++
 
-**Sources:** Horror Adventures pg 221\
 **Aura** faint (normal) or moderate (greater) divination; **CL** 3rd (normal), 11th (greater)\
 **Slot** none; **Price** 4,000 gp (normal), 20,000 gp (greater); **Weight** 1/2 lb. (normal), 4 lbs.
 (greater)

@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improve_trap", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "137"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Saving throw: Will negates (object)
 Spell resistance: yes (object)
 Target: one trap
 :::
-
-**Sources:** Advanced Race Guide pg 137
 
 > _[Kobolds](ref/race/kobold) have access to the following spell._
 

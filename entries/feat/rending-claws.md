@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rending_claws", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "168"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "If you hit a creature with two claw attacks in the same turn, the sec
 +++
 
 ## Rending Claws (Combat)
-
-**Sources:** Advanced Player's Guide pg 168
 
 Your claw attacks do greater harm to your enemy.\
 **Prerequisites:** Str 13, two claw natural weapon attacks, base attack bonus +6.\

@@ -6,6 +6,9 @@ source_ids = ["daughters-of-fury"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiars_soulstone", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "daughters-of-fury"
+page = "59"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "9th"
 +++
 
-**Sources:** Daughters of Fury pg 59\
 **Aura** moderate necromancy; **CL** 9th\
 **Slot** none; **Price** 10,500 gp; **Weight** 1 lb.
 

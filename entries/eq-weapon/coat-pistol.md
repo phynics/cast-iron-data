@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "coat_pistol", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "43"
+[[sources]]
+publication = "ultimate-combat"
+page = "139"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "1 lb."
 +++
-
-**Sources:** Ultimate Equipment pg 43, Ultimate Combat pg 139
 
 Though less powerful than other, larger firearms, this pistol is small enough to be easily concealed
 in a jacket or coat. You get a +2 bonus on Sleight of Hand checks made to conceal a coat pistol on

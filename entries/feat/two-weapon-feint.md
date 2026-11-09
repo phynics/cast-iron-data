@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "two_weapon_feint", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "123"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using Two-Weapon Fighting to make melee attacks, you can forgo 
 +++
 
 ## Two-Weapon Feint (Combat)
-
-**Sources:** Ultimate Combat pg 123
 
 You use one weapon to distract your enemy while slipping another past his defenses.\
 **Prerequisites:** Dex 15, Int 13, [Combat Expertise](ref/feat/combat-expertise).\

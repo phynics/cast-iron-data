@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "book-of-the-damned", "book-of-the-damned-volume
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "zura", path = "json/faiths9.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "320"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Zura**
 
 **Sub:** The Vampire Queen
-
-**Sources:** Inner Sea Gods pg 320
 
 ### Details
 

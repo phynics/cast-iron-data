@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "caging_bomb_admixture", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "225"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Spell resistance: no
 Target: you
 Descriptors: force
 :::
-
-**Sources:** Ultimate Combat pg 225
 
 Upon drinking an extract created with this formulae, you make a significant change to your magical
 reserve that modifies the nature of all bombs you create and throw during this extract's duration.

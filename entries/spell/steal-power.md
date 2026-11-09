@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "steal_power", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "114"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: Will negates
 Spell resistance: yes
 Target: one mythic creature
 :::
-
-**Sources:** Mythic Adventures pg 114
 
 You sap the power from a mythic creature, using it to restore your own. The target loses 1d4 uses of
 mythic power. If you have the ability to expend mythic power, you regain one use for each use the

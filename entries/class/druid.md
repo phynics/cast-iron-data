@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "chronicle-of-legends", "blood-of-the-sea", "adva
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "druid", path = "json/classes5.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "48"
 
 [fields]
 kind = "class"
@@ -13,8 +16,6 @@ class_type = "core"
 hit_die = "d8"
 skill_ranks = "4 + Int modifier"
 +++
-
-**Sources:** PRPG Core Rulebook pg 48
 
 Within the purity of the elements and the order of the wilds lingers a power beyond the marvels of
 civilization. Furtive yet undeniable, these primal magics are guarded over by servants of

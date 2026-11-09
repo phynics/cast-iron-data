@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "learning_words_of_power", path = "json/rules_opt_magic03.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "162"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 162
 
 For a wordcaster, learning new words of power is akin to unlocking the secret laws of reality. Each
 word represents a new source of power that falls under the wordcaster's control. Words of power fall

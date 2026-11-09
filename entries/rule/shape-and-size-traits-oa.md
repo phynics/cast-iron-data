@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shape_and_size_traits_oa", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "236"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 236
 
 When the mindscape is manifested, the creator decides on the shape and size of the mental locale.
 Each of the following categories is possible.

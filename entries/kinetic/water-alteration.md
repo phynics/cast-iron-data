@@ -6,6 +6,9 @@ source_ids = ["occult-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "water_alteration", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-realms"
+page = "9"
 
 [fields]
 kind = "class_option"
@@ -21,8 +24,6 @@ group = "kineticist-wild-talent"
 **Level:** 1
 
 **Burn:** 0
-
-**Source:** Occult Realms/9
 
 You can turn fresh water into seawater, and vice versa. This can affect a volume of water equal to 2
 gallons per kineticist level, allowing sea creatures to survive in water that was fresh and

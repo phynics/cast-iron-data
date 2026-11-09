@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/investigator" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "56"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Weapon and armor proficiency", "Trapfinding", "Trap sense", "invest
 alters = ["Inspiration", "Alchemy"]
 +++
 
-**Sources:** Ultimate Wilderness pg 56\
 Natural philosophers are scholars, explorers, and survivalists who feel at home in nature, seldom
 longing for the comforts of the city. They eschew the fancy tools and weaponry of gentlefolk
 detectives and instead employ weapons that double as tools, materials available in nature, and

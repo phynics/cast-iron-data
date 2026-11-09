@@ -6,6 +6,12 @@ source_ids = ["adventurers-guide", "path-of-the-hellknight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brand_of_conformity", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "97"
+[[sources]]
+publication = "path-of-the-hellknight"
+page = "60"
 
 [fields]
 kind = "spell"
@@ -38,8 +44,6 @@ Spell resistance: yes
 Target: creature touched
 Descriptors: curse
 :::
-
-**Sources:** Adventurer's Guide pg 97, Path of the Hellknight pg 60
 
 This spell etches the symbol of a nation, organization, or order on the target, dealing 1 point of
 damage. The mark can be placed on any exposed portion of the creature, typically the head or

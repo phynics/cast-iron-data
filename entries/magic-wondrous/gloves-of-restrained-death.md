@@ -6,6 +6,9 @@ source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gloves_of_restrained_death", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "potions-and-poisons"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Sources:** Potions and Poisons pg 30\
 **Aura** moderate transmutation; **CL** 7th\
 **Slot** hands; **Price** 9,250 gp; **Weight** 2 lbs.
 

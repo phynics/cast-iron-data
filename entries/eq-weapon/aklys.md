@@ -6,15 +6,24 @@ source_ids = ["ultimate-equipment", "classic-horrors-revisited", "adventurers-ar
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aklys", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "20"
+[[sources]]
+publication = "classic-horrors-revisited"
+page = "8"
+[[sources]]
+publication = "adventurers-armory"
+page = "2"
+[[sources]]
+publication = "ultimate-combat"
+page = "144"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "2 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 20, Classic Horrors Revisited pg 8, Adventurer's Armory pg 2,
-Ultimate Combat pg 144
 
 The aklys is a hooked throwing club with a 20-foot-long cord, usually of woven leather; you can
 retrieve the aklys after throwing it as a move action. The hook allows you to make

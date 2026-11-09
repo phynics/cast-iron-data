@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "riving_strike", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "155"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "If you have a weapon that is augmented by your Arcane Strike feat, wh
 +++
 
 ## Riving Strike (Combat)
-
-**Sources:** Advanced Class Guide pg 155
 
 When you infuse your weapon with arcane might, your attacks make foes more susceptible to magic.\
 **Prerequisites:** [Arcane Strike](ref/feat/arcane-strike), ability to cast arcane spells.\

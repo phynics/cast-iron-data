@@ -6,6 +6,9 @@ source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cold_iron_fetters", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "legacy-of-the-first-world"
+page = "13"
 
 [fields]
 kind = "spell"
@@ -53,8 +56,6 @@ Spell resistance: no
 Target: one creature
 Subschool: Creation
 :::
-
-**Sources:** Legacy of the First World pg 13
 
 Cold iron shackles materialize around the target's limbs, reducing each of the target's movement
 speeds by half. Any flying target has its maneuverability worsened by two steps (from good to poor,

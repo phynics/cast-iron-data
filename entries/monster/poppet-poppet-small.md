@@ -6,6 +6,9 @@ source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "poppet_poppet_small", path = "json/monsters37.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "31"
 
 [fields]
 kind = "creature"
@@ -38,7 +41,6 @@ abilities = ["12", "12", "-", "-", "5", "1"]
 
 **Size:** small
 
-**Sources:** Adventurer's Armory 2 pg 31\
 **Experience points:** 200
 
 **Armor class:** 12/12/11

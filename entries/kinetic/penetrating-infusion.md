@@ -6,6 +6,9 @@ source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "penetrating_infusion", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
+page = "22"
 
 [fields]
 kind = "class_option"
@@ -25,8 +28,6 @@ group = "kineticist-wild-talent"
 [Fire Blast](ref/kinetic/fire-blast)
 
 **Saving throw:** none
-
-**Source:** Elemental Master's Handbook/22
 
 The intensity of your blasts allows you to break through your foes' resistances. Treat your foe's
 cold, electricity, or fire [resistance](ref/umr/resistance) as if it were 5 lower for the purpose of

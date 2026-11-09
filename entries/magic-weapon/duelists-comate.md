@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "duelists_comate", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "216"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation"
 caster_level = "13th"
 +++
 
-**Sources:** Advanced Class Guide pg 216\
 **Aura** strong transmutation; **CL** 13th\
 **Slot** none; **Price** 35,320 gp; **Weight** 2 lbs.
 

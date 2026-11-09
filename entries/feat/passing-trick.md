@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "passing_trick", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "112"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "If you have the Underfoot feat and the opponent is larger than you, y
 +++
 
 ## Passing Trick (Combat)
-
-**Sources:** Ultimate Combat pg 112
 
 Slipping past a foe gives you the chance to feint.\
 **Prerequisites:** Int 13, [Combat Expertise](ref/feat/combat-expertise), [Dodge](ref/feat/dodge),

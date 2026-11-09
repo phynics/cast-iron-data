@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bears_endurance", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "246"
 
 [fields]
 kind = "spell"
@@ -55,8 +58,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes
 Target: creature touched
 :::
-
-**Sources:** PRPG Core Rulebook pg 246
 
 The affected creature gains greater vitality and stamina. The spell grants the subject a +4
 enhancement bonus to Constitution, which adds the usual benefits to hit points, Fortitude saves,

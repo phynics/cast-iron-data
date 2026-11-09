@@ -6,6 +6,9 @@ source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "form_of_the_alien_dragon_1", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "legacy-of-dragons"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: no
 Target: you
 Subschool: Polymorph
 :::
-
-**Sources:** Legacy of Dragons pg 29
 
 You become a Medium esoteric or outer dragon. Psychics can choose from the esoteric dragon (astral,
 dream, etheric, nightmare, or occult) forms only. You gain a +4 size bonus to your Strength, a +2

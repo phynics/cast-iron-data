@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scarf_of_glorious_histories_varisian", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "233"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Inner Sea Races pg 233\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** neck; **Price** 9,000 gp; **Weight** -
 

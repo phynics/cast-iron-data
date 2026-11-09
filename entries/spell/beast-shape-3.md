@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/beast-shape-2" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "247"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Subschool: Polymorph
 :::
 
 ### Beast Shape III
-
-**Sources:** PRPG Core Rulebook pg 247
 
 This spell functions as [beast shape II](ref/spell/beast-shape-2), except that it also allows you to
 assume the form of a Diminutive or Huge creature of the animal type. This spell also allows you to

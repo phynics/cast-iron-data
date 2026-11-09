@@ -6,6 +6,9 @@ source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magnetism", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
+page = "22"
 
 [fields]
 kind = "class_option"
@@ -27,8 +30,6 @@ group = "kineticist-wild-talent"
 **Saving throw:** none
 
 **Spell resistance:** yes
-
-**Source:** Elemental Master's Handbook/22
 
 You can push and pull metal objects using magnetism. This functions as
 [telekinetic maneuvers](ref/kinetic/telekinetic-maneuvers) but you can make only

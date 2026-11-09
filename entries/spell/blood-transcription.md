@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_transcription", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "209"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 Target: one dead spellcaster
 Descriptors: evil
 :::
-
-**Sources:** Ultimate Magic pg 209
 
 By consuming 1 pint of blood from a spellcaster killed within the last 24 hours, you can attempt to
 learn a spell that spellcaster knew. Select one spell available to the dead spellcaster (this must

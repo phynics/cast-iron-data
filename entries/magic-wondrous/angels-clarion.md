@@ -6,6 +6,9 @@ source_ids = ["chronicle-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "angels_clarion", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "chronicle-of-the-righteous"
+page = "52"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration and transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Chronicle of the Righteous pg 52\
 **Aura** faint conjuration and transmutation; **CL** 5th\
 **Slot** none; **Price** 23,400 gp; **Weight** 1 lb.
 

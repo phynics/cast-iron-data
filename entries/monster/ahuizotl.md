@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "pathfinder-34-blood-for-blood"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ahuizotl", path = "json/monsters01.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "10"
+[[sources]]
+publication = "pathfinder-34-blood-for-blood"
+page = "80"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ clawed hand._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 3 pg 10, Pathfinder \#34: Blood for Blood pg 80\
 **Subtype:** Aquatic
 
 **Experience points:** 2,400

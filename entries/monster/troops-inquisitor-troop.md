@@ -6,6 +6,9 @@ source_ids = ["pathfinder-100-a-song-of-silver"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "troops_inquisitor_troop", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "pathfinder-100-a-song-of-silver"
+page = "122"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ ready in a coordinated front._
 
 **Perception:** +22
 
-**Sources:** Pathfinder \#100: A Song of Silver pg 122\
 **Subtype:** Human, Troop
 
 **Experience points:** 6,400

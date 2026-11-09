@@ -6,6 +6,9 @@ source_ids = ["pathfinder-139-the-dead-road"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "suit_of_inverted_jade", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "pathfinder-139-the-dead-road"
+page = "70"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong necromancy"
 caster_level = "14th"
 +++
 
-**Sources:** Pathfinder \#139: The Dead Road pg 70\
 **Aura** strong necromancy; **CL** 14th\
 **Slot** armor; **Price** 25,000 gp; **Weight** 50 lbs.
 

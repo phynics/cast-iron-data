@@ -6,6 +6,9 @@ source_ids = ["pathfinder-113-what-grows-within"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_forbidden_name", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "pathfinder-113-what-grows-within"
+page = "42"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "9th"
 +++
 
-**Sources:** Pathfinder \#113: What Grows Within pg 42\
 **Aura** moderate abjuration; **CL** 9th\
 **Slot** armor; **Price** 20,175 gp; **Weight** 20 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "great_rend", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "224"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "If you are able to use your rend ability on the same turn that you al
 +++
 
 ## Great Rend (Combat)
-
-**Sources:** Monster Codex pg 224
 
 You use your teeth and claws to rip your foes to shreds.\
 **Prerequisites:** Bite attack, [rend](ref/umr/rend), [troll](ref/monster/troll).\

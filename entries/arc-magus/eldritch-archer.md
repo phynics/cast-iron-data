@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/magus" },
 ]
+[[sources]]
+publication = "heroes-of-the-streets"
+page = "11"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Counterstrike"]
 alters = ["Arcane pool", "Spell combat", "Spellstrike"]
 +++
 
-**Sources:** Heroes of the Streets pg 11\
 The eldritch archer rains magical attacks down on her foes from the city walls.
 
 **Gained class skills:** per

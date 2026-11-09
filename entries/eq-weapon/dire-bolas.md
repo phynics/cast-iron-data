@@ -6,14 +6,15 @@ source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dire_bolas", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "giant-hunters-handbook"
+page = "24"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "4 lbs."
 +++
-
-**Sources:** Giant Hunter's Handbook pg 24
 
 This specialized [bolas](ref/eq-weapon/bolas) can be used to perform ranged [trip](ref/rule/trip)
 combat maneuvers against creatures far larger than the wielder. It consists of a pair of metal

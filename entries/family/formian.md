@@ -6,12 +6,12 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "formian", path = "json/monster_families2.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Bestiary 4
 
 Giant, ant-like interplanetary expansionists with an alien hive intelligence, formians are not evil,
 but they are aggressive in the propagation of their kind into new territories. The formian homeworld

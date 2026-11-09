@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloak_of_fiery_vanishing", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "264"
+[[sources]]
+publication = "advanced-race-guide"
+page = "130"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint abjuration and illusion"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Equipment pg 264, Advanced Race Guide pg 130\
 **Aura** faint abjuration and illusion; **CL** 5th\
 **Slot** shoulders; **Price** 2,600 gp; **Weight** 1 lb.
 

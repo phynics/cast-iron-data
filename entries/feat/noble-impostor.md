@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "noble_impostor", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-high-court"
+page = "4"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You gain a +2 bonus on Bluff and Knowledge (nobility) checks and thes
 +++
 
 ## Noble Impostor (Story)
-
-**Sources:** Heroes of the High Court pg 4
 
 You put on airs and others believe your tales.\
 **Prerequisites:** Must not be a member of an established family or a member of nobility.\

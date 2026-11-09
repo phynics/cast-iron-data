@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "smashing_crush", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "16"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using Smashing Style, if you successfully damage an object with
 +++
 
 ## Smashing Crush (Combat)
-
-**Sources:** Weapon Master's Handbook pg 16
 
 Your hammers strike objects with destructive force.\
 **Prerequisites:** Str 13, [Improved Sunder](ref/feat/improved-sunder),

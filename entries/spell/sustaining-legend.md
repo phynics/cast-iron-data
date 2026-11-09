@@ -6,6 +6,9 @@ source_ids = ["mythic-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sustaining_legend", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "mythic-origins"
+page = "15"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: yes
 Target: one creature/level, no two of which can be more than 30 ft. apart
 Subschool: Healing
 :::
-
-**Sources:** Mythic Origins pg 15
 
 The rulers of Azlant are thought to have used this spell to amplify the mythic power of themselves
 and their most gifted lieutenants. You amplify the mythic power of the target creatures, bolstering

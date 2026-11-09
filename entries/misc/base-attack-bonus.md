@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "base_attack_bonus", path = "json/misc.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "11"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 11
 
 Each [creature](ref/misc/creature) has a base attack bonus and it represents its skill in combat. As
 a character gains [levels](ref/misc/level) or [Hit Dice](ref/misc/hit-dice), his base attack bonus

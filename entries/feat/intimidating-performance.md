@@ -6,14 +6,15 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "intimidating_performance", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "151"
 
 [fields]
 kind = "feat"
 prerequisites = "Ability to start a performance (or raging song) as a move action, bardic performance or raging song class feature."
 benefit = "When you start a performance (or a raging song) as a move or swift action, you can use a standard action to demoralize a foe, attempting a Perform check appropriate to your performance in place of the Intimidate check. Your performance must be one with an audible component."
 +++
-
-**Sources:** Advanced Class Guide pg 151
 
 Your performance strikes fear in the hearts of foes.\
 **Prerequisites:** Ability to start a performance (or raging song) as a move action, bardic

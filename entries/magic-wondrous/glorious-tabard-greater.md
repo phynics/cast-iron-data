@@ -6,6 +6,9 @@ source_ids = ["pathfinder-108-hell-comes-to-westcrown"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "glorious_tabard_greater", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "pathfinder-108-hell-comes-to-westcrown"
+page = "7"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "3rd"
 
 ## Glorious Tabard
 
-**Sources:** Pathfinder \#108: Hell Comes to Westcrown pg 7\
 **Aura** faint abjuration; **CL** 3rd\
 **Slot** body; **Price** 400 gp (Lesser), 3,250 gp (Greater); **Weight** 2 lbs.
 

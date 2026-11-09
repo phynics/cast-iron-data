@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "breathing_tube", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "128"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "1 gp"
 weight = "1/10 lbs."
 +++
 
-**Sources:** Villain Codex pg 128\
 **Price** 1 gp; **Weight** 1/10 lbs.\
 **Category** Adventuring Gear
 

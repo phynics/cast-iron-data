@@ -6,6 +6,9 @@ source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chance_death", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "plane-hoppers-handbook"
+page = "16"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Once per day, if you would die as a result of an attack or failing a 
 +++
 
 ## Chance Death (Origin)
-
-**Sources:** Plane-Hopper's Handbook pg 16
 
 You might have been struck by lightning or fallen off a horse, but either way your death came as the
 result of pure bad luck, a happenstance accident no one could have predicted.\

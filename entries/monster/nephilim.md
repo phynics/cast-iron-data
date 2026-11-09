@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "pathfinder-23-the-impossible-eye"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nephilim", path = "json/monsters17.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "200"
+[[sources]]
+publication = "pathfinder-23-the-impossible-eye"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ _The strength and stature of this giant-sized human is matched only by the nobil
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 3 pg 200, Pathfinder \#23: The Impossible Eye pg 88\
 **Subtype:** Native
 
 **Experience points:** 4,800

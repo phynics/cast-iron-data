@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "planar-adventures", "pathfinder-50-night-of-fro
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shelyn", path = "json/faiths7.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "140"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Shelyn**
 
 **Sub:** The Eternal Rose
-
-**Sources:** Inner Sea Gods pg 140
 
 ### Details
 

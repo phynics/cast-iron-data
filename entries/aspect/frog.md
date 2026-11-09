@@ -6,13 +6,15 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "frog", path = "json/class_ability_aspects.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "29"
 
 [fields]
 kind = "class_option"
 group = "shifter-aspect"
 +++
 
-**Sources:** Ultimate Wilderness pg 29\
 The aspect of the frog grants great mobility in leaping through the air and swimming in water, as
 well surprising tactics in combat.
 

@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "discovery_events", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "168"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 168
 
 Discovery events typically introduce or advance a social conflict story by giving the PCs the
 opportunity to learn information about the conflict. The success of these events might hinge on the

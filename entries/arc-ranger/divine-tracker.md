@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ranger" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "108"
 
 [fields]
 kind = "archetype"
 replaces = ["Wild empathy", "Hunter's bond"]
 +++
 
-**Sources:** Advanced Class Guide pg 108\
 Blessed by his deity, a divine tracker hunts down those he deems deserving of his retribution. His
 weapon is likely to find purchase in his _favored enemy._
 

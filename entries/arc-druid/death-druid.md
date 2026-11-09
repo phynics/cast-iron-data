@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "50"
 
 [fields]
 kind = "archetype"
 replaces = ["Nature bond", "wild shape", "Nature sense", "wild empathy", "Resist nature's lure", "Venom immunity"]
 +++
 
-**Sources:** Horror Adventures pg 50\
 Some druids believe that birth and death are the most important parts of the natural cycle. They
 focus on destroying undead and putting troubled souls to rest.
 

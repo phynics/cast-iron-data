@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "experimental_spellcaster", path = "json/feat06.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "166"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "You can take this feat multiple times. Each additional time you selec
 +++
 
 ## Experimental Spellcaster (Words of Power)
-
-**Sources:** Ultimate Magic pg 166
 
 Despite casting spells, you dabble in the art of wordcasting.\
 **Prerequisites:** Ability to cast spells.\

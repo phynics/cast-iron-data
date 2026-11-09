@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "pathfinder-77-herald-of-the-ivory-labyrinth"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demodand_stringy_demodand", path = "json/monsters29.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "73"
+[[sources]]
+publication = "pathfinder-77-herald-of-the-ivory-labyrinth"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ _This lanky, winged humanoid is covered in layers of long, ropy skin growths._
 
 **Senses:** Darkvision 120 ft., Detect good, Detect magic
 
-**Sources:** Bestiary 5 pg 73, Pathfinder \#77: Herald of the Ivory Labyrinth pg 84\
 **Subtype:** Chaotic, Demodand, Evil, Extraplanar
 
 **Experience points:** 51,200

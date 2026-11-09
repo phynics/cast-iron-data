@@ -6,12 +6,12 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sphinx", path = "json/monster_families2.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Bestiary 3
 
 The enigmatic sphinxes are closely related, yet diverse in appearance, intellect, and personality.
 All combine a lion's body, a falcon's wings, and a head of some other species. The most intelligent

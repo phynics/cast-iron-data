@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unbalancing_blow", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "7"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When using this feat, in addition to dealing damage normally, you for
 +++
 
 ## Unbalancing Blow (Combat)
-
-**Sources:** Martial Arts Handbook pg 7
 
 With a forceful strike, you throw your foe off-balance.\
 **Prerequisites:** Dex 13, Wis 13, [Improved Unarmed Strike](ref/feat/improved-unarmed-strike), base

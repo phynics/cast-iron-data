@@ -6,6 +6,9 @@ source_ids = ["mythic-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soulreaver", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "mythic-origins"
+page = "15"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: yes
 Target: living creatures in a 20-ft.-radius spread
 Descriptors: death
 :::
-
-**Sources:** Mythic Origins pg 15
 
 Favored by the necromancer Geb as a tool to turn his enemies' armies against themselves, this potent
 death spell deals 1d6 points of damage per caster level (maximum 20d6) to living creatures in the

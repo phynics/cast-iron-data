@@ -6,14 +6,15 @@ source_ids = ["paths-of-prestige"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "umbral_court_agent", path = "json/prestige_classes4.json" },
 ]
+[[sources]]
+publication = "paths-of-prestige"
+page = "58"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d8."
 +++
-
-**Sources:** Paths of Prestige pg 58
 
 Zon-Kuthon's agents in the mortal realm preserve the god's grip on the shadowy nation of Nidal
 through darkness and horror. The rare few Kuthites gifted with the right to rule are known as the

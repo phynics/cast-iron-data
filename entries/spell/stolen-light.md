@@ -6,6 +6,9 @@ source_ids = ["pathfinder-society-field-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stolen_light", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "pathfinder-society-field-guide"
+page = "59"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: yes (object)
 Target: transparent gem touched
 Subschool: Figment
 :::
-
-**Sources:** Pathfinder Society Field Guide pg 59
 
 Kreighton Shaine researched this spell from the fragmentary notes of a Vudrani ascetic recorded in a
 strange tome, and rumors credit him with no fewer than a dozen permanent stolen light gems hidden in

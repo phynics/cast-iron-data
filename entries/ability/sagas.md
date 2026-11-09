@@ -6,12 +6,14 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sagas", path = "json/class_abilities6.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "19"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Magic Tactics Toolbox pg 19\
 Sagas are a form of lore-keeping and tale-telling common in Irrisen and the Lands of the Linnorm
 Kings. Specialized applications of a skald's [raging song](ref/ability/raging-song) ability, sagas
 function much like bardic masterpieces but are available only to skalds. Sagas are never purely

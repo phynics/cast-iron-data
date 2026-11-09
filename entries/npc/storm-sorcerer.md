@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "storm_sorcerer", path = "json/npcs2.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "163"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "5"
 
 **Challenge rating:** 5
 
-**Sources:** NPC Codex pg 163\
 **XP** 1,600\
 Elf [sorcerer](ref/class/sorcerer) 6\
 NE Medium humanoid (elf)\

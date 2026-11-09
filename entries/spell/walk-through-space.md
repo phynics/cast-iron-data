@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "walk_through_space", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "248"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: no
 Target: you
 Subschool: Teleportation
 :::
-
-**Sources:** Ultimate Combat pg 248
 
 When under the effects of this spell, you can teleport up to 30 feet as a move action. You must end
 this movement in an unoccupied space that you can stand on within line of sight. Alternatively, you

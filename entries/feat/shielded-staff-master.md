@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shielded_staff_master", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "15"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using Shielded Staff Style, you add the attached buckler's or s
 +++
 
 ## Shielded Staff Master (Combat)
-
-**Sources:** Martial Arts Handbook pg 15
 
 Your staff and shield act as a single item.\
 **Prerequisites:** Dex 17, [Improved Two-Weapon Fighting](ref/feat/improved-two-weapon-fighting),

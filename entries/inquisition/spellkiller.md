@@ -6,13 +6,14 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spellkiller", path = "json/class_ability_inquisitions.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "52"
 
 [fields]
 kind = "class_option"
 group = "inquisition"
 +++
-
-**Sources:** Ultimate Combat pg 52
 
 **Associated Deities**
 

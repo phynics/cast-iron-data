@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "combining_magic_effects", path = "json/rules_basics04.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "208"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 208
 
 Spells or magical effects usually work as described, no matter how many other spells or magical
 effects happen to be operating in the same area or on the same recipient. Except in special cases, a

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/summoner" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "146"
 
 [fields]
 kind = "archetype"
 replaces = ["Shield ally", "greater shield ally", "Aspect", "Greater aspect", "Twin eidolon"]
 +++
 
-**Sources:** Advanced Race Guide pg 146\
 Shaitan binders call upon a reflection of their genie ancestors to serve as their eidolons. A
 shaitan binder has the following class features.
 

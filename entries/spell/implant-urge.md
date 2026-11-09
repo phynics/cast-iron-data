@@ -6,6 +6,9 @@ source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "implant_urge", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "60"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Inner Sea Intrigue pg 60
 
 You make the target unconsciously desire a goal you define when you cast this spell. The DC of any
 Diplomacy check to ask the target to act in a way that it believes will lead it toward that goal

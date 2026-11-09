@@ -6,6 +6,9 @@ source_ids = ["dungeoneers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "observations_of_oagon", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "dungeoneers-handbook"
+page = "15"
 
 [fields]
 kind = "item"
@@ -13,7 +16,6 @@ category = "Miscellaneous Equipment"
 price = "3,500 gp"
 +++
 
-**Sources:** Dungeoneer's Handbook pg 15\
 **Price** 3,500 gp; **Accuracy** +5\
 **Category** [Dungeon Guides](ref/rule/dungeon-guides)\
 **Associated Skill** Knowledge (geography) (DC 25)

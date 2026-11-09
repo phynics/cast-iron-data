@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "armor_proficiency_light", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "118"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "All characters except adepts, arcanists, commoners, monks, psychics, 
 +++
 
 ## Light Armor Proficiency (Combat)
-
-**Sources:** PRPG Core Rulebook pg 118
 
 You are skilled at wearing light armor.\
 **Benefit:** When you wear a type of armor with which you are proficient, the armor check penalty

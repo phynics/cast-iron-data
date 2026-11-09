@@ -6,6 +6,12 @@ source_ids = ["ultimate-magic", "osirion-land-of-the-pharaohs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thanatopic_spell", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "157"
+[[sources]]
+publication = "osirion-land-of-the-pharaohs"
+page = "27"
 
 [fields]
 kind = "feat"
@@ -17,8 +23,6 @@ normal = "Defenses such as *death ward* negate death effects, negative levels, a
 +++
 
 ## Thanatopic Spell (Metamagic)
-
-**Sources:** Ultimate Magic pg 157, Osirion, Land of the Pharaohs pg 27
 
 Your spells can pierce wards against negative energy and even affect undead targets.\
 **Prerequisites:** Knowledge (religion) 6 ranks, [Spell Focus](ref/feat/spell-focus) (necromancy).\

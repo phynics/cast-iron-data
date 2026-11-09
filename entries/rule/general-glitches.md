@@ -6,12 +6,14 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "general_glitches", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "1"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Technology Guide pg 1\
 Items other than armor, pharmaceuticals, or weapons use this general glitch table.
 
 |d%|Glitch|

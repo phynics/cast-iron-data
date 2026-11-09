@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/hunter" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "95"
 
 [fields]
 kind = "archetype"
 replaces = ["Teamwork feats", "Hunter tactics"]
 +++
 
-**Sources:** Advanced Class Guide pg 95\
 While most hunters heed the call of nature and fight to protect its bounty, some are inspired to
 serve a higher power. These divine hunters use faith to aid them in their struggles, and their faith
 infuses their animal companions, making these companions champions of their deities.

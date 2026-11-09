@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "family", path = "json/rules_basics03.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "10"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 10
 
 Your family often has the strongest influence over you as a child. This family doesn't always
 consist of blood relations, especially in the case of adoptees, foundlings, orphans, or street

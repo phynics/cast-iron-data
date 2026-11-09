@@ -6,14 +6,15 @@ source_ids = ["paths-of-prestige"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "champion_of_irori", path = "json/prestige_classes.json" },
 ]
+[[sources]]
+publication = "paths-of-prestige"
+page = "16"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d8."
 +++
-
-**Sources:** Paths of Prestige pg 16
 
 The little-known champions of Irori give their lives in service to the perfection and uplift of
 society, their ultimate goal to create a safe and orderly world within which each person can find

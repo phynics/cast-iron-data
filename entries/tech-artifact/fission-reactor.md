@@ -6,13 +6,15 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fission_reactor", path = "json/equipment_tech_artifacts.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "63"
 
 [fields]
 kind = "item"
 category = "Technological Artifacts"
 +++
 
-**Sources:** Technology Guide pg 63\
 **Yield** 1,000; **Fort** +2; **[Hardness](ref/umr/hardness)** 10; **HP** 1,500; **Explosion** 20d10
 bludgeoning and 20d10 fire plus severe [radiation](ref/rule/radiation) (250-ft. radius; Reflex DC 20
 half); **Perception Penalty** -10

@@ -6,6 +6,9 @@ source_ids = ["tears-at-bitter-manor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "amulet_of_grasping_souls", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "tears-at-bitter-manor"
+page = "54"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation"
 caster_level = "13th"
 +++
 
-**Sources:** Tears at Bitter Manor pg 54\
 **Aura** strong transmutation; **CL** 13th\
 **Slot** neck; **Price** 21,000 gp; **Weight** -
 

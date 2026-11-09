@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sturdy_tree_fort", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "236"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: none
 Spell resistance: no
 Effect: one large tree and a sturdy wooden house
 :::
-
-**Sources:** Ultimate Wilderness pg 236
 
 You cause a large tree to grow in the 5-foot square you touch. The tree has 1 foot of thickness for
 every 4 caster levels you have, and it can grow to any height you designate, up to 5 feet high per

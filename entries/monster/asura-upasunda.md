@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "asura_upasunda", path = "json/monsters02.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "26"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ wield several exotic weapons._
 
 **Senses:** All-around vision, Darkvision 60 ft.
 
-**Sources:** Bestiary 3 pg 26\
 **Subtype:** Asura, Evil, Extraplanar, Lawful
 
 **Experience points:** 6,400

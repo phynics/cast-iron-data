@@ -6,14 +6,18 @@ source_ids = ["core-rulebook", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pathfinder_chronicler", path = "json/prestige_classes4.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "388"
+[[sources]]
+publication = "pathfinder-campaign-setting"
+page = "228"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d8."
 +++
-
-**Sources:** PRPG Core Rulebook pg 388, Pathfinder Campaign Setting pg 228
 
 Brave explorers and scavengers of lost or forgotten knowledge, Pathfinder chroniclers are
 quintessential adventurers, exploring the world for esoteric truths, magical and mundane relics and

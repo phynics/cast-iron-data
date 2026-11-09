@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_lord_traits", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "292"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Demon Lord Traits (Ex, Sp, or Su)
 
-**Sources:** Bestiary 4 pg 292\
 A demon lord is a powerful, unique demon that rules a layer of the Abyss. All demon lords are
 chaotic evil outsiders that are, at a minimum, CR 26. Demon lords have a particular suite of traits
 (unless otherwise noted in a creature's entry) as summarized here.

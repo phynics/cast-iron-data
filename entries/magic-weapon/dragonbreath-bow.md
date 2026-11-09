@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragonbreath_bow", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "144"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong evocation"
 caster_level = "14th"
 +++
 
-**Sources:** Mythic Adventures pg 144\
 **Aura** strong evocation; **CL** 14th\
 **Slot** none; **Price** 50,375 gp; **Weight** 3 lbs.
 

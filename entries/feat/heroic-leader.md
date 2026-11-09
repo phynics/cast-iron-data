@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heroic_leader", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "7"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Your animal companion, cohort, eidolon, familiar, or mount doesn't co
 +++
 
 ## Heroic Leader (Combat)
-
-**Sources:** Melee Tactics Toolbox pg 7
 
 Whether part of a partnership or an army, you stand head and shoulders above your companions.\
 **Prerequisites:** Cha 13; any combat feat; ability to gain an animal companion, cohort, eidolon,

@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_wood_giant", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "132"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ somewhat primitive visage._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 2 pg 132\
 **Subtype:** Giant
 
 **Experience points:** 2,400

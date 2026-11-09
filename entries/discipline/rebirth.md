@@ -6,13 +6,15 @@ source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rebirth", path = "json/class_ability_disciplines.json" },
 ]
+[[sources]]
+publication = "occult-origins"
+page = "17"
 
 [fields]
 kind = "class_option"
 group = "psychic-discipline"
 +++
 
-**Sources:** Occult Origins pg 17\
 Your mind is forged from the most powerful memories of a multitude of lifetimes. You have
 fragmentary knowledge of your prior lives and can leverage the experience gained during these
 lifetimes into raw psychic power.

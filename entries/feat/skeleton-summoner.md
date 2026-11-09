@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skeleton_summoner", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "155"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Spell Focus (necromancy), ability to cast *summon monster."
 prerequisite_feats = ["ref/feat/spell-focus"]
 benefit = "Add \"human skeleton\" to the list of creatures you can summon with summon monster I and \"human skeletal champion\" to the list of creatures you can summon with summon monster III."
 +++
-
-**Sources:** Ultimate Magic pg 155
 
 The walking dead respond to your call.\
 **Prerequisites:** [Spell Focus](ref/feat/spell-focus) (necromancy), ability to cast

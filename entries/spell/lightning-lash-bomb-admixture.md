@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lightning_lash_bomb_admixture", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "234"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Spell resistance: special, see below
 Target: you
 Descriptors: electricity
 :::
-
-**Sources:** Ultimate Combat pg 234
 
 Upon drinking an extract created with this formula, you make a significant change to your magical
 reserve that modifies the nature of all bombs you create and throw during this extract's duration.

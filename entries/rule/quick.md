@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quick", path = "json/rules_adv_gm03.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "234"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 234
 
 Monsters with high Dexterity tend to take quick combat options, many of which increase mobility.
 

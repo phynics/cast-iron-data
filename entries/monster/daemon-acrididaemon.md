@@ -6,6 +6,9 @@ source_ids = ["feast-of-dust"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daemon_acrididaemon", path = "json/monsters06.json" },
 ]
+[[sources]]
+publication = "feast-of-dust"
+page = "61"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ entirely of swarming locusts._
 
 **Senses:** Darkvision 60 ft., Detect good, Detect magic, See invisibility
 
-**Sources:** Feast of Dust pg 61\
 **Subtype:** Daemon, Evil, Extraplanar
 
 **Experience points:** 38,400

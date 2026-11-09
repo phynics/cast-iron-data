@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chase_obstacles", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "232"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 232
 
 You should tailor your chase's obstacles to match the location where the chase takes place. A
 rooftop chase might include things like crumbling rooftops, narrow gaps to leap across, tightropes

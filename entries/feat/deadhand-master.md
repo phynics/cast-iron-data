@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deadhand_master", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "84"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using Deadhand Style, when you damage a living creature with an
 +++
 
 ## Deadhand Master (Combat)
-
-**Sources:** Horror Adventures pg 84
 
 Your death-infused punch drains life force from your foes.\
 **Prerequisites:** Wis 23, [Deadhand Initiate](ref/feat/deadhand-initiate),

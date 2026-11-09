@@ -6,13 +6,15 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "draconic_companion", path = "json/archetypes_COMPANION.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "188"
 
 [fields]
 kind = "archetype"
 replaces = ["Share Spells", "Evasion", "Devotion", "Multiattack", "Improved Evasion"]
 +++
 
-**Sources:** Ultimate Wilderness pg 188\
 Draconic companions bear a faint trace of dragon blood that grants them special abilities.
 
 **Gained class skills:** intm

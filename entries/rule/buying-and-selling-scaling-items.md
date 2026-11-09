@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "buying_and_selling_scaling_items", path = "json/rules_opt_magic02.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "161"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 161
 
 Selling a scaling item presents a tricky balance proposition. Such an item is worth more to a
 higher-level buyer, and a high-level seller has spent more effective wealth acquiring and keeping

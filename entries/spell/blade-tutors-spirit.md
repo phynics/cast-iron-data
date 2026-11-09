@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blade_tutors_spirit", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "30"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: no
 Target: you
 Subschool: Creation
 :::
-
-**Sources:** Melee Tactics Toolbox pg 30
 
 You summon an insubstantial spirit of force that resembles a cloudy vapor hovering around your fists
 or any melee weapons you wield. The spirit compensates for your defensive or reckless melee attacks,

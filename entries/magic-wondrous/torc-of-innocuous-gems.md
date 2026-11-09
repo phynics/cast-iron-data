@@ -6,6 +6,9 @@ source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "torc_of_innocuous_gems", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "spymasters-handbook"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate illusion"
 caster_level = "9th"
 +++
 
-**Sources:** Spymaster's Handbook pg 31\
 **Aura** moderate illusion; **CL** 9th\
 **Slot** neck; **Price** 1,800 gp; **Weight** -
 

@@ -6,6 +6,9 @@ source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scouting_summons", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "monster-summoners-handbook"
+page = "14"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When casting a conjuration (summoning) spell that summons a single cr
 +++
 
 ## Scouting Summons (Metamagic)
-
-**Sources:** Monster Summoner's Handbook pg 14
 
 Your experiments with the connection between summoners and the creatures they summon have taught you
 to see through the eyes of a summoned creature for a short time.\

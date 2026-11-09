@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cooperative_disabling", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "81"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When you use the Disable Device skill and fail the check against a tr
 +++
 
 ## Cooperative Disabling (Teamwork)
-
-**Sources:** Ultimate Intrigue pg 81
 
 You are skilled at working with an ally to disable traps.\
 **Prerequisites:** Disable Device 1 rank, [trapfinding](ref/ability/trapfinding) class feature.\

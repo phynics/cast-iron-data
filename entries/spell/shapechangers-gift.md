@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shapechangers_gift", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "235"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: yes (harmless)
 Target: willing living creature touched
 Subschool: Polymorph
 :::
-
-**Sources:** Ultimate Wilderness pg 235
 
 You change the target into an animal (as per beast shape I), humanoid (as per alter self), or
 monstrous humanoid (as per monstrous physique I). The chosen form can't have a fly speed. The

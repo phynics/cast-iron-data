@@ -6,6 +6,9 @@ source_ids = ["the-midnight-mirror"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "book_of_night_without_moon", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "the-midnight-mirror"
+page = "7"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate illusion"
 caster_level = "8th"
 +++
 
-**Sources:** The Midnight Mirror pg 7\
 **Aura** moderate illusion; **CL** 8th\
 **Slot** none; **Price** 15,000 gp; **Weight** 4 lbs.
 

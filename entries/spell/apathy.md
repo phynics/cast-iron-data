@@ -6,6 +6,9 @@ source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "apathy", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "58"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: emotion, mind-affecting
 :::
-
-**Sources:** Inner Sea Intrigue pg 58
 
 You cause a creature to temporarily lose interest in a passion or pursuit, taking the heat off your
 trail to facilitate a getaway, the finalization of a scheme, or the elimination of incriminating

@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "class_specific_rules", path = "json/rules_opt_magic03.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "162"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 162
 
 Some classes interact with these rules a little differently from the others. From sorcerer
 bloodlines to cleric domains, each of these specific rules are discussed here.

@@ -6,12 +6,14 @@ source_ids = ["blood-of-fiends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "variant_tiefling_abilities", path = "json/misc.json" },
 ]
+[[sources]]
+publication = "blood-of-fiends"
+page = "16"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Blood of Fiends pg 16\
 Some tieflings are blessed or cursed with unusual abilities. GMs may customize their tiefling NPCs
 using the following chart, or allow their players to do so by rolling a d%. Players with a
 particular character concept in mind may consult their GM if they want to select a specific variant

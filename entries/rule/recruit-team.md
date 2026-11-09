@@ -6,12 +6,13 @@ source_ids = ["lands-of-conflict"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "recruit_team", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "lands-of-conflict"
+page = "56"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Lands of Conflict pg 56
 
 **Recruit Team** **(No Team Required):** The militia can attempt to recruit a new team, as long as
 it does not already support the maximum number of [teams](ref/rule/teams-m) allowed (discounting

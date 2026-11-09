@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "undetectable_trap", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "228"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Target: trap touched
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** Ultimate Intrigue pg 228
 
 You shroud a single trap with a powerful illusion to make it more difficult to locate. Spells like
 detect magic can't locate any magic aura from either the target trap or from undetectable trap.

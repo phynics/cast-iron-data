@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "baldric_of_magical_stability_garundi", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "228"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration"
 caster_level = "15th"
 +++
 
-**Sources:** Inner Sea Races pg 228\
 **Aura** strong abjuration; **CL** 15th\
 **Slot** chest; **Price** 14,000 gp; **Weight** 1 lb.
 

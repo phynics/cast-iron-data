@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "anathematic_substances", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "102"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 102
 
 All outsiders have vulnerabilities, and those who deal with them must know what these
 vulnerabilities are. Some binders even use weapons composed of anathematic substances to create or

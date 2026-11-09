@@ -6,6 +6,9 @@ source_ids = ["pathfinder-118-siege-of-stone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloodbrain_venom", path = "json/equipment_poisons.json" },
 ]
+[[sources]]
+publication = "pathfinder-118-siege-of-stone"
+page = "16"
 
 [fields]
 kind = "item"
@@ -13,8 +16,6 @@ category = "Poisons"
 price = "400 gp"
 weight = "&mdash;"
 +++
-
-**Sources:** Pathfinder \#118: Siege of Stone pg 16
 
 **Price** 400 gp; **Weight** —
 

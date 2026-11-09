@@ -6,6 +6,9 @@ source_ids = ["inner-sea-npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hellknight_signifer", path = "json/npcs7.json" },
 ]
+[[sources]]
+publication = "inner-sea-npc-codex"
+page = "32"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "7"
 
 **Challenge rating:** 7
 
-**Sources:** Inner Sea NPC Codex pg 32\
 **XP** 3,200\
 Human [sorcerer](ref/class/sorcerer) 6/Hellknight signifer 2\
 LE Medium humanoid (human)\

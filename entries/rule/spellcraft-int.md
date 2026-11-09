@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spellcraft_int", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "64"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 64
 
 ### Spellcraft (Int; Trained Only)
 

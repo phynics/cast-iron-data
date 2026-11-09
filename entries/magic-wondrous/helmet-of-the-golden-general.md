@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "helmet_of_the_golden_general", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "357"
 
 [fields]
 kind = "item"
@@ -16,8 +19,6 @@ slot = "head"
 aura = "strong divination"
 caster_level = "13th"
 +++
-
-**Sources:** Ultimate Equipment pg 357
 
 **Aura** strong divination; **CL** 13th\
 **Slot** head; **Price** 62,000 gp; **Weight** 3 lbs.

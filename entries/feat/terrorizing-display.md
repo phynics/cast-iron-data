@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "terrorizing_display", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "124"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you use Dazzling Display, in addition to its normal effects, you
 +++
 
 ## Terrorizing Display (Combat)
-
-**Sources:** Advanced Race Guide pg 124
 
 Your battle prowess frightens friend and foe alike.\
 **Prerequisites:** [Dazzling Display](ref/feat/dazzling-display),

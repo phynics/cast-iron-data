@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "pathfinder-society-field-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bracelet_of_second_chances", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "270"
+[[sources]]
+publication = "pathfinder-society-field-guide"
+page = "51"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Sources:** Ultimate Equipment pg 270, Pathfinder Society Field Guide pg 51\
 **Aura** moderate conjuration; **CL** 9th\
 **Slot** wrists; **Price** 15,750 gp; **Weight** -
 

@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_koala", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "199"
+[[sources]]
+publication = "familiar-folio"
+page = "26"
 
 [fields]
 kind = "creature"
@@ -41,7 +47,6 @@ white-tufted ears._
 
 **Size:** small
 
-**Sources:** Ultimate Wilderness pg 199, Familiar Folio pg 26\
 **Experience points:** 100
 
 **Armor class:** 11/11/11

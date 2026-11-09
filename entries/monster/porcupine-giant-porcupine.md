@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "porcupine_giant_porcupine", path = "json/monsters37.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "222"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ _This gray, human-sized porcupine's round body is covered in sharp, striped quil
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 3 pg 222\
 **Experience points:** 600
 
 **Armor class:** 13/11/12

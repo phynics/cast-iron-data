@@ -6,13 +6,14 @@ source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lifebound", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "healers-handbook"
+page = "15"
 
 [fields]
 kind = "feat"
 benefit = "Whenever a spell, spell-like ability, or supernatural ability heals you up to your maximum number of hit points, any excess hit points persist for 1 round per level as temporary hit points (up to a maximum number of hit points equal to 1/2 your character level)."
 +++
-
-**Sources:** Healer's Handbook pg 15
 
 You are especially responsive to curative magic that soothes your wounds with particular
 effectiveness.\

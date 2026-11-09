@@ -6,6 +6,9 @@ source_ids = ["pathfinder-131-the-reapers-right-hand"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ohalias_horn", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "pathfinder-131-the-reapers-right-hand"
+page = "19"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration"
 caster_level = "15th"
 +++
 
-**Sources:** Pathfinder \#131: The Reaper's Right Hand pg 19\
 **Aura** strong conjuration; **CL** 15th\
 **Slot** none; **Price** 55,000 gp; **Weight** 2 lbs.
 

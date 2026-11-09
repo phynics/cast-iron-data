@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aggressive_thundercloud", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "172"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes
 Effect: 5-ft.-diameter sphere
 Descriptors: electricity
 :::
-
-**Sources:** Advanced Class Guide pg 172
 
 A crackling, spherical storm cloud flies in whichever direction you point and deals electricity
 damage to those it strikes. It has a fly speed of 20 feet with perfect maneuverability. If it enters

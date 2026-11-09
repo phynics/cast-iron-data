@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/fly", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "95"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 95
 
 The fly speed changes to 120 feet (or 80 feet if the target is wearing medium or heavy armor, or
 carrying a medium or heavy load) with perfect maneuverability. When the duration expires, the target

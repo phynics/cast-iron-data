@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "frost_worm", path = "json/monsters42.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "126"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ up from between its mandibles._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 2 pg 126\
 **Subtype:** Cold
 
 **Experience points:** 19,200

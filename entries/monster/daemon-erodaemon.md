@@ -6,6 +6,12 @@ source_ids = ["bestiary-6", "book-of-the-damned-volume-3-horsemen-of-the-apocaly
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daemon_erodaemon", path = "json/monsters06.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "70"
+[[sources]]
+publication = "book-of-the-damned-volume-3-horsemen-of-the-apocalypse"
+page = "46"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ ends in a hissing viper's head._
 
 **Senses:** Darkvision 60 ft., Detect good
 
-**Sources:** Bestiary 6 pg 70, Book of the Damned - Volume 3: Horsemen of the Apocalypse pg 46\
 **Subtype:** Daemon, Evil, Extraplanar, Shapechanger
 
 **Experience points:** 12,800

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-56-raiders-of-the-fever-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fish_swordfish", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "pathfinder-56-raiders-of-the-fever-sea"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ point._
 
 **Senses:** Low-light vision
 
-**Sources:** Pathfinder \#56: Raiders of the Fever Sea pg 82\
 **Subtype:** Aquatic
 
 **Experience points:** 600

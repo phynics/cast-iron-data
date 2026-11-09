@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "call_animal", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "209"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Effect: one animal whose CR is equal or less than your caster level
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Advanced Player's Guide pg 209
 
 This spell calls the nearest wild animal of a particular type you designate (provided the animal's
 CR is equal to or less than your caster level) to seek you out. The animal moves toward you under

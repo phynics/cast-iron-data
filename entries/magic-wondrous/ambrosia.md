@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ambrosia", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "146"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration"
 caster_level = "18th"
 +++
 
-**Sources:** Mythic Adventures pg 146\
 **Aura** strong conjuration; **CL** 18th\
 **Slot** none; **Price** 10,000 gp; **Weight** 1 lb.
 

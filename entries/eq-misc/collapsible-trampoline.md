@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "collapsible_trampoline", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "203"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "50 gp"
 weight = "10 lbs."
 +++
 
-**Sources:** Advanced Class Guide pg 203\
 **Price** 50 gp; **Weight** 10 lbs.\
 **Category** Adventuring Gear
 

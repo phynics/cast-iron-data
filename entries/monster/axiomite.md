@@ -6,6 +6,12 @@ source_ids = ["bestiary-2", "the-great-beyond-a-guide-to-the-multiverse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "axiomite", path = "json/monsters26.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "36"
+[[sources]]
+publication = "the-great-beyond-a-guide-to-the-multiverse"
+page = "56"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ of shimmering light._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 2 pg 36, The Great Beyond - A Guide to the Multiverse pg 56\
 **Subtype:** Extraplanar, Lawful
 
 **Experience points:** 4,800

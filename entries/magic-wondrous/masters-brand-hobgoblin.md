@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "masters_brand_hobgoblin", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "233"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Sources:** Inner Sea Races pg 233\
 **Aura** moderate transmutation; **CL** 10th\
 **Slot** none; **Price** 18,200 gp; **Weight** 2 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wall_of_silver", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "177"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: yes
 Effect: transparent wall 20 ft. high by up to 20 ft. long/level
 Descriptors: good
 :::
-
-**Sources:** Adventurer's Guide pg 177
 
 You create a wall of translucent silver energy that hums and vibrates at the slightest touch.
 Objects and nonevil creatures can pass through this wall without difficulty. However, spells and

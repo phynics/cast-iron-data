@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "assassin_bug_great_assassin_bug", path = "json/monsters02.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "36"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ thorax._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 5 pg 36\
 **Type:** vermin
 
 **Experience points:** 1,600

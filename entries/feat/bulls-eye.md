@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bulls_eye", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "29"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "A shaman or witch with this [blood hex](ref/rule/feats-class) can use
 +++
 
 ## Bull's Eye (Blood Hex)
-
-**Sources:** Magic Tactics Toolbox pg 29
 
 Your ranged attacks unerringly seek those you have cursed.\
 **Prerequisites:** Dex 13, Int 13, [Dodge](ref/feat/dodge), [Mobility](ref/feat/mobility),

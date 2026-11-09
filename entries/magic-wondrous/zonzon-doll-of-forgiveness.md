@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "zonzon_doll_of_forgiveness", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "271"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "9th"
 +++
 
-**Sources:** Inner Sea Gods pg 271\
 **Aura** moderate abjuration; **CL** 9th\
 **Slot** none; **Price** 5,000 gp; **Weight** 1 lb.
 

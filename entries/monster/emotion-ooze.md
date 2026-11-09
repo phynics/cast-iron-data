@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "emotion_ooze", path = "json/monsters42.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "108"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ _This viscous blob of brightly colored goo quivers and pulses in a curious manne
 
 **Perception:** +2
 
-**Sources:** Bestiary 5 pg 108\
 **Experience points:** 2,400
 
 **Armor class:** 13/13/13

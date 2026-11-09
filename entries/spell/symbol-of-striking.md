@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/symbol-of-death" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "245"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Spell resistance: yes, see text
 Effect: one symbol
 Subschool: Shadow
 :::
-
-**Sources:** Ultimate Combat pg 245
 
 This spell functions like [symbol of death](ref/spell/symbol-of-death), except that using the
 material component, you scribe a symbol of striking so it fills a 5-foot square. Once triggered, the

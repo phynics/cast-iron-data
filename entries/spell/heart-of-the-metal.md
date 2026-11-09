@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heart_of_the_metal", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "183"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: no
 Targets: one weapon per level
 Descriptors: earth
 :::
-
-**Sources:** Advanced Class Guide pg 183
 
 You lend the nature of adamantine, cold iron, or silver, depending on which component you used, to
 the targeted weapons, with the following effects:

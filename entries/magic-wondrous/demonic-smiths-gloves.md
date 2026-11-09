@@ -6,6 +6,9 @@ source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demonic_smiths_gloves", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "58"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation and transmutation"
 caster_level = "9th"
 +++
 
-**Sources:** Inner Sea Combat pg 58\
 **Aura** moderate evocation and transmutation; **CL** 9th\
 **Slot** hands; **Price** 8,000 gp; **Weight** 1 lb.
 

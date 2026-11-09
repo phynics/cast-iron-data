@@ -6,6 +6,12 @@ source_ids = ["bestiary-2", "pathfinder-19-howl-of-the-carrion-king"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chupacabra", path = "json/monsters05.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "57"
+[[sources]]
+publication = "pathfinder-19-howl-of-the-carrion-king"
+page = "78"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ scaly back._
 
 **Size:** small
 
-**Sources:** Bestiary 2 pg 57, Pathfinder \#19: Howl of the Carrion King pg 78\
 **Experience points:** 800
 
 **Armor class:** 16/14/13

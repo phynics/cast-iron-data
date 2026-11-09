@@ -6,6 +6,9 @@ source_ids = ["occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tychilarius", path = "json/monsters_unique4.json" },
 ]
+[[sources]]
+publication = "occult-bestiary"
+page = "56"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ spiraling maw ringed with thousands of teeth._
 
 **Senses:** Darkvision 60 ft., True seeing
 
-**Sources:** Occult Bestiary pg 56\
 **Subtype:** Aquatic, Chaotic, Evil
 
 **Experience points:** 819,200

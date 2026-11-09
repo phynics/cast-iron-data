@@ -6,6 +6,9 @@ source_ids = ["cheliax-empire-of-devils"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "verdict_of_the_nether_court", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "cheliax-empire-of-devils"
+page = "21"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong necromancy"
 caster_level = "13th"
 +++
 
-**Sources:** Cheliax, Empire of Devils pg 21\
 **Aura** strong necromancy; **CL** 13th\
 **Slot** weapon; **Price** 32,000 gp; **Weight** 2 lbs.
 

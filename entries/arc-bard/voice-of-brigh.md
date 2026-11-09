@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "construct-handbook"
+page = "14"
 
 [fields]
 kind = "archetype"
 replaces = ["Fascinate", "Dirge of doom", "Soothing performance", "Frightening tune"]
 +++
 
-**Sources:** Construct Handbook pg 14\
 The [Whisper in Bronze](ref/faith/brigh) sometimes sends inspiration to her favorite followers in
 the form of music. These songs hold the notes of creation and unmaking that allow her followers to
 affect constructs. The bards who learn these songs take on the title of Voice of Brigh and typically

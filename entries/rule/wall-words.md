@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wall_words", path = "json/rules_opt_magic03.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "186"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 186
 
 Wall words create large barriers that impede and harm those who pass through them.
 

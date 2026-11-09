@@ -6,6 +6,9 @@ source_ids = ["inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "woundwyrm", path = "json/monsters25.json" },
 ]
+[[sources]]
+publication = "inner-sea-bestiary"
+page = "61"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ protrusions._
 
 **Perception:** +22
 
-**Sources:** Inner Sea Bestiary pg 61\
 **Subtype:** Chaotic, Evil
 
 **Experience points:** 51,200

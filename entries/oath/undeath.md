@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "undeath", path = "json/class_ability_oaths.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "61"
 
 [fields]
 kind = "class_option"
@@ -13,7 +16,6 @@ group = "paladin-oath"
 replaces = ["Detect evil", "3rd-level and 9th-level mercies", "Aura of resolve", "Aura of justice"]
 +++
 
-**Sources:** Ultimate Magic pg 61\
 A paladin with this oath vows to restore the natural state of death to any animate corpse she
 encounters, and destroy the undead energy in the process. While a few paladins who take this oath
 recognize that not all undead are evil, others are quite willing to purge neutral and good undead

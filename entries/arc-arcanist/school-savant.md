@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/arcanist" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "78"
 
 [fields]
 kind = "archetype"
 replaces = ["The arcanist exploits gained at 1st, 3rd, and 7th levels"]
 +++
 
-**Sources:** Advanced Class Guide pg 78\
 Some arcanists specialize in a school of magic and trade flexibility for focus. School savants are
 able to prepare more spells per day than typical arcanists, but their selection is more limited.
 

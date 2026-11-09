@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "detonate", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "215"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: Reflex half
 Spell resistance: yes
 Area: 30-ft.-radius spread centered on you
 :::
-
-**Sources:** Advanced Player's Guide pg 215
 
 You flood yourself with a potent surge of elemental energy. One round after completing the casting
 of the spell, the energy explodes from your body.

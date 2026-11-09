@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "duel_results", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "152"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 152
 
 While duels can be treated as another form of combat, they are usually undertaken to resolve a
 dispute between colleagues or rivals and are not usually intended to end in death. As a result,

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/wizard" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "21"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Scribe Scroll", "The school ability normally gained at 6th or 8th l
 alters = ["Arcane bond"]
 +++
 
-**Sources:** Planar Adventures pg 21\
 Worldseekers are wizards who travel to all corners of the Great Beyond. While neophytes must content
 themselves with study and practice, the most powerful worldseekers are movers and shakers throughout
 the Great Beyond, power players of whom even demigods take note. Worldseekers are rare sights on

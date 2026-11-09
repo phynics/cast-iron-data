@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "contagious_flame", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "212"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: yes
 Target: three or more rays
 Descriptors: fire
 :::
-
-**Sources:** Advanced Player's Guide pg 212
 
 You blast several enemies with beams of fire. You may fire three rays, plus one additional ray for
 every four levels beyond 11th (to a maximum of five rays at 19th level). Each ray requires a ranged

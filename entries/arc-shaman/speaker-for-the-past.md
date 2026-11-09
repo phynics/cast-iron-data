@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/shaman" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "111"
 
 [fields]
 kind = "archetype"
 replaces = ["Familiar", "Wandering spirit", "wandering hex"]
 +++
 
-**Sources:** Advanced Class Guide pg 111\
 A speaker for the past is a shaman who specifically serves as the voice for spirits from her
 people's history. A speaker for the past is often an advocate of the ancestors of a specific group,
 the voice of experience, and a powerful resource that allows the past to aid the present.

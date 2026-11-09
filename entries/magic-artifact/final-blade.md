@@ -6,6 +6,9 @@ source_ids = ["inner-sea-world-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "final_blade", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "300"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong"
 caster_level = "20th"
 +++
 
-**Sources:** Inner Sea World Guide pg 300\
 **Aura** strong; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 1,000 lbs.
 

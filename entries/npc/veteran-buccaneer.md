@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "veteran_buccaneer", path = "json/npcs.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "267"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "2"
 
 **Challenge rating:** 2
 
-**Sources:** NPC Codex pg 267\
 **XP** 600\
 Human [warrior](ref/npcclass/warrior) 4\
 CE Medium humanoid (human)\

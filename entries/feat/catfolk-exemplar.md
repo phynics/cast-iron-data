@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "catfolk_exemplar", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "96"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Catfolk."
 benefit = "You can take the Aspect of the Beast feat even if you do not meet the normal prerequisites. Furthermore, your cat-like nature manifests in one of the following ways. You choose the manifestation when you take this feat, and cannot change it later."
 special = "You can take this feat multiple times. Its effects do not stack. Each time you select it, you must choose a different manifestation."
 +++
-
-**Sources:** Advanced Race Guide pg 96
 
 Your feline traits are more defined and prominent than those of other members of your race.\
 **Prerequisites:** [Catfolk](ref/race/catfolk).\

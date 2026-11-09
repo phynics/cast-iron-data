@@ -6,13 +6,14 @@ source_ids = ["core-rulebook", "advanced-players-guide", "champions-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "luck", path = "json/class_ability_domains2.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "45"
 
 [fields]
 kind = "class_option"
 group = "cleric-domain"
 +++
-
-**Sources:** PRPG Core Rulebook pg 45
 
 **Granted Powers:** You are infused with luck, and your mere presence can spread good fortune.
 

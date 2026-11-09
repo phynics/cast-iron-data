@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/oracle" },
 ]
+[[sources]]
+publication = "pathfinder-society-field-guide"
+page = "29"
 
 [fields]
 kind = "archetype"
 replaces = ["Bonus skills from the oracle's mystery", "Revelation gained at 3rd level", "Revelation gained at 15th level"]
 +++
 
-**Sources:** Pathfinder Society Field Guide pg 29\
 Oracles and sorcerers gain their magical powers through strange and mysterious ways, be they chosen
 by fate or blood. While most might be content with their strange powers, some oracles and sorcerers
 join the Pathfinders specifically to find out more about their mysteries and bloodlines and

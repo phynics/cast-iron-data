@@ -6,6 +6,9 @@ source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stone_dodger", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "giant-hunters-handbook"
+page = "19"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "Whenever you are able to see and hear at least one ally with this fea
 +++
 
 ## Stone Dodger (Teamwork)
-
-**Sources:** Giant Hunter's Handbook pg 19
 
 By working with an ally to gauge the trajectory of incoming attacks, you can more easily avoid
 taking damage.\

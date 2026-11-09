@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_the_grasping_grave", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "176"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint necromancy"
 caster_level = "1st"
 +++
 
-**Sources:** Ultimate Equipment pg 176\
 **Aura** faint necromancy; **CL** 1st\
 **Slot** ring; **Price** 2,000 gp; **Weight** -
 

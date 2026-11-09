@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "geomessage", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "237"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: no
 Target: surface touched
 Subschool: Figment
 :::
-
-**Sources:** Villain Codex pg 237
 
 You create a written message of 50 words or fewer, or else an image, a drawing, or a similar
 diagram. The figment hangs invisible and obscured upon the target surface for the duration of the

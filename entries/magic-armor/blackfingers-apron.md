@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blackfingers_apron", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "250"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration and transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Inner Sea Gods pg 250\
 **Aura** faint conjuration and transmutation; **CL** 5th\
 **Slot** armor; **Price** 5,240 gp; **Weight** 15 lbs.
 

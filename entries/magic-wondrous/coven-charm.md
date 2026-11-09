@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "coven_charm", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "blood-of-the-coven"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong evocation and necromancy"
 caster_level = "15th"
 +++
 
-**Sources:** Blood of the Coven pg 30\
 **Aura** strong evocation and necromancy; **CL** 15th\
 **Slot** belt; **Price** 75,000 gp; **Weight** 1 lb.
 

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-30-the-twice-damned-prince"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nightskin", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "pathfinder-30-the-twice-damned-prince"
+page = "68"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate illusion (evil)"
 caster_level = "10th"
 +++
 
-**Sources:** Pathfinder \#30: The Twice-Damned Prince pg 68\
 **Aura** moderate illusion (evil); **CL** 10th\
 **Slot** armor; **Price** 53,100 gp; **Weight** 25 lbs.
 

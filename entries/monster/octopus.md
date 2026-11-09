@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "octopus", path = "json/monsters18.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "219"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ this large-eyed creature._
 
 **Size:** small
 
-**Sources:** Pathfinder RPG Bestiary pg 219\
 **Subtype:** Aquatic
 
 **Experience points:** 400

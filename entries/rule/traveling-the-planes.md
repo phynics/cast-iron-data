@@ -6,12 +6,13 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "traveling_the_planes", path = "json/rules_campaign_types09.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "84"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Planar Adventures pg 84
 
 A manageable planar adventure thrives on direction - especially as the PCs and players start to
 travel the planes for the first time. The more familiar the players become with all forms of planar

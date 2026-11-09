@@ -6,6 +6,9 @@ source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ranged_trip", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "9"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "As a full-round action, you can attempt to perform a trip combat mane
 +++
 
 ## Ranged Trip (Combat, Targeting)
-
-**Sources:** Ranged Tactics Toolbox pg 9
 
 A shot to the leg causes your foe to fall prone.\
 **Prerequisites:** Dex 13, [Deadly Aim](ref/feat/deadly-aim), base attack bonus +1.\

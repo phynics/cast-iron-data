@@ -6,6 +6,9 @@ source_ids = ["pathfinder-74-sword-of-valor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sword_of_valor", path = "json/magic_artifact3.json" },
 ]
+[[sources]]
+publication = "pathfinder-74-sword-of-valor"
+page = "63"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration and evocation [good]"
 caster_level = "20th"
 +++
 
-**Sources:** Pathfinder \#74: Sword of Valor pg 63\
 **Aura** strong abjuration and evocation \[good\]; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 3 lbs.
 

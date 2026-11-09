@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "special_purpose_items", path = "json/rules_basics02.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "535"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 535
 
 Some intelligent items have special purposes that guide their actions. Intelligent magic items with
 a special purpose gain a +2 Ego bonus. An item's purpose must suit the type and alignment of the

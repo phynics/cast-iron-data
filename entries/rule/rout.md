@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rout", path = "json/rules_campaign_types05.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "239"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 239
 
 A rout is a chaotic and disorderly retreat of a defeated army from a battlefield, usually from fear
 or when overwhelmed by a superior opponent. If an army's hit points are reduced to equal or less

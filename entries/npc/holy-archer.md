@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "holy_archer", path = "json/npcs2.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "114"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "5"
 
 **Challenge rating:** 5
 
-**Sources:** NPC Codex pg 114\
 **XP** 1,600\
 Elf [paladin](ref/class/paladin) of [Erastil](ref/faith/erastil) 6\
 LG Medium humanoid (elf)\

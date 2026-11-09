@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kerambit", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "18"
+[[sources]]
+publication = "ultimate-combat"
+page = "132"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "-"
 +++
-
-**Sources:** Ultimate Equipment pg 18, Ultimate Combat pg 132
 
 This small, curved pull dagger has a metal loop at the base of its handle, allowing it to be secured
 with a pinky or worn on a string tied in the hair. While relatively small, the curved blade can

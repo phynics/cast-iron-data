@@ -6,6 +6,9 @@ source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "false_casting", path = "json/feat06.json" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "10"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Magical Aptitude, Bluff 1 rank, Sleight of Hand 1 rank."
 prerequisite_feats = ["ref/feat/magical-aptitude"]
 benefit = "When you use a magic item or a spell-like ability to create a magical effect, you may add additional magic-seeming words and hand gestures to trick onlookers into believing you cast the spell yourself. If using an item that is recognizable as a magical implement (such as a wand or ring), you can trick viewers into thinking you are just using the item as a focus component. Onlookers who have no ranks in Spellcraft have no knowledge of what is genuine spellcasting, and automatically believe you are casting a spell."
 +++
-
-**Sources:** Inner Sea Magic pg 10
 
 When using a magic item, you can trick onlookers into thinking you used spellcasting instead.\
 **Prerequisites:** [Magical Aptitude](ref/feat/magical-aptitude), Bluff 1 rank, Sleight of Hand 1

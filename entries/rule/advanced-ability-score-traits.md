@@ -6,12 +6,13 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "advanced_ability_score_traits", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "220"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Advanced Race Guide pg 220
 
 **Advanced Charisma (4 RP):** **Prerequisites:** None; **Benefit:** Members of this race receive a
 +2 racial bonus to Charisma.\

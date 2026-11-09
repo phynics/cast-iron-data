@@ -6,6 +6,9 @@ source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eye_piercings_major", path = "json/magic_shadow_piercings.json" },
 ]
+[[sources]]
+publication = "champions-of-corruption"
+page = "28"
 
 [fields]
 kind = "item"
@@ -16,8 +19,6 @@ aura = "faint transmutation CL 5th"
 +++
 
 ## Eye Piercings
-
-**Sources:** Champions of Corruption pg 28
 
 **Aura** faint transmutation CL 5th\
 **Slot** eye; Price 6,000 gp (Minor), 18,000 gp (Major), 32,000 gp (Greater); **Weight** —

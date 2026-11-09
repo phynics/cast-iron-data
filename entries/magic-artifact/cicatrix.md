@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cicatrix", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "93"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "overwhelming necromancy"
 caster_level = "30th"
 +++
 
-**Sources:** Bestiary 4 pg 93\
 **Aura** overwhelming necromancy; **CL** 30th\
 **Slot** none; **Price** -; **Weight** 2 lbs.
 

@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/shadow-weapon", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "107"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 107\
 Add your tier to your caster level when determining what enhancement bonus or weapon special
 abilities the weapon can have. The weapon deals half damage to creatures that disbelieve in it and
 to objects, instead of only 1 point.

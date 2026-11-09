@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ultimate_occult", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "222"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 222
 
 GMs who wish to fully immerse PCs in an exclusively occult campaign will likely incorporate most or
 all of the occult elements, and brew multiple, overlapping themes to propel their campaigns toward

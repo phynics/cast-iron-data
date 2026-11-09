@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tags", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "147"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 147
 
 Now you're ready to start naming your regions and placing spots of interest like cities, dungeons,
 and other notable features. Keep in mind some simple rules here: cities are almost always found on

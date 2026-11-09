@@ -6,6 +6,9 @@ source_ids = ["book-of-the-damned-volume-3-horsemen-of-the-apocalypse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scourge_of_the_horsemen", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned-volume-3-horsemen-of-the-apocalypse"
+page = "39"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: yes
 Area: 30-ft. burst
 Descriptors: acid, evil
 :::
-
-**Sources:** Book of the Damned - Volume 3: Horsemen of the Apocalypse pg 39
 
 This spell blasts the area with a horrific combination of soul-rending energy and physical
 corrosion. Creatures in the area of effect gain 1d4 negative levels, and take 1d6 points of acid

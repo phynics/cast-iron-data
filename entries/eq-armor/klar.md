@@ -6,6 +6,27 @@ source_ids = ["ultimate-equipment", "varisia-birthplace-of-legends", "pathfinder
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "klar", path = "json/equipment_armor.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "9"
+[[sources]]
+publication = "varisia-birthplace-of-legends"
+page = "14"
+[[sources]]
+publication = "pathfinder-campaign-setting"
+page = "211"
+[[sources]]
+publication = "curse-of-the-crimson-throne-players-guide"
+page = "13"
+[[sources]]
+publication = "rise-of-the-runelords-players-guide"
+page = "11"
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "291"
+[[sources]]
+publication = "adventurers-armory"
+page = "18"
 
 [fields]
 kind = "item"
@@ -13,9 +34,6 @@ category = "Armor"
 weight = "6 lbs."
 +++
 
-**Sources:** Ultimate Equipment pg 9, Varisia, Birthplace of Legends pg 14, Pathfinder Campaign
-Setting pg 211, Curse of the Crimson Throne Player's Guide pg 13, Rise of the Runelords Player's
-Guide pg 11, Inner Sea World Guide pg 291, Adventurer's Armory pg 18\
 **Cost** 12 gp **Weight** 6 lbs.\
 **Shield Bonus** +1; **Max Dex Bonus** —; **Armor Check Penalty** -1\
 **Arcane Spell Failure Chance** 5%

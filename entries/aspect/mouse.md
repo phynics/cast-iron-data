@@ -6,13 +6,15 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mouse", path = "json/class_ability_aspects.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "30"
 
 [fields]
 kind = "class_option"
 group = "shifter-aspect"
 +++
 
-**Sources:** Ultimate Wilderness pg 30\
 The aspect of the mouse offers the ability to gain access to hard-to-reach places while avoiding
 many attacks and effects.
 

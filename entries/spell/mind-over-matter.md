@@ -6,6 +6,9 @@ source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mind_over_matter", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "occult-origins"
+page = "30"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: Fortitude negates
 Spell resistance: yes
 Target: one creature
 :::
-
-**Sources:** Occult Origins pg 30
 
 You blur the lines between mind and body, reassigning ability damage or drain your target has taken
 to a corresponding ability score, as per the following table.

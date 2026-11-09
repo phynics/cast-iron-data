@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/hunter" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "96"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Animal companion", "Animal focus", "Second animal focus", "Master h
 alters = ["Precise companion", "woodland stride", "teamwork feats", "Teamwork feats"]
 +++
 
-**Sources:** Advanced Class Guide pg 96\
 Some hunters form bonds with packs of well-trained creatures. Whether such a hunter is a northern
 berserker running with a pack of timber wolves or a savage warrior dashing through the jungle
 alongside her herd of dimetrodons, the packmaster revels in the thrill of the hunt and the glory of

@@ -6,6 +6,9 @@ source_ids = ["paths-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "strike_true", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "paths-of-the-righteous"
+page = "17"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You can focus yourself as a move action. When focused, you gain a +4 
 +++
 
 ## Strike True (Combat)
-
-**Sources:** Paths of the Righteous pg 17
 
 Rather than attempting a series of wild blows, you line up a perfect attack.\
 **Prerequisites:** [Combat Expertise](ref/feat/combat-expertise), base attack bonus +6.\

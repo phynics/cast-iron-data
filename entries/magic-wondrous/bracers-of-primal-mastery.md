@@ -6,6 +6,9 @@ source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bracers_of_primal_mastery", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "people-of-the-wastes"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Sources:** People of the Wastes pg 30\
 **Aura** faint abjuration; **CL** 5th\
 **Slot** wrists; **Price** 30,000 gp; **Weight** 1 lb.
 

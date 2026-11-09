@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/mind-blank" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "236"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Target: one creature
 :::
 
 ### Communal Mind Blank
-
-**Sources:** Ultimate Combat pg 236
 
 This spell functions like [mind blank](ref/spell/mind-blank), except you divide the duration in
 1-hour increments among the creatures touched.

@@ -6,14 +6,15 @@ source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "axe_gauntlet_dwarven_heavy", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "heroes-from-the-fringe"
+page = "8"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "5 lbs."
 +++
-
-**Sources:** Heroes from the Fringe pg 8
 
 An axe-gauntlet is a [locked gauntlet](ref/eq-armorenh/locked-gauntlet) covering the hand and
 forearm up to and over the elbow, with an axe blade built around the gauntlet's permanently closed

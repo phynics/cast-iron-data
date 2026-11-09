@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "expanding_settlement_modifiers", path = "json/rules_campaign_types05.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "230"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 230
 
 As explained in the Buildings section, the Settlement entry for a building lists
 [modifiers that affect skill checks in the settlement](ref/rule/settlement-modifiers). If the GM

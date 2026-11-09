@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "restore_mythic_power", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "114"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Targets: you and one mythic creature
 :::
-
-**Sources:** Mythic Adventures pg 114
 
 By laying your hands on the target, you're able to transfer some of your mythic essence to the
 target. You expend three uses of your mythic power to restore one use of the target's mythic power.

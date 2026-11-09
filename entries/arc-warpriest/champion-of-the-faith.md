@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/warpriest" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "128"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Bonus feat gained at 3rd level", "Channel energy"]
 alters = ["Sacred weapon"]
 +++
 
-**Sources:** Advanced Class Guide pg 128\
 Champions of the faith are crusaders who use the power of their divine patron to annihilate the
 faith's enemies.
 

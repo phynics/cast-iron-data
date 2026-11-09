@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vigilant_charger", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "119"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "You can't ready an action to charge. Charging allows you to move up to
 +++
 
 ## Vigilant Charger (Combat)
-
-**Sources:** Ultimate Wilderness pg 119
 
 You can ready yourself to spring an attack against your enemies at a moment's notice.\
 **Prerequisites:** Str 13, Dex 13, [Combat Reflexes](ref/feat/combat-reflexes).\

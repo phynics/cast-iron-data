@@ -6,6 +6,9 @@ source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thunderclap_charge", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "people-of-the-wastes"
+page = "14"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "200 gp"
 weight = "10 lbs."
 +++
 
-**Sources:** People of the Wastes pg 14\
 **Price** 200 gp; **Weight** 10 lbs.\
 **Category** Alchemical Weapons
 

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "running_the_game", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "25"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 25
 
 Even once the adventure is prepped and the players are gathered, the GM's work is just beginning.
 There are a few things to pay special attention to during a game session.

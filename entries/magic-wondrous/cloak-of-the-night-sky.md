@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloak_of_the_night_sky", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "262"
+[[sources]]
+publication = "gods-and-magic"
+page = "55"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Sources:** Inner Sea Gods pg 262, Gods and Magic pg 55\
 **Aura** faint abjuration; **CL** 5th\
 **Slot** shoulders; **Price** 2,500 gp; **Weight** 1 lb.
 

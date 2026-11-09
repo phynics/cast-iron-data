@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grimoire_of_glittering_eyes", path = "json/equipment_spellbooks.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "122"
 
 [fields]
 kind = "item"
@@ -16,8 +19,6 @@ category = "Spellbooks"
 
 _The title of this book is embossed into the scaly cover. Inside, the pages sparkle and gleam in
 even the faintest light, and the handwriting looks preternaturally clean._
-
-**Sources:** Ultimate Magic pg 122
 
 **Opposition** Evocation, necromancy\
 **Protection** The entire book is warded with illusory script (Will DC 16; on failure, the

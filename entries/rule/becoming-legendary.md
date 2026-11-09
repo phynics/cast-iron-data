@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "becoming_legendary", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "169"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 169
 
 Legendary items are magic items that transcend mere magic and become tied to mythic destiny. Though
 all are powerful, some become even greater magical objects - minor and major artifacts.

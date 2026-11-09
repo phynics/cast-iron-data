@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/witch" },
 ]
+[[sources]]
+publication = "blood-of-the-coven"
+page = "16"
 
 [fields]
 kind = "archetype"
 replaces = ["1st-level hex", "2nd-, 8th-, and 14th-level hexes", "4th- and 12th-level hexes", "10th-level hex", "20th-level hex"]
 +++
 
-**Sources:** Blood of the Coven pg 16\
 Whether a [changeling](ref/race/changeling) in the process of succumbing to her mother's call, a
 witch cursed by a hag to become her instrument of torment, a vain and petty witch overeager for
 power, or some other unfortunate soul, a hagbound witch finds its soul has been infected by a hag's

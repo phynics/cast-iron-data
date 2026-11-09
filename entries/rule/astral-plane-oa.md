@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "astral_plane_oa", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "243"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 243
 
 The Astral Plane is the great silvery sky that connects all planes to one another, the realm of pure
 thought and expanded consciousness. Occasional islands of solid matter float in astral space, but

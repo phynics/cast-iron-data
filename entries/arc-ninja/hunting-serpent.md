@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ninja" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "104"
 
 [fields]
 kind = "archetype"
 replaces = ["No trace", "Uncanny dodge", "improved uncanny dodge", "ninja tricks gained at 12th and 16th levels", "Ninja trick gained at 10th level"]
 +++
 
-**Sources:** Villain Codex pg 104\
 The order dispatches specially trained killers to hunt relentlessly and fight from the shadows.
 
 **Gained class skills:** sur

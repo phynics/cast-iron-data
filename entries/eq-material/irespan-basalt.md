@@ -6,13 +6,14 @@ source_ids = ["magnimar-city-of-monuments"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "irespan_basalt", path = "json/equipment_special_materials.json" },
 ]
+[[sources]]
+publication = "magnimar-city-of-monuments"
+page = "49"
 
 [fields]
 kind = "item"
 category = "Special Materials"
 +++
-
-**Sources:** Magnimar, City of Monuments pg 49
 
 The Irespan's stones are infused with a unique variant of Thassilonian preservative magic. Scholars
 suspect that these features have grown in the stones of the bridge over the ages since Earthfall,

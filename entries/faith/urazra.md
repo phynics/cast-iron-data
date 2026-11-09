@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "urazra", path = "json/faiths8.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "324"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Urazra**
 
 **Sub:** Breaker of Bones
-
-**Sources:** Inner Sea Gods pg 324
 
 ### Details
 

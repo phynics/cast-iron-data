@@ -6,6 +6,9 @@ source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hydim", path = "json/faiths4.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "110"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Hydim**
 
 **Sub:** of the Eternal Fast
-
-**Sources:** Book of the Damned pg 110
 
 ### Details
 

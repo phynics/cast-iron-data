@@ -6,6 +6,12 @@ source_ids = ["pathfinder-84-pyramid-of-the-sky-pharaoh", "osirion-land-of-the-p
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boneshatter", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "pathfinder-84-pyramid-of-the-sky-pharaoh"
+page = "15"
+[[sources]]
+publication = "osirion-land-of-the-pharaohs"
+page = "26"
 
 [fields]
 kind = "spell"
@@ -42,8 +48,6 @@ Saving throw: Fortitude partial (see text)
 Spell resistance: yes
 Target: one corporeal creature or object
 :::
-
-**Sources:** Pathfinder \#84: Pyramid of the Sky Pharaoh pg 15, Osirion, Land of the Pharaohs pg 26
 
 The target's bones (or exoskeleton) splinter, dealing 1d6 points of damage per caster level (maximum
 15d6) to the target, which is also exhausted for 1 minute per caster level from the pain and

@@ -6,6 +6,9 @@ source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "solitary_survivor", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "heroes-from-the-fringe"
+page = "27"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "As a free action when you have no conscious allies within 30 feet of 
 +++
 
 ## Solitary Survivor (Combat)
-
-**Sources:** Heroes from the Fringe pg 27
 
 Growing up in the harsh tundra, you could rarely rely on anyone other than yourself. Solitude has
 only made you stronger as you overcame insurmountable odds.\

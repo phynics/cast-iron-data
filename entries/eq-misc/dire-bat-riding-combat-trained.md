@@ -6,6 +6,9 @@ source_ids = ["animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dire_bat_riding_combat_trained", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "animal-archive"
+page = "15"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "- (common), 400 lbs. (riding), 450 lbs. (riding, combat trained)"
 
 ## Dire bat
 
-**Sources:** Animal Archive pg 15\
 **Price** 220 gp (common), 300 gp (riding), 450 gp (riding, combat trained); **Weight** - (common),
 400 lbs. (riding), 450 lbs. (riding, combat trained)
 

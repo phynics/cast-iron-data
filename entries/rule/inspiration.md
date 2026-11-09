@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inspiration", path = "json/rules_adv_gm03.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "238"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 238
 
 These abilities manipulate mental states to either hinder enemies or boost allies. Many of them are
 more applicable in combat than other social options.

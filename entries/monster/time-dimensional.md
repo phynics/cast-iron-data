@@ -6,6 +6,9 @@ source_ids = ["pathfinder-136-temple-of-the-peacock-spirit"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "time_dimensional", path = "json/monsters39.json" },
 ]
+[[sources]]
+publication = "pathfinder-136-temple-of-the-peacock-spirit"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ present, or a possible future._
 
 **Senses:** Darkvision 120 ft.
 
-**Sources:** Pathfinder \#136: Temple of the Peacock Spirit pg 90\
 **Subtype:** Extraplanar
 
 **Experience points:** 38,400

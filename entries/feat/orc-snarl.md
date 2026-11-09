@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "orc_snarl", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "13"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using Orc Fury Style, you gain a +4 bonus on saving throws agai
 +++
 
 ## Orc Snarl (Combat)
-
-**Sources:** Weapon Master's Handbook pg 13
 
 Your attacks leave your opponent quivering in fear.\
 **Prerequisites:** [Bullying Blow](ref/feat/bullying-blow),

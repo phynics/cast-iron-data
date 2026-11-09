@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/planar-binding-lesser" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "321"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Spell resistance: no and yes; see text
 Targets: up to three elementals or outsiders, totaling no more than 12 HD, no two of which can be more than 30 ft. apart when they appear
 Subschool: Calling
 :::
-
-**Sources:** PRPG Core Rulebook pg 321
 
 This spell functions like [lesser planar binding](ref/spell/planar-binding-lesser), except that you
 may call a single creature of 12 HD or less, or up to three creatures of the same kind whose Hit

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/witch" },
 ]
+[[sources]]
+publication = "dragon-empires-primer"
+page = "23"
 
 [fields]
 kind = "archetype"
 replaces = ["Hex", "Major hex", "grand hex"]
 +++
 
-**Sources:** Dragon Empires Primer pg 23\
 A white-haired witch concentrates her mysterious powers on improving her prowess in melee, using
 feats of agility and her prehensile hair to deal extreme damage. The white-haired witch is an
 archetype of the witch class.

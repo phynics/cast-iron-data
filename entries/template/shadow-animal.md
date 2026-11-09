@@ -6,6 +6,9 @@ source_ids = ["nidal-land-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_animal", path = "json/monster_template4.json" },
 ]
+[[sources]]
+publication = "nidal-land-of-shadows"
+page = "60"
 
 [fields]
 kind = "none"
@@ -18,8 +21,6 @@ kind = "none"
 **Challenge rating:** +1 or +2
 
 **Inherited:** present
-
-**Source:** Nidal, Land of Shadows/60
 
 Dread energies from the [Plane of Shadow](ref/rule/shadow-plane) have leaked into the countryside of
 Nidal for thousands of years, pooling in shadowed groves and along darkened hillsides. Although

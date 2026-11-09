@@ -6,6 +6,9 @@ source_ids = ["dungeoneers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "natures_ravages", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "dungeoneers-handbook"
+page = "31"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: none
 Spell resistance: no
 Target: corpse of creature whose total number of HD does not exceed your caster level
 :::
-
-**Sources:** Dungeoneer's Handbook pg 31
 
 You greatly speed up the decomposition process of a nearby corpse and warp the fibers of time that
 permeate it, aging the corpse an additional amount of time equal to up to 1 day per 2 caster levels

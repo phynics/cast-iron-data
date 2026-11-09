@@ -6,12 +6,14 @@ source_ids = ["concordance-of-rivals"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "invariability", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "concordance-of-rivals"
+page = "46"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Concordance of Rivals pg 46\
 **School** transmutation; **Level** 6\
 **Casting Time** 60 minutes\
 **Components** V, S, M (chalk, four intricately carved cogs worth 125 gp each), SC (up to the

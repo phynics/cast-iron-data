@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "attention_and_distractions", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "31"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 31
 
 Just as effective (and less dramatic) is removing distractions directly. You're the GM - it's okay
 to tell players at the start of the game to put away the game system or music, cell phone or laptop.

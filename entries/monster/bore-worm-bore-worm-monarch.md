@@ -6,6 +6,9 @@ source_ids = ["pathfinder-117-assault-on-longshadow"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bore_worm_bore_worm_monarch", path = "json/monsters04.json" },
 ]
+[[sources]]
+publication = "pathfinder-117-assault-on-longshadow"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -39,7 +42,6 @@ mandibles._
 
 **Perception:** +0
 
-**Sources:** Pathfinder \#117: Assault on Longshadow pg 82\
 **tremorsense:** 60
 
 **Type:** vermin

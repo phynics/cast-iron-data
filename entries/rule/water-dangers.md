@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "water_dangers", path = "json/rules_gm08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "445"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 445
 
 Any character can wade in relatively calm water that isn't over his head, no check required.
 Similarly, swimming in calm water only requires Swim skill checks with a DC of 10. Trained swimmers

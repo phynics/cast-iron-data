@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "135"
 
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Trap sense"]
 +++
 
-**Sources:** Advanced Player's Guide pg 135\
 Some criminals steal with finesse, their victims only discovering the crime when the rogue is long
 gone and the coin already spent. A thug, on the other hand, cares nothing for finesse. Through both
 threat and violence, the thug gets what she wants by the promise of force, and has no problem making

@@ -6,14 +6,15 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ankus", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "19"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "5 lbs."
 +++
-
-**Sources:** Melee Tactics Toolbox pg 19
 
 Also known as an elephant goad, this tool consists of a 2- to 3-foot rod ending in a spearhead and a
 backward-facing hook. Traditionally used to train and direct large animals, the ankus can be used as

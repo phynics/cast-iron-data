@@ -6,6 +6,9 @@ source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "adamantine_chain_10_ft", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "giant-hunters-handbook"
+page = "25"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "3,030 gp"
 weight = "2 lbs."
 +++
 
-**Sources:** Giant Hunter's Handbook pg 25\
 **Price** 3,030 gp; **Weight** 2 lbs.\
 **Category** Adventuring Gear
 

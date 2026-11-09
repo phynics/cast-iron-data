@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/thought-shield-1" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "190"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Target: you
 :::
 
 ### Thought Shield III
-
-**Sources:** Occult Adventures pg 190
 
 This functions as [thought shield I](ref/spell/thought-shield-1), but the circumstance bonus on Will
 saves to resist mind-affecting effects increases to +8. In addition, any creature that tries to read

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcane_lock", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "243"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: none
 Spell resistance: no
 Target: door, chest, or portal touched, up to 30 sq. ft./level in size
 :::
-
-**Sources:** PRPG Core Rulebook pg 243
 
 An arcane lock spell cast upon a door, chest, or portal magically locks it. You can freely pass your
 own arcane lock without affecting it. If the locked object has a lock, the DC to open that lock

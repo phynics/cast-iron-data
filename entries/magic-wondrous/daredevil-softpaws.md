@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daredevil_softpaws", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "95"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint enchantment"
 caster_level = "3rd"
 +++
 
-**Sources:** Advanced Race Guide pg 95\
 **Aura** faint enchantment; **CL** 3rd\
 **Slot** feet; **Price** 1,400 gp; **Weight** 1 lb.
 

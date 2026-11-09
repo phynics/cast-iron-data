@@ -6,6 +6,9 @@ source_ids = ["pathfinder-143-borne-by-the-suns-grace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "open_the_dead_roads", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "pathfinder-143-borne-by-the-suns-grace"
+page = "78"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes
 Target: up to one touched creature/level
 :::
-
-**Sources:** Pathfinder \#143: Borne by the Sun's Grace pg 78
 
 To cast open the Dead Roads, you must be in an area of fog or dim light. Upon completion of the
 spell, swirling mists part and deposit you and any creatures you touched on a nearby stretch of the

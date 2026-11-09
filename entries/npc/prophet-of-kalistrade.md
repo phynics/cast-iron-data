@@ -6,6 +6,9 @@ source_ids = ["inner-sea-npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prophet_of_kalistrade", path = "json/npcs8.json" },
 ]
+[[sources]]
+publication = "inner-sea-npc-codex"
+page = "44"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "12"
 
 **Challenge rating:** 12
 
-**Sources:** Inner Sea NPC Codex pg 44\
 **XP** 19,200\
 Human [aristocrat](ref/npcclass/aristocrat) 5/prophet of Kalistrade 8\
 LN Medium humanoid (human)\

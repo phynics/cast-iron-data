@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "challengers_gloves", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "234"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint enchantment"
 caster_level = "1st"
 +++
 
-**Sources:** Ultimate Equipment pg 234\
 **Aura** faint enchantment; **CL** 1st\
 **Slot** hands; **Price** 2,200 gp; **Weight** -
 

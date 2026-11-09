@@ -6,6 +6,9 @@ source_ids = ["bestiary", "pathfinder-124-city-in-the-deep"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "merfolk", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "204"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ slender fish._
 
 **Senses:** Low-light vision
 
-**Sources:** Pathfinder RPG Bestiary pg 204\
 **Subtype:** Aquatic
 
 **Experience points:** 135

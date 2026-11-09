@@ -6,6 +6,12 @@ source_ids = ["bestiary-2", "pathfinder-6-spires-of-xin-shalast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wendigo", path = "json/monsters25.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "281"
+[[sources]]
+publication = "pathfinder-6-spires-of-xin-shalast"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -46,7 +52,6 @@ legs end in blackened, burnt stumps._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 2 pg 281, Pathfinder \#6: Spires of Xin-Shalast pg 88\
 **Subtype:** Cold, Native
 
 **Experience points:** 102,400

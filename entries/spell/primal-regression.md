@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "primal_regression", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "181"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Target: one creature/2 levels, no two of which can be more than 30 feet apart
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Occult Adventures pg 181
 
 This spell sequesters the targets' ability for higher reasoning, allowing their darker impulses to
 come to the fore. An affected target becomes a ravening monster-savage, bloodthirsty, and brutish.

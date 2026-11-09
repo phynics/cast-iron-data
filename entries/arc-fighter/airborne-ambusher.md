@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/fighter" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "201"
 
 [fields]
 kind = "archetype"
 replaces = ["Bravery", "Weapon training 1", "Weapon training 2", "Weapon training 3 and 4"]
 +++
 
-**Sources:** Advanced Race Guide pg 201\
 Driven by suspicion and hatred, [strix](ref/race/strix) doggedly guard their territories, making
 deadly use of their flight. Using swift strikes from above, strix plummet onto their foes with
 lethal force.

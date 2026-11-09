@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cavalier" },
 ]
+[[sources]]
+publication = "cohorts-and-companions"
+page = "30"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Mount", "Cavalier's charge", "Expert trainer", "Mighty charge", "Su
 alters = ["Banner"]
 +++
 
-**Sources:** Cohorts and Companions pg 30\
 The esquire is a roving knight who acquires the services of a faithful follower - an
 aide-de-camp-who serves as the esquire's assistant, spear carrier, and guard.
 

@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_second_chance", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "163"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "When using the Second Chance feat, you must normally forgo the rest of
 +++
 
 ## Improved Second Chance (Combat)
-
-**Sources:** Advanced Player's Guide pg 163
 
 You can turn a missed strike into a second chance without sacrificing later attacks.\
 **Prerequisites:** Int 13, [Combat Expertise](ref/feat/combat-expertise),

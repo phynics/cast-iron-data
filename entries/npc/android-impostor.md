@@ -6,6 +6,9 @@ source_ids = ["numeria-land-of-fallen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "android_impostor", path = "json/npcs2.json" },
 ]
+[[sources]]
+publication = "numeria-land-of-fallen-stars"
+page = "46"
 
 [fields]
 kind = "creature"
@@ -18,7 +21,6 @@ _Intricate tribal tattoos cover the skin of this greataxe-wielding Kellid warrio
 
 **Challenge rating:** 5
 
-**Sources:** Numeria, Land of Fallen Stars pg 46\
 **XP** 1,600\
 Android [fighter](ref/class/fighter) 6\
 N Medium humanoid (android)\

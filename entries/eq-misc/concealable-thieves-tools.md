@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "concealable_thieves_tools", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "233"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "190 gp"
 weight = "1/2 lb."
 +++
 
-**Sources:** Ultimate Intrigue pg 233\
 **Price** 190 gp; **Weight** 1/2 lb.\
 **Category** Adventuring Gear
 

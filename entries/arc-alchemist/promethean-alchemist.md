@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "112"
 
 [fields]
 kind = "archetype"
 replaces = ["Brew Potion", "Throw Anything", "Bombs", "mutagen"]
 +++
 
-**Sources:** Occult Adventures pg 112\
 Obsessed with discovering the origins of life, promethean alchemists build constructs they gradually
 endow with life.
 

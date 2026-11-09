@@ -6,12 +6,13 @@ source_ids = ["alchemy-manual"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crafting_tools_feats_and_mishaps", path = "json/rules_rulesets02.json" },
 ]
+[[sources]]
+publication = "alchemy-manual"
+page = "5"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Alchemy Manual pg 5
 
 ### Crafting Tools
 

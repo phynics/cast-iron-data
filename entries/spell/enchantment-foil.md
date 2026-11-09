@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enchantment_foil", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "180"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Advanced Class Guide pg 180
 
 You gain a +4 bonus on saving throws against enchantment effects. If you succeed at a save against
 an enchantment effect, you identify the effect as if you had succeeded at a Spellcraft check to do

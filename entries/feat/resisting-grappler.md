@@ -6,6 +6,9 @@ source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "resisting_grappler", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "monster-hunters-handbook"
+page = "7"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ normal = "Creatures using the grab ability does not provoke attacks of opportuni
 +++
 
 ## Resisting Grappler (Combat)
-
-**Sources:** Monster Hunter's Handbook pg 7
 
 You are especially adept at fighting off the grabbing appendages of aberrations and other tentacled
 horrors.\

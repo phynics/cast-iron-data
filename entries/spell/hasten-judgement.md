@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hasten_judgement", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "40"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Spell resistance: yes
 Target: one living or corporeal undead creature
 Descriptors: curse
 :::
-
-**Sources:** Planar Adventures pg 40
 
 This potent curse weighs upon the target's soul, hastening a living creature's journey to the
 Boneyard upon death or weakening an undead creature's animating force. A living creature that dies

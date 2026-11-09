@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skinwalker", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "233"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ _This man seems human at first, but a closer look reveals he has claws and sharp
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 5 pg 233\
 **Subtype:** Shapechanger, Skinwalker
 
 **Experience points:** 200

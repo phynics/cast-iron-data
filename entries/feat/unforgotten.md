@@ -6,6 +6,9 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unforgotten", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "73"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Your dogged determination reduces any nonlethal damage you take by 1 
 +++
 
 ## Unforgotten (Story)
-
-**Sources:** Ultimate Campaign pg 73
 
 You search for a person dear to you - lost, but you pray not dead.\
 **Prerequisites:** You must have a close relative, spouse, or other person dear to your heart who

@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "merciful", path = "json/magic_enhancements2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "145"
+[[sources]]
+publication = "core-rulebook"
+page = "469"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Equipment pg 145, PRPG Core Rulebook pg 469\
 **Aura** faint conjuration; **CL** 5th\
 **Slot** weapon quality; **Price** +1 bonus; **Weight** -
 

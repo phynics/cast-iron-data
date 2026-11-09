@@ -6,6 +6,9 @@ source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jungle_mind", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "faiths-and-philosophies"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: no
 Target: you
 Subschool: Scrying
 :::
-
-**Sources:** Faiths and Philosophies pg 28
 
 You merge your mind into the jungle's social hierarchy, mystically establishing yourself as a master
 of wild beasts and an apex predator. You attain knowledge about the general animal population in a

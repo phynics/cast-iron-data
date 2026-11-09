@@ -6,6 +6,12 @@ source_ids = ["inner-sea-bestiary", "bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_shadow_giant", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "inner-sea-bestiary"
+page = "15"
+[[sources]]
+publication = "bestiary-6"
+page = "135"
 
 [fields]
 kind = "creature"
@@ -44,7 +50,6 @@ decorated with skulls._
 
 **Senses:** Darkvision 120 ft., Low-light vision
 
-**Sources:** Inner Sea Bestiary pg 15, Bestiary 6 pg 135\
 **Subtype:** Extraplanar, Giant
 
 **Experience points:** 25,600

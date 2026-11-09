@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "build_points", path = "json/rules_campaign_types04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "204"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 204
 
 The units of a kingdom's wealth and productivity are build points (BP). Build points are an
 abstraction representing the kingdom's expendable assets, not just gold in the treasury. Build

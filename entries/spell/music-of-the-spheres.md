@@ -6,6 +6,9 @@ source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "music_of_the_spheres", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "59"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Area: 20-ft.-radius spherical emanation, centered on you
 Subschool: Healing
 Descriptors: sonic
 :::
-
-**Sources:** Inner Sea Magic pg 59
 
 As any scholar of Desnan lore or astrologer can tell you, the music of the spheres is the harmonic
 constant that plays under and through all of reality. It is this constant song, this otherworldly

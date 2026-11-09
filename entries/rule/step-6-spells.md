@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "step_6_spells", path = "json/rules_adv_gm03.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "218"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 218
 
 This step is only for monsters that use the spellcaster array. For monsters that know only a few
 spells (rather than being focused primarily on spellcasting), choose an array other than spellcaster

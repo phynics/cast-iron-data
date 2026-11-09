@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alignment", path = "json/misc.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "11"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 11
 
 Alignment represents a creature's basic moral and ethical attitude. Alignment has two components:
 one describing whether a [creature](ref/misc/creature) is lawful, neutral, or chaotic, followed by

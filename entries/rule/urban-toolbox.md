@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "urban_toolbox", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "210"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 210
 
 Whether as a place to rest between adventures or the setting of an entire campaign, cities offer the
 PCs a vast number of options and the potential to draw unanticipated elements into a campaign.

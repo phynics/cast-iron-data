@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "betrayal", path = "json/rules_adv_pc01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "187"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 187
 
 Not all retired characters work to aid the PCs. Your character might harbor some grudge against her
 old teammates or even outright turn against them given the proper impetus, especially if there were

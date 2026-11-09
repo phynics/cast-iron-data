@@ -6,6 +6,9 @@ source_ids = ["champions-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planar_hunter", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "champions-of-balance"
+page = "13"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Knowledge (planes) 5 ranks, favored terrain (any plane) class f
 benefit = "When you are on one of the planes you've selected as a favored terrain, you gain a +2 bonus on weapon attack rolls against outsiders native to that plane. You also ignore up to 5 points of damage reduction when making weapon attacks against outsiders native to that plane, except for damage reduction without a type (such as DR 10/-). In addition, you gain this bonus against extraplanar creatures you encounter and identify as being from one of your planar favored terrains, such as with a successful Knowledge (planes) check, regardless of what plane you or they are on."
 special = "You may select this feat multiple times. Each time you take it, you apply it to a different qualifying favored terrain."
 +++
-
-**Sources:** Champions of Balance pg 13
 
 After careful study of otherworldly environments, you can quickly evaluate how an outsider reacts in
 its home surroundings. You can use your knowledge of the outsider's native environment to guide your

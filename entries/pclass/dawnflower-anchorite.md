@@ -6,14 +6,15 @@ source_ids = ["paths-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dawnflower_anchorite", path = "json/prestige_classes.json" },
 ]
+[[sources]]
+publication = "paths-of-the-righteous"
+page = "12"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d8."
 +++
-
-**Sources:** Paths of the Righteous pg 12
 
 Although most of Sarenrae's worshipers seek to aid others or seek out those villains who can be
 redeemed, a rare few instead raise their eyes in awe of the greatest of Sarenrae's gifts to mortals:

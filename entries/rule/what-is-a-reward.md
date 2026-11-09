@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "what_is_a_reward", path = "json/rules_gm03.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "110"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 110
 
 With a little added effort, treasure can be much more than just numbers temporarily penciled onto a
 character sheet. You can also extend the definition of treasure by making a variety of intangible

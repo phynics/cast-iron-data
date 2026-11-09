@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "176"
 
 [fields]
 kind = "archetype"
 replaces = ["Fascinate", "suggestion", "mass suggestion", "Inspire competence", "The use of lore master gained at 5th level"]
 +++
 
-**Sources:** Advanced Race Guide pg 176\
 The watersinger's song reaches from the depths of his soul into the elemental waters from which life
 first sprang. His voice commands water, bending and shaping it to his desire.
 

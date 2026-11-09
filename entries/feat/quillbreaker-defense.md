@@ -6,6 +6,9 @@ source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quillbreaker_defense", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "magical-marketplace"
+page = "6"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "If you are wearing armor spikes, as an immediate action when you take
 +++
 
 ## Quillbreaker Defense (Combat)
-
-**Sources:** Magical Marketplace pg 6
 
 You know how to put armor spikes to defensive use by thrusting them into the path of an oncoming
 attack just in time.\

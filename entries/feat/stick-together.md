@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stick_together", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "11"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "When an adjacent ally with this feat moves, you can move up to your s
 +++
 
 ## Stick Together (Combat, Teamwork)
-
-**Sources:** Melee Tactics Toolbox pg 11
 
 You stick close to your allies in combat.\
 **Benefit:** When an adjacent ally with this feat moves, you can move up to your speed as an

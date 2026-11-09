@@ -6,6 +6,9 @@ source_ids = ["occult-adventures", "legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bilocation", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "158"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: no
 Effect: one duplicate
 Subschool: Creation
 :::
-
-**Sources:** Occult Adventures pg 158
 
 The spell creates an identical copy of you, along with everything you wear and carry, anywhere you
 choose within range; you exist in two places at once until the spell ends. You and the duplicate use

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cavalier" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "24"
 
 [fields]
 kind = "archetype"
 replaces = ["Tactician", "Greater tactician", "Master tactician"]
 +++
 
-**Sources:** Ultimate Intrigue pg 24\
 Some cavaliers strive to be just as effective at the court of a local lord as on the field of
 battle. These courtly knights are equally at home in a duel with words or swords.
 

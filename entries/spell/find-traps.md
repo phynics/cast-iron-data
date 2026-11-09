@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "find_traps", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "281"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** PRPG Core Rulebook pg 281
 
 You gain intuitive insight into the workings of traps. You gain an insight bonus equal to 1/2 your
 caster level (maximum +10) on Perception checks made to find traps while the spell is in effect. You

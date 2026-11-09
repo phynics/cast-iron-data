@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "100"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Woodland stride", "Trackless step", "Resist nature's lure", "Venom 
 alters = ["Wild shape"]
 +++
 
-**Sources:** Advanced Player's Guide pg 100\
 As more and more of the soft, easy lands become cultivated and civilized, many druids look for
 refuge and solitude among the eternal peaks of the highest mountains.
 

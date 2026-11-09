@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "neutral", path = "json/rules_basics01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "135"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 135
 
 Our whims and desires are irrelevant, compared to the turning wheel of the world. I am who I am.
 Trust no one but your friends and family. The wheel turns in spite of us. Systems come and go. All

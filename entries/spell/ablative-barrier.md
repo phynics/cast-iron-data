@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ablative_barrier", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "221"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Target: creature touched
 Subschool: Creation
 Descriptors: force
 :::
-
-**Sources:** Ultimate Combat pg 221
 
 Invisible layers of solid force surround and protect the target, granting that target a +2 armor
 bonus to AC. Additionally, the first 5 points of lethal damage the target takes from each attack are

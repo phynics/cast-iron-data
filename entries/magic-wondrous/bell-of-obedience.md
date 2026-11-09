@@ -6,6 +6,9 @@ source_ids = ["lost-treasures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bell_of_obedience", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "lost-treasures"
+page = "20"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong enchantment"
 caster_level = "15th"
 +++
 
-**Sources:** Lost Treasures pg 20\
 **Aura** strong enchantment; **CL** 15th\
 **Slot** none; **Price** 157,500 gp; **Weight** 2,000 lbs.
 

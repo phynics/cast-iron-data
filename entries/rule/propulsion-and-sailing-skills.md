@@ -6,12 +6,14 @@ source_ids = ["skull-and-shackles-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "propulsion_and_sailing_skills", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "skull-and-shackles-players-guide"
+page = "10"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Skull and Shackles Player's Guide pg 10\
 Every vehicle has a means of propulsion. Boats and ships are propelled by currents, muscle, wind, or
 all three forces. The method of propulsion typically affects the speed and maneuverability of a
 ship, but more importantly, determines the required skill needed to control the ship. Controlling a

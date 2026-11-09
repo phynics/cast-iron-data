@@ -6,6 +6,9 @@ source_ids = ["pathfinder-128-songbird-scion-saboteur"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_devils_tooth", path = "json/monsters11.json" },
 ]
+[[sources]]
+publication = "pathfinder-128-songbird-scion-saboteur"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ blood-red globules that appear on the brink of rupturing._
 
 **Type:** plant
 
-**Sources:** Pathfinder \#128: Songbird, Scion, Saboteur pg 86\
 **Experience points:** 2,400
 
 **Armor class:** 19/6/19

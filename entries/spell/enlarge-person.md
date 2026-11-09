@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enlarge_person", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "277"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Saving throw: Fortitude negates
 Spell resistance: yes
 Target: one humanoid creature
 :::
-
-**Sources:** PRPG Core Rulebook pg 277
 
 This spell causes instant growth of a humanoid creature, doubling its height and multiplying its
 weight by 8. This increase changes the creature's size category to the next larger one. The target

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "respectful_quiet", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "222"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Targets: any number of creatures in a 30-ft.-radius burst
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** Inner Sea Races pg 222
 
 > _The following spell is available to the indicated race or ethnicity: Chelaxian_
 

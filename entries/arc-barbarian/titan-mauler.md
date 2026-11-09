@@ -9,13 +9,14 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/barbarian" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "30"
 
 [fields]
 kind = "archetype"
 replaces = ["Fast movement", "Uncanny dodge", "Trap sense", "Improved uncanny dodge", "Indomitable will"]
 +++
-
-**Sources:** Ultimate Combat pg 30
 
 In lands overrun by giants, dragons, and other hulking beasts, entire fellowships of barbarians hone
 tactics and traditions with one purpose - to bring low these massive foes. While her enemies' size

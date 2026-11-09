@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_popoto_dolphin", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "194"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _This sleek mammal has a short snout and black, white, and gray markings along i
 
 **Size:** small
 
-**Sources:** Ultimate Wilderness pg 194\
 **Experience points:** 135
 
 **Armor class:** 15/14/12

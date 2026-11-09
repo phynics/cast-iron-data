@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "pathfinder-79-the-half-dead-city"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guardian_scroll", path = "json/monsters13.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "138"
+[[sources]]
+publication = "pathfinder-79-the-half-dead-city"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -39,7 +45,6 @@ _This innocuous-looking scroll flits about with serpentine grace, baring its raz
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 5 pg 138, Pathfinder \#79: The Half-Dead City pg 82\
 **Size:** tiny
 
 **Experience points:** 800

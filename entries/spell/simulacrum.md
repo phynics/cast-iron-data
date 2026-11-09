@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "simulacrum", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "343"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 Effect: one duplicate creature
 Subschool: Shadow
 :::
-
-**Sources:** PRPG Core Rulebook pg 343
 
 Simulacrum creates an illusory duplicate of any creature. The duplicate creature is partially real
 and formed from ice or snow. It appears to be the same as the original, but it has only half of the

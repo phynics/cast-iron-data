@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ninja" },
 ]
+[[sources]]
+publication = "wilderness-origins"
+page = "13"
 
 [fields]
 kind = "archetype"
 replaces = ["Ninja trick gained at 2nd level", "No trace", "uncanny dodge", "improved uncanny dodge", "Light steps"]
 +++
 
-**Sources:** Wilderness Origins pg 13\
 Petal ninjas are a secretive clan of [ghoran](ref/race/ghoran) infiltrators, in touch with their
 plant-like nature to the point where they can change their forms, allowing them access into places
 that were previously impossible to reach.

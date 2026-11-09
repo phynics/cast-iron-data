@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mauler", path = "json/archetypes_FAMILIAR.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "212"
+[[sources]]
+publication = "familiar-folio"
+page = "11"
 
 [fields]
 kind = "archetype"
@@ -13,7 +19,6 @@ replaces = ["Speak with master", "speak with animals of its kind", "Deliver touc
 alters = ["The familiar's Intelligence score advancement"]
 +++
 
-**Sources:** Ultimate Wilderness pg 212, Familiar Folio pg 11\
 While most familiars are scouts and assistants, the mauler familiar cares only for the thrill of
 battle. A mauler often serves a bloodthirsty or martial-minded master.
 

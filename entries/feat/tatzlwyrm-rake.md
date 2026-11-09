@@ -6,6 +6,9 @@ source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tatzlwyrm_rake", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "legacy-of-dragons"
+page = "21"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using the Tatzlwyrm Style feat, you can attempt a combat maneuv
 +++
 
 ## Tatzlwyrm Rake (Combat)
-
-**Sources:** Legacy of Dragons pg 21
 
 You can immobilize your foe without using your arms.\
 **Prerequisites:** Dex 13, [Improved Grapple](ref/feat/improved-grapple),

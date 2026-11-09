@@ -6,14 +6,18 @@ source_ids = ["adventurers-guide", "seekers-of-secrets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "student_of_war", path = "json/prestige_classes3.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "142"
+[[sources]]
+publication = "seekers-of-secrets"
+page = "62"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d10."
 +++
-
-**Sources:** Adventurer's Guide pg 142, Seekers of Secrets pg 62
 
 To hear most warriors talk, battles are won by sharp iron and mighty thews. Yet the student of war
 knows that the key to victory is the mind behind the mettle, the training that guides the blade, and

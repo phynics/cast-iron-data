@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "123"
 
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Uncanny dodge", "Improved uncanny dodge"]
 +++
 
-**Sources:** Occult Adventures pg 123\
 The escapologist excels at escaping any confinement, whether physical, magical, or mental. Few
 restraints can hold an escapologist for long.
 

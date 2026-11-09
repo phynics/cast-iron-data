@@ -6,6 +6,9 @@ source_ids = ["pathfinder-54-the-empty-throne"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "karusetsu_the_cutting_light", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "pathfinder-54-the-empty-throne"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong evocation"
 caster_level = "13th"
 +++
 
-**Sources:** Pathfinder \#54: The Empty Throne pg 60\
 **Aura** strong evocation; **CL** 13th\
 **Slot** none; **Price** 67,500 gp; **Weight** 8 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "goad_of_obedience", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "24"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment"
 caster_level = "8th"
 +++
 
-**Sources:** Melee Tactics Toolbox pg 24\
 **Aura** moderate enchantment; **CL** 8th\
 **Slot** none; **Price** 11,508 gp; **Weight** 5 lbs.
 

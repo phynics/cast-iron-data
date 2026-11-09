@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "venomsweat_salve", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "9"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Sources:** Monster Codex pg 9\
 **Aura** moderate necromancy; **CL** 7th\
 **Slot** none; **Price** 2,500 gp; **Weight** -
 

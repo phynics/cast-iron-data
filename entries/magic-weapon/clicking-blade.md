@@ -6,6 +6,9 @@ source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clicking_blade", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "merchants-manifest"
+page = "11"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Sources:** Merchant's Manifest pg 11\
 **Aura** moderate necromancy; **CL** 7th\
 **Slot** none; **Price** 10,310 gp; **Weight** 3 lbs.
 

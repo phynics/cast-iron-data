@@ -6,6 +6,9 @@ source_ids = ["familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "emissarys_emboldening", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "familiar-folio"
+page = "19"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "As long as your familiar is adjacent to you, you gain a +1 morale bon
 +++
 
 ## Emissary's Emboldening (Familiar)
-
-**Sources:** Familiar Folio pg 19
 
 Your familiar lends you divine courage.\
 **Prerequisites:** Must have a [familiar](ref/sidekick/familiar) with the

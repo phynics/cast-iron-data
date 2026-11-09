@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "run", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "188"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 188
 
 You can run as a full-round action. If you do, you do not also get a 5-foot step. When you run, you
 can move up to four times your speed in a straight line (or three times your speed if you're in

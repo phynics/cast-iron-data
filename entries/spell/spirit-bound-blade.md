@@ -6,6 +6,9 @@ source_ids = ["occult-adventures", "psychic-anthology", "occult-origins", "heroe
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spirit_bound_blade", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "186"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: Will negates (harmless) (object)
 Spell resistance: no
 Target: weapon touched
 :::
-
-**Sources:** Occult Adventures pg 186
 
 You focus emotional energy and weave it into a shroud of hardened ectoplasm around the weapon you
 touch, infusing it with a ghostly glow and great power. The weapon becomes a

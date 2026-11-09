@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daemons", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "105"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 105
 
 All daemons have a common goal: bringing death, destruction, and pain to mortals. They eat souls,
 and stop at nothing to sate their hunger for them. Daemons are not to be trifled with. The greater

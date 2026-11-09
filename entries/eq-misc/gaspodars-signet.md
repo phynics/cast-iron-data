@@ -6,6 +6,9 @@ source_ids = ["lost-treasures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gaspodars_signet", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "lost-treasures"
+page = "32"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "5,900 gp"
 weight = "1/2 lb."
 +++
 
-**Sources:** Lost Treasures pg 32\
 **Price** 5,900 gp; **Weight** 1/2 lb.\
 **Category** Black Market
 

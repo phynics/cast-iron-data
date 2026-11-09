@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "faiths-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drunken_brawler", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "211"
+[[sources]]
+publication = "faiths-of-purity"
+page = "24"
 
 [fields]
 kind = "feat"
@@ -16,8 +22,6 @@ benefit = "When you drink a tankard of ale or strong alcohol, you take a -2 pena
 +++
 
 ## Drunken Brawler (Combat)
-
-**Sources:** Inner Sea Gods pg 211, Faiths of Purity pg 24
 
 You have learned how to fight effectively while drunk.\
 **Prerequisites:** [Endurance](ref/feat/endurance), worshiper of

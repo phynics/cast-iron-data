@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chimera", path = "json/monsters05.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "44"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ dragon and a horned goat._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 44\
 **Experience points:** 3,200
 
 **Armor class:** 19/10/18

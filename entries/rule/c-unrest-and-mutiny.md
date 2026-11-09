@@ -6,12 +6,14 @@ source_ids = ["jade-regent-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "c_unrest_and_mutiny", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "jade-regent-players-guide"
+page = "24"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Jade Regent Player's Guide pg 24\
 On long and arduous journeys such as those faced by the PCs and their caravan, disputes between a
 caravan's travelers are unavoidable. As unrest grows, members of the caravan may turn on one
 another, question leadership decisions, want to turn back or take a different path, or otherwise

@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-elements"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planar_alchemical_catalyst", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "blood-of-the-elements"
+page = "21"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "200 gp"
 weight = "2 lbs."
 +++
 
-**Sources:** Blood of the Elements pg 21\
 **Price** 200 gp; **Weight** 2 lbs.\
 **Category** Alchemical Tools
 

@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kick_up", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "152"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "As long as you have at least one hand free, you can use a swift actio
 +++
 
 ## Kick Up (Combat)
-
-**Sources:** Advanced Class Guide pg 152
 
 You have learned how to kick items on the ground to a ready hand.\
 **Prerequisites:** Dex 12, [Acrobatic](ref/feat/acrobatic), Acrobatics 1 rank; slayer level 1st or

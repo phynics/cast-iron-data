@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/barbarian" },
 ]
+[[sources]]
+publication = "people-of-the-river"
+page = "6"
 
 [fields]
 kind = "archetype"
 replaces = ["Uncanny dodge", "Improved uncanny dodge", "Indomitable will"]
 +++
 
-**Sources:** People of the River pg 6\
 The Kellid barbarians that roam Numeria's badlands have a healthy mistrust of technology and its
 corruptive influence. Since the cataclysmic Rain of Stars millennia ago, these warriors have
 developed numerous techniques and skills to protect themselves from the strange mechanical monsters

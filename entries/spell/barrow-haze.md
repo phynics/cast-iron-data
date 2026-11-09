@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "barrow_haze", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "174"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: none
 Spell resistance: no
 Effect: fog spreads in 20-ft. radius, 20 ft. high
 :::
-
-**Sources:** Advanced Class Guide pg 174
 
 Barrow haze creates a bank of fog similar to that created by fog cloud, except that the vapors are
 black and they have a necromantic link to you. The vapors do not interfere with your vision. Because

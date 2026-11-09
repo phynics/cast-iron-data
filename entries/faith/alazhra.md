@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alazhra", path = "json/faiths.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "316"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Alazhra**
 
 **Sub:** The Dream Eater
-
-**Sources:** Inner Sea Gods pg 316
 
 ### Details
 

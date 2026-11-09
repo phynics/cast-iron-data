@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloodstained_gloves", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "226"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "6th"
 +++
 
-**Sources:** Advanced Class Guide pg 226\
 **Aura** moderate divination; **CL** 6th\
 **Slot** hands; **Price** 8,000 gp; **Weight** 5 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-19-howl-of-the-carrion-king"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reveal_true_shape", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "pathfinder-19-howl-of-the-carrion-king"
+page = "75"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: Will negates
 Spell resistance: yes
 Target: one creature
 :::
-
-**Sources:** Pathfinder \#19: Howl of the Carrion King pg 75
 
 You reveal the true form of a magically disguised or transformed creature, whether the target's
 transformation is physical (such as polymorph) or illusory (such as disguise self). The spell does

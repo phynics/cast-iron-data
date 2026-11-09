@@ -6,13 +6,15 @@ source_ids = ["distant-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "astral", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
+[[sources]]
+publication = "distant-realms"
+page = "62"
 
 [fields]
 kind = "class_option"
 group = "sorcerer-bloodline"
 +++
 
-**Sources:** Distant Realms pg 62\
 Whether you were raised on the Astral Plane, had an ancestor with a strong connection to the Astral,
 or simply had a freak brush with an astral conduit in your youth, you have an unusual connection to
 both time and space. Your senses extend through the [Astral Plane](ref/rule/astral-plane) to the far

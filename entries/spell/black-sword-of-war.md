@@ -6,6 +6,9 @@ source_ids = ["pathfinder-71-rasputin-must-die"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "black_sword_of_war", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "pathfinder-71-rasputin-must-die"
+page = "75"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: Will negates (harmless) (object)
 Spell resistance: yes (harmless) (object)
 Target: piercing or slashing manufactured weapon touched
 :::
-
-**Sources:** Pathfinder \#71: Rasputin Must Die! pg 75
 
 > _[Szuriel's](ref/faith/szuriel) priests have access to the following spell._
 

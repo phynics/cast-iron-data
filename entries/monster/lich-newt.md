@@ -6,6 +6,9 @@ source_ids = ["pathfinder-115-trail-of-the-hunted"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lich_newt", path = "json/monsters16.json" },
 ]
+[[sources]]
+publication = "pathfinder-115-trail-of-the-hunted"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ _Two sharp ridges of bone run along the back of this foot-long, black-and-white 
 
 **Senses:** Low-light vision
 
-**Sources:** Pathfinder \#115: Trail of the Hunted pg 82\
 **Subtype:** Aquatic
 
 **Size:** tiny

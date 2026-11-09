@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "earthbind_rod", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "178"
+[[sources]]
+publication = "advanced-race-guide"
+page = "148"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate transmutation"
 caster_level = "6th"
 +++
 
-**Sources:** Ultimate Equipment pg 178, Advanced Race Guide pg 148\
 **Aura** moderate transmutation; **CL** 6th\
 **Slot** none; **Price** 26,500 gp; **Weight** 5 lbs.
 

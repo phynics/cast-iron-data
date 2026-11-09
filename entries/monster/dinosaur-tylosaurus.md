@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dinosaur_tylosaurus", path = "json/monsters08.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "91"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ maw._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 2 pg 91\
 **Experience points:** 4,800
 
 **Armor class:** 20/8/18

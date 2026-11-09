@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brightest_night", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "blood-of-the-ancients"
+page = "15"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Saving throw: none
 Spell resistance: no
 Targets: one willing creature plus one additional willing creature per 3 levels, no two of which can be more than 30 ft. apart
 :::
-
-**Sources:** Blood of the Ancients pg 15
 
 You grant [low-light vision](ref/rule/low-light-vision) to the affected creatures. Creatures that
 already have low-light vision have their existing low-light vision enhanced so that they can see

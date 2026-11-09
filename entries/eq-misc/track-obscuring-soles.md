@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "track_obscuring_soles", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-wild"
+page = "9"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "8 gp"
 weight = "1/2 lb."
 +++
 
-**Sources:** Heroes of the Wild pg 9\
 **Price** 8 gp; **Weight** 1/2 lb.\
 **Category** Clothing
 

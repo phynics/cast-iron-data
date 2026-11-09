@@ -6,6 +6,9 @@ source_ids = ["dungeoneers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "create_holds", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "dungeoneers-handbook"
+page = "30"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: none
 Spell resistance: no
 Effect: path of handholds
 :::
-
-**Sources:** Dungeoneer's Handbook pg 30
 
 You create a path of handholds on earthen, plaster, stone, or wooden walls (not on walls made of
 metal or other, harder materials). The handholds are created in pairs and are approximately 3 feet

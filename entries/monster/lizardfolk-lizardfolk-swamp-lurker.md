@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lizardfolk_lizardfolk_swamp_lurker", path = "json/monsters16.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "143"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ abilities = ["18", "12", "17", "9", "12", "8"]
 
 **Perception:** +12
 
-**Sources:** Monster Codex pg 143\
 **Subtype:** Reptilian
 
 **Experience points:** 4,800

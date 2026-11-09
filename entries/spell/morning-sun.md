@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "morning_sun", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-darklands"
+page = "15"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 Area: 60-ft. radius
 Descriptors: light
 :::
-
-**Sources:** Heroes of the Darklands pg 15
 
 This spell conjures a miniature sphere of sunlight, approximately the size of a human fist, at a
 desired location within range. The sphere sheds bright light in a 60-foot-radius burst. Creatures

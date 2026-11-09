@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cacophonous_call", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "208"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Advanced Player's Guide pg 208
 
 You fill your target's mind with a blaring cacophony of discordant sounds, making it hard for the
 target to act and concentrate. The creature gains the nauseated condition for the duration of the

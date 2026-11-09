@@ -6,14 +6,15 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "split_blade_sword", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "30"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "8 lbs"
 +++
-
-**Sources:** Martial Arts Handbook pg 30
 
 Patterned after the fiery blades masterfully wielded by Sarenite angels, the split-blade sword is
 both a holy symbol and a difficult-yet-effective weapon. A split-blade sword resembles a large

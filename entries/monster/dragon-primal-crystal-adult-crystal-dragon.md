@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_primal_crystal_adult_crystal_dragon", path = "json/monsters30.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "98"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ abilities = ["23", "12", "21", "16", "17", "22"]
 
 **Senses:** Dragon senses
 
-**Sources:** Bestiary 2 pg 98\
 **Subtype:** Earth, Extraplanar
 
 **tremorsense:** 60

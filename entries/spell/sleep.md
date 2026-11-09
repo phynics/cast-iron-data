@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sleep", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "344"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Area: one or more living creatures within a 10-ft.-radius burst
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 344
 
 A sleep spell causes a magical slumber to come upon 4 HD of creatures. Creatures with the fewest HD
 are affected first. Among creatures with equal HD, those who are closest to the spell's point of

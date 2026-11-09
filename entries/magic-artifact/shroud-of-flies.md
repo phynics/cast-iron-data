@@ -6,6 +6,9 @@ source_ids = ["feast-of-dust"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shroud_of_flies", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "feast-of-dust"
+page = "35"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration and transmutation"
 caster_level = "18th"
 +++
 
-**Sources:** Feast of Dust pg 35\
 **Aura** strong conjuration and transmutation; **CL** 18th\
 **Slot** shoulders; **Price** -; **Weight** 1 lb.
 

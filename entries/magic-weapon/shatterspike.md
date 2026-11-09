@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shatterspike", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "159"
+[[sources]]
+publication = "core-rulebook"
+page = "471"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong evocation"
 caster_level = "13th"
 +++
 
-**Sources:** Ultimate Equipment pg 159, PRPG Core Rulebook pg 471\
 **Aura** strong evocation; **CL** 13th\
 **Slot** none; **Price** 4,315 gp; **Weight** 4 lbs.
 

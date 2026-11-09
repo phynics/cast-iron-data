@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deathless_initiate", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "95"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You are not staggered while using the Diehard feat, but if you take a
 +++
 
 ## Deathless Initiate (Combat)
-
-**Sources:** Ultimate Combat pg 95
 
 For you, impending death is a call to wrath.\
 **Prerequisites:** Str 13, Con 13, [orc](ref/race/orc) or [half-orc](ref/race/half-orc),

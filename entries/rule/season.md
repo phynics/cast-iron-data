@@ -6,12 +6,13 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "season", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "166"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Wilderness pg 166
 
 A year has four seasons - spring, summer, fall, and winter - each of which lasts about 3 months.
 Season plays an important part in dictating a region's baseline temperature (as noted in each

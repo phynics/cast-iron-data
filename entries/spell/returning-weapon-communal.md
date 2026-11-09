@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/returning-weapon" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "243"
 
 [fields]
 kind = "spell"
@@ -59,8 +62,6 @@ Subschool: Teleportation
 :::
 
 ### Communal Returning Weapon
-
-**Sources:** Ultimate Combat pg 243
 
 This spell functions like [returning weapon](ref/spell/returning-weapon), except you divide the
 duration in 1-minute intervals among the targeted weapons.

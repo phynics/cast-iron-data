@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/shifter" },
 ]
+[[sources]]
+publication = "distant-realms"
+page = "12"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Shifter aspect", "chimeric aspect", "greater chimeric aspect", "fin
 alters = ["Shifter claws"]
 +++
 
-**Sources:** Distant Realms pg 12\
 Rather than emulate other animals entirely, some shifters learn to reshape their forms on the fly in
 response to a range of stimuli, rarely taking on a new form for longer than necessary to overcome a
 challenge.

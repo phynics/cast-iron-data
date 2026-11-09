@@ -6,13 +6,17 @@ source_ids = ["ultimate-wilderness", "heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "order_of_the_green", path = "json/class_ability_orders.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "44"
+[[sources]]
+publication = "heroes-of-the-wild"
+page = "13"
 
 [fields]
 kind = "class_option"
 group = "order"
 +++
-
-**Sources:** Ultimate Wilderness pg 44, Heroes of the Wild pg 13
 
 Cavaliers of the order of the Green are dedicated to protecting wild places and creatures, embracing
 the [Green Faith](ref/faith/green-faith) in all its glory and natural wonder.

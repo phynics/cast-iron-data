@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "survival_kit_common", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "58"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "4 lbs. (common), 5 lbs. (masterwork)"
 
 ## Survival kit
 
-**Sources:** Ultimate Equipment pg 58\
 **Price** 5 gp (common), 50 gp (masterwork); **Weight** 4 lbs. (common), 5 lbs. (masterwork)
 
 A survival kit provides the necessary tools for day-to-day existence in a temperate wilderness. It

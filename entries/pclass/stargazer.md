@@ -6,14 +6,15 @@ source_ids = ["paths-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stargazer", path = "json/prestige_classes3.json" },
 ]
+[[sources]]
+publication = "paths-of-the-righteous"
+page = "30"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d6."
 +++
-
-**Sources:** Paths of the Righteous pg 30
 
 The empyreal lord Pulura, the Shimmering Maiden, is said to dance among the lights of the aurora.
 Some of her worshipers seek her guidance in the starry skies, attuning themselves to the

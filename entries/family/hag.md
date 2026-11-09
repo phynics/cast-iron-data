@@ -6,12 +6,12 @@ source_ids = ["classic-horrors-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hag", path = "json/monster_families2.json" },
 ]
+[[sources]]
+publication = "classic-horrors-revisited"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Classic Horrors Revisited
 
 If [dryads](ref/monster/dryad), [nymphs](ref/monster/nymph), and [sprites](ref/monster/sprite)
 represent the grace and beauty of unspoiled nature, then surely the annis hag, green hag, and sea

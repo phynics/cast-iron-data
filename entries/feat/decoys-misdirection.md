@@ -6,6 +6,9 @@ source_ids = ["familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "decoys_misdirection", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "familiar-folio"
+page = "18"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "As long as your familiar is within 30 feet of you, anytime you succee
 +++
 
 ## Decoy's Misdirection (Familiar)
-
-**Sources:** Familiar Folio pg 18
 
 You can fool scrying attempts by using your familiar.\
 **Prerequisites:** Must have a [familiar](ref/sidekick/familiar) with the

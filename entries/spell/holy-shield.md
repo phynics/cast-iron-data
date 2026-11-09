@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "holy_shield", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "223"
 
 [fields]
 kind = "spell"
@@ -36,8 +39,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Ultimate Magic pg 223
 
 You gain the ability to magically project the defense of your shield to protect another creature at
 a distance. As a swift action, you designate one target within 30 feet. The target gains your

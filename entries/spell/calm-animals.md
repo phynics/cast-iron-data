@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "calm_animals", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "252"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Targets: animals within 30 ft. of each other
 Subschool: Compulsion
 Descriptors: emotion, mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 252
 
 This spell soothes and quiets animals, rendering them docile and harmless. Only ordinary animals
 (those with Intelligence scores of 1 or 2) can be affected by this spell. All the subjects must be

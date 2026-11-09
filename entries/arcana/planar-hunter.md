@@ -6,13 +6,14 @@ source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planar_hunter", path = "json/class_ability_magus_arcana.json" },
 ]
+[[sources]]
+publication = "monster-summoners-handbook"
+page = "9"
 
 [fields]
 kind = "class_option"
 group = "magus-arcana"
 +++
-
-**Sources:** Monster Summoner's Handbook pg 9
 
 **Planar Hunter (Su):**
 

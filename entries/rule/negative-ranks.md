@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "negative_ranks", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "110"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 110
 
 At these ranks, an organization actively opposes the PCs.
 

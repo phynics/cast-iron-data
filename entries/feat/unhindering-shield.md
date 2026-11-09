@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unhindering_shield", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "19"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "A monk with this feat is not considered to be using a shield for the 
 +++
 
 ## Unhindering Shield (Combat, Shield Mastery)
-
-**Sources:** Armor Master's Handbook pg 19
 
 You are accustomed to fighting with your shield.\
 **Prerequisites:** [Shield Focus](ref/feat/shield-focus), base attack bonus +6 or fighter level 4th,

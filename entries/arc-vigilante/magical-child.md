@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/vigilante" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "57"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["4th-, 8th-, 10th-, 14th-, and 16th-level vigilante talents", "Vigil
 alters = ["Skill ranks per level", "Armor and weapon proficiencies", "Startling appearance", "frightening appearance", "stunning appearance", "vengeance strike"]
 +++
 
-**Sources:** Ultimate Intrigue pg 57\
 Some vigilantes, no matter their age, carry a spark of capricious whimsy under which flows a
 powerful current of magic and wonder. They keep these wondrous abilities secret, though they are
 aided in their endeavors by creatures just as magical as they are.

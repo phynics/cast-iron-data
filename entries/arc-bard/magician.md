@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "82"
 
 [fields]
 kind = "archetype"
 replaces = ["Inspire courage", "Dirge of doom", "Frightening tune", "Bardic knowledge", "Countersong", "Well-versed", "Versatile performance", "Lore master", "Jack of all trades"]
 +++
 
-**Sources:** Advanced Player's Guide pg 82\
 A magician dabbles in performance, but sees it as a means to tap into universal energies and channel
 them.
 

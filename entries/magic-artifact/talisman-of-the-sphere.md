@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "talisman_of_the_sphere", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "334"
+[[sources]]
+publication = "core-rulebook"
+page = "547"
 
 [fields]
 kind = "item"
@@ -16,8 +22,6 @@ slot = "none"
 aura = "strong transmutation"
 caster_level = "16th"
 +++
-
-**Sources:** Ultimate Equipment pg 334, PRPG Core Rulebook pg 547
 
 **Aura** strong transmutation; **CL** 16th\
 **Slot** none; **Price** -; **Weight** 1 lb.

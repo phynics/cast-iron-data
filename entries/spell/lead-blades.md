@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lead_blades", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "230"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: none
 Spell resistance: no
 Target: touch
 :::
-
-**Sources:** Advanced Player's Guide pg 230
 
 Lead blades increases the momentum and density of your melee weapons just as they strike a foe. All
 melee weapons you are carrying when the spell is cast deal damage as if

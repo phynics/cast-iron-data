@@ -6,6 +6,9 @@ source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychopomp_ember_weaver", path = "json/monsters19.json" },
 ]
+[[sources]]
+publication = "monster-summoners-handbook"
+page = "25"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ shape._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Spiritsense 60 ft.
 
-**Sources:** Monster Summoner's Handbook pg 25\
 **Subtype:** Psychopomp, Extraplanar
 
 **Experience points:** 4,800

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bloodrager" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "82"
 
 [fields]
 kind = "archetype"
 replaces = ["Fast movement", "Uncanny dodge", "improved uncanny dodge", "The bloodline feat gained at 9th level"]
 +++
 
-**Sources:** Advanced Class Guide pg 82\
 In the world's wild lands, a mount is an advantage in both everyday life and the dealing of death.
 In many barbarian tribes, the true stature of a warrior is determined by his skill and ferocity on
 horseback. Other tribes measure it in skill atop whatever terrible mounts their people employ. A

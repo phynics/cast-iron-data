@@ -6,6 +6,9 @@ source_ids = ["pathfinder-115-trail-of-the-hunted"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "loping_ointment", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "pathfinder-115-trail-of-the-hunted"
+page = "74"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "60 gp"
 weight = "1 lb."
 +++
 
-**Sources:** Pathfinder \#115: Trail of the Hunted pg 74\
 **Price** 60 gp; **Weight** 1 lb.\
 **Category** Alchemical Remedies
 

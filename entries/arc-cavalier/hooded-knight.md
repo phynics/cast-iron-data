@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cavalier" },
 ]
+[[sources]]
+publication = "legacy-of-the-first-world"
+page = "26"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Tactician", "Greater tactician", "Master tactician"]
 alters = ["The cavalier's mount"]
 +++
 
-**Sources:** Legacy of the First World pg 26\
 Some cavaliers wander the lonely roads of the world - any world, including the First World -
 protecting travelers and acting as their honor guard. Like the [Eldest](ref/rule/the-eldest) they
 usually venerate, they wear heavy hoods and rarely show their faces. Hooded knights are usually

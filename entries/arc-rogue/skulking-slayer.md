@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "55"
 
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Trap sense +1 and +4", "Trap sense +2", "Trap sense +3"]
 +++
 
-**Sources:** Advanced Race Guide pg 55\
 Pushed into a life of crime by the society around them, half-orcs gravitate toward criminal
 activities that suit them best. Half-orc rogues leave subtle tactics and finesse to halflings and
 elves, and rely on brute strength and thuggery when they go about making mischief. Skulking slayers

@@ -6,6 +6,9 @@ source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "buoyant_light_armor", path = "json/magic_enhancements.json" },
 ]
+[[sources]]
+publication = "magical-marketplace"
+page = "9"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "5th"
 
 ## Buoyant
 
-**Sources:** Magical Marketplace pg 9\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** armor; **Price** light armor (+1,000 gp), shield (+1,000 gp), medium/heavy armor (+2,000
 gp); **Weight** -

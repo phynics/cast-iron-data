@@ -6,6 +6,12 @@ source_ids = ["pathfinder-68-the-shackled-hut", "artifacts-and-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dancing_hut_of_baba_yaga", path = "json/monsters_unique.json" },
 ]
+[[sources]]
+publication = "pathfinder-68-the-shackled-hut"
+page = "63"
+[[sources]]
+publication = "artifacts-and-legends"
+page = "22"
 
 [fields]
 kind = "creature"
@@ -44,7 +50,6 @@ fifteen-foot-tall chicken with gigantic talons caked in mud but sharp as razors.
 
 **Perception:** +8
 
-**Sources:** Pathfinder \#68: The Shackled Hut pg 63, Artifacts and Legends pg 22\
 **Experience points:** 102,400
 
 **Armor class:** 34/20/22

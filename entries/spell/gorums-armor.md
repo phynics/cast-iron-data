@@ -6,6 +6,12 @@ source_ids = ["inner-sea-world-guide", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gorums_armor", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "294"
+[[sources]]
+publication = "gods-and-magic"
+page = "17"
 
 [fields]
 kind = "spell"
@@ -42,8 +48,6 @@ Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
 Target: 1 suit of metal armor or 1 metal shield
 :::
-
-**Sources:** Inner Sea World Guide pg 294, Gods and Magic pg 17
 
 The targeted suit of armor or shield sprouts thousands of tiny iron spikes like porcupine quills.
 These do not harm the armor's wearer (though donning or removing armor under the effects of this

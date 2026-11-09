@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "pathfinder-34-blood-for-blood"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swampseer_poison", path = "json/equipment_poisons.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "111"
+[[sources]]
+publication = "pathfinder-34-blood-for-blood"
+page = "63"
 
 [fields]
 kind = "item"
@@ -13,8 +19,6 @@ category = "Poisons"
 price = "400 gp"
 weight = "&mdash;"
 +++
-
-**Sources:** Ultimate Equipment pg 111, Pathfinder \#34: Blood for Blood pg 63
 
 **Price** 400 gp; **Weight** —
 

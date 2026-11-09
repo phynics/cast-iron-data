@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "witch_words", path = "json/rules_opt_magic03.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "193"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 193
 
 **0-Level Witch Words:** Bleeding Wounds (Wounding), Cramp (Pain), Decipher (Language), Sense Magic
 (Detection), Soothing Touch (Healing), Spark (Electricity)

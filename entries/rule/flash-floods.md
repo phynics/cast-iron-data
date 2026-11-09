@@ -6,12 +6,14 @@ source_ids = ["pathfinder-30-the-twice-damned-prince"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flash_floods", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "pathfinder-30-the-twice-damned-prince"
+page = "61"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder \#30: The Twice-Damned Prince pg 61\
 Flash floods have the same issues associated with slow floods, but they also have the added danger
 of rapid flowing water. Most move through low-lying areas at a speed of 60 feet, sweeping away
 everything in their path. A creature can detect the onset of a flash flood with a DC 20

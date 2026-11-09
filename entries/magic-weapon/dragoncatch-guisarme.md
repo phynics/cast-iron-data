@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragoncatch_guisarme", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "154"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "8th"
 +++
 
-**Sources:** Ultimate Equipment pg 154\
 **Aura** moderate conjuration; **CL** 8th\
 **Slot** none; **Price** 13,308 gp; **Weight** 5 lbs.
 

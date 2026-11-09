@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "false_vision", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "280"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Area: 40-ft.-radius emanation
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** PRPG Core Rulebook pg 280
 
 This spell creates a subtle illusion, causing any divination (scrying) spell used to view anything
 within the area of this spell to instead receive a false image (as the

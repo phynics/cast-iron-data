@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/inquisitor" },
 ]
+[[sources]]
+publication = "monster-hunters-handbook"
+page = "7"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Stern gaze", "Detect alignment", "Discern lies"]
 alters = ["Domains", "Bane"]
 +++
 
-**Sources:** Monster Hunter's Handbook pg 7\
 Abolishers are incorruptible inquisitors who weed out creatures of alien, unnatural origins, finding
 and exposing aberrations for what they are.
 

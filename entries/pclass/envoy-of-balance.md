@@ -6,14 +6,15 @@ source_ids = ["champions-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "envoy_of_balance", path = "json/prestige_classes4.json" },
 ]
+[[sources]]
+publication = "champions-of-balance"
+page = "30"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d6."
 +++
-
-**Sources:** Champions of Balance pg 30
 
 Standing beyond good and evil, outside law and chaos, an envoy of balance serves as the countering
 force against any extremism that seeks to elevate one alignment above all others. While their

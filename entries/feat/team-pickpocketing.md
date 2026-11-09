@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "team_pickpocketing", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "122"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Whenever an ally with this feat succeeds a Bluff check to feint an op
 +++
 
 ## Team Pickpocketing (Teamwork)
-
-**Sources:** Ultimate Combat pg 122
 
 You distract a mark with friendly conversation while your partner robs the victim blind.\
 **Prerequisites:** Bluff 1 rank, Sleight of Hand 1 rank.\

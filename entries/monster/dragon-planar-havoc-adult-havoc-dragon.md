@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_planar_havoc_adult_havoc_dragon", path = "json/monsters30.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "100"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ stirred by an unseen breeze._
 
 **Senses:** Dragon senses
 
-**Sources:** Bestiary 6 pg 100\
 **Subtype:** Chaotic, Extraplanar, Good
 
 **Experience points:** 76,800

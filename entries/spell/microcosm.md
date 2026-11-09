@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "microcosm", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "176"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Target: one or more creatures
 Subschool: Phantasm
 Descriptors: mind-affecting
 :::
-
-**Sources:** Occult Adventures pg 176
 
 You plunge the targets' minds into a veiled [immersive mindscape](ref/rule/immersive-mindscapes) of
 your own design. You can affect any number of creatures whose combined total Hit Dice do not

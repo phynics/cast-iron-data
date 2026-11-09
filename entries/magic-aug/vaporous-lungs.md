@@ -6,6 +6,9 @@ source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vaporous_lungs", path = "json/magic_elemental_augmentations.json" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
+page = "25"
 
 [fields]
 kind = "item"
@@ -16,8 +19,6 @@ slot = "none"
 aura = "moderate abjuration"
 caster_level = "7th"
 +++
-
-**Sources:** Elemental Master's Handbook pg 25
 
 **Aura** moderate abjuration; **CL** 7th\
 **Slot** none; **Price** 10,800 gp; **Weight** —

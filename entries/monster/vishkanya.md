@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vishkanya", path = "json/monsters40.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "281"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ white orbs._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 3 pg 281\
 **Subtype:** Vishkanya
 
 **Experience points:** 200

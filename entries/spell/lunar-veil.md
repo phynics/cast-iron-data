@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lunar_veil", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "227"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Area: 120-ft.-radius emanation
 Subschool: Shadow
 Descriptors: darkness, shadow
 :::
-
-**Sources:** Ultimate Magic pg 227
 
 You conjure a tremendous area of shadow to obscure moonlight within the area, creating something
 akin to a lunar eclipse. The light level is lowered by two steps (though unlike

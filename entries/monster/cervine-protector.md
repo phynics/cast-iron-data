@@ -6,6 +6,9 @@ source_ids = ["heaven-unleashed"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cervine_protector", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "heaven-unleashed"
+page = "44"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ abilities = ["22", "15", "18", "12", "13", "11"]
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Heaven Unleashed pg 44\
 **Subtype:** Extraplanar, Good, Lawful
 
 **Experience points:** 2,400

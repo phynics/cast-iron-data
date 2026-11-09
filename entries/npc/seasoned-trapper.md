@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seasoned_trapper", path = "json/npcs.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "261"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "1"
 
 **Challenge rating:** 1
 
-**Sources:** NPC Codex pg 261\
 **XP** 400\
 Halfling [expert](ref/npcclass/expert) 3\
 N Small humanoid (halfling)\

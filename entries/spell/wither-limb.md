@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wither_limb", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "131"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: Fortitude negates
 Spell resistance: yes
 Target: living creature touched
 :::
-
-**Sources:** Horror Adventures pg 131
 
 You cause one limb of the target to shrivel and weaken. The target takes 2d6 points of damage. The
 points are permanently lost until the target's limb is restored by [heal](ref/spell/heal),

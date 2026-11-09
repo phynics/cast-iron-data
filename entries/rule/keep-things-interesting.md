@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "keep_things_interesting", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "154"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 154
 
 When the players ask what they find while exploring a hex, the answer should never be "nothing."
 Even in the simplest field of wheat, offer a bit of detail - something compelling to help flesh out

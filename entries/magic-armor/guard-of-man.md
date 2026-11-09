@@ -6,6 +6,9 @@ source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guard_of_man", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "51"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration"
 caster_level = "15th"
 +++
 
-**Sources:** Inner Sea Combat pg 51\
 **Aura** strong abjuration; **CL** 15th\
 **Slot** shield; **Price** 17,180 gp; **Weight** 45 lbs.
 

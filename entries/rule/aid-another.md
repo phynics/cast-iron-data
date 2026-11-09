@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aid_another", path = "json/rules_basics01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "86"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 86
 
 You can help someone achieve success on a skill check by making the same kind of skill check in a
 cooperative effort. If you roll a 10 or higher on your check, the character you're helping gets a +2

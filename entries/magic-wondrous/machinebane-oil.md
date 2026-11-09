@@ -6,6 +6,9 @@ source_ids = ["construct-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "machinebane_oil", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "construct-handbook"
+page = "19"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Construct Handbook pg 19\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** none; **Price** 750 gp; **Weight** 1/2 lb.
 

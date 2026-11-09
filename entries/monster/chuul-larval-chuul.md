@@ -6,6 +6,9 @@ source_ids = ["pathfinder-122-into-the-shattered-continent"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chuul_larval_chuul", path = "json/monsters05.json" },
 ]
+[[sources]]
+publication = "pathfinder-122-into-the-shattered-continent"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ pair of mandibles._
 
 **Size:** small
 
-**Sources:** Pathfinder \#122: Into the Shattered Continent pg 82\
 **Subtype:** Aquatic
 
 **Experience points:** 400

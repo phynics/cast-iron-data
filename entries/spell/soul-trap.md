@@ -6,12 +6,14 @@ source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soul_trap", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "192"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Book of the Damned pg 192\
 **School** necromancy \[evil\]; **Level** 9\
 **Casting Time** 90 minutes\
 **Components** V, S, F (a crystal lens worth at least half the value of the soul to be trapped), SC

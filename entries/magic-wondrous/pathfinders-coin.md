@@ -6,6 +6,9 @@ source_ids = ["pathfinder-society-field-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pathfinders_coin", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "pathfinder-society-field-guide"
+page = "53"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Sources:** Pathfinder Society Field Guide pg 53\
 **Aura** faint divination; **CL** 3rd\
 **Slot** none; **Price** 1,500 gp; **Weight** -
 

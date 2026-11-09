@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "pathfinder-24-the-final-wish"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "simurgh", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "245"
+[[sources]]
+publication = "pathfinder-24-the-final-wish"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -44,7 +50,6 @@ _This massive creature has the body of a resplendent bird but the head of a rega
 
 **Senses:** Darkvision 60 ft., Detect evil, Detect magic, Low-light vision
 
-**Sources:** Bestiary 3 pg 245, Pathfinder \#24: The Final Wish pg 86\
 **Experience points:** 153,600
 
 **Armor class:** 34/10/30

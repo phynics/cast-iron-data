@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horsemasters_saddle", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "304"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Equipment pg 304\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** none; **Price** 12,000 gp; **Weight** 5 lbs.
 

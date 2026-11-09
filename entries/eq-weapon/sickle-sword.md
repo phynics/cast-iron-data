@@ -6,14 +6,15 @@ source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sickle_sword", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "9"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "4 lbs."
 +++
-
-**Sources:** Adventurer's Armory 2 pg 9
 
 Favored by those residents of Irrisen with no talent for witchcraft, this exotic blade curves
 multiple times along its 3-1/2 feet. The sickle-sword's hilt is long and curved, and its blade bears

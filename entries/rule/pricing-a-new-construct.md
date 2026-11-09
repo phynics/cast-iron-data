@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pricing_a_new_construct", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "112"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 112
 
 This section provides guidelines for those seeking to calculate the costs of crafting their own
 constructs. As a rough guideline, a construct's price is equal to its challenge rating squared, then

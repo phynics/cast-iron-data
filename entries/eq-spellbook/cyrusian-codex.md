@@ -6,6 +6,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cyrusian_codex", path = "json/equipment_spellbooks.json" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "18"
 
 [fields]
 kind = "item"
@@ -16,8 +19,6 @@ category = "Spellbooks"
 
 _This heavy tome bears a handsome leather cover over thick metal plates. The front cover displays a
 dozen tiny dials arranged in a semi-circle around the locking mechanism._
-
-**Sources:** Arcane Anthology pg 18
 
 **Protection** [Good lock](ref/eq-misc/lock-good) with [arcane lock](ref/spell/arcane-lock) (DC 40)\
 **Value** 4,425 gp (9,125 gp with the preparation ritual)

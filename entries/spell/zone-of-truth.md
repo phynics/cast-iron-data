@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "zone_of_truth", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "371"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Area: 20-ft.-radius emanation
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 371
 
 Creatures within the emanation area (or those who enter it) can't speak any deliberate and
 intentional lies. Each potentially affected creature is allowed a save to avoid the effects when the

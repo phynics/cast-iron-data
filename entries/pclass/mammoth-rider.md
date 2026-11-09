@@ -6,14 +6,18 @@ source_ids = ["adventurers-guide", "paths-of-prestige"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mammoth_rider", path = "json/prestige_classes2.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "128"
+[[sources]]
+publication = "paths-of-prestige"
+page = "36"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d12."
 +++
-
-**Sources:** Adventurer's Guide pg 128, Paths of Prestige pg 36
 
 From the inhospitable arctic wastes of the far north come the mighty mammoth riders, fearsome
 warriors who have trained the great beasts that wander the chilly wilds to serve as their faithful

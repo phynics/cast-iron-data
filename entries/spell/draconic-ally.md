@@ -6,6 +6,9 @@ source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "draconic_ally", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "legacy-of-dragons"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Effect: one intelligent draconic servant
 Subschool: Creation
 Descriptors: draconic
 :::
-
-**Sources:** Legacy of Dragons pg 28
 
 You create a semi-living intelligent draconic servant that loyally obeys and serves you. Treat this
 servant as a pseudodragon with all of the abilities granted by one of the following spells: form of

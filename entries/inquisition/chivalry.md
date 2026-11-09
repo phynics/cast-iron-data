@@ -6,13 +6,14 @@ source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chivalry", path = "json/class_ability_inquisitions.json" },
 ]
+[[sources]]
+publication = "magical-marketplace"
+page = "10"
 
 [fields]
 kind = "class_option"
 group = "inquisition"
 +++
-
-**Sources:** Magical Marketplace pg 10
 
 **Associated Deities**
 

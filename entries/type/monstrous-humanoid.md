@@ -6,14 +6,15 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monstrous_humanoid", path = "json/monster_types.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "308"
 
 [fields]
 kind = "none"
 +++
 
 ## Type: Monstrous Humanoid
-
-**Sources:** Pathfinder RPG Bestiary pg 308
 
 Monstrous humanoids are similar to [humanoids](ref/type/humanoid), but with monstrous or animalistic
 features. They often have magical abilities as well.

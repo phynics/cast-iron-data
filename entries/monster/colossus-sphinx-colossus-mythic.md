@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "osirion-legacy-of-the-pharaohs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "colossus_sphinx_colossus_mythic", path = "json/monsters_mythic.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "58"
+[[sources]]
+publication = "osirion-legacy-of-the-pharaohs"
+page = "56"
 
 [fields]
 kind = "creature"
@@ -48,7 +54,6 @@ _This stone edifice resembles a lion with a regal human face, garbed in royal cl
 
 **Senses:** Darkvision 60 ft., Low-light vision, X-ray vision
 
-**Sources:** Bestiary 5 pg 58, Osirion, Legacy of the Pharaohs pg 56\
 **Subtype:** Colossus, Mythic
 
 **tremorsense:** 120

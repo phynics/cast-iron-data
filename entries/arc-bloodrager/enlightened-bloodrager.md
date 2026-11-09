@@ -9,6 +9,12 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bloodrager" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "120"
+[[sources]]
+publication = "arcane-anthology"
+page = "16"
 
 [fields]
 kind = "archetype"
@@ -16,7 +22,6 @@ replaces = ["1st-level bloodline power", "bloodline bonus spells", "The bloodlin
 alters = ["Spellcasting", "Bloodrage", "The bloodrager's bloodline powers"]
 +++
 
-**Sources:** Adventurer's Guide pg 120, Arcane Anthology pg 16\
 Troubled by overwhelming rage and mystic forces beyond their comprehension, bloodragers have been
 traveling to the [Magaambya](ref/rule/aff-i-school) for generations, seeking the peace and
 enlightenment promised by students of Old-Mage Jatembe. Many perish or succumb to their bloodlust

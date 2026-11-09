@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shimmering_kilt", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "blood-of-the-sea"
+page = "20"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate illusion and transmutation"
 caster_level = "10th"
 +++
 
-**Sources:** Blood of the Sea pg 20\
 **Aura** moderate illusion and transmutation; **CL** 10th\
 **Slot** body; **Price** 25,200 gp; **Weight** 2 lbs.
 

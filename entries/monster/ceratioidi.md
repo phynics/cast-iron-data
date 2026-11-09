@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "pathfinder-32-rivers-run-red"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ceratioidi", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "50"
+[[sources]]
+publication = "pathfinder-32-rivers-run-red"
+page = "80"
 
 [fields]
 kind = "creature"
@@ -45,7 +51,6 @@ lure of a deep-sea predator._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 3 pg 50, Pathfinder \#32: Rivers Run Red pg 80\
 **Subtype:** Aquatic
 
 **Experience points:** 800

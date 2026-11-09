@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daemon_vulnudaemon", path = "json/monsters06.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "63"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ childlike horror._
 
 **Size:** small
 
-**Sources:** Bestiary 3 pg 63\
 **Subtype:** Daemon, Evil, Extraplanar
 
 **Experience points:** 1,200

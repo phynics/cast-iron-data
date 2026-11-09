@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/telekinesis" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "221"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: Will negates (object) or none, see text
 Spell resistance: yes (object)
 Target or Targets: see text
 :::
-
-**Sources:** Inner Sea Races pg 221
 
 > _The following spell is available to the indicated race or ethnicity: Vudrani_
 

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-83-the-slave-trenches-of-hakotep"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "living_sandstorm_living_sandstorm_sandstorm", path = "json/monsters16.json" },
 ]
+[[sources]]
+publication = "pathfinder-83-the-slave-trenches-of-hakotep"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ abilities = ["1", "22", "21", "12", "12", "13"]
 
 **Senses:** Darkvision 60 ft., Sandsight
 
-**Sources:** Pathfinder \#83: The Slave Trenches of Hakotep pg 86\
 **Subtype:** Earth, Elemental, Swarm
 
 **tremorsense:** 60

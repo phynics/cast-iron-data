@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/contingency" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "188"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Occult Adventures pg 188
 
 This spell functions as [contingency](ref/spell/contingency), but you invest a spell whose level
 doesn't exceed one-quarter of your level (rounded down, maximum spell level 3rd) into one of your

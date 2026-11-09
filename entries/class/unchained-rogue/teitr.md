@@ -6,12 +6,13 @@ source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "addon", target = "ref/class/unchained-rogue", label = "changes" },
 ]
+[[sources]]
+publication = "the-elephant-in-the-room-feat-taxes-in-pathfinder"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 At 1st level, a rogue gains [Deft Maneuvers](ref/rule/deft-maneuvers) as a bonus feat. In addition,
 starting at 3rd level, she can select any one [weapon group](ref/ability/weapon-groups) listed under
 the fighter's Weapon Training class feature. Once this choice is made, it cannot be changed.

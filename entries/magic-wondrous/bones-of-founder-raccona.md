@@ -6,6 +6,9 @@ source_ids = ["pathfinder-27-what-lies-in-dust"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bones_of_founder_raccona", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "pathfinder-27-what-lies-in-dust"
+page = "54"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint enchantment"
 caster_level = "4th"
 +++
 
-**Sources:** Pathfinder \#27: What Lies in Dust pg 54\
 **Aura** faint enchantment; **CL** 4th\
 **Slot** none; **Price** 2,250 gp; **Weight** 0 to 1 lb. (entire set weighs 8 lbs.)
 

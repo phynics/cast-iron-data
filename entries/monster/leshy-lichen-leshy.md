@@ -6,6 +6,9 @@ source_ids = ["pathfinder-116-fangs-of-war"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "leshy_lichen_leshy", path = "json/monsters34.json" },
 ]
+[[sources]]
+publication = "pathfinder-116-fangs-of-war"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ growths._
 
 **Size:** small
 
-**Sources:** Pathfinder \#116: Fangs of War pg 86\
 **Subtype:** Leshy, Shapechanger
 
 **Experience points:** 800

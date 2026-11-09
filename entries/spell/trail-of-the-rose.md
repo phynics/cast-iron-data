@@ -6,6 +6,9 @@ source_ids = ["faiths-of-purity", "inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trail_of_the_rose", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "faiths-of-purity"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: no
 Target: 1 rose touched
 Subschool: Phantasm
 :::
-
-**Sources:** Faiths of Purity pg 29
 
 This spell creates an illusory trail in the form of a misty and visible scent coming from the rose
 used as this spell's material component. When you cast this spell, the scent of the rose leaves a

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-27-what-lies-in-dust"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vudran_ashak_helmet", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "pathfinder-27-what-lies-in-dust"
+page = "59"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Sources:** Pathfinder \#27: What Lies in Dust pg 59\
 **Aura** faint divination; **CL** 5th\
 **Slot** head; **Price** 22,000 gp; **Weight** 3 lbs.
 

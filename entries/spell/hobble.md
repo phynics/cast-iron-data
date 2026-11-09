@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hobble", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "200"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Saving throw: Fortitude negates
 Spell resistance: yes
 Targets: one creature/level, no two of which can be more than 20 feet apart
 :::
-
-**Sources:** Villain Codex pg 200
 
 This spell disrupts the method a target uses for movement. Creatures under the effects of this spell
 move at half their base speed (rounded down to the nearest 5-foot increment) but can still take

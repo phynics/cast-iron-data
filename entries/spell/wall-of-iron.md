@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wall_of_iron", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "367"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: no
 Effect: iron wall whose area is up to one 5-ft. square/level; see text
 Subschool: Creation
 :::
-
-**Sources:** PRPG Core Rulebook pg 367
 
 You cause a flat, vertical iron wall to spring into being. The wall inserts itself into any
 surrounding nonliving material if its area is sufficient to do so. The wall cannot be conjured so

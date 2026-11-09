@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divine_guardian", path = "json/monster_template1.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "60"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +1
-
-**Source:** Bestiary 4/60
 
 A divine guardian is a creature chosen by the gods to guard a sacred site of the faith. Blessed with
 eternal life (or damned, some might say), a divine guardian spends untold centuries in the service

@@ -6,6 +6,8 @@ source_ids = ["blood-of-the-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dirge_of_the_torn_sail", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "blood-of-the-sea"
 
 [fields]
 kind = "class_option"
@@ -13,8 +15,6 @@ group = "bardic-masterpiece"
 +++
 
 ## Dirge of the Torn Sail (Sing, String)
-
-**Sources:** Blood of the Sea
 
 Your ominous refrain warns away those who would trespass in your domain.
 

@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "behemoth_thunder_behemoth", path = "json/monsters03.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "39"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ head._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 3 pg 39\
 **Subtype:** Behemoth, Earth
 
 **tremorsense:** 60

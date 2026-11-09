@@ -6,13 +6,14 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "order_of_the_blue_rose", path = "json/class_ability_orders.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "34"
 
 [fields]
 kind = "class_option"
 group = "order"
 +++
-
-**Sources:** Ultimate Combat pg 34
 
 The cavaliers of the order of the blue rose dedicate themselves to promoting peace in the lands they
 roam. Skilled warriors and adept diplomats, these cavaliers counsel wisdom, patience, and

@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wild_magic", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "147"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 147
 
 Though many spellcasters like to consider their use of magic a science, the effects of magic are not
 always easy to predict. Wild, uncontrolled magic sometimes surges as a side effect of spellcasting

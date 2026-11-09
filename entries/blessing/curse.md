@@ -6,13 +6,15 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "curse", path = "json/class_ability_blessings.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "22"
 
 [fields]
 kind = "class_option"
 group = "warpriest-blessing"
 +++
 
-**Sources:** Magic Tactics Toolbox pg 22\
 **Deities:** [Andirifkhu](ref/faith/andirifkhu), [Calistria](ref/faith/calistria),
 [Desna](ref/faith/desna), [Graffiacane](ref/faith/graffiacane), [Magdh](ref/faith/magdh)
 

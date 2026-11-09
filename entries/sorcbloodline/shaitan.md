@@ -6,13 +6,15 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shaitan", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "69"
 
 [fields]
 kind = "class_option"
 group = "sorcerer-bloodline"
 +++
 
-**Sources:** Ultimate Magic pg 69\
 You were born with the power of earth genies, and the magic of the
 [shaitans](ref/monster/genie-shaitan) is strong in you.
 

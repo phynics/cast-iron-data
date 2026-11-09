@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stubborn_nail", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "322"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Sources:** Ultimate Equipment pg 322\
 **Aura** faint abjuration; **CL** 3rd\
 **Slot** none; **Price** 100 gp; **Weight** 1/2 lb.
 

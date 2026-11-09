@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "musket", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "43"
+[[sources]]
+publication = "ultimate-combat"
+page = "137"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "9 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 43, Ultimate Combat pg 137
 
 This long-barreled firearm has a much greater range than a [pistol](ref/eq-weapon/pistol). A musket
 uses either a [bullet](ref/eq-weapon/firearm-bullet) and 1 dose of

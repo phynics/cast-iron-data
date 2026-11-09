@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sunder_breaker", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "195"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: yes (harmless) and see text
 Target: creature touched
 Descriptors: force
 :::
-
-**Sources:** Advanced Class Guide pg 195
 
 You place an invisible ward upon the target. The next time a creature succeeds at a sunder combat
 maneuver against the target, the attacker's weapon takes 1d6 points of damage per caster level

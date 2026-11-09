@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/fireball" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "208"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Descriptors: fire
 :::
 
 ### Controlled Fireball
-
-**Sources:** Ultimate Intrigue pg 208
 
 This spell functions as [fireball](ref/spell/fireball) except you can cause the bead of fire to
 originate from anywhere you can see within range. You can choose a number of squares within the area

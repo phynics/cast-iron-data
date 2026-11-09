@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide", "chronicle-of-legends", "advanced-race-g
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "antipaladin", path = "json/classes.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "118"
 
 [fields]
 kind = "class"
@@ -13,8 +16,6 @@ class_type = "alternate"
 hit_die = "d10"
 skill_ranks = "2 + Int modifier"
 +++
-
-**Sources:** Advanced Player's Guide pg 118
 
 Although it is a rare occurrence, [paladins](ref/class/paladin) do sometimes stray from the path of
 righteousness. Most of these wayward holy warriors seek out redemption and forgiveness for their

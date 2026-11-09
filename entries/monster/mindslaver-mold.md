@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "lands-of-the-linnorm-kings"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mindslaver_mold", path = "json/monsters17.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "194"
+[[sources]]
+publication = "lands-of-the-linnorm-kings"
+page = "61"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ this feral-looking man._
 
 **Size:** small
 
-**Sources:** Bestiary 4 pg 194, Lands of the Linnorm Kings pg 61\
 **Experience points:** 800
 
 **Armor class:** 15/15/11

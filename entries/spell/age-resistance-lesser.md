@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "age_resistance_lesser", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "205"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Duration: 24 hours
 Saving throw: none
 Spell resistance: no
 :::
-
-**Sources:** Ultimate Magic pg 205
 
 You ignore the physical detriments of being middle-aged. This spell does not cause you to look
 younger, nor does it prevent you from dying of old age, but as long as the spell is in effect, you

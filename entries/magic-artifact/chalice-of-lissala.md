@@ -6,6 +6,9 @@ source_ids = ["pathfinder-137-the-city-outside-of-time"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chalice_of_lissala", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "pathfinder-137-the-city-outside-of-time"
+page = "69"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "overwhelming enchantment"
 caster_level = "22nd"
 +++
 
-**Sources:** Pathfinder \#137: The City Outside of Time pg 69\
 **Aura** overwhelming enchantment; **CL** 22nd\
 **Slot** none; **Price** -; **Weight** 4 lbs.
 

@@ -6,13 +6,29 @@ source_ids = ["mythic-adventures", "mythic-origins", "mythic-realms", "distant-s
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "upa_1", path = "json/rules_campaign_types07.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "50"
+[[sources]]
+publication = "mythic-origins"
+page = "16"
+[[sources]]
+publication = "mythic-realms"
+page = "9"
+[[sources]]
+publication = "distant-shores"
+page = "12"
+[[sources]]
+publication = "alchemy-manual"
+page = "26"
+[[sources]]
+publication = "heroes-of-golarion"
+page = "31"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 50, Mythic Origins pg 16, Mythic Realms pg 9, Distant Shores pg
-12, Alchemy Manual pg 26, Heroes of Golarion pg 31\
 You can select these path abilities at any tier.
 
 **Akitonian Physiology (Ex) \[Doorway to the Red Star\]:** When you select this path ability, you

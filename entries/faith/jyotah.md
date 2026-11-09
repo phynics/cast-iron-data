@@ -6,6 +6,9 @@ source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jyotah", path = "json/faiths5.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "130"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Jyotah**
 
 **Sub:** He Who Walks Among the Gods
-
-**Sources:** Book of the Damned pg 130
 
 ### Details
 

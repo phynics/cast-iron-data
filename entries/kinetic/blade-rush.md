@@ -6,6 +6,9 @@ source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blade_rush", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "20"
 
 [fields]
 kind = "class_option"
@@ -25,8 +28,6 @@ group = "kineticist-wild-talent"
 **Associated:** any
 
 **Saving throw:** none
-
-**Source:** Psychic Anthology/20
 
 You use your element's power to instantly move 30 feet in any direction (even straight up), manifest
 a _kinetic blade,_ and attack once. You gain a +2 bonus on the attack roll and take a -2 penalty to

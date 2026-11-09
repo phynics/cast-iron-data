@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "27"
 
 [fields]
 kind = "archetype"
 replaces = ["Versatile performance", "Frightening tune", "Deadly performance"]
 +++
 
-**Sources:** Ultimate Magic pg 27\
 Words can harm, but they also heal. The songhealer brings peace and surcease of pain, calming wild
 emotions and providing a balm for the wounded body.
 

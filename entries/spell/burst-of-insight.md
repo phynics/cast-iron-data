@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burst_of_insight", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "160"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Occult Adventures pg 160
 
 You plumb the depths of your mind for insight, leaving you momentarily frazzled. When you are about
 to make a d20 roll based on Intelligence, Wisdom, or Charisma, you can cast this spell to gain a +8

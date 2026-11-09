@@ -6,6 +6,9 @@ source_ids = ["pathfinder-91-battle-of-bloodmarch-hills"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_awesome_blow", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "pathfinder-91-battle-of-bloodmarch-hills"
+page = "69"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you make an awesome blow combat maneuver, for every 5 by which y
 +++
 
 ## Greater Awesome Blow (Combat)
-
-**Sources:** Pathfinder \#91: Battle of Bloodmarch Hills pg 69
 
 When you perform an awesome blow, you fling opponents back farther.\
 **Prerequisites:** Str 25, [Awesome Blow](ref/feat/awesome-blow),

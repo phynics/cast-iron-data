@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/gunslinger" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "45"
 
 [fields]
 kind = "archetype"
 replaces = ["Nimble", "Deadeye deed", "Gunslinger initiative deed", "The gunslinger's normal bonus feats"]
 +++
 
-**Sources:** Inner Sea Combat pg 45\
 The Grand Duchy of Alkenstar has spawned all manner of firearm specialists, wielding small and large
 firearms alike. Siege gunners specialize in the very largest: [cannons](ref/eq-siegeengine/cannon),
 [bombards](ref/eq-siegeengine/bombard-standard), and [firedrakes](ref/eq-siegeengine/firedrake).

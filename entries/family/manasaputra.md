@@ -6,12 +6,12 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "manasaputra", path = "json/monster_families2.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Bestiary 5
 
 For most creatures, the path to self-perfection ends as all mortal pursuits do: in death. For a few,
 however, the path to self-perfection ends with fiery rebirth in the heart of the

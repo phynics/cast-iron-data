@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "indomitable_jewel", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "259"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "8th"
 +++
 
-**Sources:** Occult Adventures pg 259\
 **Aura** moderate abjuration; **CL** 8th\
 **Slot** neck; **Price** 12,000 gp; **Weight** 1 lb.
 

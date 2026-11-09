@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "carrying_capacity", path = "json/rules_basics02.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "169"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 169
 
 These carrying capacity rules determine how much a character's equipment slows him down. Encumbrance
 comes in two parts: encumbrance by armor and encumbrance by total weight.

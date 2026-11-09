@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_of_doubt", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "222"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Targets: one creature/3 levels
 Subschool: Compulsion
 Descriptors: darkness, emotion, evil, mind-affecting
 :::
-
-**Sources:** Inner Sea Races pg 222
 
 > _The following spell is available to the indicated race or ethnicity:
 > [Tiefling](ref/race/tiefling)_

@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lead_your_kingdom", path = "json/rules_subsystems02.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "85"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 85
 
 If you are using the [kingdom-building rules](ref/rule/kingdom-building) and have a leadership role
 in the kingdom, you must spend 7 days per month performing various

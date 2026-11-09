@@ -6,6 +6,12 @@ source_ids = ["adventurers-guide", "inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unfolding_wind_strike", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "106"
+[[sources]]
+publication = "inner-sea-combat"
+page = "13"
 
 [fields]
 kind = "feat"
@@ -16,8 +22,6 @@ benefit = "When using Perfect Style, you double the range increment of any throw
 +++
 
 ## Unfolding Wind Strike (Combat)
-
-**Sources:** Adventurer's Guide pg 106, Inner Sea Combat pg 13
 
 The wind through which your thrown weapons fly directs them to their targets or back to your hand.\
 **Prerequisites:** Dex 13; Wis 13; [Perfect Style](ref/feat/perfect-style);

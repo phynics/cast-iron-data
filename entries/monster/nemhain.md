@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "tomb-of-the-iron-medusa"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nemhain", path = "json/monsters17.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "182"
+[[sources]]
+publication = "tomb-of-the-iron-medusa"
+page = "29"
 
 [fields]
 kind = "creature"
@@ -41,7 +47,6 @@ _A cloud of translucent humanoid spirits whirls around this ghostly desiccated c
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 5 pg 182, Tomb of the Iron Medusa pg 29\
 **Subtype:** Incorporeal
 
 **Type:** undead

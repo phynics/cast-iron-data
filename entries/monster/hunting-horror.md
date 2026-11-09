@@ -6,6 +6,9 @@ source_ids = ["pathfinder-113-what-grows-within"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hunting_horror", path = "json/monsters14.json" },
 ]
+[[sources]]
+publication = "pathfinder-113-what-grows-within"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ allow the creature to fly._
 
 **Senses:** Darkvision 60 ft., Detect scrying, Low-light vision, Scent, See in darkness
 
-**Sources:** Pathfinder \#113: What Grows Within pg 88\
 **Experience points:** 38,400
 
 **Armor class:** 29/11/24

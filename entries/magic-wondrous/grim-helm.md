@@ -6,6 +6,9 @@ source_ids = ["pathfinder-139-the-dead-road"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grim_helm", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "pathfinder-139-the-dead-road"
+page = "64"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint enchantment"
 caster_level = "3rd"
 +++
 
-**Sources:** Pathfinder \#139: The Dead Road pg 64\
 **Aura** faint enchantment; **CL** 3rd\
 **Slot** head; **Price** 48,000 gp; **Weight** 4 lbs.
 

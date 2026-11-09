@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ears_of_the_city", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-streets"
+page = "30"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: one creature
 :::
-
-**Sources:** Heroes of the Streets pg 30
 
 The target of this spell sees and hears a stream of past scenes and pieces of conversations related
 to local people and events. The flashes are so brief that it is impossible to identify individual

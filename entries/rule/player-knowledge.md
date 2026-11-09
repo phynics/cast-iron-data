@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "player_knowledge", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "60"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 60
 
 Separating the information a player knows from the facts a character possesses regularly proves one
 of the most difficult challenges players face. "Metagaming," or making decisions based on player

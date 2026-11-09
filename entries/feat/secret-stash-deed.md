@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/amateur-gunslinger", label = "or" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "116"
 
 [fields]
 kind = "feat"
@@ -19,8 +22,6 @@ benefit = "Spend 1 grit point while in combat to recover either 1 bullet and 1 d
 +++
 
 ## Secret Stash Deed (Grit)
-
-**Sources:** Ultimate Combat pg 116
 
 You are so skilled at stashing small packets of firearm ammunition and black powder on your person
 that you sometimes surprise yourself when you find them.\

@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eruptive_pustules", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "218"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: yes
 Target: you
 Descriptors: acid
 :::
-
-**Sources:** Ultimate Magic pg 218
 
 Your skin erupts in swollen, pus-filled bumps that burst open if you are struck. Any creature that
 strikes you with its body or a handheld weapon deals normal damage, but at the same time the

@@ -6,14 +6,15 @@ source_ids = ["pathfinder-139-the-dead-road"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shokis_argument", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "pathfinder-139-the-dead-road"
+page = "71"
 
 [fields]
 kind = "feat"
 prerequisites = "Ability to cast disrupt undead, character level 3rd, duskwalker."
 benefit = "The damage dealt by your *disrupt undead* spell increases by 1d6. It increases by an additional 1d6 at 6th level and every 3 levels thereafter (to a maximum of 7d6 at 18th level)."
 +++
-
-**Sources:** Pathfinder \#139: The Dead Road pg 71
 
 The collectors of the lost dead prefer to use complex theology or blunt warnings to gather wayward
 spirits, but sometimes a more direct approach is necessary. One of them shared a trade secret with

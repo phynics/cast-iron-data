@@ -6,12 +6,12 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wild_hunt", path = "json/monster_families2.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Bestiary 6
 
 The [wild hunt](ref/subtype/wild-hunt) is an awe-inspiring and enigmatic group of fey who stalk and
 pursue their chosen prey between worlds. Those few who have caught glimpses of these elusive beings

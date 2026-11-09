@@ -6,6 +6,9 @@ source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "necklace_of_beasts_might_bones", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "monster-hunters-handbook"
+page = "29"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "varies"
 
 ## Necklace of Beast's Might
 
-**Sources:** Monster Hunter's Handbook pg 29\
 **Aura** varies; **CL** varies\
 **Slot** neck; **Price** 6,000 gp (Eyes), 8,000 gp (Hair), 8,000 gp (Horn), 9,000 gp (Claws), 9,000
 gp (Scales), 12,000 gp (Bones), 12,000 gp (Teeth); **Weight** -

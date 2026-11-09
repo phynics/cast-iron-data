@@ -6,6 +6,9 @@ source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bless_army", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "quests-and-campaigns"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -42,7 +45,5 @@ Target: one army
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Quests and Campaigns pg 29
 
 Bless army fills an army with courage. The army gains a +1 bonus on OM and Morale checks.

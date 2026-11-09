@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "treasure", path = "json/rules_gm03.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "105"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 105
 
 Game balance depends on rewarding the treasure values as given on
 [Tables 12-4 and 12-5](ref/rule/placing-treasure). Award too much, and the PCs will unpredictably

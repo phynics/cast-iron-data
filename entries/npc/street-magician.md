@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "street_magician", path = "json/npcs.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "178"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "1"
 
 **Challenge rating:** 1
 
-**Sources:** NPC Codex pg 178\
 **XP** 400\
 Gnome enchanter 2\
 CN Small humanoid (gnome)\

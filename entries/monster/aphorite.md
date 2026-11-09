@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aphorite", path = "json/monsters02.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "224"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ to create strange runic shapes._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Planar Adventures pg 224\
 **Subtype:** Native
 
 **Experience points:** 200

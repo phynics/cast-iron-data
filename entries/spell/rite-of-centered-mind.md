@@ -6,6 +6,9 @@ source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rite_of_centered_mind", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "divine-anthology"
+page = "13"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 Target: you
 Descriptors: meditative
 :::
-
-**Sources:** Divine Anthology pg 13
 
 You heighten your awareness of your own thoughts, allowing you to more easily resist outside
 influences. You gain a +1 resistance bonus on saving throws to resist mind-affecting effects. This

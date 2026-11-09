@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "open_up", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "10"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "If both you and your ally also have the Harrying Partners teamwork fe
 +++
 
 ## Open Up (Combat, Teamwork)
-
-**Sources:** Melee Tactics Toolbox pg 10
 
 You pull an opponent's shield, opening your foe up to an unobstructed attack by an ally.\
 **Prerequisites:** Int 13, [Combat Expertise](ref/feat/combat-expertise).\

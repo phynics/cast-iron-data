@@ -6,12 +6,13 @@ source_ids = ["core-rulebook", "bestiary", "darklands-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slimes_molds_and_fungi", path = "json/rules_gm08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "415"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 415
 
 In a dungeon's damp, dark recesses, molds and fungi thrive. For purposes of spells and other special
 effects, all slimes, molds, and fungi are treated as [plants](ref/type/plant). Like traps, dangerous

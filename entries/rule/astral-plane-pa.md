@@ -6,12 +6,13 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "astral_plane_pa", path = "json/rules_campaign_types09.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "148"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Planar Adventures pg 148
 
 **Astral Plane**
 

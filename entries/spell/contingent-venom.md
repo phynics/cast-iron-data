@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/languid-venom" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "208"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Descriptors: poison
 :::
 
 ### Contingent Venom
-
-**Sources:** Ultimate Intrigue pg 208
 
 This spell functions as [languid venom](ref/spell/languid-venom), but you can stipulate a specific
 condition or circumstance that will end the poison's onset time and cause it to take effect. The

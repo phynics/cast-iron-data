@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divine_transfer", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "216"
 
 [fields]
 kind = "spell"
@@ -36,8 +39,6 @@ Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
 Target: living creature touched
 :::
-
-**Sources:** Advanced Player's Guide pg 216
 
 With a single touch, you transfer some of your life essence to the subject, transferring your hit
 points and your resolve. When you touch the subject you can transfer up to a number of hit points

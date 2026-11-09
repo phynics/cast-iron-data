@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spiritual_ally", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "246"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: yes
 Effect: spiritual ally of force
 Descriptors: force
 :::
-
-**Sources:** Advanced Player's Guide pg 246
 
 An ally made of pure force appears in a single 5-foot square within range. The ally takes the form
 of a servant of your god. The spiritual ally occupies its space, though you and your allies can move

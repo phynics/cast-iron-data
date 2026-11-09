@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "pathfinder-37-souls-for-smugglers-shiv"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_rhamphorhynchus", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "204"
+[[sources]]
+publication = "pathfinder-37-souls-for-smugglers-shiv"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -40,7 +46,6 @@ filled with needle-like teeth, and a long tail ending in a diamond-shaped vane._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Ultimate Wilderness pg 204, Pathfinder \#37: Souls for Smuggler's Shiv pg 82\
 **Size:** tiny
 
 **Experience points:** 135

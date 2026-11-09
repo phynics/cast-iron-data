@@ -6,6 +6,9 @@ source_ids = ["inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hateful_sting", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "inner-sea-temples"
+page = "62"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation"
 caster_level = "15th"
 +++
 
-**Sources:** Inner Sea Temples pg 62\
 **Aura** strong transmutation; **CL** 15th\
 **Slot** none; **Price** 60,302 gp; **Weight** 1 lb.
 

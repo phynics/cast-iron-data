@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_chain", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "158"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong evocation"
 caster_level = "20th"
 +++
 
-**Sources:** Mythic Adventures pg 158\
 **Aura** strong evocation; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 3 lbs.
 

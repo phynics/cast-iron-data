@@ -6,6 +6,9 @@ source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "focused_undead_expertise", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "monster-hunters-handbook"
+page = "23"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You gain a bonus equal to half your favored enemy (undead) bonus on s
 +++
 
 ## Focused Undead Expertise (Combat)
-
-**Sources:** Monster Hunter's Handbook pg 23
 
 Your knowledge of the undead makes you especially effective when fighting them.\
 **Prerequisites:** [Favored enemy](ref/ability/favored-enemy) (undead) class feature.\

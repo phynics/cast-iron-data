@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guiding_scarab", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "251"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong divination"
 caster_level = "12th"
 +++
 
-**Sources:** Ultimate Wilderness pg 251\
 **Aura** strong divination; **CL** 12th\
 **Slot** neck; **Price** 13,000 gp; **Weight** -
 

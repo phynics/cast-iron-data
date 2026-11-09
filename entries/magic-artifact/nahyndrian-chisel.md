@@ -6,6 +6,9 @@ source_ids = ["pathfinder-78-city-of-locusts"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nahyndrian_chisel", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "pathfinder-78-city-of-locusts"
+page = "62"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation"
 caster_level = "20th"
 +++
 
-**Sources:** Pathfinder \#78: City of Locusts pg 62\
 **Aura** strong transmutation; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 5 lbs.
 

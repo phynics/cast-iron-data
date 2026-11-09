@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wounds_and_vigor_variant_feats", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "207"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 207
 
 The following feats are either new for the wounds and vigor system or work differently in that
 system.

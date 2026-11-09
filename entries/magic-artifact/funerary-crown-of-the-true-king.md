@@ -6,6 +6,9 @@ source_ids = ["ships-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "funerary_crown_of_the_true_king", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "ships-of-the-inner-sea"
+page = "44"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration"
 caster_level = "16th"
 +++
 
-**Sources:** Ships of the Inner Sea pg 44\
 **Aura** strong abjuration; **CL** 16th\
 **Slot** head; **Price** -; **Weight** 4 lbs.
 

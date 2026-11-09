@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guidance", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "292"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes
 Target: creature touched
 :::
-
-**Sources:** PRPG Core Rulebook pg 292
 
 This spell imbues the subject with a touch of divine guidance. The creature gets a +1 competence
 bonus on a single attack roll, saving throw, or skill check. It must choose to use the bonus before

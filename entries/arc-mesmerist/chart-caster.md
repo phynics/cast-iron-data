@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/mesmerist" },
 ]
+[[sources]]
+publication = "blood-of-the-ancients"
+page = "10"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Touch treatment"]
 alters = ["Mesmerist tricks", "manifold tricks"]
 +++
 
-**Sources:** Blood of the Ancients pg 10\
 Lirgeni astrologists would divine their futures by consulting star charts, but some had no talent
 for astrology and simply faked their results. When prophecy died with Aroden, a few Lirgeni
 survivors continued with this "reliable" method.

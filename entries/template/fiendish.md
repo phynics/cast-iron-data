@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fiendish", path = "json/monster_template2.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "294"
 
 [fields]
 kind = "none"
@@ -18,8 +21,6 @@ kind = "none"
 **Challenge rating:** +0 or +1
 
 **Simple:** present
-
-**Source:** Pathfinder RPG Bestiary/294
 
 **Summonable:** present
 

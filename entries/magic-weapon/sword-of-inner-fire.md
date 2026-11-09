@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sword_of_inner_fire", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "146"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation [fire]"
 caster_level = "16th"
 +++
 
-**Sources:** Mythic Adventures pg 146\
 **Aura** strong transmutation \[fire\]; **CL** 16th\
 **Slot** none; **Price** 151,315 gp; **Weight** 4 lbs.
 

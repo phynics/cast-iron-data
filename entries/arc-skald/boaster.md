@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/skald" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "84"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Scribe Scroll", "Uncanny dodge", "Lore master", "Song of the fallen
 alters = ["Song of marching", "Rage powers"]
 +++
 
-**Sources:** Ultimate Wilderness pg 84\
 Boasters use incredible tales and claims to challenge themselves and their allies to accomplish
 remarkable feats. With a properly delivered boast, a boaster can inspire listeners to attempt, and
 more often than not, succeed at stunts or tasks they may not have realized they were capable of

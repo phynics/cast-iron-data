@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_traits", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "187"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 187
 
 A plane's magic trait describes how magic works on that plane compared to how it works on the
 Material Plane. Particular locations on a plane (such as those under the direct control of deities)

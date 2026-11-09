@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scarred_wanderer", path = "json/npcs6.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "25"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "19"
 
 **Challenge rating:** 19
 
-**Sources:** NPC Codex pg 25\
 **XP** 204,800\
 Dwarf [barbarian](ref/class/barbarian) 20\
 CN Medium humanoid (dwarf)\

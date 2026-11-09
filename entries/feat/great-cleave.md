@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "great_cleave", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "124"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "As a standard action, you can make a single attack at your full base 
 +++
 
 ## Great Cleave (Combat)
-
-**Sources:** PRPG Core Rulebook pg 124
 
 You can strike many adjacent foes with a single blow.\
 **Prerequisites:** Str 13, [Cleave](ref/feat/cleave), [Power Attack](ref/feat/power-attack), base

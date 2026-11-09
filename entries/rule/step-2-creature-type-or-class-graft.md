@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "step_2_creature_type_or_class_graft", path = "json/rules_adv_gm02.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "204"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 204
 
 With the normal monster creation system, foundational statistics such as base attack bonus, saving
 throw bonuses, and hit points are calculated from a monster's creature type and class levels. In

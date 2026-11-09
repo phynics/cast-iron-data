@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eyes_of_the_damned", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "93"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint illusion"
 caster_level = "5th"
 +++
 
-**Sources:** Villain Codex pg 93\
 **Aura** faint illusion; **CL** 5th\
 **Slot** eyes; **Price** 15,000 gp; **Weight** -
 

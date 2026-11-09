@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enemy_cult", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "86"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Choose an appropriate detect chaos/evil/good/law spell that would aid
 +++
 
 ## Enemy Cult (Story)
-
-**Sources:** Horror Adventures pg 86
 
 You have crossed paths with a cult opposed to everything in which you believe.\
 **Prerequisites:** You must have encountered a cult whose general alignment is opposite to yours on

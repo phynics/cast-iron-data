@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "perks", path = "json/rules_opt_magic01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "187"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 187
 
 Perks are beneficial adjustments to an item, often gained from critical success at a challenge. The
 strongest perks tend to have the highest numbers on the table below. Reroll duplicates and perks

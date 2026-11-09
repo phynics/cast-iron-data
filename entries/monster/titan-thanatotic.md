@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "titan_thanatotic", path = "json/monsters23.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "267"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ with ruinous power._
 
 **Senses:** Darkvision 120 ft., True seeing
 
-**Sources:** Bestiary 2 pg 267\
 **Subtype:** Chaotic, Evil, Extraplanar
 
 **Experience points:** 614,400

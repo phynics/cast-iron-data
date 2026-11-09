@@ -6,12 +6,12 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "annointings", path = "json/class_abilities.json" },
 ]
+[[sources]]
+publication = "arcane-anthology"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Arcane Anthology
 
 The power of transmutation is evident in magical oils and pastes that alter the properties of
 objects when applied. Though the Runes of Wealth is focused primarily on spells, Haphrama included a

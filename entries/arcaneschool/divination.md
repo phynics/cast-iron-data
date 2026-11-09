@@ -6,13 +6,15 @@ source_ids = ["core-rulebook", "advanced-players-guide", "disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divination", path = "json/class_ability_arcane_schools.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "80"
 
 [fields]
 kind = "class_option"
 group = "arcane-school"
 +++
 
-**Sources:** PRPG Core Rulebook pg 80\
 Diviners are masters of remote viewing, prophecies, and using magic to explore the world.
 
 **Forewarned (Su)**

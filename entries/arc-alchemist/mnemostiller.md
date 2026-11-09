@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "distant-realms"
+page = "52"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Throw anything", "Mutagen", "Bombs", "Poison resistance", "Poison u
 alters = ["Alchemy"]
 +++
 
-**Sources:** Distant Realms pg 52\
 Mnemostillers extract memories, storing them as a thick vapor called mnemos. They can return
 memories as easily as administering a potion, and experienced mnemostillers create a variety of
 effects through the careful administration of past traumas or victories.

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "invisibility_purge", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "302"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** PRPG Core Rulebook pg 302
 
 You surround yourself with a sphere of power with a radius of 5 feet per caster level that negates
 all forms of invisibility.

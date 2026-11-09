@@ -6,6 +6,9 @@ source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "diverse_obedience", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "divine-anthology"
+page = "11"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Deific Obedience, Knowledge (religion) 5 ranks, alignment must 
 prerequisite_feats = ["ref/feat/deific-obedience"]
 benefit = "You are treated as though you had 2 more Hit Dice than you actually do for the purposes of determining what divine boons you gain as a result of performing your deity's obedience. Diverse Obedience doesn't allow access to divine boons granted through prestige classes early, as those boons are tied to prestige class levels gained, not overall Hit Dice. If you take levels in a prestige class or archetype that offers accelerated access to a boon, this benefit may be superfluous."
 +++
-
-**Sources:** Divine Anthology pg 11
 
 Your intense faith in your deity allows you to gain boons not granted to most followers.\
 **Prerequisites:** [Deific Obedience](ref/feat/deific-obedience), Knowledge (religion) 5 ranks,

@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mythic_flaws", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "134"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 134
 
 Mythic heroes, for all their might, are still people with troubles and flaws. Many such legendary
 beings have equally legendary flaws that are ultimately their undoing. Because of the heroes' great

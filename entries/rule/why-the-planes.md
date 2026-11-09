@@ -6,12 +6,13 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "why_the_planes", path = "json/rules_campaign_types09.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "82"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Planar Adventures pg 82
 
 Okay, you've made the choice to take your game to the planes, but your campaign's characters already
 enjoy stabbing bad guys on their home world. So why should your players risk life, limb, and the

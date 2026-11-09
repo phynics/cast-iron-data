@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weapon_finesse", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "136"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ special = "Natural weapons are considered light weapons."
 +++
 
 ## Weapon Finesse (Combat)
-
-**Sources:** PRPG Core Rulebook pg 136
 
 You are trained in using your agility in melee combat, as opposed to brute strength.\
 **Benefit:** With a light weapon, [rapier](ref/eq-weapon/rapier), [whip](ref/eq-weapon/whip), or

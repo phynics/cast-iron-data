@@ -6,12 +6,12 @@ source_ids = ["pathfinder-137-the-city-outside-of-time"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_planar_bliss", path = "json/monster_families.json" },
 ]
+[[sources]]
+publication = "pathfinder-137-the-city-outside-of-time"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder \#137: The City Outside of Time
 
 Bliss dragons are self-appointed wardens of wildlife and wilderness, sometimes even displacing fey
 and magical beasts whose ethics fall short of the dragons' high standards. Bliss dragons often

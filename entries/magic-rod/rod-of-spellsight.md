@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rod_of_spellsight", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "14"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong divination"
 caster_level = "13th"
 +++
 
-**Sources:** Magic Tactics Toolbox pg 14\
 **Aura** strong divination; **CL** 13th\
 **Slot** none; **Price** 12,000 gp; **Weight** 6 lbs.
 

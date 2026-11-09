@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "people-of-the-north"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "winter_grasp", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "237"
+[[sources]]
+publication = "people-of-the-north"
+page = "26"
 
 [fields]
 kind = "spell"
@@ -43,8 +49,6 @@ Area: 20-ft.-radius spread
 Subschool: Creation
 Descriptors: cold, water
 :::
-
-**Sources:** Ultimate Wilderness pg 237, People of the North pg 26
 
 Ice encrusts the ground, radiating supernatural cold and making it hard for creatures to maintain
 their balance. This icy ground is treated as normal ice, forcing creatures to spend 2 squares of

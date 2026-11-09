@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demons", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "106"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 106
 
 The great weakness of demons is a holy or other good weapon. Such weapons overcome every demon's
 natural resistances, and are one of the few types of weapons that all demons fear equally. When

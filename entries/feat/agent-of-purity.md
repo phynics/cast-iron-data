@@ -6,6 +6,9 @@ source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "agent_of_purity", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "people-of-the-wastes"
+page = "16"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "Once per day, you can cast any one of the following spells as a spell
 +++
 
 ## Agent of Purity (Story)
-
-**Sources:** People of the Wastes pg 16
 
 You have devoted your life to purging blight from the world.\
 **Prerequisites:** A friend or ally must have been significantly corrupted by a specific natural or

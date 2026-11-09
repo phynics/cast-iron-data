@@ -6,13 +6,14 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bronze", path = "json/equipment_special_materials.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "53"
 
 [fields]
 kind = "item"
 category = "Special Materials"
 +++
-
-**Sources:** Ultimate Equipment pg 53
 
 Before the advent of iron and steel, bronze ruled the world. This easily worked metal can be used in
 place of steel for both weapons and armor. For simplicity's sake, similar or component metals such

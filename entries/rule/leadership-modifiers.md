@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "leadership_modifiers", path = "json/rules_rulesets01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "130"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 130
 
 The leadership modifiers in the description of the [Leadership](ref/feat/leadership) feat are
 concise, so some GMs may appreciate more guidance on adjudicating them. With the

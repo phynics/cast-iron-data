@@ -6,6 +6,12 @@ source_ids = ["rise-of-the-runelords-anniversary-edition", "pathfinder-5-sins-of
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fanged_falchion", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "rise-of-the-runelords-anniversary-edition"
+page = "421"
+[[sources]]
+publication = "pathfinder-5-sins-of-the-saviors"
+page = "12"
 
 [fields]
 kind = "item"
@@ -17,8 +23,6 @@ aura = "moderate transmutation [evil]"
 caster_level = "11th"
 +++
 
-**Sources:** Rise of the Runelords Anniversary Edition pg 421, Pathfinder \#5: Sins of the Saviors
-pg 12\
 **Aura** moderate transmutation \[evil\]; **CL** 11th\
 **Slot** none; **Price** 22,375 gp; **Weight** 8 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "with_the_wind", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "237"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: yes (harmless)
 Target: one creature
 Descriptors: air
 :::
-
-**Sources:** Ultimate Wilderness pg 237
 
 You create eddies in the air around the subject that protect it from being checked or blown away.
 The target can't be moved by winds of less than windstorm force unless it wishes to be.

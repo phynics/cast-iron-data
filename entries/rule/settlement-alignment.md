@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "settlement_alignment", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "206"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 206
 
 A settlement's alignment not only describes the community's general personality and attitude, but
 also influences its modifiers. A lawful component to a settlement's alignment increases its law

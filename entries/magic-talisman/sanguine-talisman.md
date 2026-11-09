@@ -6,6 +6,12 @@ source_ids = ["book-of-the-damned", "book-of-the-damned-volume-1-princes-of-dark
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sanguine_talisman", path = "json/magic_devil_talismans.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "194"
+[[sources]]
+publication = "book-of-the-damned-volume-1-princes-of-darkness"
+page = "41"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong conjuration"
 caster_level = "13th"
 +++
 
-**Sources:** Book of the Damned pg 194, Book of the Damned - Volume 1: Princes of Darkness pg 41\
 **Aura** strong conjuration; **CL** 13th\
 **Slot** neck; **Price** varies; **Weight** —
 

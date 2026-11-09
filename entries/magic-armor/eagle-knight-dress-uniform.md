@@ -6,6 +6,12 @@ source_ids = ["adventurers-guide", "inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eagle_knight_dress_uniform", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "76"
+[[sources]]
+publication = "inner-sea-combat"
+page = "50"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate enchantment"
 caster_level = "6th"
 +++
 
-**Sources:** Adventurer's Guide pg 76, Inner Sea Combat pg 50\
 **Aura** moderate enchantment; **CL** 6th\
 **Slot** armor; **Price** 18,175 gp; **Weight** 20 lbs.
 

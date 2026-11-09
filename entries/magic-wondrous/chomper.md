@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "rival-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chomper", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "356"
+[[sources]]
+publication = "rival-guide"
+page = "41"
 
 [fields]
 kind = "item"
@@ -15,8 +21,6 @@ slot = "none"
 aura = "strong conjuration"
 caster_level = "17th"
 +++
-
-**Sources:** Ultimate Equipment pg 356, Rival Guide pg 41
 
 **Aura** strong conjuration; **CL** 17th\
 **Slot** none; **Weight** 15 lbs.

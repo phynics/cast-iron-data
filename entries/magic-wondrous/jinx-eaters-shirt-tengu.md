@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jinx_eaters_shirt_tengu", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "232"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "8th"
 +++
 
-**Sources:** Inner Sea Races pg 232\
 **Aura** moderate abjuration; **CL** 8th\
 **Slot** chest; **Price** 22,600 gp; **Weight** 1 lb.
 

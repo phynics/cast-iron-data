@@ -6,6 +6,9 @@ source_ids = ["tombs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clockwork_toy_golem", path = "json/monsters05.json" },
 ]
+[[sources]]
+publication = "tombs-of-golarion"
+page = "23"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ _This amalgam of mechanical toys clacks and whirs._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Tombs of Golarion pg 23\
 **Subtype:** Clockwork
 
 **Experience points:** 1,600

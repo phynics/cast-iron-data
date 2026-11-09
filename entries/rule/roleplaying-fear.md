@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "roleplaying_fear", path = "json/rules_campaign_types02.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "9"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 9
 
 When your character confronts a shocking scene, ask yourself what your character would do, what you
 would want to do, and what you would really do. These questions often have different answers. Let

@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "qlippoth", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "110"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 110
 
 Only the most insane or desperate spellcasters dare to call and bind a qlippoth. The qlippoth's
 unpredictable nature, horrific appearance, and hatred for all mortal life make them some of the most

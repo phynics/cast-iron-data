@@ -6,6 +6,9 @@ source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_nethys", path = "json/magic_staff.json" },
 ]
+[[sources]]
+publication = "divine-anthology"
+page = "4"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration"
 caster_level = "13th"
 +++
 
-**Sources:** Divine Anthology pg 4\
 **Aura** strong abjuration; **CL** 13th\
 **Slot** none; **Price** 131,550 gp; **Weight** 5 lbs.
 

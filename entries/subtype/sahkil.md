@@ -6,14 +6,16 @@ source_ids = ["bestiary-6", "bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sahkil", path = "json/monster_subtypes.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+[[sources]]
+publication = "bestiary-5"
 
 [fields]
 kind = "none"
 +++
 
 ## Subtype: Sahkil
-
-**Sources:** Bestiary 6, Bestiary 5
 
 [Sahkils](ref/family/sahkil) are neutral evil [outsiders](ref/type/outsider) native to the
 [Ethereal Plane](ref/rule/ethereal-plane). They have the following traits (unless otherwise noted in

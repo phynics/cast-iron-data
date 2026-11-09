@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aura_alteration", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "157"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: Will negates (harmless) (object)
 Spell resistance: yes
 Target: one object or willing creature
 :::
-
-**Sources:** Occult Adventures pg 157
 
 You mask and manipulate the target creature's or object's aura, confounding those who would attempt
 to discern helpful information from it using the read aura unlock or the analyze aura spell. You can

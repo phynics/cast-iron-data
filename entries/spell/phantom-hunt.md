@@ -6,6 +6,9 @@ source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phantom_hunt", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "advanced-class-origins"
+page = "31"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: none
 Spell resistance: no
 Target: you and one animal companion within 30 ft.
 :::
-
-**Sources:** Advanced Class Origins pg 31
 
 You affect yourself and a single animal companion within 30 feet of you. Both you and the animal
 companion gain [darkvision](ref/rule/darkvision) to 100 feet, [tremorsense](ref/umr/tremorsense) to

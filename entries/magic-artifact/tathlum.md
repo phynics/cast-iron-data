@@ -6,6 +6,9 @@ source_ids = ["pathfinder-108-hell-comes-to-westcrown"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tathlum", path = "json/magic_artifact3.json" },
 ]
+[[sources]]
+publication = "pathfinder-108-hell-comes-to-westcrown"
+page = "6"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong evocation and necromancy"
 caster_level = "20th"
 +++
 
-**Sources:** Pathfinder \#108: Hell Comes to Westcrown pg 6\
 **Aura** strong evocation and necromancy; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 220 lbs.
 

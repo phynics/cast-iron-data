@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "second_chance", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "168"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When making a full attack, if you miss on your first attack, you can 
 +++
 
 ## Second Chance (Combat)
-
-**Sources:** Advanced Player's Guide pg 168
 
 Quick reflexes turn missed strikes into second chances.\
 **Prerequisites:** Int 13, [Combat Expertise](ref/feat/combat-expertise), base attack bonus +6.\

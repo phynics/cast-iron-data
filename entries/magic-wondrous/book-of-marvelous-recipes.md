@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "book_of_marvelous_recipes", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "67"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "11th"
 +++
 
-**Sources:** Advanced Race Guide pg 67\
 **Aura** moderate conjuration; **CL** 11th\
 **Slot** none; **Price** 28,800 gp; **Weight** 3 lbs.
 

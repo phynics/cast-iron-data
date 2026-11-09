@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aquatic_harness_large", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "blood-of-the-sea"
+page = "18"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "3 lbs. (Large), 2 lbs. (Medium)"
 
 ## Aquatic harness
 
-**Sources:** Blood of the Sea pg 18\
 **Price** 20 gp (Large), 10 gp (Medium); **Weight** 3 lbs. (Large), 2 lbs. (Medium)
 
 This waxed leather harness is designed to withstand submersion and is adjustable to fit dolphins,

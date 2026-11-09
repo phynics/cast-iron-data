@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "caustic_eruption", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "210"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Area: 30-ft.-radius burst
 Subschool: Creation
 Descriptors: acid
 :::
-
-**Sources:** Ultimate Magic pg 210
 
 Acid erupts from your space in all directions, causing 1d6 points of damage per caster level
 (maximum 20d6) to creatures and unattended objects in the area. On your turn in each of the next 2

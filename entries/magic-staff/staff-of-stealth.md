@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_stealth", path = "json/magic_staff.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "201"
+[[sources]]
+publication = "advanced-players-guide"
+page = "298"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate illusion"
 caster_level = "8th"
 +++
 
-**Sources:** Ultimate Equipment pg 201, Advanced Player's Guide pg 298\
 **Aura** moderate illusion; **CL** 8th\
 **Slot** none; **Price** 39,300 gp; **Weight** 5 lbs.
 

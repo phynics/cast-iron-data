@@ -6,6 +6,9 @@ source_ids = ["pathfinder-society-field-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wayfinder_of_revelation", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "pathfinder-society-field-guide"
+page = "55"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination and evocation"
 caster_level = "6th"
 +++
 
-**Sources:** Pathfinder Society Field Guide pg 55\
 **Aura** faint divination and evocation; **CL** 6th\
 **Slot** none; **Price** 8,000 gp; **Weight** 1 lb.
 

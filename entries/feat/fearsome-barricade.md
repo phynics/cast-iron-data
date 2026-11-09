@@ -6,6 +6,9 @@ source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fearsome_barricade", path = "json/feat06.json" },
 ]
+[[sources]]
+publication = "faction-guide"
+page = "56"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Choose an adjacent ally as a free action on your turn. Once per round
 +++
 
 ## Fearsome Barricade (Combat, Faction)
-
-**Sources:** Faction Guide pg 56
 
 Your wrath is as potent a barrier as your blades.\
 **Prerequisites:** Intimidate 5 ranks, [Ulfen Guard](ref/rule/f-imperial) 20 TPA.\

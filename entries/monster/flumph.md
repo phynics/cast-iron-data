@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "misfit-monsters-redeemed"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flumph", path = "json/monsters42.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "119"
+[[sources]]
+publication = "misfit-monsters-redeemed"
+page = "39"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ either side of its puckered mouth._
 
 **Size:** small
 
-**Sources:** Bestiary 3 pg 119, Misfit Monsters Redeemed pg 39\
 **Experience points:** 400
 
 **Armor class:** 18/14/15

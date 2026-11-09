@@ -6,6 +6,12 @@ source_ids = ["bestiary-2", "pathfinder-15-the-armageddon-echo"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drake_forest_drake", path = "json/monsters31.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "107"
+[[sources]]
+publication = "pathfinder-15-the-armageddon-echo"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -44,7 +50,6 @@ adorns its thrashing tail._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Bestiary 2 pg 107, Pathfinder \#15: The Armageddon Echo pg 86\
 **Subtype:** Earth
 
 **Experience points:** 1,200

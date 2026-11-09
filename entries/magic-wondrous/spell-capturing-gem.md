@@ -6,6 +6,9 @@ source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_capturing_gem", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "magical-marketplace"
+page = "19"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration"
 caster_level = "13th"
 +++
 
-**Sources:** Magical Marketplace pg 19\
 **Aura** strong abjuration; **CL** 13th\
 **Slot** none; **Price** 5,000 gp; **Weight** -
 

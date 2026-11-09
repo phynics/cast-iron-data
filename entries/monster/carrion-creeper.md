@@ -6,6 +6,9 @@ source_ids = ["pathfinder-130-city-in-the-lions-eye"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "carrion_creeper", path = "json/monsters04.json" },
 ]
+[[sources]]
+publication = "pathfinder-130-city-in-the-lions-eye"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ with strength._
 
 **Type:** plant
 
-**Sources:** Pathfinder \#130: City in the Lion's Eye pg 86\
 **tremorsense:** 30
 
 **Experience points:** 9,600

@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "naga_spirit_naga", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "213"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ _Yellowed, venom-dripping fangs fill the human-like mouth of this sinister serpe
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 213\
 **Experience points:** 6,400
 
 **Armor class:** 23/14/18

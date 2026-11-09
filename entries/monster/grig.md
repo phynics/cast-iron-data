@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grig", path = "json/monsters13.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "147"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ of an elven woman._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 2 pg 147\
 **Size:** tiny
 
 **Experience points:** 400

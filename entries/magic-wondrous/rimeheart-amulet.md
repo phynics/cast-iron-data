@@ -6,6 +6,9 @@ source_ids = ["ships-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rimeheart_amulet", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "ships-of-the-inner-sea"
+page = "45"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration"
 caster_level = "9th"
 +++
 
-**Sources:** Ships of the Inner Sea pg 45\
 **Aura** strong abjuration; **CL** 9th\
 **Slot** neck; **Price** 40,000 gp; **Weight** -
 

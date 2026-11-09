@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghost_spike", path = "json/magic_enhancements.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "24"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Sources:** Dirty Tactics Toolbox pg 24\
 **Aura** moderate evocation; **CL** 10th\
 **Price** +2 bonus; **Weight** -
 

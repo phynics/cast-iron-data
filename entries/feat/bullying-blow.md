@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bullying_blow", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "141"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ normal = "Intimidating an opponent is a standard action."
 +++
 
 ## Bullying Blow (Combat)
-
-**Sources:** Advanced Race Guide pg 141
 
 With a simple hit, you more easily intimidate an opponent.\
 **Prerequisites:** Intimidate 1 rank, [orc](ref/race/orc).\

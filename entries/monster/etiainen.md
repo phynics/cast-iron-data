@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "etiainen", path = "json/monsters42.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "111"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _This vaguely humanoid-shaped roil of mist appears to be improbably solid._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 5 pg 111\
 **Subtype:** Incorporeal, Native
 
 **Experience points:** 400

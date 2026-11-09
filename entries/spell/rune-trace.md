@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rune_trace", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "60"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: none
 Spell resistance: no
 Target: rune touched
 :::
-
-**Sources:** Adventurer's Guide pg 60
 
 By immersing yourself fully in the intricacies of a carved or written rune of any kind, you can
 divine the elements of that rune's nature. While casting rune trace, you must run your fingers

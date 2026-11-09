@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fairness", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "233"
+[[sources]]
+publication = "faiths-of-balance"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -45,8 +51,6 @@ Target: one humanoid creature per level
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Inner Sea Gods pg 233, Faiths of Balance pg 28
 
 Humanoid creatures affected by this spell must trade fairly with others to the best of their
 knowledge. If they know the fair value (or even an estimated fair value) of a good or service, they

@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "akashic_record_oa", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "244"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 244
 
 Deep within the Astral Plane lies a demiplane called the Akashic Record that forms a critical part
 of the ancient wisdom at the heart of occult philosophy. The Akashic Record is a visual library of

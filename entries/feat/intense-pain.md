@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "intense_pain", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "135"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When you use your painful stare ability to increase your own damage, 
 +++
 
 ## Intense Pain (Combat, Stare)
-
-**Sources:** Occult Adventures pg 135
 
 You deal additional damage when using your painful stare.\
 **Prerequisites:** [Mesmerist](ref/class/mesmerist) level 7th, painful stare class feature.\

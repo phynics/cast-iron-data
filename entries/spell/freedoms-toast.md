@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "freedoms_toast", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "234"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: yes (harmless)
 Target: one creature
 Subschool: Teleportation
 :::
-
-**Sources:** Inner Sea Gods pg 234
 
 When the caster hoists a flagon and delivers a toast to freedom, the target is transported up to 15
 feet from its position to a space of your choice, though that space must be within your line of

@@ -6,6 +6,9 @@ source_ids = ["goblins-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cobbled_item", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "goblins-of-golarion"
+page = "12"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "Special"
 weight = "Special"
 +++
 
-**Sources:** Goblins of Golarion pg 12\
 **Price** Special; **Weight** Special\
 **Category** Adventuring Gear
 

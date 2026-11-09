@@ -6,6 +6,9 @@ source_ids = ["tombs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ossuary_agent", path = "json/npcs7.json" },
 ]
+[[sources]]
+publication = "tombs-of-golarion"
+page = "43"
 
 [fields]
 kind = "creature"
@@ -18,7 +21,6 @@ _A metal mask covers the face of this attentive guard._
 
 **Challenge rating:** 7
 
-**Sources:** Tombs of Golarion pg 43\
 **XP** 3,200\
 Human [ranger](ref/class/ranger) 2/[rogue](ref/class/rogue) 6\
 LN Medium humanoid (human)\

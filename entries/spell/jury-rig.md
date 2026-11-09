@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jury_rig", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "233"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Saving throw: none
 Spell resistance: no
 Target: one broken object of up to 2 lbs./level
 :::
-
-**Sources:** Ultimate Combat pg 233
 
 When you cast this spell, a spectral force binds a broken weapon together, relieving the broken
 condition for a short time. While under the effects of this spell, an item with the broken condition

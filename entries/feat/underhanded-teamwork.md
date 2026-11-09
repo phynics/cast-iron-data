@@ -6,6 +6,9 @@ source_ids = ["pathfinder-society-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "underhanded_teamwork", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "pathfinder-society-primer"
+page = "15"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever an ally who also has this feat performs a dirty trick combat
 +++
 
 ## Underhanded Teamwork (Combat, Teamwork)
-
-**Sources:** Pathfinder Society Primer pg 15
 
 You and your allies know how to use coordinated maneuvers to set up an enemy with an unfair
 disadvantage.\

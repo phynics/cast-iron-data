@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "find_quarry", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "230"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Ultimate Combat pg 230
 
 You sense whether a well-known creature you can clearly visualize is within a 20-mile radius of your
 current location, as well as the distance and direction to the creature in relation to you. You also

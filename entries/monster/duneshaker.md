@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "duneshaker", path = "json/monsters06.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "256"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ oversized claws._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 6 pg 256\
 **tremorsense:** 60
 
 **Type:** vermin

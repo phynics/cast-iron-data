@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "verbal_duels", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "176"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 176
 
 Sticks and stones may break your bones, but words can crush your spirit. Verbal duels are battles of
 words rather than swords, in which skilled duelists use facts, wordplay, and rhetorical flourishes

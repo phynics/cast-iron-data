@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "adjusting_character_wealth_by_level", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "173"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 173
 
 You can take advantage of the item creation rules to handcraft most or all of your magic items.
 Because you've spent gp equal to only half the price of these items, you could end up with more gear

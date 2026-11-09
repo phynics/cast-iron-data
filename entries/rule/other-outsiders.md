@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "other_outsiders", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "110"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 110
 
 While the groups above detail all the major types of outsiders, the Great Beyond is called great for
 a reason, and there are countless other outsiders that a potential binder can call. In theory, any

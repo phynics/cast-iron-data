@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elements_of_adventure", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "172"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 172
 
 More than simply the sum of its parts, a great adventure transcends any host of villains, arsenal of
 cunning traps, legion of monsters, or stack of stat blocks. Brought to life by the interplay of a

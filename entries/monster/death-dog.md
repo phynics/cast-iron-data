@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "death_dog", path = "json/monsters08.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "44"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ crawl on its mangy hide._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Bestiary 4 pg 44\
 **Experience points:** 600
 
 **Armor class:** 13/11/11

@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "radiation_ward", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-darklands"
+page = "15"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
 :::
-
-**Sources:** Heroes of the Darklands pg 15
 
 A creature warded by this spell gains a +4 bonus on saving throws against radiation-based effects.
 In addition, the warded creature is immediately aware when it enters an area of radiation, as well

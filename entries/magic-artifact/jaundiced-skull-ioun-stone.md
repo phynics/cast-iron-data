@@ -6,6 +6,9 @@ source_ids = ["pathfinder-126-beyond-the-veiled-past"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jaundiced_skull_ioun_stone", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "pathfinder-126-beyond-the-veiled-past"
+page = "56"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration"
 caster_level = "16th"
 +++
 
-**Sources:** Pathfinder \#126: Beyond the Veiled Past pg 56\
 **Aura** strong abjuration; **CL** 16th\
 **Slot** none; **Price** -; **Weight** -
 

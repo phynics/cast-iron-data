@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dagger", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "17"
+[[sources]]
+publication = "core-rulebook"
+page = "142"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "1 lb."
 +++
-
-**Sources:** Ultimate Equipment pg 17, PRPG Core Rulebook pg 142
 
 A dagger is a fighting knife. Its blade is usually less than 1 foot long, and can be curved or
 straight, with one edge or two. Dagger designs vary widely, and can have many different names (such

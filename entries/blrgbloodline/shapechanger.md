@@ -6,6 +6,9 @@ source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shapechanger", path = "json/class_ability_bloodrager_bloodlines.json" },
 ]
+[[sources]]
+publication = "legacy-of-the-first-world"
+page = "20"
 
 [fields]
 kind = "class_option"
@@ -13,8 +16,6 @@ group = "bloodrager-bloodline"
 +++
 
 ## Shapechanger Bloodline
-
-**Sources:** Legacy of the First World pg 20
 
 The blood of [doppelgangers](ref/monster/doppelganger),
 [faceless stalkers](ref/monster/faceless-stalker), [lycanthropes](ref/template/lycanthrope), or

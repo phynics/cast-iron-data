@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "intense_stratagems", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "140"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 140
 
 Intense stratagems are desperate, costly, personal, or perhaps all three. Only a nemesis with a
 profound need to avenge the numerous setbacks the PCs have inflicted on him is capable of such

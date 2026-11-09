@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vigilant_bodyguard", path = "json/npcs.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "97"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "2"
 
 **Challenge rating:** 2
 
-**Sources:** NPC Codex pg 97\
 **XP** 600\
 Human [monk](ref/class/monk) 3\
 LN Medium humanoid (human)\

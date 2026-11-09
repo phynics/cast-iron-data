@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "overwhelming_grief", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "230"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: emotion, mind-affecting
 :::
-
-**Sources:** Ultimate Magic pg 230
 
 You cause a single opponent to become profoundly stricken with intense grief. He can take no
 actions, takes a -2 penalty to Armor Class, and loses his Dexterity bonus (if any). He can attempt a

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/mages-sword" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "9"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: yes
 Effect: one sword
 Descriptors: force
 :::
-
-**Sources:** Arcane Anthology pg 9
 
 You create a sword of force that functions as [mage's sword](ref/spell/mages-sword) except as
 described here. The sword does not receive the additional +3 enhancement bonus a mage's sword

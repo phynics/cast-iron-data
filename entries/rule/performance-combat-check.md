@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "performance_combat_check", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "154"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 154
 
 Whenever a combatant has a chance to affect the crowd's attitude, she makes a performance combat
 check. The check is a Charisma ability check modified by the base attack bonus of the character plus

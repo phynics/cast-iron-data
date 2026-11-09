@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bastion_of_the_inheritor", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "142"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Sources:** Mythic Adventures pg 142\
 **Aura** faint abjuration; **CL** 5th\
 **Slot** shield; **Price** 22,170 gp; **Weight** 15 lbs.
 

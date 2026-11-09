@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "pathfinder-43-haunting-of-harrowstone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beheaded", path = "json/monsters03.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "17"
+[[sources]]
+publication = "pathfinder-43-haunting-of-harrowstone"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -36,7 +42,6 @@ _A decaying humanoid head floats silently and ominously, its graying teeth eeril
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 4 pg 17, Pathfinder \#43: Haunting of Harrowstone pg 82\
 **Size:** tiny
 
 **Type:** undead

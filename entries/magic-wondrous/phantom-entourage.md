@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phantom_entourage", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-high-court"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate illusion"
 caster_level = "6th"
 +++
 
-**Sources:** Heroes of the High Court pg 28\
 **Aura** moderate illusion; **CL** 6th\
 **Slot** shoulders; **Price** 9,000 gp; **Weight** -
 

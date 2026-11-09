@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pipefox", path = "json/monsters19.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "215"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ _This furry, minute serpent has a fox-like head and tiny eyes that glitter with 
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 4 pg 215\
 **Experience points:** 600
 
 **Armor class:** 17/17/13

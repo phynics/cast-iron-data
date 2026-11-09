@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lovelorn", path = "json/monsters16.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "182"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ spider. Blood oozes from the glistening organ._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 6 pg 182\
 **Size:** tiny
 
 **Type:** undead

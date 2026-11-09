@@ -6,6 +6,9 @@ source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wall_of_flesh", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "kobolds-of-golarion"
+page = "25"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When adjacent to an ally with this feat, you're considered one size c
 +++
 
 ## Wall of Flesh (Teamwork)
-
-**Sources:** Kobolds of Golarion pg 25
 
 You swarm with your allies, becoming a wall of creatures.\
 **Prerequisites:** Small size or smaller.\

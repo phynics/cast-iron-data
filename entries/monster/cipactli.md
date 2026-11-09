@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cipactli", path = "json/monsters05.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "56"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ open in its body and tail._
 
 **Senses:** Darkvision 180 ft., Low-light vision, Scent, True seeing
 
-**Sources:** Bestiary 6 pg 56\
 **Subtype:** Aquatic
 
 **tremorsense:** 60

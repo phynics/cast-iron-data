@@ -6,6 +6,9 @@ source_ids = ["down-the-blighted-path"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "narrik", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "down-the-blighted-path"
+page = "56"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ its chest._
 
 **Senses:** Darkvision 60 ft., Scent, Taste fear
 
-**Sources:** Down the Blighted Path pg 56\
 **Experience points:** 3,200
 
 **Armor class:** 21/15/15

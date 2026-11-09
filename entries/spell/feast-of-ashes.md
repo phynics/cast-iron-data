@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "feast_of_ashes", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "220"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: curse
 :::
-
-**Sources:** Advanced Player's Guide pg 220
 
 You curse the target with a hunger no food can assuage. On a failed saving throw, the target begins
 to starve. The effects of this spell cannot inflict more nonlethal damage than the target has hit

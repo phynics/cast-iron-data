@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "events_ui", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "168"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 168
 
 Events are the stage for each step of a social conflict. An event is a lot like an encounter, but
 instead of detailing a location and its inhabitants, it describes a scene that either provides a

@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dreadscape", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "116"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Target: up to one creature/level, no two of which can be more than 30 feet apart
 Subschool: Phantasm
 Descriptors: emotion, fear, mind-affecting
 :::
-
-**Sources:** Horror Adventures pg 116
 
 Your targets see their surroundings as a nightmarish reflection of the world around them. Buildings
 and furnishings take on a dirty, ruined appearance. Even allies appear foreign and hostile, with

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weapon_groups", path = "json/class_abilities5.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "56"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Fighter Weapon Groups
 
-**Sources:** PRPG Core Rulebook pg 56\
 Weapon groups are defined as follows (GMs may add other weapons to these groups, or add entirely new
 groups):
 

@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skyseeker_impact", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "blood-of-the-ancients"
+page = "30"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using Skyseeker Style, whenever you hit an opponent larger than
 +++
 
 ## Skyseeker Impact (Combat)
-
-**Sources:** Blood of the Ancients pg 30
 
 You've been trained to devastate larger opponents and shatter their weapons to negate their reach
 advantage.\

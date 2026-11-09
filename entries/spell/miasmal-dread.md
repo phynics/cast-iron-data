@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "miasmal_dread", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "221"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Area: cone-shaped burst
 Subschool: Compulsion
 Descriptors: fear, mind-affecting
 :::
-
-**Sources:** Inner Sea Races pg 221
 
 > _The following spell is available to the indicated race or ethnicity:
 > [Half-Orc](ref/race/half-orc)_

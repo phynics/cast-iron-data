@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "construct_buildings", path = "json/rules_subsystems02.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "84"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 84
 
 You can use your downtime capital to create a building that suit your needs, such as a temple,
 guildhall, or mage tower. You construct a building out of component rooms that allow you to

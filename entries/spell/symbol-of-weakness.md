@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/symbol-of-death" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "357"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Saving throw: Fortitude negates
 Spell resistance: yes
 Effect: one symbol
 :::
-
-**Sources:** PRPG Core Rulebook pg 357
 
 This spell functions like [symbol of death](ref/spell/symbol-of-death), except that every creature
 within 60 feet of a symbol of weakness instead suffers crippling weakness that deals 3d6 points of

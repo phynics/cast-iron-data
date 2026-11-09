@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_feint", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "127"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "Feinting in combat is a standard action."
 +++
 
 ## Improved Feint (Combat)
-
-**Sources:** PRPG Core Rulebook pg 127
 
 You are skilled at fooling your opponents in combat.\
 **Prerequisites:** Int 13, [Combat Expertise](ref/feat/combat-expertise).\

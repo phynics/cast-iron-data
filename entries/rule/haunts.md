@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "haunts", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "242"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 242
 
 The distinction between a trap and an undead creature blurs when you introduce a haunt: a hazardous
 region created by unquiet spirits that react violently to the presence of the living. The exact

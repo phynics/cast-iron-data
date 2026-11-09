@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "adulthood", path = "json/rules_basics03.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "13"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 13
 
 When you reach biological maturity, undergo the final initiation rites of adolescence, or reach the
 age of legal responsibility in your culture, you're considered an adult. At this point, you're the

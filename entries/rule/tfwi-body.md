@@ -6,12 +6,13 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tfwi_body", path = "json/rules_adv_gm07.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "215"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Equipment pg 215
 
 ### Table 5-3: Body Slot Wondrous Items
 

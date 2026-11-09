@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chaotic_evil", path = "json/rules_basics01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "136"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 136
 
 If I want something, I take it. Might is right. The strong rule the weak. Respect me or suffer. Fear
 me. There is only today, and today I take what I need. Anger brings out the best in me. I am the

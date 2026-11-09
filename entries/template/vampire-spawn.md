@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vampire_spawn", path = "json/monster_template4.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "244"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +1
-
-**Source:** Monster Codex/244
 
 The following template can be used to create unique vampire spawn with class levels.
 

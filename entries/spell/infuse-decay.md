@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/imbue-with-spell-ability" },
 ]
+[[sources]]
+publication = "curse-of-the-crimson-throne"
+page = "453"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes (harmless)
 Area: corporeal undead touched; see text
 Descriptors: evil
 :::
-
-**Sources:** Curse of the Crimson Throne pg 453
 
 This spell functions as per [imbue with spell ability](ref/spell/imbue-with-spell-ability), except
 it can only target corporeal undead creatures, and can only transfer touch spells. The number and

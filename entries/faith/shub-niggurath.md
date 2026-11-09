@@ -6,6 +6,9 @@ source_ids = ["pathfinder-109-in-search-of-sanity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shub_niggurath", path = "json/faiths8.json" },
 ]
+[[sources]]
+publication = "pathfinder-109-in-search-of-sanity"
+page = "71"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Shub-Niggurath**
 
 **Sub:** Black Goat of the Woods
-
-**Sources:** Pathfinder \#109: In Search of Sanity pg 71
 
 ### Details
 

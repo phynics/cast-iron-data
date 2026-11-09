@@ -6,6 +6,9 @@ source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_punishing_step", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "monster-hunters-handbook"
+page = "14"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Your bonus to AC from the Dodge feat increases to +2 against charge a
 +++
 
 ## Improved Punishing Step (Combat)
-
-**Sources:** Monster Hunter's Handbook pg 14
 
 You know how to take advantage of a devastating charge.\
 **Prerequisites:** Dex 13, [Dodge](ref/feat/dodge), [Punishing Step](ref/feat/punishing-step), base

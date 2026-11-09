@@ -6,6 +6,9 @@ source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "perfect_awareness", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "faiths-and-philosophies"
+page = "19"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Once per day, you can take 20 on a Perception check as a move action.
 +++
 
 ## Perfect Awareness (Combat, Meditation)
-
-**Sources:** Faiths and Philosophies pg 19
 
 You can set aside all irrelevant sensory information to understand your surroundings perfectly for a
 moment.\

@@ -6,6 +6,12 @@ source_ids = ["the-harrow-handbook", "varisia-birthplace-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deadly_dealer", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "the-harrow-handbook"
+page = "15"
+[[sources]]
+publication = "varisia-birthplace-of-legends"
+page = "10"
 
 [fields]
 kind = "feat"
@@ -13,8 +19,6 @@ prerequisites = "Arcane Strike, Sleight of Hand 5 ranks."
 prerequisite_feats = ["ref/feat/arcane-strike"]
 benefit = "You can throw a card as though it were a dart, with the same damage, range, and other features. You must use the Arcane Strike feat when throwing a card in this way, or else the card lacks the magical force and precision to deal lethal damage. A card is destroyed when thrown in this way."
 +++
-
-**Sources:** The Harrow Handbook pg 15, Varisia, Birthplace of Legends pg 10
 
 Your skill with handling a deck and your arcane talents allow you to turn mundane cards into
 weapons.\

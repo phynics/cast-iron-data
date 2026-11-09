@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heirloom_seal", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "blood-of-the-ancients"
+page = "22"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint universal"
 caster_level = "1st"
 +++
 
-**Sources:** Blood of the Ancients pg 22\
 **Aura** faint universal; **CL** 1st\
 **Slot** none; **Price** 5,000 gp; **Weight** 1/2 lb.
 

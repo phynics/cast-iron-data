@@ -6,12 +6,14 @@ source_ids = ["pathfinder-unchained"]
 relations = [
   { kind = "addon", target = "ref/feat/amateur-gunslinger", label = "stamina" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "113"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder Unchained pg 113\
 Choose a second 1st-level gunslinger deed. You can spend grit to use this deed, or you can spend 5
 stamina points to use either of your deeds in place of grit. If you gain levels in a class that
 grants the grit class feature, you retain the ability to spend 5 stamina points in place of grit

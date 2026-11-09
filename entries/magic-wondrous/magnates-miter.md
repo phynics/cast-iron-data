@@ -6,6 +6,9 @@ source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magnates_miter", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "merchants-manifest"
+page = "18"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong enchantment"
 caster_level = "18th"
 +++
 
-**Sources:** Merchant's Manifest pg 18\
 **Aura** strong enchantment; **CL** 18th\
 **Slot** head; **Price** 90,000 gp; **Weight** 1 lb.
 

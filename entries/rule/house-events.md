@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "house_events", path = "json/rules_subsystems03.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "119"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 119
 
 |d%|Events|
 | --- | --- |

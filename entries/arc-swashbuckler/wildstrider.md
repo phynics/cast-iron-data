@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/swashbuckler" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "96"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Dodging panache", "Kip-up", "Subtle blade"]
 alters = ["Derring-do", "swashbuckler's edge"]
 +++
 
-**Sources:** Ultimate Wilderness pg 96\
 Most swashbucklers call cities their home, but some prefer deserts, marshlands, mountains, or woods,
 where the rough terrain grants them an advantage, and have little interest in the comforts of an
 urban lifestyle.

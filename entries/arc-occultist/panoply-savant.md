@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/occultist" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "28"
 
 [fields]
 kind = "archetype"
 replaces = ["Shift focus", "Outside contact", "Magic circles", "Binding circles", "Fast circles"]
 +++
 
-**Sources:** Psychic Anthology pg 28\
 Some occultists specialize in a particular panoply, fully dedicating themselves to mastering the
 secrets of the psychic resonance of each of its component implements, as well as the way they
 interact with one another.

@@ -6,12 +6,14 @@ source_ids = ["mythic-origins"]
 relations = [
   { kind = "addon", target = "ref/spell/imbue-with-flight", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-origins"
+page = "15"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Origins pg 15\
 If you expend one use of mythic power, you double the maximum weight of the object you can imbue
 with flight. You can expend additional uses of mythic power to increase the maximum size of the
 object you can imbue with flight. Imbuing a Huge object requires two uses of mythic power, imbuing a

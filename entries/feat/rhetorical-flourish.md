@@ -6,14 +6,15 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rhetorical_flourish", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "116"
 
 [fields]
 kind = "feat"
 prerequisites = "Cha 13, Persuasive."
 benefit = "When using the Diplomacy skill to make a request or change a creature's attitude, you can use verbal misdirection. To do so, make a Bluff check against that creature. If you succeed, you gain a +4 bonus on your next Diplomacy check against that creature if the check is made within the next minute. If you fail by 5 or more, you instead take a -2 penalty on your next Diplomacy check against that creature."
 +++
-
-**Sources:** Ultimate Combat pg 116
 
 You rapidly change topics and employ confusing rhetoric to distract people from your true intent.\
 **Prerequisites:** Cha 13, [Persuasive](ref/feat/persuasive).\

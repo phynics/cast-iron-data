@@ -6,6 +6,9 @@ source_ids = ["lost-kingdoms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "farwatcher", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "lost-kingdoms"
+page = "12"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "11th"
 +++
 
-**Sources:** Lost Kingdoms pg 12\
 **Aura** moderate divination; **CL** 11th\
 **Slot** none; **Price** 120,850 gp; **Weight** 260 lbs.
 

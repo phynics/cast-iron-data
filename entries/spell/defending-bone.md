@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "defending_bone", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "232"
+[[sources]]
+publication = "gods-and-magic"
+page = "31"
 
 [fields]
 kind = "spell"
@@ -44,8 +50,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Inner Sea Gods pg 232, Gods and Magic pg 31
 
 You animate a bone with necromantic energy, giving it the power to float near your body and
 interpose itself against physical attacks. This gives you

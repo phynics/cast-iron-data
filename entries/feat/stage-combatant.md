@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stage_combatant", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "120"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "When making attacks that deal no damage or nonlethal damage, you take 
 +++
 
 ## Stage Combatant (Combat)
-
-**Sources:** Ultimate Combat pg 120
 
 You are a master of stage and nonlethal combats.\
 **Prerequisites:** [Weapon Focus](ref/feat/weapon-focus), base attack bonus +5\

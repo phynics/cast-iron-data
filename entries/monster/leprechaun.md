@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "leprechaun", path = "json/monsters16.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "177"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ hand and a club in the other._
 
 **Size:** small
 
-**Sources:** Bestiary 2 pg 177\
 **Experience points:** 600
 
 **Armor class:** 14/14/11

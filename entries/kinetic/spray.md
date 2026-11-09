@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spray", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "22"
 
 [fields]
 kind = "class_option"
@@ -24,8 +27,6 @@ group = "kineticist-wild-talent"
 [Water Blast](ref/kinetic/water-blast)
 
 **Saving throw:** Reflex half
-
-**Source:** Occult Adventures/22
 
 You diffuse your kinetic blast to spray out wildly. All creatures and objects in a 30-foot cone take
 [half](ref/misc/fractions-and-rounding) your normal amount of blast damage. The saving throw DC is

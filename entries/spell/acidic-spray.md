@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "acidic_spray", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "204"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Effect: 60-ft. line
 Subschool: Creation
 Descriptors: acid
 :::
-
-**Sources:** Ultimate Magic pg 204
 
 A spray of acid erupts from your outstretched hand, dealing 1d6 points of acid damage per caster
 level (maximum 15d6) to each creature within its area (Reflex half). This acid continues to burn for

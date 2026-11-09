@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/sealed-life" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "185"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: none
 Spell resistance: yes
 Target: one creature
 :::
-
-**Sources:** Occult Adventures pg 185
 
 This spell functions as [sealed life](ref/spell/sealed-life), except it additionally provides the
 benefits of death ward and renders its targets immune to effects that extract or transfer its soul,

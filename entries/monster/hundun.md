@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hundun", path = "json/monsters14.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "144"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ _The wrinkled, blotchy skin of this giant hangs from its body like hooded robes,
 
 **Senses:** Detect law
 
-**Sources:** Bestiary 5 pg 144\
 **Subtype:** Chaotic, Extraplanar
 
 **Experience points:** 409,600

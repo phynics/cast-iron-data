@@ -6,15 +6,21 @@ source_ids = ["inner-sea-world-guide", "rise-of-the-runelords-players-guide", "p
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "totem_spirit", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "289"
+[[sources]]
+publication = "rise-of-the-runelords-players-guide"
+page = "15"
+[[sources]]
+publication = "pathfinder-campaign-setting"
+page = "147"
 
 [fields]
 kind = "feat"
 prerequisites = "Member of a Shoanti tribe."
 benefit = "The benefit granted by this feat depends on which Shoanti tribe you belong to:"
 +++
-
-**Sources:** Inner Sea World Guide pg 289, Rise of the Runelords Player's Guide pg 15, Pathfinder
-Campaign Setting pg 147
 
 You are mystically tied to your tribe's sacred totem.\
 **Prerequisites:** Member of a Shoanti tribe.\

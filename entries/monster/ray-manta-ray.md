@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ray_manta_ray", path = "json/monsters20.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "232"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ its wide mouth._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 2 pg 232\
 **Subtype:** Aquatic
 
 **Experience points:** 400

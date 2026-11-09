@@ -6,6 +6,9 @@ source_ids = ["pathfinder-74-sword-of-valor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jawbone_of_the_venerable_galevius", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "pathfinder-74-sword-of-valor"
+page = "67"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "overwhelming transmutation"
 caster_level = "20th"
 +++
 
-**Sources:** Pathfinder \#74: Sword of Valor pg 67\
 **Aura** overwhelming transmutation; **CL** 20th\
 **Slot** neck; **Price** -; **Weight** 1 lb.
 

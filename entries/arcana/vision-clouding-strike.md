@@ -6,13 +6,14 @@ source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vision_clouding_strike", path = "json/class_ability_magus_arcana.json" },
 ]
+[[sources]]
+publication = "agents-of-evil"
+page = "25"
 
 [fields]
 kind = "class_option"
 group = "magus-arcana"
 +++
-
-**Sources:** Agents of Evil pg 25
 
 **Vision-Clouding Strike:**
 

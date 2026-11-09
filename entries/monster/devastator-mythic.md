@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "pathfinder-78-city-of-locusts"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devastator_mythic", path = "json/monsters_mythic.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "77"
+[[sources]]
+publication = "pathfinder-78-city-of-locusts"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -47,7 +53,6 @@ _Each of this mechanical horror's four monstrous limbs ends in a terrible weapon
 
 **Senses:** Darkvision 60 ft., Low-light vision, Mythic sight (2) 30 ft.
 
-**Sources:** Bestiary 5 pg 77, Pathfinder \#78: City of Locusts pg 90\
 **Subtype:** Extraplanar, Mythic
 
 **Experience points:** 614,400

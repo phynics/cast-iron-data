@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "leadership_and_control", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "150"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 150
 
 A primitive culture rewards strength and intelligence in its leaders. Smart leaders show the people
 how to prosper. Strong leaders bring plunder and security. Different cultures place different values

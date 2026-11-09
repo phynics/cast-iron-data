@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "frostblood_axe", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "69"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy [evil]"
 caster_level = "10th"
 +++
 
-**Sources:** Monster Codex pg 69\
 **Aura** moderate necromancy \[evil\]; **CL** 10th\
 **Slot** none; **Price** 40,310 gp; **Weight** 6 lbs.
 

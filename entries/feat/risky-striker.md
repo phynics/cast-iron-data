@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "risky_striker", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "67"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can choose to take a -1 penalty to AC to gain a +2 bonus on melee
 +++
 
 ## Risky Striker (Combat)
-
-**Sources:** Advanced Race Guide pg 67
 
 You can make yourself a little more vulnerable to larger creatures in order to land a devastating
 blow.\

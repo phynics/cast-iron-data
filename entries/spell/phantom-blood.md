@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phantom_blood", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "190"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Advanced Class Guide pg 190
 
 You bolster your life energy. If the loss of hit points at the end of a temporary effect that
 modifies your Constitution (such as barbarian's rage or bloodrager's bloodrage) would cause you to

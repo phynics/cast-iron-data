@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ferocious_horde", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "206"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Whenever you are at or below half of your full hit points and an orc 
 +++
 
 ## Ferocious Horde (Teamwork)
-
-**Sources:** Inner Sea Races pg 206
 
 Seeing a fellow orc bleed makes you fight harder.\
 **Prerequisites:** [Orc](ref/race/orc), ferocity racial trait.\

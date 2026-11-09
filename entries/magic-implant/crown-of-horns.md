@@ -6,6 +6,9 @@ source_ids = ["pathfinder-74-sword-of-valor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crown_of_horns", path = "json/magic_demonic_implants.json" },
 ]
+[[sources]]
+publication = "pathfinder-74-sword-of-valor"
+page = "72"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation [chaotic, evil]"
 caster_level = "15th"
 +++
 
-**Sources:** Pathfinder \#74: Sword of Valor pg 72\
 **Aura** strong transmutation \[chaotic, evil\]; **CL** 15th\
 **Slot** none; **Price** 20,000 gp; **Weight** 5 lbs.
 

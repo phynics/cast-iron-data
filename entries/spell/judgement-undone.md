@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "judgement_undone", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "43"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: none
 Spell resistance: no
 Target: one willing petitioner
 :::
-
-**Sources:** Planar Adventures pg 43
 
 This powerful, elaborate, and risky spell undoes Pharasma's judgment, returning a willing petitioner
 to its mortal life. This spell must be cast on the plane to which the petitioner was sent, and the

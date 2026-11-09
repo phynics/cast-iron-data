@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "antiheros-handbook"
+page = "13"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Nature's bond", "Resist nature's lure", "Wild shape"]
 alters = ["Spells", "A druid's spontaneous casting"]
 +++
 
-**Sources:** Antihero's Handbook pg 13\
 Through determined interest or repeated exposure to those places where the borders between planes
 are weaker, some druids lose their neutral stance and find themselves gravitating toward one of the
 four most extreme alignments: chaotic evil, chaotic good, lawful evil, or lawful good. While no

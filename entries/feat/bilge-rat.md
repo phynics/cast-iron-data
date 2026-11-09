@@ -6,13 +6,14 @@ source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bilge_rat", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
+page = "15"
 
 [fields]
 kind = "feat"
 benefit = "If you are wearing an eye patch when you are dazzled or blinded as a result of eye damage or a visual stimulus (such as from fireworks or a glitterdust spell), you can remove or switch your eye patch as a move action to favor the eye you had kept covered. Switching your eye patch allows you to ignore the dazzled condition or to reduce the blinded condition to dazzled until the effect ends, at which time you regain the ability to use this feat."
 +++
-
-**Sources:** Elemental Master's Handbook pg 15
 
 Keeping a sailing vessel afloat means moving constantly between bright sunlight and darkened holds.
 You wear an eye patch, out of convenience rather than necessity, to make one of your eyes used to

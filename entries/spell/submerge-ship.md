@@ -6,6 +6,9 @@ source_ids = ["pathfinder-56-raiders-of-the-fever-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "submerge_ship", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "pathfinder-56-raiders-of-the-fever-sea"
+page = "70"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: no
 Target: 1 sailing vessel
 :::
-
-**Sources:** Pathfinder \#56: Raiders of the Fever Sea pg 70
 
 When this spell is cast upon a vessel, the ship is surrounded by a protective bubble of constantly
 replenishing, breathable air and sinks beneath the waves. For the duration of the spell, the ship

@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "squirrel_common", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "80"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "2 lbs. (common), 1 lb. (flying)"
 
 ## Squirrel
 
-**Sources:** Ultimate Equipment pg 80\
 **Price** 1 gp (common), 20 gp (flying); **Weight** 2 lbs. (common), 1 lb. (flying)
 
 These tiny rodents are as common in the wild as rats are in cities. They typically eat nuts, seeds,

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-95-anvil-of-fire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lava_rod", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "pathfinder-95-anvil-of-fire"
+page = "32"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong evocation [fire]"
 caster_level = "13th"
 +++
 
-**Sources:** Pathfinder \#95: Anvil of Fire pg 32\
 **Aura** strong evocation \[fire\]; **CL** 13th\
 **Slot** none; **Price** 80,000 gp; **Weight** 8 lbs.
 

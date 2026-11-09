@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hit_points", path = "json/misc.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "12"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 12
 
 Hit points are an abstraction signifying how robust and healthy a [creature](ref/misc/creature) is
 at the current moment. To determine a creature's hit points, roll the dice indicated by its

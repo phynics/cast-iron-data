@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "uaransaph", path = "json/faiths8.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "318"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Uaransaph**
 
 **Sub:** The Creeping Pit
-
-**Sources:** Inner Sea Gods pg 318
 
 ### Details
 

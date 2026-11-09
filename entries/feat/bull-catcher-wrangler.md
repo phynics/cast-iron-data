@@ -6,6 +6,9 @@ source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bull_catcher_wrangler", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "monster-hunters-handbook"
+page = "9"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When a creature is charging you, and you successfully grapple it with
 +++
 
 ## Bull-Catcher Wrangler (Combat)
-
-**Sources:** Monster Hunter's Handbook pg 9
 
 You can wrestle a charging foe to the ground.\
 **Prerequisites:** Dex 13, [Bull-Catcher Style](ref/feat/bull-catcher-style),

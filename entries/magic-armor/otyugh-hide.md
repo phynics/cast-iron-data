@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "otyugh_hide", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "128"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Equipment pg 128\
 **Aura** faint evocation; **CL** 5th\
 **Slot** armor; **Price** 2,565 gp; **Weight** 25 lbs.
 

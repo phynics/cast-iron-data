@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "basic_fortune_telling_methods", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "238"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 238
 
 Many fortune-telling methods exist, and each has its pros and cons in terms of use in a roleplaying
 game. What follow are some of the more easily integrated fortune-telling methods and their strengths

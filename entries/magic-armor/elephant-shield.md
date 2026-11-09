@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elephant_shield", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "23"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation and transmutation"
 caster_level = "6th"
 +++
 
-**Sources:** Melee Tactics Toolbox pg 23\
 **Aura** moderate evocation and transmutation; **CL** 6th\
 **Slot** shield; **Price** 21,340 gp; **Weight** 10 lbs.
 

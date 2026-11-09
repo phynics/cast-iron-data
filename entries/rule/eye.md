@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eye", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "195"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 195
 
 Eyes include whatever organs a creature uses to see. At the Game Master's discretion, a called shot
 to the eye can also target sensory organs such as antennae, potentially negating abilities like

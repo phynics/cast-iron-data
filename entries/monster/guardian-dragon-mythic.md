@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guardian_dragon_mythic", path = "json/monsters_mythic2.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "146"
 
 [fields]
 kind = "creature"
@@ -50,7 +53,6 @@ like burnished gold._
 
 **Senses:** Darkvision 120 ft., Detect magic, Detect scrying, Low-light vision, Mistsight
 
-**Sources:** Bestiary 4 pg 146\
 **Subtype:** Aquatic, Mythic
 
 **Experience points:** 1,228,800

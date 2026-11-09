@@ -6,6 +6,12 @@ source_ids = ["bestiary-2", "pathfinder-16-endless-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_omox", path = "json/monsters29.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "79"
+[[sources]]
+publication = "pathfinder-16-endless-night"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -45,7 +51,6 @@ a half-melted man._
 
 **Senses:** Darkvision 120 ft.
 
-**Sources:** Bestiary 2 pg 79, Pathfinder \#16: Endless Night pg 82\
 **Subtype:** Aquatic, Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 19,200

@@ -6,6 +6,12 @@ source_ids = ["book-of-the-damned", "book-of-the-damned-volume-3-horsemen-of-the
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lash_of_the_astradaemon", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "184"
+[[sources]]
+publication = "book-of-the-damned-volume-3-horsemen-of-the-apocalypse"
+page = "38"
 
 [fields]
 kind = "spell"
@@ -46,9 +52,6 @@ Spell resistance: yes
 Effect: see text
 Descriptors: evil
 :::
-
-**Sources:** Book of the Damned pg 184, Book of the Damned - Volume 3: Horsemen of the Apocalypse pg
-38
 
 You draw on the essence of astradaemons to cause one of your hands to elongate and sprout fearsome
 translucent claws that radiate a cold phosphorescence. You gain one claw attack, which is a primary

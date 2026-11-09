@@ -6,6 +6,9 @@ source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ascendant", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "spymasters-handbook"
+page = "14"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You and your apparent allies gain a +2 bonus on skill checks to gain 
 +++
 
 ## Ascendant (Story)
-
-**Sources:** Spymaster's Handbook pg 14
 
 You seek unquestioning admiration and respect to escape from a shameful past.\
 **Prerequisites:** You must have the [Secret Shame](ref/trait/secret-shame) drawback or the

@@ -6,6 +6,9 @@ source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magnetic_field", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "people-of-the-river"
+page = "26"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Saving throw: Reflex negates (object, see text)
 Spell resistance: yes (object)
 Area: 30-ft.-radius emanation
 :::
-
-**Sources:** People of the River pg 26
 
 You create a spherical magnetic field that surrounds you to a range of 30 feet and follows you for
 the duration of the spell. Unattended metal objects in range - including weapons, armor, and

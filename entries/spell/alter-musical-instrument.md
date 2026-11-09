@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alter_musical_instrument", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "173"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: yes (object)
 Target: one musical instrument
 Subschool: Figment
 :::
-
-**Sources:** Advanced Class Guide pg 173
 
 You alter an instrument so it sounds like a different kind of instrument you are familiar with. The
 change could be minor (such as making a lute sound like a guitar) or major (making a keyboard sound

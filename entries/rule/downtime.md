@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "downtime", path = "json/rules_subsystems02.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "76"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 76
 
 In many campaigns, returning to town after an adventure is a lull in your character's activity. You
 sell loot, stock up on potions, and perhaps wait around for the wizard to scribe some scrolls.

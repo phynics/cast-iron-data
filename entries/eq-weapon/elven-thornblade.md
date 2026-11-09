@@ -6,14 +6,15 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elven_thornblade", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "114"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "4 lbs."
 +++
-
-**Sources:** Adventurer's Guide pg 114
 
 This blade is suited for thrusts and parries, making it especially capable of inflicting deep,
 penetrating wounds. A wielder with [Weapon Finesse](ref/feat/weapon-finesse) can apply her Dexterity

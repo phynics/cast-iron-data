@@ -6,6 +6,9 @@ source_ids = ["pathfinder-105-the-inferno-gate"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phlegmatic_talisman", path = "json/magic_devil_talismans.json" },
 ]
+[[sources]]
+publication = "pathfinder-105-the-inferno-gate"
+page = "23"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration"
 caster_level = "12th"
 +++
 
-**Sources:** Pathfinder \#105: The Inferno Gate pg 23\
 **Aura** strong conjuration; **CL** 12th\
 **Slot** neck; **Price** 96,000 gp; **Weight** -
 

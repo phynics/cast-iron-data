@@ -6,6 +6,12 @@ source_ids = ["bestiary-2", "pathfinder-18-descent-into-midnight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charda", path = "json/monsters05.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "55"
+[[sources]]
+publication = "pathfinder-18-descent-into-midnight"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -44,7 +50,6 @@ its fanged maw._
 
 **Size:** small
 
-**Sources:** Bestiary 2 pg 55, Pathfinder \#18: Descent into Midnight pg 84\
 **Subtype:** Aquatic
 
 **Experience points:** 3,200

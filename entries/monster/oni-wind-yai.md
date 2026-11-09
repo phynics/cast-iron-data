@@ -6,6 +6,9 @@ source_ids = ["pathfinder-54-the-empty-throne"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oni_wind_yai", path = "json/monsters18.json" },
 ]
+[[sources]]
+publication = "pathfinder-54-the-empty-throne"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ darkness of a starry night that swirls continuously about her._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#54: The Empty Throne pg 88\
 **Subtype:** Air, Giant, Native, Oni, Shapechanger
 
 **Experience points:** 76,800

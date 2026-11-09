@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wall_of_thorns", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "367"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: no
 Effect: wall of thorny brush, up to one 10-ft. cube/level (S)
 Subschool: Creation
 :::
-
-**Sources:** PRPG Core Rulebook pg 367
 
 A wall of thorns spell creates a barrier of very tough, pliable, tangled brush bearing needle-sharp
 thorns as long as a human's finger. Any creature forced into or attempting to move through a wall of

@@ -6,13 +6,15 @@ source_ids = ["orcs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "orc", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
+[[sources]]
+publication = "orcs-of-golarion"
+page = "14"
 
 [fields]
 kind = "class_option"
 group = "sorcerer-bloodline"
 +++
 
-**Sources:** Orcs of Golarion pg 14\
 The rage of your ancestors burns within you, and the taint of savage [orc](ref/monster/orc) blood
 flows through your veins. Your anger is never far from the surface, giving you strength and driving
 you to seek greater power.

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/mesmerist" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "18"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Mesmerist tricks gained at 4th and 8th levels", "Mental potency"]
 alters = ["Spellcasting"]
 +++
 
-**Sources:** Psychic Anthology pg 18\
 Not content to simply command others from afar, a projectionist is able to use his mesmerizing
 powers to utterly dominate other creatures and objects by projecting his spirit from his body.
 

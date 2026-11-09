@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/fire-shield" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "248"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Spell resistance: no
 Target: you
 Descriptors: acid
 :::
-
-**Sources:** Ultimate Magic pg 248
 
 This functions as [fire shield](ref/spell/fire-shield), except it wreathes you in yellow or green
 acidic mist instead of hot or cold flames. The spell deals acid damage to attackers and protects you

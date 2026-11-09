@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "life_of_an_npc", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "86"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 86
 
 Once a GM knows what roles he needs NPCs to fill in a game and has a few notes about their
 specifics, its time to let the NPCs loose in the venue of an actual game. Transforming an NPC from

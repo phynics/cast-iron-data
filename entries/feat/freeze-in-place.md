@@ -6,6 +6,9 @@ source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "freeze_in_place", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "heroes-of-golarion"
+page = "6"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You gain the freeze universal monster rule, allowing you to appear as
 +++
 
 ## Freeze in Place (Combat)
-
-**Sources:** Heroes of Golarion pg 6
 
 You become an expert of hiding in plain sight.\
 **Prerequisites:** Stealth 5 ranks, [wyrwood](ref/race/wyrwood).\

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "belkzen_warchief", path = "json/npcs3.json" },
 ]
+[[sources]]
+publication = "inner-sea-npc-codex"
+page = "11"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "10"
 
 **Challenge rating:** 10
 
-**Sources:** Inner Sea NPC Codex pg 11\
 **XP** 9,600\
 Orc [barbarian](ref/class/barbarian) 11\
 CE Medium humanoid (orc)\

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "orchids_drop", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "59"
 
 [fields]
 kind = "spell"
@@ -37,8 +40,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Inner Sea Magic pg 59
 
 Alchemists have tried for centuries to recreate Artokus Kirran's feat of genius that created the
 [sun orchid elixir](ref/magic-artifact/sun-orchid-elixir). Although they have yet to unlock the

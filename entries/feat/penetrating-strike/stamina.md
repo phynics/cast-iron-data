@@ -6,12 +6,14 @@ source_ids = ["pathfinder-unchained"]
 relations = [
   { kind = "addon", target = "ref/feat/penetrating-strike", label = "stamina" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "128"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder Unchained pg 128\
 Whenever you deal damage to a creature with [damage reduction](ref/rule/damage-reduction) using the
 selected weapons, you can spend 5 stamina points to allow all your allies (other than yourself)
 within 30 feet of the creature to ignore 5 points of the creature's damage reduction for 1 round.

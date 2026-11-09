@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "anarchic", path = "json/magic_enhancements2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "135-6, 143, 149"
+[[sources]]
+publication = "core-rulebook"
+page = "469"
 
 [fields]
 kind = "item"
@@ -19,7 +25,6 @@ caster_level = "7th"
 
 ## Anarchic, Axiomatic, Holy, Unholy
 
-**Sources:** Ultimate Equipment pg. 135-6, 143, 149, PRPG Core Rulebook pg 469\
 **Aura** moderate evocation; **CL** 7th\
 **Slot** weapon quality; **Price** +2 bonus; **Weight** -
 

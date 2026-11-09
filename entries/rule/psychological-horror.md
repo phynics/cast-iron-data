@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychological_horror", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "196"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 196
 
 As a counterpoint to body horror, the psychological horror subgenre plays upon the fears and
 uncertainties rooted deep within the mind. The possibility of becoming detached from reality, plots

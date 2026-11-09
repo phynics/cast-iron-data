@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "turbulent_takeoff", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "blood-of-the-ancients"
+page = "29"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When you use your fly speed to leave the ground, you can create a bla
 +++
 
 ## Turbulent Takeoff (Combat)
-
-**Sources:** Blood of the Ancients pg 29
 
 When you take off, you create a burst of wind that keeps foes from attacking you.\
 **Prerequisites:** Fly 5 ranks.\

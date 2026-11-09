@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "riddling_khopesh", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "25"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration, evocation, and transmutation"
 caster_level = "10th"
 +++
 
-**Sources:** Melee Tactics Toolbox pg 25\
 **Aura** moderate conjuration, evocation, and transmutation; **CL** 10th\
 **Slot** none; **Price** 15,320 gp; **Weight** 8 lbs.
 

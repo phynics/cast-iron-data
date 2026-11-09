@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "great_old_one_bokrug", path = "json/monsters_unique2.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "136"
 
 [fields]
 kind = "creature"
@@ -48,7 +51,6 @@ tail._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 4 pg 136\
 **Subtype:** Aquatic, Chaotic, Extraplanar, Great Old One
 
 **Experience points:** 3,276,800

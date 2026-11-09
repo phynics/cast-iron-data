@@ -6,10 +6,12 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/saving-finale", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "107"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 107\
 Add your tier as a bonus on the saving throw reroll.

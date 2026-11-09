@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "pathfinder-32-rivers-run-red"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tracking_mark", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "243"
+[[sources]]
+publication = "pathfinder-32-rivers-run-red"
+page = "71"
 
 [fields]
 kind = "spell"
@@ -43,8 +49,6 @@ Saving throw: Will negates
 Spell resistance: yes
 Target: one creature
 :::
-
-**Sources:** Inner Sea Gods pg 243, Pathfinder \#32: Rivers Run Red pg 71
 
 You gain a supernatural ability to detect tracks and other clues left behind by the target. You
 treat the DCs of all Survival checks made to track the target as if they were 5 lower than normal,

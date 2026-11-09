@@ -6,6 +6,9 @@ source_ids = ["inner-sea-npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pathfinder_chronicler", path = "json/npcs3.json" },
 ]
+[[sources]]
+publication = "inner-sea-npc-codex"
+page = "42"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "9"
 
 **Challenge rating:** 9
 
-**Sources:** Inner Sea NPC Codex pg 42\
 **XP** 6,400\
 Halfling [bard](ref/class/bard) 5/Pathfinder chronicler 5\
 CG Small humanoid (halfling)\

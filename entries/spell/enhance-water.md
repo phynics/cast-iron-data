@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "faiths-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enhance_water", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "233"
+[[sources]]
+publication = "faiths-of-purity"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -41,8 +47,6 @@ Saving throw: Fortitude negates (object)
 Spell resistance: yes (object)
 Target: 1 pint of water/level
 :::
-
-**Sources:** Inner Sea Gods pg 233, Faiths of Purity pg 28
 
 This spell transforms water into an alcoholic beverage, typically ale, beer, mead, or wine. The
 alcohol is of middling quality but perfectly drinkable. The spell also serves to remove poisons,

@@ -6,6 +6,9 @@ source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fiery", path = "json/monster_template2.json" },
 ]
+[[sources]]
+publication = "monster-summoners-handbook"
+page = "19"
 
 [fields]
 kind = "none"
@@ -20,8 +23,6 @@ kind = "none"
 **Maybesummon:** present
 
 **Simple:** present
-
-**Source:** Monster Summoner's Handbook/19
 
 Applying this template to a summoned creature requires the feat
 [Versatile Summon Monster](ref/feat/versatile-summon-monster) or

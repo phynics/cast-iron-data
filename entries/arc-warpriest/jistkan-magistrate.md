@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/warpriest" },
 ]
+[[sources]]
+publication = "blood-of-the-ancients"
+page = "17"
 
 [fields]
 kind = "archetype"
 alters = ["Blessings", "Spontaneous casting", "Bonus languages", "Channel"]
 +++
 
-**Sources:** Blood of the Ancients pg 17\
 Some warpriests study the ancient magic that the Jistkan magistrates used to bind elementals and
 make pacts with genies. By tapping into the elementals' primal magic, these warpriests gain powers
 that help them in combat.

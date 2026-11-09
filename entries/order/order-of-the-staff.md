@@ -6,13 +6,14 @@ source_ids = ["knights-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "order_of_the_staff", path = "json/class_ability_orders.json" },
 ]
+[[sources]]
+publication = "knights-of-the-inner-sea"
+page = "24"
 
 [fields]
 kind = "class_option"
 group = "order"
 +++
-
-**Sources:** Knights of the Inner Sea pg 24
 
 Cavaliers belonging to the order of the staff dedicate their lives to guarding and assisting
 spellcasters, especially wizards and druids, and to overcoming those who seek to destroy items and

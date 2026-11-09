@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/swashbuckler" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "10"
 
 [fields]
 kind = "archetype"
 replaces = ["Menacing swordplay", "Precise strike", "Targeted strike", "Bleeding wound", "Charmed life", "Nimble", "Bonus feats"]
 +++
 
-**Sources:** Planar Adventures pg 10\
 Azatariels are the champions of Elysium, dedicated to spreading its unpredictable whimsy and
 capricious goodness across the planes. Irrepressible and happy-golucky even in the face of the most
 tyrannical devil, azatariels take their name from the azatas that they emulate. In battle,

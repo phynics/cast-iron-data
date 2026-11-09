@@ -6,6 +6,9 @@ source_ids = ["path-of-the-hellknight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "conquering_brand_subjugation", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "path-of-the-hellknight"
+page = "33"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "varies"
 
 ## Conquering Brand
 
-**Sources:** Path of the Hellknight pg 33\
 **Aura** varies; **CL** varies\
 **Slot** none; **Price** 420 gp (Conformity), 2,820 gp (Hobbling), 10,020 gp (Lesser Geas), 14,420
 gp (Subjugation), 14,420 gp (Tracking), 18,020 gp (Justice), 26,420 gp (Geas); **Weight** 5 lbs.

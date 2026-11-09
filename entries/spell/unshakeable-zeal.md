@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unshakeable_zeal", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "190"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Target: creature touched
 Subschool: Compulsion
 Descriptors: emotion, mind-affecting
 :::
-
-**Sources:** Occult Adventures pg 190
 
 You fill the target with boundless enthusiasm and faith in its ultimate triumph. Whenever the target
 fails an attack roll, a save, a skill check, a [concentration](ref/rule/concentration) check, or an

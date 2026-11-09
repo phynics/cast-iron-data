@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar", path = "json/rules_adv_pc01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "146"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 146
 
 Plot hooks for familiars are similar to those for animal companions, as they can have the same
 unknown backgrounds and instinctive reactions to people they knew when they were just common

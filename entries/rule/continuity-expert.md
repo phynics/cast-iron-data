@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "continuity_expert", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "71"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 71
 
 The continuity expert keeps up-to-date with the latest published novels and game supplements. She
 can cite historical facts buried in small type hundreds of pages into a supplement, and note each

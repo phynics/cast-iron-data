@@ -6,15 +6,24 @@ source_ids = ["adventurers-guide", "pathfinder-campaign-setting", "inner-sea-wor
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aldori_dueling_sword", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "24"
+[[sources]]
+publication = "pathfinder-campaign-setting"
+page = "209"
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "290"
+[[sources]]
+publication = "adventurers-armory"
+page = "18"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "3 lbs."
 +++
-
-**Sources:** Adventurer's Guide pg 24, Pathfinder Campaign Setting pg 209, Inner Sea World Guide pg
-290, Adventurer's Armory pg 18
 
 These slightly curved swords measure just over 3 feet in length. An Aldori dueling sword can be used
 as a martial weapon (in which case it functions as a [longsword](ref/eq-weapon/longsword)), but if

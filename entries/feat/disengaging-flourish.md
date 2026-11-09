@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disengaging_flourish", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "96"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "As a standard action, make a Bluff check against each opponent that c
 +++
 
 ## Disengaging Flourish (Combat)
-
-**Sources:** Ultimate Combat pg 96
 
 Distracting your opponents gives you the opportunity to make a swift retreat.\
 **Prerequisites:** Int 13, [Combat Expertise](ref/feat/combat-expertise),

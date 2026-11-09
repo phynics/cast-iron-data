@@ -6,14 +6,15 @@ source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soul_powered_magic", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "179"
 
 [fields]
 kind = "feat"
 prerequisites = "Any evil alignment, caster level 5th."
 benefit = "When casting a spell would require an expensive material component, you can substitute a captured soul in its place. The soul can be captured in any way (the spells create soul gem, soul trap, and trap the soul are the most common methods), but you must be able to touch the soul or the object in which it is trapped (usually a crystal or gem) to use it as a material component. Using a soul in this way does not harm the object in which it was trapped. The soul itself must be at least equal in value to the gp cost of the material component you are replacing (any excess gp value is lost). See the section blow for the gp values of various souls."
 +++
-
-**Sources:** Book of the Damned pg 179
 
 You can use captured souls as material components.\
 **Prerequisites:** Any evil alignment, caster level 5th.\

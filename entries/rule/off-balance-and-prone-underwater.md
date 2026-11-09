@@ -6,12 +6,13 @@ source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "off_balance_and_prone_underwater", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Aquatic Adventures\
 **"Off-balance"** is a special state (though not technically a condition) that is listed in the
 [Combat Adjustments Underwater table](ref/rule/underwater-combat). A creature off-balance in the
 water loses its Dexterity bonus to AC, its opponents gain a +2 bonus on attack rolls against it, and

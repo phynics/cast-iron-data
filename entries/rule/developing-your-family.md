@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "developing_your_family", path = "json/rules_adv_pc01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "166"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 166
 
 The most obvious manifestation of your character's lineage is his still-living relatives. Many of
 these NPCs have been with the character since birth, and helped shape him into the person he is

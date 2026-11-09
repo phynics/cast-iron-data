@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seething_hatred", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "155"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Select a creature type from the Ranger Favored Enemies table. When yo
 +++
 
 ## Seething Hatred (Combat)
-
-**Sources:** Advanced Class Guide pg 155
 
 You've learned to channel your hatred of a particular type of creature into a devastating strike.\
 **Prerequisites:** Studied target class feature.\

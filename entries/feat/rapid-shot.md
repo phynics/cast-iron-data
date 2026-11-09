@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rapid_shot", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "132"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When making a full-attack action with a ranged weapon, you can fire o
 +++
 
 ## Rapid Shot (Combat)
-
-**Sources:** PRPG Core Rulebook pg 132
 
 You can make an additional ranged attack.\
 **Prerequisites:** [Point-Blank Shot](ref/feat/point-blank-shot).\

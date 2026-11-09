@@ -6,12 +6,14 @@ source_ids = ["pathfinder-137-the-city-outside-of-time", "bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kyton_demagogue", path = "json/monster_families2.json" },
 ]
+[[sources]]
+publication = "pathfinder-137-the-city-outside-of-time"
+[[sources]]
+publication = "bestiary-3"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder \#137: The City Outside of Time, Bestiary 3
 
 **Family:** [Kyton](ref/family/kyton)
 

@@ -10,6 +10,9 @@ relations = [
   { kind = "prerequisite", target = "ref/feat/precise-shot", label = "or" },
   { kind = "prerequisite", target = "ref/feat/throw-anything", label = "or" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "6"
 
 [fields]
 kind = "feat"
@@ -20,8 +23,6 @@ benefit = "When you deal a direct hit to a creature with a splash weapon that no
 +++
 
 ## Concentrated Splash (Combat)
-
-**Sources:** Ranged Tactics Toolbox pg 6
 
 You can limit the splatter of your splash weapons to increase damage against your target.\
 **Prerequisites:** [Precise Shot](ref/feat/precise-shot) or

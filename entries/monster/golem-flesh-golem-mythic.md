@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_flesh_golem_mythic", path = "json/monsters_mythic.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "201"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ flesh together._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Mythic Adventures pg 201\
 **Subtype:** Mythic
 
 **Experience points:** 6,400

@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spellcurse", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "6"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: yes
 Target: 1 creature
 Descriptors: curse
 :::
-
-**Sources:** Magic Tactics Toolbox pg 6
 
 You disrupt any spell energy affecting your target, causing that energy to crackle with power and
 harm the target. The target takes 1d6 points of damage for each spell with a duration of 1 round or

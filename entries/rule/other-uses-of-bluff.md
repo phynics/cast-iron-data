@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "other_uses_of_bluff", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "184"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 184
 
 In addition to being used for lying, the Bluff skill has several other uses defined in the rules.
 

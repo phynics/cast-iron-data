@@ -6,14 +6,15 @@ source_ids = ["paths-of-prestige"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blackfire_adept", path = "json/prestige_classes.json" },
 ]
+[[sources]]
+publication = "paths-of-prestige"
+page = "12"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d6."
 +++
-
-**Sources:** Paths of Prestige pg 12
 
 A loosely organized order of nihilistic alienists and demonologists, the Blackfire Adepts study the
 power of unmaking as it manifests throughout the multiverse. They focus their obsessive research on

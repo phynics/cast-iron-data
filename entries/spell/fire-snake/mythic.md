@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/fire-snake", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "94"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 94\
 The damage dealt increases to 1d10 points of damage per level (maximum 15d10). Any creature that
 fails its saving throw against the spell is grappled by a snake made of fire that lasts for 1 round
 per caster level. The snake can be dispelled, but not attacked. A grappled creature takes 1d10

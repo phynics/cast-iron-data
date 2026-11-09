@@ -6,12 +6,14 @@ source_ids = ["skull-and-shackles-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "preparation", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "skull-and-shackles-players-guide"
+page = "12"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Skull and Shackles Player's Guide pg 12\
 Once at least two ships are ready to engage in combat, use a large, blank battle mat to represent
 the waters on which the battle occurs. The reverse side of GameMastery Flip-Mat: Ship contains a
 blank water grid that is ideal for use with ship-to-ship combat. A single square corresponds to 30

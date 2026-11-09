@@ -6,6 +6,15 @@ source_ids = ["ultimate-equipment", "pirates-of-the-inner-sea", "adventurers-arm
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hat", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "89"
+[[sources]]
+publication = "pirates-of-the-inner-sea"
+page = "21"
+[[sources]]
+publication = "adventurers-armory"
+page = "19"
 
 [fields]
 kind = "item"
@@ -14,7 +23,6 @@ price = "1 sp-50 gp"
 weight = "1/2 lb.-2 lbs."
 +++
 
-**Sources:** Ultimate Equipment pg 89, Pirates of the Inner Sea pg 21, Adventurer's Armory pg 19\
 **Price** 1 sp-50 gp; **Weight** 1/2 lb.-2 lbs.\
 **Category** Clothing
 

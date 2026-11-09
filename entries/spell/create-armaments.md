@@ -6,6 +6,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "create_armaments", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "7"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: no
 Effect: one nonmagical weapon, shield, or set of armor
 Subschool: Creation
 :::
-
-**Sources:** Arcane Anthology pg 7
 
 You create one nonmagical weapon, shield, or set of armor. To determine whether the item functions
 as intended, you must attempt an appropriate Craft check with the DC required to create the item

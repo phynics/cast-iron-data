@@ -6,6 +6,9 @@ source_ids = ["pathfinder-117-assault-on-longshadow"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bore_worm_bore_worm_swarm", path = "json/monsters04.json" },
 ]
+[[sources]]
+publication = "pathfinder-117-assault-on-longshadow"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ trail of hissing melted stone slag in its wake._
 
 **Perception:** +0
 
-**Sources:** Pathfinder \#117: Assault on Longshadow pg 82\
 **Subtype:** Swarm
 
 **tremorsense:** 60

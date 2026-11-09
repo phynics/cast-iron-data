@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hammer_of_enemies", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "357"
 
 [fields]
 kind = "item"
@@ -16,8 +19,6 @@ slot = "none"
 aura = "moderate conjuration"
 caster_level = "10th"
 +++
-
-**Sources:** Ultimate Equipment pg 357
 
 **Aura** moderate conjuration; **CL** 10th\
 **Slot** none; **Price** 54,212 gp; **Weight** 5 lbs.

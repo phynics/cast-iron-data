@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "speed", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "180"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 180
 
 Your speed tells you how far you can move in a round and still do something, such as attack or cast
 a spell. Your speed depends mostly on your size and your armor. Dwarves, gnomes, and halflings have

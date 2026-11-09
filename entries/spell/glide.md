@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "glide", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "225"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Advanced Player's Guide pg 225
 
 You take no damage from falls (as if from feather fall). In addition, you can move up to 5 feet in
 any horizontal direction for every 1 foot you fall, at a speed of 60 feet per round. You cannot use

@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "precise_strike", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "167"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Whenever you and an ally who also has this feat are flanking the same
 +++
 
 ## Precise Strike (Combat, Teamwork)
-
-**Sources:** Advanced Player's Guide pg 167
 
 You are skilled at striking where it counts, as long as an ally distracts your foe.\
 **Prerequisites:** Dex 13, base attack bonus +1.\

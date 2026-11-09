@@ -6,12 +6,13 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "type_g_staves", path = "json/rules_adv_gm07.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "193"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Equipment pg 193
 
 ### Table 4-6: Staves
 

@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_resistance", path = "json/rules_basics04.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "217"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 217
 
 Spell resistance is a special defensive ability. If your spell is being resisted by a creature with
 spell resistance, you must make a caster level check (1d20 + caster level) at least equal to the

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-society-field-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fortunate_charm", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "pathfinder-society-field-guide"
+page = "52"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Sources:** Pathfinder Society Field Guide pg 52\
 **Aura** faint evocation; **CL** 5th\
 **Slot** neck; **Price** 3,000 gp; **Weight** -
 

@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "juggernaut", path = "json/monsters34.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "162"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ _This oppressive construct rumbles forth on deadly rollers, crushing everything 
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 4 pg 162\
 **Experience points:** 12,800
 
 **Armor class:** 26/6/26

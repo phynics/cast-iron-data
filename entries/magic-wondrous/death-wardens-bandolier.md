@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "death_wardens_bandolier", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "150"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy [good]"
 caster_level = "11th"
 +++
 
-**Sources:** Mythic Adventures pg 150\
 **Aura** moderate necromancy \[good\]; **CL** 11th\
 **Slot** chest; **Price** 15,000 gp; **Weight** 3 lbs.
 

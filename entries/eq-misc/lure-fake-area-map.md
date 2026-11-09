@@ -6,6 +6,9 @@ source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lure_fake_area_map", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "kobolds-of-golarion"
+page = "28"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "- (fake area map), - (fake coins)"
 
 ## Lure
 
-**Sources:** Kobolds of Golarion pg 28\
 **Price** 20 gp (fake area map), 5 gp (fake coins); **Weight** - (fake area map), - (fake coins)
 
 Among Darklanders, the process of luring surface dwellers into danger is known as "deepbaiting."

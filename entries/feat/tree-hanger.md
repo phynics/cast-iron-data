@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tree_hanger", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "207"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You gain a +2 bonus to your CMD against all trip attacks. If your squ
 +++
 
 ## Tree Hanger (Combat)
-
-**Sources:** Advanced Race Guide pg 207
 
 You can use your tail to defend against trip attacks and to hang from nearby protrusions.\
 **Prerequisites:** Acrobatics 1 rank, [vanara](ref/race/vanara).\

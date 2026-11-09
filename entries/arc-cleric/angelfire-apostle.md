@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cleric" },
 ]
+[[sources]]
+publication = "healers-handbook"
+page = "7"
 
 [fields]
 kind = "archetype"
 alters = ["The cleric's armor proficiency", "The cleric's spellcasting", "Channel energy"]
 +++
 
-**Sources:** Healer's Handbook pg 7\
 Angelfire apostles use the powers of good to avoid violence when possible and cleanse both maladies
 and evil creatures with blinding flames. Angelfire apostles typically follow
 [Sarenrae](ref/faith/sarenrae), but a few serve empyreal lords such as

@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "full_attack", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "187"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 187
 
 If you get more than one attack per round because your base attack bonus is high enough, because you
 fight with two weapons or a double weapon, or for some special reason, you must use a full-round

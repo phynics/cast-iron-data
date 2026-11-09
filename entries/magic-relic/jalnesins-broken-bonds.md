@@ -6,6 +6,8 @@ source_ids = ["pathfinder-141-last-watch"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jalnesins_broken_bonds", path = "json/magic_relics.json" },
 ]
+[[sources]]
+publication = "pathfinder-141-last-watch"
 
 [fields]
 kind = "item"
@@ -16,7 +18,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Pathfinder \#141: Last Watch\
 **Suitable For** (not given)\
 **Aura** faint transmutation\
 **Slot** none; **CL** 5th\

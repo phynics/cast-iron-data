@@ -6,12 +6,13 @@ source_ids = ["lands-of-conflict"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "turn_around_festival_market_day", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "lands-of-conflict"
+page = "58"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Lands of Conflict pg 58
 
 **Turn Around:** Any [disabled](ref/rule/team-conditions) teams automatically recover from whatever
 was ailing them. If there are no disabled teams, one team has a morale bump and gains a +2 bonus on

@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "irregular_size", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "21"
 
 [fields]
 kind = "spell"
@@ -53,8 +56,6 @@ Spell resistance: yes
 Target: creature touched
 Descriptors: curse
 :::
-
-**Sources:** Magic Tactics Toolbox pg 21
 
 You curse a creature so one set of its limbs (typically its arms, legs, or wings) shrivels in size.
 

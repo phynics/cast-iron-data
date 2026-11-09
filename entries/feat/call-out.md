@@ -6,6 +6,9 @@ source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "call_out", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "people-of-the-river"
+page = "12"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "As a standard action, you can make an Intimidate check against a host
 +++
 
 ## Call Out (Combat)
-
-**Sources:** People of the River pg 12
 
 A well-crafted insult forces an opponent to duel you.\
 **Benefit:** As a standard action, you can make an Intimidate check against a hostile target within

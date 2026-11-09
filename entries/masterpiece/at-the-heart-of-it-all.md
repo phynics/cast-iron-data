@@ -6,6 +6,8 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "at_the_heart_of_it_all", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
 
 [fields]
 kind = "class_option"
@@ -13,8 +15,6 @@ group = "bardic-masterpiece"
 +++
 
 ## At the Heart of It All (String, Wind)
-
-**Sources:** Ultimate Magic
 
 Your song pierces to the heart of a creature's identity, weakening it against you.
 

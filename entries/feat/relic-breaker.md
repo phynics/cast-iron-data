@@ -6,6 +6,9 @@ source_ids = ["path-of-the-hellknight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "relic_breaker", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "path-of-the-hellknight"
+page = "39"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever you sunder a held object, its bearer must succeed at a Refle
 +++
 
 ## Relic Breaker (Combat)
-
-**Sources:** Path of the Hellknight pg 39
 
 You are furious when destroying dangerous objects.\
 **Prerequisites:** Str 13, [Gate Breaker](ref/feat/gate-breaker),

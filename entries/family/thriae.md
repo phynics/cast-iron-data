@@ -6,12 +6,12 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thriae", path = "json/monster_families2.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Bestiary 3
 
 Highly spiritual creatures and keepers of the world's greatest secrets, the thriae are a race of
 female, bee-like seers coveted for their powers of divination and prophecy. Roughly humanoid in size

@@ -6,12 +6,13 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "awarding_hero_points", path = "json/rules_subsystems01.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "322"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Advanced Player's Guide pg 322
 
 Each character begins play with 1 hero point, regardless of her level. In addition, whenever a
 character gains a level, she earns an additional hero point. Aside from these basic rules, awarding

@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_priest", path = "json/npcs4.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "57"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "15"
 
 **Challenge rating:** 15
 
-**Sources:** NPC Codex pg 57\
 **XP** 51,200\
 Halfling [cleric](ref/class/cleric) of [Gozreh](ref/faith/gozreh) 16\
 CN Small humanoid (halfling)\

@@ -6,12 +6,13 @@ source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mole", path = "json/rules_basics03.json" },
 ]
+[[sources]]
+publication = "spymasters-handbook"
+page = "4"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Spymaster's Handbook pg 4
 
 Moles position themselves to infiltrate locations and organizations under false pretenses. Most are
 skilled at Bluff, Disguise, and Stealth. Practice with enchantments, illusions, or transmutations is

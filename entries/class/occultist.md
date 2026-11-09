@@ -6,6 +6,9 @@ source_ids = ["occult-adventures", "advanced-players-guide", "blood-of-the-beast
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "occultist", path = "json/classes3.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "46"
 
 [fields]
 kind = "class"
@@ -13,8 +16,6 @@ class_type = "occult"
 hit_die = "d8"
 skill_ranks = "4 + Int modifier"
 +++
-
-**Sources:** Occult Adventures pg 46
 
 The occultist focuses on the world around him, grounded in the powers that flow throughout his
 environment. He studies the magic that infuses everything, from psychic resonances left in everyday

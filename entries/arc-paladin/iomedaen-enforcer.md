@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/paladin" },
 ]
+[[sources]]
+publication = "divine-anthology"
+page = "6"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Detect evil", "Smite evil"]
 alters = ["Aura of faith", "Aura of righteousness", "holy champion"]
 +++
 
-**Sources:** Divine Anthology pg 6\
 Since the publication of The Majestic Book of the Prime Ascended, certain paladins have taken "Prime
 Commander" to heart and have developed their own methods of upholding the teachings in this book.
 Iomedaean enforcers have altered abilities that allow them to stand against the forces of chaos.

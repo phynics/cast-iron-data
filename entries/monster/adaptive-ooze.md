@@ -6,6 +6,9 @@ source_ids = ["pathfinder-123-the-flooded-cathedral"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "adaptive_ooze", path = "json/monsters01.json" },
 ]
+[[sources]]
+publication = "pathfinder-123-the-flooded-cathedral"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ _The color and texture of this massive, metallic ooze shift whenever it touches 
 
 **Perception:** -5
 
-**Sources:** Pathfinder \#123: The Flooded Cathedral pg 90\
 **Experience points:** 3,200
 
 **Armor class:** 4/4/4

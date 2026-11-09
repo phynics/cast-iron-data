@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unprepared_combatant", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "246"
 
 [fields]
 kind = "spell"
@@ -48,7 +51,5 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: emotion, mind-affecting
 :::
-
-**Sources:** Ultimate Magic pg 246
 
 The target takes a -4 penalty on initiative checks and Reflex saves.

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-45-broken-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deathgag_elixir", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "pathfinder-45-broken-moon"
+page = "61"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy [evil]"
 caster_level = "7th"
 +++
 
-**Sources:** Pathfinder \#45: Broken Moon pg 61\
 **Aura** moderate necromancy \[evil\]; **CL** 7th\
 **Slot** none; **Price** 1,400 gp; **Weight** -
 

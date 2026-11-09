@@ -6,6 +6,9 @@ source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ruins", path = "json/class_ability_druid_domains.json" },
 ]
+[[sources]]
+publication = "inner-sea-monster-codex"
+page = "35"
 
 [fields]
 kind = "class_option"
@@ -13,8 +16,6 @@ group = "druid-domain"
 +++
 
 ## Ruins Domain
-
-**Sources:** Inner Sea Monster Codex pg 35
 
 **Granted Powers:** You sense nature's creeping reclamation of what once belonged to the civilized
 world and understand how to ensure ruins that hold power or significance will persist.

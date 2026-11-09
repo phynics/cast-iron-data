@@ -6,12 +6,14 @@ source_ids = ["jade-regent-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "caravan_construction", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "jade-regent-players-guide"
+page = "18"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Jade Regent Player's Guide pg 18\
 When you first gain access to Sandru's caravan, you and the other players can determine the
 caravan's initial build by selecting the caravan's primary statistics.
 

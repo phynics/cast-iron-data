@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "chronicle-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "valani", path = "json/faiths9.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "324"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Valani**
 
 **Sub:** Fireshaker
-
-**Sources:** Inner Sea Gods pg 324
 
 ### Details
 

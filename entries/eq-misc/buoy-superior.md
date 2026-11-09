@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "buoy_superior", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "56"
+[[sources]]
+publication = "advanced-players-guide"
+page = "181"
 
 [fields]
 kind = "item"
@@ -16,7 +22,6 @@ weight = "16 lbs. (common), 30 lbs. (superior)"
 
 ## Buoy
 
-**Sources:** Ultimate Equipment pg 56, Advanced Player's Guide pg 181\
 **Price** 5 sp (common), 10 gp (superior); **Weight** 16 lbs. (common), 30 lbs. (superior)
 
 A buoy is used to mark a specific spot in a lake, river, or similar body of water, making it

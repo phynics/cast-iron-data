@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/paladin" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "7"
 
 [fields]
 kind = "archetype"
 replaces = ["Spellcasting"]
 +++
 
-**Sources:** Weapon Master's Handbook pg 7\
 Tempered champions are trained in the Tempering Hall in Absalom to master their deities' favored
 weapons.
 

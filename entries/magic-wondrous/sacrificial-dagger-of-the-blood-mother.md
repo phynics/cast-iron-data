@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sacrificial_dagger_of_the_blood_mother", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "268"
+[[sources]]
+publication = "gods-and-magic"
+page = "59"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint necromancy [evil]"
 caster_level = "3rd"
 +++
 
-**Sources:** Inner Sea Gods pg 268, Gods and Magic pg 59\
 **Aura** faint necromancy \[evil\]; **CL** 3rd\
 **Slot** none; **Price** 2,700 gp; **Weight** 1 lb.
 

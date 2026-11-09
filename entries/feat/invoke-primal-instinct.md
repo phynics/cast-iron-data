@@ -6,14 +6,15 @@ source_ids = ["gnomes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "invoke_primal_instinct", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "gnomes-of-golarion"
+page = "31"
 
 [fields]
 kind = "feat"
 prerequisites = "Bluff 1 rank, wild shape class feature, gnome."
 benefit = "As a standard action, you can pantomime or describe predator- or prey-like behavior, expend one of your uses of wild shape, and make a Bluff check. All creatures within 30 feet that fail a Will save against your Bluff check DC regard you as a figure of either fear or contempt (your choice applies to all affected creatures). If you choose fear, the targets are frightened for 1 round per druid level. If you choose contempt, the targets consider you harmless for 1 minute, ignoring you unless you attack them or take a threatening action."
 +++
-
-**Sources:** Gnomes of Golarion pg 31
 
 You can use your ability to take the shape of an animal to enhance your Bluff skill, giving yourself
 an aura of danger or meekness that influences nearby creatures into doing what you want.\

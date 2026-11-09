@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "violet_fungus", path = "json/monsters40.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "274"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ of fissures in its pointed cap._
 
 **Type:** plant
 
-**Sources:** Pathfinder RPG Bestiary pg 274\
 **Experience points:** 800
 
 **Armor class:** 15/9/15

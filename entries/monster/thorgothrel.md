@@ -6,6 +6,9 @@ source_ids = ["pathfinder-87-the-choking-tower"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thorgothrel", path = "json/monsters23.json" },
 ]
+[[sources]]
+publication = "pathfinder-87-the-choking-tower"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ approximation of three arms and legs. Its outer skin shimmers with a rainbow of 
 
 **Perception:** +11
 
-**Sources:** Pathfinder \#87: The Choking Tower pg 90\
 **Experience points:** 4,800
 
 **Armor class:** 21/9/21

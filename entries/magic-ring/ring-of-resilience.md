@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_resilience", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "218"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "10th"
 +++
 
-**Sources:** Advanced Class Guide pg 218\
 **Aura** moderate conjuration; **CL** 10th\
 **Slot** ring; **Price** 15,000 gp; **Weight** -
 

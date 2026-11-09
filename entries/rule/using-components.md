@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "using_components", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "174"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 174
 
 You spend talismanic components exactly like gp for the purpose of crafting magic items, and they're
 destroyed as part of the item's creation or incorporated into the item. Once used, they're expended

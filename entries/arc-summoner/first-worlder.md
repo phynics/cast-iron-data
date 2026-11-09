@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/summoner" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "35"
 
 [fields]
 kind = "archetype"
 replaces = ["Summon monster"]
 +++
 
-**Sources:** Inner Sea Magic pg 35\
 Most summoners have a close connection to creatures from the farthest reaches of the planes. A few
 have a primal connection to nature, and their power is tied to the First World. It is not unusual
 for these summoners to associate with druids, for like druids, first worlders have a powerful tie to

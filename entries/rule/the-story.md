@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_story", path = "json/rules_adv_gm03.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "163"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 163
 
 Long ago, a powerful hag led a wicked coven that sought to destroy the kingdom of Gaheris. Seeking
 to turn enemies into allies, the king of Gaheris convinced the two weaker sisters to break their

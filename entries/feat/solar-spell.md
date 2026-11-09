@@ -6,6 +6,9 @@ source_ids = ["cohorts-and-companions"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "solar_spell", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "cohorts-and-companions"
+page = "15"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "Any spell you cast with the light descriptor is fortified with the cl
 +++
 
 ## Solar Spell (Metamagic)
-
-**Sources:** Cohorts and Companions pg 15
 
 Your spells erupt with the searing light of the sun, blinding or burning creatures of evil.\
 **Benefit:** Any spell you cast with the light descriptor is fortified with the cleansing energies

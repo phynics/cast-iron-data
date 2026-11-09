@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cold_ice_strike", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "211"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes
 Area: 30-ft. line
 Descriptors: cold
 :::
-
-**Sources:** Ultimate Magic pg 211
 
 You create a shredding flurry of ice slivers, which blast from your hand in a line. The line deals
 1d6 points of cold damage per caster level (maximum 15d6).

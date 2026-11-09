@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "living_wall", path = "json/monsters16.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "182"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ limbs, topped with a dragon skull._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 4 pg 182\
 **Experience points:** 1,200
 
 **Armor class:** 12/5/12

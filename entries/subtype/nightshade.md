@@ -6,14 +6,15 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nightshade", path = "json/monster_subtypes.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "308"
 
 [fields]
 kind = "none"
 +++
 
 ## Subtype: Nightshade
-
-**Sources:** Bestiary 2 pg 308
 
 Nightshades are monstrous [undead](ref/type/undead) composed of shadow and evil. They have the
 following traits.

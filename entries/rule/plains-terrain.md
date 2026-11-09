@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plains_terrain", path = "json/rules_gm08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "431"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 431
 
 Plains come in three categories: farms, grasslands, and battlefields. Farms are common in settled
 areas, while grasslands represent untamed plains. The battlefields where large armies clash are

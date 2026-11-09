@@ -6,6 +6,9 @@ source_ids = ["classic-treasures-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "corpse_ferrying_bag", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "classic-treasures-revisited"
+page = "8"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration and necromancy"
 caster_level = "9th"
 +++
 
-**Sources:** Classic Treasures Revisited pg 8\
 **Aura** moderate conjuration and necromancy; **CL** 9th\
 **Slot** none; **Price** 4,000 gp; **Weight** 3 lbs.
 

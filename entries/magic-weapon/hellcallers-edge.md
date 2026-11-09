@@ -6,6 +6,9 @@ source_ids = ["cheliax-empire-of-devils"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hellcallers_edge", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "cheliax-empire-of-devils"
+page = "21"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "9th"
 +++
 
-**Sources:** Cheliax, Empire of Devils pg 21\
 **Aura** moderate evocation; **CL** 9th\
 **Slot** weapon; **Price** 20,350 gp; **Weight** 8 lbs.
 

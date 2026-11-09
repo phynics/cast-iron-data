@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "games_of_chance", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "241"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 241
 
 In games of pure chance, luck should rule the day. Neither the player nor the house is in control -
 the dice are, and no ranks in Profession (gambler) will help a character win. But this is as it

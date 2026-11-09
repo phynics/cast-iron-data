@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chases", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "232"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 232
 
 While chases are a signature action scene in countless stories, they present a singular challenge in
 the Pathfinder Roleplaying Game, thanks to static movement rates. Since every creature in the game

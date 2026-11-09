@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "twilight_knife", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "252"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: yes
 Effect: floating knife of force
 Descriptors: force
 :::
-
-**Sources:** Advanced Player's Guide pg 252
 
 You create a darkly sinister floating knife that attacks the same creature as you each round. If you
 choose not to attack a creature, or you make an attack that affects multiple opponents, the knife

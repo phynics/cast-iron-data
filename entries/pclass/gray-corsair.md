@@ -6,14 +6,15 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gray_corsair", path = "json/prestige_classes2.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "68"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d8."
 +++
-
-**Sources:** Adventurer's Guide pg 68
 
 Scourge of the seaborne slaver, Gray Corsairs augment existing class skills with specializations
 that suit them well for their long tours of duty at sea. Yet Gray Corsairs must also be able to

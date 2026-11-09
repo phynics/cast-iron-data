@@ -6,6 +6,9 @@ source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "asura_style", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "plane-hoppers-handbook"
+page = "9"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you use a monk weapon or unarmed strike to attack a creature tha
 +++
 
 ## Asura Style (Combat, Style)
-
-**Sources:** Plane-Hopper's Handbook pg 9
 
 Blasphemy comes quite naturally to you. When you interrupt your foes' divine spells, you use words,
 symbols, or gestures so abhorrent to their faith that they are repulsed by your deeds.\

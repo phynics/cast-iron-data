@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "carcanet_of_detention", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "257"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration"
 caster_level = "4th"
 +++
 
-**Sources:** Ultimate Equipment pg 257\
 **Aura** faint conjuration; **CL** 4th\
 **Slot** neck; **Price** 7,200 gp; **Weight** -
 

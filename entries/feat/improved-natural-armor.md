@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_natural_armor", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "315"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "A creature can gain this feat multiple times. Each time the creature 
 +++
 
 ## Improved Natural Armor (Monster)
-
-**Sources:** Pathfinder RPG Bestiary pg 315
 
 This creature's hide is tougher than most.\
 **Prerequisites:** Natural armor, Con 13.\

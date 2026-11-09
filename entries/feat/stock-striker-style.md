@@ -6,6 +6,9 @@ source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stock_striker_style", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "people-of-the-wastes"
+page = "11"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When you perform the pistol-whip deed while using this style, you gai
 +++
 
 ## Stock-Striker Style (Combat, Style)
-
-**Sources:** People of the Wastes pg 11
 
 Your fighting technique makes you equally deadly with your firearm's stock as with its bullets.\
 **Prerequisites:** [Pistol-whip](ref/deed/pistol-whip) gunslinger deed.\

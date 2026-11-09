@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "creating_wands", path = "json/rules_basics04.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "553"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 553
 
 To create a magic wand, a character needs a small supply of materials, the most obvious being a
 baton or the pieces of the wand to be assembled. The cost for the materials is subsumed in the cost

@@ -6,6 +6,9 @@ source_ids = ["occult-mysteries"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "calculated_luck", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "occult-mysteries"
+page = "50"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Occult Mysteries pg 50
 
 You are able to use the Path of Numbers to substantially boost your combat preparedness, but your
 foresight comes at a price. Roll 3d8 and refer to the

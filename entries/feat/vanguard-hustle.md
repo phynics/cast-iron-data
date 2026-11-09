@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vanguard_hustle", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "13"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Add half of your shield's enhancement bonus to the shield bonus to AC
 +++
 
 ## Vanguard Hustle (Combat)
-
-**Sources:** Armor Master's Handbook pg 13
 
 You are able to protect allies from a distance.\
 **Prerequisites:** Dex 13, [Bodyguard](ref/feat/bodyguard), [Combat Patrol](ref/feat/combat-patrol),

@@ -6,12 +6,13 @@ source_ids = ["cohorts-and-companions"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "manipulate_evidence", path = "json/rules_rulesets01.json" },
 ]
+[[sources]]
+publication = "cohorts-and-companions"
+page = "26"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Cohorts and Companions pg 26
 
 A stealthy thief may never be seen, but she still leaves evidence of her criminal activities. This
 activity enables you to attempt to remove genuine clues that you left during the crime, and set up

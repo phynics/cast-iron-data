@@ -6,6 +6,9 @@ source_ids = ["pathfinder-66-the-dead-heart-of-xin"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tome_of_living_runes", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "pathfinder-66-the-dead-heart-of-xin"
+page = "61"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation"
 caster_level = "15th"
 +++
 
-**Sources:** Pathfinder \#66: The Dead Heart of Xin pg 61\
 **Aura** strong transmutation; **CL** 15th\
 **Slot** none; **Price** 36,000 gp; **Weight** 15 lbs.
 

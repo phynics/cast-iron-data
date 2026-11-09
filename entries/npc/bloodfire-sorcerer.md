@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloodfire_sorcerer", path = "json/npcs2.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "164"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "6"
 
 **Challenge rating:** 6
 
-**Sources:** NPC Codex pg 164\
 **XP** 2,400\
 Half-orc [sorcerer](ref/class/sorcerer) 7\
 NE Medium humanoid (human, orc)\

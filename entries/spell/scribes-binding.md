@@ -6,6 +6,9 @@ source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scribes_binding", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "spymasters-handbook"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: yes
 Target: creature touched
 Subschool: Polymorph
 :::
-
-**Sources:** Spymaster's Handbook pg 29
 
 Hermea's benevolent Council of Enlightenment uses this spell to humanely preserve their society's
 greatest minds from the ravages of time, though it has seen far more sinister employment when put to

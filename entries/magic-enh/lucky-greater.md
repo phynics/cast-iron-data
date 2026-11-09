@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lucky_greater", path = "json/magic_enhancements2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "145"
+[[sources]]
+publication = "ultimate-combat"
+page = "142"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong enchantment"
 caster_level = "12th"
 +++
 
-**Sources:** Ultimate Equipment pg 145, Ultimate Combat pg 142\
 **Aura** strong enchantment; **CL** 12th\
 **Slot** weapon quality; **Price** +3 bonus; **Weight** -
 

@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kami_zuishin", path = "json/monsters34.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "165"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ _Within this elaborate suit of armor can be seen the partial form of a determine
 
 **Senses:** Darkvision 60 ft., Detect evil, See invisibility
 
-**Sources:** Bestiary 3 pg 165\
 **Subtype:** Kami, Native
 
 **Experience points:** 9,600

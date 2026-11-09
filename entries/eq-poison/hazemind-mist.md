@@ -6,6 +6,9 @@ source_ids = ["familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hazemind_mist", path = "json/equipment_poisons.json" },
 ]
+[[sources]]
+publication = "familiar-folio"
+page = "20"
 
 [fields]
 kind = "item"
@@ -13,8 +16,6 @@ category = "Poisons"
 price = "225 gp"
 weight = "&mdash;"
 +++
-
-**Sources:** Familiar Folio pg 20
 
 **Price** 225 gp; **Weight** —
 

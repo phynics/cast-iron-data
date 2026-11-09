@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bungle", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "209"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: yes
 Target: one humanoid
 Subschool: Compulsion
 :::
-
-**Sources:** Ultimate Magic pg 209
 
 The target takes a -20 penalty on its next attack roll or check that requires a d20 roll. The action
 must be one deliberately taken by the target on its turn. Creatures with more than 10 HD are

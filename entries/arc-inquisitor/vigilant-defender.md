@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/inquisitor" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "31"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Stern gaze", "Exploit weakness"]
 alters = ["Judgment", "True judgment"]
 +++
 
-**Sources:** Ultimate Intrigue pg 31\
 Some inquisitors focus more on protecting those who share their faiths and their ideals than on
 actively hunting their enemies. These vigilant defenders often work alongside traveling clerics and
 paladins.

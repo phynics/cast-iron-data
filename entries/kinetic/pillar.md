@@ -6,6 +6,9 @@ source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pillar", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
+page = "23"
 
 [fields]
 kind = "class_option"
@@ -23,8 +26,6 @@ group = "kineticist-wild-talent"
 **Burn:** 0
 
 **Prerequisite:** [kinetic cover](ref/kinetic/kinetic-cover)
-
-**Source:** Elemental Master's Handbook/23
 
 You create a 5-foot-by-5-foot pillar of ice, packed dirt, or tangled roots with a height of up to 15
 feet. This takes 1 full round, during which time the ground within the affected area rumbles

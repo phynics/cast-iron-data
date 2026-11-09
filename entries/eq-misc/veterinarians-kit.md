@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "veterinarians_kit", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "77"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "25 gp"
 weight = "1 lb."
 +++
 
-**Sources:** Ultimate Equipment pg 77\
 **Price** 25 gp; **Weight** 1 lb.\
 **Category** Tools
 

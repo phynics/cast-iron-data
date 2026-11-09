@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "earth_tremor", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "228"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: no
 Area: 30-ft. line, 20-ft. cone-shaped spread, or 10-ft.-radius spread (see text)
 Descriptors: earth
 :::
-
-**Sources:** Ultimate Wilderness pg 228
 
 You strike the ground and unleash a tremor of seismic force, hurling up earth, rock, and sand. You
 choose whether the earth tremor affects a 30-foot line, a 20-foot cone-shaped spread, or a

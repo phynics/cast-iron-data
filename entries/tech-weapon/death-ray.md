@@ -6,14 +6,15 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "death_ray", path = "json/equipment_tech_weapons.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "21"
 
 [fields]
 kind = "item"
 category = "Technological Weapons"
 weight = "1 lb."
 +++
-
-**Sources:** Technology Guide pg 21
 
 **Cost** 140,000 gp\
 **Type** one-handed ranged; **Proficiency** exotic (firearms); **Weight** 1 lb.\

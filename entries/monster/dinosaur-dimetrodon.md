@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dinosaur_dimetrodon", path = "json/monsters08.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "78"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ stalks forward._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Bestiary 3 pg 78\
 **Experience points:** 800
 
 **Armor class:** 14/11/12

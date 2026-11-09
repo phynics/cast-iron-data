@@ -6,6 +6,9 @@ source_ids = ["pathfinder-134-it-came-from-hollow-mountain"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alluring_light", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "pathfinder-134-it-came-from-hollow-mountain"
+page = "72"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: yes
 Area: 30-ft.-radius emanation centered on you
 Subschool: Compulsion
 :::
-
-**Sources:** Pathfinder \#134: It Came from Hollow Mountain pg 72
 
 You glow with a soft radiance that calls out to all who see it. Each enemy that fails its save is
 drawn to you and must use its move action to approach you at the beginning of each of its turns for

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "painspike_armor", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "252"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint necromancy [evil]"
 caster_level = "5th"
 +++
 
-**Sources:** Inner Sea Gods pg 252\
 **Aura** faint necromancy \[evil\]; **CL** 5th\
 **Slot** armor; **Price** 4,145 gp; **Weight** 20 lbs.
 

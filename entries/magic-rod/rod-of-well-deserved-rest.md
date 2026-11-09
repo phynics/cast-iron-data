@@ -6,6 +6,9 @@ source_ids = ["pathfinder-39-the-city-of-seven-spears"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rod_of_well_deserved_rest", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "pathfinder-39-the-city-of-seven-spears"
+page = "56"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong enchantment and evocation"
 caster_level = "12th"
 +++
 
-**Sources:** Pathfinder \#39: The City of Seven Spears pg 56\
 **Aura** strong enchantment and evocation; **CL** 12th\
 **Slot** none; **Price** 62,000 gp; **Weight** 5 lbs.
 

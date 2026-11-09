@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ranger" },
 ]
+[[sources]]
+publication = "people-of-the-stars"
+page = "8"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Wild empathy", "Endurance", "Favored terrain", "Camouflage", "hide 
 alters = ["6th-level combat style feat"]
 +++
 
-**Sources:** People of the Stars pg 8\
 Thanks to their four arms, kasathas can master a combat form native to their home world and rarely
 witnessed on Golarion - wielding two bows at once. This archetype is available to kasathas (and to
 other races with four or more arms at the GM's discretion).

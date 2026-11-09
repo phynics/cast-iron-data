@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/oracle" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "59"
 
 [fields]
 kind = "archetype"
 replaces = ["Bonus spells granted by the oracle's mystery after 2nd level"]
 +++
 
-**Sources:** Ultimate Magic pg 59\
 While all oracles possess some ability at divination, the seer is a true prophet, able to see things
 as they really are, or will be.
 

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "commune", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "257"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** PRPG Core Rulebook pg 257
 
 You contact your deity - or agents thereof - and ask questions that can be answered by a simple yes
 or no. (A cleric of no particular deity contacts a philosophically allied deity.) You are allowed

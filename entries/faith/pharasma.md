@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "planar-adventures", "pathfinder-44-trial-of-the
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pharasma", path = "json/faiths7.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "116"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Pharasma**
 
 **Sub:** Lady of Graves
-
-**Sources:** Inner Sea Gods pg 116
 
 ### Details
 

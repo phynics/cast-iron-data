@@ -6,12 +6,13 @@ source_ids = ["lands-of-conflict"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "restore_character", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "lands-of-conflict"
+page = "57"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Lands of Conflict pg 57
 
 **Restore Character** **(Spellcasters):** This action can be used to perform one of the following
 for the entire party: heal all [ability score damage](ref/rule/ability-damage-drain), heal all hit

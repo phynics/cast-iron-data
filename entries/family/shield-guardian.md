@@ -6,12 +6,12 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_guardian", path = "json/monster_families2.json" },
 ]
+[[sources]]
+publication = "bestiary"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder RPG Bestiary
 
 **Family:** [Golem](ref/family/golem)
 

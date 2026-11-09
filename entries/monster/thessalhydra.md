@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thessalhydra", path = "json/monsters23.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "263"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ thrashing tail ends in a crab-like pincer._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Bestiary 6 pg 263\
 **Experience points:** 153,600
 
 **Armor class:** 33/21/18

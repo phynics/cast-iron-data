@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "broken_soul", path = "json/monster_template1.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "24"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +2
-
-**Source:** Bestiary 4/24
 
 A broken soul is torment and pain made manifest. Tortured to the extremes of both physical and
 mental endurance, and then taken beyond those barriers, a broken soul gains extraordinary reserves

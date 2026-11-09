@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "traumatic_spell", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "141"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "A traumatic spell causes lingering memories of pain and suffering in 
 +++
 
 ## Traumatic Spell (Metamagic)
-
-**Sources:** Occult Adventures pg 141
 
 Creatures harmed by your spells relive their torments in nightly terrors.\
 **Benefit:** A traumatic spell causes lingering memories of pain and suffering in creatures harmed

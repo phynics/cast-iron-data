@@ -6,6 +6,9 @@ source_ids = ["pathfinder-123-the-flooded-cathedral"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aboleth_mucus_extract", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "pathfinder-123-the-flooded-cathedral"
+page = "30"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "100 gp"
 weight = "1/2 lb."
 +++
 
-**Sources:** Pathfinder \#123: The Flooded Cathedral pg 30\
 **Price** 100 gp; **Weight** 1/2 lb.\
 **Category** Alchemical Tools
 

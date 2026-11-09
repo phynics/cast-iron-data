@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "graeae_mythic", path = "json/monsters_mythic.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "134"
 
 [fields]
 kind = "creature"
@@ -48,7 +51,6 @@ eyeball she clutches in her claws._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 4 pg 134\
 **Subtype:** Evil, Mythic
 
 **Experience points:** 1,600

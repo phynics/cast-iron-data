@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gray_ooze", path = "json/monsters12.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "166"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ more as a terrible pseudopod lashes out._
 
 **Perception:** -5
 
-**Sources:** Pathfinder RPG Bestiary pg 166\
 **Experience points:** 1,200
 
 **Armor class:** 5/5/5

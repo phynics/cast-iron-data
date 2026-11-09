@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grindylow", path = "json/monsters13.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "148"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ and a greasy octopus below._
 
 **Size:** small
 
-**Sources:** Bestiary 2 pg 148\
 **Subtype:** Aquatic
 
 **Experience points:** 200

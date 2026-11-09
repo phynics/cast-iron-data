@@ -6,13 +6,15 @@ source_ids = ["advanced-players-guide", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "starsoul", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "140"
 
 [fields]
 kind = "class_option"
 group = "sorcerer-bloodline"
 +++
 
-**Sources:** Advanced Player's Guide pg 140\
 You come from a line of stargazers and explorers who delved deeply into the darkness beyond the
 stars. In touching the void, the void touched them, and your mind, spirit, and body yearn to span
 the gulf between worlds.

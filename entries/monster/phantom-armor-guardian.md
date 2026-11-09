@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "pathfinder-47-ashes-at-dawn"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phantom_armor_guardian", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "213"
+[[sources]]
+publication = "pathfinder-47-ashes-at-dawn"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -39,7 +45,6 @@ _This suit of armor moves with a warrior's deadly skill despite obviously being 
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 4 pg 213, Pathfinder \#47: Ashes at Dawn pg 84\
 **Type:** undead
 
 **Experience points:** 600

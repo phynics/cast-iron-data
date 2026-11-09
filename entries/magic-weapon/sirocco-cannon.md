@@ -6,6 +6,9 @@ source_ids = ["pathfinder-60-from-hells-heart"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sirocco_cannon", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "pathfinder-60-from-hells-heart"
+page = "55"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Sources:** Pathfinder \#60: From Hell's Heart pg 55\
 **Aura** moderate evocation; **CL** 10th\
 **Slot** none; **Price** 184,500 gp; **Weight** -
 

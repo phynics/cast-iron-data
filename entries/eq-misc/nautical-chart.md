@@ -6,6 +6,12 @@ source_ids = ["adventurers-armory-2", "pirates-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nautical_chart", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "13"
+[[sources]]
+publication = "pirates-of-the-inner-sea"
+page = "21"
 
 [fields]
 kind = "item"
@@ -14,7 +20,6 @@ price = "25 gp"
 weight = "-"
 +++
 
-**Sources:** Adventurer's Armory 2 pg 13, Pirates of the Inner Sea pg 21\
 **Price** 25 gp; **Weight** -\
 **Category** Adventuring Gear
 

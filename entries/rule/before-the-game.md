@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "before_the_game", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "58"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 58
 
 Prior to sitting down to create characters, the players and GM should have a discussion about what
 sort of game they want to play. Although most campaigns using the Pathfinder Roleplaying Game fall

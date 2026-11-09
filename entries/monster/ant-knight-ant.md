@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ant_knight_ant", path = "json/monsters02.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "27"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ scarred._
 
 **Senses:** Darkvision 60 ft., Scent
 
-**Sources:** Bestiary 5 pg 27\
 **tremorsense:** 30
 
 **Type:** vermin

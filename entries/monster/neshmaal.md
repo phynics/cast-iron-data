@@ -6,6 +6,9 @@ source_ids = ["pathfinder-84-pyramid-of-the-sky-pharaoh"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "neshmaal", path = "json/monsters17.json" },
 ]
+[[sources]]
+publication = "pathfinder-84-pyramid-of-the-sky-pharaoh"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ air, giving off an aura of dark, alien menace._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#84: Pyramid of the Sky Pharaoh pg 86\
 **Subtype:** Extraplanar, Incorporeal
 
 **Experience points:** 19,200

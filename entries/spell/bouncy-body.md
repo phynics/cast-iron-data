@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bouncy_body", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "105"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: none
 Spell resistance: no
 Target: creature touched
 :::
-
-**Sources:** Monster Codex pg 105
 
 The target's flesh becomes flexible and rubbery. It gains a +2 circumstance bonus on grapple combat
 maneuver checks and Escape Artist checks, as well as to its CMD against combat maneuver checks to

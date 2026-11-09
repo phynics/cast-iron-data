@@ -6,6 +6,9 @@ source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "badlands", path = "json/class_ability_druid_domains.json" },
 ]
+[[sources]]
+publication = "faiths-and-philosophies"
+page = "24"
 
 [fields]
 kind = "class_option"
@@ -14,8 +17,6 @@ replaces = ["Woodland stride"]
 +++
 
 ## Badlands Domain
-
-**Sources:** Faiths and Philosophies pg 24
 
 **Granted Powers:** Your spirit knows both the harshness of the drying wind and the raw beauty of
 painted canyons.

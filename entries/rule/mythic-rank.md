@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mythic_rank", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "176"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 176
 
 A monster's mythic rank (MR) is a game statistic for monsters that's roughly equivalent to a mythic
 tier; monsters with only a little mythic power are 1st rank, and the greatest mythic monsters are

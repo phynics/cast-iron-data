@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/restoration-lesser" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "235"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Subschool: Healing
 :::
-
-**Sources:** Ultimate Magic pg 235
 
 This spell functions as [lesser restoration](ref/spell/restoration-lesser), except it only affects
 an eidolon.

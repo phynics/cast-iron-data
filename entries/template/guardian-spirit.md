@@ -6,6 +6,9 @@ source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guardian_spirit", path = "json/monster_template2.json" },
 ]
+[[sources]]
+publication = "monster-summoners-handbook"
+page = "26"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** Varies
-
-**Source:** Monster Summoner's Handbook/26
 
 A guardian spirit is bound to the fate of a mortal being (called its "ward"). This bond may be
 formed by any number of beings or events carrying the weight of destiny, such as deities,

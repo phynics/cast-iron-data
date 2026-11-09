@@ -6,13 +6,15 @@ source_ids = ["occult-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lust", path = "json/class_ability_emotional_focus.json" },
 ]
+[[sources]]
+publication = "occult-realms"
+page = "14"
 
 [fields]
 kind = "class_option"
 group = "emotional-focus"
 +++
 
-**Sources:** Occult Realms pg 14\
 A phantom with this focus aches for the intoxicating pleasures it experienced during life. These
 phantoms often writhe sensuously and whisper promises of unadulterated bliss to those they fight.
 Lust phantoms are typically deep rose in color, and they sometimes emit musky, exotic scents when

@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sandman", path = "json/monsters37.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "236"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ figure._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 2 pg 236\
 **Subtype:** Earth, Elemental, Extraplanar
 
 **tremorsense:** 30

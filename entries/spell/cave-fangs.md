@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cave_fangs", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "228"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Area: one 5-ft. square/level (S); the area must be a stone surface
 Subschool: Creation
 Descriptors: earth
 :::
-
-**Sources:** Ultimate Wilderness pg 228
 
 You create a magical trap in the area that causes deadly stalactites or stalagmites to lurch out of
 the floor or ceiling of a stone surface to "bite" an intruder. The magical trap is triggered

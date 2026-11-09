@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "build_trust", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "205"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: Will negates
 Spell resistance: yes
 Target: one creature
 :::
-
-**Sources:** Ultimate Intrigue pg 205
 
 You get a sense of the best way to interact with the target in order to encourage positive regard
 and fellowship toward you. You gain a +2 circumstance bonus on all Charisma checks and

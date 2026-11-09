@@ -6,6 +6,9 @@ source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seashell_diving_mask", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "heroes-from-the-fringe"
+page = "23"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration"
 caster_level = "3rd"
 +++
 
-**Sources:** Heroes from the Fringe pg 23\
 **Aura** faint conjuration; **CL** 3rd\
 **Slot** head; **Price** 6,000 gp; **Weight** 3 lbs.
 

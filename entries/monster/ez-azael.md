@@ -6,6 +6,9 @@ source_ids = ["pathfinder-107-scourge-of-the-godclaw"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ez_azael", path = "json/monsters42.json" },
 ]
+[[sources]]
+publication = "pathfinder-107-scourge-of-the-godclaw"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ thread is tangled between its curled ram horns._
 
 **Senses:** Darkvision 60 ft., Scent, True seeing
 
-**Sources:** Pathfinder \#107: Scourge of the Godclaw pg 84\
 **Subtype:** Good, Lawful, Native
 
 **Experience points:** 19,200

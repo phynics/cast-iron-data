@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "orc_weapon_expertise", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "142"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "You can gain this feat multiple times. Each time you take this feat, 
 +++
 
 ## Orc Weapon Expertise (Combat)
-
-**Sources:** Advanced Race Guide pg 142
 
 You can do more with the weapons orcs favor the most.\
 **Prerequisites:** Base attack bonus +1, [orc](ref/race/orc).\

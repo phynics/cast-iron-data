@@ -6,6 +6,12 @@ source_ids = ["bestiary-2", "pathfinder-8-seven-days-to-the-grave"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_fly", path = "json/monsters11.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "124"
+[[sources]]
+publication = "pathfinder-8-seven-days-to-the-grave"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -39,7 +45,6 @@ on buzzing wings._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 2 pg 124, Pathfinder \#8: Seven Days to the Grave pg 84\
 **Type:** vermin
 
 **Experience points:** 400

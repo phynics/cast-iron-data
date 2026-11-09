@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "going_too_far", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "204"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 204
 
 Some GMs make the mistake of thinking that if a frightening gimmick works for a haunted house or
 campfire story, then it will work for their horror adventures. Such is rarely the case. At best,

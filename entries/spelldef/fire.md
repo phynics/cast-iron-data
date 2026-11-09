@@ -6,14 +6,15 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fire", path = "json/spell_definitions.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "138"
 
 [fields]
 kind = "none"
 +++
 
 ## Fire (spell discriptor)
-
-**Sources:** Ultimate Magic pg 138
 
 Fire effects make the target hotter by creating fire, directly heating the target with magic or
 friction. Lava, steam, and boiling water all deal fire damage. Fire effects can also cause

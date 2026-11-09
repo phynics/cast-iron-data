@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sword_and_pistol", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "122"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "Making a ranged attack provokes attacks of opportunity."
 +++
 
 ## Sword and Pistol (Combat)
-
-**Sources:** Ultimate Combat pg 122
 
 You effortlessly pair melee and ranged weaponry.\
 **Prerequisites:** Dex 13, [Point-Blank Shot](ref/feat/point-blank-shot),

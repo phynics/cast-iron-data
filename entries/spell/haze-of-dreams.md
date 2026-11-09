@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "faiths-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "haze_of_dreams", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "235"
+[[sources]]
+publication = "faiths-of-purity"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -48,8 +54,6 @@ Target: one creature
 Subschool: Charm
 Descriptors: emotion, mind-affecting
 :::
-
-**Sources:** Inner Sea Gods pg 235, Faiths of Purity pg 28
 
 You fill an enemy's head with waking dreams, a reminder of the pleasures, delights, and terrors to
 be found in the dream world. While in this strange dream state, the target moves at half its normal

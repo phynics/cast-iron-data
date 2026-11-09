@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "pathfinder-37-souls-for-smugglers-shiv"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dimorphodon", path = "json/class_ability_druid_companions.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "311"
+[[sources]]
+publication = "pathfinder-37-souls-for-smugglers-shiv"
+page = "83"
 
 [fields]
 kind = "class_option"
@@ -13,8 +19,6 @@ group = "animal-companion"
 +++
 
 ## Dinosaur (Dimorphodon)
-
-**Sources:** Bestiary 4 pg 311, Pathfinder \#37: Souls for Smuggler's Shiv pg 83
 
 **Companion Type**
 

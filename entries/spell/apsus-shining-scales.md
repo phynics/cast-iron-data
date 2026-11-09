@@ -6,6 +6,9 @@ source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "apsus_shining_scales", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "legacy-of-dragons"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 Target: you
 Descriptors: draconic, good
 :::
-
-**Sources:** Legacy of Dragons pg 28
 
 You envelop your body with silver radiance that manifests as scales surrounding your body, granting
 you a +5 armor bonus to your AC and causing your natural attacks and unarmed strikes to bypass

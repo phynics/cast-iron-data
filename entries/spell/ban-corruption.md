@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ban_corruption", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "109"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: yes
 Area: 30 ft.-radius emanation centered on you
 Descriptors: good
 :::
-
-**Sources:** Horror Adventures pg 109
 
 You strip all creatures within the emanation of any gifts associated with
 [corruptions](ref/rule/corruption). Abilities associated with corruptions cease to function, as if

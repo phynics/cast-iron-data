@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "religion_taboos_rituals_and_superstitions", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "151"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 151
 
 The religions of early people tend to be simplistic and animistic, ascribing spirits and thought to
 objects and phenomena. Their lives are full of portents and omens, and when they read the wind and

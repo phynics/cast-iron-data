@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/amateur-gunslinger", label = "or" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "12"
 
 [fields]
 kind = "feat"
@@ -19,8 +22,6 @@ benefit = "When you spend a swift action to attempt a performance combat check, 
 +++
 
 ## Black Powder Spectacle (Combat, Performance)
-
-**Sources:** Inner Sea Combat pg 12
 
 You can sacrifice ammunition to make a grand spectacle.\
 **Prerequisites:** [Amateur Gunslinger](ref/feat/amateur-gunslinger) or the grit class feature, base

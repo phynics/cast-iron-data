@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reverse_feint", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "142"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "As a move action, you can leave a gap in your defenses for one adjace
 +++
 
 ## Reverse-Feint (Combat)
-
-**Sources:** Advanced Race Guide pg 142
 
 You can goad an opponent into attacking you in order to make your counter attack all the more
 powerful.\

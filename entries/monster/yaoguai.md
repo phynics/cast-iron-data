@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "yaoguai", path = "json/monsters41.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "284"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ ape legs, and a furred tentacle arm._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 4 pg 284\
 **Experience points:** 3,200
 
 **Armor class:** 18/8/18

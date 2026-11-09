@@ -6,12 +6,13 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_primal", path = "json/monster_families.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "92"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Bestiary 2 pg 92
 
 **Family:** [True Dragon](ref/family/dragon-true)
 

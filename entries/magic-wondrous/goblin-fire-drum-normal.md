@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "goblin_fire_drum_normal", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "300"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "3rd"
 
 ## Goblin Fire Drum
 
-**Sources:** Ultimate Equipment pg 300\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** none; **Price** 2,000 gp (Normal), 4,500 gp (Greater); **Weight** 1 lb.
 

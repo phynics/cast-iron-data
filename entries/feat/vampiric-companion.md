@@ -6,6 +6,12 @@ source_ids = ["monster-codex", "blood-of-the-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vampiric_companion", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "237"
+[[sources]]
+publication = "blood-of-the-night"
+page = "28"
 
 [fields]
 kind = "feat"
@@ -13,8 +19,6 @@ prerequisites = "Dhampir or vampire, nongood alignment, 10th level in a class th
 benefit = "Your animal companion or familiar's type changes to undead. The creature gains fast healing 5 as well as your vampire or dhampir weaknesses. If you are a vampire, the creature also gains the following abilities, depending on what type of vampire you are."
 special = "If your animal companion or familiar is destroyed, dismissed, or lost, you can apply the effects of this feat to the replacement creature. If you are destroyed, the creature retains its undead type but loses all other special abilities from this feat. If you have more than one animal companion or familiar, choose one of them when you select this feat and apply its effects to that creature."
 +++
-
-**Sources:** Monster Codex pg 237, Blood of the Night pg 28
 
 Just as your undead existence mocks nature, so too does your twisted companion reflect the vile
 nature of vampirism.\

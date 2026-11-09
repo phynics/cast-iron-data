@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "style_of_play", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "10"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 10
 
 Finding the right fit with a group depends on a shared preference of styles of play and the
 willingness to compromise. Does your group prefer to focus more on combat or roleplaying? The former

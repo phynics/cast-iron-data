@@ -6,6 +6,9 @@ source_ids = ["undead-slayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "force_anchor", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "undead-slayers-handbook"
+page = "26"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Effect: one anchor of force
 Subschool: Creation
 Descriptors: force
 :::
-
-**Sources:** Undead Slayer's Handbook pg 26
 
 You conjure an anchor of pure force that immediately skewers your target on a successful ranged
 touch attack. If it hits, the attack deals the target 1d4 points of force damage per 2 caster levels

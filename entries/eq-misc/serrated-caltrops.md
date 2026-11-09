@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "serrated_caltrops", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "21"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "451 gp"
 weight = "2 lbs."
 +++
 
-**Sources:** Dirty Tactics Toolbox pg 21\
 **Price** 451 gp; **Weight** 2 lbs.\
 **Category** Adventuring Gear
 

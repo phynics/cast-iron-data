@@ -6,13 +6,14 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skymetal", path = "json/equipment_special_materials.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "56"
 
 [fields]
 kind = "item"
 category = "Special Materials"
 +++
-
-**Sources:** Technology Guide pg 56
 
 The Rain of Stars brought with it metals and minerals from distant worlds. These materials now
 litter Numeria, and are coveted throughout the world for their strange properties. Unless otherwise

@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "certain_grip", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "225"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
 :::
-
-**Sources:** Ultimate Combat pg 225
 
 The subject's grip and footing become sure, granting a +4 competence bonus on Climb checks, on
 Acrobatics checks to balance, and to CMD against bull rush, drag, reposition, and trip attempts.

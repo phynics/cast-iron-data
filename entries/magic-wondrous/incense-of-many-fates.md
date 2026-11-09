@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "incense_of_many_fates", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "199"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "11th"
 +++
 
-**Sources:** Advanced Race Guide pg 199\
 **Aura** moderate divination; **CL** 11th\
 **Slot** none; **Price** 3,300 gp; **Weight** 1 lb.
 

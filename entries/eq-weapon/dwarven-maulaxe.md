@@ -6,14 +6,18 @@ source_ids = ["adventurers-armory", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dwarven_maulaxe", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "adventurers-armory"
+page = "3"
+[[sources]]
+publication = "pathfinder-campaign-setting"
+page = "209"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "5 lbs."
 +++
-
-**Sources:** Adventurer's Armory pg 3, Pathfinder Campaign Setting pg 209
 
 This versatile weapon looks like a heavy-headed axe, but a proficient wielder can use the blunt back
 of the head to deal bludgeoning damage.

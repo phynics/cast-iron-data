@@ -6,6 +6,9 @@ source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "linnorm_style", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "legacy-of-dragons"
+page = "20"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using this style, you take a -2 penalty to your AC against mele
 +++
 
 ## Linnorm Style (Combat, Style)
-
-**Sources:** Legacy of Dragons pg 20
 
 Your open stance invites opponents to attack you, and like a linnorm's death curse, your retributive
 strikes punish those foolish enough to accept the invitation.\

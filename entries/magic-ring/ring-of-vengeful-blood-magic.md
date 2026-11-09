@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_vengeful_blood_magic", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "220"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "11th"
 +++
 
-**Sources:** Advanced Class Guide pg 220\
 **Aura** moderate abjuration; **CL** 11th\
 **Slot** ring; **Price** 5,400 gp; **Weight** -
 

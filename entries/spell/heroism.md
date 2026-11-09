@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heroism", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "295"
 
 [fields]
 kind = "spell"
@@ -55,8 +58,6 @@ Target: creature touched
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 295
 
 This spell imbues a single creature with great bravery and morale in battle. The target gains a +2
 morale bonus on attack rolls, saves, and skill checks.

@@ -6,6 +6,9 @@ source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rebounding", path = "json/magic_enhancements.json" },
 ]
+[[sources]]
+publication = "magical-marketplace"
+page = "21"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Sources:** Magical Marketplace pg 21\
 **Aura** faint abjuration; **CL** 5th\
 **Slot** shield; **Price** +1 bonus; **Weight** -
 

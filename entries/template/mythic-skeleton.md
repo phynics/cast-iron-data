@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mythic_skeleton", path = "json/monster_template3.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "216"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** Varies
-
-**Source:** Mythic Adventures/216
 
 "Mythic skeleton" is an acquired template that can be added to any creature with the
 [skeleton](ref/template/skeleton) template (referred to hereafter as the base skeleton).

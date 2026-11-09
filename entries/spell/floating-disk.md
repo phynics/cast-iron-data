@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "floating_disk", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "284"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 Effect: 3-ft.-diameter disk of force
 Descriptors: force
 :::
-
-**Sources:** PRPG Core Rulebook pg 284
 
 You create a slightly concave, circular plane of force that follows you about and carries loads for
 you. The disk is 3 feet in diameter and 1 inch deep at its center. It can hold 100 pounds of weight

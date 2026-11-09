@@ -6,6 +6,9 @@ source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lead_by_example", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "heroes-from-the-fringe"
+page = "27"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Whenever you confirm a critical hit in combat, all allies within 30 f
 +++
 
 ## Lead by Example (Combat)
-
-**Sources:** Heroes from the Fringe pg 27
 
 You have been placed in positions of importance since a young age, and others naturally follow your
 example.\

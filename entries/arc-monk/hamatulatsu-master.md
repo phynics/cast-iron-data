@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/monk" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "38"
 
 [fields]
 kind = "archetype"
 replaces = ["Purity of body"]
 +++
 
-**Sources:** Inner Sea Combat pg 38\
 Once part of the Sisterhood of Eiseth, the Sisterhood of the Golden Erinyes is an order of female
 monks dedicated to emulating the painful strikes of the
 [barbed devil](ref/monster/devil-barbed-devil-hamatula), leaving targets alive but permanently

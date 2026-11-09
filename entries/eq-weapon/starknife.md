@@ -6,16 +6,30 @@ source_ids = ["ultimate-equipment", "rise-of-the-runelords-players-guide", "curs
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "starknife", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "18"
+[[sources]]
+publication = "rise-of-the-runelords-players-guide"
+page = "11"
+[[sources]]
+publication = "curse-of-the-crimson-throne-players-guide"
+page = "13"
+[[sources]]
+publication = "pathfinder-campaign-setting"
+page = "209"
+[[sources]]
+publication = "core-rulebook"
+page = "142"
+[[sources]]
+publication = "varisia-birthplace-of-legends"
+page = "14"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "3 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 18, Rise of the Runelords Player's Guide pg 11, Curse of the
-Crimson Throne Player's Guide pg 13, Pathfinder Campaign Setting pg 209, PRPG Core Rulebook pg 142,
-Varisia, Birthplace of Legends pg 14
 
 From a central metal ring, four tapering metal blades extend from this weapon like points on a
 compass rose. By gripping the crossbar that runs through the weapon's open middle, a wielder can

@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swallow_whole", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "300"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Swallow Whole (Ex)
 
-**Sources:** Bestiary 5 pg 300\
 If a creature with this special attack begins its turn with an opponent grappled in its mouth (see
 [Grab](ref/umr/grab)), it can attempt a new combat maneuver check (as though attempting to pin the
 opponent). If it succeeds, it swallows its prey, and the opponent takes bite damage. Unless

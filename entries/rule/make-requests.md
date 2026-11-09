@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "make_requests", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "60"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 60
 
 You can make a request of a creature if its attitude toward you is indifferent or better. Use the DC
 from the table in the Change Attitudes section, with one of the following modifiers. A creature

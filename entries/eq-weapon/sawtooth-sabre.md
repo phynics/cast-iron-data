@@ -6,16 +6,30 @@ source_ids = ["adventurers-guide", "curse-of-the-crimson-throne-players-guide", 
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sawtooth_sabre", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "158"
+[[sources]]
+publication = "curse-of-the-crimson-throne-players-guide"
+page = "13"
+[[sources]]
+publication = "pathfinder-campaign-setting"
+page = "209"
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "290"
+[[sources]]
+publication = "adventurers-armory"
+page = "33"
+[[sources]]
+publication = "ultimate-equipment"
+page = "20"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "2 lb."
 +++
-
-**Sources:** Adventurer's Guide pg 158, Curse of the Crimson Throne Player's Guide pg 13, Pathfinder
-Campaign Setting pg 209, Inner Sea World Guide pg 290, Adventurer's Armory pg 33, Ultimate Equipment
-pg 20
 
 Crafted to evoke the barbed talons of the Mantis God himself, a sawtooth sabre may be used as a
 Martial Weapon (in which case it functions identically to a [longsword](ref/eq-weapon/longsword)).

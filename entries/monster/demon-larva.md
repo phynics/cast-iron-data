@@ -6,6 +6,9 @@ source_ids = ["pathfinder-76-the-midnight-isles"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_larva", path = "json/monsters29.json" },
 ]
+[[sources]]
+publication = "pathfinder-76-the-midnight-isles"
+page = "69"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ abilities = ["11", "10", "13", "10", "11", "10"]
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#76: The Midnight Isles pg 69\
 **Subtype:** Extraplanar
 
 **Experience points:** 400

@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "walrus_walrus_b4", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "271"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ flippers instead of feet._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 4 pg 271\
 **Experience points:** 800
 
 **Armor class:** 17/9/17

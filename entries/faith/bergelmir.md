@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "giants-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bergelmir", path = "json/faiths2.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "324"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Bergelmir**
 
 **Sub:** Mother of Memories
-
-**Sources:** Inner Sea Gods pg 324
 
 ### Details
 

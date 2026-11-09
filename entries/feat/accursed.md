@@ -6,6 +6,9 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "accursed", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "67"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You gain spell resistance equal to 5 + your character level, as the c
 +++
 
 ## Accursed (Story)
-
-**Sources:** Ultimate Campaign pg 67
 
 Your curse weighs down your soul like a millstone around your neck.\
 **Prerequisites:** You must carry a curse that can be lifted only by a quest or similar great

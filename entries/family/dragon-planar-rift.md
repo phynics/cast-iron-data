@@ -6,12 +6,13 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_planar_rift", path = "json/monster_families.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "106"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Bestiary 6 pg 106
 
 Wherever they go, rift dragons leave behind shattered ruins. These scaled terrors often intimidate
 local humanoid groups into worshiping them as demigods of destruction.

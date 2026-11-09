@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jump", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "303"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes
 Target: creature touched
 :::
-
-**Sources:** PRPG Core Rulebook pg 303
 
 The subject gets a +10 enhancement bonus on Acrobatics checks made to attempt high jumps or long
 jumps. The enhancement bonus increases to +20 at caster level 5th, and to +30 (the maximum) at

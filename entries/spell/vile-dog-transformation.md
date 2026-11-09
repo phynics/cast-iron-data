@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vile_dog_transformation", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "130"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Target: one or more dogs touched
 Subschool: Polymorph
 Descriptors: evil
 :::
-
-**Sources:** Horror Adventures pg 130
 
 You transform one or more dogs into evil, monstrous creatures. Each dog can attempt a Will save to
 negate the transformation, but if the dog trusts you (it has been trained by you for a purpose, or

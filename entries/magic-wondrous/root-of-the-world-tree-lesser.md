@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "root_of_the_world_tree_lesser", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "156"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "17th"
 
 ## Root of the World Tree
 
-**Sources:** Mythic Adventures pg 156\
 **Aura** strong conjuration; **CL** 17th\
 **Slot** none; **Price** 300 gp (Lesser), 1,000 gp (Normal), 2,500 gp (Greater); **Weight** -
 

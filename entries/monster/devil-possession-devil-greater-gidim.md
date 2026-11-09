@@ -6,6 +6,9 @@ source_ids = ["pathfinder-29-mother-of-flies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_possession_devil_greater_gidim", path = "json/monsters07.json" },
 ]
+[[sources]]
+publication = "pathfinder-29-mother-of-flies"
+page = "83"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ abilities = ["-", "26", "24", "17", "20", "20"]
 
 **Senses:** Darkvision 60 ft., See in darkness
 
-**Sources:** Pathfinder \#29: Mother of Flies pg 83\
 **Subtype:** Devil, Evil, Extraplanar, Incorporeal, Lawful
 
 **Experience points:** 51,200

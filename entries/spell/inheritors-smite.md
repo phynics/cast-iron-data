@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "pathfinder-26-the-sixfold-trial"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inheritors_smite", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "236"
+[[sources]]
+publication = "pathfinder-26-the-sixfold-trial"
+page = "71"
 
 [fields]
 kind = "spell"
@@ -40,8 +46,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Inner Sea Gods pg 236, Pathfinder \#26: The Sixfold Trial pg 71
 
 You channel the power of righteousness into your weapon arm, allowing you to strike with great
 force. Your next melee attack (if made before the end of your next turn) gains a +5 sacred bonus on

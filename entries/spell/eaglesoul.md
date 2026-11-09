@@ -6,6 +6,9 @@ source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eaglesoul", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "53"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Target: you
 Subschool: Summoning
 Descriptors: good
 :::
-
-**Sources:** Inner Sea Magic pg 53
 
 As the Inner Sea's bravest men and women answered the call of what became the Second Mendevian
 Crusade, constructing the wardstones that eventually kept the brutal chaos of the Worldwound at bay,

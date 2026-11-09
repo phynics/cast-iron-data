@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seps_juvenile_seps", path = "json/monsters21.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "237"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ _This venomous snake is heavily armored and has unusually large fangs._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Bestiary 4 pg 237\
 **Experience points:** 600
 
 **Armor class:** 16/11/15

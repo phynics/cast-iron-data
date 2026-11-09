@@ -6,6 +6,12 @@ source_ids = ["adventurers-guide", "inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "red_stalker_armor", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "159"
+[[sources]]
+publication = "inner-sea-gods"
+page = "253"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint enchantment"
 caster_level = "3rd"
 +++
 
-**Sources:** Adventurer's Guide pg 159, Inner Sea Gods pg 253\
 **Aura** faint enchantment; **CL** 3rd\
 **Slot** armor; **Price** 3,035 gp; **Weight** 15 lbs.
 

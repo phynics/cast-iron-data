@@ -6,6 +6,9 @@ source_ids = ["dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dwarven_veil", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "dwarves-of-golarion"
+page = "22"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: one creature
 :::
-
-**Sources:** Dwarves of Golarion pg 22
 
 > _In order to prepare this spell, the caster must spend an hour performing a ritual in which he
 > beseeches [Torag](ref/faith/torag) (or a member of his family) for the aid of

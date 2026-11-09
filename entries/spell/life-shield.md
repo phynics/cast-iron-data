@@ -6,6 +6,9 @@ source_ids = ["undead-slayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "life_shield", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "undead-slayers-handbook"
+page = "27"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: no
 Target: you
 Subschool: Healing
 :::
-
-**Sources:** Undead Slayer's Handbook pg 27
 
 You surround yourself with a positive energy field that damages undead opponents. Each time an
 undead creature damages you with a melee attack, that creature takes an amount of positive energy

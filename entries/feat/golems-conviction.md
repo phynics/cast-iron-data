@@ -6,14 +6,15 @@ source_ids = ["druma-profit-and-prophecy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golems_conviction", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "druma-profit-and-prophecy"
+page = "19"
 
 [fields]
 kind = "feat"
 prerequisites = "Improved Iron Will, Iron Will, base attack bonus +8."
 prerequisite_feats = ["ref/feat/improved-iron-will", "ref/feat/iron-will"]
 +++
-
-**Sources:** Druma, Profit and Prophecy pg 19
 
 Others whisper that you're little more than a golem obeying orders. They're wrong, but your
 dedication is clear.\

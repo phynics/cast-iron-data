@@ -6,12 +6,14 @@ source_ids = ["occult-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psi_tech", path = "json/class_abilities3.json" },
 ]
+[[sources]]
+publication = "occult-realms"
+page = "12"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Occult Realms pg 12\
 A psychic can learn a psi-tech discovery in place of a phrenic amplification or a feat. Many of
 these discoveries use the rules for [advanced technology](ref/rule/technological-equipment).
 

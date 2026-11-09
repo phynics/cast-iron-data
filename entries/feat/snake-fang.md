@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snake_fang", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "119"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using the Snake Style feat, when an opponent's attack misses yo
 +++
 
 ## Snake Fang (Combat)
-
-**Sources:** Ultimate Combat pg 119
 
 You can unleash attacks against an opponent that has dropped its guard.\
 **Prerequisites:** [Combat Reflexes](ref/feat/combat-reflexes),

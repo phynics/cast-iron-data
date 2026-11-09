@@ -6,6 +6,9 @@ source_ids = ["undead-slayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_of_sunrise", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "undead-slayers-handbook"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "5th"
 +++
 
-**Sources:** Undead Slayer's Handbook pg 29\
 **Aura** moderate evocation; **CL** 5th\
 **Slot** shield; **Price** 7,659 gp; **Weight** 6 lbs.
 

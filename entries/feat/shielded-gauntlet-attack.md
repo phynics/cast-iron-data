@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shielded_gauntlet_attack", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "12"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using Shield Gauntlet Style, you can calculate the damage of yo
 +++
 
 ## Shielded Gauntlet Attack (Combat)
-
-**Sources:** Armor Master's Handbook pg 12
 
 Your gauntlet helps you take advantage of weakness.\
 **Prerequisites:** [Shield Gauntlet Style](ref/feat/shield-gauntlet-style), proficiency with

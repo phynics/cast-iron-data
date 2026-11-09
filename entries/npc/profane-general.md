@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "profane_general", path = "json/npcs8.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "54"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "12"
 
 **Challenge rating:** 12
 
-**Sources:** NPC Codex pg 54\
 **XP** 19,200\
 Human [cleric](ref/class/cleric) of [Gorum](ref/faith/gorum) 13\
 CN Medium humanoid (human)\

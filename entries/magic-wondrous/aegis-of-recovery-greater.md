@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "rival-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aegis_of_recovery_greater", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "254"
+[[sources]]
+publication = "rival-guide"
+page = "5"
 
 [fields]
 kind = "item"
@@ -19,7 +25,6 @@ caster_level = "3rd (normal), 9th (greater)"
 
 ## Aegis of Recovery
 
-**Sources:** Ultimate Equipment pg 254, Rival Guide pg 5\
 **Aura** faint (normal) or moderate (greater) abjuration and conjuration; **CL** 3rd (normal), 9th
 (greater)\
 **Slot** neck; **Price** 1,500 gp (normal), 3,750 gp (greater); **Weight** -

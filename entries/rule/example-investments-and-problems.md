@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "example_investments_and_problems", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "165"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 165
 
 The list of investments provided is not meant to be exhaustive; NPC ingenuity could open up all
 sorts of investments. Some research on medieval and Renaissance technology reveals many ideas the

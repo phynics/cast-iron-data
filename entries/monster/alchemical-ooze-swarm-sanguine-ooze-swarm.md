@@ -6,6 +6,9 @@ source_ids = ["pathfinder-43-haunting-of-harrowstone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alchemical_ooze_swarm_sanguine_ooze_swarm", path = "json/monsters01.json" },
 ]
+[[sources]]
+publication = "pathfinder-43-haunting-of-harrowstone"
+page = "78"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ other and separating in a riot of oozing momentum._
 
 **Perception:** -5
 
-**Sources:** Pathfinder \#43: Haunting of Harrowstone pg 78\
 **Subtype:** Swarm
 
 **Size:** tiny

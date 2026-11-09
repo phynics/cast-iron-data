@@ -6,14 +6,15 @@ source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "barbed_spear", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "giant-hunters-handbook"
+page = "24"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "10 lbs."
 +++
-
-**Sources:** Giant Hunter's Handbook pg 24
 
 A barbed spear is a 10-foot-long polearm with a four-pronged head similar to a caltrop. The head is
 connected to the pole by a single weak bolt, giving the weapon the fragile condition. When you use a

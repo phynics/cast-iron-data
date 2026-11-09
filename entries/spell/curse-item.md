@@ -6,6 +6,9 @@ source_ids = ["pathfinder-64-beyond-the-doomsday-door"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "curse_item", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "pathfinder-64-beyond-the-doomsday-door"
+page = "73"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: yes (object)
 Target: object touched
 Descriptors: curse
 :::
-
-**Sources:** Pathfinder \#64: Beyond the Doomsday Door pg 73
 
 > _Clerics of [Groetus](ref/faith/groetus) have access to the following spell._
 

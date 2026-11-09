@@ -6,6 +6,9 @@ source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "furious_fire_barrage", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "agents-of-evil"
+page = "31"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes
 Effect: see text
 Descriptors: fire
 :::
-
-**Sources:** Agents of Evil pg 31
 
 Upon casting this spell, you conjure forth one or two balls of flame, each resting in a free hand.
 As part of casting this spell or as a standard action, you can throw one flame ball a maximum of 300

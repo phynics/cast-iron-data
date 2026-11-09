@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thundering_infusion", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "22"
 
 [fields]
 kind = "class_option"
@@ -24,8 +27,6 @@ group = "kineticist-wild-talent"
 [Thunderstorm Blast](ref/kinetic/thunderstorm-blast)
 
 **Saving throw:** Fortitude negates
-
-**Source:** Occult Adventures/22
 
 Your lightning brings with it a peal of thunder.
 

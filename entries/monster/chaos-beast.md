@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chaos_beast", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "54"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ itself and reshaping into new forms._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 2 pg 54\
 **Subtype:** Chaotic, Extraplanar
 
 **Experience points:** 3,200

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "18"
 
 [fields]
 kind = "archetype"
 replaces = ["Bombs", "Poison resistance +6", "poison immunity"]
 +++
 
-**Sources:** Ultimate Magic pg 18\
 Clone masters practice duplicating existing creatures in order to better understand how to create
 new life. A clone master has the following class features.
 

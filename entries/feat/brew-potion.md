@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brew_potion", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "119"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can create a potion of any 3rd-level or lower spell that you know
 +++
 
 ## Brew Potion (Item Creation)
-
-**Sources:** PRPG Core Rulebook pg 119
 
 You can create magic potions.\
 **Prerequisites:** Caster level 3rd.\

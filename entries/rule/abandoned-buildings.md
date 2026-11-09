@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "abandoned_buildings", path = "json/rules_campaign_types05.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "228"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 228
 
 If a building requires another to be adjacent (such as how a Tavern must be adjacent to a House or
 Mansion), and that required building is demolished or destroyed, the GM may decide that the

@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clockwork_clockwork_guardian", path = "json/monsters05.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "61"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ large shield-like sheet of metal._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 6 pg 61\
 **Subtype:** Clockwork
 
 **Experience points:** 4,800

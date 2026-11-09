@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bard", path = "json/monster_template1.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "246"
 
 [fields]
 kind = "none"
@@ -18,8 +21,6 @@ kind = "none"
 **Challenge rating:** +1 or +2
 
 **Simple:** present
-
-**Source:** Monster Codex/246
 
 Capable of inspiring its companions to accomplish great things, a [bard](ref/class/bard) creature is
 most effective when surrounded by allies. It also gains some limited spellcasting. A bard creature's

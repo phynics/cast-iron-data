@@ -6,6 +6,12 @@ source_ids = ["bestiary-6", "pathfinder-97-in-hells-bright-shadow"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_raven", path = "json/monsters11.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "240"
+[[sources]]
+publication = "pathfinder-97-in-hells-bright-shadow"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ to take in everything around it._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 6 pg 240, Pathfinder \#97: In Hell's Bright Shadow pg 82\
 **Experience points:** 400
 
 **Armor class:** 13/12/11

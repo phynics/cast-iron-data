@@ -6,6 +6,12 @@ source_ids = ["bestiary-2", "pathfinder-14-children-of-the-void"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "akata", path = "json/monsters01.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "22"
+[[sources]]
+publication = "pathfinder-14-children-of-the-void"
+page = "80"
 
 [fields]
 kind = "creature"
@@ -41,7 +47,6 @@ where its mane should be._
 
 **Senses:** Darkvision 120 ft., Scent
 
-**Sources:** Bestiary 2 pg 22, Pathfinder \#14: Children of the Void pg 80\
 **Experience points:** 400
 
 **Armor class:** 13/12/11

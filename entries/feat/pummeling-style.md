@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pummeling_style", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "154"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever you use a full-attack action or flurry of blows to make mult
 +++
 
 ## Pummeling Style (Combat, Style)
-
-**Sources:** Advanced Class Guide pg 154
 
 Your unarmed strikes weave together in an effortless combo, focusing on the spots you've weakened
 with the last hit.\

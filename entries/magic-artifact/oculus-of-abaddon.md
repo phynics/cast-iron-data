@@ -6,6 +6,9 @@ source_ids = ["pathfinder-33-the-varnhold-vanishing"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oculus_of_abaddon", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "pathfinder-33-the-varnhold-vanishing"
+page = "52"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "overwhelming conjuration, divination, and necromancy"
 caster_level = "20th"
 +++
 
-**Sources:** Pathfinder \#33: The Varnhold Vanishing pg 52\
 **Aura** overwhelming conjuration, divination, and necromancy; **CL** 20th\
 **Slot** eye; **Price** -; **Weight** 1 lb.
 

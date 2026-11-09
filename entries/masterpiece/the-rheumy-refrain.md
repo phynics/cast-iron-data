@@ -6,6 +6,8 @@ source_ids = ["blood-of-fiends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_rheumy_refrain", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "blood-of-fiends"
 
 [fields]
 kind = "class_option"
@@ -13,8 +15,6 @@ group = "bardic-masterpiece"
 +++
 
 ## The Rheumy Refrain (Sing)
-
-**Sources:** Blood of Fiends
 
 Your strange melody of hacking gasps and pained wheezes draws upon the dark powers of Abaddon to
 fill a witness with debilitating and distracting phlegm.

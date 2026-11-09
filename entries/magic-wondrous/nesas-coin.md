@@ -6,6 +6,9 @@ source_ids = ["gnomes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nesas_coin", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "gnomes-of-golarion"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "weak divination"
 caster_level = "1st"
 +++
 
-**Sources:** Gnomes of Golarion pg 29\
 **Aura** weak divination; **CL** 1st\
 **Slot** none; **Price** 450 gp; **Weight** -
 

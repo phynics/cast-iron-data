@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "holy_battle_mage", path = "json/npcs6.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "231"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "19"
 
 **Challenge rating:** 19
 
-**Sources:** NPC Codex pg 231\
 **XP** 204,800\
 Dwarf [cleric](ref/class/cleric) of [Torag](ref/faith/torag) 5/[wizard](ref/class/wizard) 5/mystic
 theurge 10\

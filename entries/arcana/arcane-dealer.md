@@ -6,13 +6,14 @@ source_ids = ["the-harrow-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcane_dealer", path = "json/class_ability_magus_arcana.json" },
 ]
+[[sources]]
+publication = "the-harrow-handbook"
+page = "24"
 
 [fields]
 kind = "class_option"
 group = "magus-arcana"
 +++
-
-**Sources:** The Harrow Handbook pg 24
 
 **Arcane Dealer (Su):**
 

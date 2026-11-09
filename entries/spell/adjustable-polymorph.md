@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/alter-self" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "172"
 
 [fields]
 kind = "spell"
@@ -55,8 +58,6 @@ Spell resistance: no
 Target: you
 Subschool: Polymorph
 :::
-
-**Sources:** Advanced Class Guide pg 172
 
 This spell functions as [alter self](ref/spell/alter-self), except you can as a swift action alter
 the disguise (within the limitations of alter self). For example, you could transform yourself into

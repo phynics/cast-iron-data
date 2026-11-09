@@ -6,6 +6,9 @@ source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "broadside_bulwark", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "50"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Sources:** Inner Sea Combat pg 50\
 **Aura** moderate evocation; **CL** 10th\
 **Slot** shield; **Price** 19,007 gp; **Weight** 10 lbs.
 

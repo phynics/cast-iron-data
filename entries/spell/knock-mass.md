@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/knock" },
 ]
+[[sources]]
+publication = "inner-sea-temples"
+page = "23"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Spell resistance: no
 :::
 
 ### Mass Knock
-
-**Sources:** Inner Sea Temples pg 23
 
 Also known as "unshackle," this spell functions as [knock](ref/spell/knock), but works on multiple
 means of closure at once.

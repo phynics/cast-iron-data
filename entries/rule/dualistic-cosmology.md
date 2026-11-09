@@ -6,12 +6,13 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dualistic_cosmology", path = "json/rules_campaign_types09.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "87"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Planar Adventures pg 87
 
 Not every belief system contains a multitude of gods. Some involve only a pair of diametrically
 opposed divine rivals, both competing for worshipers' souls to either reward or punish. In this

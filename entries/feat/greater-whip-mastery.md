@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_whip_mastery", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "103"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You are so quick with your whip that you never drop it due to a faile
 +++
 
 ## Greater Whip Mastery (Combat)
-
-**Sources:** Ultimate Combat pg 103
 
 You can use a whip to make combat maneuvers with ease.\
 **Prerequisites:** [Improved Whip Mastery](ref/feat/improved-whip-mastery),

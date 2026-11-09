@@ -6,6 +6,9 @@ source_ids = ["pathfinder-106-for-queen-and-empire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_blood_calling", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "pathfinder-106-for-queen-and-empire"
+page = "18"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "11th"
 +++
 
-**Sources:** Pathfinder \#106: For Queen and Empire pg 18\
 **Aura** moderate conjuration; **CL** 11th\
 **Slot** ring; **Price** 12,000 gp; **Weight** -
 

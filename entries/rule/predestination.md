@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "predestination", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "68"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 68
 
 The simplest way to view alignment is as nine literal personalities. If a character is lawful good,
 he always obeys the law and always does the "right" thing, while a chaotic evil character always

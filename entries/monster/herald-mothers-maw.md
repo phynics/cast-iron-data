@@ -6,6 +6,9 @@ source_ids = ["pathfinder-47-ashes-at-dawn"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "herald_mothers_maw", path = "json/monsters_unique2.json" },
 ]
+[[sources]]
+publication = "pathfinder-47-ashes-at-dawn"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ of rotting meat, spice, and perfume._
 
 **Senses:** Darkvision 60 ft., Scent
 
-**Sources:** Pathfinder \#47: Ashes at Dawn pg 82\
 **Subtype:** Evil, Extraplanar
 
 **Type:** undead

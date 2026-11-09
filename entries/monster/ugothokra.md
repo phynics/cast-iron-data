@@ -6,6 +6,9 @@ source_ids = ["pathfinder-88-valley-of-the-brain-collectors"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ugothokra", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "pathfinder-88-valley-of-the-brain-collectors"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ crystalline eye glares from its hideous face._
 
 **Size:** small
 
-**Sources:** Pathfinder \#88: Valley of the Brain Collectors pg 88\
 **Experience points:** 3,200
 
 **Armor class:** 20/17/14

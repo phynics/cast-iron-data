@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "springal_rocket", path = "json/equipment_siege_engines.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "163"
 
 [fields]
 kind = "item"
@@ -14,8 +17,6 @@ weight = "-"
 +++
 
 ## Springal, arrow
-
-**Sources:** Ultimate Combat pg 163
 
 A springal uses a torsion-cranked composite paddle to strike a firing rack containing multiple
 arrows or black-powder-propelled rockets, which rain down in an arc over a [burst](ref/misc/burst)

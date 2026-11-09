@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lorcan", path = "json/faiths5.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "326"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Lorcan**
 
 **Sub:** The Red Reply
-
-**Sources:** Inner Sea Gods pg 326
 
 ### Details
 

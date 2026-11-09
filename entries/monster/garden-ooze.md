@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "garden_ooze", path = "json/monsters11.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "122"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ independently from its sickly host._
 
 **Size:** small
 
-**Sources:** Bestiary 3 pg 122\
 **Experience points:** 600
 
 **Armor class:** 14/14/11

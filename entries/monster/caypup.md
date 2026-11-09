@@ -6,6 +6,9 @@ source_ids = ["familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "caypup", path = "json/monsters04.json" },
 ]
+[[sources]]
+publication = "familiar-folio"
+page = "29"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ _This large, regal canine looks like a juvenile mastiff. It has red fur and vibr
 
 **Size:** small
 
-**Sources:** Familiar Folio pg 29\
 **Subtype:** Native
 
 **Experience points:** 600

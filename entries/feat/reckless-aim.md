@@ -6,6 +6,9 @@ source_ids = ["blood-of-fiends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reckless_aim", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "blood-of-fiends"
+page = "25"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you shoot or throw ranged weapons at an opponent engaged in mele
 +++
 
 ## Reckless Aim (Combat)
-
-**Sources:** Blood of Fiends pg 25
 
 Your lack of regard for others proves a boon when you fire projectiles into melee.\
 **Prerequisites:** [Point-Blank Shot](ref/feat/point-blank-shot),

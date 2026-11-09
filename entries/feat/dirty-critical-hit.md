@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dirty_critical_hit", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "14"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "You can apply the effects of only one critical feat to a given critic
 +++
 
 ## Dirty Critical Hit (Combat, Critical)
-
-**Sources:** Dirty Tactics Toolbox pg 14
 
 Your blows are not only deadly, but debilitating as well.\
 **Prerequisites:** Int 13, [Combat Expertise](ref/feat/combat-expertise),

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summoner_slayer_eyes", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "63"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "7th"
 +++
 
-**Sources:** Inner Sea Combat pg 63\
 **Aura** moderate abjuration; **CL** 7th\
 **Slot** eyes; **Price** 11,000 gp; **Weight** 1 lb.
 

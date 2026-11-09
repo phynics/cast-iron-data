@@ -6,14 +6,15 @@ source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stonebow", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "19"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "4 lbs."
 +++
-
-**Sources:** Ranged Tactics Toolbox pg 19
 
 A stonebow, or bullet crossbow, resembles a light crossbow except for the distinct U-shaped bend in
 the stock. Instead of bolts, the stonebow shoots [sling bullets](ref/eq-weapon/sling-bullets). The

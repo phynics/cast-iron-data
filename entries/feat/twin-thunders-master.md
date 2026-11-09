@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "twin_thunders_master", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "123"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever you deal an opponent extra damage with the Twin Thunders fea
 +++
 
 ## Twin Thunders Master (Combat)
-
-**Sources:** Ultimate Combat pg 123
 
 With thunderous simultaneous strikes, you can batter a mighty giant into submission.\
 **Prerequisites:** [Dwarf](ref/race/dwarf) or [gnome](ref/race/gnome); defensive training racial

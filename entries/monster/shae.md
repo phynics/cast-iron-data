@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shae", path = "json/monsters38.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "242"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ body._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 3 pg 242\
 **Subtype:** Extraplanar
 
 **Experience points:** 1,200

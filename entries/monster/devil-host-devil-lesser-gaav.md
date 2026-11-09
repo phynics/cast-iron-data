@@ -6,6 +6,9 @@ source_ids = ["book-of-the-damned-volume-1-princes-of-darkness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_host_devil_lesser_gaav", path = "json/monsters07.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned-volume-1-princes-of-darkness"
+page = "58"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ clawed arms work together to slash the air with a vicious-looking spear._
 
 **Size:** small
 
-**Sources:** Book of the Damned - Volume 1: Princes of Darkness pg 58\
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **Experience points:** 800

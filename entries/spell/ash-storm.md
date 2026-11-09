@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ash_storm", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "207"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Area: cylinder (40-ft. radius, 20 ft. high)
 Subschool: Creation
 Descriptors: fire
 :::
-
-**Sources:** Ultimate Magic pg 207
 
 Driving ash blocks all sight (even [darkvision](ref/rule/darkvision)) within the spell's area of
 effect, and falling cinders cause the ground in the area to become difficult terrain.

@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "virulent", path = "json/magic_enhancements2.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "177"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint necromancy"
 caster_level = "5th"
 +++
 
-**Sources:** Monster Codex pg 177\
 **Aura** faint necromancy; **CL** 5th\
 **Slot** none; **Price** +1 bonus; **Weight** -
 

@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "forbid_action", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "220"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: language-dependant, mind-affecting
 :::
-
-**Sources:** Ultimate Magic pg 220
 
 You forbid the target a single course of action, which it avoids to the best of its ability. You may
 demand the target not take actions that fall into one of the following options.

@@ -6,13 +6,23 @@ source_ids = ["blood-of-the-sea", "inner-sea-races", "advanced-race-guide", "bes
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "merfolk", path = "json/races2.json" },
 ]
+[[sources]]
+publication = "blood-of-the-sea"
+page = "12"
+[[sources]]
+publication = "inner-sea-races"
+page = "246"
+[[sources]]
+publication = "advanced-race-guide"
+page = "194"
+[[sources]]
+publication = "bestiary"
+page = "204"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Blood of the Sea pg 12, Inner Sea Races pg 246, Advanced Race Guide pg 194, Pathfinder
-RPG Bestiary pg 204\
 Merfolk are among the best known and yet the least understood of the aquatic races. Folklore is
 filled with stories of merfolk: legends of beautiful merfolk falling in love with humans, or ship
 crews saved from storms by friendly bands of the creatures. Among land dwellers, merfolk are

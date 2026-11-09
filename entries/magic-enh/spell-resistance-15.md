@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_resistance_15", path = "json/magic_enhancements.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "122"
+[[sources]]
+publication = "core-rulebook"
+page = "463"
 
 [fields]
 kind = "item"
@@ -19,7 +25,6 @@ caster_level = "15th"
 
 ## Spell Resistance
 
-**Sources:** Ultimate Equipment pg 122, PRPG Core Rulebook pg 463\
 **Aura** strong abjuration; **CL** 15th\
 **Slot** armor/shield quality; **Price** 13 (+2 bonus), 15 (+3 bonus), 17 (+4 bonus), 19 (+5 bonus);
 **Weight** -

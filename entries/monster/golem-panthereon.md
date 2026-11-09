@@ -6,6 +6,9 @@ source_ids = ["pathfinder-82-secrets-of-the-sphinx"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_panthereon", path = "json/monsters33.json" },
 ]
+[[sources]]
+publication = "pathfinder-82-secrets-of-the-sphinx"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ of a feline predator._
 
 **Senses:** Darkvision 60 ft., Low-light vision, True seeing
 
-**Sources:** Pathfinder \#82: Secrets of the Sphinx pg 88\
 **Experience points:** 12,800
 
 **Armor class:** 24/8/24

@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reactive_touchsight", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "28"
 
 [fields]
 kind = "class_option"
@@ -23,8 +26,6 @@ group = "kineticist-wild-talent"
 **Burn:** 0
 
 **Prerequisite:** [touchsight](ref/kinetic/touchsight)
-
-**Source:** Occult Adventures/28
 
 Your strands of aether surround you, making it virtually impossible for a violent motion to catch
 you off guard, so long as the motion originates within their range. You are never denied your

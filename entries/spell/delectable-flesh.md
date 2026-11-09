@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "delectable_flesh", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "19"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Targets: all creatures in a 15-foot-radius burst centered on a single living cre
 Subschool: Polymorph
 Descriptors: mind-affecting
 :::
-
-**Sources:** Ultimate Wilderness pg 19
 
 > _[Ghorans](ref/race/ghoran) have access to the following spell._
 

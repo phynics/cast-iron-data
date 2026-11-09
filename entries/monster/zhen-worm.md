@@ -6,6 +6,9 @@ source_ids = ["numeria-land-of-fallen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "zhen_worm", path = "json/monsters41.json" },
 ]
+[[sources]]
+publication = "numeria-land-of-fallen-stars"
+page = "63"
 
 [fields]
 kind = "creature"
@@ -37,7 +40,6 @@ _Barely thicker than hempen rope, this orange-banded worm stretches many feet in
 
 **Perception:** +0
 
-**Sources:** Numeria, Land of Fallen Stars pg 63\
 **tremorsense:** 60
 
 **Type:** vermin

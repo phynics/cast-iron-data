@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "betrayal_sense", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "75"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You gain a bonus on Perception checks to pierce another creature's di
 +++
 
 ## Betrayal Sense (Combat)
-
-**Sources:** Ultimate Intrigue pg 75
 
 You can sense betrayal and intrigue as well as physical traps.\
 **Prerequisites:** Wis 13, rogue level 3rd, [trap sense](ref/ability/trap-sense) class feature.\

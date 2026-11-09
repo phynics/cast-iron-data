@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/slayer" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "120"
 
 [fields]
 kind = "archetype"
 replaces = ["Track"]
 +++
 
-**Sources:** Advanced Class Guide pg 120\
 Whether it's with a bullet from a sling, a quarrel from a crossbow, or even an expertly thrown
 dagger, the sniper ensures that a single shot disables his targets.
 

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "defining_a_setting", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "140"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 140
 
 When beginning work on a setting, it's useful to start with a concise description of your idea - a
 mission statement of sorts. Try to keep to the essentials. If the setting is derivative of something

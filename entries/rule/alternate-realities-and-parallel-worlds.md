@@ -6,12 +6,13 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alternate_realities_and_parallel_worlds", path = "json/rules_campaign_types09.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "87"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Planar Adventures pg 87
 
 The universe is a brilliant and multifaceted jewel, with each angle and cut offering a different
 reflection of existence. Many of the countless faces may look similar, but each is fundamentally

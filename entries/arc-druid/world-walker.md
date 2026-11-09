@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "43"
 
 [fields]
 kind = "archetype"
 replaces = ["Trackless step", "resist nature's lure", "Venom immunity", "timeless body"]
 +++
 
-**Sources:** Ultimate Combat pg 43\
 While all druids traverse the wilderness with ease, the world walkers take it upon themselves to
 travel the entire world. Some act as messengers and scouts for druidic circles, while others have a
 seemingly unquenchable wanderlust; each new land provides new mysteries to discover and new wisdom

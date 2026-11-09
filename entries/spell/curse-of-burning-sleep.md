@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "curse_of_burning_sleep", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "179"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: curse, fire
 :::
-
-**Sources:** Advanced Class Guide pg 179
 
 You place a curse upon the target that triggers 1 hour after the next time it falls asleep. When the
 curse is triggered, the creature bursts into flame, taking 1d6 points of fire damage per 2 caster

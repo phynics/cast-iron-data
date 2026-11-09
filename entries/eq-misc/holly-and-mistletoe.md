@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "holly_and_mistletoe", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "158"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "0 gp"
 weight = "-"
 +++
 
-**Sources:** PRPG Core Rulebook pg 158\
 **Price** 0 gp; **Weight** -\
 **Category** Tools
 

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cavalier" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "117"
 
 [fields]
 kind = "archetype"
 replaces = ["Mount", "Tactician", "greater tactician", "master tactician", "Cavalier's charge", "Expert trainer", "banner", "Mighty charge", "greater banner"]
 +++
 
-**Sources:** Occult Adventures pg 117\
 Ghost riders are conflicted warriors who use the powers of the phantasmal dead even while seeking
 out and banishing the corruption of undeath from plagued communities. Their strange abilities mark
 them as outsiders and stoic loners, and they stay in one place only long enough to help the

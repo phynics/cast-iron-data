@@ -6,6 +6,9 @@ source_ids = ["taldor-echoes-of-glory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enhanced_diplomacy", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "taldor-echoes-of-glory"
+page = "24"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
 :::
-
-**Sources:** Taldor, Echoes of Glory pg 24
 
 You imbue the subject with divine diplomacy skills. The creature gets a +2 competence bonus on a
 single Diplomacy or Intimidate check. It must choose to use the bonus before making the roll to

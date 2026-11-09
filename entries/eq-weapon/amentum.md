@@ -6,14 +6,21 @@ source_ids = ["ranged-tactics-toolbox", "ultimate-combat", "ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "amentum", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "0"
+[[sources]]
+publication = "ultimate-combat"
+page = "144"
+[[sources]]
+publication = "ultimate-equipment"
+page = "19"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "1 lb."
 +++
-
-**Sources:** Ranged Tactics Toolbox pg 0, Ultimate Combat pg 144, Ultimate Equipment pg 19
 
 An amentum is a long leather thong that attaches to a standard [javelin](ref/eq-weapon/javelin).
 Before throwing, the amentum is wound about the javelin's shaft. You then throw the javelin while

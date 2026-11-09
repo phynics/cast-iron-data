@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cleric" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "16"
 
 [fields]
 kind = "archetype"
 alters = ["Domains"]
 +++
 
-**Sources:** Dirty Tactics Toolbox pg 16\
 For the faithful of [Asmodeus](ref/faith/asmodeus), the words used in a negotiation or contract
 matter more than their intent. The word of the law is to be respected, but loopholes and vague
 wording are part of every law. Asmodean advocates are master wordsmiths who ally themselves with

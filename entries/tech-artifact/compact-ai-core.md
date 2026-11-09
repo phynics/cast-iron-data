@@ -6,6 +6,9 @@ source_ids = ["pathfinder-88-valley-of-the-brain-collectors"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "compact_ai_core", path = "json/equipment_tech_artifacts.json" },
 ]
+[[sources]]
+publication = "pathfinder-88-valley-of-the-brain-collectors"
+page = "62"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ weight = "8 lbs."
 slot = "none"
 +++
 
-**Sources:** Pathfinder \#88: Valley of the Brain Collectors pg 62\
 **Slot** none; **Weight** 8 lbs.\
 **Capacity** 240; **Usage** 1/hour
 

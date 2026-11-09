@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "severed_fate", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "324"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: Will negates
 Spell resistance: yes
 Target: one living creature
 :::
-
-**Sources:** Advanced Player's Guide pg 324
 
 You curse the target, preventing it from drawing upon the powers of destiny. The target is shaken
 and cannot use hero points for the duration of the spell. This effect can be removed by

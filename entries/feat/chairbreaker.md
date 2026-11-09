@@ -6,6 +6,9 @@ source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chairbreaker", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "champions-of-corruption"
+page = "23"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you attack a target with an improvised weapon, you can give that
 +++
 
 ## Chairbreaker (Combat)
-
-**Sources:** Champions of Corruption pg 23
 
 You deal more damage by breaking nearby objects against your enemies.\
 **Prerequisites:** [Catch Off-Guard](ref/feat/catch-off-guard), base attack bonus +1.\

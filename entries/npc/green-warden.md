@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "green_warden", path = "json/npcs8.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "200"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "8"
 
 **Challenge rating:** 8
 
-**Sources:** NPC Codex pg 200\
 **XP** 4,800\
 Elf [fighter](ref/class/fighter) 5/conjurer 2/arcane archer 2\
 N Medium humanoid (elf)\

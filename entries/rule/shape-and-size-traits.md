@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shape_and_size_traits", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "185"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 185
 
 Planes come in a variety of sizes and shapes. Most planes are infinite, or at least so large that
 they may as well be infinite.

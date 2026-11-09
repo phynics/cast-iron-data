@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heroes_feast", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "295"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 Effect: feast for one creature/level
 Subschool: Creation
 :::
-
-**Sources:** PRPG Core Rulebook pg 295
 
 You bring forth a great feast, including a magnificent table, chairs, service, and food and drink.
 The feast takes 1 hour to consume, and the beneficial effects do not set in until this hour is over.

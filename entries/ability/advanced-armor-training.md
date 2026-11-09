@@ -6,12 +6,14 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "advanced_armor_training", path = "json/class_abilities.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "14-15"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Armor Master's Handbook pg. 14-15\
 Highly skilled and tenacious fighters can gain _advanced armor training,_ learning techniques and
 applications of the _armor training_ class feature that give them special benefits in exchange for
 reducing their ability to mitigate their armor's armor check penalty and improve its maximum

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-137-the-city-outside-of-time"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mirror_of_sorshen", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "pathfinder-137-the-city-outside-of-time"
+page = "69"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "overwhelming enchantment"
 caster_level = "25th"
 +++
 
-**Sources:** Pathfinder \#137: The City Outside of Time pg 69\
 **Aura** overwhelming enchantment; **CL** 25th\
 **Slot** none; **Price** -; **Weight** 2 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "speak_with_animals", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "346"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** PRPG Core Rulebook pg 346
 
 You can ask questions of and receive answers from animals, but the spell doesn't make them any more
 friendly than normal. Wary and cunning animals are likely to be terse and evasive, while the more

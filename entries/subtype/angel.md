@@ -6,14 +6,22 @@ source_ids = ["bestiary-6", "bestiary", "bestiary-2", "bestiary-4", "bestiary-5"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "angel", path = "json/monster_subtypes.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+[[sources]]
+publication = "bestiary"
+[[sources]]
+publication = "bestiary-2"
+[[sources]]
+publication = "bestiary-4"
+[[sources]]
+publication = "bestiary-5"
 
 [fields]
 kind = "none"
 +++
 
 ## Subtype: Angel
-
-**Sources:** Bestiary 6, Pathfinder RPG Bestiary, Bestiary 2, Bestiary 4, Bestiary 5
 
 [Angels](ref/family/angel) are a race of good outsiders native to the good-aligned Outer Planes. An
 angel has the following traits (unless otherwise noted in a creature's entry).

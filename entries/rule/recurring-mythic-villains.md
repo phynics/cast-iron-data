@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "recurring_mythic_villains", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "133"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 133
 
 Recurring villains are a staple of fantasy fiction and with a little careful planning you can make
 your mythic villains memorable opponents your players to remember and talk about for years to come.

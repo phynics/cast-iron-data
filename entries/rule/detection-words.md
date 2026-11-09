@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "detection_words", path = "json/rules_opt_magic03.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "174"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 174
 
 Detection words are used to learn things that simple observation cannot. They reveal secrets and
 uncover hidden things. Detection words are special in that they can be combined with other words

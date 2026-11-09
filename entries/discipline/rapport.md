@@ -6,13 +6,15 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rapport", path = "json/class_ability_disciplines.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "68"
 
 [fields]
 kind = "class_option"
 group = "psychic-discipline"
 +++
 
-**Sources:** Occult Adventures pg 68\
 Forging a close bond with other people brings out the best in you, making it easier for you to link
 your mind with theirs. Through bonding your psyche with another person, you're able to fill in your
 own mental gaps and develop new psychic powers.

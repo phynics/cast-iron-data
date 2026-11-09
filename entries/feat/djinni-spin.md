@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "djinni_spin", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "97"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using Djinni Style, as a standard action you can spend two Elem
 +++
 
 ## Djinni Spin (Combat)
-
-**Sources:** Ultimate Combat pg 97
 
 You can surround yourself with the power of the storm, spinning like a hurricane to unleash a
 violent blast of electrical energy.\

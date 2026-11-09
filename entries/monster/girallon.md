@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "girallon", path = "json/monsters12.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "154"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ to its full, towering height._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 154\
 **Experience points:** 2,400
 
 **Armor class:** 18/12/15

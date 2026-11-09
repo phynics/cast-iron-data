@@ -6,6 +6,9 @@ source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "life_current", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
+page = "60"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Area: current or portion of current
 Subschool: Healing
 Descriptors: water
 :::
-
-**Sources:** Aquatic Adventures pg 60
 
 You infuse the current with positive energy. At the start of their turn when the current moves them,
 living creatures in the current's area heal 1d6 hit points per 10 feet of the current's speed

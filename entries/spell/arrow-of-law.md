@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arrow_of_law", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "207"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: yes
 Effect: arrow-shaped projectile of lawful energy
 Descriptors: lawful
 :::
-
-**Sources:** Ultimate Magic pg 207
 
 You fire a shimmering arrow of pure order from your holy symbol at any one target in range as a
 ranged touch attack. A chaotic creature struck by an arrow of law takes 1d8 points of damage per two

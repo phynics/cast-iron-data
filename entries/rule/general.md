@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "general", path = "json/rules_campaign_types04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "202"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 202
 
 The General is the highest-ranking member of the kingdom's military. If the kingdom has an army and
 a navy, the heads of those organizations report to the kingdom's General. The General is responsible

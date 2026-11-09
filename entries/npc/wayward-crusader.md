@@ -6,6 +6,9 @@ source_ids = ["numeria-land-of-fallen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wayward_crusader", path = "json/npcs5.json" },
 ]
+[[sources]]
+publication = "numeria-land-of-fallen-stars"
+page = "62"
 
 [fields]
 kind = "creature"
@@ -19,7 +22,6 @@ shield._
 
 **Challenge rating:** 4
 
-**Sources:** Numeria, Land of Fallen Stars pg 62\
 **XP** 1,200\
 Human [paladin](ref/class/paladin) of [Iomedae](ref/faith/iomedae) 5\
 LG Medium humanoid (human)\

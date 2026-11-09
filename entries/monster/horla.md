@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horla", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "158"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ against the skin._
 
 **Size:** small
 
-**Sources:** Bestiary 6 pg 158\
 **Subtype:** Extraplanar
 
 **Experience points:** 4,800

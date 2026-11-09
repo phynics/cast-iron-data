@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "android", path = "json/monsters26.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "19"
+[[sources]]
+publication = "inner-sea-bestiary"
+page = "3"
 
 [fields]
 kind = "creature"
@@ -45,7 +51,6 @@ blue tattoos._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 5 pg 19, Inner Sea Bestiary pg 3\
 **Subtype:** Android
 
 **Experience points:** 400

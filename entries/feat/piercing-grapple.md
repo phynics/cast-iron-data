@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "piercing_grapple", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "88"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You can draw a light or one-handed piercing weapon and stab your oppo
 +++
 
 ## Piercing Grapple (Combat)
-
-**Sources:** Ultimate Intrigue pg 88
 
 You can use small but deadly weapons to restrain a foe, forcing it to choose between pain and
 capitulation.\

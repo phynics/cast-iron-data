@@ -6,6 +6,9 @@ source_ids = ["fey-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fyndylsnitch_the_shadowking", path = "json/monsters_unique4.json" },
 ]
+[[sources]]
+publication = "fey-revisited"
+page = "20"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ delight._
 
 **Size:** small
 
-**Sources:** Fey Revisited pg 20\
 **Experience points:** 3,200
 
 **Armor class:** 16/15/12

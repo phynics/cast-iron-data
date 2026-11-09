@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "murderers_circle", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "111"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you spend a swift action to make a performance combat check afte
 +++
 
 ## Murderer's Circle (Combat, Performance)
-
-**Sources:** Ultimate Combat pg 111
 
 After savaging your foe, you circle like a hunter ready for the kill.\
 **Prerequisites:** [Dodge](ref/feat/dodge), Acrobatics 4 ranks.\

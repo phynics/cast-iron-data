@@ -6,6 +6,12 @@ source_ids = ["ultimate-combat", "chronicle-of-legends", "advanced-players-guide
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "samurai", path = "json/classes6.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "18"
+[[sources]]
+publication = "chronicle-of-legends"
+page = "4"
 
 [fields]
 kind = "class"
@@ -13,8 +19,6 @@ class_type = "alternate"
 hit_die = "d10"
 skill_ranks = "4 + Int modifier"
 +++
-
-**Sources:** Ultimate Combat pg 18, Chronicle of Legends pg 4
 
 Few warriors are more dedicated to honor and the code of the warrior than the samurai. Trained from
 an early age in the art of war and sworn to the service of a lord, the samurai holds a position of

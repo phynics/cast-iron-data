@@ -6,6 +6,9 @@ source_ids = ["occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aeon_synesis", path = "json/monsters01.json" },
 ]
+[[sources]]
+publication = "occult-bestiary"
+page = "3"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ cosmic starstuff._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Occult Bestiary pg 3\
 **Subtype:** Aeon, Extraplanar
 
 **Experience points:** 1,200

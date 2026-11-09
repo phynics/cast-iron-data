@@ -6,6 +6,9 @@ source_ids = ["belkzen-hold-of-the-orc-hordes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "floodslain", path = "json/monster_template2.json" },
 ]
+[[sources]]
+publication = "belkzen-hold-of-the-orc-hordes"
+page = "61"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +1
-
-**Source:** Belkzen, Hold of the Orc Hordes/61
 
 Collectively known as "the after-storm" by Belkzen natives, floodslain are victims of flash floods
 that have risen as undead. They're creatures of panic and despair, driven by anger, fear, and a

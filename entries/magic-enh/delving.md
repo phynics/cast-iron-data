@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "dungeon-denizens-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "delving", path = "json/magic_enhancements.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "117"
+[[sources]]
+publication = "dungeon-denizens-revisited"
+page = "7"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Equipment pg 117, Dungeon Denizens Revisited pg 7\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** armor quality; **Price** +10,000 gp; **Weight** -
 

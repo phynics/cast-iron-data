@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/psychic-sensitivity", label = "or" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "137"
 
 [fields]
 kind = "feat"
@@ -19,8 +22,6 @@ benefit = "You gain an extra pool of manifestation points with a number of point
 +++
 
 ## Psychic Combatant (Combat)
-
-**Sources:** Occult Adventures pg 137
 
 You are skilled at attacking opponents in psychic duels.\
 **Prerequisites:** Int 13, [Psychic Sensitivity](ref/feat/psychic-sensitivity) or the ability to

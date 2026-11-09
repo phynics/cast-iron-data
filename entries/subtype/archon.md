@@ -6,14 +6,20 @@ source_ids = ["bestiary-5", "bestiary", "bestiary-2", "bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "archon", path = "json/monster_subtypes.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+[[sources]]
+publication = "bestiary"
+[[sources]]
+publication = "bestiary-2"
+[[sources]]
+publication = "bestiary-3"
 
 [fields]
 kind = "none"
 +++
 
 ## Subtype: Archon
-
-**Sources:** Bestiary 5, Pathfinder RPG Bestiary, Bestiary 2, Bestiary 3
 
 [Archons](ref/family/archon) are a race of celestials, or good outsiders, native to lawful
 good-aligned Outer Planes, such as [Heaven](ref/rule/heaven). An archon has the following traits

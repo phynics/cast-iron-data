@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "pathfinder-21-the-jackals-price"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rukh", path = "json/monsters37.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "228"
+[[sources]]
+publication = "pathfinder-21-the-jackals-price"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -40,7 +46,6 @@ _This gigantic two-headed vulture has greasy, night-black wings and sharp talons
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 4 pg 228, Pathfinder \#21: The Jackal's Price pg 84\
 **Experience points:** 9,600
 
 **Armor class:** 23/8/21

@@ -6,6 +6,9 @@ source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bracers_of_celestial_intervention", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "monster-summoners-handbook"
+page = "20"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration"
 caster_level = "13th"
 +++
 
-**Sources:** Monster Summoner's Handbook pg 20\
 **Aura** strong conjuration; **CL** 13th\
 **Slot** wrists; **Price** 16,000 gp; **Weight** 1 lb.
 

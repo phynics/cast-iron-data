@@ -6,6 +6,9 @@ source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "powerful_wings", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "inner-sea-monster-codex"
+page = "53"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "While this feat is primarily taken by strix, other creatures with nat
 +++
 
 ## Powerful Wings (Combat)
-
-**Sources:** Inner Sea Monster Codex pg 53
 
 You have a large wingspan for a member of your race, and can use these appendages to batter your
 foes.\

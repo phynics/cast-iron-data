@@ -6,12 +6,14 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aff_animists", path = "json/rules_subsystems01.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "162"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Adventurer's Guide pg 162\
 **Pathfinder Name:** Rivethun\
 **Scope:** regional\
 **Alignment:** LN\

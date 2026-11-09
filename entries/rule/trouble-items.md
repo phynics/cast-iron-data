@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trouble_items", path = "json/rules_gm03.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "107"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 107
 
 Magic items are not as rigidly tethered to the advancement system as spells, feats, and other
 benefits of leveling up. For this reason, it occasionally happens that a magic item unbalances your

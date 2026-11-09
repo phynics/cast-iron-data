@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cetus", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "54"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ swallow a small ship._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 5 pg 54\
 **Subtype:** Aquatic, Water
 
 **tremorsense:** 120

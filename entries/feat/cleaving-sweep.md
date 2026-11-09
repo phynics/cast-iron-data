@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cleaving_sweep", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "68"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When using a full-attack action with a two-handed weapon, you can giv
 +++
 
 ## Cleaving Sweep (Combat)
-
-**Sources:** Monster Codex pg 68
 
 You can sweep multiple foes to the ground with a single blow of your axe.\
 **Prerequisites:** Str 15, [Cleave](ref/feat/cleave), [Improved Trip](ref/feat/improved-trip),

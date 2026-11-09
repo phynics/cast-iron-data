@@ -6,6 +6,9 @@ source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "centaur_centaur_forager", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "inner-sea-monster-codex"
+page = "7"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ enough to suit her powerful frame, hang from her body._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Inner Sea Monster Codex pg 7\
 **Experience points:** 2,400
 
 **Armor class:** 17/12/14

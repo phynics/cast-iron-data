@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_elemental_whispers", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "57"
 
 [fields]
 kind = "class_option"
@@ -23,8 +26,6 @@ group = "kineticist-wild-talent"
 **Burn:** 0
 
 **Prerequisite:** [elemental whispers](ref/kinetic/elemental-whispers)
-
-**Source:** Horror Adventures/57
 
 Your friendship with the elements has grown.
 

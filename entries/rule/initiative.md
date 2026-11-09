@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "initiative", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "178"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 178
 
 At the start of a battle, each combatant makes an initiative check. An initiative check is a
 Dexterity check. Each character applies his or her Dexterity modifier to the roll, as well as other

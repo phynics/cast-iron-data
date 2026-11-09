@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disguise_yourself", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "62"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 62
 
 This use of Performance functions as the [Disguise core skill](ref/skill/disguise).
 

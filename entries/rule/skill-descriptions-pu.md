@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skill_descriptions_pu", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "54"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 54
 
 This section describes each consolidated skill, its functions in the game, and a list of the core
 skills it replaces. Use these descriptions instead of those in the Core Rulebook, though many of the

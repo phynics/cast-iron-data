@@ -6,14 +6,15 @@ source_ids = ["belkzen-hold-of-the-orc-hordes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crushing_wheel", path = "json/equipment_siege_engines.json" },
 ]
+[[sources]]
+publication = "belkzen-hold-of-the-orc-hordes"
+page = "39"
 
 [fields]
 kind = "item"
 category = "Siege Engines"
 weight = "-"
 +++
-
-**Sources:** Belkzen, Hold of the Orc Hordes pg 39
 
 The bulk of this weapon is a steel roller nearly 10 feet wide. Handles or a harness project from the
 axle, allowing four orcs or one Large beast to push the crushing wheel from behind. As a full-round

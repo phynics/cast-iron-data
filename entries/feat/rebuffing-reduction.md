@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rebuffing_reduction", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "115"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "A bull rush combat maneuver is a standard action."
 +++
 
 ## Rebuffing Reduction (Combat)
-
-**Sources:** Ultimate Combat pg 115
 
 Your [damage reduction](ref/rule/damage-reduction) can turn the force of blows back on your enemies.\
 **Prerequisites:** Str 13, damage reduction, [Improved Bull Rush](ref/feat/improved-bull-rush),

@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "underbrush_decoy", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "228"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: Will negates (object)
 Spell resistance: yes (object)
 Target: one non-creature plant of size Tiny, Small, or Medium
 :::
-
-**Sources:** Ultimate Intrigue pg 228
 
 You cause a plant to rustle noisily, distracting nearby creatures. You can attempt a Bluff check to
 create a distraction to hide, using your caster level + your Wisdom modifier in place of your total

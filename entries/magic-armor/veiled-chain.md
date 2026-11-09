@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "veiled_chain", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "253"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint illusion"
 caster_level = "3rd"
 +++
 
-**Sources:** Inner Sea Gods pg 253\
 **Aura** faint illusion; **CL** 3rd\
 **Slot** armor; **Price** 4,490 gp; **Weight** 25 lbs.
 

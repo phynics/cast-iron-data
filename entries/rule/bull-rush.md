@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bull_rush", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "199"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 199
 
 You can make a bull rush as a standard action or as part of a charge, in place of the melee attack.
 You can only bull rush an opponent who is no more than one size category larger than you. A bull

@@ -6,13 +6,14 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "order_of_the_tome", path = "json/class_ability_orders.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "35"
 
 [fields]
 kind = "class_option"
 group = "order"
 +++
-
-**Sources:** Ultimate Combat pg 35
 
 Knowledge is the stepping stone of both truth and power. The members of this order devote themselves
 to the preservation of knowledge. Most would protect written knowledge at all costs, but there are

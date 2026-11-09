@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drawing_a_dungeon_map", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "174"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 174
 
 For the same reasons it's good to outline a story before writing it, it's good to create the map of
 your dungeon before populating it with encounters. The map is the outline of the dungeon adventure,

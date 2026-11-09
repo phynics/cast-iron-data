@@ -6,6 +6,9 @@ source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chain_mastery", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "178"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You treat a spiked chain as a one-handed martial weapon for all purpo
 +++
 
 ## Chain Mastery (Combat)
-
-**Sources:** Book of the Damned pg 178
 
 You wield spiked chains with effortless lethality.\
 **Prerequisites:** Dex 15, [Exotic Weapon Proficiency](ref/feat/exotic-weapon-proficiency) (spiked

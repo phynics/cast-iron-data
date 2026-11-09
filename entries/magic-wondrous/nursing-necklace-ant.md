@@ -6,6 +6,9 @@ source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nursing_necklace_ant", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "healers-handbook"
+page = "29"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "3rd"
 
 ## Nursing Necklace
 
-**Sources:** Healer's Handbook pg 29\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** neck; **Price** 8,000 gp (Ant), 8,000 gp (Centipede), 8,000 gp (Spider), 10,000 gp (Leech),
 10,000 gp (Mosquito); **Weight** -

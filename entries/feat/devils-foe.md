@@ -6,6 +6,9 @@ source_ids = ["andoran-spirit-of-liberty"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devils_foe", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "andoran-spirit-of-liberty"
+page = "13"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Your attacks count as good-aligned for the purposes of bypassing the 
 +++
 
 ## Devil's Foe (Achievement)
-
-**Sources:** Andoran, Spirit of Liberty pg 13
 
 Once you were just another helpless victim, but now even the deepest pits of Hell ring with the
 lamentations of your adversaries.\

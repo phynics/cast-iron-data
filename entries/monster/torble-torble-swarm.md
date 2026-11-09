@@ -6,6 +6,9 @@ source_ids = ["pathfinder-25-the-bastards-of-erebus"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "torble_torble_swarm", path = "json/monsters23.json" },
 ]
+[[sources]]
+publication = "pathfinder-25-the-bastards-of-erebus"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -38,7 +41,6 @@ abilities = ["3", "15", "10", "3", "14", "2"]
 
 **Senses:** Darkvision 30 ft.
 
-**Sources:** Pathfinder \#25: The Bastards of Erebus pg 84\
 **Subtype:** Swarm
 
 **Size:** tiny

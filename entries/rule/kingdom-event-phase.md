@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kingdom_event_phase", path = "json/rules_campaign_types04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "208"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 208
 
 In the Event phase, a random event may affect your kingdom as a whole or a single settlement or hex.
 

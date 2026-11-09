@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "resistance_mastery", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "30"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Once per day, you can meditate for 10 minutes in order to use magic a
 +++
 
 ## Resistance Mastery (Item Mastery)
-
-**Sources:** Magic Tactics Toolbox pg 30
 
 You can protect yourself from harm by using abjuration magic items.\
 **Prerequisites:** Use Magic Device 3 ranks, base Fortitude saving throw bonus +3.\

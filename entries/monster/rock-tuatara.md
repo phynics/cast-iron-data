@@ -6,6 +6,9 @@ source_ids = ["pathfinder-118-siege-of-stone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rock_tuatara", path = "json/monsters20.json" },
 ]
+[[sources]]
+publication = "pathfinder-118-siege-of-stone"
+page = "83"
 
 [fields]
 kind = "creature"
@@ -38,7 +41,6 @@ _The stony-looking hide of this fat reptile ends in a studded, heavy club of a t
 
 **Senses:** Darkvision 120 ft., Low-light vision
 
-**Sources:** Pathfinder \#118: Siege of Stone pg 83\
 **Size:** tiny
 
 **Experience points:** 135

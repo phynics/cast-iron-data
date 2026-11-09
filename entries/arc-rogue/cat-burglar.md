@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "92"
 
 [fields]
 kind = "archetype"
 replaces = ["Uncanny dodge", "Improved uncanny dodge"]
 +++
 
-**Sources:** Advanced Race Guide pg 92\
 Gifted with finesse and stealth, catfolk make excellent burglars. Cat burglars are masters of
 breaking and entering, using their feline grace to make it seem as though no crime was ever
 committed in the first place. Few locks can withstand skilled cat burglars, and such nimble rogues

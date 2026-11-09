@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slave_to_sin", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "61"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Target: one living creature
 Subschool: Compulsion
 Descriptors: emotion, mind-affecting
 :::
-
-**Sources:** Adventurer's Guide pg 61
 
 This spell allows you to reach into an evil creature's mind to expose and exploit its susceptibility
 to whichever of the seven so-called "deadly sins" it is most susceptible to. The targeted creature

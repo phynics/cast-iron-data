@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aether_elemental", path = "json/monsters09.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "106"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ material._
 
 **Size:** small
 
-**Sources:** Bestiary 5 pg 106\
 **Subtype:** Aether, Elemental, Extraplanar
 
 **Experience points:** 400

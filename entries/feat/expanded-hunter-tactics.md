@@ -6,6 +6,9 @@ source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "expanded_hunter_tactics", path = "json/feat06.json" },
 ]
+[[sources]]
+publication = "monster-hunters-handbook"
+page = "5"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "As a move action, you can grant a teamwork feat you know to a single 
 +++
 
 ## Expanded Hunter Tactics (Combat)
-
-**Sources:** Monster Hunter's Handbook pg 5
 
 You're able to train your allies as you do your animal companion.\
 **Prerequisites:** Hunter tactics class feature.\

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plane_of_water", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "190"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 190
 
 The Plane of Water is a sea without a floor or a surface, an entirely fluid environment lit by a
 diffuse glow. It is one of the more hospitable of the Inner Planes once a traveler gets past the

@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_creeper_ivy", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "194"
 
 [fields]
 kind = "creature"
@@ -38,7 +41,6 @@ _The creeping tendrils of this plant creature guide its way up tree trunks and w
 
 **Type:** plant
 
-**Sources:** Ultimate Wilderness pg 194\
 **Size:** tiny
 
 **Experience points:** 100

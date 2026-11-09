@@ -6,6 +6,9 @@ source_ids = ["misfit-monsters-redeemed"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snailplate", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "misfit-monsters-redeemed"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration"
 caster_level = "14th"
 +++
 
-**Sources:** Misfit Monsters Redeemed pg 30\
 **Aura** strong abjuration; **CL** 14th\
 **Slot** armor; **Price** 36,000 gp; **Weight** 30 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cyberfiber_muscles_mark_i", path = "json/equipment_tech_cybertech.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "36"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ slot = "body"
 
 ## Cyberfiber Muscles (Mark I)
 
-**Sources:** Technology Guide pg 36\
 **Price** 8,000 gp (Mark I), 32,000 gp (Mark II), 72,000 gp (Mark III)\
 **Slot** body; **Weight** 10 lbs. (Mark I), 10 lbs. (Mark II), 10 lbs. (Mark III)\
 **Install** DC 24 (Mark I), DC 28 (Mark II), DC 36 (Mark III)\

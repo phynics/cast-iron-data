@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/rend-body-1" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "10"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Target: one creature
 :::
 
 ### Rend Body II
-
-**Sources:** Psychic Anthology pg 10
 
 This spell functions as per [rend body I](ref/spell/rend-body-1), but the target takes 1d8 points of
 damage per caster level you have (maximum 10d8). This spell can be undercast.

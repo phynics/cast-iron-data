@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "23"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Bardic knowledge", "Inspire competence", "dirge of doom", "frighten
 alters = ["Countersong"]
 +++
 
-**Sources:** Ultimate Intrigue pg 23\
 The wit is a master of clever repartee and verbal dueling, moving through noble courts like a fish
 through water.
 

@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_balor_whip", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "80"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you use Improved Balor Whip to make a single attack at your high
 +++
 
 ## Greater Balor Whip (Combat)
-
-**Sources:** Villain Codex pg 80
 
 You can pull in foes with your whip and then attack them with your sword.\
 **Prerequisites:** [Balor Whip](ref/feat/balor-whip),

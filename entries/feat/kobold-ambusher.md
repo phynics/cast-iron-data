@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kobold_ambusher", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "137"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ normal = "When moving greater than half speed up to your full speed, you take a 
 +++
 
 ## Kobold Ambusher (Combat)
-
-**Sources:** Advanced Race Guide pg 137
 
 You are adept at moving fast and staying hidden.\
 **Prerequisites:** Stealth 4 ranks, [kobold](ref/race/kobold).\

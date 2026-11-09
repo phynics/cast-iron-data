@@ -6,6 +6,9 @@ source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "second_wind", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "people-of-the-river"
+page = "15"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you spend a swift action to attempt a performance combat check, 
 +++
 
 ## Second Wind (Combat, Performance)
-
-**Sources:** People of the River pg 15
 
 The roar of the crowd strengthens your resolve.\
 **Prerequisites:** [Endurance](ref/feat/endurance).\

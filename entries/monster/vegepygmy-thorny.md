@@ -6,6 +6,9 @@ source_ids = ["darklands-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vegepygmy_thorny", path = "json/monsters40.json" },
 ]
+[[sources]]
+publication = "darklands-revisited"
+page = "63"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ any kind, its bulk is covered in jagged thorns protruding from its fungal surfac
 
 **Type:** plant
 
-**Sources:** Darklands Revisited pg 63\
 **Experience points:** 800
 
 **Armor class:** 16/13/13

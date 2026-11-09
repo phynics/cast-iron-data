@@ -6,6 +6,9 @@ source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "talisman_of_beast_training", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "quests-and-campaigns"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint enchantment"
 caster_level = "1st"
 +++
 
-**Sources:** Quests and Campaigns pg 31\
 **Aura** faint enchantment; **CL** 1st\
 **Slot** neck; **Price** 4,000 gp; **Weight** -
 

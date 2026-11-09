@@ -6,6 +6,9 @@ source_ids = ["pathfinder-47-ashes-at-dawn"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloodbrew_elixir", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "pathfinder-47-ashes-at-dawn"
+page = "35"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Sources:** Pathfinder \#47: Ashes at Dawn pg 35\
 **Aura** faint necromancy; **CL** 3rd\
 **Slot** none; **Price** 1,000 gp; **Weight** -
 

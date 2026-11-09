@@ -6,13 +6,15 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bull", path = "json/class_ability_aspects.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "29"
 
 [fields]
 kind = "class_option"
 group = "shifter-aspect"
 +++
 
-**Sources:** Ultimate Wilderness pg 29\
 The bull is a fierce charger and is adept at trampling its foes, pounding them to a bloody pulp.
 
 **Minor Form**

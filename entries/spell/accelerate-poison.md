@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "accelerate_poison", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "201"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: yes
 Target: creature touched
 Descriptors: poison
 :::
-
-**Sources:** Advanced Player's Guide pg 201
 
 You hasten the onset of poison in the target. If the poison normally has an onset time, its effects
 begin immediately. If the poison has no onset time, its frequency is doubled, requiring two saving

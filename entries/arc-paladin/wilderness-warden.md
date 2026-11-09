@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/paladin" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "71"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Divine grace", "Aura of courage", "3rd-, 9th-, and 15th-level merci
 alters = ["Smite evil", "Spells"]
 +++
 
-**Sources:** Ultimate Wilderness pg 71\
 Wilderness wardens are vigilant guardians of natural places of all kinds, from mountain peaks to
 tangled thickets.
 

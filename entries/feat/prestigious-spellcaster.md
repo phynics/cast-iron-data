@@ -6,6 +6,9 @@ source_ids = ["paths-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prestigious_spellcaster", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "paths-of-the-righteous"
+page = "3"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ prerequisite_feats = ["ref/feat/favored-prestige-class"]
 benefit = "The first time you gain a level in your favored prestige class and the spells per day class feature does not grant an increase in effective level for the purpose of casting spells, you gain new spells per day as if the prestige class did grant +1 level of spellcasting for that level. This effect is retroactive if you gain this feat at a level beyond the point where your favored prestige class would normally have not advanced your spellcasting."
 special = "You can select the Prestigious Spellcaster feat multiple times. Each time you select the Prestigious Spellcaster feat, your effective caster level increases by 1. However, regardless of the number of times you choose this feat, the total increase to your effective caster level cannot exceed your actual prestige class level."
 +++
-
-**Sources:** Paths of the Righteous pg 3
 
 The transition into a spellcasting prestige class is less difficult for you, and because of this,
 you gain 1 additional effective spellcaster level from your prestige class levels.\

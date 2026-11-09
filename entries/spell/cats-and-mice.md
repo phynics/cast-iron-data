@@ -6,12 +6,14 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cats_and_mice", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "200"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Villain Codex pg 200\
 **School** transmutation (polymorph); **Level** 5\
 **Casting Time** 50 minutes\
 **Components** V, S, M (one live mouse per target), F (a tiny cat figurine worth 500 gp and a golden

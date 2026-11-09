@@ -6,6 +6,9 @@ source_ids = ["pathfinder-61-shards-of-sin"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "melfesh_monster", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "pathfinder-61-shards-of-sin"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ the ground. A hood of damp moss and crusty bark conceals the monster's face._
 
 **Senses:** All-around vision, Low-light vision, See invisibility
 
-**Sources:** Pathfinder \#61: Shards of Sin pg 84\
 **Subtype:** Extraplanar
 
 **Experience points:** 2,400

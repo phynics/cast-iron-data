@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/fog-cloud" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "345"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Spell resistance: no
 Effect: fog spreads in 20-ft. radius
 Subschool: Creation
 :::
-
-**Sources:** PRPG Core Rulebook pg 345
 
 This spell functions like [fog cloud](ref/spell/fog-cloud), but in addition to obscuring sight, the
 solid fog is so thick that it impedes movement. Creatures moving through a solid fog move at half

@@ -6,6 +6,9 @@ source_ids = ["daughters-of-fury"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "murktouch_cloak", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "daughters-of-fury"
+page = "61"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Sources:** Daughters of Fury pg 61\
 **Aura** moderate conjuration; **CL** 9th\
 **Slot** shoulders; **Price** 20,000 gp; **Weight** 1 lb.
 

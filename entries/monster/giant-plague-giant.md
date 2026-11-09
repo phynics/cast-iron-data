@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_plague_giant", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "134"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _This oversized humanoid is dressed in tattered rags that don't quite cover its 
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 6 pg 134\
 **Subtype:** Giant
 
 **Experience points:** 38,400

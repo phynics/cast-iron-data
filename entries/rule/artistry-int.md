@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "artistry_int", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "48"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 48
 
 ### Artistry (Int)
 

@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tyrants_rebuke", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "33"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "As a standard action, you can make a melee touch attack. A creature s
 +++
 
 ## Tyrant's Rebuke (Conduit)
-
-**Sources:** Planar Adventures pg 33
 
 By decree of [Asmodeus](ref/faith/asmodeus), Hell is a place antithetical to free will; wielding its
 power humbles foes and renders them vulnerable to your commands. Those who you target with a pointed

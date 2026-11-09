@@ -6,6 +6,9 @@ source_ids = ["pathfinder-84-pyramid-of-the-sky-pharaoh"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ammut", path = "json/monsters26.json" },
 ]
+[[sources]]
+publication = "pathfinder-84-pyramid-of-the-sky-pharaoh"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ comparison to the danger of its mighty jaws._
 
 **Senses:** Darkvision 60 ft., Scent, True seeing
 
-**Sources:** Pathfinder \#84: Pyramid of the Sky Pharaoh pg 82\
 **Subtype:** Evil, Native
 
 **tremorsense:** 60

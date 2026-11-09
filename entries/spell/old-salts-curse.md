@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "old_salts_curse", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "79"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: curse
 :::
-
-**Sources:** Advanced Race Guide pg 79
 
 > _[Humans](ref/race/human) have access to the following spells._
 

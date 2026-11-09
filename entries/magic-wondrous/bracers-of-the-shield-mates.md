@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bracers_of_the_shield_mates", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "148"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Sources:** Mythic Adventures pg 148\
 **Aura** moderate conjuration; **CL** 7th\
 **Slot** wrists; **Price** 40,000 gp; **Weight** 2 lbs.
 

@@ -6,12 +6,12 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sanguinary_cloud", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures
 
 **Sanguinary Cloud (CR 6):** Often found floating over campsites of unfortunate travelers drained of
 all bodily fluids, these blood-red fog banks can be mistaken for colossal

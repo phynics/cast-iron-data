@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_vermin", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "290"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: none
 Spell resistance: yes
 Targets: 1 or more vermin, no two of which can be more than 30 ft. apart
 :::
-
-**Sources:** PRPG Core Rulebook pg 290
 
 You turn a number of normal-sized centipedes, scorpions, or spiders into their giant counterparts.
 Only one type of vermin can be transmuted (so a single casting cannot affect both a centipede and a

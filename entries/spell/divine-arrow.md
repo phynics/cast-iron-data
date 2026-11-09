@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divine_arrow", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "228"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Spell resistance: no
 Target: one projectile
 Descriptors: good
 :::
-
-**Sources:** Ultimate Combat pg 228
 
 You imbue a projectile, such as an arrow or shuriken, with holy energy so that it deals extra damage
 to undead equal to that dealt by your lay on hands feature. This extra damage is not multiplied on a

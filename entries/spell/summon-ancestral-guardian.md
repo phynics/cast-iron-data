@@ -6,6 +6,9 @@ source_ids = ["dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summon_ancestral_guardian", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "dwarves-of-golarion"
+page = "24"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: yes
 Effect: two summoned ancestor spirits
 Subschool: Summoning
 :::
-
-**Sources:** Dwarves of Golarion pg 24
 
 You call the spirits of two ancestors to manifest in the mortal world and attack your enemies. Each
 appears as a transparent image of a powerful, wise dwarf armed with a traditional dwarven weapon of

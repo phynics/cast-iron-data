@@ -6,6 +6,15 @@ source_ids = ["construct-handbook", "ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_manual_bone", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "construct-handbook"
+page = "17"
+[[sources]]
+publication = "ultimate-equipment"
+page = "300"
+[[sources]]
+publication = "core-rulebook"
+page = "515"
 
 [fields]
 kind = "item"
@@ -19,7 +28,6 @@ caster_level = "varies"
 
 ## Golem Manuals
 
-**Sources:** Construct Handbook pg 17, Ultimate Equipment pg 300, PRPG Core Rulebook pg 515\
 **Aura** varies; **CL** varies\
 **Slot** none; **Price** 3,000 gp (Junk), 4,000 gp (Wax), 5,000 gp (Ice), 6,000 gp (Wood), 8,000 gp
 (Flesh), 10,000 gp (Alchemical), 10,000 gp (Glass), 12,000 gp (Bone), 12,000 gp (Clay), 15,000 gp

@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "book_of_banishing", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "147"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration"
 caster_level = "18th"
 +++
 
-**Sources:** Mythic Adventures pg 147\
 **Aura** strong abjuration; **CL** 18th\
 **Slot** none; **Price** 50,000 gp; **Weight** 2 lbs.
 

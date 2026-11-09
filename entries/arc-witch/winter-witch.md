@@ -9,13 +9,18 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/witch" },
 ]
+[[sources]]
+publication = "reign-of-winter-players-guide"
+page = "11"
+[[sources]]
+publication = "inner-sea-magic"
+page = "43"
 
 [fields]
 kind = "archetype"
 replaces = ["4th-level hex"]
 +++
 
-**Sources:** Reign of Winter Player's Guide pg 11, Inner Sea Magic pg 43\
 The descendents of Baba Yaga rule the frozen realm of Irrisen, and possess a unique power stemming
 from their otherworldly origin and their ties to cold magic. This power is partly magical, partly
 political, and partly cultural. Known as winter witches, these scions of Baba Yaga have not bothered

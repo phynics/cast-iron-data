@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wild_hunt_wild_hunt_monarch", path = "json/monsters25.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "282"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ luminescent green eyes._
 
 **Senses:** Low-light vision, Mistsight, Scent, See in darkness
 
-**Sources:** Bestiary 6 pg 282\
 **Subtype:** Wild hunt
 
 **Experience points:** 204,800

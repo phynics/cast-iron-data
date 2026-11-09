@@ -6,6 +6,9 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "force_field_red", path = "json/equipment_tech_misc.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "45"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ slot = "wrists"
 
 ## Force field
 
-**Sources:** Technology Guide pg 45\
 **Price** 20,000 gp (black), 120,000 gp (blue), 4,000 gp (brown), 60,000 gp (gray), 80,000 gp
 (green), 140,000 gp (orange), 220,000 gp (prismatic), 100,000 gp (red), 40,000 gp (white)\
 **Slot** wrists; **Weight** 1 lb. (all)\

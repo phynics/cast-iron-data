@@ -6,16 +6,33 @@ source_ids = ["ultimate-equipment", "rise-of-the-runelords-players-guide", "curs
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "earth_breaker", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "18"
+[[sources]]
+publication = "rise-of-the-runelords-players-guide"
+page = "11"
+[[sources]]
+publication = "curse-of-the-crimson-throne-players-guide"
+page = "13"
+[[sources]]
+publication = "pathfinder-campaign-setting"
+page = "209"
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "290"
+[[sources]]
+publication = "adventurers-armory"
+page = "0"
+[[sources]]
+publication = "varisia-birthplace-of-legends"
+page = "14"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "14 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 18, Rise of the Runelords Player's Guide pg 11, Curse of the
-Crimson Throne Player's Guide pg 13, Pathfinder Campaign Setting pg 209, Inner Sea World Guide pg
-290, Adventurer's Armory pg 0, Varisia, Birthplace of Legends pg 14
 
 The crude metal of this massive hammer's head ends in multiple blunt spikes that help concentrate
 the force of a powerful swing down into a smaller, more focused area, allowing it to smash through

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "feedback", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "62"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 62
 
 Gaming groups thrive on feedback. Enthusiastic players spur the GM to continue creating exciting
 adventures and make the daunting task of running a game worthwhile, while the GM complimenting a

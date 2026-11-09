@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cut_from_the_air", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "22"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When a ranged attack is made against you or a target adjacent to you,
 +++
 
 ## Cut from the Air (Weapon Mastery)
-
-**Sources:** Weapon Master's Handbook pg 22
 
 Your powerful and swift attacks can slice ranged attacks out of the air.\
 **Prerequisites:** Str 13, [Power Attack](ref/feat/power-attack), base attack bonus +5, weapon

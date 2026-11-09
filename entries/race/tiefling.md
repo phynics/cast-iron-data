@@ -6,12 +6,20 @@ source_ids = ["inner-sea-races", "bestiary", "advanced-race-guide", "blood-of-fi
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tiefling", path = "json/races4.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "251"
+[[sources]]
+publication = "bestiary"
+page = "264"
+[[sources]]
+publication = "advanced-race-guide"
+page = "168"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Inner Sea Races pg 251, Pathfinder RPG Bestiary pg 264, Advanced Race Guide pg 168\
 Simultaneously more and less than mortal, tieflings are the offspring of humans and fiends. With
 otherworldly blood and traits to match, tieflings are often shunned and despised out of reactionary
 fear. Most tieflings never know their fiendish sire, as the coupling that produced their curse

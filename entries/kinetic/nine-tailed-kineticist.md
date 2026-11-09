@@ -6,6 +6,9 @@ source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nine_tailed_kineticist", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "heroes-of-golarion"
+page = "26"
 
 [fields]
 kind = "class_option"
@@ -23,8 +26,6 @@ group = "kineticist-wild-talent"
 **Burn:** 0
 
 **Prerequisite:** [kitsune](ref/race/kitsune)
-
-**Source:** Heroes of Golarion/26
 
 You can cast a [spell-like ability](ref/umr/spell-like-abilities) granted to you by any
 [Magical Tail](ref/feat/magical-tail) feat you have by accepting 1 point of burn, even if you have

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-137-the-city-outside-of-time"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sihedron_tome_envy", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "pathfinder-137-the-city-outside-of-time"
+page = "56"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration"
 caster_level = "16th"
 +++
 
-**Sources:** Pathfinder \#137: The City Outside of Time pg 56\
 **Aura** strong abjuration; **CL** 16th\
 **Slot** none; **Price** -; **Weight** 5 lbs.
 

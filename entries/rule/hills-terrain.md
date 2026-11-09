@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hills_terrain", path = "json/rules_gm08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "427"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 427
 
 A hill can exist in most other types of terrain, but hills can also dominate the landscape. Hills
 terrain is divided into two categories: gentle hills and rugged hills. Hills terrain often serves as

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/detect-evil" },
 ]
+[[sources]]
+publication = "agents-of-evil"
+page = "16"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Area: cone-shaped emanation
 :::
 
 ### Detect Fiendish Presence
-
-**Sources:** Agents of Evil pg 16
 
 This spell functions like _[detect evil](ref/spell/detect-evil),_ except that it detects only
 outsiders with the evil subtype, as well as the lingering effects caused by their gifts, presence,

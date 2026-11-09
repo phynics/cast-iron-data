@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pard", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "211"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ to scorch the air as it moves._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Bestiary 4 pg 211\
 **Experience points:** 800
 
 **Armor class:** 20/18/12

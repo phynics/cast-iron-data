@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "random_weapons", path = "json/rules_gm03.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "121"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 121
 
 ### Table 5-11: Random Weapons
 

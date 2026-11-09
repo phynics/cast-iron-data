@@ -6,6 +6,9 @@ source_ids = ["pathfinder-85-fires-of-creation"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "petromin", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "pathfinder-85-fires-of-creation"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -39,7 +42,6 @@ _This sleek, furred creature has flaps of skin stretching between its limbs and 
 
 **Senses:** Low-light vision
 
-**Sources:** Pathfinder \#85: Fires of Creation pg 82\
 **Size:** tiny
 
 **Experience points:** 135

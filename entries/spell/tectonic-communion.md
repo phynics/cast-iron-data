@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/commune" },
 ]
+[[sources]]
+publication = "faiths-and-philosophies"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Target: you
 :::
 
 ### Tectonic Communion
-
-**Sources:** Faiths and Philosophies pg 29
 
 Tectonic communion functions as [commune](ref/spell/commune) with nature with an even greater range.
 In outdoor or natural underground settings, the spell operates on a radius of 100 miles per caster

@@ -6,6 +6,9 @@ source_ids = ["halflings-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_punch_whiskey_cup", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "halflings-of-golarion"
+page = "10"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "-"
 
 ## Dragon Punch Whiskey
 
-**Sources:** Halflings of Golarion pg 10\
 **Price** 10 gp/cup; **Weight** -\
 **Category** Food/Drink
 

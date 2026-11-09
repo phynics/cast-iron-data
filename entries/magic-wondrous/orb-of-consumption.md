@@ -6,6 +6,9 @@ source_ids = ["pathfinder-62-curse-of-the-ladys-light"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "orb_of_consumption", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "pathfinder-62-curse-of-the-ladys-light"
+page = "62"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong enchantment"
 caster_level = "15th"
 +++
 
-**Sources:** Pathfinder \#62: Curse of the Lady's Light pg 62\
 **Aura** strong enchantment; **CL** 15th\
 **Slot** none; **Price** 10,000 gp; **Weight** 9 lbs.
 

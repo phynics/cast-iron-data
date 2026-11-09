@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mysteries_within_mysteries", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "218"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 218
 
 Standard adventures present a problem, obstacles in the form of monsters and traps, and a
 resolution. By comparison, occult adventures are subtler. The key to the adventurers' success often

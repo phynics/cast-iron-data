@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "megafauna_arsinoitherium", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "186"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ knife-like horns curving up from its nose._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Bestiary 2 pg 186\
 **Experience points:** 3,200
 
 **Armor class:** 20/9/20

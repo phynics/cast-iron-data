@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "narrative_techniques", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "31"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 31
 
 As the GM, you are the one and only conduit for the players to learn about their situation in the
 game. If you forget to describe something, the players quite rightly feel cheated. If you focus your

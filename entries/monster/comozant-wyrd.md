@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "pathfinder-57-tempest-rising"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "comozant_wyrd", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "40"
+[[sources]]
+publication = "pathfinder-57-tempest-rising"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -44,7 +50,6 @@ and plays within its shifting mass._
 
 **Size:** small
 
-**Sources:** Bestiary 4 pg 40, Pathfinder \#57: Tempest Rising pg 82\
 **Subtype:** Air, Elemental, Extraplanar, Incorporeal
 
 **Experience points:** 1,200

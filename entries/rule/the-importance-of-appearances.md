@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_importance_of_appearances", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "99"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 99
 
 In some games, success and failure are measured in the court of public opinion, and appearing to be
 a certain way is often more important than being that way. This leads to plenty of deception and

@@ -6,6 +6,9 @@ source_ids = ["the-witchwar-legacy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gnarled_creature", path = "json/monster_template2.json" },
 ]
+[[sources]]
+publication = "the-witchwar-legacy"
+page = "28"
 
 [fields]
 kind = "none"
@@ -18,8 +21,6 @@ kind = "none"
 **Challenge rating:** +1
 
 **Simple:** present
-
-**Source:** The Witchwar Legacy/28
 
 Creatures who have been "blessed" with the demon lord
 [Kostchtchie's](ref/monster/demon-lord-kostchtchie) attention may acquire this template, which

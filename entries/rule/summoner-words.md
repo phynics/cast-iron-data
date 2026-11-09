@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summoner_words", path = "json/rules_opt_magic03.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "192"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 192
 
 **0-Level Summoner Words:** Acid Burn (Acid), Decipher (Language), Force Block (Armor), Lift
 (Gravity), Sense Magic (Detection)

@@ -6,6 +6,9 @@ source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "incense_of_dulled_senses", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "dragonslayers-handbook"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "10th"
 +++
 
-**Sources:** Dragonslayer's Handbook pg 30\
 **Aura** moderate abjuration; **CL** 10th\
 **Slot** none; **Price** 1,500 gp; **Weight** -
 

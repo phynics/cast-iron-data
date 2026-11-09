@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crown_of_false_rule", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-high-court"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint illusion"
 caster_level = "5th"
 +++
 
-**Sources:** Heroes of the High Court pg 30\
 **Aura** faint illusion; **CL** 5th\
 **Slot** head; **Price** 30,000 gp; **Weight** 1 lb.
 

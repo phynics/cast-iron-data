@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/barbarian" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "39"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Trap sense"]
 alters = ["The barbarian's normal weapon and armor proficiencies", "Rage powers", "Damage reduction"]
 +++
 
-**Sources:** Ultimate Wilderness pg 39\
 Some barbarians are born or bred outside the reach of civilization. These wildborn fight and survive
 without ever seeing a forge or worked stone, and only dare a trip into the city when no other option
 is available.

@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hunters_eye", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "228"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: none
 Spell resistance: yes
 Target: one creature
 :::
-
-**Sources:** Advanced Player's Guide pg 228
 
 Sharpening your perceptive abilities and tuning them against obfuscating effects, hunter's eye
 greatly enhances your senses against the target creature. You gain the ability to perceive the

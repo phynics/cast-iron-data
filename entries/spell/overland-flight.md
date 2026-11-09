@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/fly" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "317"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: you
 :::
-
-**Sources:** PRPG Core Rulebook pg 317
 
 This spell functions like a [fly](ref/spell/fly) spell, except you can fly at a speed of 40 feet (30
 feet if wearing medium or heavy armor, or if carrying a medium or heavy load) with a bonus on Fly

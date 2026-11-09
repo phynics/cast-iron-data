@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aura_of_doom", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "207"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: yes
 Area: 20-ft.-radius emanation centered on you
 Descriptors: emotion, fear, mind-affecting
 :::
-
-**Sources:** Ultimate Magic pg 207
 
 You emanate an almost palpable aura of horror. All non-allies within this spell's area, or that
 later enter the area, must make a Will save to avoid becoming shaken. A successful save suppresses

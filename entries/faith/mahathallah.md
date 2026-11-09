@@ -6,6 +6,9 @@ source_ids = ["pathfinder-99-dance-of-the-damned", "book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mahathallah", path = "json/faiths5.json" },
 ]
+[[sources]]
+publication = "pathfinder-99-dance-of-the-damned"
+page = "74"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Mahathallah**
 
 **Sub:** Dowager of Illusions
-
-**Sources:** Pathfinder \#99: Dance of the Damned pg 74
 
 ### Details
 

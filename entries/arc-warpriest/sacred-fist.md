@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/warpriest" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "130"
 
 [fields]
 kind = "archetype"
 replaces = ["Weapon and armor proficiency", "Sacred weapon", "Focus weapon", "Bonus feat gained at 3rd level", "Bonus feats gained at 6th, 12th, and 18th levels", "Sacred armor", "Bonus feat gained at 9th level"]
 +++
 
-**Sources:** Advanced Class Guide pg 130\
 Unlike many warpriests, sacred fists leave behind armor and shield and instead rely on their fists
 and whatever protection their deity bestows on them.
 

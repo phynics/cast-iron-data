@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "resist_energy", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "334"
 
 [fields]
 kind = "spell"
@@ -57,8 +60,6 @@ Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
 :::
-
-**Sources:** PRPG Core Rulebook pg 334
 
 This abjuration grants a creature limited protection from damage of whichever one of five energy
 types you select: acid, cold, electricity, fire, or sonic. The subject gains resist energy 10

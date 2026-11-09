@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cautious_fighter", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "66"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When fighting defensively or using total defense, your dodge bonus to
 +++
 
 ## Cautious Fighter (Combat)
-
-**Sources:** Advanced Race Guide pg 66
 
 You care more about survival than victory.\
 **Prerequisites:** [Halfling](ref/race/halfling).\

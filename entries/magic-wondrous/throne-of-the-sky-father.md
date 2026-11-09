@@ -6,6 +6,9 @@ source_ids = ["pathfinder-92-the-hill-giants-pledge"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "throne_of_the_sky_father", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "pathfinder-92-the-hill-giants-pledge"
+page = "66"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration and transmutation"
 caster_level = "10th"
 +++
 
-**Sources:** Pathfinder \#92: The Hill Giant's Pledge pg 66\
 **Aura** moderate abjuration and transmutation; **CL** 10th\
 **Slot** none; **Price** 8,000 gp; **Weight** 1,000 lbs.
 

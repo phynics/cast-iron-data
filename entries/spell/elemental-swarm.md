@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_swarm", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "277"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: no
 Effect: two or more summoned creatures, no two of which can be more than 30 ft. apart
 Subschool: Summoning
 :::
-
-**Sources:** PRPG Core Rulebook pg 277
 
 This spell opens a portal to an Elemental Plane and summons elementals from it. A druid can choose
 any plane (Air, Earth, Fire, or Water); a cleric opens a portal to the plane matching his domain.

@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lost_inheritance", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "124"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 124
 
 Mythic power comes from a lost age when mythic creatures and characters were common. That power has
 faded from this world, but once an age, when the time is right, mythic power returns for a short

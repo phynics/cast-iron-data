@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "whirlwind_attack", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "137"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you use the full-attack action, you can give up your regular att
 +++
 
 ## Whirlwind Attack (Combat)
-
-**Sources:** PRPG Core Rulebook pg 137
 
 You can strike out at every foe within reach.\
 **Prerequisites:** Dex 13, Int 13, [Combat Expertise](ref/feat/combat-expertise),

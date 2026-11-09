@@ -6,12 +6,14 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ritual_exorcism", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "212"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Occult Adventures pg 212\
 **School** abjuration; **Level** 4\
 **Casting Time** 40 minutes\
 **Components** V, S, M (vial of holy water), F (silver holy symbol), SC (up to 12)\

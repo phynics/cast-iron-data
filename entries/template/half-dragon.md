@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "half_dragon", path = "json/monster_template2.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "170"
 
 [fields]
 kind = "none"
@@ -18,8 +21,6 @@ kind = "none"
 **Challenge rating:** +2
 
 **Inherited:** present
-
-**Source:** Pathfinder RPG Bestiary/170
 
 Half-dragons are only rarely the result of dragons mating with other creatures - most are the result
 of strange magical experiments. In most cases, a successful creation breeds true with others of its

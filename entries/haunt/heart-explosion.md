@@ -6,12 +6,14 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heart_explosion", path = "json/haunts.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "178"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Adventures pg 178\
 The spirits responsible for this haunt were scared to death, and in their attempt to force mortals
 to understand their fear, they cause their victims' hearts to race faster and faster until they
 explode.

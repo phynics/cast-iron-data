@@ -6,12 +6,13 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reposition", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "322"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Advanced Player's Guide pg 322
 
 You can attempt to reposition a foe to a different location as a standard action. You can only
 reposition an opponent that is no more than one size category larger than you. A reposition attempts

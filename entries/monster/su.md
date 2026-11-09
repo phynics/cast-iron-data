@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "su", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "238"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ clinging to its back._
 
 **Senses:** All-around vision, Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Bestiary 5 pg 238\
 **Experience points:** 4,800
 
 **Armor class:** 21/15/16

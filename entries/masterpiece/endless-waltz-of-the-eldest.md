@@ -6,6 +6,8 @@ source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "endless_waltz_of_the_eldest", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "healers-handbook"
 
 [fields]
 kind = "class_option"
@@ -13,8 +15,6 @@ group = "bardic-masterpiece"
 +++
 
 ## Endless Waltz of the Eldest (Dance, String)
-
-**Sources:** Healer's Handbook
 
 This elegant but dizzyingly fast gnome waltz calls for rapidly changing roles inspired by the many
 faces that the legendary [Eldest](ref/rule/the-eldest) of the First World wear.

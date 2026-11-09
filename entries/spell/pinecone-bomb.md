@@ -6,6 +6,9 @@ source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pinecone_bomb", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "wilderness-origins"
+page = "13"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: Reflex half
 Spell resistance: yes
 Area: 10-ft.-radius spread
 :::
-
-**Sources:** Wilderness Origins pg 13
 
 Created by Ghorus when he was working to create the [ghorans](ref/monster/ghoran), pinecone bomb
 infuses a small pinecone with power, causing it to detonate with explosive force when thrown. You

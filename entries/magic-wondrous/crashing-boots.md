@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crashing_boots", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "165"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Sources:** Monster Codex pg 165\
 **Aura** moderate transmutation; **CL** 8th\
 **Slot** feet; **Price** 8,800 gp; **Weight** 2 lbs.
 

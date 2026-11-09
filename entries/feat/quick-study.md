@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quick_study", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "89"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Once per day, you can train with someone who has a combat feat you do
 +++
 
 ## Quick Study (Combat)
-
-**Sources:** Ultimate Intrigue pg 89
 
 You can learn quickly, although you do not always retain what you learn long.\
 **Prerequisites:** Int 13, bravery +3 class feature, fighter level 10th.\

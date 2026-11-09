@@ -6,6 +6,9 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "esoteric_conjuration", path = "json/feat06.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "154"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "When you cast a conjuration spell using prismatic sand as an esoteric
 +++
 
 ## Esoteric Conjuration (Esoteric)
-
-**Sources:** Pathfinder Unchained pg 154
 
 Prismatic sand refracts the spatial energies of your conjuration magic, creating a magical
 distortion.\

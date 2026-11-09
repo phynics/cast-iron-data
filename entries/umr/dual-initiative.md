@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dual_initiative", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "227"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Dual Initiative (Ex) \[Mythic\]
 
-**Sources:** Mythic Adventures pg 227\
 The creature gets two turns each round, one on its initiative count and another on its initiative
 count - 20. For example, if the monster's initiative is 23, on its first turn it could make a full
 attack (and take a 5-foot step) at initiative 23, and on its second turn at initiative 3 it could

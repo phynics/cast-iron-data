@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "total_defense", path = "json/misc.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "185"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 185
 
 The **total defense** action lets you defend yourself as a
 [standard action](ref/rule/standard-actions). You get a +4 dodge bonus to your AC for 1 round. Your

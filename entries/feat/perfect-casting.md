@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "perfect_casting", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "215"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Combat Casting, Divine Dignity, ability to cast divine spells, 
 prerequisite_feats = ["ref/feat/combat-casting", "ref/feat/divine-dignity"]
 benefit = "When you use Divine Dignity, it can affect the casting of any of your divine spells, not just harmless and domain spells."
 +++
-
-**Sources:** Inner Sea Gods pg 215
 
 You unlock greater secrets of divine spellcasting from the First Vault.\
 **Prerequisites:** [Combat Casting](ref/feat/combat-casting),

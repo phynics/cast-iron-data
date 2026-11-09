@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dream_travel", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "166"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Target: you and one creature/level
 Subschool: Teleportation
 Descriptors: mind-affecting
 :::
-
-**Sources:** Occult Adventures pg 166
 
 You and the other targets of the spell are physically drawn from the Material Plane into the
 Dimension of Dreams on a voyage into the dreams of a creature you designate. In the Dimension of

@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "faiths-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weapons_against_evil", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "245"
+[[sources]]
+publication = "faiths-of-purity"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -40,8 +46,6 @@ Saving throw: Fortitude negates (object)
 Spell resistance: yes (object)
 Targets: one weapon/level, no two of which can be more than 20 ft. apart
 :::
-
-**Sources:** Inner Sea Gods pg 245, Faiths of Purity pg 29
 
 Each weapon this spell affects each shines with pale light that dimly illuminates a 5-foot square.
 These weapons also ignore the DR of evil creatures that have DR 5 or lower, as long as the

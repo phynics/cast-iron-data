@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "blood-of-the-ancients"
+page = "27"
 
 [fields]
 kind = "archetype"
 replaces = ["Mutagen", "swift poisoning", "persistent mutagen", "Poison use", "swift alchemy", "Poison resistance"]
 +++
 
-**Sources:** Blood of the Ancients pg 27\
 Although the specifics of the Aeromantic Infadibulum are lost to time, aerochemists are able to
 emulate and replicate aspects of this lost magic. Aerochemists use scraps of Shory's magic in their
 concoctions to gain personal powers of flight.

@@ -6,13 +6,14 @@ source_ids = ["core-rulebook", "divine-anthology", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charm", path = "json/class_ability_domains.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "42"
 
 [fields]
 kind = "class_option"
 group = "cleric-domain"
 +++
-
-**Sources:** PRPG Core Rulebook pg 42
 
 **Granted Powers:** You can baffle and befuddle foes with a touch or a smile, and your beauty and
 grace are divine.

@@ -6,6 +6,9 @@ source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "taxidermy_tools", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "monster-hunters-handbook"
+page = "27"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "80 gp"
 weight = "10 lbs."
 +++
 
-**Sources:** Monster Hunter's Handbook pg 27\
 **Price** 80 gp; **Weight** 10 lbs.\
 **Category** Kits
 

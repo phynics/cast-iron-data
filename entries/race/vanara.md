@@ -6,12 +6,20 @@ source_ids = ["inner-sea-races", "bestiary-3", "advanced-race-guide", "blood-of-
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vanara", path = "json/races4.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "253"
+[[sources]]
+publication = "bestiary-3"
+page = "280"
+[[sources]]
+publication = "advanced-race-guide"
+page = "206"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Inner Sea Races pg 253, Bestiary 3 pg 280, Advanced Race Guide pg 206\
 Vanaras are intelligent, monkey-like humanoids that live in deep, warm forests and lush jungles. A
 vanara's body is covered in a thin coat of soft fur, and individuals with chestnut, ivory, and even
 golden coats are common. Despite their fur, vanaras can grow lengthy hair on their head just as

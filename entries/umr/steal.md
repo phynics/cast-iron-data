@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "steal", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "228"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Steal (Ex) \[Mythic\]
 
-**Sources:** Mythic Adventures pg 228\
 The creature can attempt a [steal combat maneuver check](ref/rule/steal) against its opponent as a
 free action without provoking attacks of opportunity if it hits with the specified attack.
 

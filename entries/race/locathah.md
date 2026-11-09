@@ -6,12 +6,14 @@ source_ids = ["blood-of-the-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "locathah", path = "json/races2.json" },
 ]
+[[sources]]
+publication = "blood-of-the-sea"
+page = "10-11"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Blood of the Sea pg. 10-11\
 Though unsettling in appearance - at least to most surface races - locathahs are friendly and
 inquisitive. Unlike many aquatic denizens, locathahs have no inherent distrust of surfacers. In
 fact, most locathahs enjoy conversing with surface races and often hail passing ships to exchange

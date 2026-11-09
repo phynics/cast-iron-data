@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "litany_of_righteousness", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "235"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: good, language-dependant
 :::
-
-**Sources:** Ultimate Combat pg 235
 
 Calling down a litany of anathema, you make an evil more susceptible to the attacks of good
 creatures. If the target is evil, it takes double damage from attacks made by creatures with a good

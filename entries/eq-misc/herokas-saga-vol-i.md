@@ -6,6 +6,9 @@ source_ids = ["dungeoneers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "herokas_saga_vol_i", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "dungeoneers-handbook"
+page = "15"
 
 [fields]
 kind = "item"
@@ -13,7 +16,6 @@ category = "Miscellaneous Equipment"
 price = "20,000 gp"
 +++
 
-**Sources:** Dungeoneer's Handbook pg 15\
 **Price** 20,000 gp; **Accuracy** -1\
 **Category** [Dungeon Guides](ref/rule/dungeon-guides)\
 **Associated Skill** Perform (oratory) (DC 15)

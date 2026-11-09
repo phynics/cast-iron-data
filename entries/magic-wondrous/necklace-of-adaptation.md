@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "necklace_of_adaptation", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "259"
+[[sources]]
+publication = "core-rulebook"
+page = "524"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Sources:** Ultimate Equipment pg 259, PRPG Core Rulebook pg 524\
 **Aura** moderate transmutation; **CL** 7th\
 **Slot** neck; **Price** 9,000 gp; **Weight** 1 lb.
 

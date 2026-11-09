@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "performing_combatant", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "112"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You can make performance combat checks in any combat. When making a p
 +++
 
 ## Performing Combatant (Combat)
-
-**Sources:** Ultimate Combat pg 112
 
 You treat every combat as a performance, bringing flare and showmanship.\
 **Prerequisites:** [Dazzling Display](ref/feat/dazzling-display), any one performance feat.\

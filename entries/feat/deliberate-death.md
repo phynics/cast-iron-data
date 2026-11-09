@@ -6,6 +6,9 @@ source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deliberate_death", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "plane-hoppers-handbook"
+page = "16"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Once per day, if you are reduced below 0 hit points as a result of an
 +++
 
 ## Deliberate Death (Origin)
-
-**Sources:** Plane-Hopper's Handbook pg 16
 
 Someone killed you: a monster, a murderer, a soldier, an executioner, it doesn't matter - someone
 made a conscious decision to end your life.\

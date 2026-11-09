@@ -6,6 +6,9 @@ source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ekujae_jungle_armor", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "51"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration and transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Inner Sea Combat pg 51\
 **Aura** faint abjuration and transmutation; **CL** 3rd\
 **Slot** armor; **Price** 3,900 gp; **Weight** 20 lbs.
 

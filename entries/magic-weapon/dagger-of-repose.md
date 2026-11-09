@@ -6,6 +6,9 @@ source_ids = ["feast-of-dust"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dagger_of_repose", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "feast-of-dust"
+page = "7"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "8th"
 +++
 
-**Sources:** Feast of Dust pg 7\
 **Aura** moderate conjuration; **CL** 8th\
 **Slot** none; **Price** 8,902 gp; **Weight** 1 lb.
 

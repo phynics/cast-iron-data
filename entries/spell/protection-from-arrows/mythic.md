@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/protection-from-arrows", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "104"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 104
 
 The [damage reduction](ref/rule/damage-reduction) increases to 15/magic. The maximum damage
 prevented by the spell increases to 15 points per caster level (maximum 150 points). If the spell

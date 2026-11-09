@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mythic_feats", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "54"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 54
 
 Mythic characters and monsters gain mythic feats as they gain tiers or ranks. These feats can be
 selected only as part of mythic advancement (see [Table 1-1](ref/rule/base-mythic-abilities)), not

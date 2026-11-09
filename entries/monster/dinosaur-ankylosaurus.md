@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dinosaur_ankylosaurus", path = "json/monsters08.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "83"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ tail ending in a bony club._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 83\
 **Experience points:** 2,400
 
 **Armor class:** 22/8/22

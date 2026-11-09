@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swan_maiden", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "257"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ with a winged helm._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 4 pg 257\
 **Subtype:** Shapechanger
 
 **Experience points:** 2,400

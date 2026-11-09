@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_spell_devouring", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "349"
 
 [fields]
 kind = "item"
@@ -15,8 +18,6 @@ slot = "ring"
 aura = "strong abjuration"
 caster_level = "13th"
 +++
-
-**Sources:** Ultimate Equipment pg 349
 
 **Aura** strong abjuration; **CL** 13th\
 **Slot** ring; **Weight** -

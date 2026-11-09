@@ -6,6 +6,9 @@ source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wraiths_sight_elixir", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "potions-and-poisons"
+page = "21"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "9th"
 +++
 
-**Sources:** Potions and Poisons pg 21\
 **Aura** moderate necromancy; **CL** 9th\
 **Slot** none; **Price** 1,500 gp; **Weight** -
 

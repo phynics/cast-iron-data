@@ -6,6 +6,9 @@ source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "steam", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
+page = "63"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong (no school)"
 caster_level = "17th"
 +++
 
-**Sources:** Aquatic Adventures pg 63\
 **Aura** strong (no school); **CL** 17th\
 **Slot** none; **Price** 1,500 gp (lesser \[up to 3rd-level spells\]), 5,500 gp (normal \[up to
 6th-level spells\]), 12,250 gp (greater \[all spells\]); **Weight** 1 lb.

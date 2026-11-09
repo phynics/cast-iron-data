@@ -6,6 +6,9 @@ source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "forgers_friend", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "53"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "7th"
 +++
 
-**Sources:** Inner Sea Intrigue pg 53\
 **Aura** moderate divination; **CL** 7th\
 **Slot** none; **Price** 11,200 gp; **Weight** 5 lbs.
 

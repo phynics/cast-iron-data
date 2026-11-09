@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/summon-monster" },
 ]
+[[sources]]
+publication = "book-of-the-damned-volume-3-horsemen-of-the-apocalypse"
+page = "39"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Effect: one summoned creature
 Subschool: Summoning
 Descriptors: evil
 :::
-
-**Sources:** Book of the Damned - Volume 3: Horsemen of the Apocalypse pg 39
 
 This spell functions like [summon monster](ref/spell/summon-monster), except it summons a single
 erodaemon.

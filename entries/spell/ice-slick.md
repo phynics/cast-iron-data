@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ice_slick", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "69"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: no
 Area: 5-ft.-radius burst
 Descriptors: cold
 :::
-
-**Sources:** Monster Codex pg 69
 
 You create a blast of intense cold, coating all solid surfaces in the area with a thin coating of
 ice. Any creature in the area when the spell is cast takes 1d6 points of cold damage + 1 point per

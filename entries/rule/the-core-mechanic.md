@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_core_mechanic", path = "json/rules_adv_gm02.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "142"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 142
 
 In a pursuit, each group travels along a series of terrain tiles. Each group must complete a certain
 amount of progress to complete a tile and move on. This amount is listed in the terrain tile for

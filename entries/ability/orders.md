@@ -6,12 +6,12 @@ source_ids = ["advanced-players-guide", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "orders", path = "json/class_abilities5.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Advanced Player's Guide
 
 At 1st level, a cavalier must pledge himself to a specific order. The order grants the cavalier a
 number of bonuses, class skills, and special abilities. In addition, each order includes a number of

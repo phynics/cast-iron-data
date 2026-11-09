@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blistering_feint", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "130"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You gain a +2 bonus on feint checks made while wielding a weapon that
 +++
 
 ## Blistering Feint (Combat)
-
-**Sources:** Advanced Race Guide pg 130
 
 Your foes flinch from the heat of your weapon, giving you an opportunity to slip past their
 defenses.\

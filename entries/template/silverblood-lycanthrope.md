@@ -6,6 +6,9 @@ source_ids = ["andoran-birthplace-of-freedom"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "silverblood_lycanthrope", path = "json/monster_template4.json" },
 ]
+[[sources]]
+publication = "andoran-birthplace-of-freedom"
+page = "61"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +2
-
-**Source:** Andoran, Birthplace of Freedom/61
 
 Silverblood werewolves are a rare type of lycanthrope found almost exclusively in the Arthfell
 Forest. They are the survivors of an experimental process conceived by jeweler-turned-werewolf

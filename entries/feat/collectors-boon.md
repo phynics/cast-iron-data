@@ -6,14 +6,15 @@ source_ids = ["chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "collectors_boon", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "chronicle-of-legends"
+page = "24"
 
 [fields]
 kind = "feat"
 prerequisites = "Character level 5th."
 special = "You can't gain the set bonuses of more than one set at a time due to the interference of incompatible sympathetic magical effects. If you have multiple pieces of two or more sets, you must choose the set you gain the benefits of at the start of each day and can't change this decision for 24 hours."
 +++
-
-**Sources:** Chronicle of Legends pg 24
 
 You have a knack for unlocking the true potential of your magical equipment.\
 **Prerequisites:** Character level 5th.

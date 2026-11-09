@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "variant_leadership", path = "json/rules_rulesets01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "132"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 132
 
 While the [Leadership](ref/feat/leadership) feat excels at granting the widest variety of cohorts
 and followers, there are a number of other ways is which you can introduce Leadership into your

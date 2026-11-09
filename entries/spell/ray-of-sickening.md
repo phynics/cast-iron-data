@@ -9,6 +9,12 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/ray-of-exhaustion" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "234"
+[[sources]]
+publication = "dark-markets-a-guide-to-katapesh"
+page = "57"
 
 [fields]
 kind = "spell"
@@ -48,8 +54,6 @@ Effect: ray
 :::
 
 ### Ray of Sickening
-
-**Sources:** Ultimate Magic pg 234, Dark Markets - A Guide to Katapesh pg 57
 
 This spell functions as [ray of exhaustion](ref/spell/ray-of-exhaustion), except the target is
 sickened if it fails its save and unaffected if it makes its save.

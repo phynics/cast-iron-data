@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chill_touch", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "255"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: Fortitude partial or Will negates; see text
 Spell resistance: yes
 Targets: creature or creatures touched (up to one/level)
 :::
-
-**Sources:** PRPG Core Rulebook pg 255
 
 A touch from your hand, which glows with blue energy, disrupts the life force of living creatures.
 Each touch channels negative energy that deals 1d6 points of damage. The touched creature also takes

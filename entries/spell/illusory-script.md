@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "illusory_script", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "299"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Target: one touched object weighing no more than 10 lbs.
 Subschool: Phantasm
 Descriptors: mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 299
 
 You write instructions or other information on parchment, paper, or any suitable writing material.
 The illusory script appears to be some form of foreign or magical writing. Only the person (or

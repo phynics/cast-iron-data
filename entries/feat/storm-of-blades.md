@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "storm_of_blades", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "26"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "As a standard action, you can make a single attack with your chosen w
 +++
 
 ## Storm of Blades (Combat)
-
-**Sources:** Martial Arts Handbook pg 26
 
 Your technique unleashes a dizzying torrent of cuts.\
 **Prerequisites:** [Weapon Focus](ref/feat/weapon-focus) with slashing weapon, base attack bonus +6.\

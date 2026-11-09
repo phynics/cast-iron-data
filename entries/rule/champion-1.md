@@ -6,13 +6,23 @@ source_ids = ["mythic-adventures", "mythic-origins", "distant-shores", "heroes-o
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "champion_1", path = "json/rules_campaign_types07.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "20"
+[[sources]]
+publication = "mythic-origins"
+page = "22"
+[[sources]]
+publication = "distant-shores"
+page = "12"
+[[sources]]
+publication = "heroes-of-golarion"
+page = "30"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 20, Mythic Origins pg 22, Distant Shores pg 12, Heroes of Golarion
-pg 30\
 You can select these path abilities at any tier.
 
 **Aerial Assault (Su):** You can charge at creatures in the air, or leap across obstacles as part of

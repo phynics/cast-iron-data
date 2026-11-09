@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charging_hurler", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "92"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You can use the charge rules to make a thrown weapon attack. All the 
 +++
 
 ## Charging Hurler (Combat)
-
-**Sources:** Ultimate Combat pg 92
 
 You know how to use your momentum to enhance your thrown weapon attacks.\
 **Prerequisites:** [Point-Blank Shot](ref/feat/point-blank-shot).\

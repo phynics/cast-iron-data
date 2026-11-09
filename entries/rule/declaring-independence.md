@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "declaring_independence", path = "json/rules_campaign_types05.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "231"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 231
 
 Though many kingdoms break apart due to military, racial, or religious conflicts, you can divide up
 your kingdom amiably if all leaders agree. During the Event phase, follow these steps.

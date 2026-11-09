@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "multiclassing_pu", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "71"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 71
 
 A multiclassed character uses the class with the lowest number of skill ranks per level to determine
 her number of skill groups. This doesn't cause her to lose skill groups she's already selected if

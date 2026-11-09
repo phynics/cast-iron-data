@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dinosaur_diplodocus", path = "json/monsters08.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "58"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ tail out level behind it._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Bestiary 4 pg 58\
 **Experience points:** 19,200
 
 **Armor class:** 25/4/23

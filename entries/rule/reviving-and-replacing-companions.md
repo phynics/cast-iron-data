@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reviving_and_replacing_companions", path = "json/rules_adv_pc01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "147"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 147
 
 Adventuring is a dangerous career, and sometimes an animal companion, cohort, or familiar dies or is
 lost. A change in your alignment or religion might drive away your cohort, or the cohort's role in

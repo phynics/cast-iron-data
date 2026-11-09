@@ -6,6 +6,9 @@ source_ids = ["pathfinder-104-wrath-of-thrune"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "angel_erelim", path = "json/monsters26.json" },
 ]
+[[sources]]
+publication = "pathfinder-104-wrath-of-thrune"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ _This athletic, winged humanoid has handsome features and wields a shining lance
 
 **Senses:** Darkvision 60 ft., Detect evil, Low-light vision
 
-**Sources:** Pathfinder \#104: Wrath of Thrune pg 84\
 **Subtype:** Angel, Extraplanar, Good
 
 **Experience points:** 2,400

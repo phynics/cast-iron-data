@@ -6,6 +6,9 @@ source_ids = ["pathfinder-96-shadow-of-the-storm-tyrant"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scope_of_stormsight", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "pathfinder-96-shadow-of-the-storm-tyrant"
+page = "18"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "7th"
 +++
 
-**Sources:** Pathfinder \#96: Shadow of the Storm Tyrant pg 18\
 **Aura** moderate divination; **CL** 7th\
 **Slot** none; **Price** 18,000 gp; **Weight** 12 lbs.
 

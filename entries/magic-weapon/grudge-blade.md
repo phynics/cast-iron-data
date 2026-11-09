@@ -6,6 +6,9 @@ source_ids = ["cheliax-empire-of-devils"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grudge_blade", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "cheliax-empire-of-devils"
+page = "20"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "minor necromancy"
 caster_level = "9th"
 +++
 
-**Sources:** Cheliax, Empire of Devils pg 20\
 **Aura** minor necromancy; **CL** 9th\
 **Slot** weapon; **Price** 10,320 gp; **Weight** 2 lbs.
 

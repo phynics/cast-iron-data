@@ -6,6 +6,9 @@ source_ids = ["numeria-land-of-fallen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "numerian_fluid_scavenger", path = "json/npcs2.json" },
 ]
+[[sources]]
+publication = "numeria-land-of-fallen-stars"
+page = "54"
 
 [fields]
 kind = "creature"
@@ -18,7 +21,6 @@ _Bottles and flasks hang from the belt and tattered leather armor or this ragged
 
 **Challenge rating:** 6
 
-**Sources:** Numeria, Land of Fallen Stars pg 54\
 **XP** 2,400\
 Human [alchemist](ref/class/alchemist) 7\
 CN Medium humanoid (human)\

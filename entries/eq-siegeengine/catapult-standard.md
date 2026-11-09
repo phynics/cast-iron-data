@@ -6,6 +6,12 @@ source_ids = ["ultimate-combat", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "catapult_standard", path = "json/equipment_siege_engines.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "162"
+[[sources]]
+publication = "core-rulebook"
+page = "435"
 
 [fields]
 kind = "item"
@@ -14,8 +20,6 @@ weight = "-"
 +++
 
 ## Catapult
-
-**Sources:** Ultimate Combat pg 162, PRPG Core Rulebook pg 435
 
 Catapults are stone-throwing siege engines powered by winched arms that run through torsion skeins,
 and hold their payload in a cup that swings up and over the weapon when released. Catapults can hurl

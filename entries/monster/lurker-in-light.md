@@ -6,6 +6,12 @@ source_ids = ["bestiary-2", "the-great-beyond-a-guide-to-the-multiverse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lurker_in_light", path = "json/monsters16.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "180"
+[[sources]]
+publication = "the-great-beyond-a-guide-to-the-multiverse"
+page = "58"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ transparent wings._
 
 **Size:** small
 
-**Sources:** Bestiary 2 pg 180, The Great Beyond - A Guide to the Multiverse pg 58\
 **Subtype:** Extraplanar
 
 **Experience points:** 1,600

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_mechanism", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "248"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 248
 
 There are dozens of puzzle types, but not all of them are great for every adventure. When designing
 a puzzle, consider the story and environment, and decide whether the mechanism fits.

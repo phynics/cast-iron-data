@@ -6,14 +6,15 @@ source_ids = ["paths-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heritor_knight", path = "json/prestige_classes2.json" },
 ]
+[[sources]]
+publication = "paths-of-the-righteous"
+page = "16"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d10."
 +++
-
-**Sources:** Paths of the Righteous pg 16
 
 Some seek to follow in the footsteps of Iomedae the Inheritor through study of the miracles of her
 mortal life.

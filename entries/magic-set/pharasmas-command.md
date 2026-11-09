@@ -6,13 +6,14 @@ source_ids = ["chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pharasmas_command", path = "json/magic_set.json" },
 ]
+[[sources]]
+publication = "chronicle-of-legends"
+page = "27"
 
 [fields]
 kind = "item"
 category = "Item Sets"
 +++
-
-**Sources:** Chronicle of Legends pg 27
 
 The Lady of Graves oversees the natural cycle of life, death, and rebirth. As such, the very
 existence of undead is anathema to her goals and purpose. [Pharasma](ref/faith/pharasma) commands

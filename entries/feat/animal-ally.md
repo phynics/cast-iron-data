@@ -6,6 +6,9 @@ source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animal_ally", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "faiths-and-philosophies"
+page = "11"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Nature Soul, character level 4th, must not have an animal compa
 prerequisite_feats = ["ref/feat/nature-soul"]
 benefit = "You gain an animal companion as if you were a druid of your character level - 3 from the following list: badger, bird, camel, cat (small), dire rat, dog, horse, pony, snake (viper), or wolf. If you later gain an animal companion through another source (such as the Animal domain, divine bond, hunter's bond, mount, or nature bond class features), the effective druid level granted by this feat stacks with that granted by other sources."
 +++
-
-**Sources:** Faiths and Philosophies pg 11
 
 Your respect for nature is so great that you can form a deep and lasting friendship with an animal.\
 **Prerequisites:** [Nature Soul](ref/feat/nature-soul), character level 4th, must not have an animal

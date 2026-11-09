@@ -6,6 +6,9 @@ source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "air_tank_pressurized", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
+page = "56"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "25 gp"
 weight = "30 lbs."
 +++
 
-**Sources:** Aquatic Adventures pg 56\
 **Price** 25 gp; **Weight** 30 lbs.\
 **Category** Adventuring Gear
 

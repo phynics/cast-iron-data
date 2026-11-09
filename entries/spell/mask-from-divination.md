@@ -9,6 +9,12 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/nondetection" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "125"
+[[sources]]
+publication = "arcane-anthology"
+page = "14"
 
 [fields]
 kind = "spell"
@@ -48,8 +54,6 @@ Saving throw: Will negates (harmless) (object)
 Spell resistance: yes (harmless) (object)
 Target: creature touched
 :::
-
-**Sources:** Adventurer's Guide pg 125, Arcane Anthology pg 14
 
 As part of the action used to cast this spell, you place the mask used as the focus component on the
 target's face, after which it adheres tightly to the target for the spell's duration and cannot be

@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "holy_symbol_gold", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "57"
+[[sources]]
+publication = "npc-codex"
+page = "56, 58"
 
 [fields]
 kind = "item"
@@ -16,7 +22,6 @@ weight = "1 lb. (gold, iron, cold iron, platinum, silver), - (wooden)"
 
 ## Holy symbol
 
-**Sources:** Ultimate Equipment pg 57, NPC Codex pg. 56, 58\
 **Price** 100 gp (gold), 5 gp (iron), 500 gp (cold iron or platinum), 25 gp (silver), 1 gp (wooden);
 **Weight** 1 lb. (gold, iron, cold iron, platinum, silver), - (wooden)
 

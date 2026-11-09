@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mantle_of_the_darkest_night", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "221"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Sources:** Horror Adventures pg 221\
 **Aura** faint evocation; **CL** 5th\
 **Slot** shoulders; **Price** 6,000 gp; **Weight** -
 

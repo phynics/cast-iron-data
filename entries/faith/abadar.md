@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "planar-adventures", "weapon-masters-handbook", 
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "abadar", path = "json/faiths.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "12"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Abadar**
 
 **Sub:** Master of the First Vault
-
-**Sources:** Inner Sea Gods pg 12
 
 ### Details
 

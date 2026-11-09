@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "joyful_rapture", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "225"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Area: all allies and opponents within a 60-ft.-radius burst centered on you
 Subschool: Healing
 Descriptors: emotion
 :::
-
-**Sources:** Ultimate Magic pg 225
 
 Your inspired words overwhelm others with transcendental bliss. All allies within the area of effect
 are freed from any harmful emotion effects. The spell also cures 1d4 points of Intelligence, Wisdom,

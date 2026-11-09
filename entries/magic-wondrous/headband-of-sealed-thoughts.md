@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "headband_of_sealed_thoughts", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "152"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration"
 caster_level = "15th"
 +++
 
-**Sources:** Mythic Adventures pg 152\
 **Aura** strong abjuration; **CL** 15th\
 **Slot** headband; **Price** 150,000 gp; **Weight** 1 lb.
 

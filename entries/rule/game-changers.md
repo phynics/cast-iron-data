@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "game_changers", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "46"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 46
 
 When you play a campaign long enough, the rules change. The characters that once limped into the
 village to beg for healing now use magic to cross continents, consult with extradimensional powers,

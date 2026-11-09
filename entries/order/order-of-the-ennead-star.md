@@ -6,13 +6,14 @@ source_ids = ["path-of-the-hellknight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "order_of_the_ennead_star", path = "json/class_ability_orders.json" },
 ]
+[[sources]]
+publication = "path-of-the-hellknight"
+page = "58"
 
 [fields]
 kind = "class_option"
 group = "order"
 +++
-
-**Sources:** Path of the Hellknight pg 58
 
 Cavaliers belonging to this order have joined the [Hellknight](ref/rule/aff-lawknights) crusade
 against chaos, adopting a life of ironclad discipline and swearing to thwart disorder by any means.

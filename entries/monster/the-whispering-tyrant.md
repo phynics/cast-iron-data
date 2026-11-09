@@ -6,6 +6,9 @@ source_ids = ["mythic-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_whispering_tyrant", path = "json/monsters_unique3.json" },
 ]
+[[sources]]
+publication = "mythic-realms"
+page = "62"
 
 [fields]
 kind = "creature"
@@ -48,7 +51,6 @@ by a palpable aura of death._
 
 **Senses:** Darkvision 60 ft., See in darkness, Spell perception
 
-**Sources:** Mythic Realms pg 62\
 **Subtype:** Augmented humanoid, Human, Mythic
 
 **Type:** undead

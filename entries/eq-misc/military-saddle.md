@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "military_saddle", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "81"
+[[sources]]
+publication = "core-rulebook"
+page = "159"
 
 [fields]
 kind = "item"
@@ -16,7 +22,6 @@ weight = "40 lbs. (exotic, military), 20 lbs. (exotic, pack), 30 lbs. (exotic, r
 
 ## Saddle
 
-**Sources:** Ultimate Equipment pg 81, PRPG Core Rulebook pg 159\
 **Price** 60 gp (exotic, military), 15 gp (exotic, pack), 30 gp (exotic, riding), 20 gp (military),
 5 gp (pack), 10 gp (riding); **Weight** 40 lbs. (exotic, military), 20 lbs. (exotic, pack), 30 lbs.
 (exotic, riding), 30 lbs. (military), 15 lbs. (pack), 25 lbs. (riding)

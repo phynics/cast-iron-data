@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/occultist" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "63"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Magic item skill", "object reading", "Shift focus", "Aura sight, 5t
 alters = ["Implements"]
 +++
 
-**Sources:** Horror Adventures pg 63\
 Talisman crafters specialize in the creation of seals, constructing master talismans to use as
 implements and inscribing wards with esoteric geometry.
 

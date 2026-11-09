@@ -6,6 +6,9 @@ source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "saboteurs_gloves", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "55"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "8th"
 +++
 
-**Sources:** Inner Sea Intrigue pg 55\
 **Aura** moderate abjuration; **CL** 8th\
 **Slot** hands; **Price** 15,240 gp; **Weight** 1/2 lb.
 

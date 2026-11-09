@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beyond_the_kingdom", path = "json/rules_campaign_types05.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "236"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 236
 
 The mass combat rules often refer to aspects of the kingdom building rules, such as Loyalty checks
 and a kingdom's Control DC. If you aren't running a kingdom, substitute a Will save for a Loyalty

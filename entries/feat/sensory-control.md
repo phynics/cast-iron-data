@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sensory_control", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "blood-of-the-beast"
+page = "29"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "A monk with this feat can select Improved Blind-Fight as a bonus feat
 +++
 
 ## Sensory Control (Meditation)
-
-**Sources:** Blood of the Beast pg 29
 
 Meditation focuses your powers of observation.\
 **Prerequisites:** Wis 15, [Blind-Fight](ref/feat/blind-fight),

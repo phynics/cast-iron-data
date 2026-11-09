@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pellet_blast", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "238"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: no
 Area: cone-shaped burst
 Subschool: Creation
 :::
-
-**Sources:** Ultimate Combat pg 238
 
 This spell creates an explosion of conjured metal pellets, striking everything within its area and
 dealing 1d8 points of piercing damage per two caster levels, maximum 5d8. This damage is subject to

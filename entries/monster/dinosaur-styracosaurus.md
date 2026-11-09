@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dinosaur_styracosaurus", path = "json/monsters08.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "59"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ sweeping back from its skull._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Bestiary 4 pg 59\
 **Experience points:** 1,600
 
 **Armor class:** 19/10/18

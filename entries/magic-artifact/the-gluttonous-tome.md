@@ -6,6 +6,9 @@ source_ids = ["magic-of-thassilon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_gluttonous_tome", path = "json/magic_artifact3.json" },
 ]
+[[sources]]
+publication = "magic-of-thassilon"
+page = "2"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "overwhelming necromancy"
 caster_level = "20th"
 +++
 
-**Sources:** Magic of Thassilon pg 2\
 **Aura** overwhelming necromancy; **CL** 20th\
 **Slot** held; **Price** priceless; **Weight** 3 lbs. per section
 

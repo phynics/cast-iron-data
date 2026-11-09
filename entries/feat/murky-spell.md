@@ -6,6 +6,9 @@ source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "murky_spell", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
+page = "58"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "You can apply Murky Spell only to a mist or fog spell that normally d
 +++
 
 ## Murky Spell (Metamagic)
-
-**Sources:** Aquatic Adventures pg 58
 
 You can call upon murky sediments in the water to transform a mist spell underwater.\
 **Benefit:** You can apply Murky Spell only to a mist or fog spell that normally doesn't work

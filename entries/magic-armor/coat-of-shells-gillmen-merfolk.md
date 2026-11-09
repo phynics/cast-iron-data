@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "coat_of_shells_gillmen_merfolk", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "224"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Sources:** Inner Sea Races pg 224\
 **Aura** moderate transmutation; **CL** 7th\
 **Slot** armor; **Price** 15,350 gp; **Weight** 20 lbs.
 

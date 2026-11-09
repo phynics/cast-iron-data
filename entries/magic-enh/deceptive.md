@@ -6,6 +6,9 @@ source_ids = ["pathfinder-society-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deceptive", path = "json/magic_enhancements.json" },
 ]
+[[sources]]
+publication = "pathfinder-society-primer"
+page = "14"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate illusion"
 caster_level = "9th"
 +++
 
-**Sources:** Pathfinder Society Primer pg 14\
 **Aura** moderate illusion; **CL** 9th\
 **Slot** none; **Price** +1 bonus; **Weight** -
 

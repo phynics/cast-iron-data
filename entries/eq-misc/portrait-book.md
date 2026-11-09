@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "portrait_book", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "77"
+[[sources]]
+publication = "advanced-players-guide"
+page = "185"
 
 [fields]
 kind = "item"
@@ -14,7 +20,6 @@ price = "10 gp"
 weight = "3 lbs."
 +++
 
-**Sources:** Ultimate Equipment pg 77, Advanced Player's Guide pg 185\
 **Price** 10 gp; **Weight** 3 lbs.\
 **Category** Tools
 

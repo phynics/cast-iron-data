@@ -6,6 +6,9 @@ source_ids = ["book-of-the-damned-volume-3-horsemen-of-the-apocalypse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "death_knell_aura", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned-volume-3-horsemen-of-the-apocalypse"
+page = "38"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: yes
 Area: 20-ft.-radius emanation, centered on you
 Descriptors: death, evil
 :::
-
-**Sources:** Book of the Damned - Volume 3: Horsemen of the Apocalypse pg 38
 
 You gain a shimmering gray aura that feeds on the souls of creatures who die within it. The aura
 sheds light as a candle. If a creature at -1 or fewer hit points is within the aura at the start of

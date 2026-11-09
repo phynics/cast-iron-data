@@ -6,6 +6,9 @@ source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elixir_of_two_worlds", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
+page = "62"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation"
 caster_level = "15th"
 +++
 
-**Sources:** Aquatic Adventures pg 62\
 **Aura** strong transmutation; **CL** 15th\
 **Slot** none; **Price** 5,000 gp; **Weight** 1/2 lb.
 

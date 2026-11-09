@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thicken_ogre", path = "json/monster_template4.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "152"
 
 [fields]
 kind = "none"
@@ -18,8 +21,6 @@ kind = "none"
 **Inherited:** present
 
 **Simple:** present
-
-**Source:** Monster Codex/152
 
 [Ogres](ref/monster/ogre) with the thicken template have huge, oversized heads and razor-sharp
 teeth.

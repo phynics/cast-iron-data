@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gozrehs_trident", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "235"
+[[sources]]
+publication = "gods-and-magic"
+page = "19"
 
 [fields]
 kind = "spell"
@@ -44,8 +50,6 @@ Spell resistance: yes
 Effect: trident-like bolt of electricity
 Descriptors: electricity
 :::
-
-**Sources:** Inner Sea Gods pg 235, Gods and Magic pg 19
 
 A 4-foot-long, blazing, forked bolt of electricity springs forth from your hand. You wield this
 spear-like bolt as if it were a trident (you are considered proficient with the bolt). Attacks with

@@ -6,12 +6,13 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "type_h", path = "json/rules_adv_gm07.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "367"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Equipment pg 367
 
 Rewards from this type of treasure represent the kinds of items that might be found in the lair of
 one or more creatures. Though they can be of any type, this treasure tends to include a fair number

@@ -6,6 +6,12 @@ source_ids = ["artifacts-and-legends", "pathfinder-42-sanctum-of-the-serpent-god
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skull_of_ydersius", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "artifacts-and-legends"
+page = "48"
+[[sources]]
+publication = "pathfinder-42-sanctum-of-the-serpent-god"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "overwhelming all"
 caster_level = "30th"
 +++
 
-**Sources:** Artifacts and Legends pg 48, Pathfinder \#42: Sanctum of the Serpent God pg 60\
 **Aura** overwhelming all; **CL** 30th\
 **Slot** none; **Price** -; **Weight** 150 lbs.
 

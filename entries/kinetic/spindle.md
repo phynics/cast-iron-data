@@ -6,6 +6,9 @@ source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spindle", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
+page = "22"
 
 [fields]
 kind = "class_option"
@@ -23,8 +26,6 @@ group = "kineticist-wild-talent"
 **Associated:** any
 
 **Saving throw:** Reflex negates (see text)
-
-**Source:** Elemental Master's Handbook/22
 
 You throw a long, roughly 5-foot-by-10-foot spindle of elemental matter or energy (or nearby
 unattended objects in the case of telekineticists) up to 30 feet away, damaging all creatures and

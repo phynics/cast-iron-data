@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drums_of_lethargy", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "345"
 
 [fields]
 kind = "item"
@@ -15,8 +18,6 @@ slot = "none"
 aura = "faint transmutation"
 caster_level = "5th"
 +++
-
-**Sources:** Ultimate Equipment pg 345
 
 **Aura** faint transmutation; **CL** 5th\
 **Slot** none; **Weight** 5 lbs.

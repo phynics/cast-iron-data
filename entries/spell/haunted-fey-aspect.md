@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "haunted_fey_aspect", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "230"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Target: You
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** Ultimate Combat pg 230
 
 You surround yourself with disturbing illusions, making you look and sound like a bizarre, insane
 fey creature. You gain DR 1/cold iron against a single opponent until the end of the spell, or until

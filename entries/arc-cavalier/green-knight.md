@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cavalier" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "44"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Tactician", "Mount", "Cavalier's charge", "Expert trainer", "banner
 alters = ["Order"]
 +++
 
-**Sources:** Ultimate Wilderness pg 44\
 Some knights serve nature itself and can be found protecting unspoiled natural places or serving fey
 beings.
 

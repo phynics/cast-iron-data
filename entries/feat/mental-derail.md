@@ -6,14 +6,15 @@ source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mental_derail", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "heroes-of-golarion"
+page = "9"
 
 [fields]
 kind = "feat"
 prerequisites = "Goblin."
 benefit = "You can shout nonsense as a swift action to throw off an enemy. Choose a single target that can hear you. It must attempt a Will saving throw (DC = 10 + half your level + your Charisma modifier). On a failed save, the target is caught off guard, and it takes a -2 penalty on attack rolls and Strength- and Dexterity-based skill checks until the end of its turn. Whether or not the save is successful, a creature cannot be the target of this ability again for 24 hours. This is a mind-affecting effect."
 +++
-
-**Sources:** Heroes of Golarion pg 9
 
 Your logic is so ridiculous it can cause people's brains to shut down in self-defense.\
 **Prerequisites:** [Goblin](ref/race/goblin).\

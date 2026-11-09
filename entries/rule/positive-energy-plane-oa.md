@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "positive_energy_plane_oa", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "239"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 239
 
 The Positive Energy Plane is the source of all life, the Cosmic Fire at the heart of the multiverse
 that gives birth to mortal souls. The plane has no surface and exists as an emanation of life-giving

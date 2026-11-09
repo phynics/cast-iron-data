@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cavalier" },
 ]
+[[sources]]
+publication = "monster-hunters-handbook"
+page = "13"
 
 [fields]
 kind = "archetype"
 replaces = ["Mount", "Cavalier's charge", "Expert trainer", "Banner", "greater banner", "Mighty charge", "Supreme charge"]
 +++
 
-**Sources:** Monster Hunter's Handbook pg 13\
 The [Hellknight](ref/rule/aff-lawknights)
 [Order of the Pike](ref/hkorder/order-of-the-pike-minor-order) are renowned monster hunters, taking
 on large game using ancient weapon arts combined with modern equipment.

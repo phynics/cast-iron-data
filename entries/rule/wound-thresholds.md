@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wound_thresholds", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "136"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 136
 
 In a standard Pathfinder game, when a dragon with 800 hit points has taken 798 points of damage,
 it's still fighting at full capacity, but as soon as it has taken 801 points of damage, it's knocked

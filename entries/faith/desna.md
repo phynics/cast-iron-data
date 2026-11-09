@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "planar-adventures", "divine-anthology", "pathfi
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "desna", path = "json/faiths3.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "44"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Desna**
 
 **Sub:** Song of the Spheres
-
-**Sources:** Inner Sea Gods pg 44
 
 ### Details
 

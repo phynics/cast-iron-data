@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bludgeoner", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "90"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "A rogue with this feat can use a lethal bludgeoning weapon to deal no
 +++
 
 ## Bludgeoner (Combat)
-
-**Sources:** Ultimate Combat pg 90
 
 You can knock foes out cold with just about any blunt instrument.\
 **Benefit:** You take no penalty on attack rolls for using a lethal bludgeoning weapon to deal

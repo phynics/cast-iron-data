@@ -8,12 +8,14 @@ parent = "ref/umr/multiweapon-mastery"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "json/umr.json#multiweapon_mastery|section:multiweapon-mastery", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "297"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Bestiary 3 pg 297\
 The creature never takes penalties on its attack rolls when fighting with multiple weapons.
 
 **Format**

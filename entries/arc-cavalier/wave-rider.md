@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cavalier" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "47"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Weapon and armor proficiencies"]
 alters = ["Mount"]
 +++
 
-**Sources:** Inner Sea Combat pg 47\
 Throughout the Inner Sea region, wave riders patrol harbors, keeping them safe from dangerous sea
 creatures and watching for smugglers. The most famous of these is the hippocampus-riding Sea Cavalry
 of Absalom.

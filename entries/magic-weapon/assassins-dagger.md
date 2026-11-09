@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "assassins_dagger", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "150"
+[[sources]]
+publication = "core-rulebook"
+page = "471"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate necromancy"
 caster_level = "9th"
 +++
 
-**Sources:** Ultimate Equipment pg 150, PRPG Core Rulebook pg 471\
 **Aura** moderate necromancy; **CL** 9th\
 **Slot** none; **Price** 10,302 gp; **Weight** 1 lb.
 

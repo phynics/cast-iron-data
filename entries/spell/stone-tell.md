@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stone_tell", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "349"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** PRPG Core Rulebook pg 349
 
 You gain the ability to speak with stones, which relate to you who or what has touched them as well
 as revealing what is covered or concealed behind or under them. The stones relate complete

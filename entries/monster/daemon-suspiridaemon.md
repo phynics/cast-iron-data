@@ -6,6 +6,12 @@ source_ids = ["bestiary-6", "book-of-the-damned-volume-3-horsemen-of-the-apocaly
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daemon_suspiridaemon", path = "json/monsters06.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "76"
+[[sources]]
+publication = "book-of-the-damned-volume-3-horsemen-of-the-apocalypse"
+page = "56"
 
 [fields]
 kind = "creature"
@@ -46,7 +52,6 @@ arms that end in claws._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 6 pg 76, Book of the Damned - Volume 3: Horsemen of the Apocalypse pg 56\
 **Subtype:** Daemon, Evil, Extraplanar
 
 **Experience points:** 3,200

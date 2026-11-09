@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "detailing_your_world", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "142"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 142
 
 Game designers work for months on setting sourcebooks, novelists agonize for years over how their
 world might work, and screenplay writers have production designers and art directors helping them

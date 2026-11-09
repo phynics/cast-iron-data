@@ -6,12 +6,17 @@ source_ids = ["inner-sea-races", "bestiary-4", "heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wyrwood", path = "json/races4.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "253"
+[[sources]]
+publication = "bestiary-4"
+page = "280"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Inner Sea Races pg 253, Bestiary 4 pg 280\
 Though obviously a wooden construct, this small, nimble creature moves fluidly and purposefully.
 
 This relatively young race was created by a cabal of wizards who needed nimble and skilled construct

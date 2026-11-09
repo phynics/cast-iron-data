@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "word_of_chaos", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "371"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: yes
 Area: nonchaotic creatures in a 40-ft. radius spread centered on you
 Descriptors: chaotic, sonic
 :::
-
-**Sources:** PRPG Core Rulebook pg 371
 
 Any nonchaotic creature within the area of a word of chaos spell suffers the following ill effects,
 depending on their HD.

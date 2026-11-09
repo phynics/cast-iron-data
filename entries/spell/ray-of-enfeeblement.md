@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ray_of_enfeeblement", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "329"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: Fortitude half
 Spell resistance: yes
 Effect: ray
 :::
-
-**Sources:** PRPG Core Rulebook pg 329
 
 A coruscating ray springs from your hand. You must succeed on a ranged touch attack to strike a
 target. The subject takes a penalty to Strength equal to 1d6+1 per two caster levels (maximum

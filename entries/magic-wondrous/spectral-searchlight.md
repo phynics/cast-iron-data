@@ -6,6 +6,9 @@ source_ids = ["pathfinder-71-rasputin-must-die"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spectral_searchlight", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "pathfinder-71-rasputin-must-die"
+page = "61"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination and evocation [light]"
 caster_level = "3rd"
 +++
 
-**Sources:** Pathfinder \#71: Rasputin Must Die! pg 61\
 **Aura** faint divination and evocation \[light\]; **CL** 3rd\
 **Slot** none; **Price** 24,050 gp; **Weight** 200 lbs.
 

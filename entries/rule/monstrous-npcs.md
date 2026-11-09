@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monstrous_npcs", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "85"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 85
 
 The concept of NPC includes any and all creatures not controlled by a player, although NPCs are
 commonly associated with a measure of deliberateness and design work, while monsters are more likely

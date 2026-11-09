@@ -6,6 +6,9 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "noble_noble_scion", path = "json/npcs.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "288"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "2"
 
 **Challenge rating:** 2
 
-**Sources:** GameMastery Guide pg 288\
 **XP** 600\
 Human [aristocrat](ref/npcclass/aristocrat) 4\
 N Medium humanoid\

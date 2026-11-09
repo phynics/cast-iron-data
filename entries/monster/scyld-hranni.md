@@ -6,6 +6,9 @@ source_ids = ["giants-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scyld_hranni", path = "json/monsters_unique3.json" },
 ]
+[[sources]]
+publication = "giants-revisited"
+page = "56"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ and a coral-encrusted shield._
 
 **Senses:** Low-light vision
 
-**Sources:** Giants Revisited pg 56\
 **Subtype:** Giant
 
 **Experience points:** 307,200

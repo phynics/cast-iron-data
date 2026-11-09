@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/ethereal-jaunt" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "279"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Saving throw: none
 Spell resistance: no
 Targets: you and one other touched creature per three levels
 :::
-
-**Sources:** PRPG Core Rulebook pg 279
 
 This spell functions like [ethereal jaunt](ref/spell/ethereal-jaunt), except that you and other
 willing creatures joined by linked hands (along with their equipment) become ethereal. Besides

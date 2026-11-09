@@ -6,6 +6,9 @@ source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_tattoo", path = "json/magic_tattoo.json" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "16"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "varies"
 caster_level = "varies"
 +++
 
-**Sources:** Inner Sea Magic pg 16\
 **Aura** varies; **CL** varies\
 **Slot** none; **Price** varies; **Weight** -
 

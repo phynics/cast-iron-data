@@ -6,6 +6,9 @@ source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "debilitating_pain", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "10"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: mind-affecting, pain
 :::
-
-**Sources:** Psychic Anthology pg 10
 
 The target is overcome with intense pain, causing it to be stunned on a failed save or dazed for 1
 round on a successful save.

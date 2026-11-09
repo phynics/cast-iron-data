@@ -6,12 +6,13 @@ source_ids = ["numeria-land-of-fallen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "numerian_fluids", path = "json/drugs.json" },
 ]
+[[sources]]
+publication = "numeria-land-of-fallen-stars"
+page = "28"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Numeria, Land of Fallen Stars pg 28
 
 **Type:** ingested
 

@@ -6,6 +6,9 @@ source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vest_of_shed_servitude", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "faiths-and-philosophies"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Sources:** Faiths and Philosophies pg 31\
 **Aura** moderate necromancy; **CL** 7th\
 **Slot** chest; **Price** 4,000 gp; **Weight** 2 lbs.
 

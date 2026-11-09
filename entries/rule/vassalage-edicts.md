@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vassalage_edicts", path = "json/rules_campaign_types05.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "233"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 233
 
 Vassalage edicts are special edicts that allow you to cede a portion of your lands (or unclaimed
 lands you deem yours to take) to a subordinate leader, sponsoring that leader's rulership in

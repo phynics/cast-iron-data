@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "linnorm_tor_linnorm", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "185"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ serpentine body._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent, True seeing
 
-**Sources:** Bestiary 3 pg 185\
 **Experience points:** 409,600
 
 **Armor class:** 37/12/27

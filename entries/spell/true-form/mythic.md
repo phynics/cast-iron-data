@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/true-form", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "110"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 110\
 The spell's target changes to up to one creature per 2 caster levels. If a target is a creature that
 has the ability to change shape between a specific set of forms (such as a barghest or lycanthrope),
 you may choose which form the creature takes. To force such a creature into a form, you must have

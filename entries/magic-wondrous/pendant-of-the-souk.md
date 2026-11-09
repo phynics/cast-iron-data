@@ -6,6 +6,9 @@ source_ids = ["pathfinder-61-shards-of-sin"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pendant_of_the_souk", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "pathfinder-61-shards-of-sin"
+page = "65"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Sources:** Pathfinder \#61: Shards of Sin pg 65\
 **Aura** faint divination; **CL** 3rd\
 **Slot** neck; **Price** 4,000 gp; **Weight** -
 

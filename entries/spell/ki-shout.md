@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ki_shout", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "226"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes
 Target: one living creature
 Descriptors: sonic
 :::
-
-**Sources:** Ultimate Magic pg 226
 
 With a guttural bark, you unleash a sudden blast of sonic energy that strikes your opponent. The
 target takes 1d6 points of sonic damage per level (maximum 20d6) and is stunned for 1 round; a

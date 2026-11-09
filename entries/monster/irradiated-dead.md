@@ -6,6 +6,9 @@ source_ids = ["pathfinder-87-the-choking-tower"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "irradiated_dead", path = "json/monsters33.json" },
 ]
+[[sources]]
+publication = "pathfinder-87-the-choking-tower"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ eyes stare, unblinking but seething with rage._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#87: The Choking Tower pg 84\
 **Type:** undead
 
 **Experience points:** 3,200

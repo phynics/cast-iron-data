@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/gunslinger" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "13"
 
 [fields]
 kind = "archetype"
 replaces = ["Deadeye", "Quick clear", "Expert loading", "Gun training"]
 +++
 
-**Sources:** Technology Guide pg 13\
 Techslingers spurn unreliable gunpowder weapons in favor of high-tech armaments. They learn to
 master the quirks of [timeworn technology](ref/rule/timeworn-technology) and methods of keeping
 weapons charged in a primitive world. Techslingers still start play with the black powder

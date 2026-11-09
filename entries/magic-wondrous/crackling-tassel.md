@@ -6,6 +6,9 @@ source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crackling_tassel", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "merchants-manifest"
+page = "10"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "6th"
 +++
 
-**Sources:** Merchant's Manifest pg 10\
 **Aura** moderate evocation; **CL** 6th\
 **Slot** none; **Price** 2,500 gp; **Weight** -
 

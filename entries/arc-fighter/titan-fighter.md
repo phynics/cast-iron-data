@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/fighter" },
 ]
+[[sources]]
+publication = "giant-hunters-handbook"
+page = "21"
 
 [fields]
 kind = "archetype"
 replaces = ["The fighter's 1st level bonus feat", "Armor training", "Weapon training"]
 +++
 
-**Sources:** Giant Hunter's Handbook pg 21\
 Titan fighters make use of enormous weapons others can barely lift. Titan fighters have the
 following class features.
 

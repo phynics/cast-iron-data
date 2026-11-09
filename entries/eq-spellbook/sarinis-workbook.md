@@ -6,6 +6,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sarinis_workbook", path = "json/equipment_spellbooks.json" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "26"
 
 [fields]
 kind = "item"
@@ -16,8 +19,6 @@ category = "Spellbooks"
 
 _This book appears to be more of a personal journal than a magical tome. The soft leather binding is
 worn, and many pages bear the telltale creases of dog-ears and stains of spilled wine._
-
-**Sources:** Arcane Anthology pg 26
 
 **Value** 4,295 gp (4,670 gp with the preparation ritual)
 

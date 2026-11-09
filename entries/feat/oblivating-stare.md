@@ -6,6 +6,9 @@ source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oblivating_stare", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "spymasters-handbook"
+page = "21"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can cause a target of your hypnotic stare to lose track of creatu
 +++
 
 ## Oblivating Stare (Stare)
-
-**Sources:** Spymaster's Handbook pg 21
 
 Your stare can cause a target to lose track of someone.\
 **Prerequisites:** [Allure](ref/stare/allure) bold stare improvement, hypnotic stare class feature,

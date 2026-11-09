@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "limited_magic", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "146"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 146
 
 As a character gains caster levels under the normal magic system, the efficacy of her spells can
 swing wildly, necessitating a constant reevaluation of each spell's utility. The limited magic rules

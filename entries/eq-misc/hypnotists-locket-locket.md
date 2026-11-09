@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hypnotists_locket_locket", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "249"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "1 lb. (locket), 1 lb. (pocket watch)"
 
 ## Hypnotist's locket
 
-**Sources:** Occult Adventures pg 249\
 **Price** 15 gp (locket), 250 gp (pocket watch); **Weight** 1 lb. (locket), 1 lb. (pocket watch)
 
 A small, elliptical metal case containing a small portrait or keepsake, a hypnotist's locket can be

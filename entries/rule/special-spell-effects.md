@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "special_spell_effects", path = "json/rules_basics04.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "208"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 208
 
 Once you know which creatures (or objects or areas) are affected, and whether those creatures have
 made successful saving throws (if any were allowed), you can apply whatever results a spell entails.

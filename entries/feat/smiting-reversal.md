@@ -6,6 +6,9 @@ source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "smiting_reversal", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "agents-of-evil"
+page = "19"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Three times per day after being targeted by the smite attack of an en
 +++
 
 ## Smiting Reversal (Combat)
-
-**Sources:** Agents of Evil pg 19
 
 Your can withstand the onslaught of holy or unholy forces.\
 **Prerequisites:** [Power Attack](ref/feat/power-attack), [Toughness](ref/feat/toughness).\

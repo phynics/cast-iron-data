@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/stunning-barrier" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "195"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Spell resistance: no and yes (see text)
 :::
 
 ### Greater Stunning Barrier
-
-**Sources:** Advanced Class Guide pg 195
 
 This spell functions as [stunning barrier](ref/spell/stunning-barrier), except as noted above, and
 it provides a +2 bonus to AC and on saving throws. It is not discharged until it has stunned a

@@ -10,6 +10,9 @@ relations = [
   { kind = "prerequisite", target = "ref/feat/intimidating-prowess", label = "or" },
   { kind = "prerequisite", target = "ref/feat/persuasive", label = "or" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "36"
 
 [fields]
 kind = "feat"
@@ -20,8 +23,6 @@ benefit = "While using Diplomacy or Intimidate to shift the attitude of a creatu
 +++
 
 ## Tag-Team Interrogation (Teamwork)
-
-**Sources:** Adventurer's Guide pg 36
 
 You and your partner work together to bewilder a target, alternating between fear and kindness.\
 **Prerequisites:** [Intimidating Prowess](ref/feat/intimidating-prowess) or

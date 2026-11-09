@@ -6,6 +6,9 @@ source_ids = ["pathfinder-27-what-lies-in-dust"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "idol_jade", path = "json/monsters14.json" },
 ]
+[[sources]]
+publication = "pathfinder-27-what-lies-in-dust"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ miniature._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#27: What Lies in Dust pg 82\
 **Experience points:** 1,200
 
 **Armor class:** 20/17/16

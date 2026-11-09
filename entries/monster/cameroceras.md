@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cameroceras", path = "json/monsters04.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "49"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ above a mass of tentacles._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 5 pg 49\
 **Subtype:** Aquatic
 
 **Experience points:** 12,800

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/mesmerist" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "37"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Towering ego", "Touch treatment", "Rule minds"]
 alters = ["Spellcasting"]
 +++
 
-**Sources:** Ultimate Intrigue pg 37\
 Most mesmerists draw psychic power from the Astral Plane, but a few gain their powers in an unusual
 way: from a brush with the fey. Prisoner-guests of the fey, these souls find themselves changed when
 they return to the mortal world, infused with the eldritch energy of their former hosts.

@@ -6,14 +6,18 @@ source_ids = ["inner-sea-world-guide", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "harrower", path = "json/prestige_classes2.json" },
 ]
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "276"
+[[sources]]
+publication = "pathfinder-campaign-setting"
+page = "224"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d6."
 +++
-
-**Sources:** Inner Sea World Guide pg 276, Pathfinder Campaign Setting pg 224
 
 One of the most mysterious and mystical Varisian traditions, and certainly one that has captured the
 imaginations and curiosity of many of the Inner Sea's peoples, is the harrowing. Using a special

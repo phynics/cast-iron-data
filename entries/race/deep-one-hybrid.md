@@ -6,12 +6,14 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deep_one_hybrid", path = "json/races.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "70"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Bestiary 5 pg 70\
 Deep one hybrids are the spawn of humans and [deep ones](ref/subtype/deep-one). They are most
 comfortable with others of their kind, and typically cluster in small, insular settlements where
 they can assume positions of authority. They keep any humans within their towns subservient and

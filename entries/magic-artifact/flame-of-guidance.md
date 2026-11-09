@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "lost-cities-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flame_of_guidance", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "337"
+[[sources]]
+publication = "lost-cities-of-golarion"
+page = "42"
 
 [fields]
 kind = "item"
@@ -16,8 +22,6 @@ slot = "none"
 aura = "strong transmutation"
 caster_level = "20th"
 +++
-
-**Sources:** Ultimate Equipment pg 337, Lost Cities of Golarion pg 42
 
 **Aura** strong transmutation; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 1 lb.

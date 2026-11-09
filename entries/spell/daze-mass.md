@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/daze" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "216"
 
 [fields]
 kind = "spell"
@@ -58,7 +61,5 @@ Descriptors: mind-affecting
 :::
 
 ### Mass Daze
-
-**Sources:** Ultimate Magic pg 216
 
 This spell functions as [daze](ref/spell/daze), except as noted above.

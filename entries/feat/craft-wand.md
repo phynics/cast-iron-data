@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "craft_wand", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "120"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can create a wand of any 4th-level or lower spell that you know. 
 +++
 
 ## Craft Wand (Item Creation)
-
-**Sources:** PRPG Core Rulebook pg 120
 
 You can create magic wands.\
 **Prerequisites:** Caster level 5th.\

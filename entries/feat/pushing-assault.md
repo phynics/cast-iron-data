@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pushing_assault", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "167"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you hit a creature your size or smaller with a two-handed weapon
 +++
 
 ## Pushing Assault (Combat)
-
-**Sources:** Advanced Player's Guide pg 167
 
 A strike made with a two-handed weapon can push a similar sized opponent backward.\
 **Prerequisites:** Str 15, [Power Attack](ref/feat/power-attack), base attack bonus +1.\

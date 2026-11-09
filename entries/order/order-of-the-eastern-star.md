@@ -6,13 +6,14 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "order_of_the_eastern_star", path = "json/class_ability_orders.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "116"
 
 [fields]
 kind = "class_option"
 group = "order"
 +++
-
-**Sources:** Occult Adventures pg 116
 
 This cavalier order exists to keep dangerous secrets hidden from the world and secretly protect the
 world against unimaginable threats from beyond the mortal realms. These cavaliers scout and observe,

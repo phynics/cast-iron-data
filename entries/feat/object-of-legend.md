@@ -6,6 +6,9 @@ source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "object_of_legend", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "quests-and-campaigns"
+page = "16"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "This feat may be taken more than once. Each time it is taken, select 
 +++
 
 ## Object of Legend (Story)
-
-**Sources:** Quests and Campaigns pg 16
 
 The object of your quest drives you ever forward.\
 **Prerequisites:** You must have some highly personal stake in attaining the object of your quest as

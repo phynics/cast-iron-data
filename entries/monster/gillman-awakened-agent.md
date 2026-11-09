@@ -6,6 +6,9 @@ source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gillman_awakened_agent", path = "json/monsters12.json" },
 ]
+[[sources]]
+publication = "inner-sea-monster-codex"
+page = "33"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ sickly gillman. Abnormal muscles and joints flex just beneath his flesh._
 
 **Perception:** +9
 
-**Sources:** Inner Sea Monster Codex pg 33\
 **Subtype:** Aquatic
 
 **Experience points:** 12,800

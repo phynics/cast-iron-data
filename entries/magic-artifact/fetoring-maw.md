@@ -6,6 +6,9 @@ source_ids = ["pathfinder-140-eulogy-for-roslars-coffer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fetoring_maw", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "pathfinder-140-eulogy-for-roslars-coffer"
+page = "40"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong necromancy"
 caster_level = "18th"
 +++
 
-**Sources:** Pathfinder \#140: Eulogy for Roslar's Coffer pg 40\
 **Aura** strong necromancy; **CL** 18th\
 **Slot** none; **Price** -; **Weight** 1 lb.
 

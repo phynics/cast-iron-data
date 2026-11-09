@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "treant_sapling", path = "json/class_ability_druid_companions.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "26"
 
 [fields]
 kind = "class_option"
@@ -13,8 +16,6 @@ group = "animal-companion"
 +++
 
 ## Sapling Treant
-
-**Sources:** Advanced Race Guide pg 26
 
 **Companion Type**
 

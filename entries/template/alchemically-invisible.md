@@ -6,6 +6,9 @@ source_ids = ["rival-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alchemically_invisible", path = "json/monster_template1.json" },
 ]
+[[sources]]
+publication = "rival-guide"
+page = "47"
 
 [fields]
 kind = "none"
@@ -18,8 +21,6 @@ kind = "none"
 **Challenge rating:** +2
 
 **Simple:** present
-
-**Source:** Rival Guide/47
 
 A creature that is alchemically invisible also suffers from bouts of madness as a result of its
 condition.

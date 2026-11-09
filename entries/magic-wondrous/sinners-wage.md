@@ -6,6 +6,9 @@ source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sinners_wage", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "champions-of-corruption"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Sources:** Champions of Corruption pg 31\
 **Aura** moderate enchantment; **CL** 7th\
 **Slot** none; **Price** 500 gp; **Weight** -
 

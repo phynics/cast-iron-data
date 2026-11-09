@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/alarm" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "224"
 
 [fields]
 kind = "spell"
@@ -53,8 +56,6 @@ Area: 20-ft.-radius emanation centered on a point in space
 :::
 
 ### Selective Alarm
-
-**Sources:** Ultimate Intrigue pg 224
 
 This spell functions as [alarm](ref/spell/alarm), except that you can tweak the spell to be more
 discerning in what types of creatures or objects trigger the alarm. Instead of being triggered

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "36"
 
 [fields]
 kind = "archetype"
 replaces = ["Mutagen"]
 +++
 
-**Sources:** Advanced Race Guide pg 36\
 The saboteur is an alchemist who specializes in destroying the plans, materials, and allies of his
 enemies. A saboteur has focused his alchemical research toward new ways to conceal his presence, sow
 confusion, and blow up large structures.

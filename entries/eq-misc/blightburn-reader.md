@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blightburn_reader", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-darklands"
+page = "8"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "25 gp"
 weight = "1 lb."
 +++
 
-**Sources:** Heroes of the Darklands pg 8\
 **Price** 25 gp; **Weight** 1 lb.\
 **Category** Adventuring Gear
 

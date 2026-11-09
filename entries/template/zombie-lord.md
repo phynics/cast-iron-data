@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "zombie_lord", path = "json/monster_template4.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "286"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +1
-
-**Source:** Bestiary 4/286
 
 Zombie lords are the fleshy counterparts of skeletal champions: intelligent, cunning, and envious of
 creatures whose bodies aren't rotting away. Despite their decaying flesh, they are not slow like

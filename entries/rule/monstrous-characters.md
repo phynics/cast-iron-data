@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monstrous_characters", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "405"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 405
 
 You should decide on how exotic your world is at the start. The Pathfinder Roleplaying Game assumes
 a baseline that all PCs, and thus the majority of the civilized world's NPCs, are of one of the

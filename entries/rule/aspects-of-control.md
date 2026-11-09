@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aspects_of_control", path = "json/rules_adv_pc01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "140"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 140
 
 Whether you or the GM controls a particular companion depends largely on the creature's intelligence
 and level of independence from you.

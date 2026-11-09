@@ -6,13 +6,14 @@ source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lazurite", path = "json/equipment_special_materials.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-darklands"
+page = "24"
 
 [fields]
 kind = "item"
 category = "Special Materials"
 +++
-
-**Sources:** Heroes of the Darklands pg 24
 
 Lazurite is a decayed form of a radioactive material no longer found in its natural form within the
 Darklands, said to be the remnants of a long-dead god. Lazurite is encountered exclusively in

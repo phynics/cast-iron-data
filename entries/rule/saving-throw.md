@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "saving_throw", path = "json/rules_basics04.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "216"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 216
 
 Usually a harmful spell allows a target to make a saving throw to avoid some or all of the effect.
 The saving throw entry in a spell description defines which type of saving throw the spell allows

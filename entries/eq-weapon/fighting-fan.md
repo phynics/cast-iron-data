@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fighting_fan", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "20"
+[[sources]]
+publication = "ultimate-combat"
+page = "130"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "-"
 +++
-
-**Sources:** Ultimate Equipment pg 20, Ultimate Combat pg 130
 
 Made to resemble a courtier's fan, this device consists of silk paper stretched and folded over a
 folding frame of hardened steel. Folding fans are typically wielded in pairs using a technique that

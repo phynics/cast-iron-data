@@ -6,6 +6,9 @@ source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wendifisa_spear", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "57"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "11th"
 +++
 
-**Sources:** Inner Sea Combat pg 57\
 **Aura** moderate necromancy; **CL** 11th\
 **Slot** none; **Price** 10,453 gp; **Weight** 3 lbs.
 

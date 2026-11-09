@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/magus" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "104"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Spells", "Spell recall", "Arcane pool", "Knowledge pool"]
 alters = ["Spell combat", "Improved spell combat", "Greater spell combat"]
 +++
 
-**Sources:** Advanced Class Guide pg 104\
 Unlike typical magi, eldritch scions do not study tomes of magic or spend time learning to combine
 martial and magical skills. Rather, eldritch scions find that their spells and abilities come to
 them instinctively.

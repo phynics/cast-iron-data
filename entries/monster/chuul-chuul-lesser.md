@@ -6,6 +6,9 @@ source_ids = ["pathfinder-122-into-the-shattered-continent"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chuul_chuul_lesser", path = "json/monsters05.json" },
 ]
+[[sources]]
+publication = "pathfinder-122-into-the-shattered-continent"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ within its jaws._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#122: Into the Shattered Continent pg 82\
 **Subtype:** Aquatic
 
 **Experience points:** 1,200

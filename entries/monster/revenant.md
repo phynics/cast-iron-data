@@ -6,6 +6,12 @@ source_ids = ["bestiary-2", "pathfinder-2-the-skinsaw-murders"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "revenant", path = "json/monsters20.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "235"
+[[sources]]
+publication = "pathfinder-2-the-skinsaw-murders"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -41,7 +47,6 @@ intent._
 
 **Senses:** Darkvision 60 ft., Sense murderer
 
-**Sources:** Bestiary 2 pg 235, Pathfinder \#2: The Skinsaw Murders pg 90\
 **Type:** undead
 
 **Experience points:** 2,400

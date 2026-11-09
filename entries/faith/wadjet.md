@@ -6,6 +6,9 @@ source_ids = ["pathfinder-80-empty-graves"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wadjet", path = "json/faiths9.json" },
 ]
+[[sources]]
+publication = "pathfinder-80-empty-graves"
+page = "75"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Wadjet**
 
 **Sub:** The Green Empress
-
-**Sources:** Pathfinder \#80: Empty Graves pg 75
 
 ### Details
 

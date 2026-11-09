@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "18"
 
 [fields]
 kind = "archetype"
 replaces = ["Throw Anything", "Swift alchemy", "Swift poisoning"]
 +++
 
-**Sources:** Ultimate Magic pg 18\
 An internal alchemist studies medicine, diet, and the living body to purify the self in the hope of
 gaining immortality by means of alchemical concoctions and controlling vital energy. Internal
 alchemists develop unusual physical abilities from heightened knowledge of how their bodies work. An

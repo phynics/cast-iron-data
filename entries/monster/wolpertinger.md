@@ -6,6 +6,9 @@ source_ids = ["pathfinder-61-shards-of-sin"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wolpertinger", path = "json/monsters25.json" },
 ]
+[[sources]]
+publication = "pathfinder-61-shards-of-sin"
+page = "87"
 
 [fields]
 kind = "creature"
@@ -38,7 +41,6 @@ _This creature appears to be a large hare with long fangs, feathered wings, and 
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#61: Shards of Sin pg 87\
 **Size:** tiny
 
 **Experience points:** 400

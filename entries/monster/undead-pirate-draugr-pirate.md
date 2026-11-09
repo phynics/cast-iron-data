@@ -6,6 +6,9 @@ source_ids = ["isles-of-the-shackles"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "undead_pirate_draugr_pirate", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "isles-of-the-shackles"
+page = "62"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ _No flavor text._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Isles of the Shackles pg 62\
 **Subtype:** Water
 
 **Type:** undead

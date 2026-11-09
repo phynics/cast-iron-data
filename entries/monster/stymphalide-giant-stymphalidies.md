@@ -6,6 +6,9 @@ source_ids = ["pathfinder-26-the-sixfold-trial"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stymphalide_giant_stymphalidies", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "pathfinder-26-the-sixfold-trial"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ legs ending in powerful metallic talons, its beady eyes dart about voraciously._
 
 **Senses:** Low-light vision
 
-**Sources:** Pathfinder \#26: The Sixfold Trial pg 88\
 **Experience points:** 4,800
 
 **Armor class:** 22/11/20

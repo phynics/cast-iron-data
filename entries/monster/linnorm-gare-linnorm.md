@@ -6,6 +6,9 @@ source_ids = ["pathfinder-50-night-of-frozen-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "linnorm_gare_linnorm", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "pathfinder-50-night-of-frozen-shadows"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ terrifying size, as it opens its steam-shrouded maw with a hiss._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent, True seeing
 
-**Sources:** Pathfinder \#50: Night of Frozen Shadows pg 84\
 **Subtype:** Aquatic
 
 **Experience points:** 51,200

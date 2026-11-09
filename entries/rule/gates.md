@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gates", path = "json/rules_rulesets02.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "167"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 167
 
 Gates serve as the entrances and exits to fortified structures, and are typically the weakest spots
 in any fortification's defenses. Gates are at least Large, but can be as large as Colossal. It

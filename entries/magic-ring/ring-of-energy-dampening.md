@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_energy_dampening", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "156"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "10th"
 +++
 
-**Sources:** Mythic Adventures pg 156\
 **Aura** moderate abjuration; **CL** 10th\
 **Slot** ring; **Price** 31,500 gp; **Weight** -
 

@@ -6,6 +6,9 @@ source_ids = ["taldor-echoes-of-glory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pitfall", path = "json/magic_enhancements2.json" },
 ]
+[[sources]]
+publication = "taldor-echoes-of-glory"
+page = "27"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Taldor, Echoes of Glory pg 27\
 **Aura** moderate transmutation; **CL** 5th\
 **Slot** weapon quality; **Price** +1 bonus; **Weight** -
 

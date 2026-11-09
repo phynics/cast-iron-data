@@ -6,6 +6,9 @@ source_ids = ["pathfinder-46-wake-of-the-watcher"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "face_of_dagon", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "pathfinder-46-wake-of-the-watcher"
+page = "57"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong divination"
 caster_level = "13th"
 +++
 
-**Sources:** Pathfinder \#46: Wake of the Watcher pg 57\
 **Aura** strong divination; **CL** 13th\
 **Slot** none; **Price** 27,000 gp; **Weight** 3 lbs.
 

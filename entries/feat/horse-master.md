@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horse_master", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "104"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ normal = "You use your cavalier level to determine your effective druid level fo
 +++
 
 ## Horse Master (Combat)
-
-**Sources:** Ultimate Combat pg 104
 
 You blend horsemanship skills from disparate traditions into a seamless mounted combat technique.\
 **Prerequisites:** Expert trainer class feature, Ride 6 ranks.\

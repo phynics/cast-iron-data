@@ -6,6 +6,9 @@ source_ids = ["doom-comes-to-dustpawn"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "orrery_of_distant_worlds", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "doom-comes-to-dustpawn"
+page = "28"
 
 [fields]
 kind = "item"
@@ -16,8 +19,6 @@ slot = "none"
 aura = "strong (all schools)"
 caster_level = "11th"
 +++
-
-**Sources:** Doom Comes to Dustpawn pg 28
 
 **Aura** strong (all schools); **CL** 11th\
 **Slot** none; **Price** -; **Weight** 8 lbs.

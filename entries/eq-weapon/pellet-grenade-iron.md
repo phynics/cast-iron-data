@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pellet_grenade_iron", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "107"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "1 lb. (adamantine), 1 lb. (cold iron), 1 lb. (iron), 1 lb. (silver)"
 
 ## Pellet grenade
 
-**Sources:** Ultimate Equipment pg 107\
 **Price** 150 gp (adamantine), 100 gp (cold iron), 50 gp (iron), 70 gp (silver); **Weight** 1 lb.
 (adamantine), 1 lb. (cold iron), 1 lb. (iron), 1 lb. (silver)
 

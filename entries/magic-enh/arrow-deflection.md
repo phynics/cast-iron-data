@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arrow_deflection", path = "json/magic_enhancements.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "115"
+[[sources]]
+publication = "core-rulebook"
+page = "463"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Equipment pg 115, PRPG Core Rulebook pg 463\
 **Aura** faint abjuration; **CL** 5th\
 **Slot** shield quality; **Price** +2 bonus; **Weight** -
 

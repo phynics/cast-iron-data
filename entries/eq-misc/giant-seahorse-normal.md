@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_seahorse_normal", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "blood-of-the-sea"
+page = "19"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "1,200 lbs. (combat trained), 1,100 lbs. (normal)"
 
 ## Giant seahorse
 
-**Sources:** Blood of the Sea pg 19\
 **Price** 500 gp (combat trained), 350 gp (normal); **Weight** 1,200 lbs. (combat trained), 1,100
 lbs. (normal)
 

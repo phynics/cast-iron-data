@@ -6,6 +6,12 @@ source_ids = ["adventurers-armory", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "armored_kilt", path = "json/equipment_armor.json" },
 ]
+[[sources]]
+publication = "adventurers-armory"
+page = "18"
+[[sources]]
+publication = "pathfinder-campaign-setting"
+page = "211"
 
 [fields]
 kind = "item"
@@ -13,7 +19,6 @@ category = "Armor"
 weight = "10 lbs."
 +++
 
-**Sources:** Adventurer's Armory pg 18, Pathfinder Campaign Setting pg 211\
 **Cost** 20 gp **Weight** 10 lbs.\
 **Armor Bonus** +1; **Max Dex Bonus** +6; **Armor Check Penalty** 0\
 **Arcane Spell Failure Chance** 0%; **Speed** 30 ft./20 ft.\

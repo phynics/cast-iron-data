@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "backstory", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "32"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 32
 
 In-world continuity and stories from a setting's history are usually a GM's darling - and sheer
 boredom for the players. No one wants to hear the GM drone on about events from centuries ago, or

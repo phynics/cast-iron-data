@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "pathfinder-18-descent-into-midnight", "planar-a
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "camazotz", path = "json/faiths2.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "316"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Camazotz**
 
 **Sub:** Master of Black Wings
-
-**Sources:** Inner Sea Gods pg 316
 
 ### Details
 

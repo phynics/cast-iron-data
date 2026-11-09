@@ -6,12 +6,13 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "step_1_define_the_territory", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "126"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Wilderness pg 126
 
 The first step is to determine your territory's Challenge Rating. Typically, this should be the same
 value as the PCs' Average Party Level, but you might want to make it easier or harder for the sake

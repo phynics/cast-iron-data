@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cutthroats_apprentice", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "153"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation"
 caster_level = "15th"
 +++
 
-**Sources:** Ultimate Equipment pg 153\
 **Aura** strong transmutation; **CL** 15th\
 **Slot** none; **Price** 33,910 gp; **Weight** 2 lbs.
 

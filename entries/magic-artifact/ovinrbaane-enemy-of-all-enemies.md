@@ -6,6 +6,12 @@ source_ids = ["artifacts-and-legends", "pathfinder-34-blood-for-blood"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ovinrbaane_enemy_of_all_enemies", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "artifacts-and-legends"
+page = "60"
+[[sources]]
+publication = "pathfinder-34-blood-for-blood"
+page = "52"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong evocation"
 caster_level = "20th"
 +++
 
-**Sources:** Artifacts and Legends pg 60, Pathfinder \#34: Blood for Blood pg 52\
 **Aura** strong evocation; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 12 lbs.
 

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/monk" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "104"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Bonus feats gained at 1st level and at 6th level", "Still mind", "A
 alters = ["Bonus feats"]
 +++
 
-**Sources:** Adventurer's Guide pg 104\
 Of the three monasteries, the Monastery of Unblinking Flame has been the most successful in
 developing a specific and unique fighting style that sets its disciples apart from other monks. In
 order to be admitted into the Monastery of Unblinking Flame and become one of these disciples, a

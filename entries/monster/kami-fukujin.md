@@ -6,6 +6,9 @@ source_ids = ["pathfinder-52-forest-of-spirits"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kami_fukujin", path = "json/monsters34.json" },
 ]
+[[sources]]
+publication = "pathfinder-52-forest-of-spirits"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ from the top of his head._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#52: Forest of Spirits pg 84\
 **Subtype:** Kami, Native
 
 **Size:** tiny

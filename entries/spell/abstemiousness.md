@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "abstemiousness", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "228"
+[[sources]]
+publication = "faiths-of-balance"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -43,8 +49,6 @@ Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
 Target: a handful of berries, grains, nuts, or rice
 :::
-
-**Sources:** Inner Sea Gods pg 228, Faiths of Balance pg 29
 
 Sometimes Irori smiles on his worshipers, granting them a reprieve from physical hunger. This spell
 magically enhances a handful of simple food, imbuing it with enough nutrition to satisfy a Medium or

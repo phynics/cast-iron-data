@@ -6,6 +6,9 @@ source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "holliss_lucky_rock", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "magical-marketplace"
+page = "17"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ aura = "moderate enchantment and evocation"
 caster_level = "11th"
 +++
 
-**Sources:** Magical Marketplace pg 17\
 **Aura** moderate enchantment and evocation; **CL** 11th\
 **Slot** none; **Price** 35,000 gp
 

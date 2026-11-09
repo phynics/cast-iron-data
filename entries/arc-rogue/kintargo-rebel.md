@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "40"
 
 [fields]
 kind = "archetype"
 replaces = ["Trap sense", "Uncanny dodge"]
 +++
 
-**Sources:** Inner Sea Combat pg 40\
 With few natural barriers, a thriving international port, and many miles separating it from Egorian,
 Kintargo is geographically suited for rebellion against the rigid laws that reign in Cheliax. This
 rebellion is hardly malicious in intent; business is simply easier without the imposing bureaucracy.

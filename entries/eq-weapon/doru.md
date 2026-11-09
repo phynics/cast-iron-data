@@ -6,14 +6,15 @@ source_ids = ["distant-shores"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "doru", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "distant-shores"
+page = "12"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "6 lbs."
 +++
-
-**Sources:** Distant Shores pg 12
 
 Balanced by a metal butt, this large spear is weighted so that it can be used in one hand by a
 proficient wielder. You can use a doru two-handed as a simple weapon. You can also use a doru as a

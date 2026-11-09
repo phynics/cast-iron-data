@@ -6,6 +6,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rags_to_riches", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "21"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Saving throw: Fortitude negates (object)
 Spell resistance: no
 Target: 1 weapon, suit or armor, shield, tool, or skill kit touched/5 levels
 :::
-
-**Sources:** Arcane Anthology pg 21
 
 The target object is enhanced to function as a masterwork item. In addition to any bonuses for the
 masterwork quality, the object gains other bonuses. Skill kits and other equipment add an additional

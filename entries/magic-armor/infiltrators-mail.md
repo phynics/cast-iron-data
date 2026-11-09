@@ -6,6 +6,9 @@ source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "infiltrators_mail", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "magical-marketplace"
+page = "7"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation (see text)"
 caster_level = "7th"
 +++
 
-**Sources:** Magical Marketplace pg 7\
 **Aura** moderate transmutation (see text); **CL** 7th\
 **Slot** armor; **Price** 19,650 gp; **Weight** 30 lbs.
 

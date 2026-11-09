@@ -6,6 +6,9 @@ source_ids = ["mystery-monsters-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "papa_chupar", path = "json/monsters_unique3.json" },
 ]
+[[sources]]
+publication = "mystery-monsters-revisited"
+page = "14"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ from its hunched shoulders._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Mystery Monsters Revisited pg 14\
 **Experience points:** 3,200
 
 **Armor class:** 19/13/16

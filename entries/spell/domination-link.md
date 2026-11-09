@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/detect-thoughts" },
 ]
+[[sources]]
+publication = "blood-of-the-night"
+page = "30"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: no
 Area: cone-shaped emanation
 Descriptors: mind-affecting
 :::
-
-**Sources:** Blood of the Night pg 30
 
 This spell functions like [detect thoughts](ref/spell/detect-thoughts), with the additional ability
 to find echoes of the thoughts of a creature mentally controlling the target. For example, if the

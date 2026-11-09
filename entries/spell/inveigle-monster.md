@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/inveigle-person" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "60"
 
 [fields]
 kind = "spell"
@@ -53,7 +56,5 @@ Descriptors: mind-affecting
 :::
 
 ### Inveigle Monster
-
-**Sources:** Inner Sea Intrigue pg 60
 
 This spell functions as [inveigle person](ref/spell/inveigle-person) except as noted above.

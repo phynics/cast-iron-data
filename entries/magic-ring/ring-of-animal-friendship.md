@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_animal_friendship", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "166"
+[[sources]]
+publication = "core-rulebook"
+page = "479"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint enchantment"
 caster_level = "3rd"
 +++
 
-**Sources:** Ultimate Equipment pg 166, PRPG Core Rulebook pg 479\
 **Aura** faint enchantment; **CL** 3rd\
 **Slot** ring; **Price** 10,800 gp; **Weight** -
 

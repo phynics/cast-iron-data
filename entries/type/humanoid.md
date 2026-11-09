@@ -6,14 +6,15 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "humanoid", path = "json/monster_types.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "308"
 
 [fields]
 kind = "none"
 +++
 
 ## Type: Humanoid
-
-**Sources:** Pathfinder RPG Bestiary pg 308
 
 A humanoid usually has two arms, two legs, and one head, or a human-like torso, arms, and a head.
 humanoids have few or no supernatural or extraordinary abilities, but most can speak and usually

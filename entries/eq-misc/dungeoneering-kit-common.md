@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "pathfinder-society-field-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dungeoneering_kit_common", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "56"
+[[sources]]
+publication = "pathfinder-society-field-guide"
+page = "47"
 
 [fields]
 kind = "item"
@@ -16,7 +22,6 @@ weight = "25 lbs. (common), 15 lbs. (deluxe)"
 
 ## Dungeoneering kit
 
-**Sources:** Ultimate Equipment pg 56, Pathfinder Society Field Guide pg 47\
 **Price** 15 gp (common), 130 gp (deluxe); **Weight** 25 lbs. (common), 15 lbs. (deluxe)
 
 This bundle of essential supplies for exploring ruins and abandoned cities includes two

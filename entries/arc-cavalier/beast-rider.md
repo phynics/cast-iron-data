@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cavalier" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "36"
 
 [fields]
 kind = "archetype"
 replaces = ["Mount", "expert trainer"]
 +++
 
-**Sources:** Ultimate Combat pg 36\
 The cavalier is defined not only by his dedication to his order or his skill on the battlefield, but
 also by the special relationship he maintains with his mount. Where some cavaliers are simply
 skilled with horses or well-trained knights, the beast rider spends his life in constant pursuit of

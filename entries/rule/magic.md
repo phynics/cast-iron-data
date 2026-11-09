@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic", path = "json/rules_basics04.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "206"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 206
 
 From creating a wisp of light to causing the ground itself to shatter and break, spells are a source
 of immense power. A spell is a one-time magical effect. Spells come in two types: arcane (cast by

@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kaiju_varklops", path = "json/monsters_unique4.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "170"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ tail tipped with four bony spikes._
 
 **Senses:** Darkvision 600 ft., Low-light vision, Mistsight
 
-**Sources:** Bestiary 6 pg 170\
 **Subtype:** Fire, Kaiju
 
 **tremorsense:** 300

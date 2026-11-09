@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stealth_synergy", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "121"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "While you can see one or more allies who also have this feat, wheneve
 +++
 
 ## Stealth Synergy (Teamwork)
-
-**Sources:** Ultimate Combat pg 121
 
 Working closely with an ally, you are able to move like twin shadows.\
 **Benefit:** While you can see one or more allies who also have this feat, whenever you and your

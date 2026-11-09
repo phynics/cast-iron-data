@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "132"
 
 [fields]
 kind = "archetype"
 replaces = ["Uncanny dodge", "Improved uncanny dodge"]
 +++
 
-**Sources:** Advanced Player's Guide pg 132\
 Adept at infiltration, trap removal, and lock picking, burglars prey on the homes of the wealthy and
 forgotten tombs alike. Such riches are guarded with vicious traps and hazards, but the devious mind
 of the burglar allows her to find such dangers and avoid them.

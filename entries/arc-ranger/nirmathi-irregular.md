@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ranger" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "37"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Armor and weapon proficiency", "Wild empathy"]
 alters = ["Favored enemy", "Favored terrain"]
 +++
 
-**Sources:** Inner Sea Magic pg 37\
 The forested country of Nirmathas is known for its rangers - skilled trackers, marksmen, and silent
 stalkers under the leafy canopy. Nirmathas has no formal military, for her people love their freedom
 and are reluctant to take orders from anyone, so her defense falls to individual scouts and small

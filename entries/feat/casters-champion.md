@@ -6,6 +6,9 @@ source_ids = ["path-of-the-hellknight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "casters_champion", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "path-of-the-hellknight"
+page = "21"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ special = "This feat counts as Arcane Strike for the purposes of prerequisites."
 +++
 
 ## Caster's Champion (Combat)
-
-**Sources:** Path of the Hellknight pg 21
 
 You draw upon the power of an allied arcane spellcaster to enhance your weapons with magical energy.\
 **Benefit:** Three times per day as a swift action, when you are within 30 feet of an ally who is an

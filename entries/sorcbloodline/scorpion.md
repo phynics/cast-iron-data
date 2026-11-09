@@ -6,13 +6,15 @@ source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scorpion", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
+[[sources]]
+publication = "potions-and-poisons"
+page = "7"
 
 [fields]
 kind = "class_option"
 group = "sorcerer-bloodline"
 +++
 
-**Sources:** Potions and Poisons pg 7\
 Whether your ancestors served a scorpion goddess or simply worked closely with more mundane members
 of the species, the venom from these arachnids has seeped down through generations into your blood.
 

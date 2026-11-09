@@ -6,6 +6,9 @@ source_ids = ["magnimar-city-of-monuments"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shoanti_gladiator", path = "json/npcs.json" },
 ]
+[[sources]]
+publication = "magnimar-city-of-monuments"
+page = "59"
 
 [fields]
 kind = "creature"
@@ -18,7 +21,6 @@ _This shaven-headed brute wields a massive spiked hammer and bears scars from do
 
 **Challenge rating:** 2
 
-**Sources:** Magnimar, City of Monuments pg 59\
 **XP** 600\
 Male human [barbarian](ref/class/barbarian) 3\
 CN Medium humanoid (human)\

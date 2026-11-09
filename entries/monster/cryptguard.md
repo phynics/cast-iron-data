@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cryptguard", path = "json/monsters06.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "68"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ raven's skull for a head._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 6 pg 68\
 **Experience points:** 6,400
 
 **Armor class:** 23/13/20

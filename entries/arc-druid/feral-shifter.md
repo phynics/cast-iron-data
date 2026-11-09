@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "92"
 
 [fields]
 kind = "archetype"
 replaces = ["Nature bond", "Venom immunity", "a thousand faces", "timeless body"]
 +++
 
-**Sources:** Advanced Class Guide pg 92\
 A feral shifter internalizes her communion with and mastery over animals. Instead of forming a bond
 with an animal companion or an aspect of nature, she alters her own essence or being as homage to
 the noble creatures of the wild. More in tune with transformation and animal bodies than a normal

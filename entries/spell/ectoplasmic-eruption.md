@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ectoplasmic_eruption", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "168"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: Reflex half and Will partial, see text
 Spell resistance: yes
 Area: 30-ft.-radius burst
 :::
-
-**Sources:** Occult Adventures pg 168
 
 A cascading avalanche of pale, swirling ectoplasmic matter erupts from a point you select. All
 creatures in the area when the spell is cast take 6d6 points of bludgeoning damage and are entangled

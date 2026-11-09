@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aoandon", path = "json/monsters02.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "11"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ into vapor below the waist._
 
 **Senses:** Darkvision 60 ft., True seeing
 
-**Sources:** Bestiary 4 pg 11\
 **Subtype:** Incorporeal, Native
 
 **Experience points:** 19,200

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aldori_swordlord", path = "json/npcs2.json" },
 ]
+[[sources]]
+publication = "inner-sea-npc-codex"
+page = "4"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "5"
 
 **Challenge rating:** 5
 
-**Sources:** Inner Sea NPC Codex pg 4\
 **XP** 1,600\
 Human [fighter](ref/class/fighter) ([Aldori defender](ref/arc-fighter/aldori-defender)) 5/Aldori
 swordlord 1\

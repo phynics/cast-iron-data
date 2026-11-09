@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rockfall_cloak", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-darklands"
+page = "8"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Sources:** Heroes of the Darklands pg 8\
 **Aura** faint conjuration; **CL** 5th\
 **Slot** shoulders; **Price** 2,500 gp; **Weight** 1 lb.
 

@@ -6,6 +6,9 @@ source_ids = ["antiheros-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vial_of_reckless_courage", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "antiheros-handbook"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Antihero's Handbook pg 31\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** none; **Price** 5,000 gp; **Weight** 1 lb.
 

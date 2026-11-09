@@ -6,6 +6,9 @@ source_ids = ["gallows-of-madness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hook_fly_giant_hook_fly", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "gallows-of-madness"
+page = "60"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ many-faceted eyes smolder like hot coals._
 
 **Size:** small
 
-**Sources:** Gallows of Madness pg 60\
 **Type:** vermin
 
 **Experience points:** 600

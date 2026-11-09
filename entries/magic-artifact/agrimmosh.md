@@ -6,6 +6,9 @@ source_ids = ["pathfinder-91-battle-of-bloodmarch-hills"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "agrimmosh", path = "json/magic_artifact3.json" },
 ]
+[[sources]]
+publication = "pathfinder-91-battle-of-bloodmarch-hills"
+page = "56"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation"
 caster_level = "20th"
 +++
 
-**Sources:** Pathfinder \#91: Battle of Bloodmarch Hills pg 56\
 **Aura** strong transmutation; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 10 lbs.
 

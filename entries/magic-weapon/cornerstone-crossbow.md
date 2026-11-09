@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cornerstone_crossbow", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-streets"
+page = "14"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong divination"
 caster_level = "12th"
 +++
 
-**Sources:** Heroes of the Streets pg 14\
 **Aura** strong divination; **CL** 12th\
 **Slot** none; **Price** 21,335 gp; **Weight** 9 lbs.
 

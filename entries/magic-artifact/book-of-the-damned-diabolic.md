@@ -6,6 +6,12 @@ source_ids = ["book-of-the-damned", "book-of-the-damned-volume-1-princes-of-dark
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "book_of_the_damned_diabolic", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "198"
+[[sources]]
+publication = "book-of-the-damned-volume-1-princes-of-darkness"
+page = "48"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "overwhelming all schools [evil, lawful]"
 caster_level = "25th"
 +++
 
-**Sources:** Book of the Damned pg 198, Book of the Damned - Volume 1: Princes of Darkness pg 48\
 **Aura** overwhelming all schools \[evil, lawful\]; **CL** 25th\
 **Slot** none; **Price** -; **Weight** 12 lbs.
 

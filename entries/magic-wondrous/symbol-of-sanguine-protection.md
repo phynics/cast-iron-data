@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "symbol_of_sanguine_protection", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "261"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "6th"
 +++
 
-**Sources:** Ultimate Equipment pg 261\
 **Aura** faint transmutation; **CL** 6th\
 **Slot** neck; **Price** 17,500 gp; **Weight** 1 lb.
 

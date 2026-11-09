@@ -6,6 +6,12 @@ source_ids = ["artifacts-and-legends", "pathfinder-49-the-brinewall-legacy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "warding_box", path = "json/magic_artifact3.json" },
 ]
+[[sources]]
+publication = "artifacts-and-legends"
+page = "63"
+[[sources]]
+publication = "pathfinder-49-the-brinewall-legacy"
+page = "61"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong abjuration"
 caster_level = "20th"
 +++
 
-**Sources:** Artifacts and Legends pg 63, Pathfinder \#49: The Brinewall Legacy pg 61\
 **Aura** strong abjuration; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 5 lbs.
 

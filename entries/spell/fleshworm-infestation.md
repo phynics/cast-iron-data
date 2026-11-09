@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fleshworm_infestation", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "220"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Target: creature touched
 Subschool: Summoning
 Descriptors: evil
 :::
-
-**Sources:** Ultimate Magic pg 220
 
 With a touch, you cause an infestation of ravenous worms to manifest in the target's flesh. The
 target must make a Fortitude save every round. Failure means it takes 1d6 hit points of damage and 2

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_answer", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "249"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 249
 
 Regardless of the type of puzzle, the answer should mean something. Perhaps the answer is the
 command word to a powerful wand, or the riddle of the three gems results in the players ending up

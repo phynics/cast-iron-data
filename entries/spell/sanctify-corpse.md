@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sanctify_corpse", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "236"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: no
 Area: corpse touched
 Descriptors: good
 :::
-
-**Sources:** Ultimate Magic pg 236
 
 This spell blesses a corpse with positive energy, preventing it from being turned into an undead
 creature. Attempts to raise the corpse as an undead automatically fail. If the corpse is of a person

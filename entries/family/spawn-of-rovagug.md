@@ -6,12 +6,12 @@ source_ids = ["inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spawn_of_rovagug", path = "json/monster_families2.json" },
 ]
+[[sources]]
+publication = "inner-sea-bestiary"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Inner Sea Bestiary
 
 The [spawn of Rovagug](ref/subtype/spawn-of-rovagug) are titanic terrors, slavering monstrosities of
 immense size and strength that live only to destroy. They are unnatural things, born of a

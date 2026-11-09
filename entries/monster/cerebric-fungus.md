@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cerebric_fungus", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "52"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ mouth bisects the bulb's crown._
 
 **Type:** plant
 
-**Sources:** Bestiary 3 pg 52\
 **Experience points:** 800
 
 **Armor class:** 15/10/15

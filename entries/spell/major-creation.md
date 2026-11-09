@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/minor-creation" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "311"
 
 [fields]
 kind = "spell"
@@ -53,8 +56,6 @@ Subschool: Creation
 :::
 
 ### Major Creation
-
-**Sources:** PRPG Core Rulebook pg 311
 
 This spell functions like [minor creation](ref/spell/minor-creation), except that you can also
 create an object of mineral nature: stone, crystal, metal, or the like. The duration of the created

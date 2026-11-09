@@ -6,6 +6,9 @@ source_ids = ["plunder-and-peril"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "calcified", path = "json/monster_template1.json" },
 ]
+[[sources]]
+publication = "plunder-and-peril"
+page = "61"
 
 [fields]
 kind = "none"
@@ -18,8 +21,6 @@ kind = "none"
 **Challenge rating:** +1
 
 **Simple:** present
-
-**Source:** Plunder and Peril/61
 
 A creature with the calcified template is preserved by the toxic fluids pumped into its body by an
 [incutilis lord](ref/monster/incutilis-incutilis-lord). Though the creature's identity is lost and

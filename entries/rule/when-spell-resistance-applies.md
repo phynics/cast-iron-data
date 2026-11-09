@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "when_spell_resistance_applies", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "566"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 566
 
 Each spell includes an entry that indicates whether [spell resistance](ref/rule/spell-resistance)
 applies to the spell. In general, whether spell resistance applies depends on what the spell does.

@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "managers", path = "json/rules_subsystems02.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "88"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 88
 
 A manager is a competent employee qualified to run a business while you're gone, even for weeks or
 months at a time. A manager is authorized to make certain decisions about your property while you're

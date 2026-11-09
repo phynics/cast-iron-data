@@ -6,6 +6,9 @@ source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beast_hunter_whistle", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "monster-hunters-handbook"
+page = "26"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "5 gp"
 weight = "-"
 +++
 
-**Sources:** Monster Hunter's Handbook pg 26\
 **Price** 5 gp; **Weight** -\
 **Category** Adventuring Gear
 

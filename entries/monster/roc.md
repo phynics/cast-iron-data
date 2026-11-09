@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "roc", path = "json/monsters20.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "236"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ horse._
 
 **Senses:** Low-light vision
 
-**Sources:** Pathfinder RPG Bestiary pg 236\
 **Experience points:** 6,400
 
 **Armor class:** 22/8/20

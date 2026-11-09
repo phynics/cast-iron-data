@@ -6,6 +6,9 @@ source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_of_covered_retreat", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "magical-marketplace"
+page = "7"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "8th"
 +++
 
-**Sources:** Magical Marketplace pg 7\
 **Aura** moderate abjuration; **CL** 8th\
 **Slot** shield; **Price** 8,157 gp; **Weight** 10 lbs.
 

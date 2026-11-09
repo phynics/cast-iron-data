@@ -6,12 +6,14 @@ source_ids = ["jade-regent-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "caravan_combat", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "jade-regent-players-guide"
+page = "26"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Jade Regent Player's Guide pg 26\
 Caravan combat is not intended to be nearly as complex or detailed as the normal combat rules - this
 is by design, so that the actual game play can focus more on the player characters than anything
 else.

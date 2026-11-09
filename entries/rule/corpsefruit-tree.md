@@ -6,12 +6,12 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "corpsefruit_tree", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures
 
 **Corpsefruit Tree (CR 5):** This gnarled, twisted tree grows only from ground containing the corpse
 of an intelligent creature (a creature with an Intelligence score of 3 or higher), providing an

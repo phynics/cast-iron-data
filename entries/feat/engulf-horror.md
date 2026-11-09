@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "engulf_horror", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "86"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you successfully engulf or smother an opponent, successfully mai
 +++
 
 ## Engulf Horror (Combat)
-
-**Sources:** Horror Adventures pg 86
 
 The repulsive horror of your smothering attack nearly incapacitates most foes.\
 **Prerequisites:** [Engulf Revulsion](ref/feat/engulf-revulsion); [engulf](ref/umr/engulf) or

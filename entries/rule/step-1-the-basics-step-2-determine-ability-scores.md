@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "step_1_the_basics_step_2_determine_ability_scores", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "450"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 450
 
 The first step in making an NPC is to determine its basic role in your campaign. This includes its
 race, class, and basic concept.

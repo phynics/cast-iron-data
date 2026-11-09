@@ -6,12 +6,20 @@ source_ids = ["inner-sea-races", "bestiary", "advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hobgoblin", path = "json/races2.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "244"
+[[sources]]
+publication = "bestiary"
+page = "175"
+[[sources]]
+publication = "advanced-race-guide"
+page = "120"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Inner Sea Races pg 244, Pathfinder RPG Bestiary pg 175, Advanced Race Guide pg 120\
 Fierce and militaristic, hobgoblins survive by conquest. The raw materials to fuel their war
 machines come from raids, their armaments and buildings from the toil of slaves worked to death.
 Naturally ambitious and envious, hobgoblins seek to better themselves at the expense of others of

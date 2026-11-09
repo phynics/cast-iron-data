@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seilenos", path = "json/monsters21.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "224"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _This creature has the body of a middle-aged human man and the pointed ears and 
 
 **Senses:** Low-light vision, True seeing
 
-**Sources:** Bestiary 5 pg 224\
 **Experience points:** 204,800
 
 **Armor class:** 37/30/26

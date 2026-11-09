@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "longshot", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "236"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Ultimate Combat pg 236
 
 This spell reduces the effect of range, granting a +10 foot bonus to the range increment of any
 weapon used by the subject.

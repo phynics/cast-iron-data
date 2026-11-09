@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "helm_of_telepathy", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "244"
+[[sources]]
+publication = "core-rulebook"
+page = "518"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint divination and enchantment"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Equipment pg 244, PRPG Core Rulebook pg 518\
 **Aura** faint divination and enchantment; **CL** 5th\
 **Slot** head; **Price** 27,000 gp; **Weight** 3 lbs.
 

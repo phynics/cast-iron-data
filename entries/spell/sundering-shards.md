@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sundering_shards", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "195"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: Reflex negates (see text)
 Spell resistance: yes
 Target: melee weapon touched
 :::
-
-**Sources:** Advanced Class Guide pg 195
 
 You channel power into a melee weapon. If the weapon's wielder destroys an item with a successful
 sunder combat maneuver, she can release the extra power in the weapon, shattering the sundered item

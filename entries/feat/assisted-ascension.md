@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "assisted_ascension", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-darklands"
+page = "5"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When you succeed at a Climb check, allies within 20 feet who also hav
 +++
 
 ## Assisted Ascension (Teamwork)
-
-**Sources:** Heroes of the Darklands pg 5
 
 You and your allies have practiced scaling heights together.\
 **Prerequisites:** Climb 5 ranks.\

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/shaman" },
 ]
+[[sources]]
+publication = "legacy-of-the-first-world"
+page = "16"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Spirit magic spells granted by the shaman's spirit", "Shaman's hex 
 alters = ["Spirit animal"]
 +++
 
-**Sources:** Legacy of the First World pg 16\
 Grasping vine shamans are typically adherents of one of several scattered sects dedicated to the
 Green Mother. They revere plant life in all its forms, with a special fondness for poisonous or
 carnivorous plants. Unlike most shamans, a grasping vine is guided by a plant-like creature rather

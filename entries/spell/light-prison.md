@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "light_prison", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "236"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: yes
 Target: one creature/2 levels
 Descriptors: light
 :::
-
-**Sources:** Inner Sea Gods pg 236
 
 Rays of light burst forth from your outstretched hand, encircling each target's space with a cage of
 light. If a target fails its Reflex save, it becomes enclosed in the light prison. A creature

@@ -6,6 +6,9 @@ source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blade_whirlwind", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "20"
 
 [fields]
 kind = "class_option"
@@ -25,8 +28,6 @@ group = "kineticist-wild-talent"
 **Associated:** any
 
 **Saving throw:** none
-
-**Source:** Psychic Anthology/20
 
 You create a _kinetic blade_ and swing it in an arc around you, making a single attack against all
 foes within reach as if with _kinetic blade._ If the result is a critical threat, roll to confirm

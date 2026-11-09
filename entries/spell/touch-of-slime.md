@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "touch_of_slime", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "243"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Target: living creature touched
 Subschool: Creation
 Descriptors: disease
 :::
-
-**Sources:** Ultimate Magic pg 243
 
 You create a coating of slime on your hand. When you make a successful melee touch attack with the
 slime, it pulls free of you and sticks to the target, at which point it acts like green slime,

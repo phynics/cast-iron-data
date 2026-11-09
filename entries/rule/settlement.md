@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "settlement", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "158"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 158
 
 Normal settlement hexes are small villages or military encampments. Settlements usually appear with
 another terrain type they're built upon. Frequently used trails or even simple roads reduce travel

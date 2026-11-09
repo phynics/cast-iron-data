@@ -6,12 +6,13 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghoul_fever", path = "json/diseases.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "146"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder RPG Bestiary pg 146
 
 **Type:** Disease (Injury)
 

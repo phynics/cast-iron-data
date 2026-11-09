@@ -6,6 +6,9 @@ source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mask_of_anonymous_mien", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "spymasters-handbook"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Sources:** Spymaster's Handbook pg 31\
 **Aura** moderate transmutation; **CL** 10th\
 **Slot** head; **Price** 25,000 gp; **Weight** 1 lb.
 

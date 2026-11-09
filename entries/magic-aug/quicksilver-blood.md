@@ -6,6 +6,9 @@ source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quicksilver_blood", path = "json/magic_elemental_augmentations.json" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
+page = "25"
 
 [fields]
 kind = "item"
@@ -16,8 +19,6 @@ slot = "none"
 aura = "moderate transmutation"
 caster_level = "9th"
 +++
-
-**Sources:** Elemental Master's Handbook pg 25
 
 **Aura** moderate transmutation; **CL** 9th\
 **Slot** none; **Price** 62,000 gp; **Weight** —

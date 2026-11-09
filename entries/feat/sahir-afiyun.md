@@ -6,6 +6,12 @@ source_ids = ["black-markets", "dark-markets-a-guide-to-katapesh"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sahir_afiyun", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "18"
+[[sources]]
+publication = "dark-markets-a-guide-to-katapesh"
+page = "56"
 
 [fields]
 kind = "feat"
@@ -14,8 +20,6 @@ prerequisite_feats = ["ref/feat/spell-focus"]
 benefit = "When you consume pesh, you take 1 fewer point of Constitution or Wisdom damage (your choice). In addition, you add spells below to your own class spell list or list of spells known. You can add one spell from the highest level you can cast; you can instead add two spells to your list of spells known, but both of these spells must be at least 1 level lower than the highest-level spell you can cast for that class. If you have more than one spellcasting class, choose one and add the sahir-afiyun spell or spells to that class's spell list or list of spells known."
 special = "You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, add one or more sahir-afiyun spells to your spell list."
 +++
-
-**Sources:** Black Markets pg 18, Dark Markets - A Guide to Katapesh pg 56
 
 You have intertwined your familiarities with pesh and magic to unlock strange powers.\
 **Prerequisites:** [Spell Focus](ref/feat/spell-focus) (any), ability to cast 2nd-level spells.\

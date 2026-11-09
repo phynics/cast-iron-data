@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kingdom_building_quick_reference", path = "json/rules_campaign_types04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "199"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 199
 
 With building a kingdom, you begin by founding a small settlement - such as a village or town - and
 expand your territory outward, claiming nearby hexes, founding additional settlements, and

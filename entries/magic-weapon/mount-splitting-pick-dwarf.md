@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mount_splitting_pick_dwarf", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "226"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "6th"
 +++
 
-**Sources:** Inner Sea Races pg 226\
 **Aura** moderate transmutation; **CL** 6th\
 **Slot** none; **Price** 28,008 gp; **Weight** 6 lbs.
 

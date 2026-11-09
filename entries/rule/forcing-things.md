@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "forcing_things", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "28"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 28
 
 In many cases, it's entirely reasonable to say, "Hey folks, this is the adventure I've prepared -
 work with me." Many groups of players respond positively if asked for help; after all, they want the

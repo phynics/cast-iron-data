@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "instant_portrait", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "176"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Spell resistance: no
 Effect: a monochromatic illustration up to 1 square foot in area
 Subschool: Creation
 :::
-
-**Sources:** Adventurer's Guide pg 176
 
 You touch a surface and produce a painted portrait of either yourself or a creature you can see
 without needing to attempt a Craft (painting) check. The surface to be affected must be relatively

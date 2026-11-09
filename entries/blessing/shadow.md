@@ -6,13 +6,15 @@ source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow", path = "json/class_ability_blessings.json" },
 ]
+[[sources]]
+publication = "blood-of-shadows"
+page = "17"
 
 [fields]
 kind = "class_option"
 group = "warpriest-blessing"
 +++
 
-**Sources:** Blood of Shadows pg 17\
 **Deities:** [Nocticula](ref/faith/nocticula), [Norgorber](ref/faith/norgorber),
 [Zon-Kuthon](ref/faith/zon-kuthon)
 

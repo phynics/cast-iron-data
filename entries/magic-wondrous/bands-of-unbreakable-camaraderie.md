@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bands_of_unbreakable_camaraderie", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "147"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "11th"
 +++
 
-**Sources:** Adventurer's Guide pg 147\
 **Aura** moderate divination; **CL** 11th\
 **Slot** wrists; **Price** 5,000 gp; **Weight** 1 lb.
 

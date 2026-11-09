@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "pathfinder-57-tempest-rising"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shark_great_white_shark", path = "json/monsters38.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "241"
+[[sources]]
+publication = "pathfinder-57-tempest-rising"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -46,7 +52,6 @@ teeth._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 4 pg 241, Pathfinder \#57: Tempest Rising pg 84\
 **Subtype:** Aquatic
 
 **Experience points:** 1,200

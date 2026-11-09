@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extreme_flexibility", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "181"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Advanced Class Guide pg 181
 
 You gain a +1 dodge bonus to AC, a +4 circumstance bonus on Escape Artist checks and combat maneuver
 checks to escape a grapple, and +4 circumstance bonus to your CMD against grapple attempts.

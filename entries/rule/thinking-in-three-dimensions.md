@@ -6,12 +6,13 @@ source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thinking_in_three_dimensions", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Aquatic Adventures\
 While flying creatures can add a third dimension to land-based combat, such creatures are an
 exception rather than the rule. The main challenge three-dimensional adventuring presents is
 representing a creature's vertical position during combat. This challenge is tougher than usual

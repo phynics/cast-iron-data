@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "minotaur", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "206"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ hooves as if preparing to charge._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 206\
 **Experience points:** 1,200
 
 **Armor class:** 14/9/14

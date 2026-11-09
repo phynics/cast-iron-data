@@ -10,6 +10,9 @@ relations = [
   { kind = "prerequisite", target = "ref/feat/shot-on-the-run", label = "or" },
   { kind = "prerequisite", target = "ref/feat/spring-attack", label = "or" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "11"
 
 [fields]
 kind = "feat"
@@ -20,8 +23,6 @@ benefit = "While using Spring-Heeled Style, whenever you use Shot on the Run or 
 +++
 
 ## Spring-Heeled Reaping (Combat)
-
-**Sources:** Armor Master's Handbook pg 11
 
 Your armor's flexibility and your own training allow you to strike multiple times while moving.\
 **Prerequisites:** Dex 17, [Dodge](ref/feat/dodge), [Mobility](ref/feat/mobility),

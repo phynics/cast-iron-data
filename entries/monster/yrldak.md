@@ -6,6 +6,9 @@ source_ids = ["fey-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "yrldak", path = "json/monsters_unique4.json" },
 ]
+[[sources]]
+publication = "fey-revisited"
+page = "26"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ glowing moon, and her ebon eyes deeply pensive._
 
 **Senses:** Low-light vision, True seeing
 
-**Sources:** Fey Revisited pg 26\
 **Experience points:** 9,600
 
 **Armor class:** 24/15/23

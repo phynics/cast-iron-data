@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/shifter" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "18"
 
 [fields]
 kind = "archetype"
 alters = ["Shifter claws", "Shifter aspect"]
 +++
 
-**Sources:** Ultimate Wilderness pg 18\
 Rather than assume aspects taken from the traits of natural animals, a leafshifter transforms into
 plant-animal hybrids that resemble [living topiaries](ref/monster/living-topiary). This affords the
 leafshifter the savage power of the animal kingdom while also granting her the strength and

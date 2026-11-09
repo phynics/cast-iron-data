@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dark_folk_dark_caller", path = "json/monsters29.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "42"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _Wrapped in tatters of dark musty robes, this humanoid figure weaves malevolent 
 
 **Senses:** Detect magic, See in darkness
 
-**Sources:** Bestiary 4 pg 42\
 **Subtype:** Dark folk
 
 **Experience points:** 1,600

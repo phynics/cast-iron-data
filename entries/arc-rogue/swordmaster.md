@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "164"
 
 [fields]
 kind = "archetype"
 replaces = ["Trap sense"]
 +++
 
-**Sources:** Advanced Race Guide pg 164\
 A swordmaster meditates to strengthen her spiritual connection to her blade. She strives to perfect
 her skills by mastering six deadly trances. A swordmaster has the following class features.
 

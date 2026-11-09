@@ -6,6 +6,9 @@ source_ids = ["planes-of-power"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "murajau", path = "json/monsters17.json" },
 ]
+[[sources]]
+publication = "planes-of-power"
+page = "59"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ shell encasing his back._
 
 **Senses:** Darkvision 60 ft., Scent
 
-**Sources:** Planes of Power pg 59\
 **Subtype:** Aquatic, Extraplanar
 
 **Experience points:** 1,600

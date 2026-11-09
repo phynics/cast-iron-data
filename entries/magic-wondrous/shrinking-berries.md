@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shrinking_berries", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "25"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Wilderness pg 25\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** none; **Price** 300 gp; **Weight** -
 

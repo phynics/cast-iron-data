@@ -6,14 +6,15 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "undead", path = "json/monster_types.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "309"
 
 [fields]
 kind = "none"
 +++
 
 ## Type: Undead
-
-**Sources:** Pathfinder RPG Bestiary pg 309
 
 Undead are once-living creatures animated by spiritual or supernatural forces.
 

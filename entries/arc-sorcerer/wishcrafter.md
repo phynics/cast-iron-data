@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/sorcerer" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "128"
 
 [fields]
 kind = "archetype"
 replaces = ["Bloodline arcana", "All bloodline spells", "7th-level bloodline feat", "13th-level bloodline feat", "19th-level bloodline feat"]
 +++
 
-**Sources:** Advanced Race Guide pg 128\
 Wishcrafters are born with a talent for manipulating reality inherited from their efreeti ancestors.
 However, like the genies they are descended from, wishcrafters can only draw upon this power to
 fulfill the desires of others. A wishcrafter has the following class features.

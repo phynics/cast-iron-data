@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "multipurpose_spells", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "136"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 136
 
 A spell that gives the caster a choice of multiple options should be weaker overall than a spell
 that only does one thing. First, a spell that is good at two things is much better than a spell that

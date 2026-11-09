@@ -6,6 +6,9 @@ source_ids = ["cheliax-empire-of-devils"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beliers_bite", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "cheliax-empire-of-devils"
+page = "26"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "This ability does not stack with other special abilities, attacks, or
 +++
 
 ## Belier's Bite (Combat)
-
-**Sources:** Cheliax, Empire of Devils pg 26
 
 Your unarmed strikes cause your opponent to bleed.\
 **Prerequisites:** [Improved Unarmed Strike](ref/feat/improved-unarmed-strike).\

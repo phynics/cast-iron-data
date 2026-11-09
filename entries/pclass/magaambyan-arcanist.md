@@ -6,14 +6,18 @@ source_ids = ["adventurers-guide", "paths-of-prestige"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magaambyan_arcanist", path = "json/prestige_classes2.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "118"
+[[sources]]
+publication = "paths-of-prestige"
+page = "34"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d6."
 +++
-
-**Sources:** Adventurer's Guide pg 118, Paths of Prestige pg 34
 
 A Magaambyan arcanist studies and follows traditions of magic originally discovered by Old-Mage
 Jatembe himself, and uses these arcane secrets to continue Jatembe's quest to bring decency and

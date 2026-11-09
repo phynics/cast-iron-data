@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "npc_toolbox_1", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "94"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 94
 
 ### Table 4-1: NPC Backgrounds
 

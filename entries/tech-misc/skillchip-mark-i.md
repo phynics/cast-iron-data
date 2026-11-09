@@ -6,6 +6,9 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skillchip_mark_i", path = "json/equipment_tech_misc.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "52"
 
 [fields]
 kind = "item"
@@ -15,7 +18,6 @@ weight = "&mdash; (all)"
 slot = "skillslot"
 +++
 
-**Sources:** Technology Guide pg 52\
 **Price** 400 gp (mark I), 1,600 gp (mark II), 3,600 gp (mark III), 6,400 gp (mark IV), 10,000 gp
 (mark V)\
 **Slot** skillslot; **Weight** — (all)\

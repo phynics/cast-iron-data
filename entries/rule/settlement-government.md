@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "settlement_government", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "206"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 206
 
 Just like nations, towns and cities are ruled by governments. A settlement's government not only
 helps to establish the flavor and feel of the community but also adjusts its modifiers. Choose one

@@ -6,12 +6,14 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stable", path = "json/misc.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "568"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** PRPG Core Rulebook pg 568\
 A character who was [dying](ref/misc/dying) but who has stopped losing hit points each round and
 still has negative hit points is stable. The character is no longer dying, but is still
 [unconscious](ref/misc/unconscious). If the character has become stable because of aid from another

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/paladin" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "74"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Divine bond", "Aura of resolve", "Aura of justice"]
 alters = ["Divine grace"]
 +++
 
-**Sources:** Adventurer's Guide pg 74\
 While all Steel Falcons are peerless proponents of the rights of the downtrodden, those who endeavor
 to make the spread of liberty as peaceful as possible often become scions of Talmandor, honoring the
 powerful avoral agathion who serves as the patron of the Steel Falcons. Talmandor is reluctant to

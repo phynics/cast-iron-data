@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/slayer" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "86"
 
 [fields]
 kind = "archetype"
 replaces = ["Track", "fast tracker", "Studied target", "Stalker", "slayer talent gained at 4th level", "Slayer talent gained at 8th level", "Master slayer"]
 +++
 
-**Sources:** Ultimate Wilderness pg 86\
 Mounted harriers, saboteurs, and skirmishers, dune riders can disrupt even the most organized
 opposition.
 

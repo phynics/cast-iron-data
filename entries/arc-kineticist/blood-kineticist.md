@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/kineticist" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "88"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["The 1st-level infusion", "The 5th-level infusion", "The 6th-level u
 alters = ["Expanded element"]
 +++
 
-**Sources:** Occult Adventures pg 88\
 To a blood kineticist, the water in a creature's blood is just like any other sort, and she uses
 that knowledge to brutal ends.
 

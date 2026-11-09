@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mirror_of_life_trapping", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "311"
+[[sources]]
+publication = "core-rulebook"
+page = "523"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong abjuration"
 caster_level = "17th"
 +++
 
-**Sources:** Ultimate Equipment pg 311, PRPG Core Rulebook pg 523\
 **Aura** strong abjuration; **CL** 17th\
 **Slot** none; **Price** 200,000 gp; **Weight** 50 lbs.
 

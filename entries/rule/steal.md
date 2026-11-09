@@ -6,12 +6,13 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "steal", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "322"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Advanced Player's Guide pg 322
 
 You can attempt to take an item from a foe as a standard action. This maneuver can be used in melee
 to take any item that is neither held nor hidden in a bag or pack. You must have at least one hand

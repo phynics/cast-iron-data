@@ -6,6 +6,9 @@ source_ids = ["pathfinder-73-the-worldwound-incursion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "terendelevs_scales", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "pathfinder-73-the-worldwound-incursion"
+page = "65"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong (varies)"
 caster_level = "19th"
 +++
 
-**Sources:** Pathfinder \#73: The Worldwound Incursion pg 65\
 **Aura** strong (varies); **CL** 19th\
 **Slot** none; **Price** -; **Weight** -
 

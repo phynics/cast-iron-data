@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/silent-image" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "311"
 
 [fields]
 kind = "spell"
@@ -53,8 +56,6 @@ Subschool: Figment
 :::
 
 ### Major Image
-
-**Sources:** PRPG Core Rulebook pg 311
 
 This spell functions like [silent image](ref/spell/silent-image), except that sound, smell, and
 thermal illusions are included in the spell effect. While concentrating, you can move the image

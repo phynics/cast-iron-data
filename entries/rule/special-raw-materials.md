@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "special_raw_materials", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "75"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 75
 
 Crafting items requires a certain ratio of raw materials to start. Typically, these raw materials
 are some sort of trade good that is required to make the item. Making a suit of chainmail, for

@@ -6,6 +6,9 @@ source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "billowing_skirt", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "21"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Adventurer's Armory 2 pg 21
 
 A skirt, kilt, or gown you are wearing enables you to control your falls through the air. A creature
 wearing the enchanted item of clothing falls slowly as if affected by feather fall and can attempt a

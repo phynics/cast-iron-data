@@ -6,6 +6,12 @@ source_ids = ["adventurers-guide", "pathfinder-society-field-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wayfinder_vanishing", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "148"
+[[sources]]
+publication = "pathfinder-society-field-guide"
+page = "55"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint illusion"
 caster_level = "5th"
 +++
 
-**Sources:** Adventurer's Guide pg 148, Pathfinder Society Field Guide pg 55\
 **Aura** faint illusion; **CL** 5th\
 **Slot** none; **Price** 8,000 gp; **Weight** 1 lb.
 

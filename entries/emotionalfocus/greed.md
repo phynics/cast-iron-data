@@ -6,13 +6,15 @@ source_ids = ["occult-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greed", path = "json/class_ability_emotional_focus.json" },
 ]
+[[sources]]
+publication = "occult-realms"
+page = "14"
 
 [fields]
 kind = "class_option"
 group = "emotional-focus"
 +++
 
-**Sources:** Occult Realms pg 14\
 A phantom with this focus voraciously coveted gold, gems, and hedonistic possessions in life. Such
 phantoms are still obsessed with hoarding wealth and project that avarice onto the spiritualists to
 whom they are bonded. Their coloration tends toward yellow, and the sound of jangling coins sometime

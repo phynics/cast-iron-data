@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "manticore", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "199"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ ends in long, sharp spikes._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 199\
 **Experience points:** 1,600
 
 **Armor class:** 17/11/15

@@ -6,12 +6,14 @@ source_ids = ["familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "school_familiar", path = "json/archetypes_FAMILIAR.json" },
 ]
+[[sources]]
+publication = "familiar-folio"
+page = "14"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Familiar Folio pg 14\
 School familiars are tightly bound to the power of their master's chosen school of magic. A school
 familiar cannot have any other familiar archetype. At the GM's discretion, other schools of magic
 (such as elemental arcane schools) may have their own school familiars.

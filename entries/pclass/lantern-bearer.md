@@ -6,14 +6,18 @@ source_ids = ["adventurers-guide", "paths-of-prestige"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lantern_bearer", path = "json/prestige_classes2.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "110"
+[[sources]]
+publication = "paths-of-prestige"
+page = "32"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d10."
 +++
-
-**Sources:** Adventurer's Guide pg 110, Paths of Prestige pg 32
 
 Originally, only elves were allowed to join the [Lantern Bearers](ref/rule/aff-lights), but with the
 destruction of the Winter Council and the group's new focus on openness, these restrictions have

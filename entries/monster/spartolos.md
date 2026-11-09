@@ -6,6 +6,9 @@ source_ids = ["pathfinder-28-the-infernal-syndrome"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spartolos", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "pathfinder-28-the-infernal-syndrome"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ shadowed eye sockets._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#28: The Infernal Syndrome pg 88\
 **Type:** undead
 
 **Experience points:** 2,400

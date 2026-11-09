@@ -6,6 +6,9 @@ source_ids = ["humans-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snow_shape", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "humans-of-golarion"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: no
 Target: snow or snow-sculpted object touched, up to 5 cubic ft. + 1 cubic ft./level
 Descriptors: water
 :::
-
-**Sources:** Humans of Golarion pg 29
 
 In frozen northern lands, where the earth may be hidden beneath heavy drifts of snow, Ulfen druids
 developed a variation of stone shape that other spellcasters have since learned.

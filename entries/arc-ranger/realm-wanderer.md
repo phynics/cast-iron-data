@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ranger" },
 ]
+[[sources]]
+publication = "distant-realms"
+page = "22"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Track", "Swift tracker", "Master hunter"]
 alters = ["Hunter's bond"]
 +++
 
-**Sources:** Distant Realms pg 22\
 Some of the most free-roaming rangers are those who tread between locales so varied that they may as
 well be separate worlds altogether - and quite often these disparate places are literally
 [Hell](ref/rule/hell) and the Material Plane. Like the Queen of Dis, whom many of them admire, these

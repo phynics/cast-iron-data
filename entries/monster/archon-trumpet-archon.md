@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "archon_trumpet_archon", path = "json/monsters02.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "21"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ and radiates a sense of serenity._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder RPG Bestiary pg 21\
 **Subtype:** Archon, Extraplanar, Good, Lawful
 
 **Experience points:** 38,400

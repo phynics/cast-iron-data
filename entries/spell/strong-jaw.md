@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "strong_jaw", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "247"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
 :::
-
-**Sources:** Advanced Player's Guide pg 247
 
 Laying a hand upon an allied creature's jaw, claws, tentacles, or other natural weapons, you enhance
 the power of that creature's natural attacks. Each natural attack that creature makes deals damage

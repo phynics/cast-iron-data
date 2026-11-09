@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "touch_of_slumber", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "26"
 
 [fields]
 kind = "spell"
@@ -53,8 +56,6 @@ Target: non-hostile creature touched
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Magic Tactics Toolbox pg 26
 
 This spell functions only against a creature with an attitude toward you of indifferent or better,
 and only if the target is not hostile toward you or your visible allies. A target touched by you

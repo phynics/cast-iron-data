@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bat_sootwing_bat", path = "json/monsters03.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -37,7 +40,6 @@ _This bat-like creature has jagged points at the tips of its wings and a long, l
 
 **Perception:** +5
 
-**Sources:** Monster Codex pg 88\
 **Size:** tiny
 
 **Type:** undead

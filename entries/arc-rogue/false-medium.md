@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "123"
 
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "2nd-level rogue talent", "Trap sense"]
 +++
 
-**Sources:** Occult Adventures pg 123\
 The false medium is a master of pretending to have occult powers in order to manipulate the emotions
 and atmosphere of the people and places around him, often reaping a healthy reward from the
 bereaved, who find solace in his comforting lies.

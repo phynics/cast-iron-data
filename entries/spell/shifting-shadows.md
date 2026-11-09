@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shifting_shadows", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "31"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 Area: 20-ft.-radius emanation centered on a point in space
 Descriptors: darkness
 :::
-
-**Sources:** Dirty Tactics Toolbox pg 31
 
 Waves of shifting shadows obscure the appearance of all creatures caught within the emanation,
 making it harder to tell friends from foes.

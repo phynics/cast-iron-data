@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cutlass_of_waves", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "189"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "6th"
 +++
 
-**Sources:** Villain Codex pg 189\
 **Aura** moderate transmutation; **CL** 6th\
 **Slot** none; **Price** 9,615 gp; **Weight** 1 lb.
 

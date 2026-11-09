@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tiefling", path = "json/monsters39.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "264"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ something more than human._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 264\
 **Subtype:** Native
 
 **Experience points:** 200

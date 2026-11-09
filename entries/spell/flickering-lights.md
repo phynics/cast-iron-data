@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flickering_lights", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "118"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Spell resistance: yes
 Area: contiguous area consisting of one 10-foot cube/level (S)
 Descriptors: darkness, light
 :::
-
-**Sources:** Horror Adventures pg 118
 
 You cause the illumination in the area to seem to flicker erratically, fluctuating between absolute
 darkness and blinding brightness. The level of light in the area changes at the start of each

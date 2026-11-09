@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pox_of_rumors", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "222"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: curse, mind-affecting
 :::
-
-**Sources:** Ultimate Intrigue pg 222
 
 You curse the target to attract negative assumptions and rumors of a sort you specify when you cast
 the spell. If the target fails the initial save to negate the curse, every day that it spends in a

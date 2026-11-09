@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/entangle" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "196"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Area: plants in a 40-ft.-radius spread
 :::
 
 ### Thorny Entanglement
-
-**Sources:** Advanced Class Guide pg 196
 
 This spell functions as [entangle](ref/spell/entangle), except the plants also grow thorns and can
 fling them up to 15 feet. Any creature that moves within 15 feet of the spell's area is attacked

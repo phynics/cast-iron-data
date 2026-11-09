@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/oracle" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "59"
 
 [fields]
 kind = "archetype"
 replaces = ["Bonus skills from the oracle's mystery", "The bonus spells gained at 2nd, 4th, 6th, 8th, and 18th levels from the oracle's mystery"]
 +++
 
-**Sources:** Ultimate Magic pg 59\
 Some oracles seek meaning in the pattern of the stars across the night sky, the trails of comets,
 and the eternal orbits of the planets.
 

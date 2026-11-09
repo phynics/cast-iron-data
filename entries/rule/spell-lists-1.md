@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_lists_1", path = "json/rules_adv_gm03.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "218"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 218
 
 The following lists are themed to different uses of magic, and also correspond to bloodlines,
 domains, and other prominent spell themes. For a monster with a class graft, use the graft's

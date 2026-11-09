@@ -6,6 +6,9 @@ source_ids = ["mythic-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "borrowed_time", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "mythic-origins"
+page = "14"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Mythic Origins pg 14
 
 A creation of the archmage Nex, this spell allows you to reach ahead in time and draw alacrity from
 the future at the expense of your own health. For the duration of this spell, you gain an extra

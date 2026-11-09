@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "protection_from_evil", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "327"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Spell resistance: no; see text
 Target: creature touched
 Descriptors: good
 :::
-
-**Sources:** PRPG Core Rulebook pg 327
 
 This spell wards a creature from attacks by evil creatures, from mental control, and from summoned
 creatures. It creates a magical barrier around the subject at a distance of 1 foot. The barrier

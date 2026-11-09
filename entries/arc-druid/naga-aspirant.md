@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "196"
 
 [fields]
 kind = "archetype"
 replaces = ["Spontaneous casting", "Resist nature's lure", "Wild Shape", "Venom immunity", "a thousand faces", "timeless body", "Wildshape (at will)"]
 +++
 
-**Sources:** Advanced Race Guide pg 196\
 The naga aspirant follows the ancient beliefs and engages in the rituals of a druidic sect dedicated
 to the transcendence of her nagaji form through absolute devotion to nagas and naga gods. Through
 acting as a herald to the naga deities, the aspirant is rewarded with the ability to unlock her

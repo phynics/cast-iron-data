@@ -6,6 +6,9 @@ source_ids = ["pathfinder-48-shadows-of-gallowspire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gargoyle_gargoyle_guardian", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "pathfinder-48-shadows-of-gallowspire"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ innocent passers-by. Then it moves - to do just that._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#48: Shadows of Gallowspire pg 84\
 **Experience points:** 4,800
 
 **Armor class:** 22/11/20

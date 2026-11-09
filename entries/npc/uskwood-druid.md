@@ -6,6 +6,9 @@ source_ids = ["inner-sea-npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "uskwood_druid", path = "json/npcs3.json" },
 ]
+[[sources]]
+publication = "inner-sea-npc-codex"
+page = "60"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "10"
 
 **Challenge rating:** 10
 
-**Sources:** Inner Sea NPC Codex pg 60\
 **XP** 9,600\
 Elf [druid](ref/class/druid) of [Zon-Kuthon](ref/faith/zon-kuthon) 11\
 NE Medium humanoid (elf)\

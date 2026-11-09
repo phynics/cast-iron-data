@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "covers_and_personas", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "128"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 128
 
 During a heist, and especially in an infiltration, a character might need to assume a cover: a false
 identity. This identity needs only a few details, like the person's name, profession, and recent

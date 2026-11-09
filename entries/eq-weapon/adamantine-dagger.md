@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "adamantine_dagger", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "150"
+[[sources]]
+publication = "core-rulebook"
+page = "471"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "1 lb."
 +++
-
-**Sources:** Ultimate Equipment pg 150, PRPG Core Rulebook pg 471
 
 This nonmagical [dagger](ref/eq-weapon/dagger) is made out of
 [adamantine](ref/eq-material/adamantine). As a [masterwork weapon](ref/rule/masterwork-weapons), it

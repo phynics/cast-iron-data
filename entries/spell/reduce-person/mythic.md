@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/reduce-person", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "105"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 105
 
 You can decrease the target's size by up to two categories, to a minimum of Tiny. If the target
 shrinks two sizes, its weight decreases by a factor of 16 and it gains a +4 size bonus to Dexterity,

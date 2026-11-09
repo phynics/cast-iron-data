@@ -6,14 +6,16 @@ source_ids = ["bestiary-6", "bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "qlippoth", path = "json/monster_subtypes.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+[[sources]]
+publication = "bestiary-2"
 
 [fields]
 kind = "none"
 +++
 
 ## Subtype: Qlippoth
-
-**Sources:** Bestiary 6, Bestiary 2
 
 [Qlippoth](ref/family/qlippoth) are chaotic evil [outsiders](ref/type/outsider) from the deepest
 reaches of [the Abyss](ref/rule/the-abyss). They have the following traits unless otherwise noted in

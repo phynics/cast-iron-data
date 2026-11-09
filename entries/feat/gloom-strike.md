@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gloom_strike", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "111"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you are within an area of dim light or darkness, you gain a +1 b
 +++
 
 ## Gloom Strike (Combat)
-
-**Sources:** Advanced Race Guide pg 111
 
 Few creatures are as accustomed to fighting in the shadows as you.\
 **Prerequisites:** [Blind-Fight](ref/feat/blind-fight), [fetchling](ref/race/fetchling).\

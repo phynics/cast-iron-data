@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eidolon_mount", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "110"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Your eidolon is capable of serving you as a combat-trained mount. If 
 +++
 
 ## Eidolon Mount (Combat)
-
-**Sources:** Ultimate Wilderness pg 110
 
 Your eidolon is capable of carrying you into combat with great skill.\
 **Prerequisites:** Eidolon able to choose quadruped or serpentine as a base form.\

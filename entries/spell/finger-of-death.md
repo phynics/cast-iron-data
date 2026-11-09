@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "finger_of_death", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "282"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: death
 :::
-
-**Sources:** PRPG Core Rulebook pg 282
 
 This spell instantly delivers 10 points of damage per caster level. If the target's Fortitude saving
 throw succeeds, it instead takes 3d6 points of damage + 1 point per caster level. The subject might

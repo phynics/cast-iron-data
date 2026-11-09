@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rule_interactions", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "205"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 205
 
 Several different mechanics allow a creature to influence or control another creature, and sometimes
 it isn't clear how these competing effects should play out, whether it be possession versus

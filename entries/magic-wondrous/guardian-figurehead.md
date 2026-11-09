@@ -6,6 +6,9 @@ source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guardian_figurehead", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "merchants-manifest"
+page = "26"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Sources:** Merchant's Manifest pg 26\
 **Aura** faint abjuration; **CL** 3rd\
 **Slot** none; **Price** 1,350 gp; **Weight** 50 lbs.
 

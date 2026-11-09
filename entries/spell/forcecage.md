@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "forcecage", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "285"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: no
 Area: barred cage (20-ft. cube) or windowless cell (10-ft. cube)
 Descriptors: force
 :::
-
-**Sources:** PRPG Core Rulebook pg 285
 
 This spell creates an immobile, invisible cubical prison composed of either bars of force or solid
 walls of force (your choice).

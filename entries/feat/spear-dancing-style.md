@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spear_dancing_style", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "17"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "A character with the weapon training (polearms or spears) class featu
 +++
 
 ## Spear Dancing Style (Combat, Style)
-
-**Sources:** Weapon Master's Handbook pg 17
 
 You can use polearms and spears as double weapons.\
 **Prerequisites:** Dex 13, [Two-Weapon Fighting](ref/feat/two-weapon-fighting),

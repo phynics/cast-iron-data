@@ -6,6 +6,9 @@ source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nimble", path = "json/equipment_armor_enhancements.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "7"
 
 [fields]
 kind = "item"
@@ -13,7 +16,6 @@ category = "Armor Modifications"
 weight = "+5 lbs."
 +++
 
-**Sources:** Adventurer's Armory 2 pg 7\
 **Cost** +1,000 gp **Weight** +5 lbs.
 
 Nimble armor is designed for flexibility and ease of use, although this compromises its protective

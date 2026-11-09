@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gory", path = "json/magic_enhancements2.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "24"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ aura = "strong necromancy"
 caster_level = "15th"
 +++
 
-**Sources:** Dirty Tactics Toolbox pg 24\
 **Aura** strong necromancy; **CL** 15th\
 **Price** +3 bonus; **Weight** -
 

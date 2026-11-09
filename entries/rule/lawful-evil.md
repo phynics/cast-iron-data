@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lawful_evil", path = "json/rules_basics01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "136"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 136
 
 One day, I will rule. A strong leader is admired, a weak leader overthrown. I have principles and I
 am right. Chaos brings death. In this world there is only order or oblivion. Rank must be respected

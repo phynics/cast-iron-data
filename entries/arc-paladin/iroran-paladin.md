@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/paladin" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "39"
 
 [fields]
 kind = "archetype"
 replaces = ["Proficiency with medium armor", "heavy armor", "and shields", "Aura of good", "Detect evil", "Smite evil", "Aura of courage", "Channel positive energy", "Divine bond", "Aura of justice"]
 +++
 
-**Sources:** Inner Sea Combat pg 39\
 Iroran paladins meditate on self-perfection and train relentlessly, knowing that their example can
 inspire others to excel. [Irori](ref/faith/irori) offers no universal paladin code; each paladin in
 his service creates his own code as part of his spiritual journey, seeing the adherence to such a

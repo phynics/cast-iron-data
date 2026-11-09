@@ -6,12 +6,20 @@ source_ids = ["inner-sea-races", "bestiary-2", "advanced-race-guide", "plane-hop
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ifrit", path = "json/races2.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "245"
+[[sources]]
+publication = "bestiary-2"
+page = "160"
+[[sources]]
+publication = "advanced-race-guide"
+page = "126"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Inner Sea Races pg 245, Bestiary 2 pg 160, Advanced Race Guide pg 126\
 Humans whose ancestry includes beings of elemental fire such as efreet, ifrits are a passionate and
 fickle race. No ifrit is satisfied with a sedentary life; like a wildfire, ifrits must keep moving
 or burn away into nothingness. Ifrits not only adore flames, but personify multiple aspects of them

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "adventurers-guide", "arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planar_ally_lesser", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "320"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: none
 Spell resistance: no
 Subschool: Calling
 :::
-
-**Sources:** PRPG Core Rulebook pg 320
 
 By casting this spell, you request your deity to send you an outsider (of 6 HD or less) of the
 deity's choice. If you serve no particular deity, the spell is a general plea answered by a creature

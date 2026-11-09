@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/spell-focus", label = "or" },
 ]
+[[sources]]
+publication = "monster-summoners-handbook"
+page = "13"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ prerequisite_feats = ["ref/feat/spell-focus"]
 benefit = "Choose a subtype of outsider, such as angel or elemental. When using the *planar ally* or *planar binding* spells, you can call 2 additional Hit Dice of outsiders with the chosen subtype. You also gain an additional benefit depending on what spell you are casting."
 special = "You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a different subtype of outsider."
 +++
-
-**Sources:** Monster Summoner's Handbook pg 13
 
 Your attempts to bind or call outsiders are highly potent.\
 **Prerequisites:** [Spell Focus](ref/feat/spell-focus) (conjuration); ability to cast

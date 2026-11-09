@@ -6,6 +6,9 @@ source_ids = ["pathfinder-140-eulogy-for-roslars-coffer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloodstone_mirror", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "pathfinder-140-eulogy-for-roslars-coffer"
+page = "72"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Pathfinder \#140: Eulogy for Roslar's Coffer pg 72
 
 Developed due to [Arazni's](ref/faith/arazni) fear that her stolen organs might be used to control
 her, this spell reflects any attempts to steal your free will. Whenever you are exposed to a

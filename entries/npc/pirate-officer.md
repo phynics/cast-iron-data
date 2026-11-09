@@ -6,6 +6,9 @@ source_ids = ["isles-of-the-shackles"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pirate_officer", path = "json/npcs5.json" },
 ]
+[[sources]]
+publication = "isles-of-the-shackles"
+page = "56"
 
 [fields]
 kind = "creature"
@@ -19,7 +22,6 @@ lute at her side._
 
 **Challenge rating:** 3
 
-**Sources:** Isles of the Shackles pg 56\
 **XP** 800\
 Half-elf [bard](ref/class/bard) 4\
 CN Medium humanoid (elf, human)\

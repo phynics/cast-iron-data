@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flying_straps_standard", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "105"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "10 lbs. (masterwork), 10 lbs. (standard)"
 
 ## Flying straps
 
-**Sources:** Monster Codex pg 105\
 **Price** 80 gp (masterwork), 10 gp (standard); **Weight** 10 lbs. (masterwork), 10 lbs. (standard)
 
 These crude straps are used to secure a goblin or other small creature to the underside of a dire

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/arcanist" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "77"
 
 [fields]
 kind = "archetype"
 replaces = ["Arcanist exploits gained at 1st, 3rd, 9th, and 15th levels", "magical supremacy"]
 +++
 
-**Sources:** Advanced Class Guide pg 77\
 Though most arcanists possess only a rudimentary innate arcane gift, the blood arcanist has the full
 power of a bloodline to draw upon.
 

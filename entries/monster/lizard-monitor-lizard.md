@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lizard_monitor_lizard", path = "json/monsters16.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "194"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ of drool hang from its toothy maw._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 194\
 **Experience points:** 600
 
 **Armor class:** 15/12/13

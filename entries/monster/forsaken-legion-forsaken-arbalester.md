@@ -6,6 +6,9 @@ source_ids = ["pathfinder-102-breaking-the-bones-of-hell"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "forsaken_legion_forsaken_arbalester", path = "json/monsters31.json" },
 ]
+[[sources]]
+publication = "pathfinder-102-breaking-the-bones-of-hell"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ uniform and carries a massive crossbow._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#102: Breaking the Bones of Hell pg 86\
 **Type:** undead
 
 **Experience points:** 800

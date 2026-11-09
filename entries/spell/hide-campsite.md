@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hide_campsite", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "227"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Area: one 20-ft. cube
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** Advanced Player's Guide pg 227
 
 You make the area around a campsite appear to be a thicket of untouched and forbidding foliage, or
 some other unwelcoming feature matching the surrounding terrain. Creatures outside the area cannot

@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "silk_to_steel", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "238"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: none
 Spell resistance: no
 Target: one scarf
 :::
-
-**Sources:** Ultimate Magic pg 238
 
 You imbue an ordinary scarf (or similar piece of clothing) with the strength of steel without
 altering its weight or flexibility. Each round on your turn, you can decide to use the scarf to

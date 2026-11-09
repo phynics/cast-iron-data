@@ -6,6 +6,9 @@ source_ids = ["planes-of-power"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plane_of_fire", path = "json/class_ability_druid_domains.json" },
 ]
+[[sources]]
+publication = "planes-of-power"
+page = "7"
 
 [fields]
 kind = "class_option"
@@ -13,8 +16,6 @@ group = "druid-domain"
 +++
 
 ## Plane of Fire Domain
-
-**Sources:** Planes of Power pg 7
 
 **Granted Powers:** You embrace the destructive flames and ever-roaring volcanoes of the
 [Plane of Fire](ref/rule/plane-of-fire), having proven yourself impervious to its heat.

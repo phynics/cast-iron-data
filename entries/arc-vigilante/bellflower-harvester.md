@@ -9,6 +9,12 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/vigilante" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "42"
+[[sources]]
+publication = "spymasters-handbook"
+page = "25"
 
 [fields]
 kind = "archetype"
@@ -16,7 +22,6 @@ replaces = ["Vigilante specialization", "Social talent gained at 1st level", "Vi
 alters = ["Dual identity"]
 +++
 
-**Sources:** Adventurer's Guide pg 42, Spymaster's Handbook pg 25\
 Bellflower harvesters are the front-line operatives of the secretive
 [Bellflower Network](ref/rule/aff-antislavery), whose members infiltrate Chelish estates in the
 guise of servants and slaves, and tolerate a harsh life as they uncover secrets, gauge security, and

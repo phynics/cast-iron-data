@@ -6,6 +6,15 @@ source_ids = ["ultimate-equipment", "advanced-players-guide", "adventurers-armor
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "liquid_ice", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "107"
+[[sources]]
+publication = "advanced-players-guide"
+page = "184"
+[[sources]]
+publication = "adventurers-armory"
+page = "19"
 
 [fields]
 kind = "item"
@@ -14,7 +23,6 @@ price = "40 gp"
 weight = "2 lbs."
 +++
 
-**Sources:** Ultimate Equipment pg 107, Advanced Player's Guide pg 184, Adventurer's Armory pg 19\
 **Price** 40 gp; **Weight** 2 lbs.\
 **Category** Alchemical Weapons
 

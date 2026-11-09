@@ -6,6 +6,9 @@ source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deadly_horns", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "178"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You gain a gore natural attack that deals 1d6 points of damage. Due t
 +++
 
 ## Deadly Horns (Combat)
-
-**Sources:** Book of the Damned pg 178
 
 Many tieflings bear horns as an overt mark of their fiendish heritage; you have learned to use yours
 as a weapon.\

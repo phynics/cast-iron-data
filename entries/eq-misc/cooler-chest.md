@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cooler_chest", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "243"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "25 gp"
 weight = "60 lbs."
 +++
 
-**Sources:** Ultimate Wilderness pg 243\
 **Price** 25 gp; **Weight** 60 lbs.\
 **Category** Adventuring Gear
 

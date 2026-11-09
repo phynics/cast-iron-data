@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_dragonfly", path = "json/monsters11.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "105"
 
 [fields]
 kind = "creature"
@@ -39,7 +42,6 @@ farm animals or people._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 2 pg 105\
 **Type:** vermin
 
 **Experience points:** 1,200

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "triangulate", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "209"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever both you and an ally who also has this feat are within 30 fe
 +++
 
 ## Triangulate (Teamwork)
-
-**Sources:** Inner Sea Races pg 209
 
 Your distrust of magic has forced you to develop tactics to fight witches, fey, and other
 supernatural foes. No matter how clever they think they are, they can't hide.\

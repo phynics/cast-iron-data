@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_slam", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "133"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Any opponents hit by your shield bash are also hit with a free bull r
 +++
 
 ## Shield Slam (Combat)
-
-**Sources:** PRPG Core Rulebook pg 133
 
 In the right position, your shield can be used to send opponents flying.\
 **Prerequisites:** [Improved Shield Bash](ref/feat/improved-shield-bash),

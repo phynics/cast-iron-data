@@ -6,6 +6,9 @@ source_ids = ["inner-sea-world-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_other_spine_dragon", path = "json/monsters42.json" },
 ]
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "312"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ almost to be made of glass._
 
 **Senses:** Darkvision 120 ft., Low-light vision
 
-**Sources:** Inner Sea World Guide pg 312\
 **Subtype:** Earth
 
 **Experience points:** 76,800

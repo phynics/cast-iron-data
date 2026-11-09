@@ -6,6 +6,9 @@ source_ids = ["pathfinder-92-the-hill-giants-pledge"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gorums_thorn", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "pathfinder-92-the-hill-giants-pledge"
+page = "33"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Sources:** Pathfinder \#92: The Hill Giant's Pledge pg 33\
 **Aura** moderate transmutation; **CL** 10th\
 **Slot** none; **Price** 12,350 gp; **Weight** 8 lbs.
 

@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scrounging", path = "json/rules_opt_magic01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "152"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 152
 
 This optional rule allows a low-level spellcaster to find enough components to keep casting her
 spells. It's recommended to use scrounging if esoteric components are mandatory.

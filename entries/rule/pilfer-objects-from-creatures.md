@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pilfer_objects_from_creatures", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "58"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 58
 
 Surreptitiously stealing an item from a creature requires a successful DC 20 Finesse check. The
 opponent attempts an opposed Perception check against the result of your Finesse check. If she

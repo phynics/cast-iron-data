@@ -6,6 +6,9 @@ source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inkariax", path = "json/faiths4.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "120"
 
 [fields]
 kind = "none"
@@ -15,7 +18,6 @@ kind = "none"
 
 **Sub:** The White Death
 
-**Sources:** Book of the Damned pg 120\
 **Monster Link** [Inkariax](ref/monster/kyton-demagogue-inkariax)
 
 ### Details

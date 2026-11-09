@@ -6,6 +6,9 @@ source_ids = ["rise-of-the-runelords-anniversary-edition"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "karzougs_burning_glaive", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "rise-of-the-runelords-anniversary-edition"
+page = "422"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation [evil]"
 caster_level = "17th"
 +++
 
-**Sources:** Rise of the Runelords Anniversary Edition pg 422\
 **Aura** strong transmutation \[evil\]; **CL** 17th\
 **Slot** none; **Price** -; **Weight** 8 lbs.
 

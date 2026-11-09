@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mages_disjunction", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "306"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: Will negates (object)
 Spell resistance: no
 Area: all magical effects and magic items within a 40-ft. radius burst, or one magic item (see text)
 :::
-
-**Sources:** PRPG Core Rulebook pg 306
 
 All magical effects and magic items within the radius of the spell, except for those that you carry
 or touch, are disjoined. That is, spells and spell-like effects are unraveled and destroyed

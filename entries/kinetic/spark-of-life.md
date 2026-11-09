@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spark_of_life", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "27"
 
 [fields]
 kind = "class_option"
@@ -21,8 +24,6 @@ group = "kineticist-wild-talent"
 **Level:** 5
 
 **Burn:** 0
-
-**Source:** Occult Adventures/27
 
 You breathe a semblance of life into elemental matter, which takes the form of a Medium elemental of
 any of your elements as if summoned by [summon monster IV](ref/spell/summon-monster-4) with a caster

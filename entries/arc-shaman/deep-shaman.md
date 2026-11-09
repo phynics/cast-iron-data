@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/shaman" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
+page = "51"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Elemental form of the true spirit ability"]
 alters = ["Spirit", "spirit animal", "Hexes", "Spirit ability", "greater spirit ability"]
 +++
 
-**Sources:** Aquatic Adventures pg 51\
 While most shamans of the _waves_ spirit have powers associated with surface waters, deep shamans
 are tied to spirits from the depths. Some say that the first deep shamans served
 [Besmara](ref/faith/besmara) back when she was a water spirit, before she achieved full godhood.

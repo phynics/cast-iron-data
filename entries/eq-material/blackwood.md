@@ -6,13 +6,14 @@ source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blackwood", path = "json/equipment_special_materials.json" },
 ]
+[[sources]]
+publication = "merchants-manifest"
+page = "9"
 
 [fields]
 kind = "item"
 category = "Special Materials"
 +++
-
-**Sources:** Merchant's Manifest pg 9
 
 Any wooden or mostly wooden item (such as a bow or quarterstaff) made from blackwood is considered a
 masterwork item and weighs only half as much as a normal wooden item of that type. Items not

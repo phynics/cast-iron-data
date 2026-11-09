@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spirit_revivification_incense", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "263"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "11th"
 +++
 
-**Sources:** Occult Adventures pg 263\
 **Aura** moderate necromancy; **CL** 11th\
 **Slot** none; **Price** 800 gp; **Weight** -
 

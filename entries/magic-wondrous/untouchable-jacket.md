@@ -6,6 +6,9 @@ source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "untouchable_jacket", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "spymasters-handbook"
+page = "20"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "9th"
 +++
 
-**Sources:** Spymaster's Handbook pg 20\
 **Aura** moderate abjuration; **CL** 9th\
 **Slot** body; **Price** 18,000 gp; **Weight** 1 lb.
 

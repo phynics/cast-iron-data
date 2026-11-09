@@ -6,6 +6,9 @@ source_ids = ["occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychic_vampire", path = "json/monster_template3.json" },
 ]
+[[sources]]
+publication = "occult-bestiary"
+page = "58"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +2
-
-**Source:** Occult Bestiary/58
 
 Much like their more bestial cousins, psychic vampires are undead abominations driven by a terrible
 hunger. However, unlike [vampires](ref/template/vampire) and [nosferatu](ref/template/nosferatu),

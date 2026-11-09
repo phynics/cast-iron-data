@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "acute_shot", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "5"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Far Shot, Precise Shot."
 prerequisite_feats = ["ref/feat/far-shot", "ref/feat/precise-shot"]
 benefit = "Whenever you gain a magic bonus on an attack roll with a ranged weapon, you can deduct any range penalties from your damage roll, instead of your attack roll."
 +++
-
-**Sources:** Magic Tactics Toolbox pg 5
 
 When magic aids your ranged attacks, you rarely miss.\
 **Prerequisites:** [Far Shot](ref/feat/far-shot), [Precise Shot](ref/feat/precise-shot).\

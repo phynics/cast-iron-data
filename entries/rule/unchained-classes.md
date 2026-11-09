@@ -6,12 +6,14 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unchained_classes", path = "json/rules_basics01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "8"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder Unchained pg 8\
 Since the release of the Pathfinder RPG Core Rulebook, countless game sessions have revealed that
 certain classes have been pushing against their constraints, yearning to break free into something
 at once familiar and new. This chapter includes unchained versions of the barbarian, monk, rogue,

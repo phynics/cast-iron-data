@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "remove_curse", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "332"
 
 [fields]
 kind = "spell"
@@ -54,8 +57,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature or object touched
 :::
-
-**Sources:** PRPG Core Rulebook pg 332
 
 Remove curse can remove all curses on an object or a creature. If the target is a creature, you must
 make a caster level check (1d20 + caster level) against the DC of each curse affecting the target.

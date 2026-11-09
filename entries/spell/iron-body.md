@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "iron_body", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "302"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** PRPG Core Rulebook pg 302
 
 This spell transforms your body into living iron, which grants you several powerful resistances and
 abilities. You gain [damage reduction](ref/rule/damage-reduction) 15/adamantine. You are immune to

@@ -6,6 +6,9 @@ source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mother_sphinx_token", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "merchants-manifest"
+page = "5"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Sources:** Merchant's Manifest pg 5\
 **Aura** moderate evocation; **CL** 7th\
 **Slot** none; **Price** 9,000 gp; **Weight** -
 

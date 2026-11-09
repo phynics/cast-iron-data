@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extra_bombs", path = "json/feat06.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "159"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Bomb class feature."
 benefit = "You can throw two additional bombs per day."
 special = "You can gain Extra Bombs multiple times. Its effects stack."
 +++
-
-**Sources:** Advanced Player's Guide pg 159
 
 You can throw more bombs per day.\
 **Prerequisites:** Bomb class feature.\

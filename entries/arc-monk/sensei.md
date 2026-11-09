@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/monk" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "60"
 
 [fields]
 kind = "archetype"
 replaces = ["Flurry of blows", "fast movement", "improved evasion", "Evasion", "bonus feat gained at 2nd level", "Bonus feats gained at 6th, 10th, and 14th level"]
 +++
 
-**Sources:** Ultimate Combat pg 60\
 The sensei is a revered teacher who imparts lessons on the oneness of mind, body, and spirit, along
 with occasional correction that is subtle and swift. Rather than using wisdom for his own benefit
 alone, he uses it to better those around him.

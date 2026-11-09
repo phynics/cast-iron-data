@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "intelligent_item_alignment", path = "json/rules_basics02.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "533"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 533
 
 Any item with intelligence has an alignment (see Table 15-21). Note that intelligent weapons already
 have alignments, either stated or by implication. If you're generating a random intelligent weapon,

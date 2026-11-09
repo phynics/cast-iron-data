@@ -6,12 +6,13 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_outer", path = "json/monster_families.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "64"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Bestiary 4 pg 64
 
 Outer dragons, natives of the vast reaches of space, can be encountered on diverse worlds. They are
 generally neutral, but their alignments vary more than those of other dragons.

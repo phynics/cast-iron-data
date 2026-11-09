@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "norn", path = "json/monsters18.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "202"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ thread and a pair of shears._
 
 **Senses:** All-around vision, Greater arcane sight, Low-light vision, True seeing
 
-**Sources:** Bestiary 3 pg 202\
 **Experience points:** 153,600
 
 **Armor class:** 33/21/31

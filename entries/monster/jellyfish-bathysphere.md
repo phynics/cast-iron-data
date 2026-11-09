@@ -6,6 +6,9 @@ source_ids = ["planes-of-power"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jellyfish_bathysphere", path = "json/monsters34.json" },
 ]
+[[sources]]
+publication = "planes-of-power"
+page = "58"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ with an eerie blue light._
 
 **Senses:** All-around vision, Darkvision 60 ft.
 
-**Sources:** Planes of Power pg 58\
 **Subtype:** Aquatic, Extraplanar
 
 **Size:** tiny

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/vigilante" },
 ]
+[[sources]]
+publication = "heroes-of-the-high-court"
+page = "24"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["1st-level social talent", "Unshakable", "Startling appearance", "Fr
 alters = ["Social talents"]
 +++
 
-**Sources:** Heroes of the High Court pg 24\
 Since the disappearance of the Rogarvias, Brevoy draws ever closer to civil war. The rule of
 King-Regent Noleski Surtova grows increasingly tenuous; to hold his position, he sends handpicked
 agents into the kingdom's courts to flush out traitors to the Dragonscale Throne. When not acting as

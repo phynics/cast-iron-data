@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "all_seeing_armor", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "250"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Sources:** Inner Sea Gods pg 250\
 **Aura** faint divination; **CL** 3rd\
 **Slot** armor; **Price** 5,570 gp; **Weight** 25 lbs.
 

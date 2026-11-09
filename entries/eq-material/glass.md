@@ -6,13 +6,14 @@ source_ids = ["pathfinder-71-rasputin-must-die"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "glass", path = "json/equipment_special_materials.json" },
 ]
+[[sources]]
+publication = "pathfinder-71-rasputin-must-die"
+page = "89"
 
 [fields]
 kind = "item"
 category = "Special Materials"
 +++
-
-**Sources:** Pathfinder \#71: Rasputin Must Die! pg 89
 
 Brittle and often strange in appearance, glass weapons mostly serve as ceremonial instruments, but
 are also the best way of permanently slaying fexts. The glass parts of these weapons replace what is

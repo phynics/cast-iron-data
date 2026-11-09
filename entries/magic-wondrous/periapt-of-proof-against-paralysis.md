@@ -6,6 +6,9 @@ source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "periapt_of_proof_against_paralysis", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "potions-and-poisons"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Sources:** Potions and Poisons pg 31\
 **Aura** faint conjuration; **CL** 5th\
 **Slot** neck; **Price** 8,000 gp; **Weight** -
 

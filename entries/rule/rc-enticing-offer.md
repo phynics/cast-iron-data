@@ -6,12 +6,14 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rc_enticing_offer", path = "json/rules_opt_magic01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "183"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder Unchained pg 183\
 A shady figure approaches you with an offer that would make completing your item faster and cheaper.
 
 ### Tasks

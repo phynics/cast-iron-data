@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beyond_20th_level", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "406"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 406
 
 Although the rules don't describe what happens after 20th level, this isn't to say that there are no
 resources available to you should you wish to continue your campaign on to 21st level and beyond.

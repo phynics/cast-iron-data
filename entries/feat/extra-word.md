@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extra_word", path = "json/feat06.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "166"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "You can only take this feat if you possess levels in a class whose sp
 +++
 
 ## Extra Word (Words of Power)
-
-**Sources:** Ultimate Magic pg 166
 
 You have uncovered a new word of power.\
 **Prerequisites:** Caster level 1st, ability to cast [wordspells](ref/rule/words-of-power), see

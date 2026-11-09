@@ -6,6 +6,9 @@ source_ids = ["champions-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rythius_the_kyton_scourge", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "champions-of-purity"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration and evocation"
 caster_level = "12th"
 +++
 
-**Sources:** Champions of Purity pg 31\
 **Aura** strong abjuration and evocation; **CL** 12th\
 **Slot** none; **Price** 53,000 gp; **Weight** 2 lbs.
 

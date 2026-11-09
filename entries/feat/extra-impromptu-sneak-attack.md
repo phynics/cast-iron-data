@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extra_impromptu_sneak_attack", path = "json/feat06.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "10"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "You can gain this feat multiple times. Its benefits stack."
 +++
 
 ## Extra Impromptu Sneak Attack (Combat)
-
-**Sources:** Dirty Tactics Toolbox pg 10
 
 You are particularly adept at striking at your opponents who are unaware of your presence.\
 **Prerequisites:** Impromptu sneak attack class feature.\

@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "legendary_artifacts", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "169"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 169
 
 When a magic item ascends to legendary status, it gains the suite of base legendary abilities and
 can have up to three additional legendary abilities. By selecting the legendary item universal path

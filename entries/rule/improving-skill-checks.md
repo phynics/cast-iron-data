@@ -6,12 +6,13 @@ source_ids = ["dungeoneers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improving_skill_checks", path = "json/rules_rulesets01.json" },
 ]
+[[sources]]
+publication = "dungeoneers-handbook"
+page = "15"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Dungeoneer's Handbook pg 15
 
 Each dungeon guide can grant bonuses on up to three very specific skill checks both in and out of
 the dungeon. A PC who has ranks in the guide's associated skill can attempt a check with that skill

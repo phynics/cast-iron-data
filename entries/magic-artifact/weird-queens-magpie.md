@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weird_queens_magpie", path = "json/magic_artifact3.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "334"
 
 [fields]
 kind = "item"
@@ -16,8 +19,6 @@ slot = "none"
 aura = "strong enchantment and evocation"
 caster_level = "15th"
 +++
-
-**Sources:** Ultimate Equipment pg 334
 
 **Aura** strong enchantment and evocation; **CL** 15th\
 **Slot** none; **Price** -; **Weight** 2 lbs.

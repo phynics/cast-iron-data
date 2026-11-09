@@ -6,6 +6,9 @@ source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cytillesh_stun_vial", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "kobolds-of-golarion"
+page = "29"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "75 gp"
 weight = "0.5 lb."
 +++
 
-**Sources:** Kobolds of Golarion pg 29\
 **Price** 75 gp; **Weight** 0.5 lb.\
 **Category** Alchemical Weapons
 

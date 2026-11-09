@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_shops", path = "json/rules_gm03.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "106"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 106
 
 No issue epitomizes the advantages and drawbacks of a high-magic game like the question of whether
 to place magic shops in your world. Players, especially those toward the right end of the rewards

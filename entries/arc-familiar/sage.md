@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sage", path = "json/archetypes_FAMILIAR.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "213"
+[[sources]]
+publication = "familiar-folio"
+page = "11"
 
 [fields]
 kind = "archetype"
@@ -13,7 +19,6 @@ replaces = ["Alertness", "the familiar's ability to share its master's skill ran
 alters = ["The familiar's Intelligence score and natural armor adjustment"]
 +++
 
-**Sources:** Ultimate Wilderness pg 213, Familiar Folio pg 11\
 Sages are masters of useful facts, able to recall them for their masters' benefit, though this leads
 many to become haughty and proud.
 

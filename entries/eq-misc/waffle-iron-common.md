@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "waffle_iron_common", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "58"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "5 lbs. (common), 2-1/2 lbs. (mithral)"
 
 ## Waffle iron
 
-**Sources:** Ultimate Equipment pg 58\
 **Price** 1 gp (common), 2,501 gp (mithral); **Weight** 5 lbs. (common), 2-1/2 lbs. (mithral)
 
 This pair of hinged metal plates is decorated with studs to add texture to the pastry cakes you cook

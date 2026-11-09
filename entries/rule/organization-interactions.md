@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "organization_interactions", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "111"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 111
 
 The PCs' interactions with organizations are often only a piece of a larger political tapestry.
 Alliances and rivalries between organizations shape how each organization reacts to the PCs'

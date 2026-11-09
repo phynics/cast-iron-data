@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "royal_enforcer", path = "json/rules_campaign_types04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "203"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 203
 
 The Royal Enforcer deals with punishing criminals, working with the Councilor to make sure the
 citizens feel the government is adequately dealing with wrongdoers, and working with the Marshal to

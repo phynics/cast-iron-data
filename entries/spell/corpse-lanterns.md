@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/dancing-lights" },
 ]
+[[sources]]
+publication = "pathfinder-society-field-guide"
+page = "57"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: no
 Effect: up to 4 lights, all within a 10-ft.-radius area
 Descriptors: light
 :::
-
-**Sources:** Pathfinder Society Field Guide pg 57
 
 This spell functions as [dancing lights](ref/spell/dancing-lights), except it summons up to four
 spheres of light, each of which glows a sickly pale green. These corpse lanterns shed dim light in a

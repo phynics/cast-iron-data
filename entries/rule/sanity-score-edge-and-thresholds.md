@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sanity_score_edge_and_thresholds", path = "json/rules_campaign_types02.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "12"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 12
 
 Each creature has a sanity score, along with a sanity edge and a sanity threshold. These values
 depend on the creature's current ability scores and ability damage. Increases and penalties to

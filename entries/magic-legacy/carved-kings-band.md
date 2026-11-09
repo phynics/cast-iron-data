@@ -6,6 +6,9 @@ source_ids = ["chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "carved_kings_band", path = "json/magic_legacy_items.json" },
 ]
+[[sources]]
+publication = "chronicle-of-legends"
+page = "20"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ aura = "strong transmutation"
 caster_level = "17th"
 +++
 
-**Sources:** Chronicle of Legends pg 20\
 **Slot** headband; **CL** 17th; **Weight** 1 lb.\
 **Aura** strong transmutation
 

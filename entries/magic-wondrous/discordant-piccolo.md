@@ -6,6 +6,9 @@ source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "discordant_piccolo", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "magical-marketplace"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment"
 caster_level = "6th"
 +++
 
-**Sources:** Magical Marketplace pg 31\
 **Aura** moderate enchantment; **CL** 6th\
 **Slot** none; **Price** 16,000 gp; **Weight** 1/2 lb.
 

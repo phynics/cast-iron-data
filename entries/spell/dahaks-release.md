@@ -6,6 +6,9 @@ source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dahaks_release", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "legacy-of-dragons"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Target: creature touched
 Subschool: Compulsion
 Descriptors: draconic, mind-affecting
 :::
-
-**Sources:** Legacy of Dragons pg 28
 
 You unleash all the target's anger and destructive urges, causing it to fly into a violent
 bloodlust. The target attacks creatures as determined by the following table. If a creature is

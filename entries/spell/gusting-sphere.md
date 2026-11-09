@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gusting_sphere", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "160"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes
 Effect: 5-ft.-diameter sphere of air
 Descriptors: air
 :::
-
-**Sources:** Advanced Race Guide pg 160
 
 > _[Sylphs](ref/race/sylph) have access to the following spell._
 

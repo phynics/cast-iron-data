@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "petrifying_cloak", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "348"
 
 [fields]
 kind = "item"
@@ -15,8 +18,6 @@ slot = "shoulders"
 aura = "moderate transmutation"
 caster_level = "11th"
 +++
-
-**Sources:** Ultimate Equipment pg 348
 
 **Aura** moderate transmutation; **CL** 11th\
 **Slot** shoulders; **Weight** 1 lb.

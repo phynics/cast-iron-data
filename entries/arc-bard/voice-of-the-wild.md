@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "81"
 
 [fields]
 kind = "archetype"
 replaces = ["Bardic knowledge", "Countersong", "versatile performance", "jack-of-all-trades", "Inspire competence", "dirge of doom", "inspire heroics"]
 +++
 
-**Sources:** Advanced Class Guide pg 81\
 Most bards are inspired by the art of civilization, yet the voice of the wild's muse is the grandeur
 and beauty of nature. The voice of the wild has discovered some of nature's magical secrets, and can
 use his performance to bring out the bestial side in his allies.

@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swift_iron_style", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "11"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "A character with the armor training class feature can use Swift Iron 
 +++
 
 ## Swift Iron Style (Combat, Style)
-
-**Sources:** Armor Master's Handbook pg 11
 
 You have learned to move in ways that better accommodate your armor, and can maneuver easily despite
 its bulk.\

@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragonfly_wings", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "14"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using Dragonfly Style, the bonus on your melee attacks increase
 +++
 
 ## Dragonfly Wings (Combat)
-
-**Sources:** Martial Arts Handbook pg 14
 
 You can jump off willing allies and unwilling opponents to attack creatures from above.\
 **Prerequisites:** Dex 15, Wis 15, [Dragonfly Style](ref/feat/dragonfly-style),

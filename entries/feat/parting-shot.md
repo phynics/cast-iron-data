@@ -6,6 +6,12 @@ source_ids = ["advanced-players-guide", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "parting_shot", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "166"
+[[sources]]
+publication = "pathfinder-campaign-setting"
+page = "112"
 
 [fields]
 kind = "feat"
@@ -18,8 +24,6 @@ special = "Starting at 6th level, a ranger with the archery combat style may sel
 +++
 
 ## Parting Shot (Combat)
-
-**Sources:** Advanced Player's Guide pg 166, Pathfinder Campaign Setting pg 112
 
 You are an expert skirmisher, able to rain missiles upon your enemies whether advancing or
 retreating.\

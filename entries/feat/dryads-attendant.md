@@ -6,14 +6,15 @@ source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dryads_attendant", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "wilderness-origins"
+page = "10"
 
 [fields]
 kind = "feat"
 prerequisites = "Cha 15, Dryad's Apprentice, character level 9th, gathlain."
 prerequisite_feats = ["ref/feat/dryads-apprentice"]
 +++
-
-**Sources:** Wilderness Origins pg 10
 
 Dryads trust you to bear their power and their bond.\
 **Prerequisites:** Cha 15, [Dryad's Apprentice](ref/feat/dryads-apprentice), character level 9th,

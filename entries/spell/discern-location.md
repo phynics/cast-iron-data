@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "discern_location", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "270"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: none
 Spell resistance: no
 Target: one creature or object
 :::
-
-**Sources:** PRPG Core Rulebook pg 270
 
 A discern location spell is among the most powerful means of locating creatures or objects. Nothing
 short of a mind blank spell or the direct intervention of a deity keeps you from learning the exact

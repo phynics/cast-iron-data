@@ -6,12 +6,14 @@ source_ids = ["horror-adventures", "game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "moral_insanity", path = "json/madness.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "187"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Adventures pg 187\
 **Type** greater madness; **Save DC** 22\
 **Onset** 3d6 days\
 **Effect** The afflicted character's alignment shifts to evil, and he gains a +10 competence bonus

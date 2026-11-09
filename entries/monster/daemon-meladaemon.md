@@ -6,6 +6,12 @@ source_ids = ["bestiary-2", "beyond-the-vault-of-souls"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daemon_meladaemon", path = "json/monsters06.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "69"
+[[sources]]
+publication = "beyond-the-vault-of-souls"
+page = "30"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ _This foul creature looks like an emaciated humanoid with the head of a jackal._
 
 **Senses:** Darkvision 60 ft., Detect good, Detect magic
 
-**Sources:** Bestiary 2 pg 69, Beyond the Vault of Souls pg 30\
 **Subtype:** Daemon, Evil, Extraplanar
 
 **Experience points:** 12,800

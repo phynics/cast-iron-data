@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "water_strider_giant_water_strider", path = "json/monsters25.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "273"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ solid ground._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 4 pg 273\
 **tremorsense:** 60
 
 **Type:** vermin

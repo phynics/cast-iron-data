@@ -6,6 +6,9 @@ source_ids = ["rise-of-the-runelords-anniversary-edition"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thassilonian_ioun_stones", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "rise-of-the-runelords-anniversary-edition"
+page = "421"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong varied"
 caster_level = "12th"
 +++
 
-**Sources:** Rise of the Runelords Anniversary Edition pg 421\
 **Aura** strong varied; **CL** 12th\
 **Slot** none; **Price** -; **Weight** -
 

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "story_benefits", path = "json/rules_gm03.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "112"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 112
 
 Some adventures can confer additional benefits to make it easier for the characters to overcome
 upcoming obstacles. Often you can describe these story benefits in advance, increasing the players'

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ad_hoc_experience", path = "json/rules_gm03.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "103"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 103
 
 Many players recall with great fondness sessions where the dice were never rolled. When a game
 spends considerable time developing plot and character and places fighting monsters and accumulating

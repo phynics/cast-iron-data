@@ -6,6 +6,9 @@ source_ids = ["pathfinder-56-raiders-of-the-fever-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "svinglis_eye", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "pathfinder-56-raiders-of-the-fever-sea"
+page = "57"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "10th"
 +++
 
-**Sources:** Pathfinder \#56: Raiders of the Fever Sea pg 57\
 **Aura** moderate divination; **CL** 10th\
 **Slot** none; **Price** 28,800 gp; **Weight** 6 lbs.
 

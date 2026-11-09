@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "pathfinder-67-the-snows-of-summer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bear_polar_bear", path = "json/monsters03.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "41"
+[[sources]]
+publication = "pathfinder-67-the-snows-of-summer"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -41,7 +47,6 @@ glistening teeth._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Bestiary 5 pg 41, Pathfinder \#67: The Snows of Summer pg 82\
 **Experience points:** 1,600
 
 **Armor class:** 20/12/17

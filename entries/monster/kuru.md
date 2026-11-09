@@ -6,6 +6,9 @@ source_ids = ["isles-of-the-shackles"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kuru", path = "json/monsters15.json" },
 ]
+[[sources]]
+publication = "isles-of-the-shackles"
+page = "51"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ been filed down to points._
 
 **Senses:** Low-light vision
 
-**Sources:** Isles of the Shackles pg 51\
 **Subtype:** Kuru\
 **Experience points:** 200
 

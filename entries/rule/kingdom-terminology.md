@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kingdom_terminology", path = "json/rules_campaign_types04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "198"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 198
 
 Kingdoms have attributes that describe and define them. These are tracked on a kingdom sheet, like a
 character's statistics are on a character sheet.

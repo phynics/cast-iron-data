@@ -6,12 +6,13 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mid_rp_types", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "216"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Advanced Race Guide pg 216
 
 These types range from 7 RP to 10 RP. The first two are "full" types, while the last two are
 modifications of the High-RP types.

@@ -6,6 +6,12 @@ source_ids = ["advanced-class-guide", "pathfinder-society-field-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "runestone_of_power_9th", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "234"
+[[sources]]
+publication = "pathfinder-society-field-guide"
+page = "53"
 
 [fields]
 kind = "item"
@@ -19,7 +25,6 @@ caster_level = "17th"
 
 ## Runestone of Power
 
-**Sources:** Advanced Class Guide pg 234, Pathfinder Society Field Guide pg 53\
 **Aura** strong transmutation; **CL** 17th\
 **Slot** none; **Price** 2,000 gp (1st), 8,000 gp (2nd), 18,000 gp (3rd), 32,000 gp (4th), 50,000 gp
 (5th), 72,000 gp (6th), 98,000 gp (7th), 128,000 gp (8th), 162,000 gp (9th); **Weight** -

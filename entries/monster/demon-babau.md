@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_babau", path = "json/monsters29.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "57"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ slimy leather._
 
 **Senses:** Darkvision 60 ft., See invisibility
 
-**Sources:** Pathfinder RPG Bestiary pg 57\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 2,400

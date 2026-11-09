@@ -6,12 +6,12 @@ source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "savage_charge", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "the-elephant-in-the-room-feat-taxes-in-pathfinder"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder
 
 You fearlessly dive into battle, bringing the full weight of your weapon down on your opponent.\
 **Prerequisites:** Str 15, [Spring Attack](ref/feat/spring-attack),

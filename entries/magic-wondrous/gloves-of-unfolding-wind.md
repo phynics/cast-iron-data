@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gloves_of_unfolding_wind", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "107"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint evocation"
 caster_level = "3rd"
 +++
 
-**Sources:** Adventurer's Guide pg 107\
 **Aura** faint evocation; **CL** 3rd\
 **Slot** hands; **Price** 10,000 gp; **Weight** 1 lb.
 

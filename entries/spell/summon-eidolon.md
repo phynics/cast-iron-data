@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summon_eidolon", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "248"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Spell resistance: no
 Target: one eidolon
 Subschool: Summoning
 :::
-
-**Sources:** Advanced Player's Guide pg 248
 
 You open a rift between dimensions that summons your eidolon. Treat this as if you had summoned your
 eidolon normally, except that it only remains with you for the duration of this spell. While

@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_mothers_mask", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "263"
+[[sources]]
+publication = "gods-and-magic"
+page = "56"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Inner Sea Gods pg 263, Gods and Magic pg 56\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** head; **Price** 3,600 gp; **Weight** 1 lb.
 

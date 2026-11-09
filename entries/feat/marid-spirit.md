@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "marid_spirit", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "108"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You gain one additional Elemental Fist attempt per day. While using M
 +++
 
 ## Marid Spirit (Combat)
-
-**Sources:** Ultimate Combat pg 108
 
 You can manipulate cold energy to protect yourself and freeze your foes.\
 **Prerequisites:** Con 15, Wis 15, [Elemental Fist](ref/feat/elemental-fist),

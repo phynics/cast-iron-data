@@ -6,6 +6,9 @@ source_ids = ["pathfinder-76-the-midnight-isles"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nahyndrian_elixir", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "pathfinder-76-the-midnight-isles"
+page = "61"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration and necromancy [evil]"
 caster_level = "20th"
 +++
 
-**Sources:** Pathfinder \#76: The Midnight Isles pg 61\
 **Aura** strong conjuration and necromancy \[evil\]; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 1 lb.
 

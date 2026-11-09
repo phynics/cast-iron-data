@@ -6,6 +6,9 @@ source_ids = ["cities-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wheeling_charge", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "cities-of-golarion"
+page = "50"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "You cannot turn when making a charge."
 +++
 
 ## Wheeling Charge (Combat)
-
-**Sources:** Cities of Golarion pg 50
 
 Your mount moves with ease across battlefields.\
 **Prerequisites:** [Mounted Combat](ref/feat/mounted-combat), Ride 5 ranks, Lastwall affinity.\

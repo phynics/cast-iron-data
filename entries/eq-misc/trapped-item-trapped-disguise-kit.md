@@ -6,6 +6,9 @@ source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trapped_item_trapped_disguise_kit", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "kobolds-of-golarion"
+page = "28"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "8 lbs. (trapped disguise kit), 1 lb. (trapped scroll case)"
 
 ## Trapped item
 
-**Sources:** Kobolds of Golarion pg 28\
 **Price** 50 gp (trapped disguise kit), 40 gp (trapped scroll case); **Weight** 8 lbs. (trapped
 disguise kit), 1 lb. (trapped scroll case)
 

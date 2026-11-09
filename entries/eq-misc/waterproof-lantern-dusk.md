@@ -6,6 +6,12 @@ source_ids = ["adventurers-armory-2", "adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "waterproof_lantern_dusk", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "12"
+[[sources]]
+publication = "adventurers-armory"
+page = "19"
 
 [fields]
 kind = "item"
@@ -16,7 +22,6 @@ weight = "4 lbs."
 
 ## Dusk lantern
 
-**Sources:** Adventurer's Armory 2 pg 12, Adventurer's Armory pg 19\
 **Price** 35 gp (normal), 40 gp (waterproof); **Weight** 4 lbs.\
 **Category** Adventuring Gear
 

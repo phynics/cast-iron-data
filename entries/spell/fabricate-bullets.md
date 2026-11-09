@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fabricate_bullets", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "229"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: none
 Spell resistance: no
 Target: 1 pound of soft metal
 :::
-
-**Sources:** Ultimate Combat pg 229
 
 You convert 1 pound of lead into bullets. When you cast this spell, you decide whether you create
 normal sling bullets, firearm bullets, or firearm pellets. The spell creates two sling bullets, 30

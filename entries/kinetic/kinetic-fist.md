@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kinetic_fist", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "21"
 
 [fields]
 kind = "class_option"
@@ -23,8 +26,6 @@ group = "kineticist-wild-talent"
 **Associated:** any
 
 **Saving throw:** none
-
-**Source:** Occult Adventures/21
 
 You surround your body with energy or elemental matter from your kinetic abilities. You can use this
 form infusion as part of an attack action, a [charge](ref/rule/charge) action, or a full-attack

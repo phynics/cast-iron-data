@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "belt_of_physical_might_6", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "210"
+[[sources]]
+publication = "core-rulebook"
+page = "502"
 
 [fields]
 kind = "item"
@@ -19,7 +25,6 @@ caster_level = "12th"
 
 ## Belt of Physical Might
 
-**Sources:** Ultimate Equipment pg 210, PRPG Core Rulebook pg 502\
 **Aura** strong transmutation; **CL** 12th\
 **Slot** belt; **Price** 10,000 gp (+2), 40,000 gp (+4), 90,000 gp (+6); **Weight** 1 lb.
 

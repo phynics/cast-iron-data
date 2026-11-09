@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alternative_means_of_relief", path = "json/rules_campaign_types02.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "141"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 141
 
 Should a curse seem impossible to end by either normal or conditional means, the accursed might take
 desperate measures for even temporary relief from their suffering. Many such methods are dire enough

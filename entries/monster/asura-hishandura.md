@@ -6,6 +6,9 @@ source_ids = ["pathfinder-136-temple-of-the-peacock-spirit"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "asura_hishandura", path = "json/monsters02.json" },
 ]
+[[sources]]
+publication = "pathfinder-136-temple-of-the-peacock-spirit"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ punching daggers._
 
 **Senses:** Darkvision 60 ft., Scent, Scent of carnage, Smoke sight
 
-**Sources:** Pathfinder \#136: Temple of the Peacock Spirit pg 82\
 **Subtype:** Asura, Evil, Extraplanar, Lawful
 
 **Experience points:** 51,200

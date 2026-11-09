@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "faiths-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shared_sacrifice", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "240"
+[[sources]]
+publication = "faiths-of-corruption"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -46,8 +52,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: evil
 :::
-
-**Sources:** Inner Sea Gods pg 240, Faiths of Corruption pg 28
 
 You create a link to a target and can direct pain and damage through this link. You take only half
 damage from effects and attacks that deal hit point damage. The target of this spell takes the

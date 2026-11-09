@@ -6,12 +6,13 @@ source_ids = ["occult-adventures", "psychic-anthology", "occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "implements", path = "json/class_abilities2.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Occult Adventures\
 Occultists can chose from the following _implement schools,_ each representing a school of magic. An
 occultist can select an implement school more than once, as noted in the implements class feature.
 

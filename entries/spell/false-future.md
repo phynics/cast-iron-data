@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "false_future", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "214"
 
 [fields]
 kind = "spell"
@@ -55,8 +58,6 @@ Target: creature or object touched
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** Ultimate Intrigue pg 214
 
 You interfere with attempts to predict the target's future by preventing divinations from revealing
 what the target will do and what will befall the target while under the spell's effects. Instead of

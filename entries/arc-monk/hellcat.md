@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/monk" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "92"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Weapon proficiencies", "Stunning fist", "fast movement", "Evasion",
 alters = ["Alignment requirements", "Bonus feat", "Ki pool"]
 +++
 
-**Sources:** Villain Codex pg 92\
 Monks of the hellcat sect follow the teachings of Asmodeus or another infernal power. Their brutal
 training strips away their physical weaknesses, and their vicious fighting style is inspired by the
 predatory techniques of the hellcat.

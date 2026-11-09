@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "masterwork_armor", path = "json/rules_basics02.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "153"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 153
 
 Just as with [weapons](ref/rule/masterwork-weapons), you can purchase or craft masterwork versions
 of armor or shields. Such a well-made item functions like the normal version, except that its armor

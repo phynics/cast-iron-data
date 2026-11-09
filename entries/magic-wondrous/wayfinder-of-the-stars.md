@@ -6,6 +6,9 @@ source_ids = ["people-of-the-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wayfinder_of_the_stars", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "people-of-the-stars"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration and divination"
 caster_level = "17th"
 +++
 
-**Sources:** People of the Stars pg 31\
 **Aura** strong conjuration and divination; **CL** 17th\
 **Slot** none; **Price** 70,200 gp; **Weight** 2 lbs.
 

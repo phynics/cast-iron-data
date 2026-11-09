@@ -6,14 +6,15 @@ source_ids = ["pathfinder-81-shifting-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cleansing_burst", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "pathfinder-81-shifting-sands"
+page = "73"
 
 [fields]
 kind = "feat"
 prerequisites = "Able to cast remove disease or the ability to cure disease with a mercy, channel positive energy class feature."
 benefit = "When you channel positive energy to harm or turn undead creatures, any undead creatures in the area lose the ability to cause disease with their melee and ranged attacks for 1d4+1 rounds. If an undead creature successfully saves against your channeled energy, this duration is reduced to 1 round for that creature. Immunity to positive energy negates this ability."
 +++
-
-**Sources:** Pathfinder \#81: Shifting Sands pg 73
 
 Your channeled energy wards off disease.\
 **Prerequisites:** Able to cast [remove disease](ref/spell/remove-disease) or the ability to cure

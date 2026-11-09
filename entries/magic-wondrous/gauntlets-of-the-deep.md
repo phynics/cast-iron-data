@@ -6,6 +6,9 @@ source_ids = ["pathfinder-124-city-in-the-deep"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gauntlets_of_the_deep", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "pathfinder-124-city-in-the-deep"
+page = "81"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "7th"
 +++
 
-**Sources:** Pathfinder \#124: City in the Deep pg 81\
 **Aura** moderate abjuration; **CL** 7th\
 **Slot** hands; **Price** 5,000 gp; **Weight** 2 lbs.
 

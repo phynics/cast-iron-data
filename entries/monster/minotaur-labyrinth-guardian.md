@@ -6,6 +6,9 @@ source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "minotaur_labyrinth_guardian", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "inner-sea-monster-codex"
+page = "43"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ enormous blade._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Inner Sea Monster Codex pg 43\
 **Subtype:** Augmented monstrous humanoid
 
 **Type:** undead

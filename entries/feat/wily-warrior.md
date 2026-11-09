@@ -6,6 +6,9 @@ source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wily_warrior", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "spymasters-handbook"
+page = "17"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Once per day, you can use your ranks in Sense Motive in place of your
 +++
 
 ## Wily Warrior (Story)
-
-**Sources:** Spymaster's Handbook pg 17
 
 Those who observe your imposing demeanor assume muscle is your sole advantage, but you prove them
 wrong every time.\

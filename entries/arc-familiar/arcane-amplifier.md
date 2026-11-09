@@ -6,13 +6,15 @@ source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcane_amplifier", path = "json/archetypes_FAMILIAR.json" },
 ]
+[[sources]]
+publication = "wilderness-origins"
+page = "20"
 
 [fields]
 kind = "archetype"
 replaces = ["Alertness", "improved evasion", "Speak with animals of its kind", "spell resistance", "Scry on familiar"]
 +++
 
-**Sources:** Wilderness Origins pg 20\
 The secret of the arcane amplifier familiar was first discovered in Irrisen, where the winter
 witches used white-furred foxes or hares to strengthen their spells. More recently, the practice has
 spread to Nex and Cheliax, and to haunted Ustalav where necromancers use black-eyed ravens for their

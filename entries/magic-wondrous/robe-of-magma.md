@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "robe_of_magma", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-darklands"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration"
 caster_level = "15th"
 +++
 
-**Sources:** Heroes of the Darklands pg 31\
 **Aura** strong conjuration; **CL** 15th\
 **Slot** body; **Price** 112,000 gp; **Weight** 1 lb.
 

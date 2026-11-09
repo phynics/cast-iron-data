@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wealthy_characters", path = "json/rules_gm03.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "109"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 109
 
 Princes, scions of mighty trading houses, and other characters of wealth and influence bring a ready
 supply of plot hooks to your game. But the modest starting budget given to player characters would

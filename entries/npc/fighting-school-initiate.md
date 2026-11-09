@@ -6,6 +6,9 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fighting_school_initiate", path = "json/npcs.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "274"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "1"
 
 **Challenge rating:** 1
 
-**Sources:** GameMastery Guide pg 274\
 **XP** 400\
 Human [monk](ref/class/monk) 2\
 LN Medium humanoid\

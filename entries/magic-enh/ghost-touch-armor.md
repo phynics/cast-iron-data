@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghost_touch_armor", path = "json/magic_enhancements.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "119"
+[[sources]]
+publication = "core-rulebook"
+page = "463"
 
 [fields]
 kind = "item"
@@ -19,7 +25,6 @@ caster_level = "15th"
 
 ## Ghost Touch
 
-**Sources:** Ultimate Equipment pg 119, PRPG Core Rulebook pg 463\
 **Aura** strong transmutation; **CL** 15th\
 **Slot** armor/shield quality; **Price** +3 bonus; **Weight** -
 

@@ -6,12 +6,13 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "herbalism", path = "json/rules_rulesets01.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "152"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Wilderness pg 152
 
 Herbs and useful plants and fungi abound in most wilderness regions, and while these valuable plants
 can be obtained in special markets or shops, the skilled herbalist knows where to go to gather these

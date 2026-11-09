@@ -6,6 +6,9 @@ source_ids = ["inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lorthact", path = "json/monsters_unique3.json" },
 ]
+[[sources]]
+publication = "inner-sea-bestiary"
+page = "26"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ on stout cloven hooves._
 
 **Senses:** Darkvision 60 ft., True seeing
 
-**Sources:** Inner Sea Bestiary pg 26\
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **Experience points:** 1,638,400

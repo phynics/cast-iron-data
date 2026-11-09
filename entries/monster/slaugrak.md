@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slaugrak", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "220"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ reminiscent of sickle blades._
 
 **Senses:** Darkvision 120 ft., See in darkness
 
-**Sources:** Monster Codex pg 220\
 **Subtype:** Chaotic, Evil, Extraplanar, Native
 
 **Experience points:** 2,400

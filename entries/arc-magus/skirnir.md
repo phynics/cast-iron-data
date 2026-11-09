@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/magus" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "56"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Spell combat", "Spell recall", "Knowledge pool", "Improved spell co
 alters = ["Spellstrike", "Spell combat"]
 +++
 
-**Sources:** Ultimate Combat pg 56\
 Sometimes called a shield-vassal or shieldmaiden, the skirnir has learned to infuse his power into
 his shield.
 

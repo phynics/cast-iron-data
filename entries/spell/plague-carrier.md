@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plague_carrier", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "231"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: yes
 Target: creature touched
 Descriptors: disease, evil
 :::
-
-**Sources:** Ultimate Magic pg 231
 
 The target's natural attacks carry filth fever (DC 10 + 1/2 of the creature's Hit Dice + creature's
 Con modifier).

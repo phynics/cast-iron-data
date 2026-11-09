@@ -6,12 +6,13 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tfwi_neck", path = "json/rules_adv_gm07.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "255"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Equipment pg 255
 
 ### Table 5-10: Neck Slot Wondrous Items
 

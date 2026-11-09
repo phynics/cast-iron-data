@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/witch" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "83"
 
 [fields]
 kind = "archetype"
 replaces = ["4th-level hex", "8th-level hex", "Major hex at 10th-level"]
 +++
 
-**Sources:** Ultimate Magic pg 83\
 While all witches are intimately tied to their familiars, a beast-bonded witch's craft focuses
 specifically on her familiar bond and developing the relationship with her patron through her
 familiar.

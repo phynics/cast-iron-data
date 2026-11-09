@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_friend_shield", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "171"
+[[sources]]
+publication = "core-rulebook"
+page = "479"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate abjuration"
 caster_level = "10th"
 +++
 
-**Sources:** Ultimate Equipment pg 171, PRPG Core Rulebook pg 479\
 **Aura** moderate abjuration; **CL** 10th\
 **Slot** ring; **Price** 50,000 gp; **Weight** -
 

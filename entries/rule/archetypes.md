@@ -6,12 +6,13 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "archetypes", path = "json/rules_basics01.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "72"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Advanced Player's Guide pg 72
 
 From the noble paladin to the skillful rogue, each core class draws upon a central archetype. Yet,
 beyond that basic concept exists the potential for innumerable interpretations, details, and

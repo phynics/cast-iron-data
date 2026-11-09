@@ -6,12 +6,14 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soul_vortex", path = "json/haunts.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "180"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Adventures pg 180\
 The soul vortex is a gaping wound in the fabric of reality connected to the Negative Energy Plane.
 One may form at the site of a massive tragedy that claims hundreds of thousands of lives. The soul
 vortex annihilates the souls of anyone unfortunate enough to encounter it, and rips through the

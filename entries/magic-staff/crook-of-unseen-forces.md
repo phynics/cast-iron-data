@@ -6,6 +6,9 @@ source_ids = ["down-the-blighted-path"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crook_of_unseen_forces", path = "json/magic_staff.json" },
 ]
+[[sources]]
+publication = "down-the-blighted-path"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration and evocation"
 caster_level = "12th"
 +++
 
-**Sources:** Down the Blighted Path pg 60\
 **Aura** strong conjuration and evocation; **CL** 12th\
 **Slot** none; **Price** 56,300 gp; **Weight** 5 lbs.
 

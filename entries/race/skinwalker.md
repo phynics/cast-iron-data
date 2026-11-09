@@ -6,12 +6,20 @@ source_ids = ["bestiary-5", "inner-sea-races", "blood-of-the-moon", "pathfinder-
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skinwalker", path = "json/races4.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "233"
+[[sources]]
+publication = "inner-sea-races"
+page = "248"
+[[sources]]
+publication = "blood-of-the-moon"
+page = "6"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Bestiary 5 pg 233, Inner Sea Races pg 248, Blood of the Moon pg 6\
 Most people believe skinwalkers are half-breeds of lycanthropes, or that they share some slight
 version of the curse of those creatures. Skinwalker shamans say they are chosen by nature or the
 gods to be a bridge between the world of humanity and the animal world. The truth may lie somewhere

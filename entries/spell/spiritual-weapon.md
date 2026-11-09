@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spiritual_weapon", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "348"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes
 Effect: magic weapon of force
 Descriptors: force
 :::
-
-**Sources:** PRPG Core Rulebook pg 348
 
 A weapon made of force appears and attacks foes at a distance, as you direct it, dealing 1d8 force
 damage per hit, + 1 point per three caster levels (maximum +5 at 15th level). The weapon takes the

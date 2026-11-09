@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/reduce-person" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "331"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Spell resistance: yes
 :::
 
 ### Mass Reduce Person
-
-**Sources:** PRPG Core Rulebook pg 331
 
 This spell functions like [reduce person](ref/spell/reduce-person), except that it affects multiple
 creatures.

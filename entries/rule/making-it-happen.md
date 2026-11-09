@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "making_it_happen", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "28"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 28
 
 With great power sometimes comes a sense that maybe your players don't appreciate your efforts
 enough.

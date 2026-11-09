@@ -6,6 +6,9 @@ source_ids = ["pathfinder-81-shifting-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "effigy_of_anubis", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "pathfinder-81-shifting-sands"
+page = "58"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong necromancy"
 caster_level = "13th"
 +++
 
-**Sources:** Pathfinder \#81: Shifting Sands pg 58\
 **Aura** strong necromancy; **CL** 13th\
 **Slot** none; **Price** 6,900 gp; **Weight** 1 lb.
 

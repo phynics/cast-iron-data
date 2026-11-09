@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/animal-aspect" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "223"
 
 [fields]
 kind = "spell"
@@ -55,8 +58,6 @@ Subschool: Polymorph
 :::
 
 ### Greater Animal Aspect
-
-**Sources:** Ultimate Combat pg 223
 
 This spell functions like [animal aspect](ref/spell/animal-aspect), except you can either gain two
 aspects at once or one aspect that adds effects to the aspects that animal aspect grants, as

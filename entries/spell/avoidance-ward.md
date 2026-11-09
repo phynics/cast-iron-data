@@ -6,12 +6,14 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "avoidance_ward", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "209"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Occult Adventures pg 209\
 **School** enchantment (compulsion); **Level** 4\
 **Casting Time** 40 minutes\
 **Components** V, M (a piece of rowan wood charcoal), F (a small silver mirror worth 50 gp)\

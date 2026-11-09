@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "redistributed_might", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "26"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever an effect would grant you an enhancement or morale bonus to 
 +++
 
 ## Redistributed Might (Combat)
-
-**Sources:** Adventurer's Guide pg 26
 
 You've gained enough control over your body to translate strength into swiftness.\
 **Prerequisites:** Con 13, Wis 13, [Exotic Weapon Proficiency](ref/feat/exotic-weapon-proficiency)

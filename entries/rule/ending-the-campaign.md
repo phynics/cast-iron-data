@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ending_the_campaign", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "406"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 406
 
 In the Pathfinder Roleplaying Game, 20th level represents the top end of power most mortals can hope
 to achieve, yet this certainly doesn't mean that your campaign needs to go all the way to 20th

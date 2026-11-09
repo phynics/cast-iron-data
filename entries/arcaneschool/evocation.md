@@ -6,13 +6,15 @@ source_ids = ["core-rulebook", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "evocation", path = "json/class_ability_arcane_schools.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "81"
 
 [fields]
 kind = "class_option"
 group = "arcane-school"
 +++
 
-**Sources:** PRPG Core Rulebook pg 81\
 Evokers revel in the raw power of magic, and can use it to create and destroy with shocking ease.
 
 **Intense Spells (Su)**

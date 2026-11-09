@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "litany_of_vengeance", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "235"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: language-dependant
 :::
-
-**Sources:** Ultimate Combat pg 235
 
 This litany causes your enemy to feel the pain of blows more sharply. Anyone who hits the target
 with an attack gains a +5 sacred or profane bonus (depending on the alignment of the caster) to that

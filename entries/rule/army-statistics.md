@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "army_statistics", path = "json/rules_campaign_types05.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "234"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 234
 
 The description of each army is presented in a standard format. Each category of information is
 explained and defined on the following pages.

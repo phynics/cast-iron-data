@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "catatonia", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "161"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Saving throw: none
 Spell resistance: yes
 Target: willing creature touched
 :::
-
-**Sources:** Occult Adventures pg 161
 
 You touch the target and place it into a deathlike state that persists for the duration. The target
 appears to be dead, and any creature that interacts with the target must succeed at a DC 20 Heal

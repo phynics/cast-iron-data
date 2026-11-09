@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "pathfinder-131-the-reapers-right-hand"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sending", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "339"
 
 [fields]
 kind = "spell"
@@ -54,8 +57,6 @@ Saving throw: none
 Spell resistance: no
 Target: one creature
 :::
-
-**Sources:** PRPG Core Rulebook pg 339
 
 You contact a particular creature with which you are familiar and send a short message of 25 words
 or less to the subject. The subject recognizes you if it knows you. It can answer in like manner

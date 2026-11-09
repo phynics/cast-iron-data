@@ -6,13 +6,14 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "order_of_the_shroud", path = "json/class_ability_orders.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "117"
 
 [fields]
 kind = "class_option"
 group = "order"
 +++
-
-**Sources:** Occult Adventures pg 117
 
 Cavaliers of this order seek out and destroy undead and those who harbor or create them. They scour
 old crypts, graveyards, and battlefields to bring eternal rest.

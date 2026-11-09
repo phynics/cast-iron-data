@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monster_killers_folio", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "17"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination and evocation"
 caster_level = "5th"
 +++
 
-**Sources:** Magic Tactics Toolbox pg 17\
 **Aura** faint divination and evocation; **CL** 5th\
 **Slot** none; **Price** 16,000 gp; **Weight** 2 lbs.
 

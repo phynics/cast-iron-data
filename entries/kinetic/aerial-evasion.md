@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aerial_evasion", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "22"
 
 [fields]
 kind = "class_option"
@@ -23,8 +26,6 @@ group = "kineticist-wild-talent"
 **Burn:** 1
 
 **Prerequisite:** [enveloping winds](ref/kinetic/enveloping-winds)
-
-**Source:** Occult Adventures/22
 
 You use wind to buffet yourself away from area attacks. Until the next time your burn is removed,
 you gain [evasion](ref/ability/evasion), as the rogue class feature.

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/dream" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "39"
 
 [fields]
 kind = "spell"
@@ -55,8 +58,6 @@ Target: you or one gnome touched
 Subschool: Figment
 Descriptors: mind-affecting
 :::
-
-**Sources:** Advanced Race Guide pg 39
 
 > _[Gnomes](ref/race/gnome) have access to the following spell._
 

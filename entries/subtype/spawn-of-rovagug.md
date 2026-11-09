@@ -6,14 +6,16 @@ source_ids = ["inner-sea-gods", "inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spawn_of_rovagug", path = "json/monster_subtypes.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+[[sources]]
+publication = "inner-sea-bestiary"
 
 [fields]
 kind = "none"
 +++
 
 ## Subtype: Spawn of Rovagug
-
-**Sources:** Inner Sea Gods, Inner Sea Bestiary
 
 All Spawn of Rovagug are Colossal [magical beasts](ref/type/magical-beast) that possess the
 following traits.

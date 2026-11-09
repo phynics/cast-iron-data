@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blight_sewer_blight", path = "json/monsters27.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "43"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ two long, slimy, claw-tipped tentacles._
 
 **Perception:** +23
 
-**Sources:** Bestiary 6 pg 43\
 **Subtype:** Blight
 
 **Experience points:** 51,200

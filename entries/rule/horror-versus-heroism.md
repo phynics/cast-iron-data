@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horror_versus_heroism", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "190"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 190
 
 Especially if a GM has run frightening adventures using other roleplaying games, she should
 understand that the Pathfinder Roleplaying Game is not designed with horror in mind. The Pathfinder

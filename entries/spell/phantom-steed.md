@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "wilderness-origins", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phantom_steed", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "319"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Spell resistance: no
 Effect: one quasi-real, horse-like creature
 Subschool: Creation
 :::
-
-**Sources:** PRPG Core Rulebook pg 319
 
 You conjure a Large, quasi-real, horse-like creature (the exact coloration can be customized as you
 wish). It can be ridden only by you or by the one person for whom you specifically created the

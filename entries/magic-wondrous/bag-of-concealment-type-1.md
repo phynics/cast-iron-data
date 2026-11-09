@@ -6,6 +6,9 @@ source_ids = ["classic-treasures-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bag_of_concealment_type_1", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "classic-treasures-revisited"
+page = "7"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "9th"
 
 ## Bag of Concealment
 
-**Sources:** Classic Treasures Revisited pg 7\
 **Aura** moderate conjuration; **CL** 9th\
 **Slot** none; **Price** 5,000 gp (Type I), 10,000 gp (Type II), 14,800 gp (Type III), 20,000 gp
 (Type IV); **Weight** 15 lbs. (type I), 25 lbs. (type II), 35 lbs. (type III), 60 lbs. (type IV)

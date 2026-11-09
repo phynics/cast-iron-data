@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "junkblade_goblin", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "226"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Sources:** Inner Sea Races pg 226\
 **Aura** moderate transmutation; **CL** 8th\
 **Slot** none; **Price** 9,928 gp; **Weight** 1/2 lb.
 

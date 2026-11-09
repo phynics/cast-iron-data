@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crime_wave", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "208"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Target: one creature/level, no two of which can be more than 30 ft. apart
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Ultimate Intrigue pg 208
 
 You instill overwhelming avarice in the targets and impel them toward a wild spree of larceny.
 Creatures affected by a crime wave must roll percentile dice each round to determine what action

@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "create_treasure_map", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "214"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Saving throw: none
 Spell resistance: no
 Target: one dead creature
 :::
-
-**Sources:** Advanced Player's Guide pg 214
 
 You can take a piece from a dead creature's body and use it to create a map that reveals the
 locations of any valuables that creature knew about while still alive. You must cut this piece off

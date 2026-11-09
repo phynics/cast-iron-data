@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ancient_worlds", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "163"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 163
 
 In contrast to a young world, an ancient world has already hit the peak of its civilizations and is
 fast approaching its end. In the twilight of this setting, some races have been lost to history or

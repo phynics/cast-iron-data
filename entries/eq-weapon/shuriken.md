@@ -6,14 +6,21 @@ source_ids = ["ranged-tactics-toolbox", "core-rulebook", "ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shuriken", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "33"
+[[sources]]
+publication = "core-rulebook"
+page = "143"
+[[sources]]
+publication = "ultimate-equipment"
+page = "21"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "0.5 lb."
 +++
-
-**Sources:** Ranged Tactics Toolbox pg 33, PRPG Core Rulebook pg 143, Ultimate Equipment pg 21
 
 A shuriken is a small piece of metal with sharpened edges, designed for throwing. A shuriken can't
 be used as a melee weapon. Although they are thrown weapons, shuriken are treated as ammunition for

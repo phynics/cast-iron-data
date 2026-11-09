@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wire_saw_common", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "58"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "- (adamantine), - (common)"
 
 ## Wire saw
 
-**Sources:** Ultimate Equipment pg 58\
 **Price** 150 gp (adamantine), 30 gp (common); **Weight** - (adamantine), - (common)
 
 This flexible saw consists of an abrasive wire hooked to two metal rings. By feeding the wire around

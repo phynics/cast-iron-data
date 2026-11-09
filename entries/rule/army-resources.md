@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "army_resources", path = "json/rules_campaign_types05.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "241"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 241
 
 Resources are physical assets the army can use to improve its abilities. You must spend the BP for a
 resource before you can apply it to the army. Some armies can't use certain resources - an army of

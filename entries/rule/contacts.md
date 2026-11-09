@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "contacts", path = "json/rules_subsystems01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "148"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 148
 
 A contact is a unique NPC with useful skills or powerful connections. You can call upon contacts for
 aid to accomplish specialized tasks without getting directly involved. A low-level contact can dig

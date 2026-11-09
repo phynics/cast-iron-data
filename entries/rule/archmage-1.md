@@ -6,13 +6,23 @@ source_ids = ["mythic-adventures", "mythic-origins", "mythic-realms", "heroes-of
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "archmage_1", path = "json/rules_campaign_types07.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "15"
+[[sources]]
+publication = "mythic-origins"
+page = "20"
+[[sources]]
+publication = "mythic-realms"
+page = "7"
+[[sources]]
+publication = "heroes-of-golarion"
+page = "29"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 15, Mythic Origins pg 20, Mythic Realms pg 7, Heroes of Golarion
-pg 29\
 You can select these path abilities at any tier.
 
 **Abundant Casting (Ex):** Whenever you cast a spell that specifically targets a limited number of

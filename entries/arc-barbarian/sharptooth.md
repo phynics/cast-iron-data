@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/barbarian" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "39"
 
 [fields]
 kind = "archetype"
 replaces = ["Fast movement", "Uncanny dodge", "improved uncanny dodge", "Trap sense", "6th- and 12th-level rage powers"]
 +++
 
-**Sources:** Ultimate Wilderness pg 39\
 Coastal hunters and agents of the ocean's rage, sharptooth barbarians emulate the greatest predators
 of the sea. Sharks, in particular, are respected and admired by many such tribes, if not as
 manifestations of divine power, then merely as scions of the power and fury of the natural world.

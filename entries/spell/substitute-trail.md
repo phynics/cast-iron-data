@@ -6,6 +6,9 @@ source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "substitute_trail", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "62"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: none
 Spell resistance: no
 Target: 1 creature/level; see text
 :::
-
-**Sources:** Inner Sea Intrigue pg 62
 
 This spell can affect any creatures with which you interacted in the last 24 hours. You alter the
 trails left by the chosen creatures, making it appear that another creature with which you are

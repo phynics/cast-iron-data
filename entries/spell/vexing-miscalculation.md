@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vexing_miscalculation", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "245"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Inner Sea Gods pg 245
 
 You frustrate an opponent with ill fortune that leads even its most accurate attacks astray. The
 target is unable to score critical threats for the duration of this spell, even if the result of its

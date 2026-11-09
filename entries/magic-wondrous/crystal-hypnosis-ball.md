@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crystal_hypnosis_ball", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "345"
+[[sources]]
+publication = "core-rulebook"
+page = "540"
 
 [fields]
 kind = "item"
@@ -15,8 +21,6 @@ slot = "none"
 aura = "strong divination"
 caster_level = "17th"
 +++
-
-**Sources:** Ultimate Equipment pg 345, PRPG Core Rulebook pg 540
 
 **Aura** strong divination; **CL** 17th\
 **Slot** none; **Weight** 7 lbs.

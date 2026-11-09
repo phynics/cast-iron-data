@@ -6,12 +6,13 @@ source_ids = ["lands-of-conflict"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drill_militia", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "lands-of-conflict"
+page = "55"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Lands of Conflict pg 55
 
 **Drill Militia** **(No Team Required):** This check can be made only once per Activity phase. By
 spending an amount of gold equal to the militia's minimum [treasury](ref/rule/treasury-mt) value,

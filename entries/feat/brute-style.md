@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brute_style", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "83"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "The Vicious Stomp feat only works against an opponent that falls prone
 +++
 
 ## Brute Style (Combat, Style)
-
-**Sources:** Horror Adventures pg 83
 
 Through strength, study, and intense inner reflection, you have become an expert at battering fallen
 opponents.\

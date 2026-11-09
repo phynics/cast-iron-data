@@ -6,13 +6,14 @@ source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "order_of_the_songbird", path = "json/class_ability_orders.json" },
 ]
+[[sources]]
+publication = "heroes-from-the-fringe"
+page = "14"
 
 [fields]
 kind = "class_option"
 group = "order"
 +++
-
-**Sources:** Heroes from the Fringe pg 14
 
 [Samurai](ref/class/samurai) of the order of the songbird are artists, scholars, and poets. They
 treat battle as a beautiful art form; many of these samurai seek pacifistic means of defeating their

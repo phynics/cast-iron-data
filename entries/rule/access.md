@@ -6,12 +6,13 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "access", path = "json/rules_campaign_types09.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "82"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Planar Adventures pg 82
 
 Just as adventurers might negotiate to use a rare library, discover a sage's secrets, or learn a
 forbidden technique on the Material Plane, so too might they bargain as they seek similar lore,

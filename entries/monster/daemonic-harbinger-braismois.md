@@ -6,6 +6,9 @@ source_ids = ["druma-profit-and-prophecy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daemonic_harbinger_braismois", path = "json/monsters_unique.json" },
 ]
+[[sources]]
+publication = "druma-profit-and-prophecy"
+page = "58"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ wears black robes that cover most of its rotting, frostbitten flesh._
 
 **Senses:** Darkvision 60 ft., True seeing
 
-**Sources:** Druma, Profit and Prophecy pg 58\
 **Subtype:** Daemon, Evil, Extraplanar
 
 **Experience points:** 614,400

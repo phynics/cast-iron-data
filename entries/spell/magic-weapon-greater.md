@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/magic-weapon" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "310"
 
 [fields]
 kind = "spell"
@@ -55,8 +58,6 @@ Spell resistance: yes (harmless) (object)
 :::
 
 ### Greater Magic Weapon
-
-**Sources:** PRPG Core Rulebook pg 310
 
 This spell functions like [magic weapon](ref/spell/magic-weapon), except that it gives a weapon an
 enhancement bonus on attack and damage rolls of +1 per four caster levels (maximum +5). This bonus

@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloak_of_the_hunt", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "150"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong illusion"
 caster_level = "12th"
 +++
 
-**Sources:** Mythic Adventures pg 150\
 **Aura** strong illusion; **CL** 12th\
 **Slot** shoulders; **Price** 12,000 gp; **Weight** 1 lb.
 

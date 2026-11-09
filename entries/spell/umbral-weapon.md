@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "umbral_weapon", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "31"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: yes
 Target: melee weapon touched
 Descriptors: cold, shadow
 :::
-
-**Sources:** Melee Tactics Toolbox pg 31
 
 A shadowy afterimage trails behind the targeted weapon, potentially damaging foes even when the
 weapon misses. Once per round, when the weapon's wielder misses a creature with the target weapon,

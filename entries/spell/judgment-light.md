@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "judgment_light", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "232"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Spell resistance: yes
 Area: 30-ft.-radius burst
 Descriptors: light
 :::
-
-**Sources:** Ultimate Combat pg 232
 
 An inquisitor may only cast this spell while she has a judgment active. When she does cast this
 spell, it causes one or more of the following effects based on the inquisitor's active judgments.

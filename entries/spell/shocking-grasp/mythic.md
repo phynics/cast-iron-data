@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/shocking-grasp", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "108"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 108\
 The spell's damage increases to 1d8 points of electricity damage per caster level (maximum 5d8). If
 the target is wearing metal armor or is made of metal, you may attempt a free grapple combat
 maneuver against the target.

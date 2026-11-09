@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charisma", path = "json/rules_basics01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "17"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 17
 
 Charisma measures a character's personality, personal magnetism, ability to lead, and appearance. It
 is the most important ability for paladins, sorcerers, and bards. It is also important for clerics,

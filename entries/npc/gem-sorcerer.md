@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gem_sorcerer", path = "json/npcs.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "160"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "1"
 
 **Challenge rating:** 1
 
-**Sources:** NPC Codex pg 160\
 **XP** 400\
 Dwarf [sorcerer](ref/class/sorcerer) 2\
 LE Medium humanoid (dwarf)\

@@ -6,12 +6,14 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aff_assassins", path = "json/rules_subsystems01.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "150"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Adventurer's Guide pg 150\
 **Pathfinder Name:** Red Mantis\
 **Scope:** global\
 **Alignment:** LE\

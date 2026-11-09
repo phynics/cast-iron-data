@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "turtle_giant_snapping_turtle", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "273"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ _This lumbering turtle is the size of a house; its head features powerful, razor
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Bestiary 2 pg 273\
 **Experience points:** 6,400
 
 **Armor class:** 23/4/23

@@ -6,6 +6,9 @@ source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kobold_style", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "kobolds-of-golarion"
+page = "25"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You gain a +4 bonus on combat maneuver checks against enemies denied 
 +++
 
 ## Kobold Style (Combat, Style)
-
-**Sources:** Kobolds of Golarion pg 25
 
 You're able to manipulate foes that are caught off guard.\
 **Prerequisites:** [Combat Expertise](ref/feat/combat-expertise), Small size or smaller.\

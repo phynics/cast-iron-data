@@ -6,6 +6,9 @@ source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "masters_call", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "inner-sea-monster-codex"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment"
 caster_level = "10th"
 +++
 
-**Sources:** Inner Sea Monster Codex pg 29\
 **Aura** moderate enchantment; **CL** 10th\
 **Slot** neck; **Price** 34,000 gp; **Weight** -
 

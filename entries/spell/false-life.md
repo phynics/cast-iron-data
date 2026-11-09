@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "false_life", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "280"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** PRPG Core Rulebook pg 280
 
 You harness the power of unlife to grant yourself a limited ability to avoid death. While this spell
 is in effect, you gain temporary hit points equal to 1d10 + 1 per caster level (maximum +10).

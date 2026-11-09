@@ -6,11 +6,13 @@ source_ids = ["armor-masters-handbook"]
 relations = [
   { kind = "addon", target = "ref/feat/mirror-move", label = "stamina" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "21"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Armor Master's Handbook pg 21\
 You can spend up to 5 stamina points to extend the duration that you benefit from a mirrored feat by
 1 round per stamina point spent.

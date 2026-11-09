@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "following_step", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "160"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "You can only take a 5-foot step to follow an opponent using Step Up."
 +++
 
 ## Following Step (Combat)
-
-**Sources:** Advanced Player's Guide pg 160
 
 You can repeatedly close the distance when foes try to move away, without impeding your normal
 movement.\

@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "discern_secret_messages", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "61"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 61
 
 You can use Perception to detect that a secret message is being transmitted by someone using the
 Influence skill. Your Perception check is opposed by the sender's Influence check. You take a -2

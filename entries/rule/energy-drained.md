@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "energy_drained", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "567"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 567
 
 **Energy Drained:** The character gains one or more negative levels, which might become permanent.
 If the subject has at least as many negative levels as Hit Dice, he dies. See

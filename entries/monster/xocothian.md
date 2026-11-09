@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "xocothian", path = "json/monsters41.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "291"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ storm._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Inner Sea Gods pg 291\
 **Subtype:** Air, Extraplanar, Water
 
 **Experience points:** 1,200

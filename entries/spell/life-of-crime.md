@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "life_of_crime", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "218"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Target: one living creature
 Subschool: Compulsion
 Descriptors: curse, mind-affecting
 :::
-
-**Sources:** Ultimate Intrigue pg 218
 
 You unleash the basest instincts of iniquity in the target and cause them to become his overriding
 reason for being. The target neither gains nor provides benefit from teamwork feats or the aid

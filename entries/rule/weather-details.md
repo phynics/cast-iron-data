@@ -6,12 +6,13 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weather_details", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "169"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Wilderness pg 169
 
 While temperature and precipitation are important aspects of weather, other details can add further
 danger and drama. Powerful winds can complicate weather, cloud cover can obscure vision, and

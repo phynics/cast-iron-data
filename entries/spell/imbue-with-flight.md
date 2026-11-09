@@ -6,6 +6,9 @@ source_ids = ["mythic-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "imbue_with_flight", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "mythic-origins"
+page = "15"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: Will negates (harmless) (object)
 Spell resistance: yes (harmless) (object)
 Target: object touched
 :::
-
-**Sources:** Mythic Origins pg 15
 
 You grant a touched Large or smaller object the ability to fly at a speed of 40 feet with average
 maneuverability. It can ascend at half speed and descend at double speed. The targeted object flies

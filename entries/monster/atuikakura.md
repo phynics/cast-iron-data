@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "atuikakura", path = "json/monsters26.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "32"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ with hooked teeth._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 6 pg 32\
 **Subtype:** Aquatic
 
 **tremorsense:** 120

@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sleipnir", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "248"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ to mist._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 3 pg 248\
 **Experience points:** 12,800
 
 **Armor class:** 25/13/21

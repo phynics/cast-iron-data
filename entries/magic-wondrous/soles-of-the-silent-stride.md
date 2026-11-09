@@ -6,6 +6,9 @@ source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soles_of_the_silent_stride", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "blood-of-shadows"
+page = "27"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Blood of Shadows pg 27\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** feet; **Price** 8,250 gp; **Weight** -
 

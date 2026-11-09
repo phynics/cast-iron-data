@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stand_still", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "134"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When a foe provokes an attack of opportunity due to moving through yo
 +++
 
 ## Stand Still (Combat)
-
-**Sources:** PRPG Core Rulebook pg 134
 
 You can stop foes that try to move past you.\
 **Prerequisites:** [Combat Reflexes](ref/feat/combat-reflexes).\

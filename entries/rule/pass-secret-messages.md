@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pass_secret_messages", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "60"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 60
 
 You can use innuendo to pass a hidden message to another character. If you succeed, the target
 automatically understands you if you're communicating in a language it understands. If you fail by 5

@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "winds", path = "json/rules_gm08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "439"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 439
 
 The wind can create a stinging spray of sand or dust, fan a large fire, keel over a small boat, and
 blow gases or vapors away. If powerful enough, it can even knock characters down (see Table 13-10),

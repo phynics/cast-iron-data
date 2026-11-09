@@ -6,6 +6,9 @@ source_ids = ["pathfinder-125-tower-of-the-drowned-dead"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clockwork_clockwork_nautiloid", path = "json/monsters05.json" },
 ]
+[[sources]]
+publication = "pathfinder-125-tower-of-the-drowned-dead"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ tentacles surrounding its octopus-like beak._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#125: Tower of the Drowned Dead pg 82\
 **Subtype:** Clockwork
 
 **Experience points:** 38,400

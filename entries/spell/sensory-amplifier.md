@@ -6,6 +6,9 @@ source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sensory_amplifier", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "occult-origins"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: yes
 Area: 10-ft.-radius emanation centered on you
 Descriptors: mind-affecting
 :::
-
-**Sources:** Occult Origins pg 29
 
 You open the minds of all creatures near you and enhance their sensory receptors. All living
 creatures other than you in the area gain a +5 bonus on Perception checks. Sighted creatures gain

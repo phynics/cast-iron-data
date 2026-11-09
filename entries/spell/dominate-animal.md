@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dominate_animal", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "273"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Target: one animal
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 273
 
 This spell allows you to enchant the targeted animal and direct it with simple commands such as
 "Attack," "Run," and "Fetch." Suicidal or self-destructive commands (including an order to attack a

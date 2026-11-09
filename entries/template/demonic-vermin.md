@@ -6,6 +6,9 @@ source_ids = ["the-worldwound"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demonic_vermin", path = "json/monster_template1.json" },
 ]
+[[sources]]
+publication = "the-worldwound"
+page = "53"
 
 [fields]
 kind = "none"
@@ -18,8 +21,6 @@ kind = "none"
 **Challenge rating:** +1
 
 **Inherited:** present
-
-**Source:** The Worldwound/53
 
 [Deskari's](ref/faith/deskari) influence upon the Worldwound's verminous life cannot be ignored for
 long by visitors to this tainted land. While some giant vermin have resisted Deskari's influence,

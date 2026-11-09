@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "false_front", path = "json/misc.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "97"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 97
 
 **False Front**
 

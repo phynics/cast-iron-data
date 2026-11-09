@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/slayer" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "121"
 
 [fields]
 kind = "archetype"
 replaces = ["Track", "Slayer talent gained at 2nd level", "Slayer talent gained at 4th level", "Stalker"]
 +++
 
-**Sources:** Advanced Class Guide pg 121\
 Vanguards are battlefield commanders who focus on the brutality of combat and lead their allies to
 bloody victory. Quick to react to danger, a vanguard is a valuable scout, capable officer, and
 skilled tactician.

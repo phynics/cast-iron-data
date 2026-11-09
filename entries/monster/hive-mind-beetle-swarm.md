@@ -6,6 +6,9 @@ source_ids = ["occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hive_mind_beetle_swarm", path = "json/monsters13.json" },
 ]
+[[sources]]
+publication = "occult-bestiary"
+page = "29"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ leaping from insect to insect. The patterns on their wings resemble humanoid eye
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Occult Bestiary pg 29\
 **Subtype:** Swarm
 
 **Experience points:** 25,600

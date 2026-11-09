@@ -6,6 +6,9 @@ source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "poh_armor", path = "json/equipment_armor.json" },
 ]
+[[sources]]
+publication = "merchants-manifest"
+page = "24"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "500 gp"
 weight = "65 lbs."
 +++
 
-**Sources:** Merchant's Manifest pg 24\
 **Price** 500 gp; **Weight** 65 lbs.
 
 Named after a ferocious unicorn-tiger hybrid, this suit of [scale mail](ref/eq-armor/scale-mail)

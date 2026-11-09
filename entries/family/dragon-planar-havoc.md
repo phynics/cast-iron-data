@@ -6,12 +6,13 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_planar_havoc", path = "json/monster_families.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "100"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Bestiary 6 pg 100
 
 Despite their best intentions, the appropriately named havoc dragons often cause collateral damage
 as they develop whimsical wonderlands of revelry and relaxation.

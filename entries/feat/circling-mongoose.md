@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "circling_mongoose", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "7"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "A character without this feat is limited to only one 5-foot step durin
 +++
 
 ## Circling Mongoose (Combat)
-
-**Sources:** Melee Tactics Toolbox pg 7
 
 You keep your opponent on the defensive as you circle around threateningly.\
 **Prerequisites:** Dex 13, [Dodge](ref/feat/dodge), [Mobility](ref/feat/mobility),

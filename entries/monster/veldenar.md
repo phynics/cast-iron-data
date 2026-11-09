@@ -6,6 +6,9 @@ source_ids = ["planes-of-power"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "veldenar", path = "json/monsters40.json" },
 ]
+[[sources]]
+publication = "planes-of-power"
+page = "63"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ eyes._
 
 **Senses:** All-around vision, Darkvision 60 ft., Low-light vision
 
-**Sources:** Planes of Power pg 63\
 **Subtype:** Air, Extraplanar
 
 **Experience points:** 9,600

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "centaur_centaur_outcast", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "inner-sea-monster-codex"
+page = "8"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ scrolls and wands. Winding, swirling tattoos climb across his body and face._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Inner Sea Monster Codex pg 8\
 **Experience points:** 3,200
 
 **Armor class:** 13/12/11

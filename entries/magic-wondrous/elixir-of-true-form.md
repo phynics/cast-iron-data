@@ -6,6 +6,9 @@ source_ids = ["from-shore-to-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elixir_of_true_form", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "from-shore-to-sea"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "8th"
 +++
 
-**Sources:** From Shore to Sea pg 30\
 **Aura** moderate abjuration; **CL** 8th\
 **Slot** none; **Price** 1,600 gp; **Weight** -
 

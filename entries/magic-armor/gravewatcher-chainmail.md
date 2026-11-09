@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gravewatcher_chainmail", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "251"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination, evocation, and necromancy"
 caster_level = "7th"
 +++
 
-**Sources:** Inner Sea Gods pg 251\
 **Aura** moderate divination, evocation, and necromancy; **CL** 7th\
 **Slot** armor; **Price** 5,380 gp; **Weight** 40 lbs.
 

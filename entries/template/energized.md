@@ -6,6 +6,9 @@ source_ids = ["construct-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "energized", path = "json/monster_template1.json" },
 ]
+[[sources]]
+publication = "construct-handbook"
+page = "38"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +2
-
-**Source:** Construct Handbook/38
 
 Most golems are animated by an elemental spirit bound within a constructed body, but some creators
 build their golems with a greater purpose in mind. An energized golem is infused with the raw

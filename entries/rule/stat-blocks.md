@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stat_blocks", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "397"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 397
 
 One of the most complex parts of the game is the stat block. Every NPC, every monster, and every
 timid little forest creature in the campaign world has its own stat block. This isn't to say, of

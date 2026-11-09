@@ -6,12 +6,13 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "semi_automatic", path = "json/misc.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "20"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Technology Guide pg 20
 
 Some weapons have special features in addition to those noted in their descriptions.
 

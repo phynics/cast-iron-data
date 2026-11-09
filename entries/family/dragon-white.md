@@ -6,14 +6,15 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_white", path = "json/monster_families.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "100"
 
 [fields]
 kind = "none"
 +++
 
 ## White Dragon
-
-**Sources:** Pathfinder RPG Bestiary pg 100
 
 |Age Category|Special Abilities|Caster Level|
 | --- | --- | --- |

@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "naginata", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "19"
+[[sources]]
+publication = "ultimate-combat"
+page = "133"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "9 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 19, Ultimate Combat pg 133
 
 The naginata consists of a 6-foot staff affixed to a 2-foot-long, slightly curved, sword-like blade.
 The shaft is designed to keep the wielder out of reach from swords and shorter weapons.

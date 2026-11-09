@@ -6,6 +6,9 @@ source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brilliant_bulwark", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "blood-of-shadows"
+page = "21"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Sources:** Blood of Shadows pg 21\
 **Aura** moderate evocation; **CL** 10th\
 **Slot** none; **Price** 9,655 gp; **Weight** 4 lbs.
 

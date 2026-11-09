@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "base_mythic_abilities", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "12"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 12
 
 Every mythic PC gains a number of base abilities common to all mythic characters, in addition to the
 special abilities granted by each mythic path. These abilities are gained based on the character's

@@ -6,6 +6,9 @@ source_ids = ["curse-of-the-crimson-throne"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spider_drain_spider", path = "json/monsters39.json" },
 ]
+[[sources]]
+publication = "curse-of-the-crimson-throne"
+page = "477"
 
 [fields]
 kind = "creature"
@@ -39,7 +42,6 @@ appear quite fearsome._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Curse of the Crimson Throne pg 477\
 **Size:** tiny
 
 **tremorsense:** 60

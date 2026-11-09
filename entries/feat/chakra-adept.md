@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chakra_adept", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "129"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Chakra Initiate, ability to awaken the heart chakra."
 prerequisite_feats = ["ref/feat/chakra-initiate"]
 benefit = "Your pool of serpent-fire ki increases to 4 points. When you maintain your chakras as a swift action without opening a new chakra, you can choose to attempt either the Fortitude save or the Will save instead of both."
 +++
-
-**Sources:** Occult Adventures pg 129
 
 Your body and soul have grown more accustomed to kundalini energy.\
 **Prerequisites:** [Chakra Initiate](ref/feat/chakra-initiate), ability to awaken the heart chakra.\

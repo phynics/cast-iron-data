@@ -6,6 +6,9 @@ source_ids = ["pathfinder-109-in-search-of-sanity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghatanothoa", path = "json/faiths3.json" },
 ]
+[[sources]]
+publication = "pathfinder-109-in-search-of-sanity"
+page = "67"
 
 [fields]
 kind = "none"
@@ -15,7 +18,6 @@ kind = "none"
 
 **Sub:** The Eternal Source
 
-**Sources:** Pathfinder \#109: In Search of Sanity pg 67\
 **Monster Link** [Ghatanothoa](ref/monster/great-old-one-ghatanothoa)
 
 ### Details

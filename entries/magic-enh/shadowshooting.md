@@ -6,6 +6,9 @@ source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadowshooting", path = "json/magic_enhancements2.json" },
 ]
+[[sources]]
+publication = "blood-of-shadows"
+page = "26"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "8th"
 +++
 
-**Sources:** Blood of Shadows pg 26\
 **Aura** moderate conjuration; **CL** 8th\
 **Slot** none; **Price** +1 bonus; **Weight** -
 

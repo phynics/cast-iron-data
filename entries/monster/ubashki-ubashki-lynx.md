@@ -6,6 +6,9 @@ source_ids = ["lost-kingdoms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ubashki_ubashki_lynx", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "lost-kingdoms"
+page = "20"
 
 [fields]
 kind = "creature"
@@ -37,7 +40,6 @@ abilities = ["21", "17", "-", "2", "12", "15"]
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Lost Kingdoms pg 20\
 **Type:** undead
 
 **Experience points:** 2,400

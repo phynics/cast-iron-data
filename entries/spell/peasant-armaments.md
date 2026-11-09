@@ -6,6 +6,9 @@ source_ids = ["pathfinder-68-the-shackled-hut"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "peasant_armaments", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "pathfinder-68-the-shackled-hut"
+page = "69"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: Will negates (harmless) (object)
 Spell resistance: yes (harmless) (object)
 Target: 1 improvised weapon/level
 :::
-
-**Sources:** Pathfinder \#68: The Shackled Hut pg 69
 
 > _Priests of [Milani](ref/faith/milani) have access to the following spell._
 

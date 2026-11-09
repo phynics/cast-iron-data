@@ -6,14 +6,15 @@ source_ids = ["halflings-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "halfling_opportunist", path = "json/prestige_classes2.json" },
 ]
+[[sources]]
+publication = "halflings-of-golarion"
+page = "28"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d8."
 +++
-
-**Sources:** Halflings of Golarion pg 28
 
 Even more so than the rest of their kind, halfling opportunists make their own luck. Shamelessly
 willing to take advantage of their foes, they can instantly assess a situation in order to find a

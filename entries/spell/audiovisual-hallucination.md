@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/auditory-hallucination" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "204"
 
 [fields]
 kind = "spell"
@@ -54,8 +57,6 @@ Descriptors: mind-affecting
 :::
 
 ### Audiovisual Hallucination
-
-**Sources:** Ultimate Intrigue pg 204
 
 This spell functions as [auditory hallucination](ref/spell/auditory-hallucination), except that you
 can include the image of any object, creature, or force you imagine or identify for the targets to

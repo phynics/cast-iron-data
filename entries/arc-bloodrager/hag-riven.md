@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bloodrager" },
 ]
+[[sources]]
+publication = "blood-of-the-coven"
+page = "27"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Fast movement", "uncanny dodge", "Improved uncanny dodge", "Damage 
 alters = ["Weapon and armor proficiencies"]
 +++
 
-**Sources:** Blood of the Coven pg 27\
 All [changelings](ref/race/changeling) have the potential to transform into [hags](ref/family/hag),
 but the process is a slow one, requiring several nights to complete. When left incomplete - by
 virtue of a wily changeling's escape or her mother's death - the creature is scarred and saturated

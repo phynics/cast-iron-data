@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heroic_interposition", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "212"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Once per day, you can move up to your speed as an immediate action, b
 +++
 
 ## Heroic Interposition (Combat)
-
-**Sources:** Inner Sea Gods pg 212
 
 You arrive just when you are most needed to vanquish evil.\
 **Prerequisites:** Dex 13, [Dodge](ref/feat/dodge),

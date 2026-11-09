@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_horse", path = "json/monsters31.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "104"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ pale blue energy._
 
 **Senses:** Darkvision 120 ft., Know alignment, Low-light vision
 
-**Sources:** Bestiary 2 pg 104\
 **Subtype:** Air
 
 **Experience points:** 6,400

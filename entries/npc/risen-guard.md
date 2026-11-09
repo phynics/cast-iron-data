@@ -6,6 +6,9 @@ source_ids = ["osirion-legacy-of-the-pharaohs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "risen_guard", path = "json/npcs2.json" },
 ]
+[[sources]]
+publication = "osirion-legacy-of-the-pharaohs"
+page = "61"
 
 [fields]
 kind = "creature"
@@ -19,7 +22,6 @@ and a large shield in the other._
 
 **Challenge rating:** 5
 
-**Sources:** Osirion, Legacy of the Pharaohs pg 61\
 **XP** 1,600\
 Human [fighter](ref/class/fighter) 6\
 LN Medium humanoid (human)\

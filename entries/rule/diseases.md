@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "diseases", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "557"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 557
 
 From a widespread plague to the bite of a dire rat, disease is a serious threat to common folk and
 adventurers alike. Diseases rarely have a limited frequency, but most have a lengthy onset time.

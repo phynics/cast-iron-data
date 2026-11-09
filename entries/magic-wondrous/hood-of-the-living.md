@@ -6,6 +6,9 @@ source_ids = ["undead-slayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hood_of_the_living", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "undead-slayers-handbook"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination"
 caster_level = "1st"
 +++
 
-**Sources:** Undead Slayer's Handbook pg 28\
 **Aura** faint divination; **CL** 1st\
 **Slot** head; **Price** 2,840 gp; **Weight** 1 lb.
 

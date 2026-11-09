@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/warpriest" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "130"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["2nd blessing normally gained by a warpriest", "Bonus feat gained at
 alters = ["Blessings", "Bonus feats"]
 +++
 
-**Sources:** Advanced Class Guide pg 130\
 Armorers of exquisite skill, forgepriests take inspiration from their deity to produce the most
 perfect weapons and armor they can, the better to equip the armies of the faithful.
 

@@ -6,6 +6,21 @@ source_ids = ["ultimate-equipment", "pathfinder-51-the-hungry-storm", "pirates-o
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "astrolabe", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "56"
+[[sources]]
+publication = "pathfinder-51-the-hungry-storm"
+page = "67"
+[[sources]]
+publication = "pirates-of-the-inner-sea"
+page = "21"
+[[sources]]
+publication = "advanced-players-guide"
+page = "184"
+[[sources]]
+publication = "adventurers-armory"
+page = "19"
 
 [fields]
 kind = "item"
@@ -14,8 +29,6 @@ price = "1,000 gp"
 weight = "6 lbs."
 +++
 
-**Sources:** Ultimate Equipment pg 56, Pathfinder \#51: The Hungry Storm pg 67, Pirates of the Inner
-Sea pg 21, Advanced Player's Guide pg 184, Adventurer's Armory pg 19\
 **Price** 1,000 gp; **Weight** 6 lbs.\
 **Category** Adventuring Gear
 

@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "carriage", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "87"
+[[sources]]
+publication = "core-rulebook"
+page = "159"
 
 [fields]
 kind = "item"
@@ -13,7 +19,6 @@ category = "Miscellaneous Equipment"
 price = "100 gp"
 +++
 
-**Sources:** Ultimate Equipment pg 87, PRPG Core Rulebook pg 159\
 **Price** 100 gp; **Price of Passage** (per mile) 3 cp\
 **Category** Transport, Land
 

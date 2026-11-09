@@ -6,6 +6,9 @@ source_ids = ["pathfinder-107-scourge-of-the-godclaw", "book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "geryon", path = "json/faiths3.json" },
 ]
+[[sources]]
+publication = "pathfinder-107-scourge-of-the-godclaw"
+page = "73"
 
 [fields]
 kind = "none"
@@ -15,7 +18,6 @@ kind = "none"
 
 **Sub:** The Serpent
 
-**Sources:** Pathfinder \#107: Scourge of the Godclaw pg 73\
 **Monster Link** [Geryon](ref/monster/archdevil-geryon)
 
 ### Details

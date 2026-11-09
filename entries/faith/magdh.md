@@ -6,6 +6,9 @@ source_ids = ["the-first-world-realm-of-the-fey", "legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magdh", path = "json/faiths5.json" },
 ]
+[[sources]]
+publication = "the-first-world-realm-of-the-fey"
+page = "28"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Magdh**
 
 **Sub:** The Three
-
-**Sources:** The First World, Realm of the Fey pg 28
 
 ### Details
 

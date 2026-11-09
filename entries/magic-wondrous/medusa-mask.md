@@ -6,6 +6,15 @@ source_ids = ["ultimate-equipment", "pathfinder-2-the-skinsaw-murders", "rise-of
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "medusa_mask", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "246"
+[[sources]]
+publication = "pathfinder-2-the-skinsaw-murders"
+page = "54"
+[[sources]]
+publication = "rise-of-the-runelords-anniversary-edition"
+page = "422"
 
 [fields]
 kind = "item"
@@ -17,8 +26,6 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Sources:** Ultimate Equipment pg 246, Pathfinder \#2: The Skinsaw Murders pg 54, Rise of the
-Runelords Anniversary Edition pg 422\
 **Aura** moderate transmutation; **CL** 11th\
 **Slot** head; **Price** 10,000 gp; **Weight** 1 lb.
 

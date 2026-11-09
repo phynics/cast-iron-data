@@ -6,12 +6,13 @@ source_ids = ["numeria-land-of-fallen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fractal_etch", path = "json/infestations.json" },
 ]
+[[sources]]
+publication = "numeria-land-of-fallen-stars"
+page = "24"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Numeria, Land of Fallen Stars pg 24
 
 **Type:** Infestation (nanite, injury)
 

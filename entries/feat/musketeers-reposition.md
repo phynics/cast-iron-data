@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "musketeers_reposition", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "56"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you hit an opponent with a two-handed firearm while using the pi
 +++
 
 ## Musketeer's Reposition (Combat, Grit)
-
-**Sources:** Villain Codex pg 56
 
 You can knock a foe away with your two-handed firearm.\
 **Prerequisites:** [Exotic Weapon Proficiency](ref/feat/exotic-weapon-proficiency) (firearms),

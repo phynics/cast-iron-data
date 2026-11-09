@@ -6,12 +6,13 @@ source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "variant_contracts", path = "json/rules_rulesets01.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "202"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Book of the Damned pg 202
 
 Before exploring the intricacies of the infernal contract, it should be noted that other fiends are
 often willing to enter into contracts with mortals as well. Lawful evil fiends are generally the

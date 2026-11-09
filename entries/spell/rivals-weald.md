@@ -6,6 +6,9 @@ source_ids = ["chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rivals_weald", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "chronicle-of-legends"
+page = "14"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: yes
 Target: one creature/two levels, no two of which can be more than 30 ft. apart
 Subschool: Polymorph
 :::
-
-**Sources:** Chronicle of Legends pg 14
 
 This spell transforms your targets into trees as per [tree shape](ref/spell/tree-shape), except the
 targets transform into living trees that resemble their original forms. If a target is in a

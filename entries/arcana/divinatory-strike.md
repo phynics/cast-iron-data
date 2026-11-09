@@ -6,13 +6,14 @@ source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divinatory_strike", path = "json/class_ability_magus_arcana.json" },
 ]
+[[sources]]
+publication = "magical-marketplace"
+page = "4"
 
 [fields]
 kind = "class_option"
 group = "magus-arcana"
 +++
-
-**Sources:** Magical Marketplace pg 4
 
 **Divinatory Strike (Su):**
 

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ranger" },
 ]
+[[sources]]
+publication = "pirates-of-the-inner-sea"
+page = "23"
 
 [fields]
 kind = "archetype"
 replaces = ["Favored enemy", "Hunter's bond", "Woodland stride"]
 +++
 
-**Sources:** Pirates of the Inner Sea pg 23\
 A freebooter is a natural leader, a pirate who works well with a variety of people and in a variety
 of roles. Her specialized combat tactics help organize and direct a crew, and freebooters' talents
 are in high demand. Most freebooters work as independent agents. A freebooter signs on with a crew

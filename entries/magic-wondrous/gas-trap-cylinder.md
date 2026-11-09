@@ -6,6 +6,9 @@ source_ids = ["pathfinder-71-rasputin-must-die"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gas_trap_cylinder", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "pathfinder-71-rasputin-must-die"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong enchantment"
 caster_level = "15th"
 +++
 
-**Sources:** Pathfinder \#71: Rasputin Must Die! pg 60\
 **Aura** strong enchantment; **CL** 15th\
 **Slot** none; **Price** 6,500 gp; **Weight** 50 lbs.
 

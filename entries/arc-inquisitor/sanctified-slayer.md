@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/inquisitor" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "99"
 
 [fields]
 kind = "archetype"
 replaces = ["Judgment 1/day", "Later iterations of the judgment ability", "Second judgment", "third judgment", "slayer", "true judgment"]
 +++
 
-**Sources:** Advanced Class Guide pg 99\
 While all inquisitors root out enemies of the faith, in many orders and churches there's a select
 group of these religious hunters devoted to one goal, and one goal alone - to terminate the enemies
 of the faith wherever they can be found. Sometimes these sanctified slayers are given special

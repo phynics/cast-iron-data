@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "direct_pursuits", path = "json/rules_adv_gm02.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "142"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 142
 
 A direct pursuit involves a pursuing group chasing after a quarry group across a series of terrain
 tiles. The pursuers must succeed at Survival checks to continue tracking their quarries, as

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/debilitating-pain" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "10"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Descriptors: mind-affecting, pain
 :::
 
 ### Mass Debilitating Pain
-
-**Sources:** Psychic Anthology pg 10
 
 This spell functions as per [debilitating pain](ref/spell/debilitating-pain), except you can target
 one creature for every 4 caster levels you have.

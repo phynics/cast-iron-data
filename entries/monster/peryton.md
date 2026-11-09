@@ -6,6 +6,12 @@ source_ids = ["bestiary-2", "pathfinder-19-howl-of-the-carrion-king"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "peryton", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "207"
+[[sources]]
+publication = "pathfinder-19-howl-of-the-carrion-king"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ rack of sharp antlers on its brow._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 2 pg 207, Pathfinder \#19: Howl of the Carrion King pg 86\
 **Experience points:** 1,200
 
 **Armor class:** 17/13/14

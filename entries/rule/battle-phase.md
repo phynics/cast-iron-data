@@ -6,12 +6,14 @@ source_ids = ["pathfinder-59-the-price-of-infamy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "battle_phase", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "pathfinder-59-the-price-of-infamy"
+page = "67"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder \#59: The Price of Infamy pg 67\
 At the start of a battle phase, each fleet's admiral makes a
 [Profession (sailor)](ref/skill/profession-any) check to determine initiative. The admiral whose
 result is higher gains the upper hand in that battle phase, which grants all of his squadrons a +1

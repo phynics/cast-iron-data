@@ -6,6 +6,9 @@ source_ids = ["pathfinder-112-the-whisper-out-of-time"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "amulet_of_wind_defiance", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "pathfinder-112-the-whisper-out-of-time"
+page = "73"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation [air]"
 caster_level = "9th"
 +++
 
-**Sources:** Pathfinder \#112: The Whisper Out of Time pg 73\
 **Aura** moderate transmutation \[air\]; **CL** 9th\
 **Slot** neck; **Price** 10,000 gp; **Weight** -
 

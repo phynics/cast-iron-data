@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "109"
 
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Rogue talent gained at 4th level"]
 +++
 
-**Sources:** Advanced Class Guide pg 109\
 Charlatans and stage magicians use sleight of hand to fake magic. A counterfeit mage goes a step
 further, parroting the motions and activation phrases used by arcane casters to activate wands or
 other magical accoutrements. While counterfeit mages rarely fool a real wizard, their command of the

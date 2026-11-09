@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rakshasa_dandasuka", path = "json/monsters20.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "225"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ mouth and fangs._
 
 **Size:** small
 
-**Sources:** Bestiary 3 pg 225\
 **Subtype:** Native, Rakshasa, Shapechanger
 
 **Experience points:** 1,600

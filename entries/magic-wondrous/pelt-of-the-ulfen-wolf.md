@@ -6,6 +6,9 @@ source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pelt_of_the_ulfen_wolf", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "62"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint evocation"
 caster_level = "3rd"
 +++
 
-**Sources:** Inner Sea Combat pg 62\
 **Aura** faint evocation; **CL** 3rd\
 **Slot** shoulders; **Price** 14,800 gp; **Weight** 3 lbs.
 

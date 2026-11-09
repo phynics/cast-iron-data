@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dueling_parry", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "152"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 152
 
 Each participant in a duel can take a special action called a dueling parry. This special action
 allows the duelist to deflect a blow from a melee or ranged attack directed at her. A dueling parry

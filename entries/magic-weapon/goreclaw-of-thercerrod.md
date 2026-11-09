@@ -6,6 +6,9 @@ source_ids = ["pathfinder-34-blood-for-blood"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "goreclaw_of_thercerrod", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "pathfinder-34-blood-for-blood"
+page = "68"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Sources:** Pathfinder \#34: Blood for Blood pg 68\
 **Aura** moderate evocation; **CL** 10th\
 **Slot** hands; **Price** 23,305 gp; **Weight** 1 lb.
 

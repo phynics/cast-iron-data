@@ -6,6 +6,9 @@ source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "detecting_dart", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "monster-hunters-handbook"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "7th"
 +++
 
-**Sources:** Monster Hunter's Handbook pg 28\
 **Aura** moderate divination; **CL** 7th\
 **Slot** none; **Price** 2,000 gp; **Weight** -
 

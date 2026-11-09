@@ -6,6 +6,9 @@ source_ids = ["demons-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ilzunae", path = "json/monsters_unique2.json" },
 ]
+[[sources]]
+publication = "demons-revisited"
+page = "32"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ her fiendish nature._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Demons Revisited pg 32\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar, Incorporeal
 
 **Experience points:** 204,800

@@ -6,12 +6,12 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blight", path = "json/monster_families.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Bestiary 6
 
 Before human civilizations rose and modern history began, ancient races like aboleths,
 [saurians](ref/monster/saurian), [troglodytes](ref/monster/troglodyte), and

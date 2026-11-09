@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inner_flame", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "130"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Your bonus on saves against fire attacks and spells with the fire des
 +++
 
 ## Inner Flame (Combat)
-
-**Sources:** Advanced Race Guide pg 130
 
 Your body generates so much heat that your mere touch scorches your enemies.\
 **Prerequisites:** [Scorching Weapons](ref/feat/scorching-weapons), character level 7th,

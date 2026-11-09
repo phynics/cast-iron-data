@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "34"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Proficiency with the rapier and whip", "Bardic knowledge", "Lore ma
 alters = ["Bardic performance"]
 +++
 
-**Sources:** Inner Sea Magic pg 34\
 Although Sarenrae is seen mainly as a goddess of healing and redemption in most parts of the Inner
 Sea, her stern, evil-smiting element is more common in areas like Qadira, Osirion, and Katapesh.
 Many of the Dawnflower's disciples from these lands become Dawnflower dervishes, religious mystics

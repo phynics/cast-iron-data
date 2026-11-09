@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "get_hunches", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "61"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 61
 
 You can make a gut assessment of a social situation with a successful DC 20 Perception check. You
 get a feeling that indicates whether something is wrong or if a person is generally untrustworthy,

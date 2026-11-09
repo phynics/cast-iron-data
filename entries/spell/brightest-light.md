@@ -9,6 +9,12 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/daylight" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "115"
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "58"
 
 [fields]
 kind = "spell"
@@ -58,8 +64,6 @@ Descriptors: light
 :::
 
 ### Brightest Light
-
-**Sources:** Adventurer's Guide pg 115, Inner Sea Intrigue pg 58
 
 This trademark spell of the [Lantern Bearers](ref/rule/aff-lights) functions as
 [daylight](ref/spell/daylight), except it lasts longer. In addition, as a swift action once during

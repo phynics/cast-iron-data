@@ -6,15 +6,21 @@ source_ids = ["adventurers-armory-2", "pathfinder-9-escape-from-old-korvosa", "p
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "katar_tri_bladed", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "9"
+[[sources]]
+publication = "pathfinder-9-escape-from-old-korvosa"
+page = "83"
+[[sources]]
+publication = "pathfinder-campaign-setting"
+page = "209"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "2 lbs."
 +++
-
-**Sources:** Adventurer's Armory 2 pg 9, Pathfinder \#9: Escape from Old Korvosa pg 83, Pathfinder
-Campaign Setting pg 209
 
 Where most [punching daggers](ref/eq-weapon/punching-dagger) boast a single thick blade, the
 tri-bladed katar features a fan of three splayed razor edges. Any effects that apply to a punching

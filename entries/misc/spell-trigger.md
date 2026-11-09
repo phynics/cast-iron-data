@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_trigger", path = "json/misc.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "458"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Spell Trigger
 
-**Sources:** PRPG Core Rulebook pg 458\
 Spell trigger activation is similar to [spell completion](ref/misc/spell-completion), but it's even
 simpler. No gestures or spell finishing is needed, just a special knowledge of spellcasting that an
 appropriate character would know, and a single word that must be spoken. Spell trigger items can be

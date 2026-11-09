@@ -6,11 +6,13 @@ source_ids = ["pathfinder-unchained"]
 relations = [
   { kind = "addon", target = "ref/feat/snatch-arrows", label = "stamina" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "132"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder Unchained pg 132\
 When you snatch a thrown weapon, as long as you have at least 1 stamina point in your stamina pool,
 you can make a thrown ranged attack with it against any target, not just the original attacker.

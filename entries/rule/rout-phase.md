@@ -6,12 +6,14 @@ source_ids = ["pathfinder-59-the-price-of-infamy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rout_phase", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "pathfinder-59-the-price-of-infamy"
+page = "68"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder \#59: The Price of Infamy pg 68\
 A rout phase occurs after each battle phase. At this point, each surviving squadron must succeed at
 a DC 10 morale check by rolling 1d20 and adding its morale check modifier. Failure indicates that
 the squadron takes 1d4 points of damage to its morale score. A squadron whose morale score is

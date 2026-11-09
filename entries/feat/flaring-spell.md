@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flaring_spell", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "151"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "The electricity, fire, or light effects of the affected spell create 
 +++
 
 ## Flaring Spell (Metamagic)
-
-**Sources:** Ultimate Magic pg 151
 
 You dazzle creatures when you affect them with a spell that has the fire, light, or electricity
 descriptor.\

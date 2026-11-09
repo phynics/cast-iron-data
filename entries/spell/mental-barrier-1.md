@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mental_barrier_1", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "175"
 
 [fields]
 kind = "spell"
@@ -36,8 +39,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Occult Adventures pg 175
 
 You put a barrier of mental energy that protects you from harm. This barrier grants you a +4 shield
 bonus to AC. In addition, you take half damage from mind thrust I and II (reduced to one-quarter on

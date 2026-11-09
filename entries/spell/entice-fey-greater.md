@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/entice-fey-lesser" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "213"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Subschool: Calling
 :::
 
 ### Greater Entice Fey
-
-**Sources:** Ultimate Intrigue pg 213
 
 This spell functions as [lesser entice fey](ref/spell/entice-fey-lesser), except the spell's
 whimsical calling can produce a single fey of 18 Hit Dice or less, or up to three fey of the same

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "blood-of-the-sea"
+page = "25"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Resist nature's lure", "Wild shape"]
 alters = ["Bonus languages"]
 +++
 
-**Sources:** Blood of the Sea pg 25\
 Druids draw upon the fiercest powers of nature, and tsunamis, typhoons, and whirlpools are among the
 most powerful forces in the ocean. Tempest tamers are at one with the water and gain the ability to
 soothe these dangerous phenomena. Tempest tamers can be found in many of Golarion's oceans, but all

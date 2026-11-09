@@ -6,6 +6,9 @@ source_ids = ["people-of-the-north"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shard_of_winter", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "people-of-the-north"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment"
 caster_level = "9th"
 +++
 
-**Sources:** People of the North pg 29\
 **Aura** moderate enchantment; **CL** 9th\
 **Slot** none; **Price** 26,302 gp; **Weight** 1 lb.
 

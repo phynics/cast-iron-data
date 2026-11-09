@@ -6,10 +6,12 @@ source_ids = ["weapon-masters-handbook"]
 relations = [
   { kind = "addon", target = "ref/feat/bullseye-shot", label = "stamina" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "24"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Weapon Master's Handbook pg 24\
 You can spend 5 stamina points to use Bullseye Shot as a swift action.

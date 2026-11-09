@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stratagems", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "137"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 137
 
 A nemesis typically only employs one stratagem at a time. Only if the PCs continually cause the
 nemesis major setbacks will he use two stratagems simultaneously. A nemesis typically employs

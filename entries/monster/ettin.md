@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ettin", path = "json/monsters42.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "130"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ large flail in each fist._
 
 **Senses:** Low-light vision
 
-**Sources:** Pathfinder RPG Bestiary pg 130\
 **Subtype:** Giant
 
 **Experience points:** 2,400

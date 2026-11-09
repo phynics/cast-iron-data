@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "components_um", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "133"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 133
 
 For the most part, a spell's components have very little to do with its overall power level unless
 it requires a costly focus or material component or has no component at all. Most spells in the Core

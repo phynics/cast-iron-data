@@ -6,6 +6,9 @@ source_ids = ["lost-cities-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nightmare_tears", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "lost-cities-of-golarion"
+page = "62"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Sources:** Lost Cities of Golarion pg 62\
 **Aura** faint divination; **CL** 5th\
 **Slot** none; **Price** 250 gp; **Weight** -
 

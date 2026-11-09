@@ -6,6 +6,9 @@ source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horse_caller_flute", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "merchants-manifest"
+page = "27"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "4th"
 +++
 
-**Sources:** Merchant's Manifest pg 27\
 **Aura** moderate conjuration; **CL** 4th\
 **Slot** none; **Price** 4,200 gp; **Weight** -
 

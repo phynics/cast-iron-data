@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "companion_plot_hooks", path = "json/rules_adv_pc01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "144"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 144
 
 Having a companion in the party is an incredible opportunity for the GM to introduce plot elements
 into a campaign - and more interesting plots than "the companion has been kidnapped!" The players

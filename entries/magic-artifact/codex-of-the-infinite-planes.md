@@ -6,6 +6,15 @@ source_ids = ["ultimate-equipment", "core-rulebook", "artifacts-and-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "codex_of_the_infinite_planes", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "336"
+[[sources]]
+publication = "core-rulebook"
+page = "547"
+[[sources]]
+publication = "artifacts-and-legends"
+page = "18"
 
 [fields]
 kind = "item"
@@ -16,8 +25,6 @@ slot = "none"
 aura = "overwhelming transmutation"
 caster_level = "30th"
 +++
-
-**Sources:** Ultimate Equipment pg 336, PRPG Core Rulebook pg 547, Artifacts and Legends pg 18
 
 **Aura** overwhelming transmutation; **CL** 30th\
 **Slot** none; **Price** -; **Weight** 300 lbs.

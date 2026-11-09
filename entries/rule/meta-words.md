@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "meta_words", path = "json/rules_opt_magic03.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "188"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 188
 
 These words specifically modify other word elements. Meta words use the following format.
 

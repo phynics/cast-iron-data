@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crimson_jellyfish", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "169"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ tendrils._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 6 pg 169\
 **Subtype:** Aquatic
 
 **Type:** vermin

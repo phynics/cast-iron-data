@@ -6,6 +6,9 @@ source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "signature_strike_style", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "people-of-the-wastes"
+page = "10"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Each creature you hit using a called shot, the *targeted strike* swas
 +++
 
 ## Signature Strike Style (Combat, Style)
-
-**Sources:** People of the Wastes pg 10
 
 Your accuracy when attacking is both delightfully artistic and chillingly deadly.\
 **Prerequisites:** [Precise Shot](ref/feat/precise-shot); [Weapon Focus](ref/feat/weapon-focus);

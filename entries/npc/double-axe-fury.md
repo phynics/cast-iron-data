@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "double_axe_fury", path = "json/npcs3.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "16"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "10"
 
 **Challenge rating:** 10
 
-**Sources:** NPC Codex pg 16\
 **XP** 9,600\
 Half-Orc [barbarian](ref/class/barbarian) 11\
 CE Medium humanoid (human, orc)\

@@ -6,6 +6,9 @@ source_ids = ["occult-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spidersilk_medallion", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "occult-realms"
+page = "7"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration"
 caster_level = "3rd"
 +++
 
-**Sources:** Occult Realms pg 7\
 **Aura** faint conjuration; **CL** 3rd\
 **Slot** neck; **Price** 3,240 gp; **Weight** -
 

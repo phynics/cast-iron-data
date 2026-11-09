@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blessing_of_the_salamander", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "206"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: yes (harmless)
 Target: creature touched
 Subschool: Polymorph
 :::
-
-**Sources:** Advanced Player's Guide pg 206
 
 When you cast this on a creature, its skin turns slick and clammy and it is able to regenerate
 damage each round. While under the effects of the spell, the creature gains

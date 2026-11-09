@@ -6,6 +6,9 @@ source_ids = ["pathfinder-60-from-hells-heart"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crossbow_of_retribution", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "pathfinder-60-from-hells-heart"
+page = "54"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong divination and necromancy"
 caster_level = "12th"
 +++
 
-**Sources:** Pathfinder \#60: From Hell's Heart pg 54\
 **Aura** strong divination and necromancy; **CL** 12th\
 **Slot** none; **Price** 32,700 gp; **Weight** 12 lbs.
 

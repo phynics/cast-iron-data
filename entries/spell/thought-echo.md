@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thought_echo", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "189"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Target: living creature touched
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** Occult Adventures pg 189
 
 When you cast this spell, you establish a mental echo of up to 25 words. Any attempt to read the
 surface thoughts of the target creature reads only this mental echo unless the caster succeeds at a

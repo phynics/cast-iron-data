@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "maze", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "312"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes
 Target: one creature
 Subschool: Teleportation
 :::
-
-**Sources:** PRPG Core Rulebook pg 312
 
 You banish the subject into an extradimensional labyrinth. Each round on its turn, it may attempt a
 DC 20 Intelligence check to escape the labyrinth as a full-round action. If the subject doesn't

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-141-last-watch"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "iomedaes_needle", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "pathfinder-141-last-watch"
+page = "49"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong divination and necromancy"
 caster_level = "18th"
 +++
 
-**Sources:** Pathfinder \#141: Last Watch pg 49\
 **Aura** strong divination and necromancy; **CL** 18th\
 **Slot** weapon; **Price** 8,016 gp; **Weight** 10 lbs.
 

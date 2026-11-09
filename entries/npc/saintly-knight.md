@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "saintly_knight", path = "json/npcs8.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "116"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "8"
 
 **Challenge rating:** 8
 
-**Sources:** NPC Codex pg 116\
 **XP** 4,800\
 Half-orc [paladin](ref/class/paladin) of [Iomedae](ref/faith/iomedae) 9\
 LG Medium humanoid (human, orc)\

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/skald" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "85"
 
 [fields]
 kind = "archetype"
 replaces = ["Well-versed", "Song of strength", "song of the fallen", "rage power gained at 18th level", "Spell kenning", "Rage power gained at 6th level"]
 +++
 
-**Sources:** Ultimate Wilderness pg 85\
 Hunt callers are skalds whose songs draw their allies into the animal world. They can invoke the
 inner beasts of those who observe their supernatural performances - a talent that causes many to
 mistake the hunt caller and her allies for lycanthropes or other shapechanging creatures.

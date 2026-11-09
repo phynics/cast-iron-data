@@ -6,6 +6,9 @@ source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "telekinetic_boomerang", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "21"
 
 [fields]
 kind = "class_option"
@@ -23,8 +26,6 @@ group = "kineticist-wild-talent"
 **Associated:** [Telekinetic Blast](ref/kinetic/telekinetic-blast)
 
 **Saving throw:** none
-
-**Source:** Psychic Anthology/21
 
 This functions as _telekinetic blast,_ except you maintain an elastic strand of aether attached to
 the object you throw. This allows you to pull it back to you after the attack and catch it if you

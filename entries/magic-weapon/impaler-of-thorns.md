@@ -6,6 +6,12 @@ source_ids = ["rise-of-the-runelords-anniversary-edition", "pathfinder-2-the-ski
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "impaler_of_thorns", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "rise-of-the-runelords-anniversary-edition"
+page = "421"
+[[sources]]
+publication = "pathfinder-2-the-skinsaw-murders"
+page = "51"
 
 [fields]
 kind = "item"
@@ -17,8 +23,6 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Sources:** Rise of the Runelords Anniversary Edition pg 421, Pathfinder \#2: The Skinsaw Murders
-pg 51\
 **Aura** moderate enchantment; **CL** 7th\
 **Slot** none; **Price** 9,000 gp; **Weight** 9 lbs.
 

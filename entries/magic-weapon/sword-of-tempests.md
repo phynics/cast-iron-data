@@ -6,6 +6,9 @@ source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sword_of_tempests", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "monster-summoners-handbook"
+page = "21"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Sources:** Monster Summoner's Handbook pg 21\
 **Aura** moderate conjuration; **CL** 7th\
 **Slot** none; **Price** 23,315 gp; **Weight** 6 lbs.
 

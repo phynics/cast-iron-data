@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pinning_rend", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "113"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While you have an opponent pinned, when you succeed at a grapple comb
 +++
 
 ## Pinning Rend (Combat)
-
-**Sources:** Ultimate Combat pg 113
 
 You tear flesh when you damage an opponent that you have pinned.\
 **Prerequisites:** Dex 13, [Greater Grapple](ref/feat/greater-grapple),

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trample", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "136"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When you attempt to overrun an opponent while mounted, your target ma
 +++
 
 ## Trample (Combat)
-
-**Sources:** PRPG Core Rulebook pg 136
 
 While mounted, you can ride down opponents and trample them under your mount.\
 **Prerequisites:** Ride 1 rank, [Mounted Combat](ref/feat/mounted-combat).\

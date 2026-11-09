@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/tsunami", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "110"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 110\
 The wave increases to 20 feet wide per caster level and 3 feet tall per caster level. The damage
 dealt to those struck by the wave increases to 12d6 points of bludgeoning damage. Add your tier to
 the wave's special combat maneuver check. The damage dealt to those that fail to escape the wave

@@ -6,6 +6,9 @@ source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "meditation_master", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "faiths-and-philosophies"
+page = "19"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "When you meditate for at least 1 hour after getting at least 8 hours 
 +++
 
 ## Meditation Master (Meditation)
-
-**Sources:** Faiths and Philosophies pg 19
 
 When fully focused on your inner self, you can enter a deep meditative state that allows you a more
 perfect control over your mind and body.\

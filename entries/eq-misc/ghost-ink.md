@@ -6,6 +6,12 @@ source_ids = ["adventurers-armory-2", "seekers-of-secrets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghost_ink", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "24"
+[[sources]]
+publication = "seekers-of-secrets"
+page = "43"
 
 [fields]
 kind = "item"
@@ -14,7 +20,6 @@ price = "25 gp"
 weight = "-"
 +++
 
-**Sources:** Adventurer's Armory 2 pg 24, Seekers of Secrets pg 43\
 **Price** 25 gp; **Weight** -\
 **Category** Alchemical Tools
 

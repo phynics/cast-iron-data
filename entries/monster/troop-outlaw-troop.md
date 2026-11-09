@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "troop_outlaw_troop", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "267"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ swords menacingly._
 
 **Perception:** +12
 
-**Sources:** Bestiary 6 pg 267\
 **Subtype:** Human, Troop
 
 **Experience points:** 3,200

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/magus" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "48"
 
 [fields]
 kind = "archetype"
 replaces = ["Spell recall"]
 +++
 
-**Sources:** Ultimate Magic pg 48\
 A hexcrafter magus has uncovered the secret of using his _arcane pool_ to recreate
 [witch](ref/class/witch) hexes. These magi can hex friend and foe, curse those they strike, and
 expand their spell selection to include many curses and harmful spells.

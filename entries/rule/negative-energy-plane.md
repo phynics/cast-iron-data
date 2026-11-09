@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "negative_energy_plane", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "188"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 188
 
 To an observer, there's little to see on the Negative Energy Plane. It is a dark, empty place, an
 eternal pit where a traveler can fall until the plane itself steals away all light and life. The

@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "failing_forward", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "172"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 172
 
 When designing any type of social conflict event, it's always best to allow the PCs to advance the
 plot even in the face of a critical failure. Of course, there should be consequences for failure,

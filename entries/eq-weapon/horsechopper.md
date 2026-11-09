@@ -6,15 +6,27 @@ source_ids = ["ultimate-equipment", "pathfinder-campaign-setting", "inner-sea-wo
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horsechopper", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "19"
+[[sources]]
+publication = "pathfinder-campaign-setting"
+page = "209"
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "290"
+[[sources]]
+publication = "adventurers-armory"
+page = "18"
+[[sources]]
+publication = "advanced-race-guide"
+page = "118"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "12 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 19, Pathfinder Campaign Setting pg 209, Inner Sea World Guide pg
-290, Adventurer's Armory pg 18, Advanced Race Guide pg 118
 
 Crafted by goblins for battling horses, this weapon is essentially a long-handled
 [halberd](ref/eq-weapon/halberd) with an enlarged hook on the blade. Most horsechoppers are sized

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/fighter" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "109"
 
 [fields]
 kind = "archetype"
 replaces = ["Armor training 1 and 2", "Weapon training 1", "Weapon training 2", "Armor training 3", "Weapon training 3", "Armor training 4", "Weapon training 4", "Armor mastery"]
 +++
 
-**Sources:** Advanced Player's Guide pg 109\
 Trained under great masters who preached the simple truth that two are better than one when it comes
 to weapons, the two-weapon warrior is a terror when his hands are full. From paired daggers to
 exotic double weapons, all combinations come equally alive in his skilled hands.

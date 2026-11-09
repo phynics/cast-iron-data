@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "light_detector", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "103"
+[[sources]]
+publication = "advanced-players-guide"
+page = "184"
 
 [fields]
 kind = "item"
@@ -14,7 +20,6 @@ price = "1 gp"
 weight = "-"
 +++
 
-**Sources:** Ultimate Equipment pg 103, Advanced Player's Guide pg 184\
 **Price** 1 gp; **Weight** -\
 **Category** Alchemical Tools
 

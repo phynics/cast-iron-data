@@ -6,6 +6,9 @@ source_ids = ["inner-sea-npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hellknight_armiger", path = "json/npcs.json" },
 ]
+[[sources]]
+publication = "inner-sea-npc-codex"
+page = "31"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "2"
 
 **Challenge rating:** 2
 
-**Sources:** Inner Sea NPC Codex pg 31\
 **XP** 600\
 Half-orc [fighter](ref/class/fighter) 3\
 LN Medium humanoid (human, orc)\

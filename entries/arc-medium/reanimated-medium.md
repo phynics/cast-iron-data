@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/medium" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "93"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Haunt channeler", "Location channel", "Connection channel", "spacio
 alters = ["Spirit"]
 +++
 
-**Sources:** Occult Adventures pg 93\
 Sometimes a departed soul destined for legend gains a second chance at life by possessing his own
 revived body.
 

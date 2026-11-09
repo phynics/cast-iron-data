@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spriggan_spriggan_normal_size", path = "json/monsters38.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "257"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ pointed ears twitch at every sound._
 
 **Size:** small
 
-**Sources:** Bestiary 2 pg 257\
 **Subtype:** Gnome
 
 **Experience points:** 800

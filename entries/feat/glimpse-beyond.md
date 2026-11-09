@@ -6,6 +6,9 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "glimpse_beyond", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "69"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You gain a +2 bonus on Knowledge (dungeoneering) checks to identify t
 +++
 
 ## Glimpse Beyond (Story)
-
-**Sources:** Ultimate Campaign pg 69
 
 You have glimpsed the madness at the edges of reality.\
 **Prerequisites:** You must have faced an undead, evil outsider, or aberration with a CR greater

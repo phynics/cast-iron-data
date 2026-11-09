@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gutbite_belt", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "265"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Sources:** Inner Sea Gods pg 265\
 **Aura** moderate transmutation; **CL** 8th\
 **Slot** belt; **Price** 4,500 gp; **Weight** 1 lb.
 

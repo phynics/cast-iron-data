@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/shaman" },
 ]
+[[sources]]
+publication = "people-of-the-wastes"
+page = "7"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Abilities the spirit animal gains from the shaman's chosen spirit",
 alters = ["Spirit magic", "Hexes"]
 +++
 
-**Sources:** People of the Wastes pg 7\
 The influence of [primal magic](ref/rule/primal-magic) extends beyond what is visible and material.
 Spirits that linger in areas where primal magic reigns can become warped, losing touch with their
 former selves and experiencing random surges of power. A shaman who communes with such spirits

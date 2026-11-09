@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tribal_champion", path = "json/npcs7.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "216"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "8"
 
 **Challenge rating:** 8
 
-**Sources:** NPC Codex pg 216\
 **XP** 4,800\
 Half-elf [fighter](ref/class/fighter) 7/duelist 2\
 CN Medium humanoid (elf, human)\

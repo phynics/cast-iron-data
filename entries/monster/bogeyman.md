@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bogeyman", path = "json/monsters27.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "42"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ aura of horror._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 3 pg 42\
 **Experience points:** 9,600
 
 **Armor class:** 23/23/17

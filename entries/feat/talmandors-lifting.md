@@ -6,6 +6,9 @@ source_ids = ["andoran-spirit-of-liberty"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "talmandors_lifting", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "andoran-spirit-of-liberty"
+page = "13"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When you cast a healing spell on an unharmed creature, it briefly man
 +++
 
 ## Talmandor's Lifting (Achievement)
-
-**Sources:** Andoran, Spirit of Liberty pg 13
 
 You felt the powerful wings of Talmandor surround you when you risked death from a fall, and somehow
 a tiny spark of his essence remains connected to your soul.\

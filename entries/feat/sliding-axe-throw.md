@@ -6,6 +6,9 @@ source_ids = ["dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sliding_axe_throw", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "dwarves-of-golarion"
+page = "21"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can choose to take a -2 penalty on a ranged attack roll with an a
 +++
 
 ## Sliding Axe Throw (Combat)
-
-**Sources:** Dwarves of Golarion pg 21
 
 You may aim your thrown axe to avoid an enemy's shield and even trip your opponent.\
 **Prerequisites:** Dex 13, base attack bonus +1.\

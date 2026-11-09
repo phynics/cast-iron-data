@@ -6,6 +6,9 @@ source_ids = ["adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "equipment_trick", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "adventurers-armory"
+page = "22"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "You can gain Equipment Trick multiple times. Each time you take the f
 +++
 
 ## Equipment Trick (Combat)
-
-**Sources:** Adventurer's Armory pg 22
 
 Choose a piece of equipment, such as an boots, a cloak, rope, a shield, or a heavy blade scabbard.
 You understand how to use that piece of equipment in combat.\

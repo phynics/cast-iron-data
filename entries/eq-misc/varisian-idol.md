@@ -6,6 +6,15 @@ source_ids = ["varisia-birthplace-of-legends", "rise-of-the-runelords-players-gu
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "varisian_idol", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "varisia-birthplace-of-legends"
+page = "15"
+[[sources]]
+publication = "rise-of-the-runelords-players-guide"
+page = "11"
+[[sources]]
+publication = "curse-of-the-crimson-throne-players-guide"
+page = "12"
 
 [fields]
 kind = "item"
@@ -14,8 +23,6 @@ price = "75 gp"
 weight = "1 lb."
 +++
 
-**Sources:** Varisia, Birthplace of Legends pg 15, Rise of the Runelords Player's Guide pg 11, Curse
-of the Crimson Throne Player's Guide pg 12\
 **Price** 75 gp; **Weight** 1 lb.\
 **Category** Adventuring Gear
 

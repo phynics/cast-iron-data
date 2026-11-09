@@ -6,6 +6,9 @@ source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seamless_skin", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "55"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong necromancy"
 caster_level = "14th"
 +++
 
-**Sources:** Inner Sea Intrigue pg 55\
 **Aura** strong necromancy; **CL** 14th\
 **Slot** body; **Price** 70,000 gp; **Weight** 8 lbs.
 

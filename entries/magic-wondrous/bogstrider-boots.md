@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bogstrider_boots", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-wild"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "7th"
 +++
 
-**Sources:** Heroes of the Wild pg 28\
 **Aura** moderate abjuration; **CL** 7th\
 **Slot** feet; **Price** 10,000 gp; **Weight** 1 lb.
 

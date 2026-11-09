@@ -6,6 +6,15 @@ source_ids = ["varisia-birthplace-of-legends", "rise-of-the-runelords-players-gu
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hide_shirt", path = "json/equipment_armor.json" },
 ]
+[[sources]]
+publication = "varisia-birthplace-of-legends"
+page = "14"
+[[sources]]
+publication = "rise-of-the-runelords-players-guide"
+page = "11"
+[[sources]]
+publication = "curse-of-the-crimson-throne-players-guide"
+page = "13"
 
 [fields]
 kind = "item"
@@ -13,8 +22,6 @@ category = "Armor"
 weight = "18 lbs."
 +++
 
-**Sources:** Varisia, Birthplace of Legends pg 14, Rise of the Runelords Player's Guide pg 11, Curse
-of the Crimson Throne Player's Guide pg 13\
 **Cost** 20 gp **Weight** 18 lbs.\
 **Armor Bonus** +3; **Max Dex Bonus** +4; **Armor Check Penalty** -1\
 **Arcane Spell Failure Chance** 15%; **Speed** 30 ft./20 ft.\

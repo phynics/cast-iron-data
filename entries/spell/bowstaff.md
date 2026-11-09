@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bowstaff", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "224"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: Will negates (harmless) (object)
 Spell resistance: yes (harmless) (object)
 Target: one weapon (bow)
 :::
-
-**Sources:** Ultimate Combat pg 224
 
 The bow that is touched takes on the rigidity and toughness of forged steel, allowing it to be used
 as a melee weapon. The spell allows a shortbow to be used as a club or a longbow to be used as a

@@ -6,14 +6,15 @@ source_ids = ["classic-treasures-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "companion_figurine", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "classic-treasures-revisited"
+page = "25"
 
 [fields]
 kind = "feat"
 prerequisites = "Handle Animal 1 rank, own a figurine of wondrous power."
 benefit = "You may select the creature summoned by your figurine of wondrous power as an animal companion or familiar, or as appropriate. The figurine has the standard abilities of a familiar or animal companion of its type, plus additional abilities related to its figurine type (see below). The main advantage of this is that if your familiar or companion is killed in creature form, it merely reverts to statue form and can be used again later. The following standard figurines are available as animal companions (C) or familiars (F)."
 +++
-
-**Sources:** Classic Treasures Revisited pg 25
 
 You've developed an especially close bond with the creature summoned by your
 [figurine of wondrous power](ref/magic-wondrous/figurine-of-wondrous-power).\

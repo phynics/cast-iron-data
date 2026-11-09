@@ -6,6 +6,9 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stronghold", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "72"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can spend a move action to give battle orders to your troops, gra
 +++
 
 ## Stronghold (Story)
-
-**Sources:** Ultimate Campaign pg 72
 
 You seek to build a bastion against which your enemies shall break like water against the rocks.\
 **Prerequisites:** You must have the [Leadership](ref/feat/leadership) feat and must lead at least

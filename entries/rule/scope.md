@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scope", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "128"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 128
 
 An infiltration has a scope just like a heist, though it functions a little differently. The GM is
 typically dealing with a smaller number of characters at a time and doesn't need to provide as many

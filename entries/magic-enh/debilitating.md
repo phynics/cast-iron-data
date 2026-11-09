@@ -6,6 +6,9 @@ source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "debilitating", path = "json/magic_enhancements.json" },
 ]
+[[sources]]
+publication = "spymasters-handbook"
+page = "30"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Sources:** Spymaster's Handbook pg 30\
 **Aura** moderate necromancy; **CL** 7th\
 **Price** +1 bonus; **Weight** -
 

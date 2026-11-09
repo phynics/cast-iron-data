@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/life-conduit" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "234"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Subschool: Healing
 :::
 
 ### Greater Life Conduit
-
-**Sources:** Ultimate Combat pg 234
 
 This spell functions like [life conduit](ref/spell/life-conduit), except you can transfer 3d6 hit
 points as a swift action.

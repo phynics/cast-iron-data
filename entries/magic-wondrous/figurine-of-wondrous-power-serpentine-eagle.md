@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook", "aquatic-adventures", "path
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "figurine_of_wondrous_power_serpentine_eagle", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "297"
+[[sources]]
+publication = "core-rulebook"
+page = "513"
 
 [fields]
 kind = "item"
@@ -19,7 +25,6 @@ caster_level = "varies"
 
 ## Figurines of Wondrous Power
 
-**Sources:** Ultimate Equipment pg 297, PRPG Core Rulebook pg 513\
 **Aura** varies; **CL** varies\
 **Slot** none; **Price** 3,800 gp (Silver Raven), 6,000 gp (Coral Hippocampus), 7,000 gp (Emerald
 Frog), 7,500 gp (Lapis Camel), 7,600 gp (Pearl Dolphin), 9,000 gp (Ruby Butterfly), 9,100 gp (Black

@@ -6,6 +6,9 @@ source_ids = ["distant-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lantern_glare", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "distant-realms"
+page = "33"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Creatures you hit with a thrown weapon as well as creatures within 20
 +++
 
 ## Lantern Glare (Combat)
-
-**Sources:** Distant Realms pg 33
 
 Like an archon's aura, the light of your thrown weapons can shake even the fiercest of foes.\
 **Prerequisites:** [Lantern Light](ref/feat/lantern-light), [Lantern Style](ref/feat/lantern-style),

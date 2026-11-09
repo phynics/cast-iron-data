@@ -6,6 +6,9 @@ source_ids = ["inner-sea-faiths", "pathfinder-86-lords-of-rust"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brigh", path = "json/faiths2.json" },
 ]
+[[sources]]
+publication = "inner-sea-faiths"
+page = "29"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Brigh**
 
 **Sub:** The Whisper in the Bronze
-
-**Sources:** Inner Sea Faiths pg 29
 
 ### Details
 

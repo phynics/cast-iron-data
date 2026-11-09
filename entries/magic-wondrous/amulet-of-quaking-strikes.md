@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "amulet_of_quaking_strikes", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong evocation"
 caster_level = "15th"
 +++
 
-**Sources:** Melee Tactics Toolbox pg 28\
 **Aura** strong evocation; **CL** 15th\
 **Slot** neck; **Price** 28,000 gp; **Weight** -
 

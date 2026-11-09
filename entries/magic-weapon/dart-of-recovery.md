@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dart_of_recovery", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "240"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration"
 caster_level = "3rd"
 +++
 
-**Sources:** Ultimate Intrigue pg 240\
 **Aura** faint conjuration; **CL** 3rd\
 **Slot** none; **Price** 206 gp; **Weight** -
 

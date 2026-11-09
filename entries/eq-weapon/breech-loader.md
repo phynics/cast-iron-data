@@ -6,14 +6,15 @@ source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "breech_loader", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "heroes-of-golarion"
+page = "18"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "4 lbs."
 +++
-
-**Sources:** Heroes of Golarion pg 18
 
 This [double-barreled pistol](ref/eq-weapon/double-barreled-pistol) variant has its barrel attached
 to its stock by a hinge, enabling ammunition to be loaded quickly and easily. Reloading a

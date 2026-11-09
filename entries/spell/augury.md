@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "augury", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "245"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** PRPG Core Rulebook pg 245
 
 An augury can tell you whether a particular action will bring good or bad results for you in the
 immediate future.

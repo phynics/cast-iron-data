@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lute_of_the_battle_ready", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "232"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Advanced Class Guide pg 232\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** none; **Price** 2,000 gp; **Weight** 3 lbs.
 

@@ -6,12 +6,12 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kami", path = "json/monster_families2.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Bestiary 3
 
 [Kami](ref/subtype/kami) are ancient, mystical, and otherworldly spirits created eons ago by the
 gods. Originally intended as guardians of those parts of nature that could not protect themselves,

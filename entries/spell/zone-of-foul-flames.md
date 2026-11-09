@@ -6,6 +6,9 @@ source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "zone_of_foul_flames", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "63"
 
 [fields]
 kind = "spell"
@@ -37,8 +40,6 @@ Saving throw: Will negates
 Spell resistance: yes
 Area: 20-ft.-radius spread
 :::
-
-**Sources:** Inner Sea Magic pg 63
 
 The twisted druids of the Uskwood forsook fire in ages past for the glory of Zon-Kuthon. Despite
 this aversion, these servants of Nidal know well the sting of flame, and have learned to turn it

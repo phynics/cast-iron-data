@@ -6,6 +6,9 @@ source_ids = ["pathfinder-84-pyramid-of-the-sky-pharaoh"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_the_hooded_cobra", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "pathfinder-84-pyramid-of-the-sky-pharaoh"
+page = "61"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration and necromancy"
 caster_level = "7th"
 +++
 
-**Sources:** Pathfinder \#84: Pyramid of the Sky Pharaoh pg 61\
 **Aura** moderate abjuration and necromancy; **CL** 7th\
 **Slot** none; **Price** 42,400 gp; **Weight** 2 lbs.
 

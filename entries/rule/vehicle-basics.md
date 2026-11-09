@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vehicle_basics", path = "json/rules_rulesets02.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "170"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 170
 
 What follow are the basic rules for using vehicles in the Pathfinder Roleplaying Game. They give an
 overview of the rules that all vehicles use.

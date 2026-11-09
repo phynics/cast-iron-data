@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/wizard" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "58"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Arcane school"]
 alters = ["Arcane bond"]
 +++
 
-**Sources:** Adventurer's Guide pg 58\
 Runesages draw upon the mystic energies of ancient Thassilon. While they sometimes experiment with
 the same heinous techniques exploited by the runelords, runesages temper their explorations into
 classic Thassilonian mysteries with moderation and empathy, maintaining balance by using small

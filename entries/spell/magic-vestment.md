@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_vestment", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "310"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: Will negates (harmless) (object)
 Spell resistance: yes (harmless) (object)
 Target: armor or shield touched
 :::
-
-**Sources:** PRPG Core Rulebook pg 310
 
 You imbue a suit of armor or a shield with an enhancement bonus of +1 per four caster levels
 (maximum +5 at 20th level).

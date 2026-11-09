@@ -6,6 +6,8 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_quickening_pulse", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
 
 [fields]
 kind = "class_option"
@@ -13,8 +15,6 @@ group = "bardic-masterpiece"
 +++
 
 ## The Quickening Pulse (Percussion, Wind)
-
-**Sources:** Ultimate Magic
 
 Your driving notes cause unnatural heart rates in your opponents.
 

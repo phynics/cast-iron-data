@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mirage", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "232"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: yes
 Area: one 40-ft.-cube/level (S)
 Subschool: Figment
 :::
-
-**Sources:** Ultimate Wilderness pg 232
 
 You create an image of a pool of water, a group of standing stones, a cove, an island, or another
 simple land formation over a stretch of flat land or water. The image is purely visual, and

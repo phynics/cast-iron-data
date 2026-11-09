@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghoulbane_belt", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-darklands"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Sources:** Heroes of the Darklands pg 30\
 **Aura** moderate conjuration; **CL** 7th\
 **Slot** belt; **Price** 20,000 gp; **Weight** 1 lb.
 

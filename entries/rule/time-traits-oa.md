@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "time_traits_oa", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "237"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 237
 
 Controlling time within a mindscape is difficult. In most cases, time flows at a one-for-one ratio
 with the passage of time in the real world. Only a powerful psychic individual can alter the flow of

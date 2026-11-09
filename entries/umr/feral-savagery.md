@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "feral_savagery", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "227"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Feral Savagery (Su) \[Mythic\]
 
-**Sources:** Mythic Adventures pg 227\
 Under the circumstances listed in the monster's stat block - such as when it makes a full attack or
 a rend attack - it can immediately attempt an additional attack against an opponent. This attack is
 made using the creature's full base attack bonus, plus any modifiers appropriate to the situation.

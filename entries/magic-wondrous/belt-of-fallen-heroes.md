@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "belt_of_fallen_heroes", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "208"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Sources:** Ultimate Equipment pg 208\
 **Aura** moderate conjuration; **CL** 7th\
 **Slot** belt; **Price** 21,000 gp; **Weight** 1 lb.
 

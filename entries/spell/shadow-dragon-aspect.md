@@ -6,6 +6,9 @@ source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_dragon_aspect", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "kobolds-of-golarion"
+page = "27"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Target: you
 Subschool: Shadow
 Descriptors: shadow
 :::
-
-**Sources:** Kobolds of Golarion pg 27
 
 You wreathe yourself in the quasi-real form of a dragon. You gain two claw attacks (1d6 plus caster
 level slashing damage) and a bite attack (1d8 plus caster level piercing damage). These are primary

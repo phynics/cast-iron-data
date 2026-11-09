@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "recuperation", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "298"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Recuperation (Ex) \[Mythic\]
 
-**Sources:** Bestiary 4 pg 298\
 The creature is restored to full hit points after 8 hours of rest so long as it isn't dead. In
 addition, by expending one use of mythic power and resting for 1 hour, it regains a number of hit
 points equal to half its full hit points (up to a maximum of its full hit points) and regain the use

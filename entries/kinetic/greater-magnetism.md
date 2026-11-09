@@ -6,6 +6,9 @@ source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_magnetism", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
+page = "22"
 
 [fields]
 kind = "class_option"
@@ -28,8 +31,6 @@ group = "kineticist-wild-talent"
 **Saving throw:** none
 
 **Spell resistance:** no
-
-**Source:** Elemental Master's Handbook/22
 
 You can repel or attract metal objects in a vast line with a magnetism so strong that there is no
 hope of escaping. This functions as [repel metal or stone](ref/spell/repel-metal-or-stone), except

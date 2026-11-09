@@ -6,12 +6,12 @@ source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weapon_proficiency", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "the-elephant-in-the-room-feat-taxes-in-pathfinder"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder
 
 Choose one [weapon group](ref/ability/weapon-groups) listed under the fighter's Weapon Training
 class feature. You understand how to use all weapons from that group.\

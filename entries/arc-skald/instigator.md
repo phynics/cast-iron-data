@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/skald" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "49"
 
 [fields]
 kind = "archetype"
 replaces = ["Spell kenning", "Dirge of doom", "Lore master"]
 +++
 
-**Sources:** Ultimate Intrigue pg 49\
 The instigator influences the will of the people, turning them toward his own purposes. Regardless
 of whether what the instigator says is true or not, he inflames emotions in others and suspends
 their reason. Instigators are often revolutionaries, political or otherwise, but they might also be

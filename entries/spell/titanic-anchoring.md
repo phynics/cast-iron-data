@@ -6,6 +6,9 @@ source_ids = ["pathfinder-91-battle-of-bloodmarch-hills"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "titanic_anchoring", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "pathfinder-91-battle-of-bloodmarch-hills"
+page = "71"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Pathfinder \#91: Battle of Bloodmarch Hills pg 71
 
 You become grounded and nearly immovable. You are immune to the pull and push special abilities, and
 all bull rush, grapple, overrun, reposition, and trip combat maneuvers made by creatures your size

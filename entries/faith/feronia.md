@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "planes-of-power"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "feronia", path = "json/faiths3.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "316"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Feronia**
 
 **Sub:** The Fertile Flame
-
-**Sources:** Inner Sea Gods pg 316
 
 ### Details
 

@@ -6,14 +6,21 @@ source_ids = ["ultimate-equipment", "adventurers-armory", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shotel", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "20"
+[[sources]]
+publication = "adventurers-armory"
+page = "5"
+[[sources]]
+publication = "ultimate-combat"
+page = "144"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "3 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 20, Adventurer's Armory pg 5, Ultimate Combat pg 144
 
 The shotel is a downward-curving sword designed to reach over or around an opponent's shield. You
 gain a +1 bonus on attack rolls with a shotel against opponents using bucklers, light shields, or

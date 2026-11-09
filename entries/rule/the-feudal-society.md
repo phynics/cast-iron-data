@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_feudal_society", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "152"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 152
 
 As cultures emerge from ignorance into knowledge, as the people band together for mutual protection,
 certain leaders - whether strong, smart, or charismatic - rise to guide, lead, and protect. In a

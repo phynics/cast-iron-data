@@ -6,6 +6,9 @@ source_ids = ["dungeoneers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "determine_depth", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "dungeoneers-handbook"
+page = "30"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: none
 Spell resistance: no
 Target: solid surface touched
 :::
-
-**Sources:** Dungeoneer's Handbook pg 30
 
 With a touch, you can determine the exact thickness of a wall, ceiling, or other solid barrier,
 measuring from the point you are touching to the direct opposite side of the barrier in a straight

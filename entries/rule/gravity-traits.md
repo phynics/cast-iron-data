@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gravity_traits", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "184"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 184
 
 The direction of gravity's pull may be unusual, and it might even change directions within the plane
 itself.

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_setup", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "248"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 248
 
 Giving your puzzle a reason to exist is a crucial step to making sure the players are interested in
 your game. Any puzzle needs to feel like an important part of an adventure, not a barrier preventing

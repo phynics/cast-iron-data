@@ -6,6 +6,9 @@ source_ids = ["plunder-and-peril"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "karkinoi_karkinoi_brood_swarm", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "plunder-and-peril"
+page = "62"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ _Each member of this horde of blue crab-like things is armed with a menacing, ov
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Plunder and Peril pg 62\
 **Subtype:** Aquatic, Swarm
 
 **Size:** tiny

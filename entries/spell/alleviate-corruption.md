@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alleviate_corruption", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "108"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: one creature other than yourself
 :::
-
-**Sources:** Horror Adventures pg 108
 
 You combat the rising [corruption](ref/rule/corruption) in another creature or advance the long-term
 process of exorcising it entirely. This spell has two purposes, and you choose which application to

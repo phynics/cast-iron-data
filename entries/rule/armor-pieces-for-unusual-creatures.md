@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "armor_pieces_for_unusual_creatures", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "200"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 200
 
 Armor pieces for unusually big creatures, unusually little creatures, and non-humanoid creatures
 (such as horses) have different costs and weights from those given in Tables [5-7](ref/rule/arms),

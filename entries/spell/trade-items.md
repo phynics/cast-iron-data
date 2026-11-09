@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trade_items", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "226"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: yes (object)
 Target: one object weighing no more than 5 lbs./level
 Subschool: Teleportation
 :::
-
-**Sources:** Ultimate Intrigue pg 226
 
 You cause the target object and the object used as a focus for the spell to immediately swap places.
 The target object appears in your hand (or falls to the ground in your square if you are unable to

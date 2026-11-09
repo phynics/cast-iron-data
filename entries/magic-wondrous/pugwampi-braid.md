@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pugwampi_braid", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "93"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "8th"
 +++
 
-**Sources:** Monster Codex pg 93\
 **Aura** moderate necromancy; **CL** 8th\
 **Slot** none; **Price** 9,000 gp; **Weight** 1 lb.
 

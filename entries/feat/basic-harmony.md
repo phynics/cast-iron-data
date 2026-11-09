@@ -6,6 +6,9 @@ source_ids = ["cohorts-and-companions"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "basic_harmony", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "cohorts-and-companions"
+page = "6"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ normal = "Aid another checks grant a +2 bonus."
 +++
 
 ## Basic Harmony (Teamwork)
-
-**Sources:** Cohorts and Companions pg 6
 
 Your performance interweaves with and enriches your ally's skills.\
 **Prerequisites:** Bardic performance or [raging song](ref/ability/raging-song).\

@@ -6,6 +6,9 @@ source_ids = ["halflings-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "halfling_slinger", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "halflings-of-golarion"
+page = "23"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You gain a +1 racial bonus on attack rolls made using a sling."
 +++
 
 ## Halfling Slinger (Combat)
-
-**Sources:** Halflings of Golarion pg 23
 
 You have honed your racial talent for slingcraft.\
 **Prerequisites:** [Halfling](ref/race/halfling).\

@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tick_giant_tick", path = "json/monsters39.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "265"
 
 [fields]
 kind = "creature"
@@ -38,7 +41,6 @@ _This dog-sized tick has a grotesquely bulbous body and a thin head equipped wit
 
 **Size:** small
 
-**Sources:** Bestiary 2 pg 265\
 **Type:** vermin
 
 **Experience points:** 400

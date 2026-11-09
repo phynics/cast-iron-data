@@ -6,6 +6,9 @@ source_ids = ["druma-profit-and-prophecy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tauhoti", path = "json/monsters23.json" },
 ]
+[[sources]]
+publication = "druma-profit-and-prophecy"
+page = "63"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ _This fluffy squirrel has a round body with long tufts atop its ears._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Druma, Profit and Prophecy pg 63\
 **Experience points:** 65
 
 **Armor class:** 17/17/14

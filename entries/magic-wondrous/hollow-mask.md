@@ -6,6 +6,9 @@ source_ids = ["pathfinder-124-city-in-the-deep"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hollow_mask", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "pathfinder-124-city-in-the-deep"
+page = "81"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Sources:** Pathfinder \#124: City in the Deep pg 81\
 **Aura** faint conjuration; **CL** 5th\
 **Slot** head; **Price** 3,000 gp; **Weight** 2 lbs.
 

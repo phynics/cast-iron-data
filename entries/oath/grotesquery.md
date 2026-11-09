@@ -6,6 +6,9 @@ source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grotesquery", path = "json/class_ability_oaths.json" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "15"
 
 [fields]
 kind = "class_option"
@@ -13,7 +16,6 @@ group = "paladin-oath"
 replaces = ["Divine health", "Aura of faith"]
 +++
 
-**Sources:** Inner Sea Combat pg 15\
 For paladins of the Eternal Rose, beauty is synonymous with virtue, and it is the lens through which
 all goodness is filtered. For champions of [Shelyn](ref/faith/shelyn), who are aware that aesthetics
 is subjective, beauty is the form inviolate.

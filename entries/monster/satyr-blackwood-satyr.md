@@ -6,6 +6,9 @@ source_ids = ["fey-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "satyr_blackwood_satyr", path = "json/monsters21.json" },
 ]
+[[sources]]
+publication = "fey-revisited"
+page = "56"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ _No flavor text._
 
 **Senses:** Low-light vision
 
-**Sources:** Fey Revisited pg 56\
 **Experience points:** 3,200
 
 **Armor class:** 20/16/14

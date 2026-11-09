@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/vigilante" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "59"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Social talent gained at 1st level", "Vigilante talents gained at 2n
 alters = ["Vengeance strike"]
 +++
 
-**Sources:** Ultimate Intrigue pg 59\
 Wise vigilantes know that there is power in certain seemingly unremarkable items. Psychometrists
 aren't spellcasters; instead, they collect strange items or create their own uncanny gadgets that
 seem to only work for them. Psychometrists often hide their clandestine activities behind the guise

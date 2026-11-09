@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_dodging", path = "json/magic_enhancements.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "210"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration"
 caster_level = "4th"
 +++
 
-**Sources:** Advanced Class Guide pg 210\
 **Aura** faint abjuration; **CL** 4th\
 **Slot** none; **Price** +2 bonus; **Weight** -
 

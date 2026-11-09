@@ -6,6 +6,9 @@ source_ids = ["pathfinder-114-black-stars-beckon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "great_old_one_ghatanothoa", path = "json/monsters_unique2.json" },
 ]
+[[sources]]
+publication = "pathfinder-114-black-stars-beckon"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -48,7 +51,6 @@ mountain of madness come to life._
 
 **Senses:** Darkvision 60 ft., True seeing
 
-**Sources:** Pathfinder \#114: Black Stars Beckon pg 84\
 **Subtype:** Chaotic, Evil, Great Old One
 
 **Experience points:** 6,553,600

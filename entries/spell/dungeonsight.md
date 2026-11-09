@@ -6,6 +6,9 @@ source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dungeonsight", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "dragonslayers-handbook"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: none
 Spell resistance: no
 Area: 60-ft.-radius emanation
 :::
-
-**Sources:** Dragonslayer's Handbook pg 28
 
 You receive a clear and memorable view of the layout of chambers, barriers, and connecting passages
 within the area of effect. This spell does not reveal the contents or inhabitants of any of these

@@ -6,6 +6,9 @@ source_ids = ["daughters-of-fury"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ironmorph_dust", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "daughters-of-fury"
+page = "61"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Daughters of Fury pg 61\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** none; **Price** 500 gp; **Weight** 1 lb.
 

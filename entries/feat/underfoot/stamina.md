@@ -6,11 +6,13 @@ source_ids = ["pathfinder-unchained"]
 relations = [
   { kind = "addon", target = "ref/feat/underfoot", label = "stamina" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "135"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder Unchained pg 135\
 You can spend 2 stamina points to use the benefit of this feat against opponents of your size until
 the end of your turn.

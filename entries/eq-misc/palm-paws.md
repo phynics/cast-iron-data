@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "palm_paws", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "blood-of-the-moon"
+page = "30"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "80 gp"
 weight = "2 lbs."
 +++
 
-**Sources:** Blood of the Moon pg 30\
 **Price** 80 gp; **Weight** 2 lbs.\
 **Category** Tools
 

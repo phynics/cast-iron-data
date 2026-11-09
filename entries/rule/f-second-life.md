@@ -6,12 +6,14 @@ source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "f_second_life", path = "json/rules_subsystems01.json" },
 ]
+[[sources]]
+publication = "faction-guide"
+page = "44"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Faction Guide pg 44\
 **Pathfinder Name:** Risen Guard\
 **Goal:** Serve the Monarchy\
 **Alignment:** LN\

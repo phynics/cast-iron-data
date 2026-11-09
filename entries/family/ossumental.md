@@ -6,12 +6,13 @@ source_ids = ["pathfinder-83-the-slave-trenches-of-hakotep"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ossumental", path = "json/monster_families2.json" },
 ]
+[[sources]]
+publication = "pathfinder-83-the-slave-trenches-of-hakotep"
+page = "88"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder \#83: The Slave Trenches of Hakotep pg 88
 
 Ossumentals are found exclusively in the enigmatic location called the Slave Trenches of Hakotep. It
 is here where the strong elemental forces and the massive loss of mortal life used to excavate the

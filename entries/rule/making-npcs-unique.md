@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "making_npcs_unique", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "84"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 84
 
 Assuming that the GM decides to give an NPC some depth, he will likely want to make her as memorable
 and entertaining as possible, and might consider the following points to help raise an NPC above a

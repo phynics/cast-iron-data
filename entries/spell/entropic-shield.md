@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "entropic_shield", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "278"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** PRPG Core Rulebook pg 278
 
 A magical field appears around you, glowing with a chaotic blast of multicolored hues. This field
 deflects incoming arrows, rays, and other ranged attacks. Each ranged attack directed at you for

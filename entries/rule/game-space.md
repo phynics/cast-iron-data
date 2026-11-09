@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "game_space", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "204"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 204
 
 Since playing Pathfinder can take up a considerable area, the size of which is often limited by any
 number of practical constraints, game space can be one of the most difficult environmental factors

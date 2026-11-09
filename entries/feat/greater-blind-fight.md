@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_blind_fight", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "161"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "The Greater Blind-Fight feat is of no use against a character who is 
 +++
 
 ## Greater Blind-Fight (Combat)
-
-**Sources:** Advanced Player's Guide pg 161
 
 Your enemies cannot hide from you.\
 **Prerequisites:** Perception 15 ranks, [Improved Blind-Fight](ref/feat/improved-blind-fight).\

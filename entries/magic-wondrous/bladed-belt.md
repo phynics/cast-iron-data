@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bladed_belt", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "211"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "1st"
 +++
 
-**Sources:** Ultimate Equipment pg 211\
 **Aura** faint transmutation; **CL** 1st\
 **Slot** belt; **Price** 2,000 gp; **Weight** 3 lbs.
 

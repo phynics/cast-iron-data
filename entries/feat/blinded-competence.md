@@ -6,6 +6,9 @@ source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blinded_competence", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "blood-of-shadows"
+page = "24"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While you are using Blinded Blade Style and you are blinded or unable
 +++
 
 ## Blinded Competence (Combat)
-
-**Sources:** Blood of Shadows pg 24
 
 Your lack of sight enables you to strike your foes with uncanny precision.\
 **Prerequisites:** [Blinded Blade Style](ref/feat/blinded-blade-style), Perception 10 ranks.\

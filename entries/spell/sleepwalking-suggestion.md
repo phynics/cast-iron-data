@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sleepwalking_suggestion", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "127"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Horror Adventures pg 127
 
 You compel the target creature to rise from its sleep as if sleepwalking and perform a course of
 activity (limited to a sentence or two). The spell takes effect immediately if the target is already

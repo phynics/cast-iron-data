@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-elements"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sandstorm_dust", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "blood-of-the-elements"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "11th"
 +++
 
-**Sources:** Blood of the Elements pg 30\
 **Aura** moderate evocation; **CL** 11th\
 **Slot** none; **Price** 9,000 gp; **Weight** 1 lb.
 

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-80-empty-graves"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "set", path = "json/faiths7.json" },
 ]
+[[sources]]
+publication = "pathfinder-80-empty-graves"
+page = "74"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Set**
 
 **Sub:** Lord of the Dark Desert
-
-**Sources:** Pathfinder \#80: Empty Graves pg 74
 
 ### Details
 

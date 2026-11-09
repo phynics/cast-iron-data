@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "adventurers-guide", "andoran-spirit-of-liberty",
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "identifiers_eye", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "potions-and-poisons"
+page = "17"
 
 [fields]
 kind = "spell"
@@ -59,8 +62,6 @@ Area: cone-shaped emanation
 :::
 
 ### Identifier's Eye
-
-**Sources:** Potions and Poisons pg 17
 
 This spell infuses a spark of magical energy into the veins of the target, allowing it to feel the
 presence of magic the way one might feel the thrum of vibrations in the air. For the spell's

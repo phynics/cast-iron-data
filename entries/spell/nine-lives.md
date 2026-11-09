@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nine_lives", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "95"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: one creature touched
 :::
-
-**Sources:** Advanced Race Guide pg 95
 
 > _[Catfolk](ref/race/catfolk) have access to the following spell._
 

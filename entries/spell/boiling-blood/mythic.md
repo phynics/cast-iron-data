@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/boiling-blood", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "87"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 87\
 A target that fails its save takes 1d3 points of fire damage per round. If a target has the orc
 subtype, it also gains fire resistance 5.
 

@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "siege_gunner", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "118"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "Direct-fire weapons impose a -2 attack roll penalty per size category 
 +++
 
 ## Siege Gunner (Combat)
-
-**Sources:** Ultimate Combat pg 118
 
 Aiming outsized siege weapons poses little difficulty for you.\
 **Prerequisites:** [Siege Engineer](ref/feat/siege-engineer), Profession (siege engineer) 5 ranks.\

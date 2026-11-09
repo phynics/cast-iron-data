@@ -6,6 +6,9 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "entertainer_celebrity_bard", path = "json/npcs3.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "273"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "10"
 
 **Challenge rating:** 10
 
-**Sources:** GameMastery Guide pg 273\
 **XP** 9,600\
 Human [bard](ref/class/bard) 11\
 N Medium humanoid\

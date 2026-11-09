@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "treekeepers_staff_elf", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "227"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Sources:** Inner Sea Races pg 227\
 **Aura** moderate conjuration; **CL** 7th\
 **Slot** none; **Price** 18,700 gp; **Weight** 4 lbs.
 

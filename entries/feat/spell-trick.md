@@ -6,6 +6,9 @@ source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_trick", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "17"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can implant a spell trick in a target's mind, following the same 
 +++
 
 ## Spell Trick (Trick)
-
-**Sources:** Psychic Anthology pg 17
 
 You are able to weave psychic contingencies into your target's mind.\
 **Prerequisites:** Masterful tricks class feature, ability to cast 4th-level mesmerist spells.\

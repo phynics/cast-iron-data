@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "penanggalen", path = "json/monster_template3.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "216"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +1
-
-**Source:** Bestiary 3/216
 
 The hideous penanggalen is one of the most horrific vampiric monstrosities. By day, a penanggalen
 appears to be a normal humanoid, but at night or when provoked, the creature's head rips free from

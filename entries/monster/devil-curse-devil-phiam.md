@@ -6,6 +6,9 @@ source_ids = ["daughters-of-fury"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_curse_devil_phiam", path = "json/monsters07.json" },
 ]
+[[sources]]
+publication = "daughters-of-fury"
+page = "53"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ behind its feminine frame._
 
 **Size:** small
 
-**Sources:** Daughters of Fury pg 53\
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **Experience points:** 1,600

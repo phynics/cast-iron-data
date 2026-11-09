@@ -6,6 +6,9 @@ source_ids = ["pathfinder-114-black-stars-beckon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "imperial_diadem", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "pathfinder-114-black-stars-beckon"
+page = "10"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong divination"
 caster_level = "18th"
 +++
 
-**Sources:** Pathfinder \#114: Black Stars Beckon pg 10\
 **Aura** strong divination; **CL** 18th\
 **Slot** head; **Price** -; **Weight** 3 lbs.
 

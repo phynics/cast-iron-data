@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shard_of_chaos", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "237"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: yes
 Effect: dart-shaped projectile of chaotic energy
 Descriptors: chaotic
 :::
-
-**Sources:** Ultimate Magic pg 237
 
 You hurl a multicolored shard of congealed chaos from your holy symbol, affecting any one target in
 range as a ranged touch attack.

@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "verdant_spell", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "119"
+[[sources]]
+publication = "heroes-of-the-wild"
+page = "26"
 
 [fields]
 kind = "feat"
@@ -17,8 +23,6 @@ normal = "Creatures of the plant type are immune to mind-affecting effects."
 +++
 
 ## Verdant Spell (Metamagic)
-
-**Sources:** Ultimate Wilderness pg 119, Heroes of the Wild pg 26
 
 Your magical connection to nature allows you to entice, fool, and misdirect plants and fungi as
 though they were people.\

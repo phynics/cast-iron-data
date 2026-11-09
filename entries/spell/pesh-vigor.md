@@ -6,6 +6,12 @@ source_ids = ["black-markets", "dark-markets-a-guide-to-katapesh"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pesh_vigor", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "19"
+[[sources]]
+publication = "dark-markets-a-guide-to-katapesh"
+page = "57"
 
 [fields]
 kind = "spell"
@@ -50,8 +56,6 @@ Saving throw: Will negates
 Spell resistance: yes
 Target: living creature touched
 :::
-
-**Sources:** Black Markets pg 19, Dark Markets - A Guide to Katapesh pg 57
 
 The target gains a +2 enhancement bonus to its Strength. Once per round as a free action, the target
 can choose to increase the enhancement bonus by 2 for 1 round; if it does so, it takes 1d6 points of

@@ -6,13 +6,26 @@ source_ids = ["blood-of-the-sea", "advanced-race-guide", "inner-sea-world-guide"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gillman", path = "json/races3.json" },
 ]
+[[sources]]
+publication = "blood-of-the-sea"
+page = "8"
+[[sources]]
+publication = "advanced-race-guide"
+page = "188"
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "310"
+[[sources]]
+publication = "pathfinder-campaign-setting"
+page = "19"
+[[sources]]
+publication = "inner-sea-races"
+page = "243"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Blood of the Sea pg 8, Advanced Race Guide pg 188, Inner Sea World Guide pg 310,
-Pathfinder Campaign Setting pg 19, Inner Sea Races pg 243\
 Gillmen descended from humans hurled into the sea when Earthfall shattered Azlant. Aboleths captured
 several of these humans and mutated them to survive underwater. The gillmen's ancestors were thus
 saved from extinction, but at a terrible cost: for centuries, they served the aboleths, physically

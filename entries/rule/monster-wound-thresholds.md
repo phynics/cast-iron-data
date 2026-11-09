@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monster_wound_thresholds", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "137"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 137
 
 Keeping track of wound thresholds for a horde of monsters can be a significant amount of work. To
 simplify the process, the GM can use only the wounded threshold and ignore the increased range for

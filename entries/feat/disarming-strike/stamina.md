@@ -6,12 +6,14 @@ source_ids = ["pathfinder-unchained"]
 relations = [
   { kind = "addon", target = "ref/feat/disarming-strike", label = "stamina" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "117"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder Unchained pg 117\
 When you fail to confirm a critical hit with a melee attack, you can spend 2 stamina points to
 attempt to disarm the target anyway. When you do, reroll the confirmation roll and use it to
 determine if the disarm attempt exceeds the opponent's CMD. This reroll is used only for the disarm

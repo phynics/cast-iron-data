@@ -6,13 +6,15 @@ source_ids = ["core-rulebook", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "infernal", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "76"
 
 [fields]
 kind = "class_option"
 group = "sorcerer-bloodline"
 +++
 
-**Sources:** PRPG Core Rulebook pg 76\
 Somewhere in your family's history, a relative made a deal with [a devil](ref/family/devil), and
 that pact has influenced your family line ever since. In you, it manifests in direct and obvious
 ways, granting you powers and abilities. While your fate is still your own, you can't help but

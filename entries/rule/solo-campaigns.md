@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "solo_campaigns", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "44"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 44
 
 A solo campaign - sometimes called a duet campaign - consists of one GM and one player. Such an
 arrangement is often perfect for spouses, roommates, siblings, and any other situation where players

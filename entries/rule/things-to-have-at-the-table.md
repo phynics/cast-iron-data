@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "things_to_have_at_the_table", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "16"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 16
 
 Supplies and materials on the list that follows keep the game from derailing as you fumble for what
 you need.

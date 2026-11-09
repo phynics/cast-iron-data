@@ -6,6 +6,12 @@ source_ids = ["adventurers-armory", "pathfinder-8-seven-days-to-the-grave", "ult
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "doctors_outfit", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "adventurers-armory"
+page = "19"
+[[sources]]
+publication = "pathfinder-8-seven-days-to-the-grave"
+page = "61"
 
 [fields]
 kind = "item"
@@ -14,7 +20,6 @@ price = "150 gp"
 weight = "6 lbs."
 +++
 
-**Sources:** Adventurer's Armory pg 19, Pathfinder \#8: Seven Days to the Grave pg 61\
 **Price** 150 gp; **Weight** 6 lbs.\
 **Category** Tools
 

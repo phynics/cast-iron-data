@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "saddle_surge", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "240"
 
 [fields]
 kind = "spell"
@@ -36,8 +39,6 @@ Saving throw: none
 Spell resistance: no
 Targets: you and your mount
 :::
-
-**Sources:** Advanced Player's Guide pg 240
 
 You and your mount form a perfect synergy that endows both of you with advantages based upon how far
 you travel each round. For every 5 feet your mount moves in a given round, you gain a +1 competence

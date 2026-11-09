@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "goblin", path = "json/monsters12.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "156"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ ungainly head._
 
 **Size:** small
 
-**Sources:** Pathfinder RPG Bestiary pg 156\
 **Subtype:** Goblinoid
 
 **Experience points:** 135

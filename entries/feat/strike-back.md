@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "strike_back", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "135"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can ready an action to make a melee attack against any foe that a
 +++
 
 ## Strike Back (Combat)
-
-**Sources:** PRPG Core Rulebook pg 135
 
 You can strike at foes that attack you using their superior reach, by targeting their limbs or
 weapons as they come at you.\

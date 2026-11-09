@@ -9,6 +9,12 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/trap-the-soul" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "186"
+[[sources]]
+publication = "book-of-the-damned-volume-3-horsemen-of-the-apocalypse"
+page = "39"
 
 [fields]
 kind = "spell"
@@ -47,9 +53,6 @@ Subschool: Summoning
 :::
 
 ### Soul Transfer
-
-**Sources:** Book of the Damned pg 186, Book of the Damned - Volume 3: Horsemen of the Apocalypse pg
-39
 
 This spell functions like [the spell completion option of trap the soul](ref/spell/trap-the-soul),
 except it works only on bodiless souls (such as incorporeal undead or a soul trapped in a gem) and

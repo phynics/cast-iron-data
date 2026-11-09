@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/inquisitor" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "13"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Monster lore", "Detect alignment", "Bane", "Second judgment", "Grea
 alters = ["Spellcasting"]
 +++
 
-**Sources:** Advanced Race Guide pg 13\
 The gruff traditionalism of most dwarves finds its apex in those who adhere to a strict orthodoxy
 rooted in ancient principles and practices and who are not amenable whatsoever to change or
 innovation.

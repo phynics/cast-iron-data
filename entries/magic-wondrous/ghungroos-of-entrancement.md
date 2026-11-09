@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghungroos_of_entrancement", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "225"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint enchantment"
 caster_level = "3rd"
 +++
 
-**Sources:** Villain Codex pg 225\
 **Aura** faint enchantment; **CL** 3rd\
 **Slot** feet; **Price** 3,750 gp; **Weight** -
 

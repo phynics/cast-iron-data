@@ -6,6 +6,9 @@ source_ids = ["pathfinder-51-the-hungry-storm"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blackfrost", path = "json/equipment_poisons.json" },
 ]
+[[sources]]
+publication = "pathfinder-51-the-hungry-storm"
+page = "67"
 
 [fields]
 kind = "item"
@@ -13,8 +16,6 @@ category = "Poisons"
 price = "N/A"
 weight = "&mdash;"
 +++
-
-**Sources:** Pathfinder \#51: The Hungry Storm pg 67
 
 **Price** N/A; **Weight** —
 

@@ -6,6 +6,9 @@ source_ids = ["lost-treasures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golden_carriage_of_gaspar_longfellow", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "lost-treasures"
+page = "34"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration"
 caster_level = "12th"
 +++
 
-**Sources:** Lost Treasures pg 34\
 **Aura** strong conjuration; **CL** 12th\
 **Slot** none; **Price** 114,000 gp; **Weight** 1,200 lbs.
 

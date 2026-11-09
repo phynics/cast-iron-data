@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "awaken", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "245"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: Will negates
 Spell resistance: yes
 Target: animal or tree touched
 :::
-
-**Sources:** PRPG Core Rulebook pg 245
 
 You awaken a tree or animal to human-like sentience. To succeed, you must make a Will save (DC 10 +
 the animal's current HD, or the HD the tree will have once awakened). The awakened animal or tree is

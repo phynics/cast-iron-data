@@ -6,6 +6,9 @@ source_ids = ["cheliax-empire-of-devils"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "signifers_rally", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "cheliax-empire-of-devils"
+page = "23"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Target: one willing ally/5 levels
 Subschool: Teleportation
 Descriptors: evil
 :::
-
-**Sources:** Cheliax, Empire of Devils pg 23
 
 You teleport up to one ally per five caster levels to your location. You determine which allies you
 want to teleport at the time of casting; these allies have 1 round to decide to allow or refuse your

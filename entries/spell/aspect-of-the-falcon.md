@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aspect_of_the_falcon", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "203"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: no
 Target: you
 Subschool: Polymorph
 :::
-
-**Sources:** Advanced Player's Guide pg 203
 
 You take on an aspect of a falcon. Your eyes become wide and raptor-like, and you grow feathers on
 the sides of your head. You gain a +3 competence bonus on Perception checks, a +1 competence bonus

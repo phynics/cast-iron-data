@@ -6,6 +6,9 @@ source_ids = ["cheliax-the-infernal-empire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_sire_devil_patraavex", path = "json/monsters07.json" },
 ]
+[[sources]]
+publication = "cheliax-the-infernal-empire"
+page = "59"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ fanged mouth running vertically across its torso._
 
 **Senses:** Darkvision 60 ft., See in darkness, See invisibility
 
-**Sources:** Cheliax, the Infernal Empire pg 59\
 **Subtype:** Devil, Evil, Extraplanar, Lawful, Shapechanger
 
 **Experience points:** 3,200

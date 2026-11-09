@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aid", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "239"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Target: living creature touched
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 239
 
 Aid grants the target a +1 morale bonus on attack rolls and saves against fear effects, plus
 temporary hit points equal to 1d8 + caster level (to a maximum of 1d8+10 temporary hit points at

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vorasha", path = "json/faiths9.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "318"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Vorasha**
 
 **Sub:** The Ophidian
-
-**Sources:** Inner Sea Gods pg 318
 
 ### Details
 

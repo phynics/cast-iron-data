@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/vigilante" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "58"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Vigilante specialization", "Vigilante talent gained at 6th level", 
 alters = ["Dual identity", "Vengeance strike"]
 +++
 
-**Sources:** Ultimate Intrigue pg 58\
 Some vigilantes form special bonds with the creatures they use as steeds, considering these loyal
 and trusted mounts just as much heroes or antiheroes as they might be. Mounted furies often
 masquerade as anonymous stable hands or humble quartermasters to mask their vigilante activities.

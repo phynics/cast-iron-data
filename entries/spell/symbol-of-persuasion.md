@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/symbol-of-death" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "356"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Effect: one symbol
 Subschool: Charm
 Descriptors: mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 356
 
 This spell functions like [symbol of death](ref/spell/symbol-of-death), except that all creatures
 within the radius of a symbol of persuasion instead become charmed by the caster (as the

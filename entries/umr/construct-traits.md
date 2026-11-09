@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "construct_traits", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "291"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Construct Traits (Ex)
 
-**Sources:** Bestiary 5 pg 291\
 [Constructs](ref/type/construct) are immune to death effects, disease, mind-affecting effects
 (charms, compulsions, morale effects, patterns, and phantasms), necromancy effects, paralysis,
 poison, sleep, stun, and any effect that requires a Fortitude save (unless the effect also works on

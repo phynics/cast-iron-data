@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_creature_shadow_roper", path = "json/monsters21.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "238"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ amalgamation of darkness and menace._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 4 pg 238\
 **Subtype:** Augmented aberration
 
 **Experience points:** 25,600

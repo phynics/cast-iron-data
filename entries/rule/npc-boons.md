@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "npc_boons", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "88"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 88
 
 Fantasy literature is filled with examples of characters with wondrous powers who have no interest
 in being heroes or villains. Sages content to watch events unfold as they will, clerics imbued by

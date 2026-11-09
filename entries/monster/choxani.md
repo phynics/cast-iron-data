@@ -6,6 +6,9 @@ source_ids = ["the-first-world-realm-of-the-fey"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "choxani", path = "json/monsters05.json" },
 ]
+[[sources]]
+publication = "the-first-world-realm-of-the-fey"
+page = "59"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ colors and patterns._
 
 **Senses:** Low-light vision
 
-**Sources:** The First World, Realm of the Fey pg 59\
 **Experience points:** 800
 
 **Armor class:** 15/13/12

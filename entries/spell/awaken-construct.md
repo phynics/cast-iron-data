@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "awaken_construct", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "158"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: Will negates
 Spell resistance: no
 Target: mindless construct touched
 :::
-
-**Sources:** Occult Adventures pg 158
 
 You amplify the animating force of a construct to more closely resemble a true soul, granting the
 construct human-like sentience. To do so, you must succeed at a Spellcraft check (DC = 15 + the

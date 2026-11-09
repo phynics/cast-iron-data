@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "titan_elysian", path = "json/monsters23.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "266"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ gleaming metal._
 
 **Senses:** Darkvision 120 ft., True seeing
 
-**Sources:** Bestiary 2 pg 266\
 **Subtype:** Chaotic, Extraplanar, Good
 
 **Experience points:** 409,600

@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dimensional_bounce", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "179"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: no and yes (object)
 Targets: you and touched objects or other touched willing creatures
 Subschool: Teleportation
 :::
-
-**Sources:** Advanced Class Guide pg 179
 
 You designate two locations within range and create a dimensional link between them; you must have
 line of effect to both locations when casting this spell. As a swift action, you can teleport from

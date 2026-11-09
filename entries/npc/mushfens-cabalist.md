@@ -6,6 +6,9 @@ source_ids = ["inner-sea-npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mushfens_cabalist", path = "json/npcs8.json" },
 ]
+[[sources]]
+publication = "inner-sea-npc-codex"
+page = "39"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "8"
 
 **Challenge rating:** 8
 
-**Sources:** Inner Sea NPC Codex pg 39\
 **XP** 4,800\
 Changeling [witch](ref/class/witch) 9\
 NE Medium humanoid (changeling)\

@@ -6,13 +6,26 @@ source_ids = ["inner-sea-races", "dragon-empires-primer", "dragon-empires-gazett
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tengu", path = "json/races4.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "251"
+[[sources]]
+publication = "dragon-empires-primer"
+page = "6"
+[[sources]]
+publication = "dragon-empires-gazetteer"
+page = "12"
+[[sources]]
+publication = "advanced-race-guide"
+page = "162"
+[[sources]]
+publication = "bestiary"
+page = "263"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Inner Sea Races pg 251, Dragon Empires Primer pg 6, Dragon Empires Gazetteer pg 12,
-Advanced Race Guide pg 162, Pathfinder RPG Bestiary pg 263\
 Tengus are a race of wingless avian humanoids with humanoid hands, clawed feet, and a beak that
 resembles that of a crow or raven. Matching the colors of these birds, most tengus' feathers are jet
 black; however, a few possess brown or blue-black coloration instead.

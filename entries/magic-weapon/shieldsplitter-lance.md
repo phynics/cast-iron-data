@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shieldsplitter_lance", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "159"
+[[sources]]
+publication = "advanced-players-guide"
+page = "290"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Sources:** Ultimate Equipment pg 159, Advanced Player's Guide pg 290\
 **Aura** moderate evocation; **CL** 10th\
 **Slot** none; **Price** 18,310 gp; **Weight** 10 lbs.
 

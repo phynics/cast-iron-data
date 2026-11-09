@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "squid_giant_squid", path = "json/monsters38.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "259"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ beast's eyes are as big as shields._
 
 **Senses:** Low-light vision
 
-**Sources:** Pathfinder RPG Bestiary pg 259\
 **Subtype:** Aquatic
 
 **Experience points:** 6,400

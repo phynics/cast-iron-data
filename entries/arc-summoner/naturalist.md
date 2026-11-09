@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/summoner" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "123"
 
 [fields]
 kind = "archetype"
 replaces = ["Summon monster I", "Shield ally", "greater shield ally", "Aspect", "Life bond", "Greater aspect"]
 +++
 
-**Sources:** Advanced Class Guide pg 123\
 A naturalist is a summoner who is in tune with the natural world, using his magic like a lens to
 focus various animal aspects onto his eidolon. More akin to a hunter than to other arcane
 spellcasters, a naturalist instinctively masters the power of such creatures as the bear, wolf,

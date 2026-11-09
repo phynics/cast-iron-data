@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bowling_infusion", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "17"
 
 [fields]
 kind = "class_option"
@@ -25,8 +28,6 @@ group = "kineticist-wild-talent"
 [Telekinetic Blast](ref/kinetic/telekinetic-blast)
 
 **Saving throw:** none
-
-**Source:** Occult Adventures/17
 
 You bowl your foes over with the sheer mass of your kinetic blast. Attempt a [trip](ref/rule/trip)
 combat maneuver check against each target damaged by your infused blast, using your Constitution

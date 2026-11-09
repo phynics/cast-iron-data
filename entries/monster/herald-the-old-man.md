@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "pathfinder-53-tide-of-honor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "herald_the_old_man", path = "json/monsters_unique2.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "294"
+[[sources]]
+publication = "pathfinder-53-tide-of-honor"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -47,7 +53,6 @@ adorned with metal rings._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Inner Sea Gods pg 294, Pathfinder \#53: Tide of Honor pg 86\
 **Subtype:** Extraplanar, Herald, Lawful
 
 **Experience points:** 51,200

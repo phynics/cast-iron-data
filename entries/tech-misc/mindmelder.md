@@ -6,6 +6,9 @@ source_ids = ["pathfinder-90-the-divinity-drive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mindmelder", path = "json/equipment_tech_misc.json" },
 ]
+[[sources]]
+publication = "pathfinder-90-the-divinity-drive"
+page = "61"
 
 [fields]
 kind = "item"
@@ -15,7 +18,6 @@ weight = "3 lbs."
 slot = "head"
 +++
 
-**Sources:** Pathfinder \#90: The Divinity Drive pg 61\
 **Price** 30,000 gp\
 **Slot** head; **Weight** 3 lbs.\
 **Capacity** 10; **Usage** 1/hour

@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dedicated_adversary", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "10"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "You can gain this feat multiple times. Its effects do not stack. Each
 +++
 
 ## Dedicated Adversary (Combat)
-
-**Sources:** Dirty Tactics Toolbox pg 10
 
 Your repeated encounters with a particular type of enemy have honed your skills against that foe.\
 **Prerequisites:** No levels in a class that has the [favored enemy](ref/ability/favored-enemy)

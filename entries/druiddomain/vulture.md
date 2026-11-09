@@ -6,6 +6,9 @@ source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vulture", path = "json/class_ability_druid_domains.json" },
 ]
+[[sources]]
+publication = "faiths-and-philosophies"
+page = "25"
 
 [fields]
 kind = "class_option"
@@ -13,8 +16,6 @@ group = "druid-domain"
 +++
 
 ## Vulture Domain
-
-**Sources:** Faiths and Philosophies pg 25
 
 **Granted Powers:** Yours is the power of death and rebirth. Your spirit soars above all and moves
 with the flow of unseen currents.

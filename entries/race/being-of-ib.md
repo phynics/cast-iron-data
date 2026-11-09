@@ -6,12 +6,14 @@ source_ids = ["pathfinder-111-dreams-of-the-yellow-king"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "being_of_ib", path = "json/races.json" },
 ]
+[[sources]]
+publication = "pathfinder-111-dreams-of-the-yellow-king"
+page = "87"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder \#111: Dreams of the Yellow King pg 87\
 Living examples of this time-forgotten race may yet exist on distant worlds, or they could be
 resurrected by curious spellcasters. A living being of Ib is not a very dangerous creature, but
 those who gain levels in spellcasting classes can become quite formidable; they overwhelmingly

@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "holy_ice_weapon", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "185"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: no
 Effect: one ice weapon
 Descriptors: cold, good, water
 :::
-
-**Sources:** Advanced Class Guide pg 185
 
 You create a masterwork weapon that has the qualities of ice and holy water. This weapon must be a
 simple weapon or your deity's favored weapon. The weapon deals normal damage for a weapon of that

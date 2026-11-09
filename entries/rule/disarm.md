@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disarm", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "199"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 199
 
 You can attempt to disarm your opponent in place of a melee attack. If you do not have the
 [Improved Disarm](ref/feat/improved-disarm) feat, or a similar ability, attempting to disarm a foe

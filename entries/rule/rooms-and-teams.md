@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rooms_and_teams", path = "json/rules_subsystems02.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "90"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 90
 
 Many players want to run inns, found mercenary companies, build temples, or lead cabals of mages.
 The downtime system allows you to do this by presenting small constituent units: rooms for

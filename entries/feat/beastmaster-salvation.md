@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beastmaster_salvation", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "107"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "If you are adjacent to your animal companion when it attempts a savin
 +++
 
 ## Beastmaster Salvation (Combat)
-
-**Sources:** Ultimate Wilderness pg 107
 
 Your presence grants your companion the toughness and will to resist all manner of threats.\
 **Prerequisites:** Cha 13, [Alertness](ref/feat/alertness),

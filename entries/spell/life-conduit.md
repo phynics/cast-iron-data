@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "life_conduit", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "233"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Spell resistance: no
 Target: you
 Subschool: Healing
 :::
-
-**Sources:** Ultimate Combat pg 233
 
 You utilize life conduit to share hit points with your eidolon. While this spell is active, you can
 spend a swift action to transfer 1d6 hit points between you and your eidolon, either taking damage

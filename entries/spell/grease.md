@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grease", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "291"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: no
 Target: one object or 10-ft. square
 Subschool: Creation
 :::
-
-**Sources:** PRPG Core Rulebook pg 291
 
 A grease spell covers a solid surface with a layer of slippery grease. Any creature in the area when
 the spell is cast must make a successful Reflex save or fall. A creature can walk within or through

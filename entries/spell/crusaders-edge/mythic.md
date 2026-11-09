@@ -6,12 +6,14 @@ source_ids = ["mythic-origins"]
 relations = [
   { kind = "addon", target = "ref/spell/crusaders-edge", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-origins"
+page = "12"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Origins pg 12\
 Whenever you confirm a critical hit against an outsider with the evil subtype, you gain 2d6
 temporary hit points. While wielding this weapon, you gain a +2 sacred bonus on saving throws
 against spells, [spell-like abilities](ref/umr/spell-like-abilities), and special abilities

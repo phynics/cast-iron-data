@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chymists_guidebook", path = "json/equipment_spellbooks.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "125"
 
 [fields]
 kind = "item"
@@ -17,8 +20,6 @@ category = "Spellbooks"
 _The pages of this formula book are carefully varnished. Sprinkled among the formulae are details
 and diagrams of alchemical devices, many of which seem to defy the normal conventions of alchemy and
 physics. The last page contains incomplete notes on the preparation of experimental mutagens._
-
-**Sources:** Ultimate Magic pg 125
 
 **Protection** [Good lock](ref/eq-misc/lock-good) (DC 30)\
 **Value** 2,545 gp

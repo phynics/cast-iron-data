@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "artifacts", path = "json/rules_basics02.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "543"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 543
 
 Artifacts are extremely powerful. Rather than merely another form of magical equipment, they are the
 sorts of legendary relics that whole campaigns can be based on. Each could be the center of a whole

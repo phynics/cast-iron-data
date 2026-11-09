@@ -6,6 +6,9 @@ source_ids = ["pathfinder-71-rasputin-must-die"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snipers_helmet", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "pathfinder-71-rasputin-must-die"
+page = "61"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Sources:** Pathfinder \#71: Rasputin Must Die! pg 61\
 **Aura** faint divination; **CL** 5th\
 **Slot** head; **Price** 9,000 gp; **Weight** 3 lbs.
 

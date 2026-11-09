@@ -6,6 +6,9 @@ source_ids = ["pathfinder-society-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sure_casting", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "pathfinder-society-primer"
+page = "13"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Pathfinder Society Primer pg 13
 
 You gain temporary insight into your enemies' magical defenses. When you next cast a spell before
 the end of the next round, treat your caster level as 5 higher than normal for the purpose of

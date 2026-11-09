@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blight_tundra_blight", path = "json/monsters27.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "45"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ icy stingers._
 
 **Perception:** +24
 
-**Sources:** Bestiary 6 pg 45\
 **Subtype:** Blight, Cold
 
 **Experience points:** 76,800

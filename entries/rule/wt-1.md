@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wt_1", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "224"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 224
 
 ### Table 7-56: Things Found on the Roadside
 

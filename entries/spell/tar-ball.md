@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tar_ball", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "243"
 
 [fields]
 kind = "spell"
@@ -37,8 +40,6 @@ Saving throw: none
 Spell resistance: no
 Effect: ranged attack
 :::
-
-**Sources:** Ultimate Magic pg 243
 
 You create a sticky ball of burning tar that you can hurl at your enemies as a ranged attack. If the
 tar ball strikes, it deals 1d4 points of fire damage + your Strength modifier, and splashes the

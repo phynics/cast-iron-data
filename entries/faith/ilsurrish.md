@@ -6,6 +6,9 @@ source_ids = ["concordance-of-rivals"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ilsurrish", path = "json/faiths4.json" },
 ]
+[[sources]]
+publication = "concordance-of-rivals"
+page = "8"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Il'surrish**
 
 **Sub:** The Wanderer
-
-**Sources:** Concordance of Rivals pg 8
 
 ### Details
 

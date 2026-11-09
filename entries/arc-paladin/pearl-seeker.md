@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/paladin" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
+page = "54"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Detect evil", "Aura of courage", "aura of resolve", "Channel positi
 alters = ["Armor proficiency", "Spells", "Divine bond"]
 +++
 
-**Sources:** Aquatic Adventures pg 54\
 Some paladins are called to their faith by strange empathic visions and dreams that beckon them to
 the oceans and beyond, to right aquatic injustice and search for a glorious gasping and whispering
 pearl they don't understand. Their contact with the strange but benevolent entity sending the dreams

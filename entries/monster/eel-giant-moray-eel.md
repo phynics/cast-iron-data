@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eel_giant_moray_eel", path = "json/monsters09.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "119"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ large teeth and a second set of jaws._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 119\
 **Subtype:** Aquatic
 
 **Experience points:** 1,600

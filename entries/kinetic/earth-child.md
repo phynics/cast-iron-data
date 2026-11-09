@@ -6,6 +6,9 @@ source_ids = ["occult-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "earth_child", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-realms"
+page = "8"
 
 [fields]
 kind = "class_option"
@@ -21,8 +24,6 @@ group = "kineticist-wild-talent"
 **Level:** 3
 
 **Burn:** 0
-
-**Source:** Occult Realms/8
 
 Blending your form with crystal, you have transmuted yourself into something akin to an
 [oread](ref/race/oread). You keep your original racial abilities (including your ability score

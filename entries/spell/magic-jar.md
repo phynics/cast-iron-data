@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "book-of-the-damned", "book-of-the-damned-volume-
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_jar", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "309"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: Will negates; see text
 Spell resistance: yes
 Target: one creature
 :::
-
-**Sources:** PRPG Core Rulebook pg 309
 
 By casting magic jar, you place your soul in a gem or large crystal (known as the magic jar),
 leaving your body lifeless. Then you can attempt to take control of a nearby body, forcing its soul

@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_squirrel", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "207"
+[[sources]]
+publication = "animal-archive"
+page = "31"
 
 [fields]
 kind = "creature"
@@ -41,7 +47,6 @@ its body._
 
 **Senses:** Low-light vision
 
-**Sources:** Ultimate Wilderness pg 207, Animal Archive pg 31\
 **Experience points:** 50
 
 **Armor class:** 18/18/14

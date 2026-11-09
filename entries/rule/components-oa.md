@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "components_oa", path = "json/rules_basics04.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "144"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 144
 
 Psychic magic originates from the distinctive qualities of the caster's composite being, rather than
 through arcane formulae or rote supplication to divine entities. Therefore, psychic spells never

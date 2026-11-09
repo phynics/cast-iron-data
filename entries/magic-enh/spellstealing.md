@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spellstealing", path = "json/magic_enhancements2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "148"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong divination"
 caster_level = "13th"
 +++
 
-**Sources:** Ultimate Equipment pg 148\
 **Aura** strong divination; **CL** 13th\
 **Slot** weapon quality; **Price** +3 bonus; **Weight** -
 

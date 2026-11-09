@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "apallie", path = "json/monsters02.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "30"
 
 [fields]
 kind = "creature"
@@ -39,7 +42,6 @@ appearance._
 
 **Size:** small
 
-**Sources:** Bestiary 5 pg 30\
 **Experience points:** 600
 
 **Armor class:** 15/13/13

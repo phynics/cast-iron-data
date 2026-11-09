@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scholars_ring", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "177"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Equipment pg 177\
 **Aura** moderate conjuration; **CL** 5th\
 **Slot** ring; **Price** 8,700 gp; **Weight** -
 

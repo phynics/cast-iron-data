@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "coordinated_shot", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "144"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "If your ally with this feat is threatening an opponent and is not pro
 +++
 
 ## Coordinated Shot (Combat, Teamwork)
-
-**Sources:** Advanced Class Guide pg 144
 
 Your ranged attacks against an opponent take advantage of your ally's positioning.\
 **Prerequisites:** [Point-Blank Shot](ref/feat/point-blank-shot).\

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-taverns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "implacable", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "inner-sea-taverns"
+page = "59"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "You gain a +2 bonus on saving throws against pain effects. When you a
 +++
 
 ## Implacable (Combat)
-
-**Sources:** Inner Sea Taverns pg 59
 
 You aren't easily fazed, especially when you've been drinking.\
 **Benefit:** You gain a +2 bonus on saving throws against pain effects. When you are

@@ -6,6 +6,9 @@ source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "defensive_grace", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "advanced-class-origins"
+page = "31"
 
 [fields]
 kind = "spell"
@@ -36,8 +39,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Advanced Class Origins pg 31
 
 Each round you can roll an inspiration die without expending a use of inspiration and gain the
 result as a dodge bonus to AC for that round. You are immune to precision damage (including the

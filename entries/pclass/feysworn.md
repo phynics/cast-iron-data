@@ -6,14 +6,15 @@ source_ids = ["the-first-world-realm-of-the-fey"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "feysworn", path = "json/prestige_classes2.json" },
 ]
+[[sources]]
+publication = "the-first-world-realm-of-the-fey"
+page = "8"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d8."
 +++
-
-**Sources:** The First World, Realm of the Fey pg 8
 
 The Eldest appreciate a broad range of talents in their servants. While some of their faithful are
 traditional divine casters, many more are feysworn: adventurers of all sorts who pledge themselves

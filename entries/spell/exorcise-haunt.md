@@ -6,12 +6,14 @@ source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "exorcise_haunt", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "haunted-heroes-handbook"
+page = "16"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Haunted Heroes Handbook pg 16\
 **School** necromancy; **Level** 4\
 **Casting Time** 40 minutes\
 **Components** V, S, M (a glass of wine, nine candles, and rare incense worth 500 gp), F (a lexicon

@@ -6,13 +6,15 @@ source_ids = ["advanced-players-guide", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boreal", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "136"
 
 [fields]
 kind = "class_option"
 group = "sorcerer-bloodline"
 +++
 
-**Sources:** Advanced Player's Guide pg 136\
 Descended from inhabitants of the lands of ice and snow, you count among your ancestors giant-kin,
 troll-born, and frost-rimed spirits. Their savage and raw energies flow down through generations to
 infuse you to the marrow with the chill of the polar wind, crackling auroras, and the long winter's

@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_of_fortification", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "192"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
 :::
-
-**Sources:** Advanced Class Guide pg 192
 
 You create a magical barrier that protects a target's vital areas. When the target is struck by a
 critical hit or a sneak attack, there is a 25% chance that the critical hit or sneak attack is

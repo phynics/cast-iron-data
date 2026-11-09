@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "change_shape", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "291"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Change Shape (Su)
 
-**Sources:** Bestiary 5 pg 291\
 The creature has the ability to assume the appearance of a specific creature or type of creature
 (usually a humanoid), but retains most of its own physical qualities. A creature cannot change shape
 to a form more than one size category smaller or larger than its original form unless noted

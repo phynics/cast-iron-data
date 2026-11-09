@@ -6,6 +6,9 @@ source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scavengers_ring", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "magical-marketplace"
+page = "9"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "7th"
 +++
 
-**Sources:** Magical Marketplace pg 9\
 **Aura** moderate abjuration; **CL** 7th\
 **Slot** ring; **Price** 15,000 gp; **Weight** -
 

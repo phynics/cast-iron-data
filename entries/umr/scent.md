@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scent", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "298"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Scent (Ex)
 
-**Sources:** Bestiary 5 pg 298\
 This special sense allows a creature to detect approaching enemies, sniff out hidden foes, and track
 by sense of smell. Creatures with the scent ability can identify familiar odors just as humans do
 familiar sights.

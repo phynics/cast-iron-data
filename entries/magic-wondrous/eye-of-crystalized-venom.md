@@ -6,6 +6,9 @@ source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eye_of_crystalized_venom", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "potions-and-poisons"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Sources:** Potions and Poisons pg 30\
 **Aura** faint divination; **CL** 3rd\
 **Slot** neck; **Price** 2,250 gp; **Weight** -
 

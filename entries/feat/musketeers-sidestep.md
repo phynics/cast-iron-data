@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "musketeers_sidestep", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "56"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When you use the dodging panache deed, the movement granted by that d
 +++
 
 ## Musketeer's Sidestep (Combat, Panache)
-
-**Sources:** Villain Codex pg 56
 
 You're able to dodge attacks with increased panache.\
 **Prerequisites:** [Dodging panache](ref/swashdeed/dodging-panache) deed,

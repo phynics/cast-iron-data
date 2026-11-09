@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beacon_of_guilt", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "44"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes
 Target: one object
 Descriptors: curse
 :::
-
-**Sources:** Villain Codex pg 44
 
 You place an invisible ward upon an object that is triggered the first time a creature tries to move
 the object from its current location. The next creature to touch the object is cursed to become

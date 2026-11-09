@@ -6,13 +6,15 @@ source_ids = ["occult-adventures", "occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enchantment", path = "json/class_ability_implements.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "53"
 
 [fields]
 kind = "class_option"
 group = "occultist-implement"
 +++
 
-**Sources:** Occult Adventures pg 53\
 Enchantment implements allow the occultist to befuddle the mind and charm his foes.
 
 **Implements**

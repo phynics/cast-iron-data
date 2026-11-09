@@ -6,6 +6,9 @@ source_ids = ["pathfinder-120-vault-of-the-onyx-citadel"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hammer_of_seismic_assault", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "pathfinder-120-vault-of-the-onyx-citadel"
+page = "32"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong evocation"
 caster_level = "15th"
 +++
 
-**Sources:** Pathfinder \#120: Vault of the Onyx Citadel pg 32\
 **Aura** strong evocation; **CL** 15th\
 **Slot** none; **Price** 80,000 gp; **Weight** 5 lbs.
 

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "101"
 
 [fields]
 kind = "archetype"
 replaces = ["Spontaneous casting", "Woodland stride", "trackless step", "Resist nature's lure", "Venom immunity"]
 +++
 
-**Sources:** Advanced Player's Guide pg 101\
 While many druids keep to the wilderness, some make their way within settlements, communing with the
 animals and vermin who live there and speaking for the nature that runs rampant in civilization's
 very cradle.

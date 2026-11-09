@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dance_of_a_hundred_cuts", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "215"
 
 [fields]
 kind = "spell"
@@ -37,8 +40,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Ultimate Magic pg 215
 
 You become a lethal combat dancer, swirling and spinning with grace and precision. You gain a morale
 bonus on melee attack rolls, melee damage rolls, and Acrobatics checks, and to Armor Class. This

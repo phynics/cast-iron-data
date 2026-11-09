@@ -6,6 +6,9 @@ source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ostentatious_weakness", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "12"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When you spend a swift action to attempt a performance combat check, 
 +++
 
 ## Ostentatious Weakness (Combat, Performance)
-
-**Sources:** Inner Sea Combat pg 12
 
 You use knowledge of your hated foes to please onlookers.\
 **Prerequisites:** Base attack bonus +5, [favored enemy](ref/ability/favored-enemy) class feature.\

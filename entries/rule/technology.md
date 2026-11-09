@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "technology", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "160"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 160
 
 One of the most important factors in building a world is its level of technological advancement.
 Technology affects every aspect of the game, from what gear PCs carry to what kinds of adventures a

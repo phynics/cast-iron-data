@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wall_of_brine", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "223"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Effect: wall up to 10 ft./level long and 5 ft./level high (S)
 Subschool: Creation
 Descriptors: water
 :::
-
-**Sources:** Inner Sea Races pg 223
 
 > _The following spell is available to the indicated race or ethnicity: [Merfolk](ref/race/merfolk)_
 

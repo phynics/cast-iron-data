@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "telepathy", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "189"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: no
 Target: you
 Descriptors: mind-affecting
 :::
-
-**Sources:** Occult Adventures pg 189
 
 You can mentally communicate with any other creature within 100 feet that has a language. It is
 possible to address multiple creatures at once telepathically, although maintaining a telepathic

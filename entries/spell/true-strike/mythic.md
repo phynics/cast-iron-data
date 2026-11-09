@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/true-strike", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "110"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 110\
 The affected attack bypasses all [damage reduction](ref/rule/damage-reduction).
 
 _Augmented (2nd):_ If you expend two uses of mythic power, you gain a +10 insight bonus on your

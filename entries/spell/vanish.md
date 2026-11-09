@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/invisibility" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "253"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Target: creature touched
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** Advanced Player's Guide pg 253
 
 This spell functions like [invisibility](ref/spell/invisibility), except the effect only lasts for 1
 round per caster level (maximum of 5 rounds). Like invisibility, the spell immediately ends if the

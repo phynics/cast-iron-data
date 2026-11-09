@@ -6,13 +6,15 @@ source_ids = ["core-rulebook", "inner-sea-primer", "advanced-players-guide", "bl
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "conjuration", path = "json/class_ability_arcane_schools.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "80"
 
 [fields]
 kind = "class_option"
 group = "arcane-school"
 +++
 
-**Sources:** PRPG Core Rulebook pg 80\
 The conjurer focuses on the study of summoning monsters and magic alike to bend to his will.
 
 **Summoner's Charm (Su)**

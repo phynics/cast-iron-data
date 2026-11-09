@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vishkanya_periapt", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "225"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Sources:** Villain Codex pg 225\
 **Aura** moderate necromancy; **CL** 7th\
 **Slot** neck; **Price** 10,000 gp; **Weight** -
 

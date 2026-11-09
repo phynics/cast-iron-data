@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rune_of_rule", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "61"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: Will (harmless)
 Spell resistance: yes
 Target: one living creature
 :::
-
-**Sources:** Adventurer's Guide pg 61
 
 Investigations into the ancient and mysterious traditions of the seven virtues of rule of the lost
 human empire of Azlant, which were later corrupted by the runelords into the more familiar seven

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "book-of-the-damned-volume-2-lords-of-chaos", "b
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "angazhan", path = "json/faiths.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "320"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Angazhan**
 
 **Sub:** The Ravenous King
-
-**Sources:** Inner Sea Gods pg 320
 
 ### Details
 

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/monk" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "41"
 
 [fields]
 kind = "archetype"
 replaces = ["Stunning fist", "and the greed and hatred dwarf racial traits", "The defensive training", "stonecunning", "and weapon familiarity dwarf racial traits", "Wholeness of body"]
 +++
 
-**Sources:** Inner Sea Combat pg 41\
 The ascetic, desert-dwelling dwarves known as the Ouat have eschewed dwarven traditions, whose
 unchanging rigidity, they believe, shackles their people to the past and inhibits self-improvement.
 Shaving their heads, living under the open sky, and practicing arts unfamiliar to the typical

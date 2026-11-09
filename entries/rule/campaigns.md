@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "campaigns", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "18"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 18
 
 A campaign offers something more than a series of adventures. A campaign gives context and depth to
 a group's activities, making them part of a larger world. A properly constructed campaign also

@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "barbed_troll_claws", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "225"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "20 gp"
 weight = "4 lbs."
 +++
 
-**Sources:** Monster Codex pg 225\
 **Price** 20 gp; **Weight** 4 lbs.\
 **Category** Tools
 

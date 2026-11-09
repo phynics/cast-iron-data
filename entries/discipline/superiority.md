@@ -6,13 +6,15 @@ source_ids = ["disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "superiority", path = "json/class_ability_disciplines.json" },
 ]
+[[sources]]
+publication = "disciples-doctrine"
+page = "19"
 
 [fields]
 kind = "class_option"
 group = "psychic-discipline"
 +++
 
-**Sources:** Disciple's Doctrine pg 19\
 You know that you are far better than average creatures of your kind. The more you leverage your
 psychic talents to prove yourself superior, the more powerful you become.
 

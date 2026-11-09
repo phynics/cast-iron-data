@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skillet_common", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "57"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "4 lbs. (common), 2 lbs. (mithral)"
 
 ## Skillet
 
-**Sources:** Ultimate Equipment pg 57\
 **Price** 8 sp (common), 2,001 gp (mithral); **Weight** 4 lbs. (common), 2 lbs. (mithral)
 
 This 8-inch-diameter skillet has a long handle and feet so you can rest it on a fire or hot coals.

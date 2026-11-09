@@ -6,6 +6,12 @@ source_ids = ["artifacts-and-legends", "inner-sea-world-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blackaxe", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "artifacts-and-legends"
+page = "12"
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "299"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong conjuration"
 caster_level = "20th"
 +++
 
-**Sources:** Artifacts and Legends pg 12, Inner Sea World Guide pg 299\
 **Aura** strong conjuration; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 50 lbs.
 

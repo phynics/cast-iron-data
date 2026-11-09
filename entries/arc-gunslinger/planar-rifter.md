@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/gunslinger" },
 ]
+[[sources]]
+publication = "plane-hoppers-handbook"
+page = "6"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Deadeye deed", "Dead shot deed", "Menacing shot deed", "Death's sho
 alters = ["Grit"]
 +++
 
-**Sources:** Plane-Hopper's Handbook pg 6\
 Followers of the daemonic harbinger [Cixyron](ref/faith/cixyron) invented a method of harvesting
 pieces from Abaddon, absorbing some of the energy into themselves and condensing other portions of
 it into bullets they could fire from their guns. While these methods originated among Cixyron's

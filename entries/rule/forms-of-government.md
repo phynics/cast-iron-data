@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "forms_of_government", path = "json/rules_campaign_types05.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "231"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 231
 
 The kingdom-building rules presume your government is a feudal monarchy; the leaders are appointed
 for life (either by themselves or an outside agency such as a nearby monarch), and pass their titles

@@ -6,6 +6,12 @@ source_ids = ["pathfinder-39-the-city-of-seven-spears", "bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "piranha_swarm", path = "json/monsters19.json" },
 ]
+[[sources]]
+publication = "pathfinder-39-the-city-of-seven-spears"
+page = "82"
+[[sources]]
+publication = "bestiary-6"
+page = "129"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ seeming restless and bloodthirsty._
 
 **Perception:** +5
 
-**Sources:** Pathfinder \#39: The City of Seven Spears pg 82, Bestiary 6 pg 129\
 **Subtype:** Aquatic, Swarm
 
 **Size:** tiny

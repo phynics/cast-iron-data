@@ -6,6 +6,9 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "villager_village_idiot", path = "json/npcs.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "308"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "1/3"
 
 **Challenge rating:** 1/3
 
-**Sources:** GameMastery Guide pg 308\
 **XP** 135\
 Human [commoner](ref/npcclass/commoner) 1\
 N Medium humanoid\

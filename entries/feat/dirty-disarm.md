@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dirty_disarm", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "14"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You can attempt to perform a dirty trick and a disarm maneuver togeth
 +++
 
 ## Dirty Disarm (Combat)
-
-**Sources:** Dirty Tactics Toolbox pg 14
 
 You can pull dirty tricks while disarming your foes.\
 **Prerequisites:** Int 13, [Combat Expertise](ref/feat/combat-expertise),

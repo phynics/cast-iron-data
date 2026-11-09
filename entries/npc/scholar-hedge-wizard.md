@@ -6,6 +6,9 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scholar_hedge_wizard", path = "json/npcs5.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "296"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "4"
 
 **Challenge rating:** 4
 
-**Sources:** GameMastery Guide pg 296\
 **XP** 1,200\
 Human [commoner](ref/npcclass/commoner) 2/[wizard](ref/class/wizard) 3\
 N Medium humanoid\

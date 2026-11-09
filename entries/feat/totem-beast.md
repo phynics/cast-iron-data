@@ -6,14 +6,15 @@ source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "totem_beast", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "advanced-class-origins"
+page = "27"
 
 [fields]
 kind = "feat"
 prerequisites = "Wis 13, animal companion class feature."
 benefit = "Select one animal aspect from the list presented in the hunter class's animal focus class feature. Your animal companion has natural coloration suggestive of this aspect - a bear might have a dark spot in the shape of a bat, or a hawk might have unusual tiger striping in its feathers. Your animal companion gains the benefits of the selected animal aspect, treating its Hit Dice as its effective hunter level for this ability. This bonus doesn't stack if the animal companion is already under the benefit of the same animal aspect because of the actual class feature."
 +++
-
-**Sources:** Advanced Class Origins pg 27
 
 Your animal companion becomes spiritually connected to an animal totem that has a spiritual
 significance for you or your background, such as a Shoanti clan's animal totem.\

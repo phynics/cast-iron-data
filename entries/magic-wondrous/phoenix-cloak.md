@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phoenix_cloak", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "156"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Sources:** Mythic Adventures pg 156\
 **Aura** moderate transmutation; **CL** 9th\
 **Slot** shoulders; **Price** 55,000 gp; **Weight** 7 lbs.
 

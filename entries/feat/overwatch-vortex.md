@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "overwatch_vortex", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "15"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using the Overwatch Style, as a full-round action you can ready
 +++
 
 ## Overwatch Vortex (Combat)
-
-**Sources:** Weapon Master's Handbook pg 15
 
 You are ready to respond to many more of your foes' actions.\
 **Prerequisites:** [Overwatch Style](ref/feat/overwatch-style),

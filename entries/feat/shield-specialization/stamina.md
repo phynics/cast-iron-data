@@ -6,11 +6,13 @@ source_ids = ["pathfinder-unchained"]
 relations = [
   { kind = "addon", target = "ref/feat/shield-specialization", label = "stamina" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "131"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder Unchained pg 131\
 When you are the target of a combat maneuver, you can spend 2 stamina points to add your shield's
 enhancement bonus to your CMD for that combat maneuver.

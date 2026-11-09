@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_ward_tower_shield", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "133"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration"
 caster_level = "15th"
 +++
 
-**Sources:** Ultimate Equipment pg 133\
 **Aura** strong abjuration; **CL** 15th\
 **Slot** shield; **Price** 25,180 gp; **Weight** 15 lbs.
 

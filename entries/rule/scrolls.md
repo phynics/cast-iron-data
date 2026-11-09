@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scrolls", path = "json/rules_basics02.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "490"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 490
 
 A scroll is a spell (or collection of spells) that has been stored in written form. A spell on a
 scroll can be used only once. The writing vanishes from the scroll when the spell is activated.

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/arcanist" },
 ]
+[[sources]]
+publication = "occult-origins"
+page = "22"
 
 [fields]
 kind = "archetype"
 replaces = ["The 1st-level arcanist exploit", "Consume spells", "The 9th-level arcanist exploit"]
 +++
 
-**Sources:** Occult Origins pg 22\
 Based out of Varisia's Twilight Academy, the secretive Harrowed Society focuses its efforts on the
 intellectual study of the region's supernatural quirks and hidden history, and embraces the use of
 the [harrow deck](ref/eq-misc/harrow-deck) to examine the world's occult mysteries.

@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "herd_animal_bison", path = "json/monsters13.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "174"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ shoulders._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 174\
 **Experience points:** 1,200
 
 **Armor class:** 17/9/17

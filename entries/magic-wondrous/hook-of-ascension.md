@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hook_of_ascension", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "129"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Villain Codex pg 129\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** none; **Price** 12,500 gp; **Weight** 1/2 lb.
 

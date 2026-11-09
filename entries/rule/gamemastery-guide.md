@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gamemastery_guide", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "4"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 4
 
 You might already know what a Game Master is. But if you don't know, a Game Master (or GM) is the
 Pathfinder RPG player who arbitrates the rules of the game and controls the actions of every game

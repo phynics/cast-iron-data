@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/paladin" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "62"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Divine grace", "Mercy", "Lay on hands", "channel positive energy", 
 alters = ["Divine bond"]
 +++
 
-**Sources:** Ultimate Combat pg 62\
 The empyreal knight dedicates her life to serving the celestial beings that guide mortals in their
 struggle toward the light.
 

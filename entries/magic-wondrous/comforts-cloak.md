@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "comforts_cloak", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "265"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration and necromancy"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Equipment pg 265\
 **Aura** faint abjuration and necromancy; **CL** 5th\
 **Slot** shoulders; **Price** 15,600 gp; **Weight** 1 lb.
 

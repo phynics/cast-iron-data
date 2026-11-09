@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "full_plate_of_the_corpse", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "211"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Sources:** Advanced Class Guide pg 211\
 **Aura** faint abjuration; **CL** 5th\
 **Slot** armor; **Price** 35,650 gp; **Weight** 50 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "twisted_futures", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "giant-hunters-handbook"
+page = "27"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Saving throw: Will negates
 Spell resistance: yes
 Target: one creature/level, no two of which can be more than 30 ft. apart
 :::
-
-**Sources:** Giant Hunter's Handbook pg 27
 
 By rearranging the threads of fate, you disrupt fortunate outcomes for other creatures. A creature
 affected by this spell is unable to benefit from effects that grant the ability to roll multiple

@@ -6,6 +6,9 @@ source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unseen_engineers", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "kobolds-of-golarion"
+page = "27"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: no
 Effect: a team of tiny, invisible engineers
 Subschool: Creation
 :::
-
-**Sources:** Kobolds of Golarion pg 27
 
 You conjure an invisible team of tiny engineers to construct a trap at alarming speed. Originating
 at your location, the team must remain within range of you or the spell ends. The engineers

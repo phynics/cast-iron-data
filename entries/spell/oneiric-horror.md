@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oneiric_horror", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "179"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Target: one living creature
 Subschool: Phantasm
 Descriptors: mind-affecting
 :::
-
-**Sources:** Occult Adventures pg 179
 
 You cause the subject to believe it is being attacked by a creature out of its nightmares. Each
 round, the subject makes a full-attack action against the creature. A flying creature can still

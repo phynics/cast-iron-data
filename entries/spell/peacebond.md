@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat", "ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "peacebond", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "238"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: Will negates (object)
 Spell resistance: yes (object)
 Target: one sheathed or slung weapon
 :::
-
-**Sources:** Ultimate Combat pg 238
 
 You lock a weapon in place on its owner's body, or within the weapon's sheath or holster. Anyone who
 then tries to draw the weapon must spend a standard action and succeed at a Strength check (DC equal

@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "buildings7", path = "json/rules_subsystems03.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "107"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 107
 
 ### Temple
 

@@ -6,6 +6,9 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dungeon_torturer", path = "json/npcs2.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "271"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "5"
 
 **Challenge rating:** 5
 
-**Sources:** GameMastery Guide pg 271\
 **XP** 1,600\
 Human [expert](ref/npcclass/expert) 5/[fighter](ref/class/fighter) 2\
 NE Medium humanoid\

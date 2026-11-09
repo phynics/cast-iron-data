@@ -6,6 +6,9 @@ source_ids = ["lost-treasures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_the_weary_sky", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "lost-treasures"
+page = "49"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ aura = "moderate abjuration and enchantment"
 caster_level = "7th"
 +++
 
-**Sources:** Lost Treasures pg 49\
 **Aura** moderate abjuration and enchantment; **CL** 7th\
 **Slot** ring; **Price** 14,800 gp
 

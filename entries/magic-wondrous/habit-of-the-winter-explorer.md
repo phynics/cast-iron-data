@@ -6,6 +6,9 @@ source_ids = ["pathfinder-70-the-frozen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "habit_of_the_winter_explorer", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "pathfinder-70-the-frozen-stars"
+page = "62"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration and transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Pathfinder \#70: The Frozen Stars pg 62\
 **Aura** faint abjuration and transmutation; **CL** 3rd\
 **Slot** body; **Price** 13,380 gp; **Weight** 7 lbs.
 

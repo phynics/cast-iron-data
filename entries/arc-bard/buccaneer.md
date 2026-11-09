@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "pirates-of-the-inner-sea"
+page = "22"
 
 [fields]
 kind = "archetype"
 replaces = ["Bardic knowledge", "Suggestion", "Lore master", "Mass suggestion"]
 +++
 
-**Sources:** Pirates of the Inner Sea pg 22\
 A buccaneer is a pirate who specializes in raiding ships and port towns, but who leaves his victims
 alive whenever possible. Buccaneers are flashy, debonair pirates who enjoy the excitement and
 rewards of piracy, but prefer not to kill; they are welcome on ships whose captains prefer to avoid

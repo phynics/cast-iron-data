@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disengaging_shot", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "96"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever you use Disengaging Feint or Disengaging Flourish, you can m
 +++
 
 ## Disengaging Shot (Combat)
-
-**Sources:** Ultimate Combat pg 96
 
 You make one last attack before beating a hasty retreat.\
 **Prerequisites:** Int 13, [Combat Expertise](ref/feat/combat-expertise),

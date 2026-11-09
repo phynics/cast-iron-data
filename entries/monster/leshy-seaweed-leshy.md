@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "leshy_seaweed_leshy", path = "json/monsters34.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "180"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ made from seashells._
 
 **Size:** small
 
-**Sources:** Bestiary 3 pg 180\
 **Subtype:** Aquatic, Leshy, Shapechanger
 
 **Experience points:** 800

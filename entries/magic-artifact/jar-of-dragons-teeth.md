@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jar_of_dragons_teeth", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "337"
 
 [fields]
 kind = "item"
@@ -16,8 +19,6 @@ slot = "none"
 aura = "strong transmutation"
 caster_level = "20th"
 +++
-
-**Sources:** Ultimate Equipment pg 337
 
 **Aura** strong transmutation; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 3 lbs.

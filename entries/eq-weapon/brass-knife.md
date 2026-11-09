@@ -6,14 +6,15 @@ source_ids = ["pirates-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brass_knife", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "pirates-of-the-inner-sea"
+page = "19"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "1 lb."
 +++
-
-**Sources:** Pirates of the Inner Sea pg 19
 
 Pirates often carry long brass knives for working aboard a ship. Though brass doesn't hold as sharp
 an edge as steel, it isn't vulnerable to rust like steel is. In a pinch, a pirate can use his brass

@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "contingent_scroll", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "178"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: you
 :::
-
-**Sources:** Advanced Class Guide pg 178
 
 You transfer the power of a scroll to the target so that it comes into effect under some condition
 you dictate. Casting this spell destroys the scroll, but allows the spell in it to be triggered in a

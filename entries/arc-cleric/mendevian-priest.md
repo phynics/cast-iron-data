@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cleric" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "36"
 
 [fields]
 kind = "archetype"
 replaces = ["Domain"]
 +++
 
-**Sources:** Inner Sea Magic pg 36\
 People of high and low character flock to Mendev for glory, plunder, or the desire to slay demons
 from the Worldwound. Crusade-minded clerics of [Iomedae](ref/faith/iomedae),
 [Gorum](ref/faith/gorum), and other churches come to Mendev, learn battlefield tactics and the

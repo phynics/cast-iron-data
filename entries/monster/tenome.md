@@ -6,6 +6,12 @@ source_ids = ["bestiary-6", "pathfinder-99-dance-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tenome", path = "json/monsters23.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "262"
+[[sources]]
+publication = "pathfinder-99-dance-of-the-damned"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ freakishly from the palms of its hands._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 6 pg 262, Pathfinder \#99: Dance of the Damned pg 90\
 **Experience points:** 1,200
 
 **Armor class:** 17/13/14

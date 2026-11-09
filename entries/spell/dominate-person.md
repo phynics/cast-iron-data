@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dominate_person", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "274"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Target: one humanoid
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 274
 
 You can control the actions of any humanoid creature through a telepathic link that you establish
 with the subject's mind.

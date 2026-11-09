@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "undetectable_alignment", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "363"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Saving throw: Will negates (object)
 Spell resistance: yes (object)
 Target: one creature or object
 :::
-
-**Sources:** PRPG Core Rulebook pg 363
 
 An undetectable alignment spell conceals the alignment of an object or a creature from all forms of
 divination.

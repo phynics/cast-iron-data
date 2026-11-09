@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "103"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Woodland stride", "Wild shape", "Venom immunity"]
 alters = ["Nature bond", "Wild empathy"]
 +++
 
-**Sources:** Advanced Player's Guide pg 103\
 A shaman with this totem calls upon the cunning serpent, the stealthy deceiver who draws the weak
 minded in and strikes while they are unaware. Some hate its treacherous nature, while others praise
 its thoughtful pragmatism.

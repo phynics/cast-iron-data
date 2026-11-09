@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golembane_scarab", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "258"
+[[sources]]
+publication = "core-rulebook"
+page = "529"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate divination"
 caster_level = "8th"
 +++
 
-**Sources:** Ultimate Equipment pg 258, PRPG Core Rulebook pg 529\
 **Aura** moderate divination; **CL** 8th\
 **Slot** neck; **Price** 2,500 gp; **Weight** -
 

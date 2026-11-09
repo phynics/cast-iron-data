@@ -6,6 +6,9 @@ source_ids = ["pathfinder-142-gardens-of-gallowspire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mortic_etioling", path = "json/monsters17.json" },
 ]
+[[sources]]
+publication = "pathfinder-142-gardens-of-gallowspire"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ her rictus grin._
 
 **Size:** small
 
-**Sources:** Pathfinder \#142: Gardens of Gallowspire pg 88\
 **Subtype:** Gnome, Mortic
 
 **Experience points:** 9,600

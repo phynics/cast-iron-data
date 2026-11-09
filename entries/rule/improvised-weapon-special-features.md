@@ -6,12 +6,13 @@ source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improvised_weapon_special_features", path = "json/rules_basics02.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "22"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Adventurer's Armory 2 pg 22
 
 Without the appropriate feats, abilities, or magic,
 [improvised weapons](ref/misc/improvised-weapons) generally impart a -4 nonproficiency penalty on

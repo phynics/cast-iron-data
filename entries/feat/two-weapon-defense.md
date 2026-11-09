@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "two_weapon_defense", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "136"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When wielding a double weapon or two weapons (not including natural w
 +++
 
 ## Two-Weapon Defense (Combat)
-
-**Sources:** PRPG Core Rulebook pg 136
 
 You are skilled at defending yourself while dual-wielding.\
 **Prerequisites:** Dex 15, [Two-Weapon Fighting](ref/feat/two-weapon-fighting).\

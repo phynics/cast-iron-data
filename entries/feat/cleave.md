@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cleave", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "119"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "As a standard action, you can make a single attack at your full base 
 +++
 
 ## Cleave (Combat)
-
-**Sources:** PRPG Core Rulebook pg 119
 
 You can strike two adjacent foes with a single swing.\
 **Prerequisites:** Str 13, [Power Attack](ref/feat/power-attack), base attack bonus +1.\

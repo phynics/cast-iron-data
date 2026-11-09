@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "robot_gearsman_robot", path = "json/monsters20.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "207"
+[[sources]]
+publication = "inner-sea-bestiary"
+page = "44"
 
 [fields]
 kind = "creature"
@@ -44,7 +50,6 @@ glass orb for an eye._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 5 pg 207, Inner Sea Bestiary pg 44\
 **Subtype:** Robot
 
 **Experience points:** 1,200

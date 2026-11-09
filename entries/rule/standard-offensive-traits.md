@@ -6,12 +6,13 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "standard_offensive_traits", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "232"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Advanced Race Guide pg 232
 
 **Bite (1 RP):** **Prerequisites:** Small or larger size; **Benefit:** Members of this race gain a
 natural bite attack, dealing damage equivalent to that of a creature

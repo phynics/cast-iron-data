@@ -6,14 +6,15 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kumade_collapsible", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "19"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "4 lbs."
 +++
-
-**Sources:** Melee Tactics Toolbox pg 19
 
 This weapon acts as a [kumade](ref/eq-weapon/kumade), but the handle consists of bamboo sections
 held together by a taut rope running through the center. Releasing the rope is a standard action

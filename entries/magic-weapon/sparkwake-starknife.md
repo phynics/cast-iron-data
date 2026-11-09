@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sparkwake_starknife", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "160"
+[[sources]]
+publication = "advanced-players-guide"
+page = "291"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate evocation"
 caster_level = "8th"
 +++
 
-**Sources:** Ultimate Equipment pg 160, Advanced Player's Guide pg 291\
 **Aura** moderate evocation; **CL** 8th\
 **Slot** none; **Price** 21,324 gp; **Weight** 3 lbs.
 

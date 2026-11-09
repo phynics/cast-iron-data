@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "voice_of_the_wind", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "29"
 
 [fields]
 kind = "class_option"
@@ -25,8 +28,6 @@ group = "kineticist-wild-talent"
 **Saving throw:** none
 
 **Spell resistance:** yes
-
-**Source:** Occult Adventures/29
 
 When you whisper, you can have the wind carry your voice to the ears of anyone you can see within
 120 feet, as if they were one of the targets of a [message](ref/spell/message) spell you cast.

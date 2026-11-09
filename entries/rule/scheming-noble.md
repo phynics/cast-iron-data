@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scheming_noble", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "92"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 92
 
 A scheming noble is an ideal villain for a campaign highlighting political action. This type of
 villain is normally an aristocrat, though typically multiclassed to provide a greater challenge.

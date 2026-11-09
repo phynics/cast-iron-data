@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "earn_xp", path = "json/rules_subsystems02.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "85"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 85
 
 If you've missed a campaign session or otherwise fallen behind in XP compared to the other
 characters, you can spend downtime adventuring to help catch up to the other PCs. Usually downtime

@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aid_another_2", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "197"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 197
 
 In melee combat, you can help a friend attack or defend by distracting or interfering with an
 opponent. If you're in position to make a melee attack on an opponent that is engaging a friend in

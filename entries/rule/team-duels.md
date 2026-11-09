@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "team_duels", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "181"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 181
 
 Team duels are a versatile option that can represent a variety of situations where there are several
 or many people representing one side of a debate, from a team of adventurers attempting to reason

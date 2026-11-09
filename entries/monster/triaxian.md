@@ -6,6 +6,9 @@ source_ids = ["pathfinder-70-the-frozen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "triaxian", path = "json/monsters23.json" },
 ]
+[[sources]]
+publication = "pathfinder-70-the-frozen-stars"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -48,7 +51,6 @@ fur._
 
 **Senses:** Low-light vision
 
-**Sources:** Pathfinder \#70: The Frozen Stars pg 86\
 **Experience points:** 200
 
 **Armor class:** 18/12/16

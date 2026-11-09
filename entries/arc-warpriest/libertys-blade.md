@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/warpriest" },
 ]
+[[sources]]
+publication = "advanced-class-origins"
+page = "24"
 
 [fields]
 kind = "archetype"
 alters = ["Blessings", "Sacred weapon", "Channel energy", "Sacred armor"]
 +++
 
-**Sources:** Advanced Class Origins pg 24\
 There are some who find in the call to freedom something primal and spiritual, even more so than
 other Andorens. These liberty's blades become warpriests of deities who spread freedom, and they
 head to lives of adventure as [Eagle Knights](ref/rule/aff-vangard) or adventurers, championing

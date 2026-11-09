@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mask_of_stony_demeanor", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "246"
+[[sources]]
+publication = "advanced-race-guide"
+page = "149"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate transmutation"
 caster_level = "6th"
 +++
 
-**Sources:** Ultimate Equipment pg 246, Advanced Race Guide pg 149\
 **Aura** moderate transmutation; **CL** 6th\
 **Slot** head; **Price** 8,000 gp; **Weight** 4 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["down-the-blighted-path"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "geomaw", path = "json/monsters11.json" },
 ]
+[[sources]]
+publication = "down-the-blighted-path"
+page = "54"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ sparkling mass of red crystals._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Down the Blighted Path pg 54\
 **tremorsense:** 60
 
 **Experience points:** 3,200

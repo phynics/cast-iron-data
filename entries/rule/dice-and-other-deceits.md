@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dice_and_other_deceits", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "202"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 202
 
 Much of the structure of a Pathfinder game can seem like a foregone conclusion. But in a horror
 game, nothing need be sacred. Consider manipulating the fundamental activities of the game to keep

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cyclops_cyclops_manhunter", path = "json/monsters06.json" },
 ]
+[[sources]]
+publication = "inner-sea-monster-codex"
+page = "18"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ stained with gore serves as a warning for opponents who dare draw closer._
 
 **Senses:** Low-light vision
 
-**Sources:** Inner Sea Monster Codex pg 18\
 **Subtype:** Giant
 
 **Experience points:** 3,200

@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aloof_archer", path = "json/npcs2.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "269"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "6"
 
 **Challenge rating:** 6
 
-**Sources:** NPC Codex pg 269\
 **XP** 2,400\
 Elf [warrior](ref/npcclass/warrior) 8\
 CN Medium humanoid (elf)\

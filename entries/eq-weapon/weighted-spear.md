@@ -6,14 +6,15 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weighted_spear", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "19"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "8 lbs."
 +++
-
-**Sources:** Melee Tactics Toolbox pg 19
 
 This pole has a spear head at one end and a mace head at the other. It can be wielded like a
 standard spear (though it isn't balanced for throwing), or it can be used as a double weapon,

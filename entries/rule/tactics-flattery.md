@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tactics_flattery", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "178"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 178
 
 You ingratiate yourself to your opponent, causing him to either let down his guard or to gain some
 other advantage. While usually deceptive and manipulative, this tactic also covers the actions of

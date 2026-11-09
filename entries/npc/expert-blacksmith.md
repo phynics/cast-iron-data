@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "expert_blacksmith", path = "json/npcs5.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "262"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "4"
 
 **Challenge rating:** 4
 
-**Sources:** NPC Codex pg 262\
 **XP** 1,200\
 Dwarf [expert](ref/npcclass/expert) 6\
 N Medium humanoid (dwarf)\

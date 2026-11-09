@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rose_knights_blade", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "87"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "10th"
 +++
 
-**Sources:** Adventurer's Guide pg 87\
 **Aura** moderate abjuration; **CL** 10th\
 **Slot** none; **Price** 28,015 gp; **Weight** 2 lbs.
 

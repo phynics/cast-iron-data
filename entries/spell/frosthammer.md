@@ -6,6 +6,9 @@ source_ids = ["pathfinder-69-maiden-mother-crone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "frosthammer", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "pathfinder-69-maiden-mother-crone"
+page = "66"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: cold
 :::
-
-**Sources:** Pathfinder \#69: Maiden, Mother, Crone pg 66
 
 > _Priests of [Kostchtchie](ref/faith/kostchtchie) have access to the following spell._
 

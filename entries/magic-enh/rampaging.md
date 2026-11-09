@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rampaging", path = "json/magic_enhancements.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration and transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Armor Master's Handbook pg 28\
 **Aura** faint conjuration and transmutation; **CL** 3rd\
 **Slot** armor quality; **Price** +2 bonus; **Weight** -
 

@@ -6,6 +6,9 @@ source_ids = ["seekers-of-secrets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "revelation", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "seekers-of-secrets"
+page = "17"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Seekers of Secrets pg 17
 
 You gain a brief understanding of the workings of a single puzzle, device, or trap, gaining an
 insight bonus equal to your caster level (maximum +10) on checks to disable, manipulate or solve the

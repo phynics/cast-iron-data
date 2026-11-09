@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blazing_rainbow", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "175"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Spell resistance: no
 Effect: bow or bridge of light
 Descriptors: light
 :::
-
-**Sources:** Advanced Class Guide pg 175
 
 You create a spectrum of multicolored solid light that can be used for one of two effects.
 

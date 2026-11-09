@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "bonus-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "caryatid_column", path = "json/monsters04.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "46"
+[[sources]]
+publication = "bonus-bestiary"
+page = "8"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ rises up to support the ceiling._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 3 pg 46, Bonus Bestiary pg 8\
 **Experience points:** 800
 
 **Armor class:** 14/9/14

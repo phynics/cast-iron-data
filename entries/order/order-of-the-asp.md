@@ -6,13 +6,14 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "order_of_the_asp", path = "json/class_ability_orders.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "34"
 
 [fields]
 kind = "class_option"
 group = "order"
 +++
-
-**Sources:** Adventurer's Guide pg 34
 
 Cavaliers belonging to the order of the asp belong to a cutthroat group where ruthless pragmatism
 and underhanded dealing are the keys to moving up the chain of command. They tend to be brutal,

@@ -6,12 +6,13 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "step_6_skills_and_feats", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "292"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder RPG Bestiary pg 292
 
 Using Table 1-4, determine how many skill ranks your creature has based on its type and Hit Dice.
 Assign these ranks as determined by the creature's concept. A creature's class skills are determined

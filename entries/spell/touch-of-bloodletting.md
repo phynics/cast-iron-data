@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "faiths-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "touch_of_bloodletting", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "243"
+[[sources]]
+publication = "faiths-of-corruption"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -48,8 +54,6 @@ Saving throw: Will negates
 Spell resistance: yes
 Target: living creature touched
 :::
-
-**Sources:** Inner Sea Gods pg 243, Faiths of Corruption pg 29
 
 This spell causes any existing wounds that the target possesses to bleed profusely. If the
 creature's current total hit points are less than its maximum, this spell causes the creature to

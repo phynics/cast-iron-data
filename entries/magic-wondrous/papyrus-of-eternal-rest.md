@@ -6,6 +6,9 @@ source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "papyrus_of_eternal_rest", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "haunted-heroes-handbook"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint necromancy"
 caster_level = "1st"
 +++
 
-**Sources:** Haunted Heroes Handbook pg 31\
 **Aura** faint necromancy; **CL** 1st\
 **Slot** none; **Price** 4,000 gp; **Weight** -
 

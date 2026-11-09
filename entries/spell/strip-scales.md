@@ -6,6 +6,9 @@ source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "strip_scales", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "kobolds-of-golarion"
+page = "27"
 
 [fields]
 kind = "spell"
@@ -42,7 +45,5 @@ Saving throw: Fortitude
 Spell resistance: yes
 Target: one living creature
 :::
-
-**Sources:** Kobolds of Golarion pg 27
 
 You reduce the target's racial natural armor bonus by 1 point per 3 caster levels.

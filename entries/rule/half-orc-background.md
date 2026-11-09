@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "half_orc_background", path = "json/rules_basics03.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "18"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 18
 
 Only rarely the result of a happy union between the humans and orcs that bring them into the world,
 half-orcs are often regarded as monsters. This bleak reality makes those rare half-orcs, cherished

@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "addlemind", path = "json/equipment_poisons.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "9"
 
 [fields]
 kind = "item"
@@ -13,8 +16,6 @@ category = "Poisons"
 price = "75 gp"
 weight = "&mdash;"
 +++
-
-**Sources:** Dirty Tactics Toolbox pg 9
 
 **Price** 75 gp; **Weight** —
 

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deathwatch", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "265"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: none
 Spell resistance: no
 Area: cone-shaped emanation
 :::
-
-**Sources:** PRPG Core Rulebook pg 265
 
 Using the powers of necromancy, you can determine the condition of creatures near death within the
 spell's range. You instantly know whether each creature within the area is dead, fragile (alive and

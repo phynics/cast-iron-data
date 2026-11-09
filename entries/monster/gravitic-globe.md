@@ -6,6 +6,9 @@ source_ids = ["tombs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gravitic_globe", path = "json/monsters12.json" },
 ]
+[[sources]]
+publication = "tombs-of-golarion"
+page = "52"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ flame._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Tombs of Golarion pg 52\
 **Experience points:** 9,600
 
 **Armor class:** 18/8/18

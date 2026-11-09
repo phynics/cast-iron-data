@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nirvana", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "193"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 193
 
 Nirvana is an unbiased paradise existing between the two extremes of Elysium and Heaven. Its
 stunning mountains, rolling hills, and deep forests all match a visitor's expectations of a pastoral

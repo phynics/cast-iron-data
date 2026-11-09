@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloak_of_secrets", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-streets"
+page = "30"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Area: 5-ft.-radius emanation centered on a point in space
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** Heroes of the Streets pg 30
 
 This spell forms an invisible bubble that filters all speech coming from inside the affected area so
 that creatures outside hear a completely different version of the conversation. The bubble also

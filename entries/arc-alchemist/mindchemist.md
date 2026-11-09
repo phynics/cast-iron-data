@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "19"
 
 [fields]
 kind = "archetype"
 replaces = ["Mutagen", "Poison use"]
 +++
 
-**Sources:** Ultimate Magic pg 19\
 While most alchemists use mutagens to boost their physical ability at the cost of mental ability,
 some use alchemy for the opposite purpose - to boost the power of the mind and memory. A mindchemist
 can reach incredible levels of mental acuity, but suffers lingering debilitating effects to his

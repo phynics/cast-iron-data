@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/magic-aura" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "219"
 
 [fields]
 kind = "spell"
@@ -53,8 +56,6 @@ Descriptors: glamer
 :::
 
 ### Greater Magic Aura
-
-**Sources:** Ultimate Intrigue pg 219
 
 If cast on an object, this spell functions as [magic aura](ref/spell/magic-aura), except that if you
 have identified the unique spellcasting signatures of a specific individual with

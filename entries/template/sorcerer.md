@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sorcerer", path = "json/monster_template4.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "248"
 
 [fields]
 kind = "none"
@@ -18,8 +21,6 @@ kind = "none"
 **Challenge rating:** +1, +2 or +3
 
 **Simple:** present
-
-**Source:** Monster Codex/248
 
 [Sorcerer](ref/class/sorcerer) creatures can use a variety of powerful spells and abilities to
 devastate their foes. Select a sorcerer creature's [bloodline](ref/ability/sorcerer-bloodlines) when

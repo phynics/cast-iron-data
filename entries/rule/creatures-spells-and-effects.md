@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "creatures_spells_and_effects", path = "json/rules_opt_alignment01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "100"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 100
 
 Many spells and effects rely on alignment, such as [detect evil](ref/spell/detect-evil),
 [holy](ref/magic-enh/holy) weapons, and [blasphemy](ref/spell/blasphemy). Below are five suggested

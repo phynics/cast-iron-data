@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bridge_assault_large", path = "json/equipment_siege_engines.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "165"
 
 [fields]
 kind = "item"
@@ -14,8 +17,6 @@ weight = "-"
 +++
 
 ## Bridge, assault
-
-**Sources:** Ultimate Combat pg 165
 
 An assault bridge is used to span a ditch, moat, or other gap. Raising an assault bridge requires
 one full-round action per 5 feet of length; up to four creatures may cooperate to raise a bridge.

@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gegenees", path = "json/monsters11.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "118"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ jaw._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 5 pg 118\
 **Subtype:** Giant
 
 **Experience points:** 76,800

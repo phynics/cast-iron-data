@@ -6,6 +6,9 @@ source_ids = ["pathfinder-83-the-slave-trenches-of-hakotep"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sphinx_elder_sphinx", path = "json/monsters39.json" },
 ]
+[[sources]]
+publication = "pathfinder-83-the-slave-trenches-of-hakotep"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ acquired through untold ages of experience._
 
 **Senses:** Darkvision 60 ft., Low-light vision, True seeing
 
-**Sources:** Pathfinder \#83: The Slave Trenches of Hakotep pg 90\
 **Experience points:** 76,800
 
 **Armor class:** 29/7/28

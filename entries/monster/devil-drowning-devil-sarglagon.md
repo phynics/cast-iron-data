@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "pathfinder-60-from-hells-heart"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_drowning_devil_sarglagon", path = "json/monsters07.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "52"
+[[sources]]
+publication = "pathfinder-60-from-hells-heart"
+page = "80"
 
 [fields]
 kind = "creature"
@@ -45,7 +51,6 @@ tentacles._
 
 **Senses:** Darkvision 60 ft., See in darkness, See invisibility
 
-**Sources:** Bestiary 4 pg 52, Pathfinder \#60: From Hell's Heart pg 80\
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **Experience points:** 4,800

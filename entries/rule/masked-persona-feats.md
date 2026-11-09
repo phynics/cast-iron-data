@@ -6,12 +6,13 @@ source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "masked_persona_feats", path = "json/rules_adv_pc01.json" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "13"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Inner Sea Intrigue pg 13
 
 The following feats help a character maintain or gain additional benefits from her masked persona. A
 character must be have an established, uncompromised masked persona to gain the benefits of the

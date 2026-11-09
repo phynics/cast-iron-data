@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "legacy-of-the-first-world"
+page = "6"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Brew Potion", "poison use", "swift poisoning", "poison immunity", "
 alters = ["Bombs"]
 +++
 
-**Sources:** Legacy of the First World pg 6\
 The First World's energies slowly leak into the Material Plane, haphazardly infusing mundane
 reagents with unpredictable power. Those who can harness these unusual substances - called primal
 reagents - walk a fine line between genius and catastrophe.

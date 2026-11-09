@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/medium" },
 ]
+[[sources]]
+publication = "haunted-heroes-handbook"
+page = "23"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Shared seance", "Haunt channeler", "location channel", "connection 
 alters = ["Spirit"]
 +++
 
-**Sources:** Haunted Heroes Handbook pg 23\
 Primarily found among the various tribes of the Mwangi Expanse, uda wendo are powerful mediums who
 are sensitive to the presence and desires of the wendo, powerful and mysterious entities that walk
 Golarion while shaping fate and guiding destiny. Rather than simply communing with the wendo like

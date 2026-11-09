@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/medium" },
 ]
+[[sources]]
+publication = "occult-origins"
+page = "10"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Haunt channeler", "location channel", "connection channel", "propit
 alters = ["Spirit", "Knacks", "taboo"]
 +++
 
-**Sources:** Occult Origins pg 10\
 Normally, storied figures who simply disappear don't form legendary spirits, but the archmage Nex
 long ago created an astral reflection of himself from which he can draw additional power. This echo
 now serves as an appropriate spirit for well-trained mediums to channel. Nex's legendary spirit is

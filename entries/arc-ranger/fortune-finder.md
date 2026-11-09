@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ranger" },
 ]
+[[sources]]
+publication = "blood-of-the-beast"
+page = "29"
 
 [fields]
 kind = "archetype"
 replaces = ["Track", "Hunter's bond", "Woodland stride", "Quarry", "improved quarry", "Master hunter"]
 +++
 
-**Sources:** Blood of the Beast pg 29\
 Vanaras often leave home to seek fortune and sate their curiosity regarding the mysterious lands
 that lie beyond their native territories. The most skilled of these thrillseekers are called
 ba-sadhaks, or fortune-finders. So successful have these canny explorers been at exploring Golarion

@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skinstitch", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "246"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ poking out the seams._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 4 pg 246\
 **Experience points:** 1,600
 
 **Armor class:** 16/9/16

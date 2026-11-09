@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hammer_of_justice", path = "json/npcs5.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "114"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "4"
 
 **Challenge rating:** 4
 
-**Sources:** NPC Codex pg 114\
 **XP** 1,200\
 Dwarf [paladin](ref/class/paladin) of [Torag](ref/faith/torag) 5\
 LG Medium humanoid (dwarf)\

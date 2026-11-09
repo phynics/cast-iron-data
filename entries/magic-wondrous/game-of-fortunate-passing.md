@@ -6,6 +6,9 @@ source_ids = ["pathfinder-80-empty-graves"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "game_of_fortunate_passing", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "pathfinder-80-empty-graves"
+page = "62"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Sources:** Pathfinder \#80: Empty Graves pg 62\
 **Aura** faint evocation; **CL** 5th\
 **Slot** none; **Price** 1,040 gp; **Weight** 2 lbs.
 

@@ -6,6 +6,12 @@ source_ids = ["bestiary-2", "pathfinder-2-the-skinsaw-murders"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lamia_matriarch", path = "json/monsters34.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "175"
+[[sources]]
+publication = "pathfinder-2-the-skinsaw-murders"
+page = "92"
 
 [fields]
 kind = "creature"
@@ -44,7 +50,6 @@ of an immense snake._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 2 pg 175, Pathfinder \#2: The Skinsaw Murders pg 92\
 **Subtype:** Shapechanger
 
 **Experience points:** 4,800

@@ -6,14 +6,15 @@ source_ids = ["pathfinder-26-the-sixfold-trial"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inheritors_crusader", path = "json/prestige_classes2.json" },
 ]
+[[sources]]
+publication = "pathfinder-26-the-sixfold-trial"
+page = "71"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d10."
 +++
-
-**Sources:** Pathfinder \#26: The Sixfold Trial pg 71
 
 Honor, justice, and valor-while many righteous folk believe in these things, a select group of
 Iomedae's champions live and breathe them. It is in their blood and constantly at the forefront of

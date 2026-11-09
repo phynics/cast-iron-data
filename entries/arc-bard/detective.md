@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "81"
 
 [fields]
 kind = "archetype"
 replaces = ["Inspire courage", "Inspire greatness", "Inspire heroics", "Bardic knowledge", "Well-versed", "Versatile performance"]
 +++
 
-**Sources:** Advanced Player's Guide pg 81\
 Piecing together clues and catching the guilty with sheer cleverness, the detective is skilled at
 divining the truth.
 

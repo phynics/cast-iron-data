@@ -6,6 +6,12 @@ source_ids = ["mythic-realms", "pathfinder-24-the-final-wish"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ahriman", path = "json/monsters_unique.json" },
 ]
+[[sources]]
+publication = "mythic-realms"
+page = "48"
+[[sources]]
+publication = "pathfinder-24-the-final-wish"
+page = "76"
 
 [fields]
 kind = "creature"
@@ -47,7 +53,6 @@ echoes from his gaping maw._
 
 **Senses:** Darkvision 60 ft., See in darkness, True seeing
 
-**Sources:** Mythic Realms pg 48, Pathfinder \#24: The Final Wish pg 76\
 **Subtype:** Div, Evil, Extraplanar
 
 **Experience points:** 2,457,600

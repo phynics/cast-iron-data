@@ -6,6 +6,9 @@ source_ids = ["undead-slayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weapon_versatility", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "undead-slayers-handbook"
+page = "25"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When wielding a weapon with which you have Weapon Focus, you can shif
 +++
 
 ## Weapon Versatility (Combat)
-
-**Sources:** Undead Slayer's Handbook pg 25
 
 You can use your favored weapons in unconventional ways.\
 **Prerequisites:** [Weapon Focus](ref/feat/weapon-focus), base attack bonus +1.\

@@ -6,14 +6,21 @@ source_ids = ["ranged-tactics-toolbox", "adventurers-armory", "ultimate-equipmen
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hunga_munga", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "0"
+[[sources]]
+publication = "adventurers-armory"
+page = "3"
+[[sources]]
+publication = "ultimate-equipment"
+page = "19"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "3 lbs."
 +++
-
-**Sources:** Ranged Tactics Toolbox pg 0, Adventurer's Armory pg 3, Ultimate Equipment pg 19
 
 Also called a mambele, danisco, goleyo, njiga, or any of many lesser-known names, this three-bladed
 dagger is intended for throwing but can be used as a melee weapon. Though the basic three-blade

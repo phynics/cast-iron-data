@@ -6,13 +6,26 @@ source_ids = ["inner-sea-races", "bestiary-4", "advanced-race-guide", "dragon-em
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kitsune", path = "json/races2.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "245"
+[[sources]]
+publication = "bestiary-4"
+page = "175"
+[[sources]]
+publication = "advanced-race-guide"
+page = "192"
+[[sources]]
+publication = "dragon-empires-gazetteer"
+page = "11"
+[[sources]]
+publication = "dragon-empires-primer"
+page = "4"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Inner Sea Races pg 245, Bestiary 4 pg 175, Advanced Race Guide pg 192, Dragon Empires
-Gazetteer pg 11, Dragon Empires Primer pg 4\
 Kitsune, or fox folk, are vulpine shapeshifters known for their love of both trickery and art.
 Kitsune possess two forms: that of an attractive human of slender build with salient eyes, and their
 true form of an anthropomorphic fox. Despite an irrepressible penchant for deception, kitsune prize

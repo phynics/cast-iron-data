@@ -6,6 +6,9 @@ source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hungry_darkness", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "56"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: yes (see text)
 Area: 60-ft.-radius spread
 Descriptors: darkness, force
 :::
-
-**Sources:** Inner Sea Magic pg 56
 
 This spell creates an area of intense blackness, as deeper darkness, but filled with unseen chewing
 teeth and ravenous maws. Any creatures beginning its turn within the hungry darkness is gnawed and

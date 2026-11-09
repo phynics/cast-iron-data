@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weapon_material_mastery", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "23"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "While wielding an appropriate melee weapon, you gain the following sp
 +++
 
 ## Weapon Material Mastery (Weapon Mastery)
-
-**Sources:** Weapon Master's Handbook pg 23
 
 You can perform impressive deeds with weapons made from peculiar materials.\
 **Prerequisites:** Base attack bonus +7, weapon training class feature with a melee weapon.\

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychopomp_ahmuuth", path = "json/monsters19.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "303"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ shields._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Spiritsense
 
-**Sources:** Inner Sea Gods pg 303\
 **Subtype:** Extraplanar, Psychopomp
 
 **Experience points:** 1,200

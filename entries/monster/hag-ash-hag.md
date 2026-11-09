@@ -6,6 +6,9 @@ source_ids = ["cheliax-the-infernal-empire", "blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hag_ash_hag", path = "json/monsters33.json" },
 ]
+[[sources]]
+publication = "cheliax-the-infernal-empire"
+page = "57"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ peppered with globs of what appear to be ashes._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Cheliax, the Infernal Empire pg 57\
 **Experience points:** 1,600
 
 **Armor class:** 17/11/16

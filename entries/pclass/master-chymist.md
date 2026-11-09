@@ -6,14 +6,15 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "master_chymist", path = "json/prestige_classes2.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "267"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d10."
 +++
-
-**Sources:** Advanced Player's Guide pg 267
 
 When alchemists blithely use mutagens to turn themselves into hulking creatures of muscle and
 reflex, civilized folk often turn their heads and mutter that such transformations must have a

@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "leadership_role_skills", path = "json/rules_campaign_types05.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "232"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 232
 
 Each leadership role provides bonuses to kingdom statistics based on one of the leader's ability
 scores. The GM may want to allow a leader's ranks in a relevant skill (such as Diplomacy or

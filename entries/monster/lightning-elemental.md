@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lightning_elemental", path = "json/monsters09.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "116"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ charged with bolts of lightning._
 
 **Size:** small
 
-**Sources:** Bestiary 2 pg 116\
 **Subtype:** Air, Elemental, Extraplanar
 
 **Experience points:** 400

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-43-haunting-of-harrowstone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beheaded_giant_beheaded", path = "json/monsters03.json" },
 ]
+[[sources]]
+publication = "pathfinder-43-haunting-of-harrowstone"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -39,7 +42,6 @@ graying teeth clattering slightly as it bobs in the air._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#43: Haunting of Harrowstone pg 82\
 **Type:** undead
 
 **Experience points:** 600

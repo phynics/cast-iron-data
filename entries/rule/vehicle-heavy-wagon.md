@@ -6,12 +6,14 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vehicle_heavy_wagon", path = "json/rules_rulesets02.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "184"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Ultimate Combat pg 184\
 Huge land vehicle\
 **Squares** 8 (10 ft. by 20 ft.; 5 feet high); **Cost** 100 gp
 

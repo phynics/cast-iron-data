@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "out_of_the_sun", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "117"
+[[sources]]
+publication = "people-of-the-sands"
+page = "9"
 
 [fields]
 kind = "feat"
@@ -16,8 +22,6 @@ special = "If you have the Improved Feint feat, you can feint with Out of the Su
 +++
 
 ## Out of the Sun (Teamwork)
-
-**Sources:** Ultimate Wilderness pg 117, People of the Sands pg 9
 
 You and your allies use the sun's glare to your advantage.\
 **Prerequisites:** Bluff 3 ranks, Stealth 3 ranks.\

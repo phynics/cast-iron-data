@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "subversive_vest_vestment", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "234"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "1 lb. (vest), 2 lbs. (vestment)"
 
 ## Subversive vest
 
-**Sources:** Ultimate Intrigue pg 234\
 **Price** 45 gp (vest), 90 gp (vestment); **Weight** 1 lb. (vest), 2 lbs. (vestment)
 
 Subversive vests are tailored to the pinnacle of courtly fashion, yet have strategically placed

@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "old_sailor", path = "json/npcs.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "260"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "1/2"
 
 **Challenge rating:** 1/2
 
-**Sources:** NPC Codex pg 260\
 **XP** 200\
 Elf [expert](ref/npcclass/expert) 2\
 CN Medium humanoid (elf)\

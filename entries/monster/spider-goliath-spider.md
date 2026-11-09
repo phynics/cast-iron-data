@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spider_goliath_spider", path = "json/monsters39.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "252"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ fangs._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 4 pg 252\
 **tremorsense:** 60
 
 **Type:** vermin

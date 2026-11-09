@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scurrying_swarmer", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "23"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can use your swarming racial trait to enter the square of any wil
 +++
 
 ## Scurrying Swarmer (Combat)
-
-**Sources:** Dirty Tactics Toolbox pg 23
 
 You abandon all notion of personal space when in danger, scurrying about your allies in search of
 the best vantage point from which to strike at your foes.\

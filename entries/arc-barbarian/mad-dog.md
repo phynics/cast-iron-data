@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/barbarian" },
 ]
+[[sources]]
+publication = "animal-archive"
+page = "7"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["2nd, 6th, 10th, 14th, and 18th level rage powers", "Uncanny dodge",
 alters = ["Rage"]
 +++
 
-**Sources:** Animal Archive pg 7\
 Though named for the wild savages who fight alongside rabid dogs, mad dogs employ all manner of
 beasts as their battle brethren.
 

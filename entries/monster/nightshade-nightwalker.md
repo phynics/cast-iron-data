@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nightshade_nightwalker", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "201"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ arms end in massive blades._
 
 **Senses:** Darksense, Darkvision 60 ft., Detect magic, Low-light vision
 
-**Sources:** Bestiary 2 pg 201\
 **Subtype:** Extraplanar, Nightshade
 
 **Type:** undead

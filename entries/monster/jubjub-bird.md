@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jubjub_bird", path = "json/monsters34.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "157"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ rest of its body is bare and scaly._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Bestiary 3 pg 157\
 **Experience points:** 51,200
 
 **Armor class:** 31/11/28

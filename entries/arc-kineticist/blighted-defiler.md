@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/kineticist" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "62"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Internal buffer", "Elemental defense", "Omnikinesis"]
 alters = ["Alignment", "Gather power", "The key ability score of wild talents", "elemental overflow"]
 +++
 
-**Sources:** Ultimate Wilderness pg 62\
 A few kineticists have developed the ability to steal the life force from the surrounding land in
 order to infuse themselves with unnatural strength beyond their bodies' normal capabilities.
 

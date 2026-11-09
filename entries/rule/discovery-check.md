@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "discovery_check", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "102"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 102
 
 Each PC who attempts a discovery check rolls separately, even if multiple PCs attempt to discover
 information about the same NPC during the same phase. This represents the PCs forming their own

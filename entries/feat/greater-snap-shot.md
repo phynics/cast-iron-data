@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_snap_shot", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "103"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever you make an attack of opportunity using a ranged weapon and 
 +++
 
 ## Greater Snap Shot (Combat)
-
-**Sources:** Ultimate Combat pg 103
 
 You can prey on any gap in your foe's guard with impunity, and with even greater range.\
 **Prerequisites:** Dex 17, [Improved Snap Shot](ref/feat/improved-snap-shot),

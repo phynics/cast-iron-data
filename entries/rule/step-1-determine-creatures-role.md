@@ -6,12 +6,13 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "step_1_determine_creatures_role", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "297"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder RPG Bestiary pg 297
 
 When adding class levels to a creature, the first step is to determine what role the base creature
 fulfills. There are three basic roles into which a creature might fall. A creature can fall into

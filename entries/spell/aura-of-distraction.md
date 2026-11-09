@@ -6,6 +6,9 @@ source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aura_of_distraction", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "10"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: yes
 Area: 20-ft.-radius emanation centered on you
 Descriptors: mind-affecting
 :::
-
-**Sources:** Psychic Anthology pg 10
 
 You emit an aura of subsonic noise and mental imagery that makes concentrating difficult. Any
 creature within the aura that fails its save takes a -5 penalty on

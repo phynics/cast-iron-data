@@ -6,6 +6,9 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mercenary_sellsword", path = "json/npcs7.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "283"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "7"
 
 **Challenge rating:** 7
 
-**Sources:** GameMastery Guide pg 283\
 **XP** 3,200\
 Human [fighter](ref/class/fighter) 8\
 N Medium humanoid\

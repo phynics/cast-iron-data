@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "legacy-of-dragons"
+page = "12"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["2nd-, 12th-, 16th-level discoveries", "Throw Anything", "Poison res
 alters = ["Mutagen"]
 +++
 
-**Sources:** Legacy of Dragons pg 12\
 For alchemists, the key to effective mixtures lies in potent ingredients, and what could be more
 formidable than the blood of wyrms? The dragonblood chymists of Kaer Maga specialize in the reckless
 distillation of extracts and elixirs that allow them to experience the might of a dragon, however

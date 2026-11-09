@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_items_gg", path = "json/rules_gm03.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "105"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 105
 
 Magic items are an integral part of treasure calculation in the Pathfinder RPG. The system
 determines a baseline treasure haul per character for each level, assuming that most of the treasure

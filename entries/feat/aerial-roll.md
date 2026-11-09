@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aerial_roll", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "blood-of-the-ancients"
+page = "28"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can perform a defensive roll while in the air. As an immediate ac
 +++
 
 ## Aerial Roll (Combat)
-
-**Sources:** Blood of the Ancients pg 28
 
 By spinning through the air, you are able to avoid your opponents' attacks.\
 **Prerequisites:** Fly 10 ranks.\

@@ -6,6 +6,9 @@ source_ids = ["bestiary", "blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hag_sea_hag", path = "json/monsters33.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "243"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ frame._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 243\
 **Subtype:** Aquatic
 
 **Experience points:** 1,200

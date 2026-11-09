@@ -6,6 +6,9 @@ source_ids = ["ranged-tactics-toolbox", "ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ear_trumpet_common", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "20"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "2 lbs. (common), 2 lbs. (masterwork)"
 
 ## Ear trumpet
 
-**Sources:** Ranged Tactics Toolbox pg 20\
 **Price** 25 gp (common), 100 gp (masterwork); **Weight** 2 lbs. (common), 2 lbs. (masterwork)
 
 This foot-long brass funnel amplifies sounds entering through the broad end for anyone listening at

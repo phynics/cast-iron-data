@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ranger" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "129"
 
 [fields]
 kind = "archetype"
 replaces = ["Hunter's bond", "Camouflage"]
 +++
 
-**Sources:** Advanced Player's Guide pg 129\
 Some rangers nurture a connection with the spirits that reside in all things. By communing with
 these spirits, the spirit ranger can gain glimpses of things to come. A spirit ranger has the
 following class features.

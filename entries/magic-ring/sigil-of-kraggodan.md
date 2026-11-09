@@ -6,6 +6,9 @@ source_ids = ["pathfinder-118-siege-of-stone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sigil_of_kraggodan", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "pathfinder-118-siege-of-stone"
+page = "41"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "10th"
 +++
 
-**Sources:** Pathfinder \#118: Siege of Stone pg 41\
 **Aura** moderate abjuration; **CL** 10th\
 **Slot** ring; **Price** 16,000 gp; **Weight** -
 

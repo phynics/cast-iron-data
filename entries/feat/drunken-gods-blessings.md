@@ -6,14 +6,15 @@ source_ids = ["inner-sea-taverns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drunken_gods_blessings", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "inner-sea-taverns"
+page = "58"
 
 [fields]
 kind = "feat"
 prerequisites = "Worshiper of Cayden Cailean."
 benefit = "When you have had at least a number of drinks equal to your Constitution modifier (or get drunk or soused) in a tavern, once within the following 24 hours, you can gain the benefits of remove paralysis as a free action. Alternatively, you can choose one of the following benefits depending on the type of bar you patronized. At the GM's discretion, other types of taverns might grant other benefits."
 +++
-
-**Sources:** Inner Sea Taverns pg 58
 
 Cayden Cailean smiles upon you when you visit his most favored temples: taverns.\
 **Prerequisites:** Worshiper of [Cayden Cailean](ref/faith/cayden-cailean).\

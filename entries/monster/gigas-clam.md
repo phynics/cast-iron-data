@@ -6,6 +6,9 @@ source_ids = ["pathfinder-60-from-hells-heart"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gigas_clam", path = "json/monsters12.json" },
 ]
+[[sources]]
+publication = "pathfinder-60-from-hells-heart"
+page = "64"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ instead of a face, it has a singular massive maw filled with rows of ravenous te
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#60: From Hell's Heart pg 64\
 **Subtype:** Aquatic
 
 **Experience points:** 12,800

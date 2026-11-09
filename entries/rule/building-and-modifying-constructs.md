@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "building_and_modifying_constructs", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "111"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 111
 
 The [Craft Construct](ref/feat/craft-construct) feat allows a spellcaster to create all manner of
 permanent constructs in a process much like magic item creation. Each construct has a purchase price

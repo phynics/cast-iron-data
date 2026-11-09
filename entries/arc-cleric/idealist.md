@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cleric" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "15"
 
 [fields]
 kind = "archetype"
 alters = ["Spontaneous casting", "Channel energy"]
 +++
 
-**Sources:** Planar Adventures pg 15\
 In the Great Beyond, belief is power. Idealist clerics are personifications of this power, each
 embracing the purest ideal of his deity's realm. In doing so an idealist becomes a powerful conduit,
 gaining the power to channel the essence of his deity's plane.

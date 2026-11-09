@@ -6,6 +6,9 @@ source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "infiltrator", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "spymasters-handbook"
+page = "15"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Once per day when you succeed at a saving throw to negate a divinatio
 +++
 
 ## Infiltrator (Story)
-
-**Sources:** Spymaster's Handbook pg 15
 
 You have sacrificed your true identity in order to achieve your goal.\
 **Prerequisites:** Must have adopted an assumed or secret identity associated with an enemy

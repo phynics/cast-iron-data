@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cape_of_free_will_5_6w", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "148"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "7th"
 
 ## Cape of Free Will
 
-**Sources:** Mythic Adventures pg 148\
 **Aura** moderate abjuration; **CL** 7th\
 **Slot** shoulders; **Price** 1,500 gp (+1, +2W), 6,000 gp (+2, +3W), 13,500 gp (+3, +4W), 24,000 gp
 (+4, +5W), 37,500 gp (+5/+6 Will); **Weight** 1 lb.

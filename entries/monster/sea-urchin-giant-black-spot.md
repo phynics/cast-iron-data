@@ -6,6 +6,9 @@ source_ids = ["pathfinder-56-raiders-of-the-fever-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sea_urchin_giant_black_spot", path = "json/monsters21.json" },
 ]
+[[sources]]
+publication = "pathfinder-56-raiders-of-the-fever-sea"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ their midst._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Pathfinder \#56: Raiders of the Fever Sea pg 88\
 **Subtype:** Aquatic
 
 **Size:** tiny

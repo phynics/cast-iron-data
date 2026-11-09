@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/call-lightning" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "252"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Descriptors: electricity
 :::
 
 ### Call Lightning Storm
-
-**Sources:** PRPG Core Rulebook pg 252
 
 This spell functions like [call lightning](ref/spell/call-lightning), except that each bolt deals
 5d6 points of electricity damage (or 5d10 if created outdoors in a stormy area), and you may call a

@@ -6,14 +6,15 @@ source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hefty_brute", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "wilderness-origins"
+page = "22"
 
 [fields]
 kind = "feat"
 prerequisites = "Animal companion or familiar."
 benefit = "You treat your size as one category larger for the purposes of calculating CMB, CMD, carrying capacity, and any size-based special attacks you use or that are used against you (such as grab, swallow whole, and trample)."
 +++
-
-**Sources:** Wilderness Origins pg 22
 
 You might be a different subspecies or simply a well-fed and well-grown beast, but either way you're
 built on a more massive scale than the rest of your kind.\

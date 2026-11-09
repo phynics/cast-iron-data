@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "angel_slayer", path = "json/npcs4.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "138"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "14"
 
 **Challenge rating:** 14
 
-**Sources:** NPC Codex pg 138\
 **XP** 38,400\
 Half-orc [ranger](ref/class/ranger) 15\
 CE Medium humanoid (human, orc)\

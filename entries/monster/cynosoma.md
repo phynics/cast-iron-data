@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cynosoma", path = "json/monsters06.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "229"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ of shimmering dust._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Planar Adventures pg 229\
 **Subtype:** Chaotic, Extraplanar, Good
 
 **Experience points:** 19,200

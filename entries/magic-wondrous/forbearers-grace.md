@@ -6,6 +6,9 @@ source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "forbearers_grace", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "potions-and-poisons"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Sources:** Potions and Poisons pg 30\
 **Aura** moderate transmutation; **CL** 7th\
 **Slot** neck; **Price** 5,400 gp; **Weight** -
 

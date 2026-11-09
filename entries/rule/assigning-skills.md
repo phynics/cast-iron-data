@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "assigning_skills", path = "json/rules_adv_gm03.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "240"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 240
 
 Your monster's array - and potentially its grafts, spell list boons, and options - will tell you how
 many good and master skills to assign that monster. You should assign whatever feels right during

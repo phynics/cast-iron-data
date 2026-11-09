@@ -8,12 +8,14 @@ parent = "ref/umr/water-dependency"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "json/umr.json#water_dependency|section:water-dependency", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "301"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Bestiary 4 pg 301\
 A creature with this special ability can survive out of water for 1 minute per point of
 Constitution. Beyond this limit, this creature runs the risk of suffocation, as if it were drowning.
 

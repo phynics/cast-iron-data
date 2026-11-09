@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychepore", path = "json/monsters37.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "198"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ _A mass of shell-like fungus grows so thick it obscures the mass of plant matter
 
 **Type:** plant
 
-**Sources:** Bestiary 5 pg 198\
 **Experience points:** 3,200
 
 **Armor class:** 20/13/17

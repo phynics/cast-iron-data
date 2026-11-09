@@ -6,6 +6,9 @@ source_ids = ["inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clay_whippoorwill", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "inner-sea-temples"
+page = "42"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "5 gp"
 weight = "1/2 lb."
 +++
 
-**Sources:** Inner Sea Temples pg 42\
 **Price** 5 gp; **Weight** 1/2 lb.\
 **Category** Adventuring Gear
 

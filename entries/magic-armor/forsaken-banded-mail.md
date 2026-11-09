@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "forsaken_banded_mail", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "126"
+[[sources]]
+publication = "advanced-players-guide"
+page = "284"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate evocation"
 caster_level = "11th"
 +++
 
-**Sources:** Ultimate Equipment pg 126, Advanced Player's Guide pg 284\
 **Aura** moderate evocation; **CL** 11th\
 **Slot** armor; **Price** 25,400 gp; **Weight** 35 lbs.
 

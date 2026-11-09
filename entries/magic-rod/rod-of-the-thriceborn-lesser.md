@@ -6,6 +6,9 @@ source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rod_of_the_thriceborn_lesser", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "legacy-of-the-first-world"
+page = "25"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "5th"
 
 ## Rod of the Thriceborn
 
-**Sources:** Legacy of the First World pg 25\
 **Aura** moderate divination; **CL** 5th\
 **Slot** none; **Price** 2,500 gp (lesser \[up to 3rd-level spells\]), 6,500 gp (normal \[up to
 6th-level spells\]), 19,500 gp (greater \[all spells\]); **Weight** 5 lbs.

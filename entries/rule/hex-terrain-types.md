@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hex_terrain_types", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "156"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 156
 
 For simplicity's sake, a hex is categorized by its primary terrain: desert, forest, hill, marsh,
 mountain, plain, settlement, or water. The terrain doesn't have to be uniform within that hex - the

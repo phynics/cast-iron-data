@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tactics_2", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "178"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 178
 
 Tactics are the weapons of verbal dueling. At the start of each duel, each duelist can assign her
 skills to tactics that have those skills associated with them. A duelist can only assign a given

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "symbol_of_death", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "355"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: yes
 Effect: one symbol
 Descriptors: death
 :::
-
-**Sources:** PRPG Core Rulebook pg 355
 
 This spell allows you to scribe a potent rune of power upon a surface. When triggered, a symbol of
 death kills one or more creatures within 60 feet of the symbol (treat as a burst) whose combined

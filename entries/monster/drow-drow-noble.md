@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drow_drow_noble", path = "json/monsters08.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "115"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ _This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes w
 
 **Senses:** Darkvision 120 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 115\
 **Subtype:** Elf
 
 **Experience points:** 800

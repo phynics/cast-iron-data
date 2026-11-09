@@ -6,12 +6,14 @@ source_ids = ["occult-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reconsecrate_altar", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "occult-realms"
+page = "56"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Occult Realms pg 56\
 **School** evocation \[chaotic, evil, good, or lawful; see text\]; **Level** 5\
 **Casting Time** 50 minutes\
 **Components** V, S, M (holy or unholy water), F (a holy symbol of the altar's deity worth at least

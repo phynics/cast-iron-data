@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dying_conditions", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "566"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 566
 
 **Dead:** The character's hit points are reduced to a negative amount equal to his Constitution
 score, his Constitution drops to 0, or he is killed outright by a spell or effect. The character's

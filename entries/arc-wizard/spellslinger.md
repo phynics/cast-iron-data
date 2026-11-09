@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/wizard" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "75"
 
 [fields]
 kind = "archetype"
 replaces = ["Arcane bond", "Scribe scroll", "Cantrips", "Arcane school"]
 +++
 
-**Sources:** Ultimate Combat pg 75\
 While few contest the seductive allure of commanding arcane and occult powers, there are those
 wizards who become obsessed with the natural mysteries of black powder. Combining this emerging
 technology with their considerable arcane skills, they transform firearms into a powerful focus.
