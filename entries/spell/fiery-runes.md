@@ -2,6 +2,7 @@
 id = "ref/spell/fiery-runes"
 kind = "spell"
 title = "Fiery Runes"
+aon = "SpellDisplay.aspx?ItemName=Fiery%20Runes"
 source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fiery_runes", path = "json/spells4.json" },

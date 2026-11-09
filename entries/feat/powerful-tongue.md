@@ -2,6 +2,7 @@
 id = "ref/feat/powerful-tongue"
 kind = "feat"
 title = "Powerful Tongue"
+aon = "FeatDisplay.aspx?ItemName=Powerful%20Tongue"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "powerful_tongue", path = "json/feat12.json" },

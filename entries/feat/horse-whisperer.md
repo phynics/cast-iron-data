@@ -2,6 +2,7 @@
 id = "ref/feat/horse-whisperer"
 kind = "feat"
 title = "Horse Whisperer"
+aon = "FeatDisplay.aspx?ItemName=Horse%20Whisperer"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horse_whisperer", path = "json/feat08.json" },

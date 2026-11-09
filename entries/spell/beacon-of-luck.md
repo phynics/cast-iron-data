@@ -2,6 +2,7 @@
 id = "ref/spell/beacon-of-luck"
 kind = "spell"
 title = "Beacon of Luck"
+aon = "SpellDisplay.aspx?ItemName=Beacon%20of%20Luck"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beacon_of_luck", path = "json/spells12.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/wolf-rider"
 kind = "feat"
 title = "Wolf Rider"
+aon = "FeatDisplay.aspx?ItemName=Wolf%20Rider"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wolf_rider", path = "json/feat17.json" },

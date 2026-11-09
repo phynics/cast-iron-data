@@ -2,6 +2,7 @@
 id = "ref/trait/empty-mask"
 kind = "trait"
 title = "Empty Mask"
+aon = "TraitDisplay.aspx?ItemName=Empty%20Mask"
 source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "empty_mask", path = "json/traits03.json" },

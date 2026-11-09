@@ -2,6 +2,7 @@
 id = "ref/monster/devil-cabal-devil-uniila"
 kind = "creature"
 title = "Cabal Devil (Uniila)"
+aon = "MonsterDisplay.aspx?ItemName=Cabal%20Devil%20%28Uniila%29"
 source_ids = ["pathfinder-28-the-infernal-syndrome", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_cabal_devil_uniila", path = "json/monsters07.json" },

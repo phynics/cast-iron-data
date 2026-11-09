@@ -2,6 +2,7 @@
 id = "ref/feat/greater-drag"
 kind = "feat"
 title = "Greater Drag"
+aon = "FeatDisplay.aspx?ItemName=Greater%20Drag"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_drag", path = "json/feat08.json" },

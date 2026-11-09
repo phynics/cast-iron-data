@@ -2,6 +2,7 @@
 id = "ref/spell/primal-scream"
 kind = "spell"
 title = "Primal Scream"
+aon = "SpellDisplay.aspx?ItemName=Primal%20Scream"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "primal_scream", path = "json/spells14.json" },

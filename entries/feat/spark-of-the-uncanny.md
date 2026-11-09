@@ -2,6 +2,7 @@
 id = "ref/feat/spark-of-the-uncanny"
 kind = "feat"
 title = "Spark of the Uncanny"
+aon = "FeatDisplay.aspx?ItemName=Spark%20of%20the%20Uncanny"
 source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spark_of_the_uncanny", path = "json/feat14.json" },

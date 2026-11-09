@@ -2,6 +2,7 @@
 id = "ref/arc-cleric/blossoming-light"
 kind = "archetype"
 title = "Blossoming Light"
+aon = "ArchetypeDisplay.aspx?FixedName=Cleric%20Blossoming%20Light"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blossoming_light", path = "json/archetypes_cleric.json" },

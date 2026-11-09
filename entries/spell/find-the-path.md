@@ -2,6 +2,7 @@
 id = "ref/spell/find-the-path"
 kind = "spell"
 title = "Find the Path"
+aon = "SpellDisplay.aspx?ItemName=Find%20the%20Path"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "find_the_path", path = "json/spells4.json" },

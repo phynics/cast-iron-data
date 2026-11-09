@@ -2,6 +2,7 @@
 id = "ref/feat/improvisational-focus"
 kind = "feat"
 title = "Improvisational Focus"
+aon = "FeatDisplay.aspx?ItemName=Improvisational%20Focus"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improvisational_focus", path = "json/feat09.json" },

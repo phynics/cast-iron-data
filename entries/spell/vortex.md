@@ -2,6 +2,7 @@
 id = "ref/spell/vortex"
 kind = "spell"
 title = "Vortex"
+aon = "SpellDisplay.aspx?ItemName=Vortex"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vortex", path = "json/spells11.json" },

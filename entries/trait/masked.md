@@ -2,6 +2,7 @@
 id = "ref/trait/masked"
 kind = "trait"
 title = "Masked"
+aon = "TraitDisplay.aspx?ItemName=Masked"
 source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "masked", path = "json/traits01.json" },

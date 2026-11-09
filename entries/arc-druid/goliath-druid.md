@@ -2,6 +2,7 @@
 id = "ref/arc-druid/goliath-druid"
 kind = "archetype"
 title = "Goliath Druid"
+aon = "ArchetypeDisplay.aspx?FixedName=Druid%20Goliath%20Druid"
 source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "goliath_druid", path = "json/archetypes_druid.json" },

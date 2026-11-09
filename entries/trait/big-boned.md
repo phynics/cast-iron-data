@@ -2,6 +2,7 @@
 id = "ref/trait/big-boned"
 kind = "trait"
 title = "Big Boned"
+aon = "TraitDisplay.aspx?ItemName=Big%20Boned"
 source_ids = ["blood-of-fiends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "big_boned", path = "json/traits05.json" },

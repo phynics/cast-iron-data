@@ -2,6 +2,7 @@
 id = "ref/spell/lead-anchor"
 kind = "spell"
 title = "Lead Anchor"
+aon = "SpellDisplay.aspx?ItemName=Lead%20Anchor"
 source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lead_anchor", path = "json/spells6.json" },

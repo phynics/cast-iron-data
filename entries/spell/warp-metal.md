@@ -2,6 +2,7 @@
 id = "ref/spell/warp-metal"
 kind = "spell"
 title = "Warp Metal"
+aon = "SpellDisplay.aspx?ItemName=Warp%20Metal"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "warp_metal", path = "json/spells11.json" },

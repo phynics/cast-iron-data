@@ -2,6 +2,7 @@
 id = "ref/spell/heightened-reflexes"
 kind = "spell"
 title = "Heightened Reflexes"
+aon = "SpellDisplay.aspx?ItemName=Heightened%20Reflexes"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heightened_reflexes", path = "json/spells5.json" },

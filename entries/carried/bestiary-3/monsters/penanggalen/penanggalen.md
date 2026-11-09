@@ -2,6 +2,7 @@
 id = "ref/carried/bestiary-3/monsters/penanggalen/penanggalen"
 kind = "creature"
 title = "Penanggalen"
+aon = "MonsterDisplay.aspx?ItemName=Penanggalen"
 source_ids = ["bestiary-3"]
 section = ["Monsters", "Penanggalen"]
 tags = ["undead", "augmented humanoid", "medium"]

@@ -2,6 +2,7 @@
 id = "ref/monster/grodair"
 kind = "creature"
 title = "Grodair"
+aon = "MonsterDisplay.aspx?ItemName=Grodair"
 source_ids = ["bestiary-3", "pathfinder-36-sound-of-a-thousand-screams"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grodair", path = "json/monsters13.json" },

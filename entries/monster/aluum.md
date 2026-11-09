@@ -2,6 +2,7 @@
 id = "ref/monster/aluum"
 kind = "creature"
 title = "Aluum"
+aon = "MonsterDisplay.aspx?ItemName=Aluum"
 source_ids = ["inner-sea-world-guide", "dark-markets-a-guide-to-katapesh"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aluum", path = "json/monsters26.json" },

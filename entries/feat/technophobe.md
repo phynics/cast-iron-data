@@ -2,6 +2,7 @@
 id = "ref/feat/technophobe"
 kind = "feat"
 title = "Technophobe"
+aon = "FeatDisplay.aspx?ItemName=Technophobe"
 source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "technophobe", path = "json/feat16.json" },

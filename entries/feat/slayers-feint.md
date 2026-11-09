@@ -2,6 +2,7 @@
 id = "ref/feat/slayers-feint"
 kind = "feat"
 title = "Slayer's Feint"
+aon = "FeatDisplay.aspx?ItemName=Slayer%27s%20Feint"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slayers_feint", path = "json/feat14.json" },

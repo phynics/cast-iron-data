@@ -2,6 +2,7 @@
 id = "ref/feat/improvised-weapon-mastery"
 kind = "feat"
 title = "Improvised Weapon Mastery"
+aon = "FeatDisplay.aspx?ItemName=Improvised%20Weapon%20Mastery"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improvised_weapon_mastery", path = "json/feat09.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/planar-wayfarer"
 kind = "trait"
 title = "Planar Wayfarer"
+aon = "TraitDisplay.aspx?ItemName=Planar%20Wayfarer"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planar_wayfarer", path = "json/traits03.json" },

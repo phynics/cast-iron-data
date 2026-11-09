@@ -2,6 +2,7 @@
 id = "ref/spell/blood-money"
 kind = "spell"
 title = "Blood Money"
+aon = "SpellDisplay.aspx?ItemName=Blood%20Money"
 source_ids = ["rise-of-the-runelords-anniversary-edition", "pathfinder-5-sins-of-the-saviors"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_money", path = "json/spells2.json" },

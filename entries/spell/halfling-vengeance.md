@@ -2,6 +2,7 @@
 id = "ref/spell/halfling-vengeance"
 kind = "spell"
 title = "Halfling Vengeance"
+aon = "SpellDisplay.aspx?ItemName=Halfling%20Vengeance"
 source_ids = ["pathfinder-131-the-reapers-right-hand"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "halfling_vengeance", path = "json/spells5.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/exotic-heritage"
 kind = "feat"
 title = "Exotic Heritage"
+aon = "FeatDisplay.aspx?ItemName=Exotic%20Heritage"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "exotic_heritage", path = "json/feat06.json" },

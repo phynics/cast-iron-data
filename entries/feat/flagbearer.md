@@ -2,6 +2,7 @@
 id = "ref/feat/flagbearer"
 kind = "feat"
 title = "Flagbearer"
+aon = "FeatDisplay.aspx?ItemName=Flagbearer"
 source_ids = ["inner-sea-world-guide", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flagbearer", path = "json/feat07.json" },

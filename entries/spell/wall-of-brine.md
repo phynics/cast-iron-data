@@ -2,6 +2,7 @@
 id = "ref/spell/wall-of-brine"
 kind = "spell"
 title = "Wall of Brine"
+aon = "SpellDisplay.aspx?ItemName=Wall%20of%20Brine"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wall_of_brine", path = "json/spells11.json" },

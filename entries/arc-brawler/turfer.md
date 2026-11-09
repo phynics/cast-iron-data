@@ -2,6 +2,7 @@
 id = "ref/arc-brawler/turfer"
 kind = "archetype"
 title = "Turfer"
+aon = "ArchetypeDisplay.aspx?FixedName=Brawler%20Turfer"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "turfer", path = "json/archetypes_brawler.json" },

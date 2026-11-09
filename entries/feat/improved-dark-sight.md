@@ -2,6 +2,7 @@
 id = "ref/feat/improved-dark-sight"
 kind = "feat"
 title = "Improved Dark Sight"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Dark%20Sight"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_dark_sight", path = "json/feat08.json" },

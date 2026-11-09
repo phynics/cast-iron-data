@@ -2,6 +2,7 @@
 id = "ref/feat/sandwalker"
 kind = "feat"
 title = "Sandwalker"
+aon = "FeatDisplay.aspx?ItemName=Sandwalker"
 source_ids = ["legacy-of-fire-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sandwalker", path = "json/feat13.json" },

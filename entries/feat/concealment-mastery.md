@@ -2,6 +2,7 @@
 id = "ref/feat/concealment-mastery"
 kind = "feat"
 title = "Concealment Mastery"
+aon = "FeatDisplay.aspx?ItemName=Concealment%20Mastery"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "concealment_mastery", path = "json/feat03.json" },

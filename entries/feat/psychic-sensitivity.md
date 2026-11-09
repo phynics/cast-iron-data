@@ -2,6 +2,7 @@
 id = "ref/feat/psychic-sensitivity"
 kind = "feat"
 title = "Psychic Sensitivity"
+aon = "FeatDisplay.aspx?ItemName=Psychic%20Sensitivity"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychic_sensitivity", path = "json/feat12.json" },

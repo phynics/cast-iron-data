@@ -2,6 +2,7 @@
 id = "ref/spell/buoyancy"
 kind = "spell"
 title = "Buoyancy"
+aon = "SpellDisplay.aspx?ItemName=Buoyancy"
 source_ids = ["advanced-class-guide", "pirates-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "buoyancy", path = "json/spells2.json" },

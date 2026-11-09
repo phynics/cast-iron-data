@@ -2,6 +2,7 @@
 id = "ref/arc-witch/demon-sworn"
 kind = "archetype"
 title = "Demon-Sworn"
+aon = "ArchetypeDisplay.aspx?FixedName=Witch%20Demon-Sworn"
 source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_sworn", path = "json/archetypes_witch.json" },

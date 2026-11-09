@@ -2,6 +2,7 @@
 id = "ref/spell/dragon-turtle-shell"
 kind = "spell"
 title = "Dragon Turtle Shell"
+aon = "SpellDisplay.aspx?ItemName=Dragon%20Turtle%20Shell"
 source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_turtle_shell", path = "json/spells13.json" },

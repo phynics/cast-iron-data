@@ -2,6 +2,7 @@
 id = "ref/race/gillman"
 kind = "race"
 title = "Gillman"
+aon = "RacesDisplay.aspx?ItemName=Gillman"
 source_ids = ["blood-of-the-sea", "advanced-race-guide", "inner-sea-world-guide", "pathfinder-campaign-setting", "inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gillman", path = "json/races3.json" },

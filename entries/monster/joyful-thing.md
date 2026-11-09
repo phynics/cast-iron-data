@@ -2,6 +2,7 @@
 id = "ref/monster/joyful-thing"
 kind = "creature"
 title = "Joyful Thing"
+aon = "MonsterDisplay.aspx?ItemName=Joyful%20Thing"
 source_ids = ["nidal-land-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "joyful_thing", path = "json/monsters34.json" },

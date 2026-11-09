@@ -2,6 +2,7 @@
 id = "ref/spell/invisibility"
 kind = "spell"
 title = "Invisibility"
+aon = "SpellDisplay.aspx?ItemName=Invisibility"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "invisibility", path = "json/spells14.json" },

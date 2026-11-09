@@ -2,6 +2,7 @@
 id = "ref/trait/commercial-savvy"
 kind = "trait"
 title = "Commercial Savvy"
+aon = "TraitDisplay.aspx?ItemName=Commercial%20Savvy"
 source_ids = ["champions-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "commercial_savvy", path = "json/traits04.json" },

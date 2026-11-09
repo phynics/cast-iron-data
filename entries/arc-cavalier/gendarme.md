@@ -2,6 +2,7 @@
 id = "ref/arc-cavalier/gendarme"
 kind = "archetype"
 title = "Gendarme"
+aon = "ArchetypeDisplay.aspx?FixedName=Cavalier%20Gendarme"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gendarme", path = "json/archetypes_cavalier.json" },

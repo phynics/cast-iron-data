@@ -2,6 +2,7 @@
 id = "ref/trait/tropical-upbringing"
 kind = "trait"
 title = "Tropical Upbringing"
+aon = "TraitDisplay.aspx?ItemName=Tropical%20Upbringing"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tropical_upbringing", path = "json/traits01.json" },

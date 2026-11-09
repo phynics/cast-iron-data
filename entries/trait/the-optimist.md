@@ -2,6 +2,7 @@
 id = "ref/trait/the-optimist"
 kind = "trait"
 title = "The Optimist"
+aon = "TraitDisplay.aspx?ItemName=The%20Optimist"
 source_ids = ["tyrants-grasp-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_optimist", path = "json/traits03.json" },

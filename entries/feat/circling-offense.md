@@ -2,6 +2,7 @@
 id = "ref/feat/circling-offense"
 kind = "feat"
 title = "Circling Offense"
+aon = "FeatDisplay.aspx?ItemName=Circling%20Offense"
 source_ids = ["rival-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "circling_offense", path = "json/feat03.json" },

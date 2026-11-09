@@ -2,6 +2,7 @@
 id = "ref/spell/recentering-drone"
 kind = "spell"
 title = "Recentering Drone"
+aon = "SpellDisplay.aspx?ItemName=Recentering%20Drone"
 source_ids = ["champions-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "recentering_drone", path = "json/spells8.json" },

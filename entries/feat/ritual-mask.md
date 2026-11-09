@@ -2,6 +2,7 @@
 id = "ref/feat/ritual-mask"
 kind = "feat"
 title = "Ritual Mask"
+aon = "FeatDisplay.aspx?ItemName=Ritual%20Mask"
 source_ids = ["adventurers-guide", "arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ritual_mask", path = "json/feat13.json" },

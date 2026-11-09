@@ -2,6 +2,7 @@
 id = "ref/feat/totem-spirit"
 kind = "feat"
 title = "Totem Spirit"
+aon = "FeatDisplay.aspx?ItemName=Totem%20Spirit"
 source_ids = ["inner-sea-world-guide", "rise-of-the-runelords-players-guide", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "totem_spirit", path = "json/feat16.json" },

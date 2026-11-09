@@ -2,6 +2,7 @@
 id = "ref/trait/palm-potion"
 kind = "trait"
 title = "Palm Potion"
+aon = "TraitDisplay.aspx?ItemName=Palm%20Potion"
 source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "palm_potion", path = "json/traits04.json" },

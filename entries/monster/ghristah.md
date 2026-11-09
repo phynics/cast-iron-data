@@ -2,6 +2,7 @@
 id = "ref/monster/ghristah"
 kind = "creature"
 title = "Ghristah"
+aon = "MonsterDisplay.aspx?ItemName=Ghristah"
 source_ids = ["darklands-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghristah", path = "json/monsters_unique4.json" },

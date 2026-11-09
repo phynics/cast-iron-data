@@ -2,6 +2,7 @@
 id = "ref/monster/beetle-dark-spitter-beetle"
 kind = "creature"
 title = "Dark Spitter Beetle"
+aon = "MonsterDisplay.aspx?ItemName=Dark%20Spitter%20Beetle"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beetle_dark_spitter_beetle", path = "json/monsters03.json" },

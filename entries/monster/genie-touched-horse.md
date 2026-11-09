@@ -2,6 +2,7 @@
 id = "ref/monster/genie-touched-horse"
 kind = "creature"
 title = "Genie-Touched Horse"
+aon = "MonsterDisplay.aspx?ItemName=Genie-Touched%20Horse"
 source_ids = ["qadira-jewel-of-the-east"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "genie_touched_horse", path = "json/monsters32.json" },

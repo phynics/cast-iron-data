@@ -2,6 +2,7 @@
 id = "ref/trait/into-enemy-territory"
 kind = "trait"
 title = "Into Enemy Territory"
+aon = "TraitDisplay.aspx?ItemName=Into%20Enemy%20Territory"
 source_ids = ["second-darkness-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "into_enemy_territory", path = "json/traits02.json" },

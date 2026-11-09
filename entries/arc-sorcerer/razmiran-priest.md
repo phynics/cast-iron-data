@@ -2,6 +2,7 @@
 id = "ref/arc-sorcerer/razmiran-priest"
 kind = "archetype"
 title = "Razmiran Priest"
+aon = "ArchetypeDisplay.aspx?FixedName=Sorcerer%20Razmiran%20Priest"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "razmiran_priest", path = "json/archetypes_sorcerer.json" },

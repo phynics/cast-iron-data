@@ -2,6 +2,7 @@
 id = "ref/spell/masochistic-shadow"
 kind = "spell"
 title = "Masochistic Shadow"
+aon = "SpellDisplay.aspx?ItemName=Masochistic%20Shadow"
 source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "masochistic_shadow", path = "json/spells14.json" },

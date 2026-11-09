@@ -2,6 +2,7 @@
 id = "ref/feat/blood-vengeance"
 kind = "feat"
 title = "Blood Vengeance"
+aon = "FeatDisplay.aspx?ItemName=Blood%20Vengeance"
 source_ids = ["advanced-race-guide", "orcs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_vengeance", path = "json/feat02.json" },

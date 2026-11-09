@@ -2,6 +2,7 @@
 id = "ref/spell/magic-stone"
 kind = "spell"
 title = "Magic Stone"
+aon = "SpellDisplay.aspx?ItemName=Magic%20Stone"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_stone", path = "json/spells6.json" },

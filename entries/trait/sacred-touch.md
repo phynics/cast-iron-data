@@ -2,6 +2,7 @@
 id = "ref/trait/sacred-touch"
 kind = "trait"
 title = "Sacred Touch"
+aon = "TraitDisplay.aspx?ItemName=Sacred%20Touch"
 source_ids = ["ultimate-campaign", "second-darkness-players-guide", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sacred_touch", path = "json/traits01.json" },

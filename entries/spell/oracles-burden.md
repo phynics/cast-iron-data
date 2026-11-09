@@ -2,6 +2,7 @@
 id = "ref/spell/oracles-burden"
 kind = "spell"
 title = "Oracle's Burden"
+aon = "SpellDisplay.aspx?ItemName=Oracle%27s%20Burden"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oracles_burden", path = "json/spells7.json" },

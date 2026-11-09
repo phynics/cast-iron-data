@@ -2,6 +2,7 @@
 id = "ref/feat/third-eye"
 kind = "feat"
 title = "Third Eye"
+aon = "FeatDisplay.aspx?ItemName=Third%20Eye"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "third_eye", path = "json/feat16.json" },

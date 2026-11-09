@@ -2,6 +2,7 @@
 id = "ref/feat/deadly-trap"
 kind = "feat"
 title = "Deadly Trap"
+aon = "FeatDisplay.aspx?ItemName=Deadly%20Trap"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deadly_trap", path = "json/feat04.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/summon-instrument"
 kind = "spell"
 title = "Summon Instrument"
+aon = "SpellDisplay.aspx?ItemName=Summon%20Instrument"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summon_instrument", path = "json/spells16.json" },

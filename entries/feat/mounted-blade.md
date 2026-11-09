@@ -2,6 +2,7 @@
 id = "ref/feat/mounted-blade"
 kind = "feat"
 title = "Mounted Blade"
+aon = "FeatDisplay.aspx?ItemName=Mounted%20Blade"
 source_ids = ["adventurers-guide", "qadira-gateway-to-the-east", "qadira-jewel-of-the-east"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mounted_blade", path = "json/feat11.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-summoner/first-worlder"
 kind = "archetype"
 title = "First Worlder"
+aon = "ArchetypeDisplay.aspx?FixedName=Summoner%20First%20Worlder"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "first_worlder", path = "json/archetypes_summoner.json" },

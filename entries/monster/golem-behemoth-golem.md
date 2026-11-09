@@ -2,6 +2,7 @@
 id = "ref/monster/golem-behemoth-golem"
 kind = "creature"
 title = "Behemoth Golem"
+aon = "MonsterDisplay.aspx?ItemName=Behemoth%20Golem"
 source_ids = ["lost-kingdoms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_behemoth_golem", path = "json/monsters33.json" },

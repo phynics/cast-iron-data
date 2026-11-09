@@ -2,6 +2,7 @@
 id = "ref/monster/kerakinsi"
 kind = "creature"
 title = "Kerakinsi"
+aon = "MonsterDisplay.aspx?ItemName=Kerakinsi"
 source_ids = ["seers-of-the-drowned-city"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kerakinsi", path = "json/monsters15.json" },

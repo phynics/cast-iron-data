@@ -2,6 +2,7 @@
 id = "ref/spell/tears-to-wine"
 kind = "spell"
 title = "Tears to Wine"
+aon = "SpellDisplay.aspx?ItemName=Tears%20to%20Wine"
 source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tears_to_wine", path = "json/spells10.json" },

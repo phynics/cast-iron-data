@@ -2,6 +2,7 @@
 id = "ref/spell/haunting-reminder"
 kind = "spell"
 title = "Haunting Reminder"
+aon = "SpellDisplay.aspx?ItemName=Haunting%20Reminder"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "haunting_reminder", path = "json/spells5.json" },

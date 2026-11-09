@@ -2,6 +2,7 @@
 id = "ref/monster/ozimat"
 kind = "creature"
 title = "Ozimat"
+aon = "MonsterDisplay.aspx?ItemName=Ozimat"
 source_ids = ["planes-of-power"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ozimat", path = "json/monsters36.json" },

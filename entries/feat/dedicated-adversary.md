@@ -2,6 +2,7 @@
 id = "ref/feat/dedicated-adversary"
 kind = "feat"
 title = "Dedicated Adversary"
+aon = "FeatDisplay.aspx?ItemName=Dedicated%20Adversary"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dedicated_adversary", path = "json/feat04.json" },

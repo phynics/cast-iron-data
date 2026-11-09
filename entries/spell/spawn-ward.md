@@ -2,6 +2,7 @@
 id = "ref/spell/spawn-ward"
 kind = "spell"
 title = "Spawn Ward"
+aon = "SpellDisplay.aspx?ItemName=Spawn%20Ward"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spawn_ward", path = "json/spells9.json" },

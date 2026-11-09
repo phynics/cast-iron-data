@@ -2,6 +2,7 @@
 id = "ref/spell/pied-piping"
 kind = "spell"
 title = "Pied Piping"
+aon = "SpellDisplay.aspx?ItemName=Pied%20Piping"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pied_piping", path = "json/spells7.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/hodag"
 kind = "creature"
 title = "Hodag"
+aon = "MonsterDisplay.aspx?ItemName=Hodag"
 source_ids = ["bestiary-3", "pathfinder-32-rivers-run-red"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hodag", path = "json/monsters13.json" },

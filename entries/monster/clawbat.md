@@ -2,6 +2,7 @@
 id = "ref/monster/clawbat"
 kind = "creature"
 title = "Clawbat"
+aon = "MonsterDisplay.aspx?ItemName=Clawbat"
 source_ids = ["pathfinder-33-the-varnhold-vanishing"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clawbat", path = "json/monsters05.json" },

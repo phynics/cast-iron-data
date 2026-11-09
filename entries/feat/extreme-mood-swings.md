@@ -2,6 +2,7 @@
 id = "ref/feat/extreme-mood-swings"
 kind = "feat"
 title = "Extreme Mood Swings"
+aon = "FeatDisplay.aspx?ItemName=Extreme%20Mood%20Swings"
 source_ids = ["inner-sea-taverns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extreme_mood_swings", path = "json/feat06.json" },

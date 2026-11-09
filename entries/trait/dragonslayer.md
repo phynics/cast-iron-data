@@ -2,6 +2,7 @@
 id = "ref/trait/dragonslayer"
 kind = "trait"
 title = "Dragonslayer"
+aon = "TraitDisplay.aspx?ItemName=Dragonslayer"
 source_ids = ["inner-sea-gods", "faiths-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragonslayer", path = "json/traits03.json" },

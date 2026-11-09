@@ -2,6 +2,7 @@
 id = "ref/trait/ancestral-armor"
 kind = "trait"
 title = "Ancestral Armor"
+aon = "TraitDisplay.aspx?ItemName=Ancestral%20Armor"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ancestral_armor", path = "json/traits01.json" },

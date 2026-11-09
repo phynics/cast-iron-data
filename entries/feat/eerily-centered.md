@@ -2,6 +2,7 @@
 id = "ref/feat/eerily-centered"
 kind = "feat"
 title = "Eerily Centered"
+aon = "FeatDisplay.aspx?ItemName=Eerily%20Centered"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eerily_centered", path = "json/feat05.json" },

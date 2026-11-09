@@ -2,6 +2,7 @@
 id = "ref/arc-wizard/familiar-adept"
 kind = "archetype"
 title = "Familiar Adept"
+aon = "ArchetypeDisplay.aspx?FixedName=Wizard%20Familiar%20Adept"
 source_ids = ["familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_adept", path = "json/archetypes_wizard.json" },

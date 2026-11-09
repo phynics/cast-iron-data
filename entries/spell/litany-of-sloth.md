@@ -2,6 +2,7 @@
 id = "ref/spell/litany-of-sloth"
 kind = "spell"
 title = "Litany of Sloth"
+aon = "SpellDisplay.aspx?ItemName=Litany%20of%20Sloth"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "litany_of_sloth", path = "json/spells6.json" },

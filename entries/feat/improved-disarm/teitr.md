@@ -2,6 +2,7 @@
 id = "ref/feat/improved-disarm/teitr"
 kind = "feat"
 title = "Improved Disarm"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Disarm"
 source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/improved-disarm", label = "removed" },

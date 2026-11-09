@@ -2,6 +2,7 @@
 id = "ref/monster/tanaq-mammoth-eater"
 kind = "creature"
 title = "Tanaq Mammoth-Eater, Taiga Giant Shaman"
+aon = "MonsterDisplay.aspx?ItemName=Tanaq%20Mammoth-Eater%2C%20Taiga%20Giant%20Shaman"
 source_ids = ["giants-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tanaq_mammoth_eater", path = "json/monsters_unique3.json" },

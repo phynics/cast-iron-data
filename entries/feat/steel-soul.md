@@ -2,6 +2,7 @@
 id = "ref/feat/steel-soul"
 kind = "feat"
 title = "Steel Soul"
+aon = "FeatDisplay.aspx?ItemName=Steel%20Soul"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "steel_soul", path = "json/feat15.json" },

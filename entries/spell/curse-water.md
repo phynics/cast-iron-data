@@ -2,6 +2,7 @@
 id = "ref/spell/curse-water"
 kind = "spell"
 title = "Curse Water"
+aon = "SpellDisplay.aspx?ItemName=Curse%20Water"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "curse_water", path = "json/spells3.json" },

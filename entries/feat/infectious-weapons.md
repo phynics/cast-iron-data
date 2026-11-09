@@ -2,6 +2,7 @@
 id = "ref/feat/infectious-weapons"
 kind = "feat"
 title = "Infectious Weapons"
+aon = "FeatDisplay.aspx?ItemName=Infectious%20Weapons"
 source_ids = ["pathfinder-81-shifting-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "infectious_weapons", path = "json/feat09.json" },

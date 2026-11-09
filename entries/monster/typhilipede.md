@@ -2,6 +2,7 @@
 id = "ref/monster/typhilipede"
 kind = "creature"
 title = "Typhilipede"
+aon = "MonsterDisplay.aspx?ItemName=Typhilipede"
 source_ids = ["pathfinder-103-the-hellfire-compact"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "typhilipede", path = "json/monsters24.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-cavalier/oceanrider"
 kind = "archetype"
 title = "Oceanrider"
+aon = "ArchetypeDisplay.aspx?FixedName=Cavalier%20Oceanrider"
 source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oceanrider", path = "json/archetypes_cavalier.json" },

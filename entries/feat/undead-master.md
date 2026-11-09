@@ -2,6 +2,7 @@
 id = "ref/feat/undead-master"
 kind = "feat"
 title = "Undead Master"
+aon = "FeatDisplay.aspx?ItemName=Undead%20Master"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "undead_master", path = "json/feat16.json" },

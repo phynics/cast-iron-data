@@ -2,6 +2,7 @@
 id = "ref/spell/binding-earth"
 kind = "spell"
 title = "Binding Earth"
+aon = "SpellDisplay.aspx?ItemName=Binding%20Earth"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "binding_earth", path = "json/spells12.json" },

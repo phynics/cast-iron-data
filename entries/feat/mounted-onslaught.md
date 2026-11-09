@@ -2,6 +2,7 @@
 id = "ref/feat/mounted-onslaught"
 kind = "feat"
 title = "Mounted Onslaught"
+aon = "FeatDisplay.aspx?ItemName=Mounted%20Onslaught"
 source_ids = ["adventurers-guide", "cities-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mounted_onslaught", path = "json/feat11.json" },

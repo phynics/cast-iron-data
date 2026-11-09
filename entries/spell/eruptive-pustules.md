@@ -2,6 +2,7 @@
 id = "ref/spell/eruptive-pustules"
 kind = "spell"
 title = "Eruptive Pustules"
+aon = "SpellDisplay.aspx?ItemName=Eruptive%20Pustules"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eruptive_pustules", path = "json/spells4.json" },

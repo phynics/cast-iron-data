@@ -2,6 +2,7 @@
 id = "ref/spell/boiling-blood"
 kind = "spell"
 title = "Boiling Blood"
+aon = "SpellDisplay.aspx?ItemName=Boiling%20Blood"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boiling_blood", path = "json/spells2.json" },

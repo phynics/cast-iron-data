@@ -2,6 +2,7 @@
 id = "ref/arc-arcanist/occultist"
 kind = "archetype"
 title = "Occultist"
+aon = "ArchetypeDisplay.aspx?FixedName=Arcanist%20Occultist"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "occultist", path = "json/archetypes_arcanist.json" },

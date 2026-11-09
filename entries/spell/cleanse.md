@@ -2,6 +2,7 @@
 id = "ref/spell/cleanse"
 kind = "spell"
 title = "Cleanse"
+aon = "SpellDisplay.aspx?ItemName=Cleanse"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cleanse", path = "json/spells2.json" },

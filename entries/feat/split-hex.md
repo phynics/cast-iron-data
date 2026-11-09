@@ -2,6 +2,7 @@
 id = "ref/feat/split-hex"
 kind = "feat"
 title = "Split Hex"
+aon = "FeatDisplay.aspx?ItemName=Split%20Hex"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "split_hex", path = "json/feat15.json" },

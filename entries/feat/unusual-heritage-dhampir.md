@@ -2,6 +2,7 @@
 id = "ref/feat/unusual-heritage-dhampir"
 kind = "feat"
 title = "Unusual Heritage (Dhampir)"
+aon = "FeatDisplay.aspx?ItemName=Unusual%20Heritage%20%28Dhampir%29"
 source_ids = ["bastards-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unusual_heritage_dhampir", path = "json/feat17.json" },

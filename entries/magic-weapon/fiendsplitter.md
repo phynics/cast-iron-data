@@ -2,6 +2,7 @@
 id = "ref/magic-weapon/fiendsplitter"
 kind = "item"
 title = "Fiendsplitter"
+aon = "MagicIntelligentDisplay.aspx?ItemName=Fiendsplitter"
 source_ids = ["lost-treasures", "pathfinder-74-sword-of-valor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fiendsplitter", path = "json/magic_weapon2.json" },

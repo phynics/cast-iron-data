@@ -2,6 +2,7 @@
 id = "ref/feat/will-of-giants"
 kind = "feat"
 title = "Will of Giants"
+aon = "FeatDisplay.aspx?ItemName=Will%20of%20Giants"
 source_ids = ["pathfinder-91-battle-of-bloodmarch-hills"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "will_of_giants", path = "json/feat17.json" },

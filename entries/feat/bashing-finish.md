@@ -2,6 +2,7 @@
 id = "ref/feat/bashing-finish"
 kind = "feat"
 title = "Bashing Finish"
+aon = "FeatDisplay.aspx?ItemName=Bashing%20Finish"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bashing_finish", path = "json/feat02.json" },

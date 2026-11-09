@@ -2,6 +2,7 @@
 id = "ref/feat/desperate-battler"
 kind = "feat"
 title = "Desperate Battler"
+aon = "FeatDisplay.aspx?ItemName=Desperate%20Battler"
 source_ids = ["inner-sea-world-guide", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "desperate_battler", path = "json/feat04.json" },

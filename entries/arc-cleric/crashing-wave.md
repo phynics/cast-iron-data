@@ -2,6 +2,7 @@
 id = "ref/arc-cleric/crashing-wave"
 kind = "archetype"
 title = "Crashing Wave"
+aon = "ArchetypeDisplay.aspx?FixedName=Cleric%20Crashing%20Wave"
 source_ids = ["blood-of-the-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crashing_wave", path = "json/archetypes_cleric.json" },

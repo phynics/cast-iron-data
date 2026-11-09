@@ -2,6 +2,7 @@
 id = "ref/monster/melfesh-monster"
 kind = "creature"
 title = "Melfesh Monster"
+aon = "MonsterDisplay.aspx?ItemName=Melfesh%20Monster"
 source_ids = ["pathfinder-61-shards-of-sin"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "melfesh_monster", path = "json/monsters35.json" },

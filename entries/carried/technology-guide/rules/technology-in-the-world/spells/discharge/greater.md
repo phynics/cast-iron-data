@@ -2,6 +2,7 @@
 id = "ref/carried/technology-guide/rules/technology-in-the-world/spells/discharge/greater"
 kind = "spell"
 title = "Discharge, Greater"
+aon = "SpellDisplay.aspx?ItemName=Discharge%2C%20Greater"
 source_ids = ["technology-guide"]
 section = ["Rules", "Technology in the world", "Spells", "Discharge"]
 tags = ["abjuration"]

@@ -2,6 +2,7 @@
 id = "ref/feat/hide-worker"
 kind = "feat"
 title = "Hide Worker"
+aon = "FeatDisplay.aspx?ItemName=Hide%20Worker"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hide_worker", path = "json/feat08.json" },

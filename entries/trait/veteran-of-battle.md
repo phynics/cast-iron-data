@@ -2,6 +2,7 @@
 id = "ref/trait/veteran-of-battle"
 kind = "trait"
 title = "Veteran of Battle"
+aon = "TraitDisplay.aspx?ItemName=Veteran%20of%20Battle"
 source_ids = ["ultimate-campaign", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "veteran_of_battle", path = "json/traits03.json" },

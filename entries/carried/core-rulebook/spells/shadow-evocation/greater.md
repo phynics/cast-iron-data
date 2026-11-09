@@ -2,6 +2,7 @@
 id = "ref/carried/core-rulebook/spells/shadow-evocation/greater"
 kind = "spell"
 title = "Shadow Evocation, Greater"
+aon = "SpellDisplay.aspx?ItemName=Shadow%20Evocation%2C%20Greater"
 source_ids = ["core-rulebook"]
 section = ["Spells", "Shadow Evocation"]
 tags = ["illusion", "shadow"]

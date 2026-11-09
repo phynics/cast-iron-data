@@ -2,6 +2,7 @@
 id = "ref/feat/magical-tail"
 kind = "feat"
 title = "Magical Tail"
+aon = "FeatDisplay.aspx?ItemName=Magical%20Tail"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magical_tail", path = "json/feat10.json" },

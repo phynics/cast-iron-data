@@ -2,6 +2,7 @@
 id = "ref/trait/artistic-dilettante"
 kind = "trait"
 title = "Artistic Dilettante"
+aon = "TraitDisplay.aspx?ItemName=Artistic%20Dilettante"
 source_ids = ["humans-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "artistic_dilettante", path = "json/traits05.json" },

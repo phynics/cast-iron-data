@@ -2,6 +2,7 @@
 id = "ref/spell/poisoned-egg"
 kind = "spell"
 title = "Poisoned Egg"
+aon = "SpellDisplay.aspx?ItemName=Poisoned%20Egg"
 source_ids = ["inner-sea-gods", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "poisoned_egg", path = "json/spells7.json" },

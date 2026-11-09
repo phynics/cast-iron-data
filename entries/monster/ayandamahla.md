@@ -2,6 +2,7 @@
 id = "ref/monster/ayandamahla"
 kind = "creature"
 title = "Ayandamahla, the Crimson Lotus"
+aon = "MonsterDisplay.aspx?ItemName=Ayandamahla%2C%20the%20Crimson%20Lotus"
 source_ids = ["demons-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ayandamahla", path = "json/monsters_unique.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/seaweed-siren"
 kind = "creature"
 title = "Seaweed Siren"
+aon = "MonsterDisplay.aspx?ItemName=Seaweed%20Siren"
 source_ids = ["bestiary-4", "pathfinder-60-from-hells-heart"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seaweed_siren", path = "json/monsters21.json" },

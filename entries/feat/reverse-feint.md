@@ -2,6 +2,7 @@
 id = "ref/feat/reverse-feint"
 kind = "feat"
 title = "Reverse-Feint"
+aon = "FeatDisplay.aspx?ItemName=Reverse-Feint"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reverse_feint", path = "json/feat13.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/intrusive-presence"
 kind = "feat"
 title = "Intrusive Presence"
+aon = "FeatDisplay.aspx?ItemName=Intrusive%20Presence"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "intrusive_presence", path = "json/feat09.json" },

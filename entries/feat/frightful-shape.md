@@ -2,6 +2,7 @@
 id = "ref/feat/frightful-shape"
 kind = "feat"
 title = "Frightful Shape"
+aon = "FeatDisplay.aspx?ItemName=Frightful%20Shape"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "frightful_shape", path = "json/feat07.json" },

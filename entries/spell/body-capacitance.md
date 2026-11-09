@@ -2,6 +2,7 @@
 id = "ref/spell/body-capacitance"
 kind = "spell"
 title = "Body Capacitance"
+aon = "SpellDisplay.aspx?ItemName=Body%20Capacitance"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "body_capacitance", path = "json/spells2.json" },

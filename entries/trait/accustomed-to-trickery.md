@@ -2,6 +2,7 @@
 id = "ref/trait/accustomed-to-trickery"
 kind = "trait"
 title = "Accustomed to Trickery"
+aon = "TraitDisplay.aspx?ItemName=Accustomed%20to%20Trickery"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "accustomed_to_trickery", path = "json/traits04.json" },

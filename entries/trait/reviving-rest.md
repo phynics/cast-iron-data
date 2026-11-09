@@ -2,6 +2,7 @@
 id = "ref/trait/reviving-rest"
 kind = "trait"
 title = "Reviving Rest"
+aon = "TraitDisplay.aspx?ItemName=Reviving%20Rest"
 source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reviving_rest", path = "json/traits05.json" },

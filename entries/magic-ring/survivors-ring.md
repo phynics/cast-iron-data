@@ -2,6 +2,7 @@
 id = "ref/magic-ring/survivors-ring"
 kind = "item"
 title = "Survivor's Ring"
+aon = "MagicRingsDisplay.aspx?FinalName=Survivor%27s%20Ring"
 source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "survivors_ring", path = "json/magic_ring.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/athletic"
 kind = "trait"
 title = "Athletic"
+aon = "TraitDisplay.aspx?ItemName=Athletic"
 source_ids = ["ruins-of-azlant-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "athletic", path = "json/traits02.json" },

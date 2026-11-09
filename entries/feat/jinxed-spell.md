@@ -2,6 +2,7 @@
 id = "ref/feat/jinxed-spell"
 kind = "feat"
 title = "Jinxed Spell"
+aon = "FeatDisplay.aspx?ItemName=Jinxed%20Spell"
 source_ids = ["halflings-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jinxed_spell", path = "json/feat09.json" },

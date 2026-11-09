@@ -2,6 +2,7 @@
 id = "ref/spell/putrefy-food-and-drink"
 kind = "spell"
 title = "Putrefy Food and Drink"
+aon = "SpellDisplay.aspx?ItemName=Putrefy%20Food%20and%20Drink"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "putrefy_food_and_drink", path = "json/spells15.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/commune"
 kind = "spell"
 title = "Commune"
+aon = "SpellDisplay.aspx?ItemName=Commune"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "commune", path = "json/spells12.json" },

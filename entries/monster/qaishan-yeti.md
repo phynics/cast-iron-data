@@ -2,6 +2,7 @@
 id = "ref/monster/qaishan-yeti"
 kind = "creature"
 title = "Qaishan Yeti"
+aon = "MonsterDisplay.aspx?ItemName=Qaishan%20Yeti"
 source_ids = ["mystery-monsters-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "qaishan_yeti", path = "json/monsters_unique3.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-bard/wasteland-chronicler"
 kind = "archetype"
 title = "Wasteland Chronicler"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Wasteland%20Chronicler"
 source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wasteland_chronicler", path = "json/archetypes_bard2.json" },

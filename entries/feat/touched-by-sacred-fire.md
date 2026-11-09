@@ -2,6 +2,7 @@
 id = "ref/feat/touched-by-sacred-fire"
 kind = "feat"
 title = "Touched by Sacred Fire"
+aon = "FeatDisplay.aspx?ItemName=Touched%20by%20Sacred%20Fire"
 source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "touched_by_sacred_fire", path = "json/feat16.json" },

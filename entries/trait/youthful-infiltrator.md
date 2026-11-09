@@ -2,6 +2,7 @@
 id = "ref/trait/youthful-infiltrator"
 kind = "trait"
 title = "Youthful Infiltrator"
+aon = "TraitDisplay.aspx?ItemName=Youthful%20Infiltrator"
 source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "youthful_infiltrator", path = "json/traits01.json" },

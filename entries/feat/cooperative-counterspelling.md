@@ -2,6 +2,7 @@
 id = "ref/feat/cooperative-counterspelling"
 kind = "feat"
 title = "Cooperative Counterspelling"
+aon = "FeatDisplay.aspx?ItemName=Cooperative%20Counterspelling"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cooperative_counterspelling", path = "json/feat03.json" },

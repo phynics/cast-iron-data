@@ -2,6 +2,7 @@
 id = "ref/trait/lichblood"
 kind = "trait"
 title = "Lichblood"
+aon = "TraitDisplay.aspx?ItemName=Lichblood"
 source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lichblood", path = "json/traits04.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/hallowed-lynx"
 kind = "creature"
 title = "Hallowed Lynx"
+aon = "MonsterDisplay.aspx?ItemName=Hallowed%20Lynx"
 source_ids = ["pathfinder-138-rise-of-new-thassilon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hallowed_lynx", path = "json/monsters13.json" },

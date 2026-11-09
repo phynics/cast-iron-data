@@ -2,6 +2,7 @@
 id = "ref/feat/betrayer"
 kind = "feat"
 title = "Betrayer"
+aon = "FeatDisplay.aspx?ItemName=Betrayer"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "betrayer", path = "json/feat02.json" },

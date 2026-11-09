@@ -2,6 +2,7 @@
 id = "ref/feat/smashing-impact"
 kind = "feat"
 title = "Smashing Impact"
+aon = "FeatDisplay.aspx?ItemName=Smashing%20Impact"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "smashing_impact", path = "json/feat14.json" },

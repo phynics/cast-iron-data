@@ -2,6 +2,7 @@
 id = "ref/feat/merciless-precision"
 kind = "feat"
 title = "Merciless Precision"
+aon = "FeatDisplay.aspx?ItemName=Merciless%20Precision"
 source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "merciless_precision", path = "json/feat10.json" },

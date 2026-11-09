@@ -2,6 +2,7 @@
 id = "ref/trait/veiled-disciple"
 kind = "trait"
 title = "Veiled Disciple"
+aon = "TraitDisplay.aspx?ItemName=Veiled%20Disciple"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "veiled_disciple", path = "json/traits01.json" },

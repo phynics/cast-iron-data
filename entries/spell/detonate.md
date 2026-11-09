@@ -2,6 +2,7 @@
 id = "ref/spell/detonate"
 kind = "spell"
 title = "Detonate"
+aon = "SpellDisplay.aspx?ItemName=Detonate"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "detonate", path = "json/spells3.json" },

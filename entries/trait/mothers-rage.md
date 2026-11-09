@@ -2,6 +2,7 @@
 id = "ref/trait/mothers-rage"
 kind = "trait"
 title = "Mother's Rage"
+aon = "TraitDisplay.aspx?ItemName=Mother%27s%20Rage"
 source_ids = ["orcs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mothers_rage", path = "json/traits03.json" },

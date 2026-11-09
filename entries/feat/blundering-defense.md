@@ -2,6 +2,7 @@
 id = "ref/feat/blundering-defense"
 kind = "feat"
 title = "Blundering Defense"
+aon = "FeatDisplay.aspx?ItemName=Blundering%20Defense"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blundering_defense", path = "json/feat02.json" },

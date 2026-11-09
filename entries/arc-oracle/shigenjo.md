@@ -2,6 +2,7 @@
 id = "ref/arc-oracle/shigenjo"
 kind = "archetype"
 title = "Shigenjo"
+aon = "ArchetypeDisplay.aspx?FixedName=Oracle%20Shigenjo"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shigenjo", path = "json/archetypes_oracle.json" },

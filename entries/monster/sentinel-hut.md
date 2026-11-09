@@ -2,6 +2,7 @@
 id = "ref/monster/sentinel-hut"
 kind = "creature"
 title = "Sentinel Hut"
+aon = "MonsterDisplay.aspx?ItemName=Sentinel%20Hut"
 source_ids = ["irrisen-land-of-eternal-winter"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sentinel_hut", path = "json/monsters21.json" },

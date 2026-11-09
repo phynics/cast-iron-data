@@ -2,6 +2,7 @@
 id = "ref/trait/master-of-peaks"
 kind = "trait"
 title = "Master of Peaks"
+aon = "TraitDisplay.aspx?ItemName=Master%20of%20Peaks"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "master_of_peaks", path = "json/traits04.json" },

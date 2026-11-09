@@ -2,6 +2,7 @@
 id = "ref/monster/blast-shadow"
 kind = "creature"
 title = "Blast Shadow"
+aon = "MonsterDisplay.aspx?ItemName=Blast%20Shadow"
 source_ids = ["pathfinder-122-into-the-shattered-continent", "pathfinder-15-the-armageddon-echo"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blast_shadow", path = "json/monsters03.json" },

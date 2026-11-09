@@ -2,6 +2,7 @@
 id = "ref/spell/remove-fear"
 kind = "spell"
 title = "Remove Fear"
+aon = "SpellDisplay.aspx?ItemName=Remove%20Fear"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "remove_fear", path = "json/spells8.json" },

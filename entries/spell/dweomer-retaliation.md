@@ -2,6 +2,7 @@
 id = "ref/spell/dweomer-retaliation"
 kind = "spell"
 title = "Dweomer Retaliation"
+aon = "SpellDisplay.aspx?ItemName=Dweomer%20Retaliation"
 source_ids = ["cheliax-empire-of-devils"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dweomer_retaliation", path = "json/spells13.json" },

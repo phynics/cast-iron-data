@@ -2,6 +2,7 @@
 id = "ref/feat/intimidate-animals"
 kind = "feat"
 title = "Intimidate Animals"
+aon = "FeatDisplay.aspx?ItemName=Intimidate%20Animals"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "intimidate_animals", path = "json/feat09.json" },

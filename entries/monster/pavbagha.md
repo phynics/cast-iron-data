@@ -2,6 +2,7 @@
 id = "ref/monster/pavbagha"
 kind = "creature"
 title = "Pavbagha"
+aon = "MonsterDisplay.aspx?ItemName=Pavbagha"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pavbagha", path = "json/monsters36.json" },

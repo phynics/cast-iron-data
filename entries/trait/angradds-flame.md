@@ -2,6 +2,7 @@
 id = "ref/trait/angradds-flame"
 kind = "trait"
 title = "Angradd's Flame"
+aon = "TraitDisplay.aspx?ItemName=Angradd%27s%20Flame"
 source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "angradds_flame", path = "json/traits03.json" },

@@ -2,6 +2,7 @@
 id = "ref/class/bloodrager"
 kind = "class"
 title = "Bloodrager"
+aon = "ClassDisplay.aspx?ItemName=Bloodrager"
 source_ids = ["advanced-class-guide", "advanced-players-guide", "chronicle-of-legends", "blood-of-the-beast", "blood-of-shadows", "ultimate-wilderness", "plane-hoppers-handbook", "pathfinder-101-the-kintargo-contract", "legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloodrager", path = "json/classes.json" },

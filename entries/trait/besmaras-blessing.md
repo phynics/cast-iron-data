@@ -2,6 +2,7 @@
 id = "ref/trait/besmaras-blessing"
 kind = "trait"
 title = "Besmara's Blessing"
+aon = "TraitDisplay.aspx?ItemName=Besmara%27s%20Blessing"
 source_ids = ["skull-and-shackles-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "besmaras_blessing", path = "json/traits03.json" },

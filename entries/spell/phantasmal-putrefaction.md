@@ -2,6 +2,7 @@
 id = "ref/spell/phantasmal-putrefaction"
 kind = "spell"
 title = "Phantasmal Putrefaction"
+aon = "SpellDisplay.aspx?ItemName=Phantasmal%20Putrefaction"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phantasmal_putrefaction", path = "json/spells7.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/lightning-blessed"
 kind = "trait"
 title = "Lightning Blessed"
+aon = "TraitDisplay.aspx?ItemName=Lightning%20Blessed"
 source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lightning_blessed", path = "json/traits05.json" },

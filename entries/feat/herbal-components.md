@@ -2,6 +2,7 @@
 id = "ref/feat/herbal-components"
 kind = "feat"
 title = "Herbal Components"
+aon = "FeatDisplay.aspx?ItemName=Herbal%20Components"
 source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "herbal_components", path = "json/feat08.json" },

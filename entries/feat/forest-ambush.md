@@ -2,6 +2,7 @@
 id = "ref/feat/forest-ambush"
 kind = "feat"
 title = "Forest Ambush"
+aon = "FeatDisplay.aspx?ItemName=Forest%20Ambush"
 source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "forest_ambush", path = "json/feat07.json" },

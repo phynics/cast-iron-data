@@ -2,6 +2,7 @@
 id = "ref/spell/skyshroud"
 kind = "spell"
 title = "Skyshroud"
+aon = "SpellDisplay.aspx?ItemName=Skyshroud"
 source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skyshroud", path = "json/spells9.json" },

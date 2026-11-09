@@ -2,6 +2,7 @@
 id = "ref/arc-bard/sound-striker"
 kind = "archetype"
 title = "Sound Striker"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Sound%20Striker"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sound_striker", path = "json/archetypes_bard2.json" },

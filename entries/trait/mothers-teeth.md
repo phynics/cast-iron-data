@@ -2,6 +2,7 @@
 id = "ref/trait/mothers-teeth"
 kind = "trait"
 title = "Mother's Teeth"
+aon = "TraitDisplay.aspx?ItemName=Mother%27s%20Teeth"
 source_ids = ["goblins-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mothers_teeth", path = "json/traits03.json" },

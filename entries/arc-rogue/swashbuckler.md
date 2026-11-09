@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/swashbuckler"
 kind = "archetype"
 title = "Swashbuckler"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Swashbuckler"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swashbuckler", path = "json/archetypes_rogue.json" },

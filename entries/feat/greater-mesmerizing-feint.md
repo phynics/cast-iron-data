@@ -2,6 +2,7 @@
 id = "ref/feat/greater-mesmerizing-feint"
 kind = "feat"
 title = "Greater Mesmerizing Feint"
+aon = "FeatDisplay.aspx?ItemName=Greater%20Mesmerizing%20Feint"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_mesmerizing_feint", path = "json/feat08.json" },

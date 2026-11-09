@@ -2,6 +2,7 @@
 id = "ref/spell/unbreakable-construct"
 kind = "spell"
 title = "Unbreakable Construct"
+aon = "SpellDisplay.aspx?ItemName=Unbreakable%20Construct"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unbreakable_construct", path = "json/spells11.json" },

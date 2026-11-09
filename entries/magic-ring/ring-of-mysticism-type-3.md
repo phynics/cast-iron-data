@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-mysticism-type-3"
 kind = "item"
 title = "Ring of Mysticism (Type III)"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20MysticismType%20III"
 source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_mysticism_type_3", path = "json/magic_ring.json" },

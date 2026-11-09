@@ -2,6 +2,7 @@
 id = "ref/carried/core-rulebook/spells/heroism/greater"
 kind = "spell"
 title = "Heroism, Greater"
+aon = "SpellDisplay.aspx?ItemName=Heroism%2C%20Greater"
 source_ids = ["core-rulebook"]
 section = ["Spells", "Heroism"]
 tags = ["enchantment", "compulsion", "mind-affecting"]

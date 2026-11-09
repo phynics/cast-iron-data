@@ -2,6 +2,7 @@
 id = "ref/trait/antiquities-smuggler"
 kind = "trait"
 title = "Antiquities Smuggler"
+aon = "TraitDisplay.aspx?ItemName=Antiquities%20Smuggler"
 source_ids = ["inner-sea-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "antiquities_smuggler", path = "json/traits04.json" },

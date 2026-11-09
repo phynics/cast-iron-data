@@ -2,6 +2,7 @@
 id = "ref/trait/feline-instinct"
 kind = "trait"
 title = "Feline Instinct"
+aon = "TraitDisplay.aspx?ItemName=Feline%20Instinct"
 source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "feline_instinct", path = "json/traits05.json" },

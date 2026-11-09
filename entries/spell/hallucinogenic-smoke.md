@@ -2,6 +2,7 @@
 id = "ref/spell/hallucinogenic-smoke"
 kind = "spell"
 title = "Hallucinogenic Smoke"
+aon = "SpellDisplay.aspx?ItemName=Hallucinogenic%20Smoke"
 source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hallucinogenic_smoke", path = "json/spells5.json" },

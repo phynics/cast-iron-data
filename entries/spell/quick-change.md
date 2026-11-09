@@ -2,6 +2,7 @@
 id = "ref/spell/quick-change"
 kind = "spell"
 title = "Quick Change"
+aon = "SpellDisplay.aspx?ItemName=Quick%20Change"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quick_change", path = "json/spells8.json" },

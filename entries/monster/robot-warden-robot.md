@@ -2,6 +2,7 @@
 id = "ref/monster/robot-warden-robot"
 kind = "creature"
 title = "Warden Robot"
+aon = "MonsterDisplay.aspx?ItemName=Warden%20Robot"
 source_ids = ["pathfinder-87-the-choking-tower"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "robot_warden_robot", path = "json/monsters20.json" },

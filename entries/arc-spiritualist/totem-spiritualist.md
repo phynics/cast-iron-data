@@ -2,6 +2,7 @@
 id = "ref/arc-spiritualist/totem-spiritualist"
 kind = "archetype"
 title = "Totem Spiritualist"
+aon = "ArchetypeDisplay.aspx?FixedName=Spiritualist%20Totem%20Spiritualist"
 source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "totem_spiritualist", path = "json/archetypes_spiritualist.json" },

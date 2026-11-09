@@ -2,6 +2,7 @@
 id = "ref/carried/advanced-race-guide/races/halflings/alternate-racial-rules/alternate-racial-traits/low-blow"
 kind = "racial_trait"
 title = "Low Blow"
+aon = "TraitDisplay.aspx?ItemName=Low%20Blow"
 source_ids = ["advanced-race-guide"]
 section = ["Races", "Halflings", "Alternate Racial Rules", "Alternate Racial Traits"]
 tags = ["alternate", "halfling"]

@@ -2,6 +2,7 @@
 id = "ref/spell/stunning-finale"
 kind = "spell"
 title = "Stunning Finale"
+aon = "SpellDisplay.aspx?ItemName=Stunning%20Finale"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stunning_finale", path = "json/spells16.json" },

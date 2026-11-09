@@ -2,6 +2,7 @@
 id = "ref/monster/pyrogeist"
 kind = "creature"
 title = "Pyrogeist"
+aon = "MonsterDisplay.aspx?ItemName=Pyrogeist"
 source_ids = ["pathfinder-130-city-in-the-lions-eye"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pyrogeist", path = "json/monsters19.json" },

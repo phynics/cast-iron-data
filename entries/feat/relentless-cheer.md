@@ -2,6 +2,7 @@
 id = "ref/feat/relentless-cheer"
 kind = "feat"
 title = "Relentless Cheer"
+aon = "FeatDisplay.aspx?ItemName=Relentless%20Cheer"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "relentless_cheer", path = "json/feat13.json" },

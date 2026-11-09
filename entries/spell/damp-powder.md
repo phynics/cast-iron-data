@@ -2,6 +2,7 @@
 id = "ref/spell/damp-powder"
 kind = "spell"
 title = "Damp Powder"
+aon = "SpellDisplay.aspx?ItemName=Damp%20Powder"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "damp_powder", path = "json/spells3.json" },

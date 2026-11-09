@@ -2,6 +2,7 @@
 id = "ref/spell/bloodbath"
 kind = "spell"
 title = "Bloodbath"
+aon = "SpellDisplay.aspx?ItemName=Bloodbath"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloodbath", path = "json/spells2.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-inquisitor/heretic"
 kind = "archetype"
 title = "Heretic"
+aon = "ArchetypeDisplay.aspx?FixedName=Inquisitor%20Heretic"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heretic", path = "json/archetypes_inquisitor.json" },

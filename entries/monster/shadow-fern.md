@@ -2,6 +2,7 @@
 id = "ref/monster/shadow-fern"
 kind = "creature"
 title = "Shadow Fern"
+aon = "MonsterDisplay.aspx?ItemName=Shadow%20Fern"
 source_ids = ["nidal-land-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_fern", path = "json/monsters21.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/alter-winds"
 kind = "spell"
 title = "Alter Winds"
+aon = "SpellDisplay.aspx?ItemName=Alter%20Winds"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alter_winds", path = "json/spells.json" },

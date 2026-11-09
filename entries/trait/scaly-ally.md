@@ -2,6 +2,7 @@
 id = "ref/trait/scaly-ally"
 kind = "trait"
 title = "Scaly Ally"
+aon = "TraitDisplay.aspx?ItemName=Scaly%20Ally"
 source_ids = ["inner-sea-gods", "faiths-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scaly_ally", path = "json/traits03.json" },

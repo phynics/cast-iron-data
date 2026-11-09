@@ -2,6 +2,7 @@
 id = "ref/spell/judgment-light"
 kind = "spell"
 title = "Judgment Light"
+aon = "SpellDisplay.aspx?ItemName=Judgment%20Light"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "judgment_light", path = "json/spells6.json" },

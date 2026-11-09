@@ -2,6 +2,7 @@
 id = "ref/feat/extra-wild-talent"
 kind = "feat"
 title = "Extra Wild Talent"
+aon = "FeatDisplay.aspx?ItemName=Extra%20Wild%20Talent"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extra_wild_talent", path = "json/feat06.json" },

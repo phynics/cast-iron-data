@@ -2,6 +2,7 @@
 id = "ref/feat/blood-tide"
 kind = "feat"
 title = "Blood Tide"
+aon = "FeatDisplay.aspx?ItemName=Blood%20Tide"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_tide", path = "json/feat02.json" },

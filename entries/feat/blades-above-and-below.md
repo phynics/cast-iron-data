@@ -2,6 +2,7 @@
 id = "ref/feat/blades-above-and-below"
 kind = "feat"
 title = "Blades Above and Below"
+aon = "FeatDisplay.aspx?ItemName=Blades%20Above%20and%20Below"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blades_above_and_below", path = "json/feat02.json" },

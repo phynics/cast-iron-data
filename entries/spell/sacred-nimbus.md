@@ -2,6 +2,7 @@
 id = "ref/spell/sacred-nimbus"
 kind = "spell"
 title = "Sacred Nimbus"
+aon = "SpellDisplay.aspx?ItemName=Sacred%20Nimbus"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sacred_nimbus", path = "json/spells8.json" },

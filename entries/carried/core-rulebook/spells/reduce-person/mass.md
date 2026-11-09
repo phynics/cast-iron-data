@@ -2,6 +2,7 @@
 id = "ref/carried/core-rulebook/spells/reduce-person/mass"
 kind = "spell"
 title = "Reduce Person, Mass"
+aon = "SpellDisplay.aspx?ItemName=Reduce%20Person%2C%20Mass"
 source_ids = ["core-rulebook"]
 section = ["Spells", "Reduce Person"]
 tags = ["transmutation"]

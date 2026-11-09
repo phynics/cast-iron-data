@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/trophy-hunter"
 kind = "archetype"
 title = "Trophy Hunter"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Trophy%20Hunter"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trophy_hunter", path = "json/archetypes_ranger.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/absalom-bouncer"
 kind = "trait"
 title = "Absalom Bouncer"
+aon = "TraitDisplay.aspx?ItemName=Absalom%20Bouncer"
 source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "absalom_bouncer", path = "json/traits01.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/monkey-moves"
 kind = "feat"
 title = "Monkey Moves"
+aon = "FeatDisplay.aspx?ItemName=Monkey%20Moves"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monkey_moves", path = "json/feat11.json" },

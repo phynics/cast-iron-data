@@ -2,6 +2,7 @@
 id = "ref/feat/multitalented-mastery"
 kind = "feat"
 title = "Multitalented Mastery"
+aon = "FeatDisplay.aspx?ItemName=Multitalented%20Mastery"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "multitalented_mastery", path = "json/feat11.json" },

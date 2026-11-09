@@ -2,6 +2,7 @@
 id = "ref/monster/dragon-planar-rift-adult-rift-dragon"
 kind = "creature"
 title = "Adult Rift Dragon"
+aon = "MonsterDisplay.aspx?ItemName=Adult%20Rift%20Dragon"
 source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_planar_rift_adult_rift_dragon", path = "json/monsters30.json" },

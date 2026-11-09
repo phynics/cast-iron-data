@@ -2,6 +2,7 @@
 id = "ref/feat/medusas-wrath"
 kind = "feat"
 title = "Medusa's Wrath"
+aon = "FeatDisplay.aspx?ItemName=Medusa%27s%20Wrath"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "medusas_wrath", path = "json/feat10.json" },

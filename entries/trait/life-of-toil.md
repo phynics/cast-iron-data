@@ -2,6 +2,7 @@
 id = "ref/trait/life-of-toil"
 kind = "trait"
 title = "Life of Toil"
+aon = "TraitDisplay.aspx?ItemName=Life%20of%20Toil"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "life_of_toil", path = "json/traits01.json" },

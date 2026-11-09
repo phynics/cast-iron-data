@@ -2,6 +2,7 @@
 id = "ref/npc/duergar-slaver"
 kind = "creature"
 title = "Duergar Slaver"
+aon = "MonsterDisplay.aspx?ItemName=Duergar%20Slaver"
 source_ids = ["inner-sea-npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "duergar_slaver", path = "json/npcs.json" },

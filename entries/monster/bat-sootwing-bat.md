@@ -2,6 +2,7 @@
 id = "ref/monster/bat-sootwing-bat"
 kind = "creature"
 title = "Sootwing Bat"
+aon = "MonsterDisplay.aspx?ItemName=Sootwing%20Bat"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bat_sootwing_bat", path = "json/monsters03.json" },

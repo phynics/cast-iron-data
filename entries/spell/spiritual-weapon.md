@@ -2,6 +2,7 @@
 id = "ref/spell/spiritual-weapon"
 kind = "spell"
 title = "Spiritual Weapon"
+aon = "SpellDisplay.aspx?ItemName=Spiritual%20Weapon"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spiritual_weapon", path = "json/spells9.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/pack-tactics"
 kind = "feat"
 title = "Pack Tactics"
+aon = "FeatDisplay.aspx?ItemName=Pack%20Tactics"
 source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pack_tactics", path = "json/feat11.json" },

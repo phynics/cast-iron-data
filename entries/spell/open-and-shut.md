@@ -2,6 +2,7 @@
 id = "ref/spell/open-and-shut"
 kind = "spell"
 title = "Open and Shut"
+aon = "SpellDisplay.aspx?ItemName=Open%20and%20Shut"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "open_and_shut", path = "json/spells7.json" },

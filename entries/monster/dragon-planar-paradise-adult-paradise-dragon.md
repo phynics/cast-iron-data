@@ -2,6 +2,7 @@
 id = "ref/monster/dragon-planar-paradise-adult-paradise-dragon"
 kind = "creature"
 title = "Adult Paradise Dragon"
+aon = "MonsterDisplay.aspx?ItemName=Adult%20Paradise%20Dragon"
 source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_planar_paradise_adult_paradise_dragon", path = "json/monsters30.json" },

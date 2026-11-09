@@ -2,6 +2,7 @@
 id = "ref/feat/soulwrecking-strike"
 kind = "feat"
 title = "Soulwrecking Strike"
+aon = "FeatDisplay.aspx?ItemName=Soulwrecking%20Strike"
 source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soulwrecking_strike", path = "json/feat14.json" },

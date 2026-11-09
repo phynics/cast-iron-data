@@ -2,6 +2,7 @@
 id = "ref/feat/shingle-runner"
 kind = "feat"
 title = "Shingle Runner"
+aon = "FeatDisplay.aspx?ItemName=Shingle%20Runner"
 source_ids = ["curse-of-the-crimson-throne", "curse-of-the-crimson-throne-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shingle_runner", path = "json/feat14.json" },

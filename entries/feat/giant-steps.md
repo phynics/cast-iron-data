@@ -2,6 +2,7 @@
 id = "ref/feat/giant-steps"
 kind = "feat"
 title = "Giant Steps"
+aon = "FeatDisplay.aspx?ItemName=Giant%20Steps"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_steps", path = "json/feat07.json" },

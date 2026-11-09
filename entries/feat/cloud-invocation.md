@@ -2,6 +2,7 @@
 id = "ref/feat/cloud-invocation"
 kind = "feat"
 title = "Cloud Invocation"
+aon = "FeatDisplay.aspx?ItemName=Cloud%20Invocation"
 source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloud_invocation", path = "json/feat03.json" },

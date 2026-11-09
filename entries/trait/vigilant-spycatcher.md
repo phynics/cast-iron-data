@@ -2,6 +2,7 @@
 id = "ref/trait/vigilant-spycatcher"
 kind = "trait"
 title = "Vigilant Spycatcher"
+aon = "TraitDisplay.aspx?ItemName=Vigilant%20Spycatcher"
 source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vigilant_spycatcher", path = "json/traits01.json" },

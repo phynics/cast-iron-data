@@ -2,6 +2,7 @@
 id = "ref/feat/additional-traits"
 kind = "feat"
 title = "Additional Traits"
+aon = "FeatDisplay.aspx?ItemName=Additional%20Traits"
 source_ids = ["advanced-players-guide", "second-darkness-players-guide", "pathfinder-16-endless-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "additional_traits", path = "json/feat01.json" },

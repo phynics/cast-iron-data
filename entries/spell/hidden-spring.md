@@ -2,6 +2,7 @@
 id = "ref/spell/hidden-spring"
 kind = "spell"
 title = "Hidden Spring"
+aon = "SpellDisplay.aspx?ItemName=Hidden%20Spring"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hidden_spring", path = "json/spells5.json" },

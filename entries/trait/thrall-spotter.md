@@ -2,6 +2,7 @@
 id = "ref/trait/thrall-spotter"
 kind = "trait"
 title = "Thrall Spotter"
+aon = "TraitDisplay.aspx?ItemName=Thrall%20Spotter"
 source_ids = ["blood-of-the-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thrall_spotter", path = "json/traits05.json" },

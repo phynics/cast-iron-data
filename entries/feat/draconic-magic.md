@@ -2,6 +2,7 @@
 id = "ref/feat/draconic-magic"
 kind = "feat"
 title = "Draconic Magic"
+aon = "FeatDisplay.aspx?ItemName=Draconic%20Magic"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "draconic_magic", path = "json/feat05.json" },

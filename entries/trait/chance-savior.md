@@ -2,6 +2,7 @@
 id = "ref/trait/chance-savior"
 kind = "trait"
 title = "Chance Savior"
+aon = "TraitDisplay.aspx?ItemName=Chance%20Savior"
 source_ids = ["carrion-crown-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chance_savior", path = "json/traits02.json" },

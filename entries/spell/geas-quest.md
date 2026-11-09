@@ -2,6 +2,7 @@
 id = "ref/spell/geas-quest"
 kind = "spell"
 title = "Geas/Quest"
+aon = "SpellDisplay.aspx?ItemName=Geas%2FQuest"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "geas_quest", path = "json/spells13.json" },

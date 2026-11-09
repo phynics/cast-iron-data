@@ -2,6 +2,7 @@
 id = "ref/feat/beartrap-bite"
 kind = "feat"
 title = "Beartrap Bite"
+aon = "FeatDisplay.aspx?ItemName=Beartrap%20Bite"
 source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beartrap_bite", path = "json/feat02.json" },

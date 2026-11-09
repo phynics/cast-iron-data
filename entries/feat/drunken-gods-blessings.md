@@ -2,6 +2,7 @@
 id = "ref/feat/drunken-gods-blessings"
 kind = "feat"
 title = "Drunken God's Blessings"
+aon = "FeatDisplay.aspx?ItemName=Drunken%20God%27s%20Blessings"
 source_ids = ["inner-sea-taverns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drunken_gods_blessings", path = "json/feat05.json" },

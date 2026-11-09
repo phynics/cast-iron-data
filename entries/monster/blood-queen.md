@@ -2,6 +2,7 @@
 id = "ref/monster/blood-queen"
 kind = "creature"
 title = "Blood Queen"
+aon = "MonsterDisplay.aspx?ItemName=Blood%20Queen"
 source_ids = ["isles-of-the-shackles"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_queen", path = "json/monsters27.json" },

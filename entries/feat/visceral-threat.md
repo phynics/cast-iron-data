@@ -2,6 +2,7 @@
 id = "ref/feat/visceral-threat"
 kind = "feat"
 title = "Visceral Threat"
+aon = "FeatDisplay.aspx?ItemName=Visceral%20Threat"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "visceral_threat", path = "json/feat17.json" },

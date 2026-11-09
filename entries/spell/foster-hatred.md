@@ -2,6 +2,7 @@
 id = "ref/spell/foster-hatred"
 kind = "spell"
 title = "Foster Hatred"
+aon = "SpellDisplay.aspx?ItemName=Foster%20Hatred"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "foster_hatred", path = "json/spells13.json" },

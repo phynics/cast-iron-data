@@ -2,6 +2,7 @@
 id = "ref/spell/whispering-lore"
 kind = "spell"
 title = "Whispering Lore"
+aon = "SpellDisplay.aspx?ItemName=Whispering%20Lore"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "whispering_lore", path = "json/spells16.json" },

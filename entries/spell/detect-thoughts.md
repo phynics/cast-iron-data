@@ -2,6 +2,7 @@
 id = "ref/spell/detect-thoughts"
 kind = "spell"
 title = "Detect Thoughts"
+aon = "SpellDisplay.aspx?ItemName=Detect%20Thoughts"
 source_ids = ["core-rulebook", "ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "detect_thoughts", path = "json/spells3.json" },

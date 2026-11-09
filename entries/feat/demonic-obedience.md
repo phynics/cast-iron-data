@@ -2,6 +2,7 @@
 id = "ref/feat/demonic-obedience"
 kind = "feat"
 title = "Demonic Obedience"
+aon = "FeatDisplay.aspx?ItemName=Demonic%20Obedience"
 source_ids = ["book-of-the-damned-volume-2-lords-of-chaos"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demonic_obedience", path = "json/feat04.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/accursed-hex"
 kind = "feat"
 title = "Accursed Hex"
+aon = "FeatDisplay.aspx?ItemName=Accursed%20Hex"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "accursed_hex", path = "json/feat01.json" },

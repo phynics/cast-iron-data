@@ -2,6 +2,7 @@
 id = "ref/monster/veldenar"
 kind = "creature"
 title = "Veldenar"
+aon = "MonsterDisplay.aspx?ItemName=Veldenar"
 source_ids = ["planes-of-power"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "veldenar", path = "json/monsters40.json" },

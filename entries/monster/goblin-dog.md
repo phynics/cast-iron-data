@@ -2,6 +2,7 @@
 id = "ref/monster/goblin-dog"
 kind = "creature"
 title = "Goblin Dog"
+aon = "MonsterDisplay.aspx?ItemName=Goblin%20Dog"
 source_ids = ["bestiary", "pathfinder-1-burnt-offerings"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "goblin_dog", path = "json/monsters12.json" },

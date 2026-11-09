@@ -2,6 +2,7 @@
 id = "ref/trait/linguistic-genius"
 kind = "trait"
 title = "Linguistic Genius"
+aon = "TraitDisplay.aspx?ItemName=Linguistic%20Genius"
 source_ids = ["blood-of-the-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "linguistic_genius", path = "json/traits05.json" },

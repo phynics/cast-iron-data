@@ -2,6 +2,7 @@
 id = "ref/monster/devil-drowning-devil-sarglagon"
 kind = "creature"
 title = "Drowning Devil (Sarglagon)"
+aon = "MonsterDisplay.aspx?ItemName=Drowning%20Devil%20%28Sarglagon%29"
 source_ids = ["bestiary-4", "pathfinder-60-from-hells-heart"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_drowning_devil_sarglagon", path = "json/monsters07.json" },

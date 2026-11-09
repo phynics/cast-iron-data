@@ -2,6 +2,7 @@
 id = "ref/arc-barbarian/mad-dog"
 kind = "archetype"
 title = "Mad Dog"
+aon = "ArchetypeDisplay.aspx?FixedName=Barbarian%20Mad%20Dog"
 source_ids = ["animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mad_dog", path = "json/archetypes_barbarian.json" },

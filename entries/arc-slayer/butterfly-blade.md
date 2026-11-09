@@ -2,6 +2,7 @@
 id = "ref/arc-slayer/butterfly-blade"
 kind = "archetype"
 title = "Butterfly Blade"
+aon = "ArchetypeDisplay.aspx?FixedName=Slayer%20Butterfly%20Blade"
 source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "butterfly_blade", path = "json/archetypes_slayer.json" },

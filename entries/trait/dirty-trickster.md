@@ -2,6 +2,7 @@
 id = "ref/trait/dirty-trickster"
 kind = "trait"
 title = "Dirty Trickster"
+aon = "TraitDisplay.aspx?ItemName=Dirty%20Trickster"
 source_ids = ["antiheros-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dirty_trickster", path = "json/traits01.json" },

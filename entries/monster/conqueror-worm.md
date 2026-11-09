@@ -2,6 +2,7 @@
 id = "ref/monster/conqueror-worm"
 kind = "creature"
 title = "Conqueror Worm"
+aon = "MonsterDisplay.aspx?ItemName=Conqueror%20Worm"
 source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "conqueror_worm", path = "json/monsters28.json" },

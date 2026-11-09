@@ -2,6 +2,7 @@
 id = "ref/feat/shared-manipulation"
 kind = "feat"
 title = "Shared Manipulation"
+aon = "FeatDisplay.aspx?ItemName=Shared%20Manipulation"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shared_manipulation", path = "json/feat14.json" },

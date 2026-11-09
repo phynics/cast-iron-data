@@ -2,6 +2,7 @@
 id = "ref/feat/difficult-swings"
 kind = "feat"
 title = "Difficult Swings"
+aon = "FeatDisplay.aspx?ItemName=Difficult%20Swings"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "difficult_swings", path = "json/feat04.json" },

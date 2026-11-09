@@ -2,6 +2,7 @@
 id = "ref/monster/duergar-duergar-slaver"
 kind = "creature"
 title = "Duergar Slaver"
+aon = "MonsterDisplay.aspx?ItemName=Duergar%20Slaver"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "duergar_duergar_slaver", path = "json/monsters08.json" },

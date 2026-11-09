@@ -2,6 +2,7 @@
 id = "ref/feat/black-market-dealings"
 kind = "feat"
 title = "Black Market Dealings"
+aon = "FeatDisplay.aspx?ItemName=Black%20Market%20Dealings"
 source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "black_market_dealings", path = "json/feat02.json" },

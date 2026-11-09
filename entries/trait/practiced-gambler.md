@@ -2,6 +2,7 @@
 id = "ref/trait/practiced-gambler"
 kind = "trait"
 title = "Practiced Gambler"
+aon = "TraitDisplay.aspx?ItemName=Practiced%20Gambler"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "practiced_gambler", path = "json/traits05.json" },

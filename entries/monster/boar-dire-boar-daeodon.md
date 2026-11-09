@@ -2,6 +2,7 @@
 id = "ref/monster/boar-dire-boar-daeodon"
 kind = "creature"
 title = "Dire Boar (Daeodon)"
+aon = "MonsterDisplay.aspx?ItemName=Dire%20Boar%20%28Daeodon%29"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boar_dire_boar_daeodon", path = "json/monsters27.json" },

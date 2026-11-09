@@ -2,6 +2,7 @@
 id = "ref/spell/black-spot"
 kind = "spell"
 title = "Black Spot"
+aon = "SpellDisplay.aspx?ItemName=Black%20Spot"
 source_ids = ["pirates-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "black_spot", path = "json/spells12.json" },

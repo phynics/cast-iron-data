@@ -2,6 +2,7 @@
 id = "ref/monster/phase-spider"
 kind = "creature"
 title = "Phase Spider"
+aon = "MonsterDisplay.aspx?ItemName=Phase%20Spider"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phase_spider", path = "json/monsters36.json" },

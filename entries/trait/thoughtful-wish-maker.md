@@ -2,6 +2,7 @@
 id = "ref/trait/thoughtful-wish-maker"
 kind = "trait"
 title = "Thoughtful Wish-Maker"
+aon = "TraitDisplay.aspx?ItemName=Thoughtful%20Wish-Maker"
 source_ids = ["blood-of-the-elements"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thoughtful_wish_maker", path = "json/traits04.json" },

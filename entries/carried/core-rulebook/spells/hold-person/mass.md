@@ -2,6 +2,7 @@
 id = "ref/carried/core-rulebook/spells/hold-person/mass"
 kind = "spell"
 title = "Hold Person, Mass"
+aon = "SpellDisplay.aspx?ItemName=Hold%20Person%2C%20Mass"
 source_ids = ["core-rulebook"]
 section = ["Spells", "Hold Person"]
 tags = ["enchantment", "compulsion", "mind-affecting"]

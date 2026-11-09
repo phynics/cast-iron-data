@@ -2,6 +2,7 @@
 id = "ref/feat/favored-enemy-spellcasting"
 kind = "feat"
 title = "Favored Enemy Spellcasting"
+aon = "FeatDisplay.aspx?ItemName=Favored%20Enemy%20Spellcasting"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "favored_enemy_spellcasting", path = "json/feat06.json" },

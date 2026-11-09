@@ -2,6 +2,7 @@
 id = "ref/monster/hook-fly-giant-hook-fly"
 kind = "creature"
 title = "Giant Hook Fly"
+aon = "MonsterDisplay.aspx?ItemName=Giant%20Hook%20Fly"
 source_ids = ["gallows-of-madness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hook_fly_giant_hook_fly", path = "json/monsters32.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/dweomercat-dweomercat-cub"
 kind = "creature"
 title = "Dweomercat Cub"
+aon = "MonsterDisplay.aspx?ItemName=Dweomercat%20Cub"
 source_ids = ["pathfinder-36-sound-of-a-thousand-screams"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dweomercat_dweomercat_cub", path = "json/monsters09.json" },

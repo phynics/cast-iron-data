@@ -2,6 +2,7 @@
 id = "ref/feat/casual-illusionist"
 kind = "feat"
 title = "Casual Illusionist"
+aon = "FeatDisplay.aspx?ItemName=Casual%20Illusionist"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "casual_illusionist", path = "json/feat02.json" },

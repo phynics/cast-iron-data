@@ -2,6 +2,7 @@
 id = "ref/feat/brain-eater"
 kind = "feat"
 title = "Brain Eater"
+aon = "FeatDisplay.aspx?ItemName=Brain%20Eater"
 source_ids = ["classic-horrors-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brain_eater", path = "json/feat02.json" },

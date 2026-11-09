@@ -2,6 +2,7 @@
 id = "ref/arc-oracle/spirit-guide"
 kind = "archetype"
 title = "Spirit Guide"
+aon = "ArchetypeDisplay.aspx?FixedName=Oracle%20Spirit%20Guide"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spirit_guide", path = "json/archetypes_oracle.json" },

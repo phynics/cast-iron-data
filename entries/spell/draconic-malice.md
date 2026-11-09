@@ -2,6 +2,7 @@
 id = "ref/spell/draconic-malice"
 kind = "spell"
 title = "Draconic Malice"
+aon = "SpellDisplay.aspx?ItemName=Draconic%20Malice"
 source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "draconic_malice", path = "json/spells13.json" },

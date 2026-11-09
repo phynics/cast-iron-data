@@ -2,6 +2,7 @@
 id = "ref/magic-staff/staff-of-curchanus"
 kind = "item"
 title = "Staff of Curchanus"
+aon = "MagicStavesDisplay.aspx?ItemName=Staff%20of%20Curchanus"
 source_ids = ["pathfinder-122-into-the-shattered-continent"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_curchanus", path = "json/magic_staff.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/accept-affliction"
 kind = "spell"
 title = "Accept Affliction"
+aon = "SpellDisplay.aspx?ItemName=Accept%20Affliction"
 source_ids = ["champions-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "accept_affliction", path = "json/spells.json" },

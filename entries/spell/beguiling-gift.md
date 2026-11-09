@@ -2,6 +2,7 @@
 id = "ref/spell/beguiling-gift"
 kind = "spell"
 title = "Beguiling Gift"
+aon = "SpellDisplay.aspx?ItemName=Beguiling%20Gift"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beguiling_gift", path = "json/spells12.json" },

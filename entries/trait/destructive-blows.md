@@ -2,6 +2,7 @@
 id = "ref/trait/destructive-blows"
 kind = "trait"
 title = "Destructive Blows"
+aon = "TraitDisplay.aspx?ItemName=Destructive%20Blows"
 source_ids = ["inner-sea-gods", "faiths-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "destructive_blows", path = "json/traits03.json" },

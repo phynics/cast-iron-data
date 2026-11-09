@@ -2,6 +2,7 @@
 id = "ref/feat/protector-of-the-people"
 kind = "feat"
 title = "Protector of the People"
+aon = "FeatDisplay.aspx?ItemName=Protector%20of%20the%20People"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "protector_of_the_people", path = "json/feat12.json" },

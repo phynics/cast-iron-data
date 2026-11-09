@@ -2,6 +2,7 @@
 id = "ref/arc-monk/far-strike-monk"
 kind = "archetype"
 title = "Far Strike Monk"
+aon = "ArchetypeDisplay.aspx?FixedName=Monk%20Far%20Strike%20Monk"
 source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "far_strike_monk", path = "json/archetypes_monk.json" },

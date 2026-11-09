@@ -2,6 +2,7 @@
 id = "ref/spell/stage-fright"
 kind = "spell"
 title = "Stage Fright"
+aon = "SpellDisplay.aspx?ItemName=Stage%20Fright"
 source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stage_fright", path = "json/spells9.json" },

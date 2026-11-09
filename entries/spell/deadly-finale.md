@@ -2,6 +2,7 @@
 id = "ref/spell/deadly-finale"
 kind = "spell"
 title = "Deadly Finale"
+aon = "SpellDisplay.aspx?ItemName=Deadly%20Finale"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deadly_finale", path = "json/spells3.json" },

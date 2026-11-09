@@ -2,6 +2,7 @@
 id = "ref/spell/arcana-theft"
 kind = "spell"
 title = "Arcana Theft"
+aon = "SpellDisplay.aspx?ItemName=Arcana%20Theft"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcana_theft", path = "json/spells.json" },

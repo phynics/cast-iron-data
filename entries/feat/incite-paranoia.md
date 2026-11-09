@@ -2,6 +2,7 @@
 id = "ref/feat/incite-paranoia"
 kind = "feat"
 title = "Incite Paranoia"
+aon = "FeatDisplay.aspx?ItemName=Incite%20Paranoia"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "incite_paranoia", path = "json/feat09.json" },

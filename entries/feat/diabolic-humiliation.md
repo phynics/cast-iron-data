@@ -2,6 +2,7 @@
 id = "ref/feat/diabolic-humiliation"
 kind = "feat"
 title = "Diabolic Humiliation"
+aon = "FeatDisplay.aspx?ItemName=Diabolic%20Humiliation"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "diabolic_humiliation", path = "json/feat04.json" },

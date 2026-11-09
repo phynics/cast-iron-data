@@ -2,6 +2,7 @@
 id = "ref/feat/freeze-in-place"
 kind = "feat"
 title = "Freeze in Place"
+aon = "FeatDisplay.aspx?ItemName=Freeze%20in%20Place"
 source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "freeze_in_place", path = "json/feat07.json" },

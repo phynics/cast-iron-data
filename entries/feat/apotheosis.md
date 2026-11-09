@@ -2,6 +2,7 @@
 id = "ref/feat/apotheosis"
 kind = "feat"
 title = "Apotheosis"
+aon = "FeatDisplay.aspx?ItemName=Apotheosis"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "apotheosis", path = "json/feat01.json" },

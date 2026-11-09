@@ -2,6 +2,7 @@
 id = "ref/feat/arctic-adaptation"
 kind = "feat"
 title = "Arctic Adaptation"
+aon = "FeatDisplay.aspx?ItemName=Arctic%20Adaptation"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arctic_adaptation", path = "json/feat01.json" },

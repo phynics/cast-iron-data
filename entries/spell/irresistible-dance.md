@@ -2,6 +2,7 @@
 id = "ref/spell/irresistible-dance"
 kind = "spell"
 title = "Irresistible Dance"
+aon = "SpellDisplay.aspx?ItemName=Irresistible%20Dance"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "irresistible_dance", path = "json/spells6.json" },

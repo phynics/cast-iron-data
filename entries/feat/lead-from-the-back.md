@@ -2,6 +2,7 @@
 id = "ref/feat/lead-from-the-back"
 kind = "feat"
 title = "Lead from the Back"
+aon = "FeatDisplay.aspx?ItemName=Lead%20from%20the%20Back"
 source_ids = ["goblins-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lead_from_the_back", path = "json/feat10.json" },

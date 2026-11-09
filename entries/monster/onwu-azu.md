@@ -2,6 +2,7 @@
 id = "ref/monster/onwu-azu"
 kind = "creature"
 title = "Onwu Azu"
+aon = "MonsterDisplay.aspx?ItemName=Onwu%20Azu"
 source_ids = ["plunder-and-peril"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "onwu_azu", path = "json/monsters18.json" },

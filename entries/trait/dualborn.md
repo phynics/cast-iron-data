@@ -2,6 +2,7 @@
 id = "ref/trait/dualborn"
 kind = "trait"
 title = "Dualborn"
+aon = "TraitDisplay.aspx?ItemName=Dualborn"
 source_ids = ["blood-of-the-elements"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dualborn", path = "json/traits05.json" },

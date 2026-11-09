@@ -2,6 +2,7 @@
 id = "ref/feat/distance-thrower"
 kind = "feat"
 title = "Distance Thrower"
+aon = "FeatDisplay.aspx?ItemName=Distance%20Thrower"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "distance_thrower", path = "json/feat04.json" },

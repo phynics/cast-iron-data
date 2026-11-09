@@ -2,6 +2,7 @@
 id = "ref/feat/master-of-your-kind"
 kind = "feat"
 title = "Master of Your Kind"
+aon = "FeatDisplay.aspx?ItemName=Master%20of%20Your%20Kind"
 source_ids = ["animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "master_of_your_kind", path = "json/feat10.json" },

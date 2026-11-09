@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-maniacal-devices"
 kind = "item"
 title = "Ring of Maniacal Devices"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Maniacal%20Devices"
 source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_maniacal_devices", path = "json/magic_ring.json" },

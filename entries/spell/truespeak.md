@@ -2,6 +2,7 @@
 id = "ref/spell/truespeak"
 kind = "spell"
 title = "Truespeak"
+aon = "SpellDisplay.aspx?ItemName=Truespeak"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "truespeak", path = "json/spells10.json" },

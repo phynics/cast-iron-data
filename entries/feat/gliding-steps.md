@@ -2,6 +2,7 @@
 id = "ref/feat/gliding-steps"
 kind = "feat"
 title = "Gliding Steps"
+aon = "FeatDisplay.aspx?ItemName=Gliding%20Steps"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gliding_steps", path = "json/feat07.json" },

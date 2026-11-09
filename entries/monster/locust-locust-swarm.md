@@ -2,6 +2,7 @@
 id = "ref/monster/locust-locust-swarm"
 kind = "creature"
 title = "Locust Swarm"
+aon = "MonsterDisplay.aspx?ItemName=Locust%20Swarm"
 source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "locust_locust_swarm", path = "json/monsters16.json" },

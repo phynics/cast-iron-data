@@ -2,6 +2,7 @@
 id = "ref/spell/ironwood"
 kind = "spell"
 title = "Ironwood"
+aon = "SpellDisplay.aspx?ItemName=Ironwood"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ironwood", path = "json/spells6.json" },

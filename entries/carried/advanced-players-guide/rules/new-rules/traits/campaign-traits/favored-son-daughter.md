@@ -2,6 +2,7 @@
 id = "ref/carried/advanced-players-guide/rules/new-rules/traits/campaign-traits/favored-son-daughter"
 kind = "trait"
 title = "Favored Son/Daughter"
+aon = "TraitDisplay.aspx?ItemName=Favored%20Son%2FDaughter"
 source_ids = ["advanced-players-guide"]
 section = ["Rules", "New Rules", "Traits", "Campaign Traits"]
 tags = ["campaign"]

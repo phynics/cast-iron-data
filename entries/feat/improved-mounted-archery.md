@@ -2,6 +2,7 @@
 id = "ref/feat/improved-mounted-archery"
 kind = "feat"
 title = "Improved Mounted Archery"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Mounted%20Archery"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_mounted_archery", path = "json/feat09.json" },

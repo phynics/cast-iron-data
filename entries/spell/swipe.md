@@ -2,6 +2,7 @@
 id = "ref/spell/swipe"
 kind = "spell"
 title = "Swipe"
+aon = "SpellDisplay.aspx?ItemName=Swipe"
 source_ids = ["rise-of-the-runelords-anniversary-edition", "pathfinder-5-sins-of-the-saviors"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swipe", path = "json/spells10.json" },

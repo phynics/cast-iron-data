@@ -2,6 +2,7 @@
 id = "ref/feat/citystep"
 kind = "feat"
 title = "Citystep"
+aon = "FeatDisplay.aspx?ItemName=Citystep"
 source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "citystep", path = "json/feat03.json" },

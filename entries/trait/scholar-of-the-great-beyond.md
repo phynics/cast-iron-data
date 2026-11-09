@@ -2,6 +2,7 @@
 id = "ref/trait/scholar-of-the-great-beyond"
 kind = "trait"
 title = "Scholar of the Great Beyond"
+aon = "TraitDisplay.aspx?ItemName=Scholar%20of%20the%20Great%20Beyond"
 source_ids = ["ultimate-campaign", "advanced-players-guide", "second-darkness-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scholar_of_the_great_beyond", path = "json/traits01.json" },

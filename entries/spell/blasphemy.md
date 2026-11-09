@@ -2,6 +2,7 @@
 id = "ref/spell/blasphemy"
 kind = "spell"
 title = "Blasphemy"
+aon = "SpellDisplay.aspx?ItemName=Blasphemy"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blasphemy", path = "json/spells12.json" },

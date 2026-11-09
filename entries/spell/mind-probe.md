@@ -2,6 +2,7 @@
 id = "ref/spell/mind-probe"
 kind = "spell"
 title = "Mind Probe"
+aon = "SpellDisplay.aspx?ItemName=Mind%20Probe"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mind_probe", path = "json/spells14.json" },

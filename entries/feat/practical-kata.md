@@ -2,6 +2,7 @@
 id = "ref/feat/practical-kata"
 kind = "feat"
 title = "Practical Kata"
+aon = "FeatDisplay.aspx?ItemName=Practical%20Kata"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "practical_kata", path = "json/feat12.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/ghost-survivor"
 kind = "trait"
 title = "Ghost Survivor"
+aon = "TraitDisplay.aspx?ItemName=Ghost%20Survivor"
 source_ids = ["undead-slayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghost_survivor", path = "json/traits04.json" },

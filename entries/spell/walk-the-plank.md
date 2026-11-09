@@ -2,6 +2,7 @@
 id = "ref/spell/walk-the-plank"
 kind = "spell"
 title = "Walk the Plank"
+aon = "SpellDisplay.aspx?ItemName=Walk%20the%20Plank"
 source_ids = ["advanced-players-guide", "villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "walk_the_plank", path = "json/spells3.json" },

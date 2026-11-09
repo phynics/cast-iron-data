@@ -2,6 +2,7 @@
 id = "ref/arc-bard/celebrity"
 kind = "archetype"
 title = "Celebrity"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Celebrity"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "celebrity", path = "json/archetypes_bard.json" },

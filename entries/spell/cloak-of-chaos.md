@@ -2,6 +2,7 @@
 id = "ref/spell/cloak-of-chaos"
 kind = "spell"
 title = "Cloak of Chaos"
+aon = "SpellDisplay.aspx?ItemName=Cloak%20of%20Chaos"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloak_of_chaos", path = "json/spells2.json" },

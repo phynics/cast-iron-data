@@ -2,6 +2,7 @@
 id = "ref/feat/grudge-fighter"
 kind = "feat"
 title = "Grudge Fighter"
+aon = "FeatDisplay.aspx?ItemName=Grudge%20Fighter"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grudge_fighter", path = "json/feat08.json" },

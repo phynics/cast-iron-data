@@ -2,6 +2,7 @@
 id = "ref/spell/repugnant-taste"
 kind = "spell"
 title = "Repugnant Taste"
+aon = "SpellDisplay.aspx?ItemName=Repugnant%20Taste"
 source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "repugnant_taste", path = "json/spells8.json" },

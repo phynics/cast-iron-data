@@ -2,6 +2,7 @@
 id = "ref/spell/absorbing-touch"
 kind = "spell"
 title = "Absorbing Touch"
+aon = "SpellDisplay.aspx?ItemName=Absorbing%20Touch"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "absorbing_touch", path = "json/spells.json" },

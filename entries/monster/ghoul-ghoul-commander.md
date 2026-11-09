@@ -2,6 +2,7 @@
 id = "ref/monster/ghoul-ghoul-commander"
 kind = "creature"
 title = "Ghoul Commander"
+aon = "MonsterDisplay.aspx?ItemName=Ghoul%20Commander"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghoul_ghoul_commander", path = "json/monsters11.json" },

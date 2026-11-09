@@ -2,6 +2,7 @@
 id = "ref/monster/golem-carrion-golem"
 kind = "creature"
 title = "Carrion Golem"
+aon = "MonsterDisplay.aspx?ItemName=Carrion%20Golem"
 source_ids = ["bestiary-2", "pathfinder-7-edge-of-anarchy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_carrion_golem", path = "json/monsters33.json" },

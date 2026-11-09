@@ -2,6 +2,7 @@
 id = "ref/spell/death-knell"
 kind = "spell"
 title = "Death Knell"
+aon = "SpellDisplay.aspx?ItemName=Death%20Knell"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "death_knell", path = "json/spells3.json" },

@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-summoning-affinity-asura"
 kind = "item"
 title = "Ring of Summoning Affinity (Asura)"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Summoning%20Affinity%20%28Asura%29"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_summoning_affinity_asura", path = "json/magic_ring.json" },

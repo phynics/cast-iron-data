@@ -2,6 +2,7 @@
 id = "ref/feat/brutal-coup-de-grace"
 kind = "feat"
 title = "Brutal Coup de Grace"
+aon = "FeatDisplay.aspx?ItemName=Brutal%20Coup%20de%20Grace"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brutal_coup_de_grace", path = "json/feat02.json" },

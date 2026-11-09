@@ -2,6 +2,7 @@
 id = "ref/spell/unholy-ice-weapon"
 kind = "spell"
 title = "Unholy Ice Weapon"
+aon = "SpellDisplay.aspx?ItemName=Unholy%20Ice%20Weapon"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unholy_ice_weapon", path = "json/spells5.json" },

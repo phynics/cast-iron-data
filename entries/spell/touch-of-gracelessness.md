@@ -2,6 +2,7 @@
 id = "ref/spell/touch-of-gracelessness"
 kind = "spell"
 title = "Touch of Gracelessness"
+aon = "SpellDisplay.aspx?ItemName=Touch%20of%20Gracelessness"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "touch_of_gracelessness", path = "json/spells10.json" },

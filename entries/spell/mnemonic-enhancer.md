@@ -2,6 +2,7 @@
 id = "ref/spell/mnemonic-enhancer"
 kind = "spell"
 title = "Mnemonic Enhancer"
+aon = "SpellDisplay.aspx?ItemName=Mnemonic%20Enhancer"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mnemonic_enhancer", path = "json/spells14.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/sense-madness"
 kind = "spell"
 title = "Sense Madness"
+aon = "SpellDisplay.aspx?ItemName=Sense%20Madness"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sense_madness", path = "json/spells15.json" },

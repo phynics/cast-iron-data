@@ -2,6 +2,7 @@
 id = "ref/feat/nation-builder"
 kind = "feat"
 title = "Nation Builder"
+aon = "FeatDisplay.aspx?ItemName=Nation%20Builder"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nation_builder", path = "json/feat11.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/younger-sibling"
 kind = "trait"
 title = "Younger Sibling"
+aon = "TraitDisplay.aspx?ItemName=Younger%20Sibling"
 source_ids = ["jade-regent-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "younger_sibling", path = "json/traits02.json" },

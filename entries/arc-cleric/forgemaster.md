@@ -2,6 +2,7 @@
 id = "ref/arc-cleric/forgemaster"
 kind = "archetype"
 title = "Forgemaster"
+aon = "ArchetypeDisplay.aspx?FixedName=Cleric%20Forgemaster"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "forgemaster", path = "json/archetypes_cleric.json" },

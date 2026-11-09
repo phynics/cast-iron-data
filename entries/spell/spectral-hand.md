@@ -2,6 +2,7 @@
 id = "ref/spell/spectral-hand"
 kind = "spell"
 title = "Spectral Hand"
+aon = "SpellDisplay.aspx?ItemName=Spectral%20Hand"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spectral_hand", path = "json/spells9.json" },

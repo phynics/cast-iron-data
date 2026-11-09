@@ -2,6 +2,7 @@
 id = "ref/trait/stabilizing-touch"
 kind = "trait"
 title = "Stabilizing Touch"
+aon = "TraitDisplay.aspx?ItemName=Stabilizing%20Touch"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stabilizing_touch", path = "json/traits03.json" },

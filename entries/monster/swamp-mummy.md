@@ -2,6 +2,7 @@
 id = "ref/monster/swamp-mummy"
 kind = "creature"
 title = "Swamp Mummy"
+aon = "MonsterDisplay.aspx?ItemName=Swamp%20Mummy"
 source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swamp_mummy", path = "json/monsters24.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/excellent-penmanship"
 kind = "trait"
 title = "Excellent Penmanship"
+aon = "TraitDisplay.aspx?ItemName=Excellent%20Penmanship"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "excellent_penmanship", path = "json/traits01.json" },

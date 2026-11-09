@@ -2,6 +2,7 @@
 id = "ref/feat/aquatic-spell"
 kind = "feat"
 title = "Aquatic Spell"
+aon = "FeatDisplay.aspx?ItemName=Aquatic%20Spell"
 source_ids = ["ultimate-wilderness", "melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aquatic_spell", path = "json/feat01.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/crocodile-dire-crocodile"
 kind = "creature"
 title = "Dire Crocodile"
+aon = "MonsterDisplay.aspx?ItemName=Dire%20Crocodile"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crocodile_dire_crocodile", path = "json/monsters28.json" },

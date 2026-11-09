@@ -2,6 +2,7 @@
 id = "ref/trait/zealous-striker"
 kind = "trait"
 title = "Zealous Striker"
+aon = "TraitDisplay.aspx?ItemName=Zealous%20Striker"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "zealous_striker", path = "json/traits01.json" },

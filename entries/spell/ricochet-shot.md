@@ -2,6 +2,7 @@
 id = "ref/spell/ricochet-shot"
 kind = "spell"
 title = "Ricochet Shot"
+aon = "SpellDisplay.aspx?ItemName=Ricochet%20Shot"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ricochet_shot", path = "json/spells8.json" },

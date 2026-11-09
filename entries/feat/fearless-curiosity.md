@@ -2,6 +2,7 @@
 id = "ref/feat/fearless-curiosity"
 kind = "feat"
 title = "Fearless Curiosity"
+aon = "FeatDisplay.aspx?ItemName=Fearless%20Curiosity"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fearless_curiosity", path = "json/feat06.json" },

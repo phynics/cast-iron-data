@@ -2,6 +2,7 @@
 id = "ref/trait/overwhelming-beauty"
 kind = "trait"
 title = "Overwhelming Beauty"
+aon = "TraitDisplay.aspx?ItemName=Overwhelming%20Beauty"
 source_ids = ["bastards-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "overwhelming_beauty", path = "json/traits02.json" },

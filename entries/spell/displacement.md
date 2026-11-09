@@ -2,6 +2,7 @@
 id = "ref/spell/displacement"
 kind = "spell"
 title = "Displacement"
+aon = "SpellDisplay.aspx?ItemName=Displacement"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "displacement", path = "json/spells13.json" },

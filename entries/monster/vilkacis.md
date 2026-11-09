@@ -2,6 +2,7 @@
 id = "ref/monster/vilkacis"
 kind = "creature"
 title = "Vilkacis"
+aon = "MonsterDisplay.aspx?ItemName=Vilkacis"
 source_ids = ["pathfinder-45-broken-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vilkacis", path = "json/monsters40.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/iobarian-survivor"
 kind = "trait"
 title = "Iobarian Survivor"
+aon = "TraitDisplay.aspx?ItemName=Iobarian%20Survivor"
 source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "iobarian_survivor", path = "json/traits04.json" },

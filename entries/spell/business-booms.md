@@ -2,6 +2,7 @@
 id = "ref/spell/business-booms"
 kind = "spell"
 title = "Business Booms"
+aon = "SpellDisplay.aspx?ItemName=Business%20Booms"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "business_booms", path = "json/spells2.json" },

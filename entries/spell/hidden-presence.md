@@ -2,6 +2,7 @@
 id = "ref/spell/hidden-presence"
 kind = "spell"
 title = "Hidden Presence"
+aon = "SpellDisplay.aspx?ItemName=Hidden%20Presence"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hidden_presence", path = "json/spells5.json" },

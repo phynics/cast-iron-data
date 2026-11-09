@@ -2,6 +2,7 @@
 id = "ref/spell/rune-of-jandelay"
 kind = "spell"
 title = "Rune of Jandelay"
+aon = "SpellDisplay.aspx?ItemName=Rune%20of%20Jandelay"
 source_ids = ["pathfinder-77-herald-of-the-ivory-labyrinth"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rune_of_jandelay", path = "json/spells8.json" },

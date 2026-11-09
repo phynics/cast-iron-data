@@ -2,6 +2,7 @@
 id = "ref/arc-shaman/name-keeper"
 kind = "archetype"
 title = "Name-Keeper"
+aon = "ArchetypeDisplay.aspx?FixedName=Shaman%20Name-Keeper"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "name_keeper", path = "json/archetypes_shaman.json" },

@@ -2,6 +2,7 @@
 id = "ref/magic-ring/holdout-ring"
 kind = "item"
 title = "Holdout Ring"
+aon = "MagicRingsDisplay.aspx?FinalName=Holdout%20Ring"
 source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "holdout_ring", path = "json/magic_ring.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/ragewight"
 kind = "creature"
 title = "Ragewight"
+aon = "MonsterDisplay.aspx?ItemName=Ragewight"
 source_ids = ["andoran-birthplace-of-freedom"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ragewight", path = "json/monsters19.json" },

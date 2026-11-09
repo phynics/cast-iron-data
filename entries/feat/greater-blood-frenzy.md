@@ -2,6 +2,7 @@
 id = "ref/feat/greater-blood-frenzy"
 kind = "feat"
 title = "Greater Blood Frenzy"
+aon = "FeatDisplay.aspx?ItemName=Greater%20Blood%20Frenzy"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_blood_frenzy", path = "json/feat07.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/vigilant-battler"
 kind = "trait"
 title = "Vigilant Battler"
+aon = "TraitDisplay.aspx?ItemName=Vigilant%20Battler"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vigilant_battler", path = "json/traits01.json" },

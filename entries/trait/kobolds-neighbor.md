@@ -2,6 +2,7 @@
 id = "ref/trait/kobolds-neighbor"
 kind = "trait"
 title = "Kobold's Neighbor"
+aon = "TraitDisplay.aspx?ItemName=Kobold%27s%20Neighbor"
 source_ids = ["andoran-spirit-of-liberty"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kobolds_neighbor", path = "json/traits04.json" },

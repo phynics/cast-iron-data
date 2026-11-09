@@ -2,6 +2,7 @@
 id = "ref/spell/sphere-of-warding"
 kind = "spell"
 title = "Sphere of Warding"
+aon = "SpellDisplay.aspx?ItemName=Sphere%20of%20Warding"
 source_ids = ["undead-slayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sphere_of_warding", path = "json/spells9.json" },

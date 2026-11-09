@@ -2,6 +2,7 @@
 id = "ref/pclass/esoteric-knight"
 kind = "prestige_class"
 title = "Esoteric Knight"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Esoteric%20Knight"
 source_ids = ["chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "esoteric_knight", path = "json/prestige_classes4.json" },

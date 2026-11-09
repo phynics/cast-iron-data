@@ -2,6 +2,7 @@
 id = "ref/spell/cast-out"
 kind = "spell"
 title = "Cast Out"
+aon = "SpellDisplay.aspx?ItemName=Cast%20Out"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cast_out", path = "json/spells2.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/abeyance"
 kind = "spell"
 title = "Abeyance"
+aon = "SpellDisplay.aspx?ItemName=Abeyance"
 source_ids = ["pathfinder-82-secrets-of-the-sphinx"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "abeyance", path = "json/spells.json" },

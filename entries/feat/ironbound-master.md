@@ -2,6 +2,7 @@
 id = "ref/feat/ironbound-master"
 kind = "feat"
 title = "Ironbound Master"
+aon = "FeatDisplay.aspx?ItemName=Ironbound%20Master"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ironbound_master", path = "json/feat09.json" },

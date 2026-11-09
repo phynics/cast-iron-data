@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/riot-pipes"
 kind = "item"
 title = "Riot Pipes"
+aon = "MagicCursedDisplay.aspx?ItemName=Riot%20Pipes"
 source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "riot_pipes", path = "json/magic_wondrous_slotless05.json" },

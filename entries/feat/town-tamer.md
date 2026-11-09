@@ -2,6 +2,7 @@
 id = "ref/feat/town-tamer"
 kind = "feat"
 title = "Town Tamer"
+aon = "FeatDisplay.aspx?ItemName=Town%20Tamer"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "town_tamer", path = "json/feat16.json" },

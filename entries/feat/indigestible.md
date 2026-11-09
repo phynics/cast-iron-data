@@ -2,6 +2,7 @@
 id = "ref/feat/indigestible"
 kind = "feat"
 title = "Indigestible"
+aon = "FeatDisplay.aspx?ItemName=Indigestible"
 source_ids = ["dungeon-denizens-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "indigestible", path = "json/feat09.json" },

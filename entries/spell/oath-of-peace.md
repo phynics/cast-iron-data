@@ -2,6 +2,7 @@
 id = "ref/spell/oath-of-peace"
 kind = "spell"
 title = "Oath of Peace"
+aon = "SpellDisplay.aspx?ItemName=Oath%20of%20Peace"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oath_of_peace", path = "json/spells7.json" },

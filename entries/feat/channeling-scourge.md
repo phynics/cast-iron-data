@@ -2,6 +2,7 @@
 id = "ref/feat/channeling-scourge"
 kind = "feat"
 title = "Channeling Scourge"
+aon = "FeatDisplay.aspx?ItemName=Channeling%20Scourge"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "channeling_scourge", path = "json/feat03.json" },

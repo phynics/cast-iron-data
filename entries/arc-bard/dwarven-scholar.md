@@ -2,6 +2,7 @@
 id = "ref/arc-bard/dwarven-scholar"
 kind = "archetype"
 title = "Dwarven Scholar"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Dwarven%20Scholar"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dwarven_scholar", path = "json/archetypes_bard.json" },

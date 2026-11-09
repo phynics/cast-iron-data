@@ -2,6 +2,7 @@
 id = "ref/feat/stunning-fist-adept"
 kind = "feat"
 title = "Stunning Fist Adept"
+aon = "FeatDisplay.aspx?ItemName=Stunning%20Fist%20Adept"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stunning_fist_adept", path = "json/feat15.json" },

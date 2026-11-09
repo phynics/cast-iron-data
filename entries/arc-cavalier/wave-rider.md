@@ -2,6 +2,7 @@
 id = "ref/arc-cavalier/wave-rider"
 kind = "archetype"
 title = "Wave Rider"
+aon = "ArchetypeDisplay.aspx?FixedName=Cavalier%20Wave%20Rider"
 source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wave_rider", path = "json/archetypes_cavalier.json" },

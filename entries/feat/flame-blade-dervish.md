@@ -2,6 +2,7 @@
 id = "ref/feat/flame-blade-dervish"
 kind = "feat"
 title = "Flame Blade Dervish"
+aon = "FeatDisplay.aspx?ItemName=Flame%20Blade%20Dervish"
 source_ids = ["paths-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flame_blade_dervish", path = "json/feat07.json" },

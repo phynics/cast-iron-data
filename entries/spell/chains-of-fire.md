@@ -2,6 +2,7 @@
 id = "ref/spell/chains-of-fire"
 kind = "spell"
 title = "Chains of Fire"
+aon = "SpellDisplay.aspx?ItemName=Chains%20of%20Fire"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chains_of_fire", path = "json/spells2.json" },

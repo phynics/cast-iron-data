@@ -2,6 +2,7 @@
 id = "ref/monster/titanic-whip-spider"
 kind = "creature"
 title = "Titanic Whip Spider"
+aon = "MonsterDisplay.aspx?ItemName=Titanic%20Whip%20Spider"
 source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "titanic_whip_spider", path = "json/monsters23.json" },

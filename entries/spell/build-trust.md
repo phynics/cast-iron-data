@@ -2,6 +2,7 @@
 id = "ref/spell/build-trust"
 kind = "spell"
 title = "Build Trust"
+aon = "SpellDisplay.aspx?ItemName=Build%20Trust"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "build_trust", path = "json/spells2.json" },

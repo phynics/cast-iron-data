@@ -2,6 +2,7 @@
 id = "ref/arc-investigator/skeptic"
 kind = "archetype"
 title = "Skeptic"
+aon = "ArchetypeDisplay.aspx?FixedName=Investigator%20Skeptic"
 source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skeptic", path = "json/archetypes_investigator.json" },

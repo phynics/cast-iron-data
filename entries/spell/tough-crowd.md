@@ -2,6 +2,7 @@
 id = "ref/spell/tough-crowd"
 kind = "spell"
 title = "Tough Crowd"
+aon = "SpellDisplay.aspx?ItemName=Tough%20Crowd"
 source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tough_crowd", path = "json/spells10.json" },

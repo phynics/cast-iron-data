@@ -2,6 +2,7 @@
 id = "ref/feat/teleport-tactician"
 kind = "feat"
 title = "Teleport Tactician"
+aon = "FeatDisplay.aspx?ItemName=Teleport%20Tactician"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "teleport_tactician", path = "json/feat16.json" },

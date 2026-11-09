@@ -2,6 +2,7 @@
 id = "ref/feat/robust-stench"
 kind = "feat"
 title = "Robust Stench"
+aon = "FeatDisplay.aspx?ItemName=Robust%20Stench"
 source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "robust_stench", path = "json/feat13.json" },

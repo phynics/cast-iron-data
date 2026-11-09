@@ -2,6 +2,7 @@
 id = "ref/feat/ankle-biter"
 kind = "feat"
 title = "Ankle Biter"
+aon = "FeatDisplay.aspx?ItemName=Ankle%20Biter"
 source_ids = ["goblins-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ankle_biter", path = "json/feat01.json" },

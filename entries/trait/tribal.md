@@ -2,6 +2,7 @@
 id = "ref/trait/tribal"
 kind = "trait"
 title = "Tribal"
+aon = "TraitDisplay.aspx?ItemName=Tribal"
 source_ids = ["orcs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tribal", path = "json/traits05.json" },

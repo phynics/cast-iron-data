@@ -2,6 +2,7 @@
 id = "ref/monster/lizardfolk-lizardfolk-swamp-lurker"
 kind = "creature"
 title = "Lizardfolk Swamp Lurker"
+aon = "MonsterDisplay.aspx?ItemName=Lizardfolk%20Swamp%20Lurker"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lizardfolk_lizardfolk_swamp_lurker", path = "json/monsters16.json" },

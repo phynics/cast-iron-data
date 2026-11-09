@@ -2,6 +2,7 @@
 id = "ref/monster/disenchanter"
 kind = "creature"
 title = "Disenchanter"
+aon = "MonsterDisplay.aspx?ItemName=Disenchanter"
 source_ids = ["bestiary-3", "misfit-monsters-redeemed"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disenchanter", path = "json/monsters08.json" },

@@ -2,6 +2,7 @@
 id = "ref/race/svirfneblin"
 kind = "race"
 title = "Svirfneblin"
+aon = "RacesDisplay.aspx?ItemName=Svirfneblin"
 source_ids = ["inner-sea-races", "advanced-race-guide", "bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "svirfneblin", path = "json/races4.json" },

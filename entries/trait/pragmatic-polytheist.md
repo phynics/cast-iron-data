@@ -2,6 +2,7 @@
 id = "ref/trait/pragmatic-polytheist"
 kind = "trait"
 title = "Pragmatic Polytheist"
+aon = "TraitDisplay.aspx?ItemName=Pragmatic%20Polytheist"
 source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pragmatic_polytheist", path = "json/traits05.json" },

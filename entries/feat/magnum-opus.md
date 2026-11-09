@@ -2,6 +2,7 @@
 id = "ref/feat/magnum-opus"
 kind = "feat"
 title = "Magnum Opus"
+aon = "FeatDisplay.aspx?ItemName=Magnum%20Opus"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magnum_opus", path = "json/feat10.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/walls-of-half-truths"
 kind = "trait"
 title = "Walls of Half-Truths"
+aon = "TraitDisplay.aspx?ItemName=Walls%20of%20Half-Truths"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "walls_of_half_truths", path = "json/traits05.json" },

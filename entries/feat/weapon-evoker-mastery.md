@@ -2,6 +2,7 @@
 id = "ref/feat/weapon-evoker-mastery"
 kind = "feat"
 title = "Weapon Evoker Mastery"
+aon = "FeatDisplay.aspx?ItemName=Weapon%20Evoker%20Mastery"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weapon_evoker_mastery", path = "json/feat17.json" },

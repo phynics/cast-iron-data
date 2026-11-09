@@ -2,6 +2,7 @@
 id = "ref/feat/deadly-horns"
 kind = "feat"
 title = "Deadly Horns"
+aon = "FeatDisplay.aspx?ItemName=Deadly%20Horns"
 source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deadly_horns", path = "json/feat04.json" },

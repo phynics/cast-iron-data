@@ -2,6 +2,7 @@
 id = "ref/feat/mounted-archery"
 kind = "feat"
 title = "Mounted Archery"
+aon = "FeatDisplay.aspx?ItemName=Mounted%20Archery"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mounted_archery", path = "json/feat11.json" },

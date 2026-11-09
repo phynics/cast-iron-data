@@ -2,6 +2,7 @@
 id = "ref/feat/assured-destruction"
 kind = "feat"
 title = "Assured Destruction"
+aon = "FeatDisplay.aspx?ItemName=Assured%20Destruction"
 source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "assured_destruction", path = "json/feat01.json" },

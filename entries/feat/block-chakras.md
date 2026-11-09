@@ -2,6 +2,7 @@
 id = "ref/feat/block-chakras"
 kind = "feat"
 title = "Block Chakras"
+aon = "FeatDisplay.aspx?ItemName=Block%20Chakras"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "block_chakras", path = "json/feat02.json" },

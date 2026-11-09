@@ -2,6 +2,7 @@
 id = "ref/carried/bestiary/monsters/night-hag"
 kind = "creature"
 title = "Night Hag"
+aon = "MonsterDisplay.aspx?ItemName=Night%20Hag"
 source_ids = ["bestiary"]
 section = ["Monsters"]
 tags = ["outsider", "evil", "extraplanar", "medium"]

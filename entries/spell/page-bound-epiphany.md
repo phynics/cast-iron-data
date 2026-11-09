@@ -2,6 +2,7 @@
 id = "ref/spell/page-bound-epiphany"
 kind = "spell"
 title = "Page-Bound Epiphany"
+aon = "SpellDisplay.aspx?ItemName=Page-Bound%20Epiphany"
 source_ids = ["pathfinder-society-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "page_bound_epiphany", path = "json/spells7.json" },

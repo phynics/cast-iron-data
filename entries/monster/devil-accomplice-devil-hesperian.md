@@ -2,6 +2,7 @@
 id = "ref/monster/devil-accomplice-devil-hesperian"
 kind = "creature"
 title = "Accomplice Devil (Hesperian)"
+aon = "MonsterDisplay.aspx?ItemName=Accomplice%20Devil%20%28Hesperian%29"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_accomplice_devil_hesperian", path = "json/monsters07.json" },

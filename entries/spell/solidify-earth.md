@@ -2,6 +2,7 @@
 id = "ref/spell/solidify-earth"
 kind = "spell"
 title = "Solidify Earth"
+aon = "SpellDisplay.aspx?ItemName=Solidify%20Earth"
 source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "solidify_earth", path = "json/spells9.json" },

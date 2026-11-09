@@ -2,6 +2,7 @@
 id = "ref/monster/golem-flesh-golem-mythic"
 kind = "creature"
 title = "Flesh Golem"
+aon = "MonsterDisplay.aspx?ItemName=Flesh%20Golem"
 source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_flesh_golem_mythic", path = "json/monsters_mythic.json" },

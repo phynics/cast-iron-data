@@ -2,6 +2,7 @@
 id = "ref/monster/leshy-seaweed-leshy"
 kind = "creature"
 title = "Seaweed Leshy"
+aon = "MonsterDisplay.aspx?ItemName=Seaweed%20Leshy"
 source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "leshy_seaweed_leshy", path = "json/monsters34.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/ankou"
 kind = "creature"
 title = "Ankou"
+aon = "MonsterDisplay.aspx?ItemName=Ankou"
 source_ids = ["bestiary-4", "pathfinder-36-sound-of-a-thousand-screams"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ankou", path = "json/monsters02.json" },

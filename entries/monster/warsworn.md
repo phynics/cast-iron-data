@@ -2,6 +2,7 @@
 id = "ref/monster/warsworn"
 kind = "creature"
 title = "Warsworn"
+aon = "MonsterDisplay.aspx?ItemName=Warsworn"
 source_ids = ["bestiary-4", "pathfinder-35-war-of-the-river-kings"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "warsworn", path = "json/monsters25.json" },

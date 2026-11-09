@@ -2,6 +2,7 @@
 id = "ref/feat/delayed-spell"
 kind = "feat"
 title = "Delayed Spell"
+aon = "FeatDisplay.aspx?ItemName=Delayed%20Spell"
 source_ids = ["pathfinder-116-fangs-of-war"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "delayed_spell", path = "json/feat04.json" },

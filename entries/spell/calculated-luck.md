@@ -2,6 +2,7 @@
 id = "ref/spell/calculated-luck"
 kind = "spell"
 title = "Calculated Luck"
+aon = "SpellDisplay.aspx?ItemName=Calculated%20Luck"
 source_ids = ["occult-mysteries"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "calculated_luck", path = "json/spells2.json" },

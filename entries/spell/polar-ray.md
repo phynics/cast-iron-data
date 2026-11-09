@@ -2,6 +2,7 @@
 id = "ref/spell/polar-ray"
 kind = "spell"
 title = "Polar Ray"
+aon = "SpellDisplay.aspx?ItemName=Polar%20Ray"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "polar_ray", path = "json/spells7.json" },

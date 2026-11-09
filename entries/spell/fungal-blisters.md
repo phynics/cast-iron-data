@@ -2,6 +2,7 @@
 id = "ref/spell/fungal-blisters"
 kind = "spell"
 title = "Fungal Blisters"
+aon = "SpellDisplay.aspx?ItemName=Fungal%20Blisters"
 source_ids = ["pathfinder-119-prisoners-of-the-blight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fungal_blisters", path = "json/spells13.json" },

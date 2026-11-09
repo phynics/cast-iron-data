@@ -2,6 +2,7 @@
 id = "ref/spell/temporal-regression"
 kind = "spell"
 title = "Temporal Regression"
+aon = "SpellDisplay.aspx?ItemName=Temporal%20Regression"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "temporal_regression", path = "json/spells10.json" },

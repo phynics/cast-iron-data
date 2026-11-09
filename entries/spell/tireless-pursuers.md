@@ -2,6 +2,7 @@
 id = "ref/spell/tireless-pursuers"
 kind = "spell"
 title = "Tireless Pursuers"
+aon = "SpellDisplay.aspx?ItemName=Tireless%20Pursuers"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tireless_pursuers", path = "json/spells10.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/darkvault"
 kind = "spell"
 title = "Darkvault"
+aon = "SpellDisplay.aspx?ItemName=Darkvault"
 source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "darkvault", path = "json/spells3.json" },

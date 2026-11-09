@@ -2,6 +2,7 @@
 id = "ref/feat/my-blade-is-yours"
 kind = "feat"
 title = "My Blade is Yours"
+aon = "FeatDisplay.aspx?ItemName=My%20Blade%20is%20Yours"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "my_blade_is_yours", path = "json/feat11.json" },

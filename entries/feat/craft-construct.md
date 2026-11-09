@@ -2,6 +2,7 @@
 id = "ref/feat/craft-construct"
 kind = "feat"
 title = "Craft Construct"
+aon = "FeatDisplay.aspx?ItemName=Craft%20Construct"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "craft_construct", path = "json/feat03.json" },

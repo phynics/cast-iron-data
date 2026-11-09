@@ -2,6 +2,7 @@
 id = "ref/monster/giant-belostomatid"
 kind = "creature"
 title = "Giant Belostomatid"
+aon = "MonsterDisplay.aspx?ItemName=Giant%20Belostomatid"
 source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_belostomatid", path = "json/monsters11.json" },

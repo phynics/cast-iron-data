@@ -2,6 +2,7 @@
 id = "ref/spell/pain-strike"
 kind = "spell"
 title = "Pain Strike"
+aon = "SpellDisplay.aspx?ItemName=Pain%20Strike"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pain_strike", path = "json/spells7.json" },

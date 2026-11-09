@@ -2,6 +2,7 @@
 id = "ref/monster/giant-ant-spore-zombie"
 kind = "creature"
 title = "Giant Ant Spore Zombie"
+aon = "MonsterDisplay.aspx?ItemName=Giant%20Ant%20Spore%20Zombie"
 source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_ant_spore_zombie", path = "json/monsters11.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/keeper-of-the-ancestral-scrolls"
 kind = "trait"
 title = "Keeper of the Ancestral Scrolls"
+aon = "TraitDisplay.aspx?ItemName=Keeper%20of%20the%20Ancestral%20Scrolls"
 source_ids = ["humans-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "keeper_of_the_ancestral_scrolls", path = "json/traits05.json" },

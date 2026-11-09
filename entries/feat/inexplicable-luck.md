@@ -2,6 +2,7 @@
 id = "ref/feat/inexplicable-luck"
 kind = "feat"
 title = "Inexplicable Luck"
+aon = "FeatDisplay.aspx?ItemName=Inexplicable%20Luck"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inexplicable_luck", path = "json/feat09.json" },

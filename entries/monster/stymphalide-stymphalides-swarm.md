@@ -2,6 +2,7 @@
 id = "ref/monster/stymphalide-stymphalides-swarm"
 kind = "creature"
 title = "Stymphalides Swarm"
+aon = "MonsterDisplay.aspx?ItemName=Stymphalides%20Swarm"
 source_ids = ["pathfinder-26-the-sixfold-trial"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stymphalide_stymphalides_swarm", path = "json/monsters22.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/ambergrim"
 kind = "creature"
 title = "Ambergrim"
+aon = "MonsterDisplay.aspx?ItemName=Ambergrim"
 source_ids = ["pathfinder-116-fangs-of-war"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ambergrim", path = "json/monsters26.json" },

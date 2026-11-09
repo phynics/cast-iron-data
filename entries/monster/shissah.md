@@ -2,6 +2,7 @@
 id = "ref/monster/shissah"
 kind = "creature"
 title = "Shissah"
+aon = "MonsterDisplay.aspx?ItemName=Shissah"
 source_ids = ["qadira-jewel-of-the-east"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shissah", path = "json/monsters38.json" },

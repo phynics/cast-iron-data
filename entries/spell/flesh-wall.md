@@ -2,6 +2,7 @@
 id = "ref/spell/flesh-wall"
 kind = "spell"
 title = "Flesh Wall"
+aon = "SpellDisplay.aspx?ItemName=Flesh%20Wall"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flesh_wall", path = "json/spells4.json" },

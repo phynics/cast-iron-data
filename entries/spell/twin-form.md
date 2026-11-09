@@ -2,6 +2,7 @@
 id = "ref/spell/twin-form"
 kind = "spell"
 title = "Twin Form"
+aon = "SpellDisplay.aspx?ItemName=Twin%20Form"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "twin_form", path = "json/spells10.json" },

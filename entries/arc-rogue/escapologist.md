@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/escapologist"
 kind = "archetype"
 title = "Escapologist"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Escapologist"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "escapologist", path = "json/archetypes_rogue.json" },

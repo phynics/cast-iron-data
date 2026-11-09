@@ -2,6 +2,7 @@
 id = "ref/feat/gather-might"
 kind = "feat"
 title = "Gather Might"
+aon = "FeatDisplay.aspx?ItemName=Gather%20Might"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gather_might", path = "json/feat07.json" },

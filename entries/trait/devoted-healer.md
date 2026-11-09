@@ -2,6 +2,7 @@
 id = "ref/trait/devoted-healer"
 kind = "trait"
 title = "Devoted Healer"
+aon = "TraitDisplay.aspx?ItemName=Devoted%20Healer"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devoted_healer", path = "json/traits01.json" },

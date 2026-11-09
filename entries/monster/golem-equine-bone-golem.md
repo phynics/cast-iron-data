@@ -2,6 +2,7 @@
 id = "ref/monster/golem-equine-bone-golem"
 kind = "creature"
 title = "Equine Bone Golem"
+aon = "MonsterDisplay.aspx?ItemName=Equine%20Bone%20Golem"
 source_ids = ["tombs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_equine_bone_golem", path = "json/monsters33.json" },

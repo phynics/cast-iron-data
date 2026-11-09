@@ -2,6 +2,7 @@
 id = "ref/blessing/plant"
 kind = "class_option"
 title = "Plant"
+aon = "DomainDisplay.aspx?ItemName=Plant"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plant", path = "json/class_ability_blessings.json" },

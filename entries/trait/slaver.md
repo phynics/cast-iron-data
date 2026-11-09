@@ -2,6 +2,7 @@
 id = "ref/trait/slaver"
 kind = "trait"
 title = "Slaver"
+aon = "TraitDisplay.aspx?ItemName=Slaver"
 source_ids = ["sargava-the-lost-colony"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slaver", path = "json/traits05.json" },

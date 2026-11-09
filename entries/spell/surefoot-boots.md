@@ -2,6 +2,7 @@
 id = "ref/spell/surefoot-boots"
 kind = "spell"
 title = "Surefoot Boots"
+aon = "SpellDisplay.aspx?ItemName=Surefoot%20Boots"
 source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "surefoot_boots", path = "json/spells10.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/resilient-brute"
 kind = "feat"
 title = "Resilient Brute"
+aon = "FeatDisplay.aspx?ItemName=Resilient%20Brute"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "resilient_brute", path = "json/feat13.json" },

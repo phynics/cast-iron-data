@@ -2,6 +2,7 @@
 id = "ref/arc-unchained-summoner/fey-caller"
 kind = "archetype"
 title = "Fey Caller"
+aon = "ArchetypeDisplay.aspx?FixedName=Summoner%20%28Unchained%29%20Fey%20Caller"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fey_caller", path = "json/archetypes_summoner_UC.json" },

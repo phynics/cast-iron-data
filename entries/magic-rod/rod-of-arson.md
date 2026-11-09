@@ -2,6 +2,7 @@
 id = "ref/magic-rod/rod-of-arson"
 kind = "item"
 title = "Rod of Arson"
+aon = "MagicCursedDisplay.aspx?ItemName=Rod%20of%20Arson"
 source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rod_of_arson", path = "json/magic_rod.json" },

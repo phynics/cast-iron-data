@@ -2,6 +2,7 @@
 id = "ref/feat/ursurping-spell"
 kind = "feat"
 title = "Ursurping Spell"
+aon = "FeatDisplay.aspx?ItemName=Ursurping%20Spell"
 source_ids = ["pathfinder-132-the-six-legend-soul"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ursurping_spell", path = "json/feat17.json" },

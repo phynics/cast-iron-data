@@ -2,6 +2,7 @@
 id = "ref/feat/torrid-tolerance"
 kind = "feat"
 title = "Torrid Tolerance"
+aon = "FeatDisplay.aspx?ItemName=Torrid%20Tolerance"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "torrid_tolerance", path = "json/feat16.json" },

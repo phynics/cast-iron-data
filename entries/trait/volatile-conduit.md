@@ -2,6 +2,7 @@
 id = "ref/trait/volatile-conduit"
 kind = "trait"
 title = "Volatile Conduit"
+aon = "TraitDisplay.aspx?ItemName=Volatile%20Conduit"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "volatile_conduit", path = "json/traits02.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/wily-warrior"
 kind = "feat"
 title = "Wily Warrior"
+aon = "FeatDisplay.aspx?ItemName=Wily%20Warrior"
 source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wily_warrior", path = "json/feat17.json" },

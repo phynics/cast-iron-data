@@ -2,6 +2,7 @@
 id = "ref/magic-ring/band-of-efficacious-death"
 kind = "item"
 title = "Band of Efficacious Death"
+aon = "MagicRingsDisplay.aspx?FinalName=Band%20of%20Efficacious%20Death"
 source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "band_of_efficacious_death", path = "json/magic_ring.json" },

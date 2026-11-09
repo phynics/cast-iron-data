@@ -2,6 +2,7 @@
 id = "ref/spell/mindshock"
 kind = "spell"
 title = "Mindshock"
+aon = "SpellDisplay.aspx?ItemName=Mindshock"
 source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mindshock", path = "json/spells14.json" },

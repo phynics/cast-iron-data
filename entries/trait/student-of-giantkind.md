@@ -2,6 +2,7 @@
 id = "ref/trait/student-of-giantkind"
 kind = "trait"
 title = "Student of Giantkind"
+aon = "TraitDisplay.aspx?ItemName=Student%20of%20Giantkind"
 source_ids = ["giantslayer-players-guide", "giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "student_of_giantkind", path = "json/traits02.json" },

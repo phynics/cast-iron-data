@@ -2,6 +2,7 @@
 id = "ref/spell/abstemiousness"
 kind = "spell"
 title = "Abstemiousness"
+aon = "SpellDisplay.aspx?ItemName=Abstemiousness"
 source_ids = ["inner-sea-gods", "faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "abstemiousness", path = "json/spells.json" },

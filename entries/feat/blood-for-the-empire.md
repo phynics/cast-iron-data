@@ -2,6 +2,7 @@
 id = "ref/feat/blood-for-the-empire"
 kind = "feat"
 title = "Blood for the Empire"
+aon = "FeatDisplay.aspx?ItemName=Blood%20for%20the%20Empire"
 source_ids = ["pathfinder-132-the-six-legend-soul"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_for_the_empire", path = "json/feat02.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/dongun-shapers-touch"
 kind = "spell"
 title = "Dongun Shaper's Touch"
+aon = "SpellDisplay.aspx?ItemName=Dongun%20Shaper%27s%20Touch"
 source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dongun_shapers_touch", path = "json/spells13.json" },

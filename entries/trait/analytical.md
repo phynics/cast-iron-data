@@ -2,6 +2,7 @@
 id = "ref/trait/analytical"
 kind = "trait"
 title = "Analytical"
+aon = "TraitDisplay.aspx?ItemName=Analytical"
 source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "analytical", path = "json/traits04.json" },

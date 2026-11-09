@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/dreamthief"
 kind = "archetype"
 title = "Dreamthief"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Dreamthief"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dreamthief", path = "json/archetypes_rogue.json" },

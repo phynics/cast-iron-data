@@ -2,6 +2,7 @@
 id = "ref/feat/shaping-focus"
 kind = "feat"
 title = "Shaping Focus"
+aon = "FeatDisplay.aspx?ItemName=Shaping%20Focus"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shaping_focus", path = "json/feat14.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/akitonian-ferocity"
 kind = "trait"
 title = "Akitonian Ferocity"
+aon = "TraitDisplay.aspx?ItemName=Akitonian%20Ferocity"
 source_ids = ["people-of-the-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "akitonian_ferocity", path = "json/traits04.json" },

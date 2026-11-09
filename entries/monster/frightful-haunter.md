@@ -2,6 +2,7 @@
 id = "ref/monster/frightful-haunter"
 kind = "creature"
 title = "Frightful Haunter"
+aon = "MonsterDisplay.aspx?ItemName=Frightful%20Haunter"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "frightful_haunter", path = "json/monsters31.json" },

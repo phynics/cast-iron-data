@@ -2,6 +2,7 @@
 id = "ref/feat/feign-curse"
 kind = "feat"
 title = "Feign Curse"
+aon = "FeatDisplay.aspx?ItemName=Feign%20Curse"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "feign_curse", path = "json/feat07.json" },

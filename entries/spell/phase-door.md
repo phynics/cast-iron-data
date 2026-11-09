@@ -2,6 +2,7 @@
 id = "ref/spell/phase-door"
 kind = "spell"
 title = "Phase Door"
+aon = "SpellDisplay.aspx?ItemName=Phase%20Door"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phase_door", path = "json/spells7.json" },

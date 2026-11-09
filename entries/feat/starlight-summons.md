@@ -2,6 +2,7 @@
 id = "ref/feat/starlight-summons"
 kind = "feat"
 title = "Starlight Summons"
+aon = "FeatDisplay.aspx?ItemName=Starlight%20Summons"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "starlight_summons", path = "json/feat15.json" },

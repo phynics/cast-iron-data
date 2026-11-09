@@ -2,6 +2,7 @@
 id = "ref/spell/see-alignment"
 kind = "spell"
 title = "See Alignment"
+aon = "SpellDisplay.aspx?ItemName=See%20Alignment"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "see_alignment", path = "json/spells15.json" },

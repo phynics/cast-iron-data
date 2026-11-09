@@ -2,6 +2,7 @@
 id = "ref/monster/lizard-giant-frilled-lizard"
 kind = "creature"
 title = "Giant Frilled Lizard"
+aon = "MonsterDisplay.aspx?ItemName=Giant%20Frilled%20Lizard"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lizard_giant_frilled_lizard", path = "json/monsters16.json" },

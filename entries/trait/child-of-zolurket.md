@@ -2,6 +2,7 @@
 id = "ref/trait/child-of-zolurket"
 kind = "trait"
 title = "Child of Zolurket"
+aon = "TraitDisplay.aspx?ItemName=Child%20of%20Zolurket"
 source_ids = ["legacy-of-fire-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "child_of_zolurket", path = "json/traits05.json" },

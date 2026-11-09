@@ -2,6 +2,7 @@
 id = "ref/feat/toxicological-timing"
 kind = "feat"
 title = "Toxicological Timing"
+aon = "FeatDisplay.aspx?ItemName=Toxicological%20Timing"
 source_ids = ["alchemy-manual"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "toxicological_timing", path = "json/feat16.json" },

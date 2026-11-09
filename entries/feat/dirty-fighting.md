@@ -2,6 +2,7 @@
 id = "ref/feat/dirty-fighting"
 kind = "feat"
 title = "Dirty Fighting"
+aon = "FeatDisplay.aspx?ItemName=Dirty%20Fighting"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dirty_fighting", path = "json/feat04.json" },

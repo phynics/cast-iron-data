@@ -2,6 +2,7 @@
 id = "ref/arc-witch/white-haired-witch"
 kind = "archetype"
 title = "White-Haired Witch"
+aon = "ArchetypeDisplay.aspx?FixedName=Witch%20White-Haired%20Witch"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "white_haired_witch", path = "json/archetypes_witch.json" },

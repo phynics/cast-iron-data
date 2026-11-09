@@ -2,6 +2,7 @@
 id = "ref/spell/vine-strike"
 kind = "spell"
 title = "Vine Strike"
+aon = "SpellDisplay.aspx?ItemName=Vine%20Strike"
 source_ids = ["ultimate-wilderness", "melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vine_strike", path = "json/spells11.json" },

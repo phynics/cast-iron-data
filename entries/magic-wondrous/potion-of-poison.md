@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/potion-of-poison"
 kind = "item"
 title = "Potion of Poison"
+aon = "MagicCursedDisplay.aspx?ItemName=Potion%20of%20Poison"
 source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "potion_of_poison", path = "json/magic_wondrous_slotless05.json" },

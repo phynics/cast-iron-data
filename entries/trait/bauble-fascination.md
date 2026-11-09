@@ -2,6 +2,7 @@
 id = "ref/trait/bauble-fascination"
 kind = "trait"
 title = "Bauble Fascination"
+aon = "TraitDisplay.aspx?ItemName=Bauble%20Fascination"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bauble_fascination", path = "json/traits05.json" },

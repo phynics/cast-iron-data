@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/weapon-bearer-squire"
 kind = "archetype"
 title = "Weapon Bearer Squire"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Weapon%20Bearer%20Squire"
 source_ids = ["knights-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weapon_bearer_squire", path = "json/archetypes_fighter2.json" },

@@ -2,6 +2,7 @@
 id = "ref/pclass/knight-of-ozem"
 kind = "prestige_class"
 title = "Knight of Ozem"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Knight%20of%20Ozem"
 source_ids = ["paths-of-prestige"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "knight_of_ozem", path = "json/prestige_classes2.json" },

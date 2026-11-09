@@ -2,6 +2,7 @@
 id = "ref/spell/tailwind"
 kind = "spell"
 title = "Tailwind"
+aon = "SpellDisplay.aspx?ItemName=Tailwind"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tailwind", path = "json/spells10.json" },

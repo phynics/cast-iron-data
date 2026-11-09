@@ -2,6 +2,7 @@
 id = "ref/spell/screaming-flames"
 kind = "spell"
 title = "Screaming Flames"
+aon = "SpellDisplay.aspx?ItemName=Screaming%20Flames"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "screaming_flames", path = "json/spells8.json" },

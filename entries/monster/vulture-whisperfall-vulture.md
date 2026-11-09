@@ -2,6 +2,7 @@
 id = "ref/monster/vulture-whisperfall-vulture"
 kind = "creature"
 title = "Whisperfall Vulture"
+aon = "MonsterDisplay.aspx?ItemName=Whisperfall%20Vulture"
 source_ids = ["belkzen-hold-of-the-orc-hordes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vulture_whisperfall_vulture", path = "json/monsters40.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/disarming-threat-deed"
 kind = "feat"
 title = "Disarming Threat Deed"
+aon = "FeatDisplay.aspx?ItemName=Disarming%20Threat%20Deed"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disarming_threat_deed", path = "json/feat04.json" },

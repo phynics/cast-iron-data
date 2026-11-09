@@ -2,6 +2,7 @@
 id = "ref/feat/blood-ties"
 kind = "feat"
 title = "Blood Ties"
+aon = "FeatDisplay.aspx?ItemName=Blood%20Ties"
 source_ids = ["gnomes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_ties", path = "json/feat02.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/pesh-vigor"
 kind = "spell"
 title = "Pesh Vigor"
+aon = "SpellDisplay.aspx?ItemName=Pesh%20Vigor"
 source_ids = ["black-markets", "dark-markets-a-guide-to-katapesh"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pesh_vigor", path = "json/spells7.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/firefall"
 kind = "spell"
 title = "Firefall"
+aon = "SpellDisplay.aspx?ItemName=Firefall"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "firefall", path = "json/spells4.json" },

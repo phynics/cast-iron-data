@@ -2,6 +2,7 @@
 id = "ref/feat/silent-spell"
 kind = "feat"
 title = "Silent Spell"
+aon = "FeatDisplay.aspx?ItemName=Silent%20Spell"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "silent_spell", path = "json/feat14.json" },

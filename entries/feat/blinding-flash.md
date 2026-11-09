@@ -2,6 +2,7 @@
 id = "ref/feat/blinding-flash"
 kind = "feat"
 title = "Blinding Flash"
+aon = "FeatDisplay.aspx?ItemName=Blinding%20Flash"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blinding_flash", path = "json/feat02.json" },

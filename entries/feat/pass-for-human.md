@@ -2,6 +2,7 @@
 id = "ref/feat/pass-for-human"
 kind = "feat"
 title = "Pass For Human"
+aon = "FeatDisplay.aspx?ItemName=Pass%20For%20Human"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pass_for_human", path = "json/feat11.json" },

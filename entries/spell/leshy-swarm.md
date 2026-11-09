@@ -2,6 +2,7 @@
 id = "ref/spell/leshy-swarm"
 kind = "spell"
 title = "Leshy Swarm"
+aon = "SpellDisplay.aspx?ItemName=Leshy%20Swarm"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "leshy_swarm", path = "json/spells6.json" },

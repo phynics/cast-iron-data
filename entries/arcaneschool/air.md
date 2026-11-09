@@ -2,6 +2,7 @@
 id = "ref/arcaneschool/air"
 kind = "class_option"
 title = "Air"
+aon = "DomainDisplay.aspx?ItemName=Air"
 source_ids = ["advanced-players-guide", "elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "air", path = "json/class_ability_arcane_schools.json" },

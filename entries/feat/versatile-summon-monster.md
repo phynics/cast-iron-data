@@ -2,6 +2,7 @@
 id = "ref/feat/versatile-summon-monster"
 kind = "feat"
 title = "Versatile Summon Monster"
+aon = "FeatDisplay.aspx?ItemName=Versatile%20Summon%20Monster"
 source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "versatile_summon_monster", path = "json/feat17.json" },

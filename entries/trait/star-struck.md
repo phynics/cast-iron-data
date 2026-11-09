@@ -2,6 +2,7 @@
 id = "ref/trait/star-struck"
 kind = "trait"
 title = "Star Struck"
+aon = "TraitDisplay.aspx?ItemName=Star%20Struck"
 source_ids = ["hells-rebels-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "star_struck", path = "json/traits02.json" },

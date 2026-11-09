@@ -2,6 +2,7 @@
 id = "ref/spell/irregular-size"
 kind = "spell"
 title = "Irregular Size"
+aon = "SpellDisplay.aspx?ItemName=Irregular%20Size"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "irregular_size", path = "json/spells6.json" },

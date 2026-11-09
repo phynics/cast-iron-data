@@ -2,6 +2,7 @@
 id = "ref/arc-cleric/undead-lord"
 kind = "archetype"
 title = "Undead Lord"
+aon = "ArchetypeDisplay.aspx?FixedName=Cleric%20Undead%20Lord"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "undead_lord", path = "json/archetypes_cleric.json" },

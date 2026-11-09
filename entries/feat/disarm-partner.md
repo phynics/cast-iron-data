@@ -2,6 +2,7 @@
 id = "ref/feat/disarm-partner"
 kind = "feat"
 title = "Disarm Partner"
+aon = "FeatDisplay.aspx?ItemName=Disarm%20Partner"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disarm_partner", path = "json/feat04.json" },

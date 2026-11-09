@@ -2,6 +2,7 @@
 id = "ref/feat/improved-shield-bash"
 kind = "feat"
 title = "Improved Shield Bash"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Shield%20Bash"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_shield_bash", path = "json/feat09.json" },

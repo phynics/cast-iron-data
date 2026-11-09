@@ -2,6 +2,7 @@
 id = "ref/trait/suck-in-your-gut"
 kind = "trait"
 title = "Suck in Your Gut"
+aon = "TraitDisplay.aspx?ItemName=Suck%20in%20Your%20Gut"
 source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "suck_in_your_gut", path = "json/traits04.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/trapper"
 kind = "archetype"
 title = "Trapper"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Trapper"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trapper", path = "json/archetypes_ranger.json" },

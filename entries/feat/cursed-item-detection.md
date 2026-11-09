@@ -2,6 +2,7 @@
 id = "ref/feat/cursed-item-detection"
 kind = "feat"
 title = "Cursed Item Detection"
+aon = "FeatDisplay.aspx?ItemName=Cursed%20Item%20Detection"
 source_ids = ["dungeoneers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cursed_item_detection", path = "json/feat04.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/bleed"
 kind = "spell"
 title = "Bleed"
+aon = "SpellDisplay.aspx?ItemName=Bleed"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bleed", path = "json/spells12.json" },

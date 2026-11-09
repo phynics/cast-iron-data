@@ -2,6 +2,7 @@
 id = "ref/trait/propitiation"
 kind = "trait"
 title = "Propitiation"
+aon = "TraitDisplay.aspx?ItemName=Propitiation"
 source_ids = ["inner-sea-gods", "faiths-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "propitiation", path = "json/traits03.json" },

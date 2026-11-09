@@ -2,6 +2,7 @@
 id = "ref/feat/disable-dweomer"
 kind = "feat"
 title = "Disable Dweomer"
+aon = "FeatDisplay.aspx?ItemName=Disable%20Dweomer"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disable_dweomer", path = "json/feat04.json" },

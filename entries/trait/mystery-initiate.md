@@ -2,6 +2,7 @@
 id = "ref/trait/mystery-initiate"
 kind = "trait"
 title = "Mystery Initiate"
+aon = "TraitDisplay.aspx?ItemName=Mystery%20Initiate"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mystery_initiate", path = "json/traits01.json" },

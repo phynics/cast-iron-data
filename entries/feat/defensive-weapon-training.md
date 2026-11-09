@@ -2,6 +2,7 @@
 id = "ref/feat/defensive-weapon-training"
 kind = "feat"
 title = "Defensive Weapon Training"
+aon = "FeatDisplay.aspx?ItemName=Defensive%20Weapon%20Training"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "defensive_weapon_training", path = "json/feat04.json" },

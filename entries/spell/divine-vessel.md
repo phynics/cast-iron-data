@@ -2,6 +2,7 @@
 id = "ref/spell/divine-vessel"
 kind = "spell"
 title = "Divine Vessel"
+aon = "SpellDisplay.aspx?ItemName=Divine%20Vessel"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divine_vessel", path = "json/spells13.json" },

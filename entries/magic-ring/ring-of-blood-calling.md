@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-blood-calling"
 kind = "item"
 title = "Ring of Blood Calling"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Blood%20Calling"
 source_ids = ["pathfinder-106-for-queen-and-empire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_blood_calling", path = "json/magic_ring.json" },

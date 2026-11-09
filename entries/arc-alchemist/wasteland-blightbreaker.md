@@ -2,6 +2,7 @@
 id = "ref/arc-alchemist/wasteland-blightbreaker"
 kind = "archetype"
 title = "Wasteland Blightbreaker"
+aon = "ArchetypeDisplay.aspx?FixedName=Alchemist%20Wasteland%20Blightbreaker"
 source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wasteland_blightbreaker", path = "json/archetypes_alchemist2.json" },

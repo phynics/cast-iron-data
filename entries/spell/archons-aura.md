@@ -2,6 +2,7 @@
 id = "ref/spell/archons-aura"
 kind = "spell"
 title = "Archon's Aura"
+aon = "SpellDisplay.aspx?ItemName=Archon%27s%20Aura"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "archons_aura", path = "json/spells.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/rousing-courage"
 kind = "trait"
 title = "Rousing Courage"
+aon = "TraitDisplay.aspx?ItemName=Rousing%20Courage"
 source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rousing_courage", path = "json/traits03.json" },

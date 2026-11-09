@@ -2,6 +2,7 @@
 id = "ref/spell/continual-flame"
 kind = "spell"
 title = "Continual Flame"
+aon = "SpellDisplay.aspx?ItemName=Continual%20Flame"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "continual_flame", path = "json/spells12.json" },

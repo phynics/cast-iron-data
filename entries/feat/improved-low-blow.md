@@ -2,6 +2,7 @@
 id = "ref/feat/improved-low-blow"
 kind = "feat"
 title = "Improved Low Blow"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Low%20Blow"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_low_blow", path = "json/feat09.json" },

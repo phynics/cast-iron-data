@@ -2,6 +2,7 @@
 id = "ref/spell/reveal-mirage"
 kind = "spell"
 title = "Reveal Mirage"
+aon = "SpellDisplay.aspx?ItemName=Reveal%20Mirage"
 source_ids = ["osirion-legacy-of-the-pharaohs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reveal_mirage", path = "json/spells8.json" },

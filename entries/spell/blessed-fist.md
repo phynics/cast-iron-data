@@ -2,6 +2,7 @@
 id = "ref/spell/blessed-fist"
 kind = "spell"
 title = "Blessed Fist"
+aon = "SpellDisplay.aspx?ItemName=Blessed%20Fist"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blessed_fist", path = "json/spells12.json" },

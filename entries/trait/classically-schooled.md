@@ -2,6 +2,7 @@
 id = "ref/trait/classically-schooled"
 kind = "trait"
 title = "Classically Schooled"
+aon = "TraitDisplay.aspx?ItemName=Classically%20Schooled"
 source_ids = ["ultimate-campaign", "advanced-players-guide", "second-darkness-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "classically_schooled", path = "json/traits02.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/bounteous-body"
 kind = "feat"
 title = "Bounteous Body"
+aon = "FeatDisplay.aspx?ItemName=Bounteous%20Body"
 source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bounteous_body", path = "json/feat02.json" },

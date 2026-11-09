@@ -2,6 +2,7 @@
 id = "ref/trait/kwanlai-believer"
 kind = "trait"
 title = "Kwanlai Believer"
+aon = "TraitDisplay.aspx?ItemName=Kwanlai%20Believer"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kwanlai_believer", path = "json/traits04.json" },

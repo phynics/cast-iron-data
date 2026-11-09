@@ -2,6 +2,7 @@
 id = "ref/spell/life-current"
 kind = "spell"
 title = "Life Current"
+aon = "SpellDisplay.aspx?ItemName=Life%20Current"
 source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "life_current", path = "json/spells6.json" },

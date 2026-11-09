@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/robe-of-vermin"
 kind = "item"
 title = "Robe of Vermin"
+aon = "MagicCursedDisplay.aspx?ItemName=Robe%20of%20Vermin"
 source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "robe_of_vermin", path = "json/magic_wondrous_belt_body_chest.json" },

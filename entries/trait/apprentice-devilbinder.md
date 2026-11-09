@@ -2,6 +2,7 @@
 id = "ref/trait/apprentice-devilbinder"
 kind = "trait"
 title = "Apprentice Devilbinder"
+aon = "TraitDisplay.aspx?ItemName=Apprentice%20Devilbinder"
 source_ids = ["hells-vengeance-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "apprentice_devilbinder", path = "json/traits02.json" },

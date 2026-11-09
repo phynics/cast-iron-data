@@ -2,6 +2,7 @@
 id = "ref/feat/improved-bravery"
 kind = "feat"
 title = "Improved Bravery"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Bravery"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_bravery", path = "json/feat08.json" },

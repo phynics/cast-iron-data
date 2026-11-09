@@ -2,6 +2,7 @@
 id = "ref/arc-witch/synergist"
 kind = "archetype"
 title = "Synergist"
+aon = "ArchetypeDisplay.aspx?FixedName=Witch%20Synergist"
 source_ids = ["familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "synergist", path = "json/archetypes_witch.json" },

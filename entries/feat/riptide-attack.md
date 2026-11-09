@@ -2,6 +2,7 @@
 id = "ref/feat/riptide-attack"
 kind = "feat"
 title = "Riptide Attack"
+aon = "FeatDisplay.aspx?ItemName=Riptide%20Attack"
 source_ids = ["inner-sea-gods", "faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "riptide_attack", path = "json/feat13.json" },

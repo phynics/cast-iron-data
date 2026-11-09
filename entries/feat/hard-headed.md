@@ -2,6 +2,7 @@
 id = "ref/feat/hard-headed"
 kind = "feat"
 title = "Hard-Headed"
+aon = "FeatDisplay.aspx?ItemName=Hard-Headed"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hard_headed", path = "json/feat08.json" },

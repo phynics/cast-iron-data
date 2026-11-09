@@ -2,6 +2,7 @@
 id = "ref/feat/agent-of-purity"
 kind = "feat"
 title = "Agent of Purity"
+aon = "FeatDisplay.aspx?ItemName=Agent%20of%20Purity"
 source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "agent_of_purity", path = "json/feat01.json" },

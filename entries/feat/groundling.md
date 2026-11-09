@@ -2,6 +2,7 @@
 id = "ref/feat/groundling"
 kind = "feat"
 title = "Groundling"
+aon = "FeatDisplay.aspx?ItemName=Groundling"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "groundling", path = "json/feat08.json" },

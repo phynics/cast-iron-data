@@ -2,6 +2,7 @@
 id = "ref/feat/gnawer"
 kind = "feat"
 title = "Gnawer"
+aon = "FeatDisplay.aspx?ItemName=Gnawer"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gnawer", path = "json/feat07.json" },

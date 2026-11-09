@@ -2,6 +2,7 @@
 id = "ref/trait/glint-tongued"
 kind = "trait"
 title = "Glint-Tongued"
+aon = "TraitDisplay.aspx?ItemName=Glint-Tongued"
 source_ids = ["people-of-the-north"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "glint_tongued", path = "json/traits05.json" },

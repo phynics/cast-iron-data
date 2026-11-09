@@ -2,6 +2,7 @@
 id = "ref/spell/thought-shield-5"
 kind = "spell"
 title = "Thought Shield V"
+aon = "SpellDisplay.aspx?ItemName=Thought%20Shield%20V"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thought_shield_5", path = "json/spells10.json" },

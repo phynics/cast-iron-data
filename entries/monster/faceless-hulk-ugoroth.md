@@ -2,6 +2,7 @@
 id = "ref/monster/faceless-hulk-ugoroth"
 kind = "creature"
 title = "Faceless Hulk (Ugoroth)"
+aon = "MonsterDisplay.aspx?ItemName=Faceless%20Hulk%20%28Ugoroth%29"
 source_ids = ["pathfinder-110-the-thrushmoor-terror"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "faceless_hulk_ugoroth", path = "json/monsters10.json" },

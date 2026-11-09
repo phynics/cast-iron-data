@@ -2,6 +2,7 @@
 id = "ref/spell/charitable-impulse"
 kind = "spell"
 title = "Charitable Impulse"
+aon = "SpellDisplay.aspx?ItemName=Charitable%20Impulse"
 source_ids = ["chronicle-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charitable_impulse", path = "json/spells2.json" },

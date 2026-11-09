@@ -2,6 +2,7 @@
 id = "ref/monster/balravnus"
 kind = "creature"
 title = "Balravnus, Lord of the Deep Pools"
+aon = "MonsterDisplay.aspx?ItemName=Balravnus%2C%20Lord%20of%20the%20Deep%20Pools"
 source_ids = ["demons-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "balravnus", path = "json/monsters_unique.json" },

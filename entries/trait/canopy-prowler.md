@@ -2,6 +2,7 @@
 id = "ref/trait/canopy-prowler"
 kind = "trait"
 title = "Canopy Prowler"
+aon = "TraitDisplay.aspx?ItemName=Canopy%20Prowler"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "canopy_prowler", path = "json/traits05.json" },

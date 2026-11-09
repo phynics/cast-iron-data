@@ -2,6 +2,7 @@
 id = "ref/trait/vindictive-strike"
 kind = "trait"
 title = "Vindictive Strike"
+aon = "TraitDisplay.aspx?ItemName=Vindictive%20Strike"
 source_ids = ["faiths-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vindictive_strike", path = "json/traits03.json" },

@@ -2,6 +2,7 @@
 id = "ref/carried/advanced-race-guide/races/halflings/new-racial-rules/halfling-spells/blessing-of-luck-and-resolve/mass"
 kind = "spell"
 title = "Blessing Of Luck And Resolve, Mass"
+aon = "SpellDisplay.aspx?ItemName=Blessing%20of%20Luck%20and%20Resolve%2C%20Mass"
 source_ids = ["advanced-race-guide"]
 section = ["Races", "Halflings", "New Racial Rules", "Halfling Spells", "Blessing Of Luck And Resolve"]
 tags = ["enchantment", "compulsion", "mind-affecting"]

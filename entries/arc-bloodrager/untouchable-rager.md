@@ -2,6 +2,7 @@
 id = "ref/arc-bloodrager/untouchable-rager"
 kind = "archetype"
 title = "Untouchable Rager"
+aon = "ArchetypeDisplay.aspx?FixedName=Bloodrager%20Untouchable%20Rager"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "untouchable_rager", path = "json/archetypes_bloodrager.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/ghoul-leng-ghoul"
 kind = "creature"
 title = "Leng Ghoul"
+aon = "MonsterDisplay.aspx?ItemName=Leng%20Ghoul"
 source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghoul_leng_ghoul", path = "json/monsters11.json" },

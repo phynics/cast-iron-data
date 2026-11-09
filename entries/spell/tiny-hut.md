@@ -2,6 +2,7 @@
 id = "ref/spell/tiny-hut"
 kind = "spell"
 title = "Tiny Hut"
+aon = "SpellDisplay.aspx?ItemName=Tiny%20Hut"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tiny_hut", path = "json/spells10.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-oracle/dual-cursed-oracle"
 kind = "archetype"
 title = "Dual-Cursed Oracle"
+aon = "ArchetypeDisplay.aspx?FixedName=Oracle%20Dual-Cursed%20Oracle"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dual_cursed_oracle", path = "json/archetypes_oracle.json" },

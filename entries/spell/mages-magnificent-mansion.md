@@ -2,6 +2,7 @@
 id = "ref/spell/mages-magnificent-mansion"
 kind = "spell"
 title = "Mage's Magnificent Mansion"
+aon = "SpellDisplay.aspx?ItemName=Mage%27s%20Magnificent%20Mansion"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mages_magnificent_mansion", path = "json/spells6.json" },

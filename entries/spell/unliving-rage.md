@@ -2,6 +2,7 @@
 id = "ref/spell/unliving-rage"
 kind = "spell"
 title = "Unliving Rage"
+aon = "SpellDisplay.aspx?ItemName=Unliving%20Rage"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unliving_rage", path = "json/spells11.json" },

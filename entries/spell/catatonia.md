@@ -2,6 +2,7 @@
 id = "ref/spell/catatonia"
 kind = "spell"
 title = "Catatonia"
+aon = "SpellDisplay.aspx?ItemName=Catatonia"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "catatonia", path = "json/spells2.json" },

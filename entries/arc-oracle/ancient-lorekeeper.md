@@ -2,6 +2,7 @@
 id = "ref/arc-oracle/ancient-lorekeeper"
 kind = "archetype"
 title = "Ancient Lorekeeper"
+aon = "ArchetypeDisplay.aspx?FixedName=Oracle%20Ancient%20Lorekeeper"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ancient_lorekeeper", path = "json/archetypes_oracle.json" },

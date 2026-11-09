@@ -2,6 +2,7 @@
 id = "ref/arc-bard/arrowsong-minstrel"
 kind = "archetype"
 title = "Arrowsong Minstrel"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Arrowsong%20Minstrel"
 source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arrowsong_minstrel", path = "json/archetypes_bard.json" },

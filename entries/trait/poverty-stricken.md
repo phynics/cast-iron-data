@@ -2,6 +2,7 @@
 id = "ref/trait/poverty-stricken"
 kind = "trait"
 title = "Poverty-Stricken"
+aon = "TraitDisplay.aspx?ItemName=Poverty-Stricken"
 source_ids = ["ultimate-campaign", "second-darkness-players-guide", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "poverty_stricken", path = "json/traits01.json" },

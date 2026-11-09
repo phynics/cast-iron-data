@@ -2,6 +2,7 @@
 id = "ref/trait/elven-serenity"
 kind = "trait"
 title = "Elven Serenity"
+aon = "TraitDisplay.aspx?ItemName=Elven%20Serenity"
 source_ids = ["bastards-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elven_serenity", path = "json/traits05.json" },

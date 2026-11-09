@@ -2,6 +2,7 @@
 id = "ref/trait/scarred-by-space-pirates"
 kind = "trait"
 title = "Scarred by Space Pirates"
+aon = "TraitDisplay.aspx?ItemName=Scarred%20by%20Space%20Pirates"
 source_ids = ["people-of-the-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scarred_by_space_pirates", path = "json/traits01.json" },

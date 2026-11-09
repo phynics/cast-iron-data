@@ -2,6 +2,7 @@
 id = "ref/trait/debauchery-defier"
 kind = "trait"
 title = "Debauchery Defier"
+aon = "TraitDisplay.aspx?ItemName=Debauchery%20Defier"
 source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "debauchery_defier", path = "json/traits01.json" },

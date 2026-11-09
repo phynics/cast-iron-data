@@ -2,6 +2,7 @@
 id = "ref/arc-magus/magic-warrior"
 kind = "archetype"
 title = "Magic Warrior"
+aon = "ArchetypeDisplay.aspx?FixedName=Magus%20Magic%20Warrior"
 source_ids = ["adventurers-guide", "inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_warrior", path = "json/archetypes_magus.json" },

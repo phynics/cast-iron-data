@@ -2,6 +2,7 @@
 id = "ref/arc-spiritualist/ward-spiritualist"
 kind = "archetype"
 title = "Ward Spiritualist"
+aon = "ArchetypeDisplay.aspx?FixedName=Spiritualist%20Ward%20Spiritualist"
 source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ward_spiritualist", path = "json/archetypes_spiritualist.json" },

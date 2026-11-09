@@ -2,6 +2,7 @@
 id = "ref/feat/telepathic-distraction"
 kind = "feat"
 title = "Telepathic Distraction"
+aon = "FeatDisplay.aspx?ItemName=Telepathic%20Distraction"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "telepathic_distraction", path = "json/feat16.json" },

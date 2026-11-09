@@ -2,6 +2,7 @@
 id = "ref/feat/second-wind"
 kind = "feat"
 title = "Second Wind"
+aon = "FeatDisplay.aspx?ItemName=Second%20Wind"
 source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "second_wind", path = "json/feat13.json" },

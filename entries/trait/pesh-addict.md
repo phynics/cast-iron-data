@@ -2,6 +2,7 @@
 id = "ref/trait/pesh-addict"
 kind = "trait"
 title = "Pesh Addict"
+aon = "TraitDisplay.aspx?ItemName=Pesh%20Addict"
 source_ids = ["inner-sea-primer", "legacy-of-fire-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pesh_addict", path = "json/traits04.json" },

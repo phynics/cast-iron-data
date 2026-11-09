@@ -2,6 +2,7 @@
 id = "ref/feat/wall-of-flesh"
 kind = "feat"
 title = "Wall of Flesh"
+aon = "FeatDisplay.aspx?ItemName=Wall%20of%20Flesh"
 source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wall_of_flesh", path = "json/feat17.json" },

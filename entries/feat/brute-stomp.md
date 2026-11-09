@@ -2,6 +2,7 @@
 id = "ref/feat/brute-stomp"
 kind = "feat"
 title = "Brute Stomp"
+aon = "FeatDisplay.aspx?ItemName=Brute%20Stomp"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brute_stomp", path = "json/feat02.json" },

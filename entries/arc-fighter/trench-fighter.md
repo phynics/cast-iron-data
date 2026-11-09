@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/trench-fighter"
 kind = "archetype"
 title = "Trench Fighter"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Trench%20Fighter"
 source_ids = ["pathfinder-71-rasputin-must-die"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trench_fighter", path = "json/archetypes_fighter2.json" },

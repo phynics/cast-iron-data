@@ -2,6 +2,7 @@
 id = "ref/spell/dancing-lights"
 kind = "spell"
 title = "Dancing Lights"
+aon = "SpellDisplay.aspx?ItemName=Dancing%20Lights"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dancing_lights", path = "json/spells3.json" },

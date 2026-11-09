@@ -2,6 +2,7 @@
 id = "ref/carried/advanced-players-guide/spells/shared-wrath"
 kind = "spell"
 title = "Shared Wrath"
+aon = "SpellDisplay.aspx?ItemName=Shared%20Wrath"
 source_ids = ["advanced-players-guide"]
 section = ["Spells"]
 tags = ["enchantment", "compulsion", "emotion", "mind-affecting"]

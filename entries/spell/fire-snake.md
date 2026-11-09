@@ -2,6 +2,7 @@
 id = "ref/spell/fire-snake"
 kind = "spell"
 title = "Fire Snake"
+aon = "SpellDisplay.aspx?ItemName=Fire%20Snake"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fire_snake", path = "json/spells4.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-bard/plant-speaker"
 kind = "archetype"
 title = "Plant Speaker"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Plant%20Speaker"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plant_speaker", path = "json/archetypes_bard2.json" },

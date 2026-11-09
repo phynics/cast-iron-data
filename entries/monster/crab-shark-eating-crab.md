@@ -2,6 +2,7 @@
 id = "ref/monster/crab-shark-eating-crab"
 kind = "creature"
 title = "Shark-Eating Crab"
+aon = "MonsterDisplay.aspx?ItemName=Shark-Eating%20Crab"
 source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crab_shark_eating_crab", path = "json/monsters28.json" },

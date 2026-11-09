@@ -2,6 +2,7 @@
 id = "ref/feat/cloak-and-dagger-style"
 kind = "feat"
 title = "Cloak and Dagger Style"
+aon = "FeatDisplay.aspx?ItemName=Cloak%20and%20Dagger%20Style"
 source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloak_and_dagger_style", path = "json/feat03.json" },

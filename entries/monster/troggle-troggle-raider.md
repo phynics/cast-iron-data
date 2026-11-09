@@ -2,6 +2,7 @@
 id = "ref/monster/troggle-troggle-raider"
 kind = "creature"
 title = "Troggle Raider"
+aon = "MonsterDisplay.aspx?ItemName=Troggle%20Raider"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "troggle_troggle_raider", path = "json/monsters23.json" },

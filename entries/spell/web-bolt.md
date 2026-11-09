@@ -2,6 +2,7 @@
 id = "ref/spell/web-bolt"
 kind = "spell"
 title = "Web Bolt"
+aon = "SpellDisplay.aspx?ItemName=Web%20Bolt"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "web_bolt", path = "json/spells11.json" },

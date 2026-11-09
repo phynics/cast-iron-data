@@ -2,6 +2,7 @@
 id = "ref/feat/careful-sneak"
 kind = "feat"
 title = "Careful Sneak"
+aon = "FeatDisplay.aspx?ItemName=Careful%20Sneak"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "careful_sneak", path = "json/feat02.json" },

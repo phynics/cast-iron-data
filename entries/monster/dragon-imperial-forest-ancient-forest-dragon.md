@@ -2,6 +2,7 @@
 id = "ref/monster/dragon-imperial-forest-ancient-forest-dragon"
 kind = "creature"
 title = "Ancient Forest Dragon"
+aon = "MonsterDisplay.aspx?ItemName=Ancient%20Forest%20Dragon"
 source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_imperial_forest_ancient_forest_dragon", path = "json/monsters31.json" },

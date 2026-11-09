@@ -2,6 +2,7 @@
 id = "ref/trait/blade-of-the-society"
 kind = "trait"
 title = "Blade of the Society"
+aon = "TraitDisplay.aspx?ItemName=Blade%20of%20the%20Society"
 source_ids = ["shattered-star-players-guide", "faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blade_of_the_society", path = "json/traits01.json" },

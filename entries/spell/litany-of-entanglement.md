@@ -2,6 +2,7 @@
 id = "ref/spell/litany-of-entanglement"
 kind = "spell"
 title = "Litany of Entanglement"
+aon = "SpellDisplay.aspx?ItemName=Litany%20of%20Entanglement"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "litany_of_entanglement", path = "json/spells6.json" },

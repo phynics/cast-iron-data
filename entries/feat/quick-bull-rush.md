@@ -2,6 +2,7 @@
 id = "ref/feat/quick-bull-rush"
 kind = "feat"
 title = "Quick Bull Rush"
+aon = "FeatDisplay.aspx?ItemName=Quick%20Bull%20Rush"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quick_bull_rush", path = "json/feat12.json" },

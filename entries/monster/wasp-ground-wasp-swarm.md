@@ -2,6 +2,7 @@
 id = "ref/monster/wasp-ground-wasp-swarm"
 kind = "creature"
 title = "Ground Wasp Swarm"
+aon = "MonsterDisplay.aspx?ItemName=Ground%20Wasp%20Swarm"
 source_ids = ["pathfinder-79-the-half-dead-city"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wasp_ground_wasp_swarm", path = "json/monsters25.json" },

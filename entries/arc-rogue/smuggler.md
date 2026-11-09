@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/smuggler"
 kind = "archetype"
 title = "Smuggler"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Smuggler"
 source_ids = ["pirates-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "smuggler", path = "json/archetypes_rogue.json" },

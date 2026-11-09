@@ -2,6 +2,7 @@
 id = "ref/arc-paladin/holy-guide"
 kind = "archetype"
 title = "Holy Guide"
+aon = "ArchetypeDisplay.aspx?FixedName=Paladin%20Holy%20Guide"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "holy_guide", path = "json/archetypes_paladin.json" },

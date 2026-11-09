@@ -2,6 +2,7 @@
 id = "ref/monster/ape-dire-ape-gigantopithecus"
 kind = "creature"
 title = "Dire Ape (Gigantopithecus)"
+aon = "MonsterDisplay.aspx?ItemName=Dire%20Ape%20%28Gigantopithecus%29"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ape_dire_ape_gigantopithecus", path = "json/monsters02.json" },

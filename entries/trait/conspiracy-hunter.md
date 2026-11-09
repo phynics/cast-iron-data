@@ -2,6 +2,7 @@
 id = "ref/trait/conspiracy-hunter"
 kind = "trait"
 title = "Conspiracy Hunter"
+aon = "TraitDisplay.aspx?ItemName=Conspiracy%20Hunter"
 source_ids = ["council-of-thieves-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "conspiracy_hunter", path = "json/traits02.json" },

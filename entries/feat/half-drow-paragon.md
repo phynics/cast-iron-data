@@ -2,6 +2,7 @@
 id = "ref/feat/half-drow-paragon"
 kind = "feat"
 title = "Half-Drow Paragon"
+aon = "FeatDisplay.aspx?ItemName=Half-Drow%20Paragon"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "half_drow_paragon", path = "json/feat08.json" },

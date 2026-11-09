@@ -2,6 +2,7 @@
 id = "ref/feat/joined-wings"
 kind = "feat"
 title = "Joined Wings"
+aon = "FeatDisplay.aspx?ItemName=Joined%20Wings"
 source_ids = ["distant-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "joined_wings", path = "json/feat09.json" },

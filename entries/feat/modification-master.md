@@ -2,6 +2,7 @@
 id = "ref/feat/modification-master"
 kind = "feat"
 title = "Modification Master"
+aon = "FeatDisplay.aspx?ItemName=Modification%20Master"
 source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "modification_master", path = "json/feat11.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/net-and-trident"
 kind = "feat"
 title = "Net and Trident"
+aon = "FeatDisplay.aspx?ItemName=Net%20and%20Trident"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "net_and_trident", path = "json/feat11.json" },

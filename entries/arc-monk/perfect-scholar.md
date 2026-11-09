@@ -2,6 +2,7 @@
 id = "ref/arc-monk/perfect-scholar"
 kind = "archetype"
 title = "Perfect Scholar"
+aon = "ArchetypeDisplay.aspx?FixedName=Monk%20Perfect%20Scholar"
 source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "perfect_scholar", path = "json/archetypes_monk2.json" },

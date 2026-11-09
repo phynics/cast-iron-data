@@ -2,6 +2,7 @@
 id = "ref/spell/funereal-weapon"
 kind = "spell"
 title = "Funereal Weapon"
+aon = "SpellDisplay.aspx?ItemName=Funereal%20Weapon"
 source_ids = ["inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "funereal_weapon", path = "json/spells13.json" },

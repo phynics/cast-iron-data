@@ -2,6 +2,7 @@
 id = "ref/trait/pattern-seeker"
 kind = "trait"
 title = "Pattern Seeker"
+aon = "TraitDisplay.aspx?ItemName=Pattern%20Seeker"
 source_ids = ["hells-rebels-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pattern_seeker", path = "json/traits02.json" },

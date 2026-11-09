@@ -2,6 +2,7 @@
 id = "ref/feat/convincing-persona"
 kind = "feat"
 title = "Convincing Persona"
+aon = "FeatDisplay.aspx?ItemName=Convincing%20Persona"
 source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "convincing_persona", path = "json/feat03.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/authoritarian"
 kind = "trait"
 title = "Authoritarian"
+aon = "TraitDisplay.aspx?ItemName=Authoritarian"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "authoritarian", path = "json/traits01.json" },

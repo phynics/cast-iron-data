@@ -2,6 +2,7 @@
 id = "ref/feat/bag-of-bones"
 kind = "feat"
 title = "Bag of Bones"
+aon = "FeatDisplay.aspx?ItemName=Bag%20of%20Bones"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bag_of_bones", path = "json/feat01.json" },

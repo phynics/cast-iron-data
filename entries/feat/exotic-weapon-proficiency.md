@@ -2,6 +2,7 @@
 id = "ref/feat/exotic-weapon-proficiency"
 kind = "feat"
 title = "Exotic Weapon Proficiency"
+aon = "FeatDisplay.aspx?ItemName=Exotic%20Weapon%20Proficiency"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "exotic_weapon_proficiency", path = "json/feat06.json" },

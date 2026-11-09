@@ -2,6 +2,7 @@
 id = "ref/carried/ultimate-equipment/rules/artifacts-and-other-items/cursed-items/specific-cursed-items/one-way-window"
 kind = "item"
 title = "One-Way Window"
+aon = "MagicCursedDisplay.aspx?ItemName=One-Way%20Window"
 source_ids = ["ultimate-equipment"]
 section = ["Rules", "Artifacts and Other Items", "Cursed Items", "Specific Cursed Items"]
 provenance = [

@@ -2,6 +2,7 @@
 id = "ref/feat/gluttonous-gobbler"
 kind = "feat"
 title = "Gluttonous Gobbler"
+aon = "FeatDisplay.aspx?ItemName=Gluttonous%20Gobbler"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gluttonous_gobbler", path = "json/feat07.json" },

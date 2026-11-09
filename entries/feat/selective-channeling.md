@@ -2,6 +2,7 @@
 id = "ref/feat/selective-channeling"
 kind = "feat"
 title = "Selective Channeling"
+aon = "FeatDisplay.aspx?ItemName=Selective%20Channeling"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "selective_channeling", path = "json/feat13.json" },

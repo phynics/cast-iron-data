@@ -2,6 +2,7 @@
 id = "ref/class/barbarian"
 kind = "class"
 title = "Barbarian"
+aon = "ClassDisplay.aspx?ItemName=Barbarian"
 source_ids = ["core-rulebook", "advanced-players-guide", "advanced-race-guide", "blood-of-shadows", "blood-of-the-beast", "chronicle-of-legends", "horror-adventures", "kobolds-of-golarion", "monster-codex", "ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "barbarian", path = "json/classes7.json" },

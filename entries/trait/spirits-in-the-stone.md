@@ -2,6 +2,7 @@
 id = "ref/trait/spirits-in-the-stone"
 kind = "trait"
 title = "Spirits in the Stone"
+aon = "TraitDisplay.aspx?ItemName=Spirits%20in%20the%20Stone"
 source_ids = ["legacy-of-fire-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spirits_in_the_stone", path = "json/traits05.json" },

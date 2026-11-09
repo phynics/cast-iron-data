@@ -2,6 +2,7 @@
 id = "ref/trait/cosmopolitan"
 kind = "trait"
 title = "Cosmopolitan"
+aon = "TraitDisplay.aspx?ItemName=Cosmopolitan"
 source_ids = ["dragon-empires-primer", "inner-sea-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cosmopolitan", path = "json/traits04.json" },

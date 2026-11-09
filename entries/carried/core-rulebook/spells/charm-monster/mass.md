@@ -2,6 +2,7 @@
 id = "ref/carried/core-rulebook/spells/charm-monster/mass"
 kind = "spell"
 title = "Charm Monster, Mass"
+aon = "SpellDisplay.aspx?ItemName=Charm%20Monster%2C%20Mass"
 source_ids = ["core-rulebook"]
 section = ["Spells", "Charm Monster"]
 tags = ["enchantment", "charm", "mind-affecting"]

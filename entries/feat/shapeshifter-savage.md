@@ -2,6 +2,7 @@
 id = "ref/feat/shapeshifter-savage"
 kind = "feat"
 title = "Shapeshifter Savage"
+aon = "FeatDisplay.aspx?ItemName=Shapeshifter%20Savage"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shapeshifter_savage", path = "json/feat14.json" },

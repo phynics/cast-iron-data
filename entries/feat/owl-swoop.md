@@ -2,6 +2,7 @@
 id = "ref/feat/owl-swoop"
 kind = "feat"
 title = "Owl Swoop"
+aon = "FeatDisplay.aspx?ItemName=Owl%20Swoop"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "owl_swoop", path = "json/feat11.json" },

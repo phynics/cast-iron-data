@@ -2,6 +2,7 @@
 id = "ref/spell/mirror-image"
 kind = "spell"
 title = "Mirror Image"
+aon = "SpellDisplay.aspx?ItemName=Mirror%20Image"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mirror_image", path = "json/spells14.json" },

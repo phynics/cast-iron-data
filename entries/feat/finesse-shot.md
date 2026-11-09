@@ -2,6 +2,7 @@
 id = "ref/feat/finesse-shot"
 kind = "feat"
 title = "Finesse Shot"
+aon = "FeatDisplay.aspx?ItemName=Finesse%20Shot"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "finesse_shot", path = "json/feat07.json" },

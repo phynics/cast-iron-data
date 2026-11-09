@@ -2,6 +2,7 @@
 id = "ref/arc-bard/speaker-of-the-palatine-eye"
 kind = "archetype"
 title = "Speaker of the Palatine Eye"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Speaker%20of%20the%20Palatine%20Eye"
 source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "speaker_of_the_palatine_eye", path = "json/archetypes_bard2.json" },

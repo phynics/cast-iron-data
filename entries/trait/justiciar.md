@@ -2,6 +2,7 @@
 id = "ref/trait/justiciar"
 kind = "trait"
 title = "Justiciar"
+aon = "TraitDisplay.aspx?ItemName=Justiciar"
 source_ids = ["champions-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "justiciar", path = "json/traits04.json" },

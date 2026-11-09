@@ -2,6 +2,7 @@
 id = "ref/feat/ricochet-toss"
 kind = "feat"
 title = "Ricochet Toss"
+aon = "FeatDisplay.aspx?ItemName=Ricochet%20Toss"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ricochet_toss", path = "json/feat13.json" },

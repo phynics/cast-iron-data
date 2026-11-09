@@ -2,6 +2,7 @@
 id = "ref/trait/dominator"
 kind = "trait"
 title = "Dominator"
+aon = "TraitDisplay.aspx?ItemName=Dominator"
 source_ids = ["inner-sea-primer", "orcs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dominator", path = "json/traits04.json" },

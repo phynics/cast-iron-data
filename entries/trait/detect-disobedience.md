@@ -2,6 +2,7 @@
 id = "ref/trait/detect-disobedience"
 kind = "trait"
 title = "Detect Disobedience"
+aon = "TraitDisplay.aspx?ItemName=Detect%20Disobedience"
 source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "detect_disobedience", path = "json/traits01.json" },

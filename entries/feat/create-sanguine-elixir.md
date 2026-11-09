@@ -2,6 +2,7 @@
 id = "ref/feat/create-sanguine-elixir"
 kind = "feat"
 title = "Create Sanguine Elixir"
+aon = "FeatDisplay.aspx?ItemName=Create%20Sanguine%20Elixir"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "create_sanguine_elixir", path = "json/feat03.json" },

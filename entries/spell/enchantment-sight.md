@@ -2,6 +2,7 @@
 id = "ref/spell/enchantment-sight"
 kind = "spell"
 title = "Enchantment Sight"
+aon = "SpellDisplay.aspx?ItemName=Enchantment%20Sight"
 source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enchantment_sight", path = "json/spells4.json" },

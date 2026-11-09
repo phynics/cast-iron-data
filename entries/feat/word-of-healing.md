@@ -2,6 +2,7 @@
 id = "ref/feat/word-of-healing"
 kind = "feat"
 title = "Word of Healing"
+aon = "FeatDisplay.aspx?ItemName=Word%20of%20Healing"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "word_of_healing", path = "json/feat17.json" },

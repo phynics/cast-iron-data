@@ -2,6 +2,7 @@
 id = "ref/feat/primal-bloom"
 kind = "feat"
 title = "Primal Bloom"
+aon = "FeatDisplay.aspx?ItemName=Primal%20Bloom"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "primal_bloom", path = "json/feat12.json" },

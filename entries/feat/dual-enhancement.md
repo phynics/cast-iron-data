@@ -2,6 +2,7 @@
 id = "ref/feat/dual-enhancement"
 kind = "feat"
 title = "Dual Enhancement"
+aon = "FeatDisplay.aspx?ItemName=Dual%20Enhancement"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dual_enhancement", path = "json/feat05.json" },

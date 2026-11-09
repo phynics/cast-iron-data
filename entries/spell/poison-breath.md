@@ -2,6 +2,7 @@
 id = "ref/spell/poison-breath"
 kind = "spell"
 title = "Poison Breath"
+aon = "SpellDisplay.aspx?ItemName=Poison%20Breath"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "poison_breath", path = "json/spells7.json" },

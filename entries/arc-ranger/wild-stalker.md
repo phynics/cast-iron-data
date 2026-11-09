@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/wild-stalker"
 kind = "archetype"
 title = "Wild Stalker"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Wild%20Stalker"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wild_stalker", path = "json/archetypes_ranger.json" },

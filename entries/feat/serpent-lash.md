@@ -2,6 +2,7 @@
 id = "ref/feat/serpent-lash"
 kind = "feat"
 title = "Serpent Lash"
+aon = "FeatDisplay.aspx?ItemName=Serpent%20Lash"
 source_ids = ["rival-guide", "osirion-land-of-the-pharaohs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "serpent_lash", path = "json/feat13.json" },

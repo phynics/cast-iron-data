@@ -2,6 +2,7 @@
 id = "ref/trait/the-artisan"
 kind = "trait"
 title = "The Artisan"
+aon = "TraitDisplay.aspx?ItemName=The%20Artisan"
 source_ids = ["tyrants-grasp-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_artisan", path = "json/traits03.json" },

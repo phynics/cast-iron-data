@@ -2,6 +2,7 @@
 id = "ref/feat/orc-fury-style"
 kind = "feat"
 title = "Orc Fury Style"
+aon = "FeatDisplay.aspx?ItemName=Orc%20Fury%20Style"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "orc_fury_style", path = "json/feat11.json" },

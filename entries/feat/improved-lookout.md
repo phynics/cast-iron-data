@@ -2,6 +2,7 @@
 id = "ref/feat/improved-lookout"
 kind = "feat"
 title = "Improved Lookout"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Lookout"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_lookout", path = "json/feat09.json" },

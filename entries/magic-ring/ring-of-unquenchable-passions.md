@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-unquenchable-passions"
 kind = "item"
 title = "Ring of Unquenchable Passions"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Unquenchable%20Passions"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_unquenchable_passions", path = "json/magic_ring.json" },

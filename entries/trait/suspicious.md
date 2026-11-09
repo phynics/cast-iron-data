@@ -2,6 +2,7 @@
 id = "ref/trait/suspicious"
 kind = "trait"
 title = "Suspicious"
+aon = "TraitDisplay.aspx?ItemName=Suspicious"
 source_ids = ["ultimate-campaign", "second-darkness-players-guide", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "suspicious", path = "json/traits01.json" },

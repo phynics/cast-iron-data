@@ -2,6 +2,7 @@
 id = "ref/trait/passionate-inertia"
 kind = "trait"
 title = "Passionate Inertia"
+aon = "TraitDisplay.aspx?ItemName=Passionate%20Inertia"
 source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "passionate_inertia", path = "json/traits01.json" },

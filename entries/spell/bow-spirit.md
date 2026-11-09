@@ -2,6 +2,7 @@
 id = "ref/spell/bow-spirit"
 kind = "spell"
 title = "Bow Spirit"
+aon = "SpellDisplay.aspx?ItemName=Bow%20Spirit"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bow_spirit", path = "json/spells2.json" },

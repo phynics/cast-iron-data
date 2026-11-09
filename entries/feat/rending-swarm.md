@@ -2,6 +2,7 @@
 id = "ref/feat/rending-swarm"
 kind = "feat"
 title = "Rending Swarm"
+aon = "FeatDisplay.aspx?ItemName=Rending%20Swarm"
 source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rending_swarm", path = "json/feat13.json" },

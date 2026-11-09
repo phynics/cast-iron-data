@@ -2,6 +2,7 @@
 id = "ref/trait/spirit-animal"
 kind = "trait"
 title = "Spirit Animal"
+aon = "TraitDisplay.aspx?ItemName=Spirit%20Animal"
 source_ids = ["people-of-the-north"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spirit_animal", path = "json/traits04.json" },

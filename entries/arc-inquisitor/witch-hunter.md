@@ -2,6 +2,7 @@
 id = "ref/arc-inquisitor/witch-hunter"
 kind = "archetype"
 title = "Witch Hunter"
+aon = "ArchetypeDisplay.aspx?FixedName=Inquisitor%20Witch%20Hunter"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "witch_hunter", path = "json/archetypes_inquisitor.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/fire-trap"
 kind = "spell"
 title = "Fire Trap"
+aon = "SpellDisplay.aspx?ItemName=Fire%20Trap"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fire_trap", path = "json/spells4.json" },

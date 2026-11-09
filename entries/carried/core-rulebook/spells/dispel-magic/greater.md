@@ -2,6 +2,7 @@
 id = "ref/carried/core-rulebook/spells/dispel-magic/greater"
 kind = "spell"
 title = "Dispel Magic, Greater"
+aon = "SpellDisplay.aspx?ItemName=Dispel%20Magic%2C%20Greater"
 source_ids = ["core-rulebook"]
 section = ["Spells", "Dispel Magic"]
 tags = ["abjuration"]

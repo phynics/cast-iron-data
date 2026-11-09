@@ -2,6 +2,7 @@
 id = "ref/feat/expanded-arcana"
 kind = "feat"
 title = "Expanded Arcana"
+aon = "FeatDisplay.aspx?ItemName=Expanded%20Arcana"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "expanded_arcana", path = "json/feat06.json" },

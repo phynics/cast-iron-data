@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/pauldrons-of-the-jackass"
 kind = "item"
 title = "Pauldrons of the Jackass"
+aon = "MagicCursedDisplay.aspx?ItemName=Pauldrons%20of%20the%20Jackass"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pauldrons_of_the_jackass", path = "json/magic_wondrous_shoulders_wrists.json" },

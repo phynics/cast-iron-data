@@ -2,6 +2,7 @@
 id = "ref/feat/banish-possessor"
 kind = "feat"
 title = "Banish Possessor"
+aon = "FeatDisplay.aspx?ItemName=Banish%20Possessor"
 source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "banish_possessor", path = "json/feat01.json" },

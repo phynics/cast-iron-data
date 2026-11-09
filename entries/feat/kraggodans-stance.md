@@ -2,6 +2,7 @@
 id = "ref/feat/kraggodans-stance"
 kind = "feat"
 title = "Kraggodan's Stance"
+aon = "FeatDisplay.aspx?ItemName=Kraggodan%27s%20Stance"
 source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kraggodans_stance", path = "json/feat09.json" },

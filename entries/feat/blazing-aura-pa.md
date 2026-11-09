@@ -2,6 +2,7 @@
 id = "ref/feat/blazing-aura-pa"
 kind = "feat"
 title = "Blazing Aura (PA)"
+aon = "FeatDisplay.aspx?ItemName=Blazing%20Aura%20%28PA%29"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blazing_aura_pa", path = "json/feat02.json" },

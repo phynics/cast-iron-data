@@ -2,6 +2,7 @@
 id = "ref/feat/diverse-palate"
 kind = "feat"
 title = "Diverse Palate"
+aon = "FeatDisplay.aspx?ItemName=Diverse%20Palate"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "diverse_palate", path = "json/feat04.json" },

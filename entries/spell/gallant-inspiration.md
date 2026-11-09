@@ -2,6 +2,7 @@
 id = "ref/spell/gallant-inspiration"
 kind = "spell"
 title = "Gallant Inspiration"
+aon = "SpellDisplay.aspx?ItemName=Gallant%20Inspiration"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gallant_inspiration", path = "json/spells13.json" },

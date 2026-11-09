@@ -2,6 +2,7 @@
 id = "ref/spell/burning-hands"
 kind = "spell"
 title = "Burning Hands"
+aon = "SpellDisplay.aspx?ItemName=Burning%20Hands"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burning_hands", path = "json/spells2.json" },

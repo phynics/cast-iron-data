@@ -2,6 +2,7 @@
 id = "ref/spell/detect-anxieties"
 kind = "spell"
 title = "Detect Anxieties"
+aon = "SpellDisplay.aspx?ItemName=Detect%20Anxieties"
 source_ids = ["core-rulebook", "ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "detect_anxieties", path = "json/spells3.json" },

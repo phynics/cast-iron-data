@@ -2,6 +2,7 @@
 id = "ref/arc-alchemist/eldritch-poisoner"
 kind = "archetype"
 title = "Eldritch Poisoner"
+aon = "ArchetypeDisplay.aspx?FixedName=Alchemist%20Eldritch%20Poisoner"
 source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eldritch_poisoner", path = "json/archetypes_alchemist.json" },

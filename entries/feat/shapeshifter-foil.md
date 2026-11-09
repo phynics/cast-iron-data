@@ -2,6 +2,7 @@
 id = "ref/feat/shapeshifter-foil"
 kind = "feat"
 title = "Shapeshifter Foil"
+aon = "FeatDisplay.aspx?ItemName=Shapeshifter%20Foil"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shapeshifter_foil", path = "json/feat14.json" },

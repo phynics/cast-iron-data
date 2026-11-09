@@ -2,6 +2,7 @@
 id = "ref/spell/mind-swap"
 kind = "spell"
 title = "Mind Swap"
+aon = "SpellDisplay.aspx?ItemName=Mind%20Swap"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mind_swap", path = "json/spells14.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/clockwork-surgeon"
 kind = "trait"
 title = "Clockwork Surgeon"
+aon = "TraitDisplay.aspx?ItemName=Clockwork%20Surgeon"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clockwork_surgeon", path = "json/traits03.json" },

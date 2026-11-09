@@ -2,6 +2,7 @@
 id = "ref/spell/aquatic-cavalry"
 kind = "spell"
 title = "Aquatic Cavalry"
+aon = "SpellDisplay.aspx?ItemName=Aquatic%20Cavalry"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aquatic_cavalry", path = "json/spells.json" },

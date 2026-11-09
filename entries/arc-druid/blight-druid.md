@@ -2,6 +2,7 @@
 id = "ref/arc-druid/blight-druid"
 kind = "archetype"
 title = "Blight Druid"
+aon = "ArchetypeDisplay.aspx?FixedName=Druid%20Blight%20Druid"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blight_druid", path = "json/archetypes_druid.json" },

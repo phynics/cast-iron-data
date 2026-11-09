@@ -2,6 +2,7 @@
 id = "ref/arc-slayer/ankous-shadow"
 kind = "archetype"
 title = "Ankou's Shadow"
+aon = "ArchetypeDisplay.aspx?FixedName=Slayer%20Ankou%27s%20Shadow"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ankous_shadow", path = "json/archetypes_slayer.json" },

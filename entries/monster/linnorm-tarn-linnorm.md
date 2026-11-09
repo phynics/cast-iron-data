@@ -2,6 +2,7 @@
 id = "ref/monster/linnorm-tarn-linnorm"
 kind = "creature"
 title = "Tarn Linnorm"
+aon = "MonsterDisplay.aspx?ItemName=Tarn%20Linnorm"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "linnorm_tarn_linnorm", path = "json/monsters35.json" },

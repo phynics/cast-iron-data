@@ -2,6 +2,7 @@
 id = "ref/trait/genie-heir"
 kind = "trait"
 title = "Genie Heir"
+aon = "TraitDisplay.aspx?ItemName=Genie%20Heir"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "genie_heir", path = "json/traits05.json" },

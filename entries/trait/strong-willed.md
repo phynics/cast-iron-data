@@ -2,6 +2,7 @@
 id = "ref/trait/strong-willed"
 kind = "trait"
 title = "Strong-Willed"
+aon = "TraitDisplay.aspx?ItemName=Strong-Willed"
 source_ids = ["faiths-of-purity", "inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "strong_willed", path = "json/traits03.json" },

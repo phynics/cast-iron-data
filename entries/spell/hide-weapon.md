@@ -2,6 +2,7 @@
 id = "ref/spell/hide-weapon"
 kind = "spell"
 title = "Hide Weapon"
+aon = "SpellDisplay.aspx?ItemName=Hide%20Weapon"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hide_weapon", path = "json/spells5.json" },

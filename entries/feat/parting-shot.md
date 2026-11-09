@@ -2,6 +2,7 @@
 id = "ref/feat/parting-shot"
 kind = "feat"
 title = "Parting Shot"
+aon = "FeatDisplay.aspx?ItemName=Parting%20Shot"
 source_ids = ["advanced-players-guide", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "parting_shot", path = "json/feat11.json" },

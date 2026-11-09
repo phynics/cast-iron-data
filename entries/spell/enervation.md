@@ -2,6 +2,7 @@
 id = "ref/spell/enervation"
 kind = "spell"
 title = "Enervation"
+aon = "SpellDisplay.aspx?ItemName=Enervation"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enervation", path = "json/spells4.json" },

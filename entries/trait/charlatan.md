@@ -2,6 +2,7 @@
 id = "ref/trait/charlatan"
 kind = "trait"
 title = "Charlatan"
+aon = "TraitDisplay.aspx?ItemName=Charlatan"
 source_ids = ["gnomes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charlatan", path = "json/traits02.json" },

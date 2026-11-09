@@ -2,6 +2,7 @@
 id = "ref/trait/regional-recluse"
 kind = "trait"
 title = "Regional Recluse"
+aon = "TraitDisplay.aspx?ItemName=Regional%20Recluse"
 source_ids = ["varisia-birthplace-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "regional_recluse", path = "json/traits04.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/heretics-tongue"
 kind = "spell"
 title = "Heretic's Tongue"
+aon = "SpellDisplay.aspx?ItemName=Heretic%27s%20Tongue"
 source_ids = ["pathfinder-107-scourge-of-the-godclaw"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heretics_tongue", path = "json/spells5.json" },

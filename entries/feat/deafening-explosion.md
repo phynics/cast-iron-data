@@ -2,6 +2,7 @@
 id = "ref/feat/deafening-explosion"
 kind = "feat"
 title = "Deafening Explosion"
+aon = "FeatDisplay.aspx?ItemName=Deafening%20Explosion"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deafening_explosion", path = "json/feat04.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/quieting-weapons"
 kind = "spell"
 title = "Quieting Weapons"
+aon = "SpellDisplay.aspx?ItemName=Quieting%20Weapons"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quieting_weapons", path = "json/spells8.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/bellflower-irrigator"
 kind = "archetype"
 title = "Bellflower Irrigator"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Bellflower%20Irrigator"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bellflower_irrigator", path = "json/archetypes_rogue.json" },

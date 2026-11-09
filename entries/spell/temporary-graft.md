@@ -2,6 +2,7 @@
 id = "ref/spell/temporary-graft"
 kind = "spell"
 title = "Temporary Graft"
+aon = "SpellDisplay.aspx?ItemName=Temporary%20Graft"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "temporary_graft", path = "json/spells10.json" },

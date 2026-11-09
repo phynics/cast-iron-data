@@ -2,6 +2,7 @@
 id = "ref/feat/armor-of-the-pit"
 kind = "feat"
 title = "Armor of the Pit"
+aon = "FeatDisplay.aspx?ItemName=Armor%20of%20the%20Pit"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "armor_of_the_pit", path = "json/feat01.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-druid/nithveil-adept"
 kind = "archetype"
 title = "Nithveil Adept"
+aon = "ArchetypeDisplay.aspx?FixedName=Druid%20Nithveil%20Adept"
 source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nithveil_adept", path = "json/archetypes_druid2.json" },

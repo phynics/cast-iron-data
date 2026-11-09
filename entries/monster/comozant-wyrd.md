@@ -2,6 +2,7 @@
 id = "ref/monster/comozant-wyrd"
 kind = "creature"
 title = "Comozant Wyrd"
+aon = "MonsterDisplay.aspx?ItemName=Comozant%20Wyrd"
 source_ids = ["bestiary-4", "pathfinder-57-tempest-rising"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "comozant_wyrd", path = "json/monsters28.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/water-skinned"
 kind = "feat"
 title = "Water Skinned"
+aon = "FeatDisplay.aspx?ItemName=Water%20Skinned"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "water_skinned", path = "json/feat17.json" },

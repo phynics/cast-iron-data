@@ -2,6 +2,7 @@
 id = "ref/feat/spellsong"
 kind = "feat"
 title = "Spellsong"
+aon = "FeatDisplay.aspx?ItemName=Spellsong"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spellsong", path = "json/feat14.json" },

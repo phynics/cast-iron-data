@@ -2,6 +2,7 @@
 id = "ref/spell/ablative-barrier"
 kind = "spell"
 title = "Ablative Barrier"
+aon = "SpellDisplay.aspx?ItemName=Ablative%20Barrier"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ablative_barrier", path = "json/spells.json" },

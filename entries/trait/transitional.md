@@ -2,6 +2,7 @@
 id = "ref/trait/transitional"
 kind = "trait"
 title = "Transitional"
+aon = "TraitDisplay.aspx?ItemName=Transitional"
 source_ids = ["people-of-the-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "transitional", path = "json/traits05.json" },

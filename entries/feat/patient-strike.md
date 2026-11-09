@@ -2,6 +2,7 @@
 id = "ref/feat/patient-strike"
 kind = "feat"
 title = "Patient Strike"
+aon = "FeatDisplay.aspx?ItemName=Patient%20Strike"
 source_ids = ["pathfinder-society-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "patient_strike", path = "json/feat11.json" },

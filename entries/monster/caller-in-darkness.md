@@ -2,6 +2,7 @@
 id = "ref/monster/caller-in-darkness"
 kind = "creature"
 title = "Caller in Darkness"
+aon = "MonsterDisplay.aspx?ItemName=Caller%20in%20Darkness"
 source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "caller_in_darkness", path = "json/monsters04.json" },

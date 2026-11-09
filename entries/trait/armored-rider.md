@@ -2,6 +2,7 @@
 id = "ref/trait/armored-rider"
 kind = "trait"
 title = "Armored Rider"
+aon = "TraitDisplay.aspx?ItemName=Armored%20Rider"
 source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "armored_rider", path = "json/traits01.json" },

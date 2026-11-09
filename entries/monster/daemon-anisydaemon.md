@@ -2,6 +2,7 @@
 id = "ref/monster/daemon-anisydaemon"
 kind = "creature"
 title = "Anisydaemon"
+aon = "MonsterDisplay.aspx?ItemName=Anisydaemon"
 source_ids = ["pathfinder-142-gardens-of-gallowspire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daemon_anisydaemon", path = "json/monsters02.json" },

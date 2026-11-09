@@ -2,6 +2,7 @@
 id = "ref/trait/glory-of-old"
 kind = "trait"
 title = "Glory of Old"
+aon = "TraitDisplay.aspx?ItemName=Glory%20of%20Old"
 source_ids = ["dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "glory_of_old", path = "json/traits04.json" },

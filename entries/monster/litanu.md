@@ -2,6 +2,7 @@
 id = "ref/monster/litanu"
 kind = "creature"
 title = "Litanu"
+aon = "MonsterDisplay.aspx?ItemName=Litanu"
 source_ids = ["pathfinder-125-tower-of-the-drowned-dead"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "litanu", path = "json/monsters16.json" },

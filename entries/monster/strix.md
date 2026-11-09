@@ -2,6 +2,7 @@
 id = "ref/monster/strix"
 kind = "creature"
 title = "Strix"
+aon = "MonsterDisplay.aspx?ItemName=Strix"
 source_ids = ["inner-sea-world-guide", "pathfinder-25-the-bastards-of-erebus"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "strix", path = "json/monsters39.json" },

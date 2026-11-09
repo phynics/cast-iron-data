@@ -2,6 +2,7 @@
 id = "ref/spell/wizened-appearance"
 kind = "spell"
 title = "Wizened Appearance"
+aon = "SpellDisplay.aspx?ItemName=Wizened%20Appearance"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wizened_appearance", path = "json/spells16.json" },

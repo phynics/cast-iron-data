@@ -2,6 +2,7 @@
 id = "ref/arc-barbarian/wild-rager"
 kind = "archetype"
 title = "Wild Rager"
+aon = "ArchetypeDisplay.aspx?FixedName=Barbarian%20Wild%20Rager"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wild_rager", path = "json/archetypes_barbarian.json" },

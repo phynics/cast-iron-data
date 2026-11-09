@@ -2,6 +2,7 @@
 id = "ref/spell/etheric-shards"
 kind = "spell"
 title = "Etheric Shards"
+aon = "SpellDisplay.aspx?ItemName=Etheric%20Shards"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "etheric_shards", path = "json/spells4.json" },

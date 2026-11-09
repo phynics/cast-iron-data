@@ -2,6 +2,7 @@
 id = "ref/feat/controlled-patterns"
 kind = "feat"
 title = "Controlled Patterns"
+aon = "FeatDisplay.aspx?ItemName=Controlled%20Patterns"
 source_ids = ["distant-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "controlled_patterns", path = "json/feat03.json" },

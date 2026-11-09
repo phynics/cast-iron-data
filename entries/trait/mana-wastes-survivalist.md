@@ -2,6 +2,7 @@
 id = "ref/trait/mana-wastes-survivalist"
 kind = "trait"
 title = "Mana Wastes Survivalist"
+aon = "TraitDisplay.aspx?ItemName=Mana%20Wastes%20Survivalist"
 source_ids = ["inner-sea-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mana_wastes_survivalist", path = "json/traits04.json" },

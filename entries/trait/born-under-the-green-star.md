@@ -2,6 +2,7 @@
 id = "ref/trait/born-under-the-green-star"
 kind = "trait"
 title = "Born under the Green Star"
+aon = "TraitDisplay.aspx?ItemName=Born%20under%20the%20Green%20Star"
 source_ids = ["people-of-the-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "born_under_the_green_star", path = "json/traits04.json" },

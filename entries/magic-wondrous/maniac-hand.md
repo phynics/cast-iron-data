@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/maniac-hand"
 kind = "item"
 title = "Maniac Hand"
+aon = "MagicCursedDisplay.aspx?ItemName=Maniac%20Hand"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "maniac_hand", path = "json/magic_wondrous_slotless04.json" },

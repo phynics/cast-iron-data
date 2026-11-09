@@ -2,6 +2,7 @@
 id = "ref/spell/caging-bomb-admixture"
 kind = "spell"
 title = "Caging Bomb Admixture"
+aon = "SpellDisplay.aspx?ItemName=Caging%20Bomb%20Admixture"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "caging_bomb_admixture", path = "json/spells2.json" },

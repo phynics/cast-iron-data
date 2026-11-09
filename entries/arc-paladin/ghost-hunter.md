@@ -2,6 +2,7 @@
 id = "ref/arc-paladin/ghost-hunter"
 kind = "archetype"
 title = "Ghost Hunter"
+aon = "ArchetypeDisplay.aspx?FixedName=Paladin%20Ghost%20Hunter"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghost_hunter", path = "json/archetypes_paladin.json" },

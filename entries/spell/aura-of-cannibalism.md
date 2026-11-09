@@ -2,6 +2,7 @@
 id = "ref/spell/aura-of-cannibalism"
 kind = "spell"
 title = "Aura of Cannibalism"
+aon = "SpellDisplay.aspx?ItemName=Aura%20of%20Cannibalism"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aura_of_cannibalism", path = "json/spells.json" },

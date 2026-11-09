@@ -2,6 +2,7 @@
 id = "ref/trait/conscientious-miner"
 kind = "trait"
 title = "Conscientious Miner"
+aon = "TraitDisplay.aspx?ItemName=Conscientious%20Miner"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "conscientious_miner", path = "json/traits04.json" },

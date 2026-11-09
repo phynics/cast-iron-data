@@ -2,6 +2,7 @@
 id = "ref/feat/daggermark-lore"
 kind = "feat"
 title = "Daggermark Lore"
+aon = "FeatDisplay.aspx?ItemName=Daggermark%20Lore"
 source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daggermark_lore", path = "json/feat04.json" },

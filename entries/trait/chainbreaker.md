@@ -2,6 +2,7 @@
 id = "ref/trait/chainbreaker"
 kind = "trait"
 title = "Chainbreaker"
+aon = "TraitDisplay.aspx?ItemName=Chainbreaker"
 source_ids = ["pirates-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chainbreaker", path = "json/traits04.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/contagious-zeal"
 kind = "spell"
 title = "Contagious Zeal"
+aon = "SpellDisplay.aspx?ItemName=Contagious%20Zeal"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "contagious_zeal", path = "json/spells12.json" },

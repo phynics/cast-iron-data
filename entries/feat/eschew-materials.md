@@ -2,6 +2,7 @@
 id = "ref/feat/eschew-materials"
 kind = "feat"
 title = "Eschew Materials"
+aon = "FeatDisplay.aspx?ItemName=Eschew%20Materials"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eschew_materials", path = "json/feat06.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/stone-soul"
 kind = "feat"
 title = "Stone Soul"
+aon = "FeatDisplay.aspx?ItemName=Stone%20Soul"
 source_ids = ["pathfinder-91-battle-of-bloodmarch-hills"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stone_soul", path = "json/feat15.json" },

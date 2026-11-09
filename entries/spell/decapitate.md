@@ -2,6 +2,7 @@
 id = "ref/spell/decapitate"
 kind = "spell"
 title = "Decapitate"
+aon = "SpellDisplay.aspx?ItemName=Decapitate"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "decapitate", path = "json/spells3.json" },

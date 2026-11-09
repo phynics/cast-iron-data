@@ -2,6 +2,7 @@
 id = "ref/monster/giant-mantis-shrimp"
 kind = "creature"
 title = "Giant Mantis Shrimp"
+aon = "MonsterDisplay.aspx?ItemName=Giant%20Mantis%20Shrimp"
 source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_mantis_shrimp", path = "json/monsters11.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/nimble-striker"
 kind = "feat"
 title = "Nimble Striker"
+aon = "FeatDisplay.aspx?ItemName=Nimble%20Striker"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nimble_striker", path = "json/feat11.json" },

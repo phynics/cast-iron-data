@@ -2,6 +2,7 @@
 id = "ref/feat/parry-spell"
 kind = "feat"
 title = "Parry Spell"
+aon = "FeatDisplay.aspx?ItemName=Parry%20Spell"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "parry_spell", path = "json/feat11.json" },

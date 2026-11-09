@@ -2,6 +2,7 @@
 id = "ref/feat/brutal-grappler"
 kind = "feat"
 title = "Brutal Grappler"
+aon = "FeatDisplay.aspx?ItemName=Brutal%20Grappler"
 source_ids = ["orcs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brutal_grappler", path = "json/feat02.json" },

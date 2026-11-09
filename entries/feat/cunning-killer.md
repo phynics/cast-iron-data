@@ -2,6 +2,7 @@
 id = "ref/feat/cunning-killer"
 kind = "feat"
 title = "Cunning Killer"
+aon = "FeatDisplay.aspx?ItemName=Cunning%20Killer"
 source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cunning_killer", path = "json/feat04.json" },

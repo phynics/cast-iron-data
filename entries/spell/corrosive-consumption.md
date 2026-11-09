@@ -2,6 +2,7 @@
 id = "ref/spell/corrosive-consumption"
 kind = "spell"
 title = "Corrosive Consumption"
+aon = "SpellDisplay.aspx?ItemName=Corrosive%20Consumption"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "corrosive_consumption", path = "json/spells12.json" },

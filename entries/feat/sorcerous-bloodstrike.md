@@ -2,6 +2,7 @@
 id = "ref/feat/sorcerous-bloodstrike"
 kind = "feat"
 title = "Sorcerous Bloodstrike"
+aon = "FeatDisplay.aspx?ItemName=Sorcerous%20Bloodstrike"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sorcerous_bloodstrike", path = "json/feat14.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/ascetic-strike"
 kind = "feat"
 title = "Ascetic Strike"
+aon = "FeatDisplay.aspx?ItemName=Ascetic%20Strike"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ascetic_strike", path = "json/feat01.json" },

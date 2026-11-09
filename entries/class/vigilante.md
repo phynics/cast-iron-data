@@ -2,6 +2,7 @@
 id = "ref/class/vigilante"
 kind = "class"
 title = "Vigilante"
+aon = "ClassDisplay.aspx?ItemName=Vigilante"
 source_ids = ["ultimate-intrigue", "advanced-players-guide", "chronicle-of-legends", "plane-hoppers-handbook", "blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vigilante", path = "json/classes4.json" },

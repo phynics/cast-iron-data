@@ -2,6 +2,7 @@
 id = "ref/trait/forest-senses"
 kind = "trait"
 title = "Forest Senses"
+aon = "TraitDisplay.aspx?ItemName=Forest%20Senses"
 source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "forest_senses", path = "json/traits05.json" },

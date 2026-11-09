@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-spell-storing"
 kind = "item"
 title = "Ring of Spell Storing"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Spell%20Storing"
 source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_spell_storing", path = "json/magic_ring.json" },

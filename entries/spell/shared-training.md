@@ -2,6 +2,7 @@
 id = "ref/spell/shared-training"
 kind = "spell"
 title = "Shared Training"
+aon = "SpellDisplay.aspx?ItemName=Shared%20Training"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shared_training", path = "json/spells9.json" },

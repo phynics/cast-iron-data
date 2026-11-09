@@ -2,6 +2,7 @@
 id = "ref/feat/snapping-turtle-shell"
 kind = "feat"
 title = "Snapping Turtle Shell"
+aon = "FeatDisplay.aspx?ItemName=Snapping%20Turtle%20Shell"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snapping_turtle_shell", path = "json/feat14.json" },

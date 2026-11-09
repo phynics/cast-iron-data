@@ -2,6 +2,7 @@
 id = "ref/feat/makeshift-maneuvers"
 kind = "feat"
 title = "Makeshift Maneuvers"
+aon = "FeatDisplay.aspx?ItemName=Makeshift%20Maneuvers"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "makeshift_maneuvers", path = "json/feat10.json" },

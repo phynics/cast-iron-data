@@ -2,6 +2,7 @@
 id = "ref/spell/challenge-evil"
 kind = "spell"
 title = "Challenge Evil"
+aon = "SpellDisplay.aspx?ItemName=Challenge%20Evil"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "challenge_evil", path = "json/spells2.json" },

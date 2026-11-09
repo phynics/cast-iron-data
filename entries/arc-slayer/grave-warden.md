@@ -2,6 +2,7 @@
 id = "ref/arc-slayer/grave-warden"
 kind = "archetype"
 title = "Grave Warden"
+aon = "ArchetypeDisplay.aspx?FixedName=Slayer%20Grave%20Warden"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grave_warden", path = "json/archetypes_slayer.json" },

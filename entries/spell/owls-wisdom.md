@@ -2,6 +2,7 @@
 id = "ref/spell/owls-wisdom"
 kind = "spell"
 title = "Owl's Wisdom"
+aon = "SpellDisplay.aspx?ItemName=Owl%27s%20Wisdom"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "owls_wisdom", path = "json/spells7.json" },

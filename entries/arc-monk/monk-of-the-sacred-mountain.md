@@ -2,6 +2,7 @@
 id = "ref/arc-monk/monk-of-the-sacred-mountain"
 kind = "archetype"
 title = "Monk of the Sacred Mountain"
+aon = "ArchetypeDisplay.aspx?FixedName=Monk%20Monk%20of%20the%20Sacred%20Mountain"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monk_of_the_sacred_mountain", path = "json/archetypes_monk.json" },

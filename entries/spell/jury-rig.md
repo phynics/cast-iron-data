@@ -2,6 +2,7 @@
 id = "ref/spell/jury-rig"
 kind = "spell"
 title = "Jury-Rig"
+aon = "SpellDisplay.aspx?ItemName=Jury-Rig"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jury_rig", path = "json/spells6.json" },

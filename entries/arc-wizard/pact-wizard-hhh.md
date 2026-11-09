@@ -2,6 +2,7 @@
 id = "ref/arc-wizard/pact-wizard-hhh"
 kind = "archetype"
 title = "Pact Wizard (HHH)"
+aon = "ArchetypeDisplay.aspx?FixedName=Wizard%20Pact%20Wizard%20%28HHH%29"
 source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pact_wizard_hhh", path = "json/archetypes_wizard.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/baku-dreamweaver"
 kind = "creature"
 title = "Baku Dreamweaver"
+aon = "MonsterDisplay.aspx?ItemName=Baku%20Dreamweaver"
 source_ids = ["occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "baku_dreamweaver", path = "json/monsters03.json" },

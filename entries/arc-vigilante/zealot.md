@@ -2,6 +2,7 @@
 id = "ref/arc-vigilante/zealot"
 kind = "archetype"
 title = "Zealot"
+aon = "ArchetypeDisplay.aspx?FixedName=Vigilante%20Zealot"
 source_ids = ["ultimate-intrigue", "inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "zealot", path = "json/archetypes_vigilante.json" },

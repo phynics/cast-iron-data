@@ -2,6 +2,7 @@
 id = "ref/monster/giant-raven"
 kind = "creature"
 title = "Giant Raven"
+aon = "MonsterDisplay.aspx?ItemName=Giant%20Raven"
 source_ids = ["bestiary-6", "pathfinder-97-in-hells-bright-shadow"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_raven", path = "json/monsters11.json" },

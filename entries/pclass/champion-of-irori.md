@@ -2,6 +2,7 @@
 id = "ref/pclass/champion-of-irori"
 kind = "prestige_class"
 title = "Champion of Irori"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Champion%20of%20Irori"
 source_ids = ["paths-of-prestige"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "champion_of_irori", path = "json/prestige_classes.json" },

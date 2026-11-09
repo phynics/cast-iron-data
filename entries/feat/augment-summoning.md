@@ -2,6 +2,7 @@
 id = "ref/feat/augment-summoning"
 kind = "feat"
 title = "Augment Summoning"
+aon = "FeatDisplay.aspx?ItemName=Augment%20Summoning"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "augment_summoning", path = "json/feat01.json" },

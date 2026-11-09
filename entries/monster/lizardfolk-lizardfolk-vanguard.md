@@ -2,6 +2,7 @@
 id = "ref/monster/lizardfolk-lizardfolk-vanguard"
 kind = "creature"
 title = "Lizardfolk Vanguard"
+aon = "MonsterDisplay.aspx?ItemName=Lizardfolk%20Vanguard"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lizardfolk_lizardfolk_vanguard", path = "json/monsters16.json" },

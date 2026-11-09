@@ -2,6 +2,7 @@
 id = "ref/feat/delayed-potion"
 kind = "feat"
 title = "Delayed Potion"
+aon = "FeatDisplay.aspx?ItemName=Delayed%20Potion"
 source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "delayed_potion", path = "json/feat04.json" },

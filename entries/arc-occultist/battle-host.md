@@ -2,6 +2,7 @@
 id = "ref/arc-occultist/battle-host"
 kind = "archetype"
 title = "Battle Host"
+aon = "ArchetypeDisplay.aspx?FixedName=Occultist%20Battle%20Host"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "battle_host", path = "json/archetypes_occultist.json" },

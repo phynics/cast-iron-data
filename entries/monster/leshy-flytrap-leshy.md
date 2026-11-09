@@ -2,6 +2,7 @@
 id = "ref/monster/leshy-flytrap-leshy"
 kind = "creature"
 title = "Flytrap Leshy"
+aon = "MonsterDisplay.aspx?ItemName=Flytrap%20Leshy"
 source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "leshy_flytrap_leshy", path = "json/monsters34.json" },

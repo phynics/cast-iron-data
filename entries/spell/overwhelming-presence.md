@@ -2,6 +2,7 @@
 id = "ref/spell/overwhelming-presence"
 kind = "spell"
 title = "Overwhelming Presence"
+aon = "SpellDisplay.aspx?ItemName=Overwhelming%20Presence"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "overwhelming_presence", path = "json/spells7.json" },

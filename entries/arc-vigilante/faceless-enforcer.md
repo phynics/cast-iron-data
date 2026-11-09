@@ -2,6 +2,7 @@
 id = "ref/arc-vigilante/faceless-enforcer"
 kind = "archetype"
 title = "Faceless Enforcer"
+aon = "ArchetypeDisplay.aspx?FixedName=Vigilante%20Faceless%20Enforcer"
 source_ids = ["path-of-the-hellknight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "faceless_enforcer", path = "json/archetypes_vigilante.json" },

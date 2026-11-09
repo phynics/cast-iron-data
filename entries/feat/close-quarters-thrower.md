@@ -2,6 +2,7 @@
 id = "ref/feat/close-quarters-thrower"
 kind = "feat"
 title = "Close-Quarters Thrower"
+aon = "FeatDisplay.aspx?ItemName=Close-Quarters%20Thrower"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "close_quarters_thrower", path = "json/feat03.json" },

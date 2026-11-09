@@ -2,6 +2,7 @@
 id = "ref/spell/create-drug"
 kind = "spell"
 title = "Create Drug"
+aon = "SpellDisplay.aspx?ItemName=Create%20Drug"
 source_ids = ["book-of-the-damned", "pathfinder-99-dance-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "create_drug", path = "json/spells12.json" },

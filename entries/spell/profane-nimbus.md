@@ -2,6 +2,7 @@
 id = "ref/spell/profane-nimbus"
 kind = "spell"
 title = "Profane Nimbus"
+aon = "SpellDisplay.aspx?ItemName=Profane%20Nimbus"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "profane_nimbus", path = "json/spells15.json" },

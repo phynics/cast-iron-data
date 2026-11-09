@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-eloquence"
 kind = "item"
 title = "Ring of Eloquence"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Eloquence"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_eloquence", path = "json/magic_ring.json" },

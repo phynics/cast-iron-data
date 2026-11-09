@@ -2,6 +2,7 @@
 id = "ref/spell/aram-zeys-trap-ward"
 kind = "spell"
 title = "Aram Zey's Trap Ward"
+aon = "SpellDisplay.aspx?ItemName=Aram%20Zey%27s%20Trap%20Ward"
 source_ids = ["pathfinder-society-field-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aram_zeys_trap_ward", path = "json/spells.json" },

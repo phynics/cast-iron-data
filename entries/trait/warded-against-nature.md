@@ -2,6 +2,7 @@
 id = "ref/trait/warded-against-nature"
 kind = "trait"
 title = "Warded Against Nature"
+aon = "TraitDisplay.aspx?ItemName=Warded%20Against%20Nature"
 source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "warded_against_nature", path = "json/traits03.json" },

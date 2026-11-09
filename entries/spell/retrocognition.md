@@ -2,6 +2,7 @@
 id = "ref/spell/retrocognition"
 kind = "spell"
 title = "Retrocognition"
+aon = "SpellDisplay.aspx?ItemName=Retrocognition"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "retrocognition", path = "json/spells8.json" },

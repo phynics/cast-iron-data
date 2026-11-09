@@ -2,6 +2,7 @@
 id = "ref/trait/charming"
 kind = "trait"
 title = "Charming"
+aon = "TraitDisplay.aspx?ItemName=Charming"
 source_ids = ["ultimate-campaign", "second-darkness-players-guide", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charming", path = "json/traits01.json" },

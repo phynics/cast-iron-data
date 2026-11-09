@@ -2,6 +2,7 @@
 id = "ref/feat/smashing-dent"
 kind = "feat"
 title = "Smashing Dent"
+aon = "FeatDisplay.aspx?ItemName=Smashing%20Dent"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "smashing_dent", path = "json/feat14.json" },

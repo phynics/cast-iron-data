@@ -2,6 +2,7 @@
 id = "ref/feat/disengaging-shot"
 kind = "feat"
 title = "Disengaging Shot"
+aon = "FeatDisplay.aspx?ItemName=Disengaging%20Shot"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disengaging_shot", path = "json/feat04.json" },

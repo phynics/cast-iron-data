@@ -2,6 +2,7 @@
 id = "ref/spell/widen-auras"
 kind = "spell"
 title = "Widen Auras"
+aon = "SpellDisplay.aspx?ItemName=Widen%20Auras"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "widen_auras", path = "json/spells16.json" },

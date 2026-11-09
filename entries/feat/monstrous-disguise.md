@@ -2,6 +2,7 @@
 id = "ref/feat/monstrous-disguise"
 kind = "feat"
 title = "Monstrous Disguise"
+aon = "FeatDisplay.aspx?ItemName=Monstrous%20Disguise"
 source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monstrous_disguise", path = "json/feat11.json" },

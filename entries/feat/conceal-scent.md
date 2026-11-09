@@ -2,6 +2,7 @@
 id = "ref/feat/conceal-scent"
 kind = "feat"
 title = "Conceal Scent"
+aon = "FeatDisplay.aspx?ItemName=Conceal%20Scent"
 source_ids = ["osirion-land-of-the-pharaohs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "conceal_scent", path = "json/feat03.json" },

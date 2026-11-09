@@ -2,6 +2,7 @@
 id = "ref/feat/peace-of-mind"
 kind = "feat"
 title = "Peace of Mind"
+aon = "FeatDisplay.aspx?ItemName=Peace%20of%20Mind"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "peace_of_mind", path = "json/feat11.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-witch/dimensional-occultist"
 kind = "archetype"
 title = "Dimensional Occultist"
+aon = "ArchetypeDisplay.aspx?FixedName=Witch%20Dimensional%20Occultist"
 source_ids = ["pathfinder-society-field-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dimensional_occultist", path = "json/archetypes_witch.json" },

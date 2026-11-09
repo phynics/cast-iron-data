@@ -2,6 +2,7 @@
 id = "ref/feat/saoc-brethren-scholar"
 kind = "feat"
 title = "Saoc Brethren Scholar"
+aon = "FeatDisplay.aspx?ItemName=Saoc%20Brethren%20Scholar"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "saoc_brethren_scholar", path = "json/feat13.json" },

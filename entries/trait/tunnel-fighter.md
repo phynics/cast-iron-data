@@ -2,6 +2,7 @@
 id = "ref/trait/tunnel-fighter"
 kind = "trait"
 title = "Tunnel Fighter"
+aon = "TraitDisplay.aspx?ItemName=Tunnel%20Fighter"
 source_ids = ["ultimate-campaign", "advanced-players-guide", "dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tunnel_fighter", path = "json/traits05.json" },

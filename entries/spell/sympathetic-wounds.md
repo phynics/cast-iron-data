@@ -2,6 +2,7 @@
 id = "ref/spell/sympathetic-wounds"
 kind = "spell"
 title = "Sympathetic Wounds"
+aon = "SpellDisplay.aspx?ItemName=Sympathetic%20Wounds"
 source_ids = ["gods-and-magic", "inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sympathetic_wounds", path = "json/spells10.json" },

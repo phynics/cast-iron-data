@@ -2,6 +2,7 @@
 id = "ref/feat/orator"
 kind = "feat"
 title = "Orator"
+aon = "FeatDisplay.aspx?ItemName=Orator"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "orator", path = "json/feat11.json" },

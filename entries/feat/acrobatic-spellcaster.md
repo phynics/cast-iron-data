@@ -2,6 +2,7 @@
 id = "ref/feat/acrobatic-spellcaster"
 kind = "feat"
 title = "Acrobatic Spellcaster"
+aon = "FeatDisplay.aspx?ItemName=Acrobatic%20Spellcaster"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "acrobatic_spellcaster", path = "json/feat01.json" },

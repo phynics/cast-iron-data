@@ -2,6 +2,7 @@
 id = "ref/spell/illusory-crowd"
 kind = "spell"
 title = "Illusory Crowd"
+aon = "SpellDisplay.aspx?ItemName=Illusory%20Crowd"
 source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "illusory_crowd", path = "json/spells14.json" },

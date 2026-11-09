@@ -2,6 +2,7 @@
 id = "ref/spell/restore-corpse"
 kind = "spell"
 title = "Restore Corpse"
+aon = "SpellDisplay.aspx?ItemName=Restore%20Corpse"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "restore_corpse", path = "json/spells8.json" },

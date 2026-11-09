@@ -2,6 +2,7 @@
 id = "ref/monster/devil-nemesis-devil-advodaza"
 kind = "creature"
 title = "Nemesis Devil (Advodaza)"
+aon = "MonsterDisplay.aspx?ItemName=Nemesis%20Devil%20%28Advodaza%29"
 source_ids = ["pathfinder-30-the-twice-damned-prince", "bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_nemesis_devil_advodaza", path = "json/monsters07.json" },

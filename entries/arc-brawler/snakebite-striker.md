@@ -2,6 +2,7 @@
 id = "ref/arc-brawler/snakebite-striker"
 kind = "archetype"
 title = "Snakebite Striker"
+aon = "ArchetypeDisplay.aspx?FixedName=Brawler%20Snakebite%20Striker"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snakebite_striker", path = "json/archetypes_brawler.json" },

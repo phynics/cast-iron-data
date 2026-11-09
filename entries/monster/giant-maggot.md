@@ -2,6 +2,7 @@
 id = "ref/monster/giant-maggot"
 kind = "creature"
 title = "Giant Maggot"
+aon = "MonsterDisplay.aspx?ItemName=Giant%20Maggot"
 source_ids = ["bestiary-2", "pathfinder-8-seven-days-to-the-grave"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_maggot", path = "json/monsters11.json" },

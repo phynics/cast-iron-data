@@ -2,6 +2,7 @@
 id = "ref/monster/forgefiend-scanderig"
 kind = "creature"
 title = "Forgefiend (Scanderig)"
+aon = "MonsterDisplay.aspx?ItemName=Forgefiend%20%28Scanderig%29"
 source_ids = ["rise-of-the-runelords-anniversary-edition", "pathfinder-4-fortress-of-the-stone-giants"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "forgefiend_scanderig", path = "json/monsters31.json" },

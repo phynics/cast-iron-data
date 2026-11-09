@@ -2,6 +2,7 @@
 id = "ref/feat/creature-focus"
 kind = "feat"
 title = "Creature Focus"
+aon = "FeatDisplay.aspx?ItemName=Creature%20Focus"
 source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "creature_focus", path = "json/feat03.json" },

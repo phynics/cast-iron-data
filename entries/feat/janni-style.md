@@ -2,6 +2,7 @@
 id = "ref/feat/janni-style"
 kind = "feat"
 title = "Janni Style"
+aon = "FeatDisplay.aspx?ItemName=Janni%20Style"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "janni_style", path = "json/feat09.json" },

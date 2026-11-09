@@ -2,6 +2,7 @@
 id = "ref/trait/weather-beaten"
 kind = "trait"
 title = "Weather-Beaten"
+aon = "TraitDisplay.aspx?ItemName=Weather-Beaten"
 source_ids = ["knights-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weather_beaten", path = "json/traits03.json" },

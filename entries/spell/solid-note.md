@@ -2,6 +2,7 @@
 id = "ref/spell/solid-note"
 kind = "spell"
 title = "Solid Note"
+aon = "SpellDisplay.aspx?ItemName=Solid%20Note"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "solid_note", path = "json/spells9.json" },

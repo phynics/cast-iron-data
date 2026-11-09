@@ -2,6 +2,7 @@
 id = "ref/arc-monk/weapon-adept"
 kind = "archetype"
 title = "Weapon Adept"
+aon = "ArchetypeDisplay.aspx?FixedName=Monk%20Weapon%20Adept"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weapon_adept", path = "json/archetypes_monk2.json" },

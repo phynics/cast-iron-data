@@ -2,6 +2,7 @@
 id = "ref/feat/energy-mastery"
 kind = "feat"
 title = "Energy Mastery"
+aon = "FeatDisplay.aspx?ItemName=Energy%20Mastery"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "energy_mastery", path = "json/feat05.json" },

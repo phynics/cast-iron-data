@@ -2,6 +2,7 @@
 id = "ref/trait/acrobat"
 kind = "trait"
 title = "Acrobat"
+aon = "TraitDisplay.aspx?ItemName=Acrobat"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "acrobat", path = "json/traits01.json" },

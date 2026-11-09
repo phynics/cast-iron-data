@@ -2,6 +2,7 @@
 id = "ref/monster/cruciarus"
 kind = "creature"
 title = "Cruciarus"
+aon = "MonsterDisplay.aspx?ItemName=Cruciarus"
 source_ids = ["pathfinder-102-breaking-the-bones-of-hell"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cruciarus", path = "json/monsters06.json" },

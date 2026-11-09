@@ -2,6 +2,7 @@
 id = "ref/monster/robot-octopod-mechanic-drone"
 kind = "creature"
 title = "Octopod Mechanic Drone"
+aon = "MonsterDisplay.aspx?ItemName=Octopod%20Mechanic%20Drone"
 source_ids = ["construct-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "robot_octopod_mechanic_drone", path = "json/monsters20.json" },

@@ -74,6 +74,7 @@ import time
 import tomllib
 import unicodedata
 import urllib.error
+import urllib.parse
 import urllib.request
 from collections import Counter, defaultdict
 from dataclasses import dataclass, field
@@ -86,31 +87,30 @@ ENTRIES = ROOT / "entries"
 PUBLICATIONS = ROOT / "publications.toml"
 
 BASE_URL = "https://aonprd.com/"
-USER_AGENT = "cast-iron-data link harvest (+https://github.com/phynics/cast-iron-data)"
-REQUEST_DELAY_SECONDS = 1.0
+USER_AGENT = "cast-iron-data/1.0 (+https://github.com/phynics/cast-iron-data)"
+REQUEST_DELAY_SECONDS = 2.0
 REQUEST_TIMEOUT_SECONDS = 60
+MAX_5XX_STREAK = 2
 
 DEFAULT_CACHE = Path("/tmp/cast-iron-aon-cache")
 DEFAULT_REPORT = Path("/tmp/cast-iron-aon-coverage.md")
 
-# One request per record kind. The task names the feat, spell, monster, equipment, magic
-# item, class, archetype, and source listings; the other kinds use the same page pattern.
-LISTINGS: tuple[tuple[str, str], ...] = (
+# The index pages. They are one request each; the category pages below are discovered from
+# the links on them, never built from an entry title.
+INITIAL_PAGES: tuple[tuple[str, str], ...] = (
     ("feat", "Feats.aspx"),
-    ("spell", "Spells.aspx"),
-    ("creature", "Monsters.aspx"),
+    ("spell", "Spells.aspx?Class=All"),
+    ("creature", "Monsters.aspx?Letter=All"),
     ("item", "Equipment.aspx"),
     ("item", "MagicItems.aspx"),
     ("class", "Classes.aspx"),
     ("prestige_class", "PrestigeClasses.aspx"),
     ("archetype", "Archetypes.aspx"),
-    ("race", "Races.aspx"),
     ("trait", "Traits.aspx"),
-    ("racial_trait", "Traits.aspx"),
+    ("race", "Races.aspx"),
     ("skill", "Skills.aspx"),
+    ("publication", "Sources.aspx"),
 )
-
-SOURCES_PAGE = "Sources.aspx"
 
 # AoN prints some publication titles differently from `publications.toml`. These are the
 # reviewed spellings from the book-order research; an unmatched title is reported, never
@@ -126,10 +126,84 @@ PUBLICATION_ALIASES: dict[str, str] = {
     "gamemastery guide": "game-mastery-guide",
 }
 
-DISPLAY_LINK_RE = re.compile(
-    r"^([A-Za-z0-9]+Display\.aspx)\?(?:ItemName|FixedSource)=[^&]+$"
+# The page stem names the record type, so a cross-link on a list page cannot put a class
+# under `feat`. One stem may serve more than one corpus kind.
+PAGE_KINDS: dict[str, tuple[str, ...]] = {
+    "FeatDisplay": ("feat",),
+    "SpellDisplay": ("spell",),
+    "MonsterDisplay": ("creature",),
+    "CreatureDisplay": ("creature",),
+    "EquipmentDisplay": ("item",),
+    "EquipmentWeaponsDisplay": ("item",),
+    "EquipmentArmorDisplay": ("item",),
+    "EquipmentMiscDisplay": ("item",),
+    "MagicItemDisplay": ("item",),
+    "MagicItemsDisplay": ("item",),
+    "MagicWeaponsDisplay": ("item",),
+    "MagicArmorDisplay": ("item",),
+    "MagicArtifactsDisplay": ("item",),
+    "MagicCursedDisplay": ("item",),
+    "MagicIntelligentDisplay": ("item",),
+    "MagicPotionsDisplay": ("item",),
+    "MagicRingsDisplay": ("item",),
+    "MagicRodsDisplay": ("item",),
+    "MagicStavesDisplay": ("item",),
+    "MagicWondrousDisplay": ("item",),
+    "MagicOtherDisplay": ("item",),
+    "ClassDisplay": ("class",),
+    "PrestigeClassDisplay": ("prestige_class",),
+    "PrestigeClassesDisplay": ("prestige_class",),
+    "ArchetypeDisplay": ("archetype",),
+    "TraitDisplay": ("trait", "racial_trait"),
+    "RaceDisplay": ("race",),
+    "RacesDisplay": ("race",),
+    "SkillDisplay": ("skill",),
+    "RuleDisplay": ("rule",),
+    "SourceDisplay": ("publication",),
+    # Class-option pages are not separate list requests; they appear as cross-links on
+    # the class and feat listings.
+    "BloodlineDisplay": ("class_option",),
+    "DomainDisplay": ("class_option",),
+    "MysteryDisplay": ("class_option",),
+    "PatronDisplay": ("class_option",),
+    "ArcaneSchoolDisplay": ("class_option",),
+    "FamiliarDisplay": ("class_option",),
+    "AnimalCompanionDisplay": ("class_option",),
+    "SpiritDisplay": ("class_option",),
+    "ShamanSpiritDisplay": ("class_option",),
+    "HexDisplay": ("class_option",),
+    "RagePowerDisplay": ("class_option",),
+    "TalentDisplay": ("class_option",),
+    "DiscoveryDisplay": ("class_option",),
+    "ExploitDisplay": ("class_option",),
+    "DeedDisplay": ("class_option",),
+    "StylestrikeDisplay": ("class_option",),
+    "KineticistTalentsDisplay": ("class_option",),
+    "OccultRitualDisplay": ("class_option",),
+    "BlessingDisplay": ("class_option",),
+    "InquisitionDisplay": ("class_option",),
+    "OathDisplay": ("class_option",),
+    "CurseDisplay": ("class_option",),
+    "EmotionalFocusDisplay": ("class_option",),
+    "ImplementDisplay": ("class_option",),
+    "OrderDisplay": ("class_option",),
+    "PerformanceDisplay": ("class_option",),
+    "PhrenicAmplificationDisplay": ("class_option",),
+    "MesmeristTrickDisplay": ("class_option",),
+    "StareDisplay": ("class_option",),
+    "VigilanteTalentDisplay": ("class_option",),
+    "SlayerTalentDisplay": ("class_option",),
+    "NinjaTrickDisplay": ("class_option",),
+    "SwashbucklerDeedDisplay": ("class_option",),
+    "AspectDisplay": ("class_option",),
+    "EvolutionDisplay": ("class_option",),
+    "MercyDisplay": ("class_option",),
+    "MasterpieceDisplay": ("class_option",),
+}
+
+ENTRY_QUERY_RE = re.compile(
+    r"^([A-Za-z0-9]+Display\.aspx)\?(ItemName|FixedName|FinalName)=([^&]+)$"
 )
-ENTRY_QUERY_RE = re.compile(r"^([A-Za-z0-9]+Display\.aspx)\?ItemName=([^&]+)$")
 SOURCE_QUERY_RE = re.compile(r"^SourceDisplay\.aspx\?FixedSource=([^&]+)$")
 FRONT_MATTER_RE = re.compile(r"\A\+\+\+\n(.*?)\n\+\+\+\n", re.DOTALL)
 
@@ -218,7 +292,7 @@ def normalize_title(value: str) -> str:
 
 
 def relative_link(href: str) -> str | None:
-    """A corpus `aon` path from an AoN href, or None for an unrelated or external link."""
+    """An AoN path with no scheme or host, or None for an unrelated/external link."""
     href = html.unescape(href.strip())
     if href.startswith(BASE_URL):
         href = href[len(BASE_URL) :]
@@ -226,24 +300,40 @@ def relative_link(href: str) -> str | None:
         href = href[len("https://www.aonprd.com/") :]
     elif "://" in href or href.startswith("//"):
         return None
-    href = href.removeprefix("/")
-    if not DISPLAY_LINK_RE.match(href):
-        return None
-    return href
+    return href.removeprefix("/")
+
+
+def canonical_path(page: str, key: str, raw_value: str) -> str:
+    """The corpus form: one query key and a fully percent-encoded value."""
+    value = urllib.parse.unquote_plus(html.unescape(raw_value))
+    return f"{page}?{key}={urllib.parse.quote(value, safe='')}"
 
 
 def classify_anchor(anchor: Anchor) -> tuple[str, str, str] | None:
-    """(page, query_value, relative href) when the anchor is a record page."""
+    """(page, query_value, canonical relative href) when the anchor is a record page."""
     href = relative_link(anchor.href)
     if href is None:
         return None
     entry = ENTRY_QUERY_RE.match(href)
     if entry:
-        return entry.group(1), entry.group(2), href
+        page, key, raw = entry.group(1), entry.group(2), entry.group(3)
+        value = urllib.parse.unquote_plus(html.unescape(raw))
+        return page, value, canonical_path(page, key, raw)
     source = SOURCE_QUERY_RE.match(href)
     if source:
-        return "SourceDisplay.aspx", source.group(1), href
+        raw = source.group(1)
+        value = urllib.parse.unquote_plus(html.unescape(raw))
+        return (
+            "SourceDisplay.aspx",
+            value,
+            canonical_path("SourceDisplay.aspx", "FixedSource", raw),
+        )
     return None
+
+
+def page_kinds(page: str) -> tuple[str, ...]:
+    stem = page.removesuffix(".aspx")
+    return PAGE_KINDS.get(stem, ())
 
 
 def cache_dir() -> Path:
@@ -256,9 +346,15 @@ def cache_dir() -> Path:
     return path
 
 
-def fetch(kind: str, page: str, cache: Path, offline: bool) -> Listing:
-    """Fetch one listing through the cache. A 403/429 stops the run."""
-    listing = Listing(kind=kind, page=page, path=cache / page)
+def cache_name(page: str) -> str:
+    return re.sub(r"[^A-Za-z0-9._-]+", "_", page)
+
+
+def fetch(
+    kind: str, page: str, cache: Path, offline: bool, state: dict[str, int]
+) -> Listing:
+    """Fetch one listing through the cache. A 403/429 or a 5xx streak stops the run."""
+    listing = Listing(kind=kind, page=page, path=cache / cache_name(page))
     if listing.path.is_file():
         listing.status = "cached"
         listing.anchors = read_anchors(listing.path)
@@ -268,8 +364,9 @@ def fetch(kind: str, page: str, cache: Path, offline: bool) -> Listing:
         return listing
 
     time.sleep(REQUEST_DELAY_SECONDS)
+    state["requests"] += 1
     request = urllib.request.Request(
-        BASE_URL + page,
+        BASE_URL + urllib.parse.quote(page, safe="?&=/()%"),
         headers={
             "User-Agent": USER_AGENT,
             "Accept": "text/html,application/xhtml+xml",
@@ -286,14 +383,33 @@ def fetch(kind: str, page: str, cache: Path, offline: bool) -> Listing:
                 "rate-limited from this host; the harvest stops here and does not try to evade "
                 "the block."
             ) from error
+        if 500 <= error.code < 600:
+            state["5xx_streak"] += 1
+            if state["5xx_streak"] >= MAX_5XX_STREAK:
+                raise BlockedError(
+                    f"AoN returned {state['5xx_streak']} consecutive 5xx responses; the "
+                    f"harvest stops at {page}."
+                ) from error
+        else:
+            state["5xx_streak"] = 0
         listing.status = f"HTTP {error.code}"
         return listing
     except urllib.error.URLError as error:
         raise HarvestError(f"cannot reach {BASE_URL + page}: {error.reason}") from error
 
     if status != 200:
+        if 500 <= status < 600:
+            state["5xx_streak"] += 1
+            if state["5xx_streak"] >= MAX_5XX_STREAK:
+                raise BlockedError(
+                    f"AoN returned {state['5xx_streak']} consecutive 5xx responses; the "
+                    f"harvest stops at {page}."
+                )
+        else:
+            state["5xx_streak"] = 0
         listing.status = f"HTTP {status}"
         return listing
+    state["5xx_streak"] = 0
     cache.mkdir(parents=True, exist_ok=True)
     listing.path.write_bytes(body)
     listing.status = "fetched"
@@ -308,6 +424,86 @@ def read_anchors(path: Path) -> list[Anchor]:
     return parser.anchors
 
 
+def discovered_pages(
+    listings: list[Listing], class_names: set[str]
+) -> list[tuple[str, str]]:
+    """The bulk category pages linked from the index pages, in a stable order."""
+    by_page = {listing.page: listing for listing in listings}
+    pages: list[tuple[str, str]] = []
+
+    def hrefs(page: str) -> list[str]:
+        listing = by_page.get(page)
+        if listing is None:
+            return []
+        values = []
+        for anchor in listing.anchors:
+            href = relative_link(anchor.href)
+            if href is not None:
+                values.append(href)
+        return values
+
+    for href in hrefs("Equipment.aspx"):
+        if re.fullmatch(r"Equipment(?:Weapons|Armor|Misc)\.aspx", href):
+            pages.append(("item", href))
+    for href in hrefs("MagicItems.aspx"):
+        if re.fullmatch(r"Magic[A-Za-z]+\.aspx", href) and href != "MagicItems.aspx":
+            pages.append(("item", href))
+    for href in hrefs("Traits.aspx"):
+        if re.fullmatch(r"Traits\.aspx\?Type=.+", href):
+            pages.append(("trait", href))
+    for href in hrefs("Races.aspx"):
+        if re.fullmatch(r"Races\.aspx\?Category=.+", href):
+            pages.append(("race", href))
+    for href in hrefs("Sources.aspx"):
+        if re.fullmatch(r"Sources\.aspx\?ProductLine=.+", href):
+            pages.append(("publication", href))
+    # Archetypes are listed per class. Fetch only classes that have archetype entries in
+    # this corpus, matched by the class title rather than by the corpus id.
+    for name in sorted(class_names):
+        pages.append(("archetype", f"Archetypes.aspx?Class={name}"))
+
+    seen = set()
+    unique = []
+    for kind, page in pages:
+        key = (kind, page)
+        if key in seen:
+            continue
+        seen.add(key)
+        unique.append(key)
+    return unique
+
+
+def sorted_tokens(value: str) -> tuple[str, ...]:
+    return tuple(sorted(re.findall(r"[a-z0-9]+", normalize_title(value))))
+
+
+def corpus_class_info() -> tuple[dict[str, str], set[str]]:
+    """Class id -> title, and the class ids that at least one archetype names."""
+    classes: dict[str, str] = {}
+    targets: set[str] = set()
+    for path in sorted(ENTRIES.rglob("*.md")):
+        front = read_front_matter(path)
+        kind = str(front.get("kind", ""))
+        if kind == "class":
+            classes[str(front.get("id", ""))] = str(front.get("title", ""))
+        elif kind == "archetype":
+            for relation in front.get("relations", []):
+                if relation.get("kind") == "archetype":
+                    targets.add(str(relation.get("target", "")))
+    return classes, targets
+
+
+def aon_class_names(listing: Listing) -> list[str]:
+    """The class names AoN's archetype index links, decoded."""
+    names = []
+    for anchor in listing.anchors:
+        href = relative_link(anchor.href)
+        if href is None or not href.startswith("ClassDisplay.aspx?ItemName="):
+            continue
+        names.append(urllib.parse.unquote_plus(href.split("=", 1)[1]))
+    return names
+
+
 def build_entry_index(
     listings: Iterable[Listing],
 ) -> tuple[dict[tuple[str, str], list[str]], dict[str, int]]:
@@ -319,13 +515,24 @@ def build_entry_index(
             classified = classify_anchor(anchor)
             if classified is None:
                 continue
-            page, _value, href = classified
-            if page == "SourceDisplay.aspx":
+            page, value, href = classified
+            kinds = page_kinds(page)
+            if not kinds:
                 continue
-            key = (listing.kind, normalize_title(anchor.text))
-            if href not in index[key]:
-                index[key].append(href)
-            seen[listing.kind] += 1
+            # Archetype pages prefix the class name to the value; their anchor text is the
+            # bare archetype title. Other pages use the query value or the anchor text,
+            # depending on the table layout, so accept both spellings.
+            titles = (
+                {normalize_title(anchor.text)}
+                if page == "ArchetypeDisplay.aspx"
+                else {normalize_title(anchor.text), normalize_title(value)}
+            )
+            for kind in kinds:
+                for title in titles:
+                    key = (kind, title)
+                    if href not in index[key]:
+                        index[key].append(href)
+                seen[kind] += 1
     return index, seen
 
 
@@ -338,9 +545,12 @@ def build_source_index(listings: Iterable[Listing]) -> dict[str, list[str]]:
             if classified is None or classified[0] != "SourceDisplay.aspx":
                 continue
             href = classified[2]
-            key = normalize_title(anchor.text)
-            if href not in index[key]:
-                index[key].append(href)
+            for key in {
+                normalize_title(classified[1]),
+                normalize_title(anchor.text),
+            }:
+                if href not in index[key]:
+                    index[key].append(href)
     return index
 
 
@@ -552,12 +762,23 @@ def main(argv: list[str]) -> int:
     args = parser.parse_args(argv)
 
     cache = cache_dir()
+    state = {"requests": 0, "5xx_streak": 0}
     listings: list[Listing] = []
     try:
-        for kind, page in LISTINGS:
-            listings.append(fetch(kind, page, cache, args.offline))
-        sources = fetch("publication", SOURCES_PAGE, cache, args.offline)
-        listings.append(sources)
+        for kind, page in INITIAL_PAGES:
+            listings.append(fetch(kind, page, cache, args.offline, state))
+        classes, targets = corpus_class_info()
+        wanted = {sorted_tokens(classes[target]) for target in targets if target in classes}
+        archetype_index = next(
+            listing for listing in listings if listing.page == "Archetypes.aspx"
+        )
+        names = [
+            name
+            for name in aon_class_names(archetype_index)
+            if sorted_tokens(name) in wanted
+        ]
+        for kind, page in discovered_pages(listings, set(names)):
+            listings.append(fetch(kind, page, cache, args.offline, state))
     except BlockedError as error:
         write_blocked_report(args.report, str(error))
         print(f"error: {error}", file=sys.stderr)
@@ -565,7 +786,7 @@ def main(argv: list[str]) -> int:
         return 2
 
     entry_index, anchor_counts = build_entry_index(listings)
-    source_index = build_source_index([sources])
+    source_index = build_source_index(listings)
     publications_by_title = unique_publication_titles()
 
     entry_coverage: dict[str, Coverage] = defaultdict(Coverage)
@@ -646,6 +867,7 @@ def main(argv: list[str]) -> int:
         f"unmatched {publication_coverage.unmatched}"
     )
     print("  anchors: " + ", ".join(f"{page} {count}" for page, count in sorted(anchor_counts.items())))
+    print(f"  requests: {state['requests']}")
     return 0
 
 

@@ -2,6 +2,7 @@
 id = "ref/monster/breathless-orchid"
 kind = "creature"
 title = "Breathless Orchid"
+aon = "MonsterDisplay.aspx?ItemName=Breathless%20Orchid"
 source_ids = ["gallows-of-madness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "breathless_orchid", path = "json/monsters04.json" },

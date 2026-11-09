@@ -2,6 +2,7 @@
 id = "ref/monster/copsewight"
 kind = "creature"
 title = "Copsewight"
+aon = "MonsterDisplay.aspx?ItemName=Copsewight"
 source_ids = ["pathfinder-119-prisoners-of-the-blight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "copsewight", path = "json/monsters28.json" },

@@ -2,6 +2,7 @@
 id = "ref/carried/core-rulebook/spells/inflict-light-wounds/mass"
 kind = "spell"
 title = "Inflict Light Wounds, Mass"
+aon = "SpellDisplay.aspx?ItemName=Inflict%20Light%20Wounds%2C%20Mass"
 source_ids = ["core-rulebook"]
 section = ["Spells", "Inflict Light Wounds"]
 tags = ["necromancy"]

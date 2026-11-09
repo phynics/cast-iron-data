@@ -2,6 +2,7 @@
 id = "ref/feat/axiomatic-discourse"
 kind = "feat"
 title = "Axiomatic Discourse"
+aon = "FeatDisplay.aspx?ItemName=Axiomatic%20Discourse"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "axiomatic_discourse", path = "json/feat01.json" },

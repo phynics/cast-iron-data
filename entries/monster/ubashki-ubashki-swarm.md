@@ -2,6 +2,7 @@
 id = "ref/monster/ubashki-ubashki-swarm"
 kind = "creature"
 title = "Ubashki Swarm"
+aon = "MonsterDisplay.aspx?ItemName=Ubashki%20Swarm"
 source_ids = ["lost-kingdoms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ubashki_ubashki_swarm", path = "json/monsters24.json" },

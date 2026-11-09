@@ -2,6 +2,7 @@
 id = "ref/feat/ace-disarm"
 kind = "feat"
 title = "Ace Disarm"
+aon = "FeatDisplay.aspx?ItemName=Ace%20Disarm"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ace_disarm", path = "json/feat01.json" },

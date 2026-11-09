@@ -2,6 +2,7 @@
 id = "ref/monster/larabay"
 kind = "creature"
 title = "Larabay"
+aon = "MonsterDisplay.aspx?ItemName=Larabay"
 source_ids = ["isles-of-the-shackles"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "larabay", path = "json/monsters34.json" },

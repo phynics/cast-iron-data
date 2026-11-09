@@ -2,6 +2,7 @@
 id = "ref/arc-witch/havocker"
 kind = "archetype"
 title = "Havocker"
+aon = "ArchetypeDisplay.aspx?FixedName=Witch%20Havocker"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "havocker", path = "json/archetypes_witch.json" },

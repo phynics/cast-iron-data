@@ -2,6 +2,7 @@
 id = "ref/spell/voluminous-vocabulary"
 kind = "spell"
 title = "Voluminous Vocabulary"
+aon = "SpellDisplay.aspx?ItemName=Voluminous%20Vocabulary"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "voluminous_vocabulary", path = "json/spells11.json" },

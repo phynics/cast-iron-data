@@ -2,6 +2,7 @@
 id = "ref/trait/local-know-it-all"
 kind = "trait"
 title = "Local Know-It-All"
+aon = "TraitDisplay.aspx?ItemName=Local%20Know-It-All"
 source_ids = ["varisia-birthplace-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "local_know_it_all", path = "json/traits04.json" },

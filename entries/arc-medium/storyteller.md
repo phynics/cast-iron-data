@@ -2,6 +2,7 @@
 id = "ref/arc-medium/storyteller"
 kind = "archetype"
 title = "Storyteller"
+aon = "ArchetypeDisplay.aspx?FixedName=Medium%20Storyteller"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "storyteller", path = "json/archetypes_medium.json" },

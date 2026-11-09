@@ -2,6 +2,7 @@
 id = "ref/spell/telempathic-projection"
 kind = "spell"
 title = "Telempathic Projection"
+aon = "SpellDisplay.aspx?ItemName=Telempathic%20Projection"
 source_ids = ["occult-adventures", "occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "telempathic_projection", path = "json/spells10.json" },

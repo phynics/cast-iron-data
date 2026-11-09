@@ -2,6 +2,7 @@
 id = "ref/spell/cheetahs-sprint"
 kind = "spell"
 title = "Cheetah's Sprint"
+aon = "SpellDisplay.aspx?ItemName=Cheetah%27s%20Sprint"
 source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cheetahs_sprint", path = "json/spells2.json" },

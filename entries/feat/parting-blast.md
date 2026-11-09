@@ -2,6 +2,7 @@
 id = "ref/feat/parting-blast"
 kind = "feat"
 title = "Parting Blast"
+aon = "FeatDisplay.aspx?ItemName=Parting%20Blast"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "parting_blast", path = "json/feat11.json" },

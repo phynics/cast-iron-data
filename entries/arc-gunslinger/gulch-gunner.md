@@ -2,6 +2,7 @@
 id = "ref/arc-gunslinger/gulch-gunner"
 kind = "archetype"
 title = "Gulch Gunner"
+aon = "ArchetypeDisplay.aspx?FixedName=Gunslinger%20Gulch%20Gunner"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gulch_gunner", path = "json/archetypes_gunslinger.json" },

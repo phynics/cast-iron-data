@@ -2,6 +2,7 @@
 id = "ref/patron/strength"
 kind = "class_option"
 title = "Strength"
+aon = "DomainDisplay.aspx?ItemName=Strength"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "strength", path = "json/class_ability_patrons.json" },

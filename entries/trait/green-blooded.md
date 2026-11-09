@@ -2,6 +2,7 @@
 id = "ref/trait/green-blooded"
 kind = "trait"
 title = "Green-Blooded"
+aon = "TraitDisplay.aspx?ItemName=Green-Blooded"
 source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "green_blooded", path = "json/traits02.json" },

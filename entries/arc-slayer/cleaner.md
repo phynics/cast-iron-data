@@ -2,6 +2,7 @@
 id = "ref/arc-slayer/cleaner"
 kind = "archetype"
 title = "Cleaner"
+aon = "ArchetypeDisplay.aspx?FixedName=Slayer%20Cleaner"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cleaner", path = "json/archetypes_slayer.json" },

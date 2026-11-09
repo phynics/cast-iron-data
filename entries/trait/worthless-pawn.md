@@ -2,6 +2,7 @@
 id = "ref/trait/worthless-pawn"
 kind = "trait"
 title = "Worthless Pawn"
+aon = "TraitDisplay.aspx?ItemName=Worthless%20Pawn"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "worthless_pawn", path = "json/traits03.json" },

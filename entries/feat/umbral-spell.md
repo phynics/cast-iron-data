@@ -2,6 +2,7 @@
 id = "ref/feat/umbral-spell"
 kind = "feat"
 title = "Umbral Spell"
+aon = "FeatDisplay.aspx?ItemName=Umbral%20Spell"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "umbral_spell", path = "json/feat16.json" },

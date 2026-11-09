@@ -2,6 +2,7 @@
 id = "ref/spell/cup-of-dust"
 kind = "spell"
 title = "Cup of Dust"
+aon = "SpellDisplay.aspx?ItemName=Cup%20of%20Dust"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cup_of_dust", path = "json/spells3.json" },

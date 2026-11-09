@@ -2,6 +2,7 @@
 id = "ref/trait/athletic-champion"
 kind = "trait"
 title = "Athletic Champion"
+aon = "TraitDisplay.aspx?ItemName=Athletic%20Champion"
 source_ids = ["war-for-the-crown-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "athletic_champion", path = "json/traits03.json" },

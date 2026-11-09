@@ -2,6 +2,7 @@
 id = "ref/monster/shamira"
 kind = "creature"
 title = "Shamira"
+aon = "MonsterDisplay.aspx?ItemName=Shamira"
 source_ids = ["pathfinder-76-the-midnight-isles"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shamira", path = "json/monsters_unique3.json" },

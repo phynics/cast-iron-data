@@ -2,6 +2,7 @@
 id = "ref/feat/swift-aid"
 kind = "feat"
 title = "Swift Aid"
+aon = "FeatDisplay.aspx?ItemName=Swift%20Aid"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swift_aid", path = "json/feat15.json" },

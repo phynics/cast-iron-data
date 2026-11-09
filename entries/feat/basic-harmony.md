@@ -2,6 +2,7 @@
 id = "ref/feat/basic-harmony"
 kind = "feat"
 title = "Basic Harmony"
+aon = "FeatDisplay.aspx?ItemName=Basic%20Harmony"
 source_ids = ["cohorts-and-companions"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "basic_harmony", path = "json/feat02.json" },

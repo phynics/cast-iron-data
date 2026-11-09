@@ -2,6 +2,7 @@
 id = "ref/trait/observant-archer"
 kind = "trait"
 title = "Observant Archer"
+aon = "TraitDisplay.aspx?ItemName=Observant%20Archer"
 source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "observant_archer", path = "json/traits04.json" },

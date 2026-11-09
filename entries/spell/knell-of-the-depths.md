@@ -2,6 +2,7 @@
 id = "ref/spell/knell-of-the-depths"
 kind = "spell"
 title = "Knell of the Depths"
+aon = "SpellDisplay.aspx?ItemName=Knell%20of%20the%20Depths"
 source_ids = ["blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "knell_of_the_depths", path = "json/spells6.json" },

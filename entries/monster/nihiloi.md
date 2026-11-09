@@ -2,6 +2,7 @@
 id = "ref/monster/nihiloi"
 kind = "creature"
 title = "Nihiloi"
+aon = "MonsterDisplay.aspx?ItemName=Nihiloi"
 source_ids = ["pathfinder-29-mother-of-flies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nihiloi", path = "json/monsters36.json" },

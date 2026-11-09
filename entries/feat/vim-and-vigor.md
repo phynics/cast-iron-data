@@ -2,6 +2,7 @@
 id = "ref/feat/vim-and-vigor"
 kind = "feat"
 title = "Vim and Vigor"
+aon = "FeatDisplay.aspx?ItemName=Vim%20and%20Vigor"
 source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vim_and_vigor", path = "json/feat17.json" },

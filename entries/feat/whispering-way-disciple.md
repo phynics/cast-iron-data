@@ -2,6 +2,7 @@
 id = "ref/feat/whispering-way-disciple"
 kind = "feat"
 title = "Whispering Way Disciple"
+aon = "FeatDisplay.aspx?ItemName=Whispering%20Way%20Disciple"
 source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "whispering_way_disciple", path = "json/feat17.json" },

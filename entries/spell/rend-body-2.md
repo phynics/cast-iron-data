@@ -2,6 +2,7 @@
 id = "ref/spell/rend-body-2"
 kind = "spell"
 title = "Rend Body II"
+aon = "SpellDisplay.aspx?ItemName=Rend%20Body%20II"
 source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rend_body_2", path = "json/spells8.json" },

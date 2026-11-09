@@ -2,6 +2,7 @@
 id = "ref/trait/the-pathfinders-exile"
 kind = "trait"
 title = "The Pathfinder's Exile"
+aon = "TraitDisplay.aspx?ItemName=The%20Pathfinder%27s%20Exile"
 source_ids = ["council-of-thieves-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_pathfinders_exile", path = "json/traits02.json" },

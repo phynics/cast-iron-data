@@ -2,6 +2,7 @@
 id = "ref/feat/masterful-display"
 kind = "feat"
 title = "Masterful Display"
+aon = "FeatDisplay.aspx?ItemName=Masterful%20Display"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "masterful_display", path = "json/feat10.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/nondetection"
 kind = "spell"
 title = "Nondetection"
+aon = "SpellDisplay.aspx?ItemName=Nondetection"
 source_ids = ["core-rulebook", "inner-sea-intrigue", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nondetection", path = "json/spells7.json" },

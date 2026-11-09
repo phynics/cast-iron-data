@@ -2,6 +2,7 @@
 id = "ref/magic-ring/splendorous-ring"
 kind = "item"
 title = "Splendorous Ring"
+aon = "MagicRingsDisplay.aspx?FinalName=Splendorous%20Ring"
 source_ids = ["chronicle-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "splendorous_ring", path = "json/magic_ring.json" },

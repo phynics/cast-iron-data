@@ -2,6 +2,7 @@
 id = "ref/trait/jinx-eater"
 kind = "trait"
 title = "Jinx Eater"
+aon = "TraitDisplay.aspx?ItemName=Jinx%20Eater"
 source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jinx_eater", path = "json/traits01.json" },

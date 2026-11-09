@@ -2,6 +2,7 @@
 id = "ref/trait/bouncy"
 kind = "trait"
 title = "Bouncy"
+aon = "TraitDisplay.aspx?ItemName=Bouncy"
 source_ids = ["goblins-of-golarion", "we-be-goblins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bouncy", path = "json/traits05.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/sweeping-disarm"
 kind = "feat"
 title = "Sweeping Disarm"
+aon = "FeatDisplay.aspx?ItemName=Sweeping%20Disarm"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sweeping_disarm", path = "json/feat15.json" },

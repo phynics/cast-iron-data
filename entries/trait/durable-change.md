@@ -2,6 +2,7 @@
 id = "ref/trait/durable-change"
 kind = "trait"
 title = "Durable Change"
+aon = "TraitDisplay.aspx?ItemName=Durable%20Change"
 source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "durable_change", path = "json/traits05.json" },

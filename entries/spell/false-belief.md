@@ -2,6 +2,7 @@
 id = "ref/spell/false-belief"
 kind = "spell"
 title = "False Belief"
+aon = "SpellDisplay.aspx?ItemName=False%20Belief"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "false_belief", path = "json/spells4.json" },

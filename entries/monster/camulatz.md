@@ -2,6 +2,7 @@
 id = "ref/monster/camulatz"
 kind = "creature"
 title = "Camulatz"
+aon = "MonsterDisplay.aspx?ItemName=Camulatz"
 source_ids = ["pathfinder-39-the-city-of-seven-spears"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "camulatz", path = "json/monsters04.json" },

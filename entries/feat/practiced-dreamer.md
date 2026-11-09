@@ -2,6 +2,7 @@
 id = "ref/feat/practiced-dreamer"
 kind = "feat"
 title = "Practiced Dreamer"
+aon = "FeatDisplay.aspx?ItemName=Practiced%20Dreamer"
 source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "practiced_dreamer", path = "json/feat12.json" },

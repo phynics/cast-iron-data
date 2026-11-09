@@ -2,6 +2,7 @@
 id = "ref/trait/religious-reformer"
 kind = "trait"
 title = "Religious Reformer"
+aon = "TraitDisplay.aspx?ItemName=Religious%20Reformer"
 source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "religious_reformer", path = "json/traits01.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/trunau-native"
 kind = "trait"
 title = "Trunau Native"
+aon = "TraitDisplay.aspx?ItemName=Trunau%20Native"
 source_ids = ["giantslayer-players-guide", "giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trunau_native", path = "json/traits02.json" },

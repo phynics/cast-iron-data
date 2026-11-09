@@ -2,6 +2,7 @@
 id = "ref/spell/imbue-with-flight"
 kind = "spell"
 title = "Imbue with Flight"
+aon = "SpellDisplay.aspx?ItemName=Imbue%20with%20Flight"
 source_ids = ["mythic-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "imbue_with_flight", path = "json/spells14.json" },

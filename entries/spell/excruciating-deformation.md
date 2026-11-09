@@ -2,6 +2,7 @@
 id = "ref/spell/excruciating-deformation"
 kind = "spell"
 title = "Excruciating Deformation"
+aon = "SpellDisplay.aspx?ItemName=Excruciating%20Deformation"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "excruciating_deformation", path = "json/spells4.json" },

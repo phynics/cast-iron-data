@@ -2,6 +2,7 @@
 id = "ref/spell/sessile-spirit"
 kind = "spell"
 title = "Sessile Spirit"
+aon = "SpellDisplay.aspx?ItemName=Sessile%20Spirit"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sessile_spirit", path = "json/spells15.json" },

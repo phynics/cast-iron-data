@@ -2,6 +2,7 @@
 id = "ref/carried/advanced-players-guide/spells/fester/mass"
 kind = "spell"
 title = "Fester, Mass"
+aon = "SpellDisplay.aspx?ItemName=Fester%2C%20Mass"
 source_ids = ["advanced-players-guide"]
 section = ["Spells", "Fester"]
 tags = ["necromancy"]

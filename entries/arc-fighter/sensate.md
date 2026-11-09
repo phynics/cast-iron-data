@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/sensate"
 kind = "archetype"
 title = "Sensate"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Sensate"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sensate", path = "json/archetypes_fighter2.json" },

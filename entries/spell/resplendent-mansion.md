@@ -2,6 +2,7 @@
 id = "ref/spell/resplendent-mansion"
 kind = "spell"
 title = "Resplendent Mansion"
+aon = "SpellDisplay.aspx?ItemName=Resplendent%20Mansion"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "resplendent_mansion", path = "json/spells8.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/share-spells"
 kind = "feat"
 title = "Share Spells"
+aon = "FeatDisplay.aspx?ItemName=Share%20Spells"
 source_ids = ["distant-shores"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "share_spells", path = "json/feat14.json" },

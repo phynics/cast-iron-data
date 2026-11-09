@@ -2,6 +2,7 @@
 id = "ref/arc-monk/harrow-warden"
 kind = "archetype"
 title = "Harrow Warden"
+aon = "ArchetypeDisplay.aspx?FixedName=Monk%20Harrow%20Warden"
 source_ids = ["the-harrow-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "harrow_warden", path = "json/archetypes_monk.json" },

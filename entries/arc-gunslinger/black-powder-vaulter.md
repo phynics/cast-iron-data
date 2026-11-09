@@ -2,6 +2,7 @@
 id = "ref/arc-gunslinger/black-powder-vaulter"
 kind = "archetype"
 title = "Black Powder Vaulter"
+aon = "ArchetypeDisplay.aspx?FixedName=Gunslinger%20Black%20Powder%20Vaulter"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "black_powder_vaulter", path = "json/archetypes_gunslinger.json" },

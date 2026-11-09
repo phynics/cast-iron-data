@@ -2,6 +2,7 @@
 id = "ref/spell/locate-object"
 kind = "spell"
 title = "Locate Object"
+aon = "SpellDisplay.aspx?ItemName=Locate%20Object"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "locate_object", path = "json/spells6.json" },

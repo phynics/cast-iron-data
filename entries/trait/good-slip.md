@@ -2,6 +2,7 @@
 id = "ref/trait/good-slip"
 kind = "trait"
 title = "Good Slip"
+aon = "TraitDisplay.aspx?ItemName=Good%20Slip"
 source_ids = ["hells-vengeance-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "good_slip", path = "json/traits02.json" },

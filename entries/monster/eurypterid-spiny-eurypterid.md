@@ -2,6 +2,7 @@
 id = "ref/monster/eurypterid-spiny-eurypterid"
 kind = "creature"
 title = "Spiny Eurypterid"
+aon = "MonsterDisplay.aspx?ItemName=Spiny%20Eurypterid"
 source_ids = ["pathfinder-37-souls-for-smugglers-shiv", "bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eurypterid_spiny_eurypterid", path = "json/monsters42.json" },

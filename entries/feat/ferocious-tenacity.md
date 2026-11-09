@@ -2,6 +2,7 @@
 id = "ref/feat/ferocious-tenacity"
 kind = "feat"
 title = "Ferocious Tenacity"
+aon = "FeatDisplay.aspx?ItemName=Ferocious%20Tenacity"
 source_ids = ["advanced-race-guide", "orcs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ferocious_tenacity", path = "json/feat07.json" },

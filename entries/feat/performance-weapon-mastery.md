@@ -2,6 +2,7 @@
 id = "ref/feat/performance-weapon-mastery"
 kind = "feat"
 title = "Performance Weapon Mastery"
+aon = "FeatDisplay.aspx?ItemName=Performance%20Weapon%20Mastery"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "performance_weapon_mastery", path = "json/feat12.json" },

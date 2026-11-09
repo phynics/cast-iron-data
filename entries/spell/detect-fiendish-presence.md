@@ -2,6 +2,7 @@
 id = "ref/spell/detect-fiendish-presence"
 kind = "spell"
 title = "Detect Fiendish Presence"
+aon = "SpellDisplay.aspx?ItemName=Detect%20Fiendish%20Presence"
 source_ids = ["core-rulebook", "agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "detect_fiendish_presence", path = "json/spells3.json" },

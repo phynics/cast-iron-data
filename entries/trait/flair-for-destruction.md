@@ -2,6 +2,7 @@
 id = "ref/trait/flair-for-destruction"
 kind = "trait"
 title = "Flair for Destruction"
+aon = "TraitDisplay.aspx?ItemName=Flair%20for%20Destruction"
 source_ids = ["blood-of-fiends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flair_for_destruction", path = "json/traits05.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/spirit-touched"
 kind = "trait"
 title = "Spirit Touched"
+aon = "TraitDisplay.aspx?ItemName=Spirit%20Touched"
 source_ids = ["return-of-the-runelords-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spirit_touched", path = "json/traits02.json" },

@@ -2,6 +2,7 @@
 id = "ref/pclass/winter-witch"
 kind = "prestige_class"
 title = "Winter Witch"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Winter%20Witch"
 source_ids = ["reign-of-winter-players-guide", "paths-of-prestige"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "winter_witch", path = "json/prestige_classes4.json" },

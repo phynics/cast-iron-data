@@ -2,6 +2,7 @@
 id = "ref/spell/stone-call"
 kind = "spell"
 title = "Stone Call"
+aon = "SpellDisplay.aspx?ItemName=Stone%20Call"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stone_call", path = "json/spells9.json" },

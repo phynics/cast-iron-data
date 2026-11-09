@@ -2,6 +2,7 @@
 id = "ref/trait/harrow-born"
 kind = "trait"
 title = "Harrow Born"
+aon = "TraitDisplay.aspx?ItemName=Harrow%20Born"
 source_ids = ["humans-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "harrow_born", path = "json/traits05.json" },

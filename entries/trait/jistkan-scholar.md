@@ -2,6 +2,7 @@
 id = "ref/trait/jistkan-scholar"
 kind = "trait"
 title = "Jistkan Scholar"
+aon = "TraitDisplay.aspx?ItemName=Jistkan%20Scholar"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jistkan_scholar", path = "json/traits01.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/follow-up-strike"
 kind = "feat"
 title = "Follow-Up Strike"
+aon = "FeatDisplay.aspx?ItemName=Follow-Up%20Strike"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "follow_up_strike", path = "json/feat07.json" },

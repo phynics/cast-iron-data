@@ -2,6 +2,7 @@
 id = "ref/spell/elemental-assessor"
 kind = "spell"
 title = "Elemental Assessor"
+aon = "SpellDisplay.aspx?ItemName=Elemental%20Assessor"
 source_ids = ["chronicle-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_assessor", path = "json/spells4.json" },

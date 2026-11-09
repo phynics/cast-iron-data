@@ -2,6 +2,7 @@
 id = "ref/feat/vision-mastery"
 kind = "feat"
 title = "Vision Mastery"
+aon = "FeatDisplay.aspx?ItemName=Vision%20Mastery"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vision_mastery", path = "json/feat17.json" },

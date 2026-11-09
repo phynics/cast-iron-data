@@ -2,6 +2,7 @@
 id = "ref/trait/walking-ward"
 kind = "trait"
 title = "Walking Ward"
+aon = "TraitDisplay.aspx?ItemName=Walking%20Ward"
 source_ids = ["qadira-gateway-to-the-east"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "walking_ward", path = "json/traits04.json" },

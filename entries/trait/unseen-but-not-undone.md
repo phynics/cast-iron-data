@@ -2,6 +2,7 @@
 id = "ref/trait/unseen-but-not-undone"
 kind = "trait"
 title = "Unseen but Not Undone"
+aon = "TraitDisplay.aspx?ItemName=Unseen%20but%20Not%20Undone"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unseen_but_not_undone", path = "json/traits02.json" },

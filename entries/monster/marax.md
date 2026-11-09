@@ -2,6 +2,7 @@
 id = "ref/monster/marax"
 kind = "creature"
 title = "Marax"
+aon = "MonsterDisplay.aspx?ItemName=Marax"
 source_ids = ["pathfinder-90-the-divinity-drive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "marax", path = "json/monsters35.json" },

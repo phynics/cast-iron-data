@@ -2,6 +2,7 @@
 id = "ref/feat/warleaders-rage"
 kind = "feat"
 title = "Warleader's Rage"
+aon = "FeatDisplay.aspx?ItemName=Warleader%27s%20Rage"
 source_ids = ["orcs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "warleaders_rage", path = "json/feat17.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-investigator/cult-hunter"
 kind = "archetype"
 title = "Cult Hunter"
+aon = "ArchetypeDisplay.aspx?FixedName=Investigator%20Cult%20Hunter"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cult_hunter", path = "json/archetypes_investigator.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/azlanti-engineering"
 kind = "trait"
 title = "Azlanti Engineering"
+aon = "TraitDisplay.aspx?ItemName=Azlanti%20Engineering"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "azlanti_engineering", path = "json/traits05.json" },

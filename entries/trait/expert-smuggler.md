@@ -2,6 +2,7 @@
 id = "ref/trait/expert-smuggler"
 kind = "trait"
 title = "Expert Smuggler"
+aon = "TraitDisplay.aspx?ItemName=Expert%20Smuggler"
 source_ids = ["bastards-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "expert_smuggler", path = "json/traits04.json" },

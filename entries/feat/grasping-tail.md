@@ -2,6 +2,7 @@
 id = "ref/feat/grasping-tail"
 kind = "feat"
 title = "Grasping Tail"
+aon = "FeatDisplay.aspx?ItemName=Grasping%20Tail"
 source_ids = ["planar-adventures", "advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grasping_tail", path = "json/feat07.json" },

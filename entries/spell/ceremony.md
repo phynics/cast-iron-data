@@ -2,6 +2,7 @@
 id = "ref/spell/ceremony"
 kind = "spell"
 title = "Ceremony"
+aon = "SpellDisplay.aspx?ItemName=Ceremony"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ceremony", path = "json/spells2.json" },

@@ -2,6 +2,7 @@
 id = "ref/pclass/master-chymist"
 kind = "prestige_class"
 title = "Master Chymist"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Master%20Chymist"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "master_chymist", path = "json/prestige_classes2.json" },

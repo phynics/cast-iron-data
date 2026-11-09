@@ -2,6 +2,7 @@
 id = "ref/magic-staff/zenj-totem-staff"
 kind = "item"
 title = "Zenj Totem Staff"
+aon = "MagicStavesDisplay.aspx?ItemName=Zenj%20Totem%20Staff"
 source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "zenj_totem_staff", path = "json/magic_staff.json" },

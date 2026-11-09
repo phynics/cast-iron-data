@@ -2,6 +2,7 @@
 id = "ref/trait/mizu-ki-hikari-rebel"
 kind = "trait"
 title = "Mizu Ki Hikari Rebel"
+aon = "TraitDisplay.aspx?ItemName=Mizu%20Ki%20Hikari%20Rebel"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mizu_ki_hikari_rebel", path = "json/traits04.json" },

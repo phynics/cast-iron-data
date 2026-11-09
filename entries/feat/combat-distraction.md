@@ -2,6 +2,7 @@
 id = "ref/feat/combat-distraction"
 kind = "feat"
 title = "Combat Distraction"
+aon = "FeatDisplay.aspx?ItemName=Combat%20Distraction"
 source_ids = ["goblins-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "combat_distraction", path = "json/feat03.json" },

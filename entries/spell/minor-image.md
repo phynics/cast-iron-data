@@ -2,6 +2,7 @@
 id = "ref/spell/minor-image"
 kind = "spell"
 title = "Minor Image"
+aon = "SpellDisplay.aspx?ItemName=Minor%20Image"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "minor_image", path = "json/spells14.json" },

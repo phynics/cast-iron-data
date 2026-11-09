@@ -2,6 +2,7 @@
 id = "ref/spell/plant-shape-3"
 kind = "spell"
 title = "Plant Shape III"
+aon = "SpellDisplay.aspx?ItemName=Plant%20Shape%20III"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plant_shape_3", path = "json/spells7.json" },

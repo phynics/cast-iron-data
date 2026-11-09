@@ -2,6 +2,7 @@
 id = "ref/feat/steam-spell"
 kind = "feat"
 title = "Steam Spell"
+aon = "FeatDisplay.aspx?ItemName=Steam%20Spell"
 source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "steam_spell", path = "json/feat15.json" },

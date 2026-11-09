@@ -2,6 +2,7 @@
 id = "ref/feat/ostentatious-rager"
 kind = "feat"
 title = "Ostentatious Rager"
+aon = "FeatDisplay.aspx?ItemName=Ostentatious%20Rager"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ostentatious_rager", path = "json/feat11.json" },

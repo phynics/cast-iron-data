@@ -2,6 +2,7 @@
 id = "ref/spell/heroic-invocation"
 kind = "spell"
 title = "Heroic Invocation"
+aon = "SpellDisplay.aspx?ItemName=Heroic%20Invocation"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heroic_invocation", path = "json/spells5.json" },

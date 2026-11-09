@@ -2,6 +2,7 @@
 id = "ref/feat/cry-challenge"
 kind = "feat"
 title = "Cry Challenge"
+aon = "FeatDisplay.aspx?ItemName=Cry%20Challenge"
 source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cry_challenge", path = "json/feat04.json" },

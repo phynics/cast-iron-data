@@ -2,6 +2,7 @@
 id = "ref/trait/well-informed"
 kind = "trait"
 title = "Well-Informed"
+aon = "TraitDisplay.aspx?ItemName=Well-Informed"
 source_ids = ["ultimate-campaign", "taldor-echoes-of-glory", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "well_informed", path = "json/traits05.json" },

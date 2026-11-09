@@ -2,6 +2,7 @@
 id = "ref/arc-paladin/holy-gun"
 kind = "archetype"
 title = "Holy Gun"
+aon = "ArchetypeDisplay.aspx?FixedName=Paladin%20Holy%20Gun"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "holy_gun", path = "json/archetypes_paladin.json" },

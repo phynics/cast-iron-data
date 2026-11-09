@@ -2,6 +2,7 @@
 id = "ref/monster/skin-stealer"
 kind = "creature"
 title = "Skin Stealer"
+aon = "MonsterDisplay.aspx?ItemName=Skin%20Stealer"
 source_ids = ["pathfinder-44-trial-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skin_stealer", path = "json/monsters22.json" },

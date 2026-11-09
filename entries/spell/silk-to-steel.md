@@ -2,6 +2,7 @@
 id = "ref/spell/silk-to-steel"
 kind = "spell"
 title = "Silk To Steel"
+aon = "SpellDisplay.aspx?ItemName=Silk%20To%20Steel"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "silk_to_steel", path = "json/spells9.json" },

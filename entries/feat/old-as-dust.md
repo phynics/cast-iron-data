@@ -2,6 +2,7 @@
 id = "ref/feat/old-as-dust"
 kind = "feat"
 title = "Old as Dust"
+aon = "FeatDisplay.aspx?ItemName=Old%20as%20Dust"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "old_as_dust", path = "json/feat11.json" },

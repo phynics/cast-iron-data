@@ -2,6 +2,7 @@
 id = "ref/monster/yithian-elder"
 kind = "creature"
 title = "Yithian Elder"
+aon = "MonsterDisplay.aspx?ItemName=Yithian%20Elder"
 source_ids = ["occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "yithian_elder", path = "json/monsters41.json" },

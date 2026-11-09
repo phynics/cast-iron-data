@@ -2,6 +2,7 @@
 id = "ref/spell/sabotage-construct"
 kind = "spell"
 title = "Sabotage Construct"
+aon = "SpellDisplay.aspx?ItemName=Sabotage%20Construct"
 source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sabotage_construct", path = "json/spells8.json" },

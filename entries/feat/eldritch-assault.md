@@ -2,6 +2,7 @@
 id = "ref/feat/eldritch-assault"
 kind = "feat"
 title = "Eldritch Assault"
+aon = "FeatDisplay.aspx?ItemName=Eldritch%20Assault"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eldritch_assault", path = "json/feat05.json" },

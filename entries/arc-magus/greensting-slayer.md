@@ -2,6 +2,7 @@
 id = "ref/arc-magus/greensting-slayer"
 kind = "archetype"
 title = "Greensting Slayer"
+aon = "ArchetypeDisplay.aspx?FixedName=Magus%20Greensting%20Slayer"
 source_ids = ["bastards-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greensting_slayer", path = "json/archetypes_magus.json" },

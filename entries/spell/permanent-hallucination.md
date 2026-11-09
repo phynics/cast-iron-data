@@ -2,6 +2,7 @@
 id = "ref/spell/permanent-hallucination"
 kind = "spell"
 title = "Permanent Hallucination"
+aon = "SpellDisplay.aspx?ItemName=Permanent%20Hallucination"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "permanent_hallucination", path = "json/spells.json" },

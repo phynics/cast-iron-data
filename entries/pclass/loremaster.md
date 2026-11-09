@@ -2,6 +2,7 @@
 id = "ref/pclass/loremaster"
 kind = "prestige_class"
 title = "Loremaster"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Loremaster"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "loremaster", path = "json/prestige_classes2.json" },

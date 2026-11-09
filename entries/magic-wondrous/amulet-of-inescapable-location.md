@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/amulet-of-inescapable-location"
 kind = "item"
 title = "Amulet of Inescapable Location"
+aon = "MagicCursedDisplay.aspx?ItemName=Amulet%20of%20Inescapable%20Location"
 source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "amulet_of_inescapable_location", path = "json/magic_wondrous_neck.json" },

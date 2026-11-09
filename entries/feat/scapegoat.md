@@ -2,6 +2,7 @@
 id = "ref/feat/scapegoat"
 kind = "feat"
 title = "Scapegoat"
+aon = "FeatDisplay.aspx?ItemName=Scapegoat"
 source_ids = ["blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scapegoat", path = "json/feat13.json" },

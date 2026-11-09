@@ -2,6 +2,7 @@
 id = "ref/feat/flight-mastery"
 kind = "feat"
 title = "Flight Mastery"
+aon = "FeatDisplay.aspx?ItemName=Flight%20Mastery"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flight_mastery", path = "json/feat07.json" },

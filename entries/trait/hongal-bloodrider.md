@@ -2,6 +2,7 @@
 id = "ref/trait/hongal-bloodrider"
 kind = "trait"
 title = "Hongal Bloodrider"
+aon = "TraitDisplay.aspx?ItemName=Hongal%20Bloodrider"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hongal_bloodrider", path = "json/traits04.json" },

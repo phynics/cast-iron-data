@@ -2,6 +2,7 @@
 id = "ref/trait/wild-domesticator"
 kind = "trait"
 title = "Wild Domesticator"
+aon = "TraitDisplay.aspx?ItemName=Wild%20Domesticator"
 source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wild_domesticator", path = "json/traits05.json" },

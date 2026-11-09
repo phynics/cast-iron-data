@@ -2,6 +2,7 @@
 id = "ref/monster/dragon-primal-umbral-adult-umbral-dragon"
 kind = "creature"
 title = "Adult Umbral Dragon"
+aon = "MonsterDisplay.aspx?ItemName=Adult%20Umbral%20Dragon"
 source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_primal_umbral_adult_umbral_dragon", path = "json/monsters30.json" },

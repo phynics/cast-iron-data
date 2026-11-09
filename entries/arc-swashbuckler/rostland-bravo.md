@@ -2,6 +2,7 @@
 id = "ref/arc-swashbuckler/rostland-bravo"
 kind = "archetype"
 title = "Rostland Bravo"
+aon = "ArchetypeDisplay.aspx?FixedName=Swashbuckler%20Rostland%20Bravo"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rostland_bravo", path = "json/archetypes_swashbuckler.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/signature-strike-triumph"
 kind = "feat"
 title = "Signature Strike Triumph"
+aon = "FeatDisplay.aspx?ItemName=Signature%20Strike%20Triumph"
 source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "signature_strike_triumph", path = "json/feat14.json" },

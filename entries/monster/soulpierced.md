@@ -2,6 +2,7 @@
 id = "ref/monster/soulpierced"
 kind = "creature"
 title = "Soulpierced"
+aon = "MonsterDisplay.aspx?ItemName=Soulpierced"
 source_ids = ["pathfinder-132-the-six-legend-soul"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soulpierced", path = "json/monsters22.json" },

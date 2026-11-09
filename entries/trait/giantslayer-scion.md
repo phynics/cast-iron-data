@@ -2,6 +2,7 @@
 id = "ref/trait/giantslayer-scion"
 kind = "trait"
 title = "Giantslayer Scion"
+aon = "TraitDisplay.aspx?ItemName=Giantslayer%20Scion"
 source_ids = ["giantslayer-players-guide", "giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giantslayer_scion", path = "json/traits02.json" },

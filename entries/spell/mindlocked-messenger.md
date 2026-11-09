@@ -2,6 +2,7 @@
 id = "ref/spell/mindlocked-messenger"
 kind = "spell"
 title = "Mindlocked Messenger"
+aon = "SpellDisplay.aspx?ItemName=Mindlocked%20Messenger"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mindlocked_messenger", path = "json/spells14.json" },

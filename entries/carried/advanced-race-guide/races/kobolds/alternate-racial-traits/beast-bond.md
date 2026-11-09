@@ -2,6 +2,7 @@
 id = "ref/carried/advanced-race-guide/races/kobolds/alternate-racial-traits/beast-bond"
 kind = "racial_trait"
 title = "Beast Bond"
+aon = "TraitDisplay.aspx?ItemName=Beast%20Bond"
 source_ids = ["advanced-race-guide"]
 section = ["Races", "Kobolds", "Alternate Racial Traits"]
 tags = ["alternate", "kobold"]

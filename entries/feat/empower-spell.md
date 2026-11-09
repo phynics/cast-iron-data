@@ -2,6 +2,7 @@
 id = "ref/feat/empower-spell"
 kind = "feat"
 title = "Empower Spell"
+aon = "FeatDisplay.aspx?ItemName=Empower%20Spell"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "empower_spell", path = "json/feat05.json" },

@@ -2,6 +2,7 @@
 id = "ref/carried/ultimate-equipment/rules/artifacts-and-other-items/cursed-items/specific-cursed-items/net-of-snaring"
 kind = "item"
 title = "Net of Snaring"
+aon = "MagicCursedDisplay.aspx?ItemName=Net%20of%20Snaring"
 source_ids = ["ultimate-equipment"]
 section = ["Rules", "Artifacts and Other Items", "Cursed Items", "Specific Cursed Items"]
 provenance = [

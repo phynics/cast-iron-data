@@ -2,6 +2,7 @@
 id = "ref/trait/pristine-reputation"
 kind = "trait"
 title = "Pristine Reputation"
+aon = "TraitDisplay.aspx?ItemName=Pristine%20Reputation"
 source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pristine_reputation", path = "json/traits03.json" },

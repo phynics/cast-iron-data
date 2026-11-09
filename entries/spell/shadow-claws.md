@@ -2,6 +2,7 @@
 id = "ref/spell/shadow-claws"
 kind = "spell"
 title = "Shadow Claws"
+aon = "SpellDisplay.aspx?ItemName=Shadow%20Claws"
 source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_claws", path = "json/spells15.json" },

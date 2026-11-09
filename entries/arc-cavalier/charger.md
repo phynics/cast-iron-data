@@ -2,6 +2,7 @@
 id = "ref/arc-cavalier/charger"
 kind = "archetype"
 title = "Charger"
+aon = "ArchetypeDisplay.aspx?FixedName=Cavalier%20Charger"
 source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charger", path = "json/archetypes_cavalier.json" },

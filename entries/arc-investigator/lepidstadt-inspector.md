@@ -2,6 +2,7 @@
 id = "ref/arc-investigator/lepidstadt-inspector"
 kind = "archetype"
 title = "Lepidstadt Inspector"
+aon = "ArchetypeDisplay.aspx?FixedName=Investigator%20Lepidstadt%20Inspector"
 source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lepidstadt_inspector", path = "json/archetypes_investigator.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/crisis-of-conscience"
 kind = "feat"
 title = "Crisis of Conscience"
+aon = "FeatDisplay.aspx?ItemName=Crisis%20of%20Conscience"
 source_ids = ["champions-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crisis_of_conscience", path = "json/feat04.json" },

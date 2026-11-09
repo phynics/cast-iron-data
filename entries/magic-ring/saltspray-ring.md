@@ -2,6 +2,7 @@
 id = "ref/magic-ring/saltspray-ring"
 kind = "item"
 title = "Saltspray Ring"
+aon = "MagicRingsDisplay.aspx?FinalName=Saltspray%20Ring"
 source_ids = ["pathfinder-121-the-lost-outpost"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "saltspray_ring", path = "json/magic_ring.json" },

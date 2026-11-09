@@ -2,6 +2,7 @@
 id = "ref/carried/advanced-race-guide/races/dwarves/alternate-racial-rules/alternate-racial-traits/stubborn"
 kind = "racial_trait"
 title = "Stubborn"
+aon = "TraitDisplay.aspx?ItemName=Stubborn"
 source_ids = ["advanced-race-guide"]
 section = ["Races", "Dwarves", "Alternate Racial Rules", "Alternate Racial Traits"]
 tags = ["alternate", "dwarf"]

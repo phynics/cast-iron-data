@@ -2,6 +2,7 @@
 id = "ref/spell/with-the-wind"
 kind = "spell"
 title = "With the Wind"
+aon = "SpellDisplay.aspx?ItemName=With%20the%20Wind"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "with_the_wind", path = "json/spells16.json" },

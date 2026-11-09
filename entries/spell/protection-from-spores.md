@@ -2,6 +2,7 @@
 id = "ref/spell/protection-from-spores"
 kind = "spell"
 title = "Protection from Spores"
+aon = "SpellDisplay.aspx?ItemName=Protection%20from%20Spores"
 source_ids = ["pathfinder-113-what-grows-within"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "protection_from_spores", path = "json/spells15.json" },

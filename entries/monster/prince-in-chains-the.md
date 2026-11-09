@@ -2,6 +2,7 @@
 id = "ref/monster/prince-in-chains-the"
 kind = "creature"
 title = "The Prince in Chains"
+aon = "MonsterDisplay.aspx?ItemName=The%20Prince%20in%20Chains"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prince_in_chains_the", path = "json/monsters_unique3.json" },

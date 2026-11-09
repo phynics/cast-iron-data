@@ -2,6 +2,7 @@
 id = "ref/monster/tenebrous-worm"
 kind = "creature"
 title = "Tenebrous Worm"
+aon = "MonsterDisplay.aspx?ItemName=Tenebrous%20Worm"
 source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tenebrous_worm", path = "json/monsters23.json" },

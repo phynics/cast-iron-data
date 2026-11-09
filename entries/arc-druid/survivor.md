@@ -2,6 +2,7 @@
 id = "ref/arc-druid/survivor"
 kind = "archetype"
 title = "Survivor"
+aon = "ArchetypeDisplay.aspx?FixedName=Druid%20Survivor"
 source_ids = ["champions-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "survivor", path = "json/archetypes_druid2.json" },

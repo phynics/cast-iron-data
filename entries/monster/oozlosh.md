@@ -2,6 +2,7 @@
 id = "ref/monster/oozlosh"
 kind = "creature"
 title = "Oozlosh, Marsh Giant High Priest"
+aon = "MonsterDisplay.aspx?ItemName=Oozlosh%2C%20Marsh%20Giant%20High%20Priest"
 source_ids = ["giants-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oozlosh", path = "json/monsters_unique3.json" },

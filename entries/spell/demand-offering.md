@@ -2,6 +2,7 @@
 id = "ref/spell/demand-offering"
 kind = "spell"
 title = "Demand Offering"
+aon = "SpellDisplay.aspx?ItemName=Demand%20Offering"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demand_offering", path = "json/spells3.json" },

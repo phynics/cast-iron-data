@@ -2,6 +2,7 @@
 id = "ref/arc-skald/hunt-caller"
 kind = "archetype"
 title = "Hunt Caller"
+aon = "ArchetypeDisplay.aspx?FixedName=Skald%20Hunt%20Caller"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hunt_caller", path = "json/archetypes_skald.json" },

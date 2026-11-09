@@ -2,6 +2,7 @@
 id = "ref/monster/ratfolk-ratfolk-expedition-leader"
 kind = "creature"
 title = "Ratfolk Expedition Leader"
+aon = "MonsterDisplay.aspx?ItemName=Ratfolk%20Expedition%20Leader"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ratfolk_ratfolk_expedition_leader", path = "json/monsters20.json" },

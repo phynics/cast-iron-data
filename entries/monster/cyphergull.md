@@ -2,6 +2,7 @@
 id = "ref/monster/cyphergull"
 kind = "creature"
 title = "Cyphergull"
+aon = "MonsterDisplay.aspx?ItemName=Cyphergull"
 source_ids = ["pathfinder-133-secrets-of-roderics-cove"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cyphergull", path = "json/monsters06.json" },

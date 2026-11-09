@@ -2,6 +2,7 @@
 id = "ref/spell/spectral-saluqi"
 kind = "spell"
 title = "Spectral Saluqi"
+aon = "SpellDisplay.aspx?ItemName=Spectral%20Saluqi"
 source_ids = ["occult-mysteries", "osirion-land-of-the-pharaohs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spectral_saluqi", path = "json/spells9.json" },

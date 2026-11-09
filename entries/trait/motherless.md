@@ -2,6 +2,7 @@
 id = "ref/trait/motherless"
 kind = "trait"
 title = "Motherless"
+aon = "TraitDisplay.aspx?ItemName=Motherless"
 source_ids = ["blood-of-fiends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "motherless", path = "json/traits05.json" },

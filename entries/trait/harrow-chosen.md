@@ -2,6 +2,7 @@
 id = "ref/trait/harrow-chosen"
 kind = "trait"
 title = "Harrow Chosen"
+aon = "TraitDisplay.aspx?ItemName=Harrow%20Chosen"
 source_ids = ["varisia-birthplace-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "harrow_chosen", path = "json/traits05.json" },

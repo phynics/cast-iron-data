@@ -2,6 +2,7 @@
 id = "ref/spell/sundering-shards"
 kind = "spell"
 title = "Sundering Shards"
+aon = "SpellDisplay.aspx?ItemName=Sundering%20Shards"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sundering_shards", path = "json/spells16.json" },

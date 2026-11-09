@@ -2,6 +2,7 @@
 id = "ref/monster/dragonkin"
 kind = "creature"
 title = "Dragonkin"
+aon = "MonsterDisplay.aspx?ItemName=Dragonkin"
 source_ids = ["bestiary-5", "distant-worlds"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragonkin", path = "json/monsters31.json" },

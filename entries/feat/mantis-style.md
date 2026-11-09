@@ -2,6 +2,7 @@
 id = "ref/feat/mantis-style"
 kind = "feat"
 title = "Mantis Style"
+aon = "FeatDisplay.aspx?ItemName=Mantis%20Style"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mantis_style", path = "json/feat10.json" },

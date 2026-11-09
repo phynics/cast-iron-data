@@ -2,6 +2,7 @@
 id = "ref/spell/teleport"
 kind = "spell"
 title = "Teleport"
+aon = "SpellDisplay.aspx?ItemName=Teleport"
 source_ids = ["core-rulebook", "ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "teleport", path = "json/spells10.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/create-reliquary-arms-and-shields"
 kind = "feat"
 title = "Create Reliquary Arms and Shields"
+aon = "FeatDisplay.aspx?ItemName=Create%20Reliquary%20Arms%20and%20Shields"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "create_reliquary_arms_and_shields", path = "json/feat03.json" },

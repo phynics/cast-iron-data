@@ -2,6 +2,7 @@
 id = "ref/feat/conditional-spell"
 kind = "feat"
 title = "Conditional Spell"
+aon = "FeatDisplay.aspx?ItemName=Conditional%20Spell"
 source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "conditional_spell", path = "json/feat03.json" },

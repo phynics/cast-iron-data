@@ -2,6 +2,7 @@
 id = "ref/feat/corsair-of-taldor"
 kind = "feat"
 title = "Corsair of Taldor"
+aon = "FeatDisplay.aspx?ItemName=Corsair%20of%20Taldor"
 source_ids = ["cities-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "corsair_of_taldor", path = "json/feat03.json" },

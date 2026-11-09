@@ -2,6 +2,7 @@
 id = "ref/feat/skin-suit"
 kind = "feat"
 title = "Skin Suit"
+aon = "FeatDisplay.aspx?ItemName=Skin%20Suit"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skin_suit", path = "json/feat14.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/web-shelter"
 kind = "spell"
 title = "Web Shelter"
+aon = "SpellDisplay.aspx?ItemName=Web%20Shelter"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "web_shelter", path = "json/spells11.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/replenish-ki"
 kind = "spell"
 title = "Replenish Ki"
+aon = "SpellDisplay.aspx?ItemName=Replenish%20Ki"
 source_ids = ["inner-sea-gods", "pathfinder-53-tide-of-honor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "replenish_ki", path = "json/spells8.json" },

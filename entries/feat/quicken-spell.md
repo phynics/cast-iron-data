@@ -2,6 +2,7 @@
 id = "ref/feat/quicken-spell"
 kind = "feat"
 title = "Quicken Spell"
+aon = "FeatDisplay.aspx?ItemName=Quicken%20Spell"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quicken_spell", path = "json/feat12.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/extra-hex"
 kind = "feat"
 title = "Extra Hex"
+aon = "FeatDisplay.aspx?ItemName=Extra%20Hex"
 source_ids = ["advanced-class-guide", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extra_hex", path = "json/feat06.json" },

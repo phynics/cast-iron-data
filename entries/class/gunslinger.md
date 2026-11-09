@@ -2,6 +2,7 @@
 id = "ref/class/gunslinger"
 kind = "class"
 title = "Gunslinger"
+aon = "ClassDisplay.aspx?ItemName=Gunslinger"
 source_ids = ["ultimate-combat", "advanced-class-guide", "advanced-players-guide", "chronicle-of-legends", "advanced-race-guide", "blood-of-shadows", "goblins-of-golarion", "blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gunslinger", path = "json/classes7.json" },

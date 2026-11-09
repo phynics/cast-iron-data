@@ -2,6 +2,7 @@
 id = "ref/arc-paladin/champion-of-the-cascade"
 kind = "archetype"
 title = "Champion of the Cascade"
+aon = "ArchetypeDisplay.aspx?FixedName=Paladin%20Champion%20of%20the%20Cascade"
 source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "champion_of_the_cascade", path = "json/archetypes_paladin.json" },

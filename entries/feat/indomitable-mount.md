@@ -2,6 +2,7 @@
 id = "ref/feat/indomitable-mount"
 kind = "feat"
 title = "Indomitable Mount"
+aon = "FeatDisplay.aspx?ItemName=Indomitable%20Mount"
 source_ids = ["cities-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "indomitable_mount", path = "json/feat09.json" },

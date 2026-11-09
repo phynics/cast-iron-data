@@ -2,6 +2,7 @@
 id = "ref/spell/implanted-projection"
 kind = "spell"
 title = "Implanted Projection"
+aon = "SpellDisplay.aspx?ItemName=Implanted%20Projection"
 source_ids = ["occult-adventures", "occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "implanted_projection", path = "json/spells10.json" },

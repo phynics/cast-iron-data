@@ -2,6 +2,7 @@
 id = "ref/trait/wasp-whisperer"
 kind = "trait"
 title = "Wasp Whisperer"
+aon = "TraitDisplay.aspx?ItemName=Wasp%20Whisperer"
 source_ids = ["elves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wasp_whisperer", path = "json/traits03.json" },

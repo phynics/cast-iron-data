@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/polearm-master"
 kind = "archetype"
 title = "Polearm Master"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Polearm%20Master"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "polearm_master", path = "json/archetypes_fighter2.json" },

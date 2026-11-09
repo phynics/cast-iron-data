@@ -2,6 +2,7 @@
 id = "ref/feat/tough-as-iron"
 kind = "feat"
 title = "Tough as Iron"
+aon = "FeatDisplay.aspx?ItemName=Tough%20as%20Iron"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tough_as_iron", path = "json/feat16.json" },

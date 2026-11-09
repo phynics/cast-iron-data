@@ -2,6 +2,7 @@
 id = "ref/arc-companion/charger"
 kind = "archetype"
 title = "Charger"
+aon = "ArchetypeDisplay.aspx?FixedName=Cavalier%20Charger"
 source_ids = ["animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charger", path = "json/archetypes_COMPANION.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/pitaxian-improvisation"
 kind = "trait"
 title = "Pitaxian Improvisation"
+aon = "TraitDisplay.aspx?ItemName=Pitaxian%20Improvisation"
 source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pitaxian_improvisation", path = "json/traits04.json" },

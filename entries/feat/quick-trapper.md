@@ -2,6 +2,7 @@
 id = "ref/feat/quick-trapper"
 kind = "feat"
 title = "Quick Trapper"
+aon = "FeatDisplay.aspx?ItemName=Quick%20Trapper"
 source_ids = ["pathfinder-116-fangs-of-war"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quick_trapper", path = "json/feat12.json" },

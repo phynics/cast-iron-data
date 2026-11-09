@@ -2,6 +2,7 @@
 id = "ref/feat/spring-heeled-style"
 kind = "feat"
 title = "Spring-Heeled Style"
+aon = "FeatDisplay.aspx?ItemName=Spring-Heeled%20Style"
 source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spring_heeled_style", path = "json/feat15.json" },

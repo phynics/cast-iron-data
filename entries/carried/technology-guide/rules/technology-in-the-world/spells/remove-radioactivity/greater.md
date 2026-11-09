@@ -2,6 +2,7 @@
 id = "ref/carried/technology-guide/rules/technology-in-the-world/spells/remove-radioactivity/greater"
 kind = "spell"
 title = "Remove Radioactivity, Greater"
+aon = "SpellDisplay.aspx?ItemName=Remove%20Radioactivity%2C%20Greater"
 source_ids = ["technology-guide"]
 section = ["Rules", "Technology in the world", "Spells", "Remove Radioactivity"]
 tags = ["conjuration", "healing"]

@@ -2,6 +2,7 @@
 id = "ref/feat/improved-conceal-spell"
 kind = "feat"
 title = "Improved Conceal Spell"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Conceal%20Spell"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_conceal_spell", path = "json/feat08.json" },

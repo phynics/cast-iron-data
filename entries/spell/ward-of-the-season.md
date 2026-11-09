@@ -2,6 +2,7 @@
 id = "ref/spell/ward-of-the-season"
 kind = "spell"
 title = "Ward of the Season"
+aon = "SpellDisplay.aspx?ItemName=Ward%20of%20the%20Season"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ward_of_the_season", path = "json/spells11.json" },

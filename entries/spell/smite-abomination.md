@@ -2,6 +2,7 @@
 id = "ref/spell/smite-abomination"
 kind = "spell"
 title = "Smite Abomination"
+aon = "SpellDisplay.aspx?ItemName=Smite%20Abomination"
 source_ids = ["inner-sea-gods", "pathfinder-44-trial-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "smite_abomination", path = "json/spells9.json" },

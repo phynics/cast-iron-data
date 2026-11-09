@@ -2,6 +2,7 @@
 id = "ref/monster/ratfolk-ratfolk-bravo"
 kind = "creature"
 title = "Ratfolk Bravo"
+aon = "MonsterDisplay.aspx?ItemName=Ratfolk%20Bravo"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ratfolk_ratfolk_bravo", path = "json/monsters20.json" },

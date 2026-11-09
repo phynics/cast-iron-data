@@ -2,6 +2,7 @@
 id = "ref/trait/friends-in-high-places"
 kind = "trait"
 title = "Friends in High Places"
+aon = "TraitDisplay.aspx?ItemName=Friends%20in%20High%20Places"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "friends_in_high_places", path = "json/traits01.json" },

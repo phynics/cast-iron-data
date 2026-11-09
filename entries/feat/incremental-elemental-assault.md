@@ -2,6 +2,7 @@
 id = "ref/feat/incremental-elemental-assault"
 kind = "feat"
 title = "Incremental Elemental Assault"
+aon = "FeatDisplay.aspx?ItemName=Incremental%20Elemental%20Assault"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "incremental_elemental_assault", path = "json/feat09.json" },

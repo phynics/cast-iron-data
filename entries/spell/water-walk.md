@@ -2,6 +2,7 @@
 id = "ref/spell/water-walk"
 kind = "spell"
 title = "Water Walk"
+aon = "SpellDisplay.aspx?ItemName=Water%20Walk"
 source_ids = ["core-rulebook", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "water_walk", path = "json/spells11.json" },

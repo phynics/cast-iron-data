@@ -2,6 +2,7 @@
 id = "ref/trait/winter-witchcraft-survivor"
 kind = "trait"
 title = "Winter Witchcraft Survivor"
+aon = "TraitDisplay.aspx?ItemName=Winter%20Witchcraft%20Survivor"
 source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "winter_witchcraft_survivor", path = "json/traits02.json" },

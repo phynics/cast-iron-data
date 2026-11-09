@@ -2,6 +2,7 @@
 id = "ref/trait/ancestral-grounds"
 kind = "trait"
 title = "Ancestral Grounds"
+aon = "TraitDisplay.aspx?ItemName=Ancestral%20Grounds"
 source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ancestral_grounds", path = "json/traits05.json" },

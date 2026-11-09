@@ -2,6 +2,7 @@
 id = "ref/feat/agile-tongue"
 kind = "feat"
 title = "Agile Tongue"
+aon = "FeatDisplay.aspx?ItemName=Agile%20Tongue"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "agile_tongue", path = "json/feat01.json" },

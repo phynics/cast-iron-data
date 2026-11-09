@@ -2,6 +2,7 @@
 id = "ref/spell/peacemakers-parley"
 kind = "spell"
 title = "Peacemaker's Parley"
+aon = "SpellDisplay.aspx?ItemName=Peacemaker%27s%20Parley"
 source_ids = ["dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "peacemakers_parley", path = "json/spells7.json" },

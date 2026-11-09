@@ -2,6 +2,7 @@
 id = "ref/spell/break-enchantment"
 kind = "spell"
 title = "Break Enchantment"
+aon = "SpellDisplay.aspx?ItemName=Break%20Enchantment"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "break_enchantment", path = "json/spells2.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/serrens-armor-lock"
 kind = "spell"
 title = "Serren's Armor Lock"
+aon = "SpellDisplay.aspx?ItemName=Serren%27s%20Armor%20Lock"
 source_ids = ["knights-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "serrens_armor_lock", path = "json/spells15.json" },

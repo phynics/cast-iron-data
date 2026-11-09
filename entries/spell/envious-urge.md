@@ -2,6 +2,7 @@
 id = "ref/spell/envious-urge"
 kind = "spell"
 title = "Envious Urge"
+aon = "SpellDisplay.aspx?ItemName=Envious%20Urge"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "envious_urge", path = "json/spells4.json" },

@@ -2,6 +2,7 @@
 id = "ref/pclass/veiled-illusionist"
 kind = "prestige_class"
 title = "Veiled Illusionist"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Veiled%20Illusionist"
 source_ids = ["paths-of-prestige"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "veiled_illusionist", path = "json/prestige_classes4.json" },

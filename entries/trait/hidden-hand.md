@@ -2,6 +2,7 @@
 id = "ref/trait/hidden-hand"
 kind = "trait"
 title = "Hidden Hand"
+aon = "TraitDisplay.aspx?ItemName=Hidden%20Hand"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hidden_hand", path = "json/traits01.json" },

@@ -2,6 +2,7 @@
 id = "ref/magic-ring/society-ring"
 kind = "item"
 title = "Society Ring"
+aon = "MagicRingsDisplay.aspx?FinalName=Society%20Ring"
 source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "society_ring", path = "json/magic_ring.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/legend-lore"
 kind = "spell"
 title = "Legend Lore"
+aon = "SpellDisplay.aspx?ItemName=Legend%20Lore"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "legend_lore", path = "json/spells6.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/golem-adamantine-golem"
 kind = "creature"
 title = "Adamantine Golem"
+aon = "MonsterDisplay.aspx?ItemName=Adamantine%20Golem"
 source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_adamantine_golem", path = "json/monsters33.json" },

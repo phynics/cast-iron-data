@@ -2,6 +2,7 @@
 id = "ref/trait/punish-insurrection"
 kind = "trait"
 title = "Punish Insurrection"
+aon = "TraitDisplay.aspx?ItemName=Punish%20Insurrection"
 source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "punish_insurrection", path = "json/traits01.json" },

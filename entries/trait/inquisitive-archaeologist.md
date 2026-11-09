@@ -2,6 +2,7 @@
 id = "ref/trait/inquisitive-archaeologist"
 kind = "trait"
 title = "Inquisitive Archaeologist"
+aon = "TraitDisplay.aspx?ItemName=Inquisitive%20Archaeologist"
 source_ids = ["mummys-mask-players-guide", "people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inquisitive_archaeologist", path = "json/traits02.json" },

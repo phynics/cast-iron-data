@@ -2,6 +2,7 @@
 id = "ref/feat/flow-of-elements"
 kind = "feat"
 title = "Flow of Elements"
+aon = "FeatDisplay.aspx?ItemName=Flow%20of%20Elements"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flow_of_elements", path = "json/feat07.json" },

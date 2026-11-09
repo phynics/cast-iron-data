@@ -2,6 +2,7 @@
 id = "ref/spell/blade-barrier"
 kind = "spell"
 title = "Blade Barrier"
+aon = "SpellDisplay.aspx?ItemName=Blade%20Barrier"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blade_barrier", path = "json/spells12.json" },

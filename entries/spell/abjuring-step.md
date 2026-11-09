@@ -2,6 +2,7 @@
 id = "ref/spell/abjuring-step"
 kind = "spell"
 title = "Abjuring Step"
+aon = "SpellDisplay.aspx?ItemName=Abjuring%20Step"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "abjuring_step", path = "json/spells.json" },

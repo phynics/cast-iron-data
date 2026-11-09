@@ -2,6 +2,7 @@
 id = "ref/feat/hinderance-dismissal"
 kind = "feat"
 title = "Hinderance Dismissal"
+aon = "FeatDisplay.aspx?ItemName=Hinderance%20Dismissal"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hinderance_dismissal", path = "json/feat08.json" },

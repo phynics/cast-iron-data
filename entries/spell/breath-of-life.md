@@ -2,6 +2,7 @@
 id = "ref/spell/breath-of-life"
 kind = "spell"
 title = "Breath of Life"
+aon = "SpellDisplay.aspx?ItemName=Breath%20of%20Life"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "breath_of_life", path = "json/spells2.json" },

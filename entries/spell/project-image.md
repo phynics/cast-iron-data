@@ -2,6 +2,7 @@
 id = "ref/spell/project-image"
 kind = "spell"
 title = "Project Image"
+aon = "SpellDisplay.aspx?ItemName=Project%20Image"
 source_ids = ["core-rulebook", "advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "project_image", path = "json/spells15.json" },

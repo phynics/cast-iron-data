@@ -2,6 +2,7 @@
 id = "ref/spell/tail-strike"
 kind = "spell"
 title = "Tail Strike"
+aon = "SpellDisplay.aspx?ItemName=Tail%20Strike"
 source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tail_strike", path = "json/spells10.json" },

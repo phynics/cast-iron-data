@@ -2,6 +2,7 @@
 id = "ref/magic-ring/profane-seal-signet"
 kind = "item"
 title = "Profane Seal Signet"
+aon = "MagicRingsDisplay.aspx?FinalName=Profane%20Seal%20Signet"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "profane_seal_signet", path = "json/magic_ring.json" },

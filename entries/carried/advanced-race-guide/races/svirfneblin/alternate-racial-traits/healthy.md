@@ -2,6 +2,7 @@
 id = "ref/carried/advanced-race-guide/races/svirfneblin/alternate-racial-traits/healthy"
 kind = "racial_trait"
 title = "Healthy"
+aon = "TraitDisplay.aspx?ItemName=Healthy"
 source_ids = ["advanced-race-guide"]
 section = ["Races", "Svirfneblin", "Alternate Racial Traits"]
 tags = ["alternate", "svirfneblin"]

@@ -2,6 +2,7 @@
 id = "ref/trait/oathbound"
 kind = "trait"
 title = "Oathbound"
+aon = "TraitDisplay.aspx?ItemName=Oathbound"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oathbound", path = "json/traits01.json" },

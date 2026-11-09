@@ -2,6 +2,7 @@
 id = "ref/trait/indomitable-faith"
 kind = "trait"
 title = "Indomitable Faith"
+aon = "TraitDisplay.aspx?ItemName=Indomitable%20Faith"
 source_ids = ["ultimate-campaign", "second-darkness-players-guide", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "indomitable_faith", path = "json/traits01.json" },

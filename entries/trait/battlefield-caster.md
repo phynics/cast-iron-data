@@ -2,6 +2,7 @@
 id = "ref/trait/battlefield-caster"
 kind = "trait"
 title = "Battlefield Caster"
+aon = "TraitDisplay.aspx?ItemName=Battlefield%20Caster"
 source_ids = ["dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "battlefield_caster", path = "json/traits03.json" },

@@ -2,6 +2,7 @@
 id = "ref/carried/advanced-players-guide/spells/castigate/mass"
 kind = "spell"
 title = "Castigate, Mass"
+aon = "SpellDisplay.aspx?ItemName=Castigate%2C%20Mass"
 source_ids = ["advanced-players-guide"]
 section = ["Spells", "Castigate"]
 tags = ["enchantment", "compulsion", "emotion", "fear", "language-dependent", "mind-affecting"]

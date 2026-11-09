@@ -2,6 +2,7 @@
 id = "ref/spell/badgers-ferocity"
 kind = "spell"
 title = "Badger's Ferocity"
+aon = "SpellDisplay.aspx?ItemName=Badger%27s%20Ferocity"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "badgers_ferocity", path = "json/spells12.json" },

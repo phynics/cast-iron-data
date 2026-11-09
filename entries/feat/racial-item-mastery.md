@@ -2,6 +2,7 @@
 id = "ref/feat/racial-item-mastery"
 kind = "feat"
 title = "Racial Item Mastery"
+aon = "FeatDisplay.aspx?ItemName=Racial%20Item%20Mastery"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "racial_item_mastery", path = "json/feat12.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/nirmathi-militia"
 kind = "trait"
 title = "Nirmathi Militia"
+aon = "TraitDisplay.aspx?ItemName=Nirmathi%20Militia"
 source_ids = ["inner-sea-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nirmathi_militia", path = "json/traits04.json" },

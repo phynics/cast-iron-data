@@ -2,6 +2,7 @@
 id = "ref/feat/brood-defender"
 kind = "feat"
 title = "Brood Defender"
+aon = "FeatDisplay.aspx?ItemName=Brood%20Defender"
 source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brood_defender", path = "json/feat02.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/making-good-on-promises"
 kind = "trait"
 title = "Making Good on Promises"
+aon = "TraitDisplay.aspx?ItemName=Making%20Good%20on%20Promises"
 source_ids = ["carrion-crown-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "making_good_on_promises", path = "json/traits02.json" },

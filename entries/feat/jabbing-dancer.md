@@ -2,6 +2,7 @@
 id = "ref/feat/jabbing-dancer"
 kind = "feat"
 title = "Jabbing Dancer"
+aon = "FeatDisplay.aspx?ItemName=Jabbing%20Dancer"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jabbing_dancer", path = "json/feat09.json" },

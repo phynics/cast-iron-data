@@ -2,6 +2,7 @@
 id = "ref/trait/corpse-cannibal"
 kind = "trait"
 title = "Corpse Cannibal"
+aon = "TraitDisplay.aspx?ItemName=Corpse%20Cannibal"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "corpse_cannibal", path = "json/traits03.json" },

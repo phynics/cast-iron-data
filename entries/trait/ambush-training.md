@@ -2,6 +2,7 @@
 id = "ref/trait/ambush-training"
 kind = "trait"
 title = "Ambush Training"
+aon = "TraitDisplay.aspx?ItemName=Ambush%20Training"
 source_ids = ["pathfinder-society-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ambush_training", path = "json/traits01.json" },

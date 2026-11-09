@@ -2,6 +2,7 @@
 id = "ref/feat/wild-growth-channel"
 kind = "feat"
 title = "Wild Growth Channel"
+aon = "FeatDisplay.aspx?ItemName=Wild%20Growth%20Channel"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wild_growth_channel", path = "json/feat17.json" },

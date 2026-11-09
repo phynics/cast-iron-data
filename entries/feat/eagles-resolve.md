@@ -2,6 +2,7 @@
 id = "ref/feat/eagles-resolve"
 kind = "feat"
 title = "Eagle's Resolve"
+aon = "FeatDisplay.aspx?ItemName=Eagle%27s%20Resolve"
 source_ids = ["adventurers-guide", "andoran-birthplace-of-freedom"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eagles_resolve", path = "json/feat05.json" },

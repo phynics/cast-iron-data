@@ -2,6 +2,7 @@
 id = "ref/feat/mark-of-the-devoted"
 kind = "feat"
 title = "Mark of the Devoted"
+aon = "FeatDisplay.aspx?ItemName=Mark%20of%20the%20Devoted"
 source_ids = ["undead-unleashed"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mark_of_the_devoted", path = "json/feat10.json" },

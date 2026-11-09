@@ -2,6 +2,7 @@
 id = "ref/trait/expressive-pantomime"
 kind = "trait"
 title = "Expressive Pantomime"
+aon = "TraitDisplay.aspx?ItemName=Expressive%20Pantomime"
 source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "expressive_pantomime", path = "json/traits01.json" },

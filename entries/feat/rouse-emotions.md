@@ -2,6 +2,7 @@
 id = "ref/feat/rouse-emotions"
 kind = "feat"
 title = "Rouse Emotions"
+aon = "FeatDisplay.aspx?ItemName=Rouse%20Emotions"
 source_ids = ["cohorts-and-companions"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rouse_emotions", path = "json/feat13.json" },

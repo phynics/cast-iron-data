@@ -2,6 +2,7 @@
 id = "ref/trait/bellis-honey-harvester"
 kind = "trait"
 title = "Bellis Honey Harvester"
+aon = "TraitDisplay.aspx?ItemName=Bellis%20Honey%20Harvester"
 source_ids = ["andoran-spirit-of-liberty"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bellis_honey_harvester", path = "json/traits04.json" },

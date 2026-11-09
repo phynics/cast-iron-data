@@ -2,6 +2,7 @@
 id = "ref/carried/core-rulebook/spells/invisibility/mass"
 kind = "spell"
 title = "Invisibility, Mass"
+aon = "SpellDisplay.aspx?ItemName=Invisibility%2C%20Mass"
 source_ids = ["core-rulebook"]
 section = ["Spells", "Invisibility"]
 tags = ["illusion", "glamer"]

@@ -2,6 +2,7 @@
 id = "ref/feat/spontaneous-metafocus"
 kind = "feat"
 title = "Spontaneous Metafocus"
+aon = "FeatDisplay.aspx?ItemName=Spontaneous%20Metafocus"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spontaneous_metafocus", path = "json/feat15.json" },

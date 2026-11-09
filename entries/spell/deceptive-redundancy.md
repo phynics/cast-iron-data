@@ -2,6 +2,7 @@
 id = "ref/spell/deceptive-redundancy"
 kind = "spell"
 title = "Deceptive Redundancy"
+aon = "SpellDisplay.aspx?ItemName=Deceptive%20Redundancy"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deceptive_redundancy", path = "json/spells3.json" },

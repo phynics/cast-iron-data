@@ -2,6 +2,7 @@
 id = "ref/magic-weapon/norgirs-ruin"
 kind = "item"
 title = "Norgir's Ruin"
+aon = "MagicIntelligentDisplay.aspx?ItemName=Norgir%27s%20Ruin"
 source_ids = ["dungeons-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "norgirs_ruin", path = "json/magic_weapon2.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/purify-body"
 kind = "spell"
 title = "Purify Body"
+aon = "SpellDisplay.aspx?ItemName=Purify%20Body"
 source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "purify_body", path = "json/spells15.json" },

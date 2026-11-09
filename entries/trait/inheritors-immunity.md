@@ -2,6 +2,7 @@
 id = "ref/trait/inheritors-immunity"
 kind = "trait"
 title = "Inheritor's Immunity"
+aon = "TraitDisplay.aspx?ItemName=Inheritor%27s%20Immunity"
 source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inheritors_immunity", path = "json/traits03.json" },

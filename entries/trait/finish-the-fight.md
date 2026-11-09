@@ -2,6 +2,7 @@
 id = "ref/trait/finish-the-fight"
 kind = "trait"
 title = "Finish the Fight"
+aon = "TraitDisplay.aspx?ItemName=Finish%20the%20Fight"
 source_ids = ["bastards-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "finish_the_fight", path = "json/traits05.json" },

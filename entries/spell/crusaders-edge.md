@@ -2,6 +2,7 @@
 id = "ref/spell/crusaders-edge"
 kind = "spell"
 title = "Crusader's Edge"
+aon = "SpellDisplay.aspx?ItemName=Crusader%27s%20Edge"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crusaders_edge", path = "json/spells3.json" },

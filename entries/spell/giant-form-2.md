@@ -2,6 +2,7 @@
 id = "ref/spell/giant-form-2"
 kind = "spell"
 title = "Giant Form II"
+aon = "SpellDisplay.aspx?ItemName=Giant%20Form%20II"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_form_2", path = "json/spells13.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/resilient-martyr"
 kind = "trait"
 title = "Resilient Martyr"
+aon = "TraitDisplay.aspx?ItemName=Resilient%20Martyr"
 source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "resilient_martyr", path = "json/traits03.json" },

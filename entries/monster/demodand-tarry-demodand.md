@@ -2,6 +2,7 @@
 id = "ref/monster/demodand-tarry-demodand"
 kind = "creature"
 title = "Tarry Demodand"
+aon = "MonsterDisplay.aspx?ItemName=Tarry%20Demodand"
 source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demodand_tarry_demodand", path = "json/monsters29.json" },

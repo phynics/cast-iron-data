@@ -2,6 +2,7 @@
 id = "ref/spell/frightful-aspect"
 kind = "spell"
 title = "Frightful Aspect"
+aon = "SpellDisplay.aspx?ItemName=Frightful%20Aspect"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "frightful_aspect", path = "json/spells13.json" },

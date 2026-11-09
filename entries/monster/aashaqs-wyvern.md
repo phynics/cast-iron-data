@@ -2,6 +2,7 @@
 id = "ref/monster/aashaqs-wyvern"
 kind = "creature"
 title = "Aashaq's Wyvern"
+aon = "MonsterDisplay.aspx?ItemName=Aashaq%27s%20Wyvern"
 source_ids = ["isles-of-the-shackles"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aashaqs_wyvern", path = "json/monsters01.json" },

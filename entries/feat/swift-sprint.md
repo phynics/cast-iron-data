@@ -2,6 +2,7 @@
 id = "ref/feat/swift-sprint"
 kind = "feat"
 title = "Swift Sprint"
+aon = "FeatDisplay.aspx?ItemName=Swift%20Sprint"
 source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swift_sprint", path = "json/feat15.json" },

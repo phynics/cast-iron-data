@@ -2,6 +2,7 @@
 id = "ref/monster/orc-orc-mystic"
 kind = "creature"
 title = "Orc Mystic"
+aon = "MonsterDisplay.aspx?ItemName=Orc%20Mystic"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "orc_orc_mystic", path = "json/monsters18.json" },

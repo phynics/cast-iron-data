@@ -2,6 +2,7 @@
 id = "ref/trait/cellular-match"
 kind = "trait"
 title = "Cellular Match"
+aon = "TraitDisplay.aspx?ItemName=Cellular%20Match"
 source_ids = ["people-of-the-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cellular_match", path = "json/traits05.json" },

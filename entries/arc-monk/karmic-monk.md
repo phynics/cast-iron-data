@@ -2,6 +2,7 @@
 id = "ref/arc-monk/karmic-monk"
 kind = "archetype"
 title = "Karmic Monk"
+aon = "ArchetypeDisplay.aspx?FixedName=Monk%20Karmic%20Monk"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "karmic_monk", path = "json/archetypes_monk.json" },

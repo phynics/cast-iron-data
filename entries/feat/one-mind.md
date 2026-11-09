@@ -2,6 +2,7 @@
 id = "ref/feat/one-mind"
 kind = "feat"
 title = "One Mind"
+aon = "FeatDisplay.aspx?ItemName=One%20Mind"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "one_mind", path = "json/feat11.json" },

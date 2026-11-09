@@ -2,6 +2,7 @@
 id = "ref/feat/murderous-sniper"
 kind = "feat"
 title = "Murderous Sniper"
+aon = "FeatDisplay.aspx?ItemName=Murderous%20Sniper"
 source_ids = ["chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "murderous_sniper", path = "json/feat11.json" },

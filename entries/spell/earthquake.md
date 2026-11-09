@@ -2,6 +2,7 @@
 id = "ref/spell/earthquake"
 kind = "spell"
 title = "Earthquake"
+aon = "SpellDisplay.aspx?ItemName=Earthquake"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "earthquake", path = "json/spells13.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/orc-snarl"
 kind = "feat"
 title = "Orc Snarl"
+aon = "FeatDisplay.aspx?ItemName=Orc%20Snarl"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "orc_snarl", path = "json/feat11.json" },

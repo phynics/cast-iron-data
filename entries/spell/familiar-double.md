@@ -2,6 +2,7 @@
 id = "ref/spell/familiar-double"
 kind = "spell"
 title = "Familiar Double"
+aon = "SpellDisplay.aspx?ItemName=Familiar%20Double"
 source_ids = ["core-rulebook", "advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_double", path = "json/spells15.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/flame-of-the-dawnflower"
 kind = "trait"
 title = "Flame of the Dawnflower"
+aon = "TraitDisplay.aspx?ItemName=Flame%20of%20the%20Dawnflower"
 source_ids = ["ultimate-campaign", "qadira-gateway-to-the-east", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flame_of_the_dawnflower", path = "json/traits03.json" },

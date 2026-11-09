@@ -2,6 +2,7 @@
 id = "ref/monster/toad-glacier-toad"
 kind = "creature"
 title = "Glacier Toad"
+aon = "MonsterDisplay.aspx?ItemName=Glacier%20Toad"
 source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "toad_glacier_toad", path = "json/monsters23.json" },

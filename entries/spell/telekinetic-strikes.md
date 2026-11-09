@@ -2,6 +2,7 @@
 id = "ref/spell/telekinetic-strikes"
 kind = "spell"
 title = "Telekinetic Strikes"
+aon = "SpellDisplay.aspx?ItemName=Telekinetic%20Strikes"
 source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "telekinetic_strikes", path = "json/spells10.json" },

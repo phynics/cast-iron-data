@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/earthshadow"
 kind = "archetype"
 title = "Earthshadow"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Earthshadow"
 source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "earthshadow", path = "json/archetypes_rogue.json" },

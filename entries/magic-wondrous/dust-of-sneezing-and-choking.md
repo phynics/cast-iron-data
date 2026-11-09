@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/dust-of-sneezing-and-choking"
 kind = "item"
 title = "Dust of Sneezing and Choking"
+aon = "MagicCursedDisplay.aspx?ItemName=Dust%20of%20Sneezing%20and%20Choking"
 source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dust_of_sneezing_and_choking", path = "json/magic_wondrous_slotless02.json" },

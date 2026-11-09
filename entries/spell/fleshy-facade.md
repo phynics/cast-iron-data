@@ -2,6 +2,7 @@
 id = "ref/spell/fleshy-facade"
 kind = "spell"
 title = "Fleshy Facade"
+aon = "SpellDisplay.aspx?ItemName=Fleshy%20Facade"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fleshy_facade", path = "json/spells4.json" },

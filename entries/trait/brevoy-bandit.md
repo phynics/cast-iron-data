@@ -2,6 +2,7 @@
 id = "ref/trait/brevoy-bandit"
 kind = "trait"
 title = "Brevoy Bandit"
+aon = "TraitDisplay.aspx?ItemName=Brevoy%20Bandit"
 source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brevoy_bandit", path = "json/traits04.json" },

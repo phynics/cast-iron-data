@@ -2,6 +2,7 @@
 id = "ref/feat/forceful-charge"
 kind = "feat"
 title = "Forceful Charge"
+aon = "FeatDisplay.aspx?ItemName=Forceful%20Charge"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "forceful_charge", path = "json/feat07.json" },

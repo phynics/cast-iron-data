@@ -2,6 +2,7 @@
 id = "ref/spell/empower-holy-water"
 kind = "spell"
 title = "Empower Holy Water"
+aon = "SpellDisplay.aspx?ItemName=Empower%20Holy%20Water"
 source_ids = ["undead-slayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "empower_holy_water", path = "json/spells4.json" },

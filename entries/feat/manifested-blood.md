@@ -2,6 +2,7 @@
 id = "ref/feat/manifested-blood"
 kind = "feat"
 title = "Manifested Blood"
+aon = "FeatDisplay.aspx?ItemName=Manifested%20Blood"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "manifested_blood", path = "json/feat10.json" },

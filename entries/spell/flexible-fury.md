@@ -2,6 +2,7 @@
 id = "ref/spell/flexible-fury"
 kind = "spell"
 title = "Flexible Fury"
+aon = "SpellDisplay.aspx?ItemName=Flexible%20Fury"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flexible_fury", path = "json/spells4.json" },

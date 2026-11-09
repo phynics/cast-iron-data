@@ -2,6 +2,7 @@
 id = "ref/feat/luck-of-heroes"
 kind = "feat"
 title = "Luck of Heroes"
+aon = "FeatDisplay.aspx?ItemName=Luck%20of%20Heroes"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "luck_of_heroes", path = "json/feat10.json" },

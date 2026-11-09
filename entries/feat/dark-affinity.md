@@ -2,6 +2,7 @@
 id = "ref/feat/dark-affinity"
 kind = "feat"
 title = "Dark Affinity"
+aon = "FeatDisplay.aspx?ItemName=Dark%20Affinity"
 source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dark_affinity", path = "json/feat04.json" },

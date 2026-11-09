@@ -2,6 +2,7 @@
 id = "ref/feat/medusas-wrath/teitr"
 kind = "feat"
 title = "Medusa's Wrath"
+aon = "FeatDisplay.aspx?ItemName=Medusa%27s%20Wrath"
 source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/medusas-wrath" },

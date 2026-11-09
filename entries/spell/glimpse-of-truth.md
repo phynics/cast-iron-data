@@ -2,6 +2,7 @@
 id = "ref/spell/glimpse-of-truth"
 kind = "spell"
 title = "Glimpse of Truth"
+aon = "SpellDisplay.aspx?ItemName=Glimpse%20of%20Truth"
 source_ids = ["core-rulebook", "ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "glimpse_of_truth", path = "json/spells10.json" },

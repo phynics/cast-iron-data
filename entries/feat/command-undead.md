@@ -2,6 +2,7 @@
 id = "ref/feat/command-undead"
 kind = "feat"
 title = "Command Undead"
+aon = "FeatDisplay.aspx?ItemName=Command%20Undead"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "command_undead", path = "json/feat03.json" },

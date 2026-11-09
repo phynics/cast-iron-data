@@ -2,6 +2,7 @@
 id = "ref/spell/overwhelming-grief"
 kind = "spell"
 title = "Overwhelming Grief"
+aon = "SpellDisplay.aspx?ItemName=Overwhelming%20Grief"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "overwhelming_grief", path = "json/spells7.json" },

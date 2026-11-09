@@ -2,6 +2,7 @@
 id = "ref/spell/helping-hand"
 kind = "spell"
 title = "Helping Hand"
+aon = "SpellDisplay.aspx?ItemName=Helping%20Hand"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "helping_hand", path = "json/spells5.json" },

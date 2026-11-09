@@ -2,6 +2,7 @@
 id = "ref/trait/superstitious-ward"
 kind = "trait"
 title = "Superstitious Ward"
+aon = "TraitDisplay.aspx?ItemName=Superstitious%20Ward"
 source_ids = ["inner-sea-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "superstitious_ward", path = "json/traits04.json" },

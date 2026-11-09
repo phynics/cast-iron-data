@@ -2,6 +2,7 @@
 id = "ref/feat/blackfire-summoning"
 kind = "feat"
 title = "Blackfire Summoning"
+aon = "FeatDisplay.aspx?ItemName=Blackfire%20Summoning"
 source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blackfire_summoning", path = "json/feat02.json" },

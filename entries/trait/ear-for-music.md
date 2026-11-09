@@ -2,6 +2,7 @@
 id = "ref/trait/ear-for-music"
 kind = "trait"
 title = "Ear for Music"
+aon = "TraitDisplay.aspx?ItemName=Ear%20for%20Music"
 source_ids = ["ultimate-campaign", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ear_for_music", path = "json/traits03.json" },

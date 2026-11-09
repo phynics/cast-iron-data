@@ -2,6 +2,7 @@
 id = "ref/pclass/agent-of-the-grave"
 kind = "prestige_class"
 title = "Agent of the Grave"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Agent%20of%20the%20Grave"
 source_ids = ["pathfinder-45-broken-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "agent_of_the_grave", path = "json/prestige_classes.json" },

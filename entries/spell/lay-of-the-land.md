@@ -2,6 +2,7 @@
 id = "ref/spell/lay-of-the-land"
 kind = "spell"
 title = "Lay of the Land"
+aon = "SpellDisplay.aspx?ItemName=Lay%20of%20the%20Land"
 source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lay_of_the_land", path = "json/spells6.json" },

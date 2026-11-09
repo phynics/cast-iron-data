@@ -2,6 +2,7 @@
 id = "ref/feat/blessed-striker"
 kind = "feat"
 title = "Blessed Striker"
+aon = "FeatDisplay.aspx?ItemName=Blessed%20Striker"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blessed_striker", path = "json/feat02.json" },

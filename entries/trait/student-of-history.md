@@ -2,6 +2,7 @@
 id = "ref/trait/student-of-history"
 kind = "trait"
 title = "Student of History"
+aon = "TraitDisplay.aspx?ItemName=Student%20of%20History"
 source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "student_of_history", path = "json/traits01.json" },

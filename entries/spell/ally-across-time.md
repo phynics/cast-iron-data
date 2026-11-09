@@ -2,6 +2,7 @@
 id = "ref/spell/ally-across-time"
 kind = "spell"
 title = "Ally Across Time"
+aon = "SpellDisplay.aspx?ItemName=Ally%20Across%20Time"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ally_across_time", path = "json/spells.json" },

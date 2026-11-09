@@ -2,6 +2,7 @@
 id = "ref/monster/troll-troll-acolyte"
 kind = "creature"
 title = "Troll Acolyte"
+aon = "MonsterDisplay.aspx?ItemName=Troll%20Acolyte"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "troll_troll_acolyte", path = "json/monsters39.json" },

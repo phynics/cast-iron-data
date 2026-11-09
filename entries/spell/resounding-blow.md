@@ -2,6 +2,7 @@
 id = "ref/spell/resounding-blow"
 kind = "spell"
 title = "Resounding Blow"
+aon = "SpellDisplay.aspx?ItemName=Resounding%20Blow"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "resounding_blow", path = "json/spells8.json" },

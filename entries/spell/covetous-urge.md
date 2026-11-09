@@ -2,6 +2,7 @@
 id = "ref/spell/covetous-urge"
 kind = "spell"
 title = "Covetous Urge"
+aon = "SpellDisplay.aspx?ItemName=Covetous%20Urge"
 source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "covetous_urge", path = "json/spells12.json" },

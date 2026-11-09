@@ -2,6 +2,7 @@
 id = "ref/trait/rahadoumi-cultist"
 kind = "trait"
 title = "Rahadoumi Cultist"
+aon = "TraitDisplay.aspx?ItemName=Rahadoumi%20Cultist"
 source_ids = ["inner-sea-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rahadoumi_cultist", path = "json/traits04.json" },

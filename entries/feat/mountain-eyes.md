@@ -2,6 +2,7 @@
 id = "ref/feat/mountain-eyes"
 kind = "feat"
 title = "Mountain Eyes"
+aon = "FeatDisplay.aspx?ItemName=Mountain%20Eyes"
 source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mountain_eyes", path = "json/feat11.json" },

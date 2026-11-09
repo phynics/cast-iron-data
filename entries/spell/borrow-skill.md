@@ -2,6 +2,7 @@
 id = "ref/spell/borrow-skill"
 kind = "spell"
 title = "Borrow Skill"
+aon = "SpellDisplay.aspx?ItemName=Borrow%20Skill"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "borrow_skill", path = "json/spells2.json" },

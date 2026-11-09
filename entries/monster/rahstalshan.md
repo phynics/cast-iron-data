@@ -2,6 +2,7 @@
 id = "ref/monster/rahstalshan"
 kind = "creature"
 title = "Rahstalshan, Stone Giant Elder"
+aon = "MonsterDisplay.aspx?ItemName=Rahstalshan%2C%20Stone%20Giant%20Elder"
 source_ids = ["giants-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rahstalshan", path = "json/monsters_unique3.json" },

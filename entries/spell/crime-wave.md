@@ -2,6 +2,7 @@
 id = "ref/spell/crime-wave"
 kind = "spell"
 title = "Crime Wave"
+aon = "SpellDisplay.aspx?ItemName=Crime%20Wave"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crime_wave", path = "json/spells3.json" },

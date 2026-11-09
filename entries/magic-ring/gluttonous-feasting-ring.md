@@ -2,6 +2,7 @@
 id = "ref/magic-ring/gluttonous-feasting-ring"
 kind = "item"
 title = "Gluttonous Feasting Ring"
+aon = "MagicRingsDisplay.aspx?FinalName=Gluttonous%20Feasting%20Ring"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gluttonous_feasting_ring", path = "json/magic_ring.json" },

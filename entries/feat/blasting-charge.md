@@ -2,6 +2,7 @@
 id = "ref/feat/blasting-charge"
 kind = "feat"
 title = "Blasting Charge"
+aon = "FeatDisplay.aspx?ItemName=Blasting%20Charge"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blasting_charge", path = "json/feat02.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/waylayer"
 kind = "archetype"
 title = "Waylayer"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Waylayer"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "waylayer", path = "json/archetypes_rogue.json" },

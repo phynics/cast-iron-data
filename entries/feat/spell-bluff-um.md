@@ -2,6 +2,7 @@
 id = "ref/feat/spell-bluff-um"
 kind = "feat"
 title = "Spell Bluff (UM)"
+aon = "FeatDisplay.aspx?ItemName=Spell%20Bluff%20%28UM%29"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_bluff_um", path = "json/feat14.json" },

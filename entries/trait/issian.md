@@ -2,6 +2,7 @@
 id = "ref/trait/issian"
 kind = "trait"
 title = "Issian"
+aon = "TraitDisplay.aspx?ItemName=Issian"
 source_ids = ["kingmaker-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "issian", path = "json/traits02.json" },

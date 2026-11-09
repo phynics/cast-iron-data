@@ -2,6 +2,7 @@
 id = "ref/trait/blood-algorithm"
 kind = "trait"
 title = "Blood Algorithm"
+aon = "TraitDisplay.aspx?ItemName=Blood%20Algorithm"
 source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_algorithm", path = "json/traits05.json" },

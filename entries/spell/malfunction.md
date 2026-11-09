@@ -2,6 +2,7 @@
 id = "ref/spell/malfunction"
 kind = "spell"
 title = "Malfunction"
+aon = "SpellDisplay.aspx?ItemName=Malfunction"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "malfunction", path = "json/spells6.json" },

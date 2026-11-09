@@ -2,6 +2,7 @@
 id = "ref/spell/blend"
 kind = "spell"
 title = "Blend"
+aon = "SpellDisplay.aspx?ItemName=Blend"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blend", path = "json/spells12.json" },

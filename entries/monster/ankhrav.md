@@ -2,6 +2,7 @@
 id = "ref/monster/ankhrav"
 kind = "creature"
 title = "Ankhrav"
+aon = "MonsterDisplay.aspx?ItemName=Ankhrav"
 source_ids = ["belkzen-hold-of-the-orc-hordes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ankhrav", path = "json/monsters02.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/putrid-summons"
 kind = "feat"
 title = "Putrid Summons"
+aon = "FeatDisplay.aspx?ItemName=Putrid%20Summons"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "putrid_summons", path = "json/feat12.json" },

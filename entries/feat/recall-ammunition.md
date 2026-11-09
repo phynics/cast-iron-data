@@ -2,6 +2,7 @@
 id = "ref/feat/recall-ammunition"
 kind = "feat"
 title = "Recall Ammunition"
+aon = "FeatDisplay.aspx?ItemName=Recall%20Ammunition"
 source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "recall_ammunition", path = "json/feat13.json" },

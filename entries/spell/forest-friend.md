@@ -2,6 +2,7 @@
 id = "ref/spell/forest-friend"
 kind = "spell"
 title = "Forest Friend"
+aon = "SpellDisplay.aspx?ItemName=Forest%20Friend"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "forest_friend", path = "json/spells13.json" },

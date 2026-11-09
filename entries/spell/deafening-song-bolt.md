@@ -2,6 +2,7 @@
 id = "ref/spell/deafening-song-bolt"
 kind = "spell"
 title = "Deafening Song Bolt"
+aon = "SpellDisplay.aspx?ItemName=Deafening%20Song%20Bolt"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deafening_song_bolt", path = "json/spells3.json" },

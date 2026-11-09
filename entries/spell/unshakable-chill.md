@@ -2,6 +2,7 @@
 id = "ref/spell/unshakable-chill"
 kind = "spell"
 title = "Unshakable Chill"
+aon = "SpellDisplay.aspx?ItemName=Unshakable%20Chill"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unshakable_chill", path = "json/spells11.json" },

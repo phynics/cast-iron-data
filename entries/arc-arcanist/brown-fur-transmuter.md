@@ -2,6 +2,7 @@
 id = "ref/arc-arcanist/brown-fur-transmuter"
 kind = "archetype"
 title = "Brown-Fur Transmuter"
+aon = "ArchetypeDisplay.aspx?FixedName=Arcanist%20Brown-Fur%20Transmuter"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brown_fur_transmuter", path = "json/archetypes_arcanist.json" },

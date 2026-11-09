@@ -2,6 +2,7 @@
 id = "ref/trait/animal-friend"
 kind = "trait"
 title = "Animal Friend"
+aon = "TraitDisplay.aspx?ItemName=Animal%20Friend"
 source_ids = ["ultimate-campaign", "advanced-players-guide", "legacy-of-fire-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animal_friend", path = "json/traits05.json" },

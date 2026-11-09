@@ -2,6 +2,7 @@
 id = "ref/feat/devastating-assault"
 kind = "feat"
 title = "Devastating Assault"
+aon = "FeatDisplay.aspx?ItemName=Devastating%20Assault"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devastating_assault", path = "json/feat04.json" },

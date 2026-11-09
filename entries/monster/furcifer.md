@@ -2,6 +2,7 @@
 id = "ref/monster/furcifer"
 kind = "creature"
 title = "Furcifer"
+aon = "MonsterDisplay.aspx?ItemName=Furcifer"
 source_ids = ["pathfinder-142-gardens-of-gallowspire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "furcifer", path = "json/monsters42.json" },

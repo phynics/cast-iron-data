@@ -2,6 +2,7 @@
 id = "ref/arc-monk/serpent-fire-adept"
 kind = "archetype"
 title = "Serpent-Fire Adept"
+aon = "ArchetypeDisplay.aspx?FixedName=Monk%20Serpent-Fire%20Adept"
 source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "serpent_fire_adept", path = "json/archetypes_monk2.json" },

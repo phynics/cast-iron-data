@@ -2,6 +2,7 @@
 id = "ref/feat/snap-shot"
 kind = "feat"
 title = "Snap Shot"
+aon = "FeatDisplay.aspx?ItemName=Snap%20Shot"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snap_shot", path = "json/feat14.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/hex-strike"
 kind = "feat"
 title = "Hex Strike"
+aon = "FeatDisplay.aspx?ItemName=Hex%20Strike"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hex_strike", path = "json/feat08.json" },

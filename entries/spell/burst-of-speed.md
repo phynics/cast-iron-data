@@ -2,6 +2,7 @@
 id = "ref/spell/burst-of-speed"
 kind = "spell"
 title = "Burst of Speed"
+aon = "SpellDisplay.aspx?ItemName=Burst%20of%20Speed"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burst_of_speed", path = "json/spells2.json" },

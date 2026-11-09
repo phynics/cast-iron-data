@@ -2,6 +2,7 @@
 id = "ref/spell/shield-of-shards"
 kind = "spell"
 title = "Shield Of Shards"
+aon = "SpellDisplay.aspx?ItemName=Shield%20Of%20Shards"
 source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_of_shards", path = "json/spells9.json" },

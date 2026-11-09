@@ -2,6 +2,7 @@
 id = "ref/trait/river-freedom"
 kind = "trait"
 title = "River Freedom"
+aon = "TraitDisplay.aspx?ItemName=River%20Freedom"
 source_ids = ["inner-sea-gods", "faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "river_freedom", path = "json/traits03.json" },

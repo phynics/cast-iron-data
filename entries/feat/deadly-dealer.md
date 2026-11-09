@@ -2,6 +2,7 @@
 id = "ref/feat/deadly-dealer"
 kind = "feat"
 title = "Deadly Dealer"
+aon = "FeatDisplay.aspx?ItemName=Deadly%20Dealer"
 source_ids = ["the-harrow-handbook", "varisia-birthplace-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deadly_dealer", path = "json/feat04.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/contact-entity-1"
 kind = "spell"
 title = "Contact Entity I"
+aon = "SpellDisplay.aspx?ItemName=Contact%20Entity%20I"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "contact_entity_1", path = "json/spells12.json" },

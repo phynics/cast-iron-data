@@ -2,6 +2,7 @@
 id = "ref/arc-spiritualist/soul-warden"
 kind = "archetype"
 title = "Soul Warden"
+aon = "ArchetypeDisplay.aspx?FixedName=Spiritualist%20Soul%20Warden"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soul_warden", path = "json/archetypes_spiritualist.json" },

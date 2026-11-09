@@ -2,6 +2,7 @@
 id = "ref/feat/multiweapon-specialist"
 kind = "feat"
 title = "Multiweapon Specialist"
+aon = "FeatDisplay.aspx?ItemName=Multiweapon%20Specialist"
 source_ids = ["demons-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "multiweapon_specialist", path = "json/feat11.json" },

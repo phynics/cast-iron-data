@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/taldor-rondelero-duelist"
 kind = "archetype"
 title = "Taldor: Rondelero Duelist"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Taldor%20%20Rondelero%20Duelist"
 source_ids = ["inner-sea-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "taldor_rondelero_duelist", path = "json/archetypes_fighter2.json" },

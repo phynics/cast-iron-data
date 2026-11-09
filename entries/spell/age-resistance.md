@@ -2,6 +2,7 @@
 id = "ref/spell/age-resistance"
 kind = "spell"
 title = "Age Resistance"
+aon = "SpellDisplay.aspx?ItemName=Age%20Resistance"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "age_resistance", path = "json/spells.json" },

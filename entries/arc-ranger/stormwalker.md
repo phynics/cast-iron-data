@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/stormwalker"
 kind = "archetype"
 title = "Stormwalker"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Stormwalker"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stormwalker", path = "json/archetypes_ranger.json" },

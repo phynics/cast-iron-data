@@ -2,6 +2,7 @@
 id = "ref/monster/lich-forsaken-lich"
 kind = "creature"
 title = "Forsaken Lich"
+aon = "MonsterDisplay.aspx?ItemName=Forsaken%20Lich"
 source_ids = ["pathfinder-48-shadows-of-gallowspire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lich_forsaken_lich", path = "json/monsters16.json" },

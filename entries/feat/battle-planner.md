@@ -2,6 +2,7 @@
 id = "ref/feat/battle-planner"
 kind = "feat"
 title = "Battle Planner"
+aon = "FeatDisplay.aspx?ItemName=Battle%20Planner"
 source_ids = ["chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "battle_planner", path = "json/feat02.json" },

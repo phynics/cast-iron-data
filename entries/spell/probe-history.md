@@ -2,6 +2,7 @@
 id = "ref/spell/probe-history"
 kind = "spell"
 title = "Probe History"
+aon = "SpellDisplay.aspx?ItemName=Probe%20History"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "probe_history", path = "json/spells14.json" },

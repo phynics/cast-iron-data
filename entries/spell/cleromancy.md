@@ -2,6 +2,7 @@
 id = "ref/spell/cleromancy"
 kind = "spell"
 title = "Cleromancy"
+aon = "SpellDisplay.aspx?ItemName=Cleromancy"
 source_ids = ["occult-mysteries"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cleromancy", path = "json/spells2.json" },

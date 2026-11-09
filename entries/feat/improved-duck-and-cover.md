@@ -2,6 +2,7 @@
 id = "ref/feat/improved-duck-and-cover"
 kind = "feat"
 title = "Improved Duck and Cover"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Duck%20and%20Cover"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_duck_and_cover", path = "json/feat09.json" },

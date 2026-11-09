@@ -2,6 +2,7 @@
 id = "ref/spell/verminous-transformation"
 kind = "spell"
 title = "Verminous Transformation"
+aon = "SpellDisplay.aspx?ItemName=Verminous%20Transformation"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "verminous_transformation", path = "json/spells11.json" },

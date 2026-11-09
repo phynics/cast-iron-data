@@ -2,6 +2,7 @@
 id = "ref/trait/selective-health"
 kind = "trait"
 title = "Selective Health"
+aon = "TraitDisplay.aspx?ItemName=Selective%20Health"
 source_ids = ["blood-of-angels"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "selective_health", path = "json/traits05.json" },

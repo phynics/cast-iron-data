@@ -2,6 +2,7 @@
 id = "ref/feat/celestial-servant"
 kind = "feat"
 title = "Celestial Servant"
+aon = "FeatDisplay.aspx?ItemName=Celestial%20Servant"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "celestial_servant", path = "json/feat02.json" },

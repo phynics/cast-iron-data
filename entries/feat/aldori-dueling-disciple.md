@@ -2,6 +2,7 @@
 id = "ref/feat/aldori-dueling-disciple"
 kind = "feat"
 title = "Aldori Dueling Disciple"
+aon = "FeatDisplay.aspx?ItemName=Aldori%20Dueling%20Disciple"
 source_ids = ["adventurers-guide", "inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aldori_dueling_disciple", path = "json/feat01.json" },

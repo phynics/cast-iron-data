@@ -2,6 +2,7 @@
 id = "ref/spell/antipathy"
 kind = "spell"
 title = "Antipathy"
+aon = "SpellDisplay.aspx?ItemName=Antipathy"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "antipathy", path = "json/spells.json" },

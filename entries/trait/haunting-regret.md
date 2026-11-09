@@ -2,6 +2,7 @@
 id = "ref/trait/haunting-regret"
 kind = "trait"
 title = "Haunting Regret"
+aon = "TraitDisplay.aspx?ItemName=Haunting%20Regret"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "haunting_regret", path = "json/traits03.json" },

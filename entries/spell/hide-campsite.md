@@ -2,6 +2,7 @@
 id = "ref/spell/hide-campsite"
 kind = "spell"
 title = "Hide Campsite"
+aon = "SpellDisplay.aspx?ItemName=Hide%20Campsite"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hide_campsite", path = "json/spells5.json" },

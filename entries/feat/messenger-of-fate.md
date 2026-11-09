@@ -2,6 +2,7 @@
 id = "ref/feat/messenger-of-fate"
 kind = "feat"
 title = "Messenger of Fate"
+aon = "FeatDisplay.aspx?ItemName=Messenger%20of%20Fate"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "messenger_of_fate", path = "json/feat10.json" },

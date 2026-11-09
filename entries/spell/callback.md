@@ -2,6 +2,7 @@
 id = "ref/spell/callback"
 kind = "spell"
 title = "Callback"
+aon = "SpellDisplay.aspx?ItemName=Callback"
 source_ids = ["ultimate-wilderness", "familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "callback", path = "json/spells2.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/repel-sin"
 kind = "trait"
 title = "Repel Sin"
+aon = "TraitDisplay.aspx?ItemName=Repel%20Sin"
 source_ids = ["blood-of-fiends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "repel_sin", path = "json/traits05.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-bard/juggler"
 kind = "archetype"
 title = "Juggler"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Juggler"
 source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "juggler", path = "json/archetypes_bard2.json" },

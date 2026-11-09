@@ -2,6 +2,7 @@
 id = "ref/magic-weapon/bloodbite"
 kind = "item"
 title = "Bloodbite"
+aon = "MagicCursedDisplay.aspx?ItemName=Bloodbite"
 source_ids = ["antiheros-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloodbite", path = "json/magic_weapon2.json" },

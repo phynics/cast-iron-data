@@ -2,6 +2,7 @@
 id = "ref/feat/arc-slinger"
 kind = "feat"
 title = "Arc Slinger"
+aon = "FeatDisplay.aspx?ItemName=Arc%20Slinger"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arc_slinger", path = "json/feat01.json" },

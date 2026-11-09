@@ -2,6 +2,7 @@
 id = "ref/feat/chain-challenge"
 kind = "feat"
 title = "Chain Challenge"
+aon = "FeatDisplay.aspx?ItemName=Chain%20Challenge"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chain_challenge", path = "json/feat02.json" },

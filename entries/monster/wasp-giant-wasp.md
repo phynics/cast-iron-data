@@ -2,6 +2,7 @@
 id = "ref/monster/wasp-giant-wasp"
 kind = "creature"
 title = "Giant Wasp"
+aon = "MonsterDisplay.aspx?ItemName=Giant%20Wasp"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wasp_giant_wasp", path = "json/monsters25.json" },

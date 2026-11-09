@@ -2,6 +2,7 @@
 id = "ref/spell/transmute-wine-to-blood"
 kind = "spell"
 title = "Transmute Wine to Blood"
+aon = "SpellDisplay.aspx?ItemName=Transmute%20Wine%20to%20Blood"
 source_ids = ["blood-of-the-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "transmute_wine_to_blood", path = "json/spells10.json" },

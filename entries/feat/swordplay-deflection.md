@@ -2,6 +2,7 @@
 id = "ref/feat/swordplay-deflection"
 kind = "feat"
 title = "Swordplay Deflection"
+aon = "FeatDisplay.aspx?ItemName=Swordplay%20Deflection"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swordplay_deflection", path = "json/feat15.json" },

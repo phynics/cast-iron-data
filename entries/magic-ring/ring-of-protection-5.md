@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-protection-5"
 kind = "item"
 title = "Ring of Protection (+5)"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Protection5"
 source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_protection_5", path = "json/magic_ring.json" },

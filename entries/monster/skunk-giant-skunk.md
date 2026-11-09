@@ -2,6 +2,7 @@
 id = "ref/monster/skunk-giant-skunk"
 kind = "creature"
 title = "Giant Skunk"
+aon = "MonsterDisplay.aspx?ItemName=Giant%20Skunk"
 source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skunk_giant_skunk", path = "json/monsters22.json" },

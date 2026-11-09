@@ -2,6 +2,7 @@
 id = "ref/trait/broken-not-beaten"
 kind = "trait"
 title = "Broken, Not Beaten"
+aon = "TraitDisplay.aspx?ItemName=Broken%2C%20Not%20Beaten"
 source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "broken_not_beaten", path = "json/traits01.json" },

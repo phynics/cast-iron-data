@@ -2,6 +2,7 @@
 id = "ref/trait/among-humans"
 kind = "trait"
 title = "Among Humans"
+aon = "TraitDisplay.aspx?ItemName=Among%20Humans"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "among_humans", path = "json/traits05.json" },

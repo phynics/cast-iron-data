@@ -2,6 +2,7 @@
 id = "ref/spell/aphasia"
 kind = "spell"
 title = "Aphasia"
+aon = "SpellDisplay.aspx?ItemName=Aphasia"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aphasia", path = "json/spells.json" },

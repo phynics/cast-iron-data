@@ -2,6 +2,7 @@
 id = "ref/spell/wrathful-weapon"
 kind = "spell"
 title = "Wrathful Weapon"
+aon = "SpellDisplay.aspx?ItemName=Wrathful%20Weapon"
 source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wrathful_weapon", path = "json/spells16.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/endothermic-touch"
 kind = "spell"
 title = "Endothermic Touch"
+aon = "SpellDisplay.aspx?ItemName=Endothermic%20Touch"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "endothermic_touch", path = "json/spells4.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-mesmerist/spirit-walker"
 kind = "archetype"
 title = "Spirit Walker"
+aon = "ArchetypeDisplay.aspx?FixedName=Mesmerist%20Spirit%20Walker"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spirit_walker", path = "json/archetypes_mesmerist.json" },

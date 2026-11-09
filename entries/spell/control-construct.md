@@ -2,6 +2,7 @@
 id = "ref/spell/control-construct"
 kind = "spell"
 title = "Control Construct"
+aon = "SpellDisplay.aspx?ItemName=Control%20Construct"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "control_construct", path = "json/spells12.json" },

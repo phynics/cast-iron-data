@@ -2,6 +2,7 @@
 id = "ref/magic-ring/heavenly-aegis-ring"
 kind = "item"
 title = "Heavenly Aegis Ring"
+aon = "MagicRingsDisplay.aspx?FinalName=Heavenly%20Aegis%20Ring"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heavenly_aegis_ring", path = "json/magic_ring.json" },

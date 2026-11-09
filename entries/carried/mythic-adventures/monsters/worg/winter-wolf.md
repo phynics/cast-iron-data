@@ -2,6 +2,7 @@
 id = "ref/carried/mythic-adventures/monsters/worg/winter-wolf"
 kind = "creature"
 title = "Worg, Winter Wolf"
+aon = "MonsterDisplay.aspx?ItemName=Winter%20Wolf"
 source_ids = ["mythic-adventures"]
 section = ["Monsters", "Worg"]
 tags = ["magical beast", "cold", "mythic", "large"]

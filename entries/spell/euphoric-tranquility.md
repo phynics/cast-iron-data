@@ -2,6 +2,7 @@
 id = "ref/spell/euphoric-tranquility"
 kind = "spell"
 title = "Euphoric Tranquility"
+aon = "SpellDisplay.aspx?ItemName=Euphoric%20Tranquility"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "euphoric_tranquility", path = "json/spells4.json" },

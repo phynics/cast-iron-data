@@ -2,6 +2,7 @@
 id = "ref/trait/wharf-rat"
 kind = "trait"
 title = "Wharf Rat"
+aon = "TraitDisplay.aspx?ItemName=Wharf%20Rat"
 source_ids = ["cheliax-empire-of-devils"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wharf_rat", path = "json/traits04.json" },

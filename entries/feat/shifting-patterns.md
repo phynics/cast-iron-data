@@ -2,6 +2,7 @@
 id = "ref/feat/shifting-patterns"
 kind = "feat"
 title = "Shifting Patterns"
+aon = "FeatDisplay.aspx?ItemName=Shifting%20Patterns"
 source_ids = ["distant-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shifting_patterns", path = "json/feat14.json" },

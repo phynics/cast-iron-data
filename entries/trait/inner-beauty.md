@@ -2,6 +2,7 @@
 id = "ref/trait/inner-beauty"
 kind = "trait"
 title = "Inner Beauty"
+aon = "TraitDisplay.aspx?ItemName=Inner%20Beauty"
 source_ids = ["inner-sea-gods", "faiths-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inner_beauty", path = "json/traits03.json" },

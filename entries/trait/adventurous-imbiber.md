@@ -2,6 +2,7 @@
 id = "ref/trait/adventurous-imbiber"
 kind = "trait"
 title = "Adventurous Imbiber"
+aon = "TraitDisplay.aspx?ItemName=Adventurous%20Imbiber"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "adventurous_imbiber", path = "json/traits03.json" },

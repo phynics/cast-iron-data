@@ -2,6 +2,7 @@
 id = "ref/trait/mechanical-expertise"
 kind = "trait"
 title = "Mechanical Expertise"
+aon = "TraitDisplay.aspx?ItemName=Mechanical%20Expertise"
 source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mechanical_expertise", path = "json/traits04.json" },

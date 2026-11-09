@@ -2,6 +2,7 @@
 id = "ref/feat/intimidating-confidence"
 kind = "feat"
 title = "Intimidating Confidence"
+aon = "FeatDisplay.aspx?ItemName=Intimidating%20Confidence"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "intimidating_confidence", path = "json/feat09.json" },

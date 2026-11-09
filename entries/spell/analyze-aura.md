@@ -2,6 +2,7 @@
 id = "ref/spell/analyze-aura"
 kind = "spell"
 title = "Analyze Aura"
+aon = "SpellDisplay.aspx?ItemName=Analyze%20Aura"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "analyze_aura", path = "json/spells.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/transfer-familiar"
 kind = "spell"
 title = "Transfer Familiar"
+aon = "SpellDisplay.aspx?ItemName=Transfer%20Familiar"
 source_ids = ["familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "transfer_familiar", path = "json/spells10.json" },

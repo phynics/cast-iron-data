@@ -2,6 +2,7 @@
 id = "ref/spell/fools-gold-aa"
 kind = "spell"
 title = "Fool's Gold (AA)"
+aon = "SpellDisplay.aspx?ItemName=Fool%27s%20Gold%20%28AA%29"
 source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fools_gold_aa", path = "json/spells13.json" },

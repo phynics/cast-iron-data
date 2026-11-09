@@ -2,6 +2,7 @@
 id = "ref/feat/spectrum-sight"
 kind = "feat"
 title = "Spectrum Sight"
+aon = "FeatDisplay.aspx?ItemName=Spectrum%20Sight"
 source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spectrum_sight", path = "json/feat14.json" },

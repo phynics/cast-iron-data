@@ -2,6 +2,7 @@
 id = "ref/monster/valonesse-hergrut"
 kind = "creature"
 title = "Valonesse Hergrut, Frost Giant Jarl"
+aon = "MonsterDisplay.aspx?ItemName=Valonesse%20Hergrut%2C%20Frost%20Giant%20Jarl"
 source_ids = ["giants-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "valonesse_hergrut", path = "json/monsters_unique4.json" },

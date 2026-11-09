@@ -2,6 +2,7 @@
 id = "ref/feat/snoutgrip"
 kind = "feat"
 title = "Snoutgrip"
+aon = "FeatDisplay.aspx?ItemName=Snoutgrip"
 source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snoutgrip", path = "json/feat14.json" },

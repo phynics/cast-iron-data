@@ -2,6 +2,7 @@
 id = "ref/spell/champions-bout"
 kind = "spell"
 title = "Champion's Bout"
+aon = "SpellDisplay.aspx?ItemName=Champion%27s%20Bout"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "champions_bout", path = "json/spells2.json" },

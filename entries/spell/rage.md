@@ -2,6 +2,7 @@
 id = "ref/spell/rage"
 kind = "spell"
 title = "Rage"
+aon = "SpellDisplay.aspx?ItemName=Rage"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rage", path = "json/spells8.json" },

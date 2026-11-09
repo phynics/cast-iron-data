@@ -2,6 +2,7 @@
 id = "ref/monster/clockwork-toy-golem"
 kind = "creature"
 title = "Toy Golem"
+aon = "MonsterDisplay.aspx?ItemName=Toy%20Golem"
 source_ids = ["tombs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clockwork_toy_golem", path = "json/monsters05.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/scouring-winds"
 kind = "spell"
 title = "Scouring Winds"
+aon = "SpellDisplay.aspx?ItemName=Scouring%20Winds"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scouring_winds", path = "json/spells8.json" },

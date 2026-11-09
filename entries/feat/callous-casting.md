@@ -2,6 +2,7 @@
 id = "ref/feat/callous-casting"
 kind = "feat"
 title = "Callous Casting"
+aon = "FeatDisplay.aspx?ItemName=Callous%20Casting"
 source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "callous_casting", path = "json/feat02.json" },

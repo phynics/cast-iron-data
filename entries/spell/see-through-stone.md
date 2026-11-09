@@ -2,6 +2,7 @@
 id = "ref/spell/see-through-stone"
 kind = "spell"
 title = "See Through Stone"
+aon = "SpellDisplay.aspx?ItemName=See%20Through%20Stone"
 source_ids = ["dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "see_through_stone", path = "json/spells15.json" },

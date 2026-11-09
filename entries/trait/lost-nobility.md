@@ -2,6 +2,7 @@
 id = "ref/trait/lost-nobility"
 kind = "trait"
 title = "Lost Nobility"
+aon = "TraitDisplay.aspx?ItemName=Lost%20Nobility"
 source_ids = ["cheliax-empire-of-devils"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lost_nobility", path = "json/traits01.json" },

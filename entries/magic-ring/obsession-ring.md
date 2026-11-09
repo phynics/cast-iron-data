@@ -2,6 +2,7 @@
 id = "ref/magic-ring/obsession-ring"
 kind = "item"
 title = "Obsession Ring"
+aon = "MagicIntelligentDisplay.aspx?ItemName=Obsession%20Ring"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "obsession_ring", path = "json/magic_ring.json" },

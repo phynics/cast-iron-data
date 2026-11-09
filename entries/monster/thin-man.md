@@ -2,6 +2,7 @@
 id = "ref/monster/thin-man"
 kind = "creature"
 title = "Thin Man"
+aon = "MonsterDisplay.aspx?ItemName=Thin%20Man"
 source_ids = ["inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thin_man", path = "json/monsters23.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/wolpertinger"
 kind = "creature"
 title = "Wolpertinger"
+aon = "MonsterDisplay.aspx?ItemName=Wolpertinger"
 source_ids = ["pathfinder-61-shards-of-sin"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wolpertinger", path = "json/monsters25.json" },

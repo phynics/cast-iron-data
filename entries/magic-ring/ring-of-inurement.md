@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-inurement"
 kind = "item"
 title = "Ring of Inurement"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Inurement"
 source_ids = ["ire-of-the-storm"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_inurement", path = "json/magic_ring.json" },

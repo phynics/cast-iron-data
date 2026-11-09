@@ -2,6 +2,7 @@
 id = "ref/trait/marids-fury"
 kind = "trait"
 title = "Marid's Fury"
+aon = "TraitDisplay.aspx?ItemName=Marid%27s%20Fury"
 source_ids = ["blood-of-the-elements"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "marids_fury", path = "json/traits05.json" },

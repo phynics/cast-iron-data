@@ -2,6 +2,7 @@
 id = "ref/spell/preserve-grace"
 kind = "spell"
 title = "Preserve Grace"
+aon = "SpellDisplay.aspx?ItemName=Preserve%20Grace"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "preserve_grace", path = "json/spells14.json" },

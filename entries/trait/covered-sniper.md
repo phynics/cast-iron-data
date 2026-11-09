@@ -2,6 +2,7 @@
 id = "ref/trait/covered-sniper"
 kind = "trait"
 title = "Covered Sniper"
+aon = "TraitDisplay.aspx?ItemName=Covered%20Sniper"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "covered_sniper", path = "json/traits05.json" },

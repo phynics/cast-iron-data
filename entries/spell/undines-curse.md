@@ -2,6 +2,7 @@
 id = "ref/spell/undines-curse"
 kind = "spell"
 title = "Undine's Curse"
+aon = "SpellDisplay.aspx?ItemName=Undine%27s%20Curse"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "undines_curse", path = "json/spells11.json" },

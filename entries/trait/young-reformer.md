@@ -2,6 +2,7 @@
 id = "ref/trait/young-reformer"
 kind = "trait"
 title = "Young Reformer"
+aon = "TraitDisplay.aspx?ItemName=Young%20Reformer"
 source_ids = ["war-for-the-crown-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "young_reformer", path = "json/traits03.json" },

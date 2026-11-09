@@ -2,6 +2,7 @@
 id = "ref/trait/lapsed-faith"
 kind = "trait"
 title = "Lapsed Faith"
+aon = "TraitDisplay.aspx?ItemName=Lapsed%20Faith"
 source_ids = ["elves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lapsed_faith", path = "json/traits05.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/shrewd-tactician"
 kind = "feat"
 title = "Shrewd Tactician"
+aon = "FeatDisplay.aspx?ItemName=Shrewd%20Tactician"
 source_ids = ["inner-sea-world-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shrewd_tactician", path = "json/feat14.json" },

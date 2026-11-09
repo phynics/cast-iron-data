@@ -2,6 +2,7 @@
 id = "ref/spell/hollow-heroism"
 kind = "spell"
 title = "Hollow Heroism"
+aon = "SpellDisplay.aspx?ItemName=Hollow%20Heroism"
 source_ids = ["core-rulebook", "ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hollow_heroism", path = "json/spells5.json" },

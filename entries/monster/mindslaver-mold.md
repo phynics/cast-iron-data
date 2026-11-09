@@ -2,6 +2,7 @@
 id = "ref/monster/mindslaver-mold"
 kind = "creature"
 title = "Mindslaver Mold"
+aon = "MonsterDisplay.aspx?ItemName=Mindslaver%20Mold"
 source_ids = ["bestiary-4", "lands-of-the-linnorm-kings"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mindslaver_mold", path = "json/monsters17.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/radiant-charge"
 kind = "feat"
 title = "Radiant Charge"
+aon = "FeatDisplay.aspx?ItemName=Radiant%20Charge"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "radiant_charge", path = "json/feat12.json" },

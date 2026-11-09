@@ -2,6 +2,7 @@
 id = "ref/spell/scintillating-pattern"
 kind = "spell"
 title = "Scintillating Pattern"
+aon = "SpellDisplay.aspx?ItemName=Scintillating%20Pattern"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scintillating_pattern", path = "json/spells8.json" },

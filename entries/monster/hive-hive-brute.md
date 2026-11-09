@@ -2,6 +2,7 @@
 id = "ref/monster/hive-hive-brute"
 kind = "creature"
 title = "Hive Brute"
+aon = "MonsterDisplay.aspx?ItemName=Hive%20Brute"
 source_ids = ["nidal-land-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hive_hive_brute", path = "json/monsters13.json" },

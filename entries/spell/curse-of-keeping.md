@@ -2,6 +2,7 @@
 id = "ref/spell/curse-of-keeping"
 kind = "spell"
 title = "Curse of Keeping"
+aon = "SpellDisplay.aspx?ItemName=Curse%20of%20Keeping"
 source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "curse_of_keeping", path = "json/spells3.json" },

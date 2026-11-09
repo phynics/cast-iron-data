@@ -2,6 +2,7 @@
 id = "ref/trait/gozrehs-sight"
 kind = "trait"
 title = "Gozreh's Sight"
+aon = "TraitDisplay.aspx?ItemName=Gozreh%27s%20Sight"
 source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gozrehs_sight", path = "json/traits03.json" },

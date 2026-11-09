@@ -2,6 +2,7 @@
 id = "ref/feat/dastardly-finish"
 kind = "feat"
 title = "Dastardly Finish"
+aon = "FeatDisplay.aspx?ItemName=Dastardly%20Finish"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dastardly_finish", path = "json/feat04.json" },

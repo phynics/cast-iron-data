@@ -2,6 +2,7 @@
 id = "ref/trait/wild-stride"
 kind = "trait"
 title = "Wild Stride"
+aon = "TraitDisplay.aspx?ItemName=Wild%20Stride"
 source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wild_stride", path = "json/traits05.json" },

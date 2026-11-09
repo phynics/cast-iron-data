@@ -2,6 +2,7 @@
 id = "ref/feat/inured-to-draconic-majesty"
 kind = "feat"
 title = "Inured to Draconic Majesty"
+aon = "FeatDisplay.aspx?ItemName=Inured%20to%20Draconic%20Majesty"
 source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inured_to_draconic_majesty", path = "json/feat09.json" },

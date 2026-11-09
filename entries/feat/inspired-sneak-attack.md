@@ -2,6 +2,7 @@
 id = "ref/feat/inspired-sneak-attack"
 kind = "feat"
 title = "Inspired Sneak Attack"
+aon = "FeatDisplay.aspx?ItemName=Inspired%20Sneak%20Attack"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inspired_sneak_attack", path = "json/feat09.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/troll-sewer-troll"
 kind = "creature"
 title = "Sewer Troll"
+aon = "MonsterDisplay.aspx?ItemName=Sewer%20Troll"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "troll_sewer_troll", path = "json/monsters39.json" },

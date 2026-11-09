@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-planar-focus"
 kind = "item"
 title = "Ring of Planar Focus"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Planar%20Focus"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_planar_focus", path = "json/magic_ring.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/bifurcated-magic"
 kind = "trait"
 title = "Bifurcated Magic"
+aon = "TraitDisplay.aspx?ItemName=Bifurcated%20Magic"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bifurcated_magic", path = "json/traits05.json" },

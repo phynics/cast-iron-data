@@ -2,6 +2,7 @@
 id = "ref/monster/mezlan"
 kind = "creature"
 title = "Mezlan"
+aon = "MonsterDisplay.aspx?ItemName=Mezlan"
 source_ids = ["bestiary-6", "pathfinder-66-the-dead-heart-of-xin"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mezlan", path = "json/monsters35.json" },

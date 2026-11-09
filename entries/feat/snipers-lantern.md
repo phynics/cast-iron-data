@@ -2,6 +2,7 @@
 id = "ref/feat/snipers-lantern"
 kind = "feat"
 title = "Sniper's Lantern"
+aon = "FeatDisplay.aspx?ItemName=Sniper%27s%20Lantern"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snipers_lantern", path = "json/feat14.json" },

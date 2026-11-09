@@ -2,6 +2,7 @@
 id = "ref/arc-mesmerist/toxitician"
 kind = "archetype"
 title = "Toxitician"
+aon = "ArchetypeDisplay.aspx?FixedName=Mesmerist%20Toxitician"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "toxitician", path = "json/archetypes_mesmerist.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/morgodea"
 kind = "creature"
 title = "Morgodea"
+aon = "MonsterDisplay.aspx?ItemName=Morgodea"
 source_ids = ["pathfinder-99-dance-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "morgodea", path = "json/monsters17.json" },

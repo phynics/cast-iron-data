@@ -2,6 +2,7 @@
 id = "ref/feat/dragon-shot"
 kind = "feat"
 title = "Dragon Shot"
+aon = "FeatDisplay.aspx?ItemName=Dragon%20Shot"
 source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_shot", path = "json/feat05.json" },

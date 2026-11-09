@@ -2,6 +2,7 @@
 id = "ref/monster/burleev"
 kind = "creature"
 title = "Burleev"
+aon = "MonsterDisplay.aspx?ItemName=Burleev"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burleev", path = "json/monsters04.json" },

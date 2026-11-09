@@ -2,6 +2,7 @@
 id = "ref/spell/befuddled-combatant"
 kind = "spell"
 title = "Befuddled Combatant"
+aon = "SpellDisplay.aspx?ItemName=Befuddled%20Combatant"
 source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "befuddled_combatant", path = "json/spells12.json" },

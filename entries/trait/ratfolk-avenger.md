@@ -2,6 +2,7 @@
 id = "ref/trait/ratfolk-avenger"
 kind = "trait"
 title = "Ratfolk Avenger"
+aon = "TraitDisplay.aspx?ItemName=Ratfolk%20Avenger"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ratfolk_avenger", path = "json/traits05.json" },

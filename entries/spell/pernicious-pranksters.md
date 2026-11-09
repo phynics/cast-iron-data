@@ -2,6 +2,7 @@
 id = "ref/spell/pernicious-pranksters"
 kind = "spell"
 title = "Pernicious Pranksters"
+aon = "SpellDisplay.aspx?ItemName=Pernicious%20Pranksters"
 source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pernicious_pranksters", path = "json/spells7.json" },

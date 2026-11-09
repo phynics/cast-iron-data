@@ -2,6 +2,7 @@
 id = "ref/feat/take-a-breather"
 kind = "feat"
 title = "Take a Breather"
+aon = "FeatDisplay.aspx?ItemName=Take%20a%20Breather"
 source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "take_a_breather", path = "json/feat15.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/stone-sense"
 kind = "feat"
 title = "Stone Sense"
+aon = "FeatDisplay.aspx?ItemName=Stone%20Sense"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stone_sense", path = "json/feat15.json" },

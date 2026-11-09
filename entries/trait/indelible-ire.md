@@ -2,6 +2,7 @@
 id = "ref/trait/indelible-ire"
 kind = "trait"
 title = "Indelible Ire"
+aon = "TraitDisplay.aspx?ItemName=Indelible%20Ire"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "indelible_ire", path = "json/traits01.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/vex-giant"
 kind = "spell"
 title = "Vex Giant"
+aon = "SpellDisplay.aspx?ItemName=Vex%20Giant"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vex_giant", path = "json/spells11.json" },

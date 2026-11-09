@@ -2,6 +2,7 @@
 id = "ref/arc-bard/dervish-dancer"
 kind = "archetype"
 title = "Dervish Dancer"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Dervish%20Dancer"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dervish_dancer", path = "json/archetypes_bard.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/powerful-shape"
 kind = "feat"
 title = "Powerful Shape"
+aon = "FeatDisplay.aspx?ItemName=Powerful%20Shape"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "powerful_shape", path = "json/feat12.json" },

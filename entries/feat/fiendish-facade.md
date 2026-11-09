@@ -2,6 +2,7 @@
 id = "ref/feat/fiendish-facade"
 kind = "feat"
 title = "Fiendish Facade"
+aon = "FeatDisplay.aspx?ItemName=Fiendish%20Facade"
 source_ids = ["blood-of-fiends", "pathfinder-25-the-bastards-of-erebus"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fiendish_facade", path = "json/feat07.json" },

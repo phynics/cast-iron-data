@@ -2,6 +2,7 @@
 id = "ref/feat/verbose-performer"
 kind = "feat"
 title = "Verbose Performer"
+aon = "FeatDisplay.aspx?ItemName=Verbose%20Performer"
 source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "verbose_performer", path = "json/feat17.json" },

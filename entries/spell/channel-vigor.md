@@ -2,6 +2,7 @@
 id = "ref/spell/channel-vigor"
 kind = "spell"
 title = "Channel Vigor"
+aon = "SpellDisplay.aspx?ItemName=Channel%20Vigor"
 source_ids = ["inner-sea-gods", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "channel_vigor", path = "json/spells2.json" },

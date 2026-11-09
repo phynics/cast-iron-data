@@ -2,6 +2,7 @@
 id = "ref/spell/spiral-descent"
 kind = "spell"
 title = "Spiral Descent"
+aon = "SpellDisplay.aspx?ItemName=Spiral%20Descent"
 source_ids = ["inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spiral_descent", path = "json/spells9.json" },

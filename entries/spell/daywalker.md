@@ -2,6 +2,7 @@
 id = "ref/spell/daywalker"
 kind = "spell"
 title = "Daywalker"
+aon = "SpellDisplay.aspx?ItemName=Daywalker"
 source_ids = ["cohorts-and-companions"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daywalker", path = "json/spells3.json" },

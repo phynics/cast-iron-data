@@ -2,6 +2,7 @@
 id = "ref/spell/disable-construct"
 kind = "spell"
 title = "Disable Construct"
+aon = "SpellDisplay.aspx?ItemName=Disable%20Construct"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disable_construct", path = "json/spells3.json" },

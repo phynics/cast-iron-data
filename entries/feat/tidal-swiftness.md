@@ -2,6 +2,7 @@
 id = "ref/feat/tidal-swiftness"
 kind = "feat"
 title = "Tidal Swiftness"
+aon = "FeatDisplay.aspx?ItemName=Tidal%20Swiftness"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tidal_swiftness", path = "json/feat16.json" },

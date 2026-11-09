@@ -2,6 +2,7 @@
 id = "ref/feat/dispelling-critical"
 kind = "feat"
 title = "Dispelling Critical"
+aon = "FeatDisplay.aspx?ItemName=Dispelling%20Critical"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dispelling_critical", path = "json/feat04.json" },

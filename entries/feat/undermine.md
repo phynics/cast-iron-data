@@ -2,6 +2,7 @@
 id = "ref/feat/undermine"
 kind = "feat"
 title = "Undermine"
+aon = "FeatDisplay.aspx?ItemName=Undermine"
 source_ids = ["people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "undermine", path = "json/feat16.json" },

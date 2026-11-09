@@ -2,6 +2,7 @@
 id = "ref/monster/scrivenite"
 kind = "creature"
 title = "Scrivenite"
+aon = "MonsterDisplay.aspx?ItemName=Scrivenite"
 source_ids = ["pathfinder-97-in-hells-bright-shadow"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scrivenite", path = "json/monsters21.json" },

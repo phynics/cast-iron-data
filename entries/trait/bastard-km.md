@@ -2,6 +2,7 @@
 id = "ref/trait/bastard-km"
 kind = "trait"
 title = "Bastard (KM)"
+aon = "TraitDisplay.aspx?ItemName=Bastard%20%28KM%29"
 source_ids = ["kingmaker-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bastard_km", path = "json/traits02.json" },

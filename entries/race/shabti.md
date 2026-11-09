@@ -2,6 +2,7 @@
 id = "ref/race/shabti"
 kind = "race"
 title = "Shabti"
+aon = "RacesDisplay.aspx?ItemName=Shabti"
 source_ids = ["bestiary-5", "pathfinder-84-pyramid-of-the-sky-pharaoh", "plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shabti", path = "json/races4.json" },

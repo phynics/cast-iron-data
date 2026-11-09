@@ -2,6 +2,7 @@
 id = "ref/trait/slayer-of-the-deep"
 kind = "trait"
 title = "Slayer of the Deep"
+aon = "TraitDisplay.aspx?ItemName=Slayer%20of%20the%20Deep"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slayer_of_the_deep", path = "json/traits04.json" },

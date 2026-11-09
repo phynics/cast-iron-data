@@ -2,6 +2,7 @@
 id = "ref/feat/impaling-critical"
 kind = "feat"
 title = "Impaling Critical"
+aon = "FeatDisplay.aspx?ItemName=Impaling%20Critical"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "impaling_critical", path = "json/feat08.json" },

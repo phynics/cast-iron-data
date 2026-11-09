@@ -2,6 +2,7 @@
 id = "ref/arc-paladin/mind-sword"
 kind = "archetype"
 title = "Mind Sword"
+aon = "ArchetypeDisplay.aspx?FixedName=Paladin%20Mind%20Sword"
 source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mind_sword", path = "json/archetypes_paladin.json" },

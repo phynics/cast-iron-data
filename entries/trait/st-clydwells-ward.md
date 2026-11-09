@@ -2,6 +2,7 @@
 id = "ref/trait/st-clydwells-ward"
 kind = "trait"
 title = "St. Clydwell's Ward"
+aon = "TraitDisplay.aspx?ItemName=St.%20Clydwell%27s%20Ward"
 source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "st_clydwells_ward", path = "json/traits01.json" },

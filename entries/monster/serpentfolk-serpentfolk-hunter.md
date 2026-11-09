@@ -2,6 +2,7 @@
 id = "ref/monster/serpentfolk-serpentfolk-hunter"
 kind = "creature"
 title = "Serpentfolk Hunter"
+aon = "MonsterDisplay.aspx?ItemName=Serpentfolk%20Hunter"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "serpentfolk_serpentfolk_hunter", path = "json/monsters21.json" },

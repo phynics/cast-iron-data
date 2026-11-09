@@ -2,6 +2,7 @@
 id = "ref/trait/riders-bond"
 kind = "trait"
 title = "Rider's Bond"
+aon = "TraitDisplay.aspx?ItemName=Rider%27s%20Bond"
 source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "riders_bond", path = "json/traits01.json" },

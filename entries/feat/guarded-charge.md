@@ -2,6 +2,7 @@
 id = "ref/feat/guarded-charge"
 kind = "feat"
 title = "Guarded Charge"
+aon = "FeatDisplay.aspx?ItemName=Guarded%20Charge"
 source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guarded_charge", path = "json/feat08.json" },

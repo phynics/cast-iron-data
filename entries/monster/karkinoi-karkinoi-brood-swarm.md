@@ -2,6 +2,7 @@
 id = "ref/monster/karkinoi-karkinoi-brood-swarm"
 kind = "creature"
 title = "Karkinoi Brood Swarm"
+aon = "MonsterDisplay.aspx?ItemName=Karkinoi%20Brood%20Swarm"
 source_ids = ["plunder-and-peril"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "karkinoi_karkinoi_brood_swarm", path = "json/monsters35.json" },

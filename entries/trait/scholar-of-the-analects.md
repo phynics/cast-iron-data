@@ -2,6 +2,7 @@
 id = "ref/trait/scholar-of-the-analects"
 kind = "trait"
 title = "Scholar of the Analects"
+aon = "TraitDisplay.aspx?ItemName=Scholar%20of%20the%20Analects"
 source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scholar_of_the_analects", path = "json/traits02.json" },

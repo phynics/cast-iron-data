@@ -2,6 +2,7 @@
 id = "ref/trait/spirit-lodge-dreamer"
 kind = "trait"
 title = "Spirit Lodge Dreamer"
+aon = "TraitDisplay.aspx?ItemName=Spirit%20Lodge%20Dreamer"
 source_ids = ["people-of-the-north"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spirit_lodge_dreamer", path = "json/traits05.json" },

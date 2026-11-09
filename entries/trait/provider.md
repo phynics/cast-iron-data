@@ -2,6 +2,7 @@
 id = "ref/trait/provider"
 kind = "trait"
 title = "Provider"
+aon = "TraitDisplay.aspx?ItemName=Provider"
 source_ids = ["halflings-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "provider", path = "json/traits03.json" },

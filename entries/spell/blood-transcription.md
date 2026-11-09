@@ -2,6 +2,7 @@
 id = "ref/spell/blood-transcription"
 kind = "spell"
 title = "Blood Transcription"
+aon = "SpellDisplay.aspx?ItemName=Blood%20Transcription"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_transcription", path = "json/spells2.json" },

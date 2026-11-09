@@ -2,6 +2,7 @@
 id = "ref/feat/disciple-of-the-sword"
 kind = "feat"
 title = "Disciple of the Sword"
+aon = "FeatDisplay.aspx?ItemName=Disciple%20of%20the%20Sword"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disciple_of_the_sword", path = "json/feat04.json" },

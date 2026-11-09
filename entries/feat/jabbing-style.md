@@ -2,6 +2,7 @@
 id = "ref/feat/jabbing-style"
 kind = "feat"
 title = "Jabbing Style"
+aon = "FeatDisplay.aspx?ItemName=Jabbing%20Style"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jabbing_style", path = "json/feat09.json" },

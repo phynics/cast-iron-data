@@ -2,6 +2,7 @@
 id = "ref/arc-oracle/keleshite-prophet"
 kind = "archetype"
 title = "Keleshite Prophet"
+aon = "ArchetypeDisplay.aspx?FixedName=Oracle%20Keleshite%20Prophet"
 source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "keleshite_prophet", path = "json/archetypes_oracle.json" },

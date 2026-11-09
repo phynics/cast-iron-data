@@ -2,6 +2,7 @@
 id = "ref/feat/precise-shot"
 kind = "feat"
 title = "Precise Shot"
+aon = "FeatDisplay.aspx?ItemName=Precise%20Shot"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "precise_shot", path = "json/feat12.json" },

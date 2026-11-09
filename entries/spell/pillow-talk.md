@@ -2,6 +2,7 @@
 id = "ref/spell/pillow-talk"
 kind = "spell"
 title = "Pillow Talk"
+aon = "SpellDisplay.aspx?ItemName=Pillow%20Talk"
 source_ids = ["inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pillow_talk", path = "json/spells7.json" },

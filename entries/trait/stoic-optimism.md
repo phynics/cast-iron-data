@@ -2,6 +2,7 @@
 id = "ref/trait/stoic-optimism"
 kind = "trait"
 title = "Stoic Optimism"
+aon = "TraitDisplay.aspx?ItemName=Stoic%20Optimism"
 source_ids = ["inner-sea-gods", "faiths-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stoic_optimism", path = "json/traits03.json" },

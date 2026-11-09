@@ -2,6 +2,7 @@
 id = "ref/arc-monk/tetori"
 kind = "archetype"
 title = "Tetori"
+aon = "ArchetypeDisplay.aspx?FixedName=Monk%20Tetori"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tetori", path = "json/archetypes_monk2.json" },

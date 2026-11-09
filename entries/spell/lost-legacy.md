@@ -2,6 +2,7 @@
 id = "ref/spell/lost-legacy"
 kind = "spell"
 title = "Lost Legacy"
+aon = "SpellDisplay.aspx?ItemName=Lost%20Legacy"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lost_legacy", path = "json/spells6.json" },

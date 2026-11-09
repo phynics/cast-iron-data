@@ -2,6 +2,7 @@
 id = "ref/feat/repast-of-heroes"
 kind = "feat"
 title = "Repast of Heroes"
+aon = "FeatDisplay.aspx?ItemName=Repast%20of%20Heroes"
 source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "repast_of_heroes", path = "json/feat13.json" },

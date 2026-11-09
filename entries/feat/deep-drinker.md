@@ -2,6 +2,7 @@
 id = "ref/feat/deep-drinker"
 kind = "feat"
 title = "Deep Drinker"
+aon = "FeatDisplay.aspx?ItemName=Deep%20Drinker"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deep_drinker", path = "json/feat04.json" },

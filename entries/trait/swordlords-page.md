@@ -2,6 +2,7 @@
 id = "ref/trait/swordlords-page"
 kind = "trait"
 title = "Swordlord's Page"
+aon = "TraitDisplay.aspx?ItemName=Swordlord%27s%20Page"
 source_ids = ["inner-sea-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swordlords_page", path = "json/traits04.json" },

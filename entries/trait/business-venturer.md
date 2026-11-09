@@ -2,6 +2,7 @@
 id = "ref/trait/business-venturer"
 kind = "trait"
 title = "Business Venturer"
+aon = "TraitDisplay.aspx?ItemName=Business%20Venturer"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "business_venturer", path = "json/traits05.json" },

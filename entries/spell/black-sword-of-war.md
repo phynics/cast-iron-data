@@ -2,6 +2,7 @@
 id = "ref/spell/black-sword-of-war"
 kind = "spell"
 title = "Black Sword of War"
+aon = "SpellDisplay.aspx?ItemName=Black%20Sword%20of%20War"
 source_ids = ["pathfinder-71-rasputin-must-die"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "black_sword_of_war", path = "json/spells12.json" },

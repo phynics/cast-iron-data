@@ -2,6 +2,7 @@
 id = "ref/feat/blinding-stare"
 kind = "feat"
 title = "Blinding Stare"
+aon = "FeatDisplay.aspx?ItemName=Blinding%20Stare"
 source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blinding_stare", path = "json/feat02.json" },

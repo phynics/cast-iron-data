@@ -2,6 +2,7 @@
 id = "ref/feat/incorporeal-intuition"
 kind = "feat"
 title = "Incorporeal Intuition"
+aon = "FeatDisplay.aspx?ItemName=Incorporeal%20Intuition"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "incorporeal_intuition", path = "json/feat09.json" },

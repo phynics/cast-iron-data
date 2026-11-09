@@ -2,6 +2,7 @@
 id = "ref/feat/inspirational-commander"
 kind = "feat"
 title = "Inspirational Commander"
+aon = "FeatDisplay.aspx?ItemName=Inspirational%20Commander"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inspirational_commander", path = "json/feat09.json" },

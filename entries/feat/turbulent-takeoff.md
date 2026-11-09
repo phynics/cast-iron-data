@@ -2,6 +2,7 @@
 id = "ref/feat/turbulent-takeoff"
 kind = "feat"
 title = "Turbulent Takeoff"
+aon = "FeatDisplay.aspx?ItemName=Turbulent%20Takeoff"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "turbulent_takeoff", path = "json/feat16.json" },

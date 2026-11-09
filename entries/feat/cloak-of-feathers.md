@@ -2,6 +2,7 @@
 id = "ref/feat/cloak-of-feathers"
 kind = "feat"
 title = "Cloak of Feathers"
+aon = "FeatDisplay.aspx?ItemName=Cloak%20of%20Feathers"
 source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloak_of_feathers", path = "json/feat03.json" },

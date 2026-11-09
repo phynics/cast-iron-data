@@ -2,6 +2,7 @@
 id = "ref/trait/unpredictable-reactions"
 kind = "trait"
 title = "Unpredictable Reactions"
+aon = "TraitDisplay.aspx?ItemName=Unpredictable%20Reactions"
 source_ids = ["champions-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unpredictable_reactions", path = "json/traits01.json" },

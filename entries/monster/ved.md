@@ -2,6 +2,7 @@
 id = "ref/monster/ved"
 kind = "creature"
 title = "Ved"
+aon = "MonsterDisplay.aspx?ItemName=Ved"
 source_ids = ["bestiary-5", "irrisen-land-of-eternal-winter"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ved", path = "json/monsters24.json" },

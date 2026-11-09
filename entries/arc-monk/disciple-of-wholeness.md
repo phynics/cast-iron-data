@@ -2,6 +2,7 @@
 id = "ref/arc-monk/disciple-of-wholeness"
 kind = "archetype"
 title = "Disciple of Wholeness"
+aon = "ArchetypeDisplay.aspx?FixedName=Monk%20Disciple%20of%20Wholeness"
 source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disciple_of_wholeness", path = "json/archetypes_monk.json" },

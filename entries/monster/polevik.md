@@ -2,6 +2,7 @@
 id = "ref/monster/polevik"
 kind = "creature"
 title = "Polevik"
+aon = "MonsterDisplay.aspx?ItemName=Polevik"
 source_ids = ["pathfinder-63-the-asylum-stone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "polevik", path = "json/monsters19.json" },

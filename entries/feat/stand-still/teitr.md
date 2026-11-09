@@ -2,6 +2,7 @@
 id = "ref/feat/stand-still/teitr"
 kind = "feat"
 title = "Stand Still"
+aon = "FeatDisplay.aspx?ItemName=Stand%20Still"
 source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/stand-still", label = "removed" },

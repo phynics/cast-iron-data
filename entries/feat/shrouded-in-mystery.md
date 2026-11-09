@@ -2,6 +2,7 @@
 id = "ref/feat/shrouded-in-mystery"
 kind = "feat"
 title = "Shrouded in Mystery"
+aon = "FeatDisplay.aspx?ItemName=Shrouded%20in%20Mystery"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shrouded_in_mystery", path = "json/feat14.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/target-of-opportunity"
 kind = "feat"
 title = "Target of Opportunity"
+aon = "FeatDisplay.aspx?ItemName=Target%20of%20Opportunity"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "target_of_opportunity", path = "json/feat16.json" },

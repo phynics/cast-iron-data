@@ -2,6 +2,7 @@
 id = "ref/feat/wind-rider"
 kind = "feat"
 title = "Wind Rider"
+aon = "FeatDisplay.aspx?ItemName=Wind%20Rider"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wind_rider", path = "json/feat17.json" },

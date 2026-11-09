@@ -2,6 +2,7 @@
 id = "ref/arc-magus/hexcrafter"
 kind = "archetype"
 title = "Hexcrafter"
+aon = "ArchetypeDisplay.aspx?FixedName=Magus%20Hexcrafter"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hexcrafter", path = "json/archetypes_magus.json" },

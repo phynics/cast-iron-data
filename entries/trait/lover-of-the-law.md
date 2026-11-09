@@ -2,6 +2,7 @@
 id = "ref/trait/lover-of-the-law"
 kind = "trait"
 title = "Lover of the Law"
+aon = "TraitDisplay.aspx?ItemName=Lover%20of%20the%20Law"
 source_ids = ["inner-sea-gods", "faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lover_of_the_law", path = "json/traits03.json" },

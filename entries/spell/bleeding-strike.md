@@ -2,6 +2,7 @@
 id = "ref/spell/bleeding-strike"
 kind = "spell"
 title = "Bleeding Strike"
+aon = "SpellDisplay.aspx?ItemName=Bleeding%20Strike"
 source_ids = ["pathfinder-77-herald-of-the-ivory-labyrinth"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bleeding_strike", path = "json/spells12.json" },

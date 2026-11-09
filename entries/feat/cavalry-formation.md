@@ -2,6 +2,7 @@
 id = "ref/feat/cavalry-formation"
 kind = "feat"
 title = "Cavalry Formation"
+aon = "FeatDisplay.aspx?ItemName=Cavalry%20Formation"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cavalry_formation", path = "json/feat02.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/debilitating-portent"
 kind = "spell"
 title = "Debilitating Portent"
+aon = "SpellDisplay.aspx?ItemName=Debilitating%20Portent"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "debilitating_portent", path = "json/spells3.json" },

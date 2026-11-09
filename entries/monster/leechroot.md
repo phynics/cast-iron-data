@@ -2,6 +2,7 @@
 id = "ref/monster/leechroot"
 kind = "creature"
 title = "Leechroot"
+aon = "MonsterDisplay.aspx?ItemName=Leechroot"
 source_ids = ["bestiary-5", "tears-at-bitter-manor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "leechroot", path = "json/monsters16.json" },

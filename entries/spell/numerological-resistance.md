@@ -2,6 +2,7 @@
 id = "ref/spell/numerological-resistance"
 kind = "spell"
 title = "Numerological Resistance"
+aon = "SpellDisplay.aspx?ItemName=Numerological%20Resistance"
 source_ids = ["occult-mysteries"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "numerological_resistance", path = "json/spells7.json" },

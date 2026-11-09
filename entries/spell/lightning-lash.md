@@ -2,6 +2,7 @@
 id = "ref/spell/lightning-lash"
 kind = "spell"
 title = "Lightning Lash"
+aon = "SpellDisplay.aspx?ItemName=Lightning%20Lash"
 source_ids = ["pathfinder-74-sword-of-valor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lightning_lash", path = "json/spells6.json" },

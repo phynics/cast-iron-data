@@ -2,6 +2,7 @@
 id = "ref/trait/outcast"
 kind = "trait"
 title = "Outcast"
+aon = "TraitDisplay.aspx?ItemName=Outcast"
 source_ids = ["ultimate-campaign", "orcs-of-golarion", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "outcast", path = "json/traits05.json" },

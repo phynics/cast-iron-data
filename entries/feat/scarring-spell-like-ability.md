@@ -2,6 +2,7 @@
 id = "ref/feat/scarring-spell-like-ability"
 kind = "feat"
 title = "Scarring Spell-Like Ability"
+aon = "FeatDisplay.aspx?ItemName=Scarring%20Spell-Like%20Ability"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scarring_spell_like_ability", path = "json/feat13.json" },

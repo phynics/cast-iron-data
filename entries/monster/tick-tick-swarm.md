@@ -2,6 +2,7 @@
 id = "ref/monster/tick-tick-swarm"
 kind = "creature"
 title = "Tick Swarm"
+aon = "MonsterDisplay.aspx?ItemName=Tick%20Swarm"
 source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tick_tick_swarm", path = "json/monsters39.json" },

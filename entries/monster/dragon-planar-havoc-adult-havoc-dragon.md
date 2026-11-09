@@ -2,6 +2,7 @@
 id = "ref/monster/dragon-planar-havoc-adult-havoc-dragon"
 kind = "creature"
 title = "Adult Havoc Dragon"
+aon = "MonsterDisplay.aspx?ItemName=Adult%20Havoc%20Dragon"
 source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_planar_havoc_adult_havoc_dragon", path = "json/monsters30.json" },

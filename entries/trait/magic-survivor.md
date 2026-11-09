@@ -2,6 +2,7 @@
 id = "ref/trait/magic-survivor"
 kind = "trait"
 title = "Magic Survivor"
+aon = "TraitDisplay.aspx?ItemName=Magic%20Survivor"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_survivor", path = "json/traits05.json" },

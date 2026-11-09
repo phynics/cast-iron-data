@@ -2,6 +2,7 @@
 id = "ref/monster/deep-one-deep-one-hybrid"
 kind = "creature"
 title = "Deep One Hybrid"
+aon = "MonsterDisplay.aspx?ItemName=Deep%20One%20Hybrid"
 source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deep_one_deep_one_hybrid", path = "json/monsters40.json" },

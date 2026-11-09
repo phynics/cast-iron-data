@@ -2,6 +2,7 @@
 id = "ref/spell/irradiate"
 kind = "spell"
 title = "Irradiate"
+aon = "SpellDisplay.aspx?ItemName=Irradiate"
 source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "irradiate", path = "json/spells6.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/passing-trick"
 kind = "feat"
 title = "Passing Trick"
+aon = "FeatDisplay.aspx?ItemName=Passing%20Trick"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "passing_trick", path = "json/feat11.json" },

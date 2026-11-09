@@ -2,6 +2,7 @@
 id = "ref/trait/godless-resolve"
 kind = "trait"
 title = "Godless Resolve"
+aon = "TraitDisplay.aspx?ItemName=Godless%20Resolve"
 source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "godless_resolve", path = "json/traits04.json" },

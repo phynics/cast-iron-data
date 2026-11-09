@@ -2,6 +2,7 @@
 id = "ref/trait/distance-aptitude"
 kind = "trait"
 title = "Distance Aptitude"
+aon = "TraitDisplay.aspx?ItemName=Distance%20Aptitude"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "distance_aptitude", path = "json/traits02.json" },

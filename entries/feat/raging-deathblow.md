@@ -2,6 +2,7 @@
 id = "ref/feat/raging-deathblow"
 kind = "feat"
 title = "Raging Deathblow"
+aon = "FeatDisplay.aspx?ItemName=Raging%20Deathblow"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "raging_deathblow", path = "json/feat12.json" },

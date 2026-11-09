@@ -2,6 +2,7 @@
 id = "ref/monster/devil-immolation-devil-puragaus"
 kind = "creature"
 title = "Immolation Devil (Puragaus)"
+aon = "MonsterDisplay.aspx?ItemName=Immolation%20Devil%20%28Puragaus%29"
 source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_immolation_devil_puragaus", path = "json/monsters07.json" },

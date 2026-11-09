@@ -2,6 +2,7 @@
 id = "ref/feat/impressive-grit"
 kind = "feat"
 title = "Impressive Grit"
+aon = "FeatDisplay.aspx?ItemName=Impressive%20Grit"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "impressive_grit", path = "json/feat08.json" },

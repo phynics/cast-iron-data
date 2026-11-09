@@ -2,6 +2,7 @@
 id = "ref/magic-armor/armor-of-rage"
 kind = "item"
 title = "Armor of Rage"
+aon = "MagicCursedDisplay.aspx?ItemName=Armor%20of%20Rage"
 source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "armor_of_rage", path = "json/magic_armor.json" },

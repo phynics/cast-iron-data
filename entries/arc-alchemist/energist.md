@@ -2,6 +2,7 @@
 id = "ref/arc-alchemist/energist"
 kind = "archetype"
 title = "Energist"
+aon = "ArchetypeDisplay.aspx?FixedName=Alchemist%20Energist"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "energist", path = "json/archetypes_alchemist.json" },

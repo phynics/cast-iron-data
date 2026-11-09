@@ -2,6 +2,7 @@
 id = "ref/trait/frontier-healer"
 kind = "trait"
 title = "Frontier Healer"
+aon = "TraitDisplay.aspx?ItemName=Frontier%20Healer"
 source_ids = ["ironfang-invasion-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "frontier_healer", path = "json/traits02.json" },

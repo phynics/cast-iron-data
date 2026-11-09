@@ -2,6 +2,7 @@
 id = "ref/race/orang-pendak"
 kind = "race"
 title = "Orang-Pendak"
+aon = "RacesDisplay.aspx?ItemName=Orang-Pendak"
 source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "orang_pendak", path = "json/races2.json" },

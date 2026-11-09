@@ -2,6 +2,7 @@
 id = "ref/monster/vorvorak"
 kind = "creature"
 title = "Vorvorak"
+aon = "MonsterDisplay.aspx?ItemName=Vorvorak"
 source_ids = ["pathfinder-129-the-twilight-child"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vorvorak", path = "json/monsters40.json" },

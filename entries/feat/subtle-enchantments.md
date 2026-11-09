@@ -2,6 +2,7 @@
 id = "ref/feat/subtle-enchantments"
 kind = "feat"
 title = "Subtle Enchantments"
+aon = "FeatDisplay.aspx?ItemName=Subtle%20Enchantments"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "subtle_enchantments", path = "json/feat15.json" },

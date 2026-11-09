@@ -2,6 +2,7 @@
 id = "ref/arc-witch/coral-witch"
 kind = "archetype"
 title = "Coral Witch"
+aon = "ArchetypeDisplay.aspx?FixedName=Witch%20Coral%20Witch"
 source_ids = ["blood-of-the-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "coral_witch", path = "json/archetypes_witch.json" },

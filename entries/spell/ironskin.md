@@ -2,6 +2,7 @@
 id = "ref/spell/ironskin"
 kind = "spell"
 title = "Ironskin"
+aon = "SpellDisplay.aspx?ItemName=Ironskin"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ironskin", path = "json/spells6.json" },

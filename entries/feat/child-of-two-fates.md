@@ -2,6 +2,7 @@
 id = "ref/feat/child-of-two-fates"
 kind = "feat"
 title = "Child of Two Fates"
+aon = "FeatDisplay.aspx?ItemName=Child%20of%20Two%20Fates"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "child_of_two_fates", path = "json/feat03.json" },

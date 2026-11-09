@@ -2,6 +2,7 @@
 id = "ref/spell/carry-companion"
 kind = "spell"
 title = "Carry Companion"
+aon = "SpellDisplay.aspx?ItemName=Carry%20Companion"
 source_ids = ["knights-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "carry_companion", path = "json/spells2.json" },

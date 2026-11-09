@@ -2,6 +2,7 @@
 id = "ref/trait/giant-harried"
 kind = "trait"
 title = "Giant-Harried"
+aon = "TraitDisplay.aspx?ItemName=Giant-Harried"
 source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_harried", path = "json/traits04.json" },

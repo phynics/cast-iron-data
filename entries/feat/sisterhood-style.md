@@ -2,6 +2,7 @@
 id = "ref/feat/sisterhood-style"
 kind = "feat"
 title = "Sisterhood Style"
+aon = "FeatDisplay.aspx?ItemName=Sisterhood%20Style"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sisterhood_style", path = "json/feat14.json" },

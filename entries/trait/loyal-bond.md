@@ -2,6 +2,7 @@
 id = "ref/trait/loyal-bond"
 kind = "trait"
 title = "Loyal Bond"
+aon = "TraitDisplay.aspx?ItemName=Loyal%20Bond"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "loyal_bond", path = "json/traits03.json" },

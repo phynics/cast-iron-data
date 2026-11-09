@@ -2,6 +2,7 @@
 id = "ref/pclass/sacred-sentinel"
 kind = "prestige_class"
 title = "Sacred Sentinel"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Sacred%20Sentinel"
 source_ids = ["paths-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sacred_sentinel", path = "json/prestige_classes3.json" },

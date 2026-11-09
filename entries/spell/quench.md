@@ -2,6 +2,7 @@
 id = "ref/spell/quench"
 kind = "spell"
 title = "Quench"
+aon = "SpellDisplay.aspx?ItemName=Quench"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quench", path = "json/spells8.json" },

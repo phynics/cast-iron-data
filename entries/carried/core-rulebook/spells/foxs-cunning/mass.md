@@ -2,6 +2,7 @@
 id = "ref/carried/core-rulebook/spells/foxs-cunning/mass"
 kind = "spell"
 title = "Fox's Cunning, Mass"
+aon = "SpellDisplay.aspx?ItemName=Fox%27s%20Cunning%2C%20Mass"
 source_ids = ["core-rulebook"]
 section = ["Spells", "Foxs Cunning"]
 tags = ["transmutation"]

@@ -2,6 +2,7 @@
 id = "ref/monster/ilzunae"
 kind = "creature"
 title = "Ilzunae, the Gloom Widow"
+aon = "MonsterDisplay.aspx?ItemName=Ilzunae%2C%20the%20Gloom%20Widow"
 source_ids = ["demons-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ilzunae", path = "json/monsters_unique2.json" },

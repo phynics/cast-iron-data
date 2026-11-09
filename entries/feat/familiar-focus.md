@@ -2,6 +2,7 @@
 id = "ref/feat/familiar-focus"
 kind = "feat"
 title = "Familiar Focus"
+aon = "FeatDisplay.aspx?ItemName=Familiar%20Focus"
 source_ids = ["animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_focus", path = "json/feat06.json" },

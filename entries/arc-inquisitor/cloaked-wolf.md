@@ -2,6 +2,7 @@
 id = "ref/arc-inquisitor/cloaked-wolf"
 kind = "archetype"
 title = "Cloaked Wolf"
+aon = "ArchetypeDisplay.aspx?FixedName=Inquisitor%20Cloaked%20Wolf"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloaked_wolf", path = "json/archetypes_inquisitor.json" },

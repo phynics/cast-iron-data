@@ -2,6 +2,7 @@
 id = "ref/feat/malicious-eye"
 kind = "feat"
 title = "Malicious Eye"
+aon = "FeatDisplay.aspx?ItemName=Malicious%20Eye"
 source_ids = ["halflings-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "malicious_eye", path = "json/feat10.json" },

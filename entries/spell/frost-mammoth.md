@@ -2,6 +2,7 @@
 id = "ref/spell/frost-mammoth"
 kind = "spell"
 title = "Frost Mammoth"
+aon = "SpellDisplay.aspx?ItemName=Frost%20Mammoth"
 source_ids = ["adventurers-guide", "people-of-the-north"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "frost_mammoth", path = "json/spells13.json" },

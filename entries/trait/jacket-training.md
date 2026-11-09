@@ -2,6 +2,7 @@
 id = "ref/trait/jacket-training"
 kind = "trait"
 title = "Jacket Training"
+aon = "TraitDisplay.aspx?ItemName=Jacket%20Training"
 source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jacket_training", path = "json/traits01.json" },

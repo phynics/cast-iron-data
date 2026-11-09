@@ -2,6 +2,7 @@
 id = "ref/trait/occult-bargain"
 kind = "trait"
 title = "Occult Bargain"
+aon = "TraitDisplay.aspx?ItemName=Occult%20Bargain"
 source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "occult_bargain", path = "json/traits03.json" },

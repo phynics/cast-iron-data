@@ -2,6 +2,7 @@
 id = "ref/feat/cloud-gazer"
 kind = "feat"
 title = "Cloud Gazer"
+aon = "FeatDisplay.aspx?ItemName=Cloud%20Gazer"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloud_gazer", path = "json/feat03.json" },

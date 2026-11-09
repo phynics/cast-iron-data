@@ -2,6 +2,7 @@
 id = "ref/feat/vanguard-hustle"
 kind = "feat"
 title = "Vanguard Hustle"
+aon = "FeatDisplay.aspx?ItemName=Vanguard%20Hustle"
 source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vanguard_hustle", path = "json/feat17.json" },

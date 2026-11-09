@@ -2,6 +2,7 @@
 id = "ref/spell/guiding-star"
 kind = "spell"
 title = "Guiding Star"
+aon = "SpellDisplay.aspx?ItemName=Guiding%20Star"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guiding_star", path = "json/spells5.json" },

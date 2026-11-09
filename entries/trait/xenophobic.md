@@ -2,6 +2,7 @@
 id = "ref/trait/xenophobic"
 kind = "trait"
 title = "Xenophobic"
+aon = "TraitDisplay.aspx?ItemName=Xenophobic"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "xenophobic", path = "json/traits03.json" },

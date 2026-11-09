@@ -2,6 +2,7 @@
 id = "ref/feat/green-tongue"
 kind = "feat"
 title = "Green Tongue"
+aon = "FeatDisplay.aspx?ItemName=Green%20Tongue"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "green_tongue", path = "json/feat08.json" },

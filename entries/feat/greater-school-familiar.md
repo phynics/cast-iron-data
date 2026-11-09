@@ -2,6 +2,7 @@
 id = "ref/feat/greater-school-familiar"
 kind = "feat"
 title = "Greater School Familiar"
+aon = "FeatDisplay.aspx?ItemName=Greater%20School%20Familiar"
 source_ids = ["familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_school_familiar", path = "json/feat08.json" },

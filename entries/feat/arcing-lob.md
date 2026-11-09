@@ -2,6 +2,7 @@
 id = "ref/feat/arcing-lob"
 kind = "feat"
 title = "Arcing Lob"
+aon = "FeatDisplay.aspx?ItemName=Arcing%20Lob"
 source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcing_lob", path = "json/feat01.json" },

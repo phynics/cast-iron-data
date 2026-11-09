@@ -2,6 +2,7 @@
 id = "ref/monster/kuru"
 kind = "creature"
 title = "Kuru"
+aon = "MonsterDisplay.aspx?ItemName=Kuru"
 source_ids = ["isles-of-the-shackles"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kuru", path = "json/monsters15.json" },

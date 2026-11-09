@@ -2,6 +2,7 @@
 id = "ref/feat/occult-conduit"
 kind = "feat"
 title = "Occult Conduit"
+aon = "FeatDisplay.aspx?ItemName=Occult%20Conduit"
 source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "occult_conduit", path = "json/feat11.json" },

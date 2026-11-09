@@ -2,6 +2,7 @@
 id = "ref/magic-artifact/monkeys-paw"
 kind = "item"
 title = "Monkey's Paw"
+aon = "MagicCursedDisplay.aspx?ItemName=Monkey%27s%20Paw"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monkeys_paw", path = "json/magic_artifact.json" },

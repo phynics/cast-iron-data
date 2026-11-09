@@ -2,6 +2,7 @@
 id = "ref/feat/furys-snare"
 kind = "feat"
 title = "Fury's Snare"
+aon = "FeatDisplay.aspx?ItemName=Fury%27s%20Snare"
 source_ids = ["cheliax-empire-of-devils"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "furys_snare", path = "json/feat07.json" },

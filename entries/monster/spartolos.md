@@ -2,6 +2,7 @@
 id = "ref/monster/spartolos"
 kind = "creature"
 title = "Spartolos"
+aon = "MonsterDisplay.aspx?ItemName=Spartolos"
 source_ids = ["pathfinder-28-the-infernal-syndrome"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spartolos", path = "json/monsters22.json" },

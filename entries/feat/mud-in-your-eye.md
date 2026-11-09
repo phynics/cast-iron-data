@@ -2,6 +2,7 @@
 id = "ref/feat/mud-in-your-eye"
 kind = "feat"
 title = "Mud in Your Eye"
+aon = "FeatDisplay.aspx?ItemName=Mud%20in%20Your%20Eye"
 source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mud_in_your_eye", path = "json/feat11.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/ice-walker"
 kind = "trait"
 title = "Ice Walker"
+aon = "TraitDisplay.aspx?ItemName=Ice%20Walker"
 source_ids = ["humans-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ice_walker", path = "json/traits05.json" },

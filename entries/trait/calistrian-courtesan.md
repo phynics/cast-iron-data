@@ -2,6 +2,7 @@
 id = "ref/trait/calistrian-courtesan"
 kind = "trait"
 title = "Calistrian Courtesan"
+aon = "TraitDisplay.aspx?ItemName=Calistrian%20Courtesan"
 source_ids = ["ultimate-campaign", "advanced-players-guide", "elves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "calistrian_courtesan", path = "json/traits03.json" },

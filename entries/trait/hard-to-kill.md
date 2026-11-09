@@ -2,6 +2,7 @@
 id = "ref/trait/hard-to-kill"
 kind = "trait"
 title = "Hard to Kill"
+aon = "TraitDisplay.aspx?ItemName=Hard%20to%20Kill"
 source_ids = ["champions-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hard_to_kill", path = "json/traits01.json" },

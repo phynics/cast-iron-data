@@ -2,6 +2,7 @@
 id = "ref/feat/echoes-of-stone"
 kind = "feat"
 title = "Echoes of Stone"
+aon = "FeatDisplay.aspx?ItemName=Echoes%20of%20Stone"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "echoes_of_stone", path = "json/feat05.json" },

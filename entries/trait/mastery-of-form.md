@@ -2,6 +2,7 @@
 id = "ref/trait/mastery-of-form"
 kind = "trait"
 title = "Mastery of Form"
+aon = "TraitDisplay.aspx?ItemName=Mastery%20of%20Form"
 source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mastery_of_form", path = "json/traits05.json" },

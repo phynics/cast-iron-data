@@ -2,6 +2,7 @@
 id = "ref/feat/fear-eater"
 kind = "feat"
 title = "Fear Eater"
+aon = "FeatDisplay.aspx?ItemName=Fear%20Eater"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fear_eater", path = "json/feat06.json" },

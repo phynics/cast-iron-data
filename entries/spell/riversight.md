@@ -2,6 +2,7 @@
 id = "ref/spell/riversight"
 kind = "spell"
 title = "Riversight"
+aon = "SpellDisplay.aspx?ItemName=Riversight"
 source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "riversight", path = "json/spells8.json" },

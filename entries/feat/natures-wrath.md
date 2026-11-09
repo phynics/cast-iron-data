@@ -2,6 +2,7 @@
 id = "ref/feat/natures-wrath"
 kind = "feat"
 title = "Nature's Wrath"
+aon = "FeatDisplay.aspx?ItemName=Nature%27s%20Wrath"
 source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "natures_wrath", path = "json/feat11.json" },

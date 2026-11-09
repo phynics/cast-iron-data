@@ -2,6 +2,7 @@
 id = "ref/feat/savage-critical"
 kind = "feat"
 title = "Savage Critical"
+aon = "FeatDisplay.aspx?ItemName=Savage%20Critical"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "savage_critical", path = "json/feat13.json" },

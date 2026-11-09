@@ -2,6 +2,7 @@
 id = "ref/monster/amalya"
 kind = "creature"
 title = "Amalya"
+aon = "MonsterDisplay.aspx?ItemName=Amalya"
 source_ids = ["fey-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "amalya", path = "json/monsters_unique.json" },

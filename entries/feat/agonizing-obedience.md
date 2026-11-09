@@ -2,6 +2,7 @@
 id = "ref/feat/agonizing-obedience"
 kind = "feat"
 title = "Agonizing Obedience"
+aon = "FeatDisplay.aspx?ItemName=Agonizing%20Obedience"
 source_ids = ["occult-mysteries"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "agonizing_obedience", path = "json/feat01.json" },

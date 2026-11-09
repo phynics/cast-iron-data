@@ -2,6 +2,7 @@
 id = "ref/feat/bilge-rat"
 kind = "feat"
 title = "Bilge Rat"
+aon = "FeatDisplay.aspx?ItemName=Bilge%20Rat"
 source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bilge_rat", path = "json/feat02.json" },

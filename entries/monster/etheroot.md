@@ -2,6 +2,7 @@
 id = "ref/monster/etheroot"
 kind = "creature"
 title = "Etheroot"
+aon = "MonsterDisplay.aspx?ItemName=Etheroot"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "etheroot", path = "json/monsters42.json" },

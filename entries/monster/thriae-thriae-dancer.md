@@ -2,6 +2,7 @@
 id = "ref/monster/thriae-thriae-dancer"
 kind = "creature"
 title = "Thriae Dancer"
+aon = "MonsterDisplay.aspx?ItemName=Thriae%20Dancer"
 source_ids = ["bestiary-5", "pathfinder-81-shifting-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thriae_thriae_dancer", path = "json/monsters39.json" },

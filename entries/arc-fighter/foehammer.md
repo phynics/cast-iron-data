@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/foehammer"
 kind = "archetype"
 title = "Foehammer"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Foehammer"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "foehammer", path = "json/archetypes_fighter.json" },

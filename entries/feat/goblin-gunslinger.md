@@ -2,6 +2,7 @@
 id = "ref/feat/goblin-gunslinger"
 kind = "feat"
 title = "Goblin Gunslinger"
+aon = "FeatDisplay.aspx?ItemName=Goblin%20Gunslinger"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "goblin_gunslinger", path = "json/feat07.json" },

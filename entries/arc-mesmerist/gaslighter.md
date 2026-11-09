@@ -2,6 +2,7 @@
 id = "ref/arc-mesmerist/gaslighter"
 kind = "archetype"
 title = "Gaslighter"
+aon = "ArchetypeDisplay.aspx?FixedName=Mesmerist%20Gaslighter"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gaslighter", path = "json/archetypes_mesmerist.json" },

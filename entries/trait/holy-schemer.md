@@ -2,6 +2,7 @@
 id = "ref/trait/holy-schemer"
 kind = "trait"
 title = "Holy Schemer"
+aon = "TraitDisplay.aspx?ItemName=Holy%20Schemer"
 source_ids = ["inner-sea-gods", "faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "holy_schemer", path = "json/traits03.json" },

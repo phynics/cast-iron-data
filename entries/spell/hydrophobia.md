@@ -2,6 +2,7 @@
 id = "ref/spell/hydrophobia"
 kind = "spell"
 title = "Hydrophobia"
+aon = "SpellDisplay.aspx?ItemName=Hydrophobia"
 source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hydrophobia", path = "json/spells5.json" },

@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-clumsiness"
 kind = "item"
 title = "Ring of Clumsiness"
+aon = "MagicCursedDisplay.aspx?ItemName=Ring%20of%20Clumsiness"
 source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_clumsiness", path = "json/magic_ring.json" },

@@ -2,6 +2,7 @@
 id = "ref/race/ganzi"
 kind = "race"
 title = "Ganzi"
+aon = "RacesDisplay.aspx?ItemName=Ganzi"
 source_ids = ["planar-adventures", "distant-shores", "plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ganzi", path = "json/races3.json" },

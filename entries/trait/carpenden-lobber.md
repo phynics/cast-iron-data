@@ -2,6 +2,7 @@
 id = "ref/trait/carpenden-lobber"
 kind = "trait"
 title = "Carpenden Lobber"
+aon = "TraitDisplay.aspx?ItemName=Carpenden%20Lobber"
 source_ids = ["andoran-spirit-of-liberty"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "carpenden_lobber", path = "json/traits04.json" },

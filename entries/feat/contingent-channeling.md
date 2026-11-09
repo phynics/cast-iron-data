@@ -2,6 +2,7 @@
 id = "ref/feat/contingent-channeling"
 kind = "feat"
 title = "Contingent Channeling"
+aon = "FeatDisplay.aspx?ItemName=Contingent%20Channeling"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "contingent_channeling", path = "json/feat03.json" },

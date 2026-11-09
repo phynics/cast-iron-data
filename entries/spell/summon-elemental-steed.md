@@ -2,6 +2,7 @@
 id = "ref/spell/summon-elemental-steed"
 kind = "spell"
 title = "Summon Elemental Steed"
+aon = "SpellDisplay.aspx?ItemName=Summon%20Elemental%20Steed"
 source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summon_elemental_steed", path = "json/spells16.json" },

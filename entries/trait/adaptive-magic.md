@@ -2,6 +2,7 @@
 id = "ref/trait/adaptive-magic"
 kind = "trait"
 title = "Adaptive Magic"
+aon = "TraitDisplay.aspx?ItemName=Adaptive%20Magic"
 source_ids = ["reign-of-winter-players-guide", "people-of-the-north"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "adaptive_magic", path = "json/traits02.json" },

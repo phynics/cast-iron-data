@@ -2,6 +2,7 @@
 id = "ref/trait/guardian-of-the-forge"
 kind = "trait"
 title = "Guardian of the Forge"
+aon = "TraitDisplay.aspx?ItemName=Guardian%20of%20the%20Forge"
 source_ids = ["ultimate-campaign", "dwarves-of-golarion", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guardian_of_the_forge", path = "json/traits03.json" },

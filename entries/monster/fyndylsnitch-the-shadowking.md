@@ -2,6 +2,7 @@
 id = "ref/monster/fyndylsnitch-the-shadowking"
 kind = "creature"
 title = "Fyndylsnitch the Shadowking"
+aon = "MonsterDisplay.aspx?ItemName=Fyndylsnitch%20the%20Shadowking"
 source_ids = ["fey-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fyndylsnitch_the_shadowking", path = "json/monsters_unique4.json" },

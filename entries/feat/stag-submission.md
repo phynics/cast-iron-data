@@ -2,6 +2,7 @@
 id = "ref/feat/stag-submission"
 kind = "feat"
 title = "Stag Submission"
+aon = "FeatDisplay.aspx?ItemName=Stag%20Submission"
 source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stag_submission", path = "json/feat15.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/grant-initiative"
 kind = "feat"
 title = "Grant Initiative"
+aon = "FeatDisplay.aspx?ItemName=Grant%20Initiative"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grant_initiative", path = "json/feat07.json" },

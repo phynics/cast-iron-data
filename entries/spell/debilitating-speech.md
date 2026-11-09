@@ -2,6 +2,7 @@
 id = "ref/spell/debilitating-speech"
 kind = "spell"
 title = "Debilitating Speech"
+aon = "SpellDisplay.aspx?ItemName=Debilitating%20Speech"
 source_ids = ["disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "debilitating_speech", path = "json/spells3.json" },

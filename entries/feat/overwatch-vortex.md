@@ -2,6 +2,7 @@
 id = "ref/feat/overwatch-vortex"
 kind = "feat"
 title = "Overwatch Vortex"
+aon = "FeatDisplay.aspx?ItemName=Overwatch%20Vortex"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "overwatch_vortex", path = "json/feat11.json" },

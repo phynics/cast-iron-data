@@ -2,6 +2,7 @@
 id = "ref/arc-familiar/prankster"
 kind = "archetype"
 title = "Prankster"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Prankster"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prankster", path = "json/archetypes_FAMILIAR.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/dragon-imperial-sovereign-young-sovereign-dragon"
 kind = "creature"
 title = "Young Sovereign Dragon"
+aon = "MonsterDisplay.aspx?ItemName=Young%20Sovereign%20Dragon"
 source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_imperial_sovereign_young_sovereign_dragon", path = "json/monsters31.json" },

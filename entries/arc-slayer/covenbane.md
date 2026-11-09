@@ -2,6 +2,7 @@
 id = "ref/arc-slayer/covenbane"
 kind = "archetype"
 title = "Covenbane"
+aon = "ArchetypeDisplay.aspx?FixedName=Slayer%20Covenbane"
 source_ids = ["blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "covenbane", path = "json/archetypes_slayer.json" },

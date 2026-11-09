@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/dragon-hunter"
 kind = "archetype"
 title = "Dragon Hunter"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Dragon%20Hunter"
 source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_hunter", path = "json/archetypes_ranger.json" },

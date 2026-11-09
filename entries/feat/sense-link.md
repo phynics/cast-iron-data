@@ -2,6 +2,7 @@
 id = "ref/feat/sense-link"
 kind = "feat"
 title = "Sense Link"
+aon = "FeatDisplay.aspx?ItemName=Sense%20Link"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sense_link", path = "json/feat13.json" },

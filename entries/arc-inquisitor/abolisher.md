@@ -2,6 +2,7 @@
 id = "ref/arc-inquisitor/abolisher"
 kind = "archetype"
 title = "Abolisher"
+aon = "ArchetypeDisplay.aspx?FixedName=Inquisitor%20Abolisher"
 source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "abolisher", path = "json/archetypes_inquisitor.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/karumzek"
 kind = "creature"
 title = "Karumzek"
+aon = "MonsterDisplay.aspx?ItemName=Karumzek"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "karumzek", path = "json/monsters15.json" },

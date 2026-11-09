@@ -2,6 +2,7 @@
 id = "ref/spell/lightning-arc"
 kind = "spell"
 title = "Lightning Arc"
+aon = "SpellDisplay.aspx?ItemName=Lightning%20Arc"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lightning_arc", path = "json/spells6.json" },

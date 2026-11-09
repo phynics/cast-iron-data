@@ -2,6 +2,7 @@
 id = "ref/spell/contact-high"
 kind = "spell"
 title = "Contact High"
+aon = "SpellDisplay.aspx?ItemName=Contact%20High"
 source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "contact_high", path = "json/spells12.json" },

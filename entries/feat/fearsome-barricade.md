@@ -2,6 +2,7 @@
 id = "ref/feat/fearsome-barricade"
 kind = "feat"
 title = "Fearsome Barricade"
+aon = "FeatDisplay.aspx?ItemName=Fearsome%20Barricade"
 source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fearsome_barricade", path = "json/feat06.json" },

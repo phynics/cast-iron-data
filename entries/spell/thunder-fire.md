@@ -2,6 +2,7 @@
 id = "ref/spell/thunder-fire"
 kind = "spell"
 title = "Thunder Fire"
+aon = "SpellDisplay.aspx?ItemName=Thunder%20Fire"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thunder_fire", path = "json/spells10.json" },

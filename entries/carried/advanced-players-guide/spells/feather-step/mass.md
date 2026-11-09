@@ -2,6 +2,7 @@
 id = "ref/carried/advanced-players-guide/spells/feather-step/mass"
 kind = "spell"
 title = "Feather Step, Mass"
+aon = "SpellDisplay.aspx?ItemName=Feather%20Step%2C%20Mass"
 source_ids = ["advanced-players-guide"]
 section = ["Spells", "Feather Step"]
 tags = ["transmutation"]

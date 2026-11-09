@@ -2,6 +2,7 @@
 id = "ref/arc-wizard/bonded-wizard"
 kind = "archetype"
 title = "Bonded Wizard"
+aon = "ArchetypeDisplay.aspx?FixedName=Wizard%20Bonded%20Wizard"
 source_ids = ["cohorts-and-companions"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bonded_wizard", path = "json/archetypes_wizard.json" },

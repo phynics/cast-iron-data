@@ -2,6 +2,7 @@
 id = "ref/spell/threefold-form"
 kind = "spell"
 title = "Threefold Form"
+aon = "SpellDisplay.aspx?ItemName=Threefold%20Form"
 source_ids = ["occult-adventures", "legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "threefold_form", path = "json/spells12.json" },

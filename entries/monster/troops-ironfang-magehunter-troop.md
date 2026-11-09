@@ -2,6 +2,7 @@
 id = "ref/monster/troops-ironfang-magehunter-troop"
 kind = "creature"
 title = "Ironfang Magehunter Troop"
+aon = "MonsterDisplay.aspx?ItemName=Ironfang%20Magehunter%20Troop"
 source_ids = ["pathfinder-120-vault-of-the-onyx-citadel"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "troops_ironfang_magehunter_troop", path = "json/monsters24.json" },

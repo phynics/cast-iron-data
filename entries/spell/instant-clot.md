@@ -2,6 +2,7 @@
 id = "ref/spell/instant-clot"
 kind = "spell"
 title = "Instant Clot"
+aon = "SpellDisplay.aspx?ItemName=Instant%20Clot"
 source_ids = ["blood-of-the-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "instant_clot", path = "json/spells14.json" },

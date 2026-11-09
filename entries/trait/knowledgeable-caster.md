@@ -2,6 +2,7 @@
 id = "ref/trait/knowledgeable-caster"
 kind = "trait"
 title = "Knowledgeable Caster"
+aon = "TraitDisplay.aspx?ItemName=Knowledgeable%20Caster"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "knowledgeable_caster", path = "json/traits02.json" },

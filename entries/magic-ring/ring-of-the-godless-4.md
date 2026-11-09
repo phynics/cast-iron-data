@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-the-godless-4"
 kind = "item"
 title = "Ring of the Godless (+4)"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20the%20Godless4"
 source_ids = ["people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_the_godless_4", path = "json/magic_ring.json" },

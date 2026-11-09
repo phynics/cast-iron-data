@@ -2,6 +2,7 @@
 id = "ref/feat/darting-viper"
 kind = "feat"
 title = "Darting Viper"
+aon = "FeatDisplay.aspx?ItemName=Darting%20Viper"
 source_ids = ["adventurers-armory-2", "dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "darting_viper", path = "json/feat04.json" },

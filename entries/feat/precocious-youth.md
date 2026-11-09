@@ -2,6 +2,7 @@
 id = "ref/feat/precocious-youth"
 kind = "feat"
 title = "Precocious Youth"
+aon = "FeatDisplay.aspx?ItemName=Precocious%20Youth"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "precocious_youth", path = "json/feat12.json" },

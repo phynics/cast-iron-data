@@ -2,6 +2,7 @@
 id = "ref/feat/planned-spontaneity"
 kind = "feat"
 title = "Planned Spontaneity"
+aon = "FeatDisplay.aspx?ItemName=Planned%20Spontaneity"
 source_ids = ["pathfinder-society-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planned_spontaneity", path = "json/feat12.json" },

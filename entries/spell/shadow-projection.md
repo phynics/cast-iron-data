@@ -2,6 +2,7 @@
 id = "ref/spell/shadow-projection"
 kind = "spell"
 title = "Shadow Projection"
+aon = "SpellDisplay.aspx?ItemName=Shadow%20Projection"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_projection", path = "json/spells15.json" },

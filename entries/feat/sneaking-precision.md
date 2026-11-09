@@ -2,6 +2,7 @@
 id = "ref/feat/sneaking-precision"
 kind = "feat"
 title = "Sneaking Precision"
+aon = "FeatDisplay.aspx?ItemName=Sneaking%20Precision"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sneaking_precision", path = "json/feat14.json" },

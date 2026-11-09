@@ -2,6 +2,7 @@
 id = "ref/trait/ogre-avoidance"
 kind = "trait"
 title = "Ogre Avoidance"
+aon = "TraitDisplay.aspx?ItemName=Ogre%20Avoidance"
 source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ogre_avoidance", path = "json/traits01.json" },

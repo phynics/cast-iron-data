@@ -2,6 +2,7 @@
 id = "ref/race/adaro"
 kind = "race"
 title = "Adaro"
+aon = "RacesDisplay.aspx?ItemName=Adaro"
 source_ids = ["blood-of-the-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "adaro", path = "json/races.json" },

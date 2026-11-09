@@ -2,6 +2,7 @@
 id = "ref/feat/inspiring-mentor"
 kind = "feat"
 title = "Inspiring Mentor"
+aon = "FeatDisplay.aspx?ItemName=Inspiring%20Mentor"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inspiring_mentor", path = "json/feat09.json" },

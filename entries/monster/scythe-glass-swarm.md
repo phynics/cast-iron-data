@@ -2,6 +2,7 @@
 id = "ref/monster/scythe-glass-swarm"
 kind = "creature"
 title = "Scythe Glass Swarm"
+aon = "MonsterDisplay.aspx?ItemName=Scythe%20Glass%20Swarm"
 source_ids = ["pathfinder-101-the-kintargo-contract"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scythe_glass_swarm", path = "json/monsters21.json" },

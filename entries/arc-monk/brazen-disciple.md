@@ -2,6 +2,7 @@
 id = "ref/arc-monk/brazen-disciple"
 kind = "archetype"
 title = "Brazen Disciple"
+aon = "ArchetypeDisplay.aspx?FixedName=Monk%20Brazen%20Disciple"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brazen_disciple", path = "json/archetypes_monk.json" },

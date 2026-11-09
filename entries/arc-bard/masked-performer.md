@@ -2,6 +2,7 @@
 id = "ref/arc-bard/masked-performer"
 kind = "archetype"
 title = "Masked Performer"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Masked%20Performer"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "masked_performer", path = "json/archetypes_bard2.json" },

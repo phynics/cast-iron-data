@@ -2,6 +2,7 @@
 id = "ref/feat/burrowing-teeth"
 kind = "feat"
 title = "Burrowing Teeth"
+aon = "FeatDisplay.aspx?ItemName=Burrowing%20Teeth"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burrowing_teeth", path = "json/feat02.json" },

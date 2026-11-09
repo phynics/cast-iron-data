@@ -2,6 +2,7 @@
 id = "ref/spell/constricting-coils"
 kind = "spell"
 title = "Constricting Coils"
+aon = "SpellDisplay.aspx?ItemName=Constricting%20Coils"
 source_ids = ["pathfinder-42-sanctum-of-the-serpent-god"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "constricting_coils", path = "json/spells12.json" },

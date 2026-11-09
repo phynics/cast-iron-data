@@ -2,6 +2,7 @@
 id = "ref/monster/bear-polar-bear"
 kind = "creature"
 title = "Polar Bear"
+aon = "MonsterDisplay.aspx?ItemName=Polar%20Bear"
 source_ids = ["bestiary-5", "pathfinder-67-the-snows-of-summer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bear_polar_bear", path = "json/monsters03.json" },

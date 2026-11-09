@@ -2,6 +2,7 @@
 id = "ref/feat/artful-dodge"
 kind = "feat"
 title = "Artful Dodge"
+aon = "FeatDisplay.aspx?ItemName=Artful%20Dodge"
 source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "artful_dodge", path = "json/feat01.json" },

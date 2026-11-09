@@ -2,6 +2,7 @@
 id = "ref/carried/advanced-players-guide/spells/pain-strike/mass"
 kind = "spell"
 title = "Pain Strike, Mass"
+aon = "SpellDisplay.aspx?ItemName=Pain%20Strike%2C%20Mass"
 source_ids = ["advanced-players-guide"]
 section = ["Spells", "Pain Strike"]
 tags = ["evocation", "evil", "pain"]

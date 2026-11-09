@@ -2,6 +2,7 @@
 id = "ref/spell/shapechangers-gift"
 kind = "spell"
 title = "Shapechanger's Gift"
+aon = "SpellDisplay.aspx?ItemName=Shapechanger%27s%20Gift"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shapechangers_gift", path = "json/spells9.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/eternal-understanding"
 kind = "trait"
 title = "Eternal Understanding"
+aon = "TraitDisplay.aspx?ItemName=Eternal%20Understanding"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eternal_understanding", path = "json/traits03.json" },

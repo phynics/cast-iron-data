@@ -2,6 +2,7 @@
 id = "ref/feat/regenerate-muscles"
 kind = "feat"
 title = "Regenerate Muscles"
+aon = "FeatDisplay.aspx?ItemName=Regenerate%20Muscles"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "regenerate_muscles", path = "json/feat13.json" },

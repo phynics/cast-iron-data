@@ -2,6 +2,7 @@
 id = "ref/trait/elemental-negotiator"
 kind = "trait"
 title = "Elemental Negotiator"
+aon = "TraitDisplay.aspx?ItemName=Elemental%20Negotiator"
 source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_negotiator", path = "json/traits01.json" },

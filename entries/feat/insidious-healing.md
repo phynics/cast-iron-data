@@ -2,6 +2,7 @@
 id = "ref/feat/insidious-healing"
 kind = "feat"
 title = "Insidious Healing"
+aon = "FeatDisplay.aspx?ItemName=Insidious%20Healing"
 source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "insidious_healing", path = "json/feat09.json" },

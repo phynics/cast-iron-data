@@ -2,6 +2,7 @@
 id = "ref/spell/protection-from-natural-attacks"
 kind = "spell"
 title = "Protection from Natural Attacks"
+aon = "SpellDisplay.aspx?ItemName=Protection%20from%20Natural%20Attacks"
 source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "protection_from_natural_attacks", path = "json/spells15.json" },

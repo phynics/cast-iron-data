@@ -2,6 +2,7 @@
 id = "ref/feat/secret-stash-deed"
 kind = "feat"
 title = "Secret Stash Deed"
+aon = "FeatDisplay.aspx?ItemName=Secret%20Stash%20Deed"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "secret_stash_deed", path = "json/feat13.json" },

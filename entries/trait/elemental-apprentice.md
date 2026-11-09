@@ -2,6 +2,7 @@
 id = "ref/trait/elemental-apprentice"
 kind = "trait"
 title = "Elemental Apprentice"
+aon = "TraitDisplay.aspx?ItemName=Elemental%20Apprentice"
 source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_apprentice", path = "json/traits01.json" },

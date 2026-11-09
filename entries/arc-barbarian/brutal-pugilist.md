@@ -2,6 +2,7 @@
 id = "ref/arc-barbarian/brutal-pugilist"
 kind = "archetype"
 title = "Brutal Pugilist"
+aon = "ArchetypeDisplay.aspx?FixedName=Barbarian%20Brutal%20Pugilist"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brutal_pugilist", path = "json/archetypes_barbarian.json" },

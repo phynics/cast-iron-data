@@ -2,6 +2,7 @@
 id = "ref/spell/divide-mind"
 kind = "spell"
 title = "Divide Mind"
+aon = "SpellDisplay.aspx?ItemName=Divide%20Mind"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divide_mind", path = "json/spells13.json" },

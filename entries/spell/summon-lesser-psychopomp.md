@@ -2,6 +2,7 @@
 id = "ref/spell/summon-lesser-psychopomp"
 kind = "spell"
 title = "Summon Lesser Psychopomp"
+aon = "SpellDisplay.aspx?ItemName=Summon%20Lesser%20Psychopomp"
 source_ids = ["pathfinder-80-empty-graves"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summon_lesser_psychopomp", path = "json/spells16.json" },

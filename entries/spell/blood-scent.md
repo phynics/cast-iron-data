@@ -2,6 +2,7 @@
 id = "ref/spell/blood-scent"
 kind = "spell"
 title = "Blood Scent"
+aon = "SpellDisplay.aspx?ItemName=Blood%20Scent"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_scent", path = "json/spells2.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/animate-hair"
 kind = "creature"
 title = "Animate Hair"
+aon = "MonsterDisplay.aspx?ItemName=Animate%20Hair"
 source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animate_hair", path = "json/monsters02.json" },

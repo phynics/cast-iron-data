@@ -2,6 +2,7 @@
 id = "ref/spell/force-punch"
 kind = "spell"
 title = "Force Punch"
+aon = "SpellDisplay.aspx?ItemName=Force%20Punch"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "force_punch", path = "json/spells13.json" },

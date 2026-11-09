@@ -2,6 +2,7 @@
 id = "ref/feat/break-guard"
 kind = "feat"
 title = "Break Guard"
+aon = "FeatDisplay.aspx?ItemName=Break%20Guard"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "break_guard", path = "json/feat02.json" },

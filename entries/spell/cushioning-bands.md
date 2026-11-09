@@ -2,6 +2,7 @@
 id = "ref/spell/cushioning-bands"
 kind = "spell"
 title = "Cushioning Bands"
+aon = "SpellDisplay.aspx?ItemName=Cushioning%20Bands"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cushioning_bands", path = "json/spells3.json" },

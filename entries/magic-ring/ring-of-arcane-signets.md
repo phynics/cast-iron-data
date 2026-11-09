@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-arcane-signets"
 kind = "item"
 title = "Ring of Arcane Signets"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Arcane%20Signets"
 source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_arcane_signets", path = "json/magic_ring.json" },

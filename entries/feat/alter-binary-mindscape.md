@@ -2,6 +2,7 @@
 id = "ref/feat/alter-binary-mindscape"
 kind = "feat"
 title = "Alter Binary Mindscape"
+aon = "FeatDisplay.aspx?ItemName=Alter%20Binary%20Mindscape"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alter_binary_mindscape", path = "json/feat01.json" },

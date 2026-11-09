@@ -2,6 +2,7 @@
 id = "ref/spell/visualization-of-the-body"
 kind = "spell"
 title = "Visualization of the Body"
+aon = "SpellDisplay.aspx?ItemName=Visualization%20of%20the%20Body"
 source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "visualization_of_the_body", path = "json/spells11.json" },

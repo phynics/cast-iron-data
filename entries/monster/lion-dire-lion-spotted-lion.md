@@ -2,6 +2,7 @@
 id = "ref/monster/lion-dire-lion-spotted-lion"
 kind = "creature"
 title = "Dire Lion (Spotted Lion)"
+aon = "MonsterDisplay.aspx?ItemName=Dire%20Lion%20%28Spotted%20Lion%29"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lion_dire_lion_spotted_lion", path = "json/monsters16.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/vinetrap"
 kind = "spell"
 title = "Vinetrap"
+aon = "SpellDisplay.aspx?ItemName=Vinetrap"
 source_ids = ["chronicle-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vinetrap", path = "json/spells11.json" },

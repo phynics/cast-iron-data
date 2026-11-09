@@ -2,6 +2,7 @@
 id = "ref/carried/advanced-players-guide/spells/fly/mass"
 kind = "spell"
 title = "Fly, Mass"
+aon = "SpellDisplay.aspx?ItemName=Fly%2C%20Mass"
 source_ids = ["advanced-players-guide"]
 section = ["Spells", "Fly"]
 tags = ["transmutation"]

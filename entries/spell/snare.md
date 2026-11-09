@@ -2,6 +2,7 @@
 id = "ref/spell/snare"
 kind = "spell"
 title = "Snare"
+aon = "SpellDisplay.aspx?ItemName=Snare"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snare", path = "json/spells9.json" },

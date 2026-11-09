@@ -2,6 +2,7 @@
 id = "ref/arc-kineticist/kinetic-knight"
 kind = "archetype"
 title = "Kinetic Knight"
+aon = "ArchetypeDisplay.aspx?FixedName=Kineticist%20Kinetic%20Knight"
 source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kinetic_knight", path = "json/archetypes_kineticist.json" },

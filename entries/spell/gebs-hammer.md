@@ -2,6 +2,7 @@
 id = "ref/spell/gebs-hammer"
 kind = "spell"
 title = "Geb's Hammer"
+aon = "SpellDisplay.aspx?ItemName=Geb%27s%20Hammer"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gebs_hammer", path = "json/spells13.json" },

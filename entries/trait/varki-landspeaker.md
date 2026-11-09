@@ -2,6 +2,7 @@
 id = "ref/trait/varki-landspeaker"
 kind = "trait"
 title = "Varki Landspeaker"
+aon = "TraitDisplay.aspx?ItemName=Varki%20Landspeaker"
 source_ids = ["people-of-the-north"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "varki_landspeaker", path = "json/traits05.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/necrocraft"
 kind = "creature"
 title = "Necrocraft"
+aon = "MonsterDisplay.aspx?ItemName=Necrocraft"
 source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "necrocraft", path = "json/monsters35.json" },

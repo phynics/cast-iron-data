@@ -2,6 +2,7 @@
 id = "ref/monster/lorthact"
 kind = "creature"
 title = "Lorthact"
+aon = "MonsterDisplay.aspx?ItemName=Lorthact"
 source_ids = ["inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lorthact", path = "json/monsters_unique3.json" },

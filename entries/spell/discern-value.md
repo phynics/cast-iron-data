@@ -2,6 +2,7 @@
 id = "ref/spell/discern-value"
 kind = "spell"
 title = "Discern Value"
+aon = "SpellDisplay.aspx?ItemName=Discern%20Value"
 source_ids = ["dungeoneers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "discern_value", path = "json/spells3.json" },

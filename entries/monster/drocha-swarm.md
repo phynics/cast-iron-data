@@ -2,6 +2,7 @@
 id = "ref/monster/drocha-swarm"
 kind = "creature"
 title = "Drocha Swarm"
+aon = "MonsterDisplay.aspx?ItemName=Drocha%20Swarm"
 source_ids = ["pathfinder-75-demons-heresy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drocha_swarm", path = "json/monsters07.json" },

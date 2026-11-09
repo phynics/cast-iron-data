@@ -2,6 +2,7 @@
 id = "ref/spell/sympathy"
 kind = "spell"
 title = "Sympathy"
+aon = "SpellDisplay.aspx?ItemName=Sympathy"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sympathy", path = "json/spells10.json" },

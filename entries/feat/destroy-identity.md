@@ -2,6 +2,7 @@
 id = "ref/feat/destroy-identity"
 kind = "feat"
 title = "Destroy Identity"
+aon = "FeatDisplay.aspx?ItemName=Destroy%20Identity"
 source_ids = ["inner-sea-gods", "faiths-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "destroy_identity", path = "json/feat04.json" },

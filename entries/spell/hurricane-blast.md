@@ -2,6 +2,7 @@
 id = "ref/spell/hurricane-blast"
 kind = "spell"
 title = "Hurricane Blast"
+aon = "SpellDisplay.aspx?ItemName=Hurricane%20Blast"
 source_ids = ["pathfinder-24-the-final-wish"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hurricane_blast", path = "json/spells5.json" },

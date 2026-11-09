@@ -2,6 +2,7 @@
 id = "ref/spell/song-of-kyonin"
 kind = "spell"
 title = "Song of Kyonin"
+aon = "SpellDisplay.aspx?ItemName=Song%20of%20Kyonin"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "song_of_kyonin", path = "json/spells9.json" },

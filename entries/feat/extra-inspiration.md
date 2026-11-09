@@ -2,6 +2,7 @@
 id = "ref/feat/extra-inspiration"
 kind = "feat"
 title = "Extra Inspiration"
+aon = "FeatDisplay.aspx?ItemName=Extra%20Inspiration"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extra_inspiration", path = "json/feat06.json" },

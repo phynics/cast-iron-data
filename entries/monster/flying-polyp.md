@@ -2,6 +2,7 @@
 id = "ref/monster/flying-polyp"
 kind = "creature"
 title = "Flying Polyp"
+aon = "MonsterDisplay.aspx?ItemName=Flying%20Polyp"
 source_ids = ["bestiary-4", "pathfinder-65-into-the-nightmare-rift"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flying_polyp", path = "json/monsters31.json" },

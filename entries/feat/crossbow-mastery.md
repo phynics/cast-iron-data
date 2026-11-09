@@ -2,6 +2,7 @@
 id = "ref/feat/crossbow-mastery"
 kind = "feat"
 title = "Crossbow Mastery"
+aon = "FeatDisplay.aspx?ItemName=Crossbow%20Mastery"
 source_ids = ["advanced-players-guide", "curse-of-the-crimson-throne-players-guide", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crossbow_mastery", path = "json/feat04.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/consecrate"
 kind = "spell"
 title = "Consecrate"
+aon = "SpellDisplay.aspx?ItemName=Consecrate"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "consecrate", path = "json/spells12.json" },

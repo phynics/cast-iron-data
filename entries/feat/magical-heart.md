@@ -2,6 +2,7 @@
 id = "ref/feat/magical-heart"
 kind = "feat"
 title = "Magical Heart"
+aon = "FeatDisplay.aspx?ItemName=Magical%20Heart"
 source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magical_heart", path = "json/feat10.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/detect-law"
 kind = "spell"
 title = "Detect Law"
+aon = "SpellDisplay.aspx?ItemName=Detect%20Law"
 source_ids = ["core-rulebook", "agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "detect_law", path = "json/spells3.json" },

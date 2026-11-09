@@ -2,6 +2,7 @@
 id = "ref/spell/zone-of-truth"
 kind = "spell"
 title = "Zone of Truth"
+aon = "SpellDisplay.aspx?ItemName=Zone%20of%20Truth"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "zone_of_truth", path = "json/spells16.json" },

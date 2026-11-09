@@ -2,6 +2,7 @@
 id = "ref/spell/withdraw-affliction"
 kind = "spell"
 title = "Withdraw Affliction"
+aon = "SpellDisplay.aspx?ItemName=Withdraw%20Affliction"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "withdraw_affliction", path = "json/spells16.json" },

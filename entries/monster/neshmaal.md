@@ -2,6 +2,7 @@
 id = "ref/monster/neshmaal"
 kind = "creature"
 title = "Neshmaal"
+aon = "MonsterDisplay.aspx?ItemName=Neshmaal"
 source_ids = ["pathfinder-84-pyramid-of-the-sky-pharaoh"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "neshmaal", path = "json/monsters17.json" },

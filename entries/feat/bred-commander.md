@@ -2,6 +2,7 @@
 id = "ref/feat/bred-commander"
 kind = "feat"
 title = "Bred Commander"
+aon = "FeatDisplay.aspx?ItemName=Bred%20Commander"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bred_commander", path = "json/feat02.json" },

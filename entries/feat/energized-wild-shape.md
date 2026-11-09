@@ -2,6 +2,7 @@
 id = "ref/feat/energized-wild-shape"
 kind = "feat"
 title = "Energized Wild Shape"
+aon = "FeatDisplay.aspx?ItemName=Energized%20Wild%20Shape"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "energized_wild_shape", path = "json/feat05.json" },

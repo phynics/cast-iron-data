@@ -2,6 +2,7 @@
 id = "ref/spell/handy-grapnel"
 kind = "spell"
 title = "Handy Grapnel"
+aon = "SpellDisplay.aspx?ItemName=Handy%20Grapnel"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "handy_grapnel", path = "json/spells5.json" },

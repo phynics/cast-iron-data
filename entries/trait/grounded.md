@@ -2,6 +2,7 @@
 id = "ref/trait/grounded"
 kind = "trait"
 title = "Grounded"
+aon = "TraitDisplay.aspx?ItemName=Grounded"
 source_ids = ["dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grounded", path = "json/traits05.json" },

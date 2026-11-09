@@ -2,6 +2,7 @@
 id = "ref/feat/narrow-frame"
 kind = "feat"
 title = "Narrow Frame"
+aon = "FeatDisplay.aspx?ItemName=Narrow%20Frame"
 source_ids = ["animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "narrow_frame", path = "json/feat11.json" },

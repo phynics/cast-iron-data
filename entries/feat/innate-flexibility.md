@@ -2,6 +2,7 @@
 id = "ref/feat/innate-flexibility"
 kind = "feat"
 title = "Innate Flexibility"
+aon = "FeatDisplay.aspx?ItemName=Innate%20Flexibility"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "innate_flexibility", path = "json/feat09.json" },

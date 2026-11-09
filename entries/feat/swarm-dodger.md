@@ -2,6 +2,7 @@
 id = "ref/feat/swarm-dodger"
 kind = "feat"
 title = "Swarm Dodger"
+aon = "FeatDisplay.aspx?ItemName=Swarm%20Dodger"
 source_ids = ["osirion-land-of-the-pharaohs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swarm_dodger", path = "json/feat15.json" },

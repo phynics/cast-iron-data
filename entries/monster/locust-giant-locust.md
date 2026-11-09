@@ -2,6 +2,7 @@
 id = "ref/monster/locust-giant-locust"
 kind = "creature"
 title = "Giant Locust"
+aon = "MonsterDisplay.aspx?ItemName=Giant%20Locust"
 source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "locust_giant_locust", path = "json/monsters16.json" },

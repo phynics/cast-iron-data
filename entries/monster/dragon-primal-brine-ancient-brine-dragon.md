@@ -2,6 +2,7 @@
 id = "ref/monster/dragon-primal-brine-ancient-brine-dragon"
 kind = "creature"
 title = "Ancient Brine Dragon"
+aon = "MonsterDisplay.aspx?ItemName=Ancient%20Brine%20Dragon"
 source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_primal_brine_ancient_brine_dragon", path = "json/monsters30.json" },

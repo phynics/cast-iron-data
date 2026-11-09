@@ -2,6 +2,7 @@
 id = "ref/feat/discerning-eye"
 kind = "feat"
 title = "Discerning Eye"
+aon = "FeatDisplay.aspx?ItemName=Discerning%20Eye"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "discerning_eye", path = "json/feat04.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/scales-of-deflection"
 kind = "spell"
 title = "Scales of Deflection"
+aon = "SpellDisplay.aspx?ItemName=Scales%20of%20Deflection"
 source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scales_of_deflection", path = "json/spells8.json" },

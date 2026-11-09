@@ -2,6 +2,7 @@
 id = "ref/arc-shaman/benefactor"
 kind = "archetype"
 title = "Benefactor"
+aon = "ArchetypeDisplay.aspx?FixedName=Shaman%20Benefactor"
 source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "benefactor", path = "json/archetypes_shaman.json" },

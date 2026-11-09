@@ -2,6 +2,7 @@
 id = "ref/monster/soulbound-shell"
 kind = "creature"
 title = "Soulbound Shell"
+aon = "MonsterDisplay.aspx?ItemName=Soulbound%20Shell"
 source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soulbound_shell", path = "json/monsters22.json" },

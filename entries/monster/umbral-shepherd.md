@@ -2,6 +2,7 @@
 id = "ref/monster/umbral-shepherd"
 kind = "creature"
 title = "Umbral Shepherd"
+aon = "MonsterDisplay.aspx?ItemName=Umbral%20Shepherd"
 source_ids = ["inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "umbral_shepherd", path = "json/monsters24.json" },

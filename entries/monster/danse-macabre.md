@@ -2,6 +2,7 @@
 id = "ref/monster/danse-macabre"
 kind = "creature"
 title = "Danse Macabre"
+aon = "MonsterDisplay.aspx?ItemName=Danse%20Macabre"
 source_ids = ["curse-of-the-crimson-throne", "pathfinder-11-skeletons-of-scarwall"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "danse_macabre", path = "json/monsters06.json" },

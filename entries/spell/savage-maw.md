@@ -2,6 +2,7 @@
 id = "ref/spell/savage-maw"
 kind = "spell"
 title = "Savage Maw"
+aon = "SpellDisplay.aspx?ItemName=Savage%20Maw"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "savage_maw", path = "json/spells8.json" },

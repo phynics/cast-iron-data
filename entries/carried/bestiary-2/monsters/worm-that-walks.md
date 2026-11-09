@@ -2,6 +2,7 @@
 id = "ref/carried/bestiary-2/monsters/worm-that-walks"
 kind = "creature"
 title = "Worm That Walks"
+aon = "MonsterDisplay.aspx?ItemName=Worm%20That%20Walks"
 source_ids = ["bestiary-2"]
 section = ["Monsters"]
 tags = ["vermin", "augmented human", "medium"]

@@ -2,6 +2,7 @@
 id = "ref/feat/change-of-heart"
 kind = "feat"
 title = "Change of Heart"
+aon = "FeatDisplay.aspx?ItemName=Change%20of%20Heart"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "change_of_heart", path = "json/feat03.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/epidemic"
 kind = "spell"
 title = "Epidemic"
+aon = "SpellDisplay.aspx?ItemName=Epidemic"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "epidemic", path = "json/spells4.json" },

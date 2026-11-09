@@ -2,6 +2,7 @@
 id = "ref/feat/fearsome-spell"
 kind = "feat"
 title = "Fearsome Spell"
+aon = "FeatDisplay.aspx?ItemName=Fearsome%20Spell"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fearsome_spell", path = "json/feat07.json" },

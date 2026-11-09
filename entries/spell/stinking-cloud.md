@@ -2,6 +2,7 @@
 id = "ref/spell/stinking-cloud"
 kind = "spell"
 title = "Stinking Cloud"
+aon = "SpellDisplay.aspx?ItemName=Stinking%20Cloud"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stinking_cloud", path = "json/spells9.json" },

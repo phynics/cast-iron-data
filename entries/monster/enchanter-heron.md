@@ -2,6 +2,7 @@
 id = "ref/monster/enchanter-heron"
 kind = "creature"
 title = "Enchanter Heron"
+aon = "MonsterDisplay.aspx?ItemName=Enchanter%20Heron"
 source_ids = ["pathfinder-121-the-lost-outpost"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enchanter_heron", path = "json/monsters42.json" },

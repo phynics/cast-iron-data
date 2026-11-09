@@ -2,6 +2,7 @@
 id = "ref/feat/deepsight"
 kind = "feat"
 title = "Deepsight"
+aon = "FeatDisplay.aspx?ItemName=Deepsight"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deepsight", path = "json/feat04.json" },

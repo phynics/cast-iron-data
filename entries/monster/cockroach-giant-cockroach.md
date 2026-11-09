@@ -2,6 +2,7 @@
 id = "ref/monster/cockroach-giant-cockroach"
 kind = "creature"
 title = "Giant Cockroach"
+aon = "MonsterDisplay.aspx?ItemName=Giant%20Cockroach"
 source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cockroach_giant_cockroach", path = "json/monsters28.json" },

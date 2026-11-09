@@ -2,6 +2,7 @@
 id = "ref/monster/calpina"
 kind = "creature"
 title = "Calpina"
+aon = "MonsterDisplay.aspx?ItemName=Calpina"
 source_ids = ["bestiary-6", "pathfinder-95-anvil-of-fire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "calpina", path = "json/monsters04.json" },

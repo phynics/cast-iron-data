@@ -2,6 +2,7 @@
 id = "ref/monster/chelarac-chelarac-broodling"
 kind = "creature"
 title = "Chelarac Broodling"
+aon = "MonsterDisplay.aspx?ItemName=Chelarac%20Broodling"
 source_ids = ["pathfinder-144-midwives-to-death"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chelarac_chelarac_broodling", path = "json/monsters05.json" },

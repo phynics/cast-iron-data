@@ -2,6 +2,7 @@
 id = "ref/pclass/aldori-swordlord"
 kind = "prestige_class"
 title = "Aldori Swordlord"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Aldori%20Swordlord"
 source_ids = ["adventurers-guide", "paths-of-prestige"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aldori_swordlord", path = "json/prestige_classes.json" },

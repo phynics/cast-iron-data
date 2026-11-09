@@ -2,6 +2,7 @@
 id = "ref/monster/lythirium"
 kind = "creature"
 title = "Lythirium"
+aon = "MonsterDisplay.aspx?ItemName=Lythirium"
 source_ids = ["pathfinder-105-the-inferno-gate"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lythirium", path = "json/monsters16.json" },

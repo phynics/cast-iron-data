@@ -2,6 +2,7 @@
 id = "ref/monster/nuckelavee"
 kind = "creature"
 title = "Nuckelavee"
+aon = "MonsterDisplay.aspx?ItemName=Nuckelavee"
 source_ids = ["bestiary-3", "pathfinder-34-blood-for-blood"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nuckelavee", path = "json/monsters18.json" },

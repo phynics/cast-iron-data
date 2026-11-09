@@ -2,6 +2,7 @@
 id = "ref/feat/focused-inspiration"
 kind = "feat"
 title = "Focused Inspiration"
+aon = "FeatDisplay.aspx?ItemName=Focused%20Inspiration"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "focused_inspiration", path = "json/feat07.json" },

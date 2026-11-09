@@ -2,6 +2,7 @@
 id = "ref/spell/ghoul-hunger"
 kind = "spell"
 title = "Ghoul Hunger"
+aon = "SpellDisplay.aspx?ItemName=Ghoul%20Hunger"
 source_ids = ["inner-sea-gods", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghoul_hunger", path = "json/spells13.json" },

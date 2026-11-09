@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ophidian-coil"
 kind = "item"
 title = "Ophidian Coil"
+aon = "MagicRingsDisplay.aspx?FinalName=Ophidian%20Coil"
 source_ids = ["down-the-blighted-path"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ophidian_coil", path = "json/magic_ring.json" },

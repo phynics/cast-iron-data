@@ -2,6 +2,7 @@
 id = "ref/spell/discovery-torch"
 kind = "spell"
 title = "Discovery Torch"
+aon = "SpellDisplay.aspx?ItemName=Discovery%20Torch"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "discovery_torch", path = "json/spells3.json" },

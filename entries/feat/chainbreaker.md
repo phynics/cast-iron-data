@@ -2,6 +2,7 @@
 id = "ref/feat/chainbreaker"
 kind = "feat"
 title = "Chainbreaker"
+aon = "FeatDisplay.aspx?ItemName=Chainbreaker"
 source_ids = ["andoran-spirit-of-liberty"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chainbreaker", path = "json/feat02.json" },

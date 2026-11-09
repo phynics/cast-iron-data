@@ -2,6 +2,7 @@
 id = "ref/feat/falcons-cry"
 kind = "feat"
 title = "Falcon's Cry"
+aon = "FeatDisplay.aspx?ItemName=Falcon%27s%20Cry"
 source_ids = ["adventurers-guide", "andoran-birthplace-of-freedom"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "falcons_cry", path = "json/feat06.json" },

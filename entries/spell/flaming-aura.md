@@ -2,6 +2,7 @@
 id = "ref/spell/flaming-aura"
 kind = "spell"
 title = "Flaming Aura"
+aon = "SpellDisplay.aspx?ItemName=Flaming%20Aura"
 source_ids = ["pathfinder-91-battle-of-bloodmarch-hills"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flaming_aura", path = "json/spells4.json" },

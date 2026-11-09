@@ -2,6 +2,7 @@
 id = "ref/feat/improved-death-stealing"
 kind = "feat"
 title = "Improved Death-Stealing"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Death-Stealing"
 source_ids = ["demons-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_death_stealing", path = "json/feat08.json" },

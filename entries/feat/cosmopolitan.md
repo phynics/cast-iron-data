@@ -2,6 +2,7 @@
 id = "ref/feat/cosmopolitan"
 kind = "feat"
 title = "Cosmopolitan"
+aon = "FeatDisplay.aspx?ItemName=Cosmopolitan"
 source_ids = ["advanced-players-guide", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cosmopolitan", path = "json/feat03.json" },

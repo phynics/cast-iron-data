@@ -2,6 +2,7 @@
 id = "ref/feat/summon-good-monster"
 kind = "feat"
 title = "Summon Good Monster"
+aon = "FeatDisplay.aspx?ItemName=Summon%20Good%20Monster"
 source_ids = ["champions-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summon_good_monster", path = "json/feat15.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/spring-heeled-jack"
 kind = "creature"
 title = "Spring-Heeled Jack"
+aon = "MonsterDisplay.aspx?ItemName=Spring-Heeled%20Jack"
 source_ids = ["bestiary-4", "pathfinder-43-haunting-of-harrowstone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spring_heeled_jack", path = "json/monsters38.json" },

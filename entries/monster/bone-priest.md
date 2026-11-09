@@ -2,6 +2,7 @@
 id = "ref/monster/bone-priest"
 kind = "creature"
 title = "Bone Priest"
+aon = "MonsterDisplay.aspx?ItemName=Bone%20Priest"
 source_ids = ["the-emerald-spire-superdungeon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bone_priest", path = "json/monsters27.json" },

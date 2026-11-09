@@ -2,6 +2,7 @@
 id = "ref/spell/battle-trance"
 kind = "spell"
 title = "Battle Trance"
+aon = "SpellDisplay.aspx?ItemName=Battle%20Trance"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "battle_trance", path = "json/spells12.json" },

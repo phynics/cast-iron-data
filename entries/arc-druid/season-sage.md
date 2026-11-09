@@ -2,6 +2,7 @@
 id = "ref/arc-druid/season-sage"
 kind = "archetype"
 title = "Season Sage"
+aon = "ArchetypeDisplay.aspx?FixedName=Druid%20Season%20Sage"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "season_sage", path = "json/archetypes_druid2.json" },

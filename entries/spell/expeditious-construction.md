@@ -2,6 +2,7 @@
 id = "ref/spell/expeditious-construction"
 kind = "spell"
 title = "Expeditious Construction"
+aon = "SpellDisplay.aspx?ItemName=Expeditious%20Construction"
 source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "expeditious_construction", path = "json/spells4.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/dtang-ma-bloodline"
 kind = "trait"
 title = "Dtang Ma Bloodline"
+aon = "TraitDisplay.aspx?ItemName=Dtang%20Ma%20Bloodline"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dtang_ma_bloodline", path = "json/traits04.json" },

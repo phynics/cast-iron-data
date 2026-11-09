@@ -2,6 +2,7 @@
 id = "ref/trait/jungle-native"
 kind = "trait"
 title = "Jungle Native"
+aon = "TraitDisplay.aspx?ItemName=Jungle%20Native"
 source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jungle_native", path = "json/traits04.json" },

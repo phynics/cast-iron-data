@@ -2,6 +2,7 @@
 id = "ref/trait/instigator-of-rebellion"
 kind = "trait"
 title = "Instigator of Rebellion"
+aon = "TraitDisplay.aspx?ItemName=Instigator%20of%20Rebellion"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "instigator_of_rebellion", path = "json/traits04.json" },

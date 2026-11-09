@@ -2,6 +2,7 @@
 id = "ref/trait/blight-burned"
 kind = "trait"
 title = "Blight-Burned"
+aon = "TraitDisplay.aspx?ItemName=Blight-Burned"
 source_ids = ["ironfang-invasion-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blight_burned", path = "json/traits02.json" },

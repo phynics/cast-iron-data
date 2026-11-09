@@ -2,6 +2,7 @@
 id = "ref/spell/banishing-blade"
 kind = "spell"
 title = "Banishing Blade"
+aon = "SpellDisplay.aspx?ItemName=Banishing%20Blade"
 source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "banishing_blade", path = "json/spells12.json" },

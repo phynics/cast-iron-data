@@ -2,6 +2,7 @@
 id = "ref/monster/the-mistress-of-the-fen"
 kind = "creature"
 title = "The Mistress of the Fen"
+aon = "MonsterDisplay.aspx?ItemName=The%20Mistress%20of%20the%20Fen"
 source_ids = ["mystery-monsters-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_mistress_of_the_fen", path = "json/monsters_unique3.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-alchemist/clone-master"
 kind = "archetype"
 title = "Clone Master"
+aon = "ArchetypeDisplay.aspx?FixedName=Alchemist%20Clone%20Master"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clone_master", path = "json/archetypes_alchemist.json" },

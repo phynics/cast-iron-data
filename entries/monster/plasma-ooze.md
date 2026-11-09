@@ -2,6 +2,7 @@
 id = "ref/monster/plasma-ooze"
 kind = "creature"
 title = "Plasma Ooze"
+aon = "MonsterDisplay.aspx?ItemName=Plasma%20Ooze"
 source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plasma_ooze", path = "json/monsters19.json" },

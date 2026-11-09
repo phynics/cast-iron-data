@@ -2,6 +2,7 @@
 id = "ref/trait/born-to-the-water"
 kind = "trait"
 title = "Born to the Water"
+aon = "TraitDisplay.aspx?ItemName=Born%20to%20the%20Water"
 source_ids = ["sargava-the-lost-colony"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "born_to_the_water", path = "json/traits05.json" },

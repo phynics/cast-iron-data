@@ -2,6 +2,7 @@
 id = "ref/spell/unholy-blight"
 kind = "spell"
 title = "Unholy Blight"
+aon = "SpellDisplay.aspx?ItemName=Unholy%20Blight"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unholy_blight", path = "json/spells11.json" },

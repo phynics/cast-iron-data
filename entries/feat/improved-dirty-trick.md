@@ -2,6 +2,7 @@
 id = "ref/feat/improved-dirty-trick"
 kind = "feat"
 title = "Improved Dirty Trick"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Dirty%20Trick"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_dirty_trick", path = "json/feat09.json" },

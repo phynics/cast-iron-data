@@ -2,6 +2,7 @@
 id = "ref/arc-investigator/steel-hound"
 kind = "archetype"
 title = "Steel Hound"
+aon = "ArchetypeDisplay.aspx?FixedName=Investigator%20Steel%20Hound"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "steel_hound", path = "json/archetypes_investigator.json" },

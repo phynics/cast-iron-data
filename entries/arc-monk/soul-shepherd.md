@@ -2,6 +2,7 @@
 id = "ref/arc-monk/soul-shepherd"
 kind = "archetype"
 title = "Soul Shepherd"
+aon = "ArchetypeDisplay.aspx?FixedName=Monk%20Soul%20Shepherd"
 source_ids = ["pathfinder-139-the-dead-road"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soul_shepherd", path = "json/archetypes_monk2.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/passionate-believer"
 kind = "trait"
 title = "Passionate Believer"
+aon = "TraitDisplay.aspx?ItemName=Passionate%20Believer"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "passionate_believer", path = "json/traits04.json" },

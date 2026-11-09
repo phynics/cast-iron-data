@@ -2,6 +2,7 @@
 id = "ref/arc-oracle/tree-soul"
 kind = "archetype"
 title = "Tree Soul"
+aon = "ArchetypeDisplay.aspx?FixedName=Oracle%20Tree%20Soul"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tree_soul", path = "json/archetypes_oracle.json" },

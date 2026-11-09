@@ -2,6 +2,7 @@
 id = "ref/spell/veil-of-heaven"
 kind = "spell"
 title = "Veil of Heaven"
+aon = "SpellDisplay.aspx?ItemName=Veil%20of%20Heaven"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "veil_of_heaven", path = "json/spells11.json" },

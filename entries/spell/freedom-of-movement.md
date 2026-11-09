@@ -2,6 +2,7 @@
 id = "ref/spell/freedom-of-movement"
 kind = "spell"
 title = "Freedom of Movement"
+aon = "SpellDisplay.aspx?ItemName=Freedom%20of%20Movement"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "freedom_of_movement", path = "json/spells13.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/fearsome-spell-like-ability"
 kind = "feat"
 title = "Fearsome Spell-Like Ability"
+aon = "FeatDisplay.aspx?ItemName=Fearsome%20Spell-Like%20Ability"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fearsome_spell_like_ability", path = "json/feat07.json" },

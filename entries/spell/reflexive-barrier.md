@@ -2,6 +2,7 @@
 id = "ref/spell/reflexive-barrier"
 kind = "spell"
 title = "Reflexive Barrier"
+aon = "SpellDisplay.aspx?ItemName=Reflexive%20Barrier"
 source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reflexive_barrier", path = "json/spells8.json" },

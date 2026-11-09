@@ -2,6 +2,7 @@
 id = "ref/spell/plundered-power"
 kind = "spell"
 title = "Plundered Power"
+aon = "SpellDisplay.aspx?ItemName=Plundered%20Power"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plundered_power", path = "json/spells7.json" },

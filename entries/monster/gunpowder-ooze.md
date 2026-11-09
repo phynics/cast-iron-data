@@ -2,6 +2,7 @@
 id = "ref/monster/gunpowder-ooze"
 kind = "creature"
 title = "Gunpowder Ooze"
+aon = "MonsterDisplay.aspx?ItemName=Gunpowder%20Ooze"
 source_ids = ["bestiary-5", "wardens-of-the-reborn-forge"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gunpowder_ooze", path = "json/monsters13.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/crossbowman"
 kind = "archetype"
 title = "Crossbowman"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Crossbowman"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crossbowman", path = "json/archetypes_fighter.json" },

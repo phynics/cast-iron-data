@@ -2,6 +2,7 @@
 id = "ref/feat/triple-baron"
 kind = "feat"
 title = "Triple-Baron"
+aon = "FeatDisplay.aspx?ItemName=Triple-Baron"
 source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "triple_baron", path = "json/feat16.json" },

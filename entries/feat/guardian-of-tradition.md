@@ -2,6 +2,7 @@
 id = "ref/feat/guardian-of-tradition"
 kind = "feat"
 title = "Guardian of Tradition"
+aon = "FeatDisplay.aspx?ItemName=Guardian%20of%20Tradition"
 source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guardian_of_tradition", path = "json/feat08.json" },

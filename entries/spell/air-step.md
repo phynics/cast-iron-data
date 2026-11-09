@@ -2,6 +2,7 @@
 id = "ref/spell/air-step"
 kind = "spell"
 title = "Air Step"
+aon = "SpellDisplay.aspx?ItemName=Air%20Step"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "air_step", path = "json/spells.json" },

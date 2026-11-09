@@ -2,6 +2,7 @@
 id = "ref/feat/agent-of-fear"
 kind = "feat"
 title = "Agent of Fear"
+aon = "FeatDisplay.aspx?ItemName=Agent%20of%20Fear"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "agent_of_fear", path = "json/feat01.json" },

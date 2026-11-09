@@ -2,6 +2,7 @@
 id = "ref/pclass/spherewalker"
 kind = "prestige_class"
 title = "Spherewalker"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Spherewalker"
 source_ids = ["pathfinder-2-the-skinsaw-murders"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spherewalker", path = "json/prestige_classes3.json" },

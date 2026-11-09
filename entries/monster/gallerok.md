@@ -2,6 +2,7 @@
 id = "ref/monster/gallerok"
 kind = "creature"
 title = "Gallerok"
+aon = "MonsterDisplay.aspx?ItemName=Gallerok"
 source_ids = ["pathfinder-118-siege-of-stone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gallerok", path = "json/monsters11.json" },

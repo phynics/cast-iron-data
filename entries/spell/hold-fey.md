@@ -2,6 +2,7 @@
 id = "ref/spell/hold-fey"
 kind = "spell"
 title = "Hold Fey"
+aon = "SpellDisplay.aspx?ItemName=Hold%20Fey"
 source_ids = ["core-rulebook", "the-first-world-realm-of-the-fey"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hold_fey", path = "json/spells5.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/elemental-focus"
 kind = "feat"
 title = "Elemental Focus"
+aon = "FeatDisplay.aspx?ItemName=Elemental%20Focus"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_focus", path = "json/feat05.json" },

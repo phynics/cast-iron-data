@@ -2,6 +2,7 @@
 id = "ref/feat/totem-beast"
 kind = "feat"
 title = "Totem Beast"
+aon = "FeatDisplay.aspx?ItemName=Totem%20Beast"
 source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "totem_beast", path = "json/feat16.json" },

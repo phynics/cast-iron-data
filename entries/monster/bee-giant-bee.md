@@ -2,6 +2,7 @@
 id = "ref/monster/bee-giant-bee"
 kind = "creature"
 title = "Giant Bee"
+aon = "MonsterDisplay.aspx?ItemName=Giant%20Bee"
 source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bee_giant_bee", path = "json/monsters03.json" },

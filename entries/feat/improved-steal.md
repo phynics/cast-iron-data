@@ -2,6 +2,7 @@
 id = "ref/feat/improved-steal"
 kind = "feat"
 title = "Improved Steal"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Steal"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_steal", path = "json/feat09.json" },

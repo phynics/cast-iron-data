@@ -2,6 +2,7 @@
 id = "ref/feat/bolstered-resilience"
 kind = "feat"
 title = "Bolstered Resilience"
+aon = "FeatDisplay.aspx?ItemName=Bolstered%20Resilience"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bolstered_resilience", path = "json/feat02.json" },

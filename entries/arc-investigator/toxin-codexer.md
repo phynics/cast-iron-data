@@ -2,6 +2,7 @@
 id = "ref/arc-investigator/toxin-codexer"
 kind = "archetype"
 title = "Toxin Codexer"
+aon = "ArchetypeDisplay.aspx?FixedName=Investigator%20Toxin%20Codexer"
 source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "toxin_codexer", path = "json/archetypes_investigator.json" },

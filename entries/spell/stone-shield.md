@@ -2,6 +2,7 @@
 id = "ref/spell/stone-shield"
 kind = "spell"
 title = "Stone Shield"
+aon = "SpellDisplay.aspx?ItemName=Stone%20Shield"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stone_shield", path = "json/spells9.json" },

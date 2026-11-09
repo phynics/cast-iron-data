@@ -2,6 +2,7 @@
 id = "ref/trait/ilizmagorti-native"
 kind = "trait"
 title = "Ilizmagorti Native"
+aon = "TraitDisplay.aspx?ItemName=Ilizmagorti%20Native"
 source_ids = ["skull-and-shackles-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ilizmagorti_native", path = "json/traits03.json" },

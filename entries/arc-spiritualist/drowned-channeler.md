@@ -2,6 +2,7 @@
 id = "ref/arc-spiritualist/drowned-channeler"
 kind = "archetype"
 title = "Drowned Channeler"
+aon = "ArchetypeDisplay.aspx?FixedName=Spiritualist%20Drowned%20Channeler"
 source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drowned_channeler", path = "json/archetypes_spiritualist.json" },

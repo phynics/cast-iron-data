@@ -2,6 +2,7 @@
 id = "ref/feat/extra-martial-flexibility"
 kind = "feat"
 title = "Extra Martial Flexibility"
+aon = "FeatDisplay.aspx?ItemName=Extra%20Martial%20Flexibility"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extra_martial_flexibility", path = "json/feat06.json" },

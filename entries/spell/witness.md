@@ -2,6 +2,7 @@
 id = "ref/spell/witness"
 kind = "spell"
 title = "Witness"
+aon = "SpellDisplay.aspx?ItemName=Witness"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "witness", path = "json/spells16.json" },

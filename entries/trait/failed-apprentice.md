@@ -2,6 +2,7 @@
 id = "ref/trait/failed-apprentice"
 kind = "trait"
 title = "Failed Apprentice"
+aon = "TraitDisplay.aspx?ItemName=Failed%20Apprentice"
 source_ids = ["ultimate-campaign", "advanced-players-guide", "taldor-echoes-of-glory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "failed_apprentice", path = "json/traits05.json" },

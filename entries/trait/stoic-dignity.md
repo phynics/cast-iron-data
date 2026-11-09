@@ -2,6 +2,7 @@
 id = "ref/trait/stoic-dignity"
 kind = "trait"
 title = "Stoic Dignity"
+aon = "TraitDisplay.aspx?ItemName=Stoic%20Dignity"
 source_ids = ["bastards-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stoic_dignity", path = "json/traits05.json" },

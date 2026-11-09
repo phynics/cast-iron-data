@@ -2,6 +2,7 @@
 id = "ref/spell/energy-siege-shot"
 kind = "spell"
 title = "Energy Siege Shot"
+aon = "SpellDisplay.aspx?ItemName=Energy%20Siege%20Shot"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "energy_siege_shot", path = "json/spells4.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-slayer/sczarni-executioner"
 kind = "archetype"
 title = "Sczarni Executioner"
+aon = "ArchetypeDisplay.aspx?FixedName=Slayer%20Sczarni%20Executioner"
 source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sczarni_executioner", path = "json/archetypes_slayer.json" },

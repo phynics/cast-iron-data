@@ -2,6 +2,7 @@
 id = "ref/trait/deep-faith"
 kind = "trait"
 title = "Deep Faith"
+aon = "TraitDisplay.aspx?ItemName=Deep%20Faith"
 source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deep_faith", path = "json/traits01.json" },

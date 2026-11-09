@@ -2,6 +2,7 @@
 id = "ref/trait/tarnished-halls-runner"
 kind = "trait"
 title = "Tarnished Halls Runner"
+aon = "TraitDisplay.aspx?ItemName=Tarnished%20Halls%20Runner"
 source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tarnished_halls_runner", path = "json/traits01.json" },

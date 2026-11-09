@@ -2,6 +2,7 @@
 id = "ref/spell/sand-table"
 kind = "spell"
 title = "Sand Table"
+aon = "SpellDisplay.aspx?ItemName=Sand%20Table"
 source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sand_table", path = "json/spells8.json" },

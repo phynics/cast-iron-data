@@ -2,6 +2,7 @@
 id = "ref/feat/monument-builder"
 kind = "feat"
 title = "Monument Builder"
+aon = "FeatDisplay.aspx?ItemName=Monument%20Builder"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monument_builder", path = "json/feat11.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/shield-of-fortification"
 kind = "spell"
 title = "Shield of Fortification"
+aon = "SpellDisplay.aspx?ItemName=Shield%20of%20Fortification"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_of_fortification", path = "json/spells9.json" },

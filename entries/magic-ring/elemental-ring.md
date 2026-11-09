@@ -2,6 +2,7 @@
 id = "ref/magic-ring/elemental-ring"
 kind = "item"
 title = "Elemental Ring"
+aon = "MagicRingsDisplay.aspx?FinalName=Elemental%20Ring"
 source_ids = ["cohorts-and-companions"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_ring", path = "json/magic_ring.json" },

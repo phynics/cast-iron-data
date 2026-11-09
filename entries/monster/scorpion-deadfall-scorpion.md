@@ -2,6 +2,7 @@
 id = "ref/monster/scorpion-deadfall-scorpion"
 kind = "creature"
 title = "Deadfall Scorpion"
+aon = "MonsterDisplay.aspx?ItemName=Deadfall%20Scorpion"
 source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scorpion_deadfall_scorpion", path = "json/monsters21.json" },

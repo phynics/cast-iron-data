@@ -2,6 +2,7 @@
 id = "ref/feat/glorious-blaze"
 kind = "feat"
 title = "Glorious Blaze"
+aon = "FeatDisplay.aspx?ItemName=Glorious%20Blaze"
 source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "glorious_blaze", path = "json/feat07.json" },

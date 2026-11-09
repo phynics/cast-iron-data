@@ -2,6 +2,7 @@
 id = "ref/feat/unfolding-wind-rush"
 kind = "feat"
 title = "Unfolding Wind Rush"
+aon = "FeatDisplay.aspx?ItemName=Unfolding%20Wind%20Rush"
 source_ids = ["adventurers-guide", "inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unfolding_wind_rush", path = "json/feat16.json" },

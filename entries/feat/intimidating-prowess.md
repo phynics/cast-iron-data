@@ -2,6 +2,7 @@
 id = "ref/feat/intimidating-prowess"
 kind = "feat"
 title = "Intimidating Prowess"
+aon = "FeatDisplay.aspx?ItemName=Intimidating%20Prowess"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "intimidating_prowess", path = "json/feat09.json" },

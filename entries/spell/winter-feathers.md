@@ -2,6 +2,7 @@
 id = "ref/spell/winter-feathers"
 kind = "spell"
 title = "Winter Feathers"
+aon = "SpellDisplay.aspx?ItemName=Winter%20Feathers"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "winter_feathers", path = "json/spells16.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/dream-reality"
 kind = "spell"
 title = "Dream Reality"
+aon = "SpellDisplay.aspx?ItemName=Dream%20Reality"
 source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dream_reality", path = "json/spells13.json" },

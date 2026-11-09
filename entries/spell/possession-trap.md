@@ -2,6 +2,7 @@
 id = "ref/spell/possession-trap"
 kind = "spell"
 title = "Possession Trap"
+aon = "SpellDisplay.aspx?ItemName=Possession%20Trap"
 source_ids = ["undead-slayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "possession_trap", path = "json/spells14.json" },

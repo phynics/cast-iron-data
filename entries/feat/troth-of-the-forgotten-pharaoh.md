@@ -2,6 +2,7 @@
 id = "ref/feat/troth-of-the-forgotten-pharaoh"
 kind = "feat"
 title = "Troth of the Forgotten Pharaoh"
+aon = "FeatDisplay.aspx?ItemName=Troth%20of%20the%20Forgotten%20Pharaoh"
 source_ids = ["pathfinder-82-secrets-of-the-sphinx", "pathfinder-81-shifting-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "troth_of_the_forgotten_pharaoh", path = "json/feat16.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/mothman-mothman-elder"
 kind = "creature"
 title = "Mothman Elder"
+aon = "MonsterDisplay.aspx?ItemName=Mothman%20Elder"
 source_ids = ["mystery-monsters-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mothman_mothman_elder", path = "json/monsters17.json" },

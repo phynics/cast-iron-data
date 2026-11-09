@@ -2,6 +2,7 @@
 id = "ref/monster/bramblelash"
 kind = "creature"
 title = "Bramblelash"
+aon = "MonsterDisplay.aspx?ItemName=Bramblelash"
 source_ids = ["pathfinder-115-trail-of-the-hunted"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bramblelash", path = "json/monsters04.json" },

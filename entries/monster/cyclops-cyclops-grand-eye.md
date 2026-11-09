@@ -2,6 +2,7 @@
 id = "ref/monster/cyclops-cyclops-grand-eye"
 kind = "creature"
 title = "Cyclops Grand-Eye"
+aon = "MonsterDisplay.aspx?ItemName=Cyclops%20Grand-Eye"
 source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cyclops_cyclops_grand_eye", path = "json/monsters06.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/garrulous-grin"
 kind = "spell"
 title = "Garrulous Grin"
+aon = "SpellDisplay.aspx?ItemName=Garrulous%20Grin"
 source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "garrulous_grin", path = "json/spells13.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-investigator/star-watcher"
 kind = "archetype"
 title = "Star Watcher"
+aon = "ArchetypeDisplay.aspx?FixedName=Investigator%20Star%20Watcher"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "star_watcher", path = "json/archetypes_investigator.json" },

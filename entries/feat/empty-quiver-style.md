@@ -2,6 +2,7 @@
 id = "ref/feat/empty-quiver-style"
 kind = "feat"
 title = "Empty Quiver Style"
+aon = "FeatDisplay.aspx?ItemName=Empty%20Quiver%20Style"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "empty_quiver_style", path = "json/feat05.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/devil-tinder-devil-ukobach"
 kind = "creature"
 title = "Tinder Devil (Ukobach)"
+aon = "MonsterDisplay.aspx?ItemName=Tinder%20Devil%20%28Ukobach%29"
 source_ids = ["pathfinder-25-the-bastards-of-erebus"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_tinder_devil_ukobach", path = "json/monsters07.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/improved-channel"
 kind = "feat"
 title = "Improved Channel"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Channel"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_channel", path = "json/feat08.json" },

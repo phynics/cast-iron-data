@@ -2,6 +2,7 @@
 id = "ref/monster/ochre-jelly"
 kind = "creature"
 title = "Ochre Jelly"
+aon = "MonsterDisplay.aspx?ItemName=Ochre%20Jelly"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ochre_jelly", path = "json/monsters18.json" },

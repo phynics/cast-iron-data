@@ -2,6 +2,7 @@
 id = "ref/class/swashbuckler"
 kind = "class"
 title = "Swashbuckler"
+aon = "ClassDisplay.aspx?ItemName=Swashbuckler"
 source_ids = ["advanced-class-guide", "advanced-players-guide", "chronicle-of-legends", "blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swashbuckler", path = "json/classes4.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/merrow-saltwater-merrow"
 kind = "creature"
 title = "Saltwater Merrow"
+aon = "MonsterDisplay.aspx?ItemName=Saltwater%20Merrow"
 source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "merrow_saltwater_merrow", path = "json/monsters35.json" },

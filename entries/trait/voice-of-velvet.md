@@ -2,6 +2,7 @@
 id = "ref/trait/voice-of-velvet"
 kind = "trait"
 title = "Voice of Velvet"
+aon = "TraitDisplay.aspx?ItemName=Voice%20of%20Velvet"
 source_ids = ["humans-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "voice_of_velvet", path = "json/traits05.json" },

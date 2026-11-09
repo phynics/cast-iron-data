@@ -2,6 +2,7 @@
 id = "ref/trait/magic-crafter"
 kind = "trait"
 title = "Magic Crafter"
+aon = "TraitDisplay.aspx?ItemName=Magic%20Crafter"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_crafter", path = "json/traits02.json" },

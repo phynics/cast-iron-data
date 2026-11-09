@@ -2,6 +2,7 @@
 id = "ref/monster/totenmaske"
 kind = "creature"
 title = "Totenmaske"
+aon = "MonsterDisplay.aspx?ItemName=Totenmaske"
 source_ids = ["bestiary-2", "pathfinder-3-the-hook-mountain-massacre"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "totenmaske", path = "json/monsters23.json" },

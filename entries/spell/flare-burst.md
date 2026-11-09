@@ -2,6 +2,7 @@
 id = "ref/spell/flare-burst"
 kind = "spell"
 title = "Flare Burst"
+aon = "SpellDisplay.aspx?ItemName=Flare%20Burst"
 source_ids = ["core-rulebook", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flare_burst", path = "json/spells4.json" },

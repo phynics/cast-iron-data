@@ -2,6 +2,7 @@
 id = "ref/feat/knotted-nets"
 kind = "feat"
 title = "Knotted Nets"
+aon = "FeatDisplay.aspx?ItemName=Knotted%20Nets"
 source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "knotted_nets", path = "json/feat09.json" },

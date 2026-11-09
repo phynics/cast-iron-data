@@ -2,6 +2,7 @@
 id = "ref/monster/vescavor-swarm"
 kind = "creature"
 title = "Vescavor Swarm"
+aon = "MonsterDisplay.aspx?ItemName=Vescavor%20Swarm"
 source_ids = ["bestiary-5", "lost-kingdoms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vescavor_swarm", path = "json/monsters40.json" },

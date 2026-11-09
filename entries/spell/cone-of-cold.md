@@ -2,6 +2,7 @@
 id = "ref/spell/cone-of-cold"
 kind = "spell"
 title = "Cone of Cold"
+aon = "SpellDisplay.aspx?ItemName=Cone%20of%20Cold"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cone_of_cold", path = "json/spells12.json" },

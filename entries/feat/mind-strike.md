@@ -2,6 +2,7 @@
 id = "ref/feat/mind-strike"
 kind = "feat"
 title = "Mind Strike"
+aon = "FeatDisplay.aspx?ItemName=Mind%20Strike"
 source_ids = ["chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mind_strike", path = "json/feat10.json" },

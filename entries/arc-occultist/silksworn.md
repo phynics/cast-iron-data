@@ -2,6 +2,7 @@
 id = "ref/arc-occultist/silksworn"
 kind = "archetype"
 title = "Silksworn"
+aon = "ArchetypeDisplay.aspx?FixedName=Occultist%20Silksworn"
 source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "silksworn", path = "json/archetypes_occultist.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/sinuous-vines"
 kind = "feat"
 title = "Sinuous Vines"
+aon = "FeatDisplay.aspx?ItemName=Sinuous%20Vines"
 source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sinuous_vines", path = "json/feat14.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/sling-flail"
 kind = "feat"
 title = "Sling Flail"
+aon = "FeatDisplay.aspx?ItemName=Sling%20Flail"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sling_flail", path = "json/feat14.json" },

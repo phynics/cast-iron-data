@@ -2,6 +2,7 @@
 id = "ref/monster/brain-ooze"
 kind = "creature"
 title = "Brain Ooze"
+aon = "MonsterDisplay.aspx?ItemName=Brain%20Ooze"
 source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brain_ooze", path = "json/monsters04.json" },

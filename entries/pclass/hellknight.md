@@ -2,6 +2,7 @@
 id = "ref/pclass/hellknight"
 kind = "prestige_class"
 title = "Hellknight"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Hellknight"
 source_ids = ["adventurers-guide", "inner-sea-world-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hellknight", path = "json/prestige_classes2.json" },

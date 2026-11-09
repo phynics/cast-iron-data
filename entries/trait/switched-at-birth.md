@@ -2,6 +2,7 @@
 id = "ref/trait/switched-at-birth"
 kind = "trait"
 title = "Switched at Birth"
+aon = "TraitDisplay.aspx?ItemName=Switched%20at%20Birth"
 source_ids = ["blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "switched_at_birth", path = "json/traits05.json" },

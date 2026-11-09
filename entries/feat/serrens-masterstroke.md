@@ -2,6 +2,7 @@
 id = "ref/feat/serrens-masterstroke"
 kind = "feat"
 title = "Serren's Masterstroke"
+aon = "FeatDisplay.aspx?ItemName=Serren%27s%20Masterstroke"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "serrens_masterstroke", path = "json/feat13.json" },

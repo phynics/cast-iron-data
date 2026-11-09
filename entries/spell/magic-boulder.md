@@ -2,6 +2,7 @@
 id = "ref/spell/magic-boulder"
 kind = "spell"
 title = "Magic Boulder"
+aon = "SpellDisplay.aspx?ItemName=Magic%20Boulder"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_boulder", path = "json/spells6.json" },

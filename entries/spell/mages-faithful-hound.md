@@ -2,6 +2,7 @@
 id = "ref/spell/mages-faithful-hound"
 kind = "spell"
 title = "Mage's Faithful Hound"
+aon = "SpellDisplay.aspx?ItemName=Mage%27s%20Faithful%20Hound"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mages_faithful_hound", path = "json/spells6.json" },

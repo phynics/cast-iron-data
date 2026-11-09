@@ -2,6 +2,7 @@
 id = "ref/spell/hellfire-ray"
 kind = "spell"
 title = "Hellfire Ray"
+aon = "SpellDisplay.aspx?ItemName=Hellfire%20Ray"
 source_ids = ["book-of-the-damned", "book-of-the-damned-volume-1-princes-of-darkness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hellfire_ray", path = "json/spells5.json" },

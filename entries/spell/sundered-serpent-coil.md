@@ -2,6 +2,7 @@
 id = "ref/spell/sundered-serpent-coil"
 kind = "spell"
 title = "Sundered Serpent Coil"
+aon = "SpellDisplay.aspx?ItemName=Sundered%20Serpent%20Coil"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sundered_serpent_coil", path = "json/spells16.json" },

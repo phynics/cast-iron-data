@@ -2,6 +2,7 @@
 id = "ref/feat/terrifying-strike"
 kind = "feat"
 title = "Terrifying Strike"
+aon = "FeatDisplay.aspx?ItemName=Terrifying%20Strike"
 source_ids = ["pathfinder-81-shifting-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "terrifying_strike", path = "json/feat16.json" },

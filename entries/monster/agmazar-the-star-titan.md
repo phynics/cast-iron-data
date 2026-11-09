@@ -2,6 +2,7 @@
 id = "ref/monster/agmazar-the-star-titan"
 kind = "creature"
 title = "Agmazar the Star Titan"
+aon = "MonsterDisplay.aspx?ItemName=Agmazar%20the%20Star%20Titan"
 source_ids = ["mythic-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "agmazar_the_star_titan", path = "json/monsters_unique.json" },

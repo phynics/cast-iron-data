@@ -2,6 +2,7 @@
 id = "ref/trait/devout-visionary"
 kind = "trait"
 title = "Devout Visionary"
+aon = "TraitDisplay.aspx?ItemName=Devout%20Visionary"
 source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devout_visionary", path = "json/traits01.json" },

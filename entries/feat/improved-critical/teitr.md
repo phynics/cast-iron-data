@@ -2,6 +2,7 @@
 id = "ref/feat/improved-critical/teitr"
 kind = "feat"
 title = "Improved Critical"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Critical"
 source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/improved-critical" },

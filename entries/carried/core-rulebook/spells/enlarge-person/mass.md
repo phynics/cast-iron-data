@@ -2,6 +2,7 @@
 id = "ref/carried/core-rulebook/spells/enlarge-person/mass"
 kind = "spell"
 title = "Enlarge Person, Mass"
+aon = "SpellDisplay.aspx?ItemName=Enlarge%20Person%2C%20Mass"
 source_ids = ["core-rulebook"]
 section = ["Spells", "Enlarge Person"]
 tags = ["transmutation"]

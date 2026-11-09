@@ -2,6 +2,7 @@
 id = "ref/feat/sleep-venom"
 kind = "feat"
 title = "Sleep Venom"
+aon = "FeatDisplay.aspx?ItemName=Sleep%20Venom"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sleep_venom", path = "json/feat14.json" },

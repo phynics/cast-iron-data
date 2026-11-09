@@ -2,6 +2,7 @@
 id = "ref/feat/smash-from-the-air"
 kind = "feat"
 title = "Smash from the Air"
+aon = "FeatDisplay.aspx?ItemName=Smash%20from%20the%20Air"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "smash_from_the_air", path = "json/feat14.json" },

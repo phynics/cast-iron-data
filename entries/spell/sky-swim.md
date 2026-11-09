@@ -2,6 +2,7 @@
 id = "ref/spell/sky-swim"
 kind = "spell"
 title = "Sky Swim"
+aon = "SpellDisplay.aspx?ItemName=Sky%20Swim"
 source_ids = ["inner-sea-gods", "faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sky_swim", path = "json/spells9.json" },

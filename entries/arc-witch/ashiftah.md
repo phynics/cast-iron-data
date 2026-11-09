@@ -2,6 +2,7 @@
 id = "ref/arc-witch/ashiftah"
 kind = "archetype"
 title = "Ashiftah"
+aon = "ArchetypeDisplay.aspx?FixedName=Witch%20Ashiftah"
 source_ids = ["qadira-jewel-of-the-east"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ashiftah", path = "json/archetypes_witch.json" },

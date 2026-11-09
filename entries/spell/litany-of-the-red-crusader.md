@@ -2,6 +2,7 @@
 id = "ref/spell/litany-of-the-red-crusader"
 kind = "spell"
 title = "Litany of the Red Crusader"
+aon = "SpellDisplay.aspx?ItemName=Litany%20of%20the%20Red%20Crusader"
 source_ids = ["pathfinder-140-eulogy-for-roslars-coffer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "litany_of_the_red_crusader", path = "json/spells6.json" },

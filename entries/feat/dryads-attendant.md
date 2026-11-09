@@ -2,6 +2,7 @@
 id = "ref/feat/dryads-attendant"
 kind = "feat"
 title = "Dryad's Attendant"
+aon = "FeatDisplay.aspx?ItemName=Dryad%27s%20Attendant"
 source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dryads_attendant", path = "json/feat05.json" },

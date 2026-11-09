@@ -2,6 +2,7 @@
 id = "ref/trait/riverfolk"
 kind = "trait"
 title = "Riverfolk"
+aon = "TraitDisplay.aspx?ItemName=Riverfolk"
 source_ids = ["inner-sea-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "riverfolk", path = "json/traits04.json" },

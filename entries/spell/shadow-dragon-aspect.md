@@ -2,6 +2,7 @@
 id = "ref/spell/shadow-dragon-aspect"
 kind = "spell"
 title = "Shadow Dragon Aspect"
+aon = "SpellDisplay.aspx?ItemName=Shadow%20Dragon%20Aspect"
 source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_dragon_aspect", path = "json/spells15.json" },

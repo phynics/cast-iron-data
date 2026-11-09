@@ -2,6 +2,7 @@
 id = "ref/arc-paladin/tranquil-guardian"
 kind = "archetype"
 title = "Tranquil Guardian"
+aon = "ArchetypeDisplay.aspx?FixedName=Paladin%20Tranquil%20Guardian"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tranquil_guardian", path = "json/archetypes_paladin.json" },

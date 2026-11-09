@@ -2,6 +2,7 @@
 id = "ref/feat/lengthy-potion"
 kind = "feat"
 title = "Lengthy Potion"
+aon = "FeatDisplay.aspx?ItemName=Lengthy%20Potion"
 source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lengthy_potion", path = "json/feat10.json" },

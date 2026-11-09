@@ -2,6 +2,7 @@
 id = "ref/trait/venicaan-medic"
 kind = "trait"
 title = "Venicaan Medic"
+aon = "TraitDisplay.aspx?ItemName=Venicaan%20Medic"
 source_ids = ["qadira-gateway-to-the-east"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "venicaan_medic", path = "json/traits04.json" },

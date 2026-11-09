@@ -2,6 +2,7 @@
 id = "ref/feat/dispel-mastery"
 kind = "feat"
 title = "Dispel Mastery"
+aon = "FeatDisplay.aspx?ItemName=Dispel%20Mastery"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dispel_mastery", path = "json/feat04.json" },

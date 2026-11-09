@@ -2,6 +2,7 @@
 id = "ref/monster/dragon-primal-crystal-adult-crystal-dragon"
 kind = "creature"
 title = "Adult Crystal Dragon"
+aon = "MonsterDisplay.aspx?ItemName=Adult%20Crystal%20Dragon"
 source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_primal_crystal_adult_crystal_dragon", path = "json/monsters30.json" },

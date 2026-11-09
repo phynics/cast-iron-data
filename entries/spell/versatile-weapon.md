@@ -2,6 +2,7 @@
 id = "ref/spell/versatile-weapon"
 kind = "spell"
 title = "Versatile Weapon"
+aon = "SpellDisplay.aspx?ItemName=Versatile%20Weapon"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "versatile_weapon", path = "json/spells11.json" },

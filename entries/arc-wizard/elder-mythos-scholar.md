@@ -2,6 +2,7 @@
 id = "ref/arc-wizard/elder-mythos-scholar"
 kind = "archetype"
 title = "Elder Mythos Scholar"
+aon = "ArchetypeDisplay.aspx?FixedName=Wizard%20Elder%20Mythos%20Scholar"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elder_mythos_scholar", path = "json/archetypes_wizard.json" },

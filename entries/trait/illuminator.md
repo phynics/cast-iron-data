@@ -2,6 +2,7 @@
 id = "ref/trait/illuminator"
 kind = "trait"
 title = "Illuminator"
+aon = "TraitDisplay.aspx?ItemName=Illuminator"
 source_ids = ["inner-sea-gods", "faiths-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "illuminator", path = "json/traits03.json" },

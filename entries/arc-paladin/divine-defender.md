@@ -2,6 +2,7 @@
 id = "ref/arc-paladin/divine-defender"
 kind = "archetype"
 title = "Divine Defender"
+aon = "ArchetypeDisplay.aspx?FixedName=Paladin%20Divine%20Defender"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divine_defender", path = "json/archetypes_paladin.json" },

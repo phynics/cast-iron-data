@@ -2,6 +2,7 @@
 id = "ref/feat/soul-powered-magic"
 kind = "feat"
 title = "Soul-Powered Magic"
+aon = "FeatDisplay.aspx?ItemName=Soul-Powered%20Magic"
 source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soul_powered_magic", path = "json/feat14.json" },

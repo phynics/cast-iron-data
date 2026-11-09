@@ -2,6 +2,7 @@
 id = "ref/spell/elude-time"
 kind = "spell"
 title = "Elude Time"
+aon = "SpellDisplay.aspx?ItemName=Elude%20Time"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elude_time", path = "json/spells4.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/seeker-of-brightness"
 kind = "trait"
 title = "Seeker of Brightness"
+aon = "TraitDisplay.aspx?ItemName=Seeker%20of%20Brightness"
 source_ids = ["elves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seeker_of_brightness", path = "json/traits05.json" },

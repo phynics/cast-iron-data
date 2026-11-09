@@ -2,6 +2,7 @@
 id = "ref/feat/hydraulic-maneuver"
 kind = "feat"
 title = "Hydraulic Maneuver"
+aon = "FeatDisplay.aspx?ItemName=Hydraulic%20Maneuver"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hydraulic_maneuver", path = "json/feat08.json" },

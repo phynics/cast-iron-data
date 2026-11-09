@@ -2,6 +2,7 @@
 id = "ref/pclass/student-of-perfection"
 kind = "prestige_class"
 title = "Student of Perfection"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Student%20of%20Perfection"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "student_of_perfection", path = "json/prestige_classes3.json" },

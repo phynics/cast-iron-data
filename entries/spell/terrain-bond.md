@@ -2,6 +2,7 @@
 id = "ref/spell/terrain-bond"
 kind = "spell"
 title = "Terrain Bond"
+aon = "SpellDisplay.aspx?ItemName=Terrain%20Bond"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "terrain_bond", path = "json/spells10.json" },

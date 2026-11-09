@@ -2,6 +2,7 @@
 id = "ref/spell/blood-of-the-martyr"
 kind = "spell"
 title = "Blood of the Martyr"
+aon = "SpellDisplay.aspx?ItemName=Blood%20of%20the%20Martyr"
 source_ids = ["chronicle-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_of_the_martyr", path = "json/spells2.json" },

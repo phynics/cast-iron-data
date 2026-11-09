@@ -2,6 +2,7 @@
 id = "ref/spell/mirage"
 kind = "spell"
 title = "Mirage"
+aon = "SpellDisplay.aspx?ItemName=Mirage"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mirage", path = "json/spells14.json" },

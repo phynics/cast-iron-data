@@ -2,6 +2,7 @@
 id = "ref/spell/restore-eidolon"
 kind = "spell"
 title = "Restore Eidolon"
+aon = "SpellDisplay.aspx?ItemName=Restore%20Eidolon"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "restore_eidolon", path = "json/spells8.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/ancestors-blade"
 kind = "trait"
 title = "Ancestor's Blade"
+aon = "TraitDisplay.aspx?ItemName=Ancestor%27s%20Blade"
 source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ancestors_blade", path = "json/traits03.json" },

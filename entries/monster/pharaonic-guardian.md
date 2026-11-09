@@ -2,6 +2,7 @@
 id = "ref/monster/pharaonic-guardian"
 kind = "creature"
 title = "Pharaonic Guardian"
+aon = "MonsterDisplay.aspx?ItemName=Pharaonic%20Guardian"
 source_ids = ["bestiary-5", "osirion-legacy-of-the-pharaohs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pharaonic_guardian", path = "json/monsters36.json" },

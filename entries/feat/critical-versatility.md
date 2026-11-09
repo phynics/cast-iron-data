@@ -2,6 +2,7 @@
 id = "ref/feat/critical-versatility"
 kind = "feat"
 title = "Critical Versatility"
+aon = "FeatDisplay.aspx?ItemName=Critical%20Versatility"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "critical_versatility", path = "json/feat04.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-alchemist/oenopion-researcher"
 kind = "archetype"
 title = "Oenopion Researcher"
+aon = "ArchetypeDisplay.aspx?FixedName=Alchemist%20Oenopion%20Researcher"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oenopion_researcher", path = "json/archetypes_alchemist2.json" },

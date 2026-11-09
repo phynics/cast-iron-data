@@ -2,6 +2,7 @@
 id = "ref/spell/hags-seasoning"
 kind = "spell"
 title = "Hag's Seasoning"
+aon = "SpellDisplay.aspx?ItemName=Hag%27s%20Seasoning"
 source_ids = ["blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hags_seasoning", path = "json/spells5.json" },

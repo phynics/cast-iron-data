@@ -2,6 +2,7 @@
 id = "ref/pclass/rage-prophet"
 kind = "prestige_class"
 title = "Rage Prophet"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Rage%20Prophet"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rage_prophet", path = "json/prestige_classes3.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/purity-of-faith"
 kind = "trait"
 title = "Purity of Faith"
+aon = "TraitDisplay.aspx?ItemName=Purity%20of%20Faith"
 source_ids = ["inner-sea-gods", "faiths-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "purity_of_faith", path = "json/traits03.json" },

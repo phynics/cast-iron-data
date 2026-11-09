@@ -2,6 +2,7 @@
 id = "ref/arc-inquisitor/royal-accuser"
 kind = "archetype"
 title = "Royal Accuser"
+aon = "ArchetypeDisplay.aspx?FixedName=Inquisitor%20Royal%20Accuser"
 source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "royal_accuser", path = "json/archetypes_inquisitor.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/opportunistic-grappler"
 kind = "feat"
 title = "Opportunistic Grappler"
+aon = "FeatDisplay.aspx?ItemName=Opportunistic%20Grappler"
 source_ids = ["antiheros-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "opportunistic_grappler", path = "json/feat11.json" },

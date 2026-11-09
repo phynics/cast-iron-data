@@ -2,6 +2,7 @@
 id = "ref/spell/detect-metal"
 kind = "spell"
 title = "Detect Metal"
+aon = "SpellDisplay.aspx?ItemName=Detect%20Metal"
 source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "detect_metal", path = "json/spells3.json" },

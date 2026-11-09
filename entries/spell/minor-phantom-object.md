@@ -2,6 +2,7 @@
 id = "ref/spell/minor-phantom-object"
 kind = "spell"
 title = "Minor Phantom Object"
+aon = "SpellDisplay.aspx?ItemName=Minor%20Phantom%20Object"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "minor_phantom_object", path = "json/spells14.json" },

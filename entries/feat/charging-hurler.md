@@ -2,6 +2,7 @@
 id = "ref/feat/charging-hurler"
 kind = "feat"
 title = "Charging Hurler"
+aon = "FeatDisplay.aspx?ItemName=Charging%20Hurler"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charging_hurler", path = "json/feat03.json" },

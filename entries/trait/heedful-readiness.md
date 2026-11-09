@@ -2,6 +2,7 @@
 id = "ref/trait/heedful-readiness"
 kind = "trait"
 title = "Heedful Readiness"
+aon = "TraitDisplay.aspx?ItemName=Heedful%20Readiness"
 source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heedful_readiness", path = "json/traits01.json" },

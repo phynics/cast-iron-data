@@ -2,6 +2,7 @@
 id = "ref/feat/divine-denouncer"
 kind = "feat"
 title = "Divine Denouncer"
+aon = "FeatDisplay.aspx?ItemName=Divine%20Denouncer"
 source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divine_denouncer", path = "json/feat05.json" },

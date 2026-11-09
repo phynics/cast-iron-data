@@ -2,6 +2,7 @@
 id = "ref/trait/loyalty-across-lifetimes"
 kind = "trait"
 title = "Loyalty across Lifetimes"
+aon = "TraitDisplay.aspx?ItemName=Loyalty%20across%20Lifetimes"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "loyalty_across_lifetimes", path = "json/traits01.json" },

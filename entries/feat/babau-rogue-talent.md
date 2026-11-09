@@ -2,6 +2,7 @@
 id = "ref/feat/babau-rogue-talent"
 kind = "feat"
 title = "Babau Rogue Talent"
+aon = "FeatDisplay.aspx?ItemName=Babau%20Rogue%20Talent"
 source_ids = ["demons-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "babau_rogue_talent", path = "json/feat01.json" },

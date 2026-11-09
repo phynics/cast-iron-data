@@ -2,6 +2,7 @@
 id = "ref/monster/tenebrous-blight"
 kind = "creature"
 title = "Tenebrous Blight"
+aon = "MonsterDisplay.aspx?ItemName=Tenebrous%20Blight"
 source_ids = ["occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tenebrous_blight", path = "json/monsters23.json" },

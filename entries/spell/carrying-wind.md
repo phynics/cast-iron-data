@@ -2,6 +2,7 @@
 id = "ref/spell/carrying-wind"
 kind = "spell"
 title = "Carrying Wind"
+aon = "SpellDisplay.aspx?ItemName=Carrying%20Wind"
 source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "carrying_wind", path = "json/spells2.json" },

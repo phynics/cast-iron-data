@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/aerial-assaulter"
 kind = "archetype"
 title = "Aerial Assaulter"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Aerial%20Assaulter"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aerial_assaulter", path = "json/archetypes_fighter.json" },

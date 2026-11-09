@@ -2,6 +2,7 @@
 id = "ref/feat/expert-trainer"
 kind = "feat"
 title = "Expert Trainer"
+aon = "FeatDisplay.aspx?ItemName=Expert%20Trainer"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "expert_trainer", path = "json/feat06.json" },

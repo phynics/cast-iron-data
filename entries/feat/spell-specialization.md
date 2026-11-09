@@ -2,6 +2,7 @@
 id = "ref/feat/spell-specialization"
 kind = "feat"
 title = "Spell Specialization"
+aon = "FeatDisplay.aspx?ItemName=Spell%20Specialization"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_specialization", path = "json/feat14.json" },

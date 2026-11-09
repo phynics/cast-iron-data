@@ -2,6 +2,7 @@
 id = "ref/race/duskwalker"
 kind = "race"
 title = "Duskwalker"
+aon = "RacesDisplay.aspx?ItemName=Duskwalker"
 source_ids = ["planar-adventures", "plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "duskwalker", path = "json/races.json" },

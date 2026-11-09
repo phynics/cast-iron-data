@@ -2,6 +2,7 @@
 id = "ref/arc-cavalier/standard-bearer"
 kind = "archetype"
 title = "Standard Bearer"
+aon = "ArchetypeDisplay.aspx?FixedName=Cavalier%20Standard%20Bearer"
 source_ids = ["ultimate-combat", "chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "standard_bearer", path = "json/archetypes_cavalier.json" },

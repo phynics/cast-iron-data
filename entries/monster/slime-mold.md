@@ -2,6 +2,7 @@
 id = "ref/monster/slime-mold"
 kind = "creature"
 title = "Slime Mold"
+aon = "MonsterDisplay.aspx?ItemName=Slime%20Mold"
 source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slime_mold", path = "json/monsters22.json" },

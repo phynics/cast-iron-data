@@ -2,6 +2,7 @@
 id = "ref/trait/diseased-heart"
 kind = "trait"
 title = "Diseased Heart"
+aon = "TraitDisplay.aspx?ItemName=Diseased%20Heart"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "diseased_heart", path = "json/traits03.json" },

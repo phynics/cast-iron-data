@@ -2,6 +2,7 @@
 id = "ref/feat/greater-gathlain-magic"
 kind = "feat"
 title = "Greater Gathlain Magic"
+aon = "FeatDisplay.aspx?ItemName=Greater%20Gathlain%20Magic"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_gathlain_magic", path = "json/feat08.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/channel-deific-essence"
 kind = "feat"
 title = "Channel Deific Essence"
+aon = "FeatDisplay.aspx?ItemName=Channel%20Deific%20Essence"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "channel_deific_essence", path = "json/feat03.json" },

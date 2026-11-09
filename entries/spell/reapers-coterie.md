@@ -2,6 +2,7 @@
 id = "ref/spell/reapers-coterie"
 kind = "spell"
 title = "Reaper's Coterie"
+aon = "SpellDisplay.aspx?ItemName=Reaper%27s%20Coterie"
 source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reapers_coterie", path = "json/spells8.json" },

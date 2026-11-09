@@ -2,6 +2,7 @@
 id = "ref/feat/pommel-strike-deed"
 kind = "feat"
 title = "Pommel Strike Deed"
+aon = "FeatDisplay.aspx?ItemName=Pommel%20Strike%20Deed"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pommel_strike_deed", path = "json/feat12.json" },

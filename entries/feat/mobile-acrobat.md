@@ -2,6 +2,7 @@
 id = "ref/feat/mobile-acrobat"
 kind = "feat"
 title = "Mobile Acrobat"
+aon = "FeatDisplay.aspx?ItemName=Mobile%20Acrobat"
 source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mobile_acrobat", path = "json/feat10.json" },

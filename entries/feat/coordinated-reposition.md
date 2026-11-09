@@ -2,6 +2,7 @@
 id = "ref/feat/coordinated-reposition"
 kind = "feat"
 title = "Coordinated Reposition"
+aon = "FeatDisplay.aspx?ItemName=Coordinated%20Reposition"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "coordinated_reposition", path = "json/feat03.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-cavalier/verdivant"
 kind = "archetype"
 title = "Verdivant"
+aon = "ArchetypeDisplay.aspx?FixedName=Cavalier%20Verdivant"
 source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "verdivant", path = "json/archetypes_cavalier.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/neh-thalggu"
 kind = "creature"
 title = "Neh-Thalggu"
+aon = "MonsterDisplay.aspx?ItemName=Neh-Thalggu"
 source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "neh_thalggu", path = "json/monsters35.json" },

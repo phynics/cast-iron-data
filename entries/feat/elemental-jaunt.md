@@ -2,6 +2,7 @@
 id = "ref/feat/elemental-jaunt"
 kind = "feat"
 title = "Elemental Jaunt"
+aon = "FeatDisplay.aspx?ItemName=Elemental%20Jaunt"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_jaunt", path = "json/feat05.json" },

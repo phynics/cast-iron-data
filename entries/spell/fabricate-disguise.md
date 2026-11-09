@@ -2,6 +2,7 @@
 id = "ref/spell/fabricate-disguise"
 kind = "spell"
 title = "Fabricate Disguise"
+aon = "SpellDisplay.aspx?ItemName=Fabricate%20Disguise"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fabricate_disguise", path = "json/spells4.json" },

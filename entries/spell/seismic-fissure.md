@@ -2,6 +2,7 @@
 id = "ref/spell/seismic-fissure"
 kind = "spell"
 title = "Seismic Fissure"
+aon = "SpellDisplay.aspx?ItemName=Seismic%20Fissure"
 source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seismic_fissure", path = "json/spells15.json" },

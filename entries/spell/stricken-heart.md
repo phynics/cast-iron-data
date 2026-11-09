@@ -2,6 +2,7 @@
 id = "ref/spell/stricken-heart"
 kind = "spell"
 title = "Stricken Heart"
+aon = "SpellDisplay.aspx?ItemName=Stricken%20Heart"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stricken_heart", path = "json/spells15.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-witch/hagbound"
 kind = "archetype"
 title = "Hagbound"
+aon = "ArchetypeDisplay.aspx?FixedName=Witch%20Hagbound"
 source_ids = ["blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hagbound", path = "json/archetypes_witch.json" },

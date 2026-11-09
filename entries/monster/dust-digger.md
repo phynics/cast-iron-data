@@ -2,6 +2,7 @@
 id = "ref/monster/dust-digger"
 kind = "creature"
 title = "Dust Digger"
+aon = "MonsterDisplay.aspx?ItemName=Dust%20Digger"
 source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dust_digger", path = "json/monsters41.json" },

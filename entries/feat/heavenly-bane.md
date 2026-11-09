@@ -2,6 +2,7 @@
 id = "ref/feat/heavenly-bane"
 kind = "feat"
 title = "Heavenly Bane"
+aon = "FeatDisplay.aspx?ItemName=Heavenly%20Bane"
 source_ids = ["distant-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heavenly_bane", path = "json/feat08.json" },

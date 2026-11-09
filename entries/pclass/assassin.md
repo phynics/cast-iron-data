@@ -2,6 +2,7 @@
 id = "ref/pclass/assassin"
 kind = "prestige_class"
 title = "Assassin"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Assassin"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "assassin", path = "json/prestige_classes.json" },

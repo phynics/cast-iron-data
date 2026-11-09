@@ -2,6 +2,7 @@
 id = "ref/trait/pure-legion-recruit"
 kind = "trait"
 title = "Pure Legion Recruit"
+aon = "TraitDisplay.aspx?ItemName=Pure%20Legion%20Recruit"
 source_ids = ["people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pure_legion_recruit", path = "json/traits04.json" },

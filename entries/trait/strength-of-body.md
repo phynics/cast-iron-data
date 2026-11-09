@@ -2,6 +2,7 @@
 id = "ref/trait/strength-of-body"
 kind = "trait"
 title = "Strength of Body"
+aon = "TraitDisplay.aspx?ItemName=Strength%20of%20Body"
 source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "strength_of_body", path = "json/traits05.json" },

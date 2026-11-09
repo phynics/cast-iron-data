@@ -2,6 +2,7 @@
 id = "ref/feat/maximize-spell"
 kind = "feat"
 title = "Maximize Spell"
+aon = "FeatDisplay.aspx?ItemName=Maximize%20Spell"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "maximize_spell", path = "json/feat10.json" },

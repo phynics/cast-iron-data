@@ -2,6 +2,7 @@
 id = "ref/arc-druid/kraken-caller"
 kind = "archetype"
 title = "Kraken Caller"
+aon = "ArchetypeDisplay.aspx?FixedName=Druid%20Kraken%20Caller"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kraken_caller", path = "json/archetypes_druid.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/rubberskin"
 kind = "spell"
 title = "Rubberskin"
+aon = "SpellDisplay.aspx?ItemName=Rubberskin"
 source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rubberskin", path = "json/spells8.json" },

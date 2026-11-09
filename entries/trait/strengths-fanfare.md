@@ -2,6 +2,7 @@
 id = "ref/trait/strengths-fanfare"
 kind = "trait"
 title = "Strength's Fanfare"
+aon = "TraitDisplay.aspx?ItemName=Strength%27s%20Fanfare"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "strengths_fanfare", path = "json/traits03.json" },

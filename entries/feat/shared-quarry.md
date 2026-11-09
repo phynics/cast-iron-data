@@ -2,6 +2,7 @@
 id = "ref/feat/shared-quarry"
 kind = "feat"
 title = "Shared Quarry"
+aon = "FeatDisplay.aspx?ItemName=Shared%20Quarry"
 source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shared_quarry", path = "json/feat14.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/spell-praxis"
 kind = "feat"
 title = "Spell Praxis"
+aon = "FeatDisplay.aspx?ItemName=Spell%20Praxis"
 source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_praxis", path = "json/feat14.json" },

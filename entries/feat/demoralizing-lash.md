@@ -2,6 +2,7 @@
 id = "ref/feat/demoralizing-lash"
 kind = "feat"
 title = "Demoralizing Lash"
+aon = "FeatDisplay.aspx?ItemName=Demoralizing%20Lash"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demoralizing_lash", path = "json/feat04.json" },

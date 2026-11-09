@@ -2,6 +2,7 @@
 id = "ref/trait/skillful"
 kind = "trait"
 title = "Skillful"
+aon = "TraitDisplay.aspx?ItemName=Skillful"
 source_ids = ["ruins-of-azlant-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skillful", path = "json/traits02.json" },

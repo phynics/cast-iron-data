@@ -2,6 +2,7 @@
 id = "ref/trait/shoanti-spirit-singer"
 kind = "trait"
 title = "Shoanti Spirit-singer"
+aon = "TraitDisplay.aspx?ItemName=Shoanti%20Spirit-singer"
 source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shoanti_spirit_singer", path = "json/traits05.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/pipefox"
 kind = "creature"
 title = "Pipefox"
+aon = "MonsterDisplay.aspx?ItemName=Pipefox"
 source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pipefox", path = "json/monsters19.json" },

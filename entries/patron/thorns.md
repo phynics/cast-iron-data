@@ -2,6 +2,7 @@
 id = "ref/patron/thorns"
 kind = "class_option"
 title = "Thorns"
+aon = "DomainDisplay.aspx?ItemName=Plant"
 source_ids = ["heroes-of-the-wild", "ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thorns", path = "json/class_ability_patrons.json" },

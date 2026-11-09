@@ -2,6 +2,7 @@
 id = "ref/monster/paguroida"
 kind = "creature"
 title = "Paguroida"
+aon = "MonsterDisplay.aspx?ItemName=Paguroida"
 source_ids = ["pathfinder-122-into-the-shattered-continent"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "paguroida", path = "json/monsters36.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/stick-fighting-counter"
 kind = "feat"
 title = "Stick-Fighting Counter"
+aon = "FeatDisplay.aspx?ItemName=Stick-Fighting%20Counter"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stick_fighting_counter", path = "json/feat15.json" },

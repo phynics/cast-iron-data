@@ -2,6 +2,7 @@
 id = "ref/feat/consume-undeath"
 kind = "feat"
 title = "Consume Undeath"
+aon = "FeatDisplay.aspx?ItemName=Consume%20Undeath"
 source_ids = ["demons-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "consume_undeath", path = "json/feat03.json" },

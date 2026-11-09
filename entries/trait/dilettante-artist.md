@@ -2,6 +2,7 @@
 id = "ref/trait/dilettante-artist"
 kind = "trait"
 title = "Dilettante Artist"
+aon = "TraitDisplay.aspx?ItemName=Dilettante%20Artist"
 source_ids = ["taldor-echoes-of-glory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dilettante_artist", path = "json/traits05.json" },

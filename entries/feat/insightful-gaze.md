@@ -2,6 +2,7 @@
 id = "ref/feat/insightful-gaze"
 kind = "feat"
 title = "Insightful Gaze"
+aon = "FeatDisplay.aspx?ItemName=Insightful%20Gaze"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "insightful_gaze", path = "json/feat09.json" },

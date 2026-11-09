@@ -2,6 +2,7 @@
 id = "ref/trait/canon-of-coin"
 kind = "trait"
 title = "Canon of Coin"
+aon = "TraitDisplay.aspx?ItemName=Canon%20of%20Coin"
 source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "canon_of_coin", path = "json/traits01.json" },

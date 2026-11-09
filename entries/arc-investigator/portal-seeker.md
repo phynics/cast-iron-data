@@ -2,6 +2,7 @@
 id = "ref/arc-investigator/portal-seeker"
 kind = "archetype"
 title = "Portal Seeker"
+aon = "ArchetypeDisplay.aspx?FixedName=Investigator%20Portal%20Seeker"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "portal_seeker", path = "json/archetypes_investigator.json" },

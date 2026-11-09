@@ -2,6 +2,7 @@
 id = "ref/monster/water-strider-giant-water-strider"
 kind = "creature"
 title = "Giant Water Strider"
+aon = "MonsterDisplay.aspx?ItemName=Giant%20Water%20Strider"
 source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "water_strider_giant_water_strider", path = "json/monsters25.json" },

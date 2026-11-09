@@ -2,6 +2,7 @@
 id = "ref/feat/startling-shapechanger"
 kind = "feat"
 title = "Startling Shapechanger"
+aon = "FeatDisplay.aspx?ItemName=Startling%20Shapechanger"
 source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "startling_shapechanger", path = "json/feat15.json" },

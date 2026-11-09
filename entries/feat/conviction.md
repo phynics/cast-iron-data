@@ -2,6 +2,7 @@
 id = "ref/feat/conviction"
 kind = "feat"
 title = "Conviction"
+aon = "FeatDisplay.aspx?ItemName=Conviction"
 source_ids = ["blood-of-the-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "conviction", path = "json/feat03.json" },

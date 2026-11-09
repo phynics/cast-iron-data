@@ -2,6 +2,7 @@
 id = "ref/spell/false-face"
 kind = "spell"
 title = "False Face"
+aon = "SpellDisplay.aspx?ItemName=False%20Face"
 source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "false_face", path = "json/spells4.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/out-of-the-sun"
 kind = "feat"
 title = "Out of the Sun"
+aon = "FeatDisplay.aspx?ItemName=Out%20of%20the%20Sun"
 source_ids = ["ultimate-wilderness", "people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "out_of_the_sun", path = "json/feat11.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/bewildering-koan"
 kind = "feat"
 title = "Bewildering Koan"
+aon = "FeatDisplay.aspx?ItemName=Bewildering%20Koan"
 source_ids = ["gnomes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bewildering_koan", path = "json/feat02.json" },

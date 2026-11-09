@@ -2,6 +2,7 @@
 id = "ref/feat/solo-maneuvers"
 kind = "feat"
 title = "Solo Maneuvers"
+aon = "FeatDisplay.aspx?ItemName=Solo%20Maneuvers"
 source_ids = ["bastards-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "solo_maneuvers", path = "json/feat14.json" },

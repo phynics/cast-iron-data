@@ -2,6 +2,7 @@
 id = "ref/trait/starchild"
 kind = "trait"
 title = "Starchild"
+aon = "TraitDisplay.aspx?ItemName=Starchild"
 source_ids = ["ultimate-campaign", "elves-of-golarion", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "starchild", path = "json/traits03.json" },

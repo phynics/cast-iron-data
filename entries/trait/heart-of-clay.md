@@ -2,6 +2,7 @@
 id = "ref/trait/heart-of-clay"
 kind = "trait"
 title = "Heart of Clay"
+aon = "TraitDisplay.aspx?ItemName=Heart%20of%20Clay"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heart_of_clay", path = "json/traits04.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/demodand-stringy-demodand"
 kind = "creature"
 title = "Stringy Demodand"
+aon = "MonsterDisplay.aspx?ItemName=Stringy%20Demodand"
 source_ids = ["bestiary-5", "pathfinder-77-herald-of-the-ivory-labyrinth"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demodand_stringy_demodand", path = "json/monsters29.json" },

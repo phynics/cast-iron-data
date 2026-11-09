@@ -2,6 +2,7 @@
 id = "ref/spell/erode-defenses"
 kind = "spell"
 title = "Erode Defenses"
+aon = "SpellDisplay.aspx?ItemName=Erode%20Defenses"
 source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "erode_defenses", path = "json/spells4.json" },

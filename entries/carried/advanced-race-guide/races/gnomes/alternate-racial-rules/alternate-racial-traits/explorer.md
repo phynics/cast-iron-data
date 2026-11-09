@@ -2,6 +2,7 @@
 id = "ref/carried/advanced-race-guide/races/gnomes/alternate-racial-rules/alternate-racial-traits/explorer"
 kind = "racial_trait"
 title = "Explorer"
+aon = "TraitDisplay.aspx?ItemName=Explorer"
 source_ids = ["advanced-race-guide"]
 section = ["Races", "Gnomes", "Alternate Racial Rules", "Alternate Racial Traits"]
 tags = ["alternate", "gnome"]

@@ -2,6 +2,7 @@
 id = "ref/spell/evolution-surge"
 kind = "spell"
 title = "Evolution Surge"
+aon = "SpellDisplay.aspx?ItemName=Evolution%20Surge"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "evolution_surge", path = "json/spells4.json" },

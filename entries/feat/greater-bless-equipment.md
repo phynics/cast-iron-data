@@ -2,6 +2,7 @@
 id = "ref/feat/greater-bless-equipment"
 kind = "feat"
 title = "Greater Bless Equipment"
+aon = "FeatDisplay.aspx?ItemName=Greater%20Bless%20Equipment"
 source_ids = ["undead-slayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_bless_equipment", path = "json/feat07.json" },

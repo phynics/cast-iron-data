@@ -2,6 +2,7 @@
 id = "ref/feat/aural-insight"
 kind = "feat"
 title = "Aural Insight"
+aon = "FeatDisplay.aspx?ItemName=Aural%20Insight"
 source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aural_insight", path = "json/feat01.json" },

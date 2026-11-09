@@ -2,6 +2,7 @@
 id = "ref/arc-gunslinger/techslinger"
 kind = "archetype"
 title = "Techslinger"
+aon = "ArchetypeDisplay.aspx?FixedName=Gunslinger%20Techslinger"
 source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "techslinger", path = "json/archetypes_gunslinger.json" },

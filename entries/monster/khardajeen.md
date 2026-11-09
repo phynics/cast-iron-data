@@ -2,6 +2,7 @@
 id = "ref/monster/khardajeen"
 kind = "creature"
 title = "Khardajeen"
+aon = "MonsterDisplay.aspx?ItemName=Khardajeen"
 source_ids = ["pathfinder-118-siege-of-stone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "khardajeen", path = "json/monsters15.json" },

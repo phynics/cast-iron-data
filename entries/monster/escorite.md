@@ -2,6 +2,7 @@
 id = "ref/monster/escorite"
 kind = "creature"
 title = "Escorite"
+aon = "MonsterDisplay.aspx?ItemName=Escorite"
 source_ids = ["the-first-world-realm-of-the-fey"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "escorite", path = "json/monsters42.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/besmaras-strength"
 kind = "trait"
 title = "Besmara's Strength"
+aon = "TraitDisplay.aspx?ItemName=Besmara%27s%20Strength"
 source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "besmaras_strength", path = "json/traits03.json" },

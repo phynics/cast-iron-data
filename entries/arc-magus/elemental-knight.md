@@ -2,6 +2,7 @@
 id = "ref/arc-magus/elemental-knight"
 kind = "archetype"
 title = "Elemental Knight"
+aon = "ArchetypeDisplay.aspx?FixedName=Magus%20Elemental%20Knight"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_knight", path = "json/archetypes_magus.json" },

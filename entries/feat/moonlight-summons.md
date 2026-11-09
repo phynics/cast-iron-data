@@ -2,6 +2,7 @@
 id = "ref/feat/moonlight-summons"
 kind = "feat"
 title = "Moonlight Summons"
+aon = "FeatDisplay.aspx?ItemName=Moonlight%20Summons"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "moonlight_summons", path = "json/feat11.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-cleric/appeaser"
 kind = "archetype"
 title = "Appeaser"
+aon = "ArchetypeDisplay.aspx?FixedName=Cleric%20Appeaser"
 source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "appeaser", path = "json/archetypes_cleric.json" },

@@ -2,6 +2,7 @@
 id = "ref/magic-ring/nethysian-ring-of-minor-spell-storing"
 kind = "item"
 title = "Nethysian Ring of Minor Spell Storing"
+aon = "MagicRingsDisplay.aspx?FinalName=Nethysian%20Ring%20of%20Minor%20Spell%20Storing"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nethysian_ring_of_minor_spell_storing", path = "json/magic_ring.json" },

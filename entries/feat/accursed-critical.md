@@ -2,6 +2,7 @@
 id = "ref/feat/accursed-critical"
 kind = "feat"
 title = "Accursed Critical"
+aon = "FeatDisplay.aspx?ItemName=Accursed%20Critical"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "accursed_critical", path = "json/feat01.json" },

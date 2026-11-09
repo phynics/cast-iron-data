@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/cape-of-anchoring"
 kind = "item"
 title = "Cape of Anchoring"
+aon = "MagicCursedDisplay.aspx?ItemName=Cape%20of%20Anchoring"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cape_of_anchoring", path = "json/magic_wondrous_shoulders_wrists.json" },

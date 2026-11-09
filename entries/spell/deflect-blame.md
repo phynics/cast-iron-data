@@ -2,6 +2,7 @@
 id = "ref/spell/deflect-blame"
 kind = "spell"
 title = "Deflect Blame"
+aon = "SpellDisplay.aspx?ItemName=Deflect%20Blame"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deflect_blame", path = "json/spells3.json" },

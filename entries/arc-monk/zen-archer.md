@@ -2,6 +2,7 @@
 id = "ref/arc-monk/zen-archer"
 kind = "archetype"
 title = "Zen Archer"
+aon = "ArchetypeDisplay.aspx?FixedName=Monk%20Zen%20Archer"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "zen_archer", path = "json/archetypes_monk2.json" },

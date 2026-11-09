@@ -2,6 +2,7 @@
 id = "ref/spell/echeans-excellent-enclosure"
 kind = "spell"
 title = "Echean's Excellent Enclosure"
+aon = "SpellDisplay.aspx?ItemName=Echean%27s%20Excellent%20Enclosure"
 source_ids = ["rival-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "echeans_excellent_enclosure", path = "json/spells13.json" },

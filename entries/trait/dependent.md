@@ -2,6 +2,7 @@
 id = "ref/trait/dependent"
 kind = "trait"
 title = "Dependent"
+aon = "TraitDisplay.aspx?ItemName=Dependent"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dependent", path = "json/traits03.json" },

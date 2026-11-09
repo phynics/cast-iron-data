@@ -2,6 +2,7 @@
 id = "ref/trait/stargazer-region"
 kind = "trait"
 title = "Stargazer (Region)"
+aon = "TraitDisplay.aspx?ItemName=Stargazer%20%28Region%29"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stargazer_region", path = "json/traits04.json" },

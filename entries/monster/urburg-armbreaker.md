@@ -2,6 +2,7 @@
 id = "ref/monster/urburg-armbreaker"
 kind = "creature"
 title = "Urburg Armbreaker, Hill Giant Chieftain"
+aon = "MonsterDisplay.aspx?ItemName=Urburg%20Armbreaker%2C%20Hill%20Giant%20Chieftain"
 source_ids = ["giants-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "urburg_armbreaker", path = "json/monsters_unique4.json" },

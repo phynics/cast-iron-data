@@ -2,6 +2,7 @@
 id = "ref/trait/shoreline-skirmisher"
 kind = "trait"
 title = "Shoreline Skirmisher"
+aon = "TraitDisplay.aspx?ItemName=Shoreline%20Skirmisher"
 source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shoreline_skirmisher", path = "json/traits05.json" },

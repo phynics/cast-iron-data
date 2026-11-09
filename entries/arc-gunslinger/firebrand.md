@@ -2,6 +2,7 @@
 id = "ref/arc-gunslinger/firebrand"
 kind = "archetype"
 title = "Firebrand"
+aon = "ArchetypeDisplay.aspx?FixedName=Gunslinger%20Firebrand"
 source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "firebrand", path = "json/archetypes_gunslinger.json" },

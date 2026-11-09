@@ -2,6 +2,7 @@
 id = "ref/trait/chelish-guerrilla"
 kind = "trait"
 title = "Chelish Guerrilla"
+aon = "TraitDisplay.aspx?ItemName=Chelish%20Guerrilla"
 source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chelish_guerrilla", path = "json/traits04.json" },

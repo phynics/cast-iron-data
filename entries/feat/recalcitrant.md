@@ -2,6 +2,7 @@
 id = "ref/feat/recalcitrant"
 kind = "feat"
 title = "Recalcitrant"
+aon = "FeatDisplay.aspx?ItemName=Recalcitrant"
 source_ids = ["pathfinder-115-trail-of-the-hunted"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "recalcitrant", path = "json/feat13.json" },

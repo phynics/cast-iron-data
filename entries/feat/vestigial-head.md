@@ -2,6 +2,7 @@
 id = "ref/feat/vestigial-head"
 kind = "feat"
 title = "Vestigial Head"
+aon = "FeatDisplay.aspx?ItemName=Vestigial%20Head"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vestigial_head", path = "json/feat17.json" },

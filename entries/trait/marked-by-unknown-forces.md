@@ -2,6 +2,7 @@
 id = "ref/trait/marked-by-unknown-forces"
 kind = "trait"
 title = "Marked by Unknown Forces"
+aon = "TraitDisplay.aspx?ItemName=Marked%20by%20Unknown%20Forces"
 source_ids = ["bastards-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "marked_by_unknown_forces", path = "json/traits01.json" },

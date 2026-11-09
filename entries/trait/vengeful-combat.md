@@ -2,6 +2,7 @@
 id = "ref/trait/vengeful-combat"
 kind = "trait"
 title = "Vengeful (Combat)"
+aon = "TraitDisplay.aspx?ItemName=Vengeful%20%28Combat%29"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vengeful_combat", path = "json/traits01.json" },

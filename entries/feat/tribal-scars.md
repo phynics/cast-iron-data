@@ -2,6 +2,7 @@
 id = "ref/feat/tribal-scars"
 kind = "feat"
 title = "Tribal Scars"
+aon = "FeatDisplay.aspx?ItemName=Tribal%20Scars"
 source_ids = ["adventurers-guide", "people-of-the-north"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tribal_scars", path = "json/feat16.json" },

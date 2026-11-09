@@ -2,6 +2,7 @@
 id = "ref/spell/tracking-mark"
 kind = "spell"
 title = "Tracking Mark"
+aon = "SpellDisplay.aspx?ItemName=Tracking%20Mark"
 source_ids = ["inner-sea-gods", "pathfinder-32-rivers-run-red"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tracking_mark", path = "json/spells10.json" },

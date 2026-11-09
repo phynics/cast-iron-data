@@ -2,6 +2,7 @@
 id = "ref/spell/ghost-brand"
 kind = "spell"
 title = "Ghost Brand"
+aon = "SpellDisplay.aspx?ItemName=Ghost%20Brand"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghost_brand", path = "json/spells13.json" },

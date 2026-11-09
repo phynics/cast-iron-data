@@ -2,6 +2,7 @@
 id = "ref/trait/jadwiga-scion"
 kind = "trait"
 title = "Jadwiga Scion"
+aon = "TraitDisplay.aspx?ItemName=Jadwiga%20Scion"
 source_ids = ["people-of-the-north"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jadwiga_scion", path = "json/traits05.json" },

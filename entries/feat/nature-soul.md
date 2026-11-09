@@ -2,6 +2,7 @@
 id = "ref/feat/nature-soul"
 kind = "feat"
 title = "Nature Soul"
+aon = "FeatDisplay.aspx?ItemName=Nature%20Soul"
 source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nature_soul", path = "json/feat11.json" },

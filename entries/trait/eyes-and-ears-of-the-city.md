@@ -2,6 +2,7 @@
 id = "ref/trait/eyes-and-ears-of-the-city"
 kind = "trait"
 title = "Eyes and Ears of the City"
+aon = "TraitDisplay.aspx?ItemName=Eyes%20and%20Ears%20of%20the%20City"
 source_ids = ["ultimate-campaign", "advanced-players-guide", "legacy-of-fire-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eyes_and_ears_of_the_city", path = "json/traits03.json" },

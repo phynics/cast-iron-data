@@ -2,6 +2,7 @@
 id = "ref/carried/game-mastery-guide/monsters/frontier/trapper"
 kind = "creature"
 title = "Trapper"
+aon = "MonsterDisplay.aspx?ItemName=Trapper"
 source_ids = ["game-mastery-guide"]
 section = ["Monsters", "Frontier"]
 tags = ["humanoid", "npc", "medium"]

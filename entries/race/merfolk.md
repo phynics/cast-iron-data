@@ -2,6 +2,7 @@
 id = "ref/race/merfolk"
 kind = "race"
 title = "Merfolk"
+aon = "RacesDisplay.aspx?ItemName=Merfolk"
 source_ids = ["blood-of-the-sea", "inner-sea-races", "advanced-race-guide", "bestiary", "heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "merfolk", path = "json/races2.json" },

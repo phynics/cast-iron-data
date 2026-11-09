@@ -2,6 +2,7 @@
 id = "ref/spell/cold-iron-fetters"
 kind = "spell"
 title = "Cold Iron Fetters"
+aon = "SpellDisplay.aspx?ItemName=Cold%20Iron%20Fetters"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cold_iron_fetters", path = "json/spells2.json" },

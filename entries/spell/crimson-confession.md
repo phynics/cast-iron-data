@@ -2,6 +2,7 @@
 id = "ref/spell/crimson-confession"
 kind = "spell"
 title = "Crimson Confession"
+aon = "SpellDisplay.aspx?ItemName=Crimson%20Confession"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crimson_confession", path = "json/spells3.json" },

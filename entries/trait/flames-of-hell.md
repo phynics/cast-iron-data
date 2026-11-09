@@ -2,6 +2,7 @@
 id = "ref/trait/flames-of-hell"
 kind = "trait"
 title = "Flames of Hell"
+aon = "TraitDisplay.aspx?ItemName=Flames%20of%20Hell"
 source_ids = ["inner-sea-gods", "faiths-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flames_of_hell", path = "json/traits03.json" },

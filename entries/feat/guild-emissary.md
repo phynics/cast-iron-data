@@ -2,6 +2,7 @@
 id = "ref/feat/guild-emissary"
 kind = "feat"
 title = "Guild Emissary"
+aon = "FeatDisplay.aspx?ItemName=Guild%20Emissary"
 source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guild_emissary", path = "json/feat08.json" },

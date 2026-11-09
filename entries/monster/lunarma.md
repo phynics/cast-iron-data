@@ -2,6 +2,7 @@
 id = "ref/monster/lunarma"
 kind = "creature"
 title = "Lunarma"
+aon = "MonsterDisplay.aspx?ItemName=Lunarma"
 source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lunarma", path = "json/monsters16.json" },

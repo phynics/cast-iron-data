@@ -2,6 +2,7 @@
 id = "ref/trait/jungle-resilience"
 kind = "trait"
 title = "Jungle Resilience"
+aon = "TraitDisplay.aspx?ItemName=Jungle%20Resilience"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jungle_resilience", path = "json/traits04.json" },

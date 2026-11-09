@@ -2,6 +2,7 @@
 id = "ref/feat/mask-focus"
 kind = "feat"
 title = "Mask Focus"
+aon = "FeatDisplay.aspx?ItemName=Mask%20Focus"
 source_ids = ["adventurers-guide", "arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mask_focus", path = "json/feat10.json" },

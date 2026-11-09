@@ -2,6 +2,7 @@
 id = "ref/spell/furious-fire-barrage"
 kind = "spell"
 title = "Furious Fire Barrage"
+aon = "SpellDisplay.aspx?ItemName=Furious%20Fire%20Barrage"
 source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "furious_fire_barrage", path = "json/spells13.json" },

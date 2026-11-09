@@ -2,6 +2,7 @@
 id = "ref/spell/eroding-ray"
 kind = "spell"
 title = "Eroding Ray"
+aon = "SpellDisplay.aspx?ItemName=Eroding%20Ray"
 source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eroding_ray", path = "json/spells4.json" },

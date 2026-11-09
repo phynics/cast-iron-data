@@ -2,6 +2,7 @@
 id = "ref/feat/swamper"
 kind = "feat"
 title = "Swamper"
+aon = "FeatDisplay.aspx?ItemName=Swamper"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swamper", path = "json/feat15.json" },

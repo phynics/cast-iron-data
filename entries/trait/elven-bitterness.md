@@ -2,6 +2,7 @@
 id = "ref/trait/elven-bitterness"
 kind = "trait"
 title = "Elven Bitterness"
+aon = "TraitDisplay.aspx?ItemName=Elven%20Bitterness"
 source_ids = ["demon-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elven_bitterness", path = "json/traits04.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/good-hope"
 kind = "spell"
 title = "Good Hope"
+aon = "SpellDisplay.aspx?ItemName=Good%20Hope"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "good_hope", path = "json/spells5.json" },

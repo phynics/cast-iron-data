@@ -2,6 +2,7 @@
 id = "ref/spell/flesh-to-ooze"
 kind = "spell"
 title = "Flesh to Ooze"
+aon = "SpellDisplay.aspx?ItemName=Flesh%20to%20Ooze"
 source_ids = ["dungeon-denizens-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flesh_to_ooze", path = "json/spells4.json" },

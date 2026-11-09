@@ -2,6 +2,7 @@
 id = "ref/spell/glimpse-of-the-akashic"
 kind = "spell"
 title = "Glimpse of the Akashic"
+aon = "SpellDisplay.aspx?ItemName=Glimpse%20of%20the%20Akashic"
 source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "glimpse_of_the_akashic", path = "json/spells5.json" },

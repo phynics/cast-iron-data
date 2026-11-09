@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-seven-virtues"
 kind = "item"
 title = "Ring of Seven Virtues"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Seven%20Virtues"
 source_ids = ["pathfinder-39-the-city-of-seven-spears"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_seven_virtues", path = "json/magic_ring.json" },

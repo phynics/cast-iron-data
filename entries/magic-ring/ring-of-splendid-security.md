@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-splendid-security"
 kind = "item"
 title = "Ring of Splendid Security"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Splendid%20Security"
 source_ids = ["curse-of-the-crimson-throne", "pathfinder-12-crown-of-fangs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_splendid_security", path = "json/magic_ring.json" },

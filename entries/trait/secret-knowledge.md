@@ -2,6 +2,7 @@
 id = "ref/trait/secret-knowledge"
 kind = "trait"
 title = "Secret Knowledge"
+aon = "TraitDisplay.aspx?ItemName=Secret%20Knowledge"
 source_ids = ["inner-sea-gods", "faiths-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "secret_knowledge", path = "json/traits03.json" },

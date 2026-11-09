@@ -2,6 +2,7 @@
 id = "ref/feat/eclectic"
 kind = "feat"
 title = "Eclectic"
+aon = "FeatDisplay.aspx?ItemName=Eclectic"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eclectic", path = "json/feat05.json" },

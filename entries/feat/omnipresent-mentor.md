@@ -2,6 +2,7 @@
 id = "ref/feat/omnipresent-mentor"
 kind = "feat"
 title = "Omnipresent Mentor"
+aon = "FeatDisplay.aspx?ItemName=Omnipresent%20Mentor"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "omnipresent_mentor", path = "json/feat11.json" },

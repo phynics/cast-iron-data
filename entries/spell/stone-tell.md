@@ -2,6 +2,7 @@
 id = "ref/spell/stone-tell"
 kind = "spell"
 title = "Stone Tell"
+aon = "SpellDisplay.aspx?ItemName=Stone%20Tell"
 source_ids = ["core-rulebook", "elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stone_tell", path = "json/spells9.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/scion-of-the-nine-circles"
 kind = "trait"
 title = "Scion of the Nine Circles"
+aon = "TraitDisplay.aspx?ItemName=Scion%20of%20the%20Nine%20Circles"
 source_ids = ["hells-vengeance-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scion_of_the_nine_circles", path = "json/traits02.json" },

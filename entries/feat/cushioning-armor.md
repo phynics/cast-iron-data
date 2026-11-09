@@ -2,6 +2,7 @@
 id = "ref/feat/cushioning-armor"
 kind = "feat"
 title = "Cushioning Armor"
+aon = "FeatDisplay.aspx?ItemName=Cushioning%20Armor"
 source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cushioning_armor", path = "json/feat04.json" },

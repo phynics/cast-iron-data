@@ -2,6 +2,7 @@
 id = "ref/feat/improved-flexible-wizardry"
 kind = "feat"
 title = "Improved Flexible Wizardry"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Flexible%20Wizardry"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_flexible_wizardry", path = "json/feat09.json" },

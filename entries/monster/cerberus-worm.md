@@ -2,6 +2,7 @@
 id = "ref/monster/cerberus-worm"
 kind = "creature"
 title = "Cerberus Worm"
+aon = "MonsterDisplay.aspx?ItemName=Cerberus%20Worm"
 source_ids = ["cheliax-the-infernal-empire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cerberus_worm", path = "json/monsters28.json" },

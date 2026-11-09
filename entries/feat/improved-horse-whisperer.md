@@ -2,6 +2,7 @@
 id = "ref/feat/improved-horse-whisperer"
 kind = "feat"
 title = "Improved Horse Whisperer"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Horse%20Whisperer"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_horse_whisperer", path = "json/feat09.json" },

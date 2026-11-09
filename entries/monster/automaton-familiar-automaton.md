@@ -2,6 +2,7 @@
 id = "ref/monster/automaton-familiar-automaton"
 kind = "creature"
 title = "Familiar Automaton"
+aon = "MonsterDisplay.aspx?ItemName=Familiar%20Automaton"
 source_ids = ["construct-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "automaton_familiar_automaton", path = "json/monsters26.json" },

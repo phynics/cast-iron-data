@@ -2,6 +2,7 @@
 id = "ref/feat/body-mastery"
 kind = "feat"
 title = "Body Mastery"
+aon = "FeatDisplay.aspx?ItemName=Body%20Mastery"
 source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "body_mastery", path = "json/feat02.json" },

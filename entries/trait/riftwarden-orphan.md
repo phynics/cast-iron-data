@@ -2,6 +2,7 @@
 id = "ref/trait/riftwarden-orphan"
 kind = "trait"
 title = "Riftwarden Orphan"
+aon = "TraitDisplay.aspx?ItemName=Riftwarden%20Orphan"
 source_ids = ["wrath-of-the-righteous-players-guide", "demon-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "riftwarden_orphan", path = "json/traits03.json" },

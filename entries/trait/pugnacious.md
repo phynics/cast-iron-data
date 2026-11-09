@@ -2,6 +2,7 @@
 id = "ref/trait/pugnacious"
 kind = "trait"
 title = "Pugnacious"
+aon = "TraitDisplay.aspx?ItemName=Pugnacious"
 source_ids = ["strange-aeons-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pugnacious", path = "json/traits03.json" },

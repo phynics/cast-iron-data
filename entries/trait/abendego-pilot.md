@@ -2,6 +2,7 @@
 id = "ref/trait/abendego-pilot"
 kind = "trait"
 title = "Abendego Pilot"
+aon = "TraitDisplay.aspx?ItemName=Abendego%20Pilot"
 source_ids = ["blood-of-the-elements"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "abendego_pilot", path = "json/traits04.json" },

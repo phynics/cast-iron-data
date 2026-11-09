@@ -2,6 +2,7 @@
 id = "ref/feat/stock-striker-sweep"
 kind = "feat"
 title = "Stock-Striker Sweep"
+aon = "FeatDisplay.aspx?ItemName=Stock-Striker%20Sweep"
 source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stock_striker_sweep", path = "json/feat15.json" },

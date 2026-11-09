@@ -2,6 +2,7 @@
 id = "ref/feat/minor-miracle"
 kind = "feat"
 title = "Minor Miracle"
+aon = "FeatDisplay.aspx?ItemName=Minor%20Miracle"
 source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "minor_miracle", path = "json/feat10.json" },

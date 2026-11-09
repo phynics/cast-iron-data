@@ -2,6 +2,7 @@
 id = "ref/trait/overprotective"
 kind = "trait"
 title = "Overprotective"
+aon = "TraitDisplay.aspx?ItemName=Overprotective"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "overprotective", path = "json/traits03.json" },

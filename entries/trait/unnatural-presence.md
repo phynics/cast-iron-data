@@ -2,6 +2,7 @@
 id = "ref/trait/unnatural-presence"
 kind = "trait"
 title = "Unnatural Presence"
+aon = "TraitDisplay.aspx?ItemName=Unnatural%20Presence"
 source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unnatural_presence", path = "json/traits01.json" },

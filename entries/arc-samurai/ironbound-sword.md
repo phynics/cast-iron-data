@@ -2,6 +2,7 @@
 id = "ref/arc-samurai/ironbound-sword"
 kind = "archetype"
 title = "Ironbound Sword"
+aon = "ArchetypeDisplay.aspx?FixedName=Samurai%20Ironbound%20Sword"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ironbound_sword", path = "json/archetypes_samurai.json" },

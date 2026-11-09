@@ -2,6 +2,7 @@
 id = "ref/spell/hallucinatory-terrain"
 kind = "spell"
 title = "Hallucinatory Terrain"
+aon = "SpellDisplay.aspx?ItemName=Hallucinatory%20Terrain"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hallucinatory_terrain", path = "json/spells5.json" },

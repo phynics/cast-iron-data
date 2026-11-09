@@ -2,6 +2,7 @@
 id = "ref/spell/gullibility"
 kind = "spell"
 title = "Gullibility"
+aon = "SpellDisplay.aspx?ItemName=Gullibility"
 source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gullibility", path = "json/spells5.json" },

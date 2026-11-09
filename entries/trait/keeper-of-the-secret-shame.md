@@ -2,6 +2,7 @@
 id = "ref/trait/keeper-of-the-secret-shame"
 kind = "trait"
 title = "Keeper of the Secret Shame"
+aon = "TraitDisplay.aspx?ItemName=Keeper%20of%20the%20Secret%20Shame"
 source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "keeper_of_the_secret_shame", path = "json/traits05.json" },

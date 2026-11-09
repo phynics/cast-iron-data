@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/gauntlets-of-fumbling"
 kind = "item"
 title = "Gauntlets of Fumbling"
+aon = "MagicCursedDisplay.aspx?ItemName=Gauntlets%20of%20Fumbling"
 source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gauntlets_of_fumbling", path = "json/magic_wondrous_eyes_feet_hands.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/foretell-failure"
 kind = "spell"
 title = "Foretell Failure"
+aon = "SpellDisplay.aspx?ItemName=Foretell%20Failure"
 source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "foretell_failure", path = "json/spells13.json" },

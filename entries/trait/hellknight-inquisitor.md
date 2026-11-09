@@ -2,6 +2,7 @@
 id = "ref/trait/hellknight-inquisitor"
 kind = "trait"
 title = "Hellknight Inquisitor"
+aon = "TraitDisplay.aspx?ItemName=Hellknight%20Inquisitor"
 source_ids = ["path-of-the-hellknight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hellknight_inquisitor", path = "json/traits01.json" },

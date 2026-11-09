@@ -2,6 +2,7 @@
 id = "ref/monster/devil-bearded-devil-barbazu"
 kind = "creature"
 title = "Bearded Devil (Barbazu)"
+aon = "MonsterDisplay.aspx?ItemName=Bearded%20Devil%20%28Barbazu%29"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_bearded_devil_barbazu", path = "json/monsters07.json" },

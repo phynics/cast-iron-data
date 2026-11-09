@@ -2,6 +2,7 @@
 id = "ref/spell/influence-wild-magic"
 kind = "spell"
 title = "Influence Wild Magic"
+aon = "SpellDisplay.aspx?ItemName=Influence%20Wild%20Magic"
 source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "influence_wild_magic", path = "json/spells14.json" },

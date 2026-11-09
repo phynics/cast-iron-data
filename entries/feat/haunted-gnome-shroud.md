@@ -2,6 +2,7 @@
 id = "ref/feat/haunted-gnome-shroud"
 kind = "feat"
 title = "Haunted Gnome Shroud"
+aon = "FeatDisplay.aspx?ItemName=Haunted%20Gnome%20Shroud"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "haunted_gnome_shroud", path = "json/feat08.json" },

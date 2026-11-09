@@ -2,6 +2,7 @@
 id = "ref/feat/combat-rhythm"
 kind = "feat"
 title = "Combat Rhythm"
+aon = "FeatDisplay.aspx?ItemName=Combat%20Rhythm"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "combat_rhythm", path = "json/feat03.json" },

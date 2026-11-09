@@ -2,6 +2,7 @@
 id = "ref/spell/nightmare"
 kind = "spell"
 title = "Nightmare"
+aon = "SpellDisplay.aspx?ItemName=Nightmare"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nightmare", path = "json/spells7.json" },

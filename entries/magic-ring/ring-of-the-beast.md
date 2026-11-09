@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-the-beast"
 kind = "item"
 title = "Ring of the Beast"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20the%20Beast"
 source_ids = ["pathfinder-society-field-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_the_beast", path = "json/magic_ring.json" },

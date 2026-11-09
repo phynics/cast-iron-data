@@ -2,6 +2,7 @@
 id = "ref/spell/sacred-space"
 kind = "spell"
 title = "Sacred Space"
+aon = "SpellDisplay.aspx?ItemName=Sacred%20Space"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sacred_space", path = "json/spells8.json" },

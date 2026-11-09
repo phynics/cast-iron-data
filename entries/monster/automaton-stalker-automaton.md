@@ -2,6 +2,7 @@
 id = "ref/monster/automaton-stalker-automaton"
 kind = "creature"
 title = "Stalker Automaton"
+aon = "MonsterDisplay.aspx?ItemName=Stalker%20Automaton"
 source_ids = ["construct-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "automaton_stalker_automaton", path = "json/monsters26.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/shambler"
 kind = "spell"
 title = "Shambler"
+aon = "SpellDisplay.aspx?ItemName=Shambler"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shambler", path = "json/spells15.json" },

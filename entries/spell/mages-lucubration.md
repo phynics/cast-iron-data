@@ -2,6 +2,7 @@
 id = "ref/spell/mages-lucubration"
 kind = "spell"
 title = "Mage's Lucubration"
+aon = "SpellDisplay.aspx?ItemName=Mage%27s%20Lucubration"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mages_lucubration", path = "json/spells6.json" },

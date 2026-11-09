@@ -2,6 +2,7 @@
 id = "ref/trait/king-in-waiting"
 kind = "trait"
 title = "King in Waiting"
+aon = "TraitDisplay.aspx?ItemName=King%20in%20Waiting"
 source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "king_in_waiting", path = "json/traits01.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/fortified-armor-training"
 kind = "feat"
 title = "Fortified Armor Training"
+aon = "FeatDisplay.aspx?ItemName=Fortified%20Armor%20Training"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fortified_armor_training", path = "json/feat07.json" },

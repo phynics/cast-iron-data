@@ -2,6 +2,7 @@
 id = "ref/spell/vigilant-rest"
 kind = "spell"
 title = "Vigilant Rest"
+aon = "SpellDisplay.aspx?ItemName=Vigilant%20Rest"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vigilant_rest", path = "json/spells11.json" },

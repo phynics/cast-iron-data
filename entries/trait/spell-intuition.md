@@ -2,6 +2,7 @@
 id = "ref/trait/spell-intuition"
 kind = "trait"
 title = "Spell Intuition"
+aon = "TraitDisplay.aspx?ItemName=Spell%20Intuition"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_intuition", path = "json/traits01.json" },

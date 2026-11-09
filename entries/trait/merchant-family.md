@@ -2,6 +2,7 @@
 id = "ref/trait/merchant-family"
 kind = "trait"
 title = "Merchant Family"
+aon = "TraitDisplay.aspx?ItemName=Merchant%20Family"
 source_ids = ["rise-of-the-runelords-anniversary-edition-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "merchant_family", path = "json/traits02.json" },

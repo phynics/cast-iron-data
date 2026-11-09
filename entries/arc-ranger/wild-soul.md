@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/wild-soul"
 kind = "archetype"
 title = "Wild Soul"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Wild%20Soul"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wild_soul", path = "json/archetypes_ranger.json" },

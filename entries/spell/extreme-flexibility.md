@@ -2,6 +2,7 @@
 id = "ref/spell/extreme-flexibility"
 kind = "spell"
 title = "Extreme Flexibility"
+aon = "SpellDisplay.aspx?ItemName=Extreme%20Flexibility"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extreme_flexibility", path = "json/spells4.json" },

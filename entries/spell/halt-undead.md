@@ -2,6 +2,7 @@
 id = "ref/spell/halt-undead"
 kind = "spell"
 title = "Halt Undead"
+aon = "SpellDisplay.aspx?ItemName=Halt%20Undead"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "halt_undead", path = "json/spells5.json" },

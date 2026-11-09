@@ -2,6 +2,7 @@
 id = "ref/spell/scent-trail"
 kind = "spell"
 title = "Scent Trail"
+aon = "SpellDisplay.aspx?ItemName=Scent%20Trail"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scent_trail", path = "json/spells8.json" },

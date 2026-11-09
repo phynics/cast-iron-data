@@ -2,6 +2,7 @@
 id = "ref/trait/keleshite-trader"
 kind = "trait"
 title = "Keleshite Trader"
+aon = "TraitDisplay.aspx?ItemName=Keleshite%20Trader"
 source_ids = ["qadira-jewel-of-the-east"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "keleshite_trader", path = "json/traits04.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/perfect-casting"
 kind = "feat"
 title = "Perfect Casting"
+aon = "FeatDisplay.aspx?ItemName=Perfect%20Casting"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "perfect_casting", path = "json/feat12.json" },

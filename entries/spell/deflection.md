@@ -2,6 +2,7 @@
 id = "ref/spell/deflection"
 kind = "spell"
 title = "Deflection"
+aon = "SpellDisplay.aspx?ItemName=Deflection"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deflection", path = "json/spells3.json" },

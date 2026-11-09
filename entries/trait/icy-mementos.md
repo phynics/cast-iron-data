@@ -2,6 +2,7 @@
 id = "ref/trait/icy-mementos"
 kind = "trait"
 title = "Icy Mementos"
+aon = "TraitDisplay.aspx?ItemName=Icy%20Mementos"
 source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "icy_mementos", path = "json/traits05.json" },

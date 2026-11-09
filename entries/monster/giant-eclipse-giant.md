@@ -2,6 +2,7 @@
 id = "ref/monster/giant-eclipse-giant"
 kind = "creature"
 title = "Eclipse Giant"
+aon = "MonsterDisplay.aspx?ItemName=Eclipse%20Giant"
 source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_eclipse_giant", path = "json/monsters32.json" },

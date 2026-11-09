@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/tome-of-heretical-revelation"
 kind = "item"
 title = "Tome of Heretical Revelation"
+aon = "MagicCursedDisplay.aspx?ItemName=Tome%20of%20Heretical%20Revelation"
 source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tome_of_heretical_revelation", path = "json/magic_wondrous_slotless06.json" },

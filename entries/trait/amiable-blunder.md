@@ -2,6 +2,7 @@
 id = "ref/trait/amiable-blunder"
 kind = "trait"
 title = "Amiable Blunder"
+aon = "TraitDisplay.aspx?ItemName=Amiable%20Blunder"
 source_ids = ["champions-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "amiable_blunder", path = "json/traits01.json" },

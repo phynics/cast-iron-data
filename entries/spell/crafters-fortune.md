@@ -2,6 +2,7 @@
 id = "ref/spell/crafters-fortune"
 kind = "spell"
 title = "Crafter's Fortune"
+aon = "SpellDisplay.aspx?ItemName=Crafter%27s%20Fortune"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crafters_fortune", path = "json/spells12.json" },

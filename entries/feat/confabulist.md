@@ -2,6 +2,7 @@
 id = "ref/feat/confabulist"
 kind = "feat"
 title = "Confabulist"
+aon = "FeatDisplay.aspx?ItemName=Confabulist"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "confabulist", path = "json/feat03.json" },

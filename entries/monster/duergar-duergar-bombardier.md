@@ -2,6 +2,7 @@
 id = "ref/monster/duergar-duergar-bombardier"
 kind = "creature"
 title = "Duergar Bombardier"
+aon = "MonsterDisplay.aspx?ItemName=Duergar%20Bombardier"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "duergar_duergar_bombardier", path = "json/monsters08.json" },

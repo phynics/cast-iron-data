@@ -2,6 +2,7 @@
 id = "ref/trait/friend-of-the-family"
 kind = "trait"
 title = "Friend of the Family"
+aon = "TraitDisplay.aspx?ItemName=Friend%20of%20the%20Family"
 source_ids = ["jade-regent-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "friend_of_the_family", path = "json/traits02.json" },

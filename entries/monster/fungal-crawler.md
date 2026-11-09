@@ -2,6 +2,7 @@
 id = "ref/monster/fungal-crawler"
 kind = "creature"
 title = "Fungal Crawler"
+aon = "MonsterDisplay.aspx?ItemName=Fungal%20Crawler"
 source_ids = ["bestiary-2", "pathfinder-13-shadow-in-the-sky"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fungal_crawler", path = "json/monsters42.json" },

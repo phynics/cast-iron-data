@@ -2,6 +2,7 @@
 id = "ref/spell/shrink-item"
 kind = "spell"
 title = "Shrink Item"
+aon = "SpellDisplay.aspx?ItemName=Shrink%20Item"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shrink_item", path = "json/spells9.json" },

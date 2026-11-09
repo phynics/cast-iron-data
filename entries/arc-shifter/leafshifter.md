@@ -2,6 +2,7 @@
 id = "ref/arc-shifter/leafshifter"
 kind = "archetype"
 title = "Leafshifter"
+aon = "ArchetypeDisplay.aspx?FixedName=Shifter%20Leafshifter"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "leafshifter", path = "json/archetypes_shifter.json" },

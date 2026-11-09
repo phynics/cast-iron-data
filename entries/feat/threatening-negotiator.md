@@ -2,6 +2,7 @@
 id = "ref/feat/threatening-negotiator"
 kind = "feat"
 title = "Threatening Negotiator"
+aon = "FeatDisplay.aspx?ItemName=Threatening%20Negotiator"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "threatening_negotiator", path = "json/feat16.json" },

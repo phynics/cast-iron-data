@@ -2,6 +2,7 @@
 id = "ref/arc-swashbuckler/dashing-thief"
 kind = "archetype"
 title = "Dashing Thief"
+aon = "ArchetypeDisplay.aspx?FixedName=Swashbuckler%20Dashing%20Thief"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dashing_thief", path = "json/archetypes_swashbuckler.json" },

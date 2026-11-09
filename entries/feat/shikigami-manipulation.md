@@ -2,6 +2,7 @@
 id = "ref/feat/shikigami-manipulation"
 kind = "feat"
 title = "Shikigami Manipulation"
+aon = "FeatDisplay.aspx?ItemName=Shikigami%20Manipulation"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shikigami_manipulation", path = "json/feat14.json" },

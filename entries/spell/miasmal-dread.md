@@ -2,6 +2,7 @@
 id = "ref/spell/miasmal-dread"
 kind = "spell"
 title = "Miasmal Dread"
+aon = "SpellDisplay.aspx?ItemName=Miasmal%20Dread"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "miasmal_dread", path = "json/spells14.json" },

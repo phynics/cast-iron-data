@@ -2,6 +2,7 @@
 id = "ref/trait/world-weary"
 kind = "trait"
 title = "World-Weary"
+aon = "TraitDisplay.aspx?ItemName=World-Weary"
 source_ids = ["ironfang-invasion-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "world_weary", path = "json/traits02.json" },

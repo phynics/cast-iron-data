@@ -2,6 +2,7 @@
 id = "ref/spell/sickening-strikes"
 kind = "spell"
 title = "Sickening Strikes"
+aon = "SpellDisplay.aspx?ItemName=Sickening%20Strikes"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sickening_strikes", path = "json/spells9.json" },

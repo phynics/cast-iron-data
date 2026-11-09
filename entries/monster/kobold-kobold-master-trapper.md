@@ -2,6 +2,7 @@
 id = "ref/monster/kobold-kobold-master-trapper"
 kind = "creature"
 title = "Kobold Master Trapper"
+aon = "MonsterDisplay.aspx?ItemName=Kobold%20Master%20Trapper"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kobold_kobold_master_trapper", path = "json/monsters15.json" },

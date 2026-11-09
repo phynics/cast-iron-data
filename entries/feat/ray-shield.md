@@ -2,6 +2,7 @@
 id = "ref/feat/ray-shield"
 kind = "feat"
 title = "Ray Shield"
+aon = "FeatDisplay.aspx?ItemName=Ray%20Shield"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ray_shield", path = "json/feat13.json" },

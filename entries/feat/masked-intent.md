@@ -2,6 +2,7 @@
 id = "ref/feat/masked-intent"
 kind = "feat"
 title = "Masked Intent"
+aon = "FeatDisplay.aspx?ItemName=Masked%20Intent"
 source_ids = ["adventurers-guide", "arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "masked_intent", path = "json/feat10.json" },

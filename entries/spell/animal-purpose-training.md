@@ -2,6 +2,7 @@
 id = "ref/spell/animal-purpose-training"
 kind = "spell"
 title = "Animal Purpose Training"
+aon = "SpellDisplay.aspx?ItemName=Animal%20Purpose%20Training"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animal_purpose_training", path = "json/spells.json" },

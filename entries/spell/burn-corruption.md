@@ -2,6 +2,7 @@
 id = "ref/spell/burn-corruption"
 kind = "spell"
 title = "Burn Corruption"
+aon = "SpellDisplay.aspx?ItemName=Burn%20Corruption"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burn_corruption", path = "json/spells2.json" },

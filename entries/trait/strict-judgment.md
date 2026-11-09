@@ -2,6 +2,7 @@
 id = "ref/trait/strict-judgment"
 kind = "trait"
 title = "Strict Judgment"
+aon = "TraitDisplay.aspx?ItemName=Strict%20Judgment"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "strict_judgment", path = "json/traits03.json" },

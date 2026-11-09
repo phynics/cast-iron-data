@@ -2,6 +2,7 @@
 id = "ref/spell/nine-lives"
 kind = "spell"
 title = "Nine Lives"
+aon = "SpellDisplay.aspx?ItemName=Nine%20Lives"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nine_lives", path = "json/spells7.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/caulborn-caulborn-thoughtkeeper"
 kind = "creature"
 title = "Caulborn Thoughtkeeper"
+aon = "MonsterDisplay.aspx?ItemName=Caulborn%20Thoughtkeeper"
 source_ids = ["occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "caulborn_caulborn_thoughtkeeper", path = "json/monsters04.json" },

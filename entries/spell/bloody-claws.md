@@ -2,6 +2,7 @@
 id = "ref/spell/bloody-claws"
 kind = "spell"
 title = "Bloody Claws"
+aon = "SpellDisplay.aspx?ItemName=Bloody%20Claws"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloody_claws", path = "json/spells2.json" },

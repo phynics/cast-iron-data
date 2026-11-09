@@ -2,6 +2,7 @@
 id = "ref/monster/star-vampire"
 kind = "creature"
 title = "Star Vampire"
+aon = "MonsterDisplay.aspx?ItemName=Star%20Vampire"
 source_ids = ["pathfinder-110-the-thrushmoor-terror"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "star_vampire", path = "json/monsters38.json" },

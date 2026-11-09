@@ -2,6 +2,7 @@
 id = "ref/trait/shadow-whispers"
 kind = "trait"
 title = "Shadow Whispers"
+aon = "TraitDisplay.aspx?ItemName=Shadow%20Whispers"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_whispers", path = "json/traits03.json" },

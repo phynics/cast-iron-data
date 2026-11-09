@@ -2,6 +2,7 @@
 id = "ref/spell/lightfingers"
 kind = "spell"
 title = "Lightfingers"
+aon = "SpellDisplay.aspx?ItemName=Lightfingers"
 source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lightfingers", path = "json/spells6.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-druid/pack-lord"
 kind = "archetype"
 title = "Pack Lord"
+aon = "ArchetypeDisplay.aspx?FixedName=Druid%20Pack%20Lord"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pack_lord", path = "json/archetypes_druid2.json" },

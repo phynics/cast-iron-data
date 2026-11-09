@@ -2,6 +2,7 @@
 id = "ref/monster/satyr-blackwood-satyr"
 kind = "creature"
 title = "Blackwood Satyr"
+aon = "MonsterDisplay.aspx?ItemName=Blackwood%20Satyr"
 source_ids = ["fey-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "satyr_blackwood_satyr", path = "json/monsters21.json" },

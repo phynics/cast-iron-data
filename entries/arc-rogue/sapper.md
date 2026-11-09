@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/sapper"
 kind = "archetype"
 title = "Sapper"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Sapper"
 source_ids = ["dungeoneers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sapper", path = "json/archetypes_rogue.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/heirloom-weapon"
 kind = "trait"
 title = "Heirloom Weapon"
+aon = "TraitDisplay.aspx?ItemName=Heirloom%20Weapon"
 source_ids = ["adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heirloom_weapon", path = "json/traits03.json" },

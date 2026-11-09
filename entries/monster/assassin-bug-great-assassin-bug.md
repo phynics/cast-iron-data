@@ -2,6 +2,7 @@
 id = "ref/monster/assassin-bug-great-assassin-bug"
 kind = "creature"
 title = "Great Assassin Bug"
+aon = "MonsterDisplay.aspx?ItemName=Great%20Assassin%20Bug"
 source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "assassin_bug_great_assassin_bug", path = "json/monsters02.json" },

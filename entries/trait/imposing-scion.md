@@ -2,6 +2,7 @@
 id = "ref/trait/imposing-scion"
 kind = "trait"
 title = "Imposing Scion"
+aon = "TraitDisplay.aspx?ItemName=Imposing%20Scion"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "imposing_scion", path = "json/traits01.json" },

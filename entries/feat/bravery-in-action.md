@@ -2,6 +2,7 @@
 id = "ref/feat/bravery-in-action"
 kind = "feat"
 title = "Bravery in Action"
+aon = "FeatDisplay.aspx?ItemName=Bravery%20in%20Action"
 source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bravery_in_action", path = "json/feat02.json" },

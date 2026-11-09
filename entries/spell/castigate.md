@@ -2,6 +2,7 @@
 id = "ref/spell/castigate"
 kind = "spell"
 title = "Castigate"
+aon = "SpellDisplay.aspx?ItemName=Castigate"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "castigate", path = "json/spells2.json" },

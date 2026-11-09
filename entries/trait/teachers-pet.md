@@ -2,6 +2,7 @@
 id = "ref/trait/teachers-pet"
 kind = "trait"
 title = "Teacher's Pet"
+aon = "TraitDisplay.aspx?ItemName=Teacher%27s%20Pet"
 source_ids = ["carrion-crown-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "teachers_pet", path = "json/traits02.json" },

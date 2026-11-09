@@ -2,6 +2,7 @@
 id = "ref/feat/quick-draw"
 kind = "feat"
 title = "Quick Draw"
+aon = "FeatDisplay.aspx?ItemName=Quick%20Draw"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quick_draw", path = "json/feat12.json" },

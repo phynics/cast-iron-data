@@ -2,6 +2,7 @@
 id = "ref/feat/human-guise"
 kind = "feat"
 title = "Human Guise"
+aon = "FeatDisplay.aspx?ItemName=Human%20Guise"
 source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "human_guise", path = "json/feat08.json" },

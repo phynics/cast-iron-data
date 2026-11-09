@@ -2,6 +2,7 @@
 id = "ref/trait/stowaway"
 kind = "trait"
 title = "Stowaway"
+aon = "TraitDisplay.aspx?ItemName=Stowaway"
 source_ids = ["serpents-skull-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stowaway", path = "json/traits02.json" },

@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-entropy-and-order"
 kind = "item"
 title = "Ring of Entropy and Order"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Entropy%20and%20Order"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_entropy_and_order", path = "json/magic_ring.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/fey-obedience"
 kind = "feat"
 title = "Fey Obedience"
+aon = "FeatDisplay.aspx?ItemName=Fey%20Obedience"
 source_ids = ["the-first-world-realm-of-the-fey"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fey_obedience", path = "json/feat07.json" },

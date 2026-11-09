@@ -2,6 +2,7 @@
 id = "ref/trait/prideful-temper"
 kind = "trait"
 title = "Prideful Temper"
+aon = "TraitDisplay.aspx?ItemName=Prideful%20Temper"
 source_ids = ["blood-of-fiends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prideful_temper", path = "json/traits05.json" },

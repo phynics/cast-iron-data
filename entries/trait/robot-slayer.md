@@ -2,6 +2,7 @@
 id = "ref/trait/robot-slayer"
 kind = "trait"
 title = "Robot Slayer"
+aon = "TraitDisplay.aspx?ItemName=Robot%20Slayer"
 source_ids = ["iron-gods-players-guide", "people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "robot_slayer", path = "json/traits02.json" },

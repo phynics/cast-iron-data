@@ -2,6 +2,7 @@
 id = "ref/monster/bee-man-of-bellis"
 kind = "creature"
 title = "Bee-Man of Bellis"
+aon = "MonsterDisplay.aspx?ItemName=Bee-Man%20of%20Bellis"
 source_ids = ["andoran-birthplace-of-freedom"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bee_man_of_bellis", path = "json/monsters_unique.json" },

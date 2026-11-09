@@ -2,6 +2,7 @@
 id = "ref/trait/carnation-scales"
 kind = "trait"
 title = "Carnation Scales"
+aon = "TraitDisplay.aspx?ItemName=Carnation%20Scales"
 source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "carnation_scales", path = "json/traits05.json" },

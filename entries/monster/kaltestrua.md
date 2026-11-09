@@ -2,6 +2,7 @@
 id = "ref/monster/kaltestrua"
 kind = "creature"
 title = "Kaltestrua, Governess of Casnoriva"
+aon = "MonsterDisplay.aspx?ItemName=Kaltestrua%2C%20Governess%20of%20Casnoriva"
 source_ids = ["demons-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kaltestrua", path = "json/monsters_unique4.json" },

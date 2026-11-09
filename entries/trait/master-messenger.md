@@ -2,6 +2,7 @@
 id = "ref/trait/master-messenger"
 kind = "trait"
 title = "Master Messenger"
+aon = "TraitDisplay.aspx?ItemName=Master%20Messenger"
 source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "master_messenger", path = "json/traits01.json" },

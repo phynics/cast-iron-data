@@ -2,6 +2,7 @@
 id = "ref/feat/improved-bull-rush/teitr"
 kind = "feat"
 title = "Improved Bull Rush"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Bull%20Rush"
 source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/improved-bull-rush", label = "removed" },

@@ -2,6 +2,7 @@
 id = "ref/arc-vigilante/darklantern"
 kind = "archetype"
 title = "Darklantern"
+aon = "ArchetypeDisplay.aspx?FixedName=Vigilante%20Darklantern"
 source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "darklantern", path = "json/archetypes_vigilante.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/reduce-person"
 kind = "spell"
 title = "Reduce Person"
+aon = "SpellDisplay.aspx?ItemName=Reduce%20Person"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reduce_person", path = "json/spells8.json" },

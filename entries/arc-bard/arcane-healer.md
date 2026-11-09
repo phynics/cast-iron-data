@@ -2,6 +2,7 @@
 id = "ref/arc-bard/arcane-healer"
 kind = "archetype"
 title = "Arcane Healer"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Arcane%20Healer"
 source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcane_healer", path = "json/archetypes_bard.json" },

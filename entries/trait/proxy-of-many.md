@@ -2,6 +2,7 @@
 id = "ref/trait/proxy-of-many"
 kind = "trait"
 title = "Proxy of Many"
+aon = "TraitDisplay.aspx?ItemName=Proxy%20of%20Many"
 source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "proxy_of_many", path = "json/traits01.json" },

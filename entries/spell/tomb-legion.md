@@ -2,6 +2,7 @@
 id = "ref/spell/tomb-legion"
 kind = "spell"
 title = "Tomb Legion"
+aon = "SpellDisplay.aspx?ItemName=Tomb%20Legion"
 source_ids = ["faction-guide", "osirion-land-of-the-pharaohs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tomb_legion", path = "json/spells10.json" },

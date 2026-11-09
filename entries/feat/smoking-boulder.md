@@ -2,6 +2,7 @@
 id = "ref/feat/smoking-boulder"
 kind = "feat"
 title = "Smoking Boulder"
+aon = "FeatDisplay.aspx?ItemName=Smoking%20Boulder"
 source_ids = ["monster-codex", "giants-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "smoking_boulder", path = "json/feat14.json" },

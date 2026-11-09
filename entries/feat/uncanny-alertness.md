@@ -2,6 +2,7 @@
 id = "ref/feat/uncanny-alertness"
 kind = "feat"
 title = "Uncanny Alertness"
+aon = "FeatDisplay.aspx?ItemName=Uncanny%20Alertness"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "uncanny_alertness", path = "json/feat16.json" },

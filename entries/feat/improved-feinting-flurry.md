@@ -2,6 +2,7 @@
 id = "ref/feat/improved-feinting-flurry"
 kind = "feat"
 title = "Improved Feinting Flurry"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Feinting%20Flurry"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_feinting_flurry", path = "json/feat09.json" },

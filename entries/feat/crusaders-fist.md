@@ -2,6 +2,7 @@
 id = "ref/feat/crusaders-fist"
 kind = "feat"
 title = "Crusader's Fist"
+aon = "FeatDisplay.aspx?ItemName=Crusader%27s%20Fist"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crusaders_fist", path = "json/feat04.json" },

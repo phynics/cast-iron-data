@@ -2,6 +2,7 @@
 id = "ref/spell/animal-growth"
 kind = "spell"
 title = "Animal Growth"
+aon = "SpellDisplay.aspx?ItemName=Animal%20Growth"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animal_growth", path = "json/spells.json" },

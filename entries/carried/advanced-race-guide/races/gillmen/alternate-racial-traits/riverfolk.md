@@ -2,6 +2,7 @@
 id = "ref/carried/advanced-race-guide/races/gillmen/alternate-racial-traits/riverfolk"
 kind = "racial_trait"
 title = "Riverfolk"
+aon = "TraitDisplay.aspx?ItemName=Riverfolk"
 source_ids = ["advanced-race-guide"]
 section = ["Races", "Gillmen", "Alternate Racial Traits"]
 tags = ["alternate", "gillman"]

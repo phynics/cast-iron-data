@@ -2,6 +2,7 @@
 id = "ref/feat/trap-wrecker"
 kind = "feat"
 title = "Trap Wrecker"
+aon = "FeatDisplay.aspx?ItemName=Trap%20Wrecker"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trap_wrecker", path = "json/feat16.json" },

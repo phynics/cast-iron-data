@@ -2,6 +2,7 @@
 id = "ref/feat/calm-disposition"
 kind = "feat"
 title = "Calm Disposition"
+aon = "FeatDisplay.aspx?ItemName=Calm%20Disposition"
 source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "calm_disposition", path = "json/feat02.json" },

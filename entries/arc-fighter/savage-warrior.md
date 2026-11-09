@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/savage-warrior"
 kind = "archetype"
 title = "Savage Warrior"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Savage%20Warrior"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "savage_warrior", path = "json/archetypes_fighter2.json" },

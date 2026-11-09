@@ -2,6 +2,7 @@
 id = "ref/feat/orc-weapon-expertise"
 kind = "feat"
 title = "Orc Weapon Expertise"
+aon = "FeatDisplay.aspx?ItemName=Orc%20Weapon%20Expertise"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "orc_weapon_expertise", path = "json/feat11.json" },

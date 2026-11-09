@@ -2,6 +2,7 @@
 id = "ref/trait/artifact-hunter-gs"
 kind = "trait"
 title = "Artifact Hunter (GS)"
+aon = "TraitDisplay.aspx?ItemName=Artifact%20Hunter%20%28GS%29"
 source_ids = ["giantslayer-players-guide", "giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "artifact_hunter_gs", path = "json/traits02.json" },

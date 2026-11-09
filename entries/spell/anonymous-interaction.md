@@ -2,6 +2,7 @@
 id = "ref/spell/anonymous-interaction"
 kind = "spell"
 title = "Anonymous Interaction"
+aon = "SpellDisplay.aspx?ItemName=Anonymous%20Interaction"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "anonymous_interaction", path = "json/spells.json" },

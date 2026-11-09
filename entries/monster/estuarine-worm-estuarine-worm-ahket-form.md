@@ -2,6 +2,7 @@
 id = "ref/monster/estuarine-worm-estuarine-worm-ahket-form"
 kind = "creature"
 title = "Estuarine Worm (Ahket Form)"
+aon = "MonsterDisplay.aspx?ItemName=Estuarine%20Worm%20%28Ahket%20Form%29"
 source_ids = ["pathfinder-82-secrets-of-the-sphinx"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "estuarine_worm_estuarine_worm_ahket_form", path = "json/monsters42.json" },

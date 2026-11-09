@@ -2,6 +2,7 @@
 id = "ref/feat/slayers-knack"
 kind = "feat"
 title = "Slayer's Knack"
+aon = "FeatDisplay.aspx?ItemName=Slayer%27s%20Knack"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slayers_knack", path = "json/feat14.json" },

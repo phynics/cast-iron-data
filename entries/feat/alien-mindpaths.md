@@ -2,6 +2,7 @@
 id = "ref/feat/alien-mindpaths"
 kind = "feat"
 title = "Alien Mindpaths"
+aon = "FeatDisplay.aspx?ItemName=Alien%20Mindpaths"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alien_mindpaths", path = "json/feat01.json" },

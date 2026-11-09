@@ -2,6 +2,7 @@
 id = "ref/trait/mathematical-prodigy"
 kind = "trait"
 title = "Mathematical Prodigy"
+aon = "TraitDisplay.aspx?ItemName=Mathematical%20Prodigy"
 source_ids = ["ultimate-campaign", "advanced-players-guide", "second-darkness-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mathematical_prodigy", path = "json/traits02.json" },

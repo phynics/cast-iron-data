@@ -2,6 +2,7 @@
 id = "ref/monster/eaisge"
 kind = "creature"
 title = "Eaisge"
+aon = "MonsterDisplay.aspx?ItemName=Eaisge"
 source_ids = ["ire-of-the-storm"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eaisge", path = "json/monsters09.json" },

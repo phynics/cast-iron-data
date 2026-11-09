@@ -2,6 +2,7 @@
 id = "ref/feat/razortusk"
 kind = "feat"
 title = "Razortusk"
+aon = "FeatDisplay.aspx?ItemName=Razortusk"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "razortusk", path = "json/feat13.json" },

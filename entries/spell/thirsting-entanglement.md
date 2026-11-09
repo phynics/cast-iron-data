@@ -2,6 +2,7 @@
 id = "ref/spell/thirsting-entanglement"
 kind = "spell"
 title = "Thirsting Entanglement"
+aon = "SpellDisplay.aspx?ItemName=Thirsting%20Entanglement"
 source_ids = ["core-rulebook", "villain-codex", "advanced-class-guide", "legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thirsting_entanglement", path = "json/spells4.json" },

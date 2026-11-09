@@ -2,6 +2,7 @@
 id = "ref/feat/twilight-words"
 kind = "feat"
 title = "Twilight Words"
+aon = "FeatDisplay.aspx?ItemName=Twilight%20Words"
 source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "twilight_words", path = "json/feat16.json" },

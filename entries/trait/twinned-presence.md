@@ -2,6 +2,7 @@
 id = "ref/trait/twinned-presence"
 kind = "trait"
 title = "Twinned Presence"
+aon = "TraitDisplay.aspx?ItemName=Twinned%20Presence"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "twinned_presence", path = "json/traits02.json" },

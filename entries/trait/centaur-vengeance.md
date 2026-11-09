@@ -2,6 +2,7 @@
 id = "ref/trait/centaur-vengeance"
 kind = "trait"
 title = "Centaur Vengeance"
+aon = "TraitDisplay.aspx?ItemName=Centaur%20Vengeance"
 source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "centaur_vengeance", path = "json/traits04.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/covert-channeler"
 kind = "trait"
 title = "Covert Channeler"
+aon = "TraitDisplay.aspx?ItemName=Covert%20Channeler"
 source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "covert_channeler", path = "json/traits01.json" },

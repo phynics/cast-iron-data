@@ -2,6 +2,7 @@
 id = "ref/feat/elemental-ki"
 kind = "feat"
 title = "Elemental Ki"
+aon = "FeatDisplay.aspx?ItemName=Elemental%20Ki"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_ki", path = "json/feat05.json" },

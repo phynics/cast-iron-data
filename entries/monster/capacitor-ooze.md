@@ -2,6 +2,7 @@
 id = "ref/monster/capacitor-ooze"
 kind = "creature"
 title = "Capacitor Ooze"
+aon = "MonsterDisplay.aspx?ItemName=Capacitor%20Ooze"
 source_ids = ["numeria-land-of-fallen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "capacitor_ooze", path = "json/monsters04.json" },

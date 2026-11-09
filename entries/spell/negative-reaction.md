@@ -2,6 +2,7 @@
 id = "ref/spell/negative-reaction"
 kind = "spell"
 title = "Negative Reaction"
+aon = "SpellDisplay.aspx?ItemName=Negative%20Reaction"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "negative_reaction", path = "json/spells7.json" },

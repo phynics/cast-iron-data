@@ -2,6 +2,7 @@
 id = "ref/pclass/ashavic-dancer"
 kind = "prestige_class"
 title = "Ashavic Dancer"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Ashavic%20Dancer"
 source_ids = ["paths-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ashavic_dancer", path = "json/prestige_classes.json" },

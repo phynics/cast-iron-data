@@ -2,6 +2,7 @@
 id = "ref/feat/gruesome-slaughter"
 kind = "feat"
 title = "Gruesome Slaughter"
+aon = "FeatDisplay.aspx?ItemName=Gruesome%20Slaughter"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gruesome_slaughter", path = "json/feat08.json" },

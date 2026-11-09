@@ -2,6 +2,7 @@
 id = "ref/feat/cosmic-gate"
 kind = "feat"
 title = "Cosmic Gate"
+aon = "FeatDisplay.aspx?ItemName=Cosmic%20Gate"
 source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cosmic_gate", path = "json/feat03.json" },

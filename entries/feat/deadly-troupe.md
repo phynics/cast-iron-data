@@ -2,6 +2,7 @@
 id = "ref/feat/deadly-troupe"
 kind = "feat"
 title = "Deadly Troupe"
+aon = "FeatDisplay.aspx?ItemName=Deadly%20Troupe"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deadly_troupe", path = "json/feat04.json" },

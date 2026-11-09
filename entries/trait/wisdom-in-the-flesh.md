@@ -2,6 +2,7 @@
 id = "ref/trait/wisdom-in-the-flesh"
 kind = "trait"
 title = "Wisdom in the Flesh"
+aon = "TraitDisplay.aspx?ItemName=Wisdom%20in%20the%20Flesh"
 source_ids = ["ultimate-campaign", "legacy-of-fire-players-guide", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wisdom_in_the_flesh", path = "json/traits03.json" },

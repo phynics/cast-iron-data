@@ -2,6 +2,7 @@
 id = "ref/spell/symbol-of-dispelling"
 kind = "spell"
 title = "Symbol of Dispelling"
+aon = "SpellDisplay.aspx?ItemName=Symbol%20of%20Dispelling"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "symbol_of_dispelling", path = "json/spells10.json" },

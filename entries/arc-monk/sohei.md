@@ -2,6 +2,7 @@
 id = "ref/arc-monk/sohei"
 kind = "archetype"
 title = "Sohei"
+aon = "ArchetypeDisplay.aspx?FixedName=Monk%20Sohei"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sohei", path = "json/archetypes_monk2.json" },

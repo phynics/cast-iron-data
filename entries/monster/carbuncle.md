@@ -2,6 +2,7 @@
 id = "ref/monster/carbuncle"
 kind = "creature"
 title = "Carbuncle"
+aon = "MonsterDisplay.aspx?ItemName=Carbuncle"
 source_ids = ["bestiary-3", "pathfinder-31-stolen-land"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "carbuncle", path = "json/monsters04.json" },

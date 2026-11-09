@@ -2,6 +2,7 @@
 id = "ref/feat/fetid-breath"
 kind = "feat"
 title = "Fetid Breath"
+aon = "FeatDisplay.aspx?ItemName=Fetid%20Breath"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fetid_breath", path = "json/feat07.json" },

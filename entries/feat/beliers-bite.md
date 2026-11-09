@@ -2,6 +2,7 @@
 id = "ref/feat/beliers-bite"
 kind = "feat"
 title = "Belier's Bite"
+aon = "FeatDisplay.aspx?ItemName=Belier%27s%20Bite"
 source_ids = ["cheliax-empire-of-devils"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beliers_bite", path = "json/feat02.json" },

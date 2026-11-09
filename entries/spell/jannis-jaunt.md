@@ -2,6 +2,7 @@
 id = "ref/spell/jannis-jaunt"
 kind = "spell"
 title = "Janni's Jaunt"
+aon = "SpellDisplay.aspx?ItemName=Janni%27s%20Jaunt"
 source_ids = ["core-rulebook", "planes-of-power"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jannis_jaunt", path = "json/spells7.json" },

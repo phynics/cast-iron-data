@@ -2,6 +2,7 @@
 id = "ref/monster/giant-taiga-giant"
 kind = "creature"
 title = "Taiga Giant"
+aon = "MonsterDisplay.aspx?ItemName=Taiga%20Giant"
 source_ids = ["bestiary-2", "pathfinder-4-fortress-of-the-stone-giants"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_taiga_giant", path = "json/monsters32.json" },

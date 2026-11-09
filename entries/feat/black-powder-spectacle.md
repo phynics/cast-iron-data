@@ -2,6 +2,7 @@
 id = "ref/feat/black-powder-spectacle"
 kind = "feat"
 title = "Black Powder Spectacle"
+aon = "FeatDisplay.aspx?ItemName=Black%20Powder%20Spectacle"
 source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "black_powder_spectacle", path = "json/feat02.json" },

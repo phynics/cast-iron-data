@@ -2,6 +2,7 @@
 id = "ref/feat/natures-weapons"
 kind = "feat"
 title = "Nature's Weapons"
+aon = "FeatDisplay.aspx?ItemName=Nature%27s%20Weapons"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "natures_weapons", path = "json/feat11.json" },

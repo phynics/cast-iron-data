@@ -2,6 +2,7 @@
 id = "ref/trait/genie-caller"
 kind = "trait"
 title = "Genie-Caller"
+aon = "TraitDisplay.aspx?ItemName=Genie-Caller"
 source_ids = ["inner-sea-primer", "qadira-gateway-to-the-east"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "genie_caller", path = "json/traits04.json" },

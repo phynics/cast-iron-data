@@ -2,6 +2,7 @@
 id = "ref/spell/rain-of-arrows"
 kind = "spell"
 title = "Rain of Arrows"
+aon = "SpellDisplay.aspx?ItemName=Rain%20of%20Arrows"
 source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rain_of_arrows", path = "json/spells8.json" },

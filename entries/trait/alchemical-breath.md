@@ -2,6 +2,7 @@
 id = "ref/trait/alchemical-breath"
 kind = "trait"
 title = "Alchemical Breath"
+aon = "TraitDisplay.aspx?ItemName=Alchemical%20Breath"
 source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alchemical_breath", path = "json/traits05.json" },

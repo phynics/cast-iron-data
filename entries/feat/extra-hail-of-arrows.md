@@ -2,6 +2,7 @@
 id = "ref/feat/extra-hail-of-arrows"
 kind = "feat"
 title = "Extra Hail of Arrows"
+aon = "FeatDisplay.aspx?ItemName=Extra%20Hail%20of%20Arrows"
 source_ids = ["chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extra_hail_of_arrows", path = "json/feat06.json" },

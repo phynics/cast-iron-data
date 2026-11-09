@@ -2,6 +2,7 @@
 id = "ref/feat/exsanguinate"
 kind = "feat"
 title = "Exsanguinate"
+aon = "FeatDisplay.aspx?ItemName=Exsanguinate"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "exsanguinate", path = "json/feat06.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/remacera"
 kind = "creature"
 title = "Remacera"
+aon = "MonsterDisplay.aspx?ItemName=Remacera"
 source_ids = ["the-first-world-realm-of-the-fey"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "remacera", path = "json/monsters20.json" },

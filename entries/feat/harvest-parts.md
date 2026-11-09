@@ -2,6 +2,7 @@
 id = "ref/feat/harvest-parts"
 kind = "feat"
 title = "Harvest Parts"
+aon = "FeatDisplay.aspx?ItemName=Harvest%20Parts"
 source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "harvest_parts", path = "json/feat08.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/spidery-climber"
 kind = "trait"
 title = "Spidery Climber"
+aon = "TraitDisplay.aspx?ItemName=Spidery%20Climber"
 source_ids = ["people-of-the-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spidery_climber", path = "json/traits05.json" },

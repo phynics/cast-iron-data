@@ -2,6 +2,7 @@
 id = "ref/spell/questing-stone"
 kind = "spell"
 title = "Questing Stone"
+aon = "SpellDisplay.aspx?ItemName=Questing%20Stone"
 source_ids = ["seekers-of-secrets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "questing_stone", path = "json/spells8.json" },

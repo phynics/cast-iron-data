@@ -2,6 +2,7 @@
 id = "ref/pclass/death-slayer"
 kind = "prestige_class"
 title = "Death Slayer"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Death%20Slayer"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "death_slayer", path = "json/prestige_classes.json" },

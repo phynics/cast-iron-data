@@ -2,6 +2,7 @@
 id = "ref/feat/kinetic-invocation"
 kind = "feat"
 title = "Kinetic Invocation"
+aon = "FeatDisplay.aspx?ItemName=Kinetic%20Invocation"
 source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kinetic_invocation", path = "json/feat09.json" },

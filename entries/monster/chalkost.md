@@ -2,6 +2,7 @@
 id = "ref/monster/chalkost"
 kind = "creature"
 title = "Chalkost"
+aon = "MonsterDisplay.aspx?ItemName=Chalkost"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chalkost", path = "json/monsters28.json" },

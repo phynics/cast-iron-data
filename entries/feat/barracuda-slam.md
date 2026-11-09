@@ -2,6 +2,7 @@
 id = "ref/feat/barracuda-slam"
 kind = "feat"
 title = "Barracuda Slam"
+aon = "FeatDisplay.aspx?ItemName=Barracuda%20Slam"
 source_ids = ["pathfinder-124-city-in-the-deep"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "barracuda_slam", path = "json/feat01.json" },

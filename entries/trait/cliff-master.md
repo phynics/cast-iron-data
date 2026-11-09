@@ -2,6 +2,7 @@
 id = "ref/trait/cliff-master"
 kind = "trait"
 title = "Cliff-Master"
+aon = "TraitDisplay.aspx?ItemName=Cliff-Master"
 source_ids = ["goblins-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cliff_master", path = "json/traits04.json" },

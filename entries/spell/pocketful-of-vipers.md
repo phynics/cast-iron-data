@@ -2,6 +2,7 @@
 id = "ref/spell/pocketful-of-vipers"
 kind = "spell"
 title = "Pocketful of Vipers"
+aon = "SpellDisplay.aspx?ItemName=Pocketful%20of%20Vipers"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pocketful_of_vipers", path = "json/spells7.json" },

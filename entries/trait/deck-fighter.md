@@ -2,6 +2,7 @@
 id = "ref/trait/deck-fighter"
 kind = "trait"
 title = "Deck Fighter"
+aon = "TraitDisplay.aspx?ItemName=Deck%20Fighter"
 source_ids = ["inner-sea-gods", "faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deck_fighter", path = "json/traits03.json" },

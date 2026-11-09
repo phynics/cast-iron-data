@@ -2,6 +2,7 @@
 id = "ref/feat/tumbling-upset"
 kind = "feat"
 title = "Tumbling Upset"
+aon = "FeatDisplay.aspx?ItemName=Tumbling%20Upset"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tumbling_upset", path = "json/feat16.json" },

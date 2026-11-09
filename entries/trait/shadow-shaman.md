@@ -2,6 +2,7 @@
 id = "ref/trait/shadow-shaman"
 kind = "trait"
 title = "Shadow Shaman"
+aon = "TraitDisplay.aspx?ItemName=Shadow%20Shaman"
 source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_shaman", path = "json/traits04.json" },

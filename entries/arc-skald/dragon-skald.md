@@ -2,6 +2,7 @@
 id = "ref/arc-skald/dragon-skald"
 kind = "archetype"
 title = "Dragon Skald"
+aon = "ArchetypeDisplay.aspx?FixedName=Skald%20Dragon%20Skald"
 source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_skald", path = "json/archetypes_skald.json" },

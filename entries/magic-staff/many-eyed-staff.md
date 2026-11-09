@@ -2,6 +2,7 @@
 id = "ref/magic-staff/many-eyed-staff"
 kind = "item"
 title = "Many-Eyed Staff"
+aon = "MagicStavesDisplay.aspx?ItemName=Many-Eyed%20Staff"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "many_eyed_staff", path = "json/magic_staff.json" },

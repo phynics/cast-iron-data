@@ -2,6 +2,7 @@
 id = "ref/pclass/demoniac"
 kind = "prestige_class"
 title = "Demoniac"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Demoniac"
 source_ids = ["book-of-the-damned", "pathfinder-15-the-armageddon-echo", "book-of-the-damned-volume-2-lords-of-chaos"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demoniac", path = "json/prestige_classes.json" },

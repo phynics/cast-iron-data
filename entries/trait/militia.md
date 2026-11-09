@@ -2,6 +2,7 @@
 id = "ref/trait/militia"
 kind = "trait"
 title = "Militia"
+aon = "TraitDisplay.aspx?ItemName=Militia"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "militia", path = "json/traits04.json" },

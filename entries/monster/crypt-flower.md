@@ -2,6 +2,7 @@
 id = "ref/monster/crypt-flower"
 kind = "creature"
 title = "Crypt Flower"
+aon = "MonsterDisplay.aspx?ItemName=Crypt%20Flower"
 source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crypt_flower", path = "json/monsters06.json" },

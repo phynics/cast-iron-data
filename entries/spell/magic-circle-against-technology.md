@@ -2,6 +2,7 @@
 id = "ref/spell/magic-circle-against-technology"
 kind = "spell"
 title = "Magic Circle Against Technology"
+aon = "SpellDisplay.aspx?ItemName=Magic%20Circle%20Against%20Technology"
 source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_circle_against_technology", path = "json/spells6.json" },

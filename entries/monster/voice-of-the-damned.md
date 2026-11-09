@@ -2,6 +2,7 @@
 id = "ref/monster/voice-of-the-damned"
 kind = "creature"
 title = "Voice of the Damned"
+aon = "MonsterDisplay.aspx?ItemName=Voice%20of%20the%20Damned"
 source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "voice_of_the_damned", path = "json/monsters_unique4.json" },

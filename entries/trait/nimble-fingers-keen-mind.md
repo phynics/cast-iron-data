@@ -2,6 +2,7 @@
 id = "ref/trait/nimble-fingers-keen-mind"
 kind = "trait"
 title = "Nimble Fingers, Keen Mind"
+aon = "TraitDisplay.aspx?ItemName=Nimble%20Fingers%2C%20Keen%20Mind"
 source_ids = ["inner-sea-gods", "faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nimble_fingers_keen_mind", path = "json/traits03.json" },

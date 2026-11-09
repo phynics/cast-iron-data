@@ -2,6 +2,7 @@
 id = "ref/trait/almost-human"
 kind = "trait"
 title = "Almost Human"
+aon = "TraitDisplay.aspx?ItemName=Almost%20Human"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "almost_human", path = "json/traits05.json" },

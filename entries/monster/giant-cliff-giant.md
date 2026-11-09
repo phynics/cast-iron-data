@@ -2,6 +2,7 @@
 id = "ref/monster/giant-cliff-giant"
 kind = "creature"
 title = "Cliff Giant"
+aon = "MonsterDisplay.aspx?ItemName=Cliff%20Giant"
 source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_cliff_giant", path = "json/monsters32.json" },

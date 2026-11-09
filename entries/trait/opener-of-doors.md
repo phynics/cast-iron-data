@@ -2,6 +2,7 @@
 id = "ref/trait/opener-of-doors"
 kind = "trait"
 title = "Opener of Doors"
+aon = "TraitDisplay.aspx?ItemName=Opener%20of%20Doors"
 source_ids = ["inner-sea-gods", "faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "opener_of_doors", path = "json/traits03.json" },

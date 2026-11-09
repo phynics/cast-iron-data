@@ -2,6 +2,7 @@
 id = "ref/trait/nidalese-shadowcaster"
 kind = "trait"
 title = "Nidalese Shadowcaster"
+aon = "TraitDisplay.aspx?ItemName=Nidalese%20Shadowcaster"
 source_ids = ["inner-sea-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nidalese_shadowcaster", path = "json/traits04.json" },

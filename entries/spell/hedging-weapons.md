@@ -2,6 +2,7 @@
 id = "ref/spell/hedging-weapons"
 kind = "spell"
 title = "Hedging Weapons"
+aon = "SpellDisplay.aspx?ItemName=Hedging%20Weapons"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hedging_weapons", path = "json/spells5.json" },

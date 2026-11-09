@@ -2,6 +2,7 @@
 id = "ref/spell/teleportation-circle"
 kind = "spell"
 title = "Teleportation Circle"
+aon = "SpellDisplay.aspx?ItemName=Teleportation%20Circle"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "teleportation_circle", path = "json/spells10.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/enemy-cult"
 kind = "feat"
 title = "Enemy Cult"
+aon = "FeatDisplay.aspx?ItemName=Enemy%20Cult"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enemy_cult", path = "json/feat05.json" },

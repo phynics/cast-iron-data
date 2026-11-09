@@ -2,6 +2,7 @@
 id = "ref/feat/childlike"
 kind = "feat"
 title = "Childlike"
+aon = "FeatDisplay.aspx?ItemName=Childlike"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "childlike", path = "json/feat03.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/family-trade"
 kind = "trait"
 title = "Family Trade"
+aon = "TraitDisplay.aspx?ItemName=Family%20Trade"
 source_ids = ["cohorts-and-companions"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "family_trade", path = "json/traits03.json" },

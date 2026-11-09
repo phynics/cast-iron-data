@@ -2,6 +2,7 @@
 id = "ref/feat/double-slice"
 kind = "feat"
 title = "Double Slice"
+aon = "FeatDisplay.aspx?ItemName=Double%20Slice"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "double_slice", path = "json/feat05.json" },

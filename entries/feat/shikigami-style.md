@@ -2,6 +2,7 @@
 id = "ref/feat/shikigami-style"
 kind = "feat"
 title = "Shikigami Style"
+aon = "FeatDisplay.aspx?ItemName=Shikigami%20Style"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shikigami_style", path = "json/feat14.json" },

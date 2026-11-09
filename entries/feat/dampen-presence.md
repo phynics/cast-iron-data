@@ -2,6 +2,7 @@
 id = "ref/feat/dampen-presence"
 kind = "feat"
 title = "Dampen Presence"
+aon = "FeatDisplay.aspx?ItemName=Dampen%20Presence"
 source_ids = ["dungeoneers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dampen_presence", path = "json/feat04.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/martyrs-last-blessing"
 kind = "spell"
 title = "Martyr's Last Blessing"
+aon = "SpellDisplay.aspx?ItemName=Martyr%27s%20Last%20Blessing"
 source_ids = ["pathfinder-68-the-shackled-hut"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "martyrs_last_blessing", path = "json/spells6.json" },

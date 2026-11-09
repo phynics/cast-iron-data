@@ -2,6 +2,7 @@
 id = "ref/arc-alchemist/beastmorph"
 kind = "archetype"
 title = "Beastmorph"
+aon = "ArchetypeDisplay.aspx?FixedName=Alchemist%20Beastmorph"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beastmorph", path = "json/archetypes_alchemist.json" },

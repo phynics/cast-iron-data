@@ -2,6 +2,7 @@
 id = "ref/feat/aligned-crafting"
 kind = "feat"
 title = "Aligned Crafting"
+aon = "FeatDisplay.aspx?ItemName=Aligned%20Crafting"
 source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aligned_crafting", path = "json/feat01.json" },

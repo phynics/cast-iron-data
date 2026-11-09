@@ -2,6 +2,7 @@
 id = "ref/feat/improved-sunder"
 kind = "feat"
 title = "Improved Sunder"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Sunder"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_sunder", path = "json/feat09.json" },

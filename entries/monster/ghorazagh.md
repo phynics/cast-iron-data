@@ -2,6 +2,7 @@
 id = "ref/monster/ghorazagh"
 kind = "creature"
 title = "Ghorazagh"
+aon = "MonsterDisplay.aspx?ItemName=Ghorazagh"
 source_ids = ["bestiary-3", "pathfinder-29-mother-of-flies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghorazagh", path = "json/monsters11.json" },

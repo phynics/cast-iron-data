@@ -2,6 +2,7 @@
 id = "ref/spell/twine-double"
 kind = "spell"
 title = "Twine Double"
+aon = "SpellDisplay.aspx?ItemName=Twine%20Double"
 source_ids = ["cheliax-empire-of-devils"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "twine_double", path = "json/spells10.json" },

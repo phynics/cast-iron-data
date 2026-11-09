@@ -2,6 +2,7 @@
 id = "ref/feat/necromantic-affinity"
 kind = "feat"
 title = "Necromantic Affinity"
+aon = "FeatDisplay.aspx?ItemName=Necromantic%20Affinity"
 source_ids = ["inner-sea-world-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "necromantic_affinity", path = "json/feat11.json" },

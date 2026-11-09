@@ -2,6 +2,7 @@
 id = "ref/spell/cultural-adaptation-taldan"
 kind = "spell"
 title = "Cultural Adaptation (Taldan)"
+aon = "SpellDisplay.aspx?ItemName=Cultural%20Adaptation%20%28Taldan%29"
 source_ids = ["humans-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cultural_adaptation_taldan", path = "json/spells3.json" },

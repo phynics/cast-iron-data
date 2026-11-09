@@ -2,6 +2,7 @@
 id = "ref/monster/korir-kokembe"
 kind = "creature"
 title = "Korir-Kokembe"
+aon = "MonsterDisplay.aspx?ItemName=Korir-Kokembe"
 source_ids = ["inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "korir_kokembe", path = "json/monsters15.json" },

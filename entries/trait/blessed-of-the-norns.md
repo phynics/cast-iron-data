@@ -2,6 +2,7 @@
 id = "ref/trait/blessed-of-the-norns"
 kind = "trait"
 title = "Blessed of the Norns"
+aon = "TraitDisplay.aspx?ItemName=Blessed%20of%20the%20Norns"
 source_ids = ["blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blessed_of_the_norns", path = "json/traits04.json" },

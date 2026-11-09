@@ -2,6 +2,7 @@
 id = "ref/monster/fleshdreg-swarm"
 kind = "creature"
 title = "Fleshdreg Swarm"
+aon = "MonsterDisplay.aspx?ItemName=Fleshdreg%20Swarm"
 source_ids = ["pathfinder-61-shards-of-sin"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fleshdreg_swarm", path = "json/monsters10.json" },

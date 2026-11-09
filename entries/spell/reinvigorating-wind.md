@@ -2,6 +2,7 @@
 id = "ref/spell/reinvigorating-wind"
 kind = "spell"
 title = "Reinvigorating Wind"
+aon = "SpellDisplay.aspx?ItemName=Reinvigorating%20Wind"
 source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reinvigorating_wind", path = "json/spells8.json" },

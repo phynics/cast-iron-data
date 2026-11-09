@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/cyber-soldier"
 kind = "archetype"
 title = "Cyber-Soldier"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Cyber-Soldier"
 source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cyber_soldier", path = "json/archetypes_fighter.json" },

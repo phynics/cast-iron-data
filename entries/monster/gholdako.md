@@ -2,6 +2,7 @@
 id = "ref/monster/gholdako"
 kind = "creature"
 title = "Gholdako"
+aon = "MonsterDisplay.aspx?ItemName=Gholdako"
 source_ids = ["bestiary-4", "isles-of-the-shackles"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gholdako", path = "json/monsters11.json" },

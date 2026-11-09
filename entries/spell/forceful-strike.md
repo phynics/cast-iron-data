@@ -2,6 +2,7 @@
 id = "ref/spell/forceful-strike"
 kind = "spell"
 title = "Forceful Strike"
+aon = "SpellDisplay.aspx?ItemName=Forceful%20Strike"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "forceful_strike", path = "json/spells13.json" },

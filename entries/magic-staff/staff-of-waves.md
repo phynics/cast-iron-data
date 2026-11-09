@@ -2,6 +2,7 @@
 id = "ref/magic-staff/staff-of-waves"
 kind = "item"
 title = "Staff of Waves"
+aon = "MagicStavesDisplay.aspx?ItemName=Staff%20of%20Waves"
 source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_waves", path = "json/magic_staff.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/assume-appearance"
 kind = "spell"
 title = "Assume Appearance"
+aon = "SpellDisplay.aspx?ItemName=Assume%20Appearance"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "assume_appearance", path = "json/spells.json" },

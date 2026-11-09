@@ -2,6 +2,7 @@
 id = "ref/feat/skeleton-summoner"
 kind = "feat"
 title = "Skeleton Summoner"
+aon = "FeatDisplay.aspx?ItemName=Skeleton%20Summoner"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skeleton_summoner", path = "json/feat14.json" },

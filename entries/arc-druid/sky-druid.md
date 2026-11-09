@@ -2,6 +2,7 @@
 id = "ref/arc-druid/sky-druid"
 kind = "archetype"
 title = "Sky Druid"
+aon = "ArchetypeDisplay.aspx?FixedName=Druid%20Sky%20Druid"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sky_druid", path = "json/archetypes_druid2.json" },

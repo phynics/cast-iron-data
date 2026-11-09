@@ -2,6 +2,7 @@
 id = "ref/arc-wizard/arcane-bomber"
 kind = "archetype"
 title = "Arcane Bomber"
+aon = "ArchetypeDisplay.aspx?FixedName=Wizard%20Arcane%20Bomber"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcane_bomber", path = "json/archetypes_wizard.json" },

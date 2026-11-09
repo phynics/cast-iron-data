@@ -2,6 +2,7 @@
 id = "ref/trait/boarded-in-mwangi-expanse"
 kind = "trait"
 title = "Boarded in Mwangi Expanse"
+aon = "TraitDisplay.aspx?ItemName=Boarded%20in%20Mwangi%20Expanse"
 source_ids = ["serpents-skull-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boarded_in_mwangi_expanse", path = "json/traits02.json" },

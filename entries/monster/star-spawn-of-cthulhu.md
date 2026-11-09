@@ -2,6 +2,7 @@
 id = "ref/monster/star-spawn-of-cthulhu"
 kind = "creature"
 title = "Star-Spawn of Cthulhu"
+aon = "MonsterDisplay.aspx?ItemName=Star-Spawn%20of%20Cthulhu"
 source_ids = ["bestiary-4", "pathfinder-46-wake-of-the-watcher"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "star_spawn_of_cthulhu", path = "json/monsters38.json" },

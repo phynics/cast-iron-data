@@ -2,6 +2,7 @@
 id = "ref/spell/sheet-lightning"
 kind = "spell"
 title = "Sheet Lightning"
+aon = "SpellDisplay.aspx?ItemName=Sheet%20Lightning"
 source_ids = ["rival-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sheet_lightning", path = "json/spells9.json" },

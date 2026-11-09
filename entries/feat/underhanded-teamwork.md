@@ -2,6 +2,7 @@
 id = "ref/feat/underhanded-teamwork"
 kind = "feat"
 title = "Underhanded Teamwork"
+aon = "FeatDisplay.aspx?ItemName=Underhanded%20Teamwork"
 source_ids = ["pathfinder-society-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "underhanded_teamwork", path = "json/feat16.json" },

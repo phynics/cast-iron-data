@@ -2,6 +2,7 @@
 id = "ref/monster/yellow-musk-creeper"
 kind = "creature"
 title = "Yellow Musk Creeper"
+aon = "MonsterDisplay.aspx?ItemName=Yellow%20Musk%20Creeper"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "yellow_musk_creeper", path = "json/monsters41.json" },

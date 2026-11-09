@@ -2,6 +2,7 @@
 id = "ref/spell/daybreak-arrow"
 kind = "spell"
 title = "Daybreak Arrow"
+aon = "SpellDisplay.aspx?ItemName=Daybreak%20Arrow"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daybreak_arrow", path = "json/spells3.json" },

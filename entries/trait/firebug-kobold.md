@@ -2,6 +2,7 @@
 id = "ref/trait/firebug-kobold"
 kind = "trait"
 title = "Firebug (Kobold)"
+aon = "TraitDisplay.aspx?ItemName=Firebug%20%28Kobold%29"
 source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "firebug_kobold", path = "json/traits05.json" },

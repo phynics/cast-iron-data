@@ -2,6 +2,7 @@
 id = "ref/trait/cleansing-the-twisted"
 kind = "trait"
 title = "Cleansing the Twisted"
+aon = "TraitDisplay.aspx?ItemName=Cleansing%20the%20Twisted"
 source_ids = ["legacy-of-fire-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cleansing_the_twisted", path = "json/traits03.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/snap-ignition"
 kind = "trait"
 title = "Snap Ignition"
+aon = "TraitDisplay.aspx?ItemName=Snap%20Ignition"
 source_ids = ["people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snap_ignition", path = "json/traits05.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/fire-of-entanglement"
 kind = "spell"
 title = "Fire of Entanglement"
+aon = "SpellDisplay.aspx?ItemName=Fire%20of%20Entanglement"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fire_of_entanglement", path = "json/spells4.json" },

@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/monkeys-paw"
 kind = "item"
 title = "Monkey's Paw"
+aon = "MagicCursedDisplay.aspx?ItemName=Monkey%27s%20Paw"
 source_ids = ["pathfinder-39-the-city-of-seven-spears"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monkeys_paw", path = "json/magic_wondrous_neck.json" },

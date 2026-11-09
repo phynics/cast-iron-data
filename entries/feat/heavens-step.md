@@ -2,6 +2,7 @@
 id = "ref/feat/heavens-step"
 kind = "feat"
 title = "Heaven's Step"
+aon = "FeatDisplay.aspx?ItemName=Heaven%27s%20Step"
 source_ids = ["pathfinder-132-the-six-legend-soul"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heavens_step", path = "json/feat08.json" },

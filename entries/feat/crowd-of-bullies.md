@@ -2,6 +2,7 @@
 id = "ref/feat/crowd-of-bullies"
 kind = "feat"
 title = "Crowd of Bullies"
+aon = "FeatDisplay.aspx?ItemName=Crowd%20of%20Bullies"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crowd_of_bullies", path = "json/feat04.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/kreightons-perusal"
 kind = "spell"
 title = "Kreighton's Perusal"
+aon = "SpellDisplay.aspx?ItemName=Kreighton%27s%20Perusal"
 source_ids = ["pathfinder-society-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kreightons_perusal", path = "json/spells6.json" },

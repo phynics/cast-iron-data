@@ -2,6 +2,7 @@
 id = "ref/feat/divine-protection"
 kind = "feat"
 title = "Divine Protection"
+aon = "FeatDisplay.aspx?ItemName=Divine%20Protection"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divine_protection", path = "json/feat05.json" },

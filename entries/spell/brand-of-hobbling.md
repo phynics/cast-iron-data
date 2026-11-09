@@ -2,6 +2,7 @@
 id = "ref/spell/brand-of-hobbling"
 kind = "spell"
 title = "Brand of Hobbling"
+aon = "SpellDisplay.aspx?ItemName=Brand%20of%20Hobbling"
 source_ids = ["adventurers-guide", "path-of-the-hellknight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brand_of_hobbling", path = "json/spells2.json" },

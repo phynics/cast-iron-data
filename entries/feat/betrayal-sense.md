@@ -2,6 +2,7 @@
 id = "ref/feat/betrayal-sense"
 kind = "feat"
 title = "Betrayal Sense"
+aon = "FeatDisplay.aspx?ItemName=Betrayal%20Sense"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "betrayal_sense", path = "json/feat02.json" },

@@ -2,6 +2,7 @@
 id = "ref/class/inquisitor"
 kind = "class"
 title = "Inquisitor"
+aon = "ClassDisplay.aspx?ItemName=Inquisitor"
 source_ids = ["advanced-players-guide", "chronicle-of-legends", "advanced-race-guide", "plane-hoppers-handbook", "blood-of-the-beast", "blood-of-shadows", "horror-adventures", "kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inquisitor", path = "json/classes2.json" },

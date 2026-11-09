@@ -2,6 +2,7 @@
 id = "ref/spell/pessimism"
 kind = "spell"
 title = "Pessimism"
+aon = "SpellDisplay.aspx?ItemName=Pessimism"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pessimism", path = "json/spells7.json" },

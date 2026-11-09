@@ -2,6 +2,7 @@
 id = "ref/monster/cyclops-cyclops-manhunter"
 kind = "creature"
 title = "Cyclops Manhunter"
+aon = "MonsterDisplay.aspx?ItemName=Cyclops%20Manhunter"
 source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cyclops_cyclops_manhunter", path = "json/monsters06.json" },

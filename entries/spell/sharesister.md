@@ -2,6 +2,7 @@
 id = "ref/spell/sharesister"
 kind = "spell"
 title = "Sharesister"
+aon = "SpellDisplay.aspx?ItemName=Sharesister"
 source_ids = ["pathfinder-society-field-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sharesister", path = "json/spells9.json" },

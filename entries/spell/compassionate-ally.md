@@ -2,6 +2,7 @@
 id = "ref/spell/compassionate-ally"
 kind = "spell"
 title = "Compassionate Ally"
+aon = "SpellDisplay.aspx?ItemName=Compassionate%20Ally"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "compassionate_ally", path = "json/spells12.json" },

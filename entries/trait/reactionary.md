@@ -2,6 +2,7 @@
 id = "ref/trait/reactionary"
 kind = "trait"
 title = "Reactionary"
+aon = "TraitDisplay.aspx?ItemName=Reactionary"
 source_ids = ["ultimate-campaign", "advanced-players-guide", "second-darkness-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reactionary", path = "json/traits01.json" },

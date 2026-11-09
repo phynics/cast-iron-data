@@ -2,6 +2,7 @@
 id = "ref/monster/ghelarn"
 kind = "creature"
 title = "Ghelarn"
+aon = "MonsterDisplay.aspx?ItemName=Ghelarn"
 source_ids = ["pathfinder-85-fires-of-creation"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghelarn", path = "json/monsters11.json" },

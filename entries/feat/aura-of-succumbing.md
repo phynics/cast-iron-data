@@ -2,6 +2,7 @@
 id = "ref/feat/aura-of-succumbing"
 kind = "feat"
 title = "Aura of Succumbing"
+aon = "FeatDisplay.aspx?ItemName=Aura%20of%20Succumbing"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aura_of_succumbing", path = "json/feat01.json" },

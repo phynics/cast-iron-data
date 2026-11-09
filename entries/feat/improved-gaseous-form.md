@@ -2,6 +2,7 @@
 id = "ref/feat/improved-gaseous-form"
 kind = "feat"
 title = "Improved Gaseous Form"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Gaseous%20Form"
 source_ids = ["blood-of-the-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_gaseous_form", path = "json/feat09.json" },

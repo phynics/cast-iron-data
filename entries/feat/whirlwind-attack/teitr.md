@@ -2,6 +2,7 @@
 id = "ref/feat/whirlwind-attack/teitr"
 kind = "feat"
 title = "Whirlwind Attack"
+aon = "FeatDisplay.aspx?ItemName=Whirlwind%20Attack"
 source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/whirlwind-attack" },

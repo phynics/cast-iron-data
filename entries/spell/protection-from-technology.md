@@ -2,6 +2,7 @@
 id = "ref/spell/protection-from-technology"
 kind = "spell"
 title = "Protection from Technology"
+aon = "SpellDisplay.aspx?ItemName=Protection%20from%20Technology"
 source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "protection_from_technology", path = "json/spells15.json" },

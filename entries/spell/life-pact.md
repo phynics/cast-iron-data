@@ -2,6 +2,7 @@
 id = "ref/spell/life-pact"
 kind = "spell"
 title = "Life Pact"
+aon = "SpellDisplay.aspx?ItemName=Life%20Pact"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "life_pact", path = "json/spells6.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-swashbuckler/guiding-blade"
 kind = "archetype"
 title = "Guiding Blade"
+aon = "ArchetypeDisplay.aspx?FixedName=Swashbuckler%20Guiding%20Blade"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guiding_blade", path = "json/archetypes_swashbuckler.json" },

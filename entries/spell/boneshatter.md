@@ -2,6 +2,7 @@
 id = "ref/spell/boneshatter"
 kind = "spell"
 title = "Boneshatter"
+aon = "SpellDisplay.aspx?ItemName=Boneshatter"
 source_ids = ["pathfinder-84-pyramid-of-the-sky-pharaoh", "osirion-land-of-the-pharaohs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boneshatter", path = "json/spells2.json" },

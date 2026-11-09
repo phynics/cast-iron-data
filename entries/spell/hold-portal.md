@@ -2,6 +2,7 @@
 id = "ref/spell/hold-portal"
 kind = "spell"
 title = "Hold Portal"
+aon = "SpellDisplay.aspx?ItemName=Hold%20Portal"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hold_portal", path = "json/spells5.json" },

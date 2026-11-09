@@ -2,6 +2,7 @@
 id = "ref/arc-swashbuckler/mouser"
 kind = "archetype"
 title = "Mouser"
+aon = "ArchetypeDisplay.aspx?FixedName=Swashbuckler%20Mouser"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mouser", path = "json/archetypes_swashbuckler.json" },

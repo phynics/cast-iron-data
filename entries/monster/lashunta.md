@@ -2,6 +2,7 @@
 id = "ref/monster/lashunta"
 kind = "creature"
 title = "Lashunta"
+aon = "MonsterDisplay.aspx?ItemName=Lashunta"
 source_ids = ["inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lashunta", path = "json/monsters34.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/manipulative-agility"
 kind = "feat"
 title = "Manipulative Agility"
+aon = "FeatDisplay.aspx?ItemName=Manipulative%20Agility"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "manipulative_agility", path = "json/feat10.json" },

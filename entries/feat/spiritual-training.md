@@ -2,6 +2,7 @@
 id = "ref/feat/spiritual-training"
 kind = "feat"
 title = "Spiritual Training"
+aon = "FeatDisplay.aspx?ItemName=Spiritual%20Training"
 source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spiritual_training", path = "json/feat15.json" },

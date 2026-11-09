@@ -2,6 +2,7 @@
 id = "ref/monster/troops-hobgoblin-phalanx-troop"
 kind = "creature"
 title = "Hobgoblin Phalanx Troop"
+aon = "MonsterDisplay.aspx?ItemName=Hobgoblin%20Phalanx%20Troop"
 source_ids = ["pathfinder-117-assault-on-longshadow"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "troops_hobgoblin_phalanx_troop", path = "json/monsters24.json" },

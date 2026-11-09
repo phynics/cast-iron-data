@@ -2,6 +2,7 @@
 id = "ref/feat/fey-foundling"
 kind = "feat"
 title = "Fey Foundling"
+aon = "FeatDisplay.aspx?ItemName=Fey%20Foundling"
 source_ids = ["inner-sea-world-guide", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fey_foundling", path = "json/feat07.json" },

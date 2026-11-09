@@ -2,6 +2,7 @@
 id = "ref/arc-paladin/holy-tactician"
 kind = "archetype"
 title = "Holy Tactician"
+aon = "ArchetypeDisplay.aspx?FixedName=Paladin%20Holy%20Tactician"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "holy_tactician", path = "json/archetypes_paladin.json" },

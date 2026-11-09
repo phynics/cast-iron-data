@@ -2,6 +2,7 @@
 id = "ref/feat/earth-magic"
 kind = "feat"
 title = "Earth Magic"
+aon = "FeatDisplay.aspx?ItemName=Earth%20Magic"
 source_ids = ["ultimate-wilderness", "heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "earth_magic", path = "json/feat05.json" },

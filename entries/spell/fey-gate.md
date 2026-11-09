@@ -2,6 +2,7 @@
 id = "ref/spell/fey-gate"
 kind = "spell"
 title = "Fey Gate"
+aon = "SpellDisplay.aspx?ItemName=Fey%20Gate"
 source_ids = ["core-rulebook", "ultimate-wilderness", "the-first-world-realm-of-the-fey"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fey_gate", path = "json/spells13.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/undetectable-trap"
 kind = "spell"
 title = "Undetectable Trap"
+aon = "SpellDisplay.aspx?ItemName=Undetectable%20Trap"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "undetectable_trap", path = "json/spells11.json" },

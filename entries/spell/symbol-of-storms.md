@@ -2,6 +2,7 @@
 id = "ref/spell/symbol-of-storms"
 kind = "spell"
 title = "Symbol of Storms"
+aon = "SpellDisplay.aspx?ItemName=Symbol%20of%20Storms"
 source_ids = ["core-rulebook", "blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "symbol_of_storms", path = "json/spells10.json" },

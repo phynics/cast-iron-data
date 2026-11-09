@@ -2,6 +2,7 @@
 id = "ref/trait/slithering-stride"
 kind = "trait"
 title = "Slithering Stride"
+aon = "TraitDisplay.aspx?ItemName=Slithering%20Stride"
 source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slithering_stride", path = "json/traits05.json" },

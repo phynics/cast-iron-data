@@ -2,6 +2,7 @@
 id = "ref/trait/secret-of-the-impossible-kingdom"
 kind = "trait"
 title = "Secret of the Impossible Kingdom"
+aon = "TraitDisplay.aspx?ItemName=Secret%20of%20the%20Impossible%20Kingdom"
 source_ids = ["inner-sea-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "secret_of_the_impossible_kingdom", path = "json/traits04.json" },

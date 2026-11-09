@@ -2,6 +2,7 @@
 id = "ref/monster/ostrich"
 kind = "creature"
 title = "Ostrich"
+aon = "MonsterDisplay.aspx?ItemName=Ostrich"
 source_ids = ["osirion-legacy-of-the-pharaohs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ostrich", path = "json/monsters36.json" },

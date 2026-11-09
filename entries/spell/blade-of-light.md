@@ -2,6 +2,7 @@
 id = "ref/spell/blade-of-light"
 kind = "spell"
 title = "Blade of Light"
+aon = "SpellDisplay.aspx?ItemName=Blade%20of%20Light"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blade_of_light", path = "json/spells12.json" },

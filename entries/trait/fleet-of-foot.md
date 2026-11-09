@@ -2,6 +2,7 @@
 id = "ref/trait/fleet-of-foot"
 kind = "trait"
 title = "Fleet of Foot"
+aon = "TraitDisplay.aspx?ItemName=Fleet%20of%20Foot"
 source_ids = ["knights-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fleet_of_foot", path = "json/traits03.json" },

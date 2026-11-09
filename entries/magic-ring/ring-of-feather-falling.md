@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-feather-falling"
 kind = "item"
 title = "Ring of Feather Falling"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Feather%20Falling"
 source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_feather_falling", path = "json/magic_ring.json" },

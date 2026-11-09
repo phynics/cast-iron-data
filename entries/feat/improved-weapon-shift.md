@@ -2,6 +2,7 @@
 id = "ref/feat/improved-weapon-shift"
 kind = "feat"
 title = "Improved Weapon Shift"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Weapon%20Shift"
 source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_weapon_shift", path = "json/feat09.json" },

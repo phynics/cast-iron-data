@@ -2,6 +2,7 @@
 id = "ref/arc-paladin/dusk-knight"
 kind = "archetype"
 title = "Dusk Knight"
+aon = "ArchetypeDisplay.aspx?FixedName=Paladin%20Dusk%20Knight"
 source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dusk_knight", path = "json/archetypes_paladin.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/gang-up"
 kind = "feat"
 title = "Gang Up"
+aon = "FeatDisplay.aspx?ItemName=Gang%20Up"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gang_up", path = "json/feat07.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/shrouded-casting"
 kind = "trait"
 title = "Shrouded Casting"
+aon = "TraitDisplay.aspx?ItemName=Shrouded%20Casting"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shrouded_casting", path = "json/traits02.json" },

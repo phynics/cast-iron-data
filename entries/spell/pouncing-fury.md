@@ -2,6 +2,7 @@
 id = "ref/spell/pouncing-fury"
 kind = "spell"
 title = "Pouncing Fury"
+aon = "SpellDisplay.aspx?ItemName=Pouncing%20Fury"
 source_ids = ["ultimate-wilderness", "blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pouncing_fury", path = "json/spells14.json" },

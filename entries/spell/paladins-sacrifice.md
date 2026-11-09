@@ -2,6 +2,7 @@
 id = "ref/spell/paladins-sacrifice"
 kind = "spell"
 title = "Paladin's Sacrifice"
+aon = "SpellDisplay.aspx?ItemName=Paladin%27s%20Sacrifice"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "paladins_sacrifice", path = "json/spells7.json" },

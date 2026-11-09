@@ -2,6 +2,7 @@
 id = "ref/carried/core-rulebook/spells/planar-ally/greater"
 kind = "spell"
 title = "Planar Ally, Greater"
+aon = "SpellDisplay.aspx?ItemName=Planar%20Ally%2C%20Greater"
 source_ids = ["core-rulebook"]
 section = ["Spells", "Planar Ally"]
 tags = ["conjuration", "calling", "see text for lesser planar ally"]

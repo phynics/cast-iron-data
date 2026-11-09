@@ -2,6 +2,7 @@
 id = "ref/carried/advanced-players-guide/spells/evolution-surge/greater"
 kind = "spell"
 title = "Evolution Surge, Greater"
+aon = "SpellDisplay.aspx?ItemName=Evolution%20Surge%2C%20Greater"
 source_ids = ["advanced-players-guide"]
 section = ["Spells", "Evolution Surge"]
 tags = ["transmutation"]

@@ -2,6 +2,7 @@
 id = "ref/spell/enchantment-foil"
 kind = "spell"
 title = "Enchantment Foil"
+aon = "SpellDisplay.aspx?ItemName=Enchantment%20Foil"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enchantment_foil", path = "json/spells4.json" },

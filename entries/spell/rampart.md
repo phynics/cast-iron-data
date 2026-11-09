@@ -2,6 +2,7 @@
 id = "ref/spell/rampart"
 kind = "spell"
 title = "Rampart"
+aon = "SpellDisplay.aspx?ItemName=Rampart"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rampart", path = "json/spells8.json" },

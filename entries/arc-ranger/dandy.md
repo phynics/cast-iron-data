@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/dandy"
 kind = "archetype"
 title = "Dandy"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Dandy"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dandy", path = "json/archetypes_ranger.json" },

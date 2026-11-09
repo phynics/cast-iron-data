@@ -2,6 +2,7 @@
 id = "ref/trait/reluctant-apprentice"
 kind = "trait"
 title = "Reluctant Apprentice"
+aon = "TraitDisplay.aspx?ItemName=Reluctant%20Apprentice"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reluctant_apprentice", path = "json/traits02.json" },

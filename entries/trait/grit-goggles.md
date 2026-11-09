@@ -2,6 +2,7 @@
 id = "ref/trait/grit-goggles"
 kind = "trait"
 title = "Grit Goggles"
+aon = "TraitDisplay.aspx?ItemName=Grit%20Goggles"
 source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grit_goggles", path = "json/traits04.json" },

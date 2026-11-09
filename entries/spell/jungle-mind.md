@@ -2,6 +2,7 @@
 id = "ref/spell/jungle-mind"
 kind = "spell"
 title = "Jungle Mind"
+aon = "SpellDisplay.aspx?ItemName=Jungle%20Mind"
 source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jungle_mind", path = "json/spells6.json" },

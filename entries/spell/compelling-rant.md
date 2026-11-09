@@ -2,6 +2,7 @@
 id = "ref/spell/compelling-rant"
 kind = "spell"
 title = "Compelling Rant"
+aon = "SpellDisplay.aspx?ItemName=Compelling%20Rant"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "compelling_rant", path = "json/spells12.json" },

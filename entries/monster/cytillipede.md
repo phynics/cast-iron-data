@@ -2,6 +2,7 @@
 id = "ref/monster/cytillipede"
 kind = "creature"
 title = "Cytillipede"
+aon = "MonsterDisplay.aspx?ItemName=Cytillipede"
 source_ids = ["bestiary-5", "no-response-from-deepmar"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cytillipede", path = "json/monsters06.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/extended-bane"
 kind = "feat"
 title = "Extended Bane"
+aon = "FeatDisplay.aspx?ItemName=Extended%20Bane"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extended_bane", path = "json/feat06.json" },

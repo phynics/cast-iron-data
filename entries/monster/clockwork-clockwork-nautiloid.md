@@ -2,6 +2,7 @@
 id = "ref/monster/clockwork-clockwork-nautiloid"
 kind = "creature"
 title = "Clockwork Nautiloid"
+aon = "MonsterDisplay.aspx?ItemName=Clockwork%20Nautiloid"
 source_ids = ["pathfinder-125-tower-of-the-drowned-dead"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clockwork_clockwork_nautiloid", path = "json/monsters05.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/self-sustaining"
 kind = "trait"
 title = "Self-Sustaining"
+aon = "TraitDisplay.aspx?ItemName=Self-Sustaining"
 source_ids = ["disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "self_sustaining", path = "json/traits01.json" },

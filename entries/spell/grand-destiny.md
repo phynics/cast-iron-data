@@ -2,6 +2,7 @@
 id = "ref/spell/grand-destiny"
 kind = "spell"
 title = "Grand Destiny"
+aon = "SpellDisplay.aspx?ItemName=Grand%20Destiny"
 source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grand_destiny", path = "json/spells5.json" },

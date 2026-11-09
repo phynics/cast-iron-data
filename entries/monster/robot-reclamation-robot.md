@@ -2,6 +2,7 @@
 id = "ref/monster/robot-reclamation-robot"
 kind = "creature"
 title = "Reclamation Robot"
+aon = "MonsterDisplay.aspx?ItemName=Reclamation%20Robot"
 source_ids = ["pathfinder-88-valley-of-the-brain-collectors"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "robot_reclamation_robot", path = "json/monsters20.json" },

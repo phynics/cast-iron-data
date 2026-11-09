@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/scattershot-bracers"
 kind = "item"
 title = "Scattershot Bracers"
+aon = "MagicCursedDisplay.aspx?ItemName=Scattershot%20Bracers"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scattershot_bracers", path = "json/magic_wondrous_shoulders_wrists.json" },

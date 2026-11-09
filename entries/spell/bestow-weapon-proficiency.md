@@ -2,6 +2,7 @@
 id = "ref/spell/bestow-weapon-proficiency"
 kind = "spell"
 title = "Bestow Weapon Proficiency"
+aon = "SpellDisplay.aspx?ItemName=Bestow%20Weapon%20Proficiency"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bestow_weapon_proficiency", path = "json/spells12.json" },

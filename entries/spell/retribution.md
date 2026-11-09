@@ -2,6 +2,7 @@
 id = "ref/spell/retribution"
 kind = "spell"
 title = "Retribution"
+aon = "SpellDisplay.aspx?ItemName=Retribution"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "retribution", path = "json/spells8.json" },

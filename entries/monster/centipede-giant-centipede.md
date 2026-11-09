@@ -2,6 +2,7 @@
 id = "ref/monster/centipede-giant-centipede"
 kind = "creature"
 title = "Giant Centipede"
+aon = "MonsterDisplay.aspx?ItemName=Giant%20Centipede"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "centipede_giant_centipede", path = "json/monsters28.json" },

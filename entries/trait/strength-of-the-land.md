@@ -2,6 +2,7 @@
 id = "ref/trait/strength-of-the-land"
 kind = "trait"
 title = "Strength of the Land"
+aon = "TraitDisplay.aspx?ItemName=Strength%20of%20the%20Land"
 source_ids = ["dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "strength_of_the_land", path = "json/traits01.json" },

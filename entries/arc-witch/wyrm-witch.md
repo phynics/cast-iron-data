@@ -2,6 +2,7 @@
 id = "ref/arc-witch/wyrm-witch"
 kind = "archetype"
 title = "Wyrm Witch"
+aon = "ArchetypeDisplay.aspx?FixedName=Witch%20Wyrm%20Witch"
 source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wyrm_witch", path = "json/archetypes_witch.json" },

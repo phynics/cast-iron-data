@@ -2,6 +2,7 @@
 id = "ref/arc-mesmerist/aromaphile"
 kind = "archetype"
 title = "Aromaphile"
+aon = "ArchetypeDisplay.aspx?FixedName=Mesmerist%20Aromaphile"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aromaphile", path = "json/archetypes_mesmerist.json" },

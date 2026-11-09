@@ -2,6 +2,7 @@
 id = "ref/monster/blood-maize"
 kind = "creature"
 title = "Blood Maize"
+aon = "MonsterDisplay.aspx?ItemName=Blood%20Maize"
 source_ids = ["pathfinder-121-the-lost-outpost"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_maize", path = "json/monsters27.json" },

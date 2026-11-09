@@ -2,6 +2,7 @@
 id = "ref/arc-barbarian/drunken-brute"
 kind = "archetype"
 title = "Drunken Brute"
+aon = "ArchetypeDisplay.aspx?FixedName=Barbarian%20Drunken%20Brute"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drunken_brute", path = "json/archetypes_barbarian.json" },

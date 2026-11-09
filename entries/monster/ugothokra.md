@@ -2,6 +2,7 @@
 id = "ref/monster/ugothokra"
 kind = "creature"
 title = "Ugothokra"
+aon = "MonsterDisplay.aspx?ItemName=Ugothokra"
 source_ids = ["pathfinder-88-valley-of-the-brain-collectors"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ugothokra", path = "json/monsters24.json" },

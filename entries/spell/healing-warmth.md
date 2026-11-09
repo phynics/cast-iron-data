@@ -2,6 +2,7 @@
 id = "ref/spell/healing-warmth"
 kind = "spell"
 title = "Healing Warmth"
+aon = "SpellDisplay.aspx?ItemName=Healing%20Warmth"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "healing_warmth", path = "json/spells5.json" },

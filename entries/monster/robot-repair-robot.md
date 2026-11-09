@@ -2,6 +2,7 @@
 id = "ref/monster/robot-repair-robot"
 kind = "creature"
 title = "Repair Robot"
+aon = "MonsterDisplay.aspx?ItemName=Repair%20Robot"
 source_ids = ["construct-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "robot_repair_robot", path = "json/monsters20.json" },

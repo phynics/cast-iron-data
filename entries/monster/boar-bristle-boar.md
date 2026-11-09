@@ -2,6 +2,7 @@
 id = "ref/monster/boar-bristle-boar"
 kind = "creature"
 title = "Bristle Boar"
+aon = "MonsterDisplay.aspx?ItemName=Bristle%20Boar"
 source_ids = ["belkzen-hold-of-the-orc-hordes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boar_bristle_boar", path = "json/monsters27.json" },

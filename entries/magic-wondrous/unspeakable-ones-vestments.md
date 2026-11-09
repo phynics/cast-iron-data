@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/unspeakable-ones-vestments"
 kind = "item"
 title = "Unspeakable One's Vestments"
+aon = "MagicCursedDisplay.aspx?ItemName=Unspeakable%20One%27s%20Vestments"
 source_ids = ["pathfinder-113-what-grows-within"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unspeakable_ones_vestments", path = "json/magic_wondrous_belt_body_chest.json" },

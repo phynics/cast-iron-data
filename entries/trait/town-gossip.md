@@ -2,6 +2,7 @@
 id = "ref/trait/town-gossip"
 kind = "trait"
 title = "Town Gossip"
+aon = "TraitDisplay.aspx?ItemName=Town%20Gossip"
 source_ids = ["varisia-birthplace-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "town_gossip", path = "json/traits04.json" },

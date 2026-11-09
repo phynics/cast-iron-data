@@ -2,6 +2,7 @@
 id = "ref/spell/fungal-infestation"
 kind = "spell"
 title = "Fungal Infestation"
+aon = "SpellDisplay.aspx?ItemName=Fungal%20Infestation"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fungal_infestation", path = "json/spells13.json" },

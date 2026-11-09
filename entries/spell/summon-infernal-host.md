@@ -2,6 +2,7 @@
 id = "ref/spell/summon-infernal-host"
 kind = "spell"
 title = "Summon Infernal Host"
+aon = "SpellDisplay.aspx?ItemName=Summon%20Infernal%20Host"
 source_ids = ["rival-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summon_infernal_host", path = "json/spells16.json" },

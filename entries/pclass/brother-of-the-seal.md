@@ -2,6 +2,7 @@
 id = "ref/pclass/brother-of-the-seal"
 kind = "prestige_class"
 title = "Brother of the Seal"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Brother%20of%20the%20Seal"
 source_ids = ["paths-of-prestige"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brother_of_the_seal", path = "json/prestige_classes.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/tychilarius"
 kind = "creature"
 title = "Tychilarius"
+aon = "MonsterDisplay.aspx?ItemName=Tychilarius"
 source_ids = ["occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tychilarius", path = "json/monsters_unique4.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/thrushmoor-angler"
 kind = "creature"
 title = "Thrushmoor Angler"
+aon = "MonsterDisplay.aspx?ItemName=Thrushmoor%20Angler"
 source_ids = ["pathfinder-111-dreams-of-the-yellow-king"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thrushmoor_angler", path = "json/monsters23.json" },

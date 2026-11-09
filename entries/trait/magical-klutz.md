@@ -2,6 +2,7 @@
 id = "ref/trait/magical-klutz"
 kind = "trait"
 title = "Magical Klutz"
+aon = "TraitDisplay.aspx?ItemName=Magical%20Klutz"
 source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magical_klutz", path = "json/traits03.json" },

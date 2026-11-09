@@ -2,6 +2,7 @@
 id = "ref/monster/troops-dottari-troop"
 kind = "creature"
 title = "Dottari Troop"
+aon = "MonsterDisplay.aspx?ItemName=Dottari%20Troop"
 source_ids = ["pathfinder-100-a-song-of-silver"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "troops_dottari_troop", path = "json/monsters24.json" },

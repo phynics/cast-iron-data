@@ -2,6 +2,7 @@
 id = "ref/spell/placebo-effect"
 kind = "spell"
 title = "Placebo Effect"
+aon = "SpellDisplay.aspx?ItemName=Placebo%20Effect"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "placebo_effect", path = "json/spells7.json" },

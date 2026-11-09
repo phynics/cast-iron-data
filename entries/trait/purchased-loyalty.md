@@ -2,6 +2,7 @@
 id = "ref/trait/purchased-loyalty"
 kind = "trait"
 title = "Purchased Loyalty"
+aon = "TraitDisplay.aspx?ItemName=Purchased%20Loyalty"
 source_ids = ["inner-sea-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "purchased_loyalty", path = "json/traits04.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/adhesive-spittle"
 kind = "spell"
 title = "Adhesive Spittle"
+aon = "SpellDisplay.aspx?ItemName=Adhesive%20Spittle"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "adhesive_spittle", path = "json/spells.json" },

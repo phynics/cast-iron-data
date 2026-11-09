@@ -2,6 +2,7 @@
 id = "ref/spell/obscuring-mist"
 kind = "spell"
 title = "Obscuring Mist"
+aon = "SpellDisplay.aspx?ItemName=Obscuring%20Mist"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "obscuring_mist", path = "json/spells7.json" },

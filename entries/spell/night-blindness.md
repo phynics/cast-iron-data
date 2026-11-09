@@ -2,6 +2,7 @@
 id = "ref/spell/night-blindness"
 kind = "spell"
 title = "Night Blindness"
+aon = "SpellDisplay.aspx?ItemName=Night%20Blindness"
 source_ids = ["black-markets", "dark-markets-a-guide-to-katapesh"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "night_blindness", path = "json/spells7.json" },

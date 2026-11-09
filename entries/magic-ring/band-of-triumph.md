@@ -2,6 +2,7 @@
 id = "ref/magic-ring/band-of-triumph"
 kind = "item"
 title = "Band of Triumph"
+aon = "MagicRingsDisplay.aspx?FinalName=Band%20of%20Triumph"
 source_ids = ["pathfinder-131-the-reapers-right-hand"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "band_of_triumph", path = "json/magic_ring.json" },

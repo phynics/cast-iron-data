@@ -2,6 +2,7 @@
 id = "ref/spell/grave-words"
 kind = "spell"
 title = "Grave Words"
+aon = "SpellDisplay.aspx?ItemName=Grave%20Words"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grave_words", path = "json/spells5.json" },

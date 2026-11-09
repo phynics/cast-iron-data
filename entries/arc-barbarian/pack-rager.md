@@ -2,6 +2,7 @@
 id = "ref/arc-barbarian/pack-rager"
 kind = "archetype"
 title = "Pack Rager"
+aon = "ArchetypeDisplay.aspx?FixedName=Barbarian%20Pack%20Rager"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pack_rager", path = "json/archetypes_barbarian.json" },

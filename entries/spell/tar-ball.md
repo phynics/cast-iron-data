@@ -2,6 +2,7 @@
 id = "ref/spell/tar-ball"
 kind = "spell"
 title = "Tar Ball"
+aon = "SpellDisplay.aspx?ItemName=Tar%20Ball"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tar_ball", path = "json/spells10.json" },

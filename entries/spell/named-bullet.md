@@ -2,6 +2,7 @@
 id = "ref/spell/named-bullet"
 kind = "spell"
 title = "Named Bullet"
+aon = "SpellDisplay.aspx?ItemName=Named%20Bullet"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "named_bullet", path = "json/spells7.json" },

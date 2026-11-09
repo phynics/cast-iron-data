@@ -2,6 +2,7 @@
 id = "ref/feat/traumatic-spell"
 kind = "feat"
 title = "Traumatic Spell"
+aon = "FeatDisplay.aspx?ItemName=Traumatic%20Spell"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "traumatic_spell", path = "json/feat16.json" },

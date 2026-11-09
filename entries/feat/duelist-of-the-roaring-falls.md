@@ -2,6 +2,7 @@
 id = "ref/feat/duelist-of-the-roaring-falls"
 kind = "feat"
 title = "Duelist of the Roaring Falls"
+aon = "FeatDisplay.aspx?ItemName=Duelist%20of%20the%20Roaring%20Falls"
 source_ids = ["adventurers-guide", "inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "duelist_of_the_roaring_falls", path = "json/feat05.json" },

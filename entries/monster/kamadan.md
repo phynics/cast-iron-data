@@ -2,6 +2,7 @@
 id = "ref/monster/kamadan"
 kind = "creature"
 title = "Kamadan"
+aon = "MonsterDisplay.aspx?ItemName=Kamadan"
 source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kamadan", path = "json/monsters34.json" },

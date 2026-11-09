@@ -2,6 +2,7 @@
 id = "ref/monster/reaper-grim-reaper"
 kind = "creature"
 title = "Grim Reaper"
+aon = "MonsterDisplay.aspx?ItemName=Grim%20Reaper"
 source_ids = ["pathfinder-48-shadows-of-gallowspire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reaper_grim_reaper", path = "json/monsters36.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-hunter/treestrider"
 kind = "archetype"
 title = "Treestrider"
+aon = "ArchetypeDisplay.aspx?FixedName=Hunter%20Treestrider"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "treestrider", path = "json/archetypes_hunter.json" },

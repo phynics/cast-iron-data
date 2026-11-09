@@ -2,6 +2,7 @@
 id = "ref/spell/unseen-crew"
 kind = "spell"
 title = "Unseen Crew"
+aon = "SpellDisplay.aspx?ItemName=Unseen%20Crew"
 source_ids = ["pirates-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unseen_crew", path = "json/spells11.json" },

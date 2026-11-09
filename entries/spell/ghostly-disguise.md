@@ -2,6 +2,7 @@
 id = "ref/spell/ghostly-disguise"
 kind = "spell"
 title = "Ghostly Disguise"
+aon = "SpellDisplay.aspx?ItemName=Ghostly%20Disguise"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghostly_disguise", path = "json/spells13.json" },

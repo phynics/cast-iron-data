@@ -2,6 +2,7 @@
 id = "ref/feat/realistic-likeness"
 kind = "feat"
 title = "Realistic Likeness"
+aon = "FeatDisplay.aspx?ItemName=Realistic%20Likeness"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "realistic_likeness", path = "json/feat13.json" },

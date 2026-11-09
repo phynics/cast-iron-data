@@ -2,6 +2,7 @@
 id = "ref/spell/entropic-shield"
 kind = "spell"
 title = "Entropic Shield"
+aon = "SpellDisplay.aspx?ItemName=Entropic%20Shield"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "entropic_shield", path = "json/spells4.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/strength-in-defeat"
 kind = "feat"
 title = "Strength in Defeat"
+aon = "FeatDisplay.aspx?ItemName=Strength%20in%20Defeat"
 source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "strength_in_defeat", path = "json/feat15.json" },

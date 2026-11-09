@@ -2,6 +2,7 @@
 id = "ref/spell/thorn-javelin"
 kind = "spell"
 title = "Thorn Javelin"
+aon = "SpellDisplay.aspx?ItemName=Thorn%20Javelin"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thorn_javelin", path = "json/spells10.json" },

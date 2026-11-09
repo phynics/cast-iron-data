@@ -2,6 +2,7 @@
 id = "ref/spell/major-image"
 kind = "spell"
 title = "Major Image"
+aon = "SpellDisplay.aspx?ItemName=Major%20Image"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "major_image", path = "json/spells14.json" },

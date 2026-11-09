@@ -2,6 +2,7 @@
 id = "ref/spell/bleed-for-your-master"
 kind = "spell"
 title = "Bleed for your Master"
+aon = "SpellDisplay.aspx?ItemName=Bleed%20for%20your%20Master"
 source_ids = ["ultimate-wilderness", "animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bleed_for_your_master", path = "json/spells12.json" },

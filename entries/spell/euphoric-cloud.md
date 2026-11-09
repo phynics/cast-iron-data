@@ -2,6 +2,7 @@
 id = "ref/spell/euphoric-cloud"
 kind = "spell"
 title = "Euphoric Cloud"
+aon = "SpellDisplay.aspx?ItemName=Euphoric%20Cloud"
 source_ids = ["advanced-class-guide", "dark-markets-a-guide-to-katapesh"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "euphoric_cloud", path = "json/spells4.json" },

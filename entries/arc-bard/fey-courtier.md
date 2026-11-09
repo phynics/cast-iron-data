@@ -2,6 +2,7 @@
 id = "ref/arc-bard/fey-courtier"
 kind = "archetype"
 title = "Fey Courtier"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Fey%20Courtier"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fey_courtier", path = "json/archetypes_bard.json" },

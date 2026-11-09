@@ -2,6 +2,7 @@
 id = "ref/spell/grasping-corpse"
 kind = "spell"
 title = "Grasping Corpse"
+aon = "SpellDisplay.aspx?ItemName=Grasping%20Corpse"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grasping_corpse", path = "json/spells5.json" },

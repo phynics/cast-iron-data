@@ -2,6 +2,7 @@
 id = "ref/trait/alchemical-prodigy"
 kind = "trait"
 title = "Alchemical Prodigy"
+aon = "TraitDisplay.aspx?ItemName=Alchemical%20Prodigy"
 source_ids = ["people-of-the-sands", "qadira-gateway-to-the-east"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alchemical_prodigy", path = "json/traits04.json" },

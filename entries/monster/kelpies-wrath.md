@@ -2,6 +2,7 @@
 id = "ref/monster/kelpies-wrath"
 kind = "creature"
 title = "Kelpie's Wrath"
+aon = "MonsterDisplay.aspx?ItemName=Kelpie%E2%80%99s%20Wrath"
 source_ids = ["pathfinder-55-the-wormwood-mutiny"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kelpies_wrath", path = "json/monsters15.json" },

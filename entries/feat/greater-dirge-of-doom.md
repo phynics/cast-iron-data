@@ -2,6 +2,7 @@
 id = "ref/feat/greater-dirge-of-doom"
 kind = "feat"
 title = "Greater Dirge of Doom"
+aon = "FeatDisplay.aspx?ItemName=Greater%20Dirge%20of%20Doom"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_dirge_of_doom", path = "json/feat08.json" },

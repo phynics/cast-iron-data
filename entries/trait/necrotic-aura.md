@@ -2,6 +2,7 @@
 id = "ref/trait/necrotic-aura"
 kind = "trait"
 title = "Necrotic Aura"
+aon = "TraitDisplay.aspx?ItemName=Necrotic%20Aura"
 source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "necrotic_aura", path = "json/traits01.json" },

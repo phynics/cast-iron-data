@@ -2,6 +2,7 @@
 id = "ref/trait/winged-aloofness"
 kind = "trait"
 title = "Winged Aloofness"
+aon = "TraitDisplay.aspx?ItemName=Winged%20Aloofness"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "winged_aloofness", path = "json/traits05.json" },

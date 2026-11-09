@@ -2,6 +2,7 @@
 id = "ref/spell/cosmic-ray"
 kind = "spell"
 title = "Cosmic Ray"
+aon = "SpellDisplay.aspx?ItemName=Cosmic%20Ray"
 source_ids = ["people-of-the-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cosmic_ray", path = "json/spells12.json" },

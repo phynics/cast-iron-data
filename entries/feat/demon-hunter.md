@@ -2,6 +2,7 @@
 id = "ref/feat/demon-hunter"
 kind = "feat"
 title = "Demon Hunter"
+aon = "FeatDisplay.aspx?ItemName=Demon%20Hunter"
 source_ids = ["inner-sea-world-guide", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_hunter", path = "json/feat04.json" },

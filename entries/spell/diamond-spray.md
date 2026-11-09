@@ -2,6 +2,7 @@
 id = "ref/spell/diamond-spray"
 kind = "spell"
 title = "Diamond Spray"
+aon = "SpellDisplay.aspx?ItemName=Diamond%20Spray"
 source_ids = ["pathfinder-24-the-final-wish"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "diamond_spray", path = "json/spells3.json" },

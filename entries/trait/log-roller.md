@@ -2,6 +2,7 @@
 id = "ref/trait/log-roller"
 kind = "trait"
 title = "Log Roller"
+aon = "TraitDisplay.aspx?ItemName=Log%20Roller"
 source_ids = ["ultimate-campaign", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "log_roller", path = "json/traits04.json" },

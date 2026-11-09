@@ -2,6 +2,7 @@
 id = "ref/feat/extend-resonant-power"
 kind = "feat"
 title = "Extend Resonant Power"
+aon = "FeatDisplay.aspx?ItemName=Extend%20Resonant%20Power"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extend_resonant_power", path = "json/feat06.json" },

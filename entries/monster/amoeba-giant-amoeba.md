@@ -2,6 +2,7 @@
 id = "ref/monster/amoeba-giant-amoeba"
 kind = "creature"
 title = "Giant Amoeba"
+aon = "MonsterDisplay.aspx?ItemName=Giant%20Amoeba"
 source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "amoeba_giant_amoeba", path = "json/monsters26.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/hobgoblin-hobgoblin-lieutenant"
 kind = "creature"
 title = "Hobgoblin Lieutenant"
+aon = "MonsterDisplay.aspx?ItemName=Hobgoblin%20Lieutenant"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hobgoblin_hobgoblin_lieutenant", path = "json/monsters13.json" },

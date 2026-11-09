@@ -2,6 +2,7 @@
 id = "ref/arc-arcanist/elemental-master"
 kind = "archetype"
 title = "Elemental Master"
+aon = "ArchetypeDisplay.aspx?FixedName=Arcanist%20Elemental%20Master"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_master", path = "json/archetypes_arcanist.json" },

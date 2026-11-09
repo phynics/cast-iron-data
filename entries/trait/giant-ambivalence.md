@@ -2,6 +2,7 @@
 id = "ref/trait/giant-ambivalence"
 kind = "trait"
 title = "Giant Ambivalence"
+aon = "TraitDisplay.aspx?ItemName=Giant%20Ambivalence"
 source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_ambivalence", path = "json/traits04.json" },

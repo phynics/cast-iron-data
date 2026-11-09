@@ -2,6 +2,7 @@
 id = "ref/spell/wind-wall"
 kind = "spell"
 title = "Wind Wall"
+aon = "SpellDisplay.aspx?ItemName=Wind%20Wall"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wind_wall", path = "json/spells16.json" },

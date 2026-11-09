@@ -2,6 +2,7 @@
 id = "ref/feat/shield-of-swings"
 kind = "feat"
 title = "Shield of Swings"
+aon = "FeatDisplay.aspx?ItemName=Shield%20of%20Swings"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_of_swings", path = "json/feat14.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/shadows-embrace"
 kind = "feat"
 title = "Shadow's Embrace"
+aon = "FeatDisplay.aspx?ItemName=Shadow%27s%20Embrace"
 source_ids = ["chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadows_embrace", path = "json/feat14.json" },

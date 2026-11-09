@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-x-ray-vision"
 kind = "item"
 title = "Ring of X-Ray Vision"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20X-Ray%20Vision"
 source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_x_ray_vision", path = "json/magic_ring.json" },

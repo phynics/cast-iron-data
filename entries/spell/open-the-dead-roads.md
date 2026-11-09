@@ -2,6 +2,7 @@
 id = "ref/spell/open-the-dead-roads"
 kind = "spell"
 title = "Open the Dead Roads"
+aon = "SpellDisplay.aspx?ItemName=Open%20the%20Dead%20Roads"
 source_ids = ["pathfinder-143-borne-by-the-suns-grace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "open_the_dead_roads", path = "json/spells7.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/adjustable-polymorph"
 kind = "spell"
 title = "Adjustable Polymorph"
+aon = "SpellDisplay.aspx?ItemName=Adjustable%20Polymorph"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "adjustable_polymorph", path = "json/spells.json" },

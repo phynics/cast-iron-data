@@ -2,6 +2,7 @@
 id = "ref/spell/telekinesis"
 kind = "spell"
 title = "Telekinesis"
+aon = "SpellDisplay.aspx?ItemName=Telekinesis"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "telekinesis", path = "json/spells10.json" },

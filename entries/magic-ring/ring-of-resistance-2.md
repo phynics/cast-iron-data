@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-resistance-2"
 kind = "item"
 title = "Ring of Resistance (+2)"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Resistance2"
 source_ids = ["pathfinder-123-the-flooded-cathedral"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_resistance_2", path = "json/magic_ring.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/caliban"
 kind = "creature"
 title = "Caliban"
+aon = "MonsterDisplay.aspx?ItemName=Caliban"
 source_ids = ["tears-at-bitter-manor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "caliban", path = "json/monsters04.json" },

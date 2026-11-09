@@ -2,6 +2,7 @@
 id = "ref/spell/overland-flight"
 kind = "spell"
 title = "Overland Flight"
+aon = "SpellDisplay.aspx?ItemName=Overland%20Flight"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "overland_flight", path = "json/spells7.json" },

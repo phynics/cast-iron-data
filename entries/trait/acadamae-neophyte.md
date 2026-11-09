@@ -2,6 +2,7 @@
 id = "ref/trait/acadamae-neophyte"
 kind = "trait"
 title = "Acadamae Neophyte"
+aon = "TraitDisplay.aspx?ItemName=Acadamae%20Neophyte"
 source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "acadamae_neophyte", path = "json/traits02.json" },

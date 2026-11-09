@@ -2,6 +2,7 @@
 id = "ref/trait/failed-aspirant"
 kind = "trait"
 title = "Failed Aspirant"
+aon = "TraitDisplay.aspx?ItemName=Failed%20Aspirant"
 source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "failed_aspirant", path = "json/traits01.json" },

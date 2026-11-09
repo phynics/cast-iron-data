@@ -2,6 +2,7 @@
 id = "ref/feat/skaveling-companion"
 kind = "feat"
 title = "Skaveling Companion"
+aon = "FeatDisplay.aspx?ItemName=Skaveling%20Companion"
 source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skaveling_companion", path = "json/feat14.json" },

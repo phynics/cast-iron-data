@@ -2,6 +2,7 @@
 id = "ref/monster/stranglereed"
 kind = "creature"
 title = "Stranglereed"
+aon = "MonsterDisplay.aspx?ItemName=Stranglereed"
 source_ids = ["bestiary-5", "pathfinder-82-secrets-of-the-sphinx"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stranglereed", path = "json/monsters38.json" },

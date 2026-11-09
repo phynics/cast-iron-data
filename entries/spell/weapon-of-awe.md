@@ -2,6 +2,7 @@
 id = "ref/spell/weapon-of-awe"
 kind = "spell"
 title = "Weapon of Awe"
+aon = "SpellDisplay.aspx?ItemName=Weapon%20of%20Awe"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weapon_of_awe", path = "json/spells11.json" },

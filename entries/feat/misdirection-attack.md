@@ -2,6 +2,7 @@
 id = "ref/feat/misdirection-attack"
 kind = "feat"
 title = "Misdirection Attack"
+aon = "FeatDisplay.aspx?ItemName=Misdirection%20Attack"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "misdirection_attack", path = "json/feat10.json" },

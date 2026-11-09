@@ -2,6 +2,7 @@
 id = "ref/monster/dragon-planar-apocalypse-ancient-apocalypse-dragon"
 kind = "creature"
 title = "Ancient Apocalypse Dragon"
+aon = "MonsterDisplay.aspx?ItemName=Ancient%20Apocalypse%20Dragon"
 source_ids = ["pathfinder-137-the-city-outside-of-time"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_planar_apocalypse_ancient_apocalypse_dragon", path = "json/monsters30.json" },

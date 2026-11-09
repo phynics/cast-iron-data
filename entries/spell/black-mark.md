@@ -2,6 +2,7 @@
 id = "ref/spell/black-mark"
 kind = "spell"
 title = "Black Mark"
+aon = "SpellDisplay.aspx?ItemName=Black%20Mark"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "black_mark", path = "json/spells12.json" },

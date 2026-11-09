@@ -2,6 +2,7 @@
 id = "ref/spell/tactical-adaptation"
 kind = "spell"
 title = "Tactical Adaptation"
+aon = "SpellDisplay.aspx?ItemName=Tactical%20Adaptation"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tactical_adaptation", path = "json/spells10.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/daughter-of-urgathoa"
 kind = "creature"
 title = "Daughter of Urgathoa"
+aon = "MonsterDisplay.aspx?ItemName=Daughter%20of%20Urgathoa"
 source_ids = ["inner-sea-world-guide", "pathfinder-8-seven-days-to-the-grave"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daughter_of_urgathoa", path = "json/monsters08.json" },

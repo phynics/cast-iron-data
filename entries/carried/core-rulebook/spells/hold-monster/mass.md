@@ -2,6 +2,7 @@
 id = "ref/carried/core-rulebook/spells/hold-monster/mass"
 kind = "spell"
 title = "Hold Monster, Mass"
+aon = "SpellDisplay.aspx?ItemName=Hold%20Monster%2C%20Mass"
 source_ids = ["core-rulebook"]
 section = ["Spells", "Hold Monster"]
 tags = ["enchantment", "compulsion", "mind-affecting"]

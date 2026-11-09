@@ -2,6 +2,7 @@
 id = "ref/spell/rotgut"
 kind = "spell"
 title = "Rotgut"
+aon = "SpellDisplay.aspx?ItemName=Rotgut"
 source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rotgut", path = "json/spells8.json" },

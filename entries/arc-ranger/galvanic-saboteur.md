@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/galvanic-saboteur"
 kind = "archetype"
 title = "Galvanic Saboteur"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Galvanic%20Saboteur"
 source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "galvanic_saboteur", path = "json/archetypes_ranger.json" },

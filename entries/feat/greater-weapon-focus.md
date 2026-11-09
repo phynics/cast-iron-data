@@ -2,6 +2,7 @@
 id = "ref/feat/greater-weapon-focus"
 kind = "feat"
 title = "Greater Weapon Focus"
+aon = "FeatDisplay.aspx?ItemName=Greater%20Weapon%20Focus"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_weapon_focus", path = "json/feat08.json" },

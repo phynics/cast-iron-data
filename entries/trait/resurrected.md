@@ -2,6 +2,7 @@
 id = "ref/trait/resurrected"
 kind = "trait"
 title = "Resurrected"
+aon = "TraitDisplay.aspx?ItemName=Resurrected"
 source_ids = ["mummys-mask-players-guide", "people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "resurrected", path = "json/traits02.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-oracle/black-blooded-oracle"
 kind = "archetype"
 title = "Black-Blooded Oracle"
+aon = "ArchetypeDisplay.aspx?FixedName=Oracle%20Black-Blooded%20Oracle"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "black_blooded_oracle", path = "json/archetypes_oracle.json" },

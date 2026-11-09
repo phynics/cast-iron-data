@@ -2,6 +2,7 @@
 id = "ref/feat/extended-scrying"
 kind = "feat"
 title = "Extended Scrying"
+aon = "FeatDisplay.aspx?ItemName=Extended%20Scrying"
 source_ids = ["path-of-the-hellknight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extended_scrying", path = "json/feat06.json" },

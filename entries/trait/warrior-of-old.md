@@ -2,6 +2,7 @@
 id = "ref/trait/warrior-of-old"
 kind = "trait"
 title = "Warrior of Old"
+aon = "TraitDisplay.aspx?ItemName=Warrior%20of%20Old"
 source_ids = ["ultimate-campaign", "advanced-players-guide", "elves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "warrior_of_old", path = "json/traits05.json" },

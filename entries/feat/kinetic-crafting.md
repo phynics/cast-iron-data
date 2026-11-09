@@ -2,6 +2,7 @@
 id = "ref/feat/kinetic-crafting"
 kind = "feat"
 title = "Kinetic Crafting"
+aon = "FeatDisplay.aspx?ItemName=Kinetic%20Crafting"
 source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kinetic_crafting", path = "json/feat09.json" },

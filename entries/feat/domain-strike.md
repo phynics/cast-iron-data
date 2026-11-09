@@ -2,6 +2,7 @@
 id = "ref/feat/domain-strike"
 kind = "feat"
 title = "Domain Strike"
+aon = "FeatDisplay.aspx?ItemName=Domain%20Strike"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "domain_strike", path = "json/feat05.json" },

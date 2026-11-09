@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-invisibility"
 kind = "item"
 title = "Ring of Invisibility"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Invisibility"
 source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_invisibility", path = "json/magic_ring.json" },

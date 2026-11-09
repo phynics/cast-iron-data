@@ -2,6 +2,7 @@
 id = "ref/spell/suppress-charms-and-compulsions"
 kind = "spell"
 title = "Suppress Charms and Compulsions"
+aon = "SpellDisplay.aspx?ItemName=Suppress%20Charms%20and%20Compulsions"
 source_ids = ["adventurers-guide", "andoran-spirit-of-liberty"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "suppress_charms_and_compulsions", path = "json/spells10.json" },

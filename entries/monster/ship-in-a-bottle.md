@@ -2,6 +2,7 @@
 id = "ref/monster/ship-in-a-bottle"
 kind = "creature"
 title = "Ship in a Bottle"
+aon = "MonsterDisplay.aspx?ItemName=Ship%20in%20a%20Bottle"
 source_ids = ["pathfinder-57-tempest-rising"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ship_in_a_bottle", path = "json/monsters38.json" },

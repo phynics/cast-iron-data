@@ -2,6 +2,7 @@
 id = "ref/feat/pummeling-bully"
 kind = "feat"
 title = "Pummeling Bully"
+aon = "FeatDisplay.aspx?ItemName=Pummeling%20Bully"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pummeling_bully", path = "json/feat12.json" },

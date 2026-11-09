@@ -2,6 +2,7 @@
 id = "ref/monster/targotha"
 kind = "creature"
 title = "Targotha"
+aon = "MonsterDisplay.aspx?ItemName=Targotha"
 source_ids = ["bestiary-6", "numeria-land-of-fallen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "targotha", path = "json/monsters23.json" },

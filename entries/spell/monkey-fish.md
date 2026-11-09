@@ -2,6 +2,7 @@
 id = "ref/spell/monkey-fish"
 kind = "spell"
 title = "Monkey Fish"
+aon = "SpellDisplay.aspx?ItemName=Monkey%20Fish"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monkey_fish", path = "json/spells14.json" },

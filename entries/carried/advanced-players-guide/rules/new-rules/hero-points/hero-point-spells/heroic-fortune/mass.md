@@ -2,6 +2,7 @@
 id = "ref/carried/advanced-players-guide/rules/new-rules/hero-points/hero-point-spells/heroic-fortune/mass"
 kind = "spell"
 title = "Heroic Fortune, Mass"
+aon = "SpellDisplay.aspx?ItemName=Heroic%20Fortune%2C%20Mass"
 source_ids = ["advanced-players-guide"]
 section = ["Rules", "New Rules", "Hero Points", "Hero Point Spells", "Heroic Fortune"]
 tags = ["evocation"]

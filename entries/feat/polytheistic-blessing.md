@@ -2,6 +2,7 @@
 id = "ref/feat/polytheistic-blessing"
 kind = "feat"
 title = "Polytheistic Blessing"
+aon = "FeatDisplay.aspx?ItemName=Polytheistic%20Blessing"
 source_ids = ["tombs-of-golarion", "faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "polytheistic_blessing", path = "json/feat12.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/reveal-emotions"
 kind = "spell"
 title = "Reveal Emotions"
+aon = "SpellDisplay.aspx?ItemName=Reveal%20Emotions"
 source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reveal_emotions", path = "json/spells8.json" },

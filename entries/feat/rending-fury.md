@@ -2,6 +2,7 @@
 id = "ref/feat/rending-fury"
 kind = "feat"
 title = "Rending Fury"
+aon = "FeatDisplay.aspx?ItemName=Rending%20Fury"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rending_fury", path = "json/feat13.json" },

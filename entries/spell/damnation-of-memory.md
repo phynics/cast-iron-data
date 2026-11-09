@@ -2,6 +2,7 @@
 id = "ref/spell/damnation-of-memory"
 kind = "spell"
 title = "Damnation of Memory"
+aon = "SpellDisplay.aspx?ItemName=Damnation%20of%20Memory"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "damnation_of_memory", path = "json/spells3.json" },

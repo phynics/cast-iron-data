@@ -2,6 +2,7 @@
 id = "ref/monster/tooth-fairy"
 kind = "creature"
 title = "Tooth Fairy"
+aon = "MonsterDisplay.aspx?ItemName=Tooth%20Fairy"
 source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tooth_fairy", path = "json/monsters23.json" },

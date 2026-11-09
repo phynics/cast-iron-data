@@ -2,6 +2,7 @@
 id = "ref/spell/summon-ship"
 kind = "spell"
 title = "Summon Ship"
+aon = "SpellDisplay.aspx?ItemName=Summon%20Ship"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summon_ship", path = "json/spells16.json" },

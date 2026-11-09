@@ -2,6 +2,7 @@
 id = "ref/feat/gifts-from-the-sea"
 kind = "feat"
 title = "Gifts from the Sea"
+aon = "FeatDisplay.aspx?ItemName=Gifts%20from%20the%20Sea"
 source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gifts_from_the_sea", path = "json/feat07.json" },

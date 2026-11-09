@@ -2,6 +2,7 @@
 id = "ref/spell/radiation-ward"
 kind = "spell"
 title = "Radiation Ward"
+aon = "SpellDisplay.aspx?ItemName=Radiation%20Ward"
 source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "radiation_ward", path = "json/spells8.json" },

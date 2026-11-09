@@ -2,6 +2,7 @@
 id = "ref/spell/tar-pool"
 kind = "spell"
 title = "Tar Pool"
+aon = "SpellDisplay.aspx?ItemName=Tar%20Pool"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tar_pool", path = "json/spells10.json" },

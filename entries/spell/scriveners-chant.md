@@ -2,6 +2,7 @@
 id = "ref/spell/scriveners-chant"
 kind = "spell"
 title = "Scrivener's Chant"
+aon = "SpellDisplay.aspx?ItemName=Scrivener%27s%20Chant"
 source_ids = ["seekers-of-secrets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scriveners_chant", path = "json/spells15.json" },

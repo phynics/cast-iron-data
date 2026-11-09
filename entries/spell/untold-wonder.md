@@ -2,6 +2,7 @@
 id = "ref/spell/untold-wonder"
 kind = "spell"
 title = "Untold Wonder"
+aon = "SpellDisplay.aspx?ItemName=Untold%20Wonder"
 source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "untold_wonder", path = "json/spells11.json" },

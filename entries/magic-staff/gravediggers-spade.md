@@ -2,6 +2,7 @@
 id = "ref/magic-staff/gravediggers-spade"
 kind = "item"
 title = "Gravedigger's Spade"
+aon = "MagicStavesDisplay.aspx?ItemName=Gravedigger%27s%20Spade"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gravediggers_spade", path = "json/magic_staff.json" },

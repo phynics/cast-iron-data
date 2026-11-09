@@ -2,6 +2,7 @@
 id = "ref/feat/subtle-poisoner"
 kind = "feat"
 title = "Subtle Poisoner"
+aon = "FeatDisplay.aspx?ItemName=Subtle%20Poisoner"
 source_ids = ["alchemy-manual"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "subtle_poisoner", path = "json/feat15.json" },

@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/bag-of-devouring"
 kind = "item"
 title = "Bag of Devouring"
+aon = "MagicCursedDisplay.aspx?ItemName=Bag%20of%20Devouring"
 source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bag_of_devouring", path = "json/magic_wondrous_slotless01.json" },

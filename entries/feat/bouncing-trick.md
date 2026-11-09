@@ -2,6 +2,7 @@
 id = "ref/feat/bouncing-trick"
 kind = "feat"
 title = "Bouncing Trick"
+aon = "FeatDisplay.aspx?ItemName=Bouncing%20Trick"
 source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bouncing_trick", path = "json/feat02.json" },

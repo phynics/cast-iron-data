@@ -2,6 +2,7 @@
 id = "ref/trait/drug-addict"
 kind = "trait"
 title = "Drug Addict"
+aon = "TraitDisplay.aspx?ItemName=Drug%20Addict"
 source_ids = ["curse-of-the-crimson-throne", "curse-of-the-crimson-throne-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drug_addict", path = "json/traits02.json" },

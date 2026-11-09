@@ -2,6 +2,7 @@
 id = "ref/feat/bristling-bull-rush"
 kind = "feat"
 title = "Bristling Bull Rush"
+aon = "FeatDisplay.aspx?ItemName=Bristling%20Bull%20Rush"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bristling_bull_rush", path = "json/feat02.json" },

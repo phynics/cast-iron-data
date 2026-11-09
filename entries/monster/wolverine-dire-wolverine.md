@@ -2,6 +2,7 @@
 id = "ref/monster/wolverine-dire-wolverine"
 kind = "creature"
 title = "Dire Wolverine"
+aon = "MonsterDisplay.aspx?ItemName=Dire%20Wolverine"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wolverine_dire_wolverine", path = "json/monsters25.json" },

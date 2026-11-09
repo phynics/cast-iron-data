@@ -2,6 +2,7 @@
 id = "ref/arc-druid/green-scourge"
 kind = "archetype"
 title = "Green Scourge"
+aon = "ArchetypeDisplay.aspx?FixedName=Druid%20Green%20Scourge"
 source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "green_scourge", path = "json/archetypes_druid.json" },

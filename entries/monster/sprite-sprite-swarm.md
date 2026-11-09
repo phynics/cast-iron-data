@@ -2,6 +2,7 @@
 id = "ref/monster/sprite-sprite-swarm"
 kind = "creature"
 title = "Sprite Swarm"
+aon = "MonsterDisplay.aspx?ItemName=Sprite%20Swarm"
 source_ids = ["fey-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sprite_sprite_swarm", path = "json/monsters38.json" },

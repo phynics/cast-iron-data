@@ -2,6 +2,7 @@
 id = "ref/spell/reboot"
 kind = "spell"
 title = "Reboot"
+aon = "SpellDisplay.aspx?ItemName=Reboot"
 source_ids = ["people-of-the-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reboot", path = "json/spells8.json" },

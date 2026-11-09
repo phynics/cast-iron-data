@@ -2,6 +2,7 @@
 id = "ref/trait/magaambyan-arcana"
 kind = "trait"
 title = "Magaambyan Arcana"
+aon = "TraitDisplay.aspx?ItemName=Magaambyan%20Arcana"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magaambyan_arcana", path = "json/traits05.json" },

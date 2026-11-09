@@ -2,6 +2,7 @@
 id = "ref/class/samurai"
 kind = "class"
 title = "Samurai"
+aon = "ClassDisplay.aspx?ItemName=Samurai"
 source_ids = ["ultimate-combat", "chronicle-of-legends", "advanced-players-guide", "advanced-race-guide", "blood-of-the-sea", "ultimate-wilderness", "goblins-of-golarion", "horror-adventures", "blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "samurai", path = "json/classes6.json" },

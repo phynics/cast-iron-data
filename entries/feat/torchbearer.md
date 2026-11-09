@@ -2,6 +2,7 @@
 id = "ref/feat/torchbearer"
 kind = "feat"
 title = "Torchbearer"
+aon = "FeatDisplay.aspx?ItemName=Torchbearer"
 source_ids = ["dungeoneers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "torchbearer", path = "json/feat16.json" },

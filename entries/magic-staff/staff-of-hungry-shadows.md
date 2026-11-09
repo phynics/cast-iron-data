@@ -2,6 +2,7 @@
 id = "ref/magic-staff/staff-of-hungry-shadows"
 kind = "item"
 title = "Staff of Hungry Shadows"
+aon = "MagicStavesDisplay.aspx?ItemName=Staff%20of%20Hungry%20Shadows"
 source_ids = ["ultimate-equipment", "pathfinder-5-sins-of-the-saviors", "rise-of-the-runelords-anniversary-edition"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_hungry_shadows", path = "json/magic_staff.json" },

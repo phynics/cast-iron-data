@@ -2,6 +2,7 @@
 id = "ref/trait/cruel-child"
 kind = "trait"
 title = "Cruel Child"
+aon = "TraitDisplay.aspx?ItemName=Cruel%20Child"
 source_ids = ["blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cruel_child", path = "json/traits05.json" },

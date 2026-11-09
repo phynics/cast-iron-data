@@ -2,6 +2,7 @@
 id = "ref/spell/rovagugs-fury"
 kind = "spell"
 title = "Rovagug's Fury"
+aon = "SpellDisplay.aspx?ItemName=Rovagug%27s%20Fury"
 source_ids = ["inner-sea-gods", "pathfinder-23-the-impossible-eye", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rovagugs_fury", path = "json/spells8.json" },

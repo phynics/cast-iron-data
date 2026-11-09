@@ -2,6 +2,7 @@
 id = "ref/spell/protection-from-good"
 kind = "spell"
 title = "Protection from Good"
+aon = "SpellDisplay.aspx?ItemName=Protection%20from%20Good"
 source_ids = ["core-rulebook", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "protection_from_good", path = "json/spells15.json" },

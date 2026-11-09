@@ -2,6 +2,7 @@
 id = "ref/spell/sign-of-the-dawnflower"
 kind = "spell"
 title = "Sign of the Dawnflower"
+aon = "SpellDisplay.aspx?ItemName=Sign%20of%20the%20Dawnflower"
 source_ids = ["taldor-echoes-of-glory", "inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sign_of_the_dawnflower", path = "json/spells9.json" },

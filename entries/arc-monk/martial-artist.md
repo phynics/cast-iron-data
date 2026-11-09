@@ -2,6 +2,7 @@
 id = "ref/arc-monk/martial-artist"
 kind = "archetype"
 title = "Martial Artist"
+aon = "ArchetypeDisplay.aspx?FixedName=Monk%20Martial%20Artist"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "martial_artist", path = "json/archetypes_monk.json" },

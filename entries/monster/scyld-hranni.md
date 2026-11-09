@@ -2,6 +2,7 @@
 id = "ref/monster/scyld-hranni"
 kind = "creature"
 title = "Scyld Hranni, Storm Giant Matriarch"
+aon = "MonsterDisplay.aspx?ItemName=Scyld%20Hranni%2C%20Storm%20Giant%20Matriarch"
 source_ids = ["giants-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scyld_hranni", path = "json/monsters_unique3.json" },

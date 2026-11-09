@@ -2,6 +2,7 @@
 id = "ref/spell/fury-of-the-sun"
 kind = "spell"
 title = "Fury of the Sun"
+aon = "SpellDisplay.aspx?ItemName=Fury%20of%20the%20Sun"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fury_of_the_sun", path = "json/spells13.json" },

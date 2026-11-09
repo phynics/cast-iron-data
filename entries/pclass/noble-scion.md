@@ -2,6 +2,7 @@
 id = "ref/pclass/noble-scion"
 kind = "prestige_class"
 title = "Noble Scion"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Noble%20Scion"
 source_ids = ["paths-of-prestige"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "noble_scion", path = "json/prestige_classes2.json" },

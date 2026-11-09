@@ -2,6 +2,7 @@
 id = "ref/monster/abrakarn-viper"
 kind = "creature"
 title = "Abrakarn Viper"
+aon = "MonsterDisplay.aspx?ItemName=Abrakarn%20Viper"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "abrakarn_viper", path = "json/monsters01.json" },

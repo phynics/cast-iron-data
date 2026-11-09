@@ -2,6 +2,7 @@
 id = "ref/spell/utter-contempt"
 kind = "spell"
 title = "Utter Contempt"
+aon = "SpellDisplay.aspx?ItemName=Utter%20Contempt"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "utter_contempt", path = "json/spells11.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/infused-spell-cartridges"
 kind = "feat"
 title = "Infused Spell Cartridges"
+aon = "FeatDisplay.aspx?ItemName=Infused%20Spell%20Cartridges"
 source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "infused_spell_cartridges", path = "json/feat09.json" },

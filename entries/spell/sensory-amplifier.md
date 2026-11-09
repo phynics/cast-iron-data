@@ -2,6 +2,7 @@
 id = "ref/spell/sensory-amplifier"
 kind = "spell"
 title = "Sensory Amplifier"
+aon = "SpellDisplay.aspx?ItemName=Sensory%20Amplifier"
 source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sensory_amplifier", path = "json/spells15.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/uvaglor"
 kind = "creature"
 title = "Uvaglor, the Misbegotten Prince"
+aon = "MonsterDisplay.aspx?ItemName=Uvaglor%2C%20the%20Misbegotten%20Prince"
 source_ids = ["demons-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "uvaglor", path = "json/monsters_unique4.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-cleric/triadic-priest"
 kind = "archetype"
 title = "Triadic Priest"
+aon = "ArchetypeDisplay.aspx?FixedName=Cleric%20Triadic%20Priest"
 source_ids = ["blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "triadic_priest", path = "json/archetypes_cleric.json" },

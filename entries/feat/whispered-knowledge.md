@@ -2,6 +2,7 @@
 id = "ref/feat/whispered-knowledge"
 kind = "feat"
 title = "Whispered Knowledge"
+aon = "FeatDisplay.aspx?ItemName=Whispered%20Knowledge"
 source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "whispered_knowledge", path = "json/feat17.json" },

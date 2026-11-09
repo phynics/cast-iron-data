@@ -2,6 +2,7 @@
 id = "ref/feat/faeries-strike"
 kind = "feat"
 title = "Faerie's Strike"
+aon = "FeatDisplay.aspx?ItemName=Faerie%27s%20Strike"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "faeries_strike", path = "json/feat06.json" },

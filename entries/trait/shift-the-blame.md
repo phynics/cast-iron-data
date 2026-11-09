@@ -2,6 +2,7 @@
 id = "ref/trait/shift-the-blame"
 kind = "trait"
 title = "Shift the Blame"
+aon = "TraitDisplay.aspx?ItemName=Shift%20the%20Blame"
 source_ids = ["blood-of-fiends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shift_the_blame", path = "json/traits05.json" },

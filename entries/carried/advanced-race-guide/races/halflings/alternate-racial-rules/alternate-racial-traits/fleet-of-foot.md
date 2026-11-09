@@ -2,6 +2,7 @@
 id = "ref/carried/advanced-race-guide/races/halflings/alternate-racial-rules/alternate-racial-traits/fleet-of-foot"
 kind = "racial_trait"
 title = "Fleet of Foot"
+aon = "TraitDisplay.aspx?ItemName=Fleet%20of%20Foot"
 source_ids = ["advanced-race-guide"]
 section = ["Races", "Halflings", "Alternate Racial Rules", "Alternate Racial Traits"]
 tags = ["alternate", "halfling"]

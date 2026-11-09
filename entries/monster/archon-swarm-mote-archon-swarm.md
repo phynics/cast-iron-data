@@ -2,6 +2,7 @@
 id = "ref/monster/archon-swarm-mote-archon-swarm"
 kind = "creature"
 title = "Mote Archon Swarm"
+aon = "MonsterDisplay.aspx?ItemName=Mote%20Archon%20Swarm"
 source_ids = ["pathfinder-108-hell-comes-to-westcrown"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "archon_swarm_mote_archon_swarm", path = "json/monsters02.json" },

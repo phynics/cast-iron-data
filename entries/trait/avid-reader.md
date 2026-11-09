@@ -2,6 +2,7 @@
 id = "ref/trait/avid-reader"
 kind = "trait"
 title = "Avid Reader"
+aon = "TraitDisplay.aspx?ItemName=Avid%20Reader"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "avid_reader", path = "json/traits01.json" },

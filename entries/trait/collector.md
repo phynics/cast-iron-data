@@ -2,6 +2,7 @@
 id = "ref/trait/collector"
 kind = "trait"
 title = "Collector"
+aon = "TraitDisplay.aspx?ItemName=Collector"
 source_ids = ["gnomes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "collector", path = "json/traits01.json" },

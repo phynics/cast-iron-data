@@ -2,6 +2,7 @@
 id = "ref/spell/defile-armor"
 kind = "spell"
 title = "Defile Armor"
+aon = "SpellDisplay.aspx?ItemName=Defile%20Armor"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "defile_armor", path = "json/spells3.json" },

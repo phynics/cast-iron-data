@@ -2,6 +2,7 @@
 id = "ref/feat/sundering-strike"
 kind = "feat"
 title = "Sundering Strike"
+aon = "FeatDisplay.aspx?ItemName=Sundering%20Strike"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sundering_strike", path = "json/feat15.json" },

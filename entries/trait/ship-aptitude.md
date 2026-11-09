@@ -2,6 +2,7 @@
 id = "ref/trait/ship-aptitude"
 kind = "trait"
 title = "Ship Aptitude"
+aon = "TraitDisplay.aspx?ItemName=Ship%20Aptitude"
 source_ids = ["pirates-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ship_aptitude", path = "json/traits04.json" },

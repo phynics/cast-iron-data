@@ -2,6 +2,7 @@
 id = "ref/feat/befuddling-initiative"
 kind = "feat"
 title = "Befuddling Initiative"
+aon = "FeatDisplay.aspx?ItemName=Befuddling%20Initiative"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "befuddling_initiative", path = "json/feat02.json" },

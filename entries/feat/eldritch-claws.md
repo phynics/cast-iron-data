@@ -2,6 +2,7 @@
 id = "ref/feat/eldritch-claws"
 kind = "feat"
 title = "Eldritch Claws"
+aon = "FeatDisplay.aspx?ItemName=Eldritch%20Claws"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eldritch_claws", path = "json/feat05.json" },

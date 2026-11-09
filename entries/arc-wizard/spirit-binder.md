@@ -2,6 +2,7 @@
 id = "ref/arc-wizard/spirit-binder"
 kind = "archetype"
 title = "Spirit Binder"
+aon = "ArchetypeDisplay.aspx?FixedName=Wizard%20Spirit%20Binder"
 source_ids = ["familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spirit_binder", path = "json/archetypes_wizard.json" },

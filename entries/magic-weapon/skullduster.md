@@ -2,6 +2,7 @@
 id = "ref/magic-weapon/skullduster"
 kind = "item"
 title = "Skullduster"
+aon = "MagicIntelligentDisplay.aspx?ItemName=Skullduster"
 source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skullduster", path = "json/magic_weapon2.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/illusion-mastery"
 kind = "feat"
 title = "Illusion Mastery"
+aon = "FeatDisplay.aspx?ItemName=Illusion%20Mastery"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "illusion_mastery", path = "json/feat08.json" },

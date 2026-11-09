@@ -2,6 +2,7 @@
 id = "ref/arc-alchemist/saboteur"
 kind = "archetype"
 title = "Saboteur"
+aon = "ArchetypeDisplay.aspx?FixedName=Alchemist%20Saboteur"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "saboteur", path = "json/archetypes_alchemist2.json" },

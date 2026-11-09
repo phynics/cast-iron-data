@@ -2,6 +2,7 @@
 id = "ref/spell/soul-transfer"
 kind = "spell"
 title = "Soul Transfer"
+aon = "SpellDisplay.aspx?ItemName=Soul%20Transfer"
 source_ids = ["core-rulebook", "book-of-the-damned", "book-of-the-damned-volume-3-horsemen-of-the-apocalypse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soul_transfer", path = "json/spells10.json" },

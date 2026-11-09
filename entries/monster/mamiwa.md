@@ -2,6 +2,7 @@
 id = "ref/monster/mamiwa"
 kind = "creature"
 title = "Mamiwa"
+aon = "MonsterDisplay.aspx?ItemName=Mamiwa"
 source_ids = ["ire-of-the-storm"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mamiwa", path = "json/monsters16.json" },

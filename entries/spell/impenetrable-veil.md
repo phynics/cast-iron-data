@@ -2,6 +2,7 @@
 id = "ref/spell/impenetrable-veil"
 kind = "spell"
 title = "Impenetrable Veil"
+aon = "SpellDisplay.aspx?ItemName=Impenetrable%20Veil"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "impenetrable_veil", path = "json/spells14.json" },

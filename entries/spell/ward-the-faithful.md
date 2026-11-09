@@ -2,6 +2,7 @@
 id = "ref/spell/ward-the-faithful"
 kind = "spell"
 title = "Ward the Faithful"
+aon = "SpellDisplay.aspx?ItemName=Ward%20the%20Faithful"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ward_the_faithful", path = "json/spells11.json" },

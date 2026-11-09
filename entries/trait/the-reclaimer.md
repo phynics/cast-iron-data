@@ -2,6 +2,7 @@
 id = "ref/trait/the-reclaimer"
 kind = "trait"
 title = "The Reclaimer"
+aon = "TraitDisplay.aspx?ItemName=The%20Reclaimer"
 source_ids = ["tyrants-grasp-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_reclaimer", path = "json/traits03.json" },

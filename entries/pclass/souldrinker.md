@@ -2,6 +2,7 @@
 id = "ref/pclass/souldrinker"
 kind = "prestige_class"
 title = "Souldrinker"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Souldrinker"
 source_ids = ["book-of-the-damned", "book-of-the-damned-volume-3-horsemen-of-the-apocalypse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "souldrinker", path = "json/prestige_classes3.json" },

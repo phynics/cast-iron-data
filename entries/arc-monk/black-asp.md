@@ -2,6 +2,7 @@
 id = "ref/arc-monk/black-asp"
 kind = "archetype"
 title = "Black Asp"
+aon = "ArchetypeDisplay.aspx?FixedName=Monk%20Black%20Asp"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "black_asp", path = "json/archetypes_monk.json" },

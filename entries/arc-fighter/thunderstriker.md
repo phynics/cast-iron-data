@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/thunderstriker"
 kind = "archetype"
 title = "Thunderstriker"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Thunderstriker"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thunderstriker", path = "json/archetypes_fighter2.json" },

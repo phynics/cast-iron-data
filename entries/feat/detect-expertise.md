@@ -2,6 +2,7 @@
 id = "ref/feat/detect-expertise"
 kind = "feat"
 title = "Detect Expertise"
+aon = "FeatDisplay.aspx?ItemName=Detect%20Expertise"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "detect_expertise", path = "json/feat04.json" },

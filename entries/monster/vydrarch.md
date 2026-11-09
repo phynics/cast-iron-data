@@ -2,6 +2,7 @@
 id = "ref/monster/vydrarch"
 kind = "creature"
 title = "Vydrarch"
+aon = "MonsterDisplay.aspx?ItemName=Vydrarch"
 source_ids = ["magnimar-city-of-monuments"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vydrarch", path = "json/monsters40.json" },

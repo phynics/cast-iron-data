@@ -2,6 +2,7 @@
 id = "ref/monster/sea-crawler"
 kind = "creature"
 title = "Sea Crawler"
+aon = "MonsterDisplay.aspx?ItemName=Sea%20Crawler"
 source_ids = ["pathfinder-121-the-lost-outpost"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sea_crawler", path = "json/monsters21.json" },

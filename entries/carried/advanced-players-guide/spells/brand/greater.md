@@ -2,6 +2,7 @@
 id = "ref/carried/advanced-players-guide/spells/brand/greater"
 kind = "spell"
 title = "Brand, Greater"
+aon = "SpellDisplay.aspx?ItemName=Brand%2C%20Greater"
 source_ids = ["advanced-players-guide"]
 section = ["Spells", "Brand"]
 tags = ["transmutation", "curse"]

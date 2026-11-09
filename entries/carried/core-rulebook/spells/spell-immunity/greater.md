@@ -2,6 +2,7 @@
 id = "ref/carried/core-rulebook/spells/spell-immunity/greater"
 kind = "spell"
 title = "Spell Immunity, Greater"
+aon = "SpellDisplay.aspx?ItemName=Spell%20Immunity%2C%20Greater"
 source_ids = ["core-rulebook"]
 section = ["Spells", "Spell Immunity"]
 tags = ["abjuration"]

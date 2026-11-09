@@ -2,6 +2,7 @@
 id = "ref/magic-weapon/lightning-bow"
 kind = "item"
 title = "Lightning Bow"
+aon = "MagicIntelligentDisplay.aspx?ItemName=Lightning%20Bow"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lightning_bow", path = "json/magic_weapon2.json" },

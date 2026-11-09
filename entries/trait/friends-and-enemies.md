@@ -2,6 +2,7 @@
 id = "ref/trait/friends-and-enemies"
 kind = "trait"
 title = "Friends and Enemies"
+aon = "TraitDisplay.aspx?ItemName=Friends%20and%20Enemies"
 source_ids = ["rise-of-the-runelords-anniversary-edition-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "friends_and_enemies", path = "json/traits02.json" },

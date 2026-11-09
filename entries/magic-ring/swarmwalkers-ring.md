@@ -2,6 +2,7 @@
 id = "ref/magic-ring/swarmwalkers-ring"
 kind = "item"
 title = "Swarmwalker's Ring"
+aon = "MagicRingsDisplay.aspx?FinalName=Swarmwalker%27s%20Ring"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swarmwalkers_ring", path = "json/magic_ring.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/angelic-guardian"
 kind = "creature"
 title = "Angelic Guardian"
+aon = "MonsterDisplay.aspx?ItemName=Angelic%20Guardian"
 source_ids = ["magnimar-city-of-monuments"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "angelic_guardian", path = "json/monsters26.json" },

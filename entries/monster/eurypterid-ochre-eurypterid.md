@@ -2,6 +2,7 @@
 id = "ref/monster/eurypterid-ochre-eurypterid"
 kind = "creature"
 title = "Ochre Eurypterid"
+aon = "MonsterDisplay.aspx?ItemName=Ochre%20Eurypterid"
 source_ids = ["pathfinder-37-souls-for-smugglers-shiv"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eurypterid_ochre_eurypterid", path = "json/monsters42.json" },

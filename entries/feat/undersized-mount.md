@@ -2,6 +2,7 @@
 id = "ref/feat/undersized-mount"
 kind = "feat"
 title = "Undersized Mount"
+aon = "FeatDisplay.aspx?ItemName=Undersized%20Mount"
 source_ids = ["gallows-of-madness", "advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "undersized_mount", path = "json/feat16.json" },

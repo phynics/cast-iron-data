@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-three-wishes"
 kind = "item"
 title = "Ring of Three Wishes"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Three%20Wishes"
 source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_three_wishes", path = "json/magic_ring.json" },

@@ -2,6 +2,7 @@
 id = "ref/carried/bestiary/monsters/lycanthrope/werewolf/werewolf-hybrid-form"
 kind = "creature"
 title = "Werewolf (Hybrid Form)"
+aon = "MonsterDisplay.aspx?ItemName=Werewolf%20%28Hybrid%20Form%29"
 source_ids = ["bestiary"]
 section = ["Monsters", "Lycanthrope", "Werewolf"]
 tags = ["humanoid", "human", "shapechanger", "medium"]

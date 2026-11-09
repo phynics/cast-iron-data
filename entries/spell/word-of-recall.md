@@ -2,6 +2,7 @@
 id = "ref/spell/word-of-recall"
 kind = "spell"
 title = "Word of Recall"
+aon = "SpellDisplay.aspx?ItemName=Word%20of%20Recall"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "word_of_recall", path = "json/spells16.json" },

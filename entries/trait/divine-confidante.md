@@ -2,6 +2,7 @@
 id = "ref/trait/divine-confidante"
 kind = "trait"
 title = "Divine Confidante"
+aon = "TraitDisplay.aspx?ItemName=Divine%20Confidante"
 source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divine_confidante", path = "json/traits01.json" },

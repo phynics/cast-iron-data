@@ -2,6 +2,7 @@
 id = "ref/trait/wasteland-hunter"
 kind = "trait"
 title = "Wasteland Hunter"
+aon = "TraitDisplay.aspx?ItemName=Wasteland%20Hunter"
 source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wasteland_hunter", path = "json/traits05.json" },

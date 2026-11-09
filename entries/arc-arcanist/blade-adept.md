@@ -2,6 +2,7 @@
 id = "ref/arc-arcanist/blade-adept"
 kind = "archetype"
 title = "Blade Adept"
+aon = "ArchetypeDisplay.aspx?FixedName=Arcanist%20Blade%20Adept"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blade_adept", path = "json/archetypes_arcanist.json" },

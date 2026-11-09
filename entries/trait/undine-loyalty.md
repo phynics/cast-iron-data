@@ -2,6 +2,7 @@
 id = "ref/trait/undine-loyalty"
 kind = "trait"
 title = "Undine Loyalty"
+aon = "TraitDisplay.aspx?ItemName=Undine%20Loyalty"
 source_ids = ["bastards-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "undine_loyalty", path = "json/traits05.json" },

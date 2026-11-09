@@ -2,6 +2,7 @@
 id = "ref/feat/friendly-rivalry"
 kind = "feat"
 title = "Friendly Rivalry"
+aon = "FeatDisplay.aspx?ItemName=Friendly%20Rivalry"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "friendly_rivalry", path = "json/feat07.json" },

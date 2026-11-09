@@ -2,6 +2,7 @@
 id = "ref/feat/animal-ferocity"
 kind = "feat"
 title = "Animal Ferocity"
+aon = "FeatDisplay.aspx?ItemName=Animal%20Ferocity"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animal_ferocity", path = "json/feat01.json" },

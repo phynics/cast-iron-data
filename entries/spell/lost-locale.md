@@ -2,6 +2,7 @@
 id = "ref/spell/lost-locale"
 kind = "spell"
 title = "Lost Locale"
+aon = "SpellDisplay.aspx?ItemName=Lost%20Locale"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lost_locale", path = "json/spells6.json" },

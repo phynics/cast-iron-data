@@ -2,6 +2,7 @@
 id = "ref/feat/knowledgeable-spellcaster"
 kind = "feat"
 title = "Knowledgeable Spellcaster"
+aon = "FeatDisplay.aspx?ItemName=Knowledgeable%20Spellcaster"
 source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "knowledgeable_spellcaster", path = "json/feat09.json" },

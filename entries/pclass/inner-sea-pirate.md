@@ -2,6 +2,7 @@
 id = "ref/pclass/inner-sea-pirate"
 kind = "prestige_class"
 title = "Inner Sea Pirate"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Inner%20Sea%20Pirate"
 source_ids = ["pirates-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inner_sea_pirate", path = "json/prestige_classes2.json" },

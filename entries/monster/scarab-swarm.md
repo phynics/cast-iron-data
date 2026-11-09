@@ -2,6 +2,7 @@
 id = "ref/monster/scarab-swarm"
 kind = "creature"
 title = "Scarab Swarm"
+aon = "MonsterDisplay.aspx?ItemName=Scarab%20Swarm"
 source_ids = ["bestiary-5", "pathfinder-79-the-half-dead-city"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scarab_swarm", path = "json/monsters21.json" },

@@ -2,6 +2,7 @@
 id = "ref/pclass/inheritors-crusader"
 kind = "prestige_class"
 title = "Inheritor's Crusader"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Inheritor%27s%20Crusader"
 source_ids = ["pathfinder-26-the-sixfold-trial"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inheritors_crusader", path = "json/prestige_classes2.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/sun-striker"
 kind = "feat"
 title = "Sun Striker"
+aon = "FeatDisplay.aspx?ItemName=Sun%20Striker"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sun_striker", path = "json/feat15.json" },

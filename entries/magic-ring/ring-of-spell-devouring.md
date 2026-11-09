@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-spell-devouring"
 kind = "item"
 title = "Ring of Spell Devouring"
+aon = "MagicCursedDisplay.aspx?ItemName=Ring%20of%20Spell%20Devouring"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_spell_devouring", path = "json/magic_ring.json" },

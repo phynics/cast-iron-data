@@ -2,6 +2,7 @@
 id = "ref/feat/tenacious-spell"
 kind = "feat"
 title = "Tenacious Spell"
+aon = "FeatDisplay.aspx?ItemName=Tenacious%20Spell"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tenacious_spell", path = "json/feat16.json" },

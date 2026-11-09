@@ -2,6 +2,7 @@
 id = "ref/feat/heroic-interposition"
 kind = "feat"
 title = "Heroic Interposition"
+aon = "FeatDisplay.aspx?ItemName=Heroic%20Interposition"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heroic_interposition", path = "json/feat08.json" },

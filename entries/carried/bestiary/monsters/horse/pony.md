@@ -2,6 +2,7 @@
 id = "ref/carried/bestiary/monsters/horse/pony"
 kind = "creature"
 title = "Horse, Pony"
+aon = "MonsterDisplay.aspx?ItemName=Pony"
 source_ids = ["bestiary"]
 section = ["Monsters", "Horse"]
 tags = ["animal", "medium"]

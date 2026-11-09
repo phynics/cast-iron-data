@@ -2,6 +2,7 @@
 id = "ref/arc-inquisitor/ravener-hunter"
 kind = "archetype"
 title = "Ravener Hunter"
+aon = "ArchetypeDisplay.aspx?FixedName=Inquisitor%20Ravener%20Hunter"
 source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ravener_hunter", path = "json/archetypes_inquisitor.json" },

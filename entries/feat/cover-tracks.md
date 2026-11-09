@@ -2,6 +2,7 @@
 id = "ref/feat/cover-tracks"
 kind = "feat"
 title = "Cover Tracks"
+aon = "FeatDisplay.aspx?ItemName=Cover%20Tracks"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cover_tracks", path = "json/feat03.json" },

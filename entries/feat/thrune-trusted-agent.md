@@ -2,6 +2,7 @@
 id = "ref/feat/thrune-trusted-agent"
 kind = "feat"
 title = "Thrune Trusted Agent"
+aon = "FeatDisplay.aspx?ItemName=Thrune%20Trusted%20Agent"
 source_ids = ["pathfinder-105-the-inferno-gate"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thrune_trusted_agent", path = "json/feat16.json" },

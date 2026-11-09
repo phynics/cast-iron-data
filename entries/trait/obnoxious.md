@@ -2,6 +2,7 @@
 id = "ref/trait/obnoxious"
 kind = "trait"
 title = "Obnoxious"
+aon = "TraitDisplay.aspx?ItemName=Obnoxious"
 source_ids = ["antiheros-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "obnoxious", path = "json/traits01.json" },

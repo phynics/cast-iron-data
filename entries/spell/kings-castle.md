@@ -2,6 +2,7 @@
 id = "ref/spell/kings-castle"
 kind = "spell"
 title = "King's Castle"
+aon = "SpellDisplay.aspx?ItemName=King%27s%20Castle"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kings_castle", path = "json/spells6.json" },

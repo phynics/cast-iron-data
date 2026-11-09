@@ -2,6 +2,7 @@
 id = "ref/spell/imbue-army-special-ability"
 kind = "spell"
 title = "Imbue Army Special Ability"
+aon = "SpellDisplay.aspx?ItemName=Imbue%20Army%20Special%20Ability"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "imbue_army_special_ability", path = "json/spells14.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-witch/bouda"
 kind = "archetype"
 title = "Bouda"
+aon = "ArchetypeDisplay.aspx?FixedName=Witch%20Bouda"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bouda", path = "json/archetypes_witch.json" },

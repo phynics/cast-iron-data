@@ -2,6 +2,7 @@
 id = "ref/monster/crab-crab-swarm"
 kind = "creature"
 title = "Crab Swarm"
+aon = "MonsterDisplay.aspx?ItemName=Crab%20Swarm"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crab_crab_swarm", path = "json/monsters28.json" },

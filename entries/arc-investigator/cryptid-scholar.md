@@ -2,6 +2,7 @@
 id = "ref/arc-investigator/cryptid-scholar"
 kind = "archetype"
 title = "Cryptid Scholar"
+aon = "ArchetypeDisplay.aspx?FixedName=Investigator%20Cryptid%20Scholar"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cryptid_scholar", path = "json/archetypes_investigator.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/eagle-aerie"
 kind = "spell"
 title = "Eagle Aerie"
+aon = "SpellDisplay.aspx?ItemName=Eagle%20Aerie"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eagle_aerie", path = "json/spells13.json" },

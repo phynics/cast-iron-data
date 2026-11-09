@@ -2,6 +2,7 @@
 id = "ref/trait/friend-of-the-fey"
 kind = "trait"
 title = "Friend of the Fey"
+aon = "TraitDisplay.aspx?ItemName=Friend%20of%20the%20Fey"
 source_ids = ["inner-sea-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "friend_of_the_fey", path = "json/traits04.json" },

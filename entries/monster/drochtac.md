@@ -2,6 +2,7 @@
 id = "ref/monster/drochtac"
 kind = "creature"
 title = "Drochtac"
+aon = "MonsterDisplay.aspx?ItemName=Drochtac"
 source_ids = ["gallows-of-madness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drochtac", path = "json/monsters07.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/crisis-of-faith"
 kind = "trait"
 title = "Crisis of Faith"
+aon = "TraitDisplay.aspx?ItemName=Crisis%20of%20Faith"
 source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crisis_of_faith", path = "json/traits01.json" },

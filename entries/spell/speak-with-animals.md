@@ -2,6 +2,7 @@
 id = "ref/spell/speak-with-animals"
 kind = "spell"
 title = "Speak with Animals"
+aon = "SpellDisplay.aspx?ItemName=Speak%20with%20Animals"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "speak_with_animals", path = "json/spells9.json" },

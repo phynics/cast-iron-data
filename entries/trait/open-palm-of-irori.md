@@ -2,6 +2,7 @@
 id = "ref/trait/open-palm-of-irori"
 kind = "trait"
 title = "Open Palm of Irori"
+aon = "TraitDisplay.aspx?ItemName=Open%20Palm%20of%20Irori"
 source_ids = ["humans-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "open_palm_of_irori", path = "json/traits05.json" },

@@ -2,6 +2,7 @@
 id = "ref/pclass/holy-vindicator"
 kind = "prestige_class"
 title = "Holy Vindicator"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Holy%20Vindicator"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "holy_vindicator", path = "json/prestige_classes2.json" },

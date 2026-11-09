@@ -2,6 +2,7 @@
 id = "ref/trait/undermarket-smuggler"
 kind = "trait"
 title = "Undermarket Smuggler"
+aon = "TraitDisplay.aspx?ItemName=Undermarket%20Smuggler"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "undermarket_smuggler", path = "json/traits04.json" },

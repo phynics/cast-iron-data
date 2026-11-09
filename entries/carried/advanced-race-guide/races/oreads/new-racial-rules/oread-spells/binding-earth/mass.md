@@ -2,6 +2,7 @@
 id = "ref/carried/advanced-race-guide/races/oreads/new-racial-rules/oread-spells/binding-earth/mass"
 kind = "spell"
 title = "Binding Earth, Mass"
+aon = "SpellDisplay.aspx?ItemName=Binding%20Earth%2C%20Mass"
 source_ids = ["advanced-race-guide"]
 section = ["Races", "Oreads", "New Racial Rules", "Oread Spells", "Binding Earth"]
 tags = ["transmutation", "earth"]

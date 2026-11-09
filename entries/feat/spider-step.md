@@ -2,6 +2,7 @@
 id = "ref/feat/spider-step"
 kind = "feat"
 title = "Spider Step"
+aon = "FeatDisplay.aspx?ItemName=Spider%20Step"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spider_step", path = "json/feat14.json" },

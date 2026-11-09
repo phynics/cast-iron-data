@@ -2,6 +2,7 @@
 id = "ref/monster/inverted-giant"
 kind = "creature"
 title = "Inverted Giant"
+aon = "MonsterDisplay.aspx?ItemName=Inverted%20Giant"
 source_ids = ["lost-kingdoms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inverted_giant", path = "json/monsters14.json" },

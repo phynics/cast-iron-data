@@ -2,6 +2,7 @@
 id = "ref/magic-staff/staff-of-hunting"
 kind = "item"
 title = "Staff of Hunting"
+aon = "MagicStavesDisplay.aspx?ItemName=Staff%20of%20Hunting"
 source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_hunting", path = "json/magic_staff.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/toxic-secretions"
 kind = "feat"
 title = "Toxic Secretions"
+aon = "FeatDisplay.aspx?ItemName=Toxic%20Secretions"
 source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "toxic_secretions", path = "json/feat16.json" },

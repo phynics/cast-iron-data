@@ -2,6 +2,7 @@
 id = "ref/magic-weapon/mace-of-blood"
 kind = "item"
 title = "Mace of Blood"
+aon = "MagicCursedDisplay.aspx?ItemName=Mace%20of%20Blood"
 source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mace_of_blood", path = "json/magic_weapon2.json" },

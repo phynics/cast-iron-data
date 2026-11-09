@@ -2,6 +2,7 @@
 id = "ref/trait/too-many-secrets"
 kind = "trait"
 title = "Too Many Secrets"
+aon = "TraitDisplay.aspx?ItemName=Too%20Many%20Secrets"
 source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "too_many_secrets", path = "json/traits03.json" },

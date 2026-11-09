@@ -2,6 +2,7 @@
 id = "ref/pclass/dawnflower-anchorite"
 kind = "prestige_class"
 title = "Dawnflower Anchorite"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Dawnflower%20Anchorite"
 source_ids = ["paths-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dawnflower_anchorite", path = "json/prestige_classes.json" },

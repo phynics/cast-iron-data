@@ -2,6 +2,7 @@
 id = "ref/feat/reinforced-crafting"
 kind = "feat"
 title = "Reinforced Crafting"
+aon = "FeatDisplay.aspx?ItemName=Reinforced%20Crafting"
 source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reinforced_crafting", path = "json/feat13.json" },

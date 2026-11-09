@@ -2,6 +2,7 @@
 id = "ref/monster/svathurim"
 kind = "creature"
 title = "Svathurim"
+aon = "MonsterDisplay.aspx?ItemName=Svathurim"
 source_ids = ["monster-codex", "pathfinder-69-maiden-mother-crone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "svathurim", path = "json/monsters24.json" },

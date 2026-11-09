@@ -2,6 +2,7 @@
 id = "ref/trait/true-devotion"
 kind = "trait"
 title = "True Devotion"
+aon = "TraitDisplay.aspx?ItemName=True%20Devotion"
 source_ids = ["strange-aeons-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "true_devotion", path = "json/traits03.json" },

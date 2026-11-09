@@ -2,6 +2,7 @@
 id = "ref/spell/cognitive-block"
 kind = "spell"
 title = "Cognitive Block"
+aon = "SpellDisplay.aspx?ItemName=Cognitive%20Block"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cognitive_block", path = "json/spells2.json" },

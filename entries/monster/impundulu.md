@@ -2,6 +2,7 @@
 id = "ref/monster/impundulu"
 kind = "creature"
 title = "Impundulu"
+aon = "MonsterDisplay.aspx?ItemName=Impundulu"
 source_ids = ["pathfinder-40-vaults-of-madness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "impundulu", path = "json/monsters14.json" },

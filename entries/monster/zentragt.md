@@ -2,6 +2,7 @@
 id = "ref/monster/zentragt"
 kind = "creature"
 title = "Zentragt"
+aon = "MonsterDisplay.aspx?ItemName=Zentragt"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "zentragt", path = "json/monsters41.json" },

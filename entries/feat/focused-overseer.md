@@ -2,6 +2,7 @@
 id = "ref/feat/focused-overseer"
 kind = "feat"
 title = "Focused Overseer"
+aon = "FeatDisplay.aspx?ItemName=Focused%20Overseer"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "focused_overseer", path = "json/feat07.json" },

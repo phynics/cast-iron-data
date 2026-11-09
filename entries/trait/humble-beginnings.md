@@ -2,6 +2,7 @@
 id = "ref/trait/humble-beginnings"
 kind = "trait"
 title = "Humble Beginnings"
+aon = "TraitDisplay.aspx?ItemName=Humble%20Beginnings"
 source_ids = ["varisia-birthplace-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "humble_beginnings", path = "json/traits04.json" },

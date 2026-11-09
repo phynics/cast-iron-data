@@ -2,6 +2,7 @@
 id = "ref/spell/authenticating-gaze"
 kind = "spell"
 title = "Authenticating Gaze"
+aon = "SpellDisplay.aspx?ItemName=Authenticating%20Gaze"
 source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "authenticating_gaze", path = "json/spells.json" },

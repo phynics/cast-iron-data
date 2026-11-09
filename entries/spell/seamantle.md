@@ -2,6 +2,7 @@
 id = "ref/spell/seamantle"
 kind = "spell"
 title = "Seamantle"
+aon = "SpellDisplay.aspx?ItemName=Seamantle"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seamantle", path = "json/spells15.json" },

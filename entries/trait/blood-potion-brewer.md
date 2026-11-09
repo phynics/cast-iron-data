@@ -2,6 +2,7 @@
 id = "ref/trait/blood-potion-brewer"
 kind = "trait"
 title = "Blood Potion Brewer"
+aon = "TraitDisplay.aspx?ItemName=Blood%20Potion%20Brewer"
 source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_potion_brewer", path = "json/traits04.json" },

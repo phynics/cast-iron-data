@@ -2,6 +2,7 @@
 id = "ref/feat/spiritualists-call"
 kind = "feat"
 title = "Spiritualist's Call"
+aon = "FeatDisplay.aspx?ItemName=Spiritualist%27s%20Call"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spiritualists_call", path = "json/feat15.json" },

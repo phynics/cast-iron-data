@@ -2,6 +2,7 @@
 id = "ref/trait/enemy-of-the-undead"
 kind = "trait"
 title = "Enemy of the Undead"
+aon = "TraitDisplay.aspx?ItemName=Enemy%20of%20the%20Undead"
 source_ids = ["inner-sea-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enemy_of_the_undead", path = "json/traits04.json" },

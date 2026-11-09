@@ -2,6 +2,7 @@
 id = "ref/arc-swashbuckler/picaroon"
 kind = "archetype"
 title = "Picaroon"
+aon = "ArchetypeDisplay.aspx?FixedName=Swashbuckler%20Picaroon"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "picaroon", path = "json/archetypes_swashbuckler.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/ice-body"
 kind = "spell"
 title = "Ice Body"
+aon = "SpellDisplay.aspx?ItemName=Ice%20Body"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ice_body", path = "json/spells5.json" },

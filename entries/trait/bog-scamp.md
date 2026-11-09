@@ -2,6 +2,7 @@
 id = "ref/trait/bog-scamp"
 kind = "trait"
 title = "Bog Scamp"
+aon = "TraitDisplay.aspx?ItemName=Bog%20Scamp"
 source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bog_scamp", path = "json/traits05.json" },

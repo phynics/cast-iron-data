@@ -2,6 +2,7 @@
 id = "ref/feat/maddening-obliteration"
 kind = "feat"
 title = "Maddening Obliteration"
+aon = "FeatDisplay.aspx?ItemName=Maddening%20Obliteration"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "maddening_obliteration", path = "json/feat10.json" },

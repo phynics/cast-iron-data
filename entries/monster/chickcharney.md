@@ -2,6 +2,7 @@
 id = "ref/monster/chickcharney"
 kind = "creature"
 title = "Chickcharney"
+aon = "MonsterDisplay.aspx?ItemName=Chickcharney"
 source_ids = ["isles-of-the-shackles"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chickcharney", path = "json/monsters05.json" },

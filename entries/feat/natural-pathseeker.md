@@ -2,6 +2,7 @@
 id = "ref/feat/natural-pathseeker"
 kind = "feat"
 title = "Natural Pathseeker"
+aon = "FeatDisplay.aspx?ItemName=Natural%20Pathseeker"
 source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "natural_pathseeker", path = "json/feat11.json" },

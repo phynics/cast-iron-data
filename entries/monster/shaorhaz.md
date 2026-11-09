@@ -2,6 +2,7 @@
 id = "ref/monster/shaorhaz"
 kind = "creature"
 title = "Shaorhaz, Glutton of the Green"
+aon = "MonsterDisplay.aspx?ItemName=Shaorhaz%2C%20Glutton%20of%20the%20Green"
 source_ids = ["demons-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shaorhaz", path = "json/monsters_unique3.json" },

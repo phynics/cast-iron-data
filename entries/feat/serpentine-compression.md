@@ -2,6 +2,7 @@
 id = "ref/feat/serpentine-compression"
 kind = "feat"
 title = "Serpentine Compression"
+aon = "FeatDisplay.aspx?ItemName=Serpentine%20Compression"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "serpentine_compression", path = "json/feat13.json" },

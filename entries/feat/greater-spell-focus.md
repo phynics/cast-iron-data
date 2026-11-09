@@ -2,6 +2,7 @@
 id = "ref/feat/greater-spell-focus"
 kind = "feat"
 title = "Greater Spell Focus"
+aon = "FeatDisplay.aspx?ItemName=Greater%20Spell%20Focus"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_spell_focus", path = "json/feat08.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-witch/winter-witch"
 kind = "archetype"
 title = "Winter Witch"
+aon = "ArchetypeDisplay.aspx?FixedName=Witch%20Winter%20Witch"
 source_ids = ["reign-of-winter-players-guide", "inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "winter_witch", path = "json/archetypes_witch.json" },

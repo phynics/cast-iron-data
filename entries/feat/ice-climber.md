@@ -2,6 +2,7 @@
 id = "ref/feat/ice-climber"
 kind = "feat"
 title = "Ice Climber"
+aon = "FeatDisplay.aspx?ItemName=Ice%20Climber"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ice_climber", path = "json/feat08.json" },

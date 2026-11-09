@@ -2,6 +2,7 @@
 id = "ref/trait/friends-in-low-places"
 kind = "trait"
 title = "Friends in Low Places"
+aon = "TraitDisplay.aspx?ItemName=Friends%20in%20Low%20Places"
 source_ids = ["bastards-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "friends_in_low_places", path = "json/traits01.json" },

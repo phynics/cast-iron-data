@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/archer"
 kind = "archetype"
 title = "Archer"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Archer"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "archer", path = "json/archetypes_fighter.json" },

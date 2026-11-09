@@ -2,6 +2,7 @@
 id = "ref/spell/veil-of-ash"
 kind = "spell"
 title = "Veil of Ash"
+aon = "SpellDisplay.aspx?ItemName=Veil%20of%20Ash"
 source_ids = ["pathfinder-24-the-final-wish"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "veil_of_ash", path = "json/spells11.json" },

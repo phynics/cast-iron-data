@@ -2,6 +2,7 @@
 id = "ref/monster/warpglass-ooze"
 kind = "creature"
 title = "Warpglass Ooze"
+aon = "MonsterDisplay.aspx?ItemName=Warpglass%20Ooze"
 source_ids = ["pathfinder-133-secrets-of-roderics-cove"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "warpglass_ooze", path = "json/monsters25.json" },

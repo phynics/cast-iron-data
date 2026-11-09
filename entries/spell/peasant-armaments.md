@@ -2,6 +2,7 @@
 id = "ref/spell/peasant-armaments"
 kind = "spell"
 title = "Peasant Armaments"
+aon = "SpellDisplay.aspx?ItemName=Peasant%20Armaments"
 source_ids = ["pathfinder-68-the-shackled-hut"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "peasant_armaments", path = "json/spells7.json" },

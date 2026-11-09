@@ -2,6 +2,7 @@
 id = "ref/feat/planar-heritage"
 kind = "feat"
 title = "Planar Heritage"
+aon = "FeatDisplay.aspx?ItemName=Planar%20Heritage"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planar_heritage", path = "json/feat12.json" },

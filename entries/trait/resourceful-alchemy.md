@@ -2,6 +2,7 @@
 id = "ref/trait/resourceful-alchemy"
 kind = "trait"
 title = "Resourceful Alchemy"
+aon = "TraitDisplay.aspx?ItemName=Resourceful%20Alchemy"
 source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "resourceful_alchemy", path = "json/traits04.json" },

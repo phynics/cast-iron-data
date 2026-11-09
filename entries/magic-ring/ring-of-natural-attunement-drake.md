@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-natural-attunement-drake"
 kind = "item"
 title = "Ring of Natural Attunement (Drake)"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Natural%20Attunement%20%28Drake%29"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_natural_attunement_drake", path = "json/magic_ring.json" },

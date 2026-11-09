@@ -2,6 +2,7 @@
 id = "ref/feat/shadows-of-fear"
 kind = "feat"
 title = "Shadows of Fear"
+aon = "FeatDisplay.aspx?ItemName=Shadows%20of%20Fear"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadows_of_fear", path = "json/feat14.json" },

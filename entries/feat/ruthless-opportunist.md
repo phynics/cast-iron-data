@@ -2,6 +2,7 @@
 id = "ref/feat/ruthless-opportunist"
 kind = "feat"
 title = "Ruthless Opportunist"
+aon = "FeatDisplay.aspx?ItemName=Ruthless%20Opportunist"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ruthless_opportunist", path = "json/feat13.json" },

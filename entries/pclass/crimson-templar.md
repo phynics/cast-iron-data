@@ -2,6 +2,7 @@
 id = "ref/pclass/crimson-templar"
 kind = "prestige_class"
 title = "Crimson Templar"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Crimson%20Templar"
 source_ids = ["paths-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crimson_templar", path = "json/prestige_classes.json" },

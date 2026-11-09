@@ -2,6 +2,7 @@
 id = "ref/feat/godless-healing"
 kind = "feat"
 title = "Godless Healing"
+aon = "FeatDisplay.aspx?ItemName=Godless%20Healing"
 source_ids = ["inner-sea-world-guide", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "godless_healing", path = "json/feat07.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-antipaladin/tyrant"
 kind = "archetype"
 title = "Tyrant"
+aon = "ArchetypeDisplay.aspx?FixedName=Antipaladin%20Tyrant"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tyrant", path = "json/archetypes_antipaladin.json" },

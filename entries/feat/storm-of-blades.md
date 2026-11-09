@@ -2,6 +2,7 @@
 id = "ref/feat/storm-of-blades"
 kind = "feat"
 title = "Storm of Blades"
+aon = "FeatDisplay.aspx?ItemName=Storm%20of%20Blades"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "storm_of_blades", path = "json/feat15.json" },

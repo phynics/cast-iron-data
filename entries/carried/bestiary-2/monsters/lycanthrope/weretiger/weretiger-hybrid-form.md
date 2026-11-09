@@ -2,6 +2,7 @@
 id = "ref/carried/bestiary-2/monsters/lycanthrope/weretiger/weretiger-hybrid-form"
 kind = "creature"
 title = "Weretiger (Hybrid Form)"
+aon = "MonsterDisplay.aspx?ItemName=Weretiger%20%28Hybrid%20Form%29"
 source_ids = ["bestiary-2"]
 section = ["Monsters", "Lycanthrope", "Weretiger"]
 tags = ["humanoid", "human", "shapechanger", "large"]

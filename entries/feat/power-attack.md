@@ -2,6 +2,7 @@
 id = "ref/feat/power-attack"
 kind = "feat"
 title = "Power Attack"
+aon = "FeatDisplay.aspx?ItemName=Power%20Attack"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "power_attack", path = "json/feat12.json" },

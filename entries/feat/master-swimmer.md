@@ -2,6 +2,7 @@
 id = "ref/feat/master-swimmer"
 kind = "feat"
 title = "Master Swimmer"
+aon = "FeatDisplay.aspx?ItemName=Master%20Swimmer"
 source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "master_swimmer", path = "json/feat10.json" },

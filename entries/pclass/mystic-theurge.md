@@ -2,6 +2,7 @@
 id = "ref/pclass/mystic-theurge"
 kind = "prestige_class"
 title = "Mystic Theurge"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Mystic%20Theurge"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mystic_theurge", path = "json/prestige_classes2.json" },

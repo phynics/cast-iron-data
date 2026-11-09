@@ -2,6 +2,7 @@
 id = "ref/feat/outslug-weave"
 kind = "feat"
 title = "Outslug Weave"
+aon = "FeatDisplay.aspx?ItemName=Outslug%20Weave"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "outslug_weave", path = "json/feat11.json" },

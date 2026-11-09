@@ -2,6 +2,7 @@
 id = "ref/feat/simple-weapon-proficiency"
 kind = "feat"
 title = "Simple Weapon Proficiency"
+aon = "FeatDisplay.aspx?ItemName=Simple%20Weapon%20Proficiency"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "simple_weapon_proficiency", path = "json/feat14.json" },

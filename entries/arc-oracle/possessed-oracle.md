@@ -2,6 +2,7 @@
 id = "ref/arc-oracle/possessed-oracle"
 kind = "archetype"
 title = "Possessed Oracle"
+aon = "ArchetypeDisplay.aspx?FixedName=Oracle%20Possessed%20Oracle"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "possessed_oracle", path = "json/archetypes_oracle.json" },

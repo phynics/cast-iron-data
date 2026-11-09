@@ -2,6 +2,7 @@
 id = "ref/monster/formian-formian-myrmarch"
 kind = "creature"
 title = "Formian Myrmarch"
+aon = "MonsterDisplay.aspx?ItemName=Formian%20Myrmarch"
 source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "formian_formian_myrmarch", path = "json/monsters31.json" },

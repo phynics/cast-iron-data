@@ -2,6 +2,7 @@
 id = "ref/monster/snark"
 kind = "creature"
 title = "Snark"
+aon = "MonsterDisplay.aspx?ItemName=Snark"
 source_ids = ["pathfinder-119-prisoners-of-the-blight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snark", path = "json/monsters22.json" },

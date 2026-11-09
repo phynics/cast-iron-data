@@ -2,6 +2,7 @@
 id = "ref/feat/thousand-cuts"
 kind = "feat"
 title = "Thousand Cuts"
+aon = "FeatDisplay.aspx?ItemName=Thousand%20Cuts"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thousand_cuts", path = "json/feat16.json" },

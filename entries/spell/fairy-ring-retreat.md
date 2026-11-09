@@ -2,6 +2,7 @@
 id = "ref/spell/fairy-ring-retreat"
 kind = "spell"
 title = "Fairy Ring Retreat"
+aon = "SpellDisplay.aspx?ItemName=Fairy%20Ring%20Retreat"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fairy_ring_retreat", path = "json/spells4.json" },

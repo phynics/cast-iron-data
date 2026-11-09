@@ -2,6 +2,7 @@
 id = "ref/feat/bestow-hope"
 kind = "feat"
 title = "Bestow Hope"
+aon = "FeatDisplay.aspx?ItemName=Bestow%20Hope"
 source_ids = ["inner-sea-gods", "faiths-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bestow_hope", path = "json/feat02.json" },

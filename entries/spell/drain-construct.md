@@ -2,6 +2,7 @@
 id = "ref/spell/drain-construct"
 kind = "spell"
 title = "Drain Construct"
+aon = "SpellDisplay.aspx?ItemName=Drain%20Construct"
 source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drain_construct", path = "json/spells13.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/herne"
 kind = "creature"
 title = "Herne"
+aon = "MonsterDisplay.aspx?ItemName=Herne"
 source_ids = ["pathfinder-73-the-worldwound-incursion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "herne", path = "json/monsters13.json" },

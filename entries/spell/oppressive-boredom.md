@@ -2,6 +2,7 @@
 id = "ref/spell/oppressive-boredom"
 kind = "spell"
 title = "Oppressive Boredom"
+aon = "SpellDisplay.aspx?ItemName=Oppressive%20Boredom"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oppressive_boredom", path = "json/spells7.json" },

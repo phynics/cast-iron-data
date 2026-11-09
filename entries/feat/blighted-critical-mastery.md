@@ -2,6 +2,7 @@
 id = "ref/feat/blighted-critical-mastery"
 kind = "feat"
 title = "Blighted Critical Mastery"
+aon = "FeatDisplay.aspx?ItemName=Blighted%20Critical%20Mastery"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blighted_critical_mastery", path = "json/feat02.json" },

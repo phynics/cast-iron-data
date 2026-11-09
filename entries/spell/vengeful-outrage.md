@@ -2,6 +2,7 @@
 id = "ref/spell/vengeful-outrage"
 kind = "spell"
 title = "Vengeful Outrage"
+aon = "SpellDisplay.aspx?ItemName=Vengeful%20Outrage"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vengeful_outrage", path = "json/spells11.json" },

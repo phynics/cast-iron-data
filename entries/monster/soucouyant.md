@@ -2,6 +2,7 @@
 id = "ref/monster/soucouyant"
 kind = "creature"
 title = "Soucouyant"
+aon = "MonsterDisplay.aspx?ItemName=Soucouyant"
 source_ids = ["isles-of-the-shackles"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soucouyant", path = "json/monsters22.json" },

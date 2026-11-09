@@ -2,6 +2,7 @@
 id = "ref/monster/swamp-barracuda"
 kind = "creature"
 title = "Swamp Barracuda"
+aon = "MonsterDisplay.aspx?ItemName=Swamp%20Barracuda"
 source_ids = ["magnimar-city-of-monuments", "pathfinder-13-shadow-in-the-sky"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swamp_barracuda", path = "json/monsters24.json" },

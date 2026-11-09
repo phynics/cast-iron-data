@@ -2,6 +2,7 @@
 id = "ref/eq-misc/nobles-outfit"
 kind = "item"
 title = "Noble's outfit"
+aon = "EquipmentMiscDisplay.aspx?ItemName=Noble%27s%20Outfit"
 source_ids = ["ultimate-equipment", "core-rulebook", "adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nobles_outfit", path = "json/equipment_misc4.json" },

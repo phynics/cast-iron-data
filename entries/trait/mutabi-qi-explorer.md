@@ -2,6 +2,7 @@
 id = "ref/trait/mutabi-qi-explorer"
 kind = "trait"
 title = "Mutabi-qi Explorer"
+aon = "TraitDisplay.aspx?ItemName=Mutabi-qi%20Explorer"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mutabi_qi_explorer", path = "json/traits04.json" },

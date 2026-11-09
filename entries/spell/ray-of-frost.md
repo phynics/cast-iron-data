@@ -2,6 +2,7 @@
 id = "ref/spell/ray-of-frost"
 kind = "spell"
 title = "Ray of Frost"
+aon = "SpellDisplay.aspx?ItemName=Ray%20of%20Frost"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ray_of_frost", path = "json/spells8.json" },

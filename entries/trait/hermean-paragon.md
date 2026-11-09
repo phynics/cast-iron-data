@@ -2,6 +2,7 @@
 id = "ref/trait/hermean-paragon"
 kind = "trait"
 title = "Hermean Paragon"
+aon = "TraitDisplay.aspx?ItemName=Hermean%20Paragon"
 source_ids = ["inner-sea-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hermean_paragon", path = "json/traits04.json" },

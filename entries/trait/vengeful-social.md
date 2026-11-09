@@ -2,6 +2,7 @@
 id = "ref/trait/vengeful-social"
 kind = "trait"
 title = "Vengeful (Social)"
+aon = "TraitDisplay.aspx?ItemName=Vengeful%20%28Social%29"
 source_ids = ["antiheros-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vengeful_social", path = "json/traits01.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/sheltering-stubborness"
 kind = "feat"
 title = "Sheltering Stubborness"
+aon = "FeatDisplay.aspx?ItemName=Sheltering%20Stubborness"
 source_ids = ["antiheros-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sheltering_stubborness", path = "json/feat14.json" },

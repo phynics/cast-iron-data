@@ -2,6 +2,7 @@
 id = "ref/spell/frigid-souls"
 kind = "spell"
 title = "Frigid Souls"
+aon = "SpellDisplay.aspx?ItemName=Frigid%20Souls"
 source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "frigid_souls", path = "json/spells13.json" },

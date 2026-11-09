@@ -2,6 +2,7 @@
 id = "ref/monster/archon-stag-archon"
 kind = "creature"
 title = "Stag Archon"
+aon = "MonsterDisplay.aspx?ItemName=Stag%20Archon"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "archon_stag_archon", path = "json/monsters02.json" },

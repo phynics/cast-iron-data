@@ -2,6 +2,7 @@
 id = "ref/feat/death-roll"
 kind = "feat"
 title = "Death Roll"
+aon = "FeatDisplay.aspx?ItemName=Death%20Roll"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "death_roll", path = "json/feat04.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-alchemist/plague-bringer"
 kind = "archetype"
 title = "Plague Bringer"
+aon = "ArchetypeDisplay.aspx?FixedName=Alchemist%20Plague%20Bringer"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plague_bringer", path = "json/archetypes_alchemist2.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/bog-strider"
 kind = "creature"
 title = "Bog Strider"
+aon = "MonsterDisplay.aspx?ItemName=Bog%20Strider"
 source_ids = ["pathfinder-34-blood-for-blood"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bog_strider", path = "json/monsters27.json" },

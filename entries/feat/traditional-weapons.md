@@ -2,6 +2,7 @@
 id = "ref/feat/traditional-weapons"
 kind = "feat"
 title = "Traditional Weapons"
+aon = "FeatDisplay.aspx?ItemName=Traditional%20Weapons"
 source_ids = ["path-of-the-hellknight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "traditional_weapons", path = "json/feat16.json" },

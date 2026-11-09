@@ -2,6 +2,7 @@
 id = "ref/carried/advanced-players-guide/spells/tireless-pursuers"
 kind = "spell"
 title = "Tireless Pursuers"
+aon = "SpellDisplay.aspx?ItemName=Tireless%20Pursuers"
 source_ids = ["advanced-players-guide"]
 section = ["Spells"]
 tags = ["transmutation"]

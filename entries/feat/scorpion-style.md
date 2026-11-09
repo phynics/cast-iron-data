@@ -2,6 +2,7 @@
 id = "ref/feat/scorpion-style"
 kind = "feat"
 title = "Scorpion Style"
+aon = "FeatDisplay.aspx?ItemName=Scorpion%20Style"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scorpion_style", path = "json/feat13.json" },

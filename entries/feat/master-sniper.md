@@ -2,6 +2,7 @@
 id = "ref/feat/master-sniper"
 kind = "feat"
 title = "Master Sniper"
+aon = "FeatDisplay.aspx?ItemName=Master%20Sniper"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "master_sniper", path = "json/feat10.json" },

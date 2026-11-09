@@ -2,6 +2,7 @@
 id = "ref/magic-staff/staff-of-wings"
 kind = "item"
 title = "Staff of Wings"
+aon = "MagicStavesDisplay.aspx?ItemName=Staff%20of%20Wings"
 source_ids = ["chronicle-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_wings", path = "json/magic_staff.json" },

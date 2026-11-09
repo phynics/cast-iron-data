@@ -2,6 +2,7 @@
 id = "ref/feat/careful-reader"
 kind = "feat"
 title = "Careful Reader"
+aon = "FeatDisplay.aspx?ItemName=Careful%20Reader"
 source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "careful_reader", path = "json/feat02.json" },

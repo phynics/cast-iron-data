@@ -2,6 +2,7 @@
 id = "ref/feat/kudzu-takeover"
 kind = "feat"
 title = "Kudzu Takeover"
+aon = "FeatDisplay.aspx?ItemName=Kudzu%20Takeover"
 source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kudzu_takeover", path = "json/feat10.json" },

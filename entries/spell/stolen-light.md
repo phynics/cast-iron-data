@@ -2,6 +2,7 @@
 id = "ref/spell/stolen-light"
 kind = "spell"
 title = "Stolen Light"
+aon = "SpellDisplay.aspx?ItemName=Stolen%20Light"
 source_ids = ["pathfinder-society-field-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stolen_light", path = "json/spells9.json" },

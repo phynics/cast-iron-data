@@ -2,6 +2,7 @@
 id = "ref/monster/spider-giant-crab-spider"
 kind = "creature"
 title = "Giant Crab Spider"
+aon = "MonsterDisplay.aspx?ItemName=Giant%20Crab%20Spider"
 source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spider_giant_crab_spider", path = "json/monsters39.json" },

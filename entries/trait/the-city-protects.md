@@ -2,6 +2,7 @@
 id = "ref/trait/the-city-protects"
 kind = "trait"
 title = "The City Protects"
+aon = "TraitDisplay.aspx?ItemName=The%20City%20Protects"
 source_ids = ["legacy-of-fire-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_city_protects", path = "json/traits03.json" },

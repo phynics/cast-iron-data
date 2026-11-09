@@ -2,6 +2,7 @@
 id = "ref/monster/gravitic-globe"
 kind = "creature"
 title = "Gravitic Globe"
+aon = "MonsterDisplay.aspx?ItemName=Gravitic%20Globe"
 source_ids = ["tombs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gravitic_globe", path = "json/monsters12.json" },

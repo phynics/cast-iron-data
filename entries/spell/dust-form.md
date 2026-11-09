@@ -2,6 +2,7 @@
 id = "ref/spell/dust-form"
 kind = "spell"
 title = "Dust Form"
+aon = "SpellDisplay.aspx?ItemName=Dust%20Form"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dust_form", path = "json/spells13.json" },

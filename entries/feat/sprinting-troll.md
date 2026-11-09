@@ -2,6 +2,7 @@
 id = "ref/feat/sprinting-troll"
 kind = "feat"
 title = "Sprinting Troll"
+aon = "FeatDisplay.aspx?ItemName=Sprinting%20Troll"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sprinting_troll", path = "json/feat15.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/silent-watcher"
 kind = "trait"
 title = "Silent Watcher"
+aon = "TraitDisplay.aspx?ItemName=Silent%20Watcher"
 source_ids = ["inner-sea-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "silent_watcher", path = "json/traits04.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/magical-flair"
 kind = "trait"
 title = "Magical Flair"
+aon = "TraitDisplay.aspx?ItemName=Magical%20Flair"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magical_flair", path = "json/traits02.json" },

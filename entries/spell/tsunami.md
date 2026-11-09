@@ -2,6 +2,7 @@
 id = "ref/spell/tsunami"
 kind = "spell"
 title = "Tsunami"
+aon = "SpellDisplay.aspx?ItemName=Tsunami"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tsunami", path = "json/spells10.json" },

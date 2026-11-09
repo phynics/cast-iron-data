@@ -2,6 +2,7 @@
 id = "ref/arc-arcanist/magaambyan-initiate"
 kind = "archetype"
 title = "Magaambyan Initiate"
+aon = "ArchetypeDisplay.aspx?FixedName=Arcanist%20Magaambyan%20Initiate"
 source_ids = ["adventurers-guide", "arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magaambyan_initiate", path = "json/archetypes_arcanist.json" },

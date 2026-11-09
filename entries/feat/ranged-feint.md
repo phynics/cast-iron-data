@@ -2,6 +2,7 @@
 id = "ref/feat/ranged-feint"
 kind = "feat"
 title = "Ranged Feint"
+aon = "FeatDisplay.aspx?ItemName=Ranged%20Feint"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ranged_feint", path = "json/feat13.json" },

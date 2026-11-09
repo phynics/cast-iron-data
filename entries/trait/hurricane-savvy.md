@@ -2,6 +2,7 @@
 id = "ref/trait/hurricane-savvy"
 kind = "trait"
 title = "Hurricane Savvy"
+aon = "TraitDisplay.aspx?ItemName=Hurricane%20Savvy"
 source_ids = ["pirates-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hurricane_savvy", path = "json/traits04.json" },

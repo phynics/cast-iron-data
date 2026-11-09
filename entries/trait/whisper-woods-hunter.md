@@ -2,6 +2,7 @@
 id = "ref/trait/whisper-woods-hunter"
 kind = "trait"
 title = "Whisper Woods Hunter"
+aon = "TraitDisplay.aspx?ItemName=Whisper%20Woods%20Hunter"
 source_ids = ["cheliax-empire-of-devils"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "whisper_woods_hunter", path = "json/traits04.json" },

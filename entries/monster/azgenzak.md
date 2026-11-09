@@ -2,6 +2,7 @@
 id = "ref/monster/azgenzak"
 kind = "creature"
 title = "Azgenzak"
+aon = "MonsterDisplay.aspx?ItemName=Azgenzak"
 source_ids = ["pathfinder-69-maiden-mother-crone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "azgenzak", path = "json/monsters03.json" },

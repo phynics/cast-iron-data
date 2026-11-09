@@ -2,6 +2,7 @@
 id = "ref/spell/remarkable-legerdemain"
 kind = "spell"
 title = "Remarkable Legerdemain"
+aon = "SpellDisplay.aspx?ItemName=Remarkable%20Legerdemain"
 source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "remarkable_legerdemain", path = "json/spells8.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/acolyte-of-razmir"
 kind = "trait"
 title = "Acolyte of Razmir"
+aon = "TraitDisplay.aspx?ItemName=Acolyte%20of%20Razmir"
 source_ids = ["inner-sea-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "acolyte_of_razmir", path = "json/traits04.json" },

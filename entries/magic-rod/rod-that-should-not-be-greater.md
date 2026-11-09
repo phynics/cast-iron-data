@@ -2,6 +2,7 @@
 id = "ref/magic-rod/rod-that-should-not-be-greater"
 kind = "item"
 title = "Rod That Should Not Be (Greater)"
+aon = "MagicIntelligentDisplay.aspx?ItemName=Rod%20That%20Should%20Not%20Be%20%28Greater%29"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rod_that_should_not_be_greater", path = "json/magic_rod.json" },

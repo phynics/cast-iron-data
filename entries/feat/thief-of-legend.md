@@ -2,6 +2,7 @@
 id = "ref/feat/thief-of-legend"
 kind = "feat"
 title = "Thief of Legend"
+aon = "FeatDisplay.aspx?ItemName=Thief%20of%20Legend"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thief_of_legend", path = "json/feat16.json" },

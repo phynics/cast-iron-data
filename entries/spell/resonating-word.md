@@ -2,6 +2,7 @@
 id = "ref/spell/resonating-word"
 kind = "spell"
 title = "Resonating Word"
+aon = "SpellDisplay.aspx?ItemName=Resonating%20Word"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "resonating_word", path = "json/spells8.json" },

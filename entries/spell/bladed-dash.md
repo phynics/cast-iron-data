@@ -2,6 +2,7 @@
 id = "ref/spell/bladed-dash"
 kind = "spell"
 title = "Bladed Dash"
+aon = "SpellDisplay.aspx?ItemName=Bladed%20Dash"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bladed_dash", path = "json/spells12.json" },

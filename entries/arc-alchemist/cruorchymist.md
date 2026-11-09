@@ -2,6 +2,7 @@
 id = "ref/arc-alchemist/cruorchymist"
 kind = "archetype"
 title = "Cruorchymist"
+aon = "ArchetypeDisplay.aspx?FixedName=Alchemist%20Cruorchymist"
 source_ids = ["construct-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cruorchymist", path = "json/archetypes_alchemist.json" },

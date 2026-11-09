@@ -2,6 +2,7 @@
 id = "ref/arc-investigator/cipher"
 kind = "archetype"
 title = "Cipher"
+aon = "ArchetypeDisplay.aspx?FixedName=Investigator%20Cipher"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cipher", path = "json/archetypes_investigator.json" },

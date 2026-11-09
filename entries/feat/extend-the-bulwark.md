@@ -2,6 +2,7 @@
 id = "ref/feat/extend-the-bulwark"
 kind = "feat"
 title = "Extend the Bulwark"
+aon = "FeatDisplay.aspx?ItemName=Extend%20the%20Bulwark"
 source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extend_the_bulwark", path = "json/feat06.json" },

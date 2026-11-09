@@ -2,6 +2,7 @@
 id = "ref/feat/bear-hug"
 kind = "feat"
 title = "Bear Hug"
+aon = "FeatDisplay.aspx?ItemName=Bear%20Hug"
 source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bear_hug", path = "json/feat02.json" },

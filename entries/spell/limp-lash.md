@@ -2,6 +2,7 @@
 id = "ref/spell/limp-lash"
 kind = "spell"
 title = "Limp Lash"
+aon = "SpellDisplay.aspx?ItemName=Limp%20Lash"
 source_ids = ["goblins-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "limp_lash", path = "json/spells6.json" },

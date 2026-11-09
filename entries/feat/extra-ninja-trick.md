@@ -2,6 +2,7 @@
 id = "ref/feat/extra-ninja-trick"
 kind = "feat"
 title = "Extra Ninja Trick"
+aon = "FeatDisplay.aspx?ItemName=Extra%20Ninja%20Trick"
 source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extra_ninja_trick", path = "json/feat06.json" },

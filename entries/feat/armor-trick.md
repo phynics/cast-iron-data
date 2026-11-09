@@ -2,6 +2,7 @@
 id = "ref/feat/armor-trick"
 kind = "feat"
 title = "Armor Trick"
+aon = "FeatDisplay.aspx?ItemName=Armor%20Trick"
 source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "armor_trick", path = "json/feat01.json" },

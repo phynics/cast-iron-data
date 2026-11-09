@@ -2,6 +2,7 @@
 id = "ref/feat/nanite-disruption"
 kind = "feat"
 title = "Nanite Disruption"
+aon = "FeatDisplay.aspx?ItemName=Nanite%20Disruption"
 source_ids = ["people-of-the-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nanite_disruption", path = "json/feat11.json" },

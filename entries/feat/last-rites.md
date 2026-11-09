@@ -2,6 +2,7 @@
 id = "ref/feat/last-rites"
 kind = "feat"
 title = "Last Rites"
+aon = "FeatDisplay.aspx?ItemName=Last%20Rites"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "last_rites", path = "json/feat10.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/enlightened-step"
 kind = "spell"
 title = "Enlightened Step"
+aon = "SpellDisplay.aspx?ItemName=Enlightened%20Step"
 source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enlightened_step", path = "json/spells4.json" },

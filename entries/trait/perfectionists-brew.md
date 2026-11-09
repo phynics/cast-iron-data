@@ -2,6 +2,7 @@
 id = "ref/trait/perfectionists-brew"
 kind = "trait"
 title = "Perfectionist's Brew"
+aon = "TraitDisplay.aspx?ItemName=Perfectionist%27s%20Brew"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "perfectionists_brew", path = "json/traits02.json" },

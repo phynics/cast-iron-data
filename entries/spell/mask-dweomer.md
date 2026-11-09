@@ -2,6 +2,7 @@
 id = "ref/spell/mask-dweomer"
 kind = "spell"
 title = "Mask Dweomer"
+aon = "SpellDisplay.aspx?ItemName=Mask%20Dweomer"
 source_ids = ["advanced-players-guide", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mask_dweomer", path = "json/spells6.json" },

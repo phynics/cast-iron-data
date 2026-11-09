@@ -2,6 +2,7 @@
 id = "ref/spell/fallback-strategy"
 kind = "spell"
 title = "Fallback Strategy"
+aon = "SpellDisplay.aspx?ItemName=Fallback%20Strategy"
 source_ids = ["inner-sea-gods", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fallback_strategy", path = "json/spells4.json" },

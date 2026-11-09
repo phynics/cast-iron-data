@@ -2,6 +2,7 @@
 id = "ref/spell/guardian-armor"
 kind = "spell"
 title = "Guardian Armor"
+aon = "SpellDisplay.aspx?ItemName=Guardian%20Armor"
 source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guardian_armor", path = "json/spells5.json" },

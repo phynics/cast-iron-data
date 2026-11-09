@@ -2,6 +2,7 @@
 id = "ref/carried/advanced-race-guide/races/fetchlings/alternate-racial-traits/emissary"
 kind = "racial_trait"
 title = "Emissary"
+aon = "TraitDisplay.aspx?ItemName=Emissary"
 source_ids = ["advanced-race-guide"]
 section = ["Races", "Fetchlings", "Alternate Racial Traits"]
 tags = ["alternate", "fetchling"]

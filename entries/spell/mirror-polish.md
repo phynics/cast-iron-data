@@ -2,6 +2,7 @@
 id = "ref/spell/mirror-polish"
 kind = "spell"
 title = "Mirror Polish"
+aon = "SpellDisplay.aspx?ItemName=Mirror%20Polish"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mirror_polish", path = "json/spells14.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/imbue-with-addiction"
 kind = "spell"
 title = "Imbue With Addiction"
+aon = "SpellDisplay.aspx?ItemName=Imbue%20With%20Addiction"
 source_ids = ["black-markets", "magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "imbue_with_addiction", path = "json/spells14.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/dream"
 kind = "spell"
 title = "Dream"
+aon = "SpellDisplay.aspx?ItemName=Dream"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dream", path = "json/spells13.json" },

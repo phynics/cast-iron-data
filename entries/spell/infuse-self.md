@@ -2,6 +2,7 @@
 id = "ref/spell/infuse-self"
 kind = "spell"
 title = "Infuse Self"
+aon = "SpellDisplay.aspx?ItemName=Infuse%20Self"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "infuse_self", path = "json/spells14.json" },

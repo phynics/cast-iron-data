@@ -2,6 +2,7 @@
 id = "ref/feat/extra-word"
 kind = "feat"
 title = "Extra Word"
+aon = "FeatDisplay.aspx?ItemName=Extra%20Word"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extra_word", path = "json/feat06.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/lava-lurker"
 kind = "creature"
 title = "Lava Lurker"
+aon = "MonsterDisplay.aspx?ItemName=Lava%20Lurker"
 source_ids = ["the-emerald-spire-superdungeon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lava_lurker", path = "json/monsters34.json" },

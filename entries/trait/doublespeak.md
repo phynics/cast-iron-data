@@ -2,6 +2,7 @@
 id = "ref/trait/doublespeak"
 kind = "trait"
 title = "Doublespeak"
+aon = "TraitDisplay.aspx?ItemName=Doublespeak"
 source_ids = ["bastards-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "doublespeak", path = "json/traits01.json" },

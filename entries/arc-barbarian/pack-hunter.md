@@ -2,6 +2,7 @@
 id = "ref/arc-barbarian/pack-hunter"
 kind = "archetype"
 title = "Pack Hunter"
+aon = "ArchetypeDisplay.aspx?FixedName=Barbarian%20Pack%20Hunter"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pack_hunter", path = "json/archetypes_barbarian.json" },

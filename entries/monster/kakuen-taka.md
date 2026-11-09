@@ -2,6 +2,7 @@
 id = "ref/monster/kakuen-taka"
 kind = "creature"
 title = "Kakuen-Taka"
+aon = "MonsterDisplay.aspx?ItemName=Kakuen-Taka"
 source_ids = ["inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kakuen_taka", path = "json/monsters34.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/extra-vested-power"
 kind = "feat"
 title = "Extra Vested Power"
+aon = "FeatDisplay.aspx?ItemName=Extra%20Vested%20Power"
 source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extra_vested_power", path = "json/feat06.json" },

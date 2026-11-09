@@ -2,6 +2,7 @@
 id = "ref/carried/advanced-players-guide/rules/magic-items/cursed-items/one-way-window"
 kind = "item"
 title = "One-Way Window"
+aon = "MagicCursedDisplay.aspx?ItemName=One-Way%20Window"
 source_ids = ["advanced-players-guide"]
 section = ["Rules", "Magic Items", "Cursed Items"]
 provenance = [

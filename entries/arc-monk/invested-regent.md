@@ -2,6 +2,7 @@
 id = "ref/arc-monk/invested-regent"
 kind = "archetype"
 title = "Invested Regent"
+aon = "ArchetypeDisplay.aspx?FixedName=Monk%20Invested%20Regent"
 source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "invested_regent", path = "json/archetypes_monk.json" },

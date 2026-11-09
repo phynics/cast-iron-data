@@ -2,6 +2,7 @@
 id = "ref/spell/morning-sun"
 kind = "spell"
 title = "Morning Sun"
+aon = "SpellDisplay.aspx?ItemName=Morning%20Sun"
 source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "morning_sun", path = "json/spells7.json" },

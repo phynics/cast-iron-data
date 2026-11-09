@@ -2,6 +2,7 @@
 id = "ref/feat/deadly-stroke/teitr"
 kind = "feat"
 title = "Deadly Stroke"
+aon = "FeatDisplay.aspx?ItemName=Deadly%20Stroke"
 source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/deadly-stroke" },

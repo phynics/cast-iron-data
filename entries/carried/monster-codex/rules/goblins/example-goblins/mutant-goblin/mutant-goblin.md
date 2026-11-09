@@ -2,6 +2,7 @@
 id = "ref/carried/monster-codex/rules/goblins/example-goblins/mutant-goblin/mutant-goblin"
 kind = "creature"
 title = "Mutant Goblin"
+aon = "MonsterDisplay.aspx?ItemName=Mutant%20Goblin"
 source_ids = ["monster-codex"]
 section = ["Rules", "Goblins", "Example Goblins", "Mutant Goblin"]
 tags = ["humanoid", "goblinoid", "small"]

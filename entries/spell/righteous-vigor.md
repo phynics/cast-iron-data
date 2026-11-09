@@ -2,6 +2,7 @@
 id = "ref/spell/righteous-vigor"
 kind = "spell"
 title = "Righteous Vigor"
+aon = "SpellDisplay.aspx?ItemName=Righteous%20Vigor"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "righteous_vigor", path = "json/spells8.json" },

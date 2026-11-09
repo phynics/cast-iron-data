@@ -2,6 +2,7 @@
 id = "ref/feat/performing-combatant"
 kind = "feat"
 title = "Performing Combatant"
+aon = "FeatDisplay.aspx?ItemName=Performing%20Combatant"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "performing_combatant", path = "json/feat12.json" },

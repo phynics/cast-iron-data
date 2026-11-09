@@ -2,6 +2,7 @@
 id = "ref/feat/storm-warrior"
 kind = "feat"
 title = "Storm Warrior"
+aon = "FeatDisplay.aspx?ItemName=Storm%20Warrior"
 source_ids = ["pathfinder-91-battle-of-bloodmarch-hills"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "storm_warrior", path = "json/feat15.json" },

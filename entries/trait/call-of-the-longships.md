@@ -2,6 +2,7 @@
 id = "ref/trait/call-of-the-longships"
 kind = "trait"
 title = "Call of the Longships"
+aon = "TraitDisplay.aspx?ItemName=Call%20of%20the%20Longships"
 source_ids = ["people-of-the-north"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "call_of_the_longships", path = "json/traits04.json" },

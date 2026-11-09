@@ -2,6 +2,7 @@
 id = "ref/spell/psychonaut-manifestation"
 kind = "spell"
 title = "Psychonaut Manifestation"
+aon = "SpellDisplay.aspx?ItemName=Psychonaut%20Manifestation"
 source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychonaut_manifestation", path = "json/spells15.json" },

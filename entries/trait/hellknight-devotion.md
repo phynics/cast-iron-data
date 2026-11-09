@@ -2,6 +2,7 @@
 id = "ref/trait/hellknight-devotion"
 kind = "trait"
 title = "Hellknight Devotion"
+aon = "TraitDisplay.aspx?ItemName=Hellknight%20Devotion"
 source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hellknight_devotion", path = "json/traits01.json" },

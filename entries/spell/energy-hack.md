@@ -2,6 +2,7 @@
 id = "ref/spell/energy-hack"
 kind = "spell"
 title = "Energy Hack"
+aon = "SpellDisplay.aspx?ItemName=Energy%20Hack"
 source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "energy_hack", path = "json/spells4.json" },

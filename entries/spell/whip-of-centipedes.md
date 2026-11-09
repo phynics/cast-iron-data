@@ -2,6 +2,7 @@
 id = "ref/spell/whip-of-centipedes"
 kind = "spell"
 title = "Whip of Centipedes"
+aon = "SpellDisplay.aspx?ItemName=Whip%20of%20Centipedes"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "whip_of_centipedes", path = "json/spells11.json" },

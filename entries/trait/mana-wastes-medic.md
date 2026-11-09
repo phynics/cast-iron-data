@@ -2,6 +2,7 @@
 id = "ref/trait/mana-wastes-medic"
 kind = "trait"
 title = "Mana Wastes Medic"
+aon = "TraitDisplay.aspx?ItemName=Mana%20Wastes%20Medic"
 source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mana_wastes_medic", path = "json/traits04.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/natural-ritualist"
 kind = "trait"
 title = "Natural Ritualist"
+aon = "TraitDisplay.aspx?ItemName=Natural%20Ritualist"
 source_ids = ["disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "natural_ritualist", path = "json/traits01.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/release-the-hounds"
 kind = "spell"
 title = "Release the Hounds"
+aon = "SpellDisplay.aspx?ItemName=Release%20the%20Hounds"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "release_the_hounds", path = "json/spells8.json" },

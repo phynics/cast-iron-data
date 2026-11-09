@@ -2,6 +2,7 @@
 id = "ref/carried/advanced-players-guide/spells/invigorate/mass"
 kind = "spell"
 title = "Invigorate, Mass"
+aon = "SpellDisplay.aspx?ItemName=Invigorate%2C%20Mass"
 source_ids = ["advanced-players-guide"]
 section = ["Spells", "Invigorate"]
 tags = ["illusion", "figment"]

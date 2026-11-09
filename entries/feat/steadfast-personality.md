@@ -2,6 +2,7 @@
 id = "ref/feat/steadfast-personality"
 kind = "feat"
 title = "Steadfast Personality"
+aon = "FeatDisplay.aspx?ItemName=Steadfast%20Personality"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "steadfast_personality", path = "json/feat15.json" },

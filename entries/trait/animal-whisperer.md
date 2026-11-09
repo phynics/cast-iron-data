@@ -2,6 +2,7 @@
 id = "ref/trait/animal-whisperer"
 kind = "trait"
 title = "Animal Whisperer"
+aon = "TraitDisplay.aspx?ItemName=Animal%20Whisperer"
 source_ids = ["ironfang-invasion-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animal_whisperer", path = "json/traits02.json" },

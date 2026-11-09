@@ -2,6 +2,7 @@
 id = "ref/spell/fable-tapestry"
 kind = "spell"
 title = "Fable Tapestry"
+aon = "SpellDisplay.aspx?ItemName=Fable%20Tapestry"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fable_tapestry", path = "json/spells4.json" },

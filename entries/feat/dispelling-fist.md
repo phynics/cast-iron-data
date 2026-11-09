@@ -2,6 +2,7 @@
 id = "ref/feat/dispelling-fist"
 kind = "feat"
 title = "Dispelling Fist"
+aon = "FeatDisplay.aspx?ItemName=Dispelling%20Fist"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dispelling_fist", path = "json/feat04.json" },

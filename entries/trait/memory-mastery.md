@@ -2,6 +2,7 @@
 id = "ref/trait/memory-mastery"
 kind = "trait"
 title = "Memory Mastery"
+aon = "TraitDisplay.aspx?ItemName=Memory%20Mastery"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "memory_mastery", path = "json/traits05.json" },

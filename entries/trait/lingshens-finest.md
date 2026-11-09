@@ -2,6 +2,7 @@
 id = "ref/trait/lingshens-finest"
 kind = "trait"
 title = "Lingshen's Finest"
+aon = "TraitDisplay.aspx?ItemName=Lingshen%27s%20Finest"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lingshens_finest", path = "json/traits04.json" },

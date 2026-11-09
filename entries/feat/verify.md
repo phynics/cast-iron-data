@@ -2,6 +2,7 @@
 id = "ref/feat/verify"
 kind = "feat"
 title = "Verify"
+aon = "FeatDisplay.aspx?ItemName=Verify"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "verify", path = "json/feat17.json" },

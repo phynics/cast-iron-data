@@ -2,6 +2,7 @@
 id = "ref/spell/oath-of-justice"
 kind = "spell"
 title = "Oath of Justice"
+aon = "SpellDisplay.aspx?ItemName=Oath%20of%20Justice"
 source_ids = ["dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oath_of_justice", path = "json/spells7.json" },

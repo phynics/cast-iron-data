@@ -2,6 +2,7 @@
 id = "ref/feat/greater-planar-mentor"
 kind = "feat"
 title = "Greater Planar Mentor"
+aon = "FeatDisplay.aspx?ItemName=Greater%20Planar%20Mentor"
 source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_planar_mentor", path = "json/feat08.json" },

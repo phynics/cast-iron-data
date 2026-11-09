@@ -2,6 +2,7 @@
 id = "ref/spell/chill-touch"
 kind = "spell"
 title = "Chill Touch"
+aon = "SpellDisplay.aspx?ItemName=Chill%20Touch"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chill_touch", path = "json/spells2.json" },

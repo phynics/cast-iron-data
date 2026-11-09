@@ -2,6 +2,7 @@
 id = "ref/monster/zealot-wraith"
 kind = "creature"
 title = "Zealot Wraith"
+aon = "MonsterDisplay.aspx?ItemName=Zealot%20Wraith"
 source_ids = ["cheliax-the-infernal-empire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "zealot_wraith", path = "json/monsters41.json" },

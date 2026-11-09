@@ -2,6 +2,7 @@
 id = "ref/monster/tizheruk"
 kind = "creature"
 title = "Tizheruk"
+aon = "MonsterDisplay.aspx?ItemName=Tizheruk"
 source_ids = ["bestiary-5", "tears-at-bitter-manor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tizheruk", path = "json/monsters23.json" },

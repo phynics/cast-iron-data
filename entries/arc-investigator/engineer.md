@@ -2,6 +2,7 @@
 id = "ref/arc-investigator/engineer"
 kind = "archetype"
 title = "Engineer"
+aon = "ArchetypeDisplay.aspx?FixedName=Investigator%20Engineer"
 source_ids = ["construct-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "engineer", path = "json/archetypes_investigator.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/banshee-blast"
 kind = "spell"
 title = "Banshee Blast"
+aon = "SpellDisplay.aspx?ItemName=Banshee%20Blast"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "banshee_blast", path = "json/spells12.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/careful-speaker"
 kind = "feat"
 title = "Careful Speaker"
+aon = "FeatDisplay.aspx?ItemName=Careful%20Speaker"
 source_ids = ["inner-sea-world-guide", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "careful_speaker", path = "json/feat02.json" },

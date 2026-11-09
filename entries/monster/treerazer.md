@@ -2,6 +2,7 @@
 id = "ref/monster/treerazer"
 kind = "creature"
 title = "Treerazer"
+aon = "MonsterDisplay.aspx?ItemName=Treerazer"
 source_ids = ["inner-sea-world-guide", "pathfinder-17-a-memory-of-darkness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "treerazer", path = "json/monsters_unique4.json" },

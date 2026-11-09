@@ -2,6 +2,7 @@
 id = "ref/race/skinwalker"
 kind = "race"
 title = "Skinwalker"
+aon = "RacesDisplay.aspx?ItemName=Skinwalker"
 source_ids = ["bestiary-5", "inner-sea-races", "blood-of-the-moon", "pathfinder-115-trail-of-the-hunted"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skinwalker", path = "json/races4.json" },

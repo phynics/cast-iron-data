@@ -2,6 +2,7 @@
 id = "ref/spell/cave-fangs"
 kind = "spell"
 title = "Cave Fangs"
+aon = "SpellDisplay.aspx?ItemName=Cave%20Fangs"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cave_fangs", path = "json/spells2.json" },

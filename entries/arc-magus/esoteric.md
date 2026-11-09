@@ -2,6 +2,7 @@
 id = "ref/arc-magus/esoteric"
 kind = "archetype"
 title = "Esoteric"
+aon = "ArchetypeDisplay.aspx?FixedName=Magus%20Esoteric"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "esoteric", path = "json/archetypes_magus.json" },

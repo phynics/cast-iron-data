@@ -2,6 +2,7 @@
 id = "ref/feat/balor-whip"
 kind = "feat"
 title = "Balor Whip"
+aon = "FeatDisplay.aspx?ItemName=Balor%20Whip"
 source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "balor_whip", path = "json/feat01.json" },

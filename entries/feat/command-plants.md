@@ -2,6 +2,7 @@
 id = "ref/feat/command-plants"
 kind = "feat"
 title = "Command Plants"
+aon = "FeatDisplay.aspx?ItemName=Command%20Plants"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "command_plants", path = "json/feat03.json" },

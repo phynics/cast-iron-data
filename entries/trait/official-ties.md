@@ -2,6 +2,7 @@
 id = "ref/trait/official-ties"
 kind = "trait"
 title = "Official Ties"
+aon = "TraitDisplay.aspx?ItemName=Official%20Ties"
 source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "official_ties", path = "json/traits01.json" },

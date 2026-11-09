@@ -2,6 +2,7 @@
 id = "ref/monster/cyclops-great-cyclops"
 kind = "creature"
 title = "Great Cyclops"
+aon = "MonsterDisplay.aspx?ItemName=Great%20Cyclops"
 source_ids = ["bestiary-3", "pathfinder-33-the-varnhold-vanishing"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cyclops_great_cyclops", path = "json/monsters06.json" },

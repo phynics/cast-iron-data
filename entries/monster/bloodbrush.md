@@ -2,6 +2,7 @@
 id = "ref/monster/bloodbrush"
 kind = "creature"
 title = "Bloodbrush"
+aon = "MonsterDisplay.aspx?ItemName=Bloodbrush"
 source_ids = ["numeria-land-of-fallen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloodbrush", path = "json/monsters27.json" },

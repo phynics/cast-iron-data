@@ -2,6 +2,7 @@
 id = "ref/feat/thrilling-vengeance"
 kind = "feat"
 title = "Thrilling Vengeance"
+aon = "FeatDisplay.aspx?ItemName=Thrilling%20Vengeance"
 source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thrilling_vengeance", path = "json/feat16.json" },

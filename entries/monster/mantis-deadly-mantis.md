@@ -2,6 +2,7 @@
 id = "ref/monster/mantis-deadly-mantis"
 kind = "creature"
 title = "Deadly Mantis"
+aon = "MonsterDisplay.aspx?ItemName=Deadly%20Mantis"
 source_ids = ["inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mantis_deadly_mantis", path = "json/monsters16.json" },

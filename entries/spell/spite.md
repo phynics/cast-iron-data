@@ -2,6 +2,7 @@
 id = "ref/spell/spite"
 kind = "spell"
 title = "Spite"
+aon = "SpellDisplay.aspx?ItemName=Spite"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spite", path = "json/spells9.json" },

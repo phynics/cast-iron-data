@@ -2,6 +2,7 @@
 id = "ref/feat/ineffable-count-of-the-clock"
 kind = "feat"
 title = "Ineffable Count of the Clock"
+aon = "FeatDisplay.aspx?ItemName=Ineffable%20Count%20of%20the%20Clock"
 source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ineffable_count_of_the_clock", path = "json/feat09.json" },

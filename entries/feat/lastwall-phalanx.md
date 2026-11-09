@@ -2,6 +2,7 @@
 id = "ref/feat/lastwall-phalanx"
 kind = "feat"
 title = "Lastwall Phalanx"
+aon = "FeatDisplay.aspx?ItemName=Lastwall%20Phalanx"
 source_ids = ["champions-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lastwall_phalanx", path = "json/feat10.json" },

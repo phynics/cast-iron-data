@@ -2,6 +2,7 @@
 id = "ref/feat/aversion-tolerance"
 kind = "feat"
 title = "Aversion Tolerance"
+aon = "FeatDisplay.aspx?ItemName=Aversion%20Tolerance"
 source_ids = ["monster-codex", "blood-of-the-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aversion_tolerance", path = "json/feat01.json" },

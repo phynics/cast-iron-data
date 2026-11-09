@@ -2,6 +2,7 @@
 id = "ref/trait/hellknight-ancestry"
 kind = "trait"
 title = "Hellknight Ancestry"
+aon = "TraitDisplay.aspx?ItemName=Hellknight%20Ancestry"
 source_ids = ["cheliax-empire-of-devils"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hellknight_ancestry", path = "json/traits01.json" },

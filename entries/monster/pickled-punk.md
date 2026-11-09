@@ -2,6 +2,7 @@
 id = "ref/monster/pickled-punk"
 kind = "creature"
 title = "Pickled Punk"
+aon = "MonsterDisplay.aspx?ItemName=Pickled%20Punk"
 source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pickled_punk", path = "json/monsters18.json" },

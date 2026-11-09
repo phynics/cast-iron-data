@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/scroll-of-blood-ink"
 kind = "item"
 title = "Scroll of Blood Ink"
+aon = "MagicCursedDisplay.aspx?ItemName=Scroll%20of%20Blood%20Ink"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scroll_of_blood_ink", path = "json/magic_wondrous_slotless05.json" },

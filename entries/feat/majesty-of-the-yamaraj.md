@@ -2,6 +2,7 @@
 id = "ref/feat/majesty-of-the-yamaraj"
 kind = "feat"
 title = "Majesty of the Yamaraj"
+aon = "FeatDisplay.aspx?ItemName=Majesty%20of%20the%20Yamaraj"
 source_ids = ["pathfinder-139-the-dead-road"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "majesty_of_the_yamaraj", path = "json/feat10.json" },

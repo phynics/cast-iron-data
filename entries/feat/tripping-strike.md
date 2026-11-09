@@ -2,6 +2,7 @@
 id = "ref/feat/tripping-strike"
 kind = "feat"
 title = "Tripping Strike"
+aon = "FeatDisplay.aspx?ItemName=Tripping%20Strike"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tripping_strike", path = "json/feat16.json" },

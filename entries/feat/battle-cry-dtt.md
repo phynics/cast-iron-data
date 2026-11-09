@@ -2,6 +2,7 @@
 id = "ref/feat/battle-cry-dtt"
 kind = "feat"
 title = "Battle Cry (DTT)"
+aon = "FeatDisplay.aspx?ItemName=Battle%20Cry%20%28DTT%29"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "battle_cry_dtt", path = "json/feat02.json" },

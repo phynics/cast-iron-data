@@ -2,6 +2,7 @@
 id = "ref/feat/noxious-touch"
 kind = "feat"
 title = "Noxious Touch"
+aon = "FeatDisplay.aspx?ItemName=Noxious%20Touch"
 source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "noxious_touch", path = "json/feat11.json" },

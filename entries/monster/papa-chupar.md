@@ -2,6 +2,7 @@
 id = "ref/monster/papa-chupar"
 kind = "creature"
 title = "Papa Chupar"
+aon = "MonsterDisplay.aspx?ItemName=Papa%20Chupar"
 source_ids = ["mystery-monsters-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "papa_chupar", path = "json/monsters_unique3.json" },

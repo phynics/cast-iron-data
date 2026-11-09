@@ -2,6 +2,7 @@
 id = "ref/feat/varisian-tattoo"
 kind = "feat"
 title = "Varisian Tattoo"
+aon = "FeatDisplay.aspx?ItemName=Varisian%20Tattoo"
 source_ids = ["inner-sea-world-guide", "rise-of-the-runelords-players-guide", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "varisian_tattoo", path = "json/feat17.json" },

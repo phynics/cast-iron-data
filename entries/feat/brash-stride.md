@@ -2,6 +2,7 @@
 id = "ref/feat/brash-stride"
 kind = "feat"
 title = "Brash Stride"
+aon = "FeatDisplay.aspx?ItemName=Brash%20Stride"
 source_ids = ["pathfinder-132-the-six-legend-soul"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brash_stride", path = "json/feat02.json" },

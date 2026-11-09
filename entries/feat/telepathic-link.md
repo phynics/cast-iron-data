@@ -2,6 +2,7 @@
 id = "ref/feat/telepathic-link"
 kind = "feat"
 title = "Telepathic Link"
+aon = "FeatDisplay.aspx?ItemName=Telepathic%20Link"
 source_ids = ["familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "telepathic_link", path = "json/feat16.json" },

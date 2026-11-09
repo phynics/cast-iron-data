@@ -2,6 +2,7 @@
 id = "ref/spell/speak-with-waves"
 kind = "spell"
 title = "Speak with Waves"
+aon = "SpellDisplay.aspx?ItemName=Speak%20with%20Waves"
 source_ids = ["core-rulebook", "elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "speak_with_waves", path = "json/spells9.json" },

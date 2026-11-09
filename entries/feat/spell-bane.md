@@ -2,6 +2,7 @@
 id = "ref/feat/spell-bane"
 kind = "feat"
 title = "Spell Bane"
+aon = "FeatDisplay.aspx?ItemName=Spell%20Bane"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_bane", path = "json/feat14.json" },

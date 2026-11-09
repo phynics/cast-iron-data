@@ -2,6 +2,7 @@
 id = "ref/feat/intrepid-rescuer"
 kind = "feat"
 title = "Intrepid Rescuer"
+aon = "FeatDisplay.aspx?ItemName=Intrepid%20Rescuer"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "intrepid_rescuer", path = "json/feat09.json" },

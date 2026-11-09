@@ -2,6 +2,7 @@
 id = "ref/monster/sinspawn"
 kind = "creature"
 title = "Sinspawn"
+aon = "MonsterDisplay.aspx?ItemName=Sinspawn"
 source_ids = ["bestiary-2", "pathfinder-1-burnt-offerings", "pathfinder-134-it-came-from-hollow-mountain"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sinspawn", path = "json/monsters22.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-paladin/iomedaen-enforcer"
 kind = "archetype"
 title = "Iomedaen Enforcer"
+aon = "ArchetypeDisplay.aspx?FixedName=Paladin%20Iomedaen%20Enforcer"
 source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "iomedaen_enforcer", path = "json/archetypes_paladin.json" },

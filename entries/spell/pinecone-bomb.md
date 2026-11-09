@@ -2,6 +2,7 @@
 id = "ref/spell/pinecone-bomb"
 kind = "spell"
 title = "Pinecone Bomb"
+aon = "SpellDisplay.aspx?ItemName=Pinecone%20Bomb"
 source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pinecone_bomb", path = "json/spells7.json" },

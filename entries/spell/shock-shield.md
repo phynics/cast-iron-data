@@ -2,6 +2,7 @@
 id = "ref/spell/shock-shield"
 kind = "spell"
 title = "Shock Shield"
+aon = "SpellDisplay.aspx?ItemName=Shock%20Shield"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shock_shield", path = "json/spells9.json" },

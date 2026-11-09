@@ -2,6 +2,7 @@
 id = "ref/spell/infuse-robot"
 kind = "spell"
 title = "Infuse Robot"
+aon = "SpellDisplay.aspx?ItemName=Infuse%20Robot"
 source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "infuse_robot", path = "json/spells14.json" },

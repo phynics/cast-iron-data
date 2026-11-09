@@ -2,6 +2,7 @@
 id = "ref/spell/shifted-steps"
 kind = "spell"
 title = "Shifted Steps"
+aon = "SpellDisplay.aspx?ItemName=Shifted%20Steps"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shifted_steps", path = "json/spells9.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/extra-mesmerist-tricks"
 kind = "feat"
 title = "Extra Mesmerist Tricks"
+aon = "FeatDisplay.aspx?ItemName=Extra%20Mesmerist%20Tricks"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extra_mesmerist_tricks", path = "json/feat06.json" },

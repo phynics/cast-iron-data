@@ -2,6 +2,7 @@
 id = "ref/arc-bard/pitax-academy-of-grand-arts"
 kind = "archetype"
 title = "Pitax: Academy of Grand Arts"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Pitax%20%20Academy%20of%20Grand%20Arts"
 source_ids = ["guide-to-the-river-kingdoms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pitax_academy_of_grand_arts", path = "json/archetypes_bard2.json" },

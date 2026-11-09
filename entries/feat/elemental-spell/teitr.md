@@ -2,6 +2,7 @@
 id = "ref/feat/elemental-spell/teitr"
 kind = "feat"
 title = "Elemental Spell"
+aon = "FeatDisplay.aspx?ItemName=Elemental%20Spell"
 source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/elemental-spell" },

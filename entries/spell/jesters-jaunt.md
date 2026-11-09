@@ -2,6 +2,7 @@
 id = "ref/spell/jesters-jaunt"
 kind = "spell"
 title = "Jester's Jaunt"
+aon = "SpellDisplay.aspx?ItemName=Jester%27s%20Jaunt"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jesters_jaunt", path = "json/spells6.json" },

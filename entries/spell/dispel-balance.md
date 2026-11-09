@@ -2,6 +2,7 @@
 id = "ref/spell/dispel-balance"
 kind = "spell"
 title = "Dispel Balance"
+aon = "SpellDisplay.aspx?ItemName=Dispel%20Balance"
 source_ids = ["planar-adventures", "champions-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dispel_balance", path = "json/spells13.json" },

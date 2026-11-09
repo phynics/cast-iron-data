@@ -2,6 +2,7 @@
 id = "ref/magic-ring/rings-of-friend-finding"
 kind = "item"
 title = "Rings of Friend-Finding"
+aon = "MagicRingsDisplay.aspx?FinalName=Rings%20of%20Friend-Finding"
 source_ids = ["cohorts-and-companions"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rings_of_friend_finding", path = "json/magic_ring.json" },

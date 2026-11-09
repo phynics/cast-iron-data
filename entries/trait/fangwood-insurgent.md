@@ -2,6 +2,7 @@
 id = "ref/trait/fangwood-insurgent"
 kind = "trait"
 title = "Fangwood Insurgent"
+aon = "TraitDisplay.aspx?ItemName=Fangwood%20Insurgent"
 source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fangwood_insurgent", path = "json/traits04.json" },

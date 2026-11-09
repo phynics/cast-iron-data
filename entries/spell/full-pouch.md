@@ -2,6 +2,7 @@
 id = "ref/spell/full-pouch"
 kind = "spell"
 title = "Full Pouch"
+aon = "SpellDisplay.aspx?ItemName=Full%20Pouch"
 source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "full_pouch", path = "json/spells13.json" },

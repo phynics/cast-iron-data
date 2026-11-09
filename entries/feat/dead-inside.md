@@ -2,6 +2,7 @@
 id = "ref/feat/dead-inside"
 kind = "feat"
 title = "Dead Inside"
+aon = "FeatDisplay.aspx?ItemName=Dead%20Inside"
 source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dead_inside", path = "json/feat04.json" },

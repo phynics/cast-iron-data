@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/elemental-envoy"
 kind = "archetype"
 title = "Elemental Envoy"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Elemental%20Envoy"
 source_ids = ["disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_envoy", path = "json/archetypes_ranger.json" },

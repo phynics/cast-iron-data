@@ -2,6 +2,7 @@
 id = "ref/spell/suppressing-stone"
 kind = "spell"
 title = "Suppressing Stone"
+aon = "SpellDisplay.aspx?ItemName=Suppressing%20Stone"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "suppressing_stone", path = "json/spells10.json" },

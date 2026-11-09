@@ -2,6 +2,7 @@
 id = "ref/spell/dimension-door"
 kind = "spell"
 title = "Dimension Door"
+aon = "SpellDisplay.aspx?ItemName=Dimension%20Door"
 source_ids = ["core-rulebook", "potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dimension_door", path = "json/spells3.json" },

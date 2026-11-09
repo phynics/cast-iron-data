@@ -2,6 +2,7 @@
 id = "ref/feat/joyless-toil"
 kind = "feat"
 title = "Joyless Toil"
+aon = "FeatDisplay.aspx?ItemName=Joyless%20Toil"
 source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "joyless_toil", path = "json/feat09.json" },

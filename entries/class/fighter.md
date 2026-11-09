@@ -2,6 +2,7 @@
 id = "ref/class/fighter"
 kind = "class"
 title = "Fighter"
+aon = "ClassDisplay.aspx?ItemName=Fighter"
 source_ids = ["core-rulebook", "chronicle-of-legends", "plane-hoppers-handbook", "blood-of-the-sea", "monster-codex", "advanced-race-guide", "advanced-players-guide", "blood-of-shadows", "horror-adventures", "blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fighter", path = "json/classes2.json" },

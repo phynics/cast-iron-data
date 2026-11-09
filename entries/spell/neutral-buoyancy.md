@@ -2,6 +2,7 @@
 id = "ref/spell/neutral-buoyancy"
 kind = "spell"
 title = "Neutral Buoyancy"
+aon = "SpellDisplay.aspx?ItemName=Neutral%20Buoyancy"
 source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "neutral_buoyancy", path = "json/spells7.json" },

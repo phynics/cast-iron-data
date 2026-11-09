@@ -2,6 +2,7 @@
 id = "ref/feat/covering-fire-rtt"
 kind = "feat"
 title = "Covering Fire (RTT)"
+aon = "FeatDisplay.aspx?ItemName=Covering%20Fire%20%28RTT%29"
 source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "covering_fire_rtt", path = "json/feat03.json" },

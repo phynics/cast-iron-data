@@ -2,6 +2,7 @@
 id = "ref/monster/khaei"
 kind = "creature"
 title = "Khaei"
+aon = "MonsterDisplay.aspx?ItemName=Khaei"
 source_ids = ["inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "khaei", path = "json/monsters15.json" },

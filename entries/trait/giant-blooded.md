@@ -2,6 +2,7 @@
 id = "ref/trait/giant-blooded"
 kind = "trait"
 title = "Giant-Blooded"
+aon = "TraitDisplay.aspx?ItemName=Giant-Blooded"
 source_ids = ["giantslayer-players-guide", "giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_blooded", path = "json/traits02.json" },

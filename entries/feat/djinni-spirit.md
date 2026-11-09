@@ -2,6 +2,7 @@
 id = "ref/feat/djinni-spirit"
 kind = "feat"
 title = "Djinni Spirit"
+aon = "FeatDisplay.aspx?ItemName=Djinni%20Spirit"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "djinni_spirit", path = "json/feat05.json" },

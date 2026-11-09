@@ -2,6 +2,7 @@
 id = "ref/monster/devil-bone-devil-osyluth"
 kind = "creature"
 title = "Bone Devil (Osyluth)"
+aon = "MonsterDisplay.aspx?ItemName=Bone%20Devil%20%28Osyluth%29"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_bone_devil_osyluth", path = "json/monsters07.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/devil-snare"
 kind = "spell"
 title = "Devil Snare"
+aon = "SpellDisplay.aspx?ItemName=Devil%20Snare"
 source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_snare", path = "json/spells3.json" },

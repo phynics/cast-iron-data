@@ -2,6 +2,7 @@
 id = "ref/feat/infiltrator"
 kind = "feat"
 title = "Infiltrator"
+aon = "FeatDisplay.aspx?ItemName=Infiltrator"
 source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "infiltrator", path = "json/feat09.json" },

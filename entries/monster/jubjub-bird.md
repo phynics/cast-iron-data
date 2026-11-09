@@ -2,6 +2,7 @@
 id = "ref/monster/jubjub-bird"
 kind = "creature"
 title = "Jubjub Bird"
+aon = "MonsterDisplay.aspx?ItemName=Jubjub%20Bird"
 source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jubjub_bird", path = "json/monsters34.json" },

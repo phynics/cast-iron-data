@@ -2,6 +2,7 @@
 id = "ref/spell/break"
 kind = "spell"
 title = "Break"
+aon = "SpellDisplay.aspx?ItemName=Break"
 source_ids = ["advanced-players-guide", "ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "break", path = "json/spells2.json" },

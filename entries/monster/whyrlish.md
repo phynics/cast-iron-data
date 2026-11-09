@@ -2,6 +2,7 @@
 id = "ref/monster/whyrlish"
 kind = "creature"
 title = "Whyrlish"
+aon = "MonsterDisplay.aspx?ItemName=Whyrlish"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "whyrlish", path = "json/monsters25.json" },

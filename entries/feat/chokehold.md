@@ -2,6 +2,7 @@
 id = "ref/feat/chokehold"
 kind = "feat"
 title = "Chokehold"
+aon = "FeatDisplay.aspx?ItemName=Chokehold"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chokehold", path = "json/feat03.json" },

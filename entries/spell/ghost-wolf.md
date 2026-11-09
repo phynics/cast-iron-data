@@ -2,6 +2,7 @@
 id = "ref/spell/ghost-wolf"
 kind = "spell"
 title = "Ghost Wolf"
+aon = "SpellDisplay.aspx?ItemName=Ghost%20Wolf"
 source_ids = ["advanced-race-guide", "orcs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghost_wolf", path = "json/spells13.json" },

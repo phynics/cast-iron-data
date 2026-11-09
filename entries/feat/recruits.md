@@ -2,6 +2,7 @@
 id = "ref/feat/recruits"
 kind = "feat"
 title = "Recruits"
+aon = "FeatDisplay.aspx?ItemName=Recruits"
 source_ids = ["ultimate-intrigue", "cohorts-and-companions"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "recruits", path = "json/feat13.json" },

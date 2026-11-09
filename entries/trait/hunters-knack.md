@@ -2,6 +2,7 @@
 id = "ref/trait/hunters-knack"
 kind = "trait"
 title = "Hunter's Knack"
+aon = "TraitDisplay.aspx?ItemName=Hunter%27s%20Knack"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hunters_knack", path = "json/traits01.json" },

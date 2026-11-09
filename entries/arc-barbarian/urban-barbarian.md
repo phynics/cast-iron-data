@@ -2,6 +2,7 @@
 id = "ref/arc-barbarian/urban-barbarian"
 kind = "archetype"
 title = "Urban Barbarian"
+aon = "ArchetypeDisplay.aspx?FixedName=Barbarian%20Urban%20Barbarian"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "urban_barbarian", path = "json/archetypes_barbarian.json" },

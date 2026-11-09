@@ -2,6 +2,7 @@
 id = "ref/feat/shatter-defenses/teitr"
 kind = "feat"
 title = "Shatter Defenses"
+aon = "FeatDisplay.aspx?ItemName=Shatter%20Defenses"
 source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/shatter-defenses" },

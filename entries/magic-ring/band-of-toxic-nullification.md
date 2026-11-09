@@ -2,6 +2,7 @@
 id = "ref/magic-ring/band-of-toxic-nullification"
 kind = "item"
 title = "Band of Toxic Nullification"
+aon = "MagicRingsDisplay.aspx?FinalName=Band%20of%20Toxic%20Nullification"
 source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "band_of_toxic_nullification", path = "json/magic_ring.json" },

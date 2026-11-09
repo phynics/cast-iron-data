@@ -2,6 +2,7 @@
 id = "ref/monster/banelight"
 kind = "creature"
 title = "Banelight"
+aon = "MonsterDisplay.aspx?ItemName=Banelight"
 source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "banelight", path = "json/monsters03.json" },

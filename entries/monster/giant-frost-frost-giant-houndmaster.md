@@ -2,6 +2,7 @@
 id = "ref/monster/giant-frost-frost-giant-houndmaster"
 kind = "creature"
 title = "Frost Giant Houndmaster"
+aon = "MonsterDisplay.aspx?ItemName=Frost%20Giant%20Houndmaster"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_frost_frost_giant_houndmaster", path = "json/monsters11.json" },

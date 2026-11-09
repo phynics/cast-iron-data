@@ -2,6 +2,7 @@
 id = "ref/feat/viscous-venom"
 kind = "feat"
 title = "Viscous Venom"
+aon = "FeatDisplay.aspx?ItemName=Viscous%20Venom"
 source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "viscous_venom", path = "json/feat17.json" },

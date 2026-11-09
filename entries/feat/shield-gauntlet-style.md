@@ -2,6 +2,7 @@
 id = "ref/feat/shield-gauntlet-style"
 kind = "feat"
 title = "Shield Gauntlet Style"
+aon = "FeatDisplay.aspx?ItemName=Shield%20Gauntlet%20Style"
 source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_gauntlet_style", path = "json/feat14.json" },

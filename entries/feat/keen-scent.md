@@ -2,6 +2,7 @@
 id = "ref/feat/keen-scent"
 kind = "feat"
 title = "Keen Scent"
+aon = "FeatDisplay.aspx?ItemName=Keen%20Scent"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "keen_scent", path = "json/feat09.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/share-healing"
 kind = "feat"
 title = "Share Healing"
+aon = "FeatDisplay.aspx?ItemName=Share%20Healing"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "share_healing", path = "json/feat14.json" },

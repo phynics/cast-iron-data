@@ -2,6 +2,7 @@
 id = "ref/spell/symbol-of-laughter"
 kind = "spell"
 title = "Symbol of Laughter"
+aon = "SpellDisplay.aspx?ItemName=Symbol%20of%20Laughter"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "symbol_of_laughter", path = "json/spells10.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/oppressive-expectations"
 kind = "trait"
 title = "Oppressive Expectations"
+aon = "TraitDisplay.aspx?ItemName=Oppressive%20Expectations"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oppressive_expectations", path = "json/traits03.json" },

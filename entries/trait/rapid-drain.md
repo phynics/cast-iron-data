@@ -2,6 +2,7 @@
 id = "ref/trait/rapid-drain"
 kind = "trait"
 title = "Rapid Drain"
+aon = "TraitDisplay.aspx?ItemName=Rapid%20Drain"
 source_ids = ["blood-of-the-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rapid_drain", path = "json/traits05.json" },

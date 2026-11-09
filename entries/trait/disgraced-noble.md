@@ -2,6 +2,7 @@
 id = "ref/trait/disgraced-noble"
 kind = "trait"
 title = "Disgraced Noble"
+aon = "TraitDisplay.aspx?ItemName=Disgraced%20Noble"
 source_ids = ["war-for-the-crown-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disgraced_noble", path = "json/traits03.json" },

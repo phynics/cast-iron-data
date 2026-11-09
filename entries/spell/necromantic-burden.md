@@ -2,6 +2,7 @@
 id = "ref/spell/necromantic-burden"
 kind = "spell"
 title = "Necromantic Burden"
+aon = "SpellDisplay.aspx?ItemName=Necromantic%20Burden"
 source_ids = ["undead-slayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "necromantic_burden", path = "json/spells7.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/calculating-mind"
 kind = "feat"
 title = "Calculating Mind"
+aon = "FeatDisplay.aspx?ItemName=Calculating%20Mind"
 source_ids = ["occult-mysteries"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "calculating_mind", path = "json/feat02.json" },

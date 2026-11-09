@@ -2,6 +2,7 @@
 id = "ref/trait/insular-elf"
 kind = "trait"
 title = "Insular (Elf)"
+aon = "TraitDisplay.aspx?ItemName=Insular%20%28Elf%29"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "insular_elf", path = "json/traits05.json" },

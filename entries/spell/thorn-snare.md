@@ -2,6 +2,7 @@
 id = "ref/spell/thorn-snare"
 kind = "spell"
 title = "Thorn Snare"
+aon = "SpellDisplay.aspx?ItemName=Thorn%20Snare"
 source_ids = ["conquest-of-bloodsworn-vale"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thorn_snare", path = "json/spells10.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/drunken-brawler"
 kind = "feat"
 title = "Drunken Brawler"
+aon = "FeatDisplay.aspx?ItemName=Drunken%20Brawler"
 source_ids = ["inner-sea-gods", "faiths-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drunken_brawler", path = "json/feat05.json" },

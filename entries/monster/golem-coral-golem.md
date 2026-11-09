@@ -2,6 +2,7 @@
 id = "ref/monster/golem-coral-golem"
 kind = "creature"
 title = "Coral Golem"
+aon = "MonsterDisplay.aspx?ItemName=Coral%20Golem"
 source_ids = ["bestiary-4", "isles-of-the-shackles"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_coral_golem", path = "json/monsters33.json" },

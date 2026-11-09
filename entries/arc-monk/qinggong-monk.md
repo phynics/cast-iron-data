@@ -2,6 +2,7 @@
 id = "ref/arc-monk/qinggong-monk"
 kind = "archetype"
 title = "Qinggong Monk"
+aon = "ArchetypeDisplay.aspx?FixedName=Monk%20Qinggong%20Monk"
 source_ids = ["ultimate-magic", "martial-arts-handbook", "advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "qinggong_monk", path = "json/archetypes_monk2.json" },

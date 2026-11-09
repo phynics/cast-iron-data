@@ -2,6 +2,7 @@
 id = "ref/spell/stabilize-pressure"
 kind = "spell"
 title = "Stabilize Pressure"
+aon = "SpellDisplay.aspx?ItemName=Stabilize%20Pressure"
 source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stabilize_pressure", path = "json/spells9.json" },

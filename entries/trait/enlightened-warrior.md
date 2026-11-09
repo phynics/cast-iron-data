@@ -2,6 +2,7 @@
 id = "ref/trait/enlightened-warrior"
 kind = "trait"
 title = "Enlightened Warrior"
+aon = "TraitDisplay.aspx?ItemName=Enlightened%20Warrior"
 source_ids = ["blood-of-angels"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enlightened_warrior", path = "json/traits05.json" },

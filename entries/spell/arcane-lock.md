@@ -2,6 +2,7 @@
 id = "ref/spell/arcane-lock"
 kind = "spell"
 title = "Arcane Lock"
+aon = "SpellDisplay.aspx?ItemName=Arcane%20Lock"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcane_lock", path = "json/spells.json" },
