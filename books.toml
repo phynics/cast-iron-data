@@ -44791,8 +44791,8 @@ entry = "ref/rule/universal-path-abilities"
 [[books]]
 source = "npc-codex"
 title = "NPC Codex"
-basis = "The main chapter titles, their order, and their first pages are checked against the printed contents page of the NPC Codex. See docs/research/book-order-evidence.md. Canonical ids were substituted through the reviewed alias map; chapters and order are unchanged."
-review = ["The printed chapter 4: Iconic Characters has no corresponding chapter in the dataset.", "Canonical ids were substituted through sources/canonical/id-map.toml. A legacy entry with no installed target is omitted and listed in coverage."]
+basis = "The main chapter titles, their order, and their first pages are checked against the printed contents page of the NPC Codex. Each class section holds its NPCs in printed page order. See docs/research/book-order-evidence.md. Canonical ids were substituted through the reviewed alias map; chapters and order are unchanged."
+review = ["Each class section holds its NPCs in printed page order; entries that share a printed page keep the dataset order. The dataset's plural class list groups stay inside their class section.", "The printed chapter 4: Iconic Characters has no corresponding chapter in the dataset.", "Canonical ids were substituted through sources/canonical/id-map.toml. A legacy entry with no installed target is omitted and listed in coverage."]
 
 [[books.chapters]]
 title = "Core Classes"
