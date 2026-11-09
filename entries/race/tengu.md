@@ -34,7 +34,7 @@ outsiders, as they are largely distrustful and scornful of others.
 
 **+2 Dexterity, +2 Wisdom, -2 Constitution:** Tengus are fast and observant, but relatively fragile.
 
-**Humanoid:** Tengus are humanoids with the tengu subtype.
+**Humanoid:** Tengus are humanoids with the [tengu subtype](ref/subtype/tengu).
 
 **Medium:** Tengus are Medium creatures and have no bonuses or penalties due to their size.
 
