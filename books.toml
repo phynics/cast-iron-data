@@ -42822,10 +42822,6 @@ title = "What Makes Mythic Adventures Different"
 entry = "ref/rule/what-makes-mythic-adventures-different"
 
 [[books.chapters.children]]
-title = "Heirophant"
-entry = "ref/rule/hierophant"
-
-[[books.chapters.children]]
 title = "Accursed Hex"
 entry = "ref/feat/accursed-hex"
 
@@ -46602,10 +46598,6 @@ title = "Iron Priest"
 entry = "ref/arc-cleric/iron-priest"
 
 [[books.chapters.children.children.children]]
-title = "Technic Scavenger"
-entry = "ref/carried/technology-guide/rules/technology-in-the-world/archtypes/technology-themed-archetypes/technic-scavenger"
-
-[[books.chapters.children.children.children]]
 title = "Numerian Scavenger"
 entry = "ref/arc-rogue/numerian-scavenger"
 
@@ -47128,10 +47120,6 @@ entry = "ref/tech-misc/access-card-white"
 [[books.chapters.children.children.children]]
 title = "Battery"
 entry = "ref/tech-misc/battery"
-
-[[books.chapters.children.children.children]]
-title = "Silverdisk"
-entry = "ref/tech-misc/silverdisk"
 
 [[books.chapters.children.children.children]]
 title = "Camera"
