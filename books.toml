@@ -50773,6 +50773,10 @@ title = "Building Descriptions"
 entry = "ref/rule/building-descriptions"
 
 [[books.chapters.children.children.children]]
+title = "Gaining Experience for Leadership"
+entry = "ref/rule/gaining-experience-for-leadership"
+
+[[books.chapters.children.children.children]]
 title = "Buildings: Academy through Bureau"
 entry = "ref/rule/kbuildings1"
 
@@ -50799,10 +50803,6 @@ entry = "ref/rule/kbuildings6"
 [[books.chapters.children.children.children]]
 title = "Buildings: Tavern through Waterway"
 entry = "ref/rule/kbuildings7"
-
-[[books.chapters.children.children.children]]
-title = "Gaining Experience for Leadership"
-entry = "ref/rule/gaining-experience-for-leadership"
 
 [[books.chapters.children.children]]
 title = "Events"
