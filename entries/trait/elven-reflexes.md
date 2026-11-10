@@ -2,6 +2,7 @@
 id = "ref/trait/elven-reflexes"
 kind = "trait"
 title = "Elven Reflexes"
+aon = "TraitDisplay.aspx?ItemName=Elven%20Reflexes"
 source_ids = ["ultimate-campaign", "advanced-players-guide", "legacy-of-fire-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elven_reflexes", path = "json/traits05.json" },

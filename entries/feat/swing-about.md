@@ -2,6 +2,7 @@
 id = "ref/feat/swing-about"
 kind = "feat"
 title = "Swing About"
+aon = "FeatDisplay.aspx?ItemName=Swing%20About"
 source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swing_about", path = "json/feat15.json" },

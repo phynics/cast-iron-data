@@ -2,6 +2,7 @@
 id = "ref/feat/quick-wild-shape"
 kind = "feat"
 title = "Quick Wild Shape"
+aon = "FeatDisplay.aspx?ItemName=Quick%20Wild%20Shape"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quick_wild_shape", path = "json/feat12.json" },

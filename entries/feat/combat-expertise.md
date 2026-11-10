@@ -2,6 +2,7 @@
 id = "ref/feat/combat-expertise"
 kind = "feat"
 title = "Combat Expertise"
+aon = "FeatDisplay.aspx?ItemName=Combat%20Expertise"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "combat_expertise", path = "json/feat03.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/stalwart-elk"
 kind = "trait"
 title = "Stalwart Elk"
+aon = "TraitDisplay.aspx?ItemName=Stalwart%20Elk"
 source_ids = ["knights-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stalwart_elk", path = "json/traits03.json" },

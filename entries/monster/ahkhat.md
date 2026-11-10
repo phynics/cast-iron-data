@@ -2,6 +2,7 @@
 id = "ref/monster/ahkhat"
 kind = "creature"
 title = "Ahkhat"
+aon = "MonsterDisplay.aspx?ItemName=Ahkhat"
 source_ids = ["bestiary-5", "pathfinder-79-the-half-dead-city"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ahkhat", path = "json/monsters01.json" },

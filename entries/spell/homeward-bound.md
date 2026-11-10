@@ -2,6 +2,7 @@
 id = "ref/spell/homeward-bound"
 kind = "spell"
 title = "Homeward Bound"
+aon = "SpellDisplay.aspx?ItemName=Homeward%20Bound"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "homeward_bound", path = "json/spells13.json" },

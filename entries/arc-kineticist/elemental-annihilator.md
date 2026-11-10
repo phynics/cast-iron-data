@@ -2,6 +2,7 @@
 id = "ref/arc-kineticist/elemental-annihilator"
 kind = "archetype"
 title = "Elemental Annihilator"
+aon = "ArchetypeDisplay.aspx?FixedName=Kineticist%20Elemental%20Annihilator"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_annihilator", path = "json/archetypes_kineticist.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/counterpoint-to-inspiration"
 kind = "feat"
 title = "Counterpoint to Inspiration"
+aon = "FeatDisplay.aspx?ItemName=Counterpoint%20to%20Inspiration"
 source_ids = ["cohorts-and-companions"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "counterpoint_to_inspiration", path = "json/feat03.json" },

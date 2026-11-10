@@ -2,6 +2,7 @@
 id = "ref/feat/potion-glutton"
 kind = "feat"
 title = "Potion Glutton"
+aon = "FeatDisplay.aspx?ItemName=Potion%20Glutton"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "potion_glutton", path = "json/feat12.json" },

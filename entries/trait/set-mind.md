@@ -2,6 +2,7 @@
 id = "ref/trait/set-mind"
 kind = "trait"
 title = "Set Mind"
+aon = "TraitDisplay.aspx?ItemName=Set%20Mind"
 source_ids = ["ruins-of-azlant-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "set_mind", path = "json/traits02.json" },

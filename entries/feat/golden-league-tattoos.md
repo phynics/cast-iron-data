@@ -2,6 +2,7 @@
 id = "ref/feat/golden-league-tattoos"
 kind = "feat"
 title = "Golden League Tattoos"
+aon = "FeatDisplay.aspx?ItemName=Golden%20League%20Tattoos"
 source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golden_league_tattoos", path = "json/feat07.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/cloud-shape"
 kind = "spell"
 title = "Cloud Shape"
+aon = "SpellDisplay.aspx?ItemName=Cloud%20Shape"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloud_shape", path = "json/spells2.json" },

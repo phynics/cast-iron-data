@@ -2,6 +2,7 @@
 id = "ref/arc-cleric/cloistered-cleric"
 kind = "archetype"
 title = "Cloistered Cleric"
+aon = "ArchetypeDisplay.aspx?FixedName=Cleric%20Cloistered%20Cleric"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloistered_cleric", path = "json/archetypes_cleric.json" },

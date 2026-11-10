@@ -2,6 +2,7 @@
 id = "ref/monster/cutlass-spider"
 kind = "creature"
 title = "Cutlass Spider"
+aon = "MonsterDisplay.aspx?ItemName=Cutlass%20Spider"
 source_ids = ["bestiary-6", "pathfinder-15-the-armageddon-echo"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cutlass_spider", path = "json/monsters06.json" },

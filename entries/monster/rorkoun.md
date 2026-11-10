@@ -2,6 +2,7 @@
 id = "ref/monster/rorkoun"
 kind = "creature"
 title = "Rorkoun"
+aon = "MonsterDisplay.aspx?ItemName=Rorkoun"
 source_ids = ["pathfinder-32-rivers-run-red"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rorkoun", path = "json/monsters38.json" },

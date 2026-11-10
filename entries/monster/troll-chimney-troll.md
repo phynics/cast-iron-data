@@ -2,6 +2,7 @@
 id = "ref/monster/troll-chimney-troll"
 kind = "creature"
 title = "Chimney Troll"
+aon = "MonsterDisplay.aspx?ItemName=Chimney%20Troll"
 source_ids = ["daughters-of-fury"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "troll_chimney_troll", path = "json/monsters39.json" },

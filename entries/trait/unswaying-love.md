@@ -2,6 +2,7 @@
 id = "ref/trait/unswaying-love"
 kind = "trait"
 title = "Unswaying Love"
+aon = "TraitDisplay.aspx?ItemName=Unswaying%20Love"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unswaying_love", path = "json/traits03.json" },

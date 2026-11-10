@@ -2,6 +2,7 @@
 id = "ref/feat/pattern-message"
 kind = "feat"
 title = "Pattern Message"
+aon = "FeatDisplay.aspx?ItemName=Pattern%20Message"
 source_ids = ["distant-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pattern_message", path = "json/feat11.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-investigator/empiricist"
 kind = "archetype"
 title = "Empiricist"
+aon = "ArchetypeDisplay.aspx?FixedName=Investigator%20Empiricist"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "empiricist", path = "json/archetypes_investigator.json" },

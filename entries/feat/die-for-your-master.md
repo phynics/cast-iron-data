@@ -2,6 +2,7 @@
 id = "ref/feat/die-for-your-master"
 kind = "feat"
 title = "Die for Your Master"
+aon = "FeatDisplay.aspx?ItemName=Die%20for%20Your%20Master"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "die_for_your_master", path = "json/feat04.json" },

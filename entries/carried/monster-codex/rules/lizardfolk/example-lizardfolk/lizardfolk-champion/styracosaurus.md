@@ -2,6 +2,7 @@
 id = "ref/carried/monster-codex/rules/lizardfolk/example-lizardfolk/lizardfolk-champion/styracosaurus"
 kind = "creature"
 title = "Styracosaurus"
+aon = "MonsterDisplay.aspx?ItemName=Styracosaurus"
 source_ids = ["monster-codex"]
 section = ["Rules", "Lizardfolk", "Example Lizardfolk", "Lizardfolk Champion"]
 tags = ["animal", "large"]

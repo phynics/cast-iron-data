@@ -2,6 +2,7 @@
 id = "ref/spell/uncanny-reminder"
 kind = "spell"
 title = "Uncanny Reminder"
+aon = "SpellDisplay.aspx?ItemName=Uncanny%20Reminder"
 source_ids = ["chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "uncanny_reminder", path = "json/spells11.json" },

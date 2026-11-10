@@ -2,6 +2,7 @@
 id = "ref/feat/acute-shot"
 kind = "feat"
 title = "Acute Shot"
+aon = "FeatDisplay.aspx?ItemName=Acute%20Shot"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "acute_shot", path = "json/feat01.json" },

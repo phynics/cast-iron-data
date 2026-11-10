@@ -2,6 +2,7 @@
 id = "ref/monster/peryton"
 kind = "creature"
 title = "Peryton"
+aon = "MonsterDisplay.aspx?ItemName=Peryton"
 source_ids = ["bestiary-2", "pathfinder-19-howl-of-the-carrion-king"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "peryton", path = "json/monsters36.json" },

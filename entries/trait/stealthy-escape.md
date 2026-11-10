@@ -2,6 +2,7 @@
 id = "ref/trait/stealthy-escape"
 kind = "trait"
 title = "Stealthy Escape"
+aon = "TraitDisplay.aspx?ItemName=Stealthy%20Escape"
 source_ids = ["adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stealthy_escape", path = "json/traits03.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/energy-channel"
 kind = "feat"
 title = "Energy Channel"
+aon = "FeatDisplay.aspx?ItemName=Energy%20Channel"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "energy_channel", path = "json/feat05.json" },

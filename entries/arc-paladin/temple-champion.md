@@ -2,6 +2,7 @@
 id = "ref/arc-paladin/temple-champion"
 kind = "archetype"
 title = "Temple Champion"
+aon = "ArchetypeDisplay.aspx?FixedName=Paladin%20Temple%20Champion"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "temple_champion", path = "json/archetypes_paladin.json" },

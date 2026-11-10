@@ -2,6 +2,7 @@
 id = "ref/spell/eldritch-fever"
 kind = "spell"
 title = "Eldritch Fever"
+aon = "SpellDisplay.aspx?ItemName=Eldritch%20Fever"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eldritch_fever", path = "json/spells4.json" },

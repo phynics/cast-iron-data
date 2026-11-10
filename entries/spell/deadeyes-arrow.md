@@ -2,6 +2,7 @@
 id = "ref/spell/deadeyes-arrow"
 kind = "spell"
 title = "Deadeye's Arrow"
+aon = "SpellDisplay.aspx?ItemName=Deadeye%27s%20Arrow"
 source_ids = ["inner-sea-gods", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deadeyes_arrow", path = "json/spells3.json" },

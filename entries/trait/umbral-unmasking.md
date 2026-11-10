@@ -2,6 +2,7 @@
 id = "ref/trait/umbral-unmasking"
 kind = "trait"
 title = "Umbral Unmasking"
+aon = "TraitDisplay.aspx?ItemName=Umbral%20Unmasking"
 source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "umbral_unmasking", path = "json/traits03.json" },

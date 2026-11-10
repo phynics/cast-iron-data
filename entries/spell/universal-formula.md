@@ -2,6 +2,7 @@
 id = "ref/spell/universal-formula"
 kind = "spell"
 title = "Universal Formula"
+aon = "SpellDisplay.aspx?ItemName=Universal%20Formula"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "universal_formula", path = "json/spells11.json" },

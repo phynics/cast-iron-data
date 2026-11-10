@@ -2,6 +2,7 @@
 id = "ref/feat/point-blank-master/teitr"
 kind = "feat"
 title = "Point-Blank Master"
+aon = "FeatDisplay.aspx?ItemName=Point-Blank%20Master"
 source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/point-blank-master" },

@@ -2,6 +2,7 @@
 id = "ref/spell/carrion-compass"
 kind = "spell"
 title = "Carrion Compass"
+aon = "SpellDisplay.aspx?ItemName=Carrion%20Compass"
 source_ids = ["undead-slayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "carrion_compass", path = "json/spells2.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/woodland-rune"
 kind = "spell"
 title = "Woodland Rune"
+aon = "SpellDisplay.aspx?ItemName=Woodland%20Rune"
 source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "woodland_rune", path = "json/spells16.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/spirit-symbiosis"
 kind = "feat"
 title = "Spirit Symbiosis"
+aon = "FeatDisplay.aspx?ItemName=Spirit%20Symbiosis"
 source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spirit_symbiosis", path = "json/feat15.json" },

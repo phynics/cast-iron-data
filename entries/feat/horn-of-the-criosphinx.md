@@ -2,6 +2,7 @@
 id = "ref/feat/horn-of-the-criosphinx"
 kind = "feat"
 title = "Horn of the Criosphinx"
+aon = "FeatDisplay.aspx?ItemName=Horn%20of%20the%20Criosphinx"
 source_ids = ["people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horn_of_the_criosphinx", path = "json/feat08.json" },

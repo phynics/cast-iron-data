@@ -2,6 +2,7 @@
 id = "ref/feat/xenoglossy"
 kind = "feat"
 title = "Xenoglossy"
+aon = "FeatDisplay.aspx?ItemName=Xenoglossy"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "xenoglossy", path = "json/feat17.json" },

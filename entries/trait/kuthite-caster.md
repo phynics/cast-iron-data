@@ -2,6 +2,7 @@
 id = "ref/trait/kuthite-caster"
 kind = "trait"
 title = "Kuthite Caster"
+aon = "TraitDisplay.aspx?ItemName=Kuthite%20Caster"
 source_ids = ["inner-sea-gods", "faiths-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kuthite_caster", path = "json/traits03.json" },

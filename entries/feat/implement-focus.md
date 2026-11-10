@@ -2,6 +2,7 @@
 id = "ref/feat/implement-focus"
 kind = "feat"
 title = "Implement Focus"
+aon = "FeatDisplay.aspx?ItemName=Implement%20Focus"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "implement_focus", path = "json/feat08.json" },

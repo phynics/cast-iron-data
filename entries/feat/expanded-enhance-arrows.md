@@ -2,6 +2,7 @@
 id = "ref/feat/expanded-enhance-arrows"
 kind = "feat"
 title = "Expanded Enhance Arrows"
+aon = "FeatDisplay.aspx?ItemName=Expanded%20Enhance%20Arrows"
 source_ids = ["chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "expanded_enhance_arrows", path = "json/feat06.json" },

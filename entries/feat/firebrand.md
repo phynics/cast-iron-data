@@ -2,6 +2,7 @@
 id = "ref/feat/firebrand"
 kind = "feat"
 title = "Firebrand"
+aon = "FeatDisplay.aspx?ItemName=Firebrand"
 source_ids = ["faiths-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "firebrand", path = "json/feat07.json" },

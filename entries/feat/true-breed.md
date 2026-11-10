@@ -2,6 +2,7 @@
 id = "ref/feat/true-breed"
 kind = "feat"
 title = "True Breed"
+aon = "FeatDisplay.aspx?ItemName=True%20Breed"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "true_breed", path = "json/feat16.json" },

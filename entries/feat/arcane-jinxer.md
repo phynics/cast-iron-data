@@ -2,6 +2,7 @@
 id = "ref/feat/arcane-jinxer"
 kind = "feat"
 title = "Arcane Jinxer"
+aon = "FeatDisplay.aspx?ItemName=Arcane%20Jinxer"
 source_ids = ["halflings-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcane_jinxer", path = "json/feat01.json" },

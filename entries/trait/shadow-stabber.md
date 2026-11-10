@@ -2,6 +2,7 @@
 id = "ref/trait/shadow-stabber"
 kind = "trait"
 title = "Shadow Stabber"
+aon = "TraitDisplay.aspx?ItemName=Shadow%20Stabber"
 source_ids = ["blood-of-fiends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_stabber", path = "json/traits05.json" },

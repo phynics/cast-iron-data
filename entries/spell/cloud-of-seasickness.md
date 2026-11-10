@@ -2,6 +2,7 @@
 id = "ref/spell/cloud-of-seasickness"
 kind = "spell"
 title = "Cloud of Seasickness"
+aon = "SpellDisplay.aspx?ItemName=Cloud%20of%20Seasickness"
 source_ids = ["pathfinder-55-the-wormwood-mutiny"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloud_of_seasickness", path = "json/spells2.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/eyes-of-judgment"
 kind = "feat"
 title = "Eyes of Judgment"
+aon = "FeatDisplay.aspx?ItemName=Eyes%20of%20Judgment"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eyes_of_judgment", path = "json/feat06.json" },

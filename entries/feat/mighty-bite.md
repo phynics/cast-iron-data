@@ -2,6 +2,7 @@
 id = "ref/feat/mighty-bite"
 kind = "feat"
 title = "Mighty Bite"
+aon = "FeatDisplay.aspx?ItemName=Mighty%20Bite"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mighty_bite", path = "json/feat10.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/ursikka"
 kind = "creature"
 title = "Ursikka"
+aon = "MonsterDisplay.aspx?ItemName=Ursikka"
 source_ids = ["bestiary-5", "pathfinder-70-the-frozen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ursikka", path = "json/monsters24.json" },

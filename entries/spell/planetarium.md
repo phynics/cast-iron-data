@@ -2,6 +2,7 @@
 id = "ref/spell/planetarium"
 kind = "spell"
 title = "Planetarium"
+aon = "SpellDisplay.aspx?ItemName=Planetarium"
 source_ids = ["people-of-the-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planetarium", path = "json/spells7.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/mighty-boughs"
 kind = "feat"
 title = "Mighty Boughs"
+aon = "FeatDisplay.aspx?ItemName=Mighty%20Boughs"
 source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mighty_boughs", path = "json/feat10.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/improved-familiar-bond"
 kind = "feat"
 title = "Improved Familiar Bond"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Familiar%20Bond"
 source_ids = ["familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_familiar_bond", path = "json/feat09.json" },

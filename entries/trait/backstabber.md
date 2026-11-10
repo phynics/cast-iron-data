@@ -2,6 +2,7 @@
 id = "ref/trait/backstabber"
 kind = "trait"
 title = "Backstabber"
+aon = "TraitDisplay.aspx?ItemName=Backstabber"
 source_ids = ["halflings-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "backstabber", path = "json/traits03.json" },

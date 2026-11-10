@@ -2,6 +2,7 @@
 id = "ref/feat/monstrous-crafter"
 kind = "feat"
 title = "Monstrous Crafter"
+aon = "FeatDisplay.aspx?ItemName=Monstrous%20Crafter"
 source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monstrous_crafter", path = "json/feat11.json" },

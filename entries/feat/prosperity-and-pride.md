@@ -2,6 +2,7 @@
 id = "ref/feat/prosperity-and-pride"
 kind = "feat"
 title = "Prosperity and Pride"
+aon = "FeatDisplay.aspx?ItemName=Prosperity%20and%20Pride"
 source_ids = ["pathfinder-131-the-reapers-right-hand"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prosperity_and_pride", path = "json/feat12.json" },

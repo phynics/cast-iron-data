@@ -2,6 +2,7 @@
 id = "ref/spell/freedoms-toast"
 kind = "spell"
 title = "Freedom's Toast"
+aon = "SpellDisplay.aspx?ItemName=Freedom%27s%20Toast"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "freedoms_toast", path = "json/spells13.json" },

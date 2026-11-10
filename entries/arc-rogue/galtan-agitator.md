@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/galtan-agitator"
 kind = "archetype"
 title = "Galtan Agitator"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Galtan%20Agitator"
 source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "galtan_agitator", path = "json/archetypes_rogue.json" },

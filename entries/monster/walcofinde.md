@@ -2,6 +2,7 @@
 id = "ref/monster/walcofinde"
 kind = "creature"
 title = "Walcofinde"
+aon = "MonsterDisplay.aspx?ItemName=Walcofinde"
 source_ids = ["pathfinder-127-crownfall"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "walcofinde", path = "json/monsters40.json" },

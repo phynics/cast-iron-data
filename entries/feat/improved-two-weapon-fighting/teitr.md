@@ -2,6 +2,7 @@
 id = "ref/feat/improved-two-weapon-fighting/teitr"
 kind = "feat"
 title = "Improved Two-Weapon Fighting"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Two-Weapon%20Fighting"
 source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/improved-two-weapon-fighting", label = "removed" },

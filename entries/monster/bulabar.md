@@ -2,6 +2,7 @@
 id = "ref/monster/bulabar"
 kind = "creature"
 title = "Bulabar"
+aon = "MonsterDisplay.aspx?ItemName=Bulabar"
 source_ids = ["the-first-world-realm-of-the-fey"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bulabar", path = "json/monsters04.json" },

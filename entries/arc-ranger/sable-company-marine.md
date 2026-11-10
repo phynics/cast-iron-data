@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/sable-company-marine"
 kind = "archetype"
 title = "Sable Company Marine"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Sable%20Company%20Marine"
 source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sable_company_marine", path = "json/archetypes_ranger.json" },

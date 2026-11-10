@@ -2,6 +2,7 @@
 id = "ref/feat/merciful-spell"
 kind = "feat"
 title = "Merciful Spell"
+aon = "FeatDisplay.aspx?ItemName=Merciful%20Spell"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "merciful_spell", path = "json/feat10.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/command-greater"
 kind = "spell"
 title = "Greater Command"
+aon = "SpellDisplay.aspx?ItemName=Command%2C%20Greater"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "command_greater", path = "json/spells12.json" },

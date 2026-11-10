@@ -2,6 +2,7 @@
 id = "ref/spell/chain-of-perdition"
 kind = "spell"
 title = "Chain of Perdition"
+aon = "SpellDisplay.aspx?ItemName=Chain%20of%20Perdition"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chain_of_perdition", path = "json/spells2.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/hibernate"
 kind = "spell"
 title = "Hibernate"
+aon = "SpellDisplay.aspx?ItemName=Hibernate"
 source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hibernate", path = "json/spells5.json" },

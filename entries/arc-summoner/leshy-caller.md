@@ -2,6 +2,7 @@
 id = "ref/arc-summoner/leshy-caller"
 kind = "archetype"
 title = "Leshy Caller"
+aon = "ArchetypeDisplay.aspx?FixedName=Summoner%20Leshy%20Caller"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "leshy_caller", path = "json/archetypes_summoner.json" },

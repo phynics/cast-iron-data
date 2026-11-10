@@ -2,6 +2,7 @@
 id = "ref/feat/monkey-lunge"
 kind = "feat"
 title = "Monkey Lunge"
+aon = "FeatDisplay.aspx?ItemName=Monkey%20Lunge"
 source_ids = ["sargava-the-lost-colony"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monkey_lunge", path = "json/feat11.json" },

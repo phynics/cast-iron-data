@@ -2,6 +2,7 @@
 id = "ref/feat/guardians-return"
 kind = "feat"
 title = "Guardian's Return"
+aon = "FeatDisplay.aspx?ItemName=Guardian%27s%20Return"
 source_ids = ["familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guardians_return", path = "json/feat08.json" },

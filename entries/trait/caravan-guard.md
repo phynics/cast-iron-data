@@ -2,6 +2,7 @@
 id = "ref/trait/caravan-guard"
 kind = "trait"
 title = "Caravan Guard"
+aon = "TraitDisplay.aspx?ItemName=Caravan%20Guard"
 source_ids = ["jade-regent-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "caravan_guard", path = "json/traits02.json" },

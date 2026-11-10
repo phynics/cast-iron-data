@@ -2,6 +2,7 @@
 id = "ref/spell/blade-lash"
 kind = "spell"
 title = "Blade Lash"
+aon = "SpellDisplay.aspx?ItemName=Blade%20Lash"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blade_lash", path = "json/spells12.json" },

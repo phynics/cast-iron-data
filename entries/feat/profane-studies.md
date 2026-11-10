@@ -2,6 +2,7 @@
 id = "ref/feat/profane-studies"
 kind = "feat"
 title = "Profane Studies"
+aon = "FeatDisplay.aspx?ItemName=Profane%20Studies"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "profane_studies", path = "json/feat12.json" },

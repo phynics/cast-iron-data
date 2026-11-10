@@ -2,6 +2,7 @@
 id = "ref/monster/gargoyle-four-armed-gargoyle"
 kind = "creature"
 title = "Four-Armed Gargoyle"
+aon = "MonsterDisplay.aspx?ItemName=Four-Armed%20Gargoyle"
 source_ids = ["pathfinder-48-shadows-of-gallowspire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gargoyle_four_armed_gargoyle", path = "json/monsters32.json" },

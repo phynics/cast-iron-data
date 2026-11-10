@@ -2,6 +2,7 @@
 id = "ref/feat/vindictive-fall"
 kind = "feat"
 title = "Vindictive Fall"
+aon = "FeatDisplay.aspx?ItemName=Vindictive%20Fall"
 source_ids = ["antiheros-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vindictive_fall", path = "json/feat17.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/giant-fire-fire-giant-doombringer"
 kind = "creature"
 title = "Fire Giant Doombringer"
+aon = "MonsterDisplay.aspx?ItemName=Fire%20Giant%20Doombringer"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_fire_fire_giant_doombringer", path = "json/monsters11.json" },

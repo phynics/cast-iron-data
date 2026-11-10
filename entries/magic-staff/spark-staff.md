@@ -2,6 +2,7 @@
 id = "ref/magic-staff/spark-staff"
 kind = "item"
 title = "Spark Staff"
+aon = "MagicStavesDisplay.aspx?ItemName=Spark%20Staff"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spark_staff", path = "json/magic_staff.json" },

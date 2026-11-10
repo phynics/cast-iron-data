@@ -2,6 +2,7 @@
 id = "ref/monster/tetrolimulus"
 kind = "creature"
 title = "Tetrolimulus"
+aon = "MonsterDisplay.aspx?ItemName=Tetrolimulus"
 source_ids = ["pathfinder-58-island-of-empty-eyes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tetrolimulus", path = "json/monsters23.json" },

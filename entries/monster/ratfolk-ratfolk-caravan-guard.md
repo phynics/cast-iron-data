@@ -2,6 +2,7 @@
 id = "ref/monster/ratfolk-ratfolk-caravan-guard"
 kind = "creature"
 title = "Ratfolk Caravan Guard"
+aon = "MonsterDisplay.aspx?ItemName=Ratfolk%20Caravan%20Guard"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ratfolk_ratfolk_caravan_guard", path = "json/monsters20.json" },

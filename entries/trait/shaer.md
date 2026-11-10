@@ -2,6 +2,7 @@
 id = "ref/trait/shaer"
 kind = "trait"
 title = "Shaer"
+aon = "TraitDisplay.aspx?ItemName=Shaer"
 source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shaer", path = "json/traits04.json" },

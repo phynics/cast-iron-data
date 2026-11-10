@@ -2,6 +2,7 @@
 id = "ref/spell/liberating-command"
 kind = "spell"
 title = "Liberating Command"
+aon = "SpellDisplay.aspx?ItemName=Liberating%20Command"
 source_ids = ["ultimate-combat", "andoran-spirit-of-liberty"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "liberating_command", path = "json/spells6.json" },

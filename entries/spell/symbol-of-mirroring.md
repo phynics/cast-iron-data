@@ -2,6 +2,7 @@
 id = "ref/spell/symbol-of-mirroring"
 kind = "spell"
 title = "Symbol of Mirroring"
+aon = "SpellDisplay.aspx?ItemName=Symbol%20of%20Mirroring"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "symbol_of_mirroring", path = "json/spells10.json" },

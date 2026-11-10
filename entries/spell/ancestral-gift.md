@@ -2,6 +2,7 @@
 id = "ref/spell/ancestral-gift"
 kind = "spell"
 title = "Ancestral Gift"
+aon = "SpellDisplay.aspx?ItemName=Ancestral%20Gift"
 source_ids = ["dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ancestral_gift", path = "json/spells.json" },

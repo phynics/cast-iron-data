@@ -2,6 +2,7 @@
 id = "ref/arc-alchemist/trap-breaker"
 kind = "archetype"
 title = "Trap Breaker"
+aon = "ArchetypeDisplay.aspx?FixedName=Alchemist%20Trap%20Breaker"
 source_ids = ["dungeoneers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trap_breaker", path = "json/archetypes_alchemist2.json" },

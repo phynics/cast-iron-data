@@ -2,6 +2,7 @@
 id = "ref/magic-staff/staff-of-magical-decline"
 kind = "item"
 title = "Staff of Magical Decline"
+aon = "MagicCursedDisplay.aspx?ItemName=Staff%20of%20Magical%20Decline"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_magical_decline", path = "json/magic_staff.json" },

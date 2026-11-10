@@ -2,6 +2,7 @@
 id = "ref/monster/fafnheir"
 kind = "creature"
 title = "Fafnheir"
+aon = "MonsterDisplay.aspx?ItemName=Fafnheir"
 source_ids = ["lands-of-the-linnorm-kings"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fafnheir", path = "json/monsters_unique4.json" },

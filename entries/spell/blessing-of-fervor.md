@@ -2,6 +2,7 @@
 id = "ref/spell/blessing-of-fervor"
 kind = "spell"
 title = "Blessing of Fervor"
+aon = "SpellDisplay.aspx?ItemName=Blessing%20of%20Fervor"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blessing_of_fervor", path = "json/spells2.json" },

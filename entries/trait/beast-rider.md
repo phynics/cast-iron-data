@@ -2,6 +2,7 @@
 id = "ref/trait/beast-rider"
 kind = "trait"
 title = "Beast Rider"
+aon = "TraitDisplay.aspx?ItemName=Beast%20Rider"
 source_ids = ["orcs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beast_rider", path = "json/traits05.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/ice-spears"
 kind = "spell"
 title = "Ice Spears"
+aon = "SpellDisplay.aspx?ItemName=Ice%20Spears"
 source_ids = ["pathfinder-67-the-snows-of-summer", "inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ice_spears", path = "json/spells5.json" },

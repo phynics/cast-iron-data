@@ -2,6 +2,7 @@
 id = "ref/feat/bend-with-the-wind"
 kind = "feat"
 title = "Bend with the Wind"
+aon = "FeatDisplay.aspx?ItemName=Bend%20with%20the%20Wind"
 source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bend_with_the_wind", path = "json/feat02.json" },

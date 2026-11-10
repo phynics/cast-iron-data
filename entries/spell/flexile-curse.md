@@ -2,6 +2,7 @@
 id = "ref/spell/flexile-curse"
 kind = "spell"
 title = "Flexile Curse"
+aon = "SpellDisplay.aspx?ItemName=Flexile%20Curse"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flexile_curse", path = "json/spells4.json" },

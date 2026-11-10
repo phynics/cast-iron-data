@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/investigator"
 kind = "archetype"
 title = "Investigator"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Investigator"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "investigator", path = "json/archetypes_rogue.json" },

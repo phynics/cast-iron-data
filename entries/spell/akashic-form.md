@@ -2,6 +2,7 @@
 id = "ref/spell/akashic-form"
 kind = "spell"
 title = "Akashic Form"
+aon = "SpellDisplay.aspx?ItemName=Akashic%20Form"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "akashic_form", path = "json/spells.json" },

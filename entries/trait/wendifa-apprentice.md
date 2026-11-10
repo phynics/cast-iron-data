@@ -2,6 +2,7 @@
 id = "ref/trait/wendifa-apprentice"
 kind = "trait"
 title = "Wendifa Apprentice"
+aon = "TraitDisplay.aspx?ItemName=Wendifa%20Apprentice"
 source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wendifa_apprentice", path = "json/traits01.json" },

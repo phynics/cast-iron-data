@@ -2,6 +2,7 @@
 id = "ref/spell/flame-arrow"
 kind = "spell"
 title = "Flame Arrow"
+aon = "SpellDisplay.aspx?ItemName=Flame%20Arrow"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flame_arrow", path = "json/spells4.json" },

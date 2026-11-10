@@ -2,6 +2,7 @@
 id = "ref/trait/strong-arm-supple-wrist"
 kind = "trait"
 title = "Strong Arm, Supple Wrist"
+aon = "TraitDisplay.aspx?ItemName=Strong%20Arm%2C%20Supple%20Wrist"
 source_ids = ["qadira-jewel-of-the-east", "qadira-gateway-to-the-east"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "strong_arm_supple_wrist", path = "json/traits01.json" },

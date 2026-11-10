@@ -2,6 +2,7 @@
 id = "ref/arc-witch/invoker"
 kind = "archetype"
 title = "Invoker"
+aon = "ArchetypeDisplay.aspx?FixedName=Witch%20Invoker"
 source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "invoker", path = "json/archetypes_witch.json" },

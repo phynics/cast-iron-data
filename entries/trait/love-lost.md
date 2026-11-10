@@ -2,6 +2,7 @@
 id = "ref/trait/love-lost"
 kind = "trait"
 title = "Love Lost"
+aon = "TraitDisplay.aspx?ItemName=Love%20Lost"
 source_ids = ["curse-of-the-crimson-throne", "curse-of-the-crimson-throne-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "love_lost", path = "json/traits02.json" },

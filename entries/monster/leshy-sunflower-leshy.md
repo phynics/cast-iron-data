@@ -2,6 +2,7 @@
 id = "ref/monster/leshy-sunflower-leshy"
 kind = "creature"
 title = "Sunflower Leshy"
+aon = "MonsterDisplay.aspx?ItemName=Sunflower%20Leshy"
 source_ids = ["pathfinder-115-trail-of-the-hunted"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "leshy_sunflower_leshy", path = "json/monsters34.json" },

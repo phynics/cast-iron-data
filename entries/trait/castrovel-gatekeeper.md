@@ -2,6 +2,7 @@
 id = "ref/trait/castrovel-gatekeeper"
 kind = "trait"
 title = "Castrovel Gatekeeper"
+aon = "TraitDisplay.aspx?ItemName=Castrovel%20Gatekeeper"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "castrovel_gatekeeper", path = "json/traits05.json" },

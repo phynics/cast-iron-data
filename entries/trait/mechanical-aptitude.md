@@ -2,6 +2,7 @@
 id = "ref/trait/mechanical-aptitude"
 kind = "trait"
 title = "Mechanical Aptitude"
+aon = "TraitDisplay.aspx?ItemName=Mechanical%20Aptitude"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mechanical_aptitude", path = "json/traits02.json" },

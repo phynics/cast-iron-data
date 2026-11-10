@@ -2,6 +2,7 @@
 id = "ref/feat/stone-read"
 kind = "feat"
 title = "Stone Read"
+aon = "FeatDisplay.aspx?ItemName=Stone%20Read"
 source_ids = ["inner-sea-gods", "faiths-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stone_read", path = "json/feat15.json" },

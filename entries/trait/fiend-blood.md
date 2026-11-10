@@ -2,6 +2,7 @@
 id = "ref/trait/fiend-blood"
 kind = "trait"
 title = "Fiend Blood"
+aon = "TraitDisplay.aspx?ItemName=Fiend%20Blood"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fiend_blood", path = "json/traits05.json" },

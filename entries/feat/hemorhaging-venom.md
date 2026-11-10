@@ -2,6 +2,7 @@
 id = "ref/feat/hemorhaging-venom"
 kind = "feat"
 title = "Hemorhaging Venom"
+aon = "FeatDisplay.aspx?ItemName=Hemorhaging%20Venom"
 source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hemorhaging_venom", path = "json/feat08.json" },

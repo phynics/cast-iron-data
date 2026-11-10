@@ -2,6 +2,7 @@
 id = "ref/monster/shoggoth"
 kind = "creature"
 title = "Shoggoth"
+aon = "MonsterDisplay.aspx?ItemName=Shoggoth"
 source_ids = ["bestiary", "crucible-of-chaos"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shoggoth", path = "json/monsters38.json" },

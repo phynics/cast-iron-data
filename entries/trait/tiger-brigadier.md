@@ -2,6 +2,7 @@
 id = "ref/trait/tiger-brigadier"
 kind = "trait"
 title = "Tiger Brigadier"
+aon = "TraitDisplay.aspx?ItemName=Tiger%20Brigadier"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tiger_brigadier", path = "json/traits04.json" },

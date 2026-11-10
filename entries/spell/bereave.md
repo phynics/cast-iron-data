@@ -2,6 +2,7 @@
 id = "ref/spell/bereave"
 kind = "spell"
 title = "Bereave"
+aon = "SpellDisplay.aspx?ItemName=Bereave"
 source_ids = ["inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bereave", path = "json/spells12.json" },

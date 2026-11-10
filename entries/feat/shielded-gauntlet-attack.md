@@ -2,6 +2,7 @@
 id = "ref/feat/shielded-gauntlet-attack"
 kind = "feat"
 title = "Shielded Gauntlet Attack"
+aon = "FeatDisplay.aspx?ItemName=Shielded%20Gauntlet%20Attack"
 source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shielded_gauntlet_attack", path = "json/feat14.json" },

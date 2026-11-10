@@ -2,6 +2,7 @@
 id = "ref/spell/deep-slumber"
 kind = "spell"
 title = "Deep Slumber"
+aon = "SpellDisplay.aspx?ItemName=Deep%20Slumber"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deep_slumber", path = "json/spells3.json" },

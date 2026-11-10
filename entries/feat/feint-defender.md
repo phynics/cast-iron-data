@@ -2,6 +2,7 @@
 id = "ref/feat/feint-defender"
 kind = "feat"
 title = "Feint Defender"
+aon = "FeatDisplay.aspx?ItemName=Feint%20Defender"
 source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "feint_defender", path = "json/feat07.json" },

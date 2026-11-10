@@ -2,6 +2,7 @@
 id = "ref/feat/bolster-undead"
 kind = "feat"
 title = "Bolster Undead"
+aon = "FeatDisplay.aspx?ItemName=Bolster%20Undead"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bolster_undead", path = "json/feat02.json" },

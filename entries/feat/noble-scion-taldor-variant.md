@@ -2,6 +2,7 @@
 id = "ref/feat/noble-scion-taldor-variant"
 kind = "feat"
 title = "Noble Scion (Taldor Variant)"
+aon = "FeatDisplay.aspx?ItemName=Noble%20Scion%20%28Taldor%20Variant%29"
 source_ids = ["war-for-the-crown-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "noble_scion_taldor_variant", path = "json/feat11.json" },

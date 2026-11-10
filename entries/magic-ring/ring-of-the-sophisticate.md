@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-the-sophisticate"
 kind = "item"
 title = "Ring of the Sophisticate"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20the%20Sophisticate"
 source_ids = ["ultimate-equipment", "advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_the_sophisticate", path = "json/magic_ring.json" },

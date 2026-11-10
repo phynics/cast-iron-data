@@ -2,6 +2,7 @@
 id = "ref/spell/pattern-recognition"
 kind = "spell"
 title = "Pattern Recognition"
+aon = "SpellDisplay.aspx?ItemName=Pattern%20Recognition"
 source_ids = ["second-darkness-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pattern_recognition", path = "json/spells7.json" },

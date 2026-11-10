@@ -2,6 +2,7 @@
 id = "ref/trait/boarded-in-mediogalti"
 kind = "trait"
 title = "Boarded in Mediogalti"
+aon = "TraitDisplay.aspx?ItemName=Boarded%20in%20Mediogalti"
 source_ids = ["serpents-skull-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boarded_in_mediogalti", path = "json/traits02.json" },

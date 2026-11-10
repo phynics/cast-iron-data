@@ -2,6 +2,7 @@
 id = "ref/spell/damnation-stride"
 kind = "spell"
 title = "Damnation Stride"
+aon = "SpellDisplay.aspx?ItemName=Damnation%20Stride"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "damnation_stride", path = "json/spells3.json" },

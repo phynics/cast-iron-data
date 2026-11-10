@@ -2,6 +2,7 @@
 id = "ref/feat/metamagical-synergy"
 kind = "feat"
 title = "Metamagical Synergy"
+aon = "FeatDisplay.aspx?ItemName=Metamagical%20Synergy"
 source_ids = ["blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "metamagical_synergy", path = "json/feat10.json" },

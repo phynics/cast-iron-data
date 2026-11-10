@@ -2,6 +2,7 @@
 id = "ref/magic-weapon/biting-battleaxe"
 kind = "item"
 title = "Biting Battleaxe"
+aon = "MagicCursedDisplay.aspx?ItemName=Biting%20Battleaxe"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "biting_battleaxe", path = "json/magic_weapon2.json" },

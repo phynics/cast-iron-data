@@ -2,6 +2,7 @@
 id = "ref/feat/blooded-arcane-strike"
 kind = "feat"
 title = "Blooded Arcane Strike"
+aon = "FeatDisplay.aspx?ItemName=Blooded%20Arcane%20Strike"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blooded_arcane_strike", path = "json/feat02.json" },

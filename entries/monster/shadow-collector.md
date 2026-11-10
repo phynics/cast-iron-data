@@ -2,6 +2,7 @@
 id = "ref/monster/shadow-collector"
 kind = "creature"
 title = "Shadow Collector"
+aon = "MonsterDisplay.aspx?ItemName=Shadow%20Collector"
 source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_collector", path = "json/monsters21.json" },

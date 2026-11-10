@@ -2,6 +2,7 @@
 id = "ref/arc-occultist/planar-harmonizer"
 kind = "archetype"
 title = "Planar Harmonizer"
+aon = "ArchetypeDisplay.aspx?FixedName=Occultist%20Planar%20Harmonizer"
 source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planar_harmonizer", path = "json/archetypes_occultist.json" },

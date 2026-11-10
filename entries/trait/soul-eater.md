@@ -2,6 +2,7 @@
 id = "ref/trait/soul-eater"
 kind = "trait"
 title = "Soul Eater"
+aon = "TraitDisplay.aspx?ItemName=Soul%20Eater"
 source_ids = ["blood-of-fiends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soul_eater", path = "json/traits05.json" },

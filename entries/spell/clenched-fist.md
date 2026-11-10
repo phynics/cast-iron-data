@@ -2,6 +2,7 @@
 id = "ref/spell/clenched-fist"
 kind = "spell"
 title = "Clenched Fist"
+aon = "SpellDisplay.aspx?ItemName=Clenched%20Fist"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clenched_fist", path = "json/spells2.json" },

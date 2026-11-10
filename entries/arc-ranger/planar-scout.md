@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/planar-scout"
 kind = "archetype"
 title = "Planar Scout"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Planar%20Scout"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planar_scout", path = "json/archetypes_ranger.json" },

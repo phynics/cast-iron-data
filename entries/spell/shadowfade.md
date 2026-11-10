@@ -2,6 +2,7 @@
 id = "ref/spell/shadowfade"
 kind = "spell"
 title = "Shadowfade"
+aon = "SpellDisplay.aspx?ItemName=Shadowfade"
 source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadowfade", path = "json/spells15.json" },

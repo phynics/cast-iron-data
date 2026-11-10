@@ -2,6 +2,7 @@
 id = "ref/spell/curative-distillation"
 kind = "spell"
 title = "Curative Distillation"
+aon = "SpellDisplay.aspx?ItemName=Curative%20Distillation"
 source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "curative_distillation", path = "json/spells3.json" },

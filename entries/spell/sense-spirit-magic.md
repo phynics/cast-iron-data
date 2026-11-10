@@ -2,6 +2,7 @@
 id = "ref/spell/sense-spirit-magic"
 kind = "spell"
 title = "Sense Spirit Magic"
+aon = "SpellDisplay.aspx?ItemName=Sense%20Spirit%20Magic"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sense_spirit_magic", path = "json/spells15.json" },

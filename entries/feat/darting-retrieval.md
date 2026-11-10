@@ -2,6 +2,7 @@
 id = "ref/feat/darting-retrieval"
 kind = "feat"
 title = "Darting Retrieval"
+aon = "FeatDisplay.aspx?ItemName=Darting%20Retrieval"
 source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "darting_retrieval", path = "json/feat04.json" },

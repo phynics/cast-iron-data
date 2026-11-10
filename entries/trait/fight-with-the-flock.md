@@ -2,6 +2,7 @@
 id = "ref/trait/fight-with-the-flock"
 kind = "trait"
 title = "Fight with the Flock"
+aon = "TraitDisplay.aspx?ItemName=Fight%20with%20the%20Flock"
 source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fight_with_the_flock", path = "json/traits05.json" },

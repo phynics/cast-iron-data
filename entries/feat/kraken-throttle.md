@@ -2,6 +2,7 @@
 id = "ref/feat/kraken-throttle"
 kind = "feat"
 title = "Kraken Throttle"
+aon = "FeatDisplay.aspx?ItemName=Kraken%20Throttle"
 source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kraken_throttle", path = "json/feat09.json" },

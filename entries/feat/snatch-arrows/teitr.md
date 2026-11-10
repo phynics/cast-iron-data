@@ -2,6 +2,7 @@
 id = "ref/feat/snatch-arrows/teitr"
 kind = "feat"
 title = "Snatch Arrows"
+aon = "FeatDisplay.aspx?ItemName=Snatch%20Arrows"
 source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/snatch-arrows" },

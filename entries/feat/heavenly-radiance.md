@@ -2,6 +2,7 @@
 id = "ref/feat/heavenly-radiance"
 kind = "feat"
 title = "Heavenly Radiance"
+aon = "FeatDisplay.aspx?ItemName=Heavenly%20Radiance"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heavenly_radiance", path = "json/feat08.json" },

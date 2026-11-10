@@ -2,6 +2,7 @@
 id = "ref/feat/slow-time"
 kind = "feat"
 title = "Slow Time"
+aon = "FeatDisplay.aspx?ItemName=Slow%20Time"
 source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slow_time", path = "json/feat14.json" },

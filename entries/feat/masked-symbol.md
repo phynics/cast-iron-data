@@ -2,6 +2,7 @@
 id = "ref/feat/masked-symbol"
 kind = "feat"
 title = "Masked Symbol"
+aon = "FeatDisplay.aspx?ItemName=Masked%20Symbol"
 source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "masked_symbol", path = "json/feat10.json" },

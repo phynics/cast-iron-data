@@ -2,6 +2,7 @@
 id = "ref/trait/wary-eye"
 kind = "trait"
 title = "Wary Eye"
+aon = "TraitDisplay.aspx?ItemName=Wary%20Eye"
 source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wary_eye", path = "json/traits01.json" },

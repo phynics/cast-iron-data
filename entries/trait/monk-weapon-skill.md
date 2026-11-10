@@ -2,6 +2,7 @@
 id = "ref/trait/monk-weapon-skill"
 kind = "trait"
 title = "Monk Weapon Skill"
+aon = "TraitDisplay.aspx?ItemName=Monk%20Weapon%20Skill"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monk_weapon_skill", path = "json/traits01.json" },

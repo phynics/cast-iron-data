@@ -2,6 +2,7 @@
 id = "ref/arc-brawler/winding-path-renegade"
 kind = "archetype"
 title = "Winding Path Renegade"
+aon = "ArchetypeDisplay.aspx?FixedName=Brawler%20Winding%20Path%20Renegade"
 source_ids = ["adventurers-guide", "advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "winding_path_renegade", path = "json/archetypes_brawler.json" },

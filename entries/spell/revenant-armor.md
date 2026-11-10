@@ -2,6 +2,7 @@
 id = "ref/spell/revenant-armor"
 kind = "spell"
 title = "Revenant Armor"
+aon = "SpellDisplay.aspx?ItemName=Revenant%20Armor"
 source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "revenant_armor", path = "json/spells8.json" },

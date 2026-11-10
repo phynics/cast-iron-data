@@ -2,6 +2,7 @@
 id = "ref/spell/cruel-jaunt"
 kind = "spell"
 title = "Cruel Jaunt"
+aon = "SpellDisplay.aspx?ItemName=Cruel%20Jaunt"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cruel_jaunt", path = "json/spells3.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/shadow-enchantment"
 kind = "spell"
 title = "Shadow Enchantment"
+aon = "SpellDisplay.aspx?ItemName=Shadow%20Enchantment"
 source_ids = ["occult-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_enchantment", path = "json/spells15.json" },

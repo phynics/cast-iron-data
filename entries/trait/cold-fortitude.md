@@ -2,6 +2,7 @@
 id = "ref/trait/cold-fortitude"
 kind = "trait"
 title = "Cold Fortitude"
+aon = "TraitDisplay.aspx?ItemName=Cold%20Fortitude"
 source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cold_fortitude", path = "json/traits05.json" },

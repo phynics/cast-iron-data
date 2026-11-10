@@ -2,6 +2,7 @@
 id = "ref/spell/wall-of-bone"
 kind = "spell"
 title = "Wall of Bone"
+aon = "SpellDisplay.aspx?ItemName=Wall%20of%20Bone"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wall_of_bone", path = "json/spells11.json" },

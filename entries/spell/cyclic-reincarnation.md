@@ -2,6 +2,7 @@
 id = "ref/spell/cyclic-reincarnation"
 kind = "spell"
 title = "Cyclic Reincarnation"
+aon = "SpellDisplay.aspx?ItemName=Cyclic%20Reincarnation"
 source_ids = ["core-rulebook", "inner-sea-races", "arcane-anthology", "ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cyclic_reincarnation", path = "json/spells8.json" },

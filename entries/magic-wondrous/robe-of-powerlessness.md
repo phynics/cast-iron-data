@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/robe-of-powerlessness"
 kind = "item"
 title = "Robe of Powerlessness"
+aon = "MagicCursedDisplay.aspx?ItemName=Robe%20of%20Powerlessness"
 source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "robe_of_powerlessness", path = "json/magic_wondrous_belt_body_chest.json" },

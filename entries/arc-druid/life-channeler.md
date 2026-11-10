@@ -2,6 +2,7 @@
 id = "ref/arc-druid/life-channeler"
 kind = "archetype"
 title = "Life Channeler"
+aon = "ArchetypeDisplay.aspx?FixedName=Druid%20Life%20Channeler"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "life_channeler", path = "json/archetypes_druid.json" },

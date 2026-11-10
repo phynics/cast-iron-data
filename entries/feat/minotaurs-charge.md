@@ -2,6 +2,7 @@
 id = "ref/feat/minotaurs-charge"
 kind = "feat"
 title = "Minotaur's Charge"
+aon = "FeatDisplay.aspx?ItemName=Minotaur%27s%20Charge"
 source_ids = ["classic-monsters-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "minotaurs_charge", path = "json/feat10.json" },

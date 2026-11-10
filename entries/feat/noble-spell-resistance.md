@@ -2,6 +2,7 @@
 id = "ref/feat/noble-spell-resistance"
 kind = "feat"
 title = "Noble Spell Resistance"
+aon = "FeatDisplay.aspx?ItemName=Noble%20Spell%20Resistance"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "noble_spell_resistance", path = "json/feat11.json" },

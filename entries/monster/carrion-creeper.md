@@ -2,6 +2,7 @@
 id = "ref/monster/carrion-creeper"
 kind = "creature"
 title = "Carrion Creeper"
+aon = "MonsterDisplay.aspx?ItemName=Carrion%20Creeper"
 source_ids = ["pathfinder-130-city-in-the-lions-eye"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "carrion_creeper", path = "json/monsters04.json" },

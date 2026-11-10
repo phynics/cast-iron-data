@@ -2,6 +2,7 @@
 id = "ref/monster/selkie"
 kind = "creature"
 title = "Selkie"
+aon = "MonsterDisplay.aspx?ItemName=Selkie"
 source_ids = ["bestiary-4", "pathfinder-50-night-of-frozen-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "selkie", path = "json/monsters21.json" },

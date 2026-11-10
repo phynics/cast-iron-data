@@ -2,6 +2,7 @@
 id = "ref/monster/grisantian-lion"
 kind = "creature"
 title = "Grisantian Lion"
+aon = "MonsterDisplay.aspx?ItemName=Grisantian%20Lion"
 source_ids = ["pathfinder-132-the-six-legend-soul"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grisantian_lion", path = "json/monsters13.json" },

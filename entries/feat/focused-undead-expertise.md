@@ -2,6 +2,7 @@
 id = "ref/feat/focused-undead-expertise"
 kind = "feat"
 title = "Focused Undead Expertise"
+aon = "FeatDisplay.aspx?ItemName=Focused%20Undead%20Expertise"
 source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "focused_undead_expertise", path = "json/feat07.json" },

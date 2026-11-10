@@ -2,6 +2,7 @@
 id = "ref/feat/drunkards-recovery"
 kind = "feat"
 title = "Drunkard's Recovery"
+aon = "FeatDisplay.aspx?ItemName=Drunkard%27s%20Recovery"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drunkards_recovery", path = "json/feat05.json" },

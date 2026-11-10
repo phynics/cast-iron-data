@@ -2,6 +2,7 @@
 id = "ref/feat/sprightly-armor"
 kind = "feat"
 title = "Sprightly Armor"
+aon = "FeatDisplay.aspx?ItemName=Sprightly%20Armor"
 source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sprightly_armor", path = "json/feat15.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/dreadscape"
 kind = "spell"
 title = "Dreadscape"
+aon = "SpellDisplay.aspx?ItemName=Dreadscape"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dreadscape", path = "json/spells13.json" },

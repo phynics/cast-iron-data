@@ -2,6 +2,7 @@
 id = "ref/feat/sickening-critical"
 kind = "feat"
 title = "Sickening Critical"
+aon = "FeatDisplay.aspx?ItemName=Sickening%20Critical"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sickening_critical", path = "json/feat14.json" },

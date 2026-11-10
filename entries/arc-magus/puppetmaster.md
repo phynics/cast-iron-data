@@ -2,6 +2,7 @@
 id = "ref/arc-magus/puppetmaster"
 kind = "archetype"
 title = "Puppetmaster"
+aon = "ArchetypeDisplay.aspx?FixedName=Magus%20Puppetmaster"
 source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "puppetmaster", path = "json/archetypes_magus.json" },

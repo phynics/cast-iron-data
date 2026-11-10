@@ -2,6 +2,7 @@
 id = "ref/spell/spellsteal"
 kind = "spell"
 title = "Spellsteal"
+aon = "SpellDisplay.aspx?ItemName=Spellsteal"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spellsteal", path = "json/spells9.json" },

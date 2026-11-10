@@ -2,6 +2,7 @@
 id = "ref/trait/heat-fortitude"
 kind = "trait"
 title = "Heat Fortitude"
+aon = "TraitDisplay.aspx?ItemName=Heat%20Fortitude"
 source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heat_fortitude", path = "json/traits05.json" },

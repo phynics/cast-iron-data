@@ -2,6 +2,7 @@
 id = "ref/trait/sensual-graces"
 kind = "trait"
 title = "Sensual Graces"
+aon = "TraitDisplay.aspx?ItemName=Sensual%20Graces"
 source_ids = ["blood-of-the-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sensual_graces", path = "json/traits05.json" },

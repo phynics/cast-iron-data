@@ -2,6 +2,7 @@
 id = "ref/feat/choral-support"
 kind = "feat"
 title = "Choral Support"
+aon = "FeatDisplay.aspx?ItemName=Choral%20Support"
 source_ids = ["distant-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "choral_support", path = "json/feat03.json" },

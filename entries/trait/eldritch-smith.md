@@ -2,6 +2,7 @@
 id = "ref/trait/eldritch-smith"
 kind = "trait"
 title = "Eldritch Smith"
+aon = "TraitDisplay.aspx?ItemName=Eldritch%20Smith"
 source_ids = ["dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eldritch_smith", path = "json/traits01.json" },

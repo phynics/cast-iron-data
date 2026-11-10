@@ -2,6 +2,7 @@
 id = "ref/monster/kurshu-the-undying"
 kind = "creature"
 title = "Kurshu the Undying"
+aon = "MonsterDisplay.aspx?ItemName=Kurshu%20the%20Undying"
 source_ids = ["pathfinder-65-into-the-nightmare-rift"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kurshu_the_undying", path = "json/monsters_unique4.json" },

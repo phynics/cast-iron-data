@@ -2,6 +2,7 @@
 id = "ref/trait/deft-dodger"
 kind = "trait"
 title = "Deft Dodger"
+aon = "TraitDisplay.aspx?ItemName=Deft%20Dodger"
 source_ids = ["ultimate-campaign", "second-darkness-players-guide", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deft_dodger", path = "json/traits01.json" },

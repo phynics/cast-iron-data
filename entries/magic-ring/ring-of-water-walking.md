@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-water-walking"
 kind = "item"
 title = "Ring of Water Walking"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Water%20Walking"
 source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_water_walking", path = "json/magic_ring.json" },

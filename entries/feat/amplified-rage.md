@@ -2,6 +2,7 @@
 id = "ref/feat/amplified-rage"
 kind = "feat"
 title = "Amplified Rage"
+aon = "FeatDisplay.aspx?ItemName=Amplified%20Rage"
 source_ids = ["orcs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "amplified_rage", path = "json/feat01.json" },

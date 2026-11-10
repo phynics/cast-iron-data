@@ -2,6 +2,7 @@
 id = "ref/trait/chosen-of-iomedae"
 kind = "trait"
 title = "Chosen of Iomedae"
+aon = "TraitDisplay.aspx?ItemName=Chosen%20of%20Iomedae"
 source_ids = ["champions-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chosen_of_iomedae", path = "json/traits01.json" },

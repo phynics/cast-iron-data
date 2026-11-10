@@ -2,6 +2,7 @@
 id = "ref/trait/dormant-defense"
 kind = "trait"
 title = "Dormant Defense"
+aon = "TraitDisplay.aspx?ItemName=Dormant%20Defense"
 source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dormant_defense", path = "json/traits01.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/octopus-thrash"
 kind = "feat"
 title = "Octopus Thrash"
+aon = "FeatDisplay.aspx?ItemName=Octopus%20Thrash"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "octopus_thrash", path = "json/feat11.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/menacing-bane"
 kind = "feat"
 title = "Menacing Bane"
+aon = "FeatDisplay.aspx?ItemName=Menacing%20Bane"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "menacing_bane", path = "json/feat10.json" },

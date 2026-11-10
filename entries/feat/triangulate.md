@@ -2,6 +2,7 @@
 id = "ref/feat/triangulate"
 kind = "feat"
 title = "Triangulate"
+aon = "FeatDisplay.aspx?ItemName=Triangulate"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "triangulate", path = "json/feat16.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/efreeti-stance"
 kind = "feat"
 title = "Efreeti Stance"
+aon = "FeatDisplay.aspx?ItemName=Efreeti%20Stance"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "efreeti_stance", path = "json/feat05.json" },

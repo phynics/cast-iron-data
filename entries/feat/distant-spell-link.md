@@ -2,6 +2,7 @@
 id = "ref/feat/distant-spell-link"
 kind = "feat"
 title = "Distant Spell Link"
+aon = "FeatDisplay.aspx?ItemName=Distant%20Spell%20Link"
 source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "distant_spell_link", path = "json/feat04.json" },

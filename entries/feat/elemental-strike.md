@@ -2,6 +2,7 @@
 id = "ref/feat/elemental-strike"
 kind = "feat"
 title = "Elemental Strike"
+aon = "FeatDisplay.aspx?ItemName=Elemental%20Strike"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_strike", path = "json/feat05.json" },

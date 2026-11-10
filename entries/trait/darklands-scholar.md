@@ -2,6 +2,7 @@
 id = "ref/trait/darklands-scholar"
 kind = "trait"
 title = "Darklands Scholar"
+aon = "TraitDisplay.aspx?ItemName=Darklands%20Scholar"
 source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "darklands_scholar", path = "json/traits01.json" },

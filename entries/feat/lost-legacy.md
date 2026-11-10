@@ -2,6 +2,7 @@
 id = "ref/feat/lost-legacy"
 kind = "feat"
 title = "Lost Legacy"
+aon = "FeatDisplay.aspx?ItemName=Lost%20Legacy"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lost_legacy", path = "json/feat10.json" },

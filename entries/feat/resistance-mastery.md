@@ -2,6 +2,7 @@
 id = "ref/feat/resistance-mastery"
 kind = "feat"
 title = "Resistance Mastery"
+aon = "FeatDisplay.aspx?ItemName=Resistance%20Mastery"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "resistance_mastery", path = "json/feat13.json" },

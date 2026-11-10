@@ -2,6 +2,7 @@
 id = "ref/arc-monk/elemental-monk"
 kind = "archetype"
 title = "Elemental Monk"
+aon = "ArchetypeDisplay.aspx?FixedName=Monk%20Elemental%20Monk"
 source_ids = ["disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_monk", path = "json/archetypes_monk.json" },

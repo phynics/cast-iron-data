@@ -2,6 +2,7 @@
 id = "ref/trait/best-customer"
 kind = "trait"
 title = "Best Customer"
+aon = "TraitDisplay.aspx?ItemName=Best%20Customer"
 source_ids = ["varisia-birthplace-of-legends", "jade-regent-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "best_customer", path = "json/traits02.json" },

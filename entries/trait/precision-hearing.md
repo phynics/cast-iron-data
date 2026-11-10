@@ -2,6 +2,7 @@
 id = "ref/trait/precision-hearing"
 kind = "trait"
 title = "Precision Hearing"
+aon = "TraitDisplay.aspx?ItemName=Precision%20Hearing"
 source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "precision_hearing", path = "json/traits05.json" },

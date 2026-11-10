@@ -2,6 +2,7 @@
 id = "ref/trait/divine-warrior"
 kind = "trait"
 title = "Divine Warrior"
+aon = "TraitDisplay.aspx?ItemName=Divine%20Warrior"
 source_ids = ["ultimate-campaign", "taldor-echoes-of-glory", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divine_warrior", path = "json/traits03.json" },

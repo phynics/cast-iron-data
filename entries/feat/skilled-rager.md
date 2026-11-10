@@ -2,6 +2,7 @@
 id = "ref/feat/skilled-rager"
 kind = "feat"
 title = "Skilled Rager"
+aon = "FeatDisplay.aspx?ItemName=Skilled%20Rager"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skilled_rager", path = "json/feat14.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/sentry-skull"
 kind = "spell"
 title = "Sentry Skull"
+aon = "SpellDisplay.aspx?ItemName=Sentry%20Skull"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sentry_skull", path = "json/spells15.json" },

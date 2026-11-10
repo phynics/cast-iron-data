@@ -2,6 +2,7 @@
 id = "ref/feat/superior-scryer"
 kind = "feat"
 title = "Superior Scryer"
+aon = "FeatDisplay.aspx?ItemName=Superior%20Scryer"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "superior_scryer", path = "json/feat15.json" },

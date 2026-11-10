@@ -2,6 +2,7 @@
 id = "ref/arc-brawler/feral-striker"
 kind = "archetype"
 title = "Feral Striker"
+aon = "ArchetypeDisplay.aspx?FixedName=Brawler%20Feral%20Striker"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "feral_striker", path = "json/archetypes_brawler.json" },

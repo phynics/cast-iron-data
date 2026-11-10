@@ -2,6 +2,7 @@
 id = "ref/feat/wounded-paw-gambit"
 kind = "feat"
 title = "Wounded Paw Gambit"
+aon = "FeatDisplay.aspx?ItemName=Wounded%20Paw%20Gambit"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wounded_paw_gambit", path = "json/feat17.json" },

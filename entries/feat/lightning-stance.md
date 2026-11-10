@@ -2,6 +2,7 @@
 id = "ref/feat/lightning-stance"
 kind = "feat"
 title = "Lightning Stance"
+aon = "FeatDisplay.aspx?ItemName=Lightning%20Stance"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lightning_stance", path = "json/feat10.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/charau-ka-slayer"
 kind = "trait"
 title = "Charau-Ka Slayer"
+aon = "TraitDisplay.aspx?ItemName=Charau-Ka%20Slayer"
 source_ids = ["demon-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charau_ka_slayer", path = "json/traits04.json" },

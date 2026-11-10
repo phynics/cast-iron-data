@@ -2,6 +2,7 @@
 id = "ref/pclass/hellknight-signifer"
 kind = "prestige_class"
 title = "Hellknight Signifer"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Hellknight%20Signifer"
 source_ids = ["adventurers-guide", "paths-of-prestige"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hellknight_signifer", path = "json/prestige_classes2.json" },

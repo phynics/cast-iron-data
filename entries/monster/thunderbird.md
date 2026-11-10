@@ -2,6 +2,7 @@
 id = "ref/monster/thunderbird"
 kind = "creature"
 title = "Thunderbird"
+aon = "MonsterDisplay.aspx?ItemName=Thunderbird"
 source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thunderbird", path = "json/monsters23.json" },

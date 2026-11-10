@@ -2,6 +2,7 @@
 id = "ref/spell/mages-decree"
 kind = "spell"
 title = "Mage's Decree"
+aon = "SpellDisplay.aspx?ItemName=Mage%27s%20Decree"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mages_decree", path = "json/spells6.json" },

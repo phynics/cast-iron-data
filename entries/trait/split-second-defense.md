@@ -2,6 +2,7 @@
 id = "ref/trait/split-second-defense"
 kind = "trait"
 title = "Split-Second Defense"
+aon = "TraitDisplay.aspx?ItemName=Split-Second%20Defense"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "split_second_defense", path = "json/traits03.json" },

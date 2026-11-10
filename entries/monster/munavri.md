@@ -2,6 +2,7 @@
 id = "ref/monster/munavri"
 kind = "creature"
 title = "Munavri"
+aon = "MonsterDisplay.aspx?ItemName=Munavri"
 source_ids = ["bestiary-6", "occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "munavri", path = "json/monsters17.json" },

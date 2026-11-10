@@ -2,6 +2,7 @@
 id = "ref/trait/house-of-green-mothers-pupil"
 kind = "trait"
 title = "House of Green Mothers Pupil"
+aon = "TraitDisplay.aspx?ItemName=House%20of%20Green%20Mothers%20Pupil"
 source_ids = ["distant-shores"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "house_of_green_mothers_pupil", path = "json/traits02.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/acupuncturist"
 kind = "trait"
 title = "Acupuncturist"
+aon = "TraitDisplay.aspx?ItemName=Acupuncturist"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "acupuncturist", path = "json/traits04.json" },

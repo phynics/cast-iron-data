@@ -2,6 +2,7 @@
 id = "ref/magic-ring/knight-inheritors-ring"
 kind = "item"
 title = "Knight-Inheritor's Ring"
+aon = "MagicRingsDisplay.aspx?FinalName=Knight-Inheritor%27s%20Ring"
 source_ids = ["pathfinder-103-the-hellfire-compact", "inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "knight_inheritors_ring", path = "json/magic_ring.json" },

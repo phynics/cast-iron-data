@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/desert-raider"
 kind = "archetype"
 title = "Desert Raider"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Desert%20Raider"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "desert_raider", path = "json/archetypes_rogue.json" },

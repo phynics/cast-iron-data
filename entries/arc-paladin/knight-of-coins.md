@@ -2,6 +2,7 @@
 id = "ref/arc-paladin/knight-of-coins"
 kind = "archetype"
 title = "Knight of Coins"
+aon = "ArchetypeDisplay.aspx?FixedName=Paladin%20Knight%20of%20Coins"
 source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "knight_of_coins", path = "json/archetypes_paladin.json" },

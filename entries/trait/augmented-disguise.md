@@ -2,6 +2,7 @@
 id = "ref/trait/augmented-disguise"
 kind = "trait"
 title = "Augmented Disguise"
+aon = "TraitDisplay.aspx?ItemName=Augmented%20Disguise"
 source_ids = ["adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "augmented_disguise", path = "json/traits03.json" },

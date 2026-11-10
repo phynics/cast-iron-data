@@ -2,6 +2,7 @@
 id = "ref/feat/hamatula-strike"
 kind = "feat"
 title = "Hamatula Strike"
+aon = "FeatDisplay.aspx?ItemName=Hamatula%20Strike"
 source_ids = ["cheliax-empire-of-devils"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hamatula_strike", path = "json/feat08.json" },

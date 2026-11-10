@@ -2,6 +2,7 @@
 id = "ref/feat/bodyguard"
 kind = "feat"
 title = "Bodyguard"
+aon = "FeatDisplay.aspx?ItemName=Bodyguard"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bodyguard", path = "json/feat02.json" },

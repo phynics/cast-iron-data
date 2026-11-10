@@ -2,6 +2,7 @@
 id = "ref/feat/cloak-of-stone"
 kind = "feat"
 title = "Cloak of Stone"
+aon = "FeatDisplay.aspx?ItemName=Cloak%20of%20Stone"
 source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloak_of_stone", path = "json/feat03.json" },

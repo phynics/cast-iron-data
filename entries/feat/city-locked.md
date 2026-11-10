@@ -2,6 +2,7 @@
 id = "ref/feat/city-locked"
 kind = "feat"
 title = "City-Locked"
+aon = "FeatDisplay.aspx?ItemName=City-Locked"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "city_locked", path = "json/feat03.json" },

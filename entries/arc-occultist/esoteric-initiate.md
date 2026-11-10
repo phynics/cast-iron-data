@@ -2,6 +2,7 @@
 id = "ref/arc-occultist/esoteric-initiate"
 kind = "archetype"
 title = "Esoteric Initiate"
+aon = "ArchetypeDisplay.aspx?FixedName=Occultist%20Esoteric%20Initiate"
 source_ids = ["disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "esoteric_initiate", path = "json/archetypes_occultist.json" },

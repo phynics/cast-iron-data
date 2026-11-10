@@ -2,6 +2,7 @@
 id = "ref/feat/armor-adept"
 kind = "feat"
 title = "Armor Adept"
+aon = "FeatDisplay.aspx?ItemName=Armor%20Adept"
 source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "armor_adept", path = "json/feat01.json" },

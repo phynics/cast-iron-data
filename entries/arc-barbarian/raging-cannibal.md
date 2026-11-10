@@ -2,6 +2,7 @@
 id = "ref/arc-barbarian/raging-cannibal"
 kind = "archetype"
 title = "Raging Cannibal"
+aon = "ArchetypeDisplay.aspx?FixedName=Barbarian%20Raging%20Cannibal"
 source_ids = ["ultimate-wilderness", "champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "raging_cannibal", path = "json/archetypes_barbarian.json" },

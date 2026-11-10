@@ -2,6 +2,7 @@
 id = "ref/arc-psychic/mutation-mind"
 kind = "archetype"
 title = "Mutation Mind"
+aon = "ArchetypeDisplay.aspx?FixedName=Psychic%20Mutation%20Mind"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mutation_mind", path = "json/archetypes_psychic.json" },

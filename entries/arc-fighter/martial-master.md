@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/martial-master"
 kind = "archetype"
 title = "Martial Master"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Martial%20Master"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "martial_master", path = "json/archetypes_fighter.json" },

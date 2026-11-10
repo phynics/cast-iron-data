@@ -2,6 +2,7 @@
 id = "ref/spell/blacklight"
 kind = "spell"
 title = "Blacklight"
+aon = "SpellDisplay.aspx?ItemName=Blacklight"
 source_ids = ["pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blacklight", path = "json/spells12.json" },

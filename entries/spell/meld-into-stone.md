@@ -2,6 +2,7 @@
 id = "ref/spell/meld-into-stone"
 kind = "spell"
 title = "Meld into Stone"
+aon = "SpellDisplay.aspx?ItemName=Meld%20into%20Stone"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "meld_into_stone", path = "json/spells14.json" },

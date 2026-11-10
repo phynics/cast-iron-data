@@ -2,6 +2,7 @@
 id = "ref/trait/warsmith"
 kind = "trait"
 title = "Warsmith"
+aon = "TraitDisplay.aspx?ItemName=Warsmith"
 source_ids = ["dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "warsmith", path = "json/traits05.json" },

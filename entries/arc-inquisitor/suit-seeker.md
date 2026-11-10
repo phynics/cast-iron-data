@@ -2,6 +2,7 @@
 id = "ref/arc-inquisitor/suit-seeker"
 kind = "archetype"
 title = "Suit Seeker"
+aon = "ArchetypeDisplay.aspx?FixedName=Inquisitor%20Suit%20Seeker"
 source_ids = ["the-harrow-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "suit_seeker", path = "json/archetypes_inquisitor.json" },

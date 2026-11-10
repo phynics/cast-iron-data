@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-the-iron-skull"
 kind = "item"
 title = "Ring of the Iron Skull"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20the%20Iron%20Skull"
 source_ids = ["pathfinder-57-tempest-rising"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_the_iron_skull", path = "json/magic_ring.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/guardian-scroll"
 kind = "creature"
 title = "Guardian Scroll"
+aon = "MonsterDisplay.aspx?ItemName=Guardian%20Scroll"
 source_ids = ["bestiary-5", "pathfinder-79-the-half-dead-city"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guardian_scroll", path = "json/monsters13.json" },

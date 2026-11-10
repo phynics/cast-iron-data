@@ -2,6 +2,7 @@
 id = "ref/monster/hag-dreamthief-hag"
 kind = "creature"
 title = "Dreamthief Hag"
+aon = "MonsterDisplay.aspx?ItemName=Dreamthief%20Hag"
 source_ids = ["occult-bestiary", "blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hag_dreamthief_hag", path = "json/monsters33.json" },

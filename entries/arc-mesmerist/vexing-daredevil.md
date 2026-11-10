@@ -2,6 +2,7 @@
 id = "ref/arc-mesmerist/vexing-daredevil"
 kind = "archetype"
 title = "Vexing Daredevil"
+aon = "ArchetypeDisplay.aspx?FixedName=Mesmerist%20Vexing%20Daredevil"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vexing_daredevil", path = "json/archetypes_mesmerist.json" },

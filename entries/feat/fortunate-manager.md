@@ -2,6 +2,7 @@
 id = "ref/feat/fortunate-manager"
 kind = "feat"
 title = "Fortunate Manager"
+aon = "FeatDisplay.aspx?ItemName=Fortunate%20Manager"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fortunate_manager", path = "json/feat07.json" },

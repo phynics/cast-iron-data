@@ -2,6 +2,7 @@
 id = "ref/carried/bestiary/monsters/vampire"
 kind = "creature"
 title = "Vampire"
+aon = "MonsterDisplay.aspx?ItemName=Vampire"
 source_ids = ["bestiary"]
 section = ["Monsters"]
 tags = ["undead", "augmented humanoid", "medium"]

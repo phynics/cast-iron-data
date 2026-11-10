@@ -2,6 +2,7 @@
 id = "ref/spell/anticipate-thoughts"
 kind = "spell"
 title = "Anticipate Thoughts"
+aon = "SpellDisplay.aspx?ItemName=Anticipate%20Thoughts"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "anticipate_thoughts", path = "json/spells.json" },

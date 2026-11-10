@@ -2,6 +2,7 @@
 id = "ref/feat/awe-inspiring-smash"
 kind = "feat"
 title = "Awe-Inspiring Smash"
+aon = "FeatDisplay.aspx?ItemName=Awe-Inspiring%20Smash"
 source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "awe_inspiring_smash", path = "json/feat01.json" },

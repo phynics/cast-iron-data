@@ -2,6 +2,7 @@
 id = "ref/feat/shadow-dodge"
 kind = "feat"
 title = "Shadow Dodge"
+aon = "FeatDisplay.aspx?ItemName=Shadow%20Dodge"
 source_ids = ["inner-sea-gods", "faiths-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_dodge", path = "json/feat13.json" },

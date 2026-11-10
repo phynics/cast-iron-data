@@ -2,6 +2,7 @@
 id = "ref/monster/bugbear-bugbear-lurker"
 kind = "creature"
 title = "Bugbear Lurker"
+aon = "MonsterDisplay.aspx?ItemName=Bugbear%20Lurker"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bugbear_bugbear_lurker", path = "json/monsters04.json" },

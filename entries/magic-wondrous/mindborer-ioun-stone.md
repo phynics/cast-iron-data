@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/mindborer-ioun-stone"
 kind = "item"
 title = "Mindborer Ioun Stone"
+aon = "MagicCursedDisplay.aspx?ItemName=Mindborer%20Ioun%20Stone"
 source_ids = ["seekers-of-secrets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mindborer_ioun_stone", path = "json/magic_wondrous_slotless04.json" },

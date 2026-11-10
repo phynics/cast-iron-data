@@ -2,6 +2,7 @@
 id = "ref/monster/captain-ignisco"
 kind = "creature"
 title = "Captain Ignisco"
+aon = "MonsterDisplay.aspx?ItemName=Captain%20Ignisco"
 source_ids = ["darklands-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "captain_ignisco", path = "json/monsters_unique.json" },

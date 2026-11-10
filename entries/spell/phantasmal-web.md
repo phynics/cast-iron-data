@@ -2,6 +2,7 @@
 id = "ref/spell/phantasmal-web"
 kind = "spell"
 title = "Phantasmal Web"
+aon = "SpellDisplay.aspx?ItemName=Phantasmal%20Web"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phantasmal_web", path = "json/spells7.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/merciless-butchery"
 kind = "feat"
 title = "Merciless Butchery"
+aon = "FeatDisplay.aspx?ItemName=Merciless%20Butchery"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "merciless_butchery", path = "json/feat10.json" },

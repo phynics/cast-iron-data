@@ -2,6 +2,7 @@
 id = "ref/trait/extended-toil"
 kind = "trait"
 title = "Extended Toil"
+aon = "TraitDisplay.aspx?ItemName=Extended%20Toil"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extended_toil", path = "json/traits03.json" },

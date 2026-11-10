@@ -2,6 +2,7 @@
 id = "ref/spell/mirror-strike"
 kind = "spell"
 title = "Mirror Strike"
+aon = "SpellDisplay.aspx?ItemName=Mirror%20Strike"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mirror_strike", path = "json/spells14.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/fed-up-citizen"
 kind = "trait"
 title = "Fed-Up Citizen"
+aon = "TraitDisplay.aspx?ItemName=Fed-Up%20Citizen"
 source_ids = ["hells-rebels-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fed_up_citizen", path = "json/traits02.json" },

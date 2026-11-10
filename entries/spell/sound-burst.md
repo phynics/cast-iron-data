@@ -2,6 +2,7 @@
 id = "ref/spell/sound-burst"
 kind = "spell"
 title = "Sound Burst"
+aon = "SpellDisplay.aspx?ItemName=Sound%20Burst"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sound_burst", path = "json/spells9.json" },

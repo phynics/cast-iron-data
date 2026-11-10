@@ -2,6 +2,7 @@
 id = "ref/trait/superior-clutch"
 kind = "trait"
 title = "Superior Clutch"
+aon = "TraitDisplay.aspx?ItemName=Superior%20Clutch"
 source_ids = ["blood-of-fiends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "superior_clutch", path = "json/traits05.json" },

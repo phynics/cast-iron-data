@@ -2,6 +2,7 @@
 id = "ref/feat/spell-bluff-ah"
 kind = "feat"
 title = "Spell Bluff (AH)"
+aon = "FeatDisplay.aspx?ItemName=Spell%20Bluff%20%28AH%29"
 source_ids = ["antiheros-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_bluff_ah", path = "json/feat14.json" },

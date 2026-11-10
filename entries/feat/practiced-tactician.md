@@ -2,6 +2,7 @@
 id = "ref/feat/practiced-tactician"
 kind = "feat"
 title = "Practiced Tactician"
+aon = "FeatDisplay.aspx?ItemName=Practiced%20Tactician"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "practiced_tactician", path = "json/feat12.json" },

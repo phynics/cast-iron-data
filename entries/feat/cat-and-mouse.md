@@ -2,6 +2,7 @@
 id = "ref/feat/cat-and-mouse"
 kind = "feat"
 title = "Cat and Mouse"
+aon = "FeatDisplay.aspx?ItemName=Cat%20and%20Mouse"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cat_and_mouse", path = "json/feat02.json" },

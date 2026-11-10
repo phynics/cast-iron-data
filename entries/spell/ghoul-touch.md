@@ -2,6 +2,7 @@
 id = "ref/spell/ghoul-touch"
 kind = "spell"
 title = "Ghoul Touch"
+aon = "SpellDisplay.aspx?ItemName=Ghoul%20Touch"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghoul_touch", path = "json/spells13.json" },

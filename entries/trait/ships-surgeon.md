@@ -2,6 +2,7 @@
 id = "ref/trait/ships-surgeon"
 kind = "trait"
 title = "Ship's Surgeon"
+aon = "TraitDisplay.aspx?ItemName=Ship%27s%20Surgeon"
 source_ids = ["skull-and-shackles-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ships_surgeon", path = "json/traits03.json" },

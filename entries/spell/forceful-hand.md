@@ -2,6 +2,7 @@
 id = "ref/spell/forceful-hand"
 kind = "spell"
 title = "Forceful Hand"
+aon = "SpellDisplay.aspx?ItemName=Forceful%20Hand"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "forceful_hand", path = "json/spells13.json" },

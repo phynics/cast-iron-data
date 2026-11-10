@@ -2,6 +2,7 @@
 id = "ref/spell/burning-sands"
 kind = "spell"
 title = "Burning Sands"
+aon = "SpellDisplay.aspx?ItemName=Burning%20Sands"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burning_sands", path = "json/spells2.json" },

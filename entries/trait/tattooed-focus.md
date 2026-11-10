@@ -2,6 +2,7 @@
 id = "ref/trait/tattooed-focus"
 kind = "trait"
 title = "Tattooed Focus"
+aon = "TraitDisplay.aspx?ItemName=Tattooed%20Focus"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tattooed_focus", path = "json/traits05.json" },

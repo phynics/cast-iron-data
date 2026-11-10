@@ -2,6 +2,7 @@
 id = "ref/spell/runic-overload"
 kind = "spell"
 title = "Runic Overload"
+aon = "SpellDisplay.aspx?ItemName=Runic%20Overload"
 source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "runic_overload", path = "json/spells8.json" },

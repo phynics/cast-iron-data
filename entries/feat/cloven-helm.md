@@ -2,6 +2,7 @@
 id = "ref/feat/cloven-helm"
 kind = "feat"
 title = "Cloven Helm"
+aon = "FeatDisplay.aspx?ItemName=Cloven%20Helm"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloven_helm", path = "json/feat03.json" },

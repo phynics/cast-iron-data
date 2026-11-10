@@ -2,6 +2,7 @@
 id = "ref/spell/scribes-binding"
 kind = "spell"
 title = "Scribe's Binding"
+aon = "SpellDisplay.aspx?ItemName=Scribe%27s%20Binding"
 source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scribes_binding", path = "json/spells15.json" },

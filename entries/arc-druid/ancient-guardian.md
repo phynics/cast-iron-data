@@ -2,6 +2,7 @@
 id = "ref/arc-druid/ancient-guardian"
 kind = "archetype"
 title = "Ancient Guardian"
+aon = "ArchetypeDisplay.aspx?FixedName=Druid%20Ancient%20Guardian"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ancient_guardian", path = "json/archetypes_druid.json" },

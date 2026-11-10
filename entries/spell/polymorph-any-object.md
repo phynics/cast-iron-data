@@ -2,6 +2,7 @@
 id = "ref/spell/polymorph-any-object"
 kind = "spell"
 title = "Polymorph Any Object"
+aon = "SpellDisplay.aspx?ItemName=Polymorph%20Any%20Object"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "polymorph_any_object", path = "json/spells7.json" },

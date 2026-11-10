@@ -2,6 +2,7 @@
 id = "ref/arc-arcanist/spell-specialist"
 kind = "archetype"
 title = "Spell Specialist"
+aon = "ArchetypeDisplay.aspx?FixedName=Arcanist%20Spell%20Specialist"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_specialist", path = "json/archetypes_arcanist.json" },

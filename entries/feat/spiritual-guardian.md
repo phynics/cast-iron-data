@@ -2,6 +2,7 @@
 id = "ref/feat/spiritual-guardian"
 kind = "feat"
 title = "Spiritual Guardian"
+aon = "FeatDisplay.aspx?ItemName=Spiritual%20Guardian"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spiritual_guardian", path = "json/feat15.json" },

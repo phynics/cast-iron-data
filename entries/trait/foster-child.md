@@ -2,6 +2,7 @@
 id = "ref/trait/foster-child"
 kind = "trait"
 title = "Foster Child"
+aon = "TraitDisplay.aspx?ItemName=Foster%20Child"
 source_ids = ["jade-regent-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "foster_child", path = "json/traits02.json" },

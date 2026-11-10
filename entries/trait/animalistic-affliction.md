@@ -2,6 +2,7 @@
 id = "ref/trait/animalistic-affliction"
 kind = "trait"
 title = "Animalistic Affliction"
+aon = "TraitDisplay.aspx?ItemName=Animalistic%20Affliction"
 source_ids = ["humans-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animalistic_affliction", path = "json/traits05.json" },

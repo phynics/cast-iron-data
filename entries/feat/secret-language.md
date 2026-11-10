@@ -2,6 +2,7 @@
 id = "ref/feat/secret-language"
 kind = "feat"
 title = "Secret Language"
+aon = "FeatDisplay.aspx?ItemName=Secret%20Language"
 source_ids = ["cohorts-and-companions"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "secret_language", path = "json/feat13.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/human-potential-mass"
 kind = "spell"
 title = "Mass Human Potential"
+aon = "SpellDisplay.aspx?ItemName=Human%20Potential%2C%20Mass"
 source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "human_potential_mass", path = "json/spells5.json" },

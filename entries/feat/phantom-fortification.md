@@ -2,6 +2,7 @@
 id = "ref/feat/phantom-fortification"
 kind = "feat"
 title = "Phantom Fortification"
+aon = "FeatDisplay.aspx?ItemName=Phantom%20Fortification"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phantom_fortification", path = "json/feat12.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/righteous-orator"
 kind = "feat"
 title = "Righteous Orator"
+aon = "FeatDisplay.aspx?ItemName=Righteous%20Orator"
 source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "righteous_orator", path = "json/feat13.json" },

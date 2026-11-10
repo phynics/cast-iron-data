@@ -2,6 +2,7 @@
 id = "ref/arc-barbarian/sharptooth"
 kind = "archetype"
 title = "Sharptooth"
+aon = "ArchetypeDisplay.aspx?FixedName=Barbarian%20Sharptooth"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sharptooth", path = "json/archetypes_barbarian.json" },

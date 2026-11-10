@@ -2,6 +2,7 @@
 id = "ref/trait/weatherworn"
 kind = "trait"
 title = "Weatherworn"
+aon = "TraitDisplay.aspx?ItemName=Weatherworn"
 source_ids = ["blood-of-the-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weatherworn", path = "json/traits05.json" },

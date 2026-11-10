@@ -2,6 +2,7 @@
 id = "ref/feat/planar-sensitivity"
 kind = "feat"
 title = "Planar Sensitivity"
+aon = "FeatDisplay.aspx?ItemName=Planar%20Sensitivity"
 source_ids = ["pathfinder-105-the-inferno-gate"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planar_sensitivity", path = "json/feat12.json" },

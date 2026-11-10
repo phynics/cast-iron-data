@@ -2,6 +2,7 @@
 id = "ref/spell/duplicate-familiar"
 kind = "spell"
 title = "Duplicate Familiar"
+aon = "SpellDisplay.aspx?ItemName=Duplicate%20Familiar"
 source_ids = ["familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "duplicate_familiar", path = "json/spells13.json" },

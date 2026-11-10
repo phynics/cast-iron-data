@@ -2,6 +2,7 @@
 id = "ref/spell/focused-scrutiny"
 kind = "spell"
 title = "Focused Scrutiny"
+aon = "SpellDisplay.aspx?ItemName=Focused%20Scrutiny"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "focused_scrutiny", path = "json/spells4.json" },

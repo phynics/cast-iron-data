@@ -2,6 +2,7 @@
 id = "ref/trait/savanna-child"
 kind = "trait"
 title = "Savanna Child"
+aon = "TraitDisplay.aspx?ItemName=Savanna%20Child"
 source_ids = ["ultimate-campaign", "advanced-players-guide", "legacy-of-fire-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "savanna_child", path = "json/traits04.json" },

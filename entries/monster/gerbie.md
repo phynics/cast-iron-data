@@ -2,6 +2,7 @@
 id = "ref/monster/gerbie"
 kind = "creature"
 title = "Gerbie"
+aon = "MonsterDisplay.aspx?ItemName=Gerbie"
 source_ids = ["the-first-world-realm-of-the-fey"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gerbie", path = "json/monsters11.json" },

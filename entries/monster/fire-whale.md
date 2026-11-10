@@ -2,6 +2,7 @@
 id = "ref/monster/fire-whale"
 kind = "creature"
 title = "Fire Whale"
+aon = "MonsterDisplay.aspx?ItemName=Fire%20Whale"
 source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fire_whale", path = "json/monsters10.json" },

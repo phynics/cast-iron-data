@@ -2,6 +2,7 @@
 id = "ref/magic-weapon/heavy-hammer"
 kind = "item"
 title = "Heavy Hammer"
+aon = "MagicCursedDisplay.aspx?ItemName=Heavy%20Hammer"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heavy_hammer", path = "json/magic_weapon2.json" },

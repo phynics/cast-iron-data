@@ -2,6 +2,7 @@
 id = "ref/feat/golems-conviction"
 kind = "feat"
 title = "Golem's Conviction"
+aon = "FeatDisplay.aspx?ItemName=Golem%27s%20Conviction"
 source_ids = ["druma-profit-and-prophecy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golems_conviction", path = "json/feat07.json" },

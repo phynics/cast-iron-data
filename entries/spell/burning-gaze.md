@@ -2,6 +2,7 @@
 id = "ref/spell/burning-gaze"
 kind = "spell"
 title = "Burning Gaze"
+aon = "SpellDisplay.aspx?ItemName=Burning%20Gaze"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burning_gaze", path = "json/spells2.json" },

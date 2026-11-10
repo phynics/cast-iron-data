@@ -2,6 +2,7 @@
 id = "ref/spell/repress-memory"
 kind = "spell"
 title = "Repress Memory"
+aon = "SpellDisplay.aspx?ItemName=Repress%20Memory"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "repress_memory", path = "json/spells8.json" },

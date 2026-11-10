@@ -2,6 +2,7 @@
 id = "ref/feat/amplified-radiance"
 kind = "feat"
 title = "Amplified Radiance"
+aon = "FeatDisplay.aspx?ItemName=Amplified%20Radiance"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "amplified_radiance", path = "json/feat01.json" },

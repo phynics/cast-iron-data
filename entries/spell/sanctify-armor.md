@@ -2,6 +2,7 @@
 id = "ref/spell/sanctify-armor"
 kind = "spell"
 title = "Sanctify Armor"
+aon = "SpellDisplay.aspx?ItemName=Sanctify%20Armor"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sanctify_armor", path = "json/spells8.json" },

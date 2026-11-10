@@ -2,6 +2,7 @@
 id = "ref/trait/clockwork-engineer"
 kind = "trait"
 title = "Clockwork Engineer"
+aon = "TraitDisplay.aspx?ItemName=Clockwork%20Engineer"
 source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clockwork_engineer", path = "json/traits01.json" },

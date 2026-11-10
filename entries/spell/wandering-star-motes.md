@@ -2,6 +2,7 @@
 id = "ref/spell/wandering-star-motes"
 kind = "spell"
 title = "Wandering Star Motes"
+aon = "SpellDisplay.aspx?ItemName=Wandering%20Star%20Motes"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wandering_star_motes", path = "json/spells11.json" },

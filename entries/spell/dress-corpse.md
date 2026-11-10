@@ -2,6 +2,7 @@
 id = "ref/spell/dress-corpse"
 kind = "spell"
 title = "Dress Corpse"
+aon = "SpellDisplay.aspx?ItemName=Dress%20Corpse"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dress_corpse", path = "json/spells13.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/endure-elements"
 kind = "spell"
 title = "Endure Elements"
+aon = "SpellDisplay.aspx?ItemName=Endure%20Elements"
 source_ids = ["core-rulebook", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "endure_elements", path = "json/spells4.json" },

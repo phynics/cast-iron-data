@@ -2,6 +2,7 @@
 id = "ref/feat/fire-music"
 kind = "feat"
 title = "Fire Music"
+aon = "FeatDisplay.aspx?ItemName=Fire%20Music"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fire_music", path = "json/feat07.json" },

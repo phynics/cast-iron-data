@@ -2,6 +2,7 @@
 id = "ref/arc-cleric/divine-paragon"
 kind = "archetype"
 title = "Divine Paragon"
+aon = "ArchetypeDisplay.aspx?FixedName=Cleric%20Divine%20Paragon"
 source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divine_paragon", path = "json/archetypes_cleric.json" },

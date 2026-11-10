@@ -2,6 +2,7 @@
 id = "ref/spell/blinding-ray"
 kind = "spell"
 title = "Blinding Ray"
+aon = "SpellDisplay.aspx?ItemName=Blinding%20Ray"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blinding_ray", path = "json/spells2.json" },

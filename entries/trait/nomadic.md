@@ -2,6 +2,7 @@
 id = "ref/trait/nomadic"
 kind = "trait"
 title = "Nomadic"
+aon = "TraitDisplay.aspx?ItemName=Nomadic"
 source_ids = ["sargava-the-lost-colony"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nomadic", path = "json/traits05.json" },

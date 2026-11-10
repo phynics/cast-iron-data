@@ -2,6 +2,7 @@
 id = "ref/spell/twisted-futures"
 kind = "spell"
 title = "Twisted Futures"
+aon = "SpellDisplay.aspx?ItemName=Twisted%20Futures"
 source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "twisted_futures", path = "json/spells10.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/tattoo-guardian"
 kind = "creature"
 title = "Tattoo Guardian"
+aon = "MonsterDisplay.aspx?ItemName=Tattoo%20Guardian"
 source_ids = ["occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tattoo_guardian", path = "json/monsters23.json" },

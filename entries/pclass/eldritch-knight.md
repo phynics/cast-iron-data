@@ -2,6 +2,7 @@
 id = "ref/pclass/eldritch-knight"
 kind = "prestige_class"
 title = "Eldritch Knight"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Eldritch%20Knight"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eldritch_knight", path = "json/prestige_classes4.json" },

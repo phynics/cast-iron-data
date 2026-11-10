@@ -2,6 +2,7 @@
 id = "ref/trait/wealthy-dabbler"
 kind = "trait"
 title = "Wealthy Dabbler"
+aon = "TraitDisplay.aspx?ItemName=Wealthy%20Dabbler"
 source_ids = ["inner-sea-primer", "taldor-echoes-of-glory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wealthy_dabbler", path = "json/traits04.json" },

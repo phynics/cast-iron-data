@@ -2,6 +2,7 @@
 id = "ref/feat/rapid-shot/teitr"
 kind = "feat"
 title = "Rapid Shot"
+aon = "FeatDisplay.aspx?ItemName=Rapid%20Shot"
 source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/rapid-shot" },

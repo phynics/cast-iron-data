@@ -2,6 +2,7 @@
 id = "ref/monster/set-guardian"
 kind = "creature"
 title = "Set Guardian"
+aon = "MonsterDisplay.aspx?ItemName=Set%20Guardian"
 source_ids = ["pathfinder-84-pyramid-of-the-sky-pharaoh"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "set_guardian", path = "json/monsters21.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/isgeri-orphan"
 kind = "trait"
 title = "Isgeri Orphan"
+aon = "TraitDisplay.aspx?ItemName=Isgeri%20Orphan"
 source_ids = ["inner-sea-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "isgeri_orphan", path = "json/traits04.json" },

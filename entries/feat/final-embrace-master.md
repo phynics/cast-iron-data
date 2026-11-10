@@ -2,6 +2,7 @@
 id = "ref/feat/final-embrace-master"
 kind = "feat"
 title = "Final Embrace Master"
+aon = "FeatDisplay.aspx?ItemName=Final%20Embrace%20Master"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "final_embrace_master", path = "json/feat07.json" },

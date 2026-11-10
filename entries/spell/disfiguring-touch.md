@@ -2,6 +2,7 @@
 id = "ref/spell/disfiguring-touch"
 kind = "spell"
 title = "Disfiguring Touch"
+aon = "SpellDisplay.aspx?ItemName=Disfiguring%20Touch"
 source_ids = ["ultimate-magic", "book-of-the-damned-volume-2-lords-of-chaos"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disfiguring_touch", path = "json/spells3.json" },

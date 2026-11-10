@@ -2,6 +2,7 @@
 id = "ref/feat/combat-meditation"
 kind = "feat"
 title = "Combat Meditation"
+aon = "FeatDisplay.aspx?ItemName=Combat%20Meditation"
 source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "combat_meditation", path = "json/feat03.json" },

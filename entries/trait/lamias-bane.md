@@ -2,6 +2,7 @@
 id = "ref/trait/lamias-bane"
 kind = "trait"
 title = "Lamia's Bane"
+aon = "TraitDisplay.aspx?ItemName=Lamia%27s%20Bane"
 source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lamias_bane", path = "json/traits02.json" },

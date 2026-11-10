@@ -2,6 +2,7 @@
 id = "ref/feat/block-upper-chakras"
 kind = "feat"
 title = "Block Upper Chakras"
+aon = "FeatDisplay.aspx?ItemName=Block%20Upper%20Chakras"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "block_upper_chakras", path = "json/feat02.json" },

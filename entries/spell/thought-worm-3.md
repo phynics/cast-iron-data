@@ -2,6 +2,7 @@
 id = "ref/spell/thought-worm-3"
 kind = "spell"
 title = "Thought Worm III"
+aon = "SpellDisplay.aspx?ItemName=Thought%20Worm%20III"
 source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thought_worm_3", path = "json/spells10.json" },

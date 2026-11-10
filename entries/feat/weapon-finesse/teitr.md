@@ -2,6 +2,7 @@
 id = "ref/feat/weapon-finesse/teitr"
 kind = "feat"
 title = "Weapon Finesse"
+aon = "FeatDisplay.aspx?ItemName=Weapon%20Finesse"
 source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/weapon-finesse", label = "removed" },

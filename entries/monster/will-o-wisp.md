@@ -2,6 +2,7 @@
 id = "ref/monster/will-o-wisp"
 kind = "creature"
 title = "Will-o'-Wisp"
+aon = "MonsterDisplay.aspx?ItemName=Will-o%E2%80%99-Wisp"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "will_o_wisp", path = "json/monsters25.json" },

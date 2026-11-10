@@ -2,6 +2,7 @@
 id = "ref/spell/deja-vu"
 kind = "spell"
 title = "Deja Vu"
+aon = "SpellDisplay.aspx?ItemName=Deja%20Vu"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deja_vu", path = "json/spells3.json" },

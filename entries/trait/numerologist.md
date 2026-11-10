@@ -2,6 +2,7 @@
 id = "ref/trait/numerologist"
 kind = "trait"
 title = "Numerologist"
+aon = "TraitDisplay.aspx?ItemName=Numerologist"
 source_ids = ["people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "numerologist", path = "json/traits04.json" },

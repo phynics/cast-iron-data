@@ -2,6 +2,7 @@
 id = "ref/monster/fluxwraith"
 kind = "creature"
 title = "Fluxwraith"
+aon = "MonsterDisplay.aspx?ItemName=Fluxwraith"
 source_ids = ["pathfinder-126-beyond-the-veiled-past"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fluxwraith", path = "json/monsters10.json" },

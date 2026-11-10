@@ -2,6 +2,7 @@
 id = "ref/feat/new-thassilonian-magic"
 kind = "feat"
 title = "New Thassilonian Magic"
+aon = "FeatDisplay.aspx?ItemName=New%20Thassilonian%20Magic"
 source_ids = ["paths-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "new_thassilonian_magic", path = "json/feat11.json" },

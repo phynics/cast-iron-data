@@ -2,6 +2,7 @@
 id = "ref/monster/grand-defender"
 kind = "creature"
 title = "Grand Defender"
+aon = "MonsterDisplay.aspx?ItemName=Grand%20Defender"
 source_ids = ["pathfinder-62-curse-of-the-ladys-light"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grand_defender", path = "json/monsters12.json" },

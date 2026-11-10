@@ -2,6 +2,7 @@
 id = "ref/trait/student-of-nantambu"
 kind = "trait"
 title = "Student of Nantambu"
+aon = "TraitDisplay.aspx?ItemName=Student%20of%20Nantambu"
 source_ids = ["humans-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "student_of_nantambu", path = "json/traits05.json" },

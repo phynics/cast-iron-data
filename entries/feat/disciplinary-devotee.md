@@ -2,6 +2,7 @@
 id = "ref/feat/disciplinary-devotee"
 kind = "feat"
 title = "Disciplinary Devotee"
+aon = "FeatDisplay.aspx?ItemName=Disciplinary%20Devotee"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disciplinary_devotee", path = "json/feat04.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-cavalier/saurian-champion"
 kind = "archetype"
 title = "Saurian Champion"
+aon = "ArchetypeDisplay.aspx?FixedName=Cavalier%20Saurian%20Champion"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "saurian_champion", path = "json/archetypes_cavalier.json" },

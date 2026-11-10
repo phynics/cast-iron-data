@@ -2,6 +2,7 @@
 id = "ref/arc-inquisitor/traceless-operative"
 kind = "archetype"
 title = "Traceless Operative"
+aon = "ArchetypeDisplay.aspx?FixedName=Inquisitor%20Traceless%20Operative"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "traceless_operative", path = "json/archetypes_inquisitor.json" },

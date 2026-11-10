@@ -2,6 +2,7 @@
 id = "ref/arc-druid/tempest-druid"
 kind = "archetype"
 title = "Tempest Druid"
+aon = "ArchetypeDisplay.aspx?FixedName=Druid%20Tempest%20Druid"
 source_ids = ["adventurers-guide", "inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tempest_druid", path = "json/archetypes_druid2.json" },

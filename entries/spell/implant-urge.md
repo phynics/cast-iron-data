@@ -2,6 +2,7 @@
 id = "ref/spell/implant-urge"
 kind = "spell"
 title = "Implant Urge"
+aon = "SpellDisplay.aspx?ItemName=Implant%20Urge"
 source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "implant_urge", path = "json/spells14.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/bezilak"
 kind = "creature"
 title = "Bezilak, the Silken Fang"
+aon = "MonsterDisplay.aspx?ItemName=Bezilak%2C%20the%20Silken%20Fang"
 source_ids = ["demons-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bezilak", path = "json/monsters_unique.json" },

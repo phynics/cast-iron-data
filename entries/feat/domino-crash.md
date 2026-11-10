@@ -2,6 +2,7 @@
 id = "ref/feat/domino-crash"
 kind = "feat"
 title = "Domino Crash"
+aon = "FeatDisplay.aspx?ItemName=Domino%20Crash"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "domino_crash", path = "json/feat05.json" },

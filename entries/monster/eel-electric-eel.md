@@ -2,6 +2,7 @@
 id = "ref/monster/eel-electric-eel"
 kind = "creature"
 title = "Electric Eel"
+aon = "MonsterDisplay.aspx?ItemName=Electric%20Eel"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eel_electric_eel", path = "json/monsters09.json" },

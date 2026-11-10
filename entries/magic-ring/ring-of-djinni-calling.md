@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-djinni-calling"
 kind = "item"
 title = "Ring of Djinni Calling"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Djinni%20Calling"
 source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_djinni_calling", path = "json/magic_ring.json" },

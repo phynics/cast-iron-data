@@ -2,6 +2,7 @@
 id = "ref/trait/resilient-construction"
 kind = "trait"
 title = "Resilient Construction"
+aon = "TraitDisplay.aspx?ItemName=Resilient%20Construction"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "resilient_construction", path = "json/traits05.json" },

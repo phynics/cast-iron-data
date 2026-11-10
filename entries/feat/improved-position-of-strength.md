@@ -2,6 +2,7 @@
 id = "ref/feat/improved-position-of-strength"
 kind = "feat"
 title = "Improved Position of Strength"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Position%20of%20Strength"
 source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_position_of_strength", path = "json/feat09.json" },

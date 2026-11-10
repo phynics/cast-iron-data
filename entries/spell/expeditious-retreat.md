@@ -2,6 +2,7 @@
 id = "ref/spell/expeditious-retreat"
 kind = "spell"
 title = "Expeditious Retreat"
+aon = "SpellDisplay.aspx?ItemName=Expeditious%20Retreat"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "expeditious_retreat", path = "json/spells4.json" },

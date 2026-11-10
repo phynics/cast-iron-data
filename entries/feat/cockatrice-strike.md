@@ -2,6 +2,7 @@
 id = "ref/feat/cockatrice-strike"
 kind = "feat"
 title = "Cockatrice Strike"
+aon = "FeatDisplay.aspx?ItemName=Cockatrice%20Strike"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cockatrice_strike", path = "json/feat03.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/grasping-tentacles"
 kind = "spell"
 title = "Grasping Tentacles"
+aon = "SpellDisplay.aspx?ItemName=Grasping%20Tentacles"
 source_ids = ["core-rulebook", "dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grasping_tentacles", path = "json/spells12.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/tongue-of-many-towns"
 kind = "trait"
 title = "Tongue of Many Towns"
+aon = "TraitDisplay.aspx?ItemName=Tongue%20of%20Many%20Towns"
 source_ids = ["humans-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tongue_of_many_towns", path = "json/traits05.json" },

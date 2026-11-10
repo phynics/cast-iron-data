@@ -2,6 +2,7 @@
 id = "ref/trait/runaway-slave"
 kind = "trait"
 title = "Runaway Slave"
+aon = "TraitDisplay.aspx?ItemName=Runaway%20Slave"
 source_ids = ["demon-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "runaway_slave", path = "json/traits04.json" },

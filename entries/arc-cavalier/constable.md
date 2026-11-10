@@ -2,6 +2,7 @@
 id = "ref/arc-cavalier/constable"
 kind = "archetype"
 title = "Constable"
+aon = "ArchetypeDisplay.aspx?FixedName=Cavalier%20Constable"
 source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "constable", path = "json/archetypes_cavalier.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/crusader-road-acolyte"
 kind = "trait"
 title = "Crusader Road Acolyte"
+aon = "TraitDisplay.aspx?ItemName=Crusader%20Road%20Acolyte"
 source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crusader_road_acolyte", path = "json/traits04.json" },

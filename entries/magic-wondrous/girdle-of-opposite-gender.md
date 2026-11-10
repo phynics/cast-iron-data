@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/girdle-of-opposite-gender"
 kind = "item"
 title = "Girdle of Opposite Gender"
+aon = "MagicCursedDisplay.aspx?ItemName=Girdle%20of%20Opposite%20Gender"
 source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "girdle_of_opposite_gender", path = "json/magic_wondrous_belt_body_chest.json" },

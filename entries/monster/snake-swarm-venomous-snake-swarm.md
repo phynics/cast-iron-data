@@ -2,6 +2,7 @@
 id = "ref/monster/snake-swarm-venomous-snake-swarm"
 kind = "creature"
 title = "Venomous Snake Swarm"
+aon = "MonsterDisplay.aspx?ItemName=Venomous%20Snake%20Swarm"
 source_ids = ["bestiary-3", "pathfinder-39-the-city-of-seven-spears"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snake_swarm_venomous_snake_swarm", path = "json/monsters22.json" },

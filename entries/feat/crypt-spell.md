@@ -2,6 +2,7 @@
 id = "ref/feat/crypt-spell"
 kind = "feat"
 title = "Crypt Spell"
+aon = "FeatDisplay.aspx?ItemName=Crypt%20Spell"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crypt_spell", path = "json/feat04.json" },

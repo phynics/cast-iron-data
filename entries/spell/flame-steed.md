@@ -2,6 +2,7 @@
 id = "ref/spell/flame-steed"
 kind = "spell"
 title = "Flame Steed"
+aon = "SpellDisplay.aspx?ItemName=Flame%20Steed"
 source_ids = ["core-rulebook", "wilderness-origins", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flame_steed", path = "json/spells7.json" },

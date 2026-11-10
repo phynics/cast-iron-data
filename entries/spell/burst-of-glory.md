@@ -2,6 +2,7 @@
 id = "ref/spell/burst-of-glory"
 kind = "spell"
 title = "Burst of Glory"
+aon = "SpellDisplay.aspx?ItemName=Burst%20of%20Glory"
 source_ids = ["inner-sea-gods", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burst_of_glory", path = "json/spells2.json" },

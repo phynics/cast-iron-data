@@ -2,6 +2,7 @@
 id = "ref/monster/naga-dark-naga"
 kind = "creature"
 title = "Dark Naga"
+aon = "MonsterDisplay.aspx?ItemName=Dark%20Naga"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "naga_dark_naga", path = "json/monsters35.json" },

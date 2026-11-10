@@ -2,6 +2,7 @@
 id = "ref/spell/paranoia"
 kind = "spell"
 title = "Paranoia"
+aon = "SpellDisplay.aspx?ItemName=Paranoia"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "paranoia", path = "json/spells7.json" },

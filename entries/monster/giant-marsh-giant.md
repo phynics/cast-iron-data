@@ -2,6 +2,7 @@
 id = "ref/monster/giant-marsh-giant"
 kind = "creature"
 title = "Marsh Giant"
+aon = "MonsterDisplay.aspx?ItemName=Marsh%20Giant"
 source_ids = ["bestiary-2", "pathfinder-5-sins-of-the-saviors"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_marsh_giant", path = "json/monsters32.json" },

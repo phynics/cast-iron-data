@@ -2,6 +2,7 @@
 id = "ref/monster/apostasy-wraith"
 kind = "creature"
 title = "Apostasy Wraith"
+aon = "MonsterDisplay.aspx?ItemName=Apostasy%20Wraith"
 source_ids = ["inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "apostasy_wraith", path = "json/monsters02.json" },

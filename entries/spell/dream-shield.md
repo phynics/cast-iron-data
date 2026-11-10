@@ -2,6 +2,7 @@
 id = "ref/spell/dream-shield"
 kind = "spell"
 title = "Dream Shield"
+aon = "SpellDisplay.aspx?ItemName=Dream%20Shield"
 source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dream_shield", path = "json/spells13.json" },

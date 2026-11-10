@@ -2,6 +2,7 @@
 id = "ref/spell/insect-spies-greater"
 kind = "spell"
 title = "Greater Insect Spies"
+aon = "SpellDisplay.aspx?ItemName=Insect%20Spies%2C%20Greater"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "insect_spies_greater", path = "json/spells14.json" },

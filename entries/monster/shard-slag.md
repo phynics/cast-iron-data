@@ -2,6 +2,7 @@
 id = "ref/monster/shard-slag"
 kind = "creature"
 title = "Shard Slag"
+aon = "MonsterDisplay.aspx?ItemName=Shard%20Slag"
 source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shard_slag", path = "json/monsters38.json" },

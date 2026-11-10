@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/sentinel"
 kind = "archetype"
 title = "Sentinel"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Sentinel"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sentinel", path = "json/archetypes_ranger.json" },

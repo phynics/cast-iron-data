@@ -2,6 +2,7 @@
 id = "ref/feat/fiendish-serpent"
 kind = "feat"
 title = "Fiendish Serpent"
+aon = "FeatDisplay.aspx?ItemName=Fiendish%20Serpent"
 source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fiendish_serpent", path = "json/feat07.json" },

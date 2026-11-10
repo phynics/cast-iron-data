@@ -2,6 +2,7 @@
 id = "ref/feat/earth-child-style"
 kind = "feat"
 title = "Earth Child Style"
+aon = "FeatDisplay.aspx?ItemName=Earth%20Child%20Style"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "earth_child_style", path = "json/feat05.json" },

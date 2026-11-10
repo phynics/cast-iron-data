@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-seven-lovely-colors"
 kind = "item"
 title = "Ring of Seven Lovely Colors"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Seven%20Lovely%20Colors"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_seven_lovely_colors", path = "json/magic_ring.json" },

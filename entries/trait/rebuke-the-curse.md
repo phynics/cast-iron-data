@@ -2,6 +2,7 @@
 id = "ref/trait/rebuke-the-curse"
 kind = "trait"
 title = "Rebuke the Curse"
+aon = "TraitDisplay.aspx?ItemName=Rebuke%20the%20Curse"
 source_ids = ["blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rebuke_the_curse", path = "json/traits01.json" },

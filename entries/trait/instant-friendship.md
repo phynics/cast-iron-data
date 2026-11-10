@@ -2,6 +2,7 @@
 id = "ref/trait/instant-friendship"
 kind = "trait"
 title = "Instant Friendship"
+aon = "TraitDisplay.aspx?ItemName=Instant%20Friendship"
 source_ids = ["blood-of-the-elements"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "instant_friendship", path = "json/traits05.json" },

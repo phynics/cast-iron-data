@@ -2,6 +2,7 @@
 id = "ref/monster/bloodplate-burster"
 kind = "creature"
 title = "Bloodplate Burster"
+aon = "MonsterDisplay.aspx?ItemName=Bloodplate%20Burster"
 source_ids = ["pathfinder-129-the-twilight-child"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloodplate_burster", path = "json/monsters27.json" },

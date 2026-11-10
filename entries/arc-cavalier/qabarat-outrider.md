@@ -2,6 +2,7 @@
 id = "ref/arc-cavalier/qabarat-outrider"
 kind = "archetype"
 title = "Qabarat Outrider"
+aon = "ArchetypeDisplay.aspx?FixedName=Cavalier%20Qabarat%20Outrider"
 source_ids = ["people-of-the-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "qabarat_outrider", path = "json/archetypes_cavalier.json" },

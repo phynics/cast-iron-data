@@ -2,6 +2,7 @@
 id = "ref/spell/river-whip"
 kind = "spell"
 title = "River Whip"
+aon = "SpellDisplay.aspx?ItemName=River%20Whip"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "river_whip", path = "json/spells8.json" },

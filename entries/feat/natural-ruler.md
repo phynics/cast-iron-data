@@ -2,6 +2,7 @@
 id = "ref/feat/natural-ruler"
 kind = "feat"
 title = "Natural Ruler"
+aon = "FeatDisplay.aspx?ItemName=Natural%20Ruler"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "natural_ruler", path = "json/feat11.json" },

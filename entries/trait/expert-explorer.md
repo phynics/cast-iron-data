@@ -2,6 +2,7 @@
 id = "ref/trait/expert-explorer"
 kind = "trait"
 title = "Expert Explorer"
+aon = "TraitDisplay.aspx?ItemName=Expert%20Explorer"
 source_ids = ["ruins-of-azlant-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "expert_explorer", path = "json/traits02.json" },

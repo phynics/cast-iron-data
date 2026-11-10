@@ -2,6 +2,7 @@
 id = "ref/monster/skapraun"
 kind = "creature"
 title = "Skapraun"
+aon = "MonsterDisplay.aspx?ItemName=Skapraun"
 source_ids = ["pathfinder-92-the-hill-giants-pledge"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skapraun", path = "json/monsters22.json" },

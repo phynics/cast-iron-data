@@ -2,6 +2,7 @@
 id = "ref/trait/outcasts-intuition"
 kind = "trait"
 title = "Outcast's Intuition"
+aon = "TraitDisplay.aspx?ItemName=Outcast%27s%20Intuition"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "outcasts_intuition", path = "json/traits02.json" },

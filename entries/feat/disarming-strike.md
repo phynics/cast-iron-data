@@ -2,6 +2,7 @@
 id = "ref/feat/disarming-strike"
 kind = "feat"
 title = "Disarming Strike"
+aon = "FeatDisplay.aspx?ItemName=Disarming%20Strike"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disarming_strike", path = "json/feat04.json" },

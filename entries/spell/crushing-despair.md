@@ -2,6 +2,7 @@
 id = "ref/spell/crushing-despair"
 kind = "spell"
 title = "Crushing Despair"
+aon = "SpellDisplay.aspx?ItemName=Crushing%20Despair"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crushing_despair", path = "json/spells3.json" },

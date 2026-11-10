@@ -2,6 +2,7 @@
 id = "ref/feat/auspicious-birth"
 kind = "feat"
 title = "Auspicious Birth"
+aon = "FeatDisplay.aspx?ItemName=Auspicious%20Birth"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "auspicious_birth", path = "json/feat01.json" },

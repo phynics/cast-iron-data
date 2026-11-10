@@ -2,6 +2,7 @@
 id = "ref/spell/blightburn-weapon"
 kind = "spell"
 title = "Blightburn Weapon"
+aon = "SpellDisplay.aspx?ItemName=Blightburn%20Weapon"
 source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blightburn_weapon", path = "json/spells2.json" },

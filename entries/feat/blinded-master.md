@@ -2,6 +2,7 @@
 id = "ref/feat/blinded-master"
 kind = "feat"
 title = "Blinded Master"
+aon = "FeatDisplay.aspx?ItemName=Blinded%20Master"
 source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blinded_master", path = "json/feat02.json" },

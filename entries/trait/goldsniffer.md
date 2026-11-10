@@ -2,6 +2,7 @@
 id = "ref/trait/goldsniffer"
 kind = "trait"
 title = "Goldsniffer"
+aon = "TraitDisplay.aspx?ItemName=Goldsniffer"
 source_ids = ["ultimate-campaign", "dwarves-of-golarion", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "goldsniffer", path = "json/traits05.json" },

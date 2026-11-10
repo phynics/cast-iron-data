@@ -2,6 +2,7 @@
 id = "ref/trait/nearly-blinded"
 kind = "trait"
 title = "Nearly Blinded"
+aon = "TraitDisplay.aspx?ItemName=Nearly%20Blinded"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nearly_blinded", path = "json/traits05.json" },

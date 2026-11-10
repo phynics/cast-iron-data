@@ -2,6 +2,7 @@
 id = "ref/monster/redkind"
 kind = "creature"
 title = "Redkind"
+aon = "MonsterDisplay.aspx?ItemName=Redkind"
 source_ids = ["taldor-the-first-empire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "redkind", path = "json/monsters20.json" },

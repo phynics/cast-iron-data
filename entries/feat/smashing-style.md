@@ -2,6 +2,7 @@
 id = "ref/feat/smashing-style"
 kind = "feat"
 title = "Smashing Style"
+aon = "FeatDisplay.aspx?ItemName=Smashing%20Style"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "smashing_style", path = "json/feat14.json" },

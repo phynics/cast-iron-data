@@ -2,6 +2,7 @@
 id = "ref/monster/blood-bramble"
 kind = "creature"
 title = "Blood Bramble"
+aon = "MonsterDisplay.aspx?ItemName=Blood%20Bramble"
 source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_bramble", path = "json/monsters27.json" },

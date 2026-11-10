@@ -2,6 +2,7 @@
 id = "ref/spell/detect-aberration"
 kind = "spell"
 title = "Detect Aberration"
+aon = "SpellDisplay.aspx?ItemName=Detect%20Aberration"
 source_ids = ["core-rulebook", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "detect_aberration", path = "json/spells3.json" },

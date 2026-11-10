@@ -2,6 +2,7 @@
 id = "ref/spell/finger-of-death"
 kind = "spell"
 title = "Finger of Death"
+aon = "SpellDisplay.aspx?ItemName=Finger%20of%20Death"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "finger_of_death", path = "json/spells4.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/unleash-pandemonium"
 kind = "spell"
 title = "Unleash Pandemonium"
+aon = "SpellDisplay.aspx?ItemName=Unleash%20Pandemonium"
 source_ids = ["pathfinder-74-sword-of-valor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unleash_pandemonium", path = "json/spells11.json" },

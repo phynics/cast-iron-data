@@ -2,6 +2,7 @@
 id = "ref/arc-cavalier/daring-general"
 kind = "archetype"
 title = "Daring General"
+aon = "ArchetypeDisplay.aspx?FixedName=Cavalier%20Daring%20General"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daring_general", path = "json/archetypes_cavalier.json" },

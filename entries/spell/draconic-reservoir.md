@@ -2,6 +2,7 @@
 id = "ref/spell/draconic-reservoir"
 kind = "spell"
 title = "Draconic Reservoir"
+aon = "SpellDisplay.aspx?ItemName=Draconic%20Reservoir"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "draconic_reservoir", path = "json/spells13.json" },

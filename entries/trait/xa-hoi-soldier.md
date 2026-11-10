@@ -2,6 +2,7 @@
 id = "ref/trait/xa-hoi-soldier"
 kind = "trait"
 title = "Xa Hoi Soldier"
+aon = "TraitDisplay.aspx?ItemName=Xa%20Hoi%20Soldier"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "xa_hoi_soldier", path = "json/traits04.json" },

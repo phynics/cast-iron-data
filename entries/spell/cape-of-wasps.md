@@ -2,6 +2,7 @@
 id = "ref/spell/cape-of-wasps"
 kind = "spell"
 title = "Cape of Wasps"
+aon = "SpellDisplay.aspx?ItemName=Cape%20of%20Wasps"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cape_of_wasps", path = "json/spells2.json" },

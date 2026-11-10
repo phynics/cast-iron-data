@@ -2,6 +2,7 @@
 id = "ref/spell/phantom-limb"
 kind = "spell"
 title = "Phantom Limb"
+aon = "SpellDisplay.aspx?ItemName=Phantom%20Limb"
 source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phantom_limb", path = "json/spells7.json" },

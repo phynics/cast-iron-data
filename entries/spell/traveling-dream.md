@@ -2,6 +2,7 @@
 id = "ref/spell/traveling-dream"
 kind = "spell"
 title = "Traveling Dream"
+aon = "SpellDisplay.aspx?ItemName=Traveling%20Dream"
 source_ids = ["gods-and-magic", "pathfinder-2-the-skinsaw-murders", "inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "traveling_dream", path = "json/spells10.json" },

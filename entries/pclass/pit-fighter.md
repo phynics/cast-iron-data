@@ -2,6 +2,7 @@
 id = "ref/pclass/pit-fighter"
 kind = "prestige_class"
 title = "Pit Fighter"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Pit%20Fighter"
 source_ids = ["paths-of-prestige"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pit_fighter", path = "json/prestige_classes4.json" },

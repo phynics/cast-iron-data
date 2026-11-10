@@ -2,6 +2,7 @@
 id = "ref/spell/guarding-knowledge"
 kind = "spell"
 title = "Guarding Knowledge"
+aon = "SpellDisplay.aspx?ItemName=Guarding%20Knowledge"
 source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guarding_knowledge", path = "json/spells5.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/greenskin-stalker"
 kind = "trait"
 title = "Greenskin Stalker"
+aon = "TraitDisplay.aspx?ItemName=Greenskin%20Stalker"
 source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greenskin_stalker", path = "json/traits04.json" },

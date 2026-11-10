@@ -2,6 +2,7 @@
 id = "ref/trait/desert-child"
 kind = "trait"
 title = "Desert Child"
+aon = "TraitDisplay.aspx?ItemName=Desert%20Child"
 source_ids = ["ultimate-campaign", "advanced-players-guide", "legacy-of-fire-players-guide", "inner-sea-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "desert_child", path = "json/traits04.json" },

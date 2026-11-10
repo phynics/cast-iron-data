@@ -2,6 +2,7 @@
 id = "ref/feat/overpowering-stare"
 kind = "feat"
 title = "Overpowering Stare"
+aon = "FeatDisplay.aspx?ItemName=Overpowering%20Stare"
 source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "overpowering_stare", path = "json/feat11.json" },

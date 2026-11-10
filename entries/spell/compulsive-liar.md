@@ -2,6 +2,7 @@
 id = "ref/spell/compulsive-liar"
 kind = "spell"
 title = "Compulsive Liar"
+aon = "SpellDisplay.aspx?ItemName=Compulsive%20Liar"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "compulsive_liar", path = "json/spells12.json" },

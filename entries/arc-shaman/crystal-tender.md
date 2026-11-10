@@ -2,6 +2,7 @@
 id = "ref/arc-shaman/crystal-tender"
 kind = "archetype"
 title = "Crystal Tender"
+aon = "ArchetypeDisplay.aspx?FixedName=Shaman%20Crystal%20Tender"
 source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crystal_tender", path = "json/archetypes_shaman.json" },

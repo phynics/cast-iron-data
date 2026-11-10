@@ -2,6 +2,7 @@
 id = "ref/spell/zone-of-foul-flames"
 kind = "spell"
 title = "Zone of Foul Flames"
+aon = "SpellDisplay.aspx?ItemName=Zone%20of%20Foul%20Flames"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "zone_of_foul_flames", path = "json/spells16.json" },

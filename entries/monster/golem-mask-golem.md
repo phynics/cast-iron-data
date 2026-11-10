@@ -2,6 +2,7 @@
 id = "ref/monster/golem-mask-golem"
 kind = "creature"
 title = "Mask Golem"
+aon = "MonsterDisplay.aspx?ItemName=Mask%20Golem"
 source_ids = ["masks-of-the-living-god"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_mask_golem", path = "json/monsters33.json" },

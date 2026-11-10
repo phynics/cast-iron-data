@@ -2,6 +2,7 @@
 id = "ref/spell/rope-tornado"
 kind = "spell"
 title = "Rope Tornado"
+aon = "SpellDisplay.aspx?ItemName=Rope%20Tornado"
 source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rope_tornado", path = "json/spells8.json" },

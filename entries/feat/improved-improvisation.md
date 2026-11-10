@@ -2,6 +2,7 @@
 id = "ref/feat/improved-improvisation"
 kind = "feat"
 title = "Improved Improvisation"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Improvisation"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_improvisation", path = "json/feat09.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/malleable-magic"
 kind = "trait"
 title = "Malleable Magic"
+aon = "TraitDisplay.aspx?ItemName=Malleable%20Magic"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "malleable_magic", path = "json/traits02.json" },

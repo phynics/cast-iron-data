@@ -2,6 +2,7 @@
 id = "ref/feat/archon-style"
 kind = "feat"
 title = "Archon Style"
+aon = "FeatDisplay.aspx?ItemName=Archon%20Style"
 source_ids = ["planar-adventures", "blood-of-angels"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "archon_style", path = "json/feat01.json" },

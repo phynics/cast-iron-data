@@ -2,6 +2,7 @@
 id = "ref/trait/westcrown-firebrand"
 kind = "trait"
 title = "Westcrown Firebrand"
+aon = "TraitDisplay.aspx?ItemName=Westcrown%20Firebrand"
 source_ids = ["council-of-thieves-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "westcrown_firebrand", path = "json/traits02.json" },

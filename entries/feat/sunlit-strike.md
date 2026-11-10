@@ -2,6 +2,7 @@
 id = "ref/feat/sunlit-strike"
 kind = "feat"
 title = "Sunlit Strike"
+aon = "FeatDisplay.aspx?ItemName=Sunlit%20Strike"
 source_ids = ["blood-of-angels"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sunlit_strike", path = "json/feat15.json" },

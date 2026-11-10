@@ -2,6 +2,7 @@
 id = "ref/feat/natural-jouster"
 kind = "feat"
 title = "Natural Jouster"
+aon = "FeatDisplay.aspx?ItemName=Natural%20Jouster"
 source_ids = ["pathfinder-69-maiden-mother-crone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "natural_jouster", path = "json/feat11.json" },

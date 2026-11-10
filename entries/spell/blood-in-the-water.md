@@ -2,6 +2,7 @@
 id = "ref/spell/blood-in-the-water"
 kind = "spell"
 title = "Blood in the Water"
+aon = "SpellDisplay.aspx?ItemName=Blood%20in%20the%20Water"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_in_the_water", path = "json/spells2.json" },

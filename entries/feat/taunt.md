@@ -2,6 +2,7 @@
 id = "ref/feat/taunt"
 kind = "feat"
 title = "Taunt"
+aon = "FeatDisplay.aspx?ItemName=Taunt"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "taunt", path = "json/feat16.json" },

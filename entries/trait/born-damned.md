@@ -2,6 +2,7 @@
 id = "ref/trait/born-damned"
 kind = "trait"
 title = "Born Damned"
+aon = "TraitDisplay.aspx?ItemName=Born%20Damned"
 source_ids = ["blood-of-fiends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "born_damned", path = "json/traits05.json" },

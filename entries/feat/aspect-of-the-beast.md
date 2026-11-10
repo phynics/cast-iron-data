@@ -2,6 +2,7 @@
 id = "ref/feat/aspect-of-the-beast"
 kind = "feat"
 title = "Aspect of the Beast"
+aon = "FeatDisplay.aspx?ItemName=Aspect%20of%20the%20Beast"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aspect_of_the_beast", path = "json/feat01.json" },

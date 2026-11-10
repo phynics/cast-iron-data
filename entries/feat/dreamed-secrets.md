@@ -2,6 +2,7 @@
 id = "ref/feat/dreamed-secrets"
 kind = "feat"
 title = "Dreamed Secrets"
+aon = "FeatDisplay.aspx?ItemName=Dreamed%20Secrets"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dreamed_secrets", path = "json/feat05.json" },

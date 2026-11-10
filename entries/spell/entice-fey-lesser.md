@@ -2,6 +2,7 @@
 id = "ref/spell/entice-fey-lesser"
 kind = "spell"
 title = "Lesser Entice Fey"
+aon = "SpellDisplay.aspx?ItemName=Entice%20Fey%2C%20Lesser"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "entice_fey_lesser", path = "json/spells4.json" },

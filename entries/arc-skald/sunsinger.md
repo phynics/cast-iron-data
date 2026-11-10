@@ -2,6 +2,7 @@
 id = "ref/arc-skald/sunsinger"
 kind = "archetype"
 title = "Sunsinger"
+aon = "ArchetypeDisplay.aspx?FixedName=Skald%20Sunsinger"
 source_ids = ["qadira-jewel-of-the-east"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sunsinger", path = "json/archetypes_skald.json" },

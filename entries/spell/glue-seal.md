@@ -2,6 +2,7 @@
 id = "ref/spell/glue-seal"
 kind = "spell"
 title = "Glue Seal"
+aon = "SpellDisplay.aspx?ItemName=Glue%20Seal"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "glue_seal", path = "json/spells5.json" },

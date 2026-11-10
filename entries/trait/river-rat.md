@@ -2,6 +2,7 @@
 id = "ref/trait/river-rat"
 kind = "trait"
 title = "River Rat"
+aon = "TraitDisplay.aspx?ItemName=River%20Rat"
 source_ids = ["ultimate-campaign", "advanced-players-guide", "taldor-echoes-of-glory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "river_rat", path = "json/traits04.json" },

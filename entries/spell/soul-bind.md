@@ -2,6 +2,7 @@
 id = "ref/spell/soul-bind"
 kind = "spell"
 title = "Soul Bind"
+aon = "SpellDisplay.aspx?ItemName=Soul%20Bind"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soul_bind", path = "json/spells9.json" },

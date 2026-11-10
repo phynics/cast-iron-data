@@ -2,6 +2,7 @@
 id = "ref/trait/magic-in-the-blood"
 kind = "trait"
 title = "Magic in the Blood"
+aon = "TraitDisplay.aspx?ItemName=Magic%20in%20the%20Blood"
 source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_in_the_blood", path = "json/traits05.json" },

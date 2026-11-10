@@ -2,6 +2,7 @@
 id = "ref/spell/prehensile-pilfer"
 kind = "spell"
 title = "Prehensile Pilfer"
+aon = "SpellDisplay.aspx?ItemName=Prehensile%20Pilfer"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prehensile_pilfer", path = "json/spells14.json" },

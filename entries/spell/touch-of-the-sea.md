@@ -2,6 +2,7 @@
 id = "ref/spell/touch-of-the-sea"
 kind = "spell"
 title = "Touch of the Sea"
+aon = "SpellDisplay.aspx?ItemName=Touch%20of%20the%20Sea"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "touch_of_the_sea", path = "json/spells10.json" },

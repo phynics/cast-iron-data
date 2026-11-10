@@ -2,6 +2,7 @@
 id = "ref/trait/arcane-revitalization"
 kind = "trait"
 title = "Arcane Revitalization"
+aon = "TraitDisplay.aspx?ItemName=Arcane%20Revitalization"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcane_revitalization", path = "json/traits02.json" },

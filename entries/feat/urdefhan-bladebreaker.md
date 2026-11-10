@@ -2,6 +2,7 @@
 id = "ref/feat/urdefhan-bladebreaker"
 kind = "feat"
 title = "Urdefhan Bladebreaker"
+aon = "FeatDisplay.aspx?ItemName=Urdefhan%20Bladebreaker"
 source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "urdefhan_bladebreaker", path = "json/feat17.json" },

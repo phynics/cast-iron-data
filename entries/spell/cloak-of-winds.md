@@ -2,6 +2,7 @@
 id = "ref/spell/cloak-of-winds"
 kind = "spell"
 title = "Cloak of Winds"
+aon = "SpellDisplay.aspx?ItemName=Cloak%20of%20Winds"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloak_of_winds", path = "json/spells2.json" },

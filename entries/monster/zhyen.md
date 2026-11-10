@@ -2,6 +2,7 @@
 id = "ref/monster/zhyen"
 kind = "creature"
 title = "Zhyen"
+aon = "MonsterDisplay.aspx?ItemName=Zhyen"
 source_ids = ["qadira-gateway-to-the-east"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "zhyen", path = "json/monsters41.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/proud-progenitor"
 kind = "trait"
 title = "Proud Progenitor"
+aon = "TraitDisplay.aspx?ItemName=Proud%20Progenitor"
 source_ids = ["blood-of-the-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "proud_progenitor", path = "json/traits05.json" },

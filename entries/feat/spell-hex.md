@@ -2,6 +2,7 @@
 id = "ref/feat/spell-hex"
 kind = "feat"
 title = "Spell Hex"
+aon = "FeatDisplay.aspx?ItemName=Spell%20Hex"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_hex", path = "json/feat14.json" },

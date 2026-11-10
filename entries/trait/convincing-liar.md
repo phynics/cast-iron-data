@@ -2,6 +2,7 @@
 id = "ref/trait/convincing-liar"
 kind = "trait"
 title = "Convincing Liar"
+aon = "TraitDisplay.aspx?ItemName=Convincing%20Liar"
 source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "convincing_liar", path = "json/traits01.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/spirit-ridden"
 kind = "feat"
 title = "Spirit Ridden"
+aon = "FeatDisplay.aspx?ItemName=Spirit%20Ridden"
 source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spirit_ridden", path = "json/feat15.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/invigorating-repose"
 kind = "spell"
 title = "Invigorating Repose"
+aon = "SpellDisplay.aspx?ItemName=Invigorating%20Repose"
 source_ids = ["dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "invigorating_repose", path = "json/spells14.json" },

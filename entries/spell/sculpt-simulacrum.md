@@ -2,6 +2,7 @@
 id = "ref/spell/sculpt-simulacrum"
 kind = "spell"
 title = "Sculpt Simulacrum"
+aon = "SpellDisplay.aspx?ItemName=Sculpt%20Simulacrum"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sculpt_simulacrum", path = "json/spells15.json" },

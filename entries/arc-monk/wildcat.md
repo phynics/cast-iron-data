@@ -2,6 +2,7 @@
 id = "ref/arc-monk/wildcat"
 kind = "archetype"
 title = "Wildcat"
+aon = "ArchetypeDisplay.aspx?FixedName=Monk%20Wildcat"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wildcat", path = "json/archetypes_monk2.json" },

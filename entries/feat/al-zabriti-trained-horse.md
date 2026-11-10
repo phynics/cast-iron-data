@@ -2,6 +2,7 @@
 id = "ref/feat/al-zabriti-trained-horse"
 kind = "feat"
 title = "Al-Zabriti-Trained Horse"
+aon = "FeatDisplay.aspx?ItemName=Al-Zabriti-Trained%20Horse"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "al_zabriti_trained_horse", path = "json/feat01.json" },

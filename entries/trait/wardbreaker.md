@@ -2,6 +2,7 @@
 id = "ref/trait/wardbreaker"
 kind = "trait"
 title = "Wardbreaker"
+aon = "TraitDisplay.aspx?ItemName=Wardbreaker"
 source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wardbreaker", path = "json/traits04.json" },

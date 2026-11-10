@@ -2,6 +2,7 @@
 id = "ref/trait/belem-pirate"
 kind = "trait"
 title = "Belem Pirate"
+aon = "TraitDisplay.aspx?ItemName=Belem%20Pirate"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "belem_pirate", path = "json/traits04.json" },

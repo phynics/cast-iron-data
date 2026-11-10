@@ -2,6 +2,7 @@
 id = "ref/spell/phantasmal-reminder"
 kind = "spell"
 title = "Phantasmal Reminder"
+aon = "SpellDisplay.aspx?ItemName=Phantasmal%20Reminder"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phantasmal_reminder", path = "json/spells7.json" },

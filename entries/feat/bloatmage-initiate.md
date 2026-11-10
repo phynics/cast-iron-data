@@ -2,6 +2,7 @@
 id = "ref/feat/bloatmage-initiate"
 kind = "feat"
 title = "Bloatmage Initiate"
+aon = "FeatDisplay.aspx?ItemName=Bloatmage%20Initiate"
 source_ids = ["city-of-strangers", "pathfinder-12-crown-of-fangs", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloatmage_initiate", path = "json/feat02.json" },

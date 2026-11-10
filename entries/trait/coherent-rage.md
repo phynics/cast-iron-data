@@ -2,6 +2,7 @@
 id = "ref/trait/coherent-rage"
 kind = "trait"
 title = "Coherent Rage"
+aon = "TraitDisplay.aspx?ItemName=Coherent%20Rage"
 source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "coherent_rage", path = "json/traits01.json" },

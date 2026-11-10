@@ -2,6 +2,7 @@
 id = "ref/trait/twisted-tattoo"
 kind = "trait"
 title = "Twisted Tattoo"
+aon = "TraitDisplay.aspx?ItemName=Twisted%20Tattoo"
 source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "twisted_tattoo", path = "json/traits02.json" },

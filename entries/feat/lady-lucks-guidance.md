@@ -2,6 +2,7 @@
 id = "ref/feat/lady-lucks-guidance"
 kind = "feat"
 title = "Lady Luck's Guidance"
+aon = "FeatDisplay.aspx?ItemName=Lady%20Luck%27s%20Guidance"
 source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lady_lucks_guidance", path = "json/feat10.json" },

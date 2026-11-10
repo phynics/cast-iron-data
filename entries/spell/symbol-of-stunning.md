@@ -2,6 +2,7 @@
 id = "ref/spell/symbol-of-stunning"
 kind = "spell"
 title = "Symbol of Stunning"
+aon = "SpellDisplay.aspx?ItemName=Symbol%20of%20Stunning"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "symbol_of_stunning", path = "json/spells10.json" },

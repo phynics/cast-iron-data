@@ -2,6 +2,7 @@
 id = "ref/spell/fearsome-duplicate"
 kind = "spell"
 title = "Fearsome Duplicate"
+aon = "SpellDisplay.aspx?ItemName=Fearsome%20Duplicate"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fearsome_duplicate", path = "json/spells4.json" },

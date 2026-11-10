@@ -2,6 +2,7 @@
 id = "ref/trait/technological-brewmaster"
 kind = "trait"
 title = "Technological Brewmaster"
+aon = "TraitDisplay.aspx?ItemName=Technological%20Brewmaster"
 source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "technological_brewmaster", path = "json/traits04.json" },

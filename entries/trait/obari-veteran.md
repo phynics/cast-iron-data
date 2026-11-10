@@ -2,6 +2,7 @@
 id = "ref/trait/obari-veteran"
 kind = "trait"
 title = "Obari Veteran"
+aon = "TraitDisplay.aspx?ItemName=Obari%20Veteran"
 source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "obari_veteran", path = "json/traits01.json" },

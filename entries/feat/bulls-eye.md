@@ -2,6 +2,7 @@
 id = "ref/feat/bulls-eye"
 kind = "feat"
 title = "Bull's Eye"
+aon = "FeatDisplay.aspx?ItemName=Bull%27s%20Eye"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bulls_eye", path = "json/feat02.json" },

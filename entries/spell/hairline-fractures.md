@@ -2,6 +2,7 @@
 id = "ref/spell/hairline-fractures"
 kind = "spell"
 title = "Hairline Fractures"
+aon = "SpellDisplay.aspx?ItemName=Hairline%20Fractures"
 source_ids = ["inner-sea-gods", "faiths-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hairline_fractures", path = "json/spells5.json" },

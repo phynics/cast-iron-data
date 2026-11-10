@@ -2,6 +2,7 @@
 id = "ref/spell/fins-to-feet"
 kind = "spell"
 title = "Fins to Feet"
+aon = "SpellDisplay.aspx?ItemName=Fins%20to%20Feet"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fins_to_feet", path = "json/spells4.json" },

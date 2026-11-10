@@ -2,6 +2,7 @@
 id = "ref/spell/restore-mythic-power"
 kind = "spell"
 title = "Restore Mythic Power"
+aon = "SpellDisplay.aspx?ItemName=Restore%20Mythic%20Power"
 source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "restore_mythic_power", path = "json/spells8.json" },

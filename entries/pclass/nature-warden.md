@@ -2,6 +2,7 @@
 id = "ref/pclass/nature-warden"
 kind = "prestige_class"
 title = "Nature Warden"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Nature%20Warden"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nature_warden", path = "json/prestige_classes2.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/skeptic"
 kind = "trait"
 title = "Skeptic"
+aon = "TraitDisplay.aspx?ItemName=Skeptic"
 source_ids = ["ultimate-campaign", "second-darkness-players-guide", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skeptic", path = "json/traits02.json" },

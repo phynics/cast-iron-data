@@ -2,6 +2,7 @@
 id = "ref/spell/interplanetary-teleport"
 kind = "spell"
 title = "Interplanetary Teleport"
+aon = "SpellDisplay.aspx?ItemName=Interplanetary%20Teleport"
 source_ids = ["ultimate-magic", "pathfinder-14-children-of-the-void", "inner-sea-world-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "interplanetary_teleport", path = "json/spells14.json" },

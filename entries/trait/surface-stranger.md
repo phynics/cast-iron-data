@@ -2,6 +2,7 @@
 id = "ref/trait/surface-stranger"
 kind = "trait"
 title = "Surface Stranger"
+aon = "TraitDisplay.aspx?ItemName=Surface%20Stranger"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "surface_stranger", path = "json/traits04.json" },

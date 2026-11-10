@@ -2,6 +2,7 @@
 id = "ref/arc-hunter/primal-companion-hunter"
 kind = "archetype"
 title = "Primal Companion Hunter"
+aon = "ArchetypeDisplay.aspx?FixedName=Hunter%20Primal%20Companion%20Hunter"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "primal_companion_hunter", path = "json/archetypes_hunter.json" },

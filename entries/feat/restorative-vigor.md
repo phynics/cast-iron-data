@@ -2,6 +2,7 @@
 id = "ref/feat/restorative-vigor"
 kind = "feat"
 title = "Restorative Vigor"
+aon = "FeatDisplay.aspx?ItemName=Restorative%20Vigor"
 source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "restorative_vigor", path = "json/feat13.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/bramble-throne"
 kind = "creature"
 title = "Bramble Throne"
+aon = "MonsterDisplay.aspx?ItemName=Bramble%20Throne"
 source_ids = ["pathfinder-132-the-six-legend-soul"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bramble_throne", path = "json/monsters04.json" },

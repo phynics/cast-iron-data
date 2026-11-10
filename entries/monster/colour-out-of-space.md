@@ -2,6 +2,7 @@
 id = "ref/monster/colour-out-of-space"
 kind = "creature"
 title = "Colour Out of Space"
+aon = "MonsterDisplay.aspx?ItemName=Colour%20Out%20of%20Space"
 source_ids = ["bestiary-4", "pathfinder-46-wake-of-the-watcher"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "colour_out_of_space", path = "json/monsters28.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/divine-deception"
 kind = "feat"
 title = "Divine Deception"
+aon = "FeatDisplay.aspx?ItemName=Divine%20Deception"
 source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divine_deception", path = "json/feat05.json" },

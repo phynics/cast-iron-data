@@ -2,6 +2,7 @@
 id = "ref/trait/black-powder-interjection"
 kind = "trait"
 title = "Black Powder Interjection"
+aon = "TraitDisplay.aspx?ItemName=Black%20Powder%20Interjection"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "black_powder_interjection", path = "json/traits01.json" },

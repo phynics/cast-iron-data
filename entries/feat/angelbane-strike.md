@@ -2,6 +2,7 @@
 id = "ref/feat/angelbane-strike"
 kind = "feat"
 title = "Angelbane Strike"
+aon = "FeatDisplay.aspx?ItemName=Angelbane%20Strike"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "angelbane_strike", path = "json/feat01.json" },

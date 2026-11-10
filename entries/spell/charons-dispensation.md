@@ -2,6 +2,7 @@
 id = "ref/spell/charons-dispensation"
 kind = "spell"
 title = "Charon's Dispensation"
+aon = "SpellDisplay.aspx?ItemName=Charon%27s%20Dispensation"
 source_ids = ["book-of-the-damned", "book-of-the-damned-volume-3-horsemen-of-the-apocalypse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charons_dispensation", path = "json/spells2.json" },

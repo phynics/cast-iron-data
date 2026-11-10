@@ -2,6 +2,7 @@
 id = "ref/spell/diminish-plants"
 kind = "spell"
 title = "Diminish Plants"
+aon = "SpellDisplay.aspx?ItemName=Diminish%20Plants"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "diminish_plants", path = "json/spells3.json" },

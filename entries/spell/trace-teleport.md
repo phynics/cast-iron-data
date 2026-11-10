@@ -2,6 +2,7 @@
 id = "ref/spell/trace-teleport"
 kind = "spell"
 title = "Trace Teleport"
+aon = "SpellDisplay.aspx?ItemName=Trace%20Teleport"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trace_teleport", path = "json/spells10.json" },

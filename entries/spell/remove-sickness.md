@@ -2,6 +2,7 @@
 id = "ref/spell/remove-sickness"
 kind = "spell"
 title = "Remove Sickness"
+aon = "SpellDisplay.aspx?ItemName=Remove%20Sickness"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "remove_sickness", path = "json/spells8.json" },

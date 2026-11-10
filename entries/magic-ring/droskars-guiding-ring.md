@@ -2,6 +2,7 @@
 id = "ref/magic-ring/droskars-guiding-ring"
 kind = "item"
 title = "Droskar's Guiding Ring"
+aon = "MagicRingsDisplay.aspx?FinalName=Droskar%27s%20Guiding%20Ring"
 source_ids = ["inner-sea-gods", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "droskars_guiding_ring", path = "json/magic_ring.json" },

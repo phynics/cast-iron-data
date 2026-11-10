@@ -2,6 +2,7 @@
 id = "ref/feat/bounding-hammer"
 kind = "feat"
 title = "Bounding Hammer"
+aon = "FeatDisplay.aspx?ItemName=Bounding%20Hammer"
 source_ids = ["dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bounding_hammer", path = "json/feat02.json" },

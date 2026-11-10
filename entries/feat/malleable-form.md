@@ -2,6 +2,7 @@
 id = "ref/feat/malleable-form"
 kind = "feat"
 title = "Malleable Form"
+aon = "FeatDisplay.aspx?ItemName=Malleable%20Form"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "malleable_form", path = "json/feat10.json" },

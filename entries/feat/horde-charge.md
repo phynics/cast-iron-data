@@ -2,6 +2,7 @@
 id = "ref/feat/horde-charge"
 kind = "feat"
 title = "Horde Charge"
+aon = "FeatDisplay.aspx?ItemName=Horde%20Charge"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horde_charge", path = "json/feat08.json" },

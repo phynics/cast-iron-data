@@ -2,6 +2,7 @@
 id = "ref/magic-ring/sigil-of-kraggodan"
 kind = "item"
 title = "Sigil of Kraggodan"
+aon = "MagicRingsDisplay.aspx?FinalName=Sigil%20of%20Kraggodan"
 source_ids = ["pathfinder-118-siege-of-stone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sigil_of_kraggodan", path = "json/magic_ring.json" },

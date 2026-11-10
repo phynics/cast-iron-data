@@ -2,6 +2,7 @@
 id = "ref/trait/lillends-harp"
 kind = "trait"
 title = "Lillend's Harp"
+aon = "TraitDisplay.aspx?ItemName=Lillend%27s%20Harp"
 source_ids = ["blood-of-angels"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lillends_harp", path = "json/traits05.json" },

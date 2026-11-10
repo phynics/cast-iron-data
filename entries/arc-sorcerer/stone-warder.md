@@ -2,6 +2,7 @@
 id = "ref/arc-sorcerer/stone-warder"
 kind = "archetype"
 title = "Stone Warder"
+aon = "ArchetypeDisplay.aspx?FixedName=Sorcerer%20Stone%20Warder"
 source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stone_warder", path = "json/archetypes_sorcerer.json" },

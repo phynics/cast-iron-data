@@ -2,6 +2,7 @@
 id = "ref/trait/best-friend"
 kind = "trait"
 title = "Best Friend"
+aon = "TraitDisplay.aspx?ItemName=Best%20Friend"
 source_ids = ["jade-regent-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "best_friend", path = "json/traits02.json" },

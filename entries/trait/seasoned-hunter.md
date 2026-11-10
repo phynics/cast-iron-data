@@ -2,6 +2,7 @@
 id = "ref/trait/seasoned-hunter"
 kind = "trait"
 title = "Seasoned Hunter"
+aon = "TraitDisplay.aspx?ItemName=Seasoned%20Hunter"
 source_ids = ["ruins-of-azlant-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seasoned_hunter", path = "json/traits02.json" },

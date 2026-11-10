@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/underground-chemist"
 kind = "archetype"
 title = "Underground Chemist"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Underground%20Chemist"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "underground_chemist", path = "json/archetypes_rogue.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/sacrificial-adept"
 kind = "feat"
 title = "Sacrificial Adept"
+aon = "FeatDisplay.aspx?ItemName=Sacrificial%20Adept"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sacrificial_adept", path = "json/feat13.json" },

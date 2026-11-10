@@ -2,6 +2,7 @@
 id = "ref/feat/ordered-mind"
 kind = "feat"
 title = "Ordered Mind"
+aon = "FeatDisplay.aspx?ItemName=Ordered%20Mind"
 source_ids = ["inner-sea-gods", "faiths-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ordered_mind", path = "json/feat11.json" },

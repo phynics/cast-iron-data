@@ -2,6 +2,7 @@
 id = "ref/spell/renovation"
 kind = "spell"
 title = "Renovation"
+aon = "SpellDisplay.aspx?ItemName=Renovation"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "renovation", path = "json/spells8.json" },

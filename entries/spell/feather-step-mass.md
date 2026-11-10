@@ -2,6 +2,7 @@
 id = "ref/spell/feather-step-mass"
 kind = "spell"
 title = "Mass Feather Step"
+aon = "SpellDisplay.aspx?ItemName=Feather%20Step%2C%20Mass"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "feather_step_mass", path = "json/spells4.json" },

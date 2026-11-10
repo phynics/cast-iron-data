@@ -2,6 +2,7 @@
 id = "ref/spell/suspend-drowning"
 kind = "spell"
 title = "Suspend Drowning"
+aon = "SpellDisplay.aspx?ItemName=Suspend%20Drowning"
 source_ids = ["blood-of-the-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "suspend_drowning", path = "json/spells10.json" },

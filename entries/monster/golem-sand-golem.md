@@ -2,6 +2,7 @@
 id = "ref/monster/golem-sand-golem"
 kind = "creature"
 title = "Sand Golem"
+aon = "MonsterDisplay.aspx?ItemName=Sand%20Golem"
 source_ids = ["construct-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_sand_golem", path = "json/monsters33.json" },

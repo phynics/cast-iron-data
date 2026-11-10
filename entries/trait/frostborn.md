@@ -2,6 +2,7 @@
 id = "ref/trait/frostborn"
 kind = "trait"
 title = "Frostborn"
+aon = "TraitDisplay.aspx?ItemName=Frostborn"
 source_ids = ["dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "frostborn", path = "json/traits04.json" },

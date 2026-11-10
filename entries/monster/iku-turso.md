@@ -2,6 +2,7 @@
 id = "ref/monster/iku-turso"
 kind = "creature"
 title = "Iku-Turso"
+aon = "MonsterDisplay.aspx?ItemName=Iku-Turso"
 source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "iku_turso", path = "json/monsters14.json" },

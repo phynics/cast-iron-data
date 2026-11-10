@@ -2,6 +2,7 @@
 id = "ref/feat/assisted-ascension"
 kind = "feat"
 title = "Assisted Ascension"
+aon = "FeatDisplay.aspx?ItemName=Assisted%20Ascension"
 source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "assisted_ascension", path = "json/feat01.json" },

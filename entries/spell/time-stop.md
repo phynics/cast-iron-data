@@ -2,6 +2,7 @@
 id = "ref/spell/time-stop"
 kind = "spell"
 title = "Time Stop"
+aon = "SpellDisplay.aspx?ItemName=Time%20Stop"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "time_stop", path = "json/spells10.json" },

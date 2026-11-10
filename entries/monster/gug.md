@@ -2,6 +2,7 @@
 id = "ref/monster/gug"
 kind = "creature"
 title = "Gug"
+aon = "MonsterDisplay.aspx?ItemName=Gug"
 source_ids = ["bestiary-2", "pathfinder-11-skeletons-of-scarwall", "darklands-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gug", path = "json/monsters13.json" },

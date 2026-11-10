@@ -2,6 +2,7 @@
 id = "ref/spell/instant-summons-greater"
 kind = "spell"
 title = "Greater Instant Summons"
+aon = "SpellDisplay.aspx?ItemName=Instant%20Summons%2C%20Greater"
 source_ids = ["core-rulebook", "ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "instant_summons_greater", path = "json/spells14.json" },

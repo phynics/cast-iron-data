@@ -2,6 +2,7 @@
 id = "ref/monster/cat-sith"
 kind = "creature"
 title = "Cat Sith"
+aon = "MonsterDisplay.aspx?ItemName=Cat%20Sith"
 source_ids = ["familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cat_sith", path = "json/monsters04.json" },

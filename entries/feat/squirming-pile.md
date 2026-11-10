@@ -2,6 +2,7 @@
 id = "ref/feat/squirming-pile"
 kind = "feat"
 title = "Squirming Pile"
+aon = "FeatDisplay.aspx?ItemName=Squirming%20Pile"
 source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "squirming_pile", path = "json/feat15.json" },

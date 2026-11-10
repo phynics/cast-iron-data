@@ -2,6 +2,7 @@
 id = "ref/spell/temporal-divergence"
 kind = "spell"
 title = "Temporal Divergence"
+aon = "SpellDisplay.aspx?ItemName=Temporal%20Divergence"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "temporal_divergence", path = "json/spells10.json" },

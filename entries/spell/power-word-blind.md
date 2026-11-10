@@ -2,6 +2,7 @@
 id = "ref/spell/power-word-blind"
 kind = "spell"
 title = "Power Word Blind"
+aon = "SpellDisplay.aspx?ItemName=Power%20Word%20Blind"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "power_word_blind", path = "json/spells14.json" },

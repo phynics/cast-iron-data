@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/warden"
 kind = "archetype"
 title = "Warden"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Warden"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "warden", path = "json/archetypes_ranger.json" },

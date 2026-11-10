@@ -2,6 +2,7 @@
 id = "ref/monster/courage-heart"
 kind = "creature"
 title = "Courage Heart"
+aon = "MonsterDisplay.aspx?ItemName=Courage%20Heart"
 source_ids = ["pathfinder-68-the-shackled-hut"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "courage_heart", path = "json/monsters_unique.json" },

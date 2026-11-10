@@ -2,6 +2,7 @@
 id = "ref/feat/venomous-spray"
 kind = "feat"
 title = "Venomous Spray"
+aon = "FeatDisplay.aspx?ItemName=Venomous%20Spray"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "venomous_spray", path = "json/feat17.json" },

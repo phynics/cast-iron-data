@@ -2,6 +2,7 @@
 id = "ref/monster/beetle-giant-stag-beetle"
 kind = "creature"
 title = "Giant Stag Beetle"
+aon = "MonsterDisplay.aspx?ItemName=Giant%20Stag%20Beetle"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beetle_giant_stag_beetle", path = "json/monsters03.json" },

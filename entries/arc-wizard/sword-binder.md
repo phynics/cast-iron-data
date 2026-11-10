@@ -2,6 +2,7 @@
 id = "ref/arc-wizard/sword-binder"
 kind = "archetype"
 title = "Sword Binder"
+aon = "ArchetypeDisplay.aspx?FixedName=Wizard%20Sword%20Binder"
 source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sword_binder", path = "json/archetypes_wizard.json" },

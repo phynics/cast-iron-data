@@ -2,6 +2,7 @@
 id = "ref/monster/vespergaunt"
 kind = "creature"
 title = "Vespergaunt"
+aon = "MonsterDisplay.aspx?ItemName=Vespergaunt"
 source_ids = ["bestiary-6", "inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vespergaunt", path = "json/monsters40.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/spell-focus"
 kind = "feat"
 title = "Spell Focus"
+aon = "FeatDisplay.aspx?ItemName=Spell%20Focus"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_focus", path = "json/feat14.json" },

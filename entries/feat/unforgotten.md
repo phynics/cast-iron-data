@@ -2,6 +2,7 @@
 id = "ref/feat/unforgotten"
 kind = "feat"
 title = "Unforgotten"
+aon = "FeatDisplay.aspx?ItemName=Unforgotten"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unforgotten", path = "json/feat16.json" },

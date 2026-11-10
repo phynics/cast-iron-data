@@ -2,6 +2,7 @@
 id = "ref/monster/roseling"
 kind = "creature"
 title = "Roseling"
+aon = "MonsterDisplay.aspx?ItemName=Roseling"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "roseling", path = "json/monsters38.json" },

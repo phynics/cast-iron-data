@@ -2,6 +2,7 @@
 id = "ref/monster/blackwisp-egret"
 kind = "creature"
 title = "Blackwisp Egret"
+aon = "MonsterDisplay.aspx?ItemName=Blackwisp%20Egret"
 source_ids = ["pathfinder-91-battle-of-bloodmarch-hills"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blackwisp_egret", path = "json/monsters03.json" },

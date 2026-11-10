@@ -2,6 +2,7 @@
 id = "ref/feat/unimpeachable-honor"
 kind = "feat"
 title = "Unimpeachable Honor"
+aon = "FeatDisplay.aspx?ItemName=Unimpeachable%20Honor"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unimpeachable_honor", path = "json/feat16.json" },

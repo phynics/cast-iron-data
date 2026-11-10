@@ -2,6 +2,7 @@
 id = "ref/monster/vampire-vampire-warrior"
 kind = "creature"
 title = "Vampire Warrior"
+aon = "MonsterDisplay.aspx?ItemName=Vampire%20Warrior"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vampire_vampire_warrior", path = "json/monsters24.json" },

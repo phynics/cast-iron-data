@@ -2,6 +2,7 @@
 id = "ref/spell/flaming-sphere-greater"
 kind = "spell"
 title = "Greater Flaming Sphere"
+aon = "SpellDisplay.aspx?ItemName=Flaming%20Sphere%2C%20Greater"
 source_ids = ["core-rulebook", "advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flaming_sphere_greater", path = "json/spells4.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/black-blood-heritage"
 kind = "trait"
 title = "Black Blood Heritage"
+aon = "TraitDisplay.aspx?ItemName=Black%20Blood%20Heritage"
 source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "black_blood_heritage", path = "json/traits02.json" },

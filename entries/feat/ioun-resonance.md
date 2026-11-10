@@ -2,6 +2,7 @@
 id = "ref/feat/ioun-resonance"
 kind = "feat"
 title = "Ioun Resonance"
+aon = "FeatDisplay.aspx?ItemName=Ioun%20Resonance"
 source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ioun_resonance", path = "json/feat09.json" },

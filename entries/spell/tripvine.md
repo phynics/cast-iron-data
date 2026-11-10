@@ -2,6 +2,7 @@
 id = "ref/spell/tripvine"
 kind = "spell"
 title = "Tripvine"
+aon = "SpellDisplay.aspx?ItemName=Tripvine"
 source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tripvine", path = "json/spells10.json" },

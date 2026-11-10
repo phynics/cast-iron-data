@@ -2,6 +2,7 @@
 id = "ref/spell/delectable-flesh"
 kind = "spell"
 title = "Delectable Flesh"
+aon = "SpellDisplay.aspx?ItemName=Delectable%20Flesh"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "delectable_flesh", path = "json/spells3.json" },

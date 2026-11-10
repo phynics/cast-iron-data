@@ -2,6 +2,7 @@
 id = "ref/arc-druid/menhir-savant"
 kind = "archetype"
 title = "Menhir Savant"
+aon = "ArchetypeDisplay.aspx?FixedName=Druid%20Menhir%20Savant"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "menhir_savant", path = "json/archetypes_druid.json" },

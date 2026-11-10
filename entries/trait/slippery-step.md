@@ -2,6 +2,7 @@
 id = "ref/trait/slippery-step"
 kind = "trait"
 title = "Slippery Step"
+aon = "TraitDisplay.aspx?ItemName=Slippery%20Step"
 source_ids = ["people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slippery_step", path = "json/traits05.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/unbalancing-blow"
 kind = "feat"
 title = "Unbalancing Blow"
+aon = "FeatDisplay.aspx?ItemName=Unbalancing%20Blow"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unbalancing_blow", path = "json/feat16.json" },

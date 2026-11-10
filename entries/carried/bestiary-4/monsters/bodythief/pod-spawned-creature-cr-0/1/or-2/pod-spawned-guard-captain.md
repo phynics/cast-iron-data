@@ -2,6 +2,7 @@
 id = "ref/carried/bestiary-4/monsters/bodythief/pod-spawned-creature-cr-0/1/or-2/pod-spawned-guard-captain"
 kind = "creature"
 title = "Pod-Spawned Guard Captain"
+aon = "MonsterDisplay.aspx?ItemName=Pod-Spawned%20Guard%20Captain"
 source_ids = ["bestiary-4"]
 section = ["Monsters", "Bodythief", "Pod-Spawned Creature (CR 0", "–1", "or –2)"]
 tags = ["plant", "augmented humanoid", "medium"]

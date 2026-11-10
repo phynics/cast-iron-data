@@ -2,6 +2,7 @@
 id = "ref/trait/carefully-hidden"
 kind = "trait"
 title = "Carefully Hidden"
+aon = "TraitDisplay.aspx?ItemName=Carefully%20Hidden"
 source_ids = ["taldor-echoes-of-glory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "carefully_hidden", path = "json/traits05.json" },

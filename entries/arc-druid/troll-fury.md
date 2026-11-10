@@ -2,6 +2,7 @@
 id = "ref/arc-druid/troll-fury"
 kind = "archetype"
 title = "Troll Fury"
+aon = "ArchetypeDisplay.aspx?FixedName=Druid%20Troll%20Fury"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "troll_fury", path = "json/archetypes_druid2.json" },

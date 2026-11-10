@@ -2,6 +2,7 @@
 id = "ref/spell/obsidian-flow"
 kind = "spell"
 title = "Obsidian Flow"
+aon = "SpellDisplay.aspx?ItemName=Obsidian%20Flow"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "obsidian_flow", path = "json/spells7.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/greater-spell-penetration"
 kind = "feat"
 title = "Greater Spell Penetration"
+aon = "FeatDisplay.aspx?ItemName=Greater%20Spell%20Penetration"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_spell_penetration", path = "json/feat08.json" },

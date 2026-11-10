@@ -2,6 +2,7 @@
 id = "ref/feat/merciful-bane"
 kind = "feat"
 title = "Merciful Bane"
+aon = "FeatDisplay.aspx?ItemName=Merciful%20Bane"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "merciful_bane", path = "json/feat10.json" },

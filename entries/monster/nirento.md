@@ -2,6 +2,7 @@
 id = "ref/monster/nirento"
 kind = "creature"
 title = "Nirento"
+aon = "MonsterDisplay.aspx?ItemName=Nirento"
 source_ids = ["isles-of-the-shackles"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nirento", path = "json/monsters36.json" },

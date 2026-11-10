@@ -2,6 +2,7 @@
 id = "ref/feat/marksmans-utility"
 kind = "feat"
 title = "Marksman's Utility"
+aon = "FeatDisplay.aspx?ItemName=Marksman%27s%20Utility"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "marksmans_utility", path = "json/feat10.json" },

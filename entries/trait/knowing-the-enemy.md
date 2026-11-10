@@ -2,6 +2,7 @@
 id = "ref/trait/knowing-the-enemy"
 kind = "trait"
 title = "Knowing the Enemy"
+aon = "TraitDisplay.aspx?ItemName=Knowing%20the%20Enemy"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "knowing_the_enemy", path = "json/traits01.json" },

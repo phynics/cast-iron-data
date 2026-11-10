@@ -2,6 +2,7 @@
 id = "ref/trait/obsequious-morsel"
 kind = "trait"
 title = "Obsequious Morsel"
+aon = "TraitDisplay.aspx?ItemName=Obsequious%20Morsel"
 source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "obsequious_morsel", path = "json/traits04.json" },

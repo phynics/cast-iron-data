@@ -2,6 +2,7 @@
 id = "ref/trait/gnoll-killer"
 kind = "trait"
 title = "Gnoll Killer"
+aon = "TraitDisplay.aspx?ItemName=Gnoll%20Killer"
 source_ids = ["legacy-of-fire-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gnoll_killer", path = "json/traits02.json" },

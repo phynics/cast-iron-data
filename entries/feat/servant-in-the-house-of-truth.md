@@ -2,6 +2,7 @@
 id = "ref/feat/servant-in-the-house-of-truth"
 kind = "feat"
 title = "Servant in the House of Truth"
+aon = "FeatDisplay.aspx?ItemName=Servant%20in%20the%20House%20of%20Truth"
 source_ids = ["pathfinder-139-the-dead-road"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "servant_in_the_house_of_truth", path = "json/feat13.json" },

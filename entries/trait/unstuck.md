@@ -2,6 +2,7 @@
 id = "ref/trait/unstuck"
 kind = "trait"
 title = "Unstuck"
+aon = "TraitDisplay.aspx?ItemName=Unstuck"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unstuck", path = "json/traits04.json" },

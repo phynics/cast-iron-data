@@ -2,6 +2,7 @@
 id = "ref/trait/scion-of-the-shory"
 kind = "trait"
 title = "Scion of the Shory"
+aon = "TraitDisplay.aspx?ItemName=Scion%20of%20the%20Shory"
 source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scion_of_the_shory", path = "json/traits04.json" },

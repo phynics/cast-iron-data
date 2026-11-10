@@ -2,6 +2,7 @@
 id = "ref/spell/gravity-bow"
 kind = "spell"
 title = "Gravity Bow"
+aon = "SpellDisplay.aspx?ItemName=Gravity%20Bow"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gravity_bow", path = "json/spells5.json" },

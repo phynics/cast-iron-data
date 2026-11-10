@@ -2,6 +2,7 @@
 id = "ref/spell/detect-radiation"
 kind = "spell"
 title = "Detect Radiation"
+aon = "SpellDisplay.aspx?ItemName=Detect%20Radiation"
 source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "detect_radiation", path = "json/spells3.json" },

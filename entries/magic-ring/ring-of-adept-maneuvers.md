@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-adept-maneuvers"
 kind = "item"
 title = "Ring of Adept Maneuvers"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Adept%20Maneuvers"
 source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_adept_maneuvers", path = "json/magic_ring.json" },

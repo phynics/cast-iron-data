@@ -2,6 +2,7 @@
 id = "ref/spell/fleeting-memory-mass"
 kind = "spell"
 title = "Mass Fleeting Memory"
+aon = "SpellDisplay.aspx?ItemName=Fleeting%20Memory%2C%20Mass"
 source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fleeting_memory_mass", path = "json/spells4.json" },

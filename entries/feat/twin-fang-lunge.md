@@ -2,6 +2,7 @@
 id = "ref/feat/twin-fang-lunge"
 kind = "feat"
 title = "Twin Fang Lunge"
+aon = "FeatDisplay.aspx?ItemName=Twin%20Fang%20Lunge"
 source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "twin_fang_lunge", path = "json/feat16.json" },

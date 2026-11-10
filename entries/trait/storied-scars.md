@@ -2,6 +2,7 @@
 id = "ref/trait/storied-scars"
 kind = "trait"
 title = "Storied Scars"
+aon = "TraitDisplay.aspx?ItemName=Storied%20Scars"
 source_ids = ["people-of-the-north"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "storied_scars", path = "json/traits05.json" },

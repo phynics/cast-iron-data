@@ -2,6 +2,7 @@
 id = "ref/feat/craft-wondrous-item"
 kind = "feat"
 title = "Craft Wondrous Item"
+aon = "FeatDisplay.aspx?ItemName=Craft%20Wondrous%20Item"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "craft_wondrous_item", path = "json/feat03.json" },

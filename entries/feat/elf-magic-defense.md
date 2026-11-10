@@ -2,6 +2,7 @@
 id = "ref/feat/elf-magic-defense"
 kind = "feat"
 title = "Elf-Magic Defense"
+aon = "FeatDisplay.aspx?ItemName=Elf-Magic%20Defense"
 source_ids = ["pathfinder-115-trail-of-the-hunted"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elf_magic_defense", path = "json/feat05.json" },

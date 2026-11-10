@@ -2,6 +2,7 @@
 id = "ref/feat/sacrificial-ritualist"
 kind = "feat"
 title = "Sacrificial Ritualist"
+aon = "FeatDisplay.aspx?ItemName=Sacrificial%20Ritualist"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sacrificial_ritualist", path = "json/feat13.json" },

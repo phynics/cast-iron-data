@@ -2,6 +2,7 @@
 id = "ref/feat/elephant-stomp"
 kind = "feat"
 title = "Elephant Stomp"
+aon = "FeatDisplay.aspx?ItemName=Elephant%20Stomp"
 source_ids = ["sargava-the-lost-colony"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elephant_stomp", path = "json/feat05.json" },

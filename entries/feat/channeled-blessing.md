@@ -2,6 +2,7 @@
 id = "ref/feat/channeled-blessing"
 kind = "feat"
 title = "Channeled Blessing"
+aon = "FeatDisplay.aspx?ItemName=Channeled%20Blessing"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "channeled_blessing", path = "json/feat03.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/adept-channel"
 kind = "feat"
 title = "Adept Channel"
+aon = "FeatDisplay.aspx?ItemName=Adept%20Channel"
 source_ids = ["orcs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "adept_channel", path = "json/feat01.json" },

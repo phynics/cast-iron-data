@@ -2,6 +2,7 @@
 id = "ref/feat/suppress-blight"
 kind = "feat"
 title = "Suppress Blight"
+aon = "FeatDisplay.aspx?ItemName=Suppress%20Blight"
 source_ids = ["pathfinder-119-prisoners-of-the-blight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "suppress_blight", path = "json/feat15.json" },

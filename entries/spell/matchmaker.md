@@ -2,6 +2,7 @@
 id = "ref/spell/matchmaker"
 kind = "spell"
 title = "Matchmaker"
+aon = "SpellDisplay.aspx?ItemName=Matchmaker"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "matchmaker", path = "json/spells14.json" },

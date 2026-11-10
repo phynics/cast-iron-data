@@ -2,6 +2,7 @@
 id = "ref/trait/educated-druggist"
 kind = "trait"
 title = "Educated Druggist"
+aon = "TraitDisplay.aspx?ItemName=Educated%20Druggist"
 source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "educated_druggist", path = "json/traits04.json" },

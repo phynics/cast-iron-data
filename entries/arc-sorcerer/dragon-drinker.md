@@ -2,6 +2,7 @@
 id = "ref/arc-sorcerer/dragon-drinker"
 kind = "archetype"
 title = "Dragon Drinker"
+aon = "ArchetypeDisplay.aspx?FixedName=Sorcerer%20Dragon%20Drinker"
 source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_drinker", path = "json/archetypes_sorcerer.json" },

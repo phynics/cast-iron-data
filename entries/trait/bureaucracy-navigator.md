@@ -2,6 +2,7 @@
 id = "ref/trait/bureaucracy-navigator"
 kind = "trait"
 title = "Bureaucracy Navigator"
+aon = "TraitDisplay.aspx?ItemName=Bureaucracy%20Navigator"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bureaucracy_navigator", path = "json/traits05.json" },

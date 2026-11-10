@@ -2,6 +2,7 @@
 id = "ref/feat/explorer"
 kind = "feat"
 title = "Explorer"
+aon = "FeatDisplay.aspx?ItemName=Explorer"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "explorer", path = "json/feat06.json" },

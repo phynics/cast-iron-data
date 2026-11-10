@@ -2,6 +2,7 @@
 id = "ref/feat/gray-dwarf-magic"
 kind = "feat"
 title = "Gray Dwarf Magic"
+aon = "FeatDisplay.aspx?ItemName=Gray%20Dwarf%20Magic"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gray_dwarf_magic", path = "json/feat07.json" },

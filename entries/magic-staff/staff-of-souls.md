@@ -2,6 +2,7 @@
 id = "ref/magic-staff/staff-of-souls"
 kind = "item"
 title = "Staff of Souls"
+aon = "MagicStavesDisplay.aspx?ItemName=Staff%20of%20Souls"
 source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_souls", path = "json/magic_staff.json" },

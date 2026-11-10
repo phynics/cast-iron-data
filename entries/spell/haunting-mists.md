@@ -2,6 +2,7 @@
 id = "ref/spell/haunting-mists"
 kind = "spell"
 title = "Haunting Mists"
+aon = "SpellDisplay.aspx?ItemName=Haunting%20Mists"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "haunting_mists", path = "json/spells5.json" },

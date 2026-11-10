@@ -2,6 +2,7 @@
 id = "ref/arc-druid/toxicologist"
 kind = "archetype"
 title = "Toxicologist"
+aon = "ArchetypeDisplay.aspx?FixedName=Druid%20Toxicologist"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "toxicologist", path = "json/archetypes_druid2.json" },

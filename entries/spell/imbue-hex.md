@@ -2,6 +2,7 @@
 id = "ref/spell/imbue-hex"
 kind = "spell"
 title = "Imbue Hex"
+aon = "SpellDisplay.aspx?ItemName=Imbue%20Hex"
 source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "imbue_hex", path = "json/spells14.json" },

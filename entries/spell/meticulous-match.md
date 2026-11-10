@@ -2,6 +2,7 @@
 id = "ref/spell/meticulous-match"
 kind = "spell"
 title = "Meticulous Match"
+aon = "SpellDisplay.aspx?ItemName=Meticulous%20Match"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "meticulous_match", path = "json/spells14.json" },

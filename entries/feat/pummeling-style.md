@@ -2,6 +2,7 @@
 id = "ref/feat/pummeling-style"
 kind = "feat"
 title = "Pummeling Style"
+aon = "FeatDisplay.aspx?ItemName=Pummeling%20Style"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pummeling_style", path = "json/feat12.json" },

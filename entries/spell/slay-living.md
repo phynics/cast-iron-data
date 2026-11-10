@@ -2,6 +2,7 @@
 id = "ref/spell/slay-living"
 kind = "spell"
 title = "Slay Living"
+aon = "SpellDisplay.aspx?ItemName=Slay%20Living"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slay_living", path = "json/spells9.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/resounding-clang"
 kind = "spell"
 title = "Resounding Clang"
+aon = "SpellDisplay.aspx?ItemName=Resounding%20Clang"
 source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "resounding_clang", path = "json/spells8.json" },

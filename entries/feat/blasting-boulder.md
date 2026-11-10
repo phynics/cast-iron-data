@@ -2,6 +2,7 @@
 id = "ref/feat/blasting-boulder"
 kind = "feat"
 title = "Blasting Boulder"
+aon = "FeatDisplay.aspx?ItemName=Blasting%20Boulder"
 source_ids = ["giants-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blasting_boulder", path = "json/feat02.json" },

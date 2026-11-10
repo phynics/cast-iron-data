@@ -2,6 +2,7 @@
 id = "ref/trait/reclaiming-your-roots"
 kind = "trait"
 title = "Reclaiming your Roots"
+aon = "TraitDisplay.aspx?ItemName=Reclaiming%20your%20Roots"
 source_ids = ["legacy-of-fire-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reclaiming_your_roots", path = "json/traits02.json" },

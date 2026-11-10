@@ -2,6 +2,7 @@
 id = "ref/arc-psychic/formless-adept"
 kind = "archetype"
 title = "Formless Adept"
+aon = "ArchetypeDisplay.aspx?FixedName=Psychic%20Formless%20Adept"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "formless_adept", path = "json/archetypes_psychic.json" },

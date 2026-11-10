@@ -2,6 +2,7 @@
 id = "ref/spell/stench-of-prey"
 kind = "spell"
 title = "Stench of Prey"
+aon = "SpellDisplay.aspx?ItemName=Stench%20of%20Prey"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stench_of_prey", path = "json/spells9.json" },

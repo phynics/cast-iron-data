@@ -2,6 +2,7 @@
 id = "ref/feat/fast-crawl"
 kind = "feat"
 title = "Fast Crawl"
+aon = "FeatDisplay.aspx?ItemName=Fast%20Crawl"
 source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fast_crawl", path = "json/feat06.json" },

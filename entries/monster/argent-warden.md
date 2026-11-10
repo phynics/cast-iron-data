@@ -2,6 +2,7 @@
 id = "ref/monster/argent-warden"
 kind = "creature"
 title = "Argent Warden"
+aon = "MonsterDisplay.aspx?ItemName=Argent%20Warden"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "argent_warden", path = "json/monsters02.json" },

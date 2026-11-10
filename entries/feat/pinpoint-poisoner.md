@@ -2,6 +2,7 @@
 id = "ref/feat/pinpoint-poisoner"
 kind = "feat"
 title = "Pinpoint Poisoner"
+aon = "FeatDisplay.aspx?ItemName=Pinpoint%20Poisoner"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pinpoint_poisoner", path = "json/feat12.json" },

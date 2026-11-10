@@ -2,6 +2,7 @@
 id = "ref/trait/ooze-defense"
 kind = "trait"
 title = "Ooze Defense"
+aon = "TraitDisplay.aspx?ItemName=Ooze%20Defense"
 source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ooze_defense", path = "json/traits05.json" },

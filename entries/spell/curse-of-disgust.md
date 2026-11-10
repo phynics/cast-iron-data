@@ -2,6 +2,7 @@
 id = "ref/spell/curse-of-disgust"
 kind = "spell"
 title = "Curse of Disgust"
+aon = "SpellDisplay.aspx?ItemName=Curse%20of%20Disgust"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "curse_of_disgust", path = "json/spells3.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/unfettered-rage"
 kind = "feat"
 title = "Unfettered Rage"
+aon = "FeatDisplay.aspx?ItemName=Unfettered%20Rage"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unfettered_rage", path = "json/feat16.json" },

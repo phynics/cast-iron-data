@@ -2,6 +2,7 @@
 id = "ref/spell/command-plants"
 kind = "spell"
 title = "Command Plants"
+aon = "SpellDisplay.aspx?ItemName=Command%20Plants"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "command_plants", path = "json/spells12.json" },

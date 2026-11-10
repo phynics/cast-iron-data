@@ -2,6 +2,7 @@
 id = "ref/feat/far-roaming-familiar"
 kind = "feat"
 title = "Far-Roaming Familiar"
+aon = "FeatDisplay.aspx?ItemName=Far-Roaming%20Familiar"
 source_ids = ["familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "far_roaming_familiar", path = "json/feat06.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/verdurous-ooze"
 kind = "creature"
 title = "Verdurous Ooze"
+aon = "MonsterDisplay.aspx?ItemName=Verdurous%20Ooze"
 source_ids = ["pathfinder-35-war-of-the-river-kings"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "verdurous_ooze", path = "json/monsters40.json" },

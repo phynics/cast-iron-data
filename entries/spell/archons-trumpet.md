@@ -2,6 +2,7 @@
 id = "ref/spell/archons-trumpet"
 kind = "spell"
 title = "Archon's Trumpet"
+aon = "SpellDisplay.aspx?ItemName=Archon%27s%20Trumpet"
 source_ids = ["champions-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "archons_trumpet", path = "json/spells.json" },

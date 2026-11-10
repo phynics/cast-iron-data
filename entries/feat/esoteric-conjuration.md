@@ -2,6 +2,7 @@
 id = "ref/feat/esoteric-conjuration"
 kind = "feat"
 title = "Esoteric Conjuration"
+aon = "FeatDisplay.aspx?ItemName=Esoteric%20Conjuration"
 source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "esoteric_conjuration", path = "json/feat06.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/stolen-fury"
 kind = "trait"
 title = "Stolen Fury"
+aon = "TraitDisplay.aspx?ItemName=Stolen%20Fury"
 source_ids = ["wrath-of-the-righteous-players-guide", "demon-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stolen_fury", path = "json/traits03.json" },

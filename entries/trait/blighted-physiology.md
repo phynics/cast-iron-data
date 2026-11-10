@@ -2,6 +2,7 @@
 id = "ref/trait/blighted-physiology"
 kind = "trait"
 title = "Blighted Physiology"
+aon = "TraitDisplay.aspx?ItemName=Blighted%20Physiology"
 source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blighted_physiology", path = "json/traits04.json" },

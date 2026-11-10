@@ -2,6 +2,7 @@
 id = "ref/pclass/ulfen-guard"
 kind = "prestige_class"
 title = "Ulfen Guard"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Ulfen%20Guard"
 source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ulfen_guard", path = "json/prestige_classes4.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/commune-with-birds"
 kind = "spell"
 title = "Commune with Birds"
+aon = "SpellDisplay.aspx?ItemName=Commune%20with%20Birds"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "commune_with_birds", path = "json/spells12.json" },

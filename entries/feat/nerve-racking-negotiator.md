@@ -2,6 +2,7 @@
 id = "ref/feat/nerve-racking-negotiator"
 kind = "feat"
 title = "Nerve-Racking Negotiator"
+aon = "FeatDisplay.aspx?ItemName=Nerve-Racking%20Negotiator"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nerve_racking_negotiator", path = "json/feat11.json" },

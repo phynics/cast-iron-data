@@ -2,6 +2,7 @@
 id = "ref/feat/shrug-on"
 kind = "feat"
 title = "Shrug On"
+aon = "FeatDisplay.aspx?ItemName=Shrug%20On"
 source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shrug_on", path = "json/feat14.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-barbarian/sea-reaver"
 kind = "archetype"
 title = "Sea Reaver"
+aon = "ArchetypeDisplay.aspx?FixedName=Barbarian%20Sea%20Reaver"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sea_reaver", path = "json/archetypes_barbarian.json" },

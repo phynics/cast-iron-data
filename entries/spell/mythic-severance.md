@@ -2,6 +2,7 @@
 id = "ref/spell/mythic-severance"
 kind = "spell"
 title = "Mythic Severance"
+aon = "SpellDisplay.aspx?ItemName=Mythic%20Severance"
 source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mythic_severance", path = "json/spells7.json" },

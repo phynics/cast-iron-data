@@ -2,6 +2,7 @@
 id = "ref/trait/trickster-vanara"
 kind = "trait"
 title = "Trickster (Vanara)"
+aon = "TraitDisplay.aspx?ItemName=Trickster%20%28Vanara%29"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trickster_vanara", path = "json/traits05.json" },

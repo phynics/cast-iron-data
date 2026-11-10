@@ -2,6 +2,7 @@
 id = "ref/spell/adjustable-disguise"
 kind = "spell"
 title = "Adjustable Disguise"
+aon = "SpellDisplay.aspx?ItemName=Adjustable%20Disguise"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "adjustable_disguise", path = "json/spells.json" },

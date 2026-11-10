@@ -2,6 +2,7 @@
 id = "ref/pclass/steel-falcon"
 kind = "prestige_class"
 title = "Steel Falcon"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Steel%20Falcon"
 source_ids = ["adventurers-guide", "andoran-spirit-of-liberty"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "steel_falcon", path = "json/prestige_classes3.json" },

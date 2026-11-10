@@ -2,6 +2,7 @@
 id = "ref/spell/spellcrash-lesser"
 kind = "spell"
 title = "Lesser Spellcrash"
+aon = "SpellDisplay.aspx?ItemName=Spellcrash%2C%20Lesser"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spellcrash_lesser", path = "json/spells9.json" },

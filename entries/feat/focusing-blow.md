@@ -2,6 +2,7 @@
 id = "ref/feat/focusing-blow"
 kind = "feat"
 title = "Focusing Blow"
+aon = "FeatDisplay.aspx?ItemName=Focusing%20Blow"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "focusing_blow", path = "json/feat07.json" },

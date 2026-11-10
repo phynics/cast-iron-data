@@ -2,6 +2,7 @@
 id = "ref/trait/mindlessly-cruel"
 kind = "trait"
 title = "Mindlessly Cruel"
+aon = "TraitDisplay.aspx?ItemName=Mindlessly%20Cruel"
 source_ids = ["orcs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mindlessly_cruel", path = "json/traits05.json" },

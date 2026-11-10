@@ -2,6 +2,7 @@
 id = "ref/spell/torrent-of-elemental-rage"
 kind = "spell"
 title = "Torrent of Elemental Rage"
+aon = "SpellDisplay.aspx?ItemName=Torrent%20of%20Elemental%20Rage"
 source_ids = ["pathfinder-24-the-final-wish"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "torrent_of_elemental_rage", path = "json/spells10.json" },

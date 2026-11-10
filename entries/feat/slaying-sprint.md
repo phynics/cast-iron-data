@@ -2,6 +2,7 @@
 id = "ref/feat/slaying-sprint"
 kind = "feat"
 title = "Slaying Sprint"
+aon = "FeatDisplay.aspx?ItemName=Slaying%20Sprint"
 source_ids = ["rival-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slaying_sprint", path = "json/feat14.json" },

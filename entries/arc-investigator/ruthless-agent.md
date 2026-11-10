@@ -2,6 +2,7 @@
 id = "ref/arc-investigator/ruthless-agent"
 kind = "archetype"
 title = "Ruthless Agent"
+aon = "ArchetypeDisplay.aspx?FixedName=Investigator%20Ruthless%20Agent"
 source_ids = ["antiheros-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ruthless_agent", path = "json/archetypes_investigator.json" },

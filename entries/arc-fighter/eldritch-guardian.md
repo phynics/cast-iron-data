@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/eldritch-guardian"
 kind = "archetype"
 title = "Eldritch Guardian"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Eldritch%20Guardian"
 source_ids = ["familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eldritch_guardian", path = "json/archetypes_fighter.json" },

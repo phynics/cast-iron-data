@@ -2,6 +2,7 @@
 id = "ref/feat/weapon-specialization/teitr"
 kind = "feat"
 title = "Weapon Specialization"
+aon = "FeatDisplay.aspx?ItemName=Weapon%20Specialization"
 source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/weapon-specialization" },

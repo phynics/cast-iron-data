@@ -2,6 +2,7 @@
 id = "ref/feat/intimidating-glance"
 kind = "feat"
 title = "Intimidating Glance"
+aon = "FeatDisplay.aspx?ItemName=Intimidating%20Glance"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "intimidating_glance", path = "json/feat09.json" },

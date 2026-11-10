@@ -2,6 +2,7 @@
 id = "ref/trait/priest-blessed"
 kind = "trait"
 title = "Priest-Blessed"
+aon = "TraitDisplay.aspx?ItemName=Priest-Blessed"
 source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "priest_blessed", path = "json/traits01.json" },

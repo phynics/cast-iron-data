@@ -2,6 +2,7 @@
 id = "ref/spell/know-peerage"
 kind = "spell"
 title = "Know Peerage"
+aon = "SpellDisplay.aspx?ItemName=Know%20Peerage"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "know_peerage", path = "json/spells6.json" },

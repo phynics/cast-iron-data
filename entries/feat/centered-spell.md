@@ -2,6 +2,7 @@
 id = "ref/feat/centered-spell"
 kind = "feat"
 title = "Centered Spell"
+aon = "FeatDisplay.aspx?ItemName=Centered%20Spell"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "centered_spell", path = "json/feat02.json" },

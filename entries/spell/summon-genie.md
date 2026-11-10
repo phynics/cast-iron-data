@@ -2,6 +2,7 @@
 id = "ref/spell/summon-genie"
 kind = "spell"
 title = "Summon Genie"
+aon = "SpellDisplay.aspx?ItemName=Summon%20Genie"
 source_ids = ["people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summon_genie", path = "json/spells16.json" },

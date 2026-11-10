@@ -2,6 +2,7 @@
 id = "ref/monster/rust-risen"
 kind = "creature"
 title = "Rust-Risen"
+aon = "MonsterDisplay.aspx?ItemName=Rust-Risen"
 source_ids = ["pathfinder-86-lords-of-rust"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rust_risen", path = "json/monsters37.json" },

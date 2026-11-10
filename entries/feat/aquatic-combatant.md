@@ -2,6 +2,7 @@
 id = "ref/feat/aquatic-combatant"
 kind = "feat"
 title = "Aquatic Combatant"
+aon = "FeatDisplay.aspx?ItemName=Aquatic%20Combatant"
 source_ids = ["ultimate-wilderness", "melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aquatic_combatant", path = "json/feat01.json" },

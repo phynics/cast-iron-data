@@ -2,6 +2,7 @@
 id = "ref/feat/storm-breaker"
 kind = "feat"
 title = "Storm Breaker"
+aon = "FeatDisplay.aspx?ItemName=Storm%20Breaker"
 source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "storm_breaker", path = "json/feat15.json" },

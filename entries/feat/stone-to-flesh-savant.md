@@ -2,6 +2,7 @@
 id = "ref/feat/stone-to-flesh-savant"
 kind = "feat"
 title = "Stone to Flesh Savant"
+aon = "FeatDisplay.aspx?ItemName=Stone%20to%20Flesh%20Savant"
 source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stone_to_flesh_savant", path = "json/feat15.json" },

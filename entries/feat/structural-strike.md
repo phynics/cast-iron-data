@@ -2,6 +2,7 @@
 id = "ref/feat/structural-strike"
 kind = "feat"
 title = "Structural Strike"
+aon = "FeatDisplay.aspx?ItemName=Structural%20Strike"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "structural_strike", path = "json/feat15.json" },

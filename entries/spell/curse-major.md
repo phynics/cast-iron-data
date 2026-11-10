@@ -2,6 +2,7 @@
 id = "ref/spell/curse-major"
 kind = "spell"
 title = "Major Curse"
+aon = "SpellDisplay.aspx?ItemName=Curse%2C%20Major"
 source_ids = ["core-rulebook", "pathfinder-82-secrets-of-the-sphinx", "ultimate-intrigue", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "curse_major", path = "json/spells12.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/sneaky-vagabond"
 kind = "feat"
 title = "Sneaky Vagabond"
+aon = "FeatDisplay.aspx?ItemName=Sneaky%20Vagabond"
 source_ids = ["taldor-echoes-of-glory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sneaky_vagabond", path = "json/feat14.json" },

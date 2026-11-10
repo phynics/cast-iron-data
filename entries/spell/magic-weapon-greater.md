@@ -2,6 +2,7 @@
 id = "ref/spell/magic-weapon-greater"
 kind = "spell"
 title = "Greater Magic Weapon"
+aon = "SpellDisplay.aspx?ItemName=magic%20weapon%2C%20greater"
 source_ids = ["core-rulebook", "mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_weapon_greater", path = "json/spells6.json" },

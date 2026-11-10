@@ -2,6 +2,7 @@
 id = "ref/carried/bestiary-4/monsters/lycanthrope/wereshark/wereshark-hybrid-form"
 kind = "creature"
 title = "Wereshark (Hybrid Form)"
+aon = "MonsterDisplay.aspx?ItemName=Wereshark%20%28Hybrid%20Form%29"
 source_ids = ["bestiary-4"]
 section = ["Monsters", "Lycanthrope", "Wereshark"]
 tags = ["humanoid", "human", "shapechanger", "medium"]

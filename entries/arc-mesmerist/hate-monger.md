@@ -2,6 +2,7 @@
 id = "ref/arc-mesmerist/hate-monger"
 kind = "archetype"
 title = "Hate-Monger"
+aon = "ArchetypeDisplay.aspx?FixedName=Mesmerist%20Hate-Monger"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hate_monger", path = "json/archetypes_mesmerist.json" },

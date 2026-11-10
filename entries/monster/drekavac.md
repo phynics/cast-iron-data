@@ -2,6 +2,7 @@
 id = "ref/monster/drekavac"
 kind = "creature"
 title = "Drekavac"
+aon = "MonsterDisplay.aspx?ItemName=Drekavac"
 source_ids = ["pathfinder-31-stolen-land"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drekavac", path = "json/monsters07.json" },

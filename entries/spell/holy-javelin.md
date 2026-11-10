@@ -2,6 +2,7 @@
 id = "ref/spell/holy-javelin"
 kind = "spell"
 title = "Holy Javelin"
+aon = "SpellDisplay.aspx?ItemName=Holy%20Javelin"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "holy_javelin", path = "json/spells5.json" },

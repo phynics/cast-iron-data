@@ -2,6 +2,7 @@
 id = "ref/feat/shatter-control"
 kind = "feat"
 title = "Shatter Control"
+aon = "FeatDisplay.aspx?ItemName=Shatter%20Control"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shatter_control", path = "json/feat14.json" },

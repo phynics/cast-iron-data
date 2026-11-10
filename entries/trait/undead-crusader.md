@@ -2,6 +2,7 @@
 id = "ref/trait/undead-crusader"
 kind = "trait"
 title = "Undead Crusader"
+aon = "TraitDisplay.aspx?ItemName=Undead%20Crusader"
 source_ids = ["mummys-mask-players-guide", "people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "undead_crusader", path = "json/traits02.json" },

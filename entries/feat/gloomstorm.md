@@ -2,6 +2,7 @@
 id = "ref/feat/gloomstorm"
 kind = "feat"
 title = "Gloomstorm"
+aon = "FeatDisplay.aspx?ItemName=Gloomstorm"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gloomstorm", path = "json/feat07.json" },

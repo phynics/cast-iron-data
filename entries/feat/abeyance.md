@@ -2,6 +2,7 @@
 id = "ref/feat/abeyance"
 kind = "feat"
 title = "Abeyance"
+aon = "FeatDisplay.aspx?ItemName=Abeyance"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "abeyance", path = "json/feat01.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/zelishkar-of-the-bitter-flame"
 kind = "creature"
 title = "Zelishkar of the Bitter Flame"
+aon = "MonsterDisplay.aspx?ItemName=Zelishkar%20of%20the%20Bitter%20Flame"
 source_ids = ["inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "zelishkar_of_the_bitter_flame", path = "json/monsters_unique4.json" },

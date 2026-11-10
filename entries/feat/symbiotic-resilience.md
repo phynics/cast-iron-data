@@ -2,6 +2,7 @@
 id = "ref/feat/symbiotic-resilience"
 kind = "feat"
 title = "Symbiotic Resilience"
+aon = "FeatDisplay.aspx?ItemName=Symbiotic%20Resilience"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "symbiotic_resilience", path = "json/feat15.json" },

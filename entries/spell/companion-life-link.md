@@ -2,6 +2,7 @@
 id = "ref/spell/companion-life-link"
 kind = "spell"
 title = "Companion Life Link"
+aon = "SpellDisplay.aspx?ItemName=Companion%20Life%20Link"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "companion_life_link", path = "json/spells12.json" },

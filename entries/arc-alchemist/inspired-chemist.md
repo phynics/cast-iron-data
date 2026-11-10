@@ -2,6 +2,7 @@
 id = "ref/arc-alchemist/inspired-chemist"
 kind = "archetype"
 title = "Inspired Chemist"
+aon = "ArchetypeDisplay.aspx?FixedName=Alchemist%20Inspired%20Chemist"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inspired_chemist", path = "json/archetypes_alchemist2.json" },

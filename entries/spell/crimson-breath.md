@@ -2,6 +2,7 @@
 id = "ref/spell/crimson-breath"
 kind = "spell"
 title = "Crimson Breath"
+aon = "SpellDisplay.aspx?ItemName=Crimson%20Breath"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crimson_breath", path = "json/spells3.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/hive-hive-warrior"
 kind = "creature"
 title = "Hive Warrior"
+aon = "MonsterDisplay.aspx?ItemName=Hive%20Warrior"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hive_hive_warrior", path = "json/monsters13.json" },

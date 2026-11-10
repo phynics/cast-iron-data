@@ -2,6 +2,7 @@
 id = "ref/monster/troop-goblin-troop"
 kind = "creature"
 title = "Goblin Troop"
+aon = "MonsterDisplay.aspx?ItemName=Goblin%20Troop"
 source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "troop_goblin_troop", path = "json/monsters24.json" },

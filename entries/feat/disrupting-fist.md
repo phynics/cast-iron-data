@@ -2,6 +2,7 @@
 id = "ref/feat/disrupting-fist"
 kind = "feat"
 title = "Disrupting Fist"
+aon = "FeatDisplay.aspx?ItemName=Disrupting%20Fist"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disrupting_fist", path = "json/feat04.json" },

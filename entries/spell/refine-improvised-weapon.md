@@ -2,6 +2,7 @@
 id = "ref/spell/refine-improvised-weapon"
 kind = "spell"
 title = "Refine Improvised Weapon"
+aon = "SpellDisplay.aspx?ItemName=Refine%20Improvised%20Weapon"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "refine_improvised_weapon", path = "json/spells8.json" },

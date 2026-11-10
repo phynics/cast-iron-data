@@ -2,6 +2,7 @@
 id = "ref/arc-oracle/warsighted"
 kind = "archetype"
 title = "Warsighted"
+aon = "ArchetypeDisplay.aspx?FixedName=Oracle%20Warsighted"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "warsighted", path = "json/archetypes_oracle.json" },

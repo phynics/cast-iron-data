@@ -2,6 +2,7 @@
 id = "ref/spell/feather-step"
 kind = "spell"
 title = "Feather Step"
+aon = "SpellDisplay.aspx?ItemName=Feather%20Step"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "feather_step", path = "json/spells4.json" },

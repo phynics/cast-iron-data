@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/planar-sneak"
 kind = "archetype"
 title = "Planar Sneak"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Planar%20Sneak"
 source_ids = ["planes-of-power"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planar_sneak", path = "json/archetypes_rogue.json" },

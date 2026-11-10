@@ -2,6 +2,7 @@
 id = "ref/spell/talisman-of-reprieve"
 kind = "spell"
 title = "Talisman of Reprieve"
+aon = "SpellDisplay.aspx?ItemName=Talisman%20of%20Reprieve"
 source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "talisman_of_reprieve", path = "json/spells10.json" },

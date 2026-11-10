@@ -2,6 +2,7 @@
 id = "ref/feat/tenacious-transmutation"
 kind = "feat"
 title = "Tenacious Transmutation"
+aon = "FeatDisplay.aspx?ItemName=Tenacious%20Transmutation"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tenacious_transmutation", path = "json/feat16.json" },

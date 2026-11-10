@@ -2,6 +2,7 @@
 id = "ref/feat/merciful-takedown"
 kind = "feat"
 title = "Merciful Takedown"
+aon = "FeatDisplay.aspx?ItemName=Merciful%20Takedown"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "merciful_takedown", path = "json/feat10.json" },

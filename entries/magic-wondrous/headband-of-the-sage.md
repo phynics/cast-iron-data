@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/headband-of-the-sage"
 kind = "item"
 title = "Headband of the Sage"
+aon = "MagicIntelligentDisplay.aspx?ItemName=Headband%20of%20the%20Sage"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "headband_of_the_sage", path = "json/magic_wondrous_head_headband.json" },

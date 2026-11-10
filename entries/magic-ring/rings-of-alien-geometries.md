@@ -2,6 +2,7 @@
 id = "ref/magic-ring/rings-of-alien-geometries"
 kind = "item"
 title = "Rings of Alien Geometries"
+aon = "MagicRingsDisplay.aspx?FinalName=Rings%20of%20Alien%20Geometries"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rings_of_alien_geometries", path = "json/magic_ring.json" },

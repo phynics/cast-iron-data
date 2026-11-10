@@ -2,6 +2,7 @@
 id = "ref/feat/weapon-adept"
 kind = "feat"
 title = "Weapon Adept"
+aon = "FeatDisplay.aspx?ItemName=Weapon%20Adept"
 source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weapon_adept", path = "json/feat17.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/devil-horned-devil-cornugon"
 kind = "creature"
 title = "Horned Devil (Cornugon)"
+aon = "MonsterDisplay.aspx?ItemName=Horned%20Devil%20%28Cornugon%29"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_horned_devil_cornugon", path = "json/monsters07.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/balancers-banishing"
 kind = "trait"
 title = "Balancer's Banishing"
+aon = "TraitDisplay.aspx?ItemName=Balancer%27s%20Banishing"
 source_ids = ["champions-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "balancers_banishing", path = "json/traits02.json" },

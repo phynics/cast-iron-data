@@ -2,6 +2,7 @@
 id = "ref/arc-slayer/pureblade"
 kind = "archetype"
 title = "Pureblade"
+aon = "ArchetypeDisplay.aspx?FixedName=Slayer%20Pureblade"
 source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pureblade", path = "json/archetypes_slayer.json" },

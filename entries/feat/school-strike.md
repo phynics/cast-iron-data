@@ -2,6 +2,7 @@
 id = "ref/feat/school-strike"
 kind = "feat"
 title = "School Strike"
+aon = "FeatDisplay.aspx?ItemName=School%20Strike"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "school_strike", path = "json/feat13.json" },

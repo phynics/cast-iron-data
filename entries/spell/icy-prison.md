@@ -2,6 +2,7 @@
 id = "ref/spell/icy-prison"
 kind = "spell"
 title = "Icy Prison"
+aon = "SpellDisplay.aspx?ItemName=Icy%20Prison"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "icy_prison", path = "json/spells5.json" },

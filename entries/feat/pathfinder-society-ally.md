@@ -2,6 +2,7 @@
 id = "ref/feat/pathfinder-society-ally"
 kind = "feat"
 title = "Pathfinder Society Ally"
+aon = "FeatDisplay.aspx?ItemName=Pathfinder%20Society%20Ally"
 source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pathfinder_society_ally", path = "json/feat11.json" },

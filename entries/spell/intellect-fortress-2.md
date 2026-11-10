@@ -2,6 +2,7 @@
 id = "ref/spell/intellect-fortress-2"
 kind = "spell"
 title = "Intellect Fortress II"
+aon = "SpellDisplay.aspx?ItemName=Intellect%20Fortress%20II"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "intellect_fortress_2", path = "json/spells14.json" },

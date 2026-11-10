@@ -2,6 +2,7 @@
 id = "ref/trait/surefooted-ascent"
 kind = "trait"
 title = "Surefooted Ascent"
+aon = "TraitDisplay.aspx?ItemName=Surefooted%20Ascent"
 source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "surefooted_ascent", path = "json/traits04.json" },

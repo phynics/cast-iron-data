@@ -2,6 +2,7 @@
 id = "ref/spell/rally-point"
 kind = "spell"
 title = "Rally Point"
+aon = "SpellDisplay.aspx?ItemName=Rally%20Point"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rally_point", path = "json/spells8.json" },

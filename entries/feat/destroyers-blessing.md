@@ -2,6 +2,7 @@
 id = "ref/feat/destroyers-blessing"
 kind = "feat"
 title = "Destroyer's Blessing"
+aon = "FeatDisplay.aspx?ItemName=Destroyer%27s%20Blessing"
 source_ids = ["advanced-race-guide", "orcs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "destroyers_blessing", path = "json/feat04.json" },

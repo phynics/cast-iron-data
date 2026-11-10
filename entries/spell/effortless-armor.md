@@ -2,6 +2,7 @@
 id = "ref/spell/effortless-armor"
 kind = "spell"
 title = "Effortless Armor"
+aon = "SpellDisplay.aspx?ItemName=Effortless%20Armor"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "effortless_armor", path = "json/spells13.json" },

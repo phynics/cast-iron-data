@@ -2,6 +2,7 @@
 id = "ref/feat/ricochet-splash-weapon"
 kind = "feat"
 title = "Ricochet Splash Weapon"
+aon = "FeatDisplay.aspx?ItemName=Ricochet%20Splash%20Weapon"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ricochet_splash_weapon", path = "json/feat13.json" },

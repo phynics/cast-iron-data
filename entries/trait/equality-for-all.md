@@ -2,6 +2,7 @@
 id = "ref/trait/equality-for-all"
 kind = "trait"
 title = "Equality for All"
+aon = "TraitDisplay.aspx?ItemName=Equality%20for%20All"
 source_ids = ["halflings-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "equality_for_all", path = "json/traits04.json" },

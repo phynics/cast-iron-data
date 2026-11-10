@@ -2,6 +2,7 @@
 id = "ref/feat/hydroponic-adaptation"
 kind = "feat"
 title = "Hydroponic Adaptation"
+aon = "FeatDisplay.aspx?ItemName=Hydroponic%20Adaptation"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hydroponic_adaptation", path = "json/feat08.json" },

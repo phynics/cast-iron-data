@@ -2,6 +2,7 @@
 id = "ref/spell/stay-the-hand"
 kind = "spell"
 title = "Stay the Hand"
+aon = "SpellDisplay.aspx?ItemName=Stay%20the%20Hand"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stay_the_hand", path = "json/spells9.json" },

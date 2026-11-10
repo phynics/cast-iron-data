@@ -2,6 +2,7 @@
 id = "ref/spell/fabricate"
 kind = "spell"
 title = "Fabricate"
+aon = "SpellDisplay.aspx?ItemName=Fabricate"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fabricate", path = "json/spells4.json" },

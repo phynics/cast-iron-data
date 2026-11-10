@@ -2,6 +2,7 @@
 id = "ref/feat/sharptooth"
 kind = "feat"
 title = "Sharptooth"
+aon = "FeatDisplay.aspx?ItemName=Sharptooth"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sharptooth", path = "json/feat14.json" },

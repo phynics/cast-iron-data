@@ -2,6 +2,7 @@
 id = "ref/feat/shield-slam"
 kind = "feat"
 title = "Shield Slam"
+aon = "FeatDisplay.aspx?ItemName=Shield%20Slam"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_slam", path = "json/feat14.json" },

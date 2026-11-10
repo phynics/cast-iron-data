@@ -2,6 +2,7 @@
 id = "ref/feat/demoralizing-stare"
 kind = "feat"
 title = "Demoralizing Stare"
+aon = "FeatDisplay.aspx?ItemName=Demoralizing%20Stare"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demoralizing_stare", path = "json/feat04.json" },

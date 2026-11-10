@@ -2,6 +2,7 @@
 id = "ref/feat/personal-chronicler"
 kind = "feat"
 title = "Personal Chronicler"
+aon = "FeatDisplay.aspx?ItemName=Personal%20Chronicler"
 source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "personal_chronicler", path = "json/feat12.json" },

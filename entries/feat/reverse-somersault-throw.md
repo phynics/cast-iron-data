@@ -2,6 +2,7 @@
 id = "ref/feat/reverse-somersault-throw"
 kind = "feat"
 title = "Reverse Somersault Throw"
+aon = "FeatDisplay.aspx?ItemName=Reverse%20Somersault%20Throw"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reverse_somersault_throw", path = "json/feat13.json" },

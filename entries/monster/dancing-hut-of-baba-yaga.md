@@ -2,6 +2,7 @@
 id = "ref/monster/dancing-hut-of-baba-yaga"
 kind = "creature"
 title = "Dancing Hut of Baba Yaga"
+aon = "MonsterDisplay.aspx?ItemName=Dancing%20Hut%20of%20Baba%20Yaga"
 source_ids = ["pathfinder-68-the-shackled-hut", "artifacts-and-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dancing_hut_of_baba_yaga", path = "json/monsters_unique.json" },

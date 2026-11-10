@@ -2,6 +2,7 @@
 id = "ref/feat/versatile-channeler"
 kind = "feat"
 title = "Versatile Channeler"
+aon = "FeatDisplay.aspx?ItemName=Versatile%20Channeler"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "versatile_channeler", path = "json/feat17.json" },

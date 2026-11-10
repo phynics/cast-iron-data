@@ -2,6 +2,7 @@
 id = "ref/trait/blind-zeal"
 kind = "trait"
 title = "Blind Zeal"
+aon = "TraitDisplay.aspx?ItemName=Blind%20Zeal"
 source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blind_zeal", path = "json/traits03.json" },

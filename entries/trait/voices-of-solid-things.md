@@ -2,6 +2,7 @@
 id = "ref/trait/voices-of-solid-things"
 kind = "trait"
 title = "Voices of Solid Things"
+aon = "TraitDisplay.aspx?ItemName=Voices%20of%20Solid%20Things"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "voices_of_solid_things", path = "json/traits04.json" },

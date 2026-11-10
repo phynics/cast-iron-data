@@ -2,6 +2,7 @@
 id = "ref/feat/aerial-roll"
 kind = "feat"
 title = "Aerial Roll"
+aon = "FeatDisplay.aspx?ItemName=Aerial%20Roll"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aerial_roll", path = "json/feat01.json" },

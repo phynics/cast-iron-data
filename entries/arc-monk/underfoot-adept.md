@@ -2,6 +2,7 @@
 id = "ref/arc-monk/underfoot-adept"
 kind = "archetype"
 title = "Underfoot Adept"
+aon = "ArchetypeDisplay.aspx?FixedName=Monk%20Underfoot%20Adept"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "underfoot_adept", path = "json/archetypes_monk2.json" },

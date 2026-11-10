@@ -2,6 +2,7 @@
 id = "ref/spell/divine-power"
 kind = "spell"
 title = "Divine Power"
+aon = "SpellDisplay.aspx?ItemName=Divine%20Power"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divine_power", path = "json/spells13.json" },

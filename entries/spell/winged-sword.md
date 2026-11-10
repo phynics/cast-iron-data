@@ -2,6 +2,7 @@
 id = "ref/spell/winged-sword"
 kind = "spell"
 title = "Winged Sword"
+aon = "SpellDisplay.aspx?ItemName=Winged%20Sword"
 source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "winged_sword", path = "json/spells16.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/efreeti-touch"
 kind = "feat"
 title = "Efreeti Touch"
+aon = "FeatDisplay.aspx?ItemName=Efreeti%20Touch"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "efreeti_touch", path = "json/feat05.json" },

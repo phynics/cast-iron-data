@@ -2,6 +2,7 @@
 id = "ref/monster/solifugid-giant-solifugid"
 kind = "creature"
 title = "Giant Solifugid"
+aon = "MonsterDisplay.aspx?ItemName=Giant%20Solifugid"
 source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "solifugid_giant_solifugid", path = "json/monsters22.json" },

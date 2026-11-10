@@ -2,6 +2,7 @@
 id = "ref/trait/fight-for-liberty"
 kind = "trait"
 title = "Fight for Liberty"
+aon = "TraitDisplay.aspx?ItemName=Fight%20for%20Liberty"
 source_ids = ["pirates-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fight_for_liberty", path = "json/traits04.json" },

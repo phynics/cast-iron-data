@@ -2,6 +2,7 @@
 id = "ref/trait/divine-denier"
 kind = "trait"
 title = "Divine Denier"
+aon = "TraitDisplay.aspx?ItemName=Divine%20Denier"
 source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divine_denier", path = "json/traits01.json" },

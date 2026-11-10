@@ -2,6 +2,7 @@
 id = "ref/feat/taldan-squire"
 kind = "feat"
 title = "Taldan Squire"
+aon = "FeatDisplay.aspx?ItemName=Taldan%20Squire"
 source_ids = ["taldor-echoes-of-glory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "taldan_squire", path = "json/feat15.json" },

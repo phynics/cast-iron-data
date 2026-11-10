@@ -2,6 +2,7 @@
 id = "ref/feat/siphoning-blade"
 kind = "feat"
 title = "Siphoning Blade"
+aon = "FeatDisplay.aspx?ItemName=Siphoning%20Blade"
 source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "siphoning_blade", path = "json/feat14.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-swashbuckler/flying-blade"
 kind = "archetype"
 title = "Flying Blade"
+aon = "ArchetypeDisplay.aspx?FixedName=Swashbuckler%20Flying%20Blade"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flying_blade", path = "json/archetypes_swashbuckler.json" },

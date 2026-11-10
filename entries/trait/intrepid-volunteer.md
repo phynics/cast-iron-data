@@ -2,6 +2,7 @@
 id = "ref/trait/intrepid-volunteer"
 kind = "trait"
 title = "Intrepid Volunteer"
+aon = "TraitDisplay.aspx?ItemName=Intrepid%20Volunteer"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "intrepid_volunteer", path = "json/traits05.json" },

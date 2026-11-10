@@ -2,6 +2,7 @@
 id = "ref/arc-medium/kami-medium"
 kind = "archetype"
 title = "Kami Medium"
+aon = "ArchetypeDisplay.aspx?FixedName=Medium%20Kami%20Medium"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kami_medium", path = "json/archetypes_medium.json" },

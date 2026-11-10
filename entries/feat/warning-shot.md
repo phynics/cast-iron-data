@@ -2,6 +2,7 @@
 id = "ref/feat/warning-shot"
 kind = "feat"
 title = "Warning Shot"
+aon = "FeatDisplay.aspx?ItemName=Warning%20Shot"
 source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "warning_shot", path = "json/feat17.json" },

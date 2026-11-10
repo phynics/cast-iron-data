@@ -2,6 +2,7 @@
 id = "ref/feat/champion-of-tranquility"
 kind = "feat"
 title = "Champion of Tranquility"
+aon = "FeatDisplay.aspx?ItemName=Champion%20of%20Tranquility"
 source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "champion_of_tranquility", path = "json/feat03.json" },

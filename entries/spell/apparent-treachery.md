@@ -2,6 +2,7 @@
 id = "ref/spell/apparent-treachery"
 kind = "spell"
 title = "Apparent Treachery"
+aon = "SpellDisplay.aspx?ItemName=Apparent%20Treachery"
 source_ids = ["pathfinder-74-sword-of-valor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "apparent_treachery", path = "json/spells.json" },

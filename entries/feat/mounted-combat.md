@@ -2,6 +2,7 @@
 id = "ref/feat/mounted-combat"
 kind = "feat"
 title = "Mounted Combat"
+aon = "FeatDisplay.aspx?ItemName=Mounted%20Combat"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mounted_combat", path = "json/feat11.json" },

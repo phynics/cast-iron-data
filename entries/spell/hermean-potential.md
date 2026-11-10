@@ -2,6 +2,7 @@
 id = "ref/spell/hermean-potential"
 kind = "spell"
 title = "Hermean Potential"
+aon = "SpellDisplay.aspx?ItemName=Hermean%20Potential"
 source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hermean_potential", path = "json/spells5.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/shaghal"
 kind = "creature"
 title = "Shaghal"
+aon = "MonsterDisplay.aspx?ItemName=Shaghal"
 source_ids = ["feast-of-dust"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shaghal", path = "json/monsters38.json" },

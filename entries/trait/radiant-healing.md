@@ -2,6 +2,7 @@
 id = "ref/trait/radiant-healing"
 kind = "trait"
 title = "Radiant Healing"
+aon = "TraitDisplay.aspx?ItemName=Radiant%20Healing"
 source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "radiant_healing", path = "json/traits02.json" },

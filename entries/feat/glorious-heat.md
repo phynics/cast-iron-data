@@ -2,6 +2,7 @@
 id = "ref/feat/glorious-heat"
 kind = "feat"
 title = "Glorious Heat"
+aon = "FeatDisplay.aspx?ItemName=Glorious%20Heat"
 source_ids = ["inner-sea-gods", "faiths-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "glorious_heat", path = "json/feat07.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/curse-of-fell-seasons"
 kind = "spell"
 title = "Curse of Fell Seasons"
+aon = "SpellDisplay.aspx?ItemName=Curse%20of%20Fell%20Seasons"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "curse_of_fell_seasons", path = "json/spells3.json" },

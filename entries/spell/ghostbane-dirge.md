@@ -2,6 +2,7 @@
 id = "ref/spell/ghostbane-dirge"
 kind = "spell"
 title = "Ghostbane Dirge"
+aon = "SpellDisplay.aspx?ItemName=Ghostbane%20Dirge"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghostbane_dirge", path = "json/spells13.json" },

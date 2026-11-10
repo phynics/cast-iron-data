@@ -2,6 +2,7 @@
 id = "ref/spell/rune-of-ruin"
 kind = "spell"
 title = "Rune of Ruin"
+aon = "SpellDisplay.aspx?ItemName=Rune%20of%20Ruin"
 source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rune_of_ruin", path = "json/spells8.json" },

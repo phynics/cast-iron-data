@@ -2,6 +2,7 @@
 id = "ref/spell/open-close"
 kind = "spell"
 title = "Open/Close"
+aon = "SpellDisplay.aspx?ItemName=Open%2FClose"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "open_close", path = "json/spells7.json" },

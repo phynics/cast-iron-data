@@ -2,6 +2,7 @@
 id = "ref/trait/vialesk-historian"
 kind = "trait"
 title = "Vialesk Historian"
+aon = "TraitDisplay.aspx?ItemName=Vialesk%20Historian"
 source_ids = ["blood-of-the-elements"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vialesk_historian", path = "json/traits04.json" },

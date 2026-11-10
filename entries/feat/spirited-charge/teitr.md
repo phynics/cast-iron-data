@@ -2,6 +2,7 @@
 id = "ref/feat/spirited-charge/teitr"
 kind = "feat"
 title = "Spirited Charge"
+aon = "FeatDisplay.aspx?ItemName=Spirited%20Charge"
 source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/spirited-charge" },

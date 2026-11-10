@@ -2,6 +2,7 @@
 id = "ref/arc-swashbuckler/arrow-champion"
 kind = "archetype"
 title = "Arrow Champion"
+aon = "ArchetypeDisplay.aspx?FixedName=Swashbuckler%20Arrow%20Champion"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arrow_champion", path = "json/archetypes_swashbuckler.json" },

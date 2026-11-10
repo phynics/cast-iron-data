@@ -2,6 +2,7 @@
 id = "ref/trait/eoxian-experiment"
 kind = "trait"
 title = "Eoxian Experiment"
+aon = "TraitDisplay.aspx?ItemName=Eoxian%20Experiment"
 source_ids = ["people-of-the-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eoxian_experiment", path = "json/traits04.json" },

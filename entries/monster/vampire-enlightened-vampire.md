@@ -2,6 +2,7 @@
 id = "ref/monster/vampire-enlightened-vampire"
 kind = "creature"
 title = "Enlightened Vampire"
+aon = "MonsterDisplay.aspx?ItemName=Enlightened%20Vampire"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vampire_enlightened_vampire", path = "json/monsters24.json" },

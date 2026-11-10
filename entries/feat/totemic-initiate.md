@@ -2,6 +2,7 @@
 id = "ref/feat/totemic-initiate"
 kind = "feat"
 title = "Totemic Initiate"
+aon = "FeatDisplay.aspx?ItemName=Totemic%20Initiate"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "totemic_initiate", path = "json/feat16.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/shared-stash"
 kind = "feat"
 title = "Shared Stash"
+aon = "FeatDisplay.aspx?ItemName=Shared%20Stash"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shared_stash", path = "json/feat14.json" },

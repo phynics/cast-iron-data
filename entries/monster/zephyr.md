@@ -2,6 +2,7 @@
 id = "ref/monster/zephyr"
 kind = "creature"
 title = "Zephyr"
+aon = "MonsterDisplay.aspx?ItemName=Zephyr"
 source_ids = ["pathfinder-101-the-kintargo-contract"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "zephyr", path = "json/monsters41.json" },

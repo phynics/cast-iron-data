@@ -2,6 +2,7 @@
 id = "ref/spell/admonishing-ray"
 kind = "spell"
 title = "Admonishing Ray"
+aon = "SpellDisplay.aspx?ItemName=Admonishing%20Ray"
 source_ids = ["taldor-echoes-of-glory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "admonishing_ray", path = "json/spells.json" },

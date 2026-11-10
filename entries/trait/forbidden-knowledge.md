@@ -2,6 +2,7 @@
 id = "ref/trait/forbidden-knowledge"
 kind = "trait"
 title = "Forbidden Knowledge"
+aon = "TraitDisplay.aspx?ItemName=Forbidden%20Knowledge"
 source_ids = ["undead-slayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "forbidden_knowledge", path = "json/traits04.json" },

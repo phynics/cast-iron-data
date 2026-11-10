@@ -2,6 +2,7 @@
 id = "ref/spell/free-swim"
 kind = "spell"
 title = "Free Swim"
+aon = "SpellDisplay.aspx?ItemName=Free%20Swim"
 source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "free_swim", path = "json/spells13.json" },

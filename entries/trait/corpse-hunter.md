@@ -2,6 +2,7 @@
 id = "ref/trait/corpse-hunter"
 kind = "trait"
 title = "Corpse Hunter"
+aon = "TraitDisplay.aspx?ItemName=Corpse%20Hunter"
 source_ids = ["inner-sea-gods", "faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "corpse_hunter", path = "json/traits03.json" },

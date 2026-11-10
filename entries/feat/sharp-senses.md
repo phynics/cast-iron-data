@@ -2,6 +2,7 @@
 id = "ref/feat/sharp-senses"
 kind = "feat"
 title = "Sharp Senses"
+aon = "FeatDisplay.aspx?ItemName=Sharp%20Senses"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sharp_senses", path = "json/feat14.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/martyrs-blood"
 kind = "trait"
 title = "Martyr's Blood"
+aon = "TraitDisplay.aspx?ItemName=Martyr%27s%20Blood"
 source_ids = ["bastards-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "martyrs_blood", path = "json/traits05.json" },

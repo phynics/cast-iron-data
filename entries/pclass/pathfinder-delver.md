@@ -2,6 +2,7 @@
 id = "ref/pclass/pathfinder-delver"
 kind = "prestige_class"
 title = "Pathfinder Delver"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Pathfinder%20Delver"
 source_ids = ["adventurers-guide", "seekers-of-secrets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pathfinder_delver", path = "json/prestige_classes4.json" },

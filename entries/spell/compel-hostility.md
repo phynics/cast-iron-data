@@ -2,6 +2,7 @@
 id = "ref/spell/compel-hostility"
 kind = "spell"
 title = "Compel Hostility"
+aon = "SpellDisplay.aspx?ItemName=Compel%20Hostility"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "compel_hostility", path = "json/spells12.json" },

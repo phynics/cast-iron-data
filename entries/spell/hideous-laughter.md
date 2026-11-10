@@ -2,6 +2,7 @@
 id = "ref/spell/hideous-laughter"
 kind = "spell"
 title = "Hideous Laughter"
+aon = "SpellDisplay.aspx?ItemName=Hideous%20Laughter"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hideous_laughter", path = "json/spells5.json" },

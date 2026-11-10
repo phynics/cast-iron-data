@@ -2,6 +2,7 @@
 id = "ref/trait/resolve-of-the-rejected"
 kind = "trait"
 title = "Resolve of the Rejected"
+aon = "TraitDisplay.aspx?ItemName=Resolve%20of%20the%20Rejected"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "resolve_of_the_rejected", path = "json/traits01.json" },

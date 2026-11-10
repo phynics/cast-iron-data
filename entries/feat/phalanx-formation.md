@@ -2,6 +2,7 @@
 id = "ref/feat/phalanx-formation"
 kind = "feat"
 title = "Phalanx Formation"
+aon = "FeatDisplay.aspx?ItemName=Phalanx%20Formation"
 source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phalanx_formation", path = "json/feat12.json" },

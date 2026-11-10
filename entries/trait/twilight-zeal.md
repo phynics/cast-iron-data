@@ -2,6 +2,7 @@
 id = "ref/trait/twilight-zeal"
 kind = "trait"
 title = "Twilight Zeal"
+aon = "TraitDisplay.aspx?ItemName=Twilight%20Zeal"
 source_ids = ["blood-of-fiends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "twilight_zeal", path = "json/traits05.json" },

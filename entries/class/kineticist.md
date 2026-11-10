@@ -2,6 +2,7 @@
 id = "ref/class/kineticist"
 kind = "class"
 title = "Kineticist"
+aon = "ClassDisplay.aspx?ItemName=Kineticist"
 source_ids = ["occult-adventures", "advanced-players-guide", "blood-of-shadows", "blood-of-the-beast", "chronicle-of-legends", "darklands-revisited", "legacy-of-the-first-world", "plane-hoppers-handbook", "ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kineticist", path = "json/classes2.json" },

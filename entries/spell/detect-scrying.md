@@ -2,6 +2,7 @@
 id = "ref/spell/detect-scrying"
 kind = "spell"
 title = "Detect Scrying"
+aon = "SpellDisplay.aspx?ItemName=Detect%20Scrying"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "detect_scrying", path = "json/spells3.json" },

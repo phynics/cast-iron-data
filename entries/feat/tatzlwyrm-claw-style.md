@@ -2,6 +2,7 @@
 id = "ref/feat/tatzlwyrm-claw-style"
 kind = "feat"
 title = "Tatzlwyrm Claw Style"
+aon = "FeatDisplay.aspx?ItemName=Tatzlwyrm%20Claw%20Style"
 source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tatzlwyrm_claw_style", path = "json/feat16.json" },

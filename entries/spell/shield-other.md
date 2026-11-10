@@ -2,6 +2,7 @@
 id = "ref/spell/shield-other"
 kind = "spell"
 title = "Shield Other"
+aon = "SpellDisplay.aspx?ItemName=Shield%20Other"
 source_ids = ["core-rulebook", "animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_other", path = "json/spells9.json" },

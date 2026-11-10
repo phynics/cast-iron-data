@@ -2,6 +2,7 @@
 id = "ref/monster/chitikin"
 kind = "creature"
 title = "Chitikin"
+aon = "MonsterDisplay.aspx?ItemName=Chitikin"
 source_ids = ["pathfinder-130-city-in-the-lions-eye"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chitikin", path = "json/monsters05.json" },

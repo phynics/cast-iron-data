@@ -2,6 +2,7 @@
 id = "ref/trait/chelish-noble"
 kind = "trait"
 title = "Chelish Noble"
+aon = "TraitDisplay.aspx?ItemName=Chelish%20Noble"
 source_ids = ["hells-vengeance-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chelish_noble", path = "json/traits02.json" },

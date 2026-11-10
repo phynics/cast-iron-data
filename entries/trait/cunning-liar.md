@@ -2,6 +2,7 @@
 id = "ref/trait/cunning-liar"
 kind = "trait"
 title = "Cunning Liar"
+aon = "TraitDisplay.aspx?ItemName=Cunning%20Liar"
 source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cunning_liar", path = "json/traits04.json" },

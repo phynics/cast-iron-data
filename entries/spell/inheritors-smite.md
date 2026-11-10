@@ -2,6 +2,7 @@
 id = "ref/spell/inheritors-smite"
 kind = "spell"
 title = "Inheritor's Smite"
+aon = "SpellDisplay.aspx?ItemName=Inheritor%27s%20Smite"
 source_ids = ["inner-sea-gods", "pathfinder-26-the-sixfold-trial"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inheritors_smite", path = "json/spells14.json" },

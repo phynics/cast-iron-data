@@ -2,6 +2,7 @@
 id = "ref/trait/crimson-carapace"
 kind = "trait"
 title = "Crimson Carapace"
+aon = "TraitDisplay.aspx?ItemName=Crimson%20Carapace"
 source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crimson_carapace", path = "json/traits01.json" },

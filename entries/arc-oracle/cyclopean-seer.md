@@ -2,6 +2,7 @@
 id = "ref/arc-oracle/cyclopean-seer"
 kind = "archetype"
 title = "Cyclopean Seer"
+aon = "ArchetypeDisplay.aspx?FixedName=Oracle%20Cyclopean%20Seer"
 source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cyclopean_seer", path = "json/archetypes_oracle.json" },

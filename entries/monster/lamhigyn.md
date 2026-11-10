@@ -2,6 +2,7 @@
 id = "ref/monster/lamhigyn"
 kind = "creature"
 title = "Lamhigyn"
+aon = "MonsterDisplay.aspx?ItemName=Lamhigyn"
 source_ids = ["bestiary-5", "pathfinder-76-the-midnight-isles"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lamhigyn", path = "json/monsters34.json" },

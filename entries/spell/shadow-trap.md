@@ -2,6 +2,7 @@
 id = "ref/spell/shadow-trap"
 kind = "spell"
 title = "Shadow Trap"
+aon = "SpellDisplay.aspx?ItemName=Shadow%20Trap"
 source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_trap", path = "json/spells15.json" },

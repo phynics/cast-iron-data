@@ -2,6 +2,7 @@
 id = "ref/monster/shining-child"
 kind = "creature"
 title = "Shining Child"
+aon = "MonsterDisplay.aspx?ItemName=Shining%20Child"
 source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shining_child", path = "json/monsters38.json" },

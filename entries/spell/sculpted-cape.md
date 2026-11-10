@@ -2,6 +2,7 @@
 id = "ref/spell/sculpted-cape"
 kind = "spell"
 title = "Sculpted Cape"
+aon = "SpellDisplay.aspx?ItemName=Sculpted%20Cape"
 source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sculpted_cape", path = "json/spells15.json" },

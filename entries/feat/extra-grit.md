@@ -2,6 +2,7 @@
 id = "ref/feat/extra-grit"
 kind = "feat"
 title = "Extra Grit"
+aon = "FeatDisplay.aspx?ItemName=Extra%20Grit"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extra_grit", path = "json/feat06.json" },

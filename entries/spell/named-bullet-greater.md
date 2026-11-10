@@ -2,6 +2,7 @@
 id = "ref/spell/named-bullet-greater"
 kind = "spell"
 title = "Greater Named Bullet"
+aon = "SpellDisplay.aspx?ItemName=Named%20Bullet%2C%20Greater"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "named_bullet_greater", path = "json/spells7.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/blade-bravado"
 kind = "trait"
 title = "Blade Bravado"
+aon = "TraitDisplay.aspx?ItemName=Blade%20Bravado"
 source_ids = ["humans-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blade_bravado", path = "json/traits05.json" },

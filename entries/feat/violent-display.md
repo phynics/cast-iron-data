@@ -2,6 +2,7 @@
 id = "ref/feat/violent-display"
 kind = "feat"
 title = "Violent Display"
+aon = "FeatDisplay.aspx?ItemName=Violent%20Display"
 source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "violent_display", path = "json/feat17.json" },

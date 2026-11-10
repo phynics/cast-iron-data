@@ -2,6 +2,7 @@
 id = "ref/feat/sliding-dash"
 kind = "feat"
 title = "Sliding Dash"
+aon = "FeatDisplay.aspx?ItemName=Sliding%20Dash"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sliding_dash", path = "json/feat14.json" },

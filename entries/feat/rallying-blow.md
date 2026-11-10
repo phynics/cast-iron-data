@@ -2,6 +2,7 @@
 id = "ref/feat/rallying-blow"
 kind = "feat"
 title = "Rallying Blow"
+aon = "FeatDisplay.aspx?ItemName=Rallying%20Blow"
 source_ids = ["pathfinder-81-shifting-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rallying_blow", path = "json/feat13.json" },

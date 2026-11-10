@@ -2,6 +2,7 @@
 id = "ref/feat/combat-vigor"
 kind = "feat"
 title = "Combat Vigor"
+aon = "FeatDisplay.aspx?ItemName=Combat%20Vigor"
 source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "combat_vigor", path = "json/feat03.json" },

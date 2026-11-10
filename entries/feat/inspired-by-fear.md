@@ -2,6 +2,7 @@
 id = "ref/feat/inspired-by-fear"
 kind = "feat"
 title = "Inspired by Fear"
+aon = "FeatDisplay.aspx?ItemName=Inspired%20by%20Fear"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inspired_by_fear", path = "json/feat09.json" },

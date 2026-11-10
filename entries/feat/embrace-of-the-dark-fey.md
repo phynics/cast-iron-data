@@ -2,6 +2,7 @@
 id = "ref/feat/embrace-of-the-dark-fey"
 kind = "feat"
 title = "Embrace of the Dark Fey"
+aon = "FeatDisplay.aspx?ItemName=Embrace%20of%20the%20Dark%20Fey"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "embrace_of_the_dark_fey", path = "json/feat05.json" },

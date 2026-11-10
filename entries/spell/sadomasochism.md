@@ -2,6 +2,7 @@
 id = "ref/spell/sadomasochism"
 kind = "spell"
 title = "Sadomasochism"
+aon = "SpellDisplay.aspx?ItemName=Sadomasochism"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sadomasochism", path = "json/spells8.json" },

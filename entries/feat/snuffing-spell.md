@@ -2,6 +2,7 @@
 id = "ref/feat/snuffing-spell"
 kind = "feat"
 title = "Snuffing Spell"
+aon = "FeatDisplay.aspx?ItemName=Snuffing%20Spell"
 source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snuffing_spell", path = "json/feat14.json" },

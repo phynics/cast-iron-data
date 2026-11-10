@@ -2,6 +2,7 @@
 id = "ref/feat/improved-umbral-scion"
 kind = "feat"
 title = "Improved Umbral Scion"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Umbral%20Scion"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_umbral_scion", path = "json/feat09.json" },

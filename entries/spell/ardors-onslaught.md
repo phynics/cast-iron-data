@@ -2,6 +2,7 @@
 id = "ref/spell/ardors-onslaught"
 kind = "spell"
 title = "Ardor's Onslaught"
+aon = "SpellDisplay.aspx?ItemName=Ardor%27s%20Onslaught"
 source_ids = ["planar-adventures", "champions-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ardors_onslaught", path = "json/spells.json" },

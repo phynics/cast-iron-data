@@ -2,6 +2,7 @@
 id = "ref/feat/selfish-channel"
 kind = "feat"
 title = "Selfish Channel"
+aon = "FeatDisplay.aspx?ItemName=Selfish%20Channel"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "selfish_channel", path = "json/feat13.json" },

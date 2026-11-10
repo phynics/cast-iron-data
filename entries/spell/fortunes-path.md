@@ -2,6 +2,7 @@
 id = "ref/spell/fortunes-path"
 kind = "spell"
 title = "Fortune's Path"
+aon = "SpellDisplay.aspx?ItemName=Fortune%27s%20Path"
 source_ids = ["disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fortunes_path", path = "json/spells13.json" },

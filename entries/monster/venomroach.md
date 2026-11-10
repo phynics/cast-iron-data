@@ -2,6 +2,7 @@
 id = "ref/monster/venomroach"
 kind = "creature"
 title = "Venomroach"
+aon = "MonsterDisplay.aspx?ItemName=Venomroach"
 source_ids = ["pathfinder-116-fangs-of-war"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "venomroach", path = "json/monsters40.json" },

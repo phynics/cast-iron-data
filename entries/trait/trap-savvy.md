@@ -2,6 +2,7 @@
 id = "ref/trait/trap-savvy"
 kind = "trait"
 title = "Trap Savvy"
+aon = "TraitDisplay.aspx?ItemName=Trap%20Savvy"
 source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trap_savvy", path = "json/traits04.json" },

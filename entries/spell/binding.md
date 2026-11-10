@@ -2,6 +2,7 @@
 id = "ref/spell/binding"
 kind = "spell"
 title = "Binding"
+aon = "SpellDisplay.aspx?ItemName=Binding"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "binding", path = "json/spells12.json" },

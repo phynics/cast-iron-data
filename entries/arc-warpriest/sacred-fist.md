@@ -2,6 +2,7 @@
 id = "ref/arc-warpriest/sacred-fist"
 kind = "archetype"
 title = "Sacred Fist"
+aon = "ArchetypeDisplay.aspx?FixedName=Warpriest%20Sacred%20Fist"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sacred_fist", path = "json/archetypes_warpriest.json" },

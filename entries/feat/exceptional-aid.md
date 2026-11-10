@@ -2,6 +2,7 @@
 id = "ref/feat/exceptional-aid"
 kind = "feat"
 title = "Exceptional Aid"
+aon = "FeatDisplay.aspx?ItemName=Exceptional%20Aid"
 source_ids = ["distant-shores"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "exceptional_aid", path = "json/feat06.json" },

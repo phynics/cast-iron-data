@@ -2,6 +2,7 @@
 id = "ref/monster/devil-warmonger-devil-levaloch"
 kind = "creature"
 title = "Warmonger Devil (Levaloch)"
+aon = "MonsterDisplay.aspx?ItemName=Warmonger%20Devil%20%28Levaloch%29"
 source_ids = ["bestiary-5", "book-of-the-damned-volume-1-princes-of-darkness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_warmonger_devil_levaloch", path = "json/monsters07.json" },

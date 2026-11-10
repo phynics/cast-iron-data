@@ -2,6 +2,7 @@
 id = "ref/feat/gnome-trickster"
 kind = "feat"
 title = "Gnome Trickster"
+aon = "FeatDisplay.aspx?ItemName=Gnome%20Trickster"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gnome_trickster", path = "json/feat07.json" },

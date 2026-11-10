@@ -2,6 +2,7 @@
 id = "ref/spell/know-the-enemy"
 kind = "spell"
 title = "Know the Enemy"
+aon = "SpellDisplay.aspx?ItemName=Know%20the%20Enemy"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "know_the_enemy", path = "json/spells6.json" },

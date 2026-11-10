@@ -2,6 +2,7 @@
 id = "ref/spell/antitoxin-touch"
 kind = "spell"
 title = "Antitoxin Touch"
+aon = "SpellDisplay.aspx?ItemName=Antitoxin%20Touch"
 source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "antitoxin_touch", path = "json/spells.json" },

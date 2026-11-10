@@ -2,6 +2,7 @@
 id = "ref/feat/heightened-trap-sense"
 kind = "feat"
 title = "Heightened Trap Sense"
+aon = "FeatDisplay.aspx?ItemName=Heightened%20Trap%20Sense"
 source_ids = ["osirion-land-of-the-pharaohs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heightened_trap_sense", path = "json/feat08.json" },

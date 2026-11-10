@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/wild-shadow"
 kind = "archetype"
 title = "Wild Shadow"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Wild%20Shadow"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wild_shadow", path = "json/archetypes_ranger.json" },

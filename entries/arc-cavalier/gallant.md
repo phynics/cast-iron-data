@@ -2,6 +2,7 @@
 id = "ref/arc-cavalier/gallant"
 kind = "archetype"
 title = "Gallant"
+aon = "ArchetypeDisplay.aspx?FixedName=Cavalier%20Gallant"
 source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gallant", path = "json/archetypes_cavalier.json" },

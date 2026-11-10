@@ -2,6 +2,7 @@
 id = "ref/feat/spectacular-exit"
 kind = "feat"
 title = "Spectacular Exit"
+aon = "FeatDisplay.aspx?ItemName=Spectacular%20Exit"
 source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spectacular_exit", path = "json/feat14.json" },

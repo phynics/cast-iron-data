@@ -2,6 +2,7 @@
 id = "ref/spell/blood-biography"
 kind = "spell"
 title = "Blood Biography"
+aon = "SpellDisplay.aspx?ItemName=Blood%20Biography"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_biography", path = "json/spells2.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/driver"
 kind = "archetype"
 title = "Driver"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Driver"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "driver", path = "json/archetypes_rogue.json" },

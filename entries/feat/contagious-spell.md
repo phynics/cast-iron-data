@@ -2,6 +2,7 @@
 id = "ref/feat/contagious-spell"
 kind = "feat"
 title = "Contagious Spell"
+aon = "FeatDisplay.aspx?ItemName=Contagious%20Spell"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "contagious_spell", path = "json/feat03.json" },

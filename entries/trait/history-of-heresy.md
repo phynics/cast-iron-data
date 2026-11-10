@@ -2,6 +2,7 @@
 id = "ref/trait/history-of-heresy"
 kind = "trait"
 title = "History of Heresy"
+aon = "TraitDisplay.aspx?ItemName=History%20of%20Heresy"
 source_ids = ["ultimate-campaign", "advanced-players-guide", "second-darkness-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "history_of_heresy", path = "json/traits01.json" },

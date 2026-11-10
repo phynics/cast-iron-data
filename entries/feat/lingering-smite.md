@@ -2,6 +2,7 @@
 id = "ref/feat/lingering-smite"
 kind = "feat"
 title = "Lingering Smite"
+aon = "FeatDisplay.aspx?ItemName=Lingering%20Smite"
 source_ids = ["undead-slayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lingering_smite", path = "json/feat10.json" },

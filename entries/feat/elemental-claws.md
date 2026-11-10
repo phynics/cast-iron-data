@@ -2,6 +2,7 @@
 id = "ref/feat/elemental-claws"
 kind = "feat"
 title = "Elemental Claws"
+aon = "FeatDisplay.aspx?ItemName=Elemental%20Claws"
 source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_claws", path = "json/feat05.json" },

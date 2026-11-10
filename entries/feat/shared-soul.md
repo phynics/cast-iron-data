@@ -2,6 +2,7 @@
 id = "ref/feat/shared-soul"
 kind = "feat"
 title = "Shared Soul"
+aon = "FeatDisplay.aspx?ItemName=Shared%20Soul"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shared_soul", path = "json/feat14.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/ethereal-jaunt"
 kind = "spell"
 title = "Ethereal Jaunt"
+aon = "SpellDisplay.aspx?ItemName=Ethereal%20Jaunt"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ethereal_jaunt", path = "json/spells4.json" },

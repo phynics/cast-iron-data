@@ -2,6 +2,7 @@
 id = "ref/spell/detect-mindscape"
 kind = "spell"
 title = "Detect Mindscape"
+aon = "SpellDisplay.aspx?ItemName=Detect%20Mindscape"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "detect_mindscape", path = "json/spells3.json" },

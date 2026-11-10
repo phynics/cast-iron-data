@@ -2,6 +2,7 @@
 id = "ref/arc-bard/archaeologist"
 kind = "archetype"
 title = "Archaeologist"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Archaeologist"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "archaeologist", path = "json/archetypes_bard.json" },

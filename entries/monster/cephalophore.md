@@ -2,6 +2,7 @@
 id = "ref/monster/cephalophore"
 kind = "creature"
 title = "Cephalophore"
+aon = "MonsterDisplay.aspx?ItemName=Cephalophore"
 source_ids = ["bestiary-4", "pathfinder-64-beyond-the-doomsday-door"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cephalophore", path = "json/monsters28.json" },

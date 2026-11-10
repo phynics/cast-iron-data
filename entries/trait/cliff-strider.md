@@ -2,6 +2,7 @@
 id = "ref/trait/cliff-strider"
 kind = "trait"
 title = "Cliff Strider"
+aon = "TraitDisplay.aspx?ItemName=Cliff%20Strider"
 source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cliff_strider", path = "json/traits04.json" },

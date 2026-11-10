@@ -2,6 +2,7 @@
 id = "ref/spell/divine-transfer"
 kind = "spell"
 title = "Divine Transfer"
+aon = "SpellDisplay.aspx?ItemName=Divine%20Transfer"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divine_transfer", path = "json/spells13.json" },

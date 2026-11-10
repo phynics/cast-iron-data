@@ -2,6 +2,7 @@
 id = "ref/feat/kraken-style"
 kind = "feat"
 title = "Kraken Style"
+aon = "FeatDisplay.aspx?ItemName=Kraken%20Style"
 source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kraken_style", path = "json/feat09.json" },

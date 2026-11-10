@@ -2,6 +2,7 @@
 id = "ref/feat/greater-disarm/teitr"
 kind = "feat"
 title = "Greater Disarm"
+aon = "FeatDisplay.aspx?ItemName=Greater%20Disarm"
 source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/greater-disarm" },

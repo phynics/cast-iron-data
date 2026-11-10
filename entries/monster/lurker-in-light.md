@@ -2,6 +2,7 @@
 id = "ref/monster/lurker-in-light"
 kind = "creature"
 title = "Lurker in Light"
+aon = "MonsterDisplay.aspx?ItemName=Lurker%20in%20Light"
 source_ids = ["bestiary-2", "the-great-beyond-a-guide-to-the-multiverse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lurker_in_light", path = "json/monsters16.json" },

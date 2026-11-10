@@ -2,6 +2,7 @@
 id = "ref/arc-cleric/idealist"
 kind = "archetype"
 title = "Idealist"
+aon = "ArchetypeDisplay.aspx?FixedName=Cleric%20Idealist"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "idealist", path = "json/archetypes_cleric.json" },

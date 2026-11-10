@@ -2,6 +2,7 @@
 id = "ref/spell/temporal-stasis"
 kind = "spell"
 title = "Temporal Stasis"
+aon = "SpellDisplay.aspx?ItemName=Temporal%20Stasis"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "temporal_stasis", path = "json/spells10.json" },

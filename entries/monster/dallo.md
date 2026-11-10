@@ -2,6 +2,7 @@
 id = "ref/monster/dallo"
 kind = "creature"
 title = "Dallo"
+aon = "MonsterDisplay.aspx?ItemName=Dallo"
 source_ids = ["pathfinder-118-siege-of-stone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dallo", path = "json/monsters06.json" },

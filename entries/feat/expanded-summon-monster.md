@@ -2,6 +2,7 @@
 id = "ref/feat/expanded-summon-monster"
 kind = "feat"
 title = "Expanded Summon Monster"
+aon = "FeatDisplay.aspx?ItemName=Expanded%20Summon%20Monster"
 source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "expanded_summon_monster", path = "json/feat06.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/night-terrors"
 kind = "spell"
 title = "Night Terrors"
+aon = "SpellDisplay.aspx?ItemName=Night%20Terrors"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "night_terrors", path = "json/spells7.json" },

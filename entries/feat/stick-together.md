@@ -2,6 +2,7 @@
 id = "ref/feat/stick-together"
 kind = "feat"
 title = "Stick Together"
+aon = "FeatDisplay.aspx?ItemName=Stick%20Together"
 source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stick_together", path = "json/feat15.json" },

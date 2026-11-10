@@ -2,6 +2,7 @@
 id = "ref/feat/draining-strike"
 kind = "feat"
 title = "Draining Strike"
+aon = "FeatDisplay.aspx?ItemName=Draining%20Strike"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "draining_strike", path = "json/feat05.json" },

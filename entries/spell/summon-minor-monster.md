@@ -2,6 +2,7 @@
 id = "ref/spell/summon-minor-monster"
 kind = "spell"
 title = "Summon Minor Monster"
+aon = "SpellDisplay.aspx?ItemName=Summon%20Minor%20Monster"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summon_minor_monster", path = "json/spells16.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/channeled-shield-wall"
 kind = "feat"
 title = "Channeled Shield Wall"
+aon = "FeatDisplay.aspx?ItemName=Channeled%20Shield%20Wall"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "channeled_shield_wall", path = "json/feat03.json" },

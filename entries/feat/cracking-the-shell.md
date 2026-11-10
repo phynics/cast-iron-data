@@ -2,6 +2,7 @@
 id = "ref/feat/cracking-the-shell"
 kind = "feat"
 title = "Cracking the Shell"
+aon = "FeatDisplay.aspx?ItemName=Cracking%20the%20Shell"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cracking_the_shell", path = "json/feat03.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/blink-dog"
 kind = "creature"
 title = "Blink Dog"
+aon = "MonsterDisplay.aspx?ItemName=Blink%20Dog"
 source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blink_dog", path = "json/monsters27.json" },

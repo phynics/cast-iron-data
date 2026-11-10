@@ -2,6 +2,7 @@
 id = "ref/feat/mischievous-tail"
 kind = "feat"
 title = "Mischievous Tail"
+aon = "FeatDisplay.aspx?ItemName=Mischievous%20Tail"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mischievous_tail", path = "json/feat10.json" },

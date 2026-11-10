@@ -2,6 +2,7 @@
 id = "ref/feat/extra-bombs"
 kind = "feat"
 title = "Extra Bombs"
+aon = "FeatDisplay.aspx?ItemName=Extra%20Bombs"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extra_bombs", path = "json/feat06.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/theoretical-magician"
 kind = "trait"
 title = "Theoretical Magician"
+aon = "TraitDisplay.aspx?ItemName=Theoretical%20Magician"
 source_ids = ["cheliax-empire-of-devils"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "theoretical_magician", path = "json/traits02.json" },

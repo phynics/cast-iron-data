@@ -2,6 +2,7 @@
 id = "ref/feat/eagle-eyed"
 kind = "feat"
 title = "Eagle-Eyed"
+aon = "FeatDisplay.aspx?ItemName=Eagle-Eyed"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eagle_eyed", path = "json/feat05.json" },

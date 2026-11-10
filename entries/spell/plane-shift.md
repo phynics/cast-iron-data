@@ -2,6 +2,7 @@
 id = "ref/spell/plane-shift"
 kind = "spell"
 title = "Plane Shift"
+aon = "SpellDisplay.aspx?ItemName=Plane%20Shift"
 source_ids = ["core-rulebook", "planes-of-power"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plane_shift", path = "json/spells7.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-witch/jinx-witch"
 kind = "archetype"
 title = "Jinx Witch"
+aon = "ArchetypeDisplay.aspx?FixedName=Witch%20Jinx%20Witch"
 source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jinx_witch", path = "json/archetypes_witch.json" },

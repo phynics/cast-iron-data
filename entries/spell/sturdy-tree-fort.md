@@ -2,6 +2,7 @@
 id = "ref/spell/sturdy-tree-fort"
 kind = "spell"
 title = "Sturdy Tree Fort"
+aon = "SpellDisplay.aspx?ItemName=Sturdy%20Tree%20Fort"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sturdy_tree_fort", path = "json/spells16.json" },

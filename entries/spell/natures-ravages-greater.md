@@ -2,6 +2,7 @@
 id = "ref/spell/natures-ravages-greater"
 kind = "spell"
 title = "Greater Nature's Ravages"
+aon = "SpellDisplay.aspx?ItemName=Nature%27s%20Ravages%2C%20Greater"
 source_ids = ["dungeoneers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "natures_ravages_greater", path = "json/spells7.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/the-bridge"
 kind = "trait"
 title = "The Bridge"
+aon = "TraitDisplay.aspx?ItemName=The%20Bridge"
 source_ids = ["occult-mysteries"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_bridge", path = "json/traits03.json" },

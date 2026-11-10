@@ -2,6 +2,7 @@
 id = "ref/feat/schooled-resolve"
 kind = "feat"
 title = "Schooled Resolve"
+aon = "FeatDisplay.aspx?ItemName=Schooled%20Resolve"
 source_ids = ["blood-of-the-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "schooled_resolve", path = "json/feat13.json" },

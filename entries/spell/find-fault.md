@@ -2,6 +2,7 @@
 id = "ref/spell/find-fault"
 kind = "spell"
 title = "Find Fault"
+aon = "SpellDisplay.aspx?ItemName=Find%20Fault"
 source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "find_fault", path = "json/spells4.json" },

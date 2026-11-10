@@ -2,6 +2,7 @@
 id = "ref/arc-warpriest/feral-champion"
 kind = "archetype"
 title = "Feral Champion"
+aon = "ArchetypeDisplay.aspx?FixedName=Warpriest%20Feral%20Champion"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "feral_champion", path = "json/archetypes_warpriest.json" },

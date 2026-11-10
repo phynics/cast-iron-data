@@ -2,6 +2,7 @@
 id = "ref/spell/haunting-choir"
 kind = "spell"
 title = "Haunting Choir"
+aon = "SpellDisplay.aspx?ItemName=Haunting%20Choir"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "haunting_choir", path = "json/spells5.json" },

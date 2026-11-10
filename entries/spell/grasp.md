@@ -2,6 +2,7 @@
 id = "ref/spell/grasp"
 kind = "spell"
 title = "Grasp"
+aon = "SpellDisplay.aspx?ItemName=Grasp"
 source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grasp", path = "json/spells5.json" },

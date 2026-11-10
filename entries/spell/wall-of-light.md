@@ -2,6 +2,7 @@
 id = "ref/spell/wall-of-light"
 kind = "spell"
 title = "Wall of Light"
+aon = "SpellDisplay.aspx?ItemName=Wall%20of%20Light"
 source_ids = ["the-dragons-demand"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wall_of_light", path = "json/spells11.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/scroll-scoundrel"
 kind = "archetype"
 title = "Scroll Scoundrel"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Scroll%20Scoundrel"
 source_ids = ["pathfinder-society-field-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scroll_scoundrel", path = "json/archetypes_rogue.json" },

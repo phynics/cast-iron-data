@@ -2,6 +2,7 @@
 id = "ref/feat/earthtouched"
 kind = "feat"
 title = "Earthtouched"
+aon = "FeatDisplay.aspx?ItemName=Earthtouched"
 source_ids = ["giants-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "earthtouched", path = "json/feat05.json" },

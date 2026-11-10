@@ -2,6 +2,7 @@
 id = "ref/feat/extra-item-slot"
 kind = "feat"
 title = "Extra Item Slot"
+aon = "FeatDisplay.aspx?ItemName=Extra%20Item%20Slot"
 source_ids = ["animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extra_item_slot", path = "json/feat06.json" },

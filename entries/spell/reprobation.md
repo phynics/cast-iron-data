@@ -2,6 +2,7 @@
 id = "ref/spell/reprobation"
 kind = "spell"
 title = "Reprobation"
+aon = "SpellDisplay.aspx?ItemName=Reprobation"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reprobation", path = "json/spells8.json" },

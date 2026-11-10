@@ -2,6 +2,7 @@
 id = "ref/trait/scholar-of-the-ancients"
 kind = "trait"
 title = "Scholar of the Ancients"
+aon = "TraitDisplay.aspx?ItemName=Scholar%20of%20the%20Ancients"
 source_ids = ["rise-of-the-runelords-anniversary-edition-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scholar_of_the_ancients", path = "json/traits02.json" },

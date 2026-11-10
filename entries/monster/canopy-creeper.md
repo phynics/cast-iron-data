@@ -2,6 +2,7 @@
 id = "ref/monster/canopy-creeper"
 kind = "creature"
 title = "Canopy Creeper"
+aon = "MonsterDisplay.aspx?ItemName=Canopy%20Creeper"
 source_ids = ["pathfinder-56-raiders-of-the-fever-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "canopy_creeper", path = "json/monsters04.json" },

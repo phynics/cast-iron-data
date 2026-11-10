@@ -2,6 +2,7 @@
 id = "ref/feat/raging-blood"
 kind = "feat"
 title = "Raging Blood"
+aon = "FeatDisplay.aspx?ItemName=Raging%20Blood"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "raging_blood", path = "json/feat12.json" },

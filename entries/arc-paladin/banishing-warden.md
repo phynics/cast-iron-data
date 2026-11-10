@@ -2,6 +2,7 @@
 id = "ref/arc-paladin/banishing-warden"
 kind = "archetype"
 title = "Banishing Warden"
+aon = "ArchetypeDisplay.aspx?FixedName=Paladin%20Banishing%20Warden"
 source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "banishing_warden", path = "json/archetypes_paladin.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/iron-rhinoceros"
 kind = "creature"
 title = "Iron Rhinoceros"
+aon = "MonsterDisplay.aspx?ItemName=Iron%20Rhinoceros"
 source_ids = ["pathfinder-95-anvil-of-fire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "iron_rhinoceros", path = "json/monsters33.json" },

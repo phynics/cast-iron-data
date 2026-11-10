@@ -2,6 +2,7 @@
 id = "ref/race/syrinx"
 kind = "race"
 title = "Syrinx"
+aon = "RacesDisplay.aspx?ItemName=Syrinx"
 source_ids = ["inner-sea-races", "inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "syrinx", path = "json/races4.json" },

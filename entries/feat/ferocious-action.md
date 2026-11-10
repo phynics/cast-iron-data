@@ -2,6 +2,7 @@
 id = "ref/feat/ferocious-action"
 kind = "feat"
 title = "Ferocious Action"
+aon = "FeatDisplay.aspx?ItemName=Ferocious%20Action"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ferocious_action", path = "json/feat07.json" },

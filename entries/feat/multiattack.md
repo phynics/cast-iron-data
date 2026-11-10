@@ -2,6 +2,7 @@
 id = "ref/feat/multiattack"
 kind = "feat"
 title = "Multiattack"
+aon = "FeatDisplay.aspx?ItemName=Multiattack"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "multiattack", path = "json/feat11.json" },

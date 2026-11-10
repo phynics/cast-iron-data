@@ -2,6 +2,7 @@
 id = "ref/trait/irrepressible"
 kind = "trait"
 title = "Irrepressible"
+aon = "TraitDisplay.aspx?ItemName=Irrepressible"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "irrepressible", path = "json/traits01.json" },

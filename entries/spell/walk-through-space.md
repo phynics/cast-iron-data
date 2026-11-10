@@ -2,6 +2,7 @@
 id = "ref/spell/walk-through-space"
 kind = "spell"
 title = "Walk through Space"
+aon = "SpellDisplay.aspx?ItemName=Walk%20through%20Space"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "walk_through_space", path = "json/spells11.json" },

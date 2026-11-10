@@ -2,6 +2,7 @@
 id = "ref/trait/born-under-the-stranger"
 kind = "trait"
 title = "Born under the Stranger"
+aon = "TraitDisplay.aspx?ItemName=Born%20under%20the%20Stranger"
 source_ids = ["people-of-the-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "born_under_the_stranger", path = "json/traits01.json" },

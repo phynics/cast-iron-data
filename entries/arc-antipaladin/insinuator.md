@@ -2,6 +2,7 @@
 id = "ref/arc-antipaladin/insinuator"
 kind = "archetype"
 title = "Insinuator"
+aon = "ArchetypeDisplay.aspx?FixedName=Antipaladin%20Insinuator"
 source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "insinuator", path = "json/archetypes_antipaladin.json" },

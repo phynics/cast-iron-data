@@ -2,6 +2,7 @@
 id = "ref/feat/magic-trick"
 kind = "feat"
 title = "Magic Trick"
+aon = "FeatDisplay.aspx?ItemName=Magic%20Trick"
 source_ids = ["chronicle-of-legends", "distant-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_trick", path = "json/feat10.json" },

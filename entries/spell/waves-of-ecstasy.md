@@ -2,6 +2,7 @@
 id = "ref/spell/waves-of-ecstasy"
 kind = "spell"
 title = "Waves of Ecstasy"
+aon = "SpellDisplay.aspx?ItemName=Waves%20of%20Ecstasy"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "waves_of_ecstasy", path = "json/spells11.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-cavalier/vermin-tamer"
 kind = "archetype"
 title = "Vermin Tamer"
+aon = "ArchetypeDisplay.aspx?FixedName=Cavalier%20Vermin%20Tamer"
 source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vermin_tamer", path = "json/archetypes_cavalier.json" },

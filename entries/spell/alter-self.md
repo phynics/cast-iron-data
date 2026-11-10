@@ -2,6 +2,7 @@
 id = "ref/spell/alter-self"
 kind = "spell"
 title = "Alter Self"
+aon = "SpellDisplay.aspx?ItemName=Alter%20Self"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alter_self", path = "json/spells.json" },

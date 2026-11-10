@@ -2,6 +2,7 @@
 id = "ref/spell/waterproof"
 kind = "spell"
 title = "Waterproof"
+aon = "SpellDisplay.aspx?ItemName=Waterproof"
 source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "waterproof", path = "json/spells11.json" },

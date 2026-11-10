@@ -2,6 +2,7 @@
 id = "ref/feat/demon-grafter"
 kind = "feat"
 title = "Demon Grafter"
+aon = "FeatDisplay.aspx?ItemName=Demon%20Grafter"
 source_ids = ["pathfinder-74-sword-of-valor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_grafter", path = "json/feat04.json" },

@@ -2,6 +2,7 @@
 id = "ref/magic-ring/kyton-ring"
 kind = "item"
 title = "Kyton Ring"
+aon = "MagicRingsDisplay.aspx?FinalName=Kyton%20Ring"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kyton_ring", path = "json/magic_ring.json" },

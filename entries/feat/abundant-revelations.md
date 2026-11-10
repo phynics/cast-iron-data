@@ -2,6 +2,7 @@
 id = "ref/feat/abundant-revelations"
 kind = "feat"
 title = "Abundant Revelations"
+aon = "FeatDisplay.aspx?ItemName=Abundant%20Revelations"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "abundant_revelations", path = "json/feat01.json" },

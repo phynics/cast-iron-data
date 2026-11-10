@@ -2,6 +2,7 @@
 id = "ref/feat/fortunate-one"
 kind = "feat"
 title = "Fortunate One"
+aon = "FeatDisplay.aspx?ItemName=Fortunate%20One"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fortunate_one", path = "json/feat07.json" },

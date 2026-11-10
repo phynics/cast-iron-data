@@ -2,6 +2,7 @@
 id = "ref/feat/hurricane-punch"
 kind = "feat"
 title = "Hurricane Punch"
+aon = "FeatDisplay.aspx?ItemName=Hurricane%20Punch"
 source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hurricane_punch", path = "json/feat08.json" },

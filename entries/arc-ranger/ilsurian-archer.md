@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/ilsurian-archer"
 kind = "archetype"
 title = "Ilsurian Archer"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Ilsurian%20Archer"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ilsurian_archer", path = "json/archetypes_ranger.json" },

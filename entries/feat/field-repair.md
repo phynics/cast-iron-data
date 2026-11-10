@@ -2,6 +2,7 @@
 id = "ref/feat/field-repair"
 kind = "feat"
 title = "Field Repair"
+aon = "FeatDisplay.aspx?ItemName=Field%20Repair"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "field_repair", path = "json/feat07.json" },

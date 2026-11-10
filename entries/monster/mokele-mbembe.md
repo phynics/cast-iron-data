@@ -2,6 +2,7 @@
 id = "ref/monster/mokele-mbembe"
 kind = "creature"
 title = "Mokele-Mbembe"
+aon = "MonsterDisplay.aspx?ItemName=Mokele-Mbembe"
 source_ids = ["bestiary-6", "pathfinder-39-the-city-of-seven-spears", "mystery-monsters-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mokele_mbembe", path = "json/monsters17.json" },

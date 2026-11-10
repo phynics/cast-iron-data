@@ -2,6 +2,7 @@
 id = "ref/spell/lighten-object"
 kind = "spell"
 title = "Lighten Object"
+aon = "SpellDisplay.aspx?ItemName=Lighten%20Object"
 source_ids = ["inner-sea-gods", "faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lighten_object", path = "json/spells6.json" },

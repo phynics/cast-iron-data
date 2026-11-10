@@ -2,6 +2,7 @@
 id = "ref/feat/net-trickery"
 kind = "feat"
 title = "Net Trickery"
+aon = "FeatDisplay.aspx?ItemName=Net%20Trickery"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "net_trickery", path = "json/feat11.json" },

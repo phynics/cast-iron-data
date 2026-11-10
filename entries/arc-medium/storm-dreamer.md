@@ -2,6 +2,7 @@
 id = "ref/arc-medium/storm-dreamer"
 kind = "archetype"
 title = "Storm Dreamer"
+aon = "ArchetypeDisplay.aspx?FixedName=Medium%20Storm%20Dreamer"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "storm_dreamer", path = "json/archetypes_medium.json" },

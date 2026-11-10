@@ -2,6 +2,7 @@
 id = "ref/spell/aquatic-trail"
 kind = "spell"
 title = "Aquatic Trail"
+aon = "SpellDisplay.aspx?ItemName=Aquatic%20Trail"
 source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aquatic_trail", path = "json/spells.json" },

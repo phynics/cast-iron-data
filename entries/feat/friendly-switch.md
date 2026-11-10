@@ -2,6 +2,7 @@
 id = "ref/feat/friendly-switch"
 kind = "feat"
 title = "Friendly Switch"
+aon = "FeatDisplay.aspx?ItemName=Friendly%20Switch"
 source_ids = ["seekers-of-secrets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "friendly_switch", path = "json/feat07.json" },

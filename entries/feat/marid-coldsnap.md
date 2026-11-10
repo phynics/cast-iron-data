@@ -2,6 +2,7 @@
 id = "ref/feat/marid-coldsnap"
 kind = "feat"
 title = "Marid Coldsnap"
+aon = "FeatDisplay.aspx?ItemName=Marid%20Coldsnap"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "marid_coldsnap", path = "json/feat10.json" },

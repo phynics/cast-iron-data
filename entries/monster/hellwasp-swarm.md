@@ -2,6 +2,7 @@
 id = "ref/monster/hellwasp-swarm"
 kind = "creature"
 title = "Hellwasp Swarm"
+aon = "MonsterDisplay.aspx?ItemName=Hellwasp%20Swarm"
 source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hellwasp_swarm", path = "json/monsters13.json" },

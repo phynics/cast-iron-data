@@ -2,6 +2,7 @@
 id = "ref/monster/carrionstorm"
 kind = "creature"
 title = "Carrionstorm"
+aon = "MonsterDisplay.aspx?ItemName=Carrionstorm"
 source_ids = ["rise-of-the-runelords-anniversary-edition", "pathfinder-2-the-skinsaw-murders"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "carrionstorm", path = "json/monsters04.json" },

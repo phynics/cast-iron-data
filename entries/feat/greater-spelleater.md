@@ -2,6 +2,7 @@
 id = "ref/feat/greater-spelleater"
 kind = "feat"
 title = "Greater Spelleater"
+aon = "FeatDisplay.aspx?ItemName=Greater%20Spelleater"
 source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_spelleater", path = "json/feat08.json" },

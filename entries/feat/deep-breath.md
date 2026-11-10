@@ -2,6 +2,7 @@
 id = "ref/feat/deep-breath"
 kind = "feat"
 title = "Deep Breath"
+aon = "FeatDisplay.aspx?ItemName=Deep%20Breath"
 source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deep_breath", path = "json/feat04.json" },

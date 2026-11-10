@@ -2,6 +2,7 @@
 id = "ref/feat/draconic-manifestation"
 kind = "feat"
 title = "Draconic Manifestation"
+aon = "FeatDisplay.aspx?ItemName=Draconic%20Manifestation"
 source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "draconic_manifestation", path = "json/feat05.json" },

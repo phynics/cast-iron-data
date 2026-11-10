@@ -2,6 +2,7 @@
 id = "ref/monster/abandoned-armory"
 kind = "creature"
 title = "Abandoned Armory"
+aon = "MonsterDisplay.aspx?ItemName=Abandoned%20Armory"
 source_ids = ["pathfinder-142-gardens-of-gallowspire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "abandoned_armory", path = "json/monsters01.json" },

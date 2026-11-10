@@ -2,6 +2,7 @@
 id = "ref/feat/shatter-mental-mask"
 kind = "feat"
 title = "Shatter Mental Mask"
+aon = "FeatDisplay.aspx?ItemName=Shatter%20Mental%20Mask"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shatter_mental_mask", path = "json/feat14.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/ichimeiyo-champion"
 kind = "trait"
 title = "Ichimeiyo Champion"
+aon = "TraitDisplay.aspx?ItemName=Ichimeiyo%20Champion"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ichimeiyo_champion", path = "json/traits01.json" },

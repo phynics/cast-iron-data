@@ -2,6 +2,7 @@
 id = "ref/feat/chakra-mandala"
 kind = "feat"
 title = "Chakra Mandala"
+aon = "FeatDisplay.aspx?ItemName=Chakra%20Mandala"
 source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chakra_mandala", path = "json/feat03.json" },

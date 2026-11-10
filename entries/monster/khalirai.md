@@ -2,6 +2,7 @@
 id = "ref/monster/khalirai"
 kind = "creature"
 title = "Khalirai, the Ivory Queen"
+aon = "MonsterDisplay.aspx?ItemName=Khalirai%2C%20the%20Ivory%20Queen"
 source_ids = ["fey-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "khalirai", path = "json/monsters_unique4.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/elven-battle-style"
 kind = "feat"
 title = "Elven Battle Style"
+aon = "FeatDisplay.aspx?ItemName=Elven%20Battle%20Style"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elven_battle_style", path = "json/feat05.json" },

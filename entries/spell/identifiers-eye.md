@@ -2,6 +2,7 @@
 id = "ref/spell/identifiers-eye"
 kind = "spell"
 title = "Identifier's Eye"
+aon = "SpellDisplay.aspx?ItemName=Identifier%27s%20Eye"
 source_ids = ["core-rulebook", "adventurers-guide", "andoran-spirit-of-liberty", "ultimate-intrigue", "potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "identifiers_eye", path = "json/spells3.json" },

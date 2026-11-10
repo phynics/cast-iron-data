@@ -2,6 +2,7 @@
 id = "ref/pclass/feysworn"
 kind = "prestige_class"
 title = "Feysworn"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Feysworn"
 source_ids = ["the-first-world-realm-of-the-fey"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "feysworn", path = "json/prestige_classes2.json" },

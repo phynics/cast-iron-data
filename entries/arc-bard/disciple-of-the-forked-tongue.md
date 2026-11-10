@@ -2,6 +2,7 @@
 id = "ref/arc-bard/disciple-of-the-forked-tongue"
 kind = "archetype"
 title = "Disciple of the Forked Tongue"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Disciple%20of%20the%20Forked%20Tongue"
 source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disciple_of_the_forked_tongue", path = "json/archetypes_bard.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/centaur-centaur-outcast"
 kind = "creature"
 title = "Centaur Outcast"
+aon = "MonsterDisplay.aspx?ItemName=Centaur%20Outcast"
 source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "centaur_centaur_outcast", path = "json/monsters28.json" },

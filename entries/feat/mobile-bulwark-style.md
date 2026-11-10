@@ -2,6 +2,7 @@
 id = "ref/feat/mobile-bulwark-style"
 kind = "feat"
 title = "Mobile Bulwark Style"
+aon = "FeatDisplay.aspx?ItemName=Mobile%20Bulwark%20Style"
 source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mobile_bulwark_style", path = "json/feat10.json" },

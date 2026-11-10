@@ -2,6 +2,7 @@
 id = "ref/spell/diminished-detection"
 kind = "spell"
 title = "Diminished Detection"
+aon = "SpellDisplay.aspx?ItemName=Diminished%20Detection"
 source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "diminished_detection", path = "json/spells3.json" },

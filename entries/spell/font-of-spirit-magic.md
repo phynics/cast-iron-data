@@ -2,6 +2,7 @@
 id = "ref/spell/font-of-spirit-magic"
 kind = "spell"
 title = "Font of Spirit Magic"
+aon = "SpellDisplay.aspx?ItemName=Font%20of%20Spirit%20Magic"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "font_of_spirit_magic", path = "json/spells13.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/sly-draw"
 kind = "feat"
 title = "Sly Draw"
+aon = "FeatDisplay.aspx?ItemName=Sly%20Draw"
 source_ids = ["adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sly_draw", path = "json/feat14.json" },

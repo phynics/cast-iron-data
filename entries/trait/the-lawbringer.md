@@ -2,6 +2,7 @@
 id = "ref/trait/the-lawbringer"
 kind = "trait"
 title = "The Lawbringer"
+aon = "TraitDisplay.aspx?ItemName=The%20Lawbringer"
 source_ids = ["tyrants-grasp-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_lawbringer", path = "json/traits03.json" },

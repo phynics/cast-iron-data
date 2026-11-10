@@ -2,6 +2,7 @@
 id = "ref/feat/extra-mental-focus"
 kind = "feat"
 title = "Extra Mental Focus"
+aon = "FeatDisplay.aspx?ItemName=Extra%20Mental%20Focus"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extra_mental_focus", path = "json/feat06.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/old-cults-awakener"
 kind = "feat"
 title = "Old Cults Awakener"
+aon = "FeatDisplay.aspx?ItemName=Old%20Cults%20Awakener"
 source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "old_cults_awakener", path = "json/feat11.json" },

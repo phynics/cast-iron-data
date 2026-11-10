@@ -2,6 +2,7 @@
 id = "ref/trait/sharp-wits"
 kind = "trait"
 title = "Sharp Wits"
+aon = "TraitDisplay.aspx?ItemName=Sharp%20Wits"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sharp_wits", path = "json/traits05.json" },

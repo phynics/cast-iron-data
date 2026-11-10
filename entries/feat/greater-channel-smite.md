@@ -2,6 +2,7 @@
 id = "ref/feat/greater-channel-smite"
 kind = "feat"
 title = "Greater Channel Smite"
+aon = "FeatDisplay.aspx?ItemName=Greater%20Channel%20Smite"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_channel_smite", path = "json/feat07.json" },

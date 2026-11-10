@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-the-grasping-grave"
 kind = "item"
 title = "Ring of the Grasping Grave"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20the%20Grasping%20Grave"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_the_grasping_grave", path = "json/magic_ring.json" },

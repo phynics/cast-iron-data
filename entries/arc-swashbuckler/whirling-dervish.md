@@ -2,6 +2,7 @@
 id = "ref/arc-swashbuckler/whirling-dervish"
 kind = "archetype"
 title = "Whirling Dervish"
+aon = "ArchetypeDisplay.aspx?FixedName=Swashbuckler%20Whirling%20Dervish"
 source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "whirling_dervish", path = "json/archetypes_swashbuckler.json" },

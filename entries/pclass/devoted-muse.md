@@ -2,6 +2,7 @@
 id = "ref/pclass/devoted-muse"
 kind = "prestige_class"
 title = "Devoted Muse"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Devoted%20Muse"
 source_ids = ["paths-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devoted_muse", path = "json/prestige_classes.json" },

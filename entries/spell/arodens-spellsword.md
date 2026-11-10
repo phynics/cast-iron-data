@@ -2,6 +2,7 @@
 id = "ref/spell/arodens-spellsword"
 kind = "spell"
 title = "Aroden's Spellsword"
+aon = "SpellDisplay.aspx?ItemName=Aroden%27s%20Spellsword"
 source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arodens_spellsword", path = "json/spells.json" },

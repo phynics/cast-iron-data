@@ -2,6 +2,7 @@
 id = "ref/trait/secret-shame"
 kind = "trait"
 title = "Secret Shame"
+aon = "TraitDisplay.aspx?ItemName=Secret%20Shame"
 source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "secret_shame", path = "json/traits03.json" },

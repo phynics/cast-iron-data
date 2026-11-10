@@ -2,6 +2,7 @@
 id = "ref/arc-hunter/aquatic-beastmaster"
 kind = "archetype"
 title = "Aquatic Beastmaster"
+aon = "ArchetypeDisplay.aspx?FixedName=Hunter%20Aquatic%20Beastmaster"
 source_ids = ["blood-of-the-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aquatic_beastmaster", path = "json/archetypes_hunter.json" },

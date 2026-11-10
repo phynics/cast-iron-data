@@ -2,6 +2,7 @@
 id = "ref/feat/greater-shield-focus/teitr"
 kind = "feat"
 title = "Greater Shield Focus"
+aon = "FeatDisplay.aspx?ItemName=Greater%20Shield%20Focus"
 source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/greater-shield-focus" },

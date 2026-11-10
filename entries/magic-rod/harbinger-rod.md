@@ -2,6 +2,7 @@
 id = "ref/magic-rod/harbinger-rod"
 kind = "item"
 title = "Harbinger Rod"
+aon = "MagicIntelligentDisplay.aspx?ItemName=Harbinger%20Rod"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "harbinger_rod", path = "json/magic_rod.json" },

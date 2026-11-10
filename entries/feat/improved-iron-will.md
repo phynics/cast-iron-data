@@ -2,6 +2,7 @@
 id = "ref/feat/improved-iron-will"
 kind = "feat"
 title = "Improved Iron Will"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Iron%20Will"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_iron_will", path = "json/feat09.json" },

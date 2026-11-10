@@ -2,6 +2,7 @@
 id = "ref/feat/nimble-moves"
 kind = "feat"
 title = "Nimble Moves"
+aon = "FeatDisplay.aspx?ItemName=Nimble%20Moves"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nimble_moves", path = "json/feat11.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/air-bubble"
 kind = "spell"
 title = "Air Bubble"
+aon = "SpellDisplay.aspx?ItemName=Air%20Bubble"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "air_bubble", path = "json/spells.json" },

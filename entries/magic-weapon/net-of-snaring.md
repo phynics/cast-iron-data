@@ -2,6 +2,7 @@
 id = "ref/magic-weapon/net-of-snaring"
 kind = "item"
 title = "Net of Snaring"
+aon = "MagicCursedDisplay.aspx?ItemName=Net%20of%20Snaring"
 source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "net_of_snaring", path = "json/magic_weapon2.json" },

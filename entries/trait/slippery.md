@@ -2,6 +2,7 @@
 id = "ref/trait/slippery"
 kind = "trait"
 title = "Slippery"
+aon = "TraitDisplay.aspx?ItemName=Slippery"
 source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slippery", path = "json/traits01.json" },

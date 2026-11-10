@@ -2,6 +2,7 @@
 id = "ref/spell/prosperous-room"
 kind = "spell"
 title = "Prosperous Room"
+aon = "SpellDisplay.aspx?ItemName=Prosperous%20Room"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prosperous_room", path = "json/spells15.json" },

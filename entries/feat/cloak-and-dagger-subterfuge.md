@@ -2,6 +2,7 @@
 id = "ref/feat/cloak-and-dagger-subterfuge"
 kind = "feat"
 title = "Cloak and Dagger Subterfuge"
+aon = "FeatDisplay.aspx?ItemName=Cloak%20and%20Dagger%20Subterfuge"
 source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloak_and_dagger_subterfuge", path = "json/feat03.json" },

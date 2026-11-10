@@ -2,6 +2,7 @@
 id = "ref/spell/poisonous-cloud"
 kind = "spell"
 title = "Poisonous Cloud"
+aon = "SpellDisplay.aspx?ItemName=Poisonous%20Cloud"
 source_ids = ["core-rulebook", "potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "poisonous_cloud", path = "json/spells4.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/minotaur-minotaur-marauder"
 kind = "creature"
 title = "Minotaur Marauder"
+aon = "MonsterDisplay.aspx?ItemName=Minotaur%20Marauder"
 source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "minotaur_minotaur_marauder", path = "json/monsters35.json" },

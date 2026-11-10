@@ -2,6 +2,7 @@
 id = "ref/trait/guilty-fraud"
 kind = "trait"
 title = "Guilty Fraud"
+aon = "TraitDisplay.aspx?ItemName=Guilty%20Fraud"
 source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guilty_fraud", path = "json/traits03.json" },

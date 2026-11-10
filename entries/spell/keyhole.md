@@ -2,6 +2,7 @@
 id = "ref/spell/keyhole"
 kind = "spell"
 title = "Keyhole"
+aon = "SpellDisplay.aspx?ItemName=Keyhole"
 source_ids = ["pathfinder-143-borne-by-the-suns-grace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "keyhole", path = "json/spells6.json" },

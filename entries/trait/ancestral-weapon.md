@@ -2,6 +2,7 @@
 id = "ref/trait/ancestral-weapon"
 kind = "trait"
 title = "Ancestral Weapon"
+aon = "TraitDisplay.aspx?ItemName=Ancestral%20Weapon"
 source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ancestral_weapon", path = "json/traits04.json" },

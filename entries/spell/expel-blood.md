@@ -2,6 +2,7 @@
 id = "ref/spell/expel-blood"
 kind = "spell"
 title = "Expel Blood"
+aon = "SpellDisplay.aspx?ItemName=Expel%20Blood"
 source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "expel_blood", path = "json/spells4.json" },

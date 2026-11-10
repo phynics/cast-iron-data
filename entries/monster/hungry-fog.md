@@ -2,6 +2,7 @@
 id = "ref/monster/hungry-fog"
 kind = "creature"
 title = "Hungry Fog"
+aon = "MonsterDisplay.aspx?ItemName=Hungry%20Fog"
 source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hungry_fog", path = "json/monsters14.json" },

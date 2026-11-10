@@ -2,6 +2,7 @@
 id = "ref/feat/legionnaires-inspiration"
 kind = "feat"
 title = "Legionnaire's Inspiration"
+aon = "FeatDisplay.aspx?ItemName=Legionnaire%27s%20Inspiration"
 source_ids = ["adventurers-guide", "andoran-birthplace-of-freedom"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "legionnaires_inspiration", path = "json/feat10.json" },

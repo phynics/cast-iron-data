@@ -2,6 +2,7 @@
 id = "ref/feat/meteor-swing"
 kind = "feat"
 title = "Meteor Swing"
+aon = "FeatDisplay.aspx?ItemName=Meteor%20Swing"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "meteor_swing", path = "json/feat10.json" },

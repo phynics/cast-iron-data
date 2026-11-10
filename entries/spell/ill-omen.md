@@ -2,6 +2,7 @@
 id = "ref/spell/ill-omen"
 kind = "spell"
 title = "Ill Omen"
+aon = "SpellDisplay.aspx?ItemName=Ill%20Omen"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ill_omen", path = "json/spells14.json" },

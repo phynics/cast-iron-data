@@ -2,6 +2,7 @@
 id = "ref/feat/felling-smash"
 kind = "feat"
 title = "Felling Smash"
+aon = "FeatDisplay.aspx?ItemName=Felling%20Smash"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "felling_smash", path = "json/feat07.json" },

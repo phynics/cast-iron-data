@@ -2,6 +2,7 @@
 id = "ref/monster/devil-accuser-devil-zebub"
 kind = "creature"
 title = "Accuser Devil (Zebub)"
+aon = "MonsterDisplay.aspx?ItemName=Accuser%20Devil%20%28Zebub%29"
 source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_accuser_devil_zebub", path = "json/monsters07.json" },

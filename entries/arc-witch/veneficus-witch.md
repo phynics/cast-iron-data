@@ -2,6 +2,7 @@
 id = "ref/arc-witch/veneficus-witch"
 kind = "archetype"
 title = "Veneficus Witch"
+aon = "ArchetypeDisplay.aspx?FixedName=Witch%20Veneficus%20Witch"
 source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "veneficus_witch", path = "json/archetypes_witch.json" },

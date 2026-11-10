@@ -2,6 +2,7 @@
 id = "ref/arc-arcanist/unlettered-arcanist"
 kind = "archetype"
 title = "Unlettered Arcanist"
+aon = "ArchetypeDisplay.aspx?FixedName=Arcanist%20Unlettered%20Arcanist"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unlettered_arcanist", path = "json/archetypes_arcanist.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/dream-dalliance"
 kind = "spell"
 title = "Dream Dalliance"
+aon = "SpellDisplay.aspx?ItemName=Dream%20Dalliance"
 source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dream_dalliance", path = "json/spells13.json" },

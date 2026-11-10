@@ -2,6 +2,7 @@
 id = "ref/monster/weaverworm"
 kind = "creature"
 title = "Weaverworm"
+aon = "MonsterDisplay.aspx?ItemName=Weaverworm"
 source_ids = ["pathfinder-45-broken-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weaverworm", path = "json/monsters25.json" },

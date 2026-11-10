@@ -2,6 +2,7 @@
 id = "ref/feat/expanded-hunter-tactics"
 kind = "feat"
 title = "Expanded Hunter Tactics"
+aon = "FeatDisplay.aspx?ItemName=Expanded%20Hunter%20Tactics"
 source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "expanded_hunter_tactics", path = "json/feat06.json" },

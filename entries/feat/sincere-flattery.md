@@ -2,6 +2,7 @@
 id = "ref/feat/sincere-flattery"
 kind = "feat"
 title = "Sincere Flattery"
+aon = "FeatDisplay.aspx?ItemName=Sincere%20Flattery"
 source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sincere_flattery", path = "json/feat14.json" },

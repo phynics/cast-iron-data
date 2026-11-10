@@ -2,6 +2,7 @@
 id = "ref/spell/distracting-cacophony"
 kind = "spell"
 title = "Distracting Cacophony"
+aon = "SpellDisplay.aspx?ItemName=Distracting%20Cacophony"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "distracting_cacophony", path = "json/spells13.json" },

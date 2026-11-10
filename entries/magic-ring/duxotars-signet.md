@@ -2,6 +2,7 @@
 id = "ref/magic-ring/duxotars-signet"
 kind = "item"
 title = "Duxotar's Signet"
+aon = "MagicRingsDisplay.aspx?FinalName=Duxotar%27s%20Signet"
 source_ids = ["pathfinder-108-hell-comes-to-westcrown"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "duxotars_signet", path = "json/magic_ring.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/amplify-stench"
 kind = "spell"
 title = "Amplify Stench"
+aon = "SpellDisplay.aspx?ItemName=Amplify%20Stench"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "amplify_stench", path = "json/spells.json" },

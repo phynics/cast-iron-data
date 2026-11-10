@@ -2,6 +2,7 @@
 id = "ref/spell/heckle"
 kind = "spell"
 title = "Heckle"
+aon = "SpellDisplay.aspx?ItemName=Heckle"
 source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heckle", path = "json/spells5.json" },

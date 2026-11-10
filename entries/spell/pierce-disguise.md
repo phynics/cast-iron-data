@@ -2,6 +2,7 @@
 id = "ref/spell/pierce-disguise"
 kind = "spell"
 title = "Pierce Disguise"
+aon = "SpellDisplay.aspx?ItemName=Pierce%20Disguise"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pierce_disguise", path = "json/spells7.json" },

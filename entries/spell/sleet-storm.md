@@ -2,6 +2,7 @@
 id = "ref/spell/sleet-storm"
 kind = "spell"
 title = "Sleet Storm"
+aon = "SpellDisplay.aspx?ItemName=Sleet%20Storm"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sleet_storm", path = "json/spells9.json" },

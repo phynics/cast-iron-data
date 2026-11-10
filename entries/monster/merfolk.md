@@ -2,6 +2,7 @@
 id = "ref/monster/merfolk"
 kind = "creature"
 title = "Merfolk"
+aon = "MonsterDisplay.aspx?ItemName=Merfolk"
 source_ids = ["bestiary", "pathfinder-124-city-in-the-deep"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "merfolk", path = "json/monsters35.json" },

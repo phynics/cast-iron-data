@@ -2,6 +2,7 @@
 id = "ref/spell/resinous-skin"
 kind = "spell"
 title = "Resinous Skin"
+aon = "SpellDisplay.aspx?ItemName=Resinous%20Skin"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "resinous_skin", path = "json/spells8.json" },

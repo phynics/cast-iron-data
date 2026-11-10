@@ -2,6 +2,7 @@
 id = "ref/feat/tail-weapon"
 kind = "feat"
 title = "Tail Weapon"
+aon = "FeatDisplay.aspx?ItemName=Tail%20Weapon"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tail_weapon", path = "json/feat15.json" },

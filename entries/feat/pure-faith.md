@@ -2,6 +2,7 @@
 id = "ref/feat/pure-faith"
 kind = "feat"
 title = "Pure Faith"
+aon = "FeatDisplay.aspx?ItemName=Pure%20Faith"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pure_faith", path = "json/feat12.json" },

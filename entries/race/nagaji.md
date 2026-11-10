@@ -2,6 +2,7 @@
 id = "ref/race/nagaji"
 kind = "race"
 title = "Nagaji"
+aon = "RacesDisplay.aspx?ItemName=Nagaji"
 source_ids = ["inner-sea-races", "bestiary-4", "dragon-empires-primer", "dragon-empires-gazetteer", "advanced-race-guide", "blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nagaji", path = "json/races2.json" },

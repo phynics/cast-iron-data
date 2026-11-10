@@ -2,6 +2,7 @@
 id = "ref/feat/elven-battle-training"
 kind = "feat"
 title = "Elven Battle Training"
+aon = "FeatDisplay.aspx?ItemName=Elven%20Battle%20Training"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elven_battle_training", path = "json/feat05.json" },

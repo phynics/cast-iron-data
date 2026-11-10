@@ -2,6 +2,7 @@
 id = "ref/feat/uncertainty"
 kind = "feat"
 title = "Uncertainty"
+aon = "FeatDisplay.aspx?ItemName=Uncertainty"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "uncertainty", path = "json/feat16.json" },

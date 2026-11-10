@@ -2,6 +2,7 @@
 id = "ref/spell/invisibility-alarm"
 kind = "spell"
 title = "Invisibility Alarm"
+aon = "SpellDisplay.aspx?ItemName=Invisibility%20Alarm"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "invisibility_alarm", path = "json/spells14.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/rapid-grappler"
 kind = "feat"
 title = "Rapid Grappler"
+aon = "FeatDisplay.aspx?ItemName=Rapid%20Grappler"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rapid_grappler", path = "json/feat13.json" },

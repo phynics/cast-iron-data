@@ -2,6 +2,7 @@
 id = "ref/feat/aspis-partner"
 kind = "feat"
 title = "Aspis Partner"
+aon = "FeatDisplay.aspx?ItemName=Aspis%20Partner"
 source_ids = ["adventurers-guide", "agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aspis_partner", path = "json/feat01.json" },

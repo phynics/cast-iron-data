@@ -2,6 +2,7 @@
 id = "ref/spell/intensify-psyche"
 kind = "spell"
 title = "Intensify Psyche"
+aon = "SpellDisplay.aspx?ItemName=Intensify%20Psyche"
 source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "intensify_psyche", path = "json/spells14.json" },

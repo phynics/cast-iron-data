@@ -2,6 +2,7 @@
 id = "ref/spell/shadow-walk"
 kind = "spell"
 title = "Shadow Walk"
+aon = "SpellDisplay.aspx?ItemName=Shadow%20Walk"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_walk", path = "json/spells15.json" },

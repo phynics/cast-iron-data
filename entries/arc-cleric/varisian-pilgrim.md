@@ -2,6 +2,7 @@
 id = "ref/arc-cleric/varisian-pilgrim"
 kind = "archetype"
 title = "Varisian Pilgrim"
+aon = "ArchetypeDisplay.aspx?FixedName=Cleric%20Varisian%20Pilgrim"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "varisian_pilgrim", path = "json/archetypes_cleric.json" },

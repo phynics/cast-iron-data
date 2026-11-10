@@ -2,6 +2,7 @@
 id = "ref/monster/tatterlorn"
 kind = "creature"
 title = "Tatterlorn"
+aon = "MonsterDisplay.aspx?ItemName=Tatterlorn"
 source_ids = ["seers-of-the-drowned-city"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tatterlorn", path = "json/monsters23.json" },

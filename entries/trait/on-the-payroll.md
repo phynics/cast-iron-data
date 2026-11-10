@@ -2,6 +2,7 @@
 id = "ref/trait/on-the-payroll"
 kind = "trait"
 title = "On the Payroll"
+aon = "TraitDisplay.aspx?ItemName=On%20the%20Payroll"
 source_ids = ["carrion-crown-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "on_the_payroll", path = "json/traits02.json" },

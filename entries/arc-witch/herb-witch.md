@@ -2,6 +2,7 @@
 id = "ref/arc-witch/herb-witch"
 kind = "archetype"
 title = "Herb Witch"
+aon = "ArchetypeDisplay.aspx?FixedName=Witch%20Herb%20Witch"
 source_ids = ["ultimate-wilderness", "heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "herb_witch", path = "json/archetypes_witch.json" },

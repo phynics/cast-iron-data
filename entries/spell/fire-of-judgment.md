@@ -2,6 +2,7 @@
 id = "ref/spell/fire-of-judgment"
 kind = "spell"
 title = "Fire of Judgment"
+aon = "SpellDisplay.aspx?ItemName=Fire%20of%20Judgment"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fire_of_judgment", path = "json/spells4.json" },

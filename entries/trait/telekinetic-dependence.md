@@ -2,6 +2,7 @@
 id = "ref/trait/telekinetic-dependence"
 kind = "trait"
 title = "Telekinetic Dependence"
+aon = "TraitDisplay.aspx?ItemName=Telekinetic%20Dependence"
 source_ids = ["blood-of-the-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "telekinetic_dependence", path = "json/traits05.json" },

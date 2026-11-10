@@ -2,6 +2,7 @@
 id = "ref/trait/crowd-dodger"
 kind = "trait"
 title = "Crowd Dodger"
+aon = "TraitDisplay.aspx?ItemName=Crowd%20Dodger"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crowd_dodger", path = "json/traits01.json" },

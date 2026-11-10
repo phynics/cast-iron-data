@@ -2,6 +2,7 @@
 id = "ref/monster/ardoc-moilant"
 kind = "creature"
 title = "Ardoc Moilant"
+aon = "MonsterDisplay.aspx?ItemName=Ardoc%20Moilant"
 source_ids = ["pathfinder-135-runeplague"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ardoc_moilant", path = "json/monsters02.json" },

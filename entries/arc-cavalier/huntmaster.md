@@ -2,6 +2,7 @@
 id = "ref/arc-cavalier/huntmaster"
 kind = "archetype"
 title = "Huntmaster"
+aon = "ArchetypeDisplay.aspx?FixedName=Cavalier%20Huntmaster"
 source_ids = ["animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "huntmaster", path = "json/archetypes_cavalier.json" },

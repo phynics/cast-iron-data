@@ -2,6 +2,7 @@
 id = "ref/feat/strangler-mc"
 kind = "feat"
 title = "Strangler (MC)"
+aon = "FeatDisplay.aspx?ItemName=Strangler%20%28MC%29"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "strangler_mc", path = "json/feat15.json" },

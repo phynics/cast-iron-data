@@ -2,6 +2,7 @@
 id = "ref/spell/embrace-destiny"
 kind = "spell"
 title = "Embrace Destiny"
+aon = "SpellDisplay.aspx?ItemName=Embrace%20Destiny"
 source_ids = ["lost-kingdoms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "embrace_destiny", path = "json/spells4.json" },

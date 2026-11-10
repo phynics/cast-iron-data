@@ -2,6 +2,7 @@
 id = "ref/trait/sky-spirit-worshipper"
 kind = "trait"
 title = "Sky Spirit Worshipper"
+aon = "TraitDisplay.aspx?ItemName=Sky%20Spirit%20Worshipper"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sky_spirit_worshipper", path = "json/traits04.json" },

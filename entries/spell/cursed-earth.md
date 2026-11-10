@@ -2,6 +2,7 @@
 id = "ref/spell/cursed-earth"
 kind = "spell"
 title = "Cursed Earth"
+aon = "SpellDisplay.aspx?ItemName=Cursed%20Earth"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cursed_earth", path = "json/spells3.json" },

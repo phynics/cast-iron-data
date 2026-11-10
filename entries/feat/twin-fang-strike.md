@@ -2,6 +2,7 @@
 id = "ref/feat/twin-fang-strike"
 kind = "feat"
 title = "Twin Fang Strike"
+aon = "FeatDisplay.aspx?ItemName=Twin%20Fang%20Strike"
 source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "twin_fang_strike", path = "json/feat16.json" },

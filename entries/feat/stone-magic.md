@@ -2,6 +2,7 @@
 id = "ref/feat/stone-magic"
 kind = "feat"
 title = "Stone Magic"
+aon = "FeatDisplay.aspx?ItemName=Stone%20Magic"
 source_ids = ["giants-revisited", "pathfinder-4-fortress-of-the-stone-giants"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stone_magic", path = "json/feat15.json" },

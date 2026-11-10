@@ -2,6 +2,7 @@
 id = "ref/spell/keen-edge"
 kind = "spell"
 title = "Keen Edge"
+aon = "SpellDisplay.aspx?ItemName=Keen%20Edge"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "keen_edge", path = "json/spells6.json" },

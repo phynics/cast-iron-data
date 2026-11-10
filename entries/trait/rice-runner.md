@@ -2,6 +2,7 @@
 id = "ref/trait/rice-runner"
 kind = "trait"
 title = "Rice Runner"
+aon = "TraitDisplay.aspx?ItemName=Rice%20Runner"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rice_runner", path = "json/traits04.json" },

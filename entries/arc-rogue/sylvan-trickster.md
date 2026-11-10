@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/sylvan-trickster"
 kind = "archetype"
 title = "Sylvan Trickster"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Sylvan%20Trickster"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sylvan_trickster", path = "json/archetypes_rogue.json" },

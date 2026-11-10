@@ -2,6 +2,7 @@
 id = "ref/trait/animal-spirit-vitality"
 kind = "trait"
 title = "Animal-Spirit Vitality"
+aon = "TraitDisplay.aspx?ItemName=Animal-Spirit%20Vitality"
 source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animal_spirit_vitality", path = "json/traits04.json" },

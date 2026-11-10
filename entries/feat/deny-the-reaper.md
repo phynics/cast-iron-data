@@ -2,6 +2,7 @@
 id = "ref/feat/deny-the-reaper"
 kind = "feat"
 title = "Deny the Reaper"
+aon = "FeatDisplay.aspx?ItemName=Deny%20the%20Reaper"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deny_the_reaper", path = "json/feat04.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-paladin/tempered-champion"
 kind = "archetype"
 title = "Tempered Champion"
+aon = "ArchetypeDisplay.aspx?FixedName=Paladin%20Tempered%20Champion"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tempered_champion", path = "json/archetypes_paladin.json" },

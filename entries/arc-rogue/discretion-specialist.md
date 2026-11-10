@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/discretion-specialist"
 kind = "archetype"
 title = "Discretion Specialist"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Discretion%20Specialist"
 source_ids = ["antiheros-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "discretion_specialist", path = "json/archetypes_rogue.json" },

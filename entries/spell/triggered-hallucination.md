@@ -2,6 +2,7 @@
 id = "ref/spell/triggered-hallucination"
 kind = "spell"
 title = "Triggered Hallucination"
+aon = "SpellDisplay.aspx?ItemName=Triggered%20Hallucination"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "triggered_hallucination", path = "json/spells.json" },

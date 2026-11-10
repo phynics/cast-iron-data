@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/guide"
 kind = "archetype"
 title = "Guide"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Guide"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guide", path = "json/archetypes_ranger.json" },

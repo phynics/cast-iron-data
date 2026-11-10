@@ -2,6 +2,7 @@
 id = "ref/trait/gifted-smuggler"
 kind = "trait"
 title = "Gifted Smuggler"
+aon = "TraitDisplay.aspx?ItemName=Gifted%20Smuggler"
 source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gifted_smuggler", path = "json/traits01.json" },

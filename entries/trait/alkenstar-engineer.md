@@ -2,6 +2,7 @@
 id = "ref/trait/alkenstar-engineer"
 kind = "trait"
 title = "Alkenstar Engineer"
+aon = "TraitDisplay.aspx?ItemName=Alkenstar%20Engineer"
 source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alkenstar_engineer", path = "json/traits04.json" },

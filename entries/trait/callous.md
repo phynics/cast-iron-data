@@ -2,6 +2,7 @@
 id = "ref/trait/callous"
 kind = "trait"
 title = "Callous"
+aon = "TraitDisplay.aspx?ItemName=Callous"
 source_ids = ["antiheros-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "callous", path = "json/traits01.json" },

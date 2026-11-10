@@ -2,6 +2,7 @@
 id = "ref/feat/woodland-wraith"
 kind = "feat"
 title = "Woodland Wraith"
+aon = "FeatDisplay.aspx?ItemName=Woodland%20Wraith"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "woodland_wraith", path = "json/feat17.json" },

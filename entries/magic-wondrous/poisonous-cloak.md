@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/poisonous-cloak"
 kind = "item"
 title = "Poisonous Cloak"
+aon = "MagicCursedDisplay.aspx?ItemName=Poisonous%20Cloak"
 source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "poisonous_cloak", path = "json/magic_wondrous_shoulders_wrists.json" },

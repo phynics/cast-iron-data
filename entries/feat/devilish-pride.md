@@ -2,6 +2,7 @@
 id = "ref/feat/devilish-pride"
 kind = "feat"
 title = "Devilish Pride"
+aon = "FeatDisplay.aspx?ItemName=Devilish%20Pride"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devilish_pride", path = "json/feat04.json" },

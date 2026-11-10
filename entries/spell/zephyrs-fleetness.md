@@ -2,6 +2,7 @@
 id = "ref/spell/zephyrs-fleetness"
 kind = "spell"
 title = "Zephyr's Fleetness"
+aon = "SpellDisplay.aspx?ItemName=Zephyr%27s%20Fleetness"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "zephyrs_fleetness", path = "json/spells16.json" },

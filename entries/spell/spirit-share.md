@@ -2,6 +2,7 @@
 id = "ref/spell/spirit-share"
 kind = "spell"
 title = "Spirit Share"
+aon = "SpellDisplay.aspx?ItemName=Spirit%20Share"
 source_ids = ["inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spirit_share", path = "json/spells9.json" },

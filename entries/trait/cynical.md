@@ -2,6 +2,7 @@
 id = "ref/trait/cynical"
 kind = "trait"
 title = "Cynical"
+aon = "TraitDisplay.aspx?ItemName=Cynical"
 source_ids = ["antiheros-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cynical", path = "json/traits01.json" },

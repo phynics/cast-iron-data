@@ -2,6 +2,7 @@
 id = "ref/spell/chameleon-scales"
 kind = "spell"
 title = "Chameleon Scales"
+aon = "SpellDisplay.aspx?ItemName=Chameleon%20Scales"
 source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chameleon_scales", path = "json/spells2.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/titan-fighter"
 kind = "archetype"
 title = "Titan Fighter"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Titan%20Fighter"
 source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "titan_fighter", path = "json/archetypes_fighter2.json" },

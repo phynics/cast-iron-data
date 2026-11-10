@@ -2,6 +2,7 @@
 id = "ref/trait/nanite-revival"
 kind = "trait"
 title = "Nanite Revival"
+aon = "TraitDisplay.aspx?ItemName=Nanite%20Revival"
 source_ids = ["people-of-the-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nanite_revival", path = "json/traits05.json" },

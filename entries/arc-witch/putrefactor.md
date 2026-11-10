@@ -2,6 +2,7 @@
 id = "ref/arc-witch/putrefactor"
 kind = "archetype"
 title = "Putrefactor"
+aon = "ArchetypeDisplay.aspx?FixedName=Witch%20Putrefactor"
 source_ids = ["blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "putrefactor", path = "json/archetypes_witch.json" },

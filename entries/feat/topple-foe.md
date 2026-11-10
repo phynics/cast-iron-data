@@ -2,6 +2,7 @@
 id = "ref/feat/topple-foe"
 kind = "feat"
 title = "Topple Foe"
+aon = "FeatDisplay.aspx?ItemName=Topple%20Foe"
 source_ids = ["rival-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "topple_foe", path = "json/feat16.json" },

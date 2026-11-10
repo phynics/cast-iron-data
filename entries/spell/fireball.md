@@ -2,6 +2,7 @@
 id = "ref/spell/fireball"
 kind = "spell"
 title = "Fireball"
+aon = "SpellDisplay.aspx?ItemName=Fireball"
 source_ids = ["core-rulebook", "ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fireball", path = "json/spells4.json" },

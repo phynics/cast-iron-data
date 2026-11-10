@@ -2,6 +2,7 @@
 id = "ref/magic-staff/vril-staff"
 kind = "item"
 title = "Vril Staff"
+aon = "MagicStavesDisplay.aspx?ItemName=Vril%20Staff"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vril_staff", path = "json/magic_staff.json" },

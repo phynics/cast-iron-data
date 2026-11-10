@@ -2,6 +2,7 @@
 id = "ref/feat/hidden-presence"
 kind = "feat"
 title = "Hidden Presence"
+aon = "FeatDisplay.aspx?ItemName=Hidden%20Presence"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hidden_presence", path = "json/feat08.json" },

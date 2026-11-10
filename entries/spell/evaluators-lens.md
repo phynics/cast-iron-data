@@ -2,6 +2,7 @@
 id = "ref/spell/evaluators-lens"
 kind = "spell"
 title = "Evaluator's Lens"
+aon = "SpellDisplay.aspx?ItemName=Evaluator%27s%20Lens"
 source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "evaluators_lens", path = "json/spells4.json" },

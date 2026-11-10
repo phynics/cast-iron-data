@@ -2,6 +2,7 @@
 id = "ref/monster/demodand-squamous-demodand"
 kind = "creature"
 title = "Squamous Demodand"
+aon = "MonsterDisplay.aspx?ItemName=Squamous%20Demodand"
 source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demodand_squamous_demodand", path = "json/monsters29.json" },

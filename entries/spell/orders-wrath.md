@@ -2,6 +2,7 @@
 id = "ref/spell/orders-wrath"
 kind = "spell"
 title = "Order's Wrath"
+aon = "SpellDisplay.aspx?ItemName=Order%27s%20Wrath"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "orders_wrath", path = "json/spells7.json" },

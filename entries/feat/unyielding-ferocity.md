@@ -2,6 +2,7 @@
 id = "ref/feat/unyielding-ferocity"
 kind = "feat"
 title = "Unyielding Ferocity"
+aon = "FeatDisplay.aspx?ItemName=Unyielding%20Ferocity"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unyielding_ferocity", path = "json/feat17.json" },

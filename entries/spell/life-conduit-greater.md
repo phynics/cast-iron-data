@@ -2,6 +2,7 @@
 id = "ref/spell/life-conduit-greater"
 kind = "spell"
 title = "Greater Life Conduit"
+aon = "SpellDisplay.aspx?ItemName=Life%20Conduit%2C%20Greater"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "life_conduit_greater", path = "json/spells6.json" },

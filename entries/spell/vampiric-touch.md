@@ -2,6 +2,7 @@
 id = "ref/spell/vampiric-touch"
 kind = "spell"
 title = "Vampiric Touch"
+aon = "SpellDisplay.aspx?ItemName=Vampiric%20Touch"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vampiric_touch", path = "json/spells11.json" },

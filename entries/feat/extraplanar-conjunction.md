@@ -2,6 +2,7 @@
 id = "ref/feat/extraplanar-conjunction"
 kind = "feat"
 title = "Extraplanar Conjunction"
+aon = "FeatDisplay.aspx?ItemName=Extraplanar%20Conjunction"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extraplanar_conjunction", path = "json/feat06.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/flexible-foe"
 kind = "feat"
 title = "Flexible Foe"
+aon = "FeatDisplay.aspx?ItemName=Flexible%20Foe"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flexible_foe", path = "json/feat07.json" },

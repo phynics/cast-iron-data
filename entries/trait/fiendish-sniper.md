@@ -2,6 +2,7 @@
 id = "ref/trait/fiendish-sniper"
 kind = "trait"
 title = "Fiendish Sniper"
+aon = "TraitDisplay.aspx?ItemName=Fiendish%20Sniper"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fiendish_sniper", path = "json/traits05.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/master-of-disguise"
 kind = "archetype"
 title = "Master of Disguise"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Master%20of%20Disguise"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "master_of_disguise", path = "json/archetypes_rogue.json" },

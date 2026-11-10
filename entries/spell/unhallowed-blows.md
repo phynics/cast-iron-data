@@ -2,6 +2,7 @@
 id = "ref/spell/unhallowed-blows"
 kind = "spell"
 title = "Unhallowed Blows"
+aon = "SpellDisplay.aspx?ItemName=Unhallowed%20Blows"
 source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unhallowed_blows", path = "json/spells11.json" },

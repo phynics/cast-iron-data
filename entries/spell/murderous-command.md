@@ -2,6 +2,7 @@
 id = "ref/spell/murderous-command"
 kind = "spell"
 title = "Murderous Command"
+aon = "SpellDisplay.aspx?ItemName=Murderous%20Command"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "murderous_command", path = "json/spells7.json" },

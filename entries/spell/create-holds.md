@@ -2,6 +2,7 @@
 id = "ref/spell/create-holds"
 kind = "spell"
 title = "Create Holds"
+aon = "SpellDisplay.aspx?ItemName=Create%20Holds"
 source_ids = ["dungeoneers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "create_holds", path = "json/spells3.json" },

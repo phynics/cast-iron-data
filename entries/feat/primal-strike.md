@@ -2,6 +2,7 @@
 id = "ref/feat/primal-strike"
 kind = "feat"
 title = "Primal Strike"
+aon = "FeatDisplay.aspx?ItemName=Primal%20Strike"
 source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "primal_strike", path = "json/feat12.json" },

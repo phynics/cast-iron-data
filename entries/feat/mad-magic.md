@@ -2,6 +2,7 @@
 id = "ref/feat/mad-magic"
 kind = "feat"
 title = "Mad Magic"
+aon = "FeatDisplay.aspx?ItemName=Mad%20Magic"
 source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mad_magic", path = "json/feat10.json" },

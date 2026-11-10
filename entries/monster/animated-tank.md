@@ -2,6 +2,7 @@
 id = "ref/monster/animated-tank"
 kind = "creature"
 title = "Animated Tank"
+aon = "MonsterDisplay.aspx?ItemName=Animated%20Tank"
 source_ids = ["pathfinder-71-rasputin-must-die"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animated_tank", path = "json/monsters02.json" },

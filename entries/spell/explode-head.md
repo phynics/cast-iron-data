@@ -2,6 +2,7 @@
 id = "ref/spell/explode-head"
 kind = "spell"
 title = "Explode Head"
+aon = "SpellDisplay.aspx?ItemName=Explode%20Head"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "explode_head", path = "json/spells4.json" },

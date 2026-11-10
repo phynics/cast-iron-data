@@ -2,6 +2,7 @@
 id = "ref/race/vishkanya"
 kind = "race"
 title = "Vishkanya"
+aon = "RacesDisplay.aspx?ItemName=Vishkanya"
 source_ids = ["inner-sea-races", "advanced-race-guide", "bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vishkanya", path = "json/races4.json" },

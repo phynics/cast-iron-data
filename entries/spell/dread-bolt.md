@@ -2,6 +2,7 @@
 id = "ref/spell/dread-bolt"
 kind = "spell"
 title = "Dread Bolt"
+aon = "SpellDisplay.aspx?ItemName=Dread%20Bolt"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dread_bolt", path = "json/spells13.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/insect-plague"
 kind = "spell"
 title = "Insect Plague"
+aon = "SpellDisplay.aspx?ItemName=Insect%20Plague"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "insect_plague", path = "json/spells14.json" },

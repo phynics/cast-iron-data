@@ -2,6 +2,7 @@
 id = "ref/feat/tandem-trip"
 kind = "feat"
 title = "Tandem Trip"
+aon = "FeatDisplay.aspx?ItemName=Tandem%20Trip"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tandem_trip", path = "json/feat16.json" },

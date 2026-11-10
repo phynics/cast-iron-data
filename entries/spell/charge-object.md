@@ -2,6 +2,7 @@
 id = "ref/spell/charge-object"
 kind = "spell"
 title = "Charge Object"
+aon = "SpellDisplay.aspx?ItemName=Charge%20Object"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charge_object", path = "json/spells2.json" },

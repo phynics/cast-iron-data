@@ -2,6 +2,7 @@
 id = "ref/spell/enemys-heart"
 kind = "spell"
 title = "Enemy's Heart"
+aon = "SpellDisplay.aspx?ItemName=Enemy%27s%20Heart"
 source_ids = ["advanced-race-guide", "orcs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enemys_heart", path = "json/spells4.json" },

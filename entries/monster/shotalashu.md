@@ -2,6 +2,7 @@
 id = "ref/monster/shotalashu"
 kind = "creature"
 title = "Shotalashu"
+aon = "MonsterDisplay.aspx?ItemName=Shotalashu"
 source_ids = ["occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shotalashu", path = "json/monsters38.json" },

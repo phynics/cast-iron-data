@@ -2,6 +2,7 @@
 id = "ref/trait/chelish-sympathizer"
 kind = "trait"
 title = "Chelish Sympathizer"
+aon = "TraitDisplay.aspx?ItemName=Chelish%20Sympathizer"
 source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chelish_sympathizer", path = "json/traits01.json" },

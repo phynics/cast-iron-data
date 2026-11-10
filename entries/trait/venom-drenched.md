@@ -2,6 +2,7 @@
 id = "ref/trait/venom-drenched"
 kind = "trait"
 title = "Venom-Drenched"
+aon = "TraitDisplay.aspx?ItemName=Venom-Drenched"
 source_ids = ["halflings-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "venom_drenched", path = "json/traits03.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/discern-next-of-kin"
 kind = "spell"
 title = "Discern Next of Kin"
+aon = "SpellDisplay.aspx?ItemName=Discern%20Next%20of%20Kin"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "discern_next_of_kin", path = "json/spells3.json" },

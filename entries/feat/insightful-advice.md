@@ -2,6 +2,7 @@
 id = "ref/feat/insightful-advice"
 kind = "feat"
 title = "Insightful Advice"
+aon = "FeatDisplay.aspx?ItemName=Insightful%20Advice"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "insightful_advice", path = "json/feat09.json" },

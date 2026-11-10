@@ -2,6 +2,7 @@
 id = "ref/spell/rusting-grasp"
 kind = "spell"
 title = "Rusting Grasp"
+aon = "SpellDisplay.aspx?ItemName=Rusting%20Grasp"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rusting_grasp", path = "json/spells8.json" },

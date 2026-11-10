@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-summoning-affinity-agathion"
 kind = "item"
 title = "Ring of Summoning Affinity (Agathion)"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Summoning%20Affinity%20%28Agathion%29"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_summoning_affinity_agathion", path = "json/magic_ring.json" },

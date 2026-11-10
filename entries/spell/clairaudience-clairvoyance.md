@@ -2,6 +2,7 @@
 id = "ref/spell/clairaudience-clairvoyance"
 kind = "spell"
 title = "Clairaudience/Clairvoyance"
+aon = "SpellDisplay.aspx?ItemName=Clairaudience%2FClairvoyance"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clairaudience_clairvoyance", path = "json/spells2.json" },

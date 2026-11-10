@@ -2,6 +2,7 @@
 id = "ref/arc-bard/wit"
 kind = "archetype"
 title = "Wit"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Wit"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wit", path = "json/archetypes_bard2.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/child-of-the-streets"
 kind = "trait"
 title = "Child of the Streets"
+aon = "TraitDisplay.aspx?ItemName=Child%20of%20the%20Streets"
 source_ids = ["ultimate-campaign", "advanced-players-guide", "second-darkness-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "child_of_the_streets", path = "json/traits01.json" },

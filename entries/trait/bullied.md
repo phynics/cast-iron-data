@@ -2,6 +2,7 @@
 id = "ref/trait/bullied"
 kind = "trait"
 title = "Bullied"
+aon = "TraitDisplay.aspx?ItemName=Bullied"
 source_ids = ["ultimate-campaign", "second-darkness-players-guide", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bullied", path = "json/traits01.json" },

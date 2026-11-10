@@ -2,6 +2,7 @@
 id = "ref/feat/hellknight-obsession"
 kind = "feat"
 title = "Hellknight Obsession"
+aon = "FeatDisplay.aspx?ItemName=Hellknight%20Obsession"
 source_ids = ["path-of-the-hellknight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hellknight_obsession", path = "json/feat08.json" },

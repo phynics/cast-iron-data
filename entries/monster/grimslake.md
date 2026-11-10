@@ -2,6 +2,7 @@
 id = "ref/monster/grimslake"
 kind = "creature"
 title = "Grimslake"
+aon = "MonsterDisplay.aspx?ItemName=Grimslake"
 source_ids = ["bestiary-5", "the-worldwound"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grimslake", path = "json/monsters13.json" },

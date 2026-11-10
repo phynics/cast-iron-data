@@ -2,6 +2,7 @@
 id = "ref/feat/greater-trip/teitr"
 kind = "feat"
 title = "Greater Trip"
+aon = "FeatDisplay.aspx?ItemName=Greater%20Trip"
 source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/greater-trip" },

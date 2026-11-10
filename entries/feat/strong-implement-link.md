@@ -2,6 +2,7 @@
 id = "ref/feat/strong-implement-link"
 kind = "feat"
 title = "Strong Implement Link"
+aon = "FeatDisplay.aspx?ItemName=Strong%20Implement%20Link"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "strong_implement_link", path = "json/feat15.json" },

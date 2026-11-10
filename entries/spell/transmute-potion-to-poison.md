@@ -2,6 +2,7 @@
 id = "ref/spell/transmute-potion-to-poison"
 kind = "spell"
 title = "Transmute Potion to Poison"
+aon = "SpellDisplay.aspx?ItemName=Transmute%20Potion%20to%20Poison"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "transmute_potion_to_poison", path = "json/spells10.json" },

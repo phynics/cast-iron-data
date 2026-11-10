@@ -2,6 +2,7 @@
 id = "ref/feat/eyes-of-the-purge"
 kind = "feat"
 title = "Eyes of the Purge"
+aon = "FeatDisplay.aspx?ItemName=Eyes%20of%20the%20Purge"
 source_ids = ["pathfinder-132-the-six-legend-soul"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eyes_of_the_purge", path = "json/feat06.json" },

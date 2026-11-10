@@ -2,6 +2,7 @@
 id = "ref/trait/tanglebriar-guerrilla"
 kind = "trait"
 title = "Tanglebriar Guerrilla"
+aon = "TraitDisplay.aspx?ItemName=Tanglebriar%20Guerrilla"
 source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tanglebriar_guerrilla", path = "json/traits04.json" },

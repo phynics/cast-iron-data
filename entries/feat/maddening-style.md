@@ -2,6 +2,7 @@
 id = "ref/feat/maddening-style"
 kind = "feat"
 title = "Maddening Style"
+aon = "FeatDisplay.aspx?ItemName=Maddening%20Style"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "maddening_style", path = "json/feat10.json" },

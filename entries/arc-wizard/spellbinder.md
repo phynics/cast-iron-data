@@ -2,6 +2,7 @@
 id = "ref/arc-wizard/spellbinder"
 kind = "archetype"
 title = "Spellbinder"
+aon = "ArchetypeDisplay.aspx?FixedName=Wizard%20Spellbinder"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spellbinder", path = "json/archetypes_wizard.json" },

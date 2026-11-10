@@ -2,6 +2,7 @@
 id = "ref/feat/primal-kineticist"
 kind = "feat"
 title = "Primal Kineticist"
+aon = "FeatDisplay.aspx?ItemName=Primal%20Kineticist"
 source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "primal_kineticist", path = "json/feat12.json" },

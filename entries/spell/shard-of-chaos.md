@@ -2,6 +2,7 @@
 id = "ref/spell/shard-of-chaos"
 kind = "spell"
 title = "Shard of Chaos"
+aon = "SpellDisplay.aspx?ItemName=Shard%20of%20Chaos"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shard_of_chaos", path = "json/spells9.json" },

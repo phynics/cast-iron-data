@@ -2,6 +2,7 @@
 id = "ref/feat/hamatulatsu"
 kind = "feat"
 title = "Hamatulatsu"
+aon = "FeatDisplay.aspx?ItemName=Hamatulatsu"
 source_ids = ["inner-sea-world-guide", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hamatulatsu", path = "json/feat08.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/twin-thunders-master"
 kind = "feat"
 title = "Twin Thunders Master"
+aon = "FeatDisplay.aspx?ItemName=Twin%20Thunders%20Master"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "twin_thunders_master", path = "json/feat16.json" },

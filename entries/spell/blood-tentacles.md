@@ -2,6 +2,7 @@
 id = "ref/spell/blood-tentacles"
 kind = "spell"
 title = "Blood Tentacles"
+aon = "SpellDisplay.aspx?ItemName=Blood%20Tentacles"
 source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_tentacles", path = "json/spells2.json" },

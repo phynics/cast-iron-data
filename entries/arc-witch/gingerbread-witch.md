@@ -2,6 +2,7 @@
 id = "ref/arc-witch/gingerbread-witch"
 kind = "archetype"
 title = "Gingerbread Witch"
+aon = "ArchetypeDisplay.aspx?FixedName=Witch%20Gingerbread%20Witch"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gingerbread_witch", path = "json/archetypes_witch.json" },

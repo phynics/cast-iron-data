@@ -2,6 +2,7 @@
 id = "ref/feat/bristling-drag"
 kind = "feat"
 title = "Bristling Drag"
+aon = "FeatDisplay.aspx?ItemName=Bristling%20Drag"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bristling_drag", path = "json/feat02.json" },

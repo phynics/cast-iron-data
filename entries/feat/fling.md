@@ -2,6 +2,7 @@
 id = "ref/feat/fling"
 kind = "feat"
 title = "Fling"
+aon = "FeatDisplay.aspx?ItemName=Fling"
 source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fling", path = "json/feat07.json" },

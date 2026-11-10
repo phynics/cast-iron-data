@@ -2,6 +2,7 @@
 id = "ref/trait/left-behind"
 kind = "trait"
 title = "Left Behind"
+aon = "TraitDisplay.aspx?ItemName=Left%20Behind"
 source_ids = ["elves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "left_behind", path = "json/traits04.json" },

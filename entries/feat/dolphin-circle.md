@@ -2,6 +2,7 @@
 id = "ref/feat/dolphin-circle"
 kind = "feat"
 title = "Dolphin Circle"
+aon = "FeatDisplay.aspx?ItemName=Dolphin%20Circle"
 source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dolphin_circle", path = "json/feat05.json" },

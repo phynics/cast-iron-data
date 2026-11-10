@@ -2,6 +2,7 @@
 id = "ref/feat/craft-magic-arms-and-armor"
 kind = "feat"
 title = "Craft Magic Arms and Armor"
+aon = "FeatDisplay.aspx?ItemName=Craft%20Magic%20Arms%20and%20Armor"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "craft_magic_arms_and_armor", path = "json/feat03.json" },

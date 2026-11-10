@@ -2,6 +2,7 @@
 id = "ref/spell/curse-of-unexpected-death"
 kind = "spell"
 title = "Curse of Unexpected Death"
+aon = "SpellDisplay.aspx?ItemName=Curse%20of%20Unexpected%20Death"
 source_ids = ["pathfinder-89-palace-of-fallen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "curse_of_unexpected_death", path = "json/spells3.json" },

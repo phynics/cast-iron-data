@@ -2,6 +2,7 @@
 id = "ref/feat/pummeling-charge"
 kind = "feat"
 title = "Pummeling Charge"
+aon = "FeatDisplay.aspx?ItemName=Pummeling%20Charge"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pummeling_charge", path = "json/feat12.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/rest-eternal"
 kind = "spell"
 title = "Rest Eternal"
+aon = "SpellDisplay.aspx?ItemName=Rest%20Eternal"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rest_eternal", path = "json/spells8.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/goblin-goblin-stickylord"
 kind = "creature"
 title = "Goblin Stickylord"
+aon = "MonsterDisplay.aspx?ItemName=Goblin%20Stickylord"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "goblin_goblin_stickylord", path = "json/monsters12.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/tamers-lash"
 kind = "spell"
 title = "Tamer's Lash"
+aon = "SpellDisplay.aspx?ItemName=Tamer%27s%20Lash"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tamers_lash", path = "json/spells10.json" },

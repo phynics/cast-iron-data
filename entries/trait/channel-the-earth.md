@@ -2,6 +2,7 @@
 id = "ref/trait/channel-the-earth"
 kind = "trait"
 title = "Channel the Earth"
+aon = "TraitDisplay.aspx?ItemName=Channel%20the%20Earth"
 source_ids = ["blood-of-the-elements"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "channel_the_earth", path = "json/traits04.json" },

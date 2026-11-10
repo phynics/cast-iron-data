@@ -2,6 +2,7 @@
 id = "ref/magic-ring/riverclub-ring"
 kind = "item"
 title = "Riverclub Ring"
+aon = "MagicRingsDisplay.aspx?FinalName=Riverclub%20Ring"
 source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "riverclub_ring", path = "json/magic_ring.json" },

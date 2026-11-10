@@ -2,6 +2,7 @@
 id = "ref/trait/secret-scrolls"
 kind = "trait"
 title = "Secret Scrolls"
+aon = "TraitDisplay.aspx?ItemName=Secret%20Scrolls"
 source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "secret_scrolls", path = "json/traits02.json" },

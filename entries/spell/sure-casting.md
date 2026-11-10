@@ -2,6 +2,7 @@
 id = "ref/spell/sure-casting"
 kind = "spell"
 title = "Sure Casting"
+aon = "SpellDisplay.aspx?ItemName=Sure%20Casting"
 source_ids = ["pathfinder-society-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sure_casting", path = "json/spells10.json" },

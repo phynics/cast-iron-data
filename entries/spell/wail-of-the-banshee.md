@@ -2,6 +2,7 @@
 id = "ref/spell/wail-of-the-banshee"
 kind = "spell"
 title = "Wail of the Banshee"
+aon = "SpellDisplay.aspx?ItemName=Wail%20of%20the%20Banshee"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wail_of_the_banshee", path = "json/spells11.json" },

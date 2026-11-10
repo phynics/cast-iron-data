@@ -2,6 +2,7 @@
 id = "ref/spell/painful-revelation"
 kind = "spell"
 title = "Painful Revelation"
+aon = "SpellDisplay.aspx?ItemName=Painful%20Revelation"
 source_ids = ["inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "painful_revelation", path = "json/spells7.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/align-weapon-communal"
 kind = "spell"
 title = "Communal Align Weapon"
+aon = "SpellDisplay.aspx?ItemName=Align%20Weapon%2C%20Communal"
 source_ids = ["core-rulebook", "advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "align_weapon_communal", path = "json/spells.json" },

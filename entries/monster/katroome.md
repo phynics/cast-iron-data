@@ -2,6 +2,7 @@
 id = "ref/monster/katroome"
 kind = "creature"
 title = "Katroome"
+aon = "MonsterDisplay.aspx?ItemName=Katroome"
 source_ids = ["gallows-of-madness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "katroome", path = "json/monsters15.json" },

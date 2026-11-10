@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/mirror-of-soul-snaring"
 kind = "item"
 title = "Mirror of Soul Snaring"
+aon = "MagicCursedDisplay.aspx?ItemName=Mirror%20of%20Soul%20Snaring"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mirror_of_soul_snaring", path = "json/magic_wondrous_slotless04.json" },

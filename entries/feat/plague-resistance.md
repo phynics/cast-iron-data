@@ -2,6 +2,7 @@
 id = "ref/feat/plague-resistance"
 kind = "feat"
 title = "Plague Resistance"
+aon = "FeatDisplay.aspx?ItemName=Plague%20Resistance"
 source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plague_resistance", path = "json/feat12.json" },

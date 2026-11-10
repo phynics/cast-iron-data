@@ -2,6 +2,7 @@
 id = "ref/trait/light-in-the-darkness"
 kind = "trait"
 title = "Light in the Darkness"
+aon = "TraitDisplay.aspx?ItemName=Light%20in%20the%20Darkness"
 source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "light_in_the_darkness", path = "json/traits01.json" },

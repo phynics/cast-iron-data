@@ -2,6 +2,7 @@
 id = "ref/monster/duppy"
 kind = "creature"
 title = "Duppy"
+aon = "MonsterDisplay.aspx?ItemName=Duppy"
 source_ids = ["bestiary-5", "isles-of-the-shackles"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "duppy", path = "json/monsters41.json" },

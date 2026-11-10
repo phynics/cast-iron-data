@@ -2,6 +2,7 @@
 id = "ref/spell/vicarious-view"
 kind = "spell"
 title = "Vicarious View"
+aon = "SpellDisplay.aspx?ItemName=Vicarious%20View"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vicarious_view", path = "json/spells11.json" },

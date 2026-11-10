@@ -2,6 +2,7 @@
 id = "ref/feat/horse-sense"
 kind = "feat"
 title = "Horse Sense"
+aon = "FeatDisplay.aspx?ItemName=Horse%20Sense"
 source_ids = ["pathfinder-132-the-six-legend-soul"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horse_sense", path = "json/feat08.json" },

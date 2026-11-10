@@ -2,6 +2,7 @@
 id = "ref/feat/black-cat"
 kind = "feat"
 title = "Black Cat"
+aon = "FeatDisplay.aspx?ItemName=Black%20Cat"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "black_cat", path = "json/feat02.json" },

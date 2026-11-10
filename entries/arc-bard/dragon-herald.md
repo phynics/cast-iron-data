@@ -2,6 +2,7 @@
 id = "ref/arc-bard/dragon-herald"
 kind = "archetype"
 title = "Dragon Herald"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Dragon%20Herald"
 source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_herald", path = "json/archetypes_bard.json" },

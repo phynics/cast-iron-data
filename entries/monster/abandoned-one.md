@@ -2,6 +2,7 @@
 id = "ref/monster/abandoned-one"
 kind = "creature"
 title = "Abandoned One"
+aon = "MonsterDisplay.aspx?ItemName=Abandoned%20One"
 source_ids = ["tears-at-bitter-manor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "abandoned_one", path = "json/monsters01.json" },

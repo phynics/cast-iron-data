@@ -2,6 +2,7 @@
 id = "ref/trait/sovyrian-intellectual"
 kind = "trait"
 title = "Sovyrian Intellectual"
+aon = "TraitDisplay.aspx?ItemName=Sovyrian%20Intellectual"
 source_ids = ["people-of-the-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sovyrian_intellectual", path = "json/traits05.json" },

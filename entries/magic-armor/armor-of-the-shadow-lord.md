@@ -2,6 +2,7 @@
 id = "ref/magic-armor/armor-of-the-shadow-lord"
 kind = "item"
 title = "Armor of the Shadow Lord"
+aon = "MagicIntelligentDisplay.aspx?ItemName=Armor%20of%20the%20Shadow%20Lord"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "armor_of_the_shadow_lord", path = "json/magic_armor.json" },

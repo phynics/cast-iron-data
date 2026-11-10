@@ -2,6 +2,7 @@
 id = "ref/spell/entice-fey-greater"
 kind = "spell"
 title = "Greater Entice Fey"
+aon = "SpellDisplay.aspx?ItemName=Entice%20Fey%2C%20Greater"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "entice_fey_greater", path = "json/spells4.json" },

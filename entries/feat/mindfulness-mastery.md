@@ -2,6 +2,7 @@
 id = "ref/feat/mindfulness-mastery"
 kind = "feat"
 title = "Mindfulness Mastery"
+aon = "FeatDisplay.aspx?ItemName=Mindfulness%20Mastery"
 source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mindfulness_mastery", path = "json/feat10.json" },

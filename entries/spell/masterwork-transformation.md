@@ -2,6 +2,7 @@
 id = "ref/spell/masterwork-transformation"
 kind = "spell"
 title = "Masterwork Transformation"
+aon = "SpellDisplay.aspx?ItemName=Masterwork%20Transformation"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "masterwork_transformation", path = "json/spells14.json" },

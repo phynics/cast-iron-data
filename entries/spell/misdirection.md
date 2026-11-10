@@ -2,6 +2,7 @@
 id = "ref/spell/misdirection"
 kind = "spell"
 title = "Misdirection"
+aon = "SpellDisplay.aspx?ItemName=Misdirection"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "misdirection", path = "json/spells14.json" },

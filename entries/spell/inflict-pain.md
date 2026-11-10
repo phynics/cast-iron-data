@@ -2,6 +2,7 @@
 id = "ref/spell/inflict-pain"
 kind = "spell"
 title = "Inflict Pain"
+aon = "SpellDisplay.aspx?ItemName=Inflict%20Pain"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inflict_pain", path = "json/spells14.json" },

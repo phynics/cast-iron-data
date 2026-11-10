@@ -2,6 +2,7 @@
 id = "ref/feat/planar-infusion"
 kind = "feat"
 title = "Planar Infusion"
+aon = "FeatDisplay.aspx?ItemName=Planar%20Infusion"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planar_infusion", path = "json/feat12.json" },

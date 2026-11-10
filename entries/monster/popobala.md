@@ -2,6 +2,7 @@
 id = "ref/monster/popobala"
 kind = "creature"
 title = "Popobala"
+aon = "MonsterDisplay.aspx?ItemName=Popobala"
 source_ids = ["bestiary-3", "pathfinder-40-vaults-of-madness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "popobala", path = "json/monsters19.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/thunderous-footfalls"
 kind = "spell"
 title = "Thunderous Footfalls"
+aon = "SpellDisplay.aspx?ItemName=Thunderous%20Footfalls"
 source_ids = ["pathfinder-91-battle-of-bloodmarch-hills"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thunderous_footfalls", path = "json/spells10.json" },

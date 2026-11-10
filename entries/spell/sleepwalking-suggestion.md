@@ -2,6 +2,7 @@
 id = "ref/spell/sleepwalking-suggestion"
 kind = "spell"
 title = "Sleepwalking Suggestion"
+aon = "SpellDisplay.aspx?ItemName=Sleepwalking%20Suggestion"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sleepwalking_suggestion", path = "json/spells9.json" },

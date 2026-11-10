@@ -2,6 +2,7 @@
 id = "ref/spell/bulls-strength-mass"
 kind = "spell"
 title = "Mass Bull's Strength"
+aon = "SpellDisplay.aspx?ItemName=Bull%27s%20Strength%2C%20Mass"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bulls_strength_mass", path = "json/spells2.json" },

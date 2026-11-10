@@ -2,6 +2,7 @@
 id = "ref/spell/pyrotechnic-eruption"
 kind = "spell"
 title = "Pyrotechnic Eruption"
+aon = "SpellDisplay.aspx?ItemName=Pyrotechnic%20Eruption"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pyrotechnic_eruption", path = "json/spells15.json" },

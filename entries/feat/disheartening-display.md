@@ -2,6 +2,7 @@
 id = "ref/feat/disheartening-display"
 kind = "feat"
 title = "Disheartening Display"
+aon = "FeatDisplay.aspx?ItemName=Disheartening%20Display"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disheartening_display", path = "json/feat04.json" },

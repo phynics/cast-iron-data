@@ -2,6 +2,7 @@
 id = "ref/spell/final-sacrifice"
 kind = "spell"
 title = "Final Sacrifice"
+aon = "SpellDisplay.aspx?ItemName=Final%20Sacrifice"
 source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "final_sacrifice", path = "json/spells4.json" },

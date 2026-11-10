@@ -2,6 +2,7 @@
 id = "ref/carried/bestiary-2/monsters/elemental/ice/elder"
 kind = "creature"
 title = "Elemental, Ice, Elder"
+aon = "MonsterDisplay.aspx?ItemName=Elder%20Ice%20Elemental"
 source_ids = ["bestiary-2"]
 section = ["Monsters", "Elemental", "Ice"]
 tags = ["outsider", "air", "cold", "elemental", "extraplanar", "water", "huge"]

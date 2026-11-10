@@ -2,6 +2,7 @@
 id = "ref/spell/shroud-of-darkness"
 kind = "spell"
 title = "Shroud of Darkness"
+aon = "SpellDisplay.aspx?ItemName=Shroud%20of%20Darkness"
 source_ids = ["inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shroud_of_darkness", path = "json/spells9.json" },

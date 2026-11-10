@@ -2,6 +2,7 @@
 id = "ref/spell/ectoplasmic-eruption"
 kind = "spell"
 title = "Ectoplasmic Eruption"
+aon = "SpellDisplay.aspx?ItemName=Ectoplasmic%20Eruption"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ectoplasmic_eruption", path = "json/spells13.json" },

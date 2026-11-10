@@ -2,6 +2,7 @@
 id = "ref/spell/unholy-ice"
 kind = "spell"
 title = "Unholy Ice"
+aon = "SpellDisplay.aspx?ItemName=Unholy%20Ice"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unholy_ice", path = "json/spells11.json" },

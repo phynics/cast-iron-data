@@ -2,6 +2,7 @@
 id = "ref/feat/snatch-and-drop"
 kind = "feat"
 title = "Snatch and Drop"
+aon = "FeatDisplay.aspx?ItemName=Snatch%20and%20Drop"
 source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snatch_and_drop", path = "json/feat14.json" },

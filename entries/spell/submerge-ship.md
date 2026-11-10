@@ -2,6 +2,7 @@
 id = "ref/spell/submerge-ship"
 kind = "spell"
 title = "Submerge Ship"
+aon = "SpellDisplay.aspx?ItemName=Submerge%20Ship"
 source_ids = ["pathfinder-56-raiders-of-the-fever-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "submerge_ship", path = "json/spells16.json" },

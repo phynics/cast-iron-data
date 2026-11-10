@@ -2,6 +2,7 @@
 id = "ref/trait/sound-of-mind"
 kind = "trait"
 title = "Sound of Mind"
+aon = "TraitDisplay.aspx?ItemName=Sound%20of%20Mind"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sound_of_mind", path = "json/traits04.json" },

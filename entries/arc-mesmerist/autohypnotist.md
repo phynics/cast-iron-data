@@ -2,6 +2,7 @@
 id = "ref/arc-mesmerist/autohypnotist"
 kind = "archetype"
 title = "Autohypnotist"
+aon = "ArchetypeDisplay.aspx?FixedName=Mesmerist%20Autohypnotist"
 source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "autohypnotist", path = "json/archetypes_mesmerist.json" },

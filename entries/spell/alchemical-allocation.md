@@ -2,6 +2,7 @@
 id = "ref/spell/alchemical-allocation"
 kind = "spell"
 title = "Alchemical Allocation"
+aon = "SpellDisplay.aspx?ItemName=Alchemical%20Allocation"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alchemical_allocation", path = "json/spells.json" },

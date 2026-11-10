@@ -2,6 +2,7 @@
 id = "ref/arc-bloodrager/ancestral-harbinger"
 kind = "archetype"
 title = "Ancestral Harbinger"
+aon = "ArchetypeDisplay.aspx?FixedName=Bloodrager%20Ancestral%20Harbinger"
 source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ancestral_harbinger", path = "json/archetypes_bloodrager.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/rhu-chalik"
 kind = "creature"
 title = "Rhu-chalik"
+aon = "MonsterDisplay.aspx?ItemName=Rhu-chalik"
 source_ids = ["bestiary-5", "pathfinder-86-lords-of-rust"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rhu_chalik", path = "json/monsters20.json" },

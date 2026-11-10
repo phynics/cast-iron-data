@@ -2,6 +2,7 @@
 id = "ref/spell/penumbral-disguise"
 kind = "spell"
 title = "Penumbral Disguise"
+aon = "SpellDisplay.aspx?ItemName=Penumbral%20Disguise"
 source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "penumbral_disguise", path = "json/spells7.json" },

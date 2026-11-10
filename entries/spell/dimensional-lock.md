@@ -2,6 +2,7 @@
 id = "ref/spell/dimensional-lock"
 kind = "spell"
 title = "Dimensional Lock"
+aon = "SpellDisplay.aspx?ItemName=Dimensional%20Lock"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dimensional_lock", path = "json/spells3.json" },

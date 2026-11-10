@@ -2,6 +2,7 @@
 id = "ref/trait/foul-brand"
 kind = "trait"
 title = "Foul Brand"
+aon = "TraitDisplay.aspx?ItemName=Foul%20Brand"
 source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "foul_brand", path = "json/traits03.json" },

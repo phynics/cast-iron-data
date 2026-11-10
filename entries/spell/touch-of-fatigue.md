@@ -2,6 +2,7 @@
 id = "ref/spell/touch-of-fatigue"
 kind = "spell"
 title = "Touch of Fatigue"
+aon = "SpellDisplay.aspx?ItemName=Touch%20of%20Fatigue"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "touch_of_fatigue", path = "json/spells10.json" },

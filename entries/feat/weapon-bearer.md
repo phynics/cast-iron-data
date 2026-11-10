@@ -2,6 +2,7 @@
 id = "ref/feat/weapon-bearer"
 kind = "feat"
 title = "Weapon Bearer"
+aon = "FeatDisplay.aspx?ItemName=Weapon%20Bearer"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weapon_bearer", path = "json/feat17.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/favor-of-the-empress-of-torrents"
 kind = "feat"
 title = "Favor of the Empress of Torrents"
+aon = "FeatDisplay.aspx?ItemName=Favor%20of%20the%20Empress%20of%20Torrents"
 source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "favor_of_the_empress_of_torrents", path = "json/feat06.json" },

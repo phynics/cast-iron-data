@@ -2,6 +2,7 @@
 id = "ref/monster/rock-tuatara"
 kind = "creature"
 title = "Rock Tuatara"
+aon = "MonsterDisplay.aspx?ItemName=Rock%20Tuatara"
 source_ids = ["pathfinder-118-siege-of-stone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rock_tuatara", path = "json/monsters20.json" },

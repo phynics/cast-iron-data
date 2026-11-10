@@ -2,6 +2,7 @@
 id = "ref/trait/gunworker"
 kind = "trait"
 title = "Gunworker"
+aon = "TraitDisplay.aspx?ItemName=Gunworker"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gunworker", path = "json/traits05.json" },

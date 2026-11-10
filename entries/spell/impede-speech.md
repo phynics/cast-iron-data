@@ -2,6 +2,7 @@
 id = "ref/spell/impede-speech"
 kind = "spell"
 title = "Impede Speech"
+aon = "SpellDisplay.aspx?ItemName=Impede%20Speech"
 source_ids = ["second-darkness-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "impede_speech", path = "json/spells14.json" },

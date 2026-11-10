@@ -2,6 +2,7 @@
 id = "ref/trait/vermin-wrangler"
 kind = "trait"
 title = "Vermin Wrangler"
+aon = "TraitDisplay.aspx?ItemName=Vermin%20Wrangler"
 source_ids = ["people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vermin_wrangler", path = "json/traits05.json" },

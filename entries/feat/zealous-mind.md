@@ -2,6 +2,7 @@
 id = "ref/feat/zealous-mind"
 kind = "feat"
 title = "Zealous Mind"
+aon = "FeatDisplay.aspx?ItemName=Zealous%20Mind"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "zealous_mind", path = "json/feat17.json" },

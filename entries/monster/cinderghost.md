@@ -2,6 +2,7 @@
 id = "ref/monster/cinderghost"
 kind = "creature"
 title = "Cinderghost"
+aon = "MonsterDisplay.aspx?ItemName=Cinderghost"
 source_ids = ["planes-of-power"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cinderghost", path = "json/monsters05.json" },

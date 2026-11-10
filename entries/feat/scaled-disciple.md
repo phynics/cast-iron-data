@@ -2,6 +2,7 @@
 id = "ref/feat/scaled-disciple"
 kind = "feat"
 title = "Scaled Disciple"
+aon = "FeatDisplay.aspx?ItemName=Scaled%20Disciple"
 source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scaled_disciple", path = "json/feat13.json" },

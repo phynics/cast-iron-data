@@ -2,6 +2,7 @@
 id = "ref/spell/fickle-winds"
 kind = "spell"
 title = "Fickle Winds"
+aon = "SpellDisplay.aspx?ItemName=Fickle%20Winds"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fickle_winds", path = "json/spells4.json" },

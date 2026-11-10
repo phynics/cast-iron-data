@@ -2,6 +2,7 @@
 id = "ref/spell/plague-bearer"
 kind = "spell"
 title = "Plague Bearer"
+aon = "SpellDisplay.aspx?ItemName=Plague%20Bearer"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plague_bearer", path = "json/spells7.json" },

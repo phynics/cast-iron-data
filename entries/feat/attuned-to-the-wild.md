@@ -2,6 +2,7 @@
 id = "ref/feat/attuned-to-the-wild"
 kind = "feat"
 title = "Attuned to the Wild"
+aon = "FeatDisplay.aspx?ItemName=Attuned%20to%20the%20Wild"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "attuned_to_the_wild", path = "json/feat01.json" },

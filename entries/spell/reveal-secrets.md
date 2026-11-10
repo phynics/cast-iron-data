@@ -2,6 +2,7 @@
 id = "ref/spell/reveal-secrets"
 kind = "spell"
 title = "Reveal Secrets"
+aon = "SpellDisplay.aspx?ItemName=Reveal%20Secrets"
 source_ids = ["inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reveal_secrets", path = "json/spells8.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/immured"
 kind = "creature"
 title = "Immured"
+aon = "MonsterDisplay.aspx?ItemName=Immured"
 source_ids = ["daughters-of-fury"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "immured", path = "json/monsters14.json" },

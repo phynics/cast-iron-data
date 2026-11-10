@@ -2,6 +2,7 @@
 id = "ref/magic-weapon/ukwar"
 kind = "item"
 title = "Ukwar"
+aon = "MagicIntelligentDisplay.aspx?ItemName=Ukwar"
 source_ids = ["curse-of-the-crimson-throne"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ukwar", path = "json/magic_weapon2.json" },

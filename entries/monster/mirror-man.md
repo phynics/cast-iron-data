@@ -2,6 +2,7 @@
 id = "ref/monster/mirror-man"
 kind = "creature"
 title = "Mirror Man"
+aon = "MonsterDisplay.aspx?ItemName=Mirror%20Man"
 source_ids = ["pathfinder-68-the-shackled-hut"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mirror_man", path = "json/monsters17.json" },

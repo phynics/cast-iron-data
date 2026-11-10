@@ -2,6 +2,7 @@
 id = "ref/monster/ningyo"
 kind = "creature"
 title = "Ningyo"
+aon = "MonsterDisplay.aspx?ItemName=Ningyo"
 source_ids = ["pathfinder-37-souls-for-smugglers-shiv", "bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ningyo", path = "json/monsters36.json" },

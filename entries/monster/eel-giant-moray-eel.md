@@ -2,6 +2,7 @@
 id = "ref/monster/eel-giant-moray-eel"
 kind = "creature"
 title = "Giant Moray Eel"
+aon = "MonsterDisplay.aspx?ItemName=Giant%20Moray%20Eel"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eel_giant_moray_eel", path = "json/monsters09.json" },

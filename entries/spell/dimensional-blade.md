@@ -2,6 +2,7 @@
 id = "ref/spell/dimensional-blade"
 kind = "spell"
 title = "Dimensional Blade"
+aon = "SpellDisplay.aspx?ItemName=Dimensional%20Blade"
 source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dimensional_blade", path = "json/spells3.json" },

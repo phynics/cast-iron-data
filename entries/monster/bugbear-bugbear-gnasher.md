@@ -2,6 +2,7 @@
 id = "ref/monster/bugbear-bugbear-gnasher"
 kind = "creature"
 title = "Bugbear Gnasher"
+aon = "MonsterDisplay.aspx?ItemName=Bugbear%20Gnasher"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bugbear_bugbear_gnasher", path = "json/monsters04.json" },

@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-the-shadow-victim"
 kind = "item"
 title = "Ring of the Shadow Victim"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20the%20Shadow%20Victim"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_the_shadow_victim", path = "json/magic_ring.json" },

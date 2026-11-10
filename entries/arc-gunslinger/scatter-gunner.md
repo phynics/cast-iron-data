@@ -2,6 +2,7 @@
 id = "ref/arc-gunslinger/scatter-gunner"
 kind = "archetype"
 title = "Scatter Gunner"
+aon = "ArchetypeDisplay.aspx?FixedName=Gunslinger%20Scatter%20Gunner"
 source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scatter_gunner", path = "json/archetypes_gunslinger.json" },

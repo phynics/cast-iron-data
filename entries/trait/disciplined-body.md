@@ -2,6 +2,7 @@
 id = "ref/trait/disciplined-body"
 kind = "trait"
 title = "Disciplined Body"
+aon = "TraitDisplay.aspx?ItemName=Disciplined%20Body"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disciplined_body", path = "json/traits05.json" },

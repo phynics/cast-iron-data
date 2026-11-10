@@ -2,6 +2,7 @@
 id = "ref/feat/fortitude-of-giants"
 kind = "feat"
 title = "Fortitude of Giants"
+aon = "FeatDisplay.aspx?ItemName=Fortitude%20of%20Giants"
 source_ids = ["pathfinder-91-battle-of-bloodmarch-hills"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fortitude_of_giants", path = "json/feat07.json" },

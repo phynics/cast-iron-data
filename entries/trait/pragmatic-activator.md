@@ -2,6 +2,7 @@
 id = "ref/trait/pragmatic-activator"
 kind = "trait"
 title = "Pragmatic Activator"
+aon = "TraitDisplay.aspx?ItemName=Pragmatic%20Activator"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pragmatic_activator", path = "json/traits02.json" },

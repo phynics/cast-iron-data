@@ -2,6 +2,7 @@
 id = "ref/spell/remove-radioactivity-greater"
 kind = "spell"
 title = "Greater Remove Radioactivity"
+aon = "SpellDisplay.aspx?ItemName=Remove%20Radioactivity%2C%20Greater"
 source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "remove_radioactivity_greater", path = "json/spells8.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/secret-speech"
 kind = "spell"
 title = "Secret Speech"
+aon = "SpellDisplay.aspx?ItemName=Secret%20Speech"
 source_ids = ["inner-sea-gods", "pathfinder-17-a-memory-of-darkness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "secret_speech", path = "json/spells15.json" },

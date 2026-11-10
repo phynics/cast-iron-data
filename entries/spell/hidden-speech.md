@@ -2,6 +2,7 @@
 id = "ref/spell/hidden-speech"
 kind = "spell"
 title = "Hidden Speech"
+aon = "SpellDisplay.aspx?ItemName=Hidden%20Speech"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hidden_speech", path = "json/spells5.json" },

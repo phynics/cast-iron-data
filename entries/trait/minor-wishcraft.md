@@ -2,6 +2,7 @@
 id = "ref/trait/minor-wishcraft"
 kind = "trait"
 title = "Minor Wishcraft"
+aon = "TraitDisplay.aspx?ItemName=Minor%20Wishcraft"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "minor_wishcraft", path = "json/traits05.json" },

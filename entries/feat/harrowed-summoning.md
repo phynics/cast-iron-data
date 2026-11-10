@@ -2,6 +2,7 @@
 id = "ref/feat/harrowed-summoning"
 kind = "feat"
 title = "Harrowed Summoning"
+aon = "FeatDisplay.aspx?ItemName=Harrowed%20Summoning"
 source_ids = ["the-harrow-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "harrowed_summoning", path = "json/feat08.json" },

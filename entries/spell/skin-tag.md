@@ -2,6 +2,7 @@
 id = "ref/spell/skin-tag"
 kind = "spell"
 title = "Skin Tag"
+aon = "SpellDisplay.aspx?ItemName=Skin%20Tag"
 source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skin_tag", path = "json/spells9.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/extra-lay-on-hands"
 kind = "feat"
 title = "Extra Lay on Hands"
+aon = "FeatDisplay.aspx?ItemName=Extra%20Lay%20on%20Hands"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extra_lay_on_hands", path = "json/feat06.json" },

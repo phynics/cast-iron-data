@@ -2,6 +2,7 @@
 id = "ref/monster/radiant-essence"
 kind = "creature"
 title = "Radiant Essence"
+aon = "MonsterDisplay.aspx?ItemName=Radiant%20Essence"
 source_ids = ["pathfinder-131-the-reapers-right-hand"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "radiant_essence", path = "json/monsters19.json" },

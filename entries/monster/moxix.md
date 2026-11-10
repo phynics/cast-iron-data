@@ -2,6 +2,7 @@
 id = "ref/monster/moxix"
 kind = "creature"
 title = "Moxix"
+aon = "MonsterDisplay.aspx?ItemName=Moxix"
 source_ids = ["inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "moxix", path = "json/monsters_unique3.json" },

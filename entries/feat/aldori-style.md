@@ -2,6 +2,7 @@
 id = "ref/feat/aldori-style"
 kind = "feat"
 title = "Aldori Style"
+aon = "FeatDisplay.aspx?ItemName=Aldori%20Style"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aldori_style", path = "json/feat01.json" },

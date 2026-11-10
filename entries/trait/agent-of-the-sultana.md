@@ -2,6 +2,7 @@
 id = "ref/trait/agent-of-the-sultana"
 kind = "trait"
 title = "Agent of the Sultana"
+aon = "TraitDisplay.aspx?ItemName=Agent%20of%20the%20Sultana"
 source_ids = ["blood-of-the-elements"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "agent_of_the_sultana", path = "json/traits04.json" },

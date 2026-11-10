@@ -2,6 +2,7 @@
 id = "ref/feat/ready-for-anything"
 kind = "feat"
 title = "Ready for Anything"
+aon = "FeatDisplay.aspx?ItemName=Ready%20for%20Anything"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ready_for_anything", path = "json/feat13.json" },

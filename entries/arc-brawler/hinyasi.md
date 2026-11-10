@@ -2,6 +2,7 @@
 id = "ref/arc-brawler/hinyasi"
 kind = "archetype"
 title = "Hinyasi"
+aon = "ArchetypeDisplay.aspx?FixedName=Brawler%20Hinyasi"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hinyasi", path = "json/archetypes_brawler.json" },

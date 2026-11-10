@@ -2,6 +2,7 @@
 id = "ref/monster/seugathi-seugathi-savant"
 kind = "creature"
 title = "Seugathi Savant"
+aon = "MonsterDisplay.aspx?ItemName=Seugathi%20Savant"
 source_ids = ["occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seugathi_seugathi_savant", path = "json/monsters21.json" },

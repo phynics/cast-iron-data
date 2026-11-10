@@ -2,6 +2,7 @@
 id = "ref/arc-magus/nature-bonded-magus"
 kind = "archetype"
 title = "Nature-Bonded Magus"
+aon = "ArchetypeDisplay.aspx?FixedName=Magus%20Nature-Bonded%20Magus"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nature_bonded_magus", path = "json/archetypes_magus.json" },

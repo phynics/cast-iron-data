@@ -2,6 +2,7 @@
 id = "ref/spell/arodens-spellbane"
 kind = "spell"
 title = "Aroden's Spellbane"
+aon = "SpellDisplay.aspx?ItemName=Aroden%27s%20Spellbane"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arodens_spellbane", path = "json/spells.json" },

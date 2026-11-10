@@ -2,6 +2,7 @@
 id = "ref/feat/steelskin-channel"
 kind = "feat"
 title = "Steelskin Channel"
+aon = "FeatDisplay.aspx?ItemName=Steelskin%20Channel"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "steelskin_channel", path = "json/feat15.json" },

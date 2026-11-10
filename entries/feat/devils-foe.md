@@ -2,6 +2,7 @@
 id = "ref/feat/devils-foe"
 kind = "feat"
 title = "Devil's Foe"
+aon = "FeatDisplay.aspx?ItemName=Devil%27s%20Foe"
 source_ids = ["andoran-spirit-of-liberty"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devils_foe", path = "json/feat04.json" },

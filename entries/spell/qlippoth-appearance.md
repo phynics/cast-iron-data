@@ -2,6 +2,7 @@
 id = "ref/spell/qlippoth-appearance"
 kind = "spell"
 title = "Qlippoth Appearance"
+aon = "SpellDisplay.aspx?ItemName=Qlippoth%20Appearance"
 source_ids = ["pathfinder-135-runeplague"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "qlippoth_appearance", path = "json/spells8.json" },

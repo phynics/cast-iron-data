@@ -2,6 +2,7 @@
 id = "ref/feat/valiant-steed"
 kind = "feat"
 title = "Valiant Steed"
+aon = "FeatDisplay.aspx?ItemName=Valiant%20Steed"
 source_ids = ["animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "valiant_steed", path = "json/feat17.json" },

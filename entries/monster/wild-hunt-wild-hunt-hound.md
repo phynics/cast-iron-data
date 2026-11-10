@@ -2,6 +2,7 @@
 id = "ref/monster/wild-hunt-wild-hunt-hound"
 kind = "creature"
 title = "Wild Hunt Hound"
+aon = "MonsterDisplay.aspx?ItemName=Wild%20Hunt%20Hound"
 source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wild_hunt_wild_hunt_hound", path = "json/monsters25.json" },

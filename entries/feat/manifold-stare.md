@@ -2,6 +2,7 @@
 id = "ref/feat/manifold-stare"
 kind = "feat"
 title = "Manifold Stare"
+aon = "FeatDisplay.aspx?ItemName=Manifold%20Stare"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "manifold_stare", path = "json/feat10.json" },

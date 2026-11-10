@@ -2,6 +2,7 @@
 id = "ref/spell/apsus-shining-scales"
 kind = "spell"
 title = "Apsu's Shining Scales"
+aon = "SpellDisplay.aspx?ItemName=Apsu%27s%20Shining%20Scales"
 source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "apsus_shining_scales", path = "json/spells.json" },

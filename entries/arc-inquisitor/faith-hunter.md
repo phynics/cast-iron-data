@@ -2,6 +2,7 @@
 id = "ref/arc-inquisitor/faith-hunter"
 kind = "archetype"
 title = "Faith Hunter"
+aon = "ArchetypeDisplay.aspx?FixedName=Inquisitor%20Faith%20Hunter"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "faith_hunter", path = "json/archetypes_inquisitor.json" },

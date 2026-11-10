@@ -2,6 +2,7 @@
 id = "ref/trait/against-the-technic-league"
 kind = "trait"
 title = "Against the Technic League"
+aon = "TraitDisplay.aspx?ItemName=Against%20the%20Technic%20League"
 source_ids = ["iron-gods-players-guide", "people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "against_the_technic_league", path = "json/traits02.json" },

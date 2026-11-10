@@ -2,6 +2,7 @@
 id = "ref/spell/ego-whip-5"
 kind = "spell"
 title = "Ego Whip V"
+aon = "SpellDisplay.aspx?ItemName=Ego%20Whip%20V"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ego_whip_5", path = "json/spells13.json" },

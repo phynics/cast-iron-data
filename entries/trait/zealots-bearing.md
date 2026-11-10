@@ -2,6 +2,7 @@
 id = "ref/trait/zealots-bearing"
 kind = "trait"
 title = "Zealot's Bearing"
+aon = "TraitDisplay.aspx?ItemName=Zealot%27s%20Bearing"
 source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "zealots_bearing", path = "json/traits01.json" },

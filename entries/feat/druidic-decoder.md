@@ -2,6 +2,7 @@
 id = "ref/feat/druidic-decoder"
 kind = "feat"
 title = "Druidic Decoder"
+aon = "FeatDisplay.aspx?ItemName=Druidic%20Decoder"
 source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "druidic_decoder", path = "json/feat05.json" },

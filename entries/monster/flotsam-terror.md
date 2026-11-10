@@ -2,6 +2,7 @@
 id = "ref/monster/flotsam-terror"
 kind = "creature"
 title = "Flotsam Terror"
+aon = "MonsterDisplay.aspx?ItemName=Flotsam%20Terror"
 source_ids = ["pathfinder-121-the-lost-outpost"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flotsam_terror", path = "json/monsters42.json" },

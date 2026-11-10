@@ -2,6 +2,7 @@
 id = "ref/pclass/rose-warden"
 kind = "prestige_class"
 title = "Rose Warden"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Rose%20Warden"
 source_ids = ["paths-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rose_warden", path = "json/prestige_classes3.json" },

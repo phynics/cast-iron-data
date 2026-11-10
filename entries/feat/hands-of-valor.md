@@ -2,6 +2,7 @@
 id = "ref/feat/hands-of-valor"
 kind = "feat"
 title = "Hands of Valor"
+aon = "FeatDisplay.aspx?ItemName=Hands%20of%20Valor"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hands_of_valor", path = "json/feat08.json" },

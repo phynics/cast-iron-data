@@ -2,6 +2,7 @@
 id = "ref/arc-unchained-summoner/devil-binder"
 kind = "archetype"
 title = "Devil Binder"
+aon = "ArchetypeDisplay.aspx?FixedName=Summoner%20%28Unchained%29%20Devil%20Binder"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_binder", path = "json/archetypes_summoner_UC.json" },

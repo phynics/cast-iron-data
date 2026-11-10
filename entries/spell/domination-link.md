@@ -2,6 +2,7 @@
 id = "ref/spell/domination-link"
 kind = "spell"
 title = "Domination Link"
+aon = "SpellDisplay.aspx?ItemName=Domination%20Link"
 source_ids = ["blood-of-the-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "domination_link", path = "json/spells13.json" },

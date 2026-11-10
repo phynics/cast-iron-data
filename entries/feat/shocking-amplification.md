@@ -2,6 +2,7 @@
 id = "ref/feat/shocking-amplification"
 kind = "feat"
 title = "Shocking Amplification"
+aon = "FeatDisplay.aspx?ItemName=Shocking%20Amplification"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shocking_amplification", path = "json/feat14.json" },

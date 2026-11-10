@@ -2,6 +2,7 @@
 id = "ref/monster/chon-chon-chon-chon-swarm"
 kind = "creature"
 title = "Chon Chon Swarm"
+aon = "MonsterDisplay.aspx?ItemName=Chon%20Chon%20Swarm"
 source_ids = ["pathfinder-53-tide-of-honor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chon_chon_chon_chon_swarm", path = "json/monsters05.json" },

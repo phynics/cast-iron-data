@@ -2,6 +2,7 @@
 id = "ref/spell/conditional-curse"
 kind = "spell"
 title = "Conditional Curse"
+aon = "SpellDisplay.aspx?ItemName=Conditional%20Curse"
 source_ids = ["core-rulebook", "pathfinder-82-secrets-of-the-sphinx", "ultimate-intrigue", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "conditional_curse", path = "json/spells12.json" },

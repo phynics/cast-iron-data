@@ -2,6 +2,7 @@
 id = "ref/spell/rapid-repair"
 kind = "spell"
 title = "Rapid Repair"
+aon = "SpellDisplay.aspx?ItemName=Rapid%20Repair"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rapid_repair", path = "json/spells8.json" },

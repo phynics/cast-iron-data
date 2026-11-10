@@ -2,6 +2,7 @@
 id = "ref/spell/staggering-fall"
 kind = "spell"
 title = "Staggering Fall"
+aon = "SpellDisplay.aspx?ItemName=Staggering%20Fall"
 source_ids = ["rival-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staggering_fall", path = "json/spells9.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/blight-desert-blight"
 kind = "creature"
 title = "Desert Blight"
+aon = "MonsterDisplay.aspx?ItemName=Desert%20Blight"
 source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blight_desert_blight", path = "json/monsters27.json" },

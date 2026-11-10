@@ -2,6 +2,7 @@
 id = "ref/feat/crepuscular-cowl"
 kind = "feat"
 title = "Crepuscular Cowl"
+aon = "FeatDisplay.aspx?ItemName=Crepuscular%20Cowl"
 source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crepuscular_cowl", path = "json/feat03.json" },

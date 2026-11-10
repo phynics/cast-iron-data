@@ -2,6 +2,7 @@
 id = "ref/monster/devil-heresy-devil-ayngavhaul"
 kind = "creature"
 title = "Heresy Devil (Ayngavhaul)"
+aon = "MonsterDisplay.aspx?ItemName=Heresy%20Devil%20%28Ayngavhaul%29"
 source_ids = ["bestiary-5", "book-of-the-damned-volume-1-princes-of-darkness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_heresy_devil_ayngavhaul", path = "json/monsters07.json" },

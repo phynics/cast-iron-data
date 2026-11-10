@@ -2,6 +2,7 @@
 id = "ref/monster/jack-o-lantern"
 kind = "creature"
 title = "Jack-o'-Lantern"
+aon = "MonsterDisplay.aspx?ItemName=Jack-o%27-Lantern"
 source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jack_o_lantern", path = "json/monsters34.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/power-word-kill"
 kind = "spell"
 title = "Power Word Kill"
+aon = "SpellDisplay.aspx?ItemName=Power%20Word%20Kill"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "power_word_kill", path = "json/spells14.json" },

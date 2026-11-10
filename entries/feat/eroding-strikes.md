@@ -2,6 +2,7 @@
 id = "ref/feat/eroding-strikes"
 kind = "feat"
 title = "Eroding Strikes"
+aon = "FeatDisplay.aspx?ItemName=Eroding%20Strikes"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eroding_strikes", path = "json/feat06.json" },

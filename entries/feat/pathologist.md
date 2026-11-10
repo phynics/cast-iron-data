@@ -2,6 +2,7 @@
 id = "ref/feat/pathologist"
 kind = "feat"
 title = "Pathologist"
+aon = "FeatDisplay.aspx?ItemName=Pathologist"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pathologist", path = "json/feat11.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/lead-blades"
 kind = "spell"
 title = "Lead Blades"
+aon = "SpellDisplay.aspx?ItemName=Lead%20Blades"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lead_blades", path = "json/spells6.json" },

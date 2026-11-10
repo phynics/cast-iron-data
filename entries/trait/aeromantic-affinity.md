@@ -2,6 +2,7 @@
 id = "ref/trait/aeromantic-affinity"
 kind = "trait"
 title = "Aeromantic Affinity"
+aon = "TraitDisplay.aspx?ItemName=Aeromantic%20Affinity"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aeromantic_affinity", path = "json/traits02.json" },

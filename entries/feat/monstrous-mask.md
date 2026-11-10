@@ -2,6 +2,7 @@
 id = "ref/feat/monstrous-mask"
 kind = "feat"
 title = "Monstrous Mask"
+aon = "FeatDisplay.aspx?ItemName=Monstrous%20Mask"
 source_ids = ["blood-of-fiends", "pathfinder-25-the-bastards-of-erebus"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monstrous_mask", path = "json/feat11.json" },

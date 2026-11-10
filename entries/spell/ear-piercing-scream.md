@@ -2,6 +2,7 @@
 id = "ref/spell/ear-piercing-scream"
 kind = "spell"
 title = "Ear-Piercing Scream"
+aon = "SpellDisplay.aspx?ItemName=Ear-Piercing%20Scream"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ear_piercing_scream", path = "json/spells13.json" },

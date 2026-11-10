@@ -2,6 +2,7 @@
 id = "ref/monster/faerie-mount"
 kind = "creature"
 title = "Faerie Mount"
+aon = "MonsterDisplay.aspx?ItemName=Faerie%20Mount"
 source_ids = ["pathfinder-119-prisoners-of-the-blight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "faerie_mount", path = "json/monsters10.json" },

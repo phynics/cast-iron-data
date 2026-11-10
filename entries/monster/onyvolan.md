@@ -2,6 +2,7 @@
 id = "ref/monster/onyvolan"
 kind = "creature"
 title = "Onyvolan"
+aon = "MonsterDisplay.aspx?ItemName=Onyvolan"
 source_ids = ["pathfinder-127-crownfall"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "onyvolan", path = "json/monsters18.json" },

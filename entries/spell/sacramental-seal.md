@@ -2,6 +2,7 @@
 id = "ref/spell/sacramental-seal"
 kind = "spell"
 title = "Sacramental Seal"
+aon = "SpellDisplay.aspx?ItemName=Sacramental%20Seal"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sacramental_seal", path = "json/spells8.json" },

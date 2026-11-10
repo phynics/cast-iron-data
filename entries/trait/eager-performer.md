@@ -2,6 +2,7 @@
 id = "ref/trait/eager-performer"
 kind = "trait"
 title = "Eager Performer"
+aon = "TraitDisplay.aspx?ItemName=Eager%20Performer"
 source_ids = ["rise-of-the-runelords-anniversary-edition-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eager_performer", path = "json/traits02.json" },

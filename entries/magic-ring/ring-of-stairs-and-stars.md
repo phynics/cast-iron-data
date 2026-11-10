@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-stairs-and-stars"
 kind = "item"
 title = "Ring of Stairs and Stars"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Stairs%20and%20Stars"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_stairs_and_stars", path = "json/magic_ring.json" },

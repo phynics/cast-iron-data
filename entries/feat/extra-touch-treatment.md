@@ -2,6 +2,7 @@
 id = "ref/feat/extra-touch-treatment"
 kind = "feat"
 title = "Extra Touch Treatment"
+aon = "FeatDisplay.aspx?ItemName=Extra%20Touch%20Treatment"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extra_touch_treatment", path = "json/feat06.json" },

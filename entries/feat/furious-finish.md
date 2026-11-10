@@ -2,6 +2,7 @@
 id = "ref/feat/furious-finish"
 kind = "feat"
 title = "Furious Finish"
+aon = "FeatDisplay.aspx?ItemName=Furious%20Finish"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "furious_finish", path = "json/feat07.json" },

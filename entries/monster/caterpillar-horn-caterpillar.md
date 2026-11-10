@@ -2,6 +2,7 @@
 id = "ref/monster/caterpillar-horn-caterpillar"
 kind = "creature"
 title = "Horn Caterpillar"
+aon = "MonsterDisplay.aspx?ItemName=Horn%20Caterpillar"
 source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "caterpillar_horn_caterpillar", path = "json/monsters04.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/colonial"
 kind = "trait"
 title = "Colonial"
+aon = "TraitDisplay.aspx?ItemName=Colonial"
 source_ids = ["serpents-skull-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "colonial", path = "json/traits02.json" },

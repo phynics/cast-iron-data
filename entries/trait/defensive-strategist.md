@@ -2,6 +2,7 @@
 id = "ref/trait/defensive-strategist"
 kind = "trait"
 title = "Defensive Strategist"
+aon = "TraitDisplay.aspx?ItemName=Defensive%20Strategist"
 source_ids = ["inner-sea-gods", "faiths-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "defensive_strategist", path = "json/traits03.json" },

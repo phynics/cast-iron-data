@@ -2,6 +2,7 @@
 id = "ref/trait/foxclaw-scout"
 kind = "trait"
 title = "Foxclaw Scout"
+aon = "TraitDisplay.aspx?ItemName=Foxclaw%20Scout"
 source_ids = ["ironfang-invasion-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "foxclaw_scout", path = "json/traits02.json" },

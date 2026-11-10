@@ -2,6 +2,7 @@
 id = "ref/spell/wicker-horse"
 kind = "spell"
 title = "Wicker Horse"
+aon = "SpellDisplay.aspx?ItemName=Wicker%20Horse"
 source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wicker_horse", path = "json/spells16.json" },

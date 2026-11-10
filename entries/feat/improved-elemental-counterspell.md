@@ -2,6 +2,7 @@
 id = "ref/feat/improved-elemental-counterspell"
 kind = "feat"
 title = "Improved Elemental Counterspell"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Elemental%20Counterspell"
 source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_elemental_counterspell", path = "json/feat09.json" },

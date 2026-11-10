@@ -2,6 +2,7 @@
 id = "ref/feat/improved-monster-lore"
 kind = "feat"
 title = "Improved Monster Lore"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Monster%20Lore"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_monster_lore", path = "json/feat09.json" },

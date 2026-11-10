@@ -2,6 +2,7 @@
 id = "ref/monster/giant-ground-cricket"
 kind = "creature"
 title = "Giant Ground Cricket"
+aon = "MonsterDisplay.aspx?ItemName=Giant%20Ground%20Cricket"
 source_ids = ["pathfinder-116-fangs-of-war"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_ground_cricket", path = "json/monsters11.json" },

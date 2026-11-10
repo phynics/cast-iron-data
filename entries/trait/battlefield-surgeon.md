@@ -2,6 +2,7 @@
 id = "ref/trait/battlefield-surgeon"
 kind = "trait"
 title = "Battlefield Surgeon"
+aon = "TraitDisplay.aspx?ItemName=Battlefield%20Surgeon"
 source_ids = ["inner-sea-gods", "faiths-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "battlefield_surgeon", path = "json/traits03.json" },

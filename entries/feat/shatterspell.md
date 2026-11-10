@@ -2,6 +2,7 @@
 id = "ref/feat/shatterspell"
 kind = "feat"
 title = "Shatterspell"
+aon = "FeatDisplay.aspx?ItemName=Shatterspell"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shatterspell", path = "json/feat14.json" },

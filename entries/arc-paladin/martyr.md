@@ -2,6 +2,7 @@
 id = "ref/arc-paladin/martyr"
 kind = "archetype"
 title = "Martyr"
+aon = "ArchetypeDisplay.aspx?FixedName=Paladin%20Martyr"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "martyr", path = "json/archetypes_paladin.json" },

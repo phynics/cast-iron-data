@@ -2,6 +2,7 @@
 id = "ref/spell/itching-curse"
 kind = "spell"
 title = "Itching Curse"
+aon = "SpellDisplay.aspx?ItemName=Itching%20Curse"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "itching_curse", path = "json/spells6.json" },

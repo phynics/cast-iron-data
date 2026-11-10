@@ -2,6 +2,7 @@
 id = "ref/feat/profits-of-kalistrade"
 kind = "feat"
 title = "Profits of Kalistrade"
+aon = "FeatDisplay.aspx?ItemName=Profits%20of%20Kalistrade"
 source_ids = ["pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "profits_of_kalistrade", path = "json/feat12.json" },

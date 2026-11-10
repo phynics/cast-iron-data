@@ -2,6 +2,7 @@
 id = "ref/feat/cornugon-stun"
 kind = "feat"
 title = "Cornugon Stun"
+aon = "FeatDisplay.aspx?ItemName=Cornugon%20Stun"
 source_ids = ["cheliax-empire-of-devils"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cornugon_stun", path = "json/feat03.json" },

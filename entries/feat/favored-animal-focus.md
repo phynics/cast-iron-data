@@ -2,6 +2,7 @@
 id = "ref/feat/favored-animal-focus"
 kind = "feat"
 title = "Favored Animal Focus"
+aon = "FeatDisplay.aspx?ItemName=Favored%20Animal%20Focus"
 source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "favored_animal_focus", path = "json/feat06.json" },

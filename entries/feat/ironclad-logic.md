@@ -2,6 +2,7 @@
 id = "ref/feat/ironclad-logic"
 kind = "feat"
 title = "Ironclad Logic"
+aon = "FeatDisplay.aspx?ItemName=Ironclad%20Logic"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ironclad_logic", path = "json/feat09.json" },

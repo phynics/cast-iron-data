@@ -2,6 +2,7 @@
 id = "ref/spell/recharge-innate-magic"
 kind = "spell"
 title = "Recharge Innate Magic"
+aon = "SpellDisplay.aspx?ItemName=Recharge%20Innate%20Magic"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "recharge_innate_magic", path = "json/spells8.json" },

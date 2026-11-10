@@ -2,6 +2,7 @@
 id = "ref/race/grindylow"
 kind = "race"
 title = "Grindylow"
+aon = "RacesDisplay.aspx?ItemName=Grindylow"
 source_ids = ["blood-of-the-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grindylow", path = "json/races3.json" },

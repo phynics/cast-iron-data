@@ -2,6 +2,7 @@
 id = "ref/trait/outer-dragon-blood"
 kind = "trait"
 title = "Outer Dragon Blood"
+aon = "TraitDisplay.aspx?ItemName=Outer%20Dragon%20Blood"
 source_ids = ["people-of-the-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "outer_dragon_blood", path = "json/traits02.json" },

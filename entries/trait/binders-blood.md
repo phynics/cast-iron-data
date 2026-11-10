@@ -2,6 +2,7 @@
 id = "ref/trait/binders-blood"
 kind = "trait"
 title = "Binder's Blood"
+aon = "TraitDisplay.aspx?ItemName=Binder%27s%20Blood"
 source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "binders_blood", path = "json/traits01.json" },

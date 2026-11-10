@@ -2,6 +2,7 @@
 id = "ref/feat/stalkers-focus"
 kind = "feat"
 title = "Stalker's Focus"
+aon = "FeatDisplay.aspx?ItemName=Stalker%27s%20Focus"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stalkers_focus", path = "json/feat15.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/transport-via-plants"
 kind = "spell"
 title = "Transport via Plants"
+aon = "SpellDisplay.aspx?ItemName=Transport%20via%20Plants"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "transport_via_plants", path = "json/spells10.json" },

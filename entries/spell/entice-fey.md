@@ -2,6 +2,7 @@
 id = "ref/spell/entice-fey"
 kind = "spell"
 title = "Entice Fey"
+aon = "SpellDisplay.aspx?ItemName=Entice%20Fey"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "entice_fey", path = "json/spells4.json" },

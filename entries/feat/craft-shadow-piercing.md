@@ -2,6 +2,7 @@
 id = "ref/feat/craft-shadow-piercing"
 kind = "feat"
 title = "Craft Shadow Piercing"
+aon = "FeatDisplay.aspx?ItemName=Craft%20Shadow%20Piercing"
 source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "craft_shadow_piercing", path = "json/feat03.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/major-phantom-object"
 kind = "spell"
 title = "Major Phantom Object"
+aon = "SpellDisplay.aspx?ItemName=Major%20Phantom%20Object"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "major_phantom_object", path = "json/spells6.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/improved-armor-focus"
 kind = "feat"
 title = "Improved Armor Focus"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Armor%20Focus"
 source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_armor_focus", path = "json/feat08.json" },

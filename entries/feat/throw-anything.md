@@ -2,6 +2,7 @@
 id = "ref/feat/throw-anything"
 kind = "feat"
 title = "Throw Anything"
+aon = "FeatDisplay.aspx?ItemName=Throw%20Anything"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "throw_anything", path = "json/feat16.json" },

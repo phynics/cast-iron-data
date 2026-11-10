@@ -2,6 +2,7 @@
 id = "ref/monster/nightgaunt"
 kind = "creature"
 title = "Nightgaunt"
+aon = "MonsterDisplay.aspx?ItemName=Nightgaunt"
 source_ids = ["bestiary-4", "pathfinder-65-into-the-nightmare-rift"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nightgaunt", path = "json/monsters36.json" },

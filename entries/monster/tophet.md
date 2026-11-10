@@ -2,6 +2,7 @@
 id = "ref/monster/tophet"
 kind = "creature"
 title = "Tophet"
+aon = "MonsterDisplay.aspx?ItemName=Tophet"
 source_ids = ["bestiary-3", "pathfinder-21-the-jackals-price"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tophet", path = "json/monsters23.json" },

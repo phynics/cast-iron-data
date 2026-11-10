@@ -2,6 +2,7 @@
 id = "ref/feat/triton-portal"
 kind = "feat"
 title = "Triton Portal"
+aon = "FeatDisplay.aspx?ItemName=Triton%20Portal"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "triton_portal", path = "json/feat16.json" },

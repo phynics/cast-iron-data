@@ -2,6 +2,7 @@
 id = "ref/feat/eldritch-aid"
 kind = "feat"
 title = "Eldritch Aid"
+aon = "FeatDisplay.aspx?ItemName=Eldritch%20Aid"
 source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eldritch_aid", path = "json/feat05.json" },

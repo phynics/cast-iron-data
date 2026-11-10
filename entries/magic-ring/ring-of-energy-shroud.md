@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-energy-shroud"
 kind = "item"
 title = "Ring of Energy Shroud"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Energy%20Shroud"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_energy_shroud", path = "json/magic_ring.json" },

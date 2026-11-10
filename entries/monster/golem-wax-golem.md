@@ -2,6 +2,7 @@
 id = "ref/monster/golem-wax-golem"
 kind = "creature"
 title = "Wax Golem"
+aon = "MonsterDisplay.aspx?ItemName=Wax%20Golem"
 source_ids = ["bestiary-4", "pathfinder-47-ashes-at-dawn"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_wax_golem", path = "json/monsters33.json" },

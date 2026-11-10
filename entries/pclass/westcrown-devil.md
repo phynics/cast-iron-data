@@ -2,6 +2,7 @@
 id = "ref/pclass/westcrown-devil"
 kind = "prestige_class"
 title = "Westcrown Devil"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Westcrown%20Devil"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "westcrown_devil", path = "json/prestige_classes4.json" },

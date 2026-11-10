@@ -2,6 +2,7 @@
 id = "ref/spell/speechreaders-sight"
 kind = "spell"
 title = "Speechreader's Sight"
+aon = "SpellDisplay.aspx?ItemName=Speechreader%27s%20Sight"
 source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "speechreaders_sight", path = "json/spells9.json" },

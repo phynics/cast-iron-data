@@ -2,6 +2,7 @@
 id = "ref/feat/tracer-fire"
 kind = "feat"
 title = "Tracer Fire"
+aon = "FeatDisplay.aspx?ItemName=Tracer%20Fire"
 source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tracer_fire", path = "json/feat16.json" },

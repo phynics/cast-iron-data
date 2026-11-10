@@ -2,6 +2,7 @@
 id = "ref/spell/see-beyond"
 kind = "spell"
 title = "See Beyond"
+aon = "SpellDisplay.aspx?ItemName=See%20Beyond"
 source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "see_beyond", path = "json/spells15.json" },

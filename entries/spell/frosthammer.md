@@ -2,6 +2,7 @@
 id = "ref/spell/frosthammer"
 kind = "spell"
 title = "Frosthammer"
+aon = "SpellDisplay.aspx?ItemName=Frosthammer"
 source_ids = ["pathfinder-69-maiden-mother-crone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "frosthammer", path = "json/spells13.json" },

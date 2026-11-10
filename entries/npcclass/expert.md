@@ -2,6 +2,7 @@
 id = "ref/npcclass/expert"
 kind = "class"
 title = "Expert"
+aon = "ClassDisplay.aspx?ItemName=Expert"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "expert", path = "json/npc_classes.json" },

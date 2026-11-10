@@ -2,6 +2,7 @@
 id = "ref/spell/raise-dead"
 kind = "spell"
 title = "Raise Dead"
+aon = "SpellDisplay.aspx?ItemName=Raise%20Dead"
 source_ids = ["core-rulebook", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "raise_dead", path = "json/spells8.json" },

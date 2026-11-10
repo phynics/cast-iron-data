@@ -2,6 +2,7 @@
 id = "ref/spell/paragon-surge"
 kind = "spell"
 title = "Paragon Surge"
+aon = "SpellDisplay.aspx?ItemName=Paragon%20Surge"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "paragon_surge", path = "json/spells7.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/siphon-might"
 kind = "spell"
 title = "Siphon Might"
+aon = "SpellDisplay.aspx?ItemName=Siphon%20Might"
 source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "siphon_might", path = "json/spells9.json" },

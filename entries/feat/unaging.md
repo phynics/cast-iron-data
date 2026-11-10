@@ -2,6 +2,7 @@
 id = "ref/feat/unaging"
 kind = "feat"
 title = "Unaging"
+aon = "FeatDisplay.aspx?ItemName=Unaging"
 source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unaging", path = "json/feat16.json" },

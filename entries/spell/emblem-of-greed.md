@@ -2,6 +2,7 @@
 id = "ref/spell/emblem-of-greed"
 kind = "spell"
 title = "Emblem of Greed"
+aon = "SpellDisplay.aspx?ItemName=Emblem%20of%20Greed"
 source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "emblem_of_greed", path = "json/spells4.json" },

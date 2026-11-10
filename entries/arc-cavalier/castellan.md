@@ -2,6 +2,7 @@
 id = "ref/arc-cavalier/castellan"
 kind = "archetype"
 title = "Castellan"
+aon = "ArchetypeDisplay.aspx?FixedName=Cavalier%20Castellan"
 source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "castellan", path = "json/archetypes_cavalier.json" },

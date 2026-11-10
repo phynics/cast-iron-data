@@ -2,6 +2,7 @@
 id = "ref/magic-ring/red-hound-ring"
 kind = "item"
 title = "Red Hound Ring"
+aon = "MagicRingsDisplay.aspx?FinalName=Red%20Hound%20Ring"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "red_hound_ring", path = "json/magic_ring.json" },

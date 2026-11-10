@@ -2,6 +2,7 @@
 id = "ref/arc-cleric/demonic-apostle"
 kind = "archetype"
 title = "Demonic Apostle"
+aon = "ArchetypeDisplay.aspx?FixedName=Cleric%20Demonic%20Apostle"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demonic_apostle", path = "json/archetypes_cleric.json" },

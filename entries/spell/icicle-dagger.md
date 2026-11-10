@@ -2,6 +2,7 @@
 id = "ref/spell/icicle-dagger"
 kind = "spell"
 title = "Icicle Dagger"
+aon = "SpellDisplay.aspx?ItemName=Icicle%20Dagger"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "icicle_dagger", path = "json/spells5.json" },

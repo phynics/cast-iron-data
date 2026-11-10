@@ -2,6 +2,7 @@
 id = "ref/monster/garipan"
 kind = "creature"
 title = "Garipan"
+aon = "MonsterDisplay.aspx?ItemName=Garipan"
 source_ids = ["academy-of-secrets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "garipan", path = "json/monsters11.json" },

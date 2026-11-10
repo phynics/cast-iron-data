@@ -2,6 +2,7 @@
 id = "ref/arc-hunter/totem-bonded"
 kind = "archetype"
 title = "Totem-Bonded"
+aon = "ArchetypeDisplay.aspx?FixedName=Hunter%20Totem-Bonded"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "totem_bonded", path = "json/archetypes_hunter.json" },

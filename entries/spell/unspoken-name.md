@@ -2,6 +2,7 @@
 id = "ref/spell/unspoken-name"
 kind = "spell"
 title = "Unspoken Name"
+aon = "SpellDisplay.aspx?ItemName=Unspoken%20Name"
 source_ids = ["pathfinder-140-eulogy-for-roslars-coffer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unspoken_name", path = "json/spells11.json" },

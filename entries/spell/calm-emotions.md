@@ -2,6 +2,7 @@
 id = "ref/spell/calm-emotions"
 kind = "spell"
 title = "Calm Emotions"
+aon = "SpellDisplay.aspx?ItemName=Calm%20Emotions"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "calm_emotions", path = "json/spells2.json" },

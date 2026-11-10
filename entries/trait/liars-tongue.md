@@ -2,6 +2,7 @@
 id = "ref/trait/liars-tongue"
 kind = "trait"
 title = "Liar's Tongue"
+aon = "TraitDisplay.aspx?ItemName=Liar%27s%20Tongue"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "liars_tongue", path = "json/traits03.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/righteous-indignation"
 kind = "trait"
 title = "Righteous Indignation"
+aon = "TraitDisplay.aspx?ItemName=Righteous%20Indignation"
 source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "righteous_indignation", path = "json/traits03.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/undaunted-bravery"
 kind = "feat"
 title = "Undaunted Bravery"
+aon = "FeatDisplay.aspx?ItemName=Undaunted%20Bravery"
 source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "undaunted_bravery", path = "json/feat16.json" },

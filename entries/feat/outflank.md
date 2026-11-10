@@ -2,6 +2,7 @@
 id = "ref/feat/outflank"
 kind = "feat"
 title = "Outflank"
+aon = "FeatDisplay.aspx?ItemName=Outflank"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "outflank", path = "json/feat11.json" },

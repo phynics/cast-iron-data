@@ -2,6 +2,7 @@
 id = "ref/arc-monk/gray-disciple"
 kind = "archetype"
 title = "Gray Disciple"
+aon = "ArchetypeDisplay.aspx?FixedName=Monk%20Gray%20Disciple"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gray_disciple", path = "json/archetypes_monk.json" },

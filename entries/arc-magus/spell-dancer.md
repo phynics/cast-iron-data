@@ -2,6 +2,7 @@
 id = "ref/arc-magus/spell-dancer"
 kind = "archetype"
 title = "Spell Dancer"
+aon = "ArchetypeDisplay.aspx?FixedName=Magus%20Spell%20Dancer"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_dancer", path = "json/archetypes_magus.json" },

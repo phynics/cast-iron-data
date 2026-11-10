@@ -2,6 +2,7 @@
 id = "ref/spell/frostbite"
 kind = "spell"
 title = "Frostbite"
+aon = "SpellDisplay.aspx?ItemName=Frostbite"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "frostbite", path = "json/spells13.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/quain-martial-artist"
 kind = "trait"
 title = "Quain Martial Artist"
+aon = "TraitDisplay.aspx?ItemName=Quain%20Martial%20Artist"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quain_martial_artist", path = "json/traits04.json" },

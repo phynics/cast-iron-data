@@ -2,6 +2,7 @@
 id = "ref/feat/instant-judgment"
 kind = "feat"
 title = "Instant Judgment"
+aon = "FeatDisplay.aspx?ItemName=Instant%20Judgment"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "instant_judgment", path = "json/feat09.json" },

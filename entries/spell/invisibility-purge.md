@@ -2,6 +2,7 @@
 id = "ref/spell/invisibility-purge"
 kind = "spell"
 title = "Invisibility Purge"
+aon = "SpellDisplay.aspx?ItemName=Invisibility%20Purge"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "invisibility_purge", path = "json/spells14.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/welcome-pain"
 kind = "feat"
 title = "Welcome Pain"
+aon = "FeatDisplay.aspx?ItemName=Welcome%20Pain"
 source_ids = ["faiths-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "welcome_pain", path = "json/feat17.json" },

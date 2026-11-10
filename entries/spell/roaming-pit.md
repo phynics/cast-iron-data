@@ -2,6 +2,7 @@
 id = "ref/spell/roaming-pit"
 kind = "spell"
 title = "Roaming Pit"
+aon = "SpellDisplay.aspx?ItemName=Roaming%20Pit"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "roaming_pit", path = "json/spells8.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/color-spray"
 kind = "spell"
 title = "Color Spray"
+aon = "SpellDisplay.aspx?ItemName=Color%20Spray"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "color_spray", path = "json/spells2.json" },

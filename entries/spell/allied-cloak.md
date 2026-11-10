@@ -2,6 +2,7 @@
 id = "ref/spell/allied-cloak"
 kind = "spell"
 title = "Allied Cloak"
+aon = "SpellDisplay.aspx?ItemName=Allied%20Cloak"
 source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "allied_cloak", path = "json/spells.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/burst-with-light"
 kind = "spell"
 title = "Burst with Light"
+aon = "SpellDisplay.aspx?ItemName=Burst%20with%20Light"
 source_ids = ["demon-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burst_with_light", path = "json/spells2.json" },

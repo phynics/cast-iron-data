@@ -2,6 +2,7 @@
 id = "ref/trait/gifted-medium"
 kind = "trait"
 title = "Gifted Medium"
+aon = "TraitDisplay.aspx?ItemName=Gifted%20Medium"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gifted_medium", path = "json/traits03.json" },

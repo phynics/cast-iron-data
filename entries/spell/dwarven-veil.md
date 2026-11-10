@@ -2,6 +2,7 @@
 id = "ref/spell/dwarven-veil"
 kind = "spell"
 title = "Dwarven Veil"
+aon = "SpellDisplay.aspx?ItemName=Dwarven%20Veil"
 source_ids = ["dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dwarven_veil", path = "json/spells13.json" },

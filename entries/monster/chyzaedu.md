@@ -2,6 +2,7 @@
 id = "ref/monster/chyzaedu"
 kind = "creature"
 title = "Chyzaedu"
+aon = "MonsterDisplay.aspx?ItemName=Chyzaedu"
 source_ids = ["occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chyzaedu", path = "json/monsters05.json" },

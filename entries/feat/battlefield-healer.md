@@ -2,6 +2,7 @@
 id = "ref/feat/battlefield-healer"
 kind = "feat"
 title = "Battlefield Healer"
+aon = "FeatDisplay.aspx?ItemName=Battlefield%20Healer"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "battlefield_healer", path = "json/feat02.json" },

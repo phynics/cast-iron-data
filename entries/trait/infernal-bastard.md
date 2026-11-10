@@ -2,6 +2,7 @@
 id = "ref/trait/infernal-bastard"
 kind = "trait"
 title = "Infernal Bastard"
+aon = "TraitDisplay.aspx?ItemName=Infernal%20Bastard"
 source_ids = ["council-of-thieves-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "infernal_bastard", path = "json/traits02.json" },

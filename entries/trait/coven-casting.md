@@ -2,6 +2,7 @@
 id = "ref/trait/coven-casting"
 kind = "trait"
 title = "Coven Casting"
+aon = "TraitDisplay.aspx?ItemName=Coven%20Casting"
 source_ids = ["blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "coven_casting", path = "json/traits02.json" },

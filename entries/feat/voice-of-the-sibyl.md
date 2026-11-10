@@ -2,6 +2,7 @@
 id = "ref/feat/voice-of-the-sibyl"
 kind = "feat"
 title = "Voice of the Sibyl"
+aon = "FeatDisplay.aspx?ItemName=Voice%20of%20the%20Sibyl"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "voice_of_the_sibyl", path = "json/feat17.json" },

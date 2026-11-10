@@ -2,6 +2,7 @@
 id = "ref/feat/peacemaker"
 kind = "feat"
 title = "Peacemaker"
+aon = "FeatDisplay.aspx?ItemName=Peacemaker"
 source_ids = ["champions-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "peacemaker", path = "json/feat11.json" },

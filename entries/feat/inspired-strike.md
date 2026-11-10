@@ -2,6 +2,7 @@
 id = "ref/feat/inspired-strike"
 kind = "feat"
 title = "Inspired Strike"
+aon = "FeatDisplay.aspx?ItemName=Inspired%20Strike"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inspired_strike", path = "json/feat09.json" },

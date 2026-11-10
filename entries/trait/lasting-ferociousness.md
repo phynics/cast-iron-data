@@ -2,6 +2,7 @@
 id = "ref/trait/lasting-ferociousness"
 kind = "trait"
 title = "Lasting Ferociousness"
+aon = "TraitDisplay.aspx?ItemName=Lasting%20Ferociousness"
 source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lasting_ferociousness", path = "json/traits05.json" },

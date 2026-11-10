@@ -2,6 +2,7 @@
 id = "ref/spell/unfetter"
 kind = "spell"
 title = "Unfetter"
+aon = "SpellDisplay.aspx?ItemName=Unfetter"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unfetter", path = "json/spells11.json" },

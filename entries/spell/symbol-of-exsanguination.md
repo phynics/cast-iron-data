@@ -2,6 +2,7 @@
 id = "ref/spell/symbol-of-exsanguination"
 kind = "spell"
 title = "Symbol of Exsanguination"
+aon = "SpellDisplay.aspx?ItemName=Symbol%20of%20Exsanguination"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "symbol_of_exsanguination", path = "json/spells10.json" },

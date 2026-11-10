@@ -2,6 +2,7 @@
 id = "ref/spell/parasitic-soul"
 kind = "spell"
 title = "Parasitic Soul"
+aon = "SpellDisplay.aspx?ItemName=Parasitic%20Soul"
 source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "parasitic_soul", path = "json/spells6.json" },

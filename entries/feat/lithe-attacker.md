@@ -2,6 +2,7 @@
 id = "ref/feat/lithe-attacker"
 kind = "feat"
 title = "Lithe Attacker"
+aon = "FeatDisplay.aspx?ItemName=Lithe%20Attacker"
 source_ids = ["animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lithe_attacker", path = "json/feat10.json" },

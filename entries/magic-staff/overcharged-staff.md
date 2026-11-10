@@ -2,6 +2,7 @@
 id = "ref/magic-staff/overcharged-staff"
 kind = "item"
 title = "Overcharged Staff"
+aon = "MagicCursedDisplay.aspx?ItemName=Overcharged%20Staff"
 source_ids = ["antiheros-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "overcharged_staff", path = "json/magic_staff.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/spiritual-ally"
 kind = "spell"
 title = "Spiritual Ally"
+aon = "SpellDisplay.aspx?ItemName=Spiritual%20Ally"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spiritual_ally", path = "json/spells9.json" },

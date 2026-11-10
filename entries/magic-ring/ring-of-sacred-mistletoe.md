@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-sacred-mistletoe"
 kind = "item"
 title = "Ring of Sacred Mistletoe"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Sacred%20Mistletoe"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_sacred_mistletoe", path = "json/magic_ring.json" },

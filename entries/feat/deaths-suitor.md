@@ -2,6 +2,7 @@
 id = "ref/feat/deaths-suitor"
 kind = "feat"
 title = "Death's Suitor"
+aon = "FeatDisplay.aspx?ItemName=Death%27s%20Suitor"
 source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deaths_suitor", path = "json/feat04.json" },

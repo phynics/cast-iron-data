@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-animal-friendship"
 kind = "item"
 title = "Ring of Animal Friendship"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Animal%20Friendship"
 source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_animal_friendship", path = "json/magic_ring.json" },

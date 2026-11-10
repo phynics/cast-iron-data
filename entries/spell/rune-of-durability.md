@@ -2,6 +2,7 @@
 id = "ref/spell/rune-of-durability"
 kind = "spell"
 title = "Rune of Durability"
+aon = "SpellDisplay.aspx?ItemName=Rune%20of%20Durability"
 source_ids = ["dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rune_of_durability", path = "json/spells8.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/arcane-trap-suppressor"
 kind = "feat"
 title = "Arcane Trap Suppressor"
+aon = "FeatDisplay.aspx?ItemName=Arcane%20Trap%20Suppressor"
 source_ids = ["dungeoneers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcane_trap_suppressor", path = "json/feat01.json" },

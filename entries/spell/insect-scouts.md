@@ -2,6 +2,7 @@
 id = "ref/spell/insect-scouts"
 kind = "spell"
 title = "Insect Scouts"
+aon = "SpellDisplay.aspx?ItemName=Insect%20Scouts"
 source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "insect_scouts", path = "json/spells14.json" },

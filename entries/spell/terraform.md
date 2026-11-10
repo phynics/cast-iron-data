@@ -2,6 +2,7 @@
 id = "ref/spell/terraform"
 kind = "spell"
 title = "Terraform"
+aon = "SpellDisplay.aspx?ItemName=Terraform"
 source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "terraform", path = "json/spells10.json" },

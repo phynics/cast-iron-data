@@ -2,6 +2,7 @@
 id = "ref/feat/seeker-of-the-eternal-emperor"
 kind = "feat"
 title = "Seeker of the Eternal Emperor"
+aon = "FeatDisplay.aspx?ItemName=Seeker%20of%20the%20Eternal%20Emperor"
 source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seeker_of_the_eternal_emperor", path = "json/feat13.json" },

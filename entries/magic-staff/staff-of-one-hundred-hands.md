@@ -2,6 +2,7 @@
 id = "ref/magic-staff/staff-of-one-hundred-hands"
 kind = "item"
 title = "Staff of One Hundred Hands"
+aon = "MagicStavesDisplay.aspx?ItemName=Staff%20of%20One%20Hundred%20Hands"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_one_hundred_hands", path = "json/magic_staff.json" },

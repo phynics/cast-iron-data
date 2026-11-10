@@ -2,6 +2,7 @@
 id = "ref/spell/blast-of-wind"
 kind = "spell"
 title = "Blast of Wind"
+aon = "SpellDisplay.aspx?ItemName=Blast%20of%20Wind"
 source_ids = ["core-rulebook", "elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blast_of_wind", path = "json/spells5.json" },

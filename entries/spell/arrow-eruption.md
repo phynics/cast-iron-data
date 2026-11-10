@@ -2,6 +2,7 @@
 id = "ref/spell/arrow-eruption"
 kind = "spell"
 title = "Arrow Eruption"
+aon = "SpellDisplay.aspx?ItemName=Arrow%20Eruption"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arrow_eruption", path = "json/spells.json" },

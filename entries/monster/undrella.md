@@ -2,6 +2,7 @@
 id = "ref/monster/undrella"
 kind = "creature"
 title = "Undrella"
+aon = "MonsterDisplay.aspx?ItemName=Undrella"
 source_ids = ["mythical-monsters-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "undrella", path = "json/monsters_unique4.json" },

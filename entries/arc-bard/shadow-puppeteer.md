@@ -2,6 +2,7 @@
 id = "ref/arc-bard/shadow-puppeteer"
 kind = "archetype"
 title = "Shadow Puppeteer"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Shadow%20Puppeteer"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_puppeteer", path = "json/archetypes_bard2.json" },

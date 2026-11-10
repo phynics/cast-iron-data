@@ -2,6 +2,7 @@
 id = "ref/feat/penetrating-stare"
 kind = "feat"
 title = "Penetrating Stare"
+aon = "FeatDisplay.aspx?ItemName=Penetrating%20Stare"
 source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "penetrating_stare", path = "json/feat12.json" },

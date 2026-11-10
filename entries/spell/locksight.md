@@ -2,6 +2,7 @@
 id = "ref/spell/locksight"
 kind = "spell"
 title = "Locksight"
+aon = "SpellDisplay.aspx?ItemName=Locksight"
 source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "locksight", path = "json/spells6.json" },

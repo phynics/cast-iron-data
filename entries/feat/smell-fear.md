@@ -2,6 +2,7 @@
 id = "ref/feat/smell-fear"
 kind = "feat"
 title = "Smell Fear"
+aon = "FeatDisplay.aspx?ItemName=Smell%20Fear"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "smell_fear", path = "json/feat14.json" },

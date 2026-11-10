@@ -2,6 +2,7 @@
 id = "ref/feat/helpless-prisoner"
 kind = "feat"
 title = "Helpless Prisoner"
+aon = "FeatDisplay.aspx?ItemName=Helpless%20Prisoner"
 source_ids = ["gnomes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "helpless_prisoner", path = "json/feat08.json" },

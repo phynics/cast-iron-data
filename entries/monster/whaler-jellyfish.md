@@ -2,6 +2,7 @@
 id = "ref/monster/whaler-jellyfish"
 kind = "creature"
 title = "Whaler Jellyfish"
+aon = "MonsterDisplay.aspx?ItemName=Whaler%20Jellyfish"
 source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "whaler_jellyfish", path = "json/monsters25.json" },

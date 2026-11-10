@@ -2,6 +2,7 @@
 id = "ref/trait/friend-to-animals"
 kind = "trait"
 title = "Friend to Animals"
+aon = "TraitDisplay.aspx?ItemName=Friend%20to%20Animals"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "friend_to_animals", path = "json/traits05.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/slashing-grace"
 kind = "feat"
 title = "Slashing Grace"
+aon = "FeatDisplay.aspx?ItemName=Slashing%20Grace"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slashing_grace", path = "json/feat14.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-cleric/stoic-caregiver"
 kind = "archetype"
 title = "Stoic Caregiver"
+aon = "ArchetypeDisplay.aspx?FixedName=Cleric%20Stoic%20Caregiver"
 source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stoic_caregiver", path = "json/archetypes_cleric.json" },

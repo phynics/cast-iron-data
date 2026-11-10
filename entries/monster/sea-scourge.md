@@ -2,6 +2,7 @@
 id = "ref/monster/sea-scourge"
 kind = "creature"
 title = "Sea Scourge"
+aon = "MonsterDisplay.aspx?ItemName=Sea%20Scourge"
 source_ids = ["isles-of-the-shackles"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sea_scourge", path = "json/monsters21.json" },

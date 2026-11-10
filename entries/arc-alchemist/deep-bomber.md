@@ -2,6 +2,7 @@
 id = "ref/arc-alchemist/deep-bomber"
 kind = "archetype"
 title = "Deep Bomber"
+aon = "ArchetypeDisplay.aspx?FixedName=Alchemist%20Deep%20Bomber"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deep_bomber", path = "json/archetypes_alchemist.json" },

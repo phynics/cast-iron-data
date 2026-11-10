@@ -2,6 +2,7 @@
 id = "ref/trait/enemy-of-delusion"
 kind = "trait"
 title = "Enemy of Delusion"
+aon = "TraitDisplay.aspx?ItemName=Enemy%20of%20Delusion"
 source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enemy_of_delusion", path = "json/traits03.json" },

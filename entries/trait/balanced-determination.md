@@ -2,6 +2,7 @@
 id = "ref/trait/balanced-determination"
 kind = "trait"
 title = "Balanced Determination"
+aon = "TraitDisplay.aspx?ItemName=Balanced%20Determination"
 source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "balanced_determination", path = "json/traits01.json" },

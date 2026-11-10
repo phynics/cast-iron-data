@@ -2,6 +2,7 @@
 id = "ref/spell/spectral-scout"
 kind = "spell"
 title = "Spectral Scout"
+aon = "SpellDisplay.aspx?ItemName=Spectral%20Scout"
 source_ids = ["pathfinder-116-fangs-of-war"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spectral_scout", path = "json/spells9.json" },

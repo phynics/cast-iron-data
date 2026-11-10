@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-terrible-cost"
 kind = "item"
 title = "Ring of Terrible Cost"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Terrible%20Cost"
 source_ids = ["cheliax-empire-of-devils"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_terrible_cost", path = "json/magic_ring.json" },

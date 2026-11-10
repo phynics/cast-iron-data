@@ -2,6 +2,7 @@
 id = "ref/trait/avowed-inspiration"
 kind = "trait"
 title = "Avowed Inspiration"
+aon = "TraitDisplay.aspx?ItemName=Avowed%20Inspiration"
 source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "avowed_inspiration", path = "json/traits03.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/implacable"
 kind = "feat"
 title = "Implacable"
+aon = "FeatDisplay.aspx?ItemName=Implacable"
 source_ids = ["inner-sea-taverns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "implacable", path = "json/feat08.json" },

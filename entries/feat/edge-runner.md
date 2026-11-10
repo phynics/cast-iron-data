@@ -2,6 +2,7 @@
 id = "ref/feat/edge-runner"
 kind = "feat"
 title = "Edge Runner"
+aon = "FeatDisplay.aspx?ItemName=Edge%20Runner"
 source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "edge_runner", path = "json/feat05.json" },

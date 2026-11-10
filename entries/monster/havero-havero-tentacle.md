@@ -2,6 +2,7 @@
 id = "ref/monster/havero-havero-tentacle"
 kind = "creature"
 title = "Havero Tentacle"
+aon = "MonsterDisplay.aspx?ItemName=Havero%20Tentacle"
 source_ids = ["curse-of-the-crimson-throne"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "havero_havero_tentacle", path = "json/monsters13.json" },

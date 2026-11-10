@@ -2,6 +2,7 @@
 id = "ref/feat/subconscious-ursurpation"
 kind = "feat"
 title = "Subconscious Ursurpation"
+aon = "FeatDisplay.aspx?ItemName=Subconscious%20Ursurpation"
 source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "subconscious_ursurpation", path = "json/feat15.json" },

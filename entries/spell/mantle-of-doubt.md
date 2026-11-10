@@ -2,6 +2,7 @@
 id = "ref/spell/mantle-of-doubt"
 kind = "spell"
 title = "Mantle of Doubt"
+aon = "SpellDisplay.aspx?ItemName=Mantle%20of%20Doubt"
 source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mantle_of_doubt", path = "json/spells6.json" },

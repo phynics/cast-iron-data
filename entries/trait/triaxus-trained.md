@@ -2,6 +2,7 @@
 id = "ref/trait/triaxus-trained"
 kind = "trait"
 title = "Triaxus-Trained"
+aon = "TraitDisplay.aspx?ItemName=Triaxus-Trained"
 source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "triaxus_trained", path = "json/traits01.json" },

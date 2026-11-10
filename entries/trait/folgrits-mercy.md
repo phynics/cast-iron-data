@@ -2,6 +2,7 @@
 id = "ref/trait/folgrits-mercy"
 kind = "trait"
 title = "Folgrit's Mercy"
+aon = "TraitDisplay.aspx?ItemName=Folgrit%27s%20Mercy"
 source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "folgrits_mercy", path = "json/traits03.json" },

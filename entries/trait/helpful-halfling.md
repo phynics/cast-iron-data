@@ -2,6 +2,7 @@
 id = "ref/trait/helpful-halfling"
 kind = "trait"
 title = "Helpful (Halfling)"
+aon = "TraitDisplay.aspx?ItemName=Helpful%20%28Halfling%29"
 source_ids = ["halflings-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "helpful_halfling", path = "json/traits05.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/student-survivalist"
 kind = "trait"
 title = "Student Survivalist"
+aon = "TraitDisplay.aspx?ItemName=Student%20Survivalist"
 source_ids = ["jade-regent-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "student_survivalist", path = "json/traits02.json" },

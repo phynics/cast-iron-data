@@ -2,6 +2,7 @@
 id = "ref/feat/preferred-spell"
 kind = "feat"
 title = "Preferred Spell"
+aon = "FeatDisplay.aspx?ItemName=Preferred%20Spell"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "preferred_spell", path = "json/feat12.json" },

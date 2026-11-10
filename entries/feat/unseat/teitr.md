@@ -2,6 +2,7 @@
 id = "ref/feat/unseat/teitr"
 kind = "feat"
 title = "Unseat"
+aon = "FeatDisplay.aspx?ItemName=Unseat"
 source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/unseat" },

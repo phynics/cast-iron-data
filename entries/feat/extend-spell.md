@@ -2,6 +2,7 @@
 id = "ref/feat/extend-spell"
 kind = "feat"
 title = "Extend Spell"
+aon = "FeatDisplay.aspx?ItemName=Extend%20Spell"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extend_spell", path = "json/feat06.json" },

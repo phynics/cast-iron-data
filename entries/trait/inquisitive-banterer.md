@@ -2,6 +2,7 @@
 id = "ref/trait/inquisitive-banterer"
 kind = "trait"
 title = "Inquisitive Banterer"
+aon = "TraitDisplay.aspx?ItemName=Inquisitive%20Banterer"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inquisitive_banterer", path = "json/traits05.json" },

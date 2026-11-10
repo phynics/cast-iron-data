@@ -2,6 +2,7 @@
 id = "ref/feat/extended-animal-focus"
 kind = "feat"
 title = "Extended Animal Focus"
+aon = "FeatDisplay.aspx?ItemName=Extended%20Animal%20Focus"
 source_ids = ["ultimate-wilderness", "advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extended_animal_focus", path = "json/feat06.json" },

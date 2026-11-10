@@ -2,6 +2,7 @@
 id = "ref/spell/summon-elder-worm"
 kind = "spell"
 title = "Summon Elder Worm"
+aon = "SpellDisplay.aspx?ItemName=Summon%20Elder%20Worm"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summon_elder_worm", path = "json/spells16.json" },

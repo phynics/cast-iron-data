@@ -2,6 +2,7 @@
 id = "ref/spell/sacred-bond"
 kind = "spell"
 title = "Sacred Bond"
+aon = "SpellDisplay.aspx?ItemName=Sacred%20Bond"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sacred_bond", path = "json/spells8.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/ally-caller"
 kind = "feat"
 title = "Ally Caller"
+aon = "FeatDisplay.aspx?ItemName=Ally%20Caller"
 source_ids = ["blood-of-the-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ally_caller", path = "json/feat01.json" },

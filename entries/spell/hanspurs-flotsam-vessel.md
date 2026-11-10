@@ -2,6 +2,7 @@
 id = "ref/spell/hanspurs-flotsam-vessel"
 kind = "spell"
 title = "Hanspur's Flotsam Vessel"
+aon = "SpellDisplay.aspx?ItemName=Hanspur%27s%20Flotsam%20Vessel"
 source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hanspurs_flotsam_vessel", path = "json/spells5.json" },

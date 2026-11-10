@@ -2,6 +2,7 @@
 id = "ref/monster/shriezyx-shriezyx-queen"
 kind = "creature"
 title = "Shriezyx Queen"
+aon = "MonsterDisplay.aspx?ItemName=Shriezyx%20Queen"
 source_ids = ["pathfinder-134-it-came-from-hollow-mountain"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shriezyx_shriezyx_queen", path = "json/monsters38.json" },

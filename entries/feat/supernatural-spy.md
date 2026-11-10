@@ -2,6 +2,7 @@
 id = "ref/feat/supernatural-spy"
 kind = "feat"
 title = "Supernatural Spy"
+aon = "FeatDisplay.aspx?ItemName=Supernatural%20Spy"
 source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "supernatural_spy", path = "json/feat15.json" },

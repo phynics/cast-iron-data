@@ -2,6 +2,7 @@
 id = "ref/spell/sonic-form"
 kind = "spell"
 title = "Sonic Form"
+aon = "SpellDisplay.aspx?ItemName=Sonic%20Form"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sonic_form", path = "json/spells9.json" },

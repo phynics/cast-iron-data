@@ -2,6 +2,7 @@
 id = "ref/arc-oracle/planar-oracle"
 kind = "archetype"
 title = "Planar Oracle"
+aon = "ArchetypeDisplay.aspx?FixedName=Oracle%20Planar%20Oracle"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planar_oracle", path = "json/archetypes_oracle.json" },

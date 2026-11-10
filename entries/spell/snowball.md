@@ -2,6 +2,7 @@
 id = "ref/spell/snowball"
 kind = "spell"
 title = "Snowball"
+aon = "SpellDisplay.aspx?ItemName=Snowball"
 source_ids = ["ultimate-wilderness", "people-of-the-north", "pathfinder-67-the-snows-of-summer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snowball", path = "json/spells9.json" },

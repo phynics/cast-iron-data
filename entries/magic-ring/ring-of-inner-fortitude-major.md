@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-inner-fortitude-major"
 kind = "item"
 title = "Ring of Inner Fortitude (major)"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Inner%20Fortitudemajor"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_inner_fortitude_major", path = "json/magic_ring.json" },

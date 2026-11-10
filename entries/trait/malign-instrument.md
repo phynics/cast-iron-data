@@ -2,6 +2,7 @@
 id = "ref/trait/malign-instrument"
 kind = "trait"
 title = "Malign Instrument"
+aon = "TraitDisplay.aspx?ItemName=Malign%20Instrument"
 source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "malign_instrument", path = "json/traits05.json" },

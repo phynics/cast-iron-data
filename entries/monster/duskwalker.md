@@ -2,6 +2,7 @@
 id = "ref/monster/duskwalker"
 kind = "creature"
 title = "Duskwalker"
+aon = "MonsterDisplay.aspx?ItemName=Duskwalker"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "duskwalker", path = "json/monsters41.json" },

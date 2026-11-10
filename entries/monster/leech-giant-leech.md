@@ -2,6 +2,7 @@
 id = "ref/monster/leech-giant-leech"
 kind = "creature"
 title = "Giant Leech"
+aon = "MonsterDisplay.aspx?ItemName=Giant%20Leech"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "leech_giant_leech", path = "json/monsters34.json" },

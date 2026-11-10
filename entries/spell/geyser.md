@@ -2,6 +2,7 @@
 id = "ref/spell/geyser"
 kind = "spell"
 title = "Geyser"
+aon = "SpellDisplay.aspx?ItemName=Geyser"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "geyser", path = "json/spells13.json" },

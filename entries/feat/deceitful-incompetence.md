@@ -2,6 +2,7 @@
 id = "ref/feat/deceitful-incompetence"
 kind = "feat"
 title = "Deceitful Incompetence"
+aon = "FeatDisplay.aspx?ItemName=Deceitful%20Incompetence"
 source_ids = ["antiheros-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deceitful_incompetence", path = "json/feat04.json" },

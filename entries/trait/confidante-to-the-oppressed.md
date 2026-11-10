@@ -2,6 +2,7 @@
 id = "ref/trait/confidante-to-the-oppressed"
 kind = "trait"
 title = "Confidante to the Oppressed"
+aon = "TraitDisplay.aspx?ItemName=Confidante%20to%20the%20Oppressed"
 source_ids = ["knights-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "confidante_to_the_oppressed", path = "json/traits04.json" },

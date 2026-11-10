@@ -2,6 +2,7 @@
 id = "ref/monster/warped-one"
 kind = "creature"
 title = "Warped One"
+aon = "MonsterDisplay.aspx?ItemName=Warped%20One"
 source_ids = ["the-worldwound"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "warped_one", path = "json/monsters25.json" },

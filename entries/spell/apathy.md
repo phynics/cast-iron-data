@@ -2,6 +2,7 @@
 id = "ref/spell/apathy"
 kind = "spell"
 title = "Apathy"
+aon = "SpellDisplay.aspx?ItemName=Apathy"
 source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "apathy", path = "json/spells.json" },

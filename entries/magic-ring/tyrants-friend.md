@@ -2,6 +2,7 @@
 id = "ref/magic-ring/tyrants-friend"
 kind = "item"
 title = "Tyrant's Friend"
+aon = "MagicRingsDisplay.aspx?FinalName=Tyrant%27s%20Friend"
 source_ids = ["pathfinder-society-field-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tyrants_friend", path = "json/magic_ring.json" },

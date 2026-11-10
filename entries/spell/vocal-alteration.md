@@ -2,6 +2,7 @@
 id = "ref/spell/vocal-alteration"
 kind = "spell"
 title = "Vocal Alteration"
+aon = "SpellDisplay.aspx?ItemName=Vocal%20Alteration"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vocal_alteration", path = "json/spells11.json" },

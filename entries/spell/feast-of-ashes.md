@@ -2,6 +2,7 @@
 id = "ref/spell/feast-of-ashes"
 kind = "spell"
 title = "Feast of Ashes"
+aon = "SpellDisplay.aspx?ItemName=Feast%20of%20Ashes"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "feast_of_ashes", path = "json/spells4.json" },

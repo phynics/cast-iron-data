@@ -2,6 +2,7 @@
 id = "ref/trait/old-before-your-time"
 kind = "trait"
 title = "Old Before Your Time"
+aon = "TraitDisplay.aspx?ItemName=Old%20Before%20Your%20Time"
 source_ids = ["blood-of-the-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "old_before_your_time", path = "json/traits05.json" },

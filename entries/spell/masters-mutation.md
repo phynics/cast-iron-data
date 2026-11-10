@@ -2,6 +2,7 @@
 id = "ref/spell/masters-mutation"
 kind = "spell"
 title = "Master's Mutation"
+aon = "SpellDisplay.aspx?ItemName=Master%27s%20Mutation"
 source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "masters_mutation", path = "json/spells14.json" },

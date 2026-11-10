@@ -2,6 +2,7 @@
 id = "ref/spell/spell-absorption-greater"
 kind = "spell"
 title = "Greater Spell Absorption"
+aon = "SpellDisplay.aspx?ItemName=Spell%20Absorption%2C%20Greater"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_absorption_greater", path = "json/spells9.json" },

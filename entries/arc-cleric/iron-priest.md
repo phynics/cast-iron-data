@@ -2,6 +2,7 @@
 id = "ref/arc-cleric/iron-priest"
 kind = "archetype"
 title = "Iron Priest"
+aon = "ArchetypeDisplay.aspx?FixedName=Cleric%20Iron%20Priest"
 source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "iron_priest", path = "json/archetypes_cleric.json" },

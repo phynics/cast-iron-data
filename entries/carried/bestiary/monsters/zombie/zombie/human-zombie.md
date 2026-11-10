@@ -2,6 +2,7 @@
 id = "ref/carried/bestiary/monsters/zombie/zombie/human-zombie"
 kind = "creature"
 title = "Human Zombie"
+aon = "MonsterDisplay.aspx?ItemName=Human%20Zombie"
 source_ids = ["bestiary"]
 section = ["Monsters", "Zombie", "Zombie"]
 tags = ["undead", "medium"]

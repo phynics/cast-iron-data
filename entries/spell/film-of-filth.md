@@ -2,6 +2,7 @@
 id = "ref/spell/film-of-filth"
 kind = "spell"
 title = "Film of Filth"
+aon = "SpellDisplay.aspx?ItemName=Film%20of%20Filth"
 source_ids = ["pathfinder-74-sword-of-valor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "film_of_filth", path = "json/spells4.json" },

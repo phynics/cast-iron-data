@@ -2,6 +2,7 @@
 id = "ref/spell/divine-favor"
 kind = "spell"
 title = "Divine Favor"
+aon = "SpellDisplay.aspx?ItemName=Divine%20Favor"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divine_favor", path = "json/spells13.json" },

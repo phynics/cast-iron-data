@@ -2,6 +2,7 @@
 id = "ref/spell/charnel-house"
 kind = "spell"
 title = "Charnel House"
+aon = "SpellDisplay.aspx?ItemName=Charnel%20House"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charnel_house", path = "json/spells2.json" },

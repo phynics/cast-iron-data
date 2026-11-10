@@ -2,6 +2,7 @@
 id = "ref/trait/rebel-leader"
 kind = "trait"
 title = "Rebel Leader"
+aon = "TraitDisplay.aspx?ItemName=Rebel%20Leader"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rebel_leader", path = "json/traits04.json" },

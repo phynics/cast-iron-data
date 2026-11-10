@@ -2,6 +2,7 @@
 id = "ref/feat/wild-speaker"
 kind = "feat"
 title = "Wild Speaker"
+aon = "FeatDisplay.aspx?ItemName=Wild%20Speaker"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wild_speaker", path = "json/feat17.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/lose-the-trail"
 kind = "spell"
 title = "Lose the Trail"
+aon = "SpellDisplay.aspx?ItemName=Lose%20the%20Trail"
 source_ids = ["inner-sea-gods", "faiths-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lose_the_trail", path = "json/spells6.json" },

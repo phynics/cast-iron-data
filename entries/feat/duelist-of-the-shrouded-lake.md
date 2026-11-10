@@ -2,6 +2,7 @@
 id = "ref/feat/duelist-of-the-shrouded-lake"
 kind = "feat"
 title = "Duelist of the Shrouded Lake"
+aon = "FeatDisplay.aspx?ItemName=Duelist%20of%20the%20Shrouded%20Lake"
 source_ids = ["adventurers-guide", "inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "duelist_of_the_shrouded_lake", path = "json/feat05.json" },

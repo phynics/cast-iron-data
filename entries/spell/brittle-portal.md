@@ -2,6 +2,7 @@
 id = "ref/spell/brittle-portal"
 kind = "spell"
 title = "Brittle Portal"
+aon = "SpellDisplay.aspx?ItemName=Brittle%20Portal"
 source_ids = ["inner-sea-gods", "faiths-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brittle_portal", path = "json/spells2.json" },

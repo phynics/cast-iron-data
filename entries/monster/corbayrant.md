@@ -2,6 +2,7 @@
 id = "ref/monster/corbayrant"
 kind = "creature"
 title = "Corbayrant"
+aon = "MonsterDisplay.aspx?ItemName=Corbayrant"
 source_ids = ["pathfinder-132-the-six-legend-soul"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "corbayrant", path = "json/monsters28.json" },

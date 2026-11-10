@@ -2,6 +2,7 @@
 id = "ref/trait/hardly-a-fool"
 kind = "trait"
 title = "Hardly a Fool"
+aon = "TraitDisplay.aspx?ItemName=Hardly%20a%20Fool"
 source_ids = ["champions-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hardly_a_fool", path = "json/traits01.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/sealed-life"
 kind = "spell"
 title = "Sealed Life"
+aon = "SpellDisplay.aspx?ItemName=Sealed%20Life"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sealed_life", path = "json/spells15.json" },

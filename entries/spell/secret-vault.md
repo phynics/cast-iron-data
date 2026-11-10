@@ -2,6 +2,7 @@
 id = "ref/spell/secret-vault"
 kind = "spell"
 title = "Secret Vault"
+aon = "SpellDisplay.aspx?ItemName=Secret%20Vault"
 source_ids = ["core-rulebook", "black-markets", "heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "secret_vault", path = "json/spells15.json" },

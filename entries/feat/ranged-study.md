@@ -2,6 +2,7 @@
 id = "ref/feat/ranged-study"
 kind = "feat"
 title = "Ranged Study"
+aon = "FeatDisplay.aspx?ItemName=Ranged%20Study"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ranged_study", path = "json/feat13.json" },

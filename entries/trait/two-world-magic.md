@@ -2,6 +2,7 @@
 id = "ref/trait/two-world-magic"
 kind = "trait"
 title = "Two-World Magic"
+aon = "TraitDisplay.aspx?ItemName=Two-World%20Magic"
 source_ids = ["sargava-the-lost-colony"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "two_world_magic", path = "json/traits01.json" },

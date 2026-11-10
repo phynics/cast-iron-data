@@ -2,6 +2,7 @@
 id = "ref/spell/anywhere-but-here"
 kind = "spell"
 title = "Anywhere but Here"
+aon = "SpellDisplay.aspx?ItemName=Anywhere%20but%20Here"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "anywhere_but_here", path = "json/spells.json" },

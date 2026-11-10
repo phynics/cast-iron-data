@@ -2,6 +2,7 @@
 id = "ref/feat/know-weakness"
 kind = "feat"
 title = "Know Weakness"
+aon = "FeatDisplay.aspx?ItemName=Know%20Weakness"
 source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "know_weakness", path = "json/feat09.json" },

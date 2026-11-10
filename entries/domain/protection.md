@@ -2,6 +2,7 @@
 id = "ref/domain/protection"
 kind = "class_option"
 title = "Protection"
+aon = "DomainDisplay.aspx?ItemName=Protection"
 source_ids = ["core-rulebook", "advanced-players-guide", "heroes-of-the-streets", "champions-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "protection", path = "json/class_ability_domains2.json" },

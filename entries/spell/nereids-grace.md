@@ -2,6 +2,7 @@
 id = "ref/spell/nereids-grace"
 kind = "spell"
 title = "Nereid's Grace"
+aon = "SpellDisplay.aspx?ItemName=Nereid%27s%20Grace"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nereids_grace", path = "json/spells7.json" },

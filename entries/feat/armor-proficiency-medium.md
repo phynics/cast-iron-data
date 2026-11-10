@@ -2,6 +2,7 @@
 id = "ref/feat/armor-proficiency-medium"
 kind = "feat"
 title = "Medium Armor Proficiency"
+aon = "FeatDisplay.aspx?ItemName=Armor%20Proficiency%2C%20Medium"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "armor_proficiency_medium", path = "json/feat01.json" },

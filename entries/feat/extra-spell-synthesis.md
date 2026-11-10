@@ -2,6 +2,7 @@
 id = "ref/feat/extra-spell-synthesis"
 kind = "feat"
 title = "Extra Spell Synthesis"
+aon = "FeatDisplay.aspx?ItemName=Extra%20Spell%20Synthesis"
 source_ids = ["chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extra_spell_synthesis", path = "json/feat06.json" },

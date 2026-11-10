@@ -2,6 +2,7 @@
 id = "ref/trait/scarred-descendant"
 kind = "trait"
 title = "Scarred Descendant"
+aon = "TraitDisplay.aspx?ItemName=Scarred%20Descendant"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scarred_descendant", path = "json/traits01.json" },

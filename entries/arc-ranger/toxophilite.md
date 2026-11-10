@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/toxophilite"
 kind = "archetype"
 title = "Toxophilite"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Toxophilite"
 source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "toxophilite", path = "json/archetypes_ranger.json" },

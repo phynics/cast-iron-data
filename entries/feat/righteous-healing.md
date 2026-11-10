@@ -2,6 +2,7 @@
 id = "ref/feat/righteous-healing"
 kind = "feat"
 title = "Righteous Healing"
+aon = "FeatDisplay.aspx?ItemName=Righteous%20Healing"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "righteous_healing", path = "json/feat13.json" },

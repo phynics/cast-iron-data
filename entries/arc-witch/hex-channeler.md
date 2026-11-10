@@ -2,6 +2,7 @@
 id = "ref/arc-witch/hex-channeler"
 kind = "archetype"
 title = "Hex Channeler"
+aon = "ArchetypeDisplay.aspx?FixedName=Witch%20Hex%20Channeler"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hex_channeler", path = "json/archetypes_witch.json" },

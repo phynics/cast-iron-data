@@ -2,6 +2,7 @@
 id = "ref/monster/beheaded-giant-beheaded"
 kind = "creature"
 title = "Giant Beheaded"
+aon = "MonsterDisplay.aspx?ItemName=Giant%20Beheaded"
 source_ids = ["pathfinder-43-haunting-of-harrowstone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beheaded_giant_beheaded", path = "json/monsters03.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/undead-anatomy-1"
 kind = "spell"
 title = "Undead Anatomy I"
+aon = "SpellDisplay.aspx?ItemName=Undead%20Anatomy%20I"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "undead_anatomy_1", path = "json/spells11.json" },

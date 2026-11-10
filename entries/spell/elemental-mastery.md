@@ -2,6 +2,7 @@
 id = "ref/spell/elemental-mastery"
 kind = "spell"
 title = "Elemental Mastery"
+aon = "SpellDisplay.aspx?ItemName=Elemental%20Mastery"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_mastery", path = "json/spells4.json" },

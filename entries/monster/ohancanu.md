@@ -2,6 +2,7 @@
 id = "ref/monster/ohancanu"
 kind = "creature"
 title = "Ohancanu"
+aon = "MonsterDisplay.aspx?ItemName=Ohancanu"
 source_ids = ["pathfinder-116-fangs-of-war"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ohancanu", path = "json/monsters18.json" },

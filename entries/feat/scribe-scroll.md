@@ -2,6 +2,7 @@
 id = "ref/feat/scribe-scroll"
 kind = "feat"
 title = "Scribe Scroll"
+aon = "FeatDisplay.aspx?ItemName=Scribe%20Scroll"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scribe_scroll", path = "json/feat13.json" },

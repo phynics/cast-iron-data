@@ -2,6 +2,7 @@
 id = "ref/trait/clever-wordplay"
 kind = "trait"
 title = "Clever Wordplay"
+aon = "TraitDisplay.aspx?ItemName=Clever%20Wordplay"
 source_ids = ["pathfinder-society-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clever_wordplay", path = "json/traits01.json" },

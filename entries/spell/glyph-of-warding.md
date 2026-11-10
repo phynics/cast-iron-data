@@ -2,6 +2,7 @@
 id = "ref/spell/glyph-of-warding"
 kind = "spell"
 title = "Glyph of Warding"
+aon = "SpellDisplay.aspx?ItemName=Glyph%20of%20Warding"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "glyph_of_warding", path = "json/spells5.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/oneiric-horror"
 kind = "spell"
 title = "Oneiric Horror"
+aon = "SpellDisplay.aspx?ItemName=Oneiric%20Horror"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oneiric_horror", path = "json/spells7.json" },

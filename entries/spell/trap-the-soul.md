@@ -2,6 +2,7 @@
 id = "ref/spell/trap-the-soul"
 kind = "spell"
 title = "Trap the Soul"
+aon = "SpellDisplay.aspx?ItemName=Trap%20the%20Soul"
 source_ids = ["core-rulebook", "book-of-the-damned", "book-of-the-damned-volume-3-horsemen-of-the-apocalypse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trap_the_soul", path = "json/spells10.json" },

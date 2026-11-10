@@ -2,6 +2,7 @@
 id = "ref/spell/sustaining-legend"
 kind = "spell"
 title = "Sustaining Legend"
+aon = "SpellDisplay.aspx?ItemName=Sustaining%20Legend"
 source_ids = ["mythic-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sustaining_legend", path = "json/spells10.json" },

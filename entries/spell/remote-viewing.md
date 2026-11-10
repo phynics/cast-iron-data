@@ -2,6 +2,7 @@
 id = "ref/spell/remote-viewing"
 kind = "spell"
 title = "Remote Viewing"
+aon = "SpellDisplay.aspx?ItemName=Remote%20Viewing"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "remote_viewing", path = "json/spells8.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/fish-giant-blowfish"
 kind = "creature"
 title = "Giant Blowfish"
+aon = "MonsterDisplay.aspx?ItemName=Giant%20Blowfish"
 source_ids = ["pathfinder-56-raiders-of-the-fever-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fish_giant_blowfish", path = "json/monsters10.json" },

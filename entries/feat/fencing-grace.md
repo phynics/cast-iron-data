@@ -2,6 +2,7 @@
 id = "ref/feat/fencing-grace"
 kind = "feat"
 title = "Fencing Grace"
+aon = "FeatDisplay.aspx?ItemName=Fencing%20Grace"
 source_ids = ["ultimate-intrigue", "advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fencing_grace", path = "json/feat07.json" },

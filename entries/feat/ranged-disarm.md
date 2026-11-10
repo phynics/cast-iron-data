@@ -2,6 +2,7 @@
 id = "ref/feat/ranged-disarm"
 kind = "feat"
 title = "Ranged Disarm"
+aon = "FeatDisplay.aspx?ItemName=Ranged%20Disarm"
 source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ranged_disarm", path = "json/feat13.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/antiplant-shell"
 kind = "spell"
 title = "Antiplant Shell"
+aon = "SpellDisplay.aspx?ItemName=Antiplant%20Shell"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "antiplant_shell", path = "json/spells.json" },

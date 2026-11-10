@@ -2,6 +2,7 @@
 id = "ref/arc-shifter/wild-effigy"
 kind = "archetype"
 title = "Wild Effigy"
+aon = "ArchetypeDisplay.aspx?FixedName=Shifter%20Wild%20Effigy"
 source_ids = ["construct-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wild_effigy", path = "json/archetypes_shifter.json" },

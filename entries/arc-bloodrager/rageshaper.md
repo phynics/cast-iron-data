@@ -2,6 +2,7 @@
 id = "ref/arc-bloodrager/rageshaper"
 kind = "archetype"
 title = "Rageshaper"
+aon = "ArchetypeDisplay.aspx?FixedName=Bloodrager%20Rageshaper"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rageshaper", path = "json/archetypes_bloodrager.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/speak-with-soul"
 kind = "spell"
 title = "Speak with Soul"
+aon = "SpellDisplay.aspx?ItemName=Speak%20with%20Soul"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "speak_with_soul", path = "json/spells9.json" },

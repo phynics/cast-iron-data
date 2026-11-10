@@ -2,6 +2,7 @@
 id = "ref/trait/cheap-to-feed"
 kind = "trait"
 title = "Cheap to Feed"
+aon = "TraitDisplay.aspx?ItemName=Cheap%20to%20Feed"
 source_ids = ["halflings-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cheap_to_feed", path = "json/traits04.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/storm-sight"
 kind = "spell"
 title = "Storm Sight"
+aon = "SpellDisplay.aspx?ItemName=Storm%20Sight"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "storm_sight", path = "json/spells9.json" },

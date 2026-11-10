@@ -2,6 +2,7 @@
 id = "ref/feat/thanatopic-spell"
 kind = "feat"
 title = "Thanatopic Spell"
+aon = "FeatDisplay.aspx?ItemName=Thanatopic%20Spell"
 source_ids = ["ultimate-magic", "osirion-land-of-the-pharaohs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thanatopic_spell", path = "json/feat16.json" },

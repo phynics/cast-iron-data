@@ -2,6 +2,7 @@
 id = "ref/feat/secret-of-magical-discipline"
 kind = "feat"
 title = "Secret of Magical Discipline"
+aon = "FeatDisplay.aspx?ItemName=Secret%20of%20Magical%20Discipline"
 source_ids = ["chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "secret_of_magical_discipline", path = "json/feat13.json" },

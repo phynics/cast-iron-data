@@ -2,6 +2,7 @@
 id = "ref/feat/lay-of-the-land"
 kind = "feat"
 title = "Lay of the Land"
+aon = "FeatDisplay.aspx?ItemName=Lay%20of%20the%20Land"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lay_of_the_land", path = "json/feat10.json" },

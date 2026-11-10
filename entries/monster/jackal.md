@@ -2,6 +2,7 @@
 id = "ref/monster/jackal"
 kind = "creature"
 title = "Jackal"
+aon = "MonsterDisplay.aspx?ItemName=Jackal"
 source_ids = ["osirion-legacy-of-the-pharaohs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jackal", path = "json/monsters34.json" },

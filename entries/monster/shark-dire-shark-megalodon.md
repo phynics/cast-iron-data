@@ -2,6 +2,7 @@
 id = "ref/monster/shark-dire-shark-megalodon"
 kind = "creature"
 title = "Dire Shark (Megalodon)"
+aon = "MonsterDisplay.aspx?ItemName=Dire%20Shark%20%28Megalodon%29"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shark_dire_shark_megalodon", path = "json/monsters38.json" },

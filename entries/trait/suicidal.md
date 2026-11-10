@@ -2,6 +2,7 @@
 id = "ref/trait/suicidal"
 kind = "trait"
 title = "Suicidal"
+aon = "TraitDisplay.aspx?ItemName=Suicidal"
 source_ids = ["blood-of-fiends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "suicidal", path = "json/traits05.json" },

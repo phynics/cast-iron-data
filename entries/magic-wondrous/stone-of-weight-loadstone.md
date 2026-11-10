@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/stone-of-weight-loadstone"
 kind = "item"
 title = "Stone of Weight (Loadstone)"
+aon = "MagicCursedDisplay.aspx?ItemName=Stone%20of%20Weight%20%28Loadstone%29"
 source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stone_of_weight_loadstone", path = "json/magic_wondrous_slotless06.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/citizen-of-kalabuto"
 kind = "trait"
 title = "Citizen of Kalabuto"
+aon = "TraitDisplay.aspx?ItemName=Citizen%20of%20Kalabuto"
 source_ids = ["sargava-the-lost-colony"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "citizen_of_kalabuto", path = "json/traits04.json" },

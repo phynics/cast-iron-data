@@ -2,6 +2,7 @@
 id = "ref/feat/point-blank-shot/teitr"
 kind = "feat"
 title = "Point-Blank Shot"
+aon = "FeatDisplay.aspx?ItemName=Point-Blank%20Shot"
 source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/point-blank-shot" },

@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/liars-well"
 kind = "item"
 title = "Liar's Well"
+aon = "MagicCursedDisplay.aspx?ItemName=Liar%27s%20Well"
 source_ids = ["classic-treasures-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "liars_well", path = "json/magic_wondrous_slotless04.json" },

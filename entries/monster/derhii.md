@@ -2,6 +2,7 @@
 id = "ref/monster/derhii"
 kind = "creature"
 title = "Derhii"
+aon = "MonsterDisplay.aspx?ItemName=Derhii"
 source_ids = ["bestiary-3", "lost-cities-of-golarion", "crucible-of-chaos"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "derhii", path = "json/monsters06.json" },

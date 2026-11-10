@@ -2,6 +2,7 @@
 id = "ref/trait/reckless-luck"
 kind = "trait"
 title = "Reckless Luck"
+aon = "TraitDisplay.aspx?ItemName=Reckless%20Luck"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reckless_luck", path = "json/traits03.json" },

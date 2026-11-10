@@ -2,6 +2,7 @@
 id = "ref/trait/chilled-by-brutality"
 kind = "trait"
 title = "Chilled by Brutality"
+aon = "TraitDisplay.aspx?ItemName=Chilled%20by%20Brutality"
 source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chilled_by_brutality", path = "json/traits04.json" },

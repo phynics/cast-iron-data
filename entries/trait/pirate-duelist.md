@@ -2,6 +2,7 @@
 id = "ref/trait/pirate-duelist"
 kind = "trait"
 title = "Pirate Duelist"
+aon = "TraitDisplay.aspx?ItemName=Pirate%20Duelist"
 source_ids = ["pirates-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pirate_duelist", path = "json/traits04.json" },

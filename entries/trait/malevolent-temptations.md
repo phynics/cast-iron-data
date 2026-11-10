@@ -2,6 +2,7 @@
 id = "ref/trait/malevolent-temptations"
 kind = "trait"
 title = "Malevolent Temptations"
+aon = "TraitDisplay.aspx?ItemName=Malevolent%20Temptations"
 source_ids = ["blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "malevolent_temptations", path = "json/traits01.json" },

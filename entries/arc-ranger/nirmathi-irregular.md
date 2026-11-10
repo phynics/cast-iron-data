@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/nirmathi-irregular"
 kind = "archetype"
 title = "Nirmathi Irregular"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Nirmathi%20Irregular"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nirmathi_irregular", path = "json/archetypes_ranger.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/minor-dream"
 kind = "spell"
 title = "Minor Dream"
+aon = "SpellDisplay.aspx?ItemName=Minor%20Dream"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "minor_dream", path = "json/spells14.json" },

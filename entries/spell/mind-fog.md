@@ -2,6 +2,7 @@
 id = "ref/spell/mind-fog"
 kind = "spell"
 title = "Mind Fog"
+aon = "SpellDisplay.aspx?ItemName=Mind%20Fog"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mind_fog", path = "json/spells14.json" },

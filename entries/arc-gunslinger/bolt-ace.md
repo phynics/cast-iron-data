@@ -2,6 +2,7 @@
 id = "ref/arc-gunslinger/bolt-ace"
 kind = "archetype"
 title = "Bolt Ace"
+aon = "ArchetypeDisplay.aspx?FixedName=Gunslinger%20Bolt%20Ace"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bolt_ace", path = "json/archetypes_gunslinger.json" },

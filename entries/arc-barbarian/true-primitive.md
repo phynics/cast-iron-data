@@ -2,6 +2,7 @@
 id = "ref/arc-barbarian/true-primitive"
 kind = "archetype"
 title = "True Primitive"
+aon = "ArchetypeDisplay.aspx?FixedName=Barbarian%20True%20Primitive"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "true_primitive", path = "json/archetypes_barbarian.json" },

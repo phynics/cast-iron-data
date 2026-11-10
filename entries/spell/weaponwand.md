@@ -2,6 +2,7 @@
 id = "ref/spell/weaponwand"
 kind = "spell"
 title = "Weaponwand"
+aon = "SpellDisplay.aspx?ItemName=Weaponwand"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weaponwand", path = "json/spells11.json" },

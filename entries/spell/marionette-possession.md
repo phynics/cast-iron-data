@@ -2,6 +2,7 @@
 id = "ref/spell/marionette-possession"
 kind = "spell"
 title = "Marionette Possession"
+aon = "SpellDisplay.aspx?ItemName=Marionette%20Possession"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "marionette_possession", path = "json/spells6.json" },

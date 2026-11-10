@@ -2,6 +2,7 @@
 id = "ref/monster/adaptive-ooze"
 kind = "creature"
 title = "Adaptive Ooze"
+aon = "MonsterDisplay.aspx?ItemName=Adaptive%20Ooze"
 source_ids = ["pathfinder-123-the-flooded-cathedral"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "adaptive_ooze", path = "json/monsters01.json" },

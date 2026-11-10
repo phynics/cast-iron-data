@@ -2,6 +2,7 @@
 id = "ref/spell/shadow-evocation"
 kind = "spell"
 title = "Shadow Evocation"
+aon = "SpellDisplay.aspx?ItemName=Shadow%20Evocation"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_evocation", path = "json/spells15.json" },

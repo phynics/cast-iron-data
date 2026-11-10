@@ -2,6 +2,7 @@
 id = "ref/monster/ataxian"
 kind = "creature"
 title = "Ataxian"
+aon = "MonsterDisplay.aspx?ItemName=Ataxian"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ataxian", path = "json/monsters26.json" },

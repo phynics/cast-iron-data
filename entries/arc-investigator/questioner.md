@@ -2,6 +2,7 @@
 id = "ref/arc-investigator/questioner"
 kind = "archetype"
 title = "Questioner"
+aon = "ArchetypeDisplay.aspx?FixedName=Investigator%20Questioner"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "questioner", path = "json/archetypes_investigator.json" },

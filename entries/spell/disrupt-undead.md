@@ -2,6 +2,7 @@
 id = "ref/spell/disrupt-undead"
 kind = "spell"
 title = "Disrupt Undead"
+aon = "SpellDisplay.aspx?ItemName=disrupt%20undead"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disrupt_undead", path = "json/spells13.json" },

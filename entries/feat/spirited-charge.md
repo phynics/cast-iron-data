@@ -2,6 +2,7 @@
 id = "ref/feat/spirited-charge"
 kind = "feat"
 title = "Spirited Charge"
+aon = "FeatDisplay.aspx?ItemName=Spirited%20Charge"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spirited_charge", path = "json/feat15.json" },

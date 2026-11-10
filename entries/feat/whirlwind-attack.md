@@ -2,6 +2,7 @@
 id = "ref/feat/whirlwind-attack"
 kind = "feat"
 title = "Whirlwind Attack"
+aon = "FeatDisplay.aspx?ItemName=Whirlwind%20Attack"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "whirlwind_attack", path = "json/feat17.json" },

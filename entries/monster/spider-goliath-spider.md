@@ -2,6 +2,7 @@
 id = "ref/monster/spider-goliath-spider"
 kind = "creature"
 title = "Goliath Spider"
+aon = "MonsterDisplay.aspx?ItemName=Goliath%20Spider"
 source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spider_goliath_spider", path = "json/monsters39.json" },

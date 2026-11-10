@@ -2,6 +2,7 @@
 id = "ref/monster/liavaran-dreamer"
 kind = "creature"
 title = "Liavaran Dreamer"
+aon = "MonsterDisplay.aspx?ItemName=Liavaran%20Dreamer"
 source_ids = ["occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "liavaran_dreamer", path = "json/monsters16.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/researching-the-blot"
 kind = "trait"
 title = "Researching the Blot"
+aon = "TraitDisplay.aspx?ItemName=Researching%20the%20Blot"
 source_ids = ["second-darkness-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "researching_the_blot", path = "json/traits02.json" },

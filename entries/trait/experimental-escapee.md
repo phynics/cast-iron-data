@@ -2,6 +2,7 @@
 id = "ref/trait/experimental-escapee"
 kind = "trait"
 title = "Experimental Escapee"
+aon = "TraitDisplay.aspx?ItemName=Experimental%20Escapee"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "experimental_escapee", path = "json/traits05.json" },

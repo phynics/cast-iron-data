@@ -2,6 +2,7 @@
 id = "ref/feat/believers-hands"
 kind = "feat"
 title = "Believer's Hands"
+aon = "FeatDisplay.aspx?ItemName=Believer%27s%20Hands"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "believers_hands", path = "json/feat02.json" },

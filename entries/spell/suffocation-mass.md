@@ -2,6 +2,7 @@
 id = "ref/spell/suffocation-mass"
 kind = "spell"
 title = "Mass Suffocation"
+aon = "SpellDisplay.aspx?ItemName=Suffocation%2C%20Mass"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "suffocation_mass", path = "json/spells16.json" },

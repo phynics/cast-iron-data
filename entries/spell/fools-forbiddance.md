@@ -2,6 +2,7 @@
 id = "ref/spell/fools-forbiddance"
 kind = "spell"
 title = "Fool's Forbiddance"
+aon = "SpellDisplay.aspx?ItemName=Fool%27s%20Forbiddance"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fools_forbiddance", path = "json/spells13.json" },

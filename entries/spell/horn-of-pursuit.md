@@ -2,6 +2,7 @@
 id = "ref/spell/horn-of-pursuit"
 kind = "spell"
 title = "Horn of Pursuit"
+aon = "SpellDisplay.aspx?ItemName=Horn%20of%20Pursuit"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horn_of_pursuit", path = "json/spells5.json" },

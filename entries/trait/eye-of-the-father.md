@@ -2,6 +2,7 @@
 id = "ref/trait/eye-of-the-father"
 kind = "trait"
 title = "Eye of the Father"
+aon = "TraitDisplay.aspx?ItemName=Eye%20of%20the%20Father"
 source_ids = ["inner-sea-gods", "faiths-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eye_of_the_father", path = "json/traits03.json" },

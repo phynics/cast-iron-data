@@ -2,6 +2,7 @@
 id = "ref/spell/companion-mind-link"
 kind = "spell"
 title = "Companion Mind Link"
+aon = "SpellDisplay.aspx?ItemName=Companion%20Mind%20Link"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "companion_mind_link", path = "json/spells12.json" },

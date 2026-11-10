@@ -2,6 +2,7 @@
 id = "ref/feat/healers-hands"
 kind = "feat"
 title = "Healer's Hands"
+aon = "FeatDisplay.aspx?ItemName=Healer%27s%20Hands"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "healers_hands", path = "json/feat08.json" },

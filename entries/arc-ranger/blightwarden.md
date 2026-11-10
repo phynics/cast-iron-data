@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/blightwarden"
 kind = "archetype"
 title = "Blightwarden"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Blightwarden"
 source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blightwarden", path = "json/archetypes_ranger.json" },

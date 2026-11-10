@@ -2,6 +2,7 @@
 id = "ref/arc-barbarian/mounted-fury"
 kind = "archetype"
 title = "Mounted Fury"
+aon = "ArchetypeDisplay.aspx?FixedName=Barbarian%20Mounted%20Fury"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mounted_fury", path = "json/archetypes_barbarian.json" },

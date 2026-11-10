@@ -2,6 +2,7 @@
 id = "ref/feat/improved-shadowy-resistance"
 kind = "feat"
 title = "Improved Shadowy Resistance"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Shadowy%20Resistance"
 source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_shadowy_resistance", path = "json/feat09.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-swashbuckler/wildstrider"
 kind = "archetype"
 title = "Wildstrider"
+aon = "ArchetypeDisplay.aspx?FixedName=Swashbuckler%20Wildstrider"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wildstrider", path = "json/archetypes_swashbuckler.json" },

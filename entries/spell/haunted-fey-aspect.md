@@ -2,6 +2,7 @@
 id = "ref/spell/haunted-fey-aspect"
 kind = "spell"
 title = "Haunted Fey Aspect"
+aon = "SpellDisplay.aspx?ItemName=Haunted%20Fey%20Aspect"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "haunted_fey_aspect", path = "json/spells5.json" },

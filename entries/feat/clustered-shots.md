@@ -2,6 +2,7 @@
 id = "ref/feat/clustered-shots"
 kind = "feat"
 title = "Clustered Shots"
+aon = "FeatDisplay.aspx?ItemName=Clustered%20Shots"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clustered_shots", path = "json/feat03.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/weapon-trick"
 kind = "feat"
 title = "Weapon Trick"
+aon = "FeatDisplay.aspx?ItemName=Weapon%20Trick"
 source_ids = ["martial-arts-handbook", "weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weapon_trick", path = "json/feat17.json" },

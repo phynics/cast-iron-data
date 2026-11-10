@@ -2,6 +2,7 @@
 id = "ref/feat/divine-expression"
 kind = "feat"
 title = "Divine Expression"
+aon = "FeatDisplay.aspx?ItemName=Divine%20Expression"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divine_expression", path = "json/feat05.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/blistering-feint"
 kind = "feat"
 title = "Blistering Feint"
+aon = "FeatDisplay.aspx?ItemName=Blistering%20Feint"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blistering_feint", path = "json/feat02.json" },

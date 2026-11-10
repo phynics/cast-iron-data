@@ -2,6 +2,7 @@
 id = "ref/feat/spear-dancer"
 kind = "feat"
 title = "Spear Dancer"
+aon = "FeatDisplay.aspx?ItemName=Spear%20Dancer"
 source_ids = ["inner-sea-gods", "faiths-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spear_dancer", path = "json/feat14.json" },

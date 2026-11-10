@@ -2,6 +2,7 @@
 id = "ref/trait/starlit-hexer"
 kind = "trait"
 title = "Starlit Hexer"
+aon = "TraitDisplay.aspx?ItemName=Starlit%20Hexer"
 source_ids = ["people-of-the-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "starlit_hexer", path = "json/traits03.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/bloodhaze-mosquito-swarm"
 kind = "creature"
 title = "Bloodhaze Mosquito Swarm"
+aon = "MonsterDisplay.aspx?ItemName=Bloodhaze%20Mosquito%20Swarm"
 source_ids = ["pathfinder-38-racing-to-ruin"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloodhaze_mosquito_swarm", path = "json/monsters27.json" },

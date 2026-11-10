@@ -2,6 +2,7 @@
 id = "ref/spell/pernicious-poison"
 kind = "spell"
 title = "Pernicious Poison"
+aon = "SpellDisplay.aspx?ItemName=Pernicious%20Poison"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pernicious_poison", path = "json/spells7.json" },

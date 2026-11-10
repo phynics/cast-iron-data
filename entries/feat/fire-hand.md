@@ -2,6 +2,7 @@
 id = "ref/feat/fire-hand"
 kind = "feat"
 title = "Fire Hand"
+aon = "FeatDisplay.aspx?ItemName=Fire%20Hand"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fire_hand", path = "json/feat07.json" },

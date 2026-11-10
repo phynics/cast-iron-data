@@ -2,6 +2,7 @@
 id = "ref/trait/shared-curse"
 kind = "trait"
 title = "Shared Curse"
+aon = "TraitDisplay.aspx?ItemName=Shared%20Curse"
 source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shared_curse", path = "json/traits05.json" },

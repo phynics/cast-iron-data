@@ -2,6 +2,7 @@
 id = "ref/arc-inquisitor/sanctified-slayer"
 kind = "archetype"
 title = "Sanctified Slayer"
+aon = "ArchetypeDisplay.aspx?FixedName=Inquisitor%20Sanctified%20Slayer"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sanctified_slayer", path = "json/archetypes_inquisitor.json" },

@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/wayfinder"
 kind = "item"
 title = "Wayfinder"
+aon = "MagicWondrousDisplay.aspx?FinalName=Wayfinder"
 source_ids = ["ruins-of-azlant-players-guide", "pathfinder-2-the-skinsaw-murders", "pathfinder-campaign-setting", "seekers-of-secrets", "inner-sea-world-guide", "shattered-star-players-guide", "adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wayfinder", path = "json/magic_wondrous_slotless06.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/hellfire-ignis"
 kind = "creature"
 title = "Hellfire Ignis"
+aon = "MonsterDisplay.aspx?ItemName=Hellfire%20Ignis"
 source_ids = ["cheliax-the-infernal-empire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hellfire_ignis", path = "json/monsters13.json" },

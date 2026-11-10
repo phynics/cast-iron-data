@@ -2,6 +2,7 @@
 id = "ref/spell/darting-duplicate"
 kind = "spell"
 title = "Darting Duplicate"
+aon = "SpellDisplay.aspx?ItemName=Darting%20Duplicate"
 source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "darting_duplicate", path = "json/spells3.json" },

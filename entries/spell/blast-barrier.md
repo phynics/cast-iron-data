@@ -2,6 +2,7 @@
 id = "ref/spell/blast-barrier"
 kind = "spell"
 title = "Blast Barrier"
+aon = "SpellDisplay.aspx?ItemName=Blast%20Barrier"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blast_barrier", path = "json/spells12.json" },

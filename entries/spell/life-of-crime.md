@@ -2,6 +2,7 @@
 id = "ref/spell/life-of-crime"
 kind = "spell"
 title = "Life of Crime"
+aon = "SpellDisplay.aspx?ItemName=Life%20of%20Crime"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "life_of_crime", path = "json/spells6.json" },

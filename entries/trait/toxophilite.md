@@ -2,6 +2,7 @@
 id = "ref/trait/toxophilite"
 kind = "trait"
 title = "Toxophilite"
+aon = "TraitDisplay.aspx?ItemName=Toxophilite"
 source_ids = ["blood-of-angels"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "toxophilite", path = "json/traits05.json" },

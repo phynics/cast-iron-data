@@ -2,6 +2,7 @@
 id = "ref/feat/stone-awareness"
 kind = "feat"
 title = "Stone Awareness"
+aon = "FeatDisplay.aspx?ItemName=Stone%20Awareness"
 source_ids = ["giants-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stone_awareness", path = "json/feat15.json" },

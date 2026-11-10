@@ -2,6 +2,7 @@
 id = "ref/arc-unchained-summoner/devil-impostor"
 kind = "archetype"
 title = "Devil Impostor"
+aon = "ArchetypeDisplay.aspx?FixedName=Summoner%20%28Unchained%29%20Devil%20Impostor"
 source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_impostor", path = "json/archetypes_summoner_UC.json" },

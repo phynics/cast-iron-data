@@ -2,6 +2,7 @@
 id = "ref/arc-skald/serpent-herald"
 kind = "archetype"
 title = "Serpent Herald"
+aon = "ArchetypeDisplay.aspx?FixedName=Skald%20Serpent%20Herald"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "serpent_herald", path = "json/archetypes_skald.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/fungus-queen"
 kind = "creature"
 title = "Fungus Queen"
+aon = "MonsterDisplay.aspx?ItemName=Fungus%20Queen"
 source_ids = ["bestiary-6", "inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fungus_queen", path = "json/monsters42.json" },

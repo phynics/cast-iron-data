@@ -2,6 +2,7 @@
 id = "ref/monster/smokeshade"
 kind = "creature"
 title = "Smokeshade"
+aon = "MonsterDisplay.aspx?ItemName=Smokeshade"
 source_ids = ["nidal-land-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "smokeshade", path = "json/monsters22.json" },

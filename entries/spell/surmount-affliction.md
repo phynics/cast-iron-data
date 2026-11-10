@@ -2,6 +2,7 @@
 id = "ref/spell/surmount-affliction"
 kind = "spell"
 title = "Surmount Affliction"
+aon = "SpellDisplay.aspx?ItemName=Surmount%20Affliction"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "surmount_affliction", path = "json/spells10.json" },

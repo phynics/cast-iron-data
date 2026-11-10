@@ -2,6 +2,7 @@
 id = "ref/spell/pillar-of-life"
 kind = "spell"
 title = "Pillar of Life"
+aon = "SpellDisplay.aspx?ItemName=Pillar%20of%20Life"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pillar_of_life", path = "json/spells7.json" },

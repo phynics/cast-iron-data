@@ -2,6 +2,7 @@
 id = "ref/trait/rivalry"
 kind = "trait"
 title = "Rivalry"
+aon = "TraitDisplay.aspx?ItemName=Rivalry"
 source_ids = ["cohorts-and-companions"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rivalry", path = "json/traits03.json" },

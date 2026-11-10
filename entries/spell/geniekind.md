@@ -2,6 +2,7 @@
 id = "ref/spell/geniekind"
 kind = "spell"
 title = "Geniekind"
+aon = "SpellDisplay.aspx?ItemName=Geniekind"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "geniekind", path = "json/spells13.json" },

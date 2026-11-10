@@ -2,6 +2,7 @@
 id = "ref/arc-monk/water-dancer"
 kind = "archetype"
 title = "Water Dancer"
+aon = "ArchetypeDisplay.aspx?FixedName=Monk%20Water%20Dancer"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "water_dancer", path = "json/archetypes_monk2.json" },

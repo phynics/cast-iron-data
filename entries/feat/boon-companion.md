@@ -2,6 +2,7 @@
 id = "ref/feat/boon-companion"
 kind = "feat"
 title = "Boon Companion"
+aon = "FeatDisplay.aspx?ItemName=Boon%20Companion"
 source_ids = ["ultimate-wilderness", "seekers-of-secrets", "animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boon_companion", path = "json/feat02.json" },

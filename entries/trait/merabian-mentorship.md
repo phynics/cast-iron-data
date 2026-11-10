@@ -2,6 +2,7 @@
 id = "ref/trait/merabian-mentorship"
 kind = "trait"
 title = "Merabian Mentorship"
+aon = "TraitDisplay.aspx?ItemName=Merabian%20Mentorship"
 source_ids = ["blood-of-the-elements"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "merabian_mentorship", path = "json/traits04.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-occultist/shair"
 kind = "archetype"
 title = "Sha'ir"
+aon = "ArchetypeDisplay.aspx?FixedName=Occultist%20Sha%27ir"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shair", path = "json/archetypes_occultist.json" },

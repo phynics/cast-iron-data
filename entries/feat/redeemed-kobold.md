@@ -2,6 +2,7 @@
 id = "ref/feat/redeemed-kobold"
 kind = "feat"
 title = "Redeemed Kobold"
+aon = "FeatDisplay.aspx?ItemName=Redeemed%20Kobold"
 source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "redeemed_kobold", path = "json/feat13.json" },

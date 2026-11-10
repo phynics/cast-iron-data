@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/consigliere"
 kind = "archetype"
 title = "Consigliere"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Consigliere"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "consigliere", path = "json/archetypes_rogue.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/protection-from-energy"
 kind = "spell"
 title = "Protection from Energy"
+aon = "SpellDisplay.aspx?ItemName=Protection%20from%20Energy"
 source_ids = ["core-rulebook", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "protection_from_energy", path = "json/spells15.json" },

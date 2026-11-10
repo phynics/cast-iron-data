@@ -2,6 +2,7 @@
 id = "ref/trait/burst-of-speed"
 kind = "trait"
 title = "Burst of Speed"
+aon = "TraitDisplay.aspx?ItemName=Burst%20of%20Speed"
 source_ids = ["knights-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burst_of_speed", path = "json/traits03.json" },

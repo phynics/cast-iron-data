@@ -2,6 +2,7 @@
 id = "ref/trait/tigers-claw"
 kind = "trait"
 title = "Tiger's Claw"
+aon = "TraitDisplay.aspx?ItemName=Tiger%27s%20Claw"
 source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tigers_claw", path = "json/traits05.json" },

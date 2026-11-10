@@ -2,6 +2,7 @@
 id = "ref/spell/mark-of-obvious-ethics"
 kind = "spell"
 title = "Mark of Obvious Ethics"
+aon = "SpellDisplay.aspx?ItemName=Mark%20of%20Obvious%20Ethics"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mark_of_obvious_ethics", path = "json/spells6.json" },

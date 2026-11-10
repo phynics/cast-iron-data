@@ -2,6 +2,7 @@
 id = "ref/pclass/prophet-of-kalistrade"
 kind = "prestige_class"
 title = "Prophet of Kalistrade"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Prophet%20of%20Kalistrade"
 source_ids = ["paths-of-prestige"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prophet_of_kalistrade", path = "json/prestige_classes4.json" },

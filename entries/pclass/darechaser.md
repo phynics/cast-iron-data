@@ -2,6 +2,7 @@
 id = "ref/pclass/darechaser"
 kind = "prestige_class"
 title = "Darechaser"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Darechaser"
 source_ids = ["paths-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "darechaser", path = "json/prestige_classes.json" },

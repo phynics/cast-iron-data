@@ -2,6 +2,7 @@
 id = "ref/feat/redirected-shot"
 kind = "feat"
 title = "Redirected Shot"
+aon = "FeatDisplay.aspx?ItemName=Redirected%20Shot"
 source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "redirected_shot", path = "json/feat13.json" },

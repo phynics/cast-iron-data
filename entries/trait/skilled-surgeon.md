@@ -2,6 +2,7 @@
 id = "ref/trait/skilled-surgeon"
 kind = "trait"
 title = "Skilled Surgeon"
+aon = "TraitDisplay.aspx?ItemName=Skilled%20Surgeon"
 source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skilled_surgeon", path = "json/traits04.json" },

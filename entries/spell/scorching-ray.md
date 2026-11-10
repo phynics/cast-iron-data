@@ -2,6 +2,7 @@
 id = "ref/spell/scorching-ray"
 kind = "spell"
 title = "Scorching Ray"
+aon = "SpellDisplay.aspx?ItemName=Scorching%20Ray"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scorching_ray", path = "json/spells8.json" },

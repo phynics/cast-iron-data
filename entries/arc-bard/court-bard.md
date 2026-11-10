@@ -2,6 +2,7 @@
 id = "ref/arc-bard/court-bard"
 kind = "archetype"
 title = "Court Bard"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Court%20Bard"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "court_bard", path = "json/archetypes_bard.json" },

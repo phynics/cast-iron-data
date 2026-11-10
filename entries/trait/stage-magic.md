@@ -2,6 +2,7 @@
 id = "ref/trait/stage-magic"
 kind = "trait"
 title = "Stage Magic"
+aon = "TraitDisplay.aspx?ItemName=Stage%20Magic"
 source_ids = ["adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stage_magic", path = "json/traits03.json" },

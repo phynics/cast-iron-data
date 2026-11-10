@@ -2,6 +2,7 @@
 id = "ref/monster/golem-junk-golem"
 kind = "creature"
 title = "Junk Golem"
+aon = "MonsterDisplay.aspx?ItemName=Junk%20Golem"
 source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_junk_golem", path = "json/monsters33.json" },

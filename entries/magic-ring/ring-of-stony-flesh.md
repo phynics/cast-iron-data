@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-stony-flesh"
 kind = "item"
 title = "Ring of Stony Flesh"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Stony%20Flesh"
 source_ids = ["pathfinder-83-the-slave-trenches-of-hakotep"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_stony_flesh", path = "json/magic_ring.json" },

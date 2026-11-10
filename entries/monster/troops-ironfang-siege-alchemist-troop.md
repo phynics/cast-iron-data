@@ -2,6 +2,7 @@
 id = "ref/monster/troops-ironfang-siege-alchemist-troop"
 kind = "creature"
 title = "Ironfang Siege Alchemist Troop"
+aon = "MonsterDisplay.aspx?ItemName=Ironfang%20Siege%20Alchemist%20Troop"
 source_ids = ["pathfinder-120-vault-of-the-onyx-citadel"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "troops_ironfang_siege_alchemist_troop", path = "json/monsters24.json" },

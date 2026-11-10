@@ -2,6 +2,7 @@
 id = "ref/feat/efficient-focus-shift"
 kind = "feat"
 title = "Efficient Focus Shift"
+aon = "FeatDisplay.aspx?ItemName=Efficient%20Focus%20Shift"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "efficient_focus_shift", path = "json/feat05.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/blissful-spell"
 kind = "feat"
 title = "Blissful Spell"
+aon = "FeatDisplay.aspx?ItemName=Blissful%20Spell"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blissful_spell", path = "json/feat02.json" },

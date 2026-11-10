@@ -2,6 +2,7 @@
 id = "ref/arc-kineticist/aquakinetcist"
 kind = "archetype"
 title = "Aquakinetcist"
+aon = "ArchetypeDisplay.aspx?FixedName=Kineticist%20Aquakinetcist"
 source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aquakinetcist", path = "json/archetypes_kineticist.json" },

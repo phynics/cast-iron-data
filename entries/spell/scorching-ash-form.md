@@ -2,6 +2,7 @@
 id = "ref/spell/scorching-ash-form"
 kind = "spell"
 title = "Scorching Ash Form"
+aon = "SpellDisplay.aspx?ItemName=Scorching%20Ash%20Form"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scorching_ash_form", path = "json/spells8.json" },

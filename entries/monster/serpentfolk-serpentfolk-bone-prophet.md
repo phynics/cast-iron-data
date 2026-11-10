@@ -2,6 +2,7 @@
 id = "ref/monster/serpentfolk-serpentfolk-bone-prophet"
 kind = "creature"
 title = "Serpentfolk Bone Prophet"
+aon = "MonsterDisplay.aspx?ItemName=Serpentfolk%20Bone%20Prophet"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "serpentfolk_serpentfolk_bone_prophet", path = "json/monsters21.json" },

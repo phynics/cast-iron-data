@@ -2,6 +2,7 @@
 id = "ref/monster/malziarax"
 kind = "creature"
 title = "Malziarax, Rune Giant Overlord"
+aon = "MonsterDisplay.aspx?ItemName=Malziarax%2C%20Rune%20Giant%20Overlord"
 source_ids = ["giants-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "malziarax", path = "json/monsters_unique3.json" },

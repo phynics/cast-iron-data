@@ -2,6 +2,7 @@
 id = "ref/feat/tundra-stride"
 kind = "feat"
 title = "Tundra Stride"
+aon = "FeatDisplay.aspx?ItemName=Tundra%20Stride"
 source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tundra_stride", path = "json/feat16.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/upsetting-shield-style"
 kind = "feat"
 title = "Upsetting Shield Style"
+aon = "FeatDisplay.aspx?ItemName=Upsetting%20Shield%20Style"
 source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "upsetting_shield_style", path = "json/feat17.json" },

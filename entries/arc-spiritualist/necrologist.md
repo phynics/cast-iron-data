@@ -2,6 +2,7 @@
 id = "ref/arc-spiritualist/necrologist"
 kind = "archetype"
 title = "Necrologist"
+aon = "ArchetypeDisplay.aspx?FixedName=Spiritualist%20Necrologist"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "necrologist", path = "json/archetypes_spiritualist.json" },

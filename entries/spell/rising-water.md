@@ -2,6 +2,7 @@
 id = "ref/spell/rising-water"
 kind = "spell"
 title = "Rising Water"
+aon = "SpellDisplay.aspx?ItemName=Rising%20Water"
 source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rising_water", path = "json/spells8.json" },

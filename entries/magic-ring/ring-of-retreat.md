@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-retreat"
 kind = "item"
 title = "Ring of Retreat"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Retreat"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_retreat", path = "json/magic_ring.json" },

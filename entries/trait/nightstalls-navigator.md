@@ -2,6 +2,7 @@
 id = "ref/trait/nightstalls-navigator"
 kind = "trait"
 title = "Nightstalls Navigator"
+aon = "TraitDisplay.aspx?ItemName=Nightstalls%20Navigator"
 source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nightstalls_navigator", path = "json/traits01.json" },

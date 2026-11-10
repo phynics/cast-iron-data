@@ -2,6 +2,7 @@
 id = "ref/monster/archon-star-archon"
 kind = "creature"
 title = "Star Archon"
+aon = "MonsterDisplay.aspx?ItemName=Star%20Archon"
 source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "archon_star_archon", path = "json/monsters02.json" },

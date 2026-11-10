@@ -2,6 +2,7 @@
 id = "ref/feat/dragon-ferocity"
 kind = "feat"
 title = "Dragon Ferocity"
+aon = "FeatDisplay.aspx?ItemName=Dragon%20Ferocity"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_ferocity", path = "json/feat05.json" },

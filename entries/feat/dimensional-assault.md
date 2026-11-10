@@ -2,6 +2,7 @@
 id = "ref/feat/dimensional-assault"
 kind = "feat"
 title = "Dimensional Assault"
+aon = "FeatDisplay.aspx?ItemName=Dimensional%20Assault"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dimensional_assault", path = "json/feat04.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-shaman/animist"
 kind = "archetype"
 title = "Animist"
+aon = "ArchetypeDisplay.aspx?FixedName=Shaman%20Animist"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animist", path = "json/archetypes_shaman.json" },

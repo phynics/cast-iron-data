@@ -2,6 +2,7 @@
 id = "ref/feat/first-general-of-the-east"
 kind = "feat"
 title = "First General of the East"
+aon = "FeatDisplay.aspx?ItemName=First%20General%20of%20the%20East"
 source_ids = ["pathfinder-139-the-dead-road"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "first_general_of_the_east", path = "json/feat07.json" },

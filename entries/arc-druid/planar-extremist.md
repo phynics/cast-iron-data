@@ -2,6 +2,7 @@
 id = "ref/arc-druid/planar-extremist"
 kind = "archetype"
 title = "Planar Extremist"
+aon = "ArchetypeDisplay.aspx?FixedName=Druid%20Planar%20Extremist"
 source_ids = ["antiheros-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planar_extremist", path = "json/archetypes_druid2.json" },

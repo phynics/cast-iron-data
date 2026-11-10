@@ -2,6 +2,7 @@
 id = "ref/spell/contagious-flame"
 kind = "spell"
 title = "Contagious Flame"
+aon = "SpellDisplay.aspx?ItemName=Contagious%20Flame"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "contagious_flame", path = "json/spells12.json" },

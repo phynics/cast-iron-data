@@ -2,6 +2,7 @@
 id = "ref/trait/dump-salvager"
 kind = "trait"
 title = "Dump Salvager"
+aon = "TraitDisplay.aspx?ItemName=Dump%20Salvager"
 source_ids = ["cheliax-empire-of-devils"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dump_salvager", path = "json/traits04.json" },

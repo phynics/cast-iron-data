@@ -2,6 +2,7 @@
 id = "ref/arc-monk/spirit-master"
 kind = "archetype"
 title = "Spirit Master"
+aon = "ArchetypeDisplay.aspx?FixedName=Monk%20Spirit%20Master"
 source_ids = ["undead-slayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spirit_master", path = "json/archetypes_monk2.json" },

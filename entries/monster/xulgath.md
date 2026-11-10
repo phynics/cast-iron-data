@@ -2,6 +2,7 @@
 id = "ref/monster/xulgath"
 kind = "creature"
 title = "Xulgath"
+aon = "MonsterDisplay.aspx?ItemName=Xulgath"
 source_ids = ["occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "xulgath", path = "json/monsters41.json" },

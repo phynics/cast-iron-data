@@ -2,6 +2,7 @@
 id = "ref/arc-summoner/morphic-savant"
 kind = "archetype"
 title = "Morphic Savant"
+aon = "ArchetypeDisplay.aspx?FixedName=Summoner%20Morphic%20Savant"
 source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "morphic_savant", path = "json/archetypes_summoner.json" },

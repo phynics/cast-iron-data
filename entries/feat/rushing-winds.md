@@ -2,6 +2,7 @@
 id = "ref/feat/rushing-winds"
 kind = "feat"
 title = "Rushing Winds"
+aon = "FeatDisplay.aspx?ItemName=Rushing%20Winds"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rushing_winds", path = "json/feat13.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/gargoyle-gargoyle-abductor"
 kind = "creature"
 title = "Gargoyle Abductor"
+aon = "MonsterDisplay.aspx?ItemName=Gargoyle%20Abductor"
 source_ids = ["pathfinder-48-shadows-of-gallowspire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gargoyle_gargoyle_abductor", path = "json/monsters32.json" },

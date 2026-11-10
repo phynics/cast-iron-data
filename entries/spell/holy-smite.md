@@ -2,6 +2,7 @@
 id = "ref/spell/holy-smite"
 kind = "spell"
 title = "Holy Smite"
+aon = "SpellDisplay.aspx?ItemName=Holy%20Smite"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "holy_smite", path = "json/spells5.json" },

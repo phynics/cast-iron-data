@@ -2,6 +2,7 @@
 id = "ref/monster/night-monarch"
 kind = "creature"
 title = "Night Monarch"
+aon = "MonsterDisplay.aspx?ItemName=Night%20Monarch"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "night_monarch", path = "json/monsters_unique3.json" },

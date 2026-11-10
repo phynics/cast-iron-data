@@ -2,6 +2,7 @@
 id = "ref/spell/rite-of-centered-mind"
 kind = "spell"
 title = "Rite of Centered Mind"
+aon = "SpellDisplay.aspx?ItemName=Rite%20of%20Centered%20Mind"
 source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rite_of_centered_mind", path = "json/spells8.json" },

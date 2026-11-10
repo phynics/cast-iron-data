@@ -2,6 +2,7 @@
 id = "ref/spell/enter-image"
 kind = "spell"
 title = "Enter Image"
+aon = "SpellDisplay.aspx?ItemName=Enter%20Image"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enter_image", path = "json/spells4.json" },

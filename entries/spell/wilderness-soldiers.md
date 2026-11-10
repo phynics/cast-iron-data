@@ -2,6 +2,7 @@
 id = "ref/spell/wilderness-soldiers"
 kind = "spell"
 title = "Wilderness Soldiers"
+aon = "SpellDisplay.aspx?ItemName=Wilderness%20Soldiers"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wilderness_soldiers", path = "json/spells16.json" },

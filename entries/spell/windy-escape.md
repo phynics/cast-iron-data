@@ -2,6 +2,7 @@
 id = "ref/spell/windy-escape"
 kind = "spell"
 title = "Windy Escape"
+aon = "SpellDisplay.aspx?ItemName=Windy%20Escape"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "windy_escape", path = "json/spells16.json" },

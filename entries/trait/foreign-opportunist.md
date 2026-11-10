@@ -2,6 +2,7 @@
 id = "ref/trait/foreign-opportunist"
 kind = "trait"
 title = "Foreign Opportunist"
+aon = "TraitDisplay.aspx?ItemName=Foreign%20Opportunist"
 source_ids = ["mummys-mask-players-guide", "people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "foreign_opportunist", path = "json/traits02.json" },

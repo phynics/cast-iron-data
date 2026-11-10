@@ -2,6 +2,7 @@
 id = "ref/monster/orc-orc-war-drummer"
 kind = "creature"
 title = "Orc War Drummer"
+aon = "MonsterDisplay.aspx?ItemName=Orc%20War%20Drummer"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "orc_orc_war_drummer", path = "json/monsters18.json" },

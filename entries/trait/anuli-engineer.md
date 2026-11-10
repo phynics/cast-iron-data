@@ -2,6 +2,7 @@
 id = "ref/trait/anuli-engineer"
 kind = "trait"
 title = "Anuli Engineer"
+aon = "TraitDisplay.aspx?ItemName=Anuli%20Engineer"
 source_ids = ["distant-shores"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "anuli_engineer", path = "json/traits04.json" },

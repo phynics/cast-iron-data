@@ -2,6 +2,7 @@
 id = "ref/feat/psychic-maestro"
 kind = "feat"
 title = "Psychic Maestro"
+aon = "FeatDisplay.aspx?ItemName=Psychic%20Maestro"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychic_maestro", path = "json/feat12.json" },

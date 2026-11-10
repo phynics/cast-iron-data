@@ -2,6 +2,7 @@
 id = "ref/feat/focused-discipline"
 kind = "feat"
 title = "Focused Discipline"
+aon = "FeatDisplay.aspx?ItemName=Focused%20Discipline"
 source_ids = ["inner-sea-world-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "focused_discipline", path = "json/feat07.json" },

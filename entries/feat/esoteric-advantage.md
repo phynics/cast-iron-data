@@ -2,6 +2,7 @@
 id = "ref/feat/esoteric-advantage"
 kind = "feat"
 title = "Esoteric Advantage"
+aon = "FeatDisplay.aspx?ItemName=Esoteric%20Advantage"
 source_ids = ["pathfinder-society-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "esoteric_advantage", path = "json/feat06.json" },

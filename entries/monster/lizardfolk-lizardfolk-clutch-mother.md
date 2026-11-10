@@ -2,6 +2,7 @@
 id = "ref/monster/lizardfolk-lizardfolk-clutch-mother"
 kind = "creature"
 title = "Lizardfolk Clutch Mother"
+aon = "MonsterDisplay.aspx?ItemName=Lizardfolk%20Clutch%20Mother"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lizardfolk_lizardfolk_clutch_mother", path = "json/monsters16.json" },

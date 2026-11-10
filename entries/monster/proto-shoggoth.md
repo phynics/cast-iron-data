@@ -2,6 +2,7 @@
 id = "ref/monster/proto-shoggoth"
 kind = "creature"
 title = "Proto-Shoggoth"
+aon = "MonsterDisplay.aspx?ItemName=Proto-Shoggoth"
 source_ids = ["pathfinder-112-the-whisper-out-of-time"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "proto_shoggoth", path = "json/monsters37.json" },

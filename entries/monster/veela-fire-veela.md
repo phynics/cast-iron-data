@@ -2,6 +2,7 @@
 id = "ref/monster/veela-fire-veela"
 kind = "creature"
 title = "Fire Veela"
+aon = "MonsterDisplay.aspx?ItemName=Fire%20Veela"
 source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "veela_fire_veela", path = "json/monsters40.json" },

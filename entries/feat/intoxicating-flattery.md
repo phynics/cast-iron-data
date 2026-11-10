@@ -2,6 +2,7 @@
 id = "ref/feat/intoxicating-flattery"
 kind = "feat"
 title = "Intoxicating Flattery"
+aon = "FeatDisplay.aspx?ItemName=Intoxicating%20Flattery"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "intoxicating_flattery", path = "json/feat09.json" },

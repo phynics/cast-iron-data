@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-ectoplasmic-invigoration"
 kind = "item"
 title = "Ring of Ectoplasmic Invigoration"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Ectoplasmic%20Invigoration"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_ectoplasmic_invigoration", path = "json/magic_ring.json" },

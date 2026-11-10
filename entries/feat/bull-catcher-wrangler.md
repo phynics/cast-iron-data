@@ -2,6 +2,7 @@
 id = "ref/feat/bull-catcher-wrangler"
 kind = "feat"
 title = "Bull-Catcher Wrangler"
+aon = "FeatDisplay.aspx?ItemName=Bull-Catcher%20Wrangler"
 source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bull_catcher_wrangler", path = "json/feat02.json" },

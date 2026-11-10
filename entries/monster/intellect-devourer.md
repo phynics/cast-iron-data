@@ -2,6 +2,7 @@
 id = "ref/monster/intellect-devourer"
 kind = "creature"
 title = "Intellect Devourer"
+aon = "MonsterDisplay.aspx?ItemName=Intellect%20Devourer"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "intellect_devourer", path = "json/monsters14.json" },

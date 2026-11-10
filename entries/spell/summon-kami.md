@@ -2,6 +2,7 @@
 id = "ref/spell/summon-kami"
 kind = "spell"
 title = "Summon Kami"
+aon = "SpellDisplay.aspx?ItemName=Summon%20Kami"
 source_ids = ["core-rulebook", "inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summon_kami", path = "json/spells16.json" },

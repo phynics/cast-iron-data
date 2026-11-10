@@ -2,6 +2,7 @@
 id = "ref/trait/privileged-slave"
 kind = "trait"
 title = "Privileged Slave"
+aon = "TraitDisplay.aspx?ItemName=Privileged%20Slave"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "privileged_slave", path = "json/traits04.json" },

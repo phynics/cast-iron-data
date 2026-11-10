@@ -2,6 +2,7 @@
 id = "ref/spell/campfire-wall"
 kind = "spell"
 title = "Campfire Wall"
+aon = "SpellDisplay.aspx?ItemName=Campfire%20Wall"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "campfire_wall", path = "json/spells2.json" },

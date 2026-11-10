@@ -2,6 +2,7 @@
 id = "ref/trait/cruel-master"
 kind = "trait"
 title = "Cruel Master"
+aon = "TraitDisplay.aspx?ItemName=Cruel%20Master"
 source_ids = ["pirates-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cruel_master", path = "json/traits04.json" },

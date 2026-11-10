@@ -2,6 +2,7 @@
 id = "ref/feat/greater-meditation-master"
 kind = "feat"
 title = "Greater Meditation Master"
+aon = "FeatDisplay.aspx?ItemName=Greater%20Meditation%20Master"
 source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_meditation_master", path = "json/feat08.json" },

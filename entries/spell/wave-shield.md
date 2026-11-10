@@ -2,6 +2,7 @@
 id = "ref/spell/wave-shield"
 kind = "spell"
 title = "Wave Shield"
+aon = "SpellDisplay.aspx?ItemName=Wave%20Shield"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wave_shield", path = "json/spells11.json" },

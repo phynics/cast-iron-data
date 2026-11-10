@@ -2,6 +2,7 @@
 id = "ref/spell/flash-flood"
 kind = "spell"
 title = "Flash Flood"
+aon = "SpellDisplay.aspx?ItemName=Flash%20Flood"
 source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flash_flood", path = "json/spells4.json" },

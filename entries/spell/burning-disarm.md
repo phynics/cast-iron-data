@@ -2,6 +2,7 @@
 id = "ref/spell/burning-disarm"
 kind = "spell"
 title = "Burning Disarm"
+aon = "SpellDisplay.aspx?ItemName=Burning%20Disarm"
 source_ids = ["cheliax-empire-of-devils"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burning_disarm", path = "json/spells2.json" },

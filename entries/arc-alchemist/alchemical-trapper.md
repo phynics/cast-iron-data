@@ -2,6 +2,7 @@
 id = "ref/arc-alchemist/alchemical-trapper"
 kind = "archetype"
 title = "Alchemical Trapper"
+aon = "ArchetypeDisplay.aspx?FixedName=Alchemist%20Alchemical%20Trapper"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alchemical_trapper", path = "json/archetypes_alchemist.json" },

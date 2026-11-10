@@ -2,6 +2,7 @@
 id = "ref/spell/restoration-greater"
 kind = "spell"
 title = "Greater Restoration"
+aon = "SpellDisplay.aspx?ItemName=Restoration%2C%20Greater"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "restoration_greater", path = "json/spells8.json" },

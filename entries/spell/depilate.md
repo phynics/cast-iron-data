@@ -2,6 +2,7 @@
 id = "ref/spell/depilate"
 kind = "spell"
 title = "Depilate"
+aon = "SpellDisplay.aspx?ItemName=Depilate"
 source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "depilate", path = "json/spells3.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/beast-bond"
 kind = "trait"
 title = "Beast Bond"
+aon = "TraitDisplay.aspx?ItemName=Beast%20Bond"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beast_bond", path = "json/traits01.json" },

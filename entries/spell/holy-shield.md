@@ -2,6 +2,7 @@
 id = "ref/spell/holy-shield"
 kind = "spell"
 title = "Holy Shield"
+aon = "SpellDisplay.aspx?ItemName=Holy%20Shield"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "holy_shield", path = "json/spells5.json" },

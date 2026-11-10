@@ -2,6 +2,7 @@
 id = "ref/feat/elemental-overload"
 kind = "feat"
 title = "Elemental Overload"
+aon = "FeatDisplay.aspx?ItemName=Elemental%20Overload"
 source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_overload", path = "json/feat05.json" },

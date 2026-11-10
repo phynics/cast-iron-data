@@ -2,6 +2,7 @@
 id = "ref/spell/sacrifice"
 kind = "spell"
 title = "Sacrifice"
+aon = "SpellDisplay.aspx?ItemName=Sacrifice"
 source_ids = ["book-of-the-damned", "book-of-the-damned-volume-1-princes-of-darkness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sacrifice", path = "json/spells8.json" },

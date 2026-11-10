@@ -2,6 +2,7 @@
 id = "ref/trait/pesh-dealer"
 kind = "trait"
 title = "Pesh Dealer"
+aon = "TraitDisplay.aspx?ItemName=Pesh%20Dealer"
 source_ids = ["legacy-of-fire-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pesh_dealer", path = "json/traits04.json" },

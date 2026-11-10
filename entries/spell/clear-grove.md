@@ -2,6 +2,7 @@
 id = "ref/spell/clear-grove"
 kind = "spell"
 title = "Clear Grove"
+aon = "SpellDisplay.aspx?ItemName=Clear%20Grove"
 source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clear_grove", path = "json/spells2.json" },

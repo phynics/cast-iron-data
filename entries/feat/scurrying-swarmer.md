@@ -2,6 +2,7 @@
 id = "ref/feat/scurrying-swarmer"
 kind = "feat"
 title = "Scurrying Swarmer"
+aon = "FeatDisplay.aspx?ItemName=Scurrying%20Swarmer"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scurrying_swarmer", path = "json/feat13.json" },

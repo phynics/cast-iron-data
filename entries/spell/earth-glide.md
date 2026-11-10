@@ -2,6 +2,7 @@
 id = "ref/spell/earth-glide"
 kind = "spell"
 title = "Earth Glide"
+aon = "SpellDisplay.aspx?ItemName=Earth%20Glide"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "earth_glide", path = "json/spells13.json" },

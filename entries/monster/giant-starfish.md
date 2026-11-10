@@ -2,6 +2,7 @@
 id = "ref/monster/giant-starfish"
 kind = "creature"
 title = "Giant Starfish"
+aon = "MonsterDisplay.aspx?ItemName=Giant%20Starfish"
 source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_starfish", path = "json/monsters11.json" },

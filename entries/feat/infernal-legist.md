@@ -2,6 +2,7 @@
 id = "ref/feat/infernal-legist"
 kind = "feat"
 title = "Infernal Legist"
+aon = "FeatDisplay.aspx?ItemName=Infernal%20Legist"
 source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "infernal_legist", path = "json/feat09.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-sorcerer/nine-tailed-heir"
 kind = "archetype"
 title = "Nine-Tailed Heir"
+aon = "ArchetypeDisplay.aspx?FixedName=Sorcerer%20Nine-Tailed%20Heir"
 source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nine_tailed_heir", path = "json/archetypes_sorcerer.json" },

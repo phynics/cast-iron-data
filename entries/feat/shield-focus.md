@@ -2,6 +2,7 @@
 id = "ref/feat/shield-focus"
 kind = "feat"
 title = "Shield Focus"
+aon = "FeatDisplay.aspx?ItemName=Shield%20Focus"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_focus", path = "json/feat14.json" },

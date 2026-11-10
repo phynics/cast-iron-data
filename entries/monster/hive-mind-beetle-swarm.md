@@ -2,6 +2,7 @@
 id = "ref/monster/hive-mind-beetle-swarm"
 kind = "creature"
 title = "Hive Mind Beetle Swarm"
+aon = "MonsterDisplay.aspx?ItemName=Hive%20Mind%20Beetle%20Swarm"
 source_ids = ["occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hive_mind_beetle_swarm", path = "json/monsters13.json" },

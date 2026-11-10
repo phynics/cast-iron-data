@@ -2,6 +2,7 @@
 id = "ref/feat/superior-summoning"
 kind = "feat"
 title = "Superior Summoning"
+aon = "FeatDisplay.aspx?ItemName=Superior%20Summoning"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "superior_summoning", path = "json/feat15.json" },

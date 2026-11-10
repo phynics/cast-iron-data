@@ -2,6 +2,7 @@
 id = "ref/feat/weapon-focus/teitr"
 kind = "feat"
 title = "Weapon Focus"
+aon = "FeatDisplay.aspx?ItemName=Weapon%20Focus"
 source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/weapon-focus" },

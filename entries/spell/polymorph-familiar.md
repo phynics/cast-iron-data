@@ -2,6 +2,7 @@
 id = "ref/spell/polymorph-familiar"
 kind = "spell"
 title = "Polymorph Familiar"
+aon = "SpellDisplay.aspx?ItemName=Polymorph%20Familiar"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "polymorph_familiar", path = "json/spells7.json" },

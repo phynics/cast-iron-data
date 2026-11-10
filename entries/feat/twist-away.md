@@ -2,6 +2,7 @@
 id = "ref/feat/twist-away"
 kind = "feat"
 title = "Twist Away"
+aon = "FeatDisplay.aspx?ItemName=Twist%20Away"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "twist_away", path = "json/feat16.json" },

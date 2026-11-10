@@ -2,6 +2,7 @@
 id = "ref/monster/kasthezvi"
 kind = "creature"
 title = "Kasthezvi"
+aon = "MonsterDisplay.aspx?ItemName=Kasthezvi"
 source_ids = ["pathfinder-135-runeplague"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kasthezvi", path = "json/monsters15.json" },

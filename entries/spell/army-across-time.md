@@ -2,6 +2,7 @@
 id = "ref/spell/army-across-time"
 kind = "spell"
 title = "Army Across Time"
+aon = "SpellDisplay.aspx?ItemName=Army%20Across%20Time"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "army_across_time", path = "json/spells.json" },

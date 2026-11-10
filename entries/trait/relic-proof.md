@@ -2,6 +2,7 @@
 id = "ref/trait/relic-proof"
 kind = "trait"
 title = "Relic-Proof"
+aon = "TraitDisplay.aspx?ItemName=Relic-Proof"
 source_ids = ["pathfinder-society-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "relic_proof", path = "json/traits01.json" },

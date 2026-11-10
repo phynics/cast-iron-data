@@ -2,6 +2,7 @@
 id = "ref/magic-armor/armor-of-arrow-attraction"
 kind = "item"
 title = "Armor of Arrow Attraction"
+aon = "MagicCursedDisplay.aspx?ItemName=Armor%20of%20Arrow%20Attraction"
 source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "armor_of_arrow_attraction", path = "json/magic_armor.json" },

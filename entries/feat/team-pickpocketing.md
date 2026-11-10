@@ -2,6 +2,7 @@
 id = "ref/feat/team-pickpocketing"
 kind = "feat"
 title = "Team Pickpocketing"
+aon = "FeatDisplay.aspx?ItemName=Team%20Pickpocketing"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "team_pickpocketing", path = "json/feat16.json" },

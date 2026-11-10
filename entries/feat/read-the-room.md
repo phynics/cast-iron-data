@@ -2,6 +2,7 @@
 id = "ref/feat/read-the-room"
 kind = "feat"
 title = "Read the Room"
+aon = "FeatDisplay.aspx?ItemName=Read%20the%20Room"
 source_ids = ["inner-sea-taverns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "read_the_room", path = "json/feat13.json" },

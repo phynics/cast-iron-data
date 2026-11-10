@@ -2,6 +2,7 @@
 id = "ref/magic-weapon/draddeth-edge"
 kind = "item"
 title = "Draddeth Edge"
+aon = "MagicIntelligentDisplay.aspx?ItemName=Draddeth%20Edge"
 source_ids = ["lost-treasures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "draddeth_edge", path = "json/magic_weapon2.json" },

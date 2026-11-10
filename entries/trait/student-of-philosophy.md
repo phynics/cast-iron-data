@@ -2,6 +2,7 @@
 id = "ref/trait/student-of-philosophy"
 kind = "trait"
 title = "Student of Philosophy"
+aon = "TraitDisplay.aspx?ItemName=Student%20of%20Philosophy"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "student_of_philosophy", path = "json/traits01.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/egorian-school-apprentice"
 kind = "trait"
 title = "Egorian School Apprentice"
+aon = "TraitDisplay.aspx?ItemName=Egorian%20School%20Apprentice"
 source_ids = ["cheliax-empire-of-devils"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "egorian_school_apprentice", path = "json/traits04.json" },

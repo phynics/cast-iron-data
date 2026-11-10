@@ -2,6 +2,7 @@
 id = "ref/monster/gnoll-gnoll-packlord"
 kind = "creature"
 title = "Gnoll Packlord"
+aon = "MonsterDisplay.aspx?ItemName=Gnoll%20Packlord"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gnoll_gnoll_packlord", path = "json/monsters12.json" },

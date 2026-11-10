@@ -2,6 +2,7 @@
 id = "ref/trait/black-powder-bravado"
 kind = "trait"
 title = "Black Powder Bravado"
+aon = "TraitDisplay.aspx?ItemName=Black%20Powder%20Bravado"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "black_powder_bravado", path = "json/traits01.json" },

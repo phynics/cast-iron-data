@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-refusal"
 kind = "item"
 title = "Ring of Refusal"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Refusal"
 source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_refusal", path = "json/magic_ring.json" },

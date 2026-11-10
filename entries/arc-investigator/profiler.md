@@ -2,6 +2,7 @@
 id = "ref/arc-investigator/profiler"
 kind = "archetype"
 title = "Profiler"
+aon = "ArchetypeDisplay.aspx?FixedName=Investigator%20Profiler"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "profiler", path = "json/archetypes_investigator.json" },

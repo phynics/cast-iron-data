@@ -2,6 +2,7 @@
 id = "ref/pclass/shieldmarshal"
 kind = "prestige_class"
 title = "Shieldmarshal"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Shieldmarshal"
 source_ids = ["paths-of-prestige"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shieldmarshal", path = "json/prestige_classes3.json" },

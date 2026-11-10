@@ -2,6 +2,7 @@
 id = "ref/monster/golem-inubrix-golem"
 kind = "creature"
 title = "Inubrix Golem"
+aon = "MonsterDisplay.aspx?ItemName=Inubrix%20Golem"
 source_ids = ["construct-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_inubrix_golem", path = "json/monsters33.json" },

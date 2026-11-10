@@ -2,6 +2,7 @@
 id = "ref/feat/interweave-composite-blast"
 kind = "feat"
 title = "Interweave Composite Blast"
+aon = "FeatDisplay.aspx?ItemName=Interweave%20Composite%20Blast"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "interweave_composite_blast", path = "json/feat09.json" },

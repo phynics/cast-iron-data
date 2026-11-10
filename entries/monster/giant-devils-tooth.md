@@ -2,6 +2,7 @@
 id = "ref/monster/giant-devils-tooth"
 kind = "creature"
 title = "Giant Devil's Tooth"
+aon = "MonsterDisplay.aspx?ItemName=Giant%20Devil%27s%20Tooth"
 source_ids = ["pathfinder-128-songbird-scion-saboteur"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_devils_tooth", path = "json/monsters11.json" },

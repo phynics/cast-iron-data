@@ -2,6 +2,7 @@
 id = "ref/feat/bulette-rampage"
 kind = "feat"
 title = "Bulette Rampage"
+aon = "FeatDisplay.aspx?ItemName=Bulette%20Rampage"
 source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bulette_rampage", path = "json/feat02.json" },

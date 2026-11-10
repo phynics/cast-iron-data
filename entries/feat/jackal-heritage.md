@@ -2,6 +2,7 @@
 id = "ref/feat/jackal-heritage"
 kind = "feat"
 title = "Jackal Heritage"
+aon = "FeatDisplay.aspx?ItemName=Jackal%20Heritage"
 source_ids = ["rival-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jackal_heritage", path = "json/feat09.json" },

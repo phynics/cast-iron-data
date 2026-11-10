@@ -2,6 +2,7 @@
 id = "ref/feat/swift-swimmer"
 kind = "feat"
 title = "Swift Swimmer"
+aon = "FeatDisplay.aspx?ItemName=Swift%20Swimmer"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swift_swimmer", path = "json/feat15.json" },

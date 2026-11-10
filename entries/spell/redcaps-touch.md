@@ -2,6 +2,7 @@
 id = "ref/spell/redcaps-touch"
 kind = "spell"
 title = "Redcap's Touch"
+aon = "SpellDisplay.aspx?ItemName=Redcap%27s%20Touch"
 source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "redcaps_touch", path = "json/spells8.json" },

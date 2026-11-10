@@ -2,6 +2,7 @@
 id = "ref/spell/invigorate-mass"
 kind = "spell"
 title = "Mass Invigorate"
+aon = "SpellDisplay.aspx?ItemName=Invigorate%2C%20Mass"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "invigorate_mass", path = "json/spells14.json" },

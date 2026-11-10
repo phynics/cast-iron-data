@@ -2,6 +2,7 @@
 id = "ref/monster/giant-sundew"
 kind = "creature"
 title = "Giant Sundew"
+aon = "MonsterDisplay.aspx?ItemName=Giant%20Sundew"
 source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_sundew", path = "json/monsters11.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/contemplative-enlightened-contemplative"
 kind = "creature"
 title = "Enlightened Contemplative"
+aon = "MonsterDisplay.aspx?ItemName=Enlightened%20Contemplative"
 source_ids = ["occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "contemplative_enlightened_contemplative", path = "json/monsters28.json" },

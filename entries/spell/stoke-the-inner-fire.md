@@ -2,6 +2,7 @@
 id = "ref/spell/stoke-the-inner-fire"
 kind = "spell"
 title = "Stoke the Inner Fire"
+aon = "SpellDisplay.aspx?ItemName=Stoke%20the%20Inner%20Fire"
 source_ids = ["pathfinder-95-anvil-of-fire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stoke_the_inner_fire", path = "json/spells9.json" },

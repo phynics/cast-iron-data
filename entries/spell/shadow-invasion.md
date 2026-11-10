@@ -2,6 +2,7 @@
 id = "ref/spell/shadow-invasion"
 kind = "spell"
 title = "Shadow Invasion"
+aon = "SpellDisplay.aspx?ItemName=Shadow%20Invasion"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_invasion", path = "json/spells15.json" },

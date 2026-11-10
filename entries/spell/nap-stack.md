@@ -2,6 +2,7 @@
 id = "ref/spell/nap-stack"
 kind = "spell"
 title = "Nap Stack"
+aon = "SpellDisplay.aspx?ItemName=Nap%20Stack"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nap_stack", path = "json/spells7.json" },

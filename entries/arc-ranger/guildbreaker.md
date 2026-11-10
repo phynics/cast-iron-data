@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/guildbreaker"
 kind = "archetype"
 title = "Guildbreaker"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Guildbreaker"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guildbreaker", path = "json/archetypes_ranger.json" },

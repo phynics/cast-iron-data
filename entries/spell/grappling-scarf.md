@@ -2,6 +2,7 @@
 id = "ref/spell/grappling-scarf"
 kind = "spell"
 title = "Grappling Scarf"
+aon = "SpellDisplay.aspx?ItemName=Grappling%20Scarf"
 source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grappling_scarf", path = "json/spells5.json" },

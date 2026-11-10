@@ -2,6 +2,7 @@
 id = "ref/arc-medium/rivethun-spirit-channeler"
 kind = "archetype"
 title = "Rivethun Spirit Channeler"
+aon = "ArchetypeDisplay.aspx?FixedName=Medium%20Rivethun%20Spirit%20Channeler"
 source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rivethun_spirit_channeler", path = "json/archetypes_medium.json" },

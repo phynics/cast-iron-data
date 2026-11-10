@@ -2,6 +2,7 @@
 id = "ref/trait/guerrilla-tactics"
 kind = "trait"
 title = "Guerrilla Tactics"
+aon = "TraitDisplay.aspx?ItemName=Guerrilla%20Tactics"
 source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guerrilla_tactics", path = "json/traits01.json" },

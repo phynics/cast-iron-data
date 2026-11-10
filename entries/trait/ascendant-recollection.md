@@ -2,6 +2,7 @@
 id = "ref/trait/ascendant-recollection"
 kind = "trait"
 title = "Ascendant Recollection"
+aon = "TraitDisplay.aspx?ItemName=Ascendant%20Recollection"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ascendant_recollection", path = "json/traits02.json" },

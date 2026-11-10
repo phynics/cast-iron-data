@@ -2,6 +2,7 @@
 id = "ref/race/vine-leshy"
 kind = "race"
 title = "Vine Leshy"
+aon = "RacesDisplay.aspx?ItemName=Vine%20Leshy"
 source_ids = ["ultimate-wilderness", "wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vine_leshy", path = "json/races4.json" },

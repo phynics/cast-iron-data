@@ -2,6 +2,7 @@
 id = "ref/monster/living-cave-painting"
 kind = "creature"
 title = "Living Cave Painting"
+aon = "MonsterDisplay.aspx?ItemName=Living%20Cave%20Painting"
 source_ids = ["pathfinder-93-forge-of-the-giant-god"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "living_cave_painting", path = "json/monsters16.json" },

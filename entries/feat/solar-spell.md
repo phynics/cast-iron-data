@@ -2,6 +2,7 @@
 id = "ref/feat/solar-spell"
 kind = "feat"
 title = "Solar Spell"
+aon = "FeatDisplay.aspx?ItemName=Solar%20Spell"
 source_ids = ["cohorts-and-companions"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "solar_spell", path = "json/feat14.json" },

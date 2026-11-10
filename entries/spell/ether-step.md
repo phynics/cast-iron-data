@@ -2,6 +2,7 @@
 id = "ref/spell/ether-step"
 kind = "spell"
 title = "Ether Step"
+aon = "SpellDisplay.aspx?ItemName=Ether%20Step"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ether_step", path = "json/spells4.json" },

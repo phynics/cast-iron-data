@@ -2,6 +2,7 @@
 id = "ref/feat/sproutling"
 kind = "feat"
 title = "Sproutling"
+aon = "FeatDisplay.aspx?ItemName=Sproutling"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sproutling", path = "json/feat15.json" },

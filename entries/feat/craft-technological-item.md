@@ -2,6 +2,7 @@
 id = "ref/feat/craft-technological-item"
 kind = "feat"
 title = "Craft Technological Item"
+aon = "FeatDisplay.aspx?ItemName=Craft%20Technological%20Item"
 source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "craft_technological_item", path = "json/feat03.json" },

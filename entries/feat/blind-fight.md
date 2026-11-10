@@ -2,6 +2,7 @@
 id = "ref/feat/blind-fight"
 kind = "feat"
 title = "Blind-Fight"
+aon = "FeatDisplay.aspx?ItemName=Blind-Fight"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blind_fight", path = "json/feat02.json" },

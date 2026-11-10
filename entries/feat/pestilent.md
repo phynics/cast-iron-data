@@ -2,6 +2,7 @@
 id = "ref/feat/pestilent"
 kind = "feat"
 title = "Pestilent"
+aon = "FeatDisplay.aspx?ItemName=Pestilent"
 source_ids = ["pathfinder-81-shifting-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pestilent", path = "json/feat12.json" },

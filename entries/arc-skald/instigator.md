@@ -2,6 +2,7 @@
 id = "ref/arc-skald/instigator"
 kind = "archetype"
 title = "Instigator"
+aon = "ArchetypeDisplay.aspx?FixedName=Skald%20Instigator"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "instigator", path = "json/archetypes_skald.json" },

@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-ki-mastery"
 kind = "item"
 title = "Ring of Ki Mastery"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Ki%20Mastery"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_ki_mastery", path = "json/magic_ring.json" },

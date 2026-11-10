@@ -2,6 +2,7 @@
 id = "ref/spell/billowing-skirt"
 kind = "spell"
 title = "Billowing Skirt"
+aon = "SpellDisplay.aspx?ItemName=Billowing%20Skirt"
 source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "billowing_skirt", path = "json/spells12.json" },

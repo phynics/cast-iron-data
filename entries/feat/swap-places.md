@@ -2,6 +2,7 @@
 id = "ref/feat/swap-places"
 kind = "feat"
 title = "Swap Places"
+aon = "FeatDisplay.aspx?ItemName=Swap%20Places"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swap_places", path = "json/feat15.json" },

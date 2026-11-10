@@ -2,6 +2,7 @@
 id = "ref/monster/robot-torturer-robot"
 kind = "creature"
 title = "Torturer Robot"
+aon = "MonsterDisplay.aspx?ItemName=Torturer%20Robot"
 source_ids = ["numeria-land-of-fallen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "robot_torturer_robot", path = "json/monsters20.json" },

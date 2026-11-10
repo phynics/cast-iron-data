@@ -2,6 +2,7 @@
 id = "ref/monster/hungry-flesh"
 kind = "creature"
 title = "Hungry Flesh"
+aon = "MonsterDisplay.aspx?ItemName=Hungry%20Flesh"
 source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hungry_flesh", path = "json/monsters14.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/improved-dirty-trick/teitr"
 kind = "feat"
 title = "Improved Dirty Trick"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Dirty%20Trick"
 source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/improved-dirty-trick", label = "removed" },

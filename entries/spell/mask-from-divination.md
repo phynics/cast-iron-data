@@ -2,6 +2,7 @@
 id = "ref/spell/mask-from-divination"
 kind = "spell"
 title = "Mask from Divination"
+aon = "SpellDisplay.aspx?ItemName=Mask%20from%20Divination"
 source_ids = ["adventurers-guide", "arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mask_from_divination", path = "json/spells14.json" },

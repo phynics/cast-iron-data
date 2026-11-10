@@ -2,6 +2,7 @@
 id = "ref/feat/cleansing-burst"
 kind = "feat"
 title = "Cleansing Burst"
+aon = "FeatDisplay.aspx?ItemName=Cleansing%20Burst"
 source_ids = ["pathfinder-81-shifting-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cleansing_burst", path = "json/feat03.json" },

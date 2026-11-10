@@ -2,6 +2,7 @@
 id = "ref/spell/alter-musical-instrument"
 kind = "spell"
 title = "Alter Musical Instrument"
+aon = "SpellDisplay.aspx?ItemName=Alter%20Musical%20Instrument"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alter_musical_instrument", path = "json/spells.json" },

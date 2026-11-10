@@ -2,6 +2,7 @@
 id = "ref/feat/holy-water-assault"
 kind = "feat"
 title = "Holy Water Assault"
+aon = "FeatDisplay.aspx?ItemName=Holy%20Water%20Assault"
 source_ids = ["undead-slayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "holy_water_assault", path = "json/feat08.json" },

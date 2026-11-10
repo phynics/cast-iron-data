@@ -2,6 +2,7 @@
 id = "ref/arc-witch/witch-watcher"
 kind = "archetype"
 title = "Witch-Watcher"
+aon = "ArchetypeDisplay.aspx?FixedName=Witch%20Witch-Watcher"
 source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "witch_watcher", path = "json/archetypes_witch.json" },

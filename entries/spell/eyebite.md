@@ -2,6 +2,7 @@
 id = "ref/spell/eyebite"
 kind = "spell"
 title = "Eyebite"
+aon = "SpellDisplay.aspx?ItemName=Eyebite"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eyebite", path = "json/spells4.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/timely-coordination"
 kind = "feat"
 title = "Timely Coordination"
+aon = "FeatDisplay.aspx?ItemName=Timely%20Coordination"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "timely_coordination", path = "json/feat16.json" },

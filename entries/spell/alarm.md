@@ -2,6 +2,7 @@
 id = "ref/spell/alarm"
 kind = "spell"
 title = "Alarm"
+aon = "SpellDisplay.aspx?ItemName=Alarm"
 source_ids = ["core-rulebook", "villain-codex", "ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alarm", path = "json/spells.json" },

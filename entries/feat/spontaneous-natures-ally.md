@@ -2,6 +2,7 @@
 id = "ref/feat/spontaneous-natures-ally"
 kind = "feat"
 title = "Spontaneous Nature's Ally"
+aon = "FeatDisplay.aspx?ItemName=Spontaneous%20Nature%27s%20Ally"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spontaneous_natures_ally", path = "json/feat15.json" },

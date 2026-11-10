@@ -2,6 +2,7 @@
 id = "ref/feat/second-chance"
 kind = "feat"
 title = "Second Chance"
+aon = "FeatDisplay.aspx?ItemName=Second%20Chance"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "second_chance", path = "json/feat13.json" },

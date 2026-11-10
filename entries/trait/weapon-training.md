@@ -2,6 +2,7 @@
 id = "ref/trait/weapon-training"
 kind = "trait"
 title = "Weapon Training"
+aon = "TraitDisplay.aspx?ItemName=Weapon%20Training"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weapon_training", path = "json/traits05.json" },

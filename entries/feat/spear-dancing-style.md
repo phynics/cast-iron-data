@@ -2,6 +2,7 @@
 id = "ref/feat/spear-dancing-style"
 kind = "feat"
 title = "Spear Dancing Style"
+aon = "FeatDisplay.aspx?ItemName=Spear%20Dancing%20Style"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spear_dancing_style", path = "json/feat14.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/advanced-ranger-trap"
 kind = "feat"
 title = "Advanced Ranger Trap"
+aon = "FeatDisplay.aspx?ItemName=Advanced%20Ranger%20Trap"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "advanced_ranger_trap", path = "json/feat01.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/node-of-blasting"
 kind = "spell"
 title = "Node of Blasting"
+aon = "SpellDisplay.aspx?ItemName=Node%20of%20Blasting"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "node_of_blasting", path = "json/spells7.json" },

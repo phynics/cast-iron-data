@@ -2,6 +2,7 @@
 id = "ref/monster/archon-codex-archon"
 kind = "creature"
 title = "Codex Archon"
+aon = "MonsterDisplay.aspx?ItemName=Codex%20Archon"
 source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "archon_codex_archon", path = "json/monsters02.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/fractions-of-heal-and-harm"
 kind = "spell"
 title = "Fractions of Heal and Harm"
+aon = "SpellDisplay.aspx?ItemName=Fractions%20of%20Heal%20and%20Harm"
 source_ids = ["inner-sea-gods", "pathfinder-41-the-thousand-fangs-below"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fractions_of_heal_and_harm", path = "json/spells13.json" },

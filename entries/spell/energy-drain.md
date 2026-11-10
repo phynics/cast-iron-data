@@ -2,6 +2,7 @@
 id = "ref/spell/energy-drain"
 kind = "spell"
 title = "Energy Drain"
+aon = "SpellDisplay.aspx?ItemName=Energy%20Drain"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "energy_drain", path = "json/spells4.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/brightest-light"
 kind = "spell"
 title = "Brightest Light"
+aon = "SpellDisplay.aspx?ItemName=Brightest%20Light"
 source_ids = ["core-rulebook", "adventurers-guide", "inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brightest_light", path = "json/spells3.json" },

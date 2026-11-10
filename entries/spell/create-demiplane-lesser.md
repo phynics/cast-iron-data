@@ -2,6 +2,7 @@
 id = "ref/spell/create-demiplane-lesser"
 kind = "spell"
 title = "Lesser Create Demiplane"
+aon = "SpellDisplay.aspx?ItemName=Create%20Demiplane%2C%20Lesser"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "create_demiplane_lesser", path = "json/spells12.json" },

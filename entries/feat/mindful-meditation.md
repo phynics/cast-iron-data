@@ -2,6 +2,7 @@
 id = "ref/feat/mindful-meditation"
 kind = "feat"
 title = "Mindful Meditation"
+aon = "FeatDisplay.aspx?ItemName=Mindful%20Meditation"
 source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mindful_meditation", path = "json/feat10.json" },

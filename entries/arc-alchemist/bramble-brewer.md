@@ -2,6 +2,7 @@
 id = "ref/arc-alchemist/bramble-brewer"
 kind = "archetype"
 title = "Bramble Brewer"
+aon = "ArchetypeDisplay.aspx?FixedName=Alchemist%20Bramble%20Brewer"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bramble_brewer", path = "json/archetypes_alchemist.json" },

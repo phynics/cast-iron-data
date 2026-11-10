@@ -2,6 +2,7 @@
 id = "ref/feat/ancestral-weapon-mastery"
 kind = "feat"
 title = "Ancestral Weapon Mastery"
+aon = "FeatDisplay.aspx?ItemName=Ancestral%20Weapon%20Mastery"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ancestral_weapon_mastery", path = "json/feat01.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/octopus-giant-octopus"
 kind = "creature"
 title = "Giant Octopus"
+aon = "MonsterDisplay.aspx?ItemName=Giant%20Octopus"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "octopus_giant_octopus", path = "json/monsters18.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-warpriest/calamity-caller"
 kind = "archetype"
 title = "Calamity Caller"
+aon = "ArchetypeDisplay.aspx?FixedName=Warpriest%20Calamity%20Caller"
 source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "calamity_caller", path = "json/archetypes_warpriest.json" },

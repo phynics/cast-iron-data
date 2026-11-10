@@ -2,6 +2,7 @@
 id = "ref/feat/unstoppable-esotery"
 kind = "feat"
 title = "Unstoppable Esotery"
+aon = "FeatDisplay.aspx?ItemName=Unstoppable%20Esotery"
 source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unstoppable_esotery", path = "json/feat16.json" },

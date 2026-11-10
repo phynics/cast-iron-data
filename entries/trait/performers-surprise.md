@@ -2,6 +2,7 @@
 id = "ref/trait/performers-surprise"
 kind = "trait"
 title = "Performer's Surprise"
+aon = "TraitDisplay.aspx?ItemName=Performer%27s%20Surprise"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "performers_surprise", path = "json/traits01.json" },

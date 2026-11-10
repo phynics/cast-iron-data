@@ -2,6 +2,7 @@
 id = "ref/monster/soulbound-mannequin"
 kind = "creature"
 title = "Soulbound Mannequin"
+aon = "MonsterDisplay.aspx?ItemName=Soulbound%20Mannequin"
 source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soulbound_mannequin", path = "json/monsters22.json" },

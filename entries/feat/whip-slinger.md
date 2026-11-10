@@ -2,6 +2,7 @@
 id = "ref/feat/whip-slinger"
 kind = "feat"
 title = "Whip-Slinger"
+aon = "FeatDisplay.aspx?ItemName=Whip-Slinger"
 source_ids = ["halflings-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "whip_slinger", path = "json/feat17.json" },

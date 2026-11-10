@@ -2,6 +2,7 @@
 id = "ref/spell/batrachian-surge"
 kind = "spell"
 title = "Batrachian Surge"
+aon = "SpellDisplay.aspx?ItemName=Batrachian%20Surge"
 source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "batrachian_surge", path = "json/spells12.json" },

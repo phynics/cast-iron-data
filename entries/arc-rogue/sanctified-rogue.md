@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/sanctified-rogue"
 kind = "archetype"
 title = "Sanctified Rogue"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Sanctified%20Rogue"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sanctified_rogue", path = "json/archetypes_rogue.json" },

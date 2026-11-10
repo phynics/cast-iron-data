@@ -2,6 +2,7 @@
 id = "ref/spell/icy-prison-mass"
 kind = "spell"
 title = "Mass Icy Prison"
+aon = "SpellDisplay.aspx?ItemName=Icy%20Prison%2C%20Mass"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "icy_prison_mass", path = "json/spells5.json" },

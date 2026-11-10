@@ -2,6 +2,7 @@
 id = "ref/spell/magic-mouth"
 kind = "spell"
 title = "Magic Mouth"
+aon = "SpellDisplay.aspx?ItemName=Magic%20Mouth"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_mouth", path = "json/spells6.json" },

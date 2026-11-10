@@ -2,6 +2,7 @@
 id = "ref/monster/chained-spirit"
 kind = "creature"
 title = "Chained Spirit"
+aon = "MonsterDisplay.aspx?ItemName=Chained%20Spirit"
 source_ids = ["curse-of-the-crimson-throne", "pathfinder-11-skeletons-of-scarwall"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chained_spirit", path = "json/monsters28.json" },

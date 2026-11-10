@@ -2,6 +2,7 @@
 id = "ref/feat/wretched-curator"
 kind = "feat"
 title = "Wretched Curator"
+aon = "FeatDisplay.aspx?ItemName=Wretched%20Curator"
 source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wretched_curator", path = "json/feat17.json" },

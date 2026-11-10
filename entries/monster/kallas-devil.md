@@ -2,6 +2,7 @@
 id = "ref/monster/kallas-devil"
 kind = "creature"
 title = "Kallas Devil"
+aon = "MonsterDisplay.aspx?ItemName=Kallas%20Devil"
 source_ids = ["fey-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kallas_devil", path = "json/monsters_unique4.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/improved-disarm"
 kind = "feat"
 title = "Improved Disarm"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Disarm"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_disarm", path = "json/feat09.json" },

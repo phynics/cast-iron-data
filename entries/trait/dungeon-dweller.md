@@ -2,6 +2,7 @@
 id = "ref/trait/dungeon-dweller"
 kind = "trait"
 title = "Dungeon Dweller"
+aon = "TraitDisplay.aspx?ItemName=Dungeon%20Dweller"
 source_ids = ["dungeoneers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dungeon_dweller", path = "json/traits04.json" },

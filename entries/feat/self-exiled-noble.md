@@ -2,6 +2,7 @@
 id = "ref/feat/self-exiled-noble"
 kind = "feat"
 title = "Self-Exiled Noble"
+aon = "FeatDisplay.aspx?ItemName=Self-Exiled%20Noble"
 source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "self_exiled_noble", path = "json/feat13.json" },

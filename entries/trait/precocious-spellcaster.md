@@ -2,6 +2,7 @@
 id = "ref/trait/precocious-spellcaster"
 kind = "trait"
 title = "Precocious Spellcaster"
+aon = "TraitDisplay.aspx?ItemName=Precocious%20Spellcaster"
 source_ids = ["taldor-echoes-of-glory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "precocious_spellcaster", path = "json/traits04.json" },

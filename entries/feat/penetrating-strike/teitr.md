@@ -2,6 +2,7 @@
 id = "ref/feat/penetrating-strike/teitr"
 kind = "feat"
 title = "Penetrating Strike"
+aon = "FeatDisplay.aspx?ItemName=Penetrating%20Strike"
 source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/penetrating-strike" },

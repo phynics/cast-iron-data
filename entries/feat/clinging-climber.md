@@ -2,6 +2,7 @@
 id = "ref/feat/clinging-climber"
 kind = "feat"
 title = "Clinging Climber"
+aon = "FeatDisplay.aspx?ItemName=Clinging%20Climber"
 source_ids = ["ultimate-wilderness", "ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clinging_climber", path = "json/feat03.json" },

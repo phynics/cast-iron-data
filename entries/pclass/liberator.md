@@ -2,6 +2,7 @@
 id = "ref/pclass/liberator"
 kind = "prestige_class"
 title = "Liberator"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Liberator"
 source_ids = ["second-darkness-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "liberator", path = "json/prestige_classes2.json" },

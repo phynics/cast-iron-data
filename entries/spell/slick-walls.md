@@ -2,6 +2,7 @@
 id = "ref/spell/slick-walls"
 kind = "spell"
 title = "Slick Walls"
+aon = "SpellDisplay.aspx?ItemName=Slick%20Walls"
 source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slick_walls", path = "json/spells9.json" },

@@ -2,6 +2,7 @@
 id = "ref/magic-ring/communique-rings"
 kind = "item"
 title = "Communique Rings"
+aon = "MagicRingsDisplay.aspx?FinalName=Communique%20Rings"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "communique_rings", path = "json/magic_ring.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/wrist-grab"
 kind = "feat"
 title = "Wrist Grab"
+aon = "FeatDisplay.aspx?ItemName=Wrist%20Grab"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wrist_grab", path = "json/feat17.json" },

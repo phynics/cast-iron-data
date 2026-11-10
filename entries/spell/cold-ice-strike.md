@@ -2,6 +2,7 @@
 id = "ref/spell/cold-ice-strike"
 kind = "spell"
 title = "Cold Ice Strike"
+aon = "SpellDisplay.aspx?ItemName=Cold%20Ice%20Strike"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cold_ice_strike", path = "json/spells2.json" },

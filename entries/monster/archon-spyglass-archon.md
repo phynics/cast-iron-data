@@ -2,6 +2,7 @@
 id = "ref/monster/archon-spyglass-archon"
 kind = "creature"
 title = "Spyglass Archon"
+aon = "MonsterDisplay.aspx?ItemName=Spyglass%20Archon"
 source_ids = ["chronicle-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "archon_spyglass_archon", path = "json/monsters02.json" },

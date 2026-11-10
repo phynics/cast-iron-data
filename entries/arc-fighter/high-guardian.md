@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/high-guardian"
 kind = "archetype"
 title = "High Guardian"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20High%20Guardian"
 source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "high_guardian", path = "json/archetypes_fighter.json" },

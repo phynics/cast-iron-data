@@ -2,6 +2,7 @@
 id = "ref/spell/phantasmal-affliction"
 kind = "spell"
 title = "Phantasmal Affliction"
+aon = "SpellDisplay.aspx?ItemName=Phantasmal%20Affliction"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phantasmal_affliction", path = "json/spells7.json" },

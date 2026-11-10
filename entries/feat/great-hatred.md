@@ -2,6 +2,7 @@
 id = "ref/feat/great-hatred"
 kind = "feat"
 title = "Great Hatred"
+aon = "FeatDisplay.aspx?ItemName=Great%20Hatred"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "great_hatred", path = "json/feat07.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/coordinated-blast"
 kind = "feat"
 title = "Coordinated Blast"
+aon = "FeatDisplay.aspx?ItemName=Coordinated%20Blast"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "coordinated_blast", path = "json/feat03.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/lions-heart"
 kind = "feat"
 title = "Lion's Heart"
+aon = "FeatDisplay.aspx?ItemName=Lion%27s%20Heart"
 source_ids = ["pathfinder-132-the-six-legend-soul"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lions_heart", path = "json/feat10.json" },

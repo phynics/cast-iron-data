@@ -2,6 +2,7 @@
 id = "ref/trait/enduring-heritage"
 kind = "trait"
 title = "Enduring Heritage"
+aon = "TraitDisplay.aspx?ItemName=Enduring%20Heritage"
 source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enduring_heritage", path = "json/traits05.json" },

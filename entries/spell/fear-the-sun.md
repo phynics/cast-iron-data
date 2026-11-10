@@ -2,6 +2,7 @@
 id = "ref/spell/fear-the-sun"
 kind = "spell"
 title = "Fear the Sun"
+aon = "SpellDisplay.aspx?ItemName=Fear%20the%20Sun"
 source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fear_the_sun", path = "json/spells4.json" },

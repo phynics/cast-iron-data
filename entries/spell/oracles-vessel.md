@@ -2,6 +2,7 @@
 id = "ref/spell/oracles-vessel"
 kind = "spell"
 title = "Oracle's Vessel"
+aon = "SpellDisplay.aspx?ItemName=Oracle%27s%20Vessel"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oracles_vessel", path = "json/spells7.json" },

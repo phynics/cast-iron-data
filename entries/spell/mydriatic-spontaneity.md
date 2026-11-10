@@ -2,6 +2,7 @@
 id = "ref/spell/mydriatic-spontaneity"
 kind = "spell"
 title = "Mydriatic Spontaneity"
+aon = "SpellDisplay.aspx?ItemName=Mydriatic%20Spontaneity"
 source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mydriatic_spontaneity", path = "json/spells7.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/metallic-wings"
 kind = "feat"
 title = "Metallic Wings"
+aon = "FeatDisplay.aspx?ItemName=Metallic%20Wings"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "metallic_wings", path = "json/feat10.json" },

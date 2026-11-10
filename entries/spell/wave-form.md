@@ -2,6 +2,7 @@
 id = "ref/spell/wave-form"
 kind = "spell"
 title = "Wave Form"
+aon = "SpellDisplay.aspx?ItemName=Wave%20Form"
 source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wave_form", path = "json/spells11.json" },

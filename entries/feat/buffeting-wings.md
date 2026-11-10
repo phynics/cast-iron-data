@@ -2,6 +2,7 @@
 id = "ref/feat/buffeting-wings"
 kind = "feat"
 title = "Buffeting Wings"
+aon = "FeatDisplay.aspx?ItemName=Buffeting%20Wings"
 source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "buffeting_wings", path = "json/feat02.json" },

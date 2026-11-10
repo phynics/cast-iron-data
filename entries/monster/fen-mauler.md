@@ -2,6 +2,7 @@
 id = "ref/monster/fen-mauler"
 kind = "creature"
 title = "Fen Mauler"
+aon = "MonsterDisplay.aspx?ItemName=Fen%20Mauler"
 source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fen_mauler", path = "json/monsters10.json" },

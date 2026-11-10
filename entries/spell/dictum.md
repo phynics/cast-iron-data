@@ -2,6 +2,7 @@
 id = "ref/spell/dictum"
 kind = "spell"
 title = "Dictum"
+aon = "SpellDisplay.aspx?ItemName=Dictum"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dictum", path = "json/spells3.json" },

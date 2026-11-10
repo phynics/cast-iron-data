@@ -2,6 +2,7 @@
 id = "ref/trait/azlant-fanatic"
 kind = "trait"
 title = "Azlant Fanatic"
+aon = "TraitDisplay.aspx?ItemName=Azlant%20Fanatic"
 source_ids = ["taldor-echoes-of-glory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "azlant_fanatic", path = "json/traits05.json" },

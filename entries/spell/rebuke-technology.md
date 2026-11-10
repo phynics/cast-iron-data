@@ -2,6 +2,7 @@
 id = "ref/spell/rebuke-technology"
 kind = "spell"
 title = "Rebuke Technology"
+aon = "SpellDisplay.aspx?ItemName=Rebuke%20Technology"
 source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rebuke_technology", path = "json/spells8.json" },

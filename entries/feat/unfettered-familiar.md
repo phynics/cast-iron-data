@@ -2,6 +2,7 @@
 id = "ref/feat/unfettered-familiar"
 kind = "feat"
 title = "Unfettered Familiar"
+aon = "FeatDisplay.aspx?ItemName=Unfettered%20Familiar"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unfettered_familiar", path = "json/feat16.json" },

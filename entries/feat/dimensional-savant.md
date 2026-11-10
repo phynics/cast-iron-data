@@ -2,6 +2,7 @@
 id = "ref/feat/dimensional-savant"
 kind = "feat"
 title = "Dimensional Savant"
+aon = "FeatDisplay.aspx?ItemName=Dimensional%20Savant"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dimensional_savant", path = "json/feat04.json" },

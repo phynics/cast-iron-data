@@ -2,6 +2,7 @@
 id = "ref/arc-witch/hag-of-gyronna"
 kind = "archetype"
 title = "Hag of Gyronna"
+aon = "ArchetypeDisplay.aspx?FixedName=Witch%20Hag%20of%20Gyronna"
 source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hag_of_gyronna", path = "json/archetypes_witch.json" },

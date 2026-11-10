@@ -2,6 +2,7 @@
 id = "ref/arc-cleric/channeler-of-the-unknown"
 kind = "archetype"
 title = "Channeler of the Unknown"
+aon = "ArchetypeDisplay.aspx?FixedName=Cleric%20Channeler%20of%20the%20Unknown"
 source_ids = ["antiheros-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "channeler_of_the_unknown", path = "json/archetypes_cleric.json" },

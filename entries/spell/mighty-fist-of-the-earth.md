@@ -2,6 +2,7 @@
 id = "ref/spell/mighty-fist-of-the-earth"
 kind = "spell"
 title = "Mighty Fist of the Earth"
+aon = "SpellDisplay.aspx?ItemName=Mighty%20Fist%20of%20the%20Earth"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mighty_fist_of_the_earth", path = "json/spells14.json" },

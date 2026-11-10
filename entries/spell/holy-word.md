@@ -2,6 +2,7 @@
 id = "ref/spell/holy-word"
 kind = "spell"
 title = "Holy Word"
+aon = "SpellDisplay.aspx?ItemName=Holy%20Word"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "holy_word", path = "json/spells5.json" },

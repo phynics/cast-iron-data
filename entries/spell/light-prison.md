@@ -2,6 +2,7 @@
 id = "ref/spell/light-prison"
 kind = "spell"
 title = "Light Prison"
+aon = "SpellDisplay.aspx?ItemName=Light%20Prison"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "light_prison", path = "json/spells6.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/dimensional-shambler"
 kind = "creature"
 title = "Dimensional Shambler"
+aon = "MonsterDisplay.aspx?ItemName=Dimensional%20Shambler"
 source_ids = ["pathfinder-46-wake-of-the-watcher"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dimensional_shambler", path = "json/monsters07.json" },

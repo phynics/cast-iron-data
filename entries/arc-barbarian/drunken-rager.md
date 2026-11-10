@@ -2,6 +2,7 @@
 id = "ref/arc-barbarian/drunken-rager"
 kind = "archetype"
 title = "Drunken Rager"
+aon = "ArchetypeDisplay.aspx?FixedName=Barbarian%20Drunken%20Rager"
 source_ids = ["alchemy-manual"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drunken_rager", path = "json/archetypes_barbarian.json" },

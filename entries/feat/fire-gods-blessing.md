@@ -2,6 +2,7 @@
 id = "ref/feat/fire-gods-blessing"
 kind = "feat"
 title = "Fire God's Blessing"
+aon = "FeatDisplay.aspx?ItemName=Fire%20God%27s%20Blessing"
 source_ids = ["orcs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fire_gods_blessing", path = "json/feat07.json" },

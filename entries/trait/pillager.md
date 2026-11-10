@@ -2,6 +2,7 @@
 id = "ref/trait/pillager"
 kind = "trait"
 title = "Pillager"
+aon = "TraitDisplay.aspx?ItemName=Pillager"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pillager", path = "json/traits01.json" },

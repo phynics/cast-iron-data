@@ -2,6 +2,7 @@
 id = "ref/arc-summoner/broodmaster"
 kind = "archetype"
 title = "Broodmaster"
+aon = "ArchetypeDisplay.aspx?FixedName=Summoner%20Broodmaster"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "broodmaster", path = "json/archetypes_summoner.json" },

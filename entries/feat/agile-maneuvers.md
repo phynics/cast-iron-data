@@ -2,6 +2,7 @@
 id = "ref/feat/agile-maneuvers"
 kind = "feat"
 title = "Agile Maneuvers"
+aon = "FeatDisplay.aspx?ItemName=Agile%20Maneuvers"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "agile_maneuvers", path = "json/feat01.json" },

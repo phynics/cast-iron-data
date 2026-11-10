@@ -2,6 +2,7 @@
 id = "ref/spell/wall-of-fire"
 kind = "spell"
 title = "Wall of Fire"
+aon = "SpellDisplay.aspx?ItemName=Wall%20of%20Fire"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wall_of_fire", path = "json/spells11.json" },

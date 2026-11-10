@@ -2,6 +2,7 @@
 id = "ref/trait/inexorable-authority"
 kind = "trait"
 title = "Inexorable Authority"
+aon = "TraitDisplay.aspx?ItemName=Inexorable%20Authority"
 source_ids = ["champions-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inexorable_authority", path = "json/traits01.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/transmute-golem"
 kind = "spell"
 title = "Transmute Golem"
+aon = "SpellDisplay.aspx?ItemName=Transmute%20Golem"
 source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "transmute_golem", path = "json/spells10.json" },

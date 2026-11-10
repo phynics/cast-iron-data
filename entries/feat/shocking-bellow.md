@@ -2,6 +2,7 @@
 id = "ref/feat/shocking-bellow"
 kind = "feat"
 title = "Shocking Bellow"
+aon = "FeatDisplay.aspx?ItemName=Shocking%20Bellow"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shocking_bellow", path = "json/feat14.json" },

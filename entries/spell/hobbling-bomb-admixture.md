@@ -2,6 +2,7 @@
 id = "ref/spell/hobbling-bomb-admixture"
 kind = "spell"
 title = "Hobbling Bomb Admixture"
+aon = "SpellDisplay.aspx?ItemName=Hobbling%20Bomb%20Admixture"
 source_ids = ["pathfinder-117-assault-on-longshadow"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hobbling_bomb_admixture", path = "json/spells5.json" },

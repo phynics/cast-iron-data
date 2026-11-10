@@ -2,6 +2,7 @@
 id = "ref/trait/osirionologist"
 kind = "trait"
 title = "Osirionologist"
+aon = "TraitDisplay.aspx?ItemName=Osirionologist"
 source_ids = ["inner-sea-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "osirionologist", path = "json/traits04.json" },

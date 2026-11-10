@@ -2,6 +2,7 @@
 id = "ref/feat/relic-familiarity"
 kind = "feat"
 title = "Relic Familiarity"
+aon = "FeatDisplay.aspx?ItemName=Relic%20Familiarity"
 source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "relic_familiarity", path = "json/feat13.json" },

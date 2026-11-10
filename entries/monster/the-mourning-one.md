@@ -2,6 +2,7 @@
 id = "ref/monster/the-mourning-one"
 kind = "creature"
 title = "The Mourning One"
+aon = "MonsterDisplay.aspx?ItemName=The%20Mourning%20One"
 source_ids = ["mystery-monsters-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_mourning_one", path = "json/monsters_unique3.json" },

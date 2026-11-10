@@ -2,6 +2,7 @@
 id = "ref/feat/selective-spell"
 kind = "feat"
 title = "Selective Spell"
+aon = "FeatDisplay.aspx?ItemName=Selective%20Spell"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "selective_spell", path = "json/feat13.json" },

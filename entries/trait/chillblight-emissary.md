@@ -2,6 +2,7 @@
 id = "ref/trait/chillblight-emissary"
 kind = "trait"
 title = "Chillblight Emissary"
+aon = "TraitDisplay.aspx?ItemName=Chillblight%20Emissary"
 source_ids = ["people-of-the-north"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chillblight_emissary", path = "json/traits04.json" },

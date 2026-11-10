@@ -2,6 +2,7 @@
 id = "ref/arc-shaman/witch-doctor"
 kind = "archetype"
 title = "Witch Doctor"
+aon = "ArchetypeDisplay.aspx?FixedName=Shaman%20Witch%20Doctor"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "witch_doctor", path = "json/archetypes_shaman.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/nervous"
 kind = "trait"
 title = "Nervous"
+aon = "TraitDisplay.aspx?ItemName=Nervous"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nervous", path = "json/traits03.json" },

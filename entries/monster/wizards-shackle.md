@@ -2,6 +2,7 @@
 id = "ref/monster/wizards-shackle"
 kind = "creature"
 title = "Wizard's Shackle"
+aon = "MonsterDisplay.aspx?ItemName=Wizard%27s%20Shackle"
 source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wizards_shackle", path = "json/monsters25.json" },

@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-chameleon-power"
 kind = "item"
 title = "Ring of Chameleon Power"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Chameleon%20Power"
 source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_chameleon_power", path = "json/magic_ring.json" },

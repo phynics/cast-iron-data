@@ -2,6 +2,7 @@
 id = "ref/feat/fortune-teller"
 kind = "feat"
 title = "Fortune Teller"
+aon = "FeatDisplay.aspx?ItemName=Fortune%20Teller"
 source_ids = ["inner-sea-world-guide", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fortune_teller", path = "json/feat07.json" },

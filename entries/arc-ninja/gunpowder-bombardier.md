@@ -2,6 +2,7 @@
 id = "ref/arc-ninja/gunpowder-bombardier"
 kind = "archetype"
 title = "Gunpowder Bombardier"
+aon = "ArchetypeDisplay.aspx?FixedName=Ninja%20Gunpowder%20Bombardier"
 source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gunpowder_bombardier", path = "json/archetypes_ninja.json" },

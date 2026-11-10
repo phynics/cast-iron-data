@@ -2,6 +2,7 @@
 id = "ref/feat/cut-your-losses"
 kind = "feat"
 title = "Cut Your Losses"
+aon = "FeatDisplay.aspx?ItemName=Cut%20Your%20Losses"
 source_ids = ["pathfinder-society-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cut_your_losses", path = "json/feat04.json" },

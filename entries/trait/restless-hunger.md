@@ -2,6 +2,7 @@
 id = "ref/trait/restless-hunger"
 kind = "trait"
 title = "Restless Hunger"
+aon = "TraitDisplay.aspx?ItemName=Restless%20Hunger"
 source_ids = ["goblins-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "restless_hunger", path = "json/traits03.json" },

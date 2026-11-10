@@ -2,6 +2,7 @@
 id = "ref/feat/deft-hands"
 kind = "feat"
 title = "Deft Hands"
+aon = "FeatDisplay.aspx?ItemName=Deft%20Hands"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deft_hands", path = "json/feat04.json" },

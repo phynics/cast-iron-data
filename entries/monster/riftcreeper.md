@@ -2,6 +2,7 @@
 id = "ref/monster/riftcreeper"
 kind = "creature"
 title = "Riftcreeper"
+aon = "MonsterDisplay.aspx?ItemName=Riftcreeper"
 source_ids = ["bestiary-5", "the-worldwound"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "riftcreeper", path = "json/monsters20.json" },

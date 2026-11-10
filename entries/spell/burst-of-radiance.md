@@ -2,6 +2,7 @@
 id = "ref/spell/burst-of-radiance"
 kind = "spell"
 title = "Burst of Radiance"
+aon = "SpellDisplay.aspx?ItemName=Burst%20of%20Radiance"
 source_ids = ["champions-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burst_of_radiance", path = "json/spells2.json" },

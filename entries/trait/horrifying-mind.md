@@ -2,6 +2,7 @@
 id = "ref/trait/horrifying-mind"
 kind = "trait"
 title = "Horrifying Mind"
+aon = "TraitDisplay.aspx?ItemName=Horrifying%20Mind"
 source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horrifying_mind", path = "json/traits02.json" },

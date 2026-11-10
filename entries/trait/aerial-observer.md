@@ -2,6 +2,7 @@
 id = "ref/trait/aerial-observer"
 kind = "trait"
 title = "Aerial Observer"
+aon = "TraitDisplay.aspx?ItemName=Aerial%20Observer"
 source_ids = ["bastards-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aerial_observer", path = "json/traits05.json" },

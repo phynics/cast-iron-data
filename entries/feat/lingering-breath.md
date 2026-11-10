@@ -2,6 +2,7 @@
 id = "ref/feat/lingering-breath"
 kind = "feat"
 title = "Lingering Breath"
+aon = "FeatDisplay.aspx?ItemName=Lingering%20Breath"
 source_ids = ["chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lingering_breath", path = "json/feat10.json" },

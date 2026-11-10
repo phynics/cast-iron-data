@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/chomper"
 kind = "item"
 title = "Chomper"
+aon = "MagicCursedDisplay.aspx?ItemName=Chomper"
 source_ids = ["ultimate-equipment", "rival-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chomper", path = "json/magic_wondrous_slotless02.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/eclipse-strike"
 kind = "feat"
 title = "Eclipse Strike"
+aon = "FeatDisplay.aspx?ItemName=Eclipse%20Strike"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eclipse_strike", path = "json/feat05.json" },

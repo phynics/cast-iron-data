@@ -2,6 +2,7 @@
 id = "ref/monster/giant-fire-fire-giant-glaive"
 kind = "creature"
 title = "Fire Giant Glaive"
+aon = "MonsterDisplay.aspx?ItemName=Fire%20Giant%20Glaive"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_fire_fire_giant_glaive", path = "json/monsters11.json" },

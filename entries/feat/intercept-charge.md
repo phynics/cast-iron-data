@@ -2,6 +2,7 @@
 id = "ref/feat/intercept-charge"
 kind = "feat"
 title = "Intercept Charge"
+aon = "FeatDisplay.aspx?ItemName=Intercept%20Charge"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "intercept_charge", path = "json/feat09.json" },

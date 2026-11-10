@@ -2,6 +2,7 @@
 id = "ref/feat/lookout"
 kind = "feat"
 title = "Lookout"
+aon = "FeatDisplay.aspx?ItemName=Lookout"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lookout", path = "json/feat10.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/civilized-ghoulishness"
 kind = "feat"
 title = "Civilized Ghoulishness"
+aon = "FeatDisplay.aspx?ItemName=Civilized%20Ghoulishness"
 source_ids = ["classic-horrors-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "civilized_ghoulishness", path = "json/feat03.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/empyreal-cultist"
 kind = "trait"
 title = "Empyreal Cultist"
+aon = "TraitDisplay.aspx?ItemName=Empyreal%20Cultist"
 source_ids = ["varisia-birthplace-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "empyreal_cultist", path = "json/traits04.json" },

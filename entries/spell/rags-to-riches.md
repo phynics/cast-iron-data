@@ -2,6 +2,7 @@
 id = "ref/spell/rags-to-riches"
 kind = "spell"
 title = "Rags to Riches"
+aon = "SpellDisplay.aspx?ItemName=Rags%20to%20Riches"
 source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rags_to_riches", path = "json/spells8.json" },

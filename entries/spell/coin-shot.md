@@ -2,6 +2,7 @@
 id = "ref/spell/coin-shot"
 kind = "spell"
 title = "Coin Shot"
+aon = "SpellDisplay.aspx?ItemName=Coin%20Shot"
 source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "coin_shot", path = "json/spells2.json" },

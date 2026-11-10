@@ -2,6 +2,7 @@
 id = "ref/arc-cavalier/circuit-judge"
 kind = "archetype"
 title = "Circuit Judge"
+aon = "ArchetypeDisplay.aspx?FixedName=Cavalier%20Circuit%20Judge"
 source_ids = ["path-of-the-hellknight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "circuit_judge", path = "json/archetypes_cavalier.json" },

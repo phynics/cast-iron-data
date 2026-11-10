@@ -2,6 +2,7 @@
 id = "ref/spell/particulate-form"
 kind = "spell"
 title = "Particulate Form"
+aon = "SpellDisplay.aspx?ItemName=Particulate%20Form"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "particulate_form", path = "json/spells7.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/crime-of-opportunity"
 kind = "spell"
 title = "Crime of Opportunity"
+aon = "SpellDisplay.aspx?ItemName=Crime%20of%20Opportunity"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crime_of_opportunity", path = "json/spells3.json" },

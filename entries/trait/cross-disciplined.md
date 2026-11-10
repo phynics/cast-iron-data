@@ -2,6 +2,7 @@
 id = "ref/trait/cross-disciplined"
 kind = "trait"
 title = "Cross-Disciplined"
+aon = "TraitDisplay.aspx?ItemName=Cross-Disciplined"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cross_disciplined", path = "json/traits02.json" },

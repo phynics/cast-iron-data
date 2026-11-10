@@ -2,6 +2,7 @@
 id = "ref/spell/waft"
 kind = "spell"
 title = "Waft"
+aon = "SpellDisplay.aspx?ItemName=Waft"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "waft", path = "json/spells11.json" },

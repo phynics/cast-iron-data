@@ -2,6 +2,7 @@
 id = "ref/monster/vemerak"
 kind = "creature"
 title = "Vemerak"
+aon = "MonsterDisplay.aspx?ItemName=Vemerak"
 source_ids = ["bestiary-2", "into-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vemerak", path = "json/monsters40.json" },

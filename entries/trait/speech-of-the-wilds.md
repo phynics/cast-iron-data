@@ -2,6 +2,7 @@
 id = "ref/trait/speech-of-the-wilds"
 kind = "trait"
 title = "Speech of the Wilds"
+aon = "TraitDisplay.aspx?ItemName=Speech%20of%20the%20Wilds"
 source_ids = ["blood-of-angels"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "speech_of_the_wilds", path = "json/traits05.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/alluring-spores"
 kind = "spell"
 title = "Alluring Spores"
+aon = "SpellDisplay.aspx?ItemName=Alluring%20Spores"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alluring_spores", path = "json/spells.json" },

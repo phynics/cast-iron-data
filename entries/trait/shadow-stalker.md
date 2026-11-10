@@ -2,6 +2,7 @@
 id = "ref/trait/shadow-stalker"
 kind = "trait"
 title = "Shadow Stalker"
+aon = "TraitDisplay.aspx?ItemName=Shadow%20Stalker"
 source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_stalker", path = "json/traits05.json" },

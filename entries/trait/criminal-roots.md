@@ -2,6 +2,7 @@
 id = "ref/trait/criminal-roots"
 kind = "trait"
 title = "Criminal Roots"
+aon = "TraitDisplay.aspx?ItemName=Criminal%20Roots"
 source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "criminal_roots", path = "json/traits01.json" },

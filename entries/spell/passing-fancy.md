@@ -2,6 +2,7 @@
 id = "ref/spell/passing-fancy"
 kind = "spell"
 title = "Passing Fancy"
+aon = "SpellDisplay.aspx?ItemName=Passing%20Fancy"
 source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "passing_fancy", path = "json/spells7.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/disposable-weapon"
 kind = "feat"
 title = "Disposable Weapon"
+aon = "FeatDisplay.aspx?ItemName=Disposable%20Weapon"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disposable_weapon", path = "json/feat04.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/snare-setter"
 kind = "archetype"
 title = "Snare Setter"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Snare%20Setter"
 source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snare_setter", path = "json/archetypes_rogue.json" },

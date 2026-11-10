@@ -2,6 +2,7 @@
 id = "ref/feat/combat-advice"
 kind = "feat"
 title = "Combat Advice"
+aon = "FeatDisplay.aspx?ItemName=Combat%20Advice"
 source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "combat_advice", path = "json/feat03.json" },

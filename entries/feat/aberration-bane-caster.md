@@ -2,6 +2,7 @@
 id = "ref/feat/aberration-bane-caster"
 kind = "feat"
 title = "Aberration-Bane Caster"
+aon = "FeatDisplay.aspx?ItemName=Aberration-Bane%20Caster"
 source_ids = ["blood-of-the-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aberration_bane_caster", path = "json/feat01.json" },

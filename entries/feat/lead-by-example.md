@@ -2,6 +2,7 @@
 id = "ref/feat/lead-by-example"
 kind = "feat"
 title = "Lead by Example"
+aon = "FeatDisplay.aspx?ItemName=Lead%20by%20Example"
 source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lead_by_example", path = "json/feat10.json" },

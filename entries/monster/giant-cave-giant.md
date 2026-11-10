@@ -2,6 +2,7 @@
 id = "ref/monster/giant-cave-giant"
 kind = "creature"
 title = "Cave Giant"
+aon = "MonsterDisplay.aspx?ItemName=Cave%20Giant"
 source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_cave_giant", path = "json/monsters32.json" },

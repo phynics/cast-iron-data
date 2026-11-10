@@ -2,6 +2,7 @@
 id = "ref/spell/unseen-servant"
 kind = "spell"
 title = "Unseen Servant"
+aon = "SpellDisplay.aspx?ItemName=Unseen%20Servant"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unseen_servant", path = "json/spells11.json" },

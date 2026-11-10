@@ -2,6 +2,7 @@
 id = "ref/magic-staff/staff-of-slumber"
 kind = "item"
 title = "Staff of Slumber"
+aon = "MagicStavesDisplay.aspx?ItemName=Staff%20of%20Slumber"
 source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_slumber", path = "json/magic_staff.json" },

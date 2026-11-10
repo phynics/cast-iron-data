@@ -2,6 +2,7 @@
 id = "ref/feat/parting-shot/teitr"
 kind = "feat"
 title = "Parting Shot"
+aon = "FeatDisplay.aspx?ItemName=Parting%20Shot"
 source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/parting-shot" },

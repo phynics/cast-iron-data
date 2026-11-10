@@ -2,6 +2,7 @@
 id = "ref/feat/river-raider"
 kind = "feat"
 title = "River Raider"
+aon = "FeatDisplay.aspx?ItemName=River%20Raider"
 source_ids = ["ultimate-wilderness", "people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "river_raider", path = "json/feat13.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/born-alone"
 kind = "feat"
 title = "Born Alone"
+aon = "FeatDisplay.aspx?ItemName=Born%20Alone"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "born_alone", path = "json/feat02.json" },

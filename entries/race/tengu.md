@@ -2,6 +2,7 @@
 id = "ref/race/tengu"
 kind = "race"
 title = "Tengu"
+aon = "RacesDisplay.aspx?ItemName=Tengu"
 source_ids = ["inner-sea-races", "dragon-empires-primer", "dragon-empires-gazetteer", "advanced-race-guide", "bestiary", "blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tengu", path = "json/races4.json" },

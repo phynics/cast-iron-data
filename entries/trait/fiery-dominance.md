@@ -2,6 +2,7 @@
 id = "ref/trait/fiery-dominance"
 kind = "trait"
 title = "Fiery Dominance"
+aon = "TraitDisplay.aspx?ItemName=Fiery%20Dominance"
 source_ids = ["blood-of-the-elements"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fiery_dominance", path = "json/traits04.json" },

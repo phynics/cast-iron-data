@@ -2,6 +2,7 @@
 id = "ref/feat/improved-lightning-reflexes"
 kind = "feat"
 title = "Improved Lightning Reflexes"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Lightning%20Reflexes"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_lightning_reflexes", path = "json/feat09.json" },

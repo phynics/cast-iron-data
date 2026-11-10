@@ -2,6 +2,7 @@
 id = "ref/monster/hound-of-tindalos"
 kind = "creature"
 title = "Hound of Tindalos"
+aon = "MonsterDisplay.aspx?ItemName=Hound%20of%20Tindalos"
 source_ids = ["bestiary-2", "pathfinder-4-fortress-of-the-stone-giants"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hound_of_tindalos", path = "json/monsters14.json" },

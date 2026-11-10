@@ -2,6 +2,7 @@
 id = "ref/feat/shared-ownership"
 kind = "feat"
 title = "Shared Ownership"
+aon = "FeatDisplay.aspx?ItemName=Shared%20Ownership"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shared_ownership", path = "json/feat14.json" },

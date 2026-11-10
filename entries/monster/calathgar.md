@@ -2,6 +2,7 @@
 id = "ref/monster/calathgar"
 kind = "creature"
 title = "Calathgar"
+aon = "MonsterDisplay.aspx?ItemName=Calathgar"
 source_ids = ["pathfinder-34-blood-for-blood"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "calathgar", path = "json/monsters04.json" },

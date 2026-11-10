@@ -2,6 +2,7 @@
 id = "ref/spell/feeblemind"
 kind = "spell"
 title = "Feeblemind"
+aon = "SpellDisplay.aspx?ItemName=Feeblemind"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "feeblemind", path = "json/spells4.json" },

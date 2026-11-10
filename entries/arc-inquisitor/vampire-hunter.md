@@ -2,6 +2,7 @@
 id = "ref/arc-inquisitor/vampire-hunter"
 kind = "archetype"
 title = "Vampire Hunter"
+aon = "ArchetypeDisplay.aspx?FixedName=Inquisitor%20Vampire%20Hunter"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vampire_hunter", path = "json/archetypes_inquisitor.json" },

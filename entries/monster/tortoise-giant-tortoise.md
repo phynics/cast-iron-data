@@ -2,6 +2,7 @@
 id = "ref/monster/tortoise-giant-tortoise"
 kind = "creature"
 title = "Giant Tortoise"
+aon = "MonsterDisplay.aspx?ItemName=Giant%20Tortoise"
 source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tortoise_giant_tortoise", path = "json/monsters23.json" },

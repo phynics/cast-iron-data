@@ -2,6 +2,7 @@
 id = "ref/monster/robot-observer-robot-swarm"
 kind = "creature"
 title = "Observer Robot Swarm"
+aon = "MonsterDisplay.aspx?ItemName=Observer%20Robot%20Swarm"
 source_ids = ["pathfinder-86-lords-of-rust"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "robot_observer_robot_swarm", path = "json/monsters20.json" },

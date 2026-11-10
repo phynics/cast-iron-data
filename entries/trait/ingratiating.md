@@ -2,6 +2,7 @@
 id = "ref/trait/ingratiating"
 kind = "trait"
 title = "Ingratiating"
+aon = "TraitDisplay.aspx?ItemName=Ingratiating"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ingratiating", path = "json/traits05.json" },

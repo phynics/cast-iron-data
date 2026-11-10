@@ -2,6 +2,7 @@
 id = "ref/spell/mutagenic-touch"
 kind = "spell"
 title = "Mutagenic Touch"
+aon = "SpellDisplay.aspx?ItemName=Mutagenic%20Touch"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mutagenic_touch", path = "json/spells7.json" },

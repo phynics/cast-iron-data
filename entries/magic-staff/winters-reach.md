@@ -2,6 +2,7 @@
 id = "ref/magic-staff/winters-reach"
 kind = "item"
 title = "Winter's Reach"
+aon = "MagicStavesDisplay.aspx?ItemName=Winter%27s%20Reach"
 source_ids = ["pathfinder-72-the-witch-queens-revenge"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "winters_reach", path = "json/magic_staff.json" },

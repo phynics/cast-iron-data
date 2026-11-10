@@ -2,6 +2,7 @@
 id = "ref/feat/kinslayer"
 kind = "feat"
 title = "Kinslayer"
+aon = "FeatDisplay.aspx?ItemName=Kinslayer"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kinslayer", path = "json/feat09.json" },

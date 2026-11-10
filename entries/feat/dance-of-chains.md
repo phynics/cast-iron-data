@@ -2,6 +2,7 @@
 id = "ref/feat/dance-of-chains"
 kind = "feat"
 title = "Dance of Chains"
+aon = "FeatDisplay.aspx?ItemName=Dance%20of%20Chains"
 source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dance_of_chains", path = "json/feat04.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/aquatic-survivalist"
 kind = "trait"
 title = "Aquatic Survivalist"
+aon = "TraitDisplay.aspx?ItemName=Aquatic%20Survivalist"
 source_ids = ["blood-of-the-elements"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aquatic_survivalist", path = "json/traits04.json" },

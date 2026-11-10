@@ -2,6 +2,7 @@
 id = "ref/spell/delayed-blast-fireball"
 kind = "spell"
 title = "Delayed Blast Fireball"
+aon = "SpellDisplay.aspx?ItemName=Delayed%20Blast%20Fireball"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "delayed_blast_fireball", path = "json/spells3.json" },

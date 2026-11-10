@@ -2,6 +2,7 @@
 id = "ref/feat/blunt-blade"
 kind = "feat"
 title = "Blunt Blade"
+aon = "FeatDisplay.aspx?ItemName=Blunt%20Blade"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blunt_blade", path = "json/feat02.json" },

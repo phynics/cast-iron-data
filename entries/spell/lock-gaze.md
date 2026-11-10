@@ -2,6 +2,7 @@
 id = "ref/spell/lock-gaze"
 kind = "spell"
 title = "Lock Gaze"
+aon = "SpellDisplay.aspx?ItemName=Lock%20Gaze"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lock_gaze", path = "json/spells6.json" },

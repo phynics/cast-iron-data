@@ -2,6 +2,7 @@
 id = "ref/magic-staff/staff-of-abjuration"
 kind = "item"
 title = "Staff of Abjuration"
+aon = "MagicStavesDisplay.aspx?ItemName=Staff%20of%20Abjuration"
 source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_abjuration", path = "json/magic_staff.json" },

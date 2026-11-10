@@ -2,6 +2,7 @@
 id = "ref/arc-inquisitor/spellbreaker"
 kind = "archetype"
 title = "Spellbreaker"
+aon = "ArchetypeDisplay.aspx?FixedName=Inquisitor%20Spellbreaker"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spellbreaker", path = "json/archetypes_inquisitor.json" },

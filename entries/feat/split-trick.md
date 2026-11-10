@@ -2,6 +2,7 @@
 id = "ref/feat/split-trick"
 kind = "feat"
 title = "Split Trick"
+aon = "FeatDisplay.aspx?ItemName=Split%20Trick"
 source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "split_trick", path = "json/feat15.json" },

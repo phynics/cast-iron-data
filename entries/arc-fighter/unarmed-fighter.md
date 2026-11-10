@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/unarmed-fighter"
 kind = "archetype"
 title = "Unarmed Fighter"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Unarmed%20Fighter"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unarmed_fighter", path = "json/archetypes_fighter2.json" },

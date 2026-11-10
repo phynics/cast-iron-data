@@ -2,6 +2,7 @@
 id = "ref/arc-bloodrager/bloodrider"
 kind = "archetype"
 title = "Bloodrider"
+aon = "ArchetypeDisplay.aspx?FixedName=Bloodrager%20Bloodrider"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloodrider", path = "json/archetypes_bloodrager.json" },

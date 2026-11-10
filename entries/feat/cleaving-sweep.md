@@ -2,6 +2,7 @@
 id = "ref/feat/cleaving-sweep"
 kind = "feat"
 title = "Cleaving Sweep"
+aon = "FeatDisplay.aspx?ItemName=Cleaving%20Sweep"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cleaving_sweep", path = "json/feat03.json" },

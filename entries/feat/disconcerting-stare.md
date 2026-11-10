@@ -2,6 +2,7 @@
 id = "ref/feat/disconcerting-stare"
 kind = "feat"
 title = "Disconcerting Stare"
+aon = "FeatDisplay.aspx?ItemName=Disconcerting%20Stare"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disconcerting_stare", path = "json/feat04.json" },

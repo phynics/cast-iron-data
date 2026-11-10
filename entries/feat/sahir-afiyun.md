@@ -2,6 +2,7 @@
 id = "ref/feat/sahir-afiyun"
 kind = "feat"
 title = "Sahir-Afiyun"
+aon = "FeatDisplay.aspx?ItemName=Sahir-Afiyun"
 source_ids = ["black-markets", "dark-markets-a-guide-to-katapesh"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sahir_afiyun", path = "json/feat13.json" },

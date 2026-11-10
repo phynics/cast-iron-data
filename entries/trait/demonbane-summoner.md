@@ -2,6 +2,7 @@
 id = "ref/trait/demonbane-summoner"
 kind = "trait"
 title = "Demonbane Summoner"
+aon = "TraitDisplay.aspx?ItemName=Demonbane%20Summoner"
 source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demonbane_summoner", path = "json/traits04.json" },

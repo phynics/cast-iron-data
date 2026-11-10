@@ -2,6 +2,7 @@
 id = "ref/trait/self-reliant"
 kind = "trait"
 title = "Self-Reliant"
+aon = "TraitDisplay.aspx?ItemName=Self-Reliant"
 source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "self_reliant", path = "json/traits01.json" },

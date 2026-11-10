@@ -2,6 +2,7 @@
 id = "ref/spell/create-greater-undead"
 kind = "spell"
 title = "Create Greater Undead"
+aon = "SpellDisplay.aspx?ItemName=Create%20Greater%20Undead"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "create_greater_undead", path = "json/spells3.json" },

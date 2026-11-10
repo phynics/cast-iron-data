@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-ferocious-action"
 kind = "item"
 title = "Ring of Ferocious Action"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Ferocious%20Action"
 source_ids = ["ultimate-equipment", "advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_ferocious_action", path = "json/magic_ring.json" },

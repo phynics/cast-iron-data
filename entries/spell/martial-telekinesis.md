@@ -2,6 +2,7 @@
 id = "ref/spell/martial-telekinesis"
 kind = "spell"
 title = "Martial Telekinesis"
+aon = "SpellDisplay.aspx?ItemName=Martial%20Telekinesis"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "martial_telekinesis", path = "json/spells6.json" },

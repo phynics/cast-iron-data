@@ -2,6 +2,7 @@
 id = "ref/feat/cunning-caster"
 kind = "feat"
 title = "Cunning Caster"
+aon = "FeatDisplay.aspx?ItemName=Cunning%20Caster"
 source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cunning_caster", path = "json/feat04.json" },

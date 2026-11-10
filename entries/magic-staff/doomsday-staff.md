@@ -2,6 +2,7 @@
 id = "ref/magic-staff/doomsday-staff"
 kind = "item"
 title = "Doomsday Staff"
+aon = "MagicStavesDisplay.aspx?ItemName=Doomsday%20Staff"
 source_ids = ["pathfinder-64-beyond-the-doomsday-door"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "doomsday_staff", path = "json/magic_staff.json" },

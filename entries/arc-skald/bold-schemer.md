@@ -2,6 +2,7 @@
 id = "ref/arc-skald/bold-schemer"
 kind = "archetype"
 title = "Bold Schemer"
+aon = "ArchetypeDisplay.aspx?FixedName=Skald%20Bold%20Schemer"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bold_schemer", path = "json/archetypes_skald.json" },

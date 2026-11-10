@@ -2,6 +2,7 @@
 id = "ref/feat/chakra-initiate"
 kind = "feat"
 title = "Chakra Initiate"
+aon = "FeatDisplay.aspx?ItemName=Chakra%20Initiate"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chakra_initiate", path = "json/feat03.json" },

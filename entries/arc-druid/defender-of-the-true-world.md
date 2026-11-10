@@ -2,6 +2,7 @@
 id = "ref/arc-druid/defender-of-the-true-world"
 kind = "archetype"
 title = "Defender of the True World"
+aon = "ArchetypeDisplay.aspx?FixedName=Druid%20Defender%20of%20the%20True%20World"
 source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "defender_of_the_true_world", path = "json/archetypes_druid.json" },

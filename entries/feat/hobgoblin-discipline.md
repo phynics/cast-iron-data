@@ -2,6 +2,7 @@
 id = "ref/feat/hobgoblin-discipline"
 kind = "feat"
 title = "Hobgoblin Discipline"
+aon = "FeatDisplay.aspx?ItemName=Hobgoblin%20Discipline"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hobgoblin_discipline", path = "json/feat08.json" },

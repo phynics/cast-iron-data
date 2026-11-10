@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-delayed-doom-8-stones"
 kind = "item"
 title = "Ring of Delayed Doom (8 stones)"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Delayed%20Doom8%20stones"
 source_ids = ["advanced-players-guide", "ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_delayed_doom_8_stones", path = "json/magic_ring.json" },

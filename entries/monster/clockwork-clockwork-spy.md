@@ -2,6 +2,7 @@
 id = "ref/monster/clockwork-clockwork-spy"
 kind = "creature"
 title = "Clockwork Spy"
+aon = "MonsterDisplay.aspx?ItemName=Clockwork%20Spy"
 source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clockwork_clockwork_spy", path = "json/monsters05.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/swarm-scatter"
 kind = "feat"
 title = "Swarm Scatter"
+aon = "FeatDisplay.aspx?ItemName=Swarm%20Scatter"
 source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swarm_scatter", path = "json/feat15.json" },

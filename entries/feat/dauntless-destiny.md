@@ -2,6 +2,7 @@
 id = "ref/feat/dauntless-destiny"
 kind = "feat"
 title = "Dauntless Destiny"
+aon = "FeatDisplay.aspx?ItemName=Dauntless%20Destiny"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dauntless_destiny", path = "json/feat04.json" },

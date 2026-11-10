@@ -2,6 +2,7 @@
 id = "ref/monster/faceless-whale"
 kind = "creature"
 title = "Faceless Whale"
+aon = "MonsterDisplay.aspx?ItemName=Faceless%20Whale"
 source_ids = ["pathfinder-60-from-hells-heart"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "faceless_whale", path = "json/monsters10.json" },

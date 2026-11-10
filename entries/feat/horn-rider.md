@@ -2,6 +2,7 @@
 id = "ref/feat/horn-rider"
 kind = "feat"
 title = "Horn Rider"
+aon = "FeatDisplay.aspx?ItemName=Horn%20Rider"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horn_rider", path = "json/feat08.json" },

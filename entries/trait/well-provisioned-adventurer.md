@@ -2,6 +2,7 @@
 id = "ref/trait/well-provisioned-adventurer"
 kind = "trait"
 title = "Well-Provisioned Adventurer"
+aon = "TraitDisplay.aspx?ItemName=Well-Provisioned%20Adventurer"
 source_ids = ["plane-hoppers-handbook", "adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "well_provisioned_adventurer", path = "json/traits03.json" },

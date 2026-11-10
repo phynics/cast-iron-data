@@ -2,6 +2,7 @@
 id = "ref/feat/tribal-hunter"
 kind = "feat"
 title = "Tribal Hunter"
+aon = "FeatDisplay.aspx?ItemName=Tribal%20Hunter"
 source_ids = ["ultimate-wilderness", "heroes-of-the-wild", "adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tribal_hunter", path = "json/feat16.json" },

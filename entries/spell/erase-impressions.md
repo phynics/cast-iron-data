@@ -2,6 +2,7 @@
 id = "ref/spell/erase-impressions"
 kind = "spell"
 title = "Erase Impressions"
+aon = "SpellDisplay.aspx?ItemName=Erase%20Impressions"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "erase_impressions", path = "json/spells4.json" },

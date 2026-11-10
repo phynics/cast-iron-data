@@ -2,6 +2,7 @@
 id = "ref/arc-cleric/ecclesitheurge"
 kind = "archetype"
 title = "Ecclesitheurge"
+aon = "ArchetypeDisplay.aspx?FixedName=Cleric%20Ecclesitheurge"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ecclesitheurge", path = "json/archetypes_cleric.json" },

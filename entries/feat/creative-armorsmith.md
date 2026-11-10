@@ -2,6 +2,7 @@
 id = "ref/feat/creative-armorsmith"
 kind = "feat"
 title = "Creative Armorsmith"
+aon = "FeatDisplay.aspx?ItemName=Creative%20Armorsmith"
 source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "creative_armorsmith", path = "json/feat03.json" },

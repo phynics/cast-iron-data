@@ -2,6 +2,7 @@
 id = "ref/trait/celestial-tracker"
 kind = "trait"
 title = "Celestial Tracker"
+aon = "TraitDisplay.aspx?ItemName=Celestial%20Tracker"
 source_ids = ["blood-of-angels"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "celestial_tracker", path = "json/traits05.json" },

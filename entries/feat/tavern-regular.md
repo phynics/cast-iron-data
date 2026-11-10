@@ -2,6 +2,7 @@
 id = "ref/feat/tavern-regular"
 kind = "feat"
 title = "Tavern Regular"
+aon = "FeatDisplay.aspx?ItemName=Tavern%20Regular"
 source_ids = ["inner-sea-taverns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tavern_regular", path = "json/feat16.json" },

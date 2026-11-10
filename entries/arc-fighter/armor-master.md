@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/armor-master"
 kind = "archetype"
 title = "Armor Master"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Armor%20Master"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "armor_master", path = "json/archetypes_fighter.json" },

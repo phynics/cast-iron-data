@@ -2,6 +2,7 @@
 id = "ref/monster/banshee"
 kind = "creature"
 title = "Banshee"
+aon = "MonsterDisplay.aspx?ItemName=Banshee"
 source_ids = ["bestiary-2", "pathfinder-17-a-memory-of-darkness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "banshee", path = "json/monsters03.json" },

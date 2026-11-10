@@ -2,6 +2,7 @@
 id = "ref/spell/planetary-adaptation-mass"
 kind = "spell"
 title = "Mass Planetary Adaptation"
+aon = "SpellDisplay.aspx?ItemName=Planetary%20Adaptation%2C%20Mass"
 source_ids = ["people-of-the-stars", "distant-worlds"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planetary_adaptation_mass", path = "json/spells7.json" },

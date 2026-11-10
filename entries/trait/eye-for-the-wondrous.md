@@ -2,6 +2,7 @@
 id = "ref/trait/eye-for-the-wondrous"
 kind = "trait"
 title = "Eye for the Wondrous"
+aon = "TraitDisplay.aspx?ItemName=Eye%20for%20the%20Wondrous"
 source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eye_for_the_wondrous", path = "json/traits01.json" },

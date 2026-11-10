@@ -2,6 +2,7 @@
 id = "ref/monster/goblin-goblin-firestarter"
 kind = "creature"
 title = "Goblin Firestarter"
+aon = "MonsterDisplay.aspx?ItemName=Goblin%20Firestarter"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "goblin_goblin_firestarter", path = "json/monsters12.json" },

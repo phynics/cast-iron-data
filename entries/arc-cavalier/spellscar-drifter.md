@@ -2,6 +2,7 @@
 id = "ref/arc-cavalier/spellscar-drifter"
 kind = "archetype"
 title = "Spellscar Drifter"
+aon = "ArchetypeDisplay.aspx?FixedName=Cavalier%20Spellscar%20Drifter"
 source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spellscar_drifter", path = "json/archetypes_cavalier.json" },

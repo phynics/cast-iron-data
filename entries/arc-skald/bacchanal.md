@@ -2,6 +2,7 @@
 id = "ref/arc-skald/bacchanal"
 kind = "archetype"
 title = "Bacchanal"
+aon = "ArchetypeDisplay.aspx?FixedName=Skald%20Bacchanal"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bacchanal", path = "json/archetypes_skald.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/destined-for-greatness"
 kind = "trait"
 title = "Destined for Greatness"
+aon = "TraitDisplay.aspx?ItemName=Destined%20for%20Greatness"
 source_ids = ["dungeoneers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "destined_for_greatness", path = "json/traits04.json" },

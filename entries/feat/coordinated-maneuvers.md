@@ -2,6 +2,7 @@
 id = "ref/feat/coordinated-maneuvers"
 kind = "feat"
 title = "Coordinated Maneuvers"
+aon = "FeatDisplay.aspx?ItemName=Coordinated%20Maneuvers"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "coordinated_maneuvers", path = "json/feat03.json" },

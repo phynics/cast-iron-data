@@ -2,6 +2,7 @@
 id = "ref/feat/empower-spell-like-ability"
 kind = "feat"
 title = "Empower Spell-Like Ability"
+aon = "FeatDisplay.aspx?ItemName=Empower%20Spell-Like%20Ability"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "empower_spell_like_ability", path = "json/feat05.json" },

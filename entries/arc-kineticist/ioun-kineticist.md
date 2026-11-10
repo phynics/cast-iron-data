@@ -2,6 +2,7 @@
 id = "ref/arc-kineticist/ioun-kineticist"
 kind = "archetype"
 title = "Ioun Kineticist"
+aon = "ArchetypeDisplay.aspx?FixedName=Kineticist%20Ioun%20Kineticist"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ioun_kineticist", path = "json/archetypes_kineticist.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-paladin/kraken-slayer"
 kind = "archetype"
 title = "Kraken Slayer"
+aon = "ArchetypeDisplay.aspx?FixedName=Paladin%20Kraken%20Slayer"
 source_ids = ["blood-of-the-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kraken_slayer", path = "json/archetypes_paladin.json" },

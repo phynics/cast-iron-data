@@ -2,6 +2,7 @@
 id = "ref/feat/disruptive-recall"
 kind = "feat"
 title = "Disruptive Recall"
+aon = "FeatDisplay.aspx?ItemName=Disruptive%20Recall"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disruptive_recall", path = "json/feat04.json" },

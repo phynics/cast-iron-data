@@ -2,6 +2,7 @@
 id = "ref/arc-psychic/magaambyan-telepath"
 kind = "archetype"
 title = "Magaambyan Telepath"
+aon = "ArchetypeDisplay.aspx?FixedName=Psychic%20Magaambyan%20Telepath"
 source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magaambyan_telepath", path = "json/archetypes_psychic.json" },

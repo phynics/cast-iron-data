@@ -2,6 +2,7 @@
 id = "ref/spell/unholy-sword"
 kind = "spell"
 title = "Unholy Sword"
+aon = "SpellDisplay.aspx?ItemName=Unholy%20Sword"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unholy_sword", path = "json/spells11.json" },

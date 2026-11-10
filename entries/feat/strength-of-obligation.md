@@ -2,6 +2,7 @@
 id = "ref/feat/strength-of-obligation"
 kind = "feat"
 title = "Strength of Obligation"
+aon = "FeatDisplay.aspx?ItemName=Strength%20of%20Obligation"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "strength_of_obligation", path = "json/feat15.json" },

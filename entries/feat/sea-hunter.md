@@ -2,6 +2,7 @@
 id = "ref/feat/sea-hunter"
 kind = "feat"
 title = "Sea Hunter"
+aon = "FeatDisplay.aspx?ItemName=Sea%20Hunter"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sea_hunter", path = "json/feat13.json" },

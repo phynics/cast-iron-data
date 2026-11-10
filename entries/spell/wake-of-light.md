@@ -2,6 +2,7 @@
 id = "ref/spell/wake-of-light"
 kind = "spell"
 title = "Wake of Light"
+aon = "SpellDisplay.aspx?ItemName=Wake%20of%20Light"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wake_of_light", path = "json/spells11.json" },

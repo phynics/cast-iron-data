@@ -2,6 +2,7 @@
 id = "ref/trait/eager-combatant"
 kind = "trait"
 title = "Eager Combatant"
+aon = "TraitDisplay.aspx?ItemName=Eager%20Combatant"
 source_ids = ["pirates-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eager_combatant", path = "json/traits04.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/lightning-lash-bomb-admixture"
 kind = "spell"
 title = "Lightning Lash Bomb Admixture"
+aon = "SpellDisplay.aspx?ItemName=Lightning%20Lash%20Bomb%20Admixture"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lightning_lash_bomb_admixture", path = "json/spells6.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/flounderer"
 kind = "trait"
 title = "Flounderer"
+aon = "TraitDisplay.aspx?ItemName=Flounderer"
 source_ids = ["goblins-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flounderer", path = "json/traits03.json" },

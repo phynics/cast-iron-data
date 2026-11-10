@@ -2,6 +2,7 @@
 id = "ref/spell/talismanic-implement"
 kind = "spell"
 title = "Talismanic Implement"
+aon = "SpellDisplay.aspx?ItemName=Talismanic%20Implement"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "talismanic_implement", path = "json/spells10.json" },

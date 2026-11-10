@@ -2,6 +2,7 @@
 id = "ref/magic-ring/dungeon-ring-prisoners"
 kind = "item"
 title = "Dungeon Ring (prisoner's)"
+aon = "MagicRingsDisplay.aspx?FinalName=Dungeon%20Ringprisoner%27s"
 source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dungeon_ring_prisoners", path = "json/magic_ring.json" },

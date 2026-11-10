@@ -2,6 +2,7 @@
 id = "ref/spell/maddening-oubliette"
 kind = "spell"
 title = "Maddening Oubliette"
+aon = "SpellDisplay.aspx?ItemName=Maddening%20Oubliette"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "maddening_oubliette", path = "json/spells6.json" },

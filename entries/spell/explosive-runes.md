@@ -2,6 +2,7 @@
 id = "ref/spell/explosive-runes"
 kind = "spell"
 title = "Explosive Runes"
+aon = "SpellDisplay.aspx?ItemName=Explosive%20Runes"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "explosive_runes", path = "json/spells4.json" },

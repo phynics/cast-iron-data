@@ -2,6 +2,7 @@
 id = "ref/monster/baetriov"
 kind = "creature"
 title = "Baetriov"
+aon = "MonsterDisplay.aspx?ItemName=Baetriov"
 source_ids = ["taldor-the-first-empire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "baetriov", path = "json/monsters03.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/yai-mimic-spell"
 kind = "feat"
 title = "Yai-Mimic Spell"
+aon = "FeatDisplay.aspx?ItemName=Yai-Mimic%20Spell"
 source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "yai_mimic_spell", path = "json/feat17.json" },

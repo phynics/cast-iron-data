@@ -2,6 +2,7 @@
 id = "ref/feat/improved-swap-places"
 kind = "feat"
 title = "Improved Swap Places"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Swap%20Places"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_swap_places", path = "json/feat09.json" },

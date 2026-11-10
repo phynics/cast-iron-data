@@ -2,6 +2,7 @@
 id = "ref/monster/animate-dream"
 kind = "creature"
 title = "Animate Dream"
+aon = "MonsterDisplay.aspx?ItemName=Animate%20Dream"
 source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animate_dream", path = "json/monsters02.json" },

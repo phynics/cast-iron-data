@@ -2,6 +2,7 @@
 id = "ref/trait/div-hunter"
 kind = "trait"
 title = "Div Hunter"
+aon = "TraitDisplay.aspx?ItemName=Div%20Hunter"
 source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "div_hunter", path = "json/traits04.json" },

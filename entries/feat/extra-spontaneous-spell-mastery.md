@@ -2,6 +2,7 @@
 id = "ref/feat/extra-spontaneous-spell-mastery"
 kind = "feat"
 title = "Extra Spontaneous Spell Mastery"
+aon = "FeatDisplay.aspx?ItemName=Extra%20Spontaneous%20Spell%20Mastery"
 source_ids = ["adventurers-guide", "arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extra_spontaneous_spell_mastery", path = "json/feat06.json" },

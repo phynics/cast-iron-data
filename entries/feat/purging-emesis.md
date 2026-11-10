@@ -2,6 +2,7 @@
 id = "ref/feat/purging-emesis"
 kind = "feat"
 title = "Purging Emesis"
+aon = "FeatDisplay.aspx?ItemName=Purging%20Emesis"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "purging_emesis", path = "json/feat12.json" },

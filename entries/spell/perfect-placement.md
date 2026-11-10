@@ -2,6 +2,7 @@
 id = "ref/spell/perfect-placement"
 kind = "spell"
 title = "Perfect Placement"
+aon = "SpellDisplay.aspx?ItemName=Perfect%20Placement"
 source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "perfect_placement", path = "json/spells7.json" },

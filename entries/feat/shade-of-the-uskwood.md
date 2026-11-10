@@ -2,6 +2,7 @@
 id = "ref/feat/shade-of-the-uskwood"
 kind = "feat"
 title = "Shade of the Uskwood"
+aon = "FeatDisplay.aspx?ItemName=Shade%20of%20the%20Uskwood"
 source_ids = ["inner-sea-world-guide", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shade_of_the_uskwood", path = "json/feat13.json" },

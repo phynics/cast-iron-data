@@ -2,6 +2,7 @@
 id = "ref/feat/ultimate-mercy"
 kind = "feat"
 title = "Ultimate Mercy"
+aon = "FeatDisplay.aspx?ItemName=Ultimate%20Mercy"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ultimate_mercy", path = "json/feat16.json" },

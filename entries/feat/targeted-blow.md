@@ -2,6 +2,7 @@
 id = "ref/feat/targeted-blow"
 kind = "feat"
 title = "Targeted Blow"
+aon = "FeatDisplay.aspx?ItemName=Targeted%20Blow"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "targeted_blow", path = "json/feat16.json" },

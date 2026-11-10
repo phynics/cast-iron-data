@@ -2,6 +2,7 @@
 id = "ref/spell/dust-ward"
 kind = "spell"
 title = "Dust Ward"
+aon = "SpellDisplay.aspx?ItemName=Dust%20Ward"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dust_ward", path = "json/spells13.json" },

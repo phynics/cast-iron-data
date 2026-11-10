@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-spell-knowledge-type-4"
 kind = "item"
 title = "Ring of Spell Knowledge (type IV)"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Spell%20Knowledgetype%20IV"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_spell_knowledge_type_4", path = "json/magic_ring.json" },

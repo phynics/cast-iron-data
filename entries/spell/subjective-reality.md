@@ -2,6 +2,7 @@
 id = "ref/spell/subjective-reality"
 kind = "spell"
 title = "Subjective Reality"
+aon = "SpellDisplay.aspx?ItemName=Subjective%20Reality"
 source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "subjective_reality", path = "json/spells16.json" },

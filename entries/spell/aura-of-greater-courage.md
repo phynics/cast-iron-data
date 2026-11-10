@@ -2,6 +2,7 @@
 id = "ref/spell/aura-of-greater-courage"
 kind = "spell"
 title = "Aura of Greater Courage"
+aon = "SpellDisplay.aspx?ItemName=Aura%20of%20Greater%20Courage"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aura_of_greater_courage", path = "json/spells.json" },

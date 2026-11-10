@@ -2,6 +2,7 @@
 id = "ref/arc-sorcerer/mongrel-mage"
 kind = "archetype"
 title = "Mongrel Mage"
+aon = "ArchetypeDisplay.aspx?FixedName=Sorcerer%20Mongrel%20Mage"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mongrel_mage", path = "json/archetypes_sorcerer.json" },

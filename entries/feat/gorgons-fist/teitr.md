@@ -2,6 +2,7 @@
 id = "ref/feat/gorgons-fist/teitr"
 kind = "feat"
 title = "Gorgon's Fist"
+aon = "FeatDisplay.aspx?ItemName=Gorgon%27s%20Fist"
 source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/gorgons-fist" },

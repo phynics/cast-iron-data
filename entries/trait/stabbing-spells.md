@@ -2,6 +2,7 @@
 id = "ref/trait/stabbing-spells"
 kind = "trait"
 title = "Stabbing Spells"
+aon = "TraitDisplay.aspx?ItemName=Stabbing%20Spells"
 source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stabbing_spells", path = "json/traits02.json" },

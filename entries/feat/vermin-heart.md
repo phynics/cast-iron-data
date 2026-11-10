@@ -2,6 +2,7 @@
 id = "ref/feat/vermin-heart"
 kind = "feat"
 title = "Vermin Heart"
+aon = "FeatDisplay.aspx?ItemName=Vermin%20Heart"
 source_ids = ["advanced-players-guide", "pathfinder-campaign-setting", "revenge-of-the-kobold-king"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vermin_heart", path = "json/feat17.json" },

@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/crystal-hypnosis-ball"
 kind = "item"
 title = "Crystal Hypnosis Ball"
+aon = "MagicCursedDisplay.aspx?ItemName=Crystal%20Hypnosis%20Ball"
 source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crystal_hypnosis_ball", path = "json/magic_wondrous_slotless02.json" },

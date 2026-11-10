@@ -2,6 +2,7 @@
 id = "ref/trait/underbridge-dweller"
 kind = "trait"
 title = "Underbridge Dweller"
+aon = "TraitDisplay.aspx?ItemName=Underbridge%20Dweller"
 source_ids = ["varisia-birthplace-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "underbridge_dweller", path = "json/traits04.json" },

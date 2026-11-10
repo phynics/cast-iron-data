@@ -2,6 +2,7 @@
 id = "ref/spell/extreme-buoyancy"
 kind = "spell"
 title = "Extreme Buoyancy"
+aon = "SpellDisplay.aspx?ItemName=Extreme%20Buoyancy"
 source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extreme_buoyancy", path = "json/spells4.json" },

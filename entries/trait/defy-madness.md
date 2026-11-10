@@ -2,6 +2,7 @@
 id = "ref/trait/defy-madness"
 kind = "trait"
 title = "Defy Madness"
+aon = "TraitDisplay.aspx?ItemName=Defy%20Madness"
 source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "defy_madness", path = "json/traits01.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/practiced-ritualist"
 kind = "feat"
 title = "Practiced Ritualist"
+aon = "FeatDisplay.aspx?ItemName=Practiced%20Ritualist"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "practiced_ritualist", path = "json/feat12.json" },

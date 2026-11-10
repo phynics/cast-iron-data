@@ -2,6 +2,7 @@
 id = "ref/trait/seasoned-climber"
 kind = "trait"
 title = "Seasoned Climber"
+aon = "TraitDisplay.aspx?ItemName=Seasoned%20Climber"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seasoned_climber", path = "json/traits04.json" },

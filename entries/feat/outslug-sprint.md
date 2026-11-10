@@ -2,6 +2,7 @@
 id = "ref/feat/outslug-sprint"
 kind = "feat"
 title = "Outslug Sprint"
+aon = "FeatDisplay.aspx?ItemName=Outslug%20Sprint"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "outslug_sprint", path = "json/feat11.json" },

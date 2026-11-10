@@ -2,6 +2,7 @@
 id = "ref/feat/scion-of-the-lost-empire"
 kind = "feat"
 title = "Scion of the Lost Empire"
+aon = "FeatDisplay.aspx?ItemName=Scion%20of%20the%20Lost%20Empire"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scion_of_the_lost_empire", path = "json/feat13.json" },

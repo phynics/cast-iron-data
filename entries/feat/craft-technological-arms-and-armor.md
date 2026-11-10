@@ -2,6 +2,7 @@
 id = "ref/feat/craft-technological-arms-and-armor"
 kind = "feat"
 title = "Craft Technological Arms and Armor"
+aon = "FeatDisplay.aspx?ItemName=Craft%20Technological%20Arms%20and%20Armor"
 source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "craft_technological_arms_and_armor", path = "json/feat03.json" },

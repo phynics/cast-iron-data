@@ -2,6 +2,7 @@
 id = "ref/feat/ricochet-shot-deed"
 kind = "feat"
 title = "Ricochet Shot Deed"
+aon = "FeatDisplay.aspx?ItemName=Ricochet%20Shot%20Deed"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ricochet_shot_deed", path = "json/feat13.json" },

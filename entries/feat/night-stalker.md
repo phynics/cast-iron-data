@@ -2,6 +2,7 @@
 id = "ref/feat/night-stalker"
 kind = "feat"
 title = "Night Stalker"
+aon = "FeatDisplay.aspx?ItemName=Night%20Stalker"
 source_ids = ["monster-codex", "classic-monsters-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "night_stalker", path = "json/feat11.json" },

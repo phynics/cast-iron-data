@@ -2,6 +2,7 @@
 id = "ref/spell/life-bubble"
 kind = "spell"
 title = "Life Bubble"
+aon = "SpellDisplay.aspx?ItemName=Life%20Bubble"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "life_bubble", path = "json/spells6.json" },

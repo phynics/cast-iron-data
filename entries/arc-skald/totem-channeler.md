@@ -2,6 +2,7 @@
 id = "ref/arc-skald/totem-channeler"
 kind = "archetype"
 title = "Totem Channeler"
+aon = "ArchetypeDisplay.aspx?FixedName=Skald%20Totem%20Channeler"
 source_ids = ["disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "totem_channeler", path = "json/archetypes_skald.json" },

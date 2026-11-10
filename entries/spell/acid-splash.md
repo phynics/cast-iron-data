@@ -2,6 +2,7 @@
 id = "ref/spell/acid-splash"
 kind = "spell"
 title = "Acid Splash"
+aon = "SpellDisplay.aspx?ItemName=Acid%20Splash"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "acid_splash", path = "json/spells.json" },

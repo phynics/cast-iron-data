@@ -2,6 +2,7 @@
 id = "ref/feat/countering-loophole"
 kind = "feat"
 title = "Countering Loophole"
+aon = "FeatDisplay.aspx?ItemName=Countering%20Loophole"
 source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "countering_loophole", path = "json/feat03.json" },

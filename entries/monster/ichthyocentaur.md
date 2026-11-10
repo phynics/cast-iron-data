@@ -2,6 +2,7 @@
 id = "ref/monster/ichthyocentaur"
 kind = "creature"
 title = "Ichthyocentaur"
+aon = "MonsterDisplay.aspx?ItemName=Ichthyocentaur"
 source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ichthyocentaur", path = "json/monsters14.json" },

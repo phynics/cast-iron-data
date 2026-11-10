@@ -2,6 +2,7 @@
 id = "ref/feat/ride-by-attack"
 kind = "feat"
 title = "Ride-By Attack"
+aon = "FeatDisplay.aspx?ItemName=Ride-By%20Attack"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ride_by_attack", path = "json/feat13.json" },

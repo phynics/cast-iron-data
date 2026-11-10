@@ -2,6 +2,7 @@
 id = "ref/feat/beacon-of-hope"
 kind = "feat"
 title = "Beacon of Hope"
+aon = "FeatDisplay.aspx?ItemName=Beacon%20of%20Hope"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beacon_of_hope", path = "json/feat02.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/diviners-delving"
 kind = "feat"
 title = "Diviner's Delving"
+aon = "FeatDisplay.aspx?ItemName=Diviner%27s%20Delving"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "diviners_delving", path = "json/feat05.json" },

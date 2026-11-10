@@ -2,6 +2,7 @@
 id = "ref/trait/transmuter-of-korada"
 kind = "trait"
 title = "Transmuter of Korada"
+aon = "TraitDisplay.aspx?ItemName=Transmuter%20of%20Korada"
 source_ids = ["champions-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "transmuter_of_korada", path = "json/traits02.json" },

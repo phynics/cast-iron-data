@@ -2,6 +2,7 @@
 id = "ref/monster/swan-maiden"
 kind = "creature"
 title = "Swan Maiden"
+aon = "MonsterDisplay.aspx?ItemName=Swan%20Maiden"
 source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swan_maiden", path = "json/monsters24.json" },

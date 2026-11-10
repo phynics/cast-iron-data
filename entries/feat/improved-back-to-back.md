@@ -2,6 +2,7 @@
 id = "ref/feat/improved-back-to-back"
 kind = "feat"
 title = "Improved Back to Back"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Back%20to%20Back"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_back_to_back", path = "json/feat08.json" },

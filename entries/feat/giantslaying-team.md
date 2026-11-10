@@ -2,6 +2,7 @@
 id = "ref/feat/giantslaying-team"
 kind = "feat"
 title = "Giantslaying Team"
+aon = "FeatDisplay.aspx?ItemName=Giantslaying%20Team"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giantslaying_team", path = "json/feat07.json" },

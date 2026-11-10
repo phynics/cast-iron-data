@@ -2,6 +2,7 @@
 id = "ref/trait/ancient-explorer"
 kind = "trait"
 title = "Ancient Explorer"
+aon = "TraitDisplay.aspx?ItemName=Ancient%20Explorer"
 source_ids = ["skull-and-shackles-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ancient_explorer", path = "json/traits03.json" },

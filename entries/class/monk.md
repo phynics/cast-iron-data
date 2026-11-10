@@ -2,6 +2,7 @@
 id = "ref/class/monk"
 kind = "class"
 title = "Monk"
+aon = "ClassDisplay.aspx?ItemName=Monk"
 source_ids = ["core-rulebook", "chronicle-of-legends", "blood-of-the-beast", "plane-hoppers-handbook", "advanced-race-guide", "blood-of-shadows", "blood-of-the-sea", "advanced-players-guide", "horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monk", path = "json/classes5.json" },

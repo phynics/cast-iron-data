@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/scarab-of-death"
 kind = "item"
 title = "Scarab of Death"
+aon = "MagicCursedDisplay.aspx?ItemName=Scarab%20of%20Death"
 source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scarab_of_death", path = "json/magic_wondrous_neck.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/charming-performance"
 kind = "feat"
 title = "Charming Performance"
+aon = "FeatDisplay.aspx?ItemName=Charming%20Performance"
 source_ids = ["cohorts-and-companions"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charming_performance", path = "json/feat03.json" },

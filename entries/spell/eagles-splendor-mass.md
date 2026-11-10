@@ -2,6 +2,7 @@
 id = "ref/spell/eagles-splendor-mass"
 kind = "spell"
 title = "Mass Eagle's Splendor"
+aon = "SpellDisplay.aspx?ItemName=Eagle%27s%20Splendor%2C%20Mass"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eagles_splendor_mass", path = "json/spells13.json" },

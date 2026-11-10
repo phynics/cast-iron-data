@@ -2,6 +2,7 @@
 id = "ref/spell/augmenting-wall"
 kind = "spell"
 title = "Augmenting Wall"
+aon = "SpellDisplay.aspx?ItemName=Augmenting%20Wall"
 source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "augmenting_wall", path = "json/spells.json" },

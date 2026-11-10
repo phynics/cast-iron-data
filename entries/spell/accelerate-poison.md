@@ -2,6 +2,7 @@
 id = "ref/spell/accelerate-poison"
 kind = "spell"
 title = "Accelerate Poison"
+aon = "SpellDisplay.aspx?ItemName=Accelerate%20Poison"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "accelerate_poison", path = "json/spells.json" },

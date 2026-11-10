@@ -2,6 +2,7 @@
 id = "ref/magic-weapon/ornery-pistol"
 kind = "item"
 title = "Ornery Pistol"
+aon = "MagicCursedDisplay.aspx?ItemName=Ornery%20Pistol"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ornery_pistol", path = "json/magic_weapon2.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/swamp-survivor"
 kind = "trait"
 title = "Swamp Survivor"
+aon = "TraitDisplay.aspx?ItemName=Swamp%20Survivor"
 source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swamp_survivor", path = "json/traits04.json" },

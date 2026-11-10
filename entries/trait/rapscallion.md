@@ -2,6 +2,7 @@
 id = "ref/trait/rapscallion"
 kind = "trait"
 title = "Rapscallion"
+aon = "TraitDisplay.aspx?ItemName=Rapscallion"
 source_ids = ["ultimate-campaign", "advanced-players-guide", "taldor-echoes-of-glory", "gnomes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rapscallion", path = "json/traits05.json" },

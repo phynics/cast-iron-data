@@ -2,6 +2,7 @@
 id = "ref/feat/cerberus-style"
 kind = "feat"
 title = "Cerberus Style"
+aon = "FeatDisplay.aspx?ItemName=Cerberus%20Style"
 source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cerberus_style", path = "json/feat02.json" },

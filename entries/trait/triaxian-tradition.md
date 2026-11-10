@@ -2,6 +2,7 @@
 id = "ref/trait/triaxian-tradition"
 kind = "trait"
 title = "Triaxian Tradition"
+aon = "TraitDisplay.aspx?ItemName=Triaxian%20Tradition"
 source_ids = ["people-of-the-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "triaxian_tradition", path = "json/traits04.json" },

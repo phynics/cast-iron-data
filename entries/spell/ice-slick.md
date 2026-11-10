@@ -2,6 +2,7 @@
 id = "ref/spell/ice-slick"
 kind = "spell"
 title = "Ice Slick"
+aon = "SpellDisplay.aspx?ItemName=Ice%20Slick"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ice_slick", path = "json/spells5.json" },

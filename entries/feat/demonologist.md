@@ -2,6 +2,7 @@
 id = "ref/feat/demonologist"
 kind = "feat"
 title = "Demonologist"
+aon = "FeatDisplay.aspx?ItemName=Demonologist"
 source_ids = ["pathfinder-74-sword-of-valor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demonologist", path = "json/feat04.json" },

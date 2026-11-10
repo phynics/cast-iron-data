@@ -2,6 +2,7 @@
 id = "ref/feat/rending-claws"
 kind = "feat"
 title = "Rending Claws"
+aon = "FeatDisplay.aspx?ItemName=Rending%20Claws"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rending_claws", path = "json/feat13.json" },

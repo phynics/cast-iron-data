@@ -2,6 +2,7 @@
 id = "ref/feat/scribe-spell-equation"
 kind = "feat"
 title = "Scribe Spell Equation"
+aon = "FeatDisplay.aspx?ItemName=Scribe%20Spell%20Equation"
 source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scribe_spell_equation", path = "json/feat13.json" },

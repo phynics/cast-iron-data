@@ -2,6 +2,7 @@
 id = "ref/monster/spellscar-fext"
 kind = "creature"
 title = "Spellscar Fext"
+aon = "MonsterDisplay.aspx?ItemName=Spellscar%20Fext"
 source_ids = ["inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spellscar_fext", path = "json/monsters22.json" },

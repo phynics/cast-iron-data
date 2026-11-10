@@ -2,6 +2,7 @@
 id = "ref/feat/toxic-spell"
 kind = "feat"
 title = "Toxic Spell"
+aon = "FeatDisplay.aspx?ItemName=Toxic%20Spell"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "toxic_spell", path = "json/feat16.json" },

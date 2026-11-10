@@ -2,6 +2,7 @@
 id = "ref/spell/polypurpose-panacea"
 kind = "spell"
 title = "Polypurpose Panacea"
+aon = "SpellDisplay.aspx?ItemName=Polypurpose%20Panacea"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "polypurpose_panacea", path = "json/spells14.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/sacred-pyromania"
 kind = "feat"
 title = "Sacred Pyromania"
+aon = "FeatDisplay.aspx?ItemName=Sacred%20Pyromania"
 source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sacred_pyromania", path = "json/feat13.json" },

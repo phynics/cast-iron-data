@@ -2,6 +2,7 @@
 id = "ref/spell/divine-arrow"
 kind = "spell"
 title = "Divine Arrow"
+aon = "SpellDisplay.aspx?ItemName=Divine%20Arrow"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divine_arrow", path = "json/spells13.json" },

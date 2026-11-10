@@ -2,6 +2,7 @@
 id = "ref/arc-warpriest/disenchanter"
 kind = "archetype"
 title = "Disenchanter"
+aon = "ArchetypeDisplay.aspx?FixedName=Warpriest%20Disenchanter"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disenchanter", path = "json/archetypes_warpriest.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/home-port"
 kind = "trait"
 title = "Home Port"
+aon = "TraitDisplay.aspx?ItemName=Home%20Port"
 source_ids = ["pirates-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "home_port", path = "json/traits04.json" },

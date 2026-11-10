@@ -2,6 +2,7 @@
 id = "ref/monster/troll-canopy-troll"
 kind = "creature"
 title = "Canopy Troll"
+aon = "MonsterDisplay.aspx?ItemName=Canopy%20Troll"
 source_ids = ["pathfinder-116-fangs-of-war"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "troll_canopy_troll", path = "json/monsters39.json" },

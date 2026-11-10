@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/nameless-shadow"
 kind = "archetype"
 title = "Nameless Shadow"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Nameless%20Shadow"
 source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nameless_shadow", path = "json/archetypes_rogue.json" },

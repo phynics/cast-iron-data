@@ -2,6 +2,7 @@
 id = "ref/carried/bestiary-2/monsters/elemental/ice/greater"
 kind = "creature"
 title = "Elemental, Ice, Greater"
+aon = "MonsterDisplay.aspx?ItemName=Greater%20Ice%20Elemental"
 source_ids = ["bestiary-2"]
 section = ["Monsters", "Elemental", "Ice"]
 tags = ["outsider", "air", "cold", "elemental", "extraplanar", "water", "huge"]

@@ -2,6 +2,7 @@
 id = "ref/monster/emperor-stag"
 kind = "creature"
 title = "Emperor Stag"
+aon = "MonsterDisplay.aspx?ItemName=Emperor%20Stag"
 source_ids = ["taldor-the-first-empire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "emperor_stag", path = "json/monsters42.json" },

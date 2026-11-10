@@ -2,6 +2,7 @@
 id = "ref/feat/dilettante"
 kind = "feat"
 title = "Dilettante"
+aon = "FeatDisplay.aspx?ItemName=Dilettante"
 source_ids = ["seekers-of-secrets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dilettante", path = "json/feat04.json" },

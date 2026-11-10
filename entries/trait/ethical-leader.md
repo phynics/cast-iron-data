@@ -2,6 +2,7 @@
 id = "ref/trait/ethical-leader"
 kind = "trait"
 title = "Ethical Leader"
+aon = "TraitDisplay.aspx?ItemName=Ethical%20Leader"
 source_ids = ["blood-of-angels"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ethical_leader", path = "json/traits05.json" },

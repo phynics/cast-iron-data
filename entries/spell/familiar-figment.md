@@ -2,6 +2,7 @@
 id = "ref/spell/familiar-figment"
 kind = "spell"
 title = "Familiar Figment"
+aon = "SpellDisplay.aspx?ItemName=Familiar%20Figment"
 source_ids = ["animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_figment", path = "json/spells4.json" },

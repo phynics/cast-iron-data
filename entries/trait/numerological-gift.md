@@ -2,6 +2,7 @@
 id = "ref/trait/numerological-gift"
 kind = "trait"
 title = "Numerological Gift"
+aon = "TraitDisplay.aspx?ItemName=Numerological%20Gift"
 source_ids = ["blood-of-the-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "numerological_gift", path = "json/traits05.json" },

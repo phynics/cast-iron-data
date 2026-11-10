@@ -2,6 +2,7 @@
 id = "ref/trait/practiced-deception"
 kind = "trait"
 title = "Practiced Deception"
+aon = "TraitDisplay.aspx?ItemName=Practiced%20Deception"
 source_ids = ["inner-sea-gods", "faiths-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "practiced_deception", path = "json/traits03.json" },

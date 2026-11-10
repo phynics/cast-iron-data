@@ -2,6 +2,7 @@
 id = "ref/spell/triggered-suggestion"
 kind = "spell"
 title = "Triggered Suggestion"
+aon = "SpellDisplay.aspx?ItemName=Triggered%20Suggestion"
 source_ids = ["core-rulebook", "blood-of-the-beast", "advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "triggered_suggestion", path = "json/spells16.json" },

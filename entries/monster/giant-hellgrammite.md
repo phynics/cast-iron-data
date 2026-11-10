@@ -2,6 +2,7 @@
 id = "ref/monster/giant-hellgrammite"
 kind = "creature"
 title = "Giant Hellgrammite"
+aon = "MonsterDisplay.aspx?ItemName=Giant%20Hellgrammite"
 source_ids = ["bestiary-6", "pathfinder-49-the-brinewall-legacy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_hellgrammite", path = "json/monsters11.json" },

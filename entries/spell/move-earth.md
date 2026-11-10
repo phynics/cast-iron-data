@@ -2,6 +2,7 @@
 id = "ref/spell/move-earth"
 kind = "spell"
 title = "Move Earth"
+aon = "SpellDisplay.aspx?ItemName=Move%20Earth"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "move_earth", path = "json/spells7.json" },

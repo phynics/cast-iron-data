@@ -2,6 +2,7 @@
 id = "ref/feat/intensified-spell"
 kind = "feat"
 title = "Intensified Spell"
+aon = "FeatDisplay.aspx?ItemName=Intensified%20Spell"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "intensified_spell", path = "json/feat09.json" },

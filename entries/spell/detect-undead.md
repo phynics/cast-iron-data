@@ -2,6 +2,7 @@
 id = "ref/spell/detect-undead"
 kind = "spell"
 title = "Detect Undead"
+aon = "SpellDisplay.aspx?ItemName=Detect%20Undead"
 source_ids = ["core-rulebook", "potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "detect_undead", path = "json/spells3.json" },

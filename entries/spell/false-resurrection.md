@@ -2,6 +2,7 @@
 id = "ref/spell/false-resurrection"
 kind = "spell"
 title = "False Resurrection"
+aon = "SpellDisplay.aspx?ItemName=False%20Resurrection"
 source_ids = ["core-rulebook", "ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "false_resurrection", path = "json/spells8.json" },

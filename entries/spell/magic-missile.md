@@ -2,6 +2,7 @@
 id = "ref/spell/magic-missile"
 kind = "spell"
 title = "Magic Missile"
+aon = "SpellDisplay.aspx?ItemName=Magic%20Missile"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_missile", path = "json/spells6.json" },

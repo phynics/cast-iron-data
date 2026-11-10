@@ -2,6 +2,7 @@
 id = "ref/spell/summon-accuser"
 kind = "spell"
 title = "Summon Accuser"
+aon = "SpellDisplay.aspx?ItemName=Summon%20Accuser"
 source_ids = ["rival-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summon_accuser", path = "json/spells16.json" },

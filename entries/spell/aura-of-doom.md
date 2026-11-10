@@ -2,6 +2,7 @@
 id = "ref/spell/aura-of-doom"
 kind = "spell"
 title = "Aura of Doom"
+aon = "SpellDisplay.aspx?ItemName=Aura%20of%20Doom"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aura_of_doom", path = "json/spells.json" },

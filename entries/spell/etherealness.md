@@ -2,6 +2,7 @@
 id = "ref/spell/etherealness"
 kind = "spell"
 title = "Etherealness"
+aon = "SpellDisplay.aspx?ItemName=Etherealness"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "etherealness", path = "json/spells4.json" },

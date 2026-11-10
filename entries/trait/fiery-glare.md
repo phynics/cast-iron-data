@@ -2,6 +2,7 @@
 id = "ref/trait/fiery-glare"
 kind = "trait"
 title = "Fiery Glare"
+aon = "TraitDisplay.aspx?ItemName=Fiery%20Glare"
 source_ids = ["bastards-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fiery_glare", path = "json/traits05.json" },

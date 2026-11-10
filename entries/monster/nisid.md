@@ -2,6 +2,7 @@
 id = "ref/monster/nisid"
 kind = "creature"
 title = "Nisid"
+aon = "MonsterDisplay.aspx?ItemName=Nisid"
 source_ids = ["pathfinder-122-into-the-shattered-continent"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nisid", path = "json/monsters36.json" },

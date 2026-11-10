@@ -2,6 +2,7 @@
 id = "ref/trait/enchanting-conniver"
 kind = "trait"
 title = "Enchanting Conniver"
+aon = "TraitDisplay.aspx?ItemName=Enchanting%20Conniver"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enchanting_conniver", path = "json/traits03.json" },

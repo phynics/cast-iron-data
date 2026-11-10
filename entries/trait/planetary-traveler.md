@@ -2,6 +2,7 @@
 id = "ref/trait/planetary-traveler"
 kind = "trait"
 title = "Planetary Traveler"
+aon = "TraitDisplay.aspx?ItemName=Planetary%20Traveler"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planetary_traveler", path = "json/traits05.json" },

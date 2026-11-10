@@ -2,6 +2,7 @@
 id = "ref/trait/holdout"
 kind = "trait"
 title = "Holdout"
+aon = "TraitDisplay.aspx?ItemName=Holdout"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "holdout", path = "json/traits01.json" },

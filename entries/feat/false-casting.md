@@ -2,6 +2,7 @@
 id = "ref/feat/false-casting"
 kind = "feat"
 title = "False Casting"
+aon = "FeatDisplay.aspx?ItemName=False%20Casting"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "false_casting", path = "json/feat06.json" },

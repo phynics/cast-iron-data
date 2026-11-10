@@ -2,6 +2,7 @@
 id = "ref/feat/body-shield"
 kind = "feat"
 title = "Body Shield"
+aon = "FeatDisplay.aspx?ItemName=Body%20Shield"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "body_shield", path = "json/feat02.json" },

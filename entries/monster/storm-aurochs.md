@@ -2,6 +2,7 @@
 id = "ref/monster/storm-aurochs"
 kind = "creature"
 title = "Storm Aurochs"
+aon = "MonsterDisplay.aspx?ItemName=Storm%20Aurochs"
 source_ids = ["pathfinder-96-shadow-of-the-storm-tyrant"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "storm_aurochs", path = "json/monsters38.json" },

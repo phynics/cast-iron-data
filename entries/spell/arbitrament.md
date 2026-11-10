@@ -2,6 +2,7 @@
 id = "ref/spell/arbitrament"
 kind = "spell"
 title = "Arbitrament"
+aon = "SpellDisplay.aspx?ItemName=Arbitrament"
 source_ids = ["planar-adventures", "champions-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arbitrament", path = "json/spells.json" },

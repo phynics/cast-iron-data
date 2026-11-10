@@ -2,6 +2,7 @@
 id = "ref/monster/hag-ash-hag"
 kind = "creature"
 title = "Ash Hag"
+aon = "MonsterDisplay.aspx?ItemName=Ash%20Hag"
 source_ids = ["cheliax-the-infernal-empire", "blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hag_ash_hag", path = "json/monsters33.json" },

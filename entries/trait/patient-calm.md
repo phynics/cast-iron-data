@@ -2,6 +2,7 @@
 id = "ref/trait/patient-calm"
 kind = "trait"
 title = "Patient Calm"
+aon = "TraitDisplay.aspx?ItemName=Patient%20Calm"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "patient_calm", path = "json/traits01.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/wall-of-split-illumination"
 kind = "spell"
 title = "Wall of Split Illumination"
+aon = "SpellDisplay.aspx?ItemName=Wall%20of%20Split%20Illumination"
 source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wall_of_split_illumination", path = "json/spells11.json" },

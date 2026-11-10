@@ -2,6 +2,7 @@
 id = "ref/spell/prismatic-spray"
 kind = "spell"
 title = "Prismatic Spray"
+aon = "SpellDisplay.aspx?ItemName=Prismatic%20Spray"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prismatic_spray", path = "json/spells14.json" },

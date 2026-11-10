@@ -2,6 +2,7 @@
 id = "ref/feat/scouting-summons"
 kind = "feat"
 title = "Scouting Summons"
+aon = "FeatDisplay.aspx?ItemName=Scouting%20Summons"
 source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scouting_summons", path = "json/feat13.json" },

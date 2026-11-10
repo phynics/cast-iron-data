@@ -2,6 +2,7 @@
 id = "ref/feat/pinpoint-jab"
 kind = "feat"
 title = "Pinpoint Jab"
+aon = "FeatDisplay.aspx?ItemName=Pinpoint%20Jab"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pinpoint_jab", path = "json/feat12.json" },

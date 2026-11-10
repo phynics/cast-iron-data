@@ -2,6 +2,7 @@
 id = "ref/spell/ravens-flight"
 kind = "spell"
 title = "Raven's Flight"
+aon = "SpellDisplay.aspx?ItemName=Raven%27s%20Flight"
 source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ravens_flight", path = "json/spells8.json" },

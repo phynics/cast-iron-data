@@ -2,6 +2,7 @@
 id = "ref/feat/expanded-spell-kenning"
 kind = "feat"
 title = "Expanded Spell Kenning"
+aon = "FeatDisplay.aspx?ItemName=Expanded%20Spell%20Kenning"
 source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "expanded_spell_kenning", path = "json/feat06.json" },

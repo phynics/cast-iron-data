@@ -2,6 +2,7 @@
 id = "ref/spell/curse-of-night"
 kind = "spell"
 title = "Curse of Night"
+aon = "SpellDisplay.aspx?ItemName=Curse%20of%20Night"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "curse_of_night", path = "json/spells3.json" },

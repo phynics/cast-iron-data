@@ -2,6 +2,7 @@
 id = "ref/feat/deadly-finish"
 kind = "feat"
 title = "Deadly Finish"
+aon = "FeatDisplay.aspx?ItemName=Deadly%20Finish"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deadly_finish", path = "json/feat04.json" },

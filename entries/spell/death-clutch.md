@@ -2,6 +2,7 @@
 id = "ref/spell/death-clutch"
 kind = "spell"
 title = "Death Clutch"
+aon = "SpellDisplay.aspx?ItemName=Death%20Clutch"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "death_clutch", path = "json/spells3.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/fascinated-by-the-mundane"
 kind = "feat"
 title = "Fascinated by the Mundane"
+aon = "FeatDisplay.aspx?ItemName=Fascinated%20by%20the%20Mundane"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fascinated_by_the_mundane", path = "json/feat06.json" },

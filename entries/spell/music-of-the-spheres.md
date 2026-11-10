@@ -2,6 +2,7 @@
 id = "ref/spell/music-of-the-spheres"
 kind = "spell"
 title = "Music of the Spheres"
+aon = "SpellDisplay.aspx?ItemName=Music%20of%20the%20Spheres"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "music_of_the_spheres", path = "json/spells7.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/ancestral-scorn"
 kind = "feat"
 title = "Ancestral Scorn"
+aon = "FeatDisplay.aspx?ItemName=Ancestral%20Scorn"
 source_ids = ["blood-of-fiends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ancestral_scorn", path = "json/feat01.json" },

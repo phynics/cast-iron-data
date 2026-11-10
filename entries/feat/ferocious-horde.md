@@ -2,6 +2,7 @@
 id = "ref/feat/ferocious-horde"
 kind = "feat"
 title = "Ferocious Horde"
+aon = "FeatDisplay.aspx?ItemName=Ferocious%20Horde"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ferocious_horde", path = "json/feat07.json" },

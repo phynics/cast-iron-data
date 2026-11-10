@@ -2,6 +2,7 @@
 id = "ref/feat/deft-shootist"
 kind = "feat"
 title = "Deft Shootist"
+aon = "FeatDisplay.aspx?ItemName=Deft%20Shootist"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deft_shootist", path = "json/feat04.json" },

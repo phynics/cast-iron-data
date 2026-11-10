@@ -2,6 +2,7 @@
 id = "ref/arc-bard/averaka-arbiter"
 kind = "archetype"
 title = "Averaka Arbiter"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Averaka%20Arbiter"
 source_ids = ["bastards-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "averaka_arbiter", path = "json/archetypes_bard.json" },

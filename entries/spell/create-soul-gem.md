@@ -2,6 +2,7 @@
 id = "ref/spell/create-soul-gem"
 kind = "spell"
 title = "Create Soul Gem"
+aon = "SpellDisplay.aspx?ItemName=Create%20Soul%20Gem"
 source_ids = ["book-of-the-damned", "book-of-the-damned-volume-3-horsemen-of-the-apocalypse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "create_soul_gem", path = "json/spells3.json" },

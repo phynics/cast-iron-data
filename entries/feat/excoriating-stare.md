@@ -2,6 +2,7 @@
 id = "ref/feat/excoriating-stare"
 kind = "feat"
 title = "Excoriating Stare"
+aon = "FeatDisplay.aspx?ItemName=Excoriating%20Stare"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "excoriating_stare", path = "json/feat06.json" },

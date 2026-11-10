@@ -2,6 +2,7 @@
 id = "ref/trait/relentless-duty"
 kind = "trait"
 title = "Relentless Duty"
+aon = "TraitDisplay.aspx?ItemName=Relentless%20Duty"
 source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "relentless_duty", path = "json/traits03.json" },

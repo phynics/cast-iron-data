@@ -2,6 +2,7 @@
 id = "ref/spell/innocuous-shape"
 kind = "spell"
 title = "Innocuous Shape"
+aon = "SpellDisplay.aspx?ItemName=Innocuous%20Shape"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "innocuous_shape", path = "json/spells14.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/torch-handling"
 kind = "feat"
 title = "Torch Handling"
+aon = "FeatDisplay.aspx?ItemName=Torch%20Handling"
 source_ids = ["dungeoneers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "torch_handling", path = "json/feat16.json" },

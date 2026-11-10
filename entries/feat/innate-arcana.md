@@ -2,6 +2,7 @@
 id = "ref/feat/innate-arcana"
 kind = "feat"
 title = "Innate Arcana"
+aon = "FeatDisplay.aspx?ItemName=Innate%20Arcana"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "innate_arcana", path = "json/feat09.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/tight-bonds"
 kind = "trait"
 title = "Tight Bonds"
+aon = "TraitDisplay.aspx?ItemName=Tight%20Bonds"
 source_ids = ["cohorts-and-companions"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tight_bonds", path = "json/traits03.json" },

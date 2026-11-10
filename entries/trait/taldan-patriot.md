@@ -2,6 +2,7 @@
 id = "ref/trait/taldan-patriot"
 kind = "trait"
 title = "Taldan Patriot"
+aon = "TraitDisplay.aspx?ItemName=Taldan%20Patriot"
 source_ids = ["war-for-the-crown-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "taldan_patriot", path = "json/traits03.json" },

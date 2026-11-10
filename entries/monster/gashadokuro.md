@@ -2,6 +2,7 @@
 id = "ref/monster/gashadokuro"
 kind = "creature"
 title = "Gashadokuro"
+aon = "MonsterDisplay.aspx?ItemName=Gashadokuro"
 source_ids = ["bestiary-4", "pathfinder-54-the-empty-throne"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gashadokuro", path = "json/monsters11.json" },

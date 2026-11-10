@@ -2,6 +2,7 @@
 id = "ref/spell/calamitous-flailing"
 kind = "spell"
 title = "Calamitous Flailing"
+aon = "SpellDisplay.aspx?ItemName=Calamitous%20Flailing"
 source_ids = ["blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "calamitous_flailing", path = "json/spells2.json" },

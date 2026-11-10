@@ -2,6 +2,7 @@
 id = "ref/trait/coin-hoarder"
 kind = "trait"
 title = "Coin Hoarder"
+aon = "TraitDisplay.aspx?ItemName=Coin%20Hoarder"
 source_ids = ["dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "coin_hoarder", path = "json/traits04.json" },

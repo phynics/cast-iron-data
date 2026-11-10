@@ -2,6 +2,7 @@
 id = "ref/spell/deadly-juggernaut"
 kind = "spell"
 title = "Deadly Juggernaut"
+aon = "SpellDisplay.aspx?ItemName=Deadly%20Juggernaut"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deadly_juggernaut", path = "json/spells3.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/summon-ancestral-guardian"
 kind = "spell"
 title = "Summon Ancestral Guardian"
+aon = "SpellDisplay.aspx?ItemName=Summon%20Ancestral%20Guardian"
 source_ids = ["dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summon_ancestral_guardian", path = "json/spells16.json" },

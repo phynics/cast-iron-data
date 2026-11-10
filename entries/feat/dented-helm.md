@@ -2,6 +2,7 @@
 id = "ref/feat/dented-helm"
 kind = "feat"
 title = "Dented Helm"
+aon = "FeatDisplay.aspx?ItemName=Dented%20Helm"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dented_helm", path = "json/feat04.json" },

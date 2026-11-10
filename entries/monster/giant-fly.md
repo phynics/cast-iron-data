@@ -2,6 +2,7 @@
 id = "ref/monster/giant-fly"
 kind = "creature"
 title = "Giant Fly"
+aon = "MonsterDisplay.aspx?ItemName=Giant%20Fly"
 source_ids = ["bestiary-2", "pathfinder-8-seven-days-to-the-grave"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_fly", path = "json/monsters11.json" },

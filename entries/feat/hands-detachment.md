@@ -2,6 +2,7 @@
 id = "ref/feat/hands-detachment"
 kind = "feat"
 title = "Hand's Detachment"
+aon = "FeatDisplay.aspx?ItemName=Hand%27s%20Detachment"
 source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hands_detachment", path = "json/feat08.json" },

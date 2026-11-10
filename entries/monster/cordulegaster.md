@@ -2,6 +2,7 @@
 id = "ref/monster/cordulegaster"
 kind = "creature"
 title = "Cordulegaster"
+aon = "MonsterDisplay.aspx?ItemName=Cordulegaster"
 source_ids = ["pathfinder-98-turn-of-the-torrent"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cordulegaster", path = "json/monsters28.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/comprehend-languages"
 kind = "spell"
 title = "Comprehend Languages"
+aon = "SpellDisplay.aspx?ItemName=Comprehend%20Languages"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "comprehend_languages", path = "json/spells12.json" },

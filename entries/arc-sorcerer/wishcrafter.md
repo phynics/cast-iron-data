@@ -2,6 +2,7 @@
 id = "ref/arc-sorcerer/wishcrafter"
 kind = "archetype"
 title = "Wishcrafter"
+aon = "ArchetypeDisplay.aspx?FixedName=Sorcerer%20Wishcrafter"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wishcrafter", path = "json/archetypes_sorcerer.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/foe-of-the-strange"
 kind = "trait"
 title = "Foe of the Strange"
+aon = "TraitDisplay.aspx?ItemName=Foe%20of%20the%20Strange"
 source_ids = ["strange-aeons-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "foe_of_the_strange", path = "json/traits03.json" },

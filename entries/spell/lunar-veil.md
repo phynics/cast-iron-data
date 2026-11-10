@@ -2,6 +2,7 @@
 id = "ref/spell/lunar-veil"
 kind = "spell"
 title = "Lunar Veil"
+aon = "SpellDisplay.aspx?ItemName=Lunar%20Veil"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lunar_veil", path = "json/spells6.json" },

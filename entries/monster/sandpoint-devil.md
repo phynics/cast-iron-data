@@ -2,6 +2,7 @@
 id = "ref/monster/sandpoint-devil"
 kind = "creature"
 title = "Sandpoint Devil"
+aon = "MonsterDisplay.aspx?ItemName=Sandpoint%20Devil"
 source_ids = ["inner-sea-world-guide", "mystery-monsters-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sandpoint_devil", path = "json/monsters_unique3.json" },

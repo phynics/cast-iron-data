@@ -2,6 +2,7 @@
 id = "ref/spell/psychic-crush-3"
 kind = "spell"
 title = "Psychic Crush III"
+aon = "SpellDisplay.aspx?ItemName=Psychic%20Crush%20III"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychic_crush_3", path = "json/spells15.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/countless-eyes"
 kind = "spell"
 title = "Countless Eyes"
+aon = "SpellDisplay.aspx?ItemName=Countless%20Eyes"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "countless_eyes", path = "json/spells12.json" },

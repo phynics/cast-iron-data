@@ -2,6 +2,7 @@
 id = "ref/magic-enh/bane"
 kind = "item"
 title = "Bane"
+aon = "MagicWeaponsDisplay.aspx?ItemName=Bane"
 source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bane", path = "json/magic_enhancements.json" },

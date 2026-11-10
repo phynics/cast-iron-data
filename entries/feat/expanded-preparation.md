@@ -2,6 +2,7 @@
 id = "ref/feat/expanded-preparation"
 kind = "feat"
 title = "Expanded Preparation"
+aon = "FeatDisplay.aspx?ItemName=Expanded%20Preparation"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "expanded_preparation", path = "json/feat06.json" },

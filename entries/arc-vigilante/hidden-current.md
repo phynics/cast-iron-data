@@ -2,6 +2,7 @@
 id = "ref/arc-vigilante/hidden-current"
 kind = "archetype"
 title = "Hidden Current"
+aon = "ArchetypeDisplay.aspx?FixedName=Vigilante%20Hidden%20Current"
 source_ids = ["blood-of-the-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hidden_current", path = "json/archetypes_vigilante.json" },

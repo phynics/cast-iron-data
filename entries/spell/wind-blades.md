@@ -2,6 +2,7 @@
 id = "ref/spell/wind-blades"
 kind = "spell"
 title = "Wind Blades"
+aon = "SpellDisplay.aspx?ItemName=Wind%20Blades"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wind_blades", path = "json/spells16.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/devotee-of-the-old-gods"
 kind = "trait"
 title = "Devotee of the Old Gods"
+aon = "TraitDisplay.aspx?ItemName=Devotee%20of%20the%20Old%20Gods"
 source_ids = ["mummys-mask-players-guide", "people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devotee_of_the_old_gods", path = "json/traits02.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/track-ship"
 kind = "spell"
 title = "Track Ship"
+aon = "SpellDisplay.aspx?ItemName=Track%20Ship"
 source_ids = ["pirates-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "track_ship", path = "json/spells10.json" },

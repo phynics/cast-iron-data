@@ -2,6 +2,7 @@
 id = "ref/monster/yethazmari"
 kind = "creature"
 title = "Yethazmari"
+aon = "MonsterDisplay.aspx?ItemName=Yethazmari"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "yethazmari", path = "json/monsters_unique4.json" },

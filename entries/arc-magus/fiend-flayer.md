@@ -2,6 +2,7 @@
 id = "ref/arc-magus/fiend-flayer"
 kind = "archetype"
 title = "Fiend Flayer"
+aon = "ArchetypeDisplay.aspx?FixedName=Magus%20Fiend%20Flayer"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fiend_flayer", path = "json/archetypes_magus.json" },

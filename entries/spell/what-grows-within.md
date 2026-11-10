@@ -2,6 +2,7 @@
 id = "ref/spell/what-grows-within"
 kind = "spell"
 title = "What Grows Within"
+aon = "SpellDisplay.aspx?ItemName=What%20Grows%20Within"
 source_ids = ["pathfinder-113-what-grows-within"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "what_grows_within", path = "json/spells11.json" },

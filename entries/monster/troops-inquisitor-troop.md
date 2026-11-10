@@ -2,6 +2,7 @@
 id = "ref/monster/troops-inquisitor-troop"
 kind = "creature"
 title = "Inquisitor Troop"
+aon = "MonsterDisplay.aspx?ItemName=Inquisitor%20Troop"
 source_ids = ["pathfinder-100-a-song-of-silver"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "troops_inquisitor_troop", path = "json/monsters24.json" },

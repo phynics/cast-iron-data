@@ -2,6 +2,7 @@
 id = "ref/spell/align-weapon"
 kind = "spell"
 title = "Align Weapon"
+aon = "SpellDisplay.aspx?ItemName=Align%20Weapon"
 source_ids = ["core-rulebook", "advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "align_weapon", path = "json/spells.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/planar-binding-greater"
 kind = "spell"
 title = "Greater Planar Binding"
+aon = "SpellDisplay.aspx?ItemName=Planar%20Binding%2C%20Greater"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planar_binding_greater", path = "json/spells7.json" },

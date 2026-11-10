@@ -2,6 +2,7 @@
 id = "ref/trait/diabolist-raised"
 kind = "trait"
 title = "Diabolist Raised"
+aon = "TraitDisplay.aspx?ItemName=Diabolist%20Raised"
 source_ids = ["council-of-thieves-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "diabolist_raised", path = "json/traits02.json" },

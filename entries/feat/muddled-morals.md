@@ -2,6 +2,7 @@
 id = "ref/feat/muddled-morals"
 kind = "feat"
 title = "Muddled Morals"
+aon = "FeatDisplay.aspx?ItemName=Muddled%20Morals"
 source_ids = ["inner-sea-taverns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "muddled_morals", path = "json/feat11.json" },

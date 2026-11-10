@@ -2,6 +2,7 @@
 id = "ref/feat/stone-cover"
 kind = "feat"
 title = "Stone Cover"
+aon = "FeatDisplay.aspx?ItemName=Stone%20Cover"
 source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stone_cover", path = "json/feat15.json" },

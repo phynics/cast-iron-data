@@ -2,6 +2,7 @@
 id = "ref/monster/robot-terraformer-robot"
 kind = "creature"
 title = "Terraformer Robot"
+aon = "MonsterDisplay.aspx?ItemName=Terraformer%20Robot"
 source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "robot_terraformer_robot", path = "json/monsters20.json" },

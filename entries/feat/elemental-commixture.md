@@ -2,6 +2,7 @@
 id = "ref/feat/elemental-commixture"
 kind = "feat"
 title = "Elemental Commixture"
+aon = "FeatDisplay.aspx?ItemName=Elemental%20Commixture"
 source_ids = ["blood-of-the-elements"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_commixture", path = "json/feat05.json" },

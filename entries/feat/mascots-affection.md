@@ -2,6 +2,7 @@
 id = "ref/feat/mascots-affection"
 kind = "feat"
 title = "Mascot's Affection"
+aon = "FeatDisplay.aspx?ItemName=Mascot%27s%20Affection"
 source_ids = ["familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mascots_affection", path = "json/feat10.json" },

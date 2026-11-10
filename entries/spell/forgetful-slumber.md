@@ -2,6 +2,7 @@
 id = "ref/spell/forgetful-slumber"
 kind = "spell"
 title = "Forgetful Slumber"
+aon = "SpellDisplay.aspx?ItemName=Forgetful%20Slumber"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "forgetful_slumber", path = "json/spells13.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/unraveler-of-secrets"
 kind = "feat"
 title = "Unraveler of Secrets"
+aon = "FeatDisplay.aspx?ItemName=Unraveler%20of%20Secrets"
 source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unraveler_of_secrets", path = "json/feat16.json" },

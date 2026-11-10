@@ -2,6 +2,7 @@
 id = "ref/spell/shadowy-haven"
 kind = "spell"
 title = "Shadowy Haven"
+aon = "SpellDisplay.aspx?ItemName=Shadowy%20Haven"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadowy_haven", path = "json/spells15.json" },

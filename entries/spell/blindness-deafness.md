@@ -2,6 +2,7 @@
 id = "ref/spell/blindness-deafness"
 kind = "spell"
 title = "Blindness/Deafness"
+aon = "SpellDisplay.aspx?ItemName=Blindness%2FDeafness"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blindness_deafness", path = "json/spells2.json" },

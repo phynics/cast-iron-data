@@ -2,6 +2,7 @@
 id = "ref/trait/portentous-perception"
 kind = "trait"
 title = "Portentous Perception"
+aon = "TraitDisplay.aspx?ItemName=Portentous%20Perception"
 source_ids = ["varisia-birthplace-of-legends", "second-darkness-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "portentous_perception", path = "json/traits02.json" },

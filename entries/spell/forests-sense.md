@@ -2,6 +2,7 @@
 id = "ref/spell/forests-sense"
 kind = "spell"
 title = "Forest's Sense"
+aon = "SpellDisplay.aspx?ItemName=Forest%27s%20Sense"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "forests_sense", path = "json/spells13.json" },

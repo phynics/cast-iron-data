@@ -2,6 +2,7 @@
 id = "ref/carried/bestiary-4/monsters/zombie-lord"
 kind = "creature"
 title = "Zombie Lord"
+aon = "MonsterDisplay.aspx?ItemName=Zombie%20Lord"
 source_ids = ["bestiary-4"]
 section = ["Monsters"]
 tags = ["undead", "medium"]

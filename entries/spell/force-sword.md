@@ -2,6 +2,7 @@
 id = "ref/spell/force-sword"
 kind = "spell"
 title = "Force Sword"
+aon = "SpellDisplay.aspx?ItemName=Force%20Sword"
 source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "force_sword", path = "json/spells13.json" },

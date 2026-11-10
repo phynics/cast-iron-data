@@ -2,6 +2,7 @@
 id = "ref/spell/heart-of-the-metal"
 kind = "spell"
 title = "Heart of the Metal"
+aon = "SpellDisplay.aspx?ItemName=Heart%20of%20the%20Metal"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heart_of_the_metal", path = "json/spells5.json" },

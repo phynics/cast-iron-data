@@ -2,6 +2,7 @@
 id = "ref/monster/shark-hammerhead-shark"
 kind = "creature"
 title = "Hammerhead Shark"
+aon = "MonsterDisplay.aspx?ItemName=Hammerhead%20Shark"
 source_ids = ["pathfinder-57-tempest-rising"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shark_hammerhead_shark", path = "json/monsters38.json" },

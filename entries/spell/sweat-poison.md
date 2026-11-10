@@ -2,6 +2,7 @@
 id = "ref/spell/sweat-poison"
 kind = "spell"
 title = "Sweat Poison"
+aon = "SpellDisplay.aspx?ItemName=Sweat%20Poison"
 source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sweat_poison", path = "json/spells10.json" },

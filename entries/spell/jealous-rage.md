@@ -2,6 +2,7 @@
 id = "ref/spell/jealous-rage"
 kind = "spell"
 title = "Jealous Rage"
+aon = "SpellDisplay.aspx?ItemName=Jealous%20Rage"
 source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jealous_rage", path = "json/spells6.json" },

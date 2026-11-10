@@ -2,6 +2,7 @@
 id = "ref/feat/secured-armor"
 kind = "feat"
 title = "Secured Armor"
+aon = "FeatDisplay.aspx?ItemName=Secured%20Armor"
 source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "secured_armor", path = "json/feat13.json" },

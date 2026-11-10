@@ -2,6 +2,7 @@
 id = "ref/spell/pox-of-rumors"
 kind = "spell"
 title = "Pox of Rumors"
+aon = "SpellDisplay.aspx?ItemName=Pox%20of%20Rumors"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pox_of_rumors", path = "json/spells14.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/touch-of-combustion"
 kind = "spell"
 title = "Touch of Combustion"
+aon = "SpellDisplay.aspx?ItemName=Touch%20of%20Combustion"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "touch_of_combustion", path = "json/spells10.json" },

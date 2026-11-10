@@ -2,6 +2,7 @@
 id = "ref/spell/wooden-wing-shield"
 kind = "spell"
 title = "Wooden Wing Shield"
+aon = "SpellDisplay.aspx?ItemName=Wooden%20Wing%20Shield"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wooden_wing_shield", path = "json/spells16.json" },

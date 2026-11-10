@@ -2,6 +2,7 @@
 id = "ref/feat/deathless-initiate"
 kind = "feat"
 title = "Deathless Initiate"
+aon = "FeatDisplay.aspx?ItemName=Deathless%20Initiate"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deathless_initiate", path = "json/feat04.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/restless-wayfarer"
 kind = "trait"
 title = "Restless Wayfarer"
+aon = "TraitDisplay.aspx?ItemName=Restless%20Wayfarer"
 source_ids = ["reign-of-winter-players-guide", "people-of-the-north"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "restless_wayfarer", path = "json/traits02.json" },

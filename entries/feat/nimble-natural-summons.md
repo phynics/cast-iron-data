@@ -2,6 +2,7 @@
 id = "ref/feat/nimble-natural-summons"
 kind = "feat"
 title = "Nimble Natural Summons"
+aon = "FeatDisplay.aspx?ItemName=Nimble%20Natural%20Summons"
 source_ids = ["inner-sea-gods", "faiths-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nimble_natural_summons", path = "json/feat11.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-vigilante/bellflower-harvester"
 kind = "archetype"
 title = "Bellflower Harvester"
+aon = "ArchetypeDisplay.aspx?FixedName=Vigilante%20Bellflower%20Harvester"
 source_ids = ["adventurers-guide", "spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bellflower_harvester", path = "json/archetypes_vigilante.json" },

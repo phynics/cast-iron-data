@@ -2,6 +2,7 @@
 id = "ref/monster/black-shuck"
 kind = "creature"
 title = "Black Shuck"
+aon = "MonsterDisplay.aspx?ItemName=Black%20Shuck"
 source_ids = ["pathfinder-129-the-twilight-child"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "black_shuck", path = "json/monsters03.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/dragon-gold-crown"
 kind = "feat"
 title = "Dragon Gold Crown"
+aon = "FeatDisplay.aspx?ItemName=Dragon%20Gold%20Crown"
 source_ids = ["pathfinder-132-the-six-legend-soul"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_gold_crown", path = "json/feat05.json" },

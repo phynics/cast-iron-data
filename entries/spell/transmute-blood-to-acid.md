@@ -2,6 +2,7 @@
 id = "ref/spell/transmute-blood-to-acid"
 kind = "spell"
 title = "Transmute Blood To Acid"
+aon = "SpellDisplay.aspx?ItemName=Transmute%20Blood%20To%20Acid"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "transmute_blood_to_acid", path = "json/spells10.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/nexs-secret-workshop"
 kind = "spell"
 title = "Nex's Secret Workshop"
+aon = "SpellDisplay.aspx?ItemName=Nex%27s%20Secret%20Workshop"
 source_ids = ["core-rulebook", "inner-sea-intrigue", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nexs_secret_workshop", path = "json/spells7.json" },

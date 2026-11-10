@@ -2,6 +2,7 @@
 id = "ref/feat/cypher-script"
 kind = "feat"
 title = "Cypher Script"
+aon = "FeatDisplay.aspx?ItemName=Cypher%20Script"
 source_ids = ["adventurers-guide", "second-darkness-players-guide", "inner-sea-world-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cypher_script", path = "json/feat04.json" },

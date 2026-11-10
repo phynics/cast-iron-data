@@ -2,6 +2,7 @@
 id = "ref/monster/hiracapath"
 kind = "creature"
 title = "Hiracapath"
+aon = "MonsterDisplay.aspx?ItemName=Hiracapath"
 source_ids = ["pathfinder-104-wrath-of-thrune"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hiracapath", path = "json/monsters13.json" },

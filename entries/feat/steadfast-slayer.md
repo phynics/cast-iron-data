@@ -2,6 +2,7 @@
 id = "ref/feat/steadfast-slayer"
 kind = "feat"
 title = "Steadfast Slayer"
+aon = "FeatDisplay.aspx?ItemName=Steadfast%20Slayer"
 source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "steadfast_slayer", path = "json/feat15.json" },

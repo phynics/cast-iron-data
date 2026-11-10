@@ -2,6 +2,7 @@
 id = "ref/spell/blink"
 kind = "spell"
 title = "Blink"
+aon = "SpellDisplay.aspx?ItemName=Blink"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blink", path = "json/spells2.json" },

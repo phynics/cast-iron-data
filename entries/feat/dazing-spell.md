@@ -2,6 +2,7 @@
 id = "ref/feat/dazing-spell"
 kind = "feat"
 title = "Dazing Spell"
+aon = "FeatDisplay.aspx?ItemName=Dazing%20Spell"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dazing_spell", path = "json/feat04.json" },

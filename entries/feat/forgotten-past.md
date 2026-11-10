@@ -2,6 +2,7 @@
 id = "ref/feat/forgotten-past"
 kind = "feat"
 title = "Forgotten Past"
+aon = "FeatDisplay.aspx?ItemName=Forgotten%20Past"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "forgotten_past", path = "json/feat07.json" },

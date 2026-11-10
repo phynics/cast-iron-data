@@ -2,6 +2,7 @@
 id = "ref/trait/patrons-boon"
 kind = "trait"
 title = "Patron's Boon"
+aon = "TraitDisplay.aspx?ItemName=Patron%27s%20Boon"
 source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "patrons_boon", path = "json/traits04.json" },

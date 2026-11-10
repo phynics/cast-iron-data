@@ -2,6 +2,7 @@
 id = "ref/feat/derro-magister"
 kind = "feat"
 title = "Derro Magister"
+aon = "FeatDisplay.aspx?ItemName=Derro%20Magister"
 source_ids = ["pathfinder-61-shards-of-sin"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "derro_magister", path = "json/feat04.json" },

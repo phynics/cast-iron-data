@@ -2,6 +2,7 @@
 id = "ref/feat/tripping-staff"
 kind = "feat"
 title = "Tripping Staff"
+aon = "FeatDisplay.aspx?ItemName=Tripping%20Staff"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tripping_staff", path = "json/feat16.json" },

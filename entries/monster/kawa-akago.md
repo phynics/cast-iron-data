@@ -2,6 +2,7 @@
 id = "ref/monster/kawa-akago"
 kind = "creature"
 title = "Kawa Akago"
+aon = "MonsterDisplay.aspx?ItemName=Kawa%20Akago"
 source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kawa_akago", path = "json/monsters15.json" },

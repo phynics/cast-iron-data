@@ -2,6 +2,7 @@
 id = "ref/spell/virtuoso-performance"
 kind = "spell"
 title = "Virtuoso Performance"
+aon = "SpellDisplay.aspx?ItemName=Virtuoso%20Performance"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "virtuoso_performance", path = "json/spells11.json" },

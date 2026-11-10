@@ -2,6 +2,7 @@
 id = "ref/spell/burst-bonds"
 kind = "spell"
 title = "Burst Bonds"
+aon = "SpellDisplay.aspx?ItemName=Burst%20Bonds"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burst_bonds", path = "json/spells2.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/synaptic-pulse-greater"
 kind = "spell"
 title = "Greater Synaptic Pulse"
+aon = "SpellDisplay.aspx?ItemName=Synaptic%20Pulse%2C%20Greater"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "synaptic_pulse_greater", path = "json/spells10.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/less-effort"
 kind = "trait"
 title = "Less Effort"
+aon = "TraitDisplay.aspx?ItemName=Less%20Effort"
 source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "less_effort", path = "json/traits02.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-alchemist/gun-chemist"
 kind = "archetype"
 title = "Gun Chemist"
+aon = "ArchetypeDisplay.aspx?FixedName=Alchemist%20Gun%20Chemist"
 source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gun_chemist", path = "json/archetypes_alchemist.json" },

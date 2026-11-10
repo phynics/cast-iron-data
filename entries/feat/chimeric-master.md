@@ -2,6 +2,7 @@
 id = "ref/feat/chimeric-master"
 kind = "feat"
 title = "Chimeric Master"
+aon = "FeatDisplay.aspx?ItemName=Chimeric%20Master"
 source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chimeric_master", path = "json/feat03.json" },

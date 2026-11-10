@@ -2,6 +2,7 @@
 id = "ref/feat/deliberate-death"
 kind = "feat"
 title = "Deliberate Death"
+aon = "FeatDisplay.aspx?ItemName=Deliberate%20Death"
 source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deliberate_death", path = "json/feat04.json" },

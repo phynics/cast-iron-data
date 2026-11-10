@@ -2,6 +2,7 @@
 id = "ref/spell/river-of-wind"
 kind = "spell"
 title = "River of Wind"
+aon = "SpellDisplay.aspx?ItemName=River%20of%20Wind"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "river_of_wind", path = "json/spells8.json" },

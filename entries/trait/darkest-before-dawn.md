@@ -2,6 +2,7 @@
 id = "ref/trait/darkest-before-dawn"
 kind = "trait"
 title = "Darkest Before Dawn"
+aon = "TraitDisplay.aspx?ItemName=Darkest%20Before%20Dawn"
 source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "darkest_before_dawn", path = "json/traits01.json" },

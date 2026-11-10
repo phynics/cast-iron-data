@@ -2,6 +2,7 @@
 id = "ref/monster/wraithwing"
 kind = "creature"
 title = "Wraithwing"
+aon = "MonsterDisplay.aspx?ItemName=Wraithwing"
 source_ids = ["pathfinder-101-the-kintargo-contract"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wraithwing", path = "json/monsters25.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/legacy-of-ozem"
 kind = "feat"
 title = "Legacy of Ozem"
+aon = "FeatDisplay.aspx?ItemName=Legacy%20of%20Ozem"
 source_ids = ["champions-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "legacy_of_ozem", path = "json/feat10.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/earning-your-freedom"
 kind = "trait"
 title = "Earning your Freedom"
+aon = "TraitDisplay.aspx?ItemName=Earning%20your%20Freedom"
 source_ids = ["legacy-of-fire-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "earning_your_freedom", path = "json/traits02.json" },

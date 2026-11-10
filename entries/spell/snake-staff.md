@@ -2,6 +2,7 @@
 id = "ref/spell/snake-staff"
 kind = "spell"
 title = "Snake Staff"
+aon = "SpellDisplay.aspx?ItemName=Snake%20Staff"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snake_staff", path = "json/spells9.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/improved-intercept-blow"
 kind = "feat"
 title = "Improved Intercept Blow"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Intercept%20Blow"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_intercept_blow", path = "json/feat09.json" },

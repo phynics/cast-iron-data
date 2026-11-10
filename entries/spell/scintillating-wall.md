@@ -2,6 +2,7 @@
 id = "ref/spell/scintillating-wall"
 kind = "spell"
 title = "Scintillating Wall"
+aon = "SpellDisplay.aspx?ItemName=Scintillating%20Wall"
 source_ids = ["distant-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scintillating_wall", path = "json/spells8.json" },

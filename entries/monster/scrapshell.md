@@ -2,6 +2,7 @@
 id = "ref/monster/scrapshell"
 kind = "creature"
 title = "Scrapshell"
+aon = "MonsterDisplay.aspx?ItemName=Scrapshell"
 source_ids = ["seers-of-the-drowned-city"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scrapshell", path = "json/monsters21.json" },

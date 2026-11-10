@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/boots-of-dancing"
 kind = "item"
 title = "Boots of Dancing"
+aon = "MagicCursedDisplay.aspx?ItemName=Boots%20of%20Dancing"
 source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boots_of_dancing", path = "json/magic_wondrous_eyes_feet_hands.json" },

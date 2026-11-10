@@ -2,6 +2,7 @@
 id = "ref/magic-weapon/abat-ne-the-blackstone-mace"
 kind = "item"
 title = "Abat-Ne, the Blackstone Mace"
+aon = "MagicIntelligentDisplay.aspx?ItemName=Abat-Ne%2C%20the%20Blackstone%20Mace"
 source_ids = ["pathfinder-83-the-slave-trenches-of-hakotep"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "abat_ne_the_blackstone_mace", path = "json/magic_weapon2.json" },

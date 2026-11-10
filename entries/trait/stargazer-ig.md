@@ -2,6 +2,7 @@
 id = "ref/trait/stargazer-ig"
 kind = "trait"
 title = "Stargazer (IG)"
+aon = "TraitDisplay.aspx?ItemName=Stargazer%20%28IG%29"
 source_ids = ["iron-gods-players-guide", "people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stargazer_ig", path = "json/traits02.json" },

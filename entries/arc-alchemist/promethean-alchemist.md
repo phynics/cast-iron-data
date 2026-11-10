@@ -2,6 +2,7 @@
 id = "ref/arc-alchemist/promethean-alchemist"
 kind = "archetype"
 title = "Promethean Alchemist"
+aon = "ArchetypeDisplay.aspx?FixedName=Alchemist%20Promethean%20Alchemist"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "promethean_alchemist", path = "json/archetypes_alchemist2.json" },

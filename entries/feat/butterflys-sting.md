@@ -2,6 +2,7 @@
 id = "ref/feat/butterflys-sting"
 kind = "feat"
 title = "Butterfly's Sting"
+aon = "FeatDisplay.aspx?ItemName=Butterfly%27s%20Sting"
 source_ids = ["inner-sea-gods", "faiths-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "butterflys_sting", path = "json/feat02.json" },

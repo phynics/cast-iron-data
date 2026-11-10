@@ -2,6 +2,7 @@
 id = "ref/pclass/envoy-of-balance"
 kind = "prestige_class"
 title = "Envoy of Balance"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Envoy%20of%20Balance"
 source_ids = ["champions-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "envoy_of_balance", path = "json/prestige_classes4.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/wild-speech"
 kind = "feat"
 title = "Wild Speech"
+aon = "FeatDisplay.aspx?ItemName=Wild%20Speech"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wild_speech", path = "json/feat17.json" },

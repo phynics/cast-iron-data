@@ -2,6 +2,7 @@
 id = "ref/feat/false-focus"
 kind = "feat"
 title = "False Focus"
+aon = "FeatDisplay.aspx?ItemName=False%20Focus"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "false_focus", path = "json/feat06.json" },

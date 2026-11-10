@@ -2,6 +2,7 @@
 id = "ref/arc-wizard/worldseeker"
 kind = "archetype"
 title = "Worldseeker"
+aon = "ArchetypeDisplay.aspx?FixedName=Wizard%20Worldseeker"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "worldseeker", path = "json/archetypes_wizard.json" },

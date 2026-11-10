@@ -2,6 +2,7 @@
 id = "ref/feat/precise-strike"
 kind = "feat"
 title = "Precise Strike"
+aon = "FeatDisplay.aspx?ItemName=Precise%20Strike"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "precise_strike", path = "json/feat12.json" },

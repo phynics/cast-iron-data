@@ -2,6 +2,7 @@
 id = "ref/monster/walrus-emperor-walrus"
 kind = "creature"
 title = "Emperor Walrus"
+aon = "MonsterDisplay.aspx?ItemName=Emperor%20Walrus"
 source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "walrus_emperor_walrus", path = "json/monsters32.json" },

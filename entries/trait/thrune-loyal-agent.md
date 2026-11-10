@@ -2,6 +2,7 @@
 id = "ref/trait/thrune-loyal-agent"
 kind = "trait"
 title = "Thrune Loyal Agent"
+aon = "TraitDisplay.aspx?ItemName=Thrune%20Loyal%20Agent"
 source_ids = ["pathfinder-104-wrath-of-thrune"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thrune_loyal_agent", path = "json/traits02.json" },

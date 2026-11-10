@@ -2,6 +2,7 @@
 id = "ref/arc-magus/spellblade"
 kind = "archetype"
 title = "Spellblade"
+aon = "ArchetypeDisplay.aspx?FixedName=Magus%20Spellblade"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spellblade", path = "json/archetypes_magus.json" },

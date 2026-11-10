@@ -2,6 +2,7 @@
 id = "ref/spell/cauterizing-weapon"
 kind = "spell"
 title = "Cauterizing Weapon"
+aon = "SpellDisplay.aspx?ItemName=Cauterizing%20Weapon"
 source_ids = ["pathfinder-society-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cauterizing_weapon", path = "json/spells2.json" },

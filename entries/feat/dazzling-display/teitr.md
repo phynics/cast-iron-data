@@ -2,6 +2,7 @@
 id = "ref/feat/dazzling-display/teitr"
 kind = "feat"
 title = "Dazzling Display"
+aon = "FeatDisplay.aspx?ItemName=Dazzling%20Display"
 source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/dazzling-display" },

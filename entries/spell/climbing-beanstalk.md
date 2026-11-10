@@ -2,6 +2,7 @@
 id = "ref/spell/climbing-beanstalk"
 kind = "spell"
 title = "Climbing Beanstalk"
+aon = "SpellDisplay.aspx?ItemName=Climbing%20Beanstalk"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "climbing_beanstalk", path = "json/spells2.json" },

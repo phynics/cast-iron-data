@@ -2,6 +2,7 @@
 id = "ref/feat/great-cleave/teitr"
 kind = "feat"
 title = "Great Cleave"
+aon = "FeatDisplay.aspx?ItemName=Great%20Cleave"
 source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/great-cleave" },

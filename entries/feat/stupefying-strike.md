@@ -2,6 +2,7 @@
 id = "ref/feat/stupefying-strike"
 kind = "feat"
 title = "Stupefying Strike"
+aon = "FeatDisplay.aspx?ItemName=Stupefying%20Strike"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stupefying_strike", path = "json/feat15.json" },

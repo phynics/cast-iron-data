@@ -2,6 +2,7 @@
 id = "ref/trait/bred-for-war"
 kind = "trait"
 title = "Bred for War"
+aon = "TraitDisplay.aspx?ItemName=Bred%20for%20War"
 source_ids = ["humans-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bred_for_war", path = "json/traits05.json" },

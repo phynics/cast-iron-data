@@ -2,6 +2,7 @@
 id = "ref/spell/prophetic-lore"
 kind = "spell"
 title = "Prophetic Lore"
+aon = "SpellDisplay.aspx?ItemName=Prophetic%20Lore"
 source_ids = ["disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prophetic_lore", path = "json/spells15.json" },

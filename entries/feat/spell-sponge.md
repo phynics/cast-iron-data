@@ -2,6 +2,7 @@
 id = "ref/feat/spell-sponge"
 kind = "feat"
 title = "Spell Sponge"
+aon = "FeatDisplay.aspx?ItemName=Spell%20Sponge"
 source_ids = ["animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_sponge", path = "json/feat14.json" },

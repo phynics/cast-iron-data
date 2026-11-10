@@ -2,6 +2,7 @@
 id = "ref/spell/water-breathing"
 kind = "spell"
 title = "Water Breathing"
+aon = "SpellDisplay.aspx?ItemName=Water%20Breathing"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "water_breathing", path = "json/spells11.json" },

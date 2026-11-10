@@ -2,6 +2,7 @@
 id = "ref/feat/net-maneuvering"
 kind = "feat"
 title = "Net Maneuvering"
+aon = "FeatDisplay.aspx?ItemName=Net%20Maneuvering"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "net_maneuvering", path = "json/feat11.json" },

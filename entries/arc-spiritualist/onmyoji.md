@@ -2,6 +2,7 @@
 id = "ref/arc-spiritualist/onmyoji"
 kind = "archetype"
 title = "Onmyoji"
+aon = "ArchetypeDisplay.aspx?FixedName=Spiritualist%20Onmyoji"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "onmyoji", path = "json/archetypes_spiritualist.json" },

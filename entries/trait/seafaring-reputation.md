@@ -2,6 +2,7 @@
 id = "ref/trait/seafaring-reputation"
 kind = "trait"
 title = "Seafaring Reputation"
+aon = "TraitDisplay.aspx?ItemName=Seafaring%20Reputation"
 source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seafaring_reputation", path = "json/traits01.json" },

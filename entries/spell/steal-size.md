@@ -2,6 +2,7 @@
 id = "ref/spell/steal-size"
 kind = "spell"
 title = "Steal Size"
+aon = "SpellDisplay.aspx?ItemName=Steal%20Size"
 source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "steal_size", path = "json/spells9.json" },

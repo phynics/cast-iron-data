@@ -2,6 +2,7 @@
 id = "ref/spell/unadulterated-loathing"
 kind = "spell"
 title = "Unadulterated Loathing"
+aon = "SpellDisplay.aspx?ItemName=Unadulterated%20Loathing"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unadulterated_loathing", path = "json/spells11.json" },

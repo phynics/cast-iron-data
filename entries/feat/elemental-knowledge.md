@@ -2,6 +2,7 @@
 id = "ref/feat/elemental-knowledge"
 kind = "feat"
 title = "Elemental Knowledge"
+aon = "FeatDisplay.aspx?ItemName=Elemental%20Knowledge"
 source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_knowledge", path = "json/feat05.json" },

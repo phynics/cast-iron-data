@@ -2,6 +2,7 @@
 id = "ref/spell/gloomblind-bolts"
 kind = "spell"
 title = "Gloomblind Bolts"
+aon = "SpellDisplay.aspx?ItemName=Gloomblind%20Bolts"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gloomblind_bolts", path = "json/spells5.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/alter-river"
 kind = "spell"
 title = "Alter River"
+aon = "SpellDisplay.aspx?ItemName=Alter%20River"
 source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alter_river", path = "json/spells.json" },

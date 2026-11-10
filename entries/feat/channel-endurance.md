@@ -2,6 +2,7 @@
 id = "ref/feat/channel-endurance"
 kind = "feat"
 title = "Channel Endurance"
+aon = "FeatDisplay.aspx?ItemName=Channel%20Endurance"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "channel_endurance", path = "json/feat03.json" },

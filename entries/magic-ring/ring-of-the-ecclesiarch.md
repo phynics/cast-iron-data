@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-the-ecclesiarch"
 kind = "item"
 title = "Ring of the Ecclesiarch"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20the%20Ecclesiarch"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_the_ecclesiarch", path = "json/magic_ring.json" },

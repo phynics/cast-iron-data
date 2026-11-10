@@ -2,6 +2,7 @@
 id = "ref/spell/shackle"
 kind = "spell"
 title = "Shackle"
+aon = "SpellDisplay.aspx?ItemName=Shackle"
 source_ids = ["adventurers-guide", "path-of-the-hellknight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shackle", path = "json/spells15.json" },

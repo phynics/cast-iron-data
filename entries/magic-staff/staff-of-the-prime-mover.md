@@ -2,6 +2,7 @@
 id = "ref/magic-staff/staff-of-the-prime-mover"
 kind = "item"
 title = "Staff of the Prime Mover"
+aon = "MagicStavesDisplay.aspx?ItemName=Staff%20of%20the%20Prime%20Mover"
 source_ids = ["down-the-blighted-path"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_the_prime_mover", path = "json/magic_staff.json" },

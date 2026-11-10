@@ -2,6 +2,7 @@
 id = "ref/spell/starsight"
 kind = "spell"
 title = "Starsight"
+aon = "SpellDisplay.aspx?ItemName=Starsight"
 source_ids = ["people-of-the-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "starsight", path = "json/spells9.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/clarity-of-pain"
 kind = "feat"
 title = "Clarity of Pain"
+aon = "FeatDisplay.aspx?ItemName=Clarity%20of%20Pain"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clarity_of_pain", path = "json/feat03.json" },

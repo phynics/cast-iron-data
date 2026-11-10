@@ -2,6 +2,7 @@
 id = "ref/feat/deceitful"
 kind = "feat"
 title = "Deceitful"
+aon = "FeatDisplay.aspx?ItemName=Deceitful"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deceitful", path = "json/feat04.json" },

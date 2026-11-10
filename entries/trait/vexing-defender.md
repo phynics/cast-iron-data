@@ -2,6 +2,7 @@
 id = "ref/trait/vexing-defender"
 kind = "trait"
 title = "Vexing Defender"
+aon = "TraitDisplay.aspx?ItemName=Vexing%20Defender"
 source_ids = ["giantslayer-players-guide", "giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vexing_defender", path = "json/traits02.json" },

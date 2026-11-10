@@ -2,6 +2,7 @@
 id = "ref/race/orc"
 kind = "race"
 title = "Orc"
+aon = "RacesDisplay.aspx?ItemName=Orc"
 source_ids = ["inner-sea-races", "bestiary", "advanced-race-guide", "wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "orc", path = "json/races2.json" },

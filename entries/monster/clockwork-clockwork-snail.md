@@ -2,6 +2,7 @@
 id = "ref/monster/clockwork-clockwork-snail"
 kind = "creature"
 title = "Clockwork Snail"
+aon = "MonsterDisplay.aspx?ItemName=Clockwork%20Snail"
 source_ids = ["wardens-of-the-reborn-forge"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clockwork_clockwork_snail", path = "json/monsters05.json" },

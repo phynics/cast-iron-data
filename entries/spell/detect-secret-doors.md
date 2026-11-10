@@ -2,6 +2,7 @@
 id = "ref/spell/detect-secret-doors"
 kind = "spell"
 title = "Detect Secret Doors"
+aon = "SpellDisplay.aspx?ItemName=Detect%20Secret%20Doors"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "detect_secret_doors", path = "json/spells3.json" },

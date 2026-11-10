@@ -2,6 +2,7 @@
 id = "ref/arc-inquisitor/living-grimoire"
 kind = "archetype"
 title = "Living Grimoire"
+aon = "ArchetypeDisplay.aspx?FixedName=Inquisitor%20Living%20Grimoire"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "living_grimoire", path = "json/archetypes_inquisitor.json" },

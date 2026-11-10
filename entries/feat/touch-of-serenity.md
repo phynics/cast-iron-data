@@ -2,6 +2,7 @@
 id = "ref/feat/touch-of-serenity"
 kind = "feat"
 title = "Touch of Serenity"
+aon = "FeatDisplay.aspx?ItemName=Touch%20of%20Serenity"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "touch_of_serenity", path = "json/feat16.json" },

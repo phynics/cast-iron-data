@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/swordmaster"
 kind = "archetype"
 title = "Swordmaster"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Swordmaster"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swordmaster", path = "json/archetypes_rogue.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/nachzehrer"
 kind = "creature"
 title = "Nachzehrer"
+aon = "MonsterDisplay.aspx?ItemName=Nachzehrer"
 source_ids = ["pathfinder-119-prisoners-of-the-blight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nachzehrer", path = "json/monsters17.json" },

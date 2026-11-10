@@ -2,6 +2,7 @@
 id = "ref/spell/borrow-corruption"
 kind = "spell"
 title = "Borrow Corruption"
+aon = "SpellDisplay.aspx?ItemName=Borrow%20Corruption"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "borrow_corruption", path = "json/spells2.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/spell-mastery"
 kind = "feat"
 title = "Spell Mastery"
+aon = "FeatDisplay.aspx?ItemName=Spell%20Mastery"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_mastery", path = "json/feat14.json" },

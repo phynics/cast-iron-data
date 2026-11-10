@@ -2,6 +2,7 @@
 id = "ref/spell/giant-vermin"
 kind = "spell"
 title = "Giant Vermin"
+aon = "SpellDisplay.aspx?ItemName=Giant%20Vermin"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_vermin", path = "json/spells13.json" },

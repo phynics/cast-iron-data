@@ -2,6 +2,7 @@
 id = "ref/monster/caryatid-column"
 kind = "creature"
 title = "Caryatid Column"
+aon = "MonsterDisplay.aspx?ItemName=Caryatid%20Column"
 source_ids = ["bestiary-3", "bonus-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "caryatid_column", path = "json/monsters04.json" },

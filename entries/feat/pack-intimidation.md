@@ -2,6 +2,7 @@
 id = "ref/feat/pack-intimidation"
 kind = "feat"
 title = "Pack Intimidation"
+aon = "FeatDisplay.aspx?ItemName=Pack%20Intimidation"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pack_intimidation", path = "json/feat11.json" },

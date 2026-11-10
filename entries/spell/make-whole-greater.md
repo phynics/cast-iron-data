@@ -2,6 +2,7 @@
 id = "ref/spell/make-whole-greater"
 kind = "spell"
 title = "Greater Make Whole"
+aon = "SpellDisplay.aspx?ItemName=Make%20Whole%2C%20Greater"
 source_ids = ["core-rulebook", "technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "make_whole_greater", path = "json/spells6.json" },

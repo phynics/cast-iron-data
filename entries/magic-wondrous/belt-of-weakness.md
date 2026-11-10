@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/belt-of-weakness"
 kind = "item"
 title = "Belt of Weakness"
+aon = "MagicCursedDisplay.aspx?ItemName=Belt%20of%20Weakness"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "belt_of_weakness", path = "json/magic_wondrous_belt_body_chest.json" },

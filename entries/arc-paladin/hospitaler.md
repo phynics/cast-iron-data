@@ -2,6 +2,7 @@
 id = "ref/arc-paladin/hospitaler"
 kind = "archetype"
 title = "Hospitaler"
+aon = "ArchetypeDisplay.aspx?FixedName=Paladin%20Hospitaler"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hospitaler", path = "json/archetypes_paladin.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/wartrain-mount"
 kind = "spell"
 title = "Wartrain Mount"
+aon = "SpellDisplay.aspx?ItemName=Wartrain%20Mount"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wartrain_mount", path = "json/spells11.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/mangvhune"
 kind = "creature"
 title = "Mangvhune, the Temple Hill Slasher"
+aon = "MonsterDisplay.aspx?ItemName=Mangvhune%2C%20the%20Temple%20Hill%20Slasher"
 source_ids = ["demons-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mangvhune", path = "json/monsters_unique3.json" },

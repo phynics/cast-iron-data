@@ -2,6 +2,7 @@
 id = "ref/trait/following-in-the-footsteps"
 kind = "trait"
 title = "Following in the Footsteps"
+aon = "TraitDisplay.aspx?ItemName=Following%20in%20the%20Footsteps"
 source_ids = ["ruins-of-azlant-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "following_in_the_footsteps", path = "json/traits02.json" },

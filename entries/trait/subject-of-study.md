@@ -2,6 +2,7 @@
 id = "ref/trait/subject-of-study"
 kind = "trait"
 title = "Subject of Study"
+aon = "TraitDisplay.aspx?ItemName=Subject%20of%20Study"
 source_ids = ["carrion-crown-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "subject_of_study", path = "json/traits02.json" },

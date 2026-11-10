@@ -2,6 +2,7 @@
 id = "ref/spell/wall-of-ectoplasm"
 kind = "spell"
 title = "Wall of Ectoplasm"
+aon = "SpellDisplay.aspx?ItemName=Wall%20of%20Ectoplasm"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wall_of_ectoplasm", path = "json/spells11.json" },

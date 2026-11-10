@@ -2,6 +2,7 @@
 id = "ref/feat/inner-light-boa"
 kind = "feat"
 title = "Inner Light (BoA)"
+aon = "FeatDisplay.aspx?ItemName=Inner%20Light%20%28BoA%29"
 source_ids = ["blood-of-angels"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inner_light_boa", path = "json/feat09.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/virtuous-creed"
 kind = "feat"
 title = "Virtuous Creed"
+aon = "FeatDisplay.aspx?ItemName=Virtuous%20Creed"
 source_ids = ["champions-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "virtuous_creed", path = "json/feat17.json" },

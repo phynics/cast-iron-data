@@ -2,6 +2,7 @@
 id = "ref/trait/student-of-faith"
 kind = "trait"
 title = "Student of Faith"
+aon = "TraitDisplay.aspx?ItemName=Student%20of%20Faith"
 source_ids = ["rise-of-the-runelords-anniversary-edition-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "student_of_faith", path = "json/traits02.json" },

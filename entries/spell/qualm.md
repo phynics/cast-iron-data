@@ -2,6 +2,7 @@
 id = "ref/spell/qualm"
 kind = "spell"
 title = "Qualm"
+aon = "SpellDisplay.aspx?ItemName=Qualm"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "qualm", path = "json/spells8.json" },

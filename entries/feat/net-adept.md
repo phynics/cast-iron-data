@@ -2,6 +2,7 @@
 id = "ref/feat/net-adept"
 kind = "feat"
 title = "Net Adept"
+aon = "FeatDisplay.aspx?ItemName=Net%20Adept"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "net_adept", path = "json/feat11.json" },

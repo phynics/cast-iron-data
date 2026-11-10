@@ -2,6 +2,7 @@
 id = "ref/spell/protection-from-good-communal"
 kind = "spell"
 title = "Communal Protection from Good"
+aon = "SpellDisplay.aspx?ItemName=Protection%20from%20Good%2C%20Communal"
 source_ids = ["core-rulebook", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "protection_from_good_communal", path = "json/spells15.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/ez-azael"
 kind = "creature"
 title = "Ez-azael"
+aon = "MonsterDisplay.aspx?ItemName=Ez-azael"
 source_ids = ["pathfinder-107-scourge-of-the-godclaw"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ez_azael", path = "json/monsters42.json" },

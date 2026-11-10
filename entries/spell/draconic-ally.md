@@ -2,6 +2,7 @@
 id = "ref/spell/draconic-ally"
 kind = "spell"
 title = "Draconic Ally"
+aon = "SpellDisplay.aspx?ItemName=Draconic%20Ally"
 source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "draconic_ally", path = "json/spells13.json" },

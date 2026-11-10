@@ -2,6 +2,7 @@
 id = "ref/feat/burn-it-down"
 kind = "feat"
 title = "Burn It Down!"
+aon = "FeatDisplay.aspx?ItemName=Burn%20It%20Down%21"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burn_it_down", path = "json/feat02.json" },

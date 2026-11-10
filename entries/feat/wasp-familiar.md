@@ -2,6 +2,7 @@
 id = "ref/feat/wasp-familiar"
 kind = "feat"
 title = "Wasp Familiar"
+aon = "FeatDisplay.aspx?ItemName=Wasp%20Familiar"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wasp_familiar", path = "json/feat17.json" },

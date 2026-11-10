@@ -2,6 +2,7 @@
 id = "ref/spell/twilight-knife"
 kind = "spell"
 title = "Twilight Knife"
+aon = "SpellDisplay.aspx?ItemName=Twilight%20Knife"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "twilight_knife", path = "json/spells10.json" },

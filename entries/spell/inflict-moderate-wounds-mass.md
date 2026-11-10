@@ -2,6 +2,7 @@
 id = "ref/spell/inflict-moderate-wounds-mass"
 kind = "spell"
 title = "Mass Inflict Moderate Wounds"
+aon = "SpellDisplay.aspx?ItemName=Inflict%20Moderate%20Wounds%2C%20Mass"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inflict_moderate_wounds_mass", path = "json/spells14.json" },

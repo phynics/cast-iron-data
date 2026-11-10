@@ -2,6 +2,7 @@
 id = "ref/pclass/aspis-agent"
 kind = "prestige_class"
 title = "Aspis Agent"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Aspis%20Agent"
 source_ids = ["adventurers-guide", "paths-of-prestige"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aspis_agent", path = "json/prestige_classes.json" },

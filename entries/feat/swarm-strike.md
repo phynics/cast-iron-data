@@ -2,6 +2,7 @@
 id = "ref/feat/swarm-strike"
 kind = "feat"
 title = "Swarm Strike"
+aon = "FeatDisplay.aspx?ItemName=Swarm%20Strike"
 source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swarm_strike", path = "json/feat15.json" },

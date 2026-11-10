@@ -2,6 +2,7 @@
 id = "ref/arc-barbarian/beastkin-berserker"
 kind = "archetype"
 title = "Beastkin Berserker"
+aon = "ArchetypeDisplay.aspx?FixedName=Barbarian%20Beastkin%20Berserker"
 source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beastkin_berserker", path = "json/archetypes_barbarian.json" },

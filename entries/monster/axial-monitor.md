@@ -2,6 +2,7 @@
 id = "ref/monster/axial-monitor"
 kind = "creature"
 title = "Axial Monitor"
+aon = "MonsterDisplay.aspx?ItemName=Axial%20Monitor"
 source_ids = ["pathfinder-131-the-reapers-right-hand"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "axial_monitor", path = "json/monsters26.json" },

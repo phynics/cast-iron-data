@@ -2,6 +2,7 @@
 id = "ref/spell/planar-inquiry"
 kind = "spell"
 title = "Planar Inquiry"
+aon = "SpellDisplay.aspx?ItemName=Planar%20Inquiry"
 source_ids = ["core-rulebook", "adventurers-guide", "arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planar_inquiry", path = "json/spells7.json" },

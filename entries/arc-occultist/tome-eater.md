@@ -2,6 +2,7 @@
 id = "ref/arc-occultist/tome-eater"
 kind = "archetype"
 title = "Tome Eater"
+aon = "ArchetypeDisplay.aspx?FixedName=Occultist%20Tome%20Eater"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tome_eater", path = "json/archetypes_occultist.json" },

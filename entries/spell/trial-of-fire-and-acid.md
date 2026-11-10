@@ -2,6 +2,7 @@
 id = "ref/spell/trial-of-fire-and-acid"
 kind = "spell"
 title = "Trial of Fire and Acid"
+aon = "SpellDisplay.aspx?ItemName=Trial%20of%20Fire%20and%20Acid"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trial_of_fire_and_acid", path = "json/spells10.json" },

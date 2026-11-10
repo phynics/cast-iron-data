@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-resilience"
 kind = "item"
 title = "Ring of Resilience"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Resilience"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_resilience", path = "json/magic_ring.json" },

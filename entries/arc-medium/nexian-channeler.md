@@ -2,6 +2,7 @@
 id = "ref/arc-medium/nexian-channeler"
 kind = "archetype"
 title = "Nexian Channeler"
+aon = "ArchetypeDisplay.aspx?FixedName=Medium%20Nexian%20Channeler"
 source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nexian_channeler", path = "json/archetypes_medium.json" },

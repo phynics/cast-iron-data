@@ -2,6 +2,7 @@
 id = "ref/spell/know-direction"
 kind = "spell"
 title = "Know Direction"
+aon = "SpellDisplay.aspx?ItemName=Know%20Direction"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "know_direction", path = "json/spells6.json" },

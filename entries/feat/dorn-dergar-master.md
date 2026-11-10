@@ -2,6 +2,7 @@
 id = "ref/feat/dorn-dergar-master"
 kind = "feat"
 title = "Dorn-Dergar Master"
+aon = "FeatDisplay.aspx?ItemName=Dorn-Dergar%20Master"
 source_ids = ["adventurers-armory-2", "dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dorn_dergar_master", path = "json/feat05.json" },

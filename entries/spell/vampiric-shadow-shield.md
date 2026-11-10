@@ -2,6 +2,7 @@
 id = "ref/spell/vampiric-shadow-shield"
 kind = "spell"
 title = "Vampiric Shadow Shield"
+aon = "SpellDisplay.aspx?ItemName=Vampiric%20Shadow%20Shield"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vampiric_shadow_shield", path = "json/spells11.json" },

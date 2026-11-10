@@ -2,6 +2,7 @@
 id = "ref/trait/planetars-visions"
 kind = "trait"
 title = "Planetar's Visions"
+aon = "TraitDisplay.aspx?ItemName=Planetar%27s%20Visions"
 source_ids = ["blood-of-angels"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planetars_visions", path = "json/traits05.json" },

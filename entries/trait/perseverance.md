@@ -2,6 +2,7 @@
 id = "ref/trait/perseverance"
 kind = "trait"
 title = "Perseverance"
+aon = "TraitDisplay.aspx?ItemName=Perseverance"
 source_ids = ["inner-sea-primer", "dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "perseverance", path = "json/traits04.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-monk/student-of-stone"
 kind = "archetype"
 title = "Student of Stone"
+aon = "ArchetypeDisplay.aspx?FixedName=Monk%20Student%20of%20Stone"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "student_of_stone", path = "json/archetypes_monk2.json" },

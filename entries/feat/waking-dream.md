@@ -2,6 +2,7 @@
 id = "ref/feat/waking-dream"
 kind = "feat"
 title = "Waking Dream"
+aon = "FeatDisplay.aspx?ItemName=Waking%20Dream"
 source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "waking_dream", path = "json/feat17.json" },

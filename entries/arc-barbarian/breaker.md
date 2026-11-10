@@ -2,6 +2,7 @@
 id = "ref/arc-barbarian/breaker"
 kind = "archetype"
 title = "Breaker"
+aon = "ArchetypeDisplay.aspx?FixedName=Barbarian%20Breaker"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "breaker", path = "json/archetypes_barbarian.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/analyze-dweomer"
 kind = "spell"
 title = "Analyze Dweomer"
+aon = "SpellDisplay.aspx?ItemName=Analyze%20Dweomer"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "analyze_dweomer", path = "json/spells.json" },

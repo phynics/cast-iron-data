@@ -2,6 +2,7 @@
 id = "ref/trait/cliff-jumper"
 kind = "trait"
 title = "Cliff Jumper"
+aon = "TraitDisplay.aspx?ItemName=Cliff%20Jumper"
 source_ids = ["cheliax-empire-of-devils"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cliff_jumper", path = "json/traits04.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/share-feature"
 kind = "feat"
 title = "Share Feature"
+aon = "FeatDisplay.aspx?ItemName=Share%20Feature"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "share_feature", path = "json/feat14.json" },

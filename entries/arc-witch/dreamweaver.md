@@ -2,6 +2,7 @@
 id = "ref/arc-witch/dreamweaver"
 kind = "archetype"
 title = "Dreamweaver"
+aon = "ArchetypeDisplay.aspx?FixedName=Witch%20Dreamweaver"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dreamweaver", path = "json/archetypes_witch.json" },

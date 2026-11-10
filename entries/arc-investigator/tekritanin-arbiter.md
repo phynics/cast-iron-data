@@ -2,6 +2,7 @@
 id = "ref/arc-investigator/tekritanin-arbiter"
 kind = "archetype"
 title = "Tekritanin Arbiter"
+aon = "ArchetypeDisplay.aspx?FixedName=Investigator%20Tekritanin%20Arbiter"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tekritanin_arbiter", path = "json/archetypes_investigator.json" },

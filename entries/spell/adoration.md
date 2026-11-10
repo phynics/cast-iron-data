@@ -2,6 +2,7 @@
 id = "ref/spell/adoration"
 kind = "spell"
 title = "Adoration"
+aon = "SpellDisplay.aspx?ItemName=Adoration"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "adoration", path = "json/spells.json" },

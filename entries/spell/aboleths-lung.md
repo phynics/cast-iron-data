@@ -2,6 +2,7 @@
 id = "ref/spell/aboleths-lung"
 kind = "spell"
 title = "Aboleth's Lung"
+aon = "SpellDisplay.aspx?ItemName=Aboleth%27s%20Lung"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aboleths_lung", path = "json/spells.json" },

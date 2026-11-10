@@ -2,6 +2,7 @@
 id = "ref/spell/quell-energy"
 kind = "spell"
 title = "Quell Energy"
+aon = "SpellDisplay.aspx?ItemName=Quell%20Energy"
 source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quell_energy", path = "json/spells8.json" },

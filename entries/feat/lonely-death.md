@@ -2,6 +2,7 @@
 id = "ref/feat/lonely-death"
 kind = "feat"
 title = "Lonely Death"
+aon = "FeatDisplay.aspx?ItemName=Lonely%20Death"
 source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lonely_death", path = "json/feat10.json" },

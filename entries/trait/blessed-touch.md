@@ -2,6 +2,7 @@
 id = "ref/trait/blessed-touch"
 kind = "trait"
 title = "Blessed Touch"
+aon = "TraitDisplay.aspx?ItemName=Blessed%20Touch"
 source_ids = ["champions-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blessed_touch", path = "json/traits01.json" },

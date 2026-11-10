@@ -2,6 +2,7 @@
 id = "ref/feat/stylized-spontaneity"
 kind = "feat"
 title = "Stylized Spontaneity"
+aon = "FeatDisplay.aspx?ItemName=Stylized%20Spontaneity"
 source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stylized_spontaneity", path = "json/feat15.json" },

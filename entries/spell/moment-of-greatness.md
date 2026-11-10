@@ -2,6 +2,7 @@
 id = "ref/spell/moment-of-greatness"
 kind = "spell"
 title = "Moment of Greatness"
+aon = "SpellDisplay.aspx?ItemName=Moment%20of%20Greatness"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "moment_of_greatness", path = "json/spells14.json" },

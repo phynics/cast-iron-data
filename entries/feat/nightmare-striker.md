@@ -2,6 +2,7 @@
 id = "ref/feat/nightmare-striker"
 kind = "feat"
 title = "Nightmare Striker"
+aon = "FeatDisplay.aspx?ItemName=Nightmare%20Striker"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nightmare_striker", path = "json/feat11.json" },

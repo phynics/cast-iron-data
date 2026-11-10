@@ -2,6 +2,7 @@
 id = "ref/trait/relic-hunter"
 kind = "trait"
 title = "Relic Hunter"
+aon = "TraitDisplay.aspx?ItemName=Relic%20Hunter"
 source_ids = ["people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "relic_hunter", path = "json/traits05.json" },

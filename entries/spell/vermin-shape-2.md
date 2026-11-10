@@ -2,6 +2,7 @@
 id = "ref/spell/vermin-shape-2"
 kind = "spell"
 title = "Vermin Shape II"
+aon = "SpellDisplay.aspx?ItemName=Vermin%20Shape%20II"
 source_ids = ["ultimate-magic", "book-of-the-damned-volume-2-lords-of-chaos", "inner-sea-world-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vermin_shape_2", path = "json/spells11.json" },

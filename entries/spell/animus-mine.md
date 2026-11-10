@@ -2,6 +2,7 @@
 id = "ref/spell/animus-mine"
 kind = "spell"
 title = "Animus Mine"
+aon = "SpellDisplay.aspx?ItemName=Animus%20Mine"
 source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animus_mine", path = "json/spells.json" },

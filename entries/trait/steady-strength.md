@@ -2,6 +2,7 @@
 id = "ref/trait/steady-strength"
 kind = "trait"
 title = "Steady Strength"
+aon = "TraitDisplay.aspx?ItemName=Steady%20Strength"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "steady_strength", path = "json/traits03.json" },

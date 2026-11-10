@@ -2,6 +2,7 @@
 id = "ref/spell/absorbing-barrier"
 kind = "spell"
 title = "Absorbing Barrier"
+aon = "SpellDisplay.aspx?ItemName=Absorbing%20Barrier"
 source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "absorbing_barrier", path = "json/spells.json" },

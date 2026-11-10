@@ -2,6 +2,7 @@
 id = "ref/trait/sky-quester"
 kind = "trait"
 title = "Sky Quester"
+aon = "TraitDisplay.aspx?ItemName=Sky%20Quester"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sky_quester", path = "json/traits05.json" },

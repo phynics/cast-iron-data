@@ -2,6 +2,7 @@
 id = "ref/feat/sense-assumptions"
 kind = "feat"
 title = "Sense Assumptions"
+aon = "FeatDisplay.aspx?ItemName=Sense%20Assumptions"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sense_assumptions", path = "json/feat13.json" },

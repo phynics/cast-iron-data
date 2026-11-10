@@ -2,6 +2,7 @@
 id = "ref/magic-ring/spiritualist-rings"
 kind = "item"
 title = "Spiritualist Rings"
+aon = "MagicRingsDisplay.aspx?FinalName=Spiritualist%20Rings"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spiritualist_rings", path = "json/magic_ring.json" },

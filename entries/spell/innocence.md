@@ -2,6 +2,7 @@
 id = "ref/spell/innocence"
 kind = "spell"
 title = "Innocence"
+aon = "SpellDisplay.aspx?ItemName=Innocence"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "innocence", path = "json/spells14.json" },

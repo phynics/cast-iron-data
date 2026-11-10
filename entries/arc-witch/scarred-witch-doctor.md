@@ -2,6 +2,7 @@
 id = "ref/arc-witch/scarred-witch-doctor"
 kind = "archetype"
 title = "Scarred Witch Doctor"
+aon = "ArchetypeDisplay.aspx?FixedName=Witch%20Scarred%20Witch%20Doctor"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scarred_witch_doctor", path = "json/archetypes_witch.json" },

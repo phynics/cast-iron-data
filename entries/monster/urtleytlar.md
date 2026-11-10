@@ -2,6 +2,7 @@
 id = "ref/monster/urtleytlar"
 kind = "creature"
 title = "Urtleytlar, The Tempest Queen"
+aon = "MonsterDisplay.aspx?ItemName=Urtleytlar%2C%20The%20Tempest%20Queen"
 source_ids = ["pathfinder-60-from-hells-heart"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "urtleytlar", path = "json/monsters_unique4.json" },

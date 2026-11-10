@@ -2,6 +2,7 @@
 id = "ref/arc-bloodrager/symbol-striker"
 kind = "archetype"
 title = "Symbol Striker"
+aon = "ArchetypeDisplay.aspx?FixedName=Bloodrager%20Symbol%20Striker"
 source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "symbol_striker", path = "json/archetypes_bloodrager.json" },

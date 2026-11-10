@@ -2,6 +2,7 @@
 id = "ref/feat/ranged-disable"
 kind = "feat"
 title = "Ranged Disable"
+aon = "FeatDisplay.aspx?ItemName=Ranged%20Disable"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ranged_disable", path = "json/feat13.json" },

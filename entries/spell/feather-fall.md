@@ -2,6 +2,7 @@
 id = "ref/spell/feather-fall"
 kind = "spell"
 title = "Feather Fall"
+aon = "SpellDisplay.aspx?ItemName=Feather%20Fall"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "feather_fall", path = "json/spells4.json" },

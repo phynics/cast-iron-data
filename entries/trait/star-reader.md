@@ -2,6 +2,7 @@
 id = "ref/trait/star-reader"
 kind = "trait"
 title = "Star Reader"
+aon = "TraitDisplay.aspx?ItemName=Star%20Reader"
 source_ids = ["demon-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "star_reader", path = "json/traits04.json" },

@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/necklace-of-strangulation"
 kind = "item"
 title = "Necklace of Strangulation"
+aon = "MagicCursedDisplay.aspx?ItemName=Necklace%20of%20Strangulation"
 source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "necklace_of_strangulation", path = "json/magic_wondrous_neck.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/linked-surge"
 kind = "trait"
 title = "Linked Surge"
+aon = "TraitDisplay.aspx?ItemName=Linked%20Surge"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "linked_surge", path = "json/traits02.json" },

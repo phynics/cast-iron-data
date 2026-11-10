@@ -2,6 +2,7 @@
 id = "ref/spell/urban-grace"
 kind = "spell"
 title = "Urban Grace"
+aon = "SpellDisplay.aspx?ItemName=Urban%20Grace"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "urban_grace", path = "json/spells11.json" },

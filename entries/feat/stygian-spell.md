@@ -2,6 +2,7 @@
 id = "ref/feat/stygian-spell"
 kind = "feat"
 title = "Stygian Spell"
+aon = "FeatDisplay.aspx?ItemName=Stygian%20Spell"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stygian_spell", path = "json/feat15.json" },

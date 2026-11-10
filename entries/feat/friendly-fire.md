@@ -2,6 +2,7 @@
 id = "ref/feat/friendly-fire"
 kind = "feat"
 title = "Friendly Fire"
+aon = "FeatDisplay.aspx?ItemName=Friendly%20Fire"
 source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "friendly_fire", path = "json/feat07.json" },

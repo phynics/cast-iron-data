@@ -2,6 +2,7 @@
 id = "ref/spell/caustic-safeguard"
 kind = "spell"
 title = "Caustic Safeguard"
+aon = "SpellDisplay.aspx?ItemName=Caustic%20Safeguard"
 source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "caustic_safeguard", path = "json/spells2.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/summon-plant-ally"
 kind = "feat"
 title = "Summon Plant Ally"
+aon = "FeatDisplay.aspx?ItemName=Summon%20Plant%20Ally"
 source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summon_plant_ally", path = "json/feat15.json" },

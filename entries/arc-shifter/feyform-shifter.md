@@ -2,6 +2,7 @@
 id = "ref/arc-shifter/feyform-shifter"
 kind = "archetype"
 title = "Feyform Shifter"
+aon = "ArchetypeDisplay.aspx?FixedName=Shifter%20Feyform%20Shifter"
 source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "feyform_shifter", path = "json/archetypes_shifter.json" },

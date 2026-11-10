@@ -2,6 +2,7 @@
 id = "ref/monster/gnoll-gnoll-bouda"
 kind = "creature"
 title = "Gnoll Bouda"
+aon = "MonsterDisplay.aspx?ItemName=Gnoll%20Bouda"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gnoll_gnoll_bouda", path = "json/monsters12.json" },

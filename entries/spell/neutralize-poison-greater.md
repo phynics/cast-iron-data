@@ -2,6 +2,7 @@
 id = "ref/spell/neutralize-poison-greater"
 kind = "spell"
 title = "Greater Neutralize Poison"
+aon = "SpellDisplay.aspx?ItemName=Neutralize%20Poison%2C%20Greater"
 source_ids = ["core-rulebook", "dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "neutralize_poison_greater", path = "json/spells7.json" },

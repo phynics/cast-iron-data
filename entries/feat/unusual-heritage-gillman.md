@@ -2,6 +2,7 @@
 id = "ref/feat/unusual-heritage-gillman"
 kind = "feat"
 title = "Unusual Heritage (Gillman)"
+aon = "FeatDisplay.aspx?ItemName=Unusual%20Heritage%20%28Gillman%29"
 source_ids = ["bastards-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unusual_heritage_gillman", path = "json/feat17.json" },

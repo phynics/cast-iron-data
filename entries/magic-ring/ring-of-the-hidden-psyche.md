@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-the-hidden-psyche"
 kind = "item"
 title = "Ring of the Hidden Psyche"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20the%20Hidden%20Psyche"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_the_hidden_psyche", path = "json/magic_ring.json" },

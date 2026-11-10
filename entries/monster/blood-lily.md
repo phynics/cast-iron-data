@@ -2,6 +2,7 @@
 id = "ref/monster/blood-lily"
 kind = "creature"
 title = "Blood Lily"
+aon = "MonsterDisplay.aspx?ItemName=Blood%20Lily"
 source_ids = ["pathfinder-124-city-in-the-deep"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_lily", path = "json/monsters27.json" },

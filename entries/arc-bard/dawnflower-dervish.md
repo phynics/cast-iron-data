@@ -2,6 +2,7 @@
 id = "ref/arc-bard/dawnflower-dervish"
 kind = "archetype"
 title = "Dawnflower Dervish"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Dawnflower%20Dervish"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dawnflower_dervish", path = "json/archetypes_bard.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/peerless-integrity"
 kind = "spell"
 title = "Peerless Integrity"
+aon = "SpellDisplay.aspx?ItemName=Peerless%20Integrity"
 source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "peerless_integrity", path = "json/spells7.json" },

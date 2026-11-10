@@ -2,6 +2,7 @@
 id = "ref/spell/karmic-blessing"
 kind = "spell"
 title = "Karmic Blessing"
+aon = "SpellDisplay.aspx?ItemName=Karmic%20Blessing"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "karmic_blessing", path = "json/spells6.json" },

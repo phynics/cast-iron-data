@@ -2,6 +2,7 @@
 id = "ref/spell/anticipate-peril"
 kind = "spell"
 title = "Anticipate Peril"
+aon = "SpellDisplay.aspx?ItemName=Anticipate%20Peril"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "anticipate_peril", path = "json/spells.json" },

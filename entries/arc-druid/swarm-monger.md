@@ -2,6 +2,7 @@
 id = "ref/arc-druid/swarm-monger"
 kind = "archetype"
 title = "Swarm Monger"
+aon = "ArchetypeDisplay.aspx?FixedName=Druid%20Swarm%20Monger"
 source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swarm_monger", path = "json/archetypes_druid2.json" },

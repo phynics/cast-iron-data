@@ -2,6 +2,7 @@
 id = "ref/trait/adherent-of-ancient-osirion"
 kind = "trait"
 title = "Adherent of Ancient Osirion"
+aon = "TraitDisplay.aspx?ItemName=Adherent%20of%20Ancient%20Osirion"
 source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "adherent_of_ancient_osirion", path = "json/traits03.json" },

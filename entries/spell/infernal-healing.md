@@ -2,6 +2,7 @@
 id = "ref/spell/infernal-healing"
 kind = "spell"
 title = "Infernal Healing"
+aon = "SpellDisplay.aspx?ItemName=Infernal%20Healing"
 source_ids = ["hells-vengeance-players-guide", "pathfinder-29-mother-of-flies", "gods-and-magic", "inner-sea-world-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "infernal_healing", path = "json/spells14.json" },

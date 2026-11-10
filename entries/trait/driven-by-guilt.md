@@ -2,6 +2,7 @@
 id = "ref/trait/driven-by-guilt"
 kind = "trait"
 title = "Driven By Guilt"
+aon = "TraitDisplay.aspx?ItemName=Driven%20By%20Guilt"
 source_ids = ["strange-aeons-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "driven_by_guilt", path = "json/traits03.json" },

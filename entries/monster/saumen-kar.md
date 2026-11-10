@@ -2,6 +2,7 @@
 id = "ref/monster/saumen-kar"
 kind = "creature"
 title = "Saumen Kar"
+aon = "MonsterDisplay.aspx?ItemName=Saumen%20Kar"
 source_ids = ["pathfinder-51-the-hungry-storm"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "saumen_kar", path = "json/monsters21.json" },

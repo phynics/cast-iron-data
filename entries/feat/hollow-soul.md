@@ -2,6 +2,7 @@
 id = "ref/feat/hollow-soul"
 kind = "feat"
 title = "Hollow Soul"
+aon = "FeatDisplay.aspx?ItemName=Hollow%20Soul"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hollow_soul", path = "json/feat08.json" },

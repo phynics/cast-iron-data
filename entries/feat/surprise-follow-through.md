@@ -2,6 +2,7 @@
 id = "ref/feat/surprise-follow-through"
 kind = "feat"
 title = "Surprise Follow-Through"
+aon = "FeatDisplay.aspx?ItemName=Surprise%20Follow-Through"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "surprise_follow_through", path = "json/feat15.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/disrupting-weapon"
 kind = "spell"
 title = "Disrupting Weapon"
+aon = "SpellDisplay.aspx?ItemName=Disrupting%20Weapon"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disrupting_weapon", path = "json/spells13.json" },

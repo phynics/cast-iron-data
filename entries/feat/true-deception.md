@@ -2,6 +2,7 @@
 id = "ref/feat/true-deception"
 kind = "feat"
 title = "True Deception"
+aon = "FeatDisplay.aspx?ItemName=True%20Deception"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "true_deception", path = "json/feat16.json" },

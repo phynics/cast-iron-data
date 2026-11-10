@@ -2,6 +2,7 @@
 id = "ref/trait/strength-of-submission"
 kind = "trait"
 title = "Strength of Submission"
+aon = "TraitDisplay.aspx?ItemName=Strength%20of%20Submission"
 source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "strength_of_submission", path = "json/traits01.json" },

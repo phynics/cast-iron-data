@@ -2,6 +2,7 @@
 id = "ref/monster/golem-robot-golem"
 kind = "creature"
 title = "Robot Golem"
+aon = "MonsterDisplay.aspx?ItemName=Robot%20Golem"
 source_ids = ["numeria-land-of-fallen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_robot_golem", path = "json/monsters33.json" },

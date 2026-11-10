@@ -2,6 +2,7 @@
 id = "ref/magic-weapon/nearfiring-bow"
 kind = "item"
 title = "Nearfiring Bow"
+aon = "MagicCursedDisplay.aspx?ItemName=Nearfiring%20Bow"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nearfiring_bow", path = "json/magic_weapon2.json" },

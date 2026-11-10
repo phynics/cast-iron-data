@@ -2,6 +2,7 @@
 id = "ref/trait/etymologist"
 kind = "trait"
 title = "Etymologist"
+aon = "TraitDisplay.aspx?ItemName=Etymologist"
 source_ids = ["gnomes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "etymologist", path = "json/traits01.json" },

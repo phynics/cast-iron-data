@@ -2,6 +2,7 @@
 id = "ref/spell/mudball"
 kind = "spell"
 title = "Mudball"
+aon = "SpellDisplay.aspx?ItemName=Mudball"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mudball", path = "json/spells7.json" },

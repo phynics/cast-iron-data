@@ -2,6 +2,7 @@
 id = "ref/arc-druid/draconic-druid"
 kind = "archetype"
 title = "Draconic Druid"
+aon = "ArchetypeDisplay.aspx?FixedName=Druid%20Draconic%20Druid"
 source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "draconic_druid", path = "json/archetypes_druid.json" },

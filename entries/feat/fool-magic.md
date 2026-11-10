@@ -2,6 +2,7 @@
 id = "ref/feat/fool-magic"
 kind = "feat"
 title = "Fool Magic"
+aon = "FeatDisplay.aspx?ItemName=Fool%20Magic"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fool_magic", path = "json/feat07.json" },

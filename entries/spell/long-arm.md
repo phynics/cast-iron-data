@@ -2,6 +2,7 @@
 id = "ref/spell/long-arm"
 kind = "spell"
 title = "Long Arm"
+aon = "SpellDisplay.aspx?ItemName=Long%20Arm"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "long_arm", path = "json/spells6.json" },

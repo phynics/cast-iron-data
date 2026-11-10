@@ -2,6 +2,7 @@
 id = "ref/monster/ekekeh"
 kind = "creature"
 title = "Ekekeh"
+aon = "MonsterDisplay.aspx?ItemName=Ekekeh"
 source_ids = ["the-first-world-realm-of-the-fey"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ekekeh", path = "json/monsters09.json" },

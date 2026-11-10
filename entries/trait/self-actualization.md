@@ -2,6 +2,7 @@
 id = "ref/trait/self-actualization"
 kind = "trait"
 title = "Self-Actualization"
+aon = "TraitDisplay.aspx?ItemName=Self-Actualization"
 source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "self_actualization", path = "json/traits01.json" },

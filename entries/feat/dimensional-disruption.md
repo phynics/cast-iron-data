@@ -2,6 +2,7 @@
 id = "ref/feat/dimensional-disruption"
 kind = "feat"
 title = "Dimensional Disruption"
+aon = "FeatDisplay.aspx?ItemName=Dimensional%20Disruption"
 source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dimensional_disruption", path = "json/feat04.json" },

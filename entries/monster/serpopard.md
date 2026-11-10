@@ -2,6 +2,7 @@
 id = "ref/monster/serpopard"
 kind = "creature"
 title = "Serpopard"
+aon = "MonsterDisplay.aspx?ItemName=Serpopard"
 source_ids = ["pathfinder-81-shifting-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "serpopard", path = "json/monsters21.json" },

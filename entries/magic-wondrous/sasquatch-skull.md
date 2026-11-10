@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/sasquatch-skull"
 kind = "item"
 title = "Sasquatch Skull"
+aon = "MagicCursedDisplay.aspx?ItemName=Sasquatch%20Skull"
 source_ids = ["mystery-monsters-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sasquatch_skull", path = "json/magic_wondrous_slotless05.json" },

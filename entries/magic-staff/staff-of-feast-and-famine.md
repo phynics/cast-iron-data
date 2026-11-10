@@ -2,6 +2,7 @@
 id = "ref/magic-staff/staff-of-feast-and-famine"
 kind = "item"
 title = "Staff of Feast and Famine"
+aon = "MagicStavesDisplay.aspx?ItemName=Staff%20of%20Feast%20and%20Famine"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_feast_and_famine", path = "json/magic_staff.json" },

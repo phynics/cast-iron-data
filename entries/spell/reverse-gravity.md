@@ -2,6 +2,7 @@
 id = "ref/spell/reverse-gravity"
 kind = "spell"
 title = "Reverse Gravity"
+aon = "SpellDisplay.aspx?ItemName=Reverse%20Gravity"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reverse_gravity", path = "json/spells8.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/touched-by-the-sky"
 kind = "trait"
 title = "Touched by the Sky"
+aon = "TraitDisplay.aspx?ItemName=Touched%20by%20the%20Sky"
 source_ids = ["inner-sea-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "touched_by_the_sky", path = "json/traits04.json" },

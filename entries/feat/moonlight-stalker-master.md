@@ -2,6 +2,7 @@
 id = "ref/feat/moonlight-stalker-master"
 kind = "feat"
 title = "Moonlight Stalker Master"
+aon = "FeatDisplay.aspx?ItemName=Moonlight%20Stalker%20Master"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "moonlight_stalker_master", path = "json/feat11.json" },

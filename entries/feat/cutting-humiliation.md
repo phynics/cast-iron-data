@@ -2,6 +2,7 @@
 id = "ref/feat/cutting-humiliation"
 kind = "feat"
 title = "Cutting Humiliation"
+aon = "FeatDisplay.aspx?ItemName=Cutting%20Humiliation"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cutting_humiliation", path = "json/feat04.json" },

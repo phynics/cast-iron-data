@@ -2,6 +2,7 @@
 id = "ref/monster/grendler-red-chains"
 kind = "creature"
 title = "Grendler Red-Chains"
+aon = "MonsterDisplay.aspx?ItemName=Grendler%20Red-Chains"
 source_ids = ["fey-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grendler_red_chains", path = "json/monsters_unique2.json" },

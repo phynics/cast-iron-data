@@ -2,6 +2,7 @@
 id = "ref/spell/phantom-driver"
 kind = "spell"
 title = "Phantom Driver"
+aon = "SpellDisplay.aspx?ItemName=Phantom%20Driver"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phantom_driver", path = "json/spells7.json" },

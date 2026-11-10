@@ -2,6 +2,7 @@
 id = "ref/feat/weapon-shift"
 kind = "feat"
 title = "Weapon Shift"
+aon = "FeatDisplay.aspx?ItemName=Weapon%20Shift"
 source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weapon_shift", path = "json/feat17.json" },

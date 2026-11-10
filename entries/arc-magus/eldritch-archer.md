@@ -2,6 +2,7 @@
 id = "ref/arc-magus/eldritch-archer"
 kind = "archetype"
 title = "Eldritch Archer"
+aon = "ArchetypeDisplay.aspx?FixedName=Magus%20Eldritch%20Archer"
 source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eldritch_archer", path = "json/archetypes_magus.json" },

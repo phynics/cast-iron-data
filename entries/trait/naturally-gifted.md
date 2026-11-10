@@ -2,6 +2,7 @@
 id = "ref/trait/naturally-gifted"
 kind = "trait"
 title = "Naturally Gifted"
+aon = "TraitDisplay.aspx?ItemName=Naturally%20Gifted"
 source_ids = ["gnomes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "naturally_gifted", path = "json/traits01.json" },

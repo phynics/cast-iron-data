@@ -2,6 +2,7 @@
 id = "ref/monster/flail-snail"
 kind = "creature"
 title = "Flail Snail"
+aon = "MonsterDisplay.aspx?ItemName=Flail%20Snail"
 source_ids = ["bestiary-3", "misfit-monsters-redeemed"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flail_snail", path = "json/monsters10.json" },

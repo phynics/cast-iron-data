@@ -2,6 +2,7 @@
 id = "ref/feat/battle-singer"
 kind = "feat"
 title = "Battle Singer"
+aon = "FeatDisplay.aspx?ItemName=Battle%20Singer"
 source_ids = ["goblins-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "battle_singer", path = "json/feat02.json" },

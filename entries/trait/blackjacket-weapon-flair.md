@@ -2,6 +2,7 @@
 id = "ref/trait/blackjacket-weapon-flair"
 kind = "trait"
 title = "Blackjacket Weapon Flair"
+aon = "TraitDisplay.aspx?ItemName=Blackjacket%20Weapon%20Flair"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blackjacket_weapon_flair", path = "json/traits01.json" },

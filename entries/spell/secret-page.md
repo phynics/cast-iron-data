@@ -2,6 +2,7 @@
 id = "ref/spell/secret-page"
 kind = "spell"
 title = "Secret Page"
+aon = "SpellDisplay.aspx?ItemName=Secret%20Page"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "secret_page", path = "json/spells15.json" },

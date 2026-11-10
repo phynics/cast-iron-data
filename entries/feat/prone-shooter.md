@@ -2,6 +2,7 @@
 id = "ref/feat/prone-shooter"
 kind = "feat"
 title = "Prone Shooter"
+aon = "FeatDisplay.aspx?ItemName=Prone%20Shooter"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prone_shooter", path = "json/feat12.json" },

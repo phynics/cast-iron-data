@@ -2,6 +2,7 @@
 id = "ref/feat/amateur-gunslinger"
 kind = "feat"
 title = "Amateur Gunslinger"
+aon = "FeatDisplay.aspx?ItemName=Amateur%20Gunslinger"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "amateur_gunslinger", path = "json/feat01.json" },

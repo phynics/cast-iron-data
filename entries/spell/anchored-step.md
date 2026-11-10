@@ -2,6 +2,7 @@
 id = "ref/spell/anchored-step"
 kind = "spell"
 title = "Anchored Step"
+aon = "SpellDisplay.aspx?ItemName=Anchored%20Step"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "anchored_step", path = "json/spells.json" },

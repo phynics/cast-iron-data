@@ -2,6 +2,7 @@
 id = "ref/monster/keeper-of-the-yellow-sign"
 kind = "creature"
 title = "Keeper of the Yellow Sign"
+aon = "MonsterDisplay.aspx?ItemName=Keeper%20of%20the%20Yellow%20Sign"
 source_ids = ["pathfinder-110-the-thrushmoor-terror"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "keeper_of_the_yellow_sign", path = "json/monsters35.json" },

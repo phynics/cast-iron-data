@@ -2,6 +2,7 @@
 id = "ref/trait/skaters-balance"
 kind = "trait"
 title = "Skater's Balance"
+aon = "TraitDisplay.aspx?ItemName=Skater%27s%20Balance"
 source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skaters_balance", path = "json/traits05.json" },

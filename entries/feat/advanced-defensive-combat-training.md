@@ -2,6 +2,7 @@
 id = "ref/feat/advanced-defensive-combat-training"
 kind = "feat"
 title = "Advanced Defensive Combat Training"
+aon = "FeatDisplay.aspx?ItemName=Advanced%20Defensive%20Combat%20Training"
 source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "advanced_defensive_combat_training", path = "json/feat01.json" },

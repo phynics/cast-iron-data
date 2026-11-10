@@ -2,6 +2,7 @@
 id = "ref/feat/greater-ironclad-reactions"
 kind = "feat"
 title = "Greater Ironclad Reactions"
+aon = "FeatDisplay.aspx?ItemName=Greater%20Ironclad%20Reactions"
 source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_ironclad_reactions", path = "json/feat08.json" },

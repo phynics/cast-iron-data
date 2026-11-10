@@ -2,6 +2,7 @@
 id = "ref/spell/raiment-of-command"
 kind = "spell"
 title = "Raiment of Command"
+aon = "SpellDisplay.aspx?ItemName=Raiment%20of%20Command"
 source_ids = ["rise-of-the-runelords-anniversary-edition", "pathfinder-5-sins-of-the-saviors"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "raiment_of_command", path = "json/spells8.json" },

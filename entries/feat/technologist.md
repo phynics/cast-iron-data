@@ -2,6 +2,7 @@
 id = "ref/feat/technologist"
 kind = "feat"
 title = "Technologist"
+aon = "FeatDisplay.aspx?ItemName=Technologist"
 source_ids = ["iron-gods-players-guide", "technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "technologist", path = "json/feat16.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/incutilis-incutilis-lord"
 kind = "creature"
 title = "Incutilis Lord"
+aon = "MonsterDisplay.aspx?ItemName=Incutilis%20Lord"
 source_ids = ["plunder-and-peril"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "incutilis_incutilis_lord", path = "json/monsters14.json" },

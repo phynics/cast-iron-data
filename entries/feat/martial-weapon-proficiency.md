@@ -2,6 +2,7 @@
 id = "ref/feat/martial-weapon-proficiency"
 kind = "feat"
 title = "Martial Weapon Proficiency"
+aon = "FeatDisplay.aspx?ItemName=Martial%20Weapon%20Proficiency"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "martial_weapon_proficiency", path = "json/feat10.json" },

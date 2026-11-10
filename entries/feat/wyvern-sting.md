@@ -2,6 +2,7 @@
 id = "ref/feat/wyvern-sting"
 kind = "feat"
 title = "Wyvern Sting"
+aon = "FeatDisplay.aspx?ItemName=Wyvern%20Sting"
 source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wyvern_sting", path = "json/feat17.json" },

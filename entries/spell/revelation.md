@@ -2,6 +2,7 @@
 id = "ref/spell/revelation"
 kind = "spell"
 title = "Revelation"
+aon = "SpellDisplay.aspx?ItemName=Revelation"
 source_ids = ["seekers-of-secrets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "revelation", path = "json/spells8.json" },

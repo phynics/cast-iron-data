@@ -2,6 +2,7 @@
 id = "ref/monster/dragon-primal-cloud-ancient-cloud-dragon"
 kind = "creature"
 title = "Ancient Cloud Dragon"
+aon = "MonsterDisplay.aspx?ItemName=Ancient%20Cloud%20Dragon"
 source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_primal_cloud_ancient_cloud_dragon", path = "json/monsters30.json" },

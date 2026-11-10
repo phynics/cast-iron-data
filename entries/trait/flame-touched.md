@@ -2,6 +2,7 @@
 id = "ref/trait/flame-touched"
 kind = "trait"
 title = "Flame-Touched"
+aon = "TraitDisplay.aspx?ItemName=Flame-Touched"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flame_touched", path = "json/traits02.json" },

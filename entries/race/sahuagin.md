@@ -2,6 +2,7 @@
 id = "ref/race/sahuagin"
 kind = "race"
 title = "Sahuagin"
+aon = "RacesDisplay.aspx?ItemName=Sahuagin"
 source_ids = ["blood-of-the-sea", "heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sahuagin", path = "json/races4.json" },

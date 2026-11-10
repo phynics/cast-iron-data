@@ -2,6 +2,7 @@
 id = "ref/spell/lend-path"
 kind = "spell"
 title = "Lend Path"
+aon = "SpellDisplay.aspx?ItemName=Lend%20Path"
 source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lend_path", path = "json/spells6.json" },

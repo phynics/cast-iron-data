@@ -2,6 +2,7 @@
 id = "ref/trait/child-of-oppara"
 kind = "trait"
 title = "Child of Oppara"
+aon = "TraitDisplay.aspx?ItemName=Child%20of%20Oppara"
 source_ids = ["war-for-the-crown-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "child_of_oppara", path = "json/traits03.json" },

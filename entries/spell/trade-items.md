@@ -2,6 +2,7 @@
 id = "ref/spell/trade-items"
 kind = "spell"
 title = "Trade Items"
+aon = "SpellDisplay.aspx?ItemName=Trade%20Items"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trade_items", path = "json/spells10.json" },

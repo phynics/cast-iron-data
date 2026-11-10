@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/deep-walker"
 kind = "archetype"
 title = "Deep Walker"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Deep%20Walker"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deep_walker", path = "json/archetypes_ranger.json" },

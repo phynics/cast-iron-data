@@ -2,6 +2,7 @@
 id = "ref/monster/dragon-outer-solar-ancient-solar-dragon"
 kind = "creature"
 title = "Ancient Solar Dragon"
+aon = "MonsterDisplay.aspx?ItemName=Ancient%20Solar%20Dragon"
 source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_outer_solar_ancient_solar_dragon", path = "json/monsters42.json" },

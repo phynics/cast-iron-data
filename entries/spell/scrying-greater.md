@@ -2,6 +2,7 @@
 id = "ref/spell/scrying-greater"
 kind = "spell"
 title = "Greater Scrying"
+aon = "SpellDisplay.aspx?ItemName=Scrying%2C%20Greater"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scrying_greater", path = "json/spells15.json" },

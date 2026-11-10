@@ -2,6 +2,7 @@
 id = "ref/spell/spit-venom"
 kind = "spell"
 title = "Spit Venom"
+aon = "SpellDisplay.aspx?ItemName=Spit%20Venom"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spit_venom", path = "json/spells9.json" },

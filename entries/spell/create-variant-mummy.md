@@ -2,6 +2,7 @@
 id = "ref/spell/create-variant-mummy"
 kind = "spell"
 title = "Create Variant Mummy"
+aon = "SpellDisplay.aspx?ItemName=Create%20Variant%20Mummy"
 source_ids = ["pathfinder-81-shifting-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "create_variant_mummy", path = "json/spells3.json" },

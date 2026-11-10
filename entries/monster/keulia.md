@@ -2,6 +2,7 @@
 id = "ref/monster/keulia"
 kind = "creature"
 title = "Keulia"
+aon = "MonsterDisplay.aspx?ItemName=Keulia"
 source_ids = ["druma-profit-and-prophecy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "keulia", path = "json/monsters15.json" },

@@ -2,6 +2,7 @@
 id = "ref/eq-misc/signet-ring"
 kind = "item"
 title = "Signet ring"
+aon = "EquipmentMiscDisplay.aspx?ItemName=Signet%20Ring"
 source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "signet_ring", path = "json/equipment_misc3.json" },

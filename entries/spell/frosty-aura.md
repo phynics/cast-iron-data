@@ -2,6 +2,7 @@
 id = "ref/spell/frosty-aura"
 kind = "spell"
 title = "Frosty Aura"
+aon = "SpellDisplay.aspx?ItemName=Frosty%20Aura"
 source_ids = ["pathfinder-91-battle-of-bloodmarch-hills"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "frosty_aura", path = "json/spells13.json" },

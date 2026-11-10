@@ -2,6 +2,7 @@
 id = "ref/arc-oracle/hermit"
 kind = "archetype"
 title = "Hermit"
+aon = "ArchetypeDisplay.aspx?FixedName=Oracle%20Hermit"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hermit", path = "json/archetypes_oracle.json" },

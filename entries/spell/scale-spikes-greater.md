@@ -2,6 +2,7 @@
 id = "ref/spell/scale-spikes-greater"
 kind = "spell"
 title = "Greater Scale Spikes"
+aon = "SpellDisplay.aspx?ItemName=Scale%20Spikes%2C%20Greater"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scale_spikes_greater", path = "json/spells8.json" },

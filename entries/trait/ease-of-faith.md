@@ -2,6 +2,7 @@
 id = "ref/trait/ease-of-faith"
 kind = "trait"
 title = "Ease of Faith"
+aon = "TraitDisplay.aspx?ItemName=Ease%20of%20Faith"
 source_ids = ["ultimate-campaign", "second-darkness-players-guide", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ease_of_faith", path = "json/traits01.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/life-channel"
 kind = "spell"
 title = "Life Channel"
+aon = "SpellDisplay.aspx?ItemName=Life%20Channel"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "life_channel", path = "json/spells6.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/blight-swamp-blight"
 kind = "creature"
 title = "Swamp Blight"
+aon = "MonsterDisplay.aspx?ItemName=Swamp%20Blight"
 source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blight_swamp_blight", path = "json/monsters27.json" },

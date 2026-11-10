@@ -2,6 +2,7 @@
 id = "ref/feat/object-of-legend"
 kind = "feat"
 title = "Object of Legend"
+aon = "FeatDisplay.aspx?ItemName=Object%20of%20Legend"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "object_of_legend", path = "json/feat11.json" },

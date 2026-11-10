@@ -2,6 +2,7 @@
 id = "ref/feat/defiant-luck"
 kind = "feat"
 title = "Defiant Luck"
+aon = "FeatDisplay.aspx?ItemName=Defiant%20Luck"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "defiant_luck", path = "json/feat04.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/sure-footed"
 kind = "feat"
 title = "Sure-Footed"
+aon = "FeatDisplay.aspx?ItemName=Sure-Footed"
 source_ids = ["animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sure_footed", path = "json/feat15.json" },

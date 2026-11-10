@@ -2,6 +2,7 @@
 id = "ref/feat/improved-blind-fight"
 kind = "feat"
 title = "Improved Blind-Fight"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Blind-Fight"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_blind_fight", path = "json/feat08.json" },

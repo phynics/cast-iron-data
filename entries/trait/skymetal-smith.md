@@ -2,6 +2,7 @@
 id = "ref/trait/skymetal-smith"
 kind = "trait"
 title = "Skymetal Smith"
+aon = "TraitDisplay.aspx?ItemName=Skymetal%20Smith"
 source_ids = ["iron-gods-players-guide", "people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skymetal_smith", path = "json/traits02.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/viper-bomb-admixture"
 kind = "spell"
 title = "Viper Bomb Admixture"
+aon = "SpellDisplay.aspx?ItemName=Viper%20Bomb%20Admixture"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "viper_bomb_admixture", path = "json/spells11.json" },

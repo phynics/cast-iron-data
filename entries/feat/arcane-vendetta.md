@@ -2,6 +2,7 @@
 id = "ref/feat/arcane-vendetta"
 kind = "feat"
 title = "Arcane Vendetta"
+aon = "FeatDisplay.aspx?ItemName=Arcane%20Vendetta"
 source_ids = ["inner-sea-world-guide", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcane_vendetta", path = "json/feat01.json" },

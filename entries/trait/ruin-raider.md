@@ -2,6 +2,7 @@
 id = "ref/trait/ruin-raider"
 kind = "trait"
 title = "Ruin Raider"
+aon = "TraitDisplay.aspx?ItemName=Ruin%20Raider"
 source_ids = ["varisia-birthplace-of-legends", "shattered-star-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ruin_raider", path = "json/traits02.json" },

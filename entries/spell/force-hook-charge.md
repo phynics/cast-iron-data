@@ -2,6 +2,7 @@
 id = "ref/spell/force-hook-charge"
 kind = "spell"
 title = "Force Hook Charge"
+aon = "SpellDisplay.aspx?ItemName=Force%20Hook%20Charge"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "force_hook_charge", path = "json/spells13.json" },

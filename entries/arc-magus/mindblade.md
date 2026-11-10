@@ -2,6 +2,7 @@
 id = "ref/arc-magus/mindblade"
 kind = "archetype"
 title = "Mindblade"
+aon = "ArchetypeDisplay.aspx?FixedName=Magus%20Mindblade"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mindblade", path = "json/archetypes_magus.json" },

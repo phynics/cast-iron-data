@@ -2,6 +2,7 @@
 id = "ref/monster/spawn-of-yog-sothoth"
 kind = "creature"
 title = "Spawn of Yog-Sothoth"
+aon = "MonsterDisplay.aspx?ItemName=Spawn%20of%20Yog-Sothoth"
 source_ids = ["bestiary-4", "carrion-hill"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spawn_of_yog_sothoth", path = "json/monsters22.json" },

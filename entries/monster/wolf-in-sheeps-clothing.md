@@ -2,6 +2,7 @@
 id = "ref/monster/wolf-in-sheeps-clothing"
 kind = "creature"
 title = "Wolf-in-Sheep's-Clothing"
+aon = "MonsterDisplay.aspx?ItemName=Wolf-in-Sheep%27s-Clothing"
 source_ids = ["bestiary-3", "misfit-monsters-redeemed"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wolf_in_sheeps_clothing", path = "json/monsters25.json" },

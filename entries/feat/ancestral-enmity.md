@@ -2,6 +2,7 @@
 id = "ref/feat/ancestral-enmity"
 kind = "feat"
 title = "Ancestral Enmity"
+aon = "FeatDisplay.aspx?ItemName=Ancestral%20Enmity"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ancestral_enmity", path = "json/feat01.json" },

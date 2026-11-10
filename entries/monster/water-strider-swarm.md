@@ -2,6 +2,7 @@
 id = "ref/monster/water-strider-swarm"
 kind = "creature"
 title = "Water Strider Swarm"
+aon = "MonsterDisplay.aspx?ItemName=Water%20Strider%20Swarm"
 source_ids = ["pathfinder-49-the-brinewall-legacy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "water_strider_swarm", path = "json/monsters25.json" },

@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-serene-contortions"
 kind = "item"
 title = "Ring of Serene Contortions"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Serene%20Contortions"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_serene_contortions", path = "json/magic_ring.json" },

@@ -2,6 +2,7 @@
 id = "ref/pclass/gray-corsair"
 kind = "prestige_class"
 title = "Gray Corsair"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Gray%20Corsair"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gray_corsair", path = "json/prestige_classes2.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/tainted-spirit"
 kind = "trait"
 title = "Tainted Spirit"
+aon = "TraitDisplay.aspx?ItemName=Tainted%20Spirit"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tainted_spirit", path = "json/traits03.json" },

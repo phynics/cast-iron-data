@@ -2,6 +2,7 @@
 id = "ref/monster/galundari"
 kind = "creature"
 title = "Galundari, the Scourge of Heaven"
+aon = "MonsterDisplay.aspx?ItemName=Galundari%2C%20the%20Scourge%20of%20Heaven"
 source_ids = ["demons-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "galundari", path = "json/monsters_unique4.json" },

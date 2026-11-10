@@ -2,6 +2,7 @@
 id = "ref/spell/chain-lightning"
 kind = "spell"
 title = "Chain Lightning"
+aon = "SpellDisplay.aspx?ItemName=Chain%20Lightning"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chain_lightning", path = "json/spells2.json" },

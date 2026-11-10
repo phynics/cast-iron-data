@@ -2,6 +2,7 @@
 id = "ref/spell/prying-eyes"
 kind = "spell"
 title = "Prying Eyes"
+aon = "SpellDisplay.aspx?ItemName=Prying%20Eyes"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prying_eyes", path = "json/spells15.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/crippling-critical"
 kind = "feat"
 title = "Crippling Critical"
+aon = "FeatDisplay.aspx?ItemName=Crippling%20Critical"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crippling_critical", path = "json/feat03.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/expert-boarder"
 kind = "trait"
 title = "Expert Boarder"
+aon = "TraitDisplay.aspx?ItemName=Expert%20Boarder"
 source_ids = ["pirates-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "expert_boarder", path = "json/traits03.json" },

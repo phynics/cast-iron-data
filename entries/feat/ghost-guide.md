@@ -2,6 +2,7 @@
 id = "ref/feat/ghost-guide"
 kind = "feat"
 title = "Ghost Guide"
+aon = "FeatDisplay.aspx?ItemName=Ghost%20Guide"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghost_guide", path = "json/feat07.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/lamia-matriarch"
 kind = "creature"
 title = "Lamia Matriarch"
+aon = "MonsterDisplay.aspx?ItemName=Lamia%20Matriarch"
 source_ids = ["bestiary-2", "pathfinder-2-the-skinsaw-murders"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lamia_matriarch", path = "json/monsters34.json" },

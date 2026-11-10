@@ -2,6 +2,7 @@
 id = "ref/monster/chupacabra"
 kind = "creature"
 title = "Chupacabra"
+aon = "MonsterDisplay.aspx?ItemName=Chupacabra"
 source_ids = ["bestiary-2", "pathfinder-19-howl-of-the-carrion-king"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chupacabra", path = "json/monsters05.json" },

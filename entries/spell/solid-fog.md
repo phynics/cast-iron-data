@@ -2,6 +2,7 @@
 id = "ref/spell/solid-fog"
 kind = "spell"
 title = "Solid Fog"
+aon = "SpellDisplay.aspx?ItemName=Solid%20Fog"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "solid_fog", path = "json/spells9.json" },

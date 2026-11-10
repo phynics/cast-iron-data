@@ -2,6 +2,7 @@
 id = "ref/monster/golem-marrowstone-golem"
 kind = "creature"
 title = "Marrowstone Golem"
+aon = "MonsterDisplay.aspx?ItemName=Marrowstone%20Golem"
 source_ids = ["inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_marrowstone_golem", path = "json/monsters33.json" },

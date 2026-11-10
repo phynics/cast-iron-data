@@ -2,6 +2,7 @@
 id = "ref/spell/repel-wood"
 kind = "spell"
 title = "Repel Wood"
+aon = "SpellDisplay.aspx?ItemName=Repel%20Wood"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "repel_wood", path = "json/spells8.json" },

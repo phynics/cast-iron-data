@@ -2,6 +2,7 @@
 id = "ref/spell/sea-of-dust"
 kind = "spell"
 title = "Sea of Dust"
+aon = "SpellDisplay.aspx?ItemName=Sea%20of%20Dust"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sea_of_dust", path = "json/spells15.json" },

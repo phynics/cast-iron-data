@@ -2,6 +2,7 @@
 id = "ref/pclass/evangelist"
 kind = "prestige_class"
 title = "Evangelist"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Evangelist"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "evangelist", path = "json/prestige_classes4.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/aggravate-affliction"
 kind = "spell"
 title = "Aggravate Affliction"
+aon = "SpellDisplay.aspx?ItemName=Aggravate%20Affliction"
 source_ids = ["pathfinder-82-secrets-of-the-sphinx"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aggravate_affliction", path = "json/spells.json" },

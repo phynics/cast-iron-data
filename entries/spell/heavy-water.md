@@ -2,6 +2,7 @@
 id = "ref/spell/heavy-water"
 kind = "spell"
 title = "Heavy Water"
+aon = "SpellDisplay.aspx?ItemName=Heavy%20Water"
 source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heavy_water", path = "json/spells5.json" },

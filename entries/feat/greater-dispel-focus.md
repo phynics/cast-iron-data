@@ -2,6 +2,7 @@
 id = "ref/feat/greater-dispel-focus"
 kind = "feat"
 title = "Greater Dispel Focus"
+aon = "FeatDisplay.aspx?ItemName=Greater%20Dispel%20Focus"
 source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_dispel_focus", path = "json/feat08.json" },

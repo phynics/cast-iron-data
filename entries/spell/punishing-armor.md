@@ -2,6 +2,7 @@
 id = "ref/spell/punishing-armor"
 kind = "spell"
 title = "Punishing Armor"
+aon = "SpellDisplay.aspx?ItemName=Punishing%20Armor"
 source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "punishing_armor", path = "json/spells15.json" },

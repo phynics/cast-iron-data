@@ -2,6 +2,7 @@
 id = "ref/trait/cleansing-light"
 kind = "trait"
 title = "Cleansing Light"
+aon = "TraitDisplay.aspx?ItemName=Cleansing%20Light"
 source_ids = ["inner-sea-gods", "faiths-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cleansing_light", path = "json/traits03.json" },

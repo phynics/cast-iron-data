@@ -2,6 +2,7 @@
 id = "ref/spell/dragonvoice"
 kind = "spell"
 title = "Dragonvoice"
+aon = "SpellDisplay.aspx?ItemName=Dragonvoice"
 source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragonvoice", path = "json/spells13.json" },

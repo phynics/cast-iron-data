@@ -2,6 +2,7 @@
 id = "ref/feat/missile-shield"
 kind = "feat"
 title = "Missile Shield"
+aon = "FeatDisplay.aspx?ItemName=Missile%20Shield"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "missile_shield", path = "json/feat10.json" },

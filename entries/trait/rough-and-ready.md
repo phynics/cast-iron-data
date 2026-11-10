@@ -2,6 +2,7 @@
 id = "ref/trait/rough-and-ready"
 kind = "trait"
 title = "Rough and Ready"
+aon = "TraitDisplay.aspx?ItemName=Rough%20and%20Ready"
 source_ids = ["adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rough_and_ready", path = "json/traits03.json" },

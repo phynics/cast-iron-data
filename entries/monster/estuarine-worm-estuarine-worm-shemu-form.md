@@ -2,6 +2,7 @@
 id = "ref/monster/estuarine-worm-estuarine-worm-shemu-form"
 kind = "creature"
 title = "Estuarine Worm (Shemu Form)"
+aon = "MonsterDisplay.aspx?ItemName=Estuarine%20Worm%20%28Shemu%20Form%29"
 source_ids = ["pathfinder-82-secrets-of-the-sphinx"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "estuarine_worm_estuarine_worm_shemu_form", path = "json/monsters42.json" },

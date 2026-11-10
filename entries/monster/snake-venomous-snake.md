@@ -2,6 +2,7 @@
 id = "ref/monster/snake-venomous-snake"
 kind = "creature"
 title = "Venomous Snake"
+aon = "MonsterDisplay.aspx?ItemName=Venomous%20Snake"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snake_venomous_snake", path = "json/monsters22.json" },

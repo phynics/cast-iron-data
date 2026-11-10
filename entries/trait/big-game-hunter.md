@@ -2,6 +2,7 @@
 id = "ref/trait/big-game-hunter"
 kind = "trait"
 title = "Big Game Hunter"
+aon = "TraitDisplay.aspx?ItemName=Big%20Game%20Hunter"
 source_ids = ["people-of-the-north"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "big_game_hunter", path = "json/traits04.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/planar-binding-lesser"
 kind = "spell"
 title = "Lesser Planar Binding"
+aon = "SpellDisplay.aspx?ItemName=Planar%20Binding%2C%20Lesser"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planar_binding_lesser", path = "json/spells7.json" },

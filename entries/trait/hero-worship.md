@@ -2,6 +2,7 @@
 id = "ref/trait/hero-worship"
 kind = "trait"
 title = "Hero Worship"
+aon = "TraitDisplay.aspx?ItemName=Hero%20Worship"
 source_ids = ["jade-regent-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hero_worship", path = "json/traits02.json" },

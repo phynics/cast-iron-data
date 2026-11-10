@@ -2,6 +2,7 @@
 id = "ref/trait/gesture-expertise"
 kind = "trait"
 title = "Gesture Expertise"
+aon = "TraitDisplay.aspx?ItemName=Gesture%20Expertise"
 source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gesture_expertise", path = "json/traits01.json" },

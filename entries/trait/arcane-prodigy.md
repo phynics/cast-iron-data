@@ -2,6 +2,7 @@
 id = "ref/trait/arcane-prodigy"
 kind = "trait"
 title = "Arcane Prodigy"
+aon = "TraitDisplay.aspx?ItemName=Arcane%20Prodigy"
 source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcane_prodigy", path = "json/traits05.json" },

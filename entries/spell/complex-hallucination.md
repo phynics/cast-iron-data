@@ -2,6 +2,7 @@
 id = "ref/spell/complex-hallucination"
 kind = "spell"
 title = "Complex Hallucination"
+aon = "SpellDisplay.aspx?ItemName=Complex%20Hallucination"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "complex_hallucination", path = "json/spells.json" },

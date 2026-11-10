@@ -2,6 +2,7 @@
 id = "ref/trait/prismati-player"
 kind = "trait"
 title = "Prismati Player"
+aon = "TraitDisplay.aspx?ItemName=Prismati%20Player"
 source_ids = ["andoran-spirit-of-liberty"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prismati_player", path = "json/traits04.json" },

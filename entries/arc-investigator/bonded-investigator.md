@@ -2,6 +2,7 @@
 id = "ref/arc-investigator/bonded-investigator"
 kind = "archetype"
 title = "Bonded Investigator"
+aon = "ArchetypeDisplay.aspx?FixedName=Investigator%20Bonded%20Investigator"
 source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bonded_investigator", path = "json/archetypes_investigator.json" },

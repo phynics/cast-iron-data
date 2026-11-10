@@ -2,6 +2,7 @@
 id = "ref/monster/goblin-goblin-vulture-pilot"
 kind = "creature"
 title = "Goblin Vulture Pilot"
+aon = "MonsterDisplay.aspx?ItemName=Goblin%20Vulture%20Pilot"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "goblin_goblin_vulture_pilot", path = "json/monsters12.json" },

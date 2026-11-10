@@ -2,6 +2,7 @@
 id = "ref/spell/sarzari-shadow-memory"
 kind = "spell"
 title = "Sarzari Shadow Memory"
+aon = "SpellDisplay.aspx?ItemName=Sarzari%20Shadow%20Memory"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sarzari_shadow_memory", path = "json/spells8.json" },

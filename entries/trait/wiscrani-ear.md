@@ -2,6 +2,7 @@
 id = "ref/trait/wiscrani-ear"
 kind = "trait"
 title = "Wiscrani Ear"
+aon = "TraitDisplay.aspx?ItemName=Wiscrani%20Ear"
 source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wiscrani_ear", path = "json/traits01.json" },

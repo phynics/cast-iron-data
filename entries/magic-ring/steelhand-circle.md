@@ -2,6 +2,7 @@
 id = "ref/magic-ring/steelhand-circle"
 kind = "item"
 title = "Steelhand Circle"
+aon = "MagicRingsDisplay.aspx?FinalName=Steelhand%20Circle"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "steelhand_circle", path = "json/magic_ring.json" },

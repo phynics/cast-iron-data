@@ -2,6 +2,7 @@
 id = "ref/trait/kyonin-gatekeeper"
 kind = "trait"
 title = "Kyonin Gatekeeper"
+aon = "TraitDisplay.aspx?ItemName=Kyonin%20Gatekeeper"
 source_ids = ["elves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kyonin_gatekeeper", path = "json/traits04.json" },

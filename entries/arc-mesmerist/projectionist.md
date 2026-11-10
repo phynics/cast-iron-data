@@ -2,6 +2,7 @@
 id = "ref/arc-mesmerist/projectionist"
 kind = "archetype"
 title = "Projectionist"
+aon = "ArchetypeDisplay.aspx?FixedName=Mesmerist%20Projectionist"
 source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "projectionist", path = "json/archetypes_mesmerist.json" },

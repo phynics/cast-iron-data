@@ -2,6 +2,7 @@
 id = "ref/feat/furious-focus"
 kind = "feat"
 title = "Furious Focus"
+aon = "FeatDisplay.aspx?ItemName=Furious%20Focus"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "furious_focus", path = "json/feat07.json" },

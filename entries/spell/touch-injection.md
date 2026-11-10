@@ -2,6 +2,7 @@
 id = "ref/spell/touch-injection"
 kind = "spell"
 title = "Touch Injection"
+aon = "SpellDisplay.aspx?ItemName=Touch%20Injection"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "touch_injection", path = "json/spells10.json" },

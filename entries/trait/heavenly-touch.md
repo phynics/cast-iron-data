@@ -2,6 +2,7 @@
 id = "ref/trait/heavenly-touch"
 kind = "trait"
 title = "Heavenly Touch"
+aon = "TraitDisplay.aspx?ItemName=Heavenly%20Touch"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heavenly_touch", path = "json/traits04.json" },

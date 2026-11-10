@@ -2,6 +2,7 @@
 id = "ref/feat/curative-mastery"
 kind = "feat"
 title = "Curative Mastery"
+aon = "FeatDisplay.aspx?ItemName=Curative%20Mastery"
 source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "curative_mastery", path = "json/feat04.json" },

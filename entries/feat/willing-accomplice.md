@@ -2,6 +2,7 @@
 id = "ref/feat/willing-accomplice"
 kind = "feat"
 title = "Willing Accomplice"
+aon = "FeatDisplay.aspx?ItemName=Willing%20Accomplice"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "willing_accomplice", path = "json/feat17.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/umbral-weapon"
 kind = "spell"
 title = "Umbral Weapon"
+aon = "SpellDisplay.aspx?ItemName=Umbral%20Weapon"
 source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "umbral_weapon", path = "json/spells11.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/growth-in-ash"
 kind = "feat"
 title = "Growth in Ash"
+aon = "FeatDisplay.aspx?ItemName=Growth%20in%20Ash"
 source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "growth_in_ash", path = "json/feat08.json" },

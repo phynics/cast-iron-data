@@ -2,6 +2,7 @@
 id = "ref/feat/channeled-revival"
 kind = "feat"
 title = "Channeled Revival"
+aon = "FeatDisplay.aspx?ItemName=Channeled%20Revival"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "channeled_revival", path = "json/feat03.json" },

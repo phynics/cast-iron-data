@@ -2,6 +2,7 @@
 id = "ref/monster/ossumental-ossumental-air"
 kind = "creature"
 title = "Ossumental (Air)"
+aon = "MonsterDisplay.aspx?ItemName=Ossumental%20%28Air%29"
 source_ids = ["pathfinder-83-the-slave-trenches-of-hakotep"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ossumental_ossumental_air", path = "json/monsters36.json" },

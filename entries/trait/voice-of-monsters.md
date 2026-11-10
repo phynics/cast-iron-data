@@ -2,6 +2,7 @@
 id = "ref/trait/voice-of-monsters"
 kind = "trait"
 title = "Voice of Monsters"
+aon = "TraitDisplay.aspx?ItemName=Voice%20of%20Monsters"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "voice_of_monsters", path = "json/traits03.json" },

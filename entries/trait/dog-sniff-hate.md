@@ -2,6 +2,7 @@
 id = "ref/trait/dog-sniff-hate"
 kind = "trait"
 title = "Dog-Sniff-Hate"
+aon = "TraitDisplay.aspx?ItemName=Dog-Sniff-Hate"
 source_ids = ["goblins-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dog_sniff_hate", path = "json/traits05.json" },

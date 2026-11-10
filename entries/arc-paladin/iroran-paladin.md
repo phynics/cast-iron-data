@@ -2,6 +2,7 @@
 id = "ref/arc-paladin/iroran-paladin"
 kind = "archetype"
 title = "Iroran Paladin"
+aon = "ArchetypeDisplay.aspx?FixedName=Paladin%20Iroran%20Paladin"
 source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "iroran_paladin", path = "json/archetypes_paladin.json" },

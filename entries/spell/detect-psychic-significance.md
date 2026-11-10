@@ -2,6 +2,7 @@
 id = "ref/spell/detect-psychic-significance"
 kind = "spell"
 title = "Detect Psychic Significance"
+aon = "SpellDisplay.aspx?ItemName=Detect%20Psychic%20Significance"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "detect_psychic_significance", path = "json/spells3.json" },

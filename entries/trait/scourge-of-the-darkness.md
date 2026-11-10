@@ -2,6 +2,7 @@
 id = "ref/trait/scourge-of-the-darkness"
 kind = "trait"
 title = "Scourge of the Darkness"
+aon = "TraitDisplay.aspx?ItemName=Scourge%20of%20the%20Darkness"
 source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scourge_of_the_darkness", path = "json/traits01.json" },

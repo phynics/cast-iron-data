@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/periapt-of-foul-rotting"
 kind = "item"
 title = "Periapt of Foul Rotting"
+aon = "MagicCursedDisplay.aspx?ItemName=Periapt%20of%20Foul%20Rotting"
 source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "periapt_of_foul_rotting", path = "json/magic_wondrous_neck.json" },

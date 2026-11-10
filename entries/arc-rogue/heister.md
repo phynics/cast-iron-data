@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/heister"
 kind = "archetype"
 title = "Heister"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Heister"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heister", path = "json/archetypes_rogue.json" },

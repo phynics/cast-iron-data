@@ -2,6 +2,7 @@
 id = "ref/monster/goblin-goblin-commando"
 kind = "creature"
 title = "Goblin Commando"
+aon = "MonsterDisplay.aspx?ItemName=Goblin%20Commando"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "goblin_goblin_commando", path = "json/monsters12.json" },

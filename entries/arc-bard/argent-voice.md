@@ -2,6 +2,7 @@
 id = "ref/arc-bard/argent-voice"
 kind = "archetype"
 title = "Argent Voice"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Argent%20Voice"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "argent_voice", path = "json/archetypes_bard.json" },

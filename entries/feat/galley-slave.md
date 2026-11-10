@@ -2,6 +2,7 @@
 id = "ref/feat/galley-slave"
 kind = "feat"
 title = "Galley Slave"
+aon = "FeatDisplay.aspx?ItemName=Galley%20Slave"
 source_ids = ["taldor-echoes-of-glory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "galley_slave", path = "json/feat07.json" },

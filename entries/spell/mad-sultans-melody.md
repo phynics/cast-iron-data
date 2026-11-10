@@ -2,6 +2,7 @@
 id = "ref/spell/mad-sultans-melody"
 kind = "spell"
 title = "Mad Sultan's Melody"
+aon = "SpellDisplay.aspx?ItemName=Mad%20Sultan%27s%20Melody"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mad_sultans_melody", path = "json/spells6.json" },

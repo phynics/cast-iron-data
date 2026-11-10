@@ -2,6 +2,7 @@
 id = "ref/spell/bullet-shield"
 kind = "spell"
 title = "Bullet Shield"
+aon = "SpellDisplay.aspx?ItemName=Bullet%20Shield"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bullet_shield", path = "json/spells2.json" },

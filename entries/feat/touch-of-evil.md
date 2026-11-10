@@ -2,6 +2,7 @@
 id = "ref/feat/touch-of-evil"
 kind = "feat"
 title = "Touch of Evil"
+aon = "FeatDisplay.aspx?ItemName=Touch%20of%20Evil"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "touch_of_evil", path = "json/feat16.json" },

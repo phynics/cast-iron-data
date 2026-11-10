@@ -2,6 +2,7 @@
 id = "ref/class/occultist"
 kind = "class"
 title = "Occultist"
+aon = "ClassDisplay.aspx?ItemName=Occultist"
 source_ids = ["occult-adventures", "advanced-players-guide", "blood-of-the-beast", "chronicle-of-legends", "horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "occultist", path = "json/classes3.json" },

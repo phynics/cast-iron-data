@@ -2,6 +2,7 @@
 id = "ref/spell/wall-of-nausea"
 kind = "spell"
 title = "Wall of Nausea"
+aon = "SpellDisplay.aspx?ItemName=Wall%20of%20Nausea"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wall_of_nausea", path = "json/spells11.json" },

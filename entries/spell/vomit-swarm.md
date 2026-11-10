@@ -2,6 +2,7 @@
 id = "ref/spell/vomit-swarm"
 kind = "spell"
 title = "Vomit Swarm"
+aon = "SpellDisplay.aspx?ItemName=Vomit%20Swarm"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vomit_swarm", path = "json/spells11.json" },

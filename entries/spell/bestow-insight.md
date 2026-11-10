@@ -2,6 +2,7 @@
 id = "ref/spell/bestow-insight"
 kind = "spell"
 title = "Bestow Insight"
+aon = "SpellDisplay.aspx?ItemName=Bestow%20Insight"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bestow_insight", path = "json/spells12.json" },

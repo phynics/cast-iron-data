@@ -2,6 +2,7 @@
 id = "ref/feat/divination-guide"
 kind = "feat"
 title = "Divination Guide"
+aon = "FeatDisplay.aspx?ItemName=Divination%20Guide"
 source_ids = ["inner-sea-gods", "faiths-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divination_guide", path = "json/feat04.json" },

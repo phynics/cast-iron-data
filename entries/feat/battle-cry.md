@@ -2,6 +2,7 @@
 id = "ref/feat/battle-cry"
 kind = "feat"
 title = "Battle Cry"
+aon = "FeatDisplay.aspx?ItemName=Battle%20Cry"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "battle_cry", path = "json/feat02.json" },

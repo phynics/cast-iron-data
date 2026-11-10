@@ -2,6 +2,7 @@
 id = "ref/monster/gammenore"
 kind = "creature"
 title = "Gammenore"
+aon = "MonsterDisplay.aspx?ItemName=Gammenore"
 source_ids = ["pathfinder-89-palace-of-fallen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gammenore", path = "json/monsters11.json" },

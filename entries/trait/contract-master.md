@@ -2,6 +2,7 @@
 id = "ref/trait/contract-master"
 kind = "trait"
 title = "Contract Master"
+aon = "TraitDisplay.aspx?ItemName=Contract%20Master"
 source_ids = ["inner-sea-gods", "faiths-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "contract_master", path = "json/traits03.json" },

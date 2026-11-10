@@ -2,6 +2,7 @@
 id = "ref/monster/telgrodradt"
 kind = "creature"
 title = "Telgrodradt"
+aon = "MonsterDisplay.aspx?ItemName=Telgrodradt"
 source_ids = ["pathfinder-100-a-song-of-silver"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "telgrodradt", path = "json/monsters23.json" },

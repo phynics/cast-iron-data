@@ -2,6 +2,7 @@
 id = "ref/trait/big-ears"
 kind = "trait"
 title = "Big Ears"
+aon = "TraitDisplay.aspx?ItemName=Big%20Ears"
 source_ids = ["goblins-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "big_ears", path = "json/traits05.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/cicada-cicada-swarm"
 kind = "creature"
 title = "Cicada Swarm"
+aon = "MonsterDisplay.aspx?ItemName=Cicada%20Swarm"
 source_ids = ["pathfinder-116-fangs-of-war"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cicada_cicada_swarm", path = "json/monsters05.json" },

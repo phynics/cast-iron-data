@@ -2,6 +2,7 @@
 id = "ref/spell/obscure-object"
 kind = "spell"
 title = "Obscure Object"
+aon = "SpellDisplay.aspx?ItemName=Obscure%20Object"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "obscure_object", path = "json/spells7.json" },

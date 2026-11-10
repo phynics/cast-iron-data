@@ -2,6 +2,7 @@
 id = "ref/spell/inveigle-person"
 kind = "spell"
 title = "Inveigle Person"
+aon = "SpellDisplay.aspx?ItemName=Inveigle%20Person"
 source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inveigle_person", path = "json/spells14.json" },

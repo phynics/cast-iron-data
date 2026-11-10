@@ -2,6 +2,7 @@
 id = "ref/feat/pinch-time"
 kind = "feat"
 title = "Pinch Time"
+aon = "FeatDisplay.aspx?ItemName=Pinch%20Time"
 source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pinch_time", path = "json/feat12.json" },

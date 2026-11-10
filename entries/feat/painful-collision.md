@@ -2,6 +2,7 @@
 id = "ref/feat/painful-collision"
 kind = "feat"
 title = "Painful Collision"
+aon = "FeatDisplay.aspx?ItemName=Painful%20Collision"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "painful_collision", path = "json/feat11.json" },

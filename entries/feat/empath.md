@@ -2,6 +2,7 @@
 id = "ref/feat/empath"
 kind = "feat"
 title = "Empath"
+aon = "FeatDisplay.aspx?ItemName=Empath"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "empath", path = "json/feat05.json" },

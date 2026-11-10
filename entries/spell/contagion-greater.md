@@ -2,6 +2,7 @@
 id = "ref/spell/contagion-greater"
 kind = "spell"
 title = "Greater Contagion"
+aon = "SpellDisplay.aspx?ItemName=Contagion%2C%20Greater"
 source_ids = ["core-rulebook", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "contagion_greater", path = "json/spells12.json" },

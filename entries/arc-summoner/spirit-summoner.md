@@ -2,6 +2,7 @@
 id = "ref/arc-summoner/spirit-summoner"
 kind = "archetype"
 title = "Spirit Summoner"
+aon = "ArchetypeDisplay.aspx?FixedName=Summoner%20Spirit%20Summoner"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spirit_summoner", path = "json/archetypes_summoner.json" },

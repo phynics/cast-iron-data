@@ -2,6 +2,7 @@
 id = "ref/feat/weather-eye"
 kind = "feat"
 title = "Weather Eye"
+aon = "FeatDisplay.aspx?ItemName=Weather%20Eye"
 source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weather_eye", path = "json/feat17.json" },

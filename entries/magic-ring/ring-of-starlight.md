@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-starlight"
 kind = "item"
 title = "Ring of Starlight"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Starlight"
 source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_starlight", path = "json/magic_ring.json" },

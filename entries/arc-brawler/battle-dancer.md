@@ -2,6 +2,7 @@
 id = "ref/arc-brawler/battle-dancer"
 kind = "archetype"
 title = "Battle Dancer"
+aon = "ArchetypeDisplay.aspx?FixedName=Brawler%20Battle%20Dancer"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "battle_dancer", path = "json/archetypes_brawler.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/obscuring-beacon"
 kind = "feat"
 title = "Obscuring Beacon"
+aon = "FeatDisplay.aspx?ItemName=Obscuring%20Beacon"
 source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "obscuring_beacon", path = "json/feat11.json" },

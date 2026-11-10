@@ -2,6 +2,7 @@
 id = "ref/trait/magical-knack"
 kind = "trait"
 title = "Magical Knack"
+aon = "TraitDisplay.aspx?ItemName=Magical%20Knack"
 source_ids = ["ultimate-campaign", "second-darkness-players-guide", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magical_knack", path = "json/traits02.json" },

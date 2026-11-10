@@ -2,6 +2,7 @@
 id = "ref/feat/splash-weapon-mastery"
 kind = "feat"
 title = "Splash Weapon Mastery"
+aon = "FeatDisplay.aspx?ItemName=Splash%20Weapon%20Mastery"
 source_ids = ["adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "splash_weapon_mastery", path = "json/feat15.json" },

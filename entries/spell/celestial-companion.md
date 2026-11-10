@@ -2,6 +2,7 @@
 id = "ref/spell/celestial-companion"
 kind = "spell"
 title = "Celestial Companion"
+aon = "SpellDisplay.aspx?ItemName=Celestial%20Companion"
 source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "celestial_companion", path = "json/spells2.json" },

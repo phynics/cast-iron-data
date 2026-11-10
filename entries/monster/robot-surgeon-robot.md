@@ -2,6 +2,7 @@
 id = "ref/monster/robot-surgeon-robot"
 kind = "creature"
 title = "Surgeon Robot"
+aon = "MonsterDisplay.aspx?ItemName=Surgeon%20Robot"
 source_ids = ["pathfinder-89-palace-of-fallen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "robot_surgeon_robot", path = "json/monsters20.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/leshy-fungus-leshy"
 kind = "creature"
 title = "Fungus Leshy"
+aon = "MonsterDisplay.aspx?ItemName=Fungus%20Leshy"
 source_ids = ["bestiary-3", "pathfinder-34-blood-for-blood"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "leshy_fungus_leshy", path = "json/monsters34.json" },

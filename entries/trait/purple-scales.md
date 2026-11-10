@@ -2,6 +2,7 @@
 id = "ref/trait/purple-scales"
 kind = "trait"
 title = "Purple Scales"
+aon = "TraitDisplay.aspx?ItemName=Purple%20Scales"
 source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "purple_scales", path = "json/traits05.json" },

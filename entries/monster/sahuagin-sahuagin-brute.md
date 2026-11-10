@@ -2,6 +2,7 @@
 id = "ref/monster/sahuagin-sahuagin-brute"
 kind = "creature"
 title = "Sahuagin Brute"
+aon = "MonsterDisplay.aspx?ItemName=Sahuagin%20Brute"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sahuagin_sahuagin_brute", path = "json/monsters37.json" },

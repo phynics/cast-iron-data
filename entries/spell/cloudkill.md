@@ -2,6 +2,7 @@
 id = "ref/spell/cloudkill"
 kind = "spell"
 title = "Cloudkill"
+aon = "SpellDisplay.aspx?ItemName=Cloudkill"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloudkill", path = "json/spells2.json" },

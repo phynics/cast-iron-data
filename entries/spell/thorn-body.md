@@ -2,6 +2,7 @@
 id = "ref/spell/thorn-body"
 kind = "spell"
 title = "Thorn Body"
+aon = "SpellDisplay.aspx?ItemName=Thorn%20Body"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thorn_body", path = "json/spells10.json" },

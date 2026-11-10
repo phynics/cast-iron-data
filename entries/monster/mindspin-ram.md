@@ -2,6 +2,7 @@
 id = "ref/monster/mindspin-ram"
 kind = "creature"
 title = "Mindspin Ram"
+aon = "MonsterDisplay.aspx?ItemName=Mindspin%20Ram"
 source_ids = ["pathfinder-91-battle-of-bloodmarch-hills"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mindspin_ram", path = "json/monsters17.json" },

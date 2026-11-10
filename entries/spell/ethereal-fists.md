@@ -2,6 +2,7 @@
 id = "ref/spell/ethereal-fists"
 kind = "spell"
 title = "Ethereal Fists"
+aon = "SpellDisplay.aspx?ItemName=Ethereal%20Fists"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ethereal_fists", path = "json/spells4.json" },

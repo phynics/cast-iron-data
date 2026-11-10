@@ -2,6 +2,7 @@
 id = "ref/spell/touch-of-idiocy"
 kind = "spell"
 title = "Touch of Idiocy"
+aon = "SpellDisplay.aspx?ItemName=Touch%20of%20Idiocy"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "touch_of_idiocy", path = "json/spells10.json" },

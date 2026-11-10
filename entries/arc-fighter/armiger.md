@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/armiger"
 kind = "archetype"
 title = "Armiger"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Armiger"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "armiger", path = "json/archetypes_fighter.json" },

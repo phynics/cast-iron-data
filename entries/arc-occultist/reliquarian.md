@@ -2,6 +2,7 @@
 id = "ref/arc-occultist/reliquarian"
 kind = "archetype"
 title = "Reliquarian"
+aon = "ArchetypeDisplay.aspx?FixedName=Occultist%20Reliquarian"
 source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reliquarian", path = "json/archetypes_occultist.json" },

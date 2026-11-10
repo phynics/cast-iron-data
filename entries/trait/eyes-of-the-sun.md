@@ -2,6 +2,7 @@
 id = "ref/trait/eyes-of-the-sun"
 kind = "trait"
 title = "Eyes of the Sun"
+aon = "TraitDisplay.aspx?ItemName=Eyes%20of%20the%20Sun"
 source_ids = ["people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eyes_of_the_sun", path = "json/traits05.json" },

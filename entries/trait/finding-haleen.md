@@ -2,6 +2,7 @@
 id = "ref/trait/finding-haleen"
 kind = "trait"
 title = "Finding Haleen"
+aon = "TraitDisplay.aspx?ItemName=Finding%20Haleen"
 source_ids = ["legacy-of-fire-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "finding_haleen", path = "json/traits02.json" },

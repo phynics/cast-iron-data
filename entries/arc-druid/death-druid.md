@@ -2,6 +2,7 @@
 id = "ref/arc-druid/death-druid"
 kind = "archetype"
 title = "Death Druid"
+aon = "ArchetypeDisplay.aspx?FixedName=Druid%20Death%20Druid"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "death_druid", path = "json/archetypes_druid.json" },

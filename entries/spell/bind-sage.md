@@ -2,6 +2,7 @@
 id = "ref/spell/bind-sage"
 kind = "spell"
 title = "Bind Sage"
+aon = "SpellDisplay.aspx?ItemName=Bind%20Sage"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bind_sage", path = "json/spells12.json" },

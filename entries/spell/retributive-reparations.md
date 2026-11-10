@@ -2,6 +2,7 @@
 id = "ref/spell/retributive-reparations"
 kind = "spell"
 title = "Retributive Reparations"
+aon = "SpellDisplay.aspx?ItemName=Retributive%20Reparations"
 source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "retributive_reparations", path = "json/spells8.json" },

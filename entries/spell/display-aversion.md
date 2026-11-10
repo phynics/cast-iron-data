@@ -2,6 +2,7 @@
 id = "ref/spell/display-aversion"
 kind = "spell"
 title = "Display Aversion"
+aon = "SpellDisplay.aspx?ItemName=Display%20Aversion"
 source_ids = ["blood-of-the-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "display_aversion", path = "json/spells13.json" },

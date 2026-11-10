@@ -2,6 +2,7 @@
 id = "ref/feat/spinning-throw"
 kind = "feat"
 title = "Spinning Throw"
+aon = "FeatDisplay.aspx?ItemName=Spinning%20Throw"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spinning_throw", path = "json/feat14.json" },

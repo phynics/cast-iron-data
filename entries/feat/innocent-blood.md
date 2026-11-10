@@ -2,6 +2,7 @@
 id = "ref/feat/innocent-blood"
 kind = "feat"
 title = "Innocent Blood"
+aon = "FeatDisplay.aspx?ItemName=Innocent%20Blood"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "innocent_blood", path = "json/feat09.json" },

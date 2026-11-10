@@ -2,6 +2,7 @@
 id = "ref/monster/bolla"
 kind = "creature"
 title = "Bolla"
+aon = "MonsterDisplay.aspx?ItemName=Bolla"
 source_ids = ["pathfinder-136-temple-of-the-peacock-spirit"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bolla", path = "json/monsters27.json" },

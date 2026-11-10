@@ -2,6 +2,7 @@
 id = "ref/arc-slayer/spawn-slayer"
 kind = "archetype"
 title = "Spawn Slayer"
+aon = "ArchetypeDisplay.aspx?FixedName=Slayer%20Spawn%20Slayer"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spawn_slayer", path = "json/archetypes_slayer.json" },

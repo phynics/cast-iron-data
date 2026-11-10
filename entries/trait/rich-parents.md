@@ -2,6 +2,7 @@
 id = "ref/trait/rich-parents"
 kind = "trait"
 title = "Rich Parents"
+aon = "TraitDisplay.aspx?ItemName=Rich%20Parents"
 source_ids = ["ultimate-campaign", "advanced-players-guide", "second-darkness-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rich_parents", path = "json/traits01.json" },

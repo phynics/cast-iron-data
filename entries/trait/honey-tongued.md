@@ -2,6 +2,7 @@
 id = "ref/trait/honey-tongued"
 kind = "trait"
 title = "Honey-Tongued"
+aon = "TraitDisplay.aspx?ItemName=Honey-Tongued"
 source_ids = ["inner-sea-gods", "faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "honey_tongued", path = "json/traits03.json" },

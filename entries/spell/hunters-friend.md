@@ -2,6 +2,7 @@
 id = "ref/spell/hunters-friend"
 kind = "spell"
 title = "Hunter's Friend"
+aon = "SpellDisplay.aspx?ItemName=Hunter%27s%20Friend"
 source_ids = ["animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hunters_friend", path = "json/spells5.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-warpriest/fist-of-the-godclaw"
 kind = "archetype"
 title = "Fist of the Godclaw"
+aon = "ArchetypeDisplay.aspx?FixedName=Warpriest%20Fist%20of%20the%20Godclaw"
 source_ids = ["disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fist_of_the_godclaw", path = "json/archetypes_warpriest.json" },

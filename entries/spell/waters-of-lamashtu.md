@@ -2,6 +2,7 @@
 id = "ref/spell/waters-of-lamashtu"
 kind = "spell"
 title = "Waters of Lamashtu"
+aon = "SpellDisplay.aspx?ItemName=Waters%20of%20Lamashtu"
 source_ids = ["book-of-the-damned", "pathfinder-5-sins-of-the-saviors", "gods-and-magic", "inner-sea-world-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "waters_of_lamashtu", path = "json/spells11.json" },

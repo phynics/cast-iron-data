@@ -2,6 +2,7 @@
 id = "ref/arc-magus/sigilus"
 kind = "archetype"
 title = "Sigilus"
+aon = "ArchetypeDisplay.aspx?FixedName=Magus%20Sigilus"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sigilus", path = "json/archetypes_magus.json" },

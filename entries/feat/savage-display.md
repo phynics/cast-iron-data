@@ -2,6 +2,7 @@
 id = "ref/feat/savage-display"
 kind = "feat"
 title = "Savage Display"
+aon = "FeatDisplay.aspx?ItemName=Savage%20Display"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "savage_display", path = "json/feat13.json" },

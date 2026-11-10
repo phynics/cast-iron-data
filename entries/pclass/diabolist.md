@@ -2,6 +2,7 @@
 id = "ref/pclass/diabolist"
 kind = "prestige_class"
 title = "Diabolist"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Diabolist"
 source_ids = ["book-of-the-damned", "book-of-the-damned-volume-1-princes-of-darkness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "diabolist", path = "json/prestige_classes4.json" },

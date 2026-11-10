@@ -2,6 +2,7 @@
 id = "ref/trait/volatile-fuse"
 kind = "trait"
 title = "Volatile Fuse"
+aon = "TraitDisplay.aspx?ItemName=Volatile%20Fuse"
 source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "volatile_fuse", path = "json/traits01.json" },

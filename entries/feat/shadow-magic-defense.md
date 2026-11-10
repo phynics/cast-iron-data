@@ -2,6 +2,7 @@
 id = "ref/feat/shadow-magic-defense"
 kind = "feat"
 title = "Shadow Magic Defense"
+aon = "FeatDisplay.aspx?ItemName=Shadow%20Magic%20Defense"
 source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_magic_defense", path = "json/feat14.json" },

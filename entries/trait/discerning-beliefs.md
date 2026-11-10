@@ -2,6 +2,7 @@
 id = "ref/trait/discerning-beliefs"
 kind = "trait"
 title = "Discerning Beliefs"
+aon = "TraitDisplay.aspx?ItemName=Discerning%20Beliefs"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "discerning_beliefs", path = "json/traits04.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/pain-is-pleasure"
 kind = "trait"
 title = "Pain Is Pleasure"
+aon = "TraitDisplay.aspx?ItemName=Pain%20Is%20Pleasure"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pain_is_pleasure", path = "json/traits03.json" },

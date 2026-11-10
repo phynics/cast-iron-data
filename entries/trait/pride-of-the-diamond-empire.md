@@ -2,6 +2,7 @@
 id = "ref/trait/pride-of-the-diamond-empire"
 kind = "trait"
 title = "Pride of the Diamond Empire"
+aon = "TraitDisplay.aspx?ItemName=Pride%20of%20the%20Diamond%20Empire"
 source_ids = ["people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pride_of_the_diamond_empire", path = "json/traits05.json" },

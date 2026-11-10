@@ -2,6 +2,7 @@
 id = "ref/feat/arcane-insight"
 kind = "feat"
 title = "Arcane Insight"
+aon = "FeatDisplay.aspx?ItemName=Arcane%20Insight"
 source_ids = ["inner-sea-gods", "faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcane_insight", path = "json/feat01.json" },

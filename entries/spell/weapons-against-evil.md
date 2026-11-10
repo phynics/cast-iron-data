@@ -2,6 +2,7 @@
 id = "ref/spell/weapons-against-evil"
 kind = "spell"
 title = "Weapons Against Evil"
+aon = "SpellDisplay.aspx?ItemName=Weapons%20Against%20Evil"
 source_ids = ["inner-sea-gods", "faiths-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weapons_against_evil", path = "json/spells11.json" },

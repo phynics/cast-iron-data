@@ -2,6 +2,7 @@
 id = "ref/magic-rod/metamagicians-apprentice"
 kind = "item"
 title = "Metamagician's Apprentice"
+aon = "MagicIntelligentDisplay.aspx?ItemName=Metamagician%27s%20Apprentice"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "metamagicians_apprentice", path = "json/magic_rod.json" },

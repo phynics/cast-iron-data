@@ -2,6 +2,7 @@
 id = "ref/spell/object-reading"
 kind = "spell"
 title = "Object Reading"
+aon = "SpellDisplay.aspx?ItemName=Object%20Reading"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "object_reading", path = "json/spells7.json" },

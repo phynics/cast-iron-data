@@ -2,6 +2,7 @@
 id = "ref/spell/minor-reversion-mass"
 kind = "spell"
 title = "Mass Minor Reversion"
+aon = "SpellDisplay.aspx?ItemName=Minor%20Reversion%2C%20Mass"
 source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "minor_reversion_mass", path = "json/spells14.json" },

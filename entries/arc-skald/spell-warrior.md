@@ -2,6 +2,7 @@
 id = "ref/arc-skald/spell-warrior"
 kind = "archetype"
 title = "Spell Warrior"
+aon = "ArchetypeDisplay.aspx?FixedName=Skald%20Spell%20Warrior"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_warrior", path = "json/archetypes_skald.json" },

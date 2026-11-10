@@ -2,6 +2,7 @@
 id = "ref/spell/visualization-of-the-mind"
 kind = "spell"
 title = "Visualization of the Mind"
+aon = "SpellDisplay.aspx?ItemName=Visualization%20of%20the%20Mind"
 source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "visualization_of_the_mind", path = "json/spells11.json" },

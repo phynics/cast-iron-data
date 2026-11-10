@@ -2,6 +2,7 @@
 id = "ref/spell/impossible-angles"
 kind = "spell"
 title = "Impossible Angles"
+aon = "SpellDisplay.aspx?ItemName=Impossible%20Angles"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "impossible_angles", path = "json/spells14.json" },

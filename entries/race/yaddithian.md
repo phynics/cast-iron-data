@@ -2,6 +2,7 @@
 id = "ref/race/yaddithian"
 kind = "race"
 title = "Yaddithian"
+aon = "RacesDisplay.aspx?ItemName=Yaddithian"
 source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "yaddithian", path = "json/races4.json" },

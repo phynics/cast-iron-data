@@ -2,6 +2,7 @@
 id = "ref/feat/boar-style"
 kind = "feat"
 title = "Boar Style"
+aon = "FeatDisplay.aspx?ItemName=Boar%20Style"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boar_style", path = "json/feat02.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/insistent-benefactor"
 kind = "trait"
 title = "Insistent Benefactor"
+aon = "TraitDisplay.aspx?ItemName=Insistent%20Benefactor"
 source_ids = ["pathfinder-society-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "insistent_benefactor", path = "json/traits02.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/aura-alteration"
 kind = "spell"
 title = "Aura Alteration"
+aon = "SpellDisplay.aspx?ItemName=Aura%20Alteration"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aura_alteration", path = "json/spells.json" },

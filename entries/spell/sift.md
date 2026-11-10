@@ -2,6 +2,7 @@
 id = "ref/spell/sift"
 kind = "spell"
 title = "Sift"
+aon = "SpellDisplay.aspx?ItemName=Sift"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sift", path = "json/spells9.json" },

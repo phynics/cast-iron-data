@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/vacuous-grimoire"
 kind = "item"
 title = "Vacuous Grimoire"
+aon = "MagicCursedDisplay.aspx?ItemName=Vacuous%20Grimoire"
 source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vacuous_grimoire", path = "json/magic_wondrous_slotless06.json" },

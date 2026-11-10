@@ -2,6 +2,7 @@
 id = "ref/feat/reactive-healing"
 kind = "feat"
 title = "Reactive Healing"
+aon = "FeatDisplay.aspx?ItemName=Reactive%20Healing"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reactive_healing", path = "json/feat13.json" },

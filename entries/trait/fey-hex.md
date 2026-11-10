@@ -2,6 +2,7 @@
 id = "ref/trait/fey-hex"
 kind = "trait"
 title = "Fey Hex"
+aon = "TraitDisplay.aspx?ItemName=Fey%20Hex"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fey_hex", path = "json/traits04.json" },

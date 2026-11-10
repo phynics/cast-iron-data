@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/skirmisher"
 kind = "archetype"
 title = "Skirmisher"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Skirmisher"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skirmisher", path = "json/archetypes_fighter2.json" },

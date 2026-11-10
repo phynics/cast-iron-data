@@ -2,6 +2,7 @@
 id = "ref/arc-magus/myrmidarch"
 kind = "archetype"
 title = "Myrmidarch"
+aon = "ArchetypeDisplay.aspx?FixedName=Magus%20Myrmidarch"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "myrmidarch", path = "json/archetypes_magus.json" },

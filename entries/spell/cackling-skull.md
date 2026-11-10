@@ -2,6 +2,7 @@
 id = "ref/spell/cackling-skull"
 kind = "spell"
 title = "Cackling Skull"
+aon = "SpellDisplay.aspx?ItemName=Cackling%20Skull"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cackling_skull", path = "json/spells2.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/ki-arrow"
 kind = "spell"
 title = "Ki Arrow"
+aon = "SpellDisplay.aspx?ItemName=Ki%20Arrow"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ki_arrow", path = "json/spells6.json" },

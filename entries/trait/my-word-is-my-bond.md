@@ -2,6 +2,7 @@
 id = "ref/trait/my-word-is-my-bond"
 kind = "trait"
 title = "My Word Is My Bond"
+aon = "TraitDisplay.aspx?ItemName=My%20Word%20Is%20My%20Bond"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "my_word_is_my_bond", path = "json/traits05.json" },

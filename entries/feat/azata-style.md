@@ -2,6 +2,7 @@
 id = "ref/feat/azata-style"
 kind = "feat"
 title = "Azata Style"
+aon = "FeatDisplay.aspx?ItemName=Azata%20Style"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "azata_style", path = "json/feat01.json" },

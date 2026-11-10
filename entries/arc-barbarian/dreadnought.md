@@ -2,6 +2,7 @@
 id = "ref/arc-barbarian/dreadnought"
 kind = "archetype"
 title = "Dreadnought"
+aon = "ArchetypeDisplay.aspx?FixedName=Barbarian%20Dreadnought"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dreadnought", path = "json/archetypes_barbarian.json" },

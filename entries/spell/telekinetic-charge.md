@@ -2,6 +2,7 @@
 id = "ref/spell/telekinetic-charge"
 kind = "spell"
 title = "Telekinetic Charge"
+aon = "SpellDisplay.aspx?ItemName=Telekinetic%20Charge"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "telekinetic_charge", path = "json/spells10.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/honeyed-tongue"
 kind = "spell"
 title = "Honeyed Tongue"
+aon = "SpellDisplay.aspx?ItemName=Honeyed%20Tongue"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "honeyed_tongue", path = "json/spells5.json" },

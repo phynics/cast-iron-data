@@ -2,6 +2,7 @@
 id = "ref/pclass/stalwart-defender"
 kind = "prestige_class"
 title = "Stalwart Defender"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Stalwart%20Defender"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stalwart_defender", path = "json/prestige_classes3.json" },

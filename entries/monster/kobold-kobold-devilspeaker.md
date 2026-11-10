@@ -2,6 +2,7 @@
 id = "ref/monster/kobold-kobold-devilspeaker"
 kind = "creature"
 title = "Kobold Devilspeaker"
+aon = "MonsterDisplay.aspx?ItemName=Kobold%20Devilspeaker"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kobold_kobold_devilspeaker", path = "json/monsters15.json" },

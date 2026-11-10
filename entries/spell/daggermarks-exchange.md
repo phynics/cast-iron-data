@@ -2,6 +2,7 @@
 id = "ref/spell/daggermarks-exchange"
 kind = "spell"
 title = "Daggermark's Exchange"
+aon = "SpellDisplay.aspx?ItemName=Daggermark%27s%20Exchange"
 source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daggermarks_exchange", path = "json/spells3.json" },

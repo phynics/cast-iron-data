@@ -2,6 +2,7 @@
 id = "ref/feat/all-consuming-swing"
 kind = "feat"
 title = "All-Consuming Swing"
+aon = "FeatDisplay.aspx?ItemName=All-Consuming%20Swing"
 source_ids = ["the-harrow-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "all_consuming_swing", path = "json/feat01.json" },

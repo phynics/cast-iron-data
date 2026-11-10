@@ -2,6 +2,7 @@
 id = "ref/trait/cross-knowledge"
 kind = "trait"
 title = "Cross-Knowledge"
+aon = "TraitDisplay.aspx?ItemName=Cross-Knowledge"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cross_knowledge", path = "json/traits02.json" },

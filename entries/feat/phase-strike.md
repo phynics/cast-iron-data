@@ -2,6 +2,7 @@
 id = "ref/feat/phase-strike"
 kind = "feat"
 title = "Phase Strike"
+aon = "FeatDisplay.aspx?ItemName=Phase%20Strike"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phase_strike", path = "json/feat12.json" },

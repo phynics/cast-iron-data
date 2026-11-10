@@ -2,6 +2,7 @@
 id = "ref/spell/joyful-rapture"
 kind = "spell"
 title = "Joyful Rapture"
+aon = "SpellDisplay.aspx?ItemName=Joyful%20Rapture"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "joyful_rapture", path = "json/spells6.json" },

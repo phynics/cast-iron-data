@@ -2,6 +2,7 @@
 id = "ref/feat/expansive-trap-ability"
 kind = "feat"
 title = "Expansive Trap Ability"
+aon = "FeatDisplay.aspx?ItemName=Expansive%20Trap%20Ability"
 source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "expansive_trap_ability", path = "json/feat06.json" },

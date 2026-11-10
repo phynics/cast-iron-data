@@ -2,6 +2,7 @@
 id = "ref/spell/boneshaker"
 kind = "spell"
 title = "Boneshaker"
+aon = "SpellDisplay.aspx?ItemName=Boneshaker"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boneshaker", path = "json/spells2.json" },

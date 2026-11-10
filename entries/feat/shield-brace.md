@@ -2,6 +2,7 @@
 id = "ref/feat/shield-brace"
 kind = "feat"
 title = "Shield Brace"
+aon = "FeatDisplay.aspx?ItemName=Shield%20Brace"
 source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_brace", path = "json/feat14.json" },

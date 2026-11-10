@@ -2,6 +2,7 @@
 id = "ref/trait/inured-to-death"
 kind = "trait"
 title = "Inured to Death"
+aon = "TraitDisplay.aspx?ItemName=Inured%20to%20Death"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inured_to_death", path = "json/traits02.json" },

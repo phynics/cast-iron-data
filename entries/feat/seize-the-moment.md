@@ -2,6 +2,7 @@
 id = "ref/feat/seize-the-moment"
 kind = "feat"
 title = "Seize the Moment"
+aon = "FeatDisplay.aspx?ItemName=Seize%20the%20Moment"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seize_the_moment", path = "json/feat13.json" },

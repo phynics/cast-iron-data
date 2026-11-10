@@ -2,6 +2,7 @@
 id = "ref/arc-sorcerer/crossblooded"
 kind = "archetype"
 title = "Crossblooded"
+aon = "ArchetypeDisplay.aspx?FixedName=Sorcerer%20Crossblooded"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crossblooded", path = "json/archetypes_sorcerer.json" },

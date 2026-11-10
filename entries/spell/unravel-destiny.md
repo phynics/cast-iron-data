@@ -2,6 +2,7 @@
 id = "ref/spell/unravel-destiny"
 kind = "spell"
 title = "Unravel Destiny"
+aon = "SpellDisplay.aspx?ItemName=Unravel%20Destiny"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unravel_destiny", path = "json/spells11.json" },

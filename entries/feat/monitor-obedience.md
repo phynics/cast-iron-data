@@ -2,6 +2,7 @@
 id = "ref/feat/monitor-obedience"
 kind = "feat"
 title = "Monitor Obedience"
+aon = "FeatDisplay.aspx?ItemName=Monitor%20Obedience"
 source_ids = ["concordance-of-rivals"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monitor_obedience", path = "json/feat11.json" },

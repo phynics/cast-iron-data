@@ -2,6 +2,7 @@
 id = "ref/carried/bestiary/monsters/lich"
 kind = "creature"
 title = "Lich"
+aon = "MonsterDisplay.aspx?ItemName=Lich"
 source_ids = ["bestiary"]
 section = ["Monsters"]
 tags = ["undead", "augmented humanoid", "medium"]

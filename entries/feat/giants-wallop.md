@@ -2,6 +2,7 @@
 id = "ref/feat/giants-wallop"
 kind = "feat"
 title = "Giant's Wallop"
+aon = "FeatDisplay.aspx?ItemName=Giant%27s%20Wallop"
 source_ids = ["pathfinder-91-battle-of-bloodmarch-hills"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giants_wallop", path = "json/feat07.json" },

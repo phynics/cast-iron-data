@@ -2,6 +2,7 @@
 id = "ref/pclass/cyphermage"
 kind = "prestige_class"
 title = "Cyphermage"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Cyphermage"
 source_ids = ["adventurers-guide", "inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cyphermage", path = "json/prestige_classes.json" },

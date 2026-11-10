@@ -2,6 +2,7 @@
 id = "ref/monster/devil-gambling-devil-magadaz"
 kind = "creature"
 title = "Gambling Devil (Magadaz)"
+aon = "MonsterDisplay.aspx?ItemName=Gambling%20Devil%20%28Magadaz%29"
 source_ids = ["pathfinder-97-in-hells-bright-shadow"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_gambling_devil_magadaz", path = "json/monsters07.json" },

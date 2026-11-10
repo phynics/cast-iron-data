@@ -2,6 +2,7 @@
 id = "ref/trait/wise-teacher"
 kind = "trait"
 title = "Wise Teacher"
+aon = "TraitDisplay.aspx?ItemName=Wise%20Teacher"
 source_ids = ["inner-sea-gods", "faiths-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wise_teacher", path = "json/traits03.json" },

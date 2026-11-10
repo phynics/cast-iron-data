@@ -2,6 +2,7 @@
 id = "ref/trait/oathkeepers-vow"
 kind = "trait"
 title = "Oathkeeper's Vow"
+aon = "TraitDisplay.aspx?ItemName=Oathkeeper%27s%20Vow"
 source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oathkeepers_vow", path = "json/traits03.json" },

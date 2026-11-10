@@ -2,6 +2,7 @@
 id = "ref/spell/repel-vermin"
 kind = "spell"
 title = "Repel Vermin"
+aon = "SpellDisplay.aspx?ItemName=Repel%20Vermin"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "repel_vermin", path = "json/spells8.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/destructive-persuasion"
 kind = "feat"
 title = "Destructive Persuasion"
+aon = "FeatDisplay.aspx?ItemName=Destructive%20Persuasion"
 source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "destructive_persuasion", path = "json/feat04.json" },

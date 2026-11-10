@@ -2,6 +2,7 @@
 id = "ref/monster/sorrow-stitcher"
 kind = "creature"
 title = "Sorrow Stitcher"
+aon = "MonsterDisplay.aspx?ItemName=Sorrow%20Stitcher"
 source_ids = ["seers-of-the-drowned-city"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sorrow_stitcher", path = "json/monsters22.json" },

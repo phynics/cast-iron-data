@@ -2,6 +2,7 @@
 id = "ref/feat/linnorm-style"
 kind = "feat"
 title = "Linnorm Style"
+aon = "FeatDisplay.aspx?ItemName=Linnorm%20Style"
 source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "linnorm_style", path = "json/feat10.json" },

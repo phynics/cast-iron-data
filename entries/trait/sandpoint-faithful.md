@@ -2,6 +2,7 @@
 id = "ref/trait/sandpoint-faithful"
 kind = "trait"
 title = "Sandpoint Faithful"
+aon = "TraitDisplay.aspx?ItemName=Sandpoint%20Faithful"
 source_ids = ["varisia-birthplace-of-legends", "rise-of-the-runelords-anniversary-edition-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sandpoint_faithful", path = "json/traits02.json" },

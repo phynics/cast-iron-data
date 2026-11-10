@@ -2,6 +2,7 @@
 id = "ref/monster/spore-stalker"
 kind = "creature"
 title = "Spore Stalker"
+aon = "MonsterDisplay.aspx?ItemName=Spore%20Stalker"
 source_ids = ["seers-of-the-drowned-city"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spore_stalker", path = "json/monsters22.json" },

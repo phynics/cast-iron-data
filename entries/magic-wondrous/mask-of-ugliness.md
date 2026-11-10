@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/mask-of-ugliness"
 kind = "item"
 title = "Mask of Ugliness"
+aon = "MagicCursedDisplay.aspx?ItemName=Mask%20of%20Ugliness"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mask_of_ugliness", path = "json/magic_wondrous_head_headband.json" },

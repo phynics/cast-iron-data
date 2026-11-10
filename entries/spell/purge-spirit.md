@@ -2,6 +2,7 @@
 id = "ref/spell/purge-spirit"
 kind = "spell"
 title = "Purge Spirit"
+aon = "SpellDisplay.aspx?ItemName=Purge%20Spirit"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "purge_spirit", path = "json/spells15.json" },

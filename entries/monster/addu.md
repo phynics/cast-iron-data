@@ -2,6 +2,7 @@
 id = "ref/monster/addu"
 kind = "creature"
 title = "Addu"
+aon = "MonsterDisplay.aspx?ItemName=Addu"
 source_ids = ["pathfinder-60-from-hells-heart"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "addu", path = "json/monsters01.json" },

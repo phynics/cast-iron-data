@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-evasion"
 kind = "item"
 title = "Ring of Evasion"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Evasion"
 source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_evasion", path = "json/magic_ring.json" },
